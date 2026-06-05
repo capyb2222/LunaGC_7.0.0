@@ -18,6 +18,17 @@ public final class ChooseCurAvatarTeamReqOuterClass {
       // @@protoc_insertion_point(interface_extends:ChooseCurAvatarTeamReq)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 team_id = 5;</code>
+     * @return The teamId.
+     */
+>>>>>>> origin/6.5.0
     int getTeamId();
   }
   /**
@@ -108,7 +119,18 @@ public final class ChooseCurAvatarTeamReqOuterClass {
 
     public static final int TEAM_ID_FIELD_NUMBER = 10;
     private int teamId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 team_id = 5;</code>
+     * @return The teamId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getTeamId() {
       return teamId_;
@@ -421,19 +443,53 @@ public final class ChooseCurAvatarTeamReqOuterClass {
       }
 
       private int teamId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 team_id = 5;</code>
+       * @return The teamId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getTeamId() {
         return teamId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 team_id = 5;</code>
+       * @param value The teamId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setTeamId(int value) {
 
         teamId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 team_id = 5;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearTeamId() {
 
         teamId_ = 0;

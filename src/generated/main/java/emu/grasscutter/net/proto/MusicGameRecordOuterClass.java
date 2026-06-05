@@ -24,6 +24,17 @@ public final class MusicGameRecordOuterClass {
      */
     int getUgcGuid();
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 max_combo = 9;</code>
+     * @return The maxCombo.
+     */
+>>>>>>> origin/6.5.0
     int getMaxCombo();
 
     /**
@@ -137,7 +148,18 @@ public final class MusicGameRecordOuterClass {
 
     public static final int MAX_COMBO_FIELD_NUMBER = 9;
     private int maxCombo_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 max_combo = 9;</code>
+     * @return The maxCombo.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getMaxCombo() {
       return maxCombo_;
@@ -523,19 +545,53 @@ public final class MusicGameRecordOuterClass {
       }
 
       private int maxCombo_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 max_combo = 9;</code>
+       * @return The maxCombo.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getMaxCombo() {
         return maxCombo_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 max_combo = 9;</code>
+       * @param value The maxCombo to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setMaxCombo(int value) {
 
         maxCombo_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 max_combo = 9;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearMaxCombo() {
 
         maxCombo_ = 0;

@@ -18,6 +18,7 @@ public final class ClientGadgetInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:ClientGadgetInfo)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     java.util.List<java.lang.Integer> getTargetEntityIdListList();
 
     int getTargetEntityIdListCount();
@@ -42,6 +43,134 @@ public final class ClientGadgetInfoOuterClass {
 
     boolean getAsyncLoad();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 target_entity_id_list = 8;</code>
+     * @return A list containing the targetEntityIdList.
+     */
+    java.util.List<java.lang.Integer> getTargetEntityIdListList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 target_entity_id_list = 8;</code>
+     * @return The count of targetEntityIdList.
+     */
+    int getTargetEntityIdListCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 target_entity_id_list = 8;</code>
+     * @param index The index of the element to return.
+     * @return The targetEntityIdList at the given index.
+     */
+    int getTargetEntityIdList(int index);
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 target_lock_point_index_list = 9;</code>
+     * @return A list containing the targetLockPointIndexList.
+     */
+    java.util.List<java.lang.Integer> getTargetLockPointIndexListList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 target_lock_point_index_list = 9;</code>
+     * @return The count of targetLockPointIndexList.
+     */
+    int getTargetLockPointIndexListCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 target_lock_point_index_list = 9;</code>
+     * @param index The index of the element to return.
+     * @return The targetLockPointIndexList at the given index.
+     */
+    int getTargetLockPointIndexList(int index);
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 target_entity_id = 5;</code>
+     * @return The targetEntityId.
+     */
+    int getTargetEntityId();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 owner_entity_id = 4;</code>
+     * @return The ownerEntityId.
+     */
+    int getOwnerEntityId();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 camp_type = 2;</code>
+     * @return The campType.
+     */
+    int getCampType();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 camp_id = 1;</code>
+     * @return The campId.
+     */
+    int getCampId();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint64 guid = 3;</code>
+     * @return The guid.
+     */
+    long getGuid();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>bool async_load = 6;</code>
+     * @return The asyncLoad.
+     */
+    boolean getAsyncLoad();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>bool is_peer_id_from_player = 7;</code>
+     * @return The isPeerIdFromPlayer.
+     */
+>>>>>>> origin/6.5.0
     boolean getIsPeerIdFromPlayer();
   }
   /**
@@ -209,17 +338,51 @@ public final class ClientGadgetInfoOuterClass {
 
     public static final int TARGET_ENTITY_ID_LIST_FIELD_NUMBER = 8;
     private com.google.protobuf.Internal.IntList targetEntityIdList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 target_entity_id_list = 8;</code>
+     * @return A list containing the targetEntityIdList.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getTargetEntityIdListList() {
       return targetEntityIdList_;
     }
+<<<<<<< HEAD
 
     public int getTargetEntityIdListCount() {
       return targetEntityIdList_.size();
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 target_entity_id_list = 8;</code>
+     * @return The count of targetEntityIdList.
+     */
+    public int getTargetEntityIdListCount() {
+      return targetEntityIdList_.size();
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 target_entity_id_list = 8;</code>
+     * @param index The index of the element to return.
+     * @return The targetEntityIdList at the given index.
+     */
+>>>>>>> origin/6.5.0
     public int getTargetEntityIdList(int index) {
       return targetEntityIdList_.getInt(index);
     }
@@ -227,17 +390,51 @@ public final class ClientGadgetInfoOuterClass {
 
     public static final int TARGET_LOCK_POINT_INDEX_LIST_FIELD_NUMBER = 9;
     private com.google.protobuf.Internal.IntList targetLockPointIndexList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 target_lock_point_index_list = 9;</code>
+     * @return A list containing the targetLockPointIndexList.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getTargetLockPointIndexListList() {
       return targetLockPointIndexList_;
     }
+<<<<<<< HEAD
 
     public int getTargetLockPointIndexListCount() {
       return targetLockPointIndexList_.size();
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 target_lock_point_index_list = 9;</code>
+     * @return The count of targetLockPointIndexList.
+     */
+    public int getTargetLockPointIndexListCount() {
+      return targetLockPointIndexList_.size();
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 target_lock_point_index_list = 9;</code>
+     * @param index The index of the element to return.
+     * @return The targetLockPointIndexList at the given index.
+     */
+>>>>>>> origin/6.5.0
     public int getTargetLockPointIndexList(int index) {
       return targetLockPointIndexList_.getInt(index);
     }
@@ -245,7 +442,18 @@ public final class ClientGadgetInfoOuterClass {
 
     public static final int TARGET_ENTITY_ID_FIELD_NUMBER = 5;
     private int targetEntityId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 target_entity_id = 5;</code>
+     * @return The targetEntityId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getTargetEntityId() {
       return targetEntityId_;
@@ -253,7 +461,18 @@ public final class ClientGadgetInfoOuterClass {
 
     public static final int OWNER_ENTITY_ID_FIELD_NUMBER = 4;
     private int ownerEntityId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 owner_entity_id = 4;</code>
+     * @return The ownerEntityId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getOwnerEntityId() {
       return ownerEntityId_;
@@ -261,7 +480,18 @@ public final class ClientGadgetInfoOuterClass {
 
     public static final int CAMP_TYPE_FIELD_NUMBER = 2;
     private int campType_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 camp_type = 2;</code>
+     * @return The campType.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCampType() {
       return campType_;
@@ -269,7 +499,18 @@ public final class ClientGadgetInfoOuterClass {
 
     public static final int CAMP_ID_FIELD_NUMBER = 1;
     private int campId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 camp_id = 1;</code>
+     * @return The campId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCampId() {
       return campId_;
@@ -277,7 +518,18 @@ public final class ClientGadgetInfoOuterClass {
 
     public static final int GUID_FIELD_NUMBER = 3;
     private long guid_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint64 guid = 3;</code>
+     * @return The guid.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getGuid() {
       return guid_;
@@ -285,7 +537,18 @@ public final class ClientGadgetInfoOuterClass {
 
     public static final int ASYNC_LOAD_FIELD_NUMBER = 6;
     private boolean asyncLoad_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>bool async_load = 6;</code>
+     * @return The asyncLoad.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getAsyncLoad() {
       return asyncLoad_;
@@ -293,7 +556,18 @@ public final class ClientGadgetInfoOuterClass {
 
     public static final int IS_PEER_ID_FROM_PLAYER_FIELD_NUMBER = 7;
     private boolean isPeerIdFromPlayer_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>bool is_peer_id_from_player = 7;</code>
+     * @return The isPeerIdFromPlayer.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsPeerIdFromPlayer() {
       return isPeerIdFromPlayer_;
@@ -804,12 +1078,24 @@ public final class ClientGadgetInfoOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 target_entity_id_list = 8;</code>
+       * @return A list containing the targetEntityIdList.
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getTargetEntityIdListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(targetEntityIdList_) : targetEntityIdList_;
       }
+<<<<<<< HEAD
 
       public int getTargetEntityIdListCount() {
         return targetEntityIdList_.size();
@@ -819,6 +1105,41 @@ public final class ClientGadgetInfoOuterClass {
         return targetEntityIdList_.getInt(index);
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 target_entity_id_list = 8;</code>
+       * @return The count of targetEntityIdList.
+       */
+      public int getTargetEntityIdListCount() {
+        return targetEntityIdList_.size();
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 target_entity_id_list = 8;</code>
+       * @param index The index of the element to return.
+       * @return The targetEntityIdList at the given index.
+       */
+      public int getTargetEntityIdList(int index) {
+        return targetEntityIdList_.getInt(index);
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 target_entity_id_list = 8;</code>
+       * @param index The index to set the value at.
+       * @param value The targetEntityIdList to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setTargetEntityIdList(
           int index, int value) {
         ensureTargetEntityIdListIsMutable();
@@ -826,14 +1147,38 @@ public final class ClientGadgetInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 target_entity_id_list = 8;</code>
+       * @param value The targetEntityIdList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addTargetEntityIdList(int value) {
         ensureTargetEntityIdListIsMutable();
         targetEntityIdList_.addInt(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 target_entity_id_list = 8;</code>
+       * @param values The targetEntityIdList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllTargetEntityIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureTargetEntityIdListIsMutable();
@@ -842,7 +1187,18 @@ public final class ClientGadgetInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 target_entity_id_list = 8;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearTargetEntityIdList() {
         targetEntityIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -857,12 +1213,24 @@ public final class ClientGadgetInfoOuterClass {
           bitField0_ |= 0x00000002;
          }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 target_lock_point_index_list = 9;</code>
+       * @return A list containing the targetLockPointIndexList.
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getTargetLockPointIndexListList() {
         return ((bitField0_ & 0x00000002) != 0) ?
                  java.util.Collections.unmodifiableList(targetLockPointIndexList_) : targetLockPointIndexList_;
       }
+<<<<<<< HEAD
 
       public int getTargetLockPointIndexListCount() {
         return targetLockPointIndexList_.size();
@@ -872,6 +1240,41 @@ public final class ClientGadgetInfoOuterClass {
         return targetLockPointIndexList_.getInt(index);
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 target_lock_point_index_list = 9;</code>
+       * @return The count of targetLockPointIndexList.
+       */
+      public int getTargetLockPointIndexListCount() {
+        return targetLockPointIndexList_.size();
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 target_lock_point_index_list = 9;</code>
+       * @param index The index of the element to return.
+       * @return The targetLockPointIndexList at the given index.
+       */
+      public int getTargetLockPointIndexList(int index) {
+        return targetLockPointIndexList_.getInt(index);
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 target_lock_point_index_list = 9;</code>
+       * @param index The index to set the value at.
+       * @param value The targetLockPointIndexList to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setTargetLockPointIndexList(
           int index, int value) {
         ensureTargetLockPointIndexListIsMutable();
@@ -879,14 +1282,38 @@ public final class ClientGadgetInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 target_lock_point_index_list = 9;</code>
+       * @param value The targetLockPointIndexList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addTargetLockPointIndexList(int value) {
         ensureTargetLockPointIndexListIsMutable();
         targetLockPointIndexList_.addInt(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 target_lock_point_index_list = 9;</code>
+       * @param values The targetLockPointIndexList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllTargetLockPointIndexList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureTargetLockPointIndexListIsMutable();
@@ -895,7 +1322,18 @@ public final class ClientGadgetInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 target_lock_point_index_list = 9;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearTargetLockPointIndexList() {
         targetLockPointIndexList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
@@ -904,19 +1342,53 @@ public final class ClientGadgetInfoOuterClass {
       }
 
       private int targetEntityId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 target_entity_id = 5;</code>
+       * @return The targetEntityId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getTargetEntityId() {
         return targetEntityId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 target_entity_id = 5;</code>
+       * @param value The targetEntityId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setTargetEntityId(int value) {
 
         targetEntityId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 target_entity_id = 5;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearTargetEntityId() {
 
         targetEntityId_ = 0;
@@ -925,19 +1397,53 @@ public final class ClientGadgetInfoOuterClass {
       }
 
       private int ownerEntityId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 owner_entity_id = 4;</code>
+       * @return The ownerEntityId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getOwnerEntityId() {
         return ownerEntityId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 owner_entity_id = 4;</code>
+       * @param value The ownerEntityId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setOwnerEntityId(int value) {
 
         ownerEntityId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 owner_entity_id = 4;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearOwnerEntityId() {
 
         ownerEntityId_ = 0;
@@ -946,19 +1452,53 @@ public final class ClientGadgetInfoOuterClass {
       }
 
       private int campType_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 camp_type = 2;</code>
+       * @return The campType.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCampType() {
         return campType_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 camp_type = 2;</code>
+       * @param value The campType to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setCampType(int value) {
 
         campType_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 camp_type = 2;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearCampType() {
 
         campType_ = 0;
@@ -967,19 +1507,53 @@ public final class ClientGadgetInfoOuterClass {
       }
 
       private int campId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 camp_id = 1;</code>
+       * @return The campId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCampId() {
         return campId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 camp_id = 1;</code>
+       * @param value The campId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setCampId(int value) {
 
         campId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 camp_id = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearCampId() {
 
         campId_ = 0;
@@ -988,19 +1562,53 @@ public final class ClientGadgetInfoOuterClass {
       }
 
       private long guid_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint64 guid = 3;</code>
+       * @return The guid.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getGuid() {
         return guid_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint64 guid = 3;</code>
+       * @param value The guid to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setGuid(long value) {
 
         guid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint64 guid = 3;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearGuid() {
 
         guid_ = 0L;
@@ -1009,19 +1617,53 @@ public final class ClientGadgetInfoOuterClass {
       }
 
       private boolean asyncLoad_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>bool async_load = 6;</code>
+       * @return The asyncLoad.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getAsyncLoad() {
         return asyncLoad_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>bool async_load = 6;</code>
+       * @param value The asyncLoad to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setAsyncLoad(boolean value) {
 
         asyncLoad_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>bool async_load = 6;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearAsyncLoad() {
 
         asyncLoad_ = false;
@@ -1030,19 +1672,53 @@ public final class ClientGadgetInfoOuterClass {
       }
 
       private boolean isPeerIdFromPlayer_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>bool is_peer_id_from_player = 7;</code>
+       * @return The isPeerIdFromPlayer.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsPeerIdFromPlayer() {
         return isPeerIdFromPlayer_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>bool is_peer_id_from_player = 7;</code>
+       * @param value The isPeerIdFromPlayer to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setIsPeerIdFromPlayer(boolean value) {
 
         isPeerIdFromPlayer_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>bool is_peer_id_from_player = 7;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearIsPeerIdFromPlayer() {
 
         isPeerIdFromPlayer_ = false;

@@ -18,12 +18,53 @@ public final class ItemHintOuterClass {
       // @@protoc_insertion_point(interface_extends:ItemHint)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     boolean getIsNew();
 
     int getItemId();
 
     int getCount();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>bool is_new = 3;</code>
+     * @return The isNew.
+     */
+    boolean getIsNew();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 item_id = 1;</code>
+     * @return The itemId.
+     */
+    int getItemId();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 count = 2;</code>
+     * @return The count.
+     */
+    int getCount();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint64 guid = 4;</code>
+     * @return The guid.
+     */
+>>>>>>> origin/6.5.0
     long getGuid();
   }
   /**
@@ -125,7 +166,18 @@ public final class ItemHintOuterClass {
 
     public static final int IS_NEW_FIELD_NUMBER = 3;
     private boolean isNew_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>bool is_new = 3;</code>
+     * @return The isNew.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsNew() {
       return isNew_;
@@ -133,7 +185,18 @@ public final class ItemHintOuterClass {
 
     public static final int ITEM_ID_FIELD_NUMBER = 1;
     private int itemId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 item_id = 1;</code>
+     * @return The itemId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getItemId() {
       return itemId_;
@@ -141,7 +204,18 @@ public final class ItemHintOuterClass {
 
     public static final int COUNT_FIELD_NUMBER = 2;
     private int count_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 count = 2;</code>
+     * @return The count.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCount() {
       return count_;
@@ -149,7 +223,18 @@ public final class ItemHintOuterClass {
 
     public static final int GUID_FIELD_NUMBER = 4;
     private long guid_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint64 guid = 4;</code>
+     * @return The guid.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getGuid() {
       return guid_;
@@ -511,19 +596,53 @@ public final class ItemHintOuterClass {
       }
 
       private boolean isNew_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>bool is_new = 3;</code>
+       * @return The isNew.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsNew() {
         return isNew_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>bool is_new = 3;</code>
+       * @param value The isNew to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setIsNew(boolean value) {
 
         isNew_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>bool is_new = 3;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearIsNew() {
 
         isNew_ = false;
@@ -532,19 +651,53 @@ public final class ItemHintOuterClass {
       }
 
       private int itemId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 item_id = 1;</code>
+       * @return The itemId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getItemId() {
         return itemId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 item_id = 1;</code>
+       * @param value The itemId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setItemId(int value) {
 
         itemId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 item_id = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearItemId() {
 
         itemId_ = 0;
@@ -553,19 +706,53 @@ public final class ItemHintOuterClass {
       }
 
       private int count_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 count = 2;</code>
+       * @return The count.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCount() {
         return count_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 count = 2;</code>
+       * @param value The count to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setCount(int value) {
 
         count_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 count = 2;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearCount() {
 
         count_ = 0;
@@ -574,19 +761,53 @@ public final class ItemHintOuterClass {
       }
 
       private long guid_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint64 guid = 4;</code>
+       * @return The guid.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getGuid() {
         return guid_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint64 guid = 4;</code>
+       * @param value The guid to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setGuid(long value) {
 
         guid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint64 guid = 4;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearGuid() {
 
         guid_ = 0L;

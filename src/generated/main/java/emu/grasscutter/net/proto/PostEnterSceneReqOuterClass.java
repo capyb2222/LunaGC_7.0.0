@@ -20,6 +20,17 @@ public final class PostEnterSceneReqOuterClass {
 
     int getEnterSceneToken();
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>double total_tick_time = 3;</code>
+     * @return The totalTickTime.
+     */
+>>>>>>> origin/6.5.0
     double getTotalTickTime();
   }
   /**
@@ -123,7 +134,18 @@ public final class PostEnterSceneReqOuterClass {
 
     public static final int TOTAL_TICK_TIME_FIELD_NUMBER = 11;
     private double totalTickTime_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>double total_tick_time = 3;</code>
+     * @return The totalTickTime.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public double getTotalTickTime() {
       return totalTickTime_;
@@ -476,19 +498,53 @@ public final class PostEnterSceneReqOuterClass {
       }
 
       private double totalTickTime_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>double total_tick_time = 3;</code>
+       * @return The totalTickTime.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public double getTotalTickTime() {
         return totalTickTime_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>double total_tick_time = 3;</code>
+       * @param value The totalTickTime to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setTotalTickTime(double value) {
 
         totalTickTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>double total_tick_time = 3;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearTotalTickTime() {
 
         totalTickTime_ = 0D;

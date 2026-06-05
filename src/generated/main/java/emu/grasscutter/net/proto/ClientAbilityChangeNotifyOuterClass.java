@@ -18,6 +18,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:ClientAbilityChangeNotify)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     java.util.List<emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry>
         getInvokesList();
 
@@ -33,6 +34,70 @@ public final class ClientAbilityChangeNotifyOuterClass {
 
     boolean getIsInitHash();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
+     */
+    java.util.List<emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry> 
+        getInvokesList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
+     */
+    emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry getInvokes(int index);
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
+     */
+    int getInvokesCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntryOrBuilder> 
+        getInvokesOrBuilderList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
+     */
+    emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntryOrBuilder getInvokesOrBuilder(
+        int index);
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>bool is_init_hash = 4;</code>
+     * @return The isInitHash.
+     */
+    boolean getIsInitHash();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 entity_id = 2;</code>
+     * @return The entityId.
+     */
+>>>>>>> origin/6.5.0
     int getEntityId();
   }
   /**
@@ -142,28 +207,78 @@ public final class ClientAbilityChangeNotifyOuterClass {
 
     public static final int INVOKES_FIELD_NUMBER = 9;
     private java.util.List<emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry> invokes_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry> getInvokesList() {
       return invokes_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntryOrBuilder>
         getInvokesOrBuilderList() {
       return invokes_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getInvokesCount() {
       return invokes_.size();
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry getInvokes(int index) {
       return invokes_.get(index);
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntryOrBuilder getInvokesOrBuilder(
         int index) {
@@ -172,7 +287,18 @@ public final class ClientAbilityChangeNotifyOuterClass {
 
     public static final int IS_INIT_HASH_FIELD_NUMBER = 12;
     private boolean isInitHash_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>bool is_init_hash = 4;</code>
+     * @return The isInitHash.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsInitHash() {
       return isInitHash_;
@@ -180,7 +306,18 @@ public final class ClientAbilityChangeNotifyOuterClass {
 
     public static final int ENTITY_ID_FIELD_NUMBER = 14;
     private int entityId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 entity_id = 2;</code>
+     * @return The entityId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getEntityId() {
       return entityId_;
@@ -579,6 +716,16 @@ public final class ClientAbilityChangeNotifyOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry, emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.Builder, emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntryOrBuilder> invokesBuilder_;
 
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry> getInvokesList() {
         if (invokesBuilder_ == null) {
           return java.util.Collections.unmodifiableList(invokes_);
@@ -586,7 +733,17 @@ public final class ClientAbilityChangeNotifyOuterClass {
           return invokesBuilder_.getMessageList();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public int getInvokesCount() {
         if (invokesBuilder_ == null) {
           return invokes_.size();
@@ -594,7 +751,17 @@ public final class ClientAbilityChangeNotifyOuterClass {
           return invokesBuilder_.getCount();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry getInvokes(int index) {
         if (invokesBuilder_ == null) {
           return invokes_.get(index);
@@ -602,7 +769,17 @@ public final class ClientAbilityChangeNotifyOuterClass {
           return invokesBuilder_.getMessage(index);
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setInvokes(
           int index, emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry value) {
         if (invokesBuilder_ == null) {
@@ -617,7 +794,17 @@ public final class ClientAbilityChangeNotifyOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setInvokes(
           int index, emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.Builder builderForValue) {
         if (invokesBuilder_ == null) {
@@ -629,7 +816,17 @@ public final class ClientAbilityChangeNotifyOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addInvokes(emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry value) {
         if (invokesBuilder_ == null) {
           if (value == null) {
@@ -643,7 +840,17 @@ public final class ClientAbilityChangeNotifyOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addInvokes(
           int index, emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry value) {
         if (invokesBuilder_ == null) {
@@ -658,7 +865,17 @@ public final class ClientAbilityChangeNotifyOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addInvokes(
           emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.Builder builderForValue) {
         if (invokesBuilder_ == null) {
@@ -670,7 +887,17 @@ public final class ClientAbilityChangeNotifyOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addInvokes(
           int index, emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.Builder builderForValue) {
         if (invokesBuilder_ == null) {
@@ -682,7 +909,17 @@ public final class ClientAbilityChangeNotifyOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllInvokes(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry> values) {
         if (invokesBuilder_ == null) {
@@ -695,7 +932,17 @@ public final class ClientAbilityChangeNotifyOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder clearInvokes() {
         if (invokesBuilder_ == null) {
           invokes_ = java.util.Collections.emptyList();
@@ -706,7 +953,17 @@ public final class ClientAbilityChangeNotifyOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder removeInvokes(int index) {
         if (invokesBuilder_ == null) {
           ensureInvokesIsMutable();
@@ -717,12 +974,32 @@ public final class ClientAbilityChangeNotifyOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.Builder getInvokesBuilder(
           int index) {
         return getInvokesFieldBuilder().getBuilder(index);
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntryOrBuilder getInvokesOrBuilder(
           int index) {
         if (invokesBuilder_ == null) {
@@ -730,8 +1007,19 @@ public final class ClientAbilityChangeNotifyOuterClass {
           return invokesBuilder_.getMessageOrBuilder(index);
         }
       }
+<<<<<<< HEAD
 
       public java.util.List<? extends emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntryOrBuilder>
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntryOrBuilder> 
+>>>>>>> origin/6.5.0
            getInvokesOrBuilderList() {
         if (invokesBuilder_ != null) {
           return invokesBuilder_.getMessageOrBuilderList();
@@ -739,19 +1027,50 @@ public final class ClientAbilityChangeNotifyOuterClass {
           return java.util.Collections.unmodifiableList(invokes_);
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.Builder addInvokesBuilder() {
         return getInvokesFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.getDefaultInstance());
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.Builder addInvokesBuilder(
           int index) {
         return getInvokesFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.getDefaultInstance());
       }
+<<<<<<< HEAD
 
       public java.util.List<emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.Builder>
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.Builder> 
+>>>>>>> origin/6.5.0
            getInvokesBuilderList() {
         return getInvokesFieldBuilder().getBuilderList();
       }
@@ -771,19 +1090,53 @@ public final class ClientAbilityChangeNotifyOuterClass {
       }
 
       private boolean isInitHash_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>bool is_init_hash = 4;</code>
+       * @return The isInitHash.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsInitHash() {
         return isInitHash_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>bool is_init_hash = 4;</code>
+       * @param value The isInitHash to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setIsInitHash(boolean value) {
 
         isInitHash_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>bool is_init_hash = 4;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearIsInitHash() {
 
         isInitHash_ = false;
@@ -792,19 +1145,53 @@ public final class ClientAbilityChangeNotifyOuterClass {
       }
 
       private int entityId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 entity_id = 2;</code>
+       * @return The entityId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getEntityId() {
         return entityId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 entity_id = 2;</code>
+       * @param value The entityId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setEntityId(int value) {
 
         entityId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 entity_id = 2;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearEntityId() {
 
         entityId_ = 0;

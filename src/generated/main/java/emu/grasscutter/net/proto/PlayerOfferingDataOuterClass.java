@@ -18,10 +18,40 @@ public final class PlayerOfferingDataOuterClass {
       // @@protoc_insertion_point(interface_extends:PlayerOfferingData)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     java.util.List<java.lang.Integer> getTakenLevelRewardListList();
 
     int getTakenLevelRewardListCount();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated uint32 taken_level_reward_list = 11;</code>
+     * @return A list containing the takenLevelRewardList.
+     */
+    java.util.List<java.lang.Integer> getTakenLevelRewardListList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated uint32 taken_level_reward_list = 11;</code>
+     * @return The count of takenLevelRewardList.
+     */
+    int getTakenLevelRewardListCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated uint32 taken_level_reward_list = 11;</code>
+     * @param index The index of the element to return.
+     * @return The takenLevelRewardList at the given index.
+     */
+>>>>>>> origin/6.5.0
     int getTakenLevelRewardList(int index);
 
     /**
@@ -58,10 +88,41 @@ public final class PlayerOfferingDataOuterClass {
     int getBHKEFOHMJHMOrThrow(
         int key);
 
+<<<<<<< HEAD
     int getOfferingId();
 
     int getLevel();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 offering_id = 9;</code>
+     * @return The offeringId.
+     */
+    int getOfferingId();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 level = 1;</code>
+     * @return The level.
+     */
+    int getLevel();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>bool is_first_interact = 4;</code>
+     * @return The isFirstInteract.
+     */
+>>>>>>> origin/6.5.0
     boolean getIsFirstInteract();
 
     /**
@@ -220,17 +281,51 @@ public final class PlayerOfferingDataOuterClass {
 
     public static final int TAKEN_LEVEL_REWARD_LIST_FIELD_NUMBER = 15;
     private com.google.protobuf.Internal.IntList takenLevelRewardList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated uint32 taken_level_reward_list = 11;</code>
+     * @return A list containing the takenLevelRewardList.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getTakenLevelRewardListList() {
       return takenLevelRewardList_;
     }
+<<<<<<< HEAD
 
     public int getTakenLevelRewardListCount() {
       return takenLevelRewardList_.size();
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated uint32 taken_level_reward_list = 11;</code>
+     * @return The count of takenLevelRewardList.
+     */
+    public int getTakenLevelRewardListCount() {
+      return takenLevelRewardList_.size();
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated uint32 taken_level_reward_list = 11;</code>
+     * @param index The index of the element to return.
+     * @return The takenLevelRewardList at the given index.
+     */
+>>>>>>> origin/6.5.0
     public int getTakenLevelRewardList(int index) {
       return takenLevelRewardList_.getInt(index);
     }
@@ -319,7 +414,18 @@ public final class PlayerOfferingDataOuterClass {
 
     public static final int OFFERING_ID_FIELD_NUMBER = 10;
     private int offeringId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 offering_id = 9;</code>
+     * @return The offeringId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getOfferingId() {
       return offeringId_;
@@ -327,7 +433,18 @@ public final class PlayerOfferingDataOuterClass {
 
     public static final int LEVEL_FIELD_NUMBER = 3;
     private int level_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 level = 1;</code>
+     * @return The level.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getLevel() {
       return level_;
@@ -335,7 +452,18 @@ public final class PlayerOfferingDataOuterClass {
 
     public static final int IS_FIRST_INTERACT_FIELD_NUMBER = 5;
     private boolean isFirstInteract_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>bool is_first_interact = 4;</code>
+     * @return The isFirstInteract.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsFirstInteract() {
       return isFirstInteract_;
@@ -810,12 +938,24 @@ public final class PlayerOfferingDataOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated uint32 taken_level_reward_list = 11;</code>
+       * @return A list containing the takenLevelRewardList.
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getTakenLevelRewardListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(takenLevelRewardList_) : takenLevelRewardList_;
       }
+<<<<<<< HEAD
 
       public int getTakenLevelRewardListCount() {
         return takenLevelRewardList_.size();
@@ -825,6 +965,41 @@ public final class PlayerOfferingDataOuterClass {
         return takenLevelRewardList_.getInt(index);
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated uint32 taken_level_reward_list = 11;</code>
+       * @return The count of takenLevelRewardList.
+       */
+      public int getTakenLevelRewardListCount() {
+        return takenLevelRewardList_.size();
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated uint32 taken_level_reward_list = 11;</code>
+       * @param index The index of the element to return.
+       * @return The takenLevelRewardList at the given index.
+       */
+      public int getTakenLevelRewardList(int index) {
+        return takenLevelRewardList_.getInt(index);
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated uint32 taken_level_reward_list = 11;</code>
+       * @param index The index to set the value at.
+       * @param value The takenLevelRewardList to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setTakenLevelRewardList(
           int index, int value) {
         ensureTakenLevelRewardListIsMutable();
@@ -832,14 +1007,38 @@ public final class PlayerOfferingDataOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated uint32 taken_level_reward_list = 11;</code>
+       * @param value The takenLevelRewardList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addTakenLevelRewardList(int value) {
         ensureTakenLevelRewardListIsMutable();
         takenLevelRewardList_.addInt(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated uint32 taken_level_reward_list = 11;</code>
+       * @param values The takenLevelRewardList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllTakenLevelRewardList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureTakenLevelRewardListIsMutable();
@@ -848,7 +1047,18 @@ public final class PlayerOfferingDataOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated uint32 taken_level_reward_list = 11;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearTakenLevelRewardList() {
         takenLevelRewardList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -984,19 +1194,53 @@ public final class PlayerOfferingDataOuterClass {
       }
 
       private int offeringId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 offering_id = 9;</code>
+       * @return The offeringId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getOfferingId() {
         return offeringId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 offering_id = 9;</code>
+       * @param value The offeringId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setOfferingId(int value) {
 
         offeringId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 offering_id = 9;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearOfferingId() {
 
         offeringId_ = 0;
@@ -1005,19 +1249,53 @@ public final class PlayerOfferingDataOuterClass {
       }
 
       private int level_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 level = 1;</code>
+       * @return The level.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getLevel() {
         return level_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 level = 1;</code>
+       * @param value The level to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setLevel(int value) {
 
         level_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 level = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearLevel() {
 
         level_ = 0;
@@ -1026,19 +1304,53 @@ public final class PlayerOfferingDataOuterClass {
       }
 
       private boolean isFirstInteract_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_first_interact = 4;</code>
+       * @return The isFirstInteract.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsFirstInteract() {
         return isFirstInteract_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_first_interact = 4;</code>
+       * @param value The isFirstInteract to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setIsFirstInteract(boolean value) {
 
         isFirstInteract_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_first_interact = 4;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearIsFirstInteract() {
 
         isFirstInteract_ = false;

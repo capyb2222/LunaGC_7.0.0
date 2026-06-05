@@ -18,10 +18,41 @@ public final class PingRspOuterClass {
       // @@protoc_insertion_point(interface_extends:PingRsp)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     int getRetcode();
 
     int getSeq();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>int32 retcode = 8;</code>
+     * @return The retcode.
+     */
+    int getRetcode();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 seq = 3;</code>
+     * @return The seq.
+     */
+    int getSeq();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 client_time = 4;</code>
+     * @return The clientTime.
+     */
+>>>>>>> origin/6.5.0
     int getClientTime();
   }
   /**
@@ -122,7 +153,18 @@ public final class PingRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 10;
     private int retcode_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>int32 retcode = 8;</code>
+     * @return The retcode.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -130,7 +172,18 @@ public final class PingRspOuterClass {
 
     public static final int SEQ_FIELD_NUMBER = 1;
     private int seq_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 seq = 3;</code>
+     * @return The seq.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getSeq() {
       return seq_;
@@ -138,7 +191,18 @@ public final class PingRspOuterClass {
 
     public static final int CLIENT_TIME_FIELD_NUMBER = 15;
     private int clientTime_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 client_time = 4;</code>
+     * @return The clientTime.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getClientTime() {
       return clientTime_;
@@ -485,19 +549,53 @@ public final class PingRspOuterClass {
       }
 
       private int retcode_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>int32 retcode = 8;</code>
+       * @return The retcode.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>int32 retcode = 8;</code>
+       * @param value The retcode to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
 
         retcode_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>int32 retcode = 8;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearRetcode() {
 
         retcode_ = 0;
@@ -506,19 +604,53 @@ public final class PingRspOuterClass {
       }
 
       private int seq_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 seq = 3;</code>
+       * @return The seq.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getSeq() {
         return seq_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 seq = 3;</code>
+       * @param value The seq to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setSeq(int value) {
 
         seq_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 seq = 3;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearSeq() {
 
         seq_ = 0;
@@ -527,19 +659,53 @@ public final class PingRspOuterClass {
       }
 
       private int clientTime_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 client_time = 4;</code>
+       * @return The clientTime.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getClientTime() {
         return clientTime_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 client_time = 4;</code>
+       * @param value The clientTime to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setClientTime(int value) {
 
         clientTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 client_time = 4;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearClientTime() {
 
         clientTime_ = 0;

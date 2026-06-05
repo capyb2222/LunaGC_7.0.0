@@ -18,6 +18,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       // @@protoc_insertion_point(interface_extends:BreakoutPhysicalObjectModifier)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     int getType();
 
     int getPeerId();
@@ -48,6 +49,166 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     int getId();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 type = 1;</code>
+     * @return The type.
+     */
+    int getType();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 peer_id = 13;</code>
+     * @return The peerId.
+     */
+    int getPeerId();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>bool bool1 = 9;</code>
+     * @return The bool1.
+     */
+    boolean getBool1();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 combo = 12;</code>
+     * @return The combo.
+     */
+    int getCombo();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 choose_player_count = 16;</code>
+     * @return The choosePlayerCount.
+     */
+    int getChoosePlayerCount();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>int32 duration = 10;</code>
+     * @return The duration.
+     */
+    int getDuration();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>int32 param5 = 7;</code>
+     * @return The param5.
+     */
+    int getParam5();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>int32 param6 = 8;</code>
+     * @return The param6.
+     */
+    int getParam6();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>int32 param2 = 4;</code>
+     * @return The param2.
+     */
+    int getParam2();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 level = 15;</code>
+     * @return The level.
+     */
+    int getLevel();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>int32 param1 = 3;</code>
+     * @return The param1.
+     */
+    int getParam1();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>int32 param4 = 6;</code>
+     * @return The param4.
+     */
+    int getParam4();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>int32 end_time = 11;</code>
+     * @return The endTime.
+     */
+    int getEndTime();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>int32 param3 = 5;</code>
+     * @return The param3.
+     */
+    int getParam3();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 id = 2;</code>
+     * @return The id.
+     */
+    int getId();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 skill_type = 14;</code>
+     * @return The skillType.
+     */
+>>>>>>> origin/6.5.0
     int getSkillType();
   }
   /**
@@ -209,7 +370,18 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     public static final int TYPE_FIELD_NUMBER = 1;
     private int type_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 type = 1;</code>
+     * @return The type.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getType() {
       return type_;
@@ -217,7 +389,18 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     public static final int PEER_ID_FIELD_NUMBER = 13;
     private int peerId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 peer_id = 13;</code>
+     * @return The peerId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getPeerId() {
       return peerId_;
@@ -225,7 +408,18 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     public static final int BOOL1_FIELD_NUMBER = 9;
     private boolean bool1_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>bool bool1 = 9;</code>
+     * @return The bool1.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getBool1() {
       return bool1_;
@@ -233,7 +427,18 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     public static final int COMBO_FIELD_NUMBER = 12;
     private int combo_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 combo = 12;</code>
+     * @return The combo.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCombo() {
       return combo_;
@@ -241,7 +446,18 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     public static final int CHOOSE_PLAYER_COUNT_FIELD_NUMBER = 16;
     private int choosePlayerCount_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 choose_player_count = 16;</code>
+     * @return The choosePlayerCount.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getChoosePlayerCount() {
       return choosePlayerCount_;
@@ -249,7 +465,18 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     public static final int DURATION_FIELD_NUMBER = 10;
     private int duration_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>int32 duration = 10;</code>
+     * @return The duration.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getDuration() {
       return duration_;
@@ -257,7 +484,18 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     public static final int PARAM5_FIELD_NUMBER = 7;
     private int param5_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>int32 param5 = 7;</code>
+     * @return The param5.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getParam5() {
       return param5_;
@@ -265,7 +503,18 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     public static final int PARAM6_FIELD_NUMBER = 8;
     private int param6_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>int32 param6 = 8;</code>
+     * @return The param6.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getParam6() {
       return param6_;
@@ -273,7 +522,18 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     public static final int PARAM2_FIELD_NUMBER = 4;
     private int param2_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>int32 param2 = 4;</code>
+     * @return The param2.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getParam2() {
       return param2_;
@@ -281,7 +541,18 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     public static final int LEVEL_FIELD_NUMBER = 15;
     private int level_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 level = 15;</code>
+     * @return The level.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getLevel() {
       return level_;
@@ -289,7 +560,18 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     public static final int PARAM1_FIELD_NUMBER = 3;
     private int param1_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>int32 param1 = 3;</code>
+     * @return The param1.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getParam1() {
       return param1_;
@@ -297,7 +579,18 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     public static final int PARAM4_FIELD_NUMBER = 6;
     private int param4_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>int32 param4 = 6;</code>
+     * @return The param4.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getParam4() {
       return param4_;
@@ -305,7 +598,18 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     public static final int END_TIME_FIELD_NUMBER = 11;
     private int endTime_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>int32 end_time = 11;</code>
+     * @return The endTime.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getEndTime() {
       return endTime_;
@@ -313,7 +617,18 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     public static final int PARAM3_FIELD_NUMBER = 5;
     private int param3_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>int32 param3 = 5;</code>
+     * @return The param3.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getParam3() {
       return param3_;
@@ -321,7 +636,18 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     public static final int ID_FIELD_NUMBER = 2;
     private int id_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 id = 2;</code>
+     * @return The id.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getId() {
       return id_;
@@ -329,7 +655,18 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     public static final int SKILL_TYPE_FIELD_NUMBER = 14;
     private int skillType_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 skill_type = 14;</code>
+     * @return The skillType.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getSkillType() {
       return skillType_;
@@ -894,19 +1231,53 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
 
       private int type_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 type = 1;</code>
+       * @return The type.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getType() {
         return type_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 type = 1;</code>
+       * @param value The type to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setType(int value) {
 
         type_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 type = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearType() {
 
         type_ = 0;
@@ -915,19 +1286,53 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
 
       private int peerId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 peer_id = 13;</code>
+       * @return The peerId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getPeerId() {
         return peerId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 peer_id = 13;</code>
+       * @param value The peerId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setPeerId(int value) {
 
         peerId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 peer_id = 13;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearPeerId() {
 
         peerId_ = 0;
@@ -936,19 +1341,53 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
 
       private boolean bool1_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>bool bool1 = 9;</code>
+       * @return The bool1.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getBool1() {
         return bool1_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>bool bool1 = 9;</code>
+       * @param value The bool1 to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setBool1(boolean value) {
 
         bool1_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>bool bool1 = 9;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearBool1() {
 
         bool1_ = false;
@@ -957,19 +1396,53 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
 
       private int combo_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 combo = 12;</code>
+       * @return The combo.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCombo() {
         return combo_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 combo = 12;</code>
+       * @param value The combo to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setCombo(int value) {
 
         combo_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 combo = 12;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearCombo() {
 
         combo_ = 0;
@@ -978,19 +1451,53 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
 
       private int choosePlayerCount_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 choose_player_count = 16;</code>
+       * @return The choosePlayerCount.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getChoosePlayerCount() {
         return choosePlayerCount_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 choose_player_count = 16;</code>
+       * @param value The choosePlayerCount to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setChoosePlayerCount(int value) {
 
         choosePlayerCount_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 choose_player_count = 16;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearChoosePlayerCount() {
 
         choosePlayerCount_ = 0;
@@ -999,19 +1506,53 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
 
       private int duration_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>int32 duration = 10;</code>
+       * @return The duration.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getDuration() {
         return duration_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>int32 duration = 10;</code>
+       * @param value The duration to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setDuration(int value) {
 
         duration_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>int32 duration = 10;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearDuration() {
 
         duration_ = 0;
@@ -1020,19 +1561,53 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
 
       private int param5_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>int32 param5 = 7;</code>
+       * @return The param5.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getParam5() {
         return param5_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>int32 param5 = 7;</code>
+       * @param value The param5 to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setParam5(int value) {
 
         param5_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>int32 param5 = 7;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearParam5() {
 
         param5_ = 0;
@@ -1041,19 +1616,53 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
 
       private int param6_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>int32 param6 = 8;</code>
+       * @return The param6.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getParam6() {
         return param6_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>int32 param6 = 8;</code>
+       * @param value The param6 to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setParam6(int value) {
 
         param6_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>int32 param6 = 8;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearParam6() {
 
         param6_ = 0;
@@ -1062,19 +1671,53 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
 
       private int param2_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>int32 param2 = 4;</code>
+       * @return The param2.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getParam2() {
         return param2_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>int32 param2 = 4;</code>
+       * @param value The param2 to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setParam2(int value) {
 
         param2_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>int32 param2 = 4;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearParam2() {
 
         param2_ = 0;
@@ -1083,19 +1726,53 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
 
       private int level_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 level = 15;</code>
+       * @return The level.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getLevel() {
         return level_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 level = 15;</code>
+       * @param value The level to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setLevel(int value) {
 
         level_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 level = 15;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearLevel() {
 
         level_ = 0;
@@ -1104,19 +1781,53 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
 
       private int param1_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>int32 param1 = 3;</code>
+       * @return The param1.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getParam1() {
         return param1_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>int32 param1 = 3;</code>
+       * @param value The param1 to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setParam1(int value) {
 
         param1_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>int32 param1 = 3;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearParam1() {
 
         param1_ = 0;
@@ -1125,19 +1836,53 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
 
       private int param4_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>int32 param4 = 6;</code>
+       * @return The param4.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getParam4() {
         return param4_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>int32 param4 = 6;</code>
+       * @param value The param4 to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setParam4(int value) {
 
         param4_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>int32 param4 = 6;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearParam4() {
 
         param4_ = 0;
@@ -1146,19 +1891,53 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
 
       private int endTime_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>int32 end_time = 11;</code>
+       * @return The endTime.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getEndTime() {
         return endTime_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>int32 end_time = 11;</code>
+       * @param value The endTime to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setEndTime(int value) {
 
         endTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>int32 end_time = 11;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearEndTime() {
 
         endTime_ = 0;
@@ -1167,19 +1946,53 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
 
       private int param3_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>int32 param3 = 5;</code>
+       * @return The param3.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getParam3() {
         return param3_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>int32 param3 = 5;</code>
+       * @param value The param3 to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setParam3(int value) {
 
         param3_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>int32 param3 = 5;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearParam3() {
 
         param3_ = 0;
@@ -1188,19 +2001,53 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
 
       private int id_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 id = 2;</code>
+       * @return The id.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getId() {
         return id_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 id = 2;</code>
+       * @param value The id to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setId(int value) {
 
         id_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 id = 2;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearId() {
 
         id_ = 0;
@@ -1209,19 +2056,53 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
 
       private int skillType_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 skill_type = 14;</code>
+       * @return The skillType.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getSkillType() {
         return skillType_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 skill_type = 14;</code>
+       * @param value The skillType to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setSkillType(int value) {
 
         skillType_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 skill_type = 14;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearSkillType() {
 
         skillType_ = 0;

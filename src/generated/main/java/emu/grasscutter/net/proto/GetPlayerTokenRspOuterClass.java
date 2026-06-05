@@ -18,6 +18,7 @@ public final class GetPlayerTokenRspOuterClass {
       // @@protoc_insertion_point(interface_extends:GetPlayerTokenRsp)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     java.lang.String getToken();
 
     com.google.protobuf.ByteString
@@ -108,6 +109,402 @@ public final class GetPlayerTokenRspOuterClass {
 
     int getKeyId();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>string token = 7;</code>
+     * @return The token.
+     */
+    java.lang.String getToken();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>string token = 7;</code>
+     * @return The bytes for token.
+     */
+    com.google.protobuf.ByteString
+        getTokenBytes();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>string sign = 1842;</code>
+     * @return The sign.
+     */
+    java.lang.String getSign();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>string sign = 1842;</code>
+     * @return The bytes for sign.
+     */
+    com.google.protobuf.ByteString
+        getSignBytes();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0   
+     * </pre>
+     *
+     * <code>repeated uint32 finish_collection_id_list = 1222;</code>
+     * @return A list containing the finishCollectionIdList.
+     */
+    java.util.List<java.lang.Integer> getFinishCollectionIdListList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0   
+     * </pre>
+     *
+     * <code>repeated uint32 finish_collection_id_list = 1222;</code>
+     * @return The count of finishCollectionIdList.
+     */
+    int getFinishCollectionIdListCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0   
+     * </pre>
+     *
+     * <code>repeated uint32 finish_collection_id_list = 1222;</code>
+     * @param index The index of the element to return.
+     * @return The finishCollectionIdList at the given index.
+     */
+    int getFinishCollectionIdList(int index);
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0    
+     * </pre>
+     *
+     * <code>string msg = 11;</code>
+     * @return The msg.
+     */
+    java.lang.String getMsg();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0    
+     * </pre>
+     *
+     * <code>string msg = 11;</code>
+     * @return The bytes for msg.
+     */
+    com.google.protobuf.ByteString
+        getMsgBytes();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0 
+     * </pre>
+     *
+     * <code>bytes extra_bin_data = 6;</code>
+     * @return The extraBinData.
+     */
+    com.google.protobuf.ByteString getExtraBinData();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0 
+     * </pre>
+     *
+     * <code>string client_ip_str = 1673;</code>
+     * @return The clientIpStr.
+     */
+    java.lang.String getClientIpStr();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0 
+     * </pre>
+     *
+     * <code>string client_ip_str = 1673;</code>
+     * @return The bytes for clientIpStr.
+     */
+    com.google.protobuf.ByteString
+        getClientIpStrBytes();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>string birthday = 1707;</code>
+     * @return The birthday.
+     */
+    java.lang.String getBirthday();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>string birthday = 1707;</code>
+     * @return The bytes for birthday.
+     */
+    com.google.protobuf.ByteString
+        getBirthdayBytes();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0     
+     * </pre>
+     *
+     * <code>string psn_id = 384;</code>
+     * @return The psnId.
+     */
+    java.lang.String getPsnId();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0     
+     * </pre>
+     *
+     * <code>string psn_id = 384;</code>
+     * @return The bytes for psnId.
+     */
+    com.google.protobuf.ByteString
+        getPsnIdBytes();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0  
+     * </pre>
+     *
+     * <code>.StopServerInfo stop_server = 2040;</code>
+     * @return Whether the stopServer field is set.
+     */
+    boolean hasStopServer();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0  
+     * </pre>
+     *
+     * <code>.StopServerInfo stop_server = 2040;</code>
+     * @return The stopServer.
+     */
+    emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo getStopServer();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0  
+     * </pre>
+     *
+     * <code>.StopServerInfo stop_server = 2040;</code>
+     */
+    emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfoOrBuilder getStopServerOrBuilder();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>string secret_key = 14;</code>
+     * @return The secretKey.
+     */
+    java.lang.String getSecretKey();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>string secret_key = 14;</code>
+     * @return The bytes for secretKey.
+     */
+    com.google.protobuf.ByteString
+        getSecretKeyBytes();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>string game_biz = 2042;</code>
+     * @return The gameBiz.
+     */
+    java.lang.String getGameBiz();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>string game_biz = 2042;</code>
+     * @return The bytes for gameBiz.
+     */
+    com.google.protobuf.ByteString
+        getGameBizBytes();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>string account_uid = 15;</code>
+     * @return The accountUid.
+     */
+    java.lang.String getAccountUid();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>string account_uid = 15;</code>
+     * @return The bytes for accountUid.
+     */
+    com.google.protobuf.ByteString
+        getAccountUidBytes();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>string server_rand_key = 1212;</code>
+     * @return The serverRandKey.
+     */
+    java.lang.String getServerRandKey();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>string server_rand_key = 1212;</code>
+     * @return The bytes for serverRandKey.
+     */
+    com.google.protobuf.ByteString
+        getServerRandKeyBytes();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0 
+     * </pre>
+     *
+     * <code>string country_code = 959;</code>
+     * @return The countryCode.
+     */
+    java.lang.String getCountryCode();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0 
+     * </pre>
+     *
+     * <code>string country_code = 959;</code>
+     * @return The bytes for countryCode.
+     */
+    com.google.protobuf.ByteString
+        getCountryCodeBytes();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0 
+     * </pre>
+     *
+     * <code>string client_version_random_key = 1883;</code>
+     * @return The clientVersionRandomKey.
+     */
+    java.lang.String getClientVersionRandomKey();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0 
+     * </pre>
+     *
+     * <code>string client_version_random_key = 1883;</code>
+     * @return The bytes for clientVersionRandomKey.
+     */
+    com.google.protobuf.ByteString
+        getClientVersionRandomKeyBytes();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0 
+     * </pre>
+     *
+     * <code>bytes security_cmd_buffer = 3;</code>
+     * @return The securityCmdBuffer.
+     */
+    com.google.protobuf.ByteString getSecurityCmdBuffer();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>uint32 uid = 5;</code>
+     * @return The uid.
+     */
+    int getUid();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0   
+     * </pre>
+     *
+     * <code>bool is_guest = 2;</code>
+     * @return The isGuest.
+     */
+    boolean getIsGuest();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0     
+     * </pre>
+     *
+     * <code>uint32 tag = 430;</code>
+     * @return The tag.
+     */
+    int getTag();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>int32 retcode = 12;</code>
+     * @return The retcode.
+     */
+    int getRetcode();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0   
+     * </pre>
+     *
+     * <code>uint64 secret_key_seed = 13;</code>
+     * @return The secretKeySeed.
+     */
+    long getSecretKeySeed();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>uint32 channel_id = 1407;</code>
+     * @return The channelId.
+     */
+    int getChannelId();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>uint32 key_id = 1871;</code>
+     * @return The keyId.
+     */
+    int getKeyId();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>uint32 platform_type = 10;</code>
+     * @return The platformType.
+     */
+>>>>>>> origin/6.5.0
     int getPlatformType();
 
     /**
@@ -477,7 +874,18 @@ public final class GetPlayerTokenRspOuterClass {
 
     public static final int TOKEN_FIELD_NUMBER = 7;
     private volatile java.lang.Object token_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>string token = 7;</code>
+     * @return The token.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getToken() {
       java.lang.Object ref = token_;
@@ -491,7 +899,18 @@ public final class GetPlayerTokenRspOuterClass {
         return s;
       }
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>string token = 7;</code>
+     * @return The bytes for token.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getTokenBytes() {
@@ -509,7 +928,18 @@ public final class GetPlayerTokenRspOuterClass {
 
     public static final int SIGN_FIELD_NUMBER = 1842;
     private volatile java.lang.Object sign_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>string sign = 1842;</code>
+     * @return The sign.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getSign() {
       java.lang.Object ref = sign_;
@@ -523,7 +953,18 @@ public final class GetPlayerTokenRspOuterClass {
         return s;
       }
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>string sign = 1842;</code>
+     * @return The bytes for sign.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getSignBytes() {
@@ -541,17 +982,51 @@ public final class GetPlayerTokenRspOuterClass {
 
     public static final int FINISH_COLLECTION_ID_LIST_FIELD_NUMBER = 172;
     private com.google.protobuf.Internal.IntList finishCollectionIdList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0   
+     * </pre>
+     *
+     * <code>repeated uint32 finish_collection_id_list = 1222;</code>
+     * @return A list containing the finishCollectionIdList.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getFinishCollectionIdListList() {
       return finishCollectionIdList_;
     }
+<<<<<<< HEAD
 
     public int getFinishCollectionIdListCount() {
       return finishCollectionIdList_.size();
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0   
+     * </pre>
+     *
+     * <code>repeated uint32 finish_collection_id_list = 1222;</code>
+     * @return The count of finishCollectionIdList.
+     */
+    public int getFinishCollectionIdListCount() {
+      return finishCollectionIdList_.size();
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0   
+     * </pre>
+     *
+     * <code>repeated uint32 finish_collection_id_list = 1222;</code>
+     * @param index The index of the element to return.
+     * @return The finishCollectionIdList at the given index.
+     */
+>>>>>>> origin/6.5.0
     public int getFinishCollectionIdList(int index) {
       return finishCollectionIdList_.getInt(index);
     }
@@ -559,7 +1034,18 @@ public final class GetPlayerTokenRspOuterClass {
 
     public static final int MSG_FIELD_NUMBER = 11;
     private volatile java.lang.Object msg_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0    
+     * </pre>
+     *
+     * <code>string msg = 11;</code>
+     * @return The msg.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getMsg() {
       java.lang.Object ref = msg_;
@@ -573,7 +1059,18 @@ public final class GetPlayerTokenRspOuterClass {
         return s;
       }
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0    
+     * </pre>
+     *
+     * <code>string msg = 11;</code>
+     * @return The bytes for msg.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getMsgBytes() {
@@ -591,7 +1088,18 @@ public final class GetPlayerTokenRspOuterClass {
 
     public static final int EXTRA_BIN_DATA_FIELD_NUMBER = 6;
     private com.google.protobuf.ByteString extraBinData_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0 
+     * </pre>
+     *
+     * <code>bytes extra_bin_data = 6;</code>
+     * @return The extraBinData.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString getExtraBinData() {
       return extraBinData_;
@@ -599,7 +1107,18 @@ public final class GetPlayerTokenRspOuterClass {
 
     public static final int CLIENT_IP_STR_FIELD_NUMBER = 1673;
     private volatile java.lang.Object clientIpStr_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0 
+     * </pre>
+     *
+     * <code>string client_ip_str = 1673;</code>
+     * @return The clientIpStr.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getClientIpStr() {
       java.lang.Object ref = clientIpStr_;
@@ -613,7 +1132,18 @@ public final class GetPlayerTokenRspOuterClass {
         return s;
       }
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0 
+     * </pre>
+     *
+     * <code>string client_ip_str = 1673;</code>
+     * @return The bytes for clientIpStr.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getClientIpStrBytes() {
@@ -631,7 +1161,18 @@ public final class GetPlayerTokenRspOuterClass {
 
     public static final int BIRTHDAY_FIELD_NUMBER = 1707;
     private volatile java.lang.Object birthday_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>string birthday = 1707;</code>
+     * @return The birthday.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getBirthday() {
       java.lang.Object ref = birthday_;
@@ -645,7 +1186,18 @@ public final class GetPlayerTokenRspOuterClass {
         return s;
       }
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>string birthday = 1707;</code>
+     * @return The bytes for birthday.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getBirthdayBytes() {
@@ -663,7 +1215,18 @@ public final class GetPlayerTokenRspOuterClass {
 
     public static final int PSN_ID_FIELD_NUMBER = 384;
     private volatile java.lang.Object psnId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0     
+     * </pre>
+     *
+     * <code>string psn_id = 384;</code>
+     * @return The psnId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getPsnId() {
       java.lang.Object ref = psnId_;
@@ -677,7 +1240,18 @@ public final class GetPlayerTokenRspOuterClass {
         return s;
       }
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0     
+     * </pre>
+     *
+     * <code>string psn_id = 384;</code>
+     * @return The bytes for psnId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getPsnIdBytes() {
@@ -695,17 +1269,49 @@ public final class GetPlayerTokenRspOuterClass {
 
     public static final int STOP_SERVER_FIELD_NUMBER = 256;
     private emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo stopServer_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0  
+     * </pre>
+     *
+     * <code>.StopServerInfo stop_server = 2040;</code>
+     * @return Whether the stopServer field is set.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasStopServer() {
       return stopServer_ != null;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0  
+     * </pre>
+     *
+     * <code>.StopServerInfo stop_server = 2040;</code>
+     * @return The stopServer.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo getStopServer() {
       return stopServer_ == null ? emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.getDefaultInstance() : stopServer_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0  
+     * </pre>
+     *
+     * <code>.StopServerInfo stop_server = 2040;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfoOrBuilder getStopServerOrBuilder() {
       return getStopServer();
@@ -713,7 +1319,18 @@ public final class GetPlayerTokenRspOuterClass {
 
     public static final int SECRET_KEY_FIELD_NUMBER = 8;
     private volatile java.lang.Object secretKey_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>string secret_key = 14;</code>
+     * @return The secretKey.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getSecretKey() {
       java.lang.Object ref = secretKey_;
@@ -727,7 +1344,18 @@ public final class GetPlayerTokenRspOuterClass {
         return s;
       }
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>string secret_key = 14;</code>
+     * @return The bytes for secretKey.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getSecretKeyBytes() {
@@ -745,7 +1373,18 @@ public final class GetPlayerTokenRspOuterClass {
 
     public static final int GAME_BIZ_FIELD_NUMBER = 2042;
     private volatile java.lang.Object gameBiz_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>string game_biz = 2042;</code>
+     * @return The gameBiz.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getGameBiz() {
       java.lang.Object ref = gameBiz_;
@@ -759,7 +1398,18 @@ public final class GetPlayerTokenRspOuterClass {
         return s;
       }
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>string game_biz = 2042;</code>
+     * @return The bytes for gameBiz.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getGameBizBytes() {
@@ -777,7 +1427,18 @@ public final class GetPlayerTokenRspOuterClass {
 
     public static final int ACCOUNT_UID_FIELD_NUMBER = 15;
     private volatile java.lang.Object accountUid_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>string account_uid = 15;</code>
+     * @return The accountUid.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getAccountUid() {
       java.lang.Object ref = accountUid_;
@@ -791,7 +1452,18 @@ public final class GetPlayerTokenRspOuterClass {
         return s;
       }
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>string account_uid = 15;</code>
+     * @return The bytes for accountUid.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getAccountUidBytes() {
@@ -809,7 +1481,18 @@ public final class GetPlayerTokenRspOuterClass {
 
     public static final int SERVER_RAND_KEY_FIELD_NUMBER = 1212;
     private volatile java.lang.Object serverRandKey_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>string server_rand_key = 1212;</code>
+     * @return The serverRandKey.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getServerRandKey() {
       java.lang.Object ref = serverRandKey_;
@@ -823,7 +1506,18 @@ public final class GetPlayerTokenRspOuterClass {
         return s;
       }
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>string server_rand_key = 1212;</code>
+     * @return The bytes for serverRandKey.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getServerRandKeyBytes() {
@@ -841,7 +1535,18 @@ public final class GetPlayerTokenRspOuterClass {
 
     public static final int COUNTRY_CODE_FIELD_NUMBER = 959;
     private volatile java.lang.Object countryCode_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0 
+     * </pre>
+     *
+     * <code>string country_code = 959;</code>
+     * @return The countryCode.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getCountryCode() {
       java.lang.Object ref = countryCode_;
@@ -855,7 +1560,18 @@ public final class GetPlayerTokenRspOuterClass {
         return s;
       }
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0 
+     * </pre>
+     *
+     * <code>string country_code = 959;</code>
+     * @return The bytes for countryCode.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getCountryCodeBytes() {
@@ -873,7 +1589,18 @@ public final class GetPlayerTokenRspOuterClass {
 
     public static final int CLIENT_VERSION_RANDOM_KEY_FIELD_NUMBER = 1883;
     private volatile java.lang.Object clientVersionRandomKey_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0 
+     * </pre>
+     *
+     * <code>string client_version_random_key = 1883;</code>
+     * @return The clientVersionRandomKey.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getClientVersionRandomKey() {
       java.lang.Object ref = clientVersionRandomKey_;
@@ -887,7 +1614,18 @@ public final class GetPlayerTokenRspOuterClass {
         return s;
       }
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0 
+     * </pre>
+     *
+     * <code>string client_version_random_key = 1883;</code>
+     * @return The bytes for clientVersionRandomKey.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getClientVersionRandomKeyBytes() {
@@ -905,7 +1643,18 @@ public final class GetPlayerTokenRspOuterClass {
 
     public static final int SECURITY_CMD_BUFFER_FIELD_NUMBER = 3;
     private com.google.protobuf.ByteString securityCmdBuffer_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0 
+     * </pre>
+     *
+     * <code>bytes security_cmd_buffer = 3;</code>
+     * @return The securityCmdBuffer.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString getSecurityCmdBuffer() {
       return securityCmdBuffer_;
@@ -913,7 +1662,18 @@ public final class GetPlayerTokenRspOuterClass {
 
     public static final int UID_FIELD_NUMBER = 12;
     private int uid_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>uint32 uid = 5;</code>
+     * @return The uid.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getUid() {
       return uid_;
@@ -921,7 +1681,18 @@ public final class GetPlayerTokenRspOuterClass {
 
     public static final int IS_GUEST_FIELD_NUMBER = 15;
     private boolean isGuest_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0   
+     * </pre>
+     *
+     * <code>bool is_guest = 2;</code>
+     * @return The isGuest.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsGuest() {
       return isGuest_;
@@ -929,7 +1700,18 @@ public final class GetPlayerTokenRspOuterClass {
 
     public static final int TAG_FIELD_NUMBER = 430;
     private int tag_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0     
+     * </pre>
+     *
+     * <code>uint32 tag = 430;</code>
+     * @return The tag.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getTag() {
       return tag_;
@@ -937,7 +1719,18 @@ public final class GetPlayerTokenRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 1;
     private int retcode_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>int32 retcode = 12;</code>
+     * @return The retcode.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -945,7 +1738,18 @@ public final class GetPlayerTokenRspOuterClass {
 
     public static final int SECRET_KEY_SEED_FIELD_NUMBER = 4;
     private long secretKeySeed_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0   
+     * </pre>
+     *
+     * <code>uint64 secret_key_seed = 13;</code>
+     * @return The secretKeySeed.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getSecretKeySeed() {
       return secretKeySeed_;
@@ -953,7 +1757,18 @@ public final class GetPlayerTokenRspOuterClass {
 
     public static final int CHANNEL_ID_FIELD_NUMBER = 1407;
     private int channelId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>uint32 channel_id = 1407;</code>
+     * @return The channelId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getChannelId() {
       return channelId_;
@@ -961,7 +1776,18 @@ public final class GetPlayerTokenRspOuterClass {
 
     public static final int KEY_ID_FIELD_NUMBER = 1871;
     private int keyId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>uint32 key_id = 1871;</code>
+     * @return The keyId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getKeyId() {
       return keyId_;
@@ -969,7 +1795,18 @@ public final class GetPlayerTokenRspOuterClass {
 
     public static final int PLATFORM_TYPE_FIELD_NUMBER = 10;
     private int platformType_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>uint32 platform_type = 10;</code>
+     * @return The platformType.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getPlatformType() {
       return platformType_;
@@ -2005,7 +2842,18 @@ public final class GetPlayerTokenRspOuterClass {
       private int bitField0_;
 
       private java.lang.Object token_ = "";
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string token = 7;</code>
+       * @return The token.
+       */
+>>>>>>> origin/6.5.0
       public java.lang.String getToken() {
         java.lang.Object ref = token_;
         if (!(ref instanceof java.lang.String)) {
@@ -2018,7 +2866,18 @@ public final class GetPlayerTokenRspOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string token = 7;</code>
+       * @return The bytes for token.
+       */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getTokenBytes() {
         java.lang.Object ref = token_;
@@ -2032,7 +2891,19 @@ public final class GetPlayerTokenRspOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string token = 7;</code>
+       * @param value The token to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setToken(
           java.lang.String value) {
         if (value == null) {
@@ -2043,14 +2914,37 @@ public final class GetPlayerTokenRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string token = 7;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearToken() {
 
         token_ = getDefaultInstance().getToken();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string token = 7;</code>
+       * @param value The bytes for token to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setTokenBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -2064,7 +2958,18 @@ public final class GetPlayerTokenRspOuterClass {
       }
 
       private java.lang.Object sign_ = "";
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string sign = 1842;</code>
+       * @return The sign.
+       */
+>>>>>>> origin/6.5.0
       public java.lang.String getSign() {
         java.lang.Object ref = sign_;
         if (!(ref instanceof java.lang.String)) {
@@ -2077,7 +2982,18 @@ public final class GetPlayerTokenRspOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string sign = 1842;</code>
+       * @return The bytes for sign.
+       */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getSignBytes() {
         java.lang.Object ref = sign_;
@@ -2091,7 +3007,19 @@ public final class GetPlayerTokenRspOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string sign = 1842;</code>
+       * @param value The sign to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setSign(
           java.lang.String value) {
         if (value == null) {
@@ -2102,14 +3030,37 @@ public final class GetPlayerTokenRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string sign = 1842;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearSign() {
 
         sign_ = getDefaultInstance().getSign();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string sign = 1842;</code>
+       * @param value The bytes for sign to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setSignBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -2129,12 +3080,24 @@ public final class GetPlayerTokenRspOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0   
+       * </pre>
+       *
+       * <code>repeated uint32 finish_collection_id_list = 1222;</code>
+       * @return A list containing the finishCollectionIdList.
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getFinishCollectionIdListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(finishCollectionIdList_) : finishCollectionIdList_;
       }
+<<<<<<< HEAD
 
       public int getFinishCollectionIdListCount() {
         return finishCollectionIdList_.size();
@@ -2144,6 +3107,41 @@ public final class GetPlayerTokenRspOuterClass {
         return finishCollectionIdList_.getInt(index);
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0   
+       * </pre>
+       *
+       * <code>repeated uint32 finish_collection_id_list = 1222;</code>
+       * @return The count of finishCollectionIdList.
+       */
+      public int getFinishCollectionIdListCount() {
+        return finishCollectionIdList_.size();
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0   
+       * </pre>
+       *
+       * <code>repeated uint32 finish_collection_id_list = 1222;</code>
+       * @param index The index of the element to return.
+       * @return The finishCollectionIdList at the given index.
+       */
+      public int getFinishCollectionIdList(int index) {
+        return finishCollectionIdList_.getInt(index);
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0   
+       * </pre>
+       *
+       * <code>repeated uint32 finish_collection_id_list = 1222;</code>
+       * @param index The index to set the value at.
+       * @param value The finishCollectionIdList to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setFinishCollectionIdList(
           int index, int value) {
         ensureFinishCollectionIdListIsMutable();
@@ -2151,14 +3149,38 @@ public final class GetPlayerTokenRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0   
+       * </pre>
+       *
+       * <code>repeated uint32 finish_collection_id_list = 1222;</code>
+       * @param value The finishCollectionIdList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addFinishCollectionIdList(int value) {
         ensureFinishCollectionIdListIsMutable();
         finishCollectionIdList_.addInt(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0   
+       * </pre>
+       *
+       * <code>repeated uint32 finish_collection_id_list = 1222;</code>
+       * @param values The finishCollectionIdList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllFinishCollectionIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureFinishCollectionIdListIsMutable();
@@ -2167,7 +3189,18 @@ public final class GetPlayerTokenRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0   
+       * </pre>
+       *
+       * <code>repeated uint32 finish_collection_id_list = 1222;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearFinishCollectionIdList() {
         finishCollectionIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -2176,7 +3209,18 @@ public final class GetPlayerTokenRspOuterClass {
       }
 
       private java.lang.Object msg_ = "";
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>string msg = 11;</code>
+       * @return The msg.
+       */
+>>>>>>> origin/6.5.0
       public java.lang.String getMsg() {
         java.lang.Object ref = msg_;
         if (!(ref instanceof java.lang.String)) {
@@ -2189,7 +3233,18 @@ public final class GetPlayerTokenRspOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>string msg = 11;</code>
+       * @return The bytes for msg.
+       */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getMsgBytes() {
         java.lang.Object ref = msg_;
@@ -2203,7 +3258,19 @@ public final class GetPlayerTokenRspOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>string msg = 11;</code>
+       * @param value The msg to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setMsg(
           java.lang.String value) {
         if (value == null) {
@@ -2214,14 +3281,37 @@ public final class GetPlayerTokenRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>string msg = 11;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearMsg() {
 
         msg_ = getDefaultInstance().getMsg();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>string msg = 11;</code>
+       * @param value The bytes for msg to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setMsgBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -2235,12 +3325,35 @@ public final class GetPlayerTokenRspOuterClass {
       }
 
       private com.google.protobuf.ByteString extraBinData_ = com.google.protobuf.ByteString.EMPTY;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0 
+       * </pre>
+       *
+       * <code>bytes extra_bin_data = 6;</code>
+       * @return The extraBinData.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public com.google.protobuf.ByteString getExtraBinData() {
         return extraBinData_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0 
+       * </pre>
+       *
+       * <code>bytes extra_bin_data = 6;</code>
+       * @param value The extraBinData to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setExtraBinData(com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
@@ -2250,7 +3363,18 @@ public final class GetPlayerTokenRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0 
+       * </pre>
+       *
+       * <code>bytes extra_bin_data = 6;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearExtraBinData() {
 
         extraBinData_ = getDefaultInstance().getExtraBinData();
@@ -2259,7 +3383,18 @@ public final class GetPlayerTokenRspOuterClass {
       }
 
       private java.lang.Object clientIpStr_ = "";
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0 
+       * </pre>
+       *
+       * <code>string client_ip_str = 1673;</code>
+       * @return The clientIpStr.
+       */
+>>>>>>> origin/6.5.0
       public java.lang.String getClientIpStr() {
         java.lang.Object ref = clientIpStr_;
         if (!(ref instanceof java.lang.String)) {
@@ -2272,7 +3407,18 @@ public final class GetPlayerTokenRspOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0 
+       * </pre>
+       *
+       * <code>string client_ip_str = 1673;</code>
+       * @return The bytes for clientIpStr.
+       */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getClientIpStrBytes() {
         java.lang.Object ref = clientIpStr_;
@@ -2286,7 +3432,19 @@ public final class GetPlayerTokenRspOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0 
+       * </pre>
+       *
+       * <code>string client_ip_str = 1673;</code>
+       * @param value The clientIpStr to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setClientIpStr(
           java.lang.String value) {
         if (value == null) {
@@ -2297,14 +3455,37 @@ public final class GetPlayerTokenRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0 
+       * </pre>
+       *
+       * <code>string client_ip_str = 1673;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearClientIpStr() {
 
         clientIpStr_ = getDefaultInstance().getClientIpStr();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0 
+       * </pre>
+       *
+       * <code>string client_ip_str = 1673;</code>
+       * @param value The bytes for clientIpStr to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setClientIpStrBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -2318,7 +3499,18 @@ public final class GetPlayerTokenRspOuterClass {
       }
 
       private java.lang.Object birthday_ = "";
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string birthday = 1707;</code>
+       * @return The birthday.
+       */
+>>>>>>> origin/6.5.0
       public java.lang.String getBirthday() {
         java.lang.Object ref = birthday_;
         if (!(ref instanceof java.lang.String)) {
@@ -2331,7 +3523,18 @@ public final class GetPlayerTokenRspOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string birthday = 1707;</code>
+       * @return The bytes for birthday.
+       */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getBirthdayBytes() {
         java.lang.Object ref = birthday_;
@@ -2345,7 +3548,19 @@ public final class GetPlayerTokenRspOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string birthday = 1707;</code>
+       * @param value The birthday to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setBirthday(
           java.lang.String value) {
         if (value == null) {
@@ -2356,14 +3571,37 @@ public final class GetPlayerTokenRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string birthday = 1707;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearBirthday() {
 
         birthday_ = getDefaultInstance().getBirthday();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string birthday = 1707;</code>
+       * @param value The bytes for birthday to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setBirthdayBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -2377,7 +3615,18 @@ public final class GetPlayerTokenRspOuterClass {
       }
 
       private java.lang.Object psnId_ = "";
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0     
+       * </pre>
+       *
+       * <code>string psn_id = 384;</code>
+       * @return The psnId.
+       */
+>>>>>>> origin/6.5.0
       public java.lang.String getPsnId() {
         java.lang.Object ref = psnId_;
         if (!(ref instanceof java.lang.String)) {
@@ -2390,7 +3639,18 @@ public final class GetPlayerTokenRspOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0     
+       * </pre>
+       *
+       * <code>string psn_id = 384;</code>
+       * @return The bytes for psnId.
+       */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getPsnIdBytes() {
         java.lang.Object ref = psnId_;
@@ -2404,7 +3664,19 @@ public final class GetPlayerTokenRspOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0     
+       * </pre>
+       *
+       * <code>string psn_id = 384;</code>
+       * @param value The psnId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setPsnId(
           java.lang.String value) {
         if (value == null) {
@@ -2415,14 +3687,37 @@ public final class GetPlayerTokenRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0     
+       * </pre>
+       *
+       * <code>string psn_id = 384;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearPsnId() {
 
         psnId_ = getDefaultInstance().getPsnId();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0     
+       * </pre>
+       *
+       * <code>string psn_id = 384;</code>
+       * @param value The bytes for psnId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setPsnIdBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -2438,11 +3733,33 @@ public final class GetPlayerTokenRspOuterClass {
       private emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo stopServer_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo, emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.Builder, emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfoOrBuilder> stopServerBuilder_;
+<<<<<<< HEAD
 
       public boolean hasStopServer() {
         return stopServerBuilder_ != null || stopServer_ != null;
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0  
+       * </pre>
+       *
+       * <code>.StopServerInfo stop_server = 2040;</code>
+       * @return Whether the stopServer field is set.
+       */
+      public boolean hasStopServer() {
+        return stopServerBuilder_ != null || stopServer_ != null;
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0  
+       * </pre>
+       *
+       * <code>.StopServerInfo stop_server = 2040;</code>
+       * @return The stopServer.
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo getStopServer() {
         if (stopServerBuilder_ == null) {
           return stopServer_ == null ? emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.getDefaultInstance() : stopServer_;
@@ -2450,7 +3767,17 @@ public final class GetPlayerTokenRspOuterClass {
           return stopServerBuilder_.getMessage();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0  
+       * </pre>
+       *
+       * <code>.StopServerInfo stop_server = 2040;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setStopServer(emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo value) {
         if (stopServerBuilder_ == null) {
           if (value == null) {
@@ -2464,7 +3791,17 @@ public final class GetPlayerTokenRspOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0  
+       * </pre>
+       *
+       * <code>.StopServerInfo stop_server = 2040;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setStopServer(
           emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.Builder builderForValue) {
         if (stopServerBuilder_ == null) {
@@ -2476,7 +3813,17 @@ public final class GetPlayerTokenRspOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0  
+       * </pre>
+       *
+       * <code>.StopServerInfo stop_server = 2040;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder mergeStopServer(emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo value) {
         if (stopServerBuilder_ == null) {
           if (stopServer_ != null) {
@@ -2492,7 +3839,17 @@ public final class GetPlayerTokenRspOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0  
+       * </pre>
+       *
+       * <code>.StopServerInfo stop_server = 2040;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder clearStopServer() {
         if (stopServerBuilder_ == null) {
           stopServer_ = null;
@@ -2504,13 +3861,33 @@ public final class GetPlayerTokenRspOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0  
+       * </pre>
+       *
+       * <code>.StopServerInfo stop_server = 2040;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.Builder getStopServerBuilder() {
 
         onChanged();
         return getStopServerFieldBuilder().getBuilder();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0  
+       * </pre>
+       *
+       * <code>.StopServerInfo stop_server = 2040;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfoOrBuilder getStopServerOrBuilder() {
         if (stopServerBuilder_ != null) {
           return stopServerBuilder_.getMessageOrBuilder();
@@ -2519,7 +3896,17 @@ public final class GetPlayerTokenRspOuterClass {
               emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.getDefaultInstance() : stopServer_;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0  
+       * </pre>
+       *
+       * <code>.StopServerInfo stop_server = 2040;</code>
+       */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo, emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.Builder, emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfoOrBuilder>
           getStopServerFieldBuilder() {
@@ -2535,7 +3922,18 @@ public final class GetPlayerTokenRspOuterClass {
       }
 
       private java.lang.Object secretKey_ = "";
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string secret_key = 14;</code>
+       * @return The secretKey.
+       */
+>>>>>>> origin/6.5.0
       public java.lang.String getSecretKey() {
         java.lang.Object ref = secretKey_;
         if (!(ref instanceof java.lang.String)) {
@@ -2548,7 +3946,18 @@ public final class GetPlayerTokenRspOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string secret_key = 14;</code>
+       * @return The bytes for secretKey.
+       */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getSecretKeyBytes() {
         java.lang.Object ref = secretKey_;
@@ -2562,7 +3971,19 @@ public final class GetPlayerTokenRspOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string secret_key = 14;</code>
+       * @param value The secretKey to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setSecretKey(
           java.lang.String value) {
         if (value == null) {
@@ -2573,14 +3994,37 @@ public final class GetPlayerTokenRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string secret_key = 14;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearSecretKey() {
 
         secretKey_ = getDefaultInstance().getSecretKey();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string secret_key = 14;</code>
+       * @param value The bytes for secretKey to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setSecretKeyBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -2594,7 +4038,18 @@ public final class GetPlayerTokenRspOuterClass {
       }
 
       private java.lang.Object gameBiz_ = "";
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string game_biz = 2042;</code>
+       * @return The gameBiz.
+       */
+>>>>>>> origin/6.5.0
       public java.lang.String getGameBiz() {
         java.lang.Object ref = gameBiz_;
         if (!(ref instanceof java.lang.String)) {
@@ -2607,7 +4062,18 @@ public final class GetPlayerTokenRspOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string game_biz = 2042;</code>
+       * @return The bytes for gameBiz.
+       */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getGameBizBytes() {
         java.lang.Object ref = gameBiz_;
@@ -2621,7 +4087,19 @@ public final class GetPlayerTokenRspOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string game_biz = 2042;</code>
+       * @param value The gameBiz to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setGameBiz(
           java.lang.String value) {
         if (value == null) {
@@ -2632,14 +4110,37 @@ public final class GetPlayerTokenRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string game_biz = 2042;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearGameBiz() {
 
         gameBiz_ = getDefaultInstance().getGameBiz();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string game_biz = 2042;</code>
+       * @param value The bytes for gameBiz to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setGameBizBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -2653,7 +4154,18 @@ public final class GetPlayerTokenRspOuterClass {
       }
 
       private java.lang.Object accountUid_ = "";
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string account_uid = 15;</code>
+       * @return The accountUid.
+       */
+>>>>>>> origin/6.5.0
       public java.lang.String getAccountUid() {
         java.lang.Object ref = accountUid_;
         if (!(ref instanceof java.lang.String)) {
@@ -2666,7 +4178,18 @@ public final class GetPlayerTokenRspOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string account_uid = 15;</code>
+       * @return The bytes for accountUid.
+       */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getAccountUidBytes() {
         java.lang.Object ref = accountUid_;
@@ -2680,7 +4203,19 @@ public final class GetPlayerTokenRspOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string account_uid = 15;</code>
+       * @param value The accountUid to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setAccountUid(
           java.lang.String value) {
         if (value == null) {
@@ -2691,14 +4226,37 @@ public final class GetPlayerTokenRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string account_uid = 15;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearAccountUid() {
 
         accountUid_ = getDefaultInstance().getAccountUid();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string account_uid = 15;</code>
+       * @param value The bytes for accountUid to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setAccountUidBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -2712,7 +4270,18 @@ public final class GetPlayerTokenRspOuterClass {
       }
 
       private java.lang.Object serverRandKey_ = "";
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string server_rand_key = 1212;</code>
+       * @return The serverRandKey.
+       */
+>>>>>>> origin/6.5.0
       public java.lang.String getServerRandKey() {
         java.lang.Object ref = serverRandKey_;
         if (!(ref instanceof java.lang.String)) {
@@ -2725,7 +4294,18 @@ public final class GetPlayerTokenRspOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string server_rand_key = 1212;</code>
+       * @return The bytes for serverRandKey.
+       */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getServerRandKeyBytes() {
         java.lang.Object ref = serverRandKey_;
@@ -2739,7 +4319,19 @@ public final class GetPlayerTokenRspOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string server_rand_key = 1212;</code>
+       * @param value The serverRandKey to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setServerRandKey(
           java.lang.String value) {
         if (value == null) {
@@ -2750,14 +4342,37 @@ public final class GetPlayerTokenRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string server_rand_key = 1212;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearServerRandKey() {
 
         serverRandKey_ = getDefaultInstance().getServerRandKey();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>string server_rand_key = 1212;</code>
+       * @param value The bytes for serverRandKey to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setServerRandKeyBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -2771,7 +4386,18 @@ public final class GetPlayerTokenRspOuterClass {
       }
 
       private java.lang.Object countryCode_ = "";
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0 
+       * </pre>
+       *
+       * <code>string country_code = 959;</code>
+       * @return The countryCode.
+       */
+>>>>>>> origin/6.5.0
       public java.lang.String getCountryCode() {
         java.lang.Object ref = countryCode_;
         if (!(ref instanceof java.lang.String)) {
@@ -2784,7 +4410,18 @@ public final class GetPlayerTokenRspOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0 
+       * </pre>
+       *
+       * <code>string country_code = 959;</code>
+       * @return The bytes for countryCode.
+       */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getCountryCodeBytes() {
         java.lang.Object ref = countryCode_;
@@ -2798,7 +4435,19 @@ public final class GetPlayerTokenRspOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0 
+       * </pre>
+       *
+       * <code>string country_code = 959;</code>
+       * @param value The countryCode to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setCountryCode(
           java.lang.String value) {
         if (value == null) {
@@ -2809,14 +4458,37 @@ public final class GetPlayerTokenRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0 
+       * </pre>
+       *
+       * <code>string country_code = 959;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearCountryCode() {
 
         countryCode_ = getDefaultInstance().getCountryCode();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0 
+       * </pre>
+       *
+       * <code>string country_code = 959;</code>
+       * @param value The bytes for countryCode to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setCountryCodeBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -2830,7 +4502,18 @@ public final class GetPlayerTokenRspOuterClass {
       }
 
       private java.lang.Object clientVersionRandomKey_ = "";
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0 
+       * </pre>
+       *
+       * <code>string client_version_random_key = 1883;</code>
+       * @return The clientVersionRandomKey.
+       */
+>>>>>>> origin/6.5.0
       public java.lang.String getClientVersionRandomKey() {
         java.lang.Object ref = clientVersionRandomKey_;
         if (!(ref instanceof java.lang.String)) {
@@ -2843,7 +4526,18 @@ public final class GetPlayerTokenRspOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0 
+       * </pre>
+       *
+       * <code>string client_version_random_key = 1883;</code>
+       * @return The bytes for clientVersionRandomKey.
+       */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getClientVersionRandomKeyBytes() {
         java.lang.Object ref = clientVersionRandomKey_;
@@ -2857,7 +4551,19 @@ public final class GetPlayerTokenRspOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0 
+       * </pre>
+       *
+       * <code>string client_version_random_key = 1883;</code>
+       * @param value The clientVersionRandomKey to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setClientVersionRandomKey(
           java.lang.String value) {
         if (value == null) {
@@ -2868,14 +4574,37 @@ public final class GetPlayerTokenRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0 
+       * </pre>
+       *
+       * <code>string client_version_random_key = 1883;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearClientVersionRandomKey() {
 
         clientVersionRandomKey_ = getDefaultInstance().getClientVersionRandomKey();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0 
+       * </pre>
+       *
+       * <code>string client_version_random_key = 1883;</code>
+       * @param value The bytes for clientVersionRandomKey to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setClientVersionRandomKeyBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -2889,12 +4618,35 @@ public final class GetPlayerTokenRspOuterClass {
       }
 
       private com.google.protobuf.ByteString securityCmdBuffer_ = com.google.protobuf.ByteString.EMPTY;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0 
+       * </pre>
+       *
+       * <code>bytes security_cmd_buffer = 3;</code>
+       * @return The securityCmdBuffer.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public com.google.protobuf.ByteString getSecurityCmdBuffer() {
         return securityCmdBuffer_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0 
+       * </pre>
+       *
+       * <code>bytes security_cmd_buffer = 3;</code>
+       * @param value The securityCmdBuffer to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setSecurityCmdBuffer(com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
@@ -2904,7 +4656,18 @@ public final class GetPlayerTokenRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0 
+       * </pre>
+       *
+       * <code>bytes security_cmd_buffer = 3;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearSecurityCmdBuffer() {
 
         securityCmdBuffer_ = getDefaultInstance().getSecurityCmdBuffer();
@@ -2913,19 +4676,53 @@ public final class GetPlayerTokenRspOuterClass {
       }
 
       private int uid_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>uint32 uid = 5;</code>
+       * @return The uid.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getUid() {
         return uid_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>uint32 uid = 5;</code>
+       * @param value The uid to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setUid(int value) {
 
         uid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>uint32 uid = 5;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearUid() {
 
         uid_ = 0;
@@ -2934,19 +4731,53 @@ public final class GetPlayerTokenRspOuterClass {
       }
 
       private boolean isGuest_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0   
+       * </pre>
+       *
+       * <code>bool is_guest = 2;</code>
+       * @return The isGuest.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsGuest() {
         return isGuest_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0   
+       * </pre>
+       *
+       * <code>bool is_guest = 2;</code>
+       * @param value The isGuest to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setIsGuest(boolean value) {
 
         isGuest_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0   
+       * </pre>
+       *
+       * <code>bool is_guest = 2;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearIsGuest() {
 
         isGuest_ = false;
@@ -2955,19 +4786,53 @@ public final class GetPlayerTokenRspOuterClass {
       }
 
       private int tag_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0     
+       * </pre>
+       *
+       * <code>uint32 tag = 430;</code>
+       * @return The tag.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getTag() {
         return tag_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0     
+       * </pre>
+       *
+       * <code>uint32 tag = 430;</code>
+       * @param value The tag to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setTag(int value) {
 
         tag_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0     
+       * </pre>
+       *
+       * <code>uint32 tag = 430;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearTag() {
 
         tag_ = 0;
@@ -2976,19 +4841,53 @@ public final class GetPlayerTokenRspOuterClass {
       }
 
       private int retcode_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>int32 retcode = 12;</code>
+       * @return The retcode.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>int32 retcode = 12;</code>
+       * @param value The retcode to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
 
         retcode_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>int32 retcode = 12;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearRetcode() {
 
         retcode_ = 0;
@@ -2997,19 +4896,53 @@ public final class GetPlayerTokenRspOuterClass {
       }
 
       private long secretKeySeed_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0   
+       * </pre>
+       *
+       * <code>uint64 secret_key_seed = 13;</code>
+       * @return The secretKeySeed.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getSecretKeySeed() {
         return secretKeySeed_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0   
+       * </pre>
+       *
+       * <code>uint64 secret_key_seed = 13;</code>
+       * @param value The secretKeySeed to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setSecretKeySeed(long value) {
 
         secretKeySeed_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0   
+       * </pre>
+       *
+       * <code>uint64 secret_key_seed = 13;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearSecretKeySeed() {
 
         secretKeySeed_ = 0L;
@@ -3018,19 +4951,53 @@ public final class GetPlayerTokenRspOuterClass {
       }
 
       private int channelId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>uint32 channel_id = 1407;</code>
+       * @return The channelId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getChannelId() {
         return channelId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>uint32 channel_id = 1407;</code>
+       * @param value The channelId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setChannelId(int value) {
 
         channelId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>uint32 channel_id = 1407;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearChannelId() {
 
         channelId_ = 0;
@@ -3039,19 +5006,53 @@ public final class GetPlayerTokenRspOuterClass {
       }
 
       private int keyId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>uint32 key_id = 1871;</code>
+       * @return The keyId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getKeyId() {
         return keyId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>uint32 key_id = 1871;</code>
+       * @param value The keyId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setKeyId(int value) {
 
         keyId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>uint32 key_id = 1871;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearKeyId() {
 
         keyId_ = 0;
@@ -3060,19 +5061,53 @@ public final class GetPlayerTokenRspOuterClass {
       }
 
       private int platformType_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>uint32 platform_type = 10;</code>
+       * @return The platformType.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getPlatformType() {
         return platformType_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>uint32 platform_type = 10;</code>
+       * @param value The platformType to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setPlatformType(int value) {
 
         platformType_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>uint32 platform_type = 10;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearPlatformType() {
 
         platformType_ = 0;

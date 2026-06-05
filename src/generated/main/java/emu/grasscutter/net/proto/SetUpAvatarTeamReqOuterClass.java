@@ -18,10 +18,40 @@ public final class SetUpAvatarTeamReqOuterClass {
       // @@protoc_insertion_point(interface_extends:SetUpAvatarTeamReq)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     java.util.List<java.lang.Long> getAvatarTeamGuidListList();
 
     int getAvatarTeamGuidListCount();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_team_guid_list = 9;</code>
+     * @return A list containing the avatarTeamGuidList.
+     */
+    java.util.List<java.lang.Long> getAvatarTeamGuidListList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_team_guid_list = 9;</code>
+     * @return The count of avatarTeamGuidList.
+     */
+    int getAvatarTeamGuidListCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_team_guid_list = 9;</code>
+     * @param index The index of the element to return.
+     * @return The avatarTeamGuidList at the given index.
+     */
+>>>>>>> origin/6.5.0
     long getAvatarTeamGuidList(int index);
 
     long getCurAvatarGuid();
@@ -147,17 +177,51 @@ public final class SetUpAvatarTeamReqOuterClass {
 
     public static final int AVATAR_TEAM_GUID_LIST_FIELD_NUMBER = 8;
     private com.google.protobuf.Internal.LongList avatarTeamGuidList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_team_guid_list = 9;</code>
+     * @return A list containing the avatarTeamGuidList.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Long>
         getAvatarTeamGuidListList() {
       return avatarTeamGuidList_;
     }
+<<<<<<< HEAD
 
     public int getAvatarTeamGuidListCount() {
       return avatarTeamGuidList_.size();
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_team_guid_list = 9;</code>
+     * @return The count of avatarTeamGuidList.
+     */
+    public int getAvatarTeamGuidListCount() {
+      return avatarTeamGuidList_.size();
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_team_guid_list = 9;</code>
+     * @param index The index of the element to return.
+     * @return The avatarTeamGuidList at the given index.
+     */
+>>>>>>> origin/6.5.0
     public long getAvatarTeamGuidList(int index) {
       return avatarTeamGuidList_.getLong(index);
     }
@@ -557,12 +621,24 @@ public final class SetUpAvatarTeamReqOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_team_guid_list = 9;</code>
+       * @return A list containing the avatarTeamGuidList.
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Long>
           getAvatarTeamGuidListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(avatarTeamGuidList_) : avatarTeamGuidList_;
       }
+<<<<<<< HEAD
 
       public int getAvatarTeamGuidListCount() {
         return avatarTeamGuidList_.size();
@@ -572,6 +648,41 @@ public final class SetUpAvatarTeamReqOuterClass {
         return avatarTeamGuidList_.getLong(index);
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_team_guid_list = 9;</code>
+       * @return The count of avatarTeamGuidList.
+       */
+      public int getAvatarTeamGuidListCount() {
+        return avatarTeamGuidList_.size();
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_team_guid_list = 9;</code>
+       * @param index The index of the element to return.
+       * @return The avatarTeamGuidList at the given index.
+       */
+      public long getAvatarTeamGuidList(int index) {
+        return avatarTeamGuidList_.getLong(index);
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_team_guid_list = 9;</code>
+       * @param index The index to set the value at.
+       * @param value The avatarTeamGuidList to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setAvatarTeamGuidList(
           int index, long value) {
         ensureAvatarTeamGuidListIsMutable();
@@ -579,14 +690,38 @@ public final class SetUpAvatarTeamReqOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_team_guid_list = 9;</code>
+       * @param value The avatarTeamGuidList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addAvatarTeamGuidList(long value) {
         ensureAvatarTeamGuidListIsMutable();
         avatarTeamGuidList_.addLong(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_team_guid_list = 9;</code>
+       * @param values The avatarTeamGuidList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllAvatarTeamGuidList(
           java.lang.Iterable<? extends java.lang.Long> values) {
         ensureAvatarTeamGuidListIsMutable();
@@ -595,7 +730,18 @@ public final class SetUpAvatarTeamReqOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_team_guid_list = 9;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearAvatarTeamGuidList() {
         avatarTeamGuidList_ = emptyLongList();
         bitField0_ = (bitField0_ & ~0x00000001);

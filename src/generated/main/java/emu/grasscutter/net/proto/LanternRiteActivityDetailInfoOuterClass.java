@@ -72,6 +72,17 @@ public final class LanternRiteActivityDetailInfoOuterClass {
      */
     emu.grasscutter.net.proto.MDACHCPLBOOOuterClass.MDACHCPLBOOOrBuilder getDBLCOKMPNIBOrBuilder();
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>bool is_content_closed = 5;</code>
+     * @return The isContentClosed.
+     */
+>>>>>>> origin/6.5.0
     boolean getIsContentClosed();
 
     /**
@@ -312,7 +323,18 @@ public final class LanternRiteActivityDetailInfoOuterClass {
 
     public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 8;
     private boolean isContentClosed_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>bool is_content_closed = 5;</code>
+     * @return The isContentClosed.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsContentClosed() {
       return isContentClosed_;
@@ -1275,19 +1297,53 @@ public final class LanternRiteActivityDetailInfoOuterClass {
       }
 
       private boolean isContentClosed_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_content_closed = 5;</code>
+       * @return The isContentClosed.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsContentClosed() {
         return isContentClosed_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_content_closed = 5;</code>
+       * @param value The isContentClosed to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setIsContentClosed(boolean value) {
 
         isContentClosed_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_content_closed = 5;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearIsContentClosed() {
 
         isContentClosed_ = false;

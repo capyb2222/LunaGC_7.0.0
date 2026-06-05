@@ -18,11 +18,42 @@ public final class ChangeTeamNameReqOuterClass {
       // @@protoc_insertion_point(interface_extends:ChangeTeamNameReq)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     java.lang.String getTeamName();
 
     com.google.protobuf.ByteString
         getTeamNameBytes();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>string team_name = 3;</code>
+     * @return The teamName.
+     */
+    java.lang.String getTeamName();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>string team_name = 3;</code>
+     * @return The bytes for teamName.
+     */
+    com.google.protobuf.ByteString
+        getTeamNameBytes();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>int32 team_id = 7;</code>
+     * @return The teamId.
+     */
+>>>>>>> origin/6.5.0
     int getTeamId();
   }
   /**
@@ -120,7 +151,18 @@ public final class ChangeTeamNameReqOuterClass {
 
     public static final int TEAM_NAME_FIELD_NUMBER = 4;
     private volatile java.lang.Object teamName_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>string team_name = 3;</code>
+     * @return The teamName.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getTeamName() {
       java.lang.Object ref = teamName_;
@@ -134,7 +176,18 @@ public final class ChangeTeamNameReqOuterClass {
         return s;
       }
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>string team_name = 3;</code>
+     * @return The bytes for teamName.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getTeamNameBytes() {
@@ -152,7 +205,18 @@ public final class ChangeTeamNameReqOuterClass {
 
     public static final int TEAM_ID_FIELD_NUMBER = 9;
     private int teamId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>int32 team_id = 7;</code>
+     * @return The teamId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getTeamId() {
       return teamId_;
@@ -482,7 +546,18 @@ public final class ChangeTeamNameReqOuterClass {
       }
 
       private java.lang.Object teamName_ = "";
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>string team_name = 3;</code>
+       * @return The teamName.
+       */
+>>>>>>> origin/6.5.0
       public java.lang.String getTeamName() {
         java.lang.Object ref = teamName_;
         if (!(ref instanceof java.lang.String)) {
@@ -495,7 +570,18 @@ public final class ChangeTeamNameReqOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>string team_name = 3;</code>
+       * @return The bytes for teamName.
+       */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getTeamNameBytes() {
         java.lang.Object ref = teamName_;
@@ -509,7 +595,19 @@ public final class ChangeTeamNameReqOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>string team_name = 3;</code>
+       * @param value The teamName to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setTeamName(
           java.lang.String value) {
         if (value == null) {
@@ -520,14 +618,37 @@ public final class ChangeTeamNameReqOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>string team_name = 3;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearTeamName() {
 
         teamName_ = getDefaultInstance().getTeamName();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>string team_name = 3;</code>
+       * @param value The bytes for teamName to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setTeamNameBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -541,19 +662,53 @@ public final class ChangeTeamNameReqOuterClass {
       }
 
       private int teamId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 team_id = 7;</code>
+       * @return The teamId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getTeamId() {
         return teamId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 team_id = 7;</code>
+       * @param value The teamId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setTeamId(int value) {
 
         teamId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 team_id = 7;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearTeamId() {
 
         teamId_ = 0;

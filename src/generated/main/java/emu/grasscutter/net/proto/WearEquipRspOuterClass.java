@@ -18,10 +18,41 @@ public final class WearEquipRspOuterClass {
       // @@protoc_insertion_point(interface_extends:WearEquipRsp)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     long getEquipGuid();
 
     long getAvatarGuid();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint64 equip_guid = 4;</code>
+     * @return The equipGuid.
+     */
+    long getEquipGuid();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint64 avatar_guid = 5;</code>
+     * @return The avatarGuid.
+     */
+    long getAvatarGuid();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>int32 retcode = 9;</code>
+     * @return The retcode.
+     */
+>>>>>>> origin/6.5.0
     int getRetcode();
   }
   /**
@@ -122,7 +153,18 @@ public final class WearEquipRspOuterClass {
 
     public static final int EQUIP_GUID_FIELD_NUMBER = 11;
     private long equipGuid_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint64 equip_guid = 4;</code>
+     * @return The equipGuid.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getEquipGuid() {
       return equipGuid_;
@@ -130,7 +172,18 @@ public final class WearEquipRspOuterClass {
 
     public static final int AVATAR_GUID_FIELD_NUMBER = 10;
     private long avatarGuid_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint64 avatar_guid = 5;</code>
+     * @return The avatarGuid.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getAvatarGuid() {
       return avatarGuid_;
@@ -138,7 +191,18 @@ public final class WearEquipRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 4;
     private int retcode_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>int32 retcode = 9;</code>
+     * @return The retcode.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -487,19 +551,53 @@ public final class WearEquipRspOuterClass {
       }
 
       private long equipGuid_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 equip_guid = 4;</code>
+       * @return The equipGuid.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getEquipGuid() {
         return equipGuid_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 equip_guid = 4;</code>
+       * @param value The equipGuid to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setEquipGuid(long value) {
 
         equipGuid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 equip_guid = 4;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearEquipGuid() {
 
         equipGuid_ = 0L;
@@ -508,19 +606,53 @@ public final class WearEquipRspOuterClass {
       }
 
       private long avatarGuid_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 avatar_guid = 5;</code>
+       * @return The avatarGuid.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getAvatarGuid() {
         return avatarGuid_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 avatar_guid = 5;</code>
+       * @param value The avatarGuid to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setAvatarGuid(long value) {
 
         avatarGuid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 avatar_guid = 5;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearAvatarGuid() {
 
         avatarGuid_ = 0L;
@@ -529,19 +661,53 @@ public final class WearEquipRspOuterClass {
       }
 
       private int retcode_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 9;</code>
+       * @return The retcode.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 9;</code>
+       * @param value The retcode to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
 
         retcode_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 9;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearRetcode() {
 
         retcode_ = 0;

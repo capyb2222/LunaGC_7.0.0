@@ -54,6 +54,17 @@ public final class ShopMcoinProductOuterClass {
      */
     boolean getLJHCFCNMEFF();
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 bought_num = 6;</code>
+     * @return The boughtNum.
+     */
+>>>>>>> origin/6.5.0
     int getBoughtNum();
 
     /**
@@ -284,7 +295,18 @@ public final class ShopMcoinProductOuterClass {
 
     public static final int BOUGHT_NUM_FIELD_NUMBER = 6;
     private int boughtNum_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 bought_num = 6;</code>
+     * @return The boughtNum.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getBoughtNum() {
       return boughtNum_;
@@ -932,19 +954,53 @@ public final class ShopMcoinProductOuterClass {
       }
 
       private int boughtNum_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 bought_num = 6;</code>
+       * @return The boughtNum.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getBoughtNum() {
         return boughtNum_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 bought_num = 6;</code>
+       * @param value The boughtNum to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setBoughtNum(int value) {
 
         boughtNum_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 bought_num = 6;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearBoughtNum() {
 
         boughtNum_ = 0;

@@ -52,8 +52,29 @@ public final class GachaStageDataOuterClass {
     int getGNCJBONIKBFOrThrow(
         int key);
 
+<<<<<<< HEAD
     int getStageId();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 stage_id = 1;</code>
+     * @return The stageId.
+     */
+    int getStageId();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>bool is_open = 9;</code>
+     * @return The isOpen.
+     */
+>>>>>>> origin/6.5.0
     boolean getIsOpen();
   }
   /**
@@ -252,7 +273,18 @@ public final class GachaStageDataOuterClass {
 
     public static final int STAGE_ID_FIELD_NUMBER = 1;
     private int stageId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 stage_id = 1;</code>
+     * @return The stageId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getStageId() {
       return stageId_;
@@ -260,7 +292,18 @@ public final class GachaStageDataOuterClass {
 
     public static final int IS_OPEN_FIELD_NUMBER = 9;
     private boolean isOpen_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>bool is_open = 9;</code>
+     * @return The isOpen.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsOpen() {
       return isOpen_;
@@ -765,19 +808,53 @@ public final class GachaStageDataOuterClass {
       }
 
       private int stageId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 stage_id = 1;</code>
+       * @return The stageId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getStageId() {
         return stageId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 stage_id = 1;</code>
+       * @param value The stageId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setStageId(int value) {
 
         stageId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 stage_id = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearStageId() {
 
         stageId_ = 0;
@@ -786,19 +863,53 @@ public final class GachaStageDataOuterClass {
       }
 
       private boolean isOpen_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_open = 9;</code>
+       * @return The isOpen.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsOpen() {
         return isOpen_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_open = 9;</code>
+       * @param value The isOpen to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setIsOpen(boolean value) {
 
         isOpen_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_open = 9;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearIsOpen() {
 
         isOpen_ = false;

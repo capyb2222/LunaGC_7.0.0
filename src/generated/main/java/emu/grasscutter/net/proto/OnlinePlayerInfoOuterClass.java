@@ -30,6 +30,7 @@ public final class OnlinePlayerInfoOuterClass {
     com.google.protobuf.ByteString
         getFLEFHGMJIAFBytes();
 
+<<<<<<< HEAD
     java.lang.String getSignature();
 
     com.google.protobuf.ByteString
@@ -39,6 +40,53 @@ public final class OnlinePlayerInfoOuterClass {
 
     emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture getProfilePicture();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>string signature = 11;</code>
+     * @return The signature.
+     */
+    java.lang.String getSignature();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>string signature = 11;</code>
+     * @return The bytes for signature.
+     */
+    com.google.protobuf.ByteString
+        getSignatureBytes();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.ProfilePicture profile_picture = 12;</code>
+     * @return Whether the profilePicture field is set.
+     */
+    boolean hasProfilePicture();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.ProfilePicture profile_picture = 12;</code>
+     * @return The profilePicture.
+     */
+    emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture getProfilePicture();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.ProfilePicture profile_picture = 12;</code>
+     */
+>>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder getProfilePictureOrBuilder();
 
     /**
@@ -53,6 +101,7 @@ public final class OnlinePlayerInfoOuterClass {
     com.google.protobuf.ByteString
         getMGEJGMCKAELBytes();
 
+<<<<<<< HEAD
     java.util.List<java.lang.Integer> getBlacklistUidListList();
 
     int getBlacklistUidListCount();
@@ -92,6 +141,193 @@ public final class OnlinePlayerInfoOuterClass {
 
     emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType getMpSettingType();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 blacklist_uid_list = 10;</code>
+     * @return A list containing the blacklistUidList.
+     */
+    java.util.List<java.lang.Integer> getBlacklistUidListList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 blacklist_uid_list = 10;</code>
+     * @return The count of blacklistUidList.
+     */
+    int getBlacklistUidListCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 blacklist_uid_list = 10;</code>
+     * @param index The index of the element to return.
+     * @return The blacklistUidList at the given index.
+     */
+    int getBlacklistUidList(int index);
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>string psn_id = 13;</code>
+     * @return The psnId.
+     */
+    java.lang.String getPsnId();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>string psn_id = 13;</code>
+     * @return The bytes for psnId.
+     */
+    com.google.protobuf.ByteString
+        getPsnIdBytes();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>string online_id = 8;</code>
+     * @return The onlineId.
+     */
+    java.lang.String getOnlineId();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>string online_id = 8;</code>
+     * @return The bytes for onlineId.
+     */
+    com.google.protobuf.ByteString
+        getOnlineIdBytes();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>string nickname = 2;</code>
+     * @return The nickname.
+     */
+    java.lang.String getNickname();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>string nickname = 2;</code>
+     * @return The bytes for nickname.
+     */
+    com.google.protobuf.ByteString
+        getNicknameBytes();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 cur_player_num_in_world = 6;</code>
+     * @return The curPlayerNumInWorld.
+     */
+    int getCurPlayerNumInWorld();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.PlatformType platform_type = 16;</code>
+     * @return The enum numeric value on the wire for platformType.
+     */
+    int getPlatformTypeValue();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.PlatformType platform_type = 16;</code>
+     * @return The platformType.
+     */
+    emu.grasscutter.net.proto.PlatformTypeOuterClass.PlatformType getPlatformType();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 avatar_id = 4;</code>
+     * @return The avatarId.
+     */
+    int getAvatarId();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 name_card_id = 9;</code>
+     * @return The nameCardId.
+     */
+    int getNameCardId();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 player_level = 3;</code>
+     * @return The playerLevel.
+     */
+    int getPlayerLevel();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 world_level = 7;</code>
+     * @return The worldLevel.
+     */
+    int getWorldLevel();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.MpSettingType mp_setting_type = 5;</code>
+     * @return The enum numeric value on the wire for mpSettingType.
+     */
+    int getMpSettingTypeValue();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.MpSettingType mp_setting_type = 5;</code>
+     * @return The mpSettingType.
+     */
+    emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType getMpSettingType();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 uid = 1;</code>
+     * @return The uid.
+     */
+>>>>>>> origin/6.5.0
     int getUid();
   }
   /**
@@ -336,7 +572,18 @@ public final class OnlinePlayerInfoOuterClass {
 
     public static final int SIGNATURE_FIELD_NUMBER = 11;
     private volatile java.lang.Object signature_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>string signature = 11;</code>
+     * @return The signature.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getSignature() {
       java.lang.Object ref = signature_;
@@ -350,7 +597,18 @@ public final class OnlinePlayerInfoOuterClass {
         return s;
       }
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>string signature = 11;</code>
+     * @return The bytes for signature.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getSignatureBytes() {
@@ -368,17 +626,49 @@ public final class OnlinePlayerInfoOuterClass {
 
     public static final int PROFILE_PICTURE_FIELD_NUMBER = 12;
     private emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture profilePicture_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.ProfilePicture profile_picture = 12;</code>
+     * @return Whether the profilePicture field is set.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasProfilePicture() {
       return profilePicture_ != null;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.ProfilePicture profile_picture = 12;</code>
+     * @return The profilePicture.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture getProfilePicture() {
       return profilePicture_ == null ? emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.getDefaultInstance() : profilePicture_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.ProfilePicture profile_picture = 12;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder getProfilePictureOrBuilder() {
       return getProfilePicture();
@@ -424,17 +714,51 @@ public final class OnlinePlayerInfoOuterClass {
 
     public static final int BLACKLIST_UID_LIST_FIELD_NUMBER = 10;
     private com.google.protobuf.Internal.IntList blacklistUidList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 blacklist_uid_list = 10;</code>
+     * @return A list containing the blacklistUidList.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getBlacklistUidListList() {
       return blacklistUidList_;
     }
+<<<<<<< HEAD
 
     public int getBlacklistUidListCount() {
       return blacklistUidList_.size();
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 blacklist_uid_list = 10;</code>
+     * @return The count of blacklistUidList.
+     */
+    public int getBlacklistUidListCount() {
+      return blacklistUidList_.size();
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 blacklist_uid_list = 10;</code>
+     * @param index The index of the element to return.
+     * @return The blacklistUidList at the given index.
+     */
+>>>>>>> origin/6.5.0
     public int getBlacklistUidList(int index) {
       return blacklistUidList_.getInt(index);
     }
@@ -442,7 +766,18 @@ public final class OnlinePlayerInfoOuterClass {
 
     public static final int PSN_ID_FIELD_NUMBER = 13;
     private volatile java.lang.Object psnId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>string psn_id = 13;</code>
+     * @return The psnId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getPsnId() {
       java.lang.Object ref = psnId_;
@@ -456,7 +791,18 @@ public final class OnlinePlayerInfoOuterClass {
         return s;
       }
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>string psn_id = 13;</code>
+     * @return The bytes for psnId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getPsnIdBytes() {
@@ -474,7 +820,18 @@ public final class OnlinePlayerInfoOuterClass {
 
     public static final int ONLINE_ID_FIELD_NUMBER = 8;
     private volatile java.lang.Object onlineId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>string online_id = 8;</code>
+     * @return The onlineId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getOnlineId() {
       java.lang.Object ref = onlineId_;
@@ -488,7 +845,18 @@ public final class OnlinePlayerInfoOuterClass {
         return s;
       }
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>string online_id = 8;</code>
+     * @return The bytes for onlineId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getOnlineIdBytes() {
@@ -506,7 +874,18 @@ public final class OnlinePlayerInfoOuterClass {
 
     public static final int NICKNAME_FIELD_NUMBER = 2;
     private volatile java.lang.Object nickname_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>string nickname = 2;</code>
+     * @return The nickname.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getNickname() {
       java.lang.Object ref = nickname_;
@@ -520,7 +899,18 @@ public final class OnlinePlayerInfoOuterClass {
         return s;
       }
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>string nickname = 2;</code>
+     * @return The bytes for nickname.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getNicknameBytes() {
@@ -538,7 +928,18 @@ public final class OnlinePlayerInfoOuterClass {
 
     public static final int CUR_PLAYER_NUM_IN_WORLD_FIELD_NUMBER = 6;
     private int curPlayerNumInWorld_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 cur_player_num_in_world = 6;</code>
+     * @return The curPlayerNumInWorld.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCurPlayerNumInWorld() {
       return curPlayerNumInWorld_;
@@ -546,11 +947,33 @@ public final class OnlinePlayerInfoOuterClass {
 
     public static final int PLATFORM_TYPE_FIELD_NUMBER = 16;
     private int platformType_;
+<<<<<<< HEAD
 
     @java.lang.Override public int getPlatformTypeValue() {
       return platformType_;
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.PlatformType platform_type = 16;</code>
+     * @return The enum numeric value on the wire for platformType.
+     */
+    @java.lang.Override public int getPlatformTypeValue() {
+      return platformType_;
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.PlatformType platform_type = 16;</code>
+     * @return The platformType.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override public emu.grasscutter.net.proto.PlatformTypeOuterClass.PlatformType getPlatformType() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.PlatformTypeOuterClass.PlatformType result = emu.grasscutter.net.proto.PlatformTypeOuterClass.PlatformType.valueOf(platformType_);
@@ -559,7 +982,18 @@ public final class OnlinePlayerInfoOuterClass {
 
     public static final int AVATAR_ID_FIELD_NUMBER = 4;
     private int avatarId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 avatar_id = 4;</code>
+     * @return The avatarId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getAvatarId() {
       return avatarId_;
@@ -567,7 +1001,18 @@ public final class OnlinePlayerInfoOuterClass {
 
     public static final int NAME_CARD_ID_FIELD_NUMBER = 9;
     private int nameCardId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 name_card_id = 9;</code>
+     * @return The nameCardId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getNameCardId() {
       return nameCardId_;
@@ -575,7 +1020,18 @@ public final class OnlinePlayerInfoOuterClass {
 
     public static final int PLAYER_LEVEL_FIELD_NUMBER = 3;
     private int playerLevel_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 player_level = 3;</code>
+     * @return The playerLevel.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getPlayerLevel() {
       return playerLevel_;
@@ -583,7 +1039,18 @@ public final class OnlinePlayerInfoOuterClass {
 
     public static final int WORLD_LEVEL_FIELD_NUMBER = 7;
     private int worldLevel_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 world_level = 7;</code>
+     * @return The worldLevel.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getWorldLevel() {
       return worldLevel_;
@@ -591,11 +1058,33 @@ public final class OnlinePlayerInfoOuterClass {
 
     public static final int MP_SETTING_TYPE_FIELD_NUMBER = 5;
     private int mpSettingType_;
+<<<<<<< HEAD
 
     @java.lang.Override public int getMpSettingTypeValue() {
       return mpSettingType_;
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.MpSettingType mp_setting_type = 5;</code>
+     * @return The enum numeric value on the wire for mpSettingType.
+     */
+    @java.lang.Override public int getMpSettingTypeValue() {
+      return mpSettingType_;
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.MpSettingType mp_setting_type = 5;</code>
+     * @return The mpSettingType.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override public emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType getMpSettingType() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType result = emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType.valueOf(mpSettingType_);
@@ -604,7 +1093,18 @@ public final class OnlinePlayerInfoOuterClass {
 
     public static final int UID_FIELD_NUMBER = 1;
     private int uid_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 uid = 1;</code>
+     * @return The uid.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getUid() {
       return uid_;
@@ -1285,7 +1785,18 @@ public final class OnlinePlayerInfoOuterClass {
       }
 
       private java.lang.Object signature_ = "";
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>string signature = 11;</code>
+       * @return The signature.
+       */
+>>>>>>> origin/6.5.0
       public java.lang.String getSignature() {
         java.lang.Object ref = signature_;
         if (!(ref instanceof java.lang.String)) {
@@ -1298,7 +1809,18 @@ public final class OnlinePlayerInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>string signature = 11;</code>
+       * @return The bytes for signature.
+       */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getSignatureBytes() {
         java.lang.Object ref = signature_;
@@ -1312,7 +1834,19 @@ public final class OnlinePlayerInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>string signature = 11;</code>
+       * @param value The signature to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setSignature(
           java.lang.String value) {
         if (value == null) {
@@ -1323,14 +1857,37 @@ public final class OnlinePlayerInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>string signature = 11;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearSignature() {
 
         signature_ = getDefaultInstance().getSignature();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>string signature = 11;</code>
+       * @param value The bytes for signature to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setSignatureBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -1346,11 +1903,33 @@ public final class OnlinePlayerInfoOuterClass {
       private emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture profilePicture_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder> profilePictureBuilder_;
+<<<<<<< HEAD
 
       public boolean hasProfilePicture() {
         return profilePictureBuilder_ != null || profilePicture_ != null;
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.ProfilePicture profile_picture = 12;</code>
+       * @return Whether the profilePicture field is set.
+       */
+      public boolean hasProfilePicture() {
+        return profilePictureBuilder_ != null || profilePicture_ != null;
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.ProfilePicture profile_picture = 12;</code>
+       * @return The profilePicture.
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture getProfilePicture() {
         if (profilePictureBuilder_ == null) {
           return profilePicture_ == null ? emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.getDefaultInstance() : profilePicture_;
@@ -1358,7 +1937,17 @@ public final class OnlinePlayerInfoOuterClass {
           return profilePictureBuilder_.getMessage();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.ProfilePicture profile_picture = 12;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setProfilePicture(emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture value) {
         if (profilePictureBuilder_ == null) {
           if (value == null) {
@@ -1372,7 +1961,17 @@ public final class OnlinePlayerInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.ProfilePicture profile_picture = 12;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setProfilePicture(
           emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder builderForValue) {
         if (profilePictureBuilder_ == null) {
@@ -1384,7 +1983,17 @@ public final class OnlinePlayerInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.ProfilePicture profile_picture = 12;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder mergeProfilePicture(emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture value) {
         if (profilePictureBuilder_ == null) {
           if (profilePicture_ != null) {
@@ -1400,7 +2009,17 @@ public final class OnlinePlayerInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.ProfilePicture profile_picture = 12;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder clearProfilePicture() {
         if (profilePictureBuilder_ == null) {
           profilePicture_ = null;
@@ -1412,13 +2031,33 @@ public final class OnlinePlayerInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.ProfilePicture profile_picture = 12;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder getProfilePictureBuilder() {
 
         onChanged();
         return getProfilePictureFieldBuilder().getBuilder();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.ProfilePicture profile_picture = 12;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder getProfilePictureOrBuilder() {
         if (profilePictureBuilder_ != null) {
           return profilePictureBuilder_.getMessageOrBuilder();
@@ -1427,7 +2066,17 @@ public final class OnlinePlayerInfoOuterClass {
               emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.getDefaultInstance() : profilePicture_;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.ProfilePicture profile_picture = 12;</code>
+       */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder>
           getProfilePictureFieldBuilder() {
@@ -1525,12 +2174,24 @@ public final class OnlinePlayerInfoOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 blacklist_uid_list = 10;</code>
+       * @return A list containing the blacklistUidList.
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getBlacklistUidListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(blacklistUidList_) : blacklistUidList_;
       }
+<<<<<<< HEAD
 
       public int getBlacklistUidListCount() {
         return blacklistUidList_.size();
@@ -1540,6 +2201,41 @@ public final class OnlinePlayerInfoOuterClass {
         return blacklistUidList_.getInt(index);
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 blacklist_uid_list = 10;</code>
+       * @return The count of blacklistUidList.
+       */
+      public int getBlacklistUidListCount() {
+        return blacklistUidList_.size();
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 blacklist_uid_list = 10;</code>
+       * @param index The index of the element to return.
+       * @return The blacklistUidList at the given index.
+       */
+      public int getBlacklistUidList(int index) {
+        return blacklistUidList_.getInt(index);
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 blacklist_uid_list = 10;</code>
+       * @param index The index to set the value at.
+       * @param value The blacklistUidList to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setBlacklistUidList(
           int index, int value) {
         ensureBlacklistUidListIsMutable();
@@ -1547,14 +2243,38 @@ public final class OnlinePlayerInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 blacklist_uid_list = 10;</code>
+       * @param value The blacklistUidList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addBlacklistUidList(int value) {
         ensureBlacklistUidListIsMutable();
         blacklistUidList_.addInt(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 blacklist_uid_list = 10;</code>
+       * @param values The blacklistUidList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllBlacklistUidList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureBlacklistUidListIsMutable();
@@ -1563,7 +2283,18 @@ public final class OnlinePlayerInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 blacklist_uid_list = 10;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearBlacklistUidList() {
         blacklistUidList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -1572,7 +2303,18 @@ public final class OnlinePlayerInfoOuterClass {
       }
 
       private java.lang.Object psnId_ = "";
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>string psn_id = 13;</code>
+       * @return The psnId.
+       */
+>>>>>>> origin/6.5.0
       public java.lang.String getPsnId() {
         java.lang.Object ref = psnId_;
         if (!(ref instanceof java.lang.String)) {
@@ -1585,7 +2327,18 @@ public final class OnlinePlayerInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>string psn_id = 13;</code>
+       * @return The bytes for psnId.
+       */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getPsnIdBytes() {
         java.lang.Object ref = psnId_;
@@ -1599,7 +2352,19 @@ public final class OnlinePlayerInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>string psn_id = 13;</code>
+       * @param value The psnId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setPsnId(
           java.lang.String value) {
         if (value == null) {
@@ -1610,14 +2375,37 @@ public final class OnlinePlayerInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>string psn_id = 13;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearPsnId() {
 
         psnId_ = getDefaultInstance().getPsnId();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>string psn_id = 13;</code>
+       * @param value The bytes for psnId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setPsnIdBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -1631,7 +2419,18 @@ public final class OnlinePlayerInfoOuterClass {
       }
 
       private java.lang.Object onlineId_ = "";
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>string online_id = 8;</code>
+       * @return The onlineId.
+       */
+>>>>>>> origin/6.5.0
       public java.lang.String getOnlineId() {
         java.lang.Object ref = onlineId_;
         if (!(ref instanceof java.lang.String)) {
@@ -1644,7 +2443,18 @@ public final class OnlinePlayerInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>string online_id = 8;</code>
+       * @return The bytes for onlineId.
+       */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getOnlineIdBytes() {
         java.lang.Object ref = onlineId_;
@@ -1658,7 +2468,19 @@ public final class OnlinePlayerInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>string online_id = 8;</code>
+       * @param value The onlineId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setOnlineId(
           java.lang.String value) {
         if (value == null) {
@@ -1669,14 +2491,37 @@ public final class OnlinePlayerInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>string online_id = 8;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearOnlineId() {
 
         onlineId_ = getDefaultInstance().getOnlineId();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>string online_id = 8;</code>
+       * @param value The bytes for onlineId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setOnlineIdBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -1690,7 +2535,18 @@ public final class OnlinePlayerInfoOuterClass {
       }
 
       private java.lang.Object nickname_ = "";
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>string nickname = 2;</code>
+       * @return The nickname.
+       */
+>>>>>>> origin/6.5.0
       public java.lang.String getNickname() {
         java.lang.Object ref = nickname_;
         if (!(ref instanceof java.lang.String)) {
@@ -1703,7 +2559,18 @@ public final class OnlinePlayerInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>string nickname = 2;</code>
+       * @return The bytes for nickname.
+       */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getNicknameBytes() {
         java.lang.Object ref = nickname_;
@@ -1717,7 +2584,19 @@ public final class OnlinePlayerInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>string nickname = 2;</code>
+       * @param value The nickname to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setNickname(
           java.lang.String value) {
         if (value == null) {
@@ -1728,14 +2607,37 @@ public final class OnlinePlayerInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>string nickname = 2;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearNickname() {
 
         nickname_ = getDefaultInstance().getNickname();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>string nickname = 2;</code>
+       * @param value The bytes for nickname to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setNicknameBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -1749,19 +2651,53 @@ public final class OnlinePlayerInfoOuterClass {
       }
 
       private int curPlayerNumInWorld_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 cur_player_num_in_world = 6;</code>
+       * @return The curPlayerNumInWorld.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCurPlayerNumInWorld() {
         return curPlayerNumInWorld_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 cur_player_num_in_world = 6;</code>
+       * @param value The curPlayerNumInWorld to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setCurPlayerNumInWorld(int value) {
 
         curPlayerNumInWorld_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 cur_player_num_in_world = 6;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearCurPlayerNumInWorld() {
 
         curPlayerNumInWorld_ = 0;
@@ -1770,25 +2706,71 @@ public final class OnlinePlayerInfoOuterClass {
       }
 
       private int platformType_ = 0;
+<<<<<<< HEAD
 
       @java.lang.Override public int getPlatformTypeValue() {
         return platformType_;
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.PlatformType platform_type = 16;</code>
+       * @return The enum numeric value on the wire for platformType.
+       */
+      @java.lang.Override public int getPlatformTypeValue() {
+        return platformType_;
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.PlatformType platform_type = 16;</code>
+       * @param value The enum numeric value on the wire for platformType to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setPlatformTypeValue(int value) {
 
         platformType_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.PlatformType platform_type = 16;</code>
+       * @return The platformType.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.PlatformTypeOuterClass.PlatformType getPlatformType() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.PlatformTypeOuterClass.PlatformType result = emu.grasscutter.net.proto.PlatformTypeOuterClass.PlatformType.valueOf(platformType_);
         return result == null ? emu.grasscutter.net.proto.PlatformTypeOuterClass.PlatformType.UNRECOGNIZED : result;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.PlatformType platform_type = 16;</code>
+       * @param value The platformType to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setPlatformType(emu.grasscutter.net.proto.PlatformTypeOuterClass.PlatformType value) {
         if (value == null) {
           throw new NullPointerException();
@@ -1798,7 +2780,18 @@ public final class OnlinePlayerInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.PlatformType platform_type = 16;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearPlatformType() {
 
         platformType_ = 0;
@@ -1807,19 +2800,53 @@ public final class OnlinePlayerInfoOuterClass {
       }
 
       private int avatarId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 avatar_id = 4;</code>
+       * @return The avatarId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getAvatarId() {
         return avatarId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 avatar_id = 4;</code>
+       * @param value The avatarId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setAvatarId(int value) {
 
         avatarId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 avatar_id = 4;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearAvatarId() {
 
         avatarId_ = 0;
@@ -1828,19 +2855,53 @@ public final class OnlinePlayerInfoOuterClass {
       }
 
       private int nameCardId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 name_card_id = 9;</code>
+       * @return The nameCardId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getNameCardId() {
         return nameCardId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 name_card_id = 9;</code>
+       * @param value The nameCardId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setNameCardId(int value) {
 
         nameCardId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 name_card_id = 9;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearNameCardId() {
 
         nameCardId_ = 0;
@@ -1849,19 +2910,53 @@ public final class OnlinePlayerInfoOuterClass {
       }
 
       private int playerLevel_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 player_level = 3;</code>
+       * @return The playerLevel.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getPlayerLevel() {
         return playerLevel_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 player_level = 3;</code>
+       * @param value The playerLevel to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setPlayerLevel(int value) {
 
         playerLevel_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 player_level = 3;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearPlayerLevel() {
 
         playerLevel_ = 0;
@@ -1870,19 +2965,53 @@ public final class OnlinePlayerInfoOuterClass {
       }
 
       private int worldLevel_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 world_level = 7;</code>
+       * @return The worldLevel.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getWorldLevel() {
         return worldLevel_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 world_level = 7;</code>
+       * @param value The worldLevel to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setWorldLevel(int value) {
 
         worldLevel_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 world_level = 7;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearWorldLevel() {
 
         worldLevel_ = 0;
@@ -1891,25 +3020,71 @@ public final class OnlinePlayerInfoOuterClass {
       }
 
       private int mpSettingType_ = 0;
+<<<<<<< HEAD
 
       @java.lang.Override public int getMpSettingTypeValue() {
         return mpSettingType_;
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.MpSettingType mp_setting_type = 5;</code>
+       * @return The enum numeric value on the wire for mpSettingType.
+       */
+      @java.lang.Override public int getMpSettingTypeValue() {
+        return mpSettingType_;
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.MpSettingType mp_setting_type = 5;</code>
+       * @param value The enum numeric value on the wire for mpSettingType to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setMpSettingTypeValue(int value) {
 
         mpSettingType_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.MpSettingType mp_setting_type = 5;</code>
+       * @return The mpSettingType.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType getMpSettingType() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType result = emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType.valueOf(mpSettingType_);
         return result == null ? emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType.UNRECOGNIZED : result;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.MpSettingType mp_setting_type = 5;</code>
+       * @param value The mpSettingType to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setMpSettingType(emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType value) {
         if (value == null) {
           throw new NullPointerException();
@@ -1919,7 +3094,18 @@ public final class OnlinePlayerInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.MpSettingType mp_setting_type = 5;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearMpSettingType() {
 
         mpSettingType_ = 0;
@@ -1928,19 +3114,53 @@ public final class OnlinePlayerInfoOuterClass {
       }
 
       private int uid_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 uid = 1;</code>
+       * @return The uid.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getUid() {
         return uid_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 uid = 1;</code>
+       * @param value The uid to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setUid(int value) {
 
         uid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 uid = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearUid() {
 
         uid_ = 0;

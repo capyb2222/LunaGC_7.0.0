@@ -18,6 +18,17 @@ public final class ServerTimeNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:ServerTimeNotify)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint64 server_time = 1;</code>
+     * @return The serverTime.
+     */
+>>>>>>> origin/6.5.0
     long getServerTime();
   }
   /**
@@ -108,7 +119,18 @@ public final class ServerTimeNotifyOuterClass {
 
     public static final int SERVER_TIME_FIELD_NUMBER = 1;
     private long serverTime_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint64 server_time = 1;</code>
+     * @return The serverTime.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getServerTime() {
       return serverTime_;
@@ -422,19 +444,53 @@ public final class ServerTimeNotifyOuterClass {
       }
 
       private long serverTime_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 server_time = 1;</code>
+       * @return The serverTime.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getServerTime() {
         return serverTime_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 server_time = 1;</code>
+       * @param value The serverTime to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setServerTime(long value) {
 
         serverTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 server_time = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearServerTime() {
 
         serverTime_ = 0L;

@@ -16,10 +16,40 @@ public final class GetAreaExplorePointReqOuterClass {
 
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     java.util.List<java.lang.Integer> getAreaIdListList();
 
     int getAreaIdListCount();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>repeated uint32 area_id_list = 4;</code>
+     * @return A list containing the areaIdList.
+     */
+    java.util.List<java.lang.Integer> getAreaIdListList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>repeated uint32 area_id_list = 4;</code>
+     * @return The count of areaIdList.
+     */
+    int getAreaIdListCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>repeated uint32 area_id_list = 4;</code>
+     * @param index The index of the element to return.
+     * @return The areaIdList at the given index.
+     */
+>>>>>>> origin/6.5.0
     int getAreaIdList(int index);
   }
 
@@ -125,17 +155,51 @@ public final class GetAreaExplorePointReqOuterClass {
 
     public static final int AREA_ID_LIST_FIELD_NUMBER = 4;
     private com.google.protobuf.Internal.IntList areaIdList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>repeated uint32 area_id_list = 4;</code>
+     * @return A list containing the areaIdList.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getAreaIdListList() {
       return areaIdList_;
     }
+<<<<<<< HEAD
 
     public int getAreaIdListCount() {
       return areaIdList_.size();
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>repeated uint32 area_id_list = 4;</code>
+     * @return The count of areaIdList.
+     */
+    public int getAreaIdListCount() {
+      return areaIdList_.size();
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>repeated uint32 area_id_list = 4;</code>
+     * @param index The index of the element to return.
+     * @return The areaIdList at the given index.
+     */
+>>>>>>> origin/6.5.0
     public int getAreaIdList(int index) {
       return areaIdList_.getInt(index);
     }
@@ -477,12 +541,24 @@ public final class GetAreaExplorePointReqOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>repeated uint32 area_id_list = 4;</code>
+       * @return A list containing the areaIdList.
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getAreaIdListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(areaIdList_) : areaIdList_;
       }
+<<<<<<< HEAD
 
       public int getAreaIdListCount() {
         return areaIdList_.size();
@@ -492,6 +568,41 @@ public final class GetAreaExplorePointReqOuterClass {
         return areaIdList_.getInt(index);
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>repeated uint32 area_id_list = 4;</code>
+       * @return The count of areaIdList.
+       */
+      public int getAreaIdListCount() {
+        return areaIdList_.size();
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>repeated uint32 area_id_list = 4;</code>
+       * @param index The index of the element to return.
+       * @return The areaIdList at the given index.
+       */
+      public int getAreaIdList(int index) {
+        return areaIdList_.getInt(index);
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>repeated uint32 area_id_list = 4;</code>
+       * @param index The index to set the value at.
+       * @param value The areaIdList to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setAreaIdList(
           int index, int value) {
         ensureAreaIdListIsMutable();
@@ -499,14 +610,38 @@ public final class GetAreaExplorePointReqOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>repeated uint32 area_id_list = 4;</code>
+       * @param value The areaIdList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addAreaIdList(int value) {
         ensureAreaIdListIsMutable();
         areaIdList_.addInt(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>repeated uint32 area_id_list = 4;</code>
+       * @param values The areaIdList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllAreaIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureAreaIdListIsMutable();
@@ -515,7 +650,18 @@ public final class GetAreaExplorePointReqOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>repeated uint32 area_id_list = 4;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearAreaIdList() {
         areaIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);

@@ -19,7 +19,11 @@ public final class PlayerApplyEnterMpReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 target_uid = 14;</code>
+     * <pre>
+     *6.5.5     
+     * </pre>
+     *
+     * <code>uint32 target_uid = 3;</code>
      * @return The targetUid.
      */
     int getTargetUid();
@@ -69,7 +73,7 @@ public final class PlayerApplyEnterMpReqOuterClass {
             case 0:
               done = true;
               break;
-            case 112: {
+            case 24: {
 
               targetUid_ = input.readUInt32();
               break;
@@ -106,10 +110,14 @@ public final class PlayerApplyEnterMpReqOuterClass {
               emu.grasscutter.net.proto.PlayerApplyEnterMpReqOuterClass.PlayerApplyEnterMpReq.class, emu.grasscutter.net.proto.PlayerApplyEnterMpReqOuterClass.PlayerApplyEnterMpReq.Builder.class);
     }
 
-    public static final int TARGET_UID_FIELD_NUMBER = 14;
+    public static final int TARGET_UID_FIELD_NUMBER = 3;
     private int targetUid_;
     /**
-     * <code>uint32 target_uid = 14;</code>
+     * <pre>
+     *6.5.5     
+     * </pre>
+     *
+     * <code>uint32 target_uid = 3;</code>
      * @return The targetUid.
      */
     @java.lang.Override
@@ -132,7 +140,7 @@ public final class PlayerApplyEnterMpReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (targetUid_ != 0) {
-        output.writeUInt32(14, targetUid_);
+        output.writeUInt32(3, targetUid_);
       }
       unknownFields.writeTo(output);
     }
@@ -145,7 +153,7 @@ public final class PlayerApplyEnterMpReqOuterClass {
       size = 0;
       if (targetUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, targetUid_);
+          .computeUInt32Size(3, targetUid_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -421,7 +429,11 @@ public final class PlayerApplyEnterMpReqOuterClass {
 
       private int targetUid_ ;
       /**
-       * <code>uint32 target_uid = 14;</code>
+       * <pre>
+       *6.5.5     
+       * </pre>
+       *
+       * <code>uint32 target_uid = 3;</code>
        * @return The targetUid.
        */
       @java.lang.Override
@@ -429,7 +441,11 @@ public final class PlayerApplyEnterMpReqOuterClass {
         return targetUid_;
       }
       /**
-       * <code>uint32 target_uid = 14;</code>
+       * <pre>
+       *6.5.5     
+       * </pre>
+       *
+       * <code>uint32 target_uid = 3;</code>
        * @param value The targetUid to set.
        * @return This builder for chaining.
        */
@@ -440,7 +456,11 @@ public final class PlayerApplyEnterMpReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 target_uid = 14;</code>
+       * <pre>
+       *6.5.5     
+       * </pre>
+       *
+       * <code>uint32 target_uid = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearTargetUid() {
@@ -517,7 +537,7 @@ public final class PlayerApplyEnterMpReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033PlayerApplyEnterMpReq.proto\"+\n\025PlayerA" +
-      "pplyEnterMpReq\022\022\n\ntarget_uid\030\016 \001(\rB\033\n\031em" +
+      "pplyEnterMpReq\022\022\n\ntarget_uid\030\003 \001(\rB\033\n\031em" +
       "u.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

@@ -18,6 +18,7 @@ public final class QuestListNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:QuestListNotify)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     java.util.List<emu.grasscutter.net.proto.QuestOuterClass.Quest>
         getQuestListList();
 
@@ -28,6 +29,49 @@ public final class QuestListNotifyOuterClass {
     java.util.List<? extends emu.grasscutter.net.proto.QuestOuterClass.QuestOrBuilder>
         getQuestListOrBuilderList();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>repeated .Quest quest_list = 3;</code>
+     */
+    java.util.List<emu.grasscutter.net.proto.QuestOuterClass.Quest> 
+        getQuestListList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>repeated .Quest quest_list = 3;</code>
+     */
+    emu.grasscutter.net.proto.QuestOuterClass.Quest getQuestList(int index);
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>repeated .Quest quest_list = 3;</code>
+     */
+    int getQuestListCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>repeated .Quest quest_list = 3;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.QuestOuterClass.QuestOrBuilder> 
+        getQuestListOrBuilderList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>repeated .Quest quest_list = 3;</code>
+     */
+>>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.QuestOuterClass.QuestOrBuilder getQuestListOrBuilder(
         int index);
   }
@@ -124,28 +168,78 @@ public final class QuestListNotifyOuterClass {
 
     public static final int QUEST_LIST_FIELD_NUMBER = 13;
     private java.util.List<emu.grasscutter.net.proto.QuestOuterClass.Quest> questList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>repeated .Quest quest_list = 3;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.QuestOuterClass.Quest> getQuestListList() {
       return questList_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>repeated .Quest quest_list = 3;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.QuestOuterClass.QuestOrBuilder>
         getQuestListOrBuilderList() {
       return questList_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>repeated .Quest quest_list = 3;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getQuestListCount() {
       return questList_.size();
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>repeated .Quest quest_list = 3;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.QuestOuterClass.Quest getQuestList(int index) {
       return questList_.get(index);
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>repeated .Quest quest_list = 3;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.QuestOuterClass.QuestOrBuilder getQuestListOrBuilder(
         int index) {
@@ -506,6 +600,16 @@ public final class QuestListNotifyOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.QuestOuterClass.Quest, emu.grasscutter.net.proto.QuestOuterClass.Quest.Builder, emu.grasscutter.net.proto.QuestOuterClass.QuestOrBuilder> questListBuilder_;
 
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>repeated .Quest quest_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.QuestOuterClass.Quest> getQuestListList() {
         if (questListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(questList_);
@@ -513,7 +617,17 @@ public final class QuestListNotifyOuterClass {
           return questListBuilder_.getMessageList();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>repeated .Quest quest_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public int getQuestListCount() {
         if (questListBuilder_ == null) {
           return questList_.size();
@@ -521,7 +635,17 @@ public final class QuestListNotifyOuterClass {
           return questListBuilder_.getCount();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>repeated .Quest quest_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.QuestOuterClass.Quest getQuestList(int index) {
         if (questListBuilder_ == null) {
           return questList_.get(index);
@@ -529,7 +653,17 @@ public final class QuestListNotifyOuterClass {
           return questListBuilder_.getMessage(index);
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>repeated .Quest quest_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setQuestList(
           int index, emu.grasscutter.net.proto.QuestOuterClass.Quest value) {
         if (questListBuilder_ == null) {
@@ -544,7 +678,17 @@ public final class QuestListNotifyOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>repeated .Quest quest_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setQuestList(
           int index, emu.grasscutter.net.proto.QuestOuterClass.Quest.Builder builderForValue) {
         if (questListBuilder_ == null) {
@@ -556,7 +700,17 @@ public final class QuestListNotifyOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>repeated .Quest quest_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addQuestList(emu.grasscutter.net.proto.QuestOuterClass.Quest value) {
         if (questListBuilder_ == null) {
           if (value == null) {
@@ -570,7 +724,17 @@ public final class QuestListNotifyOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>repeated .Quest quest_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addQuestList(
           int index, emu.grasscutter.net.proto.QuestOuterClass.Quest value) {
         if (questListBuilder_ == null) {
@@ -585,7 +749,17 @@ public final class QuestListNotifyOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>repeated .Quest quest_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addQuestList(
           emu.grasscutter.net.proto.QuestOuterClass.Quest.Builder builderForValue) {
         if (questListBuilder_ == null) {
@@ -597,7 +771,17 @@ public final class QuestListNotifyOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>repeated .Quest quest_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addQuestList(
           int index, emu.grasscutter.net.proto.QuestOuterClass.Quest.Builder builderForValue) {
         if (questListBuilder_ == null) {
@@ -609,7 +793,17 @@ public final class QuestListNotifyOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>repeated .Quest quest_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllQuestList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.QuestOuterClass.Quest> values) {
         if (questListBuilder_ == null) {
@@ -622,7 +816,17 @@ public final class QuestListNotifyOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>repeated .Quest quest_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder clearQuestList() {
         if (questListBuilder_ == null) {
           questList_ = java.util.Collections.emptyList();
@@ -633,7 +837,17 @@ public final class QuestListNotifyOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>repeated .Quest quest_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder removeQuestList(int index) {
         if (questListBuilder_ == null) {
           ensureQuestListIsMutable();
@@ -644,12 +858,32 @@ public final class QuestListNotifyOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>repeated .Quest quest_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.QuestOuterClass.Quest.Builder getQuestListBuilder(
           int index) {
         return getQuestListFieldBuilder().getBuilder(index);
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>repeated .Quest quest_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.QuestOuterClass.QuestOrBuilder getQuestListOrBuilder(
           int index) {
         if (questListBuilder_ == null) {
@@ -657,8 +891,19 @@ public final class QuestListNotifyOuterClass {
           return questListBuilder_.getMessageOrBuilder(index);
         }
       }
+<<<<<<< HEAD
 
       public java.util.List<? extends emu.grasscutter.net.proto.QuestOuterClass.QuestOrBuilder>
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>repeated .Quest quest_list = 3;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.QuestOuterClass.QuestOrBuilder> 
+>>>>>>> origin/6.5.0
            getQuestListOrBuilderList() {
         if (questListBuilder_ != null) {
           return questListBuilder_.getMessageOrBuilderList();
@@ -666,19 +911,50 @@ public final class QuestListNotifyOuterClass {
           return java.util.Collections.unmodifiableList(questList_);
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>repeated .Quest quest_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.QuestOuterClass.Quest.Builder addQuestListBuilder() {
         return getQuestListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.QuestOuterClass.Quest.getDefaultInstance());
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>repeated .Quest quest_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.QuestOuterClass.Quest.Builder addQuestListBuilder(
           int index) {
         return getQuestListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.QuestOuterClass.Quest.getDefaultInstance());
       }
+<<<<<<< HEAD
 
       public java.util.List<emu.grasscutter.net.proto.QuestOuterClass.Quest.Builder>
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>repeated .Quest quest_list = 3;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.QuestOuterClass.Quest.Builder> 
+>>>>>>> origin/6.5.0
            getQuestListBuilderList() {
         return getQuestListFieldBuilder().getBuilderList();
       }

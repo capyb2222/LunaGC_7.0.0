@@ -18,6 +18,17 @@ public final class AvatarGainCostumeNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:AvatarGainCostumeNotify)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 costume_id = 8;</code>
+     * @return The costumeId.
+     */
+>>>>>>> origin/6.5.0
     int getCostumeId();
   }
   /**
@@ -108,7 +119,18 @@ public final class AvatarGainCostumeNotifyOuterClass {
 
     public static final int COSTUME_ID_FIELD_NUMBER = 5;
     private int costumeId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 costume_id = 8;</code>
+     * @return The costumeId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCostumeId() {
       return costumeId_;
@@ -421,19 +443,53 @@ public final class AvatarGainCostumeNotifyOuterClass {
       }
 
       private int costumeId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 costume_id = 8;</code>
+       * @return The costumeId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCostumeId() {
         return costumeId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 costume_id = 8;</code>
+       * @param value The costumeId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setCostumeId(int value) {
 
         costumeId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 costume_id = 8;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearCostumeId() {
 
         costumeId_ = 0;

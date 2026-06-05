@@ -16,6 +16,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
 
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     boolean hasRebornPos();
 
     emu.grasscutter.net.proto.VectorOuterClass.Vector getRebornPos();
@@ -24,6 +25,53 @@ public final class AvatarDieAnimationEndReqOuterClass {
 
     long getDieGuid();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.Vector reborn_pos = 5;</code>
+     * @return Whether the rebornPos field is set.
+     */
+    boolean hasRebornPos();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.Vector reborn_pos = 5;</code>
+     * @return The rebornPos.
+     */
+    emu.grasscutter.net.proto.VectorOuterClass.Vector getRebornPos();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.Vector reborn_pos = 5;</code>
+     */
+    emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRebornPosOrBuilder();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint64 die_guid = 3;</code>
+     * @return The dieGuid.
+     */
+    long getDieGuid();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 skill_id = 7;</code>
+     * @return The skillId.
+     */
+>>>>>>> origin/6.5.0
     int getSkillId();
   }
 
@@ -126,17 +174,49 @@ public final class AvatarDieAnimationEndReqOuterClass {
 
     public static final int REBORN_POS_FIELD_NUMBER = 7;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector rebornPos_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.Vector reborn_pos = 5;</code>
+     * @return Whether the rebornPos field is set.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasRebornPos() {
       return rebornPos_ != null;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.Vector reborn_pos = 5;</code>
+     * @return The rebornPos.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.Vector getRebornPos() {
       return rebornPos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : rebornPos_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.Vector reborn_pos = 5;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRebornPosOrBuilder() {
       return getRebornPos();
@@ -144,7 +224,18 @@ public final class AvatarDieAnimationEndReqOuterClass {
 
     public static final int DIE_GUID_FIELD_NUMBER = 11;
     private long dieGuid_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint64 die_guid = 3;</code>
+     * @return The dieGuid.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getDieGuid() {
       return dieGuid_;
@@ -152,7 +243,18 @@ public final class AvatarDieAnimationEndReqOuterClass {
 
     public static final int SKILL_ID_FIELD_NUMBER = 1;
     private int skillId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 skill_id = 7;</code>
+     * @return The skillId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getSkillId() {
       return skillId_;
@@ -508,11 +610,33 @@ public final class AvatarDieAnimationEndReqOuterClass {
       private emu.grasscutter.net.proto.VectorOuterClass.Vector rebornPos_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> rebornPosBuilder_;
+<<<<<<< HEAD
 
       public boolean hasRebornPos() {
         return rebornPosBuilder_ != null || rebornPos_ != null;
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.Vector reborn_pos = 5;</code>
+       * @return Whether the rebornPos field is set.
+       */
+      public boolean hasRebornPos() {
+        return rebornPosBuilder_ != null || rebornPos_ != null;
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.Vector reborn_pos = 5;</code>
+       * @return The rebornPos.
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.Vector getRebornPos() {
         if (rebornPosBuilder_ == null) {
           return rebornPos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : rebornPos_;
@@ -520,7 +644,17 @@ public final class AvatarDieAnimationEndReqOuterClass {
           return rebornPosBuilder_.getMessage();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.Vector reborn_pos = 5;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setRebornPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (rebornPosBuilder_ == null) {
           if (value == null) {
@@ -534,7 +668,17 @@ public final class AvatarDieAnimationEndReqOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.Vector reborn_pos = 5;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setRebornPos(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
         if (rebornPosBuilder_ == null) {
@@ -546,7 +690,17 @@ public final class AvatarDieAnimationEndReqOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.Vector reborn_pos = 5;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder mergeRebornPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (rebornPosBuilder_ == null) {
           if (rebornPos_ != null) {
@@ -562,7 +716,17 @@ public final class AvatarDieAnimationEndReqOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.Vector reborn_pos = 5;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder clearRebornPos() {
         if (rebornPosBuilder_ == null) {
           rebornPos_ = null;
@@ -574,13 +738,33 @@ public final class AvatarDieAnimationEndReqOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.Vector reborn_pos = 5;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getRebornPosBuilder() {
 
         onChanged();
         return getRebornPosFieldBuilder().getBuilder();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.Vector reborn_pos = 5;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRebornPosOrBuilder() {
         if (rebornPosBuilder_ != null) {
           return rebornPosBuilder_.getMessageOrBuilder();
@@ -589,7 +773,17 @@ public final class AvatarDieAnimationEndReqOuterClass {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : rebornPos_;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.Vector reborn_pos = 5;</code>
+       */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getRebornPosFieldBuilder() {
@@ -605,19 +799,53 @@ public final class AvatarDieAnimationEndReqOuterClass {
       }
 
       private long dieGuid_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint64 die_guid = 3;</code>
+       * @return The dieGuid.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getDieGuid() {
         return dieGuid_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint64 die_guid = 3;</code>
+       * @param value The dieGuid to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setDieGuid(long value) {
 
         dieGuid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint64 die_guid = 3;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearDieGuid() {
 
         dieGuid_ = 0L;
@@ -626,19 +854,53 @@ public final class AvatarDieAnimationEndReqOuterClass {
       }
 
       private int skillId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 skill_id = 7;</code>
+       * @return The skillId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getSkillId() {
         return skillId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 skill_id = 7;</code>
+       * @param value The skillId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setSkillId(int value) {
 
         skillId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 skill_id = 7;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearSkillId() {
 
         skillId_ = 0;

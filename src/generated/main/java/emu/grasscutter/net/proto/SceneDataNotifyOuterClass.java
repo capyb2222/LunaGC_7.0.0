@@ -18,6 +18,7 @@ public final class SceneDataNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:SceneDataNotify)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     java.util.List<java.lang.String>
         getLevelConfigNameListList();
 
@@ -25,6 +26,46 @@ public final class SceneDataNotifyOuterClass {
 
     java.lang.String getLevelConfigNameList(int index);
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated string level_config_name_list = 3;</code>
+     * @return A list containing the levelConfigNameList.
+     */
+    java.util.List<java.lang.String>
+        getLevelConfigNameListList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated string level_config_name_list = 3;</code>
+     * @return The count of levelConfigNameList.
+     */
+    int getLevelConfigNameListCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated string level_config_name_list = 3;</code>
+     * @param index The index of the element to return.
+     * @return The levelConfigNameList at the given index.
+     */
+    java.lang.String getLevelConfigNameList(int index);
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated string level_config_name_list = 3;</code>
+     * @param index The index of the value to return.
+     * @return The bytes of the levelConfigNameList at the given index.
+     */
+>>>>>>> origin/6.5.0
     com.google.protobuf.ByteString
         getLevelConfigNameListBytes(int index);
 
@@ -49,10 +90,40 @@ public final class SceneDataNotifyOuterClass {
 
     emu.grasscutter.net.proto.MapLayerInfoOuterClass.MapLayerInfoOrBuilder getMapLayerInfoOrBuilder();
 
+<<<<<<< HEAD
     java.util.List<java.lang.Integer> getSceneTagIdListList();
 
     int getSceneTagIdListCount();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 scene_tag_id_list = 10;</code>
+     * @return A list containing the sceneTagIdList.
+     */
+    java.util.List<java.lang.Integer> getSceneTagIdListList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 scene_tag_id_list = 10;</code>
+     * @return The count of sceneTagIdList.
+     */
+    int getSceneTagIdListCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 scene_tag_id_list = 10;</code>
+     * @param index The index of the element to return.
+     * @return The sceneTagIdList at the given index.
+     */
+>>>>>>> origin/6.5.0
     int getSceneTagIdList(int index);
   }
   /**
@@ -203,11 +274,23 @@ public final class SceneDataNotifyOuterClass {
 
     public static final int LEVEL_CONFIG_NAME_LIST_FIELD_NUMBER = 9;
     private com.google.protobuf.LazyStringList levelConfigNameList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated string level_config_name_list = 3;</code>
+     * @return A list containing the levelConfigNameList.
+     */
+>>>>>>> origin/6.5.0
     public com.google.protobuf.ProtocolStringList
         getLevelConfigNameListList() {
       return levelConfigNameList_;
     }
+<<<<<<< HEAD
 
     public int getLevelConfigNameListCount() {
       return levelConfigNameList_.size();
@@ -217,6 +300,40 @@ public final class SceneDataNotifyOuterClass {
       return levelConfigNameList_.get(index);
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated string level_config_name_list = 3;</code>
+     * @return The count of levelConfigNameList.
+     */
+    public int getLevelConfigNameListCount() {
+      return levelConfigNameList_.size();
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated string level_config_name_list = 3;</code>
+     * @param index The index of the element to return.
+     * @return The levelConfigNameList at the given index.
+     */
+    public java.lang.String getLevelConfigNameList(int index) {
+      return levelConfigNameList_.get(index);
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated string level_config_name_list = 3;</code>
+     * @param index The index of the value to return.
+     * @return The bytes of the levelConfigNameList at the given index.
+     */
+>>>>>>> origin/6.5.0
     public com.google.protobuf.ByteString
         getLevelConfigNameListBytes(int index) {
       return levelConfigNameList_.getByteString(index);
@@ -268,17 +385,51 @@ public final class SceneDataNotifyOuterClass {
 
     public static final int SCENE_TAG_ID_LIST_FIELD_NUMBER = 7;
     private com.google.protobuf.Internal.IntList sceneTagIdList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 scene_tag_id_list = 10;</code>
+     * @return A list containing the sceneTagIdList.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getSceneTagIdListList() {
       return sceneTagIdList_;
     }
+<<<<<<< HEAD
 
     public int getSceneTagIdListCount() {
       return sceneTagIdList_.size();
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 scene_tag_id_list = 10;</code>
+     * @return The count of sceneTagIdList.
+     */
+    public int getSceneTagIdListCount() {
+      return sceneTagIdList_.size();
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 scene_tag_id_list = 10;</code>
+     * @param index The index of the element to return.
+     * @return The sceneTagIdList at the given index.
+     */
+>>>>>>> origin/6.5.0
     public int getSceneTagIdList(int index) {
       return sceneTagIdList_.getInt(index);
     }
@@ -721,11 +872,23 @@ public final class SceneDataNotifyOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated string level_config_name_list = 3;</code>
+       * @return A list containing the levelConfigNameList.
+       */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ProtocolStringList
           getLevelConfigNameListList() {
         return levelConfigNameList_.getUnmodifiableView();
       }
+<<<<<<< HEAD
 
       public int getLevelConfigNameListCount() {
         return levelConfigNameList_.size();
@@ -735,11 +898,58 @@ public final class SceneDataNotifyOuterClass {
         return levelConfigNameList_.get(index);
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated string level_config_name_list = 3;</code>
+       * @return The count of levelConfigNameList.
+       */
+      public int getLevelConfigNameListCount() {
+        return levelConfigNameList_.size();
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated string level_config_name_list = 3;</code>
+       * @param index The index of the element to return.
+       * @return The levelConfigNameList at the given index.
+       */
+      public java.lang.String getLevelConfigNameList(int index) {
+        return levelConfigNameList_.get(index);
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated string level_config_name_list = 3;</code>
+       * @param index The index of the value to return.
+       * @return The bytes of the levelConfigNameList at the given index.
+       */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getLevelConfigNameListBytes(int index) {
         return levelConfigNameList_.getByteString(index);
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated string level_config_name_list = 3;</code>
+       * @param index The index to set the value at.
+       * @param value The levelConfigNameList to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setLevelConfigNameList(
           int index, java.lang.String value) {
         if (value == null) {
@@ -750,7 +960,19 @@ public final class SceneDataNotifyOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated string level_config_name_list = 3;</code>
+       * @param value The levelConfigNameList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addLevelConfigNameList(
           java.lang.String value) {
         if (value == null) {
@@ -761,7 +983,19 @@ public final class SceneDataNotifyOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated string level_config_name_list = 3;</code>
+       * @param values The levelConfigNameList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllLevelConfigNameList(
           java.lang.Iterable<java.lang.String> values) {
         ensureLevelConfigNameListIsMutable();
@@ -770,14 +1004,37 @@ public final class SceneDataNotifyOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated string level_config_name_list = 3;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearLevelConfigNameList() {
         levelConfigNameList_ = com.google.protobuf.LazyStringArrayList.EMPTY;
         bitField0_ = (bitField0_ & ~0x00000001);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated string level_config_name_list = 3;</code>
+       * @param value The bytes of the levelConfigNameList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addLevelConfigNameListBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -1015,12 +1272,24 @@ public final class SceneDataNotifyOuterClass {
           bitField0_ |= 0x00000002;
          }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 scene_tag_id_list = 10;</code>
+       * @return A list containing the sceneTagIdList.
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getSceneTagIdListList() {
         return ((bitField0_ & 0x00000002) != 0) ?
                  java.util.Collections.unmodifiableList(sceneTagIdList_) : sceneTagIdList_;
       }
+<<<<<<< HEAD
 
       public int getSceneTagIdListCount() {
         return sceneTagIdList_.size();
@@ -1030,6 +1299,41 @@ public final class SceneDataNotifyOuterClass {
         return sceneTagIdList_.getInt(index);
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 scene_tag_id_list = 10;</code>
+       * @return The count of sceneTagIdList.
+       */
+      public int getSceneTagIdListCount() {
+        return sceneTagIdList_.size();
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 scene_tag_id_list = 10;</code>
+       * @param index The index of the element to return.
+       * @return The sceneTagIdList at the given index.
+       */
+      public int getSceneTagIdList(int index) {
+        return sceneTagIdList_.getInt(index);
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 scene_tag_id_list = 10;</code>
+       * @param index The index to set the value at.
+       * @param value The sceneTagIdList to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setSceneTagIdList(
           int index, int value) {
         ensureSceneTagIdListIsMutable();
@@ -1037,14 +1341,38 @@ public final class SceneDataNotifyOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 scene_tag_id_list = 10;</code>
+       * @param value The sceneTagIdList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addSceneTagIdList(int value) {
         ensureSceneTagIdListIsMutable();
         sceneTagIdList_.addInt(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 scene_tag_id_list = 10;</code>
+       * @param values The sceneTagIdList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllSceneTagIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureSceneTagIdListIsMutable();
@@ -1053,7 +1381,18 @@ public final class SceneDataNotifyOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 scene_tag_id_list = 10;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearSceneTagIdList() {
         sceneTagIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);

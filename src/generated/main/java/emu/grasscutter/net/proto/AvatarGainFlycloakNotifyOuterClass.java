@@ -18,6 +18,17 @@ public final class AvatarGainFlycloakNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:AvatarGainFlycloakNotify)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 flycloak_id = 1;</code>
+     * @return The flycloakId.
+     */
+>>>>>>> origin/6.5.0
     int getFlycloakId();
   }
   /**
@@ -108,7 +119,18 @@ public final class AvatarGainFlycloakNotifyOuterClass {
 
     public static final int FLYCLOAK_ID_FIELD_NUMBER = 3;
     private int flycloakId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 flycloak_id = 1;</code>
+     * @return The flycloakId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getFlycloakId() {
       return flycloakId_;
@@ -421,19 +443,53 @@ public final class AvatarGainFlycloakNotifyOuterClass {
       }
 
       private int flycloakId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 flycloak_id = 1;</code>
+       * @return The flycloakId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getFlycloakId() {
         return flycloakId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 flycloak_id = 1;</code>
+       * @param value The flycloakId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setFlycloakId(int value) {
 
         flycloakId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 flycloak_id = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearFlycloakId() {
 
         flycloakId_ = 0;

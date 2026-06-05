@@ -42,6 +42,7 @@ public final class BreakoutSpawnPointOuterClass {
     emu.grasscutter.net.proto.FNEFDOMCAJNOuterClass.FNEFDOMCAJNOrBuilder getCEMAGGFILCHOrBuilder(
         int index);
 
+<<<<<<< HEAD
     java.util.List<emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObject>
         getSpawnedBrickListList();
 
@@ -52,6 +53,49 @@ public final class BreakoutSpawnPointOuterClass {
     java.util.List<? extends emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObjectOrBuilder>
         getSpawnedBrickListOrBuilderList();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
+     */
+    java.util.List<emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObject> 
+        getSpawnedBrickListList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
+     */
+    emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObject getSpawnedBrickList(int index);
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
+     */
+    int getSpawnedBrickListCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObjectOrBuilder> 
+        getSpawnedBrickListOrBuilderList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
+     */
+>>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObjectOrBuilder getSpawnedBrickListOrBuilder(
         int index);
 
@@ -72,6 +116,17 @@ public final class BreakoutSpawnPointOuterClass {
      */
     int getOGHHLMCDKAH(int index);
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 brick_suite_id = 2;</code>
+     * @return The brickSuiteId.
+     */
+>>>>>>> origin/6.5.0
     int getBrickSuiteId();
 
     /**
@@ -86,6 +141,17 @@ public final class BreakoutSpawnPointOuterClass {
      */
     int getOOKAHKPLIEE();
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 id = 1;</code>
+     * @return The id.
+     */
+>>>>>>> origin/6.5.0
     int getId();
   }
   /**
@@ -279,28 +345,78 @@ public final class BreakoutSpawnPointOuterClass {
 
     public static final int SPAWNED_BRICK_LIST_FIELD_NUMBER = 3;
     private java.util.List<emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObject> spawnedBrickList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObject> getSpawnedBrickListList() {
       return spawnedBrickList_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObjectOrBuilder>
         getSpawnedBrickListOrBuilderList() {
       return spawnedBrickList_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getSpawnedBrickListCount() {
       return spawnedBrickList_.size();
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObject getSpawnedBrickList(int index) {
       return spawnedBrickList_.get(index);
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObjectOrBuilder getSpawnedBrickListOrBuilder(
         int index) {
@@ -337,7 +453,18 @@ public final class BreakoutSpawnPointOuterClass {
 
     public static final int BRICK_SUITE_ID_FIELD_NUMBER = 2;
     private int brickSuiteId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 brick_suite_id = 2;</code>
+     * @return The brickSuiteId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getBrickSuiteId() {
       return brickSuiteId_;
@@ -367,7 +494,18 @@ public final class BreakoutSpawnPointOuterClass {
 
     public static final int ID_FIELD_NUMBER = 1;
     private int id_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 id = 1;</code>
+     * @return The id.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getId() {
       return id_;
@@ -1135,6 +1273,16 @@ public final class BreakoutSpawnPointOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObject, emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObject.Builder, emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObjectOrBuilder> spawnedBrickListBuilder_;
 
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObject> getSpawnedBrickListList() {
         if (spawnedBrickListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(spawnedBrickList_);
@@ -1142,7 +1290,17 @@ public final class BreakoutSpawnPointOuterClass {
           return spawnedBrickListBuilder_.getMessageList();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public int getSpawnedBrickListCount() {
         if (spawnedBrickListBuilder_ == null) {
           return spawnedBrickList_.size();
@@ -1150,7 +1308,17 @@ public final class BreakoutSpawnPointOuterClass {
           return spawnedBrickListBuilder_.getCount();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObject getSpawnedBrickList(int index) {
         if (spawnedBrickListBuilder_ == null) {
           return spawnedBrickList_.get(index);
@@ -1158,7 +1326,17 @@ public final class BreakoutSpawnPointOuterClass {
           return spawnedBrickListBuilder_.getMessage(index);
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setSpawnedBrickList(
           int index, emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObject value) {
         if (spawnedBrickListBuilder_ == null) {
@@ -1173,7 +1351,17 @@ public final class BreakoutSpawnPointOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setSpawnedBrickList(
           int index, emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObject.Builder builderForValue) {
         if (spawnedBrickListBuilder_ == null) {
@@ -1185,7 +1373,17 @@ public final class BreakoutSpawnPointOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addSpawnedBrickList(emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObject value) {
         if (spawnedBrickListBuilder_ == null) {
           if (value == null) {
@@ -1199,7 +1397,17 @@ public final class BreakoutSpawnPointOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addSpawnedBrickList(
           int index, emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObject value) {
         if (spawnedBrickListBuilder_ == null) {
@@ -1214,7 +1422,17 @@ public final class BreakoutSpawnPointOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addSpawnedBrickList(
           emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObject.Builder builderForValue) {
         if (spawnedBrickListBuilder_ == null) {
@@ -1226,7 +1444,17 @@ public final class BreakoutSpawnPointOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addSpawnedBrickList(
           int index, emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObject.Builder builderForValue) {
         if (spawnedBrickListBuilder_ == null) {
@@ -1238,7 +1466,17 @@ public final class BreakoutSpawnPointOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllSpawnedBrickList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObject> values) {
         if (spawnedBrickListBuilder_ == null) {
@@ -1251,7 +1489,17 @@ public final class BreakoutSpawnPointOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder clearSpawnedBrickList() {
         if (spawnedBrickListBuilder_ == null) {
           spawnedBrickList_ = java.util.Collections.emptyList();
@@ -1262,7 +1510,17 @@ public final class BreakoutSpawnPointOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder removeSpawnedBrickList(int index) {
         if (spawnedBrickListBuilder_ == null) {
           ensureSpawnedBrickListIsMutable();
@@ -1273,12 +1531,32 @@ public final class BreakoutSpawnPointOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObject.Builder getSpawnedBrickListBuilder(
           int index) {
         return getSpawnedBrickListFieldBuilder().getBuilder(index);
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObjectOrBuilder getSpawnedBrickListOrBuilder(
           int index) {
         if (spawnedBrickListBuilder_ == null) {
@@ -1286,8 +1564,19 @@ public final class BreakoutSpawnPointOuterClass {
           return spawnedBrickListBuilder_.getMessageOrBuilder(index);
         }
       }
+<<<<<<< HEAD
 
       public java.util.List<? extends emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObjectOrBuilder>
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObjectOrBuilder> 
+>>>>>>> origin/6.5.0
            getSpawnedBrickListOrBuilderList() {
         if (spawnedBrickListBuilder_ != null) {
           return spawnedBrickListBuilder_.getMessageOrBuilderList();
@@ -1295,19 +1584,50 @@ public final class BreakoutSpawnPointOuterClass {
           return java.util.Collections.unmodifiableList(spawnedBrickList_);
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObject.Builder addSpawnedBrickListBuilder() {
         return getSpawnedBrickListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObject.getDefaultInstance());
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObject.Builder addSpawnedBrickListBuilder(
           int index) {
         return getSpawnedBrickListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObject.getDefaultInstance());
       }
+<<<<<<< HEAD
 
       public java.util.List<emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObject.Builder>
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObject.Builder> 
+>>>>>>> origin/6.5.0
            getSpawnedBrickListBuilderList() {
         return getSpawnedBrickListFieldBuilder().getBuilderList();
       }
@@ -1406,19 +1726,53 @@ public final class BreakoutSpawnPointOuterClass {
       }
 
       private int brickSuiteId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 brick_suite_id = 2;</code>
+       * @return The brickSuiteId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getBrickSuiteId() {
         return brickSuiteId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 brick_suite_id = 2;</code>
+       * @param value The brickSuiteId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setBrickSuiteId(int value) {
 
         brickSuiteId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 brick_suite_id = 2;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearBrickSuiteId() {
 
         brickSuiteId_ = 0;
@@ -1489,19 +1843,53 @@ public final class BreakoutSpawnPointOuterClass {
       }
 
       private int id_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 id = 1;</code>
+       * @return The id.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getId() {
         return id_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 id = 1;</code>
+       * @param value The id to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setId(int value) {
 
         id_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 id = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearId() {
 
         id_ = 0;

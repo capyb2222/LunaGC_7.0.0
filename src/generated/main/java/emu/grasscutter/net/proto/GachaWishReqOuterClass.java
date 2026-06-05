@@ -18,10 +18,41 @@ public final class GachaWishReqOuterClass {
       // @@protoc_insertion_point(interface_extends:GachaWishReq)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     int getGachaType();
 
     int getGachaScheduleId();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>uint32 gacha_type = 14;</code>
+     * @return The gachaType.
+     */
+    int getGachaType();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>uint32 gacha_schedule_id = 1;</code>
+     * @return The gachaScheduleId.
+     */
+    int getGachaScheduleId();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 item_id = 5;</code>
+     * @return The itemId.
+     */
+>>>>>>> origin/6.5.0
     int getItemId();
   }
   /**
@@ -123,7 +154,18 @@ public final class GachaWishReqOuterClass {
 
     public static final int GACHA_TYPE_FIELD_NUMBER = 15;
     private int gachaType_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>uint32 gacha_type = 14;</code>
+     * @return The gachaType.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getGachaType() {
       return gachaType_;
@@ -131,7 +173,18 @@ public final class GachaWishReqOuterClass {
 
     public static final int GACHA_SCHEDULE_ID_FIELD_NUMBER = 4;
     private int gachaScheduleId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0      
+     * </pre>
+     *
+     * <code>uint32 gacha_schedule_id = 1;</code>
+     * @return The gachaScheduleId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getGachaScheduleId() {
       return gachaScheduleId_;
@@ -139,7 +192,18 @@ public final class GachaWishReqOuterClass {
 
     public static final int ITEM_ID_FIELD_NUMBER = 12;
     private int itemId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 item_id = 5;</code>
+     * @return The itemId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getItemId() {
       return itemId_;
@@ -487,19 +551,53 @@ public final class GachaWishReqOuterClass {
       }
 
       private int gachaType_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>uint32 gacha_type = 14;</code>
+       * @return The gachaType.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getGachaType() {
         return gachaType_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>uint32 gacha_type = 14;</code>
+       * @param value The gachaType to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setGachaType(int value) {
 
         gachaType_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>uint32 gacha_type = 14;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearGachaType() {
 
         gachaType_ = 0;
@@ -508,19 +606,53 @@ public final class GachaWishReqOuterClass {
       }
 
       private int gachaScheduleId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>uint32 gacha_schedule_id = 1;</code>
+       * @return The gachaScheduleId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getGachaScheduleId() {
         return gachaScheduleId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>uint32 gacha_schedule_id = 1;</code>
+       * @param value The gachaScheduleId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setGachaScheduleId(int value) {
 
         gachaScheduleId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0      
+       * </pre>
+       *
+       * <code>uint32 gacha_schedule_id = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearGachaScheduleId() {
 
         gachaScheduleId_ = 0;
@@ -529,19 +661,53 @@ public final class GachaWishReqOuterClass {
       }
 
       private int itemId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 item_id = 5;</code>
+       * @return The itemId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getItemId() {
         return itemId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 item_id = 5;</code>
+       * @param value The itemId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setItemId(int value) {
 
         itemId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 item_id = 5;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearItemId() {
 
         itemId_ = 0;

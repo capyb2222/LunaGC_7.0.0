@@ -18,6 +18,7 @@ public final class StoreItemDelNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:StoreItemDelNotify)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     java.util.List<java.lang.Long> getGuidListList();
 
     int getGuidListCount();
@@ -26,6 +27,54 @@ public final class StoreItemDelNotifyOuterClass {
 
     int getStoreTypeValue();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint64 guid_list = 11;</code>
+     * @return A list containing the guidList.
+     */
+    java.util.List<java.lang.Long> getGuidListList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint64 guid_list = 11;</code>
+     * @return The count of guidList.
+     */
+    int getGuidListCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint64 guid_list = 11;</code>
+     * @param index The index of the element to return.
+     * @return The guidList at the given index.
+     */
+    long getGuidList(int index);
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.StoreType store_type = 1;</code>
+     * @return The enum numeric value on the wire for storeType.
+     */
+    int getStoreTypeValue();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.StoreType store_type = 1;</code>
+     * @return The storeType.
+     */
+>>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType getStoreType();
   }
   /**
@@ -144,17 +193,51 @@ public final class StoreItemDelNotifyOuterClass {
 
     public static final int GUID_LIST_FIELD_NUMBER = 6;
     private com.google.protobuf.Internal.LongList guidList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint64 guid_list = 11;</code>
+     * @return A list containing the guidList.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Long>
         getGuidListList() {
       return guidList_;
     }
+<<<<<<< HEAD
 
     public int getGuidListCount() {
       return guidList_.size();
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint64 guid_list = 11;</code>
+     * @return The count of guidList.
+     */
+    public int getGuidListCount() {
+      return guidList_.size();
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint64 guid_list = 11;</code>
+     * @param index The index of the element to return.
+     * @return The guidList at the given index.
+     */
+>>>>>>> origin/6.5.0
     public long getGuidList(int index) {
       return guidList_.getLong(index);
     }
@@ -162,11 +245,33 @@ public final class StoreItemDelNotifyOuterClass {
 
     public static final int STORE_TYPE_FIELD_NUMBER = 15;
     private int storeType_;
+<<<<<<< HEAD
 
     @java.lang.Override public int getStoreTypeValue() {
       return storeType_;
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.StoreType store_type = 1;</code>
+     * @return The enum numeric value on the wire for storeType.
+     */
+    @java.lang.Override public int getStoreTypeValue() {
+      return storeType_;
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.StoreType store_type = 1;</code>
+     * @return The storeType.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override public emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType getStoreType() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType result = emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType.valueOf(storeType_);
@@ -532,12 +637,24 @@ public final class StoreItemDelNotifyOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint64 guid_list = 11;</code>
+       * @return A list containing the guidList.
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Long>
           getGuidListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(guidList_) : guidList_;
       }
+<<<<<<< HEAD
 
       public int getGuidListCount() {
         return guidList_.size();
@@ -547,6 +664,41 @@ public final class StoreItemDelNotifyOuterClass {
         return guidList_.getLong(index);
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint64 guid_list = 11;</code>
+       * @return The count of guidList.
+       */
+      public int getGuidListCount() {
+        return guidList_.size();
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint64 guid_list = 11;</code>
+       * @param index The index of the element to return.
+       * @return The guidList at the given index.
+       */
+      public long getGuidList(int index) {
+        return guidList_.getLong(index);
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint64 guid_list = 11;</code>
+       * @param index The index to set the value at.
+       * @param value The guidList to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setGuidList(
           int index, long value) {
         ensureGuidListIsMutable();
@@ -554,14 +706,38 @@ public final class StoreItemDelNotifyOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint64 guid_list = 11;</code>
+       * @param value The guidList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addGuidList(long value) {
         ensureGuidListIsMutable();
         guidList_.addLong(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint64 guid_list = 11;</code>
+       * @param values The guidList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllGuidList(
           java.lang.Iterable<? extends java.lang.Long> values) {
         ensureGuidListIsMutable();
@@ -570,7 +746,18 @@ public final class StoreItemDelNotifyOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint64 guid_list = 11;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearGuidList() {
         guidList_ = emptyLongList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -579,25 +766,71 @@ public final class StoreItemDelNotifyOuterClass {
       }
 
       private int storeType_ = 0;
+<<<<<<< HEAD
 
       @java.lang.Override public int getStoreTypeValue() {
         return storeType_;
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.StoreType store_type = 1;</code>
+       * @return The enum numeric value on the wire for storeType.
+       */
+      @java.lang.Override public int getStoreTypeValue() {
+        return storeType_;
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.StoreType store_type = 1;</code>
+       * @param value The enum numeric value on the wire for storeType to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setStoreTypeValue(int value) {
 
         storeType_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.StoreType store_type = 1;</code>
+       * @return The storeType.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType getStoreType() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType result = emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType.valueOf(storeType_);
         return result == null ? emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType.UNRECOGNIZED : result;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.StoreType store_type = 1;</code>
+       * @param value The storeType to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setStoreType(emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType value) {
         if (value == null) {
           throw new NullPointerException();
@@ -607,7 +840,18 @@ public final class StoreItemDelNotifyOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.StoreType store_type = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearStoreType() {
 
         storeType_ = 0;

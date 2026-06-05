@@ -19,13 +19,21 @@ public final class UnlockTransPointReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 point_id = 9;</code>
+     * <pre>
+     *6.5.5     
+     * </pre>
+     *
+     * <code>uint32 point_id = 8;</code>
      * @return The pointId.
      */
     int getPointId();
 
     /**
-     * <code>uint32 scene_id = 14;</code>
+     * <pre>
+     *6.5.5     
+     * </pre>
+     *
+     * <code>uint32 scene_id = 3;</code>
      * @return The sceneId.
      */
     int getSceneId();
@@ -79,14 +87,14 @@ public final class UnlockTransPointReqOuterClass {
             case 0:
               done = true;
               break;
-            case 72: {
-
-              pointId_ = input.readUInt32();
-              break;
-            }
-            case 112: {
+            case 24: {
 
               sceneId_ = input.readUInt32();
+              break;
+            }
+            case 64: {
+
+              pointId_ = input.readUInt32();
               break;
             }
             default: {
@@ -121,10 +129,14 @@ public final class UnlockTransPointReqOuterClass {
               emu.grasscutter.net.proto.UnlockTransPointReqOuterClass.UnlockTransPointReq.class, emu.grasscutter.net.proto.UnlockTransPointReqOuterClass.UnlockTransPointReq.Builder.class);
     }
 
-    public static final int POINT_ID_FIELD_NUMBER = 9;
+    public static final int POINT_ID_FIELD_NUMBER = 8;
     private int pointId_;
     /**
-     * <code>uint32 point_id = 9;</code>
+     * <pre>
+     *6.5.5     
+     * </pre>
+     *
+     * <code>uint32 point_id = 8;</code>
      * @return The pointId.
      */
     @java.lang.Override
@@ -132,10 +144,14 @@ public final class UnlockTransPointReqOuterClass {
       return pointId_;
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 14;
+    public static final int SCENE_ID_FIELD_NUMBER = 3;
     private int sceneId_;
     /**
-     * <code>uint32 scene_id = 14;</code>
+     * <pre>
+     *6.5.5     
+     * </pre>
+     *
+     * <code>uint32 scene_id = 3;</code>
      * @return The sceneId.
      */
     @java.lang.Override
@@ -157,11 +173,11 @@ public final class UnlockTransPointReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (pointId_ != 0) {
-        output.writeUInt32(9, pointId_);
-      }
       if (sceneId_ != 0) {
-        output.writeUInt32(14, sceneId_);
+        output.writeUInt32(3, sceneId_);
+      }
+      if (pointId_ != 0) {
+        output.writeUInt32(8, pointId_);
       }
       unknownFields.writeTo(output);
     }
@@ -172,13 +188,13 @@ public final class UnlockTransPointReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (pointId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, pointId_);
-      }
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, sceneId_);
+          .computeUInt32Size(3, sceneId_);
+      }
+      if (pointId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(8, pointId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -468,7 +484,11 @@ public final class UnlockTransPointReqOuterClass {
 
       private int pointId_ ;
       /**
-       * <code>uint32 point_id = 9;</code>
+       * <pre>
+       *6.5.5     
+       * </pre>
+       *
+       * <code>uint32 point_id = 8;</code>
        * @return The pointId.
        */
       @java.lang.Override
@@ -476,7 +496,11 @@ public final class UnlockTransPointReqOuterClass {
         return pointId_;
       }
       /**
-       * <code>uint32 point_id = 9;</code>
+       * <pre>
+       *6.5.5     
+       * </pre>
+       *
+       * <code>uint32 point_id = 8;</code>
        * @param value The pointId to set.
        * @return This builder for chaining.
        */
@@ -487,7 +511,11 @@ public final class UnlockTransPointReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 point_id = 9;</code>
+       * <pre>
+       *6.5.5     
+       * </pre>
+       *
+       * <code>uint32 point_id = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearPointId() {
@@ -499,7 +527,11 @@ public final class UnlockTransPointReqOuterClass {
 
       private int sceneId_ ;
       /**
-       * <code>uint32 scene_id = 14;</code>
+       * <pre>
+       *6.5.5     
+       * </pre>
+       *
+       * <code>uint32 scene_id = 3;</code>
        * @return The sceneId.
        */
       @java.lang.Override
@@ -507,7 +539,11 @@ public final class UnlockTransPointReqOuterClass {
         return sceneId_;
       }
       /**
-       * <code>uint32 scene_id = 14;</code>
+       * <pre>
+       *6.5.5     
+       * </pre>
+       *
+       * <code>uint32 scene_id = 3;</code>
        * @param value The sceneId to set.
        * @return This builder for chaining.
        */
@@ -518,7 +554,11 @@ public final class UnlockTransPointReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 scene_id = 14;</code>
+       * <pre>
+       *6.5.5     
+       * </pre>
+       *
+       * <code>uint32 scene_id = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearSceneId() {
@@ -595,8 +635,8 @@ public final class UnlockTransPointReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\031UnlockTransPointReq.proto\"9\n\023UnlockTra" +
-      "nsPointReq\022\020\n\010point_id\030\t \001(\r\022\020\n\010scene_id" +
-      "\030\016 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
+      "nsPointReq\022\020\n\010point_id\030\010 \001(\r\022\020\n\010scene_id" +
+      "\030\003 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
       "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

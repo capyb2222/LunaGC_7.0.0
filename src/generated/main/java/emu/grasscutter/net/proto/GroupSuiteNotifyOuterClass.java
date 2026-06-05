@@ -16,21 +16,68 @@ public final class GroupSuiteNotifyOuterClass {
 
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     int getGroupMapCount();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
+     */
+    int getGroupMapCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
+     */
+>>>>>>> origin/6.5.0
     boolean containsGroupMap(
         int key);
 
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getGroupMap();
+<<<<<<< HEAD
 
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getGroupMapMap();
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
+     */
+    java.util.Map<java.lang.Integer, java.lang.Integer>
+    getGroupMapMap();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
+     */
+>>>>>>> origin/6.5.0
 
     int getGroupMapOrDefault(
         int key,
         int defaultValue);
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
+     */
+>>>>>>> origin/6.5.0
 
     int getGroupMapOrThrow(
         int key);
@@ -162,6 +209,16 @@ public final class GroupSuiteNotifyOuterClass {
     public int getGroupMapCount() {
       return internalGetGroupMap().getMap().size();
     }
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
+     */
+>>>>>>> origin/6.5.0
 
     @java.lang.Override
     public boolean containsGroupMap(
@@ -175,13 +232,33 @@ public final class GroupSuiteNotifyOuterClass {
     public java.util.Map<java.lang.Integer, java.lang.Integer> getGroupMap() {
       return getGroupMapMap();
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public java.util.Map<java.lang.Integer, java.lang.Integer> getGroupMapMap() {
       return internalGetGroupMap().getMap();
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public int getGroupMapOrDefault(
@@ -192,7 +269,17 @@ public final class GroupSuiteNotifyOuterClass {
           internalGetGroupMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public int getGroupMapOrThrow(
@@ -565,6 +652,16 @@ public final class GroupSuiteNotifyOuterClass {
       public int getGroupMapCount() {
         return internalGetGroupMap().getMap().size();
       }
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
+       */
+>>>>>>> origin/6.5.0
 
       @java.lang.Override
       public boolean containsGroupMap(
@@ -578,13 +675,33 @@ public final class GroupSuiteNotifyOuterClass {
       public java.util.Map<java.lang.Integer, java.lang.Integer> getGroupMap() {
         return getGroupMapMap();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public java.util.Map<java.lang.Integer, java.lang.Integer> getGroupMapMap() {
         return internalGetGroupMap().getMap();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public int getGroupMapOrDefault(
@@ -595,7 +712,17 @@ public final class GroupSuiteNotifyOuterClass {
             internalGetGroupMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public int getGroupMapOrThrow(
@@ -614,6 +741,16 @@ public final class GroupSuiteNotifyOuterClass {
             .clear();
         return this;
       }
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
+       */
+>>>>>>> origin/6.5.0
 
       public Builder removeGroupMap(
           int key) {
@@ -628,7 +765,17 @@ public final class GroupSuiteNotifyOuterClass {
       getMutableGroupMap() {
         return internalGetMutableGroupMap().getMutableMap();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder putGroupMap(
           int key,
           int value) {
@@ -637,6 +784,16 @@ public final class GroupSuiteNotifyOuterClass {
             .put(key, value);
         return this;
       }
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
+       */
+>>>>>>> origin/6.5.0
 
       public Builder putAllGroupMap(
           java.util.Map<java.lang.Integer, java.lang.Integer> values) {

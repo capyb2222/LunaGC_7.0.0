@@ -18,6 +18,17 @@ public final class ChessActivityDetailInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:ChessActivityDetailInfo)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>bool is_content_closed = 10;</code>
+     * @return The isContentClosed.
+     */
+>>>>>>> origin/6.5.0
     boolean getIsContentClosed();
 
     /**
@@ -26,6 +37,17 @@ public final class ChessActivityDetailInfoOuterClass {
      */
     boolean getGIGPDLGGEOM();
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 exp = 9;</code>
+     * @return The exp.
+     */
+>>>>>>> origin/6.5.0
     int getExp();
 
     /**
@@ -34,6 +56,17 @@ public final class ChessActivityDetailInfoOuterClass {
      */
     int getDJHMOOHNKKO();
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 level = 4;</code>
+     * @return The level.
+     */
+>>>>>>> origin/6.5.0
     int getLevel();
 
     /**
@@ -42,6 +75,17 @@ public final class ChessActivityDetailInfoOuterClass {
      */
     int getJGKFANJEFAF();
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 content_close_time = 6;</code>
+     * @return The contentCloseTime.
+     */
+>>>>>>> origin/6.5.0
     int getContentCloseTime();
   }
   /**
@@ -158,7 +202,18 @@ public final class ChessActivityDetailInfoOuterClass {
 
     public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 3;
     private boolean isContentClosed_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>bool is_content_closed = 10;</code>
+     * @return The isContentClosed.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsContentClosed() {
       return isContentClosed_;
@@ -177,7 +232,18 @@ public final class ChessActivityDetailInfoOuterClass {
 
     public static final int EXP_FIELD_NUMBER = 11;
     private int exp_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 exp = 9;</code>
+     * @return The exp.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getExp() {
       return exp_;
@@ -196,7 +262,18 @@ public final class ChessActivityDetailInfoOuterClass {
 
     public static final int LEVEL_FIELD_NUMBER = 4;
     private int level_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 level = 4;</code>
+     * @return The level.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getLevel() {
       return level_;
@@ -215,7 +292,18 @@ public final class ChessActivityDetailInfoOuterClass {
 
     public static final int CONTENT_CLOSE_TIME_FIELD_NUMBER = 10;
     private int contentCloseTime_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 content_close_time = 6;</code>
+     * @return The contentCloseTime.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getContentCloseTime() {
       return contentCloseTime_;
@@ -628,19 +716,53 @@ public final class ChessActivityDetailInfoOuterClass {
       }
 
       private boolean isContentClosed_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_content_closed = 10;</code>
+       * @return The isContentClosed.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsContentClosed() {
         return isContentClosed_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_content_closed = 10;</code>
+       * @param value The isContentClosed to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setIsContentClosed(boolean value) {
 
         isContentClosed_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_content_closed = 10;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearIsContentClosed() {
 
         isContentClosed_ = false;
@@ -680,19 +802,53 @@ public final class ChessActivityDetailInfoOuterClass {
       }
 
       private int exp_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 exp = 9;</code>
+       * @return The exp.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getExp() {
         return exp_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 exp = 9;</code>
+       * @param value The exp to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setExp(int value) {
 
         exp_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 exp = 9;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearExp() {
 
         exp_ = 0;
@@ -732,19 +888,53 @@ public final class ChessActivityDetailInfoOuterClass {
       }
 
       private int level_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 level = 4;</code>
+       * @return The level.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getLevel() {
         return level_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 level = 4;</code>
+       * @param value The level to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setLevel(int value) {
 
         level_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 level = 4;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearLevel() {
 
         level_ = 0;
@@ -784,19 +974,53 @@ public final class ChessActivityDetailInfoOuterClass {
       }
 
       private int contentCloseTime_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 content_close_time = 6;</code>
+       * @return The contentCloseTime.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getContentCloseTime() {
         return contentCloseTime_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 content_close_time = 6;</code>
+       * @param value The contentCloseTime to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setContentCloseTime(int value) {
 
         contentCloseTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 content_close_time = 6;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearContentCloseTime() {
 
         contentCloseTime_ = 0;

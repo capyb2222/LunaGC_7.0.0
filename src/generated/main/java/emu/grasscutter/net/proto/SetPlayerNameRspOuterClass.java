@@ -18,11 +18,42 @@ public final class SetPlayerNameRspOuterClass {
       // @@protoc_insertion_point(interface_extends:SetPlayerNameRsp)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     java.lang.String getNickName();
 
     com.google.protobuf.ByteString
         getNickNameBytes();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>string nick_name = 1;</code>
+     * @return The nickName.
+     */
+    java.lang.String getNickName();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>string nick_name = 1;</code>
+     * @return The bytes for nickName.
+     */
+    com.google.protobuf.ByteString
+        getNickNameBytes();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>int32 retcode = 11;</code>
+     * @return The retcode.
+     */
+>>>>>>> origin/6.5.0
     int getRetcode();
   }
   /**
@@ -120,7 +151,18 @@ public final class SetPlayerNameRspOuterClass {
 
     public static final int NICK_NAME_FIELD_NUMBER = 9;
     private volatile java.lang.Object nickName_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>string nick_name = 1;</code>
+     * @return The nickName.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getNickName() {
       java.lang.Object ref = nickName_;
@@ -134,7 +176,18 @@ public final class SetPlayerNameRspOuterClass {
         return s;
       }
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>string nick_name = 1;</code>
+     * @return The bytes for nickName.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getNickNameBytes() {
@@ -152,7 +205,18 @@ public final class SetPlayerNameRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 1;
     private int retcode_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>int32 retcode = 11;</code>
+     * @return The retcode.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -482,7 +546,18 @@ public final class SetPlayerNameRspOuterClass {
       }
 
       private java.lang.Object nickName_ = "";
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>string nick_name = 1;</code>
+       * @return The nickName.
+       */
+>>>>>>> origin/6.5.0
       public java.lang.String getNickName() {
         java.lang.Object ref = nickName_;
         if (!(ref instanceof java.lang.String)) {
@@ -495,7 +570,18 @@ public final class SetPlayerNameRspOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>string nick_name = 1;</code>
+       * @return The bytes for nickName.
+       */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getNickNameBytes() {
         java.lang.Object ref = nickName_;
@@ -509,7 +595,19 @@ public final class SetPlayerNameRspOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>string nick_name = 1;</code>
+       * @param value The nickName to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setNickName(
           java.lang.String value) {
         if (value == null) {
@@ -520,14 +618,37 @@ public final class SetPlayerNameRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>string nick_name = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearNickName() {
 
         nickName_ = getDefaultInstance().getNickName();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>string nick_name = 1;</code>
+       * @param value The bytes for nickName to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setNickNameBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -541,19 +662,53 @@ public final class SetPlayerNameRspOuterClass {
       }
 
       private int retcode_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 11;</code>
+       * @return The retcode.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 11;</code>
+       * @param value The retcode to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
 
         retcode_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 11;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearRetcode() {
 
         retcode_ = 0;

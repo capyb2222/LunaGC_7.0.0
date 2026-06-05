@@ -60,10 +60,41 @@ public final class AnnounceDataOuterClass {
      */
     int getCenterSystemFrequency();
 
+<<<<<<< HEAD
     int getBeginTime();
 
     int getEndTime();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 begin_time = 5;</code>
+     * @return The beginTime.
+     */
+    int getBeginTime();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 end_time = 10;</code>
+     * @return The endTime.
+     */
+    int getEndTime();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 config_id = 4;</code>
+     * @return The configId.
+     */
+>>>>>>> origin/6.5.0
     int getConfigId();
 
     /**
@@ -333,7 +364,18 @@ public final class AnnounceDataOuterClass {
 
     public static final int BEGIN_TIME_FIELD_NUMBER = 6;
     private int beginTime_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 begin_time = 5;</code>
+     * @return The beginTime.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getBeginTime() {
       return beginTime_;
@@ -341,7 +383,18 @@ public final class AnnounceDataOuterClass {
 
     public static final int END_TIME_FIELD_NUMBER = 3;
     private int endTime_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 end_time = 10;</code>
+     * @return The endTime.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getEndTime() {
       return endTime_;
@@ -349,7 +402,18 @@ public final class AnnounceDataOuterClass {
 
     public static final int CONFIG_ID_FIELD_NUMBER = 7;
     private int configId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 config_id = 4;</code>
+     * @return The configId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getConfigId() {
       return configId_;
@@ -1076,19 +1140,53 @@ public final class AnnounceDataOuterClass {
       }
 
       private int beginTime_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 begin_time = 5;</code>
+       * @return The beginTime.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getBeginTime() {
         return beginTime_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 begin_time = 5;</code>
+       * @param value The beginTime to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setBeginTime(int value) {
 
         beginTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 begin_time = 5;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearBeginTime() {
 
         beginTime_ = 0;
@@ -1097,19 +1195,53 @@ public final class AnnounceDataOuterClass {
       }
 
       private int endTime_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 end_time = 10;</code>
+       * @return The endTime.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getEndTime() {
         return endTime_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 end_time = 10;</code>
+       * @param value The endTime to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setEndTime(int value) {
 
         endTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 end_time = 10;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearEndTime() {
 
         endTime_ = 0;
@@ -1118,19 +1250,53 @@ public final class AnnounceDataOuterClass {
       }
 
       private int configId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 config_id = 4;</code>
+       * @return The configId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getConfigId() {
         return configId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 config_id = 4;</code>
+       * @param value The configId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setConfigId(int value) {
 
         configId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 config_id = 4;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearConfigId() {
 
         configId_ = 0;

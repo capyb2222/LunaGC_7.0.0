@@ -18,8 +18,29 @@ public final class AvatarChangeCostumeReqOuterClass {
       // @@protoc_insertion_point(interface_extends:AvatarChangeCostumeReq)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     long getAvatarGuid();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint64 avatar_guid = 5;</code>
+     * @return The avatarGuid.
+     */
+    long getAvatarGuid();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 costume_id = 14;</code>
+     * @return The costumeId.
+     */
+>>>>>>> origin/6.5.0
     int getCostumeId();
   }
   /**
@@ -115,7 +136,18 @@ public final class AvatarChangeCostumeReqOuterClass {
 
     public static final int AVATAR_GUID_FIELD_NUMBER = 5;
     private long avatarGuid_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint64 avatar_guid = 5;</code>
+     * @return The avatarGuid.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getAvatarGuid() {
       return avatarGuid_;
@@ -123,7 +155,18 @@ public final class AvatarChangeCostumeReqOuterClass {
 
     public static final int COSTUME_ID_FIELD_NUMBER = 14;
     private int costumeId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 costume_id = 14;</code>
+     * @return The costumeId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCostumeId() {
       return costumeId_;
@@ -454,19 +497,53 @@ public final class AvatarChangeCostumeReqOuterClass {
       }
 
       private long avatarGuid_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 avatar_guid = 5;</code>
+       * @return The avatarGuid.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getAvatarGuid() {
         return avatarGuid_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 avatar_guid = 5;</code>
+       * @param value The avatarGuid to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setAvatarGuid(long value) {
 
         avatarGuid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 avatar_guid = 5;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearAvatarGuid() {
 
         avatarGuid_ = 0L;
@@ -475,19 +552,53 @@ public final class AvatarChangeCostumeReqOuterClass {
       }
 
       private int costumeId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 costume_id = 14;</code>
+       * @return The costumeId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCostumeId() {
         return costumeId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 costume_id = 14;</code>
+       * @param value The costumeId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setCostumeId(int value) {
 
         costumeId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 costume_id = 14;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearCostumeId() {
 
         costumeId_ = 0;

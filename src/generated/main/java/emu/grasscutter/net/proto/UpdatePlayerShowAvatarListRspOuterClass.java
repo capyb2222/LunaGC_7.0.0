@@ -18,16 +18,67 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
       // @@protoc_insertion_point(interface_extends:UpdatePlayerShowAvatarListRsp)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     java.util.List<java.lang.Integer> getShowAvatarIdListList();
 
     int getShowAvatarIdListCount();
 
     int getShowAvatarIdList(int index);
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint32 show_avatar_id_list = 13;</code>
+     * @return A list containing the showAvatarIdList.
+     */
+    java.util.List<java.lang.Integer> getShowAvatarIdListList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint32 show_avatar_id_list = 13;</code>
+     * @return The count of showAvatarIdList.
+     */
+    int getShowAvatarIdListCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint32 show_avatar_id_list = 13;</code>
+     * @param index The index of the element to return.
+     * @return The showAvatarIdList at the given index.
+     */
+    int getShowAvatarIdList(int index);
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>int32 retcode = 3;</code>
+     * @return The retcode.
+     */
+>>>>>>> origin/6.5.0
     int getRetcode();
 
     boolean getIsShowConstellationNum();
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>bool is_show_avatar = 8;</code>
+     * @return The isShowAvatar.
+     */
+>>>>>>> origin/6.5.0
     boolean getIsShowAvatar();
   }
   /**
@@ -154,17 +205,51 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
 
     public static final int SHOW_AVATAR_ID_LIST_FIELD_NUMBER = 1;
     private com.google.protobuf.Internal.IntList showAvatarIdList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint32 show_avatar_id_list = 13;</code>
+     * @return A list containing the showAvatarIdList.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getShowAvatarIdListList() {
       return showAvatarIdList_;
     }
+<<<<<<< HEAD
 
     public int getShowAvatarIdListCount() {
       return showAvatarIdList_.size();
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint32 show_avatar_id_list = 13;</code>
+     * @return The count of showAvatarIdList.
+     */
+    public int getShowAvatarIdListCount() {
+      return showAvatarIdList_.size();
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint32 show_avatar_id_list = 13;</code>
+     * @param index The index of the element to return.
+     * @return The showAvatarIdList at the given index.
+     */
+>>>>>>> origin/6.5.0
     public int getShowAvatarIdList(int index) {
       return showAvatarIdList_.getInt(index);
     }
@@ -172,7 +257,18 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 10;
     private int retcode_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>int32 retcode = 3;</code>
+     * @return The retcode.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -188,7 +284,18 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
 
     public static final int IS_SHOW_AVATAR_FIELD_NUMBER = 8;
     private boolean isShowAvatar_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>bool is_show_avatar = 8;</code>
+     * @return The isShowAvatar.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsShowAvatar() {
       return isShowAvatar_;
@@ -590,12 +697,24 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint32 show_avatar_id_list = 13;</code>
+       * @return A list containing the showAvatarIdList.
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getShowAvatarIdListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(showAvatarIdList_) : showAvatarIdList_;
       }
+<<<<<<< HEAD
 
       public int getShowAvatarIdListCount() {
         return showAvatarIdList_.size();
@@ -605,6 +724,41 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
         return showAvatarIdList_.getInt(index);
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint32 show_avatar_id_list = 13;</code>
+       * @return The count of showAvatarIdList.
+       */
+      public int getShowAvatarIdListCount() {
+        return showAvatarIdList_.size();
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint32 show_avatar_id_list = 13;</code>
+       * @param index The index of the element to return.
+       * @return The showAvatarIdList at the given index.
+       */
+      public int getShowAvatarIdList(int index) {
+        return showAvatarIdList_.getInt(index);
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint32 show_avatar_id_list = 13;</code>
+       * @param index The index to set the value at.
+       * @param value The showAvatarIdList to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setShowAvatarIdList(
           int index, int value) {
         ensureShowAvatarIdListIsMutable();
@@ -612,14 +766,38 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint32 show_avatar_id_list = 13;</code>
+       * @param value The showAvatarIdList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addShowAvatarIdList(int value) {
         ensureShowAvatarIdListIsMutable();
         showAvatarIdList_.addInt(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint32 show_avatar_id_list = 13;</code>
+       * @param values The showAvatarIdList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllShowAvatarIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureShowAvatarIdListIsMutable();
@@ -628,7 +806,18 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint32 show_avatar_id_list = 13;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearShowAvatarIdList() {
         showAvatarIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -637,19 +826,53 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
       }
 
       private int retcode_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 3;</code>
+       * @return The retcode.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 3;</code>
+       * @param value The retcode to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
 
         retcode_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 3;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearRetcode() {
 
         retcode_ = 0;
@@ -679,19 +902,53 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
       }
 
       private boolean isShowAvatar_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_show_avatar = 8;</code>
+       * @return The isShowAvatar.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsShowAvatar() {
         return isShowAvatar_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_show_avatar = 8;</code>
+       * @param value The isShowAvatar to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setIsShowAvatar(boolean value) {
 
         isShowAvatar_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_show_avatar = 8;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearIsShowAvatar() {
 
         isShowAvatar_ = false;

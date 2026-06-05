@@ -18,8 +18,26 @@ public final class ActivityInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:ActivityInfo)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     int getActivityCoinMapCount();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
+     */
+    int getActivityCoinMapCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
+     */
+>>>>>>> origin/6.5.0
     boolean containsActivityCoinMap(
         int key);
     /**
@@ -28,17 +46,47 @@ public final class ActivityInfoOuterClass {
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getActivityCoinMap();
+<<<<<<< HEAD
 
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getActivityCoinMapMap();
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
+     */
+    java.util.Map<java.lang.Integer, java.lang.Integer>
+    getActivityCoinMapMap();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
+     */
+>>>>>>> origin/6.5.0
 
     int getActivityCoinMapOrDefault(
         int key,
         int defaultValue);
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
+     */
+>>>>>>> origin/6.5.0
 
     int getActivityCoinMapOrThrow(
         int key);
 
+<<<<<<< HEAD
     java.util.List<emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo>
         getWatcherInfoListList();
 
@@ -49,6 +97,49 @@ public final class ActivityInfoOuterClass {
     java.util.List<? extends emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder>
         getWatcherInfoListOrBuilderList();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
+     */
+    java.util.List<emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo> 
+        getWatcherInfoListList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
+     */
+    emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo getWatcherInfoList(int index);
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
+     */
+    int getWatcherInfoListCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder> 
+        getWatcherInfoListOrBuilderList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
+     */
+>>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder getWatcherInfoListOrBuilder(
         int index);
 
@@ -86,6 +177,7 @@ public final class ActivityInfoOuterClass {
      */
     int getNINFIOLKLCJ(int index);
 
+<<<<<<< HEAD
     java.util.List<emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData>
         getActivityPushTipsDataListList();
 
@@ -101,6 +193,67 @@ public final class ActivityInfoOuterClass {
 
     int getWishGiftNumMapCount();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
+     */
+    java.util.List<emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData> 
+        getActivityPushTipsDataListList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
+     */
+    emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData getActivityPushTipsDataList(int index);
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
+     */
+    int getActivityPushTipsDataListCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsDataOrBuilder> 
+        getActivityPushTipsDataListOrBuilderList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
+     */
+    emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsDataOrBuilder getActivityPushTipsDataListOrBuilder(
+        int index);
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
+     */
+    int getWishGiftNumMapCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
+     */
+>>>>>>> origin/6.5.0
     boolean containsWishGiftNumMap(
         int key);
     /**
@@ -109,13 +262,42 @@ public final class ActivityInfoOuterClass {
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getWishGiftNumMap();
+<<<<<<< HEAD
 
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getWishGiftNumMapMap();
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
+     */
+    java.util.Map<java.lang.Integer, java.lang.Integer>
+    getWishGiftNumMapMap();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
+     */
+>>>>>>> origin/6.5.0
 
     int getWishGiftNumMapOrDefault(
         int key,
         int defaultValue);
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
+     */
+>>>>>>> origin/6.5.0
 
     int getWishGiftNumMapOrThrow(
         int key);
@@ -152,10 +334,40 @@ public final class ActivityInfoOuterClass {
      */
     int getFLDFIFJDGDB(int index);
 
+<<<<<<< HEAD
     java.util.List<java.lang.Integer> getMeetCondListList();
 
     int getMeetCondListCount();
 
+=======
+    /**
+     * <pre>
+     *6.5.5  
+     * </pre>
+     *
+     * <code>repeated uint32 meet_cond_list = 6;</code>
+     * @return A list containing the meetCondList.
+     */
+    java.util.List<java.lang.Integer> getMeetCondListList();
+    /**
+     * <pre>
+     *6.5.5  
+     * </pre>
+     *
+     * <code>repeated uint32 meet_cond_list = 6;</code>
+     * @return The count of meetCondList.
+     */
+    int getMeetCondListCount();
+    /**
+     * <pre>
+     *6.5.5  
+     * </pre>
+     *
+     * <code>repeated uint32 meet_cond_list = 6;</code>
+     * @param index The index of the element to return.
+     * @return The meetCondList at the given index.
+     */
+>>>>>>> origin/6.5.0
     int getMeetCondList(int index);
 
     /**
@@ -193,6 +405,17 @@ public final class ActivityInfoOuterClass {
      */
     long getGJLKEBPOEEA(int index);
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>uint32 cur_score = 1217;</code>
+     * @return The curScore.
+     */
+>>>>>>> origin/6.5.0
     int getCurScore();
 
     /**
@@ -201,6 +424,17 @@ public final class ActivityInfoOuterClass {
      */
     int getLEOKOPDKDBE();
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 activity_id = 4;</code>
+     * @return The activityId.
+     */
+>>>>>>> origin/6.5.0
     int getActivityId();
 
     /**
@@ -209,12 +443,53 @@ public final class ActivityInfoOuterClass {
      */
     long getLFPOBIAKJJN();
 
+<<<<<<< HEAD
     int getFirstDayStartTime();
 
     int getScheduleId();
 
     int getEndTime();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0  
+     * </pre>
+     *
+     * <code>uint32 first_day_start_time = 795;</code>
+     * @return The firstDayStartTime.
+     */
+    int getFirstDayStartTime();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 schedule_id = 1;</code>
+     * @return The scheduleId.
+     */
+    int getScheduleId();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 end_time = 5;</code>
+     * @return The endTime.
+     */
+    int getEndTime();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 begin_time = 2;</code>
+     * @return The beginTime.
+     */
+>>>>>>> origin/6.5.0
     int getBeginTime();
 
     /**
@@ -229,6 +504,17 @@ public final class ActivityInfoOuterClass {
      */
     int getLNIECLNEDCG();
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>bool is_finished = 11;</code>
+     * @return The isFinished.
+     */
+>>>>>>> origin/6.5.0
     boolean getIsFinished();
 
     /**
@@ -249,6 +535,17 @@ public final class ActivityInfoOuterClass {
      */
     boolean getDAGKEOCNIKO();
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0  
+     * </pre>
+     *
+     * <code>uint32 activity_type = 13;</code>
+     * @return The activityType.
+     */
+>>>>>>> origin/6.5.0
     int getActivityType();
 
     /**
@@ -263,6 +560,7 @@ public final class ActivityInfoOuterClass {
      */
     boolean getAHPPKGFBJDK();
 
+<<<<<<< HEAD
     boolean hasMusicGameInfo();
 
     emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo getMusicGameInfo();
@@ -273,6 +571,144 @@ public final class ActivityInfoOuterClass {
 
     emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo getBubbleDramaDetailInfo();
 
+=======
+    /**
+     * <pre>
+     * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+     * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+     * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+     * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+     * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+     * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+     * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+     * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+     * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+     * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+     * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+     * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+     * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+     * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+     * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+     * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+     * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+     * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+     * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+     * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+     * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+     * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+     * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+     * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+     * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+     * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+     * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+     * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+     * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
+     * @return Whether the musicGameInfo field is set.
+     */
+    boolean hasMusicGameInfo();
+    /**
+     * <pre>
+     * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+     * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+     * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+     * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+     * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+     * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+     * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+     * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+     * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+     * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+     * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+     * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+     * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+     * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+     * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+     * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+     * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+     * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+     * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+     * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+     * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+     * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+     * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+     * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+     * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+     * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+     * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+     * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+     * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
+     * @return The musicGameInfo.
+     */
+    emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo getMusicGameInfo();
+    /**
+     * <pre>
+     * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+     * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+     * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+     * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+     * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+     * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+     * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+     * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+     * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+     * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+     * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+     * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+     * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+     * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+     * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+     * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+     * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+     * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+     * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+     * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+     * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+     * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+     * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+     * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+     * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+     * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+     * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+     * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+     * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
+     */
+    emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfoOrBuilder getMusicGameInfoOrBuilder();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0
+     * </pre>
+     *
+     * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
+     * @return Whether the bubbleDramaDetailInfo field is set.
+     */
+    boolean hasBubbleDramaDetailInfo();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0
+     * </pre>
+     *
+     * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
+     * @return The bubbleDramaDetailInfo.
+     */
+    emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo getBubbleDramaDetailInfo();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0
+     * </pre>
+     *
+     * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
+     */
+>>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfoOrBuilder getBubbleDramaDetailInfoOrBuilder();
 
     public emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo.DetailCase getDetailCase();
@@ -364,6 +800,27 @@ public final class ActivityInfoOuterClass {
               endTime_ = input.readUInt32();
               break;
             }
+            case 48: {
+              if (!((mutable_bitField0_ & 0x00000080) != 0)) {
+                meetCondList_ = newIntList();
+                mutable_bitField0_ |= 0x00000080;
+              }
+              meetCondList_.addInt(input.readUInt32());
+              break;
+            }
+            case 50: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000080) != 0) && input.getBytesUntilLimit() > 0) {
+                meetCondList_ = newIntList();
+                mutable_bitField0_ |= 0x00000080;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                meetCondList_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
             case 88: {
 
               isFinished_ = input.readBool();
@@ -377,27 +834,6 @@ public final class ActivityInfoOuterClass {
             case 120: {
 
               dKKAEBHHLFM_ = input.readBool();
-              break;
-            }
-            case 128: {
-              if (!((mutable_bitField0_ & 0x00000080) != 0)) {
-                meetCondList_ = newIntList();
-                mutable_bitField0_ |= 0x00000080;
-              }
-              meetCondList_.addInt(input.readUInt32());
-              break;
-            }
-            case 130: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000080) != 0) && input.getBytesUntilLimit() > 0) {
-                meetCondList_ = newIntList();
-                mutable_bitField0_ |= 0x00000080;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                meetCondList_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
               break;
             }
             case 216: {
@@ -744,6 +1180,16 @@ public final class ActivityInfoOuterClass {
     public int getActivityCoinMapCount() {
       return internalGetActivityCoinMap().getMap().size();
     }
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
+     */
+>>>>>>> origin/6.5.0
 
     @java.lang.Override
     public boolean containsActivityCoinMap(
@@ -759,13 +1205,33 @@ public final class ActivityInfoOuterClass {
     public java.util.Map<java.lang.Integer, java.lang.Integer> getActivityCoinMap() {
       return getActivityCoinMapMap();
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public java.util.Map<java.lang.Integer, java.lang.Integer> getActivityCoinMapMap() {
       return internalGetActivityCoinMap().getMap();
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public int getActivityCoinMapOrDefault(
@@ -776,7 +1242,17 @@ public final class ActivityInfoOuterClass {
           internalGetActivityCoinMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public int getActivityCoinMapOrThrow(
@@ -792,28 +1268,78 @@ public final class ActivityInfoOuterClass {
 
     public static final int WATCHER_INFO_LIST_FIELD_NUMBER = 3;
     private java.util.List<emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo> watcherInfoList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo> getWatcherInfoListList() {
       return watcherInfoList_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder>
         getWatcherInfoListOrBuilderList() {
       return watcherInfoList_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getWatcherInfoListCount() {
       return watcherInfoList_.size();
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo getWatcherInfoList(int index) {
       return watcherInfoList_.get(index);
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder getWatcherInfoListOrBuilder(
         int index) {
@@ -878,28 +1404,78 @@ public final class ActivityInfoOuterClass {
 
     public static final int ACTIVITY_PUSH_TIPS_DATA_LIST_FIELD_NUMBER = 1234;
     private java.util.List<emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData> activityPushTipsDataList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData> getActivityPushTipsDataListList() {
       return activityPushTipsDataList_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsDataOrBuilder>
         getActivityPushTipsDataListOrBuilderList() {
       return activityPushTipsDataList_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getActivityPushTipsDataListCount() {
       return activityPushTipsDataList_.size();
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData getActivityPushTipsDataList(int index) {
       return activityPushTipsDataList_.get(index);
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsDataOrBuilder getActivityPushTipsDataListOrBuilder(
         int index) {
@@ -932,6 +1508,16 @@ public final class ActivityInfoOuterClass {
     public int getWishGiftNumMapCount() {
       return internalGetWishGiftNumMap().getMap().size();
     }
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
+     */
+>>>>>>> origin/6.5.0
 
     @java.lang.Override
     public boolean containsWishGiftNumMap(
@@ -947,13 +1533,33 @@ public final class ActivityInfoOuterClass {
     public java.util.Map<java.lang.Integer, java.lang.Integer> getWishGiftNumMap() {
       return getWishGiftNumMapMap();
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public java.util.Map<java.lang.Integer, java.lang.Integer> getWishGiftNumMapMap() {
       return internalGetWishGiftNumMap().getMap();
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public int getWishGiftNumMapOrDefault(
@@ -964,7 +1570,17 @@ public final class ActivityInfoOuterClass {
           internalGetWishGiftNumMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public int getWishGiftNumMapOrThrow(
@@ -1032,19 +1648,53 @@ public final class ActivityInfoOuterClass {
     }
     private int fLDFIFJDGDBMemoizedSerializedSize = -1;
 
-    public static final int MEET_COND_LIST_FIELD_NUMBER = 16;
+    public static final int MEET_COND_LIST_FIELD_NUMBER = 6;
     private com.google.protobuf.Internal.IntList meetCondList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5  
+     * </pre>
+     *
+     * <code>repeated uint32 meet_cond_list = 6;</code>
+     * @return A list containing the meetCondList.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getMeetCondListList() {
       return meetCondList_;
     }
+<<<<<<< HEAD
 
     public int getMeetCondListCount() {
       return meetCondList_.size();
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5  
+     * </pre>
+     *
+     * <code>repeated uint32 meet_cond_list = 6;</code>
+     * @return The count of meetCondList.
+     */
+    public int getMeetCondListCount() {
+      return meetCondList_.size();
+    }
+    /**
+     * <pre>
+     *6.5.5  
+     * </pre>
+     *
+     * <code>repeated uint32 meet_cond_list = 6;</code>
+     * @param index The index of the element to return.
+     * @return The meetCondList at the given index.
+     */
+>>>>>>> origin/6.5.0
     public int getMeetCondList(int index) {
       return meetCondList_.getInt(index);
     }
@@ -1098,7 +1748,18 @@ public final class ActivityInfoOuterClass {
 
     public static final int CUR_SCORE_FIELD_NUMBER = 1217;
     private int curScore_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>uint32 cur_score = 1217;</code>
+     * @return The curScore.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCurScore() {
       return curScore_;
@@ -1117,7 +1778,18 @@ public final class ActivityInfoOuterClass {
 
     public static final int ACTIVITY_ID_FIELD_NUMBER = 5;
     private int activityId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 activity_id = 4;</code>
+     * @return The activityId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getActivityId() {
       return activityId_;
@@ -1136,7 +1808,18 @@ public final class ActivityInfoOuterClass {
 
     public static final int FIRST_DAY_START_TIME_FIELD_NUMBER = 795;
     private int firstDayStartTime_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0  
+     * </pre>
+     *
+     * <code>uint32 first_day_start_time = 795;</code>
+     * @return The firstDayStartTime.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getFirstDayStartTime() {
       return firstDayStartTime_;
@@ -1144,7 +1827,18 @@ public final class ActivityInfoOuterClass {
 
     public static final int SCHEDULE_ID_FIELD_NUMBER = 9;
     private int scheduleId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 schedule_id = 1;</code>
+     * @return The scheduleId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getScheduleId() {
       return scheduleId_;
@@ -1152,7 +1846,18 @@ public final class ActivityInfoOuterClass {
 
     public static final int END_TIME_FIELD_NUMBER = 2;
     private int endTime_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 end_time = 5;</code>
+     * @return The endTime.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getEndTime() {
       return endTime_;
@@ -1160,7 +1865,18 @@ public final class ActivityInfoOuterClass {
 
     public static final int BEGIN_TIME_FIELD_NUMBER = 14;
     private int beginTime_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 begin_time = 2;</code>
+     * @return The beginTime.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getBeginTime() {
       return beginTime_;
@@ -1190,7 +1906,18 @@ public final class ActivityInfoOuterClass {
 
     public static final int IS_FINISHED_FIELD_NUMBER = 3;
     private boolean isFinished_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>bool is_finished = 11;</code>
+     * @return The isFinished.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsFinished() {
       return isFinished_;
@@ -1231,7 +1958,18 @@ public final class ActivityInfoOuterClass {
 
     public static final int ACTIVITY_TYPE_FIELD_NUMBER = 13;
     private int activityType_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0  
+     * </pre>
+     *
+     * <code>uint32 activity_type = 13;</code>
+     * @return The activityType.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getActivityType() {
       return activityType_;
@@ -1260,12 +1998,90 @@ public final class ActivityInfoOuterClass {
     }
 
     public static final int MUSIC_GAME_INFO_FIELD_NUMBER = 1472;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+     * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+     * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+     * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+     * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+     * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+     * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+     * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+     * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+     * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+     * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+     * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+     * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+     * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+     * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+     * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+     * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+     * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+     * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+     * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+     * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+     * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+     * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+     * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+     * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+     * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+     * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+     * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+     * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
+     * @return Whether the musicGameInfo field is set.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasMusicGameInfo() {
       return detailCase_ == 1472;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+     * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+     * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+     * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+     * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+     * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+     * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+     * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+     * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+     * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+     * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+     * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+     * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+     * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+     * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+     * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+     * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+     * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+     * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+     * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+     * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+     * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+     * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+     * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+     * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+     * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+     * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+     * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+     * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
+     * @return The musicGameInfo.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo getMusicGameInfo() {
       if (detailCase_ == 1472) {
@@ -1273,7 +2089,45 @@ public final class ActivityInfoOuterClass {
       }
       return emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.getDefaultInstance();
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+     * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+     * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+     * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+     * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+     * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+     * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+     * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+     * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+     * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+     * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+     * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+     * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+     * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+     * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+     * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+     * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+     * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+     * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+     * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+     * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+     * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+     * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+     * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+     * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+     * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+     * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+     * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+     * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfoOrBuilder getMusicGameInfoOrBuilder() {
       if (detailCase_ == 1472) {
@@ -1283,12 +2137,34 @@ public final class ActivityInfoOuterClass {
     }
 
     public static final int BUBBLE_DRAMA_DETAIL_INFO_FIELD_NUMBER = 1117;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0
+     * </pre>
+     *
+     * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
+     * @return Whether the bubbleDramaDetailInfo field is set.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasBubbleDramaDetailInfo() {
       return detailCase_ == 1117;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0
+     * </pre>
+     *
+     * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
+     * @return The bubbleDramaDetailInfo.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo getBubbleDramaDetailInfo() {
       if (detailCase_ == 1117) {
@@ -1296,7 +2172,17 @@ public final class ActivityInfoOuterClass {
       }
       return emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo.getDefaultInstance();
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0
+     * </pre>
+     *
+     * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfoOrBuilder getBubbleDramaDetailInfoOrBuilder() {
       if (detailCase_ == 1117) {
@@ -1335,6 +2221,13 @@ public final class ActivityInfoOuterClass {
       if (endTime_ != 0) {
         output.writeUInt32(2, endTime_);
       }
+      if (getMeetCondListList().size() > 0) {
+        output.writeUInt32NoTag(50);
+        output.writeUInt32NoTag(meetCondListMemoizedSerializedSize);
+      }
+      for (int i = 0; i < meetCondList_.size(); i++) {
+        output.writeUInt32NoTag(meetCondList_.getInt(i));
+      }
       if (isFinished_ != false) {
         output.writeBool(3, isFinished_);
       }
@@ -1343,13 +2236,6 @@ public final class ActivityInfoOuterClass {
       }
       if (dKKAEBHHLFM_ != false) {
         output.writeBool(15, dKKAEBHHLFM_);
-      }
-      if (getMeetCondListList().size() > 0) {
-        output.writeUInt32NoTag(130);
-        output.writeUInt32NoTag(meetCondListMemoizedSerializedSize);
-      }
-      for (int i = 0; i < meetCondList_.size(); i++) {
-        output.writeUInt32NoTag(meetCondList_.getInt(i));
       }
       if (getGJLKEBPOEEAList().size() > 0) {
         output.writeUInt32NoTag(218);
@@ -1462,6 +2348,20 @@ public final class ActivityInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(2, endTime_);
       }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < meetCondList_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(meetCondList_.getInt(i));
+        }
+        size += dataSize;
+        if (!getMeetCondListList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        meetCondListMemoizedSerializedSize = dataSize;
+      }
       if (isFinished_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(3, isFinished_);
@@ -1473,20 +2373,6 @@ public final class ActivityInfoOuterClass {
       if (dKKAEBHHLFM_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(15, dKKAEBHHLFM_);
-      }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < meetCondList_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(meetCondList_.getInt(i));
-        }
-        size += dataSize;
-        if (!getMeetCondListList().isEmpty()) {
-          size += 2;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        meetCondListMemoizedSerializedSize = dataSize;
       }
       {
         int dataSize = 0;
@@ -2444,6 +3330,16 @@ public final class ActivityInfoOuterClass {
       public int getActivityCoinMapCount() {
         return internalGetActivityCoinMap().getMap().size();
       }
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
+       */
+>>>>>>> origin/6.5.0
 
       @java.lang.Override
       public boolean containsActivityCoinMap(
@@ -2459,13 +3355,33 @@ public final class ActivityInfoOuterClass {
       public java.util.Map<java.lang.Integer, java.lang.Integer> getActivityCoinMap() {
         return getActivityCoinMapMap();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public java.util.Map<java.lang.Integer, java.lang.Integer> getActivityCoinMapMap() {
         return internalGetActivityCoinMap().getMap();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public int getActivityCoinMapOrDefault(
@@ -2476,7 +3392,17 @@ public final class ActivityInfoOuterClass {
             internalGetActivityCoinMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public int getActivityCoinMapOrThrow(
@@ -2495,6 +3421,16 @@ public final class ActivityInfoOuterClass {
             .clear();
         return this;
       }
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
+       */
+>>>>>>> origin/6.5.0
 
       public Builder removeActivityCoinMap(
           int key) {
@@ -2511,7 +3447,17 @@ public final class ActivityInfoOuterClass {
       getMutableActivityCoinMap() {
         return internalGetMutableActivityCoinMap().getMutableMap();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder putActivityCoinMap(
           int key,
           int value) {
@@ -2520,6 +3466,16 @@ public final class ActivityInfoOuterClass {
             .put(key, value);
         return this;
       }
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
+       */
+>>>>>>> origin/6.5.0
 
       public Builder putAllActivityCoinMap(
           java.util.Map<java.lang.Integer, java.lang.Integer> values) {
@@ -2540,6 +3496,16 @@ public final class ActivityInfoOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo, emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.Builder, emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder> watcherInfoListBuilder_;
 
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo> getWatcherInfoListList() {
         if (watcherInfoListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(watcherInfoList_);
@@ -2547,7 +3513,17 @@ public final class ActivityInfoOuterClass {
           return watcherInfoListBuilder_.getMessageList();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public int getWatcherInfoListCount() {
         if (watcherInfoListBuilder_ == null) {
           return watcherInfoList_.size();
@@ -2555,7 +3531,17 @@ public final class ActivityInfoOuterClass {
           return watcherInfoListBuilder_.getCount();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo getWatcherInfoList(int index) {
         if (watcherInfoListBuilder_ == null) {
           return watcherInfoList_.get(index);
@@ -2563,7 +3549,17 @@ public final class ActivityInfoOuterClass {
           return watcherInfoListBuilder_.getMessage(index);
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setWatcherInfoList(
           int index, emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo value) {
         if (watcherInfoListBuilder_ == null) {
@@ -2578,7 +3574,17 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setWatcherInfoList(
           int index, emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.Builder builderForValue) {
         if (watcherInfoListBuilder_ == null) {
@@ -2590,7 +3596,17 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addWatcherInfoList(emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo value) {
         if (watcherInfoListBuilder_ == null) {
           if (value == null) {
@@ -2604,7 +3620,17 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addWatcherInfoList(
           int index, emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo value) {
         if (watcherInfoListBuilder_ == null) {
@@ -2619,7 +3645,17 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addWatcherInfoList(
           emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.Builder builderForValue) {
         if (watcherInfoListBuilder_ == null) {
@@ -2631,7 +3667,17 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addWatcherInfoList(
           int index, emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.Builder builderForValue) {
         if (watcherInfoListBuilder_ == null) {
@@ -2643,7 +3689,17 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllWatcherInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo> values) {
         if (watcherInfoListBuilder_ == null) {
@@ -2656,7 +3712,17 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder clearWatcherInfoList() {
         if (watcherInfoListBuilder_ == null) {
           watcherInfoList_ = java.util.Collections.emptyList();
@@ -2667,7 +3733,17 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder removeWatcherInfoList(int index) {
         if (watcherInfoListBuilder_ == null) {
           ensureWatcherInfoListIsMutable();
@@ -2678,12 +3754,32 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.Builder getWatcherInfoListBuilder(
           int index) {
         return getWatcherInfoListFieldBuilder().getBuilder(index);
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder getWatcherInfoListOrBuilder(
           int index) {
         if (watcherInfoListBuilder_ == null) {
@@ -2691,8 +3787,19 @@ public final class ActivityInfoOuterClass {
           return watcherInfoListBuilder_.getMessageOrBuilder(index);
         }
       }
+<<<<<<< HEAD
 
       public java.util.List<? extends emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder>
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder> 
+>>>>>>> origin/6.5.0
            getWatcherInfoListOrBuilderList() {
         if (watcherInfoListBuilder_ != null) {
           return watcherInfoListBuilder_.getMessageOrBuilderList();
@@ -2700,19 +3807,50 @@ public final class ActivityInfoOuterClass {
           return java.util.Collections.unmodifiableList(watcherInfoList_);
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.Builder addWatcherInfoListBuilder() {
         return getWatcherInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.getDefaultInstance());
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.Builder addWatcherInfoListBuilder(
           int index) {
         return getWatcherInfoListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.getDefaultInstance());
       }
+<<<<<<< HEAD
 
       public java.util.List<emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.Builder>
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.Builder> 
+>>>>>>> origin/6.5.0
            getWatcherInfoListBuilderList() {
         return getWatcherInfoListFieldBuilder().getBuilderList();
       }
@@ -2901,6 +4039,16 @@ public final class ActivityInfoOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData, emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData.Builder, emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsDataOrBuilder> activityPushTipsDataListBuilder_;
 
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData> getActivityPushTipsDataListList() {
         if (activityPushTipsDataListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(activityPushTipsDataList_);
@@ -2908,7 +4056,17 @@ public final class ActivityInfoOuterClass {
           return activityPushTipsDataListBuilder_.getMessageList();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
+       */
+>>>>>>> origin/6.5.0
       public int getActivityPushTipsDataListCount() {
         if (activityPushTipsDataListBuilder_ == null) {
           return activityPushTipsDataList_.size();
@@ -2916,7 +4074,17 @@ public final class ActivityInfoOuterClass {
           return activityPushTipsDataListBuilder_.getCount();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData getActivityPushTipsDataList(int index) {
         if (activityPushTipsDataListBuilder_ == null) {
           return activityPushTipsDataList_.get(index);
@@ -2924,7 +4092,17 @@ public final class ActivityInfoOuterClass {
           return activityPushTipsDataListBuilder_.getMessage(index);
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setActivityPushTipsDataList(
           int index, emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData value) {
         if (activityPushTipsDataListBuilder_ == null) {
@@ -2939,7 +4117,17 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setActivityPushTipsDataList(
           int index, emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData.Builder builderForValue) {
         if (activityPushTipsDataListBuilder_ == null) {
@@ -2951,7 +4139,17 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addActivityPushTipsDataList(emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData value) {
         if (activityPushTipsDataListBuilder_ == null) {
           if (value == null) {
@@ -2965,7 +4163,17 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addActivityPushTipsDataList(
           int index, emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData value) {
         if (activityPushTipsDataListBuilder_ == null) {
@@ -2980,7 +4188,17 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addActivityPushTipsDataList(
           emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData.Builder builderForValue) {
         if (activityPushTipsDataListBuilder_ == null) {
@@ -2992,7 +4210,17 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addActivityPushTipsDataList(
           int index, emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData.Builder builderForValue) {
         if (activityPushTipsDataListBuilder_ == null) {
@@ -3004,7 +4232,17 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllActivityPushTipsDataList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData> values) {
         if (activityPushTipsDataListBuilder_ == null) {
@@ -3017,7 +4255,17 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder clearActivityPushTipsDataList() {
         if (activityPushTipsDataListBuilder_ == null) {
           activityPushTipsDataList_ = java.util.Collections.emptyList();
@@ -3028,7 +4276,17 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder removeActivityPushTipsDataList(int index) {
         if (activityPushTipsDataListBuilder_ == null) {
           ensureActivityPushTipsDataListIsMutable();
@@ -3039,12 +4297,32 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData.Builder getActivityPushTipsDataListBuilder(
           int index) {
         return getActivityPushTipsDataListFieldBuilder().getBuilder(index);
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsDataOrBuilder getActivityPushTipsDataListOrBuilder(
           int index) {
         if (activityPushTipsDataListBuilder_ == null) {
@@ -3052,8 +4330,19 @@ public final class ActivityInfoOuterClass {
           return activityPushTipsDataListBuilder_.getMessageOrBuilder(index);
         }
       }
+<<<<<<< HEAD
 
       public java.util.List<? extends emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsDataOrBuilder>
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsDataOrBuilder> 
+>>>>>>> origin/6.5.0
            getActivityPushTipsDataListOrBuilderList() {
         if (activityPushTipsDataListBuilder_ != null) {
           return activityPushTipsDataListBuilder_.getMessageOrBuilderList();
@@ -3061,19 +4350,50 @@ public final class ActivityInfoOuterClass {
           return java.util.Collections.unmodifiableList(activityPushTipsDataList_);
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData.Builder addActivityPushTipsDataListBuilder() {
         return getActivityPushTipsDataListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData.getDefaultInstance());
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData.Builder addActivityPushTipsDataListBuilder(
           int index) {
         return getActivityPushTipsDataListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData.getDefaultInstance());
       }
+<<<<<<< HEAD
 
       public java.util.List<emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData.Builder>
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData.Builder> 
+>>>>>>> origin/6.5.0
            getActivityPushTipsDataListBuilderList() {
         return getActivityPushTipsDataListFieldBuilder().getBuilderList();
       }
@@ -3118,6 +4438,16 @@ public final class ActivityInfoOuterClass {
       public int getWishGiftNumMapCount() {
         return internalGetWishGiftNumMap().getMap().size();
       }
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
+       */
+>>>>>>> origin/6.5.0
 
       @java.lang.Override
       public boolean containsWishGiftNumMap(
@@ -3133,13 +4463,33 @@ public final class ActivityInfoOuterClass {
       public java.util.Map<java.lang.Integer, java.lang.Integer> getWishGiftNumMap() {
         return getWishGiftNumMapMap();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public java.util.Map<java.lang.Integer, java.lang.Integer> getWishGiftNumMapMap() {
         return internalGetWishGiftNumMap().getMap();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public int getWishGiftNumMapOrDefault(
@@ -3150,7 +4500,17 @@ public final class ActivityInfoOuterClass {
             internalGetWishGiftNumMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public int getWishGiftNumMapOrThrow(
@@ -3169,6 +4529,16 @@ public final class ActivityInfoOuterClass {
             .clear();
         return this;
       }
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
+       */
+>>>>>>> origin/6.5.0
 
       public Builder removeWishGiftNumMap(
           int key) {
@@ -3185,7 +4555,17 @@ public final class ActivityInfoOuterClass {
       getMutableWishGiftNumMap() {
         return internalGetMutableWishGiftNumMap().getMutableMap();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder putWishGiftNumMap(
           int key,
           int value) {
@@ -3194,6 +4574,16 @@ public final class ActivityInfoOuterClass {
             .put(key, value);
         return this;
       }
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
+       */
+>>>>>>> origin/6.5.0
 
       public Builder putAllWishGiftNumMap(
           java.util.Map<java.lang.Integer, java.lang.Integer> values) {
@@ -3407,12 +4797,24 @@ public final class ActivityInfoOuterClass {
           bitField0_ |= 0x00000080;
          }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5  
+       * </pre>
+       *
+       * <code>repeated uint32 meet_cond_list = 6;</code>
+       * @return A list containing the meetCondList.
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getMeetCondListList() {
         return ((bitField0_ & 0x00000080) != 0) ?
                  java.util.Collections.unmodifiableList(meetCondList_) : meetCondList_;
       }
+<<<<<<< HEAD
 
       public int getMeetCondListCount() {
         return meetCondList_.size();
@@ -3422,6 +4824,41 @@ public final class ActivityInfoOuterClass {
         return meetCondList_.getInt(index);
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5  
+       * </pre>
+       *
+       * <code>repeated uint32 meet_cond_list = 6;</code>
+       * @return The count of meetCondList.
+       */
+      public int getMeetCondListCount() {
+        return meetCondList_.size();
+      }
+      /**
+       * <pre>
+       *6.5.5  
+       * </pre>
+       *
+       * <code>repeated uint32 meet_cond_list = 6;</code>
+       * @param index The index of the element to return.
+       * @return The meetCondList at the given index.
+       */
+      public int getMeetCondList(int index) {
+        return meetCondList_.getInt(index);
+      }
+      /**
+       * <pre>
+       *6.5.5  
+       * </pre>
+       *
+       * <code>repeated uint32 meet_cond_list = 6;</code>
+       * @param index The index to set the value at.
+       * @param value The meetCondList to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setMeetCondList(
           int index, int value) {
         ensureMeetCondListIsMutable();
@@ -3429,14 +4866,38 @@ public final class ActivityInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5  
+       * </pre>
+       *
+       * <code>repeated uint32 meet_cond_list = 6;</code>
+       * @param value The meetCondList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addMeetCondList(int value) {
         ensureMeetCondListIsMutable();
         meetCondList_.addInt(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5  
+       * </pre>
+       *
+       * <code>repeated uint32 meet_cond_list = 6;</code>
+       * @param values The meetCondList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllMeetCondList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureMeetCondListIsMutable();
@@ -3445,7 +4906,18 @@ public final class ActivityInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5  
+       * </pre>
+       *
+       * <code>repeated uint32 meet_cond_list = 6;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearMeetCondList() {
         meetCondList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000080);
@@ -3575,19 +5047,53 @@ public final class ActivityInfoOuterClass {
       }
 
       private int curScore_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>uint32 cur_score = 1217;</code>
+       * @return The curScore.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCurScore() {
         return curScore_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>uint32 cur_score = 1217;</code>
+       * @param value The curScore to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setCurScore(int value) {
 
         curScore_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>uint32 cur_score = 1217;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearCurScore() {
 
         curScore_ = 0;
@@ -3627,19 +5133,53 @@ public final class ActivityInfoOuterClass {
       }
 
       private int activityId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 activity_id = 4;</code>
+       * @return The activityId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getActivityId() {
         return activityId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 activity_id = 4;</code>
+       * @param value The activityId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setActivityId(int value) {
 
         activityId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 activity_id = 4;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearActivityId() {
 
         activityId_ = 0;
@@ -3679,19 +5219,53 @@ public final class ActivityInfoOuterClass {
       }
 
       private int firstDayStartTime_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0  
+       * </pre>
+       *
+       * <code>uint32 first_day_start_time = 795;</code>
+       * @return The firstDayStartTime.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getFirstDayStartTime() {
         return firstDayStartTime_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0  
+       * </pre>
+       *
+       * <code>uint32 first_day_start_time = 795;</code>
+       * @param value The firstDayStartTime to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setFirstDayStartTime(int value) {
 
         firstDayStartTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0  
+       * </pre>
+       *
+       * <code>uint32 first_day_start_time = 795;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearFirstDayStartTime() {
 
         firstDayStartTime_ = 0;
@@ -3700,19 +5274,53 @@ public final class ActivityInfoOuterClass {
       }
 
       private int scheduleId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 schedule_id = 1;</code>
+       * @return The scheduleId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getScheduleId() {
         return scheduleId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 schedule_id = 1;</code>
+       * @param value The scheduleId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setScheduleId(int value) {
 
         scheduleId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 schedule_id = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearScheduleId() {
 
         scheduleId_ = 0;
@@ -3721,19 +5329,53 @@ public final class ActivityInfoOuterClass {
       }
 
       private int endTime_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 end_time = 5;</code>
+       * @return The endTime.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getEndTime() {
         return endTime_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 end_time = 5;</code>
+       * @param value The endTime to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setEndTime(int value) {
 
         endTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 end_time = 5;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearEndTime() {
 
         endTime_ = 0;
@@ -3742,19 +5384,53 @@ public final class ActivityInfoOuterClass {
       }
 
       private int beginTime_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 begin_time = 2;</code>
+       * @return The beginTime.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getBeginTime() {
         return beginTime_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 begin_time = 2;</code>
+       * @param value The beginTime to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setBeginTime(int value) {
 
         beginTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 begin_time = 2;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearBeginTime() {
 
         beginTime_ = 0;
@@ -3825,19 +5501,53 @@ public final class ActivityInfoOuterClass {
       }
 
       private boolean isFinished_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>bool is_finished = 11;</code>
+       * @return The isFinished.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsFinished() {
         return isFinished_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>bool is_finished = 11;</code>
+       * @param value The isFinished to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setIsFinished(boolean value) {
 
         isFinished_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>bool is_finished = 11;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearIsFinished() {
 
         isFinished_ = false;
@@ -3939,19 +5649,53 @@ public final class ActivityInfoOuterClass {
       }
 
       private int activityType_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0  
+       * </pre>
+       *
+       * <code>uint32 activity_type = 13;</code>
+       * @return The activityType.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getActivityType() {
         return activityType_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0  
+       * </pre>
+       *
+       * <code>uint32 activity_type = 13;</code>
+       * @param value The activityType to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setActivityType(int value) {
 
         activityType_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0  
+       * </pre>
+       *
+       * <code>uint32 activity_type = 13;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearActivityType() {
 
         activityType_ = 0;
@@ -4023,12 +5767,90 @@ public final class ActivityInfoOuterClass {
 
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo, emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.Builder, emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfoOrBuilder> musicGameInfoBuilder_;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+       * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+       * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+       * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+       * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+       * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+       * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+       * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+       * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+       * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+       * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+       * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+       * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+       * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+       * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+       * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+       * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+       * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+       * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+       * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+       * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+       * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+       * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+       * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+       * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+       * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+       * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+       * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+       * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
+       * @return Whether the musicGameInfo field is set.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean hasMusicGameInfo() {
         return detailCase_ == 1472;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+       * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+       * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+       * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+       * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+       * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+       * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+       * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+       * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+       * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+       * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+       * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+       * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+       * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+       * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+       * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+       * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+       * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+       * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+       * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+       * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+       * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+       * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+       * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+       * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+       * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+       * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+       * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+       * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
+       * @return The musicGameInfo.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo getMusicGameInfo() {
         if (musicGameInfoBuilder_ == null) {
@@ -4043,7 +5865,45 @@ public final class ActivityInfoOuterClass {
           return emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.getDefaultInstance();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+       * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+       * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+       * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+       * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+       * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+       * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+       * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+       * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+       * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+       * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+       * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+       * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+       * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+       * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+       * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+       * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+       * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+       * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+       * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+       * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+       * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+       * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+       * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+       * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+       * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+       * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+       * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+       * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setMusicGameInfo(emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo value) {
         if (musicGameInfoBuilder_ == null) {
           if (value == null) {
@@ -4057,7 +5917,45 @@ public final class ActivityInfoOuterClass {
         detailCase_ = 1472;
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+       * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+       * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+       * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+       * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+       * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+       * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+       * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+       * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+       * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+       * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+       * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+       * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+       * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+       * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+       * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+       * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+       * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+       * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+       * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+       * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+       * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+       * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+       * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+       * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+       * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+       * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+       * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+       * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setMusicGameInfo(
           emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.Builder builderForValue) {
         if (musicGameInfoBuilder_ == null) {
@@ -4069,7 +5967,45 @@ public final class ActivityInfoOuterClass {
         detailCase_ = 1472;
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+       * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+       * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+       * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+       * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+       * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+       * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+       * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+       * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+       * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+       * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+       * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+       * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+       * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+       * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+       * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+       * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+       * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+       * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+       * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+       * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+       * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+       * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+       * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+       * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+       * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+       * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+       * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+       * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder mergeMusicGameInfo(emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo value) {
         if (musicGameInfoBuilder_ == null) {
           if (detailCase_ == 1472 &&
@@ -4089,7 +6025,45 @@ public final class ActivityInfoOuterClass {
         detailCase_ = 1472;
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+       * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+       * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+       * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+       * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+       * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+       * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+       * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+       * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+       * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+       * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+       * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+       * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+       * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+       * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+       * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+       * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+       * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+       * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+       * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+       * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+       * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+       * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+       * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+       * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+       * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+       * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+       * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+       * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder clearMusicGameInfo() {
         if (musicGameInfoBuilder_ == null) {
           if (detailCase_ == 1472) {
@@ -4106,11 +6080,87 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
       public emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.Builder getMusicGameInfoBuilder() {
         return getMusicGameInfoFieldBuilder().getBuilder();
       }
 
+=======
+      /**
+       * <pre>
+       * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+       * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+       * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+       * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+       * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+       * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+       * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+       * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+       * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+       * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+       * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+       * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+       * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+       * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+       * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+       * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+       * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+       * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+       * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+       * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+       * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+       * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+       * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+       * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+       * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+       * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+       * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+       * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+       * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
+       */
+      public emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.Builder getMusicGameInfoBuilder() {
+        return getMusicGameInfoFieldBuilder().getBuilder();
+      }
+      /**
+       * <pre>
+       * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+       * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+       * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+       * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+       * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+       * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+       * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+       * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+       * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+       * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+       * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+       * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+       * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+       * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+       * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+       * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+       * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+       * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+       * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+       * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+       * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+       * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+       * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+       * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+       * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+       * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+       * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+       * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+       * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfoOrBuilder getMusicGameInfoOrBuilder() {
         if ((detailCase_ == 1472) && (musicGameInfoBuilder_ != null)) {
@@ -4122,7 +6172,45 @@ public final class ActivityInfoOuterClass {
           return emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.getDefaultInstance();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+       * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+       * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+       * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+       * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+       * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+       * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+       * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+       * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+       * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+       * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+       * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+       * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+       * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+       * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+       * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+       * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+       * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+       * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+       * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+       * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+       * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+       * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+       * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+       * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+       * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+       * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+       * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+       * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
+       */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo, emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.Builder, emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfoOrBuilder>
           getMusicGameInfoFieldBuilder() {
@@ -4144,12 +6232,34 @@ public final class ActivityInfoOuterClass {
 
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo, emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo.Builder, emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfoOrBuilder> bubbleDramaDetailInfoBuilder_;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0
+       * </pre>
+       *
+       * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
+       * @return Whether the bubbleDramaDetailInfo field is set.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean hasBubbleDramaDetailInfo() {
         return detailCase_ == 1117;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0
+       * </pre>
+       *
+       * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
+       * @return The bubbleDramaDetailInfo.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo getBubbleDramaDetailInfo() {
         if (bubbleDramaDetailInfoBuilder_ == null) {
@@ -4164,7 +6274,17 @@ public final class ActivityInfoOuterClass {
           return emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo.getDefaultInstance();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0
+       * </pre>
+       *
+       * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setBubbleDramaDetailInfo(emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo value) {
         if (bubbleDramaDetailInfoBuilder_ == null) {
           if (value == null) {
@@ -4178,7 +6298,17 @@ public final class ActivityInfoOuterClass {
         detailCase_ = 1117;
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0
+       * </pre>
+       *
+       * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setBubbleDramaDetailInfo(
           emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo.Builder builderForValue) {
         if (bubbleDramaDetailInfoBuilder_ == null) {
@@ -4190,7 +6320,17 @@ public final class ActivityInfoOuterClass {
         detailCase_ = 1117;
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0
+       * </pre>
+       *
+       * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder mergeBubbleDramaDetailInfo(emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo value) {
         if (bubbleDramaDetailInfoBuilder_ == null) {
           if (detailCase_ == 1117 &&
@@ -4210,7 +6350,17 @@ public final class ActivityInfoOuterClass {
         detailCase_ = 1117;
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0
+       * </pre>
+       *
+       * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder clearBubbleDramaDetailInfo() {
         if (bubbleDramaDetailInfoBuilder_ == null) {
           if (detailCase_ == 1117) {
@@ -4227,11 +6377,31 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
       public emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo.Builder getBubbleDramaDetailInfoBuilder() {
         return getBubbleDramaDetailInfoFieldBuilder().getBuilder();
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0
+       * </pre>
+       *
+       * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
+       */
+      public emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo.Builder getBubbleDramaDetailInfoBuilder() {
+        return getBubbleDramaDetailInfoFieldBuilder().getBuilder();
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0
+       * </pre>
+       *
+       * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfoOrBuilder getBubbleDramaDetailInfoOrBuilder() {
         if ((detailCase_ == 1117) && (bubbleDramaDetailInfoBuilder_ != null)) {
@@ -4243,7 +6413,17 @@ public final class ActivityInfoOuterClass {
           return emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo.getDefaultInstance();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0
+       * </pre>
+       *
+       * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
+       */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo, emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo.Builder, emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfoOrBuilder>
           getBubbleDramaDetailInfoFieldBuilder() {
@@ -4352,7 +6532,7 @@ public final class ActivityInfoOuterClass {
       "yInfo.WishGiftNumMapEntry\0225\n\026bubble_dram" +
       "a_play_info\030\227\007 \001(\0132\024.BubbleDramaPlayInfo" +
       "\022\024\n\013FLDFIFJDGDB\030\265\002 \003(\r\022\026\n\016meet_cond_list" +
-      "\030\020 \003(\r\022\023\n\013GJLKEBPOEEA\030\033 \003(\004\022\022\n\tcur_score" +
+      "\030\006 \003(\r\022\023\n\013GJLKEBPOEEA\030\033 \003(\004\022\022\n\tcur_score" +
       "\030\301\t \001(\r\022\024\n\013LEOKOPDKDBE\030\314\t \001(\r\022\023\n\013activit" +
       "y_id\030\004 \001(\r\022\024\n\013LFPOBIAKJJN\030\360\017 \001(\004\022\035\n\024firs" +
       "t_day_start_time\030\233\006 \001(\r\022\023\n\013schedule_id\030\001" +

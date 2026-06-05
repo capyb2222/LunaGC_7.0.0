@@ -18,6 +18,17 @@ public final class ToTheMoonEnterSceneReqOuterClass {
       // @@protoc_insertion_point(interface_extends:ToTheMoonEnterSceneReq)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0     
+     * </pre>
+     *
+     * <code>uint32 scene_id = 11;</code>
+     * @return The sceneId.
+     */
+>>>>>>> origin/6.5.0
     int getSceneId();
 
     /**
@@ -32,6 +43,17 @@ public final class ToTheMoonEnterSceneReqOuterClass {
      */
     int getJJDKCJNCKEK();
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0     
+     * </pre>
+     *
+     * <code>uint32 version = 12;</code>
+     * @return The version.
+     */
+>>>>>>> origin/6.5.0
     int getVersion();
   }
   /**
@@ -137,7 +159,18 @@ public final class ToTheMoonEnterSceneReqOuterClass {
 
     public static final int SCENE_ID_FIELD_NUMBER = 7;
     private int sceneId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0     
+     * </pre>
+     *
+     * <code>uint32 scene_id = 11;</code>
+     * @return The sceneId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getSceneId() {
       return sceneId_;
@@ -167,7 +200,18 @@ public final class ToTheMoonEnterSceneReqOuterClass {
 
     public static final int VERSION_FIELD_NUMBER = 9;
     private int version_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0     
+     * </pre>
+     *
+     * <code>uint32 version = 12;</code>
+     * @return The version.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getVersion() {
       return version_;
@@ -531,19 +575,53 @@ public final class ToTheMoonEnterSceneReqOuterClass {
       }
 
       private int sceneId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0     
+       * </pre>
+       *
+       * <code>uint32 scene_id = 11;</code>
+       * @return The sceneId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getSceneId() {
         return sceneId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0     
+       * </pre>
+       *
+       * <code>uint32 scene_id = 11;</code>
+       * @param value The sceneId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setSceneId(int value) {
 
         sceneId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0     
+       * </pre>
+       *
+       * <code>uint32 scene_id = 11;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearSceneId() {
 
         sceneId_ = 0;
@@ -614,19 +692,53 @@ public final class ToTheMoonEnterSceneReqOuterClass {
       }
 
       private int version_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0     
+       * </pre>
+       *
+       * <code>uint32 version = 12;</code>
+       * @return The version.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getVersion() {
         return version_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0     
+       * </pre>
+       *
+       * <code>uint32 version = 12;</code>
+       * @param value The version to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setVersion(int value) {
 
         version_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0     
+       * </pre>
+       *
+       * <code>uint32 version = 12;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearVersion() {
 
         version_ = 0;

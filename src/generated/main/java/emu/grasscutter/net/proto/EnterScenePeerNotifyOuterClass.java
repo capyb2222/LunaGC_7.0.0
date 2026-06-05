@@ -18,12 +18,53 @@ public final class EnterScenePeerNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:EnterScenePeerNotify)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     int getDestSceneId();
 
     int getEnterSceneToken();
 
     int getPeerId();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 dest_scene_id = 15;</code>
+     * @return The destSceneId.
+     */
+    int getDestSceneId();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 enter_scene_token = 2;</code>
+     * @return The enterSceneToken.
+     */
+    int getEnterSceneToken();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 peer_id = 9;</code>
+     * @return The peerId.
+     */
+    int getPeerId();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 host_peer_id = 14;</code>
+     * @return The hostPeerId.
+     */
+>>>>>>> origin/6.5.0
     int getHostPeerId();
   }
   /**
@@ -129,7 +170,18 @@ public final class EnterScenePeerNotifyOuterClass {
 
     public static final int DEST_SCENE_ID_FIELD_NUMBER = 4;
     private int destSceneId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 dest_scene_id = 15;</code>
+     * @return The destSceneId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getDestSceneId() {
       return destSceneId_;
@@ -137,7 +189,18 @@ public final class EnterScenePeerNotifyOuterClass {
 
     public static final int ENTER_SCENE_TOKEN_FIELD_NUMBER = 12;
     private int enterSceneToken_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 enter_scene_token = 2;</code>
+     * @return The enterSceneToken.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getEnterSceneToken() {
       return enterSceneToken_;
@@ -145,7 +208,18 @@ public final class EnterScenePeerNotifyOuterClass {
 
     public static final int PEER_ID_FIELD_NUMBER = 3;
     private int peerId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 peer_id = 9;</code>
+     * @return The peerId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getPeerId() {
       return peerId_;
@@ -153,7 +227,18 @@ public final class EnterScenePeerNotifyOuterClass {
 
     public static final int HOST_PEER_ID_FIELD_NUMBER = 13;
     private int hostPeerId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 host_peer_id = 14;</code>
+     * @return The hostPeerId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getHostPeerId() {
       return hostPeerId_;
@@ -517,19 +602,53 @@ public final class EnterScenePeerNotifyOuterClass {
       }
 
       private int destSceneId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 dest_scene_id = 15;</code>
+       * @return The destSceneId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getDestSceneId() {
         return destSceneId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 dest_scene_id = 15;</code>
+       * @param value The destSceneId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setDestSceneId(int value) {
 
         destSceneId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 dest_scene_id = 15;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearDestSceneId() {
 
         destSceneId_ = 0;
@@ -538,19 +657,53 @@ public final class EnterScenePeerNotifyOuterClass {
       }
 
       private int enterSceneToken_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 enter_scene_token = 2;</code>
+       * @return The enterSceneToken.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getEnterSceneToken() {
         return enterSceneToken_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 enter_scene_token = 2;</code>
+       * @param value The enterSceneToken to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setEnterSceneToken(int value) {
 
         enterSceneToken_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 enter_scene_token = 2;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearEnterSceneToken() {
 
         enterSceneToken_ = 0;
@@ -559,19 +712,53 @@ public final class EnterScenePeerNotifyOuterClass {
       }
 
       private int peerId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 peer_id = 9;</code>
+       * @return The peerId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getPeerId() {
         return peerId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 peer_id = 9;</code>
+       * @param value The peerId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setPeerId(int value) {
 
         peerId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 peer_id = 9;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearPeerId() {
 
         peerId_ = 0;
@@ -580,19 +767,53 @@ public final class EnterScenePeerNotifyOuterClass {
       }
 
       private int hostPeerId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 host_peer_id = 14;</code>
+       * @return The hostPeerId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getHostPeerId() {
         return hostPeerId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 host_peer_id = 14;</code>
+       * @param value The hostPeerId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setHostPeerId(int value) {
 
         hostPeerId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 host_peer_id = 14;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearHostPeerId() {
 
         hostPeerId_ = 0;

@@ -18,10 +18,41 @@ public final class ChangeAvatarRspOuterClass {
       // @@protoc_insertion_point(interface_extends:ChangeAvatarRsp)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     long getCurGuid();
 
     int getSkillId();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint64 cur_guid = 10;</code>
+     * @return The curGuid.
+     */
+    long getCurGuid();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 skill_id = 9;</code>
+     * @return The skillId.
+     */
+    int getSkillId();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>int32 retcode = 6;</code>
+     * @return The retcode.
+     */
+>>>>>>> origin/6.5.0
     int getRetcode();
   }
   /**
@@ -122,7 +153,18 @@ public final class ChangeAvatarRspOuterClass {
 
     public static final int CUR_GUID_FIELD_NUMBER = 14;
     private long curGuid_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint64 cur_guid = 10;</code>
+     * @return The curGuid.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getCurGuid() {
       return curGuid_;
@@ -130,7 +172,18 @@ public final class ChangeAvatarRspOuterClass {
 
     public static final int SKILL_ID_FIELD_NUMBER = 2;
     private int skillId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 skill_id = 9;</code>
+     * @return The skillId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getSkillId() {
       return skillId_;
@@ -138,7 +191,18 @@ public final class ChangeAvatarRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 13;
     private int retcode_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>int32 retcode = 6;</code>
+     * @return The retcode.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -486,19 +550,53 @@ public final class ChangeAvatarRspOuterClass {
       }
 
       private long curGuid_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 cur_guid = 10;</code>
+       * @return The curGuid.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getCurGuid() {
         return curGuid_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 cur_guid = 10;</code>
+       * @param value The curGuid to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setCurGuid(long value) {
 
         curGuid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 cur_guid = 10;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearCurGuid() {
 
         curGuid_ = 0L;
@@ -507,19 +605,53 @@ public final class ChangeAvatarRspOuterClass {
       }
 
       private int skillId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 skill_id = 9;</code>
+       * @return The skillId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getSkillId() {
         return skillId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 skill_id = 9;</code>
+       * @param value The skillId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setSkillId(int value) {
 
         skillId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 skill_id = 9;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearSkillId() {
 
         skillId_ = 0;
@@ -528,19 +660,53 @@ public final class ChangeAvatarRspOuterClass {
       }
 
       private int retcode_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 6;</code>
+       * @return The retcode.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 6;</code>
+       * @param value The retcode to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
 
         retcode_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 6;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearRetcode() {
 
         retcode_ = 0;

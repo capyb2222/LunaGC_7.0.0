@@ -16,10 +16,41 @@ public final class AvatarSatiationDataOuterClass {
 
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     long getAvatarGuid();
 
     float getPenaltyFinishTime();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint64 avatar_guid = 4;</code>
+     * @return The avatarGuid.
+     */
+    long getAvatarGuid();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>float penalty_finish_time = 3;</code>
+     * @return The penaltyFinishTime.
+     */
+    float getPenaltyFinishTime();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>float finish_time = 7;</code>
+     * @return The finishTime.
+     */
+>>>>>>> origin/6.5.0
     float getFinishTime();
   }
 
@@ -114,7 +145,18 @@ public final class AvatarSatiationDataOuterClass {
 
     public static final int AVATAR_GUID_FIELD_NUMBER = 2;
     private long avatarGuid_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint64 avatar_guid = 4;</code>
+     * @return The avatarGuid.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getAvatarGuid() {
       return avatarGuid_;
@@ -122,7 +164,18 @@ public final class AvatarSatiationDataOuterClass {
 
     public static final int PENALTY_FINISH_TIME_FIELD_NUMBER = 10;
     private float penaltyFinishTime_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>float penalty_finish_time = 3;</code>
+     * @return The penaltyFinishTime.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public float getPenaltyFinishTime() {
       return penaltyFinishTime_;
@@ -130,7 +183,18 @@ public final class AvatarSatiationDataOuterClass {
 
     public static final int FINISH_TIME_FIELD_NUMBER = 4;
     private float finishTime_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>float finish_time = 7;</code>
+     * @return The finishTime.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public float getFinishTime() {
       return finishTime_;
@@ -475,19 +539,53 @@ public final class AvatarSatiationDataOuterClass {
       }
 
       private long avatarGuid_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint64 avatar_guid = 4;</code>
+       * @return The avatarGuid.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getAvatarGuid() {
         return avatarGuid_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint64 avatar_guid = 4;</code>
+       * @param value The avatarGuid to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setAvatarGuid(long value) {
 
         avatarGuid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint64 avatar_guid = 4;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearAvatarGuid() {
 
         avatarGuid_ = 0L;
@@ -496,19 +594,53 @@ public final class AvatarSatiationDataOuterClass {
       }
 
       private float penaltyFinishTime_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>float penalty_finish_time = 3;</code>
+       * @return The penaltyFinishTime.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public float getPenaltyFinishTime() {
         return penaltyFinishTime_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>float penalty_finish_time = 3;</code>
+       * @param value The penaltyFinishTime to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setPenaltyFinishTime(float value) {
 
         penaltyFinishTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>float penalty_finish_time = 3;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearPenaltyFinishTime() {
 
         penaltyFinishTime_ = 0F;
@@ -517,19 +649,53 @@ public final class AvatarSatiationDataOuterClass {
       }
 
       private float finishTime_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>float finish_time = 7;</code>
+       * @return The finishTime.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public float getFinishTime() {
         return finishTime_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>float finish_time = 7;</code>
+       * @param value The finishTime to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setFinishTime(float value) {
 
         finishTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>float finish_time = 7;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearFinishTime() {
 
         finishTime_ = 0F;

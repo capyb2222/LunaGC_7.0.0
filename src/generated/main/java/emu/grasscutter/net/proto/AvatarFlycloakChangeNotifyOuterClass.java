@@ -24,6 +24,17 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
      */
     long getAvatarGuid();
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 flycloak_id = 2;</code>
+     * @return The flycloakId.
+     */
+>>>>>>> origin/6.5.0
     int getFlycloakId();
   }
   /**
@@ -130,7 +141,18 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
 
     public static final int FLYCLOAK_ID_FIELD_NUMBER = 11;
     private int flycloakId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 flycloak_id = 2;</code>
+     * @return The flycloakId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getFlycloakId() {
       return flycloakId_;
@@ -492,19 +514,53 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
       }
 
       private int flycloakId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 flycloak_id = 2;</code>
+       * @return The flycloakId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getFlycloakId() {
         return flycloakId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 flycloak_id = 2;</code>
+       * @param value The flycloakId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setFlycloakId(int value) {
 
         flycloakId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 flycloak_id = 2;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearFlycloakId() {
 
         flycloakId_ = 0;

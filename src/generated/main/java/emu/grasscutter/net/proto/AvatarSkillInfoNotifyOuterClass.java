@@ -18,8 +18,26 @@ public final class AvatarSkillInfoNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:AvatarSkillInfoNotify)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     int getSkillMapCount();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
+     */
+    int getSkillMapCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
+     */
+>>>>>>> origin/6.5.0
     boolean containsSkillMap(
         int key);
     /**
@@ -28,17 +46,57 @@ public final class AvatarSkillInfoNotifyOuterClass {
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo>
     getSkillMap();
+<<<<<<< HEAD
 
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo>
     getSkillMapMap();
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
+     */
+    java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo>
+    getSkillMapMap();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
+     */
+>>>>>>> origin/6.5.0
 
     emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo getSkillMapOrDefault(
         int key,
         emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo defaultValue);
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
+     */
+>>>>>>> origin/6.5.0
 
     emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo getSkillMapOrThrow(
         int key);
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint64 guid = 15;</code>
+     * @return The guid.
+     */
+>>>>>>> origin/6.5.0
     long getGuid();
   }
   /**
@@ -179,6 +237,16 @@ public final class AvatarSkillInfoNotifyOuterClass {
     public int getSkillMapCount() {
       return internalGetSkillMap().getMap().size();
     }
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
+     */
+>>>>>>> origin/6.5.0
 
     @java.lang.Override
     public boolean containsSkillMap(
@@ -194,13 +262,33 @@ public final class AvatarSkillInfoNotifyOuterClass {
     public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo> getSkillMap() {
       return getSkillMapMap();
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo> getSkillMapMap() {
       return internalGetSkillMap().getMap();
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo getSkillMapOrDefault(
@@ -211,7 +299,17 @@ public final class AvatarSkillInfoNotifyOuterClass {
           internalGetSkillMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo getSkillMapOrThrow(
@@ -227,7 +325,18 @@ public final class AvatarSkillInfoNotifyOuterClass {
 
     public static final int GUID_FIELD_NUMBER = 15;
     private long guid_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint64 guid = 15;</code>
+     * @return The guid.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getGuid() {
       return guid_;
@@ -617,6 +726,16 @@ public final class AvatarSkillInfoNotifyOuterClass {
       public int getSkillMapCount() {
         return internalGetSkillMap().getMap().size();
       }
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
+       */
+>>>>>>> origin/6.5.0
 
       @java.lang.Override
       public boolean containsSkillMap(
@@ -632,13 +751,33 @@ public final class AvatarSkillInfoNotifyOuterClass {
       public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo> getSkillMap() {
         return getSkillMapMap();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo> getSkillMapMap() {
         return internalGetSkillMap().getMap();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo getSkillMapOrDefault(
@@ -649,7 +788,17 @@ public final class AvatarSkillInfoNotifyOuterClass {
             internalGetSkillMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo getSkillMapOrThrow(
@@ -668,6 +817,16 @@ public final class AvatarSkillInfoNotifyOuterClass {
             .clear();
         return this;
       }
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
+       */
+>>>>>>> origin/6.5.0
 
       public Builder removeSkillMap(
           int key) {
@@ -684,7 +843,17 @@ public final class AvatarSkillInfoNotifyOuterClass {
       getMutableSkillMap() {
         return internalGetMutableSkillMap().getMutableMap();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder putSkillMap(
           int key,
           emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo value) {
@@ -694,6 +863,16 @@ public final class AvatarSkillInfoNotifyOuterClass {
             .put(key, value);
         return this;
       }
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
+       */
+>>>>>>> origin/6.5.0
 
       public Builder putAllSkillMap(
           java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo> values) {
@@ -703,19 +882,53 @@ public final class AvatarSkillInfoNotifyOuterClass {
       }
 
       private long guid_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint64 guid = 15;</code>
+       * @return The guid.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getGuid() {
         return guid_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint64 guid = 15;</code>
+       * @param value The guid to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setGuid(long value) {
 
         guid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint64 guid = 15;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearGuid() {
 
         guid_ = 0L;

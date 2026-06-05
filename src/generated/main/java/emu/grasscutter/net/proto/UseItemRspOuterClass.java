@@ -18,6 +18,7 @@ public final class UseItemRspOuterClass {
       // @@protoc_insertion_point(interface_extends:UseItemRsp)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     int getRetcode();
 
     long getTargetGuid();
@@ -26,6 +27,56 @@ public final class UseItemRspOuterClass {
 
     int getItemId();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>int32 retcode = 12;</code>
+     * @return The retcode.
+     */
+    int getRetcode();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint64 target_guid = 15;</code>
+     * @return The targetGuid.
+     */
+    long getTargetGuid();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint64 guid = 11;</code>
+     * @return The guid.
+     */
+    long getGuid();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 item_id = 5;</code>
+     * @return The itemId.
+     */
+    int getItemId();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 option_idx = 7;</code>
+     * @return The optionIdx.
+     */
+>>>>>>> origin/6.5.0
     int getOptionIdx();
   }
   /**
@@ -136,7 +187,18 @@ public final class UseItemRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 9;
     private int retcode_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>int32 retcode = 12;</code>
+     * @return The retcode.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -144,7 +206,18 @@ public final class UseItemRspOuterClass {
 
     public static final int TARGET_GUID_FIELD_NUMBER = 7;
     private long targetGuid_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint64 target_guid = 15;</code>
+     * @return The targetGuid.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getTargetGuid() {
       return targetGuid_;
@@ -152,7 +225,18 @@ public final class UseItemRspOuterClass {
 
     public static final int GUID_FIELD_NUMBER = 8;
     private long guid_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint64 guid = 11;</code>
+     * @return The guid.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getGuid() {
       return guid_;
@@ -160,7 +244,18 @@ public final class UseItemRspOuterClass {
 
     public static final int ITEM_ID_FIELD_NUMBER = 14;
     private int itemId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 item_id = 5;</code>
+     * @return The itemId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getItemId() {
       return itemId_;
@@ -168,7 +263,18 @@ public final class UseItemRspOuterClass {
 
     public static final int OPTION_IDX_FIELD_NUMBER = 15;
     private int optionIdx_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 option_idx = 7;</code>
+     * @return The optionIdx.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getOptionIdx() {
       return optionIdx_;
@@ -551,19 +657,53 @@ public final class UseItemRspOuterClass {
       }
 
       private int retcode_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 12;</code>
+       * @return The retcode.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 12;</code>
+       * @param value The retcode to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
 
         retcode_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 12;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearRetcode() {
 
         retcode_ = 0;
@@ -572,19 +712,53 @@ public final class UseItemRspOuterClass {
       }
 
       private long targetGuid_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 target_guid = 15;</code>
+       * @return The targetGuid.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getTargetGuid() {
         return targetGuid_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 target_guid = 15;</code>
+       * @param value The targetGuid to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setTargetGuid(long value) {
 
         targetGuid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 target_guid = 15;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearTargetGuid() {
 
         targetGuid_ = 0L;
@@ -593,19 +767,53 @@ public final class UseItemRspOuterClass {
       }
 
       private long guid_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 guid = 11;</code>
+       * @return The guid.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getGuid() {
         return guid_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 guid = 11;</code>
+       * @param value The guid to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setGuid(long value) {
 
         guid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 guid = 11;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearGuid() {
 
         guid_ = 0L;
@@ -614,19 +822,53 @@ public final class UseItemRspOuterClass {
       }
 
       private int itemId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 item_id = 5;</code>
+       * @return The itemId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getItemId() {
         return itemId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 item_id = 5;</code>
+       * @param value The itemId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setItemId(int value) {
 
         itemId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 item_id = 5;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearItemId() {
 
         itemId_ = 0;
@@ -635,19 +877,53 @@ public final class UseItemRspOuterClass {
       }
 
       private int optionIdx_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 option_idx = 7;</code>
+       * @return The optionIdx.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getOptionIdx() {
         return optionIdx_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 option_idx = 7;</code>
+       * @param value The optionIdx to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setOptionIdx(int value) {
 
         optionIdx_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 option_idx = 7;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearOptionIdx() {
 
         optionIdx_ = 0;

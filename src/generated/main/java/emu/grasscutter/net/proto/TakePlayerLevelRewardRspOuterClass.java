@@ -18,10 +18,41 @@ public final class TakePlayerLevelRewardRspOuterClass {
       // @@protoc_insertion_point(interface_extends:TakePlayerLevelRewardRsp)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     int getRewardId();
 
     int getRetcode();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 reward_id = 9;</code>
+     * @return The rewardId.
+     */
+    int getRewardId();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>int32 retcode = 15;</code>
+     * @return The retcode.
+     */
+    int getRetcode();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 level = 2;</code>
+     * @return The level.
+     */
+>>>>>>> origin/6.5.0
     int getLevel();
   }
   /**
@@ -122,7 +153,18 @@ public final class TakePlayerLevelRewardRspOuterClass {
 
     public static final int REWARD_ID_FIELD_NUMBER = 13;
     private int rewardId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 reward_id = 9;</code>
+     * @return The rewardId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRewardId() {
       return rewardId_;
@@ -130,7 +172,18 @@ public final class TakePlayerLevelRewardRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 11;
     private int retcode_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>int32 retcode = 15;</code>
+     * @return The retcode.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -138,7 +191,18 @@ public final class TakePlayerLevelRewardRspOuterClass {
 
     public static final int LEVEL_FIELD_NUMBER = 5;
     private int level_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 level = 2;</code>
+     * @return The level.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getLevel() {
       return level_;
@@ -485,19 +549,53 @@ public final class TakePlayerLevelRewardRspOuterClass {
       }
 
       private int rewardId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 reward_id = 9;</code>
+       * @return The rewardId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRewardId() {
         return rewardId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 reward_id = 9;</code>
+       * @param value The rewardId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setRewardId(int value) {
 
         rewardId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 reward_id = 9;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearRewardId() {
 
         rewardId_ = 0;
@@ -506,19 +604,53 @@ public final class TakePlayerLevelRewardRspOuterClass {
       }
 
       private int retcode_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 15;</code>
+       * @return The retcode.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 15;</code>
+       * @param value The retcode to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
 
         retcode_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 15;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearRetcode() {
 
         retcode_ = 0;
@@ -527,19 +659,53 @@ public final class TakePlayerLevelRewardRspOuterClass {
       }
 
       private int level_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 level = 2;</code>
+       * @return The level.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getLevel() {
         return level_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 level = 2;</code>
+       * @param value The level to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setLevel(int value) {
 
         level_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 level = 2;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearLevel() {
 
         level_ = 0;

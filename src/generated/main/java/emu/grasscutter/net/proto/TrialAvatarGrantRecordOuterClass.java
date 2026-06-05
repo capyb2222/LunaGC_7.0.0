@@ -18,8 +18,29 @@ public final class TrialAvatarGrantRecordOuterClass {
       // @@protoc_insertion_point(interface_extends:TrialAvatarGrantRecord)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     int getFromParentQuestId();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 from_parent_quest_id = 2;</code>
+     * @return The fromParentQuestId.
+     */
+    int getFromParentQuestId();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 grant_reason = 1;</code>
+     * @return The grantReason.
+     */
+>>>>>>> origin/6.5.0
     int getGrantReason();
   }
   /**
@@ -111,7 +132,18 @@ public final class TrialAvatarGrantRecordOuterClass {
 
     public static final int FROM_PARENT_QUEST_ID_FIELD_NUMBER = 2;
     private int fromParentQuestId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 from_parent_quest_id = 2;</code>
+     * @return The fromParentQuestId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getFromParentQuestId() {
       return fromParentQuestId_;
@@ -119,7 +151,18 @@ public final class TrialAvatarGrantRecordOuterClass {
 
     public static final int GRANT_REASON_FIELD_NUMBER = 1;
     private int grantReason_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 grant_reason = 1;</code>
+     * @return The grantReason.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getGrantReason() {
       return grantReason_;
@@ -445,19 +488,53 @@ public final class TrialAvatarGrantRecordOuterClass {
       }
 
       private int fromParentQuestId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 from_parent_quest_id = 2;</code>
+       * @return The fromParentQuestId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getFromParentQuestId() {
         return fromParentQuestId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 from_parent_quest_id = 2;</code>
+       * @param value The fromParentQuestId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setFromParentQuestId(int value) {
 
         fromParentQuestId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 from_parent_quest_id = 2;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearFromParentQuestId() {
 
         fromParentQuestId_ = 0;
@@ -466,19 +543,53 @@ public final class TrialAvatarGrantRecordOuterClass {
       }
 
       private int grantReason_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 grant_reason = 1;</code>
+       * @return The grantReason.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getGrantReason() {
         return grantReason_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 grant_reason = 1;</code>
+       * @param value The grantReason to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setGrantReason(int value) {
 
         grantReason_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 grant_reason = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearGrantReason() {
 
         grantReason_ = 0;

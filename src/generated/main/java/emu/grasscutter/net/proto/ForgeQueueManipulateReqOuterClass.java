@@ -18,10 +18,40 @@ public final class ForgeQueueManipulateReqOuterClass {
       // @@protoc_insertion_point(interface_extends:ForgeQueueManipulateReq)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     int getForgeQueueId();
 
     int getManipulateTypeValue();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 forge_queue_id = 15;</code>
+     * @return The forgeQueueId.
+     */
+    int getForgeQueueId();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.ForgeQueueManipulateType manipulate_type = 13;</code>
+     * @return The enum numeric value on the wire for manipulateType.
+     */
+    int getManipulateTypeValue();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.ForgeQueueManipulateType manipulate_type = 13;</code>
+     * @return The manipulateType.
+     */
+>>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.ForgeQueueManipulateTypeOuterClass.ForgeQueueManipulateType getManipulateType();
   }
   /**
@@ -119,7 +149,18 @@ public final class ForgeQueueManipulateReqOuterClass {
 
     public static final int FORGE_QUEUE_ID_FIELD_NUMBER = 15;
     private int forgeQueueId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 forge_queue_id = 15;</code>
+     * @return The forgeQueueId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getForgeQueueId() {
       return forgeQueueId_;
@@ -127,11 +168,33 @@ public final class ForgeQueueManipulateReqOuterClass {
 
     public static final int MANIPULATE_TYPE_FIELD_NUMBER = 14;
     private int manipulateType_;
+<<<<<<< HEAD
 
     @java.lang.Override public int getManipulateTypeValue() {
       return manipulateType_;
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.ForgeQueueManipulateType manipulate_type = 13;</code>
+     * @return The enum numeric value on the wire for manipulateType.
+     */
+    @java.lang.Override public int getManipulateTypeValue() {
+      return manipulateType_;
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.ForgeQueueManipulateType manipulate_type = 13;</code>
+     * @return The manipulateType.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override public emu.grasscutter.net.proto.ForgeQueueManipulateTypeOuterClass.ForgeQueueManipulateType getManipulateType() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.ForgeQueueManipulateTypeOuterClass.ForgeQueueManipulateType result = emu.grasscutter.net.proto.ForgeQueueManipulateTypeOuterClass.ForgeQueueManipulateType.valueOf(manipulateType_);
@@ -461,19 +524,53 @@ public final class ForgeQueueManipulateReqOuterClass {
       }
 
       private int forgeQueueId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 forge_queue_id = 15;</code>
+       * @return The forgeQueueId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getForgeQueueId() {
         return forgeQueueId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 forge_queue_id = 15;</code>
+       * @param value The forgeQueueId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setForgeQueueId(int value) {
 
         forgeQueueId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 forge_queue_id = 15;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearForgeQueueId() {
 
         forgeQueueId_ = 0;
@@ -482,25 +579,71 @@ public final class ForgeQueueManipulateReqOuterClass {
       }
 
       private int manipulateType_ = 0;
+<<<<<<< HEAD
 
       @java.lang.Override public int getManipulateTypeValue() {
         return manipulateType_;
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.ForgeQueueManipulateType manipulate_type = 13;</code>
+       * @return The enum numeric value on the wire for manipulateType.
+       */
+      @java.lang.Override public int getManipulateTypeValue() {
+        return manipulateType_;
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.ForgeQueueManipulateType manipulate_type = 13;</code>
+       * @param value The enum numeric value on the wire for manipulateType to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setManipulateTypeValue(int value) {
 
         manipulateType_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.ForgeQueueManipulateType manipulate_type = 13;</code>
+       * @return The manipulateType.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.ForgeQueueManipulateTypeOuterClass.ForgeQueueManipulateType getManipulateType() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.ForgeQueueManipulateTypeOuterClass.ForgeQueueManipulateType result = emu.grasscutter.net.proto.ForgeQueueManipulateTypeOuterClass.ForgeQueueManipulateType.valueOf(manipulateType_);
         return result == null ? emu.grasscutter.net.proto.ForgeQueueManipulateTypeOuterClass.ForgeQueueManipulateType.UNRECOGNIZED : result;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.ForgeQueueManipulateType manipulate_type = 13;</code>
+       * @param value The manipulateType to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setManipulateType(emu.grasscutter.net.proto.ForgeQueueManipulateTypeOuterClass.ForgeQueueManipulateType value) {
         if (value == null) {
           throw new NullPointerException();
@@ -510,7 +653,18 @@ public final class ForgeQueueManipulateReqOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.ForgeQueueManipulateType manipulate_type = 13;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearManipulateType() {
 
         manipulateType_ = 0;

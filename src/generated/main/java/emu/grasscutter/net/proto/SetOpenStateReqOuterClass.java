@@ -16,8 +16,29 @@ public final class SetOpenStateReqOuterClass {
 
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     int getKey();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 key = 9;</code>
+     * @return The key.
+     */
+    int getKey();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 value = 14;</code>
+     * @return The value.
+     */
+>>>>>>> origin/6.5.0
     int getValue();
   }
 
@@ -107,7 +128,18 @@ public final class SetOpenStateReqOuterClass {
 
     public static final int KEY_FIELD_NUMBER = 9;
     private int key_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 key = 9;</code>
+     * @return The key.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getKey() {
       return key_;
@@ -115,7 +147,18 @@ public final class SetOpenStateReqOuterClass {
 
     public static final int VALUE_FIELD_NUMBER = 14;
     private int value_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 value = 14;</code>
+     * @return The value.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getValue() {
       return value_;
@@ -438,19 +481,53 @@ public final class SetOpenStateReqOuterClass {
       }
 
       private int key_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 key = 9;</code>
+       * @return The key.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getKey() {
         return key_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 key = 9;</code>
+       * @param value The key to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setKey(int value) {
 
         key_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 key = 9;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearKey() {
 
         key_ = 0;
@@ -459,19 +536,53 @@ public final class SetOpenStateReqOuterClass {
       }
 
       private int value_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 value = 14;</code>
+       * @return The value.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getValue() {
         return value_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 value = 14;</code>
+       * @param value The value to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setValue(int value) {
 
         value_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 value = 14;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearValue() {
 
         value_ = 0;

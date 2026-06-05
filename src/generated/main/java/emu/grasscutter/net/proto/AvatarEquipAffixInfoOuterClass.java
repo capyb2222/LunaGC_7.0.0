@@ -18,8 +18,29 @@ public final class AvatarEquipAffixInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:AvatarEquipAffixInfo)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     int getLeftCdTime();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 left_cd_time = 2;</code>
+     * @return The leftCdTime.
+     */
+    int getLeftCdTime();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 equip_affix_id = 1;</code>
+     * @return The equipAffixId.
+     */
+>>>>>>> origin/6.5.0
     int getEquipAffixId();
   }
   /**
@@ -111,7 +132,18 @@ public final class AvatarEquipAffixInfoOuterClass {
 
     public static final int LEFT_CD_TIME_FIELD_NUMBER = 2;
     private int leftCdTime_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 left_cd_time = 2;</code>
+     * @return The leftCdTime.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getLeftCdTime() {
       return leftCdTime_;
@@ -119,7 +151,18 @@ public final class AvatarEquipAffixInfoOuterClass {
 
     public static final int EQUIP_AFFIX_ID_FIELD_NUMBER = 1;
     private int equipAffixId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 equip_affix_id = 1;</code>
+     * @return The equipAffixId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getEquipAffixId() {
       return equipAffixId_;
@@ -445,19 +488,53 @@ public final class AvatarEquipAffixInfoOuterClass {
       }
 
       private int leftCdTime_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 left_cd_time = 2;</code>
+       * @return The leftCdTime.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getLeftCdTime() {
         return leftCdTime_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 left_cd_time = 2;</code>
+       * @param value The leftCdTime to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setLeftCdTime(int value) {
 
         leftCdTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 left_cd_time = 2;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearLeftCdTime() {
 
         leftCdTime_ = 0;
@@ -466,19 +543,53 @@ public final class AvatarEquipAffixInfoOuterClass {
       }
 
       private int equipAffixId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 equip_affix_id = 1;</code>
+       * @return The equipAffixId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getEquipAffixId() {
         return equipAffixId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 equip_affix_id = 1;</code>
+       * @param value The equipAffixId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setEquipAffixId(int value) {
 
         equipAffixId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 equip_affix_id = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearEquipAffixId() {
 
         equipAffixId_ = 0;

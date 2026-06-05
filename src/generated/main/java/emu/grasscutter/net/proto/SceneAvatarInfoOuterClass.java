@@ -18,8 +18,26 @@ public final class SceneAvatarInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:SceneAvatarInfo)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     int getSkillLevelMapCount();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
+     */
+    int getSkillLevelMapCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
+     */
+>>>>>>> origin/6.5.0
     boolean containsSkillLevelMap(
         int key);
     /**
@@ -28,17 +46,47 @@ public final class SceneAvatarInfoOuterClass {
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getSkillLevelMap();
+<<<<<<< HEAD
 
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getSkillLevelMapMap();
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
+     */
+    java.util.Map<java.lang.Integer, java.lang.Integer>
+    getSkillLevelMapMap();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
+     */
+>>>>>>> origin/6.5.0
 
     int getSkillLevelMapOrDefault(
         int key,
         int defaultValue);
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
+     */
+>>>>>>> origin/6.5.0
 
     int getSkillLevelMapOrThrow(
         int key);
 
+<<<<<<< HEAD
     java.util.List<java.lang.Integer> getEquipIdListList();
 
     int getEquipIdListCount();
@@ -84,6 +132,208 @@ public final class SceneAvatarInfoOuterClass {
 
     int getProudSkillExtraLevelMapCount();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 equip_id_list = 5;</code>
+     * @return A list containing the equipIdList.
+     */
+    java.util.List<java.lang.Integer> getEquipIdListList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 equip_id_list = 5;</code>
+     * @return The count of equipIdList.
+     */
+    int getEquipIdListCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 equip_id_list = 5;</code>
+     * @param index The index of the element to return.
+     * @return The equipIdList at the given index.
+     */
+    int getEquipIdList(int index);
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
+     * @return Whether the curVehicleInfo field is set.
+     */
+    boolean hasCurVehicleInfo();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
+     * @return The curVehicleInfo.
+     */
+    emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo getCurVehicleInfo();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
+     */
+    emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfoOrBuilder getCurVehicleInfoOrBuilder();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 talent_id_list = 7;</code>
+     * @return A list containing the talentIdList.
+     */
+    java.util.List<java.lang.Integer> getTalentIdListList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 talent_id_list = 7;</code>
+     * @return The count of talentIdList.
+     */
+    int getTalentIdListCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 talent_id_list = 7;</code>
+     * @param index The index of the element to return.
+     * @return The talentIdList at the given index.
+     */
+    int getTalentIdList(int index);
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .ServerBuff server_buff_list = 15;</code>
+     */
+    java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff> 
+        getServerBuffListList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .ServerBuff server_buff_list = 15;</code>
+     */
+    emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff getServerBuffList(int index);
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .ServerBuff server_buff_list = 15;</code>
+     */
+    int getServerBuffListCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .ServerBuff server_buff_list = 15;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder> 
+        getServerBuffListOrBuilderList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .ServerBuff server_buff_list = 15;</code>
+     */
+    emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder getServerBuffListOrBuilder(
+        int index);
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 team_resonance_list = 16;</code>
+     * @return A list containing the teamResonanceList.
+     */
+    java.util.List<java.lang.Integer> getTeamResonanceListList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 team_resonance_list = 16;</code>
+     * @return The count of teamResonanceList.
+     */
+    int getTeamResonanceListCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 team_resonance_list = 16;</code>
+     * @param index The index of the element to return.
+     * @return The teamResonanceList at the given index.
+     */
+    int getTeamResonanceList(int index);
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.AvatarExcelInfo excel_info = 21;</code>
+     * @return Whether the excelInfo field is set.
+     */
+    boolean hasExcelInfo();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.AvatarExcelInfo excel_info = 21;</code>
+     * @return The excelInfo.
+     */
+    emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo getExcelInfo();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.AvatarExcelInfo excel_info = 21;</code>
+     */
+    emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfoOrBuilder getExcelInfoOrBuilder();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
+     */
+    int getProudSkillExtraLevelMapCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
+     */
+>>>>>>> origin/6.5.0
     boolean containsProudSkillExtraLevelMap(
         int key);
     /**
@@ -92,17 +342,47 @@ public final class SceneAvatarInfoOuterClass {
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getProudSkillExtraLevelMap();
+<<<<<<< HEAD
 
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getProudSkillExtraLevelMapMap();
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
+     */
+    java.util.Map<java.lang.Integer, java.lang.Integer>
+    getProudSkillExtraLevelMapMap();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
+     */
+>>>>>>> origin/6.5.0
 
     int getProudSkillExtraLevelMapOrDefault(
         int key,
         int defaultValue);
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
+     */
+>>>>>>> origin/6.5.0
 
     int getProudSkillExtraLevelMapOrThrow(
         int key);
 
+<<<<<<< HEAD
     boolean hasWeapon();
 
     emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo getWeapon();
@@ -128,10 +408,121 @@ public final class SceneAvatarInfoOuterClass {
     emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfoOrBuilder getReliquaryListOrBuilder(
         int index);
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.SceneWeaponInfo weapon = 8;</code>
+     * @return Whether the weapon field is set.
+     */
+    boolean hasWeapon();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.SceneWeaponInfo weapon = 8;</code>
+     * @return The weapon.
+     */
+    emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo getWeapon();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.SceneWeaponInfo weapon = 8;</code>
+     */
+    emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder getWeaponOrBuilder();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 inherent_proud_skill_list = 12;</code>
+     * @return A list containing the inherentProudSkillList.
+     */
+    java.util.List<java.lang.Integer> getInherentProudSkillListList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 inherent_proud_skill_list = 12;</code>
+     * @return The count of inherentProudSkillList.
+     */
+    int getInherentProudSkillListCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 inherent_proud_skill_list = 12;</code>
+     * @param index The index of the element to return.
+     * @return The inherentProudSkillList at the given index.
+     */
+    int getInherentProudSkillList(int index);
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
+     */
+    java.util.List<emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo> 
+        getReliquaryListList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
+     */
+    emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo getReliquaryList(int index);
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
+     */
+    int getReliquaryListCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfoOrBuilder> 
+        getReliquaryListOrBuilderList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
+     */
+    emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfoOrBuilder getReliquaryListOrBuilder(
+        int index);
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 avatar_id = 2;</code>
+     * @return The avatarId.
+     */
+>>>>>>> origin/6.5.0
     int getAvatarId();
 
     int getTraceEffectId();
 
+<<<<<<< HEAD
     int getCoreProudSkillLevel();
 
     int getWearingFlycloakId();
@@ -148,6 +539,96 @@ public final class SceneAvatarInfoOuterClass {
 
     int getSkillDepotId();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 core_proud_skill_level = 11;</code>
+     * @return The coreProudSkillLevel.
+     */
+    int getCoreProudSkillLevel();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 wearing_flycloak_id = 17;</code>
+     * @return The wearingFlycloakId.
+     */
+    int getWearingFlycloakId();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 anim_hash = 22;</code>
+     * @return The animHash.
+     */
+    int getAnimHash();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 costume_id = 19;</code>
+     * @return The costumeId.
+     */
+    int getCostumeId();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 peer_id = 4;</code>
+     * @return The peerId.
+     */
+    int getPeerId();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 born_time = 18;</code>
+     * @return The bornTime.
+     */
+    int getBornTime();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 uid = 1;</code>
+     * @return The uid.
+     */
+    int getUid();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 skill_depot_id = 6;</code>
+     * @return The skillDepotId.
+     */
+    int getSkillDepotId();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint64 guid = 3;</code>
+     * @return The guid.
+     */
+>>>>>>> origin/6.5.0
     long getGuid();
 
     /**
@@ -590,6 +1071,16 @@ public final class SceneAvatarInfoOuterClass {
     public int getSkillLevelMapCount() {
       return internalGetSkillLevelMap().getMap().size();
     }
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
+     */
+>>>>>>> origin/6.5.0
 
     @java.lang.Override
     public boolean containsSkillLevelMap(
@@ -605,13 +1096,33 @@ public final class SceneAvatarInfoOuterClass {
     public java.util.Map<java.lang.Integer, java.lang.Integer> getSkillLevelMap() {
       return getSkillLevelMapMap();
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public java.util.Map<java.lang.Integer, java.lang.Integer> getSkillLevelMapMap() {
       return internalGetSkillLevelMap().getMap();
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public int getSkillLevelMapOrDefault(
@@ -622,7 +1133,17 @@ public final class SceneAvatarInfoOuterClass {
           internalGetSkillLevelMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public int getSkillLevelMapOrThrow(
@@ -638,17 +1159,51 @@ public final class SceneAvatarInfoOuterClass {
 
     public static final int EQUIP_ID_LIST_FIELD_NUMBER = 5;
     private com.google.protobuf.Internal.IntList equipIdList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 equip_id_list = 5;</code>
+     * @return A list containing the equipIdList.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getEquipIdListList() {
       return equipIdList_;
     }
+<<<<<<< HEAD
 
     public int getEquipIdListCount() {
       return equipIdList_.size();
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 equip_id_list = 5;</code>
+     * @return The count of equipIdList.
+     */
+    public int getEquipIdListCount() {
+      return equipIdList_.size();
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 equip_id_list = 5;</code>
+     * @param index The index of the element to return.
+     * @return The equipIdList at the given index.
+     */
+>>>>>>> origin/6.5.0
     public int getEquipIdList(int index) {
       return equipIdList_.getInt(index);
     }
@@ -656,17 +1211,49 @@ public final class SceneAvatarInfoOuterClass {
 
     public static final int CUR_VEHICLE_INFO_FIELD_NUMBER = 20;
     private emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo curVehicleInfo_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
+     * @return Whether the curVehicleInfo field is set.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasCurVehicleInfo() {
       return curVehicleInfo_ != null;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
+     * @return The curVehicleInfo.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo getCurVehicleInfo() {
       return curVehicleInfo_ == null ? emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo.getDefaultInstance() : curVehicleInfo_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfoOrBuilder getCurVehicleInfoOrBuilder() {
       return getCurVehicleInfo();
@@ -674,17 +1261,51 @@ public final class SceneAvatarInfoOuterClass {
 
     public static final int TALENT_ID_LIST_FIELD_NUMBER = 7;
     private com.google.protobuf.Internal.IntList talentIdList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 talent_id_list = 7;</code>
+     * @return A list containing the talentIdList.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getTalentIdListList() {
       return talentIdList_;
     }
+<<<<<<< HEAD
 
     public int getTalentIdListCount() {
       return talentIdList_.size();
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 talent_id_list = 7;</code>
+     * @return The count of talentIdList.
+     */
+    public int getTalentIdListCount() {
+      return talentIdList_.size();
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 talent_id_list = 7;</code>
+     * @param index The index of the element to return.
+     * @return The talentIdList at the given index.
+     */
+>>>>>>> origin/6.5.0
     public int getTalentIdList(int index) {
       return talentIdList_.getInt(index);
     }
@@ -692,28 +1313,78 @@ public final class SceneAvatarInfoOuterClass {
 
     public static final int SERVER_BUFF_LIST_FIELD_NUMBER = 15;
     private java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff> serverBuffList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .ServerBuff server_buff_list = 15;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff> getServerBuffListList() {
       return serverBuffList_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .ServerBuff server_buff_list = 15;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder>
         getServerBuffListOrBuilderList() {
       return serverBuffList_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .ServerBuff server_buff_list = 15;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getServerBuffListCount() {
       return serverBuffList_.size();
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .ServerBuff server_buff_list = 15;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff getServerBuffList(int index) {
       return serverBuffList_.get(index);
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .ServerBuff server_buff_list = 15;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder getServerBuffListOrBuilder(
         int index) {
@@ -722,17 +1393,51 @@ public final class SceneAvatarInfoOuterClass {
 
     public static final int TEAM_RESONANCE_LIST_FIELD_NUMBER = 16;
     private com.google.protobuf.Internal.IntList teamResonanceList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 team_resonance_list = 16;</code>
+     * @return A list containing the teamResonanceList.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getTeamResonanceListList() {
       return teamResonanceList_;
     }
+<<<<<<< HEAD
 
     public int getTeamResonanceListCount() {
       return teamResonanceList_.size();
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 team_resonance_list = 16;</code>
+     * @return The count of teamResonanceList.
+     */
+    public int getTeamResonanceListCount() {
+      return teamResonanceList_.size();
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 team_resonance_list = 16;</code>
+     * @param index The index of the element to return.
+     * @return The teamResonanceList at the given index.
+     */
+>>>>>>> origin/6.5.0
     public int getTeamResonanceList(int index) {
       return teamResonanceList_.getInt(index);
     }
@@ -740,17 +1445,49 @@ public final class SceneAvatarInfoOuterClass {
 
     public static final int EXCEL_INFO_FIELD_NUMBER = 21;
     private emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo excelInfo_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.AvatarExcelInfo excel_info = 21;</code>
+     * @return Whether the excelInfo field is set.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasExcelInfo() {
       return excelInfo_ != null;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.AvatarExcelInfo excel_info = 21;</code>
+     * @return The excelInfo.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo getExcelInfo() {
       return excelInfo_ == null ? emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo.getDefaultInstance() : excelInfo_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.AvatarExcelInfo excel_info = 21;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfoOrBuilder getExcelInfoOrBuilder() {
       return getExcelInfo();
@@ -782,6 +1519,16 @@ public final class SceneAvatarInfoOuterClass {
     public int getProudSkillExtraLevelMapCount() {
       return internalGetProudSkillExtraLevelMap().getMap().size();
     }
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
+     */
+>>>>>>> origin/6.5.0
 
     @java.lang.Override
     public boolean containsProudSkillExtraLevelMap(
@@ -797,13 +1544,33 @@ public final class SceneAvatarInfoOuterClass {
     public java.util.Map<java.lang.Integer, java.lang.Integer> getProudSkillExtraLevelMap() {
       return getProudSkillExtraLevelMapMap();
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public java.util.Map<java.lang.Integer, java.lang.Integer> getProudSkillExtraLevelMapMap() {
       return internalGetProudSkillExtraLevelMap().getMap();
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public int getProudSkillExtraLevelMapOrDefault(
@@ -814,7 +1581,17 @@ public final class SceneAvatarInfoOuterClass {
           internalGetProudSkillExtraLevelMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public int getProudSkillExtraLevelMapOrThrow(
@@ -830,17 +1607,49 @@ public final class SceneAvatarInfoOuterClass {
 
     public static final int WEAPON_FIELD_NUMBER = 8;
     private emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo weapon_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.SceneWeaponInfo weapon = 8;</code>
+     * @return Whether the weapon field is set.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasWeapon() {
       return weapon_ != null;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.SceneWeaponInfo weapon = 8;</code>
+     * @return The weapon.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo getWeapon() {
       return weapon_ == null ? emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.getDefaultInstance() : weapon_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.SceneWeaponInfo weapon = 8;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder getWeaponOrBuilder() {
       return getWeapon();
@@ -848,17 +1657,51 @@ public final class SceneAvatarInfoOuterClass {
 
     public static final int INHERENT_PROUD_SKILL_LIST_FIELD_NUMBER = 12;
     private com.google.protobuf.Internal.IntList inherentProudSkillList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 inherent_proud_skill_list = 12;</code>
+     * @return A list containing the inherentProudSkillList.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getInherentProudSkillListList() {
       return inherentProudSkillList_;
     }
+<<<<<<< HEAD
 
     public int getInherentProudSkillListCount() {
       return inherentProudSkillList_.size();
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 inherent_proud_skill_list = 12;</code>
+     * @return The count of inherentProudSkillList.
+     */
+    public int getInherentProudSkillListCount() {
+      return inherentProudSkillList_.size();
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>repeated uint32 inherent_proud_skill_list = 12;</code>
+     * @param index The index of the element to return.
+     * @return The inherentProudSkillList at the given index.
+     */
+>>>>>>> origin/6.5.0
     public int getInherentProudSkillList(int index) {
       return inherentProudSkillList_.getInt(index);
     }
@@ -866,28 +1709,78 @@ public final class SceneAvatarInfoOuterClass {
 
     public static final int RELIQUARY_LIST_FIELD_NUMBER = 9;
     private java.util.List<emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo> reliquaryList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo> getReliquaryListList() {
       return reliquaryList_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfoOrBuilder>
         getReliquaryListOrBuilderList() {
       return reliquaryList_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getReliquaryListCount() {
       return reliquaryList_.size();
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo getReliquaryList(int index) {
       return reliquaryList_.get(index);
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfoOrBuilder getReliquaryListOrBuilder(
         int index) {
@@ -896,7 +1789,18 @@ public final class SceneAvatarInfoOuterClass {
 
     public static final int AVATAR_ID_FIELD_NUMBER = 2;
     private int avatarId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 avatar_id = 2;</code>
+     * @return The avatarId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getAvatarId() {
       return avatarId_;
@@ -912,7 +1816,18 @@ public final class SceneAvatarInfoOuterClass {
 
     public static final int CORE_PROUD_SKILL_LEVEL_FIELD_NUMBER = 11;
     private int coreProudSkillLevel_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 core_proud_skill_level = 11;</code>
+     * @return The coreProudSkillLevel.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCoreProudSkillLevel() {
       return coreProudSkillLevel_;
@@ -920,7 +1835,18 @@ public final class SceneAvatarInfoOuterClass {
 
     public static final int WEARING_FLYCLOAK_ID_FIELD_NUMBER = 17;
     private int wearingFlycloakId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 wearing_flycloak_id = 17;</code>
+     * @return The wearingFlycloakId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getWearingFlycloakId() {
       return wearingFlycloakId_;
@@ -928,7 +1854,18 @@ public final class SceneAvatarInfoOuterClass {
 
     public static final int ANIM_HASH_FIELD_NUMBER = 22;
     private int animHash_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 anim_hash = 22;</code>
+     * @return The animHash.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getAnimHash() {
       return animHash_;
@@ -936,7 +1873,18 @@ public final class SceneAvatarInfoOuterClass {
 
     public static final int COSTUME_ID_FIELD_NUMBER = 19;
     private int costumeId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 costume_id = 19;</code>
+     * @return The costumeId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCostumeId() {
       return costumeId_;
@@ -944,7 +1892,18 @@ public final class SceneAvatarInfoOuterClass {
 
     public static final int PEER_ID_FIELD_NUMBER = 4;
     private int peerId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 peer_id = 4;</code>
+     * @return The peerId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getPeerId() {
       return peerId_;
@@ -952,7 +1911,18 @@ public final class SceneAvatarInfoOuterClass {
 
     public static final int BORN_TIME_FIELD_NUMBER = 18;
     private int bornTime_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 born_time = 18;</code>
+     * @return The bornTime.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getBornTime() {
       return bornTime_;
@@ -960,7 +1930,18 @@ public final class SceneAvatarInfoOuterClass {
 
     public static final int UID_FIELD_NUMBER = 1;
     private int uid_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 uid = 1;</code>
+     * @return The uid.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getUid() {
       return uid_;
@@ -968,7 +1949,18 @@ public final class SceneAvatarInfoOuterClass {
 
     public static final int SKILL_DEPOT_ID_FIELD_NUMBER = 6;
     private int skillDepotId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 skill_depot_id = 6;</code>
+     * @return The skillDepotId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getSkillDepotId() {
       return skillDepotId_;
@@ -976,7 +1968,18 @@ public final class SceneAvatarInfoOuterClass {
 
     public static final int GUID_FIELD_NUMBER = 3;
     private long guid_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint64 guid = 3;</code>
+     * @return The guid.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getGuid() {
       return guid_;
@@ -2119,6 +3122,16 @@ public final class SceneAvatarInfoOuterClass {
       public int getSkillLevelMapCount() {
         return internalGetSkillLevelMap().getMap().size();
       }
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
+       */
+>>>>>>> origin/6.5.0
 
       @java.lang.Override
       public boolean containsSkillLevelMap(
@@ -2134,13 +3147,33 @@ public final class SceneAvatarInfoOuterClass {
       public java.util.Map<java.lang.Integer, java.lang.Integer> getSkillLevelMap() {
         return getSkillLevelMapMap();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public java.util.Map<java.lang.Integer, java.lang.Integer> getSkillLevelMapMap() {
         return internalGetSkillLevelMap().getMap();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public int getSkillLevelMapOrDefault(
@@ -2151,7 +3184,17 @@ public final class SceneAvatarInfoOuterClass {
             internalGetSkillLevelMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public int getSkillLevelMapOrThrow(
@@ -2170,6 +3213,16 @@ public final class SceneAvatarInfoOuterClass {
             .clear();
         return this;
       }
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
+       */
+>>>>>>> origin/6.5.0
 
       public Builder removeSkillLevelMap(
           int key) {
@@ -2186,7 +3239,17 @@ public final class SceneAvatarInfoOuterClass {
       getMutableSkillLevelMap() {
         return internalGetMutableSkillLevelMap().getMutableMap();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder putSkillLevelMap(
           int key,
           int value) {
@@ -2195,6 +3258,16 @@ public final class SceneAvatarInfoOuterClass {
             .put(key, value);
         return this;
       }
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
+       */
+>>>>>>> origin/6.5.0
 
       public Builder putAllSkillLevelMap(
           java.util.Map<java.lang.Integer, java.lang.Integer> values) {
@@ -2210,12 +3283,24 @@ public final class SceneAvatarInfoOuterClass {
           bitField0_ |= 0x00000002;
          }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 equip_id_list = 5;</code>
+       * @return A list containing the equipIdList.
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getEquipIdListList() {
         return ((bitField0_ & 0x00000002) != 0) ?
                  java.util.Collections.unmodifiableList(equipIdList_) : equipIdList_;
       }
+<<<<<<< HEAD
 
       public int getEquipIdListCount() {
         return equipIdList_.size();
@@ -2225,6 +3310,41 @@ public final class SceneAvatarInfoOuterClass {
         return equipIdList_.getInt(index);
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 equip_id_list = 5;</code>
+       * @return The count of equipIdList.
+       */
+      public int getEquipIdListCount() {
+        return equipIdList_.size();
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 equip_id_list = 5;</code>
+       * @param index The index of the element to return.
+       * @return The equipIdList at the given index.
+       */
+      public int getEquipIdList(int index) {
+        return equipIdList_.getInt(index);
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 equip_id_list = 5;</code>
+       * @param index The index to set the value at.
+       * @param value The equipIdList to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setEquipIdList(
           int index, int value) {
         ensureEquipIdListIsMutable();
@@ -2232,14 +3352,38 @@ public final class SceneAvatarInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 equip_id_list = 5;</code>
+       * @param value The equipIdList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addEquipIdList(int value) {
         ensureEquipIdListIsMutable();
         equipIdList_.addInt(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 equip_id_list = 5;</code>
+       * @param values The equipIdList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllEquipIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureEquipIdListIsMutable();
@@ -2248,7 +3392,18 @@ public final class SceneAvatarInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 equip_id_list = 5;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearEquipIdList() {
         equipIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
@@ -2259,11 +3414,33 @@ public final class SceneAvatarInfoOuterClass {
       private emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo curVehicleInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo, emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo.Builder, emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfoOrBuilder> curVehicleInfoBuilder_;
+<<<<<<< HEAD
 
       public boolean hasCurVehicleInfo() {
         return curVehicleInfoBuilder_ != null || curVehicleInfo_ != null;
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
+       * @return Whether the curVehicleInfo field is set.
+       */
+      public boolean hasCurVehicleInfo() {
+        return curVehicleInfoBuilder_ != null || curVehicleInfo_ != null;
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
+       * @return The curVehicleInfo.
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo getCurVehicleInfo() {
         if (curVehicleInfoBuilder_ == null) {
           return curVehicleInfo_ == null ? emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo.getDefaultInstance() : curVehicleInfo_;
@@ -2271,7 +3448,17 @@ public final class SceneAvatarInfoOuterClass {
           return curVehicleInfoBuilder_.getMessage();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setCurVehicleInfo(emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo value) {
         if (curVehicleInfoBuilder_ == null) {
           if (value == null) {
@@ -2285,7 +3472,17 @@ public final class SceneAvatarInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setCurVehicleInfo(
           emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo.Builder builderForValue) {
         if (curVehicleInfoBuilder_ == null) {
@@ -2297,7 +3494,17 @@ public final class SceneAvatarInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder mergeCurVehicleInfo(emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo value) {
         if (curVehicleInfoBuilder_ == null) {
           if (curVehicleInfo_ != null) {
@@ -2313,7 +3520,17 @@ public final class SceneAvatarInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder clearCurVehicleInfo() {
         if (curVehicleInfoBuilder_ == null) {
           curVehicleInfo_ = null;
@@ -2325,13 +3542,33 @@ public final class SceneAvatarInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo.Builder getCurVehicleInfoBuilder() {
 
         onChanged();
         return getCurVehicleInfoFieldBuilder().getBuilder();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfoOrBuilder getCurVehicleInfoOrBuilder() {
         if (curVehicleInfoBuilder_ != null) {
           return curVehicleInfoBuilder_.getMessageOrBuilder();
@@ -2340,7 +3577,17 @@ public final class SceneAvatarInfoOuterClass {
               emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo.getDefaultInstance() : curVehicleInfo_;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
+       */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo, emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo.Builder, emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfoOrBuilder>
           getCurVehicleInfoFieldBuilder() {
@@ -2362,12 +3609,24 @@ public final class SceneAvatarInfoOuterClass {
           bitField0_ |= 0x00000004;
          }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 talent_id_list = 7;</code>
+       * @return A list containing the talentIdList.
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getTalentIdListList() {
         return ((bitField0_ & 0x00000004) != 0) ?
                  java.util.Collections.unmodifiableList(talentIdList_) : talentIdList_;
       }
+<<<<<<< HEAD
 
       public int getTalentIdListCount() {
         return talentIdList_.size();
@@ -2377,6 +3636,41 @@ public final class SceneAvatarInfoOuterClass {
         return talentIdList_.getInt(index);
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 talent_id_list = 7;</code>
+       * @return The count of talentIdList.
+       */
+      public int getTalentIdListCount() {
+        return talentIdList_.size();
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 talent_id_list = 7;</code>
+       * @param index The index of the element to return.
+       * @return The talentIdList at the given index.
+       */
+      public int getTalentIdList(int index) {
+        return talentIdList_.getInt(index);
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 talent_id_list = 7;</code>
+       * @param index The index to set the value at.
+       * @param value The talentIdList to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setTalentIdList(
           int index, int value) {
         ensureTalentIdListIsMutable();
@@ -2384,14 +3678,38 @@ public final class SceneAvatarInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 talent_id_list = 7;</code>
+       * @param value The talentIdList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addTalentIdList(int value) {
         ensureTalentIdListIsMutable();
         talentIdList_.addInt(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 talent_id_list = 7;</code>
+       * @param values The talentIdList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllTalentIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureTalentIdListIsMutable();
@@ -2400,7 +3718,18 @@ public final class SceneAvatarInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 talent_id_list = 7;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearTalentIdList() {
         talentIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000004);
@@ -2420,6 +3749,16 @@ public final class SceneAvatarInfoOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder> serverBuffListBuilder_;
 
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ServerBuff server_buff_list = 15;</code>
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff> getServerBuffListList() {
         if (serverBuffListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(serverBuffList_);
@@ -2427,7 +3766,17 @@ public final class SceneAvatarInfoOuterClass {
           return serverBuffListBuilder_.getMessageList();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ServerBuff server_buff_list = 15;</code>
+       */
+>>>>>>> origin/6.5.0
       public int getServerBuffListCount() {
         if (serverBuffListBuilder_ == null) {
           return serverBuffList_.size();
@@ -2435,7 +3784,17 @@ public final class SceneAvatarInfoOuterClass {
           return serverBuffListBuilder_.getCount();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ServerBuff server_buff_list = 15;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff getServerBuffList(int index) {
         if (serverBuffListBuilder_ == null) {
           return serverBuffList_.get(index);
@@ -2443,7 +3802,17 @@ public final class SceneAvatarInfoOuterClass {
           return serverBuffListBuilder_.getMessage(index);
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ServerBuff server_buff_list = 15;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setServerBuffList(
           int index, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff value) {
         if (serverBuffListBuilder_ == null) {
@@ -2458,7 +3827,17 @@ public final class SceneAvatarInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ServerBuff server_buff_list = 15;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setServerBuffList(
           int index, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder builderForValue) {
         if (serverBuffListBuilder_ == null) {
@@ -2470,7 +3849,17 @@ public final class SceneAvatarInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ServerBuff server_buff_list = 15;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addServerBuffList(emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff value) {
         if (serverBuffListBuilder_ == null) {
           if (value == null) {
@@ -2484,7 +3873,17 @@ public final class SceneAvatarInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ServerBuff server_buff_list = 15;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addServerBuffList(
           int index, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff value) {
         if (serverBuffListBuilder_ == null) {
@@ -2499,7 +3898,17 @@ public final class SceneAvatarInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ServerBuff server_buff_list = 15;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addServerBuffList(
           emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder builderForValue) {
         if (serverBuffListBuilder_ == null) {
@@ -2511,7 +3920,17 @@ public final class SceneAvatarInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ServerBuff server_buff_list = 15;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addServerBuffList(
           int index, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder builderForValue) {
         if (serverBuffListBuilder_ == null) {
@@ -2523,7 +3942,17 @@ public final class SceneAvatarInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ServerBuff server_buff_list = 15;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllServerBuffList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff> values) {
         if (serverBuffListBuilder_ == null) {
@@ -2536,7 +3965,17 @@ public final class SceneAvatarInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ServerBuff server_buff_list = 15;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder clearServerBuffList() {
         if (serverBuffListBuilder_ == null) {
           serverBuffList_ = java.util.Collections.emptyList();
@@ -2547,7 +3986,17 @@ public final class SceneAvatarInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ServerBuff server_buff_list = 15;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder removeServerBuffList(int index) {
         if (serverBuffListBuilder_ == null) {
           ensureServerBuffListIsMutable();
@@ -2558,12 +4007,32 @@ public final class SceneAvatarInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ServerBuff server_buff_list = 15;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder getServerBuffListBuilder(
           int index) {
         return getServerBuffListFieldBuilder().getBuilder(index);
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ServerBuff server_buff_list = 15;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder getServerBuffListOrBuilder(
           int index) {
         if (serverBuffListBuilder_ == null) {
@@ -2571,8 +4040,19 @@ public final class SceneAvatarInfoOuterClass {
           return serverBuffListBuilder_.getMessageOrBuilder(index);
         }
       }
+<<<<<<< HEAD
 
       public java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder>
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ServerBuff server_buff_list = 15;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder> 
+>>>>>>> origin/6.5.0
            getServerBuffListOrBuilderList() {
         if (serverBuffListBuilder_ != null) {
           return serverBuffListBuilder_.getMessageOrBuilderList();
@@ -2580,19 +4060,50 @@ public final class SceneAvatarInfoOuterClass {
           return java.util.Collections.unmodifiableList(serverBuffList_);
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ServerBuff server_buff_list = 15;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder addServerBuffListBuilder() {
         return getServerBuffListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.getDefaultInstance());
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ServerBuff server_buff_list = 15;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder addServerBuffListBuilder(
           int index) {
         return getServerBuffListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.getDefaultInstance());
       }
+<<<<<<< HEAD
 
       public java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder>
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ServerBuff server_buff_list = 15;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder> 
+>>>>>>> origin/6.5.0
            getServerBuffListBuilderList() {
         return getServerBuffListFieldBuilder().getBuilderList();
       }
@@ -2618,12 +4129,24 @@ public final class SceneAvatarInfoOuterClass {
           bitField0_ |= 0x00000010;
          }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 team_resonance_list = 16;</code>
+       * @return A list containing the teamResonanceList.
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getTeamResonanceListList() {
         return ((bitField0_ & 0x00000010) != 0) ?
                  java.util.Collections.unmodifiableList(teamResonanceList_) : teamResonanceList_;
       }
+<<<<<<< HEAD
 
       public int getTeamResonanceListCount() {
         return teamResonanceList_.size();
@@ -2633,6 +4156,41 @@ public final class SceneAvatarInfoOuterClass {
         return teamResonanceList_.getInt(index);
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 team_resonance_list = 16;</code>
+       * @return The count of teamResonanceList.
+       */
+      public int getTeamResonanceListCount() {
+        return teamResonanceList_.size();
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 team_resonance_list = 16;</code>
+       * @param index The index of the element to return.
+       * @return The teamResonanceList at the given index.
+       */
+      public int getTeamResonanceList(int index) {
+        return teamResonanceList_.getInt(index);
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 team_resonance_list = 16;</code>
+       * @param index The index to set the value at.
+       * @param value The teamResonanceList to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setTeamResonanceList(
           int index, int value) {
         ensureTeamResonanceListIsMutable();
@@ -2640,14 +4198,38 @@ public final class SceneAvatarInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 team_resonance_list = 16;</code>
+       * @param value The teamResonanceList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addTeamResonanceList(int value) {
         ensureTeamResonanceListIsMutable();
         teamResonanceList_.addInt(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 team_resonance_list = 16;</code>
+       * @param values The teamResonanceList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllTeamResonanceList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureTeamResonanceListIsMutable();
@@ -2656,7 +4238,18 @@ public final class SceneAvatarInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 team_resonance_list = 16;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearTeamResonanceList() {
         teamResonanceList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000010);
@@ -2667,11 +4260,33 @@ public final class SceneAvatarInfoOuterClass {
       private emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo excelInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo, emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo.Builder, emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfoOrBuilder> excelInfoBuilder_;
+<<<<<<< HEAD
 
       public boolean hasExcelInfo() {
         return excelInfoBuilder_ != null || excelInfo_ != null;
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.AvatarExcelInfo excel_info = 21;</code>
+       * @return Whether the excelInfo field is set.
+       */
+      public boolean hasExcelInfo() {
+        return excelInfoBuilder_ != null || excelInfo_ != null;
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.AvatarExcelInfo excel_info = 21;</code>
+       * @return The excelInfo.
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo getExcelInfo() {
         if (excelInfoBuilder_ == null) {
           return excelInfo_ == null ? emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo.getDefaultInstance() : excelInfo_;
@@ -2679,7 +4294,17 @@ public final class SceneAvatarInfoOuterClass {
           return excelInfoBuilder_.getMessage();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.AvatarExcelInfo excel_info = 21;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setExcelInfo(emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo value) {
         if (excelInfoBuilder_ == null) {
           if (value == null) {
@@ -2693,7 +4318,17 @@ public final class SceneAvatarInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.AvatarExcelInfo excel_info = 21;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setExcelInfo(
           emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo.Builder builderForValue) {
         if (excelInfoBuilder_ == null) {
@@ -2705,7 +4340,17 @@ public final class SceneAvatarInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.AvatarExcelInfo excel_info = 21;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder mergeExcelInfo(emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo value) {
         if (excelInfoBuilder_ == null) {
           if (excelInfo_ != null) {
@@ -2721,7 +4366,17 @@ public final class SceneAvatarInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.AvatarExcelInfo excel_info = 21;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder clearExcelInfo() {
         if (excelInfoBuilder_ == null) {
           excelInfo_ = null;
@@ -2733,13 +4388,33 @@ public final class SceneAvatarInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.AvatarExcelInfo excel_info = 21;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo.Builder getExcelInfoBuilder() {
 
         onChanged();
         return getExcelInfoFieldBuilder().getBuilder();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.AvatarExcelInfo excel_info = 21;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfoOrBuilder getExcelInfoOrBuilder() {
         if (excelInfoBuilder_ != null) {
           return excelInfoBuilder_.getMessageOrBuilder();
@@ -2748,7 +4423,17 @@ public final class SceneAvatarInfoOuterClass {
               emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo.getDefaultInstance() : excelInfo_;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.AvatarExcelInfo excel_info = 21;</code>
+       */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo, emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo.Builder, emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfoOrBuilder>
           getExcelInfoFieldBuilder() {
@@ -2789,6 +4474,16 @@ public final class SceneAvatarInfoOuterClass {
       public int getProudSkillExtraLevelMapCount() {
         return internalGetProudSkillExtraLevelMap().getMap().size();
       }
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
+       */
+>>>>>>> origin/6.5.0
 
       @java.lang.Override
       public boolean containsProudSkillExtraLevelMap(
@@ -2804,13 +4499,33 @@ public final class SceneAvatarInfoOuterClass {
       public java.util.Map<java.lang.Integer, java.lang.Integer> getProudSkillExtraLevelMap() {
         return getProudSkillExtraLevelMapMap();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public java.util.Map<java.lang.Integer, java.lang.Integer> getProudSkillExtraLevelMapMap() {
         return internalGetProudSkillExtraLevelMap().getMap();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public int getProudSkillExtraLevelMapOrDefault(
@@ -2821,7 +4536,17 @@ public final class SceneAvatarInfoOuterClass {
             internalGetProudSkillExtraLevelMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public int getProudSkillExtraLevelMapOrThrow(
@@ -2840,6 +4565,16 @@ public final class SceneAvatarInfoOuterClass {
             .clear();
         return this;
       }
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
+       */
+>>>>>>> origin/6.5.0
 
       public Builder removeProudSkillExtraLevelMap(
           int key) {
@@ -2856,7 +4591,17 @@ public final class SceneAvatarInfoOuterClass {
       getMutableProudSkillExtraLevelMap() {
         return internalGetMutableProudSkillExtraLevelMap().getMutableMap();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder putProudSkillExtraLevelMap(
           int key,
           int value) {
@@ -2865,6 +4610,16 @@ public final class SceneAvatarInfoOuterClass {
             .put(key, value);
         return this;
       }
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
+       */
+>>>>>>> origin/6.5.0
 
       public Builder putAllProudSkillExtraLevelMap(
           java.util.Map<java.lang.Integer, java.lang.Integer> values) {
@@ -2876,11 +4631,33 @@ public final class SceneAvatarInfoOuterClass {
       private emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo weapon_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder> weaponBuilder_;
+<<<<<<< HEAD
 
       public boolean hasWeapon() {
         return weaponBuilder_ != null || weapon_ != null;
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.SceneWeaponInfo weapon = 8;</code>
+       * @return Whether the weapon field is set.
+       */
+      public boolean hasWeapon() {
+        return weaponBuilder_ != null || weapon_ != null;
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.SceneWeaponInfo weapon = 8;</code>
+       * @return The weapon.
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo getWeapon() {
         if (weaponBuilder_ == null) {
           return weapon_ == null ? emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.getDefaultInstance() : weapon_;
@@ -2888,7 +4665,17 @@ public final class SceneAvatarInfoOuterClass {
           return weaponBuilder_.getMessage();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.SceneWeaponInfo weapon = 8;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setWeapon(emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo value) {
         if (weaponBuilder_ == null) {
           if (value == null) {
@@ -2902,7 +4689,17 @@ public final class SceneAvatarInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.SceneWeaponInfo weapon = 8;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setWeapon(
           emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder builderForValue) {
         if (weaponBuilder_ == null) {
@@ -2914,7 +4711,17 @@ public final class SceneAvatarInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.SceneWeaponInfo weapon = 8;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder mergeWeapon(emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo value) {
         if (weaponBuilder_ == null) {
           if (weapon_ != null) {
@@ -2930,7 +4737,17 @@ public final class SceneAvatarInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.SceneWeaponInfo weapon = 8;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder clearWeapon() {
         if (weaponBuilder_ == null) {
           weapon_ = null;
@@ -2942,13 +4759,33 @@ public final class SceneAvatarInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.SceneWeaponInfo weapon = 8;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder getWeaponBuilder() {
 
         onChanged();
         return getWeaponFieldBuilder().getBuilder();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.SceneWeaponInfo weapon = 8;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder getWeaponOrBuilder() {
         if (weaponBuilder_ != null) {
           return weaponBuilder_.getMessageOrBuilder();
@@ -2957,7 +4794,17 @@ public final class SceneAvatarInfoOuterClass {
               emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.getDefaultInstance() : weapon_;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.SceneWeaponInfo weapon = 8;</code>
+       */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder>
           getWeaponFieldBuilder() {
@@ -2979,12 +4826,24 @@ public final class SceneAvatarInfoOuterClass {
           bitField0_ |= 0x00000040;
          }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 inherent_proud_skill_list = 12;</code>
+       * @return A list containing the inherentProudSkillList.
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getInherentProudSkillListList() {
         return ((bitField0_ & 0x00000040) != 0) ?
                  java.util.Collections.unmodifiableList(inherentProudSkillList_) : inherentProudSkillList_;
       }
+<<<<<<< HEAD
 
       public int getInherentProudSkillListCount() {
         return inherentProudSkillList_.size();
@@ -2994,6 +4853,41 @@ public final class SceneAvatarInfoOuterClass {
         return inherentProudSkillList_.getInt(index);
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 inherent_proud_skill_list = 12;</code>
+       * @return The count of inherentProudSkillList.
+       */
+      public int getInherentProudSkillListCount() {
+        return inherentProudSkillList_.size();
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 inherent_proud_skill_list = 12;</code>
+       * @param index The index of the element to return.
+       * @return The inherentProudSkillList at the given index.
+       */
+      public int getInherentProudSkillList(int index) {
+        return inherentProudSkillList_.getInt(index);
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 inherent_proud_skill_list = 12;</code>
+       * @param index The index to set the value at.
+       * @param value The inherentProudSkillList to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setInherentProudSkillList(
           int index, int value) {
         ensureInherentProudSkillListIsMutable();
@@ -3001,14 +4895,38 @@ public final class SceneAvatarInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 inherent_proud_skill_list = 12;</code>
+       * @param value The inherentProudSkillList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addInherentProudSkillList(int value) {
         ensureInherentProudSkillListIsMutable();
         inherentProudSkillList_.addInt(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 inherent_proud_skill_list = 12;</code>
+       * @param values The inherentProudSkillList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllInherentProudSkillList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureInherentProudSkillListIsMutable();
@@ -3017,7 +4935,18 @@ public final class SceneAvatarInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>repeated uint32 inherent_proud_skill_list = 12;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearInherentProudSkillList() {
         inherentProudSkillList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000040);
@@ -3037,6 +4966,16 @@ public final class SceneAvatarInfoOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo, emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo.Builder, emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfoOrBuilder> reliquaryListBuilder_;
 
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo> getReliquaryListList() {
         if (reliquaryListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(reliquaryList_);
@@ -3044,7 +4983,17 @@ public final class SceneAvatarInfoOuterClass {
           return reliquaryListBuilder_.getMessageList();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public int getReliquaryListCount() {
         if (reliquaryListBuilder_ == null) {
           return reliquaryList_.size();
@@ -3052,7 +5001,17 @@ public final class SceneAvatarInfoOuterClass {
           return reliquaryListBuilder_.getCount();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo getReliquaryList(int index) {
         if (reliquaryListBuilder_ == null) {
           return reliquaryList_.get(index);
@@ -3060,7 +5019,17 @@ public final class SceneAvatarInfoOuterClass {
           return reliquaryListBuilder_.getMessage(index);
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setReliquaryList(
           int index, emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo value) {
         if (reliquaryListBuilder_ == null) {
@@ -3075,7 +5044,17 @@ public final class SceneAvatarInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setReliquaryList(
           int index, emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo.Builder builderForValue) {
         if (reliquaryListBuilder_ == null) {
@@ -3087,7 +5066,17 @@ public final class SceneAvatarInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addReliquaryList(emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo value) {
         if (reliquaryListBuilder_ == null) {
           if (value == null) {
@@ -3101,7 +5090,17 @@ public final class SceneAvatarInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addReliquaryList(
           int index, emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo value) {
         if (reliquaryListBuilder_ == null) {
@@ -3116,7 +5115,17 @@ public final class SceneAvatarInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addReliquaryList(
           emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo.Builder builderForValue) {
         if (reliquaryListBuilder_ == null) {
@@ -3128,7 +5137,17 @@ public final class SceneAvatarInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addReliquaryList(
           int index, emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo.Builder builderForValue) {
         if (reliquaryListBuilder_ == null) {
@@ -3140,7 +5159,17 @@ public final class SceneAvatarInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllReliquaryList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo> values) {
         if (reliquaryListBuilder_ == null) {
@@ -3153,7 +5182,17 @@ public final class SceneAvatarInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder clearReliquaryList() {
         if (reliquaryListBuilder_ == null) {
           reliquaryList_ = java.util.Collections.emptyList();
@@ -3164,7 +5203,17 @@ public final class SceneAvatarInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder removeReliquaryList(int index) {
         if (reliquaryListBuilder_ == null) {
           ensureReliquaryListIsMutable();
@@ -3175,12 +5224,32 @@ public final class SceneAvatarInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo.Builder getReliquaryListBuilder(
           int index) {
         return getReliquaryListFieldBuilder().getBuilder(index);
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfoOrBuilder getReliquaryListOrBuilder(
           int index) {
         if (reliquaryListBuilder_ == null) {
@@ -3188,8 +5257,19 @@ public final class SceneAvatarInfoOuterClass {
           return reliquaryListBuilder_.getMessageOrBuilder(index);
         }
       }
+<<<<<<< HEAD
 
       public java.util.List<? extends emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfoOrBuilder>
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfoOrBuilder> 
+>>>>>>> origin/6.5.0
            getReliquaryListOrBuilderList() {
         if (reliquaryListBuilder_ != null) {
           return reliquaryListBuilder_.getMessageOrBuilderList();
@@ -3197,19 +5277,50 @@ public final class SceneAvatarInfoOuterClass {
           return java.util.Collections.unmodifiableList(reliquaryList_);
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo.Builder addReliquaryListBuilder() {
         return getReliquaryListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo.getDefaultInstance());
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo.Builder addReliquaryListBuilder(
           int index) {
         return getReliquaryListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo.getDefaultInstance());
       }
+<<<<<<< HEAD
 
       public java.util.List<emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo.Builder>
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo.Builder> 
+>>>>>>> origin/6.5.0
            getReliquaryListBuilderList() {
         return getReliquaryListFieldBuilder().getBuilderList();
       }
@@ -3229,19 +5340,53 @@ public final class SceneAvatarInfoOuterClass {
       }
 
       private int avatarId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 avatar_id = 2;</code>
+       * @return The avatarId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getAvatarId() {
         return avatarId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 avatar_id = 2;</code>
+       * @param value The avatarId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setAvatarId(int value) {
 
         avatarId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 avatar_id = 2;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearAvatarId() {
 
         avatarId_ = 0;
@@ -3271,19 +5416,53 @@ public final class SceneAvatarInfoOuterClass {
       }
 
       private int coreProudSkillLevel_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 core_proud_skill_level = 11;</code>
+       * @return The coreProudSkillLevel.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCoreProudSkillLevel() {
         return coreProudSkillLevel_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 core_proud_skill_level = 11;</code>
+       * @param value The coreProudSkillLevel to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setCoreProudSkillLevel(int value) {
 
         coreProudSkillLevel_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 core_proud_skill_level = 11;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearCoreProudSkillLevel() {
 
         coreProudSkillLevel_ = 0;
@@ -3292,19 +5471,53 @@ public final class SceneAvatarInfoOuterClass {
       }
 
       private int wearingFlycloakId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 wearing_flycloak_id = 17;</code>
+       * @return The wearingFlycloakId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getWearingFlycloakId() {
         return wearingFlycloakId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 wearing_flycloak_id = 17;</code>
+       * @param value The wearingFlycloakId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setWearingFlycloakId(int value) {
 
         wearingFlycloakId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 wearing_flycloak_id = 17;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearWearingFlycloakId() {
 
         wearingFlycloakId_ = 0;
@@ -3313,19 +5526,53 @@ public final class SceneAvatarInfoOuterClass {
       }
 
       private int animHash_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 anim_hash = 22;</code>
+       * @return The animHash.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getAnimHash() {
         return animHash_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 anim_hash = 22;</code>
+       * @param value The animHash to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setAnimHash(int value) {
 
         animHash_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 anim_hash = 22;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearAnimHash() {
 
         animHash_ = 0;
@@ -3334,19 +5581,53 @@ public final class SceneAvatarInfoOuterClass {
       }
 
       private int costumeId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 costume_id = 19;</code>
+       * @return The costumeId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCostumeId() {
         return costumeId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 costume_id = 19;</code>
+       * @param value The costumeId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setCostumeId(int value) {
 
         costumeId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 costume_id = 19;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearCostumeId() {
 
         costumeId_ = 0;
@@ -3355,19 +5636,53 @@ public final class SceneAvatarInfoOuterClass {
       }
 
       private int peerId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 peer_id = 4;</code>
+       * @return The peerId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getPeerId() {
         return peerId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 peer_id = 4;</code>
+       * @param value The peerId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setPeerId(int value) {
 
         peerId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 peer_id = 4;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearPeerId() {
 
         peerId_ = 0;
@@ -3376,19 +5691,53 @@ public final class SceneAvatarInfoOuterClass {
       }
 
       private int bornTime_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 born_time = 18;</code>
+       * @return The bornTime.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getBornTime() {
         return bornTime_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 born_time = 18;</code>
+       * @param value The bornTime to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setBornTime(int value) {
 
         bornTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 born_time = 18;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearBornTime() {
 
         bornTime_ = 0;
@@ -3397,19 +5746,53 @@ public final class SceneAvatarInfoOuterClass {
       }
 
       private int uid_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 uid = 1;</code>
+       * @return The uid.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getUid() {
         return uid_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 uid = 1;</code>
+       * @param value The uid to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setUid(int value) {
 
         uid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 uid = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearUid() {
 
         uid_ = 0;
@@ -3418,19 +5801,53 @@ public final class SceneAvatarInfoOuterClass {
       }
 
       private int skillDepotId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 skill_depot_id = 6;</code>
+       * @return The skillDepotId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getSkillDepotId() {
         return skillDepotId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 skill_depot_id = 6;</code>
+       * @param value The skillDepotId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setSkillDepotId(int value) {
 
         skillDepotId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 skill_depot_id = 6;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearSkillDepotId() {
 
         skillDepotId_ = 0;
@@ -3439,19 +5856,53 @@ public final class SceneAvatarInfoOuterClass {
       }
 
       private long guid_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint64 guid = 3;</code>
+       * @return The guid.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getGuid() {
         return guid_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint64 guid = 3;</code>
+       * @param value The guid to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setGuid(long value) {
 
         guid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint64 guid = 3;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearGuid() {
 
         guid_ = 0L;

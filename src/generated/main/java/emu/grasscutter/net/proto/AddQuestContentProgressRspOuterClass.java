@@ -18,8 +18,29 @@ public final class AddQuestContentProgressRspOuterClass {
       // @@protoc_insertion_point(interface_extends:AddQuestContentProgressRsp)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     int getRetcode();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          // offset: 32
+     * </pre>
+     *
+     * <code>int32 retcode = 6;</code>
+     * @return The retcode.
+     */
+    int getRetcode();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          // offset: 36 DMHOICCBMPC
+     * </pre>
+     *
+     * <code>uint32 content_type = 9;</code>
+     * @return The contentType.
+     */
+>>>>>>> origin/6.5.0
     int getContentType();
   }
   /**
@@ -111,7 +132,18 @@ public final class AddQuestContentProgressRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 6;
     private int retcode_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          // offset: 32
+     * </pre>
+     *
+     * <code>int32 retcode = 6;</code>
+     * @return The retcode.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -119,7 +151,18 @@ public final class AddQuestContentProgressRspOuterClass {
 
     public static final int CONTENT_TYPE_FIELD_NUMBER = 9;
     private int contentType_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          // offset: 36 DMHOICCBMPC
+     * </pre>
+     *
+     * <code>uint32 content_type = 9;</code>
+     * @return The contentType.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getContentType() {
       return contentType_;
@@ -445,19 +488,53 @@ public final class AddQuestContentProgressRspOuterClass {
       }
 
       private int retcode_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          // offset: 32
+       * </pre>
+       *
+       * <code>int32 retcode = 6;</code>
+       * @return The retcode.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          // offset: 32
+       * </pre>
+       *
+       * <code>int32 retcode = 6;</code>
+       * @param value The retcode to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
 
         retcode_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          // offset: 32
+       * </pre>
+       *
+       * <code>int32 retcode = 6;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearRetcode() {
 
         retcode_ = 0;
@@ -466,19 +543,53 @@ public final class AddQuestContentProgressRspOuterClass {
       }
 
       private int contentType_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          // offset: 36 DMHOICCBMPC
+       * </pre>
+       *
+       * <code>uint32 content_type = 9;</code>
+       * @return The contentType.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getContentType() {
         return contentType_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          // offset: 36 DMHOICCBMPC
+       * </pre>
+       *
+       * <code>uint32 content_type = 9;</code>
+       * @param value The contentType to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setContentType(int value) {
 
         contentType_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          // offset: 36 DMHOICCBMPC
+       * </pre>
+       *
+       * <code>uint32 content_type = 9;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearContentType() {
 
         contentType_ = 0;

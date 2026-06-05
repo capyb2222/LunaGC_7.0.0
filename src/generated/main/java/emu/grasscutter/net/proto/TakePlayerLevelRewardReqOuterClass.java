@@ -18,6 +18,17 @@ public final class TakePlayerLevelRewardReqOuterClass {
       // @@protoc_insertion_point(interface_extends:TakePlayerLevelRewardReq)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5     
+     * </pre>
+     *
+     * <code>uint32 level = 13;</code>
+     * @return The level.
+     */
+>>>>>>> origin/6.5.0
     int getLevel();
   }
   /**
@@ -69,7 +80,7 @@ public final class TakePlayerLevelRewardReqOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 104: {
 
               level_ = input.readUInt32();
               break;
@@ -106,9 +117,20 @@ public final class TakePlayerLevelRewardReqOuterClass {
               emu.grasscutter.net.proto.TakePlayerLevelRewardReqOuterClass.TakePlayerLevelRewardReq.class, emu.grasscutter.net.proto.TakePlayerLevelRewardReqOuterClass.TakePlayerLevelRewardReq.Builder.class);
     }
 
-    public static final int LEVEL_FIELD_NUMBER = 4;
+    public static final int LEVEL_FIELD_NUMBER = 13;
     private int level_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5     
+     * </pre>
+     *
+     * <code>uint32 level = 13;</code>
+     * @return The level.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getLevel() {
       return level_;
@@ -129,7 +151,7 @@ public final class TakePlayerLevelRewardReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (level_ != 0) {
-        output.writeUInt32(4, level_);
+        output.writeUInt32(13, level_);
       }
       unknownFields.writeTo(output);
     }
@@ -142,7 +164,7 @@ public final class TakePlayerLevelRewardReqOuterClass {
       size = 0;
       if (level_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, level_);
+          .computeUInt32Size(13, level_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -421,19 +443,53 @@ public final class TakePlayerLevelRewardReqOuterClass {
       }
 
       private int level_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5     
+       * </pre>
+       *
+       * <code>uint32 level = 13;</code>
+       * @return The level.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getLevel() {
         return level_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5     
+       * </pre>
+       *
+       * <code>uint32 level = 13;</code>
+       * @param value The level to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setLevel(int value) {
 
         level_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5     
+       * </pre>
+       *
+       * <code>uint32 level = 13;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearLevel() {
 
         level_ = 0;
@@ -507,7 +563,7 @@ public final class TakePlayerLevelRewardReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\036TakePlayerLevelRewardReq.proto\")\n\030Take" +
-      "PlayerLevelRewardReq\022\r\n\005level\030\004 \001(\rB\033\n\031e" +
+      "PlayerLevelRewardReq\022\r\n\005level\030\r \001(\rB\033\n\031e" +
       "mu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

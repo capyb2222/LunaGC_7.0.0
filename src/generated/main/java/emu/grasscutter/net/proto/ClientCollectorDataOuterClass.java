@@ -18,6 +18,17 @@ public final class ClientCollectorDataOuterClass {
       // @@protoc_insertion_point(interface_extends:ClientCollectorData)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 material_id = 4;</code>
+     * @return The materialId.
+     */
+>>>>>>> origin/6.5.0
     int getMaterialId();
 
     /**
@@ -126,7 +137,18 @@ public final class ClientCollectorDataOuterClass {
 
     public static final int MATERIAL_ID_FIELD_NUMBER = 8;
     private int materialId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 material_id = 4;</code>
+     * @return The materialId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getMaterialId() {
       return materialId_;
@@ -491,19 +513,53 @@ public final class ClientCollectorDataOuterClass {
       }
 
       private int materialId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 material_id = 4;</code>
+       * @return The materialId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getMaterialId() {
         return materialId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 material_id = 4;</code>
+       * @param value The materialId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setMaterialId(int value) {
 
         materialId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 material_id = 4;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearMaterialId() {
 
         materialId_ = 0;

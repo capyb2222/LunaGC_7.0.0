@@ -18,12 +18,52 @@ public final class GetInvestigationMonsterReqOuterClass {
       // @@protoc_insertion_point(interface_extends:GetInvestigationMonsterReq)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     java.util.List<java.lang.Integer> getCityIdListList();
 
     int getCityIdListCount();
 
     int getCityIdList(int index);
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint32 city_id_list = 9;</code>
+     * @return A list containing the cityIdList.
+     */
+    java.util.List<java.lang.Integer> getCityIdListList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint32 city_id_list = 9;</code>
+     * @return The count of cityIdList.
+     */
+    int getCityIdListCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint32 city_id_list = 9;</code>
+     * @param index The index of the element to return.
+     * @return The cityIdList at the given index.
+     */
+    int getCityIdList(int index);
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>bool is_for_mark = 5;</code>
+     * @return The isForMark.
+     */
+>>>>>>> origin/6.5.0
     boolean getIsForMark();
   }
   /**
@@ -140,17 +180,51 @@ public final class GetInvestigationMonsterReqOuterClass {
 
     public static final int CITY_ID_LIST_FIELD_NUMBER = 11;
     private com.google.protobuf.Internal.IntList cityIdList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint32 city_id_list = 9;</code>
+     * @return A list containing the cityIdList.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getCityIdListList() {
       return cityIdList_;
     }
+<<<<<<< HEAD
 
     public int getCityIdListCount() {
       return cityIdList_.size();
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint32 city_id_list = 9;</code>
+     * @return The count of cityIdList.
+     */
+    public int getCityIdListCount() {
+      return cityIdList_.size();
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint32 city_id_list = 9;</code>
+     * @param index The index of the element to return.
+     * @return The cityIdList at the given index.
+     */
+>>>>>>> origin/6.5.0
     public int getCityIdList(int index) {
       return cityIdList_.getInt(index);
     }
@@ -158,7 +232,18 @@ public final class GetInvestigationMonsterReqOuterClass {
 
     public static final int IS_FOR_MARK_FIELD_NUMBER = 14;
     private boolean isForMark_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>bool is_for_mark = 5;</code>
+     * @return The isForMark.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsForMark() {
       return isForMark_;
@@ -525,12 +610,24 @@ public final class GetInvestigationMonsterReqOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint32 city_id_list = 9;</code>
+       * @return A list containing the cityIdList.
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getCityIdListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(cityIdList_) : cityIdList_;
       }
+<<<<<<< HEAD
 
       public int getCityIdListCount() {
         return cityIdList_.size();
@@ -540,6 +637,41 @@ public final class GetInvestigationMonsterReqOuterClass {
         return cityIdList_.getInt(index);
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint32 city_id_list = 9;</code>
+       * @return The count of cityIdList.
+       */
+      public int getCityIdListCount() {
+        return cityIdList_.size();
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint32 city_id_list = 9;</code>
+       * @param index The index of the element to return.
+       * @return The cityIdList at the given index.
+       */
+      public int getCityIdList(int index) {
+        return cityIdList_.getInt(index);
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint32 city_id_list = 9;</code>
+       * @param index The index to set the value at.
+       * @param value The cityIdList to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setCityIdList(
           int index, int value) {
         ensureCityIdListIsMutable();
@@ -547,14 +679,38 @@ public final class GetInvestigationMonsterReqOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint32 city_id_list = 9;</code>
+       * @param value The cityIdList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addCityIdList(int value) {
         ensureCityIdListIsMutable();
         cityIdList_.addInt(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint32 city_id_list = 9;</code>
+       * @param values The cityIdList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllCityIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureCityIdListIsMutable();
@@ -563,7 +719,18 @@ public final class GetInvestigationMonsterReqOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint32 city_id_list = 9;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearCityIdList() {
         cityIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -572,19 +739,53 @@ public final class GetInvestigationMonsterReqOuterClass {
       }
 
       private boolean isForMark_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>bool is_for_mark = 5;</code>
+       * @return The isForMark.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsForMark() {
         return isForMark_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>bool is_for_mark = 5;</code>
+       * @param value The isForMark to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setIsForMark(boolean value) {
 
         isForMark_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>bool is_for_mark = 5;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearIsForMark() {
 
         isForMark_ = false;

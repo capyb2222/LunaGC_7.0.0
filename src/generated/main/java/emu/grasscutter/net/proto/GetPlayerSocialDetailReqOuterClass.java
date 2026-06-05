@@ -18,8 +18,29 @@ public final class GetPlayerSocialDetailReqOuterClass {
       // @@protoc_insertion_point(interface_extends:GetPlayerSocialDetailReq)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     int getParam();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 param = 13;</code>
+     * @return The param.
+     */
+    int getParam();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 uid = 15;</code>
+     * @return The uid.
+     */
+>>>>>>> origin/6.5.0
     int getUid();
   }
   /**
@@ -115,7 +136,18 @@ public final class GetPlayerSocialDetailReqOuterClass {
 
     public static final int PARAM_FIELD_NUMBER = 1;
     private int param_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 param = 13;</code>
+     * @return The param.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getParam() {
       return param_;
@@ -123,7 +155,18 @@ public final class GetPlayerSocialDetailReqOuterClass {
 
     public static final int UID_FIELD_NUMBER = 14;
     private int uid_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 uid = 15;</code>
+     * @return The uid.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getUid() {
       return uid_;
@@ -453,19 +496,53 @@ public final class GetPlayerSocialDetailReqOuterClass {
       }
 
       private int param_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 param = 13;</code>
+       * @return The param.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getParam() {
         return param_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 param = 13;</code>
+       * @param value The param to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setParam(int value) {
 
         param_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 param = 13;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearParam() {
 
         param_ = 0;
@@ -474,19 +551,53 @@ public final class GetPlayerSocialDetailReqOuterClass {
       }
 
       private int uid_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 uid = 15;</code>
+       * @return The uid.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getUid() {
         return uid_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 uid = 15;</code>
+       * @param value The uid to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setUid(int value) {
 
         uid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 uid = 15;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearUid() {
 
         uid_ = 0;

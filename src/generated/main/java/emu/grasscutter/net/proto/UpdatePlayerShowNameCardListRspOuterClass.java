@@ -18,12 +18,52 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
       // @@protoc_insertion_point(interface_extends:UpdatePlayerShowNameCardListRsp)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     java.util.List<java.lang.Integer> getShowNameCardIdListList();
 
     int getShowNameCardIdListCount();
 
     int getShowNameCardIdList(int index);
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint32 show_name_card_id_list = 9;</code>
+     * @return A list containing the showNameCardIdList.
+     */
+    java.util.List<java.lang.Integer> getShowNameCardIdListList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint32 show_name_card_id_list = 9;</code>
+     * @return The count of showNameCardIdList.
+     */
+    int getShowNameCardIdListCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint32 show_name_card_id_list = 9;</code>
+     * @param index The index of the element to return.
+     * @return The showNameCardIdList at the given index.
+     */
+    int getShowNameCardIdList(int index);
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>int32 retcode = 15;</code>
+     * @return The retcode.
+     */
+>>>>>>> origin/6.5.0
     int getRetcode();
   }
   /**
@@ -141,17 +181,51 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
 
     public static final int SHOW_NAME_CARD_ID_LIST_FIELD_NUMBER = 3;
     private com.google.protobuf.Internal.IntList showNameCardIdList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint32 show_name_card_id_list = 9;</code>
+     * @return A list containing the showNameCardIdList.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getShowNameCardIdListList() {
       return showNameCardIdList_;
     }
+<<<<<<< HEAD
 
     public int getShowNameCardIdListCount() {
       return showNameCardIdList_.size();
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint32 show_name_card_id_list = 9;</code>
+     * @return The count of showNameCardIdList.
+     */
+    public int getShowNameCardIdListCount() {
+      return showNameCardIdList_.size();
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint32 show_name_card_id_list = 9;</code>
+     * @param index The index of the element to return.
+     * @return The showNameCardIdList at the given index.
+     */
+>>>>>>> origin/6.5.0
     public int getShowNameCardIdList(int index) {
       return showNameCardIdList_.getInt(index);
     }
@@ -159,7 +233,18 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 6;
     private int retcode_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>int32 retcode = 15;</code>
+     * @return The retcode.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -526,12 +611,24 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint32 show_name_card_id_list = 9;</code>
+       * @return A list containing the showNameCardIdList.
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getShowNameCardIdListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(showNameCardIdList_) : showNameCardIdList_;
       }
+<<<<<<< HEAD
 
       public int getShowNameCardIdListCount() {
         return showNameCardIdList_.size();
@@ -541,6 +638,41 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
         return showNameCardIdList_.getInt(index);
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint32 show_name_card_id_list = 9;</code>
+       * @return The count of showNameCardIdList.
+       */
+      public int getShowNameCardIdListCount() {
+        return showNameCardIdList_.size();
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint32 show_name_card_id_list = 9;</code>
+       * @param index The index of the element to return.
+       * @return The showNameCardIdList at the given index.
+       */
+      public int getShowNameCardIdList(int index) {
+        return showNameCardIdList_.getInt(index);
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint32 show_name_card_id_list = 9;</code>
+       * @param index The index to set the value at.
+       * @param value The showNameCardIdList to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setShowNameCardIdList(
           int index, int value) {
         ensureShowNameCardIdListIsMutable();
@@ -548,14 +680,38 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint32 show_name_card_id_list = 9;</code>
+       * @param value The showNameCardIdList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addShowNameCardIdList(int value) {
         ensureShowNameCardIdListIsMutable();
         showNameCardIdList_.addInt(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint32 show_name_card_id_list = 9;</code>
+       * @param values The showNameCardIdList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllShowNameCardIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureShowNameCardIdListIsMutable();
@@ -564,7 +720,18 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint32 show_name_card_id_list = 9;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearShowNameCardIdList() {
         showNameCardIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -573,19 +740,53 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
       }
 
       private int retcode_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 15;</code>
+       * @return The retcode.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 15;</code>
+       * @param value The retcode to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
 
         retcode_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 15;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearRetcode() {
 
         retcode_ = 0;

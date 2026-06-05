@@ -52,6 +52,17 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
     int getPOBHLFCOGEEOrThrow(
         int key);
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 mp_play_id = 7;</code>
+     * @return The mpPlayId.
+     */
+>>>>>>> origin/6.5.0
     int getMpPlayId();
 
     /**
@@ -256,7 +267,18 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
 
     public static final int MP_PLAY_ID_FIELD_NUMBER = 7;
     private int mpPlayId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 mp_play_id = 7;</code>
+     * @return The mpPlayId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getMpPlayId() {
       return mpPlayId_;
@@ -771,19 +793,53 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       }
 
       private int mpPlayId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 mp_play_id = 7;</code>
+       * @return The mpPlayId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getMpPlayId() {
         return mpPlayId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 mp_play_id = 7;</code>
+       * @param value The mpPlayId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setMpPlayId(int value) {
 
         mpPlayId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 mp_play_id = 7;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearMpPlayId() {
 
         mpPlayId_ = 0;

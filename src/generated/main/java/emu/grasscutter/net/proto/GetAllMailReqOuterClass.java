@@ -18,6 +18,17 @@ public final class GetAllMailReqOuterClass {
       // @@protoc_insertion_point(interface_extends:GetAllMailReq)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0   
+     * </pre>
+     *
+     * <code>bool is_collected = 10;</code>
+     * @return The isCollected.
+     */
+>>>>>>> origin/6.5.0
     boolean getIsCollected();
   }
   /**
@@ -108,7 +119,18 @@ public final class GetAllMailReqOuterClass {
 
     public static final int IS_COLLECTED_FIELD_NUMBER = 10;
     private boolean isCollected_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0   
+     * </pre>
+     *
+     * <code>bool is_collected = 10;</code>
+     * @return The isCollected.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsCollected() {
       return isCollected_;
@@ -422,19 +444,53 @@ public final class GetAllMailReqOuterClass {
       }
 
       private boolean isCollected_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0   
+       * </pre>
+       *
+       * <code>bool is_collected = 10;</code>
+       * @return The isCollected.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsCollected() {
         return isCollected_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0   
+       * </pre>
+       *
+       * <code>bool is_collected = 10;</code>
+       * @param value The isCollected to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setIsCollected(boolean value) {
 
         isCollected_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0   
+       * </pre>
+       *
+       * <code>bool is_collected = 10;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearIsCollected() {
 
         isCollected_ = false;

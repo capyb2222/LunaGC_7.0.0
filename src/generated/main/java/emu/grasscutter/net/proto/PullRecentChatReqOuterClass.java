@@ -18,8 +18,29 @@ public final class PullRecentChatReqOuterClass {
       // @@protoc_insertion_point(interface_extends:PullRecentChatReq)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     int getBeginSequence();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0     
+     * </pre>
+     *
+     * <code>uint32 begin_sequence = 11;</code>
+     * @return The beginSequence.
+     */
+    int getBeginSequence();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0     
+     * </pre>
+     *
+     * <code>uint32 pull_num = 8;</code>
+     * @return The pullNum.
+     */
+>>>>>>> origin/6.5.0
     int getPullNum();
   }
   /**
@@ -115,7 +136,18 @@ public final class PullRecentChatReqOuterClass {
 
     public static final int BEGIN_SEQUENCE_FIELD_NUMBER = 7;
     private int beginSequence_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0     
+     * </pre>
+     *
+     * <code>uint32 begin_sequence = 11;</code>
+     * @return The beginSequence.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getBeginSequence() {
       return beginSequence_;
@@ -123,7 +155,18 @@ public final class PullRecentChatReqOuterClass {
 
     public static final int PULL_NUM_FIELD_NUMBER = 13;
     private int pullNum_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0     
+     * </pre>
+     *
+     * <code>uint32 pull_num = 8;</code>
+     * @return The pullNum.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getPullNum() {
       return pullNum_;
@@ -453,19 +496,53 @@ public final class PullRecentChatReqOuterClass {
       }
 
       private int beginSequence_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0     
+       * </pre>
+       *
+       * <code>uint32 begin_sequence = 11;</code>
+       * @return The beginSequence.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getBeginSequence() {
         return beginSequence_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0     
+       * </pre>
+       *
+       * <code>uint32 begin_sequence = 11;</code>
+       * @param value The beginSequence to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setBeginSequence(int value) {
 
         beginSequence_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0     
+       * </pre>
+       *
+       * <code>uint32 begin_sequence = 11;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearBeginSequence() {
 
         beginSequence_ = 0;
@@ -474,19 +551,53 @@ public final class PullRecentChatReqOuterClass {
       }
 
       private int pullNum_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0     
+       * </pre>
+       *
+       * <code>uint32 pull_num = 8;</code>
+       * @return The pullNum.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getPullNum() {
         return pullNum_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0     
+       * </pre>
+       *
+       * <code>uint32 pull_num = 8;</code>
+       * @param value The pullNum to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setPullNum(int value) {
 
         pullNum_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0     
+       * </pre>
+       *
+       * <code>uint32 pull_num = 8;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearPullNum() {
 
         pullNum_ = 0;

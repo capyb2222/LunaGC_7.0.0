@@ -18,10 +18,41 @@ public final class PullPrivateChatReqOuterClass {
       // @@protoc_insertion_point(interface_extends:PullPrivateChatReq)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     int getPullNum();
 
     int getTargetUid();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0    
+     * </pre>
+     *
+     * <code>uint32 pull_num = 9;</code>
+     * @return The pullNum.
+     */
+    int getPullNum();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 target_uid = 4;</code>
+     * @return The targetUid.
+     */
+    int getTargetUid();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0     
+     * </pre>
+     *
+     * <code>uint32 from_sequence = 5;</code>
+     * @return The fromSequence.
+     */
+>>>>>>> origin/6.5.0
     int getFromSequence();
   }
   /**
@@ -118,7 +149,18 @@ public final class PullPrivateChatReqOuterClass {
 
     public static final int PULL_NUM_FIELD_NUMBER = 8;
     private int pullNum_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0    
+     * </pre>
+     *
+     * <code>uint32 pull_num = 9;</code>
+     * @return The pullNum.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getPullNum() {
       return pullNum_;
@@ -126,7 +168,18 @@ public final class PullPrivateChatReqOuterClass {
 
     public static final int TARGET_UID_FIELD_NUMBER = 1;
     private int targetUid_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 target_uid = 4;</code>
+     * @return The targetUid.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getTargetUid() {
       return targetUid_;
@@ -134,7 +187,18 @@ public final class PullPrivateChatReqOuterClass {
 
     public static final int FROM_SEQUENCE_FIELD_NUMBER = 15;
     private int fromSequence_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0     
+     * </pre>
+     *
+     * <code>uint32 from_sequence = 5;</code>
+     * @return The fromSequence.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getFromSequence() {
       return fromSequence_;
@@ -477,19 +541,53 @@ public final class PullPrivateChatReqOuterClass {
       }
 
       private int pullNum_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>uint32 pull_num = 9;</code>
+       * @return The pullNum.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getPullNum() {
         return pullNum_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>uint32 pull_num = 9;</code>
+       * @param value The pullNum to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setPullNum(int value) {
 
         pullNum_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>uint32 pull_num = 9;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearPullNum() {
 
         pullNum_ = 0;
@@ -498,19 +596,53 @@ public final class PullPrivateChatReqOuterClass {
       }
 
       private int targetUid_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 target_uid = 4;</code>
+       * @return The targetUid.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getTargetUid() {
         return targetUid_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 target_uid = 4;</code>
+       * @param value The targetUid to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setTargetUid(int value) {
 
         targetUid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 target_uid = 4;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearTargetUid() {
 
         targetUid_ = 0;
@@ -519,19 +651,53 @@ public final class PullPrivateChatReqOuterClass {
       }
 
       private int fromSequence_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0     
+       * </pre>
+       *
+       * <code>uint32 from_sequence = 5;</code>
+       * @return The fromSequence.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getFromSequence() {
         return fromSequence_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0     
+       * </pre>
+       *
+       * <code>uint32 from_sequence = 5;</code>
+       * @param value The fromSequence to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setFromSequence(int value) {
 
         fromSequence_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0     
+       * </pre>
+       *
+       * <code>uint32 from_sequence = 5;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearFromSequence() {
 
         fromSequence_ = 0;

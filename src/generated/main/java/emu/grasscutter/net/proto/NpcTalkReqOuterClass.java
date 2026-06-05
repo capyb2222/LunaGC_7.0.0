@@ -18,10 +18,41 @@ public final class NpcTalkReqOuterClass {
       // @@protoc_insertion_point(interface_extends:NpcTalkReq)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     int getEntityId();
 
     int getTalkId();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 entity_id = 15;</code>
+     * @return The entityId.
+     */
+    int getEntityId();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 talk_id = 1;</code>
+     * @return The talkId.
+     */
+    int getTalkId();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 npc_entity_id = 4;</code>
+     * @return The npcEntityId.
+     */
+>>>>>>> origin/6.5.0
     int getNpcEntityId();
   }
   /**
@@ -122,7 +153,18 @@ public final class NpcTalkReqOuterClass {
 
     public static final int ENTITY_ID_FIELD_NUMBER = 11;
     private int entityId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 entity_id = 15;</code>
+     * @return The entityId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getEntityId() {
       return entityId_;
@@ -130,7 +172,18 @@ public final class NpcTalkReqOuterClass {
 
     public static final int TALK_ID_FIELD_NUMBER = 14;
     private int talkId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 talk_id = 1;</code>
+     * @return The talkId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getTalkId() {
       return talkId_;
@@ -138,7 +191,18 @@ public final class NpcTalkReqOuterClass {
 
     public static final int NPC_ENTITY_ID_FIELD_NUMBER = 2;
     private int npcEntityId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 npc_entity_id = 4;</code>
+     * @return The npcEntityId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getNpcEntityId() {
       return npcEntityId_;
@@ -485,19 +549,53 @@ public final class NpcTalkReqOuterClass {
       }
 
       private int entityId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 entity_id = 15;</code>
+       * @return The entityId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getEntityId() {
         return entityId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 entity_id = 15;</code>
+       * @param value The entityId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setEntityId(int value) {
 
         entityId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 entity_id = 15;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearEntityId() {
 
         entityId_ = 0;
@@ -506,19 +604,53 @@ public final class NpcTalkReqOuterClass {
       }
 
       private int talkId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 talk_id = 1;</code>
+       * @return The talkId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getTalkId() {
         return talkId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 talk_id = 1;</code>
+       * @param value The talkId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setTalkId(int value) {
 
         talkId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 talk_id = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearTalkId() {
 
         talkId_ = 0;
@@ -527,19 +659,53 @@ public final class NpcTalkReqOuterClass {
       }
 
       private int npcEntityId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 npc_entity_id = 4;</code>
+       * @return The npcEntityId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getNpcEntityId() {
         return npcEntityId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 npc_entity_id = 4;</code>
+       * @param value The npcEntityId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setNpcEntityId(int value) {
 
         npcEntityId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 npc_entity_id = 4;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearNpcEntityId() {
 
         npcEntityId_ = 0;

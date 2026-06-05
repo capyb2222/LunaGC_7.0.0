@@ -18,6 +18,7 @@ public final class ChangeMpTeamAvatarRspOuterClass {
       // @@protoc_insertion_point(interface_extends:ChangeMpTeamAvatarRsp)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     java.util.List<java.lang.Long> getAvatarGuidListList();
 
     int getAvatarGuidListCount();
@@ -26,6 +27,55 @@ public final class ChangeMpTeamAvatarRspOuterClass {
 
     long getCurAvatarGuid();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_guid_list = 10;</code>
+     * @return A list containing the avatarGuidList.
+     */
+    java.util.List<java.lang.Long> getAvatarGuidListList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_guid_list = 10;</code>
+     * @return The count of avatarGuidList.
+     */
+    int getAvatarGuidListCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_guid_list = 10;</code>
+     * @param index The index of the element to return.
+     * @return The avatarGuidList at the given index.
+     */
+    long getAvatarGuidList(int index);
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint64 cur_avatar_guid = 11;</code>
+     * @return The curAvatarGuid.
+     */
+    long getCurAvatarGuid();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>int32 retcode = 7;</code>
+     * @return The retcode.
+     */
+>>>>>>> origin/6.5.0
     int getRetcode();
   }
   /**
@@ -147,17 +197,51 @@ public final class ChangeMpTeamAvatarRspOuterClass {
 
     public static final int AVATAR_GUID_LIST_FIELD_NUMBER = 10;
     private com.google.protobuf.Internal.LongList avatarGuidList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_guid_list = 10;</code>
+     * @return A list containing the avatarGuidList.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Long>
         getAvatarGuidListList() {
       return avatarGuidList_;
     }
+<<<<<<< HEAD
 
     public int getAvatarGuidListCount() {
       return avatarGuidList_.size();
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_guid_list = 10;</code>
+     * @return The count of avatarGuidList.
+     */
+    public int getAvatarGuidListCount() {
+      return avatarGuidList_.size();
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_guid_list = 10;</code>
+     * @param index The index of the element to return.
+     * @return The avatarGuidList at the given index.
+     */
+>>>>>>> origin/6.5.0
     public long getAvatarGuidList(int index) {
       return avatarGuidList_.getLong(index);
     }
@@ -165,7 +249,18 @@ public final class ChangeMpTeamAvatarRspOuterClass {
 
     public static final int CUR_AVATAR_GUID_FIELD_NUMBER = 3;
     private long curAvatarGuid_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint64 cur_avatar_guid = 11;</code>
+     * @return The curAvatarGuid.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getCurAvatarGuid() {
       return curAvatarGuid_;
@@ -173,7 +268,18 @@ public final class ChangeMpTeamAvatarRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 6;
     private int retcode_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>int32 retcode = 7;</code>
+     * @return The retcode.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -557,12 +663,24 @@ public final class ChangeMpTeamAvatarRspOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_guid_list = 10;</code>
+       * @return A list containing the avatarGuidList.
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Long>
           getAvatarGuidListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(avatarGuidList_) : avatarGuidList_;
       }
+<<<<<<< HEAD
 
       public int getAvatarGuidListCount() {
         return avatarGuidList_.size();
@@ -572,6 +690,41 @@ public final class ChangeMpTeamAvatarRspOuterClass {
         return avatarGuidList_.getLong(index);
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_guid_list = 10;</code>
+       * @return The count of avatarGuidList.
+       */
+      public int getAvatarGuidListCount() {
+        return avatarGuidList_.size();
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_guid_list = 10;</code>
+       * @param index The index of the element to return.
+       * @return The avatarGuidList at the given index.
+       */
+      public long getAvatarGuidList(int index) {
+        return avatarGuidList_.getLong(index);
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_guid_list = 10;</code>
+       * @param index The index to set the value at.
+       * @param value The avatarGuidList to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setAvatarGuidList(
           int index, long value) {
         ensureAvatarGuidListIsMutable();
@@ -579,14 +732,38 @@ public final class ChangeMpTeamAvatarRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_guid_list = 10;</code>
+       * @param value The avatarGuidList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addAvatarGuidList(long value) {
         ensureAvatarGuidListIsMutable();
         avatarGuidList_.addLong(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_guid_list = 10;</code>
+       * @param values The avatarGuidList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllAvatarGuidList(
           java.lang.Iterable<? extends java.lang.Long> values) {
         ensureAvatarGuidListIsMutable();
@@ -595,7 +772,18 @@ public final class ChangeMpTeamAvatarRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_guid_list = 10;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearAvatarGuidList() {
         avatarGuidList_ = emptyLongList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -604,19 +792,53 @@ public final class ChangeMpTeamAvatarRspOuterClass {
       }
 
       private long curAvatarGuid_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 cur_avatar_guid = 11;</code>
+       * @return The curAvatarGuid.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getCurAvatarGuid() {
         return curAvatarGuid_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 cur_avatar_guid = 11;</code>
+       * @param value The curAvatarGuid to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setCurAvatarGuid(long value) {
 
         curAvatarGuid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 cur_avatar_guid = 11;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearCurAvatarGuid() {
 
         curAvatarGuid_ = 0L;
@@ -625,19 +847,53 @@ public final class ChangeMpTeamAvatarRspOuterClass {
       }
 
       private int retcode_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 7;</code>
+       * @return The retcode.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 7;</code>
+       * @param value The retcode to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
 
         retcode_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 7;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearRetcode() {
 
         retcode_ = 0;

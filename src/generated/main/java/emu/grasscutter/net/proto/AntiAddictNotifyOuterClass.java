@@ -18,6 +18,7 @@ public final class AntiAddictNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:AntiAddictNotify)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     java.lang.String getLevel();
 
     com.google.protobuf.ByteString
@@ -28,6 +29,56 @@ public final class AntiAddictNotifyOuterClass {
     com.google.protobuf.ByteString
         getMsgBytes();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>string level = 3;</code>
+     * @return The level.
+     */
+    java.lang.String getLevel();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>string level = 3;</code>
+     * @return The bytes for level.
+     */
+    com.google.protobuf.ByteString
+        getLevelBytes();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>string msg = 11;</code>
+     * @return The msg.
+     */
+    java.lang.String getMsg();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>string msg = 11;</code>
+     * @return The bytes for msg.
+     */
+    com.google.protobuf.ByteString
+        getMsgBytes();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>int32 msg_type = 8;</code>
+     * @return The msgType.
+     */
+>>>>>>> origin/6.5.0
     int getMsgType();
   }
   /**
@@ -132,7 +183,18 @@ public final class AntiAddictNotifyOuterClass {
 
     public static final int LEVEL_FIELD_NUMBER = 7;
     private volatile java.lang.Object level_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>string level = 3;</code>
+     * @return The level.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getLevel() {
       java.lang.Object ref = level_;
@@ -146,7 +208,18 @@ public final class AntiAddictNotifyOuterClass {
         return s;
       }
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>string level = 3;</code>
+     * @return The bytes for level.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getLevelBytes() {
@@ -164,7 +237,18 @@ public final class AntiAddictNotifyOuterClass {
 
     public static final int MSG_FIELD_NUMBER = 4;
     private volatile java.lang.Object msg_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>string msg = 11;</code>
+     * @return The msg.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getMsg() {
       java.lang.Object ref = msg_;
@@ -178,7 +262,18 @@ public final class AntiAddictNotifyOuterClass {
         return s;
       }
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>string msg = 11;</code>
+     * @return The bytes for msg.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getMsgBytes() {
@@ -196,7 +291,18 @@ public final class AntiAddictNotifyOuterClass {
 
     public static final int MSG_TYPE_FIELD_NUMBER = 3;
     private int msgType_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>int32 msg_type = 8;</code>
+     * @return The msgType.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getMsgType() {
       return msgType_;
@@ -543,7 +649,18 @@ public final class AntiAddictNotifyOuterClass {
       }
 
       private java.lang.Object level_ = "";
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>string level = 3;</code>
+       * @return The level.
+       */
+>>>>>>> origin/6.5.0
       public java.lang.String getLevel() {
         java.lang.Object ref = level_;
         if (!(ref instanceof java.lang.String)) {
@@ -556,7 +673,18 @@ public final class AntiAddictNotifyOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>string level = 3;</code>
+       * @return The bytes for level.
+       */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getLevelBytes() {
         java.lang.Object ref = level_;
@@ -570,7 +698,19 @@ public final class AntiAddictNotifyOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>string level = 3;</code>
+       * @param value The level to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setLevel(
           java.lang.String value) {
         if (value == null) {
@@ -581,14 +721,37 @@ public final class AntiAddictNotifyOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>string level = 3;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearLevel() {
 
         level_ = getDefaultInstance().getLevel();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>string level = 3;</code>
+       * @param value The bytes for level to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setLevelBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -602,7 +765,18 @@ public final class AntiAddictNotifyOuterClass {
       }
 
       private java.lang.Object msg_ = "";
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>string msg = 11;</code>
+       * @return The msg.
+       */
+>>>>>>> origin/6.5.0
       public java.lang.String getMsg() {
         java.lang.Object ref = msg_;
         if (!(ref instanceof java.lang.String)) {
@@ -615,7 +789,18 @@ public final class AntiAddictNotifyOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>string msg = 11;</code>
+       * @return The bytes for msg.
+       */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getMsgBytes() {
         java.lang.Object ref = msg_;
@@ -629,7 +814,19 @@ public final class AntiAddictNotifyOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>string msg = 11;</code>
+       * @param value The msg to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setMsg(
           java.lang.String value) {
         if (value == null) {
@@ -640,14 +837,37 @@ public final class AntiAddictNotifyOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>string msg = 11;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearMsg() {
 
         msg_ = getDefaultInstance().getMsg();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>string msg = 11;</code>
+       * @param value The bytes for msg to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setMsgBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -661,19 +881,53 @@ public final class AntiAddictNotifyOuterClass {
       }
 
       private int msgType_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>int32 msg_type = 8;</code>
+       * @return The msgType.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getMsgType() {
         return msgType_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>int32 msg_type = 8;</code>
+       * @param value The msgType to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setMsgType(int value) {
 
         msgType_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>int32 msg_type = 8;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearMsgType() {
 
         msgType_ = 0;

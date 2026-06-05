@@ -18,10 +18,40 @@ public final class DealAddFriendReqOuterClass {
       // @@protoc_insertion_point(interface_extends:DealAddFriendReq)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     int getDealAddFriendResultValue();
 
     emu.grasscutter.net.proto.DealAddFriendResultTypeOuterClass.DealAddFriendResultType getDealAddFriendResult();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.DealAddFriendResultType deal_add_friend_result = 14;</code>
+     * @return The enum numeric value on the wire for dealAddFriendResult.
+     */
+    int getDealAddFriendResultValue();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.DealAddFriendResultType deal_add_friend_result = 14;</code>
+     * @return The dealAddFriendResult.
+     */
+    emu.grasscutter.net.proto.DealAddFriendResultTypeOuterClass.DealAddFriendResultType getDealAddFriendResult();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 target_uid = 4;</code>
+     * @return The targetUid.
+     */
+>>>>>>> origin/6.5.0
     int getTargetUid();
   }
   /**
@@ -119,11 +149,33 @@ public final class DealAddFriendReqOuterClass {
 
     public static final int DEAL_ADD_FRIEND_RESULT_FIELD_NUMBER = 6;
     private int dealAddFriendResult_;
+<<<<<<< HEAD
 
     @java.lang.Override public int getDealAddFriendResultValue() {
       return dealAddFriendResult_;
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.DealAddFriendResultType deal_add_friend_result = 14;</code>
+     * @return The enum numeric value on the wire for dealAddFriendResult.
+     */
+    @java.lang.Override public int getDealAddFriendResultValue() {
+      return dealAddFriendResult_;
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.DealAddFriendResultType deal_add_friend_result = 14;</code>
+     * @return The dealAddFriendResult.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override public emu.grasscutter.net.proto.DealAddFriendResultTypeOuterClass.DealAddFriendResultType getDealAddFriendResult() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.DealAddFriendResultTypeOuterClass.DealAddFriendResultType result = emu.grasscutter.net.proto.DealAddFriendResultTypeOuterClass.DealAddFriendResultType.valueOf(dealAddFriendResult_);
@@ -132,7 +184,18 @@ public final class DealAddFriendReqOuterClass {
 
     public static final int TARGET_UID_FIELD_NUMBER = 14;
     private int targetUid_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 target_uid = 4;</code>
+     * @return The targetUid.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getTargetUid() {
       return targetUid_;
@@ -461,25 +524,71 @@ public final class DealAddFriendReqOuterClass {
       }
 
       private int dealAddFriendResult_ = 0;
+<<<<<<< HEAD
 
       @java.lang.Override public int getDealAddFriendResultValue() {
         return dealAddFriendResult_;
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.DealAddFriendResultType deal_add_friend_result = 14;</code>
+       * @return The enum numeric value on the wire for dealAddFriendResult.
+       */
+      @java.lang.Override public int getDealAddFriendResultValue() {
+        return dealAddFriendResult_;
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.DealAddFriendResultType deal_add_friend_result = 14;</code>
+       * @param value The enum numeric value on the wire for dealAddFriendResult to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setDealAddFriendResultValue(int value) {
 
         dealAddFriendResult_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.DealAddFriendResultType deal_add_friend_result = 14;</code>
+       * @return The dealAddFriendResult.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.DealAddFriendResultTypeOuterClass.DealAddFriendResultType getDealAddFriendResult() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.DealAddFriendResultTypeOuterClass.DealAddFriendResultType result = emu.grasscutter.net.proto.DealAddFriendResultTypeOuterClass.DealAddFriendResultType.valueOf(dealAddFriendResult_);
         return result == null ? emu.grasscutter.net.proto.DealAddFriendResultTypeOuterClass.DealAddFriendResultType.UNRECOGNIZED : result;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.DealAddFriendResultType deal_add_friend_result = 14;</code>
+       * @param value The dealAddFriendResult to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setDealAddFriendResult(emu.grasscutter.net.proto.DealAddFriendResultTypeOuterClass.DealAddFriendResultType value) {
         if (value == null) {
           throw new NullPointerException();
@@ -489,7 +598,18 @@ public final class DealAddFriendReqOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.DealAddFriendResultType deal_add_friend_result = 14;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearDealAddFriendResult() {
 
         dealAddFriendResult_ = 0;
@@ -498,19 +618,53 @@ public final class DealAddFriendReqOuterClass {
       }
 
       private int targetUid_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 target_uid = 4;</code>
+       * @return The targetUid.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getTargetUid() {
         return targetUid_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 target_uid = 4;</code>
+       * @param value The targetUid to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setTargetUid(int value) {
 
         targetUid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 target_uid = 4;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearTargetUid() {
 
         targetUid_ = 0;

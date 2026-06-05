@@ -18,6 +18,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:CrucibleActivityDetailInfo)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     java.util.List<emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHML>
         getUidInfoListList();
 
@@ -35,6 +36,77 @@ public final class CrucibleActivityDetailInfoOuterClass {
 
     emu.grasscutter.net.proto.VectorOuterClass.Vector getPos();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
+     */
+    java.util.List<emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHML> 
+        getUidInfoListList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
+     */
+    emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHML getUidInfoList(int index);
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
+     */
+    int getUidInfoListCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHMLOrBuilder> 
+        getUidInfoListOrBuilderList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
+     */
+    emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHMLOrBuilder getUidInfoListOrBuilder(
+        int index);
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>.Vector pos = 8;</code>
+     * @return Whether the pos field is set.
+     */
+    boolean hasPos();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>.Vector pos = 8;</code>
+     * @return The pos.
+     */
+    emu.grasscutter.net.proto.VectorOuterClass.Vector getPos();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>.Vector pos = 8;</code>
+     */
+>>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPosOrBuilder();
 
     /**
@@ -43,6 +115,17 @@ public final class CrucibleActivityDetailInfoOuterClass {
      */
     int getKPLMJOFOGOF();
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 cost_time = 1;</code>
+     * @return The costTime.
+     */
+>>>>>>> origin/6.5.0
     int getCostTime();
   }
   /**
@@ -161,28 +244,78 @@ public final class CrucibleActivityDetailInfoOuterClass {
 
     public static final int UID_INFO_LIST_FIELD_NUMBER = 13;
     private java.util.List<emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHML> uidInfoList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHML> getUidInfoListList() {
       return uidInfoList_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHMLOrBuilder>
         getUidInfoListOrBuilderList() {
       return uidInfoList_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getUidInfoListCount() {
       return uidInfoList_.size();
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHML getUidInfoList(int index) {
       return uidInfoList_.get(index);
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHMLOrBuilder getUidInfoListOrBuilder(
         int index) {
@@ -191,17 +324,49 @@ public final class CrucibleActivityDetailInfoOuterClass {
 
     public static final int POS_FIELD_NUMBER = 4;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>.Vector pos = 8;</code>
+     * @return Whether the pos field is set.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasPos() {
       return pos_ != null;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>.Vector pos = 8;</code>
+     * @return The pos.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.Vector getPos() {
       return pos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : pos_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>.Vector pos = 8;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPosOrBuilder() {
       return getPos();
@@ -220,7 +385,18 @@ public final class CrucibleActivityDetailInfoOuterClass {
 
     public static final int COST_TIME_FIELD_NUMBER = 1;
     private int costTime_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 cost_time = 1;</code>
+     * @return The costTime.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCostTime() {
       return costTime_;
@@ -644,6 +820,16 @@ public final class CrucibleActivityDetailInfoOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHML, emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHML.Builder, emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHMLOrBuilder> uidInfoListBuilder_;
 
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHML> getUidInfoListList() {
         if (uidInfoListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(uidInfoList_);
@@ -651,7 +837,17 @@ public final class CrucibleActivityDetailInfoOuterClass {
           return uidInfoListBuilder_.getMessageList();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
+       */
+>>>>>>> origin/6.5.0
       public int getUidInfoListCount() {
         if (uidInfoListBuilder_ == null) {
           return uidInfoList_.size();
@@ -659,7 +855,17 @@ public final class CrucibleActivityDetailInfoOuterClass {
           return uidInfoListBuilder_.getCount();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHML getUidInfoList(int index) {
         if (uidInfoListBuilder_ == null) {
           return uidInfoList_.get(index);
@@ -667,7 +873,17 @@ public final class CrucibleActivityDetailInfoOuterClass {
           return uidInfoListBuilder_.getMessage(index);
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setUidInfoList(
           int index, emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHML value) {
         if (uidInfoListBuilder_ == null) {
@@ -682,7 +898,17 @@ public final class CrucibleActivityDetailInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setUidInfoList(
           int index, emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHML.Builder builderForValue) {
         if (uidInfoListBuilder_ == null) {
@@ -694,7 +920,17 @@ public final class CrucibleActivityDetailInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addUidInfoList(emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHML value) {
         if (uidInfoListBuilder_ == null) {
           if (value == null) {
@@ -708,7 +944,17 @@ public final class CrucibleActivityDetailInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addUidInfoList(
           int index, emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHML value) {
         if (uidInfoListBuilder_ == null) {
@@ -723,7 +969,17 @@ public final class CrucibleActivityDetailInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addUidInfoList(
           emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHML.Builder builderForValue) {
         if (uidInfoListBuilder_ == null) {
@@ -735,7 +991,17 @@ public final class CrucibleActivityDetailInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addUidInfoList(
           int index, emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHML.Builder builderForValue) {
         if (uidInfoListBuilder_ == null) {
@@ -747,7 +1013,17 @@ public final class CrucibleActivityDetailInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllUidInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHML> values) {
         if (uidInfoListBuilder_ == null) {
@@ -760,7 +1036,17 @@ public final class CrucibleActivityDetailInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder clearUidInfoList() {
         if (uidInfoListBuilder_ == null) {
           uidInfoList_ = java.util.Collections.emptyList();
@@ -771,7 +1057,17 @@ public final class CrucibleActivityDetailInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder removeUidInfoList(int index) {
         if (uidInfoListBuilder_ == null) {
           ensureUidInfoListIsMutable();
@@ -782,12 +1078,32 @@ public final class CrucibleActivityDetailInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHML.Builder getUidInfoListBuilder(
           int index) {
         return getUidInfoListFieldBuilder().getBuilder(index);
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHMLOrBuilder getUidInfoListOrBuilder(
           int index) {
         if (uidInfoListBuilder_ == null) {
@@ -795,8 +1111,19 @@ public final class CrucibleActivityDetailInfoOuterClass {
           return uidInfoListBuilder_.getMessageOrBuilder(index);
         }
       }
+<<<<<<< HEAD
 
       public java.util.List<? extends emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHMLOrBuilder>
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHMLOrBuilder> 
+>>>>>>> origin/6.5.0
            getUidInfoListOrBuilderList() {
         if (uidInfoListBuilder_ != null) {
           return uidInfoListBuilder_.getMessageOrBuilderList();
@@ -804,19 +1131,50 @@ public final class CrucibleActivityDetailInfoOuterClass {
           return java.util.Collections.unmodifiableList(uidInfoList_);
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHML.Builder addUidInfoListBuilder() {
         return getUidInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHML.getDefaultInstance());
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHML.Builder addUidInfoListBuilder(
           int index) {
         return getUidInfoListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHML.getDefaultInstance());
       }
+<<<<<<< HEAD
 
       public java.util.List<emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHML.Builder>
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHML.Builder> 
+>>>>>>> origin/6.5.0
            getUidInfoListBuilderList() {
         return getUidInfoListFieldBuilder().getBuilderList();
       }
@@ -838,11 +1196,33 @@ public final class CrucibleActivityDetailInfoOuterClass {
       private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> posBuilder_;
+<<<<<<< HEAD
 
       public boolean hasPos() {
         return posBuilder_ != null || pos_ != null;
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>.Vector pos = 8;</code>
+       * @return Whether the pos field is set.
+       */
+      public boolean hasPos() {
+        return posBuilder_ != null || pos_ != null;
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>.Vector pos = 8;</code>
+       * @return The pos.
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.Vector getPos() {
         if (posBuilder_ == null) {
           return pos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : pos_;
@@ -850,7 +1230,17 @@ public final class CrucibleActivityDetailInfoOuterClass {
           return posBuilder_.getMessage();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>.Vector pos = 8;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (posBuilder_ == null) {
           if (value == null) {
@@ -864,7 +1254,17 @@ public final class CrucibleActivityDetailInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>.Vector pos = 8;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setPos(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
         if (posBuilder_ == null) {
@@ -876,7 +1276,17 @@ public final class CrucibleActivityDetailInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>.Vector pos = 8;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder mergePos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (posBuilder_ == null) {
           if (pos_ != null) {
@@ -892,7 +1302,17 @@ public final class CrucibleActivityDetailInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>.Vector pos = 8;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder clearPos() {
         if (posBuilder_ == null) {
           pos_ = null;
@@ -904,13 +1324,33 @@ public final class CrucibleActivityDetailInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>.Vector pos = 8;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getPosBuilder() {
 
         onChanged();
         return getPosFieldBuilder().getBuilder();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>.Vector pos = 8;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPosOrBuilder() {
         if (posBuilder_ != null) {
           return posBuilder_.getMessageOrBuilder();
@@ -919,7 +1359,17 @@ public final class CrucibleActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : pos_;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>.Vector pos = 8;</code>
+       */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getPosFieldBuilder() {
@@ -966,19 +1416,53 @@ public final class CrucibleActivityDetailInfoOuterClass {
       }
 
       private int costTime_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 cost_time = 1;</code>
+       * @return The costTime.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCostTime() {
         return costTime_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 cost_time = 1;</code>
+       * @param value The costTime to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setCostTime(int value) {
 
         costTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 cost_time = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearCostTime() {
 
         costTime_ = 0;

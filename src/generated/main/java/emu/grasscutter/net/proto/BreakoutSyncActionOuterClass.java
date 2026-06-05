@@ -18,10 +18,38 @@ public final class BreakoutSyncActionOuterClass {
       // @@protoc_insertion_point(interface_extends:BreakoutSyncAction)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     boolean hasAction();
 
     emu.grasscutter.net.proto.BreakoutActionOuterClass.BreakoutAction getAction();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>.BreakoutAction action = 6;</code>
+     * @return Whether the action field is set.
+     */
+    boolean hasAction();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>.BreakoutAction action = 6;</code>
+     * @return The action.
+     */
+    emu.grasscutter.net.proto.BreakoutActionOuterClass.BreakoutAction getAction();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>.BreakoutAction action = 6;</code>
+     */
+>>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.BreakoutActionOuterClass.BreakoutActionOrBuilder getActionOrBuilder();
   }
   /**
@@ -116,17 +144,49 @@ public final class BreakoutSyncActionOuterClass {
 
     public static final int ACTION_FIELD_NUMBER = 15;
     private emu.grasscutter.net.proto.BreakoutActionOuterClass.BreakoutAction action_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>.BreakoutAction action = 6;</code>
+     * @return Whether the action field is set.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasAction() {
       return action_ != null;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>.BreakoutAction action = 6;</code>
+     * @return The action.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.BreakoutActionOuterClass.BreakoutAction getAction() {
       return action_ == null ? emu.grasscutter.net.proto.BreakoutActionOuterClass.BreakoutAction.getDefaultInstance() : action_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>.BreakoutAction action = 6;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.BreakoutActionOuterClass.BreakoutActionOrBuilder getActionOrBuilder() {
       return getAction();
@@ -450,11 +510,33 @@ public final class BreakoutSyncActionOuterClass {
       private emu.grasscutter.net.proto.BreakoutActionOuterClass.BreakoutAction action_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.BreakoutActionOuterClass.BreakoutAction, emu.grasscutter.net.proto.BreakoutActionOuterClass.BreakoutAction.Builder, emu.grasscutter.net.proto.BreakoutActionOuterClass.BreakoutActionOrBuilder> actionBuilder_;
+<<<<<<< HEAD
 
       public boolean hasAction() {
         return actionBuilder_ != null || action_ != null;
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>.BreakoutAction action = 6;</code>
+       * @return Whether the action field is set.
+       */
+      public boolean hasAction() {
+        return actionBuilder_ != null || action_ != null;
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>.BreakoutAction action = 6;</code>
+       * @return The action.
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BreakoutActionOuterClass.BreakoutAction getAction() {
         if (actionBuilder_ == null) {
           return action_ == null ? emu.grasscutter.net.proto.BreakoutActionOuterClass.BreakoutAction.getDefaultInstance() : action_;
@@ -462,7 +544,17 @@ public final class BreakoutSyncActionOuterClass {
           return actionBuilder_.getMessage();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>.BreakoutAction action = 6;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setAction(emu.grasscutter.net.proto.BreakoutActionOuterClass.BreakoutAction value) {
         if (actionBuilder_ == null) {
           if (value == null) {
@@ -476,7 +568,17 @@ public final class BreakoutSyncActionOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>.BreakoutAction action = 6;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setAction(
           emu.grasscutter.net.proto.BreakoutActionOuterClass.BreakoutAction.Builder builderForValue) {
         if (actionBuilder_ == null) {
@@ -488,7 +590,17 @@ public final class BreakoutSyncActionOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>.BreakoutAction action = 6;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder mergeAction(emu.grasscutter.net.proto.BreakoutActionOuterClass.BreakoutAction value) {
         if (actionBuilder_ == null) {
           if (action_ != null) {
@@ -504,7 +616,17 @@ public final class BreakoutSyncActionOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>.BreakoutAction action = 6;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder clearAction() {
         if (actionBuilder_ == null) {
           action_ = null;
@@ -516,13 +638,33 @@ public final class BreakoutSyncActionOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>.BreakoutAction action = 6;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BreakoutActionOuterClass.BreakoutAction.Builder getActionBuilder() {
 
         onChanged();
         return getActionFieldBuilder().getBuilder();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>.BreakoutAction action = 6;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BreakoutActionOuterClass.BreakoutActionOrBuilder getActionOrBuilder() {
         if (actionBuilder_ != null) {
           return actionBuilder_.getMessageOrBuilder();
@@ -531,7 +673,17 @@ public final class BreakoutSyncActionOuterClass {
               emu.grasscutter.net.proto.BreakoutActionOuterClass.BreakoutAction.getDefaultInstance() : action_;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>.BreakoutAction action = 6;</code>
+       */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.BreakoutActionOuterClass.BreakoutAction, emu.grasscutter.net.proto.BreakoutActionOuterClass.BreakoutAction.Builder, emu.grasscutter.net.proto.BreakoutActionOuterClass.BreakoutActionOrBuilder>
           getActionFieldBuilder() {

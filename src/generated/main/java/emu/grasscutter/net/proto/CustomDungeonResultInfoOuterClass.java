@@ -18,6 +18,7 @@ public final class CustomDungeonResultInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:CustomDungeonResultInfo)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     java.util.List<emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBrief>
         getChildChallengeListList();
 
@@ -35,6 +36,80 @@ public final class CustomDungeonResultInfoOuterClass {
 
     int getTimeCost();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
+     */
+    java.util.List<emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBrief> 
+        getChildChallengeListList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
+     */
+    emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBrief getChildChallengeList(int index);
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
+     */
+    int getChildChallengeListCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBriefOrBuilder> 
+        getChildChallengeListOrBuilderList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
+     */
+    emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBriefOrBuilder getChildChallengeListOrBuilder(
+        int index);
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint64 dungeon_guid = 12;</code>
+     * @return The dungeonGuid.
+     */
+    long getDungeonGuid();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 time_cost = 14;</code>
+     * @return The timeCost.
+     */
+    int getTimeCost();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>bool is_arrive_finish = 4;</code>
+     * @return The isArriveFinish.
+     */
+>>>>>>> origin/6.5.0
     boolean getIsArriveFinish();
 
     /**
@@ -43,10 +118,40 @@ public final class CustomDungeonResultInfoOuterClass {
      */
     boolean getHCOANLIOFCA();
 
+<<<<<<< HEAD
     int getGotCoinNum();
 
     int getFinishTypeValue();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 got_coin_num = 2;</code>
+     * @return The gotCoinNum.
+     */
+    int getGotCoinNum();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.CustomDungeonFinishType finish_type = 3;</code>
+     * @return The enum numeric value on the wire for finishType.
+     */
+    int getFinishTypeValue();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.CustomDungeonFinishType finish_type = 3;</code>
+     * @return The finishType.
+     */
+>>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.CustomDungeonFinishTypeOuterClass.CustomDungeonFinishType getFinishType();
   }
   /**
@@ -174,28 +279,78 @@ public final class CustomDungeonResultInfoOuterClass {
 
     public static final int CHILD_CHALLENGE_LIST_FIELD_NUMBER = 3;
     private java.util.List<emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBrief> childChallengeList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBrief> getChildChallengeListList() {
       return childChallengeList_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBriefOrBuilder>
         getChildChallengeListOrBuilderList() {
       return childChallengeList_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getChildChallengeListCount() {
       return childChallengeList_.size();
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBrief getChildChallengeList(int index) {
       return childChallengeList_.get(index);
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBriefOrBuilder getChildChallengeListOrBuilder(
         int index) {
@@ -204,7 +359,18 @@ public final class CustomDungeonResultInfoOuterClass {
 
     public static final int DUNGEON_GUID_FIELD_NUMBER = 13;
     private long dungeonGuid_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint64 dungeon_guid = 12;</code>
+     * @return The dungeonGuid.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getDungeonGuid() {
       return dungeonGuid_;
@@ -212,7 +378,18 @@ public final class CustomDungeonResultInfoOuterClass {
 
     public static final int TIME_COST_FIELD_NUMBER = 14;
     private int timeCost_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 time_cost = 14;</code>
+     * @return The timeCost.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getTimeCost() {
       return timeCost_;
@@ -220,7 +397,18 @@ public final class CustomDungeonResultInfoOuterClass {
 
     public static final int IS_ARRIVE_FINISH_FIELD_NUMBER = 4;
     private boolean isArriveFinish_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>bool is_arrive_finish = 4;</code>
+     * @return The isArriveFinish.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsArriveFinish() {
       return isArriveFinish_;
@@ -239,7 +427,18 @@ public final class CustomDungeonResultInfoOuterClass {
 
     public static final int GOT_COIN_NUM_FIELD_NUMBER = 2;
     private int gotCoinNum_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 got_coin_num = 2;</code>
+     * @return The gotCoinNum.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getGotCoinNum() {
       return gotCoinNum_;
@@ -247,11 +446,33 @@ public final class CustomDungeonResultInfoOuterClass {
 
     public static final int FINISH_TYPE_FIELD_NUMBER = 14;
     private int finishType_;
+<<<<<<< HEAD
 
     @java.lang.Override public int getFinishTypeValue() {
       return finishType_;
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.CustomDungeonFinishType finish_type = 3;</code>
+     * @return The enum numeric value on the wire for finishType.
+     */
+    @java.lang.Override public int getFinishTypeValue() {
+      return finishType_;
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.CustomDungeonFinishType finish_type = 3;</code>
+     * @return The finishType.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override public emu.grasscutter.net.proto.CustomDungeonFinishTypeOuterClass.CustomDungeonFinishType getFinishType() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.CustomDungeonFinishTypeOuterClass.CustomDungeonFinishType result = emu.grasscutter.net.proto.CustomDungeonFinishTypeOuterClass.CustomDungeonFinishType.valueOf(finishType_);
@@ -716,6 +937,16 @@ public final class CustomDungeonResultInfoOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBrief, emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBrief.Builder, emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBriefOrBuilder> childChallengeListBuilder_;
 
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBrief> getChildChallengeListList() {
         if (childChallengeListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(childChallengeList_);
@@ -723,7 +954,17 @@ public final class CustomDungeonResultInfoOuterClass {
           return childChallengeListBuilder_.getMessageList();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
+       */
+>>>>>>> origin/6.5.0
       public int getChildChallengeListCount() {
         if (childChallengeListBuilder_ == null) {
           return childChallengeList_.size();
@@ -731,7 +972,17 @@ public final class CustomDungeonResultInfoOuterClass {
           return childChallengeListBuilder_.getCount();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBrief getChildChallengeList(int index) {
         if (childChallengeListBuilder_ == null) {
           return childChallengeList_.get(index);
@@ -739,7 +990,17 @@ public final class CustomDungeonResultInfoOuterClass {
           return childChallengeListBuilder_.getMessage(index);
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setChildChallengeList(
           int index, emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBrief value) {
         if (childChallengeListBuilder_ == null) {
@@ -754,7 +1015,17 @@ public final class CustomDungeonResultInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setChildChallengeList(
           int index, emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBrief.Builder builderForValue) {
         if (childChallengeListBuilder_ == null) {
@@ -766,7 +1037,17 @@ public final class CustomDungeonResultInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addChildChallengeList(emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBrief value) {
         if (childChallengeListBuilder_ == null) {
           if (value == null) {
@@ -780,7 +1061,17 @@ public final class CustomDungeonResultInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addChildChallengeList(
           int index, emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBrief value) {
         if (childChallengeListBuilder_ == null) {
@@ -795,7 +1086,17 @@ public final class CustomDungeonResultInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addChildChallengeList(
           emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBrief.Builder builderForValue) {
         if (childChallengeListBuilder_ == null) {
@@ -807,7 +1108,17 @@ public final class CustomDungeonResultInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addChildChallengeList(
           int index, emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBrief.Builder builderForValue) {
         if (childChallengeListBuilder_ == null) {
@@ -819,7 +1130,17 @@ public final class CustomDungeonResultInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllChildChallengeList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBrief> values) {
         if (childChallengeListBuilder_ == null) {
@@ -832,7 +1153,17 @@ public final class CustomDungeonResultInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder clearChildChallengeList() {
         if (childChallengeListBuilder_ == null) {
           childChallengeList_ = java.util.Collections.emptyList();
@@ -843,7 +1174,17 @@ public final class CustomDungeonResultInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder removeChildChallengeList(int index) {
         if (childChallengeListBuilder_ == null) {
           ensureChildChallengeListIsMutable();
@@ -854,12 +1195,32 @@ public final class CustomDungeonResultInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBrief.Builder getChildChallengeListBuilder(
           int index) {
         return getChildChallengeListFieldBuilder().getBuilder(index);
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBriefOrBuilder getChildChallengeListOrBuilder(
           int index) {
         if (childChallengeListBuilder_ == null) {
@@ -867,8 +1228,19 @@ public final class CustomDungeonResultInfoOuterClass {
           return childChallengeListBuilder_.getMessageOrBuilder(index);
         }
       }
+<<<<<<< HEAD
 
       public java.util.List<? extends emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBriefOrBuilder>
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBriefOrBuilder> 
+>>>>>>> origin/6.5.0
            getChildChallengeListOrBuilderList() {
         if (childChallengeListBuilder_ != null) {
           return childChallengeListBuilder_.getMessageOrBuilderList();
@@ -876,19 +1248,50 @@ public final class CustomDungeonResultInfoOuterClass {
           return java.util.Collections.unmodifiableList(childChallengeList_);
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBrief.Builder addChildChallengeListBuilder() {
         return getChildChallengeListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBrief.getDefaultInstance());
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBrief.Builder addChildChallengeListBuilder(
           int index) {
         return getChildChallengeListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBrief.getDefaultInstance());
       }
+<<<<<<< HEAD
 
       public java.util.List<emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBrief.Builder>
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBrief.Builder> 
+>>>>>>> origin/6.5.0
            getChildChallengeListBuilderList() {
         return getChildChallengeListFieldBuilder().getBuilderList();
       }
@@ -908,19 +1311,53 @@ public final class CustomDungeonResultInfoOuterClass {
       }
 
       private long dungeonGuid_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint64 dungeon_guid = 12;</code>
+       * @return The dungeonGuid.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getDungeonGuid() {
         return dungeonGuid_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint64 dungeon_guid = 12;</code>
+       * @param value The dungeonGuid to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setDungeonGuid(long value) {
 
         dungeonGuid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint64 dungeon_guid = 12;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearDungeonGuid() {
 
         dungeonGuid_ = 0L;
@@ -929,19 +1366,53 @@ public final class CustomDungeonResultInfoOuterClass {
       }
 
       private int timeCost_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 time_cost = 14;</code>
+       * @return The timeCost.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getTimeCost() {
         return timeCost_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 time_cost = 14;</code>
+       * @param value The timeCost to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setTimeCost(int value) {
 
         timeCost_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 time_cost = 14;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearTimeCost() {
 
         timeCost_ = 0;
@@ -950,19 +1421,53 @@ public final class CustomDungeonResultInfoOuterClass {
       }
 
       private boolean isArriveFinish_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>bool is_arrive_finish = 4;</code>
+       * @return The isArriveFinish.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsArriveFinish() {
         return isArriveFinish_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>bool is_arrive_finish = 4;</code>
+       * @param value The isArriveFinish to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setIsArriveFinish(boolean value) {
 
         isArriveFinish_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>bool is_arrive_finish = 4;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearIsArriveFinish() {
 
         isArriveFinish_ = false;
@@ -1002,19 +1507,53 @@ public final class CustomDungeonResultInfoOuterClass {
       }
 
       private int gotCoinNum_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 got_coin_num = 2;</code>
+       * @return The gotCoinNum.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getGotCoinNum() {
         return gotCoinNum_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 got_coin_num = 2;</code>
+       * @param value The gotCoinNum to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setGotCoinNum(int value) {
 
         gotCoinNum_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 got_coin_num = 2;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearGotCoinNum() {
 
         gotCoinNum_ = 0;
@@ -1023,25 +1562,71 @@ public final class CustomDungeonResultInfoOuterClass {
       }
 
       private int finishType_ = 0;
+<<<<<<< HEAD
 
       @java.lang.Override public int getFinishTypeValue() {
         return finishType_;
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.CustomDungeonFinishType finish_type = 3;</code>
+       * @return The enum numeric value on the wire for finishType.
+       */
+      @java.lang.Override public int getFinishTypeValue() {
+        return finishType_;
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.CustomDungeonFinishType finish_type = 3;</code>
+       * @param value The enum numeric value on the wire for finishType to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setFinishTypeValue(int value) {
 
         finishType_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.CustomDungeonFinishType finish_type = 3;</code>
+       * @return The finishType.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.CustomDungeonFinishTypeOuterClass.CustomDungeonFinishType getFinishType() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.CustomDungeonFinishTypeOuterClass.CustomDungeonFinishType result = emu.grasscutter.net.proto.CustomDungeonFinishTypeOuterClass.CustomDungeonFinishType.valueOf(finishType_);
         return result == null ? emu.grasscutter.net.proto.CustomDungeonFinishTypeOuterClass.CustomDungeonFinishType.UNRECOGNIZED : result;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.CustomDungeonFinishType finish_type = 3;</code>
+       * @param value The finishType to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setFinishType(emu.grasscutter.net.proto.CustomDungeonFinishTypeOuterClass.CustomDungeonFinishType value) {
         if (value == null) {
           throw new NullPointerException();
@@ -1051,7 +1636,18 @@ public final class CustomDungeonResultInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.CustomDungeonFinishType finish_type = 3;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearFinishType() {
 
         finishType_ = 0;

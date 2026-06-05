@@ -18,8 +18,29 @@ public final class TakeoffEquipReqOuterClass {
       // @@protoc_insertion_point(interface_extends:TakeoffEquipReq)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     int getSlot();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 slot = 9;</code>
+     * @return The slot.
+     */
+    int getSlot();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint64 avatar_guid = 6;</code>
+     * @return The avatarGuid.
+     */
+>>>>>>> origin/6.5.0
     long getAvatarGuid();
   }
   /**
@@ -115,7 +136,18 @@ public final class TakeoffEquipReqOuterClass {
 
     public static final int SLOT_FIELD_NUMBER = 4;
     private int slot_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 slot = 9;</code>
+     * @return The slot.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getSlot() {
       return slot_;
@@ -123,7 +155,18 @@ public final class TakeoffEquipReqOuterClass {
 
     public static final int AVATAR_GUID_FIELD_NUMBER = 1;
     private long avatarGuid_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint64 avatar_guid = 6;</code>
+     * @return The avatarGuid.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getAvatarGuid() {
       return avatarGuid_;
@@ -454,19 +497,53 @@ public final class TakeoffEquipReqOuterClass {
       }
 
       private int slot_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 slot = 9;</code>
+       * @return The slot.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getSlot() {
         return slot_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 slot = 9;</code>
+       * @param value The slot to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setSlot(int value) {
 
         slot_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 slot = 9;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearSlot() {
 
         slot_ = 0;
@@ -475,19 +552,53 @@ public final class TakeoffEquipReqOuterClass {
       }
 
       private long avatarGuid_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 avatar_guid = 6;</code>
+       * @return The avatarGuid.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getAvatarGuid() {
         return avatarGuid_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 avatar_guid = 6;</code>
+       * @param value The avatarGuid to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setAvatarGuid(long value) {
 
         avatarGuid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 avatar_guid = 6;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearAvatarGuid() {
 
         avatarGuid_ = 0L;

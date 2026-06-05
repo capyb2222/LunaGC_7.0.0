@@ -30,8 +30,29 @@ public final class ChallengeBriefOuterClass {
      */
     int getODJLLLPLBHE();
 
+<<<<<<< HEAD
     int getCurProgress();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 cur_progress = 3;</code>
+     * @return The curProgress.
+     */
+    int getCurProgress();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>bool is_success = 7;</code>
+     * @return The isSuccess.
+     */
+>>>>>>> origin/6.5.0
     boolean getIsSuccess();
   }
   /**
@@ -155,7 +176,18 @@ public final class ChallengeBriefOuterClass {
 
     public static final int CUR_PROGRESS_FIELD_NUMBER = 7;
     private int curProgress_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 cur_progress = 3;</code>
+     * @return The curProgress.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCurProgress() {
       return curProgress_;
@@ -163,7 +195,18 @@ public final class ChallengeBriefOuterClass {
 
     public static final int IS_SUCCESS_FIELD_NUMBER = 6;
     private boolean isSuccess_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>bool is_success = 7;</code>
+     * @return The isSuccess.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsSuccess() {
       return isSuccess_;
@@ -586,19 +629,53 @@ public final class ChallengeBriefOuterClass {
       }
 
       private int curProgress_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 cur_progress = 3;</code>
+       * @return The curProgress.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCurProgress() {
         return curProgress_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 cur_progress = 3;</code>
+       * @param value The curProgress to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setCurProgress(int value) {
 
         curProgress_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 cur_progress = 3;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearCurProgress() {
 
         curProgress_ = 0;
@@ -607,19 +684,53 @@ public final class ChallengeBriefOuterClass {
       }
 
       private boolean isSuccess_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>bool is_success = 7;</code>
+       * @return The isSuccess.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsSuccess() {
         return isSuccess_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>bool is_success = 7;</code>
+       * @param value The isSuccess to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setIsSuccess(boolean value) {
 
         isSuccess_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>bool is_success = 7;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearIsSuccess() {
 
         isSuccess_ = false;

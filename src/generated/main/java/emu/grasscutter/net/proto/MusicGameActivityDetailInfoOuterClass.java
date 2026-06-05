@@ -18,8 +18,26 @@ public final class MusicGameActivityDetailInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:MusicGameActivityDetailInfo)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     int getMusicGameRecordMapCount();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
+     */
+    int getMusicGameRecordMapCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
+     */
+>>>>>>> origin/6.5.0
     boolean containsMusicGameRecordMap(
         int key);
     /**
@@ -28,13 +46,42 @@ public final class MusicGameActivityDetailInfoOuterClass {
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord>
     getMusicGameRecordMap();
+<<<<<<< HEAD
 
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord>
     getMusicGameRecordMapMap();
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
+     */
+    java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord>
+    getMusicGameRecordMapMap();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
+     */
+>>>>>>> origin/6.5.0
 
     emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord getMusicGameRecordMapOrDefault(
         int key,
         emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord defaultValue);
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
+     */
+>>>>>>> origin/6.5.0
 
     emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord getMusicGameRecordMapOrThrow(
         int key);
@@ -242,6 +289,16 @@ public final class MusicGameActivityDetailInfoOuterClass {
     public int getMusicGameRecordMapCount() {
       return internalGetMusicGameRecordMap().getMap().size();
     }
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
+     */
+>>>>>>> origin/6.5.0
 
     @java.lang.Override
     public boolean containsMusicGameRecordMap(
@@ -257,13 +314,33 @@ public final class MusicGameActivityDetailInfoOuterClass {
     public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord> getMusicGameRecordMap() {
       return getMusicGameRecordMapMap();
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord> getMusicGameRecordMapMap() {
       return internalGetMusicGameRecordMap().getMap();
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord getMusicGameRecordMapOrDefault(
@@ -274,7 +351,17 @@ public final class MusicGameActivityDetailInfoOuterClass {
           internalGetMusicGameRecordMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord getMusicGameRecordMapOrThrow(
@@ -840,6 +927,16 @@ public final class MusicGameActivityDetailInfoOuterClass {
       public int getMusicGameRecordMapCount() {
         return internalGetMusicGameRecordMap().getMap().size();
       }
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
+       */
+>>>>>>> origin/6.5.0
 
       @java.lang.Override
       public boolean containsMusicGameRecordMap(
@@ -855,13 +952,33 @@ public final class MusicGameActivityDetailInfoOuterClass {
       public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord> getMusicGameRecordMap() {
         return getMusicGameRecordMapMap();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord> getMusicGameRecordMapMap() {
         return internalGetMusicGameRecordMap().getMap();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord getMusicGameRecordMapOrDefault(
@@ -872,7 +989,17 @@ public final class MusicGameActivityDetailInfoOuterClass {
             internalGetMusicGameRecordMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord getMusicGameRecordMapOrThrow(
@@ -891,6 +1018,16 @@ public final class MusicGameActivityDetailInfoOuterClass {
             .clear();
         return this;
       }
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
+       */
+>>>>>>> origin/6.5.0
 
       public Builder removeMusicGameRecordMap(
           int key) {
@@ -907,7 +1044,17 @@ public final class MusicGameActivityDetailInfoOuterClass {
       getMutableMusicGameRecordMap() {
         return internalGetMutableMusicGameRecordMap().getMutableMap();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder putMusicGameRecordMap(
           int key,
           emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord value) {
@@ -917,6 +1064,16 @@ public final class MusicGameActivityDetailInfoOuterClass {
             .put(key, value);
         return this;
       }
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
+       */
+>>>>>>> origin/6.5.0
 
       public Builder putAllMusicGameRecordMap(
           java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord> values) {

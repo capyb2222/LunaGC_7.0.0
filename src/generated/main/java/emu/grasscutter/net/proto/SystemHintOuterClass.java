@@ -18,6 +18,17 @@ public final class SystemHintOuterClass {
       // @@protoc_insertion_point(interface_extends:SystemHint)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 type = 8;</code>
+     * @return The type.
+     */
+>>>>>>> origin/6.5.0
     int getType();
   }
   /**
@@ -104,7 +115,18 @@ public final class SystemHintOuterClass {
 
     public static final int TYPE_FIELD_NUMBER = 8;
     private int type_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 type = 8;</code>
+     * @return The type.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getType() {
       return type_;
@@ -413,19 +435,53 @@ public final class SystemHintOuterClass {
       }
 
       private int type_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 type = 8;</code>
+       * @return The type.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getType() {
         return type_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 type = 8;</code>
+       * @param value The type to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setType(int value) {
 
         type_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 type = 8;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearType() {
 
         type_ = 0;

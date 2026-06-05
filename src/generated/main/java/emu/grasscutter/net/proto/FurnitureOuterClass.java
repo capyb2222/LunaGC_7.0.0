@@ -18,6 +18,17 @@ public final class FurnitureOuterClass {
       // @@protoc_insertion_point(interface_extends:Furniture)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 count = 1;</code>
+     * @return The count.
+     */
+>>>>>>> origin/6.5.0
     int getCount();
   }
   /**
@@ -104,7 +115,18 @@ public final class FurnitureOuterClass {
 
     public static final int COUNT_FIELD_NUMBER = 1;
     private int count_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 count = 1;</code>
+     * @return The count.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCount() {
       return count_;
@@ -413,19 +435,53 @@ public final class FurnitureOuterClass {
       }
 
       private int count_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 count = 1;</code>
+       * @return The count.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCount() {
         return count_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 count = 1;</code>
+       * @param value The count to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setCount(int value) {
 
         count_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 count = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearCount() {
 
         count_ = 0;

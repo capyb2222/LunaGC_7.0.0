@@ -24,8 +24,29 @@ public final class SelectWorktopOptionReqOuterClass {
      */
     int getHEBNJOABFOO();
 
+<<<<<<< HEAD
     int getOptionId();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 option_id = 4;</code>
+     * @return The optionId.
+     */
+    int getOptionId();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 gadget_entity_id = 15;</code>
+     * @return The gadgetEntityId.
+     */
+>>>>>>> origin/6.5.0
     int getGadgetEntityId();
   }
   /**
@@ -137,7 +158,18 @@ public final class SelectWorktopOptionReqOuterClass {
 
     public static final int OPTION_ID_FIELD_NUMBER = 12;
     private int optionId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 option_id = 4;</code>
+     * @return The optionId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getOptionId() {
       return optionId_;
@@ -145,7 +177,18 @@ public final class SelectWorktopOptionReqOuterClass {
 
     public static final int GADGET_ENTITY_ID_FIELD_NUMBER = 11;
     private int gadgetEntityId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 gadget_entity_id = 15;</code>
+     * @return The gadgetEntityId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getGadgetEntityId() {
       return gadgetEntityId_;
@@ -523,19 +566,53 @@ public final class SelectWorktopOptionReqOuterClass {
       }
 
       private int optionId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 option_id = 4;</code>
+       * @return The optionId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getOptionId() {
         return optionId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 option_id = 4;</code>
+       * @param value The optionId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setOptionId(int value) {
 
         optionId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 option_id = 4;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearOptionId() {
 
         optionId_ = 0;
@@ -544,19 +621,53 @@ public final class SelectWorktopOptionReqOuterClass {
       }
 
       private int gadgetEntityId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 gadget_entity_id = 15;</code>
+       * @return The gadgetEntityId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getGadgetEntityId() {
         return gadgetEntityId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 gadget_entity_id = 15;</code>
+       * @param value The gadgetEntityId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setGadgetEntityId(int value) {
 
         gadgetEntityId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 gadget_entity_id = 15;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearGadgetEntityId() {
 
         gadgetEntityId_ = 0;

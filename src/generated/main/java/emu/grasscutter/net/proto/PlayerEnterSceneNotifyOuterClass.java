@@ -33,8 +33,28 @@ public final class PlayerEnterSceneNotifyOuterClass {
      */
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getKCGDDAFHDCHOrBuilder();
 
+<<<<<<< HEAD
     java.lang.String getSceneTransaction();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0    
+     * </pre>
+     *
+     * <code>string scene_transaction = 1504;</code>
+     * @return The sceneTransaction.
+     */
+    java.lang.String getSceneTransaction();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0    
+     * </pre>
+     *
+     * <code>string scene_transaction = 1504;</code>
+     * @return The bytes for sceneTransaction.
+     */
+>>>>>>> origin/6.5.0
     com.google.protobuf.ByteString
         getSceneTransactionBytes();
 
@@ -53,6 +73,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
      */
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getBJDMOEPBDINOrBuilder();
 
+<<<<<<< HEAD
     java.util.List<java.lang.Integer> getSceneTagIdListList();
 
     int getSceneTagIdListCount();
@@ -63,6 +84,62 @@ public final class PlayerEnterSceneNotifyOuterClass {
 
     emu.grasscutter.net.proto.VectorOuterClass.Vector getPos();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0    
+     * </pre>
+     *
+     * <code>repeated uint32 scene_tag_id_list = 14;</code>
+     * @return A list containing the sceneTagIdList.
+     */
+    java.util.List<java.lang.Integer> getSceneTagIdListList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0    
+     * </pre>
+     *
+     * <code>repeated uint32 scene_tag_id_list = 14;</code>
+     * @return The count of sceneTagIdList.
+     */
+    int getSceneTagIdListCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0    
+     * </pre>
+     *
+     * <code>repeated uint32 scene_tag_id_list = 14;</code>
+     * @param index The index of the element to return.
+     * @return The sceneTagIdList at the given index.
+     */
+    int getSceneTagIdList(int index);
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0    
+     * </pre>
+     *
+     * <code>.Vector pos = 6;</code>
+     * @return Whether the pos field is set.
+     */
+    boolean hasPos();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0    
+     * </pre>
+     *
+     * <code>.Vector pos = 6;</code>
+     * @return The pos.
+     */
+    emu.grasscutter.net.proto.VectorOuterClass.Vector getPos();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0    
+     * </pre>
+     *
+     * <code>.Vector pos = 6;</code>
+     */
+>>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPosOrBuilder();
 
     boolean hasMapLayerInfo();
@@ -93,8 +170,28 @@ public final class PlayerEnterSceneNotifyOuterClass {
 
     int getWorldLevel();
 
+<<<<<<< HEAD
     int getTypeValue();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0    
+     * </pre>
+     *
+     * <code>.EnterType type = 1;</code>
+     * @return The enum numeric value on the wire for type.
+     */
+    int getTypeValue();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0    
+     * </pre>
+     *
+     * <code>.EnterType type = 1;</code>
+     * @return The type.
+     */
+>>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.EnterTypeOuterClass.EnterType getType();
 
     /**
@@ -413,7 +510,18 @@ public final class PlayerEnterSceneNotifyOuterClass {
 
     public static final int SCENE_TRANSACTION_FIELD_NUMBER = 205;
     private volatile java.lang.Object sceneTransaction_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0    
+     * </pre>
+     *
+     * <code>string scene_transaction = 1504;</code>
+     * @return The sceneTransaction.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getSceneTransaction() {
       java.lang.Object ref = sceneTransaction_;
@@ -427,7 +535,18 @@ public final class PlayerEnterSceneNotifyOuterClass {
         return s;
       }
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0    
+     * </pre>
+     *
+     * <code>string scene_transaction = 1504;</code>
+     * @return The bytes for sceneTransaction.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getSceneTransactionBytes() {
@@ -471,17 +590,51 @@ public final class PlayerEnterSceneNotifyOuterClass {
 
     public static final int SCENE_TAG_ID_LIST_FIELD_NUMBER = 6;
     private com.google.protobuf.Internal.IntList sceneTagIdList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0    
+     * </pre>
+     *
+     * <code>repeated uint32 scene_tag_id_list = 14;</code>
+     * @return A list containing the sceneTagIdList.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getSceneTagIdListList() {
       return sceneTagIdList_;
     }
+<<<<<<< HEAD
 
     public int getSceneTagIdListCount() {
       return sceneTagIdList_.size();
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0    
+     * </pre>
+     *
+     * <code>repeated uint32 scene_tag_id_list = 14;</code>
+     * @return The count of sceneTagIdList.
+     */
+    public int getSceneTagIdListCount() {
+      return sceneTagIdList_.size();
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0    
+     * </pre>
+     *
+     * <code>repeated uint32 scene_tag_id_list = 14;</code>
+     * @param index The index of the element to return.
+     * @return The sceneTagIdList at the given index.
+     */
+>>>>>>> origin/6.5.0
     public int getSceneTagIdList(int index) {
       return sceneTagIdList_.getInt(index);
     }
@@ -489,17 +642,49 @@ public final class PlayerEnterSceneNotifyOuterClass {
 
     public static final int POS_FIELD_NUMBER = 13;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0    
+     * </pre>
+     *
+     * <code>.Vector pos = 6;</code>
+     * @return Whether the pos field is set.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasPos() {
       return pos_ != null;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0    
+     * </pre>
+     *
+     * <code>.Vector pos = 6;</code>
+     * @return The pos.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.Vector getPos() {
       return pos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : pos_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0    
+     * </pre>
+     *
+     * <code>.Vector pos = 6;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPosOrBuilder() {
       return getPos();
@@ -574,11 +759,33 @@ public final class PlayerEnterSceneNotifyOuterClass {
 
     public static final int TYPE_FIELD_NUMBER = 4;
     private int type_;
+<<<<<<< HEAD
 
     @java.lang.Override public int getTypeValue() {
       return type_;
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0    
+     * </pre>
+     *
+     * <code>.EnterType type = 1;</code>
+     * @return The enum numeric value on the wire for type.
+     */
+    @java.lang.Override public int getTypeValue() {
+      return type_;
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0    
+     * </pre>
+     *
+     * <code>.EnterType type = 1;</code>
+     * @return The type.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override public emu.grasscutter.net.proto.EnterTypeOuterClass.EnterType getType() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.EnterTypeOuterClass.EnterType result = emu.grasscutter.net.proto.EnterTypeOuterClass.EnterType.valueOf(type_);
@@ -1466,7 +1673,18 @@ public final class PlayerEnterSceneNotifyOuterClass {
       }
 
       private java.lang.Object sceneTransaction_ = "";
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>string scene_transaction = 1504;</code>
+       * @return The sceneTransaction.
+       */
+>>>>>>> origin/6.5.0
       public java.lang.String getSceneTransaction() {
         java.lang.Object ref = sceneTransaction_;
         if (!(ref instanceof java.lang.String)) {
@@ -1479,7 +1697,18 @@ public final class PlayerEnterSceneNotifyOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>string scene_transaction = 1504;</code>
+       * @return The bytes for sceneTransaction.
+       */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getSceneTransactionBytes() {
         java.lang.Object ref = sceneTransaction_;
@@ -1493,7 +1722,19 @@ public final class PlayerEnterSceneNotifyOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>string scene_transaction = 1504;</code>
+       * @param value The sceneTransaction to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setSceneTransaction(
           java.lang.String value) {
         if (value == null) {
@@ -1504,14 +1745,37 @@ public final class PlayerEnterSceneNotifyOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>string scene_transaction = 1504;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearSceneTransaction() {
 
         sceneTransaction_ = getDefaultInstance().getSceneTransaction();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>string scene_transaction = 1504;</code>
+       * @param value The bytes for sceneTransaction to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setSceneTransactionBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -1650,12 +1914,24 @@ public final class PlayerEnterSceneNotifyOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>repeated uint32 scene_tag_id_list = 14;</code>
+       * @return A list containing the sceneTagIdList.
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getSceneTagIdListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(sceneTagIdList_) : sceneTagIdList_;
       }
+<<<<<<< HEAD
 
       public int getSceneTagIdListCount() {
         return sceneTagIdList_.size();
@@ -1665,6 +1941,41 @@ public final class PlayerEnterSceneNotifyOuterClass {
         return sceneTagIdList_.getInt(index);
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>repeated uint32 scene_tag_id_list = 14;</code>
+       * @return The count of sceneTagIdList.
+       */
+      public int getSceneTagIdListCount() {
+        return sceneTagIdList_.size();
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>repeated uint32 scene_tag_id_list = 14;</code>
+       * @param index The index of the element to return.
+       * @return The sceneTagIdList at the given index.
+       */
+      public int getSceneTagIdList(int index) {
+        return sceneTagIdList_.getInt(index);
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>repeated uint32 scene_tag_id_list = 14;</code>
+       * @param index The index to set the value at.
+       * @param value The sceneTagIdList to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setSceneTagIdList(
           int index, int value) {
         ensureSceneTagIdListIsMutable();
@@ -1672,14 +1983,38 @@ public final class PlayerEnterSceneNotifyOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>repeated uint32 scene_tag_id_list = 14;</code>
+       * @param value The sceneTagIdList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addSceneTagIdList(int value) {
         ensureSceneTagIdListIsMutable();
         sceneTagIdList_.addInt(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>repeated uint32 scene_tag_id_list = 14;</code>
+       * @param values The sceneTagIdList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllSceneTagIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureSceneTagIdListIsMutable();
@@ -1688,7 +2023,18 @@ public final class PlayerEnterSceneNotifyOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>repeated uint32 scene_tag_id_list = 14;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearSceneTagIdList() {
         sceneTagIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -1699,11 +2045,33 @@ public final class PlayerEnterSceneNotifyOuterClass {
       private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> posBuilder_;
+<<<<<<< HEAD
 
       public boolean hasPos() {
         return posBuilder_ != null || pos_ != null;
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>.Vector pos = 6;</code>
+       * @return Whether the pos field is set.
+       */
+      public boolean hasPos() {
+        return posBuilder_ != null || pos_ != null;
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>.Vector pos = 6;</code>
+       * @return The pos.
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.Vector getPos() {
         if (posBuilder_ == null) {
           return pos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : pos_;
@@ -1711,7 +2079,17 @@ public final class PlayerEnterSceneNotifyOuterClass {
           return posBuilder_.getMessage();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>.Vector pos = 6;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (posBuilder_ == null) {
           if (value == null) {
@@ -1725,7 +2103,17 @@ public final class PlayerEnterSceneNotifyOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>.Vector pos = 6;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setPos(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
         if (posBuilder_ == null) {
@@ -1737,7 +2125,17 @@ public final class PlayerEnterSceneNotifyOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>.Vector pos = 6;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder mergePos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (posBuilder_ == null) {
           if (pos_ != null) {
@@ -1753,7 +2151,17 @@ public final class PlayerEnterSceneNotifyOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>.Vector pos = 6;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder clearPos() {
         if (posBuilder_ == null) {
           pos_ = null;
@@ -1765,13 +2173,33 @@ public final class PlayerEnterSceneNotifyOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>.Vector pos = 6;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getPosBuilder() {
 
         onChanged();
         return getPosFieldBuilder().getBuilder();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>.Vector pos = 6;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPosOrBuilder() {
         if (posBuilder_ != null) {
           return posBuilder_.getMessageOrBuilder();
@@ -1780,7 +2208,17 @@ public final class PlayerEnterSceneNotifyOuterClass {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : pos_;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>.Vector pos = 6;</code>
+       */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getPosFieldBuilder() {
@@ -2030,25 +2468,71 @@ public final class PlayerEnterSceneNotifyOuterClass {
       }
 
       private int type_ = 0;
+<<<<<<< HEAD
 
       @java.lang.Override public int getTypeValue() {
         return type_;
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>.EnterType type = 1;</code>
+       * @return The enum numeric value on the wire for type.
+       */
+      @java.lang.Override public int getTypeValue() {
+        return type_;
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>.EnterType type = 1;</code>
+       * @param value The enum numeric value on the wire for type to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setTypeValue(int value) {
 
         type_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>.EnterType type = 1;</code>
+       * @return The type.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.EnterTypeOuterClass.EnterType getType() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.EnterTypeOuterClass.EnterType result = emu.grasscutter.net.proto.EnterTypeOuterClass.EnterType.valueOf(type_);
         return result == null ? emu.grasscutter.net.proto.EnterTypeOuterClass.EnterType.UNRECOGNIZED : result;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>.EnterType type = 1;</code>
+       * @param value The type to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setType(emu.grasscutter.net.proto.EnterTypeOuterClass.EnterType value) {
         if (value == null) {
           throw new NullPointerException();
@@ -2058,7 +2542,18 @@ public final class PlayerEnterSceneNotifyOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0    
+       * </pre>
+       *
+       * <code>.EnterType type = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearType() {
 
         type_ = 0;

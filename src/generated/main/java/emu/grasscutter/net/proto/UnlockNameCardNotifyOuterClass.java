@@ -18,6 +18,17 @@ public final class UnlockNameCardNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:UnlockNameCardNotify)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 name_card_id = 7;</code>
+     * @return The nameCardId.
+     */
+>>>>>>> origin/6.5.0
     int getNameCardId();
   }
   /**
@@ -109,7 +120,18 @@ public final class UnlockNameCardNotifyOuterClass {
 
     public static final int NAME_CARD_ID_FIELD_NUMBER = 7;
     private int nameCardId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 name_card_id = 7;</code>
+     * @return The nameCardId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getNameCardId() {
       return nameCardId_;
@@ -423,19 +445,53 @@ public final class UnlockNameCardNotifyOuterClass {
       }
 
       private int nameCardId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 name_card_id = 7;</code>
+       * @return The nameCardId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getNameCardId() {
         return nameCardId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 name_card_id = 7;</code>
+       * @param value The nameCardId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setNameCardId(int value) {
 
         nameCardId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 name_card_id = 7;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearNameCardId() {
 
         nameCardId_ = 0;

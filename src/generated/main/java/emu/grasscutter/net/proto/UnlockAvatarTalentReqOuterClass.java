@@ -18,8 +18,29 @@ public final class UnlockAvatarTalentReqOuterClass {
       // @@protoc_insertion_point(interface_extends:UnlockAvatarTalentReq)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     long getAvatarGuid();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint64 avatar_guid = 12;</code>
+     * @return The avatarGuid.
+     */
+    long getAvatarGuid();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 talent_id = 13;</code>
+     * @return The talentId.
+     */
+>>>>>>> origin/6.5.0
     int getTalentId();
   }
   /**
@@ -115,7 +136,18 @@ public final class UnlockAvatarTalentReqOuterClass {
 
     public static final int AVATAR_GUID_FIELD_NUMBER = 6;
     private long avatarGuid_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint64 avatar_guid = 12;</code>
+     * @return The avatarGuid.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getAvatarGuid() {
       return avatarGuid_;
@@ -123,7 +155,18 @@ public final class UnlockAvatarTalentReqOuterClass {
 
     public static final int TALENT_ID_FIELD_NUMBER = 4;
     private int talentId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 talent_id = 13;</code>
+     * @return The talentId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getTalentId() {
       return talentId_;
@@ -454,19 +497,53 @@ public final class UnlockAvatarTalentReqOuterClass {
       }
 
       private long avatarGuid_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint64 avatar_guid = 12;</code>
+       * @return The avatarGuid.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getAvatarGuid() {
         return avatarGuid_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint64 avatar_guid = 12;</code>
+       * @param value The avatarGuid to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setAvatarGuid(long value) {
 
         avatarGuid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint64 avatar_guid = 12;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearAvatarGuid() {
 
         avatarGuid_ = 0L;
@@ -475,19 +552,53 @@ public final class UnlockAvatarTalentReqOuterClass {
       }
 
       private int talentId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 talent_id = 13;</code>
+       * @return The talentId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getTalentId() {
         return talentId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 talent_id = 13;</code>
+       * @param value The talentId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setTalentId(int value) {
 
         talentId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 talent_id = 13;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearTalentId() {
 
         talentId_ = 0;

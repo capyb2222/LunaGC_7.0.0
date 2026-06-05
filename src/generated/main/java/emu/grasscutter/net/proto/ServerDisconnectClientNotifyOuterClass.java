@@ -18,6 +18,17 @@ public final class ServerDisconnectClientNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:ServerDisconnectClientNotify)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 data = 3;</code>
+     * @return The data.
+     */
+>>>>>>> origin/6.5.0
     int getData();
   }
   /**
@@ -108,7 +119,18 @@ public final class ServerDisconnectClientNotifyOuterClass {
 
     public static final int DATA_FIELD_NUMBER = 15;
     private int data_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 data = 3;</code>
+     * @return The data.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getData() {
       return data_;
@@ -421,19 +443,53 @@ public final class ServerDisconnectClientNotifyOuterClass {
       }
 
       private int data_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 data = 3;</code>
+       * @return The data.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getData() {
         return data_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 data = 3;</code>
+       * @param value The data to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setData(int value) {
 
         data_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 data = 3;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearData() {
 
         data_ = 0;

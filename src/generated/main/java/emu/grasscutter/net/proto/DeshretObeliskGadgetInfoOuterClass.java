@@ -18,10 +18,40 @@ public final class DeshretObeliskGadgetInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:DeshretObeliskGadgetInfo)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     java.util.List<java.lang.Integer> getArgumentListList();
 
     int getArgumentListCount();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 argument_list = 1;</code>
+     * @return A list containing the argumentList.
+     */
+    java.util.List<java.lang.Integer> getArgumentListList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 argument_list = 1;</code>
+     * @return The count of argumentList.
+     */
+    int getArgumentListCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 argument_list = 1;</code>
+     * @param index The index of the element to return.
+     * @return The argumentList at the given index.
+     */
+>>>>>>> origin/6.5.0
     int getArgumentList(int index);
   }
   /**
@@ -129,17 +159,51 @@ public final class DeshretObeliskGadgetInfoOuterClass {
 
     public static final int ARGUMENT_LIST_FIELD_NUMBER = 1;
     private com.google.protobuf.Internal.IntList argumentList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 argument_list = 1;</code>
+     * @return A list containing the argumentList.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getArgumentListList() {
       return argumentList_;
     }
+<<<<<<< HEAD
 
     public int getArgumentListCount() {
       return argumentList_.size();
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 argument_list = 1;</code>
+     * @return The count of argumentList.
+     */
+    public int getArgumentListCount() {
+      return argumentList_.size();
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 argument_list = 1;</code>
+     * @param index The index of the element to return.
+     * @return The argumentList at the given index.
+     */
+>>>>>>> origin/6.5.0
     public int getArgumentList(int index) {
       return argumentList_.getInt(index);
     }
@@ -484,12 +548,24 @@ public final class DeshretObeliskGadgetInfoOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 argument_list = 1;</code>
+       * @return A list containing the argumentList.
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getArgumentListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(argumentList_) : argumentList_;
       }
+<<<<<<< HEAD
 
       public int getArgumentListCount() {
         return argumentList_.size();
@@ -499,6 +575,41 @@ public final class DeshretObeliskGadgetInfoOuterClass {
         return argumentList_.getInt(index);
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 argument_list = 1;</code>
+       * @return The count of argumentList.
+       */
+      public int getArgumentListCount() {
+        return argumentList_.size();
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 argument_list = 1;</code>
+       * @param index The index of the element to return.
+       * @return The argumentList at the given index.
+       */
+      public int getArgumentList(int index) {
+        return argumentList_.getInt(index);
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 argument_list = 1;</code>
+       * @param index The index to set the value at.
+       * @param value The argumentList to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setArgumentList(
           int index, int value) {
         ensureArgumentListIsMutable();
@@ -506,14 +617,38 @@ public final class DeshretObeliskGadgetInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 argument_list = 1;</code>
+       * @param value The argumentList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addArgumentList(int value) {
         ensureArgumentListIsMutable();
         argumentList_.addInt(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 argument_list = 1;</code>
+       * @param values The argumentList to add.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllArgumentList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureArgumentListIsMutable();
@@ -522,7 +657,18 @@ public final class DeshretObeliskGadgetInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 argument_list = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearArgumentList() {
         argumentList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);

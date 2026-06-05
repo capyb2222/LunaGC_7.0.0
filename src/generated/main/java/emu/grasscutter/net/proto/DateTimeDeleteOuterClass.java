@@ -18,6 +18,17 @@ public final class DateTimeDeleteOuterClass {
       // @@protoc_insertion_point(interface_extends:DateTimeDelete)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 delete_time = 1;</code>
+     * @return The deleteTime.
+     */
+>>>>>>> origin/6.5.0
     int getDeleteTime();
   }
   /**
@@ -104,7 +115,18 @@ public final class DateTimeDeleteOuterClass {
 
     public static final int DELETE_TIME_FIELD_NUMBER = 1;
     private int deleteTime_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 delete_time = 1;</code>
+     * @return The deleteTime.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getDeleteTime() {
       return deleteTime_;
@@ -413,19 +435,53 @@ public final class DateTimeDeleteOuterClass {
       }
 
       private int deleteTime_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 delete_time = 1;</code>
+       * @return The deleteTime.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getDeleteTime() {
         return deleteTime_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 delete_time = 1;</code>
+       * @param value The deleteTime to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setDeleteTime(int value) {
 
         deleteTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 delete_time = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearDeleteTime() {
 
         deleteTime_ = 0;

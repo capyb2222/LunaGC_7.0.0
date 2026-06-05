@@ -40,8 +40,29 @@ public final class AddAranaraCollectionNotifyOuterClass {
      */
     emu.grasscutter.net.proto.AranaraCollectionStateOuterClass.AranaraCollectionState getOKGBACCFMKG();
 
+<<<<<<< HEAD
     int getCollectionType();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 collection_type = 2;</code>
+     * @return The collectionType.
+     */
+    int getCollectionType();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 collection_id = 4;</code>
+     * @return The collectionId.
+     */
+>>>>>>> origin/6.5.0
     int getCollectionId();
   }
   /**
@@ -189,7 +210,18 @@ public final class AddAranaraCollectionNotifyOuterClass {
 
     public static final int COLLECTION_TYPE_FIELD_NUMBER = 2;
     private int collectionType_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 collection_type = 2;</code>
+     * @return The collectionType.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCollectionType() {
       return collectionType_;
@@ -197,7 +229,18 @@ public final class AddAranaraCollectionNotifyOuterClass {
 
     public static final int COLLECTION_ID_FIELD_NUMBER = 4;
     private int collectionId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 collection_id = 4;</code>
+     * @return The collectionId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCollectionId() {
       return collectionId_;
@@ -667,19 +710,53 @@ public final class AddAranaraCollectionNotifyOuterClass {
       }
 
       private int collectionType_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 collection_type = 2;</code>
+       * @return The collectionType.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCollectionType() {
         return collectionType_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 collection_type = 2;</code>
+       * @param value The collectionType to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setCollectionType(int value) {
 
         collectionType_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 collection_type = 2;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearCollectionType() {
 
         collectionType_ = 0;
@@ -688,19 +765,53 @@ public final class AddAranaraCollectionNotifyOuterClass {
       }
 
       private int collectionId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 collection_id = 4;</code>
+       * @return The collectionId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCollectionId() {
         return collectionId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 collection_id = 4;</code>
+       * @param value The collectionId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setCollectionId(int value) {
 
         collectionId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 collection_id = 4;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearCollectionId() {
 
         collectionId_ = 0;

@@ -18,8 +18,29 @@ public final class WearEquipReqOuterClass {
       // @@protoc_insertion_point(interface_extends:WearEquipReq)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     long getEquipGuid();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>uint64 equip_guid = 5;</code>
+     * @return The equipGuid.
+     */
+    long getEquipGuid();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>uint64 avatar_guid = 12;</code>
+     * @return The avatarGuid.
+     */
+>>>>>>> origin/6.5.0
     long getAvatarGuid();
   }
   /**
@@ -115,7 +136,18 @@ public final class WearEquipReqOuterClass {
 
     public static final int EQUIP_GUID_FIELD_NUMBER = 2;
     private long equipGuid_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>uint64 equip_guid = 5;</code>
+     * @return The equipGuid.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getEquipGuid() {
       return equipGuid_;
@@ -123,7 +155,18 @@ public final class WearEquipReqOuterClass {
 
     public static final int AVATAR_GUID_FIELD_NUMBER = 9;
     private long avatarGuid_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>uint64 avatar_guid = 12;</code>
+     * @return The avatarGuid.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getAvatarGuid() {
       return avatarGuid_;
@@ -455,19 +498,53 @@ public final class WearEquipReqOuterClass {
       }
 
       private long equipGuid_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>uint64 equip_guid = 5;</code>
+       * @return The equipGuid.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getEquipGuid() {
         return equipGuid_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>uint64 equip_guid = 5;</code>
+       * @param value The equipGuid to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setEquipGuid(long value) {
 
         equipGuid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>uint64 equip_guid = 5;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearEquipGuid() {
 
         equipGuid_ = 0L;
@@ -476,19 +553,53 @@ public final class WearEquipReqOuterClass {
       }
 
       private long avatarGuid_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>uint64 avatar_guid = 12;</code>
+       * @return The avatarGuid.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getAvatarGuid() {
         return avatarGuid_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>uint64 avatar_guid = 12;</code>
+       * @param value The avatarGuid to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setAvatarGuid(long value) {
 
         avatarGuid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>uint64 avatar_guid = 12;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearAvatarGuid() {
 
         avatarGuid_ = 0L;

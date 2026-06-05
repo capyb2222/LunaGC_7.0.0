@@ -18,8 +18,26 @@ public final class AvatarPropNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:AvatarPropNotify)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     int getPropMapCount();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
+     */
+    int getPropMapCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
+     */
+>>>>>>> origin/6.5.0
     boolean containsPropMap(
         int key);
     /**
@@ -28,17 +46,57 @@ public final class AvatarPropNotifyOuterClass {
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Long>
     getPropMap();
+<<<<<<< HEAD
 
     java.util.Map<java.lang.Integer, java.lang.Long>
     getPropMapMap();
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
+     */
+    java.util.Map<java.lang.Integer, java.lang.Long>
+    getPropMapMap();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
+     */
+>>>>>>> origin/6.5.0
 
     long getPropMapOrDefault(
         int key,
         long defaultValue);
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
+     */
+>>>>>>> origin/6.5.0
 
     long getPropMapOrThrow(
         int key);
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint64 avatar_guid = 12;</code>
+     * @return The avatarGuid.
+     */
+>>>>>>> origin/6.5.0
     long getAvatarGuid();
   }
   /**
@@ -179,6 +237,16 @@ public final class AvatarPropNotifyOuterClass {
     public int getPropMapCount() {
       return internalGetPropMap().getMap().size();
     }
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
+     */
+>>>>>>> origin/6.5.0
 
     @java.lang.Override
     public boolean containsPropMap(
@@ -194,13 +262,33 @@ public final class AvatarPropNotifyOuterClass {
     public java.util.Map<java.lang.Integer, java.lang.Long> getPropMap() {
       return getPropMapMap();
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public java.util.Map<java.lang.Integer, java.lang.Long> getPropMapMap() {
       return internalGetPropMap().getMap();
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public long getPropMapOrDefault(
@@ -211,7 +299,17 @@ public final class AvatarPropNotifyOuterClass {
           internalGetPropMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public long getPropMapOrThrow(
@@ -227,7 +325,18 @@ public final class AvatarPropNotifyOuterClass {
 
     public static final int AVATAR_GUID_FIELD_NUMBER = 13;
     private long avatarGuid_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint64 avatar_guid = 12;</code>
+     * @return The avatarGuid.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getAvatarGuid() {
       return avatarGuid_;
@@ -617,6 +726,16 @@ public final class AvatarPropNotifyOuterClass {
       public int getPropMapCount() {
         return internalGetPropMap().getMap().size();
       }
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
+       */
+>>>>>>> origin/6.5.0
 
       @java.lang.Override
       public boolean containsPropMap(
@@ -632,13 +751,33 @@ public final class AvatarPropNotifyOuterClass {
       public java.util.Map<java.lang.Integer, java.lang.Long> getPropMap() {
         return getPropMapMap();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public java.util.Map<java.lang.Integer, java.lang.Long> getPropMapMap() {
         return internalGetPropMap().getMap();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public long getPropMapOrDefault(
@@ -649,7 +788,17 @@ public final class AvatarPropNotifyOuterClass {
             internalGetPropMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public long getPropMapOrThrow(
@@ -668,6 +817,16 @@ public final class AvatarPropNotifyOuterClass {
             .clear();
         return this;
       }
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
+       */
+>>>>>>> origin/6.5.0
 
       public Builder removePropMap(
           int key) {
@@ -684,7 +843,17 @@ public final class AvatarPropNotifyOuterClass {
       getMutablePropMap() {
         return internalGetMutablePropMap().getMutableMap();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder putPropMap(
           int key,
           long value) {
@@ -693,6 +862,16 @@ public final class AvatarPropNotifyOuterClass {
             .put(key, value);
         return this;
       }
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
+       */
+>>>>>>> origin/6.5.0
 
       public Builder putAllPropMap(
           java.util.Map<java.lang.Integer, java.lang.Long> values) {
@@ -702,19 +881,53 @@ public final class AvatarPropNotifyOuterClass {
       }
 
       private long avatarGuid_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 avatar_guid = 12;</code>
+       * @return The avatarGuid.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getAvatarGuid() {
         return avatarGuid_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 avatar_guid = 12;</code>
+       * @param value The avatarGuid to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setAvatarGuid(long value) {
 
         avatarGuid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 avatar_guid = 12;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearAvatarGuid() {
 
         avatarGuid_ = 0L;

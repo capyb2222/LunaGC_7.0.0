@@ -18,6 +18,17 @@ public final class MirrorAvatarInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:MirrorAvatarInfo)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 copy_from_avatar_type = 1;</code>
+     * @return The copyFromAvatarType.
+     */
+>>>>>>> origin/6.5.0
     int getCopyFromAvatarType();
   }
   /**
@@ -104,7 +115,18 @@ public final class MirrorAvatarInfoOuterClass {
 
     public static final int COPY_FROM_AVATAR_TYPE_FIELD_NUMBER = 1;
     private int copyFromAvatarType_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 copy_from_avatar_type = 1;</code>
+     * @return The copyFromAvatarType.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCopyFromAvatarType() {
       return copyFromAvatarType_;
@@ -413,19 +435,53 @@ public final class MirrorAvatarInfoOuterClass {
       }
 
       private int copyFromAvatarType_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 copy_from_avatar_type = 1;</code>
+       * @return The copyFromAvatarType.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCopyFromAvatarType() {
         return copyFromAvatarType_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 copy_from_avatar_type = 1;</code>
+       * @param value The copyFromAvatarType to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setCopyFromAvatarType(int value) {
 
         copyFromAvatarType_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 copy_from_avatar_type = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearCopyFromAvatarType() {
 
         copyFromAvatarType_ = 0;

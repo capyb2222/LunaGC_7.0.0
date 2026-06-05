@@ -18,6 +18,17 @@ public final class HuntingPairOuterClass {
       // @@protoc_insertion_point(interface_extends:HuntingPair)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0   
+     * </pre>
+     *
+     * <code>uint32 monster_config_id = 15;</code>
+     * @return The monsterConfigId.
+     */
+>>>>>>> origin/6.5.0
     int getMonsterConfigId();
 
     /**
@@ -115,7 +126,18 @@ public final class HuntingPairOuterClass {
 
     public static final int MONSTER_CONFIG_ID_FIELD_NUMBER = 6;
     private int monsterConfigId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0   
+     * </pre>
+     *
+     * <code>uint32 monster_config_id = 15;</code>
+     * @return The monsterConfigId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getMonsterConfigId() {
       return monsterConfigId_;
@@ -452,19 +474,53 @@ public final class HuntingPairOuterClass {
       }
 
       private int monsterConfigId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0   
+       * </pre>
+       *
+       * <code>uint32 monster_config_id = 15;</code>
+       * @return The monsterConfigId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getMonsterConfigId() {
         return monsterConfigId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0   
+       * </pre>
+       *
+       * <code>uint32 monster_config_id = 15;</code>
+       * @param value The monsterConfigId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setMonsterConfigId(int value) {
 
         monsterConfigId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0   
+       * </pre>
+       *
+       * <code>uint32 monster_config_id = 15;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearMonsterConfigId() {
 
         monsterConfigId_ = 0;

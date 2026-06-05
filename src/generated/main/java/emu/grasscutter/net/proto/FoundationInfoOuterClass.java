@@ -35,8 +35,28 @@ public final class FoundationInfoOuterClass {
      */
     int getECNOPBCOGEG(int index);
 
+<<<<<<< HEAD
     int getStatusValue();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.BCFKCAMNCFF status = 1;</code>
+     * @return The enum numeric value on the wire for status.
+     */
+    int getStatusValue();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.BCFKCAMNCFF status = 1;</code>
+     * @return The status.
+     */
+>>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF getStatus();
 
     /**
@@ -201,11 +221,33 @@ public final class FoundationInfoOuterClass {
 
     public static final int STATUS_FIELD_NUMBER = 1;
     private int status_;
+<<<<<<< HEAD
 
     @java.lang.Override public int getStatusValue() {
       return status_;
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.BCFKCAMNCFF status = 1;</code>
+     * @return The enum numeric value on the wire for status.
+     */
+    @java.lang.Override public int getStatusValue() {
+      return status_;
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.BCFKCAMNCFF status = 1;</code>
+     * @return The status.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override public emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF getStatus() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF result = emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF.valueOf(status_);
@@ -696,25 +738,71 @@ public final class FoundationInfoOuterClass {
       }
 
       private int status_ = 0;
+<<<<<<< HEAD
 
       @java.lang.Override public int getStatusValue() {
         return status_;
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.BCFKCAMNCFF status = 1;</code>
+       * @return The enum numeric value on the wire for status.
+       */
+      @java.lang.Override public int getStatusValue() {
+        return status_;
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.BCFKCAMNCFF status = 1;</code>
+       * @param value The enum numeric value on the wire for status to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setStatusValue(int value) {
 
         status_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.BCFKCAMNCFF status = 1;</code>
+       * @return The status.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF getStatus() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF result = emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF.valueOf(status_);
         return result == null ? emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF.UNRECOGNIZED : result;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.BCFKCAMNCFF status = 1;</code>
+       * @param value The status to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setStatus(emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF value) {
         if (value == null) {
           throw new NullPointerException();
@@ -724,7 +812,18 @@ public final class FoundationInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.BCFKCAMNCFF status = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearStatus() {
 
         status_ = 0;

@@ -16,10 +16,41 @@ public final class EnterWorldAreaRspOuterClass {
 
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     int getAreaId();
 
     int getRetcode();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 area_id = 3;</code>
+     * @return The areaId.
+     */
+    int getAreaId();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>int32 retcode = 4;</code>
+     * @return The retcode.
+     */
+    int getRetcode();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 area_type = 7;</code>
+     * @return The areaType.
+     */
+>>>>>>> origin/6.5.0
     int getAreaType();
   }
 
@@ -114,7 +145,18 @@ public final class EnterWorldAreaRspOuterClass {
 
     public static final int AREA_ID_FIELD_NUMBER = 9;
     private int areaId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 area_id = 3;</code>
+     * @return The areaId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getAreaId() {
       return areaId_;
@@ -122,7 +164,18 @@ public final class EnterWorldAreaRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 15;
     private int retcode_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>int32 retcode = 4;</code>
+     * @return The retcode.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -130,7 +183,18 @@ public final class EnterWorldAreaRspOuterClass {
 
     public static final int AREA_TYPE_FIELD_NUMBER = 7;
     private int areaType_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 area_type = 7;</code>
+     * @return The areaType.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getAreaType() {
       return areaType_;
@@ -470,19 +534,53 @@ public final class EnterWorldAreaRspOuterClass {
       }
 
       private int areaId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 area_id = 3;</code>
+       * @return The areaId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getAreaId() {
         return areaId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 area_id = 3;</code>
+       * @param value The areaId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setAreaId(int value) {
 
         areaId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 area_id = 3;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearAreaId() {
 
         areaId_ = 0;
@@ -491,19 +589,53 @@ public final class EnterWorldAreaRspOuterClass {
       }
 
       private int retcode_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 4;</code>
+       * @return The retcode.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 4;</code>
+       * @param value The retcode to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
 
         retcode_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 4;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearRetcode() {
 
         retcode_ = 0;
@@ -512,19 +644,53 @@ public final class EnterWorldAreaRspOuterClass {
       }
 
       private int areaType_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 area_type = 7;</code>
+       * @return The areaType.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getAreaType() {
         return areaType_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 area_type = 7;</code>
+       * @param value The areaType to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setAreaType(int value) {
 
         areaType_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 area_type = 7;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearAreaType() {
 
         areaType_ = 0;

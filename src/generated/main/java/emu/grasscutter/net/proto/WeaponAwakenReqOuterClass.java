@@ -41,6 +41,17 @@ public final class WeaponAwakenReqOuterClass {
      */
     int getAffixLevel();
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint64 target_weapon_guid = 6;</code>
+     * @return The targetWeaponGuid.
+     */
+>>>>>>> origin/6.5.0
     long getTargetWeaponGuid();
   }
   /**
@@ -201,7 +212,18 @@ public final class WeaponAwakenReqOuterClass {
 
     public static final int TARGET_WEAPON_GUID_FIELD_NUMBER = 6;
     private long targetWeaponGuid_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint64 target_weapon_guid = 6;</code>
+     * @return The targetWeaponGuid.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getTargetWeaponGuid() {
       return targetWeaponGuid_;
@@ -689,19 +711,53 @@ public final class WeaponAwakenReqOuterClass {
       }
 
       private long targetWeaponGuid_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 target_weapon_guid = 6;</code>
+       * @return The targetWeaponGuid.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getTargetWeaponGuid() {
         return targetWeaponGuid_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 target_weapon_guid = 6;</code>
+       * @param value The targetWeaponGuid to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setTargetWeaponGuid(long value) {
 
         targetWeaponGuid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint64 target_weapon_guid = 6;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearTargetWeaponGuid() {
 
         targetWeaponGuid_ = 0L;

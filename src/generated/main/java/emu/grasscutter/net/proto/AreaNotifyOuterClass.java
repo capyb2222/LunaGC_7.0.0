@@ -18,10 +18,41 @@ public final class AreaNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:AreaNotify)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     com.google.protobuf.ByteString getAreaCode();
 
     int getAreaType();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>bytes area_code = 9;</code>
+     * @return The areaCode.
+     */
+    com.google.protobuf.ByteString getAreaCode();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 area_type = 1;</code>
+     * @return The areaType.
+     */
+    int getAreaType();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 area_id = 14;</code>
+     * @return The areaId.
+     */
+>>>>>>> origin/6.5.0
     int getAreaId();
   }
   /**
@@ -119,7 +150,18 @@ public final class AreaNotifyOuterClass {
 
     public static final int AREA_CODE_FIELD_NUMBER = 9;
     private com.google.protobuf.ByteString areaCode_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>bytes area_code = 9;</code>
+     * @return The areaCode.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString getAreaCode() {
       return areaCode_;
@@ -127,7 +169,18 @@ public final class AreaNotifyOuterClass {
 
     public static final int AREA_TYPE_FIELD_NUMBER = 1;
     private int areaType_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 area_type = 1;</code>
+     * @return The areaType.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getAreaType() {
       return areaType_;
@@ -135,7 +188,18 @@ public final class AreaNotifyOuterClass {
 
     public static final int AREA_ID_FIELD_NUMBER = 14;
     private int areaId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 area_id = 14;</code>
+     * @return The areaId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getAreaId() {
       return areaId_;
@@ -478,12 +542,35 @@ public final class AreaNotifyOuterClass {
       }
 
       private com.google.protobuf.ByteString areaCode_ = com.google.protobuf.ByteString.EMPTY;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bytes area_code = 9;</code>
+       * @return The areaCode.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public com.google.protobuf.ByteString getAreaCode() {
         return areaCode_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bytes area_code = 9;</code>
+       * @param value The areaCode to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setAreaCode(com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
@@ -493,7 +580,18 @@ public final class AreaNotifyOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bytes area_code = 9;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearAreaCode() {
 
         areaCode_ = getDefaultInstance().getAreaCode();
@@ -502,19 +600,53 @@ public final class AreaNotifyOuterClass {
       }
 
       private int areaType_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 area_type = 1;</code>
+       * @return The areaType.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getAreaType() {
         return areaType_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 area_type = 1;</code>
+       * @param value The areaType to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setAreaType(int value) {
 
         areaType_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 area_type = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearAreaType() {
 
         areaType_ = 0;
@@ -523,19 +655,53 @@ public final class AreaNotifyOuterClass {
       }
 
       private int areaId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 area_id = 14;</code>
+       * @return The areaId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getAreaId() {
         return areaId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 area_id = 14;</code>
+       * @param value The areaId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setAreaId(int value) {
 
         areaId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 area_id = 14;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearAreaId() {
 
         areaId_ = 0;

@@ -18,8 +18,29 @@ public final class FightPropPairOuterClass {
       // @@protoc_insertion_point(interface_extends:FightPropPair)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     float getPropValue();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>float prop_value = 2;</code>
+     * @return The propValue.
+     */
+    float getPropValue();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 prop_type = 1;</code>
+     * @return The propType.
+     */
+>>>>>>> origin/6.5.0
     int getPropType();
   }
   /**
@@ -111,7 +132,18 @@ public final class FightPropPairOuterClass {
 
     public static final int PROP_VALUE_FIELD_NUMBER = 2;
     private float propValue_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>float prop_value = 2;</code>
+     * @return The propValue.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public float getPropValue() {
       return propValue_;
@@ -119,7 +151,18 @@ public final class FightPropPairOuterClass {
 
     public static final int PROP_TYPE_FIELD_NUMBER = 1;
     private int propType_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 prop_type = 1;</code>
+     * @return The propType.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getPropType() {
       return propType_;
@@ -447,19 +490,53 @@ public final class FightPropPairOuterClass {
       }
 
       private float propValue_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>float prop_value = 2;</code>
+       * @return The propValue.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public float getPropValue() {
         return propValue_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>float prop_value = 2;</code>
+       * @param value The propValue to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setPropValue(float value) {
 
         propValue_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>float prop_value = 2;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearPropValue() {
 
         propValue_ = 0F;
@@ -468,19 +545,53 @@ public final class FightPropPairOuterClass {
       }
 
       private int propType_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 prop_type = 1;</code>
+       * @return The propType.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getPropType() {
         return propType_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 prop_type = 1;</code>
+       * @param value The propType to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setPropType(int value) {
 
         propType_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 prop_type = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearPropType() {
 
         propType_ = 0;

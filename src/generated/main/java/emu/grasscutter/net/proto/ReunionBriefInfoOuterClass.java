@@ -80,8 +80,28 @@ public final class ReunionBriefInfoOuterClass {
      */
     emu.grasscutter.net.proto.CAHBFLMLDMHOuterClass.CAHBFLMLDMHOrBuilder getOMPMBGFABENOrBuilder();
 
+<<<<<<< HEAD
     java.lang.String getVersion();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>string version = 4;</code>
+     * @return The version.
+     */
+    java.lang.String getVersion();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>string version = 4;</code>
+     * @return The bytes for version.
+     */
+>>>>>>> origin/6.5.0
     com.google.protobuf.ByteString
         getVersionBytes();
 
@@ -117,10 +137,41 @@ public final class ReunionBriefInfoOuterClass {
      */
     emu.grasscutter.net.proto.BMGBEHFPFDFOuterClass.BMGBEHFPFDFOrBuilder getBFDOPIBBLIIOrBuilder();
 
+<<<<<<< HEAD
     int getStartTime();
 
     int getFinishTime();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 start_time = 6;</code>
+     * @return The startTime.
+     */
+    int getStartTime();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 finish_time = 14;</code>
+     * @return The finishTime.
+     */
+    int getFinishTime();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 mission_id = 11;</code>
+     * @return The missionId.
+     */
+>>>>>>> origin/6.5.0
     int getMissionId();
 
     /**
@@ -135,6 +186,17 @@ public final class ReunionBriefInfoOuterClass {
      */
     int getAEKADMBGKBI();
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0 
+     * </pre>
+     *
+     * <code>uint32 first_day_start_time = 15;</code>
+     * @return The firstDayStartTime.
+     */
+>>>>>>> origin/6.5.0
     int getFirstDayStartTime();
 
     /**
@@ -495,7 +557,18 @@ public final class ReunionBriefInfoOuterClass {
 
     public static final int VERSION_FIELD_NUMBER = 11;
     private volatile java.lang.Object version_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>string version = 4;</code>
+     * @return The version.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getVersion() {
       java.lang.Object ref = version_;
@@ -509,7 +582,18 @@ public final class ReunionBriefInfoOuterClass {
         return s;
       }
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>string version = 4;</code>
+     * @return The bytes for version.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getVersionBytes() {
@@ -581,7 +665,18 @@ public final class ReunionBriefInfoOuterClass {
 
     public static final int START_TIME_FIELD_NUMBER = 6;
     private int startTime_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 start_time = 6;</code>
+     * @return The startTime.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getStartTime() {
       return startTime_;
@@ -589,7 +684,18 @@ public final class ReunionBriefInfoOuterClass {
 
     public static final int FINISH_TIME_FIELD_NUMBER = 14;
     private int finishTime_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 finish_time = 14;</code>
+     * @return The finishTime.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getFinishTime() {
       return finishTime_;
@@ -597,7 +703,18 @@ public final class ReunionBriefInfoOuterClass {
 
     public static final int MISSION_ID_FIELD_NUMBER = 13;
     private int missionId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 mission_id = 11;</code>
+     * @return The missionId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getMissionId() {
       return missionId_;
@@ -627,7 +744,18 @@ public final class ReunionBriefInfoOuterClass {
 
     public static final int FIRST_DAY_START_TIME_FIELD_NUMBER = 15;
     private int firstDayStartTime_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0 
+     * </pre>
+     *
+     * <code>uint32 first_day_start_time = 15;</code>
+     * @return The firstDayStartTime.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getFirstDayStartTime() {
       return firstDayStartTime_;
@@ -1771,7 +1899,18 @@ public final class ReunionBriefInfoOuterClass {
       }
 
       private java.lang.Object version_ = "";
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>string version = 4;</code>
+       * @return The version.
+       */
+>>>>>>> origin/6.5.0
       public java.lang.String getVersion() {
         java.lang.Object ref = version_;
         if (!(ref instanceof java.lang.String)) {
@@ -1784,7 +1923,18 @@ public final class ReunionBriefInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>string version = 4;</code>
+       * @return The bytes for version.
+       */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getVersionBytes() {
         java.lang.Object ref = version_;
@@ -1798,7 +1948,19 @@ public final class ReunionBriefInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>string version = 4;</code>
+       * @param value The version to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setVersion(
           java.lang.String value) {
         if (value == null) {
@@ -1809,14 +1971,37 @@ public final class ReunionBriefInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>string version = 4;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearVersion() {
 
         version_ = getDefaultInstance().getVersion();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>string version = 4;</code>
+       * @param value The bytes for version to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setVersionBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -2028,19 +2213,53 @@ public final class ReunionBriefInfoOuterClass {
       }
 
       private int startTime_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 start_time = 6;</code>
+       * @return The startTime.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getStartTime() {
         return startTime_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 start_time = 6;</code>
+       * @param value The startTime to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setStartTime(int value) {
 
         startTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 start_time = 6;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearStartTime() {
 
         startTime_ = 0;
@@ -2049,19 +2268,53 @@ public final class ReunionBriefInfoOuterClass {
       }
 
       private int finishTime_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 finish_time = 14;</code>
+       * @return The finishTime.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getFinishTime() {
         return finishTime_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 finish_time = 14;</code>
+       * @param value The finishTime to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setFinishTime(int value) {
 
         finishTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 finish_time = 14;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearFinishTime() {
 
         finishTime_ = 0;
@@ -2070,19 +2323,53 @@ public final class ReunionBriefInfoOuterClass {
       }
 
       private int missionId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 mission_id = 11;</code>
+       * @return The missionId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getMissionId() {
         return missionId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 mission_id = 11;</code>
+       * @param value The missionId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setMissionId(int value) {
 
         missionId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 mission_id = 11;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearMissionId() {
 
         missionId_ = 0;
@@ -2153,19 +2440,53 @@ public final class ReunionBriefInfoOuterClass {
       }
 
       private int firstDayStartTime_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0 
+       * </pre>
+       *
+       * <code>uint32 first_day_start_time = 15;</code>
+       * @return The firstDayStartTime.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getFirstDayStartTime() {
         return firstDayStartTime_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0 
+       * </pre>
+       *
+       * <code>uint32 first_day_start_time = 15;</code>
+       * @param value The firstDayStartTime to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setFirstDayStartTime(int value) {
 
         firstDayStartTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0 
+       * </pre>
+       *
+       * <code>uint32 first_day_start_time = 15;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearFirstDayStartTime() {
 
         firstDayStartTime_ = 0;

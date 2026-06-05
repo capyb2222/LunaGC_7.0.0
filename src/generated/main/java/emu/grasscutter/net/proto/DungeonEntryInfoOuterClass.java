@@ -18,10 +18,38 @@ public final class DungeonEntryInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:DungeonEntryInfo)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     boolean hasWeeklyBossResinDiscountInfo();
 
     emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo getWeeklyBossResinDiscountInfo();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
+     * @return Whether the weeklyBossResinDiscountInfo field is set.
+     */
+    boolean hasWeeklyBossResinDiscountInfo();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
+     * @return The weeklyBossResinDiscountInfo.
+     */
+    emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo getWeeklyBossResinDiscountInfo();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
+     */
+>>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfoOrBuilder getWeeklyBossResinDiscountInfoOrBuilder();
 
     /**
@@ -30,8 +58,29 @@ public final class DungeonEntryInfoOuterClass {
      */
     int getIBLDALDDIFL();
 
+<<<<<<< HEAD
     boolean getIsPassed();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>bool is_passed = 13;</code>
+     * @return The isPassed.
+     */
+    boolean getIsPassed();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 next_refresh_time = 1;</code>
+     * @return The nextRefreshTime.
+     */
+>>>>>>> origin/6.5.0
     int getNextRefreshTime();
 
     /**
@@ -40,6 +89,17 @@ public final class DungeonEntryInfoOuterClass {
      */
     int getGGGHNHEECOM();
 
+<<<<<<< HEAD
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 dungeon_id = 10;</code>
+     * @return The dungeonId.
+     */
+>>>>>>> origin/6.5.0
     int getDungeonId();
   }
   /**
@@ -159,17 +219,49 @@ public final class DungeonEntryInfoOuterClass {
 
     public static final int WEEKLY_BOSS_RESIN_DISCOUNT_INFO_FIELD_NUMBER = 8;
     private emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo weeklyBossResinDiscountInfo_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
+     * @return Whether the weeklyBossResinDiscountInfo field is set.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasWeeklyBossResinDiscountInfo() {
       return weeklyBossResinDiscountInfo_ != null;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
+     * @return The weeklyBossResinDiscountInfo.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo getWeeklyBossResinDiscountInfo() {
       return weeklyBossResinDiscountInfo_ == null ? emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo.getDefaultInstance() : weeklyBossResinDiscountInfo_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfoOrBuilder getWeeklyBossResinDiscountInfoOrBuilder() {
       return getWeeklyBossResinDiscountInfo();
@@ -188,7 +280,18 @@ public final class DungeonEntryInfoOuterClass {
 
     public static final int IS_PASSED_FIELD_NUMBER = 13;
     private boolean isPassed_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>bool is_passed = 13;</code>
+     * @return The isPassed.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsPassed() {
       return isPassed_;
@@ -196,7 +299,18 @@ public final class DungeonEntryInfoOuterClass {
 
     public static final int NEXT_REFRESH_TIME_FIELD_NUMBER = 1;
     private int nextRefreshTime_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 next_refresh_time = 1;</code>
+     * @return The nextRefreshTime.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getNextRefreshTime() {
       return nextRefreshTime_;
@@ -215,7 +329,18 @@ public final class DungeonEntryInfoOuterClass {
 
     public static final int DUNGEON_ID_FIELD_NUMBER = 10;
     private int dungeonId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 dungeon_id = 10;</code>
+     * @return The dungeonId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getDungeonId() {
       return dungeonId_;
@@ -625,11 +750,33 @@ public final class DungeonEntryInfoOuterClass {
       private emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo weeklyBossResinDiscountInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo, emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo.Builder, emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfoOrBuilder> weeklyBossResinDiscountInfoBuilder_;
+<<<<<<< HEAD
 
       public boolean hasWeeklyBossResinDiscountInfo() {
         return weeklyBossResinDiscountInfoBuilder_ != null || weeklyBossResinDiscountInfo_ != null;
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
+       * @return Whether the weeklyBossResinDiscountInfo field is set.
+       */
+      public boolean hasWeeklyBossResinDiscountInfo() {
+        return weeklyBossResinDiscountInfoBuilder_ != null || weeklyBossResinDiscountInfo_ != null;
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
+       * @return The weeklyBossResinDiscountInfo.
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo getWeeklyBossResinDiscountInfo() {
         if (weeklyBossResinDiscountInfoBuilder_ == null) {
           return weeklyBossResinDiscountInfo_ == null ? emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo.getDefaultInstance() : weeklyBossResinDiscountInfo_;
@@ -637,7 +784,17 @@ public final class DungeonEntryInfoOuterClass {
           return weeklyBossResinDiscountInfoBuilder_.getMessage();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setWeeklyBossResinDiscountInfo(emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo value) {
         if (weeklyBossResinDiscountInfoBuilder_ == null) {
           if (value == null) {
@@ -651,7 +808,17 @@ public final class DungeonEntryInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setWeeklyBossResinDiscountInfo(
           emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo.Builder builderForValue) {
         if (weeklyBossResinDiscountInfoBuilder_ == null) {
@@ -663,7 +830,17 @@ public final class DungeonEntryInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder mergeWeeklyBossResinDiscountInfo(emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo value) {
         if (weeklyBossResinDiscountInfoBuilder_ == null) {
           if (weeklyBossResinDiscountInfo_ != null) {
@@ -679,7 +856,17 @@ public final class DungeonEntryInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder clearWeeklyBossResinDiscountInfo() {
         if (weeklyBossResinDiscountInfoBuilder_ == null) {
           weeklyBossResinDiscountInfo_ = null;
@@ -691,13 +878,33 @@ public final class DungeonEntryInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo.Builder getWeeklyBossResinDiscountInfoBuilder() {
 
         onChanged();
         return getWeeklyBossResinDiscountInfoFieldBuilder().getBuilder();
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfoOrBuilder getWeeklyBossResinDiscountInfoOrBuilder() {
         if (weeklyBossResinDiscountInfoBuilder_ != null) {
           return weeklyBossResinDiscountInfoBuilder_.getMessageOrBuilder();
@@ -706,7 +913,17 @@ public final class DungeonEntryInfoOuterClass {
               emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo.getDefaultInstance() : weeklyBossResinDiscountInfo_;
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
+       */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo, emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo.Builder, emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfoOrBuilder>
           getWeeklyBossResinDiscountInfoFieldBuilder() {
@@ -753,19 +970,53 @@ public final class DungeonEntryInfoOuterClass {
       }
 
       private boolean isPassed_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>bool is_passed = 13;</code>
+       * @return The isPassed.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsPassed() {
         return isPassed_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>bool is_passed = 13;</code>
+       * @param value The isPassed to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setIsPassed(boolean value) {
 
         isPassed_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>bool is_passed = 13;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearIsPassed() {
 
         isPassed_ = false;
@@ -774,19 +1025,53 @@ public final class DungeonEntryInfoOuterClass {
       }
 
       private int nextRefreshTime_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 next_refresh_time = 1;</code>
+       * @return The nextRefreshTime.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getNextRefreshTime() {
         return nextRefreshTime_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 next_refresh_time = 1;</code>
+       * @param value The nextRefreshTime to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setNextRefreshTime(int value) {
 
         nextRefreshTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 next_refresh_time = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearNextRefreshTime() {
 
         nextRefreshTime_ = 0;
@@ -826,19 +1111,53 @@ public final class DungeonEntryInfoOuterClass {
       }
 
       private int dungeonId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 dungeon_id = 10;</code>
+       * @return The dungeonId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getDungeonId() {
         return dungeonId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 dungeon_id = 10;</code>
+       * @param value The dungeonId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setDungeonId(int value) {
 
         dungeonId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 dungeon_id = 10;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearDungeonId() {
 
         dungeonId_ = 0;

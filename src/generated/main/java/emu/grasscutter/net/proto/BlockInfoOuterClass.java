@@ -30,8 +30,29 @@ public final class BlockInfoOuterClass {
      */
     boolean getNBGFPNHGBJI();
 
+<<<<<<< HEAD
     int getDataVersion();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 data_version = 2;</code>
+     * @return The dataVersion.
+     */
+    int getDataVersion();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 block_id = 1;</code>
+     * @return The blockId.
+     */
+>>>>>>> origin/6.5.0
     int getBlockId();
   }
   /**
@@ -156,7 +177,18 @@ public final class BlockInfoOuterClass {
 
     public static final int DATA_VERSION_FIELD_NUMBER = 2;
     private int dataVersion_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 data_version = 2;</code>
+     * @return The dataVersion.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getDataVersion() {
       return dataVersion_;
@@ -164,7 +196,18 @@ public final class BlockInfoOuterClass {
 
     public static final int BLOCK_ID_FIELD_NUMBER = 1;
     private int blockId_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 block_id = 1;</code>
+     * @return The blockId.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getBlockId() {
       return blockId_;
@@ -590,19 +633,53 @@ public final class BlockInfoOuterClass {
       }
 
       private int dataVersion_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 data_version = 2;</code>
+       * @return The dataVersion.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getDataVersion() {
         return dataVersion_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 data_version = 2;</code>
+       * @param value The dataVersion to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setDataVersion(int value) {
 
         dataVersion_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 data_version = 2;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearDataVersion() {
 
         dataVersion_ = 0;
@@ -611,19 +688,53 @@ public final class BlockInfoOuterClass {
       }
 
       private int blockId_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 block_id = 1;</code>
+       * @return The blockId.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getBlockId() {
         return blockId_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 block_id = 1;</code>
+       * @param value The blockId to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setBlockId(int value) {
 
         blockId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 block_id = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearBlockId() {
 
         blockId_ = 0;

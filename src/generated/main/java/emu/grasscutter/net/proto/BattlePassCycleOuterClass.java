@@ -18,10 +18,41 @@ public final class BattlePassCycleOuterClass {
       // @@protoc_insertion_point(interface_extends:BattlePassCycle)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     int getEndTime();
 
     int getBeginTime();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 end_time = 5;</code>
+     * @return The endTime.
+     */
+    int getEndTime();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 begin_time = 6;</code>
+     * @return The beginTime.
+     */
+    int getBeginTime();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 cycle_idx = 10;</code>
+     * @return The cycleIdx.
+     */
+>>>>>>> origin/6.5.0
     int getCycleIdx();
   }
   /**
@@ -118,7 +149,18 @@ public final class BattlePassCycleOuterClass {
 
     public static final int END_TIME_FIELD_NUMBER = 5;
     private int endTime_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 end_time = 5;</code>
+     * @return The endTime.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getEndTime() {
       return endTime_;
@@ -126,7 +168,18 @@ public final class BattlePassCycleOuterClass {
 
     public static final int BEGIN_TIME_FIELD_NUMBER = 6;
     private int beginTime_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 begin_time = 6;</code>
+     * @return The beginTime.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getBeginTime() {
       return beginTime_;
@@ -134,7 +187,18 @@ public final class BattlePassCycleOuterClass {
 
     public static final int CYCLE_IDX_FIELD_NUMBER = 10;
     private int cycleIdx_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 cycle_idx = 10;</code>
+     * @return The cycleIdx.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCycleIdx() {
       return cycleIdx_;
@@ -477,19 +541,53 @@ public final class BattlePassCycleOuterClass {
       }
 
       private int endTime_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 end_time = 5;</code>
+       * @return The endTime.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getEndTime() {
         return endTime_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 end_time = 5;</code>
+       * @param value The endTime to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setEndTime(int value) {
 
         endTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 end_time = 5;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearEndTime() {
 
         endTime_ = 0;
@@ -498,19 +596,53 @@ public final class BattlePassCycleOuterClass {
       }
 
       private int beginTime_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 begin_time = 6;</code>
+       * @return The beginTime.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getBeginTime() {
         return beginTime_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 begin_time = 6;</code>
+       * @param value The beginTime to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setBeginTime(int value) {
 
         beginTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 begin_time = 6;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearBeginTime() {
 
         beginTime_ = 0;
@@ -519,19 +651,53 @@ public final class BattlePassCycleOuterClass {
       }
 
       private int cycleIdx_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 cycle_idx = 10;</code>
+       * @return The cycleIdx.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCycleIdx() {
         return cycleIdx_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 cycle_idx = 10;</code>
+       * @param value The cycleIdx to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setCycleIdx(int value) {
 
         cycleIdx_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 cycle_idx = 10;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearCycleIdx() {
 
         cycleIdx_ = 0;

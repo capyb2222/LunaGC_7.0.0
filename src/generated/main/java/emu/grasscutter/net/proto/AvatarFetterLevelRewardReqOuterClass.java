@@ -18,8 +18,29 @@ public final class AvatarFetterLevelRewardReqOuterClass {
       // @@protoc_insertion_point(interface_extends:AvatarFetterLevelRewardReq)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     long getAvatarGuid();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint64 avatar_guid = 9;</code>
+     * @return The avatarGuid.
+     */
+    long getAvatarGuid();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 fetter_level = 8;</code>
+     * @return The fetterLevel.
+     */
+>>>>>>> origin/6.5.0
     int getFetterLevel();
   }
   /**
@@ -115,7 +136,18 @@ public final class AvatarFetterLevelRewardReqOuterClass {
 
     public static final int AVATAR_GUID_FIELD_NUMBER = 6;
     private long avatarGuid_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint64 avatar_guid = 9;</code>
+     * @return The avatarGuid.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getAvatarGuid() {
       return avatarGuid_;
@@ -123,7 +155,18 @@ public final class AvatarFetterLevelRewardReqOuterClass {
 
     public static final int FETTER_LEVEL_FIELD_NUMBER = 8;
     private int fetterLevel_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 fetter_level = 8;</code>
+     * @return The fetterLevel.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getFetterLevel() {
       return fetterLevel_;
@@ -454,19 +497,53 @@ public final class AvatarFetterLevelRewardReqOuterClass {
       }
 
       private long avatarGuid_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint64 avatar_guid = 9;</code>
+       * @return The avatarGuid.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getAvatarGuid() {
         return avatarGuid_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint64 avatar_guid = 9;</code>
+       * @param value The avatarGuid to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setAvatarGuid(long value) {
 
         avatarGuid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint64 avatar_guid = 9;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearAvatarGuid() {
 
         avatarGuid_ = 0L;
@@ -475,19 +552,53 @@ public final class AvatarFetterLevelRewardReqOuterClass {
       }
 
       private int fetterLevel_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 fetter_level = 8;</code>
+       * @return The fetterLevel.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getFetterLevel() {
         return fetterLevel_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 fetter_level = 8;</code>
+       * @param value The fetterLevel to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setFetterLevel(int value) {
 
         fetterLevel_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 fetter_level = 8;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearFetterLevel() {
 
         fetterLevel_ = 0;

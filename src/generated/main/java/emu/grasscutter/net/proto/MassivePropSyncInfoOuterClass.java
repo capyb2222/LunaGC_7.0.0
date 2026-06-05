@@ -18,6 +18,7 @@ public final class MassivePropSyncInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:MassivePropSyncInfo)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     java.util.List<emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam>
         getPropListList();
 
@@ -31,6 +32,60 @@ public final class MassivePropSyncInfoOuterClass {
     emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParamOrBuilder getPropListOrBuilder(
         int index);
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .MassivePropParam prop_list = 2;</code>
+     */
+    java.util.List<emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam> 
+        getPropListList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .MassivePropParam prop_list = 2;</code>
+     */
+    emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam getPropList(int index);
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .MassivePropParam prop_list = 2;</code>
+     */
+    int getPropListCount();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .MassivePropParam prop_list = 2;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParamOrBuilder> 
+        getPropListOrBuilderList();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .MassivePropParam prop_list = 2;</code>
+     */
+    emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParamOrBuilder getPropListOrBuilder(
+        int index);
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>int64 id = 1;</code>
+     * @return The id.
+     */
+>>>>>>> origin/6.5.0
     long getId();
   }
   /**
@@ -131,28 +186,78 @@ public final class MassivePropSyncInfoOuterClass {
 
     public static final int PROP_LIST_FIELD_NUMBER = 2;
     private java.util.List<emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam> propList_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .MassivePropParam prop_list = 2;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam> getPropListList() {
       return propList_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .MassivePropParam prop_list = 2;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParamOrBuilder>
         getPropListOrBuilderList() {
       return propList_;
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .MassivePropParam prop_list = 2;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getPropListCount() {
       return propList_.size();
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .MassivePropParam prop_list = 2;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam getPropList(int index) {
       return propList_.get(index);
     }
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .MassivePropParam prop_list = 2;</code>
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParamOrBuilder getPropListOrBuilder(
         int index) {
@@ -161,7 +266,18 @@ public final class MassivePropSyncInfoOuterClass {
 
     public static final int ID_FIELD_NUMBER = 1;
     private long id_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>int64 id = 1;</code>
+     * @return The id.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getId() {
       return id_;
@@ -539,6 +655,16 @@ public final class MassivePropSyncInfoOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam, emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam.Builder, emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParamOrBuilder> propListBuilder_;
 
+<<<<<<< HEAD
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .MassivePropParam prop_list = 2;</code>
+       */
+>>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam> getPropListList() {
         if (propListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(propList_);
@@ -546,7 +672,17 @@ public final class MassivePropSyncInfoOuterClass {
           return propListBuilder_.getMessageList();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .MassivePropParam prop_list = 2;</code>
+       */
+>>>>>>> origin/6.5.0
       public int getPropListCount() {
         if (propListBuilder_ == null) {
           return propList_.size();
@@ -554,7 +690,17 @@ public final class MassivePropSyncInfoOuterClass {
           return propListBuilder_.getCount();
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .MassivePropParam prop_list = 2;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam getPropList(int index) {
         if (propListBuilder_ == null) {
           return propList_.get(index);
@@ -562,7 +708,17 @@ public final class MassivePropSyncInfoOuterClass {
           return propListBuilder_.getMessage(index);
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .MassivePropParam prop_list = 2;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setPropList(
           int index, emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam value) {
         if (propListBuilder_ == null) {
@@ -577,7 +733,17 @@ public final class MassivePropSyncInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .MassivePropParam prop_list = 2;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder setPropList(
           int index, emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam.Builder builderForValue) {
         if (propListBuilder_ == null) {
@@ -589,7 +755,17 @@ public final class MassivePropSyncInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .MassivePropParam prop_list = 2;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addPropList(emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam value) {
         if (propListBuilder_ == null) {
           if (value == null) {
@@ -603,7 +779,17 @@ public final class MassivePropSyncInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .MassivePropParam prop_list = 2;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addPropList(
           int index, emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam value) {
         if (propListBuilder_ == null) {
@@ -618,7 +804,17 @@ public final class MassivePropSyncInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .MassivePropParam prop_list = 2;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addPropList(
           emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam.Builder builderForValue) {
         if (propListBuilder_ == null) {
@@ -630,7 +826,17 @@ public final class MassivePropSyncInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .MassivePropParam prop_list = 2;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addPropList(
           int index, emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam.Builder builderForValue) {
         if (propListBuilder_ == null) {
@@ -642,7 +848,17 @@ public final class MassivePropSyncInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .MassivePropParam prop_list = 2;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder addAllPropList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam> values) {
         if (propListBuilder_ == null) {
@@ -655,7 +871,17 @@ public final class MassivePropSyncInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .MassivePropParam prop_list = 2;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder clearPropList() {
         if (propListBuilder_ == null) {
           propList_ = java.util.Collections.emptyList();
@@ -666,7 +892,17 @@ public final class MassivePropSyncInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .MassivePropParam prop_list = 2;</code>
+       */
+>>>>>>> origin/6.5.0
       public Builder removePropList(int index) {
         if (propListBuilder_ == null) {
           ensurePropListIsMutable();
@@ -677,12 +913,32 @@ public final class MassivePropSyncInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .MassivePropParam prop_list = 2;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam.Builder getPropListBuilder(
           int index) {
         return getPropListFieldBuilder().getBuilder(index);
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .MassivePropParam prop_list = 2;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParamOrBuilder getPropListOrBuilder(
           int index) {
         if (propListBuilder_ == null) {
@@ -690,8 +946,19 @@ public final class MassivePropSyncInfoOuterClass {
           return propListBuilder_.getMessageOrBuilder(index);
         }
       }
+<<<<<<< HEAD
 
       public java.util.List<? extends emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParamOrBuilder>
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .MassivePropParam prop_list = 2;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParamOrBuilder> 
+>>>>>>> origin/6.5.0
            getPropListOrBuilderList() {
         if (propListBuilder_ != null) {
           return propListBuilder_.getMessageOrBuilderList();
@@ -699,19 +966,50 @@ public final class MassivePropSyncInfoOuterClass {
           return java.util.Collections.unmodifiableList(propList_);
         }
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .MassivePropParam prop_list = 2;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam.Builder addPropListBuilder() {
         return getPropListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam.getDefaultInstance());
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .MassivePropParam prop_list = 2;</code>
+       */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam.Builder addPropListBuilder(
           int index) {
         return getPropListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam.getDefaultInstance());
       }
+<<<<<<< HEAD
 
       public java.util.List<emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam.Builder>
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .MassivePropParam prop_list = 2;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam.Builder> 
+>>>>>>> origin/6.5.0
            getPropListBuilderList() {
         return getPropListFieldBuilder().getBuilderList();
       }
@@ -731,19 +1029,53 @@ public final class MassivePropSyncInfoOuterClass {
       }
 
       private long id_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>int64 id = 1;</code>
+       * @return The id.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getId() {
         return id_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>int64 id = 1;</code>
+       * @param value The id to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setId(long value) {
 
         id_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>int64 id = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearId() {
 
         id_ = 0L;

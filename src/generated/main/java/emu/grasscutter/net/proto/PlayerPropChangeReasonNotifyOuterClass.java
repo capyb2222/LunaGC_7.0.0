@@ -18,6 +18,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:PlayerPropChangeReasonNotify)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
     int getReasonValue();
 
     emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason getReason();
@@ -26,6 +27,55 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
 
     float getCurValue();
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>.PropChangeReason reason = 1;</code>
+     * @return The enum numeric value on the wire for reason.
+     */
+    int getReasonValue();
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>.PropChangeReason reason = 1;</code>
+     * @return The reason.
+     */
+    emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason getReason();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 prop_type = 11;</code>
+     * @return The propType.
+     */
+    int getPropType();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>float cur_value = 10;</code>
+     * @return The curValue.
+     */
+    float getCurValue();
+
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>float old_value = 12;</code>
+     * @return The oldValue.
+     */
+>>>>>>> origin/6.5.0
     float getOldValue();
   }
   /**
@@ -133,11 +183,33 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
 
     public static final int REASON_FIELD_NUMBER = 12;
     private int reason_;
+<<<<<<< HEAD
 
     @java.lang.Override public int getReasonValue() {
       return reason_;
     }
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>.PropChangeReason reason = 1;</code>
+     * @return The enum numeric value on the wire for reason.
+     */
+    @java.lang.Override public int getReasonValue() {
+      return reason_;
+    }
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>.PropChangeReason reason = 1;</code>
+     * @return The reason.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override public emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason getReason() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason result = emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason.valueOf(reason_);
@@ -146,7 +218,18 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
 
     public static final int PROP_TYPE_FIELD_NUMBER = 7;
     private int propType_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 prop_type = 11;</code>
+     * @return The propType.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getPropType() {
       return propType_;
@@ -154,7 +237,18 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
 
     public static final int CUR_VALUE_FIELD_NUMBER = 10;
     private float curValue_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>float cur_value = 10;</code>
+     * @return The curValue.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public float getCurValue() {
       return curValue_;
@@ -162,7 +256,18 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
 
     public static final int OLD_VALUE_FIELD_NUMBER = 12;
     private float oldValue_;
+<<<<<<< HEAD
 
+=======
+    /**
+     * <pre>
+     *6.5.5 //6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>float old_value = 12;</code>
+     * @return The oldValue.
+     */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public float getOldValue() {
       return oldValue_;
@@ -529,25 +634,71 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
       }
 
       private int reason_ = 0;
+<<<<<<< HEAD
 
       @java.lang.Override public int getReasonValue() {
         return reason_;
       }
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>.PropChangeReason reason = 1;</code>
+       * @return The enum numeric value on the wire for reason.
+       */
+      @java.lang.Override public int getReasonValue() {
+        return reason_;
+      }
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>.PropChangeReason reason = 1;</code>
+       * @param value The enum numeric value on the wire for reason to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setReasonValue(int value) {
 
         reason_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>.PropChangeReason reason = 1;</code>
+       * @return The reason.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason getReason() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason result = emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason.valueOf(reason_);
         return result == null ? emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason.UNRECOGNIZED : result;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>.PropChangeReason reason = 1;</code>
+       * @param value The reason to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setReason(emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason value) {
         if (value == null) {
           throw new NullPointerException();
@@ -557,7 +708,18 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>.PropChangeReason reason = 1;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearReason() {
 
         reason_ = 0;
@@ -566,19 +728,53 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
       }
 
       private int propType_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 prop_type = 11;</code>
+       * @return The propType.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getPropType() {
         return propType_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 prop_type = 11;</code>
+       * @param value The propType to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setPropType(int value) {
 
         propType_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 prop_type = 11;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearPropType() {
 
         propType_ = 0;
@@ -587,19 +783,53 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
       }
 
       private float curValue_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>float cur_value = 10;</code>
+       * @return The curValue.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public float getCurValue() {
         return curValue_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>float cur_value = 10;</code>
+       * @param value The curValue to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setCurValue(float value) {
 
         curValue_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>float cur_value = 10;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearCurValue() {
 
         curValue_ = 0F;
@@ -608,19 +838,53 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
       }
 
       private float oldValue_ ;
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>float old_value = 12;</code>
+       * @return The oldValue.
+       */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public float getOldValue() {
         return oldValue_;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>float old_value = 12;</code>
+       * @param value The oldValue to set.
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder setOldValue(float value) {
 
         oldValue_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
 
+=======
+      /**
+       * <pre>
+       *6.5.5 //6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>float old_value = 12;</code>
+       * @return This builder for chaining.
+       */
+>>>>>>> origin/6.5.0
       public Builder clearOldValue() {
 
         oldValue_ = 0F;
