@@ -15,7 +15,8 @@ public class PacketAvatarDataNotify extends BasePacket {
                         .setCurAvatarTeamId(player.getTeamManager().getCurrentTeamId())
                         .setChooseAvatarGuid(player.getTeamManager().getCurrentCharacterGuid())
                         .addAllOwnedFlycloakList(player.getFlyCloakList())
-                        .addAllOwnedCostumeList(player.getCostumeList());
+                        .addAllOwnedCostumeList(player.getCostumeList())
+                        .addAllOwnedTraceEffectList(player.getTraceEffectList());
 
         player.getAvatars().forEach(avatar -> proto.addAvatarList(avatar.toProto()));
 
@@ -25,12 +26,11 @@ public class PacketAvatarDataNotify extends BasePacket {
                 .forEach(
                         (id, teamInfo) -> {
                             proto.putAvatarTeamMap(id, teamInfo.toProto(player));
-                            if (id > 4) { // Add the id list for custom teams.
-                                //proto.addBackupAvatarTeamOrderList(id);
+                            if (id > 4) {
+
                             }
                         });
 
-        // Set main character
         Avatar mainCharacter = player.getAvatars().getAvatarById(player.getMainCharacterId());
         if (mainCharacter != null) {
             proto.setChooseAvatarGuid(mainCharacter.getGuid());

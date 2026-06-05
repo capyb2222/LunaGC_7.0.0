@@ -104,18 +104,16 @@ public class GameSession implements GameSessionManager.KcpChannel {
     }
 
     public void send(BasePacket packet) {
-        // Test
+
         if (packet.getOpcode() <= 0) {
             Grasscutter.getLogger().warn("Tried to send packet with missing cmd id!");
             return;
         }
 
-        // Header
         if (packet.shouldBuildHeader()) {
             packet.buildHeader(this.getNextClientSequence());
         }
 
-        // Log
         switch (GAME_INFO.logPackets) {
             case ALL -> {
                 if ((!PacketOpcodesUtils.LOOP_PACKETS.contains(packet.getOpcode())
@@ -139,17 +137,15 @@ public class GameSession implements GameSessionManager.KcpChannel {
             default -> {}
         }
 
-        // Invoke event.
         SendPacketEvent event = new SendPacketEvent(this, packet);
         event.call();
-        if (!event.isCanceled()) { // If event is not cancelled, continue.
+        if (!event.isCanceled()) {
             try {
                 packet = event.getPacket();
                 var bytes = packet.build();
                 if (packet.shouldEncrypt) {
-                    //Crypto.xor(bytes, packet.useDispatchKey() ? Crypto.DISPATCH_KEY : this.encryptKey);
                     if (Grasscutter.getConfig().server.game.useXorEncryption) {
-                        Crypto.xor(bytes, packet.useDispatchKey() ? Crypto.DISPATCH_KEY : this.encryptKey);
+                        Crypto.xor(bytes, packet.useDispatchKey() || !useSecretKey() ? Crypto.DISPATCH_KEY : this.encryptKey);
                     }
                 }
                 tunnel.writeData(bytes);
@@ -167,24 +163,17 @@ public class GameSession implements GameSessionManager.KcpChannel {
 
     @Override
     public void handleReceive(byte[] bytes) {
-        // Decrypt and turn back into a packet
-        //Crypto.xor(bytes, useSecretKey() ? this.encryptKey : Crypto.DISPATCH_KEY);
         if (Grasscutter.getConfig().server.game.useXorEncryption) {
             Crypto.xor(bytes, useSecretKey() ? this.encryptKey : Crypto.DISPATCH_KEY);
         }
         ByteBuf packet = Unpooled.wrappedBuffer(bytes);
 
-        // Log
-        // logPacket(packet);
-        // Handle
         try {
             boolean allDebug = GAME_INFO.logPackets == ServerDebugMode.ALL;
             while (packet.readableBytes() > 0) {
-                // Length
                 if (packet.readableBytes() < 12) {
                     return;
                 }
-                // Packet sanity check
                 int const1 = packet.readShort();
                 if (const1 != 17767) {
                     if (allDebug) {
@@ -193,7 +182,6 @@ public class GameSession implements GameSessionManager.KcpChannel {
                     }
                     return; // Bad packet
                 }
-                // Data
                 int opcode = packet.readShort();
                 int headerLength = packet.readShort();
                 int payloadLength = packet.readInt();
@@ -202,7 +190,6 @@ public class GameSession implements GameSessionManager.KcpChannel {
 
                 packet.readBytes(header);
                 packet.readBytes(payload);
-                // Sanity check #2
                 int const2 = packet.readShort();
                 if (const2 != -30293) {
                     if (allDebug) {
@@ -212,7 +199,6 @@ public class GameSession implements GameSessionManager.KcpChannel {
                     return; // Bad packet
                 }
 
-                // Log packet
                 switch (GAME_INFO.logPackets) {
                     case ALL -> {
                         if ((!PacketOpcodesUtils.LOOP_PACKETS.contains(opcode) || GAME_INFO.isShowLoopPackets)
@@ -235,13 +221,12 @@ public class GameSession implements GameSessionManager.KcpChannel {
                     default -> {}
                 }
 
-                // Handle
                 getServer().getPacketHandler().handle(this, opcode, header, payload);
             }
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            // byteBuf.release(); //Needn't
+
             packet.release();
         }
     }
@@ -249,13 +234,13 @@ public class GameSession implements GameSessionManager.KcpChannel {
         @Override
         public void handleClose() {
             setState(SessionState.INACTIVE);
-            // send disconnection pack in case of reconnection
+
             Grasscutter.getLogger()
                     .info(translate("messages.game.disconnect", this.getAddress().toString()));
-            // Save after disconnecting
+
             if (this.isLoggedIn()) {
                 Player player = getPlayer();
-                // Call logout event.
+
                 player.onLogout();
             }
             try {

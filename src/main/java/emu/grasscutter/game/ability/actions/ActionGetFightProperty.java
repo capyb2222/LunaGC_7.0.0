@@ -28,10 +28,7 @@ public final class ActionGetFightProperty extends AbilityActionHandler {
         float fightPropertyValue = action.fightProp.get(properties, 0f);
         
         target.getGlobalAbilityValues().put(action.globalValueKey, fightPropertyValue);
-        
-        Grasscutter.getLogger().info("Set global value {} to {} (fight prop: {})", 
-                action.globalValueKey, fightPropertyValue, action.fightProp);
-        
+
         return true;
     }
 }

@@ -18,14 +18,6 @@ public final class PersonalSceneJumpReqOuterClass {
       // @@protoc_insertion_point(interface_extends:PersonalSceneJumpReq)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>uint32 point_id = 10;</code>
-     * @return The pointId.
-     */
     int getPointId();
   }
   /**
@@ -116,14 +108,7 @@ public final class PersonalSceneJumpReqOuterClass {
 
     public static final int POINT_ID_FIELD_NUMBER = 10;
     private int pointId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>uint32 point_id = 10;</code>
-     * @return The pointId.
-     */
+
     @java.lang.Override
     public int getPointId() {
       return pointId_;
@@ -436,43 +421,21 @@ public final class PersonalSceneJumpReqOuterClass {
       }
 
       private int pointId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 point_id = 10;</code>
-       * @return The pointId.
-       */
+
       @java.lang.Override
       public int getPointId() {
         return pointId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 point_id = 10;</code>
-       * @param value The pointId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setPointId(int value) {
-        
+
         pointId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 point_id = 10;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearPointId() {
-        
+
         pointId_ = 0;
         onChanged();
         return this;
@@ -488,7 +451,6 @@ public final class PersonalSceneJumpReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:PersonalSceneJumpReq)
     }
@@ -532,7 +494,7 @@ public final class PersonalSceneJumpReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PersonalSceneJumpReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PersonalSceneJumpReq_fieldAccessorTable;
 

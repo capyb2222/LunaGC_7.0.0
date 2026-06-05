@@ -18,24 +18,8 @@ public final class SceneTransToPointReqOuterClass {
       // @@protoc_insertion_point(interface_extends:SceneTransToPointReq)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 point_id = 7;</code>
-     * @return The pointId.
-     */
     int getPointId();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 scene_id = 13;</code>
-     * @return The sceneId.
-     */
     int getSceneId();
   }
   /**
@@ -83,12 +67,12 @@ public final class SceneTransToPointReqOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
+            case 64: {
 
               pointId_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 96: {
 
               sceneId_ = input.readUInt32();
               break;
@@ -125,31 +109,17 @@ public final class SceneTransToPointReqOuterClass {
               emu.grasscutter.net.proto.SceneTransToPointReqOuterClass.SceneTransToPointReq.class, emu.grasscutter.net.proto.SceneTransToPointReqOuterClass.SceneTransToPointReq.Builder.class);
     }
 
-    public static final int POINT_ID_FIELD_NUMBER = 7;
+    public static final int POINT_ID_FIELD_NUMBER = 8;
     private int pointId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 point_id = 7;</code>
-     * @return The pointId.
-     */
+
     @java.lang.Override
     public int getPointId() {
       return pointId_;
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 13;
+    public static final int SCENE_ID_FIELD_NUMBER = 12;
     private int sceneId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 scene_id = 13;</code>
-     * @return The sceneId.
-     */
+
     @java.lang.Override
     public int getSceneId() {
       return sceneId_;
@@ -475,86 +445,42 @@ public final class SceneTransToPointReqOuterClass {
       }
 
       private int pointId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 point_id = 7;</code>
-       * @return The pointId.
-       */
+
       @java.lang.Override
       public int getPointId() {
         return pointId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 point_id = 7;</code>
-       * @param value The pointId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setPointId(int value) {
-        
+
         pointId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 point_id = 7;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearPointId() {
-        
+
         pointId_ = 0;
         onChanged();
         return this;
       }
 
       private int sceneId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 scene_id = 13;</code>
-       * @return The sceneId.
-       */
+
       @java.lang.Override
       public int getSceneId() {
         return sceneId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 scene_id = 13;</code>
-       * @param value The sceneId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setSceneId(int value) {
-        
+
         sceneId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 scene_id = 13;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearSceneId() {
-        
+
         sceneId_ = 0;
         onChanged();
         return this;
@@ -570,7 +496,6 @@ public final class SceneTransToPointReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:SceneTransToPointReq)
     }
@@ -614,7 +539,7 @@ public final class SceneTransToPointReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SceneTransToPointReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SceneTransToPointReq_fieldAccessorTable;
 

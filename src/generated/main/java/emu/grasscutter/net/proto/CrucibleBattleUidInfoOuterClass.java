@@ -187,7 +187,7 @@ public final class CrucibleBattleUidInfoOuterClass {
               emu.grasscutter.net.proto.CrucibleBattleUidInfoOuterClass.CrucibleBattleUidInfo.class, emu.grasscutter.net.proto.CrucibleBattleUidInfoOuterClass.CrucibleBattleUidInfo.Builder.class);
     }
 
-    public static final int UID_FIELD_NUMBER = 3;
+    public static final int UID_FIELD_NUMBER = 15;
     private int uid_;
     /**
      * <code>uint32 uid = 3;</code>
@@ -198,7 +198,7 @@ public final class CrucibleBattleUidInfoOuterClass {
       return uid_;
     }
 
-    public static final int ONLINE_ID_FIELD_NUMBER = 4;
+    public static final int ONLINE_ID_FIELD_NUMBER = 10;
     private volatile java.lang.Object onlineId_;
     /**
      * <code>string online_id = 4;</code>
@@ -236,7 +236,7 @@ public final class CrucibleBattleUidInfoOuterClass {
       }
     }
 
-    public static final int ICON_FIELD_NUMBER = 14;
+    public static final int ICON_FIELD_NUMBER = 1;
     private int icon_;
     /**
      * <code>uint32 icon = 14;</code>
@@ -247,7 +247,7 @@ public final class CrucibleBattleUidInfoOuterClass {
       return icon_;
     }
 
-    public static final int NICKNAME_FIELD_NUMBER = 10;
+    public static final int NICKNAME_FIELD_NUMBER = 3;
     private volatile java.lang.Object nickname_;
     /**
      * <code>string nickname = 10;</code>
@@ -285,7 +285,7 @@ public final class CrucibleBattleUidInfoOuterClass {
       }
     }
 
-    public static final int PROFILE_PICTURE_FIELD_NUMBER = 6;
+    public static final int PROFILE_PICTURE_FIELD_NUMBER = 9;
     private emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture profilePicture_;
     /**
      * <code>.ProfilePicture profile_picture = 6;</code>
@@ -326,7 +326,7 @@ public final class CrucibleBattleUidInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (uid_ != 0) {
-        output.writeUInt32(3, uid_);
+        output.writeUInt32(15, uid_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(onlineId_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 4, onlineId_);
@@ -338,7 +338,7 @@ public final class CrucibleBattleUidInfoOuterClass {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 10, nickname_);
       }
       if (icon_ != 0) {
-        output.writeUInt32(14, icon_);
+        output.writeUInt32(1, icon_);
       }
       unknownFields.writeTo(output);
     }
@@ -351,21 +351,21 @@ public final class CrucibleBattleUidInfoOuterClass {
       size = 0;
       if (uid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, uid_);
+          .computeUInt32Size(15, uid_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(onlineId_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(4, onlineId_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(10, onlineId_);
       }
       if (profilePicture_ != null) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(6, getProfilePicture());
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(nickname_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(10, nickname_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(3, nickname_);
       }
       if (icon_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, icon_);
+          .computeUInt32Size(1, icon_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

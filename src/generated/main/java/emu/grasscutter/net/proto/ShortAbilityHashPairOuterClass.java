@@ -18,24 +18,8 @@ public final class ShortAbilityHashPairOuterClass {
       // @@protoc_insertion_point(interface_extends:ShortAbilityHashPair)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>sfixed32 ability_name_hash = 3;</code>
-     * @return The abilityNameHash.
-     */
     int getAbilityNameHash();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>sfixed32 ability_config_hash = 6;</code>
-     * @return The abilityConfigHash.
-     */
     int getAbilityConfigHash();
   }
   /**
@@ -127,14 +111,7 @@ public final class ShortAbilityHashPairOuterClass {
 
     public static final int ABILITY_NAME_HASH_FIELD_NUMBER = 3;
     private int abilityNameHash_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>sfixed32 ability_name_hash = 3;</code>
-     * @return The abilityNameHash.
-     */
+
     @java.lang.Override
     public int getAbilityNameHash() {
       return abilityNameHash_;
@@ -142,14 +119,7 @@ public final class ShortAbilityHashPairOuterClass {
 
     public static final int ABILITY_CONFIG_HASH_FIELD_NUMBER = 6;
     private int abilityConfigHash_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>sfixed32 ability_config_hash = 6;</code>
-     * @return The abilityConfigHash.
-     */
+
     @java.lang.Override
     public int getAbilityConfigHash() {
       return abilityConfigHash_;
@@ -475,86 +445,42 @@ public final class ShortAbilityHashPairOuterClass {
       }
 
       private int abilityNameHash_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>sfixed32 ability_name_hash = 3;</code>
-       * @return The abilityNameHash.
-       */
+
       @java.lang.Override
       public int getAbilityNameHash() {
         return abilityNameHash_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>sfixed32 ability_name_hash = 3;</code>
-       * @param value The abilityNameHash to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setAbilityNameHash(int value) {
-        
+
         abilityNameHash_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>sfixed32 ability_name_hash = 3;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearAbilityNameHash() {
-        
+
         abilityNameHash_ = 0;
         onChanged();
         return this;
       }
 
       private int abilityConfigHash_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>sfixed32 ability_config_hash = 6;</code>
-       * @return The abilityConfigHash.
-       */
+
       @java.lang.Override
       public int getAbilityConfigHash() {
         return abilityConfigHash_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>sfixed32 ability_config_hash = 6;</code>
-       * @param value The abilityConfigHash to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setAbilityConfigHash(int value) {
-        
+
         abilityConfigHash_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>sfixed32 ability_config_hash = 6;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearAbilityConfigHash() {
-        
+
         abilityConfigHash_ = 0;
         onChanged();
         return this;
@@ -570,7 +496,6 @@ public final class ShortAbilityHashPairOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:ShortAbilityHashPair)
     }
@@ -614,7 +539,7 @@ public final class ShortAbilityHashPairOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ShortAbilityHashPair_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ShortAbilityHashPair_fieldAccessorTable;
 

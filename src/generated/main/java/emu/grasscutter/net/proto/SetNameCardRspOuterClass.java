@@ -18,24 +18,8 @@ public final class SetNameCardRspOuterClass {
       // @@protoc_insertion_point(interface_extends:SetNameCardRsp)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 name_card_id = 11;</code>
-     * @return The nameCardId.
-     */
     int getNameCardId();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>int32 retcode = 3;</code>
-     * @return The retcode.
-     */
     int getRetcode();
   }
   /**
@@ -88,12 +72,12 @@ public final class SetNameCardRspOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 112: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 88: {
+            case 8: {
 
               nameCardId_ = input.readUInt32();
               break;
@@ -130,31 +114,17 @@ public final class SetNameCardRspOuterClass {
               emu.grasscutter.net.proto.SetNameCardRspOuterClass.SetNameCardRsp.class, emu.grasscutter.net.proto.SetNameCardRspOuterClass.SetNameCardRsp.Builder.class);
     }
 
-    public static final int NAME_CARD_ID_FIELD_NUMBER = 11;
+    public static final int NAME_CARD_ID_FIELD_NUMBER = 1;
     private int nameCardId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 name_card_id = 11;</code>
-     * @return The nameCardId.
-     */
+
     @java.lang.Override
     public int getNameCardId() {
       return nameCardId_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 3;
+    public static final int RETCODE_FIELD_NUMBER = 14;
     private int retcode_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>int32 retcode = 3;</code>
-     * @return The retcode.
-     */
+
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -174,11 +144,11 @@ public final class SetNameCardRspOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (retcode_ != 0) {
-        output.writeInt32(3, retcode_);
-      }
       if (nameCardId_ != 0) {
-        output.writeUInt32(11, nameCardId_);
+        output.writeUInt32(1, nameCardId_);
+      }
+      if (retcode_ != 0) {
+        output.writeInt32(14, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -189,13 +159,13 @@ public final class SetNameCardRspOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (retcode_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(3, retcode_);
-      }
       if (nameCardId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, nameCardId_);
+          .computeUInt32Size(1, nameCardId_);
+      }
+      if (retcode_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt32Size(14, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -485,86 +455,42 @@ public final class SetNameCardRspOuterClass {
       }
 
       private int nameCardId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 name_card_id = 11;</code>
-       * @return The nameCardId.
-       */
+
       @java.lang.Override
       public int getNameCardId() {
         return nameCardId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 name_card_id = 11;</code>
-       * @param value The nameCardId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setNameCardId(int value) {
-        
+
         nameCardId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 name_card_id = 11;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearNameCardId() {
-        
+
         nameCardId_ = 0;
         onChanged();
         return this;
       }
 
       private int retcode_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 3;</code>
-       * @return The retcode.
-       */
+
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 3;</code>
-       * @param value The retcode to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 3;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -580,7 +506,6 @@ public final class SetNameCardRspOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:SetNameCardRsp)
     }
@@ -624,7 +549,7 @@ public final class SetNameCardRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SetNameCardRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SetNameCardRsp_fieldAccessorTable;
 

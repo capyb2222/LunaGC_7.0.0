@@ -18,21 +18,8 @@ public final class WeaponOuterClass {
       // @@protoc_insertion_point(interface_extends:Weapon)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; affix_map = 4;</code>
-     */
     int getAffixMapCount();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; affix_map = 4;</code>
-     */
+
     boolean containsAffixMap(
         int key);
     /**
@@ -41,55 +28,19 @@ public final class WeaponOuterClass {
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getAffixMap();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; affix_map = 4;</code>
-     */
+
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getAffixMapMap();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; affix_map = 4;</code>
-     */
 
     int getAffixMapOrDefault(
         int key,
         int defaultValue);
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; affix_map = 4;</code>
-     */
 
     int getAffixMapOrThrow(
         int key);
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 exp = 2;</code>
-     * @return The exp.
-     */
     int getExp();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 promote_level = 3;</code>
-     * @return The promoteLevel.
-     */
     int getPromoteLevel();
 
     /**
@@ -98,14 +49,6 @@ public final class WeaponOuterClass {
      */
     boolean getHHGDIOOEBMJ();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 level = 1;</code>
-     * @return The level.
-     */
     int getLevel();
   }
   /**
@@ -237,7 +180,7 @@ public final class WeaponOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.WeaponOuterClass.internal_static_Weapon_AffixMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.WeaponOuterClass.internal_static_Weapon_AffixMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -257,18 +200,11 @@ public final class WeaponOuterClass {
     public int getAffixMapCount() {
       return internalGetAffixMap().getMap().size();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; affix_map = 4;</code>
-     */
 
     @java.lang.Override
     public boolean containsAffixMap(
         int key) {
-      
+
       return internalGetAffixMap().getMap().containsKey(key);
     }
     /**
@@ -279,47 +215,29 @@ public final class WeaponOuterClass {
     public java.util.Map<java.lang.Integer, java.lang.Integer> getAffixMap() {
       return getAffixMapMap();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; affix_map = 4;</code>
-     */
+
     @java.lang.Override
 
     public java.util.Map<java.lang.Integer, java.lang.Integer> getAffixMapMap() {
       return internalGetAffixMap().getMap();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; affix_map = 4;</code>
-     */
+
     @java.lang.Override
 
     public int getAffixMapOrDefault(
         int key,
         int defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetAffixMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; affix_map = 4;</code>
-     */
+
     @java.lang.Override
 
     public int getAffixMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetAffixMap().getMap();
       if (!map.containsKey(key)) {
@@ -330,14 +248,7 @@ public final class WeaponOuterClass {
 
     public static final int EXP_FIELD_NUMBER = 2;
     private int exp_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 exp = 2;</code>
-     * @return The exp.
-     */
+
     @java.lang.Override
     public int getExp() {
       return exp_;
@@ -345,14 +256,7 @@ public final class WeaponOuterClass {
 
     public static final int PROMOTE_LEVEL_FIELD_NUMBER = 3;
     private int promoteLevel_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 promote_level = 3;</code>
-     * @return The promoteLevel.
-     */
+
     @java.lang.Override
     public int getPromoteLevel() {
       return promoteLevel_;
@@ -371,14 +275,7 @@ public final class WeaponOuterClass {
 
     public static final int LEVEL_FIELD_NUMBER = 1;
     private int level_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 level = 1;</code>
-     * @return The level.
-     */
+
     @java.lang.Override
     public int getLevel() {
       return level_;
@@ -815,18 +712,11 @@ public final class WeaponOuterClass {
       public int getAffixMapCount() {
         return internalGetAffixMap().getMap().size();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; affix_map = 4;</code>
-       */
 
       @java.lang.Override
       public boolean containsAffixMap(
           int key) {
-        
+
         return internalGetAffixMap().getMap().containsKey(key);
       }
       /**
@@ -837,47 +727,29 @@ public final class WeaponOuterClass {
       public java.util.Map<java.lang.Integer, java.lang.Integer> getAffixMap() {
         return getAffixMapMap();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; affix_map = 4;</code>
-       */
+
       @java.lang.Override
 
       public java.util.Map<java.lang.Integer, java.lang.Integer> getAffixMapMap() {
         return internalGetAffixMap().getMap();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; affix_map = 4;</code>
-       */
+
       @java.lang.Override
 
       public int getAffixMapOrDefault(
           int key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetAffixMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; affix_map = 4;</code>
-       */
+
       @java.lang.Override
 
       public int getAffixMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetAffixMap().getMap();
         if (!map.containsKey(key)) {
@@ -891,17 +763,10 @@ public final class WeaponOuterClass {
             .clear();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; affix_map = 4;</code>
-       */
 
       public Builder removeAffixMap(
           int key) {
-        
+
         internalGetMutableAffixMap().getMutableMap()
             .remove(key);
         return this;
@@ -914,29 +779,15 @@ public final class WeaponOuterClass {
       getMutableAffixMap() {
         return internalGetMutableAffixMap().getMutableMap();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; affix_map = 4;</code>
-       */
+
       public Builder putAffixMap(
           int key,
           int value) {
-        
-        
+
         internalGetMutableAffixMap().getMutableMap()
             .put(key, value);
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; affix_map = 4;</code>
-       */
 
       public Builder putAllAffixMap(
           java.util.Map<java.lang.Integer, java.lang.Integer> values) {
@@ -946,86 +797,42 @@ public final class WeaponOuterClass {
       }
 
       private int exp_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 exp = 2;</code>
-       * @return The exp.
-       */
+
       @java.lang.Override
       public int getExp() {
         return exp_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 exp = 2;</code>
-       * @param value The exp to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setExp(int value) {
-        
+
         exp_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 exp = 2;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearExp() {
-        
+
         exp_ = 0;
         onChanged();
         return this;
       }
 
       private int promoteLevel_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 promote_level = 3;</code>
-       * @return The promoteLevel.
-       */
+
       @java.lang.Override
       public int getPromoteLevel() {
         return promoteLevel_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 promote_level = 3;</code>
-       * @param value The promoteLevel to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setPromoteLevel(int value) {
-        
+
         promoteLevel_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 promote_level = 3;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearPromoteLevel() {
-        
+
         promoteLevel_ = 0;
         onChanged();
         return this;
@@ -1046,7 +853,7 @@ public final class WeaponOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHHGDIOOEBMJ(boolean value) {
-        
+
         hHGDIOOEBMJ_ = value;
         onChanged();
         return this;
@@ -1056,50 +863,28 @@ public final class WeaponOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHHGDIOOEBMJ() {
-        
+
         hHGDIOOEBMJ_ = false;
         onChanged();
         return this;
       }
 
       private int level_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 level = 1;</code>
-       * @return The level.
-       */
+
       @java.lang.Override
       public int getLevel() {
         return level_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 level = 1;</code>
-       * @param value The level to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setLevel(int value) {
-        
+
         level_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 level = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearLevel() {
-        
+
         level_ = 0;
         onChanged();
         return this;
@@ -1115,7 +900,6 @@ public final class WeaponOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:Weapon)
     }
@@ -1159,12 +943,12 @@ public final class WeaponOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Weapon_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Weapon_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Weapon_AffixMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Weapon_AffixMapEntry_fieldAccessorTable;
 

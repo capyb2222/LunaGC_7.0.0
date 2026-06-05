@@ -18,43 +18,12 @@ public final class GachaUpInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:GachaUpInfo)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated uint32 item_id_list = 13;</code>
-     * @return A list containing the itemIdList.
-     */
     java.util.List<java.lang.Integer> getItemIdListList();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated uint32 item_id_list = 13;</code>
-     * @return The count of itemIdList.
-     */
+
     int getItemIdListCount();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated uint32 item_id_list = 13;</code>
-     * @param index The index of the element to return.
-     * @return The itemIdList at the given index.
-     */
+
     int getItemIdList(int index);
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 item_parent_type = 7;</code>
-     * @return The itemParentType.
-     */
     int getItemParentType();
   }
   /**
@@ -165,56 +134,27 @@ public final class GachaUpInfoOuterClass {
               emu.grasscutter.net.proto.GachaUpInfoOuterClass.GachaUpInfo.class, emu.grasscutter.net.proto.GachaUpInfoOuterClass.GachaUpInfo.Builder.class);
     }
 
-    public static final int ITEM_ID_LIST_FIELD_NUMBER = 13;
+    public static final int ITEM_ID_LIST_FIELD_NUMBER = 2;
     private com.google.protobuf.Internal.IntList itemIdList_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated uint32 item_id_list = 13;</code>
-     * @return A list containing the itemIdList.
-     */
+
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getItemIdListList() {
       return itemIdList_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated uint32 item_id_list = 13;</code>
-     * @return The count of itemIdList.
-     */
+
     public int getItemIdListCount() {
       return itemIdList_.size();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated uint32 item_id_list = 13;</code>
-     * @param index The index of the element to return.
-     * @return The itemIdList at the given index.
-     */
+
     public int getItemIdList(int index) {
       return itemIdList_.getInt(index);
     }
     private int itemIdListMemoizedSerializedSize = -1;
 
-    public static final int ITEM_PARENT_TYPE_FIELD_NUMBER = 7;
+    public static final int ITEM_PARENT_TYPE_FIELD_NUMBER = 1;
     private int itemParentType_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 item_parent_type = 7;</code>
-     * @return The itemParentType.
-     */
+
     @java.lang.Override
     public int getItemParentType() {
       return itemParentType_;
@@ -236,7 +176,7 @@ public final class GachaUpInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (itemParentType_ != 0) {
-        output.writeUInt32(7, itemParentType_);
+        output.writeUInt32(1, itemParentType_);
       }
       if (getItemIdListList().size() > 0) {
         output.writeUInt32NoTag(106);
@@ -256,7 +196,7 @@ public final class GachaUpInfoOuterClass {
       size = 0;
       if (itemParentType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, itemParentType_);
+          .computeUInt32Size(1, itemParentType_);
       }
       {
         int dataSize = 0;
@@ -576,52 +516,21 @@ public final class GachaUpInfoOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated uint32 item_id_list = 13;</code>
-       * @return A list containing the itemIdList.
-       */
+
       public java.util.List<java.lang.Integer>
           getItemIdListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(itemIdList_) : itemIdList_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated uint32 item_id_list = 13;</code>
-       * @return The count of itemIdList.
-       */
+
       public int getItemIdListCount() {
         return itemIdList_.size();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated uint32 item_id_list = 13;</code>
-       * @param index The index of the element to return.
-       * @return The itemIdList at the given index.
-       */
+
       public int getItemIdList(int index) {
         return itemIdList_.getInt(index);
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated uint32 item_id_list = 13;</code>
-       * @param index The index to set the value at.
-       * @param value The itemIdList to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setItemIdList(
           int index, int value) {
         ensureItemIdListIsMutable();
@@ -629,30 +538,14 @@ public final class GachaUpInfoOuterClass {
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated uint32 item_id_list = 13;</code>
-       * @param value The itemIdList to add.
-       * @return This builder for chaining.
-       */
+
       public Builder addItemIdList(int value) {
         ensureItemIdListIsMutable();
         itemIdList_.addInt(value);
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated uint32 item_id_list = 13;</code>
-       * @param values The itemIdList to add.
-       * @return This builder for chaining.
-       */
+
       public Builder addAllItemIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureItemIdListIsMutable();
@@ -661,14 +554,7 @@ public final class GachaUpInfoOuterClass {
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated uint32 item_id_list = 13;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearItemIdList() {
         itemIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -677,43 +563,21 @@ public final class GachaUpInfoOuterClass {
       }
 
       private int itemParentType_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 item_parent_type = 7;</code>
-       * @return The itemParentType.
-       */
+
       @java.lang.Override
       public int getItemParentType() {
         return itemParentType_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 item_parent_type = 7;</code>
-       * @param value The itemParentType to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setItemParentType(int value) {
-        
+
         itemParentType_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 item_parent_type = 7;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearItemParentType() {
-        
+
         itemParentType_ = 0;
         onChanged();
         return this;
@@ -729,7 +593,6 @@ public final class GachaUpInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:GachaUpInfo)
     }
@@ -773,7 +636,7 @@ public final class GachaUpInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GachaUpInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GachaUpInfo_fieldAccessorTable;
 

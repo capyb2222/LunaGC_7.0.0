@@ -18,62 +18,16 @@ public final class PropValueOuterClass {
       // @@protoc_insertion_point(interface_extends:PropValue)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 type = 1;</code>
-     * @return The type.
-     */
     int getType();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>int64 val = 4;</code>
-     * @return The val.
-     */
     long getVal();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>int64 ival = 2;</code>
-     * @return Whether the ival field is set.
-     */
     boolean hasIval();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>int64 ival = 2;</code>
-     * @return The ival.
-     */
+
     long getIval();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>float fval = 3;</code>
-     * @return Whether the fval field is set.
-     */
     boolean hasFval();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>float fval = 3;</code>
-     * @return The fval.
-     */
+
     float getFval();
 
     public emu.grasscutter.net.proto.PropValueOuterClass.PropValue.ValueCase getValueCase();
@@ -218,14 +172,7 @@ public final class PropValueOuterClass {
 
     public static final int TYPE_FIELD_NUMBER = 1;
     private int type_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 type = 1;</code>
-     * @return The type.
-     */
+
     @java.lang.Override
     public int getType() {
       return type_;
@@ -233,40 +180,19 @@ public final class PropValueOuterClass {
 
     public static final int VAL_FIELD_NUMBER = 4;
     private long val_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>int64 val = 4;</code>
-     * @return The val.
-     */
+
     @java.lang.Override
     public long getVal() {
       return val_;
     }
 
     public static final int IVAL_FIELD_NUMBER = 2;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>int64 ival = 2;</code>
-     * @return Whether the ival field is set.
-     */
+
     @java.lang.Override
     public boolean hasIval() {
       return valueCase_ == 2;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>int64 ival = 2;</code>
-     * @return The ival.
-     */
+
     @java.lang.Override
     public long getIval() {
       if (valueCase_ == 2) {
@@ -276,26 +202,12 @@ public final class PropValueOuterClass {
     }
 
     public static final int FVAL_FIELD_NUMBER = 3;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>float fval = 3;</code>
-     * @return Whether the fval field is set.
-     */
+
     @java.lang.Override
     public boolean hasFval() {
       return valueCase_ == 3;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>float fval = 3;</code>
-     * @return The fval.
-     */
+
     @java.lang.Override
     public float getFval() {
       if (valueCase_ == 3) {
@@ -706,141 +618,66 @@ public final class PropValueOuterClass {
         return this;
       }
 
-
       private int type_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 type = 1;</code>
-       * @return The type.
-       */
+
       @java.lang.Override
       public int getType() {
         return type_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 type = 1;</code>
-       * @param value The type to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setType(int value) {
-        
+
         type_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 type = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearType() {
-        
+
         type_ = 0;
         onChanged();
         return this;
       }
 
       private long val_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>int64 val = 4;</code>
-       * @return The val.
-       */
+
       @java.lang.Override
       public long getVal() {
         return val_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>int64 val = 4;</code>
-       * @param value The val to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setVal(long value) {
-        
+
         val_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>int64 val = 4;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearVal() {
-        
+
         val_ = 0L;
         onChanged();
         return this;
       }
 
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>int64 ival = 2;</code>
-       * @return Whether the ival field is set.
-       */
       public boolean hasIval() {
         return valueCase_ == 2;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>int64 ival = 2;</code>
-       * @return The ival.
-       */
+
       public long getIval() {
         if (valueCase_ == 2) {
           return (java.lang.Long) value_;
         }
         return 0L;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>int64 ival = 2;</code>
-       * @param value The ival to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setIval(long value) {
         valueCase_ = 2;
         value_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>int64 ival = 2;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearIval() {
         if (valueCase_ == 2) {
           valueCase_ = 0;
@@ -850,54 +687,24 @@ public final class PropValueOuterClass {
         return this;
       }
 
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>float fval = 3;</code>
-       * @return Whether the fval field is set.
-       */
       public boolean hasFval() {
         return valueCase_ == 3;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>float fval = 3;</code>
-       * @return The fval.
-       */
+
       public float getFval() {
         if (valueCase_ == 3) {
           return (java.lang.Float) value_;
         }
         return 0F;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>float fval = 3;</code>
-       * @param value The fval to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setFval(float value) {
         valueCase_ = 3;
         value_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>float fval = 3;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearFval() {
         if (valueCase_ == 3) {
           valueCase_ = 0;
@@ -917,7 +724,6 @@ public final class PropValueOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:PropValue)
     }
@@ -961,7 +767,7 @@ public final class PropValueOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PropValue_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PropValue_fieldAccessorTable;
 

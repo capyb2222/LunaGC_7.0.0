@@ -18,34 +18,10 @@ public final class PlayerApplyEnterMpRspOuterClass {
       // @@protoc_insertion_point(interface_extends:PlayerApplyEnterMpRsp)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>int32 retcode = 13;</code>
-     * @return The retcode.
-     */
     int getRetcode();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 target_uid = 6;</code>
-     * @return The targetUid.
-     */
     int getTargetUid();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 param = 11;</code>
-     * @return The param.
-     */
     int getParam();
   }
   /**
@@ -146,14 +122,7 @@ public final class PlayerApplyEnterMpRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 13;
     private int retcode_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>int32 retcode = 13;</code>
-     * @return The retcode.
-     */
+
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -161,14 +130,7 @@ public final class PlayerApplyEnterMpRspOuterClass {
 
     public static final int TARGET_UID_FIELD_NUMBER = 6;
     private int targetUid_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 target_uid = 6;</code>
-     * @return The targetUid.
-     */
+
     @java.lang.Override
     public int getTargetUid() {
       return targetUid_;
@@ -176,14 +138,7 @@ public final class PlayerApplyEnterMpRspOuterClass {
 
     public static final int PARAM_FIELD_NUMBER = 11;
     private int param_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 param = 11;</code>
-     * @return The param.
-     */
+
     @java.lang.Override
     public int getParam() {
       return param_;
@@ -530,129 +485,63 @@ public final class PlayerApplyEnterMpRspOuterClass {
       }
 
       private int retcode_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 13;</code>
-       * @return The retcode.
-       */
+
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 13;</code>
-       * @param value The retcode to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 13;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
       }
 
       private int targetUid_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 target_uid = 6;</code>
-       * @return The targetUid.
-       */
+
       @java.lang.Override
       public int getTargetUid() {
         return targetUid_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 target_uid = 6;</code>
-       * @param value The targetUid to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setTargetUid(int value) {
-        
+
         targetUid_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 target_uid = 6;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearTargetUid() {
-        
+
         targetUid_ = 0;
         onChanged();
         return this;
       }
 
       private int param_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 param = 11;</code>
-       * @return The param.
-       */
+
       @java.lang.Override
       public int getParam() {
         return param_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 param = 11;</code>
-       * @param value The param to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setParam(int value) {
-        
+
         param_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 param = 11;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearParam() {
-        
+
         param_ = 0;
         onChanged();
         return this;
@@ -668,7 +557,6 @@ public final class PlayerApplyEnterMpRspOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:PlayerApplyEnterMpRsp)
     }
@@ -712,7 +600,7 @@ public final class PlayerApplyEnterMpRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerApplyEnterMpRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerApplyEnterMpRsp_fieldAccessorTable;
 

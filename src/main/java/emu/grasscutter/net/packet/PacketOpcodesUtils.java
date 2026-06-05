@@ -12,19 +12,19 @@ public class PacketOpcodesUtils {
             Set.of(
                     PacketOpcodes.PingReq,
                     PacketOpcodes.PingRsp,
-                    //PacketOpcodes.WorldPlayerRTTNotify,
-                    PacketOpcodes.UnionCmdNotify,
-                    //PacketOpcodes.QueryPathReq,
-                    //PacketOpcodes.QueryPathRsp,
+                    PacketOpcodes.WorldPlayerRTTNotify,
 
-                    // Satiation sends these every tick
-                    PacketOpcodes.AbilityInvocationsNotify,
                     PacketOpcodes.CombatInvocationsNotify,
                     PacketOpcodes.WorldOwnerBlossomScheduleInfoNotify,
                     PacketOpcodes.PlayerTimeNotify,
                     PacketOpcodes.PlayerGameTimeNotify,
                     PacketOpcodes.AvatarPropNotify,
-                    PacketOpcodes.AvatarSatiationDataNotify);
+                    PacketOpcodes.AvatarSatiationDataNotify,
+
+                    PacketOpcodes.SceneTimeNotify,
+                    PacketOpcodes.PlayerSetPauseReq,
+                    PacketOpcodes.PlayerSetPauseRsp,
+                    PacketOpcodes.UnionCmdNotify);
     private static final Int2ObjectMap<String> opcodeMap;
 
     static {
@@ -49,7 +49,7 @@ public class PacketOpcodesUtils {
 
     public static void dumpPacketIds() {
         try (var writer = new FileWriter("./PacketIds_" + GameConstants.VERSION + ".json")) {
-            // Create sorted tree map
+
             var packetIds =
                     opcodeMap.int2ObjectEntrySet().stream()
                             .filter(e -> e.getIntKey() > 0)
@@ -59,7 +59,7 @@ public class PacketOpcodesUtils {
                                             Int2ObjectMap.Entry::getValue,
                                             (k, v) -> v,
                                             TreeMap::new));
-            // Write to file
+
             writer.write(JsonUtils.encode(packetIds));
             Grasscutter.getLogger().info("Dumped packet IDs.");
         } catch (IOException exception) {

@@ -18,26 +18,10 @@ public final class ResinChangeNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:ResinChangeNotify)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <code>uint32 next_add_timestamp = 6;</code>
-     * @return The nextAddTimestamp.
-     */
     int getNextAddTimestamp();
 
-    /**
-     * <code>uint32 cur_buy_count = 9;</code>
-     * @return The curBuyCount.
-     */
     int getCurBuyCount();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 cur_value = 4;</code>
-     * @return The curValue.
-     */
     int getCurValue();
   }
   /**
@@ -138,10 +122,7 @@ public final class ResinChangeNotifyOuterClass {
 
     public static final int NEXT_ADD_TIMESTAMP_FIELD_NUMBER = 6;
     private int nextAddTimestamp_;
-    /**
-     * <code>uint32 next_add_timestamp = 6;</code>
-     * @return The nextAddTimestamp.
-     */
+
     @java.lang.Override
     public int getNextAddTimestamp() {
       return nextAddTimestamp_;
@@ -149,10 +130,7 @@ public final class ResinChangeNotifyOuterClass {
 
     public static final int CUR_BUY_COUNT_FIELD_NUMBER = 9;
     private int curBuyCount_;
-    /**
-     * <code>uint32 cur_buy_count = 9;</code>
-     * @return The curBuyCount.
-     */
+
     @java.lang.Override
     public int getCurBuyCount() {
       return curBuyCount_;
@@ -160,14 +138,7 @@ public final class ResinChangeNotifyOuterClass {
 
     public static final int CUR_VALUE_FIELD_NUMBER = 4;
     private int curValue_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 cur_value = 4;</code>
-     * @return The curValue.
-     */
+
     @java.lang.Override
     public int getCurValue() {
       return curValue_;
@@ -514,105 +485,63 @@ public final class ResinChangeNotifyOuterClass {
       }
 
       private int nextAddTimestamp_ ;
-      /**
-       * <code>uint32 next_add_timestamp = 6;</code>
-       * @return The nextAddTimestamp.
-       */
+
       @java.lang.Override
       public int getNextAddTimestamp() {
         return nextAddTimestamp_;
       }
-      /**
-       * <code>uint32 next_add_timestamp = 6;</code>
-       * @param value The nextAddTimestamp to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setNextAddTimestamp(int value) {
-        
+
         nextAddTimestamp_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <code>uint32 next_add_timestamp = 6;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearNextAddTimestamp() {
-        
+
         nextAddTimestamp_ = 0;
         onChanged();
         return this;
       }
 
       private int curBuyCount_ ;
-      /**
-       * <code>uint32 cur_buy_count = 9;</code>
-       * @return The curBuyCount.
-       */
+
       @java.lang.Override
       public int getCurBuyCount() {
         return curBuyCount_;
       }
-      /**
-       * <code>uint32 cur_buy_count = 9;</code>
-       * @param value The curBuyCount to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setCurBuyCount(int value) {
-        
+
         curBuyCount_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <code>uint32 cur_buy_count = 9;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearCurBuyCount() {
-        
+
         curBuyCount_ = 0;
         onChanged();
         return this;
       }
 
       private int curValue_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 cur_value = 4;</code>
-       * @return The curValue.
-       */
+
       @java.lang.Override
       public int getCurValue() {
         return curValue_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 cur_value = 4;</code>
-       * @param value The curValue to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setCurValue(int value) {
-        
+
         curValue_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 cur_value = 4;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearCurValue() {
-        
+
         curValue_ = 0;
         onChanged();
         return this;
@@ -628,7 +557,6 @@ public final class ResinChangeNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:ResinChangeNotify)
     }
@@ -672,7 +600,7 @@ public final class ResinChangeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ResinChangeNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ResinChangeNotify_fieldAccessorTable;
 

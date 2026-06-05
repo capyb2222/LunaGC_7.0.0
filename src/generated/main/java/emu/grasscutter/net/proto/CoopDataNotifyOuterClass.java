@@ -202,7 +202,7 @@ public final class CoopDataNotifyOuterClass {
               emu.grasscutter.net.proto.CoopDataNotifyOuterClass.CoopDataNotify.class, emu.grasscutter.net.proto.CoopDataNotifyOuterClass.CoopDataNotify.Builder.class);
     }
 
-    public static final int IS_HAVE_PROGRESS_FIELD_NUMBER = 7;
+    public static final int IS_HAVE_PROGRESS_FIELD_NUMBER = 9;
     private boolean isHaveProgress_;
     /**
      * <code>bool is_have_progress = 7;</code>
@@ -213,7 +213,7 @@ public final class CoopDataNotifyOuterClass {
       return isHaveProgress_;
     }
 
-    public static final int CHAPTER_LIST_FIELD_NUMBER = 1;
+    public static final int CHAPTER_LIST_FIELD_NUMBER = 11;
     private java.util.List<emu.grasscutter.net.proto.CoopChapterOuterClass.CoopChapter> chapterList_;
     /**
      * <code>repeated .CoopChapter chapter_list = 1;</code>
@@ -253,7 +253,7 @@ public final class CoopDataNotifyOuterClass {
       return chapterList_.get(index);
     }
 
-    public static final int CUR_COOP_POINT_FIELD_NUMBER = 9;
+    public static final int CUR_COOP_POINT_FIELD_NUMBER = 10;
     private int curCoopPoint_;
     /**
      * <code>uint32 cur_coop_point = 9;</code>
@@ -264,7 +264,7 @@ public final class CoopDataNotifyOuterClass {
       return curCoopPoint_;
     }
 
-    public static final int VIEWED_CHAPTER_LIST_FIELD_NUMBER = 8;
+    public static final int VIEWED_CHAPTER_LIST_FIELD_NUMBER = 13;
     private com.google.protobuf.Internal.IntList viewedChapterList_;
     /**
      * <code>repeated uint32 viewed_chapter_list = 8;</code>
@@ -308,10 +308,10 @@ public final class CoopDataNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       for (int i = 0; i < chapterList_.size(); i++) {
-        output.writeMessage(1, chapterList_.get(i));
+        output.writeMessage(11, chapterList_.get(i));
       }
       if (isHaveProgress_ != false) {
-        output.writeBool(7, isHaveProgress_);
+        output.writeBool(9, isHaveProgress_);
       }
       if (getViewedChapterListList().size() > 0) {
         output.writeUInt32NoTag(66);
@@ -321,7 +321,7 @@ public final class CoopDataNotifyOuterClass {
         output.writeUInt32NoTag(viewedChapterList_.getInt(i));
       }
       if (curCoopPoint_ != 0) {
-        output.writeUInt32(9, curCoopPoint_);
+        output.writeUInt32(10, curCoopPoint_);
       }
       unknownFields.writeTo(output);
     }
@@ -334,11 +334,11 @@ public final class CoopDataNotifyOuterClass {
       size = 0;
       for (int i = 0; i < chapterList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, chapterList_.get(i));
+          .computeMessageSize(11, chapterList_.get(i));
       }
       if (isHaveProgress_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, isHaveProgress_);
+          .computeBoolSize(9, isHaveProgress_);
       }
       {
         int dataSize = 0;
@@ -356,7 +356,7 @@ public final class CoopDataNotifyOuterClass {
       }
       if (curCoopPoint_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, curCoopPoint_);
+          .computeUInt32Size(10, curCoopPoint_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

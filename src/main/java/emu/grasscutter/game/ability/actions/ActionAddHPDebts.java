@@ -35,7 +35,6 @@ public final class ActionAddHPDebts extends AbilityActionHandler {
         properties.putAll(ability.getAbilitySpecials());
 
         float debt = action.ratio.get(properties, 0f);
-        Grasscutter.getLogger().info("ActionAddHPDebts executed with debt {}", debt);
         Avatar avatar = ability.getPlayerOwner().getCurrentAvatar();
         float maxValue = action.maxValue.get(ability) * target.getFightProperty(FightProperty.FIGHT_PROP_MAX_HP);
 

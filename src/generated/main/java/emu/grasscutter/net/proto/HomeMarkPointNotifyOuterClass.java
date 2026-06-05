@@ -138,7 +138,7 @@ public final class HomeMarkPointNotifyOuterClass {
               emu.grasscutter.net.proto.HomeMarkPointNotifyOuterClass.HomeMarkPointNotify.class, emu.grasscutter.net.proto.HomeMarkPointNotifyOuterClass.HomeMarkPointNotify.Builder.class);
     }
 
-    public static final int MARK_POINT_DATA_LIST_FIELD_NUMBER = 2;
+    public static final int MARK_POINT_DATA_LIST_FIELD_NUMBER = 11;
     private java.util.List<emu.grasscutter.net.proto.HomeMarkPointSceneDataOuterClass.HomeMarkPointSceneData> markPointDataList_;
     /**
      * <code>repeated .HomeMarkPointSceneData mark_point_data_list = 2;</code>
@@ -193,7 +193,7 @@ public final class HomeMarkPointNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < markPointDataList_.size(); i++) {
-        output.writeMessage(2, markPointDataList_.get(i));
+        output.writeMessage(11, markPointDataList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -206,7 +206,7 @@ public final class HomeMarkPointNotifyOuterClass {
       size = 0;
       for (int i = 0; i < markPointDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, markPointDataList_.get(i));
+          .computeMessageSize(11, markPointDataList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

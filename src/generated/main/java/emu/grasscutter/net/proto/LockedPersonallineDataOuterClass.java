@@ -912,7 +912,7 @@ public final class LockedPersonallineDataOuterClass {
           paramCase_);
     }
 
-    public static final int PERSONAL_LINE_ID_FIELD_NUMBER = 10;
+    public static final int PERSONAL_LINE_ID_FIELD_NUMBER = 1;
     private int personalLineId_;
     /**
      * <code>uint32 personal_line_id = 10;</code>
@@ -923,7 +923,7 @@ public final class LockedPersonallineDataOuterClass {
       return personalLineId_;
     }
 
-    public static final int LOCK_REASON_FIELD_NUMBER = 4;
+    public static final int LOCK_REASON_FIELD_NUMBER = 10;
     private int lockReason_;
     /**
      * <code>.LockedPersonallineData.LockReason lock_reason = 4;</code>
@@ -1030,14 +1030,14 @@ public final class LockedPersonallineDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (lockReason_ != emu.grasscutter.net.proto.LockedPersonallineDataOuterClass.LockedPersonallineData.LockReason.LEVEL.getNumber()) {
-        output.writeEnum(4, lockReason_);
+        output.writeEnum(10, lockReason_);
       }
       if (paramCase_ == 7) {
         output.writeUInt32(
             7, (int)((java.lang.Integer) param_));
       }
       if (personalLineId_ != 0) {
-        output.writeUInt32(10, personalLineId_);
+        output.writeUInt32(1, personalLineId_);
       }
       if (paramCase_ == 12) {
         output.writeMessage(12, (emu.grasscutter.net.proto.LockedPersonallineDataOuterClass.LockedPersonallineData.QuestParam) param_);
@@ -1057,7 +1057,7 @@ public final class LockedPersonallineDataOuterClass {
       size = 0;
       if (lockReason_ != emu.grasscutter.net.proto.LockedPersonallineDataOuterClass.LockedPersonallineData.LockReason.LEVEL.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(4, lockReason_);
+          .computeEnumSize(10, lockReason_);
       }
       if (paramCase_ == 7) {
         size += com.google.protobuf.CodedOutputStream
@@ -1066,7 +1066,7 @@ public final class LockedPersonallineDataOuterClass {
       }
       if (personalLineId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, personalLineId_);
+          .computeUInt32Size(1, personalLineId_);
       }
       if (paramCase_ == 12) {
         size += com.google.protobuf.CodedOutputStream

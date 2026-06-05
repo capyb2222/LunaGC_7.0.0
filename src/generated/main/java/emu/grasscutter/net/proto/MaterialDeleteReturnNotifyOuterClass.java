@@ -86,23 +86,8 @@ public final class MaterialDeleteReturnNotifyOuterClass {
     int getNCDHBPLKPHBOrThrow(
         int key);
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.MaterialDeleteReturnType type = 15;</code>
-     * @return The enum numeric value on the wire for type.
-     */
     int getTypeValue();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.MaterialDeleteReturnType type = 15;</code>
-     * @return The type.
-     */
+
     emu.grasscutter.net.proto.MaterialDeleteReturnTypeOuterClass.MaterialDeleteReturnType getType();
   }
   /**
@@ -240,7 +225,7 @@ public final class MaterialDeleteReturnNotifyOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.MaterialDeleteReturnNotifyOuterClass.internal_static_MaterialDeleteReturnNotify_HFAHLONBGKLEntry_descriptor, 
+                  emu.grasscutter.net.proto.MaterialDeleteReturnNotifyOuterClass.internal_static_MaterialDeleteReturnNotify_HFAHLONBGKLEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -267,7 +252,7 @@ public final class MaterialDeleteReturnNotifyOuterClass {
     @java.lang.Override
     public boolean containsHFAHLONBGKL(
         int key) {
-      
+
       return internalGetHFAHLONBGKL().getMap().containsKey(key);
     }
     /**
@@ -294,7 +279,7 @@ public final class MaterialDeleteReturnNotifyOuterClass {
     public int getHFAHLONBGKLOrDefault(
         int key,
         int defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetHFAHLONBGKL().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -306,7 +291,7 @@ public final class MaterialDeleteReturnNotifyOuterClass {
 
     public int getHFAHLONBGKLOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetHFAHLONBGKL().getMap();
       if (!map.containsKey(key)) {
@@ -321,7 +306,7 @@ public final class MaterialDeleteReturnNotifyOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.MaterialDeleteReturnNotifyOuterClass.internal_static_MaterialDeleteReturnNotify_NCDHBPLKPHBEntry_descriptor, 
+                  emu.grasscutter.net.proto.MaterialDeleteReturnNotifyOuterClass.internal_static_MaterialDeleteReturnNotify_NCDHBPLKPHBEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -348,7 +333,7 @@ public final class MaterialDeleteReturnNotifyOuterClass {
     @java.lang.Override
     public boolean containsNCDHBPLKPHB(
         int key) {
-      
+
       return internalGetNCDHBPLKPHB().getMap().containsKey(key);
     }
     /**
@@ -375,7 +360,7 @@ public final class MaterialDeleteReturnNotifyOuterClass {
     public int getNCDHBPLKPHBOrDefault(
         int key,
         int defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetNCDHBPLKPHB().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -387,7 +372,7 @@ public final class MaterialDeleteReturnNotifyOuterClass {
 
     public int getNCDHBPLKPHBOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetNCDHBPLKPHB().getMap();
       if (!map.containsKey(key)) {
@@ -398,25 +383,11 @@ public final class MaterialDeleteReturnNotifyOuterClass {
 
     public static final int TYPE_FIELD_NUMBER = 15;
     private int type_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.MaterialDeleteReturnType type = 15;</code>
-     * @return The enum numeric value on the wire for type.
-     */
+
     @java.lang.Override public int getTypeValue() {
       return type_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.MaterialDeleteReturnType type = 15;</code>
-     * @return The type.
-     */
+
     @java.lang.Override public emu.grasscutter.net.proto.MaterialDeleteReturnTypeOuterClass.MaterialDeleteReturnType getType() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.MaterialDeleteReturnTypeOuterClass.MaterialDeleteReturnType result = emu.grasscutter.net.proto.MaterialDeleteReturnTypeOuterClass.MaterialDeleteReturnType.valueOf(type_);
@@ -843,7 +814,7 @@ public final class MaterialDeleteReturnNotifyOuterClass {
       @java.lang.Override
       public boolean containsHFAHLONBGKL(
           int key) {
-        
+
         return internalGetHFAHLONBGKL().getMap().containsKey(key);
       }
       /**
@@ -870,7 +841,7 @@ public final class MaterialDeleteReturnNotifyOuterClass {
       public int getHFAHLONBGKLOrDefault(
           int key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetHFAHLONBGKL().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -882,7 +853,7 @@ public final class MaterialDeleteReturnNotifyOuterClass {
 
       public int getHFAHLONBGKLOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetHFAHLONBGKL().getMap();
         if (!map.containsKey(key)) {
@@ -902,7 +873,7 @@ public final class MaterialDeleteReturnNotifyOuterClass {
 
       public Builder removeHFAHLONBGKL(
           int key) {
-        
+
         internalGetMutableHFAHLONBGKL().getMutableMap()
             .remove(key);
         return this;
@@ -921,8 +892,7 @@ public final class MaterialDeleteReturnNotifyOuterClass {
       public Builder putHFAHLONBGKL(
           int key,
           int value) {
-        
-        
+
         internalGetMutableHFAHLONBGKL().getMutableMap()
             .put(key, value);
         return this;
@@ -971,7 +941,7 @@ public final class MaterialDeleteReturnNotifyOuterClass {
       @java.lang.Override
       public boolean containsNCDHBPLKPHB(
           int key) {
-        
+
         return internalGetNCDHBPLKPHB().getMap().containsKey(key);
       }
       /**
@@ -998,7 +968,7 @@ public final class MaterialDeleteReturnNotifyOuterClass {
       public int getNCDHBPLKPHBOrDefault(
           int key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetNCDHBPLKPHB().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -1010,7 +980,7 @@ public final class MaterialDeleteReturnNotifyOuterClass {
 
       public int getNCDHBPLKPHBOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetNCDHBPLKPHB().getMap();
         if (!map.containsKey(key)) {
@@ -1030,7 +1000,7 @@ public final class MaterialDeleteReturnNotifyOuterClass {
 
       public Builder removeNCDHBPLKPHB(
           int key) {
-        
+
         internalGetMutableNCDHBPLKPHB().getMutableMap()
             .remove(key);
         return this;
@@ -1049,8 +1019,7 @@ public final class MaterialDeleteReturnNotifyOuterClass {
       public Builder putNCDHBPLKPHB(
           int key,
           int value) {
-        
-        
+
         internalGetMutableNCDHBPLKPHB().getMutableMap()
             .put(key, value);
         return this;
@@ -1067,74 +1036,37 @@ public final class MaterialDeleteReturnNotifyOuterClass {
       }
 
       private int type_ = 0;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.MaterialDeleteReturnType type = 15;</code>
-       * @return The enum numeric value on the wire for type.
-       */
+
       @java.lang.Override public int getTypeValue() {
         return type_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.MaterialDeleteReturnType type = 15;</code>
-       * @param value The enum numeric value on the wire for type to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setTypeValue(int value) {
-        
+
         type_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.MaterialDeleteReturnType type = 15;</code>
-       * @return The type.
-       */
+
       @java.lang.Override
       public emu.grasscutter.net.proto.MaterialDeleteReturnTypeOuterClass.MaterialDeleteReturnType getType() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.MaterialDeleteReturnTypeOuterClass.MaterialDeleteReturnType result = emu.grasscutter.net.proto.MaterialDeleteReturnTypeOuterClass.MaterialDeleteReturnType.valueOf(type_);
         return result == null ? emu.grasscutter.net.proto.MaterialDeleteReturnTypeOuterClass.MaterialDeleteReturnType.UNRECOGNIZED : result;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.MaterialDeleteReturnType type = 15;</code>
-       * @param value The type to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setType(emu.grasscutter.net.proto.MaterialDeleteReturnTypeOuterClass.MaterialDeleteReturnType value) {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         type_ = value.getNumber();
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.MaterialDeleteReturnType type = 15;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearType() {
-        
+
         type_ = 0;
         onChanged();
         return this;
@@ -1150,7 +1082,6 @@ public final class MaterialDeleteReturnNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:MaterialDeleteReturnNotify)
     }
@@ -1194,17 +1125,17 @@ public final class MaterialDeleteReturnNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MaterialDeleteReturnNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MaterialDeleteReturnNotify_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MaterialDeleteReturnNotify_HFAHLONBGKLEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MaterialDeleteReturnNotify_HFAHLONBGKLEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MaterialDeleteReturnNotify_NCDHBPLKPHBEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MaterialDeleteReturnNotify_NCDHBPLKPHBEntry_fieldAccessorTable;
 

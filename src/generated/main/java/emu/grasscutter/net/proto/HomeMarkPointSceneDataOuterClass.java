@@ -215,7 +215,7 @@ public final class HomeMarkPointSceneDataOuterClass {
               emu.grasscutter.net.proto.HomeMarkPointSceneDataOuterClass.HomeMarkPointSceneData.class, emu.grasscutter.net.proto.HomeMarkPointSceneDataOuterClass.HomeMarkPointSceneData.Builder.class);
     }
 
-    public static final int FURNITURE_LIST_FIELD_NUMBER = 7;
+    public static final int FURNITURE_LIST_FIELD_NUMBER = 4;
     private java.util.List<emu.grasscutter.net.proto.HomeMarkPointFurnitureDataOuterClass.HomeMarkPointFurnitureData> furnitureList_;
     /**
      * <code>repeated .HomeMarkPointFurnitureData furniture_list = 7;</code>
@@ -281,7 +281,7 @@ public final class HomeMarkPointSceneDataOuterClass {
       return getSafePointPos();
     }
 
-    public static final int MODULE_ID_FIELD_NUMBER = 9;
+    public static final int MODULE_ID_FIELD_NUMBER = 6;
     private int moduleId_;
     /**
      * <code>uint32 module_id = 9;</code>
@@ -292,7 +292,7 @@ public final class HomeMarkPointSceneDataOuterClass {
       return moduleId_;
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 5;
+    public static final int SCENE_ID_FIELD_NUMBER = 13;
     private int sceneId_;
     /**
      * <code>uint32 scene_id = 5;</code>
@@ -347,16 +347,16 @@ public final class HomeMarkPointSceneDataOuterClass {
         output.writeMessage(3, getTeapotSpiritPos());
       }
       if (sceneId_ != 0) {
-        output.writeUInt32(5, sceneId_);
+        output.writeUInt32(13, sceneId_);
       }
       for (int i = 0; i < furnitureList_.size(); i++) {
-        output.writeMessage(7, furnitureList_.get(i));
+        output.writeMessage(4, furnitureList_.get(i));
       }
       if (safePointPos_ != null) {
         output.writeMessage(8, getSafePointPos());
       }
       if (moduleId_ != 0) {
-        output.writeUInt32(9, moduleId_);
+        output.writeUInt32(6, moduleId_);
       }
       unknownFields.writeTo(output);
     }
@@ -373,11 +373,11 @@ public final class HomeMarkPointSceneDataOuterClass {
       }
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, sceneId_);
+          .computeUInt32Size(13, sceneId_);
       }
       for (int i = 0; i < furnitureList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, furnitureList_.get(i));
+          .computeMessageSize(4, furnitureList_.get(i));
       }
       if (safePointPos_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -385,7 +385,7 @@ public final class HomeMarkPointSceneDataOuterClass {
       }
       if (moduleId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, moduleId_);
+          .computeUInt32Size(6, moduleId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -250,7 +250,7 @@ public final class GetAuthkeyRspOuterClass {
       return bIGHJAIBJJK_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 9;
+    public static final int RETCODE_FIELD_NUMBER = 10;
     private int retcode_;
     /**
      * <code>int32 retcode = 9;</code>
@@ -364,7 +364,7 @@ public final class GetAuthkeyRspOuterClass {
         output.writeUInt32(7, pGANJHDNINM_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(9, retcode_);
+        output.writeInt32(10, retcode_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(authkey_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 12, authkey_);
@@ -394,7 +394,7 @@ public final class GetAuthkeyRspOuterClass {
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(9, retcode_);
+          .computeInt32Size(10, retcode_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(authkey_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(12, authkey_);

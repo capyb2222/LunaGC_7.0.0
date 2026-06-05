@@ -259,7 +259,7 @@ public final class CoinCollectTeamInfoDataOuterClass {
               emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData.class, emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData.Builder.class);
     }
 
-    public static final int AVATAR_ID_LIST_FIELD_NUMBER = 4;
+    public static final int AVATAR_ID_LIST_FIELD_NUMBER = 15;
     private com.google.protobuf.Internal.IntList avatarIdList_;
     /**
      * <code>repeated uint32 avatar_id_list = 4;</code>
@@ -287,7 +287,7 @@ public final class CoinCollectTeamInfoDataOuterClass {
     }
     private int avatarIdListMemoizedSerializedSize = -1;
 
-    public static final int PLAYER_UID_FIELD_NUMBER = 13;
+    public static final int PLAYER_UID_FIELD_NUMBER = 14;
     private int playerUid_;
     /**
      * <code>uint32 player_uid = 13;</code>
@@ -298,7 +298,7 @@ public final class CoinCollectTeamInfoDataOuterClass {
       return playerUid_;
     }
 
-    public static final int IS_HOST_FIELD_NUMBER = 8;
+    public static final int IS_HOST_FIELD_NUMBER = 12;
     private boolean isHost_;
     /**
      * <code>bool is_host = 8;</code>
@@ -309,7 +309,7 @@ public final class CoinCollectTeamInfoDataOuterClass {
       return isHost_;
     }
 
-    public static final int CHOOSE_SKILL_NO_FIELD_NUMBER = 15;
+    public static final int CHOOSE_SKILL_NO_FIELD_NUMBER = 11;
     private int chooseSkillNo_;
     /**
      * <code>uint32 choose_skill_no = 15;</code>
@@ -406,7 +406,7 @@ public final class CoinCollectTeamInfoDataOuterClass {
         output.writeUInt32NoTag(dIDCPEELBFN_.getInt(i));
       }
       if (isHost_ != false) {
-        output.writeBool(8, isHost_);
+        output.writeBool(12, isHost_);
       }
       if (getPLDBCFMDGLPList().size() > 0) {
         output.writeUInt32NoTag(98);
@@ -416,10 +416,10 @@ public final class CoinCollectTeamInfoDataOuterClass {
         output.writeUInt32NoTag(pLDBCFMDGLP_.getInt(i));
       }
       if (playerUid_ != 0) {
-        output.writeUInt32(13, playerUid_);
+        output.writeUInt32(14, playerUid_);
       }
       if (chooseSkillNo_ != 0) {
-        output.writeUInt32(15, chooseSkillNo_);
+        output.writeUInt32(11, chooseSkillNo_);
       }
       unknownFields.writeTo(output);
     }
@@ -460,7 +460,7 @@ public final class CoinCollectTeamInfoDataOuterClass {
       }
       if (isHost_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, isHost_);
+          .computeBoolSize(12, isHost_);
       }
       {
         int dataSize = 0;
@@ -478,11 +478,11 @@ public final class CoinCollectTeamInfoDataOuterClass {
       }
       if (playerUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, playerUid_);
+          .computeUInt32Size(14, playerUid_);
       }
       if (chooseSkillNo_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, chooseSkillNo_);
+          .computeUInt32Size(11, chooseSkillNo_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

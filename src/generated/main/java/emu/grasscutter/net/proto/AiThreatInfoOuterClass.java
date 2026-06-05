@@ -18,21 +18,8 @@ public final class AiThreatInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:AiThreatInfo)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0         
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-     */
     int getAiThreatMapCount();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0         
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-     */
+
     boolean containsAiThreatMap(
         int key);
     /**
@@ -41,33 +28,13 @@ public final class AiThreatInfoOuterClass {
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getAiThreatMap();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0         
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-     */
+
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getAiThreatMapMap();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0         
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-     */
 
     int getAiThreatMapOrDefault(
         int key,
         int defaultValue);
-    /**
-     * <pre>
-     *6.4.0 //6.5.0         
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-     */
 
     int getAiThreatMapOrThrow(
         int key);
@@ -181,7 +148,7 @@ public final class AiThreatInfoOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.AiThreatInfoOuterClass.internal_static_AiThreatInfo_AiThreatMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.AiThreatInfoOuterClass.internal_static_AiThreatInfo_AiThreatMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -201,18 +168,11 @@ public final class AiThreatInfoOuterClass {
     public int getAiThreatMapCount() {
       return internalGetAiThreatMap().getMap().size();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0         
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-     */
 
     @java.lang.Override
     public boolean containsAiThreatMap(
         int key) {
-      
+
       return internalGetAiThreatMap().getMap().containsKey(key);
     }
     /**
@@ -223,47 +183,29 @@ public final class AiThreatInfoOuterClass {
     public java.util.Map<java.lang.Integer, java.lang.Integer> getAiThreatMap() {
       return getAiThreatMapMap();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0         
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-     */
+
     @java.lang.Override
 
     public java.util.Map<java.lang.Integer, java.lang.Integer> getAiThreatMapMap() {
       return internalGetAiThreatMap().getMap();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0         
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-     */
+
     @java.lang.Override
 
     public int getAiThreatMapOrDefault(
         int key,
         int defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetAiThreatMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0         
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-     */
+
     @java.lang.Override
 
     public int getAiThreatMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetAiThreatMap().getMap();
       if (!map.containsKey(key)) {
@@ -634,18 +576,11 @@ public final class AiThreatInfoOuterClass {
       public int getAiThreatMapCount() {
         return internalGetAiThreatMap().getMap().size();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0         
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-       */
 
       @java.lang.Override
       public boolean containsAiThreatMap(
           int key) {
-        
+
         return internalGetAiThreatMap().getMap().containsKey(key);
       }
       /**
@@ -656,47 +591,29 @@ public final class AiThreatInfoOuterClass {
       public java.util.Map<java.lang.Integer, java.lang.Integer> getAiThreatMap() {
         return getAiThreatMapMap();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0         
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-       */
+
       @java.lang.Override
 
       public java.util.Map<java.lang.Integer, java.lang.Integer> getAiThreatMapMap() {
         return internalGetAiThreatMap().getMap();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0         
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-       */
+
       @java.lang.Override
 
       public int getAiThreatMapOrDefault(
           int key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetAiThreatMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0         
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-       */
+
       @java.lang.Override
 
       public int getAiThreatMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetAiThreatMap().getMap();
         if (!map.containsKey(key)) {
@@ -710,17 +627,10 @@ public final class AiThreatInfoOuterClass {
             .clear();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0         
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-       */
 
       public Builder removeAiThreatMap(
           int key) {
-        
+
         internalGetMutableAiThreatMap().getMutableMap()
             .remove(key);
         return this;
@@ -733,29 +643,15 @@ public final class AiThreatInfoOuterClass {
       getMutableAiThreatMap() {
         return internalGetMutableAiThreatMap().getMutableMap();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0         
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-       */
+
       public Builder putAiThreatMap(
           int key,
           int value) {
-        
-        
+
         internalGetMutableAiThreatMap().getMutableMap()
             .put(key, value);
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0         
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-       */
 
       public Builder putAllAiThreatMap(
           java.util.Map<java.lang.Integer, java.lang.Integer> values) {
@@ -774,7 +670,6 @@ public final class AiThreatInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:AiThreatInfo)
     }
@@ -818,12 +713,12 @@ public final class AiThreatInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AiThreatInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AiThreatInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AiThreatInfo_AiThreatMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AiThreatInfo_AiThreatMapEntry_fieldAccessorTable;
 

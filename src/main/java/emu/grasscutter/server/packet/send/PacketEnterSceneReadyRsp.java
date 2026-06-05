@@ -9,8 +9,10 @@ public class PacketEnterSceneReadyRsp extends BasePacket {
     public PacketEnterSceneReadyRsp(Player player) {
         super(PacketOpcodes.EnterSceneReadyRsp, 11);
 
+        int maskedToken = (player.getEnterSceneToken() + 57396) ^ 8638;
+
         EnterSceneReadyRsp p =
-                EnterSceneReadyRsp.newBuilder().setEnterSceneToken(player.getEnterSceneToken()).build();
+                EnterSceneReadyRsp.newBuilder().setEnterSceneToken(maskedToken).build();
 
         this.setData(p.toByteArray());
     }

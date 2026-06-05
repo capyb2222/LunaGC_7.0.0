@@ -211,6 +211,11 @@ public class GachaBanner {
                     case Integer.MAX_VALUE -> Integer.MAX_VALUE;
                     default -> Math.max(gachaTimesLimit - gachaInfo.getTotalPulls(), 0);
                 };
+
+        String previewPath = this.getPreviewPrefabPath();
+        if (previewPath == null || previewPath.isEmpty()) {
+            previewPath = "UI_Tab_" + this.getPrefabPath();
+        }
         GachaInfo.Builder info =
                 GachaInfo.newBuilder()
                         .setGachaType(this.getGachaType())
@@ -219,21 +224,21 @@ public class GachaBanner {
                         .setEndTime(this.getEndTime())
                         .setCostItemId(this.costItemId)
                         .setCostItemNum(this.costItemAmount)
-                        .setTenCostItemId(this.costItemId10)
                         .setTenCostItemNum(this.costItemAmount10)
+                        .setTenCostItemId(this.costItemId)
                         .setGachaPrefabPath(this.getPrefabPath())
-                        .setGachaPreviewPrefabPath(this.getPreviewPrefabPath())
+                        .setGachaPreviewPrefabPath(previewPath)
                         .setGachaProbUrl(details)
                         .setGachaProbUrlOversea(details)
                         .setGachaRecordUrl(record)
                         .setGachaRecordUrlOversea(record)
                         .setLeftGachaTimes(leftGachaTimes)
                         .setGachaTimesLimit(gachaTimesLimit)
-                        .setGachaSortId(this.getSortId());
+                        .setGachaSortId(this.getSortId())
+                        .setIsNewWish(true);
 
         if (hasEpitomized()) {
             info.setWishItemId(gachaInfo.getWishItemId())
-                    .setIsNewWish(gachaInfo.getWishItemId() == 0 ? true : false) // ask player set if not set yet
                     .setWishProgress(gachaInfo.getFailedChosenItemPulls())
                     .setWishMaxProgress(this.getWishMaxProgress());
         }

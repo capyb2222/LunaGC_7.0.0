@@ -18,34 +18,10 @@ public final class RoutePointChangeInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:RoutePointChangeInfo)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 point_index = 10;</code>
-     * @return The pointIndex.
-     */
     int getPointIndex();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>float target_velocity = 5;</code>
-     * @return The targetVelocity.
-     */
     float getTargetVelocity();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>float wait_time = 13;</code>
-     * @return The waitTime.
-     */
     float getWaitTime();
   }
   /**
@@ -142,14 +118,7 @@ public final class RoutePointChangeInfoOuterClass {
 
     public static final int POINT_INDEX_FIELD_NUMBER = 10;
     private int pointIndex_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 point_index = 10;</code>
-     * @return The pointIndex.
-     */
+
     @java.lang.Override
     public int getPointIndex() {
       return pointIndex_;
@@ -157,14 +126,7 @@ public final class RoutePointChangeInfoOuterClass {
 
     public static final int TARGET_VELOCITY_FIELD_NUMBER = 5;
     private float targetVelocity_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>float target_velocity = 5;</code>
-     * @return The targetVelocity.
-     */
+
     @java.lang.Override
     public float getTargetVelocity() {
       return targetVelocity_;
@@ -172,14 +134,7 @@ public final class RoutePointChangeInfoOuterClass {
 
     public static final int WAIT_TIME_FIELD_NUMBER = 13;
     private float waitTime_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>float wait_time = 13;</code>
-     * @return The waitTime.
-     */
+
     @java.lang.Override
     public float getWaitTime() {
       return waitTime_;
@@ -526,129 +481,63 @@ public final class RoutePointChangeInfoOuterClass {
       }
 
       private int pointIndex_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 point_index = 10;</code>
-       * @return The pointIndex.
-       */
+
       @java.lang.Override
       public int getPointIndex() {
         return pointIndex_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 point_index = 10;</code>
-       * @param value The pointIndex to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setPointIndex(int value) {
-        
+
         pointIndex_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 point_index = 10;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearPointIndex() {
-        
+
         pointIndex_ = 0;
         onChanged();
         return this;
       }
 
       private float targetVelocity_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>float target_velocity = 5;</code>
-       * @return The targetVelocity.
-       */
+
       @java.lang.Override
       public float getTargetVelocity() {
         return targetVelocity_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>float target_velocity = 5;</code>
-       * @param value The targetVelocity to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setTargetVelocity(float value) {
-        
+
         targetVelocity_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>float target_velocity = 5;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearTargetVelocity() {
-        
+
         targetVelocity_ = 0F;
         onChanged();
         return this;
       }
 
       private float waitTime_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>float wait_time = 13;</code>
-       * @return The waitTime.
-       */
+
       @java.lang.Override
       public float getWaitTime() {
         return waitTime_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>float wait_time = 13;</code>
-       * @param value The waitTime to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setWaitTime(float value) {
-        
+
         waitTime_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>float wait_time = 13;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearWaitTime() {
-        
+
         waitTime_ = 0F;
         onChanged();
         return this;
@@ -664,7 +553,6 @@ public final class RoutePointChangeInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:RoutePointChangeInfo)
     }
@@ -708,7 +596,7 @@ public final class RoutePointChangeInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_RoutePointChangeInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_RoutePointChangeInfo_fieldAccessorTable;
 

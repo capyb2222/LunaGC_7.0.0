@@ -165,7 +165,7 @@ public final class DungeonSettleExhibitionInfoOuterClass {
               emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo.class, emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo.Builder.class);
     }
 
-    public static final int PLAYER_INFO_FIELD_NUMBER = 3;
+    public static final int PLAYER_INFO_FIELD_NUMBER = 7;
     private emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo playerInfo_;
     /**
      * <code>.OnlinePlayerInfo player_info = 3;</code>
@@ -191,7 +191,7 @@ public final class DungeonSettleExhibitionInfoOuterClass {
       return getPlayerInfo();
     }
 
-    public static final int CARD_LIST_FIELD_NUMBER = 12;
+    public static final int CARD_LIST_FIELD_NUMBER = 10;
     private java.util.List<emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo> cardList_;
     /**
      * <code>repeated .ExhibitionDisplayInfo card_list = 12;</code>
@@ -249,7 +249,7 @@ public final class DungeonSettleExhibitionInfoOuterClass {
         output.writeMessage(3, getPlayerInfo());
       }
       for (int i = 0; i < cardList_.size(); i++) {
-        output.writeMessage(12, cardList_.get(i));
+        output.writeMessage(10, cardList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -266,7 +266,7 @@ public final class DungeonSettleExhibitionInfoOuterClass {
       }
       for (int i = 0; i < cardList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, cardList_.get(i));
+          .computeMessageSize(10, cardList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

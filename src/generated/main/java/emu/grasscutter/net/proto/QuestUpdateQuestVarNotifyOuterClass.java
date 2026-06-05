@@ -176,7 +176,7 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
       return parentQuestId_;
     }
 
-    public static final int QUEST_VAR_FIELD_NUMBER = 6;
+    public static final int QUEST_VAR_FIELD_NUMBER = 14;
     private com.google.protobuf.Internal.IntList questVar_;
     /**
      * <code>repeated int32 quest_var = 6;</code>

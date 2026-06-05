@@ -3,6 +3,10 @@ package emu.grasscutter.game.ability;
 import emu.grasscutter.data.GameData;
 import emu.grasscutter.data.binout.AbilityData;
 import emu.grasscutter.data.binout.AbilityModifier.AbilityModifierAction;
+import emu.grasscutter.data.binout.OpenConfigEntry.AbilityVarSetter;
+import emu.grasscutter.data.excels.ProudSkillData;
+import emu.grasscutter.game.avatar.Avatar;
+import emu.grasscutter.game.entity.EntityAvatar;
 import emu.grasscutter.game.entity.GameEntity;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString;
@@ -37,22 +41,18 @@ public class Ability {
                 abilitySpecials.put(entry.getKey(), entry.getValue().floatValue());
         }
 
-        // if(abilitySpecialsModified.containsKey(this.data.abilityName)) {//Modify talent data
-        //    abilitySpecials.putAll(abilitySpecialsModified.get(this.data.abilityName));
-        // }
-
         this.playerOwner = playerOwner;
+
+        Avatar casterAvatar = resolveCasterAvatar(playerOwner, owner);
+        if (casterAvatar != null) {
+            applyConstellationSpecials(casterAvatar);
+            applySkillSpecials(casterAvatar);
+        }
 
         hash = Utils.abilityHash(data.abilityName);
 
         data.initialize();
 
-        //
-        // Collect skill IDs referenced by AvatarSkillStart modifier actions
-        // in onAbilityStart and in every modifier's onAdded action set.
-        // These skill IDs will be used by AbilityManager to determine whether
-        // an elemental burst has fired correctly.
-        //
         avatarSkillStartIds = new HashSet<>();
         if (data.onAbilityStart != null) {
             avatarSkillStartIds.addAll(
@@ -75,6 +75,75 @@ public class Ability {
         if (data.onAdded != null) {
             processOnAddedAbilityModifiers();
         }
+    }
+
+    private Avatar resolveCasterAvatar(Player player, GameEntity owner) {
+        EntityAvatar entity = resolveCasterEntity(player, owner);
+        return entity != null ? entity.getAvatar() : null;
+    }
+
+    public EntityAvatar getCasterEntity() {
+        return resolveCasterEntity(this.playerOwner, this.owner);
+    }
+
+    private EntityAvatar resolveCasterEntity(Player player, GameEntity owner) {
+        if (player == null || data.abilityName == null) {
+            return owner instanceof EntityAvatar avatarEntity ? avatarEntity : null;
+        }
+        String abilityName = data.abilityName;
+        for (var member : player.getTeamManager().getActiveTeam()) {
+            var av = member.getAvatar();
+            var avData = av.getAvatarData();
+            if (avData == null) continue;
+            String charName = avData.getName();
+            if (charName == null || charName.isEmpty()) continue;
+            if (abilityName.startsWith(charName + "_")
+                || abilityName.contains("_" + charName + "_")
+                || abilityName.endsWith("_" + charName)) {
+                return member;
+            }
+        }
+        return owner instanceof EntityAvatar avatarEntity ? avatarEntity : null;
+    }
+
+    private void applyConstellationSpecials(Avatar avatar) {
+        for (int talentId : avatar.getTalentIdList()) {
+            var talentData = GameData.getAvatarTalentDataMap().get(talentId);
+            if (talentData == null || talentData.getOpenConfig() == null) continue;
+            var entry = GameData.getOpenConfigEntries().get(talentData.getOpenConfig());
+            if (entry == null || entry.getAbilityVarSetters() == null) continue;
+            float[] params = talentData.getParamList();
+            if (params == null) continue;
+            for (AbilityVarSetter setter : entry.getAbilityVarSetters()) {
+                if (!data.abilityName.equals(setter.getAbilityName())) continue;
+                int idx = setter.getParamIndex();
+                if (idx >= params.length) continue;
+                abilitySpecials.put(setter.getVarName(), params[idx]);
+            }
+        }
+    }
+
+    private void applySkillSpecials(Avatar avatar) {
+        var depot = GameData.getAvatarSkillDepotDataMap().get(avatar.getSkillDepotId());
+        if (depot == null) return;
+        var skillLevelMap = avatar.getSkillLevelMap();
+        depot.getSkillsAndEnergySkill().forEach(skillId -> {
+            var skillData = GameData.getAvatarSkillDataMap().get(skillId);
+            if (skillData == null || skillData.getProudSkillGroupId() == 0) return;
+            int level = skillLevelMap.getOrDefault(skillId, 1);
+            ProudSkillData proudSkill = GameData.getProudSkillDataMap().get(skillData.getProudSkillGroupId() * 100 + level);
+            if (proudSkill == null || proudSkill.getOpenConfig() == null) return;
+            var entry = GameData.getOpenConfigEntries().get(proudSkill.getOpenConfig());
+            if (entry == null || entry.getAbilityVarSetters() == null) return;
+            float[] params = proudSkill.getParamList();
+            if (params == null) return;
+            for (AbilityVarSetter setter : entry.getAbilityVarSetters()) {
+                if (!data.abilityName.equals(setter.getAbilityName())) continue;
+                int idx = setter.getParamIndex();
+                if (idx >= params.length) continue;
+                abilitySpecials.put(setter.getVarName(), params[idx]);
+            }
+        });
     }
 
     public void processOnAddedAbilityModifiers() {

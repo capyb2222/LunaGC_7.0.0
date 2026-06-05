@@ -16,6 +16,6 @@ public class HandlerPingReq extends PacketHandler {
 
         session.updateLastPingTime(ping.getClientTime());
 
-        session.send(new PacketPingRsp(head.getClientSequenceId(), ping.getClientTime()));
+        session.send(new PacketPingRsp(head.getClientSequenceId(), ping.getClientTime(), ping.getSeq()));
     }
 }

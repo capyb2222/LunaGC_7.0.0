@@ -16,29 +16,18 @@ import emu.grasscutter.server.packet.send.PacketEntityFightPropUpdateNotify;
 public final class ActionGetHPPaidDebts extends AbilityActionHandler {
     @Override
     public boolean execute(Ability ability, AbilityModifier.AbilityModifierAction action, ByteString abilityData, GameEntity target) {
-        Grasscutter.getLogger().warn("gethppaiddebts" + abilityData);
-
         if (target instanceof EntityAvatar) {
             float paiddebt = target.getFightProperty(FightProperty.FIGHT_PROP_CUR_HP_PAID_DEBTS);
             String overrideMapKey = action.overrideMapKey;
 
-            // Ensure paid debt is non-negative
             if (paiddebt < 0) {
                 paiddebt = 0;
             }
 
-            // Override the value in the ability specials map using the overrideMapKey
-            // Concatenate overrideMapKey with paiddebt directly
-            String newKey = overrideMapKey + paiddebt;
+            ability.getAbilitySpecials().put(overrideMapKey, paiddebt);
 
-            // Store the value in the map using the new key
-            ability.getAbilitySpecials().put(newKey, paiddebt);
-            // Store the paid debt value in the override map
-
-            // Optionally update the entity's fight property
             target.setFightProperty(FightProperty.FIGHT_PROP_CUR_HP_PAID_DEBTS, paiddebt);
 
-            // Broadcast the updated paid debt value to the world
             target.getWorld().broadcastPacket(new PacketEntityFightPropUpdateNotify(target, FightProperty.FIGHT_PROP_CUR_HP_PAID_DEBTS));
             target.getWorld().broadcastPacket(new PacketEntityFightPropChangeReasonNotify(target, FightProperty.FIGHT_PROP_CUR_HP_PAID_DEBTS, paiddebt, PropChangeReasonOuterClass.PropChangeReason.PropChangeReason_PROP_CHANGE_ABILITY, ChangeHpDebtsReasonOuterClass.ChangeHpDebtsReason.CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_PAY));
         } else {

@@ -18,41 +18,12 @@ public final class SetEntityClientDataNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:SetEntityClientDataNotify)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.EntityClientData entity_client_data = 5;</code>
-     * @return Whether the entityClientData field is set.
-     */
     boolean hasEntityClientData();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.EntityClientData entity_client_data = 5;</code>
-     * @return The entityClientData.
-     */
+
     emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData getEntityClientData();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.EntityClientData entity_client_data = 5;</code>
-     */
+
     emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientDataOrBuilder getEntityClientDataOrBuilder();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 entity_id = 4;</code>
-     * @return The entityId.
-     */
     int getEntityId();
   }
   /**
@@ -154,54 +125,27 @@ public final class SetEntityClientDataNotifyOuterClass {
               emu.grasscutter.net.proto.SetEntityClientDataNotifyOuterClass.SetEntityClientDataNotify.class, emu.grasscutter.net.proto.SetEntityClientDataNotifyOuterClass.SetEntityClientDataNotify.Builder.class);
     }
 
-    public static final int ENTITY_CLIENT_DATA_FIELD_NUMBER = 5;
+    public static final int ENTITY_CLIENT_DATA_FIELD_NUMBER = 13;
     private emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData entityClientData_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.EntityClientData entity_client_data = 5;</code>
-     * @return Whether the entityClientData field is set.
-     */
+
     @java.lang.Override
     public boolean hasEntityClientData() {
       return entityClientData_ != null;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.EntityClientData entity_client_data = 5;</code>
-     * @return The entityClientData.
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData getEntityClientData() {
       return entityClientData_ == null ? emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData.getDefaultInstance() : entityClientData_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.EntityClientData entity_client_data = 5;</code>
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientDataOrBuilder getEntityClientDataOrBuilder() {
       return getEntityClientData();
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 4;
+    public static final int ENTITY_ID_FIELD_NUMBER = 1;
     private int entityId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 entity_id = 4;</code>
-     * @return The entityId.
-     */
+
     @java.lang.Override
     public int getEntityId() {
       return entityId_;
@@ -222,7 +166,7 @@ public final class SetEntityClientDataNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (entityId_ != 0) {
-        output.writeUInt32(4, entityId_);
+        output.writeUInt32(1, entityId_);
       }
       if (entityClientData_ != null) {
         output.writeMessage(5, getEntityClientData());
@@ -238,7 +182,7 @@ public final class SetEntityClientDataNotifyOuterClass {
       size = 0;
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, entityId_);
+          .computeUInt32Size(1, entityId_);
       }
       if (entityClientData_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -546,25 +490,11 @@ public final class SetEntityClientDataNotifyOuterClass {
       private emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData entityClientData_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData, emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData.Builder, emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientDataOrBuilder> entityClientDataBuilder_;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.EntityClientData entity_client_data = 5;</code>
-       * @return Whether the entityClientData field is set.
-       */
+
       public boolean hasEntityClientData() {
         return entityClientDataBuilder_ != null || entityClientData_ != null;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.EntityClientData entity_client_data = 5;</code>
-       * @return The entityClientData.
-       */
+
       public emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData getEntityClientData() {
         if (entityClientDataBuilder_ == null) {
           return entityClientData_ == null ? emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData.getDefaultInstance() : entityClientData_;
@@ -572,13 +502,7 @@ public final class SetEntityClientDataNotifyOuterClass {
           return entityClientDataBuilder_.getMessage();
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.EntityClientData entity_client_data = 5;</code>
-       */
+
       public Builder setEntityClientData(emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData value) {
         if (entityClientDataBuilder_ == null) {
           if (value == null) {
@@ -592,13 +516,7 @@ public final class SetEntityClientDataNotifyOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.EntityClientData entity_client_data = 5;</code>
-       */
+
       public Builder setEntityClientData(
           emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData.Builder builderForValue) {
         if (entityClientDataBuilder_ == null) {
@@ -610,13 +528,7 @@ public final class SetEntityClientDataNotifyOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.EntityClientData entity_client_data = 5;</code>
-       */
+
       public Builder mergeEntityClientData(emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData value) {
         if (entityClientDataBuilder_ == null) {
           if (entityClientData_ != null) {
@@ -632,13 +544,7 @@ public final class SetEntityClientDataNotifyOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.EntityClientData entity_client_data = 5;</code>
-       */
+
       public Builder clearEntityClientData() {
         if (entityClientDataBuilder_ == null) {
           entityClientData_ = null;
@@ -650,25 +556,13 @@ public final class SetEntityClientDataNotifyOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.EntityClientData entity_client_data = 5;</code>
-       */
+
       public emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData.Builder getEntityClientDataBuilder() {
-        
+
         onChanged();
         return getEntityClientDataFieldBuilder().getBuilder();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.EntityClientData entity_client_data = 5;</code>
-       */
+
       public emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientDataOrBuilder getEntityClientDataOrBuilder() {
         if (entityClientDataBuilder_ != null) {
           return entityClientDataBuilder_.getMessageOrBuilder();
@@ -677,15 +571,9 @@ public final class SetEntityClientDataNotifyOuterClass {
               emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData.getDefaultInstance() : entityClientData_;
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.EntityClientData entity_client_data = 5;</code>
-       */
+
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData, emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData.Builder, emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientDataOrBuilder> 
+          emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData, emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData.Builder, emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientDataOrBuilder>
           getEntityClientDataFieldBuilder() {
         if (entityClientDataBuilder_ == null) {
           entityClientDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -699,43 +587,21 @@ public final class SetEntityClientDataNotifyOuterClass {
       }
 
       private int entityId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 entity_id = 4;</code>
-       * @return The entityId.
-       */
+
       @java.lang.Override
       public int getEntityId() {
         return entityId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 entity_id = 4;</code>
-       * @param value The entityId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 entity_id = 4;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -751,7 +617,6 @@ public final class SetEntityClientDataNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:SetEntityClientDataNotify)
     }
@@ -795,7 +660,7 @@ public final class SetEntityClientDataNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SetEntityClientDataNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SetEntityClientDataNotify_fieldAccessorTable;
 

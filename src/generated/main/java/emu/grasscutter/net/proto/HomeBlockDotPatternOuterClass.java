@@ -18,34 +18,10 @@ public final class HomeBlockDotPatternOuterClass {
       // @@protoc_insertion_point(interface_extends:HomeBlockDotPattern)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>bytes data = 8;</code>
-     * @return The data.
-     */
     com.google.protobuf.ByteString getData();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 width = 10;</code>
-     * @return The width.
-     */
     int getWidth();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 height = 1;</code>
-     * @return The height.
-     */
     int getHeight();
   }
   /**
@@ -143,14 +119,7 @@ public final class HomeBlockDotPatternOuterClass {
 
     public static final int DATA_FIELD_NUMBER = 8;
     private com.google.protobuf.ByteString data_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>bytes data = 8;</code>
-     * @return The data.
-     */
+
     @java.lang.Override
     public com.google.protobuf.ByteString getData() {
       return data_;
@@ -158,14 +127,7 @@ public final class HomeBlockDotPatternOuterClass {
 
     public static final int WIDTH_FIELD_NUMBER = 10;
     private int width_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 width = 10;</code>
-     * @return The width.
-     */
+
     @java.lang.Override
     public int getWidth() {
       return width_;
@@ -173,14 +135,7 @@ public final class HomeBlockDotPatternOuterClass {
 
     public static final int HEIGHT_FIELD_NUMBER = 1;
     private int height_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 height = 1;</code>
-     * @return The height.
-     */
+
     @java.lang.Override
     public int getHeight() {
       return height_;
@@ -523,132 +478,66 @@ public final class HomeBlockDotPatternOuterClass {
       }
 
       private com.google.protobuf.ByteString data_ = com.google.protobuf.ByteString.EMPTY;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>bytes data = 8;</code>
-       * @return The data.
-       */
+
       @java.lang.Override
       public com.google.protobuf.ByteString getData() {
         return data_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>bytes data = 8;</code>
-       * @param value The data to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setData(com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         data_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>bytes data = 8;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearData() {
-        
+
         data_ = getDefaultInstance().getData();
         onChanged();
         return this;
       }
 
       private int width_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 width = 10;</code>
-       * @return The width.
-       */
+
       @java.lang.Override
       public int getWidth() {
         return width_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 width = 10;</code>
-       * @param value The width to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setWidth(int value) {
-        
+
         width_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 width = 10;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearWidth() {
-        
+
         width_ = 0;
         onChanged();
         return this;
       }
 
       private int height_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 height = 1;</code>
-       * @return The height.
-       */
+
       @java.lang.Override
       public int getHeight() {
         return height_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 height = 1;</code>
-       * @param value The height to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setHeight(int value) {
-        
+
         height_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 height = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearHeight() {
-        
+
         height_ = 0;
         onChanged();
         return this;
@@ -664,7 +553,6 @@ public final class HomeBlockDotPatternOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:HomeBlockDotPattern)
     }
@@ -708,7 +596,7 @@ public final class HomeBlockDotPatternOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_HomeBlockDotPattern_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_HomeBlockDotPattern_fieldAccessorTable;
 

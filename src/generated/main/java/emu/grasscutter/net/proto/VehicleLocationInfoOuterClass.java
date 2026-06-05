@@ -264,7 +264,7 @@ public final class VehicleLocationInfoOuterClass {
       return pCBCDBGOKOK_;
     }
 
-    public static final int UID_LIST_FIELD_NUMBER = 11;
+    public static final int UID_LIST_FIELD_NUMBER = 13;
     private com.google.protobuf.Internal.IntList uidList_;
     /**
      * <code>repeated uint32 uid_list = 11;</code>
@@ -303,7 +303,7 @@ public final class VehicleLocationInfoOuterClass {
       return fOHOENOKMML_;
     }
 
-    public static final int OWNER_UID_FIELD_NUMBER = 5;
+    public static final int OWNER_UID_FIELD_NUMBER = 11;
     private int ownerUid_;
     /**
      * <code>uint32 owner_uid = 5;</code>
@@ -314,7 +314,7 @@ public final class VehicleLocationInfoOuterClass {
       return ownerUid_;
     }
 
-    public static final int ROT_FIELD_NUMBER = 14;
+    public static final int ROT_FIELD_NUMBER = 5;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector rot_;
     /**
      * <code>.Vector rot = 14;</code>
@@ -340,7 +340,7 @@ public final class VehicleLocationInfoOuterClass {
       return getRot();
     }
 
-    public static final int POS_FIELD_NUMBER = 4;
+    public static final int POS_FIELD_NUMBER = 7;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
     /**
      * <code>.Vector pos = 4;</code>
@@ -366,7 +366,7 @@ public final class VehicleLocationInfoOuterClass {
       return getPos();
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 12;
+    public static final int ENTITY_ID_FIELD_NUMBER = 1;
     private int entityId_;
     /**
      * <code>uint32 entity_id = 12;</code>
@@ -377,7 +377,7 @@ public final class VehicleLocationInfoOuterClass {
       return entityId_;
     }
 
-    public static final int GADGET_ID_FIELD_NUMBER = 15;
+    public static final int GADGET_ID_FIELD_NUMBER = 9;
     private int gadgetId_;
     /**
      * <code>uint32 gadget_id = 15;</code>
@@ -410,7 +410,7 @@ public final class VehicleLocationInfoOuterClass {
         output.writeMessage(4, getPos());
       }
       if (ownerUid_ != 0) {
-        output.writeUInt32(5, ownerUid_);
+        output.writeUInt32(11, ownerUid_);
       }
       if (fOHOENOKMML_ != 0F) {
         output.writeFloat(7, fOHOENOKMML_);
@@ -423,13 +423,13 @@ public final class VehicleLocationInfoOuterClass {
         output.writeUInt32NoTag(uidList_.getInt(i));
       }
       if (entityId_ != 0) {
-        output.writeUInt32(12, entityId_);
+        output.writeUInt32(1, entityId_);
       }
       if (rot_ != null) {
         output.writeMessage(14, getRot());
       }
       if (gadgetId_ != 0) {
-        output.writeUInt32(15, gadgetId_);
+        output.writeUInt32(9, gadgetId_);
       }
       unknownFields.writeTo(output);
     }
@@ -450,7 +450,7 @@ public final class VehicleLocationInfoOuterClass {
       }
       if (ownerUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, ownerUid_);
+          .computeUInt32Size(11, ownerUid_);
       }
       if (fOHOENOKMML_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
@@ -472,7 +472,7 @@ public final class VehicleLocationInfoOuterClass {
       }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, entityId_);
+          .computeUInt32Size(1, entityId_);
       }
       if (rot_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -480,7 +480,7 @@ public final class VehicleLocationInfoOuterClass {
       }
       if (gadgetId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, gadgetId_);
+          .computeUInt32Size(9, gadgetId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

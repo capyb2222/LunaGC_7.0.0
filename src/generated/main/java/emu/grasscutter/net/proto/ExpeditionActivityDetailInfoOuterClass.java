@@ -21,7 +21,7 @@ public final class ExpeditionActivityDetailInfoOuterClass {
     /**
      * <code>repeated .KALNNKEHBJG GNMKEJEGCJL = 16;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.KALNNKEHBJGOuterClass.KALNNKEHBJG> 
+    java.util.List<emu.grasscutter.net.proto.KALNNKEHBJGOuterClass.KALNNKEHBJG>
         getGNMKEJEGCJLList();
     /**
      * <code>repeated .KALNNKEHBJG GNMKEJEGCJL = 16;</code>
@@ -34,7 +34,7 @@ public final class ExpeditionActivityDetailInfoOuterClass {
     /**
      * <code>repeated .KALNNKEHBJG GNMKEJEGCJL = 16;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.KALNNKEHBJGOuterClass.KALNNKEHBJGOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.KALNNKEHBJGOuterClass.KALNNKEHBJGOrBuilder>
         getGNMKEJEGCJLOrBuilderList();
     /**
      * <code>repeated .KALNNKEHBJG GNMKEJEGCJL = 16;</code>
@@ -45,7 +45,7 @@ public final class ExpeditionActivityDetailInfoOuterClass {
     /**
      * <code>repeated .OKNGLANHPLD KCHKCHIIBBB = 3;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.OKNGLANHPLDOuterClass.OKNGLANHPLD> 
+    java.util.List<emu.grasscutter.net.proto.OKNGLANHPLDOuterClass.OKNGLANHPLD>
         getKCHKCHIIBBBList();
     /**
      * <code>repeated .OKNGLANHPLD KCHKCHIIBBB = 3;</code>
@@ -58,7 +58,7 @@ public final class ExpeditionActivityDetailInfoOuterClass {
     /**
      * <code>repeated .OKNGLANHPLD KCHKCHIIBBB = 3;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.OKNGLANHPLDOuterClass.OKNGLANHPLDOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.OKNGLANHPLDOuterClass.OKNGLANHPLDOrBuilder>
         getKCHKCHIIBBBOrBuilderList();
     /**
      * <code>repeated .OKNGLANHPLD KCHKCHIIBBB = 3;</code>
@@ -78,24 +78,8 @@ public final class ExpeditionActivityDetailInfoOuterClass {
      */
     int getLHFCPFFENMM();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 content_close_time = 11;</code>
-     * @return The contentCloseTime.
-     */
     int getContentCloseTime();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>bool is_content_closed = 1;</code>
-     * @return The isContentClosed.
-     */
     boolean getIsContentClosed();
   }
   /**
@@ -235,7 +219,7 @@ public final class ExpeditionActivityDetailInfoOuterClass {
      * <code>repeated .KALNNKEHBJG GNMKEJEGCJL = 16;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.KALNNKEHBJGOuterClass.KALNNKEHBJGOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.KALNNKEHBJGOuterClass.KALNNKEHBJGOrBuilder>
         getGNMKEJEGCJLOrBuilderList() {
       return gNMKEJEGCJL_;
     }
@@ -275,7 +259,7 @@ public final class ExpeditionActivityDetailInfoOuterClass {
      * <code>repeated .OKNGLANHPLD KCHKCHIIBBB = 3;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.OKNGLANHPLDOuterClass.OKNGLANHPLDOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.OKNGLANHPLDOuterClass.OKNGLANHPLDOrBuilder>
         getKCHKCHIIBBBOrBuilderList() {
       return kCHKCHIIBBB_;
     }
@@ -326,14 +310,7 @@ public final class ExpeditionActivityDetailInfoOuterClass {
 
     public static final int CONTENT_CLOSE_TIME_FIELD_NUMBER = 11;
     private int contentCloseTime_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 content_close_time = 11;</code>
-     * @return The contentCloseTime.
-     */
+
     @java.lang.Override
     public int getContentCloseTime() {
       return contentCloseTime_;
@@ -341,14 +318,7 @@ public final class ExpeditionActivityDetailInfoOuterClass {
 
     public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 1;
     private boolean isContentClosed_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>bool is_content_closed = 1;</code>
-     * @return The isContentClosed.
-     */
+
     @java.lang.Override
     public boolean getIsContentClosed() {
       return isContentClosed_;
@@ -744,7 +714,7 @@ public final class ExpeditionActivityDetailInfoOuterClass {
               gNMKEJEGCJLBuilder_ = null;
               gNMKEJEGCJL_ = other.gNMKEJEGCJL_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              gNMKEJEGCJLBuilder_ = 
+              gNMKEJEGCJLBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getGNMKEJEGCJLFieldBuilder() : null;
             } else {
@@ -770,7 +740,7 @@ public final class ExpeditionActivityDetailInfoOuterClass {
               kCHKCHIIBBBBuilder_ = null;
               kCHKCHIIBBB_ = other.kCHKCHIIBBB_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              kCHKCHIIBBBBuilder_ = 
+              kCHKCHIIBBBBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getKCHKCHIIBBBFieldBuilder() : null;
             } else {
@@ -1015,7 +985,7 @@ public final class ExpeditionActivityDetailInfoOuterClass {
       /**
        * <code>repeated .KALNNKEHBJG GNMKEJEGCJL = 16;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.KALNNKEHBJGOuterClass.KALNNKEHBJGOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.KALNNKEHBJGOuterClass.KALNNKEHBJGOrBuilder>
            getGNMKEJEGCJLOrBuilderList() {
         if (gNMKEJEGCJLBuilder_ != null) {
           return gNMKEJEGCJLBuilder_.getMessageOrBuilderList();
@@ -1041,12 +1011,12 @@ public final class ExpeditionActivityDetailInfoOuterClass {
       /**
        * <code>repeated .KALNNKEHBJG GNMKEJEGCJL = 16;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.KALNNKEHBJGOuterClass.KALNNKEHBJG.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.KALNNKEHBJGOuterClass.KALNNKEHBJG.Builder>
            getGNMKEJEGCJLBuilderList() {
         return getGNMKEJEGCJLFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.KALNNKEHBJGOuterClass.KALNNKEHBJG, emu.grasscutter.net.proto.KALNNKEHBJGOuterClass.KALNNKEHBJG.Builder, emu.grasscutter.net.proto.KALNNKEHBJGOuterClass.KALNNKEHBJGOrBuilder> 
+          emu.grasscutter.net.proto.KALNNKEHBJGOuterClass.KALNNKEHBJG, emu.grasscutter.net.proto.KALNNKEHBJGOuterClass.KALNNKEHBJG.Builder, emu.grasscutter.net.proto.KALNNKEHBJGOuterClass.KALNNKEHBJGOrBuilder>
           getGNMKEJEGCJLFieldBuilder() {
         if (gNMKEJEGCJLBuilder_ == null) {
           gNMKEJEGCJLBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1255,7 +1225,7 @@ public final class ExpeditionActivityDetailInfoOuterClass {
       /**
        * <code>repeated .OKNGLANHPLD KCHKCHIIBBB = 3;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.OKNGLANHPLDOuterClass.OKNGLANHPLDOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.OKNGLANHPLDOuterClass.OKNGLANHPLDOrBuilder>
            getKCHKCHIIBBBOrBuilderList() {
         if (kCHKCHIIBBBBuilder_ != null) {
           return kCHKCHIIBBBBuilder_.getMessageOrBuilderList();
@@ -1281,12 +1251,12 @@ public final class ExpeditionActivityDetailInfoOuterClass {
       /**
        * <code>repeated .OKNGLANHPLD KCHKCHIIBBB = 3;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.OKNGLANHPLDOuterClass.OKNGLANHPLD.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.OKNGLANHPLDOuterClass.OKNGLANHPLD.Builder>
            getKCHKCHIIBBBBuilderList() {
         return getKCHKCHIIBBBFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.OKNGLANHPLDOuterClass.OKNGLANHPLD, emu.grasscutter.net.proto.OKNGLANHPLDOuterClass.OKNGLANHPLD.Builder, emu.grasscutter.net.proto.OKNGLANHPLDOuterClass.OKNGLANHPLDOrBuilder> 
+          emu.grasscutter.net.proto.OKNGLANHPLDOuterClass.OKNGLANHPLD, emu.grasscutter.net.proto.OKNGLANHPLDOuterClass.OKNGLANHPLD.Builder, emu.grasscutter.net.proto.OKNGLANHPLDOuterClass.OKNGLANHPLDOrBuilder>
           getKCHKCHIIBBBFieldBuilder() {
         if (kCHKCHIIBBBBuilder_ == null) {
           kCHKCHIIBBBBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1315,7 +1285,7 @@ public final class ExpeditionActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHBNIAJBBEBN(int value) {
-        
+
         hBNIAJBBEBN_ = value;
         onChanged();
         return this;
@@ -1325,7 +1295,7 @@ public final class ExpeditionActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHBNIAJBBEBN() {
-        
+
         hBNIAJBBEBN_ = 0;
         onChanged();
         return this;
@@ -1346,7 +1316,7 @@ public final class ExpeditionActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLHFCPFFENMM(int value) {
-        
+
         lHFCPFFENMM_ = value;
         onChanged();
         return this;
@@ -1356,93 +1326,49 @@ public final class ExpeditionActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLHFCPFFENMM() {
-        
+
         lHFCPFFENMM_ = 0;
         onChanged();
         return this;
       }
 
       private int contentCloseTime_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 content_close_time = 11;</code>
-       * @return The contentCloseTime.
-       */
+
       @java.lang.Override
       public int getContentCloseTime() {
         return contentCloseTime_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 content_close_time = 11;</code>
-       * @param value The contentCloseTime to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setContentCloseTime(int value) {
-        
+
         contentCloseTime_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 content_close_time = 11;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearContentCloseTime() {
-        
+
         contentCloseTime_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isContentClosed_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_content_closed = 1;</code>
-       * @return The isContentClosed.
-       */
+
       @java.lang.Override
       public boolean getIsContentClosed() {
         return isContentClosed_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_content_closed = 1;</code>
-       * @param value The isContentClosed to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setIsContentClosed(boolean value) {
-        
+
         isContentClosed_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_content_closed = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearIsContentClosed() {
-        
+
         isContentClosed_ = false;
         onChanged();
         return this;
@@ -1458,7 +1384,6 @@ public final class ExpeditionActivityDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:ExpeditionActivityDetailInfo)
     }
@@ -1502,7 +1427,7 @@ public final class ExpeditionActivityDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ExpeditionActivityDetailInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ExpeditionActivityDetailInfo_fieldAccessorTable;
 

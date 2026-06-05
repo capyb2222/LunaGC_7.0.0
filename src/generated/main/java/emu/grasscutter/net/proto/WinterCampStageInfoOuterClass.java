@@ -182,7 +182,7 @@ public final class WinterCampStageInfoOuterClass {
               emu.grasscutter.net.proto.WinterCampStageInfoOuterClass.WinterCampStageInfo.class, emu.grasscutter.net.proto.WinterCampStageInfoOuterClass.WinterCampStageInfo.Builder.class);
     }
 
-    public static final int CUR_PROGRESS_FIELD_NUMBER = 14;
+    public static final int CUR_PROGRESS_FIELD_NUMBER = 2;
     private int curProgress_;
     /**
      * <code>uint32 cur_progress = 14;</code>
@@ -204,7 +204,7 @@ public final class WinterCampStageInfoOuterClass {
       return totalProgress_;
     }
 
-    public static final int IS_FINISHED_FIELD_NUMBER = 3;
+    public static final int IS_FINISHED_FIELD_NUMBER = 1;
     private boolean isFinished_;
     /**
      * <code>bool is_finished = 3;</code>
@@ -226,7 +226,7 @@ public final class WinterCampStageInfoOuterClass {
       return id_;
     }
 
-    public static final int POS_FIELD_NUMBER = 10;
+    public static final int POS_FIELD_NUMBER = 13;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
     /**
      * <code>.Vector pos = 10;</code>
@@ -252,7 +252,7 @@ public final class WinterCampStageInfoOuterClass {
       return getPos();
     }
 
-    public static final int OPEN_TIME_FIELD_NUMBER = 9;
+    public static final int OPEN_TIME_FIELD_NUMBER = 14;
     private int openTime_;
     /**
      * <code>uint32 open_time = 9;</code>
@@ -278,7 +278,7 @@ public final class WinterCampStageInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isFinished_ != false) {
-        output.writeBool(3, isFinished_);
+        output.writeBool(1, isFinished_);
       }
       if (totalProgress_ != 0) {
         output.writeUInt32(6, totalProgress_);
@@ -287,13 +287,13 @@ public final class WinterCampStageInfoOuterClass {
         output.writeUInt32(7, id_);
       }
       if (openTime_ != 0) {
-        output.writeUInt32(9, openTime_);
+        output.writeUInt32(14, openTime_);
       }
       if (pos_ != null) {
         output.writeMessage(10, getPos());
       }
       if (curProgress_ != 0) {
-        output.writeUInt32(14, curProgress_);
+        output.writeUInt32(2, curProgress_);
       }
       unknownFields.writeTo(output);
     }
@@ -306,7 +306,7 @@ public final class WinterCampStageInfoOuterClass {
       size = 0;
       if (isFinished_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, isFinished_);
+          .computeBoolSize(1, isFinished_);
       }
       if (totalProgress_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -318,7 +318,7 @@ public final class WinterCampStageInfoOuterClass {
       }
       if (openTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, openTime_);
+          .computeUInt32Size(14, openTime_);
       }
       if (pos_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -326,7 +326,7 @@ public final class WinterCampStageInfoOuterClass {
       }
       if (curProgress_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, curProgress_);
+          .computeUInt32Size(2, curProgress_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

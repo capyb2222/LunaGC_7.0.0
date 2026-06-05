@@ -30,8 +30,6 @@ public final class ActionSetOverrideMapValue extends AbilityActionHandler {
             // Hole den Wert mit allen gesammelten Properties
             String overrideMapKey = action.overrideMapKey;
             float ratio = action.ratio.get(properties, 0f);
-Grasscutter.getLogger().info("Setting override map value: {} to {}", overrideMapKey, ratio);
-        // Set the override map value in the ability's specials.
         ability.getAbilitySpecials().put(overrideMapKey, ratio);
         return true;
     }

@@ -18,63 +18,16 @@ public final class AsterLittleDetailInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:AsterLittleDetailInfo)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 begin_time = 1;</code>
-     * @return The beginTime.
-     */
     int getBeginTime();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 stage_begin_time = 2;</code>
-     * @return The stageBeginTime.
-     */
     int getStageBeginTime();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.AsterLittleStageState stage_state = 8;</code>
-     * @return The enum numeric value on the wire for stageState.
-     */
     int getStageStateValue();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.AsterLittleStageState stage_state = 8;</code>
-     * @return The stageState.
-     */
+
     emu.grasscutter.net.proto.AsterLittleStageStateOuterClass.AsterLittleStageState getStageState();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 stage_id = 7;</code>
-     * @return The stageId.
-     */
     int getStageId();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>bool is_open = 12;</code>
-     * @return The isOpen.
-     */
     boolean getIsOpen();
   }
   /**
@@ -183,14 +136,7 @@ public final class AsterLittleDetailInfoOuterClass {
 
     public static final int BEGIN_TIME_FIELD_NUMBER = 1;
     private int beginTime_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 begin_time = 1;</code>
-     * @return The beginTime.
-     */
+
     @java.lang.Override
     public int getBeginTime() {
       return beginTime_;
@@ -198,14 +144,7 @@ public final class AsterLittleDetailInfoOuterClass {
 
     public static final int STAGE_BEGIN_TIME_FIELD_NUMBER = 2;
     private int stageBeginTime_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 stage_begin_time = 2;</code>
-     * @return The stageBeginTime.
-     */
+
     @java.lang.Override
     public int getStageBeginTime() {
       return stageBeginTime_;
@@ -213,25 +152,11 @@ public final class AsterLittleDetailInfoOuterClass {
 
     public static final int STAGE_STATE_FIELD_NUMBER = 8;
     private int stageState_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.AsterLittleStageState stage_state = 8;</code>
-     * @return The enum numeric value on the wire for stageState.
-     */
+
     @java.lang.Override public int getStageStateValue() {
       return stageState_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.AsterLittleStageState stage_state = 8;</code>
-     * @return The stageState.
-     */
+
     @java.lang.Override public emu.grasscutter.net.proto.AsterLittleStageStateOuterClass.AsterLittleStageState getStageState() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.AsterLittleStageStateOuterClass.AsterLittleStageState result = emu.grasscutter.net.proto.AsterLittleStageStateOuterClass.AsterLittleStageState.valueOf(stageState_);
@@ -240,14 +165,7 @@ public final class AsterLittleDetailInfoOuterClass {
 
     public static final int STAGE_ID_FIELD_NUMBER = 7;
     private int stageId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 stage_id = 7;</code>
-     * @return The stageId.
-     */
+
     @java.lang.Override
     public int getStageId() {
       return stageId_;
@@ -255,14 +173,7 @@ public final class AsterLittleDetailInfoOuterClass {
 
     public static final int IS_OPEN_FIELD_NUMBER = 12;
     private boolean isOpen_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>bool is_open = 12;</code>
-     * @return The isOpen.
-     */
+
     @java.lang.Override
     public boolean getIsOpen() {
       return isOpen_;
@@ -639,246 +550,121 @@ public final class AsterLittleDetailInfoOuterClass {
       }
 
       private int beginTime_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 begin_time = 1;</code>
-       * @return The beginTime.
-       */
+
       @java.lang.Override
       public int getBeginTime() {
         return beginTime_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 begin_time = 1;</code>
-       * @param value The beginTime to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setBeginTime(int value) {
-        
+
         beginTime_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 begin_time = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearBeginTime() {
-        
+
         beginTime_ = 0;
         onChanged();
         return this;
       }
 
       private int stageBeginTime_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 stage_begin_time = 2;</code>
-       * @return The stageBeginTime.
-       */
+
       @java.lang.Override
       public int getStageBeginTime() {
         return stageBeginTime_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 stage_begin_time = 2;</code>
-       * @param value The stageBeginTime to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setStageBeginTime(int value) {
-        
+
         stageBeginTime_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 stage_begin_time = 2;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearStageBeginTime() {
-        
+
         stageBeginTime_ = 0;
         onChanged();
         return this;
       }
 
       private int stageState_ = 0;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.AsterLittleStageState stage_state = 8;</code>
-       * @return The enum numeric value on the wire for stageState.
-       */
+
       @java.lang.Override public int getStageStateValue() {
         return stageState_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.AsterLittleStageState stage_state = 8;</code>
-       * @param value The enum numeric value on the wire for stageState to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setStageStateValue(int value) {
-        
+
         stageState_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.AsterLittleStageState stage_state = 8;</code>
-       * @return The stageState.
-       */
+
       @java.lang.Override
       public emu.grasscutter.net.proto.AsterLittleStageStateOuterClass.AsterLittleStageState getStageState() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.AsterLittleStageStateOuterClass.AsterLittleStageState result = emu.grasscutter.net.proto.AsterLittleStageStateOuterClass.AsterLittleStageState.valueOf(stageState_);
         return result == null ? emu.grasscutter.net.proto.AsterLittleStageStateOuterClass.AsterLittleStageState.UNRECOGNIZED : result;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.AsterLittleStageState stage_state = 8;</code>
-       * @param value The stageState to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setStageState(emu.grasscutter.net.proto.AsterLittleStageStateOuterClass.AsterLittleStageState value) {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         stageState_ = value.getNumber();
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.AsterLittleStageState stage_state = 8;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearStageState() {
-        
+
         stageState_ = 0;
         onChanged();
         return this;
       }
 
       private int stageId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 stage_id = 7;</code>
-       * @return The stageId.
-       */
+
       @java.lang.Override
       public int getStageId() {
         return stageId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 stage_id = 7;</code>
-       * @param value The stageId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setStageId(int value) {
-        
+
         stageId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 stage_id = 7;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearStageId() {
-        
+
         stageId_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isOpen_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_open = 12;</code>
-       * @return The isOpen.
-       */
+
       @java.lang.Override
       public boolean getIsOpen() {
         return isOpen_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_open = 12;</code>
-       * @param value The isOpen to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setIsOpen(boolean value) {
-        
+
         isOpen_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_open = 12;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearIsOpen() {
-        
+
         isOpen_ = false;
         onChanged();
         return this;
@@ -894,7 +680,6 @@ public final class AsterLittleDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:AsterLittleDetailInfo)
     }
@@ -938,7 +723,7 @@ public final class AsterLittleDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AsterLittleDetailInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AsterLittleDetailInfo_fieldAccessorTable;
 

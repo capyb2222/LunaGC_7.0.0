@@ -18,24 +18,8 @@ public final class TrialAvatarGrantRecordOuterClass {
       // @@protoc_insertion_point(interface_extends:TrialAvatarGrantRecord)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 from_parent_quest_id = 2;</code>
-     * @return The fromParentQuestId.
-     */
     int getFromParentQuestId();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 grant_reason = 1;</code>
-     * @return The grantReason.
-     */
     int getGrantReason();
   }
   /**
@@ -127,14 +111,7 @@ public final class TrialAvatarGrantRecordOuterClass {
 
     public static final int FROM_PARENT_QUEST_ID_FIELD_NUMBER = 2;
     private int fromParentQuestId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 from_parent_quest_id = 2;</code>
-     * @return The fromParentQuestId.
-     */
+
     @java.lang.Override
     public int getFromParentQuestId() {
       return fromParentQuestId_;
@@ -142,14 +119,7 @@ public final class TrialAvatarGrantRecordOuterClass {
 
     public static final int GRANT_REASON_FIELD_NUMBER = 1;
     private int grantReason_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 grant_reason = 1;</code>
-     * @return The grantReason.
-     */
+
     @java.lang.Override
     public int getGrantReason() {
       return grantReason_;
@@ -475,86 +445,42 @@ public final class TrialAvatarGrantRecordOuterClass {
       }
 
       private int fromParentQuestId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 from_parent_quest_id = 2;</code>
-       * @return The fromParentQuestId.
-       */
+
       @java.lang.Override
       public int getFromParentQuestId() {
         return fromParentQuestId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 from_parent_quest_id = 2;</code>
-       * @param value The fromParentQuestId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setFromParentQuestId(int value) {
-        
+
         fromParentQuestId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 from_parent_quest_id = 2;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearFromParentQuestId() {
-        
+
         fromParentQuestId_ = 0;
         onChanged();
         return this;
       }
 
       private int grantReason_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 grant_reason = 1;</code>
-       * @return The grantReason.
-       */
+
       @java.lang.Override
       public int getGrantReason() {
         return grantReason_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 grant_reason = 1;</code>
-       * @param value The grantReason to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setGrantReason(int value) {
-        
+
         grantReason_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 grant_reason = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearGrantReason() {
-        
+
         grantReason_ = 0;
         onChanged();
         return this;
@@ -570,7 +496,6 @@ public final class TrialAvatarGrantRecordOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:TrialAvatarGrantRecord)
     }
@@ -614,7 +539,7 @@ public final class TrialAvatarGrantRecordOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_TrialAvatarGrantRecord_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_TrialAvatarGrantRecord_fieldAccessorTable;
 

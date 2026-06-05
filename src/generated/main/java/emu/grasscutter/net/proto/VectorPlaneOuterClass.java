@@ -18,24 +18,8 @@ public final class VectorPlaneOuterClass {
       // @@protoc_insertion_point(interface_extends:VectorPlane)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0  
-     * </pre>
-     *
-     * <code>float y = 2;</code>
-     * @return The y.
-     */
     float getY();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0  
-     * </pre>
-     *
-     * <code>float x = 1;</code>
-     * @return The x.
-     */
     float getX();
   }
   /**
@@ -127,14 +111,7 @@ public final class VectorPlaneOuterClass {
 
     public static final int Y_FIELD_NUMBER = 2;
     private float y_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0  
-     * </pre>
-     *
-     * <code>float y = 2;</code>
-     * @return The y.
-     */
+
     @java.lang.Override
     public float getY() {
       return y_;
@@ -142,14 +119,7 @@ public final class VectorPlaneOuterClass {
 
     public static final int X_FIELD_NUMBER = 1;
     private float x_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0  
-     * </pre>
-     *
-     * <code>float x = 1;</code>
-     * @return The x.
-     */
+
     @java.lang.Override
     public float getX() {
       return x_;
@@ -479,86 +449,42 @@ public final class VectorPlaneOuterClass {
       }
 
       private float y_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0  
-       * </pre>
-       *
-       * <code>float y = 2;</code>
-       * @return The y.
-       */
+
       @java.lang.Override
       public float getY() {
         return y_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0  
-       * </pre>
-       *
-       * <code>float y = 2;</code>
-       * @param value The y to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setY(float value) {
-        
+
         y_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0  
-       * </pre>
-       *
-       * <code>float y = 2;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearY() {
-        
+
         y_ = 0F;
         onChanged();
         return this;
       }
 
       private float x_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0  
-       * </pre>
-       *
-       * <code>float x = 1;</code>
-       * @return The x.
-       */
+
       @java.lang.Override
       public float getX() {
         return x_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0  
-       * </pre>
-       *
-       * <code>float x = 1;</code>
-       * @param value The x to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setX(float value) {
-        
+
         x_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0  
-       * </pre>
-       *
-       * <code>float x = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearX() {
-        
+
         x_ = 0F;
         onChanged();
         return this;
@@ -574,7 +500,6 @@ public final class VectorPlaneOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:VectorPlane)
     }
@@ -618,7 +543,7 @@ public final class VectorPlaneOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_VectorPlane_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_VectorPlane_fieldAccessorTable;
 

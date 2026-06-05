@@ -18,14 +18,6 @@ public final class SystemHintOuterClass {
       // @@protoc_insertion_point(interface_extends:SystemHint)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 type = 8;</code>
-     * @return The type.
-     */
     int getType();
   }
   /**
@@ -112,14 +104,7 @@ public final class SystemHintOuterClass {
 
     public static final int TYPE_FIELD_NUMBER = 8;
     private int type_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 type = 8;</code>
-     * @return The type.
-     */
+
     @java.lang.Override
     public int getType() {
       return type_;
@@ -428,43 +413,21 @@ public final class SystemHintOuterClass {
       }
 
       private int type_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 type = 8;</code>
-       * @return The type.
-       */
+
       @java.lang.Override
       public int getType() {
         return type_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 type = 8;</code>
-       * @param value The type to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setType(int value) {
-        
+
         type_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 type = 8;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearType() {
-        
+
         type_ = 0;
         onChanged();
         return this;
@@ -480,7 +443,6 @@ public final class SystemHintOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:SystemHint)
     }
@@ -524,7 +486,7 @@ public final class SystemHintOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SystemHint_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SystemHint_fieldAccessorTable;
 

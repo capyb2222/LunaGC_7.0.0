@@ -535,7 +535,7 @@ public final class CoopChapterOuterClass {
       // @@protoc_insertion_point(enum_scope:CoopChapter.State)
     }
 
-    public static final int STATE_FIELD_NUMBER = 3;
+    public static final int STATE_FIELD_NUMBER = 15;
     private int state_;
     /**
      * <code>.CoopChapter.State state = 3;</code>
@@ -860,7 +860,7 @@ public final class CoopChapterOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (state_ != emu.grasscutter.net.proto.CoopChapterOuterClass.CoopChapter.State.STATE_CLOSE.getNumber()) {
-        output.writeEnum(3, state_);
+        output.writeEnum(15, state_);
       }
       if (hKOAKJNBIIO_ != 0) {
         output.writeUInt32(5, hKOAKJNBIIO_);
@@ -911,7 +911,7 @@ public final class CoopChapterOuterClass {
       size = 0;
       if (state_ != emu.grasscutter.net.proto.CoopChapterOuterClass.CoopChapter.State.STATE_CLOSE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(3, state_);
+          .computeEnumSize(15, state_);
       }
       if (hKOAKJNBIIO_ != 0) {
         size += com.google.protobuf.CodedOutputStream

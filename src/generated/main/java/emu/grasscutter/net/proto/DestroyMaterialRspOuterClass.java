@@ -111,7 +111,7 @@ public final class DestroyMaterialRspOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 112: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 itemCountList_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -119,7 +119,7 @@ public final class DestroyMaterialRspOuterClass {
               itemCountList_.addInt(input.readUInt32());
               break;
             }
-            case 18: {
+            case 114: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -132,7 +132,7 @@ public final class DestroyMaterialRspOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 32: {
+            case 96: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 itemIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -140,7 +140,7 @@ public final class DestroyMaterialRspOuterClass {
               itemIdList_.addInt(input.readUInt32());
               break;
             }
-            case 34: {
+            case 98: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -153,7 +153,7 @@ public final class DestroyMaterialRspOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 80: {
+            case 104: {
 
               retcode_ = input.readInt32();
               break;
@@ -196,7 +196,7 @@ public final class DestroyMaterialRspOuterClass {
               emu.grasscutter.net.proto.DestroyMaterialRspOuterClass.DestroyMaterialRsp.class, emu.grasscutter.net.proto.DestroyMaterialRspOuterClass.DestroyMaterialRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 10;
+    public static final int RETCODE_FIELD_NUMBER = 13;
     private int retcode_;
     /**
      * <code>int32 retcode = 10;</code>
@@ -207,7 +207,7 @@ public final class DestroyMaterialRspOuterClass {
       return retcode_;
     }
 
-    public static final int ITEM_ID_LIST_FIELD_NUMBER = 4;
+    public static final int ITEM_ID_LIST_FIELD_NUMBER = 12;
     private com.google.protobuf.Internal.IntList itemIdList_;
     /**
      * <code>repeated uint32 item_id_list = 4;</code>
@@ -235,7 +235,7 @@ public final class DestroyMaterialRspOuterClass {
     }
     private int itemIdListMemoizedSerializedSize = -1;
 
-    public static final int ITEM_COUNT_LIST_FIELD_NUMBER = 2;
+    public static final int ITEM_COUNT_LIST_FIELD_NUMBER = 14;
     private com.google.protobuf.Internal.IntList itemCountList_;
     /**
      * <code>repeated uint32 item_count_list = 2;</code>
@@ -279,21 +279,21 @@ public final class DestroyMaterialRspOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getItemCountListList().size() > 0) {
-        output.writeUInt32NoTag(18);
+        output.writeUInt32NoTag(114);
         output.writeUInt32NoTag(itemCountListMemoizedSerializedSize);
       }
       for (int i = 0; i < itemCountList_.size(); i++) {
         output.writeUInt32NoTag(itemCountList_.getInt(i));
       }
       if (getItemIdListList().size() > 0) {
-        output.writeUInt32NoTag(34);
+        output.writeUInt32NoTag(98);
         output.writeUInt32NoTag(itemIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < itemIdList_.size(); i++) {
         output.writeUInt32NoTag(itemIdList_.getInt(i));
       }
       if (retcode_ != 0) {
-        output.writeInt32(10, retcode_);
+        output.writeInt32(13, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -334,7 +334,7 @@ public final class DestroyMaterialRspOuterClass {
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(10, retcode_);
+          .computeInt32Size(13, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -164,7 +164,7 @@ public final class ParentQuestRandomInfoOuterClass {
               emu.grasscutter.net.proto.ParentQuestRandomInfoOuterClass.ParentQuestRandomInfo.class, emu.grasscutter.net.proto.ParentQuestRandomInfoOuterClass.ParentQuestRandomInfo.Builder.class);
     }
 
-    public static final int TEMPLATE_ID_FIELD_NUMBER = 10;
+    public static final int TEMPLATE_ID_FIELD_NUMBER = 2;
     private int templateId_;
     /**
      * <code>uint32 template_id = 10;</code>
@@ -175,7 +175,7 @@ public final class ParentQuestRandomInfoOuterClass {
       return templateId_;
     }
 
-    public static final int FACTOR_LIST_FIELD_NUMBER = 9;
+    public static final int FACTOR_LIST_FIELD_NUMBER = 6;
     private com.google.protobuf.Internal.IntList factorList_;
     /**
      * <code>repeated uint32 factor_list = 9;</code>
@@ -203,7 +203,7 @@ public final class ParentQuestRandomInfoOuterClass {
     }
     private int factorListMemoizedSerializedSize = -1;
 
-    public static final int ENTRANCE_ID_FIELD_NUMBER = 3;
+    public static final int ENTRANCE_ID_FIELD_NUMBER = 12;
     private int entranceId_;
     /**
      * <code>uint32 entrance_id = 3;</code>
@@ -230,7 +230,7 @@ public final class ParentQuestRandomInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (entranceId_ != 0) {
-        output.writeUInt32(3, entranceId_);
+        output.writeUInt32(12, entranceId_);
       }
       if (getFactorListList().size() > 0) {
         output.writeUInt32NoTag(74);
@@ -240,7 +240,7 @@ public final class ParentQuestRandomInfoOuterClass {
         output.writeUInt32NoTag(factorList_.getInt(i));
       }
       if (templateId_ != 0) {
-        output.writeUInt32(10, templateId_);
+        output.writeUInt32(2, templateId_);
       }
       unknownFields.writeTo(output);
     }
@@ -253,7 +253,7 @@ public final class ParentQuestRandomInfoOuterClass {
       size = 0;
       if (entranceId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, entranceId_);
+          .computeUInt32Size(12, entranceId_);
       }
       {
         int dataSize = 0;
@@ -271,7 +271,7 @@ public final class ParentQuestRandomInfoOuterClass {
       }
       if (templateId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, templateId_);
+          .computeUInt32Size(2, templateId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

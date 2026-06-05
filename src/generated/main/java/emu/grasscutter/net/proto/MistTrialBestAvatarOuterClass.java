@@ -139,7 +139,7 @@ public final class MistTrialBestAvatarOuterClass {
               emu.grasscutter.net.proto.MistTrialBestAvatarOuterClass.MistTrialBestAvatar.class, emu.grasscutter.net.proto.MistTrialBestAvatarOuterClass.MistTrialBestAvatar.Builder.class);
     }
 
-    public static final int AVATAR_TYPE_FIELD_NUMBER = 4;
+    public static final int AVATAR_TYPE_FIELD_NUMBER = 2;
     private int avatarType_;
     /**
      * <code>.AvatarType avatar_type = 4;</code>
@@ -158,7 +158,7 @@ public final class MistTrialBestAvatarOuterClass {
       return result == null ? emu.grasscutter.net.proto.AvatarTypeOuterClass.AvatarType.UNRECOGNIZED : result;
     }
 
-    public static final int AVATAR_ID_FIELD_NUMBER = 6;
+    public static final int AVATAR_ID_FIELD_NUMBER = 14;
     private int avatarId_;
     /**
      * <code>uint32 avatar_id = 6;</code>
@@ -169,7 +169,7 @@ public final class MistTrialBestAvatarOuterClass {
       return avatarId_;
     }
 
-    public static final int COSTUME_ID_FIELD_NUMBER = 14;
+    public static final int COSTUME_ID_FIELD_NUMBER = 1;
     private int costumeId_;
     /**
      * <code>uint32 costume_id = 14;</code>
@@ -195,13 +195,13 @@ public final class MistTrialBestAvatarOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (avatarType_ != emu.grasscutter.net.proto.AvatarTypeOuterClass.AvatarType.AVATAR_TYPE_NONE.getNumber()) {
-        output.writeEnum(4, avatarType_);
+        output.writeEnum(2, avatarType_);
       }
       if (avatarId_ != 0) {
-        output.writeUInt32(6, avatarId_);
+        output.writeUInt32(14, avatarId_);
       }
       if (costumeId_ != 0) {
-        output.writeUInt32(14, costumeId_);
+        output.writeUInt32(1, costumeId_);
       }
       unknownFields.writeTo(output);
     }
@@ -214,15 +214,15 @@ public final class MistTrialBestAvatarOuterClass {
       size = 0;
       if (avatarType_ != emu.grasscutter.net.proto.AvatarTypeOuterClass.AvatarType.AVATAR_TYPE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(4, avatarType_);
+          .computeEnumSize(2, avatarType_);
       }
       if (avatarId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, avatarId_);
+          .computeUInt32Size(14, avatarId_);
       }
       if (costumeId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, costumeId_);
+          .computeUInt32Size(1, costumeId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

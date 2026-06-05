@@ -2,6 +2,7 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
 import emu.grasscutter.net.proto.*;
+import emu.grasscutter.net.proto.RetcodeOuterClass.Retcode;
 
 public class PacketBuyGoodsRsp extends BasePacket {
     public PacketBuyGoodsRsp(int shopType, int boughtNum, ShopGoodsOuterClass.ShopGoods sg) {
@@ -16,5 +17,13 @@ public class PacketBuyGoodsRsp extends BasePacket {
                         .build();
 
         this.setData(buyGoodsRsp);
+    }
+
+    public PacketBuyGoodsRsp(Retcode retcode) {
+        super(PacketOpcodes.BuyGoodsRsp);
+        this.setData(
+                BuyGoodsRspOuterClass.BuyGoodsRsp.newBuilder()
+                        .setRetcode(retcode.getNumber())
+                        .build());
     }
 }

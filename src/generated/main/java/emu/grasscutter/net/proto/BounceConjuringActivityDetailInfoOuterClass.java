@@ -21,7 +21,7 @@ public final class BounceConjuringActivityDetailInfoOuterClass {
     /**
      * <code>repeated .JFPNONKHGAA AEPAJCHDHED = 5;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.JFPNONKHGAAOuterClass.JFPNONKHGAA> 
+    java.util.List<emu.grasscutter.net.proto.JFPNONKHGAAOuterClass.JFPNONKHGAA>
         getAEPAJCHDHEDList();
     /**
      * <code>repeated .JFPNONKHGAA AEPAJCHDHED = 5;</code>
@@ -34,7 +34,7 @@ public final class BounceConjuringActivityDetailInfoOuterClass {
     /**
      * <code>repeated .JFPNONKHGAA AEPAJCHDHED = 5;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.JFPNONKHGAAOuterClass.JFPNONKHGAAOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.JFPNONKHGAAOuterClass.JFPNONKHGAAOrBuilder>
         getAEPAJCHDHEDOrBuilderList();
     /**
      * <code>repeated .JFPNONKHGAA AEPAJCHDHED = 5;</code>
@@ -42,24 +42,8 @@ public final class BounceConjuringActivityDetailInfoOuterClass {
     emu.grasscutter.net.proto.JFPNONKHGAAOuterClass.JFPNONKHGAAOrBuilder getAEPAJCHDHEDOrBuilder(
         int index);
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 content_close_time = 15;</code>
-     * @return The contentCloseTime.
-     */
     int getContentCloseTime();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>bool is_content_closed = 4;</code>
-     * @return The isContentClosed.
-     */
     boolean getIsContentClosed();
   }
   /**
@@ -176,7 +160,7 @@ public final class BounceConjuringActivityDetailInfoOuterClass {
      * <code>repeated .JFPNONKHGAA AEPAJCHDHED = 5;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.JFPNONKHGAAOuterClass.JFPNONKHGAAOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.JFPNONKHGAAOuterClass.JFPNONKHGAAOrBuilder>
         getAEPAJCHDHEDOrBuilderList() {
       return aEPAJCHDHED_;
     }
@@ -205,14 +189,7 @@ public final class BounceConjuringActivityDetailInfoOuterClass {
 
     public static final int CONTENT_CLOSE_TIME_FIELD_NUMBER = 15;
     private int contentCloseTime_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 content_close_time = 15;</code>
-     * @return The contentCloseTime.
-     */
+
     @java.lang.Override
     public int getContentCloseTime() {
       return contentCloseTime_;
@@ -220,14 +197,7 @@ public final class BounceConjuringActivityDetailInfoOuterClass {
 
     public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 4;
     private boolean isContentClosed_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>bool is_content_closed = 4;</code>
-     * @return The isContentClosed.
-     */
+
     @java.lang.Override
     public boolean getIsContentClosed() {
       return isContentClosed_;
@@ -566,7 +536,7 @@ public final class BounceConjuringActivityDetailInfoOuterClass {
               aEPAJCHDHEDBuilder_ = null;
               aEPAJCHDHED_ = other.aEPAJCHDHED_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              aEPAJCHDHEDBuilder_ = 
+              aEPAJCHDHEDBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getAEPAJCHDHEDFieldBuilder() : null;
             } else {
@@ -805,7 +775,7 @@ public final class BounceConjuringActivityDetailInfoOuterClass {
       /**
        * <code>repeated .JFPNONKHGAA AEPAJCHDHED = 5;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.JFPNONKHGAAOuterClass.JFPNONKHGAAOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.JFPNONKHGAAOuterClass.JFPNONKHGAAOrBuilder>
            getAEPAJCHDHEDOrBuilderList() {
         if (aEPAJCHDHEDBuilder_ != null) {
           return aEPAJCHDHEDBuilder_.getMessageOrBuilderList();
@@ -831,12 +801,12 @@ public final class BounceConjuringActivityDetailInfoOuterClass {
       /**
        * <code>repeated .JFPNONKHGAA AEPAJCHDHED = 5;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.JFPNONKHGAAOuterClass.JFPNONKHGAA.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.JFPNONKHGAAOuterClass.JFPNONKHGAA.Builder>
            getAEPAJCHDHEDBuilderList() {
         return getAEPAJCHDHEDFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.JFPNONKHGAAOuterClass.JFPNONKHGAA, emu.grasscutter.net.proto.JFPNONKHGAAOuterClass.JFPNONKHGAA.Builder, emu.grasscutter.net.proto.JFPNONKHGAAOuterClass.JFPNONKHGAAOrBuilder> 
+          emu.grasscutter.net.proto.JFPNONKHGAAOuterClass.JFPNONKHGAA, emu.grasscutter.net.proto.JFPNONKHGAAOuterClass.JFPNONKHGAA.Builder, emu.grasscutter.net.proto.JFPNONKHGAAOuterClass.JFPNONKHGAAOrBuilder>
           getAEPAJCHDHEDFieldBuilder() {
         if (aEPAJCHDHEDBuilder_ == null) {
           aEPAJCHDHEDBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -851,86 +821,42 @@ public final class BounceConjuringActivityDetailInfoOuterClass {
       }
 
       private int contentCloseTime_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 content_close_time = 15;</code>
-       * @return The contentCloseTime.
-       */
+
       @java.lang.Override
       public int getContentCloseTime() {
         return contentCloseTime_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 content_close_time = 15;</code>
-       * @param value The contentCloseTime to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setContentCloseTime(int value) {
-        
+
         contentCloseTime_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 content_close_time = 15;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearContentCloseTime() {
-        
+
         contentCloseTime_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isContentClosed_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_content_closed = 4;</code>
-       * @return The isContentClosed.
-       */
+
       @java.lang.Override
       public boolean getIsContentClosed() {
         return isContentClosed_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_content_closed = 4;</code>
-       * @param value The isContentClosed to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setIsContentClosed(boolean value) {
-        
+
         isContentClosed_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_content_closed = 4;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearIsContentClosed() {
-        
+
         isContentClosed_ = false;
         onChanged();
         return this;
@@ -946,7 +872,6 @@ public final class BounceConjuringActivityDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:BounceConjuringActivityDetailInfo)
     }
@@ -990,7 +915,7 @@ public final class BounceConjuringActivityDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_BounceConjuringActivityDetailInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_BounceConjuringActivityDetailInfo_fieldAccessorTable;
 

@@ -583,7 +583,7 @@ public final class HomeBlockArrangementInfoOuterClass {
       return deployFurniureList_.get(index);
     }
 
-    public static final int FURNITURE_SUITE_LIST_FIELD_NUMBER = 14;
+    public static final int FURNITURE_SUITE_LIST_FIELD_NUMBER = 9;
     private java.util.List<emu.grasscutter.net.proto.HomeFurnitureSuiteDataOuterClass.HomeFurnitureSuiteData> furnitureSuiteList_;
     /**
      * <code>repeated .HomeFurnitureSuiteData furniture_suite_list = 14;</code>
@@ -674,7 +674,7 @@ public final class HomeBlockArrangementInfoOuterClass {
       return blockId_;
     }
 
-    public static final int FURNITURE_GROUP_LIST_FIELD_NUMBER = 4;
+    public static final int FURNITURE_GROUP_LIST_FIELD_NUMBER = 1;
     private java.util.List<emu.grasscutter.net.proto.HomeFurnitureGroupDataOuterClass.HomeFurnitureGroupData> furnitureGroupList_;
     /**
      * <code>repeated .HomeFurnitureGroupData furniture_group_list = 4;</code>
@@ -754,7 +754,7 @@ public final class HomeBlockArrangementInfoOuterClass {
       return deployAnimalList_.get(index);
     }
 
-    public static final int FIELD_LIST_FIELD_NUMBER = 11;
+    public static final int FIELD_LIST_FIELD_NUMBER = 15;
     private java.util.List<emu.grasscutter.net.proto.HomeBlockFieldDataOuterClass.HomeBlockFieldData> fieldList_;
     /**
      * <code>repeated .HomeBlockFieldData field_list = 11;</code>
@@ -885,7 +885,7 @@ public final class HomeBlockArrangementInfoOuterClass {
       return deployNpcList_.get(index);
     }
 
-    public static final int IS_UNLOCKED_FIELD_NUMBER = 6;
+    public static final int IS_UNLOCKED_FIELD_NUMBER = 3;
     private boolean isUnlocked_;
     /**
      * <code>bool is_unlocked = 6;</code>
@@ -960,10 +960,10 @@ public final class HomeBlockArrangementInfoOuterClass {
         output.writeMessage(3, weekendDjinnInfoList_.get(i));
       }
       for (int i = 0; i < furnitureGroupList_.size(); i++) {
-        output.writeMessage(4, furnitureGroupList_.get(i));
+        output.writeMessage(1, furnitureGroupList_.get(i));
       }
       if (isUnlocked_ != false) {
-        output.writeBool(6, isUnlocked_);
+        output.writeBool(3, isUnlocked_);
       }
       if (blockId_ != 0) {
         output.writeUInt32(8, blockId_);
@@ -975,7 +975,7 @@ public final class HomeBlockArrangementInfoOuterClass {
         output.writeMessage(10, persistentFurnitureList_.get(i));
       }
       for (int i = 0; i < fieldList_.size(); i++) {
-        output.writeMessage(11, fieldList_.get(i));
+        output.writeMessage(15, fieldList_.get(i));
       }
       for (int i = 0; i < deployFurniureList_.size(); i++) {
         output.writeMessage(12, deployFurniureList_.get(i));
@@ -984,7 +984,7 @@ public final class HomeBlockArrangementInfoOuterClass {
         output.writeUInt32(13, comfortValue_);
       }
       for (int i = 0; i < furnitureSuiteList_.size(); i++) {
-        output.writeMessage(14, furnitureSuiteList_.get(i));
+        output.writeMessage(9, furnitureSuiteList_.get(i));
       }
       for (int i = 0; i < deployAnimalList_.size(); i++) {
         output.writeMessage(15, deployAnimalList_.get(i));
@@ -1012,11 +1012,11 @@ public final class HomeBlockArrangementInfoOuterClass {
       }
       for (int i = 0; i < furnitureGroupList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, furnitureGroupList_.get(i));
+          .computeMessageSize(1, furnitureGroupList_.get(i));
       }
       if (isUnlocked_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, isUnlocked_);
+          .computeBoolSize(3, isUnlocked_);
       }
       if (blockId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -1032,7 +1032,7 @@ public final class HomeBlockArrangementInfoOuterClass {
       }
       for (int i = 0; i < fieldList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, fieldList_.get(i));
+          .computeMessageSize(15, fieldList_.get(i));
       }
       for (int i = 0; i < deployFurniureList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -1044,7 +1044,7 @@ public final class HomeBlockArrangementInfoOuterClass {
       }
       for (int i = 0; i < furnitureSuiteList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, furnitureSuiteList_.get(i));
+          .computeMessageSize(9, furnitureSuiteList_.get(i));
       }
       for (int i = 0; i < deployAnimalList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream

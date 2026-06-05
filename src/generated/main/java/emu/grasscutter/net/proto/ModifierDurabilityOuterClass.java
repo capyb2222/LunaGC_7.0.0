@@ -18,24 +18,8 @@ public final class ModifierDurabilityOuterClass {
       // @@protoc_insertion_point(interface_extends:ModifierDurability)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>float remaining_durability = 2;</code>
-     * @return The remainingDurability.
-     */
     float getRemainingDurability();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>float reduce_ratio = 1;</code>
-     * @return The reduceRatio.
-     */
     float getReduceRatio();
   }
   /**
@@ -127,14 +111,7 @@ public final class ModifierDurabilityOuterClass {
 
     public static final int REMAINING_DURABILITY_FIELD_NUMBER = 2;
     private float remainingDurability_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>float remaining_durability = 2;</code>
-     * @return The remainingDurability.
-     */
+
     @java.lang.Override
     public float getRemainingDurability() {
       return remainingDurability_;
@@ -142,14 +119,7 @@ public final class ModifierDurabilityOuterClass {
 
     public static final int REDUCE_RATIO_FIELD_NUMBER = 1;
     private float reduceRatio_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>float reduce_ratio = 1;</code>
-     * @return The reduceRatio.
-     */
+
     @java.lang.Override
     public float getReduceRatio() {
       return reduceRatio_;
@@ -479,86 +449,42 @@ public final class ModifierDurabilityOuterClass {
       }
 
       private float remainingDurability_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>float remaining_durability = 2;</code>
-       * @return The remainingDurability.
-       */
+
       @java.lang.Override
       public float getRemainingDurability() {
         return remainingDurability_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>float remaining_durability = 2;</code>
-       * @param value The remainingDurability to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setRemainingDurability(float value) {
-        
+
         remainingDurability_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>float remaining_durability = 2;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearRemainingDurability() {
-        
+
         remainingDurability_ = 0F;
         onChanged();
         return this;
       }
 
       private float reduceRatio_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>float reduce_ratio = 1;</code>
-       * @return The reduceRatio.
-       */
+
       @java.lang.Override
       public float getReduceRatio() {
         return reduceRatio_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>float reduce_ratio = 1;</code>
-       * @param value The reduceRatio to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setReduceRatio(float value) {
-        
+
         reduceRatio_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>float reduce_ratio = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearReduceRatio() {
-        
+
         reduceRatio_ = 0F;
         onChanged();
         return this;
@@ -574,7 +500,6 @@ public final class ModifierDurabilityOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:ModifierDurability)
     }
@@ -618,7 +543,7 @@ public final class ModifierDurabilityOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ModifierDurability_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ModifierDurability_fieldAccessorTable;
 

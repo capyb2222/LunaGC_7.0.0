@@ -18,61 +18,16 @@ public final class EvtAnimatorParameterInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:EvtAnimatorParameterInfo)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>.AnimatorParameterValueInfo value = 14;</code>
-     * @return Whether the value field is set.
-     */
     boolean hasValue();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>.AnimatorParameterValueInfo value = 14;</code>
-     * @return The value.
-     */
+
     emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo getValue();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>.AnimatorParameterValueInfo value = 14;</code>
-     */
+
     emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfoOrBuilder getValueOrBuilder();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 entity_id = 1;</code>
-     * @return The entityId.
-     */
     int getEntityId();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>int32 name_id = 6;</code>
-     * @return The nameId.
-     */
     int getNameId();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>bool is_server_cache = 9;</code>
-     * @return The isServerCache.
-     */
     boolean getIsServerCache();
   }
   /**
@@ -180,69 +135,35 @@ public final class EvtAnimatorParameterInfoOuterClass {
               emu.grasscutter.net.proto.EvtAnimatorParameterInfoOuterClass.EvtAnimatorParameterInfo.class, emu.grasscutter.net.proto.EvtAnimatorParameterInfoOuterClass.EvtAnimatorParameterInfo.Builder.class);
     }
 
-    public static final int VALUE_FIELD_NUMBER = 14;
+    public static final int VALUE_FIELD_NUMBER = 11;
     private emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo value_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>.AnimatorParameterValueInfo value = 14;</code>
-     * @return Whether the value field is set.
-     */
+
     @java.lang.Override
     public boolean hasValue() {
       return value_ != null;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>.AnimatorParameterValueInfo value = 14;</code>
-     * @return The value.
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo getValue() {
       return value_ == null ? emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo.getDefaultInstance() : value_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>.AnimatorParameterValueInfo value = 14;</code>
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfoOrBuilder getValueOrBuilder() {
       return getValue();
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 1;
+    public static final int ENTITY_ID_FIELD_NUMBER = 14;
     private int entityId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 entity_id = 1;</code>
-     * @return The entityId.
-     */
+
     @java.lang.Override
     public int getEntityId() {
       return entityId_;
     }
 
-    public static final int NAME_ID_FIELD_NUMBER = 6;
+    public static final int NAME_ID_FIELD_NUMBER = 3;
     private int nameId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>int32 name_id = 6;</code>
-     * @return The nameId.
-     */
+
     @java.lang.Override
     public int getNameId() {
       return nameId_;
@@ -250,14 +171,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
 
     public static final int IS_SERVER_CACHE_FIELD_NUMBER = 9;
     private boolean isServerCache_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>bool is_server_cache = 9;</code>
-     * @return The isServerCache.
-     */
+
     @java.lang.Override
     public boolean getIsServerCache() {
       return isServerCache_;
@@ -278,10 +192,10 @@ public final class EvtAnimatorParameterInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (entityId_ != 0) {
-        output.writeUInt32(1, entityId_);
+        output.writeUInt32(14, entityId_);
       }
       if (nameId_ != 0) {
-        output.writeInt32(6, nameId_);
+        output.writeInt32(3, nameId_);
       }
       if (isServerCache_ != false) {
         output.writeBool(9, isServerCache_);
@@ -300,11 +214,11 @@ public final class EvtAnimatorParameterInfoOuterClass {
       size = 0;
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, entityId_);
+          .computeUInt32Size(14, entityId_);
       }
       if (nameId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(6, nameId_);
+          .computeInt32Size(3, nameId_);
       }
       if (isServerCache_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -633,25 +547,11 @@ public final class EvtAnimatorParameterInfoOuterClass {
       private emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo value_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo, emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo.Builder, emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfoOrBuilder> valueBuilder_;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>.AnimatorParameterValueInfo value = 14;</code>
-       * @return Whether the value field is set.
-       */
+
       public boolean hasValue() {
         return valueBuilder_ != null || value_ != null;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>.AnimatorParameterValueInfo value = 14;</code>
-       * @return The value.
-       */
+
       public emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo getValue() {
         if (valueBuilder_ == null) {
           return value_ == null ? emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo.getDefaultInstance() : value_;
@@ -659,13 +559,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
           return valueBuilder_.getMessage();
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>.AnimatorParameterValueInfo value = 14;</code>
-       */
+
       public Builder setValue(emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo value) {
         if (valueBuilder_ == null) {
           if (value == null) {
@@ -679,13 +573,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>.AnimatorParameterValueInfo value = 14;</code>
-       */
+
       public Builder setValue(
           emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo.Builder builderForValue) {
         if (valueBuilder_ == null) {
@@ -697,13 +585,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>.AnimatorParameterValueInfo value = 14;</code>
-       */
+
       public Builder mergeValue(emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo value) {
         if (valueBuilder_ == null) {
           if (value_ != null) {
@@ -719,13 +601,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>.AnimatorParameterValueInfo value = 14;</code>
-       */
+
       public Builder clearValue() {
         if (valueBuilder_ == null) {
           value_ = null;
@@ -737,25 +613,13 @@ public final class EvtAnimatorParameterInfoOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>.AnimatorParameterValueInfo value = 14;</code>
-       */
+
       public emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo.Builder getValueBuilder() {
-        
+
         onChanged();
         return getValueFieldBuilder().getBuilder();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>.AnimatorParameterValueInfo value = 14;</code>
-       */
+
       public emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfoOrBuilder getValueOrBuilder() {
         if (valueBuilder_ != null) {
           return valueBuilder_.getMessageOrBuilder();
@@ -764,15 +628,9 @@ public final class EvtAnimatorParameterInfoOuterClass {
               emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo.getDefaultInstance() : value_;
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>.AnimatorParameterValueInfo value = 14;</code>
-       */
+
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo, emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo.Builder, emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfoOrBuilder> 
+          emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo, emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo.Builder, emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfoOrBuilder>
           getValueFieldBuilder() {
         if (valueBuilder_ == null) {
           valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -786,129 +644,63 @@ public final class EvtAnimatorParameterInfoOuterClass {
       }
 
       private int entityId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 entity_id = 1;</code>
-       * @return The entityId.
-       */
+
       @java.lang.Override
       public int getEntityId() {
         return entityId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 entity_id = 1;</code>
-       * @param value The entityId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 entity_id = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
       }
 
       private int nameId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>int32 name_id = 6;</code>
-       * @return The nameId.
-       */
+
       @java.lang.Override
       public int getNameId() {
         return nameId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>int32 name_id = 6;</code>
-       * @param value The nameId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setNameId(int value) {
-        
+
         nameId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>int32 name_id = 6;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearNameId() {
-        
+
         nameId_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isServerCache_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>bool is_server_cache = 9;</code>
-       * @return The isServerCache.
-       */
+
       @java.lang.Override
       public boolean getIsServerCache() {
         return isServerCache_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>bool is_server_cache = 9;</code>
-       * @param value The isServerCache to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setIsServerCache(boolean value) {
-        
+
         isServerCache_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>bool is_server_cache = 9;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearIsServerCache() {
-        
+
         isServerCache_ = false;
         onChanged();
         return this;
@@ -924,7 +716,6 @@ public final class EvtAnimatorParameterInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:EvtAnimatorParameterInfo)
     }
@@ -968,7 +759,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EvtAnimatorParameterInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EvtAnimatorParameterInfo_fieldAccessorTable;
 

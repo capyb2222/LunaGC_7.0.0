@@ -36,7 +36,7 @@ public final class TeamManager extends BasePlayerDataManager {
     @Transient @Getter private final IntSet teamResonances;
     @Transient @Getter private final IntSet teamResonancesConfig;
     @Transient @Getter @Setter private Set<String> teamAbilityEmbryos;
-    // This needs to be a LinkedHashMap to guarantee insertion order.
+
     @Getter private LinkedHashMap<Integer, TeamInfo> teams;
     private int currentTeamIndex;
     @Getter @Setter private int currentCharacterIndex;
@@ -44,14 +44,14 @@ public final class TeamManager extends BasePlayerDataManager {
     @Transient @Getter @Setter private EntityTeam entity;
 
     @Transient private int useTemporarilyTeamIndex = -1;
-    @Transient private List<TeamInfo> temporaryTeam; // Temporary Team for tower
+    @Transient private List<TeamInfo> temporaryTeam;
     @Transient @Getter @Setter private boolean usingTrialTeam;
     @Transient @Getter @Setter private TeamInfo trialAvatarTeam;
-    // hold trial avatars for later use in rebuilding active team
+
     @Transient @Getter @Setter private Map<Integer, Avatar> trialAvatars;
 
     @Transient @Getter @Setter
-    private int previousIndex = -1; // index of character selection in team before adding trial avatar
+    private int previousIndex = -1;
 
     public TeamManager() {
         this.mpTeam = new TeamInfo();
@@ -75,20 +75,17 @@ public final class TeamManager extends BasePlayerDataManager {
         }
     }
 
-    // Add team ability embryos, NOT to be confused with avatarAbilties.
-    // These should include the ones in LevelEntity (according to levelEntityConfig field in sceneId)
-    // rn only apply to big world defaults, but will fix scaramouch domain circles
-    // (BinOutput/LevelEntity/Level_Monster_Nada_setting)
     public AbilityControlBlockOuterClass.AbilityControlBlock getAbilityControlBlock() {
         AbilityControlBlockOuterClass.AbilityControlBlock.Builder abilityControlBlock =
             AbilityControlBlockOuterClass.AbilityControlBlock.newBuilder();
         int embryoId = 0;
 
-        // add from default
         if (Arrays.stream(GameConstants.DEFAULT_TEAM_ABILITY_STRINGS).count() > 0) {
+            boolean inNatlan = player.getScene() != null && player.getScene().getId() == 101;
             List<String> teamAbilties =
                 Arrays.stream(GameConstants.DEFAULT_TEAM_ABILITY_STRINGS).toList();
             for (String skill : teamAbilties) {
+                if ("DynamicAbility_Phlogiston".equals(skill) && !inNatlan) continue;
                 AbilityEmbryoOuterClass.AbilityEmbryo emb =
                     AbilityEmbryoOuterClass.AbilityEmbryo.newBuilder()
                         .setAbilityId(++embryoId)
@@ -99,7 +96,6 @@ public final class TeamManager extends BasePlayerDataManager {
             }
         }
 
-        // same as avatar ability hash (add frm levelEntityConfig data)
         var scene = player.getScene();
         if (scene != null) {
             String configName = scene.getSceneData().getLevelEntityConfig();
@@ -124,7 +120,6 @@ public final class TeamManager extends BasePlayerDataManager {
             }
         }
 
-        // return block to add
         return abilityControlBlock.build();
     }
 
@@ -132,10 +127,6 @@ public final class TeamManager extends BasePlayerDataManager {
         return this.getPlayer().getWorld();
     }
 
-    /**
-     * Search through all teams and if the team matches, return that index. Otherwise, return -1. No
-     * match could mean that the team does not currently belong to the player.
-     */
     public int getTeamId(TeamInfo team) {
         for (int i = 1; i <= this.teams.size(); i++) {
             if (this.teams.get(i).equals(team)) {
@@ -146,7 +137,7 @@ public final class TeamManager extends BasePlayerDataManager {
     }
 
     public int getCurrentTeamId() {
-        // Starts from 1
+
         return currentTeamIndex;
     }
 
@@ -157,7 +148,7 @@ public final class TeamManager extends BasePlayerDataManager {
     public long getCurrentCharacterGuid() {
         var currentAvatarEntity = this.getCurrentAvatarEntity();
         if (currentAvatarEntity == null){
-            // 使用主角作为出场角色
+
             Avatar mainCharacter = new Avatar(this.getPlayer().getMainCharacterId());
             return mainCharacter.getGuid();
         }
@@ -183,16 +174,9 @@ public final class TeamManager extends BasePlayerDataManager {
         return avatars;
     }
 
-    /**
-     * Returns the active team. If there are errors with the team, they can be fixed.
-     *
-     * @param fix If true, the team will be fixed.
-     * @return The active team.
-     */
     public List<EntityAvatar> getActiveTeam(boolean fix) {
         if (!fix) return this.getActiveTeam();
 
-        // Remove duplicate avatars.
         var avatars = this.getActiveTeam();
         var avatarIds = new HashSet<Long>();
         for (var entityAvatar : new ArrayList<>(avatars)) {
@@ -203,13 +187,13 @@ public final class TeamManager extends BasePlayerDataManager {
             }
         }
 
-        return avatars; // Return the fixed team.
+        return avatars;
     }
 
     public EntityAvatar getCurrentAvatarEntity() {
-        // Check if any avatars are equipped.
+
         if (this.getActiveTeam().isEmpty()) {
-            // 使用主角作为出场角色
+
             this.currentCharacterIndex = 0;
             Avatar mainCharacter = new Avatar(this.player.getMainCharacterId());
             this.avatars.add(mainCharacter.getAsEntity());
@@ -217,7 +201,7 @@ public final class TeamManager extends BasePlayerDataManager {
         }
 
         if (this.currentCharacterIndex >= this.getActiveTeam().size()) {
-            this.currentCharacterIndex = 0; // Reset to the first character.
+            this.currentCharacterIndex = 0;
         }
 
         EntityAvatar currentCharacter;
@@ -225,7 +209,7 @@ public final class TeamManager extends BasePlayerDataManager {
         try {
             currentCharacter = this.getActiveTeam().get(this.currentCharacterIndex);
         } catch (Exception e) {
-            currentCharacter = this.getActiveTeam().getFirst();
+            currentCharacter = this.getActiveTeam().get(0);
         }
 
         return currentCharacter;
@@ -251,22 +235,14 @@ public final class TeamManager extends BasePlayerDataManager {
         return GAME_OPTIONS.avatarLimits.singlePlayerTeam;
     }
 
-    // Methods
-
-    /** Returns true if there is space to add the number of avatars to the team. */
     public boolean canAddAvatarsToTeam(TeamInfo team, int avatars) {
         return team.size() + avatars <= this.getMaxTeamSize();
     }
 
-    /** Returns true if there is space to add to the team. */
     public boolean canAddAvatarToTeam(TeamInfo team) {
         return this.canAddAvatarsToTeam(team, 1);
     }
 
-    /**
-     * Returns true if there is space to add the number of avatars to the current team. If the current
-     * team is temporary, returns false.
-     */
     public boolean canAddAvatarsToCurrentTeam(int avatars) {
         if (this.useTemporarilyTeamIndex != -1) {
             return false;
@@ -274,40 +250,29 @@ public final class TeamManager extends BasePlayerDataManager {
         return this.canAddAvatarsToTeam(this.getCurrentTeamInfo(), avatars);
     }
 
-    /**
-     * Returns true if there is space to add to the current team. If the current team is temporary,
-     * returns false.
-     */
     public boolean canAddAvatarToCurrentTeam() {
         return this.canAddAvatarsToCurrentTeam(1);
     }
 
-    /**
-     * Try to add the collection of avatars to the team. Returns true if all were successfully added.
-     * If some can not be added, returns false and does not add any.
-     */
     public boolean addAvatarsToTeam(TeamInfo team, Collection<Avatar> avatars) {
         if (!this.canAddAvatarsToTeam(team, avatars.size())) {
             return false;
         }
 
-        // Convert avatars into a collection of avatar IDs, then add
         team.getAvatars().addAll(avatars.stream().map(a -> a.getAvatarId()).toList());
 
-        // Update team
         if (this.getPlayer().isInMultiplayer()) {
             if (team.equals(this.getMpTeam())) {
-                // MP team Packet
+
                 this.updateTeamEntities(new PacketChangeMpTeamAvatarRsp(this.getPlayer(), team));
             }
         } else {
-            // SP team update packet
+
             this.getPlayer().sendPacket(new PacketAvatarTeamUpdateNotify(this.getPlayer()));
 
             int teamId = this.getTeamId(team);
             if (teamId != -1) {
-                // This is one of the player's teams
-                // Update entites
+
                 if (teamId == this.getCurrentTeamId()) {
                     this.updateTeamEntities(new PacketSetUpAvatarTeamRsp(this.getPlayer(), teamId, team));
                 } else {
@@ -319,16 +284,10 @@ public final class TeamManager extends BasePlayerDataManager {
         return true;
     }
 
-    /** Try to add an avatar to a team. Returns true if successful. */
     public boolean addAvatarToTeam(TeamInfo team, Avatar avatar) {
         return this.addAvatarsToTeam(team, Collections.singleton(avatar));
     }
 
-    /**
-     * Try to add the collection of avatars to the current team. Will not modify a temporary team.
-     * Returns true if all were successfully added. If some can not be added, returns false and does
-     * not add any.
-     */
     public boolean addAvatarsToCurrentTeam(Collection<Avatar> avatars) {
         if (this.useTemporarilyTeamIndex != -1) {
             return false;
@@ -336,10 +295,6 @@ public final class TeamManager extends BasePlayerDataManager {
         return this.addAvatarsToTeam(this.getCurrentTeamInfo(), avatars);
     }
 
-    /**
-     * Try to add an avatar to the current team. Will not modify a temporary team. Returns true if
-     * successful.
-     */
     public boolean addAvatarToCurrentTeam(Avatar avatar) {
         return this.addAvatarsToCurrentTeam(Collections.singleton(avatar));
     }
@@ -347,13 +302,9 @@ public final class TeamManager extends BasePlayerDataManager {
     private void updateTeamResonances() {
         this.getTeamResonances().clear();
         this.getTeamResonancesConfig().clear();
-        // Official resonances require a full party
+
         if (this.avatars.size() < 4) return;
 
-        // TODO: make this actually read from TeamResonanceExcelConfigData.json for the real resonances
-        // and conditions
-        // Currently we just hardcode these conditions, but this won't work for modded resources or
-        // future changes
         var elementCounts = new Object2IntOpenHashMap<ElementType>();
         this.getActiveTeam().stream()
             .map(EntityAvatar::getAvatar)
@@ -364,7 +315,6 @@ public final class TeamManager extends BasePlayerDataManager {
             .filter(Objects::nonNull)
             .forEach(elementType -> elementCounts.addTo(elementType, 1));
 
-        // Dual element resonances
         elementCounts.object2IntEntrySet().stream()
             .filter(e -> e.getIntValue() >= 2)
             .map(e -> e.getKey())
@@ -375,34 +325,43 @@ public final class TeamManager extends BasePlayerDataManager {
                     this.teamResonancesConfig.add(elementType.getConfigHash());
                 });
 
-        // Four element resonance
         if (elementCounts.size() >= 4) {
             this.teamResonances.add(ElementType.Default.getTeamResonanceId());
             this.teamResonancesConfig.add(ElementType.Default.getConfigHash());
         }
     }
 
-    /** Updates all properties of the active team. */
     public void updateTeamProperties() {
-        this.updateTeamResonances(); // Update team resonances.
+        this.updateTeamResonances();
         this.getWorld()
             .broadcastPacket(
                 new PacketSceneTeamUpdateNotify(
-                    this.getPlayer())); // Notify the all players in the world.
+                    this.getPlayer()));
 
-        // Skill charges packet - Yes, this is official server behavior as of 2.6.0
         this.getActiveTeam().stream()
             .map(EntityAvatar::getAvatar)
             .forEach(Avatar::sendSkillExtraChargeMap);
+
+        long moonPhaseCount = this.getActiveTeam().stream()
+            .filter(e -> PacketPlayerEnterSceneInfoNotify.MOONPHASE_IDS.contains(e.getAvatar().getAvatarId()))
+            .count();
+        this.getPlayer().sendPacket(new PacketServerGlobalValueChangeNotify(
+            this.getEntity().getId(), "SGV_MoonPhaseLevel", (float) moonPhaseCount));
+
+        if (moonPhaseCount > 0) {
+            this.getPlayer().sendPacket(new PacketServerGlobalValueChangeNotify(
+                this.getEntity().getId(), "MoonOvergrowPoint_All", 100f));
+        }
+
+        this.getPlayer().sendPacket(new PacketTeamMoonPhaseChangeNotify((int) moonPhaseCount));
     }
 
     public void updateTeamEntities(BasePacket responsePacket) {
-        // Sanity check - Should never happen
+
         if (this.getCurrentTeamInfo().getAvatars().size() <= 0) {
             return;
         }
 
-        // If current team has changed
         var currentEntity = this.getCurrentAvatarEntity();
         var existingAvatars = new Int2ObjectOpenHashMap<EntityAvatar>();
         var prevSelectedAvatarIndex = -1;
@@ -411,10 +370,8 @@ public final class TeamManager extends BasePlayerDataManager {
             existingAvatars.put(entity.getAvatar().getAvatarId(), entity);
         }
 
-        // Clear active team entity list
         this.getActiveTeam().clear();
 
-        // Add back entities into team
         for (int i = 0; i < this.getCurrentTeamInfo().getAvatars().size(); i++) {
             var avatarId = (int) this.getCurrentTeamInfo().getAvatars().get(i);
             EntityAvatar entity;
@@ -436,32 +393,28 @@ public final class TeamManager extends BasePlayerDataManager {
             this.getActiveTeam().add(entity);
         }
 
-        // Unload removed entities
         for (var entity : existingAvatars.values()) {
+            if (entity == currentEntity) {
+                entity.getAvatar().save();
+                continue;
+            }
             this.getPlayer().getScene().removeEntity(entity);
             entity.getAvatar().save();
         }
 
-        // Set new selected character index
         if (prevSelectedAvatarIndex == -1) {
-            // Previous selected avatar is not in the same spot, we will select the current one in the
-            // prev slot
+
             prevSelectedAvatarIndex =
                 Math.min(this.currentCharacterIndex, this.getActiveTeam().size() - 1);
         }
         this.currentCharacterIndex = prevSelectedAvatarIndex;
 
-        // Update properties.
-        // Notify player.
         this.updateTeamProperties();
 
-        // Send response packet.
         if (responsePacket != null) {
             this.getPlayer().sendPacket(responsePacket);
         }
 
-        // Ensure new selected character index is alive.
-        // If not, change to another alive one or revive.
         checkCurrentAvatarIsAlive(currentEntity);
     }
 
@@ -470,70 +423,62 @@ public final class TeamManager extends BasePlayerDataManager {
             currentEntity = this.getCurrentAvatarEntity();
         }
 
-        // Ensure currently selected character is still alive
         if (!this.getActiveTeam().get(this.currentCharacterIndex).isAlive()) {
-            // Character died in a dungeon challenge...
+
             int replaceIndex = getDeadAvatarReplacement();
             if (0 <= replaceIndex && replaceIndex < this.getActiveTeam().size()) {
                 this.currentCharacterIndex = replaceIndex;
             } else {
-                // Team wiped in dungeon...
-                // Revive and change to first avatar.
+
                 this.currentCharacterIndex = 0;
                 this.reviveAvatar(this.getCurrentAvatarEntity().getAvatar());
             }
         }
 
-        // Check if character changed
         var newAvatarEntity = this.getCurrentAvatarEntity();
         if (currentEntity != null && newAvatarEntity != null && currentEntity != newAvatarEntity) {
-            // Call PlayerSwitchAvatarEvent.
+
             var event =
                 new PlayerSwitchAvatarEvent(
                     this.getPlayer(), currentEntity.getAvatar(), newAvatarEntity.getAvatar());
             if (!event.call()) return;
 
-            // Remove and Add
             this.getPlayer().getScene().replaceEntity(currentEntity, newAvatarEntity);
         }
     }
 
     public synchronized void setupAvatarTeam(int teamId, List<Long> list) {
-        // Sanity checks
+
         if (list.isEmpty()
             || list.size() > this.getMaxTeamSize()
             || this.getPlayer().isInMultiplayer()) {
             return;
         }
 
-        // 可能是token问题导致的切换不了角色，待修复
         List<Integer> team = new ArrayList<>();
         team.add(teamId);
 
-        // Get team
         TeamInfo teamInfo = this.getTeams().get(team.size());
         if (teamInfo == null) {
             return;
         }
 
-        // Set team data
         LinkedHashSet<Avatar> newTeam = new LinkedHashSet<>();
         for (Long aLong : list) {
             Avatar avatar = this.getPlayer().getAvatars().getAvatarByGuid(aLong);
             if (avatar == null || newTeam.contains(avatar)) {
-                // Should never happen
+
                 return;
             }
             newTeam.add(avatar);
         }
 
-        // Clear current team info and add avatars from our new team
         teamInfo.getAvatars().clear();
         this.addAvatarsToTeam(teamInfo, newTeam);
     }
 
     public void setupMpTeam(List<Long> list) {
-        // Sanity checks
+
         if (list.size() == 0
             || list.size() > this.getMaxTeamSize()
             || !this.getPlayer().isInMultiplayer()) {
@@ -542,27 +487,20 @@ public final class TeamManager extends BasePlayerDataManager {
 
         TeamInfo teamInfo = this.getMpTeam();
 
-        // Set team data
         LinkedHashSet<Avatar> newTeam = new LinkedHashSet<>();
         for (Long aLong : list) {
             Avatar avatar = this.getPlayer().getAvatars().getAvatarByGuid(aLong);
             if (avatar == null || newTeam.contains(avatar)) {
-                // Should never happen
+
                 return;
             }
             newTeam.add(avatar);
         }
 
-        // Clear current team info and add avatars from our new team
         teamInfo.getAvatars().clear();
         this.addAvatarsToTeam(teamInfo, newTeam);
     }
 
-    /**
-     * Setup avatars for a trial avatar team.
-     *
-     * @param save Should the original team be saved?
-     */
     public void setupTrialAvatars(boolean save) {
         this.setPreviousIndex(this.getCurrentCharacterIndex());
 
@@ -574,11 +512,6 @@ public final class TeamManager extends BasePlayerDataManager {
         this.usingTrialTeam = true;
     }
 
-    /**
-     * Displays the trial avatars.
-     *
-     * @param newCharacterIndex The avatar to equip.
-     */
     public void trialAvatarTeamPostUpdate(int newCharacterIndex) {
         this.setCurrentCharacterIndex(Math.min(newCharacterIndex, this.getActiveTeam().size() - 1));
 
@@ -587,23 +520,18 @@ public final class TeamManager extends BasePlayerDataManager {
             this.getPlayer().getScene().addEntity(this.getCurrentAvatarEntity());
     }
 
-    /**
-     * Adds an avatar to the trial team.
-     *
-     * @param trialAvatar The avatar to add.
-     */
     public void addAvatarToTrialTeam(Avatar trialAvatar) {
-        // Remove the existing team's avatars.
+
         this.getActiveTeam()
             .forEach(
                 x ->
                     this.getPlayer()
                         .getScene()
                         .removeEntity(x, VisionTypeOuterClass.VisionType.VisionType_VISION_REMOVE));
-        // Remove the existing avatar from the teams if it exists.
+
         this.getActiveTeam().removeIf(x -> x.getAvatar().getAvatarId() == trialAvatar.getAvatarId());
         this.getCurrentTeamInfo().getAvatars().removeIf(x -> x == trialAvatar.getAvatarId());
-        // Add the avatar to the teams.
+
         this.getActiveTeam()
             .add(
                 EntityCreationEvent.call(
@@ -614,12 +542,6 @@ public final class TeamManager extends BasePlayerDataManager {
         this.getTrialAvatars().put(trialAvatar.getAvatarId(), trialAvatar);
     }
 
-    /**
-     * Get the GUID of a trial avatar.
-     *
-     * @param trialAvatarId The avatar ID.
-     * @return The GUID of the avatar.
-     */
     public long getTrialAvatarGuid(int trialAvatarId) {
         return this.getTrialAvatars().values().stream()
             .filter(avatar -> avatar.getTrialAvatarId() == trialAvatarId)
@@ -628,49 +550,34 @@ public final class TeamManager extends BasePlayerDataManager {
             .orElse(0L);
     }
 
-    /** Rollback changes from using a trial avatar team. */
     public void unsetTrialAvatarTeam() {
-        // Get the previous index.
+
         var index = this.getPreviousIndex();
         if (index < 0) index = 0;
 
-        // Remove the trial avatars.
         this.trialAvatarTeamPostUpdate(index);
-        // Reset the index.
+
         this.setPreviousIndex(-1);
     }
 
-    /** Removes all avatars from the trial avatar team. */
     public void removeTrialAvatarTeam() {
         this.removeTrialAvatarTeam(
             this.getActiveTeam().stream().map(avatar -> avatar.getAvatar().getAvatarId()).toList());
     }
 
-    /**
-     * Removes one avatar from the trial avatar team.
-     *
-     * @param avatarId The avatar ID to remove.
-     */
     public void removeTrialAvatarTeam(int avatarId) {
         this.removeTrialAvatarTeam(List.of(avatarId));
     }
 
-    /**
-     * Removes a collection of avatars from the trial avatar team.
-     *
-     * @param trialAvatarIds The avatar IDs to remove.
-     */
     public void removeTrialAvatarTeam(List<Integer> trialAvatarIds) {
         var isTeam = trialAvatarIds.size() == this.getActiveTeam().size();
 
         var player = this.getPlayer();
         var scene = player.getScene();
 
-        // Disable the trial team.
         this.usingTrialTeam = false;
         this.trialAvatarTeam = new TeamInfo();
 
-        // Remove the avatars from the team.
         this.getActiveTeam()
             .forEach(
                 avatarEntity ->
@@ -688,9 +595,8 @@ public final class TeamManager extends BasePlayerDataManager {
                 });
         }
 
-        // Re-add the avatars to the team.
         if (isTeam) {
-            // Restores all avatars from the player's avatar storage.
+
             this.getCurrentTeamInfo()
                 .getAvatars()
                 .forEach(
@@ -702,8 +608,7 @@ public final class TeamManager extends BasePlayerDataManager {
                                     new Class<?>[] {Scene.class, Avatar.class},
                                     new Object[] {scene, player.getAvatars().getAvatarById(avatarId)})));
         } else {
-            // Restores all avatars from the player's avatar storage.
-            // If the avatar is already in the team, it will not be added.
+
             var avatars = this.getCurrentTeamInfo().getAvatars();
             for (var index = 0; index < avatars.size() - 1; index++) {
                 var avatar = avatars.get(index);
@@ -712,7 +617,6 @@ public final class TeamManager extends BasePlayerDataManager {
                     .toList()
                     .contains(avatar)) continue;
 
-                // Check if the player owns the avatar.
                 var avatarData = player.getAvatars().getAvatarById(avatar);
                 if (avatarData == null) continue;
 
@@ -734,23 +638,21 @@ public final class TeamManager extends BasePlayerDataManager {
             guidList.stream()
                 .map(
                     list -> {
-                        // Sanity checks
+
                         if (list.size() == 0 || list.size() > this.getMaxTeamSize()) {
                             return null;
                         }
 
-                        // Set team data
                         LinkedHashSet<Avatar> newTeam = new LinkedHashSet<>();
                         for (Long aLong : list) {
                             Avatar avatar = this.getPlayer().getAvatars().getAvatarByGuid(aLong);
                             if (avatar == null || newTeam.contains(avatar)) {
-                                // Should never happen
+
                                 return null;
                             }
                             newTeam.add(avatar);
                         }
 
-                        // convert to avatar ids
                         return newTeam.stream().map(Avatar::getAvatarId).toList();
                     })
                 .filter(Objects::nonNull)
@@ -764,7 +666,7 @@ public final class TeamManager extends BasePlayerDataManager {
     }
 
     public boolean cleanTemporaryTeam() {
-        // check if using temporary team
+
         if (useTemporarilyTeamIndex < 0) {
             return false;
         }
@@ -776,24 +678,22 @@ public final class TeamManager extends BasePlayerDataManager {
     }
 
     public synchronized void setCurrentTeam(int teamId) {
-        //
+
         if (this.getPlayer().isInMultiplayer()) {
             return;
         }
 
-        // Get team
         TeamInfo teamInfo = this.getTeams().get(teamId);
         if (teamInfo == null || teamInfo.getAvatars().size() == 0) {
             return;
         }
 
-        // Set
         this.setCurrentTeamId(teamId);
         this.updateTeamEntities(new PacketChooseCurAvatarTeamRsp(teamId));
     }
 
     public synchronized void setTeamName(int teamId, String teamName) {
-        // Get team
+
         TeamInfo teamInfo = this.getTeams().get(teamId);
         if (teamInfo == null) {
             return;
@@ -801,15 +701,9 @@ public final class TeamManager extends BasePlayerDataManager {
 
         teamInfo.setName(teamName);
 
-        // Packet
         this.getPlayer().sendPacket(new PacketChangeTeamNameRsp(teamId, teamName));
     }
 
-    /**
-     * Swaps the current avatar in the scene.
-     *
-     * @param guid The GUID of the avatar to swap to.
-     */
     public synchronized void changeAvatar(long guid) {
         EntityAvatar oldEntity = this.getCurrentAvatarEntity();
         if (oldEntity == null || guid == oldEntity.getAvatar().getGuid()) {
@@ -829,28 +723,20 @@ public final class TeamManager extends BasePlayerDataManager {
             return;
         }
 
-        // Call PlayerSwitchAvatarEvent.
         var event =
             new PlayerSwitchAvatarEvent(this.getPlayer(), oldEntity.getAvatar(), newEntity.getAvatar());
         if (!event.call()) return;
 
         newEntity = event.getNewAvatarEntity();
 
-        // Set index
         this.setCurrentCharacterIndex(index);
 
-        // Old entity motion state
         oldEntity.setMotionState(MotionState.MotionState_MOTION_STANDBY);
 
-        // Remove and Add
         this.getPlayer().getScene().replaceEntity(oldEntity, newEntity);
         this.getPlayer().sendPacket(new PacketChangeAvatarRsp(guid));
     }
 
-    /**
-     * Applies 10% of the avatar's max HP as damage. This occurs when the avatar is killed by the
-     * void.
-     */
     public void applyVoidDamage() {
         this.getActiveTeam()
             .forEach(
@@ -868,22 +754,19 @@ public final class TeamManager extends BasePlayerDataManager {
         int killedBy = deadAvatar.getKilledBy();
 
         if (dieType == PlayerDieType.PlayerDieType_PLAYER_DIE_DRAWN) {
-            // Died in water. Do not replace
-            // The official server has skipped this notify and will just respawn the team immediately
-            // after the animation.
-            // TODO: Perhaps find a way to get vanilla experience?
+
             this.getPlayer().sendPacket(new PacketWorldPlayerDieNotify(dieType, killedBy));
         } else {
-            // Find replacement avatar
+
             int replaceIndex = getDeadAvatarReplacement();
             if (0 <= replaceIndex && replaceIndex < this.getActiveTeam().size()) {
-                // Set index and spawn replacement member
+
                 this.setCurrentCharacterIndex(replaceIndex);
                 this.getPlayer().getScene().addEntity(this.getActiveTeam().get(replaceIndex));
             } else {
-                // No more living team members...
+
                 this.getPlayer().sendPacket(new PacketWorldPlayerDieNotify(dieType, killedBy));
-                // Invoke player team death event.
+
                 PlayerTeamDeathEvent event =
                     new PlayerTeamDeathEvent(
                         this.getPlayer(), this.getActiveTeam().get(this.getCurrentCharacterIndex()));
@@ -891,7 +774,6 @@ public final class TeamManager extends BasePlayerDataManager {
             }
         }
 
-        // Response packet
         this.getPlayer().sendPacket(new PacketAvatarDieAnimationEndRsp(deadAvatar.getId(), 0));
     }
 
@@ -917,7 +799,7 @@ public final class TeamManager extends BasePlayerDataManager {
                 }
 
                 entity.setFightProperty(FightProperty.FIGHT_PROP_CUR_HP, 1f);
-                // Satiation is reset when reviving an avatar
+
                 player.getSatiationManager().removeSatiationDirectly(entity.getAvatar(), 15000);
                 this.getPlayer()
                     .sendPacket(
@@ -960,18 +842,11 @@ public final class TeamManager extends BasePlayerDataManager {
     }
 
     public void respawnTeam() {
-        // Make sure all team members are dead
-        // Drowning needs revive when there may be other team members still alive.
-        //  for (EntityAvatar entity : getActiveTeam()) {
-        //      if (entity.isAlive()) {
-        //		     return;
-        //		}
-        //	}
+
         this.getPlayer()
             .getStaminaManager()
-            .stopSustainedStaminaHandler(); // prevent drowning immediately after respawn
+            .stopSustainedStaminaHandler();
 
-        // Revive all team members
         for (EntityAvatar entity : this.getActiveTeam()) {
             entity.setFightProperty(
                 FightProperty.FIGHT_PROP_CUR_HP,
@@ -984,7 +859,6 @@ public final class TeamManager extends BasePlayerDataManager {
             this.getPlayer().sendPacket(new PacketAvatarLifeStateChangeNotify(entity.getAvatar()));
         }
 
-        // Teleport player and set player position
         try {
             this.getPlayer()
                 .sendPacket(
@@ -994,6 +868,7 @@ public final class TeamManager extends BasePlayerDataManager {
                         EnterReason.Revival,
                         this.getPlayer().getSceneId(),
                         this.getRespawnPosition()));
+            this.getPlayer().sendPacket(new PacketEnterScenePeerNotify(this.getPlayer()));
             this.getPlayer().getPosition().set(this.getRespawnPosition());
         } catch (Exception ignored) {
             this.getPlayer()
@@ -1004,12 +879,12 @@ public final class TeamManager extends BasePlayerDataManager {
                         EnterReason.Revival,
                         3,
                         GameConstants.START_POSITION));
+            this.getPlayer().sendPacket(new PacketEnterScenePeerNotify(this.getPlayer()));
             this.getPlayer()
                 .getPosition()
-                .set(GameConstants.START_POSITION); // If something goes wrong, the resurrection is here
+                .set(GameConstants.START_POSITION);
         }
 
-        // Packets
         this.getPlayer().sendPacket(new BasePacket(PacketOpcodes.WorldPlayerReviveRsp));
     }
 
@@ -1017,7 +892,6 @@ public final class TeamManager extends BasePlayerDataManager {
         var deathPos = this.getPlayer().getPosition();
         int sceneId = this.getPlayer().getSceneId();
 
-        // Get the closest trans point to where the player died.
         var respawnPoint =
             this.getPlayer().getUnlockedScenePoints(sceneId).stream()
                 .map(pointId -> GameData.getScenePointEntryById(sceneId, pointId))
@@ -1029,29 +903,24 @@ public final class TeamManager extends BasePlayerDataManager {
         return respawnPoint.get().getPointData().getTranPos();
     }
 
-
-    /**
-     * Performs a bulk save operation on all avatars.
-     */
     public void saveAvatars() {
-        // Save all avatars from active team
+
         for (EntityAvatar entity : this.getActiveTeam()) {
             entity.getAvatar().save();
         }
     }
 
-    public void onPlayerLogin() { // Hack for now to fix resonances on login
+    public void onPlayerLogin() {
         this.updateTeamResonances();
     }
 
     public synchronized void addNewCustomTeam() {
-        // Sanity check - max number of teams.
+
         if (this.teams.size() == GameConstants.MAX_TEAMS) {
             player.sendPacket(new PacketAddBackupAvatarTeamRsp(Retcode.RET_FAIL));
             return;
         }
 
-        // The id of the new custom team is the lowest id in [5,MAX_TEAMS] that is not yet taken.
         int id = -1;
         for (int i = 5; i <= GameConstants.MAX_TEAMS; i++) {
             if (!this.teams.containsKey(i)) {
@@ -1060,33 +929,24 @@ public final class TeamManager extends BasePlayerDataManager {
             }
         }
 
-        // Create the new team.
         this.teams.put(id, new TeamInfo());
 
-        // Send packets.
         player.sendPacket(new PacketAvatarTeamAllDataNotify(player));
         player.sendPacket(new PacketAddBackupAvatarTeamRsp());
     }
 
     public synchronized void removeCustomTeam(int id) {
-        // Check if the target id exists.
+
         if (!this.teams.containsKey(id)) {
             player.sendPacket(new PacketDelBackupAvatarTeamRsp(Retcode.RET_FAIL, id));
         }
 
-        // Remove team.
         this.teams.remove(id);
 
-        // Send packets.
         player.sendPacket(new PacketAvatarTeamAllDataNotify(player));
         player.sendPacket(new PacketDelBackupAvatarTeamRsp(id));
     }
 
-    /**
-     * Applies abilities for the currently selected team. These abilities are sourced from the scene.
-     *
-     * @param scene The scene with the abilities to apply.
-     */
     public void applyAbilities(Scene scene) {
         try {
             var levelEntityConfig = scene.getSceneData().getLevelEntityConfig();
@@ -1098,7 +958,7 @@ public final class TeamManager extends BasePlayerDataManager {
             var specifiedAvatarList = this.getActiveTeam();
 
             if (avatarIds != null && avatarIds.size() > 0) {
-                // certain scene could limit specific avatars' entry
+
                 specifiedAvatarList.clear();
                 for (int id : avatarIds) {
                     var avatar = avatars.getAvatarById(id);
@@ -1118,10 +978,10 @@ public final class TeamManager extends BasePlayerDataManager {
                     continue;
                 }
 
-                avatarData.buildEmbryo(); // Create avatar abilities.
+                avatarData.buildEmbryo();
                 if (config.getAvatarAbilities() == null) {
-                    continue; // continue and not break because has to rebuild ability for the next avatar if
-                    // any
+                    continue;
+
                 }
 
                 for (var abilities : config.getAvatarAbilities()) {
@@ -1137,12 +997,12 @@ public final class TeamManager extends BasePlayerDataManager {
 
     public List<Integer> getTrialAvatarParam(int trialAvatarId) {
         if (GameData.getTrialAvatarCustomData()
-            .isEmpty()) { // use default data if custom data not available
+            .isEmpty()) {
             if (GameData.getTrialAvatarDataMap().get(trialAvatarId) == null) return List.of();
 
             return GameData.getTrialAvatarDataMap().get(trialAvatarId).getTrialAvatarParamList();
         }
-        // use custom data
+
         if (GameData.getTrialAvatarCustomData().get(trialAvatarId) == null) return List.of();
 
         val trialCustomParams =
@@ -1152,14 +1012,6 @@ public final class TeamManager extends BasePlayerDataManager {
             : Stream.of(trialCustomParams.get(0).split(";")).map(Integer::parseInt).toList();
     }
 
-    /**
-     * Adds a trial avatar to the player's team.
-     *
-     * @param avatarId The ID of the avatar.
-     * @param questMainId The quest ID associated with the quest.
-     * @param reason The reason for granting the avatar.
-     * @return True if the avatar was added, false otherwise.
-     */
     public boolean addTrialAvatar(int avatarId, int questMainId, GrantReason reason) {
         List<Integer> trialAvatarBasicParam = getTrialAvatarParam(avatarId);
         if (trialAvatarBasicParam.isEmpty()) return false;
@@ -1168,62 +1020,35 @@ public final class TeamManager extends BasePlayerDataManager {
         if (avatar.getAvatarData() == null || !this.getPlayer().hasSentLoginPackets()) return false;
 
         avatar.setOwner(this.getPlayer());
-        // Add trial weapons and relics.
+
         avatar.setTrialAvatarInfo(trialAvatarBasicParam.get(1), avatarId, reason, questMainId);
         avatar.equipTrialItems();
-        // Re-calculate stats
+
         avatar.recalcStats();
 
-        // Packet, mimic official server behaviour, add to player's bag but not saving to database.
         this.getPlayer().sendPacket(new PacketAvatarAddNotify(avatar, false));
-        // Add to avatar to the temporary trial team.
+
         this.addAvatarToTrialTeam(avatar);
         return true;
     }
 
-    /**
-     * Adds a trial avatar to the player's team.
-     *
-     * @param avatarId The ID of the avatar.
-     * @param questMainId The quest ID associated with the quest.
-     */
     public void addTrialAvatar(int avatarId, int questMainId) {
         this.addTrialAvatars(List.of(avatarId), questMainId, true);
 
-        // Packet, mimic official server behaviour, necessary to stop player from modifying team.
         this.getPlayer().sendPacket(new PacketAvatarTeamUpdateNotify(this.getPlayer()));
     }
 
-    /**
-     * Adds a collection of trial avatars to the player's team.
-     *
-     * @param avatarIds List of trial avatar IDs.
-     */
     public void addTrialAvatars(List<Integer> avatarIds) {
         this.addTrialAvatars(avatarIds, 0, false);
     }
 
-    /**
-     * Adds a collection of trial avatars to the player's team.
-     *
-     * @param avatarIds List of trial avatar IDs.
-     * @param save Whether to retain the currently equipped avatars.
-     */
     public void addTrialAvatars(List<Integer> avatarIds, boolean save) {
         this.addTrialAvatars(avatarIds, 0, save);
     }
 
-    /**
-     * Adds a list of trial avatars to the player's team.
-     *
-     * @param trialAvatarIds List of trial avatar IDs.
-     * @param questId The ID of the quest this trial team is associated with.
-     * @param save Whether to retain the currently equipped avatars.
-     */
     public void addTrialAvatars(List<Integer> trialAvatarIds, int questId, boolean save) {
-        this.setupTrialAvatars(save); // Perform initial setup.
+        this.setupTrialAvatars(save);
 
-        // Add the avatars to the team.
         trialAvatarIds.forEach(
             trialAvatarId -> {
                 var result =
@@ -1237,11 +1062,9 @@ public final class TeamManager extends BasePlayerDataManager {
                 if (!result) throw new RuntimeException("Unable to add trial avatar to team.");
             });
 
-        // Update the team.
         this.trialAvatarTeamPostUpdate(questId != 0 ? this.getActiveTeam().size() - 1 : 0);
     }
 
-    /** Removes all trial avatars from the player's team. */
     public void removeTrialAvatar() {
         this.removeTrialAvatar(
             this.getActiveTeam().stream()
@@ -1250,23 +1073,12 @@ public final class TeamManager extends BasePlayerDataManager {
                 .toList());
     }
 
-    /**
-     * Removes a trial avatar from the player's team. Additionally, unlocks the ability to change the
-     * team configuration.
-     *
-     * @param trialAvatarId The ID of the avatar.
-     */
     public void removeTrialAvatar(int trialAvatarId) {
         this.removeTrialAvatar(List.of(trialAvatarId));
     }
 
-    /**
-     * Removes a collection of trial avatars from the player's team.
-     *
-     * @param trialAvatarIds List of trial avatar IDs.
-     */
     public void removeTrialAvatar(List<Integer> trialAvatarIds) {
-        // Check if the player is using a trial team.
+
         if (!this.isUsingTrialTeam()) return;
 
         this.getPlayer()
@@ -1275,7 +1087,6 @@ public final class TeamManager extends BasePlayerDataManager {
                     trialAvatarIds.stream().map(this::getTrialAvatarGuid).toList()));
         this.removeTrialAvatarTeam(trialAvatarIds);
 
-        // Update the team.
         if (trialAvatarIds.size() == 1) this.getPlayer().sendPacket(new PacketAvatarTeamUpdateNotify());
     }
 }

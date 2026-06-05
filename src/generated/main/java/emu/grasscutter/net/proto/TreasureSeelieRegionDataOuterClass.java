@@ -259,7 +259,7 @@ public final class TreasureSeelieRegionDataOuterClass {
       return regionRadius_;
     }
 
-    public static final int IS_DONE_FIELD_NUMBER = 6;
+    public static final int IS_DONE_FIELD_NUMBER = 2;
     private boolean isDone_;
     /**
      * <code>bool is_done = 6;</code>
@@ -270,7 +270,7 @@ public final class TreasureSeelieRegionDataOuterClass {
       return isDone_;
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 8;
+    public static final int SCENE_ID_FIELD_NUMBER = 10;
     private int sceneId_;
     /**
      * <code>uint32 scene_id = 8;</code>
@@ -292,7 +292,7 @@ public final class TreasureSeelieRegionDataOuterClass {
       return gLJJLGABDLD_;
     }
 
-    public static final int REGION_CENTER_POS_FIELD_NUMBER = 3;
+    public static final int REGION_CENTER_POS_FIELD_NUMBER = 5;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector regionCenterPos_;
     /**
      * <code>.Vector region_center_pos = 3;</code>
@@ -318,7 +318,7 @@ public final class TreasureSeelieRegionDataOuterClass {
       return getRegionCenterPos();
     }
 
-    public static final int OPEN_TIME_FIELD_NUMBER = 5;
+    public static final int OPEN_TIME_FIELD_NUMBER = 1;
     private int openTime_;
     /**
      * <code>uint32 open_time = 5;</code>
@@ -329,7 +329,7 @@ public final class TreasureSeelieRegionDataOuterClass {
       return openTime_;
     }
 
-    public static final int REGION_ID_FIELD_NUMBER = 1;
+    public static final int REGION_ID_FIELD_NUMBER = 13;
     private int regionId_;
     /**
      * <code>uint32 region_id = 1;</code>
@@ -366,7 +366,7 @@ public final class TreasureSeelieRegionDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (regionId_ != 0) {
-        output.writeUInt32(1, regionId_);
+        output.writeUInt32(13, regionId_);
       }
       if (regionCenterPos_ != null) {
         output.writeMessage(3, getRegionCenterPos());
@@ -375,13 +375,13 @@ public final class TreasureSeelieRegionDataOuterClass {
         output.writeUInt32(4, jGGFJJFHMBA_);
       }
       if (openTime_ != 0) {
-        output.writeUInt32(5, openTime_);
+        output.writeUInt32(1, openTime_);
       }
       if (isDone_ != false) {
-        output.writeBool(6, isDone_);
+        output.writeBool(2, isDone_);
       }
       if (sceneId_ != 0) {
-        output.writeUInt32(8, sceneId_);
+        output.writeUInt32(10, sceneId_);
       }
       if (gLJJLGABDLD_ != 0) {
         output.writeUInt32(11, gLJJLGABDLD_);
@@ -406,7 +406,7 @@ public final class TreasureSeelieRegionDataOuterClass {
       size = 0;
       if (regionId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, regionId_);
+          .computeUInt32Size(13, regionId_);
       }
       if (regionCenterPos_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -418,15 +418,15 @@ public final class TreasureSeelieRegionDataOuterClass {
       }
       if (openTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, openTime_);
+          .computeUInt32Size(1, openTime_);
       }
       if (isDone_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, isDone_);
+          .computeBoolSize(2, isDone_);
       }
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, sceneId_);
+          .computeUInt32Size(10, sceneId_);
       }
       if (gLJJLGABDLD_ != 0) {
         size += com.google.protobuf.CodedOutputStream

@@ -48,44 +48,12 @@ public final class CurVehicleInfoOuterClass {
      */
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getEnterRotOrBuilder();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 entity_id = 1;</code>
-     * @return The entityId.
-     */
     int getEntityId();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 pos = 2;</code>
-     * @return The pos.
-     */
     int getPos();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 gadget_id = 3;</code>
-     * @return The gadgetId.
-     */
     int getGadgetId();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 vehicle_type = 5;</code>
-     * @return The vehicleType.
-     */
     int getVehicleType();
   }
   /**
@@ -265,14 +233,7 @@ public final class CurVehicleInfoOuterClass {
 
     public static final int ENTITY_ID_FIELD_NUMBER = 1;
     private int entityId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 entity_id = 1;</code>
-     * @return The entityId.
-     */
+
     @java.lang.Override
     public int getEntityId() {
       return entityId_;
@@ -280,14 +241,7 @@ public final class CurVehicleInfoOuterClass {
 
     public static final int POS_FIELD_NUMBER = 2;
     private int pos_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 pos = 2;</code>
-     * @return The pos.
-     */
+
     @java.lang.Override
     public int getPos() {
       return pos_;
@@ -295,14 +249,7 @@ public final class CurVehicleInfoOuterClass {
 
     public static final int GADGET_ID_FIELD_NUMBER = 3;
     private int gadgetId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 gadget_id = 3;</code>
-     * @return The gadgetId.
-     */
+
     @java.lang.Override
     public int getGadgetId() {
       return gadgetId_;
@@ -310,14 +257,7 @@ public final class CurVehicleInfoOuterClass {
 
     public static final int VEHICLE_TYPE_FIELD_NUMBER = 5;
     private int vehicleType_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 vehicle_type = 5;</code>
-     * @return The vehicleType.
-     */
+
     @java.lang.Override
     public int getVehicleType() {
       return vehicleType_;
@@ -823,7 +763,7 @@ public final class CurVehicleInfoOuterClass {
        * <code>.Vector enter_pos = 4;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getEnterPosBuilder() {
-        
+
         onChanged();
         return getEnterPosFieldBuilder().getBuilder();
       }
@@ -842,7 +782,7 @@ public final class CurVehicleInfoOuterClass {
        * <code>.Vector enter_pos = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getEnterPosFieldBuilder() {
         if (enterPosBuilder_ == null) {
           enterPosBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -942,7 +882,7 @@ public final class CurVehicleInfoOuterClass {
        * <code>.Vector enter_rot = 6;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getEnterRotBuilder() {
-        
+
         onChanged();
         return getEnterRotFieldBuilder().getBuilder();
       }
@@ -961,7 +901,7 @@ public final class CurVehicleInfoOuterClass {
        * <code>.Vector enter_rot = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getEnterRotFieldBuilder() {
         if (enterRotBuilder_ == null) {
           enterRotBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -975,172 +915,84 @@ public final class CurVehicleInfoOuterClass {
       }
 
       private int entityId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 entity_id = 1;</code>
-       * @return The entityId.
-       */
+
       @java.lang.Override
       public int getEntityId() {
         return entityId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 entity_id = 1;</code>
-       * @param value The entityId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 entity_id = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
       }
 
       private int pos_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 pos = 2;</code>
-       * @return The pos.
-       */
+
       @java.lang.Override
       public int getPos() {
         return pos_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 pos = 2;</code>
-       * @param value The pos to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setPos(int value) {
-        
+
         pos_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 pos = 2;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearPos() {
-        
+
         pos_ = 0;
         onChanged();
         return this;
       }
 
       private int gadgetId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 gadget_id = 3;</code>
-       * @return The gadgetId.
-       */
+
       @java.lang.Override
       public int getGadgetId() {
         return gadgetId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 gadget_id = 3;</code>
-       * @param value The gadgetId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setGadgetId(int value) {
-        
+
         gadgetId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 gadget_id = 3;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearGadgetId() {
-        
+
         gadgetId_ = 0;
         onChanged();
         return this;
       }
 
       private int vehicleType_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 vehicle_type = 5;</code>
-       * @return The vehicleType.
-       */
+
       @java.lang.Override
       public int getVehicleType() {
         return vehicleType_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 vehicle_type = 5;</code>
-       * @param value The vehicleType to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setVehicleType(int value) {
-        
+
         vehicleType_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 vehicle_type = 5;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearVehicleType() {
-        
+
         vehicleType_ = 0;
         onChanged();
         return this;
@@ -1156,7 +1008,6 @@ public final class CurVehicleInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:CurVehicleInfo)
     }
@@ -1200,7 +1051,7 @@ public final class CurVehicleInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CurVehicleInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CurVehicleInfo_fieldAccessorTable;
 

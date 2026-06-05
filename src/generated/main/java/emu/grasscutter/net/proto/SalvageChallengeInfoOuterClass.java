@@ -240,7 +240,7 @@ public final class SalvageChallengeInfoOuterClass {
           challengeDetailCase_);
     }
 
-    public static final int CHALLENGE_TYPE_FIELD_NUMBER = 12;
+    public static final int CHALLENGE_TYPE_FIELD_NUMBER = 6;
     private int challengeType_;
     /**
      * <code>uint32 challenge_type = 12;</code>
@@ -251,7 +251,7 @@ public final class SalvageChallengeInfoOuterClass {
       return challengeType_;
     }
 
-    public static final int IS_UNLOCK_FIELD_NUMBER = 13;
+    public static final int IS_UNLOCK_FIELD_NUMBER = 8;
     private boolean isUnlock_;
     /**
      * <code>bool is_unlock = 13;</code>
@@ -367,10 +367,10 @@ public final class SalvageChallengeInfoOuterClass {
             10, (int)((java.lang.Integer) challengeDetail_));
       }
       if (challengeType_ != 0) {
-        output.writeUInt32(12, challengeType_);
+        output.writeUInt32(6, challengeType_);
       }
       if (isUnlock_ != false) {
-        output.writeBool(13, isUnlock_);
+        output.writeBool(8, isUnlock_);
       }
       if (challengeDetailCase_ == 14) {
         output.writeMessage(14, (emu.grasscutter.net.proto.SalvageBundleChallengeInfoOuterClass.SalvageBundleChallengeInfo) challengeDetail_);
@@ -395,11 +395,11 @@ public final class SalvageChallengeInfoOuterClass {
       }
       if (challengeType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, challengeType_);
+          .computeUInt32Size(6, challengeType_);
       }
       if (isUnlock_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, isUnlock_);
+          .computeBoolSize(8, isUnlock_);
       }
       if (challengeDetailCase_ == 14) {
         size += com.google.protobuf.CodedOutputStream

@@ -18,68 +18,21 @@ public final class GetActivityScheduleRspOuterClass {
       // @@protoc_insertion_point(interface_extends:GetActivityScheduleRsp)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   
-     * </pre>
-     *
-     * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
-     */
-    java.util.List<emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo> 
+    java.util.List<emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo>
         getActivityScheduleListList();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   
-     * </pre>
-     *
-     * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
-     */
+
     emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo getActivityScheduleList(int index);
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   
-     * </pre>
-     *
-     * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
-     */
+
     int getActivityScheduleListCount();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   
-     * </pre>
-     *
-     * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
-     */
-    java.util.List<? extends emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfoOrBuilder> 
+
+    java.util.List<? extends emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfoOrBuilder>
         getActivityScheduleListOrBuilderList();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   
-     * </pre>
-     *
-     * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
-     */
+
     emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfoOrBuilder getActivityScheduleListOrBuilder(
         int index);
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   
-     * </pre>
-     *
-     * <code>int32 retcode = 5;</code>
-     * @return The retcode.
-     */
     int getRetcode();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   
-     * </pre>
-     *
-     * <code>uint32 remain_fly_sea_lamp_num = 11;</code>
-     * @return The remainFlySeaLampNum.
-     */
     int getRemainFlySeaLampNum();
   }
   /**
@@ -189,58 +142,28 @@ public final class GetActivityScheduleRspOuterClass {
 
     public static final int ACTIVITY_SCHEDULE_LIST_FIELD_NUMBER = 7;
     private java.util.List<emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo> activityScheduleList_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   
-     * </pre>
-     *
-     * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
-     */
+
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo> getActivityScheduleListList() {
       return activityScheduleList_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   
-     * </pre>
-     *
-     * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
-     */
+
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfoOrBuilder>
         getActivityScheduleListOrBuilderList() {
       return activityScheduleList_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   
-     * </pre>
-     *
-     * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
-     */
+
     @java.lang.Override
     public int getActivityScheduleListCount() {
       return activityScheduleList_.size();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   
-     * </pre>
-     *
-     * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo getActivityScheduleList(int index) {
       return activityScheduleList_.get(index);
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   
-     * </pre>
-     *
-     * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfoOrBuilder getActivityScheduleListOrBuilder(
         int index) {
@@ -249,14 +172,7 @@ public final class GetActivityScheduleRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 5;
     private int retcode_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   
-     * </pre>
-     *
-     * <code>int32 retcode = 5;</code>
-     * @return The retcode.
-     */
+
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -264,14 +180,7 @@ public final class GetActivityScheduleRspOuterClass {
 
     public static final int REMAIN_FLY_SEA_LAMP_NUM_FIELD_NUMBER = 11;
     private int remainFlySeaLampNum_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   
-     * </pre>
-     *
-     * <code>uint32 remain_fly_sea_lamp_num = 11;</code>
-     * @return The remainFlySeaLampNum.
-     */
+
     @java.lang.Override
     public int getRemainFlySeaLampNum() {
       return remainFlySeaLampNum_;
@@ -613,7 +522,7 @@ public final class GetActivityScheduleRspOuterClass {
               activityScheduleListBuilder_ = null;
               activityScheduleList_ = other.activityScheduleList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              activityScheduleListBuilder_ = 
+              activityScheduleListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getActivityScheduleListFieldBuilder() : null;
             } else {
@@ -669,13 +578,6 @@ public final class GetActivityScheduleRspOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo, emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo.Builder, emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfoOrBuilder> activityScheduleListBuilder_;
 
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   
-       * </pre>
-       *
-       * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
-       */
       public java.util.List<emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo> getActivityScheduleListList() {
         if (activityScheduleListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(activityScheduleList_);
@@ -683,13 +585,7 @@ public final class GetActivityScheduleRspOuterClass {
           return activityScheduleListBuilder_.getMessageList();
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   
-       * </pre>
-       *
-       * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
-       */
+
       public int getActivityScheduleListCount() {
         if (activityScheduleListBuilder_ == null) {
           return activityScheduleList_.size();
@@ -697,13 +593,7 @@ public final class GetActivityScheduleRspOuterClass {
           return activityScheduleListBuilder_.getCount();
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   
-       * </pre>
-       *
-       * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
-       */
+
       public emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo getActivityScheduleList(int index) {
         if (activityScheduleListBuilder_ == null) {
           return activityScheduleList_.get(index);
@@ -711,13 +601,7 @@ public final class GetActivityScheduleRspOuterClass {
           return activityScheduleListBuilder_.getMessage(index);
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   
-       * </pre>
-       *
-       * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
-       */
+
       public Builder setActivityScheduleList(
           int index, emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo value) {
         if (activityScheduleListBuilder_ == null) {
@@ -732,13 +616,7 @@ public final class GetActivityScheduleRspOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   
-       * </pre>
-       *
-       * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
-       */
+
       public Builder setActivityScheduleList(
           int index, emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo.Builder builderForValue) {
         if (activityScheduleListBuilder_ == null) {
@@ -750,13 +628,7 @@ public final class GetActivityScheduleRspOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   
-       * </pre>
-       *
-       * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
-       */
+
       public Builder addActivityScheduleList(emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo value) {
         if (activityScheduleListBuilder_ == null) {
           if (value == null) {
@@ -770,13 +642,7 @@ public final class GetActivityScheduleRspOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   
-       * </pre>
-       *
-       * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
-       */
+
       public Builder addActivityScheduleList(
           int index, emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo value) {
         if (activityScheduleListBuilder_ == null) {
@@ -791,13 +657,7 @@ public final class GetActivityScheduleRspOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   
-       * </pre>
-       *
-       * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
-       */
+
       public Builder addActivityScheduleList(
           emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo.Builder builderForValue) {
         if (activityScheduleListBuilder_ == null) {
@@ -809,13 +669,7 @@ public final class GetActivityScheduleRspOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   
-       * </pre>
-       *
-       * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
-       */
+
       public Builder addActivityScheduleList(
           int index, emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo.Builder builderForValue) {
         if (activityScheduleListBuilder_ == null) {
@@ -827,13 +681,7 @@ public final class GetActivityScheduleRspOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   
-       * </pre>
-       *
-       * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
-       */
+
       public Builder addAllActivityScheduleList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo> values) {
         if (activityScheduleListBuilder_ == null) {
@@ -846,13 +694,7 @@ public final class GetActivityScheduleRspOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   
-       * </pre>
-       *
-       * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
-       */
+
       public Builder clearActivityScheduleList() {
         if (activityScheduleListBuilder_ == null) {
           activityScheduleList_ = java.util.Collections.emptyList();
@@ -863,13 +705,7 @@ public final class GetActivityScheduleRspOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   
-       * </pre>
-       *
-       * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
-       */
+
       public Builder removeActivityScheduleList(int index) {
         if (activityScheduleListBuilder_ == null) {
           ensureActivityScheduleListIsMutable();
@@ -880,24 +716,12 @@ public final class GetActivityScheduleRspOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   
-       * </pre>
-       *
-       * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
-       */
+
       public emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo.Builder getActivityScheduleListBuilder(
           int index) {
         return getActivityScheduleListFieldBuilder().getBuilder(index);
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   
-       * </pre>
-       *
-       * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
-       */
+
       public emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfoOrBuilder getActivityScheduleListOrBuilder(
           int index) {
         if (activityScheduleListBuilder_ == null) {
@@ -905,14 +729,8 @@ public final class GetActivityScheduleRspOuterClass {
           return activityScheduleListBuilder_.getMessageOrBuilder(index);
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   
-       * </pre>
-       *
-       * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
-       */
-      public java.util.List<? extends emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfoOrBuilder> 
+
+      public java.util.List<? extends emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfoOrBuilder>
            getActivityScheduleListOrBuilderList() {
         if (activityScheduleListBuilder_ != null) {
           return activityScheduleListBuilder_.getMessageOrBuilderList();
@@ -920,42 +738,24 @@ public final class GetActivityScheduleRspOuterClass {
           return java.util.Collections.unmodifiableList(activityScheduleList_);
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   
-       * </pre>
-       *
-       * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
-       */
+
       public emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo.Builder addActivityScheduleListBuilder() {
         return getActivityScheduleListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo.getDefaultInstance());
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   
-       * </pre>
-       *
-       * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
-       */
+
       public emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo.Builder addActivityScheduleListBuilder(
           int index) {
         return getActivityScheduleListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo.getDefaultInstance());
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   
-       * </pre>
-       *
-       * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo.Builder> 
+
+      public java.util.List<emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo.Builder>
            getActivityScheduleListBuilderList() {
         return getActivityScheduleListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo, emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo.Builder, emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfoOrBuilder> 
+          emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo, emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo.Builder, emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfoOrBuilder>
           getActivityScheduleListFieldBuilder() {
         if (activityScheduleListBuilder_ == null) {
           activityScheduleListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -970,86 +770,42 @@ public final class GetActivityScheduleRspOuterClass {
       }
 
       private int retcode_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   
-       * </pre>
-       *
-       * <code>int32 retcode = 5;</code>
-       * @return The retcode.
-       */
+
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   
-       * </pre>
-       *
-       * <code>int32 retcode = 5;</code>
-       * @param value The retcode to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   
-       * </pre>
-       *
-       * <code>int32 retcode = 5;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
       }
 
       private int remainFlySeaLampNum_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   
-       * </pre>
-       *
-       * <code>uint32 remain_fly_sea_lamp_num = 11;</code>
-       * @return The remainFlySeaLampNum.
-       */
+
       @java.lang.Override
       public int getRemainFlySeaLampNum() {
         return remainFlySeaLampNum_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   
-       * </pre>
-       *
-       * <code>uint32 remain_fly_sea_lamp_num = 11;</code>
-       * @param value The remainFlySeaLampNum to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setRemainFlySeaLampNum(int value) {
-        
+
         remainFlySeaLampNum_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   
-       * </pre>
-       *
-       * <code>uint32 remain_fly_sea_lamp_num = 11;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearRemainFlySeaLampNum() {
-        
+
         remainFlySeaLampNum_ = 0;
         onChanged();
         return this;
@@ -1065,7 +821,6 @@ public final class GetActivityScheduleRspOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:GetActivityScheduleRsp)
     }
@@ -1109,7 +864,7 @@ public final class GetActivityScheduleRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetActivityScheduleRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetActivityScheduleRsp_fieldAccessorTable;
 

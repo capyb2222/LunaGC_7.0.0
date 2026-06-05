@@ -128,6 +128,8 @@ public class EntityVehicle extends EntityBaseGadget {
                         .setEntityAuthorityInfo(authority)
                         .setLifeState(1);
 
+        this.injectIntMotionInfo(entityInfo);
+
         PropPair pair =
                 PropPair.newBuilder()
                         .setType(PlayerProperty.PROP_LEVEL.getId())

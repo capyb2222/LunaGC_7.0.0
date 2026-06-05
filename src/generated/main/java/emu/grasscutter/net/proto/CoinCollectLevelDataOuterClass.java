@@ -363,7 +363,7 @@ public final class CoinCollectLevelDataOuterClass {
       return gENIGFJFKEE_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 15;
+    public static final int LEVEL_ID_FIELD_NUMBER = 12;
     private int levelId_;
     /**
      * <code>uint32 level_id = 15;</code>
@@ -374,7 +374,7 @@ public final class CoinCollectLevelDataOuterClass {
       return levelId_;
     }
 
-    public static final int SINGLE_BEST_TEAM_INFO_FIELD_NUMBER = 8;
+    public static final int SINGLE_BEST_TEAM_INFO_FIELD_NUMBER = 3;
     private emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData singleBestTeamInfo_;
     /**
      * <code>.CoinCollectTeamInfoData single_best_team_info = 8;</code>
@@ -400,7 +400,7 @@ public final class CoinCollectLevelDataOuterClass {
       return getSingleBestTeamInfo();
     }
 
-    public static final int DOUBLE_BEST_TEAM_INFO_LIST_FIELD_NUMBER = 2;
+    public static final int DOUBLE_BEST_TEAM_INFO_LIST_FIELD_NUMBER = 8;
     private java.util.List<emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData> doubleBestTeamInfoList_;
     /**
      * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 2;</code>
@@ -466,7 +466,7 @@ public final class CoinCollectLevelDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < doubleBestTeamInfoList_.size(); i++) {
-        output.writeMessage(2, doubleBestTeamInfoList_.get(i));
+        output.writeMessage(8, doubleBestTeamInfoList_.get(i));
       }
       if (gENIGFJFKEE_ != 0) {
         output.writeUInt32(3, gENIGFJFKEE_);
@@ -499,7 +499,7 @@ public final class CoinCollectLevelDataOuterClass {
         output.writeUInt32(14, pKPHLANBFAM_);
       }
       if (levelId_ != 0) {
-        output.writeUInt32(15, levelId_);
+        output.writeUInt32(12, levelId_);
       }
       unknownFields.writeTo(output);
     }
@@ -512,7 +512,7 @@ public final class CoinCollectLevelDataOuterClass {
       size = 0;
       for (int i = 0; i < doubleBestTeamInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, doubleBestTeamInfoList_.get(i));
+          .computeMessageSize(8, doubleBestTeamInfoList_.get(i));
       }
       if (gENIGFJFKEE_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -556,7 +556,7 @@ public final class CoinCollectLevelDataOuterClass {
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, levelId_);
+          .computeUInt32Size(12, levelId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

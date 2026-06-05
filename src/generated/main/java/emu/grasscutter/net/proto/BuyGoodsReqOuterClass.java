@@ -95,7 +95,7 @@ public final class BuyGoodsReqOuterClass {
             case 0:
               done = true;
               break;
-            case 98: {
+            case 122: {
               emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods.Builder subBuilder = null;
               if (goods_ != null) {
                 subBuilder = goods_.toBuilder();
@@ -108,12 +108,12 @@ public final class BuyGoodsReqOuterClass {
 
               break;
             }
-            case 104: {
+            case 64: {
 
               shopType_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 112: {
 
               buyCount_ = input.readUInt32();
               break;
@@ -150,7 +150,7 @@ public final class BuyGoodsReqOuterClass {
               emu.grasscutter.net.proto.BuyGoodsReqOuterClass.BuyGoodsReq.class, emu.grasscutter.net.proto.BuyGoodsReqOuterClass.BuyGoodsReq.Builder.class);
     }
 
-    public static final int SHOP_TYPE_FIELD_NUMBER = 13;
+    public static final int SHOP_TYPE_FIELD_NUMBER = 8;
     private int shopType_;
     /**
      * <code>uint32 shop_type = 13;</code>
@@ -161,7 +161,7 @@ public final class BuyGoodsReqOuterClass {
       return shopType_;
     }
 
-    public static final int BUY_COUNT_FIELD_NUMBER = 15;
+    public static final int BUY_COUNT_FIELD_NUMBER = 14;
     private int buyCount_;
     /**
      * <code>uint32 buy_count = 15;</code>
@@ -172,7 +172,7 @@ public final class BuyGoodsReqOuterClass {
       return buyCount_;
     }
 
-    public static final int GOODS_FIELD_NUMBER = 12;
+    public static final int GOODS_FIELD_NUMBER = 15;
     private emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods goods_;
     /**
      * <code>.ShopGoods goods = 12;</code>
@@ -213,13 +213,13 @@ public final class BuyGoodsReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (goods_ != null) {
-        output.writeMessage(12, getGoods());
+        output.writeMessage(15, getGoods());
       }
       if (shopType_ != 0) {
-        output.writeUInt32(13, shopType_);
+        output.writeUInt32(8, shopType_);
       }
       if (buyCount_ != 0) {
-        output.writeUInt32(15, buyCount_);
+        output.writeUInt32(14, buyCount_);
       }
       unknownFields.writeTo(output);
     }
@@ -232,15 +232,15 @@ public final class BuyGoodsReqOuterClass {
       size = 0;
       if (goods_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, getGoods());
+          .computeMessageSize(15, getGoods());
       }
       if (shopType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, shopType_);
+          .computeUInt32Size(8, shopType_);
       }
       if (buyCount_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, buyCount_);
+          .computeUInt32Size(14, buyCount_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

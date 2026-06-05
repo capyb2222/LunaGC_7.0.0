@@ -18,43 +18,12 @@ public final class GetAllUnlockNameCardRspOuterClass {
       // @@protoc_insertion_point(interface_extends:GetAllUnlockNameCardRsp)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated uint32 name_card_list = 4;</code>
-     * @return A list containing the nameCardList.
-     */
     java.util.List<java.lang.Integer> getNameCardListList();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated uint32 name_card_list = 4;</code>
-     * @return The count of nameCardList.
-     */
+
     int getNameCardListCount();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated uint32 name_card_list = 4;</code>
-     * @param index The index of the element to return.
-     * @return The nameCardList at the given index.
-     */
+
     int getNameCardList(int index);
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>int32 retcode = 14;</code>
-     * @return The retcode.
-     */
     int getRetcode();
   }
   /**
@@ -172,39 +141,17 @@ public final class GetAllUnlockNameCardRspOuterClass {
 
     public static final int NAME_CARD_LIST_FIELD_NUMBER = 4;
     private com.google.protobuf.Internal.IntList nameCardList_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated uint32 name_card_list = 4;</code>
-     * @return A list containing the nameCardList.
-     */
+
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getNameCardListList() {
       return nameCardList_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated uint32 name_card_list = 4;</code>
-     * @return The count of nameCardList.
-     */
+
     public int getNameCardListCount() {
       return nameCardList_.size();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated uint32 name_card_list = 4;</code>
-     * @param index The index of the element to return.
-     * @return The nameCardList at the given index.
-     */
+
     public int getNameCardList(int index) {
       return nameCardList_.getInt(index);
     }
@@ -212,14 +159,7 @@ public final class GetAllUnlockNameCardRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 14;
     private int retcode_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>int32 retcode = 14;</code>
-     * @return The retcode.
-     */
+
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -586,52 +526,21 @@ public final class GetAllUnlockNameCardRspOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated uint32 name_card_list = 4;</code>
-       * @return A list containing the nameCardList.
-       */
+
       public java.util.List<java.lang.Integer>
           getNameCardListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(nameCardList_) : nameCardList_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated uint32 name_card_list = 4;</code>
-       * @return The count of nameCardList.
-       */
+
       public int getNameCardListCount() {
         return nameCardList_.size();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated uint32 name_card_list = 4;</code>
-       * @param index The index of the element to return.
-       * @return The nameCardList at the given index.
-       */
+
       public int getNameCardList(int index) {
         return nameCardList_.getInt(index);
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated uint32 name_card_list = 4;</code>
-       * @param index The index to set the value at.
-       * @param value The nameCardList to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setNameCardList(
           int index, int value) {
         ensureNameCardListIsMutable();
@@ -639,30 +548,14 @@ public final class GetAllUnlockNameCardRspOuterClass {
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated uint32 name_card_list = 4;</code>
-       * @param value The nameCardList to add.
-       * @return This builder for chaining.
-       */
+
       public Builder addNameCardList(int value) {
         ensureNameCardListIsMutable();
         nameCardList_.addInt(value);
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated uint32 name_card_list = 4;</code>
-       * @param values The nameCardList to add.
-       * @return This builder for chaining.
-       */
+
       public Builder addAllNameCardList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureNameCardListIsMutable();
@@ -671,14 +564,7 @@ public final class GetAllUnlockNameCardRspOuterClass {
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated uint32 name_card_list = 4;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearNameCardList() {
         nameCardList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -687,43 +573,21 @@ public final class GetAllUnlockNameCardRspOuterClass {
       }
 
       private int retcode_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 14;</code>
-       * @return The retcode.
-       */
+
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 14;</code>
-       * @param value The retcode to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 14;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -739,7 +603,6 @@ public final class GetAllUnlockNameCardRspOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:GetAllUnlockNameCardRsp)
     }
@@ -783,7 +646,7 @@ public final class GetAllUnlockNameCardRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetAllUnlockNameCardRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetAllUnlockNameCardRsp_fieldAccessorTable;
 

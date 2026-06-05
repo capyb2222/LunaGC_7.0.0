@@ -245,7 +245,7 @@ public final class SceneAudioNotifyOuterClass {
               emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify.class, emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify.Builder.class);
     }
 
-    public static final int PARAM3_FIELD_NUMBER = 11;
+    public static final int PARAM3_FIELD_NUMBER = 13;
     private com.google.protobuf.LazyStringList param3_;
     /**
      * <code>repeated string param3 = 11;</code>
@@ -280,7 +280,7 @@ public final class SceneAudioNotifyOuterClass {
       return param3_.getByteString(index);
     }
 
-    public static final int PARAM2_FIELD_NUMBER = 6;
+    public static final int PARAM2_FIELD_NUMBER = 11;
     private com.google.protobuf.Internal.FloatList param2_;
     /**
      * <code>repeated float param2 = 6;</code>
@@ -308,7 +308,7 @@ public final class SceneAudioNotifyOuterClass {
     }
     private int param2MemoizedSerializedSize = -1;
 
-    public static final int SOURCE_UID_FIELD_NUMBER = 2;
+    public static final int SOURCE_UID_FIELD_NUMBER = 3;
     private int sourceUid_;
     /**
      * <code>uint32 source_uid = 2;</code>
@@ -319,7 +319,7 @@ public final class SceneAudioNotifyOuterClass {
       return sourceUid_;
     }
 
-    public static final int PARAM1_FIELD_NUMBER = 4;
+    public static final int PARAM1_FIELD_NUMBER = 10;
     private com.google.protobuf.Internal.IntList param1_;
     /**
      * <code>repeated uint32 param1 = 4;</code>
@@ -347,7 +347,7 @@ public final class SceneAudioNotifyOuterClass {
     }
     private int param1MemoizedSerializedSize = -1;
 
-    public static final int TYPE_FIELD_NUMBER = 12;
+    public static final int TYPE_FIELD_NUMBER = 14;
     private int type_;
     /**
      * <code>int32 type = 12;</code>
@@ -374,7 +374,7 @@ public final class SceneAudioNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (sourceUid_ != 0) {
-        output.writeUInt32(2, sourceUid_);
+        output.writeUInt32(3, sourceUid_);
       }
       if (getParam1List().size() > 0) {
         output.writeUInt32NoTag(34);
@@ -394,7 +394,7 @@ public final class SceneAudioNotifyOuterClass {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 11, param3_.getRaw(i));
       }
       if (type_ != 0) {
-        output.writeInt32(12, type_);
+        output.writeInt32(14, type_);
       }
       unknownFields.writeTo(output);
     }
@@ -407,7 +407,7 @@ public final class SceneAudioNotifyOuterClass {
       size = 0;
       if (sourceUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, sourceUid_);
+          .computeUInt32Size(3, sourceUid_);
       }
       {
         int dataSize = 0;
@@ -444,7 +444,7 @@ public final class SceneAudioNotifyOuterClass {
       }
       if (type_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(12, type_);
+          .computeInt32Size(14, type_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

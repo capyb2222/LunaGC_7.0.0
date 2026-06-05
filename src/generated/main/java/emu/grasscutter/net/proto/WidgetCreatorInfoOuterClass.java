@@ -156,7 +156,7 @@ public final class WidgetCreatorInfoOuterClass {
               emu.grasscutter.net.proto.WidgetCreatorInfoOuterClass.WidgetCreatorInfo.class, emu.grasscutter.net.proto.WidgetCreatorInfoOuterClass.WidgetCreatorInfo.Builder.class);
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 15;
+    public static final int ENTITY_ID_FIELD_NUMBER = 1;
     private int entityId_;
     /**
      * <code>uint32 entity_id = 15;</code>
@@ -186,7 +186,7 @@ public final class WidgetCreatorInfoOuterClass {
       return result == null ? emu.grasscutter.net.proto.WidgetCreatorOpTypeOuterClass.WidgetCreatorOpType.UNRECOGNIZED : result;
     }
 
-    public static final int LOCATION_INFO_FIELD_NUMBER = 5;
+    public static final int LOCATION_INFO_FIELD_NUMBER = 2;
     private emu.grasscutter.net.proto.WidgetCreateLocationInfoOuterClass.WidgetCreateLocationInfo locationInfo_;
     /**
      * <code>.WidgetCreateLocationInfo location_info = 5;</code>
@@ -233,7 +233,7 @@ public final class WidgetCreatorInfoOuterClass {
         output.writeEnum(9, opType_);
       }
       if (entityId_ != 0) {
-        output.writeUInt32(15, entityId_);
+        output.writeUInt32(1, entityId_);
       }
       unknownFields.writeTo(output);
     }
@@ -254,7 +254,7 @@ public final class WidgetCreatorInfoOuterClass {
       }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, entityId_);
+          .computeUInt32Size(1, entityId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

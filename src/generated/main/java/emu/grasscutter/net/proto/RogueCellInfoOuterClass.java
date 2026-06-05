@@ -18,43 +18,12 @@ public final class RogueCellInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:RogueCellInfo)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 cell_id = 10;</code>
-     * @return The cellId.
-     */
     int getCellId();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.RogueCellState state = 6;</code>
-     * @return The enum numeric value on the wire for state.
-     */
     int getStateValue();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.RogueCellState state = 6;</code>
-     * @return The state.
-     */
+
     emu.grasscutter.net.proto.RogueCellStateOuterClass.RogueCellState getState();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 dungeon_id = 3;</code>
-     * @return The dungeonId.
-     */
     int getDungeonId();
 
     /**
@@ -164,14 +133,7 @@ public final class RogueCellInfoOuterClass {
 
     public static final int CELL_ID_FIELD_NUMBER = 10;
     private int cellId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 cell_id = 10;</code>
-     * @return The cellId.
-     */
+
     @java.lang.Override
     public int getCellId() {
       return cellId_;
@@ -179,25 +141,11 @@ public final class RogueCellInfoOuterClass {
 
     public static final int STATE_FIELD_NUMBER = 6;
     private int state_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.RogueCellState state = 6;</code>
-     * @return The enum numeric value on the wire for state.
-     */
+
     @java.lang.Override public int getStateValue() {
       return state_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.RogueCellState state = 6;</code>
-     * @return The state.
-     */
+
     @java.lang.Override public emu.grasscutter.net.proto.RogueCellStateOuterClass.RogueCellState getState() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.RogueCellStateOuterClass.RogueCellState result = emu.grasscutter.net.proto.RogueCellStateOuterClass.RogueCellState.valueOf(state_);
@@ -206,14 +154,7 @@ public final class RogueCellInfoOuterClass {
 
     public static final int DUNGEON_ID_FIELD_NUMBER = 3;
     private int dungeonId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 dungeon_id = 3;</code>
-     * @return The dungeonId.
-     */
+
     @java.lang.Override
     public int getDungeonId() {
       return dungeonId_;
@@ -583,160 +524,79 @@ public final class RogueCellInfoOuterClass {
       }
 
       private int cellId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 cell_id = 10;</code>
-       * @return The cellId.
-       */
+
       @java.lang.Override
       public int getCellId() {
         return cellId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 cell_id = 10;</code>
-       * @param value The cellId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setCellId(int value) {
-        
+
         cellId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 cell_id = 10;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearCellId() {
-        
+
         cellId_ = 0;
         onChanged();
         return this;
       }
 
       private int state_ = 0;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.RogueCellState state = 6;</code>
-       * @return The enum numeric value on the wire for state.
-       */
+
       @java.lang.Override public int getStateValue() {
         return state_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.RogueCellState state = 6;</code>
-       * @param value The enum numeric value on the wire for state to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setStateValue(int value) {
-        
+
         state_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.RogueCellState state = 6;</code>
-       * @return The state.
-       */
+
       @java.lang.Override
       public emu.grasscutter.net.proto.RogueCellStateOuterClass.RogueCellState getState() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.RogueCellStateOuterClass.RogueCellState result = emu.grasscutter.net.proto.RogueCellStateOuterClass.RogueCellState.valueOf(state_);
         return result == null ? emu.grasscutter.net.proto.RogueCellStateOuterClass.RogueCellState.UNRECOGNIZED : result;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.RogueCellState state = 6;</code>
-       * @param value The state to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setState(emu.grasscutter.net.proto.RogueCellStateOuterClass.RogueCellState value) {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         state_ = value.getNumber();
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.RogueCellState state = 6;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearState() {
-        
+
         state_ = 0;
         onChanged();
         return this;
       }
 
       private int dungeonId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 dungeon_id = 3;</code>
-       * @return The dungeonId.
-       */
+
       @java.lang.Override
       public int getDungeonId() {
         return dungeonId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 dungeon_id = 3;</code>
-       * @param value The dungeonId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setDungeonId(int value) {
-        
+
         dungeonId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 dungeon_id = 3;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearDungeonId() {
-        
+
         dungeonId_ = 0;
         onChanged();
         return this;
@@ -757,7 +617,7 @@ public final class RogueCellInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEEEOIJHJIJJ(int value) {
-        
+
         eEEOIJHJIJJ_ = value;
         onChanged();
         return this;
@@ -767,7 +627,7 @@ public final class RogueCellInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEEEOIJHJIJJ() {
-        
+
         eEEOIJHJIJJ_ = 0;
         onChanged();
         return this;
@@ -783,7 +643,6 @@ public final class RogueCellInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:RogueCellInfo)
     }
@@ -827,7 +686,7 @@ public final class RogueCellInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_RogueCellInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_RogueCellInfo_fieldAccessorTable;
 

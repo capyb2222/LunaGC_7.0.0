@@ -128,7 +128,7 @@ public final class HomeUpdateArrangementInfoReqOuterClass {
               emu.grasscutter.net.proto.HomeUpdateArrangementInfoReqOuterClass.HomeUpdateArrangementInfoReq.class, emu.grasscutter.net.proto.HomeUpdateArrangementInfoReqOuterClass.HomeUpdateArrangementInfoReq.Builder.class);
     }
 
-    public static final int SCENE_ARRANGEMENT_INFO_FIELD_NUMBER = 15;
+    public static final int SCENE_ARRANGEMENT_INFO_FIELD_NUMBER = 7;
     private emu.grasscutter.net.proto.HomeSceneArrangementInfoOuterClass.HomeSceneArrangementInfo sceneArrangementInfo_;
     /**
      * <code>.HomeSceneArrangementInfo scene_arrangement_info = 15;</code>

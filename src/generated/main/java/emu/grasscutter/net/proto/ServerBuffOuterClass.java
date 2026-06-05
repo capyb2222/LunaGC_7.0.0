@@ -18,54 +18,14 @@ public final class ServerBuffOuterClass {
       // @@protoc_insertion_point(interface_extends:ServerBuff)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 server_buff_type = 3;</code>
-     * @return The serverBuffType.
-     */
     int getServerBuffType();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 instanced_modifier_id = 4;</code>
-     * @return The instancedModifierId.
-     */
     int getInstancedModifierId();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 server_buff_id = 2;</code>
-     * @return The serverBuffId.
-     */
     int getServerBuffId();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 server_buff_uid = 1;</code>
-     * @return The serverBuffUid.
-     */
     int getServerBuffUid();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>bool is_modifier_added = 5;</code>
-     * @return The isModifierAdded.
-     */
     boolean getIsModifierAdded();
   }
   /**
@@ -172,14 +132,7 @@ public final class ServerBuffOuterClass {
 
     public static final int SERVER_BUFF_TYPE_FIELD_NUMBER = 3;
     private int serverBuffType_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 server_buff_type = 3;</code>
-     * @return The serverBuffType.
-     */
+
     @java.lang.Override
     public int getServerBuffType() {
       return serverBuffType_;
@@ -187,14 +140,7 @@ public final class ServerBuffOuterClass {
 
     public static final int INSTANCED_MODIFIER_ID_FIELD_NUMBER = 4;
     private int instancedModifierId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 instanced_modifier_id = 4;</code>
-     * @return The instancedModifierId.
-     */
+
     @java.lang.Override
     public int getInstancedModifierId() {
       return instancedModifierId_;
@@ -202,14 +148,7 @@ public final class ServerBuffOuterClass {
 
     public static final int SERVER_BUFF_ID_FIELD_NUMBER = 2;
     private int serverBuffId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 server_buff_id = 2;</code>
-     * @return The serverBuffId.
-     */
+
     @java.lang.Override
     public int getServerBuffId() {
       return serverBuffId_;
@@ -217,14 +156,7 @@ public final class ServerBuffOuterClass {
 
     public static final int SERVER_BUFF_UID_FIELD_NUMBER = 1;
     private int serverBuffUid_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 server_buff_uid = 1;</code>
-     * @return The serverBuffUid.
-     */
+
     @java.lang.Override
     public int getServerBuffUid() {
       return serverBuffUid_;
@@ -232,14 +164,7 @@ public final class ServerBuffOuterClass {
 
     public static final int IS_MODIFIER_ADDED_FIELD_NUMBER = 5;
     private boolean isModifierAdded_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>bool is_modifier_added = 5;</code>
-     * @return The isModifierAdded.
-     */
+
     @java.lang.Override
     public boolean getIsModifierAdded() {
       return isModifierAdded_;
@@ -617,215 +542,105 @@ public final class ServerBuffOuterClass {
       }
 
       private int serverBuffType_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 server_buff_type = 3;</code>
-       * @return The serverBuffType.
-       */
+
       @java.lang.Override
       public int getServerBuffType() {
         return serverBuffType_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 server_buff_type = 3;</code>
-       * @param value The serverBuffType to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setServerBuffType(int value) {
-        
+
         serverBuffType_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 server_buff_type = 3;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearServerBuffType() {
-        
+
         serverBuffType_ = 0;
         onChanged();
         return this;
       }
 
       private int instancedModifierId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 instanced_modifier_id = 4;</code>
-       * @return The instancedModifierId.
-       */
+
       @java.lang.Override
       public int getInstancedModifierId() {
         return instancedModifierId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 instanced_modifier_id = 4;</code>
-       * @param value The instancedModifierId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setInstancedModifierId(int value) {
-        
+
         instancedModifierId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 instanced_modifier_id = 4;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearInstancedModifierId() {
-        
+
         instancedModifierId_ = 0;
         onChanged();
         return this;
       }
 
       private int serverBuffId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 server_buff_id = 2;</code>
-       * @return The serverBuffId.
-       */
+
       @java.lang.Override
       public int getServerBuffId() {
         return serverBuffId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 server_buff_id = 2;</code>
-       * @param value The serverBuffId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setServerBuffId(int value) {
-        
+
         serverBuffId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 server_buff_id = 2;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearServerBuffId() {
-        
+
         serverBuffId_ = 0;
         onChanged();
         return this;
       }
 
       private int serverBuffUid_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 server_buff_uid = 1;</code>
-       * @return The serverBuffUid.
-       */
+
       @java.lang.Override
       public int getServerBuffUid() {
         return serverBuffUid_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 server_buff_uid = 1;</code>
-       * @param value The serverBuffUid to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setServerBuffUid(int value) {
-        
+
         serverBuffUid_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 server_buff_uid = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearServerBuffUid() {
-        
+
         serverBuffUid_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isModifierAdded_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>bool is_modifier_added = 5;</code>
-       * @return The isModifierAdded.
-       */
+
       @java.lang.Override
       public boolean getIsModifierAdded() {
         return isModifierAdded_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>bool is_modifier_added = 5;</code>
-       * @param value The isModifierAdded to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setIsModifierAdded(boolean value) {
-        
+
         isModifierAdded_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>bool is_modifier_added = 5;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearIsModifierAdded() {
-        
+
         isModifierAdded_ = false;
         onChanged();
         return this;
@@ -841,7 +656,6 @@ public final class ServerBuffOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:ServerBuff)
     }
@@ -885,7 +699,7 @@ public final class ServerBuffOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ServerBuff_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ServerBuff_fieldAccessorTable;
 

@@ -30,14 +30,6 @@ public final class AvatarRenameInfoOuterClass {
     com.google.protobuf.ByteString
         getLPLIECDFGGGBytes();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 avatar_id = 14;</code>
-     * @return The avatarId.
-     */
     int getAvatarId();
   }
   /**
@@ -129,7 +121,7 @@ public final class AvatarRenameInfoOuterClass {
               emu.grasscutter.net.proto.AvatarRenameInfoOuterClass.AvatarRenameInfo.class, emu.grasscutter.net.proto.AvatarRenameInfoOuterClass.AvatarRenameInfo.Builder.class);
     }
 
-    public static final int LPLIECDFGGG_FIELD_NUMBER = 4;
+    public static final int LPLIECDFGGG_FIELD_NUMBER = 12;
     private volatile java.lang.Object lPLIECDFGGG_;
     /**
      * <code>string LPLIECDFGGG = 4;</code>
@@ -141,7 +133,7 @@ public final class AvatarRenameInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         lPLIECDFGGG_ = s;
@@ -157,7 +149,7 @@ public final class AvatarRenameInfoOuterClass {
         getLPLIECDFGGGBytes() {
       java.lang.Object ref = lPLIECDFGGG_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         lPLIECDFGGG_ = b;
@@ -167,16 +159,9 @@ public final class AvatarRenameInfoOuterClass {
       }
     }
 
-    public static final int AVATAR_ID_FIELD_NUMBER = 14;
+    public static final int AVATAR_ID_FIELD_NUMBER = 3;
     private int avatarId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 avatar_id = 14;</code>
-     * @return The avatarId.
-     */
+
     @java.lang.Override
     public int getAvatarId() {
       return avatarId_;
@@ -197,10 +182,10 @@ public final class AvatarRenameInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(lPLIECDFGGG_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 4, lPLIECDFGGG_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 12, lPLIECDFGGG_);
       }
       if (avatarId_ != 0) {
-        output.writeUInt32(14, avatarId_);
+        output.writeUInt32(3, avatarId_);
       }
       unknownFields.writeTo(output);
     }
@@ -212,11 +197,11 @@ public final class AvatarRenameInfoOuterClass {
 
       size = 0;
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(lPLIECDFGGG_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(4, lPLIECDFGGG_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(12, lPLIECDFGGG_);
       }
       if (avatarId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, avatarId_);
+          .computeUInt32Size(3, avatarId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -526,7 +511,7 @@ public final class AvatarRenameInfoOuterClass {
           getLPLIECDFGGGBytes() {
         java.lang.Object ref = lPLIECDFGGG_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           lPLIECDFGGG_ = b;
@@ -545,7 +530,7 @@ public final class AvatarRenameInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         lPLIECDFGGG_ = value;
         onChanged();
         return this;
@@ -555,7 +540,7 @@ public final class AvatarRenameInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLPLIECDFGGG() {
-        
+
         lPLIECDFGGG_ = getDefaultInstance().getLPLIECDFGGG();
         onChanged();
         return this;
@@ -571,50 +556,28 @@ public final class AvatarRenameInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         lPLIECDFGGG_ = value;
         onChanged();
         return this;
       }
 
       private int avatarId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 avatar_id = 14;</code>
-       * @return The avatarId.
-       */
+
       @java.lang.Override
       public int getAvatarId() {
         return avatarId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 avatar_id = 14;</code>
-       * @param value The avatarId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setAvatarId(int value) {
-        
+
         avatarId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 avatar_id = 14;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearAvatarId() {
-        
+
         avatarId_ = 0;
         onChanged();
         return this;
@@ -630,7 +593,6 @@ public final class AvatarRenameInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:AvatarRenameInfo)
     }
@@ -674,7 +636,7 @@ public final class AvatarRenameInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarRenameInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarRenameInfo_fieldAccessorTable;
 

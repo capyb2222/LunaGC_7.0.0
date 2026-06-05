@@ -186,7 +186,7 @@ public final class RogueDiaryProgressOuterClass {
               emu.grasscutter.net.proto.RogueDiaryProgressOuterClass.RogueDiaryProgress.class, emu.grasscutter.net.proto.RogueDiaryProgressOuterClass.RogueDiaryProgress.Builder.class);
     }
 
-    public static final int OPTIONAL_CARD_LIST_FIELD_NUMBER = 5;
+    public static final int OPTIONAL_CARD_LIST_FIELD_NUMBER = 3;
     private com.google.protobuf.Internal.IntList optionalCardList_;
     /**
      * <code>repeated uint32 optional_card_list = 5;</code>
@@ -214,7 +214,7 @@ public final class RogueDiaryProgressOuterClass {
     }
     private int optionalCardListMemoizedSerializedSize = -1;
 
-    public static final int CUR_ROUND_FIELD_NUMBER = 1;
+    public static final int CUR_ROUND_FIELD_NUMBER = 13;
     private int curRound_;
     /**
      * <code>uint32 cur_round = 1;</code>
@@ -225,7 +225,7 @@ public final class RogueDiaryProgressOuterClass {
       return curRound_;
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 3;
+    public static final int STAGE_ID_FIELD_NUMBER = 8;
     private int stageId_;
     /**
      * <code>uint32 stage_id = 3;</code>
@@ -247,7 +247,7 @@ public final class RogueDiaryProgressOuterClass {
       return isEnterDungeon_;
     }
 
-    public static final int DIFFICULTY_FIELD_NUMBER = 2;
+    public static final int DIFFICULTY_FIELD_NUMBER = 1;
     private int difficulty_;
     /**
      * <code>uint32 difficulty = 2;</code>
@@ -274,13 +274,13 @@ public final class RogueDiaryProgressOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (curRound_ != 0) {
-        output.writeUInt32(1, curRound_);
+        output.writeUInt32(13, curRound_);
       }
       if (difficulty_ != 0) {
-        output.writeUInt32(2, difficulty_);
+        output.writeUInt32(1, difficulty_);
       }
       if (stageId_ != 0) {
-        output.writeUInt32(3, stageId_);
+        output.writeUInt32(8, stageId_);
       }
       if (getOptionalCardListList().size() > 0) {
         output.writeUInt32NoTag(42);
@@ -303,15 +303,15 @@ public final class RogueDiaryProgressOuterClass {
       size = 0;
       if (curRound_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, curRound_);
+          .computeUInt32Size(13, curRound_);
       }
       if (difficulty_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, difficulty_);
+          .computeUInt32Size(1, difficulty_);
       }
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, stageId_);
+          .computeUInt32Size(8, stageId_);
       }
       {
         int dataSize = 0;

@@ -283,7 +283,7 @@ public final class PersonalLineAllDataRspOuterClass {
     }
     private int canBeUnlockedPersonalLineListMemoizedSerializedSize = -1;
 
-    public static final int RETCODE_FIELD_NUMBER = 3;
+    public static final int RETCODE_FIELD_NUMBER = 5;
     private int retcode_;
     /**
      * <code>int32 retcode = 3;</code>
@@ -344,7 +344,7 @@ public final class PersonalLineAllDataRspOuterClass {
     }
     private int ongoingPersonalLineListMemoizedSerializedSize = -1;
 
-    public static final int LOCKED_PERSONAL_LINE_LIST_FIELD_NUMBER = 8;
+    public static final int LOCKED_PERSONAL_LINE_LIST_FIELD_NUMBER = 2;
     private java.util.List<emu.grasscutter.net.proto.LockedPersonallineDataOuterClass.LockedPersonallineData> lockedPersonalLineList_;
     /**
      * <code>repeated .LockedPersonallineData locked_personal_line_list = 8;</code>
@@ -410,7 +410,7 @@ public final class PersonalLineAllDataRspOuterClass {
         output.writeUInt32NoTag(canBeUnlockedPersonalLineList_.getInt(i));
       }
       if (retcode_ != 0) {
-        output.writeInt32(3, retcode_);
+        output.writeInt32(5, retcode_);
       }
       if (getOngoingPersonalLineListList().size() > 0) {
         output.writeUInt32NoTag(50);
@@ -420,7 +420,7 @@ public final class PersonalLineAllDataRspOuterClass {
         output.writeUInt32NoTag(ongoingPersonalLineList_.getInt(i));
       }
       for (int i = 0; i < lockedPersonalLineList_.size(); i++) {
-        output.writeMessage(8, lockedPersonalLineList_.get(i));
+        output.writeMessage(2, lockedPersonalLineList_.get(i));
       }
       if (curFinishedDailyTaskCount_ != 0) {
         output.writeUInt32(11, curFinishedDailyTaskCount_);
@@ -454,7 +454,7 @@ public final class PersonalLineAllDataRspOuterClass {
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(3, retcode_);
+          .computeInt32Size(5, retcode_);
       }
       {
         int dataSize = 0;
@@ -472,7 +472,7 @@ public final class PersonalLineAllDataRspOuterClass {
       }
       for (int i = 0; i < lockedPersonalLineList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, lockedPersonalLineList_.get(i));
+          .computeMessageSize(2, lockedPersonalLineList_.get(i));
       }
       if (curFinishedDailyTaskCount_ != 0) {
         size += com.google.protobuf.CodedOutputStream

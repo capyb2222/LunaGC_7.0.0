@@ -18,47 +18,16 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:ChannelerSlabActivityDetailInfo)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
-     */
-    java.util.List<emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG> 
+    java.util.List<emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG>
         getStageListList();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
-     */
+
     emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG getStageList(int index);
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
-     */
+
     int getStageListCount();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
-     */
-    java.util.List<? extends emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLGOrBuilder> 
+
+    java.util.List<? extends emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLGOrBuilder>
         getStageListOrBuilderList();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
-     */
+
     emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLGOrBuilder getStageListOrBuilder(
         int index);
 
@@ -222,58 +191,28 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
 
     public static final int STAGE_LIST_FIELD_NUMBER = 1;
     private java.util.List<emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG> stageList_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
-     */
+
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG> getStageListList() {
       return stageList_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
-     */
+
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLGOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLGOrBuilder>
         getStageListOrBuilderList() {
       return stageList_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
-     */
+
     @java.lang.Override
     public int getStageListCount() {
       return stageList_.size();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG getStageList(int index) {
       return stageList_.get(index);
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLGOrBuilder getStageListOrBuilder(
         int index) {
@@ -715,7 +654,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
               stageListBuilder_ = null;
               stageList_ = other.stageList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              stageListBuilder_ = 
+              stageListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getStageListFieldBuilder() : null;
             } else {
@@ -774,13 +713,6 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG, emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG.Builder, emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLGOrBuilder> stageListBuilder_;
 
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
-       */
       public java.util.List<emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG> getStageListList() {
         if (stageListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(stageList_);
@@ -788,13 +720,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
           return stageListBuilder_.getMessageList();
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
-       */
+
       public int getStageListCount() {
         if (stageListBuilder_ == null) {
           return stageList_.size();
@@ -802,13 +728,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
           return stageListBuilder_.getCount();
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
-       */
+
       public emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG getStageList(int index) {
         if (stageListBuilder_ == null) {
           return stageList_.get(index);
@@ -816,13 +736,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
           return stageListBuilder_.getMessage(index);
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
-       */
+
       public Builder setStageList(
           int index, emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG value) {
         if (stageListBuilder_ == null) {
@@ -837,13 +751,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
-       */
+
       public Builder setStageList(
           int index, emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG.Builder builderForValue) {
         if (stageListBuilder_ == null) {
@@ -855,13 +763,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
-       */
+
       public Builder addStageList(emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG value) {
         if (stageListBuilder_ == null) {
           if (value == null) {
@@ -875,13 +777,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
-       */
+
       public Builder addStageList(
           int index, emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG value) {
         if (stageListBuilder_ == null) {
@@ -896,13 +792,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
-       */
+
       public Builder addStageList(
           emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG.Builder builderForValue) {
         if (stageListBuilder_ == null) {
@@ -914,13 +804,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
-       */
+
       public Builder addStageList(
           int index, emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG.Builder builderForValue) {
         if (stageListBuilder_ == null) {
@@ -932,13 +816,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
-       */
+
       public Builder addAllStageList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG> values) {
         if (stageListBuilder_ == null) {
@@ -951,13 +829,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
-       */
+
       public Builder clearStageList() {
         if (stageListBuilder_ == null) {
           stageList_ = java.util.Collections.emptyList();
@@ -968,13 +840,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
-       */
+
       public Builder removeStageList(int index) {
         if (stageListBuilder_ == null) {
           ensureStageListIsMutable();
@@ -985,24 +851,12 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
-       */
+
       public emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG.Builder getStageListBuilder(
           int index) {
         return getStageListFieldBuilder().getBuilder(index);
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
-       */
+
       public emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLGOrBuilder getStageListOrBuilder(
           int index) {
         if (stageListBuilder_ == null) {
@@ -1010,14 +864,8 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
           return stageListBuilder_.getMessageOrBuilder(index);
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
-       */
-      public java.util.List<? extends emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLGOrBuilder> 
+
+      public java.util.List<? extends emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLGOrBuilder>
            getStageListOrBuilderList() {
         if (stageListBuilder_ != null) {
           return stageListBuilder_.getMessageOrBuilderList();
@@ -1025,42 +873,24 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
           return java.util.Collections.unmodifiableList(stageList_);
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
-       */
+
       public emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG.Builder addStageListBuilder() {
         return getStageListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG.getDefaultInstance());
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
-       */
+
       public emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG.Builder addStageListBuilder(
           int index) {
         return getStageListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG.getDefaultInstance());
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG.Builder> 
+
+      public java.util.List<emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG.Builder>
            getStageListBuilderList() {
         return getStageListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG, emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG.Builder, emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLGOrBuilder> 
+          emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG, emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG.Builder, emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLGOrBuilder>
           getStageListFieldBuilder() {
         if (stageListBuilder_ == null) {
           stageListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1161,7 +991,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
        * <code>.NBDFKHAKCMN KDHJKPMJILH = 6;</code>
        */
       public emu.grasscutter.net.proto.NBDFKHAKCMNOuterClass.NBDFKHAKCMN.Builder getKDHJKPMJILHBuilder() {
-        
+
         onChanged();
         return getKDHJKPMJILHFieldBuilder().getBuilder();
       }
@@ -1180,7 +1010,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
        * <code>.NBDFKHAKCMN KDHJKPMJILH = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.NBDFKHAKCMNOuterClass.NBDFKHAKCMN, emu.grasscutter.net.proto.NBDFKHAKCMNOuterClass.NBDFKHAKCMN.Builder, emu.grasscutter.net.proto.NBDFKHAKCMNOuterClass.NBDFKHAKCMNOrBuilder> 
+          emu.grasscutter.net.proto.NBDFKHAKCMNOuterClass.NBDFKHAKCMN, emu.grasscutter.net.proto.NBDFKHAKCMNOuterClass.NBDFKHAKCMN.Builder, emu.grasscutter.net.proto.NBDFKHAKCMNOuterClass.NBDFKHAKCMNOrBuilder>
           getKDHJKPMJILHFieldBuilder() {
         if (kDHJKPMJILHBuilder_ == null) {
           kDHJKPMJILHBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1280,7 +1110,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
        * <code>.JJNLNIMPOMH PPMGBOFJMBE = 14;</code>
        */
       public emu.grasscutter.net.proto.JJNLNIMPOMHOuterClass.JJNLNIMPOMH.Builder getPPMGBOFJMBEBuilder() {
-        
+
         onChanged();
         return getPPMGBOFJMBEFieldBuilder().getBuilder();
       }
@@ -1299,7 +1129,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
        * <code>.JJNLNIMPOMH PPMGBOFJMBE = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.JJNLNIMPOMHOuterClass.JJNLNIMPOMH, emu.grasscutter.net.proto.JJNLNIMPOMHOuterClass.JJNLNIMPOMH.Builder, emu.grasscutter.net.proto.JJNLNIMPOMHOuterClass.JJNLNIMPOMHOrBuilder> 
+          emu.grasscutter.net.proto.JJNLNIMPOMHOuterClass.JJNLNIMPOMH, emu.grasscutter.net.proto.JJNLNIMPOMHOuterClass.JJNLNIMPOMH.Builder, emu.grasscutter.net.proto.JJNLNIMPOMHOuterClass.JJNLNIMPOMHOrBuilder>
           getPPMGBOFJMBEFieldBuilder() {
         if (pPMGBOFJMBEBuilder_ == null) {
           pPMGBOFJMBEBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1327,7 +1157,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCMBOIEKLEFH(int value) {
-        
+
         cMBOIEKLEFH_ = value;
         onChanged();
         return this;
@@ -1337,7 +1167,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCMBOIEKLEFH() {
-        
+
         cMBOIEKLEFH_ = 0;
         onChanged();
         return this;
@@ -1353,7 +1183,6 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:ChannelerSlabActivityDetailInfo)
     }
@@ -1397,7 +1226,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ChannelerSlabActivityDetailInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ChannelerSlabActivityDetailInfo_fieldAccessorTable;
 

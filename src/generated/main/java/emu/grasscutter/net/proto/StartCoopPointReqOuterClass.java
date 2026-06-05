@@ -74,7 +74,7 @@ public final class StartCoopPointReqOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 48: {
 
               coopPoint_ = input.readUInt32();
               break;
@@ -111,7 +111,7 @@ public final class StartCoopPointReqOuterClass {
               emu.grasscutter.net.proto.StartCoopPointReqOuterClass.StartCoopPointReq.class, emu.grasscutter.net.proto.StartCoopPointReqOuterClass.StartCoopPointReq.Builder.class);
     }
 
-    public static final int COOP_POINT_FIELD_NUMBER = 8;
+    public static final int COOP_POINT_FIELD_NUMBER = 6;
     private int coopPoint_;
     /**
      * <code>uint32 coop_point = 8;</code>
@@ -137,7 +137,7 @@ public final class StartCoopPointReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (coopPoint_ != 0) {
-        output.writeUInt32(8, coopPoint_);
+        output.writeUInt32(6, coopPoint_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +150,7 @@ public final class StartCoopPointReqOuterClass {
       size = 0;
       if (coopPoint_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, coopPoint_);
+          .computeUInt32Size(6, coopPoint_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

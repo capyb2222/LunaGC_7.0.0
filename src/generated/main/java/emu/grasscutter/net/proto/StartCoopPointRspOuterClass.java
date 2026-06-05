@@ -101,7 +101,7 @@ public final class StartCoopPointRspOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
+            case 26: {
               emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop.Builder subBuilder = null;
               if (startMainCoop_ != null) {
                 subBuilder = startMainCoop_.toBuilder();
@@ -114,19 +114,19 @@ public final class StartCoopPointRspOuterClass {
 
               break;
             }
-            case 16: {
-
-              coopPoint_ = input.readUInt32();
-              break;
-            }
-            case 48: {
+            case 40: {
 
               isStart_ = input.readBool();
               break;
             }
-            case 112: {
+            case 56: {
 
               retcode_ = input.readInt32();
+              break;
+            }
+            case 112: {
+
+              coopPoint_ = input.readUInt32();
               break;
             }
             default: {
@@ -161,7 +161,7 @@ public final class StartCoopPointRspOuterClass {
               emu.grasscutter.net.proto.StartCoopPointRspOuterClass.StartCoopPointRsp.class, emu.grasscutter.net.proto.StartCoopPointRspOuterClass.StartCoopPointRsp.Builder.class);
     }
 
-    public static final int START_MAIN_COOP_FIELD_NUMBER = 1;
+    public static final int START_MAIN_COOP_FIELD_NUMBER = 3;
     private emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop startMainCoop_;
     /**
      * <code>.MainCoop start_main_coop = 1;</code>
@@ -187,7 +187,7 @@ public final class StartCoopPointRspOuterClass {
       return getStartMainCoop();
     }
 
-    public static final int COOP_POINT_FIELD_NUMBER = 2;
+    public static final int COOP_POINT_FIELD_NUMBER = 14;
     private int coopPoint_;
     /**
      * <code>uint32 coop_point = 2;</code>
@@ -198,7 +198,7 @@ public final class StartCoopPointRspOuterClass {
       return coopPoint_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 14;
+    public static final int RETCODE_FIELD_NUMBER = 7;
     private int retcode_;
     /**
      * <code>int32 retcode = 14;</code>
@@ -209,7 +209,7 @@ public final class StartCoopPointRspOuterClass {
       return retcode_;
     }
 
-    public static final int IS_START_FIELD_NUMBER = 6;
+    public static final int IS_START_FIELD_NUMBER = 5;
     private boolean isStart_;
     /**
      * <code>bool is_start = 6;</code>
@@ -235,16 +235,16 @@ public final class StartCoopPointRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (startMainCoop_ != null) {
-        output.writeMessage(1, getStartMainCoop());
+        output.writeMessage(3, getStartMainCoop());
       }
       if (coopPoint_ != 0) {
-        output.writeUInt32(2, coopPoint_);
+        output.writeUInt32(14, coopPoint_);
       }
       if (isStart_ != false) {
-        output.writeBool(6, isStart_);
+        output.writeBool(5, isStart_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(14, retcode_);
+        output.writeInt32(7, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -257,19 +257,19 @@ public final class StartCoopPointRspOuterClass {
       size = 0;
       if (startMainCoop_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getStartMainCoop());
+          .computeMessageSize(3, getStartMainCoop());
       }
       if (coopPoint_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, coopPoint_);
+          .computeUInt32Size(14, coopPoint_);
       }
       if (isStart_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, isStart_);
+          .computeBoolSize(5, isStart_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(14, retcode_);
+          .computeInt32Size(7, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

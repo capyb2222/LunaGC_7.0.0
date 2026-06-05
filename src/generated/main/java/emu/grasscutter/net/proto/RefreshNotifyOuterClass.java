@@ -18,14 +18,6 @@ public final class RefreshNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:RefreshNotify)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 refresh_num = 10;</code>
-     * @return The refreshNum.
-     */
     int getRefreshNum();
   }
   /**
@@ -112,14 +104,7 @@ public final class RefreshNotifyOuterClass {
 
     public static final int REFRESH_NUM_FIELD_NUMBER = 10;
     private int refreshNum_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 refresh_num = 10;</code>
-     * @return The refreshNum.
-     */
+
     @java.lang.Override
     public int getRefreshNum() {
       return refreshNum_;
@@ -428,43 +413,21 @@ public final class RefreshNotifyOuterClass {
       }
 
       private int refreshNum_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 refresh_num = 10;</code>
-       * @return The refreshNum.
-       */
+
       @java.lang.Override
       public int getRefreshNum() {
         return refreshNum_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 refresh_num = 10;</code>
-       * @param value The refreshNum to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setRefreshNum(int value) {
-        
+
         refreshNum_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 refresh_num = 10;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearRefreshNum() {
-        
+
         refreshNum_ = 0;
         onChanged();
         return this;
@@ -480,7 +443,6 @@ public final class RefreshNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:RefreshNotify)
     }
@@ -524,7 +486,7 @@ public final class RefreshNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_RefreshNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_RefreshNotify_fieldAccessorTable;
 

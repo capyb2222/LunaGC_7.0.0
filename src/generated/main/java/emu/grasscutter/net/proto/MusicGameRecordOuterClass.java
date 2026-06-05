@@ -24,14 +24,6 @@ public final class MusicGameRecordOuterClass {
      */
     int getUgcGuid();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 max_combo = 9;</code>
-     * @return The maxCombo.
-     */
     int getMaxCombo();
 
     /**
@@ -145,14 +137,7 @@ public final class MusicGameRecordOuterClass {
 
     public static final int MAX_COMBO_FIELD_NUMBER = 9;
     private int maxCombo_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 max_combo = 9;</code>
-     * @return The maxCombo.
-     */
+
     @java.lang.Override
     public int getMaxCombo() {
       return maxCombo_;
@@ -521,7 +506,7 @@ public final class MusicGameRecordOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUgcGuid(int value) {
-        
+
         ugcGuid_ = value;
         onChanged();
         return this;
@@ -531,50 +516,28 @@ public final class MusicGameRecordOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUgcGuid() {
-        
+
         ugcGuid_ = 0;
         onChanged();
         return this;
       }
 
       private int maxCombo_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 max_combo = 9;</code>
-       * @return The maxCombo.
-       */
+
       @java.lang.Override
       public int getMaxCombo() {
         return maxCombo_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 max_combo = 9;</code>
-       * @param value The maxCombo to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setMaxCombo(int value) {
-        
+
         maxCombo_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 max_combo = 9;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearMaxCombo() {
-        
+
         maxCombo_ = 0;
         onChanged();
         return this;
@@ -595,7 +558,7 @@ public final class MusicGameRecordOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHDIKBBEMGGA(boolean value) {
-        
+
         hDIKBBEMGGA_ = value;
         onChanged();
         return this;
@@ -605,7 +568,7 @@ public final class MusicGameRecordOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHDIKBBEMGGA() {
-        
+
         hDIKBBEMGGA_ = false;
         onChanged();
         return this;
@@ -621,7 +584,6 @@ public final class MusicGameRecordOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:MusicGameRecord)
     }
@@ -665,7 +627,7 @@ public final class MusicGameRecordOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MusicGameRecord_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MusicGameRecord_fieldAccessorTable;
 

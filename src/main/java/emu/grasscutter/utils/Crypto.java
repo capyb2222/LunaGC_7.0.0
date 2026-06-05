@@ -77,8 +77,13 @@ public final class Crypto {
 
     public static long generateEncryptKeyAndSeed(byte[] encryptKey) {
         var encryptSeed = secureRandom.nextLong();
+        generateKeyFromSeed(encryptSeed, encryptKey);
+        return encryptSeed;
+    }
+
+    public static void generateKeyFromSeed(long seed, byte[] encryptKey) {
         var mt = new MersenneTwister64();
-        mt.setSeed(encryptSeed);
+        mt.setSeed(seed);
         mt.setSeed(mt.nextLong());
         mt.nextLong();
         for (int i = 0; i < 4096 >> 3; i++) {
@@ -92,7 +97,6 @@ public final class Crypto {
             encryptKey[(i << 3) + 6] = (byte) (rand >> 8);
             encryptKey[(i << 3) + 7] = (byte) rand;
         }
-        return encryptSeed;
     }
 
     public static QueryCurRegionRspJson encryptAndSignRegionData(byte[] regionInfo, String key_id)
@@ -104,10 +108,8 @@ public final class Crypto {
         Cipher cipher = Cipher.getInstance("RSA/ECB/PKCS1Padding");
         cipher.init(Cipher.ENCRYPT_MODE, EncryptionKeys.get(Integer.valueOf(key_id)));
 
-        // Encrypt regionInfo in chunks
         ByteArrayOutputStream encryptedRegionInfoStream = new ByteArrayOutputStream();
 
-        // Thank you so much GH Copilot
         int chunkSize = 256 - 11;
         int regionInfoLength = regionInfo.length;
         int numChunks = (int) Math.ceil(regionInfoLength / (double) chunkSize);

@@ -18,24 +18,8 @@ public final class UgcMusicNoteOuterClass {
       // @@protoc_insertion_point(interface_extends:UgcMusicNote)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 start_time = 10;</code>
-     * @return The startTime.
-     */
     int getStartTime();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 end_time = 14;</code>
-     * @return The endTime.
-     */
     int getEndTime();
   }
   /**
@@ -127,14 +111,7 @@ public final class UgcMusicNoteOuterClass {
 
     public static final int START_TIME_FIELD_NUMBER = 10;
     private int startTime_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 start_time = 10;</code>
-     * @return The startTime.
-     */
+
     @java.lang.Override
     public int getStartTime() {
       return startTime_;
@@ -142,14 +119,7 @@ public final class UgcMusicNoteOuterClass {
 
     public static final int END_TIME_FIELD_NUMBER = 14;
     private int endTime_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 end_time = 14;</code>
-     * @return The endTime.
-     */
+
     @java.lang.Override
     public int getEndTime() {
       return endTime_;
@@ -475,86 +445,42 @@ public final class UgcMusicNoteOuterClass {
       }
 
       private int startTime_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 start_time = 10;</code>
-       * @return The startTime.
-       */
+
       @java.lang.Override
       public int getStartTime() {
         return startTime_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 start_time = 10;</code>
-       * @param value The startTime to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setStartTime(int value) {
-        
+
         startTime_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 start_time = 10;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearStartTime() {
-        
+
         startTime_ = 0;
         onChanged();
         return this;
       }
 
       private int endTime_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 end_time = 14;</code>
-       * @return The endTime.
-       */
+
       @java.lang.Override
       public int getEndTime() {
         return endTime_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 end_time = 14;</code>
-       * @param value The endTime to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setEndTime(int value) {
-        
+
         endTime_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 end_time = 14;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearEndTime() {
-        
+
         endTime_ = 0;
         onChanged();
         return this;
@@ -570,7 +496,6 @@ public final class UgcMusicNoteOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:UgcMusicNote)
     }
@@ -614,7 +539,7 @@ public final class UgcMusicNoteOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_UgcMusicNote_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_UgcMusicNote_fieldAccessorTable;
 

@@ -18,24 +18,8 @@ public final class MapAreaInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:MapAreaInfo)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0      
-     * </pre>
-     *
-     * <code>uint32 map_area_id = 1;</code>
-     * @return The mapAreaId.
-     */
     int getMapAreaId();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0      
-     * </pre>
-     *
-     * <code>bool is_open = 2;</code>
-     * @return The isOpen.
-     */
     boolean getIsOpen();
   }
   /**
@@ -127,14 +111,7 @@ public final class MapAreaInfoOuterClass {
 
     public static final int MAP_AREA_ID_FIELD_NUMBER = 1;
     private int mapAreaId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0      
-     * </pre>
-     *
-     * <code>uint32 map_area_id = 1;</code>
-     * @return The mapAreaId.
-     */
+
     @java.lang.Override
     public int getMapAreaId() {
       return mapAreaId_;
@@ -142,14 +119,7 @@ public final class MapAreaInfoOuterClass {
 
     public static final int IS_OPEN_FIELD_NUMBER = 2;
     private boolean isOpen_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0      
-     * </pre>
-     *
-     * <code>bool is_open = 2;</code>
-     * @return The isOpen.
-     */
+
     @java.lang.Override
     public boolean getIsOpen() {
       return isOpen_;
@@ -476,86 +446,42 @@ public final class MapAreaInfoOuterClass {
       }
 
       private int mapAreaId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>uint32 map_area_id = 1;</code>
-       * @return The mapAreaId.
-       */
+
       @java.lang.Override
       public int getMapAreaId() {
         return mapAreaId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>uint32 map_area_id = 1;</code>
-       * @param value The mapAreaId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setMapAreaId(int value) {
-        
+
         mapAreaId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>uint32 map_area_id = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearMapAreaId() {
-        
+
         mapAreaId_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isOpen_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>bool is_open = 2;</code>
-       * @return The isOpen.
-       */
+
       @java.lang.Override
       public boolean getIsOpen() {
         return isOpen_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>bool is_open = 2;</code>
-       * @param value The isOpen to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setIsOpen(boolean value) {
-        
+
         isOpen_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>bool is_open = 2;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearIsOpen() {
-        
+
         isOpen_ = false;
         onChanged();
         return this;
@@ -571,7 +497,6 @@ public final class MapAreaInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:MapAreaInfo)
     }
@@ -615,7 +540,7 @@ public final class MapAreaInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MapAreaInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MapAreaInfo_fieldAccessorTable;
 

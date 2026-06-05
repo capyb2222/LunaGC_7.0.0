@@ -7,8 +7,8 @@ import emu.grasscutter.utils.objects.SparseSet;
 import java.util.Arrays;
 
 public final class GameConstants {
-    public static String VERSION = "6.5.0";
-    public static int[] VERSION_PARTS = {6, 5, 0};
+    public static String VERSION = "6.6.0";
+    public static int[] VERSION_PARTS = {6, 6, 0};
     public static boolean DEBUG = false;
 
     public static final int ENTITY_ID_BIT_SHIFT = 21;
@@ -19,13 +19,13 @@ public final class GameConstants {
     public static final Position START_POSITION = new Position(2747, 194, -1719);
     public static final int MAX_FRIENDS = 60;
     public static final int MAX_FRIEND_REQUESTS = 50;
-    public static final int SERVER_CONSOLE_UID = 99; // The UID of the server console's "player".
+    public static final int SERVER_CONSOLE_UID = 99;
     public static final int BATTLE_PASS_MAX_LEVEL = 50;
     public static final int BATTLE_PASS_POINT_PER_LEVEL = 1000;
     public static final int BATTLE_PASS_POINT_PER_WEEK = 10000;
     public static final int BATTLE_PASS_LEVEL_PRICE = 150;
     public static final int BATTLE_PASS_CURRENT_INDEX = 2;
-    // Default entity ability hashes.
+
     public static final String[] DEFAULT_ABILITY_STRINGS = {
         "Avatar_DefaultAbility_VisionReplaceDieInvincible",
          "Avatar_DefaultAbility_AvartarInShaderChange",
@@ -76,7 +76,8 @@ public final class GameConstants {
      };
       public static final String[] DEFAULT_TEAM_ABILITY_STRINGS = {
              "Ability_Avatar_Dive_Team",
-             // "Vehicle_Natsaurus_Common_HumanDragonCollaboration",
+             "TeamAbility_MoonPhase",
+
              "TeamAbility_Natsaurus_Transfer_Vehicle_Skill",
              "DynamicAbility_Phlogiston",
              "TeamAbility_Natsaurus_Vehicle_State_Listener",
@@ -95,7 +96,8 @@ public final class GameConstants {
              "TeamAbility_Natsaurus_Hookwalker_ElementalArt_TriggerBullet_05",
              "TeamAbility_Natsaurus_Hookwalker_ElementalArt_TriggerBullet_06",
              "TeamAbility_Natsaurus_Hookwalker_ElementalArt_TriggerBullet_07",
-             "TeamAbility_Natsaurus_Hookwalker_ElementalArt_TriggerBullet_5001"
+             "TeamAbility_Natsaurus_Hookwalker_ElementalArt_TriggerBullet_5001",
+             "TeamAbility_NightsoulBurst"
      };
     public static final SparseSet ILLEGAL_WEAPONS = new SparseSet("""
         10000-10008, 11411, 11506-11508, 12505, 12506, 12508, 12509,

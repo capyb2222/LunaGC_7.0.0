@@ -203,7 +203,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
               emu.grasscutter.net.proto.HomeFurnitureSuiteDataOuterClass.HomeFurnitureSuiteData.class, emu.grasscutter.net.proto.HomeFurnitureSuiteDataOuterClass.HomeFurnitureSuiteData.Builder.class);
     }
 
-    public static final int SPAWN_POS_FIELD_NUMBER = 14;
+    public static final int SPAWN_POS_FIELD_NUMBER = 10;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector spawnPos_;
     /**
      * <code>.Vector spawn_pos = 14;</code>
@@ -229,7 +229,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
       return getSpawnPos();
     }
 
-    public static final int GUID_FIELD_NUMBER = 10;
+    public static final int GUID_FIELD_NUMBER = 15;
     private int guid_;
     /**
      * <code>uint32 guid = 10;</code>
@@ -240,7 +240,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
       return guid_;
     }
 
-    public static final int SUITE_ID_FIELD_NUMBER = 8;
+    public static final int SUITE_ID_FIELD_NUMBER = 13;
     private int suiteId_;
     /**
      * <code>uint32 suite_id = 8;</code>
@@ -251,7 +251,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
       return suiteId_;
     }
 
-    public static final int INCLUDED_FURNITURE_INDEX_LIST_FIELD_NUMBER = 3;
+    public static final int INCLUDED_FURNITURE_INDEX_LIST_FIELD_NUMBER = 8;
     private com.google.protobuf.Internal.IntList includedFurnitureIndexList_;
     /**
      * <code>repeated int32 included_furniture_index_list = 3;</code>
@@ -279,7 +279,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
     }
     private int includedFurnitureIndexListMemoizedSerializedSize = -1;
 
-    public static final int IS_ALLOW_SUMMON_FIELD_NUMBER = 7;
+    public static final int IS_ALLOW_SUMMON_FIELD_NUMBER = 6;
     private boolean isAllowSummon_;
     /**
      * <code>bool is_allow_summon = 7;</code>
@@ -313,13 +313,13 @@ public final class HomeFurnitureSuiteDataOuterClass {
         output.writeInt32NoTag(includedFurnitureIndexList_.getInt(i));
       }
       if (isAllowSummon_ != false) {
-        output.writeBool(7, isAllowSummon_);
+        output.writeBool(6, isAllowSummon_);
       }
       if (suiteId_ != 0) {
-        output.writeUInt32(8, suiteId_);
+        output.writeUInt32(13, suiteId_);
       }
       if (guid_ != 0) {
-        output.writeUInt32(10, guid_);
+        output.writeUInt32(15, guid_);
       }
       if (spawnPos_ != null) {
         output.writeMessage(14, getSpawnPos());
@@ -349,15 +349,15 @@ public final class HomeFurnitureSuiteDataOuterClass {
       }
       if (isAllowSummon_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, isAllowSummon_);
+          .computeBoolSize(6, isAllowSummon_);
       }
       if (suiteId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, suiteId_);
+          .computeUInt32Size(13, suiteId_);
       }
       if (guid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, guid_);
+          .computeUInt32Size(15, guid_);
       }
       if (spawnPos_ != null) {
         size += com.google.protobuf.CodedOutputStream

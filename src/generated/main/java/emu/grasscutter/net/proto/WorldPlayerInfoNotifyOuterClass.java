@@ -18,121 +18,36 @@ public final class WorldPlayerInfoNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:WorldPlayerInfoNotify)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
-     */
-    java.util.List<emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo> 
+    java.util.List<emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo>
         getPlayerInfoListList();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
-     */
+
     emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo getPlayerInfoList(int index);
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
-     */
+
     int getPlayerInfoListCount();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
-     */
-    java.util.List<? extends emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder> 
+
+    java.util.List<? extends emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder>
         getPlayerInfoListOrBuilderList();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
-     */
+
     emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder getPlayerInfoListOrBuilder(
         int index);
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
-     */
-    java.util.List<emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo> 
+    java.util.List<emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo>
         getPlayerWidgetInfoListList();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
-     */
+
     emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo getPlayerWidgetInfoList(int index);
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
-     */
+
     int getPlayerWidgetInfoListCount();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
-     */
-    java.util.List<? extends emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfoOrBuilder> 
+
+    java.util.List<? extends emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfoOrBuilder>
         getPlayerWidgetInfoListOrBuilderList();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
-     */
+
     emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfoOrBuilder getPlayerWidgetInfoListOrBuilder(
         int index);
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint32 player_uid_list = 5;</code>
-     * @return A list containing the playerUidList.
-     */
     java.util.List<java.lang.Integer> getPlayerUidListList();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint32 player_uid_list = 5;</code>
-     * @return The count of playerUidList.
-     */
+
     int getPlayerUidListCount();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint32 player_uid_list = 5;</code>
-     * @param index The index of the element to return.
-     * @return The playerUidList at the given index.
-     */
+
     int getPlayerUidList(int index);
   }
   /**
@@ -188,7 +103,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 34: {
+            case 122: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 playerInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -218,7 +133,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 58: {
+            case 18: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 playerWidgetInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo>();
                 mutable_bitField0_ |= 0x00000002;
@@ -268,120 +183,60 @@ public final class WorldPlayerInfoNotifyOuterClass {
               emu.grasscutter.net.proto.WorldPlayerInfoNotifyOuterClass.WorldPlayerInfoNotify.class, emu.grasscutter.net.proto.WorldPlayerInfoNotifyOuterClass.WorldPlayerInfoNotify.Builder.class);
     }
 
-    public static final int PLAYER_INFO_LIST_FIELD_NUMBER = 4;
+    public static final int PLAYER_INFO_LIST_FIELD_NUMBER = 15;
     private java.util.List<emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo> playerInfoList_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
-     */
+
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo> getPlayerInfoListList() {
       return playerInfoList_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
-     */
+
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder>
         getPlayerInfoListOrBuilderList() {
       return playerInfoList_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
-     */
+
     @java.lang.Override
     public int getPlayerInfoListCount() {
       return playerInfoList_.size();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo getPlayerInfoList(int index) {
       return playerInfoList_.get(index);
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder getPlayerInfoListOrBuilder(
         int index) {
       return playerInfoList_.get(index);
     }
 
-    public static final int PLAYER_WIDGET_INFO_LIST_FIELD_NUMBER = 7;
+    public static final int PLAYER_WIDGET_INFO_LIST_FIELD_NUMBER = 2;
     private java.util.List<emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo> playerWidgetInfoList_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
-     */
+
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo> getPlayerWidgetInfoListList() {
       return playerWidgetInfoList_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
-     */
+
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfoOrBuilder>
         getPlayerWidgetInfoListOrBuilderList() {
       return playerWidgetInfoList_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
-     */
+
     @java.lang.Override
     public int getPlayerWidgetInfoListCount() {
       return playerWidgetInfoList_.size();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo getPlayerWidgetInfoList(int index) {
       return playerWidgetInfoList_.get(index);
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfoOrBuilder getPlayerWidgetInfoListOrBuilder(
         int index) {
@@ -390,39 +245,17 @@ public final class WorldPlayerInfoNotifyOuterClass {
 
     public static final int PLAYER_UID_LIST_FIELD_NUMBER = 5;
     private com.google.protobuf.Internal.IntList playerUidList_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint32 player_uid_list = 5;</code>
-     * @return A list containing the playerUidList.
-     */
+
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getPlayerUidListList() {
       return playerUidList_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint32 player_uid_list = 5;</code>
-     * @return The count of playerUidList.
-     */
+
     public int getPlayerUidListCount() {
       return playerUidList_.size();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint32 player_uid_list = 5;</code>
-     * @param index The index of the element to return.
-     * @return The playerUidList at the given index.
-     */
+
     public int getPlayerUidList(int index) {
       return playerUidList_.getInt(index);
     }
@@ -444,7 +277,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       for (int i = 0; i < playerInfoList_.size(); i++) {
-        output.writeMessage(4, playerInfoList_.get(i));
+        output.writeMessage(15, playerInfoList_.get(i));
       }
       if (getPlayerUidListList().size() > 0) {
         output.writeUInt32NoTag(42);
@@ -454,7 +287,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
         output.writeUInt32NoTag(playerUidList_.getInt(i));
       }
       for (int i = 0; i < playerWidgetInfoList_.size(); i++) {
-        output.writeMessage(7, playerWidgetInfoList_.get(i));
+        output.writeMessage(2, playerWidgetInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -467,7 +300,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       size = 0;
       for (int i = 0; i < playerInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, playerInfoList_.get(i));
+          .computeMessageSize(15, playerInfoList_.get(i));
       }
       {
         int dataSize = 0;
@@ -485,7 +318,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       for (int i = 0; i < playerWidgetInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, playerWidgetInfoList_.get(i));
+          .computeMessageSize(2, playerWidgetInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -800,7 +633,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
               playerInfoListBuilder_ = null;
               playerInfoList_ = other.playerInfoList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              playerInfoListBuilder_ = 
+              playerInfoListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getPlayerInfoListFieldBuilder() : null;
             } else {
@@ -826,7 +659,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
               playerWidgetInfoListBuilder_ = null;
               playerWidgetInfoList_ = other.playerWidgetInfoList_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              playerWidgetInfoListBuilder_ = 
+              playerWidgetInfoListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getPlayerWidgetInfoListFieldBuilder() : null;
             } else {
@@ -886,13 +719,6 @@ public final class WorldPlayerInfoNotifyOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder> playerInfoListBuilder_;
 
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
-       */
       public java.util.List<emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo> getPlayerInfoListList() {
         if (playerInfoListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(playerInfoList_);
@@ -900,13 +726,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
           return playerInfoListBuilder_.getMessageList();
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
-       */
+
       public int getPlayerInfoListCount() {
         if (playerInfoListBuilder_ == null) {
           return playerInfoList_.size();
@@ -914,13 +734,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
           return playerInfoListBuilder_.getCount();
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
-       */
+
       public emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo getPlayerInfoList(int index) {
         if (playerInfoListBuilder_ == null) {
           return playerInfoList_.get(index);
@@ -928,13 +742,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
           return playerInfoListBuilder_.getMessage(index);
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
-       */
+
       public Builder setPlayerInfoList(
           int index, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo value) {
         if (playerInfoListBuilder_ == null) {
@@ -949,13 +757,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
-       */
+
       public Builder setPlayerInfoList(
           int index, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder builderForValue) {
         if (playerInfoListBuilder_ == null) {
@@ -967,13 +769,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
-       */
+
       public Builder addPlayerInfoList(emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo value) {
         if (playerInfoListBuilder_ == null) {
           if (value == null) {
@@ -987,13 +783,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
-       */
+
       public Builder addPlayerInfoList(
           int index, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo value) {
         if (playerInfoListBuilder_ == null) {
@@ -1008,13 +798,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
-       */
+
       public Builder addPlayerInfoList(
           emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder builderForValue) {
         if (playerInfoListBuilder_ == null) {
@@ -1026,13 +810,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
-       */
+
       public Builder addPlayerInfoList(
           int index, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder builderForValue) {
         if (playerInfoListBuilder_ == null) {
@@ -1044,13 +822,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
-       */
+
       public Builder addAllPlayerInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo> values) {
         if (playerInfoListBuilder_ == null) {
@@ -1063,13 +835,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
-       */
+
       public Builder clearPlayerInfoList() {
         if (playerInfoListBuilder_ == null) {
           playerInfoList_ = java.util.Collections.emptyList();
@@ -1080,13 +846,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
-       */
+
       public Builder removePlayerInfoList(int index) {
         if (playerInfoListBuilder_ == null) {
           ensurePlayerInfoListIsMutable();
@@ -1097,24 +857,12 @@ public final class WorldPlayerInfoNotifyOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
-       */
+
       public emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder getPlayerInfoListBuilder(
           int index) {
         return getPlayerInfoListFieldBuilder().getBuilder(index);
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
-       */
+
       public emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder getPlayerInfoListOrBuilder(
           int index) {
         if (playerInfoListBuilder_ == null) {
@@ -1122,14 +870,8 @@ public final class WorldPlayerInfoNotifyOuterClass {
           return playerInfoListBuilder_.getMessageOrBuilder(index);
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
-       */
-      public java.util.List<? extends emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder> 
+
+      public java.util.List<? extends emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder>
            getPlayerInfoListOrBuilderList() {
         if (playerInfoListBuilder_ != null) {
           return playerInfoListBuilder_.getMessageOrBuilderList();
@@ -1137,42 +879,24 @@ public final class WorldPlayerInfoNotifyOuterClass {
           return java.util.Collections.unmodifiableList(playerInfoList_);
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
-       */
+
       public emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder addPlayerInfoListBuilder() {
         return getPlayerInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.getDefaultInstance());
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
-       */
+
       public emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder addPlayerInfoListBuilder(
           int index) {
         return getPlayerInfoListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.getDefaultInstance());
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder> 
+
+      public java.util.List<emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder>
            getPlayerInfoListBuilderList() {
         return getPlayerInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder> 
+          emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder>
           getPlayerInfoListFieldBuilder() {
         if (playerInfoListBuilder_ == null) {
           playerInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1198,13 +922,6 @@ public final class WorldPlayerInfoNotifyOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo, emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo.Builder, emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfoOrBuilder> playerWidgetInfoListBuilder_;
 
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
-       */
       public java.util.List<emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo> getPlayerWidgetInfoListList() {
         if (playerWidgetInfoListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(playerWidgetInfoList_);
@@ -1212,13 +929,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
           return playerWidgetInfoListBuilder_.getMessageList();
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
-       */
+
       public int getPlayerWidgetInfoListCount() {
         if (playerWidgetInfoListBuilder_ == null) {
           return playerWidgetInfoList_.size();
@@ -1226,13 +937,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
           return playerWidgetInfoListBuilder_.getCount();
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
-       */
+
       public emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo getPlayerWidgetInfoList(int index) {
         if (playerWidgetInfoListBuilder_ == null) {
           return playerWidgetInfoList_.get(index);
@@ -1240,13 +945,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
           return playerWidgetInfoListBuilder_.getMessage(index);
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
-       */
+
       public Builder setPlayerWidgetInfoList(
           int index, emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo value) {
         if (playerWidgetInfoListBuilder_ == null) {
@@ -1261,13 +960,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
-       */
+
       public Builder setPlayerWidgetInfoList(
           int index, emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo.Builder builderForValue) {
         if (playerWidgetInfoListBuilder_ == null) {
@@ -1279,13 +972,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
-       */
+
       public Builder addPlayerWidgetInfoList(emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo value) {
         if (playerWidgetInfoListBuilder_ == null) {
           if (value == null) {
@@ -1299,13 +986,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
-       */
+
       public Builder addPlayerWidgetInfoList(
           int index, emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo value) {
         if (playerWidgetInfoListBuilder_ == null) {
@@ -1320,13 +1001,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
-       */
+
       public Builder addPlayerWidgetInfoList(
           emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo.Builder builderForValue) {
         if (playerWidgetInfoListBuilder_ == null) {
@@ -1338,13 +1013,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
-       */
+
       public Builder addPlayerWidgetInfoList(
           int index, emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo.Builder builderForValue) {
         if (playerWidgetInfoListBuilder_ == null) {
@@ -1356,13 +1025,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
-       */
+
       public Builder addAllPlayerWidgetInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo> values) {
         if (playerWidgetInfoListBuilder_ == null) {
@@ -1375,13 +1038,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
-       */
+
       public Builder clearPlayerWidgetInfoList() {
         if (playerWidgetInfoListBuilder_ == null) {
           playerWidgetInfoList_ = java.util.Collections.emptyList();
@@ -1392,13 +1049,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
-       */
+
       public Builder removePlayerWidgetInfoList(int index) {
         if (playerWidgetInfoListBuilder_ == null) {
           ensurePlayerWidgetInfoListIsMutable();
@@ -1409,24 +1060,12 @@ public final class WorldPlayerInfoNotifyOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
-       */
+
       public emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo.Builder getPlayerWidgetInfoListBuilder(
           int index) {
         return getPlayerWidgetInfoListFieldBuilder().getBuilder(index);
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
-       */
+
       public emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfoOrBuilder getPlayerWidgetInfoListOrBuilder(
           int index) {
         if (playerWidgetInfoListBuilder_ == null) {
@@ -1434,14 +1073,8 @@ public final class WorldPlayerInfoNotifyOuterClass {
           return playerWidgetInfoListBuilder_.getMessageOrBuilder(index);
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
-       */
-      public java.util.List<? extends emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfoOrBuilder> 
+
+      public java.util.List<? extends emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfoOrBuilder>
            getPlayerWidgetInfoListOrBuilderList() {
         if (playerWidgetInfoListBuilder_ != null) {
           return playerWidgetInfoListBuilder_.getMessageOrBuilderList();
@@ -1449,42 +1082,24 @@ public final class WorldPlayerInfoNotifyOuterClass {
           return java.util.Collections.unmodifiableList(playerWidgetInfoList_);
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
-       */
+
       public emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo.Builder addPlayerWidgetInfoListBuilder() {
         return getPlayerWidgetInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo.getDefaultInstance());
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
-       */
+
       public emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo.Builder addPlayerWidgetInfoListBuilder(
           int index) {
         return getPlayerWidgetInfoListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo.getDefaultInstance());
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo.Builder> 
+
+      public java.util.List<emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo.Builder>
            getPlayerWidgetInfoListBuilderList() {
         return getPlayerWidgetInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo, emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo.Builder, emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfoOrBuilder> 
+          emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo, emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo.Builder, emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfoOrBuilder>
           getPlayerWidgetInfoListFieldBuilder() {
         if (playerWidgetInfoListBuilder_ == null) {
           playerWidgetInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1505,52 +1120,21 @@ public final class WorldPlayerInfoNotifyOuterClass {
           bitField0_ |= 0x00000004;
          }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint32 player_uid_list = 5;</code>
-       * @return A list containing the playerUidList.
-       */
+
       public java.util.List<java.lang.Integer>
           getPlayerUidListList() {
         return ((bitField0_ & 0x00000004) != 0) ?
                  java.util.Collections.unmodifiableList(playerUidList_) : playerUidList_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint32 player_uid_list = 5;</code>
-       * @return The count of playerUidList.
-       */
+
       public int getPlayerUidListCount() {
         return playerUidList_.size();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint32 player_uid_list = 5;</code>
-       * @param index The index of the element to return.
-       * @return The playerUidList at the given index.
-       */
+
       public int getPlayerUidList(int index) {
         return playerUidList_.getInt(index);
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint32 player_uid_list = 5;</code>
-       * @param index The index to set the value at.
-       * @param value The playerUidList to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setPlayerUidList(
           int index, int value) {
         ensurePlayerUidListIsMutable();
@@ -1558,30 +1142,14 @@ public final class WorldPlayerInfoNotifyOuterClass {
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint32 player_uid_list = 5;</code>
-       * @param value The playerUidList to add.
-       * @return This builder for chaining.
-       */
+
       public Builder addPlayerUidList(int value) {
         ensurePlayerUidListIsMutable();
         playerUidList_.addInt(value);
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint32 player_uid_list = 5;</code>
-       * @param values The playerUidList to add.
-       * @return This builder for chaining.
-       */
+
       public Builder addAllPlayerUidList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensurePlayerUidListIsMutable();
@@ -1590,14 +1158,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint32 player_uid_list = 5;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearPlayerUidList() {
         playerUidList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000004);
@@ -1615,7 +1176,6 @@ public final class WorldPlayerInfoNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:WorldPlayerInfoNotify)
     }
@@ -1659,7 +1219,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WorldPlayerInfoNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WorldPlayerInfoNotify_fieldAccessorTable;
 

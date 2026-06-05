@@ -431,7 +431,7 @@ public final class ServerBuffChangeNotifyOuterClass {
     }
     private int avatarGuidListMemoizedSerializedSize = -1;
 
-    public static final int SERVER_BUFF_CHANGE_TYPE_FIELD_NUMBER = 11;
+    public static final int SERVER_BUFF_CHANGE_TYPE_FIELD_NUMBER = 13;
     private int serverBuffChangeType_;
     /**
      * <code>.ServerBuffChangeNotify.ServerBuffChangeType server_buff_change_type = 11;</code>
@@ -450,7 +450,7 @@ public final class ServerBuffChangeNotifyOuterClass {
       return result == null ? emu.grasscutter.net.proto.ServerBuffChangeNotifyOuterClass.ServerBuffChangeNotify.ServerBuffChangeType.UNRECOGNIZED : result;
     }
 
-    public static final int ENTITY_ID_LIST_FIELD_NUMBER = 14;
+    public static final int ENTITY_ID_LIST_FIELD_NUMBER = 2;
     private com.google.protobuf.Internal.IntList entityIdList_;
     /**
      * <code>repeated uint32 entity_id_list = 14;</code>
@@ -478,7 +478,7 @@ public final class ServerBuffChangeNotifyOuterClass {
     }
     private int entityIdListMemoizedSerializedSize = -1;
 
-    public static final int IS_CREATURE_BUFF_FIELD_NUMBER = 7;
+    public static final int IS_CREATURE_BUFF_FIELD_NUMBER = 1;
     private boolean isCreatureBuff_;
     /**
      * <code>bool is_creature_buff = 7;</code>
@@ -505,7 +505,7 @@ public final class ServerBuffChangeNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (isCreatureBuff_ != false) {
-        output.writeBool(7, isCreatureBuff_);
+        output.writeBool(1, isCreatureBuff_);
       }
       if (getAvatarGuidListList().size() > 0) {
         output.writeUInt32NoTag(66);
@@ -515,7 +515,7 @@ public final class ServerBuffChangeNotifyOuterClass {
         output.writeUInt64NoTag(avatarGuidList_.getLong(i));
       }
       if (serverBuffChangeType_ != emu.grasscutter.net.proto.ServerBuffChangeNotifyOuterClass.ServerBuffChangeNotify.ServerBuffChangeType.SERVER_BUFF_CHANGE_TYPE_ADD_SERVER_BUFF.getNumber()) {
-        output.writeEnum(11, serverBuffChangeType_);
+        output.writeEnum(13, serverBuffChangeType_);
       }
       if (getEntityIdListList().size() > 0) {
         output.writeUInt32NoTag(114);
@@ -538,7 +538,7 @@ public final class ServerBuffChangeNotifyOuterClass {
       size = 0;
       if (isCreatureBuff_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, isCreatureBuff_);
+          .computeBoolSize(1, isCreatureBuff_);
       }
       {
         int dataSize = 0;
@@ -556,7 +556,7 @@ public final class ServerBuffChangeNotifyOuterClass {
       }
       if (serverBuffChangeType_ != emu.grasscutter.net.proto.ServerBuffChangeNotifyOuterClass.ServerBuffChangeNotify.ServerBuffChangeType.SERVER_BUFF_CHANGE_TYPE_ADD_SERVER_BUFF.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(11, serverBuffChangeType_);
+          .computeEnumSize(13, serverBuffChangeType_);
       }
       {
         int dataSize = 0;

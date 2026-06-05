@@ -18,33 +18,10 @@ public final class GetBlossomBriefInfoListReqOuterClass {
       // @@protoc_insertion_point(interface_extends:GetBlossomBriefInfoListReq)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 city_id_list = 14;</code>
-     * @return A list containing the cityIdList.
-     */
     java.util.List<java.lang.Integer> getCityIdListList();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 city_id_list = 14;</code>
-     * @return The count of cityIdList.
-     */
+
     int getCityIdListCount();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 city_id_list = 14;</code>
-     * @param index The index of the element to return.
-     * @return The cityIdList at the given index.
-     */
+
     int getCityIdList(int index);
   }
   /**
@@ -156,39 +133,17 @@ public final class GetBlossomBriefInfoListReqOuterClass {
 
     public static final int CITY_ID_LIST_FIELD_NUMBER = 14;
     private com.google.protobuf.Internal.IntList cityIdList_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 city_id_list = 14;</code>
-     * @return A list containing the cityIdList.
-     */
+
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getCityIdListList() {
       return cityIdList_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 city_id_list = 14;</code>
-     * @return The count of cityIdList.
-     */
+
     public int getCityIdListCount() {
       return cityIdList_.size();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 city_id_list = 14;</code>
-     * @param index The index of the element to return.
-     * @return The cityIdList at the given index.
-     */
+
     public int getCityIdList(int index) {
       return cityIdList_.getInt(index);
     }
@@ -537,52 +492,21 @@ public final class GetBlossomBriefInfoListReqOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 city_id_list = 14;</code>
-       * @return A list containing the cityIdList.
-       */
+
       public java.util.List<java.lang.Integer>
           getCityIdListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(cityIdList_) : cityIdList_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 city_id_list = 14;</code>
-       * @return The count of cityIdList.
-       */
+
       public int getCityIdListCount() {
         return cityIdList_.size();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 city_id_list = 14;</code>
-       * @param index The index of the element to return.
-       * @return The cityIdList at the given index.
-       */
+
       public int getCityIdList(int index) {
         return cityIdList_.getInt(index);
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 city_id_list = 14;</code>
-       * @param index The index to set the value at.
-       * @param value The cityIdList to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setCityIdList(
           int index, int value) {
         ensureCityIdListIsMutable();
@@ -590,30 +514,14 @@ public final class GetBlossomBriefInfoListReqOuterClass {
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 city_id_list = 14;</code>
-       * @param value The cityIdList to add.
-       * @return This builder for chaining.
-       */
+
       public Builder addCityIdList(int value) {
         ensureCityIdListIsMutable();
         cityIdList_.addInt(value);
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 city_id_list = 14;</code>
-       * @param values The cityIdList to add.
-       * @return This builder for chaining.
-       */
+
       public Builder addAllCityIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureCityIdListIsMutable();
@@ -622,14 +530,7 @@ public final class GetBlossomBriefInfoListReqOuterClass {
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 city_id_list = 14;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearCityIdList() {
         cityIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -647,7 +548,6 @@ public final class GetBlossomBriefInfoListReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:GetBlossomBriefInfoListReq)
     }
@@ -691,7 +591,7 @@ public final class GetBlossomBriefInfoListReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetBlossomBriefInfoListReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetBlossomBriefInfoListReq_fieldAccessorTable;
 

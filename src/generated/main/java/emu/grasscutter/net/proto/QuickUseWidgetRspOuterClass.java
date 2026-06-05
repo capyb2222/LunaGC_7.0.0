@@ -254,7 +254,7 @@ public final class QuickUseWidgetRspOuterClass {
           paramCase_);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 11;
+    public static final int RETCODE_FIELD_NUMBER = 4;
     private int retcode_;
     /**
      * <code>int32 retcode = 11;</code>
@@ -265,7 +265,7 @@ public final class QuickUseWidgetRspOuterClass {
       return retcode_;
     }
 
-    public static final int MATERIAL_ID_FIELD_NUMBER = 6;
+    public static final int MATERIAL_ID_FIELD_NUMBER = 15;
     private int materialId_;
     /**
      * <code>uint32 material_id = 6;</code>
@@ -387,10 +387,10 @@ public final class QuickUseWidgetRspOuterClass {
         output.writeMessage(5, (emu.grasscutter.net.proto.OneoffGatherPointDetectorDataOuterClass.OneoffGatherPointDetectorData) param_);
       }
       if (materialId_ != 0) {
-        output.writeUInt32(6, materialId_);
+        output.writeUInt32(15, materialId_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(11, retcode_);
+        output.writeInt32(4, retcode_);
       }
       if (paramCase_ == 15) {
         output.writeMessage(15, (emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData) param_);
@@ -413,11 +413,11 @@ public final class QuickUseWidgetRspOuterClass {
       }
       if (materialId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, materialId_);
+          .computeUInt32Size(15, materialId_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(11, retcode_);
+          .computeInt32Size(4, retcode_);
       }
       if (paramCase_ == 15) {
         size += com.google.protobuf.CodedOutputStream

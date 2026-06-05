@@ -18,299 +18,70 @@ public final class SceneTeamAvatarOuterClass {
       // @@protoc_insertion_point(interface_extends:SceneTeamAvatar)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; weapon_guid count is 2. *&#47;
-     * </pre>
-     *
-     * <code>uint64 weapon_guid = 10;</code>
-     * @return The weaponGuid.
-     */
     long getWeaponGuid();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; avatar_guid count is 78. *&#47;
-     * </pre>
-     *
-     * <code>uint64 avatar_guid = 8;</code>
-     * @return The avatarGuid.
-     */
     long getAvatarGuid();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   /&#42; is_player_cur_avatar count is 1. *&#47;
-     * </pre>
-     *
-     * <code>bool is_player_cur_avatar = 5;</code>
-     * @return The isPlayerCurAvatar.
-     */
     boolean getIsPlayerCurAvatar();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   /&#42; is_on_scene count is 1. *&#47;
-     * </pre>
-     *
-     * <code>bool is_on_scene = 1318;</code>
-     * @return The isOnScene.
-     */
     boolean getIsOnScene();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; is_reconnect count is 2. *&#47;
-     * </pre>
-     *
-     * <code>bool is_reconnect = 9;</code>
-     * @return The isReconnect.
-     */
     boolean getIsReconnect();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; weapon_entity_id count is 2. *&#47;
-     * </pre>
-     *
-     * <code>uint32 weapon_entity_id = 13;</code>
-     * @return The weaponEntityId.
-     */
     int getWeaponEntityId();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; player_uid count is 35. *&#47;
-     * </pre>
-     *
-     * <code>uint32 player_uid = 7;</code>
-     * @return The playerUid.
-     */
     int getPlayerUid();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; scene_id count is 80. *&#47;
-     * </pre>
-     *
-     * <code>uint32 scene_id = 1;</code>
-     * @return The sceneId.
-     */
     int getSceneId();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; entity_id count is 185. *&#47;
-     * </pre>
-     *
-     * <code>uint32 entity_id = 2;</code>
-     * @return The entityId.
-     */
     int getEntityId();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
-     * </pre>
-     *
-     * <code>.AbilityControlBlock ability_control_block = 15;</code>
-     * @return Whether the abilityControlBlock field is set.
-     */
     boolean hasAbilityControlBlock();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
-     * </pre>
-     *
-     * <code>.AbilityControlBlock ability_control_block = 15;</code>
-     * @return The abilityControlBlock.
-     */
+
     emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock getAbilityControlBlock();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
-     * </pre>
-     *
-     * <code>.AbilityControlBlock ability_control_block = 15;</code>
-     */
+
     emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlockOrBuilder getAbilityControlBlockOrBuilder();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
-     * </pre>
-     *
-     * <code>.AvatarInfo avatar_info = 3;</code>
-     * @return Whether the avatarInfo field is set.
-     */
     boolean hasAvatarInfo();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
-     * </pre>
-     *
-     * <code>.AvatarInfo avatar_info = 3;</code>
-     * @return The avatarInfo.
-     */
+
     emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo getAvatarInfo();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
-     * </pre>
-     *
-     * <code>.AvatarInfo avatar_info = 3;</code>
-     */
+
     emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfoOrBuilder getAvatarInfoOrBuilder();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
-     * </pre>
-     *
-     * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
-     * @return Whether the weaponAbilityInfo field is set.
-     */
     boolean hasWeaponAbilityInfo();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
-     * </pre>
-     *
-     * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
-     * @return The weaponAbilityInfo.
-     */
+
     emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getWeaponAbilityInfo();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
-     * </pre>
-     *
-     * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
-     */
+
     emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder getWeaponAbilityInfoOrBuilder();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
-     * </pre>
-     *
-     * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
-     * @return Whether the avatarAbilityInfo field is set.
-     */
     boolean hasAvatarAbilityInfo();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
-     * </pre>
-     *
-     * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
-     * @return The avatarAbilityInfo.
-     */
+
     emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getAvatarAbilityInfo();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
-     * </pre>
-     *
-     * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
-     */
+
     emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder getAvatarAbilityInfoOrBuilder();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
-     * </pre>
-     *
-     * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
-     * @return Whether the sceneAvatarInfo field is set.
-     */
     boolean hasSceneAvatarInfo();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
-     * </pre>
-     *
-     * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
-     * @return The sceneAvatarInfo.
-     */
+
     emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfo getSceneAvatarInfo();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
-     * </pre>
-     *
-     * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
-     */
+
     emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfoOrBuilder getSceneAvatarInfoOrBuilder();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
-     * </pre>
-     *
-     * <code>.SceneEntityInfo scene_entity_info = 6;</code>
-     * @return Whether the sceneEntityInfo field is set.
-     */
     boolean hasSceneEntityInfo();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
-     * </pre>
-     *
-     * <code>.SceneEntityInfo scene_entity_info = 6;</code>
-     * @return The sceneEntityInfo.
-     */
+
     emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo getSceneEntityInfo();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
-     * </pre>
-     *
-     * <code>.SceneEntityInfo scene_entity_info = 6;</code>
-     */
+
     emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfoOrBuilder getSceneEntityInfoOrBuilder();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
-     * </pre>
-     *
-     * <code>repeated .ServerBuff server_buff_list = 4;</code>
-     */
-    java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff> 
+    java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff>
         getServerBuffListList();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
-     * </pre>
-     *
-     * <code>repeated .ServerBuff server_buff_list = 4;</code>
-     */
+
     emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff getServerBuffList(int index);
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
-     * </pre>
-     *
-     * <code>repeated .ServerBuff server_buff_list = 4;</code>
-     */
+
     int getServerBuffListCount();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
-     * </pre>
-     *
-     * <code>repeated .ServerBuff server_buff_list = 4;</code>
-     */
-    java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder> 
+
+    java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder>
         getServerBuffListOrBuilderList();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
-     * </pre>
-     *
-     * <code>repeated .ServerBuff server_buff_list = 4;</code>
-     */
+
     emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder getServerBuffListOrBuilder(
         int index);
   }
@@ -363,12 +134,12 @@ public final class SceneTeamAvatarOuterClass {
               break;
             case 8: {
 
-              sceneId_ = input.readUInt32();
+              isReconnect_ = input.readBool();
               break;
             }
             case 16: {
 
-              entityId_ = input.readUInt32();
+              weaponEntityId_ = input.readUInt32();
               break;
             }
             case 26: {
@@ -384,18 +155,22 @@ public final class SceneTeamAvatarOuterClass {
 
               break;
             }
-            case 34: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                serverBuffList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              serverBuffList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.parser(), extensionRegistry));
+            case 32: {
+
+              sceneId_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 42: {
+              emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder subBuilder = null;
+              if (weaponAbilityInfo_ != null) {
+                subBuilder = weaponAbilityInfo_.toBuilder();
+              }
+              weaponAbilityInfo_ = input.readMessage(emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(weaponAbilityInfo_);
+                weaponAbilityInfo_ = subBuilder.buildPartial();
+              }
 
-              isPlayerCurAvatar_ = input.readBool();
               break;
             }
             case 50: {
@@ -411,24 +186,44 @@ public final class SceneTeamAvatarOuterClass {
 
               break;
             }
-            case 56: {
-
-              playerUid_ = input.readUInt32();
+            case 58: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                serverBuffList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              serverBuffList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.parser(), extensionRegistry));
               break;
             }
-            case 64: {
+            case 66: {
+              emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfo.Builder subBuilder = null;
+              if (sceneAvatarInfo_ != null) {
+                subBuilder = sceneAvatarInfo_.toBuilder();
+              }
+              sceneAvatarInfo_ = input.readMessage(emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfo.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(sceneAvatarInfo_);
+                sceneAvatarInfo_ = subBuilder.buildPartial();
+              }
 
-              avatarGuid_ = input.readUInt64();
               break;
             }
             case 72: {
 
-              isReconnect_ = input.readBool();
+              weaponGuid_ = input.readUInt64();
               break;
             }
-            case 80: {
+            case 82: {
+              emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock.Builder subBuilder = null;
+              if (abilityControlBlock_ != null) {
+                subBuilder = abilityControlBlock_.toBuilder();
+              }
+              abilityControlBlock_ = input.readMessage(emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(abilityControlBlock_);
+                abilityControlBlock_ = subBuilder.buildPartial();
+              }
 
-              weaponGuid_ = input.readUInt64();
               break;
             }
             case 90: {
@@ -444,51 +239,27 @@ public final class SceneTeamAvatarOuterClass {
 
               break;
             }
-            case 98: {
-              emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfo.Builder subBuilder = null;
-              if (sceneAvatarInfo_ != null) {
-                subBuilder = sceneAvatarInfo_.toBuilder();
-              }
-              sceneAvatarInfo_ = input.readMessage(emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfo.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(sceneAvatarInfo_);
-                sceneAvatarInfo_ = subBuilder.buildPartial();
-              }
+            case 96: {
 
+              entityId_ = input.readUInt32();
               break;
             }
             case 104: {
 
-              weaponEntityId_ = input.readUInt32();
+              playerUid_ = input.readUInt32();
               break;
             }
-            case 114: {
-              emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder subBuilder = null;
-              if (weaponAbilityInfo_ != null) {
-                subBuilder = weaponAbilityInfo_.toBuilder();
-              }
-              weaponAbilityInfo_ = input.readMessage(emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(weaponAbilityInfo_);
-                weaponAbilityInfo_ = subBuilder.buildPartial();
-              }
+            case 112: {
 
+              isPlayerCurAvatar_ = input.readBool();
               break;
             }
-            case 122: {
-              emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock.Builder subBuilder = null;
-              if (abilityControlBlock_ != null) {
-                subBuilder = abilityControlBlock_.toBuilder();
-              }
-              abilityControlBlock_ = input.readMessage(emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(abilityControlBlock_);
-                abilityControlBlock_ = subBuilder.buildPartial();
-              }
+            case 120: {
 
+              avatarGuid_ = input.readUInt64();
               break;
             }
-            case 10544: {
+            case 8432: {
 
               isOnScene_ = input.readBool();
               break;
@@ -528,174 +299,91 @@ public final class SceneTeamAvatarOuterClass {
               emu.grasscutter.net.proto.SceneTeamAvatarOuterClass.SceneTeamAvatar.class, emu.grasscutter.net.proto.SceneTeamAvatarOuterClass.SceneTeamAvatar.Builder.class);
     }
 
-    public static final int WEAPON_GUID_FIELD_NUMBER = 10;
+    public static final int WEAPON_GUID_FIELD_NUMBER = 9;
     private long weaponGuid_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; weapon_guid count is 2. *&#47;
-     * </pre>
-     *
-     * <code>uint64 weapon_guid = 10;</code>
-     * @return The weaponGuid.
-     */
+
     @java.lang.Override
     public long getWeaponGuid() {
       return weaponGuid_;
     }
 
-    public static final int AVATAR_GUID_FIELD_NUMBER = 8;
+    public static final int AVATAR_GUID_FIELD_NUMBER = 15;
     private long avatarGuid_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; avatar_guid count is 78. *&#47;
-     * </pre>
-     *
-     * <code>uint64 avatar_guid = 8;</code>
-     * @return The avatarGuid.
-     */
+
     @java.lang.Override
     public long getAvatarGuid() {
       return avatarGuid_;
     }
 
-    public static final int IS_PLAYER_CUR_AVATAR_FIELD_NUMBER = 5;
+    public static final int IS_PLAYER_CUR_AVATAR_FIELD_NUMBER = 14;
     private boolean isPlayerCurAvatar_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   /&#42; is_player_cur_avatar count is 1. *&#47;
-     * </pre>
-     *
-     * <code>bool is_player_cur_avatar = 5;</code>
-     * @return The isPlayerCurAvatar.
-     */
+
     @java.lang.Override
     public boolean getIsPlayerCurAvatar() {
       return isPlayerCurAvatar_;
     }
 
-    public static final int IS_ON_SCENE_FIELD_NUMBER = 1318;
+    public static final int IS_ON_SCENE_FIELD_NUMBER = 1054;
     private boolean isOnScene_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   /&#42; is_on_scene count is 1. *&#47;
-     * </pre>
-     *
-     * <code>bool is_on_scene = 1318;</code>
-     * @return The isOnScene.
-     */
+
     @java.lang.Override
     public boolean getIsOnScene() {
       return isOnScene_;
     }
 
-    public static final int IS_RECONNECT_FIELD_NUMBER = 9;
+    public static final int IS_RECONNECT_FIELD_NUMBER = 1;
     private boolean isReconnect_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; is_reconnect count is 2. *&#47;
-     * </pre>
-     *
-     * <code>bool is_reconnect = 9;</code>
-     * @return The isReconnect.
-     */
+
     @java.lang.Override
     public boolean getIsReconnect() {
       return isReconnect_;
     }
 
-    public static final int WEAPON_ENTITY_ID_FIELD_NUMBER = 13;
+    public static final int WEAPON_ENTITY_ID_FIELD_NUMBER = 2;
     private int weaponEntityId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; weapon_entity_id count is 2. *&#47;
-     * </pre>
-     *
-     * <code>uint32 weapon_entity_id = 13;</code>
-     * @return The weaponEntityId.
-     */
+
     @java.lang.Override
     public int getWeaponEntityId() {
       return weaponEntityId_;
     }
 
-    public static final int PLAYER_UID_FIELD_NUMBER = 7;
+    public static final int PLAYER_UID_FIELD_NUMBER = 13;
     private int playerUid_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; player_uid count is 35. *&#47;
-     * </pre>
-     *
-     * <code>uint32 player_uid = 7;</code>
-     * @return The playerUid.
-     */
+
     @java.lang.Override
     public int getPlayerUid() {
       return playerUid_;
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 1;
+    public static final int SCENE_ID_FIELD_NUMBER = 4;
     private int sceneId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; scene_id count is 80. *&#47;
-     * </pre>
-     *
-     * <code>uint32 scene_id = 1;</code>
-     * @return The sceneId.
-     */
+
     @java.lang.Override
     public int getSceneId() {
       return sceneId_;
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 2;
+    public static final int ENTITY_ID_FIELD_NUMBER = 12;
     private int entityId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; entity_id count is 185. *&#47;
-     * </pre>
-     *
-     * <code>uint32 entity_id = 2;</code>
-     * @return The entityId.
-     */
+
     @java.lang.Override
     public int getEntityId() {
       return entityId_;
     }
 
-    public static final int ABILITY_CONTROL_BLOCK_FIELD_NUMBER = 15;
+    public static final int ABILITY_CONTROL_BLOCK_FIELD_NUMBER = 10;
     private emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock abilityControlBlock_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
-     * </pre>
-     *
-     * <code>.AbilityControlBlock ability_control_block = 15;</code>
-     * @return Whether the abilityControlBlock field is set.
-     */
+
     @java.lang.Override
     public boolean hasAbilityControlBlock() {
       return abilityControlBlock_ != null;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
-     * </pre>
-     *
-     * <code>.AbilityControlBlock ability_control_block = 15;</code>
-     * @return The abilityControlBlock.
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock getAbilityControlBlock() {
       return abilityControlBlock_ == null ? emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock.getDefaultInstance() : abilityControlBlock_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
-     * </pre>
-     *
-     * <code>.AbilityControlBlock ability_control_block = 15;</code>
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlockOrBuilder getAbilityControlBlockOrBuilder() {
       return getAbilityControlBlock();
@@ -703,75 +391,35 @@ public final class SceneTeamAvatarOuterClass {
 
     public static final int AVATAR_INFO_FIELD_NUMBER = 3;
     private emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo avatarInfo_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
-     * </pre>
-     *
-     * <code>.AvatarInfo avatar_info = 3;</code>
-     * @return Whether the avatarInfo field is set.
-     */
+
     @java.lang.Override
     public boolean hasAvatarInfo() {
       return avatarInfo_ != null;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
-     * </pre>
-     *
-     * <code>.AvatarInfo avatar_info = 3;</code>
-     * @return The avatarInfo.
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo getAvatarInfo() {
       return avatarInfo_ == null ? emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo.getDefaultInstance() : avatarInfo_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
-     * </pre>
-     *
-     * <code>.AvatarInfo avatar_info = 3;</code>
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfoOrBuilder getAvatarInfoOrBuilder() {
       return getAvatarInfo();
     }
 
-    public static final int WEAPON_ABILITY_INFO_FIELD_NUMBER = 14;
+    public static final int WEAPON_ABILITY_INFO_FIELD_NUMBER = 5;
     private emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo weaponAbilityInfo_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
-     * </pre>
-     *
-     * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
-     * @return Whether the weaponAbilityInfo field is set.
-     */
+
     @java.lang.Override
     public boolean hasWeaponAbilityInfo() {
       return weaponAbilityInfo_ != null;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
-     * </pre>
-     *
-     * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
-     * @return The weaponAbilityInfo.
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getWeaponAbilityInfo() {
       return weaponAbilityInfo_ == null ? emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.getDefaultInstance() : weaponAbilityInfo_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
-     * </pre>
-     *
-     * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder getWeaponAbilityInfoOrBuilder() {
       return getWeaponAbilityInfo();
@@ -779,75 +427,35 @@ public final class SceneTeamAvatarOuterClass {
 
     public static final int AVATAR_ABILITY_INFO_FIELD_NUMBER = 11;
     private emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo avatarAbilityInfo_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
-     * </pre>
-     *
-     * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
-     * @return Whether the avatarAbilityInfo field is set.
-     */
+
     @java.lang.Override
     public boolean hasAvatarAbilityInfo() {
       return avatarAbilityInfo_ != null;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
-     * </pre>
-     *
-     * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
-     * @return The avatarAbilityInfo.
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getAvatarAbilityInfo() {
       return avatarAbilityInfo_ == null ? emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.getDefaultInstance() : avatarAbilityInfo_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
-     * </pre>
-     *
-     * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder getAvatarAbilityInfoOrBuilder() {
       return getAvatarAbilityInfo();
     }
 
-    public static final int SCENE_AVATAR_INFO_FIELD_NUMBER = 12;
+    public static final int SCENE_AVATAR_INFO_FIELD_NUMBER = 8;
     private emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfo sceneAvatarInfo_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
-     * </pre>
-     *
-     * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
-     * @return Whether the sceneAvatarInfo field is set.
-     */
+
     @java.lang.Override
     public boolean hasSceneAvatarInfo() {
       return sceneAvatarInfo_ != null;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
-     * </pre>
-     *
-     * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
-     * @return The sceneAvatarInfo.
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfo getSceneAvatarInfo() {
       return sceneAvatarInfo_ == null ? emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfo.getDefaultInstance() : sceneAvatarInfo_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
-     * </pre>
-     *
-     * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfoOrBuilder getSceneAvatarInfoOrBuilder() {
       return getSceneAvatarInfo();
@@ -855,96 +463,46 @@ public final class SceneTeamAvatarOuterClass {
 
     public static final int SCENE_ENTITY_INFO_FIELD_NUMBER = 6;
     private emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo sceneEntityInfo_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
-     * </pre>
-     *
-     * <code>.SceneEntityInfo scene_entity_info = 6;</code>
-     * @return Whether the sceneEntityInfo field is set.
-     */
+
     @java.lang.Override
     public boolean hasSceneEntityInfo() {
       return sceneEntityInfo_ != null;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
-     * </pre>
-     *
-     * <code>.SceneEntityInfo scene_entity_info = 6;</code>
-     * @return The sceneEntityInfo.
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo getSceneEntityInfo() {
       return sceneEntityInfo_ == null ? emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo.getDefaultInstance() : sceneEntityInfo_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
-     * </pre>
-     *
-     * <code>.SceneEntityInfo scene_entity_info = 6;</code>
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfoOrBuilder getSceneEntityInfoOrBuilder() {
       return getSceneEntityInfo();
     }
 
-    public static final int SERVER_BUFF_LIST_FIELD_NUMBER = 4;
+    public static final int SERVER_BUFF_LIST_FIELD_NUMBER = 7;
     private java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff> serverBuffList_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
-     * </pre>
-     *
-     * <code>repeated .ServerBuff server_buff_list = 4;</code>
-     */
+
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff> getServerBuffListList() {
       return serverBuffList_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
-     * </pre>
-     *
-     * <code>repeated .ServerBuff server_buff_list = 4;</code>
-     */
+
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder>
         getServerBuffListOrBuilderList() {
       return serverBuffList_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
-     * </pre>
-     *
-     * <code>repeated .ServerBuff server_buff_list = 4;</code>
-     */
+
     @java.lang.Override
     public int getServerBuffListCount() {
       return serverBuffList_.size();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
-     * </pre>
-     *
-     * <code>repeated .ServerBuff server_buff_list = 4;</code>
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff getServerBuffList(int index) {
       return serverBuffList_.get(index);
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
-     * </pre>
-     *
-     * <code>repeated .ServerBuff server_buff_list = 4;</code>
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder getServerBuffListOrBuilder(
         int index) {
@@ -966,52 +524,52 @@ public final class SceneTeamAvatarOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (sceneId_ != 0) {
-        output.writeUInt32(1, sceneId_);
+        output.writeUInt32(4, sceneId_);
       }
       if (entityId_ != 0) {
-        output.writeUInt32(2, entityId_);
+        output.writeUInt32(12, entityId_);
       }
       if (avatarInfo_ != null) {
         output.writeMessage(3, getAvatarInfo());
       }
       for (int i = 0; i < serverBuffList_.size(); i++) {
-        output.writeMessage(4, serverBuffList_.get(i));
+        output.writeMessage(7, serverBuffList_.get(i));
       }
       if (isPlayerCurAvatar_ != false) {
-        output.writeBool(5, isPlayerCurAvatar_);
+        output.writeBool(14, isPlayerCurAvatar_);
       }
       if (sceneEntityInfo_ != null) {
         output.writeMessage(6, getSceneEntityInfo());
       }
       if (playerUid_ != 0) {
-        output.writeUInt32(7, playerUid_);
+        output.writeUInt32(13, playerUid_);
       }
       if (avatarGuid_ != 0L) {
-        output.writeUInt64(8, avatarGuid_);
+        output.writeUInt64(15, avatarGuid_);
       }
       if (isReconnect_ != false) {
-        output.writeBool(9, isReconnect_);
+        output.writeBool(1, isReconnect_);
       }
       if (weaponGuid_ != 0L) {
-        output.writeUInt64(10, weaponGuid_);
+        output.writeUInt64(9, weaponGuid_);
       }
       if (avatarAbilityInfo_ != null) {
         output.writeMessage(11, getAvatarAbilityInfo());
       }
       if (sceneAvatarInfo_ != null) {
-        output.writeMessage(12, getSceneAvatarInfo());
+        output.writeMessage(8, getSceneAvatarInfo());
       }
       if (weaponEntityId_ != 0) {
-        output.writeUInt32(13, weaponEntityId_);
+        output.writeUInt32(2, weaponEntityId_);
       }
       if (weaponAbilityInfo_ != null) {
-        output.writeMessage(14, getWeaponAbilityInfo());
+        output.writeMessage(5, getWeaponAbilityInfo());
       }
       if (abilityControlBlock_ != null) {
-        output.writeMessage(15, getAbilityControlBlock());
+        output.writeMessage(10, getAbilityControlBlock());
       }
       if (isOnScene_ != false) {
-        output.writeBool(1318, isOnScene_);
+        output.writeBool(1054, isOnScene_);
       }
       unknownFields.writeTo(output);
     }
@@ -1024,11 +582,11 @@ public final class SceneTeamAvatarOuterClass {
       size = 0;
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, sceneId_);
+          .computeUInt32Size(4, sceneId_);
       }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, entityId_);
+          .computeUInt32Size(12, entityId_);
       }
       if (avatarInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -1036,11 +594,11 @@ public final class SceneTeamAvatarOuterClass {
       }
       for (int i = 0; i < serverBuffList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, serverBuffList_.get(i));
+          .computeMessageSize(7, serverBuffList_.get(i));
       }
       if (isPlayerCurAvatar_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, isPlayerCurAvatar_);
+          .computeBoolSize(14, isPlayerCurAvatar_);
       }
       if (sceneEntityInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -1048,19 +606,19 @@ public final class SceneTeamAvatarOuterClass {
       }
       if (playerUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, playerUid_);
+          .computeUInt32Size(13, playerUid_);
       }
       if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(8, avatarGuid_);
+          .computeUInt64Size(15, avatarGuid_);
       }
       if (isReconnect_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isReconnect_);
+          .computeBoolSize(1, isReconnect_);
       }
       if (weaponGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(10, weaponGuid_);
+          .computeUInt64Size(9, weaponGuid_);
       }
       if (avatarAbilityInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -1068,23 +626,23 @@ public final class SceneTeamAvatarOuterClass {
       }
       if (sceneAvatarInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, getSceneAvatarInfo());
+          .computeMessageSize(8, getSceneAvatarInfo());
       }
       if (weaponEntityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, weaponEntityId_);
+          .computeUInt32Size(2, weaponEntityId_);
       }
       if (weaponAbilityInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, getWeaponAbilityInfo());
+          .computeMessageSize(5, getWeaponAbilityInfo());
       }
       if (abilityControlBlock_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, getAbilityControlBlock());
+          .computeMessageSize(10, getAbilityControlBlock());
       }
       if (isOnScene_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1318, isOnScene_);
+          .computeBoolSize(1054, isOnScene_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1593,7 +1151,7 @@ public final class SceneTeamAvatarOuterClass {
               serverBuffListBuilder_ = null;
               serverBuffList_ = other.serverBuffList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              serverBuffListBuilder_ = 
+              serverBuffListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getServerBuffListFieldBuilder() : null;
             } else {
@@ -1632,387 +1190,189 @@ public final class SceneTeamAvatarOuterClass {
       private int bitField0_;
 
       private long weaponGuid_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; weapon_guid count is 2. *&#47;
-       * </pre>
-       *
-       * <code>uint64 weapon_guid = 10;</code>
-       * @return The weaponGuid.
-       */
+
       @java.lang.Override
       public long getWeaponGuid() {
         return weaponGuid_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; weapon_guid count is 2. *&#47;
-       * </pre>
-       *
-       * <code>uint64 weapon_guid = 10;</code>
-       * @param value The weaponGuid to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setWeaponGuid(long value) {
-        
+
         weaponGuid_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; weapon_guid count is 2. *&#47;
-       * </pre>
-       *
-       * <code>uint64 weapon_guid = 10;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearWeaponGuid() {
-        
+
         weaponGuid_ = 0L;
         onChanged();
         return this;
       }
 
       private long avatarGuid_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; avatar_guid count is 78. *&#47;
-       * </pre>
-       *
-       * <code>uint64 avatar_guid = 8;</code>
-       * @return The avatarGuid.
-       */
+
       @java.lang.Override
       public long getAvatarGuid() {
         return avatarGuid_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; avatar_guid count is 78. *&#47;
-       * </pre>
-       *
-       * <code>uint64 avatar_guid = 8;</code>
-       * @param value The avatarGuid to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setAvatarGuid(long value) {
-        
+
         avatarGuid_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; avatar_guid count is 78. *&#47;
-       * </pre>
-       *
-       * <code>uint64 avatar_guid = 8;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearAvatarGuid() {
-        
+
         avatarGuid_ = 0L;
         onChanged();
         return this;
       }
 
       private boolean isPlayerCurAvatar_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   /&#42; is_player_cur_avatar count is 1. *&#47;
-       * </pre>
-       *
-       * <code>bool is_player_cur_avatar = 5;</code>
-       * @return The isPlayerCurAvatar.
-       */
+
       @java.lang.Override
       public boolean getIsPlayerCurAvatar() {
         return isPlayerCurAvatar_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   /&#42; is_player_cur_avatar count is 1. *&#47;
-       * </pre>
-       *
-       * <code>bool is_player_cur_avatar = 5;</code>
-       * @param value The isPlayerCurAvatar to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setIsPlayerCurAvatar(boolean value) {
-        
+
         isPlayerCurAvatar_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   /&#42; is_player_cur_avatar count is 1. *&#47;
-       * </pre>
-       *
-       * <code>bool is_player_cur_avatar = 5;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearIsPlayerCurAvatar() {
-        
+
         isPlayerCurAvatar_ = false;
         onChanged();
         return this;
       }
 
       private boolean isOnScene_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   /&#42; is_on_scene count is 1. *&#47;
-       * </pre>
-       *
-       * <code>bool is_on_scene = 1318;</code>
-       * @return The isOnScene.
-       */
+
       @java.lang.Override
       public boolean getIsOnScene() {
         return isOnScene_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   /&#42; is_on_scene count is 1. *&#47;
-       * </pre>
-       *
-       * <code>bool is_on_scene = 1318;</code>
-       * @param value The isOnScene to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setIsOnScene(boolean value) {
-        
+
         isOnScene_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   /&#42; is_on_scene count is 1. *&#47;
-       * </pre>
-       *
-       * <code>bool is_on_scene = 1318;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearIsOnScene() {
-        
+
         isOnScene_ = false;
         onChanged();
         return this;
       }
 
       private boolean isReconnect_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; is_reconnect count is 2. *&#47;
-       * </pre>
-       *
-       * <code>bool is_reconnect = 9;</code>
-       * @return The isReconnect.
-       */
+
       @java.lang.Override
       public boolean getIsReconnect() {
         return isReconnect_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; is_reconnect count is 2. *&#47;
-       * </pre>
-       *
-       * <code>bool is_reconnect = 9;</code>
-       * @param value The isReconnect to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setIsReconnect(boolean value) {
-        
+
         isReconnect_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; is_reconnect count is 2. *&#47;
-       * </pre>
-       *
-       * <code>bool is_reconnect = 9;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearIsReconnect() {
-        
+
         isReconnect_ = false;
         onChanged();
         return this;
       }
 
       private int weaponEntityId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; weapon_entity_id count is 2. *&#47;
-       * </pre>
-       *
-       * <code>uint32 weapon_entity_id = 13;</code>
-       * @return The weaponEntityId.
-       */
+
       @java.lang.Override
       public int getWeaponEntityId() {
         return weaponEntityId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; weapon_entity_id count is 2. *&#47;
-       * </pre>
-       *
-       * <code>uint32 weapon_entity_id = 13;</code>
-       * @param value The weaponEntityId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setWeaponEntityId(int value) {
-        
+
         weaponEntityId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; weapon_entity_id count is 2. *&#47;
-       * </pre>
-       *
-       * <code>uint32 weapon_entity_id = 13;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearWeaponEntityId() {
-        
+
         weaponEntityId_ = 0;
         onChanged();
         return this;
       }
 
       private int playerUid_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; player_uid count is 35. *&#47;
-       * </pre>
-       *
-       * <code>uint32 player_uid = 7;</code>
-       * @return The playerUid.
-       */
+
       @java.lang.Override
       public int getPlayerUid() {
         return playerUid_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; player_uid count is 35. *&#47;
-       * </pre>
-       *
-       * <code>uint32 player_uid = 7;</code>
-       * @param value The playerUid to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setPlayerUid(int value) {
-        
+
         playerUid_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; player_uid count is 35. *&#47;
-       * </pre>
-       *
-       * <code>uint32 player_uid = 7;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearPlayerUid() {
-        
+
         playerUid_ = 0;
         onChanged();
         return this;
       }
 
       private int sceneId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_id count is 80. *&#47;
-       * </pre>
-       *
-       * <code>uint32 scene_id = 1;</code>
-       * @return The sceneId.
-       */
+
       @java.lang.Override
       public int getSceneId() {
         return sceneId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_id count is 80. *&#47;
-       * </pre>
-       *
-       * <code>uint32 scene_id = 1;</code>
-       * @param value The sceneId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setSceneId(int value) {
-        
+
         sceneId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_id count is 80. *&#47;
-       * </pre>
-       *
-       * <code>uint32 scene_id = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearSceneId() {
-        
+
         sceneId_ = 0;
         onChanged();
         return this;
       }
 
       private int entityId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; entity_id count is 185. *&#47;
-       * </pre>
-       *
-       * <code>uint32 entity_id = 2;</code>
-       * @return The entityId.
-       */
+
       @java.lang.Override
       public int getEntityId() {
         return entityId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; entity_id count is 185. *&#47;
-       * </pre>
-       *
-       * <code>uint32 entity_id = 2;</code>
-       * @param value The entityId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; entity_id count is 185. *&#47;
-       * </pre>
-       *
-       * <code>uint32 entity_id = 2;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -2021,25 +1381,11 @@ public final class SceneTeamAvatarOuterClass {
       private emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock abilityControlBlock_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock, emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock.Builder, emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlockOrBuilder> abilityControlBlockBuilder_;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
-       * </pre>
-       *
-       * <code>.AbilityControlBlock ability_control_block = 15;</code>
-       * @return Whether the abilityControlBlock field is set.
-       */
+
       public boolean hasAbilityControlBlock() {
         return abilityControlBlockBuilder_ != null || abilityControlBlock_ != null;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
-       * </pre>
-       *
-       * <code>.AbilityControlBlock ability_control_block = 15;</code>
-       * @return The abilityControlBlock.
-       */
+
       public emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock getAbilityControlBlock() {
         if (abilityControlBlockBuilder_ == null) {
           return abilityControlBlock_ == null ? emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock.getDefaultInstance() : abilityControlBlock_;
@@ -2047,13 +1393,7 @@ public final class SceneTeamAvatarOuterClass {
           return abilityControlBlockBuilder_.getMessage();
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
-       * </pre>
-       *
-       * <code>.AbilityControlBlock ability_control_block = 15;</code>
-       */
+
       public Builder setAbilityControlBlock(emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock value) {
         if (abilityControlBlockBuilder_ == null) {
           if (value == null) {
@@ -2067,13 +1407,7 @@ public final class SceneTeamAvatarOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
-       * </pre>
-       *
-       * <code>.AbilityControlBlock ability_control_block = 15;</code>
-       */
+
       public Builder setAbilityControlBlock(
           emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock.Builder builderForValue) {
         if (abilityControlBlockBuilder_ == null) {
@@ -2085,13 +1419,7 @@ public final class SceneTeamAvatarOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
-       * </pre>
-       *
-       * <code>.AbilityControlBlock ability_control_block = 15;</code>
-       */
+
       public Builder mergeAbilityControlBlock(emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock value) {
         if (abilityControlBlockBuilder_ == null) {
           if (abilityControlBlock_ != null) {
@@ -2107,13 +1435,7 @@ public final class SceneTeamAvatarOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
-       * </pre>
-       *
-       * <code>.AbilityControlBlock ability_control_block = 15;</code>
-       */
+
       public Builder clearAbilityControlBlock() {
         if (abilityControlBlockBuilder_ == null) {
           abilityControlBlock_ = null;
@@ -2125,25 +1447,13 @@ public final class SceneTeamAvatarOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
-       * </pre>
-       *
-       * <code>.AbilityControlBlock ability_control_block = 15;</code>
-       */
+
       public emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock.Builder getAbilityControlBlockBuilder() {
-        
+
         onChanged();
         return getAbilityControlBlockFieldBuilder().getBuilder();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
-       * </pre>
-       *
-       * <code>.AbilityControlBlock ability_control_block = 15;</code>
-       */
+
       public emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlockOrBuilder getAbilityControlBlockOrBuilder() {
         if (abilityControlBlockBuilder_ != null) {
           return abilityControlBlockBuilder_.getMessageOrBuilder();
@@ -2152,15 +1462,9 @@ public final class SceneTeamAvatarOuterClass {
               emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock.getDefaultInstance() : abilityControlBlock_;
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
-       * </pre>
-       *
-       * <code>.AbilityControlBlock ability_control_block = 15;</code>
-       */
+
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock, emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock.Builder, emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlockOrBuilder> 
+          emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock, emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock.Builder, emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlockOrBuilder>
           getAbilityControlBlockFieldBuilder() {
         if (abilityControlBlockBuilder_ == null) {
           abilityControlBlockBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2176,25 +1480,11 @@ public final class SceneTeamAvatarOuterClass {
       private emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo avatarInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo, emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo.Builder, emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfoOrBuilder> avatarInfoBuilder_;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
-       * </pre>
-       *
-       * <code>.AvatarInfo avatar_info = 3;</code>
-       * @return Whether the avatarInfo field is set.
-       */
+
       public boolean hasAvatarInfo() {
         return avatarInfoBuilder_ != null || avatarInfo_ != null;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
-       * </pre>
-       *
-       * <code>.AvatarInfo avatar_info = 3;</code>
-       * @return The avatarInfo.
-       */
+
       public emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo getAvatarInfo() {
         if (avatarInfoBuilder_ == null) {
           return avatarInfo_ == null ? emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo.getDefaultInstance() : avatarInfo_;
@@ -2202,13 +1492,7 @@ public final class SceneTeamAvatarOuterClass {
           return avatarInfoBuilder_.getMessage();
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
-       * </pre>
-       *
-       * <code>.AvatarInfo avatar_info = 3;</code>
-       */
+
       public Builder setAvatarInfo(emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo value) {
         if (avatarInfoBuilder_ == null) {
           if (value == null) {
@@ -2222,13 +1506,7 @@ public final class SceneTeamAvatarOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
-       * </pre>
-       *
-       * <code>.AvatarInfo avatar_info = 3;</code>
-       */
+
       public Builder setAvatarInfo(
           emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo.Builder builderForValue) {
         if (avatarInfoBuilder_ == null) {
@@ -2240,13 +1518,7 @@ public final class SceneTeamAvatarOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
-       * </pre>
-       *
-       * <code>.AvatarInfo avatar_info = 3;</code>
-       */
+
       public Builder mergeAvatarInfo(emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo value) {
         if (avatarInfoBuilder_ == null) {
           if (avatarInfo_ != null) {
@@ -2262,13 +1534,7 @@ public final class SceneTeamAvatarOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
-       * </pre>
-       *
-       * <code>.AvatarInfo avatar_info = 3;</code>
-       */
+
       public Builder clearAvatarInfo() {
         if (avatarInfoBuilder_ == null) {
           avatarInfo_ = null;
@@ -2280,25 +1546,13 @@ public final class SceneTeamAvatarOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
-       * </pre>
-       *
-       * <code>.AvatarInfo avatar_info = 3;</code>
-       */
+
       public emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo.Builder getAvatarInfoBuilder() {
-        
+
         onChanged();
         return getAvatarInfoFieldBuilder().getBuilder();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
-       * </pre>
-       *
-       * <code>.AvatarInfo avatar_info = 3;</code>
-       */
+
       public emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfoOrBuilder getAvatarInfoOrBuilder() {
         if (avatarInfoBuilder_ != null) {
           return avatarInfoBuilder_.getMessageOrBuilder();
@@ -2307,15 +1561,9 @@ public final class SceneTeamAvatarOuterClass {
               emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo.getDefaultInstance() : avatarInfo_;
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
-       * </pre>
-       *
-       * <code>.AvatarInfo avatar_info = 3;</code>
-       */
+
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo, emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo.Builder, emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfoOrBuilder> 
+          emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo, emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo.Builder, emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfoOrBuilder>
           getAvatarInfoFieldBuilder() {
         if (avatarInfoBuilder_ == null) {
           avatarInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2331,25 +1579,11 @@ public final class SceneTeamAvatarOuterClass {
       private emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo weaponAbilityInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder> weaponAbilityInfoBuilder_;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
-       * </pre>
-       *
-       * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
-       * @return Whether the weaponAbilityInfo field is set.
-       */
+
       public boolean hasWeaponAbilityInfo() {
         return weaponAbilityInfoBuilder_ != null || weaponAbilityInfo_ != null;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
-       * </pre>
-       *
-       * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
-       * @return The weaponAbilityInfo.
-       */
+
       public emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getWeaponAbilityInfo() {
         if (weaponAbilityInfoBuilder_ == null) {
           return weaponAbilityInfo_ == null ? emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.getDefaultInstance() : weaponAbilityInfo_;
@@ -2357,13 +1591,7 @@ public final class SceneTeamAvatarOuterClass {
           return weaponAbilityInfoBuilder_.getMessage();
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
-       * </pre>
-       *
-       * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
-       */
+
       public Builder setWeaponAbilityInfo(emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo value) {
         if (weaponAbilityInfoBuilder_ == null) {
           if (value == null) {
@@ -2377,13 +1605,7 @@ public final class SceneTeamAvatarOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
-       * </pre>
-       *
-       * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
-       */
+
       public Builder setWeaponAbilityInfo(
           emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder builderForValue) {
         if (weaponAbilityInfoBuilder_ == null) {
@@ -2395,13 +1617,7 @@ public final class SceneTeamAvatarOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
-       * </pre>
-       *
-       * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
-       */
+
       public Builder mergeWeaponAbilityInfo(emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo value) {
         if (weaponAbilityInfoBuilder_ == null) {
           if (weaponAbilityInfo_ != null) {
@@ -2417,13 +1633,7 @@ public final class SceneTeamAvatarOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
-       * </pre>
-       *
-       * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
-       */
+
       public Builder clearWeaponAbilityInfo() {
         if (weaponAbilityInfoBuilder_ == null) {
           weaponAbilityInfo_ = null;
@@ -2435,25 +1645,13 @@ public final class SceneTeamAvatarOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
-       * </pre>
-       *
-       * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
-       */
+
       public emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder getWeaponAbilityInfoBuilder() {
-        
+
         onChanged();
         return getWeaponAbilityInfoFieldBuilder().getBuilder();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
-       * </pre>
-       *
-       * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
-       */
+
       public emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder getWeaponAbilityInfoOrBuilder() {
         if (weaponAbilityInfoBuilder_ != null) {
           return weaponAbilityInfoBuilder_.getMessageOrBuilder();
@@ -2462,15 +1660,9 @@ public final class SceneTeamAvatarOuterClass {
               emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.getDefaultInstance() : weaponAbilityInfo_;
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
-       * </pre>
-       *
-       * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
-       */
+
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder> 
+          emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder>
           getWeaponAbilityInfoFieldBuilder() {
         if (weaponAbilityInfoBuilder_ == null) {
           weaponAbilityInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2486,25 +1678,11 @@ public final class SceneTeamAvatarOuterClass {
       private emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo avatarAbilityInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder> avatarAbilityInfoBuilder_;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
-       * </pre>
-       *
-       * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
-       * @return Whether the avatarAbilityInfo field is set.
-       */
+
       public boolean hasAvatarAbilityInfo() {
         return avatarAbilityInfoBuilder_ != null || avatarAbilityInfo_ != null;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
-       * </pre>
-       *
-       * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
-       * @return The avatarAbilityInfo.
-       */
+
       public emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getAvatarAbilityInfo() {
         if (avatarAbilityInfoBuilder_ == null) {
           return avatarAbilityInfo_ == null ? emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.getDefaultInstance() : avatarAbilityInfo_;
@@ -2512,13 +1690,7 @@ public final class SceneTeamAvatarOuterClass {
           return avatarAbilityInfoBuilder_.getMessage();
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
-       * </pre>
-       *
-       * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
-       */
+
       public Builder setAvatarAbilityInfo(emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo value) {
         if (avatarAbilityInfoBuilder_ == null) {
           if (value == null) {
@@ -2532,13 +1704,7 @@ public final class SceneTeamAvatarOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
-       * </pre>
-       *
-       * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
-       */
+
       public Builder setAvatarAbilityInfo(
           emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder builderForValue) {
         if (avatarAbilityInfoBuilder_ == null) {
@@ -2550,13 +1716,7 @@ public final class SceneTeamAvatarOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
-       * </pre>
-       *
-       * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
-       */
+
       public Builder mergeAvatarAbilityInfo(emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo value) {
         if (avatarAbilityInfoBuilder_ == null) {
           if (avatarAbilityInfo_ != null) {
@@ -2572,13 +1732,7 @@ public final class SceneTeamAvatarOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
-       * </pre>
-       *
-       * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
-       */
+
       public Builder clearAvatarAbilityInfo() {
         if (avatarAbilityInfoBuilder_ == null) {
           avatarAbilityInfo_ = null;
@@ -2590,25 +1744,13 @@ public final class SceneTeamAvatarOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
-       * </pre>
-       *
-       * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
-       */
+
       public emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder getAvatarAbilityInfoBuilder() {
-        
+
         onChanged();
         return getAvatarAbilityInfoFieldBuilder().getBuilder();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
-       * </pre>
-       *
-       * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
-       */
+
       public emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder getAvatarAbilityInfoOrBuilder() {
         if (avatarAbilityInfoBuilder_ != null) {
           return avatarAbilityInfoBuilder_.getMessageOrBuilder();
@@ -2617,15 +1759,9 @@ public final class SceneTeamAvatarOuterClass {
               emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.getDefaultInstance() : avatarAbilityInfo_;
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
-       * </pre>
-       *
-       * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
-       */
+
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder> 
+          emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder>
           getAvatarAbilityInfoFieldBuilder() {
         if (avatarAbilityInfoBuilder_ == null) {
           avatarAbilityInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2641,25 +1777,11 @@ public final class SceneTeamAvatarOuterClass {
       private emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfo sceneAvatarInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfo, emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfo.Builder, emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfoOrBuilder> sceneAvatarInfoBuilder_;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
-       * </pre>
-       *
-       * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
-       * @return Whether the sceneAvatarInfo field is set.
-       */
+
       public boolean hasSceneAvatarInfo() {
         return sceneAvatarInfoBuilder_ != null || sceneAvatarInfo_ != null;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
-       * </pre>
-       *
-       * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
-       * @return The sceneAvatarInfo.
-       */
+
       public emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfo getSceneAvatarInfo() {
         if (sceneAvatarInfoBuilder_ == null) {
           return sceneAvatarInfo_ == null ? emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfo.getDefaultInstance() : sceneAvatarInfo_;
@@ -2667,13 +1789,7 @@ public final class SceneTeamAvatarOuterClass {
           return sceneAvatarInfoBuilder_.getMessage();
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
-       * </pre>
-       *
-       * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
-       */
+
       public Builder setSceneAvatarInfo(emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfo value) {
         if (sceneAvatarInfoBuilder_ == null) {
           if (value == null) {
@@ -2687,13 +1803,7 @@ public final class SceneTeamAvatarOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
-       * </pre>
-       *
-       * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
-       */
+
       public Builder setSceneAvatarInfo(
           emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfo.Builder builderForValue) {
         if (sceneAvatarInfoBuilder_ == null) {
@@ -2705,13 +1815,7 @@ public final class SceneTeamAvatarOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
-       * </pre>
-       *
-       * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
-       */
+
       public Builder mergeSceneAvatarInfo(emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfo value) {
         if (sceneAvatarInfoBuilder_ == null) {
           if (sceneAvatarInfo_ != null) {
@@ -2727,13 +1831,7 @@ public final class SceneTeamAvatarOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
-       * </pre>
-       *
-       * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
-       */
+
       public Builder clearSceneAvatarInfo() {
         if (sceneAvatarInfoBuilder_ == null) {
           sceneAvatarInfo_ = null;
@@ -2745,25 +1843,13 @@ public final class SceneTeamAvatarOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
-       * </pre>
-       *
-       * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
-       */
+
       public emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfo.Builder getSceneAvatarInfoBuilder() {
-        
+
         onChanged();
         return getSceneAvatarInfoFieldBuilder().getBuilder();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
-       * </pre>
-       *
-       * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
-       */
+
       public emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfoOrBuilder getSceneAvatarInfoOrBuilder() {
         if (sceneAvatarInfoBuilder_ != null) {
           return sceneAvatarInfoBuilder_.getMessageOrBuilder();
@@ -2772,15 +1858,9 @@ public final class SceneTeamAvatarOuterClass {
               emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfo.getDefaultInstance() : sceneAvatarInfo_;
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
-       * </pre>
-       *
-       * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
-       */
+
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfo, emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfo.Builder, emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfoOrBuilder> 
+          emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfo, emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfo.Builder, emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfoOrBuilder>
           getSceneAvatarInfoFieldBuilder() {
         if (sceneAvatarInfoBuilder_ == null) {
           sceneAvatarInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2796,25 +1876,11 @@ public final class SceneTeamAvatarOuterClass {
       private emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo sceneEntityInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo, emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo.Builder, emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfoOrBuilder> sceneEntityInfoBuilder_;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
-       * </pre>
-       *
-       * <code>.SceneEntityInfo scene_entity_info = 6;</code>
-       * @return Whether the sceneEntityInfo field is set.
-       */
+
       public boolean hasSceneEntityInfo() {
         return sceneEntityInfoBuilder_ != null || sceneEntityInfo_ != null;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
-       * </pre>
-       *
-       * <code>.SceneEntityInfo scene_entity_info = 6;</code>
-       * @return The sceneEntityInfo.
-       */
+
       public emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo getSceneEntityInfo() {
         if (sceneEntityInfoBuilder_ == null) {
           return sceneEntityInfo_ == null ? emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo.getDefaultInstance() : sceneEntityInfo_;
@@ -2822,13 +1888,7 @@ public final class SceneTeamAvatarOuterClass {
           return sceneEntityInfoBuilder_.getMessage();
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
-       * </pre>
-       *
-       * <code>.SceneEntityInfo scene_entity_info = 6;</code>
-       */
+
       public Builder setSceneEntityInfo(emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo value) {
         if (sceneEntityInfoBuilder_ == null) {
           if (value == null) {
@@ -2842,13 +1902,7 @@ public final class SceneTeamAvatarOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
-       * </pre>
-       *
-       * <code>.SceneEntityInfo scene_entity_info = 6;</code>
-       */
+
       public Builder setSceneEntityInfo(
           emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo.Builder builderForValue) {
         if (sceneEntityInfoBuilder_ == null) {
@@ -2860,13 +1914,7 @@ public final class SceneTeamAvatarOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
-       * </pre>
-       *
-       * <code>.SceneEntityInfo scene_entity_info = 6;</code>
-       */
+
       public Builder mergeSceneEntityInfo(emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo value) {
         if (sceneEntityInfoBuilder_ == null) {
           if (sceneEntityInfo_ != null) {
@@ -2882,13 +1930,7 @@ public final class SceneTeamAvatarOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
-       * </pre>
-       *
-       * <code>.SceneEntityInfo scene_entity_info = 6;</code>
-       */
+
       public Builder clearSceneEntityInfo() {
         if (sceneEntityInfoBuilder_ == null) {
           sceneEntityInfo_ = null;
@@ -2900,25 +1942,13 @@ public final class SceneTeamAvatarOuterClass {
 
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
-       * </pre>
-       *
-       * <code>.SceneEntityInfo scene_entity_info = 6;</code>
-       */
+
       public emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo.Builder getSceneEntityInfoBuilder() {
-        
+
         onChanged();
         return getSceneEntityInfoFieldBuilder().getBuilder();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
-       * </pre>
-       *
-       * <code>.SceneEntityInfo scene_entity_info = 6;</code>
-       */
+
       public emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfoOrBuilder getSceneEntityInfoOrBuilder() {
         if (sceneEntityInfoBuilder_ != null) {
           return sceneEntityInfoBuilder_.getMessageOrBuilder();
@@ -2927,15 +1957,9 @@ public final class SceneTeamAvatarOuterClass {
               emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo.getDefaultInstance() : sceneEntityInfo_;
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
-       * </pre>
-       *
-       * <code>.SceneEntityInfo scene_entity_info = 6;</code>
-       */
+
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo, emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo.Builder, emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfoOrBuilder> 
+          emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo, emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo.Builder, emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfoOrBuilder>
           getSceneEntityInfoFieldBuilder() {
         if (sceneEntityInfoBuilder_ == null) {
           sceneEntityInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2960,13 +1984,6 @@ public final class SceneTeamAvatarOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder> serverBuffListBuilder_;
 
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
-       * </pre>
-       *
-       * <code>repeated .ServerBuff server_buff_list = 4;</code>
-       */
       public java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff> getServerBuffListList() {
         if (serverBuffListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(serverBuffList_);
@@ -2974,13 +1991,7 @@ public final class SceneTeamAvatarOuterClass {
           return serverBuffListBuilder_.getMessageList();
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
-       * </pre>
-       *
-       * <code>repeated .ServerBuff server_buff_list = 4;</code>
-       */
+
       public int getServerBuffListCount() {
         if (serverBuffListBuilder_ == null) {
           return serverBuffList_.size();
@@ -2988,13 +1999,7 @@ public final class SceneTeamAvatarOuterClass {
           return serverBuffListBuilder_.getCount();
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
-       * </pre>
-       *
-       * <code>repeated .ServerBuff server_buff_list = 4;</code>
-       */
+
       public emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff getServerBuffList(int index) {
         if (serverBuffListBuilder_ == null) {
           return serverBuffList_.get(index);
@@ -3002,13 +2007,7 @@ public final class SceneTeamAvatarOuterClass {
           return serverBuffListBuilder_.getMessage(index);
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
-       * </pre>
-       *
-       * <code>repeated .ServerBuff server_buff_list = 4;</code>
-       */
+
       public Builder setServerBuffList(
           int index, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff value) {
         if (serverBuffListBuilder_ == null) {
@@ -3023,13 +2022,7 @@ public final class SceneTeamAvatarOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
-       * </pre>
-       *
-       * <code>repeated .ServerBuff server_buff_list = 4;</code>
-       */
+
       public Builder setServerBuffList(
           int index, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder builderForValue) {
         if (serverBuffListBuilder_ == null) {
@@ -3041,13 +2034,7 @@ public final class SceneTeamAvatarOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
-       * </pre>
-       *
-       * <code>repeated .ServerBuff server_buff_list = 4;</code>
-       */
+
       public Builder addServerBuffList(emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff value) {
         if (serverBuffListBuilder_ == null) {
           if (value == null) {
@@ -3061,13 +2048,7 @@ public final class SceneTeamAvatarOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
-       * </pre>
-       *
-       * <code>repeated .ServerBuff server_buff_list = 4;</code>
-       */
+
       public Builder addServerBuffList(
           int index, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff value) {
         if (serverBuffListBuilder_ == null) {
@@ -3082,13 +2063,7 @@ public final class SceneTeamAvatarOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
-       * </pre>
-       *
-       * <code>repeated .ServerBuff server_buff_list = 4;</code>
-       */
+
       public Builder addServerBuffList(
           emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder builderForValue) {
         if (serverBuffListBuilder_ == null) {
@@ -3100,13 +2075,7 @@ public final class SceneTeamAvatarOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
-       * </pre>
-       *
-       * <code>repeated .ServerBuff server_buff_list = 4;</code>
-       */
+
       public Builder addServerBuffList(
           int index, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder builderForValue) {
         if (serverBuffListBuilder_ == null) {
@@ -3118,13 +2087,7 @@ public final class SceneTeamAvatarOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
-       * </pre>
-       *
-       * <code>repeated .ServerBuff server_buff_list = 4;</code>
-       */
+
       public Builder addAllServerBuffList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff> values) {
         if (serverBuffListBuilder_ == null) {
@@ -3137,13 +2100,7 @@ public final class SceneTeamAvatarOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
-       * </pre>
-       *
-       * <code>repeated .ServerBuff server_buff_list = 4;</code>
-       */
+
       public Builder clearServerBuffList() {
         if (serverBuffListBuilder_ == null) {
           serverBuffList_ = java.util.Collections.emptyList();
@@ -3154,13 +2111,7 @@ public final class SceneTeamAvatarOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
-       * </pre>
-       *
-       * <code>repeated .ServerBuff server_buff_list = 4;</code>
-       */
+
       public Builder removeServerBuffList(int index) {
         if (serverBuffListBuilder_ == null) {
           ensureServerBuffListIsMutable();
@@ -3171,24 +2122,12 @@ public final class SceneTeamAvatarOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
-       * </pre>
-       *
-       * <code>repeated .ServerBuff server_buff_list = 4;</code>
-       */
+
       public emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder getServerBuffListBuilder(
           int index) {
         return getServerBuffListFieldBuilder().getBuilder(index);
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
-       * </pre>
-       *
-       * <code>repeated .ServerBuff server_buff_list = 4;</code>
-       */
+
       public emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder getServerBuffListOrBuilder(
           int index) {
         if (serverBuffListBuilder_ == null) {
@@ -3196,14 +2135,8 @@ public final class SceneTeamAvatarOuterClass {
           return serverBuffListBuilder_.getMessageOrBuilder(index);
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
-       * </pre>
-       *
-       * <code>repeated .ServerBuff server_buff_list = 4;</code>
-       */
-      public java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder> 
+
+      public java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder>
            getServerBuffListOrBuilderList() {
         if (serverBuffListBuilder_ != null) {
           return serverBuffListBuilder_.getMessageOrBuilderList();
@@ -3211,42 +2144,24 @@ public final class SceneTeamAvatarOuterClass {
           return java.util.Collections.unmodifiableList(serverBuffList_);
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
-       * </pre>
-       *
-       * <code>repeated .ServerBuff server_buff_list = 4;</code>
-       */
+
       public emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder addServerBuffListBuilder() {
         return getServerBuffListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.getDefaultInstance());
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
-       * </pre>
-       *
-       * <code>repeated .ServerBuff server_buff_list = 4;</code>
-       */
+
       public emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder addServerBuffListBuilder(
           int index) {
         return getServerBuffListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.getDefaultInstance());
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
-       * </pre>
-       *
-       * <code>repeated .ServerBuff server_buff_list = 4;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder> 
+
+      public java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder>
            getServerBuffListBuilderList() {
         return getServerBuffListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder> 
+          emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder>
           getServerBuffListFieldBuilder() {
         if (serverBuffListBuilder_ == null) {
           serverBuffListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -3270,7 +2185,6 @@ public final class SceneTeamAvatarOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:SceneTeamAvatar)
     }
@@ -3314,7 +2228,7 @@ public final class SceneTeamAvatarOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SceneTeamAvatar_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SceneTeamAvatar_fieldAccessorTable;
 

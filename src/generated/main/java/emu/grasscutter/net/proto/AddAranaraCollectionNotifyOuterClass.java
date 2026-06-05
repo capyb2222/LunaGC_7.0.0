@@ -40,24 +40,8 @@ public final class AddAranaraCollectionNotifyOuterClass {
      */
     emu.grasscutter.net.proto.AranaraCollectionStateOuterClass.AranaraCollectionState getOKGBACCFMKG();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 collection_type = 2;</code>
-     * @return The collectionType.
-     */
     int getCollectionType();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 collection_id = 4;</code>
-     * @return The collectionId.
-     */
     int getCollectionId();
   }
   /**
@@ -205,14 +189,7 @@ public final class AddAranaraCollectionNotifyOuterClass {
 
     public static final int COLLECTION_TYPE_FIELD_NUMBER = 2;
     private int collectionType_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 collection_type = 2;</code>
-     * @return The collectionType.
-     */
+
     @java.lang.Override
     public int getCollectionType() {
       return collectionType_;
@@ -220,14 +197,7 @@ public final class AddAranaraCollectionNotifyOuterClass {
 
     public static final int COLLECTION_ID_FIELD_NUMBER = 4;
     private int collectionId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 collection_id = 4;</code>
-     * @return The collectionId.
-     */
+
     @java.lang.Override
     public int getCollectionId() {
       return collectionId_;
@@ -602,7 +572,7 @@ public final class AddAranaraCollectionNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIPFPDNJPPPPValue(int value) {
-        
+
         iPFPDNJPPPP_ = value;
         onChanged();
         return this;
@@ -626,7 +596,7 @@ public final class AddAranaraCollectionNotifyOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         iPFPDNJPPPP_ = value.getNumber();
         onChanged();
         return this;
@@ -636,7 +606,7 @@ public final class AddAranaraCollectionNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIPFPDNJPPPP() {
-        
+
         iPFPDNJPPPP_ = 0;
         onChanged();
         return this;
@@ -656,7 +626,7 @@ public final class AddAranaraCollectionNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOKGBACCFMKGValue(int value) {
-        
+
         oKGBACCFMKG_ = value;
         onChanged();
         return this;
@@ -680,7 +650,7 @@ public final class AddAranaraCollectionNotifyOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         oKGBACCFMKG_ = value.getNumber();
         onChanged();
         return this;
@@ -690,93 +660,49 @@ public final class AddAranaraCollectionNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOKGBACCFMKG() {
-        
+
         oKGBACCFMKG_ = 0;
         onChanged();
         return this;
       }
 
       private int collectionType_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 collection_type = 2;</code>
-       * @return The collectionType.
-       */
+
       @java.lang.Override
       public int getCollectionType() {
         return collectionType_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 collection_type = 2;</code>
-       * @param value The collectionType to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setCollectionType(int value) {
-        
+
         collectionType_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 collection_type = 2;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearCollectionType() {
-        
+
         collectionType_ = 0;
         onChanged();
         return this;
       }
 
       private int collectionId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 collection_id = 4;</code>
-       * @return The collectionId.
-       */
+
       @java.lang.Override
       public int getCollectionId() {
         return collectionId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 collection_id = 4;</code>
-       * @param value The collectionId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setCollectionId(int value) {
-        
+
         collectionId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 collection_id = 4;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearCollectionId() {
-        
+
         collectionId_ = 0;
         onChanged();
         return this;
@@ -792,7 +718,6 @@ public final class AddAranaraCollectionNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:AddAranaraCollectionNotify)
     }
@@ -836,7 +761,7 @@ public final class AddAranaraCollectionNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AddAranaraCollectionNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AddAranaraCollectionNotify_fieldAccessorTable;
 

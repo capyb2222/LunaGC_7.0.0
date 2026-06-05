@@ -18,53 +18,14 @@ public final class FetterDataOuterClass {
       // @@protoc_insertion_point(interface_extends:FetterData)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint32 cond_index_list = 3;</code>
-     * @return A list containing the condIndexList.
-     */
     java.util.List<java.lang.Integer> getCondIndexListList();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint32 cond_index_list = 3;</code>
-     * @return The count of condIndexList.
-     */
+
     int getCondIndexListCount();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint32 cond_index_list = 3;</code>
-     * @param index The index of the element to return.
-     * @return The condIndexList at the given index.
-     */
+
     int getCondIndexList(int index);
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 fetter_id = 1;</code>
-     * @return The fetterId.
-     */
     int getFetterId();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 fetter_state = 2;</code>
-     * @return The fetterState.
-     */
     int getFetterState();
   }
   /**
@@ -182,39 +143,17 @@ public final class FetterDataOuterClass {
 
     public static final int COND_INDEX_LIST_FIELD_NUMBER = 3;
     private com.google.protobuf.Internal.IntList condIndexList_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint32 cond_index_list = 3;</code>
-     * @return A list containing the condIndexList.
-     */
+
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getCondIndexListList() {
       return condIndexList_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint32 cond_index_list = 3;</code>
-     * @return The count of condIndexList.
-     */
+
     public int getCondIndexListCount() {
       return condIndexList_.size();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint32 cond_index_list = 3;</code>
-     * @param index The index of the element to return.
-     * @return The condIndexList at the given index.
-     */
+
     public int getCondIndexList(int index) {
       return condIndexList_.getInt(index);
     }
@@ -222,14 +161,7 @@ public final class FetterDataOuterClass {
 
     public static final int FETTER_ID_FIELD_NUMBER = 1;
     private int fetterId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 fetter_id = 1;</code>
-     * @return The fetterId.
-     */
+
     @java.lang.Override
     public int getFetterId() {
       return fetterId_;
@@ -237,14 +169,7 @@ public final class FetterDataOuterClass {
 
     public static final int FETTER_STATE_FIELD_NUMBER = 2;
     private int fetterState_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 fetter_state = 2;</code>
-     * @return The fetterState.
-     */
+
     @java.lang.Override
     public int getFetterState() {
       return fetterState_;
@@ -623,52 +548,21 @@ public final class FetterDataOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint32 cond_index_list = 3;</code>
-       * @return A list containing the condIndexList.
-       */
+
       public java.util.List<java.lang.Integer>
           getCondIndexListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(condIndexList_) : condIndexList_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint32 cond_index_list = 3;</code>
-       * @return The count of condIndexList.
-       */
+
       public int getCondIndexListCount() {
         return condIndexList_.size();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint32 cond_index_list = 3;</code>
-       * @param index The index of the element to return.
-       * @return The condIndexList at the given index.
-       */
+
       public int getCondIndexList(int index) {
         return condIndexList_.getInt(index);
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint32 cond_index_list = 3;</code>
-       * @param index The index to set the value at.
-       * @param value The condIndexList to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setCondIndexList(
           int index, int value) {
         ensureCondIndexListIsMutable();
@@ -676,30 +570,14 @@ public final class FetterDataOuterClass {
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint32 cond_index_list = 3;</code>
-       * @param value The condIndexList to add.
-       * @return This builder for chaining.
-       */
+
       public Builder addCondIndexList(int value) {
         ensureCondIndexListIsMutable();
         condIndexList_.addInt(value);
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint32 cond_index_list = 3;</code>
-       * @param values The condIndexList to add.
-       * @return This builder for chaining.
-       */
+
       public Builder addAllCondIndexList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureCondIndexListIsMutable();
@@ -708,14 +586,7 @@ public final class FetterDataOuterClass {
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint32 cond_index_list = 3;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearCondIndexList() {
         condIndexList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -724,86 +595,42 @@ public final class FetterDataOuterClass {
       }
 
       private int fetterId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 fetter_id = 1;</code>
-       * @return The fetterId.
-       */
+
       @java.lang.Override
       public int getFetterId() {
         return fetterId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 fetter_id = 1;</code>
-       * @param value The fetterId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setFetterId(int value) {
-        
+
         fetterId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 fetter_id = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearFetterId() {
-        
+
         fetterId_ = 0;
         onChanged();
         return this;
       }
 
       private int fetterState_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 fetter_state = 2;</code>
-       * @return The fetterState.
-       */
+
       @java.lang.Override
       public int getFetterState() {
         return fetterState_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 fetter_state = 2;</code>
-       * @param value The fetterState to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setFetterState(int value) {
-        
+
         fetterState_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 fetter_state = 2;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearFetterState() {
-        
+
         fetterState_ = 0;
         onChanged();
         return this;
@@ -819,7 +646,6 @@ public final class FetterDataOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:FetterData)
     }
@@ -863,7 +689,7 @@ public final class FetterDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FetterData_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FetterData_fieldAccessorTable;
 

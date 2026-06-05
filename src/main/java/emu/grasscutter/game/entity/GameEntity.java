@@ -21,15 +21,20 @@ import emu.grasscutter.scripts.data.controller.EntityController;
 import emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo;
 import emu.grasscutter.net.proto.PropChangeDetailInfoOuterClass.PropChangeDetailInfo;
 import emu.grasscutter.server.event.entity.*;
+import emu.grasscutter.server.packet.send.PacketAvatarFightPropNotify;
 import emu.grasscutter.server.packet.send.PacketEntityFightPropChangeReasonNotify;
 import emu.grasscutter.server.packet.send.PacketEntityFightPropUpdateNotify;
 import it.unimi.dsi.fastutil.ints.*;
-import emu.grasscutter.server.packet.send.PacketAvatarFightPropNotify;
 import emu.grasscutter.*;
 import emu.grasscutter.data.GameData;
 
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
 import java.util.*;
 
+import com.google.protobuf.ByteString;
+import com.google.protobuf.CodedOutputStream;
+import com.google.protobuf.UnknownFieldSet;
 
 import lombok.*;
 
@@ -64,7 +69,6 @@ public abstract class GameEntity {
     @Getter
     private boolean isDead = false;
 
-    // Lua controller for specific actions
     @Getter @Setter private EntityController entityController;
     @Getter private ElementType lastAttackType = ElementType.None;
 
@@ -98,7 +102,6 @@ public abstract class GameEntity {
             return 0f;
         }
     }
-
 
     public void setConvertToHpDebt(boolean convertToHpDebt) {
         this.convertToHpDebt = convertToHpDebt;
@@ -167,10 +170,10 @@ public abstract class GameEntity {
     public GameEntity getTrueOwner() {
     if (this instanceof EntityClientGadget gadget) {
         GameEntity owner = gadget.getScene().getEntityById(gadget.getOwnerEntityId());
-        // Recursively resolve the owner if the owner is also a gadget
+
         return (owner instanceof EntityClientGadget) ? owner.getTrueOwner() : owner;
     }
-    return this; // If not a gadget, return itself as the owner
+    return this;
 }
 
     public void onAddAbilityModifier(AbilityModifier data) {
@@ -178,7 +181,7 @@ public abstract class GameEntity {
             return;
         }
         float hpThresholdRatio = data.properties.Actor_HpThresholdRatio;
-        // Set limbo state (invulnerability at a certain HP threshold)
+
         if (data.properties != null) {
             if (data.state == AbilityModifier.State.Limbo && hpThresholdRatio > 0.0f) {
                 Grasscutter.getLogger().info("Limbo set to " + hpThresholdRatio);
@@ -186,7 +189,6 @@ public abstract class GameEntity {
             }
         }
     }
-
 
     protected MotionInfo getMotionInfo() {
         return MotionInfo.newBuilder()
@@ -196,10 +198,56 @@ public abstract class GameEntity {
                 .setState(this.getMotionState())
                 .build();
     }
+
+    protected void injectIntMotionInfo(SceneEntityInfo.Builder entityInfo) {
+        try {
+            Position pos = this.getPosition();
+            Position rot = this.getRotation();
+            if (pos == null || rot == null) return;
+
+            int px = Math.round(pos.getX() * 1000f);
+            int py = Math.round(pos.getY() * 1000f);
+            int pz = Math.round(pos.getZ() * 1000f);
+            int rx = Math.round(rot.getX() * 1000f);
+            int ry = Math.round(rot.getY() * 1000f);
+            int rz = Math.round(rot.getZ() * 1000f);
+
+            ByteArrayOutputStream posOut = new ByteArrayOutputStream();
+            CodedOutputStream posCos = CodedOutputStream.newInstance(posOut);
+            posCos.writeInt32(1, px);
+            posCos.writeInt32(2, py);
+            posCos.writeInt32(3, pz);
+            posCos.flush();
+
+            ByteArrayOutputStream rotOut = new ByteArrayOutputStream();
+            CodedOutputStream rotCos = CodedOutputStream.newInstance(rotOut);
+            rotCos.writeInt32(1, rx);
+            rotCos.writeInt32(2, ry);
+            rotCos.writeInt32(3, rz);
+            rotCos.flush();
+
+            ByteArrayOutputStream msgOut = new ByteArrayOutputStream();
+            CodedOutputStream msgCos = CodedOutputStream.newInstance(msgOut);
+            msgCos.writeUInt32(1, this.getId());
+            msgCos.writeBytes(2, ByteString.copyFrom(posOut.toByteArray()));
+            msgCos.writeBytes(3, ByteString.copyFrom(rotOut.toByteArray()));
+            msgCos.writeEnum(4, this.getMotionState().getNumber());
+            msgCos.flush();
+
+            entityInfo.mergeUnknownFields(
+                UnknownFieldSet.newBuilder()
+                    .addField(25, UnknownFieldSet.Field.newBuilder()
+                        .addLengthDelimited(ByteString.copyFrom(msgOut.toByteArray()))
+                        .build())
+                    .build());
+        } catch (Exception e) {
+            Grasscutter.getLogger().error("Failed to inject EntityIntMotionInfo", e);
+        }
+    }
+
     public float heal(float amount) {
         return heal(amount, false);
     }
-
 
     public float heal(float amount, boolean mute) {
         if (this.getFightProperties() == null) {
@@ -226,7 +274,7 @@ public abstract class GameEntity {
         }
         if (toRepay > 0) {
             this.getScene().broadcastPacket(new PacketEntityFightPropUpdateNotify(this, FightProperty.FIGHT_PROP_CUR_HP_DEBTS));
-            // Clear bond if is 0 debt left
+
             if (this.getFightProperty(FightProperty.FIGHT_PROP_CUR_HP_DEBTS) > 0) {
                 this.getScene().broadcastPacket(new PacketEntityFightPropChangeReasonNotify(this, FightProperty.FIGHT_PROP_CUR_HP_DEBTS, toRepay,
                                                         mute
@@ -255,11 +303,11 @@ public abstract class GameEntity {
     }
     private GameEntity resolveOwnerEntity(GameEntity owner) {
         if (owner instanceof EntityClientGadget ownerGadget) {
-            // Recursively find the owner entity
+
             GameEntity nextOwner = ownerGadget.getScene().getEntityById(ownerGadget.getOwnerEntityId());
-            return resolveOwnerEntity(nextOwner); // Keep resolving until you reach the actual entity
+            return resolveOwnerEntity(nextOwner);
         }
-        return owner; // Return the entity if it is not a gadget
+        return owner;
     }
       public void addSpecialEnergy(float energy){
        float curSpecialEnergy = getFightProperty(FightProperty.FIGHT_PROP_CUR_SPECIAL_ENERGY);
@@ -290,17 +338,27 @@ public abstract class GameEntity {
     }
 
     public void damage(float amount, int killerId, ElementType attackType, PropChangeReason propChangeReason, ChangeHpReason changeHpReason) {
-        // Check if the entity has properties.
+
         if (this.getFightProperties() == null || !hasFightProperty(FightProperty.FIGHT_PROP_CUR_HP)) {
             return;
         }
 
-        // Invoke entity damage event.
+        if (this instanceof EntityAvatar) {
+            float curHpBefore = getFightProperty(FightProperty.FIGHT_PROP_CUR_HP);
+            var st = Thread.currentThread().getStackTrace();
+            Grasscutter.getLogger().info("[DMG] EntityAvatar id={} amount={} curHP={} | {}  {}  {}  {}",
+                this.getId(), amount, curHpBefore,
+                st.length > 2 ? st[2] : "-",
+                st.length > 3 ? st[3] : "-",
+                st.length > 4 ? st[4] : "-",
+                st.length > 5 ? st[5] : "-");
+        }
+
         EntityDamageEvent event =
                 new EntityDamageEvent(this, amount, attackType, this.getScene().getEntityById(killerId));
         event.call();
         if (event.isCanceled()) {
-            return; // If the event is canceled, do not damage the entity.
+            return;
         }
 
         float effectiveDamage = 0;
@@ -309,11 +367,11 @@ public abstract class GameEntity {
             float maxHp = getFightProperty(FightProperty.FIGHT_PROP_MAX_HP);
             float curRatio = curHp / maxHp;
             if (curRatio > limboHpThreshold) {
-                // OK if this hit takes HP below threshold.
+
                 effectiveDamage = event.getDamage();
             }
             if (effectiveDamage >= curHp && limboHpThreshold > .0f) {
-                // Don't let entity die while in limbo.
+
                 effectiveDamage = curHp - 1;
             }
         } else if (curHp != Float.POSITIVE_INFINITY && !lockHP
@@ -321,19 +379,36 @@ public abstract class GameEntity {
             effectiveDamage = event.getDamage();
         }
 
-        // Add negative HP to the current HP property.
         this.addFightProperty(FightProperty.FIGHT_PROP_CUR_HP, -effectiveDamage);
 
         this.lastAttackType = attackType;
         this.checkIfDead();
         this.runLuaCallbacks(event);
 
-        // Packets
         this.getScene()
                 .broadcastPacket(
                         new PacketEntityFightPropUpdateNotify(this, FightProperty.FIGHT_PROP_CUR_HP));
 
-        // Check if dead.
+        if (effectiveDamage > 0) {
+            GameEntity attacker = this.getScene().getEntityById(killerId);
+            ChangeHpReason dmgHpReason;
+            if (attacker instanceof EntityAvatar) {
+                dmgHpReason = ChangeHpReason.ChangeHpReason_CHANGE_HP_SUB_AVATAR;
+            } else if (attacker instanceof EntityMonster) {
+                dmgHpReason = ChangeHpReason.ChangeHpReason_CHANGE_HP_SUB_MONSTER;
+            } else {
+                dmgHpReason = ChangeHpReason.ChangeHpReason_CHANGE_HP_SUB_ABILITY;
+            }
+            this.getScene().broadcastPacket(new PacketEntityFightPropChangeReasonNotify(
+                this, FightProperty.FIGHT_PROP_CUR_HP, -effectiveDamage,
+                PropChangeReason.PropChangeReason_PROP_CHANGE_NONE, dmgHpReason));
+        }
+
+        if (this instanceof EntityAvatar entityAvatar) {
+            entityAvatar.getPlayer().sendPacket(
+                new PacketAvatarFightPropNotify(entityAvatar.getAvatar()));
+        }
+
         if (this.isDead) {
             this.getScene().killEntity(this, killerId);
         }
@@ -356,38 +431,20 @@ public abstract class GameEntity {
         }
     }
 
-    /**
-     * Runs the Lua callbacks for {@link EntityDamageEvent}.
-     *
-     * @param event The damage event.
-     */
     public void runLuaCallbacks(EntityDamageEvent event) {
         if (entityController != null) {
-            entityController.onBeHurt(this, event.getAttackElementType(), true); // todo is host handling
+            entityController.onBeHurt(this, event.getAttackElementType(), true);
         }
     }
 
-    /**
-     * Move this entity to a new position.
-     *
-     * @param position The new position.
-     * @param rotation The new rotation.
-     */
     public void move(Position position, Position rotation) {
-        // Set the position and rotation.
+
         this.getPosition().set(position);
         this.getRotation().set(rotation);
     }
 
-    /**
-     * Called when a player interacts with this entity
-     *
-     * @param player Player that is interacting with this entity
-     * @param interactReq Interact request protobuf data
-     */
     public void onInteract(Player player, GadgetInteractReq interactReq) {}
 
-    /** Called when this entity is added to the world */
     public void onCreate() {}
 
     public void onRemoved() {}
@@ -407,7 +464,7 @@ public abstract class GameEntity {
 
         Int2ObjectMap<Integer> itemsToDrop = new Int2ObjectOpenHashMap<>();
         switch (dropTableEntry.getRandomType()) {
-            case 0: // select one
+            case 0:
                 {
                     int weightCount = 0;
                     for (var entry : dropTableEntry.getDropVec()) weightCount += entry.getWeight();
@@ -425,7 +482,7 @@ public abstract class GameEntity {
                     }
                 }
                 break;
-            case 1: // Select various
+            case 1:
                 {
                     for (var entry : dropTableEntry.getDropVec()) {
                         if (entry.getWeight() < new Random().nextInt(10000)) {
@@ -481,17 +538,11 @@ public abstract class GameEntity {
         return 0;
     }
 
-    /**
-     * Called when this entity dies
-     *
-     * @param killerId Entity id of the entity that killed this entity
-     */
     public void onDeath(int killerId) {
-        // Invoke entity death event.
+
         EntityDeathEvent event = new EntityDeathEvent(this, killerId);
         event.call();
 
-        // Run Lua callbacks.
         if (entityController != null) {
             entityController.onDie(this, getLastAttackType());
         }
@@ -499,9 +550,8 @@ public abstract class GameEntity {
         this.isDead = true;
     }
 
-    /** Invoked when a global ability value is updated. */
     public void onAbilityValueUpdate() {
-        // Does nothing.
+
     }
 
     public abstract SceneEntityInfo toProto();

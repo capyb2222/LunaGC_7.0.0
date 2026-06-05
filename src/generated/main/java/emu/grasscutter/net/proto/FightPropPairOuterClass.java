@@ -18,24 +18,8 @@ public final class FightPropPairOuterClass {
       // @@protoc_insertion_point(interface_extends:FightPropPair)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>float prop_value = 2;</code>
-     * @return The propValue.
-     */
     float getPropValue();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 prop_type = 1;</code>
-     * @return The propType.
-     */
     int getPropType();
   }
   /**
@@ -127,14 +111,7 @@ public final class FightPropPairOuterClass {
 
     public static final int PROP_VALUE_FIELD_NUMBER = 2;
     private float propValue_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>float prop_value = 2;</code>
-     * @return The propValue.
-     */
+
     @java.lang.Override
     public float getPropValue() {
       return propValue_;
@@ -142,14 +119,7 @@ public final class FightPropPairOuterClass {
 
     public static final int PROP_TYPE_FIELD_NUMBER = 1;
     private int propType_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 prop_type = 1;</code>
-     * @return The propType.
-     */
+
     @java.lang.Override
     public int getPropType() {
       return propType_;
@@ -477,86 +447,42 @@ public final class FightPropPairOuterClass {
       }
 
       private float propValue_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>float prop_value = 2;</code>
-       * @return The propValue.
-       */
+
       @java.lang.Override
       public float getPropValue() {
         return propValue_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>float prop_value = 2;</code>
-       * @param value The propValue to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setPropValue(float value) {
-        
+
         propValue_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>float prop_value = 2;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearPropValue() {
-        
+
         propValue_ = 0F;
         onChanged();
         return this;
       }
 
       private int propType_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 prop_type = 1;</code>
-       * @return The propType.
-       */
+
       @java.lang.Override
       public int getPropType() {
         return propType_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 prop_type = 1;</code>
-       * @param value The propType to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setPropType(int value) {
-        
+
         propType_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 prop_type = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearPropType() {
-        
+
         propType_ = 0;
         onChanged();
         return this;
@@ -572,7 +498,6 @@ public final class FightPropPairOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:FightPropPair)
     }
@@ -616,7 +541,7 @@ public final class FightPropPairOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FightPropPair_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FightPropPair_fieldAccessorTable;
 

@@ -330,7 +330,7 @@ public final class TowerLevelEndNotifyOuterClass {
       // @@protoc_insertion_point(enum_scope:TowerLevelEndNotify.ContinueStateType)
     }
 
-    public static final int FINISHED_STAR_COND_LIST_FIELD_NUMBER = 14;
+    public static final int FINISHED_STAR_COND_LIST_FIELD_NUMBER = 3;
     private com.google.protobuf.Internal.IntList finishedStarCondList_;
     /**
      * <code>repeated uint32 finished_star_cond_list = 14;</code>
@@ -358,7 +358,7 @@ public final class TowerLevelEndNotifyOuterClass {
     }
     private int finishedStarCondListMemoizedSerializedSize = -1;
 
-    public static final int IS_SUCCESS_FIELD_NUMBER = 7;
+    public static final int IS_SUCCESS_FIELD_NUMBER = 14;
     private boolean isSuccess_;
     /**
      * <code>bool is_success = 7;</code>
@@ -380,7 +380,7 @@ public final class TowerLevelEndNotifyOuterClass {
       return continueState_;
     }
 
-    public static final int REWARD_ITEM_LIST_FIELD_NUMBER = 13;
+    public static final int REWARD_ITEM_LIST_FIELD_NUMBER = 4;
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> rewardItemList_;
     /**
      * <code>repeated .ItemParam reward_item_list = 13;</code>
@@ -453,10 +453,10 @@ public final class TowerLevelEndNotifyOuterClass {
         output.writeUInt32(5, nextFloorId_);
       }
       if (isSuccess_ != false) {
-        output.writeBool(7, isSuccess_);
+        output.writeBool(14, isSuccess_);
       }
       for (int i = 0; i < rewardItemList_.size(); i++) {
-        output.writeMessage(13, rewardItemList_.get(i));
+        output.writeMessage(4, rewardItemList_.get(i));
       }
       if (getFinishedStarCondListList().size() > 0) {
         output.writeUInt32NoTag(114);
@@ -484,11 +484,11 @@ public final class TowerLevelEndNotifyOuterClass {
       }
       if (isSuccess_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, isSuccess_);
+          .computeBoolSize(14, isSuccess_);
       }
       for (int i = 0; i < rewardItemList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, rewardItemList_.get(i));
+          .computeMessageSize(4, rewardItemList_.get(i));
       }
       {
         int dataSize = 0;

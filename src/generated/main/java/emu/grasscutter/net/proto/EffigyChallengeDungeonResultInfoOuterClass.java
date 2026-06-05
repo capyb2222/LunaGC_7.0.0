@@ -154,7 +154,7 @@ public final class EffigyChallengeDungeonResultInfoOuterClass {
               emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo.class, emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo.Builder.class);
     }
 
-    public static final int IS_IN_TIME_LIMIT_FIELD_NUMBER = 8;
+    public static final int IS_IN_TIME_LIMIT_FIELD_NUMBER = 15;
     private boolean isInTimeLimit_;
     /**
      * <code>bool is_in_time_limit = 8;</code>
@@ -227,7 +227,7 @@ public final class EffigyChallengeDungeonResultInfoOuterClass {
         output.writeUInt32(5, challengeId_);
       }
       if (isInTimeLimit_ != false) {
-        output.writeBool(8, isInTimeLimit_);
+        output.writeBool(15, isInTimeLimit_);
       }
       if (challengeMaxScore_ != 0) {
         output.writeUInt32(11, challengeMaxScore_);
@@ -253,7 +253,7 @@ public final class EffigyChallengeDungeonResultInfoOuterClass {
       }
       if (isInTimeLimit_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, isInTimeLimit_);
+          .computeBoolSize(15, isInTimeLimit_);
       }
       if (challengeMaxScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream

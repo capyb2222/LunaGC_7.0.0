@@ -378,7 +378,7 @@ public final class HomeSceneArrangementInfoOuterClass {
               emu.grasscutter.net.proto.HomeSceneArrangementInfoOuterClass.HomeSceneArrangementInfo.class, emu.grasscutter.net.proto.HomeSceneArrangementInfoOuterClass.HomeSceneArrangementInfo.Builder.class);
     }
 
-    public static final int BLOCK_ARRANGEMENT_INFO_LIST_FIELD_NUMBER = 2;
+    public static final int BLOCK_ARRANGEMENT_INFO_LIST_FIELD_NUMBER = 10;
     private java.util.List<emu.grasscutter.net.proto.HomeBlockArrangementInfoOuterClass.HomeBlockArrangementInfo> blockArrangementInfoList_;
     /**
      * <code>repeated .HomeBlockArrangementInfo block_arrangement_info_list = 2;</code>
@@ -524,7 +524,7 @@ public final class HomeSceneArrangementInfoOuterClass {
       return getBornRot();
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 8;
+    public static final int SCENE_ID_FIELD_NUMBER = 12;
     private int sceneId_;
     /**
      * <code>uint32 scene_id = 8;</code>
@@ -557,7 +557,7 @@ public final class HomeSceneArrangementInfoOuterClass {
       return comfortValue_;
     }
 
-    public static final int MAIN_HOUSE_FIELD_NUMBER = 6;
+    public static final int MAIN_HOUSE_FIELD_NUMBER = 5;
     private emu.grasscutter.net.proto.HomeFurnitureDataOuterClass.HomeFurnitureData mainHouse_;
     /**
      * <code>.HomeFurnitureData main_house = 6;</code>
@@ -675,7 +675,7 @@ public final class HomeSceneArrangementInfoOuterClass {
         output.writeBool(1, isSetBornPos_);
       }
       for (int i = 0; i < blockArrangementInfoList_.size(); i++) {
-        output.writeMessage(2, blockArrangementInfoList_.get(i));
+        output.writeMessage(10, blockArrangementInfoList_.get(i));
       }
       if (bgmId_ != 0) {
         output.writeUInt32(3, bgmId_);
@@ -693,7 +693,7 @@ public final class HomeSceneArrangementInfoOuterClass {
         output.writeMessage(7, hDOFAHGPJGK_.get(i));
       }
       if (sceneId_ != 0) {
-        output.writeUInt32(8, sceneId_);
+        output.writeUInt32(12, sceneId_);
       }
       if (bornRot_ != null) {
         output.writeMessage(9, getBornRot());
@@ -722,7 +722,7 @@ public final class HomeSceneArrangementInfoOuterClass {
       }
       for (int i = 0; i < blockArrangementInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, blockArrangementInfoList_.get(i));
+          .computeMessageSize(10, blockArrangementInfoList_.get(i));
       }
       if (bgmId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -746,7 +746,7 @@ public final class HomeSceneArrangementInfoOuterClass {
       }
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, sceneId_);
+          .computeUInt32Size(12, sceneId_);
       }
       if (bornRot_ != null) {
         size += com.google.protobuf.CodedOutputStream

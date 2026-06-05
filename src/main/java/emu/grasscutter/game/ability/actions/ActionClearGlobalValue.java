@@ -12,8 +12,6 @@ public final class ActionClearGlobalValue extends AbilityActionHandler {
     @Override
     public boolean execute(
             Ability ability, AbilityModifierAction action, ByteString abilityData, GameEntity target) {
-                Grasscutter.getLogger().info("Cleared global value" + action.key);
-        // Check if the key is valid.
         var valueKey = action.key;
         if (valueKey == null || valueKey.isEmpty()) {
             return false; // Invalid key, abort execution.

@@ -18,24 +18,8 @@ public final class CylinderRegionSizeOuterClass {
       // @@protoc_insertion_point(interface_extends:CylinderRegionSize)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>float height = 13;</code>
-     * @return The height.
-     */
     float getHeight();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>float radius = 3;</code>
-     * @return The radius.
-     */
     float getRadius();
   }
   /**
@@ -127,14 +111,7 @@ public final class CylinderRegionSizeOuterClass {
 
     public static final int HEIGHT_FIELD_NUMBER = 13;
     private float height_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>float height = 13;</code>
-     * @return The height.
-     */
+
     @java.lang.Override
     public float getHeight() {
       return height_;
@@ -142,14 +119,7 @@ public final class CylinderRegionSizeOuterClass {
 
     public static final int RADIUS_FIELD_NUMBER = 3;
     private float radius_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>float radius = 3;</code>
-     * @return The radius.
-     */
+
     @java.lang.Override
     public float getRadius() {
       return radius_;
@@ -479,86 +449,42 @@ public final class CylinderRegionSizeOuterClass {
       }
 
       private float height_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>float height = 13;</code>
-       * @return The height.
-       */
+
       @java.lang.Override
       public float getHeight() {
         return height_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>float height = 13;</code>
-       * @param value The height to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setHeight(float value) {
-        
+
         height_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>float height = 13;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearHeight() {
-        
+
         height_ = 0F;
         onChanged();
         return this;
       }
 
       private float radius_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>float radius = 3;</code>
-       * @return The radius.
-       */
+
       @java.lang.Override
       public float getRadius() {
         return radius_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>float radius = 3;</code>
-       * @param value The radius to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setRadius(float value) {
-        
+
         radius_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>float radius = 3;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearRadius() {
-        
+
         radius_ = 0F;
         onChanged();
         return this;
@@ -574,7 +500,6 @@ public final class CylinderRegionSizeOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:CylinderRegionSize)
     }
@@ -618,7 +543,7 @@ public final class CylinderRegionSizeOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CylinderRegionSize_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CylinderRegionSize_fieldAccessorTable;
 

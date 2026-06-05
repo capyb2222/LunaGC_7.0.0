@@ -18,14 +18,6 @@ public final class OfferingInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:OfferingInfo)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 offering_id = 1;</code>
-     * @return The offeringId.
-     */
     int getOfferingId();
   }
   /**
@@ -112,14 +104,7 @@ public final class OfferingInfoOuterClass {
 
     public static final int OFFERING_ID_FIELD_NUMBER = 1;
     private int offeringId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 offering_id = 1;</code>
-     * @return The offeringId.
-     */
+
     @java.lang.Override
     public int getOfferingId() {
       return offeringId_;
@@ -428,43 +413,21 @@ public final class OfferingInfoOuterClass {
       }
 
       private int offeringId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 offering_id = 1;</code>
-       * @return The offeringId.
-       */
+
       @java.lang.Override
       public int getOfferingId() {
         return offeringId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 offering_id = 1;</code>
-       * @param value The offeringId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setOfferingId(int value) {
-        
+
         offeringId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 offering_id = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearOfferingId() {
-        
+
         offeringId_ = 0;
         onChanged();
         return this;
@@ -480,7 +443,6 @@ public final class OfferingInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:OfferingInfo)
     }
@@ -524,7 +486,7 @@ public final class OfferingInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_OfferingInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_OfferingInfo_fieldAccessorTable;
 

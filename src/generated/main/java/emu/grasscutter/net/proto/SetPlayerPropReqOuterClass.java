@@ -138,7 +138,7 @@ public final class SetPlayerPropReqOuterClass {
               emu.grasscutter.net.proto.SetPlayerPropReqOuterClass.SetPlayerPropReq.class, emu.grasscutter.net.proto.SetPlayerPropReqOuterClass.SetPlayerPropReq.Builder.class);
     }
 
-    public static final int PROP_LIST_FIELD_NUMBER = 9;
+    public static final int PROP_LIST_FIELD_NUMBER = 14;
     private java.util.List<emu.grasscutter.net.proto.PropValueOuterClass.PropValue> propList_;
     /**
      * <code>repeated .PropValue prop_list = 9;</code>
@@ -193,7 +193,7 @@ public final class SetPlayerPropReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < propList_.size(); i++) {
-        output.writeMessage(9, propList_.get(i));
+        output.writeMessage(14, propList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -206,7 +206,7 @@ public final class SetPlayerPropReqOuterClass {
       size = 0;
       for (int i = 0; i < propList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, propList_.get(i));
+          .computeMessageSize(14, propList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

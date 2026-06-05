@@ -18,24 +18,8 @@ public final class ServantInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:ServantInfo)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0      
-     * </pre>
-     *
-     * <code>uint32 born_slot_index = 2;</code>
-     * @return The bornSlotIndex.
-     */
     int getBornSlotIndex();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0      
-     * </pre>
-     *
-     * <code>uint32 master_entity_id = 1;</code>
-     * @return The masterEntityId.
-     */
     int getMasterEntityId();
   }
   /**
@@ -127,14 +111,7 @@ public final class ServantInfoOuterClass {
 
     public static final int BORN_SLOT_INDEX_FIELD_NUMBER = 2;
     private int bornSlotIndex_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0      
-     * </pre>
-     *
-     * <code>uint32 born_slot_index = 2;</code>
-     * @return The bornSlotIndex.
-     */
+
     @java.lang.Override
     public int getBornSlotIndex() {
       return bornSlotIndex_;
@@ -142,14 +119,7 @@ public final class ServantInfoOuterClass {
 
     public static final int MASTER_ENTITY_ID_FIELD_NUMBER = 1;
     private int masterEntityId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0      
-     * </pre>
-     *
-     * <code>uint32 master_entity_id = 1;</code>
-     * @return The masterEntityId.
-     */
+
     @java.lang.Override
     public int getMasterEntityId() {
       return masterEntityId_;
@@ -475,86 +445,42 @@ public final class ServantInfoOuterClass {
       }
 
       private int bornSlotIndex_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>uint32 born_slot_index = 2;</code>
-       * @return The bornSlotIndex.
-       */
+
       @java.lang.Override
       public int getBornSlotIndex() {
         return bornSlotIndex_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>uint32 born_slot_index = 2;</code>
-       * @param value The bornSlotIndex to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setBornSlotIndex(int value) {
-        
+
         bornSlotIndex_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>uint32 born_slot_index = 2;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearBornSlotIndex() {
-        
+
         bornSlotIndex_ = 0;
         onChanged();
         return this;
       }
 
       private int masterEntityId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>uint32 master_entity_id = 1;</code>
-       * @return The masterEntityId.
-       */
+
       @java.lang.Override
       public int getMasterEntityId() {
         return masterEntityId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>uint32 master_entity_id = 1;</code>
-       * @param value The masterEntityId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setMasterEntityId(int value) {
-        
+
         masterEntityId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>uint32 master_entity_id = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearMasterEntityId() {
-        
+
         masterEntityId_ = 0;
         onChanged();
         return this;
@@ -570,7 +496,6 @@ public final class ServantInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:ServantInfo)
     }
@@ -614,7 +539,7 @@ public final class ServantInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ServantInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ServantInfo_fieldAccessorTable;
 

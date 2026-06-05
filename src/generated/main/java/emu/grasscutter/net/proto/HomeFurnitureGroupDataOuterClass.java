@@ -159,7 +159,7 @@ public final class HomeFurnitureGroupDataOuterClass {
       return groupFurnitureIndex_;
     }
 
-    public static final int VIRTUAL_FURNIURE_LIST_FIELD_NUMBER = 15;
+    public static final int VIRTUAL_FURNIURE_LIST_FIELD_NUMBER = 10;
     private java.util.List<emu.grasscutter.net.proto.HomeFurnitureDataOuterClass.HomeFurnitureData> virtualFurniureList_;
     /**
      * <code>repeated .HomeFurnitureData virtual_furniure_list = 15;</code>
@@ -217,7 +217,7 @@ public final class HomeFurnitureGroupDataOuterClass {
         output.writeUInt32(9, groupFurnitureIndex_);
       }
       for (int i = 0; i < virtualFurniureList_.size(); i++) {
-        output.writeMessage(15, virtualFurniureList_.get(i));
+        output.writeMessage(10, virtualFurniureList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -234,7 +234,7 @@ public final class HomeFurnitureGroupDataOuterClass {
       }
       for (int i = 0; i < virtualFurniureList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, virtualFurniureList_.get(i));
+          .computeMessageSize(10, virtualFurniureList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

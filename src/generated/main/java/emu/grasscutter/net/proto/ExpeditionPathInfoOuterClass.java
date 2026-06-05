@@ -259,7 +259,7 @@ public final class ExpeditionPathInfoOuterClass {
       return pathId_;
     }
 
-    public static final int BONUS_PROBABILITY_FIELD_NUMBER = 9;
+    public static final int BONUS_PROBABILITY_FIELD_NUMBER = 3;
     private float bonusProbability_;
     /**
      * <code>float bonus_probability = 9;</code>
@@ -292,7 +292,7 @@ public final class ExpeditionPathInfoOuterClass {
       return aGGGPFNPNLN_;
     }
 
-    public static final int AVATAR_ID_LIST_FIELD_NUMBER = 15;
+    public static final int AVATAR_ID_LIST_FIELD_NUMBER = 9;
     private com.google.protobuf.Internal.IntList avatarIdList_;
     /**
      * <code>repeated uint32 avatar_id_list = 15;</code>
@@ -320,7 +320,7 @@ public final class ExpeditionPathInfoOuterClass {
     }
     private int avatarIdListMemoizedSerializedSize = -1;
 
-    public static final int STATE_FIELD_NUMBER = 1;
+    public static final int STATE_FIELD_NUMBER = 4;
     private int state_;
     /**
      * <code>.ExpeditionState state = 1;</code>
@@ -399,7 +399,7 @@ public final class ExpeditionPathInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (state_ != emu.grasscutter.net.proto.ExpeditionStateOuterClass.ExpeditionState.EXPEDITION_NONE.getNumber()) {
-        output.writeEnum(1, state_);
+        output.writeEnum(4, state_);
       }
       if (dDCIILLJCLH_ != 0) {
         output.writeUInt32(4, dDCIILLJCLH_);
@@ -414,7 +414,7 @@ public final class ExpeditionPathInfoOuterClass {
         output.writeUInt32(7, pathId_);
       }
       if (bonusProbability_ != 0F) {
-        output.writeFloat(9, bonusProbability_);
+        output.writeFloat(3, bonusProbability_);
       }
       if (oFNGLPBLGGP_ != 0) {
         output.writeUInt32(11, oFNGLPBLGGP_);
@@ -443,7 +443,7 @@ public final class ExpeditionPathInfoOuterClass {
       size = 0;
       if (state_ != emu.grasscutter.net.proto.ExpeditionStateOuterClass.ExpeditionState.EXPEDITION_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(1, state_);
+          .computeEnumSize(4, state_);
       }
       if (dDCIILLJCLH_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -463,7 +463,7 @@ public final class ExpeditionPathInfoOuterClass {
       }
       if (bonusProbability_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(9, bonusProbability_);
+          .computeFloatSize(3, bonusProbability_);
       }
       if (oFNGLPBLGGP_ != 0) {
         size += com.google.protobuf.CodedOutputStream

@@ -80,7 +80,7 @@ public final class PlayerChatRspOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 72: {
 
               chatForbiddenEndtime_ = input.readUInt32();
               break;
@@ -133,7 +133,7 @@ public final class PlayerChatRspOuterClass {
       return retcode_;
     }
 
-    public static final int CHAT_FORBIDDEN_ENDTIME_FIELD_NUMBER = 1;
+    public static final int CHAT_FORBIDDEN_ENDTIME_FIELD_NUMBER = 9;
     private int chatForbiddenEndtime_;
     /**
      * <code>uint32 chat_forbidden_endtime = 1;</code>
@@ -159,7 +159,7 @@ public final class PlayerChatRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (chatForbiddenEndtime_ != 0) {
-        output.writeUInt32(1, chatForbiddenEndtime_);
+        output.writeUInt32(9, chatForbiddenEndtime_);
       }
       if (retcode_ != 0) {
         output.writeInt32(15, retcode_);
@@ -175,7 +175,7 @@ public final class PlayerChatRspOuterClass {
       size = 0;
       if (chatForbiddenEndtime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, chatForbiddenEndtime_);
+          .computeUInt32Size(9, chatForbiddenEndtime_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream

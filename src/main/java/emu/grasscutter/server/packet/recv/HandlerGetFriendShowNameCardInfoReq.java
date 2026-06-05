@@ -1,10 +1,12 @@
 package emu.grasscutter.server.packet.recv;
 
+import emu.grasscutter.GameConstants;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
 import emu.grasscutter.net.proto.GetFriendShowNameCardInfoReqOuterClass;
 import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.server.packet.send.PacketGetFriendShowNameCardInfoRsp;
+import java.util.List;
 
 @Opcodes(PacketOpcodes.GetFriendShowNameCardInfoReq)
 public class HandlerGetFriendShowNameCardInfoReq extends PacketHandler {
@@ -16,6 +18,12 @@ public class HandlerGetFriendShowNameCardInfoReq extends PacketHandler {
         int targetUid = req.getUid();
         Player target = session.getServer().getPlayerByUid(targetUid, true);
 
+        if (target == null) {
+            if (targetUid == GameConstants.SERVER_CONSOLE_UID) {
+                session.send(new PacketGetFriendShowNameCardInfoRsp(targetUid, List.of()));
+            }
+            return;
+        }
         session.send(
                 new PacketGetFriendShowNameCardInfoRsp(targetUid, target.getShowNameCardInfoList()));
     }

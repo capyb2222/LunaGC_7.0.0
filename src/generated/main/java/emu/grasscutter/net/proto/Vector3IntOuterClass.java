@@ -18,34 +18,10 @@ public final class Vector3IntOuterClass {
       // @@protoc_insertion_point(interface_extends:Vector3Int)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>int32 y = 2;</code>
-     * @return The y.
-     */
     int getY();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>int32 x = 1;</code>
-     * @return The x.
-     */
     int getX();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>int32 z = 3;</code>
-     * @return The z.
-     */
     int getZ();
   }
   /**
@@ -142,14 +118,7 @@ public final class Vector3IntOuterClass {
 
     public static final int Y_FIELD_NUMBER = 2;
     private int y_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>int32 y = 2;</code>
-     * @return The y.
-     */
+
     @java.lang.Override
     public int getY() {
       return y_;
@@ -157,14 +126,7 @@ public final class Vector3IntOuterClass {
 
     public static final int X_FIELD_NUMBER = 1;
     private int x_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>int32 x = 1;</code>
-     * @return The x.
-     */
+
     @java.lang.Override
     public int getX() {
       return x_;
@@ -172,14 +134,7 @@ public final class Vector3IntOuterClass {
 
     public static final int Z_FIELD_NUMBER = 3;
     private int z_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>int32 z = 3;</code>
-     * @return The z.
-     */
+
     @java.lang.Override
     public int getZ() {
       return z_;
@@ -522,129 +477,63 @@ public final class Vector3IntOuterClass {
       }
 
       private int y_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>int32 y = 2;</code>
-       * @return The y.
-       */
+
       @java.lang.Override
       public int getY() {
         return y_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>int32 y = 2;</code>
-       * @param value The y to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setY(int value) {
-        
+
         y_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>int32 y = 2;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearY() {
-        
+
         y_ = 0;
         onChanged();
         return this;
       }
 
       private int x_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>int32 x = 1;</code>
-       * @return The x.
-       */
+
       @java.lang.Override
       public int getX() {
         return x_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>int32 x = 1;</code>
-       * @param value The x to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setX(int value) {
-        
+
         x_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>int32 x = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearX() {
-        
+
         x_ = 0;
         onChanged();
         return this;
       }
 
       private int z_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>int32 z = 3;</code>
-       * @return The z.
-       */
+
       @java.lang.Override
       public int getZ() {
         return z_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>int32 z = 3;</code>
-       * @param value The z to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setZ(int value) {
-        
+
         z_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>int32 z = 3;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearZ() {
-        
+
         z_ = 0;
         onChanged();
         return this;
@@ -660,7 +549,6 @@ public final class Vector3IntOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:Vector3Int)
     }
@@ -704,7 +592,7 @@ public final class Vector3IntOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Vector3Int_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Vector3Int_fieldAccessorTable;
 

@@ -54,7 +54,7 @@ public class ScriptLib {
     }
 
     public SceneScriptManager getSceneScriptManager() {
-        // normally not null
+
         return Optional.of(sceneScriptManager.get()).get();
     }
 
@@ -118,7 +118,7 @@ public class ScriptLib {
     }
 
     private int killGroupEntityWithPolicy(SceneScriptManager sceneScriptManager, SceneGroup group, GroupKillPolicy killPolicy) {
-        // get targets
+
         var targets = new ArrayList<SceneObject>();
         if (killPolicy == GROUP_KILL_MONSTER || killPolicy == GROUP_KILL_ALL) {
             targets.addAll(group.monsters.values());
@@ -127,7 +127,6 @@ public class ScriptLib {
             targets.addAll(group.gadgets.values());
         }
 
-        // kill targets if exists
         targets.forEach(o -> {
             var entity = getSceneScriptManager().getScene().getEntityByConfigId(o.config_id, getCurrentGroup().get().id);
             if (entity == null) {
@@ -139,7 +138,7 @@ public class ScriptLib {
     }
 
     private int killGroupEntityWithTable(SceneScriptManager sceneScriptManager, SceneGroup group, LuaTable lists) {
-        // get targets
+
         var monsterList = lists.get("monsters");
         var gadgetList = lists.get("gadgets");
 
@@ -152,7 +151,6 @@ public class ScriptLib {
             targets[targetsIndex] = gadgetList.get(i).optint(-1);
         }
 
-        // kill targets if exists
         for (int cfgId : targets) {
             var entity = getSceneScriptManager().getScene().getEntityByConfigId(cfgId, getCurrentGroup().get().id);
             if (entity == null || cfgId == 0) {
@@ -172,24 +170,15 @@ public class ScriptLib {
         }
     }
 
-    /*
-     *
-     * Functions are alphabetical
-     *
-     */
-
     public int ActivateDungeonCheckPoint(int var1) {
         logger.warn("[LUA] Call untested ActivateDungeonCheckPoint with {}", var1);
-        // TODO test
+
         var dungeonManager = getSceneScriptManager().getScene().getDungeonManager();
         if (dungeonManager == null) {
             return 1;
         }
         return dungeonManager.activateRespawnPoint(var1) ? 0 : 2;
     }
-
-    // TODO: ActivateGroupLinkBundle
-    // TODO: ActivateGroupLinkBundleByBundleId
 
     public synchronized int ActiveChallenge(int challengeId, int challengeIndex, int timeLimitOrGroupId, int groupId, int objectiveKills, int param5) {
         logger.debug("[LUA] Call ActiveChallenge with {},{},{},{},{},{}", challengeId, challengeIndex, timeLimitOrGroupId, groupId, objectiveKills, param5);
@@ -203,9 +192,7 @@ public class ScriptLib {
 
         var towerManager = scene.getPlayers().get(0).getTowerManager();
         if (towerManager.isInProgress() && towerManager.getCurrentTimeLimit() > 0) {
-            // Tower scripts call ActiveChallenge twice in mirror stages.
-            // The second call provides the time _taken_ in the first stage,
-            // not the actual time limit for the challenge.
+
             timeLimitOrGroupId = towerManager.getCurrentTimeLimit() - timeLimitOrGroupId;
             if (timeLimitOrGroupId < 0) {
                 timeLimitOrGroupId = 0;
@@ -228,7 +215,7 @@ public class ScriptLib {
         }
 
         if (challenge instanceof DungeonChallenge dungeonChallenge) {
-            // set if tower first stage (6-1)
+
             dungeonChallenge.setStage(getSceneScriptManager().getVariables(groupId).getOrDefault("stage", -1) == 0);
         }
 
@@ -237,22 +224,11 @@ public class ScriptLib {
         return 0;
     }
 
-    // TODO: ActiveGadgetItemGiving
-
     public int AddBlossomScheduleProgressByGroupId(int groupId) {
         logger.warn("[LUA] Call unimplemented AddBlossomScheduleProgressByGroupId with {}", groupId);
-        // TODO implement
+
         return 0;
     }
-
-    // TODO: AddChallengeDuration
-    // TODO: AddChessBuildingPoints
-    // TODO: AddEntityGlobalFloatValueByConfigId
-    // TODO: AddExhibitionAccumulableData
-    // TODO: AddExhibitionAccumulableDataAfterSuccess
-    // TODO: AddExhibitionReplaceableData
-    // TODO: AddExhibitionReplaceableDataAfterSuccess
-    // TODO: AddExtraFlowSuite
 
     public int AddExtraGroupSuite(int groupId, int suite) {
         logger.debug("[LUA] Call AddExtraGroupSuite with {},{}", groupId, suite);
@@ -270,15 +246,9 @@ public class ScriptLib {
         return 0;
     }
 
-    // TODO: AddFleurFairMultistagePlayBuffEnergy
-    // TODO: AddGalleryProgressScore
-    // TODO: AddIrodoriChessBuildingPoints
-    // TODO: AddIrodoriChessTowerServerGlobalValue
-    // TODO: AddMechanicusBuildingPoints
-
     public int AddPlayerGroupVisionType(int[] uids, int[] var2) {
         logger.warn("[LUA] Call unimplemented AddPlayerGroupVisionType with {} {}", uids, var2);
-        // TODO implement
+
         return 0;
     }
 
@@ -293,12 +263,6 @@ public class ScriptLib {
         return 0;
     }
 
-    // TODO: AddRegionalPlayVarValue
-    // TODO: AddRegionRecycleProgress
-    // TODO: AddRegionSearchProgress
-    // TODO: AddSceneMultiStagePlayUidValue
-    // TODO: AddScenePlayBattleProgress
-
     public int AddSceneTag(int sceneId, int sceneTagId) {
         logger.debug("[LUA] Call AddSceneTag with {}, {}", sceneId, sceneTagId);
         getSceneScriptManager().getScene().getHost().getProgressManager().addSceneTag(sceneId, sceneTagId);
@@ -307,32 +271,25 @@ public class ScriptLib {
 
     public int AddTeamEntityGlobalFloatValue(int[] sceneUidList, String var2, int var3) {
         logger.warn("[LUA] Call unimplemented AddTeamEntityGlobalFloatValue with {} {} {}", sceneUidList, var2, var3);
-        // TODO implement
+
         return 0;
     }
-
-    // TODO: AddTeamServerGlobalValue
 
     public int AssignPlayerShowTemplateReminder(int var1, LuaTable var2) {
         logger.warn("[LUA] Call unimplemented AssignPlayerShowTemplateReminder {} {}", var1, var2);
-        // TODO implement var2 contains LuaTable param_uid_vec, LuaTable param_vec int[] uid_vec
+
         return 0;
     }
-
-    // TODO: AssignPlayerUidOpNotify
 
     public int AttachChildChallenge(int var1, int var2, int var3, int[] var4, LuaTable var5, LuaTable var6) {
         logger.warn("[LUA] Call unimplemented AttachChildChallenge with {} {} {} {} {} {}", var1, var2, var3, var4, var5, var6);
-        // TODO implement var6 object has int success, int fail, bool fail_on_wipe
+
         return 0;
     }
 
-    // TODO: AttachGalleryAbilityGroup
-    // TODO: AttachGalleryTeamAbilityGroup
-
     public int AutoMonsterTide(int sourceId, int groupId, Integer[] ordersConfigId, int tideCount, int sceneLimit, int param6) {
         logger.debug("[LUA] Call AutoMonsterTide with {},{},{},{},{},{}", sourceId, groupId, ordersConfigId, tideCount, sceneLimit, param6);
-        // Some fields are guessed
+
         SceneGroup group = getSceneScriptManager().getGroupById(groupId);
         if (group == null || group.monsters == null) {
             return 1;
@@ -341,61 +298,11 @@ public class ScriptLib {
         return 0;
     }
 
-    // TODO: AutoPoolMonsterTide
-
     public int BeginCameraSceneLook(LuaTable sceneLookParams) {
         logger.warn("[LUA] Call unimplemented BeginCameraSceneLook with {}", printTable(sceneLookParams));
-        // TODO implement
-        // INVESTIGATE: Sniff the content for 'BeginCameraSceneLookNotify'.
-        // This packet is known as 260 (3.5) or 215 (3.6).
-        // Compare data to ones found in Lua, then de-obfuscate.
-//        var luaLookPos = sceneLookParams.get("look_pos");
-//        var luaFollowPos = sceneLookParams.get("follow_pos");
-//        var luaDuration = sceneLookParams.get("duration");
-//        var luaIsForce = sceneLookParams.get("is_force");
-//        var luaIsBroadcast = sceneLookParams.get("is_broadcast");
-//        var luaAllowInput = sceneLookParams.get("is_allow_input");
-//        var luaSetFollowPos = sceneLookParams.get("is_set_follow_pos");
-//        var luaIsForceWalk = sceneLookParams.get("is_force_walk");
-//        var luaIsChangePlayMode = sceneLookParams.get("is_change_play_mode");
-//        var luaScreenX = sceneLookParams.get("screen_x");
-//        var luaScreenY = sceneLookParams.get("screen_y");
-//
-//        var cameraParams = new PacketBeginCameraSceneLookNotify.CameraSceneLookNotify();
-//        cameraParams.setLookPos(luaToPos(luaLookPos));
-//        cameraParams.setFollowPos(luaToPos(luaFollowPos));
-//        if (luaDuration.isnumber()) {
-//            cameraParams.setDuration(luaDuration.tofloat());
-//        }
-//        if (luaScreenX.isnumber()) {
-//            cameraParams.setScreenX(luaScreenX.tofloat());
-//        }
-//        if (luaScreenY.isnumber()) {
-//            cameraParams.setScreenY(luaScreenY.tofloat());
-//        }
-//        if (luaIsForce.isboolean()) {
-//            cameraParams.setForce(luaIsForce.toboolean());
-//        }
-//        if (luaAllowInput.isboolean()) {
-//            cameraParams.setAllowInput(luaAllowInput.toboolean());
-//        }
-//        if (luaSetFollowPos.isboolean()) {
-//            cameraParams.setSetFollowPos(luaSetFollowPos.toboolean());
-//        }
-//        if (luaIsForceWalk.isboolean()) {
-//            cameraParams.setForceWalk(luaIsForceWalk.toboolean());
-//        }
-//        if (luaIsChangePlayMode.isboolean()) {
-//            cameraParams.setChangePlayMode(luaIsChangePlayMode.toboolean());
-//        }
-//        if(luaIsBroadcast.isboolean()) { } // TODO
-//
-//        sceneScriptManager.get().getScene().broadcastPacket(new PacketBeginCameraSceneLookNotify(cameraParams));
+
         return 0;
     }
-
-    // TODO: BeginCameraSceneLookWithTemplate
-
 
     public int CancelGroupTimerEvent(int groupID, String source) {
         logger.debug("[LUA] Call CancelGroupTimerEvent");
@@ -418,9 +325,6 @@ public class ScriptLib {
         return 0;
     }
 
-    // TODO: CauseDungeonSuccess
-    // TODO: ChangeDeathZone
-
     public int ChangeGroupGadget(LuaTable table) {
         logger.debug("[LUA] Call ChangeGroupGadget with {}, current group {}", printTable(table), getCurrentGroup().get().id);
         var configId = table.get("config_id").toint();
@@ -438,8 +342,6 @@ public class ScriptLib {
 
         return 1;
     }
-
-    // TODO: ChangeGroupTempValue
 
     public LuaValue ChangeGroupVariableValue(String var, int value) {
         logger.debug("[LUA] Call ChangeGroupVariableValue with {},{}", var, value);
@@ -467,11 +369,6 @@ public class ScriptLib {
         return 0;
     }
 
-    // TODO: ChangeToTargetLevelTagWithParamTable
-    // TODO: CharAmusementMultistagePlaySwitchTeam
-    // TODO: CharAmusementUpdateScore
-    // TODO: CheckIsInGroup
-
     public boolean CheckIsInMpMode() {
         logger.debug("[LUA] Call CheckIsInMpMode");
         return this.getSceneScriptManager().getScene().getWorld().isMultiplayer();
@@ -492,27 +389,21 @@ public class ScriptLib {
         return getSceneScriptManager().getScene().getHost().getProgressManager().checkSceneTag(sceneId, sceneTagId);
     }
 
-    // TODO: ClearExhibitionReplaceableData
-
     public int ClearPlayerEyePoint(int var1) {
         logger.warn("[LUA] Call unimplemented ClearPlayerEyePoint with {}", var1);
-        // TODO implement
+
         return 0;
     }
 
-    // TODO: ClearPoolMonsterTide
-    // TODO: ContinueAutoMonster
-    // TODO: ContinueTimeAxis
-
     public int CreateBlossomChestByGroupId(int groupId, int var2) {
         logger.warn("[LUA] Call unimplemented CreateBlossomChestByGroupId with {} {}", groupId, var2);
-        // TODO implement
+
         return 0;
     }
 
     public int CreateChannellerSlabCampRewardGadget(int configId) {
         logger.warn("[LUA] Call unimplemented CreateChannellerSlabCampRewardGadget {}", configId);
-        // TODO implement fully
+
         var group = currentGroup.getIfExists();
         if (group == null) {
             return 1;
@@ -524,23 +415,20 @@ public class ScriptLib {
 
     public int CreateEffigyChallengeMonster(int var1, int[] var2) {
         logger.warn("[LUA] Call unimplemented CreateEffigyChallengeMonster with {} {}", var1, var2);
-        // TODO implement
+
         return 0;
     }
 
     public int CreateFatherChallenge(int var1, int var2, int var3, LuaTable var4) {
         logger.warn("[LUA] Call unimplemented CreateFatherChallenge with {} {} {} {}", var1, var2, var3, var4);
-        // TODO implement var4 object has int success, int fail, bool fail_on_wipe
+
         return 0;
     }
-
-    // TODO: CreateFoundation
-    // TODO: CreateFoundations
 
     public int CreateGadget(LuaTable table) {
         logger.debug("[LUA] Call CreateGadget with {}", printTable(table));
         var configId = table.get("config_id").toint();
-        // TODO: figure out what creating gadget configId 0 does
+
         if (configId == 0) {
             Grasscutter.getLogger().warn("Tried to CreateGadget with config_id 0: {}", printTable(table));
             return 0;
@@ -556,18 +444,10 @@ public class ScriptLib {
         return 0;
     }
 
-    // TODO: CreateGadgetByConfigIdByPos
-    // TODO: CreateGadgetByParamTable
-    // TODO: CreateGadgetWave
-    // TODO: CreateGadgetWithGlobalValue
-
     public int CreateGroupTimerEvent(int groupID, String source, double time) {
         logger.debug("[LUA] Call CreateGroupTimerEvent with {} {} {}", groupID, source, time);
         return sceneScriptManager.get().createGroupTimerEvent(groupID, source, time);
     }
-
-    // TODO: CreateGroupTrigger
-    // TODO: CreateGroupVariable
 
     public int CreateMonster(LuaTable table) {
         logger.debug("[LUA] Call CreateMonster with {}", printTable(table));
@@ -582,28 +462,15 @@ public class ScriptLib {
         return 0;
     }
 
-    // TODO: CreateMonsterByConfigIdByPos
-
     public int CreateMonsterFaceAvatar(LuaTable var1) {
         logger.warn("[LUA] Call unimplemented CreateMonsterFaceAvatar with {}", printTable(var1));
-        // TODO implement var1 contains int entity_id, int[] monsters (cfgIds), int[] ranges, int angle
+
         return 0;
     }
 
-    // TODO: CreateMonstersFromMonsterPool
-    // TODO: CreateMonsterWithGlobalValue
-    // TODO: CreateScenePlayGeneralRewardGadget
-    // TODO: CreateTreasureMapSpotRewardGadget
-    // TODO: CreateVehicle
-    // TODO: CrystalLinkDungeonTeamSetUp
-    // TODO: DeactivateGroupLinkBundle
-    // TODO: DeactivateGroupLinkBundleByBundleId
-    // TODO: DelAllSubEntityByOriginOwnerConfigId
-    // TODO: DelGalleryAbilityGroup
-
     public int DelPlayerGroupVisionType(int[] uids, int[] var2) {
         logger.warn("[LUA] Call unimplemented DelPlayerGroupVisionType with {} {}", uids, var2);
-        // TODO implement
+
         return 0;
     }
 
@@ -658,71 +525,39 @@ public class ScriptLib {
         return 0;
     }
 
-    // TODO: DestroyIrodoriChessTower
-    // TODO: DigRetractAllWidget
-    // TODO: DigSetSearchingTarget
-    // TODO: DoRoguelikeCardGachaByLua
-    // TODO: EndAllTimeAxis
-    // TODO: EndFatherChallenge
-    // TODO: EndMonsterTide
-    // TODO: EndPoolMonsterTide
-    // TODO: EndSceneMultiStagePlay
-    // TODO: EndSceneMultiStagePlayStage
-
     public int EndTimeAxis(String identifier) {
         logger.debug("[LUA] Call EndTimeAxis");
         this.getSceneScriptManager().stopTimeAxis(identifier);
         return 0;
     }
 
-    // TODO: EnterCurve
-    // TODO: EnterCustomDungeonOfficialEdit
-    // TODO: EnterPersistentDungeon
-    // TODO: EnterRogueCell
-    // TODO: EnterRogueDungeonNextLevel
-
     public int EnterWeatherArea(int var1) {
         logger.warn("[LUA] Call unimplemented EnterWeatherArea with {}", var1);
-        // TODO implement
+
         return 0;
     }
-
-    // TODO: ExecuteActiveGroupLua
-    // TODO: ExecuteGadgetLua
-    // TODO: ExecuteGroupLua
 
     public int ExpeditionChallengeEnterRegion(boolean var1) {
         logger.warn("[LUA] unimplemented Call ExpeditionChallengeEnterRegion with {}", var1);
-        // TODO implement
+
         return 0;
     }
-
-    // TODO: FailMistTrialDungeonChallenge
-    // TODO: FailScenePlayBattle
 
     public int FinishExpeditionChallenge() {
         logger.warn("[LUA] unimplemented Call FinishExpeditionChallenge");
-        // TODO implement
+
         return 0;
     }
-
-    // TODO: FinishFindHilichurlLevel
-    // TODO: FinishFleurFairGalleryStageByUid
-    // TODO: FinishGroupLinkBundle
-    // TODO: FinishRogueDiaryDungeonSingleRoom
-    // TODO: ForbidPlayerRegionVision
 
     public int ForceRefreshAuthorityByConfigId(int var1, int uid) {
         logger.warn("[LUA] Call unimplemented ForceRefreshAuthorityByConfigId with {} {}", var1, uid);
-        // TODO implement check var3 type
+
         return 0;
     }
 
-    // TODO: ForceSetIrodoriFoundationTowers
-
     public int GadgetPlayUidOp(int groupId, int gadget_crucible, int var3, int var4, String var5, int var6) {
         logger.warn("[LUA] Call unimplemented GadgetPlayUidOp with {}, {}, {}, {}, {}, {}", groupId, gadget_crucible, var3, var4, var5, var6);
-        // TODO implement
+
         return 0;
     }
 
@@ -739,32 +574,20 @@ public class ScriptLib {
         return result;
     }
 
-    // TODO: GetAranaraCollectableCountByTypeAndState
-
     public int GetAvatarEntityIdByUid(int uid) {
         logger.warn("[LUA] Call unchecked GetAvatarEntityIdByUid with {}", uid);
-        // TODO check
+
         var entity = getSceneScriptManager().getScene().getEntities().values().stream()
                 .filter(e -> e instanceof EntityAvatar && ((EntityAvatar) e).getPlayer().getUid() == uid)
                 .findFirst();
         return entity.map(GameEntity::getId).orElse(0);
     }
 
-    // TODO: GetBlossomRefreshTypeByGroupId
-    // TODO: GetBlossomScheduleStateByGroupId
-    // TODO: GetBonusTreasureMapSolution
-    // TODO: GetChallengeTransaction
-
     public int GetChannellerSlabLoopDungeonLimitTime() {
         logger.warn("[LUA] Call unimplemented GetChannellerSlabLoopDungeonLimitTime");
-        // TODO implement
+
         return 0;
     }
-
-    // TODO: GetCharAmusementGalleryTarget
-    // TODO: GetCharAmusementMultistagePlayGalleryIdVec
-    // TODO: GetCoinCollectGalleryPlayerSkillInfo
-    // TODO: GetConfigIdByEntityId
 
     public int GetContextGroupId() {
         logger.debug("[LUA] Call GetContextGroupId");
@@ -774,50 +597,24 @@ public class ScriptLib {
         return gadget.getGroupId();
     }
 
-    // TODO: GetCurFungusFighterPlotConfigIdList
-    // TODO: GetCurFungusFighterTrainingParams
-    // TODO: GetCurFungusFighterTrainingValidBackupFungusIdList
-    // TODO: GetCurrentCustomDungeonForbidSkill
-    // TODO: GetCurrentCustomDungeonParamVec
-    // TODO: GetCurrentLevelTagVec
-
     public int GetCurTriggerCount() {
         logger.debug("[LUA] Call GetCurTriggerCount");
-        // TODO check
+
         return getSceneScriptManager().getTriggerCount();
     }
 
-    // TODO: GetCustomDungeonCoinNum
-    // TODO: GetCustomDungeonOpenRoomVec
-    // TODO: GetDeathZoneStatus
-    // TODO: GetDungeonTeamPlayerNum
-    // TODO: GetDungeonTransaction
-    // TODO: GetEffigyChallengeLimitTime
-
     public int GetEffigyChallengeMonsterLevel() {
         logger.warn("[LUA] Call unimplemented GetEffigyChallengeMonsterLevel");
-        // TODO implement
+
         return 0;
     }
 
-    // TODO: GetEffigyChallengeV2DungeonDifficulty
-
     public int GetEntityIdByConfigId(int configId) {
         logger.warn("[LUA] Call GetEntityIdByConfigId with {}", configId);
-        // TODO check
+
         var entity = getSceneScriptManager().getScene().getEntityByConfigId(configId, getCurrentGroup().get().id);
         return entity != null ? entity.getId() : 0;
     }
-
-    // TODO: GetExhibitionAccumulableData
-    // TODO: GetExhibitionReplaceableData
-    // TODO: GetFleurFairDungeonSectionId
-    // TODO: GetFleurFairMultistagePlayBuffEnergy
-    // TODO: GetFleurFairMultistagePlayGalleryIdVec
-    // TODO: GetFleurFairMultistagePlayGalleryTempValue
-    // TODO: GetGadgetAbilityFloatValue
-    // TODO: GetGadgetConfigId
-    // TODO: GetGadgetHpPercent
 
     public int GetGadgetIdByEntityId(int entityId) {
         logger.debug("[LUA] Call GetGadgetIdByEntityId with {}", entityId);
@@ -838,19 +635,10 @@ public class ScriptLib {
         return ((EntityGadget) gadget).getState();
     }
 
-    // TODO: GetGalleryProgressScore
-    // TODO: GetGalleryTransaction
-    // TODO: GetGalleryUidList
-
     public int GetGameHour() {
         logger.debug("[LUA] Call GetGameHour");
         return getSceneScriptManager().getScene().getWorld().getGameTimeHours();
     }
-
-    // TODO: GetGameTimePassed
-    // TODO: GetGivingItemList
-    // TODO: GetGroupAliveMonsterList
-    // TODO: GetGroupLogicStateValue
 
     public int GetGroupMonsterCount() {
         int returnValue = (int) getSceneScriptManager().getScene().getEntities().values().stream()
@@ -877,7 +665,7 @@ public class ScriptLib {
 
     public int GetGroupTempValue(String name, LuaTable var2) {
         logger.warn("[LUA] Call unimplemented GetGroupTempValue with {} {}", name, printTable(var2));
-        // TODO implement var3 has int group_id
+
         return 0;
     }
 
@@ -893,13 +681,6 @@ public class ScriptLib {
         return returnValue;
     }
 
-    // TODO: GetHideAndSeekHunter
-    // TODO: GetHideAndSeekMap
-    // TODO: GetHideAndSeekPlayerSkillList
-    // TODO: GetHideAndSeekPlayGalleryId
-    // TODO: GetHideAndSeekPlayIndex
-    // TODO: GetHideAndSeekPreyUidList
-
     public int GetHostQuestState(int questId) {
         logger.debug("[LUA] Call GetHostQuestState with {}", questId);
         val player = getSceneScriptManager().getScene().getWorld().getHost();
@@ -913,25 +694,15 @@ public class ScriptLib {
 
     public int GetHuntingMonsterExtraSuiteIndexVec() {
         logger.warn("[LUA] Call unimplemented GetHuntingMonsterExtraSuiteIndexVec");
-        // TODO implement
+
         return 0;
     }
-
-    // TODO: GetIrodoriChessSelectedCards
 
     public int GetLanternRiteValue() {
         logger.warn("[LUA] Call unimplemented GetLanternRiteValue");
-        // TODO implement
+
         return 0;
     }
-
-    // TODO: GetLevelTagNameById
-    // TODO: GetLunaRiteSacrificeNum
-    // TODO: GetMechanicusBuildingPoints
-    // TODO: GetMonsterAbilityFloatValue
-    // TODO: GetMonsterAffixListByConfigId
-    // TODO: GetMonsterConfigId
-    // TODO: GetMonsterHpPercent
 
     public int GetMonsterIdByEntityId(int entityId) {
         logger.debug("[LUA] Call GetMonsterIdByEntityId with {}", entityId);
@@ -942,29 +713,21 @@ public class ScriptLib {
         return ((EntityMonster) entity).getMonsterData().getId();
     }
 
-    // TODO: GetOfferingLevel
-
     public int[] GetOpeningDungeonListByRosterId(int var1) {
         logger.warn("[LUA] Call unimplemented GetOpeningDungeonListByRosterId with {}", var1);
         return new int[] {0, 0};
     }
 
-    // TODO: GetPlatformArrayInfoByPointId
-    // TODO: GetPlatformPointArray
-    // TODO: GetPlayerVehicleType
-
     public LuaTable GetPosByEntityId(int entityId) {
         logger.warn("[LUA] Call unchecked GetPosByEntityId with {}", entityId);
-        // TODO check
+
         var entity = getSceneScriptManager().getScene().getEntityById(entityId);
         return posToLua(entity != null ? entity.getPosition() : null);
     }
 
-    // TODO: GetPotionDungeonAffixParams
-
     public int GetQuestState(int entityId, int questId) {
         logger.debug("[LUA] Call GetQuestState with {} {}", entityId, questId);
-        // TODO: Why do we not use entityId?
+
         val player = getSceneScriptManager().getScene().getWorld().getHost();
         val quest = player.getQuestManager().getQuestById(questId);
         if (quest == null) {
@@ -973,9 +736,6 @@ public class ScriptLib {
 
         return quest.getState().getValue();
     }
-
-    // TODO: GetQuestStateByUid
-    // TODO: GetRegionalPlayVarValue
 
     public int GetRegionConfigId(LuaTable var1) {
         logger.debug("[LUA] Call GetRegionConfigId with {}", printTable(var1));
@@ -998,27 +758,16 @@ public class ScriptLib {
         return (int) region.getEntities().stream().filter(e -> e >> ENTITY_ID_BIT_SHIFT == entityType).count();
     }
 
-    // TODO: GetRogueCellState
-    // TODO: GetRogueDiaryDungeonStage
-    // TODO: GetRogueDiaryRoundAndRoom
-
     public LuaTable GetRotationByEntityId(int entityId) {
         logger.debug("[LUA] Call unchecked GetRotationByEntityId with {}", entityId);
-        // TODO check
+
         var entity = getSceneScriptManager().getScene().getEntityById(entityId);
         return posToLua(entity != null ? entity.getRotation() : null);
     }
 
-    // TODO: GetSceneMultiStagePlayUidValue
-    // TODO: GetSceneOwnerUid
-    // TODO: GetScenePlayBattleHostUid
-    // TODO: GetScenePlayBattleType
-    // TODO: GetScenePlayBattleUidValue
-    // TODO: GetSceneTimeSeconds
-
     public LuaTable GetSceneUidList() {
         logger.warn("[LUA] Call unchecked GetSceneUidList");
-        // TODO check
+
         var scriptManager = sceneScriptManager.getIfExists();
         if (scriptManager == null) {
             return new LuaTable();
@@ -1033,17 +782,9 @@ public class ScriptLib {
 
     public long GetServerTime() {
         logger.warn("[LUA] Call unchecked GetServerTime");
-        // TODO check
+
         return new Date().getTime();
     }
-
-    // TODO: GetSurroundUidList
-    // TODO: GetTeamAbilityFloatValue
-    // TODO: GetTeamEntityIdByUid
-    // TODO: GetTeamServerGlobalValue
-    // TODO: GetTreasureSeelieDayByGroupId
-    // TODO: GetUidByTeamEntityId
-    // TODO: GoToFlowSuite
 
     public int GoToGroupSuite(int groupId, int suite) {
         logger.debug("[LUA] Call GoToGroupSuite with {},{}", groupId, suite);
@@ -1057,12 +798,6 @@ public class ScriptLib {
             return 1;
         }
 
-		/*for(var suiteItem : group.suites){
-			if(suiteData == suiteItem){
-				continue;
-			}
-			this.getSceneScriptManager().removeGroupSuite(group, suiteItem);
-		}*/
         if (groupInstance.getActiveSuiteId() == 0 || groupInstance.getActiveSuiteId() != suite) {
             groupInstance.getDeadEntities().clear();
             this.getSceneScriptManager().addGroupSuite(groupInstance, suiteData);
@@ -1071,10 +806,6 @@ public class ScriptLib {
 
         return 0;
     }
-
-    // TODO: InitGalleryProgressScore
-    // TODO: InitGalleryProgressWithScore
-    // TODO: InitSceneMultistagePlay
 
     public int InitTimeAxis(String identifier, int[] delays, boolean shouldLoop) {
         if (this.getCurrentGroup().isEmpty()) {
@@ -1085,7 +816,6 @@ public class ScriptLib {
         var scriptManager = this.getSceneScriptManager();
         var group = this.getCurrentGroup().get();
 
-        // Create a new time axis instance.
         var timeAxis = new SceneTimeAxis(
                 scriptManager, group.id,
                 identifier, delays[0], shouldLoop
@@ -1095,17 +825,6 @@ public class ScriptLib {
 
         return 0;
     }
-
-    // TODO: InstableSprayGetSGVByBuffId
-    // TODO: InstableSprayRandomBuffs
-    // TODO: InvaildGravenPhotoBundleMark
-    // TODO: IsChallengeStartedByChallengeId
-    // TODO: IsChallengeStartedByChallengeIndex
-    // TODO: IsChannellerSlabLoopDungeonConditionSelected
-    // TODO: IsEffigyChallengeConditionSelected
-    // TODO: IsGalleryStart
-    // TODO: IsInRegion
-    // TODO: IsLevelTagChangeInCD
 
     public boolean IsPlayerAllAvatarDie(int sceneUid) {
         logger.warn("[LUA] Call unchecked IsPlayerAllAvatarDie with {}", sceneUid);
@@ -1118,10 +837,6 @@ public class ScriptLib {
         }
         return true;
     }
-
-    // TODO: IsPlayerTransmittable
-    // TODO: IsRogueBossCellPrevCellFinish
-    // TODO: IsWidgetEquipped
 
     public int KillEntityByConfigId(LuaTable table) {
         logger.debug("[LUA] Call KillEntityByConfigId with {}", printTable(table));
@@ -1136,8 +851,6 @@ public class ScriptLib {
         getSceneScriptManager().getScene().killEntity(entity, 0);
         return 0;
     }
-
-    // TODO: KillExtraFlowSuite
 
     public int KillExtraGroupSuite(int groupId, int suite) {
         logger.debug("[LUA] Call KillExtraGroupSuite with {},{}", groupId, suite);
@@ -1155,7 +868,7 @@ public class ScriptLib {
 
     public int KillGroupEntity(LuaTable var1) {
         logger.debug("[LUA] Call KillGroupEntity with {}", printTable(var1));
-        // TODO check
+
         var sceneManager = sceneScriptManager.getIfExists();
         var groupId = var1.get("group_id").optint(-1);
         var killPolicyId = var1.get("kill_policy").optint(-1);
@@ -1174,95 +887,79 @@ public class ScriptLib {
         return killGroupEntityWithTable(sceneManager, group, var1);
     }
 
-    // TODO: KillMonsterTide
-    // TODO: LockMonsterHp
-    // TODO: MarkGroupLuaAction
-
     public int MarkPlayerAction(int var1, int var2, int var3) {
         logger.warn("[LUA] Call unimplemented MarkPlayerAction with {},{},{}", var1, var2, var3);
-        // TODO implement
+
         return 0;
     }
 
     public int ModifyClimatePolygonParamTable(int var1, LuaTable var2) {
         logger.warn("[LUA] Call unimplemented ModifyClimatePolygonParamTable with {} {}", var1, printTable(var2));
-        // TODO implement
+
         return 0;
     }
 
     public int ModifyFatherChallengeProperty(int challengeId, int propertyTypeIndex, int value) {
         val propertyType = FatherChallengeProperty.values()[propertyTypeIndex];
         logger.warn("[LUA] Call unimplemented ModifyFatherChallengeProperty with {} {} {}", challengeId, propertyType.name(), value);
-        // TODO implement
+
         return 0;
     }
 
     public int MoveAvatarByPointArray(int uid, int targetId, LuaTable var3, String var4) {
         logger.warn("[LUA] Call unimplemented MoveAvatarByPointArray with {} {} {} {}", uid, targetId, printTable(var3), var4);
-        // TODO implement var3 contains int speed, var4 is a json string
+
         return 0;
     }
 
     public int MoveAvatarByPointArrayWithTemplate(int uid, int pointarray_id, int[] routelist, int var4, LuaTable var5) {
         logger.warn("[LUA] Call unimplemented MoveAvatarByPointArrayWithTemplate with {} {} {} {} {}", uid, pointarray_id, routelist, var4, printTable(var5));
-        // TODO implement var5 contains int speed
+
         return 0;
     }
 
     public int MovePlayerToPos(LuaTable var1) {
         logger.warn("[LUA] Call unchecked MovePlayerToPos with {}", printTable(var1));
-        // TODO implement var1 contains int[] uid_list, Position pos, int radius, Position rot
-        return TransPlayerToPos(var1); // todo this is probably not a full scene reload
-    }
 
-    // TODO: NotifyAllPlayerPerformOperation
-    // TODO: PauseAutoMonsterTide
-    // TODO: PauseAutoPoolMonsterTide
-    // TODO: PauseChallenge
-    // TODO: PauseTimeAxis
+        return TransPlayerToPos(var1);
+    }
 
     public int PlayCutScene(int cutsceneId, int var2) {
         logger.warn("[LUA] Call unchecked PlayCutScene with {} {}", cutsceneId, var2);
         sceneScriptManager.get().getScene().broadcastPacket(new PacketCutsceneBeginNotify(cutsceneId));
-        // TODO implement
+
         return 0;
     }
 
     public int PlayCutSceneWithParam(int cutsceneId, int var2, LuaTable var3) {
         logger.warn("[LUA] Call unimplemented PlayCutScene with {} {} {}", cutsceneId, var2, var3);
-        // TODO implement
+
         return 0;
     }
-
-    // TODO: PrestartScenePlayBattle
 
     public void PrintContextLog(String msg) {
         printLog("PrintContextLog", msg);
     }
 
-    // TODO: PrintGroupWarning
-
     public void PrintLog(String msg) {
         printLog("PrintLog", msg);
     }
 
-    // TODO: RecieveAllAranaraCollectionByType
-
     public int RefreshBlossomDropRewardByGroupId(int groupId) {
         logger.warn("[LUA] Call unimplemented RefreshBlossomDropRewardByGroupId with {}", groupId);
-        // TODO implement
+
         return 0;
     }
 
     public int RefreshBlossomGroup(LuaTable var1) {
         logger.warn("[LUA] Call unimplemented RefreshBlossomGroup with {}", printTable(var1));
-        // TODO implement var3 has int group_id, int suite, bool exclude_prev
+
         return 0;
     }
 
     public int RefreshGroup(LuaTable table) {
         logger.warn("[LUA] Call improperly implemented RefreshGroup with {}", printTable(table));
-        // Kill and Respawn? TODO: Do not Kill and Respawn
+
         int groupId = table.get("group_id").toint();
         int suite = table.get("suite").toint();
         SceneGroupInstance groupInstance = getSceneScriptManager().getGroupInstanceById(groupId);
@@ -1275,8 +972,8 @@ public class ScriptLib {
     }
 
     public int RefreshHuntingClueGroup() {
-        logger.warn("[LUA] Call unimplemented RefreshHuntingClueGroup"); // TODO: Much many calls o this garbages the log
-        // TODO implement
+        logger.warn("[LUA] Call unimplemented RefreshHuntingClueGroup");
+
         return 0;
     }
 
@@ -1289,8 +986,6 @@ public class ScriptLib {
         getSceneScriptManager().getScene().removeEntity(entity, VisionType.VisionType_VISION_REMOVE);
         return 0;
     }
-
-    // TODO: RemoveExtraFlowSuite
 
     public int RemoveExtraGroupSuite(int groupId, int suite) {
         logger.debug("[LUA] Call RemoveExtraGroupSuite with {},{}", groupId, suite);
@@ -1306,16 +1001,11 @@ public class ScriptLib {
         return 0;
     }
 
-    // TODO: ResumeAutoPoolMonsterTide
-    // TODO: RevertPlayerRegionVision
-
     public int RevokePlayerShowTemplateReminder(int var1, LuaValue var2) {
         logger.warn("[LUA] Call unimplemented RevokePlayerShowTemplateReminder {} {}", var1, var2);
-        // TODO implement
+
         return 0;
     }
-
-    // TODO: ScenePlayBattleUidOp
 
     public int ScenePlaySound(LuaTable soundInfo) {
         logger.debug("[LUA] Call ScenePlaySound with {}", printTable(soundInfo));
@@ -1326,7 +1016,7 @@ public class ScriptLib {
         val soundName = luaSoundName.optjstring(null);
         val isBroadcast = luaIsBroadcast.optboolean(true);
         val playPosition = luaToPos(luaPlayPosition);
-        val playType = luaPlayType.optint(0); // TODO
+        val playType = luaPlayType.optint(0);
         sceneScriptManager.get().getScene().broadcastPacket(new PacketScenePlayerSoundNotify(playPosition, soundName, playType));
         return 0;
     }
@@ -1339,7 +1029,7 @@ public class ScriptLib {
 
     public int SendServerMessageByLuaKey(String var1, int[] var2) {
         logger.warn("[LUA] Call unimplemented SendServerMessageByLuaKey with {} {}", var1, var2);
-        // TODO implement
+
         return 0;
     }
 
@@ -1351,15 +1041,9 @@ public class ScriptLib {
 
     public int SetBlossomScheduleStateByGroupId(int groupId, int scene) {
         logger.warn("[LUA] Call unimplemented SetBlossomScheduleStateByGroupId with {} {}", groupId, scene);
-        // TODO implement scene is guessed
+
         return 0;
     }
-
-    // TODO: SetChainLevel
-    // TODO: SetChallengeDuration
-    // TODO: SetChallengeEventMark
-    // TODO: SetCurFungusFighterTrainingParams
-    // TODO: SetDarkPressureLevel
 
     public int SetEntityServerGlobalValueByConfigId(int cfgId, String sgvName, int value) {
         logger.debug("[LUA] Call SetEntityServerGlobalValueByConfigId with {}, {}, {}", cfgId, sgvName, value);
@@ -1388,9 +1072,6 @@ public class ScriptLib {
         return 0;
     }
 
-    // TODO: SetFleurFairMultistagePlayBuffEnergy
-    // TODO: SetFlowSuite
-
     public int SetGadgetEnableInteract(int groupId, int configId, boolean enable) {
         logger.debug("[LUA] Call SetGadgetEnableInteract with {} {} {}", groupId, configId, enable);
         var entity = getSceneScriptManager().getScene().getEntityByConfigId(configId, groupId);
@@ -1400,8 +1081,6 @@ public class ScriptLib {
         gadget.setInteractEnabled(enable);
         return 0;
     }
-
-    // TODO: SetGadgetHp
 
     public int SetGadgetStateByConfigId(int configId, int gadgetState) {
         logger.debug("[LUA] Call SetGadgetStateByConfigId with {},{}, current group {}", configId, gadgetState, getCurrentGroup().get().id);
@@ -1413,10 +1092,6 @@ public class ScriptLib {
         return 0;
     }
 
-    // TODO: SetGadgetTalkByConfigId
-    // TODO: SetGalleryRevivePoint
-    // TODO: SetGroupDead
-
     public int SetGroupGadgetStateByConfigId(int groupId, int configId, int gadgetState) {
         logger.debug("[LUA] Call SetGroupGadgetStateByConfigId with {},{},{}", groupId, configId, gadgetState);
         val entity = getSceneScriptManager().getScene().getEntityByConfigId(configId, groupId);
@@ -1426,8 +1101,6 @@ public class ScriptLib {
         gadget.updateState(gadgetState);
         return 0;
     }
-
-    // TODO: SetGroupLogicStateValue
 
     public int SetGroupReplaceable(int groupId, boolean value) {
         logger.warn("[LUA] Call unchecked SetGroupReplaceable with {} {}", groupId, value);
@@ -1441,7 +1114,7 @@ public class ScriptLib {
 
     public int SetGroupTempValue(String name, int value, LuaTable var3) {
         logger.warn("[LUA] Call unimplemented SetGroupTempValue with {} {} {}", name, value, printTable(var3));
-        // TODO implement var3 has int group_id
+
         return 0;
     }
 
@@ -1466,7 +1139,7 @@ public class ScriptLib {
 
     public int SetHandballGalleryBallPosAndRot(int galleryId, LuaTable position, LuaTable rotation) {
         logger.warn("[LUA] Call unimplemented SetHandballGalleryBallPosAndRot with {} {} {}", galleryId, printTable(position), printTable(rotation));
-        // TODO implement
+
         return 0;
     }
 
@@ -1476,16 +1149,9 @@ public class ScriptLib {
         return 0;
     }
 
-    // TODO: SetLanternRiteValue
-    // TODO: SetLimitOptimization
-    // TODO: SetMechanicusChallengeState
-    // TODO: SetMistTrialServerGlobalValue
-    // TODO: SetMonsterAIByGroup
-
     public int SetMonsterBattleByGroup(int configId, int groupId) {
         logger.debug("[LUA] Call SetMonsterBattleByGroup with {} {}", configId, groupId);
-        // TODO implement scene50008_group250008057.lua uses incomplete group numbers
-        // -> MonsterForceAlertNotify
+
         var entity = getSceneScriptManager().getScene().getEntityByConfigId(configId, groupId);
         if (entity instanceof EntityMonster monster) {
             this.getSceneScriptManager().getScene().broadcastPacket(new PacketMonsterForceAlertNotify(monster.getId()));
@@ -1493,20 +1159,15 @@ public class ScriptLib {
         return 0;
     }
 
-    // TODO: SetMonsterHp
-
     public int SetPlatformPointArray(int entityConfigId, int pointArrayId, int[] var3, LuaTable var4) {
         logger.warn("[LUA] Call unchecked SetPlatformPointArray with {} {} {} {}", entityConfigId, pointArrayId, var3, printTable(var4));
-        // TODO properly implement
-        // var3 might contain the next point, sometimes is a single int, sometimes multiple ints as array
-        // var4 has RouteType route_type, bool turn_mode
 
         val entity = getSceneScriptManager().getScene().getEntityByConfigId(entityConfigId, getCurrentGroup().get().id);
         if (entity == null) {
             return 1;
         }
         if (!(entity instanceof EntityGadget entityGadget)) {
-            return 2; // Todo maybe also check the gadget type?
+            return 2;
         }
 
         var routeConfig = entityGadget.getRouteConfig();
@@ -1516,13 +1177,13 @@ public class ScriptLib {
         }
 
         val configRoute = (PointArrayRoute) routeConfig;
-        // TODO also check targetPoint/targetPoints
+
         if (configRoute.getPointArrayId() == pointArrayId) {
             return -1;
         }
 
         configRoute.setPointArrayId(pointArrayId);
-        // TODO also set targetPoint/targetPoints
+
         sceneScriptManager.get().getScene().broadcastPacket(new PacketPlatformChangeRouteNotify(entityGadget));
 
         return -1;
@@ -1536,7 +1197,7 @@ public class ScriptLib {
             return 1;
         }
         if (!(entity instanceof EntityGadget entityGadget)) {
-            return 2; // Todo maybe also check the gadget type?
+            return 2;
         }
 
         var routeConfig = entityGadget.getRouteConfig();
@@ -1562,34 +1223,21 @@ public class ScriptLib {
         return 0;
     }
 
-    // TODO: SetPlatformRouteIndexToNext
-    // TODO: SetPlayerEyePoint
-    // TODO: SetPlayerEyePointLOD
-    // TODO: SetPlayerEyePointStream
-    // TODO: SetPlayerGroupVisionType
-
     public int SetPlayerInteractOption(String var1) {
         logger.warn("[LUA] Call unimplemented SetPlayerInteractOption {}", var1);
-        // TODO implement
+
         return 0;
     }
 
-    // TODO: SetPlayerStartGallery
-    // TODO: SetRogueCellState
-    // TODO: SetSceneMultiStagePlayUidValue
-    // TODO: SetSceneMultiStagePlayValue
-    // TODO: SetScenePlayBattlePlayTeamEntityGadgetId
-    // TODO: SetScenePlayBattleUidValue
-
     public int SetTeamEntityGlobalFloatValue(int[] sceneUidList, String var2, int var3) {
         logger.warn("[LUA] Call unimplemented SetTeamEntityGlobalFloatValue with {} {} {}", sceneUidList, var2, var3);
-        // TODO implement
+
         return 0;
     }
 
     public int SetTeamServerGlobalValue(int sceneUid, String var2, int var3) {
         logger.warn("[LUA] Call unimplemented SetTeamServerGlobalValue with {} {} {}", sceneUid, var2, var3);
-        // TODO implement
+
         return 0;
     }
 
@@ -1624,7 +1272,7 @@ public class ScriptLib {
 
         worktop.addWorktopOptions(worktopOptions);
         var scene = this.getSceneScriptManager().getScene();
-        // Done in order to synchronize with addEntities in Scene.class.
+
         synchronized (this.getSceneScriptManager().getScene()) {
             scene.broadcastPacket(new PacketWorktopOptionNotify(gadget));
         }
@@ -1652,18 +1300,12 @@ public class ScriptLib {
     public int ShowClientGuide(String guideName) {
         logger.warn("[LUA] Call unchecked ShowClientGuide with {}", guideName);
         if (GameData.getGuideTriggerDataStringMap().get(guideName) != null) {
-            // it should handle by open state, don't send packet here
-            // not entirely sure what return value is about
-            // probably not needing this check statement here since the value comes from
-            // the lua script
+
             return 1;
         }
         sceneScriptManager.get().getScene().broadcastPacket(new PacketShowClientGuideNotify(guideName));
         return 0;
     }
-
-    // TODO: ShowClientTutorial
-    // TODO: ShowCommonPlayerTips
 
     public int ShowReminder(int reminderId) {
         logger.debug("[LUA] Call ShowReminder with {}", reminderId);
@@ -1671,33 +1313,27 @@ public class ScriptLib {
         return 0;
     }
 
-    // TODO: ShowReminderByUid
-
     public int ShowReminderRadius(int var1, LuaTable var2, int var3) {
         logger.warn("[LUA] Call unimplemented ShowReminderRadius with {} {} {}", var1, printTable(var2), var3);
-        // TODO implement var2 is a postion
+
         return 0;
     }
 
-    // TODO: ShowTemplateReminder
-    // TODO: SkipTeyvatTime
-    // TODO: StartChallenge
-
     public int StartFatherChallenge(int var1) {
         logger.warn("[LUA] Call unimplemented StartFatherChallenge with {}", var1);
-        // TODO implement
+
         return 0;
     }
 
     public int StartGallery(int galleryId) {
         logger.warn("[LUA] Call unimplemented StartGallery with {}", galleryId);
-        // TODO implement
+
         return 0;
     }
 
     public int StartHomeGallery(int galleryId, int uid) {
         logger.warn("[LUA] Call unimplemented StartHomeGallery with {} {}", galleryId, uid);
-        // TODO implement
+
         return 0;
     }
 
@@ -1711,30 +1347,23 @@ public class ScriptLib {
         return entityGadget.startPlatform() ? 0 : 2;
     }
 
-    // TODO: StartSceneMultiStagePlayStage
-
     public int StartSealBattle(int gadgetId, LuaTable var2) {
         logger.warn("[LUA] unimplemented Call StartSealBattle with {} {}", gadgetId, printTable(var2));
-        // TODO implement var2 containt int radius, int battle_time, int monster_group_id, int default_kill_charge, int auto_charge, int auto_decline, int max_energy, SealBattleType battleType
-        // for type KILL_MONSTER watch group monster_group_id and afterwards trigger EVENT_SEAL_BATTLE_END with the result in param2
+
         return 0;
     }
 
     public int StopChallenge(int var1, int var2) {
         logger.warn("[LUA] Call unimplemented StopChallenge with {} {}", var1, var2);
-        // TODO implement
+
         return 0;
     }
-
-    // TODO: StopFishing
 
     public int StopGallery(int galleryId, boolean var2) {
         logger.warn("[LUA] Call unimplemented StopGallery with {} {}", galleryId, var2);
-        // TODO implement
+
         return 0;
     }
-
-    // TODO: StopGalleryByReason
 
     public int StopPlatform(int configId) {
         logger.debug("[LUA] Call StopPlatform {} ", configId);
@@ -1746,12 +1375,9 @@ public class ScriptLib {
         return entityGadget.stopPlatform() ? 0 : 2;
     }
 
-    // TODO: StopReminder
-    // TODO: SwitchSceneEnvAnimal
-
     public int TowerCountTimeStatus(int isDone, int var2) {
         logger.warn("[LUA] Call unimplemented TowerCountTimeStatus with {},{}", isDone, var2);
-        // TODO implement
+
         return 0;
     }
 
@@ -1764,7 +1390,7 @@ public class ScriptLib {
 
     public int TransPlayerToPos(LuaTable var1) {
         logger.warn("[LUA] Call unchecked TransPlayerToPos with {}", printTable(var1));
-        // TODO implement var1 contains int[] uid_list, Position pos, int radius, Position rot
+
         var targetsTable = var1.get("uid_list");
         var pos = var1.get("pos");
         var rot = var1.get("rot");
@@ -1794,26 +1420,20 @@ public class ScriptLib {
             scene.addPlayer(p);
             p.getPosition().set(targetPos);
 
-            // Teleport packet
             p.sendPacket(new PacketPlayerEnterSceneNotify(p, EnterTypeOuterClass.EnterType.EnterType_ENTER_GOTO, Lua, scene.getId(), targetPos));
+            p.sendPacket(new PacketEnterScenePeerNotify(p));
         });
         return 0;
     }
 
-    // TODO: TreasureSeelieCollectOrbsNotify
-    // TODO: TryFinishLuminanceStoneChallengeStage
-
     public int TryReallocateEntityAuthority(int uid, int endConfig, int var3) {
         logger.warn("[LUA] Call unimplemented TryReallocateEntityAuthority with {} {} {}", uid, endConfig, var3);
-        // TODO implement check var3 type
+
         return 0;
     }
 
-    // TODO: TryRecordActivityPushTips
-    // TODO: TrySetPlayerEyePoint
-
     public int UnfreezeGroupLimit(int dungeonEntryId) {
-        // Note: dungeonEntryId is also named pointId elsewhere in GC.
+
         logger.debug("[LUA] Call UnfreezeGroupLimit with {}", dungeonEntryId);
 
         var scene = sceneScriptManager.get().getScene();
@@ -1824,11 +1444,9 @@ public class ScriptLib {
         return 0;
     }
 
-    // TODO: UnhideScenePoint
-
     public int UnlockFloatSignal(int groupId, int gadgetSignalId) {
         logger.warn("[LUA] Call unimplemented UnlockFloatSignal with {} {}", groupId, gadgetSignalId);
-        // TODO implement
+
         return 0;
     }
 
@@ -1838,32 +1456,15 @@ public class ScriptLib {
         return 0;
     }
 
-    // TODO: UnlockMonsterHp
-    // TODO: UnlockScenePoint
-    // TODO: updateBundleMarkShowStateByGroupId
-
     public int UpdatePlayerGalleryScore(int galleryId, LuaTable var2) {
         logger.warn("[LUA] Call unimplemented UpdatePlayerGalleryScore with {} {}", galleryId, printTable(var2));
-        // TODO implement var2 contains int uid
+
         return 0;
     }
 
-    // TODO: UpdateStakeHomePlayRecord
-    // TODO: VintageFinishGroupByPresentId
-    // TODO: WinterCampGetBattleGroupBundleId
-    // TODO: WinterCampGetExploreGroupBundleId
-    // TODO: WinterCampSnowDriftInteract
-
-    /*
-     *
-     * Orphaned functions That are not used in the resources
-     * Why do we have these?
-     *
-     */
-
     public int CreateVariable(String type, Object value) {
         logger.warn("[LUA] Call unimplemented CreateVariable with {} {}", type, value);
-        // TODO implement
+
         switch (type) {
             case "int":
             default:
@@ -1874,13 +1475,13 @@ public class ScriptLib {
 
     public int SetVariableValue(int var1) {
         logger.warn("[LUA] Call unimplemented SetVariableValue with {}", var1);
-        // TODO implement var1 type
+
         return 0;
     }
 
     public int GetVariableValue(int var1) {
         logger.warn("[LUA] Call unimplemented GetVariableValue with {}", var1);
-        // TODO implement var1 type
+
         return 0;
     }
 
@@ -1896,7 +1497,7 @@ public class ScriptLib {
 
     public int GetSeaLampActivityPhase() {
         logger.warn("[LUA] Call unimplemented GetSeaLampActivityPhase");
-        // TODO implement
+
         return 0;
     }
 
@@ -1912,7 +1513,7 @@ public class ScriptLib {
     }
 
     public int GetMonsterID(int var1) {
-        // TODO implement var1 type
+
         return 0;
     }
 

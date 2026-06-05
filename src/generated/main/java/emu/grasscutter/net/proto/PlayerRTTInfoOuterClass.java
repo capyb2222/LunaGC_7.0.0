@@ -158,10 +158,10 @@ public final class PlayerRTTInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (uid_ != 0) {
-        output.writeUInt32(1, uid_);
+        output.writeUInt32(4, uid_);
       }
       if (rtt_ != 0) {
-        output.writeUInt32(2, rtt_);
+        output.writeUInt32(11, rtt_);
       }
       unknownFields.writeTo(output);
     }
@@ -174,11 +174,11 @@ public final class PlayerRTTInfoOuterClass {
       size = 0;
       if (uid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, uid_);
+          .computeUInt32Size(4, uid_);
       }
       if (rtt_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, rtt_);
+          .computeUInt32Size(11, rtt_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

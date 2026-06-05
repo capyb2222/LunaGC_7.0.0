@@ -52,14 +52,6 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
     int getPOBHLFCOGEEOrThrow(
         int key);
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 mp_play_id = 7;</code>
-     * @return The mpPlayId.
-     */
     int getMpPlayId();
 
     /**
@@ -187,7 +179,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.WaterSpiritActivityDetailInfoOuterClass.internal_static_WaterSpiritActivityDetailInfo_POBHLFCOGEEEntry_descriptor, 
+                  emu.grasscutter.net.proto.WaterSpiritActivityDetailInfoOuterClass.internal_static_WaterSpiritActivityDetailInfo_POBHLFCOGEEEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -214,7 +206,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
     @java.lang.Override
     public boolean containsPOBHLFCOGEE(
         int key) {
-      
+
       return internalGetPOBHLFCOGEE().getMap().containsKey(key);
     }
     /**
@@ -241,7 +233,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
     public int getPOBHLFCOGEEOrDefault(
         int key,
         int defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetPOBHLFCOGEE().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -253,7 +245,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
 
     public int getPOBHLFCOGEEOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetPOBHLFCOGEE().getMap();
       if (!map.containsKey(key)) {
@@ -264,14 +256,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
 
     public static final int MP_PLAY_ID_FIELD_NUMBER = 7;
     private int mpPlayId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 mp_play_id = 7;</code>
-     * @return The mpPlayId.
-     */
+
     @java.lang.Override
     public int getMpPlayId() {
       return mpPlayId_;
@@ -691,7 +676,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       @java.lang.Override
       public boolean containsPOBHLFCOGEE(
           int key) {
-        
+
         return internalGetPOBHLFCOGEE().getMap().containsKey(key);
       }
       /**
@@ -718,7 +703,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       public int getPOBHLFCOGEEOrDefault(
           int key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetPOBHLFCOGEE().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -730,7 +715,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
 
       public int getPOBHLFCOGEEOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetPOBHLFCOGEE().getMap();
         if (!map.containsKey(key)) {
@@ -750,7 +735,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
 
       public Builder removePOBHLFCOGEE(
           int key) {
-        
+
         internalGetMutablePOBHLFCOGEE().getMutableMap()
             .remove(key);
         return this;
@@ -769,8 +754,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       public Builder putPOBHLFCOGEE(
           int key,
           int value) {
-        
-        
+
         internalGetMutablePOBHLFCOGEE().getMutableMap()
             .put(key, value);
         return this;
@@ -787,43 +771,21 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       }
 
       private int mpPlayId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 mp_play_id = 7;</code>
-       * @return The mpPlayId.
-       */
+
       @java.lang.Override
       public int getMpPlayId() {
         return mpPlayId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 mp_play_id = 7;</code>
-       * @param value The mpPlayId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setMpPlayId(int value) {
-        
+
         mpPlayId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 mp_play_id = 7;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearMpPlayId() {
-        
+
         mpPlayId_ = 0;
         onChanged();
         return this;
@@ -844,7 +806,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIAGHDGAHKHL(int value) {
-        
+
         iAGHDGAHKHL_ = value;
         onChanged();
         return this;
@@ -854,7 +816,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIAGHDGAHKHL() {
-        
+
         iAGHDGAHKHL_ = 0;
         onChanged();
         return this;
@@ -870,7 +832,6 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:WaterSpiritActivityDetailInfo)
     }
@@ -914,12 +875,12 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WaterSpiritActivityDetailInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WaterSpiritActivityDetailInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WaterSpiritActivityDetailInfo_POBHLFCOGEEEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WaterSpiritActivityDetailInfo_POBHLFCOGEEEntry_fieldAccessorTable;
 

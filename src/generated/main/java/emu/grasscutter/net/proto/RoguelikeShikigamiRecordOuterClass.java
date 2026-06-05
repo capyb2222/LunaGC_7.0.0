@@ -18,24 +18,8 @@ public final class RoguelikeShikigamiRecordOuterClass {
       // @@protoc_insertion_point(interface_extends:RoguelikeShikigamiRecord)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 id = 9;</code>
-     * @return The id.
-     */
     int getId();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 level = 8;</code>
-     * @return The level.
-     */
     int getLevel();
   }
   /**
@@ -127,29 +111,15 @@ public final class RoguelikeShikigamiRecordOuterClass {
 
     public static final int ID_FIELD_NUMBER = 9;
     private int id_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 id = 9;</code>
-     * @return The id.
-     */
+
     @java.lang.Override
     public int getId() {
       return id_;
     }
 
-    public static final int LEVEL_FIELD_NUMBER = 8;
+    public static final int LEVEL_FIELD_NUMBER = 9;
     private int level_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 level = 8;</code>
-     * @return The level.
-     */
+
     @java.lang.Override
     public int getLevel() {
       return level_;
@@ -170,7 +140,7 @@ public final class RoguelikeShikigamiRecordOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (level_ != 0) {
-        output.writeUInt32(8, level_);
+        output.writeUInt32(9, level_);
       }
       if (id_ != 0) {
         output.writeUInt32(9, id_);
@@ -186,7 +156,7 @@ public final class RoguelikeShikigamiRecordOuterClass {
       size = 0;
       if (level_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, level_);
+          .computeUInt32Size(9, level_);
       }
       if (id_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -475,86 +445,42 @@ public final class RoguelikeShikigamiRecordOuterClass {
       }
 
       private int id_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 id = 9;</code>
-       * @return The id.
-       */
+
       @java.lang.Override
       public int getId() {
         return id_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 id = 9;</code>
-       * @param value The id to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setId(int value) {
-        
+
         id_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 id = 9;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearId() {
-        
+
         id_ = 0;
         onChanged();
         return this;
       }
 
       private int level_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 level = 8;</code>
-       * @return The level.
-       */
+
       @java.lang.Override
       public int getLevel() {
         return level_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 level = 8;</code>
-       * @param value The level to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setLevel(int value) {
-        
+
         level_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 level = 8;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearLevel() {
-        
+
         level_ = 0;
         onChanged();
         return this;
@@ -570,7 +496,6 @@ public final class RoguelikeShikigamiRecordOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:RoguelikeShikigamiRecord)
     }
@@ -614,7 +539,7 @@ public final class RoguelikeShikigamiRecordOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_RoguelikeShikigamiRecord_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_RoguelikeShikigamiRecord_fieldAccessorTable;
 

@@ -453,7 +453,7 @@ public final class BeginCameraSceneLookNotifyOuterClass {
       return getOCJINDALGCH();
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 534;
+    public static final int ENTITY_ID_FIELD_NUMBER = 1416;
     private int entityId_;
     /**
      * <code>uint32 entity_id = 534;</code>
@@ -686,7 +686,7 @@ public final class BeginCameraSceneLookNotifyOuterClass {
         output.writeFloat(506, eFPNBOJMHOF_);
       }
       if (entityId_ != 0) {
-        output.writeUInt32(534, entityId_);
+        output.writeUInt32(1416, entityId_);
       }
       if (hEKPMBICIPF_ != 0) {
         output.writeUInt32(911, hEKPMBICIPF_);
@@ -769,7 +769,7 @@ public final class BeginCameraSceneLookNotifyOuterClass {
       }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(534, entityId_);
+          .computeUInt32Size(1416, entityId_);
       }
       if (hEKPMBICIPF_ != 0) {
         size += com.google.protobuf.CodedOutputStream

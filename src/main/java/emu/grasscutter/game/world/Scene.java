@@ -28,6 +28,8 @@ import emu.grasscutter.game.world.data.TeleportProperties;
 import emu.grasscutter.net.packet.BasePacket;
 import emu.grasscutter.net.proto.*;
 import emu.grasscutter.net.proto.AttackResultOuterClass.AttackResult;
+import emu.grasscutter.net.proto.ChangeHpDebtsReasonOuterClass;
+import emu.grasscutter.net.proto.PropChangeReasonOuterClass;
 import emu.grasscutter.net.proto.VisionTypeOuterClass.VisionType;
 import emu.grasscutter.scripts.SceneIndexManager;
 import emu.grasscutter.scripts.SceneScriptManager;
@@ -70,7 +72,7 @@ public class Scene {
     @Getter private final SceneScriptManager scriptManager;
     @Getter @Setter private WorldChallenge challenge;
     @Getter private List<DungeonSettleListener> dungeonSettleListeners;
-    @Getter @Setter private int prevScene; // Id of the previous scene
+    @Getter @Setter private int prevScene;
     @Getter @Setter private int prevScenePoint;
     @Getter @Setter private int killedMonsterCount;
     private Set<SceneNpcBornEntry> npcBornEntrySet;
@@ -121,15 +123,12 @@ public class Scene {
         return this.getPlayers().size();
     }
 
-    /**
-     * @return The scene's world's host.
-     */
     public Player getHost() {
         return this.getWorld().getHost();
     }
 
     public GameEntity getEntityById(int id) {
-        // Check if the scene's entity ID is referenced.
+
         if (id == 0x13800001) return this.sceneEntity;
         else if (id == this.getWorld().getLevelEntityId()) return this.getWorld().getEntity();
 
@@ -137,7 +136,6 @@ public class Scene {
                 players.stream().filter(p -> p.getTeamManager().getEntity().getId() == id).findAny();
         if (teamEntityPlayer.isPresent()) return teamEntityPlayer.get().getTeamManager().getEntity();
 
-        // Check for an avatar.
         var entity = this.entities.get(id);
         if (entity == null) entity = this.weaponEntities.get(id);
         if (entity == null && (id >> ENTITY_ID_BIT_SHIFT) == EntityIdType.AVATAR.getId()) {
@@ -148,7 +146,6 @@ public class Scene {
             }
         }
 
-        // Check for a weapon.
         if (entity == null && (id >> ENTITY_ID_BIT_SHIFT) == EntityIdType.WEAPON.getId()) {
             for (var player : this.getPlayers()) {
                 for (var avatar : player.getTeamManager().getActiveTeam()) {
@@ -178,11 +175,6 @@ public class Scene {
         return sceneRoutes.get(routeId);
     }
 
-    /**
-     * Sets the scene's pause state. Sends the current scene's time to all players.
-     *
-     * @param paused The new pause state.
-     */
     public void setPaused(boolean paused) {
         if (this.isPaused != paused) {
             this.isPaused = paused;
@@ -190,20 +182,10 @@ public class Scene {
         }
     }
 
-    /**
-     * Gets the time in seconds since the scene started.
-     *
-     * @return The time in seconds since the scene started.
-     */
     public int getSceneTime() {
         return (int) (this.getWorld().getWorldTime() - this.startWorldTime);
     }
 
-    /**
-     * Gets {@link Scene#getSceneTime()} in seconds.
-     *
-     * @return The time in seconds since the scene started.
-     */
     public int getSceneTimeSeconds() {
         return this.getSceneTime() / 1000;
     }
@@ -216,12 +198,6 @@ public class Scene {
         dungeonSettleListeners.add(dungeonSettleListener);
     }
 
-    /**
-     * Triggers an event in the dungeon manager.
-     *
-     * @param conditionType The condition type to trigger.
-     * @param params The parameters to pass to the event.
-     */
     public void triggerDungeonEvent(DungeonPassConditionType conditionType, int... params) {
         if (this.dungeonManager == null) return;
         this.dungeonManager.triggerEvent(conditionType, params);
@@ -232,17 +208,15 @@ public class Scene {
     }
 
     public synchronized void addPlayer(Player player) {
-        // Check if player already in
+
         if (getPlayers().contains(player)) {
             return;
         }
 
-        // Remove player from prev scene
         if (player.getScene() != null) {
             player.getScene().removePlayer(player);
         }
 
-        // Add
         getPlayers().add(player);
         player.setSceneId(this.getId());
         player.setScene(this);
@@ -251,31 +225,26 @@ public class Scene {
     }
 
     public synchronized void removePlayer(Player player) {
-        // Remove from challenge if leaving
+
         if (this.getChallenge() != null && this.getChallenge().inProgress()) {
             player.sendPacket(new PacketDungeonChallengeFinishNotify(this.getChallenge()));
         }
 
-        // Remove player from scene
         getPlayers().remove(player);
         player.setScene(null);
 
-        // Remove player avatars
         this.removePlayerAvatars(player);
 
-        // Remove player gadgets
         for (EntityBaseGadget gadget : player.getTeamManager().getGadgets()) {
             this.removeEntity(gadget);
         }
 
-        // Remove player widget gadgets
         this.getEntities().values().stream()
                 .filter(gameEntity -> gameEntity instanceof EntityVehicle)
                 .map(gameEntity -> (EntityVehicle) gameEntity)
                 .filter(entityVehicle -> entityVehicle.getOwner().equals(player))
                 .forEach(entityVehicle -> this.removeEntity(entityVehicle, VisionType.VisionType_VISION_REMOVE));
 
-        // Deregister scene if not in use
         if (this.getPlayerCount() <= 0 && !this.dontDestroyWhenEmpty) {
             this.getScriptManager().onDestroy();
             this.getWorld().deregisterScene(this);
@@ -285,10 +254,9 @@ public class Scene {
     }
 
     private void setupPlayerAvatars(Player player) {
-        // Clear entities from old team
+
         player.getTeamManager().getActiveTeam().clear();
 
-        // Add new entities for player
         TeamInfo teamInfo = player.getTeamManager().getCurrentTeamInfo();
         for (int avatarId : teamInfo.getAvatars()) {
             Avatar avatar = player.getAvatars().getAvatarById(avatarId);
@@ -308,7 +276,6 @@ public class Scene {
                                     new Object[] {player.getScene(), avatar}));
         }
 
-        // Limit character index in case its out of bounds
         if (player.getTeamManager().getCurrentCharacterIndex()
                         >= player.getTeamManager().getActiveTeam().size()
                 || player.getTeamManager().getCurrentCharacterIndex() < 0) {
@@ -320,8 +287,7 @@ public class Scene {
 
     private synchronized void removePlayerAvatars(Player player) {
         var team = player.getTeamManager().getActiveTeam();
-        // removeEntities(team, VisionType.VisionType_VISION_REMOVE);  // List<SubType> isn't cool apparently
-        // :(
+
         team.forEach(e -> removeEntity(e, VisionType.VisionType_VISION_REMOVE));
         team.clear();
     }
@@ -339,7 +305,6 @@ public class Scene {
 
         this.addEntity(teamManager.getCurrentAvatarEntity());
 
-        // Notify the client of any extra skill charges
         teamManager.getActiveTeam().stream()
                 .map(EntityAvatar::getAvatar)
                 .forEach(Avatar::sendSkillExtraChargeMap);
@@ -347,7 +312,7 @@ public class Scene {
 
     private void addEntityDirectly(GameEntity entity) {
         getEntities().put(entity.getId(), entity);
-        entity.onCreate(); // Call entity create event
+        entity.onCreate();
     }
 
     public synchronized void addEntity(GameEntity entity) {
@@ -361,8 +326,7 @@ public class Scene {
     }
 
     public void addDropEntity(GameItem item, GameEntity bornForm, Player player, boolean share) {
-        // TODO:optimize EntityItem.java. Maybe we should make other players can't see
-        // the ItemEntity.
+
         ItemData itemData = GameData.getItemDataMap().get(item.getItemId());
         if (itemData == null) return;
         if (itemData.isEquip()) {
@@ -424,7 +388,7 @@ public class Scene {
     private GameEntity removeEntityDirectly(GameEntity entity) {
         var removed = getEntities().remove(entity.getId());
         if (removed != null) {
-            removed.onRemoved(); // Call entity remove event
+            removed.onRemoved();
         }
         return removed;
     }
@@ -476,23 +440,83 @@ public class Scene {
     }
 
     public void handleAttack(AttackResult result) {
-        // GameEntity attacker = getEntityById(result.getAttackerId());
         GameEntity target = getEntityById(result.getDefenseId());
         ElementType attackType = ElementType.getTypeByValue(result.getElementType());
 
         if (target == null) {
+            Grasscutter.getLogger().info("handleAttack: target not found defenseId={} attackerId={} damage={}", result.getDefenseId(), result.getAttackerId(), result.getDamage());
             return;
         }
+        Grasscutter.getLogger().info("handleAttack: attackerId={} target={} damage={}", result.getAttackerId(), result.getDefenseId(), result.getDamage());
 
-        // Godmode check
         if (target instanceof EntityAvatar) {
             if (((EntityAvatar) target).getPlayer().isInGodMode()) {
                 return;
             }
         }
 
-        // Sanity check
+        GameEntity attacker = getEntityById(result.getAttackerId());
+        if (attacker instanceof EntityClientGadget && target instanceof EntityAvatar) {
+            if (target.getFightProperty(FightProperty.FIGHT_PROP_CUR_HP_DEBTS) > 0f) return;
+            float curHp = target.getFightProperty(FightProperty.FIGHT_PROP_CUR_HP);
+            float capped = Math.min(result.getDamage(), curHp - 1f);
+            if (capped > 0) target.damage(capped, result.getAttackerId(), attackType);
+            return;
+        }
+
         target.damage(result.getDamage(), result.getAttackerId(), attackType);
+
+        if (attacker instanceof EntityAvatar arlecAttacker
+                && arlecAttacker.getAvatar().getAvatarId() == 10000096
+                && !(target instanceof EntityAvatar)) {
+            reduceArlecchinoBoL(arlecAttacker);
+        }
+
+        if (attacker instanceof EntityAvatar clorindeAttacker
+                && clorindeAttacker.getAvatar().getAvatarId() == 10000098
+                && !(target instanceof EntityAvatar)) {
+            reduceClorindeBoL(clorindeAttacker);
+        }
+    }
+
+    private void reduceClorindeBoL(EntityAvatar clorinde) {
+        float curDebt = clorinde.getFightProperty(FightProperty.FIGHT_PROP_CUR_HP_DEBTS);
+        if (curDebt <= 0f) return;
+        float reduction = curDebt * 0.015f;
+        float newDebt = Math.max(0f, curDebt - reduction);
+        float change = newDebt - curDebt;
+        clorinde.setFightProperty(FightProperty.FIGHT_PROP_CUR_HP_DEBTS, newDebt);
+        broadcastPacket(new PacketEntityFightPropUpdateNotify(clorinde, FightProperty.FIGHT_PROP_CUR_HP_DEBTS));
+        var debtsReason = newDebt <= 0f
+            ? ChangeHpDebtsReasonOuterClass.ChangeHpDebtsReason.CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_PAY_FINISH
+            : ChangeHpDebtsReasonOuterClass.ChangeHpDebtsReason.CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_PAY;
+        broadcastPacket(new PacketEntityFightPropChangeReasonNotify(
+            clorinde,
+            FightProperty.FIGHT_PROP_CUR_HP_DEBTS,
+            change,
+            PropChangeReasonOuterClass.PropChangeReason.PropChangeReason_PROP_CHANGE_ABILITY,
+            debtsReason
+        ));
+    }
+
+    private void reduceArlecchinoBoL(EntityAvatar arlecchino) {
+        float curDebt = arlecchino.getFightProperty(FightProperty.FIGHT_PROP_CUR_HP_DEBTS);
+        if (curDebt <= 0f) return;
+        float reduction = curDebt * 0.024f;
+        float newDebt = Math.max(0f, curDebt - reduction);
+        float change = newDebt - curDebt;
+        arlecchino.setFightProperty(FightProperty.FIGHT_PROP_CUR_HP_DEBTS, newDebt);
+        broadcastPacket(new PacketEntityFightPropUpdateNotify(arlecchino, FightProperty.FIGHT_PROP_CUR_HP_DEBTS));
+        var debtsReason = newDebt <= 0f
+            ? ChangeHpDebtsReasonOuterClass.ChangeHpDebtsReason.CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_PAY_FINISH
+            : ChangeHpDebtsReasonOuterClass.ChangeHpDebtsReason.CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_PAY;
+        broadcastPacket(new PacketEntityFightPropChangeReasonNotify(
+            arlecchino,
+            FightProperty.FIGHT_PROP_CUR_HP_DEBTS,
+            change,
+            PropChangeReasonOuterClass.PropChangeReason.PropChangeReason_PROP_CHANGE_ABILITY,
+            debtsReason
+        ));
     }
 
     public void killEntity(GameEntity target) {
@@ -507,7 +531,7 @@ public class Scene {
         }
 
         if (attacker != null) {
-            // Check codex
+
             if (attacker instanceof EntityClientGadget gadgetAttacker) {
                 var clientGadgetOwner = getEntityById(gadgetAttacker.getOwnerEntityId());
                 if (clientGadgetOwner instanceof EntityAvatar) {
@@ -524,10 +548,8 @@ public class Scene {
             }
         }
 
-        // Packet
         this.broadcastPacket(new PacketLifeStateChangeNotify(attackerId, target, LifeState.LIFE_DEAD));
 
-        // Reward drop
         var world = this.getWorld();
         if (target instanceof EntityMonster monster && this.getSceneType() != SceneType.SCENE_DUNGEON) {
             if (monster.getMetaMonster() != null
@@ -551,17 +573,19 @@ public class Scene {
             }
         }
 
-        // Remove entity from world
         this.removeEntity(target);
 
-        // Death event
+        if (target instanceof EntityClientGadget cg && cg.getOwner() != null) {
+            cg.getOwner().getTeamManager().getGadgets().remove(cg);
+        }
+
         target.onDeath(attackerId);
         this.triggerDungeonEvent(
                 DungeonPassConditionType.DUNGEON_COND_KILL_MONSTER_COUNT, ++killedMonsterCount);
     }
 
     public void onTick() {
-        // Disable ticking for the player's home world.
+
         if (this.getSceneType() == SceneType.SCENE_HOME_WORLD
                 || this.getSceneType() == SceneType.SCENE_HOME_ROOM) {
             this.finishLoading();
@@ -573,14 +597,13 @@ public class Scene {
         }
 
         if (this.getScriptManager().isInit()) {
-            // this.checkBlocks();
+
             this.checkGroups();
         } else {
-            // TEMPORARY
+
             this.checkSpawns();
         }
 
-        // Triggers
         this.scriptManager.checkRegions();
 
         if (challenge != null) {
@@ -599,8 +622,6 @@ public class Scene {
 
         blossomManager.onTick();
 
-        // Should be OK to check only player 0,
-        // as no other players could enter Tower
         var towerManager = getPlayers().get(0).getTowerManager();
         if (towerManager != null && towerManager.isInProgress()) {
             towerManager.onTick();
@@ -613,24 +634,20 @@ public class Scene {
         if (this.tickCount++ % 10 == 0) this.broadcastPacket(new PacketSceneTimeNotify(this));
     }
 
-    /** Validates a player's current position. Teleports the player if the player is out of bounds. */
     protected void checkPlayerRespawn() {
         if (this.getScriptManager().getConfig() == null) return;
         var diePos = this.getScriptManager().getConfig().die_y;
 
-        // Check players in the scene.
         this.players.forEach(
                 player -> {
                     if (this.getScriptManager().getConfig() == null) return;
 
-                    // Check if we need a respawn
                     if (diePos >= player.getPosition().getY()) {
-                        // Respawn the player.
+
                         this.respawnPlayer(player);
                     }
                 });
 
-        // Check entities in the scene.
         this.getEntities()
                 .forEach(
                         (id, entity) -> {
@@ -640,57 +657,32 @@ public class Scene {
                         });
     }
 
-    /**
-     * @return The script's default location, or the player's location.
-     */
     public Position getDefaultLocation(Player player) {
         val defaultPosition = getScriptManager().getConfig().born_pos;
         return defaultPosition != null ? defaultPosition : player.getPosition();
     }
 
-    /**
-     * @return The script's default rotation, or the player's rotation.
-     */
     public Position getDefaultRotation(Player player) {
         var defaultRotation = this.getScriptManager().getConfig().born_rot;
         return defaultRotation != null ? defaultRotation : player.getRotation();
     }
 
-    /**
-     * Gets the respawn position for the player.
-     *
-     * @param player The player to get the respawn position for.
-     * @return The respawn position for the player.
-     */
     private Position getRespawnLocation(Player player) {
-        // TODO: Get the last valid location the player stood on.
+
         var lastCheckpointPos = dungeonManager != null ? dungeonManager.getRespawnLocation() : null;
         return lastCheckpointPos != null ? lastCheckpointPos : getDefaultLocation(player);
     }
 
-    /**
-     * Gets the respawn rotation for the player.
-     *
-     * @param player The player to get the respawn rotation for.
-     * @return The respawn rotation for the player.
-     */
     private Position getRespawnRotation(Player player) {
         var lastCheckpointRot =
                 this.dungeonManager != null ? this.dungeonManager.getRespawnRotation() : null;
         return lastCheckpointRot != null ? lastCheckpointRot : this.getDefaultRotation(player);
     }
 
-    /**
-     * Teleports the player to the respawn location.
-     *
-     * @param player The player to respawn.
-     * @return true if the player was successfully respawned, false otherwise.
-     */
     public boolean respawnPlayer(Player player) {
-        // Apply void damage as a penalty.
+
         player.getTeamManager().applyVoidDamage();
 
-        // TODO: Respawn the player at the last valid location.
         var targetPos = getRespawnLocation(player);
         var targetRot = getRespawnRotation(player);
         var teleportProps =
@@ -706,10 +698,6 @@ public class Scene {
         return this.getWorld().transferPlayerToScene(player, teleportProps.build());
     }
 
-    /**
-     * Invoked when the scene finishes loading. Runs all callbacks that were added with {@link
-     * #runWhenFinished(Runnable)}.
-     */
     public void finishLoading() {
         if (this.finishedLoading) return;
 
@@ -718,12 +706,6 @@ public class Scene {
         this.afterLoadedCallbacks.clear();
     }
 
-    /**
-     * Adds a callback to be executed when the scene is finished loading. If the scene is already
-     * finished loading, the callback will be executed immediately.
-     *
-     * @param runnable The callback to be executed.
-     */
     public void runWhenFinished(Runnable runnable) {
         if (this.isFinishedLoading()) {
             runnable.run();
@@ -733,25 +715,14 @@ public class Scene {
         this.afterLoadedCallbacks.add(runnable);
     }
 
-    /**
-     * Invoked when a player initializes loading the scene.
-     *
-     * @param player The player that initialized loading the scene.
-     */
     public void playerSceneInitialized(Player player) {
-        // Check if the player is the host.
+
         if (!player.equals(this.getHost())) return;
 
-        // Run all callbacks.
         this.afterHostInitCallbacks.forEach(Runnable::run);
         this.afterHostInitCallbacks.clear();
     }
 
-    /**
-     * Run a callback when the host initializes loading the scene.
-     *
-     * @param runnable The callback to be executed.
-     */
     public void runWhenHostInitialized(Runnable runnable) {
         if (this.isFinishedLoading()) {
             runnable.run();
@@ -799,8 +770,14 @@ public class Scene {
                     SpawnDataEntry.GridBlockId.getAdjacentGridBlockIds(
                             player.getSceneId(), player.getPosition()));
         }
+
+        Set<SpawnDataEntry.GridBlockId> leavingBlocks = new HashSet<>(this.loadedGridBlocks);
+        leavingBlocks.removeAll(loadedGridBlocks);
+        if (!leavingBlocks.isEmpty()) {
+            this.getDeadSpawnedEntities().removeIf(entry -> leavingBlocks.contains(entry.getBlockId()));
+        }
         if (this.loadedGridBlocks.containsAll(
-                loadedGridBlocks)) { // Don't recalculate static spawns if nothing has changed
+                loadedGridBlocks)) {
             return;
         }
         this.loadedGridBlocks = loadedGridBlocks;
@@ -813,7 +790,6 @@ public class Scene {
             }
         }
 
-        // World level
         WorldLevelData worldLevelData = GameData.getWorldLevelDataMap().get(getWorld().getWorldLevel());
         int worldLevelOverride = 0;
 
@@ -821,17 +797,15 @@ public class Scene {
             worldLevelOverride = worldLevelData.getMonsterLevel();
         }
 
-        // Todo
         List<GameEntity> toAdd = new ArrayList<>();
         List<GameEntity> toRemove = new ArrayList<>();
         var spawnedEntities = this.getSpawnedEntities();
         for (SpawnDataEntry entry : visible) {
-            // If spawn entry is in our view and hasnt been spawned/killed yet, we should spawn it
+
             if (!spawnedEntities.contains(entry) && !this.getDeadSpawnedEntities().contains(entry)) {
-                // Entity object holder
+
                 GameEntity entity = null;
 
-                // Check if spawn entry is monster or gadget
                 if (entry.getMonsterId() > 0) {
                     MonsterData data = GameData.getMonsterDataMap().get(entry.getMonsterId());
                     if (data == null) continue;
@@ -868,7 +842,6 @@ public class Scene {
 
                 if (entity == null) continue;
 
-                // Add to scene and spawned list
                 toAdd.add(entity);
                 spawnedEntities.add(entry);
             }
@@ -898,7 +871,7 @@ public class Scene {
     }
 
     public List<SceneBlock> getPlayerActiveBlocks(Player player) {
-        // consider the borders' entities of blocks, so we check if contains by index
+
         return SceneIndexManager.queryNeighbors(
                 getScriptManager().getBlocksIndex(),
                 player.getPosition().toXZDoubleArray(),
@@ -906,7 +879,7 @@ public class Scene {
     }
 
     public Set<Integer> getPlayerActiveGroups(Player player) {
-        // consider the borders' entities of blocks, so we check if contains by index
+
         Position playerPosition = player.getPosition();
         Set<Integer> activeGroups = new HashSet<>();
         for (int i = 0; i < 4; i++) {
@@ -967,7 +940,7 @@ public class Scene {
 
     public int loadDynamicGroup(int group_id) {
         SceneGroup group = getScriptManager().getGroupById(group_id);
-        if (group == null) return -1; // Group not found
+        if (group == null) return -1;
 
         this.onLoadGroup(new ArrayList<>(List.of(group)));
 
@@ -994,7 +967,6 @@ public class Scene {
         var dynamicGroups =
                 sceneGroups.stream().filter(group -> group.dynamic_load).map(group -> group.id).toList();
 
-        // Create the graph
         var nodes = new ArrayList<KahnsSort.Node>();
         var groupList = new ArrayList<Integer>();
         GameData.getGroupReplacements().values().stream()
@@ -1014,10 +986,9 @@ public class Scene {
         KahnsSort.Graph graph = new KahnsSort.Graph(nodes, groupList);
         List<Integer> dynamicGroupsOrdered = KahnsSort.doSort(graph);
 
-        // Now we can start unloading and loading groups :D
         dynamicGroupsOrdered.forEach(
                 group -> {
-                    if (GameData.getGroupReplacements().containsKey((int) group)) { // isGroupJoinReplacement
+                    if (GameData.getGroupReplacements().containsKey((int) group)) {
                         var data = GameData.getGroupReplacements().get((int) group);
                         var sceneGroupReplacement =
                                 this.loadedGroups.stream().filter(g -> g.id == group).findFirst().orElseThrow();
@@ -1027,7 +998,6 @@ public class Scene {
                                 var replace_group = it.next();
                                 if (!sceneGroupsIds.contains(replace_group)) continue;
 
-                                // Check if we can replace this group
                                 SceneGroup sceneGroup = sceneGroupMap.get(replace_group);
                                 if (sceneGroup != null
                                         && sceneGroup.is_replaceable != null
@@ -1047,7 +1017,7 @@ public class Scene {
     }
 
     public void loadTriggerFromGroup(SceneGroup group, String triggerName) {
-        // Load triggers and regions
+
         this.getScriptManager()
                 .registerTrigger(
                         group.triggers.values().stream()
@@ -1067,15 +1037,12 @@ public class Scene {
         for (var group : groups) {
             if (this.loadedGroups.contains(group)) continue;
 
-            // We load the script files for the groups here
             this.getScriptManager().loadGroupFromScript(group);
             if (!this.scriptManager.getLoadedGroupSetPerBlock().containsKey(group.block_id))
                 this.onLoadBlock(scriptManager.getBlocks().get(group.block_id), players);
             this.scriptManager.getLoadedGroupSetPerBlock().get(group.block_id).add(group);
         }
 
-        // Spawn gadgets AFTER triggers are added
-        // TODO
         var entities = new ArrayList<GameEntity>();
         for (var group : groups) {
             if (this.loadedGroups.contains(group)) continue;
@@ -1091,10 +1058,8 @@ public class Scene {
                 groupInstance = cachedInstance;
             }
 
-            // Load suites
-            // int suite = group.findInitSuiteIndex(0);
             this.getScriptManager()
-                    .refreshGroup(groupInstance, 0, false); // This is what the official server does
+                    .refreshGroup(groupInstance, 0, false);
 
             this.loadedGroups.add(group);
         }
@@ -1141,66 +1106,56 @@ public class Scene {
         this.scriptManager.unregisterGroup(group);
     }
 
-    // Gadgets
-
     public void onPlayerCreateGadget(EntityClientGadget gadget) {
-        // Directly add
+        var owner = gadget.getOwner();
+
         this.addEntityDirectly(gadget);
+        owner.getTeamManager().getGadgets().add(gadget);
 
-        // Add to owner's gadget list
-        gadget.getOwner().getTeamManager().getGadgets().add(gadget);
-
-        // Optimization
-        if (this.getPlayerCount() == 1 && this.getPlayers().get(0) == gadget.getOwner()) {
-            return;
+        for (var player : this.getPlayers()) {
+            if (player != owner) {
+                player.getSession().send(new PacketSceneEntityAppearNotify(gadget));
+            }
         }
-
-        this.broadcastPacketToOthers(gadget.getOwner(), new PacketSceneEntityAppearNotify(gadget));
     }
 
     public void onPlayerDestroyGadget(int entityId) {
         GameEntity entity = getEntities().get(entityId);
 
         if (!(entity instanceof EntityClientGadget gadget)) {
+            for (var player : this.getPlayers()) {
+                player.getTeamManager().getGadgets().removeIf(g -> g.getId() == entityId);
+            }
             return;
         }
 
-        // Get and remove entity
         this.removeEntityDirectly(gadget);
 
-        // Remove from owner's gadget list
-        gadget.getOwner().getTeamManager().getGadgets().remove(gadget);
+        var owner = gadget.getOwner();
+        owner.getTeamManager().getGadgets().remove(gadget);
 
-        // Optimization
-        if (this.getPlayerCount() == 1 && this.getPlayers().get(0) == gadget.getOwner()) {
-            return;
-        }
-
-        this.broadcastPacketToOthers(
-                gadget.getOwner(),
+        this.broadcastPacket(
                 new PacketSceneEntityDisappearNotify(gadget, VisionType.VisionType_VISION_DIE));
     }
 
-    // Broadcasting
-
     public void broadcastPacket(BasePacket packet) {
-        // Send to all players - might have to check if player has been sent data packets
+
         for (Player player : this.getPlayers()) {
             player.getSession().send(packet);
         }
     }
 
     public void broadcastPacketToOthers(Player excludedPlayer, BasePacket packet) {
-        // Optimization
+
         if (this.getPlayerCount() == 1 && this.getPlayers().get(0) == excludedPlayer) {
             return;
         }
-        // Send to all players - might have to check if player has been sent data packets
+
         for (Player player : this.getPlayers()) {
             if (player == excludedPlayer) {
                 continue;
             }
-            // Send
+
             player.getSession().send(packet);
         }
     }
@@ -1213,14 +1168,14 @@ public class Scene {
         if (itemData.isEquip()) {
             float range = (1.5f + (.05f * amount));
             for (int i = 0; i < amount; i++) {
-                Position pos = bornForm.getPosition().nearby2d(range).addZ(.9f); // Why Z?
+                Position pos = bornForm.getPosition().nearby2d(range).addZ(.9f);
                 EntityItem entity = new EntityItem(this, null, itemData, pos, 1);
                 addEntity(entity);
             }
         } else {
             EntityItem entity =
                     new EntityItem(
-                            this, null, itemData, bornForm.getPosition().clone().addZ(.9f), amount); // Why Z?
+                            this, null, itemData, bornForm.getPosition().clone().addZ(.9f), amount);
             addEntity(entity);
         }
     }
@@ -1285,21 +1240,11 @@ public class Scene {
                 });
     }
 
-    /**
-     * Adds an unlocked force to the scene.
-     *
-     * @param force The ID of the force to unlock.
-     */
     public void unlockForce(int force) {
         this.unlockedForces.add(force);
         this.broadcastPacket(new PacketSceneForceUnlockNotify(force, true));
     }
 
-    /**
-     * Removes an unlocked force from the scene.
-     *
-     * @param force The ID of the force to lock.
-     */
     public void lockForce(int force) {
         this.unlockedForces.remove(force);
         this.broadcastPacket(new PacketSceneForceLockNotify(force));
@@ -1310,7 +1255,7 @@ public class Scene {
         if (entity == null) {
             return;
         }
-        // Handle
+
         if (entity instanceof EntityGadget gadget) {
             if (gadget.getContent() instanceof GadgetWorktop worktop) {
                 boolean shouldDelete = worktop.onSelectWorktopOption(req);

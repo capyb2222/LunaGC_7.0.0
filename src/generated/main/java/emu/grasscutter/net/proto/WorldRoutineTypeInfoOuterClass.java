@@ -18,68 +18,21 @@ public final class WorldRoutineTypeInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:WorldRoutineTypeInfo)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .WorldRoutineInfo world_routine_info_list = 5;</code>
-     */
-    java.util.List<emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo> 
+    java.util.List<emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo>
         getWorldRoutineInfoListList();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .WorldRoutineInfo world_routine_info_list = 5;</code>
-     */
+
     emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo getWorldRoutineInfoList(int index);
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .WorldRoutineInfo world_routine_info_list = 5;</code>
-     */
+
     int getWorldRoutineInfoListCount();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .WorldRoutineInfo world_routine_info_list = 5;</code>
-     */
-    java.util.List<? extends emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfoOrBuilder> 
+
+    java.util.List<? extends emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfoOrBuilder>
         getWorldRoutineInfoListOrBuilderList();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .WorldRoutineInfo world_routine_info_list = 5;</code>
-     */
+
     emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfoOrBuilder getWorldRoutineInfoListOrBuilder(
         int index);
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 next_refresh_time = 1;</code>
-     * @return The nextRefreshTime.
-     */
     int getNextRefreshTime();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 routine_type = 8;</code>
-     * @return The routineType.
-     */
     int getRoutineType();
   }
   /**
@@ -185,58 +138,28 @@ public final class WorldRoutineTypeInfoOuterClass {
 
     public static final int WORLD_ROUTINE_INFO_LIST_FIELD_NUMBER = 5;
     private java.util.List<emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo> worldRoutineInfoList_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .WorldRoutineInfo world_routine_info_list = 5;</code>
-     */
+
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo> getWorldRoutineInfoListList() {
       return worldRoutineInfoList_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .WorldRoutineInfo world_routine_info_list = 5;</code>
-     */
+
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfoOrBuilder>
         getWorldRoutineInfoListOrBuilderList() {
       return worldRoutineInfoList_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .WorldRoutineInfo world_routine_info_list = 5;</code>
-     */
+
     @java.lang.Override
     public int getWorldRoutineInfoListCount() {
       return worldRoutineInfoList_.size();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .WorldRoutineInfo world_routine_info_list = 5;</code>
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo getWorldRoutineInfoList(int index) {
       return worldRoutineInfoList_.get(index);
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .WorldRoutineInfo world_routine_info_list = 5;</code>
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfoOrBuilder getWorldRoutineInfoListOrBuilder(
         int index) {
@@ -245,14 +168,7 @@ public final class WorldRoutineTypeInfoOuterClass {
 
     public static final int NEXT_REFRESH_TIME_FIELD_NUMBER = 1;
     private int nextRefreshTime_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 next_refresh_time = 1;</code>
-     * @return The nextRefreshTime.
-     */
+
     @java.lang.Override
     public int getNextRefreshTime() {
       return nextRefreshTime_;
@@ -260,14 +176,7 @@ public final class WorldRoutineTypeInfoOuterClass {
 
     public static final int ROUTINE_TYPE_FIELD_NUMBER = 8;
     private int routineType_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 routine_type = 8;</code>
-     * @return The routineType.
-     */
+
     @java.lang.Override
     public int getRoutineType() {
       return routineType_;
@@ -605,7 +514,7 @@ public final class WorldRoutineTypeInfoOuterClass {
               worldRoutineInfoListBuilder_ = null;
               worldRoutineInfoList_ = other.worldRoutineInfoList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              worldRoutineInfoListBuilder_ = 
+              worldRoutineInfoListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getWorldRoutineInfoListFieldBuilder() : null;
             } else {
@@ -661,13 +570,6 @@ public final class WorldRoutineTypeInfoOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo, emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo.Builder, emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfoOrBuilder> worldRoutineInfoListBuilder_;
 
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .WorldRoutineInfo world_routine_info_list = 5;</code>
-       */
       public java.util.List<emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo> getWorldRoutineInfoListList() {
         if (worldRoutineInfoListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(worldRoutineInfoList_);
@@ -675,13 +577,7 @@ public final class WorldRoutineTypeInfoOuterClass {
           return worldRoutineInfoListBuilder_.getMessageList();
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .WorldRoutineInfo world_routine_info_list = 5;</code>
-       */
+
       public int getWorldRoutineInfoListCount() {
         if (worldRoutineInfoListBuilder_ == null) {
           return worldRoutineInfoList_.size();
@@ -689,13 +585,7 @@ public final class WorldRoutineTypeInfoOuterClass {
           return worldRoutineInfoListBuilder_.getCount();
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .WorldRoutineInfo world_routine_info_list = 5;</code>
-       */
+
       public emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo getWorldRoutineInfoList(int index) {
         if (worldRoutineInfoListBuilder_ == null) {
           return worldRoutineInfoList_.get(index);
@@ -703,13 +593,7 @@ public final class WorldRoutineTypeInfoOuterClass {
           return worldRoutineInfoListBuilder_.getMessage(index);
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .WorldRoutineInfo world_routine_info_list = 5;</code>
-       */
+
       public Builder setWorldRoutineInfoList(
           int index, emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo value) {
         if (worldRoutineInfoListBuilder_ == null) {
@@ -724,13 +608,7 @@ public final class WorldRoutineTypeInfoOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .WorldRoutineInfo world_routine_info_list = 5;</code>
-       */
+
       public Builder setWorldRoutineInfoList(
           int index, emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo.Builder builderForValue) {
         if (worldRoutineInfoListBuilder_ == null) {
@@ -742,13 +620,7 @@ public final class WorldRoutineTypeInfoOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .WorldRoutineInfo world_routine_info_list = 5;</code>
-       */
+
       public Builder addWorldRoutineInfoList(emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo value) {
         if (worldRoutineInfoListBuilder_ == null) {
           if (value == null) {
@@ -762,13 +634,7 @@ public final class WorldRoutineTypeInfoOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .WorldRoutineInfo world_routine_info_list = 5;</code>
-       */
+
       public Builder addWorldRoutineInfoList(
           int index, emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo value) {
         if (worldRoutineInfoListBuilder_ == null) {
@@ -783,13 +649,7 @@ public final class WorldRoutineTypeInfoOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .WorldRoutineInfo world_routine_info_list = 5;</code>
-       */
+
       public Builder addWorldRoutineInfoList(
           emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo.Builder builderForValue) {
         if (worldRoutineInfoListBuilder_ == null) {
@@ -801,13 +661,7 @@ public final class WorldRoutineTypeInfoOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .WorldRoutineInfo world_routine_info_list = 5;</code>
-       */
+
       public Builder addWorldRoutineInfoList(
           int index, emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo.Builder builderForValue) {
         if (worldRoutineInfoListBuilder_ == null) {
@@ -819,13 +673,7 @@ public final class WorldRoutineTypeInfoOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .WorldRoutineInfo world_routine_info_list = 5;</code>
-       */
+
       public Builder addAllWorldRoutineInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo> values) {
         if (worldRoutineInfoListBuilder_ == null) {
@@ -838,13 +686,7 @@ public final class WorldRoutineTypeInfoOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .WorldRoutineInfo world_routine_info_list = 5;</code>
-       */
+
       public Builder clearWorldRoutineInfoList() {
         if (worldRoutineInfoListBuilder_ == null) {
           worldRoutineInfoList_ = java.util.Collections.emptyList();
@@ -855,13 +697,7 @@ public final class WorldRoutineTypeInfoOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .WorldRoutineInfo world_routine_info_list = 5;</code>
-       */
+
       public Builder removeWorldRoutineInfoList(int index) {
         if (worldRoutineInfoListBuilder_ == null) {
           ensureWorldRoutineInfoListIsMutable();
@@ -872,24 +708,12 @@ public final class WorldRoutineTypeInfoOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .WorldRoutineInfo world_routine_info_list = 5;</code>
-       */
+
       public emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo.Builder getWorldRoutineInfoListBuilder(
           int index) {
         return getWorldRoutineInfoListFieldBuilder().getBuilder(index);
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .WorldRoutineInfo world_routine_info_list = 5;</code>
-       */
+
       public emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfoOrBuilder getWorldRoutineInfoListOrBuilder(
           int index) {
         if (worldRoutineInfoListBuilder_ == null) {
@@ -897,14 +721,8 @@ public final class WorldRoutineTypeInfoOuterClass {
           return worldRoutineInfoListBuilder_.getMessageOrBuilder(index);
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .WorldRoutineInfo world_routine_info_list = 5;</code>
-       */
-      public java.util.List<? extends emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfoOrBuilder> 
+
+      public java.util.List<? extends emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfoOrBuilder>
            getWorldRoutineInfoListOrBuilderList() {
         if (worldRoutineInfoListBuilder_ != null) {
           return worldRoutineInfoListBuilder_.getMessageOrBuilderList();
@@ -912,42 +730,24 @@ public final class WorldRoutineTypeInfoOuterClass {
           return java.util.Collections.unmodifiableList(worldRoutineInfoList_);
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .WorldRoutineInfo world_routine_info_list = 5;</code>
-       */
+
       public emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo.Builder addWorldRoutineInfoListBuilder() {
         return getWorldRoutineInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo.getDefaultInstance());
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .WorldRoutineInfo world_routine_info_list = 5;</code>
-       */
+
       public emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo.Builder addWorldRoutineInfoListBuilder(
           int index) {
         return getWorldRoutineInfoListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo.getDefaultInstance());
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .WorldRoutineInfo world_routine_info_list = 5;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo.Builder> 
+
+      public java.util.List<emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo.Builder>
            getWorldRoutineInfoListBuilderList() {
         return getWorldRoutineInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo, emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo.Builder, emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfoOrBuilder> 
+          emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo, emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo.Builder, emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfoOrBuilder>
           getWorldRoutineInfoListFieldBuilder() {
         if (worldRoutineInfoListBuilder_ == null) {
           worldRoutineInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -962,86 +762,42 @@ public final class WorldRoutineTypeInfoOuterClass {
       }
 
       private int nextRefreshTime_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 next_refresh_time = 1;</code>
-       * @return The nextRefreshTime.
-       */
+
       @java.lang.Override
       public int getNextRefreshTime() {
         return nextRefreshTime_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 next_refresh_time = 1;</code>
-       * @param value The nextRefreshTime to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setNextRefreshTime(int value) {
-        
+
         nextRefreshTime_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 next_refresh_time = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearNextRefreshTime() {
-        
+
         nextRefreshTime_ = 0;
         onChanged();
         return this;
       }
 
       private int routineType_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 routine_type = 8;</code>
-       * @return The routineType.
-       */
+
       @java.lang.Override
       public int getRoutineType() {
         return routineType_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 routine_type = 8;</code>
-       * @param value The routineType to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setRoutineType(int value) {
-        
+
         routineType_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 routine_type = 8;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearRoutineType() {
-        
+
         routineType_ = 0;
         onChanged();
         return this;
@@ -1057,7 +813,6 @@ public final class WorldRoutineTypeInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:WorldRoutineTypeInfo)
     }
@@ -1101,7 +856,7 @@ public final class WorldRoutineTypeInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WorldRoutineTypeInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WorldRoutineTypeInfo_fieldAccessorTable;
 

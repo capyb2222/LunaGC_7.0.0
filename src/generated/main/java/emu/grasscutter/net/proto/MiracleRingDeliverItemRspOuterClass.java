@@ -18,72 +18,18 @@ public final class MiracleRingDeliverItemRspOuterClass {
       // @@protoc_insertion_point(interface_extends:MiracleRingDeliverItemRsp)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 gadget_entity_id = 2;</code>
-     * @return The gadgetEntityId.
-     */
     int getGadgetEntityId();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 gadget_id = 10;</code>
-     * @return The gadgetId.
-     */
     int getGadgetId();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.InterOpType op_type = 3;</code>
-     * @return The enum numeric value on the wire for opType.
-     */
     int getOpTypeValue();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.InterOpType op_type = 3;</code>
-     * @return The opType.
-     */
+
     emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType getOpType();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.InteractType interact_type = 1;</code>
-     * @return The enum numeric value on the wire for interactType.
-     */
     int getInteractTypeValue();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.InteractType interact_type = 1;</code>
-     * @return The interactType.
-     */
+
     emu.grasscutter.net.proto.InteractTypeOuterClass.InteractType getInteractType();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>int32 retcode = 15;</code>
-     * @return The retcode.
-     */
     int getRetcode();
   }
   /**
@@ -198,14 +144,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
 
     public static final int GADGET_ENTITY_ID_FIELD_NUMBER = 2;
     private int gadgetEntityId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 gadget_entity_id = 2;</code>
-     * @return The gadgetEntityId.
-     */
+
     @java.lang.Override
     public int getGadgetEntityId() {
       return gadgetEntityId_;
@@ -213,14 +152,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
 
     public static final int GADGET_ID_FIELD_NUMBER = 10;
     private int gadgetId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 gadget_id = 10;</code>
-     * @return The gadgetId.
-     */
+
     @java.lang.Override
     public int getGadgetId() {
       return gadgetId_;
@@ -228,25 +160,11 @@ public final class MiracleRingDeliverItemRspOuterClass {
 
     public static final int OP_TYPE_FIELD_NUMBER = 3;
     private int opType_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.InterOpType op_type = 3;</code>
-     * @return The enum numeric value on the wire for opType.
-     */
+
     @java.lang.Override public int getOpTypeValue() {
       return opType_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.InterOpType op_type = 3;</code>
-     * @return The opType.
-     */
+
     @java.lang.Override public emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType getOpType() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType result = emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType.valueOf(opType_);
@@ -255,25 +173,11 @@ public final class MiracleRingDeliverItemRspOuterClass {
 
     public static final int INTERACT_TYPE_FIELD_NUMBER = 1;
     private int interactType_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.InteractType interact_type = 1;</code>
-     * @return The enum numeric value on the wire for interactType.
-     */
+
     @java.lang.Override public int getInteractTypeValue() {
       return interactType_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.InteractType interact_type = 1;</code>
-     * @return The interactType.
-     */
+
     @java.lang.Override public emu.grasscutter.net.proto.InteractTypeOuterClass.InteractType getInteractType() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.InteractTypeOuterClass.InteractType result = emu.grasscutter.net.proto.InteractTypeOuterClass.InteractType.valueOf(interactType_);
@@ -282,14 +186,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 15;
     private int retcode_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>int32 retcode = 15;</code>
-     * @return The retcode.
-     */
+
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -668,277 +565,137 @@ public final class MiracleRingDeliverItemRspOuterClass {
       }
 
       private int gadgetEntityId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 gadget_entity_id = 2;</code>
-       * @return The gadgetEntityId.
-       */
+
       @java.lang.Override
       public int getGadgetEntityId() {
         return gadgetEntityId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 gadget_entity_id = 2;</code>
-       * @param value The gadgetEntityId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setGadgetEntityId(int value) {
-        
+
         gadgetEntityId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 gadget_entity_id = 2;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearGadgetEntityId() {
-        
+
         gadgetEntityId_ = 0;
         onChanged();
         return this;
       }
 
       private int gadgetId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 gadget_id = 10;</code>
-       * @return The gadgetId.
-       */
+
       @java.lang.Override
       public int getGadgetId() {
         return gadgetId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 gadget_id = 10;</code>
-       * @param value The gadgetId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setGadgetId(int value) {
-        
+
         gadgetId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 gadget_id = 10;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearGadgetId() {
-        
+
         gadgetId_ = 0;
         onChanged();
         return this;
       }
 
       private int opType_ = 0;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.InterOpType op_type = 3;</code>
-       * @return The enum numeric value on the wire for opType.
-       */
+
       @java.lang.Override public int getOpTypeValue() {
         return opType_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.InterOpType op_type = 3;</code>
-       * @param value The enum numeric value on the wire for opType to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setOpTypeValue(int value) {
-        
+
         opType_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.InterOpType op_type = 3;</code>
-       * @return The opType.
-       */
+
       @java.lang.Override
       public emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType getOpType() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType result = emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType.valueOf(opType_);
         return result == null ? emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType.UNRECOGNIZED : result;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.InterOpType op_type = 3;</code>
-       * @param value The opType to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setOpType(emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType value) {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         opType_ = value.getNumber();
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.InterOpType op_type = 3;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearOpType() {
-        
+
         opType_ = 0;
         onChanged();
         return this;
       }
 
       private int interactType_ = 0;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.InteractType interact_type = 1;</code>
-       * @return The enum numeric value on the wire for interactType.
-       */
+
       @java.lang.Override public int getInteractTypeValue() {
         return interactType_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.InteractType interact_type = 1;</code>
-       * @param value The enum numeric value on the wire for interactType to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setInteractTypeValue(int value) {
-        
+
         interactType_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.InteractType interact_type = 1;</code>
-       * @return The interactType.
-       */
+
       @java.lang.Override
       public emu.grasscutter.net.proto.InteractTypeOuterClass.InteractType getInteractType() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.InteractTypeOuterClass.InteractType result = emu.grasscutter.net.proto.InteractTypeOuterClass.InteractType.valueOf(interactType_);
         return result == null ? emu.grasscutter.net.proto.InteractTypeOuterClass.InteractType.UNRECOGNIZED : result;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.InteractType interact_type = 1;</code>
-       * @param value The interactType to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setInteractType(emu.grasscutter.net.proto.InteractTypeOuterClass.InteractType value) {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         interactType_ = value.getNumber();
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.InteractType interact_type = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearInteractType() {
-        
+
         interactType_ = 0;
         onChanged();
         return this;
       }
 
       private int retcode_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 15;</code>
-       * @return The retcode.
-       */
+
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 15;</code>
-       * @param value The retcode to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 15;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -954,7 +711,6 @@ public final class MiracleRingDeliverItemRspOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:MiracleRingDeliverItemRsp)
     }
@@ -998,7 +754,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MiracleRingDeliverItemRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MiracleRingDeliverItemRsp_fieldAccessorTable;
 

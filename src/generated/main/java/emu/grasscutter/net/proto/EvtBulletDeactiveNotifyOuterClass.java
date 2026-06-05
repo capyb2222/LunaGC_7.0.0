@@ -101,7 +101,7 @@ public final class EvtBulletDeactiveNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 80: {
               int rawValue = input.readEnum();
 
               forwardType_ = rawValue;
@@ -120,7 +120,7 @@ public final class EvtBulletDeactiveNotifyOuterClass {
 
               break;
             }
-            case 112: {
+            case 48: {
 
               entityId_ = input.readUInt32();
               break;
@@ -157,7 +157,7 @@ public final class EvtBulletDeactiveNotifyOuterClass {
               emu.grasscutter.net.proto.EvtBulletDeactiveNotifyOuterClass.EvtBulletDeactiveNotify.class, emu.grasscutter.net.proto.EvtBulletDeactiveNotifyOuterClass.EvtBulletDeactiveNotify.Builder.class);
     }
 
-    public static final int FORWARD_TYPE_FIELD_NUMBER = 1;
+    public static final int FORWARD_TYPE_FIELD_NUMBER = 10;
     private int forwardType_;
     /**
      * <code>.ForwardType forward_type = 1;</code>
@@ -176,7 +176,7 @@ public final class EvtBulletDeactiveNotifyOuterClass {
       return result == null ? emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.UNRECOGNIZED : result;
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 14;
+    public static final int ENTITY_ID_FIELD_NUMBER = 6;
     private int entityId_;
     /**
      * <code>uint32 entity_id = 14;</code>
@@ -228,13 +228,13 @@ public final class EvtBulletDeactiveNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.ForwardType_FORWARD_LOCAL.getNumber()) {
-        output.writeEnum(1, forwardType_);
+        output.writeEnum(10, forwardType_);
       }
       if (disappearPos_ != null) {
         output.writeMessage(8, getDisappearPos());
       }
       if (entityId_ != 0) {
-        output.writeUInt32(14, entityId_);
+        output.writeUInt32(6, entityId_);
       }
       unknownFields.writeTo(output);
     }
@@ -247,7 +247,7 @@ public final class EvtBulletDeactiveNotifyOuterClass {
       size = 0;
       if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.ForwardType_FORWARD_LOCAL.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(1, forwardType_);
+          .computeEnumSize(10, forwardType_);
       }
       if (disappearPos_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -255,7 +255,7 @@ public final class EvtBulletDeactiveNotifyOuterClass {
       }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, entityId_);
+          .computeUInt32Size(6, entityId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

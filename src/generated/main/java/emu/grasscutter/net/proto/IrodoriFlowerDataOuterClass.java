@@ -179,7 +179,7 @@ public final class IrodoriFlowerDataOuterClass {
               emu.grasscutter.net.proto.IrodoriFlowerDataOuterClass.IrodoriFlowerData.class, emu.grasscutter.net.proto.IrodoriFlowerDataOuterClass.IrodoriFlowerData.Builder.class);
     }
 
-    public static final int FINISHED_THEME_LIST_FIELD_NUMBER = 3;
+    public static final int FINISHED_THEME_LIST_FIELD_NUMBER = 4;
     private com.google.protobuf.Internal.IntList finishedThemeList_;
     /**
      * <code>repeated uint32 finished_theme_list = 3;</code>
@@ -207,7 +207,7 @@ public final class IrodoriFlowerDataOuterClass {
     }
     private int finishedThemeListMemoizedSerializedSize = -1;
 
-    public static final int USED_FLOWER_LIST_FIELD_NUMBER = 2;
+    public static final int USED_FLOWER_LIST_FIELD_NUMBER = 15;
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> usedFlowerList_;
     /**
      * <code>repeated .ItemParam used_flower_list = 2;</code>
@@ -263,7 +263,7 @@ public final class IrodoriFlowerDataOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       for (int i = 0; i < usedFlowerList_.size(); i++) {
-        output.writeMessage(2, usedFlowerList_.get(i));
+        output.writeMessage(15, usedFlowerList_.get(i));
       }
       if (getFinishedThemeListList().size() > 0) {
         output.writeUInt32NoTag(26);
@@ -283,7 +283,7 @@ public final class IrodoriFlowerDataOuterClass {
       size = 0;
       for (int i = 0; i < usedFlowerList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, usedFlowerList_.get(i));
+          .computeMessageSize(15, usedFlowerList_.get(i));
       }
       {
         int dataSize = 0;

@@ -99,12 +99,17 @@ public final class TryEnterHomeRspOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 40: {
+
+              retcode_ = input.readInt32();
+              break;
+            }
+            case 72: {
 
               targetUid_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 120: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 paramList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -112,7 +117,7 @@ public final class TryEnterHomeRspOuterClass {
               paramList_.addInt(input.readUInt32());
               break;
             }
-            case 66: {
+            case 122: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -123,11 +128,6 @@ public final class TryEnterHomeRspOuterClass {
                 paramList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
-              break;
-            }
-            case 104: {
-
-              retcode_ = input.readInt32();
               break;
             }
             default: {
@@ -165,7 +165,7 @@ public final class TryEnterHomeRspOuterClass {
               emu.grasscutter.net.proto.TryEnterHomeRspOuterClass.TryEnterHomeRsp.class, emu.grasscutter.net.proto.TryEnterHomeRspOuterClass.TryEnterHomeRsp.Builder.class);
     }
 
-    public static final int PARAM_LIST_FIELD_NUMBER = 8;
+    public static final int PARAM_LIST_FIELD_NUMBER = 15;
     private com.google.protobuf.Internal.IntList paramList_;
     /**
      * <code>repeated uint32 param_list = 8;</code>
@@ -193,7 +193,7 @@ public final class TryEnterHomeRspOuterClass {
     }
     private int paramListMemoizedSerializedSize = -1;
 
-    public static final int RETCODE_FIELD_NUMBER = 13;
+    public static final int RETCODE_FIELD_NUMBER = 5;
     private int retcode_;
     /**
      * <code>int32 retcode = 13;</code>
@@ -204,7 +204,7 @@ public final class TryEnterHomeRspOuterClass {
       return retcode_;
     }
 
-    public static final int TARGET_UID_FIELD_NUMBER = 6;
+    public static final int TARGET_UID_FIELD_NUMBER = 9;
     private int targetUid_;
     /**
      * <code>uint32 target_uid = 6;</code>
@@ -231,17 +231,17 @@ public final class TryEnterHomeRspOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (targetUid_ != 0) {
-        output.writeUInt32(6, targetUid_);
+        output.writeUInt32(9, targetUid_);
       }
       if (getParamListList().size() > 0) {
-        output.writeUInt32NoTag(66);
+        output.writeUInt32NoTag(122);
         output.writeUInt32NoTag(paramListMemoizedSerializedSize);
       }
       for (int i = 0; i < paramList_.size(); i++) {
         output.writeUInt32NoTag(paramList_.getInt(i));
       }
       if (retcode_ != 0) {
-        output.writeInt32(13, retcode_);
+        output.writeInt32(5, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -254,7 +254,7 @@ public final class TryEnterHomeRspOuterClass {
       size = 0;
       if (targetUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, targetUid_);
+          .computeUInt32Size(9, targetUid_);
       }
       {
         int dataSize = 0;
@@ -272,7 +272,7 @@ public final class TryEnterHomeRspOuterClass {
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(13, retcode_);
+          .computeInt32Size(5, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

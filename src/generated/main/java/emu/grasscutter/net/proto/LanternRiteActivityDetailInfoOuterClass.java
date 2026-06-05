@@ -21,7 +21,7 @@ public final class LanternRiteActivityDetailInfoOuterClass {
     /**
      * <code>repeated .PJAFHLIEHLO NGMHFHPAAMF = 8;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.PJAFHLIEHLOOuterClass.PJAFHLIEHLO> 
+    java.util.List<emu.grasscutter.net.proto.PJAFHLIEHLOOuterClass.PJAFHLIEHLO>
         getNGMHFHPAAMFList();
     /**
      * <code>repeated .PJAFHLIEHLO NGMHFHPAAMF = 8;</code>
@@ -34,7 +34,7 @@ public final class LanternRiteActivityDetailInfoOuterClass {
     /**
      * <code>repeated .PJAFHLIEHLO NGMHFHPAAMF = 8;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.PJAFHLIEHLOOuterClass.PJAFHLIEHLOOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.PJAFHLIEHLOOuterClass.PJAFHLIEHLOOrBuilder>
         getNGMHFHPAAMFOrBuilderList();
     /**
      * <code>repeated .PJAFHLIEHLO NGMHFHPAAMF = 8;</code>
@@ -72,14 +72,6 @@ public final class LanternRiteActivityDetailInfoOuterClass {
      */
     emu.grasscutter.net.proto.MDACHCPLBOOOuterClass.MDACHCPLBOOOrBuilder getDBLCOKMPNIBOrBuilder();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>bool is_content_closed = 5;</code>
-     * @return The isContentClosed.
-     */
     boolean getIsContentClosed();
 
     /**
@@ -239,7 +231,7 @@ public final class LanternRiteActivityDetailInfoOuterClass {
      * <code>repeated .PJAFHLIEHLO NGMHFHPAAMF = 8;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.PJAFHLIEHLOOuterClass.PJAFHLIEHLOOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.PJAFHLIEHLOOuterClass.PJAFHLIEHLOOrBuilder>
         getNGMHFHPAAMFOrBuilderList() {
       return nGMHFHPAAMF_;
     }
@@ -318,16 +310,9 @@ public final class LanternRiteActivityDetailInfoOuterClass {
       return getDBLCOKMPNIB();
     }
 
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 5;
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 8;
     private boolean isContentClosed_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>bool is_content_closed = 5;</code>
-     * @return The isContentClosed.
-     */
+
     @java.lang.Override
     public boolean getIsContentClosed() {
       return isContentClosed_;
@@ -373,7 +358,7 @@ public final class LanternRiteActivityDetailInfoOuterClass {
         output.writeBool(2, fCGNJGJEEMA_);
       }
       if (isContentClosed_ != false) {
-        output.writeBool(5, isContentClosed_);
+        output.writeBool(8, isContentClosed_);
       }
       if (aMIGNHONCNN_ != null) {
         output.writeMessage(6, getAMIGNHONCNN());
@@ -402,7 +387,7 @@ public final class LanternRiteActivityDetailInfoOuterClass {
       }
       if (isContentClosed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, isContentClosed_);
+          .computeBoolSize(8, isContentClosed_);
       }
       if (aMIGNHONCNN_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -758,7 +743,7 @@ public final class LanternRiteActivityDetailInfoOuterClass {
               nGMHFHPAAMFBuilder_ = null;
               nGMHFHPAAMF_ = other.nGMHFHPAAMF_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              nGMHFHPAAMFBuilder_ = 
+              nGMHFHPAAMFBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getNGMHFHPAAMFFieldBuilder() : null;
             } else {
@@ -1006,7 +991,7 @@ public final class LanternRiteActivityDetailInfoOuterClass {
       /**
        * <code>repeated .PJAFHLIEHLO NGMHFHPAAMF = 8;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.PJAFHLIEHLOOuterClass.PJAFHLIEHLOOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.PJAFHLIEHLOOuterClass.PJAFHLIEHLOOrBuilder>
            getNGMHFHPAAMFOrBuilderList() {
         if (nGMHFHPAAMFBuilder_ != null) {
           return nGMHFHPAAMFBuilder_.getMessageOrBuilderList();
@@ -1032,12 +1017,12 @@ public final class LanternRiteActivityDetailInfoOuterClass {
       /**
        * <code>repeated .PJAFHLIEHLO NGMHFHPAAMF = 8;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.PJAFHLIEHLOOuterClass.PJAFHLIEHLO.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.PJAFHLIEHLOOuterClass.PJAFHLIEHLO.Builder>
            getNGMHFHPAAMFBuilderList() {
         return getNGMHFHPAAMFFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.PJAFHLIEHLOOuterClass.PJAFHLIEHLO, emu.grasscutter.net.proto.PJAFHLIEHLOOuterClass.PJAFHLIEHLO.Builder, emu.grasscutter.net.proto.PJAFHLIEHLOOuterClass.PJAFHLIEHLOOrBuilder> 
+          emu.grasscutter.net.proto.PJAFHLIEHLOOuterClass.PJAFHLIEHLO, emu.grasscutter.net.proto.PJAFHLIEHLOOuterClass.PJAFHLIEHLO.Builder, emu.grasscutter.net.proto.PJAFHLIEHLOOuterClass.PJAFHLIEHLOOrBuilder>
           getNGMHFHPAAMFFieldBuilder() {
         if (nGMHFHPAAMFBuilder_ == null) {
           nGMHFHPAAMFBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1138,7 +1123,7 @@ public final class LanternRiteActivityDetailInfoOuterClass {
        * <code>.LOODODEGNOH AMIGNHONCNN = 6;</code>
        */
       public emu.grasscutter.net.proto.LOODODEGNOHOuterClass.LOODODEGNOH.Builder getAMIGNHONCNNBuilder() {
-        
+
         onChanged();
         return getAMIGNHONCNNFieldBuilder().getBuilder();
       }
@@ -1157,7 +1142,7 @@ public final class LanternRiteActivityDetailInfoOuterClass {
        * <code>.LOODODEGNOH AMIGNHONCNN = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LOODODEGNOHOuterClass.LOODODEGNOH, emu.grasscutter.net.proto.LOODODEGNOHOuterClass.LOODODEGNOH.Builder, emu.grasscutter.net.proto.LOODODEGNOHOuterClass.LOODODEGNOHOrBuilder> 
+          emu.grasscutter.net.proto.LOODODEGNOHOuterClass.LOODODEGNOH, emu.grasscutter.net.proto.LOODODEGNOHOuterClass.LOODODEGNOH.Builder, emu.grasscutter.net.proto.LOODODEGNOHOuterClass.LOODODEGNOHOrBuilder>
           getAMIGNHONCNNFieldBuilder() {
         if (aMIGNHONCNNBuilder_ == null) {
           aMIGNHONCNNBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1257,7 +1242,7 @@ public final class LanternRiteActivityDetailInfoOuterClass {
        * <code>.MDACHCPLBOO DBLCOKMPNIB = 11;</code>
        */
       public emu.grasscutter.net.proto.MDACHCPLBOOOuterClass.MDACHCPLBOO.Builder getDBLCOKMPNIBBuilder() {
-        
+
         onChanged();
         return getDBLCOKMPNIBFieldBuilder().getBuilder();
       }
@@ -1276,7 +1261,7 @@ public final class LanternRiteActivityDetailInfoOuterClass {
        * <code>.MDACHCPLBOO DBLCOKMPNIB = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MDACHCPLBOOOuterClass.MDACHCPLBOO, emu.grasscutter.net.proto.MDACHCPLBOOOuterClass.MDACHCPLBOO.Builder, emu.grasscutter.net.proto.MDACHCPLBOOOuterClass.MDACHCPLBOOOrBuilder> 
+          emu.grasscutter.net.proto.MDACHCPLBOOOuterClass.MDACHCPLBOO, emu.grasscutter.net.proto.MDACHCPLBOOOuterClass.MDACHCPLBOO.Builder, emu.grasscutter.net.proto.MDACHCPLBOOOuterClass.MDACHCPLBOOOrBuilder>
           getDBLCOKMPNIBFieldBuilder() {
         if (dBLCOKMPNIBBuilder_ == null) {
           dBLCOKMPNIBBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1290,43 +1275,21 @@ public final class LanternRiteActivityDetailInfoOuterClass {
       }
 
       private boolean isContentClosed_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_content_closed = 5;</code>
-       * @return The isContentClosed.
-       */
+
       @java.lang.Override
       public boolean getIsContentClosed() {
         return isContentClosed_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_content_closed = 5;</code>
-       * @param value The isContentClosed to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setIsContentClosed(boolean value) {
-        
+
         isContentClosed_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_content_closed = 5;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearIsContentClosed() {
-        
+
         isContentClosed_ = false;
         onChanged();
         return this;
@@ -1347,7 +1310,7 @@ public final class LanternRiteActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFCGNJGJEEMA(boolean value) {
-        
+
         fCGNJGJEEMA_ = value;
         onChanged();
         return this;
@@ -1357,7 +1320,7 @@ public final class LanternRiteActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFCGNJGJEEMA() {
-        
+
         fCGNJGJEEMA_ = false;
         onChanged();
         return this;
@@ -1378,7 +1341,7 @@ public final class LanternRiteActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLDGGIJKLLJF(boolean value) {
-        
+
         lDGGIJKLLJF_ = value;
         onChanged();
         return this;
@@ -1388,7 +1351,7 @@ public final class LanternRiteActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLDGGIJKLLJF() {
-        
+
         lDGGIJKLLJF_ = false;
         onChanged();
         return this;
@@ -1404,7 +1367,6 @@ public final class LanternRiteActivityDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:LanternRiteActivityDetailInfo)
     }
@@ -1448,7 +1410,7 @@ public final class LanternRiteActivityDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_LanternRiteActivityDetailInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_LanternRiteActivityDetailInfo_fieldAccessorTable;
 

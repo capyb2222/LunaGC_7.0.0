@@ -30,34 +30,10 @@ public final class SocialShowAvatarInfoOuterClass {
      */
     int getDJMKCNBDGAJ();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 avatar_id = 1;</code>
-     * @return The avatarId.
-     */
     int getAvatarId();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 level = 2;</code>
-     * @return The level.
-     */
     int getLevel();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 costume_id = 3;</code>
-     * @return The costumeId.
-     */
     int getCostumeId();
   }
   /**
@@ -186,14 +162,7 @@ public final class SocialShowAvatarInfoOuterClass {
 
     public static final int AVATAR_ID_FIELD_NUMBER = 1;
     private int avatarId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 avatar_id = 1;</code>
-     * @return The avatarId.
-     */
+
     @java.lang.Override
     public int getAvatarId() {
       return avatarId_;
@@ -201,14 +170,7 @@ public final class SocialShowAvatarInfoOuterClass {
 
     public static final int LEVEL_FIELD_NUMBER = 2;
     private int level_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 level = 2;</code>
-     * @return The level.
-     */
+
     @java.lang.Override
     public int getLevel() {
       return level_;
@@ -216,14 +178,7 @@ public final class SocialShowAvatarInfoOuterClass {
 
     public static final int COSTUME_ID_FIELD_NUMBER = 3;
     private int costumeId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 costume_id = 3;</code>
-     * @return The costumeId.
-     */
+
     @java.lang.Override
     public int getCostumeId() {
       return costumeId_;
@@ -614,7 +569,7 @@ public final class SocialShowAvatarInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGIPGDBJOHAK(int value) {
-        
+
         gIPGDBJOHAK_ = value;
         onChanged();
         return this;
@@ -624,7 +579,7 @@ public final class SocialShowAvatarInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGIPGDBJOHAK() {
-        
+
         gIPGDBJOHAK_ = 0;
         onChanged();
         return this;
@@ -645,7 +600,7 @@ public final class SocialShowAvatarInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDJMKCNBDGAJ(int value) {
-        
+
         dJMKCNBDGAJ_ = value;
         onChanged();
         return this;
@@ -655,136 +610,70 @@ public final class SocialShowAvatarInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDJMKCNBDGAJ() {
-        
+
         dJMKCNBDGAJ_ = 0;
         onChanged();
         return this;
       }
 
       private int avatarId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 avatar_id = 1;</code>
-       * @return The avatarId.
-       */
+
       @java.lang.Override
       public int getAvatarId() {
         return avatarId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 avatar_id = 1;</code>
-       * @param value The avatarId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setAvatarId(int value) {
-        
+
         avatarId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 avatar_id = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearAvatarId() {
-        
+
         avatarId_ = 0;
         onChanged();
         return this;
       }
 
       private int level_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 level = 2;</code>
-       * @return The level.
-       */
+
       @java.lang.Override
       public int getLevel() {
         return level_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 level = 2;</code>
-       * @param value The level to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setLevel(int value) {
-        
+
         level_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 level = 2;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearLevel() {
-        
+
         level_ = 0;
         onChanged();
         return this;
       }
 
       private int costumeId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 costume_id = 3;</code>
-       * @return The costumeId.
-       */
+
       @java.lang.Override
       public int getCostumeId() {
         return costumeId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 costume_id = 3;</code>
-       * @param value The costumeId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setCostumeId(int value) {
-        
+
         costumeId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 costume_id = 3;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearCostumeId() {
-        
+
         costumeId_ = 0;
         onChanged();
         return this;
@@ -800,7 +689,6 @@ public final class SocialShowAvatarInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:SocialShowAvatarInfo)
     }
@@ -844,7 +732,7 @@ public final class SocialShowAvatarInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SocialShowAvatarInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SocialShowAvatarInfo_fieldAccessorTable;
 

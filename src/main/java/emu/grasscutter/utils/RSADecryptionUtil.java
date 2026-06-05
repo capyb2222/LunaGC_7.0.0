@@ -2,75 +2,99 @@ package emu.grasscutter.utils;
 
 import emu.grasscutter.Grasscutter;
 import javax.crypto.Cipher;
-import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 import java.security.KeyFactory;
 import java.security.PrivateKey;
-import java.security.PublicKey;
 import java.security.spec.PKCS8EncodedKeySpec;
-import java.security.spec.X509EncodedKeySpec;
 import java.util.Base64;
 
 public class RSADecryptionUtil {
-    private static PrivateKey privateKey;
-    private static PublicKey publicKey = null;
-    
+    private static PrivateKey sdkPrivateKey;
+    private static PrivateKey authPrivateKey;
+
     static {
+        sdkPrivateKey = loadKey("/keys/private_key.der", "private_key.der");
+        authPrivateKey = loadKey("/keys/auth_private-key.der", "auth_private-key.der");
+    }
+
+    private static PrivateKey loadKey(String resourcePath, String name) {
         try {
-            Grasscutter.getLogger().info("Loading RSA key");
-            
-            byte[] keyBytes = FileUtils.readResource("/keys/private_key.der");
-            
+            byte[] keyBytes = FileUtils.readResource(resourcePath);
             if (keyBytes == null || keyBytes.length == 0) {
-                Grasscutter.getLogger().error("Unable to find private_key.der in resources folder");
-                throw new RuntimeException("private_key.der not found in resources");
+                Grasscutter.getLogger().warn("Key not found: " + name);
+                return null;
             }
-            
-            // PKCS8
-            PKCS8EncodedKeySpec spec = new PKCS8EncodedKeySpec(keyBytes);
-            KeyFactory keyFactory = KeyFactory.getInstance("RSA");
-            privateKey = keyFactory.generatePrivate(spec);
-            
-            Grasscutter.getLogger().debug("Loaded RSA priv key");
-            Grasscutter.getLogger().debug("Format: " + privateKey.getFormat());
-            
+            KeyFactory kf = KeyFactory.getInstance("RSA");
+            return kf.generatePrivate(new PKCS8EncodedKeySpec(keyBytes));
         } catch (Exception e) {
-            Grasscutter.getLogger().error("Unable to load RSA priv key", e);
-            e.printStackTrace();
-            throw new RuntimeException("Unable to load RSA priv key", e);
+            Grasscutter.getLogger().warn("Failed to load key " + name + ": " + e.getMessage());
+            return null;
         }
     }
-    
+
     public static String decrypt(String encryptedBase64) throws Exception {
         if (encryptedBase64 == null || encryptedBase64.isEmpty()) {
             throw new IllegalArgumentException("Encrypted data is null or empty");
         }
-        
-        Grasscutter.getLogger().debug("Decrypting RSA key");
-        
+
+        byte[] encryptedBytes;
         try {
-            // Decode base64
-            byte[] encryptedBytes = Base64.getDecoder().decode(encryptedBase64);
-            
-            // Decrypt using RSA/ECB/PKCS1Padding
-            Cipher cipher = Cipher.getInstance("RSA/ECB/PKCS1Padding");
-            cipher.init(Cipher.DECRYPT_MODE, privateKey);
-            byte[] decryptedBytes = cipher.doFinal(encryptedBytes);
-            
-            String result = new String(decryptedBytes, StandardCharsets.UTF_8);
-            Grasscutter.getLogger().debug("Successfully decrypted");
-            
-            return result;
-            
-        } catch (javax.crypto.IllegalBlockSizeException e) {
-            Grasscutter.getLogger().error("Invalid public key, is it replaced?");
-            throw new Exception("RSA key mismatch", e);
-        } catch (javax.crypto.BadPaddingException e) {
-            Grasscutter.getLogger().error("Private key doesn't match public key in use by client");
-            throw new Exception("RSA decryption failed, key mismatch", e);
+            encryptedBytes = Base64.getDecoder().decode(encryptedBase64);
         } catch (Exception e) {
-            Grasscutter.getLogger().error("Unexpected error", e);
-            throw e;
+            throw new Exception("Failed to base64-decode input", e);
         }
+
+        Grasscutter.getLogger().debug("RSA decrypt attempt: input base64 len=" + encryptedBase64.length() + " bytes=" + encryptedBytes.length);
+
+        if (sdkPrivateKey != null) {
+            String result = tryDecrypt(encryptedBytes, sdkPrivateKey, "RSA/ECB/PKCS1Padding", "sdk+PKCS1");
+            if (result != null) return result;
+        }
+
+        if (sdkPrivateKey != null) {
+            String result = tryDecrypt(encryptedBytes, sdkPrivateKey, "RSA/ECB/OAEPWithSHA-1AndMGF1Padding", "sdk+OAEP");
+            if (result != null) return result;
+        }
+
+        if (authPrivateKey != null) {
+            String result = tryDecrypt(encryptedBytes, authPrivateKey, "RSA/ECB/PKCS1Padding", "auth+PKCS1");
+            if (result != null) return result;
+        }
+
+        if (authPrivateKey != null) {
+            String result = tryDecrypt(encryptedBytes, authPrivateKey, "RSA/ECB/OAEPWithSHA-1AndMGF1Padding", "auth+OAEP");
+            if (result != null) return result;
+        }
+
+        String plaintext = new String(encryptedBytes, StandardCharsets.UTF_8);
+        if (isPrintable(plaintext)) {
+            Grasscutter.getLogger().info("RSA decrypt: using plaintext fallback, value=" + plaintext);
+            return plaintext;
+        }
+
+        Grasscutter.getLogger().error("RSA decrypt: all methods failed for input (base64 len=" + encryptedBase64.length() + ")");
+        throw new Exception("RSA decryption failed: no matching key or padding");
+    }
+
+    private static String tryDecrypt(byte[] data, PrivateKey key, String transformation, String label) {
+        try {
+            Cipher cipher = Cipher.getInstance(transformation);
+            cipher.init(Cipher.DECRYPT_MODE, key);
+            byte[] decrypted = cipher.doFinal(data);
+            String result = new String(decrypted, StandardCharsets.UTF_8);
+            Grasscutter.getLogger().info("RSA decrypt succeeded with " + label + " -> [" + result + "]");
+            return result;
+        } catch (Exception e) {
+            Grasscutter.getLogger().debug("RSA decrypt failed with " + label + ": " + e.getMessage());
+            return null;
+        }
+    }
+
+    private static boolean isPrintable(String s) {
+        if (s.isEmpty()) return false;
+        for (char c : s.toCharArray()) {
+            if (c < 32 || c > 126) return false;
+        }
+        return true;
     }
 }

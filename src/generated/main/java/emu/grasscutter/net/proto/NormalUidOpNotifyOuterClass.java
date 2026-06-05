@@ -18,82 +18,20 @@ public final class NormalUidOpNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:NormalUidOpNotify)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 param_uid_list = 7;</code>
-     * @return A list containing the paramUidList.
-     */
     java.util.List<java.lang.Integer> getParamUidListList();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 param_uid_list = 7;</code>
-     * @return The count of paramUidList.
-     */
+
     int getParamUidListCount();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 param_uid_list = 7;</code>
-     * @param index The index of the element to return.
-     * @return The paramUidList at the given index.
-     */
+
     int getParamUidList(int index);
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 param_list = 5;</code>
-     * @return A list containing the paramList.
-     */
     java.util.List<java.lang.Integer> getParamListList();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 param_list = 5;</code>
-     * @return The count of paramList.
-     */
+
     int getParamListCount();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 param_list = 5;</code>
-     * @param index The index of the element to return.
-     * @return The paramList at the given index.
-     */
+
     int getParamList(int index);
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>uint32 param_index = 9;</code>
-     * @return The paramIndex.
-     */
     int getParamIndex();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>uint32 duration = 1;</code>
-     * @return The duration.
-     */
     int getDuration();
   }
   /**
@@ -240,39 +178,17 @@ public final class NormalUidOpNotifyOuterClass {
 
     public static final int PARAM_UID_LIST_FIELD_NUMBER = 7;
     private com.google.protobuf.Internal.IntList paramUidList_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 param_uid_list = 7;</code>
-     * @return A list containing the paramUidList.
-     */
+
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getParamUidListList() {
       return paramUidList_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 param_uid_list = 7;</code>
-     * @return The count of paramUidList.
-     */
+
     public int getParamUidListCount() {
       return paramUidList_.size();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 param_uid_list = 7;</code>
-     * @param index The index of the element to return.
-     * @return The paramUidList at the given index.
-     */
+
     public int getParamUidList(int index) {
       return paramUidList_.getInt(index);
     }
@@ -280,39 +196,17 @@ public final class NormalUidOpNotifyOuterClass {
 
     public static final int PARAM_LIST_FIELD_NUMBER = 5;
     private com.google.protobuf.Internal.IntList paramList_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 param_list = 5;</code>
-     * @return A list containing the paramList.
-     */
+
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getParamListList() {
       return paramList_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 param_list = 5;</code>
-     * @return The count of paramList.
-     */
+
     public int getParamListCount() {
       return paramList_.size();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 param_list = 5;</code>
-     * @param index The index of the element to return.
-     * @return The paramList at the given index.
-     */
+
     public int getParamList(int index) {
       return paramList_.getInt(index);
     }
@@ -320,14 +214,7 @@ public final class NormalUidOpNotifyOuterClass {
 
     public static final int PARAM_INDEX_FIELD_NUMBER = 9;
     private int paramIndex_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>uint32 param_index = 9;</code>
-     * @return The paramIndex.
-     */
+
     @java.lang.Override
     public int getParamIndex() {
       return paramIndex_;
@@ -335,14 +222,7 @@ public final class NormalUidOpNotifyOuterClass {
 
     public static final int DURATION_FIELD_NUMBER = 1;
     private int duration_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>uint32 duration = 1;</code>
-     * @return The duration.
-     */
+
     @java.lang.Override
     public int getDuration() {
       return duration_;
@@ -769,52 +649,21 @@ public final class NormalUidOpNotifyOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 param_uid_list = 7;</code>
-       * @return A list containing the paramUidList.
-       */
+
       public java.util.List<java.lang.Integer>
           getParamUidListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(paramUidList_) : paramUidList_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 param_uid_list = 7;</code>
-       * @return The count of paramUidList.
-       */
+
       public int getParamUidListCount() {
         return paramUidList_.size();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 param_uid_list = 7;</code>
-       * @param index The index of the element to return.
-       * @return The paramUidList at the given index.
-       */
+
       public int getParamUidList(int index) {
         return paramUidList_.getInt(index);
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 param_uid_list = 7;</code>
-       * @param index The index to set the value at.
-       * @param value The paramUidList to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setParamUidList(
           int index, int value) {
         ensureParamUidListIsMutable();
@@ -822,30 +671,14 @@ public final class NormalUidOpNotifyOuterClass {
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 param_uid_list = 7;</code>
-       * @param value The paramUidList to add.
-       * @return This builder for chaining.
-       */
+
       public Builder addParamUidList(int value) {
         ensureParamUidListIsMutable();
         paramUidList_.addInt(value);
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 param_uid_list = 7;</code>
-       * @param values The paramUidList to add.
-       * @return This builder for chaining.
-       */
+
       public Builder addAllParamUidList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureParamUidListIsMutable();
@@ -854,14 +687,7 @@ public final class NormalUidOpNotifyOuterClass {
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 param_uid_list = 7;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearParamUidList() {
         paramUidList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -876,52 +702,21 @@ public final class NormalUidOpNotifyOuterClass {
           bitField0_ |= 0x00000002;
          }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 param_list = 5;</code>
-       * @return A list containing the paramList.
-       */
+
       public java.util.List<java.lang.Integer>
           getParamListList() {
         return ((bitField0_ & 0x00000002) != 0) ?
                  java.util.Collections.unmodifiableList(paramList_) : paramList_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 param_list = 5;</code>
-       * @return The count of paramList.
-       */
+
       public int getParamListCount() {
         return paramList_.size();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 param_list = 5;</code>
-       * @param index The index of the element to return.
-       * @return The paramList at the given index.
-       */
+
       public int getParamList(int index) {
         return paramList_.getInt(index);
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 param_list = 5;</code>
-       * @param index The index to set the value at.
-       * @param value The paramList to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setParamList(
           int index, int value) {
         ensureParamListIsMutable();
@@ -929,30 +724,14 @@ public final class NormalUidOpNotifyOuterClass {
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 param_list = 5;</code>
-       * @param value The paramList to add.
-       * @return This builder for chaining.
-       */
+
       public Builder addParamList(int value) {
         ensureParamListIsMutable();
         paramList_.addInt(value);
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 param_list = 5;</code>
-       * @param values The paramList to add.
-       * @return This builder for chaining.
-       */
+
       public Builder addAllParamList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureParamListIsMutable();
@@ -961,14 +740,7 @@ public final class NormalUidOpNotifyOuterClass {
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 param_list = 5;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearParamList() {
         paramList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
@@ -977,86 +749,42 @@ public final class NormalUidOpNotifyOuterClass {
       }
 
       private int paramIndex_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>uint32 param_index = 9;</code>
-       * @return The paramIndex.
-       */
+
       @java.lang.Override
       public int getParamIndex() {
         return paramIndex_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>uint32 param_index = 9;</code>
-       * @param value The paramIndex to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setParamIndex(int value) {
-        
+
         paramIndex_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>uint32 param_index = 9;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearParamIndex() {
-        
+
         paramIndex_ = 0;
         onChanged();
         return this;
       }
 
       private int duration_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>uint32 duration = 1;</code>
-       * @return The duration.
-       */
+
       @java.lang.Override
       public int getDuration() {
         return duration_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>uint32 duration = 1;</code>
-       * @param value The duration to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setDuration(int value) {
-        
+
         duration_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>uint32 duration = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearDuration() {
-        
+
         duration_ = 0;
         onChanged();
         return this;
@@ -1072,7 +800,6 @@ public final class NormalUidOpNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:NormalUidOpNotify)
     }
@@ -1116,7 +843,7 @@ public final class NormalUidOpNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_NormalUidOpNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_NormalUidOpNotify_fieldAccessorTable;
 

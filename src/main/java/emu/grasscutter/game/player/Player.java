@@ -60,13 +60,11 @@ import emu.grasscutter.utils.helpers.DateHelper;
 import emu.grasscutter.utils.objects.FieldFetch;
 import it.unimi.dsi.fastutil.ints.*;
 
-
 import lombok.*;
 
 import java.time.*;
 import java.util.*;
 import java.util.concurrent.*;
-
 
 import static emu.grasscutter.config.Configuration.GAME_OPTIONS;
 
@@ -129,16 +127,15 @@ public class Player implements PlayerHook, FieldFetch {
 
     @Transient private long nextGuid = 0;
     @Transient @Getter @Setter private int peerId;
-    @Transient private World world;  // Synchronized getter and setter
+    @Transient private World world;
     @Transient @Getter @Setter private HomeWorld curHomeWorld;
     @Transient @Getter @Setter private boolean hasSentInitPacketInHome;
-    @Transient private Scene scene;  // Synchronized getter and setter
+    @Transient private Scene scene;
     @Transient @Getter private int weatherId = 0;
     @Transient @Getter private ClimateType climate = ClimateType.CLIMATE_SUNNY;
     @Transient @Getter private int areaId = 0;
     @Transient @Getter private int areaType = 0;
 
-    // Player managers go here
     @Getter private transient AvatarStorage avatars;
     @Getter private transient Inventory inventory;
     @Getter private transient FriendsList friendsList;
@@ -165,18 +162,17 @@ public class Player implements PlayerHook, FieldFetch {
 
     @Getter @Setter private transient Position lastCheckedPosition = null;
 
-    // Manager data (Save-able to the database)
     @Getter private transient Achievements achievements;
-    private PlayerProfile playerProfile;  // Getter has null-check
+    private PlayerProfile playerProfile;
     @Getter private TeamManager teamManager;
-    private TowerData towerData;  // Getter has null-check
+    private TowerData towerData;
     @Getter private PlayerGachaInfo gachaInfo;
-    private PlayerCollectionRecords collectionRecordStore;  // Getter has null-check
+    private PlayerCollectionRecords collectionRecordStore;
     @Getter private ArrayList<ShopLimit> shopLimit;
 
     @Getter private transient GameHome home;
 
-    @Setter private boolean moonCard;  // Getter is inMoonCard
+    @Setter private boolean moonCard;
     @Getter @Setter private Date moonCardStartTime;
     @Getter @Setter private int moonCardDuration;
     @Getter @Setter private Set<Date> moonCardGetTimes;
@@ -189,19 +185,19 @@ public class Player implements PlayerHook, FieldFetch {
     @Transient private long nextSendPlayerLocTime = 0;
     @Getter private transient final Int2ObjectMap<EnterHomeRequest> enterHomeRequests;
 
-    private transient final Int2ObjectMap<CoopRequest> coopRequests;  // Synchronized getter
+    private transient final Int2ObjectMap<CoopRequest> coopRequests;
     @Getter private transient final Queue<AttackResult> attackResults;
     @Getter private transient final InvokeHandler<CombatInvokeEntry> combatInvokeHandler;
     @Getter private transient final InvokeHandler<AbilityInvokeEntry> abilityInvokeHandler;
     @Getter private transient final InvokeHandler<AbilityInvokeEntry> clientAbilityInitFinishHandler;
 
     @Getter @Setter private long springLastUsed;
-    private HashMap<String, MapMark> mapMarks;  // Getter makes an empty hashmap - maybe do this elsewhere?
+    private HashMap<String, MapMark> mapMarks;
     @Getter @Setter private int nextResinRefresh;
     @Getter @Setter private int resinBuyCount;
     @Getter @Setter private int lastDailyReset;
     @Getter private transient MpSettingType mpSetting = MpSettingType.MpSettingType_MP_SETTING_ENTER_AFTER_APPLY;
-    @Getter private long playerGameTime = 540000; // 9 in-game hours. Present at the start of the game.
+    @Getter private long playerGameTime = 540000;
 
     @Getter private PlayerProgress playerProgress;
     @Getter private Set<Integer> activeQuestTimers;
@@ -209,10 +205,10 @@ public class Player implements PlayerHook, FieldFetch {
     @Getter @Setter private ElementType mainCharacterElement = ElementType.None;
 
     @Getter @Setter private Map<Integer, CityInfoData> cityInfoData;
-    @Getter @Setter private float phlogistonValue; // cityId -> CityData
+    @Getter @Setter private float phlogistonValue;
 
     @Deprecated
-    @SuppressWarnings({"rawtypes", "unchecked"}) // Morphia only!
+    @SuppressWarnings({"rawtypes", "unchecked"})
     public Player() {
         this.inventory = new Inventory(this);
         this.avatars = new AvatarStorage(this);
@@ -293,7 +289,6 @@ public class Player implements PlayerHook, FieldFetch {
         setPhlogistonValue(100);
     }
 
-    // On player creation
     public Player(GameSession session) {
         this();
 
@@ -338,19 +333,11 @@ public class Player implements PlayerHook, FieldFetch {
 
     }
 
-
-    /**
-     * Updates the player's game time if it has changed.
-     *
-     * @param gameTime The new game time.
-     */
     public void updatePlayerGameTime(long gameTime) {
         if (this.playerGameTime == gameTime) return;
 
-        // Update the game time.
         this.playerGameTime = gameTime;
 
-        // If the player is the host of the world, update the game time as well.
         var world = this.getWorld();
         if (world != null && world.getHost() == this) {
             world.changeTime(gameTime);
@@ -362,8 +349,6 @@ public class Player implements PlayerHook, FieldFetch {
     public int getUid() {
         return id;
     }
-    // Method to get the Phlogiston value from the AbilityScalarValueEntry
-    // Method to get the current Phlogiston value
 
     public void setUid(int id) {
         this.id = id;
@@ -380,18 +365,14 @@ public class Player implements PlayerHook, FieldFetch {
         return this.account;
     }
 
-    /**
-     * @return The player's session key.
-     */
     public String getSessionKey() {
         if (this.sessionKey == null) {
-            // Check if the account is null.
+
             if (this.account == null) {
                 this.account = DispatchUtils.getAccountById(this.getAccountId());
             }
             if (this.account == null) return "";
 
-            // Get the session key.
             this.sessionKey = this.getAccount().getSessionKey();
         }
 
@@ -432,7 +413,7 @@ public class Player implements PlayerHook, FieldFetch {
     }
 
     public synchronized void setWeather(int weatherId, ClimateType climate) {
-        // Lookup default climate for this weather
+
         if (climate == ClimateType.CLIMATE_NONE) {
             WeatherData w = GameData.getWeatherDataMap().get(weatherId);
             if (w != null) {
@@ -444,17 +425,10 @@ public class Player implements PlayerHook, FieldFetch {
         this.session.send(new PacketSceneAreaWeatherNotify(this));
     }
 
-    /**
-     * Sets the player's weather and climate.
-     *
-     * @param areaId The area ID.
-     * @param areaType The area type.
-     */
     public void setArea(int areaId, int areaType) {
         this.areaId = areaId;
         this.areaType = areaType;
 
-        // Call the event.
         var event = new PlayerEnterAreaEvent(this);
         event.call();
     }
@@ -483,8 +457,7 @@ public class Player implements PlayerHook, FieldFetch {
         }
         this.realmList.add(realmId);
 
-        // Tell the client the realm is unlocked
-        if (realmId > 3) { // Realms 3 and below are default 'unlocked'
+        if (realmId > 3) {
             this.sendPacket(new PacketHomeModuleUnlockNotify(realmId));
             this.getHome().onClaimReward(this);
         }
@@ -512,10 +485,10 @@ public class Player implements PlayerHook, FieldFetch {
     }
 
     public int getExpeditionLimit() {
-        final int CONST_VALUE_EXPEDITION_INIT_LIMIT = 2;  // TODO: pull from ConstValueExcelConfigData.json
+        final int CONST_VALUE_EXPEDITION_INIT_LIMIT = 2;
         int expeditionLimit = CONST_VALUE_EXPEDITION_INIT_LIMIT;
         var levelMap = GameData.getPlayerLevelDataMap();
-        for (int i = 1; i <= this.getLevel(); i++) {  // 1-indexed
+        for (int i = 1; i <= this.getLevel(); i++) {
             var data = levelMap.get(i);
             if (data != null)
                 expeditionLimit += data.getExpeditionLimitAdd();
@@ -541,11 +514,10 @@ public class Player implements PlayerHook, FieldFetch {
         }
 
         if (this.setProperty(PlayerProperty.PROP_PLAYER_LEVEL, level)) {
-            // Update world level and profile.
+
             this.updateWorldLevel();
             this.updateProfile();
 
-            // Handle open state unlocks from level-up.
             this.getProgressManager().tryUnlockOpenStates();
             this.getQuestManager().queueEvent(QuestContent.QUEST_CONTENT_PLAYER_LEVEL_UP, level);
             this.getQuestManager().queueEvent(QuestCond.QUEST_COND_PLAYER_LEVEL_EQUAL_GREATER, level);
@@ -565,7 +537,7 @@ public class Player implements PlayerHook, FieldFetch {
 
     public boolean setWorldLevel(int level) {
         if (this.setProperty(PlayerProperty.PROP_PLAYER_WORLD_LEVEL, level)) {
-            if (this.world.getHost() == this)  // Don't update World's WL if we are in someone else's world
+            if (this.world.getHost() == this)
                 this.world.setWorldLevel(level);
             this.updateProfile();
             return true;
@@ -585,9 +557,6 @@ public class Player implements PlayerHook, FieldFetch {
         return this.setProperty(PlayerProperty.PROP_PLAYER_FORGE_POINT, value);
     }
 
-    /**
-     * Applies the properties to the player.
-     */
     private void applyProperties() {
         var withQuesting = GAME_OPTIONS.questing.enabled;
 
@@ -606,7 +575,7 @@ public class Player implements PlayerHook, FieldFetch {
         this.setOrFetch(PlayerProperty.PROP_PLAYER_RESIN, 200);
 
         this.setProperty(PlayerProperty.PROP_PHLOGISTON_ENABLE, 1);
-        // The player's current stamina is always their max stamina.
+
         this.setProperty(PlayerProperty.PROP_CUR_PERSIST_STAMINA,
             this.getProperty(PlayerProperty.PROP_MAX_STAMINA));
         this.setProperty(PlayerProperty.PROP_DIVE_CUR_STAMINA,
@@ -615,9 +584,6 @@ public class Player implements PlayerHook, FieldFetch {
             this.getProperty(PlayerProperty.PROP_PHLOGISTON_MAX_VALUE));
     }
 
-    /**
-     * Applies all default scenetags to the player.
-     */
     private void applyStartingSceneTags() {
         GameData.getSceneTagDataMap().values().stream()
                 .filter(sceneTag -> sceneTag.isDefaultValid())
@@ -629,12 +595,6 @@ public class Player implements PlayerHook, FieldFetch {
                 });
     }
 
-    /**
-     * Applies a property to the player if it doesn't exist in the database.
-     *
-     * @param property The property to apply.
-     * @param defaultValue The value to apply if the property doesn't exist.
-     */
     private void setOrFetch(PlayerProperty property, int defaultValue) {
         var exists = this.properties.containsKey(property.getId());
         if (exists) exists = this.getProperty(property) != 0;
@@ -662,9 +622,6 @@ public class Player implements PlayerHook, FieldFetch {
         return this.getProperty(PlayerProperty.PROP_PLAYER_MCOIN);
     }
 
-    // Method to get the value dynamically based on the string key
-
-
     public boolean setCrystals(int crystals) {
         return this.setProperty(PlayerProperty.PROP_PLAYER_MCOIN, crystals);
     }
@@ -686,12 +643,10 @@ public class Player implements PlayerHook, FieldFetch {
         return GAME_OPTIONS.rates.adventureExp;
     }
 
-    // Affected by exp rate
     public void earnExp(int exp) {
         addExpDirectly((int) (exp * getExpModifier()));
     }
 
-    // Directly give player exp
     public void addExpDirectly(int gain) {
         int level = getLevel();
         int exp = getExp();
@@ -704,11 +659,9 @@ public class Player implements PlayerHook, FieldFetch {
             level += 1;
             reqExp = getExpRequired(level);
 
-            // Set level each time to allow level-up specific logic to run.
             this.setLevel(level);
         }
 
-        // Set exp
         this.setProperty(PlayerProperty.PROP_PLAYER_EXP, exp);
     }
 
@@ -743,7 +696,7 @@ public class Player implements PlayerHook, FieldFetch {
 
     public TowerData getTowerData() {
         if (towerData == null) {
-            // because of mistake, null may be saved as storage at some machine, this if can be removed in future
+
             towerData = new TowerData();
         }
         return towerData;
@@ -755,7 +708,7 @@ public class Player implements PlayerHook, FieldFetch {
             if (quest.getTriggerData() != null &&
                 quest.getTriggers().containsKey(enterRegionName) &&
                 region.getGroupId() == quest.getTriggerData().get(enterRegionName).getGroupId()) {
-                // If trigger hasn't been fired yet
+
                 if (!Boolean.TRUE.equals(quest.getTriggers().put(enterRegionName, true))) {
                     this.getSession().send(new PacketServerCondMeetQuestListUpdateNotify());
                     this.getQuestManager().queueEvent(QuestContent.QUEST_CONTENT_TRIGGER_FIRE,
@@ -771,7 +724,7 @@ public class Player implements PlayerHook, FieldFetch {
         this.getQuestManager().forEachActiveQuest(quest -> {
             if (quest.getTriggers().containsKey(leaveRegionName) &&
                 region.getGroupId() == quest.getTriggerData().get(leaveRegionName).getGroupId()) {
-                // If trigger hasn't been fired yet
+
                 if (!Boolean.TRUE.equals(quest.getTriggers().put(leaveRegionName, true))) {
                     this.getSession().send(new PacketServerCondMeetQuestListUpdateNotify());
                     this.getQuestManager().queueEvent(QuestContent.QUEST_CONTENT_TRIGGER_FIRE,
@@ -788,13 +741,6 @@ public class Player implements PlayerHook, FieldFetch {
         return playerProfile;
     }
 
-    /**
-     * Sets a player's property.
-     *
-     * @param prop The property.
-     * @param value The value as a boolean.
-     * @return True if the property was set.
-     */
     public boolean setProperty(PlayerProperty prop, boolean value) {
         return setPropertyWithSanityCheck(prop, value ? 1 : 0, true);
     }
@@ -864,11 +810,11 @@ public class Player implements PlayerHook, FieldFetch {
         remainCalendar.add(Calendar.DATE, moonCardDuration);
         Date theLastDay = remainCalendar.getTime();
         Date now = DateHelper.onlyYearMonthDay(new Date());
-        return (int) ((theLastDay.getTime() - now.getTime()) / (24 * 60 * 60 * 1000)); // By copilot
+        return (int) ((theLastDay.getTime() - now.getTime()) / (24 * 60 * 60 * 1000));
     }
 
     public boolean rechargeMoonCard() {
-        if (this.moonCardDuration > 150) return false;  // Can only stack up to 180 days
+        if (this.moonCardDuration > 150) return false;
         inventory.addItem(new GameItem(203, 300));
         if (!moonCard) {
             moonCard = true;
@@ -955,25 +901,23 @@ public class Player implements PlayerHook, FieldFetch {
         boolean result = getAvatars().addAvatar(avatar);
 
         if (result) {
-            // Add starting weapon
+
             getAvatars().addStartingWeapon(avatar);
 
-            // Done
             if (hasSentLoginPackets()) {
-                // Recalc stats
+
                 avatar.recalcStats();
-                // Packet, show notice on left if the avatar will be added to the team
+
                 sendPacket(new PacketAvatarAddNotify(avatar, addToCurrentTeam && this.getTeamManager().canAddAvatarToCurrentTeam()));
                 if (addToCurrentTeam) {
-                    // If space in team, add
+
                     this.getTeamManager().addAvatarToCurrentTeam(avatar);
                 }
             }
 
-            // Call PlayerObtainAvatarEvent.
             new PlayerObtainAvatarEvent(this.getPlayer(), avatar).call();
         } else {
-            // Failed adding avatar
+
         }
     }
 
@@ -982,7 +926,7 @@ public class Player implements PlayerHook, FieldFetch {
     }
 
     public void addAvatar(int avatarId) {
-        // I dont see why we cant do this lolz
+
         addAvatar(new Avatar(avatarId), true);
     }
 
@@ -999,8 +943,8 @@ public class Player implements PlayerHook, FieldFetch {
     public void addTraceEffect(int traceEffectId) {
         this.getTraceEffectList().add(traceEffectId);
         this.sendPacket(new PacketAvatarGainTraceEffectNotify(traceEffectId));
+        this.save();
     }
-
 
     public int getCostumeFrom(int avatarId) {
         var avatars = this.getAvatars();
@@ -1029,26 +973,13 @@ public class Player implements PlayerHook, FieldFetch {
         this.sendPacket(new PacketSetNameCardRsp(nameCardId));
     }
 
-    /**
-     * Sends a message to this player.
-     *
-     * @param message The message to send.
-     */
     public void dropMessage(Object message) {
         this.getServer().getChatSystem().sendPrivateMessageFromServer(getUid(), message.toString());
     }
 
-    /**
-     * Sends a message to another player.
-     *
-     * @param sender  The sender of the message.
-     * @param message The message to send.
-     */
     public void sendMessage(Player sender, Object message) {
         this.getServer().getChatSystem().sendPrivateMessage(sender, this.getUid(), message.toString());
     }
-
-    // ---------------------MAIL------------------------
 
     public List<Mail> getAllMail() {
         return this.getMailHandler().getMail();
@@ -1271,23 +1202,23 @@ public class Player implements PlayerHook, FieldFetch {
     }
 
     public synchronized void onTick() {
-        // Check ping
-        if (this.getLastPingTime() > System.currentTimeMillis() + 60000) {
+
+        long pingAge = System.currentTimeMillis() - this.getLastPingTime();
+        if (pingAge > 60000) {
             this.getSession().close();
             return;
         }
-        // Check co-op requests
+
         this.getCoopRequests().values().removeIf(this::expireCoopRequest);
-        // Check enter-home requests
+
         this.getEnterHomeRequests().values().removeIf(this::expireEnterHomeRequest);
-        // Handle buff
+
         this.getBuffManager().onTick();
-        // Ping
+
         if (this.getWorld() != null) {
-            // RTT notify - very important to send this often
+
             this.sendPacket(new PacketWorldPlayerRTTNotify(this.getWorld()));
 
-            // Update player locations if in multiplayer every 5 seconds
             long time = System.currentTimeMillis();
             if (this.getWorld().isMultiplayer() && this.getScene() != null && time > nextSendPlayerLocTime) {
                 this.sendPacket(new PacketWorldPlayerLocationNotify(this.getWorld()));
@@ -1296,10 +1227,8 @@ public class Player implements PlayerHook, FieldFetch {
             }
         }
 
-        // Handle daily reset.
         this.doDailyReset();
 
-        // Expedition
         var timeNow = Utils.getCurrentSeconds();
         var needNotify = false;
         for (ExpeditionInfo e : expeditionInfo.values()) {
@@ -1315,23 +1244,19 @@ public class Player implements PlayerHook, FieldFetch {
             this.sendPacket(new PacketAvatarExpeditionDataNotify(this.getExpeditionInfo()));
         }
 
-        // Send updated forge queue data, if necessary.
         this.getForgingManager().sendPlayerForgingUpdate();
 
-        // Recharge resin.
         this.getResinManager().rechargeResin();
 
-        // Satiation
         this.getSatiationManager().reduceSatiation();
 
-        // Home resources
         this.getHome().updateHourlyResources(this);
 
         this.getQuestManager().onTick();
     }
 
     private synchronized void doDailyReset() {
-        // Check if we should execute a daily reset on this tick.
+
         int currentTime = Utils.getCurrentSeconds();
 
         var currentDate = LocalDate.ofInstant(Instant.ofEpochSecond(currentTime), ZoneId.systemDefault());
@@ -1341,26 +1266,18 @@ public class Player implements PlayerHook, FieldFetch {
             return;
         }
 
-        // We should - now execute all the resetting logic we need.
-        // Reset forge points.
         this.setForgePoints(300_000);
 
-        // Reset daily BP missions.
         this.getBattlePassManager().resetDailyMissions();
 
-        // Trigger login BP mission, so players who are online during the reset
-        // don't have to relog to clear the mission.
         this.getBattlePassManager().triggerMission(WatcherTriggerType.TRIGGER_LOGIN);
 
-        // Reset weekly BP missions.
         if (currentDate.getDayOfWeek() == DayOfWeek.MONDAY) {
             this.getBattlePassManager().resetWeeklyMissions();
         }
 
-        // Reset resin-buying count.
         this.setResinBuyCount(0);
 
-        // Done. Update last reset time.
         this.setLastDailyReset(currentTime);
     }
 
@@ -1379,9 +1296,8 @@ public class Player implements PlayerHook, FieldFetch {
         DatabaseHelper.savePlayer(this);
     }
 
-    // Called from tokenrsp
     public void loadFromDatabase() {
-        // Make sure these exist
+
         if (this.getTeamManager() == null) {
             this.teamManager = new TeamManager(this);
         }
@@ -1392,7 +1308,6 @@ public class Player implements PlayerHook, FieldFetch {
             this.getProfile().syncWithCharacter(this);
         }
 
-        // Load from db
         var runner = Grasscutter.getThreadPool();
         runner.submit(() -> this.achievements = Achievements.getByPlayer(this));
 
@@ -1405,36 +1320,21 @@ public class Player implements PlayerHook, FieldFetch {
 
         runner.submit(this::loadBattlePassManager);
 
-        // Wait for all tasks to finish.
         Utils.waitFor(() ->
             this.getAvatars().isLoaded() &&
                 this.getInventory().isLoaded());
 
-        this.getPlayerProgress().setPlayer(this); // Add reference to the player.
+        this.getPlayerProgress().setPlayer(this);
     }
 
     public void onLogin() {
-        // Quest - Commented out because a problem is caused if you log out while this quest is active
-        /*
-        if (getQuestManager().getMainQuestById(351) == null) {
-            GameQuest quest = getQuestManager().addQuest(35104);
-            if (quest != null) {
-                quest.finish();
-            }
-            getQuestManager().addQuest(35101);
 
-            this.setSceneId(3);
-            this.getPos().set(GameConstants.START_POSITION);
-        }
-        */
-
-        // Ensure the player has valid scenetags, allows old accounts to work
         if (this.getSceneTags().isEmpty() || this.getSceneTags() == null) {
             this.applyStartingSceneTags();
         }
 
         if (GameHome.HOME_SCENE_IDS.contains(this.getSceneId())) {
-            this.setSceneId(this.prevScene <= 0 ? 3 : this.prevScene); // if the player in home, make the player go back.
+            this.setSceneId(this.prevScene <= 0 ? 3 : this.prevScene);
             var pos = this.getPrevPosForHome();
             if (pos.equals(Position.ZERO)) {
                 pos = ScriptLoader.getSceneMeta(this.getSceneId()).config.born_pos;
@@ -1442,22 +1342,17 @@ public class Player implements PlayerHook, FieldFetch {
             this.position.set(pos);
         }
 
-        // Create world
         World world = new World(this);
         world.addPlayer(this);
 
-        // Multiplayer setting
         this.setProperty(PlayerProperty.PROP_PLAYER_MP_SETTING_TYPE, this.getMpSetting().getNumber(), false);
         this.setProperty(PlayerProperty.PROP_IS_MP_MODE_AVAILABLE, 1, false);
 
-        // Execute daily reset logic if this is a new day.
         this.doDailyReset();
 
-        // Rewind active quests, and put the player to a rewind position it finds (if any) of an active quest
         getQuestManager().onLogin();
 
-        // Packets
-        session.send(new PacketPlayerDataNotify(this)); // Player data
+        session.send(new PacketPlayerDataNotify(this));
         session.send(new PacketStoreWeightLimitNotify());
         session.send(new PacketPlayerStoreNotify(this));
         session.send(new PacketAvatarDataNotify(this));
@@ -1471,7 +1366,6 @@ public class Player implements PlayerHook, FieldFetch {
         session.send(new PacketCodexDataFullNotify(this));
         session.send(new PacketAllWidgetDataNotify(this));
 
-        //Achievements
         this.achievements.onLogin(this);
 
         session.send(new PacketWidgetGadgetAllDataNotify());
@@ -1483,71 +1377,60 @@ public class Player implements PlayerHook, FieldFetch {
         this.cookingCompoundManager.onPlayerLogin();
         this.teamManager.onPlayerLogin();
 
-        getTodayMoonCard(); // The timer works at 0:0, some users log in after that, use this method to check if they have received a reward today or not. If not, send the reward.
+        getTodayMoonCard();
 
-        // Battle Pass trigger
         this.getBattlePassManager().triggerMission(WatcherTriggerType.TRIGGER_LOGIN);
 
         this.furnitureManager.onLogin();
-        // Home
+
         var homeWorld = this.getServer().getHomeWorldOrCreate(this);
-        homeWorld.setHost(this); // synchronize player object if homeWorld already exists in the server.
+        homeWorld.setHost(this);
         this.home = homeWorld.getHome();
         this.setCurHomeWorld(homeWorld);
         home.onOwnerLogin(this);
-        // Activity
+
         this.activityManager = new ActivityManager(this);
 
-        session.send(new PacketPlayerEnterSceneNotify(this)); // Enter game world
+        session.send(new PacketPlayerEnterSceneNotify(this));
         session.send(new PacketPlayerLevelRewardUpdateNotify(rewardedLevels));
 
-        // First notify packets sent
         this.hasSentLoginPackets = true;
 
-        // Set session state
         session.setState(SessionState.ACTIVE);
 
-        // Call join event.
         PlayerJoinEvent event = new PlayerJoinEvent(this);
         event.call();
-        if (event.isCanceled()) { // If event is not cancelled, continue.
+        if (event.isCanceled()) {
             session.close();
             return;
         }
 
-        // register
         getServer().registerPlayer(this);
     }
 
     public void onLogout() {
         try {
-            // Clear chat history.
+
             this.getServer().getChatSystem().clearHistoryOnLogout(this);
 
-            // stop stamina calculation
             getStaminaManager().stopSustainedStaminaHandler();
 
-            // force to leave the dungeon (inside has a "if")
             this.getServer().getDungeonSystem().exitDungeon(this);
 
-            // Leave world
             if (this.getWorld() != null) {
                 this.getWorld().removePlayer(this);
             }
 
-            // Status stuff
             this.getProfile().syncWithCharacter(this);
 
             this.getCoopRequests().clear();
             this.getEnterHomeRequests().values().forEach(req -> this.expireEnterHomeRequest(req, true));
             this.getEnterHomeRequests().clear();
 
-            // Save to db
             this.save();
             this.getTeamManager().saveAvatars();
             this.getFriendsList().save();
 
-            // Call quit event.
             PlayerQuitEvent event = new PlayerQuitEvent(this);
             event.call();
         } catch (Throwable e) {
@@ -1559,26 +1442,20 @@ public class Player implements PlayerHook, FieldFetch {
     }
 
     public void removeFromServer() {
-        // Remove from server.
-        //Note: DON'T DELETE BY UID,BECAUSE THERE ARE MULTIPLE SAME UID PLAYERS WHEN DUPLICATED LOGIN!
-        //so I decide to delete by object rather than uid
+
         getServer().getPlayers().values().removeIf(player1 -> player1 == this);
     }
 
     public void unfreezeUnlockedScenePoints(int sceneId) {
-        // Unfreeze previously unlocked scene points. For example,
-        // the first weapon mats domain needs some script interaction
-        // to unlock. It needs to be unfrozen when GetScenePointReq
-        // comes in to be interactable again.
+
         GameData.getScenePointEntryMap().values().stream()
                 .filter(scenePointEntry ->
-                        // Note: Only DungeonEntry scene points need to be unfrozen
-                        scenePointEntry.getPointData().getType().equals("DungeonEntry")
-                        // groupLimit says this scene point needs to be unfrozen
+
+                        "DungeonEntry".equals(scenePointEntry.getPointData().getType())
+
                         && scenePointEntry.getPointData().isGroupLimit())
                 .forEach(scenePointEntry -> {
-                        // If this is a previously unlocked scene point,
-                        // send unfreeze packet.
+
                         val pointId = scenePointEntry.getPointData().getId();
                         if (unlockedScenePoints.get(sceneId).contains(pointId)) {
                             this.sendPacket(new PacketUnfreezeGroupLimitNotify(pointId, sceneId));
@@ -1622,19 +1499,9 @@ public class Player implements PlayerHook, FieldFetch {
         }
     }
 
-    /**
-     * Applies a property change to this player.
-     * Checks the value against the property's min and max values for sanity.
-     *
-     * @param prop The property to change.
-     * @param value The new value.
-     * @param sendPacket Whether to send a packet to the client.
-     * @return Whether the property was changed.
-     */
     private boolean setPropertyWithSanityCheck(PlayerProperty prop, int value, boolean sendPacket) {
         var currentValue = this.properties.getOrDefault(prop.getId(), 0);
 
-        // Call PlayerPropertyChangeEvent.
         var event = new PlayerPropertyChangeEvent(this, prop, currentValue, value);
         if (!event.call()) return false;
 
@@ -1646,7 +1513,7 @@ public class Player implements PlayerHook, FieldFetch {
         if (min <= value && value <= max) {
             this.properties.put(prop.getId(), value);
             if (sendPacket) {
-                // Send property change reasons if needed.
+
                 switch (prop) {
                     case PROP_PLAYER_EXP -> this.sendPacket(new PacketPlayerPropChangeReasonNotify(this, prop, currentValue, value,
                         PropChangeReason.PropChangeReason_PROP_CHANGE_PLAYER_ADD_EXP));
@@ -1655,12 +1522,8 @@ public class Player implements PlayerHook, FieldFetch {
                     case PROP_MAX_STAMINA -> this.sendPacket(new PacketPlayerPropChangeReasonNotify(this, prop, currentValue, value,
                         PropChangeReason.PropChangeReason_PROP_CHANGE_CITY_LEVELUP));
 
-                    // TODO: Handle world level changing.
-                    // case PROP_PLAYER_WORLD_LEVEL -> this.sendPacket(new PacketPlayerPropChangeReasonNotify(this, prop, currentValue, value,
-                    //     PropChangeReason.PROP_CHANGE_REASON_MANUAL_ADJUST_WORLD_LEVEL));
                 }
 
-                // Update player with packet.
                 this.sendPacket(new PacketPlayerPropNotify(this, prop));
                 this.sendPacket(new PacketPlayerPropChangeNotify(this, prop, value - currentValue));
             }

@@ -18,10 +18,6 @@ public final class TakePlayerLevelRewardReqOuterClass {
       // @@protoc_insertion_point(interface_extends:TakePlayerLevelRewardReq)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <code>uint32 level = 4;</code>
-     * @return The level.
-     */
     int getLevel();
   }
   /**
@@ -112,10 +108,7 @@ public final class TakePlayerLevelRewardReqOuterClass {
 
     public static final int LEVEL_FIELD_NUMBER = 4;
     private int level_;
-    /**
-     * <code>uint32 level = 4;</code>
-     * @return The level.
-     */
+
     @java.lang.Override
     public int getLevel() {
       return level_;
@@ -428,31 +421,21 @@ public final class TakePlayerLevelRewardReqOuterClass {
       }
 
       private int level_ ;
-      /**
-       * <code>uint32 level = 4;</code>
-       * @return The level.
-       */
+
       @java.lang.Override
       public int getLevel() {
         return level_;
       }
-      /**
-       * <code>uint32 level = 4;</code>
-       * @param value The level to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setLevel(int value) {
-        
+
         level_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <code>uint32 level = 4;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearLevel() {
-        
+
         level_ = 0;
         onChanged();
         return this;
@@ -468,7 +451,6 @@ public final class TakePlayerLevelRewardReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:TakePlayerLevelRewardReq)
     }
@@ -512,7 +494,7 @@ public final class TakePlayerLevelRewardReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_TakePlayerLevelRewardReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_TakePlayerLevelRewardReq_fieldAccessorTable;
 

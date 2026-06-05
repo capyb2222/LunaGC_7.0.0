@@ -18,34 +18,10 @@ public final class RogueAvatarInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:RogueAvatarInfo)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 avatar_id = 4;</code>
-     * @return The avatarId.
-     */
     int getAvatarId();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>bool is_alive = 10;</code>
-     * @return The isAlive.
-     */
     boolean getIsAlive();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>bool is_onstage = 13;</code>
-     * @return The isOnstage.
-     */
     boolean getIsOnstage();
   }
   /**
@@ -142,14 +118,7 @@ public final class RogueAvatarInfoOuterClass {
 
     public static final int AVATAR_ID_FIELD_NUMBER = 4;
     private int avatarId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 avatar_id = 4;</code>
-     * @return The avatarId.
-     */
+
     @java.lang.Override
     public int getAvatarId() {
       return avatarId_;
@@ -157,14 +126,7 @@ public final class RogueAvatarInfoOuterClass {
 
     public static final int IS_ALIVE_FIELD_NUMBER = 10;
     private boolean isAlive_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>bool is_alive = 10;</code>
-     * @return The isAlive.
-     */
+
     @java.lang.Override
     public boolean getIsAlive() {
       return isAlive_;
@@ -172,14 +134,7 @@ public final class RogueAvatarInfoOuterClass {
 
     public static final int IS_ONSTAGE_FIELD_NUMBER = 13;
     private boolean isOnstage_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>bool is_onstage = 13;</code>
-     * @return The isOnstage.
-     */
+
     @java.lang.Override
     public boolean getIsOnstage() {
       return isOnstage_;
@@ -524,129 +479,63 @@ public final class RogueAvatarInfoOuterClass {
       }
 
       private int avatarId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 avatar_id = 4;</code>
-       * @return The avatarId.
-       */
+
       @java.lang.Override
       public int getAvatarId() {
         return avatarId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 avatar_id = 4;</code>
-       * @param value The avatarId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setAvatarId(int value) {
-        
+
         avatarId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 avatar_id = 4;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearAvatarId() {
-        
+
         avatarId_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isAlive_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_alive = 10;</code>
-       * @return The isAlive.
-       */
+
       @java.lang.Override
       public boolean getIsAlive() {
         return isAlive_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_alive = 10;</code>
-       * @param value The isAlive to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setIsAlive(boolean value) {
-        
+
         isAlive_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_alive = 10;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearIsAlive() {
-        
+
         isAlive_ = false;
         onChanged();
         return this;
       }
 
       private boolean isOnstage_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_onstage = 13;</code>
-       * @return The isOnstage.
-       */
+
       @java.lang.Override
       public boolean getIsOnstage() {
         return isOnstage_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_onstage = 13;</code>
-       * @param value The isOnstage to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setIsOnstage(boolean value) {
-        
+
         isOnstage_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_onstage = 13;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearIsOnstage() {
-        
+
         isOnstage_ = false;
         onChanged();
         return this;
@@ -662,7 +551,6 @@ public final class RogueAvatarInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:RogueAvatarInfo)
     }
@@ -706,7 +594,7 @@ public final class RogueAvatarInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_RogueAvatarInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_RogueAvatarInfo_fieldAccessorTable;
 

@@ -111,7 +111,7 @@ public class HomeWorldMPSystem extends BaseGameSystem {
         }
 
         if (owner.getRealmList() == null) {
-            // should never happen
+
             requester.sendPacket(
                     new PacketTryEnterHomeRsp(
                             RetcodeOuterClass.Retcode.RET_HOME_NOT_FOUND_IN_MEM_VALUE, owner.getUid()));
@@ -174,6 +174,7 @@ public class HomeWorldMPSystem extends BaseGameSystem {
                                 .teleportType(PlayerTeleportEvent.TeleportType.INTERNAL)
                                 .build(),
                         !requester.equals(owner)));
+        requester.sendPacket(new PacketEnterScenePeerNotify(requester));
         requester.sendPacket(new PacketTryEnterHomeRsp(owner.getUid()));
 
         requester.setHasSentInitPacketInHome(false);
@@ -187,14 +188,13 @@ public class HomeWorldMPSystem extends BaseGameSystem {
     }
 
     public boolean leaveCoop(Player player, int prevScene, Position pos) {
-        // Make sure everyone's scene is loaded
+
         for (var p : player.getWorld().getPlayers()) {
             if (p.getSceneLoadState() != Player.SceneLoadState.LOADED) {
                 return false;
             }
         }
 
-        // Event
         var event =
                 new PlayerLeaveHomeEvent(
                         player,
@@ -227,34 +227,31 @@ public class HomeWorldMPSystem extends BaseGameSystem {
                         EnterReason.TeamBack,
                         prevScene,
                         pos));
+        player.sendPacket(new PacketEnterScenePeerNotify(player));
 
         return true;
     }
 
     public boolean kickPlayerFromHome(Player owner, int targetUid) {
-        // Make sure player's world is multiplayer and that player is owner
+
         if (!owner.getCurHomeWorld().getHost().equals(owner)) {
             return false;
         }
 
-        // Get victim and sanity checks
         var victim = owner.getServer().getPlayerByUid(targetUid);
         if (victim == null || owner.equals(victim)) {
             return false;
         }
 
-        // Make sure victim's scene has loaded
         if (victim.getSceneLoadState() != Player.SceneLoadState.LOADED) {
             return false;
         }
 
-        // Event
         var event =
                 new PlayerLeaveHomeEvent(
                         victim, owner, victim.getCurHomeWorld().getHome(), PlayerLeaveHomeEvent.Reason.KICKED);
         event.call();
 
-        // Kick
         victim.getPosition().set(victim.getPrevPosForHome());
         var world = new World(victim);
         world.addPlayer(victim, 3);
@@ -278,6 +275,7 @@ public class HomeWorldMPSystem extends BaseGameSystem {
                         EnterReason.TeamKick,
                         victim.getScene().getId(),
                         victim.getPrevPosForHome()));
+        victim.sendPacket(new PacketEnterScenePeerNotify(victim));
         return true;
     }
 }

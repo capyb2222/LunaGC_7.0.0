@@ -172,7 +172,7 @@ public final class CheckUgcUpdateRspOuterClass {
               emu.grasscutter.net.proto.CheckUgcUpdateRspOuterClass.CheckUgcUpdateRsp.class, emu.grasscutter.net.proto.CheckUgcUpdateRspOuterClass.CheckUgcUpdateRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 6;
+    public static final int RETCODE_FIELD_NUMBER = 1;
     private int retcode_;
     /**
      * <code>int32 retcode = 6;</code>
@@ -183,7 +183,7 @@ public final class CheckUgcUpdateRspOuterClass {
       return retcode_;
     }
 
-    public static final int UPDATE_UGC_GUID_LIST_FIELD_NUMBER = 1;
+    public static final int UPDATE_UGC_GUID_LIST_FIELD_NUMBER = 12;
     private com.google.protobuf.Internal.LongList updateUgcGuidList_;
     /**
      * <code>repeated uint64 update_ugc_guid_list = 1;</code>
@@ -253,7 +253,7 @@ public final class CheckUgcUpdateRspOuterClass {
         output.writeUInt64NoTag(updateUgcGuidList_.getLong(i));
       }
       if (retcode_ != 0) {
-        output.writeInt32(6, retcode_);
+        output.writeInt32(1, retcode_);
       }
       if (ugcType_ != emu.grasscutter.net.proto.UgcTypeOuterClass.UgcType.UgcType_NONE.getNumber()) {
         output.writeEnum(9, ugcType_);
@@ -283,7 +283,7 @@ public final class CheckUgcUpdateRspOuterClass {
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(6, retcode_);
+          .computeInt32Size(1, retcode_);
       }
       if (ugcType_ != emu.grasscutter.net.proto.UgcTypeOuterClass.UgcType.UgcType_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream

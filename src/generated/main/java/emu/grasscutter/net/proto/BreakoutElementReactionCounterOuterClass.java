@@ -18,24 +18,8 @@ public final class BreakoutElementReactionCounterOuterClass {
       // @@protoc_insertion_point(interface_extends:BreakoutElementReactionCounter)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 count = 2;</code>
-     * @return The count.
-     */
     int getCount();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 element_reaction = 1;</code>
-     * @return The elementReaction.
-     */
     int getElementReaction();
   }
   /**
@@ -127,14 +111,7 @@ public final class BreakoutElementReactionCounterOuterClass {
 
     public static final int COUNT_FIELD_NUMBER = 2;
     private int count_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 count = 2;</code>
-     * @return The count.
-     */
+
     @java.lang.Override
     public int getCount() {
       return count_;
@@ -142,14 +119,7 @@ public final class BreakoutElementReactionCounterOuterClass {
 
     public static final int ELEMENT_REACTION_FIELD_NUMBER = 1;
     private int elementReaction_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 element_reaction = 1;</code>
-     * @return The elementReaction.
-     */
+
     @java.lang.Override
     public int getElementReaction() {
       return elementReaction_;
@@ -475,86 +445,42 @@ public final class BreakoutElementReactionCounterOuterClass {
       }
 
       private int count_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 count = 2;</code>
-       * @return The count.
-       */
+
       @java.lang.Override
       public int getCount() {
         return count_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 count = 2;</code>
-       * @param value The count to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setCount(int value) {
-        
+
         count_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 count = 2;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearCount() {
-        
+
         count_ = 0;
         onChanged();
         return this;
       }
 
       private int elementReaction_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 element_reaction = 1;</code>
-       * @return The elementReaction.
-       */
+
       @java.lang.Override
       public int getElementReaction() {
         return elementReaction_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 element_reaction = 1;</code>
-       * @param value The elementReaction to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setElementReaction(int value) {
-        
+
         elementReaction_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 element_reaction = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearElementReaction() {
-        
+
         elementReaction_ = 0;
         onChanged();
         return this;
@@ -570,7 +496,6 @@ public final class BreakoutElementReactionCounterOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:BreakoutElementReactionCounter)
     }
@@ -614,7 +539,7 @@ public final class BreakoutElementReactionCounterOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_BreakoutElementReactionCounter_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_BreakoutElementReactionCounter_fieldAccessorTable;
 

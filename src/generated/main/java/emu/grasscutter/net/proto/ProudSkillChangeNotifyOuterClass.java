@@ -18,63 +18,16 @@ public final class ProudSkillChangeNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:ProudSkillChangeNotify)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>repeated uint32 proud_skill_list = 4;</code>
-     * @return A list containing the proudSkillList.
-     */
     java.util.List<java.lang.Integer> getProudSkillListList();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>repeated uint32 proud_skill_list = 4;</code>
-     * @return The count of proudSkillList.
-     */
+
     int getProudSkillListCount();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>repeated uint32 proud_skill_list = 4;</code>
-     * @param index The index of the element to return.
-     * @return The proudSkillList at the given index.
-     */
+
     int getProudSkillList(int index);
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint64 avatar_guid = 15;</code>
-     * @return The avatarGuid.
-     */
     long getAvatarGuid();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 skill_depot_id = 12;</code>
-     * @return The skillDepotId.
-     */
     int getSkillDepotId();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 entity_id = 7;</code>
-     * @return The entityId.
-     */
     int getEntityId();
   }
   /**
@@ -201,39 +154,17 @@ public final class ProudSkillChangeNotifyOuterClass {
 
     public static final int PROUD_SKILL_LIST_FIELD_NUMBER = 4;
     private com.google.protobuf.Internal.IntList proudSkillList_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>repeated uint32 proud_skill_list = 4;</code>
-     * @return A list containing the proudSkillList.
-     */
+
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getProudSkillListList() {
       return proudSkillList_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>repeated uint32 proud_skill_list = 4;</code>
-     * @return The count of proudSkillList.
-     */
+
     public int getProudSkillListCount() {
       return proudSkillList_.size();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>repeated uint32 proud_skill_list = 4;</code>
-     * @param index The index of the element to return.
-     * @return The proudSkillList at the given index.
-     */
+
     public int getProudSkillList(int index) {
       return proudSkillList_.getInt(index);
     }
@@ -241,44 +172,23 @@ public final class ProudSkillChangeNotifyOuterClass {
 
     public static final int AVATAR_GUID_FIELD_NUMBER = 15;
     private long avatarGuid_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint64 avatar_guid = 15;</code>
-     * @return The avatarGuid.
-     */
+
     @java.lang.Override
     public long getAvatarGuid() {
       return avatarGuid_;
     }
 
-    public static final int SKILL_DEPOT_ID_FIELD_NUMBER = 12;
+    public static final int SKILL_DEPOT_ID_FIELD_NUMBER = 10;
     private int skillDepotId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 skill_depot_id = 12;</code>
-     * @return The skillDepotId.
-     */
+
     @java.lang.Override
     public int getSkillDepotId() {
       return skillDepotId_;
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 7;
+    public static final int ENTITY_ID_FIELD_NUMBER = 12;
     private int entityId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 entity_id = 7;</code>
-     * @return The entityId.
-     */
+
     @java.lang.Override
     public int getEntityId() {
       return entityId_;
@@ -307,10 +217,10 @@ public final class ProudSkillChangeNotifyOuterClass {
         output.writeUInt32NoTag(proudSkillList_.getInt(i));
       }
       if (entityId_ != 0) {
-        output.writeUInt32(7, entityId_);
+        output.writeUInt32(12, entityId_);
       }
       if (skillDepotId_ != 0) {
-        output.writeUInt32(12, skillDepotId_);
+        output.writeUInt32(10, skillDepotId_);
       }
       if (avatarGuid_ != 0L) {
         output.writeUInt64(15, avatarGuid_);
@@ -340,11 +250,11 @@ public final class ProudSkillChangeNotifyOuterClass {
       }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, entityId_);
+          .computeUInt32Size(12, entityId_);
       }
       if (skillDepotId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, skillDepotId_);
+          .computeUInt32Size(10, skillDepotId_);
       }
       if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
@@ -679,52 +589,21 @@ public final class ProudSkillChangeNotifyOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>repeated uint32 proud_skill_list = 4;</code>
-       * @return A list containing the proudSkillList.
-       */
+
       public java.util.List<java.lang.Integer>
           getProudSkillListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(proudSkillList_) : proudSkillList_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>repeated uint32 proud_skill_list = 4;</code>
-       * @return The count of proudSkillList.
-       */
+
       public int getProudSkillListCount() {
         return proudSkillList_.size();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>repeated uint32 proud_skill_list = 4;</code>
-       * @param index The index of the element to return.
-       * @return The proudSkillList at the given index.
-       */
+
       public int getProudSkillList(int index) {
         return proudSkillList_.getInt(index);
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>repeated uint32 proud_skill_list = 4;</code>
-       * @param index The index to set the value at.
-       * @param value The proudSkillList to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setProudSkillList(
           int index, int value) {
         ensureProudSkillListIsMutable();
@@ -732,30 +611,14 @@ public final class ProudSkillChangeNotifyOuterClass {
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>repeated uint32 proud_skill_list = 4;</code>
-       * @param value The proudSkillList to add.
-       * @return This builder for chaining.
-       */
+
       public Builder addProudSkillList(int value) {
         ensureProudSkillListIsMutable();
         proudSkillList_.addInt(value);
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>repeated uint32 proud_skill_list = 4;</code>
-       * @param values The proudSkillList to add.
-       * @return This builder for chaining.
-       */
+
       public Builder addAllProudSkillList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureProudSkillListIsMutable();
@@ -764,14 +627,7 @@ public final class ProudSkillChangeNotifyOuterClass {
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>repeated uint32 proud_skill_list = 4;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearProudSkillList() {
         proudSkillList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -780,129 +636,63 @@ public final class ProudSkillChangeNotifyOuterClass {
       }
 
       private long avatarGuid_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint64 avatar_guid = 15;</code>
-       * @return The avatarGuid.
-       */
+
       @java.lang.Override
       public long getAvatarGuid() {
         return avatarGuid_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint64 avatar_guid = 15;</code>
-       * @param value The avatarGuid to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setAvatarGuid(long value) {
-        
+
         avatarGuid_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint64 avatar_guid = 15;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearAvatarGuid() {
-        
+
         avatarGuid_ = 0L;
         onChanged();
         return this;
       }
 
       private int skillDepotId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 skill_depot_id = 12;</code>
-       * @return The skillDepotId.
-       */
+
       @java.lang.Override
       public int getSkillDepotId() {
         return skillDepotId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 skill_depot_id = 12;</code>
-       * @param value The skillDepotId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setSkillDepotId(int value) {
-        
+
         skillDepotId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 skill_depot_id = 12;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearSkillDepotId() {
-        
+
         skillDepotId_ = 0;
         onChanged();
         return this;
       }
 
       private int entityId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 entity_id = 7;</code>
-       * @return The entityId.
-       */
+
       @java.lang.Override
       public int getEntityId() {
         return entityId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 entity_id = 7;</code>
-       * @param value The entityId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 entity_id = 7;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -918,7 +708,6 @@ public final class ProudSkillChangeNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:ProudSkillChangeNotify)
     }
@@ -962,7 +751,7 @@ public final class ProudSkillChangeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ProudSkillChangeNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ProudSkillChangeNotify_fieldAccessorTable;
 

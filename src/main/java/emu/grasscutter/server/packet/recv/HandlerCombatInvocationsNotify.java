@@ -1,11 +1,15 @@
 package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.Grasscutter;
+import emu.grasscutter.game.entity.EntityAvatar;
+import emu.grasscutter.game.entity.EntityClientGadget;
+import emu.grasscutter.game.entity.EntityMonster;
 import emu.grasscutter.game.entity.GameEntity;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.game.props.FightProperty;
 import emu.grasscutter.game.world.Position;
 import emu.grasscutter.net.packet.*;
+import emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType;
 import emu.grasscutter.net.proto.AttackResultOuterClass.AttackResult;
 import emu.grasscutter.net.proto.CombatInvocationsNotifyOuterClass.CombatInvocationsNotify;
 import emu.grasscutter.net.proto.CombatInvokeEntryOuterClass.CombatInvokeEntry;
@@ -30,33 +34,113 @@ public class HandlerCombatInvocationsNotify extends PacketHandler {
     public void handle(GameSession session, byte[] header, byte[] payload) throws Exception {
         CombatInvocationsNotify notif = CombatInvocationsNotify.parseFrom(payload);
         for (CombatInvokeEntry entry : notif.getInvokeListList()) {
-            // Handle combat invoke
+
             switch (entry.getArgumentType()) {
                 case CombatTypeArgument_COMBAT_EVT_BEING_HIT -> {
                     EvtBeingHitInfo hitInfo = EvtBeingHitInfo.parseFrom(entry.getCombatData());
                     AttackResult attackResult = hitInfo.getAttackResult();
                     Player player = session.getPlayer();
 
-                    // Check if the player is invulnerable.
                     if (attackResult.getAttackerId()
                                     != player.getTeamManager().getCurrentAvatarEntity().getId()
                             && player.getAbilityManager().isAbilityInvulnerable()) break;
 
-                    // Handle damage
+                    {
+                        int defenseId = attackResult.getDefenseId();
+                        float computedDamage = attackResult.getDamage();
+                        boolean changed = false;
+
+                        float hexRatio = 0f, normalPct = 0f;
+                        EntityClientGadget attackerGadget = null;
+                        if (computedDamage == 0.0f) {
+                            var attackerEntity = player.getScene().getEntityById(attackResult.getAttackerId());
+                            if (attackerEntity instanceof EntityClientGadget gadget) {
+                                for (var ab : gadget.getInstancedAbilities()) {
+                                    if (ab == null) continue;
+                                    var sp = ab.getAbilitySpecials();
+                                    if (hexRatio == 0f) hexRatio = sp.getFloat("Hexenzirkel_NormalAttack_Ratio");
+                                    if (normalPct == 0f) {
+                                        for (String k : sp.keySet()) {
+                                            if (k.startsWith("NormalAttack_") && k.endsWith("_Damage_Percentage")) {
+                                                normalPct = sp.getFloat(k);
+                                                break;
+                                            }
+                                        }
+                                    }
+                                    if (hexRatio > 0f && normalPct > 0f) break;
+                                }
+                                if (hexRatio > 0f && normalPct > 0f) {
+                                    attackerGadget = gadget;
+                                }
+                            }
+                        }
+
+                        GameEntity nearestMonster = null;
+                        if (defenseId == 0 && (computedDamage > 0f || attackerGadget != null)) {
+                            var avatarPos = player.getTeamManager().getCurrentAvatarEntity().getPosition();
+                            float nearestDist2 = Float.MAX_VALUE;
+                            for (var e : player.getScene().getEntities().values()) {
+                                if (!(e instanceof EntityMonster)) continue;
+                                if (e.getFightProperty(FightProperty.FIGHT_PROP_CUR_HP) <= 0f) continue;
+                                var p = e.getPosition();
+                                float dx = avatarPos.getX() - p.getX();
+                                float dz = avatarPos.getZ() - p.getZ();
+                                float dist2 = dx * dx + dz * dz;
+                                if (dist2 < nearestDist2) {
+                                    nearestDist2 = dist2;
+                                    nearestMonster = e;
+                                }
+                            }
+                            if (nearestMonster != null) {
+                                defenseId = nearestMonster.getId();
+                                changed = true;
+                            }
+                        }
+
+                        if (attackerGadget != null) {
+                            var avatarEntity = player.getTeamManager().getCurrentAvatarEntity();
+                            float atk = avatarEntity.getFightProperty(FightProperty.FIGHT_PROP_CUR_ATTACK);
+                            float anemoDmgBonus = avatarEntity.getFightProperty(FightProperty.FIGHT_PROP_WIND_ADD_HURT);
+                            float critRate = avatarEntity.getFightProperty(FightProperty.FIGHT_PROP_CRITICAL);
+                            float critDmg = avatarEntity.getFightProperty(FightProperty.FIGHT_PROP_CRITICAL_HURT);
+
+                            computedDamage = atk * hexRatio * normalPct * (1f + anemoDmgBonus);
+
+                            if (Math.random() < critRate) {
+                                computedDamage *= (1f + critDmg);
+                            }
+
+                            changed = true;
+
+                        }
+
+                        if (changed) {
+                            AttackResult newResult = attackResult.toBuilder()
+                                .setDefenseId(defenseId)
+                                .setDamage(computedDamage)
+                                .build();
+                            hitInfo = hitInfo.toBuilder().setAttackResult(newResult).build();
+                            entry = entry.toBuilder()
+                                .setCombatData(hitInfo.toByteString())
+                                .setForwardType(ForwardType.ForwardType_FORWARD_TO_ALL)
+                                .build();
+                            attackResult = newResult;
+                        }
+                    }
+
                     player.getAttackResults().add(attackResult);
                     player.getEnergyManager().handleAttackHit(hitInfo);
                 }
                 case CombatTypeArgument_ENTITY_MOVE -> {
-                    // Handle movement
+
                     EntityMoveInfo moveInfo = EntityMoveInfo.parseFrom(entry.getCombatData());
                     GameEntity entity = session.getPlayer().getScene().getEntityById(moveInfo.getEntityId());
                     if (entity != null
                             && session.getPlayer().getSceneLoadState() != Player.SceneLoadState.LOADING) {
-                        // Move player
+
                         MotionInfo motionInfo = moveInfo.getMotionInfo();
                         MotionState motionState = motionInfo.getState();
 
-                        // Call entity move event.
                         EntityMoveEvent event =
                                 new EntityMoveEvent(
                                         entity,
@@ -75,12 +159,6 @@ public class HandlerCombatInvocationsNotify extends PacketHandler {
                                 .getStaminaManager()
                                 .handleCombatInvocationsNotify(session, moveInfo, entity);
 
-                        // TODO: handle MOTION_FIGHT landing which has a different damage factor
-                        // 		Also, for plunge attacks, LAND_SPEED is always -30 and is not useful.
-                        //  	May need the height when starting plunge attack.
-
-                        // MOTION_LAND_SPEED and MOTION_FALL_ON_GROUND arrive in different packets.
-                        // Cache land speed for later use.
                         if (motionState == MotionState.MotionState_MOTION_LAND_SPEED) {
                             cachedLandingSpeed = motionInfo.getSpeed().getY();
                             cachedLandingTimeMillisecond = System.currentTimeMillis();
@@ -93,8 +171,6 @@ public class HandlerCombatInvocationsNotify extends PacketHandler {
                             }
                         }
 
-                        // as long as one of these two packets be forwarded to client, the animation of avatar
-                        // will be interrupted
                         if (motionState == MotionState.MotionState_MOTION_NOTIFY
                                 || motionState == MotionState.MotionState_MOTION_FIGHT) {
                             continue;
@@ -109,7 +185,10 @@ public class HandlerCombatInvocationsNotify extends PacketHandler {
                         entry = entry.toBuilder().setCombatData(paramInfo.toByteString()).build();
                     }
                 }
-                default -> {}
+                default -> {
+                    Grasscutter.getLogger().debug("UnhandledCombatType: type={} typeVal={} dataSize={}",
+                        entry.getArgumentType(), entry.getArgumentTypeValue(), entry.getCombatData().size());
+                }
             }
 
             session.getPlayer().getCombatInvokeHandler().addEntry(entry.getForwardType(), entry);
@@ -120,12 +199,7 @@ public class HandlerCombatInvocationsNotify extends PacketHandler {
         if (session.getPlayer().isInGodMode()) {
             return;
         }
-        // People have reported that after plunge attack (client sends a FIGHT instead of
-        // FALL_ON_GROUND) they will die
-        // 		if they talk to an NPC (this is when the client sends a FALL_ON_GROUND) without jumping
-        // again.
-        // A dirty patch: if not received immediately after MOTION_LAND_SPEED, discard this packet.
-        // 200ms seems to be a reasonable delay.
+
         int maxDelay = 200;
         long actualDelay = System.currentTimeMillis() - cachedLandingTimeMillisecond;
         Grasscutter.getLogger()

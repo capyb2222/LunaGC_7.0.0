@@ -18,64 +18,18 @@ public final class StopServerInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:StopServerInfo)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string content_msg = 4;</code>
-     * @return The contentMsg.
-     */
     java.lang.String getContentMsg();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string content_msg = 4;</code>
-     * @return The bytes for contentMsg.
-     */
+
     com.google.protobuf.ByteString
         getContentMsgBytes();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string url = 3;</code>
-     * @return The url.
-     */
     java.lang.String getUrl();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string url = 3;</code>
-     * @return The bytes for url.
-     */
+
     com.google.protobuf.ByteString
         getUrlBytes();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 stop_end_time = 2;</code>
-     * @return The stopEndTime.
-     */
     int getStopEndTime();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 stop_begin_time = 1;</code>
-     * @return The stopBeginTime.
-     */
     int getStopBeginTime();
   }
   /**
@@ -181,41 +135,27 @@ public final class StopServerInfoOuterClass {
 
     public static final int CONTENT_MSG_FIELD_NUMBER = 4;
     private volatile java.lang.Object contentMsg_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string content_msg = 4;</code>
-     * @return The contentMsg.
-     */
+
     @java.lang.Override
     public java.lang.String getContentMsg() {
       java.lang.Object ref = contentMsg_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         contentMsg_ = s;
         return s;
       }
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string content_msg = 4;</code>
-     * @return The bytes for contentMsg.
-     */
+
     @java.lang.Override
     public com.google.protobuf.ByteString
         getContentMsgBytes() {
       java.lang.Object ref = contentMsg_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         contentMsg_ = b;
@@ -227,41 +167,27 @@ public final class StopServerInfoOuterClass {
 
     public static final int URL_FIELD_NUMBER = 3;
     private volatile java.lang.Object url_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string url = 3;</code>
-     * @return The url.
-     */
+
     @java.lang.Override
     public java.lang.String getUrl() {
       java.lang.Object ref = url_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         url_ = s;
         return s;
       }
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string url = 3;</code>
-     * @return The bytes for url.
-     */
+
     @java.lang.Override
     public com.google.protobuf.ByteString
         getUrlBytes() {
       java.lang.Object ref = url_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         url_ = b;
@@ -273,14 +199,7 @@ public final class StopServerInfoOuterClass {
 
     public static final int STOP_END_TIME_FIELD_NUMBER = 2;
     private int stopEndTime_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 stop_end_time = 2;</code>
-     * @return The stopEndTime.
-     */
+
     @java.lang.Override
     public int getStopEndTime() {
       return stopEndTime_;
@@ -288,14 +207,7 @@ public final class StopServerInfoOuterClass {
 
     public static final int STOP_BEGIN_TIME_FIELD_NUMBER = 1;
     private int stopBeginTime_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 stop_begin_time = 1;</code>
-     * @return The stopBeginTime.
-     */
+
     @java.lang.Override
     public int getStopBeginTime() {
       return stopBeginTime_;
@@ -655,14 +567,7 @@ public final class StopServerInfoOuterClass {
       }
 
       private java.lang.Object contentMsg_ = "";
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string content_msg = 4;</code>
-       * @return The contentMsg.
-       */
+
       public java.lang.String getContentMsg() {
         java.lang.Object ref = contentMsg_;
         if (!(ref instanceof java.lang.String)) {
@@ -675,19 +580,12 @@ public final class StopServerInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string content_msg = 4;</code>
-       * @return The bytes for contentMsg.
-       */
+
       public com.google.protobuf.ByteString
           getContentMsgBytes() {
         java.lang.Object ref = contentMsg_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           contentMsg_ = b;
@@ -696,69 +594,39 @@ public final class StopServerInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string content_msg = 4;</code>
-       * @param value The contentMsg to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setContentMsg(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         contentMsg_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string content_msg = 4;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearContentMsg() {
-        
+
         contentMsg_ = getDefaultInstance().getContentMsg();
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string content_msg = 4;</code>
-       * @param value The bytes for contentMsg to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setContentMsgBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         contentMsg_ = value;
         onChanged();
         return this;
       }
 
       private java.lang.Object url_ = "";
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string url = 3;</code>
-       * @return The url.
-       */
+
       public java.lang.String getUrl() {
         java.lang.Object ref = url_;
         if (!(ref instanceof java.lang.String)) {
@@ -771,19 +639,12 @@ public final class StopServerInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string url = 3;</code>
-       * @return The bytes for url.
-       */
+
       public com.google.protobuf.ByteString
           getUrlBytes() {
         java.lang.Object ref = url_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           url_ = b;
@@ -792,141 +653,74 @@ public final class StopServerInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string url = 3;</code>
-       * @param value The url to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setUrl(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         url_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string url = 3;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearUrl() {
-        
+
         url_ = getDefaultInstance().getUrl();
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string url = 3;</code>
-       * @param value The bytes for url to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setUrlBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         url_ = value;
         onChanged();
         return this;
       }
 
       private int stopEndTime_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 stop_end_time = 2;</code>
-       * @return The stopEndTime.
-       */
+
       @java.lang.Override
       public int getStopEndTime() {
         return stopEndTime_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 stop_end_time = 2;</code>
-       * @param value The stopEndTime to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setStopEndTime(int value) {
-        
+
         stopEndTime_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 stop_end_time = 2;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearStopEndTime() {
-        
+
         stopEndTime_ = 0;
         onChanged();
         return this;
       }
 
       private int stopBeginTime_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 stop_begin_time = 1;</code>
-       * @return The stopBeginTime.
-       */
+
       @java.lang.Override
       public int getStopBeginTime() {
         return stopBeginTime_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 stop_begin_time = 1;</code>
-       * @param value The stopBeginTime to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setStopBeginTime(int value) {
-        
+
         stopBeginTime_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 stop_begin_time = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearStopBeginTime() {
-        
+
         stopBeginTime_ = 0;
         onChanged();
         return this;
@@ -942,7 +736,6 @@ public final class StopServerInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:StopServerInfo)
     }
@@ -986,7 +779,7 @@ public final class StopServerInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_StopServerInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_StopServerInfo_fieldAccessorTable;
 

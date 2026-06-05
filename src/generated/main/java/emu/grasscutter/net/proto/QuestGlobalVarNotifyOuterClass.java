@@ -94,7 +94,7 @@ public final class QuestGlobalVarNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
+            case 50: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 varList_ = new java.util.ArrayList<emu.grasscutter.net.proto.QuestGlobalVarOuterClass.QuestGlobalVar>();
                 mutable_bitField0_ |= 0x00000001;
@@ -138,7 +138,7 @@ public final class QuestGlobalVarNotifyOuterClass {
               emu.grasscutter.net.proto.QuestGlobalVarNotifyOuterClass.QuestGlobalVarNotify.class, emu.grasscutter.net.proto.QuestGlobalVarNotifyOuterClass.QuestGlobalVarNotify.Builder.class);
     }
 
-    public static final int VAR_LIST_FIELD_NUMBER = 1;
+    public static final int VAR_LIST_FIELD_NUMBER = 6;
     private java.util.List<emu.grasscutter.net.proto.QuestGlobalVarOuterClass.QuestGlobalVar> varList_;
     /**
      * <code>repeated .QuestGlobalVar var_list = 1;</code>
@@ -193,7 +193,7 @@ public final class QuestGlobalVarNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < varList_.size(); i++) {
-        output.writeMessage(1, varList_.get(i));
+        output.writeMessage(6, varList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -206,7 +206,7 @@ public final class QuestGlobalVarNotifyOuterClass {
       size = 0;
       for (int i = 0; i < varList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, varList_.get(i));
+          .computeMessageSize(6, varList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

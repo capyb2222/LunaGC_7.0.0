@@ -18,58 +18,19 @@ public final class PolygonRegionSizeOuterClass {
       // @@protoc_insertion_point(interface_extends:PolygonRegionSize)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>repeated .VectorPlane point_list = 3;</code>
-     */
-    java.util.List<emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane> 
+    java.util.List<emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane>
         getPointListList();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>repeated .VectorPlane point_list = 3;</code>
-     */
+
     emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane getPointList(int index);
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>repeated .VectorPlane point_list = 3;</code>
-     */
+
     int getPointListCount();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>repeated .VectorPlane point_list = 3;</code>
-     */
-    java.util.List<? extends emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlaneOrBuilder> 
+
+    java.util.List<? extends emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlaneOrBuilder>
         getPointListOrBuilderList();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>repeated .VectorPlane point_list = 3;</code>
-     */
+
     emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlaneOrBuilder getPointListOrBuilder(
         int index);
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>float height = 9;</code>
-     * @return The height.
-     */
     float getHeight();
   }
   /**
@@ -170,58 +131,28 @@ public final class PolygonRegionSizeOuterClass {
 
     public static final int POINT_LIST_FIELD_NUMBER = 3;
     private java.util.List<emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane> pointList_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>repeated .VectorPlane point_list = 3;</code>
-     */
+
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane> getPointListList() {
       return pointList_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>repeated .VectorPlane point_list = 3;</code>
-     */
+
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlaneOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlaneOrBuilder>
         getPointListOrBuilderList() {
       return pointList_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>repeated .VectorPlane point_list = 3;</code>
-     */
+
     @java.lang.Override
     public int getPointListCount() {
       return pointList_.size();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>repeated .VectorPlane point_list = 3;</code>
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane getPointList(int index) {
       return pointList_.get(index);
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>repeated .VectorPlane point_list = 3;</code>
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlaneOrBuilder getPointListOrBuilder(
         int index) {
@@ -230,14 +161,7 @@ public final class PolygonRegionSizeOuterClass {
 
     public static final int HEIGHT_FIELD_NUMBER = 9;
     private float height_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>float height = 9;</code>
-     * @return The height.
-     */
+
     @java.lang.Override
     public float getHeight() {
       return height_;
@@ -563,7 +487,7 @@ public final class PolygonRegionSizeOuterClass {
               pointListBuilder_ = null;
               pointList_ = other.pointList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              pointListBuilder_ = 
+              pointListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getPointListFieldBuilder() : null;
             } else {
@@ -616,13 +540,6 @@ public final class PolygonRegionSizeOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane, emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane.Builder, emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlaneOrBuilder> pointListBuilder_;
 
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>repeated .VectorPlane point_list = 3;</code>
-       */
       public java.util.List<emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane> getPointListList() {
         if (pointListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(pointList_);
@@ -630,13 +547,7 @@ public final class PolygonRegionSizeOuterClass {
           return pointListBuilder_.getMessageList();
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>repeated .VectorPlane point_list = 3;</code>
-       */
+
       public int getPointListCount() {
         if (pointListBuilder_ == null) {
           return pointList_.size();
@@ -644,13 +555,7 @@ public final class PolygonRegionSizeOuterClass {
           return pointListBuilder_.getCount();
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>repeated .VectorPlane point_list = 3;</code>
-       */
+
       public emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane getPointList(int index) {
         if (pointListBuilder_ == null) {
           return pointList_.get(index);
@@ -658,13 +563,7 @@ public final class PolygonRegionSizeOuterClass {
           return pointListBuilder_.getMessage(index);
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>repeated .VectorPlane point_list = 3;</code>
-       */
+
       public Builder setPointList(
           int index, emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane value) {
         if (pointListBuilder_ == null) {
@@ -679,13 +578,7 @@ public final class PolygonRegionSizeOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>repeated .VectorPlane point_list = 3;</code>
-       */
+
       public Builder setPointList(
           int index, emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane.Builder builderForValue) {
         if (pointListBuilder_ == null) {
@@ -697,13 +590,7 @@ public final class PolygonRegionSizeOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>repeated .VectorPlane point_list = 3;</code>
-       */
+
       public Builder addPointList(emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane value) {
         if (pointListBuilder_ == null) {
           if (value == null) {
@@ -717,13 +604,7 @@ public final class PolygonRegionSizeOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>repeated .VectorPlane point_list = 3;</code>
-       */
+
       public Builder addPointList(
           int index, emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane value) {
         if (pointListBuilder_ == null) {
@@ -738,13 +619,7 @@ public final class PolygonRegionSizeOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>repeated .VectorPlane point_list = 3;</code>
-       */
+
       public Builder addPointList(
           emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane.Builder builderForValue) {
         if (pointListBuilder_ == null) {
@@ -756,13 +631,7 @@ public final class PolygonRegionSizeOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>repeated .VectorPlane point_list = 3;</code>
-       */
+
       public Builder addPointList(
           int index, emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane.Builder builderForValue) {
         if (pointListBuilder_ == null) {
@@ -774,13 +643,7 @@ public final class PolygonRegionSizeOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>repeated .VectorPlane point_list = 3;</code>
-       */
+
       public Builder addAllPointList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane> values) {
         if (pointListBuilder_ == null) {
@@ -793,13 +656,7 @@ public final class PolygonRegionSizeOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>repeated .VectorPlane point_list = 3;</code>
-       */
+
       public Builder clearPointList() {
         if (pointListBuilder_ == null) {
           pointList_ = java.util.Collections.emptyList();
@@ -810,13 +667,7 @@ public final class PolygonRegionSizeOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>repeated .VectorPlane point_list = 3;</code>
-       */
+
       public Builder removePointList(int index) {
         if (pointListBuilder_ == null) {
           ensurePointListIsMutable();
@@ -827,24 +678,12 @@ public final class PolygonRegionSizeOuterClass {
         }
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>repeated .VectorPlane point_list = 3;</code>
-       */
+
       public emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane.Builder getPointListBuilder(
           int index) {
         return getPointListFieldBuilder().getBuilder(index);
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>repeated .VectorPlane point_list = 3;</code>
-       */
+
       public emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlaneOrBuilder getPointListOrBuilder(
           int index) {
         if (pointListBuilder_ == null) {
@@ -852,14 +691,8 @@ public final class PolygonRegionSizeOuterClass {
           return pointListBuilder_.getMessageOrBuilder(index);
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>repeated .VectorPlane point_list = 3;</code>
-       */
-      public java.util.List<? extends emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlaneOrBuilder> 
+
+      public java.util.List<? extends emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlaneOrBuilder>
            getPointListOrBuilderList() {
         if (pointListBuilder_ != null) {
           return pointListBuilder_.getMessageOrBuilderList();
@@ -867,42 +700,24 @@ public final class PolygonRegionSizeOuterClass {
           return java.util.Collections.unmodifiableList(pointList_);
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>repeated .VectorPlane point_list = 3;</code>
-       */
+
       public emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane.Builder addPointListBuilder() {
         return getPointListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane.getDefaultInstance());
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>repeated .VectorPlane point_list = 3;</code>
-       */
+
       public emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane.Builder addPointListBuilder(
           int index) {
         return getPointListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane.getDefaultInstance());
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>repeated .VectorPlane point_list = 3;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane.Builder> 
+
+      public java.util.List<emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane.Builder>
            getPointListBuilderList() {
         return getPointListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane, emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane.Builder, emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlaneOrBuilder> 
+          emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane, emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane.Builder, emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlaneOrBuilder>
           getPointListFieldBuilder() {
         if (pointListBuilder_ == null) {
           pointListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -917,43 +732,21 @@ public final class PolygonRegionSizeOuterClass {
       }
 
       private float height_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>float height = 9;</code>
-       * @return The height.
-       */
+
       @java.lang.Override
       public float getHeight() {
         return height_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>float height = 9;</code>
-       * @param value The height to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setHeight(float value) {
-        
+
         height_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>float height = 9;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearHeight() {
-        
+
         height_ = 0F;
         onChanged();
         return this;
@@ -969,7 +762,6 @@ public final class PolygonRegionSizeOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:PolygonRegionSize)
     }
@@ -1013,7 +805,7 @@ public final class PolygonRegionSizeOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PolygonRegionSize_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PolygonRegionSize_fieldAccessorTable;
 

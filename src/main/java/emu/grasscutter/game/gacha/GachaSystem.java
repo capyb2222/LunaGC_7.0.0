@@ -472,11 +472,30 @@ public class GachaSystem extends BaseGameSystem {
 
         long currentTime = System.currentTimeMillis() / 1000L;
 
+        Grasscutter.getLogger().info("[Gacha] Building GetGachaInfoRsp — {} total banners configured, currentTime={}",
+            getGachaBanners().size(), currentTime);
+
         for (GachaBanner banner : getGachaBanners().values()) {
-            if ((banner.getEndTime() >= currentTime && banner.getBeginTime() <= currentTime)
-                    || (banner.getBannerType() == BannerType.STANDARD)) {
-                proto.addGachaInfoList(banner.toProto(player));
+            boolean timeOk = banner.getEndTime() >= currentTime && banner.getBeginTime() <= currentTime;
+            boolean isStandard = banner.getBannerType() == BannerType.STANDARD;
+            if (timeOk || isStandard) {
+                var info = banner.toProto(player);
+                Grasscutter.getLogger().info("[Gacha]   INCLUDED gachaType={} scheduleId={} prefabPath='{}' previewPrefab='{}' endTime={} isStandard={}",
+                    info.getGachaType(), info.getScheduleId(),
+                    info.getGachaPrefabPath(), info.getGachaPreviewPrefabPath(),
+                    banner.getEndTime(), isStandard);
+                proto.addGachaInfoList(info);
+            } else {
+                Grasscutter.getLogger().info("[Gacha]   SKIPPED gachaType={} scheduleId={} (beginTime={} endTime={} — outside window)",
+                    banner.getGachaType(), banner.getScheduleId(),
+                    banner.getBeginTime(), banner.getEndTime());
             }
+        }
+
+        int count = proto.getGachaInfoListCount();
+        Grasscutter.getLogger().info("[Gacha] Sending {} banner(s) to client.", count);
+        if (count == 0) {
+            Grasscutter.getLogger().warn("[Gacha] WARNING: zero banners in response — client will likely softlock.");
         }
 
         return proto.build();

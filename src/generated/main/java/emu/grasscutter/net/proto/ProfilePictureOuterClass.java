@@ -18,24 +18,8 @@ public final class ProfilePictureOuterClass {
       // @@protoc_insertion_point(interface_extends:ProfilePicture)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 costume_id = 2;</code>
-     * @return The costumeId.
-     */
     int getCostumeId();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 avatar_id = 1;</code>
-     * @return The avatarId.
-     */
     int getAvatarId();
 
     /**
@@ -138,14 +122,7 @@ public final class ProfilePictureOuterClass {
 
     public static final int COSTUME_ID_FIELD_NUMBER = 2;
     private int costumeId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 costume_id = 2;</code>
-     * @return The costumeId.
-     */
+
     @java.lang.Override
     public int getCostumeId() {
       return costumeId_;
@@ -153,14 +130,7 @@ public final class ProfilePictureOuterClass {
 
     public static final int AVATAR_ID_FIELD_NUMBER = 1;
     private int avatarId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 avatar_id = 1;</code>
-     * @return The avatarId.
-     */
+
     @java.lang.Override
     public int getAvatarId() {
       return avatarId_;
@@ -514,86 +484,42 @@ public final class ProfilePictureOuterClass {
       }
 
       private int costumeId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 costume_id = 2;</code>
-       * @return The costumeId.
-       */
+
       @java.lang.Override
       public int getCostumeId() {
         return costumeId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 costume_id = 2;</code>
-       * @param value The costumeId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setCostumeId(int value) {
-        
+
         costumeId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 costume_id = 2;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearCostumeId() {
-        
+
         costumeId_ = 0;
         onChanged();
         return this;
       }
 
       private int avatarId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 avatar_id = 1;</code>
-       * @return The avatarId.
-       */
+
       @java.lang.Override
       public int getAvatarId() {
         return avatarId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 avatar_id = 1;</code>
-       * @param value The avatarId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setAvatarId(int value) {
-        
+
         avatarId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 avatar_id = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearAvatarId() {
-        
+
         avatarId_ = 0;
         onChanged();
         return this;
@@ -614,7 +540,7 @@ public final class ProfilePictureOuterClass {
        * @return This builder for chaining.
        */
       public Builder setProfilePictureId(int value) {
-        
+
         profilePictureId_ = value;
         onChanged();
         return this;
@@ -624,7 +550,7 @@ public final class ProfilePictureOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearProfilePictureId() {
-        
+
         profilePictureId_ = 0;
         onChanged();
         return this;
@@ -640,7 +566,6 @@ public final class ProfilePictureOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:ProfilePicture)
     }
@@ -684,7 +609,7 @@ public final class ProfilePictureOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ProfilePicture_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ProfilePicture_fieldAccessorTable;
 

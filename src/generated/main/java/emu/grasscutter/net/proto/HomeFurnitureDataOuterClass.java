@@ -199,7 +199,7 @@ public final class HomeFurnitureDataOuterClass {
               emu.grasscutter.net.proto.HomeFurnitureDataOuterClass.HomeFurnitureData.class, emu.grasscutter.net.proto.HomeFurnitureDataOuterClass.HomeFurnitureData.Builder.class);
     }
 
-    public static final int GUID_FIELD_NUMBER = 4;
+    public static final int GUID_FIELD_NUMBER = 6;
     private int guid_;
     /**
      * <code>uint32 guid = 4;</code>
@@ -236,7 +236,7 @@ public final class HomeFurnitureDataOuterClass {
       return getSpawnRot();
     }
 
-    public static final int FURNITURE_ID_FIELD_NUMBER = 14;
+    public static final int FURNITURE_ID_FIELD_NUMBER = 7;
     private int furnitureId_;
     /**
      * <code>uint32 furniture_id = 14;</code>
@@ -247,7 +247,7 @@ public final class HomeFurnitureDataOuterClass {
       return furnitureId_;
     }
 
-    public static final int VERSION_FIELD_NUMBER = 1;
+    public static final int VERSION_FIELD_NUMBER = 8;
     private int version_;
     /**
      * <code>uint32 version = 1;</code>
@@ -258,7 +258,7 @@ public final class HomeFurnitureDataOuterClass {
       return version_;
     }
 
-    public static final int PARENT_FURNITURE_INDEX_FIELD_NUMBER = 8;
+    public static final int PARENT_FURNITURE_INDEX_FIELD_NUMBER = 4;
     private int parentFurnitureIndex_;
     /**
      * <code>int32 parent_furniture_index = 8;</code>
@@ -269,7 +269,7 @@ public final class HomeFurnitureDataOuterClass {
       return parentFurnitureIndex_;
     }
 
-    public static final int SPAWN_POS_FIELD_NUMBER = 11;
+    public static final int SPAWN_POS_FIELD_NUMBER = 12;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector spawnPos_;
     /**
      * <code>.Vector spawn_pos = 11;</code>
@@ -310,22 +310,22 @@ public final class HomeFurnitureDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (version_ != 0) {
-        output.writeUInt32(1, version_);
+        output.writeUInt32(8, version_);
       }
       if (guid_ != 0) {
-        output.writeUInt32(4, guid_);
+        output.writeUInt32(6, guid_);
       }
       if (spawnRot_ != null) {
         output.writeMessage(5, getSpawnRot());
       }
       if (parentFurnitureIndex_ != 0) {
-        output.writeInt32(8, parentFurnitureIndex_);
+        output.writeInt32(4, parentFurnitureIndex_);
       }
       if (spawnPos_ != null) {
         output.writeMessage(11, getSpawnPos());
       }
       if (furnitureId_ != 0) {
-        output.writeUInt32(14, furnitureId_);
+        output.writeUInt32(7, furnitureId_);
       }
       unknownFields.writeTo(output);
     }
@@ -338,11 +338,11 @@ public final class HomeFurnitureDataOuterClass {
       size = 0;
       if (version_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, version_);
+          .computeUInt32Size(8, version_);
       }
       if (guid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, guid_);
+          .computeUInt32Size(6, guid_);
       }
       if (spawnRot_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -350,7 +350,7 @@ public final class HomeFurnitureDataOuterClass {
       }
       if (parentFurnitureIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(8, parentFurnitureIndex_);
+          .computeInt32Size(4, parentFurnitureIndex_);
       }
       if (spawnPos_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -358,7 +358,7 @@ public final class HomeFurnitureDataOuterClass {
       }
       if (furnitureId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, furnitureId_);
+          .computeUInt32Size(7, furnitureId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

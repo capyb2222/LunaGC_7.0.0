@@ -18,16 +18,8 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
       // @@protoc_insertion_point(interface_extends:PlayerApplyEnterMpResultReq)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <code>bool is_agreed = 4;</code>
-     * @return The isAgreed.
-     */
     boolean getIsAgreed();
 
-    /**
-     * <code>uint32 apply_uid = 10;</code>
-     * @return The applyUid.
-     */
     int getApplyUid();
   }
   /**
@@ -119,10 +111,7 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
 
     public static final int IS_AGREED_FIELD_NUMBER = 4;
     private boolean isAgreed_;
-    /**
-     * <code>bool is_agreed = 4;</code>
-     * @return The isAgreed.
-     */
+
     @java.lang.Override
     public boolean getIsAgreed() {
       return isAgreed_;
@@ -130,10 +119,7 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
 
     public static final int APPLY_UID_FIELD_NUMBER = 10;
     private int applyUid_;
-    /**
-     * <code>uint32 apply_uid = 10;</code>
-     * @return The applyUid.
-     */
+
     @java.lang.Override
     public int getApplyUid() {
       return applyUid_;
@@ -460,62 +446,42 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
       }
 
       private boolean isAgreed_ ;
-      /**
-       * <code>bool is_agreed = 4;</code>
-       * @return The isAgreed.
-       */
+
       @java.lang.Override
       public boolean getIsAgreed() {
         return isAgreed_;
       }
-      /**
-       * <code>bool is_agreed = 4;</code>
-       * @param value The isAgreed to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setIsAgreed(boolean value) {
-        
+
         isAgreed_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <code>bool is_agreed = 4;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearIsAgreed() {
-        
+
         isAgreed_ = false;
         onChanged();
         return this;
       }
 
       private int applyUid_ ;
-      /**
-       * <code>uint32 apply_uid = 10;</code>
-       * @return The applyUid.
-       */
+
       @java.lang.Override
       public int getApplyUid() {
         return applyUid_;
       }
-      /**
-       * <code>uint32 apply_uid = 10;</code>
-       * @param value The applyUid to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setApplyUid(int value) {
-        
+
         applyUid_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <code>uint32 apply_uid = 10;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearApplyUid() {
-        
+
         applyUid_ = 0;
         onChanged();
         return this;
@@ -531,7 +497,6 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:PlayerApplyEnterMpResultReq)
     }
@@ -575,7 +540,7 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerApplyEnterMpResultReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerApplyEnterMpResultReq_fieldAccessorTable;
 

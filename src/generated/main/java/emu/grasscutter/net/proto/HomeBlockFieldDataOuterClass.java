@@ -215,7 +215,7 @@ public final class HomeBlockFieldDataOuterClass {
               emu.grasscutter.net.proto.HomeBlockFieldDataOuterClass.HomeBlockFieldData.class, emu.grasscutter.net.proto.HomeBlockFieldDataOuterClass.HomeBlockFieldData.Builder.class);
     }
 
-    public static final int SUB_FIELD_LIST_FIELD_NUMBER = 10;
+    public static final int SUB_FIELD_LIST_FIELD_NUMBER = 2;
     private java.util.List<emu.grasscutter.net.proto.HomeBlockSubFieldDataOuterClass.HomeBlockSubFieldData> subFieldList_;
     /**
      * <code>repeated .HomeBlockSubFieldData sub_field_list = 10;</code>
@@ -255,7 +255,7 @@ public final class HomeBlockFieldDataOuterClass {
       return subFieldList_.get(index);
     }
 
-    public static final int FURNITURE_ID_FIELD_NUMBER = 1;
+    public static final int FURNITURE_ID_FIELD_NUMBER = 3;
     private int furnitureId_;
     /**
      * <code>uint32 furniture_id = 1;</code>
@@ -266,7 +266,7 @@ public final class HomeBlockFieldDataOuterClass {
       return furnitureId_;
     }
 
-    public static final int ROT_FIELD_NUMBER = 8;
+    public static final int ROT_FIELD_NUMBER = 6;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector rot_;
     /**
      * <code>.Vector rot = 8;</code>
@@ -292,7 +292,7 @@ public final class HomeBlockFieldDataOuterClass {
       return getRot();
     }
 
-    public static final int POS_FIELD_NUMBER = 15;
+    public static final int POS_FIELD_NUMBER = 7;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
     /**
      * <code>.Vector pos = 15;</code>
@@ -344,13 +344,13 @@ public final class HomeBlockFieldDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (furnitureId_ != 0) {
-        output.writeUInt32(1, furnitureId_);
+        output.writeUInt32(3, furnitureId_);
       }
       if (rot_ != null) {
         output.writeMessage(8, getRot());
       }
       for (int i = 0; i < subFieldList_.size(); i++) {
-        output.writeMessage(10, subFieldList_.get(i));
+        output.writeMessage(2, subFieldList_.get(i));
       }
       if (guid_ != 0) {
         output.writeUInt32(13, guid_);
@@ -369,7 +369,7 @@ public final class HomeBlockFieldDataOuterClass {
       size = 0;
       if (furnitureId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, furnitureId_);
+          .computeUInt32Size(3, furnitureId_);
       }
       if (rot_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -377,7 +377,7 @@ public final class HomeBlockFieldDataOuterClass {
       }
       for (int i = 0; i < subFieldList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, subFieldList_.get(i));
+          .computeMessageSize(2, subFieldList_.get(i));
       }
       if (guid_ != 0) {
         size += com.google.protobuf.CodedOutputStream

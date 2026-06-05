@@ -18,14 +18,6 @@ public final class ClientCollectorDataOuterClass {
       // @@protoc_insertion_point(interface_extends:ClientCollectorData)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 material_id = 4;</code>
-     * @return The materialId.
-     */
     int getMaterialId();
 
     /**
@@ -132,16 +124,9 @@ public final class ClientCollectorDataOuterClass {
               emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData.class, emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData.Builder.class);
     }
 
-    public static final int MATERIAL_ID_FIELD_NUMBER = 4;
+    public static final int MATERIAL_ID_FIELD_NUMBER = 8;
     private int materialId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 material_id = 4;</code>
-     * @return The materialId.
-     */
+
     @java.lang.Override
     public int getMaterialId() {
       return materialId_;
@@ -187,7 +172,7 @@ public final class ClientCollectorDataOuterClass {
         output.writeUInt32(3, bAOBAHLOOFK_);
       }
       if (materialId_ != 0) {
-        output.writeUInt32(4, materialId_);
+        output.writeUInt32(8, materialId_);
       }
       if (fIODBOLAGKN_ != 0) {
         output.writeUInt32(16, fIODBOLAGKN_);
@@ -207,7 +192,7 @@ public final class ClientCollectorDataOuterClass {
       }
       if (materialId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, materialId_);
+          .computeUInt32Size(8, materialId_);
       }
       if (fIODBOLAGKN_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -506,43 +491,21 @@ public final class ClientCollectorDataOuterClass {
       }
 
       private int materialId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 material_id = 4;</code>
-       * @return The materialId.
-       */
+
       @java.lang.Override
       public int getMaterialId() {
         return materialId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 material_id = 4;</code>
-       * @param value The materialId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setMaterialId(int value) {
-        
+
         materialId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 material_id = 4;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearMaterialId() {
-        
+
         materialId_ = 0;
         onChanged();
         return this;
@@ -563,7 +526,7 @@ public final class ClientCollectorDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBAOBAHLOOFK(int value) {
-        
+
         bAOBAHLOOFK_ = value;
         onChanged();
         return this;
@@ -573,7 +536,7 @@ public final class ClientCollectorDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBAOBAHLOOFK() {
-        
+
         bAOBAHLOOFK_ = 0;
         onChanged();
         return this;
@@ -594,7 +557,7 @@ public final class ClientCollectorDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFIODBOLAGKN(int value) {
-        
+
         fIODBOLAGKN_ = value;
         onChanged();
         return this;
@@ -604,7 +567,7 @@ public final class ClientCollectorDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFIODBOLAGKN() {
-        
+
         fIODBOLAGKN_ = 0;
         onChanged();
         return this;
@@ -620,7 +583,6 @@ public final class ClientCollectorDataOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:ClientCollectorData)
     }
@@ -664,7 +626,7 @@ public final class ClientCollectorDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ClientCollectorData_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ClientCollectorData_fieldAccessorTable;
 

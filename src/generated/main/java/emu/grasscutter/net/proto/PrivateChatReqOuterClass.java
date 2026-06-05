@@ -103,13 +103,13 @@ public final class PrivateChatReqOuterClass {
             case 0:
               done = true;
               break;
-            case 26: {
+            case 34: {
               java.lang.String s = input.readStringRequireUtf8();
-              contentCase_ = 3;
+              contentCase_ = 4;
               content_ = s;
               break;
             }
-            case 40: {
+            case 104: {
 
               targetUid_ = input.readUInt32();
               break;
@@ -156,7 +156,7 @@ public final class PrivateChatReqOuterClass {
     public enum ContentCase
         implements com.google.protobuf.Internal.EnumLite,
             com.google.protobuf.AbstractMessage.InternalOneOfEnum {
-      TEXT(3),
+      TEXT(4),
       ICON(7),
       CONTENT_NOT_SET(0);
       private final int value;
@@ -175,7 +175,7 @@ public final class PrivateChatReqOuterClass {
 
       public static ContentCase forNumber(int value) {
         switch (value) {
-          case 3: return TEXT;
+          case 4: return TEXT;
           case 7: return ICON;
           case 0: return CONTENT_NOT_SET;
           default: return null;
@@ -192,13 +192,13 @@ public final class PrivateChatReqOuterClass {
           contentCase_);
     }
 
-    public static final int TEXT_FIELD_NUMBER = 3;
+    public static final int TEXT_FIELD_NUMBER = 4;
     /**
      * <code>string text = 3;</code>
      * @return Whether the text field is set.
      */
     public boolean hasText() {
-      return contentCase_ == 3;
+      return contentCase_ == 4;
     }
     /**
      * <code>string text = 3;</code>
@@ -206,7 +206,7 @@ public final class PrivateChatReqOuterClass {
      */
     public java.lang.String getText() {
       java.lang.Object ref = "";
-      if (contentCase_ == 3) {
+      if (contentCase_ == 4) {
         ref = content_;
       }
       if (ref instanceof java.lang.String) {
@@ -215,7 +215,7 @@ public final class PrivateChatReqOuterClass {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        if (contentCase_ == 3) {
+        if (contentCase_ == 4) {
           content_ = s;
         }
         return s;
@@ -228,14 +228,14 @@ public final class PrivateChatReqOuterClass {
     public com.google.protobuf.ByteString
         getTextBytes() {
       java.lang.Object ref = "";
-      if (contentCase_ == 3) {
+      if (contentCase_ == 4) {
         ref = content_;
       }
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        if (contentCase_ == 3) {
+        if (contentCase_ == 4) {
           content_ = b;
         }
         return b;
@@ -265,7 +265,7 @@ public final class PrivateChatReqOuterClass {
       return 0;
     }
 
-    public static final int TARGET_UID_FIELD_NUMBER = 5;
+    public static final int TARGET_UID_FIELD_NUMBER = 13;
     private int targetUid_;
     /**
      * <code>uint32 target_uid = 5;</code>
@@ -290,11 +290,11 @@ public final class PrivateChatReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (contentCase_ == 3) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 3, content_);
+      if (contentCase_ == 4) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 4, content_);
       }
       if (targetUid_ != 0) {
-        output.writeUInt32(5, targetUid_);
+        output.writeUInt32(13, targetUid_);
       }
       if (contentCase_ == 7) {
         output.writeUInt32(
@@ -309,12 +309,12 @@ public final class PrivateChatReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (contentCase_ == 3) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(3, content_);
+      if (contentCase_ == 4) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(4, content_);
       }
       if (targetUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, targetUid_);
+          .computeUInt32Size(13, targetUid_);
       }
       if (contentCase_ == 7) {
         size += com.google.protobuf.CodedOutputStream
@@ -340,11 +340,11 @@ public final class PrivateChatReqOuterClass {
           != other.getTargetUid()) return false;
       if (!getContentCase().equals(other.getContentCase())) return false;
       switch (contentCase_) {
-        case 3:
+        case 11:
           if (!getText()
               .equals(other.getText())) return false;
           break;
-        case 7:
+        case 2:
           if (getIcon()
               != other.getIcon()) return false;
           break;
@@ -365,11 +365,11 @@ public final class PrivateChatReqOuterClass {
       hash = (37 * hash) + TARGET_UID_FIELD_NUMBER;
       hash = (53 * hash) + getTargetUid();
       switch (contentCase_) {
-        case 3:
+        case 11:
           hash = (37 * hash) + TEXT_FIELD_NUMBER;
           hash = (53 * hash) + getText().hashCode();
           break;
-        case 7:
+        case 2:
           hash = (37 * hash) + ICON_FIELD_NUMBER;
           hash = (53 * hash) + getIcon();
           break;
@@ -543,7 +543,7 @@ public final class PrivateChatReqOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq buildPartial() {
         emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq result = new emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq(this);
-        if (contentCase_ == 3) {
+        if (contentCase_ == 4) {
           result.content_ = content_;
         }
         if (contentCase_ == 7) {
@@ -604,7 +604,7 @@ public final class PrivateChatReqOuterClass {
         }
         switch (other.getContentCase()) {
           case TEXT: {
-            contentCase_ = 3;
+            contentCase_ = 4;
             content_ = other.content_;
             onChanged();
             break;
@@ -667,7 +667,7 @@ public final class PrivateChatReqOuterClass {
        */
       @java.lang.Override
       public boolean hasText() {
-        return contentCase_ == 3;
+        return contentCase_ == 4;
       }
       /**
        * <code>string text = 3;</code>
@@ -676,14 +676,14 @@ public final class PrivateChatReqOuterClass {
       @java.lang.Override
       public java.lang.String getText() {
         java.lang.Object ref = "";
-        if (contentCase_ == 3) {
+        if (contentCase_ == 4) {
           ref = content_;
         }
         if (!(ref instanceof java.lang.String)) {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          if (contentCase_ == 3) {
+          if (contentCase_ == 4) {
             content_ = s;
           }
           return s;
@@ -699,14 +699,14 @@ public final class PrivateChatReqOuterClass {
       public com.google.protobuf.ByteString
           getTextBytes() {
         java.lang.Object ref = "";
-        if (contentCase_ == 3) {
+        if (contentCase_ == 4) {
           ref = content_;
         }
         if (ref instanceof String) {
           com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          if (contentCase_ == 3) {
+          if (contentCase_ == 4) {
             content_ = b;
           }
           return b;
@@ -724,7 +724,7 @@ public final class PrivateChatReqOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  contentCase_ = 3;
+  contentCase_ = 4;
         content_ = value;
         onChanged();
         return this;
@@ -734,7 +734,7 @@ public final class PrivateChatReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearText() {
-        if (contentCase_ == 3) {
+        if (contentCase_ == 4) {
           contentCase_ = 0;
           content_ = null;
           onChanged();
@@ -752,7 +752,7 @@ public final class PrivateChatReqOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        contentCase_ = 3;
+        contentCase_ = 4;
         content_ = value;
         onChanged();
         return this;

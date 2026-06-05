@@ -1,5 +1,6 @@
 package emu.grasscutter.server.packet.recv;
 
+import emu.grasscutter.Grasscutter;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
 import emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry;
@@ -15,7 +16,6 @@ public class HandlerClientAbilityInitFinishNotify extends PacketHandler {
 
         Player player = session.getPlayer();
 
-        // Call skill end in the player's ability manager.
         player.getAbilityManager().onSkillEnd(player);
 
         for (AbilityInvokeEntry entry : notif.getInvokesList()) {

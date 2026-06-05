@@ -12,7 +12,7 @@ import lombok.val;
 @Command(
         label = "setSceneTag",
         aliases = {"tag"},
-        usage = {"<add|remove|unlockall|reset> <sceneTagId>"},
+        usage = {"<add|remove|unlockall|reset|list> [sceneTagId]"},
         permission = "player.setscenetag",
         permissionTargeted = "player.setscenetag.others")
 public final class SetSceneTagCommand implements CommandHandler {
@@ -41,6 +41,9 @@ public final class SetSceneTagCommand implements CommandHandler {
                 return;
             } else if (actionStr.equals("reset") || actionStr.equals("restore")) {
                 resetAllSceneTags(targetPlayer);
+                return;
+            } else if (actionStr.equals("list")) {
+                listSceneTags(sender, targetPlayer);
                 return;
             } else {
                 CommandHandler.sendTranslatedMessage(sender, "commands.execution.argument_error");
@@ -78,7 +81,6 @@ public final class SetSceneTagCommand implements CommandHandler {
     private void unlockAllSceneTags(Player targetPlayer) {
         var allData = sceneTagData.values();
 
-        // Add all SceneTags
         allData.stream()
                 .toList()
                 .forEach(
@@ -89,10 +91,9 @@ public final class SetSceneTagCommand implements CommandHandler {
                             targetPlayer.getSceneTags().get(sceneTag.getSceneId()).add(sceneTag.getId());
                         });
 
-        // Remove default SceneTags, as most are "before" or "locked" states
         allData.stream()
                 .filter(SceneTagData::isDefaultValid)
-                // Only remove for big world as some other scenes only have defaults
+
                 .filter(sceneTag -> sceneTag.getSceneId() == 3)
                 .forEach(
                         sceneTag -> {
@@ -100,11 +101,12 @@ public final class SetSceneTagCommand implements CommandHandler {
                         });
 
         this.setSceneTags(targetPlayer);
+        CommandHandler.sendMessage(targetPlayer, "All scene tags unlocked.");
     }
 
     private void resetAllSceneTags(Player targetPlayer) {
         targetPlayer.getSceneTags().clear();
-        // targetPlayer.applyStartingSceneTags(); // private
+
         GameData.getSceneTagDataMap().values().stream()
                 .filter(SceneTagData::isDefaultValid)
                 .forEach(
@@ -116,9 +118,45 @@ public final class SetSceneTagCommand implements CommandHandler {
                         });
 
         this.setSceneTags(targetPlayer);
+        CommandHandler.sendMessage(targetPlayer, "Scene tags reset to defaults.");
+    }
+
+    private void listSceneTags(Player sender, Player targetPlayer) {
+        int sceneId = targetPlayer.getSceneId();
+        Set<Integer> active = targetPlayer.getSceneTags().getOrDefault(sceneId, Set.of());
+
+        List<SceneTagData> sceneTags = sceneTagData.values().stream()
+                .filter(t -> t.getSceneId() == sceneId)
+                .sorted(Comparator.comparingInt(SceneTagData::getId))
+                .toList();
+
+        if (sceneTags.isEmpty()) {
+            CommandHandler.sendMessage(sender, "No scene tag data for scene " + sceneId + ".");
+            return;
+        }
+
+        StringBuilder sb = new StringBuilder();
+        sb.append("Scene ").append(sceneId).append(" tags (").append(active.size()).append(" active):\n");
+
+        List<SceneTagData> activeList  = sceneTags.stream().filter(t ->  active.contains(t.getId())).toList();
+        List<SceneTagData> inactiveList = sceneTags.stream().filter(t -> !active.contains(t.getId())).toList();
+
+        if (!activeList.isEmpty()) {
+            sb.append("  [ACTIVE]\n");
+            for (SceneTagData t : activeList)
+                sb.append("    ").append(t.getId()).append("  ").append(t.getSceneTagName()).append("\n");
+        }
+        if (!inactiveList.isEmpty()) {
+            sb.append("  [INACTIVE - use /tag add <id> to enable]\n");
+            for (SceneTagData t : inactiveList)
+                sb.append("    ").append(t.getId()).append("  ").append(t.getSceneTagName()).append("\n");
+        }
+
+        CommandHandler.sendMessage(sender, sb.toString());
     }
 
     private void setSceneTags(Player targetPlayer) {
         targetPlayer.sendPacket(new PacketPlayerWorldSceneInfoListNotify(targetPlayer));
+        targetPlayer.save();
     }
 }

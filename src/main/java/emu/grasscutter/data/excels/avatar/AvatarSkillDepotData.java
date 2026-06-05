@@ -25,6 +25,7 @@ public class AvatarSkillDepotData extends GameResource {
     private List<String> extraAbilities;
     private List<Integer> talents;
     private List<InherentProudSkillOpens> inherentProudSkillOpens;
+    private List<SpecialProudSkillOpens> DAEIJGCFNLL;
 
     private String talentStarName;
     private String skillDepotAbilityGroup;
@@ -34,6 +35,7 @@ public class AvatarSkillDepotData extends GameResource {
     private ElementType elementType;
     private IntList abilities;
     private int talentCostItemId;
+    @Getter private IntList questProudSkillGroupIds;
 
     public void setAbilities(AbilityEmbryoEntry info) {
         this.abilities = new IntArrayList(info.getAbilities().length);
@@ -63,6 +65,13 @@ public class AvatarSkillDepotData extends GameResource {
             }
         }
 
+        this.questProudSkillGroupIds = (this.DAEIJGCFNLL == null) ? IntLists.EMPTY_LIST :
+            new IntArrayList(
+                this.DAEIJGCFNLL.stream()
+                    .mapToInt(SpecialProudSkillOpens::getProudSkillGroupId)
+                    .filter(id -> id > 0)
+                    .toArray());
+
         // Get constellation item from GameData
         Optional.ofNullable(this.talents)
                 .map(talents -> talents.get(0))
@@ -80,5 +89,10 @@ public class AvatarSkillDepotData extends GameResource {
     public static class InherentProudSkillOpens {
         private int proudSkillGroupId;
         private int needAvatarPromoteLevel;
+    }
+
+    @Getter
+    public static class SpecialProudSkillOpens {
+        private int proudSkillGroupId;
     }
 }

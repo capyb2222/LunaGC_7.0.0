@@ -235,7 +235,7 @@ public final class ChannellerSlabBuffInfoOuterClass {
               emu.grasscutter.net.proto.ChannellerSlabBuffInfoOuterClass.ChannellerSlabBuffInfo.class, emu.grasscutter.net.proto.ChannellerSlabBuffInfoOuterClass.ChannellerSlabBuffInfo.Builder.class);
     }
 
-    public static final int ASSIST_INFO_LIST_FIELD_NUMBER = 6;
+    public static final int ASSIST_INFO_LIST_FIELD_NUMBER = 13;
     private java.util.List<emu.grasscutter.net.proto.ChannellerSlabAssistInfoOuterClass.ChannellerSlabAssistInfo> assistInfoList_;
     /**
      * <code>repeated .ChannellerSlabAssistInfo assist_info_list = 6;</code>
@@ -301,7 +301,7 @@ public final class ChannellerSlabBuffInfoOuterClass {
       return getABIJPNCCLIG();
     }
 
-    public static final int BUFF_ID_LIST_FIELD_NUMBER = 2;
+    public static final int BUFF_ID_LIST_FIELD_NUMBER = 14;
     private com.google.protobuf.Internal.IntList buffIdList_;
     /**
      * <code>repeated uint32 buff_id_list = 2;</code>
@@ -378,7 +378,7 @@ public final class ChannellerSlabBuffInfoOuterClass {
         output.writeUInt32NoTag(buffIdList_.getInt(i));
       }
       for (int i = 0; i < assistInfoList_.size(); i++) {
-        output.writeMessage(6, assistInfoList_.get(i));
+        output.writeMessage(13, assistInfoList_.get(i));
       }
       if (aBIJPNCCLIG_ != null) {
         output.writeMessage(11, getABIJPNCCLIG());
@@ -411,7 +411,7 @@ public final class ChannellerSlabBuffInfoOuterClass {
       }
       for (int i = 0; i < assistInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, assistInfoList_.get(i));
+          .computeMessageSize(13, assistInfoList_.get(i));
       }
       if (aBIJPNCCLIG_ != null) {
         size += com.google.protobuf.CodedOutputStream

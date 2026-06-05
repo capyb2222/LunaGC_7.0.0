@@ -18,34 +18,10 @@ public final class VehicleMemberOuterClass {
       // @@protoc_insertion_point(interface_extends:VehicleMember)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 uid = 1;</code>
-     * @return The uid.
-     */
     int getUid();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 pos = 3;</code>
-     * @return The pos.
-     */
     int getPos();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint64 avatar_guid = 2;</code>
-     * @return The avatarGuid.
-     */
     long getAvatarGuid();
   }
   /**
@@ -142,14 +118,7 @@ public final class VehicleMemberOuterClass {
 
     public static final int UID_FIELD_NUMBER = 1;
     private int uid_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 uid = 1;</code>
-     * @return The uid.
-     */
+
     @java.lang.Override
     public int getUid() {
       return uid_;
@@ -157,14 +126,7 @@ public final class VehicleMemberOuterClass {
 
     public static final int POS_FIELD_NUMBER = 3;
     private int pos_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 pos = 3;</code>
-     * @return The pos.
-     */
+
     @java.lang.Override
     public int getPos() {
       return pos_;
@@ -172,14 +134,7 @@ public final class VehicleMemberOuterClass {
 
     public static final int AVATAR_GUID_FIELD_NUMBER = 2;
     private long avatarGuid_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint64 avatar_guid = 2;</code>
-     * @return The avatarGuid.
-     */
+
     @java.lang.Override
     public long getAvatarGuid() {
       return avatarGuid_;
@@ -523,129 +478,63 @@ public final class VehicleMemberOuterClass {
       }
 
       private int uid_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 uid = 1;</code>
-       * @return The uid.
-       */
+
       @java.lang.Override
       public int getUid() {
         return uid_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 uid = 1;</code>
-       * @param value The uid to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setUid(int value) {
-        
+
         uid_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 uid = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearUid() {
-        
+
         uid_ = 0;
         onChanged();
         return this;
       }
 
       private int pos_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 pos = 3;</code>
-       * @return The pos.
-       */
+
       @java.lang.Override
       public int getPos() {
         return pos_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 pos = 3;</code>
-       * @param value The pos to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setPos(int value) {
-        
+
         pos_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 pos = 3;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearPos() {
-        
+
         pos_ = 0;
         onChanged();
         return this;
       }
 
       private long avatarGuid_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint64 avatar_guid = 2;</code>
-       * @return The avatarGuid.
-       */
+
       @java.lang.Override
       public long getAvatarGuid() {
         return avatarGuid_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint64 avatar_guid = 2;</code>
-       * @param value The avatarGuid to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setAvatarGuid(long value) {
-        
+
         avatarGuid_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint64 avatar_guid = 2;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearAvatarGuid() {
-        
+
         avatarGuid_ = 0L;
         onChanged();
         return this;
@@ -661,7 +550,6 @@ public final class VehicleMemberOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:VehicleMember)
     }
@@ -705,7 +593,7 @@ public final class VehicleMemberOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_VehicleMember_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_VehicleMember_fieldAccessorTable;
 

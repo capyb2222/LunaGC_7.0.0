@@ -429,7 +429,7 @@ public final class FurnitureMakeRspOuterClass {
         output.writeMessage(5, makeInfoList_.get(i));
       }
       for (int i = 0; i < helpDataList_.size(); i++) {
-        output.writeMessage(6, helpDataList_.get(i));
+        output.writeMessage(1, helpDataList_.get(i));
       }
       if (furnitureMakeSlot_ != null) {
         output.writeMessage(8, getFurnitureMakeSlot());
@@ -456,7 +456,7 @@ public final class FurnitureMakeRspOuterClass {
       }
       for (int i = 0; i < helpDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, helpDataList_.get(i));
+          .computeMessageSize(1, helpDataList_.get(i));
       }
       if (furnitureMakeSlot_ != null) {
         size += com.google.protobuf.CodedOutputStream

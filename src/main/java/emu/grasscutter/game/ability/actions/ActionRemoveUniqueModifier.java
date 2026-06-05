@@ -21,8 +21,6 @@ public final class ActionRemoveUniqueModifier extends AbilityActionHandler {
         }
 
         ability.getModifiers().remove(action.modifierName);
-        Grasscutter.getLogger().info("Unique Modifier {} removed yay", action.modifierName);
- 
         return true;
     }
 }

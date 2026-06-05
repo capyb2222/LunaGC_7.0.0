@@ -21,7 +21,7 @@ public final class SeaLampActivityInfoOuterClass {
     /**
      * <code>repeated .OEIFBAHBIGM KLMLDADAPJA = 7;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.OEIFBAHBIGMOuterClass.OEIFBAHBIGM> 
+    java.util.List<emu.grasscutter.net.proto.OEIFBAHBIGMOuterClass.OEIFBAHBIGM>
         getKLMLDADAPJAList();
     /**
      * <code>repeated .OEIFBAHBIGM KLMLDADAPJA = 7;</code>
@@ -34,7 +34,7 @@ public final class SeaLampActivityInfoOuterClass {
     /**
      * <code>repeated .OEIFBAHBIGM KLMLDADAPJA = 7;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.OEIFBAHBIGMOuterClass.OEIFBAHBIGMOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.OEIFBAHBIGMOuterClass.OEIFBAHBIGMOrBuilder>
         getKLMLDADAPJAOrBuilderList();
     /**
      * <code>repeated .OEIFBAHBIGM KLMLDADAPJA = 7;</code>
@@ -54,14 +54,6 @@ public final class SeaLampActivityInfoOuterClass {
      */
     int getBMLIGIIELDE();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0 
-     * </pre>
-     *
-     * <code>uint32 first_day_start_time = 14;</code>
-     * @return The firstDayStartTime.
-     */
     int getFirstDayStartTime();
 
     /**
@@ -82,14 +74,6 @@ public final class SeaLampActivityInfoOuterClass {
      */
     boolean getGBNHBMOBHNH();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>bool is_content_closed = 11;</code>
-     * @return The isContentClosed.
-     */
     boolean getIsContentClosed();
   }
   /**
@@ -231,7 +215,7 @@ public final class SeaLampActivityInfoOuterClass {
      * <code>repeated .OEIFBAHBIGM KLMLDADAPJA = 7;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.OEIFBAHBIGMOuterClass.OEIFBAHBIGMOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.OEIFBAHBIGMOuterClass.OEIFBAHBIGMOrBuilder>
         getKLMLDADAPJAOrBuilderList() {
       return kLMLDADAPJA_;
     }
@@ -282,14 +266,7 @@ public final class SeaLampActivityInfoOuterClass {
 
     public static final int FIRST_DAY_START_TIME_FIELD_NUMBER = 14;
     private int firstDayStartTime_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0 
-     * </pre>
-     *
-     * <code>uint32 first_day_start_time = 14;</code>
-     * @return The firstDayStartTime.
-     */
+
     @java.lang.Override
     public int getFirstDayStartTime() {
       return firstDayStartTime_;
@@ -328,16 +305,9 @@ public final class SeaLampActivityInfoOuterClass {
       return gBNHBMOBHNH_;
     }
 
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 11;
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 3;
     private boolean isContentClosed_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>bool is_content_closed = 11;</code>
-     * @return The isContentClosed.
-     */
+
     @java.lang.Override
     public boolean getIsContentClosed() {
       return isContentClosed_;
@@ -373,7 +343,7 @@ public final class SeaLampActivityInfoOuterClass {
         output.writeUInt32(9, bMLIGIIELDE_);
       }
       if (isContentClosed_ != false) {
-        output.writeBool(11, isContentClosed_);
+        output.writeBool(3, isContentClosed_);
       }
       if (gBNHBMOBHNH_ != false) {
         output.writeBool(13, gBNHBMOBHNH_);
@@ -412,7 +382,7 @@ public final class SeaLampActivityInfoOuterClass {
       }
       if (isContentClosed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, isContentClosed_);
+          .computeBoolSize(3, isContentClosed_);
       }
       if (gBNHBMOBHNH_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -747,7 +717,7 @@ public final class SeaLampActivityInfoOuterClass {
               kLMLDADAPJABuilder_ = null;
               kLMLDADAPJA_ = other.kLMLDADAPJA_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              kLMLDADAPJABuilder_ = 
+              kLMLDADAPJABuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getKLMLDADAPJAFieldBuilder() : null;
             } else {
@@ -1001,7 +971,7 @@ public final class SeaLampActivityInfoOuterClass {
       /**
        * <code>repeated .OEIFBAHBIGM KLMLDADAPJA = 7;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.OEIFBAHBIGMOuterClass.OEIFBAHBIGMOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.OEIFBAHBIGMOuterClass.OEIFBAHBIGMOrBuilder>
            getKLMLDADAPJAOrBuilderList() {
         if (kLMLDADAPJABuilder_ != null) {
           return kLMLDADAPJABuilder_.getMessageOrBuilderList();
@@ -1027,12 +997,12 @@ public final class SeaLampActivityInfoOuterClass {
       /**
        * <code>repeated .OEIFBAHBIGM KLMLDADAPJA = 7;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.OEIFBAHBIGMOuterClass.OEIFBAHBIGM.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.OEIFBAHBIGMOuterClass.OEIFBAHBIGM.Builder>
            getKLMLDADAPJABuilderList() {
         return getKLMLDADAPJAFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.OEIFBAHBIGMOuterClass.OEIFBAHBIGM, emu.grasscutter.net.proto.OEIFBAHBIGMOuterClass.OEIFBAHBIGM.Builder, emu.grasscutter.net.proto.OEIFBAHBIGMOuterClass.OEIFBAHBIGMOrBuilder> 
+          emu.grasscutter.net.proto.OEIFBAHBIGMOuterClass.OEIFBAHBIGM, emu.grasscutter.net.proto.OEIFBAHBIGMOuterClass.OEIFBAHBIGM.Builder, emu.grasscutter.net.proto.OEIFBAHBIGMOuterClass.OEIFBAHBIGMOrBuilder>
           getKLMLDADAPJAFieldBuilder() {
         if (kLMLDADAPJABuilder_ == null) {
           kLMLDADAPJABuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1061,7 +1031,7 @@ public final class SeaLampActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setJDEDAGMGMOD(int value) {
-        
+
         jDEDAGMGMOD_ = value;
         onChanged();
         return this;
@@ -1071,7 +1041,7 @@ public final class SeaLampActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearJDEDAGMGMOD() {
-        
+
         jDEDAGMGMOD_ = 0;
         onChanged();
         return this;
@@ -1092,7 +1062,7 @@ public final class SeaLampActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBMLIGIIELDE(int value) {
-        
+
         bMLIGIIELDE_ = value;
         onChanged();
         return this;
@@ -1102,50 +1072,28 @@ public final class SeaLampActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBMLIGIIELDE() {
-        
+
         bMLIGIIELDE_ = 0;
         onChanged();
         return this;
       }
 
       private int firstDayStartTime_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0 
-       * </pre>
-       *
-       * <code>uint32 first_day_start_time = 14;</code>
-       * @return The firstDayStartTime.
-       */
+
       @java.lang.Override
       public int getFirstDayStartTime() {
         return firstDayStartTime_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0 
-       * </pre>
-       *
-       * <code>uint32 first_day_start_time = 14;</code>
-       * @param value The firstDayStartTime to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setFirstDayStartTime(int value) {
-        
+
         firstDayStartTime_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0 
-       * </pre>
-       *
-       * <code>uint32 first_day_start_time = 14;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearFirstDayStartTime() {
-        
+
         firstDayStartTime_ = 0;
         onChanged();
         return this;
@@ -1166,7 +1114,7 @@ public final class SeaLampActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOPNDPAKBAEO(int value) {
-        
+
         oPNDPAKBAEO_ = value;
         onChanged();
         return this;
@@ -1176,7 +1124,7 @@ public final class SeaLampActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOPNDPAKBAEO() {
-        
+
         oPNDPAKBAEO_ = 0;
         onChanged();
         return this;
@@ -1197,7 +1145,7 @@ public final class SeaLampActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPAGMGEPPCOC(int value) {
-        
+
         pAGMGEPPCOC_ = value;
         onChanged();
         return this;
@@ -1207,7 +1155,7 @@ public final class SeaLampActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPAGMGEPPCOC() {
-        
+
         pAGMGEPPCOC_ = 0;
         onChanged();
         return this;
@@ -1228,7 +1176,7 @@ public final class SeaLampActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGBNHBMOBHNH(boolean value) {
-        
+
         gBNHBMOBHNH_ = value;
         onChanged();
         return this;
@@ -1238,50 +1186,28 @@ public final class SeaLampActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGBNHBMOBHNH() {
-        
+
         gBNHBMOBHNH_ = false;
         onChanged();
         return this;
       }
 
       private boolean isContentClosed_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_content_closed = 11;</code>
-       * @return The isContentClosed.
-       */
+
       @java.lang.Override
       public boolean getIsContentClosed() {
         return isContentClosed_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_content_closed = 11;</code>
-       * @param value The isContentClosed to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setIsContentClosed(boolean value) {
-        
+
         isContentClosed_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_content_closed = 11;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearIsContentClosed() {
-        
+
         isContentClosed_ = false;
         onChanged();
         return this;
@@ -1297,7 +1223,6 @@ public final class SeaLampActivityInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:SeaLampActivityInfo)
     }
@@ -1341,7 +1266,7 @@ public final class SeaLampActivityInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SeaLampActivityInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SeaLampActivityInfo_fieldAccessorTable;
 

@@ -100,18 +100,18 @@ public final class TowerTeamSelectReqOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-
-              floorId_ = input.readUInt32();
-              break;
-            }
-            case 122: {
+            case 82: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 towerTeamList_ = new java.util.ArrayList<emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam>();
                 mutable_bitField0_ |= 0x00000001;
               }
               towerTeamList_.add(
                   input.readMessage(emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam.parser(), extensionRegistry));
+              break;
+            }
+            case 96: {
+
+              floorId_ = input.readUInt32();
               break;
             }
             default: {
@@ -149,7 +149,7 @@ public final class TowerTeamSelectReqOuterClass {
               emu.grasscutter.net.proto.TowerTeamSelectReqOuterClass.TowerTeamSelectReq.class, emu.grasscutter.net.proto.TowerTeamSelectReqOuterClass.TowerTeamSelectReq.Builder.class);
     }
 
-    public static final int TOWER_TEAM_LIST_FIELD_NUMBER = 15;
+    public static final int TOWER_TEAM_LIST_FIELD_NUMBER = 10;
     private java.util.List<emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam> towerTeamList_;
     /**
      * <code>repeated .TowerTeam tower_team_list = 15;</code>
@@ -189,7 +189,7 @@ public final class TowerTeamSelectReqOuterClass {
       return towerTeamList_.get(index);
     }
 
-    public static final int FLOOR_ID_FIELD_NUMBER = 1;
+    public static final int FLOOR_ID_FIELD_NUMBER = 12;
     private int floorId_;
     /**
      * <code>uint32 floor_id = 1;</code>
@@ -215,10 +215,10 @@ public final class TowerTeamSelectReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (floorId_ != 0) {
-        output.writeUInt32(1, floorId_);
+        output.writeUInt32(12, floorId_);
       }
       for (int i = 0; i < towerTeamList_.size(); i++) {
-        output.writeMessage(15, towerTeamList_.get(i));
+        output.writeMessage(10, towerTeamList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -231,11 +231,11 @@ public final class TowerTeamSelectReqOuterClass {
       size = 0;
       if (floorId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, floorId_);
+          .computeUInt32Size(12, floorId_);
       }
       for (int i = 0; i < towerTeamList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, towerTeamList_.get(i));
+          .computeMessageSize(10, towerTeamList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

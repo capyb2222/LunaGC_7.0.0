@@ -18,14 +18,6 @@ public final class RoguelikeGadgetInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:RoguelikeGadgetInfo)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 cell_id = 4;</code>
-     * @return The cellId.
-     */
     int getCellId();
 
     /**
@@ -145,14 +137,7 @@ public final class RoguelikeGadgetInfoOuterClass {
 
     public static final int CELL_ID_FIELD_NUMBER = 4;
     private int cellId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 cell_id = 4;</code>
-     * @return The cellId.
-     */
+
     @java.lang.Override
     public int getCellId() {
       return cellId_;
@@ -545,43 +530,21 @@ public final class RoguelikeGadgetInfoOuterClass {
       }
 
       private int cellId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 cell_id = 4;</code>
-       * @return The cellId.
-       */
+
       @java.lang.Override
       public int getCellId() {
         return cellId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 cell_id = 4;</code>
-       * @param value The cellId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setCellId(int value) {
-        
+
         cellId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 cell_id = 4;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearCellId() {
-        
+
         cellId_ = 0;
         onChanged();
         return this;
@@ -602,7 +565,7 @@ public final class RoguelikeGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGPLFEMAHFEI(int value) {
-        
+
         gPLFEMAHFEI_ = value;
         onChanged();
         return this;
@@ -612,7 +575,7 @@ public final class RoguelikeGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGPLFEMAHFEI() {
-        
+
         gPLFEMAHFEI_ = 0;
         onChanged();
         return this;
@@ -633,7 +596,7 @@ public final class RoguelikeGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEEEOIJHJIJJ(int value) {
-        
+
         eEEOIJHJIJJ_ = value;
         onChanged();
         return this;
@@ -643,7 +606,7 @@ public final class RoguelikeGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEEEOIJHJIJJ() {
-        
+
         eEEOIJHJIJJ_ = 0;
         onChanged();
         return this;
@@ -664,7 +627,7 @@ public final class RoguelikeGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setJNHLCOFNKKH(int value) {
-        
+
         jNHLCOFNKKH_ = value;
         onChanged();
         return this;
@@ -674,7 +637,7 @@ public final class RoguelikeGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearJNHLCOFNKKH() {
-        
+
         jNHLCOFNKKH_ = 0;
         onChanged();
         return this;
@@ -690,7 +653,6 @@ public final class RoguelikeGadgetInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:RoguelikeGadgetInfo)
     }
@@ -734,7 +696,7 @@ public final class RoguelikeGadgetInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_RoguelikeGadgetInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_RoguelikeGadgetInfo_fieldAccessorTable;
 

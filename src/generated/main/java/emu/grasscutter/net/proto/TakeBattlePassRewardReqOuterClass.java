@@ -94,7 +94,7 @@ public final class TakeBattlePassRewardReqOuterClass {
             case 0:
               done = true;
               break;
-            case 18: {
+            case 90: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 takeOptionList_ = new java.util.ArrayList<emu.grasscutter.net.proto.BattlePassRewardTakeOptionOuterClass.BattlePassRewardTakeOption>();
                 mutable_bitField0_ |= 0x00000001;
@@ -138,7 +138,7 @@ public final class TakeBattlePassRewardReqOuterClass {
               emu.grasscutter.net.proto.TakeBattlePassRewardReqOuterClass.TakeBattlePassRewardReq.class, emu.grasscutter.net.proto.TakeBattlePassRewardReqOuterClass.TakeBattlePassRewardReq.Builder.class);
     }
 
-    public static final int TAKE_OPTION_LIST_FIELD_NUMBER = 2;
+    public static final int TAKE_OPTION_LIST_FIELD_NUMBER = 11;
     private java.util.List<emu.grasscutter.net.proto.BattlePassRewardTakeOptionOuterClass.BattlePassRewardTakeOption> takeOptionList_;
     /**
      * <code>repeated .BattlePassRewardTakeOption take_option_list = 2;</code>
@@ -193,7 +193,7 @@ public final class TakeBattlePassRewardReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < takeOptionList_.size(); i++) {
-        output.writeMessage(2, takeOptionList_.get(i));
+        output.writeMessage(11, takeOptionList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -206,7 +206,7 @@ public final class TakeBattlePassRewardReqOuterClass {
       size = 0;
       for (int i = 0; i < takeOptionList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, takeOptionList_.get(i));
+          .computeMessageSize(11, takeOptionList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

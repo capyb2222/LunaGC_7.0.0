@@ -30,14 +30,6 @@ public final class AiSyncInfoOuterClass {
      */
     boolean getHasPathToTarget();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 entity_id = 3;</code>
-     * @return The entityId.
-     */
     int getEntityId();
   }
   /**
@@ -85,17 +77,17 @@ public final class AiSyncInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 8: {
 
               entityId_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 96: {
 
               hasPathToTarget_ = input.readBool();
               break;
             }
-            case 104: {
+            case 24: {
 
               isSelfKilling_ = input.readBool();
               break;
@@ -132,7 +124,7 @@ public final class AiSyncInfoOuterClass {
               emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo.class, emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo.Builder.class);
     }
 
-    public static final int IS_SELF_KILLING_FIELD_NUMBER = 13;
+    public static final int IS_SELF_KILLING_FIELD_NUMBER = 3;
     private boolean isSelfKilling_;
     /**
      * <code>bool is_self_killing = 13;</code>
@@ -143,7 +135,7 @@ public final class AiSyncInfoOuterClass {
       return isSelfKilling_;
     }
 
-    public static final int HAS_PATH_TO_TARGET_FIELD_NUMBER = 11;
+    public static final int HAS_PATH_TO_TARGET_FIELD_NUMBER = 12;
     private boolean hasPathToTarget_;
     /**
      * <code>bool has_path_to_target = 11;</code>
@@ -154,16 +146,9 @@ public final class AiSyncInfoOuterClass {
       return hasPathToTarget_;
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 3;
+    public static final int ENTITY_ID_FIELD_NUMBER = 1;
     private int entityId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 entity_id = 3;</code>
-     * @return The entityId.
-     */
+
     @java.lang.Override
     public int getEntityId() {
       return entityId_;
@@ -184,13 +169,13 @@ public final class AiSyncInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (entityId_ != 0) {
-        output.writeUInt32(3, entityId_);
+        output.writeUInt32(1, entityId_);
       }
       if (hasPathToTarget_ != false) {
-        output.writeBool(11, hasPathToTarget_);
+        output.writeBool(12, hasPathToTarget_);
       }
       if (isSelfKilling_ != false) {
-        output.writeBool(13, isSelfKilling_);
+        output.writeBool(3, isSelfKilling_);
       }
       unknownFields.writeTo(output);
     }
@@ -203,15 +188,15 @@ public final class AiSyncInfoOuterClass {
       size = 0;
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, entityId_);
+          .computeUInt32Size(1, entityId_);
       }
       if (hasPathToTarget_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, hasPathToTarget_);
+          .computeBoolSize(12, hasPathToTarget_);
       }
       if (isSelfKilling_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, isSelfKilling_);
+          .computeBoolSize(3, isSelfKilling_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -522,7 +507,7 @@ public final class AiSyncInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsSelfKilling(boolean value) {
-        
+
         isSelfKilling_ = value;
         onChanged();
         return this;
@@ -532,7 +517,7 @@ public final class AiSyncInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsSelfKilling() {
-        
+
         isSelfKilling_ = false;
         onChanged();
         return this;
@@ -553,7 +538,7 @@ public final class AiSyncInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHasPathToTarget(boolean value) {
-        
+
         hasPathToTarget_ = value;
         onChanged();
         return this;
@@ -563,50 +548,28 @@ public final class AiSyncInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHasPathToTarget() {
-        
+
         hasPathToTarget_ = false;
         onChanged();
         return this;
       }
 
       private int entityId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 entity_id = 3;</code>
-       * @return The entityId.
-       */
+
       @java.lang.Override
       public int getEntityId() {
         return entityId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 entity_id = 3;</code>
-       * @param value The entityId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 entity_id = 3;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -622,7 +585,6 @@ public final class AiSyncInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:AiSyncInfo)
     }
@@ -666,7 +628,7 @@ public final class AiSyncInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AiSyncInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AiSyncInfo_fieldAccessorTable;
 

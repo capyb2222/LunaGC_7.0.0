@@ -33,6 +33,7 @@ import emu.grasscutter.game.tower.TowerSystem;
 import emu.grasscutter.game.world.World;
 import emu.grasscutter.game.world.WorldDataSystem;
 import emu.grasscutter.net.packet.PacketHandler;
+import emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture;
 import emu.grasscutter.net.proto.SocialDetailOuterClass.SocialDetail;
 import emu.grasscutter.server.dispatch.DispatchClient;
 import emu.grasscutter.server.event.game.ServerTickEvent;
@@ -264,6 +265,21 @@ public final class GameServer extends KcpServer implements Iterable<Player> {
     }
 
     public SocialDetail.Builder getSocialDetailByUid(int id) {
+        if (id == GameConstants.SERVER_CONSOLE_UID) {
+            var serverAccount = GAME_INFO.serverAccount;
+            return SocialDetail.newBuilder()
+                    .setUid(id)
+                    .setProfilePicture(ProfilePicture.newBuilder().setAvatarId(serverAccount.avatarId))
+                    .setNickname(serverAccount.nickName)
+                    .setSignature(serverAccount.signature)
+                    .setLevel(serverAccount.adventureRank)
+                    .setWorldLevel(serverAccount.worldLevel)
+                    .setNameCardId(serverAccount.nameCardId)
+                    .setIsShowAvatar(false)
+                    .setFinishAchievementNum(0)
+                    .setFriendEnterHomeOptionValue(0);
+        }
+
         // Get from online players
         Player player = this.getPlayerByUid(id, true);
 

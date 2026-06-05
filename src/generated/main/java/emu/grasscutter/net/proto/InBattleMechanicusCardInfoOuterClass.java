@@ -24,14 +24,6 @@ public final class InBattleMechanicusCardInfoOuterClass {
      */
     int getOFKDBMGMAAA();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 cost_points = 10;</code>
-     * @return The costPoints.
-     */
     int getCostPoints();
 
     /**
@@ -40,33 +32,10 @@ public final class InBattleMechanicusCardInfoOuterClass {
      */
     int getBBEFENDIHEG();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 card_id = 4;</code>
-     * @return The cardId.
-     */
     int getCardId();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.InBattleMechanicusCardChallengeState challenge_state = 3;</code>
-     * @return The enum numeric value on the wire for challengeState.
-     */
     int getChallengeStateValue();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.InBattleMechanicusCardChallengeState challenge_state = 3;</code>
-     * @return The challengeState.
-     */
+
     emu.grasscutter.net.proto.InBattleMechanicusCardChallengeStateOuterClass.InBattleMechanicusCardChallengeState getChallengeState();
   }
   /**
@@ -186,14 +155,7 @@ public final class InBattleMechanicusCardInfoOuterClass {
 
     public static final int COST_POINTS_FIELD_NUMBER = 10;
     private int costPoints_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 cost_points = 10;</code>
-     * @return The costPoints.
-     */
+
     @java.lang.Override
     public int getCostPoints() {
       return costPoints_;
@@ -212,14 +174,7 @@ public final class InBattleMechanicusCardInfoOuterClass {
 
     public static final int CARD_ID_FIELD_NUMBER = 4;
     private int cardId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 card_id = 4;</code>
-     * @return The cardId.
-     */
+
     @java.lang.Override
     public int getCardId() {
       return cardId_;
@@ -227,25 +182,11 @@ public final class InBattleMechanicusCardInfoOuterClass {
 
     public static final int CHALLENGE_STATE_FIELD_NUMBER = 3;
     private int challengeState_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.InBattleMechanicusCardChallengeState challenge_state = 3;</code>
-     * @return The enum numeric value on the wire for challengeState.
-     */
+
     @java.lang.Override public int getChallengeStateValue() {
       return challengeState_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.InBattleMechanicusCardChallengeState challenge_state = 3;</code>
-     * @return The challengeState.
-     */
+
     @java.lang.Override public emu.grasscutter.net.proto.InBattleMechanicusCardChallengeStateOuterClass.InBattleMechanicusCardChallengeState getChallengeState() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.InBattleMechanicusCardChallengeStateOuterClass.InBattleMechanicusCardChallengeState result = emu.grasscutter.net.proto.InBattleMechanicusCardChallengeStateOuterClass.InBattleMechanicusCardChallengeState.valueOf(challengeState_);
@@ -636,7 +577,7 @@ public final class InBattleMechanicusCardInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOFKDBMGMAAA(int value) {
-        
+
         oFKDBMGMAAA_ = value;
         onChanged();
         return this;
@@ -646,50 +587,28 @@ public final class InBattleMechanicusCardInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOFKDBMGMAAA() {
-        
+
         oFKDBMGMAAA_ = 0;
         onChanged();
         return this;
       }
 
       private int costPoints_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 cost_points = 10;</code>
-       * @return The costPoints.
-       */
+
       @java.lang.Override
       public int getCostPoints() {
         return costPoints_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 cost_points = 10;</code>
-       * @param value The costPoints to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setCostPoints(int value) {
-        
+
         costPoints_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 cost_points = 10;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearCostPoints() {
-        
+
         costPoints_ = 0;
         onChanged();
         return this;
@@ -710,7 +629,7 @@ public final class InBattleMechanicusCardInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBBEFENDIHEG(int value) {
-        
+
         bBEFENDIHEG_ = value;
         onChanged();
         return this;
@@ -720,124 +639,65 @@ public final class InBattleMechanicusCardInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBBEFENDIHEG() {
-        
+
         bBEFENDIHEG_ = 0;
         onChanged();
         return this;
       }
 
       private int cardId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 card_id = 4;</code>
-       * @return The cardId.
-       */
+
       @java.lang.Override
       public int getCardId() {
         return cardId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 card_id = 4;</code>
-       * @param value The cardId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setCardId(int value) {
-        
+
         cardId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 card_id = 4;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearCardId() {
-        
+
         cardId_ = 0;
         onChanged();
         return this;
       }
 
       private int challengeState_ = 0;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.InBattleMechanicusCardChallengeState challenge_state = 3;</code>
-       * @return The enum numeric value on the wire for challengeState.
-       */
+
       @java.lang.Override public int getChallengeStateValue() {
         return challengeState_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.InBattleMechanicusCardChallengeState challenge_state = 3;</code>
-       * @param value The enum numeric value on the wire for challengeState to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setChallengeStateValue(int value) {
-        
+
         challengeState_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.InBattleMechanicusCardChallengeState challenge_state = 3;</code>
-       * @return The challengeState.
-       */
+
       @java.lang.Override
       public emu.grasscutter.net.proto.InBattleMechanicusCardChallengeStateOuterClass.InBattleMechanicusCardChallengeState getChallengeState() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.InBattleMechanicusCardChallengeStateOuterClass.InBattleMechanicusCardChallengeState result = emu.grasscutter.net.proto.InBattleMechanicusCardChallengeStateOuterClass.InBattleMechanicusCardChallengeState.valueOf(challengeState_);
         return result == null ? emu.grasscutter.net.proto.InBattleMechanicusCardChallengeStateOuterClass.InBattleMechanicusCardChallengeState.UNRECOGNIZED : result;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.InBattleMechanicusCardChallengeState challenge_state = 3;</code>
-       * @param value The challengeState to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setChallengeState(emu.grasscutter.net.proto.InBattleMechanicusCardChallengeStateOuterClass.InBattleMechanicusCardChallengeState value) {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         challengeState_ = value.getNumber();
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.InBattleMechanicusCardChallengeState challenge_state = 3;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearChallengeState() {
-        
+
         challengeState_ = 0;
         onChanged();
         return this;
@@ -853,7 +713,6 @@ public final class InBattleMechanicusCardInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:InBattleMechanicusCardInfo)
     }
@@ -897,7 +756,7 @@ public final class InBattleMechanicusCardInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_InBattleMechanicusCardInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_InBattleMechanicusCardInfo_fieldAccessorTable;
 

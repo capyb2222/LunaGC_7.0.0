@@ -86,17 +86,17 @@ public final class ChallengeDataNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
+            case 24: {
 
               challengeIndex_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 88: {
 
               value_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 120: {
 
               paramIndex_ = input.readUInt32();
               break;
@@ -133,7 +133,7 @@ public final class ChallengeDataNotifyOuterClass {
               emu.grasscutter.net.proto.ChallengeDataNotifyOuterClass.ChallengeDataNotify.class, emu.grasscutter.net.proto.ChallengeDataNotifyOuterClass.ChallengeDataNotify.Builder.class);
     }
 
-    public static final int CHALLENGE_INDEX_FIELD_NUMBER = 5;
+    public static final int CHALLENGE_INDEX_FIELD_NUMBER = 3;
     private int challengeIndex_;
     /**
      * <code>uint32 challenge_index = 5;</code>
@@ -144,7 +144,7 @@ public final class ChallengeDataNotifyOuterClass {
       return challengeIndex_;
     }
 
-    public static final int PARAM_INDEX_FIELD_NUMBER = 9;
+    public static final int PARAM_INDEX_FIELD_NUMBER = 15;
     private int paramIndex_;
     /**
      * <code>uint32 param_index = 9;</code>
@@ -155,7 +155,7 @@ public final class ChallengeDataNotifyOuterClass {
       return paramIndex_;
     }
 
-    public static final int VALUE_FIELD_NUMBER = 8;
+    public static final int VALUE_FIELD_NUMBER = 11;
     private int value_;
     /**
      * <code>uint32 value = 8;</code>
@@ -181,13 +181,13 @@ public final class ChallengeDataNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (challengeIndex_ != 0) {
-        output.writeUInt32(5, challengeIndex_);
+        output.writeUInt32(3, challengeIndex_);
       }
       if (value_ != 0) {
-        output.writeUInt32(8, value_);
+        output.writeUInt32(11, value_);
       }
       if (paramIndex_ != 0) {
-        output.writeUInt32(9, paramIndex_);
+        output.writeUInt32(15, paramIndex_);
       }
       unknownFields.writeTo(output);
     }
@@ -200,15 +200,15 @@ public final class ChallengeDataNotifyOuterClass {
       size = 0;
       if (challengeIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, challengeIndex_);
+          .computeUInt32Size(3, challengeIndex_);
       }
       if (value_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, value_);
+          .computeUInt32Size(11, value_);
       }
       if (paramIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, paramIndex_);
+          .computeUInt32Size(15, paramIndex_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

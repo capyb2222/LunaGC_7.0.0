@@ -560,7 +560,7 @@ public final class CombineRspOuterClass {
       return avatarGuid_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 6;
+    public static final int RETCODE_FIELD_NUMBER = 14;
     private int retcode_;
     /**
      * <code>int32 retcode = 6;</code>
@@ -611,7 +611,7 @@ public final class CombineRspOuterClass {
       return resultItemList_.get(index);
     }
 
-    public static final int COST_ITEM_LIST_FIELD_NUMBER = 4;
+    public static final int COST_ITEM_LIST_FIELD_NUMBER = 7;
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> costItemList_;
     /**
      * <code>repeated .ItemParam cost_item_list = 4;</code>
@@ -669,13 +669,13 @@ public final class CombineRspOuterClass {
         output.writeUInt32(3, combineCount_);
       }
       for (int i = 0; i < costItemList_.size(); i++) {
-        output.writeMessage(4, costItemList_.get(i));
+        output.writeMessage(7, costItemList_.get(i));
       }
       if (avatarGuid_ != 0L) {
         output.writeUInt64(5, avatarGuid_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(6, retcode_);
+        output.writeInt32(14, retcode_);
       }
       if (combineId_ != 0) {
         output.writeUInt32(7, combineId_);
@@ -710,7 +710,7 @@ public final class CombineRspOuterClass {
       }
       for (int i = 0; i < costItemList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, costItemList_.get(i));
+          .computeMessageSize(7, costItemList_.get(i));
       }
       if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
@@ -718,7 +718,7 @@ public final class CombineRspOuterClass {
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(6, retcode_);
+          .computeInt32Size(14, retcode_);
       }
       if (combineId_ != 0) {
         size += com.google.protobuf.CodedOutputStream

@@ -18,14 +18,6 @@ public final class SeeMonsterReqOuterClass {
       // @@protoc_insertion_point(interface_extends:SeeMonsterReq)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>uint32 monster_id = 12;</code>
-     * @return The monsterId.
-     */
     int getMonsterId();
   }
   /**
@@ -116,14 +108,7 @@ public final class SeeMonsterReqOuterClass {
 
     public static final int MONSTER_ID_FIELD_NUMBER = 12;
     private int monsterId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>uint32 monster_id = 12;</code>
-     * @return The monsterId.
-     */
+
     @java.lang.Override
     public int getMonsterId() {
       return monsterId_;
@@ -436,43 +421,21 @@ public final class SeeMonsterReqOuterClass {
       }
 
       private int monsterId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>uint32 monster_id = 12;</code>
-       * @return The monsterId.
-       */
+
       @java.lang.Override
       public int getMonsterId() {
         return monsterId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>uint32 monster_id = 12;</code>
-       * @param value The monsterId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setMonsterId(int value) {
-        
+
         monsterId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>uint32 monster_id = 12;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearMonsterId() {
-        
+
         monsterId_ = 0;
         onChanged();
         return this;
@@ -488,7 +451,6 @@ public final class SeeMonsterReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:SeeMonsterReq)
     }
@@ -532,7 +494,7 @@ public final class SeeMonsterReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SeeMonsterReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SeeMonsterReq_fieldAccessorTable;
 

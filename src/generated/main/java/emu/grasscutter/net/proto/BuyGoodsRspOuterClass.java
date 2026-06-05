@@ -127,22 +127,26 @@ public final class BuyGoodsRspOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-
-              retcode_ = input.readInt32();
-              break;
-            }
-            case 24: {
-
-              buyCount_ = input.readUInt32();
-              break;
-            }
-            case 32: {
+            case 104: {
 
               shopType_ = input.readUInt32();
               break;
             }
-            case 74: {
+            case 58: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                goodsList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              goodsList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods.parser(), extensionRegistry));
+              break;
+            }
+            case 24: {
+
+              retcode_ = input.readInt32();
+              break;
+            }
+            case 18: {
               emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods.Builder subBuilder = null;
               if (goods_ != null) {
                 subBuilder = goods_.toBuilder();
@@ -155,13 +159,9 @@ public final class BuyGoodsRspOuterClass {
 
               break;
             }
-            case 122: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                goodsList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              goodsList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods.parser(), extensionRegistry));
+            case 88: {
+
+              buyCount_ = input.readUInt32();
               break;
             }
             default: {
@@ -199,7 +199,7 @@ public final class BuyGoodsRspOuterClass {
               emu.grasscutter.net.proto.BuyGoodsRspOuterClass.BuyGoodsRsp.class, emu.grasscutter.net.proto.BuyGoodsRspOuterClass.BuyGoodsRsp.Builder.class);
     }
 
-    public static final int BUY_COUNT_FIELD_NUMBER = 3;
+    public static final int BUY_COUNT_FIELD_NUMBER = 11;
     private int buyCount_;
     /**
      * <code>uint32 buy_count = 3;</code>
@@ -210,7 +210,7 @@ public final class BuyGoodsRspOuterClass {
       return buyCount_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 1;
+    public static final int RETCODE_FIELD_NUMBER = 3;
     private int retcode_;
     /**
      * <code>int32 retcode = 1;</code>
@@ -221,7 +221,7 @@ public final class BuyGoodsRspOuterClass {
       return retcode_;
     }
 
-    public static final int GOODS_FIELD_NUMBER = 9;
+    public static final int GOODS_FIELD_NUMBER = 2;
     private emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods goods_;
     /**
      * <code>.ShopGoods goods = 9;</code>
@@ -247,7 +247,7 @@ public final class BuyGoodsRspOuterClass {
       return getGoods();
     }
 
-    public static final int SHOP_TYPE_FIELD_NUMBER = 4;
+    public static final int SHOP_TYPE_FIELD_NUMBER = 13;
     private int shopType_;
     /**
      * <code>uint32 shop_type = 4;</code>
@@ -258,7 +258,7 @@ public final class BuyGoodsRspOuterClass {
       return shopType_;
     }
 
-    public static final int GOODS_LIST_FIELD_NUMBER = 15;
+    public static final int GOODS_LIST_FIELD_NUMBER = 7;
     private java.util.List<emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods> goodsList_;
     /**
      * <code>repeated .ShopGoods goods_list = 15;</code>
@@ -312,20 +312,20 @@ public final class BuyGoodsRspOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (retcode_ != 0) {
-        output.writeInt32(1, retcode_);
-      }
-      if (buyCount_ != 0) {
-        output.writeUInt32(3, buyCount_);
-      }
       if (shopType_ != 0) {
-        output.writeUInt32(4, shopType_);
-      }
-      if (goods_ != null) {
-        output.writeMessage(9, getGoods());
+        output.writeUInt32(13, shopType_);
       }
       for (int i = 0; i < goodsList_.size(); i++) {
-        output.writeMessage(15, goodsList_.get(i));
+        output.writeMessage(7, goodsList_.get(i));
+      }
+      if (retcode_ != 0) {
+        output.writeInt32(3, retcode_);
+      }
+      if (goods_ != null) {
+        output.writeMessage(2, getGoods());
+      }
+      if (buyCount_ != 0) {
+        output.writeUInt32(11, buyCount_);
       }
       unknownFields.writeTo(output);
     }
@@ -336,25 +336,25 @@ public final class BuyGoodsRspOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (retcode_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(1, retcode_);
-      }
-      if (buyCount_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, buyCount_);
-      }
       if (shopType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, shopType_);
-      }
-      if (goods_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, getGoods());
+          .computeUInt32Size(13, shopType_);
       }
       for (int i = 0; i < goodsList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, goodsList_.get(i));
+          .computeMessageSize(7, goodsList_.get(i));
+      }
+      if (retcode_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt32Size(3, retcode_);
+      }
+      if (goods_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(2, getGoods());
+      }
+      if (buyCount_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(11, buyCount_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -11,9 +11,8 @@ public class PacketEnterSceneDoneRsp extends BasePacket {
 
         int maskedToken = (player.getEnterSceneToken() ^ 49009) - 34315;
 
-        EnterSceneDoneRsp p =
-                EnterSceneDoneRsp.newBuilder().setEnterSceneToken(maskedToken).build();
-
-        this.setData(p);
+        this.setData(EnterSceneDoneRsp.newBuilder()
+            .setEnterSceneToken(maskedToken)
+            .build());
     }
 }

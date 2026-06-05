@@ -128,7 +128,7 @@ public final class CookRecipeDataNotifyOuterClass {
               emu.grasscutter.net.proto.CookRecipeDataNotifyOuterClass.CookRecipeDataNotify.class, emu.grasscutter.net.proto.CookRecipeDataNotifyOuterClass.CookRecipeDataNotify.Builder.class);
     }
 
-    public static final int RECIPE_DATA_FIELD_NUMBER = 1;
+    public static final int RECIPE_DATA_FIELD_NUMBER = 5;
     private emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData recipeData_;
     /**
      * <code>.CookRecipeData recipe_data = 1;</code>

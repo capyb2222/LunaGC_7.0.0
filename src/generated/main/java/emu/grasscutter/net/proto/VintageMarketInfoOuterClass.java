@@ -769,7 +769,7 @@ public final class VintageMarketInfoOuterClass {
     }
     private int nNPCKHPIBECMemoizedSerializedSize = -1;
 
-    public static final int OPEN_STORE_LIST_FIELD_NUMBER = 10;
+    public static final int OPEN_STORE_LIST_FIELD_NUMBER = 5;
     private java.util.List<emu.grasscutter.net.proto.VintageMarketStoreInfoOuterClass.VintageMarketStoreInfo> openStoreList_;
     /**
      * <code>repeated .VintageMarketStoreInfo open_store_list = 10;</code>
@@ -848,7 +848,7 @@ public final class VintageMarketInfoOuterClass {
       return iEPLKANKPPD_;
     }
 
-    public static final int DEAL_INFO_FIELD_NUMBER = 6;
+    public static final int DEAL_INFO_FIELD_NUMBER = 8;
     private emu.grasscutter.net.proto.VintageMarketDealInfoOuterClass.VintageMarketDealInfo dealInfo_;
     /**
      * <code>.VintageMarketDealInfo deal_info = 6;</code>
@@ -1083,7 +1083,7 @@ public final class VintageMarketInfoOuterClass {
         output.writeUInt32(9, mHBEIKFONOC_);
       }
       for (int i = 0; i < openStoreList_.size(); i++) {
-        output.writeMessage(10, openStoreList_.get(i));
+        output.writeMessage(5, openStoreList_.get(i));
       }
       if (gLAMFOFAGHB_ != false) {
         output.writeBool(11, gLAMFOFAGHB_);
@@ -1206,7 +1206,7 @@ public final class VintageMarketInfoOuterClass {
       }
       for (int i = 0; i < openStoreList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, openStoreList_.get(i));
+          .computeMessageSize(5, openStoreList_.get(i));
       }
       if (gLAMFOFAGHB_ != false) {
         size += com.google.protobuf.CodedOutputStream

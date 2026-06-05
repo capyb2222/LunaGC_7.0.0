@@ -99,15 +99,15 @@ public final class ExecuteGadgetLuaReqOuterClass {
             }
             case 40: {
 
-              param3_ = input.readInt32();
-              break;
-            }
-            case 64: {
-
               param2_ = input.readInt32();
               break;
             }
             case 80: {
+
+              param3_ = input.readInt32();
+              break;
+            }
+            case 120: {
 
               sourceEntityId_ = input.readUInt32();
               break;
@@ -155,7 +155,7 @@ public final class ExecuteGadgetLuaReqOuterClass {
       return param1_;
     }
 
-    public static final int PARAM3_FIELD_NUMBER = 5;
+    public static final int PARAM3_FIELD_NUMBER = 10;
     private int param3_;
     /**
      * <code>int32 param3 = 5;</code>
@@ -166,7 +166,7 @@ public final class ExecuteGadgetLuaReqOuterClass {
       return param3_;
     }
 
-    public static final int SOURCE_ENTITY_ID_FIELD_NUMBER = 10;
+    public static final int SOURCE_ENTITY_ID_FIELD_NUMBER = 15;
     private int sourceEntityId_;
     /**
      * <code>uint32 source_entity_id = 10;</code>
@@ -177,7 +177,7 @@ public final class ExecuteGadgetLuaReqOuterClass {
       return sourceEntityId_;
     }
 
-    public static final int PARAM2_FIELD_NUMBER = 8;
+    public static final int PARAM2_FIELD_NUMBER = 5;
     private int param2_;
     /**
      * <code>int32 param2 = 8;</code>
@@ -205,14 +205,14 @@ public final class ExecuteGadgetLuaReqOuterClass {
       if (param1_ != 0) {
         output.writeInt32(2, param1_);
       }
-      if (param3_ != 0) {
-        output.writeInt32(5, param3_);
-      }
       if (param2_ != 0) {
-        output.writeInt32(8, param2_);
+        output.writeInt32(5, param2_);
+      }
+      if (param3_ != 0) {
+        output.writeInt32(10, param3_);
       }
       if (sourceEntityId_ != 0) {
-        output.writeUInt32(10, sourceEntityId_);
+        output.writeUInt32(15, sourceEntityId_);
       }
       unknownFields.writeTo(output);
     }
@@ -227,17 +227,17 @@ public final class ExecuteGadgetLuaReqOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeInt32Size(2, param1_);
       }
-      if (param3_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(5, param3_);
-      }
       if (param2_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(8, param2_);
+          .computeInt32Size(5, param2_);
+      }
+      if (param3_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt32Size(10, param3_);
       }
       if (sourceEntityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, sourceEntityId_);
+          .computeUInt32Size(15, sourceEntityId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -4,6 +4,7 @@ import emu.grasscutter.command.Command;
 import emu.grasscutter.command.CommandHandler;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.game.props.FightProperty;
+import emu.grasscutter.server.packet.send.PacketAvatarFightPropNotify;
 import emu.grasscutter.server.packet.send.PacketAvatarFightPropUpdateNotify;
 import emu.grasscutter.server.packet.send.PacketAvatarLifeStateChangeNotify;
 
@@ -52,7 +53,12 @@ public final class erCommand implements CommandHandler {
                     FightProperty.FIGHT_PROP_CUR_ROCK_ENERGY,
                     entity.getFightProperty(FightProperty.FIGHT_PROP_MAX_ROCK_ENERGY)
             );
-            entity.getWorld().broadcastPacket(new PacketAvatarFightPropUpdateNotify(entity.getAvatar(), FightProperty.FIGHT_PROP_CUR_HP));
+            entity.getWorld().broadcastPacket(new PacketAvatarFightPropUpdateNotify(entity.getAvatar(), FightProperty.FIGHT_PROP_CUR_ROCK_ENERGY));
+
+            var avatar = entity.getAvatar();
+            avatar.setFightProperty(FightProperty.FIGHT_PROP_CUR_SPECIAL_ENERGY,
+                    avatar.getFightProperty(FightProperty.FIGHT_PROP_MAX_SPECIAL_ENERGY));
+            targetPlayer.sendPacket(new PacketAvatarFightPropNotify(avatar));
             if (!isAlive) {
                 entity.getWorld().broadcastPacket(new PacketAvatarLifeStateChangeNotify(entity.getAvatar()));
             }

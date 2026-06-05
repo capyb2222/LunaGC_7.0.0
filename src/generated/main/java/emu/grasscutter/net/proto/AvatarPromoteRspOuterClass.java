@@ -80,14 +80,14 @@ public final class AvatarPromoteRspOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
-
-              guid_ = input.readUInt64();
-              break;
-            }
-            case 96: {
+            case 16: {
 
               retcode_ = input.readInt32();
+              break;
+            }
+            case 112: {
+
+              guid_ = input.readUInt64();
               break;
             }
             default: {
@@ -122,7 +122,7 @@ public final class AvatarPromoteRspOuterClass {
               emu.grasscutter.net.proto.AvatarPromoteRspOuterClass.AvatarPromoteRsp.class, emu.grasscutter.net.proto.AvatarPromoteRspOuterClass.AvatarPromoteRsp.Builder.class);
     }
 
-    public static final int GUID_FIELD_NUMBER = 7;
+    public static final int GUID_FIELD_NUMBER = 14;
     private long guid_;
     /**
      * <code>uint64 guid = 7;</code>
@@ -133,7 +133,7 @@ public final class AvatarPromoteRspOuterClass {
       return guid_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 12;
+    public static final int RETCODE_FIELD_NUMBER = 2;
     private int retcode_;
     /**
      * <code>int32 retcode = 12;</code>
@@ -158,11 +158,11 @@ public final class AvatarPromoteRspOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (guid_ != 0L) {
-        output.writeUInt64(7, guid_);
-      }
       if (retcode_ != 0) {
-        output.writeInt32(12, retcode_);
+        output.writeInt32(15, retcode_);
+      }
+      if (guid_ != 0L) {
+        output.writeUInt64(2, guid_);
       }
       unknownFields.writeTo(output);
     }
@@ -173,13 +173,13 @@ public final class AvatarPromoteRspOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (guid_ != 0L) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(7, guid_);
-      }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(12, retcode_);
+          .computeInt32Size(15, retcode_);
+      }
+      if (guid_ != 0L) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt64Size(2, guid_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

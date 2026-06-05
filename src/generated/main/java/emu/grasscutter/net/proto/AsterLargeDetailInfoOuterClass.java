@@ -18,24 +18,8 @@ public final class AsterLargeDetailInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:AsterLargeDetailInfo)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0      
-     * </pre>
-     *
-     * <code>uint32 begin_time = 5;</code>
-     * @return The beginTime.
-     */
     int getBeginTime();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0      
-     * </pre>
-     *
-     * <code>bool is_open = 4;</code>
-     * @return The isOpen.
-     */
     boolean getIsOpen();
   }
   /**
@@ -127,14 +111,7 @@ public final class AsterLargeDetailInfoOuterClass {
 
     public static final int BEGIN_TIME_FIELD_NUMBER = 5;
     private int beginTime_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0      
-     * </pre>
-     *
-     * <code>uint32 begin_time = 5;</code>
-     * @return The beginTime.
-     */
+
     @java.lang.Override
     public int getBeginTime() {
       return beginTime_;
@@ -142,14 +119,7 @@ public final class AsterLargeDetailInfoOuterClass {
 
     public static final int IS_OPEN_FIELD_NUMBER = 4;
     private boolean isOpen_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0      
-     * </pre>
-     *
-     * <code>bool is_open = 4;</code>
-     * @return The isOpen.
-     */
+
     @java.lang.Override
     public boolean getIsOpen() {
       return isOpen_;
@@ -476,86 +446,42 @@ public final class AsterLargeDetailInfoOuterClass {
       }
 
       private int beginTime_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>uint32 begin_time = 5;</code>
-       * @return The beginTime.
-       */
+
       @java.lang.Override
       public int getBeginTime() {
         return beginTime_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>uint32 begin_time = 5;</code>
-       * @param value The beginTime to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setBeginTime(int value) {
-        
+
         beginTime_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>uint32 begin_time = 5;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearBeginTime() {
-        
+
         beginTime_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isOpen_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>bool is_open = 4;</code>
-       * @return The isOpen.
-       */
+
       @java.lang.Override
       public boolean getIsOpen() {
         return isOpen_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>bool is_open = 4;</code>
-       * @param value The isOpen to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setIsOpen(boolean value) {
-        
+
         isOpen_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>bool is_open = 4;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearIsOpen() {
-        
+
         isOpen_ = false;
         onChanged();
         return this;
@@ -571,7 +497,6 @@ public final class AsterLargeDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:AsterLargeDetailInfo)
     }
@@ -615,7 +540,7 @@ public final class AsterLargeDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AsterLargeDetailInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AsterLargeDetailInfo_fieldAccessorTable;
 

@@ -427,7 +427,7 @@ public final class FishBattleEndRspOuterClass {
       return result == null ? emu.grasscutter.net.proto.FishBattleResultOuterClass.FishBattleResult.UNRECOGNIZED : result;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 6;
+    public static final int RETCODE_FIELD_NUMBER = 9;
     private int retcode_;
     /**
      * <code>int32 retcode = 6;</code>
@@ -467,7 +467,7 @@ public final class FishBattleEndRspOuterClass {
         output.writeMessage(4, pPIONMHHHBK_.get(i));
       }
       if (retcode_ != 0) {
-        output.writeInt32(6, retcode_);
+        output.writeInt32(9, retcode_);
       }
       for (int i = 0; i < oAFHFLJPOOA_.size(); i++) {
         output.writeMessage(7, oAFHFLJPOOA_.get(i));
@@ -499,7 +499,7 @@ public final class FishBattleEndRspOuterClass {
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(6, retcode_);
+          .computeInt32Size(9, retcode_);
       }
       for (int i = 0; i < oAFHFLJPOOA_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream

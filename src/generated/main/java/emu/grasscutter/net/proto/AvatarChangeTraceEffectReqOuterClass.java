@@ -80,7 +80,7 @@ public final class AvatarChangeTraceEffectReqOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 72: {
 
               avatarGuid_ = input.readUInt64();
               break;
@@ -122,7 +122,7 @@ public final class AvatarChangeTraceEffectReqOuterClass {
               emu.grasscutter.net.proto.AvatarChangeTraceEffectReqOuterClass.AvatarChangeTraceEffectReq.class, emu.grasscutter.net.proto.AvatarChangeTraceEffectReqOuterClass.AvatarChangeTraceEffectReq.Builder.class);
     }
 
-    public static final int AVATAR_GUID_FIELD_NUMBER = 4;
+    public static final int AVATAR_GUID_FIELD_NUMBER = 9;
     private long avatarGuid_;
     /**
      * <code>uint64 avatar_guid = 4;</code>
@@ -159,7 +159,7 @@ public final class AvatarChangeTraceEffectReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (avatarGuid_ != 0L) {
-        output.writeUInt64(4, avatarGuid_);
+        output.writeUInt64(9, avatarGuid_);
       }
       if (traceEffectId_ != 0) {
         output.writeUInt32(8, traceEffectId_);
@@ -175,7 +175,7 @@ public final class AvatarChangeTraceEffectReqOuterClass {
       size = 0;
       if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(4, avatarGuid_);
+          .computeUInt64Size(9, avatarGuid_);
       }
       if (traceEffectId_ != 0) {
         size += com.google.protobuf.CodedOutputStream

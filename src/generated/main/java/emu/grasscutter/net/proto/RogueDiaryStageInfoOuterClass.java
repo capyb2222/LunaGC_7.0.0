@@ -149,7 +149,7 @@ public final class RogueDiaryStageInfoOuterClass {
               emu.grasscutter.net.proto.RogueDiaryStageInfoOuterClass.RogueDiaryStageInfo.class, emu.grasscutter.net.proto.RogueDiaryStageInfoOuterClass.RogueDiaryStageInfo.Builder.class);
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 1;
+    public static final int STAGE_ID_FIELD_NUMBER = 15;
     private int stageId_;
     /**
      * <code>uint32 stage_id = 1;</code>
@@ -160,7 +160,7 @@ public final class RogueDiaryStageInfoOuterClass {
       return stageId_;
     }
 
-    public static final int BEST_RECORD_FIELD_NUMBER = 7;
+    public static final int BEST_RECORD_FIELD_NUMBER = 11;
     private emu.grasscutter.net.proto.RogueDiaryDungeonRecordOuterClass.RogueDiaryDungeonRecord bestRecord_;
     /**
      * <code>.RogueDiaryDungeonRecord best_record = 7;</code>
@@ -186,7 +186,7 @@ public final class RogueDiaryStageInfoOuterClass {
       return getBestRecord();
     }
 
-    public static final int IS_HAVE_TRY_FIELD_NUMBER = 13;
+    public static final int IS_HAVE_TRY_FIELD_NUMBER = 14;
     private boolean isHaveTry_;
     /**
      * <code>bool is_have_try = 13;</code>
@@ -212,13 +212,13 @@ public final class RogueDiaryStageInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (stageId_ != 0) {
-        output.writeUInt32(1, stageId_);
+        output.writeUInt32(15, stageId_);
       }
       if (bestRecord_ != null) {
         output.writeMessage(7, getBestRecord());
       }
       if (isHaveTry_ != false) {
-        output.writeBool(13, isHaveTry_);
+        output.writeBool(14, isHaveTry_);
       }
       unknownFields.writeTo(output);
     }
@@ -231,7 +231,7 @@ public final class RogueDiaryStageInfoOuterClass {
       size = 0;
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, stageId_);
+          .computeUInt32Size(15, stageId_);
       }
       if (bestRecord_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -239,7 +239,7 @@ public final class RogueDiaryStageInfoOuterClass {
       }
       if (isHaveTry_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, isHaveTry_);
+          .computeBoolSize(14, isHaveTry_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

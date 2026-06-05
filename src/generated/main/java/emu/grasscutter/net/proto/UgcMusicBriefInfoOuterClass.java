@@ -96,14 +96,6 @@ public final class UgcMusicBriefInfoOuterClass {
      */
     long getAAHNFINJFAF();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 music_id = 2;</code>
-     * @return The musicId.
-     */
     int getMusicId();
 
     /**
@@ -154,24 +146,8 @@ public final class UgcMusicBriefInfoOuterClass {
      */
     int getEHHGDAPAPLP();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 version = 12;</code>
-     * @return The version.
-     */
     int getVersion();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 ugc_guid = 6;</code>
-     * @return The ugcGuid.
-     */
     int getUgcGuid();
 
     /**
@@ -616,14 +592,7 @@ public final class UgcMusicBriefInfoOuterClass {
 
     public static final int MUSIC_ID_FIELD_NUMBER = 2;
     private int musicId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 music_id = 2;</code>
-     * @return The musicId.
-     */
+
     @java.lang.Override
     public int getMusicId() {
       return musicId_;
@@ -719,29 +688,15 @@ public final class UgcMusicBriefInfoOuterClass {
 
     public static final int VERSION_FIELD_NUMBER = 12;
     private int version_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 version = 12;</code>
-     * @return The version.
-     */
+
     @java.lang.Override
     public int getVersion() {
       return version_;
     }
 
-    public static final int UGC_GUID_FIELD_NUMBER = 6;
+    public static final int UGC_GUID_FIELD_NUMBER = 8;
     private int ugcGuid_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 ugc_guid = 6;</code>
-     * @return The ugcGuid.
-     */
+
     @java.lang.Override
     public int getUgcGuid() {
       return ugcGuid_;
@@ -849,7 +804,7 @@ public final class UgcMusicBriefInfoOuterClass {
         output.writeUInt32(5, gLBNECCHCOB_);
       }
       if (ugcGuid_ != 0) {
-        output.writeUInt32(6, ugcGuid_);
+        output.writeUInt32(8, ugcGuid_);
       }
       if (jOLJHDCPGPN_ != 0) {
         output.writeUInt32(7, jOLJHDCPGPN_);
@@ -946,7 +901,7 @@ public final class UgcMusicBriefInfoOuterClass {
       }
       if (ugcGuid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, ugcGuid_);
+          .computeUInt32Size(8, ugcGuid_);
       }
       if (jOLJHDCPGPN_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -1944,7 +1899,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * <code>.DAPPJPEICGJ CEKOLBFEPON = 489;</code>
        */
       public emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJ.Builder getCEKOLBFEPONBuilder() {
-        
+
         onChanged();
         return getCEKOLBFEPONFieldBuilder().getBuilder();
       }
@@ -1963,7 +1918,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * <code>.DAPPJPEICGJ CEKOLBFEPON = 489;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJ, emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJ.Builder, emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJOrBuilder> 
+          emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJ, emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJ.Builder, emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJOrBuilder>
           getCEKOLBFEPONFieldBuilder() {
         if (cEKOLBFEPONBuilder_ == null) {
           cEKOLBFEPONBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1991,7 +1946,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFPNJDMOOHDE(int value) {
-        
+
         fPNJDMOOHDE_ = value;
         onChanged();
         return this;
@@ -2001,7 +1956,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFPNJDMOOHDE() {
-        
+
         fPNJDMOOHDE_ = 0;
         onChanged();
         return this;
@@ -2022,7 +1977,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAAHNFINJFAF(long value) {
-        
+
         aAHNFINJFAF_ = value;
         onChanged();
         return this;
@@ -2032,50 +1987,28 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAAHNFINJFAF() {
-        
+
         aAHNFINJFAF_ = 0L;
         onChanged();
         return this;
       }
 
       private int musicId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 music_id = 2;</code>
-       * @return The musicId.
-       */
+
       @java.lang.Override
       public int getMusicId() {
         return musicId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 music_id = 2;</code>
-       * @param value The musicId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setMusicId(int value) {
-        
+
         musicId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 music_id = 2;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearMusicId() {
-        
+
         musicId_ = 0;
         onChanged();
         return this;
@@ -2096,7 +2029,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCBNMDAGOMHA(int value) {
-        
+
         cBNMDAGOMHA_ = value;
         onChanged();
         return this;
@@ -2106,7 +2039,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCBNMDAGOMHA() {
-        
+
         cBNMDAGOMHA_ = 0;
         onChanged();
         return this;
@@ -2127,7 +2060,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setJOLJHDCPGPN(int value) {
-        
+
         jOLJHDCPGPN_ = value;
         onChanged();
         return this;
@@ -2137,7 +2070,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearJOLJHDCPGPN() {
-        
+
         jOLJHDCPGPN_ = 0;
         onChanged();
         return this;
@@ -2158,7 +2091,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGLBNECCHCOB(int value) {
-        
+
         gLBNECCHCOB_ = value;
         onChanged();
         return this;
@@ -2168,7 +2101,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGLBNECCHCOB() {
-        
+
         gLBNECCHCOB_ = 0;
         onChanged();
         return this;
@@ -2189,7 +2122,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMBBJMGIIKKM(boolean value) {
-        
+
         mBBJMGIIKKM_ = value;
         onChanged();
         return this;
@@ -2199,7 +2132,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMBBJMGIIKKM() {
-        
+
         mBBJMGIIKKM_ = false;
         onChanged();
         return this;
@@ -2220,7 +2153,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDADJBDLKDFO(boolean value) {
-        
+
         dADJBDLKDFO_ = value;
         onChanged();
         return this;
@@ -2230,7 +2163,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDADJBDLKDFO() {
-        
+
         dADJBDLKDFO_ = false;
         onChanged();
         return this;
@@ -2251,7 +2184,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCPAEGLGJACA(boolean value) {
-        
+
         cPAEGLGJACA_ = value;
         onChanged();
         return this;
@@ -2261,7 +2194,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCPAEGLGJACA() {
-        
+
         cPAEGLGJACA_ = false;
         onChanged();
         return this;
@@ -2282,7 +2215,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHEAFAHPKFDO(boolean value) {
-        
+
         hEAFAHPKFDO_ = value;
         onChanged();
         return this;
@@ -2292,7 +2225,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHEAFAHPKFDO() {
-        
+
         hEAFAHPKFDO_ = false;
         onChanged();
         return this;
@@ -2313,7 +2246,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEHHGDAPAPLP(int value) {
-        
+
         eHHGDAPAPLP_ = value;
         onChanged();
         return this;
@@ -2323,93 +2256,49 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEHHGDAPAPLP() {
-        
+
         eHHGDAPAPLP_ = 0;
         onChanged();
         return this;
       }
 
       private int version_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 version = 12;</code>
-       * @return The version.
-       */
+
       @java.lang.Override
       public int getVersion() {
         return version_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 version = 12;</code>
-       * @param value The version to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setVersion(int value) {
-        
+
         version_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 version = 12;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearVersion() {
-        
+
         version_ = 0;
         onChanged();
         return this;
       }
 
       private int ugcGuid_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 ugc_guid = 6;</code>
-       * @return The ugcGuid.
-       */
+
       @java.lang.Override
       public int getUgcGuid() {
         return ugcGuid_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 ugc_guid = 6;</code>
-       * @param value The ugcGuid to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setUgcGuid(int value) {
-        
+
         ugcGuid_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 ugc_guid = 6;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearUgcGuid() {
-        
+
         ugcGuid_ = 0;
         onChanged();
         return this;
@@ -2430,7 +2319,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFDMGJAOKBPP(int value) {
-        
+
         fDMGJAOKBPP_ = value;
         onChanged();
         return this;
@@ -2440,7 +2329,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFDMGJAOKBPP() {
-        
+
         fDMGJAOKBPP_ = 0;
         onChanged();
         return this;
@@ -2461,7 +2350,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLLLFNBFGDBF(int value) {
-        
+
         lLLFNBFGDBF_ = value;
         onChanged();
         return this;
@@ -2471,7 +2360,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLLLFNBFGDBF() {
-        
+
         lLLFNBFGDBF_ = 0;
         onChanged();
         return this;
@@ -2492,7 +2381,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLPCOPFPMHAK(long value) {
-        
+
         lPCOPFPMHAK_ = value;
         onChanged();
         return this;
@@ -2502,7 +2391,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLPCOPFPMHAK() {
-        
+
         lPCOPFPMHAK_ = 0L;
         onChanged();
         return this;
@@ -2523,7 +2412,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHEBNGBGOAPM(int value) {
-        
+
         hEBNGBGOAPM_ = value;
         onChanged();
         return this;
@@ -2533,7 +2422,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHEBNGBGOAPM() {
-        
+
         hEBNGBGOAPM_ = 0;
         onChanged();
         return this;
@@ -2554,7 +2443,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCMEALNJIJNG(int value) {
-        
+
         cMEALNJIJNG_ = value;
         onChanged();
         return this;
@@ -2564,7 +2453,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCMEALNJIJNG() {
-        
+
         cMEALNJIJNG_ = 0;
         onChanged();
         return this;
@@ -2585,7 +2474,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMPNBDALHDAC(int value) {
-        
+
         mPNBDALHDAC_ = value;
         onChanged();
         return this;
@@ -2595,7 +2484,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMPNBDALHDAC() {
-        
+
         mPNBDALHDAC_ = 0;
         onChanged();
         return this;
@@ -2616,7 +2505,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setJBGOFOMFAHF(int value) {
-        
+
         jBGOFOMFAHF_ = value;
         onChanged();
         return this;
@@ -2626,7 +2515,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearJBGOFOMFAHF() {
-        
+
         jBGOFOMFAHF_ = 0;
         onChanged();
         return this;
@@ -2642,7 +2531,6 @@ public final class UgcMusicBriefInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:UgcMusicBriefInfo)
     }
@@ -2686,7 +2574,7 @@ public final class UgcMusicBriefInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_UgcMusicBriefInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_UgcMusicBriefInfo_fieldAccessorTable;
 

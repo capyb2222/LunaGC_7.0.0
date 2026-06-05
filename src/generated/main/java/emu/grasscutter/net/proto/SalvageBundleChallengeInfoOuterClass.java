@@ -142,7 +142,7 @@ public final class SalvageBundleChallengeInfoOuterClass {
               emu.grasscutter.net.proto.SalvageBundleChallengeInfoOuterClass.SalvageBundleChallengeInfo.class, emu.grasscutter.net.proto.SalvageBundleChallengeInfoOuterClass.SalvageBundleChallengeInfo.Builder.class);
     }
 
-    public static final int FINISHED_BUNDLE_LIST_FIELD_NUMBER = 6;
+    public static final int FINISHED_BUNDLE_LIST_FIELD_NUMBER = 4;
     private com.google.protobuf.Internal.IntList finishedBundleList_;
     /**
      * <code>repeated uint32 finished_bundle_list = 6;</code>

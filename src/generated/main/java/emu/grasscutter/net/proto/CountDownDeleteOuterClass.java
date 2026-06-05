@@ -18,21 +18,8 @@ public final class CountDownDeleteOuterClass {
       // @@protoc_insertion_point(interface_extends:CountDownDelete)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
-     */
     int getDeleteTimeNumMapCount();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
-     */
+
     boolean containsDeleteTimeNumMap(
         int key);
     /**
@@ -41,45 +28,17 @@ public final class CountDownDeleteOuterClass {
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getDeleteTimeNumMap();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
-     */
+
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getDeleteTimeNumMapMap();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
-     */
 
     int getDeleteTimeNumMapOrDefault(
         int key,
         int defaultValue);
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
-     */
 
     int getDeleteTimeNumMapOrThrow(
         int key);
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 config_count_down_time = 2;</code>
-     * @return The configCountDownTime.
-     */
     int getConfigCountDownTime();
   }
   /**
@@ -196,7 +155,7 @@ public final class CountDownDeleteOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.CountDownDeleteOuterClass.internal_static_CountDownDelete_DeleteTimeNumMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.CountDownDeleteOuterClass.internal_static_CountDownDelete_DeleteTimeNumMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -216,18 +175,11 @@ public final class CountDownDeleteOuterClass {
     public int getDeleteTimeNumMapCount() {
       return internalGetDeleteTimeNumMap().getMap().size();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
-     */
 
     @java.lang.Override
     public boolean containsDeleteTimeNumMap(
         int key) {
-      
+
       return internalGetDeleteTimeNumMap().getMap().containsKey(key);
     }
     /**
@@ -238,47 +190,29 @@ public final class CountDownDeleteOuterClass {
     public java.util.Map<java.lang.Integer, java.lang.Integer> getDeleteTimeNumMap() {
       return getDeleteTimeNumMapMap();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
-     */
+
     @java.lang.Override
 
     public java.util.Map<java.lang.Integer, java.lang.Integer> getDeleteTimeNumMapMap() {
       return internalGetDeleteTimeNumMap().getMap();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
-     */
+
     @java.lang.Override
 
     public int getDeleteTimeNumMapOrDefault(
         int key,
         int defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetDeleteTimeNumMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
-     */
+
     @java.lang.Override
 
     public int getDeleteTimeNumMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetDeleteTimeNumMap().getMap();
       if (!map.containsKey(key)) {
@@ -289,14 +223,7 @@ public final class CountDownDeleteOuterClass {
 
     public static final int CONFIG_COUNT_DOWN_TIME_FIELD_NUMBER = 2;
     private int configCountDownTime_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 config_count_down_time = 2;</code>
-     * @return The configCountDownTime.
-     */
+
     @java.lang.Override
     public int getConfigCountDownTime() {
       return configCountDownTime_;
@@ -681,18 +608,11 @@ public final class CountDownDeleteOuterClass {
       public int getDeleteTimeNumMapCount() {
         return internalGetDeleteTimeNumMap().getMap().size();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
-       */
 
       @java.lang.Override
       public boolean containsDeleteTimeNumMap(
           int key) {
-        
+
         return internalGetDeleteTimeNumMap().getMap().containsKey(key);
       }
       /**
@@ -703,47 +623,29 @@ public final class CountDownDeleteOuterClass {
       public java.util.Map<java.lang.Integer, java.lang.Integer> getDeleteTimeNumMap() {
         return getDeleteTimeNumMapMap();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
-       */
+
       @java.lang.Override
 
       public java.util.Map<java.lang.Integer, java.lang.Integer> getDeleteTimeNumMapMap() {
         return internalGetDeleteTimeNumMap().getMap();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
-       */
+
       @java.lang.Override
 
       public int getDeleteTimeNumMapOrDefault(
           int key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetDeleteTimeNumMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
-       */
+
       @java.lang.Override
 
       public int getDeleteTimeNumMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetDeleteTimeNumMap().getMap();
         if (!map.containsKey(key)) {
@@ -757,17 +659,10 @@ public final class CountDownDeleteOuterClass {
             .clear();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
-       */
 
       public Builder removeDeleteTimeNumMap(
           int key) {
-        
+
         internalGetMutableDeleteTimeNumMap().getMutableMap()
             .remove(key);
         return this;
@@ -780,29 +675,15 @@ public final class CountDownDeleteOuterClass {
       getMutableDeleteTimeNumMap() {
         return internalGetMutableDeleteTimeNumMap().getMutableMap();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
-       */
+
       public Builder putDeleteTimeNumMap(
           int key,
           int value) {
-        
-        
+
         internalGetMutableDeleteTimeNumMap().getMutableMap()
             .put(key, value);
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
-       */
 
       public Builder putAllDeleteTimeNumMap(
           java.util.Map<java.lang.Integer, java.lang.Integer> values) {
@@ -812,43 +693,21 @@ public final class CountDownDeleteOuterClass {
       }
 
       private int configCountDownTime_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 config_count_down_time = 2;</code>
-       * @return The configCountDownTime.
-       */
+
       @java.lang.Override
       public int getConfigCountDownTime() {
         return configCountDownTime_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 config_count_down_time = 2;</code>
-       * @param value The configCountDownTime to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setConfigCountDownTime(int value) {
-        
+
         configCountDownTime_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 config_count_down_time = 2;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearConfigCountDownTime() {
-        
+
         configCountDownTime_ = 0;
         onChanged();
         return this;
@@ -864,7 +723,6 @@ public final class CountDownDeleteOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:CountDownDelete)
     }
@@ -908,12 +766,12 @@ public final class CountDownDeleteOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CountDownDelete_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CountDownDelete_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CountDownDelete_DeleteTimeNumMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CountDownDelete_DeleteTimeNumMapEntry_fieldAccessorTable;
 

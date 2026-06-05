@@ -164,7 +164,7 @@ public final class HideAndSeekMapInfoOuterClass {
       return id_;
     }
 
-    public static final int MATCH_LOCK_REASON_LIST_FIELD_NUMBER = 3;
+    public static final int MATCH_LOCK_REASON_LIST_FIELD_NUMBER = 7;
     private com.google.protobuf.Internal.IntList matchLockReasonList_;
     /**
      * <code>repeated uint32 match_lock_reason_list = 3;</code>

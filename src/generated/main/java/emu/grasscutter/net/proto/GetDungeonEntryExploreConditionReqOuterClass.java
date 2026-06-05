@@ -181,13 +181,13 @@ public final class GetDungeonEntryExploreConditionReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (dungeonEntryScenePointId_ != 0) {
-        output.writeUInt32(5, dungeonEntryScenePointId_);
+        output.writeUInt32(7, dungeonEntryScenePointId_);
       }
       if (sceneId_ != 0) {
         output.writeUInt32(6, sceneId_);
       }
       if (dungeonEntryConfigId_ != 0) {
-        output.writeUInt32(14, dungeonEntryConfigId_);
+        output.writeUInt32(10, dungeonEntryConfigId_);
       }
       unknownFields.writeTo(output);
     }
@@ -200,7 +200,7 @@ public final class GetDungeonEntryExploreConditionReqOuterClass {
       size = 0;
       if (dungeonEntryScenePointId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, dungeonEntryScenePointId_);
+          .computeUInt32Size(7, dungeonEntryScenePointId_);
       }
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -208,7 +208,7 @@ public final class GetDungeonEntryExploreConditionReqOuterClass {
       }
       if (dungeonEntryConfigId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, dungeonEntryConfigId_);
+          .computeUInt32Size(10, dungeonEntryConfigId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

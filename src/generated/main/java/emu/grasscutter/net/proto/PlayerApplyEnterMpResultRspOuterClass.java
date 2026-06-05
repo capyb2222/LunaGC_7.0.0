@@ -18,10 +18,6 @@ public final class PlayerApplyEnterMpResultRspOuterClass {
       // @@protoc_insertion_point(interface_extends:PlayerApplyEnterMpResultRsp)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <code>uint32 apply_uid = 12;</code>
-     * @return The applyUid.
-     */
     int getApplyUid();
 
     /**
@@ -134,10 +130,7 @@ public final class PlayerApplyEnterMpResultRspOuterClass {
 
     public static final int APPLY_UID_FIELD_NUMBER = 12;
     private int applyUid_;
-    /**
-     * <code>uint32 apply_uid = 12;</code>
-     * @return The applyUid.
-     */
+
     @java.lang.Override
     public int getApplyUid() {
       return applyUid_;
@@ -507,31 +500,21 @@ public final class PlayerApplyEnterMpResultRspOuterClass {
       }
 
       private int applyUid_ ;
-      /**
-       * <code>uint32 apply_uid = 12;</code>
-       * @return The applyUid.
-       */
+
       @java.lang.Override
       public int getApplyUid() {
         return applyUid_;
       }
-      /**
-       * <code>uint32 apply_uid = 12;</code>
-       * @param value The applyUid to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setApplyUid(int value) {
-        
+
         applyUid_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <code>uint32 apply_uid = 12;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearApplyUid() {
-        
+
         applyUid_ = 0;
         onChanged();
         return this;
@@ -552,7 +535,7 @@ public final class PlayerApplyEnterMpResultRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -562,7 +545,7 @@ public final class PlayerApplyEnterMpResultRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -583,7 +566,7 @@ public final class PlayerApplyEnterMpResultRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsAgreed(boolean value) {
-        
+
         isAgreed_ = value;
         onChanged();
         return this;
@@ -593,7 +576,7 @@ public final class PlayerApplyEnterMpResultRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsAgreed() {
-        
+
         isAgreed_ = false;
         onChanged();
         return this;
@@ -609,7 +592,6 @@ public final class PlayerApplyEnterMpResultRspOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:PlayerApplyEnterMpResultRsp)
     }
@@ -653,7 +635,7 @@ public final class PlayerApplyEnterMpResultRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerApplyEnterMpResultRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerApplyEnterMpResultRsp_fieldAccessorTable;
 

@@ -24,14 +24,6 @@ public final class TowerMonthlyBriefOuterClass {
      */
     int getEPPJPCMDGEK();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>uint32 tower_schedule_id = 15;</code>
-     * @return The towerScheduleId.
-     */
     int getTowerScheduleId();
 
     /**
@@ -145,14 +137,7 @@ public final class TowerMonthlyBriefOuterClass {
 
     public static final int TOWER_SCHEDULE_ID_FIELD_NUMBER = 15;
     private int towerScheduleId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>uint32 tower_schedule_id = 15;</code>
-     * @return The towerScheduleId.
-     */
+
     @java.lang.Override
     public int getTowerScheduleId() {
       return towerScheduleId_;
@@ -520,7 +505,7 @@ public final class TowerMonthlyBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEPPJPCMDGEK(int value) {
-        
+
         ePPJPCMDGEK_ = value;
         onChanged();
         return this;
@@ -530,50 +515,28 @@ public final class TowerMonthlyBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEPPJPCMDGEK() {
-        
+
         ePPJPCMDGEK_ = 0;
         onChanged();
         return this;
       }
 
       private int towerScheduleId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 tower_schedule_id = 15;</code>
-       * @return The towerScheduleId.
-       */
+
       @java.lang.Override
       public int getTowerScheduleId() {
         return towerScheduleId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 tower_schedule_id = 15;</code>
-       * @param value The towerScheduleId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setTowerScheduleId(int value) {
-        
+
         towerScheduleId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 tower_schedule_id = 15;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearTowerScheduleId() {
-        
+
         towerScheduleId_ = 0;
         onChanged();
         return this;
@@ -594,7 +557,7 @@ public final class TowerMonthlyBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFFJJEFKCJEC(int value) {
-        
+
         fFJJEFKCJEC_ = value;
         onChanged();
         return this;
@@ -604,7 +567,7 @@ public final class TowerMonthlyBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFFJJEFKCJEC() {
-        
+
         fFJJEFKCJEC_ = 0;
         onChanged();
         return this;
@@ -620,7 +583,6 @@ public final class TowerMonthlyBriefOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:TowerMonthlyBrief)
     }
@@ -664,7 +626,7 @@ public final class TowerMonthlyBriefOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_TowerMonthlyBrief_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_TowerMonthlyBrief_fieldAccessorTable;
 

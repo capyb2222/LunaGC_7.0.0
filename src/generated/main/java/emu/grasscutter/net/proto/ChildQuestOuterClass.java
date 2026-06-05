@@ -18,34 +18,10 @@ public final class ChildQuestOuterClass {
       // @@protoc_insertion_point(interface_extends:ChildQuest)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 quest_id = 9;</code>
-     * @return The questId.
-     */
     int getQuestId();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 quest_config_id = 11;</code>
-     * @return The questConfigId.
-     */
     int getQuestConfigId();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 state = 14;</code>
-     * @return The state.
-     */
     int getState();
   }
   /**
@@ -142,14 +118,7 @@ public final class ChildQuestOuterClass {
 
     public static final int QUEST_ID_FIELD_NUMBER = 9;
     private int questId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 quest_id = 9;</code>
-     * @return The questId.
-     */
+
     @java.lang.Override
     public int getQuestId() {
       return questId_;
@@ -157,14 +126,7 @@ public final class ChildQuestOuterClass {
 
     public static final int QUEST_CONFIG_ID_FIELD_NUMBER = 11;
     private int questConfigId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 quest_config_id = 11;</code>
-     * @return The questConfigId.
-     */
+
     @java.lang.Override
     public int getQuestConfigId() {
       return questConfigId_;
@@ -172,14 +134,7 @@ public final class ChildQuestOuterClass {
 
     public static final int STATE_FIELD_NUMBER = 14;
     private int state_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 state = 14;</code>
-     * @return The state.
-     */
+
     @java.lang.Override
     public int getState() {
       return state_;
@@ -522,129 +477,63 @@ public final class ChildQuestOuterClass {
       }
 
       private int questId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 quest_id = 9;</code>
-       * @return The questId.
-       */
+
       @java.lang.Override
       public int getQuestId() {
         return questId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 quest_id = 9;</code>
-       * @param value The questId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setQuestId(int value) {
-        
+
         questId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 quest_id = 9;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearQuestId() {
-        
+
         questId_ = 0;
         onChanged();
         return this;
       }
 
       private int questConfigId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 quest_config_id = 11;</code>
-       * @return The questConfigId.
-       */
+
       @java.lang.Override
       public int getQuestConfigId() {
         return questConfigId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 quest_config_id = 11;</code>
-       * @param value The questConfigId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setQuestConfigId(int value) {
-        
+
         questConfigId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 quest_config_id = 11;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearQuestConfigId() {
-        
+
         questConfigId_ = 0;
         onChanged();
         return this;
       }
 
       private int state_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 state = 14;</code>
-       * @return The state.
-       */
+
       @java.lang.Override
       public int getState() {
         return state_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 state = 14;</code>
-       * @param value The state to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setState(int value) {
-        
+
         state_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 state = 14;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearState() {
-        
+
         state_ = 0;
         onChanged();
         return this;
@@ -660,7 +549,6 @@ public final class ChildQuestOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:ChildQuest)
     }
@@ -704,7 +592,7 @@ public final class ChildQuestOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ChildQuest_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ChildQuest_fieldAccessorTable;
 

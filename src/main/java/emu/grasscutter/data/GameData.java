@@ -367,6 +367,17 @@ public final class GameData {
             new Int2ObjectOpenHashMap<>();
 
     @Getter
+    private static final Map<String, List<AbilityTalentVar>> abilityTalentVarMap = new HashMap<>();
+
+    @Getter
+    private static final Map<String, List<AbilityTalentVar>> varNameToTalentVars = new HashMap<>();
+
+    @Getter
+    private static final Map<String, Integer> openConfigToProudSkillGroup = new HashMap<>();
+
+    public record AbilityTalentVar(String openConfigName, String varName, int paramIndex) {}
+
+    @Getter
     private static final Int2ObjectMap<QuestData> questDataMap = new Int2ObjectOpenHashMap<>();
 
     @Getter

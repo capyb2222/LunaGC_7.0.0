@@ -193,7 +193,7 @@ public final class FurnitureCurModuleArrangeCountNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < furnitureArrangeCountList_.size(); i++) {
-        output.writeMessage(1, furnitureArrangeCountList_.get(i));
+        output.writeMessage(7, furnitureArrangeCountList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -206,7 +206,7 @@ public final class FurnitureCurModuleArrangeCountNotifyOuterClass {
       size = 0;
       for (int i = 0; i < furnitureArrangeCountList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, furnitureArrangeCountList_.get(i));
+          .computeMessageSize(7, furnitureArrangeCountList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -159,7 +159,7 @@ public final class SalvageStageInfoOuterClass {
               emu.grasscutter.net.proto.SalvageStageInfoOuterClass.SalvageStageInfo.class, emu.grasscutter.net.proto.SalvageStageInfoOuterClass.SalvageStageInfo.Builder.class);
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 8;
+    public static final int STAGE_ID_FIELD_NUMBER = 6;
     private int stageId_;
     /**
      * <code>uint32 stage_id = 8;</code>
@@ -170,7 +170,7 @@ public final class SalvageStageInfoOuterClass {
       return stageId_;
     }
 
-    public static final int CHALLENGE_INFO_LIST_FIELD_NUMBER = 1;
+    public static final int CHALLENGE_INFO_LIST_FIELD_NUMBER = 15;
     private java.util.List<emu.grasscutter.net.proto.SalvageChallengeInfoOuterClass.SalvageChallengeInfo> challengeInfoList_;
     /**
      * <code>repeated .SalvageChallengeInfo challenge_info_list = 1;</code>
@@ -210,7 +210,7 @@ public final class SalvageStageInfoOuterClass {
       return challengeInfoList_.get(index);
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 5;
+    public static final int IS_OPEN_FIELD_NUMBER = 9;
     private boolean isOpen_;
     /**
      * <code>bool is_open = 5;</code>
@@ -236,13 +236,13 @@ public final class SalvageStageInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < challengeInfoList_.size(); i++) {
-        output.writeMessage(1, challengeInfoList_.get(i));
+        output.writeMessage(15, challengeInfoList_.get(i));
       }
       if (isOpen_ != false) {
-        output.writeBool(5, isOpen_);
+        output.writeBool(9, isOpen_);
       }
       if (stageId_ != 0) {
-        output.writeUInt32(8, stageId_);
+        output.writeUInt32(6, stageId_);
       }
       unknownFields.writeTo(output);
     }
@@ -255,15 +255,15 @@ public final class SalvageStageInfoOuterClass {
       size = 0;
       for (int i = 0; i < challengeInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, challengeInfoList_.get(i));
+          .computeMessageSize(15, challengeInfoList_.get(i));
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, isOpen_);
+          .computeBoolSize(9, isOpen_);
       }
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, stageId_);
+          .computeUInt32Size(6, stageId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

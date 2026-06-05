@@ -165,7 +165,7 @@ public final class PotionDungeonResultInfoOuterClass {
               emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo.class, emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 10;
+    public static final int LEVEL_ID_FIELD_NUMBER = 3;
     private int levelId_;
     /**
      * <code>uint32 level_id = 10;</code>
@@ -176,7 +176,7 @@ public final class PotionDungeonResultInfoOuterClass {
       return levelId_;
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 2;
+    public static final int STAGE_ID_FIELD_NUMBER = 1;
     private int stageId_;
     /**
      * <code>uint32 stage_id = 2;</code>
@@ -249,13 +249,13 @@ public final class PotionDungeonResultInfoOuterClass {
         output.writeUInt32(1, finalScore_);
       }
       if (stageId_ != 0) {
-        output.writeUInt32(2, stageId_);
+        output.writeUInt32(1, stageId_);
       }
       if (modeId_ != 0) {
         output.writeUInt32(9, modeId_);
       }
       if (levelId_ != 0) {
-        output.writeUInt32(10, levelId_);
+        output.writeUInt32(3, levelId_);
       }
       if (leftTime_ != 0) {
         output.writeUInt32(11, leftTime_);
@@ -278,7 +278,7 @@ public final class PotionDungeonResultInfoOuterClass {
       }
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, stageId_);
+          .computeUInt32Size(1, stageId_);
       }
       if (modeId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -286,7 +286,7 @@ public final class PotionDungeonResultInfoOuterClass {
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, levelId_);
+          .computeUInt32Size(3, levelId_);
       }
       if (leftTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream

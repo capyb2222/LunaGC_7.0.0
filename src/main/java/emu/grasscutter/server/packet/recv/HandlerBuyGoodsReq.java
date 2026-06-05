@@ -6,6 +6,7 @@ import emu.grasscutter.game.props.ActionReason;
 import emu.grasscutter.game.shop.*;
 import emu.grasscutter.net.packet.*;
 import emu.grasscutter.net.proto.BuyGoodsReqOuterClass;
+import emu.grasscutter.net.proto.RetcodeOuterClass.Retcode;
 import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.server.packet.send.PacketBuyGoodsRsp;
 import emu.grasscutter.utils.Utils;
@@ -21,7 +22,10 @@ public class HandlerBuyGoodsReq extends PacketHandler {
                 BuyGoodsReqOuterClass.BuyGoodsReq.parseFrom(payload);
         List<ShopInfo> configShop =
                 session.getServer().getShopSystem().getShopData().get(buyGoodsReq.getShopType());
-        if (configShop == null) return;
+        if (configShop == null) {
+            session.send(new PacketBuyGoodsRsp(Retcode.RET_SVR_ERROR));
+            return;
+        }
 
         // Don't trust your users' input
         var player = session.getPlayer();
@@ -29,7 +33,10 @@ public class HandlerBuyGoodsReq extends PacketHandler {
         for (int goodsId : targetShopGoodsId) {
             Optional<ShopInfo> sg2 =
                     configShop.stream().filter(x -> x.getGoodsId() == goodsId).findFirst();
-            if (sg2.isEmpty()) continue;
+            if (sg2.isEmpty()) {
+                session.send(new PacketBuyGoodsRsp(Retcode.RET_SVR_ERROR));
+                continue;
+            }
             ShopInfo sg = sg2.get();
 
             int currentTs = Utils.getCurrentSeconds();
@@ -45,7 +52,8 @@ public class HandlerBuyGoodsReq extends PacketHandler {
             }
 
             if ((bought + buyGoodsReq.getBuyCount() > sg.getBuyLimit()) && sg.getBuyLimit() != 0) {
-                return;
+                session.send(new PacketBuyGoodsRsp(Retcode.RET_SHOP_BATCH_BUY_COUNT_LIMIT));
+                continue;
             }
 
             List<ItemParamData> costs =
@@ -54,18 +62,16 @@ public class HandlerBuyGoodsReq extends PacketHandler {
             costs.add(new ItemParamData(201, sg.getHcoin()));
             costs.add(new ItemParamData(203, sg.getMcoin()));
             if (!player.getInventory().payItems(costs, buyGoodsReq.getBuyCount())) {
-                return;
+                session.send(new PacketBuyGoodsRsp(Retcode.RET_SHOP_CONTENT_NOT_MATCH));
+                continue;
             }
 
             player.addShopLimit(
                     sg.getGoodsId(), buyGoodsReq.getBuyCount(), ShopSystem.getShopNextRefreshTime(sg));
-            GameItem item =
-                    new GameItem(
-                            sg.getGoodsItem().getId(), buyGoodsReq.getBuyCount() * sg.getGoodsItem().getCount());
-            player
-                    .getInventory()
-                    .addItem(
-                            item, ActionReason.Shop, true); // fix: not notify when got virtual item from shop
+            int itemId = sg.getGoodsItem().getId();
+            int itemCount = buyGoodsReq.getBuyCount() * sg.getGoodsItem().getCount();
+            GameItem item = new GameItem(itemId, itemCount);
+            player.getInventory().addItem(item, ActionReason.Shop, true);
             session.send(
                     new PacketBuyGoodsRsp(
                             buyGoodsReq.getShopType(),

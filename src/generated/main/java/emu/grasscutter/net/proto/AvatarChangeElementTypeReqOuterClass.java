@@ -80,12 +80,12 @@ public final class AvatarChangeElementTypeReqOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 64: {
 
               sceneId_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 112: {
 
               areaId_ = input.readUInt32();
               break;
@@ -122,7 +122,7 @@ public final class AvatarChangeElementTypeReqOuterClass {
               emu.grasscutter.net.proto.AvatarChangeElementTypeReqOuterClass.AvatarChangeElementTypeReq.class, emu.grasscutter.net.proto.AvatarChangeElementTypeReqOuterClass.AvatarChangeElementTypeReq.Builder.class);
     }
 
-    public static final int AREA_ID_FIELD_NUMBER = 11;
+    public static final int AREA_ID_FIELD_NUMBER = 14;
     private int areaId_;
     /**
      * <code>uint32 area_id = 11;</code>
@@ -133,7 +133,7 @@ public final class AvatarChangeElementTypeReqOuterClass {
       return areaId_;
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 1;
+    public static final int SCENE_ID_FIELD_NUMBER = 8;
     private int sceneId_;
     /**
      * <code>uint32 scene_id = 1;</code>
@@ -159,10 +159,10 @@ public final class AvatarChangeElementTypeReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (sceneId_ != 0) {
-        output.writeUInt32(1, sceneId_);
+        output.writeUInt32(8, sceneId_);
       }
       if (areaId_ != 0) {
-        output.writeUInt32(11, areaId_);
+        output.writeUInt32(14, areaId_);
       }
       unknownFields.writeTo(output);
     }
@@ -175,11 +175,11 @@ public final class AvatarChangeElementTypeReqOuterClass {
       size = 0;
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, sceneId_);
+          .computeUInt32Size(8, sceneId_);
       }
       if (areaId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, areaId_);
+          .computeUInt32Size(14, areaId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

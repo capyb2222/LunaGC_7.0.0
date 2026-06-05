@@ -18,13 +18,8 @@ public final class EntityFightPropNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:EntityFightPropNotify)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <code>map&lt;uint32, float&gt; fight_prop_map = 5;</code>
-     */
     int getFightPropMapCount();
-    /**
-     * <code>map&lt;uint32, float&gt; fight_prop_map = 5;</code>
-     */
+
     boolean containsFightPropMap(
         int key);
     /**
@@ -33,21 +28,13 @@ public final class EntityFightPropNotifyOuterClass {
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Float>
     getFightPropMap();
-    /**
-     * <code>map&lt;uint32, float&gt; fight_prop_map = 5;</code>
-     */
+
     java.util.Map<java.lang.Integer, java.lang.Float>
     getFightPropMapMap();
-    /**
-     * <code>map&lt;uint32, float&gt; fight_prop_map = 5;</code>
-     */
 
     float getFightPropMapOrDefault(
         int key,
         float defaultValue);
-    /**
-     * <code>map&lt;uint32, float&gt; fight_prop_map = 5;</code>
-     */
 
     float getFightPropMapOrThrow(
         int key);
@@ -108,12 +95,7 @@ public final class EntityFightPropNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
-
-              entityId_ = input.readUInt32();
-              break;
-            }
-            case 42: {
+            case 82: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 fightPropMap_ = com.google.protobuf.MapField.newMapField(
                     FightPropMapDefaultEntryHolder.defaultEntry);
@@ -124,6 +106,11 @@ public final class EntityFightPropNotifyOuterClass {
                   FightPropMapDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
               fightPropMap_.getMutableMap().put(
                   fightPropMap__.getKey(), fightPropMap__.getValue());
+              break;
+            }
+            case 112: {
+
+              entityId_ = input.readUInt32();
               break;
             }
             default: {
@@ -155,7 +142,7 @@ public final class EntityFightPropNotifyOuterClass {
     protected com.google.protobuf.MapField internalGetMapField(
         int number) {
       switch (number) {
-        case 5:
+        case 10:
           return internalGetFightPropMap();
         default:
           throw new RuntimeException(
@@ -170,13 +157,13 @@ public final class EntityFightPropNotifyOuterClass {
               emu.grasscutter.net.proto.EntityFightPropNotifyOuterClass.EntityFightPropNotify.class, emu.grasscutter.net.proto.EntityFightPropNotifyOuterClass.EntityFightPropNotify.Builder.class);
     }
 
-    public static final int FIGHT_PROP_MAP_FIELD_NUMBER = 5;
+    public static final int FIGHT_PROP_MAP_FIELD_NUMBER = 10;
     private static final class FightPropMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Float> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Float>newDefaultInstance(
-                  emu.grasscutter.net.proto.EntityFightPropNotifyOuterClass.internal_static_EntityFightPropNotify_FightPropMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.EntityFightPropNotifyOuterClass.internal_static_EntityFightPropNotify_FightPropMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.FLOAT,
@@ -196,14 +183,11 @@ public final class EntityFightPropNotifyOuterClass {
     public int getFightPropMapCount() {
       return internalGetFightPropMap().getMap().size();
     }
-    /**
-     * <code>map&lt;uint32, float&gt; fight_prop_map = 5;</code>
-     */
 
     @java.lang.Override
     public boolean containsFightPropMap(
         int key) {
-      
+
       return internalGetFightPropMap().getMap().containsKey(key);
     }
     /**
@@ -214,35 +198,29 @@ public final class EntityFightPropNotifyOuterClass {
     public java.util.Map<java.lang.Integer, java.lang.Float> getFightPropMap() {
       return getFightPropMapMap();
     }
-    /**
-     * <code>map&lt;uint32, float&gt; fight_prop_map = 5;</code>
-     */
+
     @java.lang.Override
 
     public java.util.Map<java.lang.Integer, java.lang.Float> getFightPropMapMap() {
       return internalGetFightPropMap().getMap();
     }
-    /**
-     * <code>map&lt;uint32, float&gt; fight_prop_map = 5;</code>
-     */
+
     @java.lang.Override
 
     public float getFightPropMapOrDefault(
         int key,
         float defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Float> map =
           internalGetFightPropMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
-    /**
-     * <code>map&lt;uint32, float&gt; fight_prop_map = 5;</code>
-     */
+
     @java.lang.Override
 
     public float getFightPropMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Float> map =
           internalGetFightPropMap().getMap();
       if (!map.containsKey(key)) {
@@ -251,7 +229,7 @@ public final class EntityFightPropNotifyOuterClass {
       return map.get(key);
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 2;
+    public static final int ENTITY_ID_FIELD_NUMBER = 14;
     private int entityId_;
     /**
      * <code>uint32 entity_id = 2;</code>
@@ -277,14 +255,14 @@ public final class EntityFightPropNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (entityId_ != 0) {
-        output.writeUInt32(2, entityId_);
+        output.writeUInt32(14, entityId_);
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
           internalGetFightPropMap(),
           FightPropMapDefaultEntryHolder.defaultEntry,
-          5);
+          10);
       unknownFields.writeTo(output);
     }
 
@@ -296,7 +274,7 @@ public final class EntityFightPropNotifyOuterClass {
       size = 0;
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, entityId_);
+          .computeUInt32Size(14, entityId_);
       }
       for (java.util.Map.Entry<java.lang.Integer, java.lang.Float> entry
            : internalGetFightPropMap().getMap().entrySet()) {
@@ -306,7 +284,7 @@ public final class EntityFightPropNotifyOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(5, fightPropMap__);
+            .computeMessageSize(10, fightPropMap__);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -470,7 +448,7 @@ public final class EntityFightPropNotifyOuterClass {
       protected com.google.protobuf.MapField internalGetMutableMapField(
           int number) {
         switch (number) {
-          case 5:
+          case 10:
             return internalGetMutableFightPropMap();
           default:
             throw new RuntimeException(
@@ -645,14 +623,11 @@ public final class EntityFightPropNotifyOuterClass {
       public int getFightPropMapCount() {
         return internalGetFightPropMap().getMap().size();
       }
-      /**
-       * <code>map&lt;uint32, float&gt; fight_prop_map = 5;</code>
-       */
 
       @java.lang.Override
       public boolean containsFightPropMap(
           int key) {
-        
+
         return internalGetFightPropMap().getMap().containsKey(key);
       }
       /**
@@ -663,35 +638,29 @@ public final class EntityFightPropNotifyOuterClass {
       public java.util.Map<java.lang.Integer, java.lang.Float> getFightPropMap() {
         return getFightPropMapMap();
       }
-      /**
-       * <code>map&lt;uint32, float&gt; fight_prop_map = 5;</code>
-       */
+
       @java.lang.Override
 
       public java.util.Map<java.lang.Integer, java.lang.Float> getFightPropMapMap() {
         return internalGetFightPropMap().getMap();
       }
-      /**
-       * <code>map&lt;uint32, float&gt; fight_prop_map = 5;</code>
-       */
+
       @java.lang.Override
 
       public float getFightPropMapOrDefault(
           int key,
           float defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Float> map =
             internalGetFightPropMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
-      /**
-       * <code>map&lt;uint32, float&gt; fight_prop_map = 5;</code>
-       */
+
       @java.lang.Override
 
       public float getFightPropMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Float> map =
             internalGetFightPropMap().getMap();
         if (!map.containsKey(key)) {
@@ -705,13 +674,10 @@ public final class EntityFightPropNotifyOuterClass {
             .clear();
         return this;
       }
-      /**
-       * <code>map&lt;uint32, float&gt; fight_prop_map = 5;</code>
-       */
 
       public Builder removeFightPropMap(
           int key) {
-        
+
         internalGetMutableFightPropMap().getMutableMap()
             .remove(key);
         return this;
@@ -724,21 +690,15 @@ public final class EntityFightPropNotifyOuterClass {
       getMutableFightPropMap() {
         return internalGetMutableFightPropMap().getMutableMap();
       }
-      /**
-       * <code>map&lt;uint32, float&gt; fight_prop_map = 5;</code>
-       */
+
       public Builder putFightPropMap(
           int key,
           float value) {
-        
-        
+
         internalGetMutableFightPropMap().getMutableMap()
             .put(key, value);
         return this;
       }
-      /**
-       * <code>map&lt;uint32, float&gt; fight_prop_map = 5;</code>
-       */
 
       public Builder putAllFightPropMap(
           java.util.Map<java.lang.Integer, java.lang.Float> values) {
@@ -762,7 +722,7 @@ public final class EntityFightPropNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
@@ -772,7 +732,7 @@ public final class EntityFightPropNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -788,7 +748,6 @@ public final class EntityFightPropNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:EntityFightPropNotify)
     }
@@ -832,12 +791,12 @@ public final class EntityFightPropNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EntityFightPropNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EntityFightPropNotify_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EntityFightPropNotify_FightPropMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EntityFightPropNotify_FightPropMapEntry_fieldAccessorTable;
 

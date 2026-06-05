@@ -18,24 +18,8 @@ public final class AddQuestContentProgressRspOuterClass {
       // @@protoc_insertion_point(interface_extends:AddQuestContentProgressRsp)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          // offset: 32
-     * </pre>
-     *
-     * <code>int32 retcode = 6;</code>
-     * @return The retcode.
-     */
     int getRetcode();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          // offset: 36 DMHOICCBMPC
-     * </pre>
-     *
-     * <code>uint32 content_type = 9;</code>
-     * @return The contentType.
-     */
     int getContentType();
   }
   /**
@@ -127,14 +111,7 @@ public final class AddQuestContentProgressRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 6;
     private int retcode_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          // offset: 32
-     * </pre>
-     *
-     * <code>int32 retcode = 6;</code>
-     * @return The retcode.
-     */
+
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -142,14 +119,7 @@ public final class AddQuestContentProgressRspOuterClass {
 
     public static final int CONTENT_TYPE_FIELD_NUMBER = 9;
     private int contentType_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          // offset: 36 DMHOICCBMPC
-     * </pre>
-     *
-     * <code>uint32 content_type = 9;</code>
-     * @return The contentType.
-     */
+
     @java.lang.Override
     public int getContentType() {
       return contentType_;
@@ -475,86 +445,42 @@ public final class AddQuestContentProgressRspOuterClass {
       }
 
       private int retcode_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          // offset: 32
-       * </pre>
-       *
-       * <code>int32 retcode = 6;</code>
-       * @return The retcode.
-       */
+
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          // offset: 32
-       * </pre>
-       *
-       * <code>int32 retcode = 6;</code>
-       * @param value The retcode to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          // offset: 32
-       * </pre>
-       *
-       * <code>int32 retcode = 6;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
       }
 
       private int contentType_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          // offset: 36 DMHOICCBMPC
-       * </pre>
-       *
-       * <code>uint32 content_type = 9;</code>
-       * @return The contentType.
-       */
+
       @java.lang.Override
       public int getContentType() {
         return contentType_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          // offset: 36 DMHOICCBMPC
-       * </pre>
-       *
-       * <code>uint32 content_type = 9;</code>
-       * @param value The contentType to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setContentType(int value) {
-        
+
         contentType_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          // offset: 36 DMHOICCBMPC
-       * </pre>
-       *
-       * <code>uint32 content_type = 9;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearContentType() {
-        
+
         contentType_ = 0;
         onChanged();
         return this;
@@ -570,7 +496,6 @@ public final class AddQuestContentProgressRspOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:AddQuestContentProgressRsp)
     }
@@ -614,7 +539,7 @@ public final class AddQuestContentProgressRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AddQuestContentProgressRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AddQuestContentProgressRsp_fieldAccessorTable;
 

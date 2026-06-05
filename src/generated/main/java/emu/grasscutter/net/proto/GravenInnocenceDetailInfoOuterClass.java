@@ -78,14 +78,6 @@ public final class GravenInnocenceDetailInfoOuterClass {
      */
     emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCKOrBuilder getMAGHEHENLEMOrBuilder();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>bool is_content_closed = 10;</code>
-     * @return The isContentClosed.
-     */
     boolean getIsContentClosed();
   }
   /**
@@ -326,16 +318,9 @@ public final class GravenInnocenceDetailInfoOuterClass {
       return getMAGHEHENLEM();
     }
 
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 10;
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 2;
     private boolean isContentClosed_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>bool is_content_closed = 10;</code>
-     * @return The isContentClosed.
-     */
+
     @java.lang.Override
     public boolean getIsContentClosed() {
       return isContentClosed_;
@@ -362,7 +347,7 @@ public final class GravenInnocenceDetailInfoOuterClass {
         output.writeMessage(3, getLACBCLHDFCF());
       }
       if (isContentClosed_ != false) {
-        output.writeBool(10, isContentClosed_);
+        output.writeBool(2, isContentClosed_);
       }
       if (pJMONLKHJNH_ != null) {
         output.writeMessage(11, getPJMONLKHJNH());
@@ -389,7 +374,7 @@ public final class GravenInnocenceDetailInfoOuterClass {
       }
       if (isContentClosed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, isContentClosed_);
+          .computeBoolSize(2, isContentClosed_);
       }
       if (pJMONLKHJNH_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -851,7 +836,7 @@ public final class GravenInnocenceDetailInfoOuterClass {
        * <code>.OEBEHAKIPCG OLAKMCFOJAH = 1;</code>
        */
       public emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCG.Builder getOLAKMCFOJAHBuilder() {
-        
+
         onChanged();
         return getOLAKMCFOJAHFieldBuilder().getBuilder();
       }
@@ -870,7 +855,7 @@ public final class GravenInnocenceDetailInfoOuterClass {
        * <code>.OEBEHAKIPCG OLAKMCFOJAH = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCG, emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCG.Builder, emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCGOrBuilder> 
+          emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCG, emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCG.Builder, emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCGOrBuilder>
           getOLAKMCFOJAHFieldBuilder() {
         if (oLAKMCFOJAHBuilder_ == null) {
           oLAKMCFOJAHBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -970,7 +955,7 @@ public final class GravenInnocenceDetailInfoOuterClass {
        * <code>.GPPIOLIGLFP PJMONLKHJNH = 11;</code>
        */
       public emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFP.Builder getPJMONLKHJNHBuilder() {
-        
+
         onChanged();
         return getPJMONLKHJNHFieldBuilder().getBuilder();
       }
@@ -989,7 +974,7 @@ public final class GravenInnocenceDetailInfoOuterClass {
        * <code>.GPPIOLIGLFP PJMONLKHJNH = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFP, emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFP.Builder, emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFPOrBuilder> 
+          emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFP, emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFP.Builder, emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFPOrBuilder>
           getPJMONLKHJNHFieldBuilder() {
         if (pJMONLKHJNHBuilder_ == null) {
           pJMONLKHJNHBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1089,7 +1074,7 @@ public final class GravenInnocenceDetailInfoOuterClass {
        * <code>.MLLCAJDJMBM LACBCLHDFCF = 3;</code>
        */
       public emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBM.Builder getLACBCLHDFCFBuilder() {
-        
+
         onChanged();
         return getLACBCLHDFCFFieldBuilder().getBuilder();
       }
@@ -1108,7 +1093,7 @@ public final class GravenInnocenceDetailInfoOuterClass {
        * <code>.MLLCAJDJMBM LACBCLHDFCF = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBM, emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBM.Builder, emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBMOrBuilder> 
+          emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBM, emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBM.Builder, emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBMOrBuilder>
           getLACBCLHDFCFFieldBuilder() {
         if (lACBCLHDFCFBuilder_ == null) {
           lACBCLHDFCFBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1208,7 +1193,7 @@ public final class GravenInnocenceDetailInfoOuterClass {
        * <code>.GLCPBBIGCCK MAGHEHENLEM = 14;</code>
        */
       public emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCK.Builder getMAGHEHENLEMBuilder() {
-        
+
         onChanged();
         return getMAGHEHENLEMFieldBuilder().getBuilder();
       }
@@ -1227,7 +1212,7 @@ public final class GravenInnocenceDetailInfoOuterClass {
        * <code>.GLCPBBIGCCK MAGHEHENLEM = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCK, emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCK.Builder, emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCKOrBuilder> 
+          emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCK, emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCK.Builder, emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCKOrBuilder>
           getMAGHEHENLEMFieldBuilder() {
         if (mAGHEHENLEMBuilder_ == null) {
           mAGHEHENLEMBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1241,43 +1226,21 @@ public final class GravenInnocenceDetailInfoOuterClass {
       }
 
       private boolean isContentClosed_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_content_closed = 10;</code>
-       * @return The isContentClosed.
-       */
+
       @java.lang.Override
       public boolean getIsContentClosed() {
         return isContentClosed_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_content_closed = 10;</code>
-       * @param value The isContentClosed to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setIsContentClosed(boolean value) {
-        
+
         isContentClosed_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_content_closed = 10;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearIsContentClosed() {
-        
+
         isContentClosed_ = false;
         onChanged();
         return this;
@@ -1293,7 +1256,6 @@ public final class GravenInnocenceDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:GravenInnocenceDetailInfo)
     }
@@ -1337,7 +1299,7 @@ public final class GravenInnocenceDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GravenInnocenceDetailInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GravenInnocenceDetailInfo_fieldAccessorTable;
 

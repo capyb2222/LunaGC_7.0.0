@@ -267,7 +267,7 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
               emu.grasscutter.net.proto.EvtAvatarEnterFocusNotifyOuterClass.EvtAvatarEnterFocusNotify.class, emu.grasscutter.net.proto.EvtAvatarEnterFocusNotifyOuterClass.EvtAvatarEnterFocusNotify.Builder.class);
     }
 
-    public static final int FOCUS_FORWARD_FIELD_NUMBER = 13;
+    public static final int FOCUS_FORWARD_FIELD_NUMBER = 14;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector focusForward_;
     /**
      * <code>.Vector focus_forward = 13;</code>
@@ -293,7 +293,7 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
       return getFocusForward();
     }
 
-    public static final int FORWARD_TYPE_FIELD_NUMBER = 3;
+    public static final int FORWARD_TYPE_FIELD_NUMBER = 9;
     private int forwardType_;
     /**
      * <code>.ForwardType forward_type = 3;</code>
@@ -334,7 +334,7 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
       return mDMOIMDCOPF_;
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 11;
+    public static final int ENTITY_ID_FIELD_NUMBER = 5;
     private int entityId_;
     /**
      * <code>uint32 entity_id = 11;</code>
@@ -454,7 +454,7 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
         output.writeBool(2, oGOLKMLFFHE_);
       }
       if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.ForwardType_FORWARD_LOCAL.getNumber()) {
-        output.writeEnum(3, forwardType_);
+        output.writeEnum(9, forwardType_);
       }
       if (gMLEBIHPOKD_ != false) {
         output.writeBool(5, gMLEBIHPOKD_);
@@ -475,7 +475,7 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
         output.writeBool(10, oEMKCENFMIM_);
       }
       if (entityId_ != 0) {
-        output.writeUInt32(11, entityId_);
+        output.writeUInt32(5, entityId_);
       }
       if (cCKKABKJJGP_ != false) {
         output.writeBool(12, cCKKABKJJGP_);
@@ -505,7 +505,7 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
       }
       if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.ForwardType_FORWARD_LOCAL.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(3, forwardType_);
+          .computeEnumSize(9, forwardType_);
       }
       if (gMLEBIHPOKD_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -533,7 +533,7 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
       }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, entityId_);
+          .computeUInt32Size(5, entityId_);
       }
       if (cCKKABKJJGP_ != false) {
         size += com.google.protobuf.CodedOutputStream

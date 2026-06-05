@@ -18,7 +18,6 @@ public final class ActionReduceHPDebts extends AbilityActionHandler {
     public boolean execute(Ability ability, AbilityModifier.AbilityModifierAction action, ByteString abilityData, GameEntity target) {
         float debt = action.ratio.get(ability);
         float maxValue = action.ratio.get(ability);
-        Grasscutter.getLogger().warn("[ActionReduceHPDebts] Called with debt {}", debt);
 
         if (target instanceof EntityAvatar) {
             float curDebt = target.getFightProperty(FightProperty.FIGHT_PROP_CUR_HP_DEBTS);

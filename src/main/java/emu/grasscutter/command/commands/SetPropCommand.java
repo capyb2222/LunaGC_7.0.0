@@ -17,20 +17,19 @@ import java.util.stream.IntStream;
         permission = "player.setprop",
         permissionTargeted = "player.setprop.others")
 public final class SetPropCommand implements CommandHandler {
-    // List of map areas. Unfortunately, there is no readily available source for them in excels or
-    // bins.
+
     private static final List<Integer> sceneAreas = IntStream.range(1, 1000).boxed().toList();
     private final Map<String, Prop> props;
 
     public SetPropCommand() {
         this.props = new HashMap<>();
-        // Full PlayerProperty enum that won't be advertised but can be used by devs
+
         for (PlayerProperty prop : PlayerProperty.values()) {
-            String name = prop.toString().substring(5); // PROP_EXP -> EXP
-            String key = name.toLowerCase(); // EXP -> exp
+            String name = prop.toString().substring(5);
+            String key = name.toLowerCase();
             this.props.put(key, new Prop(name, prop));
         }
-        // Add special props
+
         Prop worldlevel =
                 new Prop("World Level", PlayerProperty.PROP_PLAYER_WORLD_LEVEL, PseudoProp.WORLD_LEVEL);
         this.props.put("worldlevel", worldlevel);
@@ -145,7 +144,7 @@ public final class SetPropCommand implements CommandHandler {
             }
         } else {
             if (prop.prop
-                    != PlayerProperty.PROP_NONE) { // PseudoProps need to do their own error messages
+                    != PlayerProperty.PROP_NONE) {
                 int min = targetPlayer.getPropertyMin(prop.prop);
                 int max = targetPlayer.getPropertyMax(prop.prop);
                 CommandHandler.sendTranslatedMessage(
@@ -163,24 +162,24 @@ public final class SetPropCommand implements CommandHandler {
         }
 
         Map<Integer, TowerLevelRecord> recordMap = targetPlayer.getTowerManager().getRecordMap();
-        // Add records for each unlocked floor
+
         for (int floor : floorIds.subList(0, topFloor)) {
             if (!recordMap.containsKey(floor)) {
                 recordMap.put(floor, new TowerLevelRecord(floor));
             }
         }
-        // Remove records for each floor past our target
+
         for (int floor : floorIds.subList(topFloor, floorIds.size())) {
             recordMap.remove(floor);
         }
-        // Six stars required on Floor 8 to unlock Floor 9+
+
         if (topFloor > 8) {
             recordMap
                     .get(floorIds.get(7))
                     .setLevelStars(
                             0,
-                            6); // levelIds seem to start at 1 for Floor 1 Chamber 1, so this doesn't get shown at
-            // all
+                            6);
+
         }
         return true;
     }
@@ -222,7 +221,7 @@ public final class SetPropCommand implements CommandHandler {
     }
 
     private boolean canDive(Player targetPlayer, int value) {
-        // allow diving and set max stamina OR not
+
         if (value == 0) {
             targetPlayer.setProperty(PlayerProperty.PROP_PLAYER_CAN_DIVE, 0);
             targetPlayer.setProperty(PlayerProperty.PROP_DIVE_MAX_STAMINA, 0);
@@ -236,12 +235,12 @@ public final class SetPropCommand implements CommandHandler {
     }
 
     private boolean unlockMap(Player targetPlayer, int value) {
-        // Unlock.
+
         GameData.getScenePointsPerScene()
                 .forEach(
                         (sceneId, scenePoints) -> {
                             if (value == -2) {
-                                // Unlock trans points.
+
                                 targetPlayer.getUnlockedScenePoints(sceneId).addAll(scenePoints);
                             } else {
                                 var scenePointsBackup = new CopyOnWriteArrayList<>(scenePoints);
@@ -256,22 +255,20 @@ public final class SetPropCommand implements CommandHandler {
                                     if (forbidSimpleUnlock || sceneBuildingPointLocked) scenePointsBackup.remove(p);
                                 }
 
-                                // Unlock trans points.
                                 targetPlayer.getUnlockedScenePoints(sceneId).addAll(scenePointsBackup);
                             }
 
-                            // Unlock map areas.
                             targetPlayer.getUnlockedSceneAreas(sceneId).addAll(sceneAreas);
+
+                            targetPlayer.sendPacket(
+                                    new PacketScenePointUnlockNotify(
+                                            sceneId, targetPlayer.getUnlockedScenePoints(sceneId)));
+                            targetPlayer.sendPacket(
+                                    new PacketSceneAreaUnlockNotify(
+                                            sceneId, targetPlayer.getUnlockedSceneAreas(sceneId)));
                         });
 
-        // Send notify.
-        int playerScene = targetPlayer.getSceneId();
-        targetPlayer.sendPacket(
-                new PacketScenePointUnlockNotify(
-                        playerScene, targetPlayer.getUnlockedScenePoints(playerScene)));
-        targetPlayer.sendPacket(
-                new PacketSceneAreaUnlockNotify(
-                        playerScene, targetPlayer.getUnlockedSceneAreas(playerScene)));
+        targetPlayer.save();
         return true;
     }
 

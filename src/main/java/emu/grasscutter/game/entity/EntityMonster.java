@@ -437,6 +437,7 @@ public class EntityMonster extends GameEntity {
                         .setLifeState(this.getLifeState().getValue());
 
         this.addAllFightPropsToEntityInfo(entityInfo);
+        this.injectIntMotionInfo(entityInfo);
 
         entityInfo.addPropList(
                 PropPair.newBuilder()

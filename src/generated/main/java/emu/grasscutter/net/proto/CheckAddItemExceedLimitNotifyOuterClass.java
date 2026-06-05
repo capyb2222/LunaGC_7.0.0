@@ -210,7 +210,7 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
     }
     private int jHKIIFBAHMCMemoizedSerializedSize = -1;
 
-    public static final int IS_DROP_FIELD_NUMBER = 9;
+    public static final int IS_DROP_FIELD_NUMBER = 4;
     private boolean isDrop_;
     /**
      * <code>bool is_drop = 9;</code>
@@ -221,7 +221,7 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
       return isDrop_;
     }
 
-    public static final int REASON_FIELD_NUMBER = 14;
+    public static final int REASON_FIELD_NUMBER = 11;
     private int reason_;
     /**
      * <code>uint32 reason = 14;</code>
@@ -232,7 +232,7 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
       return reason_;
     }
 
-    public static final int MSG_TYPE_FIELD_NUMBER = 4;
+    public static final int MSG_TYPE_FIELD_NUMBER = 1;
     private int msgType_;
     /**
      * <code>.ItemExceedLimitMsgType msg_type = 4;</code>
@@ -267,10 +267,10 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (msgType_ != emu.grasscutter.net.proto.ItemExceedLimitMsgTypeOuterClass.ItemExceedLimitMsgType.ItemExceedLimitMsgType_ITEM_EXCEED_LIMIT_MSG_DEFAULT.getNumber()) {
-        output.writeEnum(4, msgType_);
+        output.writeEnum(1, msgType_);
       }
       if (isDrop_ != false) {
-        output.writeBool(9, isDrop_);
+        output.writeBool(4, isDrop_);
       }
       if (getJHKIIFBAHMCList().size() > 0) {
         output.writeUInt32NoTag(90);
@@ -280,7 +280,7 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
         output.writeUInt32NoTag(jHKIIFBAHMC_.getInt(i));
       }
       if (reason_ != 0) {
-        output.writeUInt32(14, reason_);
+        output.writeUInt32(11, reason_);
       }
       unknownFields.writeTo(output);
     }
@@ -293,11 +293,11 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
       size = 0;
       if (msgType_ != emu.grasscutter.net.proto.ItemExceedLimitMsgTypeOuterClass.ItemExceedLimitMsgType.ItemExceedLimitMsgType_ITEM_EXCEED_LIMIT_MSG_DEFAULT.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(4, msgType_);
+          .computeEnumSize(1, msgType_);
       }
       if (isDrop_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isDrop_);
+          .computeBoolSize(4, isDrop_);
       }
       {
         int dataSize = 0;
@@ -315,7 +315,7 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
       }
       if (reason_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, reason_);
+          .computeUInt32Size(11, reason_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -284,7 +284,7 @@ public final class HomeLimitedShopInfoOuterClass {
       return getDjinnPos();
     }
 
-    public static final int UID_FIELD_NUMBER = 2;
+    public static final int UID_FIELD_NUMBER = 5;
     private int uid_;
     /**
      * <code>uint32 uid = 2;</code>
@@ -310,7 +310,7 @@ public final class HomeLimitedShopInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (uid_ != 0) {
-        output.writeUInt32(2, uid_);
+        output.writeUInt32(5, uid_);
       }
       if (startTime_ != 0) {
         output.writeFixed32(6, startTime_);
@@ -338,7 +338,7 @@ public final class HomeLimitedShopInfoOuterClass {
       size = 0;
       if (uid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, uid_);
+          .computeUInt32Size(5, uid_);
       }
       if (startTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream

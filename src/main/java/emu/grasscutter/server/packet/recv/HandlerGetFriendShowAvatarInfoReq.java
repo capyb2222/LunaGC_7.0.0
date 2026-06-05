@@ -16,6 +16,9 @@ public class HandlerGetFriendShowAvatarInfoReq extends PacketHandler {
         int targetUid = req.getUid();
         Player targetPlayer = session.getServer().getPlayerByUid(targetUid, true);
 
+        if (targetPlayer == null) {
+            return;
+        }
         if (targetPlayer.isShowAvatars()) {
             session.send(
                     new PacketGetFriendShowAvatarInfoRsp(targetUid, targetPlayer.getShowAvatarInfoList()));

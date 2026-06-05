@@ -95,12 +95,12 @@ public final class PlatformStartRouteNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 72: {
 
               sceneTime_ = input.readUInt32();
               break;
             }
-            case 82: {
+            case 10: {
               emu.grasscutter.net.proto.PlatformInfoOuterClass.PlatformInfo.Builder subBuilder = null;
               if (platform_ != null) {
                 subBuilder = platform_.toBuilder();
@@ -113,7 +113,7 @@ public final class PlatformStartRouteNotifyOuterClass {
 
               break;
             }
-            case 112: {
+            case 48: {
 
               entityId_ = input.readUInt32();
               break;
@@ -150,7 +150,7 @@ public final class PlatformStartRouteNotifyOuterClass {
               emu.grasscutter.net.proto.PlatformStartRouteNotifyOuterClass.PlatformStartRouteNotify.class, emu.grasscutter.net.proto.PlatformStartRouteNotifyOuterClass.PlatformStartRouteNotify.Builder.class);
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 14;
+    public static final int ENTITY_ID_FIELD_NUMBER = 6;
     private int entityId_;
     /**
      * <code>uint32 entity_id = 14;</code>
@@ -161,7 +161,7 @@ public final class PlatformStartRouteNotifyOuterClass {
       return entityId_;
     }
 
-    public static final int SCENE_TIME_FIELD_NUMBER = 4;
+    public static final int SCENE_TIME_FIELD_NUMBER = 9;
     private int sceneTime_;
     /**
      * <code>uint32 scene_time = 4;</code>
@@ -172,7 +172,7 @@ public final class PlatformStartRouteNotifyOuterClass {
       return sceneTime_;
     }
 
-    public static final int PLATFORM_FIELD_NUMBER = 10;
+    public static final int PLATFORM_FIELD_NUMBER = 1;
     private emu.grasscutter.net.proto.PlatformInfoOuterClass.PlatformInfo platform_;
     /**
      * <code>.PlatformInfo platform = 10;</code>
@@ -213,13 +213,13 @@ public final class PlatformStartRouteNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (sceneTime_ != 0) {
-        output.writeUInt32(4, sceneTime_);
+        output.writeUInt32(9, sceneTime_);
       }
       if (platform_ != null) {
-        output.writeMessage(10, getPlatform());
+        output.writeMessage(1, getPlatform());
       }
       if (entityId_ != 0) {
-        output.writeUInt32(14, entityId_);
+        output.writeUInt32(6, entityId_);
       }
       unknownFields.writeTo(output);
     }
@@ -232,15 +232,15 @@ public final class PlatformStartRouteNotifyOuterClass {
       size = 0;
       if (sceneTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, sceneTime_);
+          .computeUInt32Size(9, sceneTime_);
       }
       if (platform_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, getPlatform());
+          .computeMessageSize(1, getPlatform());
       }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, entityId_);
+          .computeUInt32Size(6, entityId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

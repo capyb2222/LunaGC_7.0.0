@@ -18,44 +18,12 @@ public final class WorldRoutineInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:WorldRoutineInfo)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>uint32 finish_progress = 2;</code>
-     * @return The finishProgress.
-     */
     int getFinishProgress();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 progress = 4;</code>
-     * @return The progress.
-     */
     int getProgress();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>uint32 routine_id = 9;</code>
-     * @return The routineId.
-     */
     int getRoutineId();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>bool is_finished = 5;</code>
-     * @return The isFinished.
-     */
     boolean getIsFinished();
   }
   /**
@@ -157,14 +125,7 @@ public final class WorldRoutineInfoOuterClass {
 
     public static final int FINISH_PROGRESS_FIELD_NUMBER = 2;
     private int finishProgress_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>uint32 finish_progress = 2;</code>
-     * @return The finishProgress.
-     */
+
     @java.lang.Override
     public int getFinishProgress() {
       return finishProgress_;
@@ -172,14 +133,7 @@ public final class WorldRoutineInfoOuterClass {
 
     public static final int PROGRESS_FIELD_NUMBER = 4;
     private int progress_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 progress = 4;</code>
-     * @return The progress.
-     */
+
     @java.lang.Override
     public int getProgress() {
       return progress_;
@@ -187,14 +141,7 @@ public final class WorldRoutineInfoOuterClass {
 
     public static final int ROUTINE_ID_FIELD_NUMBER = 9;
     private int routineId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>uint32 routine_id = 9;</code>
-     * @return The routineId.
-     */
+
     @java.lang.Override
     public int getRoutineId() {
       return routineId_;
@@ -202,14 +149,7 @@ public final class WorldRoutineInfoOuterClass {
 
     public static final int IS_FINISHED_FIELD_NUMBER = 5;
     private boolean isFinished_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>bool is_finished = 5;</code>
-     * @return The isFinished.
-     */
+
     @java.lang.Override
     public boolean getIsFinished() {
       return isFinished_;
@@ -570,172 +510,84 @@ public final class WorldRoutineInfoOuterClass {
       }
 
       private int finishProgress_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>uint32 finish_progress = 2;</code>
-       * @return The finishProgress.
-       */
+
       @java.lang.Override
       public int getFinishProgress() {
         return finishProgress_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>uint32 finish_progress = 2;</code>
-       * @param value The finishProgress to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setFinishProgress(int value) {
-        
+
         finishProgress_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>uint32 finish_progress = 2;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearFinishProgress() {
-        
+
         finishProgress_ = 0;
         onChanged();
         return this;
       }
 
       private int progress_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 progress = 4;</code>
-       * @return The progress.
-       */
+
       @java.lang.Override
       public int getProgress() {
         return progress_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 progress = 4;</code>
-       * @param value The progress to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setProgress(int value) {
-        
+
         progress_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 progress = 4;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearProgress() {
-        
+
         progress_ = 0;
         onChanged();
         return this;
       }
 
       private int routineId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>uint32 routine_id = 9;</code>
-       * @return The routineId.
-       */
+
       @java.lang.Override
       public int getRoutineId() {
         return routineId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>uint32 routine_id = 9;</code>
-       * @param value The routineId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setRoutineId(int value) {
-        
+
         routineId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>uint32 routine_id = 9;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearRoutineId() {
-        
+
         routineId_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isFinished_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_finished = 5;</code>
-       * @return The isFinished.
-       */
+
       @java.lang.Override
       public boolean getIsFinished() {
         return isFinished_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_finished = 5;</code>
-       * @param value The isFinished to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setIsFinished(boolean value) {
-        
+
         isFinished_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_finished = 5;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearIsFinished() {
-        
+
         isFinished_ = false;
         onChanged();
         return this;
@@ -751,7 +603,6 @@ public final class WorldRoutineInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:WorldRoutineInfo)
     }
@@ -795,7 +646,7 @@ public final class WorldRoutineInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WorldRoutineInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WorldRoutineInfo_fieldAccessorTable;
 

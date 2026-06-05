@@ -18,24 +18,8 @@ public final class FeatureBlockInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:FeatureBlockInfo)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 feature_type = 1;</code>
-     * @return The featureType.
-     */
     int getFeatureType();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 end_time = 2;</code>
-     * @return The endTime.
-     */
     int getEndTime();
   }
   /**
@@ -127,14 +111,7 @@ public final class FeatureBlockInfoOuterClass {
 
     public static final int FEATURE_TYPE_FIELD_NUMBER = 1;
     private int featureType_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 feature_type = 1;</code>
-     * @return The featureType.
-     */
+
     @java.lang.Override
     public int getFeatureType() {
       return featureType_;
@@ -142,14 +119,7 @@ public final class FeatureBlockInfoOuterClass {
 
     public static final int END_TIME_FIELD_NUMBER = 2;
     private int endTime_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 end_time = 2;</code>
-     * @return The endTime.
-     */
+
     @java.lang.Override
     public int getEndTime() {
       return endTime_;
@@ -475,86 +445,42 @@ public final class FeatureBlockInfoOuterClass {
       }
 
       private int featureType_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 feature_type = 1;</code>
-       * @return The featureType.
-       */
+
       @java.lang.Override
       public int getFeatureType() {
         return featureType_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 feature_type = 1;</code>
-       * @param value The featureType to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setFeatureType(int value) {
-        
+
         featureType_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 feature_type = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearFeatureType() {
-        
+
         featureType_ = 0;
         onChanged();
         return this;
       }
 
       private int endTime_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 end_time = 2;</code>
-       * @return The endTime.
-       */
+
       @java.lang.Override
       public int getEndTime() {
         return endTime_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 end_time = 2;</code>
-       * @param value The endTime to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setEndTime(int value) {
-        
+
         endTime_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 end_time = 2;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearEndTime() {
-        
+
         endTime_ = 0;
         onChanged();
         return this;
@@ -570,7 +496,6 @@ public final class FeatureBlockInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:FeatureBlockInfo)
     }
@@ -614,7 +539,7 @@ public final class FeatureBlockInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FeatureBlockInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FeatureBlockInfo_fieldAccessorTable;
 

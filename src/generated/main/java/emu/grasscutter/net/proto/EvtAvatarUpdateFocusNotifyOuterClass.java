@@ -101,12 +101,12 @@ public final class EvtAvatarUpdateFocusNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 88: {
 
               entityId_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 104: {
               int rawValue = input.readEnum();
 
               forwardType_ = rawValue;
@@ -157,7 +157,7 @@ public final class EvtAvatarUpdateFocusNotifyOuterClass {
               emu.grasscutter.net.proto.EvtAvatarUpdateFocusNotifyOuterClass.EvtAvatarUpdateFocusNotify.class, emu.grasscutter.net.proto.EvtAvatarUpdateFocusNotifyOuterClass.EvtAvatarUpdateFocusNotify.Builder.class);
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 8;
+    public static final int ENTITY_ID_FIELD_NUMBER = 11;
     private int entityId_;
     /**
      * <code>uint32 entity_id = 8;</code>
@@ -194,7 +194,7 @@ public final class EvtAvatarUpdateFocusNotifyOuterClass {
       return getFocusForward();
     }
 
-    public static final int FORWARD_TYPE_FIELD_NUMBER = 9;
+    public static final int FORWARD_TYPE_FIELD_NUMBER = 13;
     private int forwardType_;
     /**
      * <code>.ForwardType forward_type = 9;</code>
@@ -228,10 +228,10 @@ public final class EvtAvatarUpdateFocusNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (entityId_ != 0) {
-        output.writeUInt32(8, entityId_);
+        output.writeUInt32(11, entityId_);
       }
       if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.ForwardType_FORWARD_LOCAL.getNumber()) {
-        output.writeEnum(9, forwardType_);
+        output.writeEnum(13, forwardType_);
       }
       if (focusForward_ != null) {
         output.writeMessage(14, getFocusForward());
@@ -247,11 +247,11 @@ public final class EvtAvatarUpdateFocusNotifyOuterClass {
       size = 0;
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, entityId_);
+          .computeUInt32Size(11, entityId_);
       }
       if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.ForwardType_FORWARD_LOCAL.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(9, forwardType_);
+          .computeEnumSize(13, forwardType_);
       }
       if (focusForward_ != null) {
         size += com.google.protobuf.CodedOutputStream

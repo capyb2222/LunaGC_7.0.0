@@ -101,12 +101,12 @@ public final class EvtBulletMoveNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 104: {
 
               entityId_ = input.readUInt32();
               break;
             }
-            case 106: {
+            case 82: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (curPos_ != null) {
                 subBuilder = curPos_.toBuilder();
@@ -119,7 +119,7 @@ public final class EvtBulletMoveNotifyOuterClass {
 
               break;
             }
-            case 120: {
+            case 32: {
               int rawValue = input.readEnum();
 
               forwardType_ = rawValue;
@@ -157,7 +157,7 @@ public final class EvtBulletMoveNotifyOuterClass {
               emu.grasscutter.net.proto.EvtBulletMoveNotifyOuterClass.EvtBulletMoveNotify.class, emu.grasscutter.net.proto.EvtBulletMoveNotifyOuterClass.EvtBulletMoveNotify.Builder.class);
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 6;
+    public static final int ENTITY_ID_FIELD_NUMBER = 13;
     private int entityId_;
     /**
      * <code>uint32 entity_id = 6;</code>
@@ -168,7 +168,7 @@ public final class EvtBulletMoveNotifyOuterClass {
       return entityId_;
     }
 
-    public static final int CUR_POS_FIELD_NUMBER = 13;
+    public static final int CUR_POS_FIELD_NUMBER = 10;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector curPos_;
     /**
      * <code>.Vector cur_pos = 13;</code>
@@ -194,7 +194,7 @@ public final class EvtBulletMoveNotifyOuterClass {
       return getCurPos();
     }
 
-    public static final int FORWARD_TYPE_FIELD_NUMBER = 15;
+    public static final int FORWARD_TYPE_FIELD_NUMBER = 4;
     private int forwardType_;
     /**
      * <code>.ForwardType forward_type = 15;</code>
@@ -228,13 +228,13 @@ public final class EvtBulletMoveNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (entityId_ != 0) {
-        output.writeUInt32(6, entityId_);
+        output.writeUInt32(13, entityId_);
       }
       if (curPos_ != null) {
-        output.writeMessage(13, getCurPos());
+        output.writeMessage(10, getCurPos());
       }
       if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.ForwardType_FORWARD_LOCAL.getNumber()) {
-        output.writeEnum(15, forwardType_);
+        output.writeEnum(4, forwardType_);
       }
       unknownFields.writeTo(output);
     }
@@ -247,15 +247,15 @@ public final class EvtBulletMoveNotifyOuterClass {
       size = 0;
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, entityId_);
+          .computeUInt32Size(13, entityId_);
       }
       if (curPos_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, getCurPos());
+          .computeMessageSize(10, getCurPos());
       }
       if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.ForwardType_FORWARD_LOCAL.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(15, forwardType_);
+          .computeEnumSize(4, forwardType_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

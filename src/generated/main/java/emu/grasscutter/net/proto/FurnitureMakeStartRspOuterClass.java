@@ -191,10 +191,10 @@ public final class FurnitureMakeStartRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(1, retcode_);
+        output.writeInt32(8, retcode_);
       }
       if (furnitureMakeSlot_ != null) {
-        output.writeMessage(6, getFurnitureMakeSlot());
+        output.writeMessage(10, getFurnitureMakeSlot());
       }
       unknownFields.writeTo(output);
     }
@@ -207,11 +207,11 @@ public final class FurnitureMakeStartRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(1, retcode_);
+          .computeInt32Size(8, retcode_);
       }
       if (furnitureMakeSlot_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, getFurnitureMakeSlot());
+          .computeMessageSize(10, getFurnitureMakeSlot());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

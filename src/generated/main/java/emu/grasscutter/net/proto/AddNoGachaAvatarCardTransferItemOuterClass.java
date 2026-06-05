@@ -18,34 +18,10 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
       // @@protoc_insertion_point(interface_extends:AddNoGachaAvatarCardTransferItem)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>bool is_new = 5;</code>
-     * @return The isNew.
-     */
     boolean getIsNew();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 count = 2;</code>
-     * @return The count.
-     */
     int getCount();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 item_id = 9;</code>
-     * @return The itemId.
-     */
     int getItemId();
   }
   /**
@@ -142,14 +118,7 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
 
     public static final int IS_NEW_FIELD_NUMBER = 5;
     private boolean isNew_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>bool is_new = 5;</code>
-     * @return The isNew.
-     */
+
     @java.lang.Override
     public boolean getIsNew() {
       return isNew_;
@@ -157,14 +126,7 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
 
     public static final int COUNT_FIELD_NUMBER = 2;
     private int count_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 count = 2;</code>
-     * @return The count.
-     */
+
     @java.lang.Override
     public int getCount() {
       return count_;
@@ -172,14 +134,7 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
 
     public static final int ITEM_ID_FIELD_NUMBER = 9;
     private int itemId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 item_id = 9;</code>
-     * @return The itemId.
-     */
+
     @java.lang.Override
     public int getItemId() {
       return itemId_;
@@ -523,129 +478,63 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
       }
 
       private boolean isNew_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>bool is_new = 5;</code>
-       * @return The isNew.
-       */
+
       @java.lang.Override
       public boolean getIsNew() {
         return isNew_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>bool is_new = 5;</code>
-       * @param value The isNew to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setIsNew(boolean value) {
-        
+
         isNew_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>bool is_new = 5;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearIsNew() {
-        
+
         isNew_ = false;
         onChanged();
         return this;
       }
 
       private int count_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 count = 2;</code>
-       * @return The count.
-       */
+
       @java.lang.Override
       public int getCount() {
         return count_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 count = 2;</code>
-       * @param value The count to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setCount(int value) {
-        
+
         count_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 count = 2;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearCount() {
-        
+
         count_ = 0;
         onChanged();
         return this;
       }
 
       private int itemId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 item_id = 9;</code>
-       * @return The itemId.
-       */
+
       @java.lang.Override
       public int getItemId() {
         return itemId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 item_id = 9;</code>
-       * @param value The itemId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setItemId(int value) {
-        
+
         itemId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 item_id = 9;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearItemId() {
-        
+
         itemId_ = 0;
         onChanged();
         return this;
@@ -661,7 +550,6 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:AddNoGachaAvatarCardTransferItem)
     }
@@ -705,7 +593,7 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AddNoGachaAvatarCardTransferItem_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AddNoGachaAvatarCardTransferItem_fieldAccessorTable;
 

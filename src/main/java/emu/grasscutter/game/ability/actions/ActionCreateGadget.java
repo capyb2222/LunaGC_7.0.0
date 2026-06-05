@@ -8,6 +8,7 @@ import emu.grasscutter.game.entity.*;
 import emu.grasscutter.game.props.CampTargetType;
 import emu.grasscutter.game.world.Position;
 import emu.grasscutter.net.proto.AbilityActionCreateGadgetOuterClass.AbilityActionCreateGadget;
+import java.util.ArrayList;
 
 @AbilityAction(AbilityModifierAction.Type.CreateGadget)
 public class ActionCreateGadget extends AbilityActionHandler {
@@ -31,17 +32,18 @@ public class ActionCreateGadget extends AbilityActionHandler {
                         new Position(createGadget.getRot()),
                         action.campID,
                         CampTargetType.getTypeByName(action.campTargetType).getValue());
-        if (action.ownerIsTarget) entityCreated.setOwner(target);
-        else entityCreated.setOwner(entity);
+        var ownerForNew = action.ownerIsTarget ? target : entity;
+        entityCreated.setOwner(ownerForNew);
 
-        entity.getScene().addEntity(entityCreated);
+        var scene = entity.getScene();
 
-        Grasscutter.getLogger()
-                .trace(
-                        "Gadget {} created at pos {} rot {}",
-                        action.gadgetID,
-                        entityCreated.getPosition(),
-                        entityCreated.getRotation());
+        new ArrayList<>(scene.getEntities().values()).stream()
+                .filter(e -> e instanceof EntityGadget eg
+                        && eg.getGadgetId() == action.gadgetID
+                        && eg.getOwner() == ownerForNew)
+                .forEach(e -> scene.removeEntity(e));
+
+        scene.addEntity(entityCreated);
 
         return true;
     }

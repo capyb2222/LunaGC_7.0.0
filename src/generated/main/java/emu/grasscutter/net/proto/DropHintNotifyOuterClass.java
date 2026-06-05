@@ -171,7 +171,7 @@ public final class DropHintNotifyOuterClass {
               emu.grasscutter.net.proto.DropHintNotifyOuterClass.DropHintNotify.class, emu.grasscutter.net.proto.DropHintNotifyOuterClass.DropHintNotify.Builder.class);
     }
 
-    public static final int POSITION_FIELD_NUMBER = 3;
+    public static final int POSITION_FIELD_NUMBER = 4;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector position_;
     /**
      * <code>.Vector position = 3;</code>
@@ -197,7 +197,7 @@ public final class DropHintNotifyOuterClass {
       return getPosition();
     }
 
-    public static final int ITEM_ID_LIST_FIELD_NUMBER = 6;
+    public static final int ITEM_ID_LIST_FIELD_NUMBER = 1;
     private com.google.protobuf.Internal.IntList itemIdList_;
     /**
      * <code>repeated uint32 item_id_list = 6;</code>

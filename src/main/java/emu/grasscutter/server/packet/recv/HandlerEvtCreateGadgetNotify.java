@@ -1,5 +1,6 @@
 package emu.grasscutter.server.packet.recv;
 
+import emu.grasscutter.Grasscutter;
 import emu.grasscutter.game.entity.*;
 import emu.grasscutter.net.packet.*;
 import emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify;
@@ -12,24 +13,25 @@ public class HandlerEvtCreateGadgetNotify extends PacketHandler {
     public void handle(GameSession session, byte[] header, byte[] payload) throws Exception {
         EvtCreateGadgetNotify notify = EvtCreateGadgetNotify.parseFrom(payload);
 
-        // Sanity check - dont add duplicate entities
-        if (session.getPlayer().getScene().getEntityById(notify.getEntityId()) != null) {
+        var scene = session.getPlayer().getScene();
+
+        if (scene.getEntityById(notify.getEntityId()) != null) {
             return;
         }
 
-        // Create entity and summon in world
         var gadgetId = notify.getConfigId();
         EntityClientGadget gadget =
                 switch (gadgetId) {
-                        // Solar Isotoma.
+
                     case EntitySolarIsotomaClientGadget.GADGET_ID -> new EntitySolarIsotomaClientGadget(
                             session.getPlayer().getScene(), session.getPlayer(), notify);
 
-                        // Default.
                     default -> new EntityClientGadget(
                             session.getPlayer().getScene(), session.getPlayer(), notify);
                 };
 
         session.getPlayer().getScene().onPlayerCreateGadget(gadget);
+
+        session.getPlayer().getAbilityManager().pushBulletTalentVars(gadget);
     }
 }

@@ -74,7 +74,7 @@ public final class WeaponPromoteReqOuterClass {
             case 0:
               done = true;
               break;
-            case 96: {
+            case 80: {
 
               targetWeaponGuid_ = input.readUInt64();
               break;
@@ -111,7 +111,7 @@ public final class WeaponPromoteReqOuterClass {
               emu.grasscutter.net.proto.WeaponPromoteReqOuterClass.WeaponPromoteReq.class, emu.grasscutter.net.proto.WeaponPromoteReqOuterClass.WeaponPromoteReq.Builder.class);
     }
 
-    public static final int TARGET_WEAPON_GUID_FIELD_NUMBER = 12;
+    public static final int TARGET_WEAPON_GUID_FIELD_NUMBER = 10;
     private long targetWeaponGuid_;
     /**
      * <code>uint64 target_weapon_guid = 12;</code>
@@ -137,7 +137,7 @@ public final class WeaponPromoteReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (targetWeaponGuid_ != 0L) {
-        output.writeUInt64(12, targetWeaponGuid_);
+        output.writeUInt64(10, targetWeaponGuid_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +150,7 @@ public final class WeaponPromoteReqOuterClass {
       size = 0;
       if (targetWeaponGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(12, targetWeaponGuid_);
+          .computeUInt64Size(10, targetWeaponGuid_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

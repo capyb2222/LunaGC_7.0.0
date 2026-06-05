@@ -18,63 +18,16 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:AvatarPropChangeReasonNotify)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>float cur_value = 3;</code>
-     * @return The curValue.
-     */
     float getCurValue();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>float old_value = 11;</code>
-     * @return The oldValue.
-     */
     float getOldValue();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 prop_type = 4;</code>
-     * @return The propType.
-     */
     int getPropType();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.PropChangeReason reason = 5;</code>
-     * @return The enum numeric value on the wire for reason.
-     */
     int getReasonValue();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.PropChangeReason reason = 5;</code>
-     * @return The reason.
-     */
+
     emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason getReason();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint64 avatar_guid = 2;</code>
-     * @return The avatarGuid.
-     */
     long getAvatarGuid();
   }
   /**
@@ -187,14 +140,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
 
     public static final int CUR_VALUE_FIELD_NUMBER = 3;
     private float curValue_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>float cur_value = 3;</code>
-     * @return The curValue.
-     */
+
     @java.lang.Override
     public float getCurValue() {
       return curValue_;
@@ -202,29 +148,15 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
 
     public static final int OLD_VALUE_FIELD_NUMBER = 11;
     private float oldValue_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>float old_value = 11;</code>
-     * @return The oldValue.
-     */
+
     @java.lang.Override
     public float getOldValue() {
       return oldValue_;
     }
 
-    public static final int PROP_TYPE_FIELD_NUMBER = 4;
+    public static final int PROP_TYPE_FIELD_NUMBER = 13;
     private int propType_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 prop_type = 4;</code>
-     * @return The propType.
-     */
+
     @java.lang.Override
     public int getPropType() {
       return propType_;
@@ -232,25 +164,11 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
 
     public static final int REASON_FIELD_NUMBER = 5;
     private int reason_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.PropChangeReason reason = 5;</code>
-     * @return The enum numeric value on the wire for reason.
-     */
+
     @java.lang.Override public int getReasonValue() {
       return reason_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.PropChangeReason reason = 5;</code>
-     * @return The reason.
-     */
+
     @java.lang.Override public emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason getReason() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason result = emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason.valueOf(reason_);
@@ -259,14 +177,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
 
     public static final int AVATAR_GUID_FIELD_NUMBER = 2;
     private long avatarGuid_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint64 avatar_guid = 2;</code>
-     * @return The avatarGuid.
-     */
+
     @java.lang.Override
     public long getAvatarGuid() {
       return avatarGuid_;
@@ -293,7 +204,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
         output.writeFloat(3, curValue_);
       }
       if (propType_ != 0) {
-        output.writeUInt32(4, propType_);
+        output.writeUInt32(13, propType_);
       }
       if (reason_ != emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason.PropChangeReason_PROP_CHANGE_NONE.getNumber()) {
         output.writeEnum(5, reason_);
@@ -320,7 +231,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
       }
       if (propType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, propType_);
+          .computeUInt32Size(13, propType_);
       }
       if (reason_ != emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason.PropChangeReason_PROP_CHANGE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
@@ -651,246 +562,121 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
       }
 
       private float curValue_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>float cur_value = 3;</code>
-       * @return The curValue.
-       */
+
       @java.lang.Override
       public float getCurValue() {
         return curValue_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>float cur_value = 3;</code>
-       * @param value The curValue to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setCurValue(float value) {
-        
+
         curValue_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>float cur_value = 3;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearCurValue() {
-        
+
         curValue_ = 0F;
         onChanged();
         return this;
       }
 
       private float oldValue_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>float old_value = 11;</code>
-       * @return The oldValue.
-       */
+
       @java.lang.Override
       public float getOldValue() {
         return oldValue_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>float old_value = 11;</code>
-       * @param value The oldValue to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setOldValue(float value) {
-        
+
         oldValue_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>float old_value = 11;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearOldValue() {
-        
+
         oldValue_ = 0F;
         onChanged();
         return this;
       }
 
       private int propType_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 prop_type = 4;</code>
-       * @return The propType.
-       */
+
       @java.lang.Override
       public int getPropType() {
         return propType_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 prop_type = 4;</code>
-       * @param value The propType to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setPropType(int value) {
-        
+
         propType_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 prop_type = 4;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearPropType() {
-        
+
         propType_ = 0;
         onChanged();
         return this;
       }
 
       private int reason_ = 0;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.PropChangeReason reason = 5;</code>
-       * @return The enum numeric value on the wire for reason.
-       */
+
       @java.lang.Override public int getReasonValue() {
         return reason_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.PropChangeReason reason = 5;</code>
-       * @param value The enum numeric value on the wire for reason to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setReasonValue(int value) {
-        
+
         reason_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.PropChangeReason reason = 5;</code>
-       * @return The reason.
-       */
+
       @java.lang.Override
       public emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason getReason() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason result = emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason.valueOf(reason_);
         return result == null ? emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason.UNRECOGNIZED : result;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.PropChangeReason reason = 5;</code>
-       * @param value The reason to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setReason(emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason value) {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         reason_ = value.getNumber();
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.PropChangeReason reason = 5;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearReason() {
-        
+
         reason_ = 0;
         onChanged();
         return this;
       }
 
       private long avatarGuid_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint64 avatar_guid = 2;</code>
-       * @return The avatarGuid.
-       */
+
       @java.lang.Override
       public long getAvatarGuid() {
         return avatarGuid_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint64 avatar_guid = 2;</code>
-       * @param value The avatarGuid to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setAvatarGuid(long value) {
-        
+
         avatarGuid_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint64 avatar_guid = 2;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearAvatarGuid() {
-        
+
         avatarGuid_ = 0L;
         onChanged();
         return this;
@@ -906,7 +692,6 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:AvatarPropChangeReasonNotify)
     }
@@ -950,7 +735,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarPropChangeReasonNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarPropChangeReasonNotify_fieldAccessorTable;
 

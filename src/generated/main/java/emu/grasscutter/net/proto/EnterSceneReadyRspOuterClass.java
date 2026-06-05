@@ -92,7 +92,7 @@ public final class EnterSceneReadyRspOuterClass {
               retcode_ = input.readInt32();
               break;
             }
-            case 96: {
+            case 72: {
 
               enterSceneToken_ = input.readUInt32();
               break;
@@ -129,7 +129,7 @@ public final class EnterSceneReadyRspOuterClass {
               emu.grasscutter.net.proto.EnterSceneReadyRspOuterClass.EnterSceneReadyRsp.class, emu.grasscutter.net.proto.EnterSceneReadyRspOuterClass.EnterSceneReadyRsp.Builder.class);
     }
 
-    public static final int ENTER_SCENE_TOKEN_FIELD_NUMBER = 12;
+    public static final int ENTER_SCENE_TOKEN_FIELD_NUMBER = 9;
     private int enterSceneToken_;
     /**
      * <pre>
@@ -177,7 +177,7 @@ public final class EnterSceneReadyRspOuterClass {
         output.writeInt32(7, retcode_);
       }
       if (enterSceneToken_ != 0) {
-        output.writeUInt32(12, enterSceneToken_);
+        output.writeUInt32(9, enterSceneToken_);
       }
       unknownFields.writeTo(output);
     }
@@ -194,7 +194,7 @@ public final class EnterSceneReadyRspOuterClass {
       }
       if (enterSceneToken_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, enterSceneToken_);
+          .computeUInt32Size(9, enterSceneToken_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

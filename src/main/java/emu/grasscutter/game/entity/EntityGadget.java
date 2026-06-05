@@ -25,6 +25,7 @@ import emu.grasscutter.net.proto.SceneEntityAiInfoOuterClass.SceneEntityAiInfo;
 import emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo;
 import emu.grasscutter.net.proto.SceneGadgetInfoOuterClass.SceneGadgetInfo;
 import emu.grasscutter.net.proto.VectorOuterClass.Vector;
+import emu.grasscutter.server.packet.send.PacketPlayerEnterSceneInfoNotify;
 import emu.grasscutter.scripts.EntityControllerScriptManager;
 import emu.grasscutter.scripts.constants.EventType;
 import emu.grasscutter.scripts.data.*;
@@ -364,9 +365,14 @@ public class EntityGadget extends EntityBaseGadget {
 
     @Override
     public SceneEntityInfo toProto() {
+        AbilitySyncStateInfo.Builder abilityInfo = AbilitySyncStateInfo.newBuilder();
+        if (owner instanceof EntityAvatar avatarOwner) {
+            PacketPlayerEnterSceneInfoNotify.buildAvatarAbilityVars(avatarOwner, abilityInfo);
+        }
+
         EntityAuthorityInfo authority =
                 EntityAuthorityInfo.newBuilder()
-                        .setAbilityInfo(AbilitySyncStateInfo.newBuilder())
+                        .setAbilityInfo(abilityInfo)
                         .setRendererChangedInfo(EntityRendererChangedInfo.newBuilder())
                         .setAiInfo(
                                 SceneEntityAiInfo.newBuilder().setIsAiOpen(true))
@@ -386,6 +392,8 @@ public class EntityGadget extends EntityBaseGadget {
                         .setEntityClientData(EntityClientData.newBuilder())
                         .setEntityAuthorityInfo(authority)
                         .setLifeState(1);
+
+        this.injectIntMotionInfo(entityInfo);
 
         PropPair pair =
                 PropPair.newBuilder()

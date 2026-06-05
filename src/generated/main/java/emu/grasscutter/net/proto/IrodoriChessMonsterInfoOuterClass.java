@@ -175,7 +175,7 @@ public final class IrodoriChessMonsterInfoOuterClass {
               emu.grasscutter.net.proto.IrodoriChessMonsterInfoOuterClass.IrodoriChessMonsterInfo.class, emu.grasscutter.net.proto.IrodoriChessMonsterInfoOuterClass.IrodoriChessMonsterInfo.Builder.class);
     }
 
-    public static final int MONSTER_ID_FIELD_NUMBER = 7;
+    public static final int MONSTER_ID_FIELD_NUMBER = 4;
     private int monsterId_;
     /**
      * <code>uint32 monster_id = 7;</code>
@@ -186,7 +186,7 @@ public final class IrodoriChessMonsterInfoOuterClass {
       return monsterId_;
     }
 
-    public static final int AFFIX_LIST_FIELD_NUMBER = 6;
+    public static final int AFFIX_LIST_FIELD_NUMBER = 12;
     private com.google.protobuf.Internal.IntList affixList_;
     /**
      * <code>repeated uint32 affix_list = 6;</code>
@@ -214,7 +214,7 @@ public final class IrodoriChessMonsterInfoOuterClass {
     }
     private int affixListMemoizedSerializedSize = -1;
 
-    public static final int LEVEL_FIELD_NUMBER = 9;
+    public static final int LEVEL_FIELD_NUMBER = 13;
     private int level_;
     /**
      * <code>uint32 level = 9;</code>
@@ -225,7 +225,7 @@ public final class IrodoriChessMonsterInfoOuterClass {
       return level_;
     }
 
-    public static final int GRANT_POINTS_FIELD_NUMBER = 13;
+    public static final int GRANT_POINTS_FIELD_NUMBER = 5;
     private int grantPoints_;
     /**
      * <code>uint32 grant_points = 13;</code>
@@ -259,13 +259,13 @@ public final class IrodoriChessMonsterInfoOuterClass {
         output.writeUInt32NoTag(affixList_.getInt(i));
       }
       if (monsterId_ != 0) {
-        output.writeUInt32(7, monsterId_);
+        output.writeUInt32(4, monsterId_);
       }
       if (level_ != 0) {
-        output.writeUInt32(9, level_);
+        output.writeUInt32(13, level_);
       }
       if (grantPoints_ != 0) {
-        output.writeUInt32(13, grantPoints_);
+        output.writeUInt32(5, grantPoints_);
       }
       unknownFields.writeTo(output);
     }
@@ -292,15 +292,15 @@ public final class IrodoriChessMonsterInfoOuterClass {
       }
       if (monsterId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, monsterId_);
+          .computeUInt32Size(4, monsterId_);
       }
       if (level_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, level_);
+          .computeUInt32Size(13, level_);
       }
       if (grantPoints_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, grantPoints_);
+          .computeUInt32Size(5, grantPoints_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

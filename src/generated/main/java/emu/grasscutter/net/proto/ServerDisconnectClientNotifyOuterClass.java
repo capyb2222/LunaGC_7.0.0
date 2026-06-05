@@ -18,14 +18,6 @@ public final class ServerDisconnectClientNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:ServerDisconnectClientNotify)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 data = 3;</code>
-     * @return The data.
-     */
     int getData();
   }
   /**
@@ -77,7 +69,7 @@ public final class ServerDisconnectClientNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 120: {
 
               data_ = input.readUInt32();
               break;
@@ -114,16 +106,9 @@ public final class ServerDisconnectClientNotifyOuterClass {
               emu.grasscutter.net.proto.ServerDisconnectClientNotifyOuterClass.ServerDisconnectClientNotify.class, emu.grasscutter.net.proto.ServerDisconnectClientNotifyOuterClass.ServerDisconnectClientNotify.Builder.class);
     }
 
-    public static final int DATA_FIELD_NUMBER = 3;
+    public static final int DATA_FIELD_NUMBER = 15;
     private int data_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 data = 3;</code>
-     * @return The data.
-     */
+
     @java.lang.Override
     public int getData() {
       return data_;
@@ -144,7 +129,7 @@ public final class ServerDisconnectClientNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (data_ != 0) {
-        output.writeUInt32(3, data_);
+        output.writeUInt32(15, data_);
       }
       unknownFields.writeTo(output);
     }
@@ -157,7 +142,7 @@ public final class ServerDisconnectClientNotifyOuterClass {
       size = 0;
       if (data_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, data_);
+          .computeUInt32Size(15, data_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -436,43 +421,21 @@ public final class ServerDisconnectClientNotifyOuterClass {
       }
 
       private int data_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 data = 3;</code>
-       * @return The data.
-       */
+
       @java.lang.Override
       public int getData() {
         return data_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 data = 3;</code>
-       * @param value The data to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setData(int value) {
-        
+
         data_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 data = 3;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearData() {
-        
+
         data_ = 0;
         onChanged();
         return this;
@@ -488,7 +451,6 @@ public final class ServerDisconnectClientNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:ServerDisconnectClientNotify)
     }
@@ -532,7 +494,7 @@ public final class ServerDisconnectClientNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ServerDisconnectClientNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ServerDisconnectClientNotify_fieldAccessorTable;
 

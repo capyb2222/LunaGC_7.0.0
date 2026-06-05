@@ -212,7 +212,7 @@ public final class HomeBasicInfoOuterClass {
               emu.grasscutter.net.proto.HomeBasicInfoOuterClass.HomeBasicInfo.class, emu.grasscutter.net.proto.HomeBasicInfoOuterClass.HomeBasicInfo.Builder.class);
     }
 
-    public static final int LEVEL_FIELD_NUMBER = 11;
+    public static final int LEVEL_FIELD_NUMBER = 1;
     private int level_;
     /**
      * <code>uint32 level = 11;</code>
@@ -223,7 +223,7 @@ public final class HomeBasicInfoOuterClass {
       return level_;
     }
 
-    public static final int OWNER_NICK_NAME_FIELD_NUMBER = 5;
+    public static final int OWNER_NICK_NAME_FIELD_NUMBER = 14;
     private volatile java.lang.Object ownerNickName_;
     /**
      * <code>string owner_nick_name = 5;</code>
@@ -261,7 +261,7 @@ public final class HomeBasicInfoOuterClass {
       }
     }
 
-    public static final int IS_IN_EDIT_MODE_FIELD_NUMBER = 9;
+    public static final int IS_IN_EDIT_MODE_FIELD_NUMBER = 2;
     private boolean isInEditMode_;
     /**
      * <code>bool is_in_edit_mode = 9;</code>
@@ -294,7 +294,7 @@ public final class HomeBasicInfoOuterClass {
       return curModuleId_;
     }
 
-    public static final int EXP_FIELD_NUMBER = 10;
+    public static final int EXP_FIELD_NUMBER = 11;
     private long exp_;
     /**
      * <code>uint64 exp = 10;</code>
@@ -363,13 +363,13 @@ public final class HomeBasicInfoOuterClass {
         output.writeUInt32(8, curModuleId_);
       }
       if (isInEditMode_ != false) {
-        output.writeBool(9, isInEditMode_);
+        output.writeBool(2, isInEditMode_);
       }
       if (exp_ != 0L) {
-        output.writeUInt64(10, exp_);
+        output.writeUInt64(11, exp_);
       }
       if (level_ != 0) {
-        output.writeUInt32(11, level_);
+        output.writeUInt32(1, level_);
       }
       if (curRoomSceneId_ != 0) {
         output.writeUInt32(13, curRoomSceneId_);
@@ -390,7 +390,7 @@ public final class HomeBasicInfoOuterClass {
 
       size = 0;
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(ownerNickName_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(5, ownerNickName_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(14, ownerNickName_);
       }
       if (curModuleId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -398,15 +398,15 @@ public final class HomeBasicInfoOuterClass {
       }
       if (isInEditMode_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isInEditMode_);
+          .computeBoolSize(2, isInEditMode_);
       }
       if (exp_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(10, exp_);
+          .computeUInt64Size(11, exp_);
       }
       if (level_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, level_);
+          .computeUInt32Size(1, level_);
       }
       if (curRoomSceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream

@@ -38,7 +38,6 @@ public final class ResourceLoader {
     private static final Set<String> loadedResources = new CopyOnWriteArraySet<>();
     private static boolean loadedAll = false;
 
-    // Get a list of all resource classes, sorted by loadPriority
     public static List<Class<?>> getResourceDefClasses() {
         Set<?> classes = Grasscutter.reflector.getSubTypesOf(GameResource.class);
 
@@ -59,7 +58,6 @@ public final class ResourceLoader {
         return classList;
     }
 
-    // Get a list containing sets of all resource classes, sorted by loadPriority
     private static List<Set<Class<?>>> getResourceDefClassesPrioritySets() {
         val classes = Grasscutter.reflector.getSubTypesOf(GameResource.class);
         val priorities = ResourceType.LoadPriority.getInOrder();
@@ -69,7 +67,7 @@ public final class ResourceLoader {
 
         classes.forEach(
                 c -> {
-                    // val c = (Class<?>) o;
+
                     val annotation = c.getAnnotation(ResourceType.class);
                     if (annotation != null) {
                         map.get(annotation.loadPriority()).add(c);
@@ -83,36 +81,35 @@ public final class ResourceLoader {
         if (loadedAll) return;
         Grasscutter.getLogger().info(translate("messages.status.resources.loading"));
 
-        // Initialize the script loader.
         ScriptLoader.init();
 
         loadConfigData();
-        // Load ability lists
+
         loadAbilityEmbryos();
         loadTalents();
         loadOpenConfig();
         loadAbilityModifiers();
         mergeDynamicAbilitiesIntoEmbryos();
-        // Load resources
+
         loadResources(true);
-        // Process into depots
+        buildAbilityTalentVarMaps();
+
         GameDepot.load();
-        // Load spawn data and quests
+
         loadSpawnData();
         loadQuests();
         loadScriptSceneData();
-        // Load scene points - must be done AFTER resources are loaded
+
         loadScenePoints();
-        // Load default home layout
+
         loadHomeworldDefaultSaveData();
         loadNpcBornData();
         loadRoutes();
         loadBlossomResources();
         cacheTalentLevelSets();
-        // Load activities.
+
         ActivityManager.loadActivityConfigData();
 
-        // Load custom server resources.
         loadConfigLevelEntityData();
         loadQuestShareConfig();
         loadGadgetMappings();
@@ -137,7 +134,7 @@ public final class ResourceLoader {
         long startTime = System.nanoTime();
         val errors =
                 new ConcurrentLinkedQueue<
-                        Pair<String, Exception>>(); // Logger in a parallel stream will deadlock
+                        Pair<String, Exception>>();
 
         getResourceDefClassesPrioritySets()
                 .forEach(
@@ -165,7 +162,7 @@ public final class ResourceLoader {
                         Grasscutter.getLogger()
                                 .error("Error loading resource file: " + pair.left(), pair.right()));
         long endTime = System.nanoTime();
-        long ns = (endTime - startTime); // divide by 1000000 to get milliseconds.
+        long ns = (endTime - startTime);
         Grasscutter.getLogger().debug("Loading resources took " + ns + "ns == " + ns / 1000000 + "ms");
     }
 
@@ -291,14 +288,14 @@ public final class ResourceLoader {
     }
 
     private static void cacheTalentLevelSets() {
-        // All known levels, keyed by proudSkillGroupId
+
         GameData.getProudSkillDataMap()
                 .forEach(
                         (id, data) ->
                                 GameData.getProudSkillGroupLevels()
                                         .computeIfAbsent(data.getProudSkillGroupId(), i -> new IntArraySet())
                                         .add(data.getLevel()));
-        // All known levels, keyed by avatarSkillId
+
         GameData.getAvatarSkillDataMap()
                 .forEach(
                         (id, data) ->
@@ -306,7 +303,7 @@ public final class ResourceLoader {
                                         .put(
                                                 (int) id,
                                                 GameData.getProudSkillGroupLevels().get(data.getProudSkillGroupId())));
-        // Maximum known levels, keyed by proudSkillGroupId
+
         GameData.getProudSkillGroupLevels()
                 .forEach(
                         (id, set) ->
@@ -317,7 +314,6 @@ public final class ResourceLoader {
     private static void loadAbilityEmbryos() {
         List<AbilityEmbryoEntry> embryoList = null;
 
-        // Read from cached file if exists
         try {
             embryoList =
                     JsonUtils.loadToList(getDataPath("AbilityEmbryos.json"), AbilityEmbryoEntry.class);
@@ -325,7 +321,7 @@ public final class ResourceLoader {
         }
 
         if (embryoList == null) {
-            // Load from BinOutput
+
             var pattern = Pattern.compile("ConfigAvatar_(.+?)\\.json");
 
             var entries = new ArrayList<AbilityEmbryoEntry>();
@@ -385,7 +381,7 @@ public final class ResourceLoader {
     }
 
     private static void loadAbilityModifiers() {
-        // Load from BinOutput
+
         try (Stream<Path> paths = Files.walk(getResourcePath("BinOutput/Ability/Temp/"))) {
             paths
                     .filter(Files::isRegularFile)
@@ -394,15 +390,18 @@ public final class ResourceLoader {
         } catch (IOException e) {
             Grasscutter.getLogger().error("Error loading ability modifiers: ", e);
         }
-        // System.out.println("Loaded modifiers, found types:");
-        // modifierActionTypes.stream().sorted().forEach(s -> System.out.printf("%s, ", s));
-        // System.out.println("[End]");
+
     }
 
     private static void loadAbilityModifiers(Path path) {
         try {
             JsonUtils.loadToList(path, AbilityConfigData.class)
-                    .forEach(data -> loadAbilityData(data.Default));
+                    .forEach(data -> {
+                        if (data.Default != null) {
+                            data.Default.isDynamicAbility = data.Default.isDynamicAbility || data.isDynamicAbility;
+                            loadAbilityData(data.Default);
+                        }
+                    });
         } catch (IOException e) {
             Grasscutter.getLogger()
                     .error("Error loading ability modifiers from path " + path.toString() + ": ", e);
@@ -423,7 +422,7 @@ public final class ResourceLoader {
             if (!abilityData.isDynamicAbility) {
                 continue;
             }
- 
+
             if (abilityData.abilityName.startsWith("Avatar_" + avatarName)) {
                 if (!mergedAbilities.contains(abilityData.abilityName)) {
                     mergedAbilities.add(abilityData.abilityName);
@@ -435,12 +434,11 @@ public final class ResourceLoader {
                 }
             }
         }
- 
+
         AbilityEmbryoEntry mergedEntry = new AbilityEmbryoEntry(
-            embryo.getName(), 
+            embryo.getName(),
             mergedAbilities.toArray(new String[mergedAbilities.size()])
         );
- 
 
         GameData.getAbilityEmbryoInfo().put(avatarName, mergedEntry);
     }
@@ -459,24 +457,24 @@ public final class ResourceLoader {
                 (key, modifier) -> {
                     Stream.ofNullable(modifier.onAdded)
                             .flatMap(Stream::of)
-                            // .map(action -> {modifierActionTypes.add(action.$type); return action;})
+
                             .filter(action -> action.type == AbilityModifierAction.Type.HealHP)
                             .forEach(action -> modifierEntry.getOnAdded().add(action));
                     Stream.ofNullable(modifier.onThinkInterval)
                             .flatMap(Stream::of)
-                            // .map(action -> {modifierActionTypes.add(action.$type); return action;})
+
                             .filter(action -> action.type == AbilityModifierAction.Type.HealHP)
                             .forEach(action -> modifierEntry.getOnThinkInterval().add(action));
                     Stream.ofNullable(modifier.onRemoved)
                             .flatMap(Stream::of)
-                            // .map(action -> {modifierActionTypes.add(action.$type); return action;})
+
                             .filter(action -> action.type == AbilityModifierAction.Type.HealHP)
                             .forEach(action -> modifierEntry.getOnRemoved().add(action));
                 });
     }
 
     private static void loadTalents() {
-        // Load from BinOutput
+
         try (var paths = Files.walk(getResourcePath("BinOutput/Talent/AvatarTalents/"))) {
             paths
                     .filter(Files::isDirectory)
@@ -513,9 +511,9 @@ public final class ResourceLoader {
         ArrayList<SpawnGroupEntry> spawnEntryMap = new ArrayList<>();
 
         for (String name : spawnDataNames) {
-            // Load spawn entries from file
+
             try (InputStreamReader reader = DataLoader.loadReader(name)) {
-                // Add spawns to group if it already exists in our spawn group map
+
                 spawnEntryMap.addAll(JsonUtils.loadToList(reader, SpawnGroupEntry.class));
             } catch (Exception ignored) {
             }
@@ -527,7 +525,7 @@ public final class ResourceLoader {
         }
 
         HashMap<GridBlockId, ArrayList<SpawnDataEntry>> areaSort = new HashMap<>();
-        // key = sceneId,x,z , value = ArrayList<SpawnDataEntry>
+
         for (SpawnGroupEntry entry : spawnEntryMap) {
             entry
                     .getSpawns()
@@ -544,8 +542,36 @@ public final class ResourceLoader {
         GameDepot.addSpawnListById(areaSort);
     }
 
+    private static void buildAbilityTalentVarMaps() {
+        var abilityTalentVarMap = GameData.getAbilityTalentVarMap();
+        var openConfigToGroup = GameData.getOpenConfigToProudSkillGroup();
+
+        for (var proudSkill : GameData.getProudSkillDataMap().values()) {
+            if (proudSkill.getOpenConfig() != null && !proudSkill.getOpenConfig().isEmpty()) {
+                openConfigToGroup.put(proudSkill.getOpenConfig(), proudSkill.getProudSkillGroupId());
+            }
+        }
+
+        var varNameMap = GameData.getVarNameToTalentVars();
+        Set<String> addedCombos = new java.util.HashSet<>();
+        for (var entry : GameData.getOpenConfigEntries().entrySet()) {
+            var configEntry = entry.getValue();
+            if (configEntry.getAbilityVarSetters() == null) continue;
+            for (var setter : configEntry.getAbilityVarSetters()) {
+                if (setter.getAbilityName() == null || setter.getVarName() == null) continue;
+                var tv = new GameData.AbilityTalentVar(configEntry.getName(), setter.getVarName(), setter.getParamIndex());
+                abilityTalentVarMap.computeIfAbsent(setter.getAbilityName(), k -> new java.util.ArrayList<>()).add(tv);
+
+                String combo = configEntry.getName() + "|" + setter.getVarName() + "|" + setter.getParamIndex();
+                if (addedCombos.add(combo)) {
+                    varNameMap.computeIfAbsent(setter.getVarName(), k -> new java.util.ArrayList<>()).add(tv);
+                }
+            }
+        }
+    }
+
     private static void loadOpenConfig() {
-        // Read from cached file if exists
+
         List<OpenConfigEntry> list = null;
 
         try {
@@ -597,7 +623,7 @@ public final class ResourceLoader {
                             val mainQuest = JsonUtils.loadToClass(path, MainQuestData.class);
                             GameData.getMainQuestDataMap().put(mainQuest.getId(), mainQuest);
 
-                            mainQuest.onLoad(); // Load the quest data.
+                            mainQuest.onLoad();
                         } catch (IOException ignored) {
                         }
                     });
@@ -764,7 +790,7 @@ public final class ResourceLoader {
     }
 
     private static void loadConfigLevelEntityData() {
-        // Load from BinOutput
+
         val pattern = Pattern.compile("ConfigLevelEntity_(.+?)\\.json");
 
         try {
@@ -799,7 +825,7 @@ public final class ResourceLoader {
     }
 
     private static void loadQuestShareConfig() {
-        // Load from BinOutput
+
         val pattern = Pattern.compile("Q(.+?)\\ShareConfig.lua");
 
         try {
@@ -816,13 +842,13 @@ public final class ResourceLoader {
 
                         try {
                             ScriptLoader.eval(cs, bindings);
-                            // these are Map<String, class>
+
                             var teleportDataMap =
                                     ScriptLoader.getSerializer()
                                             .toMap(TeleportData.class, bindings.get("quest_data"));
                             var rewindDataMap =
                                     ScriptLoader.getSerializer().toMap(RewindData.class, bindings.get("rewind_data"));
-                            // convert them to Map<Integer, class> and cache
+
                             GameData.getTeleportDataMap()
                                     .putAll(
                                             teleportDataMap.entrySet().stream()
@@ -1000,11 +1026,11 @@ public final class ResourceLoader {
 
         try {
             ScriptLoader.eval(cs, bindings);
-            // these are Map<String, class>
+
             var replacementsMap =
                     ScriptLoader.getSerializer()
                             .toMap(GroupReplacementData.class, bindings.get("replacements"));
-            // convert them to Map<Integer, class> and cache
+
             GameData.getGroupReplacements()
                     .putAll(
                             replacementsMap.entrySet().stream()
@@ -1024,9 +1050,9 @@ public final class ResourceLoader {
         }
     }
 
-    // private static HashSet<String> modifierActionTypes = new HashSet<>();
     public static class AbilityConfigData {
         public AbilityData Default;
+        public boolean isDynamicAbility;
     }
 
     public static class AvatarConfig {
@@ -1035,8 +1061,6 @@ public final class ResourceLoader {
                 alternate = {"targetAbilities"})
         public ArrayList<AvatarConfigAbility> abilities;
     }
-
-    // BinOutput configs
 
     public static class AvatarConfigAbility {
         public String abilityName;
@@ -1052,11 +1076,19 @@ public final class ResourceLoader {
 
     public static class OpenConfigData {
         public String $type;
+
+        @SerializedName(value = "abilityName", alternate = {"BEAFNCHOJGD"})
         public String abilityName;
+
+        @SerializedName(value = "varName", alternate = {"AAAENDNEBIG", "paramSpecial"})
+        public String varName;
+
+        @SerializedName(value = "varValue", alternate = {"KCHPDCEBCNI", "paramDelta"})
+        public com.google.gson.JsonElement varValue;
 
         @SerializedName(
                 value = "talentIndex",
-                alternate = {"OJOFFKLNAHN"})
+                alternate = {"OJOFFKLNAHN", "LPHIOIIJJOD"})
         public int talentIndex;
 
         @SerializedName(
@@ -1068,10 +1100,13 @@ public final class ResourceLoader {
                 value = "pointDelta",
                 alternate = {"IGEBKIHPOIF"})
         public int pointDelta;
+
+        @SerializedName(value = "talentParam", alternate = {"FJIKJIDMFNH"})
+        public String talentParam;
     }
 
     public static
-    class ScenePointConfig { // Sadly this doesn't work as a local class in loadScenePoints()
+    class ScenePointConfig {
         public Map<Integer, PointData> points;
     }
 }

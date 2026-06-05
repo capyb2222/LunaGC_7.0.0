@@ -132,7 +132,7 @@ public final class ChannellerSlabAssistInfoOuterClass {
               emu.grasscutter.net.proto.ChannellerSlabAssistInfoOuterClass.ChannellerSlabAssistInfo.class, emu.grasscutter.net.proto.ChannellerSlabAssistInfoOuterClass.ChannellerSlabAssistInfo.Builder.class);
     }
 
-    public static final int AVATAR_ID_FIELD_NUMBER = 9;
+    public static final int AVATAR_ID_FIELD_NUMBER = 1;
     private int avatarId_;
     /**
      * <code>uint32 avatar_id = 9;</code>
@@ -143,7 +143,7 @@ public final class ChannellerSlabAssistInfoOuterClass {
       return avatarId_;
     }
 
-    public static final int AVATAR_LEVEL_FIELD_NUMBER = 5;
+    public static final int AVATAR_LEVEL_FIELD_NUMBER = 3;
     private int avatarLevel_;
     /**
      * <code>uint32 avatar_level = 5;</code>
@@ -154,7 +154,7 @@ public final class ChannellerSlabAssistInfoOuterClass {
       return avatarLevel_;
     }
 
-    public static final int UID_FIELD_NUMBER = 6;
+    public static final int UID_FIELD_NUMBER = 10;
     private int uid_;
     /**
      * <code>uint32 uid = 6;</code>
@@ -180,13 +180,13 @@ public final class ChannellerSlabAssistInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (avatarLevel_ != 0) {
-        output.writeUInt32(5, avatarLevel_);
+        output.writeUInt32(3, avatarLevel_);
       }
       if (uid_ != 0) {
-        output.writeUInt32(6, uid_);
+        output.writeUInt32(10, uid_);
       }
       if (avatarId_ != 0) {
-        output.writeUInt32(9, avatarId_);
+        output.writeUInt32(1, avatarId_);
       }
       unknownFields.writeTo(output);
     }
@@ -199,15 +199,15 @@ public final class ChannellerSlabAssistInfoOuterClass {
       size = 0;
       if (avatarLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, avatarLevel_);
+          .computeUInt32Size(3, avatarLevel_);
       }
       if (uid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, uid_);
+          .computeUInt32Size(10, uid_);
       }
       if (avatarId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, avatarId_);
+          .computeUInt32Size(1, avatarId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

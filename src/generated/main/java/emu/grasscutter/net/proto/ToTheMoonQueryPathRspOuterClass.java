@@ -261,7 +261,7 @@ public final class ToTheMoonQueryPathRspOuterClass {
               emu.grasscutter.net.proto.ToTheMoonQueryPathRspOuterClass.ToTheMoonQueryPathRsp.class, emu.grasscutter.net.proto.ToTheMoonQueryPathRspOuterClass.ToTheMoonQueryPathRsp.Builder.class);
     }
 
-    public static final int CORNERS_FIELD_NUMBER = 4;
+    public static final int CORNERS_FIELD_NUMBER = 2;
     private java.util.List<emu.grasscutter.net.proto.VectorOuterClass.Vector> corners_;
     /**
      * <code>repeated .Vector corners = 4;</code>
@@ -301,7 +301,7 @@ public final class ToTheMoonQueryPathRspOuterClass {
       return corners_.get(index);
     }
 
-    public static final int LEVEL_FIELD_NUMBER = 8;
+    public static final int LEVEL_FIELD_NUMBER = 10;
     private com.google.protobuf.Internal.IntList level_;
     /**
      * <code>repeated int32 level = 8;</code>
@@ -329,7 +329,7 @@ public final class ToTheMoonQueryPathRspOuterClass {
     }
     private int levelMemoizedSerializedSize = -1;
 
-    public static final int INDEX_FIELD_NUMBER = 13;
+    public static final int INDEX_FIELD_NUMBER = 14;
     private com.google.protobuf.Internal.LongList index_;
     /**
      * <code>repeated int64 index = 13;</code>
@@ -357,7 +357,7 @@ public final class ToTheMoonQueryPathRspOuterClass {
     }
     private int indexMemoizedSerializedSize = -1;
 
-    public static final int QUERY_STATUS_FIELD_NUMBER = 12;
+    public static final int QUERY_STATUS_FIELD_NUMBER = 4;
     private int queryStatus_;
     /**
      * <code>.PathStatusType query_status = 12;</code>
@@ -376,7 +376,7 @@ public final class ToTheMoonQueryPathRspOuterClass {
       return result == null ? emu.grasscutter.net.proto.PathStatusTypeOuterClass.PathStatusType.UNRECOGNIZED : result;
     }
 
-    public static final int QUERY_ID_FIELD_NUMBER = 5;
+    public static final int QUERY_ID_FIELD_NUMBER = 12;
     private int queryId_;
     /**
      * <code>int32 query_id = 5;</code>
@@ -387,7 +387,7 @@ public final class ToTheMoonQueryPathRspOuterClass {
       return queryId_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 10;
+    public static final int RETCODE_FIELD_NUMBER = 1;
     private int retcode_;
     /**
      * <code>int32 retcode = 10;</code>
@@ -414,10 +414,10 @@ public final class ToTheMoonQueryPathRspOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       for (int i = 0; i < corners_.size(); i++) {
-        output.writeMessage(4, corners_.get(i));
+        output.writeMessage(2, corners_.get(i));
       }
       if (queryId_ != 0) {
-        output.writeInt32(5, queryId_);
+        output.writeInt32(12, queryId_);
       }
       if (getLevelList().size() > 0) {
         output.writeUInt32NoTag(66);
@@ -427,10 +427,10 @@ public final class ToTheMoonQueryPathRspOuterClass {
         output.writeInt32NoTag(level_.getInt(i));
       }
       if (retcode_ != 0) {
-        output.writeInt32(10, retcode_);
+        output.writeInt32(1, retcode_);
       }
       if (queryStatus_ != emu.grasscutter.net.proto.PathStatusTypeOuterClass.PathStatusType.PathStatusType_STATUS_FAIL.getNumber()) {
-        output.writeEnum(12, queryStatus_);
+        output.writeEnum(4, queryStatus_);
       }
       if (getIndexList().size() > 0) {
         output.writeUInt32NoTag(106);
@@ -450,11 +450,11 @@ public final class ToTheMoonQueryPathRspOuterClass {
       size = 0;
       for (int i = 0; i < corners_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, corners_.get(i));
+          .computeMessageSize(2, corners_.get(i));
       }
       if (queryId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(5, queryId_);
+          .computeInt32Size(12, queryId_);
       }
       {
         int dataSize = 0;
@@ -472,11 +472,11 @@ public final class ToTheMoonQueryPathRspOuterClass {
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(10, retcode_);
+          .computeInt32Size(1, retcode_);
       }
       if (queryStatus_ != emu.grasscutter.net.proto.PathStatusTypeOuterClass.PathStatusType.PathStatusType_STATUS_FAIL.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(12, queryStatus_);
+          .computeEnumSize(4, queryStatus_);
       }
       {
         int dataSize = 0;

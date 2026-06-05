@@ -254,7 +254,7 @@ public final class DataResVersionNotifyOuterClass {
       }
     }
 
-    public static final int RES_VERSION_CONFIG_FIELD_NUMBER = 14;
+    public static final int RES_VERSION_CONFIG_FIELD_NUMBER = 7;
     private emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig resVersionConfig_;
     /**
      * <code>.ResVersionConfig res_version_config = 14;</code>
@@ -340,7 +340,7 @@ public final class DataResVersionNotifyOuterClass {
       return clientSilenceDataVersion_;
     }
 
-    public static final int OP_TYPE_FIELD_NUMBER = 8;
+    public static final int OP_TYPE_FIELD_NUMBER = 1;
     private int opType_;
     /**
      * <code>.DataResVersionOpType op_type = 8;</code>
@@ -391,7 +391,7 @@ public final class DataResVersionNotifyOuterClass {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 5, clientVersionSuffix_);
       }
       if (opType_ != emu.grasscutter.net.proto.DataResVersionOpTypeOuterClass.DataResVersionOpType.DataResVersionOpType_OP_TYPE_NONE.getNumber()) {
-        output.writeEnum(8, opType_);
+        output.writeEnum(1, opType_);
       }
       if (clientDataVersion_ != 0) {
         output.writeUInt32(9, clientDataVersion_);
@@ -422,7 +422,7 @@ public final class DataResVersionNotifyOuterClass {
       }
       if (opType_ != emu.grasscutter.net.proto.DataResVersionOpTypeOuterClass.DataResVersionOpType.DataResVersionOpType_OP_TYPE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(8, opType_);
+          .computeEnumSize(1, opType_);
       }
       if (clientDataVersion_ != 0) {
         size += com.google.protobuf.CodedOutputStream

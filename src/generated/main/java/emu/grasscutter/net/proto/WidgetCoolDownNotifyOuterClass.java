@@ -119,7 +119,7 @@ public final class WidgetCoolDownNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 58: {
+            case 114: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 groupCoolDownDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData>();
                 mutable_bitField0_ |= 0x00000001;
@@ -128,7 +128,7 @@ public final class WidgetCoolDownNotifyOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.parser(), extensionRegistry));
               break;
             }
-            case 82: {
+            case 10: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 normalCoolDownDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData>();
                 mutable_bitField0_ |= 0x00000002;
@@ -175,7 +175,7 @@ public final class WidgetCoolDownNotifyOuterClass {
               emu.grasscutter.net.proto.WidgetCoolDownNotifyOuterClass.WidgetCoolDownNotify.class, emu.grasscutter.net.proto.WidgetCoolDownNotifyOuterClass.WidgetCoolDownNotify.Builder.class);
     }
 
-    public static final int GROUP_COOL_DOWN_DATA_LIST_FIELD_NUMBER = 7;
+    public static final int GROUP_COOL_DOWN_DATA_LIST_FIELD_NUMBER = 14;
     private java.util.List<emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData> groupCoolDownDataList_;
     /**
      * <code>repeated .WidgetCoolDownData group_cool_down_data_list = 7;</code>
@@ -215,7 +215,7 @@ public final class WidgetCoolDownNotifyOuterClass {
       return groupCoolDownDataList_.get(index);
     }
 
-    public static final int NORMAL_COOL_DOWN_DATA_LIST_FIELD_NUMBER = 10;
+    public static final int NORMAL_COOL_DOWN_DATA_LIST_FIELD_NUMBER = 1;
     private java.util.List<emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData> normalCoolDownDataList_;
     /**
      * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 10;</code>
@@ -270,10 +270,10 @@ public final class WidgetCoolDownNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < groupCoolDownDataList_.size(); i++) {
-        output.writeMessage(7, groupCoolDownDataList_.get(i));
+        output.writeMessage(14, groupCoolDownDataList_.get(i));
       }
       for (int i = 0; i < normalCoolDownDataList_.size(); i++) {
-        output.writeMessage(10, normalCoolDownDataList_.get(i));
+        output.writeMessage(1, normalCoolDownDataList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -286,11 +286,11 @@ public final class WidgetCoolDownNotifyOuterClass {
       size = 0;
       for (int i = 0; i < groupCoolDownDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, groupCoolDownDataList_.get(i));
+          .computeMessageSize(14, groupCoolDownDataList_.get(i));
       }
       for (int i = 0; i < normalCoolDownDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, normalCoolDownDataList_.get(i));
+          .computeMessageSize(1, normalCoolDownDataList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

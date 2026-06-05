@@ -457,7 +457,7 @@ public final class TowerAllDataRspOuterClass {
               emu.grasscutter.net.proto.TowerAllDataRspOuterClass.TowerAllDataRsp.class, emu.grasscutter.net.proto.TowerAllDataRspOuterClass.TowerAllDataRsp.Builder.class);
     }
 
-    public static final int TOWER_FLOOR_RECORD_LIST_FIELD_NUMBER = 15;
+    public static final int TOWER_FLOOR_RECORD_LIST_FIELD_NUMBER = 7;
     private java.util.List<emu.grasscutter.net.proto.TowerFloorRecordOuterClass.TowerFloorRecord> towerFloorRecordList_;
     /**
      * <code>repeated .TowerFloorRecord tower_floor_record_list = 15;</code>
@@ -778,7 +778,7 @@ public final class TowerAllDataRspOuterClass {
       return cMPBNABBONP_;
     }
 
-    public static final int IS_FINISHED_ENTRANCE_FLOOR_FIELD_NUMBER = 7;
+    public static final int IS_FINISHED_ENTRANCE_FLOOR_FIELD_NUMBER = 4;
     private boolean isFinishedEntranceFloor_;
     /**
      * <code>bool is_finished_entrance_floor = 7;</code>
@@ -789,7 +789,7 @@ public final class TowerAllDataRspOuterClass {
       return isFinishedEntranceFloor_;
     }
 
-    public static final int IS_FIRST_INTERACT_FIELD_NUMBER = 9;
+    public static final int IS_FIRST_INTERACT_FIELD_NUMBER = 10;
     private boolean isFirstInteract_;
     /**
      * <code>bool is_first_interact = 9;</code>
@@ -800,7 +800,7 @@ public final class TowerAllDataRspOuterClass {
       return isFirstInteract_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 1;
+    public static final int RETCODE_FIELD_NUMBER = 6;
     private int retcode_;
     /**
      * <code>int32 retcode = 1;</code>
@@ -881,7 +881,7 @@ public final class TowerAllDataRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(1, retcode_);
+        output.writeInt32(6, retcode_);
       }
       if (cMPBNABBONP_ != 0) {
         output.writeUInt32(2, cMPBNABBONP_);
@@ -896,13 +896,13 @@ public final class TowerAllDataRspOuterClass {
           ACGKLDIPIBDDefaultEntryHolder.defaultEntry,
           6);
       if (isFinishedEntranceFloor_ != false) {
-        output.writeBool(7, isFinishedEntranceFloor_);
+        output.writeBool(4, isFinishedEntranceFloor_);
       }
       if (nextScheduleChangeTime_ != 0) {
         output.writeUInt32(8, nextScheduleChangeTime_);
       }
       if (isFirstInteract_ != false) {
-        output.writeBool(9, isFirstInteract_);
+        output.writeBool(10, isFirstInteract_);
       }
       if (aPNIJHFBPJJ_ != null) {
         output.writeMessage(11, getAPNIJHFBPJJ());
@@ -917,7 +917,7 @@ public final class TowerAllDataRspOuterClass {
         output.writeUInt32(14, cNHABFOCHCE_);
       }
       for (int i = 0; i < towerFloorRecordList_.size(); i++) {
-        output.writeMessage(15, towerFloorRecordList_.get(i));
+        output.writeMessage(7, towerFloorRecordList_.get(i));
       }
       if (dAMFIAIIDBC_ != 0) {
         output.writeUInt32(16, dAMFIAIIDBC_);
@@ -948,7 +948,7 @@ public final class TowerAllDataRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(1, retcode_);
+          .computeInt32Size(6, retcode_);
       }
       if (cMPBNABBONP_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -970,7 +970,7 @@ public final class TowerAllDataRspOuterClass {
       }
       if (isFinishedEntranceFloor_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, isFinishedEntranceFloor_);
+          .computeBoolSize(4, isFinishedEntranceFloor_);
       }
       if (nextScheduleChangeTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -978,7 +978,7 @@ public final class TowerAllDataRspOuterClass {
       }
       if (isFirstInteract_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isFirstInteract_);
+          .computeBoolSize(10, isFirstInteract_);
       }
       if (aPNIJHFBPJJ_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -998,7 +998,7 @@ public final class TowerAllDataRspOuterClass {
       }
       for (int i = 0; i < towerFloorRecordList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, towerFloorRecordList_.get(i));
+          .computeMessageSize(7, towerFloorRecordList_.get(i));
       }
       if (dAMFIAIIDBC_ != 0) {
         size += com.google.protobuf.CodedOutputStream

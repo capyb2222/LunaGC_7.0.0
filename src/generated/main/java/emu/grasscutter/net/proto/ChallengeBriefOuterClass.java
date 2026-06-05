@@ -30,24 +30,8 @@ public final class ChallengeBriefOuterClass {
      */
     int getODJLLLPLBHE();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 cur_progress = 3;</code>
-     * @return The curProgress.
-     */
     int getCurProgress();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>bool is_success = 7;</code>
-     * @return The isSuccess.
-     */
     boolean getIsSuccess();
   }
   /**
@@ -169,31 +153,17 @@ public final class ChallengeBriefOuterClass {
       return oDJLLLPLBHE_;
     }
 
-    public static final int CUR_PROGRESS_FIELD_NUMBER = 3;
+    public static final int CUR_PROGRESS_FIELD_NUMBER = 7;
     private int curProgress_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 cur_progress = 3;</code>
-     * @return The curProgress.
-     */
+
     @java.lang.Override
     public int getCurProgress() {
       return curProgress_;
     }
 
-    public static final int IS_SUCCESS_FIELD_NUMBER = 7;
+    public static final int IS_SUCCESS_FIELD_NUMBER = 6;
     private boolean isSuccess_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>bool is_success = 7;</code>
-     * @return The isSuccess.
-     */
+
     @java.lang.Override
     public boolean getIsSuccess() {
       return isSuccess_;
@@ -214,10 +184,10 @@ public final class ChallengeBriefOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (curProgress_ != 0) {
-        output.writeUInt32(3, curProgress_);
+        output.writeUInt32(7, curProgress_);
       }
       if (isSuccess_ != false) {
-        output.writeBool(7, isSuccess_);
+        output.writeBool(6, isSuccess_);
       }
       if (oDJLLLPLBHE_ != 0) {
         output.writeUInt32(32570, oDJLLLPLBHE_);
@@ -236,11 +206,11 @@ public final class ChallengeBriefOuterClass {
       size = 0;
       if (curProgress_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, curProgress_);
+          .computeUInt32Size(7, curProgress_);
       }
       if (isSuccess_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, isSuccess_);
+          .computeBoolSize(6, isSuccess_);
       }
       if (oDJLLLPLBHE_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -568,7 +538,7 @@ public final class ChallengeBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBLMLKOLOILB(int value) {
-        
+
         bLMLKOLOILB_ = value;
         onChanged();
         return this;
@@ -578,7 +548,7 @@ public final class ChallengeBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBLMLKOLOILB() {
-        
+
         bLMLKOLOILB_ = 0;
         onChanged();
         return this;
@@ -599,7 +569,7 @@ public final class ChallengeBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder setODJLLLPLBHE(int value) {
-        
+
         oDJLLLPLBHE_ = value;
         onChanged();
         return this;
@@ -609,93 +579,49 @@ public final class ChallengeBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearODJLLLPLBHE() {
-        
+
         oDJLLLPLBHE_ = 0;
         onChanged();
         return this;
       }
 
       private int curProgress_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 cur_progress = 3;</code>
-       * @return The curProgress.
-       */
+
       @java.lang.Override
       public int getCurProgress() {
         return curProgress_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 cur_progress = 3;</code>
-       * @param value The curProgress to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setCurProgress(int value) {
-        
+
         curProgress_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 cur_progress = 3;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearCurProgress() {
-        
+
         curProgress_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isSuccess_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>bool is_success = 7;</code>
-       * @return The isSuccess.
-       */
+
       @java.lang.Override
       public boolean getIsSuccess() {
         return isSuccess_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>bool is_success = 7;</code>
-       * @param value The isSuccess to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setIsSuccess(boolean value) {
-        
+
         isSuccess_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>bool is_success = 7;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearIsSuccess() {
-        
+
         isSuccess_ = false;
         onChanged();
         return this;
@@ -711,7 +637,6 @@ public final class ChallengeBriefOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:ChallengeBrief)
     }
@@ -755,7 +680,7 @@ public final class ChallengeBriefOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ChallengeBrief_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ChallengeBrief_fieldAccessorTable;
 

@@ -18,33 +18,10 @@ public final class UpdatePlayerShowNameCardListReqOuterClass {
       // @@protoc_insertion_point(interface_extends:UpdatePlayerShowNameCardListReq)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>repeated uint32 show_name_card_id_list = 1;</code>
-     * @return A list containing the showNameCardIdList.
-     */
     java.util.List<java.lang.Integer> getShowNameCardIdListList();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>repeated uint32 show_name_card_id_list = 1;</code>
-     * @return The count of showNameCardIdList.
-     */
+
     int getShowNameCardIdListCount();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>repeated uint32 show_name_card_id_list = 1;</code>
-     * @param index The index of the element to return.
-     * @return The showNameCardIdList at the given index.
-     */
+
     int getShowNameCardIdList(int index);
   }
   /**
@@ -99,7 +76,7 @@ public final class UpdatePlayerShowNameCardListReqOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 104: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 showNameCardIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -107,7 +84,7 @@ public final class UpdatePlayerShowNameCardListReqOuterClass {
               showNameCardIdList_.addInt(input.readUInt32());
               break;
             }
-            case 10: {
+            case 106: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -155,41 +132,19 @@ public final class UpdatePlayerShowNameCardListReqOuterClass {
               emu.grasscutter.net.proto.UpdatePlayerShowNameCardListReqOuterClass.UpdatePlayerShowNameCardListReq.class, emu.grasscutter.net.proto.UpdatePlayerShowNameCardListReqOuterClass.UpdatePlayerShowNameCardListReq.Builder.class);
     }
 
-    public static final int SHOW_NAME_CARD_ID_LIST_FIELD_NUMBER = 1;
+    public static final int SHOW_NAME_CARD_ID_LIST_FIELD_NUMBER = 13;
     private com.google.protobuf.Internal.IntList showNameCardIdList_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>repeated uint32 show_name_card_id_list = 1;</code>
-     * @return A list containing the showNameCardIdList.
-     */
+
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getShowNameCardIdListList() {
       return showNameCardIdList_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>repeated uint32 show_name_card_id_list = 1;</code>
-     * @return The count of showNameCardIdList.
-     */
+
     public int getShowNameCardIdListCount() {
       return showNameCardIdList_.size();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>repeated uint32 show_name_card_id_list = 1;</code>
-     * @param index The index of the element to return.
-     * @return The showNameCardIdList at the given index.
-     */
+
     public int getShowNameCardIdList(int index) {
       return showNameCardIdList_.getInt(index);
     }
@@ -211,7 +166,7 @@ public final class UpdatePlayerShowNameCardListReqOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getShowNameCardIdListList().size() > 0) {
-        output.writeUInt32NoTag(10);
+        output.writeUInt32NoTag(106);
         output.writeUInt32NoTag(showNameCardIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < showNameCardIdList_.size(); i++) {
@@ -539,52 +494,21 @@ public final class UpdatePlayerShowNameCardListReqOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>repeated uint32 show_name_card_id_list = 1;</code>
-       * @return A list containing the showNameCardIdList.
-       */
+
       public java.util.List<java.lang.Integer>
           getShowNameCardIdListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(showNameCardIdList_) : showNameCardIdList_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>repeated uint32 show_name_card_id_list = 1;</code>
-       * @return The count of showNameCardIdList.
-       */
+
       public int getShowNameCardIdListCount() {
         return showNameCardIdList_.size();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>repeated uint32 show_name_card_id_list = 1;</code>
-       * @param index The index of the element to return.
-       * @return The showNameCardIdList at the given index.
-       */
+
       public int getShowNameCardIdList(int index) {
         return showNameCardIdList_.getInt(index);
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>repeated uint32 show_name_card_id_list = 1;</code>
-       * @param index The index to set the value at.
-       * @param value The showNameCardIdList to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setShowNameCardIdList(
           int index, int value) {
         ensureShowNameCardIdListIsMutable();
@@ -592,30 +516,14 @@ public final class UpdatePlayerShowNameCardListReqOuterClass {
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>repeated uint32 show_name_card_id_list = 1;</code>
-       * @param value The showNameCardIdList to add.
-       * @return This builder for chaining.
-       */
+
       public Builder addShowNameCardIdList(int value) {
         ensureShowNameCardIdListIsMutable();
         showNameCardIdList_.addInt(value);
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>repeated uint32 show_name_card_id_list = 1;</code>
-       * @param values The showNameCardIdList to add.
-       * @return This builder for chaining.
-       */
+
       public Builder addAllShowNameCardIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureShowNameCardIdListIsMutable();
@@ -624,14 +532,7 @@ public final class UpdatePlayerShowNameCardListReqOuterClass {
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>repeated uint32 show_name_card_id_list = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearShowNameCardIdList() {
         showNameCardIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -649,7 +550,6 @@ public final class UpdatePlayerShowNameCardListReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:UpdatePlayerShowNameCardListReq)
     }
@@ -693,7 +593,7 @@ public final class UpdatePlayerShowNameCardListReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_UpdatePlayerShowNameCardListReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_UpdatePlayerShowNameCardListReq_fieldAccessorTable;
 

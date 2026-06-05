@@ -18,52 +18,14 @@ public final class AvatarTeamOuterClass {
       // @@protoc_insertion_point(interface_extends:AvatarTeam)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint64 avatar_guid_list = 3;</code>
-     * @return A list containing the avatarGuidList.
-     */
     java.util.List<java.lang.Long> getAvatarGuidListList();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint64 avatar_guid_list = 3;</code>
-     * @return The count of avatarGuidList.
-     */
+
     int getAvatarGuidListCount();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint64 avatar_guid_list = 3;</code>
-     * @param index The index of the element to return.
-     * @return The avatarGuidList at the given index.
-     */
+
     long getAvatarGuidList(int index);
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string team_name = 14;</code>
-     * @return The teamName.
-     */
     java.lang.String getTeamName();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string team_name = 14;</code>
-     * @return The bytes for teamName.
-     */
+
     com.google.protobuf.ByteString
         getTeamNameBytes();
   }
@@ -115,7 +77,13 @@ public final class AvatarTeamOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 18: {
+              java.lang.String s = input.readStringRequireUtf8();
+
+              teamName_ = s;
+              break;
+            }
+            case 48: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 avatarGuidList_ = newLongList();
                 mutable_bitField0_ |= 0x00000001;
@@ -123,7 +91,7 @@ public final class AvatarTeamOuterClass {
               avatarGuidList_.addLong(input.readUInt64());
               break;
             }
-            case 26: {
+            case 50: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -134,12 +102,6 @@ public final class AvatarTeamOuterClass {
                 avatarGuidList_.addLong(input.readUInt64());
               }
               input.popLimit(limit);
-              break;
-            }
-            case 114: {
-              java.lang.String s = input.readStringRequireUtf8();
-
-              teamName_ = s;
               break;
             }
             default: {
@@ -177,83 +139,47 @@ public final class AvatarTeamOuterClass {
               emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam.class, emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam.Builder.class);
     }
 
-    public static final int AVATAR_GUID_LIST_FIELD_NUMBER = 3;
+    public static final int AVATAR_GUID_LIST_FIELD_NUMBER = 6;
     private com.google.protobuf.Internal.LongList avatarGuidList_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint64 avatar_guid_list = 3;</code>
-     * @return A list containing the avatarGuidList.
-     */
+
     @java.lang.Override
     public java.util.List<java.lang.Long>
         getAvatarGuidListList() {
       return avatarGuidList_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint64 avatar_guid_list = 3;</code>
-     * @return The count of avatarGuidList.
-     */
+
     public int getAvatarGuidListCount() {
       return avatarGuidList_.size();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint64 avatar_guid_list = 3;</code>
-     * @param index The index of the element to return.
-     * @return The avatarGuidList at the given index.
-     */
+
     public long getAvatarGuidList(int index) {
       return avatarGuidList_.getLong(index);
     }
     private int avatarGuidListMemoizedSerializedSize = -1;
 
-    public static final int TEAM_NAME_FIELD_NUMBER = 14;
+    public static final int TEAM_NAME_FIELD_NUMBER = 2;
     private volatile java.lang.Object teamName_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string team_name = 14;</code>
-     * @return The teamName.
-     */
+
     @java.lang.Override
     public java.lang.String getTeamName() {
       java.lang.Object ref = teamName_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         teamName_ = s;
         return s;
       }
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string team_name = 14;</code>
-     * @return The bytes for teamName.
-     */
+
     @java.lang.Override
     public com.google.protobuf.ByteString
         getTeamNameBytes() {
       java.lang.Object ref = teamName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         teamName_ = b;
@@ -279,14 +205,14 @@ public final class AvatarTeamOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getAvatarGuidListList().size() > 0) {
-        output.writeUInt32NoTag(26);
+        output.writeUInt32NoTag(50);
         output.writeUInt32NoTag(avatarGuidListMemoizedSerializedSize);
       }
       for (int i = 0; i < avatarGuidList_.size(); i++) {
         output.writeUInt64NoTag(avatarGuidList_.getLong(i));
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(teamName_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 14, teamName_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 2, teamName_);
       }
       unknownFields.writeTo(output);
     }
@@ -312,7 +238,7 @@ public final class AvatarTeamOuterClass {
         avatarGuidListMemoizedSerializedSize = dataSize;
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(teamName_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(14, teamName_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(2, teamName_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -619,52 +545,21 @@ public final class AvatarTeamOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint64 avatar_guid_list = 3;</code>
-       * @return A list containing the avatarGuidList.
-       */
+
       public java.util.List<java.lang.Long>
           getAvatarGuidListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(avatarGuidList_) : avatarGuidList_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint64 avatar_guid_list = 3;</code>
-       * @return The count of avatarGuidList.
-       */
+
       public int getAvatarGuidListCount() {
         return avatarGuidList_.size();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint64 avatar_guid_list = 3;</code>
-       * @param index The index of the element to return.
-       * @return The avatarGuidList at the given index.
-       */
+
       public long getAvatarGuidList(int index) {
         return avatarGuidList_.getLong(index);
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint64 avatar_guid_list = 3;</code>
-       * @param index The index to set the value at.
-       * @param value The avatarGuidList to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setAvatarGuidList(
           int index, long value) {
         ensureAvatarGuidListIsMutable();
@@ -672,30 +567,14 @@ public final class AvatarTeamOuterClass {
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint64 avatar_guid_list = 3;</code>
-       * @param value The avatarGuidList to add.
-       * @return This builder for chaining.
-       */
+
       public Builder addAvatarGuidList(long value) {
         ensureAvatarGuidListIsMutable();
         avatarGuidList_.addLong(value);
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint64 avatar_guid_list = 3;</code>
-       * @param values The avatarGuidList to add.
-       * @return This builder for chaining.
-       */
+
       public Builder addAllAvatarGuidList(
           java.lang.Iterable<? extends java.lang.Long> values) {
         ensureAvatarGuidListIsMutable();
@@ -704,14 +583,7 @@ public final class AvatarTeamOuterClass {
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint64 avatar_guid_list = 3;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearAvatarGuidList() {
         avatarGuidList_ = emptyLongList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -720,14 +592,7 @@ public final class AvatarTeamOuterClass {
       }
 
       private java.lang.Object teamName_ = "";
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string team_name = 14;</code>
-       * @return The teamName.
-       */
+
       public java.lang.String getTeamName() {
         java.lang.Object ref = teamName_;
         if (!(ref instanceof java.lang.String)) {
@@ -740,19 +605,12 @@ public final class AvatarTeamOuterClass {
           return (java.lang.String) ref;
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string team_name = 14;</code>
-       * @return The bytes for teamName.
-       */
+
       public com.google.protobuf.ByteString
           getTeamNameBytes() {
         java.lang.Object ref = teamName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           teamName_ = b;
@@ -761,55 +619,32 @@ public final class AvatarTeamOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string team_name = 14;</code>
-       * @param value The teamName to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setTeamName(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         teamName_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string team_name = 14;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearTeamName() {
-        
+
         teamName_ = getDefaultInstance().getTeamName();
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string team_name = 14;</code>
-       * @param value The bytes for teamName to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setTeamNameBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         teamName_ = value;
         onChanged();
         return this;
@@ -825,7 +660,6 @@ public final class AvatarTeamOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:AvatarTeam)
     }
@@ -869,7 +703,7 @@ public final class AvatarTeamOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarTeam_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarTeam_fieldAccessorTable;
 

@@ -407,7 +407,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
           detailCase_);
     }
 
-    public static final int FINISH_TYPE_FIELD_NUMBER = 7;
+    public static final int FINISH_TYPE_FIELD_NUMBER = 5;
     private int finishType_;
     /**
      * <code>.ChallengeFinishType finish_type = 7;</code>
@@ -426,7 +426,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
       return result == null ? emu.grasscutter.net.proto.ChallengeFinishTypeOuterClass.ChallengeFinishType.UNRECOGNIZED : result;
     }
 
-    public static final int IS_SUCCESS_FIELD_NUMBER = 11;
+    public static final int IS_SUCCESS_FIELD_NUMBER = 15;
     private boolean isSuccess_;
     /**
      * <code>bool is_success = 11;</code>
@@ -459,7 +459,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
       return currentValue_;
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 15;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 9;
     private boolean isNewRecord_;
     /**
      * <code>bool is_new_record = 15;</code>
@@ -721,13 +721,13 @@ public final class DungeonChallengeFinishNotifyOuterClass {
           StrengthenPointDataMapDefaultEntryHolder.defaultEntry,
           5);
       if (finishType_ != emu.grasscutter.net.proto.ChallengeFinishTypeOuterClass.ChallengeFinishType.CHALLENGE_FINISH_TYPE_NONE.getNumber()) {
-        output.writeEnum(7, finishType_);
+        output.writeEnum(5, finishType_);
       }
       if (challengeIndex_ != 0) {
         output.writeUInt32(8, challengeIndex_);
       }
       if (isSuccess_ != false) {
-        output.writeBool(11, isSuccess_);
+        output.writeBool(15, isSuccess_);
       }
       if (timeCost_ != 0) {
         output.writeUInt32(13, timeCost_);
@@ -736,7 +736,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
         output.writeUInt32(14, currentValue_);
       }
       if (isNewRecord_ != false) {
-        output.writeBool(15, isNewRecord_);
+        output.writeBool(9, isNewRecord_);
       }
       if (detailCase_ == 339) {
         output.writeMessage(339, (emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo) detail_);
@@ -775,7 +775,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
       }
       if (finishType_ != emu.grasscutter.net.proto.ChallengeFinishTypeOuterClass.ChallengeFinishType.CHALLENGE_FINISH_TYPE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(7, finishType_);
+          .computeEnumSize(5, finishType_);
       }
       if (challengeIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -783,7 +783,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
       }
       if (isSuccess_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, isSuccess_);
+          .computeBoolSize(15, isSuccess_);
       }
       if (timeCost_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -795,7 +795,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
       }
       if (isNewRecord_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, isNewRecord_);
+          .computeBoolSize(9, isNewRecord_);
       }
       if (detailCase_ == 339) {
         size += com.google.protobuf.CodedOutputStream

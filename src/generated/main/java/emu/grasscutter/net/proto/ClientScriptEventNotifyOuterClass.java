@@ -176,7 +176,7 @@ public final class ClientScriptEventNotifyOuterClass {
               emu.grasscutter.net.proto.ClientScriptEventNotifyOuterClass.ClientScriptEventNotify.class, emu.grasscutter.net.proto.ClientScriptEventNotifyOuterClass.ClientScriptEventNotify.Builder.class);
     }
 
-    public static final int SOURCE_ENTITY_ID_FIELD_NUMBER = 14;
+    public static final int SOURCE_ENTITY_ID_FIELD_NUMBER = 2;
     private int sourceEntityId_;
     /**
      * <code>uint32 source_entity_id = 14;</code>
@@ -187,7 +187,7 @@ public final class ClientScriptEventNotifyOuterClass {
       return sourceEntityId_;
     }
 
-    public static final int TARGET_ENTITY_ID_FIELD_NUMBER = 1;
+    public static final int TARGET_ENTITY_ID_FIELD_NUMBER = 12;
     private int targetEntityId_;
     /**
      * <code>uint32 target_entity_id = 1;</code>
@@ -198,7 +198,7 @@ public final class ClientScriptEventNotifyOuterClass {
       return targetEntityId_;
     }
 
-    public static final int EVENT_TYPE_FIELD_NUMBER = 4;
+    public static final int EVENT_TYPE_FIELD_NUMBER = 9;
     private int eventType_;
     /**
      * <code>uint32 event_type = 4;</code>
@@ -209,7 +209,7 @@ public final class ClientScriptEventNotifyOuterClass {
       return eventType_;
     }
 
-    public static final int PARAM_LIST_FIELD_NUMBER = 2;
+    public static final int PARAM_LIST_FIELD_NUMBER = 10;
     private com.google.protobuf.Internal.IntList paramList_;
     /**
      * <code>repeated int32 param_list = 2;</code>
@@ -253,7 +253,7 @@ public final class ClientScriptEventNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (targetEntityId_ != 0) {
-        output.writeUInt32(1, targetEntityId_);
+        output.writeUInt32(12, targetEntityId_);
       }
       if (getParamListList().size() > 0) {
         output.writeUInt32NoTag(18);
@@ -263,10 +263,10 @@ public final class ClientScriptEventNotifyOuterClass {
         output.writeInt32NoTag(paramList_.getInt(i));
       }
       if (eventType_ != 0) {
-        output.writeUInt32(4, eventType_);
+        output.writeUInt32(9, eventType_);
       }
       if (sourceEntityId_ != 0) {
-        output.writeUInt32(14, sourceEntityId_);
+        output.writeUInt32(2, sourceEntityId_);
       }
       unknownFields.writeTo(output);
     }
@@ -279,7 +279,7 @@ public final class ClientScriptEventNotifyOuterClass {
       size = 0;
       if (targetEntityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, targetEntityId_);
+          .computeUInt32Size(12, targetEntityId_);
       }
       {
         int dataSize = 0;
@@ -297,11 +297,11 @@ public final class ClientScriptEventNotifyOuterClass {
       }
       if (eventType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, eventType_);
+          .computeUInt32Size(9, eventType_);
       }
       if (sourceEntityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, sourceEntityId_);
+          .computeUInt32Size(2, sourceEntityId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

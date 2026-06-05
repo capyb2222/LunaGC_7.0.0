@@ -282,6 +282,10 @@ public class Avatar {
                 .mapToInt(openData -> (openData.getProudSkillGroupId() * 100) + 1)
                 .filter(proudSkillId -> GameData.getProudSkillDataMap().containsKey(proudSkillId))
                 .forEach(proudSkillId -> this.proudSkillList.add(proudSkillId));
+        skillDepot.getQuestProudSkillGroupIds().intStream()
+                .map(groupId -> (groupId * 100) + 1)
+                .filter(proudSkillId -> GameData.getProudSkillDataMap().containsKey(proudSkillId))
+                .forEach(proudSkillId -> this.proudSkillList.add(proudSkillId));
         this.recalcStats();
 
         if (notify) {
@@ -706,6 +710,12 @@ public class Avatar {
                     if (GameData.getProudSkillDataMap().containsKey(proudSkillId)) {
                         this.getProudSkillList().add(proudSkillId);
                     }
+                }
+            }
+            for (int groupId : skillDepot.getQuestProudSkillGroupIds()) {
+                int proudSkillId = (groupId * 100) + 1;
+                if (GameData.getProudSkillDataMap().containsKey(proudSkillId)) {
+                    this.getProudSkillList().add(proudSkillId);
                 }
             }
         }

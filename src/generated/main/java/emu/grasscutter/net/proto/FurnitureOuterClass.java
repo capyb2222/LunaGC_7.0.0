@@ -18,14 +18,6 @@ public final class FurnitureOuterClass {
       // @@protoc_insertion_point(interface_extends:Furniture)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 count = 1;</code>
-     * @return The count.
-     */
     int getCount();
   }
   /**
@@ -112,14 +104,7 @@ public final class FurnitureOuterClass {
 
     public static final int COUNT_FIELD_NUMBER = 1;
     private int count_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 count = 1;</code>
-     * @return The count.
-     */
+
     @java.lang.Override
     public int getCount() {
       return count_;
@@ -428,43 +413,21 @@ public final class FurnitureOuterClass {
       }
 
       private int count_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 count = 1;</code>
-       * @return The count.
-       */
+
       @java.lang.Override
       public int getCount() {
         return count_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 count = 1;</code>
-       * @param value The count to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setCount(int value) {
-        
+
         count_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 count = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearCount() {
-        
+
         count_ = 0;
         onChanged();
         return this;
@@ -480,7 +443,6 @@ public final class FurnitureOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:Furniture)
     }
@@ -524,7 +486,7 @@ public final class FurnitureOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Furniture_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Furniture_fieldAccessorTable;
 

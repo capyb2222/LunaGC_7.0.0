@@ -18,23 +18,8 @@ public final class SetPlayerSignatureReqOuterClass {
       // @@protoc_insertion_point(interface_extends:SetPlayerSignatureReq)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string signature = 14;</code>
-     * @return The signature.
-     */
     java.lang.String getSignature();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string signature = 14;</code>
-     * @return The bytes for signature.
-     */
+
     com.google.protobuf.ByteString
         getSignatureBytes();
   }
@@ -128,41 +113,27 @@ public final class SetPlayerSignatureReqOuterClass {
 
     public static final int SIGNATURE_FIELD_NUMBER = 14;
     private volatile java.lang.Object signature_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string signature = 14;</code>
-     * @return The signature.
-     */
+
     @java.lang.Override
     public java.lang.String getSignature() {
       java.lang.Object ref = signature_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         signature_ = s;
         return s;
       }
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string signature = 14;</code>
-     * @return The bytes for signature.
-     */
+
     @java.lang.Override
     public com.google.protobuf.ByteString
         getSignatureBytes() {
       java.lang.Object ref = signature_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         signature_ = b;
@@ -479,14 +450,7 @@ public final class SetPlayerSignatureReqOuterClass {
       }
 
       private java.lang.Object signature_ = "";
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string signature = 14;</code>
-       * @return The signature.
-       */
+
       public java.lang.String getSignature() {
         java.lang.Object ref = signature_;
         if (!(ref instanceof java.lang.String)) {
@@ -499,19 +463,12 @@ public final class SetPlayerSignatureReqOuterClass {
           return (java.lang.String) ref;
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string signature = 14;</code>
-       * @return The bytes for signature.
-       */
+
       public com.google.protobuf.ByteString
           getSignatureBytes() {
         java.lang.Object ref = signature_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           signature_ = b;
@@ -520,55 +477,32 @@ public final class SetPlayerSignatureReqOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string signature = 14;</code>
-       * @param value The signature to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setSignature(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         signature_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string signature = 14;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearSignature() {
-        
+
         signature_ = getDefaultInstance().getSignature();
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string signature = 14;</code>
-       * @param value The bytes for signature to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setSignatureBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         signature_ = value;
         onChanged();
         return this;
@@ -584,7 +518,6 @@ public final class SetPlayerSignatureReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:SetPlayerSignatureReq)
     }
@@ -628,7 +561,7 @@ public final class SetPlayerSignatureReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SetPlayerSignatureReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SetPlayerSignatureReq_fieldAccessorTable;
 

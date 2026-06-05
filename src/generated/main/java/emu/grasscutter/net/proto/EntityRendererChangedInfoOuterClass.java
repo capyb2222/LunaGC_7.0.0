@@ -18,21 +18,8 @@ public final class EntityRendererChangedInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:EntityRendererChangedInfo)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
-     */
     int getChangedRenderersCount();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
-     */
+
     boolean containsChangedRenderers(
         java.lang.String key);
     /**
@@ -41,55 +28,19 @@ public final class EntityRendererChangedInfoOuterClass {
     @java.lang.Deprecated
     java.util.Map<java.lang.String, java.lang.Integer>
     getChangedRenderers();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
-     */
+
     java.util.Map<java.lang.String, java.lang.Integer>
     getChangedRenderersMap();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
-     */
 
     int getChangedRenderersOrDefault(
         java.lang.String key,
         int defaultValue);
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
-     */
 
     int getChangedRenderersOrThrow(
         java.lang.String key);
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>bool is_cached = 3;</code>
-     * @return The isCached.
-     */
     boolean getIsCached();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 visibility_count = 2;</code>
-     * @return The visibilityCount.
-     */
     int getVisibilityCount();
   }
   /**
@@ -211,7 +162,7 @@ public final class EntityRendererChangedInfoOuterClass {
           java.lang.String, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.internal_static_EntityRendererChangedInfo_ChangedRenderersEntry_descriptor, 
+                  emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.internal_static_EntityRendererChangedInfo_ChangedRenderersEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -231,13 +182,6 @@ public final class EntityRendererChangedInfoOuterClass {
     public int getChangedRenderersCount() {
       return internalGetChangedRenderers().getMap().size();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
-     */
 
     @java.lang.Override
     public boolean containsChangedRenderers(
@@ -253,25 +197,13 @@ public final class EntityRendererChangedInfoOuterClass {
     public java.util.Map<java.lang.String, java.lang.Integer> getChangedRenderers() {
       return getChangedRenderersMap();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
-     */
+
     @java.lang.Override
 
     public java.util.Map<java.lang.String, java.lang.Integer> getChangedRenderersMap() {
       return internalGetChangedRenderers().getMap();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
-     */
+
     @java.lang.Override
 
     public int getChangedRenderersOrDefault(
@@ -282,13 +214,7 @@ public final class EntityRendererChangedInfoOuterClass {
           internalGetChangedRenderers().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
-     */
+
     @java.lang.Override
 
     public int getChangedRenderersOrThrow(
@@ -304,14 +230,7 @@ public final class EntityRendererChangedInfoOuterClass {
 
     public static final int IS_CACHED_FIELD_NUMBER = 3;
     private boolean isCached_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>bool is_cached = 3;</code>
-     * @return The isCached.
-     */
+
     @java.lang.Override
     public boolean getIsCached() {
       return isCached_;
@@ -319,14 +238,7 @@ public final class EntityRendererChangedInfoOuterClass {
 
     public static final int VISIBILITY_COUNT_FIELD_NUMBER = 2;
     private int visibilityCount_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 visibility_count = 2;</code>
-     * @return The visibilityCount.
-     */
+
     @java.lang.Override
     public int getVisibilityCount() {
       return visibilityCount_;
@@ -729,13 +641,6 @@ public final class EntityRendererChangedInfoOuterClass {
       public int getChangedRenderersCount() {
         return internalGetChangedRenderers().getMap().size();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
-       */
 
       @java.lang.Override
       public boolean containsChangedRenderers(
@@ -751,25 +656,13 @@ public final class EntityRendererChangedInfoOuterClass {
       public java.util.Map<java.lang.String, java.lang.Integer> getChangedRenderers() {
         return getChangedRenderersMap();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
-       */
+
       @java.lang.Override
 
       public java.util.Map<java.lang.String, java.lang.Integer> getChangedRenderersMap() {
         return internalGetChangedRenderers().getMap();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
-       */
+
       @java.lang.Override
 
       public int getChangedRenderersOrDefault(
@@ -780,13 +673,7 @@ public final class EntityRendererChangedInfoOuterClass {
             internalGetChangedRenderers().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
-       */
+
       @java.lang.Override
 
       public int getChangedRenderersOrThrow(
@@ -805,13 +692,6 @@ public final class EntityRendererChangedInfoOuterClass {
             .clear();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
-       */
 
       public Builder removeChangedRenderers(
           java.lang.String key) {
@@ -828,29 +708,16 @@ public final class EntityRendererChangedInfoOuterClass {
       getMutableChangedRenderers() {
         return internalGetMutableChangedRenderers().getMutableMap();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
-       */
+
       public Builder putChangedRenderers(
           java.lang.String key,
           int value) {
         if (key == null) { throw new java.lang.NullPointerException(); }
-        
+
         internalGetMutableChangedRenderers().getMutableMap()
             .put(key, value);
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
-       */
 
       public Builder putAllChangedRenderers(
           java.util.Map<java.lang.String, java.lang.Integer> values) {
@@ -860,86 +727,42 @@ public final class EntityRendererChangedInfoOuterClass {
       }
 
       private boolean isCached_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>bool is_cached = 3;</code>
-       * @return The isCached.
-       */
+
       @java.lang.Override
       public boolean getIsCached() {
         return isCached_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>bool is_cached = 3;</code>
-       * @param value The isCached to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setIsCached(boolean value) {
-        
+
         isCached_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>bool is_cached = 3;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearIsCached() {
-        
+
         isCached_ = false;
         onChanged();
         return this;
       }
 
       private int visibilityCount_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 visibility_count = 2;</code>
-       * @return The visibilityCount.
-       */
+
       @java.lang.Override
       public int getVisibilityCount() {
         return visibilityCount_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 visibility_count = 2;</code>
-       * @param value The visibilityCount to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setVisibilityCount(int value) {
-        
+
         visibilityCount_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 visibility_count = 2;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearVisibilityCount() {
-        
+
         visibilityCount_ = 0;
         onChanged();
         return this;
@@ -955,7 +778,6 @@ public final class EntityRendererChangedInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:EntityRendererChangedInfo)
     }
@@ -999,12 +821,12 @@ public final class EntityRendererChangedInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EntityRendererChangedInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EntityRendererChangedInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EntityRendererChangedInfo_ChangedRenderersEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EntityRendererChangedInfo_ChangedRenderersEntry_fieldAccessorTable;
 

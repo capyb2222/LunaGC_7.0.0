@@ -94,6 +94,14 @@ public final class Utils {
         return bytes;
     }
 
+    public static int animatorHash(String name) {
+        int h = 5381;
+        for (char c : name.toCharArray()) {
+            h = ((h << 5) + h) ^ (int) c;
+        }
+        return h;
+    }
+
     public static int abilityHash(String str) {
         int v7 = 0;
         int v8 = 0;
@@ -103,43 +111,18 @@ public final class Utils {
         return v7;
     }
 
-    /**
-     * Creates a string with the path to a file.
-     *
-     * @param path The path to the file.
-     * @return A path using the operating system's file separator.
-     */
     public static String toFilePath(String path) {
         return path.replace("/", File.separator);
     }
 
-    /**
-     * Checks if a file exists on the file system.
-     *
-     * @param path The path to the file.
-     * @return True if the file exists, false otherwise.
-     */
     public static boolean fileExists(String path) {
         return new File(path).exists();
     }
 
-    /**
-     * Creates a folder on the file system.
-     *
-     * @param path The path to the folder.
-     * @return True if the folder was created, false otherwise.
-     */
     public static boolean createFolder(String path) {
         return new File(path).mkdirs();
     }
 
-    /**
-     * Copies a file from the archive's resources to the file system.
-     *
-     * @param resource The path to the resource.
-     * @param destination The path to copy the resource to.
-     * @return True if the file was copied, false otherwise.
-     */
     public static boolean copyFromResources(String resource, String destination) {
         try (InputStream stream = Grasscutter.class.getResourceAsStream(resource)) {
             if (stream == null) {
@@ -156,16 +139,10 @@ public final class Utils {
         }
     }
 
-    /**
-     * Logs an object to the console.
-     *
-     * @param object The object to log.
-     */
     public static void logObject(Object object) {
         Grasscutter.getLogger().info(JsonUtils.encode(object));
     }
 
-    /** Checks for required files and folders before startup. */
     public static void startupCheck() {
         ConfigContainer config = Grasscutter.getConfig();
         Logger logger = Grasscutter.getLogger();
@@ -173,7 +150,6 @@ public final class Utils {
 
         String dataFolder = config.folderStructure.data;
 
-        // Check for resources folder.
         if (!Files.exists(getResourcePath(""))) {
             logger.info(translate("messages.status.create_resources"));
             logger.info(translate("messages.status.resources_error"));
@@ -181,43 +157,31 @@ public final class Utils {
             exit = true;
         }
 
-        // Check for BinOutput + ExcelBinOutput.
         if (!Files.exists(getResourcePath("BinOutput"))
                 || !Files.exists(getResourcePath("ExcelBinOutput"))) {
             logger.info(translate("messages.status.resources_error"));
             exit = true;
         }
 
-        // Check for game data.
         if (!fileExists(dataFolder)) createFolder(dataFolder);
 
-        // Check for Server resources.
         if (!Files.exists(getResourcePath("Server"))) {
             logger.info(translate("messages.status.resources.missing_server"));
             custom = true;
         }
 
-        // Check for ScriptSceneData.
         if (!Files.exists(getResourcePath("ScriptSceneData"))) {
             logger.info(translate("messages.status.resources.missing_scenes"));
             custom = true;
         }
 
-        // Log message if custom resources are missing.
         if (custom) logger.info(translate("messages.status.resources.custom"));
 
-        // Exit if there are any missing files.
         if (exit) System.exit(1);
 
-        // Validate the data directory.
         DataLoader.checkAllFiles();
     }
 
-    /**
-     * Gets the timestamp of the next hour.
-     *
-     * @return The timestamp in UNIX seconds.
-     */
     public static int getNextTimestampOfThisHour(int hour, String timeZone, int param) {
         ZonedDateTime zonedDateTime = ZonedDateTime.now(ZoneId.of(timeZone));
         for (int i = 0; i < param; i++) {
@@ -230,11 +194,6 @@ public final class Utils {
         return (int) zonedDateTime.toInstant().atZone(ZoneOffset.UTC).toEpochSecond();
     }
 
-    /**
-     * Gets the timestamp of the next hour in a week.
-     *
-     * @return The timestamp in UNIX seconds.
-     */
     public static int getNextTimestampOfThisHourInNextWeek(int hour, String timeZone, int param) {
         ZonedDateTime zonedDateTime = ZonedDateTime.now(ZoneId.of(timeZone));
         for (int i = 0; i < param; i++) {
@@ -253,11 +212,6 @@ public final class Utils {
         return (int) zonedDateTime.toInstant().atZone(ZoneOffset.UTC).toEpochSecond();
     }
 
-    /**
-     * Gets the timestamp of the next hour in a month.
-     *
-     * @return The timestamp in UNIX seconds.
-     */
     public static int getNextTimestampOfThisHourInNextMonth(int hour, String timeZone, int param) {
         ZonedDateTime zonedDateTime = ZonedDateTime.now(ZoneId.of(timeZone));
         for (int i = 0; i < param; i++) {
@@ -276,12 +230,6 @@ public final class Utils {
         return (int) zonedDateTime.toInstant().atZone(ZoneOffset.UTC).toEpochSecond();
     }
 
-    /**
-     * Retrieves a string from an input stream.
-     *
-     * @param stream The input stream.
-     * @return The string.
-     */
     public static String readFromInputStream(@Nullable InputStream stream) {
         if (stream == null) return "empty";
 
@@ -301,30 +249,20 @@ public final class Utils {
         return stringBuilder.toString();
     }
 
-    /**
-     * Performs a linear interpolation using a table of fixed points to create an effective piecewise
-     * f(x) = y function.
-     *
-     * @param x The x value.
-     * @param xyArray Array of points in [[x0,y0], ... [xN, yN]] format
-     * @return f(x) = y
-     */
     public static int lerp(int x, int[][] xyArray) {
         try {
-            if (x <= xyArray[0][0]) { // Clamp to first point
+            if (x <= xyArray[0][0]) {
                 return xyArray[0][1];
-            } else if (x >= xyArray[xyArray.length - 1][0]) { // Clamp to last point
+            } else if (x >= xyArray[xyArray.length - 1][0]) {
                 return xyArray[xyArray.length - 1][1];
             }
-            // At this point we're guaranteed to have two lerp points, and pity be somewhere between them.
+
             for (int i = 0; i < xyArray.length - 1; i++) {
                 if (x == xyArray[i + 1][0]) {
                     return xyArray[i + 1][1];
                 }
                 if (x < xyArray[i + 1][0]) {
-                    // We are between [i] and [i+1], interpolation time!
-                    // Using floats would be slightly cleaner but we can just as easily use ints if we're
-                    // careful with order of operations.
+
                     int position = x - xyArray[i][0];
                     int fullDist = xyArray[i + 1][0] - xyArray[i][0];
                     int prevValue = xyArray[i][1];
@@ -339,13 +277,6 @@ public final class Utils {
         return 0;
     }
 
-    /**
-     * Checks if an int is in an int[]
-     *
-     * @param key int to look for
-     * @param array int[] to look in
-     * @return key in array
-     */
     public static boolean intInArray(int key, int[] array) {
         for (int i : array) {
             if (i == key) {
@@ -355,13 +286,6 @@ public final class Utils {
         return false;
     }
 
-    /**
-     * Return a copy of minuend without any elements found in subtrahend.
-     *
-     * @param minuend The array we want elements from
-     * @param subtrahend The array whose elements we don't want
-     * @return The array with only the elements we want, in the order that minuend had them
-     */
     public static int[] setSubtract(int[] minuend, int[] subtrahend) {
         IntList temp = new IntArrayList();
         for (int i : minuend) {
@@ -372,51 +296,25 @@ public final class Utils {
         return temp.toIntArray();
     }
 
-    /**
-     * Gets the language code from a given locale.
-     *
-     * @param locale A locale.
-     * @return A string in the format of 'XX-XX'.
-     */
     public static String getLanguageCode(Locale locale) {
         return String.format("%s-%s", locale.getLanguage(), locale.getCountry());
     }
 
-    /**
-     * Base64 encodes a given byte array.
-     *
-     * @param toEncode An array of bytes.
-     * @return A base64 encoded string.
-     */
     public static String base64Encode(byte[] toEncode) {
         return Base64.getEncoder().encodeToString(toEncode);
     }
 
-    /**
-     * Base64 decodes a given string.
-     *
-     * @param toDecode A base64 encoded string.
-     * @return An array of bytes.
-     */
     public static byte[] base64Decode(String toDecode) {
         return Base64.getDecoder().decode(toDecode);
     }
 
-    /***
-     * Draws a random element from the given list, following the given probability distribution, if given.
-     * @param list The list from which to draw the element.
-     * @param probabilities The probability distribution. This is given as a list of probabilities of the same length it `list`.
-     * @return A randomly drawn element from the given list.
-     */
     public static <T> T drawRandomListElement(List<T> list, List<Integer> probabilities) {
-        // If we don't have a probability distribution, or the size of the distribution does not match
-        // the size of the list, we assume uniform distribution.
+
         if (probabilities == null || probabilities.size() <= 1 || probabilities.size() != list.size()) {
             int index = ThreadLocalRandom.current().nextInt(0, list.size());
             return list.get(index);
         }
 
-        // Otherwise, we roll with the given distribution.
         int totalProbabilityMass = probabilities.stream().reduce(Integer::sum).get();
         int roll = ThreadLocalRandom.current().nextInt(1, totalProbabilityMass + 1);
 
@@ -429,25 +327,13 @@ public final class Utils {
             }
         }
 
-        // Should never happen.
         return list.get(0);
     }
 
-    /***
-     * Draws a random element from the given list, following a uniform probability distribution.
-     * @param list The list from which to draw the element.
-     * @return A randomly drawn element from the given list.
-     */
     public static <T> T drawRandomListElement(List<T> list) {
         return drawRandomListElement(list, null);
     }
 
-    /***
-     * Splits a string by a character, into a list
-     * @param input The string to split
-     * @param separator The character to use as the split points
-     * @return A list of all the substrings
-     */
     public static List<String> nonRegexSplit(String input, int separator) {
         var output = new ArrayList<String>();
         int start = 0;
@@ -459,14 +345,8 @@ public final class Utils {
         return output;
     }
 
-    /**
-     * Fetches the IP address of a web request.
-     *
-     * @param ctx The context of the request.
-     * @return The IP address of the request.
-     */
     public static String address(Context ctx) {
-        // Check headers.
+
         var address = ctx.header("CF-Connecting-IP");
         if (address != null) return address;
 
@@ -476,15 +356,9 @@ public final class Utils {
         address = ctx.header("X-Real-IP");
         if (address != null) return address;
 
-        // Return the request IP.
         return ctx.ip();
     }
 
-    /**
-     * Waits for the task to return true. This will halt the thread until the task returns true.
-     *
-     * @param runnable The task to run.
-     */
     @SuppressWarnings("BusyWait")
     public static void waitFor(Returnable<Boolean> runnable) {
         while (!runnable.invoke()) {
@@ -496,16 +370,9 @@ public final class Utils {
         }
     }
 
-    /**
-     * Recursively finds all fields in a class.
-     *
-     * @param type The class to find fields in.
-     * @return A list of all fields in the class.
-     */
     public static List<Field> getAllFields(Class<?> type) {
         var fields = new LinkedList<>(Arrays.asList(type.getDeclaredFields()));
 
-        // Check for superclasses.
         if (type.getSuperclass() != null) {
             fields.addAll(getAllFields(type.getSuperclass()));
         }
@@ -513,11 +380,6 @@ public final class Utils {
         return fields;
     }
 
-    /**
-     * Sleeps the current thread without an exception.
-     *
-     * @param millis The amount of milliseconds to sleep.
-     */
     public static void sleep(long millis) {
         try {
             Thread.sleep(millis);
@@ -525,12 +387,6 @@ public final class Utils {
         }
     }
 
-    /**
-     * Unescapes a JSON string.
-     *
-     * @param json The JSON string to unescape.
-     * @return The unescaped JSON string.
-     */
     public static String unescapeJson(String json) {
         return json.replaceAll("\"", "\"");
     }

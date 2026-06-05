@@ -78,6 +78,18 @@ public final class GenericHandler implements Router {
         // webstatic-sea.hoyoverse.com
         javalin.get("/admin/mi18n/plat_oversea/*", new WebStaticVersionResponse());
 
+        javalin.get("/admin/mi18n/plat_os/*", ctx -> ctx.result("{}"));
+
+        this.allRoutes(javalin, "/hk4e_global/account/ma-passport/api/getConfig",
+                new HttpJsonResponse("{\"retcode\":0,\"message\":\"OK\",\"data\":{\"support_reactivate_account\":false,\"enable_ps_bind_account\":false,\"login_mode\":\"account_login\",\"guest_mode\":\"close\",\"realperson_mode\":\"none\",\"safeguard_type\":\"none\",\"apple_login_enabled\":false,\"facebook_login_enabled\":false,\"google_login_enabled\":false,\"twitter_login_enabled\":false}}"));
+        this.allRoutes(javalin, "/hk4e_cn/account/ma-passport/api/getConfig",
+                new HttpJsonResponse("{\"retcode\":0,\"message\":\"OK\",\"data\":{\"support_reactivate_account\":false,\"enable_ps_bind_account\":false,\"login_mode\":\"account_login\",\"guest_mode\":\"close\",\"realperson_mode\":\"none\",\"safeguard_type\":\"none\",\"apple_login_enabled\":false,\"facebook_login_enabled\":false,\"google_login_enabled\":false,\"twitter_login_enabled\":false}}"));
+
+        javalin.get("/device-fp/api/getExtList",
+                new HttpJsonResponse("{\"retcode\":0,\"message\":\"OK\",\"data\":{\"ext_list\":[],\"pkg_list\":[]}}"));
+        javalin.get("/combo/box/api/config/sw/precache",
+                new HttpJsonResponse("{\"retcode\":0,\"message\":\"OK\",\"data\":{}}"));
+
         javalin.get("/status/server", GenericHandler::serverStatus);
     }
 }

@@ -186,7 +186,7 @@ public final class ScenePlayerLocationNotifyOuterClass {
               emu.grasscutter.net.proto.ScenePlayerLocationNotifyOuterClass.ScenePlayerLocationNotify.class, emu.grasscutter.net.proto.ScenePlayerLocationNotifyOuterClass.ScenePlayerLocationNotify.Builder.class);
     }
 
-    public static final int PLAYER_LOC_LIST_FIELD_NUMBER = 3;
+    public static final int PLAYER_LOC_LIST_FIELD_NUMBER = 13;
     private java.util.List<emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfo> playerLocList_;
     /**
      * <code>repeated .PlayerLocationInfo player_loc_list = 3;</code>
@@ -226,7 +226,7 @@ public final class ScenePlayerLocationNotifyOuterClass {
       return playerLocList_.get(index);
     }
 
-    public static final int VEHICLE_LOC_LIST_FIELD_NUMBER = 13;
+    public static final int VEHICLE_LOC_LIST_FIELD_NUMBER = 4;
     private java.util.List<emu.grasscutter.net.proto.VehicleLocationInfoOuterClass.VehicleLocationInfo> vehicleLocList_;
     /**
      * <code>repeated .VehicleLocationInfo vehicle_loc_list = 13;</code>
@@ -266,7 +266,7 @@ public final class ScenePlayerLocationNotifyOuterClass {
       return vehicleLocList_.get(index);
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 14;
+    public static final int SCENE_ID_FIELD_NUMBER = 10;
     private int sceneId_;
     /**
      * <code>uint32 scene_id = 14;</code>
@@ -292,13 +292,13 @@ public final class ScenePlayerLocationNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < playerLocList_.size(); i++) {
-        output.writeMessage(3, playerLocList_.get(i));
+        output.writeMessage(13, playerLocList_.get(i));
       }
       for (int i = 0; i < vehicleLocList_.size(); i++) {
-        output.writeMessage(13, vehicleLocList_.get(i));
+        output.writeMessage(4, vehicleLocList_.get(i));
       }
       if (sceneId_ != 0) {
-        output.writeUInt32(14, sceneId_);
+        output.writeUInt32(10, sceneId_);
       }
       unknownFields.writeTo(output);
     }
@@ -311,15 +311,15 @@ public final class ScenePlayerLocationNotifyOuterClass {
       size = 0;
       for (int i = 0; i < playerLocList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, playerLocList_.get(i));
+          .computeMessageSize(13, playerLocList_.get(i));
       }
       for (int i = 0; i < vehicleLocList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, vehicleLocList_.get(i));
+          .computeMessageSize(4, vehicleLocList_.get(i));
       }
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, sceneId_);
+          .computeUInt32Size(10, sceneId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

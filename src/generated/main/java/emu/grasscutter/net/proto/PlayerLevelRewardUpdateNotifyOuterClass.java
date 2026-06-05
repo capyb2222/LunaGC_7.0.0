@@ -87,7 +87,7 @@ public final class PlayerLevelRewardUpdateNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 96: {
+            case 32: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 levelList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -95,7 +95,7 @@ public final class PlayerLevelRewardUpdateNotifyOuterClass {
               levelList_.addInt(input.readUInt32());
               break;
             }
-            case 98: {
+            case 34: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -143,7 +143,7 @@ public final class PlayerLevelRewardUpdateNotifyOuterClass {
               emu.grasscutter.net.proto.PlayerLevelRewardUpdateNotifyOuterClass.PlayerLevelRewardUpdateNotify.class, emu.grasscutter.net.proto.PlayerLevelRewardUpdateNotifyOuterClass.PlayerLevelRewardUpdateNotify.Builder.class);
     }
 
-    public static final int LEVEL_LIST_FIELD_NUMBER = 12;
+    public static final int LEVEL_LIST_FIELD_NUMBER = 4;
     private com.google.protobuf.Internal.IntList levelList_;
     /**
      * <code>repeated uint32 level_list = 12;</code>
@@ -187,7 +187,7 @@ public final class PlayerLevelRewardUpdateNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getLevelListList().size() > 0) {
-        output.writeUInt32NoTag(98);
+        output.writeUInt32NoTag(34);
         output.writeUInt32NoTag(levelListMemoizedSerializedSize);
       }
       for (int i = 0; i < levelList_.size(); i++) {

@@ -209,7 +209,7 @@ public final class MistTrialLevelDataOuterClass {
               emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData.class, emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 13;
+    public static final int LEVEL_ID_FIELD_NUMBER = 7;
     private int levelId_;
     /**
      * <code>uint32 level_id = 13;</code>
@@ -220,7 +220,7 @@ public final class MistTrialLevelDataOuterClass {
       return levelId_;
     }
 
-    public static final int FIRST_PASS_TIME_FIELD_NUMBER = 11;
+    public static final int FIRST_PASS_TIME_FIELD_NUMBER = 4;
     private int firstPassTime_;
     /**
      * <code>uint32 first_pass_time = 11;</code>
@@ -231,7 +231,7 @@ public final class MistTrialLevelDataOuterClass {
       return firstPassTime_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 14;
+    public static final int IS_OPEN_FIELD_NUMBER = 11;
     private boolean isOpen_;
     /**
      * <code>bool is_open = 14;</code>
@@ -242,7 +242,7 @@ public final class MistTrialLevelDataOuterClass {
       return isOpen_;
     }
 
-    public static final int BEST_HIT_AVATAR_FIELD_NUMBER = 9;
+    public static final int BEST_HIT_AVATAR_FIELD_NUMBER = 15;
     private emu.grasscutter.net.proto.MistTrialBestAvatarOuterClass.MistTrialBestAvatar bestHitAvatar_;
     /**
      * <code>.MistTrialBestAvatar best_hit_avatar = 9;</code>
@@ -268,7 +268,7 @@ public final class MistTrialLevelDataOuterClass {
       return getBestHitAvatar();
     }
 
-    public static final int BEST_AVATAR_LIST_FIELD_NUMBER = 10;
+    public static final int BEST_AVATAR_LIST_FIELD_NUMBER = 9;
     private java.util.List<emu.grasscutter.net.proto.MistTrialBestAvatarOuterClass.MistTrialBestAvatar> bestAvatarList_;
     /**
      * <code>repeated .MistTrialBestAvatar best_avatar_list = 10;</code>
@@ -308,7 +308,7 @@ public final class MistTrialLevelDataOuterClass {
       return bestAvatarList_.get(index);
     }
 
-    public static final int OPEN_TIME_FIELD_NUMBER = 7;
+    public static final int OPEN_TIME_FIELD_NUMBER = 13;
     private int openTime_;
     /**
      * <code>uint32 open_time = 7;</code>
@@ -334,22 +334,22 @@ public final class MistTrialLevelDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (openTime_ != 0) {
-        output.writeUInt32(7, openTime_);
+        output.writeUInt32(13, openTime_);
       }
       if (bestHitAvatar_ != null) {
         output.writeMessage(9, getBestHitAvatar());
       }
       for (int i = 0; i < bestAvatarList_.size(); i++) {
-        output.writeMessage(10, bestAvatarList_.get(i));
+        output.writeMessage(9, bestAvatarList_.get(i));
       }
       if (firstPassTime_ != 0) {
-        output.writeUInt32(11, firstPassTime_);
+        output.writeUInt32(4, firstPassTime_);
       }
       if (levelId_ != 0) {
-        output.writeUInt32(13, levelId_);
+        output.writeUInt32(7, levelId_);
       }
       if (isOpen_ != false) {
-        output.writeBool(14, isOpen_);
+        output.writeBool(11, isOpen_);
       }
       unknownFields.writeTo(output);
     }
@@ -362,7 +362,7 @@ public final class MistTrialLevelDataOuterClass {
       size = 0;
       if (openTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, openTime_);
+          .computeUInt32Size(13, openTime_);
       }
       if (bestHitAvatar_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -370,19 +370,19 @@ public final class MistTrialLevelDataOuterClass {
       }
       for (int i = 0; i < bestAvatarList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, bestAvatarList_.get(i));
+          .computeMessageSize(9, bestAvatarList_.get(i));
       }
       if (firstPassTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, firstPassTime_);
+          .computeUInt32Size(4, firstPassTime_);
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, levelId_);
+          .computeUInt32Size(7, levelId_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(14, isOpen_);
+          .computeBoolSize(11, isOpen_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -138,7 +138,7 @@ public final class PlayerWorldLocationInfoOuterClass {
               emu.grasscutter.net.proto.PlayerWorldLocationInfoOuterClass.PlayerWorldLocationInfo.class, emu.grasscutter.net.proto.PlayerWorldLocationInfoOuterClass.PlayerWorldLocationInfo.Builder.class);
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 5;
+    public static final int SCENE_ID_FIELD_NUMBER = 7;
     private int sceneId_;
     /**
      * <code>uint32 scene_id = 5;</code>
@@ -149,7 +149,7 @@ public final class PlayerWorldLocationInfoOuterClass {
       return sceneId_;
     }
 
-    public static final int PLAYER_LOC_FIELD_NUMBER = 12;
+    public static final int PLAYER_LOC_FIELD_NUMBER = 8;
     private emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfo playerLoc_;
     /**
      * <code>.PlayerLocationInfo player_loc = 12;</code>
@@ -190,7 +190,7 @@ public final class PlayerWorldLocationInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (sceneId_ != 0) {
-        output.writeUInt32(5, sceneId_);
+        output.writeUInt32(7, sceneId_);
       }
       if (playerLoc_ != null) {
         output.writeMessage(12, getPlayerLoc());
@@ -206,7 +206,7 @@ public final class PlayerWorldLocationInfoOuterClass {
       size = 0;
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, sceneId_);
+          .computeUInt32Size(7, sceneId_);
       }
       if (playerLoc_ != null) {
         size += com.google.protobuf.CodedOutputStream

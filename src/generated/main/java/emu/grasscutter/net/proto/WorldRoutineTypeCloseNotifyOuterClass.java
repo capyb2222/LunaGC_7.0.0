@@ -18,14 +18,6 @@ public final class WorldRoutineTypeCloseNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:WorldRoutineTypeCloseNotify)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>uint32 routine_type = 10;</code>
-     * @return The routineType.
-     */
     int getRoutineType();
   }
   /**
@@ -116,14 +108,7 @@ public final class WorldRoutineTypeCloseNotifyOuterClass {
 
     public static final int ROUTINE_TYPE_FIELD_NUMBER = 10;
     private int routineType_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>uint32 routine_type = 10;</code>
-     * @return The routineType.
-     */
+
     @java.lang.Override
     public int getRoutineType() {
       return routineType_;
@@ -436,43 +421,21 @@ public final class WorldRoutineTypeCloseNotifyOuterClass {
       }
 
       private int routineType_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>uint32 routine_type = 10;</code>
-       * @return The routineType.
-       */
+
       @java.lang.Override
       public int getRoutineType() {
         return routineType_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>uint32 routine_type = 10;</code>
-       * @param value The routineType to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setRoutineType(int value) {
-        
+
         routineType_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>uint32 routine_type = 10;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearRoutineType() {
-        
+
         routineType_ = 0;
         onChanged();
         return this;
@@ -488,7 +451,6 @@ public final class WorldRoutineTypeCloseNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:WorldRoutineTypeCloseNotify)
     }
@@ -532,7 +494,7 @@ public final class WorldRoutineTypeCloseNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WorldRoutineTypeCloseNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WorldRoutineTypeCloseNotify_fieldAccessorTable;
 

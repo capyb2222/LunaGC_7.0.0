@@ -175,7 +175,7 @@ public final class WorldPlayerLocationNotifyOuterClass {
               emu.grasscutter.net.proto.WorldPlayerLocationNotifyOuterClass.WorldPlayerLocationNotify.class, emu.grasscutter.net.proto.WorldPlayerLocationNotifyOuterClass.WorldPlayerLocationNotify.Builder.class);
     }
 
-    public static final int PLAYER_WORLD_LOC_LIST_FIELD_NUMBER = 10;
+    public static final int PLAYER_WORLD_LOC_LIST_FIELD_NUMBER = 8;
     private java.util.List<emu.grasscutter.net.proto.PlayerWorldLocationInfoOuterClass.PlayerWorldLocationInfo> playerWorldLocList_;
     /**
      * <code>repeated .PlayerWorldLocationInfo player_world_loc_list = 10;</code>
@@ -215,7 +215,7 @@ public final class WorldPlayerLocationNotifyOuterClass {
       return playerWorldLocList_.get(index);
     }
 
-    public static final int PLAYER_LOC_LIST_FIELD_NUMBER = 1;
+    public static final int PLAYER_LOC_LIST_FIELD_NUMBER = 5;
     private java.util.List<emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfo> playerLocList_;
     /**
      * <code>repeated .PlayerLocationInfo player_loc_list = 1;</code>
@@ -270,10 +270,10 @@ public final class WorldPlayerLocationNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < playerLocList_.size(); i++) {
-        output.writeMessage(1, playerLocList_.get(i));
+        output.writeMessage(5, playerLocList_.get(i));
       }
       for (int i = 0; i < playerWorldLocList_.size(); i++) {
-        output.writeMessage(10, playerWorldLocList_.get(i));
+        output.writeMessage(8, playerWorldLocList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -286,11 +286,11 @@ public final class WorldPlayerLocationNotifyOuterClass {
       size = 0;
       for (int i = 0; i < playerLocList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, playerLocList_.get(i));
+          .computeMessageSize(5, playerLocList_.get(i));
       }
       for (int i = 0; i < playerWorldLocList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, playerWorldLocList_.get(i));
+          .computeMessageSize(8, playerWorldLocList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

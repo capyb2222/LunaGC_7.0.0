@@ -9,8 +9,8 @@ public class PacketSetUpAvatarTeamRsp extends BasePacket {
     public PacketSetUpAvatarTeamRsp(Player player, int teamId, TeamInfo teamInfo) {
         super(PacketOpcodes.SetUpAvatarTeamRsp);
 
-        int maskedTeamId = (teamId + 19529) ^ 63709;
-        long maskedCurAvatarGuid = (player.getTeamManager().getCurrentCharacterGuid() + 41090L) ^ 1583L;
+        int maskedTeamId = (teamId - 65504) ^ 27354;
+        long maskedCurAvatarGuid = (player.getTeamManager().getCurrentCharacterGuid() + 3667L) ^ 14049L;
         int maskedRetcode = (0 - 51228) ^ 9379;
 
         SetUpAvatarTeamRsp.Builder proto =
@@ -20,7 +20,7 @@ public class PacketSetUpAvatarTeamRsp extends BasePacket {
                         .setRetcode(maskedRetcode);
 
         for (int avatarId : teamInfo.getAvatars()) {
-            // avatar_team_guid_list is not masked according to the proto
+
             proto.addAvatarTeamGuidList(player.getAvatars().getAvatarById(avatarId).getGuid());
         }
 

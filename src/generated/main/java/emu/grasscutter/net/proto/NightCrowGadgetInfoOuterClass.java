@@ -18,33 +18,10 @@ public final class NightCrowGadgetInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:NightCrowGadgetInfo)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint32 argument_list = 1;</code>
-     * @return A list containing the argumentList.
-     */
     java.util.List<java.lang.Integer> getArgumentListList();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint32 argument_list = 1;</code>
-     * @return The count of argumentList.
-     */
+
     int getArgumentListCount();
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint32 argument_list = 1;</code>
-     * @param index The index of the element to return.
-     * @return The argumentList at the given index.
-     */
+
     int getArgumentList(int index);
   }
   /**
@@ -152,39 +129,17 @@ public final class NightCrowGadgetInfoOuterClass {
 
     public static final int ARGUMENT_LIST_FIELD_NUMBER = 1;
     private com.google.protobuf.Internal.IntList argumentList_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint32 argument_list = 1;</code>
-     * @return A list containing the argumentList.
-     */
+
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getArgumentListList() {
       return argumentList_;
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint32 argument_list = 1;</code>
-     * @return The count of argumentList.
-     */
+
     public int getArgumentListCount() {
       return argumentList_.size();
     }
-    /**
-     * <pre>
-     *6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint32 argument_list = 1;</code>
-     * @param index The index of the element to return.
-     * @return The argumentList at the given index.
-     */
+
     public int getArgumentList(int index) {
       return argumentList_.getInt(index);
     }
@@ -529,52 +484,21 @@ public final class NightCrowGadgetInfoOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint32 argument_list = 1;</code>
-       * @return A list containing the argumentList.
-       */
+
       public java.util.List<java.lang.Integer>
           getArgumentListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(argumentList_) : argumentList_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint32 argument_list = 1;</code>
-       * @return The count of argumentList.
-       */
+
       public int getArgumentListCount() {
         return argumentList_.size();
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint32 argument_list = 1;</code>
-       * @param index The index of the element to return.
-       * @return The argumentList at the given index.
-       */
+
       public int getArgumentList(int index) {
         return argumentList_.getInt(index);
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint32 argument_list = 1;</code>
-       * @param index The index to set the value at.
-       * @param value The argumentList to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setArgumentList(
           int index, int value) {
         ensureArgumentListIsMutable();
@@ -582,30 +506,14 @@ public final class NightCrowGadgetInfoOuterClass {
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint32 argument_list = 1;</code>
-       * @param value The argumentList to add.
-       * @return This builder for chaining.
-       */
+
       public Builder addArgumentList(int value) {
         ensureArgumentListIsMutable();
         argumentList_.addInt(value);
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint32 argument_list = 1;</code>
-       * @param values The argumentList to add.
-       * @return This builder for chaining.
-       */
+
       public Builder addAllArgumentList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureArgumentListIsMutable();
@@ -614,14 +522,7 @@ public final class NightCrowGadgetInfoOuterClass {
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint32 argument_list = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearArgumentList() {
         argumentList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -639,7 +540,6 @@ public final class NightCrowGadgetInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:NightCrowGadgetInfo)
     }
@@ -683,7 +583,7 @@ public final class NightCrowGadgetInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_NightCrowGadgetInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_NightCrowGadgetInfo_fieldAccessorTable;
 

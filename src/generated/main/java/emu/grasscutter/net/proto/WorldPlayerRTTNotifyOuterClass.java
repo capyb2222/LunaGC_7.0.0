@@ -94,7 +94,7 @@ public final class WorldPlayerRTTNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 50: {
+            case 122: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 playerRttList_ = new java.util.ArrayList<emu.grasscutter.net.proto.PlayerRTTInfoOuterClass.PlayerRTTInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -138,7 +138,7 @@ public final class WorldPlayerRTTNotifyOuterClass {
               emu.grasscutter.net.proto.WorldPlayerRTTNotifyOuterClass.WorldPlayerRTTNotify.class, emu.grasscutter.net.proto.WorldPlayerRTTNotifyOuterClass.WorldPlayerRTTNotify.Builder.class);
     }
 
-    public static final int PLAYER_RTT_LIST_FIELD_NUMBER = 6;
+    public static final int PLAYER_RTT_LIST_FIELD_NUMBER = 15;
     private java.util.List<emu.grasscutter.net.proto.PlayerRTTInfoOuterClass.PlayerRTTInfo> playerRttList_;
     /**
      * <code>repeated .PlayerRTTInfo player_rtt_list = 6;</code>
@@ -193,7 +193,7 @@ public final class WorldPlayerRTTNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < playerRttList_.size(); i++) {
-        output.writeMessage(6, playerRttList_.get(i));
+        output.writeMessage(15, playerRttList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -206,7 +206,7 @@ public final class WorldPlayerRTTNotifyOuterClass {
       size = 0;
       for (int i = 0; i < playerRttList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, playerRttList_.get(i));
+          .computeMessageSize(15, playerRttList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

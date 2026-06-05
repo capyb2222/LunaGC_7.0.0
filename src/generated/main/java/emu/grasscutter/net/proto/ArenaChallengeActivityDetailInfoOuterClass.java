@@ -55,7 +55,7 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
     /**
      * <code>repeated .EPGCCOOAEIO KEBKELKNABD = 2;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.EPGCCOOAEIOOuterClass.EPGCCOOAEIO> 
+    java.util.List<emu.grasscutter.net.proto.EPGCCOOAEIOOuterClass.EPGCCOOAEIO>
         getKEBKELKNABDList();
     /**
      * <code>repeated .EPGCCOOAEIO KEBKELKNABD = 2;</code>
@@ -68,7 +68,7 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
     /**
      * <code>repeated .EPGCCOOAEIO KEBKELKNABD = 2;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.EPGCCOOAEIOOuterClass.EPGCCOOAEIOOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.EPGCCOOAEIOOuterClass.EPGCCOOAEIOOrBuilder>
         getKEBKELKNABDOrBuilderList();
     /**
      * <code>repeated .EPGCCOOAEIO KEBKELKNABD = 2;</code>
@@ -82,14 +82,6 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
      */
     boolean getHOGCGGNKFBN();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 world_level = 13;</code>
-     * @return The worldLevel.
-     */
     int getWorldLevel();
   }
   /**
@@ -224,7 +216,7 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.ArenaChallengeActivityDetailInfoOuterClass.internal_static_ArenaChallengeActivityDetailInfo_OKANCOLKFJDEntry_descriptor, 
+                  emu.grasscutter.net.proto.ArenaChallengeActivityDetailInfoOuterClass.internal_static_ArenaChallengeActivityDetailInfo_OKANCOLKFJDEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -251,7 +243,7 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
     @java.lang.Override
     public boolean containsOKANCOLKFJD(
         int key) {
-      
+
       return internalGetOKANCOLKFJD().getMap().containsKey(key);
     }
     /**
@@ -278,7 +270,7 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
     public int getOKANCOLKFJDOrDefault(
         int key,
         int defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetOKANCOLKFJD().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -290,7 +282,7 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
 
     public int getOKANCOLKFJDOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetOKANCOLKFJD().getMap();
       if (!map.containsKey(key)) {
@@ -312,7 +304,7 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
      * <code>repeated .EPGCCOOAEIO KEBKELKNABD = 2;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.EPGCCOOAEIOOuterClass.EPGCCOOAEIOOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.EPGCCOOAEIOOuterClass.EPGCCOOAEIOOrBuilder>
         getKEBKELKNABDOrBuilderList() {
       return kEBKELKNABD_;
     }
@@ -352,14 +344,7 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
 
     public static final int WORLD_LEVEL_FIELD_NUMBER = 13;
     private int worldLevel_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 world_level = 13;</code>
-     * @return The worldLevel.
-     */
+
     @java.lang.Override
     public int getWorldLevel() {
       return worldLevel_;
@@ -747,7 +732,7 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
               kEBKELKNABDBuilder_ = null;
               kEBKELKNABD_ = other.kEBKELKNABD_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              kEBKELKNABDBuilder_ = 
+              kEBKELKNABDBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getKEBKELKNABDFieldBuilder() : null;
             } else {
@@ -824,7 +809,7 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
       @java.lang.Override
       public boolean containsOKANCOLKFJD(
           int key) {
-        
+
         return internalGetOKANCOLKFJD().getMap().containsKey(key);
       }
       /**
@@ -851,7 +836,7 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
       public int getOKANCOLKFJDOrDefault(
           int key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetOKANCOLKFJD().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -863,7 +848,7 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
 
       public int getOKANCOLKFJDOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetOKANCOLKFJD().getMap();
         if (!map.containsKey(key)) {
@@ -883,7 +868,7 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
 
       public Builder removeOKANCOLKFJD(
           int key) {
-        
+
         internalGetMutableOKANCOLKFJD().getMutableMap()
             .remove(key);
         return this;
@@ -902,8 +887,7 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
       public Builder putOKANCOLKFJD(
           int key,
           int value) {
-        
-        
+
         internalGetMutableOKANCOLKFJD().getMutableMap()
             .put(key, value);
         return this;
@@ -1114,7 +1098,7 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
       /**
        * <code>repeated .EPGCCOOAEIO KEBKELKNABD = 2;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.EPGCCOOAEIOOuterClass.EPGCCOOAEIOOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.EPGCCOOAEIOOuterClass.EPGCCOOAEIOOrBuilder>
            getKEBKELKNABDOrBuilderList() {
         if (kEBKELKNABDBuilder_ != null) {
           return kEBKELKNABDBuilder_.getMessageOrBuilderList();
@@ -1140,12 +1124,12 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
       /**
        * <code>repeated .EPGCCOOAEIO KEBKELKNABD = 2;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.EPGCCOOAEIOOuterClass.EPGCCOOAEIO.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.EPGCCOOAEIOOuterClass.EPGCCOOAEIO.Builder>
            getKEBKELKNABDBuilderList() {
         return getKEBKELKNABDFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.EPGCCOOAEIOOuterClass.EPGCCOOAEIO, emu.grasscutter.net.proto.EPGCCOOAEIOOuterClass.EPGCCOOAEIO.Builder, emu.grasscutter.net.proto.EPGCCOOAEIOOuterClass.EPGCCOOAEIOOrBuilder> 
+          emu.grasscutter.net.proto.EPGCCOOAEIOOuterClass.EPGCCOOAEIO, emu.grasscutter.net.proto.EPGCCOOAEIOOuterClass.EPGCCOOAEIO.Builder, emu.grasscutter.net.proto.EPGCCOOAEIOOuterClass.EPGCCOOAEIOOrBuilder>
           getKEBKELKNABDFieldBuilder() {
         if (kEBKELKNABDBuilder_ == null) {
           kEBKELKNABDBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1174,7 +1158,7 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHOGCGGNKFBN(boolean value) {
-        
+
         hOGCGGNKFBN_ = value;
         onChanged();
         return this;
@@ -1184,50 +1168,28 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHOGCGGNKFBN() {
-        
+
         hOGCGGNKFBN_ = false;
         onChanged();
         return this;
       }
 
       private int worldLevel_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 world_level = 13;</code>
-       * @return The worldLevel.
-       */
+
       @java.lang.Override
       public int getWorldLevel() {
         return worldLevel_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 world_level = 13;</code>
-       * @param value The worldLevel to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setWorldLevel(int value) {
-        
+
         worldLevel_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 world_level = 13;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearWorldLevel() {
-        
+
         worldLevel_ = 0;
         onChanged();
         return this;
@@ -1243,7 +1205,6 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:ArenaChallengeActivityDetailInfo)
     }
@@ -1287,12 +1248,12 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ArenaChallengeActivityDetailInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ArenaChallengeActivityDetailInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ArenaChallengeActivityDetailInfo_OKANCOLKFJDEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ArenaChallengeActivityDetailInfo_OKANCOLKFJDEntry_fieldAccessorTable;
 

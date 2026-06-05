@@ -1,12 +1,16 @@
 package emu.grasscutter.data.binout;
 
+import com.google.gson.annotations.SerializedName;
 import emu.grasscutter.data.binout.AbilityModifier.AbilityModifierAction;
 import emu.grasscutter.game.ability.AbilityLocalIdGenerator;
 import emu.grasscutter.game.ability.AbilityLocalIdGenerator.ConfigAbilitySubContainerType;
 import java.util.*;
 
 public class AbilityData {
+    @SerializedName(value = "abilityName", alternate = {"BEAFNCHOJGD"})
     public String abilityName;
+
+    @SerializedName(value = "modifiers", alternate = {"LEKAENNPGMI"})
     public Map<String, AbilityModifier> modifiers;
     public boolean isDynamicAbility;
     public Map<String, Float> abilitySpecials;

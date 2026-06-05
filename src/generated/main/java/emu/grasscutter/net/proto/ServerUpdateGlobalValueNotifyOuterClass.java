@@ -161,7 +161,7 @@ public final class ServerUpdateGlobalValueNotifyOuterClass {
               emu.grasscutter.net.proto.ServerUpdateGlobalValueNotifyOuterClass.ServerUpdateGlobalValueNotify.class, emu.grasscutter.net.proto.ServerUpdateGlobalValueNotifyOuterClass.ServerUpdateGlobalValueNotify.Builder.class);
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 13;
+    public static final int ENTITY_ID_FIELD_NUMBER = 15;
     private int entityId_;
     /**
      * <code>uint32 entity_id = 13;</code>
@@ -172,7 +172,7 @@ public final class ServerUpdateGlobalValueNotifyOuterClass {
       return entityId_;
     }
 
-    public static final int UPDATE_TYPE_FIELD_NUMBER = 11;
+    public static final int UPDATE_TYPE_FIELD_NUMBER = 10;
     private int updateType_;
     /**
      * <code>.UpdateType update_type = 11;</code>
@@ -191,7 +191,7 @@ public final class ServerUpdateGlobalValueNotifyOuterClass {
       return result == null ? emu.grasscutter.net.proto.UpdateTypeOuterClass.UpdateType.UNRECOGNIZED : result;
     }
 
-    public static final int KEY_HASH_FIELD_NUMBER = 7;
+    public static final int KEY_HASH_FIELD_NUMBER = 8;
     private int keyHash_;
     /**
      * <code>uint32 key_hash = 7;</code>
@@ -202,7 +202,7 @@ public final class ServerUpdateGlobalValueNotifyOuterClass {
       return keyHash_;
     }
 
-    public static final int DELTA_FIELD_NUMBER = 14;
+    public static final int DELTA_FIELD_NUMBER = 7;
     private float delta_;
     /**
      * <code>float delta = 14;</code>
@@ -213,7 +213,7 @@ public final class ServerUpdateGlobalValueNotifyOuterClass {
       return delta_;
     }
 
-    public static final int VALUE_FIELD_NUMBER = 15;
+    public static final int VALUE_FIELD_NUMBER = 2;
     private float value_;
     /**
      * <code>float value = 15;</code>
@@ -239,19 +239,19 @@ public final class ServerUpdateGlobalValueNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (keyHash_ != 0) {
-        output.writeUInt32(7, keyHash_);
+        output.writeUInt32(8, keyHash_);
       }
       if (updateType_ != emu.grasscutter.net.proto.UpdateTypeOuterClass.UpdateType.UpdateType_INVALUE.getNumber()) {
-        output.writeEnum(11, updateType_);
+        output.writeEnum(10, updateType_);
       }
       if (entityId_ != 0) {
-        output.writeUInt32(13, entityId_);
+        output.writeUInt32(15, entityId_);
       }
       if (delta_ != 0F) {
-        output.writeFloat(14, delta_);
+        output.writeFloat(7, delta_);
       }
       if (value_ != 0F) {
-        output.writeFloat(15, value_);
+        output.writeFloat(2, value_);
       }
       unknownFields.writeTo(output);
     }
@@ -264,23 +264,23 @@ public final class ServerUpdateGlobalValueNotifyOuterClass {
       size = 0;
       if (keyHash_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, keyHash_);
+          .computeUInt32Size(8, keyHash_);
       }
       if (updateType_ != emu.grasscutter.net.proto.UpdateTypeOuterClass.UpdateType.UpdateType_INVALUE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(11, updateType_);
+          .computeEnumSize(10, updateType_);
       }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, entityId_);
+          .computeUInt32Size(15, entityId_);
       }
       if (delta_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(14, delta_);
+          .computeFloatSize(7, delta_);
       }
       if (value_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(15, value_);
+          .computeFloatSize(2, value_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

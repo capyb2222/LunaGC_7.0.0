@@ -18,14 +18,6 @@ public final class GetAllMailNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:GetAllMailNotify)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>bool is_collected = 8;</code>
-     * @return The isCollected.
-     */
     boolean getIsCollected();
   }
   /**
@@ -112,14 +104,7 @@ public final class GetAllMailNotifyOuterClass {
 
     public static final int IS_COLLECTED_FIELD_NUMBER = 8;
     private boolean isCollected_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>bool is_collected = 8;</code>
-     * @return The isCollected.
-     */
+
     @java.lang.Override
     public boolean getIsCollected() {
       return isCollected_;
@@ -429,43 +414,21 @@ public final class GetAllMailNotifyOuterClass {
       }
 
       private boolean isCollected_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>bool is_collected = 8;</code>
-       * @return The isCollected.
-       */
+
       @java.lang.Override
       public boolean getIsCollected() {
         return isCollected_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>bool is_collected = 8;</code>
-       * @param value The isCollected to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setIsCollected(boolean value) {
-        
+
         isCollected_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>bool is_collected = 8;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearIsCollected() {
-        
+
         isCollected_ = false;
         onChanged();
         return this;
@@ -481,7 +444,6 @@ public final class GetAllMailNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:GetAllMailNotify)
     }
@@ -525,7 +487,7 @@ public final class GetAllMailNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetAllMailNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetAllMailNotify_fieldAccessorTable;
 

@@ -858,7 +858,7 @@ public final class DungeonSettleNotifyOuterClass {
           detailCase_);
     }
 
-    public static final int IS_SUCCESS_FIELD_NUMBER = 3;
+    public static final int IS_SUCCESS_FIELD_NUMBER = 2;
     private boolean isSuccess_;
     /**
      * <code>bool is_success = 3;</code>
@@ -869,7 +869,7 @@ public final class DungeonSettleNotifyOuterClass {
       return isSuccess_;
     }
 
-    public static final int EXHIBITION_INFO_LIST_FIELD_NUMBER = 10;
+    public static final int EXHIBITION_INFO_LIST_FIELD_NUMBER = 9;
     private java.util.List<emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo> exhibitionInfoList_;
     /**
      * <code>repeated .DungeonSettleExhibitionInfo exhibition_info_list = 10;</code>
@@ -1082,7 +1082,7 @@ public final class DungeonSettleNotifyOuterClass {
       return createPlayerUid_;
     }
 
-    public static final int DUNGEON_ID_FIELD_NUMBER = 7;
+    public static final int DUNGEON_ID_FIELD_NUMBER = 10;
     private int dungeonId_;
     /**
      * <code>uint32 dungeon_id = 7;</code>
@@ -1115,7 +1115,7 @@ public final class DungeonSettleNotifyOuterClass {
       return result_;
     }
 
-    public static final int USE_TIME_FIELD_NUMBER = 15;
+    public static final int USE_TIME_FIELD_NUMBER = 5;
     private int useTime_;
     /**
      * <code>uint32 use_time = 15;</code>
@@ -1126,7 +1126,7 @@ public final class DungeonSettleNotifyOuterClass {
       return useTime_;
     }
 
-    public static final int FAIL_COND_LIST_FIELD_NUMBER = 9;
+    public static final int FAIL_COND_LIST_FIELD_NUMBER = 1;
     private com.google.protobuf.Internal.IntList failCondList_;
     /**
      * <code>repeated uint32 fail_cond_list = 9;</code>
@@ -1644,7 +1644,7 @@ public final class DungeonSettleNotifyOuterClass {
           StrengthenPointDataMapDefaultEntryHolder.defaultEntry,
           2);
       if (isSuccess_ != false) {
-        output.writeBool(3, isSuccess_);
+        output.writeBool(2, isSuccess_);
       }
       if (result_ != 0) {
         output.writeUInt32(5, result_);
@@ -1653,7 +1653,7 @@ public final class DungeonSettleNotifyOuterClass {
         output.writeUInt32(6, closeTime_);
       }
       if (dungeonId_ != 0) {
-        output.writeUInt32(7, dungeonId_);
+        output.writeUInt32(10, dungeonId_);
       }
       if (getFailCondListList().size() > 0) {
         output.writeUInt32NoTag(74);
@@ -1663,7 +1663,7 @@ public final class DungeonSettleNotifyOuterClass {
         output.writeUInt32NoTag(failCondList_.getInt(i));
       }
       for (int i = 0; i < exhibitionInfoList_.size(); i++) {
-        output.writeMessage(10, exhibitionInfoList_.get(i));
+        output.writeMessage(9, exhibitionInfoList_.get(i));
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
@@ -1672,7 +1672,7 @@ public final class DungeonSettleNotifyOuterClass {
           SettleShowDefaultEntryHolder.defaultEntry,
           13);
       if (useTime_ != 0) {
-        output.writeUInt32(15, useTime_);
+        output.writeUInt32(5, useTime_);
       }
       if (detailCase_ == 174) {
         output.writeMessage(174, (emu.grasscutter.net.proto.SummerTimeV2DungeonSettleInfoOuterClass.SummerTimeV2DungeonSettleInfo) detail_);
@@ -1744,7 +1744,7 @@ public final class DungeonSettleNotifyOuterClass {
       }
       if (isSuccess_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, isSuccess_);
+          .computeBoolSize(2, isSuccess_);
       }
       if (result_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -1756,7 +1756,7 @@ public final class DungeonSettleNotifyOuterClass {
       }
       if (dungeonId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, dungeonId_);
+          .computeUInt32Size(10, dungeonId_);
       }
       {
         int dataSize = 0;
@@ -1774,7 +1774,7 @@ public final class DungeonSettleNotifyOuterClass {
       }
       for (int i = 0; i < exhibitionInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, exhibitionInfoList_.get(i));
+          .computeMessageSize(9, exhibitionInfoList_.get(i));
       }
       for (java.util.Map.Entry<java.lang.Integer, emu.grasscutter.net.proto.ParamListOuterClass.ParamList> entry
            : internalGetSettleShow().getMap().entrySet()) {
@@ -1788,7 +1788,7 @@ public final class DungeonSettleNotifyOuterClass {
       }
       if (useTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, useTime_);
+          .computeUInt32Size(5, useTime_);
       }
       if (detailCase_ == 174) {
         size += com.google.protobuf.CodedOutputStream

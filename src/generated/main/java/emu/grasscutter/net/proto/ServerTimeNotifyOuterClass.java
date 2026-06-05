@@ -18,14 +18,6 @@ public final class ServerTimeNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:ServerTimeNotify)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint64 server_time = 1;</code>
-     * @return The serverTime.
-     */
     long getServerTime();
   }
   /**
@@ -116,14 +108,7 @@ public final class ServerTimeNotifyOuterClass {
 
     public static final int SERVER_TIME_FIELD_NUMBER = 1;
     private long serverTime_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint64 server_time = 1;</code>
-     * @return The serverTime.
-     */
+
     @java.lang.Override
     public long getServerTime() {
       return serverTime_;
@@ -437,43 +422,21 @@ public final class ServerTimeNotifyOuterClass {
       }
 
       private long serverTime_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint64 server_time = 1;</code>
-       * @return The serverTime.
-       */
+
       @java.lang.Override
       public long getServerTime() {
         return serverTime_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint64 server_time = 1;</code>
-       * @param value The serverTime to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setServerTime(long value) {
-        
+
         serverTime_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint64 server_time = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearServerTime() {
-        
+
         serverTime_ = 0L;
         onChanged();
         return this;
@@ -489,7 +452,6 @@ public final class ServerTimeNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:ServerTimeNotify)
     }
@@ -533,7 +495,7 @@ public final class ServerTimeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ServerTimeNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ServerTimeNotify_fieldAccessorTable;
 

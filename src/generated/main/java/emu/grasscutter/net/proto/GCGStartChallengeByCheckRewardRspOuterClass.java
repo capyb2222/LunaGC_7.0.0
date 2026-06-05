@@ -35,34 +35,10 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
      */
     int getJHKIIFBAHMC(int index);
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 level_id = 7;</code>
-     * @return The levelId.
-     */
     int getLevelId();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>int32 retcode = 13;</code>
-     * @return The retcode.
-     */
     int getRetcode();
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 config_id = 10;</code>
-     * @return The configId.
-     */
     int getConfigId();
   }
   /**
@@ -217,14 +193,7 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
 
     public static final int LEVEL_ID_FIELD_NUMBER = 7;
     private int levelId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 level_id = 7;</code>
-     * @return The levelId.
-     */
+
     @java.lang.Override
     public int getLevelId() {
       return levelId_;
@@ -232,14 +201,7 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 13;
     private int retcode_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>int32 retcode = 13;</code>
-     * @return The retcode.
-     */
+
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -247,14 +209,7 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
 
     public static final int CONFIG_ID_FIELD_NUMBER = 10;
     private int configId_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 config_id = 10;</code>
-     * @return The configId.
-     */
+
     @java.lang.Override
     public int getConfigId() {
       return configId_;
@@ -727,129 +682,63 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
       }
 
       private int levelId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 level_id = 7;</code>
-       * @return The levelId.
-       */
+
       @java.lang.Override
       public int getLevelId() {
         return levelId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 level_id = 7;</code>
-       * @param value The levelId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setLevelId(int value) {
-        
+
         levelId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 level_id = 7;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearLevelId() {
-        
+
         levelId_ = 0;
         onChanged();
         return this;
       }
 
       private int retcode_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 13;</code>
-       * @return The retcode.
-       */
+
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 13;</code>
-       * @param value The retcode to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 13;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
       }
 
       private int configId_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 config_id = 10;</code>
-       * @return The configId.
-       */
+
       @java.lang.Override
       public int getConfigId() {
         return configId_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 config_id = 10;</code>
-       * @param value The configId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setConfigId(int value) {
-        
+
         configId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 config_id = 10;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearConfigId() {
-        
+
         configId_ = 0;
         onChanged();
         return this;
@@ -865,7 +754,6 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:GCGStartChallengeByCheckRewardRsp)
     }
@@ -909,7 +797,7 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GCGStartChallengeByCheckRewardRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GCGStartChallengeByCheckRewardRsp_fieldAccessorTable;
 

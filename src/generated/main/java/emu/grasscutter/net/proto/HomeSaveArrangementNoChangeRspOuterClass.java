@@ -80,14 +80,14 @@ public final class HomeSaveArrangementNoChangeRspOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-
-              sceneId_ = input.readUInt32();
-              break;
-            }
-            case 16: {
+            case 40: {
 
               retcode_ = input.readInt32();
+              break;
+            }
+            case 64: {
+
+              sceneId_ = input.readUInt32();
               break;
             }
             default: {
@@ -122,7 +122,7 @@ public final class HomeSaveArrangementNoChangeRspOuterClass {
               emu.grasscutter.net.proto.HomeSaveArrangementNoChangeRspOuterClass.HomeSaveArrangementNoChangeRsp.class, emu.grasscutter.net.proto.HomeSaveArrangementNoChangeRspOuterClass.HomeSaveArrangementNoChangeRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 2;
+    public static final int RETCODE_FIELD_NUMBER = 5;
     private int retcode_;
     /**
      * <code>int32 retcode = 2;</code>
@@ -133,7 +133,7 @@ public final class HomeSaveArrangementNoChangeRspOuterClass {
       return retcode_;
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 1;
+    public static final int SCENE_ID_FIELD_NUMBER = 8;
     private int sceneId_;
     /**
      * <code>uint32 scene_id = 1;</code>
@@ -158,11 +158,11 @@ public final class HomeSaveArrangementNoChangeRspOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (sceneId_ != 0) {
-        output.writeUInt32(1, sceneId_);
-      }
       if (retcode_ != 0) {
-        output.writeInt32(2, retcode_);
+        output.writeInt32(5, retcode_);
+      }
+      if (sceneId_ != 0) {
+        output.writeUInt32(8, sceneId_);
       }
       unknownFields.writeTo(output);
     }
@@ -173,13 +173,13 @@ public final class HomeSaveArrangementNoChangeRspOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (sceneId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, sceneId_);
-      }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(2, retcode_);
+          .computeInt32Size(5, retcode_);
+      }
+      if (sceneId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(8, sceneId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

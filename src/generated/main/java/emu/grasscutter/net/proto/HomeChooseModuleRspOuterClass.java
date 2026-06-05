@@ -80,12 +80,12 @@ public final class HomeChooseModuleRspOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 16: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 56: {
+            case 40: {
 
               moduleId_ = input.readUInt32();
               break;
@@ -122,7 +122,7 @@ public final class HomeChooseModuleRspOuterClass {
               emu.grasscutter.net.proto.HomeChooseModuleRspOuterClass.HomeChooseModuleRsp.class, emu.grasscutter.net.proto.HomeChooseModuleRspOuterClass.HomeChooseModuleRsp.Builder.class);
     }
 
-    public static final int MODULE_ID_FIELD_NUMBER = 7;
+    public static final int MODULE_ID_FIELD_NUMBER = 5;
     private int moduleId_;
     /**
      * <code>uint32 module_id = 7;</code>
@@ -133,7 +133,7 @@ public final class HomeChooseModuleRspOuterClass {
       return moduleId_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 1;
+    public static final int RETCODE_FIELD_NUMBER = 2;
     private int retcode_;
     /**
      * <code>int32 retcode = 1;</code>
@@ -159,10 +159,10 @@ public final class HomeChooseModuleRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(1, retcode_);
+        output.writeInt32(2, retcode_);
       }
       if (moduleId_ != 0) {
-        output.writeUInt32(7, moduleId_);
+        output.writeUInt32(5, moduleId_);
       }
       unknownFields.writeTo(output);
     }
@@ -175,11 +175,11 @@ public final class HomeChooseModuleRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(1, retcode_);
+          .computeInt32Size(2, retcode_);
       }
       if (moduleId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, moduleId_);
+          .computeUInt32Size(5, moduleId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
