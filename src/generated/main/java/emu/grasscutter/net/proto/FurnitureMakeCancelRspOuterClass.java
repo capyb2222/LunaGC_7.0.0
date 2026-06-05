@@ -18,7 +18,6 @@ public final class FurnitureMakeCancelRspOuterClass {
       // @@protoc_insertion_point(interface_extends:FurnitureMakeCancelRsp)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     boolean hasFurnitureMakeSlot();
 
     emu.grasscutter.net.proto.FurnitureMakeSlotOuterClass.FurnitureMakeSlot getFurnitureMakeSlot();
@@ -27,53 +26,6 @@ public final class FurnitureMakeCancelRspOuterClass {
 
     int getRetcode();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.FurnitureMakeSlot furniture_make_slot = 14;</code>
-     * @return Whether the furnitureMakeSlot field is set.
-     */
-    boolean hasFurnitureMakeSlot();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.FurnitureMakeSlot furniture_make_slot = 14;</code>
-     * @return The furnitureMakeSlot.
-     */
-    emu.grasscutter.net.proto.FurnitureMakeSlotOuterClass.FurnitureMakeSlot getFurnitureMakeSlot();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.FurnitureMakeSlot furniture_make_slot = 14;</code>
-     */
-    emu.grasscutter.net.proto.FurnitureMakeSlotOuterClass.FurnitureMakeSlotOrBuilder getFurnitureMakeSlotOrBuilder();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>int32 retcode = 10;</code>
-     * @return The retcode.
-     */
-    int getRetcode();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 make_id = 2;</code>
-     * @return The makeId.
-     */
->>>>>>> origin/6.5.0
     int getMakeId();
   }
   /**
@@ -182,49 +134,17 @@ public final class FurnitureMakeCancelRspOuterClass {
 
     public static final int FURNITURE_MAKE_SLOT_FIELD_NUMBER = 8;
     private emu.grasscutter.net.proto.FurnitureMakeSlotOuterClass.FurnitureMakeSlot furnitureMakeSlot_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.FurnitureMakeSlot furniture_make_slot = 14;</code>
-     * @return Whether the furnitureMakeSlot field is set.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasFurnitureMakeSlot() {
       return furnitureMakeSlot_ != null;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.FurnitureMakeSlot furniture_make_slot = 14;</code>
-     * @return The furnitureMakeSlot.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.FurnitureMakeSlotOuterClass.FurnitureMakeSlot getFurnitureMakeSlot() {
       return furnitureMakeSlot_ == null ? emu.grasscutter.net.proto.FurnitureMakeSlotOuterClass.FurnitureMakeSlot.getDefaultInstance() : furnitureMakeSlot_;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.FurnitureMakeSlot furniture_make_slot = 14;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.FurnitureMakeSlotOuterClass.FurnitureMakeSlotOrBuilder getFurnitureMakeSlotOrBuilder() {
       return getFurnitureMakeSlot();
@@ -232,18 +152,7 @@ public final class FurnitureMakeCancelRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 3;
     private int retcode_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>int32 retcode = 10;</code>
-     * @return The retcode.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -251,18 +160,7 @@ public final class FurnitureMakeCancelRspOuterClass {
 
     public static final int MAKE_ID_FIELD_NUMBER = 7;
     private int makeId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 make_id = 2;</code>
-     * @return The makeId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getMakeId() {
       return makeId_;
@@ -624,33 +522,11 @@ public final class FurnitureMakeCancelRspOuterClass {
       private emu.grasscutter.net.proto.FurnitureMakeSlotOuterClass.FurnitureMakeSlot furnitureMakeSlot_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.FurnitureMakeSlotOuterClass.FurnitureMakeSlot, emu.grasscutter.net.proto.FurnitureMakeSlotOuterClass.FurnitureMakeSlot.Builder, emu.grasscutter.net.proto.FurnitureMakeSlotOuterClass.FurnitureMakeSlotOrBuilder> furnitureMakeSlotBuilder_;
-<<<<<<< HEAD
 
       public boolean hasFurnitureMakeSlot() {
         return furnitureMakeSlotBuilder_ != null || furnitureMakeSlot_ != null;
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.FurnitureMakeSlot furniture_make_slot = 14;</code>
-       * @return Whether the furnitureMakeSlot field is set.
-       */
-      public boolean hasFurnitureMakeSlot() {
-        return furnitureMakeSlotBuilder_ != null || furnitureMakeSlot_ != null;
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.FurnitureMakeSlot furniture_make_slot = 14;</code>
-       * @return The furnitureMakeSlot.
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.FurnitureMakeSlotOuterClass.FurnitureMakeSlot getFurnitureMakeSlot() {
         if (furnitureMakeSlotBuilder_ == null) {
           return furnitureMakeSlot_ == null ? emu.grasscutter.net.proto.FurnitureMakeSlotOuterClass.FurnitureMakeSlot.getDefaultInstance() : furnitureMakeSlot_;
@@ -658,17 +534,7 @@ public final class FurnitureMakeCancelRspOuterClass {
           return furnitureMakeSlotBuilder_.getMessage();
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.FurnitureMakeSlot furniture_make_slot = 14;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setFurnitureMakeSlot(emu.grasscutter.net.proto.FurnitureMakeSlotOuterClass.FurnitureMakeSlot value) {
         if (furnitureMakeSlotBuilder_ == null) {
           if (value == null) {
@@ -682,17 +548,7 @@ public final class FurnitureMakeCancelRspOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.FurnitureMakeSlot furniture_make_slot = 14;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setFurnitureMakeSlot(
           emu.grasscutter.net.proto.FurnitureMakeSlotOuterClass.FurnitureMakeSlot.Builder builderForValue) {
         if (furnitureMakeSlotBuilder_ == null) {
@@ -704,17 +560,7 @@ public final class FurnitureMakeCancelRspOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.FurnitureMakeSlot furniture_make_slot = 14;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder mergeFurnitureMakeSlot(emu.grasscutter.net.proto.FurnitureMakeSlotOuterClass.FurnitureMakeSlot value) {
         if (furnitureMakeSlotBuilder_ == null) {
           if (furnitureMakeSlot_ != null) {
@@ -730,17 +576,7 @@ public final class FurnitureMakeCancelRspOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.FurnitureMakeSlot furniture_make_slot = 14;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder clearFurnitureMakeSlot() {
         if (furnitureMakeSlotBuilder_ == null) {
           furnitureMakeSlot_ = null;
@@ -752,33 +588,13 @@ public final class FurnitureMakeCancelRspOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.FurnitureMakeSlot furniture_make_slot = 14;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.FurnitureMakeSlotOuterClass.FurnitureMakeSlot.Builder getFurnitureMakeSlotBuilder() {
 
         onChanged();
         return getFurnitureMakeSlotFieldBuilder().getBuilder();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.FurnitureMakeSlot furniture_make_slot = 14;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.FurnitureMakeSlotOuterClass.FurnitureMakeSlotOrBuilder getFurnitureMakeSlotOrBuilder() {
         if (furnitureMakeSlotBuilder_ != null) {
           return furnitureMakeSlotBuilder_.getMessageOrBuilder();
@@ -787,17 +603,7 @@ public final class FurnitureMakeCancelRspOuterClass {
               emu.grasscutter.net.proto.FurnitureMakeSlotOuterClass.FurnitureMakeSlot.getDefaultInstance() : furnitureMakeSlot_;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.FurnitureMakeSlot furniture_make_slot = 14;</code>
-       */
->>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.FurnitureMakeSlotOuterClass.FurnitureMakeSlot, emu.grasscutter.net.proto.FurnitureMakeSlotOuterClass.FurnitureMakeSlot.Builder, emu.grasscutter.net.proto.FurnitureMakeSlotOuterClass.FurnitureMakeSlotOrBuilder>
           getFurnitureMakeSlotFieldBuilder() {
@@ -813,53 +619,19 @@ public final class FurnitureMakeCancelRspOuterClass {
       }
 
       private int retcode_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 10;</code>
-       * @return The retcode.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 10;</code>
-       * @param value The retcode to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
 
         retcode_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 10;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearRetcode() {
 
         retcode_ = 0;
@@ -868,53 +640,19 @@ public final class FurnitureMakeCancelRspOuterClass {
       }
 
       private int makeId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 make_id = 2;</code>
-       * @return The makeId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getMakeId() {
         return makeId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 make_id = 2;</code>
-       * @param value The makeId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setMakeId(int value) {
 
         makeId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 make_id = 2;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearMakeId() {
 
         makeId_ = 0;

@@ -18,53 +18,12 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:TrialAvatarActivityRewardDetailInfo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getTrialAvatarIndexId();
 
     int getRewardId();
 
     boolean getPassedDungeon();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 trial_avatar_index_id = 4;</code>
-     * @return The trialAvatarIndexId.
-     */
-    int getTrialAvatarIndexId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 reward_id = 3;</code>
-     * @return The rewardId.
-     */
-    int getRewardId();
-
-    /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>bool passed_dungeon = 9;</code>
-     * @return The passedDungeon.
-     */
-    boolean getPassedDungeon();
-
-    /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>bool received_reward = 14;</code>
-     * @return The receivedReward.
-     */
->>>>>>> origin/6.5.0
     boolean getReceivedReward();
   }
   /**
@@ -166,18 +125,7 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
 
     public static final int TRIAL_AVATAR_INDEX_ID_FIELD_NUMBER = 4;
     private int trialAvatarIndexId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 trial_avatar_index_id = 4;</code>
-     * @return The trialAvatarIndexId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getTrialAvatarIndexId() {
       return trialAvatarIndexId_;
@@ -185,18 +133,7 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
 
     public static final int REWARD_ID_FIELD_NUMBER = 3;
     private int rewardId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 reward_id = 3;</code>
-     * @return The rewardId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRewardId() {
       return rewardId_;
@@ -204,18 +141,7 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
 
     public static final int PASSED_DUNGEON_FIELD_NUMBER = 9;
     private boolean passedDungeon_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>bool passed_dungeon = 9;</code>
-     * @return The passedDungeon.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getPassedDungeon() {
       return passedDungeon_;
@@ -223,18 +149,7 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
 
     public static final int RECEIVED_REWARD_FIELD_NUMBER = 14;
     private boolean receivedReward_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>bool received_reward = 14;</code>
-     * @return The receivedReward.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getReceivedReward() {
       return receivedReward_;
@@ -596,53 +511,19 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       }
 
       private int trialAvatarIndexId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 trial_avatar_index_id = 4;</code>
-       * @return The trialAvatarIndexId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getTrialAvatarIndexId() {
         return trialAvatarIndexId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 trial_avatar_index_id = 4;</code>
-       * @param value The trialAvatarIndexId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setTrialAvatarIndexId(int value) {
 
         trialAvatarIndexId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 trial_avatar_index_id = 4;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearTrialAvatarIndexId() {
 
         trialAvatarIndexId_ = 0;
@@ -651,53 +532,19 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       }
 
       private int rewardId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 reward_id = 3;</code>
-       * @return The rewardId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRewardId() {
         return rewardId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 reward_id = 3;</code>
-       * @param value The rewardId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setRewardId(int value) {
 
         rewardId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 reward_id = 3;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearRewardId() {
 
         rewardId_ = 0;
@@ -706,53 +553,19 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       }
 
       private boolean passedDungeon_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>bool passed_dungeon = 9;</code>
-       * @return The passedDungeon.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getPassedDungeon() {
         return passedDungeon_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>bool passed_dungeon = 9;</code>
-       * @param value The passedDungeon to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setPassedDungeon(boolean value) {
 
         passedDungeon_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>bool passed_dungeon = 9;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearPassedDungeon() {
 
         passedDungeon_ = false;
@@ -761,53 +574,19 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       }
 
       private boolean receivedReward_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>bool received_reward = 14;</code>
-       * @return The receivedReward.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getReceivedReward() {
         return receivedReward_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>bool received_reward = 14;</code>
-       * @param value The receivedReward to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setReceivedReward(boolean value) {
 
         receivedReward_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>bool received_reward = 14;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearReceivedReward() {
 
         receivedReward_ = false;

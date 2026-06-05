@@ -35,7 +35,6 @@ public final class UseItemReqOuterClass {
      */
     int getAPAANIAIJFI(int index);
 
-<<<<<<< HEAD
     long getGuid();
 
     boolean getIsEnterMpDungeonTeam();
@@ -44,56 +43,6 @@ public final class UseItemReqOuterClass {
 
     int getCount();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint64 guid = 13;</code>
-     * @return The guid.
-     */
-    long getGuid();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>bool is_enter_mp_dungeon_team = 11;</code>
-     * @return The isEnterMpDungeonTeam.
-     */
-    boolean getIsEnterMpDungeonTeam();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 option_idx = 15;</code>
-     * @return The optionIdx.
-     */
-    int getOptionIdx();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 count = 8;</code>
-     * @return The count.
-     */
-    int getCount();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint64 target_guid = 6;</code>
-     * @return The targetGuid.
-     */
->>>>>>> origin/6.5.0
     long getTargetGuid();
   }
   /**
@@ -258,18 +207,7 @@ public final class UseItemReqOuterClass {
 
     public static final int GUID_FIELD_NUMBER = 11;
     private long guid_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint64 guid = 13;</code>
-     * @return The guid.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public long getGuid() {
       return guid_;
@@ -277,18 +215,7 @@ public final class UseItemReqOuterClass {
 
     public static final int IS_ENTER_MP_DUNGEON_TEAM_FIELD_NUMBER = 3;
     private boolean isEnterMpDungeonTeam_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>bool is_enter_mp_dungeon_team = 11;</code>
-     * @return The isEnterMpDungeonTeam.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsEnterMpDungeonTeam() {
       return isEnterMpDungeonTeam_;
@@ -296,18 +223,7 @@ public final class UseItemReqOuterClass {
 
     public static final int OPTION_IDX_FIELD_NUMBER = 7;
     private int optionIdx_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 option_idx = 15;</code>
-     * @return The optionIdx.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getOptionIdx() {
       return optionIdx_;
@@ -315,18 +231,7 @@ public final class UseItemReqOuterClass {
 
     public static final int COUNT_FIELD_NUMBER = 15;
     private int count_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 count = 8;</code>
-     * @return The count.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCount() {
       return count_;
@@ -334,18 +239,7 @@ public final class UseItemReqOuterClass {
 
     public static final int TARGET_GUID_FIELD_NUMBER = 2;
     private long targetGuid_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint64 target_guid = 6;</code>
-     * @return The targetGuid.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public long getTargetGuid() {
       return targetGuid_;
@@ -855,53 +749,19 @@ public final class UseItemReqOuterClass {
       }
 
       private long guid_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint64 guid = 13;</code>
-       * @return The guid.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public long getGuid() {
         return guid_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint64 guid = 13;</code>
-       * @param value The guid to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setGuid(long value) {
 
         guid_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint64 guid = 13;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearGuid() {
 
         guid_ = 0L;
@@ -910,53 +770,19 @@ public final class UseItemReqOuterClass {
       }
 
       private boolean isEnterMpDungeonTeam_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>bool is_enter_mp_dungeon_team = 11;</code>
-       * @return The isEnterMpDungeonTeam.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsEnterMpDungeonTeam() {
         return isEnterMpDungeonTeam_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>bool is_enter_mp_dungeon_team = 11;</code>
-       * @param value The isEnterMpDungeonTeam to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setIsEnterMpDungeonTeam(boolean value) {
 
         isEnterMpDungeonTeam_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>bool is_enter_mp_dungeon_team = 11;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearIsEnterMpDungeonTeam() {
 
         isEnterMpDungeonTeam_ = false;
@@ -965,53 +791,19 @@ public final class UseItemReqOuterClass {
       }
 
       private int optionIdx_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 option_idx = 15;</code>
-       * @return The optionIdx.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getOptionIdx() {
         return optionIdx_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 option_idx = 15;</code>
-       * @param value The optionIdx to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setOptionIdx(int value) {
 
         optionIdx_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 option_idx = 15;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearOptionIdx() {
 
         optionIdx_ = 0;
@@ -1020,53 +812,19 @@ public final class UseItemReqOuterClass {
       }
 
       private int count_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 count = 8;</code>
-       * @return The count.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCount() {
         return count_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 count = 8;</code>
-       * @param value The count to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setCount(int value) {
 
         count_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 count = 8;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearCount() {
 
         count_ = 0;
@@ -1075,53 +833,19 @@ public final class UseItemReqOuterClass {
       }
 
       private long targetGuid_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint64 target_guid = 6;</code>
-       * @return The targetGuid.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public long getTargetGuid() {
         return targetGuid_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint64 target_guid = 6;</code>
-       * @param value The targetGuid to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setTargetGuid(long value) {
 
         targetGuid_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint64 target_guid = 6;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearTargetGuid() {
 
         targetGuid_ = 0L;

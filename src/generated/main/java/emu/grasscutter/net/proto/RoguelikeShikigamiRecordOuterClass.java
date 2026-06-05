@@ -18,29 +18,8 @@ public final class RoguelikeShikigamiRecordOuterClass {
       // @@protoc_insertion_point(interface_extends:RoguelikeShikigamiRecord)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getId();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 id = 9;</code>
-     * @return The id.
-     */
-    int getId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 level = 8;</code>
-     * @return The level.
-     */
->>>>>>> origin/6.5.0
     int getLevel();
   }
   /**
@@ -132,18 +111,7 @@ public final class RoguelikeShikigamiRecordOuterClass {
 
     public static final int ID_FIELD_NUMBER = 9;
     private int id_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 id = 9;</code>
-     * @return The id.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getId() {
       return id_;
@@ -151,18 +119,7 @@ public final class RoguelikeShikigamiRecordOuterClass {
 
     public static final int LEVEL_FIELD_NUMBER = 9;
     private int level_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 level = 8;</code>
-     * @return The level.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getLevel() {
       return level_;
@@ -488,53 +445,19 @@ public final class RoguelikeShikigamiRecordOuterClass {
       }
 
       private int id_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 id = 9;</code>
-       * @return The id.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getId() {
         return id_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 id = 9;</code>
-       * @param value The id to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setId(int value) {
 
         id_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 id = 9;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearId() {
 
         id_ = 0;
@@ -543,53 +466,19 @@ public final class RoguelikeShikigamiRecordOuterClass {
       }
 
       private int level_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 level = 8;</code>
-       * @return The level.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getLevel() {
         return level_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 level = 8;</code>
-       * @param value The level to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setLevel(int value) {
 
         level_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 level = 8;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearLevel() {
 
         level_ = 0;

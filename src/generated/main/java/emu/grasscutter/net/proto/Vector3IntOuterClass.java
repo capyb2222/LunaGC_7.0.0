@@ -18,41 +18,10 @@ public final class Vector3IntOuterClass {
       // @@protoc_insertion_point(interface_extends:Vector3Int)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getY();
 
     int getX();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>int32 y = 2;</code>
-     * @return The y.
-     */
-    int getY();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>int32 x = 1;</code>
-     * @return The x.
-     */
-    int getX();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>int32 z = 3;</code>
-     * @return The z.
-     */
->>>>>>> origin/6.5.0
     int getZ();
   }
   /**
@@ -149,18 +118,7 @@ public final class Vector3IntOuterClass {
 
     public static final int Y_FIELD_NUMBER = 2;
     private int y_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>int32 y = 2;</code>
-     * @return The y.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getY() {
       return y_;
@@ -168,18 +126,7 @@ public final class Vector3IntOuterClass {
 
     public static final int X_FIELD_NUMBER = 1;
     private int x_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>int32 x = 1;</code>
-     * @return The x.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getX() {
       return x_;
@@ -187,18 +134,7 @@ public final class Vector3IntOuterClass {
 
     public static final int Z_FIELD_NUMBER = 3;
     private int z_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>int32 z = 3;</code>
-     * @return The z.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getZ() {
       return z_;
@@ -541,53 +477,19 @@ public final class Vector3IntOuterClass {
       }
 
       private int y_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>int32 y = 2;</code>
-       * @return The y.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getY() {
         return y_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>int32 y = 2;</code>
-       * @param value The y to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setY(int value) {
 
         y_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>int32 y = 2;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearY() {
 
         y_ = 0;
@@ -596,53 +498,19 @@ public final class Vector3IntOuterClass {
       }
 
       private int x_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>int32 x = 1;</code>
-       * @return The x.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getX() {
         return x_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>int32 x = 1;</code>
-       * @param value The x to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setX(int value) {
 
         x_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>int32 x = 1;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearX() {
 
         x_ = 0;
@@ -651,53 +519,19 @@ public final class Vector3IntOuterClass {
       }
 
       private int z_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>int32 z = 3;</code>
-       * @return The z.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getZ() {
         return z_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>int32 z = 3;</code>
-       * @param value The z to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setZ(int value) {
 
         z_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>int32 z = 3;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearZ() {
 
         z_ = 0;

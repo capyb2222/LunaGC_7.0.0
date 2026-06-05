@@ -18,17 +18,6 @@ public final class AbilityIdentifierOuterClass {
       // @@protoc_insertion_point(interface_extends:AbilityIdentifier)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 instanced_modifier_id = 12;</code>
-     * @return The instancedModifierId.
-     */
->>>>>>> origin/6.5.0
     int getInstancedModifierId();
 
     /**
@@ -37,29 +26,8 @@ public final class AbilityIdentifierOuterClass {
      */
     int getOBCMIANDPDK();
 
-<<<<<<< HEAD
     int getInstancedAbilityId();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 instanced_ability_id = 1;</code>
-     * @return The instancedAbilityId.
-     */
-    int getInstancedAbilityId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>int32 local_id = 4;</code>
-     * @return The localId.
-     */
->>>>>>> origin/6.5.0
     int getLocalId();
 
     /**
@@ -172,18 +140,7 @@ public final class AbilityIdentifierOuterClass {
 
     public static final int INSTANCED_MODIFIER_ID_FIELD_NUMBER = 4;
     private int instancedModifierId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 instanced_modifier_id = 12;</code>
-     * @return The instancedModifierId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getInstancedModifierId() {
       return instancedModifierId_;
@@ -202,18 +159,7 @@ public final class AbilityIdentifierOuterClass {
 
     public static final int INSTANCED_ABILITY_ID_FIELD_NUMBER = 2;
     private int instancedAbilityId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 instanced_ability_id = 1;</code>
-     * @return The instancedAbilityId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getInstancedAbilityId() {
       return instancedAbilityId_;
@@ -221,18 +167,7 @@ public final class AbilityIdentifierOuterClass {
 
     public static final int LOCAL_ID_FIELD_NUMBER = 7;
     private int localId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>int32 local_id = 4;</code>
-     * @return The localId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getLocalId() {
       return localId_;
@@ -621,53 +556,19 @@ public final class AbilityIdentifierOuterClass {
       }
 
       private int instancedModifierId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 instanced_modifier_id = 12;</code>
-       * @return The instancedModifierId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getInstancedModifierId() {
         return instancedModifierId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 instanced_modifier_id = 12;</code>
-       * @param value The instancedModifierId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setInstancedModifierId(int value) {
 
         instancedModifierId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 instanced_modifier_id = 12;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearInstancedModifierId() {
 
         instancedModifierId_ = 0;
@@ -707,53 +608,19 @@ public final class AbilityIdentifierOuterClass {
       }
 
       private int instancedAbilityId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 instanced_ability_id = 1;</code>
-       * @return The instancedAbilityId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getInstancedAbilityId() {
         return instancedAbilityId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 instanced_ability_id = 1;</code>
-       * @param value The instancedAbilityId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setInstancedAbilityId(int value) {
 
         instancedAbilityId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 instanced_ability_id = 1;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearInstancedAbilityId() {
 
         instancedAbilityId_ = 0;
@@ -762,53 +629,19 @@ public final class AbilityIdentifierOuterClass {
       }
 
       private int localId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>int32 local_id = 4;</code>
-       * @return The localId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getLocalId() {
         return localId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>int32 local_id = 4;</code>
-       * @param value The localId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setLocalId(int value) {
 
         localId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>int32 local_id = 4;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearLocalId() {
 
         localId_ = 0;

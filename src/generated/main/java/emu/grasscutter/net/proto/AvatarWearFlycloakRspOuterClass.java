@@ -24,29 +24,8 @@ public final class AvatarWearFlycloakRspOuterClass {
      */
     long getAvatarGuid();
 
-<<<<<<< HEAD
     int getFlycloakId();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 flycloak_id = 9;</code>
-     * @return The flycloakId.
-     */
-    int getFlycloakId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>int32 retcode = 14;</code>
-     * @return The retcode.
-     */
->>>>>>> origin/6.5.0
     int getRetcode();
   }
   /**
@@ -158,18 +137,7 @@ public final class AvatarWearFlycloakRspOuterClass {
 
     public static final int FLYCLOAK_ID_FIELD_NUMBER = 3;
     private int flycloakId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 flycloak_id = 9;</code>
-     * @return The flycloakId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getFlycloakId() {
       return flycloakId_;
@@ -177,18 +145,7 @@ public final class AvatarWearFlycloakRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 7;
     private int retcode_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>int32 retcode = 14;</code>
-     * @return The retcode.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -567,53 +524,19 @@ public final class AvatarWearFlycloakRspOuterClass {
       }
 
       private int flycloakId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 flycloak_id = 9;</code>
-       * @return The flycloakId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getFlycloakId() {
         return flycloakId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 flycloak_id = 9;</code>
-       * @param value The flycloakId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setFlycloakId(int value) {
 
         flycloakId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 flycloak_id = 9;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearFlycloakId() {
 
         flycloakId_ = 0;
@@ -622,53 +545,19 @@ public final class AvatarWearFlycloakRspOuterClass {
       }
 
       private int retcode_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>int32 retcode = 14;</code>
-       * @return The retcode.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>int32 retcode = 14;</code>
-       * @param value The retcode to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
 
         retcode_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>int32 retcode = 14;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearRetcode() {
 
         retcode_ = 0;

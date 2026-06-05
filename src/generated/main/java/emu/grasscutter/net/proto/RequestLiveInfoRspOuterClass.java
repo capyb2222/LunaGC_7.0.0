@@ -42,29 +42,8 @@ public final class RequestLiveInfoRspOuterClass {
     com.google.protobuf.ByteString
         getSpareLiveUrlBytes();
 
-<<<<<<< HEAD
     int getRetcode();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>int32 retcode = 3;</code>
-     * @return The retcode.
-     */
-    int getRetcode();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>uint32 live_id = 15;</code>
-     * @return The liveId.
-     */
->>>>>>> origin/6.5.0
     int getLiveId();
   }
   /**
@@ -250,18 +229,7 @@ public final class RequestLiveInfoRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 6;
     private int retcode_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>int32 retcode = 3;</code>
-     * @return The retcode.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -269,18 +237,7 @@ public final class RequestLiveInfoRspOuterClass {
 
     public static final int LIVE_ID_FIELD_NUMBER = 13;
     private int liveId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>uint32 live_id = 15;</code>
-     * @return The liveId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getLiveId() {
       return liveId_;
@@ -796,53 +753,19 @@ public final class RequestLiveInfoRspOuterClass {
       }
 
       private int retcode_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>int32 retcode = 3;</code>
-       * @return The retcode.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>int32 retcode = 3;</code>
-       * @param value The retcode to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
 
         retcode_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>int32 retcode = 3;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearRetcode() {
 
         retcode_ = 0;
@@ -851,53 +774,19 @@ public final class RequestLiveInfoRspOuterClass {
       }
 
       private int liveId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>uint32 live_id = 15;</code>
-       * @return The liveId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getLiveId() {
         return liveId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>uint32 live_id = 15;</code>
-       * @param value The liveId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setLiveId(int value) {
 
         liveId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>uint32 live_id = 15;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearLiveId() {
 
         liveId_ = 0;

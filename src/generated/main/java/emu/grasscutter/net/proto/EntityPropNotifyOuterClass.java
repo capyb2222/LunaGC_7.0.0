@@ -16,83 +16,25 @@ public final class EntityPropNotifyOuterClass {
 
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getPropMapCount();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
-     */
-    int getPropMapCount();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
-     */
->>>>>>> origin/6.5.0
     boolean containsPropMap(
         int key);
 
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue>
     getPropMap();
-<<<<<<< HEAD
 
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue>
     getPropMapMap();
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
-     */
-    java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue>
-    getPropMapMap();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
-     */
->>>>>>> origin/6.5.0
 
     emu.grasscutter.net.proto.PropValueOuterClass.PropValue getPropMapOrDefault(
         int key,
         emu.grasscutter.net.proto.PropValueOuterClass.PropValue defaultValue);
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
-     */
->>>>>>> origin/6.5.0
 
     emu.grasscutter.net.proto.PropValueOuterClass.PropValue getPropMapOrThrow(
         int key);
 
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 entity_id = 12;</code>
-     * @return The entityId.
-     */
->>>>>>> origin/6.5.0
     int getEntityId();
   }
 
@@ -227,16 +169,6 @@ public final class EntityPropNotifyOuterClass {
     public int getPropMapCount() {
       return internalGetPropMap().getMap().size();
     }
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
-     */
->>>>>>> origin/6.5.0
 
     @java.lang.Override
     public boolean containsPropMap(
@@ -250,33 +182,13 @@ public final class EntityPropNotifyOuterClass {
     public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> getPropMap() {
       return getPropMapMap();
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> getPropMapMap() {
       return internalGetPropMap().getMap();
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public emu.grasscutter.net.proto.PropValueOuterClass.PropValue getPropMapOrDefault(
@@ -287,17 +199,7 @@ public final class EntityPropNotifyOuterClass {
           internalGetPropMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public emu.grasscutter.net.proto.PropValueOuterClass.PropValue getPropMapOrThrow(
@@ -313,18 +215,7 @@ public final class EntityPropNotifyOuterClass {
 
     public static final int ENTITY_ID_FIELD_NUMBER = 2;
     private int entityId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 entity_id = 12;</code>
-     * @return The entityId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getEntityId() {
       return entityId_;
@@ -706,16 +597,6 @@ public final class EntityPropNotifyOuterClass {
       public int getPropMapCount() {
         return internalGetPropMap().getMap().size();
       }
-<<<<<<< HEAD
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
-       */
->>>>>>> origin/6.5.0
 
       @java.lang.Override
       public boolean containsPropMap(
@@ -729,33 +610,13 @@ public final class EntityPropNotifyOuterClass {
       public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> getPropMap() {
         return getPropMapMap();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> getPropMapMap() {
         return internalGetPropMap().getMap();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public emu.grasscutter.net.proto.PropValueOuterClass.PropValue getPropMapOrDefault(
@@ -766,17 +627,7 @@ public final class EntityPropNotifyOuterClass {
             internalGetPropMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public emu.grasscutter.net.proto.PropValueOuterClass.PropValue getPropMapOrThrow(
@@ -795,16 +646,6 @@ public final class EntityPropNotifyOuterClass {
             .clear();
         return this;
       }
-<<<<<<< HEAD
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
-       */
->>>>>>> origin/6.5.0
 
       public Builder removePropMap(
           int key) {
@@ -819,17 +660,7 @@ public final class EntityPropNotifyOuterClass {
       getMutablePropMap() {
         return internalGetMutablePropMap().getMutableMap();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder putPropMap(
           int key,
           emu.grasscutter.net.proto.PropValueOuterClass.PropValue value) {
@@ -839,16 +670,6 @@ public final class EntityPropNotifyOuterClass {
             .put(key, value);
         return this;
       }
-<<<<<<< HEAD
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
-       */
->>>>>>> origin/6.5.0
 
       public Builder putAllPropMap(
           java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> values) {
@@ -858,53 +679,19 @@ public final class EntityPropNotifyOuterClass {
       }
 
       private int entityId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 entity_id = 12;</code>
-       * @return The entityId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getEntityId() {
         return entityId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 entity_id = 12;</code>
-       * @param value The entityId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setEntityId(int value) {
 
         entityId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 entity_id = 12;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearEntityId() {
 
         entityId_ = 0;

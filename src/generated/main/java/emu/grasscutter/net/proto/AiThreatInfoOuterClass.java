@@ -18,26 +18,8 @@ public final class AiThreatInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:AiThreatInfo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getAiThreatMapCount();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0         
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-     */
-    int getAiThreatMapCount();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0         
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-     */
->>>>>>> origin/6.5.0
     boolean containsAiThreatMap(
         int key);
     /**
@@ -46,42 +28,13 @@ public final class AiThreatInfoOuterClass {
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getAiThreatMap();
-<<<<<<< HEAD
 
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getAiThreatMapMap();
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0         
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-     */
-    java.util.Map<java.lang.Integer, java.lang.Integer>
-    getAiThreatMapMap();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0         
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-     */
->>>>>>> origin/6.5.0
 
     int getAiThreatMapOrDefault(
         int key,
         int defaultValue);
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0         
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-     */
->>>>>>> origin/6.5.0
 
     int getAiThreatMapOrThrow(
         int key);
@@ -215,16 +168,6 @@ public final class AiThreatInfoOuterClass {
     public int getAiThreatMapCount() {
       return internalGetAiThreatMap().getMap().size();
     }
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0         
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-     */
->>>>>>> origin/6.5.0
 
     @java.lang.Override
     public boolean containsAiThreatMap(
@@ -240,33 +183,13 @@ public final class AiThreatInfoOuterClass {
     public java.util.Map<java.lang.Integer, java.lang.Integer> getAiThreatMap() {
       return getAiThreatMapMap();
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0         
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public java.util.Map<java.lang.Integer, java.lang.Integer> getAiThreatMapMap() {
       return internalGetAiThreatMap().getMap();
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0         
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public int getAiThreatMapOrDefault(
@@ -277,17 +200,7 @@ public final class AiThreatInfoOuterClass {
           internalGetAiThreatMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0         
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public int getAiThreatMapOrThrow(
@@ -663,16 +576,6 @@ public final class AiThreatInfoOuterClass {
       public int getAiThreatMapCount() {
         return internalGetAiThreatMap().getMap().size();
       }
-<<<<<<< HEAD
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0         
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-       */
->>>>>>> origin/6.5.0
 
       @java.lang.Override
       public boolean containsAiThreatMap(
@@ -688,33 +591,13 @@ public final class AiThreatInfoOuterClass {
       public java.util.Map<java.lang.Integer, java.lang.Integer> getAiThreatMap() {
         return getAiThreatMapMap();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0         
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public java.util.Map<java.lang.Integer, java.lang.Integer> getAiThreatMapMap() {
         return internalGetAiThreatMap().getMap();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0         
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public int getAiThreatMapOrDefault(
@@ -725,17 +608,7 @@ public final class AiThreatInfoOuterClass {
             internalGetAiThreatMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0         
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public int getAiThreatMapOrThrow(
@@ -754,16 +627,6 @@ public final class AiThreatInfoOuterClass {
             .clear();
         return this;
       }
-<<<<<<< HEAD
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0         
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-       */
->>>>>>> origin/6.5.0
 
       public Builder removeAiThreatMap(
           int key) {
@@ -780,17 +643,7 @@ public final class AiThreatInfoOuterClass {
       getMutableAiThreatMap() {
         return internalGetMutableAiThreatMap().getMutableMap();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0         
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder putAiThreatMap(
           int key,
           int value) {
@@ -799,16 +652,6 @@ public final class AiThreatInfoOuterClass {
             .put(key, value);
         return this;
       }
-<<<<<<< HEAD
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0         
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
-       */
->>>>>>> origin/6.5.0
 
       public Builder putAllAiThreatMap(
           java.util.Map<java.lang.Integer, java.lang.Integer> values) {

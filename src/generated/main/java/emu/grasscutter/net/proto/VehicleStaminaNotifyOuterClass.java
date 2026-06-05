@@ -18,29 +18,8 @@ public final class VehicleStaminaNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:VehicleStaminaNotify)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     float getCurStamina();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>float cur_stamina = 13;</code>
-     * @return The curStamina.
-     */
-    float getCurStamina();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 entity_id = 11;</code>
-     * @return The entityId.
-     */
->>>>>>> origin/6.5.0
     int getEntityId();
   }
   /**
@@ -136,18 +115,7 @@ public final class VehicleStaminaNotifyOuterClass {
 
     public static final int CUR_STAMINA_FIELD_NUMBER = 8;
     private float curStamina_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>float cur_stamina = 13;</code>
-     * @return The curStamina.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public float getCurStamina() {
       return curStamina_;
@@ -155,18 +123,7 @@ public final class VehicleStaminaNotifyOuterClass {
 
     public static final int ENTITY_ID_FIELD_NUMBER = 10;
     private int entityId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 entity_id = 11;</code>
-     * @return The entityId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getEntityId() {
       return entityId_;
@@ -498,53 +455,19 @@ public final class VehicleStaminaNotifyOuterClass {
       }
 
       private float curStamina_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>float cur_stamina = 13;</code>
-       * @return The curStamina.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public float getCurStamina() {
         return curStamina_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>float cur_stamina = 13;</code>
-       * @param value The curStamina to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setCurStamina(float value) {
 
         curStamina_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>float cur_stamina = 13;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearCurStamina() {
 
         curStamina_ = 0F;
@@ -553,53 +476,19 @@ public final class VehicleStaminaNotifyOuterClass {
       }
 
       private int entityId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 entity_id = 11;</code>
-       * @return The entityId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getEntityId() {
         return entityId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 entity_id = 11;</code>
-       * @param value The entityId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setEntityId(int value) {
 
         entityId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 entity_id = 11;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearEntityId() {
 
         entityId_ = 0;

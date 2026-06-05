@@ -18,53 +18,12 @@ public final class AbilityInvokeEntryHeadOuterClass {
       // @@protoc_insertion_point(interface_extends:AbilityInvokeEntryHead)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getServerBuffUid();
 
     int getInstancedModifierId();
 
     int getTargetId();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 server_buff_uid = 10;</code>
-     * @return The serverBuffUid.
-     */
-    int getServerBuffUid();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 instanced_modifier_id = 13;</code>
-     * @return The instancedModifierId.
-     */
-    int getInstancedModifierId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 target_id = 1;</code>
-     * @return The targetId.
-     */
-    int getTargetId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 instanced_ability_id = 11;</code>
-     * @return The instancedAbilityId.
-     */
->>>>>>> origin/6.5.0
     int getInstancedAbilityId();
 
     /**
@@ -73,29 +32,8 @@ public final class AbilityInvokeEntryHeadOuterClass {
      */
     boolean getIsServerbuffModifier();
 
-<<<<<<< HEAD
     int getLocalId();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>int32 local_id = 14;</code>
-     * @return The localId.
-     */
-    int getLocalId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>int32 modifier_config_local_id = 6;</code>
-     * @return The modifierConfigLocalId.
-     */
->>>>>>> origin/6.5.0
     int getModifierConfigLocalId();
   }
   /**
@@ -207,18 +145,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
 
     public static final int SERVER_BUFF_UID_FIELD_NUMBER = 5;
     private int serverBuffUid_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 server_buff_uid = 10;</code>
-     * @return The serverBuffUid.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getServerBuffUid() {
       return serverBuffUid_;
@@ -226,18 +153,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
 
     public static final int INSTANCED_MODIFIER_ID_FIELD_NUMBER = 1;
     private int instancedModifierId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 instanced_modifier_id = 13;</code>
-     * @return The instancedModifierId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getInstancedModifierId() {
       return instancedModifierId_;
@@ -245,18 +161,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
 
     public static final int TARGET_ID_FIELD_NUMBER = 3;
     private int targetId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 target_id = 1;</code>
-     * @return The targetId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getTargetId() {
       return targetId_;
@@ -264,18 +169,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
 
     public static final int INSTANCED_ABILITY_ID_FIELD_NUMBER = 4;
     private int instancedAbilityId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 instanced_ability_id = 11;</code>
-     * @return The instancedAbilityId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getInstancedAbilityId() {
       return instancedAbilityId_;
@@ -294,18 +188,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
 
     public static final int LOCAL_ID_FIELD_NUMBER = 11;
     private int localId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>int32 local_id = 14;</code>
-     * @return The localId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getLocalId() {
       return localId_;
@@ -313,18 +196,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
 
     public static final int MODIFIER_CONFIG_LOCAL_ID_FIELD_NUMBER = 7;
     private int modifierConfigLocalId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>int32 modifier_config_local_id = 6;</code>
-     * @return The modifierConfigLocalId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getModifierConfigLocalId() {
       return modifierConfigLocalId_;
@@ -729,53 +601,19 @@ public final class AbilityInvokeEntryHeadOuterClass {
       }
 
       private int serverBuffUid_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 server_buff_uid = 10;</code>
-       * @return The serverBuffUid.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getServerBuffUid() {
         return serverBuffUid_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 server_buff_uid = 10;</code>
-       * @param value The serverBuffUid to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setServerBuffUid(int value) {
 
         serverBuffUid_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 server_buff_uid = 10;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearServerBuffUid() {
 
         serverBuffUid_ = 0;
@@ -784,53 +622,19 @@ public final class AbilityInvokeEntryHeadOuterClass {
       }
 
       private int instancedModifierId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 instanced_modifier_id = 13;</code>
-       * @return The instancedModifierId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getInstancedModifierId() {
         return instancedModifierId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 instanced_modifier_id = 13;</code>
-       * @param value The instancedModifierId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setInstancedModifierId(int value) {
 
         instancedModifierId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 instanced_modifier_id = 13;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearInstancedModifierId() {
 
         instancedModifierId_ = 0;
@@ -839,53 +643,19 @@ public final class AbilityInvokeEntryHeadOuterClass {
       }
 
       private int targetId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 target_id = 1;</code>
-       * @return The targetId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getTargetId() {
         return targetId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 target_id = 1;</code>
-       * @param value The targetId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setTargetId(int value) {
 
         targetId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 target_id = 1;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearTargetId() {
 
         targetId_ = 0;
@@ -894,53 +664,19 @@ public final class AbilityInvokeEntryHeadOuterClass {
       }
 
       private int instancedAbilityId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 instanced_ability_id = 11;</code>
-       * @return The instancedAbilityId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getInstancedAbilityId() {
         return instancedAbilityId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 instanced_ability_id = 11;</code>
-       * @param value The instancedAbilityId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setInstancedAbilityId(int value) {
 
         instancedAbilityId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 instanced_ability_id = 11;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearInstancedAbilityId() {
 
         instancedAbilityId_ = 0;
@@ -980,53 +716,19 @@ public final class AbilityInvokeEntryHeadOuterClass {
       }
 
       private int localId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>int32 local_id = 14;</code>
-       * @return The localId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getLocalId() {
         return localId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>int32 local_id = 14;</code>
-       * @param value The localId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setLocalId(int value) {
 
         localId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>int32 local_id = 14;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearLocalId() {
 
         localId_ = 0;
@@ -1035,53 +737,19 @@ public final class AbilityInvokeEntryHeadOuterClass {
       }
 
       private int modifierConfigLocalId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>int32 modifier_config_local_id = 6;</code>
-       * @return The modifierConfigLocalId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getModifierConfigLocalId() {
         return modifierConfigLocalId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>int32 modifier_config_local_id = 6;</code>
-       * @param value The modifierConfigLocalId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setModifierConfigLocalId(int value) {
 
         modifierConfigLocalId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>int32 modifier_config_local_id = 6;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearModifierConfigLocalId() {
 
         modifierConfigLocalId_ = 0;

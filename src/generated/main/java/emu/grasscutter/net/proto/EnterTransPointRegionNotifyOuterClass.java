@@ -18,17 +18,6 @@ public final class EnterTransPointRegionNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:EnterTransPointRegionNotify)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>uint32 point_id = 7;</code>
-     * @return The pointId.
-     */
->>>>>>> origin/6.5.0
     int getPointId();
 
     /**
@@ -134,18 +123,7 @@ public final class EnterTransPointRegionNotifyOuterClass {
 
     public static final int POINT_ID_FIELD_NUMBER = 7;
     private int pointId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>uint32 point_id = 7;</code>
-     * @return The pointId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getPointId() {
       return pointId_;
@@ -490,53 +468,19 @@ public final class EnterTransPointRegionNotifyOuterClass {
       }
 
       private int pointId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>uint32 point_id = 7;</code>
-       * @return The pointId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getPointId() {
         return pointId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>uint32 point_id = 7;</code>
-       * @param value The pointId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setPointId(int value) {
 
         pointId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>uint32 point_id = 7;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearPointId() {
 
         pointId_ = 0;

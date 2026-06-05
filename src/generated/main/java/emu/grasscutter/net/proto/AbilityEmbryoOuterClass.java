@@ -18,41 +18,10 @@ public final class AbilityEmbryoOuterClass {
       // @@protoc_insertion_point(interface_extends:AbilityEmbryo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getAbilityNameHash();
 
     int getAbilityId();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>fixed32 ability_name_hash = 2;</code>
-     * @return The abilityNameHash.
-     */
-    int getAbilityNameHash();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 ability_id = 1;</code>
-     * @return The abilityId.
-     */
-    int getAbilityId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>fixed32 ability_override_name_hash = 3;</code>
-     * @return The abilityOverrideNameHash.
-     */
->>>>>>> origin/6.5.0
     int getAbilityOverrideNameHash();
   }
   /**
@@ -149,18 +118,7 @@ public final class AbilityEmbryoOuterClass {
 
     public static final int ABILITY_NAME_HASH_FIELD_NUMBER = 2;
     private int abilityNameHash_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>fixed32 ability_name_hash = 2;</code>
-     * @return The abilityNameHash.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getAbilityNameHash() {
       return abilityNameHash_;
@@ -168,18 +126,7 @@ public final class AbilityEmbryoOuterClass {
 
     public static final int ABILITY_ID_FIELD_NUMBER = 1;
     private int abilityId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 ability_id = 1;</code>
-     * @return The abilityId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getAbilityId() {
       return abilityId_;
@@ -187,18 +134,7 @@ public final class AbilityEmbryoOuterClass {
 
     public static final int ABILITY_OVERRIDE_NAME_HASH_FIELD_NUMBER = 3;
     private int abilityOverrideNameHash_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>fixed32 ability_override_name_hash = 3;</code>
-     * @return The abilityOverrideNameHash.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getAbilityOverrideNameHash() {
       return abilityOverrideNameHash_;
@@ -541,53 +477,19 @@ public final class AbilityEmbryoOuterClass {
       }
 
       private int abilityNameHash_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>fixed32 ability_name_hash = 2;</code>
-       * @return The abilityNameHash.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getAbilityNameHash() {
         return abilityNameHash_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>fixed32 ability_name_hash = 2;</code>
-       * @param value The abilityNameHash to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setAbilityNameHash(int value) {
 
         abilityNameHash_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>fixed32 ability_name_hash = 2;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearAbilityNameHash() {
 
         abilityNameHash_ = 0;
@@ -596,53 +498,19 @@ public final class AbilityEmbryoOuterClass {
       }
 
       private int abilityId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 ability_id = 1;</code>
-       * @return The abilityId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getAbilityId() {
         return abilityId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 ability_id = 1;</code>
-       * @param value The abilityId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setAbilityId(int value) {
 
         abilityId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 ability_id = 1;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearAbilityId() {
 
         abilityId_ = 0;
@@ -651,53 +519,19 @@ public final class AbilityEmbryoOuterClass {
       }
 
       private int abilityOverrideNameHash_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>fixed32 ability_override_name_hash = 3;</code>
-       * @return The abilityOverrideNameHash.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getAbilityOverrideNameHash() {
         return abilityOverrideNameHash_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>fixed32 ability_override_name_hash = 3;</code>
-       * @param value The abilityOverrideNameHash to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setAbilityOverrideNameHash(int value) {
 
         abilityOverrideNameHash_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>fixed32 ability_override_name_hash = 3;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearAbilityOverrideNameHash() {
 
         abilityOverrideNameHash_ = 0;

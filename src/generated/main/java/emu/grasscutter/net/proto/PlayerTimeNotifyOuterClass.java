@@ -18,41 +18,10 @@ public final class PlayerTimeNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:PlayerTimeNotify)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     long getPlayerTime();
 
     boolean getIsPaused();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint64 player_time = 8;</code>
-     * @return The playerTime.
-     */
-    long getPlayerTime();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>bool is_paused = 11;</code>
-     * @return The isPaused.
-     */
-    boolean getIsPaused();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint64 server_time = 1;</code>
-     * @return The serverTime.
-     */
->>>>>>> origin/6.5.0
     long getServerTime();
   }
   /**
@@ -153,18 +122,7 @@ public final class PlayerTimeNotifyOuterClass {
 
     public static final int PLAYER_TIME_FIELD_NUMBER = 4;
     private long playerTime_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint64 player_time = 8;</code>
-     * @return The playerTime.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public long getPlayerTime() {
       return playerTime_;
@@ -172,18 +130,7 @@ public final class PlayerTimeNotifyOuterClass {
 
     public static final int IS_PAUSED_FIELD_NUMBER = 6;
     private boolean isPaused_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>bool is_paused = 11;</code>
-     * @return The isPaused.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsPaused() {
       return isPaused_;
@@ -191,18 +138,7 @@ public final class PlayerTimeNotifyOuterClass {
 
     public static final int SERVER_TIME_FIELD_NUMBER = 2;
     private long serverTime_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint64 server_time = 1;</code>
-     * @return The serverTime.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public long getServerTime() {
       return serverTime_;
@@ -552,53 +488,19 @@ public final class PlayerTimeNotifyOuterClass {
       }
 
       private long playerTime_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint64 player_time = 8;</code>
-       * @return The playerTime.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public long getPlayerTime() {
         return playerTime_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint64 player_time = 8;</code>
-       * @param value The playerTime to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setPlayerTime(long value) {
 
         playerTime_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint64 player_time = 8;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearPlayerTime() {
 
         playerTime_ = 0L;
@@ -607,53 +509,19 @@ public final class PlayerTimeNotifyOuterClass {
       }
 
       private boolean isPaused_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>bool is_paused = 11;</code>
-       * @return The isPaused.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsPaused() {
         return isPaused_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>bool is_paused = 11;</code>
-       * @param value The isPaused to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setIsPaused(boolean value) {
 
         isPaused_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>bool is_paused = 11;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearIsPaused() {
 
         isPaused_ = false;
@@ -662,53 +530,19 @@ public final class PlayerTimeNotifyOuterClass {
       }
 
       private long serverTime_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint64 server_time = 1;</code>
-       * @return The serverTime.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public long getServerTime() {
         return serverTime_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint64 server_time = 1;</code>
-       * @param value The serverTime to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setServerTime(long value) {
 
         serverTime_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint64 server_time = 1;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearServerTime() {
 
         serverTime_ = 0L;

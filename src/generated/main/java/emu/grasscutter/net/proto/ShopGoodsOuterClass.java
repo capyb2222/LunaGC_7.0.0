@@ -18,7 +18,6 @@ public final class ShopGoodsOuterClass {
       // @@protoc_insertion_point(interface_extends:ShopGoods)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>
         getCostItemListList();
 
@@ -50,134 +49,6 @@ public final class ShopGoodsOuterClass {
 
     int getDisableType();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .ItemParam cost_item_list = 8;</code>
-     */
-    java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> 
-        getCostItemListList();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .ItemParam cost_item_list = 8;</code>
-     */
-    emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getCostItemList(int index);
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .ItemParam cost_item_list = 8;</code>
-     */
-    int getCostItemListCount();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .ItemParam cost_item_list = 8;</code>
-     */
-    java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
-        getCostItemListOrBuilderList();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .ItemParam cost_item_list = 8;</code>
-     */
-    emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getCostItemListOrBuilder(
-        int index);
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.ItemParam goods_item = 9;</code>
-     * @return Whether the goodsItem field is set.
-     */
-    boolean hasGoodsItem();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.ItemParam goods_item = 9;</code>
-     * @return The goodsItem.
-     */
-    emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getGoodsItem();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.ItemParam goods_item = 9;</code>
-     */
-    emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getGoodsItemOrBuilder();
-
-    /**
-     * <code>repeated uint32 pre_goods_id_list = 10123;</code>
-     * @return A list containing the preGoodsIdList.
-     */
-    java.util.List<java.lang.Integer> getPreGoodsIdListList();
-    /**
-     * <code>repeated uint32 pre_goods_id_list = 10123;</code>
-     * @return The count of preGoodsIdList.
-     */
-    int getPreGoodsIdListCount();
-    /**
-     * <code>repeated uint32 pre_goods_id_list = 10123;</code>
-     * @param index The index of the element to return.
-     * @return The preGoodsIdList at the given index.
-     */
-    int getPreGoodsIdList(int index);
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 bought_num = 4;</code>
-     * @return The boughtNum.
-     */
-    int getBoughtNum();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>uint32 scoin = 5;</code>
-     * @return The scoin.
-     */
-    int getScoin();
-
-    /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>uint32 disable_type = 7;</code>
-     * @return The disableType.
-     */
-    int getDisableType();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>uint32 discount_end_time = 1141;</code>
-     * @return The discountEndTime.
-     */
->>>>>>> origin/6.5.0
     int getDiscountEndTime();
 
     /**
@@ -186,53 +57,12 @@ public final class ShopGoodsOuterClass {
      */
     int getSecondarySheetId();
 
-<<<<<<< HEAD
     int getMinLevel();
 
     int getMcoin();
 
     int getEndTime();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>uint32 min_level = 11;</code>
-     * @return The minLevel.
-     */
-    int getMinLevel();
-
-    /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>uint32 mcoin = 15;</code>
-     * @return The mcoin.
-     */
-    int getMcoin();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 end_time = 12;</code>
-     * @return The endTime.
-     */
-    int getEndTime();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>uint32 hcoin = 14;</code>
-     * @return The hcoin.
-     */
->>>>>>> origin/6.5.0
     int getHcoin();
 
     /**
@@ -241,53 +71,12 @@ public final class ShopGoodsOuterClass {
      */
     int getDiscountId();
 
-<<<<<<< HEAD
     int getSingleLimit();
 
     int getBuyLimit();
 
     int getGoodsId();
 
-=======
-    /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>uint32 single_limit = 1788;</code>
-     * @return The singleLimit.
-     */
-    int getSingleLimit();
-
-    /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>uint32 buy_limit = 10;</code>
-     * @return The buyLimit.
-     */
-    int getBuyLimit();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 goods_id = 6;</code>
-     * @return The goodsId.
-     */
-    int getGoodsId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>uint32 discount_begin_time = 1033;</code>
-     * @return The discountBeginTime.
-     */
->>>>>>> origin/6.5.0
     int getDiscountBeginTime();
 
     /**
@@ -302,41 +91,10 @@ public final class ShopGoodsOuterClass {
      */
     boolean getGOOPAGPEGGL();
 
-<<<<<<< HEAD
     int getMaxLevel();
 
     int getBeginTime();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 max_level = 1;</code>
-     * @return The maxLevel.
-     */
-    int getMaxLevel();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 begin_time = 3;</code>
-     * @return The beginTime.
-     */
-    int getBeginTime();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 next_refresh_time = 2;</code>
-     * @return The nextRefreshTime.
-     */
->>>>>>> origin/6.5.0
     int getNextRefreshTime();
   }
   /**
@@ -565,78 +323,28 @@ public final class ShopGoodsOuterClass {
 
     public static final int COST_ITEM_LIST_FIELD_NUMBER = 12;
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> costItemList_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .ItemParam cost_item_list = 8;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> getCostItemListList() {
       return costItemList_;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .ItemParam cost_item_list = 8;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
         getCostItemListOrBuilderList() {
       return costItemList_;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .ItemParam cost_item_list = 8;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCostItemListCount() {
       return costItemList_.size();
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .ItemParam cost_item_list = 8;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getCostItemList(int index) {
       return costItemList_.get(index);
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .ItemParam cost_item_list = 8;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getCostItemListOrBuilder(
         int index) {
@@ -645,91 +353,35 @@ public final class ShopGoodsOuterClass {
 
     public static final int GOODS_ITEM_FIELD_NUMBER = 11;
     private emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam goodsItem_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.ItemParam goods_item = 9;</code>
-     * @return Whether the goodsItem field is set.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasGoodsItem() {
       return goodsItem_ != null;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.ItemParam goods_item = 9;</code>
-     * @return The goodsItem.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getGoodsItem() {
       return goodsItem_ == null ? emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.getDefaultInstance() : goodsItem_;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.ItemParam goods_item = 9;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getGoodsItemOrBuilder() {
       return getGoodsItem();
     }
 
-<<<<<<< HEAD
     public static final int PRE_GOODS_ID_LIST_FIELD_NUMBER = 6;
     private com.google.protobuf.Internal.IntList preGoodsIdList_;
 
-=======
-    public static final int PRE_GOODS_ID_LIST_FIELD_NUMBER = 10123;
-    private com.google.protobuf.Internal.IntList preGoodsIdList_;
-    /**
-     * <code>repeated uint32 pre_goods_id_list = 10123;</code>
-     * @return A list containing the preGoodsIdList.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getPreGoodsIdListList() {
       return preGoodsIdList_;
     }
-<<<<<<< HEAD
 
     public int getPreGoodsIdListCount() {
       return preGoodsIdList_.size();
     }
 
-=======
-    /**
-     * <code>repeated uint32 pre_goods_id_list = 10123;</code>
-     * @return The count of preGoodsIdList.
-     */
-    public int getPreGoodsIdListCount() {
-      return preGoodsIdList_.size();
-    }
-    /**
-     * <code>repeated uint32 pre_goods_id_list = 10123;</code>
-     * @param index The index of the element to return.
-     * @return The preGoodsIdList at the given index.
-     */
->>>>>>> origin/6.5.0
     public int getPreGoodsIdList(int index) {
       return preGoodsIdList_.getInt(index);
     }
@@ -737,18 +389,7 @@ public final class ShopGoodsOuterClass {
 
     public static final int BOUGHT_NUM_FIELD_NUMBER = 2;
     private int boughtNum_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 bought_num = 4;</code>
-     * @return The boughtNum.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getBoughtNum() {
       return boughtNum_;
@@ -756,18 +397,7 @@ public final class ShopGoodsOuterClass {
 
     public static final int SCOIN_FIELD_NUMBER = 5;
     private int scoin_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>uint32 scoin = 5;</code>
-     * @return The scoin.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getScoin() {
       return scoin_;
@@ -775,18 +405,7 @@ public final class ShopGoodsOuterClass {
 
     public static final int DISABLE_TYPE_FIELD_NUMBER = 7;
     private int disableType_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>uint32 disable_type = 7;</code>
-     * @return The disableType.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getDisableType() {
       return disableType_;
@@ -794,18 +413,7 @@ public final class ShopGoodsOuterClass {
 
     public static final int DISCOUNT_END_TIME_FIELD_NUMBER = 1141;
     private int discountEndTime_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>uint32 discount_end_time = 1141;</code>
-     * @return The discountEndTime.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getDiscountEndTime() {
       return discountEndTime_;
@@ -824,18 +432,7 @@ public final class ShopGoodsOuterClass {
 
     public static final int MIN_LEVEL_FIELD_NUMBER = 15;
     private int minLevel_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>uint32 min_level = 11;</code>
-     * @return The minLevel.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getMinLevel() {
       return minLevel_;
@@ -843,18 +440,7 @@ public final class ShopGoodsOuterClass {
 
     public static final int MCOIN_FIELD_NUMBER = 15;
     private int mcoin_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>uint32 mcoin = 15;</code>
-     * @return The mcoin.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getMcoin() {
       return mcoin_;
@@ -862,18 +448,7 @@ public final class ShopGoodsOuterClass {
 
     public static final int END_TIME_FIELD_NUMBER = 14;
     private int endTime_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 end_time = 12;</code>
-     * @return The endTime.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getEndTime() {
       return endTime_;
@@ -881,18 +456,7 @@ public final class ShopGoodsOuterClass {
 
     public static final int HCOIN_FIELD_NUMBER = 4;
     private int hcoin_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>uint32 hcoin = 14;</code>
-     * @return The hcoin.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getHcoin() {
       return hcoin_;
@@ -911,18 +475,7 @@ public final class ShopGoodsOuterClass {
 
     public static final int SINGLE_LIMIT_FIELD_NUMBER = 1788;
     private int singleLimit_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>uint32 single_limit = 1788;</code>
-     * @return The singleLimit.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getSingleLimit() {
       return singleLimit_;
@@ -930,18 +483,7 @@ public final class ShopGoodsOuterClass {
 
     public static final int BUY_LIMIT_FIELD_NUMBER = 10;
     private int buyLimit_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>uint32 buy_limit = 10;</code>
-     * @return The buyLimit.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getBuyLimit() {
       return buyLimit_;
@@ -949,18 +491,7 @@ public final class ShopGoodsOuterClass {
 
     public static final int GOODS_ID_FIELD_NUMBER = 1;
     private int goodsId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 goods_id = 6;</code>
-     * @return The goodsId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getGoodsId() {
       return goodsId_;
@@ -968,18 +499,7 @@ public final class ShopGoodsOuterClass {
 
     public static final int DISCOUNT_BEGIN_TIME_FIELD_NUMBER = 1033;
     private int discountBeginTime_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>uint32 discount_begin_time = 1033;</code>
-     * @return The discountBeginTime.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getDiscountBeginTime() {
       return discountBeginTime_;
@@ -1009,18 +529,7 @@ public final class ShopGoodsOuterClass {
 
     public static final int MAX_LEVEL_FIELD_NUMBER = 3;
     private int maxLevel_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 max_level = 1;</code>
-     * @return The maxLevel.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getMaxLevel() {
       return maxLevel_;
@@ -1028,18 +537,7 @@ public final class ShopGoodsOuterClass {
 
     public static final int BEGIN_TIME_FIELD_NUMBER = 13;
     private int beginTime_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 begin_time = 3;</code>
-     * @return The beginTime.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getBeginTime() {
       return beginTime_;
@@ -1047,18 +545,7 @@ public final class ShopGoodsOuterClass {
 
     public static final int NEXT_REFRESH_TIME_FIELD_NUMBER = 7;
     private int nextRefreshTime_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 next_refresh_time = 2;</code>
-     * @return The nextRefreshTime.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getNextRefreshTime() {
       return nextRefreshTime_;
@@ -1106,17 +593,12 @@ public final class ShopGoodsOuterClass {
       if (goodsItem_ != null) {
         output.writeMessage(11, getGoodsItem());
       }
-<<<<<<< HEAD
       if (getPreGoodsIdListList().size() > 0) {
         output.writeUInt32NoTag(50);
         output.writeUInt32NoTag(preGoodsIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < preGoodsIdList_.size(); i++) {
         output.writeUInt32NoTag(preGoodsIdList_.getInt(i));
-=======
-      if (buyLimit_ != 0) {
-        output.writeUInt32(10, buyLimit_);
->>>>>>> origin/6.5.0
       }
       if (minLevel_ != 0) {
         output.writeUInt32(15, minLevel_);
@@ -1124,36 +606,27 @@ public final class ShopGoodsOuterClass {
       if (endTime_ != 0) {
         output.writeUInt32(14, endTime_);
       }
-<<<<<<< HEAD
       if (disableType_ != 0) {
         output.writeUInt32(7, disableType_);
       }
-=======
->>>>>>> origin/6.5.0
       if (hcoin_ != 0) {
         output.writeUInt32(4, hcoin_);
       }
       if (mcoin_ != 0) {
         output.writeUInt32(15, mcoin_);
       }
-<<<<<<< HEAD
       if (buyLimit_ != 0) {
         output.writeUInt32(10, buyLimit_);
       }
-=======
->>>>>>> origin/6.5.0
       if (secondarySheetId_ != 0) {
         output.writeUInt32(192, secondarySheetId_);
       }
       if (lPOMBLALEPK_ != false) {
         output.writeBool(677, lPOMBLALEPK_);
       }
-<<<<<<< HEAD
       if (singleLimit_ != 0) {
         output.writeUInt32(1788, singleLimit_);
       }
-=======
->>>>>>> origin/6.5.0
       if (discountBeginTime_ != 0) {
         output.writeUInt32(1033, discountBeginTime_);
       }
@@ -1233,13 +706,10 @@ public final class ShopGoodsOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(14, endTime_);
       }
-<<<<<<< HEAD
       if (disableType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(7, disableType_);
       }
-=======
->>>>>>> origin/6.5.0
       if (hcoin_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(4, hcoin_);
@@ -1248,13 +718,10 @@ public final class ShopGoodsOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(15, mcoin_);
       }
-<<<<<<< HEAD
       if (buyLimit_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(10, buyLimit_);
       }
-=======
->>>>>>> origin/6.5.0
       if (secondarySheetId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(192, secondarySheetId_);
@@ -1263,13 +730,10 @@ public final class ShopGoodsOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(677, lPOMBLALEPK_);
       }
-<<<<<<< HEAD
       if (singleLimit_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(1788, singleLimit_);
       }
-=======
->>>>>>> origin/6.5.0
       if (discountBeginTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(1033, discountBeginTime_);
@@ -1866,16 +1330,6 @@ public final class ShopGoodsOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> costItemListBuilder_;
 
-<<<<<<< HEAD
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ItemParam cost_item_list = 8;</code>
-       */
->>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> getCostItemListList() {
         if (costItemListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(costItemList_);
@@ -1883,17 +1337,7 @@ public final class ShopGoodsOuterClass {
           return costItemListBuilder_.getMessageList();
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ItemParam cost_item_list = 8;</code>
-       */
->>>>>>> origin/6.5.0
       public int getCostItemListCount() {
         if (costItemListBuilder_ == null) {
           return costItemList_.size();
@@ -1901,17 +1345,7 @@ public final class ShopGoodsOuterClass {
           return costItemListBuilder_.getCount();
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ItemParam cost_item_list = 8;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getCostItemList(int index) {
         if (costItemListBuilder_ == null) {
           return costItemList_.get(index);
@@ -1919,17 +1353,7 @@ public final class ShopGoodsOuterClass {
           return costItemListBuilder_.getMessage(index);
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ItemParam cost_item_list = 8;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setCostItemList(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
         if (costItemListBuilder_ == null) {
@@ -1944,17 +1368,7 @@ public final class ShopGoodsOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ItemParam cost_item_list = 8;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setCostItemList(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
         if (costItemListBuilder_ == null) {
@@ -1966,17 +1380,7 @@ public final class ShopGoodsOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ItemParam cost_item_list = 8;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder addCostItemList(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
         if (costItemListBuilder_ == null) {
           if (value == null) {
@@ -1990,17 +1394,7 @@ public final class ShopGoodsOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ItemParam cost_item_list = 8;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder addCostItemList(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
         if (costItemListBuilder_ == null) {
@@ -2015,17 +1409,7 @@ public final class ShopGoodsOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ItemParam cost_item_list = 8;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder addCostItemList(
           emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
         if (costItemListBuilder_ == null) {
@@ -2037,17 +1421,7 @@ public final class ShopGoodsOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ItemParam cost_item_list = 8;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder addCostItemList(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
         if (costItemListBuilder_ == null) {
@@ -2059,17 +1433,7 @@ public final class ShopGoodsOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ItemParam cost_item_list = 8;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder addAllCostItemList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> values) {
         if (costItemListBuilder_ == null) {
@@ -2082,17 +1446,7 @@ public final class ShopGoodsOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ItemParam cost_item_list = 8;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder clearCostItemList() {
         if (costItemListBuilder_ == null) {
           costItemList_ = java.util.Collections.emptyList();
@@ -2103,17 +1457,7 @@ public final class ShopGoodsOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ItemParam cost_item_list = 8;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder removeCostItemList(int index) {
         if (costItemListBuilder_ == null) {
           ensureCostItemListIsMutable();
@@ -2124,32 +1468,12 @@ public final class ShopGoodsOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ItemParam cost_item_list = 8;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder getCostItemListBuilder(
           int index) {
         return getCostItemListFieldBuilder().getBuilder(index);
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ItemParam cost_item_list = 8;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getCostItemListOrBuilder(
           int index) {
         if (costItemListBuilder_ == null) {
@@ -2157,19 +1481,8 @@ public final class ShopGoodsOuterClass {
           return costItemListBuilder_.getMessageOrBuilder(index);
         }
       }
-<<<<<<< HEAD
 
       public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ItemParam cost_item_list = 8;</code>
-       */
-      public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
->>>>>>> origin/6.5.0
            getCostItemListOrBuilderList() {
         if (costItemListBuilder_ != null) {
           return costItemListBuilder_.getMessageOrBuilderList();
@@ -2177,50 +1490,19 @@ public final class ShopGoodsOuterClass {
           return java.util.Collections.unmodifiableList(costItemList_);
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ItemParam cost_item_list = 8;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder addCostItemListBuilder() {
         return getCostItemListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.getDefaultInstance());
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ItemParam cost_item_list = 8;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder addCostItemListBuilder(
           int index) {
         return getCostItemListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.getDefaultInstance());
       }
-<<<<<<< HEAD
 
       public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder>
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ItemParam cost_item_list = 8;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder> 
->>>>>>> origin/6.5.0
            getCostItemListBuilderList() {
         return getCostItemListFieldBuilder().getBuilderList();
       }
@@ -2242,33 +1524,11 @@ public final class ShopGoodsOuterClass {
       private emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam goodsItem_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> goodsItemBuilder_;
-<<<<<<< HEAD
 
       public boolean hasGoodsItem() {
         return goodsItemBuilder_ != null || goodsItem_ != null;
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.ItemParam goods_item = 9;</code>
-       * @return Whether the goodsItem field is set.
-       */
-      public boolean hasGoodsItem() {
-        return goodsItemBuilder_ != null || goodsItem_ != null;
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.ItemParam goods_item = 9;</code>
-       * @return The goodsItem.
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getGoodsItem() {
         if (goodsItemBuilder_ == null) {
           return goodsItem_ == null ? emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.getDefaultInstance() : goodsItem_;
@@ -2276,17 +1536,7 @@ public final class ShopGoodsOuterClass {
           return goodsItemBuilder_.getMessage();
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.ItemParam goods_item = 9;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setGoodsItem(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
         if (goodsItemBuilder_ == null) {
           if (value == null) {
@@ -2300,17 +1550,7 @@ public final class ShopGoodsOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.ItemParam goods_item = 9;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setGoodsItem(
           emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
         if (goodsItemBuilder_ == null) {
@@ -2322,17 +1562,7 @@ public final class ShopGoodsOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.ItemParam goods_item = 9;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder mergeGoodsItem(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
         if (goodsItemBuilder_ == null) {
           if (goodsItem_ != null) {
@@ -2348,17 +1578,7 @@ public final class ShopGoodsOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.ItemParam goods_item = 9;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder clearGoodsItem() {
         if (goodsItemBuilder_ == null) {
           goodsItem_ = null;
@@ -2370,33 +1590,13 @@ public final class ShopGoodsOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.ItemParam goods_item = 9;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder getGoodsItemBuilder() {
 
         onChanged();
         return getGoodsItemFieldBuilder().getBuilder();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.ItemParam goods_item = 9;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getGoodsItemOrBuilder() {
         if (goodsItemBuilder_ != null) {
           return goodsItemBuilder_.getMessageOrBuilder();
@@ -2405,17 +1605,7 @@ public final class ShopGoodsOuterClass {
               emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.getDefaultInstance() : goodsItem_;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.ItemParam goods_item = 9;</code>
-       */
->>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
           getGoodsItemFieldBuilder() {
@@ -2437,20 +1627,12 @@ public final class ShopGoodsOuterClass {
           bitField0_ |= 0x00000002;
          }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <code>repeated uint32 pre_goods_id_list = 10123;</code>
-       * @return A list containing the preGoodsIdList.
-       */
->>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getPreGoodsIdListList() {
         return ((bitField0_ & 0x00000002) != 0) ?
                  java.util.Collections.unmodifiableList(preGoodsIdList_) : preGoodsIdList_;
       }
-<<<<<<< HEAD
 
       public int getPreGoodsIdListCount() {
         return preGoodsIdList_.size();
@@ -2460,29 +1642,6 @@ public final class ShopGoodsOuterClass {
         return preGoodsIdList_.getInt(index);
       }
 
-=======
-      /**
-       * <code>repeated uint32 pre_goods_id_list = 10123;</code>
-       * @return The count of preGoodsIdList.
-       */
-      public int getPreGoodsIdListCount() {
-        return preGoodsIdList_.size();
-      }
-      /**
-       * <code>repeated uint32 pre_goods_id_list = 10123;</code>
-       * @param index The index of the element to return.
-       * @return The preGoodsIdList at the given index.
-       */
-      public int getPreGoodsIdList(int index) {
-        return preGoodsIdList_.getInt(index);
-      }
-      /**
-       * <code>repeated uint32 pre_goods_id_list = 10123;</code>
-       * @param index The index to set the value at.
-       * @param value The preGoodsIdList to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setPreGoodsIdList(
           int index, int value) {
         ensurePreGoodsIdListIsMutable();
@@ -2490,30 +1649,14 @@ public final class ShopGoodsOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <code>repeated uint32 pre_goods_id_list = 10123;</code>
-       * @param value The preGoodsIdList to add.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder addPreGoodsIdList(int value) {
         ensurePreGoodsIdListIsMutable();
         preGoodsIdList_.addInt(value);
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <code>repeated uint32 pre_goods_id_list = 10123;</code>
-       * @param values The preGoodsIdList to add.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder addAllPreGoodsIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensurePreGoodsIdListIsMutable();
@@ -2522,14 +1665,7 @@ public final class ShopGoodsOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <code>repeated uint32 pre_goods_id_list = 10123;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearPreGoodsIdList() {
         preGoodsIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
@@ -2538,53 +1674,19 @@ public final class ShopGoodsOuterClass {
       }
 
       private int boughtNum_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 bought_num = 4;</code>
-       * @return The boughtNum.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getBoughtNum() {
         return boughtNum_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 bought_num = 4;</code>
-       * @param value The boughtNum to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setBoughtNum(int value) {
 
         boughtNum_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 bought_num = 4;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearBoughtNum() {
 
         boughtNum_ = 0;
@@ -2593,53 +1695,19 @@ public final class ShopGoodsOuterClass {
       }
 
       private int scoin_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 scoin = 5;</code>
-       * @return The scoin.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getScoin() {
         return scoin_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 scoin = 5;</code>
-       * @param value The scoin to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setScoin(int value) {
 
         scoin_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 scoin = 5;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearScoin() {
 
         scoin_ = 0;
@@ -2648,53 +1716,19 @@ public final class ShopGoodsOuterClass {
       }
 
       private int disableType_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>uint32 disable_type = 7;</code>
-       * @return The disableType.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getDisableType() {
         return disableType_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>uint32 disable_type = 7;</code>
-       * @param value The disableType to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setDisableType(int value) {
 
         disableType_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>uint32 disable_type = 7;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearDisableType() {
 
         disableType_ = 0;
@@ -2703,53 +1737,19 @@ public final class ShopGoodsOuterClass {
       }
 
       private int discountEndTime_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 discount_end_time = 1141;</code>
-       * @return The discountEndTime.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getDiscountEndTime() {
         return discountEndTime_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 discount_end_time = 1141;</code>
-       * @param value The discountEndTime to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setDiscountEndTime(int value) {
 
         discountEndTime_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 discount_end_time = 1141;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearDiscountEndTime() {
 
         discountEndTime_ = 0;
@@ -2789,53 +1789,19 @@ public final class ShopGoodsOuterClass {
       }
 
       private int minLevel_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 min_level = 11;</code>
-       * @return The minLevel.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getMinLevel() {
         return minLevel_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 min_level = 11;</code>
-       * @param value The minLevel to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setMinLevel(int value) {
 
         minLevel_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 min_level = 11;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearMinLevel() {
 
         minLevel_ = 0;
@@ -2844,53 +1810,19 @@ public final class ShopGoodsOuterClass {
       }
 
       private int mcoin_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>uint32 mcoin = 15;</code>
-       * @return The mcoin.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getMcoin() {
         return mcoin_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>uint32 mcoin = 15;</code>
-       * @param value The mcoin to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setMcoin(int value) {
 
         mcoin_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>uint32 mcoin = 15;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearMcoin() {
 
         mcoin_ = 0;
@@ -2899,53 +1831,19 @@ public final class ShopGoodsOuterClass {
       }
 
       private int endTime_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 end_time = 12;</code>
-       * @return The endTime.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getEndTime() {
         return endTime_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 end_time = 12;</code>
-       * @param value The endTime to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setEndTime(int value) {
 
         endTime_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 end_time = 12;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearEndTime() {
 
         endTime_ = 0;
@@ -2954,53 +1852,19 @@ public final class ShopGoodsOuterClass {
       }
 
       private int hcoin_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 hcoin = 14;</code>
-       * @return The hcoin.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getHcoin() {
         return hcoin_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 hcoin = 14;</code>
-       * @param value The hcoin to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setHcoin(int value) {
 
         hcoin_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 hcoin = 14;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearHcoin() {
 
         hcoin_ = 0;
@@ -3040,53 +1904,19 @@ public final class ShopGoodsOuterClass {
       }
 
       private int singleLimit_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>uint32 single_limit = 1788;</code>
-       * @return The singleLimit.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getSingleLimit() {
         return singleLimit_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>uint32 single_limit = 1788;</code>
-       * @param value The singleLimit to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setSingleLimit(int value) {
 
         singleLimit_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>uint32 single_limit = 1788;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearSingleLimit() {
 
         singleLimit_ = 0;
@@ -3095,53 +1925,19 @@ public final class ShopGoodsOuterClass {
       }
 
       private int buyLimit_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>uint32 buy_limit = 10;</code>
-       * @return The buyLimit.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getBuyLimit() {
         return buyLimit_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>uint32 buy_limit = 10;</code>
-       * @param value The buyLimit to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setBuyLimit(int value) {
 
         buyLimit_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>uint32 buy_limit = 10;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearBuyLimit() {
 
         buyLimit_ = 0;
@@ -3150,53 +1946,19 @@ public final class ShopGoodsOuterClass {
       }
 
       private int goodsId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 goods_id = 6;</code>
-       * @return The goodsId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getGoodsId() {
         return goodsId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 goods_id = 6;</code>
-       * @param value The goodsId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setGoodsId(int value) {
 
         goodsId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 goods_id = 6;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearGoodsId() {
 
         goodsId_ = 0;
@@ -3205,53 +1967,19 @@ public final class ShopGoodsOuterClass {
       }
 
       private int discountBeginTime_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 discount_begin_time = 1033;</code>
-       * @return The discountBeginTime.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getDiscountBeginTime() {
         return discountBeginTime_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 discount_begin_time = 1033;</code>
-       * @param value The discountBeginTime to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setDiscountBeginTime(int value) {
 
         discountBeginTime_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 discount_begin_time = 1033;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearDiscountBeginTime() {
 
         discountBeginTime_ = 0;
@@ -3322,53 +2050,19 @@ public final class ShopGoodsOuterClass {
       }
 
       private int maxLevel_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 max_level = 1;</code>
-       * @return The maxLevel.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getMaxLevel() {
         return maxLevel_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 max_level = 1;</code>
-       * @param value The maxLevel to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setMaxLevel(int value) {
 
         maxLevel_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 max_level = 1;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearMaxLevel() {
 
         maxLevel_ = 0;
@@ -3377,53 +2071,19 @@ public final class ShopGoodsOuterClass {
       }
 
       private int beginTime_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 begin_time = 3;</code>
-       * @return The beginTime.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getBeginTime() {
         return beginTime_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 begin_time = 3;</code>
-       * @param value The beginTime to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setBeginTime(int value) {
 
         beginTime_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 begin_time = 3;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearBeginTime() {
 
         beginTime_ = 0;
@@ -3432,53 +2092,19 @@ public final class ShopGoodsOuterClass {
       }
 
       private int nextRefreshTime_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 next_refresh_time = 2;</code>
-       * @return The nextRefreshTime.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getNextRefreshTime() {
         return nextRefreshTime_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 next_refresh_time = 2;</code>
-       * @param value The nextRefreshTime to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setNextRefreshTime(int value) {
 
         nextRefreshTime_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 next_refresh_time = 2;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearNextRefreshTime() {
 
         nextRefreshTime_ = 0;

@@ -24,17 +24,6 @@ public final class TowerMonthlyBriefOuterClass {
      */
     int getEPPJPCMDGEK();
 
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>uint32 tower_schedule_id = 15;</code>
-     * @return The towerScheduleId.
-     */
->>>>>>> origin/6.5.0
     int getTowerScheduleId();
 
     /**
@@ -148,18 +137,7 @@ public final class TowerMonthlyBriefOuterClass {
 
     public static final int TOWER_SCHEDULE_ID_FIELD_NUMBER = 15;
     private int towerScheduleId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>uint32 tower_schedule_id = 15;</code>
-     * @return The towerScheduleId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getTowerScheduleId() {
       return towerScheduleId_;
@@ -544,53 +522,19 @@ public final class TowerMonthlyBriefOuterClass {
       }
 
       private int towerScheduleId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 tower_schedule_id = 15;</code>
-       * @return The towerScheduleId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getTowerScheduleId() {
         return towerScheduleId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 tower_schedule_id = 15;</code>
-       * @param value The towerScheduleId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setTowerScheduleId(int value) {
 
         towerScheduleId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 tower_schedule_id = 15;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearTowerScheduleId() {
 
         towerScheduleId_ = 0;

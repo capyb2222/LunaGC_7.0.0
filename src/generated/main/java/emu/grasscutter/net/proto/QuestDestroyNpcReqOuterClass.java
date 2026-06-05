@@ -18,29 +18,8 @@ public final class QuestDestroyNpcReqOuterClass {
       // @@protoc_insertion_point(interface_extends:QuestDestroyNpcReq)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getNpcId();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          // offset: 32
-     * </pre>
-     *
-     * <code>uint32 npc_id = 1;</code>
-     * @return The npcId.
-     */
-    int getNpcId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          // offset: 40
-     * </pre>
-     *
-     * <code>uint32 parent_quest_id = 4;</code>
-     * @return The parentQuestId.
-     */
->>>>>>> origin/6.5.0
     int getParentQuestId();
   }
   /**
@@ -136,18 +115,7 @@ public final class QuestDestroyNpcReqOuterClass {
 
     public static final int NPC_ID_FIELD_NUMBER = 4;
     private int npcId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          // offset: 32
-     * </pre>
-     *
-     * <code>uint32 npc_id = 1;</code>
-     * @return The npcId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getNpcId() {
       return npcId_;
@@ -155,18 +123,7 @@ public final class QuestDestroyNpcReqOuterClass {
 
     public static final int PARENT_QUEST_ID_FIELD_NUMBER = 9;
     private int parentQuestId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          // offset: 40
-     * </pre>
-     *
-     * <code>uint32 parent_quest_id = 4;</code>
-     * @return The parentQuestId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getParentQuestId() {
       return parentQuestId_;
@@ -496,53 +453,19 @@ public final class QuestDestroyNpcReqOuterClass {
       }
 
       private int npcId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          // offset: 32
-       * </pre>
-       *
-       * <code>uint32 npc_id = 1;</code>
-       * @return The npcId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getNpcId() {
         return npcId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          // offset: 32
-       * </pre>
-       *
-       * <code>uint32 npc_id = 1;</code>
-       * @param value The npcId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setNpcId(int value) {
 
         npcId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          // offset: 32
-       * </pre>
-       *
-       * <code>uint32 npc_id = 1;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearNpcId() {
 
         npcId_ = 0;
@@ -551,53 +474,19 @@ public final class QuestDestroyNpcReqOuterClass {
       }
 
       private int parentQuestId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          // offset: 40
-       * </pre>
-       *
-       * <code>uint32 parent_quest_id = 4;</code>
-       * @return The parentQuestId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getParentQuestId() {
         return parentQuestId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          // offset: 40
-       * </pre>
-       *
-       * <code>uint32 parent_quest_id = 4;</code>
-       * @param value The parentQuestId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setParentQuestId(int value) {
 
         parentQuestId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          // offset: 40
-       * </pre>
-       *
-       * <code>uint32 parent_quest_id = 4;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearParentQuestId() {
 
         parentQuestId_ = 0;

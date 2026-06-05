@@ -18,52 +18,12 @@ public final class VehicleInteractReqOuterClass {
       // @@protoc_insertion_point(interface_extends:VehicleInteractReq)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getEntityId();
 
     int getPos();
 
     int getInteractTypeValue();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 entity_id = 11;</code>
-     * @return The entityId.
-     */
-    int getEntityId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 pos = 10;</code>
-     * @return The pos.
-     */
-    int getPos();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.VehicleInteractType interact_type = 9;</code>
-     * @return The enum numeric value on the wire for interactType.
-     */
-    int getInteractTypeValue();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.VehicleInteractType interact_type = 9;</code>
-     * @return The interactType.
-     */
->>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.VehicleInteractTypeOuterClass.VehicleInteractType getInteractType();
 
     boolean getIsNeedDestroy();
@@ -173,18 +133,7 @@ public final class VehicleInteractReqOuterClass {
 
     public static final int ENTITY_ID_FIELD_NUMBER = 13;
     private int entityId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 entity_id = 11;</code>
-     * @return The entityId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getEntityId() {
       return entityId_;
@@ -192,18 +141,7 @@ public final class VehicleInteractReqOuterClass {
 
     public static final int POS_FIELD_NUMBER = 7;
     private int pos_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 pos = 10;</code>
-     * @return The pos.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getPos() {
       return pos_;
@@ -211,33 +149,11 @@ public final class VehicleInteractReqOuterClass {
 
     public static final int INTERACT_TYPE_FIELD_NUMBER = 9;
     private int interactType_;
-<<<<<<< HEAD
 
     @java.lang.Override public int getInteractTypeValue() {
       return interactType_;
     }
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.VehicleInteractType interact_type = 9;</code>
-     * @return The enum numeric value on the wire for interactType.
-     */
-    @java.lang.Override public int getInteractTypeValue() {
-      return interactType_;
-    }
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.VehicleInteractType interact_type = 9;</code>
-     * @return The interactType.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override public emu.grasscutter.net.proto.VehicleInteractTypeOuterClass.VehicleInteractType getInteractType() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.VehicleInteractTypeOuterClass.VehicleInteractType result = emu.grasscutter.net.proto.VehicleInteractTypeOuterClass.VehicleInteractType.valueOf(interactType_);
@@ -610,53 +526,19 @@ public final class VehicleInteractReqOuterClass {
       }
 
       private int entityId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 entity_id = 11;</code>
-       * @return The entityId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getEntityId() {
         return entityId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 entity_id = 11;</code>
-       * @param value The entityId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setEntityId(int value) {
 
         entityId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 entity_id = 11;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearEntityId() {
 
         entityId_ = 0;
@@ -665,53 +547,19 @@ public final class VehicleInteractReqOuterClass {
       }
 
       private int pos_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 pos = 10;</code>
-       * @return The pos.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getPos() {
         return pos_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 pos = 10;</code>
-       * @param value The pos to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setPos(int value) {
 
         pos_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 pos = 10;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearPos() {
 
         pos_ = 0;
@@ -720,71 +568,25 @@ public final class VehicleInteractReqOuterClass {
       }
 
       private int interactType_ = 0;
-<<<<<<< HEAD
 
       @java.lang.Override public int getInteractTypeValue() {
         return interactType_;
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.VehicleInteractType interact_type = 9;</code>
-       * @return The enum numeric value on the wire for interactType.
-       */
-      @java.lang.Override public int getInteractTypeValue() {
-        return interactType_;
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.VehicleInteractType interact_type = 9;</code>
-       * @param value The enum numeric value on the wire for interactType to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setInteractTypeValue(int value) {
 
         interactType_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.VehicleInteractType interact_type = 9;</code>
-       * @return The interactType.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.VehicleInteractTypeOuterClass.VehicleInteractType getInteractType() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.VehicleInteractTypeOuterClass.VehicleInteractType result = emu.grasscutter.net.proto.VehicleInteractTypeOuterClass.VehicleInteractType.valueOf(interactType_);
         return result == null ? emu.grasscutter.net.proto.VehicleInteractTypeOuterClass.VehicleInteractType.UNRECOGNIZED : result;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.VehicleInteractType interact_type = 9;</code>
-       * @param value The interactType to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setInteractType(emu.grasscutter.net.proto.VehicleInteractTypeOuterClass.VehicleInteractType value) {
         if (value == null) {
           throw new NullPointerException();
@@ -794,18 +596,7 @@ public final class VehicleInteractReqOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.VehicleInteractType interact_type = 9;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearInteractType() {
 
         interactType_ = 0;

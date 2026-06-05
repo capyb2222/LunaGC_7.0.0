@@ -18,41 +18,10 @@ public final class GadgetStateNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:GadgetStateNotify)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     boolean getIsEnableInteract();
 
     int getGadgetEntityId();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>bool is_enable_interact = 3;</code>
-     * @return The isEnableInteract.
-     */
-    boolean getIsEnableInteract();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 gadget_entity_id = 14;</code>
-     * @return The gadgetEntityId.
-     */
-    int getGadgetEntityId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 gadget_state = 13;</code>
-     * @return The gadgetState.
-     */
->>>>>>> origin/6.5.0
     int getGadgetState();
   }
   /**
@@ -153,18 +122,7 @@ public final class GadgetStateNotifyOuterClass {
 
     public static final int IS_ENABLE_INTERACT_FIELD_NUMBER = 15;
     private boolean isEnableInteract_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>bool is_enable_interact = 3;</code>
-     * @return The isEnableInteract.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsEnableInteract() {
       return isEnableInteract_;
@@ -172,18 +130,7 @@ public final class GadgetStateNotifyOuterClass {
 
     public static final int GADGET_ENTITY_ID_FIELD_NUMBER = 10;
     private int gadgetEntityId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 gadget_entity_id = 14;</code>
-     * @return The gadgetEntityId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getGadgetEntityId() {
       return gadgetEntityId_;
@@ -191,18 +138,7 @@ public final class GadgetStateNotifyOuterClass {
 
     public static final int GADGET_STATE_FIELD_NUMBER = 2;
     private int gadgetState_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 gadget_state = 13;</code>
-     * @return The gadgetState.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getGadgetState() {
       return gadgetState_;
@@ -550,53 +486,19 @@ public final class GadgetStateNotifyOuterClass {
       }
 
       private boolean isEnableInteract_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>bool is_enable_interact = 3;</code>
-       * @return The isEnableInteract.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsEnableInteract() {
         return isEnableInteract_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>bool is_enable_interact = 3;</code>
-       * @param value The isEnableInteract to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setIsEnableInteract(boolean value) {
 
         isEnableInteract_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>bool is_enable_interact = 3;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearIsEnableInteract() {
 
         isEnableInteract_ = false;
@@ -605,53 +507,19 @@ public final class GadgetStateNotifyOuterClass {
       }
 
       private int gadgetEntityId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 gadget_entity_id = 14;</code>
-       * @return The gadgetEntityId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getGadgetEntityId() {
         return gadgetEntityId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 gadget_entity_id = 14;</code>
-       * @param value The gadgetEntityId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setGadgetEntityId(int value) {
 
         gadgetEntityId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 gadget_entity_id = 14;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearGadgetEntityId() {
 
         gadgetEntityId_ = 0;
@@ -660,53 +528,19 @@ public final class GadgetStateNotifyOuterClass {
       }
 
       private int gadgetState_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 gadget_state = 13;</code>
-       * @return The gadgetState.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getGadgetState() {
         return gadgetState_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 gadget_state = 13;</code>
-       * @param value The gadgetState to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setGadgetState(int value) {
 
         gadgetState_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 gadget_state = 13;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearGadgetState() {
 
         gadgetState_ = 0;

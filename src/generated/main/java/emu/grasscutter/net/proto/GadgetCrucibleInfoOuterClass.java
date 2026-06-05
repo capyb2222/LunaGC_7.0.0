@@ -18,17 +18,6 @@ public final class GadgetCrucibleInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:GadgetCrucibleInfo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 mp_play_id = 1;</code>
-     * @return The mpPlayId.
-     */
->>>>>>> origin/6.5.0
     int getMpPlayId();
 
     /**
@@ -126,18 +115,7 @@ public final class GadgetCrucibleInfoOuterClass {
 
     public static final int MP_PLAY_ID_FIELD_NUMBER = 1;
     private int mpPlayId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 mp_play_id = 1;</code>
-     * @return The mpPlayId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getMpPlayId() {
       return mpPlayId_;
@@ -474,53 +452,19 @@ public final class GadgetCrucibleInfoOuterClass {
       }
 
       private int mpPlayId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 mp_play_id = 1;</code>
-       * @return The mpPlayId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getMpPlayId() {
         return mpPlayId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 mp_play_id = 1;</code>
-       * @param value The mpPlayId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setMpPlayId(int value) {
 
         mpPlayId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 mp_play_id = 1;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearMpPlayId() {
 
         mpPlayId_ = 0;

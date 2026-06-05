@@ -18,53 +18,12 @@ public final class ActivityWatcherInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:ActivityWatcherInfo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getTotalProgress();
 
     int getCurProgress();
 
     boolean getIsTakenReward();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 total_progress = 15;</code>
-     * @return The totalProgress.
-     */
-    int getTotalProgress();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 cur_progress = 5;</code>
-     * @return The curProgress.
-     */
-    int getCurProgress();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>bool is_taken_reward = 9;</code>
-     * @return The isTakenReward.
-     */
-    boolean getIsTakenReward();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 watcher_id = 10;</code>
-     * @return The watcherId.
-     */
->>>>>>> origin/6.5.0
     int getWatcherId();
   }
   /**
@@ -166,18 +125,7 @@ public final class ActivityWatcherInfoOuterClass {
 
     public static final int TOTAL_PROGRESS_FIELD_NUMBER = 15;
     private int totalProgress_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 total_progress = 15;</code>
-     * @return The totalProgress.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getTotalProgress() {
       return totalProgress_;
@@ -185,18 +133,7 @@ public final class ActivityWatcherInfoOuterClass {
 
     public static final int CUR_PROGRESS_FIELD_NUMBER = 5;
     private int curProgress_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 cur_progress = 5;</code>
-     * @return The curProgress.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCurProgress() {
       return curProgress_;
@@ -204,18 +141,7 @@ public final class ActivityWatcherInfoOuterClass {
 
     public static final int IS_TAKEN_REWARD_FIELD_NUMBER = 9;
     private boolean isTakenReward_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>bool is_taken_reward = 9;</code>
-     * @return The isTakenReward.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsTakenReward() {
       return isTakenReward_;
@@ -223,18 +149,7 @@ public final class ActivityWatcherInfoOuterClass {
 
     public static final int WATCHER_ID_FIELD_NUMBER = 10;
     private int watcherId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 watcher_id = 10;</code>
-     * @return The watcherId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getWatcherId() {
       return watcherId_;
@@ -595,53 +510,19 @@ public final class ActivityWatcherInfoOuterClass {
       }
 
       private int totalProgress_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 total_progress = 15;</code>
-       * @return The totalProgress.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getTotalProgress() {
         return totalProgress_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 total_progress = 15;</code>
-       * @param value The totalProgress to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setTotalProgress(int value) {
 
         totalProgress_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 total_progress = 15;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearTotalProgress() {
 
         totalProgress_ = 0;
@@ -650,53 +531,19 @@ public final class ActivityWatcherInfoOuterClass {
       }
 
       private int curProgress_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 cur_progress = 5;</code>
-       * @return The curProgress.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCurProgress() {
         return curProgress_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 cur_progress = 5;</code>
-       * @param value The curProgress to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setCurProgress(int value) {
 
         curProgress_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 cur_progress = 5;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearCurProgress() {
 
         curProgress_ = 0;
@@ -705,53 +552,19 @@ public final class ActivityWatcherInfoOuterClass {
       }
 
       private boolean isTakenReward_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>bool is_taken_reward = 9;</code>
-       * @return The isTakenReward.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsTakenReward() {
         return isTakenReward_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>bool is_taken_reward = 9;</code>
-       * @param value The isTakenReward to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setIsTakenReward(boolean value) {
 
         isTakenReward_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>bool is_taken_reward = 9;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearIsTakenReward() {
 
         isTakenReward_ = false;
@@ -760,53 +573,19 @@ public final class ActivityWatcherInfoOuterClass {
       }
 
       private int watcherId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 watcher_id = 10;</code>
-       * @return The watcherId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getWatcherId() {
         return watcherId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 watcher_id = 10;</code>
-       * @param value The watcherId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setWatcherId(int value) {
 
         watcherId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 watcher_id = 10;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearWatcherId() {
 
         watcherId_ = 0;

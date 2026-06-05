@@ -18,17 +18,6 @@ public final class EvtAvatarStandUpNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:EvtAvatarStandUpNotify)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 entity_id = 14;</code>
-     * @return The entityId.
-     */
->>>>>>> origin/6.5.0
     int getEntityId();
 
     /**
@@ -37,29 +26,8 @@ public final class EvtAvatarStandUpNotifyOuterClass {
      */
     int getPerformId();
 
-<<<<<<< HEAD
     long getChairId();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint64 chair_id = 3;</code>
-     * @return The chairId.
-     */
-    long getChairId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>int32 direction = 5;</code>
-     * @return The direction.
-     */
->>>>>>> origin/6.5.0
     int getDirection();
   }
   /**
@@ -161,18 +129,7 @@ public final class EvtAvatarStandUpNotifyOuterClass {
 
     public static final int ENTITY_ID_FIELD_NUMBER = 11;
     private int entityId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 entity_id = 14;</code>
-     * @return The entityId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getEntityId() {
       return entityId_;
@@ -191,18 +148,7 @@ public final class EvtAvatarStandUpNotifyOuterClass {
 
     public static final int CHAIR_ID_FIELD_NUMBER = 13;
     private long chairId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint64 chair_id = 3;</code>
-     * @return The chairId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public long getChairId() {
       return chairId_;
@@ -210,18 +156,7 @@ public final class EvtAvatarStandUpNotifyOuterClass {
 
     public static final int DIRECTION_FIELD_NUMBER = 6;
     private int direction_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>int32 direction = 5;</code>
-     * @return The direction.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getDirection() {
       return direction_;
@@ -582,53 +517,19 @@ public final class EvtAvatarStandUpNotifyOuterClass {
       }
 
       private int entityId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 entity_id = 14;</code>
-       * @return The entityId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getEntityId() {
         return entityId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 entity_id = 14;</code>
-       * @param value The entityId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setEntityId(int value) {
 
         entityId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 entity_id = 14;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearEntityId() {
 
         entityId_ = 0;
@@ -668,53 +569,19 @@ public final class EvtAvatarStandUpNotifyOuterClass {
       }
 
       private long chairId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint64 chair_id = 3;</code>
-       * @return The chairId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public long getChairId() {
         return chairId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint64 chair_id = 3;</code>
-       * @param value The chairId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setChairId(long value) {
 
         chairId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint64 chair_id = 3;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearChairId() {
 
         chairId_ = 0L;
@@ -723,53 +590,19 @@ public final class EvtAvatarStandUpNotifyOuterClass {
       }
 
       private int direction_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>int32 direction = 5;</code>
-       * @return The direction.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getDirection() {
         return direction_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>int32 direction = 5;</code>
-       * @param value The direction to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setDirection(int value) {
 
         direction_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>int32 direction = 5;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearDirection() {
 
         direction_ = 0;

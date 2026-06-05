@@ -18,41 +18,10 @@ public final class UnlockAvatarTalentRspOuterClass {
       // @@protoc_insertion_point(interface_extends:UnlockAvatarTalentRsp)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     long getAvatarGuid();
 
     int getTalentId();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint64 avatar_guid = 4;</code>
-     * @return The avatarGuid.
-     */
-    long getAvatarGuid();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 talent_id = 6;</code>
-     * @return The talentId.
-     */
-    int getTalentId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>int32 retcode = 11;</code>
-     * @return The retcode.
-     */
->>>>>>> origin/6.5.0
     int getRetcode();
   }
   /**
@@ -153,18 +122,7 @@ public final class UnlockAvatarTalentRspOuterClass {
 
     public static final int AVATAR_GUID_FIELD_NUMBER = 15;
     private long avatarGuid_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint64 avatar_guid = 4;</code>
-     * @return The avatarGuid.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public long getAvatarGuid() {
       return avatarGuid_;
@@ -172,18 +130,7 @@ public final class UnlockAvatarTalentRspOuterClass {
 
     public static final int TALENT_ID_FIELD_NUMBER = 3;
     private int talentId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 talent_id = 6;</code>
-     * @return The talentId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getTalentId() {
       return talentId_;
@@ -191,18 +138,7 @@ public final class UnlockAvatarTalentRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 11;
     private int retcode_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>int32 retcode = 11;</code>
-     * @return The retcode.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -550,53 +486,19 @@ public final class UnlockAvatarTalentRspOuterClass {
       }
 
       private long avatarGuid_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint64 avatar_guid = 4;</code>
-       * @return The avatarGuid.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public long getAvatarGuid() {
         return avatarGuid_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint64 avatar_guid = 4;</code>
-       * @param value The avatarGuid to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setAvatarGuid(long value) {
 
         avatarGuid_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint64 avatar_guid = 4;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearAvatarGuid() {
 
         avatarGuid_ = 0L;
@@ -605,53 +507,19 @@ public final class UnlockAvatarTalentRspOuterClass {
       }
 
       private int talentId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 talent_id = 6;</code>
-       * @return The talentId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getTalentId() {
         return talentId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 talent_id = 6;</code>
-       * @param value The talentId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setTalentId(int value) {
 
         talentId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 talent_id = 6;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearTalentId() {
 
         talentId_ = 0;
@@ -660,53 +528,19 @@ public final class UnlockAvatarTalentRspOuterClass {
       }
 
       private int retcode_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 11;</code>
-       * @return The retcode.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 11;</code>
-       * @param value The retcode to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
 
         retcode_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 11;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearRetcode() {
 
         retcode_ = 0;

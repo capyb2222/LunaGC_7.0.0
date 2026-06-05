@@ -24,7 +24,6 @@ public final class StoreWeightLimitNotifyOuterClass {
      */
     int getELBMPCBENEO();
 
-<<<<<<< HEAD
     int getReliquaryCountLimit();
 
     int getFurnitureCountLimit();
@@ -33,55 +32,6 @@ public final class StoreWeightLimitNotifyOuterClass {
 
     emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType getStoreType();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>uint32 reliquary_count_limit = 2;</code>
-     * @return The reliquaryCountLimit.
-     */
-    int getReliquaryCountLimit();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>uint32 furniture_count_limit = 15;</code>
-     * @return The furnitureCountLimit.
-     */
-    int getFurnitureCountLimit();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.StoreType store_type = 8;</code>
-     * @return The enum numeric value on the wire for storeType.
-     */
-    int getStoreTypeValue();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.StoreType store_type = 8;</code>
-     * @return The storeType.
-     */
-    emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType getStoreType();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 weight_limit = 7;</code>
-     * @return The weightLimit.
-     */
->>>>>>> origin/6.5.0
     int getWeightLimit();
   }
   /**
@@ -205,18 +155,7 @@ public final class StoreWeightLimitNotifyOuterClass {
 
     public static final int RELIQUARY_COUNT_LIMIT_FIELD_NUMBER = 15;
     private int reliquaryCountLimit_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>uint32 reliquary_count_limit = 2;</code>
-     * @return The reliquaryCountLimit.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getReliquaryCountLimit() {
       return reliquaryCountLimit_;
@@ -224,18 +163,7 @@ public final class StoreWeightLimitNotifyOuterClass {
 
     public static final int FURNITURE_COUNT_LIMIT_FIELD_NUMBER = 1;
     private int furnitureCountLimit_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>uint32 furniture_count_limit = 15;</code>
-     * @return The furnitureCountLimit.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getFurnitureCountLimit() {
       return furnitureCountLimit_;
@@ -243,33 +171,11 @@ public final class StoreWeightLimitNotifyOuterClass {
 
     public static final int STORE_TYPE_FIELD_NUMBER = 14;
     private int storeType_;
-<<<<<<< HEAD
 
     @java.lang.Override public int getStoreTypeValue() {
       return storeType_;
     }
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.StoreType store_type = 8;</code>
-     * @return The enum numeric value on the wire for storeType.
-     */
-    @java.lang.Override public int getStoreTypeValue() {
-      return storeType_;
-    }
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.StoreType store_type = 8;</code>
-     * @return The storeType.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override public emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType getStoreType() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType result = emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType.valueOf(storeType_);
@@ -278,18 +184,7 @@ public final class StoreWeightLimitNotifyOuterClass {
 
     public static final int WEIGHT_LIMIT_FIELD_NUMBER = 5;
     private int weightLimit_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 weight_limit = 7;</code>
-     * @return The weightLimit.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getWeightLimit() {
       return weightLimit_;
@@ -700,53 +595,19 @@ public final class StoreWeightLimitNotifyOuterClass {
       }
 
       private int reliquaryCountLimit_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 reliquary_count_limit = 2;</code>
-       * @return The reliquaryCountLimit.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getReliquaryCountLimit() {
         return reliquaryCountLimit_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 reliquary_count_limit = 2;</code>
-       * @param value The reliquaryCountLimit to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setReliquaryCountLimit(int value) {
 
         reliquaryCountLimit_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 reliquary_count_limit = 2;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearReliquaryCountLimit() {
 
         reliquaryCountLimit_ = 0;
@@ -755,53 +616,19 @@ public final class StoreWeightLimitNotifyOuterClass {
       }
 
       private int furnitureCountLimit_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 furniture_count_limit = 15;</code>
-       * @return The furnitureCountLimit.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getFurnitureCountLimit() {
         return furnitureCountLimit_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 furniture_count_limit = 15;</code>
-       * @param value The furnitureCountLimit to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setFurnitureCountLimit(int value) {
 
         furnitureCountLimit_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 furniture_count_limit = 15;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearFurnitureCountLimit() {
 
         furnitureCountLimit_ = 0;
@@ -810,71 +637,25 @@ public final class StoreWeightLimitNotifyOuterClass {
       }
 
       private int storeType_ = 0;
-<<<<<<< HEAD
 
       @java.lang.Override public int getStoreTypeValue() {
         return storeType_;
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.StoreType store_type = 8;</code>
-       * @return The enum numeric value on the wire for storeType.
-       */
-      @java.lang.Override public int getStoreTypeValue() {
-        return storeType_;
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.StoreType store_type = 8;</code>
-       * @param value The enum numeric value on the wire for storeType to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setStoreTypeValue(int value) {
 
         storeType_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.StoreType store_type = 8;</code>
-       * @return The storeType.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType getStoreType() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType result = emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType.valueOf(storeType_);
         return result == null ? emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType.UNRECOGNIZED : result;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.StoreType store_type = 8;</code>
-       * @param value The storeType to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setStoreType(emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType value) {
         if (value == null) {
           throw new NullPointerException();
@@ -884,18 +665,7 @@ public final class StoreWeightLimitNotifyOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.StoreType store_type = 8;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearStoreType() {
 
         storeType_ = 0;
@@ -904,53 +674,19 @@ public final class StoreWeightLimitNotifyOuterClass {
       }
 
       private int weightLimit_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 weight_limit = 7;</code>
-       * @return The weightLimit.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getWeightLimit() {
         return weightLimit_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 weight_limit = 7;</code>
-       * @param value The weightLimit to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setWeightLimit(int value) {
 
         weightLimit_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 weight_limit = 7;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearWeightLimit() {
 
         weightLimit_ = 0;

@@ -18,40 +18,10 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
       // @@protoc_insertion_point(interface_extends:QueryCodexMonsterBeKilledNumReq)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     java.util.List<java.lang.Integer> getCodexIdListList();
 
     int getCodexIdListCount();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>repeated uint32 codex_id_list = 15;</code>
-     * @return A list containing the codexIdList.
-     */
-    java.util.List<java.lang.Integer> getCodexIdListList();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>repeated uint32 codex_id_list = 15;</code>
-     * @return The count of codexIdList.
-     */
-    int getCodexIdListCount();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>repeated uint32 codex_id_list = 15;</code>
-     * @param index The index of the element to return.
-     * @return The codexIdList at the given index.
-     */
->>>>>>> origin/6.5.0
     int getCodexIdList(int index);
   }
   /**
@@ -163,51 +133,17 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
 
     public static final int CODEX_ID_LIST_FIELD_NUMBER = 4;
     private com.google.protobuf.Internal.IntList codexIdList_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>repeated uint32 codex_id_list = 15;</code>
-     * @return A list containing the codexIdList.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getCodexIdListList() {
       return codexIdList_;
     }
-<<<<<<< HEAD
 
     public int getCodexIdListCount() {
       return codexIdList_.size();
     }
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>repeated uint32 codex_id_list = 15;</code>
-     * @return The count of codexIdList.
-     */
-    public int getCodexIdListCount() {
-      return codexIdList_.size();
-    }
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>repeated uint32 codex_id_list = 15;</code>
-     * @param index The index of the element to return.
-     * @return The codexIdList at the given index.
-     */
->>>>>>> origin/6.5.0
     public int getCodexIdList(int index) {
       return codexIdList_.getInt(index);
     }
@@ -556,24 +492,12 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>repeated uint32 codex_id_list = 15;</code>
-       * @return A list containing the codexIdList.
-       */
->>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getCodexIdListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(codexIdList_) : codexIdList_;
       }
-<<<<<<< HEAD
 
       public int getCodexIdListCount() {
         return codexIdList_.size();
@@ -583,41 +507,6 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
         return codexIdList_.getInt(index);
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>repeated uint32 codex_id_list = 15;</code>
-       * @return The count of codexIdList.
-       */
-      public int getCodexIdListCount() {
-        return codexIdList_.size();
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>repeated uint32 codex_id_list = 15;</code>
-       * @param index The index of the element to return.
-       * @return The codexIdList at the given index.
-       */
-      public int getCodexIdList(int index) {
-        return codexIdList_.getInt(index);
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>repeated uint32 codex_id_list = 15;</code>
-       * @param index The index to set the value at.
-       * @param value The codexIdList to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setCodexIdList(
           int index, int value) {
         ensureCodexIdListIsMutable();
@@ -625,38 +514,14 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>repeated uint32 codex_id_list = 15;</code>
-       * @param value The codexIdList to add.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder addCodexIdList(int value) {
         ensureCodexIdListIsMutable();
         codexIdList_.addInt(value);
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>repeated uint32 codex_id_list = 15;</code>
-       * @param values The codexIdList to add.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder addAllCodexIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureCodexIdListIsMutable();
@@ -665,18 +530,7 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>repeated uint32 codex_id_list = 15;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearCodexIdList() {
         codexIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);

@@ -18,42 +18,11 @@ public final class SetPlayerSignatureRspOuterClass {
       // @@protoc_insertion_point(interface_extends:SetPlayerSignatureRsp)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     java.lang.String getSignature();
 
     com.google.protobuf.ByteString
         getSignatureBytes();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>string signature = 6;</code>
-     * @return The signature.
-     */
-    java.lang.String getSignature();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>string signature = 6;</code>
-     * @return The bytes for signature.
-     */
-    com.google.protobuf.ByteString
-        getSignatureBytes();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>int32 retcode = 10;</code>
-     * @return The retcode.
-     */
->>>>>>> origin/6.5.0
     int getRetcode();
   }
   /**
@@ -151,18 +120,7 @@ public final class SetPlayerSignatureRspOuterClass {
 
     public static final int SIGNATURE_FIELD_NUMBER = 2;
     private volatile java.lang.Object signature_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>string signature = 6;</code>
-     * @return The signature.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getSignature() {
       java.lang.Object ref = signature_;
@@ -176,18 +134,7 @@ public final class SetPlayerSignatureRspOuterClass {
         return s;
       }
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>string signature = 6;</code>
-     * @return The bytes for signature.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getSignatureBytes() {
@@ -205,18 +152,7 @@ public final class SetPlayerSignatureRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 6;
     private int retcode_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>int32 retcode = 10;</code>
-     * @return The retcode.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -546,18 +482,7 @@ public final class SetPlayerSignatureRspOuterClass {
       }
 
       private java.lang.Object signature_ = "";
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>string signature = 6;</code>
-       * @return The signature.
-       */
->>>>>>> origin/6.5.0
       public java.lang.String getSignature() {
         java.lang.Object ref = signature_;
         if (!(ref instanceof java.lang.String)) {
@@ -570,18 +495,7 @@ public final class SetPlayerSignatureRspOuterClass {
           return (java.lang.String) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>string signature = 6;</code>
-       * @return The bytes for signature.
-       */
->>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getSignatureBytes() {
         java.lang.Object ref = signature_;
@@ -595,19 +509,7 @@ public final class SetPlayerSignatureRspOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>string signature = 6;</code>
-       * @param value The signature to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setSignature(
           java.lang.String value) {
         if (value == null) {
@@ -618,37 +520,14 @@ public final class SetPlayerSignatureRspOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>string signature = 6;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearSignature() {
 
         signature_ = getDefaultInstance().getSignature();
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>string signature = 6;</code>
-       * @param value The bytes for signature to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setSignatureBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -662,53 +541,19 @@ public final class SetPlayerSignatureRspOuterClass {
       }
 
       private int retcode_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>int32 retcode = 10;</code>
-       * @return The retcode.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>int32 retcode = 10;</code>
-       * @param value The retcode to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
 
         retcode_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>int32 retcode = 10;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearRetcode() {
 
         retcode_ = 0;

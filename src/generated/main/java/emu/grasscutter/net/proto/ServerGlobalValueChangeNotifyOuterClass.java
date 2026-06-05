@@ -18,41 +18,10 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:ServerGlobalValueChangeNotify)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getKeyHash();
 
     float getValue();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 key_hash = 12;</code>
-     * @return The keyHash.
-     */
-    int getKeyHash();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>float value = 14;</code>
-     * @return The value.
-     */
-    float getValue();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 entity_id = 11;</code>
-     * @return The entityId.
-     */
->>>>>>> origin/6.5.0
     int getEntityId();
   }
   /**
@@ -154,18 +123,7 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
 
     public static final int KEY_HASH_FIELD_NUMBER = 13;
     private int keyHash_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 key_hash = 12;</code>
-     * @return The keyHash.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getKeyHash() {
       return keyHash_;
@@ -173,18 +131,7 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
 
     public static final int VALUE_FIELD_NUMBER = 5;
     private float value_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>float value = 14;</code>
-     * @return The value.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public float getValue() {
       return value_;
@@ -192,18 +139,7 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
 
     public static final int ENTITY_ID_FIELD_NUMBER = 7;
     private int entityId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 entity_id = 11;</code>
-     * @return The entityId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getEntityId() {
       return entityId_;
@@ -553,53 +489,19 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
       }
 
       private int keyHash_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 key_hash = 12;</code>
-       * @return The keyHash.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getKeyHash() {
         return keyHash_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 key_hash = 12;</code>
-       * @param value The keyHash to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setKeyHash(int value) {
 
         keyHash_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 key_hash = 12;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearKeyHash() {
 
         keyHash_ = 0;
@@ -608,53 +510,19 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
       }
 
       private float value_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>float value = 14;</code>
-       * @return The value.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public float getValue() {
         return value_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>float value = 14;</code>
-       * @param value The value to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setValue(float value) {
 
         value_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>float value = 14;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearValue() {
 
         value_ = 0F;
@@ -663,53 +531,19 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
       }
 
       private int entityId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 entity_id = 11;</code>
-       * @return The entityId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getEntityId() {
         return entityId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 entity_id = 11;</code>
-       * @param value The entityId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setEntityId(int value) {
 
         entityId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 entity_id = 11;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearEntityId() {
 
         entityId_ = 0;

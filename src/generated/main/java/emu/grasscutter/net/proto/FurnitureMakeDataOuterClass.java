@@ -18,17 +18,6 @@ public final class FurnitureMakeDataOuterClass {
       // @@protoc_insertion_point(interface_extends:FurnitureMakeData)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>fixed32 begin_time = 4;</code>
-     * @return The beginTime.
-     */
->>>>>>> origin/6.5.0
     int getBeginTime();
 
     /**
@@ -43,41 +32,10 @@ public final class FurnitureMakeDataOuterClass {
      */
     int getAccelerateTime();
 
-<<<<<<< HEAD
     int getMakeId();
 
     int getAvatarId();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 make_id = 14;</code>
-     * @return The makeId.
-     */
-    int getMakeId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 avatar_id = 2;</code>
-     * @return The avatarId.
-     */
-    int getAvatarId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 index = 9;</code>
-     * @return The index.
-     */
->>>>>>> origin/6.5.0
     int getIndex();
   }
   /**
@@ -189,18 +147,7 @@ public final class FurnitureMakeDataOuterClass {
 
     public static final int BEGIN_TIME_FIELD_NUMBER = 11;
     private int beginTime_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>fixed32 begin_time = 4;</code>
-     * @return The beginTime.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getBeginTime() {
       return beginTime_;
@@ -230,18 +177,7 @@ public final class FurnitureMakeDataOuterClass {
 
     public static final int MAKE_ID_FIELD_NUMBER = 7;
     private int makeId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 make_id = 14;</code>
-     * @return The makeId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getMakeId() {
       return makeId_;
@@ -249,18 +185,7 @@ public final class FurnitureMakeDataOuterClass {
 
     public static final int AVATAR_ID_FIELD_NUMBER = 13;
     private int avatarId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 avatar_id = 2;</code>
-     * @return The avatarId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getAvatarId() {
       return avatarId_;
@@ -268,18 +193,7 @@ public final class FurnitureMakeDataOuterClass {
 
     public static final int INDEX_FIELD_NUMBER = 1;
     private int index_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 index = 9;</code>
-     * @return The index.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getIndex() {
       return index_;
@@ -673,53 +587,19 @@ public final class FurnitureMakeDataOuterClass {
       }
 
       private int beginTime_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>fixed32 begin_time = 4;</code>
-       * @return The beginTime.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getBeginTime() {
         return beginTime_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>fixed32 begin_time = 4;</code>
-       * @param value The beginTime to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setBeginTime(int value) {
 
         beginTime_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>fixed32 begin_time = 4;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearBeginTime() {
 
         beginTime_ = 0;
@@ -790,53 +670,19 @@ public final class FurnitureMakeDataOuterClass {
       }
 
       private int makeId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 make_id = 14;</code>
-       * @return The makeId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getMakeId() {
         return makeId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 make_id = 14;</code>
-       * @param value The makeId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setMakeId(int value) {
 
         makeId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 make_id = 14;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearMakeId() {
 
         makeId_ = 0;
@@ -845,53 +691,19 @@ public final class FurnitureMakeDataOuterClass {
       }
 
       private int avatarId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 avatar_id = 2;</code>
-       * @return The avatarId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getAvatarId() {
         return avatarId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 avatar_id = 2;</code>
-       * @param value The avatarId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setAvatarId(int value) {
 
         avatarId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 avatar_id = 2;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearAvatarId() {
 
         avatarId_ = 0;
@@ -900,53 +712,19 @@ public final class FurnitureMakeDataOuterClass {
       }
 
       private int index_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 index = 9;</code>
-       * @return The index.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getIndex() {
         return index_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 index = 9;</code>
-       * @param value The index to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setIndex(int value) {
 
         index_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 index = 9;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearIndex() {
 
         index_ = 0;

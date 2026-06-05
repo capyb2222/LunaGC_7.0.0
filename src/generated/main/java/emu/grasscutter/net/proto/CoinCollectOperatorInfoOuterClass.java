@@ -18,17 +18,6 @@ public final class CoinCollectOperatorInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:CoinCollectOperatorInfo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 level_id = 1;</code>
-     * @return The levelId.
-     */
->>>>>>> origin/6.5.0
     int getLevelId();
   }
   /**
@@ -115,18 +104,7 @@ public final class CoinCollectOperatorInfoOuterClass {
 
     public static final int LEVEL_ID_FIELD_NUMBER = 1;
     private int levelId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 level_id = 1;</code>
-     * @return The levelId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getLevelId() {
       return levelId_;
@@ -435,53 +413,19 @@ public final class CoinCollectOperatorInfoOuterClass {
       }
 
       private int levelId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 level_id = 1;</code>
-       * @return The levelId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getLevelId() {
         return levelId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 level_id = 1;</code>
-       * @param value The levelId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setLevelId(int value) {
 
         levelId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 level_id = 1;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearLevelId() {
 
         levelId_ = 0;

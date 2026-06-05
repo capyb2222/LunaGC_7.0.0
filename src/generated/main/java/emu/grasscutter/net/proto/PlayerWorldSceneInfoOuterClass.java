@@ -39,7 +39,6 @@ public final class PlayerWorldSceneInfoOuterClass {
      */
     emu.grasscutter.net.proto.BLFDGJBMBMAOuterClass.BLFDGJBMBMAOrBuilder getMGEKPJHLIOJOrBuilder();
 
-<<<<<<< HEAD
     java.util.List<java.lang.Integer> getSceneTagIdListList();
 
     int getSceneTagIdListCount();
@@ -48,55 +47,6 @@ public final class PlayerWorldSceneInfoOuterClass {
 
     boolean getIsLocked();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint32 scene_tag_id_list = 10;</code>
-     * @return A list containing the sceneTagIdList.
-     */
-    java.util.List<java.lang.Integer> getSceneTagIdListList();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint32 scene_tag_id_list = 10;</code>
-     * @return The count of sceneTagIdList.
-     */
-    int getSceneTagIdListCount();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint32 scene_tag_id_list = 10;</code>
-     * @param index The index of the element to return.
-     * @return The sceneTagIdList at the given index.
-     */
-    int getSceneTagIdList(int index);
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>bool is_locked = 8;</code>
-     * @return The isLocked.
-     */
-    boolean getIsLocked();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 scene_id = 12;</code>
-     * @return The sceneId.
-     */
->>>>>>> origin/6.5.0
     int getSceneId();
   }
   /**
@@ -284,51 +234,17 @@ public final class PlayerWorldSceneInfoOuterClass {
 
     public static final int SCENE_TAG_ID_LIST_FIELD_NUMBER = 8;
     private com.google.protobuf.Internal.IntList sceneTagIdList_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint32 scene_tag_id_list = 10;</code>
-     * @return A list containing the sceneTagIdList.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getSceneTagIdListList() {
       return sceneTagIdList_;
     }
-<<<<<<< HEAD
 
     public int getSceneTagIdListCount() {
       return sceneTagIdList_.size();
     }
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint32 scene_tag_id_list = 10;</code>
-     * @return The count of sceneTagIdList.
-     */
-    public int getSceneTagIdListCount() {
-      return sceneTagIdList_.size();
-    }
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated uint32 scene_tag_id_list = 10;</code>
-     * @param index The index of the element to return.
-     * @return The sceneTagIdList at the given index.
-     */
->>>>>>> origin/6.5.0
     public int getSceneTagIdList(int index) {
       return sceneTagIdList_.getInt(index);
     }
@@ -336,18 +252,7 @@ public final class PlayerWorldSceneInfoOuterClass {
 
     public static final int IS_LOCKED_FIELD_NUMBER = 3;
     private boolean isLocked_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>bool is_locked = 8;</code>
-     * @return The isLocked.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsLocked() {
       return isLocked_;
@@ -355,18 +260,7 @@ public final class PlayerWorldSceneInfoOuterClass {
 
     public static final int SCENE_ID_FIELD_NUMBER = 11;
     private int sceneId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 scene_id = 12;</code>
-     * @return The sceneId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getSceneId() {
       return sceneId_;
@@ -1024,24 +918,12 @@ public final class PlayerWorldSceneInfoOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint32 scene_tag_id_list = 10;</code>
-       * @return A list containing the sceneTagIdList.
-       */
->>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getSceneTagIdListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(sceneTagIdList_) : sceneTagIdList_;
       }
-<<<<<<< HEAD
 
       public int getSceneTagIdListCount() {
         return sceneTagIdList_.size();
@@ -1051,41 +933,6 @@ public final class PlayerWorldSceneInfoOuterClass {
         return sceneTagIdList_.getInt(index);
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint32 scene_tag_id_list = 10;</code>
-       * @return The count of sceneTagIdList.
-       */
-      public int getSceneTagIdListCount() {
-        return sceneTagIdList_.size();
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint32 scene_tag_id_list = 10;</code>
-       * @param index The index of the element to return.
-       * @return The sceneTagIdList at the given index.
-       */
-      public int getSceneTagIdList(int index) {
-        return sceneTagIdList_.getInt(index);
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint32 scene_tag_id_list = 10;</code>
-       * @param index The index to set the value at.
-       * @param value The sceneTagIdList to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setSceneTagIdList(
           int index, int value) {
         ensureSceneTagIdListIsMutable();
@@ -1093,38 +940,14 @@ public final class PlayerWorldSceneInfoOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint32 scene_tag_id_list = 10;</code>
-       * @param value The sceneTagIdList to add.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder addSceneTagIdList(int value) {
         ensureSceneTagIdListIsMutable();
         sceneTagIdList_.addInt(value);
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint32 scene_tag_id_list = 10;</code>
-       * @param values The sceneTagIdList to add.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder addAllSceneTagIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureSceneTagIdListIsMutable();
@@ -1133,18 +956,7 @@ public final class PlayerWorldSceneInfoOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated uint32 scene_tag_id_list = 10;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearSceneTagIdList() {
         sceneTagIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -1153,53 +965,19 @@ public final class PlayerWorldSceneInfoOuterClass {
       }
 
       private boolean isLocked_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>bool is_locked = 8;</code>
-       * @return The isLocked.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsLocked() {
         return isLocked_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>bool is_locked = 8;</code>
-       * @param value The isLocked to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setIsLocked(boolean value) {
 
         isLocked_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>bool is_locked = 8;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearIsLocked() {
 
         isLocked_ = false;
@@ -1208,53 +986,19 @@ public final class PlayerWorldSceneInfoOuterClass {
       }
 
       private int sceneId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 scene_id = 12;</code>
-       * @return The sceneId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getSceneId() {
         return sceneId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 scene_id = 12;</code>
-       * @param value The sceneId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setSceneId(int value) {
 
         sceneId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 scene_id = 12;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearSceneId() {
 
         sceneId_ = 0;

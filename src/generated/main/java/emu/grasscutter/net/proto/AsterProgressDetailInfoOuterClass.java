@@ -18,29 +18,8 @@ public final class AsterProgressDetailInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:AsterProgressDetailInfo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getCount();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0      
-     * </pre>
-     *
-     * <code>uint32 count = 8;</code>
-     * @return The count.
-     */
-    int getCount();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0      
-     * </pre>
-     *
-     * <code>uint32 last_auto_add_time = 13;</code>
-     * @return The lastAutoAddTime.
-     */
->>>>>>> origin/6.5.0
     int getLastAutoAddTime();
   }
   /**
@@ -132,18 +111,7 @@ public final class AsterProgressDetailInfoOuterClass {
 
     public static final int COUNT_FIELD_NUMBER = 8;
     private int count_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0      
-     * </pre>
-     *
-     * <code>uint32 count = 8;</code>
-     * @return The count.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCount() {
       return count_;
@@ -151,18 +119,7 @@ public final class AsterProgressDetailInfoOuterClass {
 
     public static final int LAST_AUTO_ADD_TIME_FIELD_NUMBER = 13;
     private int lastAutoAddTime_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0      
-     * </pre>
-     *
-     * <code>uint32 last_auto_add_time = 13;</code>
-     * @return The lastAutoAddTime.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getLastAutoAddTime() {
       return lastAutoAddTime_;
@@ -488,53 +445,19 @@ public final class AsterProgressDetailInfoOuterClass {
       }
 
       private int count_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>uint32 count = 8;</code>
-       * @return The count.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCount() {
         return count_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>uint32 count = 8;</code>
-       * @param value The count to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setCount(int value) {
 
         count_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>uint32 count = 8;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearCount() {
 
         count_ = 0;
@@ -543,53 +466,19 @@ public final class AsterProgressDetailInfoOuterClass {
       }
 
       private int lastAutoAddTime_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>uint32 last_auto_add_time = 13;</code>
-       * @return The lastAutoAddTime.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getLastAutoAddTime() {
         return lastAutoAddTime_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>uint32 last_auto_add_time = 13;</code>
-       * @param value The lastAutoAddTime to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setLastAutoAddTime(int value) {
 
         lastAutoAddTime_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>uint32 last_auto_add_time = 13;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearLastAutoAddTime() {
 
         lastAutoAddTime_ = 0;

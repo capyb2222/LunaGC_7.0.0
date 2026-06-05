@@ -18,28 +18,8 @@ public final class ForceUpdateInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:ForceUpdateInfo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     java.lang.String getForceUpdateUrl();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>string force_update_url = 1;</code>
-     * @return The forceUpdateUrl.
-     */
-    java.lang.String getForceUpdateUrl();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>string force_update_url = 1;</code>
-     * @return The bytes for forceUpdateUrl.
-     */
->>>>>>> origin/6.5.0
     com.google.protobuf.ByteString
         getForceUpdateUrlBytes();
   }
@@ -129,18 +109,7 @@ public final class ForceUpdateInfoOuterClass {
 
     public static final int FORCE_UPDATE_URL_FIELD_NUMBER = 1;
     private volatile java.lang.Object forceUpdateUrl_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>string force_update_url = 1;</code>
-     * @return The forceUpdateUrl.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getForceUpdateUrl() {
       java.lang.Object ref = forceUpdateUrl_;
@@ -154,18 +123,7 @@ public final class ForceUpdateInfoOuterClass {
         return s;
       }
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>string force_update_url = 1;</code>
-     * @return The bytes for forceUpdateUrl.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getForceUpdateUrlBytes() {
@@ -484,18 +442,7 @@ public final class ForceUpdateInfoOuterClass {
       }
 
       private java.lang.Object forceUpdateUrl_ = "";
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>string force_update_url = 1;</code>
-       * @return The forceUpdateUrl.
-       */
->>>>>>> origin/6.5.0
       public java.lang.String getForceUpdateUrl() {
         java.lang.Object ref = forceUpdateUrl_;
         if (!(ref instanceof java.lang.String)) {
@@ -508,18 +455,7 @@ public final class ForceUpdateInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>string force_update_url = 1;</code>
-       * @return The bytes for forceUpdateUrl.
-       */
->>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getForceUpdateUrlBytes() {
         java.lang.Object ref = forceUpdateUrl_;
@@ -533,19 +469,7 @@ public final class ForceUpdateInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>string force_update_url = 1;</code>
-       * @param value The forceUpdateUrl to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setForceUpdateUrl(
           java.lang.String value) {
         if (value == null) {
@@ -556,37 +480,14 @@ public final class ForceUpdateInfoOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>string force_update_url = 1;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearForceUpdateUrl() {
 
         forceUpdateUrl_ = getDefaultInstance().getForceUpdateUrl();
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>string force_update_url = 1;</code>
-       * @param value The bytes for forceUpdateUrl to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setForceUpdateUrlBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {

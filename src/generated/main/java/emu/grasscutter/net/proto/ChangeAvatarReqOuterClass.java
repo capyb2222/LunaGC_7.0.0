@@ -18,50 +18,12 @@ public final class ChangeAvatarReqOuterClass {
       // @@protoc_insertion_point(interface_extends:ChangeAvatarReq)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     boolean hasMovePos();
 
     emu.grasscutter.net.proto.VectorOuterClass.Vector getMovePos();
 
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getMovePosOrBuilder();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.Vector move_pos = 14;</code>
-     * @return Whether the movePos field is set.
-     */
-    boolean hasMovePos();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.Vector move_pos = 14;</code>
-     * @return The movePos.
-     */
-    emu.grasscutter.net.proto.VectorOuterClass.Vector getMovePos();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.Vector move_pos = 14;</code>
-     */
-    emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getMovePosOrBuilder();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 skill_id = 3;</code>
-     * @return The skillId.
-     */
->>>>>>> origin/6.5.0
     int getSkillId();
 
     /**
@@ -76,29 +38,8 @@ public final class ChangeAvatarReqOuterClass {
      */
     boolean getIECPBGINIBL();
 
-<<<<<<< HEAD
     long getGuid();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint64 guid = 6;</code>
-     * @return The guid.
-     */
-    long getGuid();
-
-    /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>bool is_move = 15;</code>
-     * @return The isMove.
-     */
->>>>>>> origin/6.5.0
     boolean getIsMove();
   }
   /**
@@ -155,21 +96,7 @@ public final class ChangeAvatarReqOuterClass {
               skillId_ = input.readUInt32();
               break;
             }
-<<<<<<< HEAD
             case 26: {
-=======
-            case 32: {
-
-              iECPBGINIBL_ = input.readBool();
-              break;
-            }
-            case 48: {
-
-              guid_ = input.readUInt64();
-              break;
-            }
-            case 114: {
->>>>>>> origin/6.5.0
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (movePos_ != null) {
                 subBuilder = movePos_.toBuilder();
@@ -182,7 +109,6 @@ public final class ChangeAvatarReqOuterClass {
 
               break;
             }
-<<<<<<< HEAD
             case 32: {
 
               iECPBGINIBL_ = input.readBool();
@@ -194,18 +120,11 @@ public final class ChangeAvatarReqOuterClass {
               break;
             }
             case 64: {
-=======
-            case 120: {
->>>>>>> origin/6.5.0
 
               isMove_ = input.readBool();
               break;
             }
-<<<<<<< HEAD
             case 112: {
-=======
-            case 1120: {
->>>>>>> origin/6.5.0
 
               dBNDIOAOJHP_ = input.readBool();
               break;
@@ -244,49 +163,17 @@ public final class ChangeAvatarReqOuterClass {
 
     public static final int MOVE_POS_FIELD_NUMBER = 3;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector movePos_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.Vector move_pos = 14;</code>
-     * @return Whether the movePos field is set.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasMovePos() {
       return movePos_ != null;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.Vector move_pos = 14;</code>
-     * @return The movePos.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.Vector getMovePos() {
       return movePos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : movePos_;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.Vector move_pos = 14;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getMovePosOrBuilder() {
       return getMovePos();
@@ -294,18 +181,7 @@ public final class ChangeAvatarReqOuterClass {
 
     public static final int SKILL_ID_FIELD_NUMBER = 2;
     private int skillId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 skill_id = 3;</code>
-     * @return The skillId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getSkillId() {
       return skillId_;
@@ -335,39 +211,15 @@ public final class ChangeAvatarReqOuterClass {
 
     public static final int GUID_FIELD_NUMBER = 6;
     private long guid_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint64 guid = 6;</code>
-     * @return The guid.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public long getGuid() {
       return guid_;
     }
 
-<<<<<<< HEAD
     public static final int IS_MOVE_FIELD_NUMBER = 8;
     private boolean isMove_;
 
-=======
-    public static final int IS_MOVE_FIELD_NUMBER = 15;
-    private boolean isMove_;
-    /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>bool is_move = 15;</code>
-     * @return The isMove.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsMove() {
       return isMove_;
@@ -784,33 +636,11 @@ public final class ChangeAvatarReqOuterClass {
       private emu.grasscutter.net.proto.VectorOuterClass.Vector movePos_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> movePosBuilder_;
-<<<<<<< HEAD
 
       public boolean hasMovePos() {
         return movePosBuilder_ != null || movePos_ != null;
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.Vector move_pos = 14;</code>
-       * @return Whether the movePos field is set.
-       */
-      public boolean hasMovePos() {
-        return movePosBuilder_ != null || movePos_ != null;
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.Vector move_pos = 14;</code>
-       * @return The movePos.
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.Vector getMovePos() {
         if (movePosBuilder_ == null) {
           return movePos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : movePos_;
@@ -818,17 +648,7 @@ public final class ChangeAvatarReqOuterClass {
           return movePosBuilder_.getMessage();
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.Vector move_pos = 14;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setMovePos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (movePosBuilder_ == null) {
           if (value == null) {
@@ -842,17 +662,7 @@ public final class ChangeAvatarReqOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.Vector move_pos = 14;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setMovePos(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
         if (movePosBuilder_ == null) {
@@ -864,17 +674,7 @@ public final class ChangeAvatarReqOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.Vector move_pos = 14;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder mergeMovePos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (movePosBuilder_ == null) {
           if (movePos_ != null) {
@@ -890,17 +690,7 @@ public final class ChangeAvatarReqOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.Vector move_pos = 14;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder clearMovePos() {
         if (movePosBuilder_ == null) {
           movePos_ = null;
@@ -912,33 +702,13 @@ public final class ChangeAvatarReqOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.Vector move_pos = 14;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getMovePosBuilder() {
 
         onChanged();
         return getMovePosFieldBuilder().getBuilder();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.Vector move_pos = 14;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getMovePosOrBuilder() {
         if (movePosBuilder_ != null) {
           return movePosBuilder_.getMessageOrBuilder();
@@ -947,17 +717,7 @@ public final class ChangeAvatarReqOuterClass {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : movePos_;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.Vector move_pos = 14;</code>
-       */
->>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getMovePosFieldBuilder() {
@@ -973,53 +733,19 @@ public final class ChangeAvatarReqOuterClass {
       }
 
       private int skillId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 skill_id = 3;</code>
-       * @return The skillId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getSkillId() {
         return skillId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 skill_id = 3;</code>
-       * @param value The skillId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setSkillId(int value) {
 
         skillId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 skill_id = 3;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearSkillId() {
 
         skillId_ = 0;
@@ -1090,53 +816,19 @@ public final class ChangeAvatarReqOuterClass {
       }
 
       private long guid_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint64 guid = 6;</code>
-       * @return The guid.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public long getGuid() {
         return guid_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint64 guid = 6;</code>
-       * @param value The guid to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setGuid(long value) {
 
         guid_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint64 guid = 6;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearGuid() {
 
         guid_ = 0L;
@@ -1145,53 +837,19 @@ public final class ChangeAvatarReqOuterClass {
       }
 
       private boolean isMove_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>bool is_move = 15;</code>
-       * @return The isMove.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsMove() {
         return isMove_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>bool is_move = 15;</code>
-       * @param value The isMove to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setIsMove(boolean value) {
 
         isMove_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>bool is_move = 15;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearIsMove() {
 
         isMove_ = false;

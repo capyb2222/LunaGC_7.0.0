@@ -18,17 +18,6 @@ public final class RoguelikeGadgetInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:RoguelikeGadgetInfo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 cell_id = 4;</code>
-     * @return The cellId.
-     */
->>>>>>> origin/6.5.0
     int getCellId();
 
     /**
@@ -148,18 +137,7 @@ public final class RoguelikeGadgetInfoOuterClass {
 
     public static final int CELL_ID_FIELD_NUMBER = 4;
     private int cellId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 cell_id = 4;</code>
-     * @return The cellId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCellId() {
       return cellId_;
@@ -552,53 +530,19 @@ public final class RoguelikeGadgetInfoOuterClass {
       }
 
       private int cellId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 cell_id = 4;</code>
-       * @return The cellId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCellId() {
         return cellId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 cell_id = 4;</code>
-       * @param value The cellId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setCellId(int value) {
 
         cellId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 cell_id = 4;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearCellId() {
 
         cellId_ = 0;

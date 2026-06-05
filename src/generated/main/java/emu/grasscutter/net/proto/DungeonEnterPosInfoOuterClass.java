@@ -18,29 +18,8 @@ public final class DungeonEnterPosInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:DungeonEnterPosInfo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getPointId();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 point_id = 2;</code>
-     * @return The pointId.
-     */
-    int getPointId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 quest_id = 14;</code>
-     * @return The questId.
-     */
->>>>>>> origin/6.5.0
     int getQuestId();
   }
   /**
@@ -132,18 +111,7 @@ public final class DungeonEnterPosInfoOuterClass {
 
     public static final int POINT_ID_FIELD_NUMBER = 2;
     private int pointId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 point_id = 2;</code>
-     * @return The pointId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getPointId() {
       return pointId_;
@@ -151,18 +119,7 @@ public final class DungeonEnterPosInfoOuterClass {
 
     public static final int QUEST_ID_FIELD_NUMBER = 14;
     private int questId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 quest_id = 14;</code>
-     * @return The questId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getQuestId() {
       return questId_;
@@ -488,53 +445,19 @@ public final class DungeonEnterPosInfoOuterClass {
       }
 
       private int pointId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 point_id = 2;</code>
-       * @return The pointId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getPointId() {
         return pointId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 point_id = 2;</code>
-       * @param value The pointId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setPointId(int value) {
 
         pointId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 point_id = 2;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearPointId() {
 
         pointId_ = 0;
@@ -543,53 +466,19 @@ public final class DungeonEnterPosInfoOuterClass {
       }
 
       private int questId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 quest_id = 14;</code>
-       * @return The questId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getQuestId() {
         return questId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 quest_id = 14;</code>
-       * @param value The questId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setQuestId(int value) {
 
         questId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 quest_id = 14;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearQuestId() {
 
         questId_ = 0;

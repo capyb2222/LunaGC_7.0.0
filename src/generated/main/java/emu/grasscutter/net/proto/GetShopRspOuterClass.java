@@ -18,50 +18,12 @@ public final class GetShopRspOuterClass {
       // @@protoc_insertion_point(interface_extends:GetShopRsp)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     boolean hasShop();
 
     emu.grasscutter.net.proto.ShopOuterClass.Shop getShop();
 
     emu.grasscutter.net.proto.ShopOuterClass.ShopOrBuilder getShopOrBuilder();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.Shop shop = 3;</code>
-     * @return Whether the shop field is set.
-     */
-    boolean hasShop();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.Shop shop = 3;</code>
-     * @return The shop.
-     */
-    emu.grasscutter.net.proto.ShopOuterClass.Shop getShop();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.Shop shop = 3;</code>
-     */
-    emu.grasscutter.net.proto.ShopOuterClass.ShopOrBuilder getShopOrBuilder();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>int32 retcode = 11;</code>
-     * @return The retcode.
-     */
->>>>>>> origin/6.5.0
     int getRetcode();
   }
   /**
@@ -165,49 +127,17 @@ public final class GetShopRspOuterClass {
 
     public static final int SHOP_FIELD_NUMBER = 15;
     private emu.grasscutter.net.proto.ShopOuterClass.Shop shop_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.Shop shop = 3;</code>
-     * @return Whether the shop field is set.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasShop() {
       return shop_ != null;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.Shop shop = 3;</code>
-     * @return The shop.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ShopOuterClass.Shop getShop() {
       return shop_ == null ? emu.grasscutter.net.proto.ShopOuterClass.Shop.getDefaultInstance() : shop_;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.Shop shop = 3;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ShopOuterClass.ShopOrBuilder getShopOrBuilder() {
       return getShop();
@@ -215,18 +145,7 @@ public final class GetShopRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 13;
     private int retcode_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>int32 retcode = 11;</code>
-     * @return The retcode.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -571,33 +490,11 @@ public final class GetShopRspOuterClass {
       private emu.grasscutter.net.proto.ShopOuterClass.Shop shop_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ShopOuterClass.Shop, emu.grasscutter.net.proto.ShopOuterClass.Shop.Builder, emu.grasscutter.net.proto.ShopOuterClass.ShopOrBuilder> shopBuilder_;
-<<<<<<< HEAD
 
       public boolean hasShop() {
         return shopBuilder_ != null || shop_ != null;
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.Shop shop = 3;</code>
-       * @return Whether the shop field is set.
-       */
-      public boolean hasShop() {
-        return shopBuilder_ != null || shop_ != null;
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.Shop shop = 3;</code>
-       * @return The shop.
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ShopOuterClass.Shop getShop() {
         if (shopBuilder_ == null) {
           return shop_ == null ? emu.grasscutter.net.proto.ShopOuterClass.Shop.getDefaultInstance() : shop_;
@@ -605,17 +502,7 @@ public final class GetShopRspOuterClass {
           return shopBuilder_.getMessage();
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.Shop shop = 3;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setShop(emu.grasscutter.net.proto.ShopOuterClass.Shop value) {
         if (shopBuilder_ == null) {
           if (value == null) {
@@ -629,17 +516,7 @@ public final class GetShopRspOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.Shop shop = 3;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setShop(
           emu.grasscutter.net.proto.ShopOuterClass.Shop.Builder builderForValue) {
         if (shopBuilder_ == null) {
@@ -651,17 +528,7 @@ public final class GetShopRspOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.Shop shop = 3;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder mergeShop(emu.grasscutter.net.proto.ShopOuterClass.Shop value) {
         if (shopBuilder_ == null) {
           if (shop_ != null) {
@@ -677,17 +544,7 @@ public final class GetShopRspOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.Shop shop = 3;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder clearShop() {
         if (shopBuilder_ == null) {
           shop_ = null;
@@ -699,33 +556,13 @@ public final class GetShopRspOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.Shop shop = 3;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ShopOuterClass.Shop.Builder getShopBuilder() {
 
         onChanged();
         return getShopFieldBuilder().getBuilder();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.Shop shop = 3;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ShopOuterClass.ShopOrBuilder getShopOrBuilder() {
         if (shopBuilder_ != null) {
           return shopBuilder_.getMessageOrBuilder();
@@ -734,17 +571,7 @@ public final class GetShopRspOuterClass {
               emu.grasscutter.net.proto.ShopOuterClass.Shop.getDefaultInstance() : shop_;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.Shop shop = 3;</code>
-       */
->>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ShopOuterClass.Shop, emu.grasscutter.net.proto.ShopOuterClass.Shop.Builder, emu.grasscutter.net.proto.ShopOuterClass.ShopOrBuilder>
           getShopFieldBuilder() {
@@ -760,53 +587,19 @@ public final class GetShopRspOuterClass {
       }
 
       private int retcode_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>int32 retcode = 11;</code>
-       * @return The retcode.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>int32 retcode = 11;</code>
-       * @param value The retcode to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
 
         retcode_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>int32 retcode = 11;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearRetcode() {
 
         retcode_ = 0;

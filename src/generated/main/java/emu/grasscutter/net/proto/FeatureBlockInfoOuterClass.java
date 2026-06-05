@@ -18,29 +18,8 @@ public final class FeatureBlockInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:FeatureBlockInfo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getFeatureType();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 feature_type = 1;</code>
-     * @return The featureType.
-     */
-    int getFeatureType();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 end_time = 2;</code>
-     * @return The endTime.
-     */
->>>>>>> origin/6.5.0
     int getEndTime();
   }
   /**
@@ -132,18 +111,7 @@ public final class FeatureBlockInfoOuterClass {
 
     public static final int FEATURE_TYPE_FIELD_NUMBER = 1;
     private int featureType_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 feature_type = 1;</code>
-     * @return The featureType.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getFeatureType() {
       return featureType_;
@@ -151,18 +119,7 @@ public final class FeatureBlockInfoOuterClass {
 
     public static final int END_TIME_FIELD_NUMBER = 2;
     private int endTime_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 end_time = 2;</code>
-     * @return The endTime.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getEndTime() {
       return endTime_;
@@ -488,53 +445,19 @@ public final class FeatureBlockInfoOuterClass {
       }
 
       private int featureType_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 feature_type = 1;</code>
-       * @return The featureType.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getFeatureType() {
         return featureType_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 feature_type = 1;</code>
-       * @param value The featureType to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setFeatureType(int value) {
 
         featureType_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 feature_type = 1;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearFeatureType() {
 
         featureType_ = 0;
@@ -543,53 +466,19 @@ public final class FeatureBlockInfoOuterClass {
       }
 
       private int endTime_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 end_time = 2;</code>
-       * @return The endTime.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getEndTime() {
         return endTime_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 end_time = 2;</code>
-       * @param value The endTime to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setEndTime(int value) {
 
         endTime_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 end_time = 2;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearEndTime() {
 
         endTime_ = 0;

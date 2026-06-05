@@ -48,41 +48,10 @@ public final class CurVehicleInfoOuterClass {
      */
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getEnterRotOrBuilder();
 
-<<<<<<< HEAD
     int getEntityId();
 
     int getPos();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 entity_id = 1;</code>
-     * @return The entityId.
-     */
-    int getEntityId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 pos = 2;</code>
-     * @return The pos.
-     */
-    int getPos();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 gadget_id = 3;</code>
-     * @return The gadgetId.
-     */
->>>>>>> origin/6.5.0
     int getGadgetId();
 
     int getVehicleType();
@@ -264,18 +233,7 @@ public final class CurVehicleInfoOuterClass {
 
     public static final int ENTITY_ID_FIELD_NUMBER = 1;
     private int entityId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 entity_id = 1;</code>
-     * @return The entityId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getEntityId() {
       return entityId_;
@@ -283,18 +241,7 @@ public final class CurVehicleInfoOuterClass {
 
     public static final int POS_FIELD_NUMBER = 2;
     private int pos_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 pos = 2;</code>
-     * @return The pos.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getPos() {
       return pos_;
@@ -302,18 +249,7 @@ public final class CurVehicleInfoOuterClass {
 
     public static final int GADGET_ID_FIELD_NUMBER = 3;
     private int gadgetId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 gadget_id = 3;</code>
-     * @return The gadgetId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getGadgetId() {
       return gadgetId_;
@@ -979,53 +915,19 @@ public final class CurVehicleInfoOuterClass {
       }
 
       private int entityId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 entity_id = 1;</code>
-       * @return The entityId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getEntityId() {
         return entityId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 entity_id = 1;</code>
-       * @param value The entityId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setEntityId(int value) {
 
         entityId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 entity_id = 1;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearEntityId() {
 
         entityId_ = 0;
@@ -1034,53 +936,19 @@ public final class CurVehicleInfoOuterClass {
       }
 
       private int pos_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 pos = 2;</code>
-       * @return The pos.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getPos() {
         return pos_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 pos = 2;</code>
-       * @param value The pos to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setPos(int value) {
 
         pos_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 pos = 2;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearPos() {
 
         pos_ = 0;
@@ -1089,53 +957,19 @@ public final class CurVehicleInfoOuterClass {
       }
 
       private int gadgetId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 gadget_id = 3;</code>
-       * @return The gadgetId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getGadgetId() {
         return gadgetId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 gadget_id = 3;</code>
-       * @param value The gadgetId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setGadgetId(int value) {
 
         gadgetId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 gadget_id = 3;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearGadgetId() {
 
         gadgetId_ = 0;

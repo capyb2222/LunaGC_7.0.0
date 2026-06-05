@@ -18,17 +18,6 @@ public final class SeeMonsterReqOuterClass {
       // @@protoc_insertion_point(interface_extends:SeeMonsterReq)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>uint32 monster_id = 12;</code>
-     * @return The monsterId.
-     */
->>>>>>> origin/6.5.0
     int getMonsterId();
   }
   /**
@@ -119,18 +108,7 @@ public final class SeeMonsterReqOuterClass {
 
     public static final int MONSTER_ID_FIELD_NUMBER = 12;
     private int monsterId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>uint32 monster_id = 12;</code>
-     * @return The monsterId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getMonsterId() {
       return monsterId_;
@@ -443,53 +421,19 @@ public final class SeeMonsterReqOuterClass {
       }
 
       private int monsterId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>uint32 monster_id = 12;</code>
-       * @return The monsterId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getMonsterId() {
         return monsterId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>uint32 monster_id = 12;</code>
-       * @param value The monsterId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setMonsterId(int value) {
 
         monsterId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>uint32 monster_id = 12;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearMonsterId() {
 
         monsterId_ = 0;

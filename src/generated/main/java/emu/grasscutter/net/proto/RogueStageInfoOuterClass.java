@@ -18,7 +18,6 @@ public final class RogueStageInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:RogueStageInfo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     java.util.List<emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord>
         getRuneRecordListList();
 
@@ -36,77 +35,6 @@ public final class RogueStageInfoOuterClass {
 
     emu.grasscutter.net.proto.RogueShowAvatarTeamInfoOuterClass.RogueShowAvatarTeamInfo getAvatarTeam();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
-     */
-    java.util.List<emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord> 
-        getRuneRecordListList();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
-     */
-    emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord getRuneRecordList(int index);
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
-     */
-    int getRuneRecordListCount();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
-     */
-    java.util.List<? extends emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecordOrBuilder> 
-        getRuneRecordListOrBuilderList();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
-     */
-    emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecordOrBuilder getRuneRecordListOrBuilder(
-        int index);
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
-     * @return Whether the avatarTeam field is set.
-     */
-    boolean hasAvatarTeam();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
-     * @return The avatarTeam.
-     */
-    emu.grasscutter.net.proto.RogueShowAvatarTeamInfoOuterClass.RogueShowAvatarTeamInfo getAvatarTeam();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
-     */
->>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.RogueShowAvatarTeamInfoOuterClass.RogueShowAvatarTeamInfoOrBuilder getAvatarTeamOrBuilder();
 
     /**
@@ -139,7 +67,6 @@ public final class RogueStageInfoOuterClass {
      */
     int getANOBKENBNFO();
 
-<<<<<<< HEAD
     boolean getIsOpen();
 
     boolean getIsPassed();
@@ -148,56 +75,6 @@ public final class RogueStageInfoOuterClass {
 
     int getCurLevel();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>bool is_open = 11;</code>
-     * @return The isOpen.
-     */
-    boolean getIsOpen();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>bool is_passed = 4;</code>
-     * @return The isPassed.
-     */
-    boolean getIsPassed();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>bool is_taken_reward = 15;</code>
-     * @return The isTakenReward.
-     */
-    boolean getIsTakenReward();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0  
-     * </pre>
-     *
-     * <code>uint32 cur_level = 12;</code>
-     * @return The curLevel.
-     */
-    int getCurLevel();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 stage_id = 9;</code>
-     * @return The stageId.
-     */
->>>>>>> origin/6.5.0
     int getStageId();
   }
   /**
@@ -356,78 +233,28 @@ public final class RogueStageInfoOuterClass {
 
     public static final int RUNE_RECORD_LIST_FIELD_NUMBER = 10;
     private java.util.List<emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord> runeRecordList_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord> getRuneRecordListList() {
       return runeRecordList_;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecordOrBuilder>
         getRuneRecordListOrBuilderList() {
       return runeRecordList_;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRuneRecordListCount() {
       return runeRecordList_.size();
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord getRuneRecordList(int index) {
       return runeRecordList_.get(index);
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecordOrBuilder getRuneRecordListOrBuilder(
         int index) {
@@ -436,49 +263,17 @@ public final class RogueStageInfoOuterClass {
 
     public static final int AVATAR_TEAM_FIELD_NUMBER = 4;
     private emu.grasscutter.net.proto.RogueShowAvatarTeamInfoOuterClass.RogueShowAvatarTeamInfo avatarTeam_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
-     * @return Whether the avatarTeam field is set.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasAvatarTeam() {
       return avatarTeam_ != null;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
-     * @return The avatarTeam.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.RogueShowAvatarTeamInfoOuterClass.RogueShowAvatarTeamInfo getAvatarTeam() {
       return avatarTeam_ == null ? emu.grasscutter.net.proto.RogueShowAvatarTeamInfoOuterClass.RogueShowAvatarTeamInfo.getDefaultInstance() : avatarTeam_;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.RogueShowAvatarTeamInfoOuterClass.RogueShowAvatarTeamInfoOrBuilder getAvatarTeamOrBuilder() {
       return getAvatarTeam();
@@ -541,18 +336,7 @@ public final class RogueStageInfoOuterClass {
 
     public static final int IS_OPEN_FIELD_NUMBER = 8;
     private boolean isOpen_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>bool is_open = 11;</code>
-     * @return The isOpen.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsOpen() {
       return isOpen_;
@@ -560,18 +344,7 @@ public final class RogueStageInfoOuterClass {
 
     public static final int IS_PASSED_FIELD_NUMBER = 4;
     private boolean isPassed_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>bool is_passed = 4;</code>
-     * @return The isPassed.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsPassed() {
       return isPassed_;
@@ -579,18 +352,7 @@ public final class RogueStageInfoOuterClass {
 
     public static final int IS_TAKEN_REWARD_FIELD_NUMBER = 9;
     private boolean isTakenReward_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>bool is_taken_reward = 15;</code>
-     * @return The isTakenReward.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsTakenReward() {
       return isTakenReward_;
@@ -598,18 +360,7 @@ public final class RogueStageInfoOuterClass {
 
     public static final int CUR_LEVEL_FIELD_NUMBER = 12;
     private int curLevel_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0  
-     * </pre>
-     *
-     * <code>uint32 cur_level = 12;</code>
-     * @return The curLevel.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCurLevel() {
       return curLevel_;
@@ -617,18 +368,7 @@ public final class RogueStageInfoOuterClass {
 
     public static final int STAGE_ID_FIELD_NUMBER = 5;
     private int stageId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 stage_id = 9;</code>
-     * @return The stageId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getStageId() {
       return stageId_;
@@ -1192,16 +932,6 @@ public final class RogueStageInfoOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord, emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord.Builder, emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecordOrBuilder> runeRecordListBuilder_;
 
-<<<<<<< HEAD
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
-       */
->>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord> getRuneRecordListList() {
         if (runeRecordListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(runeRecordList_);
@@ -1209,17 +939,7 @@ public final class RogueStageInfoOuterClass {
           return runeRecordListBuilder_.getMessageList();
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
-       */
->>>>>>> origin/6.5.0
       public int getRuneRecordListCount() {
         if (runeRecordListBuilder_ == null) {
           return runeRecordList_.size();
@@ -1227,17 +947,7 @@ public final class RogueStageInfoOuterClass {
           return runeRecordListBuilder_.getCount();
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord getRuneRecordList(int index) {
         if (runeRecordListBuilder_ == null) {
           return runeRecordList_.get(index);
@@ -1245,17 +955,7 @@ public final class RogueStageInfoOuterClass {
           return runeRecordListBuilder_.getMessage(index);
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setRuneRecordList(
           int index, emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord value) {
         if (runeRecordListBuilder_ == null) {
@@ -1270,17 +970,7 @@ public final class RogueStageInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setRuneRecordList(
           int index, emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord.Builder builderForValue) {
         if (runeRecordListBuilder_ == null) {
@@ -1292,17 +982,7 @@ public final class RogueStageInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder addRuneRecordList(emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord value) {
         if (runeRecordListBuilder_ == null) {
           if (value == null) {
@@ -1316,17 +996,7 @@ public final class RogueStageInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder addRuneRecordList(
           int index, emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord value) {
         if (runeRecordListBuilder_ == null) {
@@ -1341,17 +1011,7 @@ public final class RogueStageInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder addRuneRecordList(
           emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord.Builder builderForValue) {
         if (runeRecordListBuilder_ == null) {
@@ -1363,17 +1023,7 @@ public final class RogueStageInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder addRuneRecordList(
           int index, emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord.Builder builderForValue) {
         if (runeRecordListBuilder_ == null) {
@@ -1385,17 +1035,7 @@ public final class RogueStageInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder addAllRuneRecordList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord> values) {
         if (runeRecordListBuilder_ == null) {
@@ -1408,17 +1048,7 @@ public final class RogueStageInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder clearRuneRecordList() {
         if (runeRecordListBuilder_ == null) {
           runeRecordList_ = java.util.Collections.emptyList();
@@ -1429,17 +1059,7 @@ public final class RogueStageInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder removeRuneRecordList(int index) {
         if (runeRecordListBuilder_ == null) {
           ensureRuneRecordListIsMutable();
@@ -1450,32 +1070,12 @@ public final class RogueStageInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord.Builder getRuneRecordListBuilder(
           int index) {
         return getRuneRecordListFieldBuilder().getBuilder(index);
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecordOrBuilder getRuneRecordListOrBuilder(
           int index) {
         if (runeRecordListBuilder_ == null) {
@@ -1483,19 +1083,8 @@ public final class RogueStageInfoOuterClass {
           return runeRecordListBuilder_.getMessageOrBuilder(index);
         }
       }
-<<<<<<< HEAD
 
       public java.util.List<? extends emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecordOrBuilder>
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
-       */
-      public java.util.List<? extends emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecordOrBuilder> 
->>>>>>> origin/6.5.0
            getRuneRecordListOrBuilderList() {
         if (runeRecordListBuilder_ != null) {
           return runeRecordListBuilder_.getMessageOrBuilderList();
@@ -1503,50 +1092,19 @@ public final class RogueStageInfoOuterClass {
           return java.util.Collections.unmodifiableList(runeRecordList_);
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord.Builder addRuneRecordListBuilder() {
         return getRuneRecordListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord.getDefaultInstance());
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord.Builder addRuneRecordListBuilder(
           int index) {
         return getRuneRecordListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord.getDefaultInstance());
       }
-<<<<<<< HEAD
 
       public java.util.List<emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord.Builder>
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord.Builder> 
->>>>>>> origin/6.5.0
            getRuneRecordListBuilderList() {
         return getRuneRecordListFieldBuilder().getBuilderList();
       }
@@ -1568,33 +1126,11 @@ public final class RogueStageInfoOuterClass {
       private emu.grasscutter.net.proto.RogueShowAvatarTeamInfoOuterClass.RogueShowAvatarTeamInfo avatarTeam_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.RogueShowAvatarTeamInfoOuterClass.RogueShowAvatarTeamInfo, emu.grasscutter.net.proto.RogueShowAvatarTeamInfoOuterClass.RogueShowAvatarTeamInfo.Builder, emu.grasscutter.net.proto.RogueShowAvatarTeamInfoOuterClass.RogueShowAvatarTeamInfoOrBuilder> avatarTeamBuilder_;
-<<<<<<< HEAD
 
       public boolean hasAvatarTeam() {
         return avatarTeamBuilder_ != null || avatarTeam_ != null;
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
-       * @return Whether the avatarTeam field is set.
-       */
-      public boolean hasAvatarTeam() {
-        return avatarTeamBuilder_ != null || avatarTeam_ != null;
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
-       * @return The avatarTeam.
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.RogueShowAvatarTeamInfoOuterClass.RogueShowAvatarTeamInfo getAvatarTeam() {
         if (avatarTeamBuilder_ == null) {
           return avatarTeam_ == null ? emu.grasscutter.net.proto.RogueShowAvatarTeamInfoOuterClass.RogueShowAvatarTeamInfo.getDefaultInstance() : avatarTeam_;
@@ -1602,17 +1138,7 @@ public final class RogueStageInfoOuterClass {
           return avatarTeamBuilder_.getMessage();
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setAvatarTeam(emu.grasscutter.net.proto.RogueShowAvatarTeamInfoOuterClass.RogueShowAvatarTeamInfo value) {
         if (avatarTeamBuilder_ == null) {
           if (value == null) {
@@ -1626,17 +1152,7 @@ public final class RogueStageInfoOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setAvatarTeam(
           emu.grasscutter.net.proto.RogueShowAvatarTeamInfoOuterClass.RogueShowAvatarTeamInfo.Builder builderForValue) {
         if (avatarTeamBuilder_ == null) {
@@ -1648,17 +1164,7 @@ public final class RogueStageInfoOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder mergeAvatarTeam(emu.grasscutter.net.proto.RogueShowAvatarTeamInfoOuterClass.RogueShowAvatarTeamInfo value) {
         if (avatarTeamBuilder_ == null) {
           if (avatarTeam_ != null) {
@@ -1674,17 +1180,7 @@ public final class RogueStageInfoOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder clearAvatarTeam() {
         if (avatarTeamBuilder_ == null) {
           avatarTeam_ = null;
@@ -1696,33 +1192,13 @@ public final class RogueStageInfoOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.RogueShowAvatarTeamInfoOuterClass.RogueShowAvatarTeamInfo.Builder getAvatarTeamBuilder() {
 
         onChanged();
         return getAvatarTeamFieldBuilder().getBuilder();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.RogueShowAvatarTeamInfoOuterClass.RogueShowAvatarTeamInfoOrBuilder getAvatarTeamOrBuilder() {
         if (avatarTeamBuilder_ != null) {
           return avatarTeamBuilder_.getMessageOrBuilder();
@@ -1731,17 +1207,7 @@ public final class RogueStageInfoOuterClass {
               emu.grasscutter.net.proto.RogueShowAvatarTeamInfoOuterClass.RogueShowAvatarTeamInfo.getDefaultInstance() : avatarTeam_;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
-       */
->>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.RogueShowAvatarTeamInfoOuterClass.RogueShowAvatarTeamInfo, emu.grasscutter.net.proto.RogueShowAvatarTeamInfoOuterClass.RogueShowAvatarTeamInfo.Builder, emu.grasscutter.net.proto.RogueShowAvatarTeamInfoOuterClass.RogueShowAvatarTeamInfoOrBuilder>
           getAvatarTeamFieldBuilder() {
@@ -1912,53 +1378,19 @@ public final class RogueStageInfoOuterClass {
       }
 
       private boolean isOpen_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_open = 11;</code>
-       * @return The isOpen.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsOpen() {
         return isOpen_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_open = 11;</code>
-       * @param value The isOpen to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setIsOpen(boolean value) {
 
         isOpen_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_open = 11;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearIsOpen() {
 
         isOpen_ = false;
@@ -1967,53 +1399,19 @@ public final class RogueStageInfoOuterClass {
       }
 
       private boolean isPassed_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_passed = 4;</code>
-       * @return The isPassed.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsPassed() {
         return isPassed_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_passed = 4;</code>
-       * @param value The isPassed to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setIsPassed(boolean value) {
 
         isPassed_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_passed = 4;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearIsPassed() {
 
         isPassed_ = false;
@@ -2022,53 +1420,19 @@ public final class RogueStageInfoOuterClass {
       }
 
       private boolean isTakenReward_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_taken_reward = 15;</code>
-       * @return The isTakenReward.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsTakenReward() {
         return isTakenReward_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_taken_reward = 15;</code>
-       * @param value The isTakenReward to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setIsTakenReward(boolean value) {
 
         isTakenReward_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_taken_reward = 15;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearIsTakenReward() {
 
         isTakenReward_ = false;
@@ -2077,53 +1441,19 @@ public final class RogueStageInfoOuterClass {
       }
 
       private int curLevel_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0  
-       * </pre>
-       *
-       * <code>uint32 cur_level = 12;</code>
-       * @return The curLevel.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCurLevel() {
         return curLevel_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0  
-       * </pre>
-       *
-       * <code>uint32 cur_level = 12;</code>
-       * @param value The curLevel to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setCurLevel(int value) {
 
         curLevel_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0  
-       * </pre>
-       *
-       * <code>uint32 cur_level = 12;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearCurLevel() {
 
         curLevel_ = 0;
@@ -2132,53 +1462,19 @@ public final class RogueStageInfoOuterClass {
       }
 
       private int stageId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 stage_id = 9;</code>
-       * @return The stageId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getStageId() {
         return stageId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 stage_id = 9;</code>
-       * @param value The stageId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setStageId(int value) {
 
         stageId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 stage_id = 9;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearStageId() {
 
         stageId_ = 0;

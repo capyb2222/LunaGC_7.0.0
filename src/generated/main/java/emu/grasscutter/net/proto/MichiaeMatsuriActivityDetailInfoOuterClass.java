@@ -66,7 +66,6 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
     emu.grasscutter.net.proto.GIGBOMGHMDNOuterClass.GIGBOMGHMDNOrBuilder getKILFHAAHDJOOrBuilder(
         int index);
 
-<<<<<<< HEAD
     java.util.List<emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAIN>
         getStageListList();
 
@@ -77,49 +76,6 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
     java.util.List<? extends emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAINOrBuilder>
         getStageListOrBuilderList();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
-     */
-    java.util.List<emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAIN> 
-        getStageListList();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
-     */
-    emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAIN getStageList(int index);
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
-     */
-    int getStageListCount();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
-     */
-    java.util.List<? extends emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAINOrBuilder> 
-        getStageListOrBuilderList();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
-     */
->>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAINOrBuilder getStageListOrBuilder(
         int index);
 
@@ -375,78 +331,28 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
 
     public static final int STAGE_LIST_FIELD_NUMBER = 4;
     private java.util.List<emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAIN> stageList_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAIN> getStageListList() {
       return stageList_;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAINOrBuilder>
         getStageListOrBuilderList() {
       return stageList_;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getStageListCount() {
       return stageList_.size();
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAIN getStageList(int index) {
       return stageList_.get(index);
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAINOrBuilder getStageListOrBuilder(
         int index) {
@@ -1498,16 +1404,6 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAIN, emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAIN.Builder, emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAINOrBuilder> stageListBuilder_;
 
-<<<<<<< HEAD
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
-       */
->>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAIN> getStageListList() {
         if (stageListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(stageList_);
@@ -1515,17 +1411,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
           return stageListBuilder_.getMessageList();
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
-       */
->>>>>>> origin/6.5.0
       public int getStageListCount() {
         if (stageListBuilder_ == null) {
           return stageList_.size();
@@ -1533,17 +1419,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
           return stageListBuilder_.getCount();
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAIN getStageList(int index) {
         if (stageListBuilder_ == null) {
           return stageList_.get(index);
@@ -1551,17 +1427,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
           return stageListBuilder_.getMessage(index);
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setStageList(
           int index, emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAIN value) {
         if (stageListBuilder_ == null) {
@@ -1576,17 +1442,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setStageList(
           int index, emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAIN.Builder builderForValue) {
         if (stageListBuilder_ == null) {
@@ -1598,17 +1454,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder addStageList(emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAIN value) {
         if (stageListBuilder_ == null) {
           if (value == null) {
@@ -1622,17 +1468,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder addStageList(
           int index, emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAIN value) {
         if (stageListBuilder_ == null) {
@@ -1647,17 +1483,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder addStageList(
           emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAIN.Builder builderForValue) {
         if (stageListBuilder_ == null) {
@@ -1669,17 +1495,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder addStageList(
           int index, emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAIN.Builder builderForValue) {
         if (stageListBuilder_ == null) {
@@ -1691,17 +1507,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder addAllStageList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAIN> values) {
         if (stageListBuilder_ == null) {
@@ -1714,17 +1520,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder clearStageList() {
         if (stageListBuilder_ == null) {
           stageList_ = java.util.Collections.emptyList();
@@ -1735,17 +1531,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder removeStageList(int index) {
         if (stageListBuilder_ == null) {
           ensureStageListIsMutable();
@@ -1756,32 +1542,12 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAIN.Builder getStageListBuilder(
           int index) {
         return getStageListFieldBuilder().getBuilder(index);
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAINOrBuilder getStageListOrBuilder(
           int index) {
         if (stageListBuilder_ == null) {
@@ -1789,19 +1555,8 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
           return stageListBuilder_.getMessageOrBuilder(index);
         }
       }
-<<<<<<< HEAD
 
       public java.util.List<? extends emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAINOrBuilder>
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
-       */
-      public java.util.List<? extends emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAINOrBuilder> 
->>>>>>> origin/6.5.0
            getStageListOrBuilderList() {
         if (stageListBuilder_ != null) {
           return stageListBuilder_.getMessageOrBuilderList();
@@ -1809,50 +1564,19 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
           return java.util.Collections.unmodifiableList(stageList_);
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAIN.Builder addStageListBuilder() {
         return getStageListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAIN.getDefaultInstance());
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAIN.Builder addStageListBuilder(
           int index) {
         return getStageListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAIN.getDefaultInstance());
       }
-<<<<<<< HEAD
 
       public java.util.List<emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAIN.Builder>
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAIN.Builder> 
->>>>>>> origin/6.5.0
            getStageListBuilderList() {
         return getStageListFieldBuilder().getBuilderList();
       }

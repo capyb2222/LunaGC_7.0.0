@@ -45,40 +45,10 @@ public final class PlayerLocationInfoOuterClass {
      */
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPosOrBuilder();
 
-<<<<<<< HEAD
     java.util.List<java.lang.Integer> getPFLKBEAJNIJList();
 
     int getPFLKBEAJNIJCount();
 
-=======
-    /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
-     * <code>repeated uint32 PFLKBEAJNIJ = 6;</code>
-     * @return A list containing the pFLKBEAJNIJ.
-     */
-    java.util.List<java.lang.Integer> getPFLKBEAJNIJList();
-    /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
-     * <code>repeated uint32 PFLKBEAJNIJ = 6;</code>
-     * @return The count of pFLKBEAJNIJ.
-     */
-    int getPFLKBEAJNIJCount();
-    /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
-     * <code>repeated uint32 PFLKBEAJNIJ = 6;</code>
-     * @param index The index of the element to return.
-     * @return The pFLKBEAJNIJ at the given index.
-     */
->>>>>>> origin/6.5.0
     int getPFLKBEAJNIJ(int index);
 
     /**
@@ -292,51 +262,17 @@ public final class PlayerLocationInfoOuterClass {
 
     public static final int PFLKBEAJNIJ_FIELD_NUMBER = 6;
     private com.google.protobuf.Internal.IntList pFLKBEAJNIJ_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
-     * <code>repeated uint32 PFLKBEAJNIJ = 6;</code>
-     * @return A list containing the pFLKBEAJNIJ.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getPFLKBEAJNIJList() {
       return pFLKBEAJNIJ_;
     }
-<<<<<<< HEAD
 
     public int getPFLKBEAJNIJCount() {
       return pFLKBEAJNIJ_.size();
     }
 
-=======
-    /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
-     * <code>repeated uint32 PFLKBEAJNIJ = 6;</code>
-     * @return The count of pFLKBEAJNIJ.
-     */
-    public int getPFLKBEAJNIJCount() {
-      return pFLKBEAJNIJ_.size();
-    }
-    /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
-     * <code>repeated uint32 PFLKBEAJNIJ = 6;</code>
-     * @param index The index of the element to return.
-     * @return The pFLKBEAJNIJ at the given index.
-     */
->>>>>>> origin/6.5.0
     public int getPFLKBEAJNIJ(int index) {
       return pFLKBEAJNIJ_.getInt(index);
     }
@@ -966,24 +902,12 @@ public final class PlayerLocationInfoOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated uint32 PFLKBEAJNIJ = 6;</code>
-       * @return A list containing the pFLKBEAJNIJ.
-       */
->>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getPFLKBEAJNIJList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(pFLKBEAJNIJ_) : pFLKBEAJNIJ_;
       }
-<<<<<<< HEAD
 
       public int getPFLKBEAJNIJCount() {
         return pFLKBEAJNIJ_.size();
@@ -993,41 +917,6 @@ public final class PlayerLocationInfoOuterClass {
         return pFLKBEAJNIJ_.getInt(index);
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated uint32 PFLKBEAJNIJ = 6;</code>
-       * @return The count of pFLKBEAJNIJ.
-       */
-      public int getPFLKBEAJNIJCount() {
-        return pFLKBEAJNIJ_.size();
-      }
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated uint32 PFLKBEAJNIJ = 6;</code>
-       * @param index The index of the element to return.
-       * @return The pFLKBEAJNIJ at the given index.
-       */
-      public int getPFLKBEAJNIJ(int index) {
-        return pFLKBEAJNIJ_.getInt(index);
-      }
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated uint32 PFLKBEAJNIJ = 6;</code>
-       * @param index The index to set the value at.
-       * @param value The pFLKBEAJNIJ to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setPFLKBEAJNIJ(
           int index, int value) {
         ensurePFLKBEAJNIJIsMutable();
@@ -1035,38 +924,14 @@ public final class PlayerLocationInfoOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated uint32 PFLKBEAJNIJ = 6;</code>
-       * @param value The pFLKBEAJNIJ to add.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder addPFLKBEAJNIJ(int value) {
         ensurePFLKBEAJNIJIsMutable();
         pFLKBEAJNIJ_.addInt(value);
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated uint32 PFLKBEAJNIJ = 6;</code>
-       * @param values The pFLKBEAJNIJ to add.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder addAllPFLKBEAJNIJ(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensurePFLKBEAJNIJIsMutable();
@@ -1075,18 +940,7 @@ public final class PlayerLocationInfoOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated uint32 PFLKBEAJNIJ = 6;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearPFLKBEAJNIJ() {
         pFLKBEAJNIJ_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);

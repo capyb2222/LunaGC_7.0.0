@@ -18,7 +18,6 @@ public final class ObstacleModifyNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:ObstacleModifyNotify)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     java.util.List<java.lang.Integer> getRemoveObstacleIdsList();
 
     int getRemoveObstacleIdsCount();
@@ -35,78 +34,6 @@ public final class ObstacleModifyNotifyOuterClass {
     java.util.List<? extends emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfoOrBuilder>
         getAddObstaclesOrBuilderList();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated int32 remove_obstacle_ids = 5;</code>
-     * @return A list containing the removeObstacleIds.
-     */
-    java.util.List<java.lang.Integer> getRemoveObstacleIdsList();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated int32 remove_obstacle_ids = 5;</code>
-     * @return The count of removeObstacleIds.
-     */
-    int getRemoveObstacleIdsCount();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated int32 remove_obstacle_ids = 5;</code>
-     * @param index The index of the element to return.
-     * @return The removeObstacleIds at the given index.
-     */
-    int getRemoveObstacleIds(int index);
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
-     */
-    java.util.List<emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo> 
-        getAddObstaclesList();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
-     */
-    emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo getAddObstacles(int index);
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
-     */
-    int getAddObstaclesCount();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
-     */
-    java.util.List<? extends emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfoOrBuilder> 
-        getAddObstaclesOrBuilderList();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
-     */
->>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfoOrBuilder getAddObstaclesOrBuilder(
         int index);
 
@@ -127,17 +54,6 @@ public final class ObstacleModifyNotifyOuterClass {
      */
     int getEFBNDPGCKBA(int index);
 
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 scene_id = 4;</code>
-     * @return The sceneId.
-     */
->>>>>>> origin/6.5.0
     int getSceneId();
   }
   /**
@@ -292,51 +208,17 @@ public final class ObstacleModifyNotifyOuterClass {
 
     public static final int REMOVE_OBSTACLE_IDS_FIELD_NUMBER = 15;
     private com.google.protobuf.Internal.IntList removeObstacleIds_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated int32 remove_obstacle_ids = 5;</code>
-     * @return A list containing the removeObstacleIds.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getRemoveObstacleIdsList() {
       return removeObstacleIds_;
     }
-<<<<<<< HEAD
 
     public int getRemoveObstacleIdsCount() {
       return removeObstacleIds_.size();
     }
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated int32 remove_obstacle_ids = 5;</code>
-     * @return The count of removeObstacleIds.
-     */
-    public int getRemoveObstacleIdsCount() {
-      return removeObstacleIds_.size();
-    }
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated int32 remove_obstacle_ids = 5;</code>
-     * @param index The index of the element to return.
-     * @return The removeObstacleIds at the given index.
-     */
->>>>>>> origin/6.5.0
     public int getRemoveObstacleIds(int index) {
       return removeObstacleIds_.getInt(index);
     }
@@ -344,78 +226,28 @@ public final class ObstacleModifyNotifyOuterClass {
 
     public static final int ADD_OBSTACLES_FIELD_NUMBER = 8;
     private java.util.List<emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo> addObstacles_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo> getAddObstaclesList() {
       return addObstacles_;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfoOrBuilder>
         getAddObstaclesOrBuilderList() {
       return addObstacles_;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getAddObstaclesCount() {
       return addObstacles_.size();
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo getAddObstacles(int index) {
       return addObstacles_.get(index);
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfoOrBuilder getAddObstaclesOrBuilder(
         int index) {
@@ -452,18 +284,7 @@ public final class ObstacleModifyNotifyOuterClass {
 
     public static final int SCENE_ID_FIELD_NUMBER = 4;
     private int sceneId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 scene_id = 4;</code>
-     * @return The sceneId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getSceneId() {
       return sceneId_;
@@ -928,24 +749,12 @@ public final class ObstacleModifyNotifyOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated int32 remove_obstacle_ids = 5;</code>
-       * @return A list containing the removeObstacleIds.
-       */
->>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getRemoveObstacleIdsList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(removeObstacleIds_) : removeObstacleIds_;
       }
-<<<<<<< HEAD
 
       public int getRemoveObstacleIdsCount() {
         return removeObstacleIds_.size();
@@ -955,41 +764,6 @@ public final class ObstacleModifyNotifyOuterClass {
         return removeObstacleIds_.getInt(index);
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated int32 remove_obstacle_ids = 5;</code>
-       * @return The count of removeObstacleIds.
-       */
-      public int getRemoveObstacleIdsCount() {
-        return removeObstacleIds_.size();
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated int32 remove_obstacle_ids = 5;</code>
-       * @param index The index of the element to return.
-       * @return The removeObstacleIds at the given index.
-       */
-      public int getRemoveObstacleIds(int index) {
-        return removeObstacleIds_.getInt(index);
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated int32 remove_obstacle_ids = 5;</code>
-       * @param index The index to set the value at.
-       * @param value The removeObstacleIds to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setRemoveObstacleIds(
           int index, int value) {
         ensureRemoveObstacleIdsIsMutable();
@@ -997,38 +771,14 @@ public final class ObstacleModifyNotifyOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated int32 remove_obstacle_ids = 5;</code>
-       * @param value The removeObstacleIds to add.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder addRemoveObstacleIds(int value) {
         ensureRemoveObstacleIdsIsMutable();
         removeObstacleIds_.addInt(value);
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated int32 remove_obstacle_ids = 5;</code>
-       * @param values The removeObstacleIds to add.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder addAllRemoveObstacleIds(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureRemoveObstacleIdsIsMutable();
@@ -1037,18 +787,7 @@ public final class ObstacleModifyNotifyOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated int32 remove_obstacle_ids = 5;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearRemoveObstacleIds() {
         removeObstacleIds_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -1068,16 +807,6 @@ public final class ObstacleModifyNotifyOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo, emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo.Builder, emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfoOrBuilder> addObstaclesBuilder_;
 
-<<<<<<< HEAD
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo> getAddObstaclesList() {
         if (addObstaclesBuilder_ == null) {
           return java.util.Collections.unmodifiableList(addObstacles_);
@@ -1085,17 +814,7 @@ public final class ObstacleModifyNotifyOuterClass {
           return addObstaclesBuilder_.getMessageList();
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public int getAddObstaclesCount() {
         if (addObstaclesBuilder_ == null) {
           return addObstacles_.size();
@@ -1103,17 +822,7 @@ public final class ObstacleModifyNotifyOuterClass {
           return addObstaclesBuilder_.getCount();
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo getAddObstacles(int index) {
         if (addObstaclesBuilder_ == null) {
           return addObstacles_.get(index);
@@ -1121,17 +830,7 @@ public final class ObstacleModifyNotifyOuterClass {
           return addObstaclesBuilder_.getMessage(index);
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setAddObstacles(
           int index, emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo value) {
         if (addObstaclesBuilder_ == null) {
@@ -1146,17 +845,7 @@ public final class ObstacleModifyNotifyOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setAddObstacles(
           int index, emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo.Builder builderForValue) {
         if (addObstaclesBuilder_ == null) {
@@ -1168,17 +857,7 @@ public final class ObstacleModifyNotifyOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder addAddObstacles(emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo value) {
         if (addObstaclesBuilder_ == null) {
           if (value == null) {
@@ -1192,17 +871,7 @@ public final class ObstacleModifyNotifyOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder addAddObstacles(
           int index, emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo value) {
         if (addObstaclesBuilder_ == null) {
@@ -1217,17 +886,7 @@ public final class ObstacleModifyNotifyOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder addAddObstacles(
           emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo.Builder builderForValue) {
         if (addObstaclesBuilder_ == null) {
@@ -1239,17 +898,7 @@ public final class ObstacleModifyNotifyOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder addAddObstacles(
           int index, emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo.Builder builderForValue) {
         if (addObstaclesBuilder_ == null) {
@@ -1261,17 +910,7 @@ public final class ObstacleModifyNotifyOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder addAllAddObstacles(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo> values) {
         if (addObstaclesBuilder_ == null) {
@@ -1284,17 +923,7 @@ public final class ObstacleModifyNotifyOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder clearAddObstacles() {
         if (addObstaclesBuilder_ == null) {
           addObstacles_ = java.util.Collections.emptyList();
@@ -1305,17 +934,7 @@ public final class ObstacleModifyNotifyOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder removeAddObstacles(int index) {
         if (addObstaclesBuilder_ == null) {
           ensureAddObstaclesIsMutable();
@@ -1326,32 +945,12 @@ public final class ObstacleModifyNotifyOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo.Builder getAddObstaclesBuilder(
           int index) {
         return getAddObstaclesFieldBuilder().getBuilder(index);
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfoOrBuilder getAddObstaclesOrBuilder(
           int index) {
         if (addObstaclesBuilder_ == null) {
@@ -1359,19 +958,8 @@ public final class ObstacleModifyNotifyOuterClass {
           return addObstaclesBuilder_.getMessageOrBuilder(index);
         }
       }
-<<<<<<< HEAD
 
       public java.util.List<? extends emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfoOrBuilder>
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
-       */
-      public java.util.List<? extends emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfoOrBuilder> 
->>>>>>> origin/6.5.0
            getAddObstaclesOrBuilderList() {
         if (addObstaclesBuilder_ != null) {
           return addObstaclesBuilder_.getMessageOrBuilderList();
@@ -1379,50 +967,19 @@ public final class ObstacleModifyNotifyOuterClass {
           return java.util.Collections.unmodifiableList(addObstacles_);
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo.Builder addAddObstaclesBuilder() {
         return getAddObstaclesFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo.getDefaultInstance());
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo.Builder addAddObstaclesBuilder(
           int index) {
         return getAddObstaclesFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo.getDefaultInstance());
       }
-<<<<<<< HEAD
 
       public java.util.List<emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo.Builder>
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo.Builder> 
->>>>>>> origin/6.5.0
            getAddObstaclesBuilderList() {
         return getAddObstaclesFieldBuilder().getBuilderList();
       }
@@ -1521,53 +1078,19 @@ public final class ObstacleModifyNotifyOuterClass {
       }
 
       private int sceneId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 scene_id = 4;</code>
-       * @return The sceneId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getSceneId() {
         return sceneId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 scene_id = 4;</code>
-       * @param value The sceneId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setSceneId(int value) {
 
         sceneId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 scene_id = 4;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearSceneId() {
 
         sceneId_ = 0;

@@ -18,29 +18,8 @@ public final class SetNameCardRspOuterClass {
       // @@protoc_insertion_point(interface_extends:SetNameCardRsp)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getNameCardId();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 name_card_id = 11;</code>
-     * @return The nameCardId.
-     */
-    int getNameCardId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>int32 retcode = 3;</code>
-     * @return The retcode.
-     */
->>>>>>> origin/6.5.0
     int getRetcode();
   }
   /**
@@ -137,18 +116,7 @@ public final class SetNameCardRspOuterClass {
 
     public static final int NAME_CARD_ID_FIELD_NUMBER = 1;
     private int nameCardId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 name_card_id = 11;</code>
-     * @return The nameCardId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getNameCardId() {
       return nameCardId_;
@@ -156,18 +124,7 @@ public final class SetNameCardRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 14;
     private int retcode_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>int32 retcode = 3;</code>
-     * @return The retcode.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -498,53 +455,19 @@ public final class SetNameCardRspOuterClass {
       }
 
       private int nameCardId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 name_card_id = 11;</code>
-       * @return The nameCardId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getNameCardId() {
         return nameCardId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 name_card_id = 11;</code>
-       * @param value The nameCardId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setNameCardId(int value) {
 
         nameCardId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 name_card_id = 11;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearNameCardId() {
 
         nameCardId_ = 0;
@@ -553,53 +476,19 @@ public final class SetNameCardRspOuterClass {
       }
 
       private int retcode_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 3;</code>
-       * @return The retcode.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 3;</code>
-       * @param value The retcode to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
 
         retcode_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 3;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearRetcode() {
 
         retcode_ = 0;

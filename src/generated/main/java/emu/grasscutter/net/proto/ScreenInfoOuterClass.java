@@ -18,29 +18,8 @@ public final class ScreenInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:ScreenInfo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getProjectorEntityId();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 projector_entity_id = 2;</code>
-     * @return The projectorEntityId.
-     */
-    int getProjectorEntityId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 live_id = 1;</code>
-     * @return The liveId.
-     */
->>>>>>> origin/6.5.0
     int getLiveId();
   }
   /**
@@ -132,18 +111,7 @@ public final class ScreenInfoOuterClass {
 
     public static final int PROJECTOR_ENTITY_ID_FIELD_NUMBER = 2;
     private int projectorEntityId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 projector_entity_id = 2;</code>
-     * @return The projectorEntityId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getProjectorEntityId() {
       return projectorEntityId_;
@@ -151,18 +119,7 @@ public final class ScreenInfoOuterClass {
 
     public static final int LIVE_ID_FIELD_NUMBER = 1;
     private int liveId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 live_id = 1;</code>
-     * @return The liveId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getLiveId() {
       return liveId_;
@@ -488,53 +445,19 @@ public final class ScreenInfoOuterClass {
       }
 
       private int projectorEntityId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 projector_entity_id = 2;</code>
-       * @return The projectorEntityId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getProjectorEntityId() {
         return projectorEntityId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 projector_entity_id = 2;</code>
-       * @param value The projectorEntityId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setProjectorEntityId(int value) {
 
         projectorEntityId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 projector_entity_id = 2;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearProjectorEntityId() {
 
         projectorEntityId_ = 0;
@@ -543,53 +466,19 @@ public final class ScreenInfoOuterClass {
       }
 
       private int liveId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 live_id = 1;</code>
-       * @return The liveId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getLiveId() {
         return liveId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 live_id = 1;</code>
-       * @param value The liveId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setLiveId(int value) {
 
         liveId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 live_id = 1;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearLiveId() {
 
         liveId_ = 0;

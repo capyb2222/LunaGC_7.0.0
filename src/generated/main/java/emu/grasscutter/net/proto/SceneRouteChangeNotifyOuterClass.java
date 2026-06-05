@@ -42,29 +42,8 @@ public final class SceneRouteChangeNotifyOuterClass {
     emu.grasscutter.net.proto.SceneRouteChangeInfoOuterClass.SceneRouteChangeInfoOrBuilder getNGGMELMIJFKOrBuilder(
         int index);
 
-<<<<<<< HEAD
     int getSceneId();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 scene_id = 4;</code>
-     * @return The sceneId.
-     */
-    int getSceneId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 scene_time = 5;</code>
-     * @return The sceneTime.
-     */
->>>>>>> origin/6.5.0
     int getSceneTime();
   }
   /**
@@ -214,18 +193,7 @@ public final class SceneRouteChangeNotifyOuterClass {
 
     public static final int SCENE_ID_FIELD_NUMBER = 4;
     private int sceneId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 scene_id = 4;</code>
-     * @return The sceneId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getSceneId() {
       return sceneId_;
@@ -233,18 +201,7 @@ public final class SceneRouteChangeNotifyOuterClass {
 
     public static final int SCENE_TIME_FIELD_NUMBER = 5;
     private int sceneTime_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 scene_time = 5;</code>
-     * @return The sceneTime.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getSceneTime() {
       return sceneTime_;
@@ -871,53 +828,19 @@ public final class SceneRouteChangeNotifyOuterClass {
       }
 
       private int sceneId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 scene_id = 4;</code>
-       * @return The sceneId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getSceneId() {
         return sceneId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 scene_id = 4;</code>
-       * @param value The sceneId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setSceneId(int value) {
 
         sceneId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 scene_id = 4;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearSceneId() {
 
         sceneId_ = 0;
@@ -926,53 +849,19 @@ public final class SceneRouteChangeNotifyOuterClass {
       }
 
       private int sceneTime_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 scene_time = 5;</code>
-       * @return The sceneTime.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getSceneTime() {
         return sceneTime_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 scene_time = 5;</code>
-       * @param value The sceneTime to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setSceneTime(int value) {
 
         sceneTime_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 scene_time = 5;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearSceneTime() {
 
         sceneTime_ = 0;

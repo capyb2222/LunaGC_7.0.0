@@ -18,28 +18,8 @@ public final class SetPlayerSignatureReqOuterClass {
       // @@protoc_insertion_point(interface_extends:SetPlayerSignatureReq)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     java.lang.String getSignature();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string signature = 14;</code>
-     * @return The signature.
-     */
-    java.lang.String getSignature();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string signature = 14;</code>
-     * @return The bytes for signature.
-     */
->>>>>>> origin/6.5.0
     com.google.protobuf.ByteString
         getSignatureBytes();
   }
@@ -133,18 +113,7 @@ public final class SetPlayerSignatureReqOuterClass {
 
     public static final int SIGNATURE_FIELD_NUMBER = 14;
     private volatile java.lang.Object signature_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string signature = 14;</code>
-     * @return The signature.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getSignature() {
       java.lang.Object ref = signature_;
@@ -158,18 +127,7 @@ public final class SetPlayerSignatureReqOuterClass {
         return s;
       }
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string signature = 14;</code>
-     * @return The bytes for signature.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getSignatureBytes() {
@@ -492,18 +450,7 @@ public final class SetPlayerSignatureReqOuterClass {
       }
 
       private java.lang.Object signature_ = "";
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string signature = 14;</code>
-       * @return The signature.
-       */
->>>>>>> origin/6.5.0
       public java.lang.String getSignature() {
         java.lang.Object ref = signature_;
         if (!(ref instanceof java.lang.String)) {
@@ -516,18 +463,7 @@ public final class SetPlayerSignatureReqOuterClass {
           return (java.lang.String) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string signature = 14;</code>
-       * @return The bytes for signature.
-       */
->>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getSignatureBytes() {
         java.lang.Object ref = signature_;
@@ -541,19 +477,7 @@ public final class SetPlayerSignatureReqOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string signature = 14;</code>
-       * @param value The signature to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setSignature(
           java.lang.String value) {
         if (value == null) {
@@ -564,37 +488,14 @@ public final class SetPlayerSignatureReqOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string signature = 14;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearSignature() {
 
         signature_ = getDefaultInstance().getSignature();
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string signature = 14;</code>
-       * @param value The bytes for signature to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setSignatureBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {

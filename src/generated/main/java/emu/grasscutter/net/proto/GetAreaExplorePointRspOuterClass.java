@@ -18,7 +18,6 @@ public final class GetAreaExplorePointRspOuterClass {
       // @@protoc_insertion_point(interface_extends:GetAreaExplorePointRsp)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     java.util.List<java.lang.Integer> getExplorePointListList();
 
     int getExplorePointListCount();
@@ -31,74 +30,6 @@ public final class GetAreaExplorePointRspOuterClass {
 
     int getAreaIdList(int index);
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 explore_point_list = 11;</code>
-     * @return A list containing the explorePointList.
-     */
-    java.util.List<java.lang.Integer> getExplorePointListList();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 explore_point_list = 11;</code>
-     * @return The count of explorePointList.
-     */
-    int getExplorePointListCount();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 explore_point_list = 11;</code>
-     * @param index The index of the element to return.
-     * @return The explorePointList at the given index.
-     */
-    int getExplorePointList(int index);
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 area_id_list = 7;</code>
-     * @return A list containing the areaIdList.
-     */
-    java.util.List<java.lang.Integer> getAreaIdListList();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 area_id_list = 7;</code>
-     * @return The count of areaIdList.
-     */
-    int getAreaIdListCount();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 area_id_list = 7;</code>
-     * @param index The index of the element to return.
-     * @return The areaIdList at the given index.
-     */
-    int getAreaIdList(int index);
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>int32 retcode = 6;</code>
-     * @return The retcode.
-     */
->>>>>>> origin/6.5.0
     int getRetcode();
   }
   /**
@@ -240,51 +171,17 @@ public final class GetAreaExplorePointRspOuterClass {
 
     public static final int EXPLORE_POINT_LIST_FIELD_NUMBER = 15;
     private com.google.protobuf.Internal.IntList explorePointList_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 explore_point_list = 11;</code>
-     * @return A list containing the explorePointList.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getExplorePointListList() {
       return explorePointList_;
     }
-<<<<<<< HEAD
 
     public int getExplorePointListCount() {
       return explorePointList_.size();
     }
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 explore_point_list = 11;</code>
-     * @return The count of explorePointList.
-     */
-    public int getExplorePointListCount() {
-      return explorePointList_.size();
-    }
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 explore_point_list = 11;</code>
-     * @param index The index of the element to return.
-     * @return The explorePointList at the given index.
-     */
->>>>>>> origin/6.5.0
     public int getExplorePointList(int index) {
       return explorePointList_.getInt(index);
     }
@@ -292,51 +189,17 @@ public final class GetAreaExplorePointRspOuterClass {
 
     public static final int AREA_ID_LIST_FIELD_NUMBER = 11;
     private com.google.protobuf.Internal.IntList areaIdList_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 area_id_list = 7;</code>
-     * @return A list containing the areaIdList.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getAreaIdListList() {
       return areaIdList_;
     }
-<<<<<<< HEAD
 
     public int getAreaIdListCount() {
       return areaIdList_.size();
     }
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 area_id_list = 7;</code>
-     * @return The count of areaIdList.
-     */
-    public int getAreaIdListCount() {
-      return areaIdList_.size();
-    }
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>repeated uint32 area_id_list = 7;</code>
-     * @param index The index of the element to return.
-     * @return The areaIdList at the given index.
-     */
->>>>>>> origin/6.5.0
     public int getAreaIdList(int index) {
       return areaIdList_.getInt(index);
     }
@@ -344,18 +207,7 @@ public final class GetAreaExplorePointRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 7;
     private int retcode_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0    
-     * </pre>
-     *
-     * <code>int32 retcode = 6;</code>
-     * @return The retcode.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -765,24 +617,12 @@ public final class GetAreaExplorePointRspOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 explore_point_list = 11;</code>
-       * @return A list containing the explorePointList.
-       */
->>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getExplorePointListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(explorePointList_) : explorePointList_;
       }
-<<<<<<< HEAD
 
       public int getExplorePointListCount() {
         return explorePointList_.size();
@@ -792,41 +632,6 @@ public final class GetAreaExplorePointRspOuterClass {
         return explorePointList_.getInt(index);
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 explore_point_list = 11;</code>
-       * @return The count of explorePointList.
-       */
-      public int getExplorePointListCount() {
-        return explorePointList_.size();
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 explore_point_list = 11;</code>
-       * @param index The index of the element to return.
-       * @return The explorePointList at the given index.
-       */
-      public int getExplorePointList(int index) {
-        return explorePointList_.getInt(index);
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 explore_point_list = 11;</code>
-       * @param index The index to set the value at.
-       * @param value The explorePointList to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setExplorePointList(
           int index, int value) {
         ensureExplorePointListIsMutable();
@@ -834,38 +639,14 @@ public final class GetAreaExplorePointRspOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 explore_point_list = 11;</code>
-       * @param value The explorePointList to add.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder addExplorePointList(int value) {
         ensureExplorePointListIsMutable();
         explorePointList_.addInt(value);
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 explore_point_list = 11;</code>
-       * @param values The explorePointList to add.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder addAllExplorePointList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureExplorePointListIsMutable();
@@ -874,18 +655,7 @@ public final class GetAreaExplorePointRspOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 explore_point_list = 11;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearExplorePointList() {
         explorePointList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -900,24 +670,12 @@ public final class GetAreaExplorePointRspOuterClass {
           bitField0_ |= 0x00000002;
          }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 area_id_list = 7;</code>
-       * @return A list containing the areaIdList.
-       */
->>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getAreaIdListList() {
         return ((bitField0_ & 0x00000002) != 0) ?
                  java.util.Collections.unmodifiableList(areaIdList_) : areaIdList_;
       }
-<<<<<<< HEAD
 
       public int getAreaIdListCount() {
         return areaIdList_.size();
@@ -927,41 +685,6 @@ public final class GetAreaExplorePointRspOuterClass {
         return areaIdList_.getInt(index);
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 area_id_list = 7;</code>
-       * @return The count of areaIdList.
-       */
-      public int getAreaIdListCount() {
-        return areaIdList_.size();
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 area_id_list = 7;</code>
-       * @param index The index of the element to return.
-       * @return The areaIdList at the given index.
-       */
-      public int getAreaIdList(int index) {
-        return areaIdList_.getInt(index);
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 area_id_list = 7;</code>
-       * @param index The index to set the value at.
-       * @param value The areaIdList to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setAreaIdList(
           int index, int value) {
         ensureAreaIdListIsMutable();
@@ -969,38 +692,14 @@ public final class GetAreaExplorePointRspOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 area_id_list = 7;</code>
-       * @param value The areaIdList to add.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder addAreaIdList(int value) {
         ensureAreaIdListIsMutable();
         areaIdList_.addInt(value);
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 area_id_list = 7;</code>
-       * @param values The areaIdList to add.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder addAllAreaIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureAreaIdListIsMutable();
@@ -1009,18 +708,7 @@ public final class GetAreaExplorePointRspOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>repeated uint32 area_id_list = 7;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearAreaIdList() {
         areaIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
@@ -1029,53 +717,19 @@ public final class GetAreaExplorePointRspOuterClass {
       }
 
       private int retcode_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>int32 retcode = 6;</code>
-       * @return The retcode.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>int32 retcode = 6;</code>
-       * @param value The retcode to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
 
         retcode_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0    
-       * </pre>
-       *
-       * <code>int32 retcode = 6;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearRetcode() {
 
         retcode_ = 0;

@@ -18,29 +18,8 @@ public final class TowerFightRecordPairOuterClass {
       // @@protoc_insertion_point(interface_extends:TowerFightRecordPair)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getData();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 data = 6;</code>
-     * @return The data.
-     */
-    int getData();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 avatar_id = 7;</code>
-     * @return The avatarId.
-     */
->>>>>>> origin/6.5.0
     int getAvatarId();
   }
   /**
@@ -132,18 +111,7 @@ public final class TowerFightRecordPairOuterClass {
 
     public static final int DATA_FIELD_NUMBER = 15;
     private int data_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 data = 6;</code>
-     * @return The data.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getData() {
       return data_;
@@ -151,18 +119,7 @@ public final class TowerFightRecordPairOuterClass {
 
     public static final int AVATAR_ID_FIELD_NUMBER = 13;
     private int avatarId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 avatar_id = 7;</code>
-     * @return The avatarId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getAvatarId() {
       return avatarId_;
@@ -488,53 +445,19 @@ public final class TowerFightRecordPairOuterClass {
       }
 
       private int data_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 data = 6;</code>
-       * @return The data.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getData() {
         return data_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 data = 6;</code>
-       * @param value The data to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setData(int value) {
 
         data_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 data = 6;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearData() {
 
         data_ = 0;
@@ -543,53 +466,19 @@ public final class TowerFightRecordPairOuterClass {
       }
 
       private int avatarId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 avatar_id = 7;</code>
-       * @return The avatarId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getAvatarId() {
         return avatarId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 avatar_id = 7;</code>
-       * @param value The avatarId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setAvatarId(int value) {
 
         avatarId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 avatar_id = 7;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearAvatarId() {
 
         avatarId_ = 0;

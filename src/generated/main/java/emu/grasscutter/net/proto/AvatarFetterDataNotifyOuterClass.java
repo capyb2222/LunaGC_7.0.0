@@ -18,26 +18,8 @@ public final class AvatarFetterDataNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:AvatarFetterDataNotify)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getFetterInfoMapCount();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
-     */
-    int getFetterInfoMapCount();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
-     */
->>>>>>> origin/6.5.0
     boolean containsFetterInfoMap(
         long key);
     /**
@@ -46,42 +28,13 @@ public final class AvatarFetterDataNotifyOuterClass {
     @java.lang.Deprecated
     java.util.Map<java.lang.Long, emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo>
     getFetterInfoMap();
-<<<<<<< HEAD
 
     java.util.Map<java.lang.Long, emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo>
     getFetterInfoMapMap();
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
-     */
-    java.util.Map<java.lang.Long, emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo>
-    getFetterInfoMapMap();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
-     */
->>>>>>> origin/6.5.0
 
     emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo getFetterInfoMapOrDefault(
         long key,
         emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo defaultValue);
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
-     */
->>>>>>> origin/6.5.0
 
     emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo getFetterInfoMapOrThrow(
         long key);
@@ -219,16 +172,6 @@ public final class AvatarFetterDataNotifyOuterClass {
     public int getFetterInfoMapCount() {
       return internalGetFetterInfoMap().getMap().size();
     }
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
-     */
->>>>>>> origin/6.5.0
 
     @java.lang.Override
     public boolean containsFetterInfoMap(
@@ -244,33 +187,13 @@ public final class AvatarFetterDataNotifyOuterClass {
     public java.util.Map<java.lang.Long, emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo> getFetterInfoMap() {
       return getFetterInfoMapMap();
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public java.util.Map<java.lang.Long, emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo> getFetterInfoMapMap() {
       return internalGetFetterInfoMap().getMap();
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo getFetterInfoMapOrDefault(
@@ -281,17 +204,7 @@ public final class AvatarFetterDataNotifyOuterClass {
           internalGetFetterInfoMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo getFetterInfoMapOrThrow(
@@ -671,16 +584,6 @@ public final class AvatarFetterDataNotifyOuterClass {
       public int getFetterInfoMapCount() {
         return internalGetFetterInfoMap().getMap().size();
       }
-<<<<<<< HEAD
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
-       */
->>>>>>> origin/6.5.0
 
       @java.lang.Override
       public boolean containsFetterInfoMap(
@@ -696,33 +599,13 @@ public final class AvatarFetterDataNotifyOuterClass {
       public java.util.Map<java.lang.Long, emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo> getFetterInfoMap() {
         return getFetterInfoMapMap();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public java.util.Map<java.lang.Long, emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo> getFetterInfoMapMap() {
         return internalGetFetterInfoMap().getMap();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo getFetterInfoMapOrDefault(
@@ -733,17 +616,7 @@ public final class AvatarFetterDataNotifyOuterClass {
             internalGetFetterInfoMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo getFetterInfoMapOrThrow(
@@ -762,16 +635,6 @@ public final class AvatarFetterDataNotifyOuterClass {
             .clear();
         return this;
       }
-<<<<<<< HEAD
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
-       */
->>>>>>> origin/6.5.0
 
       public Builder removeFetterInfoMap(
           long key) {
@@ -788,17 +651,7 @@ public final class AvatarFetterDataNotifyOuterClass {
       getMutableFetterInfoMap() {
         return internalGetMutableFetterInfoMap().getMutableMap();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder putFetterInfoMap(
           long key,
           emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo value) {
@@ -808,16 +661,6 @@ public final class AvatarFetterDataNotifyOuterClass {
             .put(key, value);
         return this;
       }
-<<<<<<< HEAD
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
-       */
->>>>>>> origin/6.5.0
 
       public Builder putAllFetterInfoMap(
           java.util.Map<java.lang.Long, emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo> values) {

@@ -18,17 +18,6 @@ public final class WeatherWizardDataOuterClass {
       // @@protoc_insertion_point(interface_extends:WeatherWizardData)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>uint32 shield_value = 6;</code>
-     * @return The shieldValue.
-     */
->>>>>>> origin/6.5.0
     int getShieldValue();
   }
   /**
@@ -115,18 +104,7 @@ public final class WeatherWizardDataOuterClass {
 
     public static final int SHIELD_VALUE_FIELD_NUMBER = 6;
     private int shieldValue_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>uint32 shield_value = 6;</code>
-     * @return The shieldValue.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getShieldValue() {
       return shieldValue_;
@@ -435,53 +413,19 @@ public final class WeatherWizardDataOuterClass {
       }
 
       private int shieldValue_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 shield_value = 6;</code>
-       * @return The shieldValue.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getShieldValue() {
         return shieldValue_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 shield_value = 6;</code>
-       * @param value The shieldValue to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setShieldValue(int value) {
 
         shieldValue_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 shield_value = 6;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearShieldValue() {
 
         shieldValue_ = 0;

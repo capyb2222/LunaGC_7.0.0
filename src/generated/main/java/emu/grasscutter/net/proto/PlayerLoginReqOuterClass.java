@@ -18,7 +18,6 @@ public final class PlayerLoginReqOuterClass {
       // @@protoc_insertion_point(interface_extends:PlayerLoginReq)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     com.google.protobuf.ByteString getExtraBinData();
 
     java.lang.String getBirthday();
@@ -72,246 +71,6 @@ public final class PlayerLoginReqOuterClass {
 
     boolean getIsEditor();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>bytes extra_bin_data = 295;</code>
-     * @return The extraBinData.
-     */
-    com.google.protobuf.ByteString getExtraBinData();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string birthday = 1129;</code>
-     * @return The birthday.
-     */
-    java.lang.String getBirthday();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string birthday = 1129;</code>
-     * @return The bytes for birthday.
-     */
-    com.google.protobuf.ByteString
-        getBirthdayBytes();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string psn_id = 382;</code>
-     * @return The psnId.
-     */
-    java.lang.String getPsnId();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string psn_id = 382;</code>
-     * @return The bytes for psnId.
-     */
-    com.google.protobuf.ByteString
-        getPsnIdBytes();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>string security_library_md5 = 254;</code>
-     * @return The securityLibraryMd5.
-     */
-    java.lang.String getSecurityLibraryMd5();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>string security_library_md5 = 254;</code>
-     * @return The bytes for securityLibraryMd5.
-     */
-    com.google.protobuf.ByteString
-        getSecurityLibraryMd5Bytes();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string token = 3;</code>
-     * @return The token.
-     */
-    java.lang.String getToken();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string token = 3;</code>
-     * @return The bytes for token.
-     */
-    com.google.protobuf.ByteString
-        getTokenBytes();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string platform = 12;</code>
-     * @return The platform.
-     */
-    java.lang.String getPlatform();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string platform = 12;</code>
-     * @return The bytes for platform.
-     */
-    com.google.protobuf.ByteString
-        getPlatformBytes();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>string account_uid = 11;</code>
-     * @return The accountUid.
-     */
-    java.lang.String getAccountUid();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>string account_uid = 11;</code>
-     * @return The bytes for accountUid.
-     */
-    com.google.protobuf.ByteString
-        getAccountUidBytes();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>bytes security_cmd_reply = 771;</code>
-     * @return The securityCmdReply.
-     */
-    com.google.protobuf.ByteString getSecurityCmdReply();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>bytes environment_error_code = 1766;</code>
-     * @return The environmentErrorCode.
-     */
-    com.google.protobuf.ByteString getEnvironmentErrorCode();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string online_id = 1068;</code>
-     * @return The onlineId.
-     */
-    java.lang.String getOnlineId();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string online_id = 1068;</code>
-     * @return The bytes for onlineId.
-     */
-    com.google.protobuf.ByteString
-        getOnlineIdBytes();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 target_uid = 5;</code>
-     * @return The targetUid.
-     */
-    int getTargetUid();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 channel_id = 1539;</code>
-     * @return The channelId.
-     */
-    int getChannelId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 client_data_version = 1729;</code>
-     * @return The clientDataVersion.
-     */
-    int getClientDataVersion();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 tag = 1397;</code>
-     * @return The tag.
-     */
-    int getTag();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 platform_type = 4;</code>
-     * @return The platformType.
-     */
-    int getPlatformType();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>bool is_editor = 10;</code>
-     * @return The isEditor.
-     */
-    boolean getIsEditor();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>bool is_guest = 2;</code>
-     * @return The isGuest.
-     */
->>>>>>> origin/6.5.0
     boolean getIsGuest();
 
     /**
@@ -466,28 +225,8 @@ public final class PlayerLoginReqOuterClass {
     com.google.protobuf.ByteString
         getFMNKCIABDMGBytes();
 
-<<<<<<< HEAD
     java.lang.String getCountryCode();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>string country_code = 1160;</code>
-     * @return The countryCode.
-     */
-    java.lang.String getCountryCode();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>string country_code = 1160;</code>
-     * @return The bytes for countryCode.
-     */
->>>>>>> origin/6.5.0
     com.google.protobuf.ByteString
         getCountryCodeBytes();
 
@@ -1001,18 +740,7 @@ public final class PlayerLoginReqOuterClass {
 
     public static final int EXTRA_BIN_DATA_FIELD_NUMBER = 295;
     private com.google.protobuf.ByteString extraBinData_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>bytes extra_bin_data = 295;</code>
-     * @return The extraBinData.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString getExtraBinData() {
       return extraBinData_;
@@ -1020,18 +748,7 @@ public final class PlayerLoginReqOuterClass {
 
     public static final int BIRTHDAY_FIELD_NUMBER = 1129;
     private volatile java.lang.Object birthday_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string birthday = 1129;</code>
-     * @return The birthday.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getBirthday() {
       java.lang.Object ref = birthday_;
@@ -1045,18 +762,7 @@ public final class PlayerLoginReqOuterClass {
         return s;
       }
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string birthday = 1129;</code>
-     * @return The bytes for birthday.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getBirthdayBytes() {
@@ -1074,18 +780,7 @@ public final class PlayerLoginReqOuterClass {
 
     public static final int PSN_ID_FIELD_NUMBER = 382;
     private volatile java.lang.Object psnId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string psn_id = 382;</code>
-     * @return The psnId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getPsnId() {
       java.lang.Object ref = psnId_;
@@ -1099,18 +794,7 @@ public final class PlayerLoginReqOuterClass {
         return s;
       }
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string psn_id = 382;</code>
-     * @return The bytes for psnId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getPsnIdBytes() {
@@ -1128,18 +812,7 @@ public final class PlayerLoginReqOuterClass {
 
     public static final int SECURITY_LIBRARY_MD5_FIELD_NUMBER = 254;
     private volatile java.lang.Object securityLibraryMd5_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>string security_library_md5 = 254;</code>
-     * @return The securityLibraryMd5.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getSecurityLibraryMd5() {
       java.lang.Object ref = securityLibraryMd5_;
@@ -1153,18 +826,7 @@ public final class PlayerLoginReqOuterClass {
         return s;
       }
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>string security_library_md5 = 254;</code>
-     * @return The bytes for securityLibraryMd5.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getSecurityLibraryMd5Bytes() {
@@ -1182,18 +844,7 @@ public final class PlayerLoginReqOuterClass {
 
     public static final int TOKEN_FIELD_NUMBER = 3;
     private volatile java.lang.Object token_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string token = 3;</code>
-     * @return The token.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getToken() {
       java.lang.Object ref = token_;
@@ -1207,18 +858,7 @@ public final class PlayerLoginReqOuterClass {
         return s;
       }
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string token = 3;</code>
-     * @return The bytes for token.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getTokenBytes() {
@@ -1236,18 +876,7 @@ public final class PlayerLoginReqOuterClass {
 
     public static final int PLATFORM_FIELD_NUMBER = 8;
     private volatile java.lang.Object platform_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string platform = 12;</code>
-     * @return The platform.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getPlatform() {
       java.lang.Object ref = platform_;
@@ -1261,18 +890,7 @@ public final class PlayerLoginReqOuterClass {
         return s;
       }
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string platform = 12;</code>
-     * @return The bytes for platform.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getPlatformBytes() {
@@ -1290,18 +908,7 @@ public final class PlayerLoginReqOuterClass {
 
     public static final int ACCOUNT_UID_FIELD_NUMBER = 11;
     private volatile java.lang.Object accountUid_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>string account_uid = 11;</code>
-     * @return The accountUid.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getAccountUid() {
       java.lang.Object ref = accountUid_;
@@ -1315,18 +922,7 @@ public final class PlayerLoginReqOuterClass {
         return s;
       }
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>string account_uid = 11;</code>
-     * @return The bytes for accountUid.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getAccountUidBytes() {
@@ -1344,18 +940,7 @@ public final class PlayerLoginReqOuterClass {
 
     public static final int SECURITY_CMD_REPLY_FIELD_NUMBER = 771;
     private com.google.protobuf.ByteString securityCmdReply_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>bytes security_cmd_reply = 771;</code>
-     * @return The securityCmdReply.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString getSecurityCmdReply() {
       return securityCmdReply_;
@@ -1363,18 +948,7 @@ public final class PlayerLoginReqOuterClass {
 
     public static final int ENVIRONMENT_ERROR_CODE_FIELD_NUMBER = 1766;
     private com.google.protobuf.ByteString environmentErrorCode_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>bytes environment_error_code = 1766;</code>
-     * @return The environmentErrorCode.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString getEnvironmentErrorCode() {
       return environmentErrorCode_;
@@ -1382,18 +956,7 @@ public final class PlayerLoginReqOuterClass {
 
     public static final int ONLINE_ID_FIELD_NUMBER = 366;
     private volatile java.lang.Object onlineId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string online_id = 1068;</code>
-     * @return The onlineId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getOnlineId() {
       java.lang.Object ref = onlineId_;
@@ -1407,18 +970,7 @@ public final class PlayerLoginReqOuterClass {
         return s;
       }
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string online_id = 1068;</code>
-     * @return The bytes for onlineId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getOnlineIdBytes() {
@@ -1436,18 +988,7 @@ public final class PlayerLoginReqOuterClass {
 
     public static final int TARGET_UID_FIELD_NUMBER = 5;
     private int targetUid_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 target_uid = 5;</code>
-     * @return The targetUid.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getTargetUid() {
       return targetUid_;
@@ -1455,18 +996,7 @@ public final class PlayerLoginReqOuterClass {
 
     public static final int CHANNEL_ID_FIELD_NUMBER = 1539;
     private int channelId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 channel_id = 1539;</code>
-     * @return The channelId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getChannelId() {
       return channelId_;
@@ -1474,18 +1004,7 @@ public final class PlayerLoginReqOuterClass {
 
     public static final int CLIENT_DATA_VERSION_FIELD_NUMBER = 1729;
     private int clientDataVersion_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 client_data_version = 1729;</code>
-     * @return The clientDataVersion.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getClientDataVersion() {
       return clientDataVersion_;
@@ -1493,18 +1012,7 @@ public final class PlayerLoginReqOuterClass {
 
     public static final int TAG_FIELD_NUMBER = 1397;
     private int tag_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 tag = 1397;</code>
-     * @return The tag.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getTag() {
       return tag_;
@@ -1512,18 +1020,7 @@ public final class PlayerLoginReqOuterClass {
 
     public static final int PLATFORM_TYPE_FIELD_NUMBER = 4;
     private int platformType_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 platform_type = 4;</code>
-     * @return The platformType.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getPlatformType() {
       return platformType_;
@@ -1531,18 +1028,7 @@ public final class PlayerLoginReqOuterClass {
 
     public static final int IS_EDITOR_FIELD_NUMBER = 10;
     private boolean isEditor_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>bool is_editor = 10;</code>
-     * @return The isEditor.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsEditor() {
       return isEditor_;
@@ -1550,18 +1036,7 @@ public final class PlayerLoginReqOuterClass {
 
     public static final int IS_GUEST_FIELD_NUMBER = 15;
     private boolean isGuest_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>bool is_guest = 2;</code>
-     * @return The isGuest.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsGuest() {
       return isGuest_;
@@ -1982,18 +1457,7 @@ public final class PlayerLoginReqOuterClass {
 
     public static final int COUNTRY_CODE_FIELD_NUMBER = 1160;
     private volatile java.lang.Object countryCode_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>string country_code = 1160;</code>
-     * @return The countryCode.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getCountryCode() {
       java.lang.Object ref = countryCode_;
@@ -2007,18 +1471,7 @@ public final class PlayerLoginReqOuterClass {
         return s;
       }
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>string country_code = 1160;</code>
-     * @return The bytes for countryCode.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getCountryCodeBytes() {
@@ -3449,35 +2902,12 @@ public final class PlayerLoginReqOuterClass {
       }
 
       private com.google.protobuf.ByteString extraBinData_ = com.google.protobuf.ByteString.EMPTY;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>bytes extra_bin_data = 295;</code>
-       * @return The extraBinData.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public com.google.protobuf.ByteString getExtraBinData() {
         return extraBinData_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>bytes extra_bin_data = 295;</code>
-       * @param value The extraBinData to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setExtraBinData(com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
@@ -3487,18 +2917,7 @@ public final class PlayerLoginReqOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>bytes extra_bin_data = 295;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearExtraBinData() {
 
         extraBinData_ = getDefaultInstance().getExtraBinData();
@@ -3507,18 +2926,7 @@ public final class PlayerLoginReqOuterClass {
       }
 
       private java.lang.Object birthday_ = "";
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string birthday = 1129;</code>
-       * @return The birthday.
-       */
->>>>>>> origin/6.5.0
       public java.lang.String getBirthday() {
         java.lang.Object ref = birthday_;
         if (!(ref instanceof java.lang.String)) {
@@ -3531,18 +2939,7 @@ public final class PlayerLoginReqOuterClass {
           return (java.lang.String) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string birthday = 1129;</code>
-       * @return The bytes for birthday.
-       */
->>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getBirthdayBytes() {
         java.lang.Object ref = birthday_;
@@ -3556,19 +2953,7 @@ public final class PlayerLoginReqOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string birthday = 1129;</code>
-       * @param value The birthday to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setBirthday(
           java.lang.String value) {
         if (value == null) {
@@ -3579,37 +2964,14 @@ public final class PlayerLoginReqOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string birthday = 1129;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearBirthday() {
 
         birthday_ = getDefaultInstance().getBirthday();
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string birthday = 1129;</code>
-       * @param value The bytes for birthday to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setBirthdayBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -3623,18 +2985,7 @@ public final class PlayerLoginReqOuterClass {
       }
 
       private java.lang.Object psnId_ = "";
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string psn_id = 382;</code>
-       * @return The psnId.
-       */
->>>>>>> origin/6.5.0
       public java.lang.String getPsnId() {
         java.lang.Object ref = psnId_;
         if (!(ref instanceof java.lang.String)) {
@@ -3647,18 +2998,7 @@ public final class PlayerLoginReqOuterClass {
           return (java.lang.String) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string psn_id = 382;</code>
-       * @return The bytes for psnId.
-       */
->>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getPsnIdBytes() {
         java.lang.Object ref = psnId_;
@@ -3672,19 +3012,7 @@ public final class PlayerLoginReqOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string psn_id = 382;</code>
-       * @param value The psnId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setPsnId(
           java.lang.String value) {
         if (value == null) {
@@ -3695,37 +3023,14 @@ public final class PlayerLoginReqOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string psn_id = 382;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearPsnId() {
 
         psnId_ = getDefaultInstance().getPsnId();
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string psn_id = 382;</code>
-       * @param value The bytes for psnId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setPsnIdBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -3739,18 +3044,7 @@ public final class PlayerLoginReqOuterClass {
       }
 
       private java.lang.Object securityLibraryMd5_ = "";
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>string security_library_md5 = 254;</code>
-       * @return The securityLibraryMd5.
-       */
->>>>>>> origin/6.5.0
       public java.lang.String getSecurityLibraryMd5() {
         java.lang.Object ref = securityLibraryMd5_;
         if (!(ref instanceof java.lang.String)) {
@@ -3763,18 +3057,7 @@ public final class PlayerLoginReqOuterClass {
           return (java.lang.String) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>string security_library_md5 = 254;</code>
-       * @return The bytes for securityLibraryMd5.
-       */
->>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getSecurityLibraryMd5Bytes() {
         java.lang.Object ref = securityLibraryMd5_;
@@ -3788,19 +3071,7 @@ public final class PlayerLoginReqOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>string security_library_md5 = 254;</code>
-       * @param value The securityLibraryMd5 to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setSecurityLibraryMd5(
           java.lang.String value) {
         if (value == null) {
@@ -3811,37 +3082,14 @@ public final class PlayerLoginReqOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>string security_library_md5 = 254;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearSecurityLibraryMd5() {
 
         securityLibraryMd5_ = getDefaultInstance().getSecurityLibraryMd5();
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>string security_library_md5 = 254;</code>
-       * @param value The bytes for securityLibraryMd5 to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setSecurityLibraryMd5Bytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -3855,18 +3103,7 @@ public final class PlayerLoginReqOuterClass {
       }
 
       private java.lang.Object token_ = "";
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string token = 3;</code>
-       * @return The token.
-       */
->>>>>>> origin/6.5.0
       public java.lang.String getToken() {
         java.lang.Object ref = token_;
         if (!(ref instanceof java.lang.String)) {
@@ -3879,18 +3116,7 @@ public final class PlayerLoginReqOuterClass {
           return (java.lang.String) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string token = 3;</code>
-       * @return The bytes for token.
-       */
->>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getTokenBytes() {
         java.lang.Object ref = token_;
@@ -3904,19 +3130,7 @@ public final class PlayerLoginReqOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string token = 3;</code>
-       * @param value The token to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setToken(
           java.lang.String value) {
         if (value == null) {
@@ -3927,37 +3141,14 @@ public final class PlayerLoginReqOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string token = 3;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearToken() {
 
         token_ = getDefaultInstance().getToken();
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string token = 3;</code>
-       * @param value The bytes for token to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setTokenBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -3971,18 +3162,7 @@ public final class PlayerLoginReqOuterClass {
       }
 
       private java.lang.Object platform_ = "";
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string platform = 12;</code>
-       * @return The platform.
-       */
->>>>>>> origin/6.5.0
       public java.lang.String getPlatform() {
         java.lang.Object ref = platform_;
         if (!(ref instanceof java.lang.String)) {
@@ -3995,18 +3175,7 @@ public final class PlayerLoginReqOuterClass {
           return (java.lang.String) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string platform = 12;</code>
-       * @return The bytes for platform.
-       */
->>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getPlatformBytes() {
         java.lang.Object ref = platform_;
@@ -4020,19 +3189,7 @@ public final class PlayerLoginReqOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string platform = 12;</code>
-       * @param value The platform to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setPlatform(
           java.lang.String value) {
         if (value == null) {
@@ -4043,37 +3200,14 @@ public final class PlayerLoginReqOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string platform = 12;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearPlatform() {
 
         platform_ = getDefaultInstance().getPlatform();
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string platform = 12;</code>
-       * @param value The bytes for platform to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setPlatformBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -4087,18 +3221,7 @@ public final class PlayerLoginReqOuterClass {
       }
 
       private java.lang.Object accountUid_ = "";
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>string account_uid = 11;</code>
-       * @return The accountUid.
-       */
->>>>>>> origin/6.5.0
       public java.lang.String getAccountUid() {
         java.lang.Object ref = accountUid_;
         if (!(ref instanceof java.lang.String)) {
@@ -4111,18 +3234,7 @@ public final class PlayerLoginReqOuterClass {
           return (java.lang.String) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>string account_uid = 11;</code>
-       * @return The bytes for accountUid.
-       */
->>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getAccountUidBytes() {
         java.lang.Object ref = accountUid_;
@@ -4136,19 +3248,7 @@ public final class PlayerLoginReqOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>string account_uid = 11;</code>
-       * @param value The accountUid to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setAccountUid(
           java.lang.String value) {
         if (value == null) {
@@ -4159,37 +3259,14 @@ public final class PlayerLoginReqOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>string account_uid = 11;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearAccountUid() {
 
         accountUid_ = getDefaultInstance().getAccountUid();
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>string account_uid = 11;</code>
-       * @param value The bytes for accountUid to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setAccountUidBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -4203,35 +3280,12 @@ public final class PlayerLoginReqOuterClass {
       }
 
       private com.google.protobuf.ByteString securityCmdReply_ = com.google.protobuf.ByteString.EMPTY;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>bytes security_cmd_reply = 771;</code>
-       * @return The securityCmdReply.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public com.google.protobuf.ByteString getSecurityCmdReply() {
         return securityCmdReply_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>bytes security_cmd_reply = 771;</code>
-       * @param value The securityCmdReply to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setSecurityCmdReply(com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
@@ -4241,18 +3295,7 @@ public final class PlayerLoginReqOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>bytes security_cmd_reply = 771;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearSecurityCmdReply() {
 
         securityCmdReply_ = getDefaultInstance().getSecurityCmdReply();
@@ -4261,35 +3304,12 @@ public final class PlayerLoginReqOuterClass {
       }
 
       private com.google.protobuf.ByteString environmentErrorCode_ = com.google.protobuf.ByteString.EMPTY;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>bytes environment_error_code = 1766;</code>
-       * @return The environmentErrorCode.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public com.google.protobuf.ByteString getEnvironmentErrorCode() {
         return environmentErrorCode_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>bytes environment_error_code = 1766;</code>
-       * @param value The environmentErrorCode to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setEnvironmentErrorCode(com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
@@ -4299,18 +3319,7 @@ public final class PlayerLoginReqOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>bytes environment_error_code = 1766;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearEnvironmentErrorCode() {
 
         environmentErrorCode_ = getDefaultInstance().getEnvironmentErrorCode();
@@ -4319,18 +3328,7 @@ public final class PlayerLoginReqOuterClass {
       }
 
       private java.lang.Object onlineId_ = "";
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string online_id = 1068;</code>
-       * @return The onlineId.
-       */
->>>>>>> origin/6.5.0
       public java.lang.String getOnlineId() {
         java.lang.Object ref = onlineId_;
         if (!(ref instanceof java.lang.String)) {
@@ -4343,18 +3341,7 @@ public final class PlayerLoginReqOuterClass {
           return (java.lang.String) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string online_id = 1068;</code>
-       * @return The bytes for onlineId.
-       */
->>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getOnlineIdBytes() {
         java.lang.Object ref = onlineId_;
@@ -4368,19 +3355,7 @@ public final class PlayerLoginReqOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string online_id = 1068;</code>
-       * @param value The onlineId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setOnlineId(
           java.lang.String value) {
         if (value == null) {
@@ -4391,37 +3366,14 @@ public final class PlayerLoginReqOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string online_id = 1068;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearOnlineId() {
 
         onlineId_ = getDefaultInstance().getOnlineId();
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string online_id = 1068;</code>
-       * @param value The bytes for onlineId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setOnlineIdBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -4435,53 +3387,19 @@ public final class PlayerLoginReqOuterClass {
       }
 
       private int targetUid_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 target_uid = 5;</code>
-       * @return The targetUid.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getTargetUid() {
         return targetUid_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 target_uid = 5;</code>
-       * @param value The targetUid to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setTargetUid(int value) {
 
         targetUid_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 target_uid = 5;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearTargetUid() {
 
         targetUid_ = 0;
@@ -4490,53 +3408,19 @@ public final class PlayerLoginReqOuterClass {
       }
 
       private int channelId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 channel_id = 1539;</code>
-       * @return The channelId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getChannelId() {
         return channelId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 channel_id = 1539;</code>
-       * @param value The channelId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setChannelId(int value) {
 
         channelId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 channel_id = 1539;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearChannelId() {
 
         channelId_ = 0;
@@ -4545,53 +3429,19 @@ public final class PlayerLoginReqOuterClass {
       }
 
       private int clientDataVersion_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 client_data_version = 1729;</code>
-       * @return The clientDataVersion.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getClientDataVersion() {
         return clientDataVersion_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 client_data_version = 1729;</code>
-       * @param value The clientDataVersion to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setClientDataVersion(int value) {
 
         clientDataVersion_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 client_data_version = 1729;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearClientDataVersion() {
 
         clientDataVersion_ = 0;
@@ -4600,53 +3450,19 @@ public final class PlayerLoginReqOuterClass {
       }
 
       private int tag_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 tag = 1397;</code>
-       * @return The tag.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getTag() {
         return tag_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 tag = 1397;</code>
-       * @param value The tag to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setTag(int value) {
 
         tag_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 tag = 1397;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearTag() {
 
         tag_ = 0;
@@ -4655,53 +3471,19 @@ public final class PlayerLoginReqOuterClass {
       }
 
       private int platformType_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 platform_type = 4;</code>
-       * @return The platformType.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getPlatformType() {
         return platformType_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 platform_type = 4;</code>
-       * @param value The platformType to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setPlatformType(int value) {
 
         platformType_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 platform_type = 4;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearPlatformType() {
 
         platformType_ = 0;
@@ -4710,53 +3492,19 @@ public final class PlayerLoginReqOuterClass {
       }
 
       private boolean isEditor_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>bool is_editor = 10;</code>
-       * @return The isEditor.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsEditor() {
         return isEditor_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>bool is_editor = 10;</code>
-       * @param value The isEditor to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setIsEditor(boolean value) {
 
         isEditor_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>bool is_editor = 10;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearIsEditor() {
 
         isEditor_ = false;
@@ -4765,53 +3513,19 @@ public final class PlayerLoginReqOuterClass {
       }
 
       private boolean isGuest_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>bool is_guest = 2;</code>
-       * @return The isGuest.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsGuest() {
         return isGuest_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>bool is_guest = 2;</code>
-       * @param value The isGuest to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setIsGuest(boolean value) {
 
         isGuest_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>bool is_guest = 2;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearIsGuest() {
 
         isGuest_ = false;
@@ -5796,18 +4510,7 @@ public final class PlayerLoginReqOuterClass {
       }
 
       private java.lang.Object countryCode_ = "";
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>string country_code = 1160;</code>
-       * @return The countryCode.
-       */
->>>>>>> origin/6.5.0
       public java.lang.String getCountryCode() {
         java.lang.Object ref = countryCode_;
         if (!(ref instanceof java.lang.String)) {
@@ -5820,18 +4523,7 @@ public final class PlayerLoginReqOuterClass {
           return (java.lang.String) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>string country_code = 1160;</code>
-       * @return The bytes for countryCode.
-       */
->>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getCountryCodeBytes() {
         java.lang.Object ref = countryCode_;
@@ -5845,19 +4537,7 @@ public final class PlayerLoginReqOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>string country_code = 1160;</code>
-       * @param value The countryCode to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setCountryCode(
           java.lang.String value) {
         if (value == null) {
@@ -5868,37 +4548,14 @@ public final class PlayerLoginReqOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>string country_code = 1160;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearCountryCode() {
 
         countryCode_ = getDefaultInstance().getCountryCode();
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>string country_code = 1160;</code>
-       * @param value The bytes for countryCode to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setCountryCodeBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {

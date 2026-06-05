@@ -53,17 +53,6 @@ public final class SeaLampActivityDetailInfoOuterClass {
      */
     int getEIBAFNPFPPO();
 
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 progress = 13;</code>
-     * @return The progress.
-     */
->>>>>>> origin/6.5.0
     int getProgress();
 
     /**
@@ -263,18 +252,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
 
     public static final int PROGRESS_FIELD_NUMBER = 13;
     private int progress_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 progress = 13;</code>
-     * @return The progress.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getProgress() {
       return progress_;
@@ -881,53 +859,19 @@ public final class SeaLampActivityDetailInfoOuterClass {
       }
 
       private int progress_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 progress = 13;</code>
-       * @return The progress.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getProgress() {
         return progress_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 progress = 13;</code>
-       * @param value The progress to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setProgress(int value) {
 
         progress_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 progress = 13;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearProgress() {
 
         progress_ = 0;

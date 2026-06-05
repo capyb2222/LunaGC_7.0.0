@@ -322,7 +322,6 @@ public final class ShowAvatarInfoOuterClass {
     int getProudSkillExtraLevelMapOrThrow(
         int key);
 
-<<<<<<< HEAD
     java.util.List<emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip>
         getEquipListList();
 
@@ -333,49 +332,6 @@ public final class ShowAvatarInfoOuterClass {
     java.util.List<? extends emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquipOrBuilder>
         getEquipListOrBuilderList();
 
-=======
-    /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
-     * <code>repeated .ShowEquip equip_list = 10;</code>
-     */
-    java.util.List<emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip> 
-        getEquipListList();
-    /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
-     * <code>repeated .ShowEquip equip_list = 10;</code>
-     */
-    emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip getEquipList(int index);
-    /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
-     * <code>repeated .ShowEquip equip_list = 10;</code>
-     */
-    int getEquipListCount();
-    /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
-     * <code>repeated .ShowEquip equip_list = 10;</code>
-     */
-    java.util.List<? extends emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquipOrBuilder> 
-        getEquipListOrBuilderList();
-    /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
-     * <code>repeated .ShowEquip equip_list = 10;</code>
-     */
->>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquipOrBuilder getEquipListOrBuilder(
         int index);
 
@@ -443,7 +399,6 @@ public final class ShowAvatarInfoOuterClass {
      */
     emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfoOrBuilder getExcelInfoOrBuilder();
 
-<<<<<<< HEAD
     int getWeaponSkinId();
 
     long getNLKPGHHLGEK();
@@ -452,55 +407,6 @@ public final class ShowAvatarInfoOuterClass {
 
     int getSpecialProudSkillListCount();
 
-=======
-    /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
-     * <code>uint32 _weapon_skin_id = 14;</code>
-     * @return The weaponSkinId.
-     */
-    int getWeaponSkinId();
-
-    /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
-     * <code>uint64 NLKPGHHLGEK = 15;</code>
-     * @return The nLKPGHHLGEK.
-     */
-    long getNLKPGHHLGEK();
-
-    /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
-     * <code>repeated uint32 _special_proud_skill_list = 17;</code>
-     * @return A list containing the specialProudSkillList.
-     */
-    java.util.List<java.lang.Integer> getSpecialProudSkillListList();
-    /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
-     * <code>repeated uint32 _special_proud_skill_list = 17;</code>
-     * @return The count of specialProudSkillList.
-     */
-    int getSpecialProudSkillListCount();
-    /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
-     * <code>repeated uint32 _special_proud_skill_list = 17;</code>
-     * @param index The index of the element to return.
-     * @return The specialProudSkillList at the given index.
-     */
->>>>>>> origin/6.5.0
     int getSpecialProudSkillList(int index);
   }
   /**
@@ -1310,78 +1216,28 @@ public final class ShowAvatarInfoOuterClass {
 
     public static final int EQUIP_LIST_FIELD_NUMBER = 10;
     private java.util.List<emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip> equipList_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
-     * <code>repeated .ShowEquip equip_list = 10;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip> getEquipListList() {
       return equipList_;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
-     * <code>repeated .ShowEquip equip_list = 10;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquipOrBuilder>
         getEquipListOrBuilderList() {
       return equipList_;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
-     * <code>repeated .ShowEquip equip_list = 10;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getEquipListCount() {
       return equipList_.size();
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
-     * <code>repeated .ShowEquip equip_list = 10;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip getEquipList(int index) {
       return equipList_.get(index);
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
-     * <code>repeated .ShowEquip equip_list = 10;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquipOrBuilder getEquipListOrBuilder(
         int index) {
@@ -1481,18 +1337,7 @@ public final class ShowAvatarInfoOuterClass {
 
     public static final int _WEAPON_SKIN_ID_FIELD_NUMBER = 14;
     private int WeaponSkinId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
-     * <code>uint32 _weapon_skin_id = 14;</code>
-     * @return The weaponSkinId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getWeaponSkinId() {
       return WeaponSkinId_;
@@ -1500,18 +1345,7 @@ public final class ShowAvatarInfoOuterClass {
 
     public static final int NLKPGHHLGEK_FIELD_NUMBER = 15;
     private long nLKPGHHLGEK_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
-     * <code>uint64 NLKPGHHLGEK = 15;</code>
-     * @return The nLKPGHHLGEK.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public long getNLKPGHHLGEK() {
       return nLKPGHHLGEK_;
@@ -1519,51 +1353,17 @@ public final class ShowAvatarInfoOuterClass {
 
     public static final int _SPECIAL_PROUD_SKILL_LIST_FIELD_NUMBER = 17;
     private com.google.protobuf.Internal.IntList SpecialProudSkillList_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
-     * <code>repeated uint32 _special_proud_skill_list = 17;</code>
-     * @return A list containing the specialProudSkillList.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getSpecialProudSkillListList() {
       return SpecialProudSkillList_;
     }
-<<<<<<< HEAD
 
     public int getSpecialProudSkillListCount() {
       return SpecialProudSkillList_.size();
     }
 
-=======
-    /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
-     * <code>repeated uint32 _special_proud_skill_list = 17;</code>
-     * @return The count of specialProudSkillList.
-     */
-    public int getSpecialProudSkillListCount() {
-      return SpecialProudSkillList_.size();
-    }
-    /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
-     * <code>repeated uint32 _special_proud_skill_list = 17;</code>
-     * @param index The index of the element to return.
-     * @return The specialProudSkillList at the given index.
-     */
->>>>>>> origin/6.5.0
     public int getSpecialProudSkillList(int index) {
       return SpecialProudSkillList_.getInt(index);
     }
@@ -3325,16 +3125,6 @@ public final class ShowAvatarInfoOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip, emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip.Builder, emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquipOrBuilder> equipListBuilder_;
 
-<<<<<<< HEAD
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated .ShowEquip equip_list = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip> getEquipListList() {
         if (equipListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(equipList_);
@@ -3342,17 +3132,7 @@ public final class ShowAvatarInfoOuterClass {
           return equipListBuilder_.getMessageList();
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated .ShowEquip equip_list = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public int getEquipListCount() {
         if (equipListBuilder_ == null) {
           return equipList_.size();
@@ -3360,17 +3140,7 @@ public final class ShowAvatarInfoOuterClass {
           return equipListBuilder_.getCount();
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated .ShowEquip equip_list = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip getEquipList(int index) {
         if (equipListBuilder_ == null) {
           return equipList_.get(index);
@@ -3378,17 +3148,7 @@ public final class ShowAvatarInfoOuterClass {
           return equipListBuilder_.getMessage(index);
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated .ShowEquip equip_list = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setEquipList(
           int index, emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip value) {
         if (equipListBuilder_ == null) {
@@ -3403,17 +3163,7 @@ public final class ShowAvatarInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated .ShowEquip equip_list = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setEquipList(
           int index, emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip.Builder builderForValue) {
         if (equipListBuilder_ == null) {
@@ -3425,17 +3175,7 @@ public final class ShowAvatarInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated .ShowEquip equip_list = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder addEquipList(emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip value) {
         if (equipListBuilder_ == null) {
           if (value == null) {
@@ -3449,17 +3189,7 @@ public final class ShowAvatarInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated .ShowEquip equip_list = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder addEquipList(
           int index, emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip value) {
         if (equipListBuilder_ == null) {
@@ -3474,17 +3204,7 @@ public final class ShowAvatarInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated .ShowEquip equip_list = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder addEquipList(
           emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip.Builder builderForValue) {
         if (equipListBuilder_ == null) {
@@ -3496,17 +3216,7 @@ public final class ShowAvatarInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated .ShowEquip equip_list = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder addEquipList(
           int index, emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip.Builder builderForValue) {
         if (equipListBuilder_ == null) {
@@ -3518,17 +3228,7 @@ public final class ShowAvatarInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated .ShowEquip equip_list = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder addAllEquipList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip> values) {
         if (equipListBuilder_ == null) {
@@ -3541,17 +3241,7 @@ public final class ShowAvatarInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated .ShowEquip equip_list = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder clearEquipList() {
         if (equipListBuilder_ == null) {
           equipList_ = java.util.Collections.emptyList();
@@ -3562,17 +3252,7 @@ public final class ShowAvatarInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated .ShowEquip equip_list = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder removeEquipList(int index) {
         if (equipListBuilder_ == null) {
           ensureEquipListIsMutable();
@@ -3583,32 +3263,12 @@ public final class ShowAvatarInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated .ShowEquip equip_list = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip.Builder getEquipListBuilder(
           int index) {
         return getEquipListFieldBuilder().getBuilder(index);
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated .ShowEquip equip_list = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquipOrBuilder getEquipListOrBuilder(
           int index) {
         if (equipListBuilder_ == null) {
@@ -3616,19 +3276,8 @@ public final class ShowAvatarInfoOuterClass {
           return equipListBuilder_.getMessageOrBuilder(index);
         }
       }
-<<<<<<< HEAD
 
       public java.util.List<? extends emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquipOrBuilder>
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated .ShowEquip equip_list = 10;</code>
-       */
-      public java.util.List<? extends emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquipOrBuilder> 
->>>>>>> origin/6.5.0
            getEquipListOrBuilderList() {
         if (equipListBuilder_ != null) {
           return equipListBuilder_.getMessageOrBuilderList();
@@ -3636,50 +3285,19 @@ public final class ShowAvatarInfoOuterClass {
           return java.util.Collections.unmodifiableList(equipList_);
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated .ShowEquip equip_list = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip.Builder addEquipListBuilder() {
         return getEquipListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip.getDefaultInstance());
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated .ShowEquip equip_list = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip.Builder addEquipListBuilder(
           int index) {
         return getEquipListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip.getDefaultInstance());
       }
-<<<<<<< HEAD
 
       public java.util.List<emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip.Builder>
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated .ShowEquip equip_list = 10;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip.Builder> 
->>>>>>> origin/6.5.0
            getEquipListBuilderList() {
         return getEquipListFieldBuilder().getBuilderList();
       }
@@ -4052,53 +3670,19 @@ public final class ShowAvatarInfoOuterClass {
       }
 
       private int WeaponSkinId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>uint32 _weapon_skin_id = 14;</code>
-       * @return The weaponSkinId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getWeaponSkinId() {
         return WeaponSkinId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>uint32 _weapon_skin_id = 14;</code>
-       * @param value The weaponSkinId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setWeaponSkinId(int value) {
 
         WeaponSkinId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>uint32 _weapon_skin_id = 14;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearWeaponSkinId() {
 
         WeaponSkinId_ = 0;
@@ -4107,53 +3691,19 @@ public final class ShowAvatarInfoOuterClass {
       }
 
       private long nLKPGHHLGEK_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>uint64 NLKPGHHLGEK = 15;</code>
-       * @return The nLKPGHHLGEK.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public long getNLKPGHHLGEK() {
         return nLKPGHHLGEK_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>uint64 NLKPGHHLGEK = 15;</code>
-       * @param value The nLKPGHHLGEK to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setNLKPGHHLGEK(long value) {
 
         nLKPGHHLGEK_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>uint64 NLKPGHHLGEK = 15;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearNLKPGHHLGEK() {
 
         nLKPGHHLGEK_ = 0L;
@@ -4168,24 +3718,12 @@ public final class ShowAvatarInfoOuterClass {
           bitField0_ |= 0x00000080;
          }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated uint32 _special_proud_skill_list = 17;</code>
-       * @return A list containing the specialProudSkillList.
-       */
->>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getSpecialProudSkillListList() {
         return ((bitField0_ & 0x00000080) != 0) ?
                  java.util.Collections.unmodifiableList(SpecialProudSkillList_) : SpecialProudSkillList_;
       }
-<<<<<<< HEAD
 
       public int getSpecialProudSkillListCount() {
         return SpecialProudSkillList_.size();
@@ -4195,41 +3733,6 @@ public final class ShowAvatarInfoOuterClass {
         return SpecialProudSkillList_.getInt(index);
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated uint32 _special_proud_skill_list = 17;</code>
-       * @return The count of specialProudSkillList.
-       */
-      public int getSpecialProudSkillListCount() {
-        return SpecialProudSkillList_.size();
-      }
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated uint32 _special_proud_skill_list = 17;</code>
-       * @param index The index of the element to return.
-       * @return The specialProudSkillList at the given index.
-       */
-      public int getSpecialProudSkillList(int index) {
-        return SpecialProudSkillList_.getInt(index);
-      }
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated uint32 _special_proud_skill_list = 17;</code>
-       * @param index The index to set the value at.
-       * @param value The specialProudSkillList to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setSpecialProudSkillList(
           int index, int value) {
         ensureSpecialProudSkillListIsMutable();
@@ -4237,38 +3740,14 @@ public final class ShowAvatarInfoOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated uint32 _special_proud_skill_list = 17;</code>
-       * @param value The specialProudSkillList to add.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder addSpecialProudSkillList(int value) {
         ensureSpecialProudSkillListIsMutable();
         SpecialProudSkillList_.addInt(value);
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated uint32 _special_proud_skill_list = 17;</code>
-       * @param values The specialProudSkillList to add.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder addAllSpecialProudSkillList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureSpecialProudSkillListIsMutable();
@@ -4277,18 +3756,7 @@ public final class ShowAvatarInfoOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
-       * <code>repeated uint32 _special_proud_skill_list = 17;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearSpecialProudSkillList() {
         SpecialProudSkillList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000080);

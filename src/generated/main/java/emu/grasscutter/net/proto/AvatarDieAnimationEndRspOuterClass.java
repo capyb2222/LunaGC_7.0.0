@@ -18,41 +18,10 @@ public final class AvatarDieAnimationEndRspOuterClass {
       // @@protoc_insertion_point(interface_extends:AvatarDieAnimationEndRsp)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     long getDieGuid();
 
     int getRetcode();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint64 die_guid = 2;</code>
-     * @return The dieGuid.
-     */
-    long getDieGuid();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>int32 retcode = 3;</code>
-     * @return The retcode.
-     */
-    int getRetcode();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 skill_id = 10;</code>
-     * @return The skillId.
-     */
->>>>>>> origin/6.5.0
     int getSkillId();
   }
   /**
@@ -153,18 +122,7 @@ public final class AvatarDieAnimationEndRspOuterClass {
 
     public static final int DIE_GUID_FIELD_NUMBER = 11;
     private long dieGuid_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint64 die_guid = 2;</code>
-     * @return The dieGuid.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public long getDieGuid() {
       return dieGuid_;
@@ -172,18 +130,7 @@ public final class AvatarDieAnimationEndRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 6;
     private int retcode_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>int32 retcode = 3;</code>
-     * @return The retcode.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -191,18 +138,7 @@ public final class AvatarDieAnimationEndRspOuterClass {
 
     public static final int SKILL_ID_FIELD_NUMBER = 14;
     private int skillId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 skill_id = 10;</code>
-     * @return The skillId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getSkillId() {
       return skillId_;
@@ -550,53 +486,19 @@ public final class AvatarDieAnimationEndRspOuterClass {
       }
 
       private long dieGuid_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint64 die_guid = 2;</code>
-       * @return The dieGuid.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public long getDieGuid() {
         return dieGuid_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint64 die_guid = 2;</code>
-       * @param value The dieGuid to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setDieGuid(long value) {
 
         dieGuid_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint64 die_guid = 2;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearDieGuid() {
 
         dieGuid_ = 0L;
@@ -605,53 +507,19 @@ public final class AvatarDieAnimationEndRspOuterClass {
       }
 
       private int retcode_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>int32 retcode = 3;</code>
-       * @return The retcode.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>int32 retcode = 3;</code>
-       * @param value The retcode to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
 
         retcode_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>int32 retcode = 3;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearRetcode() {
 
         retcode_ = 0;
@@ -660,53 +528,19 @@ public final class AvatarDieAnimationEndRspOuterClass {
       }
 
       private int skillId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 skill_id = 10;</code>
-       * @return The skillId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getSkillId() {
         return skillId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 skill_id = 10;</code>
-       * @param value The skillId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setSkillId(int value) {
 
         skillId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 skill_id = 10;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearSkillId() {
 
         skillId_ = 0;

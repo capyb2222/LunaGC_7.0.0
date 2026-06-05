@@ -82,17 +82,6 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
      */
     boolean getHOGCGGNKFBN();
 
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 world_level = 13;</code>
-     * @return The worldLevel.
-     */
->>>>>>> origin/6.5.0
     int getWorldLevel();
   }
   /**
@@ -355,18 +344,7 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
 
     public static final int WORLD_LEVEL_FIELD_NUMBER = 13;
     private int worldLevel_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 world_level = 13;</code>
-     * @return The worldLevel.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getWorldLevel() {
       return worldLevel_;
@@ -1197,53 +1175,19 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
       }
 
       private int worldLevel_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 world_level = 13;</code>
-       * @return The worldLevel.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getWorldLevel() {
         return worldLevel_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 world_level = 13;</code>
-       * @param value The worldLevel to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setWorldLevel(int value) {
 
         worldLevel_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 world_level = 13;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearWorldLevel() {
 
         worldLevel_ = 0;

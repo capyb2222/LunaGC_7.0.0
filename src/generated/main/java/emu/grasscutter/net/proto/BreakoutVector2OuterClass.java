@@ -18,29 +18,8 @@ public final class BreakoutVector2OuterClass {
       // @@protoc_insertion_point(interface_extends:BreakoutVector2)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getY();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>int32 y = 2;</code>
-     * @return The y.
-     */
-    int getY();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>int32 x = 1;</code>
-     * @return The x.
-     */
->>>>>>> origin/6.5.0
     int getX();
   }
   /**
@@ -132,18 +111,7 @@ public final class BreakoutVector2OuterClass {
 
     public static final int Y_FIELD_NUMBER = 2;
     private int y_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>int32 y = 2;</code>
-     * @return The y.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getY() {
       return y_;
@@ -151,18 +119,7 @@ public final class BreakoutVector2OuterClass {
 
     public static final int X_FIELD_NUMBER = 1;
     private int x_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>int32 x = 1;</code>
-     * @return The x.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getX() {
       return x_;
@@ -488,53 +445,19 @@ public final class BreakoutVector2OuterClass {
       }
 
       private int y_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>int32 y = 2;</code>
-       * @return The y.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getY() {
         return y_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>int32 y = 2;</code>
-       * @param value The y to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setY(int value) {
 
         y_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>int32 y = 2;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearY() {
 
         y_ = 0;
@@ -543,53 +466,19 @@ public final class BreakoutVector2OuterClass {
       }
 
       private int x_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>int32 x = 1;</code>
-       * @return The x.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getX() {
         return x_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>int32 x = 1;</code>
-       * @param value The x to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setX(int value) {
 
         x_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>int32 x = 1;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearX() {
 
         x_ = 0;

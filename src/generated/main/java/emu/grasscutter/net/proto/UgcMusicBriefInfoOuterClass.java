@@ -96,17 +96,6 @@ public final class UgcMusicBriefInfoOuterClass {
      */
     long getAAHNFINJFAF();
 
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 music_id = 2;</code>
-     * @return The musicId.
-     */
->>>>>>> origin/6.5.0
     int getMusicId();
 
     /**
@@ -157,29 +146,8 @@ public final class UgcMusicBriefInfoOuterClass {
      */
     int getEHHGDAPAPLP();
 
-<<<<<<< HEAD
     int getVersion();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 version = 12;</code>
-     * @return The version.
-     */
-    int getVersion();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 ugc_guid = 6;</code>
-     * @return The ugcGuid.
-     */
->>>>>>> origin/6.5.0
     int getUgcGuid();
 
     /**
@@ -624,18 +592,7 @@ public final class UgcMusicBriefInfoOuterClass {
 
     public static final int MUSIC_ID_FIELD_NUMBER = 2;
     private int musicId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 music_id = 2;</code>
-     * @return The musicId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getMusicId() {
       return musicId_;
@@ -731,18 +688,7 @@ public final class UgcMusicBriefInfoOuterClass {
 
     public static final int VERSION_FIELD_NUMBER = 12;
     private int version_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 version = 12;</code>
-     * @return The version.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getVersion() {
       return version_;
@@ -750,18 +696,7 @@ public final class UgcMusicBriefInfoOuterClass {
 
     public static final int UGC_GUID_FIELD_NUMBER = 8;
     private int ugcGuid_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 ugc_guid = 6;</code>
-     * @return The ugcGuid.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getUgcGuid() {
       return ugcGuid_;
@@ -2059,53 +1994,19 @@ public final class UgcMusicBriefInfoOuterClass {
       }
 
       private int musicId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 music_id = 2;</code>
-       * @return The musicId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getMusicId() {
         return musicId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 music_id = 2;</code>
-       * @param value The musicId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setMusicId(int value) {
 
         musicId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 music_id = 2;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearMusicId() {
 
         musicId_ = 0;
@@ -2362,53 +2263,19 @@ public final class UgcMusicBriefInfoOuterClass {
       }
 
       private int version_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 version = 12;</code>
-       * @return The version.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getVersion() {
         return version_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 version = 12;</code>
-       * @param value The version to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setVersion(int value) {
 
         version_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 version = 12;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearVersion() {
 
         version_ = 0;
@@ -2417,53 +2284,19 @@ public final class UgcMusicBriefInfoOuterClass {
       }
 
       private int ugcGuid_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 ugc_guid = 6;</code>
-       * @return The ugcGuid.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getUgcGuid() {
         return ugcGuid_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 ugc_guid = 6;</code>
-       * @param value The ugcGuid to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setUgcGuid(int value) {
 
         ugcGuid_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 ugc_guid = 6;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearUgcGuid() {
 
         ugcGuid_ = 0;

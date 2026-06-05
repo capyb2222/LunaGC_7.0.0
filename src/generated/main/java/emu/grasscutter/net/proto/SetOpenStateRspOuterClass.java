@@ -18,41 +18,10 @@ public final class SetOpenStateRspOuterClass {
       // @@protoc_insertion_point(interface_extends:SetOpenStateRsp)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getValue();
 
     int getRetcode();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 value = 8;</code>
-     * @return The value.
-     */
-    int getValue();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>int32 retcode = 14;</code>
-     * @return The retcode.
-     */
-    int getRetcode();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 key = 13;</code>
-     * @return The key.
-     */
->>>>>>> origin/6.5.0
     int getKey();
   }
   /**
@@ -149,18 +118,7 @@ public final class SetOpenStateRspOuterClass {
 
     public static final int VALUE_FIELD_NUMBER = 8;
     private int value_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 value = 8;</code>
-     * @return The value.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getValue() {
       return value_;
@@ -168,18 +126,7 @@ public final class SetOpenStateRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 14;
     private int retcode_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>int32 retcode = 14;</code>
-     * @return The retcode.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -187,18 +134,7 @@ public final class SetOpenStateRspOuterClass {
 
     public static final int KEY_FIELD_NUMBER = 13;
     private int key_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 key = 13;</code>
-     * @return The key.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getKey() {
       return key_;
@@ -541,53 +477,19 @@ public final class SetOpenStateRspOuterClass {
       }
 
       private int value_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 value = 8;</code>
-       * @return The value.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getValue() {
         return value_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 value = 8;</code>
-       * @param value The value to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setValue(int value) {
 
         value_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 value = 8;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearValue() {
 
         value_ = 0;
@@ -596,53 +498,19 @@ public final class SetOpenStateRspOuterClass {
       }
 
       private int retcode_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>int32 retcode = 14;</code>
-       * @return The retcode.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>int32 retcode = 14;</code>
-       * @param value The retcode to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
 
         retcode_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>int32 retcode = 14;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearRetcode() {
 
         retcode_ = 0;
@@ -651,53 +519,19 @@ public final class SetOpenStateRspOuterClass {
       }
 
       private int key_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 key = 13;</code>
-       * @return The key.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getKey() {
         return key_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 key = 13;</code>
-       * @param value The key to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setKey(int value) {
 
         key_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 key = 13;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearKey() {
 
         key_ = 0;

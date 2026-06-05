@@ -42,17 +42,6 @@ public final class ShopConcertProductOuterClass {
     com.google.protobuf.ByteString
         getNAFPACJOABIBytes();
 
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0         
-     * </pre>
-     *
-     * <code>uint32 begin_time = 5;</code>
-     * @return The beginTime.
-     */
->>>>>>> origin/6.5.0
     int getBeginTime();
 
     /**
@@ -61,17 +50,6 @@ public final class ShopConcertProductOuterClass {
      */
     int getMJHLHJNNLPG();
 
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0         
-     * </pre>
-     *
-     * <code>uint32 end_time = 6;</code>
-     * @return The endTime.
-     */
->>>>>>> origin/6.5.0
     int getEndTime();
 
     /**
@@ -280,18 +258,7 @@ public final class ShopConcertProductOuterClass {
 
     public static final int BEGIN_TIME_FIELD_NUMBER = 5;
     private int beginTime_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0         
-     * </pre>
-     *
-     * <code>uint32 begin_time = 5;</code>
-     * @return The beginTime.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getBeginTime() {
       return beginTime_;
@@ -310,18 +277,7 @@ public final class ShopConcertProductOuterClass {
 
     public static final int END_TIME_FIELD_NUMBER = 6;
     private int endTime_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0         
-     * </pre>
-     *
-     * <code>uint32 end_time = 6;</code>
-     * @return The endTime.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getEndTime() {
       return endTime_;
@@ -906,53 +862,19 @@ public final class ShopConcertProductOuterClass {
       }
 
       private int beginTime_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0         
-       * </pre>
-       *
-       * <code>uint32 begin_time = 5;</code>
-       * @return The beginTime.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getBeginTime() {
         return beginTime_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0         
-       * </pre>
-       *
-       * <code>uint32 begin_time = 5;</code>
-       * @param value The beginTime to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setBeginTime(int value) {
 
         beginTime_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0         
-       * </pre>
-       *
-       * <code>uint32 begin_time = 5;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearBeginTime() {
 
         beginTime_ = 0;
@@ -992,53 +914,19 @@ public final class ShopConcertProductOuterClass {
       }
 
       private int endTime_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0         
-       * </pre>
-       *
-       * <code>uint32 end_time = 6;</code>
-       * @return The endTime.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getEndTime() {
         return endTime_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0         
-       * </pre>
-       *
-       * <code>uint32 end_time = 6;</code>
-       * @param value The endTime to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setEndTime(int value) {
 
         endTime_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0         
-       * </pre>
-       *
-       * <code>uint32 end_time = 6;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearEndTime() {
 
         endTime_ = 0;

@@ -18,7 +18,6 @@ public final class EvtBeingHitNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:EvtBeingHitNotify)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     boolean hasBeingHitInfo();
 
     emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo getBeingHitInfo();
@@ -27,52 +26,6 @@ public final class EvtBeingHitNotifyOuterClass {
 
     int getForwardTypeValue();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
-     * @return Whether the beingHitInfo field is set.
-     */
-    boolean hasBeingHitInfo();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
-     * @return The beingHitInfo.
-     */
-    emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo getBeingHitInfo();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
-     */
-    emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfoOrBuilder getBeingHitInfoOrBuilder();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.ForwardType forward_type = 5;</code>
-     * @return The enum numeric value on the wire for forwardType.
-     */
-    int getForwardTypeValue();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.ForwardType forward_type = 5;</code>
-     * @return The forwardType.
-     */
->>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType getForwardType();
   }
   /**
@@ -178,49 +131,17 @@ public final class EvtBeingHitNotifyOuterClass {
 
     public static final int BEING_HIT_INFO_FIELD_NUMBER = 1;
     private emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo beingHitInfo_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
-     * @return Whether the beingHitInfo field is set.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasBeingHitInfo() {
       return beingHitInfo_ != null;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
-     * @return The beingHitInfo.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo getBeingHitInfo() {
       return beingHitInfo_ == null ? emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo.getDefaultInstance() : beingHitInfo_;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfoOrBuilder getBeingHitInfoOrBuilder() {
       return getBeingHitInfo();
@@ -228,33 +149,11 @@ public final class EvtBeingHitNotifyOuterClass {
 
     public static final int FORWARD_TYPE_FIELD_NUMBER = 9;
     private int forwardType_;
-<<<<<<< HEAD
 
     @java.lang.Override public int getForwardTypeValue() {
       return forwardType_;
     }
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.ForwardType forward_type = 5;</code>
-     * @return The enum numeric value on the wire for forwardType.
-     */
-    @java.lang.Override public int getForwardTypeValue() {
-      return forwardType_;
-    }
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>.ForwardType forward_type = 5;</code>
-     * @return The forwardType.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override public emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType getForwardType() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType result = emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.valueOf(forwardType_);
@@ -599,33 +498,11 @@ public final class EvtBeingHitNotifyOuterClass {
       private emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo beingHitInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo, emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo.Builder, emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfoOrBuilder> beingHitInfoBuilder_;
-<<<<<<< HEAD
 
       public boolean hasBeingHitInfo() {
         return beingHitInfoBuilder_ != null || beingHitInfo_ != null;
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
-       * @return Whether the beingHitInfo field is set.
-       */
-      public boolean hasBeingHitInfo() {
-        return beingHitInfoBuilder_ != null || beingHitInfo_ != null;
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
-       * @return The beingHitInfo.
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo getBeingHitInfo() {
         if (beingHitInfoBuilder_ == null) {
           return beingHitInfo_ == null ? emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo.getDefaultInstance() : beingHitInfo_;
@@ -633,17 +510,7 @@ public final class EvtBeingHitNotifyOuterClass {
           return beingHitInfoBuilder_.getMessage();
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setBeingHitInfo(emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo value) {
         if (beingHitInfoBuilder_ == null) {
           if (value == null) {
@@ -657,17 +524,7 @@ public final class EvtBeingHitNotifyOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setBeingHitInfo(
           emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo.Builder builderForValue) {
         if (beingHitInfoBuilder_ == null) {
@@ -679,17 +536,7 @@ public final class EvtBeingHitNotifyOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder mergeBeingHitInfo(emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo value) {
         if (beingHitInfoBuilder_ == null) {
           if (beingHitInfo_ != null) {
@@ -705,17 +552,7 @@ public final class EvtBeingHitNotifyOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder clearBeingHitInfo() {
         if (beingHitInfoBuilder_ == null) {
           beingHitInfo_ = null;
@@ -727,33 +564,13 @@ public final class EvtBeingHitNotifyOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo.Builder getBeingHitInfoBuilder() {
 
         onChanged();
         return getBeingHitInfoFieldBuilder().getBuilder();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfoOrBuilder getBeingHitInfoOrBuilder() {
         if (beingHitInfoBuilder_ != null) {
           return beingHitInfoBuilder_.getMessageOrBuilder();
@@ -762,17 +579,7 @@ public final class EvtBeingHitNotifyOuterClass {
               emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo.getDefaultInstance() : beingHitInfo_;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
-       */
->>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo, emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo.Builder, emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfoOrBuilder>
           getBeingHitInfoFieldBuilder() {
@@ -788,71 +595,25 @@ public final class EvtBeingHitNotifyOuterClass {
       }
 
       private int forwardType_ = 0;
-<<<<<<< HEAD
 
       @java.lang.Override public int getForwardTypeValue() {
         return forwardType_;
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.ForwardType forward_type = 5;</code>
-       * @return The enum numeric value on the wire for forwardType.
-       */
-      @java.lang.Override public int getForwardTypeValue() {
-        return forwardType_;
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.ForwardType forward_type = 5;</code>
-       * @param value The enum numeric value on the wire for forwardType to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setForwardTypeValue(int value) {
 
         forwardType_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.ForwardType forward_type = 5;</code>
-       * @return The forwardType.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType getForwardType() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType result = emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.valueOf(forwardType_);
         return result == null ? emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.UNRECOGNIZED : result;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.ForwardType forward_type = 5;</code>
-       * @param value The forwardType to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setForwardType(emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType value) {
         if (value == null) {
           throw new NullPointerException();
@@ -862,18 +623,7 @@ public final class EvtBeingHitNotifyOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>.ForwardType forward_type = 5;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearForwardType() {
 
         forwardType_ = 0;

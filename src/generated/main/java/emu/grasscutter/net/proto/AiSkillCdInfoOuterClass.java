@@ -18,26 +18,8 @@ public final class AiSkillCdInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:AiSkillCdInfo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getSkillGroupCdMapCount();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
-     */
-    int getSkillGroupCdMapCount();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
-     */
->>>>>>> origin/6.5.0
     boolean containsSkillGroupCdMap(
         int key);
     /**
@@ -46,66 +28,19 @@ public final class AiSkillCdInfoOuterClass {
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getSkillGroupCdMap();
-<<<<<<< HEAD
 
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getSkillGroupCdMapMap();
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
-     */
-    java.util.Map<java.lang.Integer, java.lang.Integer>
-    getSkillGroupCdMapMap();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
-     */
->>>>>>> origin/6.5.0
 
     int getSkillGroupCdMapOrDefault(
         int key,
         int defaultValue);
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
-     */
->>>>>>> origin/6.5.0
 
     int getSkillGroupCdMapOrThrow(
         int key);
 
-<<<<<<< HEAD
     int getSkillCdMapCount();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
-     */
-    int getSkillCdMapCount();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
-     */
->>>>>>> origin/6.5.0
     boolean containsSkillCdMap(
         int key);
     /**
@@ -114,42 +49,13 @@ public final class AiSkillCdInfoOuterClass {
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getSkillCdMap();
-<<<<<<< HEAD
 
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getSkillCdMapMap();
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
-     */
-    java.util.Map<java.lang.Integer, java.lang.Integer>
-    getSkillCdMapMap();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
-     */
->>>>>>> origin/6.5.0
 
     int getSkillCdMapOrDefault(
         int key,
         int defaultValue);
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
-     */
->>>>>>> origin/6.5.0
 
     int getSkillCdMapOrThrow(
         int key);
@@ -298,16 +204,6 @@ public final class AiSkillCdInfoOuterClass {
     public int getSkillGroupCdMapCount() {
       return internalGetSkillGroupCdMap().getMap().size();
     }
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
-     */
->>>>>>> origin/6.5.0
 
     @java.lang.Override
     public boolean containsSkillGroupCdMap(
@@ -323,33 +219,13 @@ public final class AiSkillCdInfoOuterClass {
     public java.util.Map<java.lang.Integer, java.lang.Integer> getSkillGroupCdMap() {
       return getSkillGroupCdMapMap();
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public java.util.Map<java.lang.Integer, java.lang.Integer> getSkillGroupCdMapMap() {
       return internalGetSkillGroupCdMap().getMap();
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public int getSkillGroupCdMapOrDefault(
@@ -360,17 +236,7 @@ public final class AiSkillCdInfoOuterClass {
           internalGetSkillGroupCdMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public int getSkillGroupCdMapOrThrow(
@@ -410,16 +276,6 @@ public final class AiSkillCdInfoOuterClass {
     public int getSkillCdMapCount() {
       return internalGetSkillCdMap().getMap().size();
     }
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
-     */
->>>>>>> origin/6.5.0
 
     @java.lang.Override
     public boolean containsSkillCdMap(
@@ -435,33 +291,13 @@ public final class AiSkillCdInfoOuterClass {
     public java.util.Map<java.lang.Integer, java.lang.Integer> getSkillCdMap() {
       return getSkillCdMapMap();
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public java.util.Map<java.lang.Integer, java.lang.Integer> getSkillCdMapMap() {
       return internalGetSkillCdMap().getMap();
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public int getSkillCdMapOrDefault(
@@ -472,17 +308,7 @@ public final class AiSkillCdInfoOuterClass {
           internalGetSkillCdMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public int getSkillCdMapOrThrow(
@@ -889,16 +715,6 @@ public final class AiSkillCdInfoOuterClass {
       public int getSkillGroupCdMapCount() {
         return internalGetSkillGroupCdMap().getMap().size();
       }
-<<<<<<< HEAD
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
-       */
->>>>>>> origin/6.5.0
 
       @java.lang.Override
       public boolean containsSkillGroupCdMap(
@@ -914,33 +730,13 @@ public final class AiSkillCdInfoOuterClass {
       public java.util.Map<java.lang.Integer, java.lang.Integer> getSkillGroupCdMap() {
         return getSkillGroupCdMapMap();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public java.util.Map<java.lang.Integer, java.lang.Integer> getSkillGroupCdMapMap() {
         return internalGetSkillGroupCdMap().getMap();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public int getSkillGroupCdMapOrDefault(
@@ -951,17 +747,7 @@ public final class AiSkillCdInfoOuterClass {
             internalGetSkillGroupCdMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public int getSkillGroupCdMapOrThrow(
@@ -980,16 +766,6 @@ public final class AiSkillCdInfoOuterClass {
             .clear();
         return this;
       }
-<<<<<<< HEAD
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
-       */
->>>>>>> origin/6.5.0
 
       public Builder removeSkillGroupCdMap(
           int key) {
@@ -1006,17 +782,7 @@ public final class AiSkillCdInfoOuterClass {
       getMutableSkillGroupCdMap() {
         return internalGetMutableSkillGroupCdMap().getMutableMap();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder putSkillGroupCdMap(
           int key,
           int value) {
@@ -1025,16 +791,6 @@ public final class AiSkillCdInfoOuterClass {
             .put(key, value);
         return this;
       }
-<<<<<<< HEAD
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
-       */
->>>>>>> origin/6.5.0
 
       public Builder putAllSkillGroupCdMap(
           java.util.Map<java.lang.Integer, java.lang.Integer> values) {
@@ -1069,16 +825,6 @@ public final class AiSkillCdInfoOuterClass {
       public int getSkillCdMapCount() {
         return internalGetSkillCdMap().getMap().size();
       }
-<<<<<<< HEAD
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
-       */
->>>>>>> origin/6.5.0
 
       @java.lang.Override
       public boolean containsSkillCdMap(
@@ -1094,33 +840,13 @@ public final class AiSkillCdInfoOuterClass {
       public java.util.Map<java.lang.Integer, java.lang.Integer> getSkillCdMap() {
         return getSkillCdMapMap();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public java.util.Map<java.lang.Integer, java.lang.Integer> getSkillCdMapMap() {
         return internalGetSkillCdMap().getMap();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public int getSkillCdMapOrDefault(
@@ -1131,17 +857,7 @@ public final class AiSkillCdInfoOuterClass {
             internalGetSkillCdMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public int getSkillCdMapOrThrow(
@@ -1160,16 +876,6 @@ public final class AiSkillCdInfoOuterClass {
             .clear();
         return this;
       }
-<<<<<<< HEAD
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
-       */
->>>>>>> origin/6.5.0
 
       public Builder removeSkillCdMap(
           int key) {
@@ -1186,17 +892,7 @@ public final class AiSkillCdInfoOuterClass {
       getMutableSkillCdMap() {
         return internalGetMutableSkillCdMap().getMutableMap();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder putSkillCdMap(
           int key,
           int value) {
@@ -1205,16 +901,6 @@ public final class AiSkillCdInfoOuterClass {
             .put(key, value);
         return this;
       }
-<<<<<<< HEAD
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
-       */
->>>>>>> origin/6.5.0
 
       public Builder putAllSkillCdMap(
           java.util.Map<java.lang.Integer, java.lang.Integer> values) {

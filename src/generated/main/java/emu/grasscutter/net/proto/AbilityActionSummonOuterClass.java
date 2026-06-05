@@ -117,11 +117,7 @@ public final class AbilityActionSummonOuterClass {
             case 0:
               done = true;
               break;
-<<<<<<< HEAD
             case 66: {
-=======
-            case 74: {
->>>>>>> origin/6.5.0
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (rot_ != null) {
                 subBuilder = rot_.toBuilder();
@@ -134,11 +130,7 @@ public final class AbilityActionSummonOuterClass {
 
               break;
             }
-<<<<<<< HEAD
             case 114: {
-=======
-            case 90: {
->>>>>>> origin/6.5.0
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (pos_ != null) {
                 subBuilder = pos_.toBuilder();
@@ -183,11 +175,7 @@ public final class AbilityActionSummonOuterClass {
               emu.grasscutter.net.proto.AbilityActionSummonOuterClass.AbilityActionSummon.class, emu.grasscutter.net.proto.AbilityActionSummonOuterClass.AbilityActionSummon.Builder.class);
     }
 
-<<<<<<< HEAD
     public static final int POS_FIELD_NUMBER = 14;
-=======
-    public static final int POS_FIELD_NUMBER = 11;
->>>>>>> origin/6.5.0
     private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
     /**
      * <pre>
@@ -225,11 +213,7 @@ public final class AbilityActionSummonOuterClass {
       return getPos();
     }
 
-<<<<<<< HEAD
     public static final int ROT_FIELD_NUMBER = 8;
-=======
-    public static final int ROT_FIELD_NUMBER = 9;
->>>>>>> origin/6.5.0
     private emu.grasscutter.net.proto.VectorOuterClass.Vector rot_;
     /**
      * <pre>
@@ -281,19 +265,11 @@ public final class AbilityActionSummonOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-<<<<<<< HEAD
       if (pos_ != null) {
         output.writeMessage(14, getPos());
       }
       if (rot_ != null) {
         output.writeMessage(8, getRot());
-=======
-      if (rot_ != null) {
-        output.writeMessage(9, getRot());
-      }
-      if (pos_ != null) {
-        output.writeMessage(11, getPos());
->>>>>>> origin/6.5.0
       }
       unknownFields.writeTo(output);
     }
@@ -304,7 +280,6 @@ public final class AbilityActionSummonOuterClass {
       if (size != -1) return size;
 
       size = 0;
-<<<<<<< HEAD
       if (pos_ != null) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(14, getPos());
@@ -312,15 +287,6 @@ public final class AbilityActionSummonOuterClass {
       if (rot_ != null) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(8, getRot());
-=======
-      if (rot_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, getRot());
-      }
-      if (pos_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, getPos());
->>>>>>> origin/6.5.0
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

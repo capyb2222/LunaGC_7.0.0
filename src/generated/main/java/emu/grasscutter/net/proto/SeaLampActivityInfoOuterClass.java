@@ -54,17 +54,6 @@ public final class SeaLampActivityInfoOuterClass {
      */
     int getBMLIGIIELDE();
 
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0 
-     * </pre>
-     *
-     * <code>uint32 first_day_start_time = 14;</code>
-     * @return The firstDayStartTime.
-     */
->>>>>>> origin/6.5.0
     int getFirstDayStartTime();
 
     /**
@@ -85,17 +74,6 @@ public final class SeaLampActivityInfoOuterClass {
      */
     boolean getGBNHBMOBHNH();
 
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>bool is_content_closed = 11;</code>
-     * @return The isContentClosed.
-     */
->>>>>>> origin/6.5.0
     boolean getIsContentClosed();
   }
   /**
@@ -288,18 +266,7 @@ public final class SeaLampActivityInfoOuterClass {
 
     public static final int FIRST_DAY_START_TIME_FIELD_NUMBER = 14;
     private int firstDayStartTime_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0 
-     * </pre>
-     *
-     * <code>uint32 first_day_start_time = 14;</code>
-     * @return The firstDayStartTime.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getFirstDayStartTime() {
       return firstDayStartTime_;
@@ -340,18 +307,7 @@ public final class SeaLampActivityInfoOuterClass {
 
     public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 3;
     private boolean isContentClosed_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>bool is_content_closed = 11;</code>
-     * @return The isContentClosed.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsContentClosed() {
       return isContentClosed_;
@@ -1123,53 +1079,19 @@ public final class SeaLampActivityInfoOuterClass {
       }
 
       private int firstDayStartTime_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0 
-       * </pre>
-       *
-       * <code>uint32 first_day_start_time = 14;</code>
-       * @return The firstDayStartTime.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getFirstDayStartTime() {
         return firstDayStartTime_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0 
-       * </pre>
-       *
-       * <code>uint32 first_day_start_time = 14;</code>
-       * @param value The firstDayStartTime to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setFirstDayStartTime(int value) {
 
         firstDayStartTime_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0 
-       * </pre>
-       *
-       * <code>uint32 first_day_start_time = 14;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearFirstDayStartTime() {
 
         firstDayStartTime_ = 0;
@@ -1271,53 +1193,19 @@ public final class SeaLampActivityInfoOuterClass {
       }
 
       private boolean isContentClosed_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_content_closed = 11;</code>
-       * @return The isContentClosed.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsContentClosed() {
         return isContentClosed_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_content_closed = 11;</code>
-       * @param value The isContentClosed to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setIsContentClosed(boolean value) {
 
         isContentClosed_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>bool is_content_closed = 11;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearIsContentClosed() {
 
         isContentClosed_ = false;

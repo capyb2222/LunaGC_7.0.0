@@ -16,52 +16,12 @@ public final class WorktopOptionNotifyOuterClass {
 
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     java.util.List<java.lang.Integer> getOptionListList();
 
     int getOptionListCount();
 
     int getOptionList(int index);
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>repeated uint32 option_list = 13;</code>
-     * @return A list containing the optionList.
-     */
-    java.util.List<java.lang.Integer> getOptionListList();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>repeated uint32 option_list = 13;</code>
-     * @return The count of optionList.
-     */
-    int getOptionListCount();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>repeated uint32 option_list = 13;</code>
-     * @param index The index of the element to return.
-     * @return The optionList at the given index.
-     */
-    int getOptionList(int index);
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 gadget_entity_id = 11;</code>
-     * @return The gadgetEntityId.
-     */
->>>>>>> origin/6.5.0
     int getGadgetEntityId();
   }
 
@@ -172,51 +132,17 @@ public final class WorktopOptionNotifyOuterClass {
 
     public static final int OPTION_LIST_FIELD_NUMBER = 15;
     private com.google.protobuf.Internal.IntList optionList_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>repeated uint32 option_list = 13;</code>
-     * @return A list containing the optionList.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getOptionListList() {
       return optionList_;
     }
-<<<<<<< HEAD
 
     public int getOptionListCount() {
       return optionList_.size();
     }
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>repeated uint32 option_list = 13;</code>
-     * @return The count of optionList.
-     */
-    public int getOptionListCount() {
-      return optionList_.size();
-    }
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>repeated uint32 option_list = 13;</code>
-     * @param index The index of the element to return.
-     * @return The optionList at the given index.
-     */
->>>>>>> origin/6.5.0
     public int getOptionList(int index) {
       return optionList_.getInt(index);
     }
@@ -224,18 +150,7 @@ public final class WorktopOptionNotifyOuterClass {
 
     public static final int GADGET_ENTITY_ID_FIELD_NUMBER = 3;
     private int gadgetEntityId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 gadget_entity_id = 11;</code>
-     * @return The gadgetEntityId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getGadgetEntityId() {
       return gadgetEntityId_;
@@ -594,24 +509,12 @@ public final class WorktopOptionNotifyOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>repeated uint32 option_list = 13;</code>
-       * @return A list containing the optionList.
-       */
->>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getOptionListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(optionList_) : optionList_;
       }
-<<<<<<< HEAD
 
       public int getOptionListCount() {
         return optionList_.size();
@@ -621,41 +524,6 @@ public final class WorktopOptionNotifyOuterClass {
         return optionList_.getInt(index);
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>repeated uint32 option_list = 13;</code>
-       * @return The count of optionList.
-       */
-      public int getOptionListCount() {
-        return optionList_.size();
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>repeated uint32 option_list = 13;</code>
-       * @param index The index of the element to return.
-       * @return The optionList at the given index.
-       */
-      public int getOptionList(int index) {
-        return optionList_.getInt(index);
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>repeated uint32 option_list = 13;</code>
-       * @param index The index to set the value at.
-       * @param value The optionList to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setOptionList(
           int index, int value) {
         ensureOptionListIsMutable();
@@ -663,38 +531,14 @@ public final class WorktopOptionNotifyOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>repeated uint32 option_list = 13;</code>
-       * @param value The optionList to add.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder addOptionList(int value) {
         ensureOptionListIsMutable();
         optionList_.addInt(value);
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>repeated uint32 option_list = 13;</code>
-       * @param values The optionList to add.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder addAllOptionList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureOptionListIsMutable();
@@ -703,18 +547,7 @@ public final class WorktopOptionNotifyOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>repeated uint32 option_list = 13;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearOptionList() {
         optionList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -723,53 +556,19 @@ public final class WorktopOptionNotifyOuterClass {
       }
 
       private int gadgetEntityId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 gadget_entity_id = 11;</code>
-       * @return The gadgetEntityId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getGadgetEntityId() {
         return gadgetEntityId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 gadget_entity_id = 11;</code>
-       * @param value The gadgetEntityId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setGadgetEntityId(int value) {
 
         gadgetEntityId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 gadget_entity_id = 11;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearGadgetEntityId() {
 
         gadgetEntityId_ = 0;

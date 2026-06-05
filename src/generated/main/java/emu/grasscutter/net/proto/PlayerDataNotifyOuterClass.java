@@ -18,7 +18,6 @@ public final class PlayerDataNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:PlayerDataNotify)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     java.lang.String getNickName();
 
     com.google.protobuf.ByteString
@@ -26,43 +25,6 @@ public final class PlayerDataNotifyOuterClass {
 
     int getPropMapCount();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string nick_name = 1;</code>
-     * @return The nickName.
-     */
-    java.lang.String getNickName();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string nick_name = 1;</code>
-     * @return The bytes for nickName.
-     */
-    com.google.protobuf.ByteString
-        getNickNameBytes();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
-     */
-    int getPropMapCount();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
-     */
->>>>>>> origin/6.5.0
     boolean containsPropMap(
         int key);
     /**
@@ -71,81 +33,21 @@ public final class PlayerDataNotifyOuterClass {
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue>
     getPropMap();
-<<<<<<< HEAD
 
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue>
     getPropMapMap();
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
-     */
-    java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue>
-    getPropMapMap();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
-     */
->>>>>>> origin/6.5.0
 
     emu.grasscutter.net.proto.PropValueOuterClass.PropValue getPropMapOrDefault(
         int key,
         emu.grasscutter.net.proto.PropValueOuterClass.PropValue defaultValue);
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
-     */
->>>>>>> origin/6.5.0
 
     emu.grasscutter.net.proto.PropValueOuterClass.PropValue getPropMapOrThrow(
         int key);
 
-<<<<<<< HEAD
     boolean getIsFirstLoginToday();
 
     int getRegionId();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>bool is_first_login_today = 3;</code>
-     * @return The isFirstLoginToday.
-     */
-    boolean getIsFirstLoginToday();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 region_id = 14;</code>
-     * @return The regionId.
-     */
-    int getRegionId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint64 server_time = 2;</code>
-     * @return The serverTime.
-     */
->>>>>>> origin/6.5.0
     long getServerTime();
   }
   /**
@@ -279,18 +181,7 @@ public final class PlayerDataNotifyOuterClass {
 
     public static final int NICK_NAME_FIELD_NUMBER = 5;
     private volatile java.lang.Object nickName_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string nick_name = 1;</code>
-     * @return The nickName.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getNickName() {
       java.lang.Object ref = nickName_;
@@ -304,18 +195,7 @@ public final class PlayerDataNotifyOuterClass {
         return s;
       }
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string nick_name = 1;</code>
-     * @return The bytes for nickName.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getNickNameBytes() {
@@ -357,16 +237,6 @@ public final class PlayerDataNotifyOuterClass {
     public int getPropMapCount() {
       return internalGetPropMap().getMap().size();
     }
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
-     */
->>>>>>> origin/6.5.0
 
     @java.lang.Override
     public boolean containsPropMap(
@@ -382,33 +252,13 @@ public final class PlayerDataNotifyOuterClass {
     public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> getPropMap() {
       return getPropMapMap();
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> getPropMapMap() {
       return internalGetPropMap().getMap();
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public emu.grasscutter.net.proto.PropValueOuterClass.PropValue getPropMapOrDefault(
@@ -419,17 +269,7 @@ public final class PlayerDataNotifyOuterClass {
           internalGetPropMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public emu.grasscutter.net.proto.PropValueOuterClass.PropValue getPropMapOrThrow(
@@ -445,18 +285,7 @@ public final class PlayerDataNotifyOuterClass {
 
     public static final int IS_FIRST_LOGIN_TODAY_FIELD_NUMBER = 7;
     private boolean isFirstLoginToday_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>bool is_first_login_today = 3;</code>
-     * @return The isFirstLoginToday.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsFirstLoginToday() {
       return isFirstLoginToday_;
@@ -464,18 +293,7 @@ public final class PlayerDataNotifyOuterClass {
 
     public static final int REGION_ID_FIELD_NUMBER = 11;
     private int regionId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 region_id = 14;</code>
-     * @return The regionId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRegionId() {
       return regionId_;
@@ -483,18 +301,7 @@ public final class PlayerDataNotifyOuterClass {
 
     public static final int SERVER_TIME_FIELD_NUMBER = 1;
     private long serverTime_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint64 server_time = 2;</code>
-     * @return The serverTime.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public long getServerTime() {
       return serverTime_;
@@ -911,18 +718,7 @@ public final class PlayerDataNotifyOuterClass {
       private int bitField0_;
 
       private java.lang.Object nickName_ = "";
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string nick_name = 1;</code>
-       * @return The nickName.
-       */
->>>>>>> origin/6.5.0
       public java.lang.String getNickName() {
         java.lang.Object ref = nickName_;
         if (!(ref instanceof java.lang.String)) {
@@ -935,18 +731,7 @@ public final class PlayerDataNotifyOuterClass {
           return (java.lang.String) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string nick_name = 1;</code>
-       * @return The bytes for nickName.
-       */
->>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getNickNameBytes() {
         java.lang.Object ref = nickName_;
@@ -960,19 +745,7 @@ public final class PlayerDataNotifyOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string nick_name = 1;</code>
-       * @param value The nickName to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setNickName(
           java.lang.String value) {
         if (value == null) {
@@ -983,37 +756,14 @@ public final class PlayerDataNotifyOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string nick_name = 1;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearNickName() {
 
         nickName_ = getDefaultInstance().getNickName();
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string nick_name = 1;</code>
-       * @param value The bytes for nickName to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setNickNameBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -1052,16 +802,6 @@ public final class PlayerDataNotifyOuterClass {
       public int getPropMapCount() {
         return internalGetPropMap().getMap().size();
       }
-<<<<<<< HEAD
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
-       */
->>>>>>> origin/6.5.0
 
       @java.lang.Override
       public boolean containsPropMap(
@@ -1077,33 +817,13 @@ public final class PlayerDataNotifyOuterClass {
       public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> getPropMap() {
         return getPropMapMap();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> getPropMapMap() {
         return internalGetPropMap().getMap();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public emu.grasscutter.net.proto.PropValueOuterClass.PropValue getPropMapOrDefault(
@@ -1114,17 +834,7 @@ public final class PlayerDataNotifyOuterClass {
             internalGetPropMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public emu.grasscutter.net.proto.PropValueOuterClass.PropValue getPropMapOrThrow(
@@ -1143,16 +853,6 @@ public final class PlayerDataNotifyOuterClass {
             .clear();
         return this;
       }
-<<<<<<< HEAD
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
-       */
->>>>>>> origin/6.5.0
 
       public Builder removePropMap(
           int key) {
@@ -1169,17 +869,7 @@ public final class PlayerDataNotifyOuterClass {
       getMutablePropMap() {
         return internalGetMutablePropMap().getMutableMap();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder putPropMap(
           int key,
           emu.grasscutter.net.proto.PropValueOuterClass.PropValue value) {
@@ -1189,16 +879,6 @@ public final class PlayerDataNotifyOuterClass {
             .put(key, value);
         return this;
       }
-<<<<<<< HEAD
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
-       */
->>>>>>> origin/6.5.0
 
       public Builder putAllPropMap(
           java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> values) {
@@ -1208,53 +888,19 @@ public final class PlayerDataNotifyOuterClass {
       }
 
       private boolean isFirstLoginToday_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>bool is_first_login_today = 3;</code>
-       * @return The isFirstLoginToday.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsFirstLoginToday() {
         return isFirstLoginToday_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>bool is_first_login_today = 3;</code>
-       * @param value The isFirstLoginToday to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setIsFirstLoginToday(boolean value) {
 
         isFirstLoginToday_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>bool is_first_login_today = 3;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearIsFirstLoginToday() {
 
         isFirstLoginToday_ = false;
@@ -1263,53 +909,19 @@ public final class PlayerDataNotifyOuterClass {
       }
 
       private int regionId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 region_id = 14;</code>
-       * @return The regionId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRegionId() {
         return regionId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 region_id = 14;</code>
-       * @param value The regionId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setRegionId(int value) {
 
         regionId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 region_id = 14;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearRegionId() {
 
         regionId_ = 0;
@@ -1318,53 +930,19 @@ public final class PlayerDataNotifyOuterClass {
       }
 
       private long serverTime_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint64 server_time = 2;</code>
-       * @return The serverTime.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public long getServerTime() {
         return serverTime_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint64 server_time = 2;</code>
-       * @param value The serverTime to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setServerTime(long value) {
 
         serverTime_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint64 server_time = 2;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearServerTime() {
 
         serverTime_ = 0L;

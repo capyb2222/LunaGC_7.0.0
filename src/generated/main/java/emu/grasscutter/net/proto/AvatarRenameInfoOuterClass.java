@@ -30,17 +30,6 @@ public final class AvatarRenameInfoOuterClass {
     com.google.protobuf.ByteString
         getLPLIECDFGGGBytes();
 
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 avatar_id = 14;</code>
-     * @return The avatarId.
-     */
->>>>>>> origin/6.5.0
     int getAvatarId();
   }
   /**
@@ -172,18 +161,7 @@ public final class AvatarRenameInfoOuterClass {
 
     public static final int AVATAR_ID_FIELD_NUMBER = 3;
     private int avatarId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 avatar_id = 14;</code>
-     * @return The avatarId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getAvatarId() {
       return avatarId_;
@@ -585,53 +563,19 @@ public final class AvatarRenameInfoOuterClass {
       }
 
       private int avatarId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 avatar_id = 14;</code>
-       * @return The avatarId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getAvatarId() {
         return avatarId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 avatar_id = 14;</code>
-       * @param value The avatarId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setAvatarId(int value) {
 
         avatarId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 avatar_id = 14;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearAvatarId() {
 
         avatarId_ = 0;

@@ -18,29 +18,8 @@ public final class ProfilePictureOuterClass {
       // @@protoc_insertion_point(interface_extends:ProfilePicture)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getCostumeId();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 costume_id = 2;</code>
-     * @return The costumeId.
-     */
-    int getCostumeId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 avatar_id = 1;</code>
-     * @return The avatarId.
-     */
->>>>>>> origin/6.5.0
     int getAvatarId();
 
     /**
@@ -143,18 +122,7 @@ public final class ProfilePictureOuterClass {
 
     public static final int COSTUME_ID_FIELD_NUMBER = 2;
     private int costumeId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 costume_id = 2;</code>
-     * @return The costumeId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCostumeId() {
       return costumeId_;
@@ -162,18 +130,7 @@ public final class ProfilePictureOuterClass {
 
     public static final int AVATAR_ID_FIELD_NUMBER = 1;
     private int avatarId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 avatar_id = 1;</code>
-     * @return The avatarId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getAvatarId() {
       return avatarId_;
@@ -527,53 +484,19 @@ public final class ProfilePictureOuterClass {
       }
 
       private int costumeId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 costume_id = 2;</code>
-       * @return The costumeId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCostumeId() {
         return costumeId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 costume_id = 2;</code>
-       * @param value The costumeId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setCostumeId(int value) {
 
         costumeId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 costume_id = 2;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearCostumeId() {
 
         costumeId_ = 0;
@@ -582,53 +505,19 @@ public final class ProfilePictureOuterClass {
       }
 
       private int avatarId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 avatar_id = 1;</code>
-       * @return The avatarId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getAvatarId() {
         return avatarId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 avatar_id = 1;</code>
-       * @param value The avatarId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setAvatarId(int value) {
 
         avatarId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 avatar_id = 1;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearAvatarId() {
 
         avatarId_ = 0;

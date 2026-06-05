@@ -18,29 +18,8 @@ public final class UnionCmdOuterClass {
       // @@protoc_insertion_point(interface_extends:UnionCmd)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     com.google.protobuf.ByteString getBody();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>bytes body = 12;</code>
-     * @return The body.
-     */
-    com.google.protobuf.ByteString getBody();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 message_id = 10;</code>
-     * @return The messageId.
-     */
->>>>>>> origin/6.5.0
     int getMessageId();
   }
   /**
@@ -133,18 +112,7 @@ public final class UnionCmdOuterClass {
 
     public static final int BODY_FIELD_NUMBER = 8;
     private com.google.protobuf.ByteString body_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>bytes body = 12;</code>
-     * @return The body.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString getBody() {
       return body_;
@@ -152,18 +120,7 @@ public final class UnionCmdOuterClass {
 
     public static final int MESSAGE_ID_FIELD_NUMBER = 1;
     private int messageId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 message_id = 10;</code>
-     * @return The messageId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getMessageId() {
       return messageId_;
@@ -489,35 +446,12 @@ public final class UnionCmdOuterClass {
       }
 
       private com.google.protobuf.ByteString body_ = com.google.protobuf.ByteString.EMPTY;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>bytes body = 12;</code>
-       * @return The body.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public com.google.protobuf.ByteString getBody() {
         return body_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>bytes body = 12;</code>
-       * @param value The body to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setBody(com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
@@ -527,18 +461,7 @@ public final class UnionCmdOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>bytes body = 12;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearBody() {
 
         body_ = getDefaultInstance().getBody();
@@ -547,53 +470,19 @@ public final class UnionCmdOuterClass {
       }
 
       private int messageId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 message_id = 10;</code>
-       * @return The messageId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getMessageId() {
         return messageId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 message_id = 10;</code>
-       * @param value The messageId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setMessageId(int value) {
 
         messageId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 message_id = 10;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearMessageId() {
 
         messageId_ = 0;

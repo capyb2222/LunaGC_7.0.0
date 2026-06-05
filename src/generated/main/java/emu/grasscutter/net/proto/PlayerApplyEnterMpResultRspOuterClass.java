@@ -18,17 +18,6 @@ public final class PlayerApplyEnterMpResultRspOuterClass {
       // @@protoc_insertion_point(interface_extends:PlayerApplyEnterMpResultRsp)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>uint32 apply_uid = 1;</code>
-     * @return The applyUid.
-     */
->>>>>>> origin/6.5.0
     int getApplyUid();
 
     /**
@@ -149,18 +138,7 @@ public final class PlayerApplyEnterMpResultRspOuterClass {
 
     public static final int APPLY_UID_FIELD_NUMBER = 1;
     private int applyUid_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>uint32 apply_uid = 1;</code>
-     * @return The applyUid.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getApplyUid() {
       return applyUid_;
@@ -538,53 +516,19 @@ public final class PlayerApplyEnterMpResultRspOuterClass {
       }
 
       private int applyUid_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>uint32 apply_uid = 1;</code>
-       * @return The applyUid.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getApplyUid() {
         return applyUid_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>uint32 apply_uid = 1;</code>
-       * @param value The applyUid to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setApplyUid(int value) {
 
         applyUid_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>uint32 apply_uid = 1;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearApplyUid() {
 
         applyUid_ = 0;

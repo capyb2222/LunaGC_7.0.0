@@ -18,41 +18,10 @@ public final class AvatarSkillUpgradeReqOuterClass {
       // @@protoc_insertion_point(interface_extends:AvatarSkillUpgradeReq)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getAvatarSkillId();
 
     int getOldLevel();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>uint32 avatar_skill_id = 14;</code>
-     * @return The avatarSkillId.
-     */
-    int getAvatarSkillId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>uint32 old_level = 11;</code>
-     * @return The oldLevel.
-     */
-    int getOldLevel();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>uint64 avatar_guid = 3;</code>
-     * @return The avatarGuid.
-     */
->>>>>>> origin/6.5.0
     long getAvatarGuid();
   }
   /**
@@ -153,18 +122,7 @@ public final class AvatarSkillUpgradeReqOuterClass {
 
     public static final int AVATAR_SKILL_ID_FIELD_NUMBER = 14;
     private int avatarSkillId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>uint32 avatar_skill_id = 14;</code>
-     * @return The avatarSkillId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getAvatarSkillId() {
       return avatarSkillId_;
@@ -172,18 +130,7 @@ public final class AvatarSkillUpgradeReqOuterClass {
 
     public static final int OLD_LEVEL_FIELD_NUMBER = 8;
     private int oldLevel_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>uint32 old_level = 11;</code>
-     * @return The oldLevel.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getOldLevel() {
       return oldLevel_;
@@ -191,18 +138,7 @@ public final class AvatarSkillUpgradeReqOuterClass {
 
     public static final int AVATAR_GUID_FIELD_NUMBER = 10;
     private long avatarGuid_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>uint64 avatar_guid = 3;</code>
-     * @return The avatarGuid.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public long getAvatarGuid() {
       return avatarGuid_;
@@ -550,53 +486,19 @@ public final class AvatarSkillUpgradeReqOuterClass {
       }
 
       private int avatarSkillId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 avatar_skill_id = 14;</code>
-       * @return The avatarSkillId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getAvatarSkillId() {
         return avatarSkillId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 avatar_skill_id = 14;</code>
-       * @param value The avatarSkillId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setAvatarSkillId(int value) {
 
         avatarSkillId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 avatar_skill_id = 14;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearAvatarSkillId() {
 
         avatarSkillId_ = 0;
@@ -605,53 +507,19 @@ public final class AvatarSkillUpgradeReqOuterClass {
       }
 
       private int oldLevel_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 old_level = 11;</code>
-       * @return The oldLevel.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getOldLevel() {
         return oldLevel_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 old_level = 11;</code>
-       * @param value The oldLevel to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setOldLevel(int value) {
 
         oldLevel_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint32 old_level = 11;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearOldLevel() {
 
         oldLevel_ = 0;
@@ -660,53 +528,19 @@ public final class AvatarSkillUpgradeReqOuterClass {
       }
 
       private long avatarGuid_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint64 avatar_guid = 3;</code>
-       * @return The avatarGuid.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public long getAvatarGuid() {
         return avatarGuid_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint64 avatar_guid = 3;</code>
-       * @param value The avatarGuid to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setAvatarGuid(long value) {
 
         avatarGuid_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>uint64 avatar_guid = 3;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearAvatarGuid() {
 
         avatarGuid_ = 0L;

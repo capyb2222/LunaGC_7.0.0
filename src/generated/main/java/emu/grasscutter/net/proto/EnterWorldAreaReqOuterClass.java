@@ -18,29 +18,8 @@ public final class EnterWorldAreaReqOuterClass {
       // @@protoc_insertion_point(interface_extends:EnterWorldAreaReq)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getAreaType();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 area_type = 13;</code>
-     * @return The areaType.
-     */
-    int getAreaType();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 area_id = 8;</code>
-     * @return The areaId.
-     */
->>>>>>> origin/6.5.0
     int getAreaId();
   }
   /**
@@ -136,18 +115,7 @@ public final class EnterWorldAreaReqOuterClass {
 
     public static final int AREA_TYPE_FIELD_NUMBER = 1;
     private int areaType_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 area_type = 13;</code>
-     * @return The areaType.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getAreaType() {
       return areaType_;
@@ -155,18 +123,7 @@ public final class EnterWorldAreaReqOuterClass {
 
     public static final int AREA_ID_FIELD_NUMBER = 9;
     private int areaId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 area_id = 8;</code>
-     * @return The areaId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getAreaId() {
       return areaId_;
@@ -496,53 +453,19 @@ public final class EnterWorldAreaReqOuterClass {
       }
 
       private int areaType_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 area_type = 13;</code>
-       * @return The areaType.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getAreaType() {
         return areaType_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 area_type = 13;</code>
-       * @param value The areaType to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setAreaType(int value) {
 
         areaType_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 area_type = 13;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearAreaType() {
 
         areaType_ = 0;
@@ -551,53 +474,19 @@ public final class EnterWorldAreaReqOuterClass {
       }
 
       private int areaId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 area_id = 8;</code>
-       * @return The areaId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getAreaId() {
         return areaId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 area_id = 8;</code>
-       * @param value The areaId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setAreaId(int value) {
 
         areaId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 area_id = 8;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearAreaId() {
 
         areaId_ = 0;

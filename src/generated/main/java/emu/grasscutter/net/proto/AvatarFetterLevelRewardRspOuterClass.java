@@ -18,53 +18,12 @@ public final class AvatarFetterLevelRewardRspOuterClass {
       // @@protoc_insertion_point(interface_extends:AvatarFetterLevelRewardRsp)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     long getAvatarGuid();
 
     int getFetterLevel();
 
     int getRetcode();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint64 avatar_guid = 12;</code>
-     * @return The avatarGuid.
-     */
-    long getAvatarGuid();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 fetter_level = 6;</code>
-     * @return The fetterLevel.
-     */
-    int getFetterLevel();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>int32 retcode = 10;</code>
-     * @return The retcode.
-     */
-    int getRetcode();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 reward_id = 9;</code>
-     * @return The rewardId.
-     */
->>>>>>> origin/6.5.0
     int getRewardId();
   }
   /**
@@ -170,18 +129,7 @@ public final class AvatarFetterLevelRewardRspOuterClass {
 
     public static final int AVATAR_GUID_FIELD_NUMBER = 1;
     private long avatarGuid_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint64 avatar_guid = 12;</code>
-     * @return The avatarGuid.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public long getAvatarGuid() {
       return avatarGuid_;
@@ -189,18 +137,7 @@ public final class AvatarFetterLevelRewardRspOuterClass {
 
     public static final int FETTER_LEVEL_FIELD_NUMBER = 6;
     private int fetterLevel_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 fetter_level = 6;</code>
-     * @return The fetterLevel.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getFetterLevel() {
       return fetterLevel_;
@@ -208,18 +145,7 @@ public final class AvatarFetterLevelRewardRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 10;
     private int retcode_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>int32 retcode = 10;</code>
-     * @return The retcode.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -227,18 +153,7 @@ public final class AvatarFetterLevelRewardRspOuterClass {
 
     public static final int REWARD_ID_FIELD_NUMBER = 9;
     private int rewardId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 reward_id = 9;</code>
-     * @return The rewardId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRewardId() {
       return rewardId_;
@@ -603,53 +518,19 @@ public final class AvatarFetterLevelRewardRspOuterClass {
       }
 
       private long avatarGuid_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint64 avatar_guid = 12;</code>
-       * @return The avatarGuid.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public long getAvatarGuid() {
         return avatarGuid_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint64 avatar_guid = 12;</code>
-       * @param value The avatarGuid to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setAvatarGuid(long value) {
 
         avatarGuid_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint64 avatar_guid = 12;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearAvatarGuid() {
 
         avatarGuid_ = 0L;
@@ -658,53 +539,19 @@ public final class AvatarFetterLevelRewardRspOuterClass {
       }
 
       private int fetterLevel_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 fetter_level = 6;</code>
-       * @return The fetterLevel.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getFetterLevel() {
         return fetterLevel_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 fetter_level = 6;</code>
-       * @param value The fetterLevel to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setFetterLevel(int value) {
 
         fetterLevel_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 fetter_level = 6;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearFetterLevel() {
 
         fetterLevel_ = 0;
@@ -713,53 +560,19 @@ public final class AvatarFetterLevelRewardRspOuterClass {
       }
 
       private int retcode_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 10;</code>
-       * @return The retcode.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 10;</code>
-       * @param value The retcode to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
 
         retcode_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 10;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearRetcode() {
 
         retcode_ = 0;
@@ -768,53 +581,19 @@ public final class AvatarFetterLevelRewardRspOuterClass {
       }
 
       private int rewardId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 reward_id = 9;</code>
-       * @return The rewardId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRewardId() {
         return rewardId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 reward_id = 9;</code>
-       * @param value The rewardId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setRewardId(int value) {
 
         rewardId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 reward_id = 9;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearRewardId() {
 
         rewardId_ = 0;

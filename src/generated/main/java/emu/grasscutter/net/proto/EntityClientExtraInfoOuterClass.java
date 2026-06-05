@@ -18,38 +18,10 @@ public final class EntityClientExtraInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:EntityClientExtraInfo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     boolean hasSkillAnchorPosition();
 
     emu.grasscutter.net.proto.VectorOuterClass.Vector getSkillAnchorPosition();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.Vector skill_anchor_position = 1;</code>
-     * @return Whether the skillAnchorPosition field is set.
-     */
-    boolean hasSkillAnchorPosition();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.Vector skill_anchor_position = 1;</code>
-     * @return The skillAnchorPosition.
-     */
-    emu.grasscutter.net.proto.VectorOuterClass.Vector getSkillAnchorPosition();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.Vector skill_anchor_position = 1;</code>
-     */
->>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getSkillAnchorPositionOrBuilder();
   }
   /**
@@ -144,49 +116,17 @@ public final class EntityClientExtraInfoOuterClass {
 
     public static final int SKILL_ANCHOR_POSITION_FIELD_NUMBER = 1;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector skillAnchorPosition_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.Vector skill_anchor_position = 1;</code>
-     * @return Whether the skillAnchorPosition field is set.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasSkillAnchorPosition() {
       return skillAnchorPosition_ != null;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.Vector skill_anchor_position = 1;</code>
-     * @return The skillAnchorPosition.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.Vector getSkillAnchorPosition() {
       return skillAnchorPosition_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : skillAnchorPosition_;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.Vector skill_anchor_position = 1;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getSkillAnchorPositionOrBuilder() {
       return getSkillAnchorPosition();
@@ -510,33 +450,11 @@ public final class EntityClientExtraInfoOuterClass {
       private emu.grasscutter.net.proto.VectorOuterClass.Vector skillAnchorPosition_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> skillAnchorPositionBuilder_;
-<<<<<<< HEAD
 
       public boolean hasSkillAnchorPosition() {
         return skillAnchorPositionBuilder_ != null || skillAnchorPosition_ != null;
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.Vector skill_anchor_position = 1;</code>
-       * @return Whether the skillAnchorPosition field is set.
-       */
-      public boolean hasSkillAnchorPosition() {
-        return skillAnchorPositionBuilder_ != null || skillAnchorPosition_ != null;
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.Vector skill_anchor_position = 1;</code>
-       * @return The skillAnchorPosition.
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.Vector getSkillAnchorPosition() {
         if (skillAnchorPositionBuilder_ == null) {
           return skillAnchorPosition_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : skillAnchorPosition_;
@@ -544,17 +462,7 @@ public final class EntityClientExtraInfoOuterClass {
           return skillAnchorPositionBuilder_.getMessage();
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.Vector skill_anchor_position = 1;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setSkillAnchorPosition(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (skillAnchorPositionBuilder_ == null) {
           if (value == null) {
@@ -568,17 +476,7 @@ public final class EntityClientExtraInfoOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.Vector skill_anchor_position = 1;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setSkillAnchorPosition(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
         if (skillAnchorPositionBuilder_ == null) {
@@ -590,17 +488,7 @@ public final class EntityClientExtraInfoOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.Vector skill_anchor_position = 1;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder mergeSkillAnchorPosition(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (skillAnchorPositionBuilder_ == null) {
           if (skillAnchorPosition_ != null) {
@@ -616,17 +504,7 @@ public final class EntityClientExtraInfoOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.Vector skill_anchor_position = 1;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder clearSkillAnchorPosition() {
         if (skillAnchorPositionBuilder_ == null) {
           skillAnchorPosition_ = null;
@@ -638,33 +516,13 @@ public final class EntityClientExtraInfoOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.Vector skill_anchor_position = 1;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getSkillAnchorPositionBuilder() {
 
         onChanged();
         return getSkillAnchorPositionFieldBuilder().getBuilder();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.Vector skill_anchor_position = 1;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getSkillAnchorPositionOrBuilder() {
         if (skillAnchorPositionBuilder_ != null) {
           return skillAnchorPositionBuilder_.getMessageOrBuilder();
@@ -673,17 +531,7 @@ public final class EntityClientExtraInfoOuterClass {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : skillAnchorPosition_;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.Vector skill_anchor_position = 1;</code>
-       */
->>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getSkillAnchorPositionFieldBuilder() {

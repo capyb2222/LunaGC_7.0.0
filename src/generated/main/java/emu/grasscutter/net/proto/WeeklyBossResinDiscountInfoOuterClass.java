@@ -18,53 +18,12 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:WeeklyBossResinDiscountInfo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getDiscountNumLimit();
 
     int getResinCost();
 
     int getDiscountNum();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 discount_num_limit = 2;</code>
-     * @return The discountNumLimit.
-     */
-    int getDiscountNumLimit();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 resin_cost = 3;</code>
-     * @return The resinCost.
-     */
-    int getResinCost();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 discount_num = 1;</code>
-     * @return The discountNum.
-     */
-    int getDiscountNum();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 original_resin_cost = 4;</code>
-     * @return The originalResinCost.
-     */
->>>>>>> origin/6.5.0
     int getOriginalResinCost();
   }
   /**
@@ -166,18 +125,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
 
     public static final int DISCOUNT_NUM_LIMIT_FIELD_NUMBER = 2;
     private int discountNumLimit_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 discount_num_limit = 2;</code>
-     * @return The discountNumLimit.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getDiscountNumLimit() {
       return discountNumLimit_;
@@ -185,18 +133,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
 
     public static final int RESIN_COST_FIELD_NUMBER = 3;
     private int resinCost_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 resin_cost = 3;</code>
-     * @return The resinCost.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getResinCost() {
       return resinCost_;
@@ -204,18 +141,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
 
     public static final int DISCOUNT_NUM_FIELD_NUMBER = 1;
     private int discountNum_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 discount_num = 1;</code>
-     * @return The discountNum.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getDiscountNum() {
       return discountNum_;
@@ -223,18 +149,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
 
     public static final int ORIGINAL_RESIN_COST_FIELD_NUMBER = 4;
     private int originalResinCost_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 original_resin_cost = 4;</code>
-     * @return The originalResinCost.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getOriginalResinCost() {
       return originalResinCost_;
@@ -594,53 +509,19 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
       }
 
       private int discountNumLimit_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 discount_num_limit = 2;</code>
-       * @return The discountNumLimit.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getDiscountNumLimit() {
         return discountNumLimit_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 discount_num_limit = 2;</code>
-       * @param value The discountNumLimit to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setDiscountNumLimit(int value) {
 
         discountNumLimit_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 discount_num_limit = 2;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearDiscountNumLimit() {
 
         discountNumLimit_ = 0;
@@ -649,53 +530,19 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
       }
 
       private int resinCost_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 resin_cost = 3;</code>
-       * @return The resinCost.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getResinCost() {
         return resinCost_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 resin_cost = 3;</code>
-       * @param value The resinCost to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setResinCost(int value) {
 
         resinCost_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 resin_cost = 3;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearResinCost() {
 
         resinCost_ = 0;
@@ -704,53 +551,19 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
       }
 
       private int discountNum_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 discount_num = 1;</code>
-       * @return The discountNum.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getDiscountNum() {
         return discountNum_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 discount_num = 1;</code>
-       * @param value The discountNum to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setDiscountNum(int value) {
 
         discountNum_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 discount_num = 1;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearDiscountNum() {
 
         discountNum_ = 0;
@@ -759,53 +572,19 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
       }
 
       private int originalResinCost_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 original_resin_cost = 4;</code>
-       * @return The originalResinCost.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getOriginalResinCost() {
         return originalResinCost_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 original_resin_cost = 4;</code>
-       * @param value The originalResinCost to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setOriginalResinCost(int value) {
 
         originalResinCost_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 original_resin_cost = 4;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearOriginalResinCost() {
 
         originalResinCost_ = 0;

@@ -18,7 +18,6 @@ public final class GmTalkRspOuterClass {
       // @@protoc_insertion_point(interface_extends:GmTalkRsp)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     java.lang.String getRetmsg();
 
     com.google.protobuf.ByteString
@@ -29,56 +28,6 @@ public final class GmTalkRspOuterClass {
     com.google.protobuf.ByteString
         getMsgBytes();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string retmsg = 7;</code>
-     * @return The retmsg.
-     */
-    java.lang.String getRetmsg();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string retmsg = 7;</code>
-     * @return The bytes for retmsg.
-     */
-    com.google.protobuf.ByteString
-        getRetmsgBytes();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string msg = 3;</code>
-     * @return The msg.
-     */
-    java.lang.String getMsg();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string msg = 3;</code>
-     * @return The bytes for msg.
-     */
-    com.google.protobuf.ByteString
-        getMsgBytes();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>int32 retcode = 14;</code>
-     * @return The retcode.
-     */
->>>>>>> origin/6.5.0
     int getRetcode();
   }
   /**
@@ -183,18 +132,7 @@ public final class GmTalkRspOuterClass {
 
     public static final int RETMSG_FIELD_NUMBER = 4;
     private volatile java.lang.Object retmsg_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string retmsg = 7;</code>
-     * @return The retmsg.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getRetmsg() {
       java.lang.Object ref = retmsg_;
@@ -208,18 +146,7 @@ public final class GmTalkRspOuterClass {
         return s;
       }
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string retmsg = 7;</code>
-     * @return The bytes for retmsg.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getRetmsgBytes() {
@@ -237,18 +164,7 @@ public final class GmTalkRspOuterClass {
 
     public static final int MSG_FIELD_NUMBER = 2;
     private volatile java.lang.Object msg_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string msg = 3;</code>
-     * @return The msg.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getMsg() {
       java.lang.Object ref = msg_;
@@ -262,18 +178,7 @@ public final class GmTalkRspOuterClass {
         return s;
       }
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string msg = 3;</code>
-     * @return The bytes for msg.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getMsgBytes() {
@@ -291,18 +196,7 @@ public final class GmTalkRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 3;
     private int retcode_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>int32 retcode = 14;</code>
-     * @return The retcode.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -649,18 +543,7 @@ public final class GmTalkRspOuterClass {
       }
 
       private java.lang.Object retmsg_ = "";
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string retmsg = 7;</code>
-       * @return The retmsg.
-       */
->>>>>>> origin/6.5.0
       public java.lang.String getRetmsg() {
         java.lang.Object ref = retmsg_;
         if (!(ref instanceof java.lang.String)) {
@@ -673,18 +556,7 @@ public final class GmTalkRspOuterClass {
           return (java.lang.String) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string retmsg = 7;</code>
-       * @return The bytes for retmsg.
-       */
->>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getRetmsgBytes() {
         java.lang.Object ref = retmsg_;
@@ -698,19 +570,7 @@ public final class GmTalkRspOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string retmsg = 7;</code>
-       * @param value The retmsg to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setRetmsg(
           java.lang.String value) {
         if (value == null) {
@@ -721,37 +581,14 @@ public final class GmTalkRspOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string retmsg = 7;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearRetmsg() {
 
         retmsg_ = getDefaultInstance().getRetmsg();
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string retmsg = 7;</code>
-       * @param value The bytes for retmsg to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setRetmsgBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -765,18 +602,7 @@ public final class GmTalkRspOuterClass {
       }
 
       private java.lang.Object msg_ = "";
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string msg = 3;</code>
-       * @return The msg.
-       */
->>>>>>> origin/6.5.0
       public java.lang.String getMsg() {
         java.lang.Object ref = msg_;
         if (!(ref instanceof java.lang.String)) {
@@ -789,18 +615,7 @@ public final class GmTalkRspOuterClass {
           return (java.lang.String) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string msg = 3;</code>
-       * @return The bytes for msg.
-       */
->>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getMsgBytes() {
         java.lang.Object ref = msg_;
@@ -814,19 +629,7 @@ public final class GmTalkRspOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string msg = 3;</code>
-       * @param value The msg to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setMsg(
           java.lang.String value) {
         if (value == null) {
@@ -837,37 +640,14 @@ public final class GmTalkRspOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string msg = 3;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearMsg() {
 
         msg_ = getDefaultInstance().getMsg();
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string msg = 3;</code>
-       * @param value The bytes for msg to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setMsgBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -881,53 +661,19 @@ public final class GmTalkRspOuterClass {
       }
 
       private int retcode_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 14;</code>
-       * @return The retcode.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 14;</code>
-       * @param value The retcode to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
 
         retcode_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>int32 retcode = 14;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearRetcode() {
 
         retcode_ = 0;

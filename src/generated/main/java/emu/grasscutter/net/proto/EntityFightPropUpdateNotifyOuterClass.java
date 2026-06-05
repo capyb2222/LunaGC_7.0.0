@@ -132,20 +132,12 @@ public final class EntityFightPropUpdateNotifyOuterClass {
             case 0:
               done = true;
               break;
-<<<<<<< HEAD
             case 40: {
-=======
-            case 80: {
->>>>>>> origin/6.5.0
 
               entityId_ = input.readUInt32();
               break;
             }
-<<<<<<< HEAD
             case 90: {
-=======
-            case 122: {
->>>>>>> origin/6.5.0
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 fightPropMap_ = com.google.protobuf.MapField.newMapField(
                     FightPropMapDefaultEntryHolder.defaultEntry);
@@ -187,11 +179,7 @@ public final class EntityFightPropUpdateNotifyOuterClass {
     protected com.google.protobuf.MapField internalGetMapField(
         int number) {
       switch (number) {
-<<<<<<< HEAD
         case 11:
-=======
-        case 15:
->>>>>>> origin/6.5.0
           return internalGetFightPropMap();
         default:
           throw new RuntimeException(
@@ -206,11 +194,7 @@ public final class EntityFightPropUpdateNotifyOuterClass {
               emu.grasscutter.net.proto.EntityFightPropUpdateNotifyOuterClass.EntityFightPropUpdateNotify.class, emu.grasscutter.net.proto.EntityFightPropUpdateNotifyOuterClass.EntityFightPropUpdateNotify.Builder.class);
     }
 
-<<<<<<< HEAD
     public static final int FIGHT_PROP_MAP_FIELD_NUMBER = 11;
-=======
-    public static final int FIGHT_PROP_MAP_FIELD_NUMBER = 15;
->>>>>>> origin/6.5.0
     private static final class FightPropMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Float> defaultEntry =
@@ -307,11 +291,7 @@ public final class EntityFightPropUpdateNotifyOuterClass {
       return map.get(key);
     }
 
-<<<<<<< HEAD
     public static final int ENTITY_ID_FIELD_NUMBER = 5;
-=======
-    public static final int ENTITY_ID_FIELD_NUMBER = 10;
->>>>>>> origin/6.5.0
     private int entityId_;
     /**
      * <pre>
@@ -341,22 +321,14 @@ public final class EntityFightPropUpdateNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (entityId_ != 0) {
-<<<<<<< HEAD
         output.writeUInt32(5, entityId_);
-=======
-        output.writeUInt32(10, entityId_);
->>>>>>> origin/6.5.0
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
           internalGetFightPropMap(),
           FightPropMapDefaultEntryHolder.defaultEntry,
-<<<<<<< HEAD
           11);
-=======
-          15);
->>>>>>> origin/6.5.0
       unknownFields.writeTo(output);
     }
 
@@ -368,11 +340,7 @@ public final class EntityFightPropUpdateNotifyOuterClass {
       size = 0;
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-<<<<<<< HEAD
           .computeUInt32Size(5, entityId_);
-=======
-          .computeUInt32Size(10, entityId_);
->>>>>>> origin/6.5.0
       }
       for (java.util.Map.Entry<java.lang.Integer, java.lang.Float> entry
            : internalGetFightPropMap().getMap().entrySet()) {
@@ -382,11 +350,7 @@ public final class EntityFightPropUpdateNotifyOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-<<<<<<< HEAD
             .computeMessageSize(11, fightPropMap__);
-=======
-            .computeMessageSize(15, fightPropMap__);
->>>>>>> origin/6.5.0
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -550,11 +514,7 @@ public final class EntityFightPropUpdateNotifyOuterClass {
       protected com.google.protobuf.MapField internalGetMutableMapField(
           int number) {
         switch (number) {
-<<<<<<< HEAD
           case 11:
-=======
-          case 15:
->>>>>>> origin/6.5.0
             return internalGetMutableFightPropMap();
           default:
             throw new RuntimeException(

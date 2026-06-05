@@ -18,7 +18,6 @@ public final class QueryCurrRegionHttpRspOuterClass {
       // @@protoc_insertion_point(interface_extends:QueryCurrRegionHttpRsp)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     com.google.protobuf.ByteString getClientSecretKey();
 
     java.lang.String getMsg();
@@ -30,63 +29,6 @@ public final class QueryCurrRegionHttpRspOuterClass {
 
     emu.grasscutter.net.proto.RegionInfoOuterClass.RegionInfo getRegionInfo();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0      
-     * </pre>
-     *
-     * <code>bytes client_secret_key = 11;</code>
-     * @return The clientSecretKey.
-     */
-    com.google.protobuf.ByteString getClientSecretKey();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>string msg = 2;</code>
-     * @return The msg.
-     */
-    java.lang.String getMsg();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>string msg = 2;</code>
-     * @return The bytes for msg.
-     */
-    com.google.protobuf.ByteString
-        getMsgBytes();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>.RegionInfo region_info = 3;</code>
-     * @return Whether the regionInfo field is set.
-     */
-    boolean hasRegionInfo();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>.RegionInfo region_info = 3;</code>
-     * @return The regionInfo.
-     */
-    emu.grasscutter.net.proto.RegionInfoOuterClass.RegionInfo getRegionInfo();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>.RegionInfo region_info = 3;</code>
-     */
->>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.RegionInfoOuterClass.RegionInfoOrBuilder getRegionInfoOrBuilder();
 
     /**
@@ -101,7 +43,6 @@ public final class QueryCurrRegionHttpRspOuterClass {
     com.google.protobuf.ByteString
         getGateTicketBytes();
 
-<<<<<<< HEAD
     com.google.protobuf.ByteString getRegionCustomConfigEncrypted();
 
     com.google.protobuf.ByteString getClientRegionCustomConfigEncrypted();
@@ -118,90 +59,6 @@ public final class QueryCurrRegionHttpRspOuterClass {
 
     emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo getStopServer();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0      
-     * </pre>
-     *
-     * <code>bytes region_custom_config_encrypted = 12;</code>
-     * @return The regionCustomConfigEncrypted.
-     */
-    com.google.protobuf.ByteString getRegionCustomConfigEncrypted();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0      
-     * </pre>
-     *
-     * <code>bytes client_region_custom_config_encrypted = 13;</code>
-     * @return The clientRegionCustomConfigEncrypted.
-     */
-    com.google.protobuf.ByteString getClientRegionCustomConfigEncrypted();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>int32 retcode = 1;</code>
-     * @return The retcode.
-     */
-    int getRetcode();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>.ForceUpdateInfo force_udpate = 4;</code>
-     * @return Whether the forceUdpate field is set.
-     */
-    boolean hasForceUdpate();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>.ForceUpdateInfo force_udpate = 4;</code>
-     * @return The forceUdpate.
-     */
-    emu.grasscutter.net.proto.ForceUpdateInfoOuterClass.ForceUpdateInfo getForceUdpate();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>.ForceUpdateInfo force_udpate = 4;</code>
-     */
-    emu.grasscutter.net.proto.ForceUpdateInfoOuterClass.ForceUpdateInfoOrBuilder getForceUdpateOrBuilder();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>.StopServerInfo stop_server = 5;</code>
-     * @return Whether the stopServer field is set.
-     */
-    boolean hasStopServer();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>.StopServerInfo stop_server = 5;</code>
-     * @return The stopServer.
-     */
-    emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo getStopServer();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>.StopServerInfo stop_server = 5;</code>
-     */
->>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfoOrBuilder getStopServerOrBuilder();
 
     public emu.grasscutter.net.proto.QueryCurrRegionHttpRspOuterClass.QueryCurrRegionHttpRsp.DetailCase getDetailCase();
@@ -404,18 +261,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
 
     public static final int CLIENT_SECRET_KEY_FIELD_NUMBER = 11;
     private com.google.protobuf.ByteString clientSecretKey_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0      
-     * </pre>
-     *
-     * <code>bytes client_secret_key = 11;</code>
-     * @return The clientSecretKey.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString getClientSecretKey() {
       return clientSecretKey_;
@@ -423,18 +269,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
 
     public static final int MSG_FIELD_NUMBER = 2;
     private volatile java.lang.Object msg_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>string msg = 2;</code>
-     * @return The msg.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getMsg() {
       java.lang.Object ref = msg_;
@@ -448,18 +283,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
         return s;
       }
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>string msg = 2;</code>
-     * @return The bytes for msg.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getMsgBytes() {
@@ -477,49 +301,17 @@ public final class QueryCurrRegionHttpRspOuterClass {
 
     public static final int REGION_INFO_FIELD_NUMBER = 3;
     private emu.grasscutter.net.proto.RegionInfoOuterClass.RegionInfo regionInfo_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>.RegionInfo region_info = 3;</code>
-     * @return Whether the regionInfo field is set.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasRegionInfo() {
       return regionInfo_ != null;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>.RegionInfo region_info = 3;</code>
-     * @return The regionInfo.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.RegionInfoOuterClass.RegionInfo getRegionInfo() {
       return regionInfo_ == null ? emu.grasscutter.net.proto.RegionInfoOuterClass.RegionInfo.getDefaultInstance() : regionInfo_;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>.RegionInfo region_info = 3;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.RegionInfoOuterClass.RegionInfoOrBuilder getRegionInfoOrBuilder() {
       return getRegionInfo();
@@ -565,18 +357,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
 
     public static final int REGION_CUSTOM_CONFIG_ENCRYPTED_FIELD_NUMBER = 12;
     private com.google.protobuf.ByteString regionCustomConfigEncrypted_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0      
-     * </pre>
-     *
-     * <code>bytes region_custom_config_encrypted = 12;</code>
-     * @return The regionCustomConfigEncrypted.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString getRegionCustomConfigEncrypted() {
       return regionCustomConfigEncrypted_;
@@ -584,18 +365,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
 
     public static final int CLIENT_REGION_CUSTOM_CONFIG_ENCRYPTED_FIELD_NUMBER = 13;
     private com.google.protobuf.ByteString clientRegionCustomConfigEncrypted_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0      
-     * </pre>
-     *
-     * <code>bytes client_region_custom_config_encrypted = 13;</code>
-     * @return The clientRegionCustomConfigEncrypted.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString getClientRegionCustomConfigEncrypted() {
       return clientRegionCustomConfigEncrypted_;
@@ -603,52 +373,19 @@ public final class QueryCurrRegionHttpRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 1;
     private int retcode_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>int32 retcode = 1;</code>
-     * @return The retcode.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
     }
 
     public static final int FORCE_UDPATE_FIELD_NUMBER = 4;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>.ForceUpdateInfo force_udpate = 4;</code>
-     * @return Whether the forceUdpate field is set.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasForceUdpate() {
       return detailCase_ == 4;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>.ForceUpdateInfo force_udpate = 4;</code>
-     * @return The forceUdpate.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ForceUpdateInfoOuterClass.ForceUpdateInfo getForceUdpate() {
       if (detailCase_ == 4) {
@@ -656,17 +393,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       return emu.grasscutter.net.proto.ForceUpdateInfoOuterClass.ForceUpdateInfo.getDefaultInstance();
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>.ForceUpdateInfo force_udpate = 4;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ForceUpdateInfoOuterClass.ForceUpdateInfoOrBuilder getForceUdpateOrBuilder() {
       if (detailCase_ == 4) {
@@ -676,34 +403,12 @@ public final class QueryCurrRegionHttpRspOuterClass {
     }
 
     public static final int STOP_SERVER_FIELD_NUMBER = 5;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>.StopServerInfo stop_server = 5;</code>
-     * @return Whether the stopServer field is set.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasStopServer() {
       return detailCase_ == 5;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>.StopServerInfo stop_server = 5;</code>
-     * @return The stopServer.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo getStopServer() {
       if (detailCase_ == 5) {
@@ -711,17 +416,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       return emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.getDefaultInstance();
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>.StopServerInfo stop_server = 5;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfoOrBuilder getStopServerOrBuilder() {
       if (detailCase_ == 5) {
@@ -1231,35 +926,12 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
 
       private com.google.protobuf.ByteString clientSecretKey_ = com.google.protobuf.ByteString.EMPTY;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>bytes client_secret_key = 11;</code>
-       * @return The clientSecretKey.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public com.google.protobuf.ByteString getClientSecretKey() {
         return clientSecretKey_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>bytes client_secret_key = 11;</code>
-       * @param value The clientSecretKey to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setClientSecretKey(com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
@@ -1269,18 +941,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>bytes client_secret_key = 11;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearClientSecretKey() {
 
         clientSecretKey_ = getDefaultInstance().getClientSecretKey();
@@ -1289,18 +950,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
 
       private java.lang.Object msg_ = "";
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>string msg = 2;</code>
-       * @return The msg.
-       */
->>>>>>> origin/6.5.0
       public java.lang.String getMsg() {
         java.lang.Object ref = msg_;
         if (!(ref instanceof java.lang.String)) {
@@ -1313,18 +963,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
           return (java.lang.String) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>string msg = 2;</code>
-       * @return The bytes for msg.
-       */
->>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getMsgBytes() {
         java.lang.Object ref = msg_;
@@ -1338,19 +977,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>string msg = 2;</code>
-       * @param value The msg to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setMsg(
           java.lang.String value) {
         if (value == null) {
@@ -1361,37 +988,14 @@ public final class QueryCurrRegionHttpRspOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>string msg = 2;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearMsg() {
 
         msg_ = getDefaultInstance().getMsg();
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>string msg = 2;</code>
-       * @param value The bytes for msg to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setMsgBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -1407,33 +1011,11 @@ public final class QueryCurrRegionHttpRspOuterClass {
       private emu.grasscutter.net.proto.RegionInfoOuterClass.RegionInfo regionInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.RegionInfoOuterClass.RegionInfo, emu.grasscutter.net.proto.RegionInfoOuterClass.RegionInfo.Builder, emu.grasscutter.net.proto.RegionInfoOuterClass.RegionInfoOrBuilder> regionInfoBuilder_;
-<<<<<<< HEAD
 
       public boolean hasRegionInfo() {
         return regionInfoBuilder_ != null || regionInfo_ != null;
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>.RegionInfo region_info = 3;</code>
-       * @return Whether the regionInfo field is set.
-       */
-      public boolean hasRegionInfo() {
-        return regionInfoBuilder_ != null || regionInfo_ != null;
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>.RegionInfo region_info = 3;</code>
-       * @return The regionInfo.
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.RegionInfoOuterClass.RegionInfo getRegionInfo() {
         if (regionInfoBuilder_ == null) {
           return regionInfo_ == null ? emu.grasscutter.net.proto.RegionInfoOuterClass.RegionInfo.getDefaultInstance() : regionInfo_;
@@ -1441,17 +1023,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
           return regionInfoBuilder_.getMessage();
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>.RegionInfo region_info = 3;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setRegionInfo(emu.grasscutter.net.proto.RegionInfoOuterClass.RegionInfo value) {
         if (regionInfoBuilder_ == null) {
           if (value == null) {
@@ -1465,17 +1037,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>.RegionInfo region_info = 3;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setRegionInfo(
           emu.grasscutter.net.proto.RegionInfoOuterClass.RegionInfo.Builder builderForValue) {
         if (regionInfoBuilder_ == null) {
@@ -1487,17 +1049,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>.RegionInfo region_info = 3;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder mergeRegionInfo(emu.grasscutter.net.proto.RegionInfoOuterClass.RegionInfo value) {
         if (regionInfoBuilder_ == null) {
           if (regionInfo_ != null) {
@@ -1513,17 +1065,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>.RegionInfo region_info = 3;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder clearRegionInfo() {
         if (regionInfoBuilder_ == null) {
           regionInfo_ = null;
@@ -1535,33 +1077,13 @@ public final class QueryCurrRegionHttpRspOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>.RegionInfo region_info = 3;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.RegionInfoOuterClass.RegionInfo.Builder getRegionInfoBuilder() {
 
         onChanged();
         return getRegionInfoFieldBuilder().getBuilder();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>.RegionInfo region_info = 3;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.RegionInfoOuterClass.RegionInfoOrBuilder getRegionInfoOrBuilder() {
         if (regionInfoBuilder_ != null) {
           return regionInfoBuilder_.getMessageOrBuilder();
@@ -1570,17 +1092,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
               emu.grasscutter.net.proto.RegionInfoOuterClass.RegionInfo.getDefaultInstance() : regionInfo_;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>.RegionInfo region_info = 3;</code>
-       */
->>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.RegionInfoOuterClass.RegionInfo, emu.grasscutter.net.proto.RegionInfoOuterClass.RegionInfo.Builder, emu.grasscutter.net.proto.RegionInfoOuterClass.RegionInfoOrBuilder>
           getRegionInfoFieldBuilder() {
@@ -1672,35 +1184,12 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
 
       private com.google.protobuf.ByteString regionCustomConfigEncrypted_ = com.google.protobuf.ByteString.EMPTY;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>bytes region_custom_config_encrypted = 12;</code>
-       * @return The regionCustomConfigEncrypted.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public com.google.protobuf.ByteString getRegionCustomConfigEncrypted() {
         return regionCustomConfigEncrypted_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>bytes region_custom_config_encrypted = 12;</code>
-       * @param value The regionCustomConfigEncrypted to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setRegionCustomConfigEncrypted(com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
@@ -1710,18 +1199,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>bytes region_custom_config_encrypted = 12;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearRegionCustomConfigEncrypted() {
 
         regionCustomConfigEncrypted_ = getDefaultInstance().getRegionCustomConfigEncrypted();
@@ -1730,35 +1208,12 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
 
       private com.google.protobuf.ByteString clientRegionCustomConfigEncrypted_ = com.google.protobuf.ByteString.EMPTY;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>bytes client_region_custom_config_encrypted = 13;</code>
-       * @return The clientRegionCustomConfigEncrypted.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public com.google.protobuf.ByteString getClientRegionCustomConfigEncrypted() {
         return clientRegionCustomConfigEncrypted_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>bytes client_region_custom_config_encrypted = 13;</code>
-       * @param value The clientRegionCustomConfigEncrypted to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setClientRegionCustomConfigEncrypted(com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
@@ -1768,18 +1223,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>bytes client_region_custom_config_encrypted = 13;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearClientRegionCustomConfigEncrypted() {
 
         clientRegionCustomConfigEncrypted_ = getDefaultInstance().getClientRegionCustomConfigEncrypted();
@@ -1788,53 +1232,19 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
 
       private int retcode_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>int32 retcode = 1;</code>
-       * @return The retcode.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>int32 retcode = 1;</code>
-       * @param value The retcode to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
 
         retcode_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>int32 retcode = 1;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearRetcode() {
 
         retcode_ = 0;
@@ -1844,34 +1254,12 @@ public final class QueryCurrRegionHttpRspOuterClass {
 
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ForceUpdateInfoOuterClass.ForceUpdateInfo, emu.grasscutter.net.proto.ForceUpdateInfoOuterClass.ForceUpdateInfo.Builder, emu.grasscutter.net.proto.ForceUpdateInfoOuterClass.ForceUpdateInfoOrBuilder> forceUdpateBuilder_;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>.ForceUpdateInfo force_udpate = 4;</code>
-       * @return Whether the forceUdpate field is set.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean hasForceUdpate() {
         return detailCase_ == 4;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>.ForceUpdateInfo force_udpate = 4;</code>
-       * @return The forceUdpate.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.ForceUpdateInfoOuterClass.ForceUpdateInfo getForceUdpate() {
         if (forceUdpateBuilder_ == null) {
@@ -1886,17 +1274,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
           return emu.grasscutter.net.proto.ForceUpdateInfoOuterClass.ForceUpdateInfo.getDefaultInstance();
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>.ForceUpdateInfo force_udpate = 4;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setForceUdpate(emu.grasscutter.net.proto.ForceUpdateInfoOuterClass.ForceUpdateInfo value) {
         if (forceUdpateBuilder_ == null) {
           if (value == null) {
@@ -1910,17 +1288,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
         detailCase_ = 4;
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>.ForceUpdateInfo force_udpate = 4;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setForceUdpate(
           emu.grasscutter.net.proto.ForceUpdateInfoOuterClass.ForceUpdateInfo.Builder builderForValue) {
         if (forceUdpateBuilder_ == null) {
@@ -1932,17 +1300,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
         detailCase_ = 4;
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>.ForceUpdateInfo force_udpate = 4;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder mergeForceUdpate(emu.grasscutter.net.proto.ForceUpdateInfoOuterClass.ForceUpdateInfo value) {
         if (forceUdpateBuilder_ == null) {
           if (detailCase_ == 4 &&
@@ -1962,17 +1320,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
         detailCase_ = 4;
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>.ForceUpdateInfo force_udpate = 4;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder clearForceUdpate() {
         if (forceUdpateBuilder_ == null) {
           if (detailCase_ == 4) {
@@ -1989,31 +1337,11 @@ public final class QueryCurrRegionHttpRspOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
       public emu.grasscutter.net.proto.ForceUpdateInfoOuterClass.ForceUpdateInfo.Builder getForceUdpateBuilder() {
         return getForceUdpateFieldBuilder().getBuilder();
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>.ForceUpdateInfo force_udpate = 4;</code>
-       */
-      public emu.grasscutter.net.proto.ForceUpdateInfoOuterClass.ForceUpdateInfo.Builder getForceUdpateBuilder() {
-        return getForceUdpateFieldBuilder().getBuilder();
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>.ForceUpdateInfo force_udpate = 4;</code>
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.ForceUpdateInfoOuterClass.ForceUpdateInfoOrBuilder getForceUdpateOrBuilder() {
         if ((detailCase_ == 4) && (forceUdpateBuilder_ != null)) {
@@ -2025,17 +1353,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
           return emu.grasscutter.net.proto.ForceUpdateInfoOuterClass.ForceUpdateInfo.getDefaultInstance();
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>.ForceUpdateInfo force_udpate = 4;</code>
-       */
->>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ForceUpdateInfoOuterClass.ForceUpdateInfo, emu.grasscutter.net.proto.ForceUpdateInfoOuterClass.ForceUpdateInfo.Builder, emu.grasscutter.net.proto.ForceUpdateInfoOuterClass.ForceUpdateInfoOrBuilder>
           getForceUdpateFieldBuilder() {
@@ -2057,34 +1375,12 @@ public final class QueryCurrRegionHttpRspOuterClass {
 
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo, emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.Builder, emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfoOrBuilder> stopServerBuilder_;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>.StopServerInfo stop_server = 5;</code>
-       * @return Whether the stopServer field is set.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean hasStopServer() {
         return detailCase_ == 5;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>.StopServerInfo stop_server = 5;</code>
-       * @return The stopServer.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo getStopServer() {
         if (stopServerBuilder_ == null) {
@@ -2099,17 +1395,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
           return emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.getDefaultInstance();
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>.StopServerInfo stop_server = 5;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setStopServer(emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo value) {
         if (stopServerBuilder_ == null) {
           if (value == null) {
@@ -2123,17 +1409,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
         detailCase_ = 5;
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>.StopServerInfo stop_server = 5;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setStopServer(
           emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.Builder builderForValue) {
         if (stopServerBuilder_ == null) {
@@ -2145,17 +1421,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
         detailCase_ = 5;
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>.StopServerInfo stop_server = 5;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder mergeStopServer(emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo value) {
         if (stopServerBuilder_ == null) {
           if (detailCase_ == 5 &&
@@ -2175,17 +1441,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
         detailCase_ = 5;
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>.StopServerInfo stop_server = 5;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder clearStopServer() {
         if (stopServerBuilder_ == null) {
           if (detailCase_ == 5) {
@@ -2202,31 +1458,11 @@ public final class QueryCurrRegionHttpRspOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
 
       public emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.Builder getStopServerBuilder() {
         return getStopServerFieldBuilder().getBuilder();
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>.StopServerInfo stop_server = 5;</code>
-       */
-      public emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.Builder getStopServerBuilder() {
-        return getStopServerFieldBuilder().getBuilder();
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>.StopServerInfo stop_server = 5;</code>
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfoOrBuilder getStopServerOrBuilder() {
         if ((detailCase_ == 5) && (stopServerBuilder_ != null)) {
@@ -2238,17 +1474,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
           return emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.getDefaultInstance();
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>.StopServerInfo stop_server = 5;</code>
-       */
->>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo, emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.Builder, emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfoOrBuilder>
           getStopServerFieldBuilder() {

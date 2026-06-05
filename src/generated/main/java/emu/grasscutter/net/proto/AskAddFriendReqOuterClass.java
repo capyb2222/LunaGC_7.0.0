@@ -18,17 +18,6 @@ public final class AskAddFriendReqOuterClass {
       // @@protoc_insertion_point(interface_extends:AskAddFriendReq)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 target_uid = 14;</code>
-     * @return The targetUid.
-     */
->>>>>>> origin/6.5.0
     int getTargetUid();
   }
   /**
@@ -119,18 +108,7 @@ public final class AskAddFriendReqOuterClass {
 
     public static final int TARGET_UID_FIELD_NUMBER = 11;
     private int targetUid_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 target_uid = 14;</code>
-     * @return The targetUid.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getTargetUid() {
       return targetUid_;
@@ -443,53 +421,19 @@ public final class AskAddFriendReqOuterClass {
       }
 
       private int targetUid_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 target_uid = 14;</code>
-       * @return The targetUid.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getTargetUid() {
         return targetUid_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 target_uid = 14;</code>
-       * @param value The targetUid to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setTargetUid(int value) {
 
         targetUid_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 target_uid = 14;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearTargetUid() {
 
         targetUid_ = 0;

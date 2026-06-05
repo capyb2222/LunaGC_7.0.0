@@ -18,28 +18,8 @@ public final class GadgetInteractReqOuterClass {
       // @@protoc_insertion_point(interface_extends:GadgetInteractReq)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getOpTypeValue();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.InterOpType op_type = 6;</code>
-     * @return The enum numeric value on the wire for opType.
-     */
-    int getOpTypeValue();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.InterOpType op_type = 6;</code>
-     * @return The opType.
-     */
->>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType getOpType();
 
     /**
@@ -54,52 +34,12 @@ public final class GadgetInteractReqOuterClass {
      */
     int getUiInteractId();
 
-<<<<<<< HEAD
     int getResinCostTypeValue();
 
     emu.grasscutter.net.proto.ResinCostTypeOuterClass.ResinCostType getResinCostType();
 
     int getGadgetEntityId();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>.ResinCostType resin_cost_type = 11;</code>
-     * @return The enum numeric value on the wire for resinCostType.
-     */
-    int getResinCostTypeValue();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>.ResinCostType resin_cost_type = 11;</code>
-     * @return The resinCostType.
-     */
-    emu.grasscutter.net.proto.ResinCostTypeOuterClass.ResinCostType getResinCostType();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 gadget_entity_id = 13;</code>
-     * @return The gadgetEntityId.
-     */
-    int getGadgetEntityId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 gadget_id = 4;</code>
-     * @return The gadgetId.
-     */
->>>>>>> origin/6.5.0
     int getGadgetId();
   }
   /**
@@ -209,33 +149,11 @@ public final class GadgetInteractReqOuterClass {
 
     public static final int OP_TYPE_FIELD_NUMBER = 15;
     private int opType_;
-<<<<<<< HEAD
 
     @java.lang.Override public int getOpTypeValue() {
       return opType_;
     }
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.InterOpType op_type = 6;</code>
-     * @return The enum numeric value on the wire for opType.
-     */
-    @java.lang.Override public int getOpTypeValue() {
-      return opType_;
-    }
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.InterOpType op_type = 6;</code>
-     * @return The opType.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override public emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType getOpType() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType result = emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType.valueOf(opType_);
@@ -266,33 +184,11 @@ public final class GadgetInteractReqOuterClass {
 
     public static final int RESIN_COST_TYPE_FIELD_NUMBER = 10;
     private int resinCostType_;
-<<<<<<< HEAD
 
     @java.lang.Override public int getResinCostTypeValue() {
       return resinCostType_;
     }
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>.ResinCostType resin_cost_type = 11;</code>
-     * @return The enum numeric value on the wire for resinCostType.
-     */
-    @java.lang.Override public int getResinCostTypeValue() {
-      return resinCostType_;
-    }
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>.ResinCostType resin_cost_type = 11;</code>
-     * @return The resinCostType.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override public emu.grasscutter.net.proto.ResinCostTypeOuterClass.ResinCostType getResinCostType() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.ResinCostTypeOuterClass.ResinCostType result = emu.grasscutter.net.proto.ResinCostTypeOuterClass.ResinCostType.valueOf(resinCostType_);
@@ -301,18 +197,7 @@ public final class GadgetInteractReqOuterClass {
 
     public static final int GADGET_ENTITY_ID_FIELD_NUMBER = 4;
     private int gadgetEntityId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 gadget_entity_id = 13;</code>
-     * @return The gadgetEntityId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getGadgetEntityId() {
       return gadgetEntityId_;
@@ -320,18 +205,7 @@ public final class GadgetInteractReqOuterClass {
 
     public static final int GADGET_ID_FIELD_NUMBER = 8;
     private int gadgetId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 gadget_id = 4;</code>
-     * @return The gadgetId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getGadgetId() {
       return gadgetId_;
@@ -728,71 +602,25 @@ public final class GadgetInteractReqOuterClass {
       }
 
       private int opType_ = 0;
-<<<<<<< HEAD
 
       @java.lang.Override public int getOpTypeValue() {
         return opType_;
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.InterOpType op_type = 6;</code>
-       * @return The enum numeric value on the wire for opType.
-       */
-      @java.lang.Override public int getOpTypeValue() {
-        return opType_;
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.InterOpType op_type = 6;</code>
-       * @param value The enum numeric value on the wire for opType to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setOpTypeValue(int value) {
 
         opType_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.InterOpType op_type = 6;</code>
-       * @return The opType.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType getOpType() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType result = emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType.valueOf(opType_);
         return result == null ? emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType.UNRECOGNIZED : result;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.InterOpType op_type = 6;</code>
-       * @param value The opType to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setOpType(emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType value) {
         if (value == null) {
           throw new NullPointerException();
@@ -802,18 +630,7 @@ public final class GadgetInteractReqOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.InterOpType op_type = 6;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearOpType() {
 
         opType_ = 0;
@@ -884,71 +701,25 @@ public final class GadgetInteractReqOuterClass {
       }
 
       private int resinCostType_ = 0;
-<<<<<<< HEAD
 
       @java.lang.Override public int getResinCostTypeValue() {
         return resinCostType_;
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>.ResinCostType resin_cost_type = 11;</code>
-       * @return The enum numeric value on the wire for resinCostType.
-       */
-      @java.lang.Override public int getResinCostTypeValue() {
-        return resinCostType_;
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>.ResinCostType resin_cost_type = 11;</code>
-       * @param value The enum numeric value on the wire for resinCostType to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setResinCostTypeValue(int value) {
 
         resinCostType_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>.ResinCostType resin_cost_type = 11;</code>
-       * @return The resinCostType.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.ResinCostTypeOuterClass.ResinCostType getResinCostType() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.ResinCostTypeOuterClass.ResinCostType result = emu.grasscutter.net.proto.ResinCostTypeOuterClass.ResinCostType.valueOf(resinCostType_);
         return result == null ? emu.grasscutter.net.proto.ResinCostTypeOuterClass.ResinCostType.UNRECOGNIZED : result;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>.ResinCostType resin_cost_type = 11;</code>
-       * @param value The resinCostType to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setResinCostType(emu.grasscutter.net.proto.ResinCostTypeOuterClass.ResinCostType value) {
         if (value == null) {
           throw new NullPointerException();
@@ -958,18 +729,7 @@ public final class GadgetInteractReqOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>.ResinCostType resin_cost_type = 11;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearResinCostType() {
 
         resinCostType_ = 0;
@@ -978,53 +738,19 @@ public final class GadgetInteractReqOuterClass {
       }
 
       private int gadgetEntityId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 gadget_entity_id = 13;</code>
-       * @return The gadgetEntityId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getGadgetEntityId() {
         return gadgetEntityId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 gadget_entity_id = 13;</code>
-       * @param value The gadgetEntityId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setGadgetEntityId(int value) {
 
         gadgetEntityId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 gadget_entity_id = 13;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearGadgetEntityId() {
 
         gadgetEntityId_ = 0;
@@ -1033,53 +759,19 @@ public final class GadgetInteractReqOuterClass {
       }
 
       private int gadgetId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 gadget_id = 4;</code>
-       * @return The gadgetId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getGadgetId() {
         return gadgetId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 gadget_id = 4;</code>
-       * @param value The gadgetId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setGadgetId(int value) {
 
         gadgetId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 gadget_id = 4;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearGadgetId() {
 
         gadgetId_ = 0;

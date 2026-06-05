@@ -18,17 +18,6 @@ public final class GetShopReqOuterClass {
       // @@protoc_insertion_point(interface_extends:GetShopReq)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0      
-     * </pre>
-     *
-     * <code>uint32 shop_type = 15;</code>
-     * @return The shopType.
-     */
->>>>>>> origin/6.5.0
     int getShopType();
   }
   /**
@@ -119,18 +108,7 @@ public final class GetShopReqOuterClass {
 
     public static final int SHOP_TYPE_FIELD_NUMBER = 11;
     private int shopType_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0      
-     * </pre>
-     *
-     * <code>uint32 shop_type = 15;</code>
-     * @return The shopType.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getShopType() {
       return shopType_;
@@ -443,53 +421,19 @@ public final class GetShopReqOuterClass {
       }
 
       private int shopType_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>uint32 shop_type = 15;</code>
-       * @return The shopType.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getShopType() {
         return shopType_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>uint32 shop_type = 15;</code>
-       * @param value The shopType to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setShopType(int value) {
 
         shopType_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>uint32 shop_type = 15;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearShopType() {
 
         shopType_ = 0;

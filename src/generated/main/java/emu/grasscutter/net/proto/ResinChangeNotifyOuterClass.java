@@ -18,41 +18,10 @@ public final class ResinChangeNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:ResinChangeNotify)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getNextAddTimestamp();
 
     int getCurBuyCount();
 
-=======
-    /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>uint32 next_add_timestamp = 6;</code>
-     * @return The nextAddTimestamp.
-     */
-    int getNextAddTimestamp();
-
-    /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>uint32 cur_buy_count = 13;</code>
-     * @return The curBuyCount.
-     */
-    int getCurBuyCount();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 cur_value = 4;</code>
-     * @return The curValue.
-     */
->>>>>>> origin/6.5.0
     int getCurValue();
   }
   /**
@@ -153,18 +122,7 @@ public final class ResinChangeNotifyOuterClass {
 
     public static final int NEXT_ADD_TIMESTAMP_FIELD_NUMBER = 6;
     private int nextAddTimestamp_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>uint32 next_add_timestamp = 6;</code>
-     * @return The nextAddTimestamp.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getNextAddTimestamp() {
       return nextAddTimestamp_;
@@ -172,18 +130,7 @@ public final class ResinChangeNotifyOuterClass {
 
     public static final int CUR_BUY_COUNT_FIELD_NUMBER = 13;
     private int curBuyCount_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>uint32 cur_buy_count = 13;</code>
-     * @return The curBuyCount.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCurBuyCount() {
       return curBuyCount_;
@@ -191,18 +138,7 @@ public final class ResinChangeNotifyOuterClass {
 
     public static final int CUR_VALUE_FIELD_NUMBER = 4;
     private int curValue_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>uint32 cur_value = 4;</code>
-     * @return The curValue.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCurValue() {
       return curValue_;
@@ -549,53 +485,19 @@ public final class ResinChangeNotifyOuterClass {
       }
 
       private int nextAddTimestamp_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>uint32 next_add_timestamp = 6;</code>
-       * @return The nextAddTimestamp.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getNextAddTimestamp() {
         return nextAddTimestamp_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>uint32 next_add_timestamp = 6;</code>
-       * @param value The nextAddTimestamp to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setNextAddTimestamp(int value) {
 
         nextAddTimestamp_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>uint32 next_add_timestamp = 6;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearNextAddTimestamp() {
 
         nextAddTimestamp_ = 0;
@@ -604,53 +506,19 @@ public final class ResinChangeNotifyOuterClass {
       }
 
       private int curBuyCount_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>uint32 cur_buy_count = 13;</code>
-       * @return The curBuyCount.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCurBuyCount() {
         return curBuyCount_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>uint32 cur_buy_count = 13;</code>
-       * @param value The curBuyCount to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setCurBuyCount(int value) {
 
         curBuyCount_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>uint32 cur_buy_count = 13;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearCurBuyCount() {
 
         curBuyCount_ = 0;
@@ -659,53 +527,19 @@ public final class ResinChangeNotifyOuterClass {
       }
 
       private int curValue_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 cur_value = 4;</code>
-       * @return The curValue.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCurValue() {
         return curValue_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 cur_value = 4;</code>
-       * @param value The curValue to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setCurValue(int value) {
 
         curValue_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>uint32 cur_value = 4;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearCurValue() {
 
         curValue_ = 0;

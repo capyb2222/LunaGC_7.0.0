@@ -18,26 +18,8 @@ public final class OpenStateUpdateNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:OpenStateUpdateNotify)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getOpenStateMapCount();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        // offset: 32
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
-     */
-    int getOpenStateMapCount();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        // offset: 32
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
-     */
->>>>>>> origin/6.5.0
     boolean containsOpenStateMap(
         int key);
     /**
@@ -46,42 +28,13 @@ public final class OpenStateUpdateNotifyOuterClass {
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getOpenStateMap();
-<<<<<<< HEAD
 
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getOpenStateMapMap();
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        // offset: 32
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
-     */
-    java.util.Map<java.lang.Integer, java.lang.Integer>
-    getOpenStateMapMap();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        // offset: 32
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
-     */
->>>>>>> origin/6.5.0
 
     int getOpenStateMapOrDefault(
         int key,
         int defaultValue);
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        // offset: 32
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
-     */
->>>>>>> origin/6.5.0
 
     int getOpenStateMapOrThrow(
         int key);
@@ -219,16 +172,6 @@ public final class OpenStateUpdateNotifyOuterClass {
     public int getOpenStateMapCount() {
       return internalGetOpenStateMap().getMap().size();
     }
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        // offset: 32
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
-     */
->>>>>>> origin/6.5.0
 
     @java.lang.Override
     public boolean containsOpenStateMap(
@@ -244,33 +187,13 @@ public final class OpenStateUpdateNotifyOuterClass {
     public java.util.Map<java.lang.Integer, java.lang.Integer> getOpenStateMap() {
       return getOpenStateMapMap();
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        // offset: 32
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public java.util.Map<java.lang.Integer, java.lang.Integer> getOpenStateMapMap() {
       return internalGetOpenStateMap().getMap();
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        // offset: 32
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public int getOpenStateMapOrDefault(
@@ -281,17 +204,7 @@ public final class OpenStateUpdateNotifyOuterClass {
           internalGetOpenStateMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        // offset: 32
-     * </pre>
-     *
-     * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public int getOpenStateMapOrThrow(
@@ -671,16 +584,6 @@ public final class OpenStateUpdateNotifyOuterClass {
       public int getOpenStateMapCount() {
         return internalGetOpenStateMap().getMap().size();
       }
-<<<<<<< HEAD
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        // offset: 32
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
-       */
->>>>>>> origin/6.5.0
 
       @java.lang.Override
       public boolean containsOpenStateMap(
@@ -696,33 +599,13 @@ public final class OpenStateUpdateNotifyOuterClass {
       public java.util.Map<java.lang.Integer, java.lang.Integer> getOpenStateMap() {
         return getOpenStateMapMap();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        // offset: 32
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public java.util.Map<java.lang.Integer, java.lang.Integer> getOpenStateMapMap() {
         return internalGetOpenStateMap().getMap();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        // offset: 32
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public int getOpenStateMapOrDefault(
@@ -733,17 +616,7 @@ public final class OpenStateUpdateNotifyOuterClass {
             internalGetOpenStateMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        // offset: 32
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public int getOpenStateMapOrThrow(
@@ -762,16 +635,6 @@ public final class OpenStateUpdateNotifyOuterClass {
             .clear();
         return this;
       }
-<<<<<<< HEAD
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        // offset: 32
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
-       */
->>>>>>> origin/6.5.0
 
       public Builder removeOpenStateMap(
           int key) {
@@ -788,17 +651,7 @@ public final class OpenStateUpdateNotifyOuterClass {
       getMutableOpenStateMap() {
         return internalGetMutableOpenStateMap().getMutableMap();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        // offset: 32
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder putOpenStateMap(
           int key,
           int value) {
@@ -807,16 +660,6 @@ public final class OpenStateUpdateNotifyOuterClass {
             .put(key, value);
         return this;
       }
-<<<<<<< HEAD
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        // offset: 32
-       * </pre>
-       *
-       * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
-       */
->>>>>>> origin/6.5.0
 
       public Builder putAllOpenStateMap(
           java.util.Map<java.lang.Integer, java.lang.Integer> values) {

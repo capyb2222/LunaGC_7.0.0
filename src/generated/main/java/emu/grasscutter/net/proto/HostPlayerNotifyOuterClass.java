@@ -16,29 +16,8 @@ public final class HostPlayerNotifyOuterClass {
 
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getHostPeerId();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 host_peer_id = 12;</code>
-     * @return The hostPeerId.
-     */
-    int getHostPeerId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 host_uid = 5;</code>
-     * @return The hostUid.
-     */
->>>>>>> origin/6.5.0
     int getHostUid();
   }
 
@@ -128,18 +107,7 @@ public final class HostPlayerNotifyOuterClass {
 
     public static final int HOST_PEER_ID_FIELD_NUMBER = 8;
     private int hostPeerId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 host_peer_id = 12;</code>
-     * @return The hostPeerId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getHostPeerId() {
       return hostPeerId_;
@@ -147,18 +115,7 @@ public final class HostPlayerNotifyOuterClass {
 
     public static final int HOST_UID_FIELD_NUMBER = 10;
     private int hostUid_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 host_uid = 5;</code>
-     * @return The hostUid.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getHostUid() {
       return hostUid_;
@@ -481,53 +438,19 @@ public final class HostPlayerNotifyOuterClass {
       }
 
       private int hostPeerId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 host_peer_id = 12;</code>
-       * @return The hostPeerId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getHostPeerId() {
         return hostPeerId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 host_peer_id = 12;</code>
-       * @param value The hostPeerId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setHostPeerId(int value) {
 
         hostPeerId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 host_peer_id = 12;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearHostPeerId() {
 
         hostPeerId_ = 0;
@@ -536,53 +459,19 @@ public final class HostPlayerNotifyOuterClass {
       }
 
       private int hostUid_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 host_uid = 5;</code>
-       * @return The hostUid.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getHostUid() {
         return hostUid_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 host_uid = 5;</code>
-       * @param value The hostUid to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setHostUid(int value) {
 
         hostUid_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 host_uid = 5;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearHostUid() {
 
         hostUid_ = 0;

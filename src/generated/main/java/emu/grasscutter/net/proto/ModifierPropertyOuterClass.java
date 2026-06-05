@@ -18,50 +18,12 @@ public final class ModifierPropertyOuterClass {
       // @@protoc_insertion_point(interface_extends:ModifierProperty)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     boolean hasKey();
 
     emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getKey();
 
     emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder getKeyOrBuilder();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.AbilityString key = 7;</code>
-     * @return Whether the key field is set.
-     */
-    boolean hasKey();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.AbilityString key = 7;</code>
-     * @return The key.
-     */
-    emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getKey();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.AbilityString key = 7;</code>
-     */
-    emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder getKeyOrBuilder();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>float value = 11;</code>
-     * @return The value.
-     */
->>>>>>> origin/6.5.0
     float getValue();
   }
   /**
@@ -161,49 +123,17 @@ public final class ModifierPropertyOuterClass {
 
     public static final int KEY_FIELD_NUMBER = 14;
     private emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString key_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.AbilityString key = 7;</code>
-     * @return Whether the key field is set.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasKey() {
       return key_ != null;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.AbilityString key = 7;</code>
-     * @return The key.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getKey() {
       return key_ == null ? emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.getDefaultInstance() : key_;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.AbilityString key = 7;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder getKeyOrBuilder() {
       return getKey();
@@ -211,18 +141,7 @@ public final class ModifierPropertyOuterClass {
 
     public static final int VALUE_FIELD_NUMBER = 3;
     private float value_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>float value = 11;</code>
-     * @return The value.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public float getValue() {
       return value_;
@@ -565,33 +484,11 @@ public final class ModifierPropertyOuterClass {
       private emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString key_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder> keyBuilder_;
-<<<<<<< HEAD
 
       public boolean hasKey() {
         return keyBuilder_ != null || key_ != null;
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.AbilityString key = 7;</code>
-       * @return Whether the key field is set.
-       */
-      public boolean hasKey() {
-        return keyBuilder_ != null || key_ != null;
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.AbilityString key = 7;</code>
-       * @return The key.
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getKey() {
         if (keyBuilder_ == null) {
           return key_ == null ? emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.getDefaultInstance() : key_;
@@ -599,17 +496,7 @@ public final class ModifierPropertyOuterClass {
           return keyBuilder_.getMessage();
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.AbilityString key = 7;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setKey(emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString value) {
         if (keyBuilder_ == null) {
           if (value == null) {
@@ -623,17 +510,7 @@ public final class ModifierPropertyOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.AbilityString key = 7;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setKey(
           emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder builderForValue) {
         if (keyBuilder_ == null) {
@@ -645,17 +522,7 @@ public final class ModifierPropertyOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.AbilityString key = 7;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder mergeKey(emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString value) {
         if (keyBuilder_ == null) {
           if (key_ != null) {
@@ -671,17 +538,7 @@ public final class ModifierPropertyOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.AbilityString key = 7;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder clearKey() {
         if (keyBuilder_ == null) {
           key_ = null;
@@ -693,33 +550,13 @@ public final class ModifierPropertyOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.AbilityString key = 7;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder getKeyBuilder() {
 
         onChanged();
         return getKeyFieldBuilder().getBuilder();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.AbilityString key = 7;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder getKeyOrBuilder() {
         if (keyBuilder_ != null) {
           return keyBuilder_.getMessageOrBuilder();
@@ -728,17 +565,7 @@ public final class ModifierPropertyOuterClass {
               emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.getDefaultInstance() : key_;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.AbilityString key = 7;</code>
-       */
->>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder>
           getKeyFieldBuilder() {
@@ -754,53 +581,19 @@ public final class ModifierPropertyOuterClass {
       }
 
       private float value_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>float value = 11;</code>
-       * @return The value.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public float getValue() {
         return value_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>float value = 11;</code>
-       * @param value The value to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setValue(float value) {
 
         value_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>float value = 11;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearValue() {
 
         value_ = 0F;

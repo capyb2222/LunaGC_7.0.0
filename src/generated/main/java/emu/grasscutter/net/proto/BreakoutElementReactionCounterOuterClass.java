@@ -18,29 +18,8 @@ public final class BreakoutElementReactionCounterOuterClass {
       // @@protoc_insertion_point(interface_extends:BreakoutElementReactionCounter)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getCount();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 count = 2;</code>
-     * @return The count.
-     */
-    int getCount();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 element_reaction = 1;</code>
-     * @return The elementReaction.
-     */
->>>>>>> origin/6.5.0
     int getElementReaction();
   }
   /**
@@ -132,18 +111,7 @@ public final class BreakoutElementReactionCounterOuterClass {
 
     public static final int COUNT_FIELD_NUMBER = 2;
     private int count_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 count = 2;</code>
-     * @return The count.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCount() {
       return count_;
@@ -151,18 +119,7 @@ public final class BreakoutElementReactionCounterOuterClass {
 
     public static final int ELEMENT_REACTION_FIELD_NUMBER = 1;
     private int elementReaction_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 element_reaction = 1;</code>
-     * @return The elementReaction.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getElementReaction() {
       return elementReaction_;
@@ -488,53 +445,19 @@ public final class BreakoutElementReactionCounterOuterClass {
       }
 
       private int count_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 count = 2;</code>
-       * @return The count.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCount() {
         return count_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 count = 2;</code>
-       * @param value The count to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setCount(int value) {
 
         count_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 count = 2;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearCount() {
 
         count_ = 0;
@@ -543,53 +466,19 @@ public final class BreakoutElementReactionCounterOuterClass {
       }
 
       private int elementReaction_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 element_reaction = 1;</code>
-       * @return The elementReaction.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getElementReaction() {
         return elementReaction_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 element_reaction = 1;</code>
-       * @param value The elementReaction to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setElementReaction(int value) {
 
         elementReaction_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 element_reaction = 1;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearElementReaction() {
 
         elementReaction_ = 0;

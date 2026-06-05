@@ -18,40 +18,10 @@ public final class ActivityPushTipsDataOuterClass {
       // @@protoc_insertion_point(interface_extends:ActivityPushTipsData)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getActivityPushTipsId();
 
     int getStateValue();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 activity_push_tips_id = 8;</code>
-     * @return The activityPushTipsId.
-     */
-    int getActivityPushTipsId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.ActivityPushTipsState state = 14;</code>
-     * @return The enum numeric value on the wire for state.
-     */
-    int getStateValue();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.ActivityPushTipsState state = 14;</code>
-     * @return The state.
-     */
->>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.ActivityPushTipsStateOuterClass.ActivityPushTipsState getState();
   }
   /**
@@ -145,18 +115,7 @@ public final class ActivityPushTipsDataOuterClass {
 
     public static final int ACTIVITY_PUSH_TIPS_ID_FIELD_NUMBER = 8;
     private int activityPushTipsId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 activity_push_tips_id = 8;</code>
-     * @return The activityPushTipsId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getActivityPushTipsId() {
       return activityPushTipsId_;
@@ -164,33 +123,11 @@ public final class ActivityPushTipsDataOuterClass {
 
     public static final int STATE_FIELD_NUMBER = 14;
     private int state_;
-<<<<<<< HEAD
 
     @java.lang.Override public int getStateValue() {
       return state_;
     }
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.ActivityPushTipsState state = 14;</code>
-     * @return The enum numeric value on the wire for state.
-     */
-    @java.lang.Override public int getStateValue() {
-      return state_;
-    }
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.ActivityPushTipsState state = 14;</code>
-     * @return The state.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override public emu.grasscutter.net.proto.ActivityPushTipsStateOuterClass.ActivityPushTipsState getState() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.ActivityPushTipsStateOuterClass.ActivityPushTipsState result = emu.grasscutter.net.proto.ActivityPushTipsStateOuterClass.ActivityPushTipsState.valueOf(state_);
@@ -516,53 +453,19 @@ public final class ActivityPushTipsDataOuterClass {
       }
 
       private int activityPushTipsId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 activity_push_tips_id = 8;</code>
-       * @return The activityPushTipsId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getActivityPushTipsId() {
         return activityPushTipsId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 activity_push_tips_id = 8;</code>
-       * @param value The activityPushTipsId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setActivityPushTipsId(int value) {
 
         activityPushTipsId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 activity_push_tips_id = 8;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearActivityPushTipsId() {
 
         activityPushTipsId_ = 0;
@@ -571,71 +474,25 @@ public final class ActivityPushTipsDataOuterClass {
       }
 
       private int state_ = 0;
-<<<<<<< HEAD
 
       @java.lang.Override public int getStateValue() {
         return state_;
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.ActivityPushTipsState state = 14;</code>
-       * @return The enum numeric value on the wire for state.
-       */
-      @java.lang.Override public int getStateValue() {
-        return state_;
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.ActivityPushTipsState state = 14;</code>
-       * @param value The enum numeric value on the wire for state to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setStateValue(int value) {
 
         state_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.ActivityPushTipsState state = 14;</code>
-       * @return The state.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.ActivityPushTipsStateOuterClass.ActivityPushTipsState getState() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.ActivityPushTipsStateOuterClass.ActivityPushTipsState result = emu.grasscutter.net.proto.ActivityPushTipsStateOuterClass.ActivityPushTipsState.valueOf(state_);
         return result == null ? emu.grasscutter.net.proto.ActivityPushTipsStateOuterClass.ActivityPushTipsState.UNRECOGNIZED : result;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.ActivityPushTipsState state = 14;</code>
-       * @param value The state to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setState(emu.grasscutter.net.proto.ActivityPushTipsStateOuterClass.ActivityPushTipsState value) {
         if (value == null) {
           throw new NullPointerException();
@@ -645,18 +502,7 @@ public final class ActivityPushTipsDataOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.ActivityPushTipsState state = 14;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearState() {
 
         state_ = 0;

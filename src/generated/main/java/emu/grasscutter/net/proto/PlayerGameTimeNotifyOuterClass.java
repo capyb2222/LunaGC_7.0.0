@@ -18,41 +18,10 @@ public final class PlayerGameTimeNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:PlayerGameTimeNotify)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     boolean getIsHome();
 
     int getUid();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>bool is_home = 10;</code>
-     * @return The isHome.
-     */
-    boolean getIsHome();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 uid = 6;</code>
-     * @return The uid.
-     */
-    int getUid();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 game_time = 14;</code>
-     * @return The gameTime.
-     */
->>>>>>> origin/6.5.0
     int getGameTime();
   }
   /**
@@ -153,18 +122,7 @@ public final class PlayerGameTimeNotifyOuterClass {
 
     public static final int IS_HOME_FIELD_NUMBER = 8;
     private boolean isHome_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>bool is_home = 10;</code>
-     * @return The isHome.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsHome() {
       return isHome_;
@@ -172,18 +130,7 @@ public final class PlayerGameTimeNotifyOuterClass {
 
     public static final int UID_FIELD_NUMBER = 11;
     private int uid_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 uid = 6;</code>
-     * @return The uid.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getUid() {
       return uid_;
@@ -191,18 +138,7 @@ public final class PlayerGameTimeNotifyOuterClass {
 
     public static final int GAME_TIME_FIELD_NUMBER = 6;
     private int gameTime_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 game_time = 14;</code>
-     * @return The gameTime.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getGameTime() {
       return gameTime_;
@@ -550,53 +486,19 @@ public final class PlayerGameTimeNotifyOuterClass {
       }
 
       private boolean isHome_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>bool is_home = 10;</code>
-       * @return The isHome.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsHome() {
         return isHome_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>bool is_home = 10;</code>
-       * @param value The isHome to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setIsHome(boolean value) {
 
         isHome_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>bool is_home = 10;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearIsHome() {
 
         isHome_ = false;
@@ -605,53 +507,19 @@ public final class PlayerGameTimeNotifyOuterClass {
       }
 
       private int uid_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 uid = 6;</code>
-       * @return The uid.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getUid() {
         return uid_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 uid = 6;</code>
-       * @param value The uid to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setUid(int value) {
 
         uid_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 uid = 6;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearUid() {
 
         uid_ = 0;
@@ -660,53 +528,19 @@ public final class PlayerGameTimeNotifyOuterClass {
       }
 
       private int gameTime_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 game_time = 14;</code>
-       * @return The gameTime.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getGameTime() {
         return gameTime_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 game_time = 14;</code>
-       * @param value The gameTime to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setGameTime(int value) {
 
         gameTime_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 game_time = 14;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearGameTime() {
 
         gameTime_ = 0;

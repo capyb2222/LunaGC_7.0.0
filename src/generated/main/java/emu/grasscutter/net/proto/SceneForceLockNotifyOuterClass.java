@@ -18,40 +18,10 @@ public final class SceneForceLockNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:SceneForceLockNotify)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     java.util.List<java.lang.Integer> getForceIdListList();
 
     int getForceIdListCount();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated uint32 force_id_list = 4;</code>
-     * @return A list containing the forceIdList.
-     */
-    java.util.List<java.lang.Integer> getForceIdListList();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated uint32 force_id_list = 4;</code>
-     * @return The count of forceIdList.
-     */
-    int getForceIdListCount();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated uint32 force_id_list = 4;</code>
-     * @param index The index of the element to return.
-     * @return The forceIdList at the given index.
-     */
->>>>>>> origin/6.5.0
     int getForceIdList(int index);
   }
   /**
@@ -163,51 +133,17 @@ public final class SceneForceLockNotifyOuterClass {
 
     public static final int FORCE_ID_LIST_FIELD_NUMBER = 4;
     private com.google.protobuf.Internal.IntList forceIdList_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated uint32 force_id_list = 4;</code>
-     * @return A list containing the forceIdList.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getForceIdListList() {
       return forceIdList_;
     }
-<<<<<<< HEAD
 
     public int getForceIdListCount() {
       return forceIdList_.size();
     }
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated uint32 force_id_list = 4;</code>
-     * @return The count of forceIdList.
-     */
-    public int getForceIdListCount() {
-      return forceIdList_.size();
-    }
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>repeated uint32 force_id_list = 4;</code>
-     * @param index The index of the element to return.
-     * @return The forceIdList at the given index.
-     */
->>>>>>> origin/6.5.0
     public int getForceIdList(int index) {
       return forceIdList_.getInt(index);
     }
@@ -556,24 +492,12 @@ public final class SceneForceLockNotifyOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated uint32 force_id_list = 4;</code>
-       * @return A list containing the forceIdList.
-       */
->>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getForceIdListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(forceIdList_) : forceIdList_;
       }
-<<<<<<< HEAD
 
       public int getForceIdListCount() {
         return forceIdList_.size();
@@ -583,41 +507,6 @@ public final class SceneForceLockNotifyOuterClass {
         return forceIdList_.getInt(index);
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated uint32 force_id_list = 4;</code>
-       * @return The count of forceIdList.
-       */
-      public int getForceIdListCount() {
-        return forceIdList_.size();
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated uint32 force_id_list = 4;</code>
-       * @param index The index of the element to return.
-       * @return The forceIdList at the given index.
-       */
-      public int getForceIdList(int index) {
-        return forceIdList_.getInt(index);
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated uint32 force_id_list = 4;</code>
-       * @param index The index to set the value at.
-       * @param value The forceIdList to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setForceIdList(
           int index, int value) {
         ensureForceIdListIsMutable();
@@ -625,38 +514,14 @@ public final class SceneForceLockNotifyOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated uint32 force_id_list = 4;</code>
-       * @param value The forceIdList to add.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder addForceIdList(int value) {
         ensureForceIdListIsMutable();
         forceIdList_.addInt(value);
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated uint32 force_id_list = 4;</code>
-       * @param values The forceIdList to add.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder addAllForceIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureForceIdListIsMutable();
@@ -665,18 +530,7 @@ public final class SceneForceLockNotifyOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>repeated uint32 force_id_list = 4;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearForceIdList() {
         forceIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);

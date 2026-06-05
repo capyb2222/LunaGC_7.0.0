@@ -18,41 +18,10 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:AvatarSkillMaxChargeCountNotify)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getSkillId();
 
     int getMaxChargeCount();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 skill_id = 15;</code>
-     * @return The skillId.
-     */
-    int getSkillId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 max_charge_count = 14;</code>
-     * @return The maxChargeCount.
-     */
-    int getMaxChargeCount();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint64 avatar_guid = 4;</code>
-     * @return The avatarGuid.
-     */
->>>>>>> origin/6.5.0
     long getAvatarGuid();
   }
   /**
@@ -153,18 +122,7 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
 
     public static final int SKILL_ID_FIELD_NUMBER = 6;
     private int skillId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 skill_id = 15;</code>
-     * @return The skillId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getSkillId() {
       return skillId_;
@@ -172,18 +130,7 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
 
     public static final int MAX_CHARGE_COUNT_FIELD_NUMBER = 8;
     private int maxChargeCount_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 max_charge_count = 14;</code>
-     * @return The maxChargeCount.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getMaxChargeCount() {
       return maxChargeCount_;
@@ -191,18 +138,7 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
 
     public static final int AVATAR_GUID_FIELD_NUMBER = 1;
     private long avatarGuid_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint64 avatar_guid = 4;</code>
-     * @return The avatarGuid.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public long getAvatarGuid() {
       return avatarGuid_;
@@ -550,53 +486,19 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
       }
 
       private int skillId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 skill_id = 15;</code>
-       * @return The skillId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getSkillId() {
         return skillId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 skill_id = 15;</code>
-       * @param value The skillId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setSkillId(int value) {
 
         skillId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 skill_id = 15;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearSkillId() {
 
         skillId_ = 0;
@@ -605,53 +507,19 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
       }
 
       private int maxChargeCount_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 max_charge_count = 14;</code>
-       * @return The maxChargeCount.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getMaxChargeCount() {
         return maxChargeCount_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 max_charge_count = 14;</code>
-       * @param value The maxChargeCount to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setMaxChargeCount(int value) {
 
         maxChargeCount_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 max_charge_count = 14;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearMaxChargeCount() {
 
         maxChargeCount_ = 0;
@@ -660,53 +528,19 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
       }
 
       private long avatarGuid_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint64 avatar_guid = 4;</code>
-       * @return The avatarGuid.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public long getAvatarGuid() {
         return avatarGuid_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint64 avatar_guid = 4;</code>
-       * @param value The avatarGuid to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setAvatarGuid(long value) {
 
         avatarGuid_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint64 avatar_guid = 4;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearAvatarGuid() {
 
         avatarGuid_ = 0L;

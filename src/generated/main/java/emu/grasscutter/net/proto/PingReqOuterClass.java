@@ -20,56 +20,14 @@ public final class PingReqOuterClass {
 
     com.google.protobuf.ByteString getOKOEPNILKKK();
 
-<<<<<<< HEAD
     int getSeq();
 
     float getUeTime();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 seq = 10;</code>
-     * @return The seq.
-     */
-    int getSeq();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>float ue_time = 3;</code>
-     * @return The ueTime.
-     */
-    float getUeTime();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>double total_tick_time = 6;</code>
-     * @return The totalTickTime.
-     */
->>>>>>> origin/6.5.0
     double getTotalTickTime();
 
     int getAKGPFDHNGBO();
 
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 client_time = 8;</code>
-     * @return The clientTime.
-     */
->>>>>>> origin/6.5.0
     int getClientTime();
   }
 
@@ -207,18 +165,7 @@ public final class PingReqOuterClass {
 
     public static final int SEQ_FIELD_NUMBER = 10;
     private int seq_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 seq = 10;</code>
-     * @return The seq.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getSeq() {
       return seq_;
@@ -226,18 +173,7 @@ public final class PingReqOuterClass {
 
     public static final int UE_TIME_FIELD_NUMBER = 2;
     private float ueTime_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>float ue_time = 3;</code>
-     * @return The ueTime.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public float getUeTime() {
       return ueTime_;
@@ -245,18 +181,7 @@ public final class PingReqOuterClass {
 
     public static final int TOTAL_TICK_TIME_FIELD_NUMBER = 13;
     private double totalTickTime_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>double total_tick_time = 6;</code>
-     * @return The totalTickTime.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public double getTotalTickTime() {
       return totalTickTime_;
@@ -272,18 +197,7 @@ public final class PingReqOuterClass {
 
     public static final int CLIENT_TIME_FIELD_NUMBER = 14;
     private int clientTime_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 client_time = 8;</code>
-     * @return The clientTime.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getClientTime() {
       return clientTime_;
@@ -743,53 +657,19 @@ public final class PingReqOuterClass {
       }
 
       private int seq_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 seq = 10;</code>
-       * @return The seq.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getSeq() {
         return seq_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 seq = 10;</code>
-       * @param value The seq to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setSeq(int value) {
 
         seq_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 seq = 10;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearSeq() {
 
         seq_ = 0;
@@ -798,53 +678,19 @@ public final class PingReqOuterClass {
       }
 
       private float ueTime_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>float ue_time = 3;</code>
-       * @return The ueTime.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public float getUeTime() {
         return ueTime_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>float ue_time = 3;</code>
-       * @param value The ueTime to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setUeTime(float value) {
 
         ueTime_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>float ue_time = 3;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearUeTime() {
 
         ueTime_ = 0F;
@@ -853,53 +699,19 @@ public final class PingReqOuterClass {
       }
 
       private double totalTickTime_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>double total_tick_time = 6;</code>
-       * @return The totalTickTime.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public double getTotalTickTime() {
         return totalTickTime_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>double total_tick_time = 6;</code>
-       * @param value The totalTickTime to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setTotalTickTime(double value) {
 
         totalTickTime_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>double total_tick_time = 6;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearTotalTickTime() {
 
         totalTickTime_ = 0D;
@@ -929,53 +741,19 @@ public final class PingReqOuterClass {
       }
 
       private int clientTime_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 client_time = 8;</code>
-       * @return The clientTime.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getClientTime() {
         return clientTime_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 client_time = 8;</code>
-       * @param value The clientTime to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setClientTime(int value) {
 
         clientTime_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 client_time = 8;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearClientTime() {
 
         clientTime_ = 0;

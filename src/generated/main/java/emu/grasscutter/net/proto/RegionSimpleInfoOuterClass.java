@@ -18,7 +18,6 @@ public final class RegionSimpleInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:RegionSimpleInfo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     java.lang.String getName();
 
     com.google.protobuf.ByteString
@@ -36,85 +35,6 @@ public final class RegionSimpleInfoOuterClass {
 
     java.lang.String getTitle();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string name = 1;</code>
-     * @return The name.
-     */
-    java.lang.String getName();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string name = 1;</code>
-     * @return The bytes for name.
-     */
-    com.google.protobuf.ByteString
-        getNameBytes();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string dispatch_url = 4;</code>
-     * @return The dispatchUrl.
-     */
-    java.lang.String getDispatchUrl();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string dispatch_url = 4;</code>
-     * @return The bytes for dispatchUrl.
-     */
-    com.google.protobuf.ByteString
-        getDispatchUrlBytes();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string type = 3;</code>
-     * @return The type.
-     */
-    java.lang.String getType();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string type = 3;</code>
-     * @return The bytes for type.
-     */
-    com.google.protobuf.ByteString
-        getTypeBytes();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string title = 2;</code>
-     * @return The title.
-     */
-    java.lang.String getTitle();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string title = 2;</code>
-     * @return The bytes for title.
-     */
->>>>>>> origin/6.5.0
     com.google.protobuf.ByteString
         getTitleBytes();
   }
@@ -225,18 +145,7 @@ public final class RegionSimpleInfoOuterClass {
 
     public static final int NAME_FIELD_NUMBER = 1;
     private volatile java.lang.Object name_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string name = 1;</code>
-     * @return The name.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getName() {
       java.lang.Object ref = name_;
@@ -250,18 +159,7 @@ public final class RegionSimpleInfoOuterClass {
         return s;
       }
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string name = 1;</code>
-     * @return The bytes for name.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getNameBytes() {
@@ -279,18 +177,7 @@ public final class RegionSimpleInfoOuterClass {
 
     public static final int DISPATCH_URL_FIELD_NUMBER = 4;
     private volatile java.lang.Object dispatchUrl_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string dispatch_url = 4;</code>
-     * @return The dispatchUrl.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getDispatchUrl() {
       java.lang.Object ref = dispatchUrl_;
@@ -304,18 +191,7 @@ public final class RegionSimpleInfoOuterClass {
         return s;
       }
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string dispatch_url = 4;</code>
-     * @return The bytes for dispatchUrl.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getDispatchUrlBytes() {
@@ -333,18 +209,7 @@ public final class RegionSimpleInfoOuterClass {
 
     public static final int TYPE_FIELD_NUMBER = 3;
     private volatile java.lang.Object type_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string type = 3;</code>
-     * @return The type.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getType() {
       java.lang.Object ref = type_;
@@ -358,18 +223,7 @@ public final class RegionSimpleInfoOuterClass {
         return s;
       }
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string type = 3;</code>
-     * @return The bytes for type.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getTypeBytes() {
@@ -387,18 +241,7 @@ public final class RegionSimpleInfoOuterClass {
 
     public static final int TITLE_FIELD_NUMBER = 2;
     private volatile java.lang.Object title_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string title = 2;</code>
-     * @return The title.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getTitle() {
       java.lang.Object ref = title_;
@@ -412,18 +255,7 @@ public final class RegionSimpleInfoOuterClass {
         return s;
       }
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string title = 2;</code>
-     * @return The bytes for title.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getTitleBytes() {
@@ -793,18 +625,7 @@ public final class RegionSimpleInfoOuterClass {
       }
 
       private java.lang.Object name_ = "";
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string name = 1;</code>
-       * @return The name.
-       */
->>>>>>> origin/6.5.0
       public java.lang.String getName() {
         java.lang.Object ref = name_;
         if (!(ref instanceof java.lang.String)) {
@@ -817,18 +638,7 @@ public final class RegionSimpleInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string name = 1;</code>
-       * @return The bytes for name.
-       */
->>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getNameBytes() {
         java.lang.Object ref = name_;
@@ -842,19 +652,7 @@ public final class RegionSimpleInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string name = 1;</code>
-       * @param value The name to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setName(
           java.lang.String value) {
         if (value == null) {
@@ -865,37 +663,14 @@ public final class RegionSimpleInfoOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string name = 1;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearName() {
 
         name_ = getDefaultInstance().getName();
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string name = 1;</code>
-       * @param value The bytes for name to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setNameBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -909,18 +684,7 @@ public final class RegionSimpleInfoOuterClass {
       }
 
       private java.lang.Object dispatchUrl_ = "";
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string dispatch_url = 4;</code>
-       * @return The dispatchUrl.
-       */
->>>>>>> origin/6.5.0
       public java.lang.String getDispatchUrl() {
         java.lang.Object ref = dispatchUrl_;
         if (!(ref instanceof java.lang.String)) {
@@ -933,18 +697,7 @@ public final class RegionSimpleInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string dispatch_url = 4;</code>
-       * @return The bytes for dispatchUrl.
-       */
->>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getDispatchUrlBytes() {
         java.lang.Object ref = dispatchUrl_;
@@ -958,19 +711,7 @@ public final class RegionSimpleInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string dispatch_url = 4;</code>
-       * @param value The dispatchUrl to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setDispatchUrl(
           java.lang.String value) {
         if (value == null) {
@@ -981,37 +722,14 @@ public final class RegionSimpleInfoOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string dispatch_url = 4;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearDispatchUrl() {
 
         dispatchUrl_ = getDefaultInstance().getDispatchUrl();
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string dispatch_url = 4;</code>
-       * @param value The bytes for dispatchUrl to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setDispatchUrlBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -1025,18 +743,7 @@ public final class RegionSimpleInfoOuterClass {
       }
 
       private java.lang.Object type_ = "";
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string type = 3;</code>
-       * @return The type.
-       */
->>>>>>> origin/6.5.0
       public java.lang.String getType() {
         java.lang.Object ref = type_;
         if (!(ref instanceof java.lang.String)) {
@@ -1049,18 +756,7 @@ public final class RegionSimpleInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string type = 3;</code>
-       * @return The bytes for type.
-       */
->>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getTypeBytes() {
         java.lang.Object ref = type_;
@@ -1074,19 +770,7 @@ public final class RegionSimpleInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string type = 3;</code>
-       * @param value The type to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setType(
           java.lang.String value) {
         if (value == null) {
@@ -1097,37 +781,14 @@ public final class RegionSimpleInfoOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string type = 3;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearType() {
 
         type_ = getDefaultInstance().getType();
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string type = 3;</code>
-       * @param value The bytes for type to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setTypeBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -1141,18 +802,7 @@ public final class RegionSimpleInfoOuterClass {
       }
 
       private java.lang.Object title_ = "";
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string title = 2;</code>
-       * @return The title.
-       */
->>>>>>> origin/6.5.0
       public java.lang.String getTitle() {
         java.lang.Object ref = title_;
         if (!(ref instanceof java.lang.String)) {
@@ -1165,18 +815,7 @@ public final class RegionSimpleInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string title = 2;</code>
-       * @return The bytes for title.
-       */
->>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getTitleBytes() {
         java.lang.Object ref = title_;
@@ -1190,19 +829,7 @@ public final class RegionSimpleInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string title = 2;</code>
-       * @param value The title to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setTitle(
           java.lang.String value) {
         if (value == null) {
@@ -1213,37 +840,14 @@ public final class RegionSimpleInfoOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string title = 2;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearTitle() {
 
         title_ = getDefaultInstance().getTitle();
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string title = 2;</code>
-       * @param value The bytes for title to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setTitleBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {

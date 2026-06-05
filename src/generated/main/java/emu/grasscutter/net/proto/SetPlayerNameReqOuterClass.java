@@ -18,28 +18,8 @@ public final class SetPlayerNameReqOuterClass {
       // @@protoc_insertion_point(interface_extends:SetPlayerNameReq)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     java.lang.String getNickName();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string nick_name = 12;</code>
-     * @return The nickName.
-     */
-    java.lang.String getNickName();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string nick_name = 12;</code>
-     * @return The bytes for nickName.
-     */
->>>>>>> origin/6.5.0
     com.google.protobuf.ByteString
         getNickNameBytes();
   }
@@ -133,18 +113,7 @@ public final class SetPlayerNameReqOuterClass {
 
     public static final int NICK_NAME_FIELD_NUMBER = 6;
     private volatile java.lang.Object nickName_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string nick_name = 12;</code>
-     * @return The nickName.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getNickName() {
       java.lang.Object ref = nickName_;
@@ -158,18 +127,7 @@ public final class SetPlayerNameReqOuterClass {
         return s;
       }
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0       
-     * </pre>
-     *
-     * <code>string nick_name = 12;</code>
-     * @return The bytes for nickName.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getNickNameBytes() {
@@ -492,18 +450,7 @@ public final class SetPlayerNameReqOuterClass {
       }
 
       private java.lang.Object nickName_ = "";
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string nick_name = 12;</code>
-       * @return The nickName.
-       */
->>>>>>> origin/6.5.0
       public java.lang.String getNickName() {
         java.lang.Object ref = nickName_;
         if (!(ref instanceof java.lang.String)) {
@@ -516,18 +463,7 @@ public final class SetPlayerNameReqOuterClass {
           return (java.lang.String) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string nick_name = 12;</code>
-       * @return The bytes for nickName.
-       */
->>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getNickNameBytes() {
         java.lang.Object ref = nickName_;
@@ -541,19 +477,7 @@ public final class SetPlayerNameReqOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string nick_name = 12;</code>
-       * @param value The nickName to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setNickName(
           java.lang.String value) {
         if (value == null) {
@@ -564,37 +488,14 @@ public final class SetPlayerNameReqOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string nick_name = 12;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearNickName() {
 
         nickName_ = getDefaultInstance().getNickName();
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0       
-       * </pre>
-       *
-       * <code>string nick_name = 12;</code>
-       * @param value The bytes for nickName to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setNickNameBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {

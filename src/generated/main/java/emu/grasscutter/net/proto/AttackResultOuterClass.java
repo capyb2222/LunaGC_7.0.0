@@ -33,7 +33,6 @@ public final class AttackResultOuterClass {
      */
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getResolveDirOrBuilder();
 
-<<<<<<< HEAD
     boolean hasHitCollision();
 
     emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollision getHitCollision();
@@ -55,107 +54,6 @@ public final class AttackResultOuterClass {
 
     emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifier getAbilityIdentifier();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.HitCollision hit_collision = 6;</code>
-     * @return Whether the hitCollision field is set.
-     */
-    boolean hasHitCollision();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.HitCollision hit_collision = 6;</code>
-     * @return The hitCollision.
-     */
-    emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollision getHitCollision();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.HitCollision hit_collision = 6;</code>
-     */
-    emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollisionOrBuilder getHitCollisionOrBuilder();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string anim_event_id = 4;</code>
-     * @return The animEventId.
-     */
-    java.lang.String getAnimEventId();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string anim_event_id = 4;</code>
-     * @return The bytes for animEventId.
-     */
-    com.google.protobuf.ByteString
-        getAnimEventIdBytes();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
-     * @return Whether the hitEffResult field is set.
-     */
-    boolean hasHitEffResult();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
-     * @return The hitEffResult.
-     */
-    emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult getHitEffResult();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
-     */
-    emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResultOrBuilder getHitEffResultOrBuilder();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.AbilityIdentifier ability_identifier = 10;</code>
-     * @return Whether the abilityIdentifier field is set.
-     */
-    boolean hasAbilityIdentifier();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.AbilityIdentifier ability_identifier = 10;</code>
-     * @return The abilityIdentifier.
-     */
-    emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifier getAbilityIdentifier();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.AbilityIdentifier ability_identifier = 10;</code>
-     */
->>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifierOrBuilder getAbilityIdentifierOrBuilder();
 
     /**
@@ -176,17 +74,6 @@ public final class AttackResultOuterClass {
      */
     int getANLIHCBGOJC();
 
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 element_type = 9;</code>
-     * @return The elementType.
-     */
->>>>>>> origin/6.5.0
     int getElementType();
 
     /**
@@ -207,17 +94,6 @@ public final class AttackResultOuterClass {
      */
     float getHPNOGNFPMBN();
 
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 attacker_id = 1;</code>
-     * @return The attackerId.
-     */
->>>>>>> origin/6.5.0
     int getAttackerId();
 
     /**
@@ -226,17 +102,6 @@ public final class AttackResultOuterClass {
      */
     int getCILLGDKJIFC();
 
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>float damage = 3;</code>
-     * @return The damage.
-     */
->>>>>>> origin/6.5.0
     float getDamage();
 
     /**
@@ -596,49 +461,17 @@ public final class AttackResultOuterClass {
 
     public static final int HIT_COLLISION_FIELD_NUMBER = 2;
     private emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollision hitCollision_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.HitCollision hit_collision = 6;</code>
-     * @return Whether the hitCollision field is set.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasHitCollision() {
       return hitCollision_ != null;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.HitCollision hit_collision = 6;</code>
-     * @return The hitCollision.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollision getHitCollision() {
       return hitCollision_ == null ? emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollision.getDefaultInstance() : hitCollision_;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.HitCollision hit_collision = 6;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollisionOrBuilder getHitCollisionOrBuilder() {
       return getHitCollision();
@@ -646,18 +479,7 @@ public final class AttackResultOuterClass {
 
     public static final int ANIM_EVENT_ID_FIELD_NUMBER = 6;
     private volatile java.lang.Object animEventId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string anim_event_id = 4;</code>
-     * @return The animEventId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getAnimEventId() {
       java.lang.Object ref = animEventId_;
@@ -671,18 +493,7 @@ public final class AttackResultOuterClass {
         return s;
       }
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>string anim_event_id = 4;</code>
-     * @return The bytes for animEventId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getAnimEventIdBytes() {
@@ -700,49 +511,17 @@ public final class AttackResultOuterClass {
 
     public static final int HIT_EFF_RESULT_FIELD_NUMBER = 8;
     private emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult hitEffResult_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
-     * @return Whether the hitEffResult field is set.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasHitEffResult() {
       return hitEffResult_ != null;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
-     * @return The hitEffResult.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult getHitEffResult() {
       return hitEffResult_ == null ? emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult.getDefaultInstance() : hitEffResult_;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResultOrBuilder getHitEffResultOrBuilder() {
       return getHitEffResult();
@@ -750,49 +529,17 @@ public final class AttackResultOuterClass {
 
     public static final int ABILITY_IDENTIFIER_FIELD_NUMBER = 5;
     private emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifier abilityIdentifier_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.AbilityIdentifier ability_identifier = 10;</code>
-     * @return Whether the abilityIdentifier field is set.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasAbilityIdentifier() {
       return abilityIdentifier_ != null;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.AbilityIdentifier ability_identifier = 10;</code>
-     * @return The abilityIdentifier.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifier getAbilityIdentifier() {
       return abilityIdentifier_ == null ? emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifier.getDefaultInstance() : abilityIdentifier_;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.AbilityIdentifier ability_identifier = 10;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifierOrBuilder getAbilityIdentifierOrBuilder() {
       return getAbilityIdentifier();
@@ -833,18 +580,7 @@ public final class AttackResultOuterClass {
 
     public static final int ELEMENT_TYPE_FIELD_NUMBER = 11;
     private int elementType_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>uint32 element_type = 9;</code>
-     * @return The elementType.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getElementType() {
       return elementType_;
@@ -885,18 +621,7 @@ public final class AttackResultOuterClass {
 
     public static final int ATTACKER_ID_FIELD_NUMBER = 1;
     private int attackerId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 attacker_id = 1;</code>
-     * @return The attackerId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getAttackerId() {
       return attackerId_;
@@ -915,18 +640,7 @@ public final class AttackResultOuterClass {
 
     public static final int DAMAGE_FIELD_NUMBER = 1;
     private float damage_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>float damage = 3;</code>
-     * @return The damage.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public float getDamage() {
       return damage_;
@@ -2023,33 +1737,11 @@ public final class AttackResultOuterClass {
       private emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollision hitCollision_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollision, emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollision.Builder, emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollisionOrBuilder> hitCollisionBuilder_;
-<<<<<<< HEAD
 
       public boolean hasHitCollision() {
         return hitCollisionBuilder_ != null || hitCollision_ != null;
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.HitCollision hit_collision = 6;</code>
-       * @return Whether the hitCollision field is set.
-       */
-      public boolean hasHitCollision() {
-        return hitCollisionBuilder_ != null || hitCollision_ != null;
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.HitCollision hit_collision = 6;</code>
-       * @return The hitCollision.
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollision getHitCollision() {
         if (hitCollisionBuilder_ == null) {
           return hitCollision_ == null ? emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollision.getDefaultInstance() : hitCollision_;
@@ -2057,17 +1749,7 @@ public final class AttackResultOuterClass {
           return hitCollisionBuilder_.getMessage();
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.HitCollision hit_collision = 6;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setHitCollision(emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollision value) {
         if (hitCollisionBuilder_ == null) {
           if (value == null) {
@@ -2081,17 +1763,7 @@ public final class AttackResultOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.HitCollision hit_collision = 6;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setHitCollision(
           emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollision.Builder builderForValue) {
         if (hitCollisionBuilder_ == null) {
@@ -2103,17 +1775,7 @@ public final class AttackResultOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.HitCollision hit_collision = 6;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder mergeHitCollision(emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollision value) {
         if (hitCollisionBuilder_ == null) {
           if (hitCollision_ != null) {
@@ -2129,17 +1791,7 @@ public final class AttackResultOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.HitCollision hit_collision = 6;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder clearHitCollision() {
         if (hitCollisionBuilder_ == null) {
           hitCollision_ = null;
@@ -2151,33 +1803,13 @@ public final class AttackResultOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.HitCollision hit_collision = 6;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollision.Builder getHitCollisionBuilder() {
 
         onChanged();
         return getHitCollisionFieldBuilder().getBuilder();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.HitCollision hit_collision = 6;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollisionOrBuilder getHitCollisionOrBuilder() {
         if (hitCollisionBuilder_ != null) {
           return hitCollisionBuilder_.getMessageOrBuilder();
@@ -2186,17 +1818,7 @@ public final class AttackResultOuterClass {
               emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollision.getDefaultInstance() : hitCollision_;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.HitCollision hit_collision = 6;</code>
-       */
->>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollision, emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollision.Builder, emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollisionOrBuilder>
           getHitCollisionFieldBuilder() {
@@ -2212,18 +1834,7 @@ public final class AttackResultOuterClass {
       }
 
       private java.lang.Object animEventId_ = "";
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string anim_event_id = 4;</code>
-       * @return The animEventId.
-       */
->>>>>>> origin/6.5.0
       public java.lang.String getAnimEventId() {
         java.lang.Object ref = animEventId_;
         if (!(ref instanceof java.lang.String)) {
@@ -2236,18 +1847,7 @@ public final class AttackResultOuterClass {
           return (java.lang.String) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string anim_event_id = 4;</code>
-       * @return The bytes for animEventId.
-       */
->>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getAnimEventIdBytes() {
         java.lang.Object ref = animEventId_;
@@ -2261,19 +1861,7 @@ public final class AttackResultOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string anim_event_id = 4;</code>
-       * @param value The animEventId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setAnimEventId(
           java.lang.String value) {
         if (value == null) {
@@ -2284,37 +1872,14 @@ public final class AttackResultOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string anim_event_id = 4;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearAnimEventId() {
 
         animEventId_ = getDefaultInstance().getAnimEventId();
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>string anim_event_id = 4;</code>
-       * @param value The bytes for animEventId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setAnimEventIdBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -2330,33 +1895,11 @@ public final class AttackResultOuterClass {
       private emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult hitEffResult_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult, emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult.Builder, emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResultOrBuilder> hitEffResultBuilder_;
-<<<<<<< HEAD
 
       public boolean hasHitEffResult() {
         return hitEffResultBuilder_ != null || hitEffResult_ != null;
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
-       * @return Whether the hitEffResult field is set.
-       */
-      public boolean hasHitEffResult() {
-        return hitEffResultBuilder_ != null || hitEffResult_ != null;
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
-       * @return The hitEffResult.
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult getHitEffResult() {
         if (hitEffResultBuilder_ == null) {
           return hitEffResult_ == null ? emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult.getDefaultInstance() : hitEffResult_;
@@ -2364,17 +1907,7 @@ public final class AttackResultOuterClass {
           return hitEffResultBuilder_.getMessage();
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setHitEffResult(emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult value) {
         if (hitEffResultBuilder_ == null) {
           if (value == null) {
@@ -2388,17 +1921,7 @@ public final class AttackResultOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setHitEffResult(
           emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult.Builder builderForValue) {
         if (hitEffResultBuilder_ == null) {
@@ -2410,17 +1933,7 @@ public final class AttackResultOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder mergeHitEffResult(emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult value) {
         if (hitEffResultBuilder_ == null) {
           if (hitEffResult_ != null) {
@@ -2436,17 +1949,7 @@ public final class AttackResultOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder clearHitEffResult() {
         if (hitEffResultBuilder_ == null) {
           hitEffResult_ = null;
@@ -2458,33 +1961,13 @@ public final class AttackResultOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult.Builder getHitEffResultBuilder() {
 
         onChanged();
         return getHitEffResultFieldBuilder().getBuilder();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResultOrBuilder getHitEffResultOrBuilder() {
         if (hitEffResultBuilder_ != null) {
           return hitEffResultBuilder_.getMessageOrBuilder();
@@ -2493,17 +1976,7 @@ public final class AttackResultOuterClass {
               emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult.getDefaultInstance() : hitEffResult_;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
-       */
->>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult, emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult.Builder, emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResultOrBuilder>
           getHitEffResultFieldBuilder() {
@@ -2521,33 +1994,11 @@ public final class AttackResultOuterClass {
       private emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifier abilityIdentifier_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifier, emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifier.Builder, emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifierOrBuilder> abilityIdentifierBuilder_;
-<<<<<<< HEAD
 
       public boolean hasAbilityIdentifier() {
         return abilityIdentifierBuilder_ != null || abilityIdentifier_ != null;
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.AbilityIdentifier ability_identifier = 10;</code>
-       * @return Whether the abilityIdentifier field is set.
-       */
-      public boolean hasAbilityIdentifier() {
-        return abilityIdentifierBuilder_ != null || abilityIdentifier_ != null;
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.AbilityIdentifier ability_identifier = 10;</code>
-       * @return The abilityIdentifier.
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifier getAbilityIdentifier() {
         if (abilityIdentifierBuilder_ == null) {
           return abilityIdentifier_ == null ? emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifier.getDefaultInstance() : abilityIdentifier_;
@@ -2555,17 +2006,7 @@ public final class AttackResultOuterClass {
           return abilityIdentifierBuilder_.getMessage();
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.AbilityIdentifier ability_identifier = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setAbilityIdentifier(emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifier value) {
         if (abilityIdentifierBuilder_ == null) {
           if (value == null) {
@@ -2579,17 +2020,7 @@ public final class AttackResultOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.AbilityIdentifier ability_identifier = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setAbilityIdentifier(
           emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifier.Builder builderForValue) {
         if (abilityIdentifierBuilder_ == null) {
@@ -2601,17 +2032,7 @@ public final class AttackResultOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.AbilityIdentifier ability_identifier = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder mergeAbilityIdentifier(emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifier value) {
         if (abilityIdentifierBuilder_ == null) {
           if (abilityIdentifier_ != null) {
@@ -2627,17 +2048,7 @@ public final class AttackResultOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.AbilityIdentifier ability_identifier = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder clearAbilityIdentifier() {
         if (abilityIdentifierBuilder_ == null) {
           abilityIdentifier_ = null;
@@ -2649,33 +2060,13 @@ public final class AttackResultOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.AbilityIdentifier ability_identifier = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifier.Builder getAbilityIdentifierBuilder() {
 
         onChanged();
         return getAbilityIdentifierFieldBuilder().getBuilder();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.AbilityIdentifier ability_identifier = 10;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifierOrBuilder getAbilityIdentifierOrBuilder() {
         if (abilityIdentifierBuilder_ != null) {
           return abilityIdentifierBuilder_.getMessageOrBuilder();
@@ -2684,17 +2075,7 @@ public final class AttackResultOuterClass {
               emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifier.getDefaultInstance() : abilityIdentifier_;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.AbilityIdentifier ability_identifier = 10;</code>
-       */
->>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifier, emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifier.Builder, emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifierOrBuilder>
           getAbilityIdentifierFieldBuilder() {
@@ -2803,53 +2184,19 @@ public final class AttackResultOuterClass {
       }
 
       private int elementType_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 element_type = 9;</code>
-       * @return The elementType.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getElementType() {
         return elementType_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 element_type = 9;</code>
-       * @param value The elementType to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setElementType(int value) {
 
         elementType_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>uint32 element_type = 9;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearElementType() {
 
         elementType_ = 0;
@@ -2951,53 +2298,19 @@ public final class AttackResultOuterClass {
       }
 
       private int attackerId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 attacker_id = 1;</code>
-       * @return The attackerId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getAttackerId() {
         return attackerId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 attacker_id = 1;</code>
-       * @param value The attackerId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setAttackerId(int value) {
 
         attackerId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 attacker_id = 1;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearAttackerId() {
 
         attackerId_ = 0;
@@ -3037,53 +2350,19 @@ public final class AttackResultOuterClass {
       }
 
       private float damage_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>float damage = 3;</code>
-       * @return The damage.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public float getDamage() {
         return damage_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>float damage = 3;</code>
-       * @param value The damage to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setDamage(float value) {
 
         damage_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>float damage = 3;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearDamage() {
 
         damage_ = 0F;

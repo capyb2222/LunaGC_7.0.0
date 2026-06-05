@@ -18,41 +18,10 @@ public final class GetScenePointReqOuterClass {
       // @@protoc_insertion_point(interface_extends:GetScenePointReq)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     int getSceneId();
 
     boolean getIsRelogin();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0         
-     * </pre>
-     *
-     * <code>uint32 scene_id = 8;</code>
-     * @return The sceneId.
-     */
-    int getSceneId();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>bool is_relogin = 9;</code>
-     * @return The isRelogin.
-     */
-    boolean getIsRelogin();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 belong_uid = 2;</code>
-     * @return The belongUid.
-     */
->>>>>>> origin/6.5.0
     int getBelongUid();
   }
   /**
@@ -153,18 +122,7 @@ public final class GetScenePointReqOuterClass {
 
     public static final int SCENE_ID_FIELD_NUMBER = 7;
     private int sceneId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0         
-     * </pre>
-     *
-     * <code>uint32 scene_id = 8;</code>
-     * @return The sceneId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getSceneId() {
       return sceneId_;
@@ -172,18 +130,7 @@ public final class GetScenePointReqOuterClass {
 
     public static final int IS_RELOGIN_FIELD_NUMBER = 10;
     private boolean isRelogin_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>bool is_relogin = 9;</code>
-     * @return The isRelogin.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsRelogin() {
       return isRelogin_;
@@ -191,18 +138,7 @@ public final class GetScenePointReqOuterClass {
 
     public static final int BELONG_UID_FIELD_NUMBER = 5;
     private int belongUid_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>uint32 belong_uid = 2;</code>
-     * @return The belongUid.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getBelongUid() {
       return belongUid_;
@@ -550,53 +486,19 @@ public final class GetScenePointReqOuterClass {
       }
 
       private int sceneId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0         
-       * </pre>
-       *
-       * <code>uint32 scene_id = 8;</code>
-       * @return The sceneId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getSceneId() {
         return sceneId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0         
-       * </pre>
-       *
-       * <code>uint32 scene_id = 8;</code>
-       * @param value The sceneId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setSceneId(int value) {
 
         sceneId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0         
-       * </pre>
-       *
-       * <code>uint32 scene_id = 8;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearSceneId() {
 
         sceneId_ = 0;
@@ -605,53 +507,19 @@ public final class GetScenePointReqOuterClass {
       }
 
       private boolean isRelogin_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>bool is_relogin = 9;</code>
-       * @return The isRelogin.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsRelogin() {
         return isRelogin_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>bool is_relogin = 9;</code>
-       * @param value The isRelogin to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setIsRelogin(boolean value) {
 
         isRelogin_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>bool is_relogin = 9;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearIsRelogin() {
 
         isRelogin_ = false;
@@ -660,53 +528,19 @@ public final class GetScenePointReqOuterClass {
       }
 
       private int belongUid_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 belong_uid = 2;</code>
-       * @return The belongUid.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getBelongUid() {
         return belongUid_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 belong_uid = 2;</code>
-       * @param value The belongUid to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setBelongUid(int value) {
 
         belongUid_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>uint32 belong_uid = 2;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearBelongUid() {
 
         belongUid_ = 0;

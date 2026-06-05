@@ -64,28 +64,8 @@ public final class SalesmanActivityDetailInfoOuterClass {
      */
     int getAHEHGIPMGEJ();
 
-<<<<<<< HEAD
     int getStatusValue();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>.DEMBMADKBAL status = 12;</code>
-     * @return The enum numeric value on the wire for status.
-     */
-    int getStatusValue();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>.DEMBMADKBAL status = 12;</code>
-     * @return The status.
-     */
->>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.DEMBMADKBALOuterClass.DEMBMADKBAL getStatus();
 
     /**
@@ -368,33 +348,11 @@ public final class SalesmanActivityDetailInfoOuterClass {
 
     public static final int STATUS_FIELD_NUMBER = 12;
     private int status_;
-<<<<<<< HEAD
 
     @java.lang.Override public int getStatusValue() {
       return status_;
     }
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>.DEMBMADKBAL status = 12;</code>
-     * @return The enum numeric value on the wire for status.
-     */
-    @java.lang.Override public int getStatusValue() {
-      return status_;
-    }
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>.DEMBMADKBAL status = 12;</code>
-     * @return The status.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override public emu.grasscutter.net.proto.DEMBMADKBALOuterClass.DEMBMADKBAL getStatus() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.DEMBMADKBALOuterClass.DEMBMADKBAL result = emu.grasscutter.net.proto.DEMBMADKBALOuterClass.DEMBMADKBAL.valueOf(status_);
@@ -1119,71 +1077,25 @@ public final class SalesmanActivityDetailInfoOuterClass {
       }
 
       private int status_ = 0;
-<<<<<<< HEAD
 
       @java.lang.Override public int getStatusValue() {
         return status_;
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>.DEMBMADKBAL status = 12;</code>
-       * @return The enum numeric value on the wire for status.
-       */
-      @java.lang.Override public int getStatusValue() {
-        return status_;
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>.DEMBMADKBAL status = 12;</code>
-       * @param value The enum numeric value on the wire for status to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setStatusValue(int value) {
 
         status_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>.DEMBMADKBAL status = 12;</code>
-       * @return The status.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.DEMBMADKBALOuterClass.DEMBMADKBAL getStatus() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.DEMBMADKBALOuterClass.DEMBMADKBAL result = emu.grasscutter.net.proto.DEMBMADKBALOuterClass.DEMBMADKBAL.valueOf(status_);
         return result == null ? emu.grasscutter.net.proto.DEMBMADKBALOuterClass.DEMBMADKBAL.UNRECOGNIZED : result;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>.DEMBMADKBAL status = 12;</code>
-       * @param value The status to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setStatus(emu.grasscutter.net.proto.DEMBMADKBALOuterClass.DEMBMADKBAL value) {
         if (value == null) {
           throw new NullPointerException();
@@ -1193,18 +1105,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>.DEMBMADKBAL status = 12;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearStatus() {
 
         status_ = 0;

@@ -18,17 +18,6 @@ public final class PlayerSetPauseReqOuterClass {
       // @@protoc_insertion_point(interface_extends:PlayerSetPauseReq)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>bool is_paused = 5;</code>
-     * @return The isPaused.
-     */
->>>>>>> origin/6.5.0
     boolean getIsPaused();
   }
   /**
@@ -119,18 +108,7 @@ public final class PlayerSetPauseReqOuterClass {
 
     public static final int IS_PAUSED_FIELD_NUMBER = 14;
     private boolean isPaused_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0        
-     * </pre>
-     *
-     * <code>bool is_paused = 5;</code>
-     * @return The isPaused.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsPaused() {
       return isPaused_;
@@ -444,53 +422,19 @@ public final class PlayerSetPauseReqOuterClass {
       }
 
       private boolean isPaused_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>bool is_paused = 5;</code>
-       * @return The isPaused.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsPaused() {
         return isPaused_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>bool is_paused = 5;</code>
-       * @param value The isPaused to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setIsPaused(boolean value) {
 
         isPaused_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0        
-       * </pre>
-       *
-       * <code>bool is_paused = 5;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearIsPaused() {
 
         isPaused_ = false;

@@ -18,7 +18,6 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:PlayerApplyEnterMpNotify)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     boolean hasSrcPlayerInfo();
 
     emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo getSrcPlayerInfo();
@@ -26,45 +25,14 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
     emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder getSrcPlayerInfoOrBuilder();
 
     boolean getCHCHCMBDIOK();
-=======
-    /**
-     * <code>.OnlinePlayerInfo src_player_info = 3;</code>
-     * @return Whether the srcPlayerInfo field is set.
-     */
-    boolean hasSrcPlayerInfo();
-    /**
-     * <code>.OnlinePlayerInfo src_player_info = 3;</code>
-     * @return The srcPlayerInfo.
-     */
-    emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo getSrcPlayerInfo();
-    /**
-     * <code>.OnlinePlayerInfo src_player_info = 3;</code>
-     */
-    emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder getSrcPlayerInfoOrBuilder();
-
-    /**
-     * <code>bool GGLIJAPDKDN = 1;</code>
-     * @return The gGLIJAPDKDN.
-     */
-    boolean getGGLIJAPDKDN();
-
-    /**
-     * <code>uint32 src_thread_index = 15;</code>
-     * @return The srcThreadIndex.
-     */
-    int getSrcThreadIndex();
->>>>>>> origin/6.5.0
 
     /**
      * <code>uint32 src_app_id = 9;</code>
      * @return The srcAppId.
      */
     int getSrcAppId();
-<<<<<<< HEAD
 
     int getSrcThreadIndex();
-=======
->>>>>>> origin/6.5.0
   }
   /**
    * Protobuf type {@code PlayerApplyEnterMpNotify}
@@ -173,54 +141,25 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
 
     public static final int SRC_PLAYER_INFO_FIELD_NUMBER = 1;
     private emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo srcPlayerInfo_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <code>.OnlinePlayerInfo src_player_info = 3;</code>
-     * @return Whether the srcPlayerInfo field is set.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasSrcPlayerInfo() {
       return srcPlayerInfo_ != null;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <code>.OnlinePlayerInfo src_player_info = 3;</code>
-     * @return The srcPlayerInfo.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo getSrcPlayerInfo() {
       return srcPlayerInfo_ == null ? emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.getDefaultInstance() : srcPlayerInfo_;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <code>.OnlinePlayerInfo src_player_info = 3;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder getSrcPlayerInfoOrBuilder() {
       return getSrcPlayerInfo();
     }
 
-<<<<<<< HEAD
     public static final int CHCHCMBDIOK_FIELD_NUMBER = 15;
     private boolean cHCHCMBDIOK_;
 
-=======
-    public static final int GGLIJAPDKDN_FIELD_NUMBER = 1;
-    private boolean gGLIJAPDKDN_;
-    /**
-     * <code>bool GGLIJAPDKDN = 1;</code>
-     * @return The gGLIJAPDKDN.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getGGLIJAPDKDN() {
       return gGLIJAPDKDN_;
@@ -248,7 +187,6 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
       return srcAppId_;
     }
 
-<<<<<<< HEAD
     public static final int SRC_THREAD_INDEX_FIELD_NUMBER = 6;
     private int srcThreadIndex_;
 
@@ -257,8 +195,6 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
       return srcThreadIndex_;
     }
 
-=======
->>>>>>> origin/6.5.0
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
     public final boolean isInitialized() {
@@ -629,25 +565,11 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
       private emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo srcPlayerInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder> srcPlayerInfoBuilder_;
-<<<<<<< HEAD
 
       public boolean hasSrcPlayerInfo() {
         return srcPlayerInfoBuilder_ != null || srcPlayerInfo_ != null;
       }
 
-=======
-      /**
-       * <code>.OnlinePlayerInfo src_player_info = 3;</code>
-       * @return Whether the srcPlayerInfo field is set.
-       */
-      public boolean hasSrcPlayerInfo() {
-        return srcPlayerInfoBuilder_ != null || srcPlayerInfo_ != null;
-      }
-      /**
-       * <code>.OnlinePlayerInfo src_player_info = 3;</code>
-       * @return The srcPlayerInfo.
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo getSrcPlayerInfo() {
         if (srcPlayerInfoBuilder_ == null) {
           return srcPlayerInfo_ == null ? emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.getDefaultInstance() : srcPlayerInfo_;
@@ -655,13 +577,7 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
           return srcPlayerInfoBuilder_.getMessage();
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <code>.OnlinePlayerInfo src_player_info = 3;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setSrcPlayerInfo(emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo value) {
         if (srcPlayerInfoBuilder_ == null) {
           if (value == null) {
@@ -675,13 +591,7 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <code>.OnlinePlayerInfo src_player_info = 3;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setSrcPlayerInfo(
           emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder builderForValue) {
         if (srcPlayerInfoBuilder_ == null) {
@@ -693,13 +603,7 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <code>.OnlinePlayerInfo src_player_info = 3;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder mergeSrcPlayerInfo(emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo value) {
         if (srcPlayerInfoBuilder_ == null) {
           if (srcPlayerInfo_ != null) {
@@ -715,13 +619,7 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <code>.OnlinePlayerInfo src_player_info = 3;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder clearSrcPlayerInfo() {
         if (srcPlayerInfoBuilder_ == null) {
           srcPlayerInfo_ = null;
@@ -733,25 +631,13 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <code>.OnlinePlayerInfo src_player_info = 3;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder getSrcPlayerInfoBuilder() {
 
         onChanged();
         return getSrcPlayerInfoFieldBuilder().getBuilder();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <code>.OnlinePlayerInfo src_player_info = 3;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder getSrcPlayerInfoOrBuilder() {
         if (srcPlayerInfoBuilder_ != null) {
           return srcPlayerInfoBuilder_.getMessageOrBuilder();
@@ -760,13 +646,7 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
               emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.getDefaultInstance() : srcPlayerInfo_;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <code>.OnlinePlayerInfo src_player_info = 3;</code>
-       */
->>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder>
           getSrcPlayerInfoFieldBuilder() {
@@ -781,21 +661,12 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
         return srcPlayerInfoBuilder_;
       }
 
-<<<<<<< HEAD
       private boolean cHCHCMBDIOK_ ;
 
-=======
-      private boolean gGLIJAPDKDN_ ;
-      /**
-       * <code>bool GGLIJAPDKDN = 1;</code>
-       * @return The gGLIJAPDKDN.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getGGLIJAPDKDN() {
         return gGLIJAPDKDN_;
       }
-<<<<<<< HEAD
 
       public Builder setCHCHCMBDIOK(boolean value) {
 
@@ -807,57 +678,6 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
       public Builder clearCHCHCMBDIOK() {
 
         cHCHCMBDIOK_ = false;
-=======
-      /**
-       * <code>bool GGLIJAPDKDN = 1;</code>
-       * @param value The gGLIJAPDKDN to set.
-       * @return This builder for chaining.
-       */
-      public Builder setGGLIJAPDKDN(boolean value) {
-        
-        gGLIJAPDKDN_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool GGLIJAPDKDN = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearGGLIJAPDKDN() {
-        
-        gGLIJAPDKDN_ = false;
-        onChanged();
-        return this;
-      }
-
-      private int srcThreadIndex_ ;
-      /**
-       * <code>uint32 src_thread_index = 15;</code>
-       * @return The srcThreadIndex.
-       */
-      @java.lang.Override
-      public int getSrcThreadIndex() {
-        return srcThreadIndex_;
-      }
-      /**
-       * <code>uint32 src_thread_index = 15;</code>
-       * @param value The srcThreadIndex to set.
-       * @return This builder for chaining.
-       */
-      public Builder setSrcThreadIndex(int value) {
-        
-        srcThreadIndex_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 src_thread_index = 15;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearSrcThreadIndex() {
-        
-        srcThreadIndex_ = 0;
->>>>>>> origin/6.5.0
         onChanged();
         return this;
       }
@@ -892,7 +712,6 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
       private int srcThreadIndex_ ;
 
@@ -914,8 +733,6 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
         onChanged();
         return this;
       }
-=======
->>>>>>> origin/6.5.0
       @java.lang.Override
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {

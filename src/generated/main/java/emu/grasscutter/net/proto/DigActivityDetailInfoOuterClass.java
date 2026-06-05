@@ -59,17 +59,6 @@ public final class DigActivityDetailInfoOuterClass {
      */
     int getPJFEPCNECFN(int index);
 
-<<<<<<< HEAD
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 stage_id = 7;</code>
-     * @return The stageId.
-     */
->>>>>>> origin/6.5.0
     int getStageId();
   }
   /**
@@ -263,18 +252,7 @@ public final class DigActivityDetailInfoOuterClass {
 
     public static final int STAGE_ID_FIELD_NUMBER = 7;
     private int stageId_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0          
-     * </pre>
-     *
-     * <code>uint32 stage_id = 7;</code>
-     * @return The stageId.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getStageId() {
       return stageId_;
@@ -1004,53 +982,19 @@ public final class DigActivityDetailInfoOuterClass {
       }
 
       private int stageId_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 stage_id = 7;</code>
-       * @return The stageId.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getStageId() {
         return stageId_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 stage_id = 7;</code>
-       * @param value The stageId to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setStageId(int value) {
 
         stageId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0          
-       * </pre>
-       *
-       * <code>uint32 stage_id = 7;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearStageId() {
 
         stageId_ = 0;

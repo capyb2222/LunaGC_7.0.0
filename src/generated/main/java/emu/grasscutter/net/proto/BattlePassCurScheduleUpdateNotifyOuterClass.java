@@ -18,38 +18,10 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:BattlePassCurScheduleUpdateNotify)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
     boolean hasCurSchedule();
 
     emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule getCurSchedule();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.BattlePassSchedule cur_schedule = 9;</code>
-     * @return Whether the curSchedule field is set.
-     */
-    boolean hasCurSchedule();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.BattlePassSchedule cur_schedule = 9;</code>
-     * @return The curSchedule.
-     */
-    emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule getCurSchedule();
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.BattlePassSchedule cur_schedule = 9;</code>
-     */
->>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassScheduleOrBuilder getCurScheduleOrBuilder();
 
     /**
@@ -64,29 +36,8 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
      */
     boolean getPHLGOADDENJ();
 
-<<<<<<< HEAD
     boolean getIsViewed();
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>bool is_viewed = 7;</code>
-     * @return The isViewed.
-     */
-    boolean getIsViewed();
-
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>bool have_cur_schedule = 1;</code>
-     * @return The haveCurSchedule.
-     */
->>>>>>> origin/6.5.0
     boolean getHaveCurSchedule();
   }
   /**
@@ -205,49 +156,17 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
 
     public static final int CUR_SCHEDULE_FIELD_NUMBER = 1;
     private emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule curSchedule_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.BattlePassSchedule cur_schedule = 9;</code>
-     * @return Whether the curSchedule field is set.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasCurSchedule() {
       return curSchedule_ != null;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.BattlePassSchedule cur_schedule = 9;</code>
-     * @return The curSchedule.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule getCurSchedule() {
       return curSchedule_ == null ? emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule.getDefaultInstance() : curSchedule_;
     }
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0           
-     * </pre>
-     *
-     * <code>.BattlePassSchedule cur_schedule = 9;</code>
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassScheduleOrBuilder getCurScheduleOrBuilder() {
       return getCurSchedule();
@@ -277,18 +196,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
 
     public static final int IS_VIEWED_FIELD_NUMBER = 7;
     private boolean isViewed_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>bool is_viewed = 7;</code>
-     * @return The isViewed.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsViewed() {
       return isViewed_;
@@ -296,18 +204,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
 
     public static final int HAVE_CUR_SCHEDULE_FIELD_NUMBER = 3;
     private boolean haveCurSchedule_;
-<<<<<<< HEAD
 
-=======
-    /**
-     * <pre>
-     *6.5.5 //6.4.0 //6.5.0     
-     * </pre>
-     *
-     * <code>bool have_cur_schedule = 1;</code>
-     * @return The haveCurSchedule.
-     */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getHaveCurSchedule() {
       return haveCurSchedule_;
@@ -706,33 +603,11 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
       private emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule curSchedule_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule, emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule.Builder, emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassScheduleOrBuilder> curScheduleBuilder_;
-<<<<<<< HEAD
 
       public boolean hasCurSchedule() {
         return curScheduleBuilder_ != null || curSchedule_ != null;
       }
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.BattlePassSchedule cur_schedule = 9;</code>
-       * @return Whether the curSchedule field is set.
-       */
-      public boolean hasCurSchedule() {
-        return curScheduleBuilder_ != null || curSchedule_ != null;
-      }
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.BattlePassSchedule cur_schedule = 9;</code>
-       * @return The curSchedule.
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule getCurSchedule() {
         if (curScheduleBuilder_ == null) {
           return curSchedule_ == null ? emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule.getDefaultInstance() : curSchedule_;
@@ -740,17 +615,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
           return curScheduleBuilder_.getMessage();
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.BattlePassSchedule cur_schedule = 9;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setCurSchedule(emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule value) {
         if (curScheduleBuilder_ == null) {
           if (value == null) {
@@ -764,17 +629,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.BattlePassSchedule cur_schedule = 9;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder setCurSchedule(
           emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule.Builder builderForValue) {
         if (curScheduleBuilder_ == null) {
@@ -786,17 +641,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.BattlePassSchedule cur_schedule = 9;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder mergeCurSchedule(emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule value) {
         if (curScheduleBuilder_ == null) {
           if (curSchedule_ != null) {
@@ -812,17 +657,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.BattlePassSchedule cur_schedule = 9;</code>
-       */
->>>>>>> origin/6.5.0
       public Builder clearCurSchedule() {
         if (curScheduleBuilder_ == null) {
           curSchedule_ = null;
@@ -834,33 +669,13 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.BattlePassSchedule cur_schedule = 9;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule.Builder getCurScheduleBuilder() {
 
         onChanged();
         return getCurScheduleFieldBuilder().getBuilder();
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.BattlePassSchedule cur_schedule = 9;</code>
-       */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassScheduleOrBuilder getCurScheduleOrBuilder() {
         if (curScheduleBuilder_ != null) {
           return curScheduleBuilder_.getMessageOrBuilder();
@@ -869,17 +684,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
               emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule.getDefaultInstance() : curSchedule_;
         }
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0           
-       * </pre>
-       *
-       * <code>.BattlePassSchedule cur_schedule = 9;</code>
-       */
->>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule, emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule.Builder, emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassScheduleOrBuilder>
           getCurScheduleFieldBuilder() {
@@ -957,53 +762,19 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
       }
 
       private boolean isViewed_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>bool is_viewed = 7;</code>
-       * @return The isViewed.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsViewed() {
         return isViewed_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>bool is_viewed = 7;</code>
-       * @param value The isViewed to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setIsViewed(boolean value) {
 
         isViewed_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>bool is_viewed = 7;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearIsViewed() {
 
         isViewed_ = false;
@@ -1012,53 +783,19 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
       }
 
       private boolean haveCurSchedule_ ;
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>bool have_cur_schedule = 1;</code>
-       * @return The haveCurSchedule.
-       */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getHaveCurSchedule() {
         return haveCurSchedule_;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>bool have_cur_schedule = 1;</code>
-       * @param value The haveCurSchedule to set.
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder setHaveCurSchedule(boolean value) {
 
         haveCurSchedule_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
 
-=======
-      /**
-       * <pre>
-       *6.5.5 //6.4.0 //6.5.0     
-       * </pre>
-       *
-       * <code>bool have_cur_schedule = 1;</code>
-       * @return This builder for chaining.
-       */
->>>>>>> origin/6.5.0
       public Builder clearHaveCurSchedule() {
 
         haveCurSchedule_ = false;
