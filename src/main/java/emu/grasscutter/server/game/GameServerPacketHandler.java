@@ -86,10 +86,6 @@ public final class GameServerPacketHandler {
             return;
         }
 
-        if (shouldDump(session, opcode)) {
-            Grasscutter.getLogger().info("[UnhandledPacket] opcode={} ({}) payload={}B",
-                opcode, PacketOpcodesUtils.getOpcodeName(opcode), payload == null ? 0 : payload.length);
-        }
     }
 
     private static boolean shouldDump(GameSession session, int opcode) {
