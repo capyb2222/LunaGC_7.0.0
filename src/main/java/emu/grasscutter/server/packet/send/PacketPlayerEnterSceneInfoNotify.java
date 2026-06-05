@@ -23,17 +23,31 @@ import emu.grasscutter.net.proto.AbilityStringOuterClass;
 import emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString;
 import emu.grasscutter.utils.Utils;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 public class PacketPlayerEnterSceneInfoNotify extends BasePacket {
 
-    private static final Set<Integer> HEXENZIRKEL_IDS = Set.of(
-        10000022, 10000029, 10000031, 10000038, 10000041, 10000043, 10000123, 10000128
-    );
+    private static volatile Set<Integer> HEX_IDS_CACHE;
+    private static volatile Set<Integer> MOON_IDS_CACHE;
 
-    public static final Set<Integer> MOONPHASE_IDS = Set.of(
-        10000116, 10000119, 10000120, 10000121, 10000122,
-        10000124, 10000125, 10000126, 10000127, 10000130
-    );
+    public static Set<Integer> getHexenzirkelIds() {
+        Set<Integer> s = HEX_IDS_CACHE;
+        if (s == null) HEX_IDS_CACHE = s = buildTaggedSet("AVATAR_TAG_HEXENZIRKEL");
+        return s;
+    }
+
+    public static Set<Integer> getMoonphaseIds() {
+        Set<Integer> s = MOON_IDS_CACHE;
+        if (s == null) MOON_IDS_CACHE = s = buildTaggedSet("AVATAR_TAG_MOONPHASE");
+        return s;
+    }
+
+    private static Set<Integer> buildTaggedSet(String tag) {
+        return GameData.getAvatarDataMap().values().stream()
+            .filter(a -> a.getTags() != null && a.getTags().contains(tag))
+            .map(a -> a.getId())
+            .collect(Collectors.toUnmodifiableSet());
+    }
 
     public PacketPlayerEnterSceneInfoNotify(Player player) {
         super(PacketOpcodes.PlayerEnterSceneInfoNotify);
@@ -47,7 +61,7 @@ public class PacketPlayerEnterSceneInfoNotify extends BasePacket {
                 player.setPhlogistonValue(100);
 
         long hexCount = player.getTeamManager().getActiveTeam().stream()
-                .filter(e -> HEXENZIRKEL_IDS.contains(e.getAvatar().getAvatarId()))
+                .filter(e -> getHexenzirkelIds().contains(e.getAvatar().getAvatarId()))
                 .count();
 
         AbilityScalarValueEntry hexLevel = AbilityScalarValueEntry.newBuilder()
@@ -59,7 +73,7 @@ public class PacketPlayerEnterSceneInfoNotify extends BasePacket {
                 .build();
 
         long moonPhaseCount = player.getTeamManager().getActiveTeam().stream()
-                .filter(e -> MOONPHASE_IDS.contains(e.getAvatar().getAvatarId()))
+                .filter(e -> getMoonphaseIds().contains(e.getAvatar().getAvatarId()))
                 .count();
 
         AbilityScalarValueEntry moonPhaseLevel = AbilityScalarValueEntry.newBuilder()
@@ -130,7 +144,7 @@ public class PacketPlayerEnterSceneInfoNotify extends BasePacket {
     public static void buildAvatarAbilityVars(EntityAvatar avatarEntity, AbilitySyncStateInfo.Builder info) {
         Avatar avatar = avatarEntity.getAvatar();
 
-        if (MOONPHASE_IDS.contains(avatar.getAvatarId())) {
+        if (getMoonphaseIds().contains(avatar.getAvatarId())) {
             info.addDynamicValueMap(AbilityScalarValueEntry.newBuilder()
                     .setKey(AbilityString.newBuilder()
                             .setHash(Utils.abilityHash("MoonOvergrowPoint_All"))

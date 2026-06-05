@@ -104,6 +104,7 @@ public final class PacketOpcodes {
     public static final int PlayerTimeNotify = 8274;
     public static final int ServerGlobalValueChangeNotify = 24564;
     public static final int TeamMoonPhaseChangeNotify = 2908;
+    public static final int TeamHexenzirkelChangeNotify = 1950;
     public static final int AvatarDieAnimationEndReq = 8224;
     public static final int AvatarDieAnimationEndRsp = 29421;
     public static final int PersonalSceneJumpReq = 22921;

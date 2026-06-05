@@ -28,6 +28,7 @@ public class AvatarData extends GameResource {
     @Getter private String avatarIdentityType;
     @Getter private List<Integer> avatarPromoteRewardLevelList;
     @Getter private List<Integer> avatarPromoteRewardIdList;
+    @Getter private List<String> tags;
 
     @Getter
     private long nameTextMapHash;
