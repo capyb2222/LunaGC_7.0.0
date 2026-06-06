@@ -40,11 +40,7 @@ public final class AvatarFightPropNotifyOuterClass {
         int key);
 
     /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>uint64 avatar_guid = 9;</code>
+     * <code>uint64 avatar_guid = 11;</code>
      * @return The avatarGuid.
      */
     long getAvatarGuid();
@@ -115,11 +111,6 @@ public final class AvatarFightPropNotifyOuterClass {
                   FightPropMapDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
               fightPropMap_.getMutableMap().put(
                   fightPropMap__.getKey(), fightPropMap__.getValue());
-              break;
-            }
-            case 72: {
-
-              avatarGuid_ = input.readUInt64();
               break;
             }
             default: {
@@ -241,11 +232,7 @@ public final class AvatarFightPropNotifyOuterClass {
     public static final int AVATAR_GUID_FIELD_NUMBER = 1;
     private long avatarGuid_;
     /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>uint64 avatar_guid = 9;</code>
+     * <code>uint64 avatar_guid = 11;</code>
      * @return The avatarGuid.
      */
     @java.lang.Override
@@ -723,11 +710,7 @@ public final class AvatarFightPropNotifyOuterClass {
 
       private long avatarGuid_ ;
       /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>uint64 avatar_guid = 9;</code>
+       * <code>uint64 avatar_guid = 11;</code>
        * @return The avatarGuid.
        */
       @java.lang.Override
@@ -735,11 +718,7 @@ public final class AvatarFightPropNotifyOuterClass {
         return avatarGuid_;
       }
       /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>uint64 avatar_guid = 9;</code>
+       * <code>uint64 avatar_guid = 11;</code>
        * @param value The avatarGuid to set.
        * @return This builder for chaining.
        */
@@ -750,11 +729,7 @@ public final class AvatarFightPropNotifyOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>uint64 avatar_guid = 9;</code>
+       * <code>uint64 avatar_guid = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearAvatarGuid() {
@@ -835,9 +810,9 @@ public final class AvatarFightPropNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033AvatarFightPropNotify.proto\"\243\001\n\025Avatar" +
-      "FightPropNotify\022@\n\016fight_prop_map\030\005 \003(\0132" +
+      "FightPropNotify\022@\n\016fight_prop_map\030\r \003(\0132" +
       "(.AvatarFightPropNotify.FightPropMapEntr" +
-      "y\022\023\n\013avatar_guid\030\t \001(\004\0323\n\021FightPropMapEn" +
+      "y\022\023\n\013avatar_guid\030\013 \001(\004\0323\n\021FightPropMapEn" +
       "try\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\002:\0028\001B\033\n\031e" +
       "mu.grasscutter.net.protob\006proto3"
     };

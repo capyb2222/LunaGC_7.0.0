@@ -364,27 +364,6 @@ public final class ActivityInfoOuterClass {
               endTime_ = input.readUInt32();
               break;
             }
-            case 48: {
-              if (!((mutable_bitField0_ & 0x00000080) != 0)) {
-                meetCondList_ = newIntList();
-                mutable_bitField0_ |= 0x00000080;
-              }
-              meetCondList_.addInt(input.readUInt32());
-              break;
-            }
-            case 50: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000080) != 0) && input.getBytesUntilLimit() > 0) {
-                meetCondList_ = newIntList();
-                mutable_bitField0_ |= 0x00000080;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                meetCondList_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
             case 88: {
 
               isFinished_ = input.readBool();
@@ -398,6 +377,27 @@ public final class ActivityInfoOuterClass {
             case 120: {
 
               dKKAEBHHLFM_ = input.readBool();
+              break;
+            }
+            case 128: {
+              if (!((mutable_bitField0_ & 0x00000080) != 0)) {
+                meetCondList_ = newIntList();
+                mutable_bitField0_ |= 0x00000080;
+              }
+              meetCondList_.addInt(input.readUInt32());
+              break;
+            }
+            case 130: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000080) != 0) && input.getBytesUntilLimit() > 0) {
+                meetCondList_ = newIntList();
+                mutable_bitField0_ |= 0x00000080;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                meetCondList_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
               break;
             }
             case 216: {
@@ -1032,7 +1032,7 @@ public final class ActivityInfoOuterClass {
     }
     private int fLDFIFJDGDBMemoizedSerializedSize = -1;
 
-    public static final int MEET_COND_LIST_FIELD_NUMBER = 6;
+    public static final int MEET_COND_LIST_FIELD_NUMBER = 16;
     private com.google.protobuf.Internal.IntList meetCondList_;
 
     @java.lang.Override
@@ -1335,13 +1335,6 @@ public final class ActivityInfoOuterClass {
       if (endTime_ != 0) {
         output.writeUInt32(2, endTime_);
       }
-      if (getMeetCondListList().size() > 0) {
-        output.writeUInt32NoTag(50);
-        output.writeUInt32NoTag(meetCondListMemoizedSerializedSize);
-      }
-      for (int i = 0; i < meetCondList_.size(); i++) {
-        output.writeUInt32NoTag(meetCondList_.getInt(i));
-      }
       if (isFinished_ != false) {
         output.writeBool(3, isFinished_);
       }
@@ -1350,6 +1343,13 @@ public final class ActivityInfoOuterClass {
       }
       if (dKKAEBHHLFM_ != false) {
         output.writeBool(15, dKKAEBHHLFM_);
+      }
+      if (getMeetCondListList().size() > 0) {
+        output.writeUInt32NoTag(130);
+        output.writeUInt32NoTag(meetCondListMemoizedSerializedSize);
+      }
+      for (int i = 0; i < meetCondList_.size(); i++) {
+        output.writeUInt32NoTag(meetCondList_.getInt(i));
       }
       if (getGJLKEBPOEEAList().size() > 0) {
         output.writeUInt32NoTag(218);
@@ -1462,20 +1462,6 @@ public final class ActivityInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(2, endTime_);
       }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < meetCondList_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(meetCondList_.getInt(i));
-        }
-        size += dataSize;
-        if (!getMeetCondListList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        meetCondListMemoizedSerializedSize = dataSize;
-      }
       if (isFinished_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(3, isFinished_);
@@ -1487,6 +1473,20 @@ public final class ActivityInfoOuterClass {
       if (dKKAEBHHLFM_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(15, dKKAEBHHLFM_);
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < meetCondList_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(meetCondList_.getInt(i));
+        }
+        size += dataSize;
+        if (!getMeetCondListList().isEmpty()) {
+          size += 2;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        meetCondListMemoizedSerializedSize = dataSize;
       }
       {
         int dataSize = 0;
@@ -4352,7 +4352,7 @@ public final class ActivityInfoOuterClass {
       "yInfo.WishGiftNumMapEntry\0225\n\026bubble_dram" +
       "a_play_info\030\227\007 \001(\0132\024.BubbleDramaPlayInfo" +
       "\022\024\n\013FLDFIFJDGDB\030\265\002 \003(\r\022\026\n\016meet_cond_list" +
-      "\030\006 \003(\r\022\023\n\013GJLKEBPOEEA\030\033 \003(\004\022\022\n\tcur_score" +
+      "\030\020 \003(\r\022\023\n\013GJLKEBPOEEA\030\033 \003(\004\022\022\n\tcur_score" +
       "\030\301\t \001(\r\022\024\n\013LEOKOPDKDBE\030\314\t \001(\r\022\023\n\013activit" +
       "y_id\030\004 \001(\r\022\024\n\013LFPOBIAKJJN\030\360\017 \001(\004\022\035\n\024firs" +
       "t_day_start_time\030\233\006 \001(\r\022\023\n\013schedule_id\030\001" +

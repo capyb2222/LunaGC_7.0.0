@@ -1,0 +1,8092 @@
+{
+  "AchievementAllDataNotifyOuterClass.java": [
+    {
+      "const": "REWARD_TAKEN_GOAL_ID_LIST",
+      "java": 10,
+      "proto": 5,
+      "field": "reward_taken_goal_id_list"
+    },
+    {
+      "const": "ACHIEVEMENT_LIST",
+      "java": 5,
+      "proto": 9,
+      "field": "achievement_list"
+    }
+  ],
+  "AchievementOuterClass.java": [
+    {
+      "const": "FINISH_TIMESTAMP",
+      "java": 14,
+      "proto": 8,
+      "field": "finish_timestamp"
+    },
+    {
+      "const": "CUR_PROGRESS",
+      "java": 8,
+      "proto": 10,
+      "field": "cur_progress"
+    },
+    {
+      "const": "TOTAL_PROGRESS",
+      "java": 1,
+      "proto": 2,
+      "field": "total_progress"
+    },
+    {
+      "const": "ID",
+      "java": 4,
+      "proto": 5,
+      "field": "id"
+    }
+  ],
+  "AchievementUpdateNotifyOuterClass.java": [
+    {
+      "const": "ACHIEVEMENT_LIST",
+      "java": 11,
+      "proto": 12,
+      "field": "achievement_list"
+    }
+  ],
+  "ActivityBannerNotifyOuterClass.java": [
+    {
+      "const": "ACTIVITY_ID",
+      "java": 4,
+      "proto": 2,
+      "field": "activity_id"
+    },
+    {
+      "const": "SCHEDULE_ID",
+      "java": 9,
+      "proto": 14,
+      "field": "schedule_id"
+    }
+  ],
+  "ActivityCondStateChangeNotifyOuterClass.java": [
+    {
+      "const": "MEET_COND_LIST",
+      "java": 4,
+      "proto": 14,
+      "field": "meet_cond_list"
+    },
+    {
+      "const": "EXPIRE_COND_LIST",
+      "java": 14,
+      "proto": 13,
+      "field": "expire_cond_list"
+    }
+  ],
+  "ActivityInfoOuterClass.java": [
+    {
+      "const": "WATCHER_INFO_LIST",
+      "java": 3,
+      "proto": 7,
+      "field": "watcher_info_list"
+    },
+    {
+      "const": "ACTIVITY_PUSH_TIPS_DATA_LIST",
+      "java": 1234,
+      "proto": 1750,
+      "field": "activity_push_tips_data_list"
+    },
+    {
+      "const": "MEET_COND_LIST",
+      "java": 6,
+      "proto": 11,
+      "field": "meet_cond_list"
+    },
+    {
+      "const": "CUR_SCORE",
+      "java": 1217,
+      "proto": 231,
+      "field": "cur_score"
+    },
+    {
+      "const": "FIRST_DAY_START_TIME",
+      "java": 795,
+      "proto": 116,
+      "field": "first_day_start_time"
+    },
+    {
+      "const": "MUSIC_GAME_INFO",
+      "java": 1472,
+      "proto": 658,
+      "field": "music_game_info"
+    },
+    {
+      "const": "BUBBLE_DRAMA_DETAIL_INFO",
+      "java": 1117,
+      "proto": 711,
+      "field": "bubble_drama_detail_info"
+    }
+  ],
+  "ActivityPushTipsDataOuterClass.java": [
+    {
+      "const": "ACTIVITY_PUSH_TIPS_ID",
+      "java": 8,
+      "proto": 5,
+      "field": "activity_push_tips_id"
+    }
+  ],
+  "ActivityScheduleInfoNotifyOuterClass.java": [
+    {
+      "const": "ACTIVITY_SCHEDULE_LIST",
+      "java": 11,
+      "proto": 14,
+      "field": "activity_schedule_list"
+    },
+    {
+      "const": "REMAIN_FLY_SEA_LAMP_NUM",
+      "java": 14,
+      "proto": 1,
+      "field": "remain_fly_sea_lamp_num"
+    }
+  ],
+  "ActivityScheduleInfoOuterClass.java": [
+    {
+      "const": "SCHEDULE_ID",
+      "java": 12,
+      "proto": 13,
+      "field": "schedule_id"
+    },
+    {
+      "const": "ACTIVITY_ID",
+      "java": 1,
+      "proto": 2,
+      "field": "activity_id"
+    },
+    {
+      "const": "END_TIME",
+      "java": 10,
+      "proto": 12,
+      "field": "end_time"
+    },
+    {
+      "const": "IS_OPEN",
+      "java": 13,
+      "proto": 8,
+      "field": "is_open"
+    },
+    {
+      "const": "BEGIN_TIME",
+      "java": 15,
+      "proto": 6,
+      "field": "begin_time"
+    }
+  ],
+  "ActivityShopSheetInfoOuterClass.java": [
+    {
+      "const": "BEGIN_TIME",
+      "java": 1,
+      "proto": 10,
+      "field": "begin_time"
+    },
+    {
+      "const": "SHEET_ID",
+      "java": 14,
+      "proto": 9,
+      "field": "sheet_id"
+    },
+    {
+      "const": "END_TIME",
+      "java": 15,
+      "proto": 5,
+      "field": "end_time"
+    }
+  ],
+  "ActivityTakeWatcherRewardReqOuterClass.java": [
+    {
+      "const": "ACTIVITY_ID",
+      "java": 15,
+      "proto": 12,
+      "field": "activity_id"
+    },
+    {
+      "const": "WATCHER_ID",
+      "java": 3,
+      "proto": 14,
+      "field": "watcher_id"
+    }
+  ],
+  "ActivityTakeWatcherRewardRspOuterClass.java": [
+    {
+      "const": "WATCHER_ID",
+      "java": 2,
+      "proto": 8,
+      "field": "watcher_id"
+    },
+    {
+      "const": "RETCODE",
+      "java": 13,
+      "proto": 10,
+      "field": "retcode"
+    },
+    {
+      "const": "ACTIVITY_ID",
+      "java": 9,
+      "proto": 5,
+      "field": "activity_id"
+    }
+  ],
+  "ActivityUpdateWatcherNotifyOuterClass.java": [
+    {
+      "const": "WATCHER_INFO",
+      "java": 6,
+      "proto": 14,
+      "field": "watcher_info"
+    },
+    {
+      "const": "ACTIVITY_ID",
+      "java": 10,
+      "proto": 3,
+      "field": "activity_id"
+    }
+  ],
+  "ActivityWatcherInfoOuterClass.java": [
+    {
+      "const": "TOTAL_PROGRESS",
+      "java": 15,
+      "proto": 13,
+      "field": "total_progress"
+    },
+    {
+      "const": "CUR_PROGRESS",
+      "java": 5,
+      "proto": 9,
+      "field": "cur_progress"
+    },
+    {
+      "const": "IS_TAKEN_REWARD",
+      "java": 9,
+      "proto": 3,
+      "field": "is_taken_reward"
+    },
+    {
+      "const": "WATCHER_ID",
+      "java": 10,
+      "proto": 1,
+      "field": "watcher_id"
+    }
+  ],
+  "AddAranaraCollectionNotifyOuterClass.java": [
+    {
+      "const": "COLLECTION_TYPE",
+      "java": 2,
+      "proto": 12,
+      "field": "collection_type"
+    },
+    {
+      "const": "COLLECTION_ID",
+      "java": 4,
+      "proto": 8,
+      "field": "collection_id"
+    }
+  ],
+  "AddBackupAvatarTeamRspOuterClass.java": [
+    {
+      "const": "RETCODE",
+      "java": 3,
+      "proto": 8,
+      "field": "retcode"
+    }
+  ],
+  "AddNoGachaAvatarCardTransferItemOuterClass.java": [
+    {
+      "const": "IS_NEW",
+      "java": 5,
+      "proto": 10,
+      "field": "is_new"
+    },
+    {
+      "const": "COUNT",
+      "java": 2,
+      "proto": 5,
+      "field": "count"
+    }
+  ],
+  "AddQuestContentProgressReqOuterClass.java": [
+    {
+      "const": "CONTENT_TYPE",
+      "java": 2,
+      "proto": 12,
+      "field": "content_type"
+    },
+    {
+      "const": "ADD_PROGRESS",
+      "java": 3,
+      "proto": 10,
+      "field": "add_progress"
+    },
+    {
+      "const": "PARAM",
+      "java": 5,
+      "proto": 4,
+      "field": "param"
+    }
+  ],
+  "AddQuestContentProgressRspOuterClass.java": [
+    {
+      "const": "RETCODE",
+      "java": 6,
+      "proto": 10,
+      "field": "retcode"
+    },
+    {
+      "const": "CONTENT_TYPE",
+      "java": 9,
+      "proto": 2,
+      "field": "content_type"
+    }
+  ],
+  "AllWidgetBackgroundActiveStateNotifyOuterClass.java": [
+    {
+      "const": "BACKGROUND_ACTIVE_WIDGET_LIST",
+      "java": 4,
+      "proto": 15,
+      "field": "background_active_widget_list"
+    }
+  ],
+  "AllWidgetDataNotifyOuterClass.java": [
+    {
+      "const": "WEATHER_WIZARD_DATA",
+      "java": 13,
+      "proto": 15,
+      "field": "weather_wizard_data"
+    },
+    {
+      "const": "COOL_DOWN_GROUP_DATA_LIST",
+      "java": 11,
+      "proto": 6,
+      "field": "cool_down_group_data_list"
+    },
+    {
+      "const": "NORMAL_COOL_DOWN_DATA_LIST",
+      "java": 4,
+      "proto": 2,
+      "field": "normal_cool_down_data_list"
+    },
+    {
+      "const": "LUNCH_BOX_DATA",
+      "java": 6,
+      "proto": 12,
+      "field": "lunch_box_data"
+    },
+    {
+      "const": "SLOT_LIST",
+      "java": 10,
+      "proto": 14,
+      "field": "slot_list"
+    },
+    {
+      "const": "BACKGROUND_ACTIVE_WIDGET_LIST",
+      "java": 15,
+      "proto": 10,
+      "field": "background_active_widget_list"
+    },
+    {
+      "const": "ANCHOR_POINT_LIST",
+      "java": 12,
+      "proto": 7,
+      "field": "anchor_point_list"
+    }
+  ],
+  "AnchorPointDataNotifyOuterClass.java": [
+    {
+      "const": "ANCHOR_POINT_LIST",
+      "java": 7,
+      "proto": 14,
+      "field": "anchor_point_list"
+    }
+  ],
+  "AnchorPointDataOuterClass.java": [
+    {
+      "const": "ROT",
+      "java": 2,
+      "proto": 6,
+      "field": "rot"
+    },
+    {
+      "const": "POS",
+      "java": 13,
+      "proto": 14,
+      "field": "pos"
+    },
+    {
+      "const": "END_TIME",
+      "java": 1,
+      "proto": 11,
+      "field": "end_time"
+    },
+    {
+      "const": "SCENE_ID",
+      "java": 4,
+      "proto": 8,
+      "field": "scene_id"
+    },
+    {
+      "const": "ANCHOR_POINT_ID",
+      "java": 6,
+      "proto": 5,
+      "field": "anchor_point_id"
+    }
+  ],
+  "AranaraCollectionSuiteOuterClass.java": [
+    {
+      "const": "COLLECTION_TYPE",
+      "java": 7,
+      "proto": 9,
+      "field": "collection_type"
+    }
+  ],
+  "ArenaChallengeActivityDetailInfoOuterClass.java": [
+    {
+      "const": "WORLD_LEVEL",
+      "java": 13,
+      "proto": 4,
+      "field": "world_level"
+    }
+  ],
+  "AsterActivityDetailInfoOuterClass.java": [
+    {
+      "const": "ASTER_PROGRESS",
+      "java": 14,
+      "proto": 12,
+      "field": "aster_progress"
+    },
+    {
+      "const": "ASTER_LARGE",
+      "java": 6,
+      "proto": 2,
+      "field": "aster_large"
+    },
+    {
+      "const": "ASTER_LITTLE",
+      "java": 8,
+      "proto": 5,
+      "field": "aster_little"
+    },
+    {
+      "const": "ASTER_MID",
+      "java": 13,
+      "proto": 11,
+      "field": "aster_mid"
+    },
+    {
+      "const": "CONTENT_CLOSE_TIME",
+      "java": 5,
+      "proto": 4,
+      "field": "content_close_time"
+    },
+    {
+      "const": "IS_SPECIAL_REWARD_TAKEN",
+      "java": 7,
+      "proto": 13,
+      "field": "is_special_reward_taken"
+    },
+    {
+      "const": "IS_CONTENT_CLOSED",
+      "java": 1,
+      "proto": 7,
+      "field": "is_content_closed"
+    }
+  ],
+  "AsterLargeDetailInfoOuterClass.java": [
+    {
+      "const": "BEGIN_TIME",
+      "java": 5,
+      "proto": 7,
+      "field": "begin_time"
+    },
+    {
+      "const": "IS_OPEN",
+      "java": 4,
+      "proto": 2,
+      "field": "is_open"
+    }
+  ],
+  "AsterLittleDetailInfoOuterClass.java": [
+    {
+      "const": "BEGIN_TIME",
+      "java": 1,
+      "proto": 8,
+      "field": "begin_time"
+    },
+    {
+      "const": "STAGE_BEGIN_TIME",
+      "java": 2,
+      "proto": 4,
+      "field": "stage_begin_time"
+    },
+    {
+      "const": "STAGE_STATE",
+      "java": 8,
+      "proto": 11,
+      "field": "stage_state"
+    },
+    {
+      "const": "STAGE_ID",
+      "java": 7,
+      "proto": 6,
+      "field": "stage_id"
+    },
+    {
+      "const": "IS_OPEN",
+      "java": 12,
+      "proto": 13,
+      "field": "is_open"
+    }
+  ],
+  "AsterLittleInfoNotifyOuterClass.java": [
+    {
+      "const": "INFO",
+      "java": 14,
+      "proto": 9,
+      "field": "info"
+    }
+  ],
+  "AsterMidCampInfoOuterClass.java": [
+    {
+      "const": "POS",
+      "java": 6,
+      "proto": 4,
+      "field": "pos"
+    },
+    {
+      "const": "CAMP_ID",
+      "java": 12,
+      "proto": 9,
+      "field": "camp_id"
+    }
+  ],
+  "AsterMidDetailInfoOuterClass.java": [
+    {
+      "const": "CAMP_LIST",
+      "java": 5,
+      "proto": 6,
+      "field": "camp_list"
+    },
+    {
+      "const": "COLLECT_COUNT",
+      "java": 15,
+      "proto": 3,
+      "field": "collect_count"
+    },
+    {
+      "const": "IS_OPEN",
+      "java": 7,
+      "proto": 9,
+      "field": "is_open"
+    }
+  ],
+  "AsterProgressDetailInfoOuterClass.java": [
+    {
+      "const": "COUNT",
+      "java": 8,
+      "proto": 11,
+      "field": "count"
+    },
+    {
+      "const": "LAST_AUTO_ADD_TIME",
+      "java": 13,
+      "proto": 15,
+      "field": "last_auto_add_time"
+    }
+  ],
+  "AttackResultOuterClass.java": [
+    {
+      "const": "HIT_EFF_RESULT",
+      "java": 8,
+      "proto": 4,
+      "field": "hit_eff_result"
+    },
+    {
+      "const": "ATTACKER_ID",
+      "java": 1,
+      "proto": 15,
+      "field": "attacker_id"
+    }
+  ],
+  "AvatarChangeCostumeReqOuterClass.java": [
+    {
+      "const": "AVATAR_GUID",
+      "java": 5,
+      "proto": 7,
+      "field": "avatar_guid"
+    },
+    {
+      "const": "COSTUME_ID",
+      "java": 14,
+      "proto": 11,
+      "field": "costume_id"
+    }
+  ],
+  "AvatarExpeditionAllDataRspOuterClass.java": [
+    {
+      "const": "OPEN_EXPEDITION_LIST",
+      "java": 13,
+      "proto": 10,
+      "field": "open_expedition_list"
+    },
+    {
+      "const": "RETCODE",
+      "java": 7,
+      "proto": 6,
+      "field": "retcode"
+    },
+    {
+      "const": "EXPEDITION_COUNT_LIMIT",
+      "java": 8,
+      "proto": 1,
+      "field": "expedition_count_limit"
+    }
+  ],
+  "AvatarExpeditionCallBackRspOuterClass.java": [
+    {
+      "const": "RETCODE",
+      "java": 6,
+      "proto": 2,
+      "field": "retcode"
+    }
+  ],
+  "AvatarExpeditionGetRewardReqOuterClass.java": [
+    {
+      "const": "AVATAR_GUID",
+      "java": 11,
+      "proto": 8,
+      "field": "avatar_guid"
+    }
+  ],
+  "AvatarExpeditionGetRewardRspOuterClass.java": [
+    {
+      "const": "RETCODE",
+      "java": 12,
+      "proto": 3,
+      "field": "retcode"
+    }
+  ],
+  "AvatarExpeditionStartRspOuterClass.java": [
+    {
+      "const": "RETCODE",
+      "java": 15,
+      "proto": 12,
+      "field": "retcode"
+    }
+  ],
+  "AvatarFetterLevelRewardRspOuterClass.java": [
+    {
+      "const": "FETTER_LEVEL",
+      "java": 6,
+      "proto": 13,
+      "field": "fetter_level"
+    },
+    {
+      "const": "REWARD_ID",
+      "java": 9,
+      "proto": 3,
+      "field": "reward_id"
+    }
+  ],
+  "AvatarPromoteRspOuterClass.java": [
+    {
+      "const": "GUID",
+      "java": 14,
+      "proto": 2,
+      "field": "guid"
+    },
+    {
+      "const": "RETCODE",
+      "java": 2,
+      "proto": 15,
+      "field": "retcode"
+    }
+  ],
+  "AvatarPropChangeReasonNotifyOuterClass.java": [
+    {
+      "const": "CUR_VALUE",
+      "java": 3,
+      "proto": 15,
+      "field": "cur_value"
+    },
+    {
+      "const": "OLD_VALUE",
+      "java": 11,
+      "proto": 9,
+      "field": "old_value"
+    }
+  ],
+  "AvatarSkillInfoNotifyOuterClass.java": [
+    {
+      "const": "GUID",
+      "java": 15,
+      "proto": 6,
+      "field": "guid"
+    }
+  ],
+  "BargainOfferPriceReqOuterClass.java": [
+    {
+      "const": "BARGAIN_ID",
+      "java": 3,
+      "proto": 8,
+      "field": "bargain_id"
+    },
+    {
+      "const": "PRICE",
+      "java": 15,
+      "proto": 10,
+      "field": "price"
+    }
+  ],
+  "BargainOfferPriceRspOuterClass.java": [
+    {
+      "const": "CUR_MOOD",
+      "java": 10,
+      "proto": 14,
+      "field": "cur_mood"
+    },
+    {
+      "const": "RESULT_PARAM",
+      "java": 8,
+      "proto": 4,
+      "field": "result_param"
+    },
+    {
+      "const": "BARGAIN_RESULT",
+      "java": 12,
+      "proto": 8,
+      "field": "bargain_result"
+    },
+    {
+      "const": "RETCODE",
+      "java": 11,
+      "proto": 13,
+      "field": "retcode"
+    }
+  ],
+  "BargainSnapshotOuterClass.java": [
+    {
+      "const": "CUR_MOOD",
+      "java": 9,
+      "proto": 3,
+      "field": "cur_mood"
+    },
+    {
+      "const": "BARGAIN_ID",
+      "java": 15,
+      "proto": 9,
+      "field": "bargain_id"
+    }
+  ],
+  "BargainTerminateNotifyOuterClass.java": [
+    {
+      "const": "BARGAIN_ID",
+      "java": 1,
+      "proto": 12,
+      "field": "bargain_id"
+    }
+  ],
+  "BartenderLevelInfoOuterClass.java": [
+    {
+      "const": "MAX_SCORE",
+      "java": 10,
+      "proto": 15,
+      "field": "max_score"
+    },
+    {
+      "const": "ID",
+      "java": 3,
+      "proto": 8,
+      "field": "id"
+    }
+  ],
+  "BartenderTaskInfoOuterClass.java": [
+    {
+      "const": "ID",
+      "java": 15,
+      "proto": 4,
+      "field": "id"
+    },
+    {
+      "const": "IS_FINISH",
+      "java": 9,
+      "proto": 2,
+      "field": "is_finish"
+    }
+  ],
+  "BattlePassCycleOuterClass.java": [
+    {
+      "const": "END_TIME",
+      "java": 5,
+      "proto": 10,
+      "field": "end_time"
+    },
+    {
+      "const": "BEGIN_TIME",
+      "java": 6,
+      "proto": 1,
+      "field": "begin_time"
+    },
+    {
+      "const": "CYCLE_IDX",
+      "java": 10,
+      "proto": 15,
+      "field": "cycle_idx"
+    }
+  ],
+  "BattlePassMissionOuterClass.java": [
+    {
+      "const": "TOTAL_PROGRESS",
+      "java": 15,
+      "proto": 3,
+      "field": "total_progress"
+    },
+    {
+      "const": "MISSION_TYPE",
+      "java": 6,
+      "proto": 2,
+      "field": "mission_type"
+    },
+    {
+      "const": "REWARD_BATTLE_PASS_POINT",
+      "java": 13,
+      "proto": 5,
+      "field": "reward_battle_pass_point"
+    }
+  ],
+  "BattlePassRewardTagOuterClass.java": [
+    {
+      "const": "REWARD_ID",
+      "java": 4,
+      "proto": 1,
+      "field": "reward_id"
+    },
+    {
+      "const": "LEVEL",
+      "java": 5,
+      "proto": 9,
+      "field": "level"
+    }
+  ],
+  "BattlePassRewardTakeOptionOuterClass.java": [
+    {
+      "const": "TAG",
+      "java": 13,
+      "proto": 5,
+      "field": "tag"
+    },
+    {
+      "const": "OPTION_IDX",
+      "java": 2,
+      "proto": 12,
+      "field": "option_idx"
+    }
+  ],
+  "BattlePassScheduleOuterClass.java": [
+    {
+      "const": "REWARD_TAKEN_LIST",
+      "java": 2,
+      "proto": 9,
+      "field": "reward_taken_list"
+    },
+    {
+      "const": "PRODUCT_INFO",
+      "java": 1,
+      "proto": 13,
+      "field": "product_info"
+    },
+    {
+      "const": "CUR_CYCLE",
+      "java": 4,
+      "proto": 15,
+      "field": "cur_cycle"
+    },
+    {
+      "const": "UNLOCK_STATUS",
+      "java": 15,
+      "proto": 5,
+      "field": "unlock_status"
+    },
+    {
+      "const": "POINT",
+      "java": 10,
+      "proto": 7,
+      "field": "point"
+    }
+  ],
+  "BeginCameraSceneLookNotifyOuterClass.java": [
+    {
+      "const": "DURATION",
+      "java": 2,
+      "proto": 14,
+      "field": "duration"
+    }
+  ],
+  "BlessingActivityDetailInfoOuterClass.java": [
+    {
+      "const": "CONTENT_CLOSE_TIME",
+      "java": 15,
+      "proto": 8,
+      "field": "content_close_time"
+    },
+    {
+      "const": "NEXT_REFRESH_TIME",
+      "java": 11,
+      "proto": 5,
+      "field": "next_refresh_time"
+    },
+    {
+      "const": "IS_CONTENT_CLOSED",
+      "java": 1,
+      "proto": 15,
+      "field": "is_content_closed"
+    }
+  ],
+  "BlitzRushActivityDetailInfoOuterClass.java": [
+    {
+      "const": "STAGE_LIST",
+      "java": 1,
+      "proto": 13,
+      "field": "stage_list"
+    },
+    {
+      "const": "CONTENT_CLOSE_TIME",
+      "java": 3,
+      "proto": 2,
+      "field": "content_close_time"
+    },
+    {
+      "const": "IS_CONTENT_CLOSED",
+      "java": 14,
+      "proto": 3,
+      "field": "is_content_closed"
+    }
+  ],
+  "BlitzRushStageOuterClass.java": [
+    {
+      "const": "OPEN_TIME",
+      "java": 6,
+      "proto": 2,
+      "field": "open_time"
+    },
+    {
+      "const": "IS_OPEN",
+      "java": 12,
+      "proto": 9,
+      "field": "is_open"
+    }
+  ],
+  "BlossomBriefInfoNotifyOuterClass.java": [
+    {
+      "const": "BRIEF_INFO_LIST",
+      "java": 12,
+      "proto": 7,
+      "field": "brief_info_list"
+    }
+  ],
+  "BlossomBriefInfoOuterClass.java": [
+    {
+      "const": "STATE",
+      "java": 10,
+      "proto": 6,
+      "field": "state"
+    },
+    {
+      "const": "IS_GUIDE_OPENED",
+      "java": 5,
+      "proto": 11,
+      "field": "is_guide_opened"
+    },
+    {
+      "const": "RESIN",
+      "java": 2,
+      "proto": 9,
+      "field": "resin"
+    },
+    {
+      "const": "CIRCLE_CAMP_ID",
+      "java": 14,
+      "proto": 1,
+      "field": "circle_camp_id"
+    },
+    {
+      "const": "MONSTER_LEVEL",
+      "java": 12,
+      "proto": 5,
+      "field": "monster_level"
+    },
+    {
+      "const": "SCENE_ID",
+      "java": 13,
+      "proto": 8,
+      "field": "scene_id"
+    },
+    {
+      "const": "REFRESH_ID",
+      "java": 11,
+      "proto": 10,
+      "field": "refresh_id"
+    },
+    {
+      "const": "REWARD_ID",
+      "java": 7,
+      "proto": 3,
+      "field": "reward_id"
+    },
+    {
+      "const": "POS",
+      "java": 15,
+      "proto": 7,
+      "field": "pos"
+    }
+  ],
+  "BounceConjuringActivityDetailInfoOuterClass.java": [
+    {
+      "const": "CONTENT_CLOSE_TIME",
+      "java": 15,
+      "proto": 5,
+      "field": "content_close_time"
+    },
+    {
+      "const": "IS_CONTENT_CLOSED",
+      "java": 4,
+      "proto": 9,
+      "field": "is_content_closed"
+    }
+  ],
+  "BounceConjuringChapterInfoOuterClass.java": [
+    {
+      "const": "OPEN_TIME",
+      "java": 4,
+      "proto": 8,
+      "field": "open_time"
+    },
+    {
+      "const": "BEST_SCORE",
+      "java": 3,
+      "proto": 5,
+      "field": "best_score"
+    },
+    {
+      "const": "CHAPTER_ID",
+      "java": 6,
+      "proto": 9,
+      "field": "chapter_id"
+    }
+  ],
+  "BrickBreakerActivityStageInfoOuterClass.java": [
+    {
+      "const": "STAGE_ID",
+      "java": 10,
+      "proto": 9,
+      "field": "stage_id"
+    }
+  ],
+  "BuoyantCombatDailyInfoOuterClass.java": [
+    {
+      "const": "BEST_SCORE",
+      "java": 10,
+      "proto": 5,
+      "field": "best_score"
+    },
+    {
+      "const": "START_TIME",
+      "java": 6,
+      "proto": 3,
+      "field": "start_time"
+    }
+  ],
+  "BuyResinRspOuterClass.java": [
+    {
+      "const": "RETCODE",
+      "java": 1,
+      "proto": 13,
+      "field": "retcode"
+    },
+    {
+      "const": "CUR_VALUE",
+      "java": 5,
+      "proto": 8,
+      "field": "cur_value"
+    }
+  ],
+  "CancelCoopTaskReqOuterClass.java": [
+    {
+      "const": "CHAPTER_ID",
+      "java": 9,
+      "proto": 11,
+      "field": "chapter_id"
+    }
+  ],
+  "CanUseSkillNotifyOuterClass.java": [
+    {
+      "const": "IS_CAN_USE_SKILL",
+      "java": 8,
+      "proto": 14,
+      "field": "is_can_use_skill"
+    }
+  ],
+  "CardProductRewardNotifyOuterClass.java": [
+    {
+      "const": "PRODUCT_ID",
+      "java": 7,
+      "proto": 10,
+      "field": "product_id"
+    },
+    {
+      "const": "HCOIN",
+      "java": 11,
+      "proto": 4,
+      "field": "hcoin"
+    },
+    {
+      "const": "REMAIN_DAYS",
+      "java": 4,
+      "proto": 7,
+      "field": "remain_days"
+    }
+  ],
+  "ChangeGameTimeReqOuterClass.java": [
+    {
+      "const": "GAME_TIME",
+      "java": 1,
+      "proto": 12,
+      "field": "game_time"
+    },
+    {
+      "const": "IS_FORCE_SET",
+      "java": 15,
+      "proto": 7,
+      "field": "is_force_set"
+    }
+  ],
+  "ChangeGameTimeRspOuterClass.java": [
+    {
+      "const": "CUR_GAME_TIME",
+      "java": 1,
+      "proto": 9,
+      "field": "cur_game_time"
+    },
+    {
+      "const": "EXTRA_DAYS",
+      "java": 14,
+      "proto": 2,
+      "field": "extra_days"
+    },
+    {
+      "const": "RETCODE",
+      "java": 13,
+      "proto": 7,
+      "field": "retcode"
+    }
+  ],
+  "ChangeTeamNameRspOuterClass.java": [
+    {
+      "const": "TEAM_NAME",
+      "java": 15,
+      "proto": 2,
+      "field": "team_name"
+    }
+  ],
+  "ChangeWidgetBackgroundActiveStateReqOuterClass.java": [
+    {
+      "const": "IS_ACTIVE",
+      "java": 1,
+      "proto": 13,
+      "field": "is_active"
+    },
+    {
+      "const": "MATERIAL_ID",
+      "java": 15,
+      "proto": 5,
+      "field": "material_id"
+    }
+  ],
+  "ChangeWidgetBackgroundActiveStateRspOuterClass.java": [
+    {
+      "const": "MATERIAL_ID",
+      "java": 8,
+      "proto": 4,
+      "field": "material_id"
+    },
+    {
+      "const": "RETCODE",
+      "java": 9,
+      "proto": 15,
+      "field": "retcode"
+    }
+  ],
+  "ChannelerSlabActivityDetailInfoOuterClass.java": [
+    {
+      "const": "STAGE_LIST",
+      "java": 1,
+      "proto": 11,
+      "field": "stage_list"
+    }
+  ],
+  "ChannelerSlabCampOuterClass.java": [
+    {
+      "const": "POS",
+      "java": 11,
+      "proto": 4,
+      "field": "pos"
+    },
+    {
+      "const": "REWARD_ID",
+      "java": 15,
+      "proto": 8,
+      "field": "reward_id"
+    },
+    {
+      "const": "GROUP_ID",
+      "java": 14,
+      "proto": 6,
+      "field": "group_id"
+    },
+    {
+      "const": "BUFF_NUM",
+      "java": 5,
+      "proto": 15,
+      "field": "buff_num"
+    }
+  ],
+  "ChannelerSlabChallengeOuterClass.java": [
+    {
+      "const": "ACTIVE_CAMP_INDEX",
+      "java": 4,
+      "proto": 2,
+      "field": "active_camp_index"
+    },
+    {
+      "const": "CAMP_LIST",
+      "java": 6,
+      "proto": 1,
+      "field": "camp_list"
+    }
+  ],
+  "ChannelerSlabChallengeStageOuterClass.java": [
+    {
+      "const": "OPEN_TIME",
+      "java": 10,
+      "proto": 3,
+      "field": "open_time"
+    },
+    {
+      "const": "IS_OPEN",
+      "java": 12,
+      "proto": 10,
+      "field": "is_open"
+    },
+    {
+      "const": "CHALLENGE_LIST",
+      "java": 14,
+      "proto": 13,
+      "field": "challenge_list"
+    },
+    {
+      "const": "STAGE_ID",
+      "java": 4,
+      "proto": 15,
+      "field": "stage_id"
+    },
+    {
+      "const": "DUNGEON_INFO",
+      "java": 7,
+      "proto": 9,
+      "field": "dungeon_info"
+    }
+  ],
+  "ChannelerSlabOneoffDungeonOuterClass.java": [
+    {
+      "const": "REWARD_ID",
+      "java": 10,
+      "proto": 7,
+      "field": "reward_id"
+    },
+    {
+      "const": "IS_DONE",
+      "java": 11,
+      "proto": 10,
+      "field": "is_done"
+    },
+    {
+      "const": "DUNGEON_ID",
+      "java": 3,
+      "proto": 1,
+      "field": "dungeon_id"
+    }
+  ],
+  "ChannellerSlabLoopDungeonInfoOuterClass.java": [
+    {
+      "const": "OPEN_TIME",
+      "java": 13,
+      "proto": 14,
+      "field": "open_time"
+    },
+    {
+      "const": "SCORE",
+      "java": 14,
+      "proto": 7,
+      "field": "score"
+    },
+    {
+      "const": "LAST_CONDITION_ID_LIST",
+      "java": 1,
+      "proto": 5,
+      "field": "last_condition_id_list"
+    },
+    {
+      "const": "DUNGEON_INDEX",
+      "java": 6,
+      "proto": 2,
+      "field": "dungeon_index"
+    },
+    {
+      "const": "IS_FIRST_PASS_REWARD_TAKEN",
+      "java": 2,
+      "proto": 9,
+      "field": "is_first_pass_reward_taken"
+    },
+    {
+      "const": "IS_OPEN",
+      "java": 15,
+      "proto": 12,
+      "field": "is_open"
+    }
+  ],
+  "ChannellerSlabLoopDungeonResultInfoOuterClass.java": [
+    {
+      "const": "CHALLENGE_MAX_SCORE",
+      "java": 4,
+      "proto": 13,
+      "field": "challenge_max_score"
+    },
+    {
+      "const": "DUNGEON_INDEX",
+      "java": 11,
+      "proto": 12,
+      "field": "dungeon_index"
+    },
+    {
+      "const": "CHALLENGE_SCORE",
+      "java": 1,
+      "proto": 11,
+      "field": "challenge_score"
+    }
+  ],
+  "ChannellerSlabLoopDungeonStageInfoOuterClass.java": [
+    {
+      "const": "IS_OPEN",
+      "java": 2,
+      "proto": 5,
+      "field": "is_open"
+    },
+    {
+      "const": "DUNGEON_INFO_LIST",
+      "java": 14,
+      "proto": 12,
+      "field": "dungeon_info_list"
+    },
+    {
+      "const": "LAST_DIFFICULTY_ID",
+      "java": 12,
+      "proto": 3,
+      "field": "last_difficulty_id"
+    },
+    {
+      "const": "OPEN_TIME",
+      "java": 13,
+      "proto": 4,
+      "field": "open_time"
+    },
+    {
+      "const": "TAKEN_REWARD_INDEX_LIST",
+      "java": 5,
+      "proto": 9,
+      "field": "taken_reward_index_list"
+    }
+  ],
+  "ChapterStateNotifyOuterClass.java": [
+    {
+      "const": "CHAPTER_STATE",
+      "java": 7,
+      "proto": 6,
+      "field": "chapter_state"
+    },
+    {
+      "const": "CHAPTER_ID",
+      "java": 4,
+      "proto": 1,
+      "field": "chapter_id"
+    }
+  ],
+  "CharAmusementStageDataOuterClass.java": [
+    {
+      "const": "IS_OPEN",
+      "java": 6,
+      "proto": 7,
+      "field": "is_open"
+    },
+    {
+      "const": "FINISH_TIME",
+      "java": 12,
+      "proto": 4,
+      "field": "finish_time"
+    },
+    {
+      "const": "STAGE_ID",
+      "java": 7,
+      "proto": 12,
+      "field": "stage_id"
+    }
+  ],
+  "ChatInfoOuterClass.java": [
+    {
+      "const": "PLATFORM_TYPE",
+      "java": 1,
+      "proto": 4,
+      "field": "platform_type"
+    },
+    {
+      "const": "SEQUENCE",
+      "java": 7,
+      "proto": 13,
+      "field": "sequence"
+    },
+    {
+      "const": "TO_UID",
+      "java": 3,
+      "proto": 7,
+      "field": "to_uid"
+    },
+    {
+      "const": "MENTIONED_UID",
+      "java": 4,
+      "proto": 10,
+      "field": "mentioned_uid"
+    },
+    {
+      "const": "IS_MENTION_ALL",
+      "java": 15,
+      "proto": 8,
+      "field": "is_mention_all"
+    },
+    {
+      "const": "TEXT",
+      "java": 960,
+      "proto": 382,
+      "field": "text"
+    },
+    {
+      "const": "ICON",
+      "java": 362,
+      "proto": 1510,
+      "field": "icon"
+    },
+    {
+      "const": "SYSTEM_HINT",
+      "java": 1757,
+      "proto": 1928,
+      "field": "system_hint"
+    }
+  ],
+  "ChessEntranceInfoOuterClass.java": [
+    {
+      "const": "MONSTER_INFO_LIST",
+      "java": 14,
+      "proto": 3,
+      "field": "monster_info_list"
+    },
+    {
+      "const": "ENTRANCE_POINT_ID",
+      "java": 8,
+      "proto": 15,
+      "field": "entrance_point_id"
+    },
+    {
+      "const": "ENTRANCE_INDEX",
+      "java": 5,
+      "proto": 4,
+      "field": "entrance_index"
+    }
+  ],
+  "ChessMonsterInfoOuterClass.java": [
+    {
+      "const": "MONSTER_ID",
+      "java": 11,
+      "proto": 6,
+      "field": "monster_id"
+    },
+    {
+      "const": "AFFIX_LIST",
+      "java": 9,
+      "proto": 4,
+      "field": "affix_list"
+    },
+    {
+      "const": "LEVEL",
+      "java": 10,
+      "proto": 14,
+      "field": "level"
+    }
+  ],
+  "ChildQuestOuterClass.java": [
+    {
+      "const": "QUEST_CONFIG_ID",
+      "java": 11,
+      "proto": 3,
+      "field": "quest_config_id"
+    },
+    {
+      "const": "STATE",
+      "java": 14,
+      "proto": 5,
+      "field": "state"
+    }
+  ],
+  "CityInfoOuterClass.java": [
+    {
+      "const": "LEVEL",
+      "java": 10,
+      "proto": 7,
+      "field": "level"
+    },
+    {
+      "const": "CITY_ID",
+      "java": 6,
+      "proto": 1,
+      "field": "city_id"
+    },
+    {
+      "const": "CRYSTAL_NUM",
+      "java": 15,
+      "proto": 13,
+      "field": "crystal_num"
+    }
+  ],
+  "ClientLockGameTimeNotifyOuterClass.java": [
+    {
+      "const": "IS_LOCK",
+      "java": 1,
+      "proto": 9,
+      "field": "is_lock"
+    }
+  ],
+  "CombineFormulaDataNotifyOuterClass.java": [
+    {
+      "const": "COMBINE_ID",
+      "java": 14,
+      "proto": 10,
+      "field": "combine_id"
+    }
+  ],
+  "CombineReqOuterClass.java": [
+    {
+      "const": "COMBINE_COUNT",
+      "java": 5,
+      "proto": 13,
+      "field": "combine_count"
+    },
+    {
+      "const": "AVATAR_GUID",
+      "java": 2,
+      "proto": 4,
+      "field": "avatar_guid"
+    }
+  ],
+  "CombineRspOuterClass.java": [
+    {
+      "const": "COMBINE_ID",
+      "java": 7,
+      "proto": 1,
+      "field": "combine_id"
+    },
+    {
+      "const": "COMBINE_COUNT",
+      "java": 3,
+      "proto": 4,
+      "field": "combine_count"
+    },
+    {
+      "const": "TOTAL_RETURN_ITEM_LIST",
+      "java": 15,
+      "proto": 10,
+      "field": "total_return_item_list"
+    },
+    {
+      "const": "RESULT_ITEM_LIST",
+      "java": 8,
+      "proto": 2,
+      "field": "result_item_list"
+    }
+  ],
+  "CompoundQueueDataOuterClass.java": [
+    {
+      "const": "COMPOUND_ID",
+      "java": 11,
+      "proto": 14,
+      "field": "compound_id"
+    }
+  ],
+  "CookRecipeDataOuterClass.java": [
+    {
+      "const": "RECIPE_ID",
+      "java": 5,
+      "proto": 7,
+      "field": "recipe_id"
+    },
+    {
+      "const": "PROFICIENCY",
+      "java": 10,
+      "proto": 13,
+      "field": "proficiency"
+    }
+  ],
+  "CoopCgOuterClass.java": [
+    {
+      "const": "ID",
+      "java": 5,
+      "proto": 10,
+      "field": "id"
+    },
+    {
+      "const": "IS_UNLOCK",
+      "java": 6,
+      "proto": 7,
+      "field": "is_unlock"
+    }
+  ],
+  "CoopChapterOuterClass.java": [
+    {
+      "const": "COOP_POINT_LIST",
+      "java": 6,
+      "proto": 11,
+      "field": "coop_point_list"
+    },
+    {
+      "const": "COOP_REWARD_LIST",
+      "java": 11,
+      "proto": 10,
+      "field": "coop_reward_list"
+    },
+    {
+      "const": "COOP_CG_LIST",
+      "java": 8,
+      "proto": 4,
+      "field": "coop_cg_list"
+    },
+    {
+      "const": "ID",
+      "java": 14,
+      "proto": 3,
+      "field": "id"
+    }
+  ],
+  "CoopPointOuterClass.java": [
+    {
+      "const": "ID",
+      "java": 8,
+      "proto": 3,
+      "field": "id"
+    },
+    {
+      "const": "STATE",
+      "java": 14,
+      "proto": 6,
+      "field": "state"
+    },
+    {
+      "const": "SELF_CONFIDENCE",
+      "java": 10,
+      "proto": 7,
+      "field": "self_confidence"
+    }
+  ],
+  "CoopRewardOuterClass.java": [
+    {
+      "const": "ID",
+      "java": 2,
+      "proto": 6,
+      "field": "id"
+    },
+    {
+      "const": "STATE",
+      "java": 10,
+      "proto": 7,
+      "field": "state"
+    }
+  ],
+  "CreateVehicleReqOuterClass.java": [
+    {
+      "const": "SCENE_POINT_ID",
+      "java": 4,
+      "proto": 15,
+      "field": "scene_point_id"
+    },
+    {
+      "const": "POS",
+      "java": 10,
+      "proto": 2,
+      "field": "pos"
+    },
+    {
+      "const": "VEHICLE_ID",
+      "java": 11,
+      "proto": 4,
+      "field": "vehicle_id"
+    },
+    {
+      "const": "ROT",
+      "java": 5,
+      "proto": 13,
+      "field": "rot"
+    }
+  ],
+  "CrystalLinkAvatarInfoOuterClass.java": [
+    {
+      "const": "IS_TRIAL",
+      "java": 7,
+      "proto": 11,
+      "field": "is_trial"
+    },
+    {
+      "const": "AVATAR_ID",
+      "java": 1,
+      "proto": 7,
+      "field": "avatar_id"
+    }
+  ],
+  "CrystalLinkDungeonSettleInfoOuterClass.java": [
+    {
+      "const": "FINAL_SCORE",
+      "java": 12,
+      "proto": 8,
+      "field": "final_score"
+    },
+    {
+      "const": "LEVEL_ID",
+      "java": 3,
+      "proto": 7,
+      "field": "level_id"
+    },
+    {
+      "const": "DIFFICULTY_ID",
+      "java": 5,
+      "proto": 4,
+      "field": "difficulty_id"
+    },
+    {
+      "const": "IS_NEW_RECORD",
+      "java": 7,
+      "proto": 13,
+      "field": "is_new_record"
+    }
+  ],
+  "CrystalLinkLevelInfoOuterClass.java": [
+    {
+      "const": "BEST_SCORE",
+      "java": 5,
+      "proto": 10,
+      "field": "best_score"
+    },
+    {
+      "const": "LEVEL_ID",
+      "java": 14,
+      "proto": 4,
+      "field": "level_id"
+    },
+    {
+      "const": "TEAM_INFO_LIST",
+      "java": 6,
+      "proto": 7,
+      "field": "team_info_list"
+    }
+  ],
+  "CrystalLinkTeamInfoOuterClass.java": [
+    {
+      "const": "BUFF_INFO_LIST",
+      "java": 7,
+      "proto": 14,
+      "field": "buff_info_list"
+    },
+    {
+      "const": "AVATAR_INFO_LIST",
+      "java": 6,
+      "proto": 5,
+      "field": "avatar_info_list"
+    }
+  ],
+  "CustomDungeonBlockOuterClass.java": [
+    {
+      "const": "GUID",
+      "java": 15,
+      "proto": 14,
+      "field": "guid"
+    },
+    {
+      "const": "ROT",
+      "java": 9,
+      "proto": 6,
+      "field": "rot"
+    },
+    {
+      "const": "POS",
+      "java": 5,
+      "proto": 11,
+      "field": "pos"
+    },
+    {
+      "const": "BLOCK_ID",
+      "java": 10,
+      "proto": 9,
+      "field": "block_id"
+    }
+  ],
+  "CustomDungeonOuterClass.java": [
+    {
+      "const": "SETTING",
+      "java": 14,
+      "proto": 2,
+      "field": "setting"
+    },
+    {
+      "const": "ROOM_LIST",
+      "java": 7,
+      "proto": 8,
+      "field": "room_list"
+    },
+    {
+      "const": "DUNGEON_GUID",
+      "java": 3,
+      "proto": 1,
+      "field": "dungeon_guid"
+    },
+    {
+      "const": "DUNGEON_ID",
+      "java": 8,
+      "proto": 4,
+      "field": "dungeon_id"
+    }
+  ],
+  "CustomDungeonResultInfoOuterClass.java": [
+    {
+      "const": "TIME_COST",
+      "java": 14,
+      "proto": 15,
+      "field": "time_cost"
+    },
+    {
+      "const": "IS_ARRIVE_FINISH",
+      "java": 4,
+      "proto": 5,
+      "field": "is_arrive_finish"
+    },
+    {
+      "const": "GOT_COIN_NUM",
+      "java": 2,
+      "proto": 11,
+      "field": "got_coin_num"
+    }
+  ],
+  "CustomDungeonRoomOuterClass.java": [
+    {
+      "const": "BLOCK_LIST",
+      "java": 13,
+      "proto": 7,
+      "field": "block_list"
+    },
+    {
+      "const": "ROOM_ID",
+      "java": 12,
+      "proto": 2,
+      "field": "room_id"
+    }
+  ],
+  "CustomDungeonSettingOuterClass.java": [
+    {
+      "const": "IS_FORBID_SKILL",
+      "java": 8,
+      "proto": 1,
+      "field": "is_forbid_skill"
+    },
+    {
+      "const": "OPEN_ROOM_LIST",
+      "java": 6,
+      "proto": 11,
+      "field": "open_room_list"
+    },
+    {
+      "const": "IS_ARRIVE_FINISH",
+      "java": 10,
+      "proto": 7,
+      "field": "is_arrive_finish"
+    }
+  ],
+  "CylinderRegionSizeOuterClass.java": [
+    {
+      "const": "HEIGHT",
+      "java": 13,
+      "proto": 4,
+      "field": "height"
+    },
+    {
+      "const": "RADIUS",
+      "java": 3,
+      "proto": 13,
+      "field": "radius"
+    }
+  ],
+  "DailyDungeonEntryInfoOuterClass.java": [
+    {
+      "const": "RECOMMEND_DUNGEON_ENTRY_INFO",
+      "java": 11,
+      "proto": 12,
+      "field": "recommend_dungeon_entry_info"
+    },
+    {
+      "const": "DUNGEON_ENTRY_ID",
+      "java": 1,
+      "proto": 14,
+      "field": "dungeon_entry_id"
+    },
+    {
+      "const": "RECOMMEND_DUNGEON_ID",
+      "java": 7,
+      "proto": 11,
+      "field": "recommend_dungeon_id"
+    },
+    {
+      "const": "DUNGEON_ENTRY_CONFIG_ID",
+      "java": 9,
+      "proto": 10,
+      "field": "dungeon_entry_config_id"
+    }
+  ],
+  "DataResVersionNotifyOuterClass.java": [
+    {
+      "const": "CLIENT_SILENCE_VERSION_SUFFIX",
+      "java": 2,
+      "proto": 12,
+      "field": "client_silence_version_suffix"
+    },
+    {
+      "const": "CLIENT_VERSION_SUFFIX",
+      "java": 5,
+      "proto": 9,
+      "field": "client_version_suffix"
+    },
+    {
+      "const": "CLIENT_DATA_VERSION",
+      "java": 9,
+      "proto": 6,
+      "field": "client_data_version"
+    },
+    {
+      "const": "CLIENT_SILENCE_DATA_VERSION",
+      "java": 12,
+      "proto": 8,
+      "field": "client_silence_data_version"
+    }
+  ],
+  "DelBackupAvatarTeamReqOuterClass.java": [
+    {
+      "const": "BACKUP_AVATAR_TEAM_ID",
+      "java": 10,
+      "proto": 2,
+      "field": "backup_avatar_team_id"
+    }
+  ],
+  "DelBackupAvatarTeamRspOuterClass.java": [
+    {
+      "const": "RETCODE",
+      "java": 6,
+      "proto": 15,
+      "field": "retcode"
+    },
+    {
+      "const": "BACKUP_AVATAR_TEAM_ID",
+      "java": 14,
+      "proto": 8,
+      "field": "backup_avatar_team_id"
+    }
+  ],
+  "DeliveryActivityDetailInfoOuterClass.java": [
+    {
+      "const": "IS_TAKEN_REWARD",
+      "java": 2,
+      "proto": 4,
+      "field": "is_taken_reward"
+    }
+  ],
+  "DelMailReqOuterClass.java": [
+    {
+      "const": "MAIL_ID_LIST",
+      "java": 8,
+      "proto": 1,
+      "field": "mail_id_list"
+    }
+  ],
+  "DigMarkPointOuterClass.java": [
+    {
+      "const": "ROT",
+      "java": 12,
+      "proto": 5,
+      "field": "rot"
+    },
+    {
+      "const": "BUNDLE_ID",
+      "java": 6,
+      "proto": 14,
+      "field": "bundle_id"
+    },
+    {
+      "const": "POS",
+      "java": 9,
+      "proto": 3,
+      "field": "pos"
+    }
+  ],
+  "DragonSpineActivityDetailInfoOuterClass.java": [
+    {
+      "const": "IS_CONTENT_CLOSED",
+      "java": 8,
+      "proto": 10,
+      "field": "is_content_closed"
+    }
+  ],
+  "DragonSpineChapterInfoOuterClass.java": [
+    {
+      "const": "FINISHED_MISSION_NUM",
+      "java": 10,
+      "proto": 12,
+      "field": "finished_mission_num"
+    },
+    {
+      "const": "OPEN_TIME",
+      "java": 5,
+      "proto": 7,
+      "field": "open_time"
+    },
+    {
+      "const": "IS_OPEN",
+      "java": 12,
+      "proto": 8,
+      "field": "is_open"
+    },
+    {
+      "const": "CHAPTER_ID",
+      "java": 13,
+      "proto": 6,
+      "field": "chapter_id"
+    }
+  ],
+  "DuelHeartLevelDifficultyInfoOuterClass.java": [
+    {
+      "const": "IS_OPEN",
+      "java": 4,
+      "proto": 2,
+      "field": "is_open"
+    },
+    {
+      "const": "DIFFICULTY",
+      "java": 1,
+      "proto": 12,
+      "field": "difficulty"
+    },
+    {
+      "const": "COST_TIME",
+      "java": 14,
+      "proto": 4,
+      "field": "cost_time"
+    }
+  ],
+  "DuelHeartLevelInfoOuterClass.java": [
+    {
+      "const": "IS_CG_VIEWED",
+      "java": 13,
+      "proto": 14,
+      "field": "is_cg_viewed"
+    },
+    {
+      "const": "IS_OPEN",
+      "java": 12,
+      "proto": 8,
+      "field": "is_open"
+    },
+    {
+      "const": "DIFFICULTY_INFO_LIST",
+      "java": 14,
+      "proto": 5,
+      "field": "difficulty_info_list"
+    },
+    {
+      "const": "LEVEL_ID",
+      "java": 2,
+      "proto": 9,
+      "field": "level_id"
+    }
+  ],
+  "DungeonChallengeFinishNotifyOuterClass.java": [
+    {
+      "const": "CHALLENGE_INDEX",
+      "java": 8,
+      "proto": 11,
+      "field": "challenge_index"
+    },
+    {
+      "const": "TIME_COST",
+      "java": 13,
+      "proto": 7,
+      "field": "time_cost"
+    },
+    {
+      "const": "CHANNELLER_SLAB_LOOP_DUNGEON_RESULT_INFO",
+      "java": 1111,
+      "proto": 1552,
+      "field": "channeller_slab_loop_dungeon_result_info"
+    },
+    {
+      "const": "EFFIGY_CHALLENGE_DUNGEON_RESULT_INFO",
+      "java": 351,
+      "proto": 967,
+      "field": "effigy_challenge_dungeon_result_info"
+    },
+    {
+      "const": "POTION_DUNGEON_RESULT_INFO",
+      "java": 339,
+      "proto": 958,
+      "field": "potion_dungeon_result_info"
+    },
+    {
+      "const": "CUSTOM_DUNGEON_RESULT_INFO",
+      "java": 915,
+      "proto": 1769,
+      "field": "custom_dungeon_result_info"
+    }
+  ],
+  "DungeonDieOptionReqOuterClass.java": [
+    {
+      "const": "IS_QUIT_IMMEDIATELY",
+      "java": 13,
+      "proto": 6,
+      "field": "is_quit_immediately"
+    },
+    {
+      "const": "DIE_OPTION",
+      "java": 8,
+      "proto": 5,
+      "field": "die_option"
+    }
+  ],
+  "DungeonEnterPosInfoOuterClass.java": [
+    {
+      "const": "POINT_ID",
+      "java": 2,
+      "proto": 3,
+      "field": "point_id"
+    },
+    {
+      "const": "QUEST_ID",
+      "java": 14,
+      "proto": 9,
+      "field": "quest_id"
+    }
+  ],
+  "DungeonEntryCondOuterClass.java": [
+    {
+      "const": "COND_REASON",
+      "java": 4,
+      "proto": 7,
+      "field": "cond_reason"
+    },
+    {
+      "const": "PARAM1",
+      "java": 12,
+      "proto": 2,
+      "field": "param1"
+    }
+  ],
+  "DungeonEntryInfoOuterClass.java": [
+    {
+      "const": "IS_PASSED",
+      "java": 13,
+      "proto": 14,
+      "field": "is_passed"
+    },
+    {
+      "const": "NEXT_REFRESH_TIME",
+      "java": 1,
+      "proto": 5,
+      "field": "next_refresh_time"
+    },
+    {
+      "const": "DUNGEON_ID",
+      "java": 10,
+      "proto": 1,
+      "field": "dungeon_id"
+    }
+  ],
+  "DungeonEntryInfoRspOuterClass.java": [
+    {
+      "const": "DUNGEON_ENTRY_POINT_LIST",
+      "java": 14,
+      "proto": 12,
+      "field": "dungeon_entry_point_list"
+    },
+    {
+      "const": "DUNGEON_ENTRY_LIST",
+      "java": 15,
+      "proto": 8,
+      "field": "dungeon_entry_list"
+    },
+    {
+      "const": "POINT_ID",
+      "java": 1,
+      "proto": 7,
+      "field": "point_id"
+    }
+  ],
+  "DungeonEntryPointInfoOuterClass.java": [
+    {
+      "const": "DUNGEON_ENTRY_LIST",
+      "java": 13,
+      "proto": 1,
+      "field": "dungeon_entry_list"
+    },
+    {
+      "const": "RECOMMEND_DUNGEON_ID",
+      "java": 8,
+      "proto": 11,
+      "field": "recommend_dungeon_id"
+    },
+    {
+      "const": "POINT_ID",
+      "java": 2,
+      "proto": 5,
+      "field": "point_id"
+    },
+    {
+      "const": "SCENE_ID",
+      "java": 3,
+      "proto": 9,
+      "field": "scene_id"
+    }
+  ],
+  "DungeonPlayerDieNotifyOuterClass.java": [
+    {
+      "const": "REVIVE_COUNT",
+      "java": 13,
+      "proto": 7,
+      "field": "revive_count"
+    },
+    {
+      "const": "WAIT_TIME",
+      "java": 11,
+      "proto": 14,
+      "field": "wait_time"
+    },
+    {
+      "const": "MONSTER_ID",
+      "java": 14,
+      "proto": 4,
+      "field": "monster_id"
+    },
+    {
+      "const": "GADGET_ID",
+      "java": 8,
+      "proto": 13,
+      "field": "gadget_id"
+    }
+  ],
+  "DungeonSettleNotifyOuterClass.java": [
+    {
+      "const": "CREATE_PLAYER_UID",
+      "java": 1,
+      "proto": 14,
+      "field": "create_player_uid"
+    },
+    {
+      "const": "CLOSE_TIME",
+      "java": 6,
+      "proto": 12,
+      "field": "close_time"
+    },
+    {
+      "const": "RESULT",
+      "java": 5,
+      "proto": 7,
+      "field": "result"
+    },
+    {
+      "const": "TOWER_LEVEL_END_NOTIFY",
+      "java": 1162,
+      "proto": 803,
+      "field": "tower_level_end_notify"
+    },
+    {
+      "const": "TRIAL_AVATAR_FIRST_PASS_DUNGEON_NOTIFY",
+      "java": 2036,
+      "proto": 712,
+      "field": "trial_avatar_first_pass_dungeon_notify"
+    },
+    {
+      "const": "CHANNELLER_SLAB_LOOP_DUNGEON_RESULT_INFO",
+      "java": 808,
+      "proto": 664,
+      "field": "channeller_slab_loop_dungeon_result_info"
+    },
+    {
+      "const": "EFFIGY_CHALLENGE_DUNGEON_RESULT_INFO",
+      "java": 596,
+      "proto": 1625,
+      "field": "effigy_challenge_dungeon_result_info"
+    },
+    {
+      "const": "ROGUELIKE_DUNGEON_SETTLE_INFO",
+      "java": 2010,
+      "proto": 1055,
+      "field": "roguelike_dungeon_settle_info"
+    },
+    {
+      "const": "CRYSTAL_LINK_SETTLE_INFO",
+      "java": 1313,
+      "proto": 937,
+      "field": "crystal_link_settle_info"
+    },
+    {
+      "const": "SUMMER_TIME_V2_DUNGEON_SETTLE_INFO",
+      "java": 174,
+      "proto": 918,
+      "field": "summer_time_v2_dungeon_settle_info"
+    },
+    {
+      "const": "INSTABLE_SPRAY_SETTLE_INFO",
+      "java": 702,
+      "proto": 1404,
+      "field": "instable_spray_settle_info"
+    },
+    {
+      "const": "WIND_FIELD_DUNGEON_SETTLE_INFO",
+      "java": 714,
+      "proto": 1517,
+      "field": "wind_field_dungeon_settle_info"
+    },
+    {
+      "const": "EFFIGY_CHALLENGE_V2_SETTLE_INFO",
+      "java": 1629,
+      "proto": 1795,
+      "field": "effigy_challenge_v2_settle_info"
+    },
+    {
+      "const": "TEAM_CHAIN_SETTLE_INFO",
+      "java": 755,
+      "proto": 820,
+      "field": "team_chain_settle_info"
+    },
+    {
+      "const": "PACMAN_SETTLE_INFO",
+      "java": 1544,
+      "proto": 1138,
+      "field": "pacman_settle_info"
+    },
+    {
+      "const": "FUNGUS_FIGHTER_V2_SETTLE_INFO",
+      "java": 1886,
+      "proto": 608,
+      "field": "fungus_fighter_v2_settle_info"
+    },
+    {
+      "const": "BLADE_DANCE_SETTLE_INFO",
+      "java": 578,
+      "proto": 1131,
+      "field": "blade_dance_settle_info"
+    },
+    {
+      "const": "MULTI_CHARACTER_DUNGEON_SETTLE_INFO",
+      "java": 1901,
+      "proto": 1383,
+      "field": "multi_character_dungeon_settle_info"
+    }
+  ],
+  "DungeonShowReminderNotifyOuterClass.java": [
+    {
+      "const": "REMINDER_ID",
+      "java": 13,
+      "proto": 6,
+      "field": "reminder_id"
+    }
+  ],
+  "EffigyChallengeDungeonResultInfoOuterClass.java": [
+    {
+      "const": "CHALLENGE_ID",
+      "java": 5,
+      "proto": 4,
+      "field": "challenge_id"
+    },
+    {
+      "const": "CHALLENGE_MAX_SCORE",
+      "java": 11,
+      "proto": 12,
+      "field": "challenge_max_score"
+    },
+    {
+      "const": "CHALLENGE_SCORE",
+      "java": 15,
+      "proto": 8,
+      "field": "challenge_score"
+    }
+  ],
+  "EffigyChallengeV2LevelDataOuterClass.java": [
+    {
+      "const": "LEVEL_ID",
+      "java": 12,
+      "proto": 8,
+      "field": "level_id"
+    },
+    {
+      "const": "IS_LEVEL_OPEN",
+      "java": 11,
+      "proto": 9,
+      "field": "is_level_open"
+    }
+  ],
+  "EffigyDailyInfoOuterClass.java": [
+    {
+      "const": "CHALLENGE_ID",
+      "java": 8,
+      "proto": 3,
+      "field": "challenge_id"
+    },
+    {
+      "const": "CHALLENGE_MAX_SCORE",
+      "java": 15,
+      "proto": 6,
+      "field": "challenge_max_score"
+    },
+    {
+      "const": "BEGIN_TIME",
+      "java": 1,
+      "proto": 13,
+      "field": "begin_time"
+    },
+    {
+      "const": "IS_FIRST_PASS_REWARD_TAKEN",
+      "java": 11,
+      "proto": 4,
+      "field": "is_first_pass_reward_taken"
+    }
+  ],
+  "ElectroherculesBattleLevelInfoOuterClass.java": [
+    {
+      "const": "MIN_FINISH_TIME",
+      "java": 10,
+      "proto": 6,
+      "field": "min_finish_time"
+    },
+    {
+      "const": "IS_FINISH",
+      "java": 8,
+      "proto": 2,
+      "field": "is_finish"
+    },
+    {
+      "const": "LEVEL_ID",
+      "java": 12,
+      "proto": 3,
+      "field": "level_id"
+    }
+  ],
+  "ElectroherculesBattleStageInfoOuterClass.java": [
+    {
+      "const": "STAGE_ID",
+      "java": 5,
+      "proto": 9,
+      "field": "stage_id"
+    },
+    {
+      "const": "IS_STAGE_OPEN",
+      "java": 10,
+      "proto": 3,
+      "field": "is_stage_open"
+    },
+    {
+      "const": "LEVEL_INFO_LIST",
+      "java": 3,
+      "proto": 14,
+      "field": "level_info_list"
+    }
+  ],
+  "EnterTransPointRegionNotifyOuterClass.java": [
+    {
+      "const": "POINT_ID",
+      "java": 7,
+      "proto": 8,
+      "field": "point_id"
+    },
+    {
+      "const": "SCENE_ID",
+      "java": 5,
+      "proto": 6,
+      "field": "scene_id"
+    }
+  ],
+  "EntityAiSyncNotifyOuterClass.java": [
+    {
+      "const": "LOCAL_AVATAR_ALERTED_MONSTER_LIST",
+      "java": 1,
+      "proto": 10,
+      "field": "local_avatar_alerted_monster_list"
+    },
+    {
+      "const": "INFO_LIST",
+      "java": 4,
+      "proto": 8,
+      "field": "info_list"
+    }
+  ],
+  "EvtAvatarExitFocusNotifyOuterClass.java": [
+    {
+      "const": "FINISH_FORWARD",
+      "java": 13,
+      "proto": 15,
+      "field": "finish_forward"
+    },
+    {
+      "const": "FORWARD_TYPE",
+      "java": 12,
+      "proto": 11,
+      "field": "forward_type"
+    },
+    {
+      "const": "ENTITY_ID",
+      "java": 11,
+      "proto": 4,
+      "field": "entity_id"
+    }
+  ],
+  "EvtBulletHitNotifyOuterClass.java": [
+    {
+      "const": "HIT_NORMAL",
+      "java": 11,
+      "proto": 2,
+      "field": "hit_normal"
+    },
+    {
+      "const": "HIT_POINT",
+      "java": 14,
+      "proto": 8,
+      "field": "hit_point"
+    },
+    {
+      "const": "HIT_COLLIDER_TYPE",
+      "java": 4,
+      "proto": 14,
+      "field": "hit_collider_type"
+    },
+    {
+      "const": "FORWARD_PEER",
+      "java": 15,
+      "proto": 3,
+      "field": "forward_peer"
+    }
+  ],
+  "ExitTransPointRegionNotifyOuterClass.java": [
+    {
+      "const": "POINT_ID",
+      "java": 7,
+      "proto": 12,
+      "field": "point_id"
+    },
+    {
+      "const": "SCENE_ID",
+      "java": 13,
+      "proto": 11,
+      "field": "scene_id"
+    }
+  ],
+  "ExpeditionActivityDetailInfoOuterClass.java": [
+    {
+      "const": "CONTENT_CLOSE_TIME",
+      "java": 11,
+      "proto": 4,
+      "field": "content_close_time"
+    },
+    {
+      "const": "IS_CONTENT_CLOSED",
+      "java": 1,
+      "proto": 12,
+      "field": "is_content_closed"
+    }
+  ],
+  "ExpeditionChallengeInfoOuterClass.java": [
+    {
+      "const": "OPEN_TIME",
+      "java": 2,
+      "proto": 14,
+      "field": "open_time"
+    },
+    {
+      "const": "ID",
+      "java": 4,
+      "proto": 11,
+      "field": "id"
+    },
+    {
+      "const": "IS_FINISHED",
+      "java": 10,
+      "proto": 5,
+      "field": "is_finished"
+    }
+  ],
+  "ExpeditionPathInfoOuterClass.java": [
+    {
+      "const": "PATH_ID",
+      "java": 7,
+      "proto": 13,
+      "field": "path_id"
+    },
+    {
+      "const": "START_TIME",
+      "java": 5,
+      "proto": 11,
+      "field": "start_time"
+    },
+    {
+      "const": "CHALLENGE_ID",
+      "java": 13,
+      "proto": 6,
+      "field": "challenge_id"
+    }
+  ],
+  "ExpeditionStartReqOuterClass.java": [
+    {
+      "const": "AVATAR_ID_LIST",
+      "java": 3,
+      "proto": 13,
+      "field": "avatar_id_list"
+    },
+    {
+      "const": "PATH_ID",
+      "java": 9,
+      "proto": 3,
+      "field": "path_id"
+    }
+  ],
+  "ExpeditionStartRspOuterClass.java": [
+    {
+      "const": "PATH_ID",
+      "java": 3,
+      "proto": 12,
+      "field": "path_id"
+    },
+    {
+      "const": "AVATAR_ID_LIST",
+      "java": 6,
+      "proto": 8,
+      "field": "avatar_id_list"
+    },
+    {
+      "const": "RETCODE",
+      "java": 13,
+      "proto": 11,
+      "field": "retcode"
+    }
+  ],
+  "FindHilichurlDayContentInfoOuterClass.java": [
+    {
+      "const": "START_TIME",
+      "java": 14,
+      "proto": 11,
+      "field": "start_time"
+    }
+  ],
+  "FindHilichurlDetailInfoOuterClass.java": [
+    {
+      "const": "IS_CONTENT_CLOSED",
+      "java": 9,
+      "proto": 2,
+      "field": "is_content_closed"
+    },
+    {
+      "const": "CONTENT_CLOSE_TIME",
+      "java": 13,
+      "proto": 6,
+      "field": "content_close_time"
+    }
+  ],
+  "FireworksLaunchDataNotifyOuterClass.java": [
+    {
+      "const": "SCHEME_DATA_LIST",
+      "java": 2,
+      "proto": 6,
+      "field": "scheme_data_list"
+    },
+    {
+      "const": "LAST_USE_SCHEME_ID",
+      "java": 9,
+      "proto": 1,
+      "field": "last_use_scheme_id"
+    }
+  ],
+  "FireworksLaunchParamOuterClass.java": [
+    {
+      "const": "TYPE",
+      "java": 14,
+      "proto": 5,
+      "field": "type"
+    },
+    {
+      "const": "VALUE",
+      "java": 2,
+      "proto": 13,
+      "field": "value"
+    }
+  ],
+  "FireworksLaunchSchemeDataOuterClass.java": [
+    {
+      "const": "SCHEME_ID",
+      "java": 12,
+      "proto": 2,
+      "field": "scheme_id"
+    },
+    {
+      "const": "FIREWORKS_ID_LIST",
+      "java": 3,
+      "proto": 15,
+      "field": "fireworks_id_list"
+    }
+  ],
+  "FireworksReformDataNotifyOuterClass.java": [
+    {
+      "const": "FIREWORKS_REFORM_DATA_LIST",
+      "java": 4,
+      "proto": 11,
+      "field": "fireworks_reform_data_list"
+    }
+  ],
+  "FireworksReformDataOuterClass.java": [
+    {
+      "const": "REFORM_PARAM_LIST",
+      "java": 9,
+      "proto": 12,
+      "field": "reform_param_list"
+    }
+  ],
+  "FireworksReformParamOuterClass.java": [
+    {
+      "const": "TYPE",
+      "java": 2,
+      "proto": 13,
+      "field": "type"
+    },
+    {
+      "const": "VALUE",
+      "java": 3,
+      "proto": 14,
+      "field": "value"
+    }
+  ],
+  "FishBattleEndReqOuterClass.java": [
+    {
+      "const": "IS_ALWAYS_BONUS",
+      "java": 7,
+      "proto": 2,
+      "field": "is_always_bonus"
+    },
+    {
+      "const": "MAX_BONUS_TIME",
+      "java": 3,
+      "proto": 9,
+      "field": "max_bonus_time"
+    },
+    {
+      "const": "BATTLE_RESULT",
+      "java": 4,
+      "proto": 11,
+      "field": "battle_result"
+    }
+  ],
+  "FishBattleEndRspOuterClass.java": [
+    {
+      "const": "NO_REWARD_REASON",
+      "java": 13,
+      "proto": 7,
+      "field": "no_reward_reason"
+    },
+    {
+      "const": "BATTLE_RESULT",
+      "java": 10,
+      "proto": 3,
+      "field": "battle_result"
+    }
+  ],
+  "FleurFairActivityDetailInfoOuterClass.java": [
+    {
+      "const": "CONTENT_CLOSE_TIME",
+      "java": 8,
+      "proto": 1,
+      "field": "content_close_time"
+    }
+  ],
+  "FleurFairChapterInfoOuterClass.java": [
+    {
+      "const": "OPEN_TIME",
+      "java": 9,
+      "proto": 10,
+      "field": "open_time"
+    },
+    {
+      "const": "CHAPTER_ID",
+      "java": 12,
+      "proto": 5,
+      "field": "chapter_id"
+    }
+  ],
+  "FleurFairDungeonSectionInfoOuterClass.java": [
+    {
+      "const": "IS_OPEN",
+      "java": 14,
+      "proto": 5,
+      "field": "is_open"
+    }
+  ],
+  "FleurFairMinigameInfoOuterClass.java": [
+    {
+      "const": "MUSIC_INFO",
+      "java": 9,
+      "proto": 10,
+      "field": "music_info"
+    },
+    {
+      "const": "FALL_INFO",
+      "java": 7,
+      "proto": 2,
+      "field": "fall_info"
+    },
+    {
+      "const": "BALLOON_INFO",
+      "java": 15,
+      "proto": 7,
+      "field": "balloon_info"
+    }
+  ],
+  "FleurFairMusicRecordOuterClass.java": [
+    {
+      "const": "MAX_COMBO",
+      "java": 3,
+      "proto": 8,
+      "field": "max_combo"
+    },
+    {
+      "const": "IS_UNLOCK",
+      "java": 11,
+      "proto": 5,
+      "field": "is_unlock"
+    },
+    {
+      "const": "MAX_SCORE",
+      "java": 10,
+      "proto": 13,
+      "field": "max_score"
+    }
+  ],
+  "FlightDailyRecordOuterClass.java": [
+    {
+      "const": "IS_TOUCHED",
+      "java": 13,
+      "proto": 12,
+      "field": "is_touched"
+    },
+    {
+      "const": "BEST_SCORE",
+      "java": 12,
+      "proto": 15,
+      "field": "best_score"
+    },
+    {
+      "const": "START_TIME",
+      "java": 6,
+      "proto": 4,
+      "field": "start_time"
+    },
+    {
+      "const": "GROUP_ID",
+      "java": 2,
+      "proto": 7,
+      "field": "group_id"
+    }
+  ],
+  "ForgeDataNotifyOuterClass.java": [
+    {
+      "const": "MAX_QUEUE_NUM",
+      "java": 9,
+      "proto": 4,
+      "field": "max_queue_num"
+    },
+    {
+      "const": "FORGE_ID_LIST",
+      "java": 4,
+      "proto": 7,
+      "field": "forge_id_list"
+    }
+  ],
+  "ForgeFormulaDataNotifyOuterClass.java": [
+    {
+      "const": "IS_LOCKED",
+      "java": 4,
+      "proto": 14,
+      "field": "is_locked"
+    },
+    {
+      "const": "FORGE_ID",
+      "java": 2,
+      "proto": 4,
+      "field": "forge_id"
+    }
+  ],
+  "ForgeGetQueueDataRspOuterClass.java": [
+    {
+      "const": "MAX_QUEUE_NUM",
+      "java": 3,
+      "proto": 6,
+      "field": "max_queue_num"
+    },
+    {
+      "const": "RETCODE",
+      "java": 11,
+      "proto": 8,
+      "field": "retcode"
+    }
+  ],
+  "ForgeQueueDataOuterClass.java": [
+    {
+      "const": "TOTAL_FINISH_TIMESTAMP",
+      "java": 13,
+      "proto": 2,
+      "field": "total_finish_timestamp"
+    },
+    {
+      "const": "AVATAR_ID",
+      "java": 8,
+      "proto": 15,
+      "field": "avatar_id"
+    },
+    {
+      "const": "FINISH_COUNT",
+      "java": 3,
+      "proto": 1,
+      "field": "finish_count"
+    },
+    {
+      "const": "NEXT_FINISH_TIMESTAMP",
+      "java": 4,
+      "proto": 8,
+      "field": "next_finish_timestamp"
+    },
+    {
+      "const": "FORGE_ID",
+      "java": 15,
+      "proto": 14,
+      "field": "forge_id"
+    }
+  ],
+  "FungusDetailOuterClass.java": [
+    {
+      "const": "FUNGUS_ID",
+      "java": 6,
+      "proto": 3,
+      "field": "fungus_id"
+    },
+    {
+      "const": "IS_CULTIVATE",
+      "java": 7,
+      "proto": 11,
+      "field": "is_cultivate"
+    },
+    {
+      "const": "NAME_ID",
+      "java": 3,
+      "proto": 8,
+      "field": "name_id"
+    }
+  ],
+  "FungusFighterMonsterDetailOuterClass.java": [
+    {
+      "const": "IS_ALIVE",
+      "java": 7,
+      "proto": 2,
+      "field": "is_alive"
+    },
+    {
+      "const": "FUNGUS_ID",
+      "java": 13,
+      "proto": 12,
+      "field": "fungus_id"
+    }
+  ],
+  "FungusPlotStageDetailOuterClass.java": [
+    {
+      "const": "IS_OPEN",
+      "java": 7,
+      "proto": 3,
+      "field": "is_open"
+    },
+    {
+      "const": "STAGE_ID",
+      "java": 8,
+      "proto": 9,
+      "field": "stage_id"
+    }
+  ],
+  "FungusTrainingDungeonDetailOuterClass.java": [
+    {
+      "const": "BEST_SCORE",
+      "java": 12,
+      "proto": 14,
+      "field": "best_score"
+    },
+    {
+      "const": "DUNGEON_ID",
+      "java": 14,
+      "proto": 4,
+      "field": "dungeon_id"
+    },
+    {
+      "const": "IS_OPEN",
+      "java": 2,
+      "proto": 15,
+      "field": "is_open"
+    }
+  ],
+  "FungusTrainingMonsterPreviewDetailOuterClass.java": [
+    {
+      "const": "MONSTER_ID",
+      "java": 15,
+      "proto": 7,
+      "field": "monster_id"
+    },
+    {
+      "const": "LEVEL",
+      "java": 6,
+      "proto": 5,
+      "field": "level"
+    },
+    {
+      "const": "AFFIX_LIST",
+      "java": 11,
+      "proto": 8,
+      "field": "affix_list"
+    }
+  ],
+  "FungusTrainingProgressDetailOuterClass.java": [
+    {
+      "const": "MONSTER_DETAIL_LIST",
+      "java": 5,
+      "proto": 11,
+      "field": "monster_detail_list"
+    },
+    {
+      "const": "MONSTER_POOL_PREVIEW_LIST",
+      "java": 12,
+      "proto": 2,
+      "field": "monster_pool_preview_list"
+    }
+  ],
+  "FurnitureMakeMakeInfoOuterClass.java": [
+    {
+      "const": "FURNITURE_ID",
+      "java": 8,
+      "proto": 10,
+      "field": "furniture_id"
+    },
+    {
+      "const": "MAKE_COUNT",
+      "java": 5,
+      "proto": 15,
+      "field": "make_count"
+    }
+  ],
+  "FurnitureMakeRspOuterClass.java": [
+    {
+      "const": "MAKE_INFO_LIST",
+      "java": 5,
+      "proto": 4,
+      "field": "make_info_list"
+    },
+    {
+      "const": "RETCODE",
+      "java": 14,
+      "proto": 11,
+      "field": "retcode"
+    },
+    {
+      "const": "HELPED_DATA_LIST",
+      "java": 4,
+      "proto": 1,
+      "field": "helped_data_list"
+    },
+    {
+      "const": "FURNITURE_MAKE_SLOT",
+      "java": 8,
+      "proto": 5,
+      "field": "furniture_make_slot"
+    }
+  ],
+  "FurnitureMakeStartReqOuterClass.java": [
+    {
+      "const": "AVATAR_ID",
+      "java": 8,
+      "proto": 5,
+      "field": "avatar_id"
+    },
+    {
+      "const": "MAKE_ID",
+      "java": 7,
+      "proto": 1,
+      "field": "make_id"
+    }
+  ],
+  "GachaActivityDetailInfoOuterClass.java": [
+    {
+      "const": "GACHA_STAGE_DATA_LIST",
+      "java": 7,
+      "proto": 6,
+      "field": "gacha_stage_data_list"
+    }
+  ],
+  "GachaStageDataOuterClass.java": [
+    {
+      "const": "STAGE_ID",
+      "java": 1,
+      "proto": 7,
+      "field": "stage_id"
+    },
+    {
+      "const": "IS_OPEN",
+      "java": 9,
+      "proto": 3,
+      "field": "is_open"
+    }
+  ],
+  "GadgetAutoPickDropInfoNotifyOuterClass.java": [
+    {
+      "const": "ITEM_LIST",
+      "java": 8,
+      "proto": 13,
+      "field": "item_list"
+    }
+  ],
+  "GalleryStartNotifyOuterClass.java": [
+    {
+      "const": "START_TIME",
+      "java": 13,
+      "proto": 5,
+      "field": "start_time"
+    },
+    {
+      "const": "PLAYER_COUNT",
+      "java": 9,
+      "proto": 2,
+      "field": "player_count"
+    },
+    {
+      "const": "ELECTROHERCULES_START_PARAM",
+      "java": 8,
+      "proto": 7,
+      "field": "electrohercules_start_param"
+    },
+    {
+      "const": "FLOWER_START_PARAM",
+      "java": 15,
+      "proto": 8,
+      "field": "flower_start_param"
+    }
+  ],
+  "GCGStartChallengeByCheckRewardRspOuterClass.java": [
+    {
+      "const": "LEVEL_ID",
+      "java": 7,
+      "proto": 1,
+      "field": "level_id"
+    },
+    {
+      "const": "RETCODE",
+      "java": 13,
+      "proto": 10,
+      "field": "retcode"
+    },
+    {
+      "const": "CONFIG_ID",
+      "java": 10,
+      "proto": 11,
+      "field": "config_id"
+    }
+  ],
+  "GearLevelDataOuterClass.java": [
+    {
+      "const": "LEVEL_ID",
+      "java": 4,
+      "proto": 10,
+      "field": "level_id"
+    },
+    {
+      "const": "IS_OPEN",
+      "java": 12,
+      "proto": 1,
+      "field": "is_open"
+    },
+    {
+      "const": "IS_FINISHED",
+      "java": 8,
+      "proto": 7,
+      "field": "is_finished"
+    }
+  ],
+  "GetActivityInfoReqOuterClass.java": [
+    {
+      "const": "ACTIVITY_ID_LIST",
+      "java": 11,
+      "proto": 3,
+      "field": "activity_id_list"
+    }
+  ],
+  "GetActivityScheduleRspOuterClass.java": [
+    {
+      "const": "ACTIVITY_SCHEDULE_LIST",
+      "java": 7,
+      "proto": 2,
+      "field": "activity_schedule_list"
+    },
+    {
+      "const": "RETCODE",
+      "java": 5,
+      "proto": 1,
+      "field": "retcode"
+    },
+    {
+      "const": "REMAIN_FLY_SEA_LAMP_NUM",
+      "java": 11,
+      "proto": 15,
+      "field": "remain_fly_sea_lamp_num"
+    }
+  ],
+  "GetActivityShopSheetInfoReqOuterClass.java": [
+    {
+      "const": "SHOP_TYPE",
+      "java": 5,
+      "proto": 12,
+      "field": "shop_type"
+    }
+  ],
+  "GetAllActivatedBargainDataRspOuterClass.java": [
+    {
+      "const": "SNAPSHOT_LIST",
+      "java": 6,
+      "proto": 3,
+      "field": "snapshot_list"
+    },
+    {
+      "const": "RETCODE",
+      "java": 2,
+      "proto": 10,
+      "field": "retcode"
+    }
+  ],
+  "GetAllMailReqOuterClass.java": [
+    {
+      "const": "IS_COLLECTED",
+      "java": 10,
+      "proto": 7,
+      "field": "is_collected"
+    }
+  ],
+  "GetAllMailResultNotifyOuterClass.java": [
+    {
+      "const": "TOTAL_PAGE_COUNT",
+      "java": 15,
+      "proto": 12,
+      "field": "total_page_count"
+    },
+    {
+      "const": "PAGE_INDEX",
+      "java": 13,
+      "proto": 10,
+      "field": "page_index"
+    }
+  ],
+  "GetAreaExplorePointReqOuterClass.java": [
+    {
+      "const": "AREA_ID_LIST",
+      "java": 4,
+      "proto": 2,
+      "field": "area_id_list"
+    }
+  ],
+  "GetAuthkeyRspOuterClass.java": [
+    {
+      "const": "AUTH_APPID",
+      "java": 5,
+      "proto": 6,
+      "field": "auth_appid"
+    },
+    {
+      "const": "GAME_BIZ",
+      "java": 1,
+      "proto": 7,
+      "field": "game_biz"
+    }
+  ],
+  "GetBargainDataReqOuterClass.java": [
+    {
+      "const": "BARGAIN_ID",
+      "java": 13,
+      "proto": 2,
+      "field": "bargain_id"
+    }
+  ],
+  "GetBargainDataRspOuterClass.java": [
+    {
+      "const": "SNAPSHOT",
+      "java": 5,
+      "proto": 11,
+      "field": "snapshot"
+    },
+    {
+      "const": "RETCODE",
+      "java": 1,
+      "proto": 6,
+      "field": "retcode"
+    },
+    {
+      "const": "BARGAIN_ID",
+      "java": 9,
+      "proto": 1,
+      "field": "bargain_id"
+    }
+  ],
+  "GetBlossomBriefInfoListReqOuterClass.java": [
+    {
+      "const": "CITY_ID_LIST",
+      "java": 14,
+      "proto": 1,
+      "field": "city_id_list"
+    }
+  ],
+  "GetCompoundDataRspOuterClass.java": [
+    {
+      "const": "RETCODE",
+      "java": 14,
+      "proto": 10,
+      "field": "retcode"
+    }
+  ],
+  "GetDailyDungeonEntryInfoReqOuterClass.java": [
+    {
+      "const": "SCENE_ID",
+      "java": 5,
+      "proto": 3,
+      "field": "scene_id"
+    }
+  ],
+  "GetDailyDungeonEntryInfoRspOuterClass.java": [
+    {
+      "const": "RETCODE",
+      "java": 14,
+      "proto": 4,
+      "field": "retcode"
+    },
+    {
+      "const": "DAILY_DUNGEON_INFO_LIST",
+      "java": 7,
+      "proto": 14,
+      "field": "daily_dungeon_info_list"
+    }
+  ],
+  "GetDungeonEntryExploreConditionRspOuterClass.java": [
+    {
+      "const": "RETCODE",
+      "java": 11,
+      "proto": 1,
+      "field": "retcode"
+    },
+    {
+      "const": "DUNGEON_ENTRY_COND",
+      "java": 12,
+      "proto": 2,
+      "field": "dungeon_entry_cond"
+    }
+  ],
+  "GetMailItemReqOuterClass.java": [
+    {
+      "const": "MAIL_ID_LIST",
+      "java": 4,
+      "proto": 2,
+      "field": "mail_id_list"
+    }
+  ],
+  "GetPlayerAskFriendListRspOuterClass.java": [
+    {
+      "const": "ASK_FRIEND_LIST",
+      "java": 14,
+      "proto": 5,
+      "field": "ask_friend_list"
+    },
+    {
+      "const": "RETCODE",
+      "java": 3,
+      "proto": 12,
+      "field": "retcode"
+    }
+  ],
+  "GetPlayerTokenReqOuterClass.java": [
+    {
+      "const": "BIRTHDAY",
+      "java": 646,
+      "proto": 137,
+      "field": "birthday"
+    },
+    {
+      "const": "PSN_ID",
+      "java": 5,
+      "proto": 9,
+      "field": "psn_id"
+    },
+    {
+      "const": "COUNTRY_CODE",
+      "java": 410,
+      "proto": 11,
+      "field": "country_code"
+    },
+    {
+      "const": "CLIENT_IP_STR",
+      "java": 13,
+      "proto": 5,
+      "field": "client_ip_str"
+    },
+    {
+      "const": "CHANNEL_ID",
+      "java": 1605,
+      "proto": 3,
+      "field": "channel_id"
+    }
+  ],
+  "GetPlayerTokenRspOuterClass.java": [
+    {
+      "const": "TOKEN",
+      "java": 7,
+      "proto": 2,
+      "field": "token"
+    },
+    {
+      "const": "SIGN",
+      "java": 1842,
+      "proto": 1555,
+      "field": "sign"
+    },
+    {
+      "const": "MSG",
+      "java": 11,
+      "proto": 6,
+      "field": "msg"
+    },
+    {
+      "const": "EXTRA_BIN_DATA",
+      "java": 6,
+      "proto": 14,
+      "field": "extra_bin_data"
+    },
+    {
+      "const": "CLIENT_IP_STR",
+      "java": 1673,
+      "proto": 186,
+      "field": "client_ip_str"
+    },
+    {
+      "const": "BIRTHDAY",
+      "java": 1707,
+      "proto": 751,
+      "field": "birthday"
+    },
+    {
+      "const": "PSN_ID",
+      "java": 384,
+      "proto": 443,
+      "field": "psn_id"
+    },
+    {
+      "const": "GAME_BIZ",
+      "java": 2042,
+      "proto": 1114,
+      "field": "game_biz"
+    },
+    {
+      "const": "ACCOUNT_UID",
+      "java": 15,
+      "proto": 7,
+      "field": "account_uid"
+    },
+    {
+      "const": "SERVER_RAND_KEY",
+      "java": 1212,
+      "proto": 1127,
+      "field": "server_rand_key"
+    },
+    {
+      "const": "COUNTRY_CODE",
+      "java": 959,
+      "proto": 682,
+      "field": "country_code"
+    },
+    {
+      "const": "CLIENT_VERSION_RANDOM_KEY",
+      "java": 1883,
+      "proto": 253,
+      "field": "client_version_random_key"
+    },
+    {
+      "const": "SECURITY_CMD_BUFFER",
+      "java": 3,
+      "proto": 9,
+      "field": "security_cmd_buffer"
+    },
+    {
+      "const": "TAG",
+      "java": 430,
+      "proto": 1659,
+      "field": "tag"
+    },
+    {
+      "const": "CHANNEL_ID",
+      "java": 1407,
+      "proto": 1791,
+      "field": "channel_id"
+    },
+    {
+      "const": "KEY_ID",
+      "java": 1871,
+      "proto": 1020,
+      "field": "key_id"
+    },
+    {
+      "const": "PLATFORM_TYPE",
+      "java": 10,
+      "proto": 11,
+      "field": "platform_type"
+    }
+  ],
+  "GetUgcReqOuterClass.java": [
+    {
+      "const": "UGC_RECORD_USAGE",
+      "java": 5,
+      "proto": 4,
+      "field": "ugc_record_usage"
+    }
+  ],
+  "GetWorldMpInfoRspOuterClass.java": [
+    {
+      "const": "RETCODE",
+      "java": 9,
+      "proto": 6,
+      "field": "retcode"
+    },
+    {
+      "const": "IS_IN_MP_MODE",
+      "java": 4,
+      "proto": 1,
+      "field": "is_in_mp_mode"
+    },
+    {
+      "const": "QUIT_MP_VALID_TIME",
+      "java": 1,
+      "proto": 2,
+      "field": "quit_mp_valid_time"
+    }
+  ],
+  "GivingRecordOuterClass.java": [
+    {
+      "const": "CONFIG_ID",
+      "java": 2,
+      "proto": 8,
+      "field": "config_id"
+    },
+    {
+      "const": "LAST_GROUP_ID",
+      "java": 14,
+      "proto": 4,
+      "field": "last_group_id"
+    },
+    {
+      "const": "GIVING_ID",
+      "java": 3,
+      "proto": 11,
+      "field": "giving_id"
+    },
+    {
+      "const": "IS_FINISHED",
+      "java": 6,
+      "proto": 14,
+      "field": "is_finished"
+    }
+  ],
+  "GravenInnocenceCampInfoOuterClass.java": [
+    {
+      "const": "STAGE_INFO_LIST",
+      "java": 6,
+      "proto": 8,
+      "field": "stage_info_list"
+    }
+  ],
+  "GravenInnocenceCampStageInfoOuterClass.java": [
+    {
+      "const": "STAGE_ID",
+      "java": 6,
+      "proto": 7,
+      "field": "stage_id"
+    },
+    {
+      "const": "IS_OPEN",
+      "java": 12,
+      "proto": 8,
+      "field": "is_open"
+    },
+    {
+      "const": "IS_FINISHED",
+      "java": 11,
+      "proto": 5,
+      "field": "is_finished"
+    },
+    {
+      "const": "LEVEL_ID",
+      "java": 14,
+      "proto": 10,
+      "field": "level_id"
+    }
+  ],
+  "GravenInnocenceCarveInfoOuterClass.java": [
+    {
+      "const": "CAN_EDIT_COUNT",
+      "java": 8,
+      "proto": 13,
+      "field": "can_edit_count"
+    },
+    {
+      "const": "HAS_EDIT_CONFIG_ID_LIST",
+      "java": 13,
+      "proto": 5,
+      "field": "has_edit_config_id_list"
+    },
+    {
+      "const": "STAGE_INFO_LIST",
+      "java": 12,
+      "proto": 6,
+      "field": "stage_info_list"
+    }
+  ],
+  "GravenInnocenceCarveStageInfoOuterClass.java": [
+    {
+      "const": "STAGE_ID",
+      "java": 14,
+      "proto": 9,
+      "field": "stage_id"
+    }
+  ],
+  "GravenInnocencePhotoInfoOuterClass.java": [
+    {
+      "const": "STAGE_INFO_LIST",
+      "java": 11,
+      "proto": 7,
+      "field": "stage_info_list"
+    },
+    {
+      "const": "OBJECT_INFO_LIST",
+      "java": 15,
+      "proto": 4,
+      "field": "object_info_list"
+    }
+  ],
+  "GravenInnocencePhotoObjectInfoOuterClass.java": [
+    {
+      "const": "PARAM",
+      "java": 11,
+      "proto": 5,
+      "field": "param"
+    },
+    {
+      "const": "FINISH_TIME",
+      "java": 12,
+      "proto": 8,
+      "field": "finish_time"
+    },
+    {
+      "const": "OBJECT_ID",
+      "java": 14,
+      "proto": 11,
+      "field": "object_id"
+    }
+  ],
+  "GravenInnocencePhotoStageInfoOuterClass.java": [
+    {
+      "const": "IS_OPEN",
+      "java": 9,
+      "proto": 5,
+      "field": "is_open"
+    },
+    {
+      "const": "STAGE_ID",
+      "java": 13,
+      "proto": 12,
+      "field": "stage_id"
+    }
+  ],
+  "GravenInnocenceRaceInfoOuterClass.java": [
+    {
+      "const": "LEVEL_INFO_LIST",
+      "java": 12,
+      "proto": 9,
+      "field": "level_info_list"
+    }
+  ],
+  "GravenInnocenceRaceLevelInfoOuterClass.java": [
+    {
+      "const": "LEVEL_ID",
+      "java": 15,
+      "proto": 5,
+      "field": "level_id"
+    },
+    {
+      "const": "MAX_SCORE",
+      "java": 8,
+      "proto": 14,
+      "field": "max_score"
+    },
+    {
+      "const": "IS_OPEN",
+      "java": 6,
+      "proto": 10,
+      "field": "is_open"
+    }
+  ],
+  "GroupUnloadNotifyOuterClass.java": [
+    {
+      "const": "GROUP_LIST",
+      "java": 9,
+      "proto": 13,
+      "field": "group_list"
+    }
+  ],
+  "H5ActivityIdsNotifyOuterClass.java": [
+    {
+      "const": "CLIENT_RED_DOT_TIMESTAMP",
+      "java": 14,
+      "proto": 11,
+      "field": "client_red_dot_timestamp"
+    }
+  ],
+  "HachiStageInfoOuterClass.java": [
+    {
+      "const": "OPEN_TIME",
+      "java": 9,
+      "proto": 1,
+      "field": "open_time"
+    },
+    {
+      "const": "STAGE_ID",
+      "java": 3,
+      "proto": 9,
+      "field": "stage_id"
+    },
+    {
+      "const": "IS_FINISHED",
+      "java": 14,
+      "proto": 4,
+      "field": "is_finished"
+    }
+  ],
+  "HideAndSeekMapInfoOuterClass.java": [
+    {
+      "const": "ID",
+      "java": 1,
+      "proto": 2,
+      "field": "id"
+    }
+  ],
+  "HitCollisionOuterClass.java": [
+    {
+      "const": "HIT_DIR",
+      "java": 3,
+      "proto": 7,
+      "field": "hit_dir"
+    },
+    {
+      "const": "HIT_POINT",
+      "java": 14,
+      "proto": 9,
+      "field": "hit_point"
+    },
+    {
+      "const": "HIT_COLLIDER_TYPE",
+      "java": 2,
+      "proto": 11,
+      "field": "hit_collider_type"
+    }
+  ],
+  "HitTreeNotifyOuterClass.java": [
+    {
+      "const": "DROP_POS",
+      "java": 8,
+      "proto": 11,
+      "field": "drop_pos"
+    },
+    {
+      "const": "TREE_POS",
+      "java": 12,
+      "proto": 6,
+      "field": "tree_pos"
+    },
+    {
+      "const": "TREE_TYPE",
+      "java": 15,
+      "proto": 4,
+      "field": "tree_type"
+    }
+  ],
+  "HomeAnimalDataOuterClass.java": [
+    {
+      "const": "FURNITURE_ID",
+      "java": 6,
+      "proto": 2,
+      "field": "furniture_id"
+    },
+    {
+      "const": "SPAWN_POS",
+      "java": 4,
+      "proto": 13,
+      "field": "spawn_pos"
+    }
+  ],
+  "HomeAvatarCostumeChangeNotifyOuterClass.java": [
+    {
+      "const": "COSTUME_ID",
+      "java": 7,
+      "proto": 15,
+      "field": "costume_id"
+    }
+  ],
+  "HomeAvatarRewardEventGetReqOuterClass.java": [
+    {
+      "const": "AVATAR_ID",
+      "java": 9,
+      "proto": 5,
+      "field": "avatar_id"
+    }
+  ],
+  "HomeAvatarRewardEventGetRspOuterClass.java": [
+    {
+      "const": "ITEM_LIST",
+      "java": 15,
+      "proto": 7,
+      "field": "item_list"
+    },
+    {
+      "const": "EVENT_ID",
+      "java": 13,
+      "proto": 12,
+      "field": "event_id"
+    }
+  ],
+  "HomeAvatarRewardEventInfoOuterClass.java": [
+    {
+      "const": "GUID",
+      "java": 11,
+      "proto": 2,
+      "field": "guid"
+    },
+    {
+      "const": "EVENT_ID",
+      "java": 8,
+      "proto": 13,
+      "field": "event_id"
+    },
+    {
+      "const": "AVATAR_ID",
+      "java": 5,
+      "proto": 8,
+      "field": "avatar_id"
+    },
+    {
+      "const": "SUITE_ID",
+      "java": 3,
+      "proto": 7,
+      "field": "suite_id"
+    }
+  ],
+  "HomeAvatarRewardEventNotifyOuterClass.java": [
+    {
+      "const": "REWARD_EVENT",
+      "java": 4,
+      "proto": 11,
+      "field": "reward_event"
+    },
+    {
+      "const": "PENDING_LIST",
+      "java": 12,
+      "proto": 10,
+      "field": "pending_list"
+    },
+    {
+      "const": "IS_EVENT_TRIGGER",
+      "java": 7,
+      "proto": 12,
+      "field": "is_event_trigger"
+    }
+  ],
+  "HomeAvatarSummonAllEventNotifyOuterClass.java": [
+    {
+      "const": "SUMMON_EVENT_LIST",
+      "java": 15,
+      "proto": 7,
+      "field": "summon_event_list"
+    }
+  ],
+  "HomeAvatarSummonEventInfoOuterClass.java": [
+    {
+      "const": "GUID",
+      "java": 2,
+      "proto": 9,
+      "field": "guid"
+    },
+    {
+      "const": "EVENT_OVER_TIME",
+      "java": 4,
+      "proto": 5,
+      "field": "event_over_time"
+    },
+    {
+      "const": "EVENT_ID",
+      "java": 6,
+      "proto": 1,
+      "field": "event_id"
+    },
+    {
+      "const": "SUIT_ID",
+      "java": 9,
+      "proto": 3,
+      "field": "suit_id"
+    },
+    {
+      "const": "AVATAR_ID",
+      "java": 14,
+      "proto": 8,
+      "field": "avatar_id"
+    },
+    {
+      "const": "RANDOM_POSITION",
+      "java": 12,
+      "proto": 2,
+      "field": "random_position"
+    }
+  ],
+  "HomeAvatarSummonEventReqOuterClass.java": [
+    {
+      "const": "AVATAR_ID",
+      "java": 4,
+      "proto": 11,
+      "field": "avatar_id"
+    },
+    {
+      "const": "SUIT_ID",
+      "java": 1,
+      "proto": 9,
+      "field": "suit_id"
+    },
+    {
+      "const": "GUID",
+      "java": 5,
+      "proto": 13,
+      "field": "guid"
+    }
+  ],
+  "HomeAvatarSummonFinishReqOuterClass.java": [
+    {
+      "const": "EVENT_ID",
+      "java": 11,
+      "proto": 10,
+      "field": "event_id"
+    }
+  ],
+  "HomeAvatarTalkFinishInfoOuterClass.java": [
+    {
+      "const": "FINISH_TALK_ID_LIST",
+      "java": 4,
+      "proto": 11,
+      "field": "finish_talk_id_list"
+    },
+    {
+      "const": "AVATAR_ID",
+      "java": 8,
+      "proto": 14,
+      "field": "avatar_id"
+    }
+  ],
+  "HomeAvatarTalkReqOuterClass.java": [
+    {
+      "const": "AVATAR_ID",
+      "java": 7,
+      "proto": 11,
+      "field": "avatar_id"
+    },
+    {
+      "const": "TALK_ID",
+      "java": 6,
+      "proto": 15,
+      "field": "talk_id"
+    }
+  ],
+  "HomeAvatarTalkRspOuterClass.java": [
+    {
+      "const": "RETCODE",
+      "java": 15,
+      "proto": 7,
+      "field": "retcode"
+    },
+    {
+      "const": "AVATAR_TALK_INFO",
+      "java": 11,
+      "proto": 10,
+      "field": "avatar_talk_info"
+    }
+  ],
+  "HomeBasicInfoOuterClass.java": [
+    {
+      "const": "CUR_ROOM_SCENE_ID",
+      "java": 13,
+      "proto": 8,
+      "field": "cur_room_scene_id"
+    },
+    {
+      "const": "CUR_MODULE_ID",
+      "java": 8,
+      "proto": 13,
+      "field": "cur_module_id"
+    },
+    {
+      "const": "HOME_OWNER_UID",
+      "java": 14,
+      "proto": 6,
+      "field": "home_owner_uid"
+    }
+  ],
+  "HomeBlockArrangementInfoOuterClass.java": [
+    {
+      "const": "DOT_PATTERN_LIST",
+      "java": 1,
+      "proto": 5,
+      "field": "dot_pattern_list"
+    },
+    {
+      "const": "BLOCK_ID",
+      "java": 8,
+      "proto": 14,
+      "field": "block_id"
+    },
+    {
+      "const": "DEPLOY_ANIMAL_LIST",
+      "java": 15,
+      "proto": 4,
+      "field": "deploy_animal_list"
+    },
+    {
+      "const": "COMFORT_VALUE",
+      "java": 13,
+      "proto": 12,
+      "field": "comfort_value"
+    },
+    {
+      "const": "DEPLOY_NPC_LIST",
+      "java": 9,
+      "proto": 6,
+      "field": "deploy_npc_list"
+    },
+    {
+      "const": "WEEKEND_DJINN_INFO_LIST",
+      "java": 3,
+      "proto": 13,
+      "field": "weekend_djinn_info_list"
+    }
+  ],
+  "HomeBlockDotPatternOuterClass.java": [
+    {
+      "const": "DATA",
+      "java": 8,
+      "proto": 4,
+      "field": "data"
+    },
+    {
+      "const": "WIDTH",
+      "java": 10,
+      "proto": 9,
+      "field": "width"
+    },
+    {
+      "const": "HEIGHT",
+      "java": 1,
+      "proto": 15,
+      "field": "height"
+    }
+  ],
+  "HomeFurnitureCustomSuiteDataOuterClass.java": [
+    {
+      "const": "INCLUDED_FURNITURE_INDEX_LIST",
+      "java": 7,
+      "proto": 12,
+      "field": "included_furniture_index_list"
+    },
+    {
+      "const": "SPAWN_POS",
+      "java": 14,
+      "proto": 11,
+      "field": "spawn_pos"
+    },
+    {
+      "const": "GUID",
+      "java": 10,
+      "proto": 9,
+      "field": "guid"
+    }
+  ],
+  "HomeGetArrangementInfoReqOuterClass.java": [
+    {
+      "const": "SCENE_ID_LIST",
+      "java": 15,
+      "proto": 14,
+      "field": "scene_id_list"
+    }
+  ],
+  "HomeKickPlayerReqOuterClass.java": [
+    {
+      "const": "IS_KICK_ALL",
+      "java": 14,
+      "proto": 9,
+      "field": "is_kick_all"
+    },
+    {
+      "const": "TARGET_UID",
+      "java": 7,
+      "proto": 4,
+      "field": "target_uid"
+    }
+  ],
+  "HomeKickPlayerRspOuterClass.java": [
+    {
+      "const": "IS_KICK_ALL",
+      "java": 10,
+      "proto": 8,
+      "field": "is_kick_all"
+    },
+    {
+      "const": "TARGET_UID",
+      "java": 9,
+      "proto": 5,
+      "field": "target_uid"
+    },
+    {
+      "const": "RETCODE",
+      "java": 8,
+      "proto": 2,
+      "field": "retcode"
+    }
+  ],
+  "HomeLimitedShopGoodsOuterClass.java": [
+    {
+      "const": "GOODS_ID",
+      "java": 9,
+      "proto": 7,
+      "field": "goods_id"
+    }
+  ],
+  "HomeLimitedShopInfoOuterClass.java": [
+    {
+      "const": "DJINN_ROT",
+      "java": 7,
+      "proto": 15,
+      "field": "djinn_rot"
+    },
+    {
+      "const": "DJINN_POS",
+      "java": 8,
+      "proto": 6,
+      "field": "djinn_pos"
+    }
+  ],
+  "HomeMarkPointSceneDataOuterClass.java": [
+    {
+      "const": "SAFE_POINT_POS",
+      "java": 8,
+      "proto": 14,
+      "field": "safe_point_pos"
+    },
+    {
+      "const": "TEAPOT_SPIRIT_POS",
+      "java": 3,
+      "proto": 5,
+      "field": "teapot_spirit_pos"
+    }
+  ],
+  "HomeModuleComfortInfoOuterClass.java": [
+    {
+      "const": "ROOM_SCENE_COMFORT_VALUE",
+      "java": 2,
+      "proto": 3,
+      "field": "room_scene_comfort_value"
+    },
+    {
+      "const": "WORLD_SCENE_BLOCK_COMFORT_VALUE_LIST",
+      "java": 10,
+      "proto": 4,
+      "field": "world_scene_block_comfort_value_list"
+    },
+    {
+      "const": "MODULE_ID",
+      "java": 3,
+      "proto": 9,
+      "field": "module_id"
+    }
+  ],
+  "HomeNpcDataOuterClass.java": [
+    {
+      "const": "AVATAR_ID",
+      "java": 10,
+      "proto": 3,
+      "field": "avatar_id"
+    },
+    {
+      "const": "SPAWN_POS",
+      "java": 2,
+      "proto": 9,
+      "field": "spawn_pos"
+    },
+    {
+      "const": "COSTUME_ID",
+      "java": 1,
+      "proto": 12,
+      "field": "costume_id"
+    }
+  ],
+  "HomeResourceOuterClass.java": [
+    {
+      "const": "STORE_LIMIT",
+      "java": 1,
+      "proto": 8,
+      "field": "store_limit"
+    },
+    {
+      "const": "NEXT_REFRESH_TIME",
+      "java": 5,
+      "proto": 1,
+      "field": "next_refresh_time"
+    },
+    {
+      "const": "STORE_VALUE",
+      "java": 3,
+      "proto": 10,
+      "field": "store_value"
+    }
+  ],
+  "HomeResourceTakeFetterExpRspOuterClass.java": [
+    {
+      "const": "RETCODE",
+      "java": 10,
+      "proto": 11,
+      "field": "retcode"
+    },
+    {
+      "const": "FETTER_EXP",
+      "java": 9,
+      "proto": 7,
+      "field": "fetter_exp"
+    }
+  ],
+  "HomeResourceTakeHomeCoinRspOuterClass.java": [
+    {
+      "const": "HOME_COIN",
+      "java": 8,
+      "proto": 12,
+      "field": "home_coin"
+    },
+    {
+      "const": "RETCODE",
+      "java": 15,
+      "proto": 6,
+      "field": "retcode"
+    }
+  ],
+  "HomeSaveArrangementNoChangeReqOuterClass.java": [
+    {
+      "const": "SCENE_ID",
+      "java": 1,
+      "proto": 4,
+      "field": "scene_id"
+    }
+  ],
+  "HomeSceneArrangementInfoOuterClass.java": [
+    {
+      "const": "BGM_ID",
+      "java": 3,
+      "proto": 13,
+      "field": "bgm_id"
+    },
+    {
+      "const": "COMFORT_VALUE",
+      "java": 5,
+      "proto": 15,
+      "field": "comfort_value"
+    },
+    {
+      "const": "TMP_VERSION",
+      "java": 13,
+      "proto": 6,
+      "field": "tmp_version"
+    },
+    {
+      "const": "DJINN_POS",
+      "java": 4,
+      "proto": 11,
+      "field": "djinn_pos"
+    },
+    {
+      "const": "BORN_POS",
+      "java": 10,
+      "proto": 1,
+      "field": "born_pos"
+    }
+  ],
+  "HuntingOfferDataOuterClass.java": [
+    {
+      "const": "HUNTING_PAIR",
+      "java": 7,
+      "proto": 14,
+      "field": "hunting_pair"
+    },
+    {
+      "const": "CITY_ID",
+      "java": 15,
+      "proto": 4,
+      "field": "city_id"
+    }
+  ],
+  "InBattleMechanicusCardInfoOuterClass.java": [
+    {
+      "const": "COST_POINTS",
+      "java": 10,
+      "proto": 8,
+      "field": "cost_points"
+    },
+    {
+      "const": "CARD_ID",
+      "java": 4,
+      "proto": 6,
+      "field": "card_id"
+    },
+    {
+      "const": "CHALLENGE_STATE",
+      "java": 3,
+      "proto": 11,
+      "field": "challenge_state"
+    }
+  ],
+  "InferencePageInfoOuterClass.java": [
+    {
+      "const": "UNLOCK_WORD_LIST",
+      "java": 7,
+      "proto": 2,
+      "field": "unlock_word_list"
+    },
+    {
+      "const": "PAGE_ID",
+      "java": 13,
+      "proto": 8,
+      "field": "page_id"
+    }
+  ],
+  "InfernceWordInfoOuterClass.java": [
+    {
+      "const": "UNLOCK_BY_WORD_ID",
+      "java": 13,
+      "proto": 2,
+      "field": "unlock_by_word_id"
+    },
+    {
+      "const": "WORD_ID",
+      "java": 9,
+      "proto": 3,
+      "field": "word_id"
+    }
+  ],
+  "InstableSprayAvatarInfoOuterClass.java": [
+    {
+      "const": "AVATAR_ID",
+      "java": 12,
+      "proto": 4,
+      "field": "avatar_id"
+    }
+  ],
+  "InstableSprayDungeonSettleInfoOuterClass.java": [
+    {
+      "const": "IS_NEW_RECORD",
+      "java": 15,
+      "proto": 10,
+      "field": "is_new_record"
+    },
+    {
+      "const": "DIFFICULTY",
+      "java": 8,
+      "proto": 4,
+      "field": "difficulty"
+    },
+    {
+      "const": "STAGE_ID",
+      "java": 5,
+      "proto": 12,
+      "field": "stage_id"
+    },
+    {
+      "const": "ROUND",
+      "java": 13,
+      "proto": 7,
+      "field": "round"
+    },
+    {
+      "const": "LEVEL_ID",
+      "java": 4,
+      "proto": 11,
+      "field": "level_id"
+    },
+    {
+      "const": "SCORE_LIST",
+      "java": 7,
+      "proto": 5,
+      "field": "score_list"
+    }
+  ],
+  "InstableSprayStageInfoOuterClass.java": [
+    {
+      "const": "MAX_SCORE",
+      "java": 15,
+      "proto": 9,
+      "field": "max_score"
+    },
+    {
+      "const": "TEAM_INFO_LIST",
+      "java": 10,
+      "proto": 11,
+      "field": "team_info_list"
+    },
+    {
+      "const": "IS_FINISHED",
+      "java": 6,
+      "proto": 2,
+      "field": "is_finished"
+    },
+    {
+      "const": "STAGE_ID",
+      "java": 3,
+      "proto": 12,
+      "field": "stage_id"
+    }
+  ],
+  "InstableSprayTeamInfoOuterClass.java": [
+    {
+      "const": "AVATAR_INFO_LIST",
+      "java": 3,
+      "proto": 1,
+      "field": "avatar_info_list"
+    }
+  ],
+  "InvestigationMonsterOuterClass.java": [
+    {
+      "const": "CITY_ID",
+      "java": 1,
+      "proto": 14,
+      "field": "city_id"
+    },
+    {
+      "const": "LOCK_STATE",
+      "java": 4,
+      "proto": 10,
+      "field": "lock_state"
+    },
+    {
+      "const": "ID",
+      "java": 6,
+      "proto": 15,
+      "field": "id"
+    }
+  ],
+  "IrodoriMasterLevelDetailInfoOuterClass.java": [
+    {
+      "const": "MIN_FINISH_TIME",
+      "java": 15,
+      "proto": 3,
+      "field": "min_finish_time"
+    },
+    {
+      "const": "IS_FINISH",
+      "java": 12,
+      "proto": 2,
+      "field": "is_finish"
+    },
+    {
+      "const": "DIFFCULTY",
+      "java": 6,
+      "proto": 10,
+      "field": "diffculty"
+    },
+    {
+      "const": "IS_HAVE_TRY",
+      "java": 8,
+      "proto": 15,
+      "field": "is_have_try"
+    }
+  ],
+  "IrodoriMasterLevelInfoOuterClass.java": [
+    {
+      "const": "LEVEL_ID",
+      "java": 10,
+      "proto": 6,
+      "field": "level_id"
+    },
+    {
+      "const": "DETAIL_INFO",
+      "java": 1,
+      "proto": 8,
+      "field": "detail_info"
+    }
+  ],
+  "IrodoriPoetryDataOuterClass.java": [
+    {
+      "const": "THEME_DATA_LIST",
+      "java": 8,
+      "proto": 11,
+      "field": "theme_data_list"
+    },
+    {
+      "const": "CUR_THEME_ID",
+      "java": 2,
+      "proto": 6,
+      "field": "cur_theme_id"
+    }
+  ],
+  "IslandPartyStageDataOuterClass.java": [
+    {
+      "const": "STAGE_ID",
+      "java": 1,
+      "proto": 15,
+      "field": "stage_id"
+    },
+    {
+      "const": "IS_OPEN",
+      "java": 11,
+      "proto": 6,
+      "field": "is_open"
+    },
+    {
+      "const": "BEST_SCORE",
+      "java": 5,
+      "proto": 9,
+      "field": "best_score"
+    }
+  ],
+  "JigsawPictureDataOuterClass.java": [
+    {
+      "const": "IS_FINISHED",
+      "java": 7,
+      "proto": 4,
+      "field": "is_finished"
+    },
+    {
+      "const": "IS_OPEN",
+      "java": 2,
+      "proto": 11,
+      "field": "is_open"
+    }
+  ],
+  "LanternProjectionInfoOuterClass.java": [
+    {
+      "const": "LEVEL_LIST",
+      "java": 12,
+      "proto": 8,
+      "field": "level_list"
+    }
+  ],
+  "LanternProjectionLevelInfoOuterClass.java": [
+    {
+      "const": "IS_FINISHED",
+      "java": 14,
+      "proto": 10,
+      "field": "is_finished"
+    },
+    {
+      "const": "MIN_FINISH_TIME",
+      "java": 6,
+      "proto": 15,
+      "field": "min_finish_time"
+    }
+  ],
+  "LanternRiteFireworksChallengeInfoOuterClass.java": [
+    {
+      "const": "IS_FULL_SCORE",
+      "java": 13,
+      "proto": 15,
+      "field": "is_full_score"
+    },
+    {
+      "const": "CHALLENGE_ID",
+      "java": 12,
+      "proto": 8,
+      "field": "challenge_id"
+    },
+    {
+      "const": "BEST_SCORE",
+      "java": 1,
+      "proto": 13,
+      "field": "best_score"
+    }
+  ],
+  "LanternRiteFireworksInfoOuterClass.java": [
+    {
+      "const": "STAGE_INFO_LIST",
+      "java": 4,
+      "proto": 6,
+      "field": "stage_info_list"
+    }
+  ],
+  "LanternRiteFireworksStageInfoOuterClass.java": [
+    {
+      "const": "IS_OPEN",
+      "java": 6,
+      "proto": 10,
+      "field": "is_open"
+    },
+    {
+      "const": "STAGE_ID",
+      "java": 10,
+      "proto": 6,
+      "field": "stage_id"
+    },
+    {
+      "const": "CHALLENGE_INFO_LIST",
+      "java": 8,
+      "proto": 14,
+      "field": "challenge_info_list"
+    }
+  ],
+  "LaunchFireworksReqOuterClass.java": [
+    {
+      "const": "SCHEME_DATA",
+      "java": 2,
+      "proto": 4,
+      "field": "scheme_data"
+    }
+  ],
+  "LevelupCityReqOuterClass.java": [
+    {
+      "const": "SCENE_ID",
+      "java": 11,
+      "proto": 4,
+      "field": "scene_id"
+    },
+    {
+      "const": "AREA_ID",
+      "java": 3,
+      "proto": 10,
+      "field": "area_id"
+    },
+    {
+      "const": "ITEM_NUM",
+      "java": 1,
+      "proto": 7,
+      "field": "item_num"
+    }
+  ],
+  "LockedPersonallineDataOuterClass.java": [
+    {
+      "const": "CHAPTER_ID",
+      "java": 7,
+      "proto": 15,
+      "field": "chapter_id"
+    },
+    {
+      "const": "QUEST_ID",
+      "java": 7,
+      "proto": 10,
+      "field": "quest_id"
+    },
+    {
+      "const": "LEVEL",
+      "java": 13,
+      "proto": 8,
+      "field": "level"
+    },
+    {
+      "const": "QUEST_PARAM",
+      "java": 12,
+      "proto": 7,
+      "field": "quest_param"
+    }
+  ],
+  "LuminanceStoneChallengeActivityDetailInfoOuterClass.java": [
+    {
+      "const": "IS_CONTENT_CLOSED",
+      "java": 9,
+      "proto": 3,
+      "field": "is_content_closed"
+    }
+  ],
+  "LunaRiteAreaInfoOuterClass.java": [
+    {
+      "const": "SACRIFICE_REWARD_LIST",
+      "java": 9,
+      "proto": 15,
+      "field": "sacrifice_reward_list"
+    },
+    {
+      "const": "SACRIFICE_LIST",
+      "java": 6,
+      "proto": 4,
+      "field": "sacrifice_list"
+    },
+    {
+      "const": "AREA_ID",
+      "java": 4,
+      "proto": 8,
+      "field": "area_id"
+    },
+    {
+      "const": "CHALLENGE_INDEX",
+      "java": 15,
+      "proto": 14,
+      "field": "challenge_index"
+    },
+    {
+      "const": "HINT_STATUS",
+      "java": 3,
+      "proto": 1,
+      "field": "hint_status"
+    }
+  ],
+  "LunaRiteHintPointOuterClass.java": [
+    {
+      "const": "AREA_ID",
+      "java": 11,
+      "proto": 1,
+      "field": "area_id"
+    },
+    {
+      "const": "POS",
+      "java": 2,
+      "proto": 4,
+      "field": "pos"
+    },
+    {
+      "const": "INDEX",
+      "java": 10,
+      "proto": 13,
+      "field": "index"
+    },
+    {
+      "const": "TYPE",
+      "java": 9,
+      "proto": 5,
+      "field": "type"
+    }
+  ],
+  "MailChangeNotifyOuterClass.java": [
+    {
+      "const": "MAIL_LIST",
+      "java": 6,
+      "proto": 2,
+      "field": "mail_list"
+    }
+  ],
+  "MainCoopOuterClass.java": [
+    {
+      "const": "SELF_CONFIDENCE",
+      "java": 5,
+      "proto": 1,
+      "field": "self_confidence"
+    },
+    {
+      "const": "STATUS",
+      "java": 1,
+      "proto": 14,
+      "field": "status"
+    },
+    {
+      "const": "SAVE_POINT_ID_LIST",
+      "java": 9,
+      "proto": 10,
+      "field": "save_point_id_list"
+    },
+    {
+      "const": "ID",
+      "java": 6,
+      "proto": 13,
+      "field": "id"
+    }
+  ],
+  "MapAreaChangeNotifyOuterClass.java": [
+    {
+      "const": "MAP_AREA_INFO_LIST",
+      "java": 6,
+      "proto": 1,
+      "field": "map_area_info_list"
+    }
+  ],
+  "MassiveEntityElementOpBatchNotifyOuterClass.java": [
+    {
+      "const": "ATTACKER_ID",
+      "java": 7,
+      "proto": 13,
+      "field": "attacker_id"
+    },
+    {
+      "const": "ENTITY_TYPE",
+      "java": 10,
+      "proto": 1,
+      "field": "entity_type"
+    },
+    {
+      "const": "SHAPE_SPHERE",
+      "java": 4,
+      "proto": 7,
+      "field": "shape_sphere"
+    }
+  ],
+  "MaterialDeleteReturnNotifyOuterClass.java": [
+    {
+      "const": "TYPE",
+      "java": 15,
+      "proto": 14,
+      "field": "type"
+    }
+  ],
+  "McoinExchangeHcoinReqOuterClass.java": [
+    {
+      "const": "MCOIN_COST",
+      "java": 13,
+      "proto": 5,
+      "field": "mcoin_cost"
+    },
+    {
+      "const": "HCOIN",
+      "java": 8,
+      "proto": 10,
+      "field": "hcoin"
+    }
+  ],
+  "McoinExchangeHcoinRspOuterClass.java": [
+    {
+      "const": "HCOIN",
+      "java": 11,
+      "proto": 10,
+      "field": "hcoin"
+    },
+    {
+      "const": "RETCODE",
+      "java": 5,
+      "proto": 4,
+      "field": "retcode"
+    },
+    {
+      "const": "MCOIN_COST",
+      "java": 1,
+      "proto": 7,
+      "field": "mcoin_cost"
+    }
+  ],
+  "MichiaeMatsuriActivityDetailInfoOuterClass.java": [
+    {
+      "const": "STAGE_LIST",
+      "java": 4,
+      "proto": 7,
+      "field": "stage_list"
+    }
+  ],
+  "MichiaeMatsuriChallengePositionInfoOuterClass.java": [
+    {
+      "const": "GADGET_ID",
+      "java": 14,
+      "proto": 1,
+      "field": "gadget_id"
+    },
+    {
+      "const": "POS",
+      "java": 11,
+      "proto": 12,
+      "field": "pos"
+    },
+    {
+      "const": "GROUP_ID",
+      "java": 13,
+      "proto": 3,
+      "field": "group_id"
+    }
+  ],
+  "MichiaeMatsuriChestPositionInfoOuterClass.java": [
+    {
+      "const": "GROUP_ID",
+      "java": 8,
+      "proto": 7,
+      "field": "group_id"
+    },
+    {
+      "const": "POS",
+      "java": 12,
+      "proto": 13,
+      "field": "pos"
+    },
+    {
+      "const": "CONFIG_ID",
+      "java": 11,
+      "proto": 6,
+      "field": "config_id"
+    }
+  ],
+  "MichiaeMatsuriStageOuterClass.java": [
+    {
+      "const": "STAGE_ID",
+      "java": 6,
+      "proto": 10,
+      "field": "stage_id"
+    },
+    {
+      "const": "IS_OPEN",
+      "java": 10,
+      "proto": 6,
+      "field": "is_open"
+    },
+    {
+      "const": "OPEN_TIME",
+      "java": 8,
+      "proto": 9,
+      "field": "open_time"
+    }
+  ],
+  "MiracleRingDeliverItemRspOuterClass.java": [
+    {
+      "const": "GADGET_ENTITY_ID",
+      "java": 2,
+      "proto": 12,
+      "field": "gadget_entity_id"
+    },
+    {
+      "const": "GADGET_ID",
+      "java": 10,
+      "proto": 1,
+      "field": "gadget_id"
+    },
+    {
+      "const": "OP_TYPE",
+      "java": 3,
+      "proto": 9,
+      "field": "op_type"
+    },
+    {
+      "const": "INTERACT_TYPE",
+      "java": 1,
+      "proto": 11,
+      "field": "interact_type"
+    },
+    {
+      "const": "RETCODE",
+      "java": 15,
+      "proto": 3,
+      "field": "retcode"
+    }
+  ],
+  "MonsterAlertChangeNotifyOuterClass.java": [
+    {
+      "const": "AVATAR_ENTITY_ID",
+      "java": 14,
+      "proto": 3,
+      "field": "avatar_entity_id"
+    },
+    {
+      "const": "IS_ALERT",
+      "java": 1,
+      "proto": 4,
+      "field": "is_alert"
+    },
+    {
+      "const": "MONSTER_ENTITY_LIST",
+      "java": 12,
+      "proto": 15,
+      "field": "monster_entity_list"
+    }
+  ],
+  "MonsterForceAlertNotifyOuterClass.java": [
+    {
+      "const": "MONSTER_ENTITY_ID",
+      "java": 8,
+      "proto": 11,
+      "field": "monster_entity_id"
+    }
+  ],
+  "MonsterSummonTagNotifyOuterClass.java": [
+    {
+      "const": "MONSTER_ENTITY_ID",
+      "java": 1,
+      "proto": 2,
+      "field": "monster_entity_id"
+    }
+  ],
+  "MoonfinTrialLevelInfoOuterClass.java": [
+    {
+      "const": "BEST_RECORD",
+      "java": 7,
+      "proto": 15,
+      "field": "best_record"
+    },
+    {
+      "const": "OPEN_TIME",
+      "java": 2,
+      "proto": 3,
+      "field": "open_time"
+    }
+  ],
+  "MuqadasPotionLevelDataOuterClass.java": [
+    {
+      "const": "MAX_SCORE",
+      "java": 6,
+      "proto": 3,
+      "field": "max_score"
+    },
+    {
+      "const": "LEVEL_ID",
+      "java": 14,
+      "proto": 5,
+      "field": "level_id"
+    },
+    {
+      "const": "IS_OPEN",
+      "java": 1,
+      "proto": 4,
+      "field": "is_open"
+    }
+  ],
+  "MusicGameRecordOuterClass.java": [
+    {
+      "const": "MAX_COMBO",
+      "java": 9,
+      "proto": 12,
+      "field": "max_combo"
+    }
+  ],
+  "MusicGameSettleRspOuterClass.java": [
+    {
+      "const": "UGC_GUID",
+      "java": 9,
+      "proto": 6,
+      "field": "ugc_guid"
+    },
+    {
+      "const": "RETCODE",
+      "java": 12,
+      "proto": 5,
+      "field": "retcode"
+    },
+    {
+      "const": "MUSIC_BASIC_ID",
+      "java": 7,
+      "proto": 9,
+      "field": "music_basic_id"
+    },
+    {
+      "const": "IS_UNLOCK_NEXT_LEVEL",
+      "java": 3,
+      "proto": 15,
+      "field": "is_unlock_next_level"
+    },
+    {
+      "const": "IS_NEW_RECORD",
+      "java": 6,
+      "proto": 14,
+      "field": "is_new_record"
+    }
+  ],
+  "NormalUidOpNotifyOuterClass.java": [
+    {
+      "const": "PARAM_UID_LIST",
+      "java": 7,
+      "proto": 9,
+      "field": "param_uid_list"
+    },
+    {
+      "const": "PARAM_LIST",
+      "java": 5,
+      "proto": 7,
+      "field": "param_list"
+    },
+    {
+      "const": "PARAM_INDEX",
+      "java": 9,
+      "proto": 4,
+      "field": "param_index"
+    }
+  ],
+  "NpcTalkRspOuterClass.java": [
+    {
+      "const": "RETCODE",
+      "java": 4,
+      "proto": 2,
+      "field": "retcode"
+    },
+    {
+      "const": "CUR_TALK_ID",
+      "java": 8,
+      "proto": 6,
+      "field": "cur_talk_id"
+    },
+    {
+      "const": "NPC_ENTITY_ID",
+      "java": 3,
+      "proto": 9,
+      "field": "npc_entity_id"
+    },
+    {
+      "const": "ENTITY_ID",
+      "java": 2,
+      "proto": 14,
+      "field": "entity_id"
+    }
+  ],
+  "ObstacleInfoOuterClass.java": [
+    {
+      "const": "CENTER",
+      "java": 10,
+      "proto": 4,
+      "field": "center"
+    },
+    {
+      "const": "EXTENTS",
+      "java": 8,
+      "proto": 15,
+      "field": "extents"
+    },
+    {
+      "const": "ROTATION",
+      "java": 12,
+      "proto": 2,
+      "field": "rotation"
+    },
+    {
+      "const": "OBSTACLE_ID",
+      "java": 1,
+      "proto": 11,
+      "field": "obstacle_id"
+    },
+    {
+      "const": "SHAPE",
+      "java": 4,
+      "proto": 7,
+      "field": "shape"
+    }
+  ],
+  "OfficialCustomDungeonOuterClass.java": [
+    {
+      "const": "WIN_TIMES",
+      "java": 6,
+      "proto": 3,
+      "field": "win_times"
+    }
+  ],
+  "OneoffGatherPointDetectorDataOuterClass.java": [
+    {
+      "const": "HINT_RADIUS",
+      "java": 9,
+      "proto": 12,
+      "field": "hint_radius"
+    }
+  ],
+  "OtherPlayerEnterHomeNotifyOuterClass.java": [
+    {
+      "const": "REASON",
+      "java": 14,
+      "proto": 12,
+      "field": "reason"
+    }
+  ],
+  "ParentQuestOuterClass.java": [
+    {
+      "const": "PARENT_QUEST_STATE",
+      "java": 8,
+      "proto": 11,
+      "field": "parent_quest_state"
+    },
+    {
+      "const": "QUEST_VAR_SEQ",
+      "java": 15,
+      "proto": 2,
+      "field": "quest_var_seq"
+    },
+    {
+      "const": "ACCEPT_TIME",
+      "java": 3,
+      "proto": 12,
+      "field": "accept_time"
+    },
+    {
+      "const": "INFERENCE_PAGE_LIST",
+      "java": 9,
+      "proto": 15,
+      "field": "inference_page_list"
+    },
+    {
+      "const": "PARENT_QUEST_ID",
+      "java": 5,
+      "proto": 7,
+      "field": "parent_quest_id"
+    }
+  ],
+  "ParkourLevelInfoOuterClass.java": [
+    {
+      "const": "BEST_RECORD",
+      "java": 13,
+      "proto": 7,
+      "field": "best_record"
+    },
+    {
+      "const": "OPEN_TIME",
+      "java": 14,
+      "proto": 10,
+      "field": "open_time"
+    },
+    {
+      "const": "IS_OPEN",
+      "java": 1,
+      "proto": 14,
+      "field": "is_open"
+    },
+    {
+      "const": "POS",
+      "java": 7,
+      "proto": 15,
+      "field": "pos"
+    }
+  ],
+  "PathfindingEnterSceneReqOuterClass.java": [
+    {
+      "const": "OBSTACLES",
+      "java": 9,
+      "proto": 10,
+      "field": "obstacles"
+    },
+    {
+      "const": "IS_EDITOR",
+      "java": 3,
+      "proto": 14,
+      "field": "is_editor"
+    },
+    {
+      "const": "VERSION",
+      "java": 14,
+      "proto": 5,
+      "field": "version"
+    },
+    {
+      "const": "SCENE_ID",
+      "java": 7,
+      "proto": 9,
+      "field": "scene_id"
+    }
+  ],
+  "PersonalLineAllDataRspOuterClass.java": [
+    {
+      "const": "CUR_FINISHED_DAILY_TASK_COUNT",
+      "java": 11,
+      "proto": 13,
+      "field": "cur_finished_daily_task_count"
+    },
+    {
+      "const": "LEGENDARY_KEY_COUNT",
+      "java": 1,
+      "proto": 12,
+      "field": "legendary_key_count"
+    }
+  ],
+  "PersonalSceneJumpReqOuterClass.java": [
+    {
+      "const": "POINT_ID",
+      "java": 10,
+      "proto": 1,
+      "field": "point_id"
+    }
+  ],
+  "PlantFlowerActivityDetailInfoOuterClass.java": [
+    {
+      "const": "IS_CONTENT_CLOSED",
+      "java": 13,
+      "proto": 14,
+      "field": "is_content_closed"
+    }
+  ],
+  "PlatformChangeRouteNotifyOuterClass.java": [
+    {
+      "const": "PLATFORM",
+      "java": 5,
+      "proto": 15,
+      "field": "platform"
+    },
+    {
+      "const": "ENTITY_ID",
+      "java": 13,
+      "proto": 8,
+      "field": "entity_id"
+    },
+    {
+      "const": "SCENE_TIME",
+      "java": 8,
+      "proto": 2,
+      "field": "scene_time"
+    }
+  ],
+  "PlayerApplyEnterHomeResultNotifyOuterClass.java": [
+    {
+      "const": "IS_AGREED",
+      "java": 1,
+      "proto": 5,
+      "field": "is_agreed"
+    },
+    {
+      "const": "TARGET_NICKNAME",
+      "java": 7,
+      "proto": 10,
+      "field": "target_nickname"
+    },
+    {
+      "const": "TARGET_UID",
+      "java": 11,
+      "proto": 7,
+      "field": "target_uid"
+    },
+    {
+      "const": "REASON",
+      "java": 4,
+      "proto": 15,
+      "field": "reason"
+    }
+  ],
+  "PlayerApplyEnterHomeResultRspOuterClass.java": [
+    {
+      "const": "IS_AGREED",
+      "java": 3,
+      "proto": 2,
+      "field": "is_agreed"
+    },
+    {
+      "const": "RETCODE",
+      "java": 6,
+      "proto": 14,
+      "field": "retcode"
+    },
+    {
+      "const": "PARAM",
+      "java": 8,
+      "proto": 6,
+      "field": "param"
+    },
+    {
+      "const": "APPLY_UID",
+      "java": 1,
+      "proto": 9,
+      "field": "apply_uid"
+    }
+  ],
+  "PlayerApplyEnterMpReqOuterClass.java": [
+    {
+      "const": "TARGET_UID",
+      "java": 3,
+      "proto": 10,
+      "field": "target_uid"
+    }
+  ],
+  "PlayerApplyEnterMpResultNotifyOuterClass.java": [
+    {
+      "const": "TARGET_NICKNAME",
+      "java": 6,
+      "proto": 14,
+      "field": "target_nickname"
+    },
+    {
+      "const": "TARGET_UID",
+      "java": 13,
+      "proto": 2,
+      "field": "target_uid"
+    },
+    {
+      "const": "REASON",
+      "java": 15,
+      "proto": 9,
+      "field": "reason"
+    },
+    {
+      "const": "IS_AGREED",
+      "java": 8,
+      "proto": 3,
+      "field": "is_agreed"
+    }
+  ],
+  "PlayerApplyEnterMpResultReqOuterClass.java": [
+    {
+      "const": "IS_AGREED",
+      "java": 8,
+      "proto": 9,
+      "field": "is_agreed"
+    },
+    {
+      "const": "APPLY_UID",
+      "java": 10,
+      "proto": 12,
+      "field": "apply_uid"
+    }
+  ],
+  "PlayerApplyEnterMpResultRspOuterClass.java": [
+    {
+      "const": "APPLY_UID",
+      "java": 1,
+      "proto": 13,
+      "field": "apply_uid"
+    },
+    {
+      "const": "RETCODE",
+      "java": 4,
+      "proto": 2,
+      "field": "retcode"
+    },
+    {
+      "const": "IS_AGREED",
+      "java": 12,
+      "proto": 15,
+      "field": "is_agreed"
+    }
+  ],
+  "PlayerApplyEnterMpRspOuterClass.java": [
+    {
+      "const": "RETCODE",
+      "java": 13,
+      "proto": 2,
+      "field": "retcode"
+    },
+    {
+      "const": "TARGET_UID",
+      "java": 6,
+      "proto": 4,
+      "field": "target_uid"
+    },
+    {
+      "const": "PARAM",
+      "java": 11,
+      "proto": 10,
+      "field": "param"
+    }
+  ],
+  "PlayerCompoundMaterialReqOuterClass.java": [
+    {
+      "const": "COMPOUND_ID",
+      "java": 2,
+      "proto": 1,
+      "field": "compound_id"
+    },
+    {
+      "const": "COUNT",
+      "java": 11,
+      "proto": 9,
+      "field": "count"
+    }
+  ],
+  "PlayerCompoundMaterialRspOuterClass.java": [
+    {
+      "const": "RETCODE",
+      "java": 13,
+      "proto": 10,
+      "field": "retcode"
+    }
+  ],
+  "PlayerCookArgsReqOuterClass.java": [
+    {
+      "const": "RECIPE_ID",
+      "java": 13,
+      "proto": 8,
+      "field": "recipe_id"
+    },
+    {
+      "const": "ASSIST_AVATAR",
+      "java": 10,
+      "proto": 14,
+      "field": "assist_avatar"
+    }
+  ],
+  "PlayerCookReqOuterClass.java": [
+    {
+      "const": "QTE_QUALITY",
+      "java": 8,
+      "proto": 12,
+      "field": "qte_quality"
+    },
+    {
+      "const": "COOK_COUNT",
+      "java": 13,
+      "proto": 15,
+      "field": "cook_count"
+    },
+    {
+      "const": "RECIPE_ID",
+      "java": 11,
+      "proto": 8,
+      "field": "recipe_id"
+    },
+    {
+      "const": "ASSIST_AVATAR",
+      "java": 5,
+      "proto": 2,
+      "field": "assist_avatar"
+    }
+  ],
+  "PlayerEnterDungeonRspOuterClass.java": [
+    {
+      "const": "POINT_ID",
+      "java": 1,
+      "proto": 3,
+      "field": "point_id"
+    },
+    {
+      "const": "DUNGEON_ID",
+      "java": 10,
+      "proto": 8,
+      "field": "dungeon_id"
+    },
+    {
+      "const": "RETCODE",
+      "java": 2,
+      "proto": 7,
+      "field": "retcode"
+    }
+  ],
+  "PlayerGetForceQuitBanInfoRspOuterClass.java": [
+    {
+      "const": "MATCH_ID",
+      "java": 6,
+      "proto": 14,
+      "field": "match_id"
+    },
+    {
+      "const": "RETCODE",
+      "java": 12,
+      "proto": 13,
+      "field": "retcode"
+    },
+    {
+      "const": "EXPIRE_TIME",
+      "java": 3,
+      "proto": 11,
+      "field": "expire_time"
+    }
+  ],
+  "PlayerLoginReqOuterClass.java": [
+    {
+      "const": "EXTRA_BIN_DATA",
+      "java": 295,
+      "proto": 1222,
+      "field": "extra_bin_data"
+    },
+    {
+      "const": "BIRTHDAY",
+      "java": 1129,
+      "proto": 285,
+      "field": "birthday"
+    },
+    {
+      "const": "PSN_ID",
+      "java": 382,
+      "proto": 316,
+      "field": "psn_id"
+    },
+    {
+      "const": "SECURITY_LIBRARY_MD5",
+      "java": 254,
+      "proto": 156,
+      "field": "security_library_md5"
+    },
+    {
+      "const": "TOKEN",
+      "java": 3,
+      "proto": 11,
+      "field": "token"
+    },
+    {
+      "const": "ACCOUNT_UID",
+      "java": 11,
+      "proto": 14,
+      "field": "account_uid"
+    },
+    {
+      "const": "SECURITY_CMD_REPLY",
+      "java": 771,
+      "proto": 123,
+      "field": "security_cmd_reply"
+    },
+    {
+      "const": "ENVIRONMENT_ERROR_CODE",
+      "java": 1766,
+      "proto": 1872,
+      "field": "environment_error_code"
+    },
+    {
+      "const": "CHANNEL_ID",
+      "java": 1539,
+      "proto": 350,
+      "field": "channel_id"
+    },
+    {
+      "const": "CLIENT_DATA_VERSION",
+      "java": 1729,
+      "proto": 1592,
+      "field": "client_data_version"
+    },
+    {
+      "const": "TAG",
+      "java": 1397,
+      "proto": 393,
+      "field": "tag"
+    },
+    {
+      "const": "PLATFORM_TYPE",
+      "java": 4,
+      "proto": 10,
+      "field": "platform_type"
+    },
+    {
+      "const": "IS_EDITOR",
+      "java": 10,
+      "proto": 7,
+      "field": "is_editor"
+    },
+    {
+      "const": "COUNTRY_CODE",
+      "java": 1160,
+      "proto": 564,
+      "field": "country_code"
+    }
+  ],
+  "PlayerLoginRspOuterClass.java": [
+    {
+      "const": "MSG",
+      "java": 217,
+      "proto": 1128,
+      "field": "msg"
+    },
+    {
+      "const": "BIRTHDAY",
+      "java": 45,
+      "proto": 684,
+      "field": "birthday"
+    },
+    {
+      "const": "CLIENT_SILENCE_VERSION_SUFFIX",
+      "java": 2038,
+      "proto": 1160,
+      "field": "client_silence_version_suffix"
+    },
+    {
+      "const": "COUNTRY_CODE",
+      "java": 1562,
+      "proto": 192,
+      "field": "country_code"
+    },
+    {
+      "const": "GAME_BIZ",
+      "java": 1,
+      "proto": 9,
+      "field": "game_biz"
+    },
+    {
+      "const": "CLIENT_VERSION_SUFFIX",
+      "java": 1956,
+      "proto": 66,
+      "field": "client_version_suffix"
+    },
+    {
+      "const": "CLIENT_SILENCE_DATA_VERSION",
+      "java": 11,
+      "proto": 12,
+      "field": "client_silence_data_version"
+    },
+    {
+      "const": "CLIENT_DATA_VERSION",
+      "java": 2,
+      "proto": 6,
+      "field": "client_data_version"
+    }
+  ],
+  "PlayerPreEnterMpNotifyOuterClass.java": [
+    {
+      "const": "NICKNAME",
+      "java": 10,
+      "proto": 15,
+      "field": "nickname"
+    },
+    {
+      "const": "UID",
+      "java": 14,
+      "proto": 7,
+      "field": "uid"
+    },
+    {
+      "const": "STATE",
+      "java": 15,
+      "proto": 11,
+      "field": "state"
+    }
+  ],
+  "PlayerPropChangeReasonNotifyOuterClass.java": [
+    {
+      "const": "CUR_VALUE",
+      "java": 10,
+      "proto": 6,
+      "field": "cur_value"
+    },
+    {
+      "const": "OLD_VALUE",
+      "java": 12,
+      "proto": 1,
+      "field": "old_value"
+    }
+  ],
+  "PlayerQuitFromHomeNotifyOuterClass.java": [
+    {
+      "const": "REASON",
+      "java": 14,
+      "proto": 5,
+      "field": "reason"
+    }
+  ],
+  "PlayerRoutineDataNotifyOuterClass.java": [
+    {
+      "const": "ROUTINE_INFO_LIST",
+      "java": 12,
+      "proto": 5,
+      "field": "routine_info_list"
+    }
+  ],
+  "PlayerRoutineInfoOuterClass.java": [
+    {
+      "const": "ROUTINE_TYPE",
+      "java": 4,
+      "proto": 5,
+      "field": "routine_type"
+    },
+    {
+      "const": "FINISHED_NUM",
+      "java": 1,
+      "proto": 14,
+      "field": "finished_num"
+    }
+  ],
+  "PlayerRTTInfoOuterClass.java": [
+    {
+      "const": "RTT",
+      "java": 2,
+      "proto": 12,
+      "field": "rtt"
+    },
+    {
+      "const": "UID",
+      "java": 1,
+      "proto": 6,
+      "field": "uid"
+    }
+  ],
+  "PlayerSetPauseRspOuterClass.java": [
+    {
+      "const": "RETCODE",
+      "java": 3,
+      "proto": 15,
+      "field": "retcode"
+    }
+  ],
+  "PlayerWidgetInfoOuterClass.java": [
+    {
+      "const": "SLOT_LIST",
+      "java": 13,
+      "proto": 15,
+      "field": "slot_list"
+    },
+    {
+      "const": "UID",
+      "java": 4,
+      "proto": 14,
+      "field": "uid"
+    }
+  ],
+  "PolygonRegionSizeOuterClass.java": [
+    {
+      "const": "POINT_LIST",
+      "java": 3,
+      "proto": 2,
+      "field": "point_list"
+    },
+    {
+      "const": "HEIGHT",
+      "java": 9,
+      "proto": 12,
+      "field": "height"
+    }
+  ],
+  "PotionActivityDetailInfoOuterClass.java": [
+    {
+      "const": "STAGE_LIST",
+      "java": 15,
+      "proto": 12,
+      "field": "stage_list"
+    }
+  ],
+  "PotionDungeonResultInfoOuterClass.java": [
+    {
+      "const": "MODE_ID",
+      "java": 9,
+      "proto": 12,
+      "field": "mode_id"
+    },
+    {
+      "const": "FINAL_SCORE",
+      "java": 1,
+      "proto": 5,
+      "field": "final_score"
+    },
+    {
+      "const": "DIFFICULTY_LEVEL",
+      "java": 15,
+      "proto": 9,
+      "field": "difficulty_level"
+    },
+    {
+      "const": "LEFT_TIME",
+      "java": 11,
+      "proto": 6,
+      "field": "left_time"
+    }
+  ],
+  "PotionLevelDataOuterClass.java": [
+    {
+      "const": "DIFFICULTY_LEVEL",
+      "java": 13,
+      "proto": 4,
+      "field": "difficulty_level"
+    },
+    {
+      "const": "SCORE",
+      "java": 12,
+      "proto": 13,
+      "field": "score"
+    },
+    {
+      "const": "LEVEL_ID",
+      "java": 15,
+      "proto": 8,
+      "field": "level_id"
+    }
+  ],
+  "PotionStageDataOuterClass.java": [
+    {
+      "const": "LEVEL_LIST",
+      "java": 4,
+      "proto": 9,
+      "field": "level_list"
+    },
+    {
+      "const": "IS_OPEN",
+      "java": 15,
+      "proto": 1,
+      "field": "is_open"
+    },
+    {
+      "const": "STAGE_ID",
+      "java": 5,
+      "proto": 15,
+      "field": "stage_id"
+    }
+  ],
+  "ProudSkillExtraLevelNotifyOuterClass.java": [
+    {
+      "const": "TALENT_INDEX",
+      "java": 9,
+      "proto": 8,
+      "field": "talent_index"
+    },
+    {
+      "const": "EXTRA_LEVEL",
+      "java": 8,
+      "proto": 14,
+      "field": "extra_level"
+    },
+    {
+      "const": "TALENT_TYPE",
+      "java": 2,
+      "proto": 9,
+      "field": "talent_type"
+    }
+  ],
+  "PushTipsDataOuterClass.java": [
+    {
+      "const": "STATE",
+      "java": 2,
+      "proto": 5,
+      "field": "state"
+    },
+    {
+      "const": "PUSH_TIPS_ID",
+      "java": 4,
+      "proto": 12,
+      "field": "push_tips_id"
+    }
+  ],
+  "QueryPathReqOuterClass.java": [
+    {
+      "const": "QUERY_TYPE",
+      "java": 5,
+      "proto": 6,
+      "field": "query_type"
+    }
+  ],
+  "QuestDelNotifyOuterClass.java": [
+    {
+      "const": "QUEST_ID",
+      "java": 9,
+      "proto": 10,
+      "field": "quest_id"
+    }
+  ],
+  "QuestGlobalVarOuterClass.java": [
+    {
+      "const": "VALUE",
+      "java": 14,
+      "proto": 9,
+      "field": "value"
+    },
+    {
+      "const": "KEY",
+      "java": 8,
+      "proto": 14,
+      "field": "key"
+    }
+  ],
+  "QuestProgressUpdateNotifyOuterClass.java": [
+    {
+      "const": "FAIL_PROGRESS_LIST",
+      "java": 7,
+      "proto": 4,
+      "field": "fail_progress_list"
+    },
+    {
+      "const": "FINISH_PROGRESS_LIST",
+      "java": 11,
+      "proto": 5,
+      "field": "finish_progress_list"
+    },
+    {
+      "const": "QUEST_ID",
+      "java": 15,
+      "proto": 10,
+      "field": "quest_id"
+    }
+  ],
+  "QuestTransmitReqOuterClass.java": [
+    {
+      "const": "QUEST_ID",
+      "java": 2,
+      "proto": 10,
+      "field": "quest_id"
+    },
+    {
+      "const": "POINT_ID",
+      "java": 1,
+      "proto": 4,
+      "field": "point_id"
+    }
+  ],
+  "QuestTransmitRspOuterClass.java": [
+    {
+      "const": "RETCODE",
+      "java": 5,
+      "proto": 13,
+      "field": "retcode"
+    },
+    {
+      "const": "POINT_ID",
+      "java": 9,
+      "proto": 1,
+      "field": "point_id"
+    },
+    {
+      "const": "QUEST_ID",
+      "java": 14,
+      "proto": 15,
+      "field": "quest_id"
+    }
+  ],
+  "QuestUpdateQuestVarNotifyOuterClass.java": [
+    {
+      "const": "PARENT_QUEST_ID",
+      "java": 3,
+      "proto": 13,
+      "field": "parent_quest_id"
+    },
+    {
+      "const": "PARENT_QUEST_VAR_SEQ",
+      "java": 9,
+      "proto": 15,
+      "field": "parent_quest_var_seq"
+    }
+  ],
+  "QuestUpdateQuestVarReqOuterClass.java": [
+    {
+      "const": "QUEST_VAR_OP_LIST",
+      "java": 8,
+      "proto": 4,
+      "field": "quest_var_op_list"
+    },
+    {
+      "const": "PARENT_QUEST_VAR_SEQ",
+      "java": 9,
+      "proto": 10,
+      "field": "parent_quest_var_seq"
+    },
+    {
+      "const": "PARENT_QUEST_ID",
+      "java": 11,
+      "proto": 5,
+      "field": "parent_quest_id"
+    },
+    {
+      "const": "QUEST_ID",
+      "java": 7,
+      "proto": 8,
+      "field": "quest_id"
+    }
+  ],
+  "QuestUpdateQuestVarRspOuterClass.java": [
+    {
+      "const": "PARENT_QUEST_VAR_SEQ",
+      "java": 10,
+      "proto": 4,
+      "field": "parent_quest_var_seq"
+    },
+    {
+      "const": "QUEST_ID",
+      "java": 7,
+      "proto": 1,
+      "field": "quest_id"
+    },
+    {
+      "const": "RETCODE",
+      "java": 14,
+      "proto": 3,
+      "field": "retcode"
+    },
+    {
+      "const": "PARENT_QUEST_ID",
+      "java": 11,
+      "proto": 13,
+      "field": "parent_quest_id"
+    }
+  ],
+  "QuestVarOpOuterClass.java": [
+    {
+      "const": "VALUE",
+      "java": 4,
+      "proto": 3,
+      "field": "value"
+    },
+    {
+      "const": "INDEX",
+      "java": 1,
+      "proto": 7,
+      "field": "index"
+    },
+    {
+      "const": "IS_ADD",
+      "java": 11,
+      "proto": 12,
+      "field": "is_add"
+    }
+  ],
+  "QuickUseWidgetRspOuterClass.java": [
+    {
+      "const": "CLIENT_COLLECTOR_DATA",
+      "java": 15,
+      "proto": 9,
+      "field": "client_collector_data"
+    },
+    {
+      "const": "SKY_CRYSTAL_DETECTOR_QUICK_USE_RESULT",
+      "java": 207137,
+      "proto": 8294,
+      "field": "sky_crystal_detector_quick_use_result"
+    }
+  ],
+  "ReadMailNotifyOuterClass.java": [
+    {
+      "const": "MAIL_ID_LIST",
+      "java": 2,
+      "proto": 4,
+      "field": "mail_id_list"
+    }
+  ],
+  "ReceivedTrialAvatarActivityRewardReqOuterClass.java": [
+    {
+      "const": "TRIAL_AVATAR_INDEX_ID",
+      "java": 7,
+      "proto": 3,
+      "field": "trial_avatar_index_id"
+    }
+  ],
+  "ReceivedTrialAvatarActivityRewardRspOuterClass.java": [
+    {
+      "const": "RETCODE",
+      "java": 8,
+      "proto": 3,
+      "field": "retcode"
+    },
+    {
+      "const": "TRIAL_AVATAR_INDEX_ID",
+      "java": 2,
+      "proto": 10,
+      "field": "trial_avatar_index_id"
+    },
+    {
+      "const": "ACTIVITY_ID",
+      "java": 1,
+      "proto": 8,
+      "field": "activity_id"
+    }
+  ],
+  "ReformFireworksReqOuterClass.java": [
+    {
+      "const": "FIREWORKS_REFORM_DATA",
+      "java": 10,
+      "proto": 9,
+      "field": "fireworks_reform_data"
+    }
+  ],
+  "ResinChangeNotifyOuterClass.java": [
+    {
+      "const": "NEXT_ADD_TIMESTAMP",
+      "java": 6,
+      "proto": 2,
+      "field": "next_add_timestamp"
+    },
+    {
+      "const": "CUR_BUY_COUNT",
+      "java": 13,
+      "proto": 12,
+      "field": "cur_buy_count"
+    },
+    {
+      "const": "CUR_VALUE",
+      "java": 4,
+      "proto": 9,
+      "field": "cur_value"
+    }
+  ],
+  "ReunionBriefInfoOuterClass.java": [
+    {
+      "const": "START_TIME",
+      "java": 6,
+      "proto": 8,
+      "field": "start_time"
+    },
+    {
+      "const": "FINISH_TIME",
+      "java": 14,
+      "proto": 6,
+      "field": "finish_time"
+    },
+    {
+      "const": "FIRST_DAY_START_TIME",
+      "java": 15,
+      "proto": 5,
+      "field": "first_day_start_time"
+    }
+  ],
+  "RockBoardExploreStageDataOuterClass.java": [
+    {
+      "const": "IS_OPEN",
+      "java": 5,
+      "proto": 1,
+      "field": "is_open"
+    },
+    {
+      "const": "OPEN_TIME",
+      "java": 6,
+      "proto": 12,
+      "field": "open_time"
+    },
+    {
+      "const": "STAGE_ID",
+      "java": 8,
+      "proto": 4,
+      "field": "stage_id"
+    },
+    {
+      "const": "IS_FINISH",
+      "java": 3,
+      "proto": 11,
+      "field": "is_finish"
+    }
+  ],
+  "RogueAvatarInfoOuterClass.java": [
+    {
+      "const": "IS_ALIVE",
+      "java": 10,
+      "proto": 15,
+      "field": "is_alive"
+    },
+    {
+      "const": "IS_ONSTAGE",
+      "java": 13,
+      "proto": 12,
+      "field": "is_onstage"
+    }
+  ],
+  "RogueCellInfoOuterClass.java": [
+    {
+      "const": "CELL_ID",
+      "java": 10,
+      "proto": 1,
+      "field": "cell_id"
+    },
+    {
+      "const": "STATE",
+      "java": 6,
+      "proto": 11,
+      "field": "state"
+    },
+    {
+      "const": "DUNGEON_ID",
+      "java": 3,
+      "proto": 12,
+      "field": "dungeon_id"
+    }
+  ],
+  "RogueDiaryDungeonRecordOuterClass.java": [
+    {
+      "const": "MAX_ROUND",
+      "java": 1,
+      "proto": 13,
+      "field": "max_round"
+    },
+    {
+      "const": "FINISH_TIME",
+      "java": 7,
+      "proto": 2,
+      "field": "finish_time"
+    }
+  ],
+  "RoguelikeDungeonSettleInfoOuterClass.java": [
+    {
+      "const": "CUR_LEVEL",
+      "java": 15,
+      "proto": 2,
+      "field": "cur_level"
+    }
+  ],
+  "RoguelikeShikigamiRecordOuterClass.java": [
+    {
+      "const": "ID",
+      "java": 9,
+      "proto": 3,
+      "field": "id"
+    }
+  ],
+  "RogueStageInfoOuterClass.java": [
+    {
+      "const": "IS_PASSED",
+      "java": 4,
+      "proto": 2,
+      "field": "is_passed"
+    },
+    {
+      "const": "CUR_LEVEL",
+      "java": 12,
+      "proto": 7,
+      "field": "cur_level"
+    }
+  ],
+  "RoutePointChangeInfoOuterClass.java": [
+    {
+      "const": "POINT_INDEX",
+      "java": 10,
+      "proto": 1,
+      "field": "point_index"
+    },
+    {
+      "const": "TARGET_VELOCITY",
+      "java": 5,
+      "proto": 11,
+      "field": "target_velocity"
+    },
+    {
+      "const": "WAIT_TIME",
+      "java": 13,
+      "proto": 5,
+      "field": "wait_time"
+    }
+  ],
+  "SalvageChallengeInfoOuterClass.java": [
+    {
+      "const": "BUNDLE_INFO",
+      "java": 14,
+      "proto": 1,
+      "field": "bundle_info"
+    },
+    {
+      "const": "SCORE_CHALLENGE_INFO",
+      "java": 5,
+      "proto": 2,
+      "field": "score_challenge_info"
+    },
+    {
+      "const": "BOSS_CHALLENGE_ID",
+      "java": 10,
+      "proto": 5,
+      "field": "boss_challenge_id"
+    }
+  ],
+  "SaveUgcReqOuterClass.java": [
+    {
+      "const": "MUSIC_RECORD",
+      "java": 9,
+      "proto": 11,
+      "field": "music_record"
+    },
+    {
+      "const": "MUSIC_BRIEF_INFO",
+      "java": 1606,
+      "proto": 391,
+      "field": "music_brief_info"
+    }
+  ],
+  "SceneAreaUnlockNotifyOuterClass.java": [
+    {
+      "const": "AREA_LIST",
+      "java": 12,
+      "proto": 11,
+      "field": "area_list"
+    },
+    {
+      "const": "SCENE_ID",
+      "java": 10,
+      "proto": 4,
+      "field": "scene_id"
+    }
+  ],
+  "SceneEntityDrownRspOuterClass.java": [
+    {
+      "const": "ENTITY_ID",
+      "java": 15,
+      "proto": 10,
+      "field": "entity_id"
+    },
+    {
+      "const": "RETCODE",
+      "java": 6,
+      "proto": 14,
+      "field": "retcode"
+    }
+  ],
+  "ScenePlayerSoundNotifyOuterClass.java": [
+    {
+      "const": "PLAY_POS",
+      "java": 15,
+      "proto": 6,
+      "field": "play_pos"
+    },
+    {
+      "const": "PLAY_TYPE",
+      "java": 11,
+      "proto": 13,
+      "field": "play_type"
+    }
+  ],
+  "ScenePointUnlockNotifyOuterClass.java": [
+    {
+      "const": "UNHIDE_POINT_LIST",
+      "java": 12,
+      "proto": 14,
+      "field": "unhide_point_list"
+    },
+    {
+      "const": "LOCKED_POINT_LIST",
+      "java": 1,
+      "proto": 11,
+      "field": "locked_point_list"
+    },
+    {
+      "const": "POINT_LIST",
+      "java": 10,
+      "proto": 2,
+      "field": "point_list"
+    }
+  ],
+  "SceneRouteChangeInfoOuterClass.java": [
+    {
+      "const": "ROUTE_ID",
+      "java": 6,
+      "proto": 11,
+      "field": "route_id"
+    },
+    {
+      "const": "IS_FORWARD",
+      "java": 9,
+      "proto": 7,
+      "field": "is_forward"
+    },
+    {
+      "const": "TYPE",
+      "java": 13,
+      "proto": 8,
+      "field": "type"
+    }
+  ],
+  "SceneRouteChangeNotifyOuterClass.java": [
+    {
+      "const": "SCENE_ID",
+      "java": 4,
+      "proto": 6,
+      "field": "scene_id"
+    }
+  ],
+  "SceneWeatherForcastReqOuterClass.java": [
+    {
+      "const": "WEATHER_AREA_ID",
+      "java": 2,
+      "proto": 7,
+      "field": "weather_area_id"
+    }
+  ],
+  "SeaLampActivityDetailInfoOuterClass.java": [
+    {
+      "const": "PROGRESS",
+      "java": 13,
+      "proto": 12,
+      "field": "progress"
+    }
+  ],
+  "SeaLampActivityInfoOuterClass.java": [
+    {
+      "const": "FIRST_DAY_START_TIME",
+      "java": 14,
+      "proto": 12,
+      "field": "first_day_start_time"
+    }
+  ],
+  "SeaLampV3CampInfoOuterClass.java": [
+    {
+      "const": "STAGE_INFO_LIST",
+      "java": 1,
+      "proto": 4,
+      "field": "stage_info_list"
+    }
+  ],
+  "SeaLampV3CampStageInfoOuterClass.java": [
+    {
+      "const": "LEVEL_ID",
+      "java": 5,
+      "proto": 3,
+      "field": "level_id"
+    },
+    {
+      "const": "STAGE_ID",
+      "java": 4,
+      "proto": 6,
+      "field": "stage_id"
+    },
+    {
+      "const": "IS_OPEN",
+      "java": 8,
+      "proto": 2,
+      "field": "is_open"
+    },
+    {
+      "const": "IS_FINISHED",
+      "java": 2,
+      "proto": 7,
+      "field": "is_finished"
+    }
+  ],
+  "SeaLampV3RaceInfoOuterClass.java": [
+    {
+      "const": "LEVEL_INFO_LIST",
+      "java": 12,
+      "proto": 13,
+      "field": "level_info_list"
+    }
+  ],
+  "SeaLampV3RaceLevelInfoOuterClass.java": [
+    {
+      "const": "LEVEL_ID",
+      "java": 7,
+      "proto": 13,
+      "field": "level_id"
+    },
+    {
+      "const": "IS_OPEN",
+      "java": 13,
+      "proto": 1,
+      "field": "is_open"
+    },
+    {
+      "const": "MAX_SCORE",
+      "java": 3,
+      "proto": 14,
+      "field": "max_score"
+    }
+  ],
+  "SeaLampV3ShadowLevelInfoOuterClass.java": [
+    {
+      "const": "IS_OPEN",
+      "java": 2,
+      "proto": 13,
+      "field": "is_open"
+    },
+    {
+      "const": "LEVEL_ID",
+      "java": 10,
+      "proto": 14,
+      "field": "level_id"
+    },
+    {
+      "const": "MIN_FINISH_TIME",
+      "java": 4,
+      "proto": 10,
+      "field": "min_finish_time"
+    }
+  ],
+  "SeaLampV3ShadowStageInfoOuterClass.java": [
+    {
+      "const": "LEVEL_INFO_LIST",
+      "java": 15,
+      "proto": 12,
+      "field": "level_info_list"
+    },
+    {
+      "const": "STAGE_ID",
+      "java": 6,
+      "proto": 15,
+      "field": "stage_id"
+    },
+    {
+      "const": "IS_OPEN",
+      "java": 8,
+      "proto": 3,
+      "field": "is_open"
+    }
+  ],
+  "SelectWorktopOptionRspOuterClass.java": [
+    {
+      "const": "GADGET_ENTITY_ID",
+      "java": 12,
+      "proto": 5,
+      "field": "gadget_entity_id"
+    },
+    {
+      "const": "RETCODE",
+      "java": 2,
+      "proto": 8,
+      "field": "retcode"
+    },
+    {
+      "const": "OPTION_ID",
+      "java": 11,
+      "proto": 4,
+      "field": "option_id"
+    }
+  ],
+  "ServerAnnounceRevokeNotifyOuterClass.java": [
+    {
+      "const": "CONFIG_ID_LIST",
+      "java": 14,
+      "proto": 13,
+      "field": "config_id_list"
+    }
+  ],
+  "ServerCondMeetQuestListUpdateNotifyOuterClass.java": [
+    {
+      "const": "DEL_QUEST_ID_LIST",
+      "java": 15,
+      "proto": 11,
+      "field": "del_quest_id_list"
+    },
+    {
+      "const": "ADD_QUEST_ID_LIST",
+      "java": 1,
+      "proto": 9,
+      "field": "add_quest_id_list"
+    }
+  ],
+  "SetBattlePassViewedReqOuterClass.java": [
+    {
+      "const": "SCHEDULE_ID",
+      "java": 2,
+      "proto": 14,
+      "field": "schedule_id"
+    }
+  ],
+  "SetBattlePassViewedRspOuterClass.java": [
+    {
+      "const": "SCHEDULE_ID",
+      "java": 2,
+      "proto": 13,
+      "field": "schedule_id"
+    },
+    {
+      "const": "RETCODE",
+      "java": 6,
+      "proto": 3,
+      "field": "retcode"
+    }
+  ],
+  "SetChatEmojiCollectionReqOuterClass.java": [
+    {
+      "const": "CHAT_EMOJI_COLLECTION_DATA",
+      "java": 10,
+      "proto": 14,
+      "field": "chat_emoji_collection_data"
+    }
+  ],
+  "SetNameCardReqOuterClass.java": [
+    {
+      "const": "NAME_CARD_ID",
+      "java": 10,
+      "proto": 4,
+      "field": "name_card_id"
+    }
+  ],
+  "SetOpenStateReqOuterClass.java": [
+    {
+      "const": "VALUE",
+      "java": 14,
+      "proto": 5,
+      "field": "value"
+    }
+  ],
+  "SetOpenStateRspOuterClass.java": [
+    {
+      "const": "VALUE",
+      "java": 8,
+      "proto": 13,
+      "field": "value"
+    },
+    {
+      "const": "RETCODE",
+      "java": 14,
+      "proto": 5,
+      "field": "retcode"
+    },
+    {
+      "const": "KEY",
+      "java": 13,
+      "proto": 15,
+      "field": "key"
+    }
+  ],
+  "SetPlayerBirthdayReqOuterClass.java": [
+    {
+      "const": "BIRTHDAY",
+      "java": 11,
+      "proto": 9,
+      "field": "birthday"
+    }
+  ],
+  "SetPlayerBirthdayRspOuterClass.java": [
+    {
+      "const": "BIRTHDAY",
+      "java": 15,
+      "proto": 13,
+      "field": "birthday"
+    },
+    {
+      "const": "RETCODE",
+      "java": 5,
+      "proto": 9,
+      "field": "retcode"
+    }
+  ],
+  "SetPlayerPropRspOuterClass.java": [
+    {
+      "const": "RETCODE",
+      "java": 8,
+      "proto": 2,
+      "field": "retcode"
+    }
+  ],
+  "SetUpLunchBoxWidgetReqOuterClass.java": [
+    {
+      "const": "LUNCH_BOX_DATA",
+      "java": 7,
+      "proto": 14,
+      "field": "lunch_box_data"
+    }
+  ],
+  "SetUpLunchBoxWidgetRspOuterClass.java": [
+    {
+      "const": "RETCODE",
+      "java": 8,
+      "proto": 13,
+      "field": "retcode"
+    },
+    {
+      "const": "LUNCH_BOX_DATA",
+      "java": 6,
+      "proto": 2,
+      "field": "lunch_box_data"
+    }
+  ],
+  "SetWidgetSlotRspOuterClass.java": [
+    {
+      "const": "TAG_LIST",
+      "java": 12,
+      "proto": 15,
+      "field": "tag_list"
+    },
+    {
+      "const": "RETCODE",
+      "java": 13,
+      "proto": 7,
+      "field": "retcode"
+    },
+    {
+      "const": "OP",
+      "java": 8,
+      "proto": 3,
+      "field": "op"
+    },
+    {
+      "const": "MATERIAL_ID",
+      "java": 14,
+      "proto": 11,
+      "field": "material_id"
+    }
+  ],
+  "ShopGoodsOuterClass.java": [
+    {
+      "const": "DISCOUNT_END_TIME",
+      "java": 1141,
+      "proto": 413,
+      "field": "discount_end_time"
+    },
+    {
+      "const": "SECONDARY_SHEET_ID",
+      "java": 192,
+      "proto": 1364,
+      "field": "secondary_sheet_id"
+    },
+    {
+      "const": "SINGLE_LIMIT",
+      "java": 1788,
+      "proto": 175,
+      "field": "single_limit"
+    },
+    {
+      "const": "DISCOUNT_BEGIN_TIME",
+      "java": 1033,
+      "proto": 1884,
+      "field": "discount_begin_time"
+    }
+  ],
+  "ShortAbilityHashPairOuterClass.java": [
+    {
+      "const": "ABILITY_NAME_HASH",
+      "java": 3,
+      "proto": 11,
+      "field": "ability_name_hash"
+    },
+    {
+      "const": "ABILITY_CONFIG_HASH",
+      "java": 6,
+      "proto": 15,
+      "field": "ability_config_hash"
+    }
+  ],
+  "ShowCommonTipsNotifyOuterClass.java": [
+    {
+      "const": "TITLE",
+      "java": 13,
+      "proto": 12,
+      "field": "title"
+    },
+    {
+      "const": "CLOSE_TIME",
+      "java": 1,
+      "proto": 5,
+      "field": "close_time"
+    },
+    {
+      "const": "CONTENT",
+      "java": 7,
+      "proto": 2,
+      "field": "content"
+    }
+  ],
+  "SpiceStageDataOuterClass.java": [
+    {
+      "const": "IS_OPEN",
+      "java": 14,
+      "proto": 9,
+      "field": "is_open"
+    },
+    {
+      "const": "SUCCESS_TIMES",
+      "java": 9,
+      "proto": 7,
+      "field": "success_times"
+    }
+  ],
+  "SummerTimeDetailInfoOuterClass.java": [
+    {
+      "const": "CONTENT_CLOSE_TIME",
+      "java": 9,
+      "proto": 4,
+      "field": "content_close_time"
+    }
+  ],
+  "SummerTimeSprintBoatInfoOuterClass.java": [
+    {
+      "const": "RECORD_LIST",
+      "java": 3,
+      "proto": 2,
+      "field": "record_list"
+    }
+  ],
+  "SummerTimeSprintBoatRecordOuterClass.java": [
+    {
+      "const": "START_TIME",
+      "java": 10,
+      "proto": 2,
+      "field": "start_time"
+    },
+    {
+      "const": "IS_TOUCHED",
+      "java": 15,
+      "proto": 5,
+      "field": "is_touched"
+    },
+    {
+      "const": "WATCHER_ID_LIST",
+      "java": 7,
+      "proto": 4,
+      "field": "watcher_id_list"
+    },
+    {
+      "const": "BEST_SCORE",
+      "java": 3,
+      "proto": 8,
+      "field": "best_score"
+    }
+  ],
+  "SummerTimeStageInfoOuterClass.java": [
+    {
+      "const": "IS_OPEN",
+      "java": 2,
+      "proto": 6,
+      "field": "is_open"
+    },
+    {
+      "const": "OPEN_TIME",
+      "java": 4,
+      "proto": 7,
+      "field": "open_time"
+    },
+    {
+      "const": "STAGE_ID",
+      "java": 3,
+      "proto": 5,
+      "field": "stage_id"
+    }
+  ],
+  "SummerTimeV2BoatStageInfoOuterClass.java": [
+    {
+      "const": "IS_OPEN",
+      "java": 11,
+      "proto": 7,
+      "field": "is_open"
+    },
+    {
+      "const": "STAGE_ID",
+      "java": 9,
+      "proto": 5,
+      "field": "stage_id"
+    },
+    {
+      "const": "BEST_SCORE",
+      "java": 3,
+      "proto": 8,
+      "field": "best_score"
+    },
+    {
+      "const": "OPEN_TIME",
+      "java": 7,
+      "proto": 15,
+      "field": "open_time"
+    }
+  ],
+  "SummerTimeV2DetailInfoOuterClass.java": [
+    {
+      "const": "IS_CONTENT_CLOSED",
+      "java": 6,
+      "proto": 4,
+      "field": "is_content_closed"
+    }
+  ],
+  "SummerTimeV2DungeonSettleInfoOuterClass.java": [
+    {
+      "const": "IS_SUCCESS",
+      "java": 9,
+      "proto": 5,
+      "field": "is_success"
+    }
+  ],
+  "SummerTimeV2DungeonStageInfoOuterClass.java": [
+    {
+      "const": "IS_PREV_DUNGEON_SUCCEED",
+      "java": 12,
+      "proto": 6,
+      "field": "is_prev_dungeon_succeed"
+    },
+    {
+      "const": "IS_OPEN",
+      "java": 1,
+      "proto": 14,
+      "field": "is_open"
+    },
+    {
+      "const": "OPEN_TIME",
+      "java": 13,
+      "proto": 11,
+      "field": "open_time"
+    },
+    {
+      "const": "STAGE_ID",
+      "java": 2,
+      "proto": 1,
+      "field": "stage_id"
+    }
+  ],
+  "SumoAvatarInfoOuterClass.java": [
+    {
+      "const": "IS_TRIAL",
+      "java": 11,
+      "proto": 7,
+      "field": "is_trial"
+    },
+    {
+      "const": "AVATAR_ID",
+      "java": 10,
+      "proto": 13,
+      "field": "avatar_id"
+    }
+  ],
+  "SumoStageDataOuterClass.java": [
+    {
+      "const": "IS_OPEN",
+      "java": 1,
+      "proto": 11,
+      "field": "is_open"
+    },
+    {
+      "const": "OPEN_TIME",
+      "java": 11,
+      "proto": 5,
+      "field": "open_time"
+    },
+    {
+      "const": "MAX_SCORE",
+      "java": 2,
+      "proto": 1,
+      "field": "max_score"
+    },
+    {
+      "const": "TEAM_LIST",
+      "java": 6,
+      "proto": 7,
+      "field": "team_list"
+    }
+  ],
+  "SumoTeamDataOuterClass.java": [
+    {
+      "const": "AVATAR_INFO_LIST",
+      "java": 12,
+      "proto": 14,
+      "field": "avatar_info_list"
+    },
+    {
+      "const": "SKILL_ID_LIST",
+      "java": 8,
+      "proto": 3,
+      "field": "skill_id_list"
+    }
+  ],
+  "TakeAchievementGoalRewardRspOuterClass.java": [
+    {
+      "const": "ID_LIST",
+      "java": 14,
+      "proto": 10,
+      "field": "id_list"
+    },
+    {
+      "const": "RETCODE",
+      "java": 10,
+      "proto": 14,
+      "field": "retcode"
+    },
+    {
+      "const": "ITEM_LIST",
+      "java": 6,
+      "proto": 11,
+      "field": "item_list"
+    }
+  ],
+  "TakeAchievementRewardReqOuterClass.java": [
+    {
+      "const": "ID_LIST",
+      "java": 15,
+      "proto": 8,
+      "field": "id_list"
+    }
+  ],
+  "TakeAchievementRewardRspOuterClass.java": [
+    {
+      "const": "ITEM_LIST",
+      "java": 14,
+      "proto": 5,
+      "field": "item_list"
+    },
+    {
+      "const": "ID_LIST",
+      "java": 13,
+      "proto": 4,
+      "field": "id_list"
+    },
+    {
+      "const": "RETCODE",
+      "java": 2,
+      "proto": 14,
+      "field": "retcode"
+    }
+  ],
+  "TakeBattlePassMissionPointReqOuterClass.java": [
+    {
+      "const": "MISSION_ID_LIST",
+      "java": 5,
+      "proto": 10,
+      "field": "mission_id_list"
+    }
+  ],
+  "TakeFurnitureMakeReqOuterClass.java": [
+    {
+      "const": "INDEX",
+      "java": 1,
+      "proto": 15,
+      "field": "index"
+    },
+    {
+      "const": "IS_FAST_FINISH",
+      "java": 7,
+      "proto": 4,
+      "field": "is_fast_finish"
+    },
+    {
+      "const": "MAKE_ID",
+      "java": 13,
+      "proto": 5,
+      "field": "make_id"
+    }
+  ],
+  "TakeFurnitureMakeRspOuterClass.java": [
+    {
+      "const": "OUTPUT_ITEM_LIST",
+      "java": 1,
+      "proto": 4,
+      "field": "output_item_list"
+    },
+    {
+      "const": "RETURN_ITEM_LIST",
+      "java": 12,
+      "proto": 2,
+      "field": "return_item_list"
+    }
+  ],
+  "TakeMaterialDeleteReturnReqOuterClass.java": [
+    {
+      "const": "TYPE",
+      "java": 11,
+      "proto": 1,
+      "field": "type"
+    }
+  ],
+  "TakePlayerLevelRewardReqOuterClass.java": [
+    {
+      "const": "LEVEL",
+      "java": 13,
+      "proto": 3,
+      "field": "level"
+    }
+  ],
+  "TanukiTravelActivityDetailInfoOuterClass.java": [
+    {
+      "const": "IS_CONTENT_CLOSED",
+      "java": 3,
+      "proto": 4,
+      "field": "is_content_closed"
+    }
+  ],
+  "TanukiTravelLevelDataOuterClass.java": [
+    {
+      "const": "IS_FINISH",
+      "java": 2,
+      "proto": 6,
+      "field": "is_finish"
+    },
+    {
+      "const": "ROUTE_ID",
+      "java": 12,
+      "proto": 7,
+      "field": "route_id"
+    },
+    {
+      "const": "IS_OPEN",
+      "java": 6,
+      "proto": 1,
+      "field": "is_open"
+    }
+  ],
+  "TeamChainSettleInfoOuterClass.java": [
+    {
+      "const": "SCORE_LIST",
+      "java": 3,
+      "proto": 13,
+      "field": "score_list"
+    },
+    {
+      "const": "DIFFICULTY",
+      "java": 15,
+      "proto": 4,
+      "field": "difficulty"
+    },
+    {
+      "const": "TOTAL_SCORE",
+      "java": 6,
+      "proto": 12,
+      "field": "total_score"
+    },
+    {
+      "const": "IS_NEW_RECORD",
+      "java": 9,
+      "proto": 15,
+      "field": "is_new_record"
+    },
+    {
+      "const": "STAGE_ID",
+      "java": 10,
+      "proto": 1,
+      "field": "stage_id"
+    }
+  ],
+  "TeamChainStageDataOuterClass.java": [
+    {
+      "const": "IS_OPEN",
+      "java": 5,
+      "proto": 10,
+      "field": "is_open"
+    },
+    {
+      "const": "STAGE_ID",
+      "java": 9,
+      "proto": 8,
+      "field": "stage_id"
+    },
+    {
+      "const": "BEST_SCORE",
+      "java": 1,
+      "proto": 14,
+      "field": "best_score"
+    }
+  ],
+  "ToTheMoonEnterSceneReqOuterClass.java": [
+    {
+      "const": "SCENE_ID",
+      "java": 7,
+      "proto": 15,
+      "field": "scene_id"
+    },
+    {
+      "const": "VERSION",
+      "java": 9,
+      "proto": 14,
+      "field": "version"
+    }
+  ],
+  "ToTheMoonObstacleInfoOuterClass.java": [
+    {
+      "const": "CENTER",
+      "java": 5,
+      "proto": 8,
+      "field": "center"
+    },
+    {
+      "const": "ROTATION",
+      "java": 9,
+      "proto": 14,
+      "field": "rotation"
+    },
+    {
+      "const": "HALF_EXTENTS",
+      "java": 3,
+      "proto": 9,
+      "field": "half_extents"
+    },
+    {
+      "const": "TYPE",
+      "java": 14,
+      "proto": 6,
+      "field": "type"
+    },
+    {
+      "const": "HANDLE_ID",
+      "java": 11,
+      "proto": 4,
+      "field": "handle_id"
+    }
+  ],
+  "TowerAllDataReqOuterClass.java": [
+    {
+      "const": "IS_INTERACT",
+      "java": 15,
+      "proto": 13,
+      "field": "is_interact"
+    }
+  ],
+  "TowerAllDataRspOuterClass.java": [
+    {
+      "const": "LAST_SCHEDULE_MONTHLY_BRIEF",
+      "java": 320,
+      "proto": 917,
+      "field": "last_schedule_monthly_brief"
+    },
+    {
+      "const": "MONTHLY_BRIEF",
+      "java": 13,
+      "proto": 11,
+      "field": "monthly_brief"
+    },
+    {
+      "const": "NEXT_SCHEDULE_CHANGE_TIME",
+      "java": 8,
+      "proto": 3,
+      "field": "next_schedule_change_time"
+    },
+    {
+      "const": "TOWER_SCHEDULE_ID",
+      "java": 4,
+      "proto": 5,
+      "field": "tower_schedule_id"
+    }
+  ],
+  "TowerCurLevelRecordOuterClass.java": [
+    {
+      "const": "TOWER_TEAM_LIST",
+      "java": 3,
+      "proto": 6,
+      "field": "tower_team_list"
+    },
+    {
+      "const": "IS_EMPTY",
+      "java": 14,
+      "proto": 1,
+      "field": "is_empty"
+    },
+    {
+      "const": "BUFF_ID_LIST",
+      "java": 8,
+      "proto": 3,
+      "field": "buff_id_list"
+    }
+  ],
+  "TowerEnterLevelReqOuterClass.java": [
+    {
+      "const": "ENTER_POINT_ID",
+      "java": 5,
+      "proto": 15,
+      "field": "enter_point_id"
+    }
+  ],
+  "TowerEnterLevelRspOuterClass.java": [
+    {
+      "const": "LEVEL_INDEX",
+      "java": 9,
+      "proto": 4,
+      "field": "level_index"
+    },
+    {
+      "const": "TOWER_BUFF_ID_LIST",
+      "java": 12,
+      "proto": 7,
+      "field": "tower_buff_id_list"
+    },
+    {
+      "const": "RETCODE",
+      "java": 4,
+      "proto": 14,
+      "field": "retcode"
+    },
+    {
+      "const": "FLOOR_ID",
+      "java": 11,
+      "proto": 1,
+      "field": "floor_id"
+    }
+  ],
+  "TowerFloorRecordOuterClass.java": [
+    {
+      "const": "FLOOR_STAR_REWARD_PROGRESS",
+      "java": 6,
+      "proto": 5,
+      "field": "floor_star_reward_progress"
+    },
+    {
+      "const": "FLOOR_ID",
+      "java": 11,
+      "proto": 15,
+      "field": "floor_id"
+    }
+  ],
+  "TowerLevelStarCondNotifyOuterClass.java": [
+    {
+      "const": "FLOOR_ID",
+      "java": 9,
+      "proto": 7,
+      "field": "floor_id"
+    },
+    {
+      "const": "LEVEL_INDEX",
+      "java": 2,
+      "proto": 13,
+      "field": "level_index"
+    },
+    {
+      "const": "COND_DATA_LIST",
+      "java": 10,
+      "proto": 5,
+      "field": "cond_data_list"
+    }
+  ],
+  "TowerMonthlyBriefOuterClass.java": [
+    {
+      "const": "TOWER_SCHEDULE_ID",
+      "java": 15,
+      "proto": 4,
+      "field": "tower_schedule_id"
+    }
+  ],
+  "TowerTeamOuterClass.java": [
+    {
+      "const": "TOWER_TEAM_ID",
+      "java": 5,
+      "proto": 14,
+      "field": "tower_team_id"
+    },
+    {
+      "const": "AVATAR_GUID_LIST",
+      "java": 3,
+      "proto": 1,
+      "field": "avatar_guid_list"
+    }
+  ],
+  "TreasureMapBonusChallengeInfoOuterClass.java": [
+    {
+      "const": "IS_ACTIVE",
+      "java": 6,
+      "proto": 4,
+      "field": "is_active"
+    },
+    {
+      "const": "CONFIG_ID",
+      "java": 5,
+      "proto": 11,
+      "field": "config_id"
+    },
+    {
+      "const": "SOLUTION_ID",
+      "java": 9,
+      "proto": 1,
+      "field": "solution_id"
+    },
+    {
+      "const": "IS_DONE",
+      "java": 10,
+      "proto": 14,
+      "field": "is_done"
+    }
+  ],
+  "TreasureMapRegionInfoOuterClass.java": [
+    {
+      "const": "START_TIME",
+      "java": 6,
+      "proto": 3,
+      "field": "start_time"
+    }
+  ],
+  "TrialAvatarActivityRewardDetailInfoOuterClass.java": [
+    {
+      "const": "TRIAL_AVATAR_INDEX_ID",
+      "java": 4,
+      "proto": 9,
+      "field": "trial_avatar_index_id"
+    },
+    {
+      "const": "REWARD_ID",
+      "java": 3,
+      "proto": 11,
+      "field": "reward_id"
+    },
+    {
+      "const": "PASSED_DUNGEON",
+      "java": 9,
+      "proto": 6,
+      "field": "passed_dungeon"
+    },
+    {
+      "const": "RECEIVED_REWARD",
+      "java": 14,
+      "proto": 4,
+      "field": "received_reward"
+    }
+  ],
+  "TrialAvatarFirstPassDungeonNotifyOuterClass.java": [
+    {
+      "const": "TRIAL_AVATAR_INDEX_ID",
+      "java": 6,
+      "proto": 14,
+      "field": "trial_avatar_index_id"
+    }
+  ],
+  "UgcMusicBriefInfoOuterClass.java": [
+    {
+      "const": "MUSIC_ID",
+      "java": 2,
+      "proto": 11,
+      "field": "music_id"
+    }
+  ],
+  "UgcMusicNoteOuterClass.java": [
+    {
+      "const": "START_TIME",
+      "java": 10,
+      "proto": 14,
+      "field": "start_time"
+    },
+    {
+      "const": "END_TIME",
+      "java": 14,
+      "proto": 8,
+      "field": "end_time"
+    }
+  ],
+  "UgcMusicRecordOuterClass.java": [
+    {
+      "const": "MUSIC_TRACK_LIST",
+      "java": 15,
+      "proto": 11,
+      "field": "music_track_list"
+    },
+    {
+      "const": "MUSIC_ID",
+      "java": 9,
+      "proto": 15,
+      "field": "music_id"
+    }
+  ],
+  "UgcMusicTrackOuterClass.java": [
+    {
+      "const": "MUSIC_NOTE_LIST",
+      "java": 13,
+      "proto": 6,
+      "field": "music_note_list"
+    }
+  ],
+  "UnlockedFurnitureFormulaDataNotifyOuterClass.java": [
+    {
+      "const": "FURNITURE_ID_LIST",
+      "java": 15,
+      "proto": 3,
+      "field": "furniture_id_list"
+    }
+  ],
+  "UnlockedFurnitureSuiteDataNotifyOuterClass.java": [
+    {
+      "const": "FURNITURE_SUITE_ID_LIST",
+      "java": 8,
+      "proto": 14,
+      "field": "furniture_suite_id_list"
+    },
+    {
+      "const": "IS_ALL",
+      "java": 7,
+      "proto": 13,
+      "field": "is_all"
+    }
+  ],
+  "UnlockNameCardNotifyOuterClass.java": [
+    {
+      "const": "NAME_CARD_ID",
+      "java": 7,
+      "proto": 14,
+      "field": "name_card_id"
+    }
+  ],
+  "UnlockTransPointReqOuterClass.java": [
+    {
+      "const": "POINT_ID",
+      "java": 8,
+      "proto": 15,
+      "field": "point_id"
+    },
+    {
+      "const": "SCENE_ID",
+      "java": 3,
+      "proto": 2,
+      "field": "scene_id"
+    }
+  ],
+  "UpdateAbilityCreatedMovingPlatformNotifyOuterClass.java": [
+    {
+      "const": "OP_TYPE",
+      "java": 12,
+      "proto": 1,
+      "field": "op_type"
+    }
+  ],
+  "UpdatePlayerShowAvatarListReqOuterClass.java": [
+    {
+      "const": "SHOW_AVATAR_ID_LIST",
+      "java": 1,
+      "proto": 13,
+      "field": "show_avatar_id_list"
+    },
+    {
+      "const": "IS_SHOW_AVATAR",
+      "java": 4,
+      "proto": 14,
+      "field": "is_show_avatar"
+    }
+  ],
+  "UpdatePlayerShowAvatarListRspOuterClass.java": [
+    {
+      "const": "IS_SHOW_AVATAR",
+      "java": 8,
+      "proto": 6,
+      "field": "is_show_avatar"
+    }
+  ],
+  "UseWidgetCreateGadgetReqOuterClass.java": [
+    {
+      "const": "POS",
+      "java": 13,
+      "proto": 2,
+      "field": "pos"
+    },
+    {
+      "const": "ROT",
+      "java": 3,
+      "proto": 12,
+      "field": "rot"
+    },
+    {
+      "const": "MATERIAL_ID",
+      "java": 11,
+      "proto": 1,
+      "field": "material_id"
+    }
+  ],
+  "VintageActivityDetailInfoOuterClass.java": [
+    {
+      "const": "IS_CONTENT_CLOSED",
+      "java": 10,
+      "proto": 13,
+      "field": "is_content_closed"
+    }
+  ],
+  "VintageBoothUsedItemDataOuterClass.java": [
+    {
+      "const": "IS_OPEN",
+      "java": 15,
+      "proto": 2,
+      "field": "is_open"
+    },
+    {
+      "const": "GADGET_ID",
+      "java": 8,
+      "proto": 3,
+      "field": "gadget_id"
+    }
+  ],
+  "VintageCampChallengeLevelDataOuterClass.java": [
+    {
+      "const": "IS_OPEN",
+      "java": 7,
+      "proto": 13,
+      "field": "is_open"
+    },
+    {
+      "const": "LEVEL_ID",
+      "java": 4,
+      "proto": 8,
+      "field": "level_id"
+    },
+    {
+      "const": "IS_FINISH",
+      "java": 9,
+      "proto": 6,
+      "field": "is_finish"
+    },
+    {
+      "const": "STAGE_ID",
+      "java": 3,
+      "proto": 9,
+      "field": "stage_id"
+    }
+  ],
+  "VintageCampChallengeStageDataOuterClass.java": [
+    {
+      "const": "IS_FINISH",
+      "java": 7,
+      "proto": 10,
+      "field": "is_finish"
+    },
+    {
+      "const": "STAGE_ID",
+      "java": 9,
+      "proto": 7,
+      "field": "stage_id"
+    },
+    {
+      "const": "IS_OPEN",
+      "java": 3,
+      "proto": 12,
+      "field": "is_open"
+    }
+  ],
+  "VintageHuntingStageDataOuterClass.java": [
+    {
+      "const": "STAGE_ID",
+      "java": 2,
+      "proto": 1,
+      "field": "stage_id"
+    },
+    {
+      "const": "IS_FINISH",
+      "java": 4,
+      "proto": 3,
+      "field": "is_finish"
+    },
+    {
+      "const": "OPEN_TIME",
+      "java": 12,
+      "proto": 8,
+      "field": "open_time"
+    },
+    {
+      "const": "IS_OPEN",
+      "java": 8,
+      "proto": 14,
+      "field": "is_open"
+    }
+  ],
+  "VintageMarketInfoOuterClass.java": [
+    {
+      "const": "STORE_ROUND",
+      "java": 1,
+      "proto": 15,
+      "field": "store_round"
+    }
+  ],
+  "VintageMarketStoreInfoOuterClass.java": [
+    {
+      "const": "STORE_ID",
+      "java": 1,
+      "proto": 13,
+      "field": "store_id"
+    },
+    {
+      "const": "SLOT_COUNT",
+      "java": 10,
+      "proto": 2,
+      "field": "slot_count"
+    },
+    {
+      "const": "STRATEGY_LIST",
+      "java": 11,
+      "proto": 10,
+      "field": "strategy_list"
+    }
+  ],
+  "VintageMarketTraderInfoOuterClass.java": [
+    {
+      "const": "AVAILABLE_ITEM_LIST",
+      "java": 10,
+      "proto": 13,
+      "field": "available_item_list"
+    },
+    {
+      "const": "TRADER_ID",
+      "java": 9,
+      "proto": 12,
+      "field": "trader_id"
+    }
+  ],
+  "VintagePresentLevelDataOuterClass.java": [
+    {
+      "const": "PRESENT_ID",
+      "java": 11,
+      "proto": 6,
+      "field": "present_id"
+    },
+    {
+      "const": "STAGE_ID",
+      "java": 4,
+      "proto": 5,
+      "field": "stage_id"
+    },
+    {
+      "const": "IS_FINISH",
+      "java": 3,
+      "proto": 4,
+      "field": "is_finish"
+    },
+    {
+      "const": "IS_OPEN",
+      "java": 6,
+      "proto": 7,
+      "field": "is_open"
+    }
+  ],
+  "VintagePresentStageDataOuterClass.java": [
+    {
+      "const": "IS_FINISH",
+      "java": 2,
+      "proto": 4,
+      "field": "is_finish"
+    },
+    {
+      "const": "OPEN_TIME",
+      "java": 8,
+      "proto": 15,
+      "field": "open_time"
+    }
+  ],
+  "WaterSpiritActivityDetailInfoOuterClass.java": [
+    {
+      "const": "MP_PLAY_ID",
+      "java": 7,
+      "proto": 8,
+      "field": "mp_play_id"
+    }
+  ],
+  "WeatherWizardDataOuterClass.java": [
+    {
+      "const": "SHIELD_VALUE",
+      "java": 6,
+      "proto": 12,
+      "field": "shield_value"
+    }
+  ],
+  "WeekendDjinnInfoOuterClass.java": [
+    {
+      "const": "POS",
+      "java": 4,
+      "proto": 1,
+      "field": "pos"
+    },
+    {
+      "const": "ROT",
+      "java": 1,
+      "proto": 10,
+      "field": "rot"
+    }
+  ],
+  "WidgetCoolDownDataOuterClass.java": [
+    {
+      "const": "ID",
+      "java": 3,
+      "proto": 15,
+      "field": "id"
+    },
+    {
+      "const": "IS_SUCCESS",
+      "java": 10,
+      "proto": 4,
+      "field": "is_success"
+    },
+    {
+      "const": "COOL_DOWN_TIME",
+      "java": 14,
+      "proto": 6,
+      "field": "cool_down_time"
+    }
+  ],
+  "WidgetDoBagReqOuterClass.java": [
+    {
+      "const": "LOCATION_INFO",
+      "java": 2046,
+      "proto": 1067,
+      "field": "location_info"
+    },
+    {
+      "const": "WIDGET_CREATOR_INFO",
+      "java": 1156,
+      "proto": 1863,
+      "field": "widget_creator_info"
+    }
+  ],
+  "WidgetGadgetAllDataNotifyOuterClass.java": [
+    {
+      "const": "WIDGET_GADGET_DATA",
+      "java": 15,
+      "proto": 4,
+      "field": "widget_gadget_data"
+    }
+  ],
+  "WidgetGadgetDataOuterClass.java": [
+    {
+      "const": "GADGET_ENTITY_ID_LIST",
+      "java": 4,
+      "proto": 15,
+      "field": "gadget_entity_id_list"
+    },
+    {
+      "const": "GADGET_ID",
+      "java": 3,
+      "proto": 8,
+      "field": "gadget_id"
+    }
+  ],
+  "WidgetGadgetDestroyNotifyOuterClass.java": [
+    {
+      "const": "ENTITY_ID",
+      "java": 11,
+      "proto": 13,
+      "field": "entity_id"
+    }
+  ],
+  "WidgetSlotChangeNotifyOuterClass.java": [
+    {
+      "const": "SLOT",
+      "java": 1,
+      "proto": 10,
+      "field": "slot"
+    },
+    {
+      "const": "OP",
+      "java": 5,
+      "proto": 4,
+      "field": "op"
+    }
+  ],
+  "WidgetSlotDataOuterClass.java": [
+    {
+      "const": "TAG",
+      "java": 12,
+      "proto": 1,
+      "field": "tag"
+    },
+    {
+      "const": "MATERIAL_ID",
+      "java": 11,
+      "proto": 2,
+      "field": "material_id"
+    },
+    {
+      "const": "CD_OVER_TIME",
+      "java": 9,
+      "proto": 11,
+      "field": "cd_over_time"
+    }
+  ],
+  "WidgetWeatherWizardDataNotifyOuterClass.java": [
+    {
+      "const": "SHIELD_VALUE",
+      "java": 3,
+      "proto": 2,
+      "field": "shield_value"
+    }
+  ],
+  "WindFieldDungeonSettleInfoOuterClass.java": [
+    {
+      "const": "FAIL_REASON",
+      "java": 12,
+      "proto": 7,
+      "field": "fail_reason"
+    }
+  ],
+  "WindFieldStageInfoOuterClass.java": [
+    {
+      "const": "IS_OPEN",
+      "java": 8,
+      "proto": 9,
+      "field": "is_open"
+    },
+    {
+      "const": "STAGE_ID",
+      "java": 2,
+      "proto": 3,
+      "field": "stage_id"
+    },
+    {
+      "const": "OPEN_TIME",
+      "java": 4,
+      "proto": 10,
+      "field": "open_time"
+    }
+  ],
+  "WindSeedClientNotifyOuterClass.java": [
+    {
+      "const": "AREA_NOTIFY",
+      "java": 7,
+      "proto": 6,
+      "field": "area_notify"
+    },
+    {
+      "const": "REFRESH_NOTIFY",
+      "java": 6,
+      "proto": 10,
+      "field": "refresh_notify"
+    },
+    {
+      "const": "ADD_WIND_BULLET_NOTIFY",
+      "java": 12,
+      "proto": 9,
+      "field": "add_wind_bullet_notify"
+    }
+  ],
+  "WinterCampRaceStageInfoOuterClass.java": [
+    {
+      "const": "ID",
+      "java": 5,
+      "proto": 14,
+      "field": "id"
+    }
+  ],
+  "WinterCampStageInfoOuterClass.java": [
+    {
+      "const": "TOTAL_PROGRESS",
+      "java": 6,
+      "proto": 7,
+      "field": "total_progress"
+    },
+    {
+      "const": "ID",
+      "java": 7,
+      "proto": 11,
+      "field": "id"
+    }
+  ],
+  "WorldAllRoutineTypeNotifyOuterClass.java": [
+    {
+      "const": "WORLD_ROUTINE_TYPE_LIST",
+      "java": 1,
+      "proto": 6,
+      "field": "world_routine_type_list"
+    }
+  ],
+  "WorldPlayerDieNotifyOuterClass.java": [
+    {
+      "const": "GADGET_ID",
+      "java": 15,
+      "proto": 12,
+      "field": "gadget_id"
+    },
+    {
+      "const": "MONSTER_ID",
+      "java": 1,
+      "proto": 14,
+      "field": "monster_id"
+    }
+  ],
+  "WorldRoutineChangeNotifyOuterClass.java": [
+    {
+      "const": "ROUTINE_INFO",
+      "java": 4,
+      "proto": 10,
+      "field": "routine_info"
+    },
+    {
+      "const": "ROUTINE_TYPE",
+      "java": 1,
+      "proto": 11,
+      "field": "routine_type"
+    }
+  ],
+  "WorldRoutineInfoOuterClass.java": [
+    {
+      "const": "FINISH_PROGRESS",
+      "java": 2,
+      "proto": 7,
+      "field": "finish_progress"
+    },
+    {
+      "const": "PROGRESS",
+      "java": 4,
+      "proto": 6,
+      "field": "progress"
+    },
+    {
+      "const": "IS_FINISHED",
+      "java": 5,
+      "proto": 3,
+      "field": "is_finished"
+    }
+  ],
+  "WorldRoutineTypeCloseNotifyOuterClass.java": [
+    {
+      "const": "ROUTINE_TYPE",
+      "java": 10,
+      "proto": 13,
+      "field": "routine_type"
+    }
+  ],
+  "WorldRoutineTypeInfoOuterClass.java": [
+    {
+      "const": "WORLD_ROUTINE_INFO_LIST",
+      "java": 5,
+      "proto": 15,
+      "field": "world_routine_info_list"
+    },
+    {
+      "const": "NEXT_REFRESH_TIME",
+      "java": 1,
+      "proto": 4,
+      "field": "next_refresh_time"
+    },
+    {
+      "const": "ROUTINE_TYPE",
+      "java": 8,
+      "proto": 14,
+      "field": "routine_type"
+    }
+  ],
+  "WorldRoutineTypeRefreshNotifyOuterClass.java": [
+    {
+      "const": "WORLD_ROUTINE_TYPE",
+      "java": 4,
+      "proto": 14,
+      "field": "world_routine_type"
+    }
+  ]
+}

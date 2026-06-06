@@ -91,7 +91,16 @@ public final class WeaponUpgradeReqOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 18: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                itemParamList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              itemParamList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.parser(), extensionRegistry));
+              break;
+            }
+            case 40: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 foodWeaponGuidList_ = newLongList();
                 mutable_bitField0_ |= 0x00000001;
@@ -99,7 +108,7 @@ public final class WeaponUpgradeReqOuterClass {
               foodWeaponGuidList_.addLong(input.readUInt64());
               break;
             }
-            case 34: {
+            case 42: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -112,16 +121,7 @@ public final class WeaponUpgradeReqOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 74: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                itemParamList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              itemParamList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.parser(), extensionRegistry));
-              break;
-            }
-            case 96: {
+            case 88: {
 
               targetWeaponGuid_ = input.readUInt64();
               break;
@@ -141,11 +141,11 @@ public final class WeaponUpgradeReqOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          foodWeaponGuidList_.makeImmutable(); // C
-        }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           itemParamList_ = java.util.Collections.unmodifiableList(itemParamList_);
+        }
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          foodWeaponGuidList_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -164,7 +164,7 @@ public final class WeaponUpgradeReqOuterClass {
               emu.grasscutter.net.proto.WeaponUpgradeReqOuterClass.WeaponUpgradeReq.class, emu.grasscutter.net.proto.WeaponUpgradeReqOuterClass.WeaponUpgradeReq.Builder.class);
     }
 
-    public static final int FOOD_WEAPON_GUID_LIST_FIELD_NUMBER = 4;
+    public static final int FOOD_WEAPON_GUID_LIST_FIELD_NUMBER = 5;
     private com.google.protobuf.Internal.LongList foodWeaponGuidList_;
 
     @java.lang.Override
@@ -182,7 +182,7 @@ public final class WeaponUpgradeReqOuterClass {
     }
     private int foodWeaponGuidListMemoizedSerializedSize = -1;
 
-    public static final int ITEM_PARAM_LIST_FIELD_NUMBER = 9;
+    public static final int ITEM_PARAM_LIST_FIELD_NUMBER = 2;
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> itemParamList_;
 
     @java.lang.Override
@@ -212,7 +212,7 @@ public final class WeaponUpgradeReqOuterClass {
       return itemParamList_.get(index);
     }
 
-    public static final int TARGET_WEAPON_GUID_FIELD_NUMBER = 12;
+    public static final int TARGET_WEAPON_GUID_FIELD_NUMBER = 11;
     private long targetWeaponGuid_;
 
     @java.lang.Override
@@ -235,18 +235,18 @@ public final class WeaponUpgradeReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
+      for (int i = 0; i < itemParamList_.size(); i++) {
+        output.writeMessage(2, itemParamList_.get(i));
+      }
       if (getFoodWeaponGuidListList().size() > 0) {
-        output.writeUInt32NoTag(34);
+        output.writeUInt32NoTag(42);
         output.writeUInt32NoTag(foodWeaponGuidListMemoizedSerializedSize);
       }
       for (int i = 0; i < foodWeaponGuidList_.size(); i++) {
         output.writeUInt64NoTag(foodWeaponGuidList_.getLong(i));
       }
-      for (int i = 0; i < itemParamList_.size(); i++) {
-        output.writeMessage(9, itemParamList_.get(i));
-      }
       if (targetWeaponGuid_ != 0L) {
-        output.writeUInt64(12, targetWeaponGuid_);
+        output.writeUInt64(11, targetWeaponGuid_);
       }
       unknownFields.writeTo(output);
     }
@@ -257,6 +257,10 @@ public final class WeaponUpgradeReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      for (int i = 0; i < itemParamList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(2, itemParamList_.get(i));
+      }
       {
         int dataSize = 0;
         for (int i = 0; i < foodWeaponGuidList_.size(); i++) {
@@ -271,13 +275,9 @@ public final class WeaponUpgradeReqOuterClass {
         }
         foodWeaponGuidListMemoizedSerializedSize = dataSize;
       }
-      for (int i = 0; i < itemParamList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, itemParamList_.get(i));
-      }
       if (targetWeaponGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(12, targetWeaponGuid_);
+          .computeUInt64Size(11, targetWeaponGuid_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -973,8 +973,8 @@ public final class WeaponUpgradeReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026WeaponUpgradeReq.proto\032\017ItemParam.prot" +
       "o\"r\n\020WeaponUpgradeReq\022\035\n\025food_weapon_gui" +
-      "d_list\030\004 \003(\004\022#\n\017item_param_list\030\t \003(\0132\n." +
-      "ItemParam\022\032\n\022target_weapon_guid\030\014 \001(\004B\033\n" +
+      "d_list\030\005 \003(\004\022#\n\017item_param_list\030\002 \003(\0132\n." +
+      "ItemParam\022\032\n\022target_weapon_guid\030\013 \001(\004B\033\n" +
       "\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

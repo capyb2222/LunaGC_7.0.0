@@ -85,7 +85,6 @@ public final class GameServerPacketHandler {
             }
             return;
         }
-
     }
 
     private static boolean shouldDump(GameSession session, int opcode) {

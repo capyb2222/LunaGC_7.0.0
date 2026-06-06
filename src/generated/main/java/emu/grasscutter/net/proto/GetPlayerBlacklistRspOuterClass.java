@@ -19,11 +19,7 @@ public final class GetPlayerBlacklistRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>int32 retcode = 12;</code>
+     * <code>int32 retcode = 13;</code>
      * @return The retcode.
      */
     int getRetcode();
@@ -102,11 +98,6 @@ public final class GetPlayerBlacklistRspOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief.parser(), extensionRegistry));
               break;
             }
-            case 96: {
-
-              retcode_ = input.readInt32();
-              break;
-            }
             default: {
               if (!parseUnknownField(
                   input, unknownFields, extensionRegistry, tag)) {
@@ -145,11 +136,7 @@ public final class GetPlayerBlacklistRspOuterClass {
     public static final int RETCODE_FIELD_NUMBER = 10;
     private int retcode_;
     /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>int32 retcode = 12;</code>
+     * <code>int32 retcode = 13;</code>
      * @return The retcode.
      */
     @java.lang.Override
@@ -548,11 +535,7 @@ public final class GetPlayerBlacklistRspOuterClass {
 
       private int retcode_ ;
       /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>int32 retcode = 12;</code>
+       * <code>int32 retcode = 13;</code>
        * @return The retcode.
        */
       @java.lang.Override
@@ -560,11 +543,7 @@ public final class GetPlayerBlacklistRspOuterClass {
         return retcode_;
       }
       /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>int32 retcode = 12;</code>
+       * <code>int32 retcode = 13;</code>
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
@@ -575,11 +554,7 @@ public final class GetPlayerBlacklistRspOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>int32 retcode = 12;</code>
+       * <code>int32 retcode = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
@@ -859,7 +834,7 @@ public final class GetPlayerBlacklistRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033GetPlayerBlacklistRsp.proto\032\021FriendBri" +
       "ef.proto\"I\n\025GetPlayerBlacklistRsp\022\017\n\007ret" +
-      "code\030\014 \001(\005\022\037\n\tblacklist\030\005 \003(\0132\014.FriendBr" +
+      "code\030\r \001(\005\022\037\n\tblacklist\030\016 \003(\0132\014.FriendBr" +
       "iefB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

@@ -248,11 +248,11 @@ public final class ChangeAvatarReqOuterClass {
       if (guid_ != 0L) {
         output.writeUInt64(6, guid_);
       }
+      if (isMove_ != false) {
+        output.writeBool(9, isMove_);
+      }
       if (movePos_ != null) {
         output.writeMessage(14, getMovePos());
-      }
-      if (isMove_ != false) {
-        output.writeBool(15, isMove_);
       }
       if (dBNDIOAOJHP_ != false) {
         output.writeBool(140, dBNDIOAOJHP_);
@@ -278,13 +278,13 @@ public final class ChangeAvatarReqOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt64Size(6, guid_);
       }
+      if (isMove_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(9, isMove_);
+      }
       if (movePos_ != null) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(14, getMovePos());
-      }
-      if (isMove_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, isMove_);
       }
       if (dBNDIOAOJHP_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -926,7 +926,7 @@ public final class ChangeAvatarReqOuterClass {
       "\n\017ChangeAvatarReq\022\031\n\010move_pos\030\016 \001(\0132\007.Ve" +
       "ctor\022\020\n\010skill_id\030\003 \001(\r\022\024\n\013DBNDIOAOJHP\030\214\001" +
       " \001(\010\022\023\n\013IECPBGINIBL\030\004 \001(\010\022\014\n\004guid\030\006 \001(\004\022" +
-      "\017\n\007is_move\030\017 \001(\010B\033\n\031emu.grasscutter.net." +
+      "\017\n\007is_move\030\t \001(\010B\033\n\031emu.grasscutter.net." +
       "protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

@@ -175,11 +175,6 @@ public final class ShopGoodsOuterClass {
               goodsId_ = input.readUInt32();
               break;
             }
-            case 56: {
-
-              disableType_ = input.readUInt32();
-              break;
-            }
             case 66: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 costItemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>();
@@ -203,8 +198,24 @@ public final class ShopGoodsOuterClass {
               break;
             }
             case 80: {
-
-              buyLimit_ = input.readUInt32();
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                preGoodsIdList_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              preGoodsIdList_.addInt(input.readUInt32());
+              break;
+            }
+            case 82: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
+                preGoodsIdList_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                preGoodsIdList_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
               break;
             }
             case 88: {
@@ -217,6 +228,11 @@ public final class ShopGoodsOuterClass {
               endTime_ = input.readUInt32();
               break;
             }
+            case 104: {
+
+              disableType_ = input.readUInt32();
+              break;
+            }
             case 112: {
 
               hcoin_ = input.readUInt32();
@@ -227,6 +243,11 @@ public final class ShopGoodsOuterClass {
               mcoin_ = input.readUInt32();
               break;
             }
+            case 128: {
+
+              buyLimit_ = input.readUInt32();
+              break;
+            }
             case 1536: {
 
               secondarySheetId_ = input.readUInt32();
@@ -235,6 +256,11 @@ public final class ShopGoodsOuterClass {
             case 5416: {
 
               lPOMBLALEPK_ = input.readBool();
+              break;
+            }
+            case 5448: {
+
+              singleLimit_ = input.readUInt32();
               break;
             }
             case 8264: {
@@ -252,35 +278,9 @@ public final class ShopGoodsOuterClass {
               discountId_ = input.readUInt32();
               break;
             }
-            case 14304: {
-
-              singleLimit_ = input.readUInt32();
-              break;
-            }
             case 15544: {
 
               gOOPAGPEGGL_ = input.readBool();
-              break;
-            }
-            case 80984: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                preGoodsIdList_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              preGoodsIdList_.addInt(input.readUInt32());
-              break;
-            }
-            case 80986: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
-                preGoodsIdList_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                preGoodsIdList_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
               break;
             }
             default: {
@@ -584,9 +584,6 @@ public final class ShopGoodsOuterClass {
       if (goodsId_ != 0) {
         output.writeUInt32(1, goodsId_);
       }
-      if (disableType_ != 0) {
-        output.writeUInt32(7, disableType_);
-      }
       for (int i = 0; i < costItemList_.size(); i++) {
         output.writeMessage(12, costItemList_.get(i));
       }
@@ -636,18 +633,8 @@ public final class ShopGoodsOuterClass {
       if (discountId_ != 0) {
         output.writeUInt32(1512, discountId_);
       }
-      if (singleLimit_ != 0) {
-        output.writeUInt32(1788, singleLimit_);
-      }
       if (gOOPAGPEGGL_ != false) {
         output.writeBool(1943, gOOPAGPEGGL_);
-      }
-      if (getPreGoodsIdListList().size() > 0) {
-        output.writeUInt32NoTag(80986);
-        output.writeUInt32NoTag(preGoodsIdListMemoizedSerializedSize);
-      }
-      for (int i = 0; i < preGoodsIdList_.size(); i++) {
-        output.writeUInt32NoTag(preGoodsIdList_.getInt(i));
       }
       unknownFields.writeTo(output);
     }
@@ -682,10 +669,6 @@ public final class ShopGoodsOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(1, goodsId_);
       }
-      if (disableType_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, disableType_);
-      }
       for (int i = 0; i < costItemList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(12, costItemList_.get(i));
@@ -694,9 +677,19 @@ public final class ShopGoodsOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(11, getGoodsItem());
       }
-      if (buyLimit_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, buyLimit_);
+      {
+        int dataSize = 0;
+        for (int i = 0; i < preGoodsIdList_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(preGoodsIdList_.getInt(i));
+        }
+        size += dataSize;
+        if (!getPreGoodsIdListList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        preGoodsIdListMemoizedSerializedSize = dataSize;
       }
       if (minLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -746,27 +739,9 @@ public final class ShopGoodsOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(1512, discountId_);
       }
-      if (singleLimit_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1788, singleLimit_);
-      }
       if (gOOPAGPEGGL_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1943, gOOPAGPEGGL_);
-      }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < preGoodsIdList_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(preGoodsIdList_.getInt(i));
-        }
-        size += dataSize;
-        if (!getPreGoodsIdListList().isEmpty()) {
-          size += 3;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        preGoodsIdListMemoizedSerializedSize = dataSize;
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -2177,21 +2152,21 @@ public final class ShopGoodsOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\017ShopGoods.proto\032\017ItemParam.proto\"\376\003\n\tS" +
+      "\n\017ShopGoods.proto\032\017ItemParam.proto\"\375\003\n\tS" +
       "hopGoods\022\"\n\016cost_item_list\030\010 \003(\0132\n.ItemP" +
-      "aram\022\036\n\ngoods_item\030\t \001(\0132\n.ItemParam\022\032\n\021" +
-      "pre_goods_id_list\030\213O \003(\r\022\022\n\nbought_num\030\004" +
-      " \001(\r\022\r\n\005scoin\030\005 \001(\r\022\024\n\014disable_type\030\007 \001(" +
-      "\r\022\032\n\021discount_end_time\030\365\010 \001(\r\022\033\n\022seconda" +
-      "ry_sheet_id\030\300\001 \001(\r\022\021\n\tmin_level\030\013 \001(\r\022\r\n" +
-      "\005mcoin\030\017 \001(\r\022\020\n\010end_time\030\014 \001(\r\022\r\n\005hcoin\030" +
-      "\016 \001(\r\022\024\n\013discount_id\030\350\013 \001(\r\022\025\n\014single_li" +
-      "mit\030\374\r \001(\r\022\021\n\tbuy_limit\030\n \001(\r\022\020\n\010goods_i" +
-      "d\030\006 \001(\r\022\034\n\023discount_begin_time\030\211\010 \001(\r\022\024\n" +
-      "\013LPOMBLALEPK\030\245\005 \001(\010\022\024\n\013GOOPAGPEGGL\030\227\017 \001(" +
-      "\010\022\021\n\tmax_level\030\001 \001(\r\022\022\n\nbegin_time\030\003 \001(\r" +
-      "\022\031\n\021next_refresh_time\030\002 \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "aram\022\036\n\ngoods_item\030\t \001(\0132\n.ItemParam\022\031\n\021" +
+      "pre_goods_id_list\030\n \003(\r\022\022\n\nbought_num\030\004 " +
+      "\001(\r\022\r\n\005scoin\030\005 \001(\r\022\024\n\014disable_type\030\r \001(\r" +
+      "\022\032\n\021discount_end_time\030\365\010 \001(\r\022\033\n\022secondar" +
+      "y_sheet_id\030\300\001 \001(\r\022\021\n\tmin_level\030\013 \001(\r\022\r\n\005" +
+      "mcoin\030\017 \001(\r\022\020\n\010end_time\030\014 \001(\r\022\r\n\005hcoin\030\016" +
+      " \001(\r\022\024\n\013discount_id\030\350\013 \001(\r\022\025\n\014single_lim" +
+      "it\030\251\005 \001(\r\022\021\n\tbuy_limit\030\020 \001(\r\022\020\n\010goods_id" +
+      "\030\006 \001(\r\022\034\n\023discount_begin_time\030\211\010 \001(\r\022\024\n\013" +
+      "LPOMBLALEPK\030\245\005 \001(\010\022\024\n\013GOOPAGPEGGL\030\227\017 \001(\010" +
+      "\022\021\n\tmax_level\030\001 \001(\r\022\022\n\nbegin_time\030\003 \001(\r\022" +
+      "\031\n\021next_refresh_time\030\002 \001(\rB\033\n\031emu.grassc" +
+      "utter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

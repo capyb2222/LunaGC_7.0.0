@@ -127,7 +127,7 @@ public final class ForgeQueueManipulateRspOuterClass {
                 outputItemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              returnItemList_.add(
+              outputItemList_.add(
                   input.readMessage(emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.parser(), extensionRegistry));
               break;
             }
@@ -145,7 +145,7 @@ public final class ForgeQueueManipulateRspOuterClass {
                 returnItemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              outputItemList_.add(
+              returnItemList_.add(
                   input.readMessage(emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.parser(), extensionRegistry));
               break;
             }
@@ -170,14 +170,14 @@ public final class ForgeQueueManipulateRspOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000002) != 0)) {
-          returnItemList_ = java.util.Collections.unmodifiableList(returnItemList_);
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          outputItemList_ = java.util.Collections.unmodifiableList(outputItemList_);
         }
         if (((mutable_bitField0_ & 0x00000004) != 0)) {
           extraOutputItemList_ = java.util.Collections.unmodifiableList(extraOutputItemList_);
         }
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          outputItemList_ = java.util.Collections.unmodifiableList(outputItemList_);
+        if (((mutable_bitField0_ & 0x00000002) != 0)) {
+          returnItemList_ = java.util.Collections.unmodifiableList(returnItemList_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -1531,8 +1531,8 @@ public final class ForgeQueueManipulateRspOuterClass {
       "\n\035ForgeQueueManipulateRsp.proto\032\016ItemHin" +
       "t.proto\032\036ForgeQueueManipulateType.proto\"" +
       "\323\001\n\027ForgeQueueManipulateRsp\022#\n\020output_it" +
-      "em_list\030\007 \003(\0132\t.ItemHint\022#\n\020return_item_" +
-      "list\030\002 \003(\0132\t.ItemHint\022)\n\026extra_output_it" +
+      "em_list\030\004 \003(\0132\t.ItemHint\022#\n\020return_item_" +
+      "list\030\010 \003(\0132\t.ItemHint\022)\n\026extra_output_it" +
       "em_list\030\005 \003(\0132\t.ItemHint\022\017\n\007retcode\030\001 \001(" +
       "\005\0222\n\017manipulate_type\030\t \001(\0162\031.ForgeQueueM" +
       "anipulateTypeB\033\n\031emu.grasscutter.net.pro" +

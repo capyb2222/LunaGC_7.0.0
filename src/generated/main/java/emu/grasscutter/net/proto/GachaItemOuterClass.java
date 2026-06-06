@@ -129,7 +129,7 @@ public final class GachaItemOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem.parser(), extensionRegistry));
               break;
             }
-            case 88: {
+            case 80: {
 
               isFlashCard_ = input.readBool();
               break;
@@ -1355,7 +1355,7 @@ public final class GachaItemOuterClass {
       "en_item_list\030\016 \003(\0132\n.ItemParam\022\036\n\ngacha_" +
       "item\030\007 \001(\0132\n.ItemParam\022*\n\016transfer_items" +
       "\030\t \003(\0132\022.GachaTransferItem\022\031\n\021is_gacha_i" +
-      "tem_new\030\010 \001(\010\022\025\n\ris_flash_card\030\013 \001(\010B\033\n\031" +
+      "tem_new\030\010 \001(\010\022\025\n\ris_flash_card\030\n \001(\010B\033\n\031" +
       "emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

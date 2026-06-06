@@ -1016,8 +1016,8 @@ public final class ReliquaryUpgradeRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\031ReliquaryUpgradeRsp.proto\"\276\001\n\023Reliquar" +
-      "yUpgradeRsp\022\034\n\024old_append_prop_list\030\004 \003(" +
-      "\r\022\034\n\024cur_append_prop_list\030\006 \003(\r\022\021\n\tcur_l" +
+      "yUpgradeRsp\022\034\n\024old_append_prop_list\030\001 \003(" +
+      "\r\022\034\n\024cur_append_prop_list\030\004 \003(\r\022\021\n\tcur_l" +
       "evel\030\007 \001(\r\022\021\n\told_level\030\n \001(\r\022\035\n\025target_" +
       "reliquary_guid\030\014 \001(\004\022\017\n\007retcode\030\010 \001(\005\022\025\n" +
       "\rpower_up_rate\030\t \001(\rB\033\n\031emu.grasscutter." +

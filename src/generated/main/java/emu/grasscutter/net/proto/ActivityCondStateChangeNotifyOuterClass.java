@@ -112,7 +112,33 @@ public final class ActivityCondStateChangeNotifyOuterClass {
               activityId_ = input.readUInt32();
               break;
             }
-            case 32: {
+            case 48: {
+              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
+                expireCondList_ = newIntList();
+                mutable_bitField0_ |= 0x00000004;
+              }
+              expireCondList_.addInt(input.readUInt32());
+              break;
+            }
+            case 50: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
+                expireCondList_ = newIntList();
+                mutable_bitField0_ |= 0x00000004;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                expireCondList_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 56: {
+
+              scheduleId_ = input.readUInt32();
+              break;
+            }
+            case 64: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 meetCondList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -120,7 +146,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
               meetCondList_.addInt(input.readUInt32());
               break;
             }
-            case 34: {
+            case 66: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -131,11 +157,6 @@ public final class ActivityCondStateChangeNotifyOuterClass {
                 meetCondList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
-              break;
-            }
-            case 56: {
-
-              scheduleId_ = input.readUInt32();
               break;
             }
             case 88: {
@@ -168,27 +189,6 @@ public final class ActivityCondStateChangeNotifyOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.parser(), extensionRegistry));
               break;
             }
-            case 112: {
-              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                expireCondList_ = newIntList();
-                mutable_bitField0_ |= 0x00000004;
-              }
-              expireCondList_.addInt(input.readUInt32());
-              break;
-            }
-            case 114: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
-                expireCondList_ = newIntList();
-                mutable_bitField0_ |= 0x00000004;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                expireCondList_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
             default: {
               if (!parseUnknownField(
                   input, unknownFields, extensionRegistry, tag)) {
@@ -204,6 +204,9 @@ public final class ActivityCondStateChangeNotifyOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
+        if (((mutable_bitField0_ & 0x00000004) != 0)) {
+          expireCondList_.makeImmutable(); // C
+        }
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
           meetCondList_.makeImmutable(); // C
         }
@@ -212,9 +215,6 @@ public final class ActivityCondStateChangeNotifyOuterClass {
         }
         if (((mutable_bitField0_ & 0x00000008) != 0)) {
           disableTransferPointInteractionList_ = java.util.Collections.unmodifiableList(disableTransferPointInteractionList_);
-        }
-        if (((mutable_bitField0_ & 0x00000004) != 0)) {
-          expireCondList_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -233,7 +233,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
               emu.grasscutter.net.proto.ActivityCondStateChangeNotifyOuterClass.ActivityCondStateChangeNotify.class, emu.grasscutter.net.proto.ActivityCondStateChangeNotifyOuterClass.ActivityCondStateChangeNotify.Builder.class);
     }
 
-    public static final int MEET_COND_LIST_FIELD_NUMBER = 4;
+    public static final int MEET_COND_LIST_FIELD_NUMBER = 8;
     private com.google.protobuf.Internal.IntList meetCondList_;
 
     @java.lang.Override
@@ -269,7 +269,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
     }
     private int activatedSaleIdListMemoizedSerializedSize = -1;
 
-    public static final int EXPIRE_COND_LIST_FIELD_NUMBER = 14;
+    public static final int EXPIRE_COND_LIST_FIELD_NUMBER = 6;
     private com.google.protobuf.Internal.IntList expireCondList_;
 
     @java.lang.Override
@@ -362,14 +362,11 @@ public final class ActivityCondStateChangeNotifyOuterClass {
         output.writeUInt32(1, scheduleId_);
       }
       if (getMeetCondListList().size() > 0) {
-        output.writeUInt32NoTag(34);
+        output.writeUInt32NoTag(66);
         output.writeUInt32NoTag(meetCondListMemoizedSerializedSize);
       }
       for (int i = 0; i < meetCondList_.size(); i++) {
         output.writeUInt32NoTag(meetCondList_.getInt(i));
-      }
-      if (scheduleId_ != 0) {
-        output.writeUInt32(7, scheduleId_);
       }
       if (getActivatedSaleIdListList().size() > 0) {
         output.writeUInt32NoTag(90);
@@ -380,13 +377,6 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       for (int i = 0; i < disableTransferPointInteractionList_.size(); i++) {
         output.writeMessage(7, disableTransferPointInteractionList_.get(i));
-      }
-      if (getExpireCondListList().size() > 0) {
-        output.writeUInt32NoTag(114);
-        output.writeUInt32NoTag(expireCondListMemoizedSerializedSize);
-      }
-      for (int i = 0; i < expireCondList_.size(); i++) {
-        output.writeUInt32NoTag(expireCondList_.getInt(i));
       }
       unknownFields.writeTo(output);
     }
@@ -433,10 +423,6 @@ public final class ActivityCondStateChangeNotifyOuterClass {
         }
         meetCondListMemoizedSerializedSize = dataSize;
       }
-      if (scheduleId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, scheduleId_);
-      }
       {
         int dataSize = 0;
         for (int i = 0; i < activatedSaleIdList_.size(); i++) {
@@ -454,20 +440,6 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       for (int i = 0; i < disableTransferPointInteractionList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(7, disableTransferPointInteractionList_.get(i));
-      }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < expireCondList_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(expireCondList_.getInt(i));
-        }
-        size += dataSize;
-        if (!getExpireCondListList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        expireCondListMemoizedSerializedSize = dataSize;
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1345,9 +1317,9 @@ public final class ActivityCondStateChangeNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n#ActivityCondStateChangeNotify.proto\032\020U" +
       "int32Pair.proto\"\331\001\n\035ActivityCondStateCha" +
-      "ngeNotify\022\026\n\016meet_cond_list\030\004 \003(\r\022\036\n\026act" +
+      "ngeNotify\022\026\n\016meet_cond_list\030\010 \003(\r\022\036\n\026act" +
       "ivated_sale_id_list\030\013 \003(\r\022\030\n\020expire_cond" +
-      "_list\030\016 \003(\r\022<\n\'disable_transfer_point_in" +
+      "_list\030\006 \003(\r\022<\n\'disable_transfer_point_in" +
       "teraction_list\030\r \003(\0132\013.Uint32Pair\022\023\n\013sch" +
       "edule_id\030\007 \001(\r\022\023\n\013activity_id\030\003 \001(\rB\033\n\031e" +
       "mu.grasscutter.net.protob\006proto3"

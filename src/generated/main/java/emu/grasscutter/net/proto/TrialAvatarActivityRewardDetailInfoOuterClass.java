@@ -71,6 +71,11 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
             case 0:
               done = true;
               break;
+            case 8: {
+
+              receivedReward_ = input.readBool();
+              break;
+            }
             case 24: {
 
               rewardId_ = input.readUInt32();
@@ -81,14 +86,9 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
               trialAvatarIndexId_ = input.readUInt32();
               break;
             }
-            case 72: {
-
-              passedDungeon_ = input.readBool();
-              break;
-            }
             case 112: {
 
-              receivedReward_ = input.readBool();
+              passedDungeon_ = input.readBool();
               break;
             }
             default: {
@@ -139,7 +139,7 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       return rewardId_;
     }
 
-    public static final int PASSED_DUNGEON_FIELD_NUMBER = 9;
+    public static final int PASSED_DUNGEON_FIELD_NUMBER = 14;
     private boolean passedDungeon_;
 
     @java.lang.Override
@@ -147,7 +147,7 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       return passedDungeon_;
     }
 
-    public static final int RECEIVED_REWARD_FIELD_NUMBER = 14;
+    public static final int RECEIVED_REWARD_FIELD_NUMBER = 1;
     private boolean receivedReward_;
 
     @java.lang.Override
@@ -169,6 +169,9 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (receivedReward_ != false) {
+        output.writeBool(1, receivedReward_);
+      }
       if (rewardId_ != 0) {
         output.writeUInt32(3, rewardId_);
       }
@@ -176,10 +179,7 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
         output.writeUInt32(4, trialAvatarIndexId_);
       }
       if (passedDungeon_ != false) {
-        output.writeBool(9, passedDungeon_);
-      }
-      if (receivedReward_ != false) {
-        output.writeBool(14, receivedReward_);
+        output.writeBool(14, passedDungeon_);
       }
       unknownFields.writeTo(output);
     }
@@ -190,6 +190,10 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (receivedReward_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1, receivedReward_);
+      }
       if (rewardId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(3, rewardId_);
@@ -200,11 +204,7 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       }
       if (passedDungeon_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, passedDungeon_);
-      }
-      if (receivedReward_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(14, receivedReward_);
+          .computeBoolSize(14, passedDungeon_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -662,8 +662,8 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       "\n)TrialAvatarActivityRewardDetailInfo.pr" +
       "oto\"\210\001\n#TrialAvatarActivityRewardDetailI" +
       "nfo\022\035\n\025trial_avatar_index_id\030\004 \001(\r\022\021\n\tre" +
-      "ward_id\030\003 \001(\r\022\026\n\016passed_dungeon\030\t \001(\010\022\027\n" +
-      "\017received_reward\030\016 \001(\010B\033\n\031emu.grasscutte" +
+      "ward_id\030\003 \001(\r\022\026\n\016passed_dungeon\030\016 \001(\010\022\027\n" +
+      "\017received_reward\030\001 \001(\010B\033\n\031emu.grasscutte" +
       "r.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

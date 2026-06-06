@@ -83,7 +83,7 @@ public final class ResinChangeNotifyOuterClass {
               nextAddTimestamp_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 72: {
 
               curBuyCount_ = input.readUInt32();
               break;
@@ -128,7 +128,7 @@ public final class ResinChangeNotifyOuterClass {
       return nextAddTimestamp_;
     }
 
-    public static final int CUR_BUY_COUNT_FIELD_NUMBER = 13;
+    public static final int CUR_BUY_COUNT_FIELD_NUMBER = 9;
     private int curBuyCount_;
 
     @java.lang.Override
@@ -165,7 +165,7 @@ public final class ResinChangeNotifyOuterClass {
         output.writeUInt32(6, nextAddTimestamp_);
       }
       if (curBuyCount_ != 0) {
-        output.writeUInt32(13, curBuyCount_);
+        output.writeUInt32(9, curBuyCount_);
       }
       unknownFields.writeTo(output);
     }
@@ -186,7 +186,7 @@ public final class ResinChangeNotifyOuterClass {
       }
       if (curBuyCount_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, curBuyCount_);
+          .computeUInt32Size(9, curBuyCount_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -614,7 +614,7 @@ public final class ResinChangeNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027ResinChangeNotify.proto\"Y\n\021ResinChange" +
       "Notify\022\032\n\022next_add_timestamp\030\006 \001(\r\022\025\n\rcu" +
-      "r_buy_count\030\r \001(\r\022\021\n\tcur_value\030\004 \001(\rB\033\n\031" +
+      "r_buy_count\030\t \001(\r\022\021\n\tcur_value\030\004 \001(\rB\033\n\031" +
       "emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

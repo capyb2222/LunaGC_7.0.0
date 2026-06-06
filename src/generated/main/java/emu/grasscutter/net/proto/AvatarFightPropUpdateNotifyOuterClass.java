@@ -794,8 +794,8 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n!AvatarFightPropUpdateNotify.proto\"\257\001\n\033" +
       "AvatarFightPropUpdateNotify\022F\n\016fight_pro" +
-      "p_map\030\r \003(\0132..AvatarFightPropUpdateNotif" +
-      "y.FightPropMapEntry\022\023\n\013avatar_guid\030\007 \001(\004" +
+      "p_map\030\013 \003(\0132..AvatarFightPropUpdateNotif" +
+      "y.FightPropMapEntry\022\023\n\013avatar_guid\030\003 \001(\004" +
       "\0323\n\021FightPropMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005va" +
       "lue\030\002 \001(\002:\0028\001B\033\n\031emu.grasscutter.net.pro" +
       "tob\006proto3"

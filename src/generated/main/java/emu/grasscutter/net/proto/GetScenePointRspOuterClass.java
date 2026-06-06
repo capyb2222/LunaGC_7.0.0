@@ -244,19 +244,19 @@ public final class GetScenePointRspOuterClass {
               break;
             }
             case 112: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                hidePointList_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
+              if (!((mutable_bitField0_ & 0x00000010) != 0)) {
+                groupUnlimitPointList_ = newIntList();
+                mutable_bitField0_ |= 0x00000010;
               }
-              hidePointList_.addInt(input.readUInt32());
+              groupUnlimitPointList_.addInt(input.readUInt32());
               break;
             }
             case 114: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                hidePointList_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
+              if (!((mutable_bitField0_ & 0x00000010) != 0) && input.getBytesUntilLimit() > 0) {
+                groupUnlimitPointList_ = newIntList();
+                mutable_bitField0_ |= 0x00000010;
               }
               while (input.getBytesUntilLimit() > 0) {
                 groupUnlimitPointList_.addInt(input.readUInt32());
@@ -279,14 +279,11 @@ public final class GetScenePointRspOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000010) != 0)) {
-          groupUnlimitPointList_.makeImmutable(); // C
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          hidePointList_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000020) != 0)) {
           unlockAreaList_.makeImmutable(); // C
-        }
-        if (((mutable_bitField0_ & 0x00000008) != 0)) {
-          unhidePointList_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           lockedPointList_.makeImmutable(); // C
@@ -294,8 +291,11 @@ public final class GetScenePointRspOuterClass {
         if (((mutable_bitField0_ & 0x00000004) != 0)) {
           unlockedPointList_.makeImmutable(); // C
         }
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          hidePointList_.makeImmutable(); // C
+        if (((mutable_bitField0_ & 0x00000010) != 0)) {
+          groupUnlimitPointList_.makeImmutable(); // C
+        }
+        if (((mutable_bitField0_ & 0x00000008) != 0)) {
+          unhidePointList_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -386,7 +386,7 @@ public final class GetScenePointRspOuterClass {
     }
     private int unhidePointListMemoizedSerializedSize = -1;
 
-    public static final int GROUP_UNLIMIT_POINT_LIST_FIELD_NUMBER = 1;
+    public static final int GROUP_UNLIMIT_POINT_LIST_FIELD_NUMBER = 14;
     private com.google.protobuf.Internal.IntList groupUnlimitPointList_;
 
     @java.lang.Override
@@ -479,13 +479,6 @@ public final class GetScenePointRspOuterClass {
       if (belongUid_ != 0) {
         output.writeUInt32(12, belongUid_);
       }
-      if (getUnhidePointListList().size() > 0) {
-        output.writeUInt32NoTag(58);
-        output.writeUInt32NoTag(unhidePointListMemoizedSerializedSize);
-      }
-      for (int i = 0; i < unhidePointList_.size(); i++) {
-        output.writeUInt32NoTag(unhidePointList_.getInt(i));
-      }
       if (getLockedPointListList().size() > 0) {
         output.writeUInt32NoTag(66);
         output.writeUInt32NoTag(lockedPointListMemoizedSerializedSize);
@@ -513,9 +506,9 @@ public final class GetScenePointRspOuterClass {
       if (retcode_ != 0) {
         output.writeInt32(13, retcode_);
       }
-      if (getHidePointListList().size() > 0) {
+      if (getGroupUnlimitPointListList().size() > 0) {
         output.writeUInt32NoTag(114);
-        output.writeUInt32NoTag(hidePointListMemoizedSerializedSize);
+        output.writeUInt32NoTag(groupUnlimitPointListMemoizedSerializedSize);
       }
       for (int i = 0; i < groupUnlimitPointList_.size(); i++) {
         output.writeUInt32NoTag(groupUnlimitPointList_.getInt(i));
@@ -541,35 +534,21 @@ public final class GetScenePointRspOuterClass {
       size = 0;
       {
         int dataSize = 0;
-        for (int i = 0; i < groupUnlimitPointList_.size(); i++) {
+        for (int i = 0; i < hidePointList_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(groupUnlimitPointList_.getInt(i));
+            .computeUInt32SizeNoTag(hidePointList_.getInt(i));
         }
         size += dataSize;
-        if (!getGroupUnlimitPointListList().isEmpty()) {
+        if (!getHidePointListList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        groupUnlimitPointListMemoizedSerializedSize = dataSize;
+        hidePointListMemoizedSerializedSize = dataSize;
       }
       if (belongUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(12, belongUid_);
-      }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < unhidePointList_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(unhidePointList_.getInt(i));
-        }
-        size += dataSize;
-        if (!getUnhidePointListList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        unhidePointListMemoizedSerializedSize = dataSize;
       }
       {
         int dataSize = 0;
@@ -609,17 +588,31 @@ public final class GetScenePointRspOuterClass {
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < hidePointList_.size(); i++) {
+        for (int i = 0; i < groupUnlimitPointList_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(hidePointList_.getInt(i));
+            .computeUInt32SizeNoTag(groupUnlimitPointList_.getInt(i));
         }
         size += dataSize;
-        if (!getHidePointListList().isEmpty()) {
+        if (!getGroupUnlimitPointListList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        hidePointListMemoizedSerializedSize = dataSize;
+        groupUnlimitPointListMemoizedSerializedSize = dataSize;
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < unhidePointList_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(unhidePointList_.getInt(i));
+        }
+        size += dataSize;
+        if (!getUnhidePointListList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        unhidePointListMemoizedSerializedSize = dataSize;
       }
       {
         int dataSize = 0;
@@ -1554,10 +1547,10 @@ public final class GetScenePointRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026GetScenePointRsp.proto\"\205\002\n\020GetScenePoi" +
-      "ntRsp\022\027\n\017hide_point_list\030\016 \003(\r\022\031\n\021locked" +
+      "ntRsp\022\027\n\017hide_point_list\030\002 \003(\r\022\031\n\021locked" +
       "_point_list\030\010 \003(\r\022\033\n\023unlocked_point_list" +
-      "\030\t \003(\r\022\031\n\021unhide_point_list\030\007 \003(\r\022 \n\030gro" +
-      "up_unlimit_point_list\030\001 \003(\r\022\030\n\020unlock_ar" +
+      "\030\t \003(\r\022\031\n\021unhide_point_list\030\017 \003(\r\022 \n\030gro" +
+      "up_unlimit_point_list\030\016 \003(\r\022\030\n\020unlock_ar" +
       "ea_list\030\004 \003(\r\022\022\n\nbelong_uid\030\003 \001(\r\022\022\n\nis_" +
       "relogin\030\014 \001(\010\022\020\n\010scene_id\030\r \001(\r\022\017\n\007retco" +
       "de\030\013 \001(\005B\033\n\031emu.grasscutter.net.protob\006p" +

@@ -164,24 +164,6 @@ public final class WeaponAwakenRspOuterClass {
                   curAffixLevelMap__.getKey(), curAffixLevelMap__.getValue());
               break;
             }
-            case 104: {
-
-              retcode_ = input.readInt32();
-              break;
-            }
-            case 114: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                oldAffixLevelMap_ = com.google.protobuf.MapField.newMapField(
-                    OldAffixLevelMapDefaultEntryHolder.defaultEntry);
-                mutable_bitField0_ |= 0x00000001;
-              }
-              com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
-              oldAffixLevelMap__ = input.readMessage(
-                  OldAffixLevelMapDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
-              oldAffixLevelMap_.getMutableMap().put(
-                  oldAffixLevelMap__.getKey(), oldAffixLevelMap__.getValue());
-              break;
-            }
             default: {
               if (!parseUnknownField(
                   input, unknownFields, extensionRegistry, tag)) {
@@ -433,12 +415,6 @@ public final class WeaponAwakenRspOuterClass {
       if (targetWeaponAwakenLevel_ != 0) {
         output.writeUInt32(10, targetWeaponAwakenLevel_);
       }
-      com.google.protobuf.GeneratedMessageV3
-        .serializeIntegerMapTo(
-          output,
-          internalGetCurAffixLevelMap(),
-          CurAffixLevelMapDefaultEntryHolder.defaultEntry,
-          10);
       if (retcode_ != 0) {
         output.writeInt32(3, retcode_);
       }
@@ -1231,9 +1207,9 @@ public final class WeaponAwakenRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\025WeaponAwakenRsp.proto\"\363\002\n\017WeaponAwaken" +
-      "Rsp\022C\n\023old_affix_level_map\030\016 \003(\0132&.Weapo" +
+      "Rsp\022C\n\023old_affix_level_map\030\001 \003(\0132&.Weapo" +
       "nAwakenRsp.OldAffixLevelMapEntry\022C\n\023cur_" +
-      "affix_level_map\030\n \003(\0132&.WeaponAwakenRsp." +
+      "affix_level_map\030\016 \003(\0132&.WeaponAwakenRsp." +
       "CurAffixLevelMapEntry\022\023\n\013avatar_guid\030\004 \001" +
       "(\004\022\032\n\022target_weapon_guid\030\006 \001(\004\022\"\n\032target" +
       "_weapon_awaken_level\030\t \001(\r\022\017\n\007retcode\030\r " +

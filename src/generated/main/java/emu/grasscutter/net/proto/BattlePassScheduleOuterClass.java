@@ -168,11 +168,6 @@ public final class BattlePassScheduleOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.BattlePassRewardPlanOptionOuterClass.BattlePassRewardPlanOption.parser(), extensionRegistry));
               break;
             }
-            case 80: {
-
-              point_ = input.readUInt32();
-              break;
-            }
             case 88: {
 
               beginTime_ = input.readUInt32();
@@ -192,6 +187,11 @@ public final class BattlePassScheduleOuterClass {
               int rawValue = input.readEnum();
 
               unlockStatus_ = rawValue;
+              break;
+            }
+            case 8808: {
+
+              point_ = input.readUInt32();
               break;
             }
             default: {
@@ -365,7 +365,7 @@ public final class BattlePassScheduleOuterClass {
       return beginTime_;
     }
 
-    public static final int POINT_FIELD_NUMBER = 10;
+    public static final int POINT_FIELD_NUMBER = 1101;
     private int point_;
 
     @java.lang.Override
@@ -410,9 +410,6 @@ public final class BattlePassScheduleOuterClass {
       for (int i = 0; i < rewardPlanOptionList_.size(); i++) {
         output.writeMessage(9, rewardPlanOptionList_.get(i));
       }
-      if (point_ != 0) {
-        output.writeUInt32(10, point_);
-      }
       if (beginTime_ != 0) {
         output.writeUInt32(6, beginTime_);
       }
@@ -424,6 +421,9 @@ public final class BattlePassScheduleOuterClass {
       }
       if (unlockStatus_ != emu.grasscutter.net.proto.BattlePassUnlockStatusOuterClass.BattlePassUnlockStatus.BattlePassUnlockSTATUS_BATTLE_PASS_UNLOCK_INVALID.getNumber()) {
         output.writeEnum(15, unlockStatus_);
+      }
+      if (point_ != 0) {
+        output.writeUInt32(1101, point_);
       }
       unknownFields.writeTo(output);
     }
@@ -454,10 +454,6 @@ public final class BattlePassScheduleOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(9, rewardPlanOptionList_.get(i));
       }
-      if (point_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, point_);
-      }
       if (beginTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(6, beginTime_);
@@ -473,6 +469,10 @@ public final class BattlePassScheduleOuterClass {
       if (unlockStatus_ != emu.grasscutter.net.proto.BattlePassUnlockStatusOuterClass.BattlePassUnlockStatus.BattlePassUnlockSTATUS_BATTLE_PASS_UNLOCK_INVALID.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(15, unlockStatus_);
+      }
+      if (point_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(1101, point_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1754,7 +1754,7 @@ public final class BattlePassScheduleOuterClass {
       "wardTag.proto\032\027BattlePassProduct.proto\032 " +
       "BattlePassRewardPlanOption.proto\032\025Battle" +
       "PassCycle.proto\032\034BattlePassUnlockStatus." +
-      "proto\"\333\002\n\022BattlePassSchedule\022/\n\021reward_t" +
+      "proto\"\334\002\n\022BattlePassSchedule\022/\n\021reward_t" +
       "aken_list\030\002 \003(\0132\024.BattlePassRewardTag\022(\n" +
       "\014product_info\030\001 \001(\0132\022.BattlePassProduct\022" +
       "<\n\027reward_plan_option_list\030\t \003(\0132\033.Battl" +
@@ -1762,8 +1762,8 @@ public final class BattlePassScheduleOuterClass {
       "2\020.BattlePassCycle\022\r\n\005level\030\005 \001(\r\022\023\n\013sch" +
       "edule_id\030\016 \001(\r\022.\n\runlock_status\030\017 \001(\0162\027." +
       "BattlePassUnlockStatus\022\022\n\nbegin_time\030\013 \001" +
-      "(\r\022\r\n\005point\030\n \001(\r\022\020\n\010end_time\030\014 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "(\r\022\016\n\005point\030\315\010 \001(\r\022\020\n\010end_time\030\014 \001(\rB\033\n\031" +
+      "emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

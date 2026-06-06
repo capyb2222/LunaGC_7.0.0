@@ -85,7 +85,7 @@ public final class GachaWishRspOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 8: {
 
               retcode_ = input.readInt32();
               break;
@@ -842,9 +842,9 @@ public final class GachaWishRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\022GachaWishRsp.proto\"\260\001\n\014GachaWishRsp\022\025\n" +
-      "\rwish_progress\030\n \001(\r\022\024\n\014wish_item_id\030\013 \001" +
+      "\rwish_progress\030\003 \001(\r\022\024\n\014wish_item_id\030\n \001" +
       "(\r\022\031\n\021gacha_schedule_id\030\r \001(\r\022\022\n\ngacha_t" +
-      "ype\030\016 \001(\r\022\031\n\021wish_max_progress\030\004 \001(\r\022\017\n\007" +
+      "ype\030\016 \001(\r\022\031\n\021wish_max_progress\030\001 \001(\r\022\017\n\007" +
       "retcode\030\t \001(\005\022\030\n\020ten_cost_item_id\030\017 \001(\rB" +
       "\033\n\031emu.grasscutter.net.protob\006proto3"
     };

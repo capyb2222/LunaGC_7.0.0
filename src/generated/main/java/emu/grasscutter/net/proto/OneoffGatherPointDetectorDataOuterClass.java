@@ -105,11 +105,6 @@ public final class OneoffGatherPointDetectorDataOuterClass {
               mapLayerId_ = input.readUInt32();
               break;
             }
-            case 72: {
-
-              hintRadius_ = input.readUInt32();
-              break;
-            }
             case 80: {
 
               isHintValid_ = input.readBool();
@@ -136,6 +131,11 @@ public final class OneoffGatherPointDetectorDataOuterClass {
                 hintCenterPos_ = subBuilder.buildPartial();
               }
 
+              break;
+            }
+            case 128: {
+
+              hintRadius_ = input.readUInt32();
               break;
             }
             default: {
@@ -188,7 +188,7 @@ public final class OneoffGatherPointDetectorDataOuterClass {
       return getHintCenterPos();
     }
 
-    public static final int HINT_RADIUS_FIELD_NUMBER = 9;
+    public static final int HINT_RADIUS_FIELD_NUMBER = 16;
     private int hintRadius_;
 
     @java.lang.Override
@@ -278,9 +278,6 @@ public final class OneoffGatherPointDetectorDataOuterClass {
       if (mapLayerId_ != 0) {
         output.writeUInt32(6, mapLayerId_);
       }
-      if (hintRadius_ != 0) {
-        output.writeUInt32(9, hintRadius_);
-      }
       if (isHintValid_ != false) {
         output.writeBool(11, isHintValid_);
       }
@@ -292,6 +289,9 @@ public final class OneoffGatherPointDetectorDataOuterClass {
       }
       if (hintCenterPos_ != null) {
         output.writeMessage(15, getHintCenterPos());
+      }
+      if (hintRadius_ != 0) {
+        output.writeUInt32(16, hintRadius_);
       }
       unknownFields.writeTo(output);
     }
@@ -318,10 +318,6 @@ public final class OneoffGatherPointDetectorDataOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(6, mapLayerId_);
       }
-      if (hintRadius_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, hintRadius_);
-      }
       if (isHintValid_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(11, isHintValid_);
@@ -337,6 +333,10 @@ public final class OneoffGatherPointDetectorDataOuterClass {
       if (hintCenterPos_ != null) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(15, getHintCenterPos());
+      }
+      if (hintRadius_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(16, hintRadius_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1040,7 +1040,7 @@ public final class OneoffGatherPointDetectorDataOuterClass {
       "\n#OneoffGatherPointDetectorData.proto\032\014V" +
       "ector.proto\"\351\001\n\035OneoffGatherPointDetecto" +
       "rData\022 \n\017hint_center_pos\030\017 \001(\0132\007.Vector\022" +
-      "\023\n\013hint_radius\030\t \001(\r\022\023\n\013material_id\030\016 \001(" +
+      "\023\n\013hint_radius\030\020 \001(\r\022\023\n\013material_id\030\016 \001(" +
       "\r\022\020\n\010scene_id\030\005 \001(\r\022\021\n\tconfig_id\030\013 \001(\r\022\025" +
       "\n\ris_hint_valid\030\n \001(\010\022\030\n\020is_all_collecte" +
       "d\030\001 \001(\010\022\020\n\010group_id\030\002 \001(\r\022\024\n\014map_layer_i" +

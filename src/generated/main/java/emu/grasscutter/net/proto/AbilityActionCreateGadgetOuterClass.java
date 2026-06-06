@@ -25,29 +25,17 @@ public final class AbilityActionCreateGadgetOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRotOrBuilder();
 
     /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>.Vector pos = 7;</code>
+     * <code>.Vector pos = 13;</code>
      * @return Whether the pos field is set.
      */
     boolean hasPos();
     /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>.Vector pos = 7;</code>
+     * <code>.Vector pos = 13;</code>
      * @return The pos.
      */
     emu.grasscutter.net.proto.VectorOuterClass.Vector getPos();
     /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>.Vector pos = 7;</code>
+     * <code>.Vector pos = 13;</code>
      */
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPosOrBuilder();
 
@@ -129,19 +117,6 @@ public final class AbilityActionCreateGadgetOuterClass {
 
               break;
             }
-            case 90: {
-              emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
-              if (rot_ != null) {
-                subBuilder = rot_.toBuilder();
-              }
-              rot_ = input.readMessage(emu.grasscutter.net.proto.VectorOuterClass.Vector.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(rot_);
-                rot_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
             default: {
               if (!parseUnknownField(
                   input, unknownFields, extensionRegistry, tag)) {
@@ -195,11 +170,7 @@ public final class AbilityActionCreateGadgetOuterClass {
     public static final int POS_FIELD_NUMBER = 14;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
     /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>.Vector pos = 7;</code>
+     * <code>.Vector pos = 13;</code>
      * @return Whether the pos field is set.
      */
     @java.lang.Override
@@ -207,11 +178,7 @@ public final class AbilityActionCreateGadgetOuterClass {
       return pos_ != null;
     }
     /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>.Vector pos = 7;</code>
+     * <code>.Vector pos = 13;</code>
      * @return The pos.
      */
     @java.lang.Override
@@ -219,11 +186,7 @@ public final class AbilityActionCreateGadgetOuterClass {
       return pos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : pos_;
     }
     /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>.Vector pos = 7;</code>
+     * <code>.Vector pos = 13;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPosOrBuilder() {
@@ -703,22 +666,14 @@ public final class AbilityActionCreateGadgetOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> posBuilder_;
       /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>.Vector pos = 7;</code>
+       * <code>.Vector pos = 13;</code>
        * @return Whether the pos field is set.
        */
       public boolean hasPos() {
         return posBuilder_ != null || pos_ != null;
       }
       /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>.Vector pos = 7;</code>
+       * <code>.Vector pos = 13;</code>
        * @return The pos.
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector getPos() {
@@ -729,11 +684,7 @@ public final class AbilityActionCreateGadgetOuterClass {
         }
       }
       /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>.Vector pos = 7;</code>
+       * <code>.Vector pos = 13;</code>
        */
       public Builder setPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (posBuilder_ == null) {
@@ -749,11 +700,7 @@ public final class AbilityActionCreateGadgetOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>.Vector pos = 7;</code>
+       * <code>.Vector pos = 13;</code>
        */
       public Builder setPos(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
@@ -767,11 +714,7 @@ public final class AbilityActionCreateGadgetOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>.Vector pos = 7;</code>
+       * <code>.Vector pos = 13;</code>
        */
       public Builder mergePos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (posBuilder_ == null) {
@@ -789,11 +732,7 @@ public final class AbilityActionCreateGadgetOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>.Vector pos = 7;</code>
+       * <code>.Vector pos = 13;</code>
        */
       public Builder clearPos() {
         if (posBuilder_ == null) {
@@ -807,11 +746,7 @@ public final class AbilityActionCreateGadgetOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>.Vector pos = 7;</code>
+       * <code>.Vector pos = 13;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getPosBuilder() {
 
@@ -819,11 +754,7 @@ public final class AbilityActionCreateGadgetOuterClass {
         return getPosFieldBuilder().getBuilder();
       }
       /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>.Vector pos = 7;</code>
+       * <code>.Vector pos = 13;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPosOrBuilder() {
         if (posBuilder_ != null) {
@@ -834,11 +765,7 @@ public final class AbilityActionCreateGadgetOuterClass {
         }
       }
       /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>.Vector pos = 7;</code>
+       * <code>.Vector pos = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
@@ -942,8 +869,8 @@ public final class AbilityActionCreateGadgetOuterClass {
     java.lang.String[] descriptorData = {
       "\n\037AbilityActionCreateGadget.proto\032\014Vecto" +
       "r.proto\"X\n\031AbilityActionCreateGadget\022\024\n\003" +
-      "rot\030\013 \001(\0132\007.Vector\022\024\n\003pos\030\007 \001(\0132\007.Vector" +
-      "\022\017\n\007room_id\030\004 \001(\rB\033\n\031emu.grasscutter.net" +
+      "rot\030\n \001(\0132\007.Vector\022\024\n\003pos\030\r \001(\0132\007.Vector" +
+      "\022\017\n\007room_id\030\005 \001(\rB\033\n\031emu.grasscutter.net" +
       ".protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

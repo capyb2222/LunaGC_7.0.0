@@ -21,21 +21,13 @@ public final class PlayerApplyEnterMpResultRspOuterClass {
     int getApplyUid();
 
     /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>int32 retcode = 4;</code>
+     * <code>int32 retcode = 11;</code>
      * @return The retcode.
      */
     int getRetcode();
 
     /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>bool is_agreed = 12;</code>
+     * <code>bool is_agreed = 13;</code>
      * @return The isAgreed.
      */
     boolean getIsAgreed();
@@ -89,17 +81,17 @@ public final class PlayerApplyEnterMpResultRspOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-
-              applyUid_ = input.readUInt32();
-              break;
-            }
-            case 32: {
+            case 88: {
 
               retcode_ = input.readInt32();
               break;
             }
             case 96: {
+
+              applyUid_ = input.readUInt32();
+              break;
+            }
+            case 104: {
 
               isAgreed_ = input.readBool();
               break;
@@ -136,7 +128,7 @@ public final class PlayerApplyEnterMpResultRspOuterClass {
               emu.grasscutter.net.proto.PlayerApplyEnterMpResultRspOuterClass.PlayerApplyEnterMpResultRsp.class, emu.grasscutter.net.proto.PlayerApplyEnterMpResultRspOuterClass.PlayerApplyEnterMpResultRsp.Builder.class);
     }
 
-    public static final int APPLY_UID_FIELD_NUMBER = 1;
+    public static final int APPLY_UID_FIELD_NUMBER = 12;
     private int applyUid_;
 
     @java.lang.Override
@@ -144,14 +136,10 @@ public final class PlayerApplyEnterMpResultRspOuterClass {
       return applyUid_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 4;
+    public static final int RETCODE_FIELD_NUMBER = 11;
     private int retcode_;
     /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>int32 retcode = 4;</code>
+     * <code>int32 retcode = 11;</code>
      * @return The retcode.
      */
     @java.lang.Override
@@ -159,14 +147,10 @@ public final class PlayerApplyEnterMpResultRspOuterClass {
       return retcode_;
     }
 
-    public static final int IS_AGREED_FIELD_NUMBER = 12;
+    public static final int IS_AGREED_FIELD_NUMBER = 13;
     private boolean isAgreed_;
     /**
-     * <pre>
-     *6.5.5     
-     * </pre>
-     *
-     * <code>bool is_agreed = 12;</code>
+     * <code>bool is_agreed = 13;</code>
      * @return The isAgreed.
      */
     @java.lang.Override
@@ -188,14 +172,14 @@ public final class PlayerApplyEnterMpResultRspOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (applyUid_ != 0) {
-        output.writeUInt32(1, applyUid_);
-      }
       if (retcode_ != 0) {
-        output.writeInt32(4, retcode_);
+        output.writeInt32(11, retcode_);
+      }
+      if (applyUid_ != 0) {
+        output.writeUInt32(12, applyUid_);
       }
       if (isAgreed_ != false) {
-        output.writeBool(12, isAgreed_);
+        output.writeBool(13, isAgreed_);
       }
       unknownFields.writeTo(output);
     }
@@ -206,17 +190,17 @@ public final class PlayerApplyEnterMpResultRspOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (applyUid_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, applyUid_);
-      }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(4, retcode_);
+          .computeInt32Size(11, retcode_);
+      }
+      if (applyUid_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(12, applyUid_);
       }
       if (isAgreed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, isAgreed_);
+          .computeBoolSize(13, isAgreed_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -538,11 +522,7 @@ public final class PlayerApplyEnterMpResultRspOuterClass {
 
       private int retcode_ ;
       /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>int32 retcode = 4;</code>
+       * <code>int32 retcode = 11;</code>
        * @return The retcode.
        */
       @java.lang.Override
@@ -550,11 +530,7 @@ public final class PlayerApplyEnterMpResultRspOuterClass {
         return retcode_;
       }
       /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>int32 retcode = 4;</code>
+       * <code>int32 retcode = 11;</code>
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
@@ -565,11 +541,7 @@ public final class PlayerApplyEnterMpResultRspOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>int32 retcode = 4;</code>
+       * <code>int32 retcode = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
@@ -581,11 +553,7 @@ public final class PlayerApplyEnterMpResultRspOuterClass {
 
       private boolean isAgreed_ ;
       /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>bool is_agreed = 12;</code>
+       * <code>bool is_agreed = 13;</code>
        * @return The isAgreed.
        */
       @java.lang.Override
@@ -593,11 +561,7 @@ public final class PlayerApplyEnterMpResultRspOuterClass {
         return isAgreed_;
       }
       /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>bool is_agreed = 12;</code>
+       * <code>bool is_agreed = 13;</code>
        * @param value The isAgreed to set.
        * @return This builder for chaining.
        */
@@ -608,11 +572,7 @@ public final class PlayerApplyEnterMpResultRspOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *6.5.5     
-       * </pre>
-       *
-       * <code>bool is_agreed = 12;</code>
+       * <code>bool is_agreed = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsAgreed() {
@@ -689,7 +649,7 @@ public final class PlayerApplyEnterMpResultRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n!PlayerApplyEnterMpResultRsp.proto\"T\n\033P" +
       "layerApplyEnterMpResultRsp\022\021\n\tapply_uid\030" +
-      "\001 \001(\r\022\017\n\007retcode\030\004 \001(\005\022\021\n\tis_agreed\030\014 \001(" +
+      "\014 \001(\r\022\017\n\007retcode\030\013 \001(\005\022\021\n\tis_agreed\030\r \001(" +
       "\010B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

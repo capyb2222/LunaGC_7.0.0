@@ -19,28 +19,16 @@ public final class PlayerLocationInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
      * <code>.Vector pos = 7;</code>
      * @return Whether the pos field is set.
      */
     boolean hasPos();
     /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
      * <code>.Vector pos = 7;</code>
      * @return The pos.
      */
     emu.grasscutter.net.proto.VectorOuterClass.Vector getPos();
     /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
      * <code>.Vector pos = 7;</code>
      */
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPosOrBuilder();
@@ -52,37 +40,21 @@ public final class PlayerLocationInfoOuterClass {
     int getPFLKBEAJNIJ(int index);
 
     /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
      * <code>.Vector rot = 1;</code>
      * @return Whether the rot field is set.
      */
     boolean hasRot();
     /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
      * <code>.Vector rot = 1;</code>
      * @return The rot.
      */
     emu.grasscutter.net.proto.VectorOuterClass.Vector getRot();
     /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
      * <code>.Vector rot = 1;</code>
      */
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRotOrBuilder();
 
     /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
      * <code>uint32 uid = 3;</code>
      * @return The uid.
      */
@@ -225,10 +197,6 @@ public final class PlayerLocationInfoOuterClass {
     public static final int POS_FIELD_NUMBER = 8;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
     /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
      * <code>.Vector pos = 7;</code>
      * @return Whether the pos field is set.
      */
@@ -237,10 +205,6 @@ public final class PlayerLocationInfoOuterClass {
       return pos_ != null;
     }
     /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
      * <code>.Vector pos = 7;</code>
      * @return The pos.
      */
@@ -249,10 +213,6 @@ public final class PlayerLocationInfoOuterClass {
       return pos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : pos_;
     }
     /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
      * <code>.Vector pos = 7;</code>
      */
     @java.lang.Override
@@ -281,10 +241,6 @@ public final class PlayerLocationInfoOuterClass {
     public static final int ROT_FIELD_NUMBER = 14;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector rot_;
     /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
      * <code>.Vector rot = 1;</code>
      * @return Whether the rot field is set.
      */
@@ -293,10 +249,6 @@ public final class PlayerLocationInfoOuterClass {
       return rot_ != null;
     }
     /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
      * <code>.Vector rot = 1;</code>
      * @return The rot.
      */
@@ -305,10 +257,6 @@ public final class PlayerLocationInfoOuterClass {
       return rot_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : rot_;
     }
     /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
      * <code>.Vector rot = 1;</code>
      */
     @java.lang.Override
@@ -319,10 +267,6 @@ public final class PlayerLocationInfoOuterClass {
     public static final int UID_FIELD_NUMBER = 5;
     private int uid_;
     /**
-     * <pre>
-     *6.5.5
-     * </pre>
-     *
      * <code>uint32 uid = 3;</code>
      * @return The uid.
      */
@@ -744,10 +688,6 @@ public final class PlayerLocationInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> posBuilder_;
       /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
        * <code>.Vector pos = 7;</code>
        * @return Whether the pos field is set.
        */
@@ -755,10 +695,6 @@ public final class PlayerLocationInfoOuterClass {
         return posBuilder_ != null || pos_ != null;
       }
       /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
        * <code>.Vector pos = 7;</code>
        * @return The pos.
        */
@@ -770,10 +706,6 @@ public final class PlayerLocationInfoOuterClass {
         }
       }
       /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
        * <code>.Vector pos = 7;</code>
        */
       public Builder setPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
@@ -790,10 +722,6 @@ public final class PlayerLocationInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
        * <code>.Vector pos = 7;</code>
        */
       public Builder setPos(
@@ -808,10 +736,6 @@ public final class PlayerLocationInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
        * <code>.Vector pos = 7;</code>
        */
       public Builder mergePos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
@@ -830,10 +754,6 @@ public final class PlayerLocationInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
        * <code>.Vector pos = 7;</code>
        */
       public Builder clearPos() {
@@ -848,10 +768,6 @@ public final class PlayerLocationInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
        * <code>.Vector pos = 7;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getPosBuilder() {
@@ -860,10 +776,6 @@ public final class PlayerLocationInfoOuterClass {
         return getPosFieldBuilder().getBuilder();
       }
       /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
        * <code>.Vector pos = 7;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPosOrBuilder() {
@@ -875,10 +787,6 @@ public final class PlayerLocationInfoOuterClass {
         }
       }
       /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
        * <code>.Vector pos = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
@@ -952,10 +860,6 @@ public final class PlayerLocationInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> rotBuilder_;
       /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
        * <code>.Vector rot = 1;</code>
        * @return Whether the rot field is set.
        */
@@ -963,10 +867,6 @@ public final class PlayerLocationInfoOuterClass {
         return rotBuilder_ != null || rot_ != null;
       }
       /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
        * <code>.Vector rot = 1;</code>
        * @return The rot.
        */
@@ -978,10 +878,6 @@ public final class PlayerLocationInfoOuterClass {
         }
       }
       /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
        * <code>.Vector rot = 1;</code>
        */
       public Builder setRot(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
@@ -998,10 +894,6 @@ public final class PlayerLocationInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
        * <code>.Vector rot = 1;</code>
        */
       public Builder setRot(
@@ -1016,10 +908,6 @@ public final class PlayerLocationInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
        * <code>.Vector rot = 1;</code>
        */
       public Builder mergeRot(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
@@ -1038,10 +926,6 @@ public final class PlayerLocationInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
        * <code>.Vector rot = 1;</code>
        */
       public Builder clearRot() {
@@ -1056,10 +940,6 @@ public final class PlayerLocationInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
        * <code>.Vector rot = 1;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getRotBuilder() {
@@ -1068,10 +948,6 @@ public final class PlayerLocationInfoOuterClass {
         return getRotFieldBuilder().getBuilder();
       }
       /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
        * <code>.Vector rot = 1;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRotOrBuilder() {
@@ -1083,10 +959,6 @@ public final class PlayerLocationInfoOuterClass {
         }
       }
       /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
        * <code>.Vector rot = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
@@ -1105,10 +977,6 @@ public final class PlayerLocationInfoOuterClass {
 
       private int uid_ ;
       /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
        * <code>uint32 uid = 3;</code>
        * @return The uid.
        */
@@ -1117,10 +985,6 @@ public final class PlayerLocationInfoOuterClass {
         return uid_;
       }
       /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
        * <code>uint32 uid = 3;</code>
        * @param value The uid to set.
        * @return This builder for chaining.
@@ -1132,10 +996,6 @@ public final class PlayerLocationInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *6.5.5
-       * </pre>
-       *
        * <code>uint32 uid = 3;</code>
        * @return This builder for chaining.
        */

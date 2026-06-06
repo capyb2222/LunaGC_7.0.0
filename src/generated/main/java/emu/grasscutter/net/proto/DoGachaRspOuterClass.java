@@ -142,17 +142,17 @@ public final class DoGachaRspOuterClass {
               break;
             case 24: {
 
-              gachaTimesLimit_ = input.readUInt32();
+              newGachaRandom_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 32: {
 
               costItemId_ = input.readUInt32();
               break;
             }
             case 48: {
 
-              costItemNum_ = input.readUInt32();
+              wishProgress_ = input.readUInt32();
               break;
             }
             case 56: {
@@ -182,7 +182,7 @@ public final class DoGachaRspOuterClass {
             }
             case 96: {
 
-              wishMaxProgress_ = input.readUInt32();
+              gachaTimesLimit_ = input.readUInt32();
               break;
             }
             case 112: {
@@ -237,11 +237,6 @@ public final class DoGachaRspOuterClass {
             case 11728: {
 
               mOHCMPFGHOC_ = input.readBool();
-              break;
-            }
-            case 16984: {
-
-              tenCostItemId_ = input.readUInt32();
               break;
             }
             default: {
@@ -550,9 +545,6 @@ public final class DoGachaRspOuterClass {
       if (mOHCMPFGHOC_ != false) {
         output.writeBool(1914, mOHCMPFGHOC_);
       }
-      if (tenCostItemId_ != 0) {
-        output.writeUInt32(2123, tenCostItemId_);
-      }
       unknownFields.writeTo(output);
     }
 
@@ -562,7 +554,7 @@ public final class DoGachaRspOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (wishProgress_ != 0) {
+      if (tenCostItemId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(11, tenCostItemId_);
       }
@@ -570,7 +562,7 @@ public final class DoGachaRspOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(14, newGachaRandom_);
       }
-      if (costItemNum_ != 0) {
+      if (wishMaxProgress_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(5, wishMaxProgress_);
       }
@@ -641,10 +633,6 @@ public final class DoGachaRspOuterClass {
       if (mOHCMPFGHOC_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1914, mOHCMPFGHOC_);
-      }
-      if (tenCostItemId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2123, tenCostItemId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1872,21 +1860,21 @@ public final class DoGachaRspOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\020DoGachaRsp.proto\032\017GachaItem.proto\"\365\003\n\n" +
+      "\n\020DoGachaRsp.proto\032\017GachaItem.proto\"\366\003\n\n" +
       "DoGachaRsp\022#\n\017gacha_item_list\030\017 \003(\0132\n.Ga" +
       "chaItem\022\022\n\ngacha_type\030\010 \001(\r\022\031\n\021gacha_tim" +
-      "es_limit\030\003 \001(\r\022\024\n\014cost_item_id\030\022 \001(\r\022\024\n\014" +
-      "wish_item_id\030\r \001(\r\022\031\n\021ten_cost_item_num\030" +
-      "\013 \001(\r\022\024\n\013KHKDBGMPKJI\030\244\t \001(\010\022\024\n\013HDGOLIDPB" +
-      "GC\030\257\003 \001(\010\022\024\n\013MOHCMPFGHOC\030\272\013 \001(\010\022\023\n\013gacha" +
-      "_times\030\016 \001(\r\022\017\n\007retcode\030\t \001(\005\022\025\n\rwish_pr" +
-      "ogress\030\001 \001(\r\022\032\n\021daily_gacha_times\030\364\006 \001(\r" +
-      "\022\030\n\020left_gacha_times\030\002 \001(\r\022\031\n\020ten_cost_i" +
-      "tem_id\030\313\020 \001(\r\022\025\n\rcost_item_num\030\006 \001(\r\022\031\n\021" +
-      "wish_max_progress\030\014 \001(\r\022\031\n\021gacha_schedul" +
-      "e_id\030\n \001(\r\022\025\n\rgacha_sort_id\030\020 \001(\r\022\030\n\020new" +
-      "_gacha_random\030\005 \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "es_limit\030\014 \001(\r\022\024\n\014cost_item_id\030\022 \001(\r\022\025\n\014" +
+      "wish_item_id\030\277\001 \001(\r\022\031\n\021ten_cost_item_num" +
+      "\030\r \001(\r\022\024\n\013KHKDBGMPKJI\030\244\t \001(\010\022\024\n\013HDGOLIDP" +
+      "BGC\030\257\003 \001(\010\022\024\n\013MOHCMPFGHOC\030\272\013 \001(\010\022\023\n\013gach" +
+      "a_times\030\016 \001(\r\022\017\n\007retcode\030\t \001(\005\022\025\n\rwish_p" +
+      "rogress\030\006 \001(\r\022\032\n\021daily_gacha_times\030\364\006 \001(" +
+      "\r\022\031\n\020left_gacha_times\030\265\001 \001(\r\022\030\n\020ten_cost" +
+      "_item_id\030\002 \001(\r\022\025\n\rcost_item_num\030\023 \001(\r\022\031\n" +
+      "\021wish_max_progress\030\004 \001(\r\022\031\n\021gacha_schedu" +
+      "le_id\030\n \001(\r\022\025\n\rgacha_sort_id\030\020 \001(\r\022\030\n\020ne" +
+      "w_gacha_random\030\003 \001(\rB\033\n\031emu.grasscutter." +
+      "net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

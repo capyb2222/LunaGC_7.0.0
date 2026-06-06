@@ -40,11 +40,7 @@ public final class EntityFightPropNotifyOuterClass {
         int key);
 
     /**
-     * <pre>
-     *6.5.5    
-     * </pre>
-     *
-     * <code>uint32 entity_id = 10;</code>
+     * <code>uint32 entity_id = 2;</code>
      * @return The entityId.
      */
     int getEntityId();
@@ -236,11 +232,7 @@ public final class EntityFightPropNotifyOuterClass {
     public static final int ENTITY_ID_FIELD_NUMBER = 14;
     private int entityId_;
     /**
-     * <pre>
-     *6.5.5    
-     * </pre>
-     *
-     * <code>uint32 entity_id = 10;</code>
+     * <code>uint32 entity_id = 2;</code>
      * @return The entityId.
      */
     @java.lang.Override
@@ -445,7 +437,7 @@ public final class EntityFightPropNotifyOuterClass {
       protected com.google.protobuf.MapField internalGetMapField(
           int number) {
         switch (number) {
-          case 9:
+          case 5:
             return internalGetFightPropMap();
           default:
             throw new RuntimeException(
@@ -717,11 +709,7 @@ public final class EntityFightPropNotifyOuterClass {
 
       private int entityId_ ;
       /**
-       * <pre>
-       *6.5.5    
-       * </pre>
-       *
-       * <code>uint32 entity_id = 10;</code>
+       * <code>uint32 entity_id = 2;</code>
        * @return The entityId.
        */
       @java.lang.Override
@@ -729,11 +717,7 @@ public final class EntityFightPropNotifyOuterClass {
         return entityId_;
       }
       /**
-       * <pre>
-       *6.5.5    
-       * </pre>
-       *
-       * <code>uint32 entity_id = 10;</code>
+       * <code>uint32 entity_id = 2;</code>
        * @param value The entityId to set.
        * @return This builder for chaining.
        */
@@ -744,11 +728,7 @@ public final class EntityFightPropNotifyOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *6.5.5    
-       * </pre>
-       *
-       * <code>uint32 entity_id = 10;</code>
+       * <code>uint32 entity_id = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
@@ -829,9 +809,9 @@ public final class EntityFightPropNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033EntityFightPropNotify.proto\"\241\001\n\025Entity" +
-      "FightPropNotify\022@\n\016fight_prop_map\030\t \003(\0132" +
+      "FightPropNotify\022@\n\016fight_prop_map\030\005 \003(\0132" +
       "(.EntityFightPropNotify.FightPropMapEntr" +
-      "y\022\021\n\tentity_id\030\n \001(\r\0323\n\021FightPropMapEntr" +
+      "y\022\021\n\tentity_id\030\002 \001(\r\0323\n\021FightPropMapEntr" +
       "y\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\002:\0028\001B\033\n\031emu" +
       ".grasscutter.net.protob\006proto3"
     };

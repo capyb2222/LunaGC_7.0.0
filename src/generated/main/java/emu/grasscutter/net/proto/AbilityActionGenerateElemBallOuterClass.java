@@ -869,8 +869,8 @@ public final class AbilityActionGenerateElemBallOuterClass {
     java.lang.String[] descriptorData = {
       "\n#AbilityActionGenerateElemBall.proto\032\014V" +
       "ector.proto\"\\\n\035AbilityActionGenerateElem" +
-      "Ball\022\024\n\003rot\030\004 \001(\0132\007.Vector\022\024\n\003pos\030\016 \001(\0132" +
-      "\007.Vector\022\017\n\007room_id\030\005 \001(\rB\033\n\031emu.grasscu" +
+      "Ball\022\024\n\003rot\030\003 \001(\0132\007.Vector\022\024\n\003pos\030\007 \001(\0132" +
+      "\007.Vector\022\017\n\007room_id\030\r \001(\rB\033\n\031emu.grasscu" +
       "tter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

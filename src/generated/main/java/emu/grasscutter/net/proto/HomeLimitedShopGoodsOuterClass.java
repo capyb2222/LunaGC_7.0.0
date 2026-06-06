@@ -92,19 +92,14 @@ public final class HomeLimitedShopGoodsOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-
-              disableType_ = input.readUInt32();
-              break;
-            }
-            case 16: {
-
-              buyLimit_ = input.readUInt32();
-              break;
-            }
             case 72: {
 
               goodsId_ = input.readUInt32();
+              break;
+            }
+            case 80: {
+
+              buyLimit_ = input.readUInt32();
               break;
             }
             case 90: {
@@ -132,6 +127,11 @@ public final class HomeLimitedShopGoodsOuterClass {
             case 104: {
 
               boughtNum_ = input.readUInt32();
+              break;
+            }
+            case 112: {
+
+              disableType_ = input.readUInt32();
               break;
             }
             default: {
@@ -217,7 +217,7 @@ public final class HomeLimitedShopGoodsOuterClass {
       return costItemList_.get(index);
     }
 
-    public static final int BUY_LIMIT_FIELD_NUMBER = 2;
+    public static final int BUY_LIMIT_FIELD_NUMBER = 10;
     private int buyLimit_;
 
     @java.lang.Override
@@ -225,7 +225,7 @@ public final class HomeLimitedShopGoodsOuterClass {
       return buyLimit_;
     }
 
-    public static final int DISABLE_TYPE_FIELD_NUMBER = 1;
+    public static final int DISABLE_TYPE_FIELD_NUMBER = 14;
     private int disableType_;
 
     @java.lang.Override
@@ -263,14 +263,11 @@ public final class HomeLimitedShopGoodsOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (disableType_ != 0) {
-        output.writeUInt32(1, disableType_);
-      }
-      if (buyLimit_ != 0) {
-        output.writeUInt32(2, buyLimit_);
-      }
       if (goodsId_ != 0) {
         output.writeUInt32(9, goodsId_);
+      }
+      if (buyLimit_ != 0) {
+        output.writeUInt32(10, buyLimit_);
       }
       for (int i = 0; i < costItemList_.size(); i++) {
         output.writeMessage(10, costItemList_.get(i));
@@ -281,6 +278,9 @@ public final class HomeLimitedShopGoodsOuterClass {
       if (boughtNum_ != 0) {
         output.writeUInt32(13, boughtNum_);
       }
+      if (disableType_ != 0) {
+        output.writeUInt32(14, disableType_);
+      }
       unknownFields.writeTo(output);
     }
 
@@ -290,17 +290,13 @@ public final class HomeLimitedShopGoodsOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (disableType_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, disableType_);
-      }
-      if (buyLimit_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, buyLimit_);
-      }
       if (goodsId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(9, goodsId_);
+      }
+      if (buyLimit_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(10, buyLimit_);
       }
       for (int i = 0; i < costItemList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -313,6 +309,10 @@ public final class HomeLimitedShopGoodsOuterClass {
       if (boughtNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(13, boughtNum_);
+      }
+      if (disableType_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(14, disableType_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1143,8 +1143,8 @@ public final class HomeLimitedShopGoodsOuterClass {
       "\n\032HomeLimitedShopGoods.proto\032\017ItemParam." +
       "proto\"\251\001\n\024HomeLimitedShopGoods\022\036\n\ngoods_" +
       "item\030\014 \001(\0132\n.ItemParam\022\"\n\016cost_item_list" +
-      "\030\013 \003(\0132\n.ItemParam\022\021\n\tbuy_limit\030\002 \001(\r\022\024\n" +
-      "\014disable_type\030\001 \001(\r\022\020\n\010goods_id\030\t \001(\r\022\022\n" +
+      "\030\013 \003(\0132\n.ItemParam\022\021\n\tbuy_limit\030\n \001(\r\022\024\n" +
+      "\014disable_type\030\016 \001(\r\022\020\n\010goods_id\030\t \001(\r\022\022\n" +
       "\nbought_num\030\r \001(\rB\033\n\031emu.grasscutter.net" +
       ".protob\006proto3"
     };
