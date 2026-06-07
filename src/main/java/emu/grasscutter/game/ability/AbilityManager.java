@@ -1034,6 +1034,23 @@ public final class AbilityManager extends BasePlayerManager {
         throws InvalidProtocolBufferException {
     }
 
+    private static volatile Set<Integer> moonLightAbilityHashes;
+
+    private static Set<Integer> getMoonLightAbilityHashes() {
+        Set<Integer> s = moonLightAbilityHashes;
+        if (s == null) {
+            s = new HashSet<>();
+            for (var e : GameData.getAbilityHashes().int2ObjectEntrySet()) {
+                String name = e.getValue();
+                if (name != null && name.startsWith("Avatar_") && name.endsWith("_MoonLight")) {
+                    s.add(e.getIntKey());
+                }
+            }
+            moonLightAbilityHashes = s;
+        }
+        return s;
+    }
+
     private void handleAddNewAbility(AbilityInvokeEntry invoke)
         throws InvalidProtocolBufferException {
         var entity = this.player.getScene().getEntityById(invoke.getEntityId());
@@ -1057,18 +1074,21 @@ public final class AbilityManager extends BasePlayerManager {
         int abHash = abString.hasHash() ? abString.getHash() : 0;
         boolean isTeamMoonPhase = "TeamAbility_MoonPhase".equals(abilityName)
             || abHash == Utils.abilityHash("TeamAbility_MoonPhase");
-        boolean isNeferMoonLight = "Avatar_Nefer_MoonLight".equals(abilityName)
-            || abHash == Utils.abilityHash("Avatar_Nefer_MoonLight");
+        boolean isMoonLightAbility =
+            (abilityName != null && abilityName.startsWith("Avatar_") && abilityName.endsWith("_MoonLight"))
+            || getMoonLightAbilityHashes().contains(abHash);
 
         if (isTeamMoonPhase) {
             long moonCount = this.player.getTeamManager().getActiveTeam().stream()
                 .filter(e -> PacketPlayerEnterSceneInfoNotify.getMoonphaseIds().contains(
                     e.getAvatar().getAvatarId()))
                 .count();
-            int teamEntityId = this.player.getTeamManager().getEntity().getId();
+            var teamEntity = this.player.getTeamManager().getEntity();
+            int teamEntityId = teamEntity.getId();
             this.player.sendPacket(new PacketServerGlobalValueChangeNotify(
                 teamEntityId, "SGV_MoonPhaseLevel", (float) moonCount));
             if (moonCount > 0) {
+                teamEntity.getGlobalAbilityValues().put("MoonOvergrowPoint_All", 50f);
                 this.player.sendPacket(new PacketServerGlobalValueChangeNotify(
                     teamEntityId, "MoonOvergrowPoint_All", 50f));
             }
@@ -1076,17 +1096,19 @@ public final class AbilityManager extends BasePlayerManager {
                 moonCount, moonCount > 0 ? 50 : 0);
         }
 
-        if (isNeferMoonLight) {
+        if (isMoonLightAbility) {
             long moonCount = this.player.getTeamManager().getActiveTeam().stream()
                 .filter(e -> PacketPlayerEnterSceneInfoNotify.getMoonphaseIds().contains(
                     e.getAvatar().getAvatarId()))
                 .count();
             if (moonCount > 0) {
-                int teamEntityId = this.player.getTeamManager().getEntity().getId();
+                var teamEntity = this.player.getTeamManager().getEntity();
+                int teamEntityId = teamEntity.getId();
+                teamEntity.getGlobalAbilityValues().put("MoonOvergrowPoint_All", 50f);
                 this.player.sendPacket(new PacketServerGlobalValueChangeNotify(
                     teamEntityId, "MoonOvergrowPoint_All", 50f));
-                log.debug("Avatar_Nefer_MoonLight loaded: re-sent MoonOvergrowPoint_All=50 to team entity={}",
-                    teamEntityId);
+                log.debug("MoonLight ability {} loaded: re-sent MoonOvergrowPoint_All=50 to team entity={}",
+                    abilityName, teamEntityId);
             }
         }
 
@@ -1256,6 +1278,52 @@ public final class AbilityManager extends BasePlayerManager {
         if (!overrides.isEmpty()) {
             player.sendPacket(new PacketAbilityInvocationsNotify(overrides));
         }
+    }
+
+    public Map<String, Float> computeGadgetVarOverrides(EntityClientGadget gadget) {
+        Map<String, Float> result = new HashMap<>();
+        var ownerEntity = player.getScene().getEntityById(gadget.getOriginalOwnerEntityId());
+        if (!(ownerEntity instanceof EntityAvatar avatarOwner)) return result;
+        var avatar = avatarOwner.getAvatar();
+        AvatarSkillDepotData depot = GameData.getAvatarSkillDepotDataMap().get(avatar.getSkillDepotId());
+
+        List<String> abilityNames = new ArrayList<>();
+        if (gadget.getConfigGadget() != null && gadget.getConfigGadget().getAbilities() != null) {
+            for (var a : gadget.getConfigGadget().getAbilities()) {
+                if (a.getAbilityName() != null) abilityNames.add(a.getAbilityName());
+            }
+        }
+        var gd = GameData.getGadgetDataMap().get(gadget.getGadgetId());
+        if (abilityNames.isEmpty() && gd != null && gd.getJsonName() != null) {
+            abilityNames.add("Bullet_" + gd.getJsonName());
+        }
+
+        for (String abilityName : abilityNames) {
+            var talentVars = GameData.getAbilityTalentVarMap().get(abilityName);
+            if (talentVars == null) continue;
+            for (var tv : talentVars) {
+                Integer groupId = GameData.getOpenConfigToProudSkillGroup().get(tv.openConfigName());
+                if (groupId == null) continue;
+                int skillLevel = 1;
+                if (depot != null) {
+                    int resolvedGroupId = groupId;
+                    skillLevel = depot.getSkillsAndEnergySkill()
+                        .filter(sid -> {
+                            var sc = GameData.getAvatarSkillDataMap().get(sid);
+                            return sc != null && sc.getProudSkillGroupId() == resolvedGroupId;
+                        })
+                        .mapToObj(sid -> avatar.getSkillLevelMap().getOrDefault(sid, 1))
+                        .findFirst()
+                        .orElse(1);
+                }
+                ProudSkillData proudSkill = GameData.getProudSkillDataMap().get(groupId * 100 + skillLevel);
+                if (proudSkill == null) continue;
+                float[] paramList = proudSkill.getParamList();
+                if (paramList == null || tv.paramIndex() >= paramList.length) continue;
+                result.put(tv.varName(), paramList[tv.paramIndex()]);
+            }
+        }
+        return result;
     }
 
     public void addAbilityToEntity(GameEntity entity, String name) {

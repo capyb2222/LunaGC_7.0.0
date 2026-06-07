@@ -69,6 +69,18 @@ public class HandlerCombatInvocationsNotify extends PacketHandler {
                                     }
                                     if (hexRatio > 0f && normalPct > 0f) break;
                                 }
+                                if (hexRatio == 0f || normalPct == 0f) {
+                                    var vars = player.getAbilityManager().computeGadgetVarOverrides(gadget);
+                                    if (hexRatio == 0f) hexRatio = vars.getOrDefault("Hexenzirkel_NormalAttack_Ratio", 0f);
+                                    if (normalPct == 0f) {
+                                        for (var e : vars.entrySet()) {
+                                            if (e.getKey().startsWith("NormalAttack_") && e.getKey().endsWith("_Damage_Percentage")) {
+                                                normalPct = e.getValue();
+                                                break;
+                                            }
+                                        }
+                                    }
+                                }
                                 if (hexRatio > 0f && normalPct > 0f) {
                                     attackerGadget = gadget;
                                 }
@@ -76,7 +88,8 @@ public class HandlerCombatInvocationsNotify extends PacketHandler {
                         }
 
                         GameEntity nearestMonster = null;
-                        if (defenseId == 0 && (computedDamage > 0f || attackerGadget != null)) {
+                        if ((defenseId == 0 || attackerGadget != null)
+                                && (computedDamage > 0f || attackerGadget != null)) {
                             var avatarPos = player.getTeamManager().getCurrentAvatarEntity().getPosition();
                             float nearestDist2 = Float.MAX_VALUE;
                             for (var e : player.getScene().getEntities().values()) {
@@ -111,7 +124,6 @@ public class HandlerCombatInvocationsNotify extends PacketHandler {
                             }
 
                             changed = true;
-
                         }
 
                         if (changed) {

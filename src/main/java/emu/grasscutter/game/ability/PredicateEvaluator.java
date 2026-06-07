@@ -100,9 +100,9 @@ public final class PredicateEvaluator {
         String cmp = cmpObj instanceof String s ? s : "Equal";
         return switch (cmp) {
             case "MoreThan", "Greater"    -> current > bound;
-            case "MoreOrEqual", "GreaterOrEqual" -> current >= bound;
+            case "MoreThanAndEqual", "MoreOrEqual", "GreaterOrEqual" -> current >= bound;
             case "LessThan", "Lesser"     -> current < bound;
-            case "LessOrEqual", "LesserOrEqual" -> current <= bound;
+            case "LessThanAndEqual", "LessOrEqual", "LesserOrEqual" -> current <= bound;
             case "NotEqual"               -> current != bound;
             default                       -> current == bound;
         };
@@ -125,6 +125,8 @@ public final class PredicateEvaluator {
         if (v instanceof Map<?, ?> m) {
             Object inner = m.get("value");
             if (inner instanceof Number n) return n.floatValue();
+            Object exp = m.get("__exp_FixedValue");
+            if (exp instanceof Number n) return n.floatValue();
         }
         return 0f;
     }

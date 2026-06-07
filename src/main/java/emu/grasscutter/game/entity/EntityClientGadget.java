@@ -118,6 +118,11 @@ public class EntityClientGadget extends EntityBaseGadget {
                 addConfigAbility(ability);
             }
         }
+        if (this.getInstancedAbilities().isEmpty() && this.gadgetData != null
+                && this.gadgetData.getJsonName() != null) {
+            var data = GameData.getAbilityData("Bullet_" + this.gadgetData.getJsonName());
+            if (data != null) owner.getAbilityManager().addAbilityToEntity(this, data);
+        }
     }
 
     private void addConfigAbility(ConfigAbilityData abilityData) {

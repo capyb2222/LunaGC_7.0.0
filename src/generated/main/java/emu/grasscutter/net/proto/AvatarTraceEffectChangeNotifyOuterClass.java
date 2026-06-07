@@ -83,7 +83,7 @@ public final class AvatarTraceEffectChangeNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 26: {
+            case 34: {
               emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo.Builder subBuilder = null;
               if (entityInfo_ != null) {
                 subBuilder = entityInfo_.toBuilder();
@@ -128,7 +128,7 @@ public final class AvatarTraceEffectChangeNotifyOuterClass {
               emu.grasscutter.net.proto.AvatarTraceEffectChangeNotifyOuterClass.AvatarTraceEffectChangeNotify.class, emu.grasscutter.net.proto.AvatarTraceEffectChangeNotifyOuterClass.AvatarTraceEffectChangeNotify.Builder.class);
     }
 
-    public static final int ENTITY_INFO_FIELD_NUMBER = 3;
+    public static final int ENTITY_INFO_FIELD_NUMBER = 4;
     private emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo entityInfo_;
     /**
      * <code>.SceneEntityInfo entity_info = 13;</code>
@@ -169,7 +169,7 @@ public final class AvatarTraceEffectChangeNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (entityInfo_ != null) {
-        output.writeMessage(3, getEntityInfo());
+        output.writeMessage(4, getEntityInfo());
       }
       unknownFields.writeTo(output);
     }
@@ -182,7 +182,7 @@ public final class AvatarTraceEffectChangeNotifyOuterClass {
       size = 0;
       if (entityInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, getEntityInfo());
+          .computeMessageSize(4, getEntityInfo());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

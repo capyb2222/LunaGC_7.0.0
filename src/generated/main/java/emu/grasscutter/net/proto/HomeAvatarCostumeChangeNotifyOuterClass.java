@@ -80,7 +80,7 @@ public final class HomeAvatarCostumeChangeNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
+            case 120: {
 
               costumeId_ = input.readUInt32();
               break;
@@ -122,7 +122,7 @@ public final class HomeAvatarCostumeChangeNotifyOuterClass {
               emu.grasscutter.net.proto.HomeAvatarCostumeChangeNotifyOuterClass.HomeAvatarCostumeChangeNotify.class, emu.grasscutter.net.proto.HomeAvatarCostumeChangeNotifyOuterClass.HomeAvatarCostumeChangeNotify.Builder.class);
     }
 
-    public static final int COSTUME_ID_FIELD_NUMBER = 7;
+    public static final int COSTUME_ID_FIELD_NUMBER = 15;
     private int costumeId_;
     /**
      * <code>uint32 costume_id = 7;</code>
@@ -159,7 +159,7 @@ public final class HomeAvatarCostumeChangeNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (costumeId_ != 0) {
-        output.writeUInt32(7, costumeId_);
+        output.writeUInt32(15, costumeId_);
       }
       if (avatarId_ != 0) {
         output.writeUInt32(11, avatarId_);
@@ -175,7 +175,7 @@ public final class HomeAvatarCostumeChangeNotifyOuterClass {
       size = 0;
       if (costumeId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, costumeId_);
+          .computeUInt32Size(15, costumeId_);
       }
       if (avatarId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
