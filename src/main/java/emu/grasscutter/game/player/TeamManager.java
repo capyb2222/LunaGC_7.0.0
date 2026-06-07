@@ -358,6 +358,8 @@ public final class TeamManager extends BasePlayerDataManager {
         long hexenzirkelCount = this.getActiveTeam().stream()
             .filter(e -> PacketPlayerEnterSceneInfoNotify.getHexenzirkelIds().contains(e.getAvatar().getAvatarId()))
             .count();
+        this.getPlayer().sendPacket(new PacketServerGlobalValueChangeNotify(
+            this.getEntity().getId(), "SGV_HexenzirkelLevel", (float) hexenzirkelCount));
         this.getPlayer().sendPacket(new PacketTeamHexenzirkelChangeNotify((int) hexenzirkelCount));
     }
 

@@ -71,12 +71,12 @@ public final class AvatarChangeCostumeReqOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
+            case 56: {
 
               avatarGuid_ = input.readUInt64();
               break;
             }
-            case 112: {
+            case 88: {
 
               costumeId_ = input.readUInt32();
               break;
@@ -113,7 +113,7 @@ public final class AvatarChangeCostumeReqOuterClass {
               emu.grasscutter.net.proto.AvatarChangeCostumeReqOuterClass.AvatarChangeCostumeReq.class, emu.grasscutter.net.proto.AvatarChangeCostumeReqOuterClass.AvatarChangeCostumeReq.Builder.class);
     }
 
-    public static final int AVATAR_GUID_FIELD_NUMBER = 5;
+    public static final int AVATAR_GUID_FIELD_NUMBER = 7;
     private long avatarGuid_;
 
     @java.lang.Override
@@ -121,7 +121,7 @@ public final class AvatarChangeCostumeReqOuterClass {
       return avatarGuid_;
     }
 
-    public static final int COSTUME_ID_FIELD_NUMBER = 14;
+    public static final int COSTUME_ID_FIELD_NUMBER = 11;
     private int costumeId_;
 
     @java.lang.Override
@@ -144,10 +144,10 @@ public final class AvatarChangeCostumeReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (avatarGuid_ != 0L) {
-        output.writeUInt64(5, avatarGuid_);
+        output.writeUInt64(7, avatarGuid_);
       }
       if (costumeId_ != 0) {
-        output.writeUInt32(14, costumeId_);
+        output.writeUInt32(11, costumeId_);
       }
       unknownFields.writeTo(output);
     }
@@ -160,11 +160,11 @@ public final class AvatarChangeCostumeReqOuterClass {
       size = 0;
       if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(5, avatarGuid_);
+          .computeUInt64Size(7, avatarGuid_);
       }
       if (costumeId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, costumeId_);
+          .computeUInt32Size(11, costumeId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

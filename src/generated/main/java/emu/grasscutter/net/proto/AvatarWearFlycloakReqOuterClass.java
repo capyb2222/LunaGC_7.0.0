@@ -85,6 +85,16 @@ public final class AvatarWearFlycloakReqOuterClass {
               avatarGuid_ = input.readUInt64();
               break;
             }
+            case 66: {
+
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              while (input.getBytesUntilLimit() > 0) {
+                avatarGuid_ = input.readUInt64();
+              }
+              input.popLimit(limit);
+              break;
+            }
             default: {
               if (!parseUnknownField(
                   input, unknownFields, extensionRegistry, tag)) {
