@@ -87,7 +87,7 @@ public final class GroupUnloadNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 72: {
+            case 104: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 groupList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -95,7 +95,7 @@ public final class GroupUnloadNotifyOuterClass {
               groupList_.addInt(input.readUInt32());
               break;
             }
-            case 74: {
+            case 106: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -143,7 +143,7 @@ public final class GroupUnloadNotifyOuterClass {
               emu.grasscutter.net.proto.GroupUnloadNotifyOuterClass.GroupUnloadNotify.class, emu.grasscutter.net.proto.GroupUnloadNotifyOuterClass.GroupUnloadNotify.Builder.class);
     }
 
-    public static final int GROUP_LIST_FIELD_NUMBER = 9;
+    public static final int GROUP_LIST_FIELD_NUMBER = 13;
     private com.google.protobuf.Internal.IntList groupList_;
     /**
      * <code>repeated uint32 group_list = 9;</code>
@@ -187,7 +187,7 @@ public final class GroupUnloadNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getGroupListList().size() > 0) {
-        output.writeUInt32NoTag(74);
+        output.writeUInt32NoTag(106);
         output.writeUInt32NoTag(groupListMemoizedSerializedSize);
       }
       for (int i = 0; i < groupList_.size(); i++) {

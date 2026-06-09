@@ -170,15 +170,20 @@ public class GameSession implements GameSessionManager.KcpChannel {
 
         try {
             boolean allDebug = GAME_INFO.logPackets == ServerDebugMode.ALL;
+            int prevOpcode = -1, prevHeaderLen = -1, prevPayloadLen = -1, prevStart = -1;
             while (packet.readableBytes() > 0) {
                 if (packet.readableBytes() < 12) {
                     return;
                 }
+                int pktStart = packet.readerIndex();
                 int const1 = packet.readShort();
                 if (const1 != 17767) {
                     if (allDebug) {
+                        int badOffset = packet.readerIndex() - 2;
                         Grasscutter.getLogger()
-                                .error("Bad Data Package Received: got {} ,expect 17767", const1);
+                                .error("Bad Data Package Received: got {} ,expect 17767 (bad magic at offset {} of {}-byte frame; prev packet opcode={} headerLen={} payloadLen={} startedAt={})", const1, badOffset, bytes.length, prevOpcode, prevHeaderLen, prevPayloadLen, prevStart);
+                        Grasscutter.getLogger()
+                                .error("RAW FRAME HEX: {}", Utils.bytesToHex(bytes));
                     }
                     return; // Bad packet
                 }
@@ -198,6 +203,11 @@ public class GameSession implements GameSessionManager.KcpChannel {
                     }
                     return; // Bad packet
                 }
+
+                prevOpcode = opcode;
+                prevHeaderLen = headerLength;
+                prevPayloadLen = payloadLength;
+                prevStart = pktStart;
 
                 switch (GAME_INFO.logPackets) {
                     case ALL -> {

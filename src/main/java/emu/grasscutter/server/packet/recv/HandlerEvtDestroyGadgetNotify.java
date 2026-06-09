@@ -1,7 +1,5 @@
 package emu.grasscutter.server.packet.recv;
 
-import emu.grasscutter.Grasscutter;
-import emu.grasscutter.game.entity.EntityClientGadget;
 import emu.grasscutter.net.packet.*;
 import emu.grasscutter.net.proto.EvtDestroyGadgetNotifyOuterClass.EvtDestroyGadgetNotify;
 import emu.grasscutter.server.game.GameSession;

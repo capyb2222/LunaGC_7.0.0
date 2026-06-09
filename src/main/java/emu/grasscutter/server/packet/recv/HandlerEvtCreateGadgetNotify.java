@@ -31,7 +31,5 @@ public class HandlerEvtCreateGadgetNotify extends PacketHandler {
                 };
 
         session.getPlayer().getScene().onPlayerCreateGadget(gadget);
-
-        session.getPlayer().getAbilityManager().pushBulletTalentVars(gadget);
     }
 }

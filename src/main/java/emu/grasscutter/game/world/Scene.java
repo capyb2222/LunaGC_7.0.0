@@ -447,8 +447,6 @@ public class Scene {
             Grasscutter.getLogger().info("handleAttack: target not found defenseId={} attackerId={} damage={}", result.getDefenseId(), result.getAttackerId(), result.getDamage());
             return;
         }
-        Grasscutter.getLogger().info("handleAttack: attackerId={} target={} damage={}", result.getAttackerId(), result.getDefenseId(), result.getDamage());
-
         if (target instanceof EntityAvatar) {
             if (((EntityAvatar) target).getPlayer().isInGodMode()) {
                 return;
