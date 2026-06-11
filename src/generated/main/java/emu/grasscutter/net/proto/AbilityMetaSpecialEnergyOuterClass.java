@@ -19,7 +19,7 @@ public final class AbilityMetaSpecialEnergyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>float value = 9;</code>
+     * <code>float value = 6;</code>
      * @return The value.
      */
     float getValue();
@@ -69,7 +69,7 @@ public final class AbilityMetaSpecialEnergyOuterClass {
             case 0:
               done = true;
               break;
-            case 77: {
+            case 53: {
 
               value_ = input.readFloat();
               break;
@@ -106,10 +106,10 @@ public final class AbilityMetaSpecialEnergyOuterClass {
               emu.grasscutter.net.proto.AbilityMetaSpecialEnergyOuterClass.AbilityMetaSpecialEnergy.class, emu.grasscutter.net.proto.AbilityMetaSpecialEnergyOuterClass.AbilityMetaSpecialEnergy.Builder.class);
     }
 
-    public static final int VALUE_FIELD_NUMBER = 9;
+    public static final int VALUE_FIELD_NUMBER = 6;
     private float value_;
     /**
-     * <code>float value = 9;</code>
+     * <code>float value = 6;</code>
      * @return The value.
      */
     @java.lang.Override
@@ -132,7 +132,7 @@ public final class AbilityMetaSpecialEnergyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (value_ != 0F) {
-        output.writeFloat(9, value_);
+        output.writeFloat(6, value_);
       }
       unknownFields.writeTo(output);
     }
@@ -145,7 +145,7 @@ public final class AbilityMetaSpecialEnergyOuterClass {
       size = 0;
       if (value_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(9, value_);
+          .computeFloatSize(6, value_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -423,7 +423,7 @@ public final class AbilityMetaSpecialEnergyOuterClass {
 
       private float value_ ;
       /**
-       * <code>float value = 9;</code>
+       * <code>float value = 6;</code>
        * @return The value.
        */
       @java.lang.Override
@@ -431,7 +431,7 @@ public final class AbilityMetaSpecialEnergyOuterClass {
         return value_;
       }
       /**
-       * <code>float value = 9;</code>
+       * <code>float value = 6;</code>
        * @param value The value to set.
        * @return This builder for chaining.
        */
@@ -442,7 +442,7 @@ public final class AbilityMetaSpecialEnergyOuterClass {
         return this;
       }
       /**
-       * <code>float value = 9;</code>
+       * <code>float value = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearValue() {
@@ -519,7 +519,7 @@ public final class AbilityMetaSpecialEnergyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\036AbilityMetaSpecialEnergy.proto\")\n\030Abil" +
-      "ityMetaSpecialEnergy\022\r\n\005value\030\t \001(\002B\033\n\031e" +
+      "ityMetaSpecialEnergy\022\r\n\005value\030\006 \001(\002B\033\n\031e" +
       "mu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

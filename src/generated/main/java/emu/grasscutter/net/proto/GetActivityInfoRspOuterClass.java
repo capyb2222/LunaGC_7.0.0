@@ -298,7 +298,7 @@ public final class GetActivityInfoRspOuterClass {
         output.writeMessage(13, disableTransferPointInteractionList_.get(i));
       }
       if (getActivatedSaleIdListList().size() > 0) {
-        output.writeUInt32NoTag(34);
+        output.writeUInt32NoTag(58);
         output.writeUInt32NoTag(activatedSaleIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < activatedSaleIdList_.size(); i++) {
@@ -1289,7 +1289,7 @@ public final class GetActivityInfoRspOuterClass {
       "InfoRsp\022<\n\'disable_transfer_point_intera" +
       "ction_list\030\002 \003(\0132\013.Uint32Pair\022)\n\022activit" +
       "y_info_list\030\001 \003(\0132\r.ActivityInfo\022\036\n\026acti" +
-      "vated_sale_id_list\030\004 \003(\r\022\017\n\007retcode\030\t \001(" +
+      "vated_sale_id_list\030\007 \003(\r\022\017\n\007retcode\030\t \001(" +
       "\005B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

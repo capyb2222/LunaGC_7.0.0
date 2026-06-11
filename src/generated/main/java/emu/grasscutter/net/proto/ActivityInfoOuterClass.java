@@ -790,7 +790,7 @@ public final class ActivityInfoOuterClass {
       return map.get(key);
     }
 
-    public static final int WATCHER_INFO_LIST_FIELD_NUMBER = 3;
+    public static final int WATCHER_INFO_LIST_FIELD_NUMBER = 7;
     private java.util.List<emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo> watcherInfoList_;
 
     @java.lang.Override
@@ -1032,7 +1032,7 @@ public final class ActivityInfoOuterClass {
     }
     private int fLDFIFJDGDBMemoizedSerializedSize = -1;
 
-    public static final int MEET_COND_LIST_FIELD_NUMBER = 16;
+    public static final int MEET_COND_LIST_FIELD_NUMBER = 11;
     private com.google.protobuf.Internal.IntList meetCondList_;
 
     @java.lang.Override
@@ -1134,7 +1134,7 @@ public final class ActivityInfoOuterClass {
       return lFPOBIAKJJN_;
     }
 
-    public static final int FIRST_DAY_START_TIME_FIELD_NUMBER = 795;
+    public static final int FIRST_DAY_START_TIME_FIELD_NUMBER = 116;
     private int firstDayStartTime_;
 
     @java.lang.Override
@@ -1327,7 +1327,7 @@ public final class ActivityInfoOuterClass {
         output.writeUInt32(14, beginTime_);
       }
       for (int i = 0; i < watcherInfoList_.size(); i++) {
-        output.writeMessage(3, watcherInfoList_.get(i));
+        output.writeMessage(7, watcherInfoList_.get(i));
       }
       if (activityId_ != 0) {
         output.writeUInt32(5, activityId_);
@@ -1345,7 +1345,7 @@ public final class ActivityInfoOuterClass {
         output.writeBool(15, dKKAEBHHLFM_);
       }
       if (getMeetCondListList().size() > 0) {
-        output.writeUInt32NoTag(130);
+        output.writeUInt32NoTag(90);
         output.writeUInt32NoTag(meetCondListMemoizedSerializedSize);
       }
       for (int i = 0; i < meetCondList_.size(); i++) {
@@ -1391,7 +1391,7 @@ public final class ActivityInfoOuterClass {
         output.writeBool(739, fOOCOANFLEL_);
       }
       if (firstDayStartTime_ != 0) {
-        output.writeUInt32(795, firstDayStartTime_);
+        output.writeUInt32(116, firstDayStartTime_);
       }
       if (bubbleDramaPlayInfo_ != null) {
         output.writeMessage(919, getBubbleDramaPlayInfo());
@@ -1452,7 +1452,7 @@ public final class ActivityInfoOuterClass {
       }
       for (int i = 0; i < watcherInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, watcherInfoList_.get(i));
+          .computeMessageSize(7, watcherInfoList_.get(i));
       }
       if (activityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -1482,7 +1482,7 @@ public final class ActivityInfoOuterClass {
         }
         size += dataSize;
         if (!getMeetCondListList().isEmpty()) {
-          size += 2;
+          size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
@@ -1558,7 +1558,7 @@ public final class ActivityInfoOuterClass {
       }
       if (firstDayStartTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(795, firstDayStartTime_);
+          .computeUInt32Size(116, firstDayStartTime_);
       }
       if (bubbleDramaPlayInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
