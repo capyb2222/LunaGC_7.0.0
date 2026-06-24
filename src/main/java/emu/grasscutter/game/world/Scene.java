@@ -464,6 +464,14 @@ public class Scene {
             return;
         }
 
+        if (target instanceof EntityAvatar avatar) {
+            if (avatar.getPlayer()
+            .getAbilityManager()
+            .isAbilityInvulnerable()) {
+                return;
+            }
+        }
+
         target.damage(result.getDamage(), result.getAttackerId(), attackType);
 
         if (attacker instanceof EntityAvatar arlecAttacker
