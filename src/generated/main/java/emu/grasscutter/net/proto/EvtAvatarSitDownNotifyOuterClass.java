@@ -102,7 +102,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
 
               break;
             }
-            case 24: {
+            case 16: {
 
               performId_ = input.readInt32();
               break;
@@ -170,7 +170,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
       return entityId_;
     }
 
-    public static final int PERFORM_ID_FIELD_NUMBER = 3;
+    public static final int PERFORM_ID_FIELD_NUMBER = 2;
     private int performId_;
     /**
      * <code>int32 perform_id = 3;</code>
@@ -210,7 +210,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
         output.writeMessage(2, getPosition());
       }
       if (performId_ != 0) {
-        output.writeInt32(3, performId_);
+        output.writeInt32(2, performId_);
       }
       if (chairId_ != 0L) {
         output.writeUInt64(1, chairId_);
@@ -234,7 +234,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
       }
       if (performId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(3, performId_);
+          .computeInt32Size(2, performId_);
       }
       if (chairId_ != 0L) {
         size += com.google.protobuf.CodedOutputStream

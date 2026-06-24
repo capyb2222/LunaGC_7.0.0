@@ -5,7 +5,6 @@ import emu.grasscutter.Grasscutter;
 import emu.grasscutter.data.binout.AbilityModifier.AbilityModifierAction;
 import emu.grasscutter.game.ability.Ability;
 import emu.grasscutter.game.entity.EntityAvatar;
-import emu.grasscutter.game.entity.EntityClientGadget;
 import emu.grasscutter.game.entity.GameEntity;
 
 @AbilityAction(AbilityModifierAction.Type.KillSelf)
@@ -22,9 +21,6 @@ public final class ActionKillSelf extends AbilityActionHandler {
             return true;
         }
 
-        if (target instanceof EntityClientGadget) {
-            return true;
-        }
         target.getScene().killEntity(target);
         return true;
     }

@@ -73,7 +73,7 @@ public final class ActivityInfoNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 106: {
+            case 114: {
               emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo.Builder subBuilder = null;
               if (activityInfo_ != null) {
                 subBuilder = activityInfo_.toBuilder();
@@ -151,7 +151,7 @@ public final class ActivityInfoNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (activityInfo_ != null) {
-        output.writeMessage(13, getActivityInfo());
+        output.writeMessage(14, getActivityInfo());
       }
       unknownFields.writeTo(output);
     }
@@ -164,7 +164,7 @@ public final class ActivityInfoNotifyOuterClass {
       size = 0;
       if (activityInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, getActivityInfo());
+          .computeMessageSize(14, getActivityInfo());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -621,7 +621,7 @@ public final class ActivityInfoNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030ActivityInfoNotify.proto\032\022ActivityInfo" +
       ".proto\":\n\022ActivityInfoNotify\022$\n\ractivity" +
-      "_info\030\r \001(\0132\r.ActivityInfoB\033\n\031emu.grassc" +
+      "_info\030\016 \001(\0132\r.ActivityInfoB\033\n\031emu.grassc" +
       "utter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

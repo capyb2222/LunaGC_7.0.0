@@ -89,8 +89,8 @@ public final class Utils {
     }
 
     public static byte[] byteBufToArray(ByteBuf buf) {
-        byte[] bytes = new byte[buf.capacity()];
-        buf.getBytes(0, bytes);
+        byte[] bytes = new byte[buf.readableBytes()];
+        buf.getBytes(buf.readerIndex(), bytes);
         return bytes;
     }
 

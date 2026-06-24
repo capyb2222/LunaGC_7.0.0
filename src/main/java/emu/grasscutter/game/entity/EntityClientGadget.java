@@ -118,11 +118,6 @@ public class EntityClientGadget extends EntityBaseGadget {
                 addConfigAbility(ability);
             }
         }
-        if (this.getInstancedAbilities().isEmpty() && this.gadgetData != null
-                && this.gadgetData.getJsonName() != null) {
-            var data = GameData.getAbilityData("Bullet_" + this.gadgetData.getJsonName());
-            if (data != null) owner.getAbilityManager().addAbilityToEntity(this, data);
-        }
     }
 
     private void addConfigAbility(ConfigAbilityData abilityData) {
@@ -142,15 +137,9 @@ public class EntityClientGadget extends EntityBaseGadget {
 
     @Override
     public SceneEntityInfo toProto() {
-        AbilitySyncStateInfo.Builder abilityInfo = AbilitySyncStateInfo.newBuilder();
-        GameEntity ownerEntity = getScene().getEntityById(this.originalOwnerEntityId);
-        if (ownerEntity instanceof EntityAvatar avatarOwner) {
-            PacketPlayerEnterSceneInfoNotify.buildAvatarAbilityVars(avatarOwner, abilityInfo);
-        }
-
         EntityAuthorityInfo authority =
                 EntityAuthorityInfo.newBuilder()
-                        .setAbilityInfo(abilityInfo)
+                        .setAbilityInfo(AbilitySyncStateInfo.newBuilder())
                         .setRendererChangedInfo(EntityRendererChangedInfo.newBuilder())
                         .setAiInfo(
                                 SceneEntityAiInfo.newBuilder().setIsAiOpen(true))
@@ -170,8 +159,6 @@ public class EntityClientGadget extends EntityBaseGadget {
                         .setEntityClientData(EntityClientData.newBuilder())
                         .setEntityAuthorityInfo(authority)
                         .setLifeState(1);
-
-        this.injectIntMotionInfo(entityInfo);
 
         PropPair pair =
                 PropPair.newBuilder()
