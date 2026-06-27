@@ -111,7 +111,7 @@ public final class CanUseSkillNotifyOuterClass {
               emu.grasscutter.net.proto.CanUseSkillNotifyOuterClass.CanUseSkillNotify.class, emu.grasscutter.net.proto.CanUseSkillNotifyOuterClass.CanUseSkillNotify.Builder.class);
     }
 
-    public static final int IS_CAN_USE_SKILL_FIELD_NUMBER = 8;
+    public static final int IS_CAN_USE_SKILL_FIELD_NUMBER = 14;
     private boolean isCanUseSkill_;
     /**
      * <code>bool is_can_use_skill = 8;</code>
@@ -137,7 +137,7 @@ public final class CanUseSkillNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isCanUseSkill_ != false) {
-        output.writeBool(8, isCanUseSkill_);
+        output.writeBool(14, isCanUseSkill_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +150,7 @@ public final class CanUseSkillNotifyOuterClass {
       size = 0;
       if (isCanUseSkill_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, isCanUseSkill_);
+          .computeBoolSize(14, isCanUseSkill_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

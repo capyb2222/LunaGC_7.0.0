@@ -223,7 +223,7 @@ public final class TowerCurLevelRecordOuterClass {
               emu.grasscutter.net.proto.TowerCurLevelRecordOuterClass.TowerCurLevelRecord.class, emu.grasscutter.net.proto.TowerCurLevelRecordOuterClass.TowerCurLevelRecord.Builder.class);
     }
 
-    public static final int TOWER_TEAM_LIST_FIELD_NUMBER = 3;
+    public static final int TOWER_TEAM_LIST_FIELD_NUMBER = 6;
     private java.util.List<emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam> towerTeamList_;
     /**
      * <code>repeated .TowerTeam tower_team_list = 3;</code>
@@ -274,7 +274,7 @@ public final class TowerCurLevelRecordOuterClass {
       return isUpperPart_;
     }
 
-    public static final int CUR_FLOOR_ID_FIELD_NUMBER = 13;
+    public static final int CUR_FLOOR_ID_FIELD_NUMBER = 10;
     private int curFloorId_;
     /**
      * <code>uint32 cur_floor_id = 13;</code>
@@ -285,7 +285,7 @@ public final class TowerCurLevelRecordOuterClass {
       return curFloorId_;
     }
 
-    public static final int IS_EMPTY_FIELD_NUMBER = 14;
+    public static final int IS_EMPTY_FIELD_NUMBER = 1;
     private boolean isEmpty_;
     /**
      * <code>bool is_empty = 14;</code>
@@ -296,7 +296,7 @@ public final class TowerCurLevelRecordOuterClass {
       return isEmpty_;
     }
 
-    public static final int CUR_LEVEL_INDEX_FIELD_NUMBER = 11;
+    public static final int CUR_LEVEL_INDEX_FIELD_NUMBER = 14;
     private int curLevelIndex_;
     /**
      * <code>uint32 cur_level_index = 11;</code>
@@ -307,7 +307,7 @@ public final class TowerCurLevelRecordOuterClass {
       return curLevelIndex_;
     }
 
-    public static final int BUFF_ID_LIST_FIELD_NUMBER = 8;
+    public static final int BUFF_ID_LIST_FIELD_NUMBER = 3;
     private com.google.protobuf.Internal.IntList buffIdList_;
     /**
      * <code>repeated uint32 buff_id_list = 8;</code>
@@ -351,26 +351,26 @@ public final class TowerCurLevelRecordOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       for (int i = 0; i < towerTeamList_.size(); i++) {
-        output.writeMessage(3, towerTeamList_.get(i));
+        output.writeMessage(6, towerTeamList_.get(i));
       }
       if (isUpperPart_ != false) {
         output.writeBool(7, isUpperPart_);
       }
       if (getBuffIdListList().size() > 0) {
-        output.writeUInt32NoTag(66);
+        output.writeUInt32NoTag(26);
         output.writeUInt32NoTag(buffIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < buffIdList_.size(); i++) {
         output.writeUInt32NoTag(buffIdList_.getInt(i));
       }
       if (curLevelIndex_ != 0) {
-        output.writeUInt32(11, curLevelIndex_);
+        output.writeUInt32(14, curLevelIndex_);
       }
       if (curFloorId_ != 0) {
-        output.writeUInt32(13, curFloorId_);
+        output.writeUInt32(10, curFloorId_);
       }
       if (isEmpty_ != false) {
-        output.writeBool(14, isEmpty_);
+        output.writeBool(1, isEmpty_);
       }
       unknownFields.writeTo(output);
     }
@@ -383,7 +383,7 @@ public final class TowerCurLevelRecordOuterClass {
       size = 0;
       for (int i = 0; i < towerTeamList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, towerTeamList_.get(i));
+          .computeMessageSize(6, towerTeamList_.get(i));
       }
       if (isUpperPart_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -405,15 +405,15 @@ public final class TowerCurLevelRecordOuterClass {
       }
       if (curLevelIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, curLevelIndex_);
+          .computeUInt32Size(14, curLevelIndex_);
       }
       if (curFloorId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, curFloorId_);
+          .computeUInt32Size(10, curFloorId_);
       }
       if (isEmpty_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(14, isEmpty_);
+          .computeBoolSize(1, isEmpty_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

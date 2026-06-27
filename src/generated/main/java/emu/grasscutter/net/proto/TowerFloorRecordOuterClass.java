@@ -212,7 +212,7 @@ public final class TowerFloorRecordOuterClass {
       return passedLevelRecordList_.get(index);
     }
 
-    public static final int PASSED_LEVEL_MAP_FIELD_NUMBER = 1;
+    public static final int PASSED_LEVEL_MAP_FIELD_NUMBER = 3;
     private static final class PassedLevelMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Integer> defaultEntry =
@@ -284,7 +284,7 @@ public final class TowerFloorRecordOuterClass {
       return map.get(key);
     }
 
-    public static final int FLOOR_STAR_REWARD_PROGRESS_FIELD_NUMBER = 6;
+    public static final int FLOOR_STAR_REWARD_PROGRESS_FIELD_NUMBER = 5;
     private int floorStarRewardProgress_;
 
     @java.lang.Override
@@ -292,7 +292,7 @@ public final class TowerFloorRecordOuterClass {
       return floorStarRewardProgress_;
     }
 
-    public static final int FLOOR_ID_FIELD_NUMBER = 11;
+    public static final int FLOOR_ID_FIELD_NUMBER = 15;
     private int floorId_;
 
     @java.lang.Override
@@ -319,15 +319,15 @@ public final class TowerFloorRecordOuterClass {
           output,
           internalGetPassedLevelMap(),
           PassedLevelMapDefaultEntryHolder.defaultEntry,
-          1);
+          3);
       for (int i = 0; i < passedLevelRecordList_.size(); i++) {
         output.writeMessage(9, passedLevelRecordList_.get(i));
       }
       if (floorStarRewardProgress_ != 0) {
-        output.writeUInt32(6, floorStarRewardProgress_);
+        output.writeUInt32(5, floorStarRewardProgress_);
       }
       if (floorId_ != 0) {
-        output.writeUInt32(11, floorId_);
+        output.writeUInt32(15, floorId_);
       }
       unknownFields.writeTo(output);
     }
@@ -346,7 +346,7 @@ public final class TowerFloorRecordOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(1, passedLevelMap__);
+            .computeMessageSize(3, passedLevelMap__);
       }
       for (int i = 0; i < passedLevelRecordList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -354,11 +354,11 @@ public final class TowerFloorRecordOuterClass {
       }
       if (floorStarRewardProgress_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, floorStarRewardProgress_);
+          .computeUInt32Size(5, floorStarRewardProgress_);
       }
       if (floorId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, floorId_);
+          .computeUInt32Size(15, floorId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

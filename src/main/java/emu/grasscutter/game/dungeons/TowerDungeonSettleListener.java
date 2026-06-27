@@ -35,7 +35,7 @@ public class TowerDungeonSettleListener implements DungeonSettleListener {
         }
 
         var challenge = scene.getChallenge();
-        var finishedTime = challenge == null ? challenge.getFinishedTime() : 0;
+        var finishedTime = challenge != null ? challenge.getFinishedTime() : 0;
         var dungeonStats =
                 new DungeonEndStats(scene.getKilledMonsterCount(), finishedTime, 0, endReason);
         var result =

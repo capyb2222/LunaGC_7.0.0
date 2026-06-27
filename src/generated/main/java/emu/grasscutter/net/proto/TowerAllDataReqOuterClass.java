@@ -69,7 +69,7 @@ public final class TowerAllDataReqOuterClass {
             case 0:
               done = true;
               break;
-            case 120: {
+            case 104: {
 
               isInteract_ = input.readBool();
               break;
@@ -106,7 +106,7 @@ public final class TowerAllDataReqOuterClass {
               emu.grasscutter.net.proto.TowerAllDataReqOuterClass.TowerAllDataReq.class, emu.grasscutter.net.proto.TowerAllDataReqOuterClass.TowerAllDataReq.Builder.class);
     }
 
-    public static final int IS_INTERACT_FIELD_NUMBER = 15;
+    public static final int IS_INTERACT_FIELD_NUMBER = 13;
     private boolean isInteract_;
 
     @java.lang.Override
@@ -129,7 +129,7 @@ public final class TowerAllDataReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isInteract_ != false) {
-        output.writeBool(15, isInteract_);
+        output.writeBool(13, isInteract_);
       }
       unknownFields.writeTo(output);
     }
@@ -142,7 +142,7 @@ public final class TowerAllDataReqOuterClass {
       size = 0;
       if (isInteract_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, isInteract_);
+          .computeBoolSize(13, isInteract_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -508,7 +508,7 @@ public final class TowerAllDataReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\025TowerAllDataReq.proto\"&\n\017TowerAllDataR" +
-      "eq\022\023\n\013is_interact\030\017 \001(\010B\033\n\031emu.grasscutt" +
+      "eq\022\023\n\013is_interact\030\015 \001(\010B\033\n\031emu.grasscutt" +
       "er.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

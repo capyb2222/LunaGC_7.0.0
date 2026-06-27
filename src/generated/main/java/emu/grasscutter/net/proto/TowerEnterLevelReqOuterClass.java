@@ -74,7 +74,7 @@ public final class TowerEnterLevelReqOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
+            case 120: {
 
               enterPointId_ = input.readUInt32();
               break;
@@ -111,7 +111,7 @@ public final class TowerEnterLevelReqOuterClass {
               emu.grasscutter.net.proto.TowerEnterLevelReqOuterClass.TowerEnterLevelReq.class, emu.grasscutter.net.proto.TowerEnterLevelReqOuterClass.TowerEnterLevelReq.Builder.class);
     }
 
-    public static final int ENTER_POINT_ID_FIELD_NUMBER = 5;
+    public static final int ENTER_POINT_ID_FIELD_NUMBER = 15;
     private int enterPointId_;
     /**
      * <code>uint32 enter_point_id = 5;</code>
@@ -137,7 +137,7 @@ public final class TowerEnterLevelReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (enterPointId_ != 0) {
-        output.writeUInt32(5, enterPointId_);
+        output.writeUInt32(15, enterPointId_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +150,7 @@ public final class TowerEnterLevelReqOuterClass {
       size = 0;
       if (enterPointId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, enterPointId_);
+          .computeUInt32Size(15, enterPointId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -527,7 +527,7 @@ public final class TowerEnterLevelReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\030TowerEnterLevelReq.proto\",\n\022TowerEnter" +
-      "LevelReq\022\026\n\016enter_point_id\030\005 \001(\rB\033\n\031emu." +
+      "LevelReq\022\026\n\016enter_point_id\030\017 \001(\rB\033\n\031emu." +
       "grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

@@ -369,7 +369,7 @@ public final class TowerLevelEndNotifyOuterClass {
       return isSuccess_;
     }
 
-    public static final int CONTINUE_STATE_FIELD_NUMBER = 4;
+    public static final int CONTINUE_STATE_FIELD_NUMBER = 8;
     private int continueState_;
     /**
      * <code>uint32 continue_state = 4;</code>
@@ -420,7 +420,7 @@ public final class TowerLevelEndNotifyOuterClass {
       return rewardItemList_.get(index);
     }
 
-    public static final int NEXT_FLOOR_ID_FIELD_NUMBER = 5;
+    public static final int NEXT_FLOOR_ID_FIELD_NUMBER = 7;
     private int nextFloorId_;
     /**
      * <code>uint32 next_floor_id = 5;</code>
@@ -447,10 +447,10 @@ public final class TowerLevelEndNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (continueState_ != 0) {
-        output.writeUInt32(4, continueState_);
+        output.writeUInt32(8, continueState_);
       }
       if (nextFloorId_ != 0) {
-        output.writeUInt32(5, nextFloorId_);
+        output.writeUInt32(7, nextFloorId_);
       }
       if (isSuccess_ != false) {
         output.writeBool(14, isSuccess_);
@@ -459,7 +459,7 @@ public final class TowerLevelEndNotifyOuterClass {
         output.writeMessage(4, rewardItemList_.get(i));
       }
       if (getFinishedStarCondListList().size() > 0) {
-        output.writeUInt32NoTag(114);
+        output.writeUInt32NoTag(26);
         output.writeUInt32NoTag(finishedStarCondListMemoizedSerializedSize);
       }
       for (int i = 0; i < finishedStarCondList_.size(); i++) {
@@ -476,11 +476,11 @@ public final class TowerLevelEndNotifyOuterClass {
       size = 0;
       if (continueState_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, continueState_);
+          .computeUInt32Size(8, continueState_);
       }
       if (nextFloorId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, nextFloorId_);
+          .computeUInt32Size(7, nextFloorId_);
       }
       if (isSuccess_ != false) {
         size += com.google.protobuf.CodedOutputStream

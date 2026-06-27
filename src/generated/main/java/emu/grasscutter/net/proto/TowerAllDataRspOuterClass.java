@@ -811,7 +811,7 @@ public final class TowerAllDataRspOuterClass {
       return retcode_;
     }
 
-    public static final int NEXT_SCHEDULE_CHANGE_TIME_FIELD_NUMBER = 8;
+    public static final int NEXT_SCHEDULE_CHANGE_TIME_FIELD_NUMBER = 3;
     private int nextScheduleChangeTime_;
     /**
      * <code>uint32 next_schedule_change_time = 8;</code>
@@ -844,7 +844,7 @@ public final class TowerAllDataRspOuterClass {
       return jPOGDCOIDHD_;
     }
 
-    public static final int TOWER_SCHEDULE_ID_FIELD_NUMBER = 4;
+    public static final int TOWER_SCHEDULE_ID_FIELD_NUMBER = 5;
     private int towerScheduleId_;
     /**
      * <code>uint32 tower_schedule_id = 4;</code>
@@ -887,7 +887,7 @@ public final class TowerAllDataRspOuterClass {
         output.writeUInt32(2, cMPBNABBONP_);
       }
       if (towerScheduleId_ != 0) {
-        output.writeUInt32(4, towerScheduleId_);
+        output.writeUInt32(5, towerScheduleId_);
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
@@ -899,7 +899,7 @@ public final class TowerAllDataRspOuterClass {
         output.writeBool(4, isFinishedEntranceFloor_);
       }
       if (nextScheduleChangeTime_ != 0) {
-        output.writeUInt32(8, nextScheduleChangeTime_);
+        output.writeUInt32(3, nextScheduleChangeTime_);
       }
       if (isFirstInteract_ != false) {
         output.writeBool(10, isFirstInteract_);
@@ -956,7 +956,7 @@ public final class TowerAllDataRspOuterClass {
       }
       if (towerScheduleId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, towerScheduleId_);
+          .computeUInt32Size(5, towerScheduleId_);
       }
       for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
            : internalGetACGKLDIPIBD().getMap().entrySet()) {
@@ -974,7 +974,7 @@ public final class TowerAllDataRspOuterClass {
       }
       if (nextScheduleChangeTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, nextScheduleChangeTime_);
+          .computeUInt32Size(3, nextScheduleChangeTime_);
       }
       if (isFirstInteract_ != false) {
         size += com.google.protobuf.CodedOutputStream

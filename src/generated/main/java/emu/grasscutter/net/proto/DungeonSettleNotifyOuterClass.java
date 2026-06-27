@@ -990,7 +990,7 @@ public final class DungeonSettleNotifyOuterClass {
       return map.get(key);
     }
 
-    public static final int SETTLE_SHOW_FIELD_NUMBER = 13;
+    public static final int SETTLE_SHOW_FIELD_NUMBER = 15;
     private static final class SettleShowDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, emu.grasscutter.net.proto.ParamListOuterClass.ParamList> defaultEntry =
@@ -1093,7 +1093,7 @@ public final class DungeonSettleNotifyOuterClass {
       return dungeonId_;
     }
 
-    public static final int CLOSE_TIME_FIELD_NUMBER = 6;
+    public static final int CLOSE_TIME_FIELD_NUMBER = 12;
     private int closeTime_;
     /**
      * <code>uint32 close_time = 6;</code>
@@ -1104,7 +1104,7 @@ public final class DungeonSettleNotifyOuterClass {
       return closeTime_;
     }
 
-    public static final int RESULT_FIELD_NUMBER = 5;
+    public static final int RESULT_FIELD_NUMBER = 7;
     private int result_;
     /**
      * <code>uint32 result = 5;</code>
@@ -1647,10 +1647,10 @@ public final class DungeonSettleNotifyOuterClass {
         output.writeBool(2, isSuccess_);
       }
       if (result_ != 0) {
-        output.writeUInt32(5, result_);
+        output.writeUInt32(7, result_);
       }
       if (closeTime_ != 0) {
-        output.writeUInt32(6, closeTime_);
+        output.writeUInt32(12, closeTime_);
       }
       if (dungeonId_ != 0) {
         output.writeUInt32(10, dungeonId_);
@@ -1670,7 +1670,7 @@ public final class DungeonSettleNotifyOuterClass {
           output,
           internalGetSettleShow(),
           SettleShowDefaultEntryHolder.defaultEntry,
-          13);
+          15);
       if (useTime_ != 0) {
         output.writeUInt32(5, useTime_);
       }
@@ -1696,7 +1696,7 @@ public final class DungeonSettleNotifyOuterClass {
         output.writeMessage(808, (emu.grasscutter.net.proto.ChannellerSlabLoopDungeonResultInfoOuterClass.ChannellerSlabLoopDungeonResultInfo) detail_);
       }
       if (detailCase_ == 1162) {
-        output.writeMessage(1162, (emu.grasscutter.net.proto.TowerLevelEndNotifyOuterClass.TowerLevelEndNotify) detail_);
+        output.writeMessage(803, (emu.grasscutter.net.proto.TowerLevelEndNotifyOuterClass.TowerLevelEndNotify) detail_);
       }
       if (detailCase_ == 1313) {
         output.writeMessage(1313, (emu.grasscutter.net.proto.CrystalLinkDungeonSettleInfoOuterClass.CrystalLinkDungeonSettleInfo) detail_);
@@ -1748,11 +1748,11 @@ public final class DungeonSettleNotifyOuterClass {
       }
       if (result_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, result_);
+          .computeUInt32Size(7, result_);
       }
       if (closeTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, closeTime_);
+          .computeUInt32Size(12, closeTime_);
       }
       if (dungeonId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -1784,7 +1784,7 @@ public final class DungeonSettleNotifyOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(13, settleShow__);
+            .computeMessageSize(15, settleShow__);
       }
       if (useTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -1820,7 +1820,7 @@ public final class DungeonSettleNotifyOuterClass {
       }
       if (detailCase_ == 1162) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1162, (emu.grasscutter.net.proto.TowerLevelEndNotifyOuterClass.TowerLevelEndNotify) detail_);
+          .computeMessageSize(803, (emu.grasscutter.net.proto.TowerLevelEndNotifyOuterClass.TowerLevelEndNotify) detail_);
       }
       if (detailCase_ == 1313) {
         size += com.google.protobuf.CodedOutputStream

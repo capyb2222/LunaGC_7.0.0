@@ -437,7 +437,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
       return isSuccess_;
     }
 
-    public static final int CHALLENGE_INDEX_FIELD_NUMBER = 8;
+    public static final int CHALLENGE_INDEX_FIELD_NUMBER = 11;
     private int challengeIndex_;
     /**
      * <code>uint32 challenge_index = 8;</code>
@@ -562,7 +562,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
       return map.get(key);
     }
 
-    public static final int CHALLENGERECORDTYPE_FIELD_NUMBER = 4;
+    public static final int CHALLENGERECORDTYPE_FIELD_NUMBER = 12;
     private int challengeRecordType_;
     /**
      * <code>uint32 challengeRecordType = 4;</code>
@@ -712,7 +712,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (challengeRecordType_ != 0) {
-        output.writeUInt32(4, challengeRecordType_);
+        output.writeUInt32(12, challengeRecordType_);
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
@@ -724,7 +724,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
         output.writeEnum(5, finishType_);
       }
       if (challengeIndex_ != 0) {
-        output.writeUInt32(8, challengeIndex_);
+        output.writeUInt32(11, challengeIndex_);
       }
       if (isSuccess_ != false) {
         output.writeBool(15, isSuccess_);
@@ -761,7 +761,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
       size = 0;
       if (challengeRecordType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, challengeRecordType_);
+          .computeUInt32Size(12, challengeRecordType_);
       }
       for (java.util.Map.Entry<java.lang.Integer, emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData> entry
            : internalGetStrengthenPointDataMap().getMap().entrySet()) {
@@ -779,7 +779,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
       }
       if (challengeIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, challengeIndex_);
+          .computeUInt32Size(11, challengeIndex_);
       }
       if (isSuccess_ != false) {
         size += com.google.protobuf.CodedOutputStream

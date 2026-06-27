@@ -186,22 +186,37 @@ public final class DungeonSystem extends BaseGameSystem {
 
     public void restartDungeon(Player player) {
         var scene = player.getScene();
+        if (scene == null) {
+            return;
+        }
         var dungeonManager = scene.getDungeonManager();
+        if (dungeonManager == null || dungeonManager.getDungeonData() == null) {
+            return;
+        }
         var dungeonData = dungeonManager.getDungeonData();
         var sceneId = dungeonData.getSceneId();
+        var isTower = dungeonManager.isTowerDungeon();
 
         // Forward over previous scene and scene point
         var prevScene = scene.getPrevScene();
         var pointId = scene.getPrevScenePoint();
 
-        // Destroy then create scene again to reinitialize script state
+        // Force teardown so the scene is rebuilt fresh instead of reused stale.
+        scene.setDontDestroyWhenEmpty(false);
         scene.getPlayers().forEach(scene::removePlayer);
+
         if (player.getWorld().transferPlayerToScene(player, sceneId, dungeonData)) {
             scene = player.getScene();
             scene.setPrevScene(prevScene);
             scene.setPrevScenePoint(pointId);
-            scene.setDungeonManager(new DungeonManager(scene, dungeonData));
-            scene.addDungeonSettleObserver(basicDungeonSettleObserver);
+            var newManager = new DungeonManager(scene, dungeonData);
+            newManager.setTowerDungeon(isTower);
+            scene.setDungeonManager(newManager);
+            if (isTower) {
+                scene.addDungeonSettleObserver(new TowerDungeonSettleListener());
+            } else {
+                scene.addDungeonSettleObserver(basicDungeonSettleObserver);
+            }
         }
     }
 }
