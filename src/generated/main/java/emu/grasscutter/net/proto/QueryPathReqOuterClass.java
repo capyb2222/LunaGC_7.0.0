@@ -101,7 +101,7 @@ public final class QueryPathReqOuterClass {
             case 0:
               done = true;
               break;
-            case 58: {
+            case 26: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (sourcePos_ != null) {
                 subBuilder = sourcePos_.toBuilder();
@@ -114,12 +114,12 @@ public final class QueryPathReqOuterClass {
 
               break;
             }
-            case 88: {
+            case 8: {
 
               queryId_ = input.readInt32();
               break;
             }
-            case 48: {
+            case 80: {
               int rawValue = input.readEnum();
 
               queryType_ = rawValue;
@@ -138,12 +138,12 @@ public final class QueryPathReqOuterClass {
 
               break;
             }
-            case 120: {
+            case 16: {
 
               sceneId_ = input.readUInt32();
               break;
             }
-            case 42: {
+            case 114: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 destinationPos_ = new java.util.ArrayList<emu.grasscutter.net.proto.VectorOuterClass.Vector>();
                 mutable_bitField0_ |= 0x00000001;
@@ -152,7 +152,7 @@ public final class QueryPathReqOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.VectorOuterClass.Vector.parser(), extensionRegistry));
               break;
             }
-            case 114: {
+            case 66: {
               emu.grasscutter.net.proto.QueryFilterOuterClass.QueryFilter.Builder subBuilder = null;
               if (filter_ != null) {
                 subBuilder = filter_.toBuilder();
@@ -200,7 +200,7 @@ public final class QueryPathReqOuterClass {
               emu.grasscutter.net.proto.QueryPathReqOuterClass.QueryPathReq.class, emu.grasscutter.net.proto.QueryPathReqOuterClass.QueryPathReq.Builder.class);
     }
 
-    public static final int SOURCE_POS_FIELD_NUMBER = 7;
+    public static final int SOURCE_POS_FIELD_NUMBER = 3;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector sourcePos_;
 
     @java.lang.Override
@@ -218,7 +218,7 @@ public final class QueryPathReqOuterClass {
       return getSourcePos();
     }
 
-    public static final int DESTINATION_POS_FIELD_NUMBER = 5;
+    public static final int DESTINATION_POS_FIELD_NUMBER = 14;
     private java.util.List<emu.grasscutter.net.proto.VectorOuterClass.Vector> destinationPos_;
 
     @java.lang.Override
@@ -248,7 +248,7 @@ public final class QueryPathReqOuterClass {
       return destinationPos_.get(index);
     }
 
-    public static final int FILTER_FIELD_NUMBER = 14;
+    public static final int FILTER_FIELD_NUMBER = 8;
     private emu.grasscutter.net.proto.QueryFilterOuterClass.QueryFilter filter_;
 
     @java.lang.Override
@@ -284,7 +284,7 @@ public final class QueryPathReqOuterClass {
       return getMEBHBIIIIND();
     }
 
-    public static final int QUERY_TYPE_FIELD_NUMBER = 5;
+    public static final int QUERY_TYPE_FIELD_NUMBER = 10;
     private int queryType_;
 
     @java.lang.Override public int getQueryTypeValue() {
@@ -297,7 +297,7 @@ public final class QueryPathReqOuterClass {
       return result == null ? emu.grasscutter.net.proto.OptionTypeOuterClass.OptionType.UNRECOGNIZED : result;
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 15;
+    public static final int SCENE_ID_FIELD_NUMBER = 2;
     private int sceneId_;
 
     @java.lang.Override
@@ -305,7 +305,7 @@ public final class QueryPathReqOuterClass {
       return sceneId_;
     }
 
-    public static final int QUERY_ID_FIELD_NUMBER = 11;
+    public static final int QUERY_ID_FIELD_NUMBER = 1;
     private int queryId_;
 
     @java.lang.Override
@@ -328,25 +328,25 @@ public final class QueryPathReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (sourcePos_ != null) {
-        output.writeMessage(1, getSourcePos());
+        output.writeMessage(3, getSourcePos());
       }
       if (queryId_ != 0) {
-        output.writeInt32(11, queryId_);
+        output.writeInt32(1, queryId_);
       }
       if (queryType_ != emu.grasscutter.net.proto.OptionTypeOuterClass.OptionType.OptionType_OPTION_NONE.getNumber()) {
-        output.writeEnum(5, queryType_);
+        output.writeEnum(10, queryType_);
       }
       if (mEBHBIIIIND_ != null) {
         output.writeMessage(6, getMEBHBIIIIND());
       }
       if (sceneId_ != 0) {
-        output.writeUInt32(15, sceneId_);
+        output.writeUInt32(2, sceneId_);
       }
       for (int i = 0; i < destinationPos_.size(); i++) {
-        output.writeMessage(5, destinationPos_.get(i));
+        output.writeMessage(14, destinationPos_.get(i));
       }
       if (filter_ != null) {
-        output.writeMessage(14, getFilter());
+        output.writeMessage(8, getFilter());
       }
       unknownFields.writeTo(output);
     }
@@ -359,15 +359,15 @@ public final class QueryPathReqOuterClass {
       size = 0;
       if (sourcePos_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getSourcePos());
+          .computeMessageSize(3, getSourcePos());
       }
       if (queryId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(11, queryId_);
+          .computeInt32Size(1, queryId_);
       }
       if (queryType_ != emu.grasscutter.net.proto.OptionTypeOuterClass.OptionType.OptionType_OPTION_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(5, queryType_);
+          .computeEnumSize(10, queryType_);
       }
       if (mEBHBIIIIND_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -375,15 +375,15 @@ public final class QueryPathReqOuterClass {
       }
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, sceneId_);
+          .computeUInt32Size(2, sceneId_);
       }
       for (int i = 0; i < destinationPos_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, destinationPos_.get(i));
+          .computeMessageSize(14, destinationPos_.get(i));
       }
       if (filter_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, getFilter());
+          .computeMessageSize(8, getFilter());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

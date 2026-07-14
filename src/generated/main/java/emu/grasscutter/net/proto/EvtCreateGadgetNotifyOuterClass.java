@@ -132,33 +132,29 @@ public final class EvtCreateGadgetNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 32: {
               int rawValue = input.readEnum();
 
               forwardType_ = rawValue;
               break;
             }
-            case 16: {
+            case 48: {
 
               campType_ = input.readUInt32();
               break;
             }
-            case 24: {
-
-              campType_ = input.readUInt32();
-              break;
-            }
-            case 32: {
+            
+            case 96: {
 
               entityId_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 16: {
 
               propOwnerEntityId_ = input.readUInt32();
               break;
             }
-            case 50: {
+            case 90: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (initEulerAngles_ != null) {
                 subBuilder = initEulerAngles_.toBuilder();
@@ -171,12 +167,12 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
               break;
             }
-            case 56: {
+            case 120: {
 
               roomId_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 64: {
 
               configId_ = input.readUInt32();
               break;
@@ -194,27 +190,23 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
               break;
             }
-            case 88: {
-
-              targetEntityId_ = input.readUInt32();
-              break;
-            }
-            case 96: {
-
-              campId_ = input.readUInt32();
-              break;
-            }
             case 104: {
 
               targetEntityId_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 8: {
+
+              campId_ = input.readUInt32();
+              break;
+            }
+            
+            case 72: {
 
               ownerEntityId_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 24: {
 
               guid_ = input.readUInt64();
               break;
@@ -224,7 +216,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
               isAsyncLoad_ = input.readBool();
               break;
             }
-            case 11560: {
+            case 15184: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 targetLockPointIndexList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -232,7 +224,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
               targetLockPointIndexList_.addInt(input.readUInt32());
               break;
             }
-            case 11562: {
+            case 15186: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -245,17 +237,17 @@ public final class EvtCreateGadgetNotifyOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 12776: {
+            case 7768: {
 
               localId_ = input.readInt32();
               break;
             }
-            case 13624: {
+            case 15040: {
 
               isPeerIdFromPlayer_ = input.readBool();
               break;
             }
-            case 13746: {
+            case 3034: {
               emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder subBuilder = null;
               if (abilityName_ != null) {
                 subBuilder = abilityName_.toBuilder();
@@ -268,7 +260,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
               break;
             }
-            case 15816: {
+            case 15096: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 targetEntityIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -276,7 +268,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
               targetEntityIdList_.addInt(input.readUInt32());
               break;
             }
-            case 15818: {
+            case 15098: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -294,18 +286,18 @@ public final class EvtCreateGadgetNotifyOuterClass {
               oCMHHIEOMKI_ = input.readBool();
               break;
             }
-            case 5000: {
+            case 2520: {
               int rawValue = input.readEnum();
 
               lifeByOwnerType_ = rawValue;
               break;
             }
-            case 12680: {
+            case 5144: {
 
               bornSlotIndex_ = input.readUInt32();
               break;
             }
-            case 13336: {
+            case 9784: {
 
               initPoseId_ = input.readUInt32();
               break;
@@ -348,7 +340,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
               emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify.class, emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify.Builder.class);
     }
 
-    public static final int TARGET_LOCK_POINT_INDEX_LIST_FIELD_NUMBER = 1445;
+    public static final int TARGET_LOCK_POINT_INDEX_LIST_FIELD_NUMBER = 1898;
     private com.google.protobuf.Internal.IntList targetLockPointIndexList_;
 
     @java.lang.Override
@@ -366,7 +358,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     }
     private int targetLockPointIndexListMemoizedSerializedSize = -1;
 
-    public static final int INIT_EULER_ANGLES_FIELD_NUMBER = 6;
+    public static final int INIT_EULER_ANGLES_FIELD_NUMBER = 11;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector initEulerAngles_;
 
     @java.lang.Override
@@ -402,7 +394,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return getInitPos();
     }
 
-    public static final int ABILITY_NAME_FIELD_NUMBER = 1718;
+    public static final int ABILITY_NAME_FIELD_NUMBER = 379;
     private emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString abilityName_;
 
     @java.lang.Override
@@ -420,7 +412,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return getAbilityName();
     }
 
-    public static final int TARGET_ENTITY_ID_LIST_FIELD_NUMBER = 1977;
+    public static final int TARGET_ENTITY_ID_LIST_FIELD_NUMBER = 1887;
     private com.google.protobuf.Internal.IntList targetEntityIdList_;
 
     @java.lang.Override
@@ -438,7 +430,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     }
     private int targetEntityIdListMemoizedSerializedSize = -1;
 
-    public static final int CONFIG_ID_FIELD_NUMBER = 9;
+    public static final int CONFIG_ID_FIELD_NUMBER = 8;
     private int configId_;
 
     @java.lang.Override
@@ -446,7 +438,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return configId_;
     }
 
-    public static final int FORWARD_TYPE_FIELD_NUMBER = 1;
+    public static final int FORWARD_TYPE_FIELD_NUMBER = 4;
     private int forwardType_;
 
     @java.lang.Override public int getForwardTypeValue() {
@@ -459,7 +451,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return result == null ? emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.UNRECOGNIZED : result;
     }
 
-    public static final int INIT_POSE_ID_FIELD_NUMBER = 1538;
+    public static final int INIT_POSE_ID_FIELD_NUMBER = 1223;
     private int initPoseId_;
 
     @java.lang.Override
@@ -467,7 +459,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return initPoseId_;
     }
 
-    public static final int LIFE_BY_OWNER_TYPE_FIELD_NUMBER = 1583;
+    public static final int LIFE_BY_OWNER_TYPE_FIELD_NUMBER = 315;
     private int lifeByOwnerType_;
 
     @java.lang.Override public int getLifeByOwnerTypeValue() {
@@ -480,7 +472,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return result == null ? emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType.UNRECOGNIZED : result;
     }
 
-    public static final int IS_PEER_ID_FROM_PLAYER_FIELD_NUMBER = 1703;
+    public static final int IS_PEER_ID_FROM_PLAYER_FIELD_NUMBER = 1880;
     private boolean isPeerIdFromPlayer_;
 
     @java.lang.Override
@@ -504,7 +496,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return oCMHHIEOMKI_;
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 4;
+    public static final int ENTITY_ID_FIELD_NUMBER = 12;
     private int entityId_;
 
     @java.lang.Override
@@ -512,7 +504,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return entityId_;
     }
 
-    public static final int BORN_SLOT_INDEX_FIELD_NUMBER = 2025;
+    public static final int BORN_SLOT_INDEX_FIELD_NUMBER = 643;
     private int bornSlotIndex_;
 
     @java.lang.Override
@@ -520,7 +512,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return bornSlotIndex_;
     }
 
-    public static final int PROP_OWNER_ENTITY_ID_FIELD_NUMBER = 5;
+    public static final int PROP_OWNER_ENTITY_ID_FIELD_NUMBER = 2;
     private int propOwnerEntityId_;
 
     @java.lang.Override
@@ -528,7 +520,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return propOwnerEntityId_;
     }
 
-    public static final int LOCAL_ID_FIELD_NUMBER = 1597;
+    public static final int LOCAL_ID_FIELD_NUMBER = 971;
     private int localId_;
 
     @java.lang.Override
@@ -544,7 +536,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return targetEntityId_;
     }
 
-    public static final int ROOM_ID_FIELD_NUMBER = 7;
+    public static final int ROOM_ID_FIELD_NUMBER = 15;
     private int roomId_;
 
     @java.lang.Override
@@ -552,7 +544,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return roomId_;
     }
 
-    public static final int OWNER_ENTITY_ID_FIELD_NUMBER = 14;
+    public static final int OWNER_ENTITY_ID_FIELD_NUMBER = 9;
     private int ownerEntityId_;
 
     @java.lang.Override
@@ -560,7 +552,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return ownerEntityId_;
     }
 
-    public static final int GUID_FIELD_NUMBER = 15;
+    public static final int GUID_FIELD_NUMBER = 3;
     private long guid_;
 
     @java.lang.Override
@@ -568,7 +560,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return guid_;
     }
 
-    public static final int CAMP_TYPE_FIELD_NUMBER = 3;
+    public static final int CAMP_TYPE_FIELD_NUMBER = 6;
     private int campType_;
 
     @java.lang.Override
@@ -576,7 +568,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return campType_;
     }
 
-    public static final int CAMP_ID_FIELD_NUMBER = 12;
+    public static final int CAMP_ID_FIELD_NUMBER = 1;
     private int campId_;
 
     @java.lang.Override
@@ -600,62 +592,62 @@ public final class EvtCreateGadgetNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (roomId_ != 0) {
-        output.writeUInt32(7, roomId_);
+        output.writeUInt32(15, roomId_);
       }
       if (campType_ != 0) {
-        output.writeUInt32(3, campType_);
+        output.writeUInt32(6, campType_);
       }
       if (configId_ != 0) {
-        output.writeUInt32(9, configId_);
+        output.writeUInt32(8, configId_);
       }
       if (entityId_ != 0) {
-        output.writeUInt32(4, entityId_);
+        output.writeUInt32(12, entityId_);
       }
       if (initPos_ != null) {
         output.writeMessage(10, getInitPos());
       }
       if (initEulerAngles_ != null) {
-        output.writeMessage(6, getInitEulerAngles());
+        output.writeMessage(11, getInitEulerAngles());
       }
       if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.ForwardType_FORWARD_LOCAL.getNumber()) {
-        output.writeEnum(1, forwardType_);
+        output.writeEnum(4, forwardType_);
       }
       if (guid_ != 0L) {
-        output.writeUInt64(15, guid_);
+        output.writeUInt64(3, guid_);
       }
       if (targetEntityId_ != 0) {
         output.writeUInt32(13, targetEntityId_);
       }
       if (ownerEntityId_ != 0) {
-        output.writeUInt32(14, ownerEntityId_);
+        output.writeUInt32(9, ownerEntityId_);
       }
       if (campId_ != 0) {
-        output.writeUInt32(12, campId_);
+        output.writeUInt32(1, campId_);
       }
       if (propOwnerEntityId_ != 0) {
-        output.writeUInt32(5, propOwnerEntityId_);
+        output.writeUInt32(2, propOwnerEntityId_);
       }
       if (isAsyncLoad_ != false) {
         output.writeBool(16, isAsyncLoad_);
       }
       if (getTargetLockPointIndexListList().size() > 0) {
-        output.writeUInt32NoTag(11562);
+        output.writeUInt32NoTag(15186);
         output.writeUInt32NoTag(targetLockPointIndexListMemoizedSerializedSize);
       }
       for (int i = 0; i < targetLockPointIndexList_.size(); i++) {
         output.writeUInt32NoTag(targetLockPointIndexList_.getInt(i));
       }
       if (localId_ != 0) {
-        output.writeInt32(1597, localId_);
+        output.writeInt32(971, localId_);
       }
       if (isPeerIdFromPlayer_ != false) {
-        output.writeBool(1703, isPeerIdFromPlayer_);
+        output.writeBool(1880, isPeerIdFromPlayer_);
       }
       if (abilityName_ != null) {
-        output.writeMessage(591, getAbilityName());
+        output.writeMessage(379, getAbilityName());
       }
       if (getTargetEntityIdListList().size() > 0) {
-        output.writeUInt32NoTag(15818);
+        output.writeUInt32NoTag(15098);
         output.writeUInt32NoTag(targetEntityIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < targetEntityIdList_.size(); i++) {
@@ -665,13 +657,13 @@ public final class EvtCreateGadgetNotifyOuterClass {
         output.writeBool(893, oCMHHIEOMKI_);
       }
       if (lifeByOwnerType_ != emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType.LifeByOwnerType_LIFE_BY_OWNER_NONE.getNumber()) {
-        output.writeEnum(1583, lifeByOwnerType_);
+        output.writeEnum(315, lifeByOwnerType_);
       }
       if (bornSlotIndex_ != 0) {
-        output.writeUInt32(2025, bornSlotIndex_);
+        output.writeUInt32(643, bornSlotIndex_);
       }
       if (initPoseId_ != 0) {
-        output.writeUInt32(1538, initPoseId_);
+        output.writeUInt32(1223, initPoseId_);
       }
       unknownFields.writeTo(output);
     }
@@ -684,19 +676,19 @@ public final class EvtCreateGadgetNotifyOuterClass {
       size = 0;
       if (roomId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, roomId_);
+          .computeUInt32Size(15, roomId_);
       }
       if (campType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, campType_);
+          .computeUInt32Size(6, campType_);
       }
       if (configId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, configId_);
+          .computeUInt32Size(8, configId_);
       }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, entityId_);
+          .computeUInt32Size(12, entityId_);
       }
       if (initPos_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -704,15 +696,15 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       if (initEulerAngles_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, getInitEulerAngles());
+          .computeMessageSize(11, getInitEulerAngles());
       }
       if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.ForwardType_FORWARD_LOCAL.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(1, forwardType_);
+          .computeEnumSize(4, forwardType_);
       }
       if (guid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(15, guid_);
+          .computeUInt64Size(3, guid_);
       }
       if (targetEntityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -720,15 +712,15 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       if (ownerEntityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, ownerEntityId_);
+          .computeUInt32Size(9, ownerEntityId_);
       }
       if (campId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, campId_);
+          .computeUInt32Size(1, campId_);
       }
       if (propOwnerEntityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, propOwnerEntityId_);
+          .computeUInt32Size(2, propOwnerEntityId_);
       }
       if (isAsyncLoad_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -750,15 +742,15 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       if (localId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(1597, localId_);
+          .computeInt32Size(971, localId_);
       }
       if (isPeerIdFromPlayer_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1703, isPeerIdFromPlayer_);
+          .computeBoolSize(1880, isPeerIdFromPlayer_);
       }
       if (abilityName_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(591, getAbilityName());
+          .computeMessageSize(379, getAbilityName());
       }
       {
         int dataSize = 0;
@@ -780,15 +772,15 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       if (lifeByOwnerType_ != emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType.LifeByOwnerType_LIFE_BY_OWNER_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(1583, lifeByOwnerType_);
+          .computeEnumSize(315, lifeByOwnerType_);
       }
       if (bornSlotIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2025, bornSlotIndex_);
+          .computeUInt32Size(643, bornSlotIndex_);
       }
       if (initPoseId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1538, initPoseId_);
+          .computeUInt32Size(1223, initPoseId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

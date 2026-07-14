@@ -82,7 +82,7 @@ public final class ScenePlayerInfoNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 82: {
+            case 10: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 playerInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ScenePlayerInfoOuterClass.ScenePlayerInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -126,7 +126,7 @@ public final class ScenePlayerInfoNotifyOuterClass {
               emu.grasscutter.net.proto.ScenePlayerInfoNotifyOuterClass.ScenePlayerInfoNotify.class, emu.grasscutter.net.proto.ScenePlayerInfoNotifyOuterClass.ScenePlayerInfoNotify.Builder.class);
     }
 
-    public static final int PLAYER_INFO_LIST_FIELD_NUMBER = 10;
+    public static final int PLAYER_INFO_LIST_FIELD_NUMBER = 1;
     private java.util.List<emu.grasscutter.net.proto.ScenePlayerInfoOuterClass.ScenePlayerInfo> playerInfoList_;
 
     @java.lang.Override
@@ -171,7 +171,7 @@ public final class ScenePlayerInfoNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < playerInfoList_.size(); i++) {
-        output.writeMessage(10, playerInfoList_.get(i));
+        output.writeMessage(1, playerInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -184,7 +184,7 @@ public final class ScenePlayerInfoNotifyOuterClass {
       size = 0;
       for (int i = 0; i < playerInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, playerInfoList_.get(i));
+          .computeMessageSize(1, playerInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

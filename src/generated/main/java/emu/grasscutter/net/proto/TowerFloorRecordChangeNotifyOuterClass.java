@@ -84,12 +84,12 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
+            case 16: {
 
               isFinishedEntranceFloor_ = input.readBool();
               break;
             }
-            case 106: {
+            case 90: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 towerFloorRecordList_ = new java.util.ArrayList<emu.grasscutter.net.proto.TowerFloorRecordOuterClass.TowerFloorRecord>();
                 mutable_bitField0_ |= 0x00000001;
@@ -163,7 +163,7 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
       return towerFloorRecordList_.get(index);
     }
 
-    public static final int IS_FINISHED_ENTRANCE_FLOOR_FIELD_NUMBER = 13;
+    public static final int IS_FINISHED_ENTRANCE_FLOOR_FIELD_NUMBER = 2;
     private boolean isFinishedEntranceFloor_;
 
     @java.lang.Override
@@ -186,7 +186,7 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isFinishedEntranceFloor_ != false) {
-        output.writeBool(13, isFinishedEntranceFloor_);
+        output.writeBool(2, isFinishedEntranceFloor_);
       }
       for (int i = 0; i < towerFloorRecordList_.size(); i++) {
         output.writeMessage(11, towerFloorRecordList_.get(i));
@@ -202,7 +202,7 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
       size = 0;
       if (isFinishedEntranceFloor_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, isFinishedEntranceFloor_);
+          .computeBoolSize(2, isFinishedEntranceFloor_);
       }
       for (int i = 0; i < towerFloorRecordList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream

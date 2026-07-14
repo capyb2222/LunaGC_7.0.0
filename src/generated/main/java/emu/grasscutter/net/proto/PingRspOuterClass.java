@@ -73,17 +73,17 @@ public final class PingRspOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 112: {
 
               seq_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 56: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 120: {
+            case 72: {
 
               clientTime_ = input.readUInt32();
               break;
@@ -120,7 +120,7 @@ public final class PingRspOuterClass {
               emu.grasscutter.net.proto.PingRspOuterClass.PingRsp.class, emu.grasscutter.net.proto.PingRspOuterClass.PingRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 10;
+    public static final int RETCODE_FIELD_NUMBER = 7;
     private int retcode_;
 
     @java.lang.Override
@@ -128,7 +128,7 @@ public final class PingRspOuterClass {
       return retcode_;
     }
 
-    public static final int SEQ_FIELD_NUMBER = 1;
+    public static final int SEQ_FIELD_NUMBER = 14;
     private int seq_;
 
     @java.lang.Override
@@ -136,7 +136,7 @@ public final class PingRspOuterClass {
       return seq_;
     }
 
-    public static final int CLIENT_TIME_FIELD_NUMBER = 15;
+    public static final int CLIENT_TIME_FIELD_NUMBER = 9;
     private int clientTime_;
 
     @java.lang.Override
@@ -159,13 +159,13 @@ public final class PingRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (seq_ != 0) {
-        output.writeUInt32(1, seq_);
+        output.writeUInt32(14, seq_);
       }
       if (clientTime_ != 0) {
-        output.writeUInt32(15, clientTime_);
+        output.writeUInt32(9, clientTime_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(10, retcode_);
+        output.writeInt32(7, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -178,15 +178,15 @@ public final class PingRspOuterClass {
       size = 0;
       if (seq_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, seq_);
+          .computeUInt32Size(14, seq_);
       }
       if (clientTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, clientTime_);
+          .computeUInt32Size(9, clientTime_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(10, retcode_);
+          .computeInt32Size(7, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

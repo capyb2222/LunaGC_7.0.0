@@ -148,7 +148,7 @@ public final class GetCompoundDataRspOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData.parser(), extensionRegistry));
               break;
             }
-            case 112: {
+            case 104: {
 
               retcode_ = input.readInt32();
               break;
@@ -191,7 +191,7 @@ public final class GetCompoundDataRspOuterClass {
               emu.grasscutter.net.proto.GetCompoundDataRspOuterClass.GetCompoundDataRsp.class, emu.grasscutter.net.proto.GetCompoundDataRspOuterClass.GetCompoundDataRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 14;
+    public static final int RETCODE_FIELD_NUMBER = 13;
     private int retcode_;
     /**
      * <code>int32 retcode = 14;</code>
@@ -202,7 +202,7 @@ public final class GetCompoundDataRspOuterClass {
       return retcode_;
     }
 
-    public static final int UNLOCKCOMPOUNDLIST_FIELD_NUMBER = 9;
+    public static final int UNLOCKCOMPOUNDLIST_FIELD_NUMBER = 8;
     private com.google.protobuf.Internal.IntList unlockCompoundList_;
     /**
      * <code>repeated uint32 unlockCompoundList = 9;</code>
@@ -296,7 +296,7 @@ public final class GetCompoundDataRspOuterClass {
         output.writeMessage(12, compoundQueueDataList_.get(i));
       }
       if (retcode_ != 0) {
-        output.writeInt32(14, retcode_);
+        output.writeInt32(13, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -327,7 +327,7 @@ public final class GetCompoundDataRspOuterClass {
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(14, retcode_);
+          .computeInt32Size(13, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

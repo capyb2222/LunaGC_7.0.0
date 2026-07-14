@@ -75,7 +75,7 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 88: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 codexIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -83,7 +83,7 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
               codexIdList_.addInt(input.readUInt32());
               break;
             }
-            case 34: {
+            case 90: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -131,7 +131,7 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
               emu.grasscutter.net.proto.QueryCodexMonsterBeKilledNumReqOuterClass.QueryCodexMonsterBeKilledNumReq.class, emu.grasscutter.net.proto.QueryCodexMonsterBeKilledNumReqOuterClass.QueryCodexMonsterBeKilledNumReq.Builder.class);
     }
 
-    public static final int CODEX_ID_LIST_FIELD_NUMBER = 4;
+    public static final int CODEX_ID_LIST_FIELD_NUMBER = 11;
     private com.google.protobuf.Internal.IntList codexIdList_;
 
     @java.lang.Override
@@ -165,7 +165,7 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getCodexIdListList().size() > 0) {
-        output.writeUInt32NoTag(34);
+        output.writeUInt32NoTag(90);
         output.writeUInt32NoTag(codexIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < codexIdList_.size(); i++) {

@@ -99,12 +99,12 @@ public final class IrodoriPoetryDataOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 64: {
 
               curThemeId_ = input.readUInt32();
               break;
             }
-            case 66: {
+            case 18: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 themeDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.IrodoriPoetryThemeDataOuterClass.IrodoriPoetryThemeData>();
                 mutable_bitField0_ |= 0x00000001;
@@ -148,7 +148,7 @@ public final class IrodoriPoetryDataOuterClass {
               emu.grasscutter.net.proto.IrodoriPoetryDataOuterClass.IrodoriPoetryData.class, emu.grasscutter.net.proto.IrodoriPoetryDataOuterClass.IrodoriPoetryData.Builder.class);
     }
 
-    public static final int THEME_DATA_LIST_FIELD_NUMBER = 8;
+    public static final int THEME_DATA_LIST_FIELD_NUMBER = 2;
     private java.util.List<emu.grasscutter.net.proto.IrodoriPoetryThemeDataOuterClass.IrodoriPoetryThemeData> themeDataList_;
     /**
      * <code>repeated .IrodoriPoetryThemeData theme_data_list = 8;</code>
@@ -188,7 +188,7 @@ public final class IrodoriPoetryDataOuterClass {
       return themeDataList_.get(index);
     }
 
-    public static final int CUR_THEME_ID_FIELD_NUMBER = 2;
+    public static final int CUR_THEME_ID_FIELD_NUMBER = 8;
     private int curThemeId_;
     /**
      * <code>uint32 cur_theme_id = 2;</code>
@@ -214,10 +214,10 @@ public final class IrodoriPoetryDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (curThemeId_ != 0) {
-        output.writeUInt32(2, curThemeId_);
+        output.writeUInt32(8, curThemeId_);
       }
       for (int i = 0; i < themeDataList_.size(); i++) {
-        output.writeMessage(8, themeDataList_.get(i));
+        output.writeMessage(2, themeDataList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -230,11 +230,11 @@ public final class IrodoriPoetryDataOuterClass {
       size = 0;
       if (curThemeId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, curThemeId_);
+          .computeUInt32Size(8, curThemeId_);
       }
       for (int i = 0; i < themeDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, themeDataList_.get(i));
+          .computeMessageSize(2, themeDataList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

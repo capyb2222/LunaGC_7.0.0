@@ -80,7 +80,7 @@ public final class HomeAvatarRewardEventGetReqOuterClass {
             case 0:
               done = true;
               break;
-            case 72: {
+            case 96: {
 
               avatarId_ = input.readUInt32();
               break;
@@ -122,7 +122,7 @@ public final class HomeAvatarRewardEventGetReqOuterClass {
               emu.grasscutter.net.proto.HomeAvatarRewardEventGetReqOuterClass.HomeAvatarRewardEventGetReq.class, emu.grasscutter.net.proto.HomeAvatarRewardEventGetReqOuterClass.HomeAvatarRewardEventGetReq.Builder.class);
     }
 
-    public static final int AVATAR_ID_FIELD_NUMBER = 9;
+    public static final int AVATAR_ID_FIELD_NUMBER = 12;
     private int avatarId_;
     /**
      * <code>uint32 avatar_id = 9;</code>
@@ -159,7 +159,7 @@ public final class HomeAvatarRewardEventGetReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (avatarId_ != 0) {
-        output.writeUInt32(9, avatarId_);
+        output.writeUInt32(12, avatarId_);
       }
       if (eventId_ != 0) {
         output.writeUInt32(10, eventId_);
@@ -175,7 +175,7 @@ public final class HomeAvatarRewardEventGetReqOuterClass {
       size = 0;
       if (avatarId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, avatarId_);
+          .computeUInt32Size(12, avatarId_);
       }
       if (eventId_ != 0) {
         size += com.google.protobuf.CodedOutputStream

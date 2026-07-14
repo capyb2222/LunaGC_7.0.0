@@ -80,12 +80,12 @@ public final class DelBackupAvatarTeamRspOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 32: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 112: {
+            case 16: {
 
               backupAvatarTeamId_ = input.readUInt32();
               break;
@@ -122,7 +122,7 @@ public final class DelBackupAvatarTeamRspOuterClass {
               emu.grasscutter.net.proto.DelBackupAvatarTeamRspOuterClass.DelBackupAvatarTeamRsp.class, emu.grasscutter.net.proto.DelBackupAvatarTeamRspOuterClass.DelBackupAvatarTeamRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 6;
+    public static final int RETCODE_FIELD_NUMBER = 4;
     private int retcode_;
     /**
      * <code>int32 retcode = 6;</code>
@@ -133,7 +133,7 @@ public final class DelBackupAvatarTeamRspOuterClass {
       return retcode_;
     }
 
-    public static final int BACKUP_AVATAR_TEAM_ID_FIELD_NUMBER = 14;
+    public static final int BACKUP_AVATAR_TEAM_ID_FIELD_NUMBER = 2;
     private int backupAvatarTeamId_;
     /**
      * <code>uint32 backup_avatar_team_id = 14;</code>
@@ -159,10 +159,10 @@ public final class DelBackupAvatarTeamRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(6, retcode_);
+        output.writeInt32(4, retcode_);
       }
       if (backupAvatarTeamId_ != 0) {
-        output.writeUInt32(14, backupAvatarTeamId_);
+        output.writeUInt32(2, backupAvatarTeamId_);
       }
       unknownFields.writeTo(output);
     }
@@ -175,11 +175,11 @@ public final class DelBackupAvatarTeamRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(6, retcode_);
+          .computeInt32Size(4, retcode_);
       }
       if (backupAvatarTeamId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, backupAvatarTeamId_);
+          .computeUInt32Size(2, backupAvatarTeamId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -159,7 +159,7 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
             case 0:
               done = true;
               break;
-            case 42: {
+            case 128002: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 itemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>();
                 mutable_bitField0_ |= 0x00000004;
@@ -168,7 +168,7 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.parser(), extensionRegistry));
               break;
             }
-            case 74: {
+            case 34: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 expeditionInfoMap_ = com.google.protobuf.MapField.newMapField(
                     ExpeditionInfoMapDefaultEntryHolder.defaultEntry);
@@ -181,7 +181,7 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
                   expeditionInfoMap__.getKey(), expeditionInfoMap__.getValue());
               break;
             }
-            case 96: {
+            case 40: {
 
               retcode_ = input.readInt32();
               break;
@@ -285,7 +285,7 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
       return extraItemList_.get(index);
     }
 
-    public static final int EXPEDITION_INFO_MAP_FIELD_NUMBER = 9;
+    public static final int EXPEDITION_INFO_MAP_FIELD_NUMBER = 4;
     private static final class ExpeditionInfoMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Long, emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo> defaultEntry =
@@ -366,7 +366,7 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
       return map.get(key);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 12;
+    public static final int RETCODE_FIELD_NUMBER = 5;
     private int retcode_;
     /**
      * <code>int32 retcode = 12;</code>
@@ -377,7 +377,7 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
       return retcode_;
     }
 
-    public static final int ITEM_LIST_FIELD_NUMBER = 5;
+    public static final int ITEM_LIST_FIELD_NUMBER = 16000;
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> itemList_;
     /**
      * <code>repeated .ItemParam item_list = 5;</code>
@@ -432,16 +432,16 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < itemList_.size(); i++) {
-        output.writeMessage(5, itemList_.get(i));
+        output.writeMessage(16000, itemList_.get(i));
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeLongMapTo(
           output,
           internalGetExpeditionInfoMap(),
           ExpeditionInfoMapDefaultEntryHolder.defaultEntry,
-          9);
+          4);
       if (retcode_ != 0) {
-        output.writeInt32(12, retcode_);
+        output.writeInt32(5, retcode_);
       }
       for (int i = 0; i < extraItemList_.size(); i++) {
         output.writeMessage(13, extraItemList_.get(i));
@@ -457,7 +457,7 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
       size = 0;
       for (int i = 0; i < itemList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, itemList_.get(i));
+          .computeMessageSize(16000, itemList_.get(i));
       }
       for (java.util.Map.Entry<java.lang.Long, emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo> entry
            : internalGetExpeditionInfoMap().getMap().entrySet()) {
@@ -467,11 +467,11 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(9, expeditionInfoMap__);
+            .computeMessageSize(4, expeditionInfoMap__);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(12, retcode_);
+          .computeInt32Size(5, retcode_);
       }
       for (int i = 0; i < extraItemList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream

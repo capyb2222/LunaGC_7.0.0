@@ -74,7 +74,7 @@ public final class SetBattlePassViewedReqOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 24: {
 
               scheduleId_ = input.readUInt32();
               break;
@@ -111,7 +111,7 @@ public final class SetBattlePassViewedReqOuterClass {
               emu.grasscutter.net.proto.SetBattlePassViewedReqOuterClass.SetBattlePassViewedReq.class, emu.grasscutter.net.proto.SetBattlePassViewedReqOuterClass.SetBattlePassViewedReq.Builder.class);
     }
 
-    public static final int SCHEDULE_ID_FIELD_NUMBER = 2;
+    public static final int SCHEDULE_ID_FIELD_NUMBER = 3;
     private int scheduleId_;
     /**
      * <code>uint32 schedule_id = 2;</code>
@@ -137,7 +137,7 @@ public final class SetBattlePassViewedReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (scheduleId_ != 0) {
-        output.writeUInt32(2, scheduleId_);
+        output.writeUInt32(3, scheduleId_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +150,7 @@ public final class SetBattlePassViewedReqOuterClass {
       size = 0;
       if (scheduleId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, scheduleId_);
+          .computeUInt32Size(3, scheduleId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

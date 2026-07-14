@@ -92,7 +92,7 @@ public final class TowerTeamOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 104: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 avatarGuidList_ = newLongList();
                 mutable_bitField0_ |= 0x00000001;
@@ -100,7 +100,7 @@ public final class TowerTeamOuterClass {
               avatarGuidList_.addLong(input.readUInt64());
               break;
             }
-            case 10: {
+            case 106: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -113,7 +113,7 @@ public final class TowerTeamOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 112: {
+            case 48: {
 
               towerTeamId_ = input.readUInt32();
               break;
@@ -153,7 +153,7 @@ public final class TowerTeamOuterClass {
               emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam.class, emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam.Builder.class);
     }
 
-    public static final int TOWER_TEAM_ID_FIELD_NUMBER = 14;
+    public static final int TOWER_TEAM_ID_FIELD_NUMBER = 6;
     private int towerTeamId_;
     /**
      * <code>uint32 tower_team_id = 5;</code>
@@ -164,7 +164,7 @@ public final class TowerTeamOuterClass {
       return towerTeamId_;
     }
 
-    public static final int AVATAR_GUID_LIST_FIELD_NUMBER = 1;
+    public static final int AVATAR_GUID_LIST_FIELD_NUMBER = 13;
     private com.google.protobuf.Internal.LongList avatarGuidList_;
     /**
      * <code>repeated uint64 avatar_guid_list = 3;</code>
@@ -208,14 +208,14 @@ public final class TowerTeamOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getAvatarGuidListList().size() > 0) {
-        output.writeUInt32NoTag(10);
+        output.writeUInt32NoTag(106);
         output.writeUInt32NoTag(avatarGuidListMemoizedSerializedSize);
       }
       for (int i = 0; i < avatarGuidList_.size(); i++) {
         output.writeUInt64NoTag(avatarGuidList_.getLong(i));
       }
       if (towerTeamId_ != 0) {
-        output.writeUInt32(14, towerTeamId_);
+        output.writeUInt32(6, towerTeamId_);
       }
       unknownFields.writeTo(output);
     }
@@ -242,7 +242,7 @@ public final class TowerTeamOuterClass {
       }
       if (towerTeamId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, towerTeamId_);
+          .computeUInt32Size(6, towerTeamId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

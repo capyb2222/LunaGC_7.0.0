@@ -118,7 +118,7 @@ public final class GravenInnocencePhotoInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 90: {
+            case 42: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 stageInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.GravenInnocencePhotoStageInfoOuterClass.GravenInnocencePhotoStageInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -127,7 +127,7 @@ public final class GravenInnocencePhotoInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.GravenInnocencePhotoStageInfoOuterClass.GravenInnocencePhotoStageInfo.parser(), extensionRegistry));
               break;
             }
-            case 122: {
+            case 18: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 objectInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.GravenInnocencePhotoObjectInfoOuterClass.GravenInnocencePhotoObjectInfo>();
                 mutable_bitField0_ |= 0x00000002;
@@ -174,7 +174,7 @@ public final class GravenInnocencePhotoInfoOuterClass {
               emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.GravenInnocencePhotoInfo.class, emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.GravenInnocencePhotoInfo.Builder.class);
     }
 
-    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 11;
+    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 5;
     private java.util.List<emu.grasscutter.net.proto.GravenInnocencePhotoStageInfoOuterClass.GravenInnocencePhotoStageInfo> stageInfoList_;
     /**
      * <code>repeated .GravenInnocencePhotoStageInfo stage_info_list = 11;</code>
@@ -214,7 +214,7 @@ public final class GravenInnocencePhotoInfoOuterClass {
       return stageInfoList_.get(index);
     }
 
-    public static final int OBJECT_INFO_LIST_FIELD_NUMBER = 15;
+    public static final int OBJECT_INFO_LIST_FIELD_NUMBER = 2;
     private java.util.List<emu.grasscutter.net.proto.GravenInnocencePhotoObjectInfoOuterClass.GravenInnocencePhotoObjectInfo> objectInfoList_;
     /**
      * <code>repeated .GravenInnocencePhotoObjectInfo object_info_list = 15;</code>
@@ -269,10 +269,10 @@ public final class GravenInnocencePhotoInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < stageInfoList_.size(); i++) {
-        output.writeMessage(11, stageInfoList_.get(i));
+        output.writeMessage(5, stageInfoList_.get(i));
       }
       for (int i = 0; i < objectInfoList_.size(); i++) {
-        output.writeMessage(15, objectInfoList_.get(i));
+        output.writeMessage(2, objectInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -285,11 +285,11 @@ public final class GravenInnocencePhotoInfoOuterClass {
       size = 0;
       for (int i = 0; i < stageInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, stageInfoList_.get(i));
+          .computeMessageSize(5, stageInfoList_.get(i));
       }
       for (int i = 0; i < objectInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, objectInfoList_.get(i));
+          .computeMessageSize(2, objectInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

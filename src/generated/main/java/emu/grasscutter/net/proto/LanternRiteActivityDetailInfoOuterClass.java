@@ -138,7 +138,7 @@ public final class LanternRiteActivityDetailInfoOuterClass {
               fCGNJGJEEMA_ = input.readBool();
               break;
             }
-            case 40: {
+            case 72: {
 
               isContentClosed_ = input.readBool();
               break;
@@ -310,7 +310,7 @@ public final class LanternRiteActivityDetailInfoOuterClass {
       return getDBLCOKMPNIB();
     }
 
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 8;
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 9;
     private boolean isContentClosed_;
 
     @java.lang.Override
@@ -358,7 +358,7 @@ public final class LanternRiteActivityDetailInfoOuterClass {
         output.writeBool(2, fCGNJGJEEMA_);
       }
       if (isContentClosed_ != false) {
-        output.writeBool(8, isContentClosed_);
+        output.writeBool(9, isContentClosed_);
       }
       if (aMIGNHONCNN_ != null) {
         output.writeMessage(6, getAMIGNHONCNN());
@@ -387,7 +387,7 @@ public final class LanternRiteActivityDetailInfoOuterClass {
       }
       if (isContentClosed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, isContentClosed_);
+          .computeBoolSize(9, isContentClosed_);
       }
       if (aMIGNHONCNN_ != null) {
         size += com.google.protobuf.CodedOutputStream

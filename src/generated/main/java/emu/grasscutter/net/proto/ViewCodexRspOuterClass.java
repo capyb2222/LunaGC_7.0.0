@@ -130,7 +130,7 @@ public final class ViewCodexRspOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 82: {
+            case 74: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 typeDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData>();
                 mutable_bitField0_ |= 0x00000004;
@@ -139,12 +139,12 @@ public final class ViewCodexRspOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData.parser(), extensionRegistry));
               break;
             }
-            case 88: {
+            case 48: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 96: {
+            case 56: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 recentViewedPushtipsList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -152,7 +152,7 @@ public final class ViewCodexRspOuterClass {
               recentViewedPushtipsList_.addInt(input.readUInt32());
               break;
             }
-            case 98: {
+            case 58: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -206,7 +206,7 @@ public final class ViewCodexRspOuterClass {
               emu.grasscutter.net.proto.ViewCodexRspOuterClass.ViewCodexRsp.class, emu.grasscutter.net.proto.ViewCodexRspOuterClass.ViewCodexRsp.Builder.class);
     }
 
-    public static final int RECENT_VIEWED_PUSHTIPS_LIST_FIELD_NUMBER = 12;
+    public static final int RECENT_VIEWED_PUSHTIPS_LIST_FIELD_NUMBER = 7;
     private com.google.protobuf.Internal.IntList recentViewedPushtipsList_;
 
     @java.lang.Override
@@ -252,7 +252,7 @@ public final class ViewCodexRspOuterClass {
     }
     private int oKJJHEFMALJMemoizedSerializedSize = -1;
 
-    public static final int TYPE_DATA_LIST_FIELD_NUMBER = 3;
+    public static final int TYPE_DATA_LIST_FIELD_NUMBER = 9;
     private java.util.List<emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData> typeDataList_;
 
     @java.lang.Override
@@ -282,7 +282,7 @@ public final class ViewCodexRspOuterClass {
       return typeDataList_.get(index);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 11;
+    public static final int RETCODE_FIELD_NUMBER = 6;
     private int retcode_;
 
     @java.lang.Override
@@ -313,13 +313,13 @@ public final class ViewCodexRspOuterClass {
         output.writeUInt32NoTag(oKJJHEFMALJ_.getInt(i));
       }
       for (int i = 0; i < typeDataList_.size(); i++) {
-        output.writeMessage(3, typeDataList_.get(i));
+        output.writeMessage(9, typeDataList_.get(i));
       }
       if (retcode_ != 0) {
-        output.writeInt32(11, retcode_);
+        output.writeInt32(6, retcode_);
       }
       if (getRecentViewedPushtipsListList().size() > 0) {
-        output.writeUInt32NoTag(98);
+        output.writeUInt32NoTag(58);
         output.writeUInt32NoTag(recentViewedPushtipsListMemoizedSerializedSize);
       }
       for (int i = 0; i < recentViewedPushtipsList_.size(); i++) {
@@ -350,11 +350,11 @@ public final class ViewCodexRspOuterClass {
       }
       for (int i = 0; i < typeDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, typeDataList_.get(i));
+          .computeMessageSize(9, typeDataList_.get(i));
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(11, retcode_);
+          .computeInt32Size(6, retcode_);
       }
       {
         int dataSize = 0;

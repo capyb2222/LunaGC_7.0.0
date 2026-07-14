@@ -82,7 +82,7 @@ public final class AvatarSatiationDataNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 34: {
+            case 74: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 satiationDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.AvatarSatiationDataOuterClass.AvatarSatiationData>();
                 mutable_bitField0_ |= 0x00000001;

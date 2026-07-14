@@ -100,7 +100,7 @@ public final class CookDataNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
+            case 122: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 recipeDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData>();
                 mutable_bitField0_ |= 0x00000001;
@@ -109,7 +109,7 @@ public final class CookDataNotifyOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData.parser(), extensionRegistry));
               break;
             }
-            case 96: {
+            case 80: {
 
               grade_ = input.readUInt32();
               break;
@@ -149,7 +149,7 @@ public final class CookDataNotifyOuterClass {
               emu.grasscutter.net.proto.CookDataNotifyOuterClass.CookDataNotify.class, emu.grasscutter.net.proto.CookDataNotifyOuterClass.CookDataNotify.Builder.class);
     }
 
-    public static final int RECIPE_DATA_LIST_FIELD_NUMBER = 3;
+    public static final int RECIPE_DATA_LIST_FIELD_NUMBER = 15;
     private java.util.List<emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData> recipeDataList_;
     /**
      * <code>repeated .CookRecipeData recipe_data_list = 1;</code>
@@ -215,7 +215,7 @@ public final class CookDataNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < recipeDataList_.size(); i++) {
-        output.writeMessage(3, recipeDataList_.get(i));
+        output.writeMessage(15, recipeDataList_.get(i));
       }
       if (grade_ != 0) {
         output.writeUInt32(10, grade_);
@@ -231,7 +231,7 @@ public final class CookDataNotifyOuterClass {
       size = 0;
       for (int i = 0; i < recipeDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, recipeDataList_.get(i));
+          .computeMessageSize(15, recipeDataList_.get(i));
       }
       if (grade_ != 0) {
         size += com.google.protobuf.CodedOutputStream

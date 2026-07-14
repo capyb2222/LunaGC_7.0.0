@@ -80,7 +80,7 @@ public final class QuestProgressUpdateNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
+            case 120: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 failProgressList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -88,7 +88,7 @@ public final class QuestProgressUpdateNotifyOuterClass {
               failProgressList_.addInt(input.readUInt32());
               break;
             }
-            case 58: {
+            case 122: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -101,7 +101,7 @@ public final class QuestProgressUpdateNotifyOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 88: {
+            case 24: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 finishProgressList_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -109,7 +109,7 @@ public final class QuestProgressUpdateNotifyOuterClass {
               finishProgressList_.addInt(input.readUInt32());
               break;
             }
-            case 90: {
+            case 26: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -122,7 +122,7 @@ public final class QuestProgressUpdateNotifyOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 120: {
+            case 64: {
 
               questId_ = input.readUInt32();
               break;
@@ -165,7 +165,7 @@ public final class QuestProgressUpdateNotifyOuterClass {
               emu.grasscutter.net.proto.QuestProgressUpdateNotifyOuterClass.QuestProgressUpdateNotify.class, emu.grasscutter.net.proto.QuestProgressUpdateNotifyOuterClass.QuestProgressUpdateNotify.Builder.class);
     }
 
-    public static final int FAIL_PROGRESS_LIST_FIELD_NUMBER = 7;
+    public static final int FAIL_PROGRESS_LIST_FIELD_NUMBER = 15;
     private com.google.protobuf.Internal.IntList failProgressList_;
 
     @java.lang.Override
@@ -183,7 +183,7 @@ public final class QuestProgressUpdateNotifyOuterClass {
     }
     private int failProgressListMemoizedSerializedSize = -1;
 
-    public static final int FINISH_PROGRESS_LIST_FIELD_NUMBER = 11;
+    public static final int FINISH_PROGRESS_LIST_FIELD_NUMBER = 3;
     private com.google.protobuf.Internal.IntList finishProgressList_;
 
     @java.lang.Override
@@ -201,7 +201,7 @@ public final class QuestProgressUpdateNotifyOuterClass {
     }
     private int finishProgressListMemoizedSerializedSize = -1;
 
-    public static final int QUEST_ID_FIELD_NUMBER = 15;
+    public static final int QUEST_ID_FIELD_NUMBER = 8;
     private int questId_;
 
     @java.lang.Override
@@ -225,21 +225,21 @@ public final class QuestProgressUpdateNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getFailProgressListList().size() > 0) {
-        output.writeUInt32NoTag(58);
+        output.writeUInt32NoTag(122);
         output.writeUInt32NoTag(failProgressListMemoizedSerializedSize);
       }
       for (int i = 0; i < failProgressList_.size(); i++) {
         output.writeUInt32NoTag(failProgressList_.getInt(i));
       }
       if (getFinishProgressListList().size() > 0) {
-        output.writeUInt32NoTag(90);
+        output.writeUInt32NoTag(26);
         output.writeUInt32NoTag(finishProgressListMemoizedSerializedSize);
       }
       for (int i = 0; i < finishProgressList_.size(); i++) {
         output.writeUInt32NoTag(finishProgressList_.getInt(i));
       }
       if (questId_ != 0) {
-        output.writeUInt32(15, questId_);
+        output.writeUInt32(8, questId_);
       }
       unknownFields.writeTo(output);
     }
@@ -280,7 +280,7 @@ public final class QuestProgressUpdateNotifyOuterClass {
       }
       if (questId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, questId_);
+          .computeUInt32Size(8, questId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

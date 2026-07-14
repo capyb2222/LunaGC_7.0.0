@@ -99,12 +99,12 @@ public final class VintageMarketTraderInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 72: {
+            case 32: {
 
               traderId_ = input.readUInt32();
               break;
             }
-            case 82: {
+            case 98: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 availableItemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>();
                 mutable_bitField0_ |= 0x00000001;
@@ -148,7 +148,7 @@ public final class VintageMarketTraderInfoOuterClass {
               emu.grasscutter.net.proto.VintageMarketTraderInfoOuterClass.VintageMarketTraderInfo.class, emu.grasscutter.net.proto.VintageMarketTraderInfoOuterClass.VintageMarketTraderInfo.Builder.class);
     }
 
-    public static final int AVAILABLE_ITEM_LIST_FIELD_NUMBER = 10;
+    public static final int AVAILABLE_ITEM_LIST_FIELD_NUMBER = 12;
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> availableItemList_;
     /**
      * <code>repeated .ItemParam available_item_list = 10;</code>
@@ -188,7 +188,7 @@ public final class VintageMarketTraderInfoOuterClass {
       return availableItemList_.get(index);
     }
 
-    public static final int TRADER_ID_FIELD_NUMBER = 9;
+    public static final int TRADER_ID_FIELD_NUMBER = 4;
     private int traderId_;
     /**
      * <code>uint32 trader_id = 9;</code>
@@ -214,10 +214,10 @@ public final class VintageMarketTraderInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (traderId_ != 0) {
-        output.writeUInt32(9, traderId_);
+        output.writeUInt32(4, traderId_);
       }
       for (int i = 0; i < availableItemList_.size(); i++) {
-        output.writeMessage(10, availableItemList_.get(i));
+        output.writeMessage(12, availableItemList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -230,11 +230,11 @@ public final class VintageMarketTraderInfoOuterClass {
       size = 0;
       if (traderId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, traderId_);
+          .computeUInt32Size(4, traderId_);
       }
       for (int i = 0; i < availableItemList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, availableItemList_.get(i));
+          .computeMessageSize(12, availableItemList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

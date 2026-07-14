@@ -84,12 +84,12 @@ public final class EvtAvatarSitDownNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 32: {
 
               entityId_ = input.readUInt32();
               break;
             }
-            case 18: {
+            case 98: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (position_ != null) {
                 subBuilder = position_.toBuilder();
@@ -102,12 +102,12 @@ public final class EvtAvatarSitDownNotifyOuterClass {
 
               break;
             }
-            case 16: {
+            case 128000: {
 
               performId_ = input.readInt32();
               break;
             }
-            case 64: {
+            case 16: {
 
               chairId_ = input.readUInt64();
               break;
@@ -144,7 +144,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
               emu.grasscutter.net.proto.EvtAvatarSitDownNotifyOuterClass.EvtAvatarSitDownNotify.class, emu.grasscutter.net.proto.EvtAvatarSitDownNotifyOuterClass.EvtAvatarSitDownNotify.Builder.class);
     }
 
-    public static final int POSITION_FIELD_NUMBER = 8;
+    public static final int POSITION_FIELD_NUMBER = 12;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector position_;
 
     @java.lang.Override
@@ -162,7 +162,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
       return getPosition();
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 15;
+    public static final int ENTITY_ID_FIELD_NUMBER = 4;
     private int entityId_;
 
     @java.lang.Override
@@ -170,7 +170,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
       return entityId_;
     }
 
-    public static final int PERFORM_ID_FIELD_NUMBER = 2;
+    public static final int PERFORM_ID_FIELD_NUMBER = 16000;
     private int performId_;
     /**
      * <code>int32 perform_id = 3;</code>
@@ -181,7 +181,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
       return performId_;
     }
 
-    public static final int CHAIR_ID_FIELD_NUMBER = 1;
+    public static final int CHAIR_ID_FIELD_NUMBER = 2;
     private long chairId_;
 
     @java.lang.Override
@@ -204,16 +204,16 @@ public final class EvtAvatarSitDownNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (entityId_ != 0) {
-        output.writeUInt32(15, entityId_);
+        output.writeUInt32(4, entityId_);
       }
       if (position_ != null) {
-        output.writeMessage(2, getPosition());
+        output.writeMessage(12, getPosition());
       }
       if (performId_ != 0) {
-        output.writeInt32(2, performId_);
+        output.writeInt32(16000, performId_);
       }
       if (chairId_ != 0L) {
-        output.writeUInt64(1, chairId_);
+        output.writeUInt64(2, chairId_);
       }
       unknownFields.writeTo(output);
     }
@@ -226,19 +226,19 @@ public final class EvtAvatarSitDownNotifyOuterClass {
       size = 0;
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, entityId_);
+          .computeUInt32Size(4, entityId_);
       }
       if (position_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, getPosition());
+          .computeMessageSize(12, getPosition());
       }
       if (performId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(2, performId_);
+          .computeInt32Size(16000, performId_);
       }
       if (chairId_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(1, chairId_);
+          .computeUInt64Size(2, chairId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

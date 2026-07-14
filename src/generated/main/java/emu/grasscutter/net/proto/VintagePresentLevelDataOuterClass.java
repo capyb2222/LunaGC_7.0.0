@@ -91,22 +91,22 @@ public final class VintagePresentLevelDataOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 72: {
 
               isFinish_ = input.readBool();
               break;
             }
-            case 32: {
+            case 16: {
 
               stageId_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 64: {
 
               isOpen_ = input.readBool();
               break;
             }
-            case 88: {
+            case 24: {
 
               presentId_ = input.readUInt32();
               break;
@@ -143,7 +143,7 @@ public final class VintagePresentLevelDataOuterClass {
               emu.grasscutter.net.proto.VintagePresentLevelDataOuterClass.VintagePresentLevelData.class, emu.grasscutter.net.proto.VintagePresentLevelDataOuterClass.VintagePresentLevelData.Builder.class);
     }
 
-    public static final int PRESENT_ID_FIELD_NUMBER = 11;
+    public static final int PRESENT_ID_FIELD_NUMBER = 3;
     private int presentId_;
     /**
      * <code>uint32 present_id = 11;</code>
@@ -154,7 +154,7 @@ public final class VintagePresentLevelDataOuterClass {
       return presentId_;
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 4;
+    public static final int STAGE_ID_FIELD_NUMBER = 2;
     private int stageId_;
     /**
      * <code>uint32 stage_id = 4;</code>
@@ -165,7 +165,7 @@ public final class VintagePresentLevelDataOuterClass {
       return stageId_;
     }
 
-    public static final int IS_FINISH_FIELD_NUMBER = 3;
+    public static final int IS_FINISH_FIELD_NUMBER = 9;
     private boolean isFinish_;
     /**
      * <code>bool is_finish = 3;</code>
@@ -176,7 +176,7 @@ public final class VintagePresentLevelDataOuterClass {
       return isFinish_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 6;
+    public static final int IS_OPEN_FIELD_NUMBER = 8;
     private boolean isOpen_;
     /**
      * <code>bool is_open = 6;</code>
@@ -202,16 +202,16 @@ public final class VintagePresentLevelDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isFinish_ != false) {
-        output.writeBool(3, isFinish_);
+        output.writeBool(9, isFinish_);
       }
       if (stageId_ != 0) {
-        output.writeUInt32(4, stageId_);
+        output.writeUInt32(2, stageId_);
       }
       if (isOpen_ != false) {
-        output.writeBool(6, isOpen_);
+        output.writeBool(8, isOpen_);
       }
       if (presentId_ != 0) {
-        output.writeUInt32(11, presentId_);
+        output.writeUInt32(3, presentId_);
       }
       unknownFields.writeTo(output);
     }
@@ -224,19 +224,19 @@ public final class VintagePresentLevelDataOuterClass {
       size = 0;
       if (isFinish_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, isFinish_);
+          .computeBoolSize(9, isFinish_);
       }
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, stageId_);
+          .computeUInt32Size(2, stageId_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, isOpen_);
+          .computeBoolSize(8, isOpen_);
       }
       if (presentId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, presentId_);
+          .computeUInt32Size(3, presentId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

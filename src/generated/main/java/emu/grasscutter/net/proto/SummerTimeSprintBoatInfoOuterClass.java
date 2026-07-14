@@ -93,7 +93,7 @@ public final class SummerTimeSprintBoatInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 26: {
+            case 114: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 recordList_ = new java.util.ArrayList<emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecord>();
                 mutable_bitField0_ |= 0x00000001;
@@ -137,7 +137,7 @@ public final class SummerTimeSprintBoatInfoOuterClass {
               emu.grasscutter.net.proto.SummerTimeSprintBoatInfoOuterClass.SummerTimeSprintBoatInfo.class, emu.grasscutter.net.proto.SummerTimeSprintBoatInfoOuterClass.SummerTimeSprintBoatInfo.Builder.class);
     }
 
-    public static final int RECORD_LIST_FIELD_NUMBER = 3;
+    public static final int RECORD_LIST_FIELD_NUMBER = 14;
     private java.util.List<emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecord> recordList_;
     /**
      * <code>repeated .SummerTimeSprintBoatRecord record_list = 3;</code>
@@ -192,7 +192,7 @@ public final class SummerTimeSprintBoatInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < recordList_.size(); i++) {
-        output.writeMessage(3, recordList_.get(i));
+        output.writeMessage(14, recordList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -205,7 +205,7 @@ public final class SummerTimeSprintBoatInfoOuterClass {
       size = 0;
       for (int i = 0; i < recordList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, recordList_.get(i));
+          .computeMessageSize(14, recordList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

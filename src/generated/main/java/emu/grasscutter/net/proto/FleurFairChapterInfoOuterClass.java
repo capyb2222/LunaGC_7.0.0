@@ -79,12 +79,12 @@ public final class FleurFairChapterInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 72: {
+            case 80: {
 
               openTime_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 8: {
 
               chapterId_ = input.readUInt32();
               break;
@@ -121,7 +121,7 @@ public final class FleurFairChapterInfoOuterClass {
               emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo.class, emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo.Builder.class);
     }
 
-    public static final int OPEN_TIME_FIELD_NUMBER = 9;
+    public static final int OPEN_TIME_FIELD_NUMBER = 10;
     private int openTime_;
     /**
      * <code>uint32 open_time = 9;</code>
@@ -132,7 +132,7 @@ public final class FleurFairChapterInfoOuterClass {
       return openTime_;
     }
 
-    public static final int CHAPTER_ID_FIELD_NUMBER = 12;
+    public static final int CHAPTER_ID_FIELD_NUMBER = 1;
     private int chapterId_;
     /**
      * <code>uint32 chapter_id = 12;</code>
@@ -158,10 +158,10 @@ public final class FleurFairChapterInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (openTime_ != 0) {
-        output.writeUInt32(9, openTime_);
+        output.writeUInt32(10, openTime_);
       }
       if (chapterId_ != 0) {
-        output.writeUInt32(12, chapterId_);
+        output.writeUInt32(1, chapterId_);
       }
       unknownFields.writeTo(output);
     }
@@ -174,11 +174,11 @@ public final class FleurFairChapterInfoOuterClass {
       size = 0;
       if (openTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, openTime_);
+          .computeUInt32Size(10, openTime_);
       }
       if (chapterId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, chapterId_);
+          .computeUInt32Size(1, chapterId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

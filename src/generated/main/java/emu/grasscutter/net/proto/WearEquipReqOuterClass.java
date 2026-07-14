@@ -71,12 +71,12 @@ public final class WearEquipReqOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 80: {
 
               equipGuid_ = input.readUInt64();
               break;
             }
-            case 72: {
+            case 32: {
 
               avatarGuid_ = input.readUInt64();
               break;
@@ -113,7 +113,7 @@ public final class WearEquipReqOuterClass {
               emu.grasscutter.net.proto.WearEquipReqOuterClass.WearEquipReq.class, emu.grasscutter.net.proto.WearEquipReqOuterClass.WearEquipReq.Builder.class);
     }
 
-    public static final int EQUIP_GUID_FIELD_NUMBER = 2;
+    public static final int EQUIP_GUID_FIELD_NUMBER = 10;
     private long equipGuid_;
 
     @java.lang.Override
@@ -121,7 +121,7 @@ public final class WearEquipReqOuterClass {
       return equipGuid_;
     }
 
-    public static final int AVATAR_GUID_FIELD_NUMBER = 9;
+    public static final int AVATAR_GUID_FIELD_NUMBER = 4;
     private long avatarGuid_;
 
     @java.lang.Override
@@ -144,10 +144,10 @@ public final class WearEquipReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (equipGuid_ != 0L) {
-        output.writeUInt64(2, equipGuid_);
+        output.writeUInt64(10, equipGuid_);
       }
       if (avatarGuid_ != 0L) {
-        output.writeUInt64(9, avatarGuid_);
+        output.writeUInt64(4, avatarGuid_);
       }
       unknownFields.writeTo(output);
     }
@@ -160,11 +160,11 @@ public final class WearEquipReqOuterClass {
       size = 0;
       if (equipGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(2, equipGuid_);
+          .computeUInt64Size(10, equipGuid_);
       }
       if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(9, avatarGuid_);
+          .computeUInt64Size(4, avatarGuid_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

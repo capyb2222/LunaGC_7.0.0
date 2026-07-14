@@ -81,28 +81,28 @@ public final class DoGachaReqOuterClass {
             case 0:
               done = true;
               break;
-            case 50: {
+            case 122: {
               java.lang.String s = input.readStringRequireUtf8();
 
               gachaTag_ = s;
               break;
             }
-            case 64: {
+            case 40: {
 
               gachaRandom_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 32: {
 
               gachaTimes_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 104: {
 
               gachaScheduleId_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 112: {
 
               gachaType_ = input.readUInt32();
               break;
@@ -139,7 +139,7 @@ public final class DoGachaReqOuterClass {
               emu.grasscutter.net.proto.DoGachaReqOuterClass.DoGachaReq.class, emu.grasscutter.net.proto.DoGachaReqOuterClass.DoGachaReq.Builder.class);
     }
 
-    public static final int GACHA_TAG_FIELD_NUMBER = 6;
+    public static final int GACHA_TAG_FIELD_NUMBER = 15;
     private volatile java.lang.Object gachaTag_;
 
     @java.lang.Override
@@ -171,7 +171,7 @@ public final class DoGachaReqOuterClass {
       }
     }
 
-    public static final int GACHA_RANDOM_FIELD_NUMBER = 8;
+    public static final int GACHA_RANDOM_FIELD_NUMBER = 5;
     private int gachaRandom_;
 
     @java.lang.Override
@@ -179,7 +179,7 @@ public final class DoGachaReqOuterClass {
       return gachaRandom_;
     }
 
-    public static final int GACHA_TIMES_FIELD_NUMBER = 9;
+    public static final int GACHA_TIMES_FIELD_NUMBER = 4;
     private int gachaTimes_;
 
     @java.lang.Override
@@ -187,7 +187,7 @@ public final class DoGachaReqOuterClass {
       return gachaTimes_;
     }
 
-    public static final int GACHA_TYPE_FIELD_NUMBER = 15;
+    public static final int GACHA_TYPE_FIELD_NUMBER = 14;
     private int gachaType_;
 
     @java.lang.Override
@@ -195,7 +195,7 @@ public final class DoGachaReqOuterClass {
       return gachaType_;
     }
 
-    public static final int GACHA_SCHEDULE_ID_FIELD_NUMBER = 10;
+    public static final int GACHA_SCHEDULE_ID_FIELD_NUMBER = 13;
     private int gachaScheduleId_;
 
     @java.lang.Override
@@ -218,19 +218,19 @@ public final class DoGachaReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (gachaScheduleId_ != 0) {
-        output.writeUInt32(10, gachaScheduleId_);
+        output.writeUInt32(13, gachaScheduleId_);
       }
       if (gachaTimes_ != 0) {
-        output.writeUInt32(9, gachaTimes_);
+        output.writeUInt32(4, gachaTimes_);
       }
       if (gachaRandom_ != 0) {
-        output.writeUInt32(8, gachaRandom_);
+        output.writeUInt32(5, gachaRandom_);
       }
       if (gachaType_ != 0) {
-        output.writeUInt32(15, gachaType_);
+        output.writeUInt32(14, gachaType_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gachaTag_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 6, gachaTag_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 15, gachaTag_);
       }
       unknownFields.writeTo(output);
     }
@@ -243,22 +243,22 @@ public final class DoGachaReqOuterClass {
       size = 0;
       if (gachaScheduleId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, gachaScheduleId_);
+          .computeUInt32Size(13, gachaScheduleId_);
       }
       if (gachaTimes_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, gachaTimes_);
+          .computeUInt32Size(4, gachaTimes_);
       }
       if (gachaRandom_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, gachaRandom_);
+          .computeUInt32Size(5, gachaRandom_);
       }
       if (gachaType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, gachaType_);
+          .computeUInt32Size(14, gachaType_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gachaTag_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(6, gachaTag_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(15, gachaTag_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

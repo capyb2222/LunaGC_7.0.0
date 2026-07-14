@@ -69,7 +69,7 @@ public final class AbilityActionSetRandomOverrideMapValueOuterClass {
             case 0:
               done = true;
               break;
-            case 45: {
+            case 21: {
 
               randomValue_ = input.readFloat();
               break;
@@ -106,7 +106,7 @@ public final class AbilityActionSetRandomOverrideMapValueOuterClass {
               emu.grasscutter.net.proto.AbilityActionSetRandomOverrideMapValueOuterClass.AbilityActionSetRandomOverrideMapValue.class, emu.grasscutter.net.proto.AbilityActionSetRandomOverrideMapValueOuterClass.AbilityActionSetRandomOverrideMapValue.Builder.class);
     }
 
-    public static final int RANDOM_VALUE_FIELD_NUMBER = 5;
+    public static final int RANDOM_VALUE_FIELD_NUMBER = 2;
     private float randomValue_;
     /**
      * <code>float random_value = 1;</code>
@@ -132,7 +132,7 @@ public final class AbilityActionSetRandomOverrideMapValueOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (randomValue_ != 0F) {
-        output.writeFloat(5, randomValue_);
+        output.writeFloat(2, randomValue_);
       }
       unknownFields.writeTo(output);
     }
@@ -145,7 +145,7 @@ public final class AbilityActionSetRandomOverrideMapValueOuterClass {
       size = 0;
       if (randomValue_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(5, randomValue_);
+          .computeFloatSize(2, randomValue_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

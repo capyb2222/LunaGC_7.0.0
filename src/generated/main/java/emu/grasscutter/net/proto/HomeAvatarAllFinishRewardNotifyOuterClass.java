@@ -87,7 +87,7 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 96: {
+            case 48: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 eventIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -95,7 +95,7 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
               eventIdList_.addInt(input.readUInt32());
               break;
             }
-            case 98: {
+            case 50: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -143,7 +143,7 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
               emu.grasscutter.net.proto.HomeAvatarAllFinishRewardNotifyOuterClass.HomeAvatarAllFinishRewardNotify.class, emu.grasscutter.net.proto.HomeAvatarAllFinishRewardNotifyOuterClass.HomeAvatarAllFinishRewardNotify.Builder.class);
     }
 
-    public static final int EVENT_ID_LIST_FIELD_NUMBER = 12;
+    public static final int EVENT_ID_LIST_FIELD_NUMBER = 6;
     private com.google.protobuf.Internal.IntList eventIdList_;
     /**
      * <code>repeated uint32 event_id_list = 12;</code>
@@ -187,7 +187,7 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getEventIdListList().size() > 0) {
-        output.writeUInt32NoTag(98);
+        output.writeUInt32NoTag(50);
         output.writeUInt32NoTag(eventIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < eventIdList_.size(); i++) {

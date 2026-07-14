@@ -97,27 +97,27 @@ public final class HomeAvatarRewardEventInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 120: {
 
               randomPosition_ = input.readUInt32();
               break;
             }
-            case 24: {
+            case 40: {
 
               suiteId_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 88: {
 
               avatarId_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 48: {
 
               eventId_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 96: {
 
               guid_ = input.readUInt32();
               break;
@@ -154,7 +154,7 @@ public final class HomeAvatarRewardEventInfoOuterClass {
               emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.class, emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.Builder.class);
     }
 
-    public static final int GUID_FIELD_NUMBER = 11;
+    public static final int GUID_FIELD_NUMBER = 12;
     private int guid_;
     /**
      * <code>uint32 guid = 11;</code>
@@ -165,7 +165,7 @@ public final class HomeAvatarRewardEventInfoOuterClass {
       return guid_;
     }
 
-    public static final int EVENT_ID_FIELD_NUMBER = 8;
+    public static final int EVENT_ID_FIELD_NUMBER = 6;
     private int eventId_;
     /**
      * <code>uint32 event_id = 8;</code>
@@ -176,7 +176,7 @@ public final class HomeAvatarRewardEventInfoOuterClass {
       return eventId_;
     }
 
-    public static final int AVATAR_ID_FIELD_NUMBER = 5;
+    public static final int AVATAR_ID_FIELD_NUMBER = 11;
     private int avatarId_;
     /**
      * <code>uint32 avatar_id = 5;</code>
@@ -187,7 +187,7 @@ public final class HomeAvatarRewardEventInfoOuterClass {
       return avatarId_;
     }
 
-    public static final int RANDOM_POSITION_FIELD_NUMBER = 1;
+    public static final int RANDOM_POSITION_FIELD_NUMBER = 15;
     private int randomPosition_;
     /**
      * <code>uint32 random_position = 1;</code>
@@ -198,7 +198,7 @@ public final class HomeAvatarRewardEventInfoOuterClass {
       return randomPosition_;
     }
 
-    public static final int SUITE_ID_FIELD_NUMBER = 3;
+    public static final int SUITE_ID_FIELD_NUMBER = 5;
     private int suiteId_;
     /**
      * <code>uint32 suite_id = 3;</code>
@@ -224,19 +224,19 @@ public final class HomeAvatarRewardEventInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (randomPosition_ != 0) {
-        output.writeUInt32(1, randomPosition_);
+        output.writeUInt32(15, randomPosition_);
       }
       if (suiteId_ != 0) {
-        output.writeUInt32(3, suiteId_);
+        output.writeUInt32(5, suiteId_);
       }
       if (avatarId_ != 0) {
-        output.writeUInt32(5, avatarId_);
+        output.writeUInt32(11, avatarId_);
       }
       if (eventId_ != 0) {
-        output.writeUInt32(8, eventId_);
+        output.writeUInt32(6, eventId_);
       }
       if (guid_ != 0) {
-        output.writeUInt32(11, guid_);
+        output.writeUInt32(12, guid_);
       }
       unknownFields.writeTo(output);
     }
@@ -249,23 +249,23 @@ public final class HomeAvatarRewardEventInfoOuterClass {
       size = 0;
       if (randomPosition_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, randomPosition_);
+          .computeUInt32Size(15, randomPosition_);
       }
       if (suiteId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, suiteId_);
+          .computeUInt32Size(5, suiteId_);
       }
       if (avatarId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, avatarId_);
+          .computeUInt32Size(11, avatarId_);
       }
       if (eventId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, eventId_);
+          .computeUInt32Size(6, eventId_);
       }
       if (guid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, guid_);
+          .computeUInt32Size(12, guid_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

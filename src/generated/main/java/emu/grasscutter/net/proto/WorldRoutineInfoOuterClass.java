@@ -71,7 +71,7 @@ public final class WorldRoutineInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 104: {
 
               finishProgress_ = input.readUInt32();
               break;
@@ -81,12 +81,12 @@ public final class WorldRoutineInfoOuterClass {
               progress_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 120: {
 
               isFinished_ = input.readBool();
               break;
             }
-            case 72: {
+            case 40: {
 
               routineId_ = input.readUInt32();
               break;
@@ -123,7 +123,7 @@ public final class WorldRoutineInfoOuterClass {
               emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo.class, emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo.Builder.class);
     }
 
-    public static final int FINISH_PROGRESS_FIELD_NUMBER = 2;
+    public static final int FINISH_PROGRESS_FIELD_NUMBER = 13;
     private int finishProgress_;
 
     @java.lang.Override
@@ -139,7 +139,7 @@ public final class WorldRoutineInfoOuterClass {
       return progress_;
     }
 
-    public static final int ROUTINE_ID_FIELD_NUMBER = 9;
+    public static final int ROUTINE_ID_FIELD_NUMBER = 5;
     private int routineId_;
 
     @java.lang.Override
@@ -147,7 +147,7 @@ public final class WorldRoutineInfoOuterClass {
       return routineId_;
     }
 
-    public static final int IS_FINISHED_FIELD_NUMBER = 5;
+    public static final int IS_FINISHED_FIELD_NUMBER = 15;
     private boolean isFinished_;
 
     @java.lang.Override
@@ -170,16 +170,16 @@ public final class WorldRoutineInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (finishProgress_ != 0) {
-        output.writeUInt32(2, finishProgress_);
+        output.writeUInt32(13, finishProgress_);
       }
       if (progress_ != 0) {
         output.writeUInt32(4, progress_);
       }
       if (isFinished_ != false) {
-        output.writeBool(5, isFinished_);
+        output.writeBool(15, isFinished_);
       }
       if (routineId_ != 0) {
-        output.writeUInt32(9, routineId_);
+        output.writeUInt32(5, routineId_);
       }
       unknownFields.writeTo(output);
     }
@@ -192,7 +192,7 @@ public final class WorldRoutineInfoOuterClass {
       size = 0;
       if (finishProgress_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, finishProgress_);
+          .computeUInt32Size(13, finishProgress_);
       }
       if (progress_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -200,11 +200,11 @@ public final class WorldRoutineInfoOuterClass {
       }
       if (isFinished_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, isFinished_);
+          .computeBoolSize(15, isFinished_);
       }
       if (routineId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, routineId_);
+          .computeUInt32Size(5, routineId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

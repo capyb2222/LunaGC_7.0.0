@@ -86,17 +86,17 @@ public final class ItemGivingRspOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 88: {
 
               givingId_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 56: {
 
               givingGroupId_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 48: {
 
               retcode_ = input.readInt32();
               break;
@@ -133,7 +133,7 @@ public final class ItemGivingRspOuterClass {
               emu.grasscutter.net.proto.ItemGivingRspOuterClass.ItemGivingRsp.class, emu.grasscutter.net.proto.ItemGivingRspOuterClass.ItemGivingRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 9;
+    public static final int RETCODE_FIELD_NUMBER = 6;
     private int retcode_;
     /**
      * <code>int32 retcode = 14;</code>
@@ -144,7 +144,7 @@ public final class ItemGivingRspOuterClass {
       return retcode_;
     }
 
-    public static final int GIVING_GROUP_ID_FIELD_NUMBER = 5;
+    public static final int GIVING_GROUP_ID_FIELD_NUMBER = 7;
     private int givingGroupId_;
     /**
      * <code>uint32 giving_group_id = 4;</code>
@@ -155,7 +155,7 @@ public final class ItemGivingRspOuterClass {
       return givingGroupId_;
     }
 
-    public static final int GIVING_ID_FIELD_NUMBER = 3;
+    public static final int GIVING_ID_FIELD_NUMBER = 11;
     private int givingId_;
     /**
      * <code>uint32 giving_id = 13;</code>
@@ -181,13 +181,13 @@ public final class ItemGivingRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (givingId_ != 0) {
-        output.writeUInt32(3, givingId_);
+        output.writeUInt32(11, givingId_);
       }
       if (givingGroupId_ != 0) {
-        output.writeUInt32(5, givingGroupId_);
+        output.writeUInt32(7, givingGroupId_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(9, retcode_);
+        output.writeInt32(6, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -200,15 +200,15 @@ public final class ItemGivingRspOuterClass {
       size = 0;
       if (givingId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, givingId_);
+          .computeUInt32Size(11, givingId_);
       }
       if (givingGroupId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, givingGroupId_);
+          .computeUInt32Size(7, givingGroupId_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(9, retcode_);
+          .computeInt32Size(6, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

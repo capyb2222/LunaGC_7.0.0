@@ -71,12 +71,12 @@ public final class EnterWorldAreaReqOuterClass {
             case 0:
               done = true;
               break;
-            case 72: {
+            case 112: {
 
               areaId_ = input.readUInt32();
               break;
             }
-            case 8: {
+            case 120: {
 
               areaType_ = input.readUInt32();
               break;
@@ -113,7 +113,7 @@ public final class EnterWorldAreaReqOuterClass {
               emu.grasscutter.net.proto.EnterWorldAreaReqOuterClass.EnterWorldAreaReq.class, emu.grasscutter.net.proto.EnterWorldAreaReqOuterClass.EnterWorldAreaReq.Builder.class);
     }
 
-    public static final int AREA_TYPE_FIELD_NUMBER = 1;
+    public static final int AREA_TYPE_FIELD_NUMBER = 15;
     private int areaType_;
 
     @java.lang.Override
@@ -121,7 +121,7 @@ public final class EnterWorldAreaReqOuterClass {
       return areaType_;
     }
 
-    public static final int AREA_ID_FIELD_NUMBER = 9;
+    public static final int AREA_ID_FIELD_NUMBER = 14;
     private int areaId_;
 
     @java.lang.Override
@@ -144,10 +144,10 @@ public final class EnterWorldAreaReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (areaId_ != 0) {
-        output.writeUInt32(9, areaId_);
+        output.writeUInt32(14, areaId_);
       }
       if (areaType_ != 0) {
-        output.writeUInt32(1, areaType_);
+        output.writeUInt32(15, areaType_);
       }
       unknownFields.writeTo(output);
     }
@@ -160,11 +160,11 @@ public final class EnterWorldAreaReqOuterClass {
       size = 0;
       if (areaId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, areaId_);
+          .computeUInt32Size(14, areaId_);
       }
       if (areaType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, areaType_);
+          .computeUInt32Size(15, areaType_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

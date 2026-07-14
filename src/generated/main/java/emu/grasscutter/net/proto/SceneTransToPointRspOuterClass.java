@@ -69,17 +69,17 @@ public final class SceneTransToPointRspOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 48: {
 
               pointId_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 80: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 88: {
+            case 104: {
 
               sceneId_ = input.readUInt32();
               break;
@@ -116,7 +116,7 @@ public final class SceneTransToPointRspOuterClass {
               emu.grasscutter.net.proto.SceneTransToPointRspOuterClass.SceneTransToPointRsp.class, emu.grasscutter.net.proto.SceneTransToPointRspOuterClass.SceneTransToPointRsp.Builder.class);
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 11;
+    public static final int SCENE_ID_FIELD_NUMBER = 13;
     private int sceneId_;
 
     @java.lang.Override
@@ -124,7 +124,7 @@ public final class SceneTransToPointRspOuterClass {
       return sceneId_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 6;
+    public static final int RETCODE_FIELD_NUMBER = 10;
     private int retcode_;
 
     @java.lang.Override
@@ -132,7 +132,7 @@ public final class SceneTransToPointRspOuterClass {
       return retcode_;
     }
 
-    public static final int POINT_ID_FIELD_NUMBER = 3;
+    public static final int POINT_ID_FIELD_NUMBER = 6;
     private int pointId_;
 
     @java.lang.Override
@@ -155,13 +155,13 @@ public final class SceneTransToPointRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (pointId_ != 0) {
-        output.writeUInt32(3, pointId_);
+        output.writeUInt32(6, pointId_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(6, retcode_);
+        output.writeInt32(10, retcode_);
       }
       if (sceneId_ != 0) {
-        output.writeUInt32(11, sceneId_);
+        output.writeUInt32(13, sceneId_);
       }
       unknownFields.writeTo(output);
     }
@@ -174,15 +174,15 @@ public final class SceneTransToPointRspOuterClass {
       size = 0;
       if (pointId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, pointId_);
+          .computeUInt32Size(6, pointId_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(6, retcode_);
+          .computeInt32Size(10, retcode_);
       }
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, sceneId_);
+          .computeUInt32Size(13, sceneId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -80,12 +80,12 @@ public final class SceneEntityDrownRspOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 96: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 120: {
+            case 16: {
 
               entityId_ = input.readUInt32();
               break;
@@ -122,7 +122,7 @@ public final class SceneEntityDrownRspOuterClass {
               emu.grasscutter.net.proto.SceneEntityDrownRspOuterClass.SceneEntityDrownRsp.class, emu.grasscutter.net.proto.SceneEntityDrownRspOuterClass.SceneEntityDrownRsp.Builder.class);
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 15;
+    public static final int ENTITY_ID_FIELD_NUMBER = 2;
     private int entityId_;
     /**
      * <code>uint32 entity_id = 15;</code>
@@ -133,7 +133,7 @@ public final class SceneEntityDrownRspOuterClass {
       return entityId_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 6;
+    public static final int RETCODE_FIELD_NUMBER = 12;
     private int retcode_;
     /**
      * <code>int32 retcode = 6;</code>
@@ -159,10 +159,10 @@ public final class SceneEntityDrownRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(6, retcode_);
+        output.writeInt32(12, retcode_);
       }
       if (entityId_ != 0) {
-        output.writeUInt32(15, entityId_);
+        output.writeUInt32(2, entityId_);
       }
       unknownFields.writeTo(output);
     }
@@ -175,11 +175,11 @@ public final class SceneEntityDrownRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(6, retcode_);
+          .computeInt32Size(12, retcode_);
       }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, entityId_);
+          .computeUInt32Size(2, entityId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

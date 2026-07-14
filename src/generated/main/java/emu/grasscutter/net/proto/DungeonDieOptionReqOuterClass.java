@@ -86,13 +86,13 @@ public final class DungeonDieOptionReqOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 112: {
               int rawValue = input.readEnum();
 
               dieOption_ = rawValue;
               break;
             }
-            case 104: {
+            case 96: {
 
               isQuitImmediately_ = input.readBool();
               break;
@@ -129,7 +129,7 @@ public final class DungeonDieOptionReqOuterClass {
               emu.grasscutter.net.proto.DungeonDieOptionReqOuterClass.DungeonDieOptionReq.class, emu.grasscutter.net.proto.DungeonDieOptionReqOuterClass.DungeonDieOptionReq.Builder.class);
     }
 
-    public static final int IS_QUIT_IMMEDIATELY_FIELD_NUMBER = 13;
+    public static final int IS_QUIT_IMMEDIATELY_FIELD_NUMBER = 12;
     private boolean isQuitImmediately_;
     /**
      * <code>bool is_quit_immediately = 13;</code>
@@ -140,7 +140,7 @@ public final class DungeonDieOptionReqOuterClass {
       return isQuitImmediately_;
     }
 
-    public static final int DIE_OPTION_FIELD_NUMBER = 8;
+    public static final int DIE_OPTION_FIELD_NUMBER = 14;
     private int dieOption_;
     /**
      * <code>.PlayerDieOption die_option = 8;</code>
@@ -174,10 +174,10 @@ public final class DungeonDieOptionReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (dieOption_ != emu.grasscutter.net.proto.PlayerDieOptionOuterClass.PlayerDieOption.DIE_OPT_NONE.getNumber()) {
-        output.writeEnum(8, dieOption_);
+        output.writeEnum(14, dieOption_);
       }
       if (isQuitImmediately_ != false) {
-        output.writeBool(13, isQuitImmediately_);
+        output.writeBool(12, isQuitImmediately_);
       }
       unknownFields.writeTo(output);
     }
@@ -190,11 +190,11 @@ public final class DungeonDieOptionReqOuterClass {
       size = 0;
       if (dieOption_ != emu.grasscutter.net.proto.PlayerDieOptionOuterClass.PlayerDieOption.DIE_OPT_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(8, dieOption_);
+          .computeEnumSize(14, dieOption_);
       }
       if (isQuitImmediately_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, isQuitImmediately_);
+          .computeBoolSize(12, isQuitImmediately_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

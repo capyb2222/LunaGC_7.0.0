@@ -88,7 +88,7 @@ public final class GetShopRspOuterClass {
 
               break;
             }
-            case 104: {
+            case 16: {
 
               retcode_ = input.readInt32();
               break;
@@ -143,7 +143,7 @@ public final class GetShopRspOuterClass {
       return getShop();
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 13;
+    public static final int RETCODE_FIELD_NUMBER = 2;
     private int retcode_;
 
     @java.lang.Override
@@ -169,7 +169,7 @@ public final class GetShopRspOuterClass {
         output.writeMessage(15, getShop());
       }
       if (retcode_ != 0) {
-        output.writeInt32(13, retcode_);
+        output.writeInt32(2, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -186,7 +186,7 @@ public final class GetShopRspOuterClass {
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(13, retcode_);
+          .computeInt32Size(2, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -73,12 +73,12 @@ public final class GachaUpInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
+            case 48: {
 
               itemParentType_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 112: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 itemIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -86,7 +86,7 @@ public final class GachaUpInfoOuterClass {
               itemIdList_.addInt(input.readUInt32());
               break;
             }
-            case 106: {
+            case 114: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -134,7 +134,7 @@ public final class GachaUpInfoOuterClass {
               emu.grasscutter.net.proto.GachaUpInfoOuterClass.GachaUpInfo.class, emu.grasscutter.net.proto.GachaUpInfoOuterClass.GachaUpInfo.Builder.class);
     }
 
-    public static final int ITEM_ID_LIST_FIELD_NUMBER = 2;
+    public static final int ITEM_ID_LIST_FIELD_NUMBER = 14;
     private com.google.protobuf.Internal.IntList itemIdList_;
 
     @java.lang.Override
@@ -152,7 +152,7 @@ public final class GachaUpInfoOuterClass {
     }
     private int itemIdListMemoizedSerializedSize = -1;
 
-    public static final int ITEM_PARENT_TYPE_FIELD_NUMBER = 1;
+    public static final int ITEM_PARENT_TYPE_FIELD_NUMBER = 6;
     private int itemParentType_;
 
     @java.lang.Override
@@ -176,10 +176,10 @@ public final class GachaUpInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (itemParentType_ != 0) {
-        output.writeUInt32(1, itemParentType_);
+        output.writeUInt32(6, itemParentType_);
       }
       if (getItemIdListList().size() > 0) {
-        output.writeUInt32NoTag(106);
+        output.writeUInt32NoTag(114);
         output.writeUInt32NoTag(itemIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < itemIdList_.size(); i++) {
@@ -196,7 +196,7 @@ public final class GachaUpInfoOuterClass {
       size = 0;
       if (itemParentType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, itemParentType_);
+          .computeUInt32Size(6, itemParentType_);
       }
       {
         int dataSize = 0;

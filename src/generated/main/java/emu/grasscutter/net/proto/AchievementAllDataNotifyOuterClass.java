@@ -89,7 +89,7 @@ public final class AchievementAllDataNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 42: {
+            case 98: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 achievementList_ = new java.util.ArrayList<emu.grasscutter.net.proto.AchievementOuterClass.Achievement>();
                 mutable_bitField0_ |= 0x00000002;
@@ -98,7 +98,7 @@ public final class AchievementAllDataNotifyOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.AchievementOuterClass.Achievement.parser(), extensionRegistry));
               break;
             }
-            case 80: {
+            case 24: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 rewardTakenGoalIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -106,7 +106,7 @@ public final class AchievementAllDataNotifyOuterClass {
               rewardTakenGoalIdList_.addInt(input.readUInt32());
               break;
             }
-            case 82: {
+            case 26: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -157,7 +157,7 @@ public final class AchievementAllDataNotifyOuterClass {
               emu.grasscutter.net.proto.AchievementAllDataNotifyOuterClass.AchievementAllDataNotify.class, emu.grasscutter.net.proto.AchievementAllDataNotifyOuterClass.AchievementAllDataNotify.Builder.class);
     }
 
-    public static final int REWARD_TAKEN_GOAL_ID_LIST_FIELD_NUMBER = 10;
+    public static final int REWARD_TAKEN_GOAL_ID_LIST_FIELD_NUMBER = 3;
     private com.google.protobuf.Internal.IntList rewardTakenGoalIdList_;
 
     @java.lang.Override
@@ -175,7 +175,7 @@ public final class AchievementAllDataNotifyOuterClass {
     }
     private int rewardTakenGoalIdListMemoizedSerializedSize = -1;
 
-    public static final int ACHIEVEMENT_LIST_FIELD_NUMBER = 5;
+    public static final int ACHIEVEMENT_LIST_FIELD_NUMBER = 12;
     private java.util.List<emu.grasscutter.net.proto.AchievementOuterClass.Achievement> achievementList_;
 
     @java.lang.Override
@@ -221,10 +221,10 @@ public final class AchievementAllDataNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       for (int i = 0; i < achievementList_.size(); i++) {
-        output.writeMessage(5, achievementList_.get(i));
+        output.writeMessage(12, achievementList_.get(i));
       }
       if (getRewardTakenGoalIdListList().size() > 0) {
-        output.writeUInt32NoTag(82);
+        output.writeUInt32NoTag(26);
         output.writeUInt32NoTag(rewardTakenGoalIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < rewardTakenGoalIdList_.size(); i++) {
@@ -241,7 +241,7 @@ public final class AchievementAllDataNotifyOuterClass {
       size = 0;
       for (int i = 0; i < achievementList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, achievementList_.get(i));
+          .computeMessageSize(12, achievementList_.get(i));
       }
       {
         int dataSize = 0;

@@ -92,12 +92,12 @@ public final class CrucibleActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 80: {
 
               costTime_ = input.readUInt32();
               break;
             }
-            case 66: {
+            case 98: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (pos_ != null) {
                 subBuilder = pos_.toBuilder();
@@ -110,7 +110,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
 
               break;
             }
-            case 114: {
+            case 106: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 uidInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHML>();
                 mutable_bitField0_ |= 0x00000001;
@@ -189,7 +189,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       return uidInfoList_.get(index);
     }
 
-    public static final int POS_FIELD_NUMBER = 4;
+    public static final int POS_FIELD_NUMBER = 12;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
 
     @java.lang.Override
@@ -218,7 +218,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       return kPLMJOFOGOF_;
     }
 
-    public static final int COST_TIME_FIELD_NUMBER = 1;
+    public static final int COST_TIME_FIELD_NUMBER = 10;
     private int costTime_;
 
     @java.lang.Override
@@ -241,10 +241,10 @@ public final class CrucibleActivityDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (costTime_ != 0) {
-        output.writeUInt32(1, costTime_);
+        output.writeUInt32(10, costTime_);
       }
       if (pos_ != null) {
-        output.writeMessage(8, getPos());
+        output.writeMessage(12, getPos());
       }
       for (int i = 0; i < uidInfoList_.size(); i++) {
         output.writeMessage(13, uidInfoList_.get(i));
@@ -263,11 +263,11 @@ public final class CrucibleActivityDetailInfoOuterClass {
       size = 0;
       if (costTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, costTime_);
+          .computeUInt32Size(10, costTime_);
       }
       if (pos_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, getPos());
+          .computeMessageSize(12, getPos());
       }
       for (int i = 0; i < uidInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream

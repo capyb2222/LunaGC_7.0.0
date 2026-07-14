@@ -77,7 +77,7 @@ public final class AiSyncInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 64: {
 
               entityId_ = input.readUInt32();
               break;
@@ -146,7 +146,7 @@ public final class AiSyncInfoOuterClass {
       return hasPathToTarget_;
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 1;
+    public static final int ENTITY_ID_FIELD_NUMBER = 8;
     private int entityId_;
 
     @java.lang.Override
@@ -169,7 +169,7 @@ public final class AiSyncInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (entityId_ != 0) {
-        output.writeUInt32(1, entityId_);
+        output.writeUInt32(8, entityId_);
       }
       if (hasPathToTarget_ != false) {
         output.writeBool(12, hasPathToTarget_);
@@ -188,7 +188,7 @@ public final class AiSyncInfoOuterClass {
       size = 0;
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, entityId_);
+          .computeUInt32Size(8, entityId_);
       }
       if (hasPathToTarget_ != false) {
         size += com.google.protobuf.CodedOutputStream

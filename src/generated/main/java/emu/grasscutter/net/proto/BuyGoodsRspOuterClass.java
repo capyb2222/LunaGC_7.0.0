@@ -132,7 +132,7 @@ public final class BuyGoodsRspOuterClass {
               shopType_ = input.readUInt32();
               break;
             }
-            case 58: {
+            case 122: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 goodsList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods>();
                 mutable_bitField0_ |= 0x00000001;
@@ -141,12 +141,12 @@ public final class BuyGoodsRspOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods.parser(), extensionRegistry));
               break;
             }
-            case 24: {
+            case 88: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 18: {
+            case 42: {
               emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods.Builder subBuilder = null;
               if (goods_ != null) {
                 subBuilder = goods_.toBuilder();
@@ -159,7 +159,7 @@ public final class BuyGoodsRspOuterClass {
 
               break;
             }
-            case 88: {
+            case 72: {
 
               buyCount_ = input.readUInt32();
               break;
@@ -199,7 +199,7 @@ public final class BuyGoodsRspOuterClass {
               emu.grasscutter.net.proto.BuyGoodsRspOuterClass.BuyGoodsRsp.class, emu.grasscutter.net.proto.BuyGoodsRspOuterClass.BuyGoodsRsp.Builder.class);
     }
 
-    public static final int BUY_COUNT_FIELD_NUMBER = 11;
+    public static final int BUY_COUNT_FIELD_NUMBER = 9;
     private int buyCount_;
     /**
      * <code>uint32 buy_count = 3;</code>
@@ -210,7 +210,7 @@ public final class BuyGoodsRspOuterClass {
       return buyCount_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 3;
+    public static final int RETCODE_FIELD_NUMBER = 11;
     private int retcode_;
     /**
      * <code>int32 retcode = 1;</code>
@@ -221,7 +221,7 @@ public final class BuyGoodsRspOuterClass {
       return retcode_;
     }
 
-    public static final int GOODS_FIELD_NUMBER = 2;
+    public static final int GOODS_FIELD_NUMBER = 5;
     private emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods goods_;
     /**
      * <code>.ShopGoods goods = 9;</code>
@@ -258,7 +258,7 @@ public final class BuyGoodsRspOuterClass {
       return shopType_;
     }
 
-    public static final int GOODS_LIST_FIELD_NUMBER = 7;
+    public static final int GOODS_LIST_FIELD_NUMBER = 15;
     private java.util.List<emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods> goodsList_;
     /**
      * <code>repeated .ShopGoods goods_list = 15;</code>
@@ -316,16 +316,16 @@ public final class BuyGoodsRspOuterClass {
         output.writeUInt32(13, shopType_);
       }
       for (int i = 0; i < goodsList_.size(); i++) {
-        output.writeMessage(7, goodsList_.get(i));
+        output.writeMessage(15, goodsList_.get(i));
       }
       if (retcode_ != 0) {
-        output.writeInt32(3, retcode_);
+        output.writeInt32(11, retcode_);
       }
       if (goods_ != null) {
-        output.writeMessage(2, getGoods());
+        output.writeMessage(5, getGoods());
       }
       if (buyCount_ != 0) {
-        output.writeUInt32(11, buyCount_);
+        output.writeUInt32(9, buyCount_);
       }
       unknownFields.writeTo(output);
     }
@@ -342,19 +342,19 @@ public final class BuyGoodsRspOuterClass {
       }
       for (int i = 0; i < goodsList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, goodsList_.get(i));
+          .computeMessageSize(15, goodsList_.get(i));
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(3, retcode_);
+          .computeInt32Size(11, retcode_);
       }
       if (goods_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, getGoods());
+          .computeMessageSize(5, getGoods());
       }
       if (buyCount_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, buyCount_);
+          .computeUInt32Size(9, buyCount_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

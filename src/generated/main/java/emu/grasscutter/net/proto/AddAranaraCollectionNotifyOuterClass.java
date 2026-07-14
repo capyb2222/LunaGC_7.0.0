@@ -95,12 +95,12 @@ public final class AddAranaraCollectionNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 64: {
 
               collectionType_ = input.readUInt32();
               break;
             }
-            case 32: {
+            case 80: {
 
               collectionId_ = input.readUInt32();
               break;
@@ -187,7 +187,7 @@ public final class AddAranaraCollectionNotifyOuterClass {
       return result == null ? emu.grasscutter.net.proto.AranaraCollectionStateOuterClass.AranaraCollectionState.UNRECOGNIZED : result;
     }
 
-    public static final int COLLECTION_TYPE_FIELD_NUMBER = 2;
+    public static final int COLLECTION_TYPE_FIELD_NUMBER = 8;
     private int collectionType_;
 
     @java.lang.Override
@@ -195,7 +195,7 @@ public final class AddAranaraCollectionNotifyOuterClass {
       return collectionType_;
     }
 
-    public static final int COLLECTION_ID_FIELD_NUMBER = 4;
+    public static final int COLLECTION_ID_FIELD_NUMBER = 10;
     private int collectionId_;
 
     @java.lang.Override
@@ -218,10 +218,10 @@ public final class AddAranaraCollectionNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (collectionType_ != 0) {
-        output.writeUInt32(2, collectionType_);
+        output.writeUInt32(8, collectionType_);
       }
       if (collectionId_ != 0) {
-        output.writeUInt32(4, collectionId_);
+        output.writeUInt32(10, collectionId_);
       }
       if (iPFPDNJPPPP_ != emu.grasscutter.net.proto.AranaraCollectionStateOuterClass.AranaraCollectionState.AranaraCollectionState_NONE.getNumber()) {
         output.writeEnum(14, iPFPDNJPPPP_);
@@ -240,11 +240,11 @@ public final class AddAranaraCollectionNotifyOuterClass {
       size = 0;
       if (collectionType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, collectionType_);
+          .computeUInt32Size(8, collectionType_);
       }
       if (collectionId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, collectionId_);
+          .computeUInt32Size(10, collectionId_);
       }
       if (iPFPDNJPPPP_ != emu.grasscutter.net.proto.AranaraCollectionStateOuterClass.AranaraCollectionState.AranaraCollectionState_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream

@@ -94,7 +94,7 @@ public final class FinishedParentQuestUpdateNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 90: {
+            case 58: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 parentQuestList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ParentQuestOuterClass.ParentQuest>();
                 mutable_bitField0_ |= 0x00000001;
@@ -138,7 +138,7 @@ public final class FinishedParentQuestUpdateNotifyOuterClass {
               emu.grasscutter.net.proto.FinishedParentQuestUpdateNotifyOuterClass.FinishedParentQuestUpdateNotify.class, emu.grasscutter.net.proto.FinishedParentQuestUpdateNotifyOuterClass.FinishedParentQuestUpdateNotify.Builder.class);
     }
 
-    public static final int PARENT_QUEST_LIST_FIELD_NUMBER = 11;
+    public static final int PARENT_QUEST_LIST_FIELD_NUMBER = 7;
     private java.util.List<emu.grasscutter.net.proto.ParentQuestOuterClass.ParentQuest> parentQuestList_;
     /**
      * <code>repeated .ParentQuest parent_quest_list = 3;</code>
@@ -193,7 +193,7 @@ public final class FinishedParentQuestUpdateNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < parentQuestList_.size(); i++) {
-        output.writeMessage(11, parentQuestList_.get(i));
+        output.writeMessage(7, parentQuestList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -206,7 +206,7 @@ public final class FinishedParentQuestUpdateNotifyOuterClass {
       size = 0;
       for (int i = 0; i < parentQuestList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, parentQuestList_.get(i));
+          .computeMessageSize(7, parentQuestList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

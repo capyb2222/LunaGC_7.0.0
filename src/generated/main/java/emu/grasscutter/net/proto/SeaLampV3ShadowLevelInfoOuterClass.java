@@ -85,17 +85,17 @@ public final class SeaLampV3ShadowLevelInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 40: {
 
               isOpen_ = input.readBool();
               break;
             }
-            case 32: {
+            case 16: {
 
               minFinishTime_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 112: {
 
               levelId_ = input.readUInt32();
               break;
@@ -132,7 +132,7 @@ public final class SeaLampV3ShadowLevelInfoOuterClass {
               emu.grasscutter.net.proto.SeaLampV3ShadowLevelInfoOuterClass.SeaLampV3ShadowLevelInfo.class, emu.grasscutter.net.proto.SeaLampV3ShadowLevelInfoOuterClass.SeaLampV3ShadowLevelInfo.Builder.class);
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 2;
+    public static final int IS_OPEN_FIELD_NUMBER = 5;
     private boolean isOpen_;
     /**
      * <code>bool is_open = 2;</code>
@@ -143,7 +143,7 @@ public final class SeaLampV3ShadowLevelInfoOuterClass {
       return isOpen_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 10;
+    public static final int LEVEL_ID_FIELD_NUMBER = 14;
     private int levelId_;
     /**
      * <code>uint32 level_id = 10;</code>
@@ -154,7 +154,7 @@ public final class SeaLampV3ShadowLevelInfoOuterClass {
       return levelId_;
     }
 
-    public static final int MIN_FINISH_TIME_FIELD_NUMBER = 4;
+    public static final int MIN_FINISH_TIME_FIELD_NUMBER = 2;
     private int minFinishTime_;
     /**
      * <code>uint32 min_finish_time = 4;</code>
@@ -180,13 +180,13 @@ public final class SeaLampV3ShadowLevelInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isOpen_ != false) {
-        output.writeBool(2, isOpen_);
+        output.writeBool(5, isOpen_);
       }
       if (minFinishTime_ != 0) {
-        output.writeUInt32(4, minFinishTime_);
+        output.writeUInt32(2, minFinishTime_);
       }
       if (levelId_ != 0) {
-        output.writeUInt32(10, levelId_);
+        output.writeUInt32(14, levelId_);
       }
       unknownFields.writeTo(output);
     }
@@ -199,15 +199,15 @@ public final class SeaLampV3ShadowLevelInfoOuterClass {
       size = 0;
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(2, isOpen_);
+          .computeBoolSize(5, isOpen_);
       }
       if (minFinishTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, minFinishTime_);
+          .computeUInt32Size(2, minFinishTime_);
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, levelId_);
+          .computeUInt32Size(14, levelId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

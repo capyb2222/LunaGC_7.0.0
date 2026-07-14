@@ -211,17 +211,17 @@ public final class FleurFairActivityDetailInfoOuterClass {
                   hMJJFAKHOKN__.getKey(), hMJJFAKHOKN__.getValue());
               break;
             }
-            case 64: {
+            case 120: {
 
               contentCloseTime_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 112: {
 
               isContentClosed_ = input.readBool();
               break;
             }
-            case 114: {
+            case 128002: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 gENNHGADGJB_ = com.google.protobuf.MapField.newMapField(
                     GENNHGADGJBDefaultEntryHolder.defaultEntry);
@@ -234,7 +234,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
                   gENNHGADGJB__.getKey(), gENNHGADGJB__.getValue());
               break;
             }
-            case 120: {
+            case 128008: {
 
               aHABJAJHHNL_ = input.readBool();
               break;
@@ -328,7 +328,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
       return aEPAJCHDHED_.get(index);
     }
 
-    public static final int GENNHGADGJB_FIELD_NUMBER = 14;
+    public static final int GENNHGADGJB_FIELD_NUMBER = 16000;
     private static final class GENNHGADGJBDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE> defaultEntry =
@@ -512,7 +512,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
       return iOIIEKCBJBK_;
     }
 
-    public static final int CONTENT_CLOSE_TIME_FIELD_NUMBER = 8;
+    public static final int CONTENT_CLOSE_TIME_FIELD_NUMBER = 15;
     private int contentCloseTime_;
 
     @java.lang.Override
@@ -520,7 +520,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
       return contentCloseTime_;
     }
 
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 13;
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 14;
     private boolean isContentClosed_;
 
     @java.lang.Override
@@ -528,7 +528,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
       return isContentClosed_;
     }
 
-    public static final int AHABJAJHHNL_FIELD_NUMBER = 15;
+    public static final int AHABJAJHHNL_FIELD_NUMBER = 16001;
     private boolean aHABJAJHHNL_;
     /**
      * <code>bool AHABJAJHHNL = 15;</code>
@@ -569,19 +569,19 @@ public final class FleurFairActivityDetailInfoOuterClass {
           HMJJFAKHOKNDefaultEntryHolder.defaultEntry,
           7);
       if (contentCloseTime_ != 0) {
-        output.writeUInt32(8, contentCloseTime_);
+        output.writeUInt32(15, contentCloseTime_);
       }
       if (isContentClosed_ != false) {
-        output.writeBool(13, isContentClosed_);
+        output.writeBool(14, isContentClosed_);
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
           internalGetGENNHGADGJB(),
           GENNHGADGJBDefaultEntryHolder.defaultEntry,
-          14);
+          16000);
       if (aHABJAJHHNL_ != false) {
-        output.writeBool(15, aHABJAJHHNL_);
+        output.writeBool(16001, aHABJAJHHNL_);
       }
       unknownFields.writeTo(output);
     }
@@ -616,11 +616,11 @@ public final class FleurFairActivityDetailInfoOuterClass {
       }
       if (contentCloseTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, contentCloseTime_);
+          .computeUInt32Size(15, contentCloseTime_);
       }
       if (isContentClosed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, isContentClosed_);
+          .computeBoolSize(14, isContentClosed_);
       }
       for (java.util.Map.Entry<java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE> entry
            : internalGetGENNHGADGJB().getMap().entrySet()) {
@@ -630,11 +630,11 @@ public final class FleurFairActivityDetailInfoOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(14, gENNHGADGJB__);
+            .computeMessageSize(16000, gENNHGADGJB__);
       }
       if (aHABJAJHHNL_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, aHABJAJHHNL_);
+          .computeBoolSize(16001, aHABJAJHHNL_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

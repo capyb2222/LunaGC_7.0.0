@@ -83,7 +83,7 @@ public final class SetChatEmojiCollectionReqOuterClass {
             case 0:
               done = true;
               break;
-            case 82: {
+            case 106: {
               emu.grasscutter.net.proto.ChatEmojiCollectionDataOuterClass.ChatEmojiCollectionData.Builder subBuilder = null;
               if (chatEmojiCollectionData_ != null) {
                 subBuilder = chatEmojiCollectionData_.toBuilder();
@@ -128,7 +128,7 @@ public final class SetChatEmojiCollectionReqOuterClass {
               emu.grasscutter.net.proto.SetChatEmojiCollectionReqOuterClass.SetChatEmojiCollectionReq.class, emu.grasscutter.net.proto.SetChatEmojiCollectionReqOuterClass.SetChatEmojiCollectionReq.Builder.class);
     }
 
-    public static final int CHAT_EMOJI_COLLECTION_DATA_FIELD_NUMBER = 10;
+    public static final int CHAT_EMOJI_COLLECTION_DATA_FIELD_NUMBER = 13;
     private emu.grasscutter.net.proto.ChatEmojiCollectionDataOuterClass.ChatEmojiCollectionData chatEmojiCollectionData_;
     /**
      * <code>.ChatEmojiCollectionData chat_emoji_collection_data = 10;</code>
@@ -169,7 +169,7 @@ public final class SetChatEmojiCollectionReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (chatEmojiCollectionData_ != null) {
-        output.writeMessage(10, getChatEmojiCollectionData());
+        output.writeMessage(13, getChatEmojiCollectionData());
       }
       unknownFields.writeTo(output);
     }
@@ -182,7 +182,7 @@ public final class SetChatEmojiCollectionReqOuterClass {
       size = 0;
       if (chatEmojiCollectionData_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, getChatEmojiCollectionData());
+          .computeMessageSize(13, getChatEmojiCollectionData());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

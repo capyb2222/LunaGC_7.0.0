@@ -85,17 +85,17 @@ public final class BounceConjuringChapterInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 64: {
 
               bestScore_ = input.readUInt32();
               break;
             }
-            case 32: {
+            case 88: {
 
               openTime_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 104: {
 
               chapterId_ = input.readUInt32();
               break;
@@ -132,7 +132,7 @@ public final class BounceConjuringChapterInfoOuterClass {
               emu.grasscutter.net.proto.BounceConjuringChapterInfoOuterClass.BounceConjuringChapterInfo.class, emu.grasscutter.net.proto.BounceConjuringChapterInfoOuterClass.BounceConjuringChapterInfo.Builder.class);
     }
 
-    public static final int OPEN_TIME_FIELD_NUMBER = 4;
+    public static final int OPEN_TIME_FIELD_NUMBER = 11;
     private int openTime_;
     /**
      * <code>uint32 open_time = 4;</code>
@@ -143,7 +143,7 @@ public final class BounceConjuringChapterInfoOuterClass {
       return openTime_;
     }
 
-    public static final int BEST_SCORE_FIELD_NUMBER = 3;
+    public static final int BEST_SCORE_FIELD_NUMBER = 8;
     private int bestScore_;
     /**
      * <code>uint32 best_score = 3;</code>
@@ -154,7 +154,7 @@ public final class BounceConjuringChapterInfoOuterClass {
       return bestScore_;
     }
 
-    public static final int CHAPTER_ID_FIELD_NUMBER = 6;
+    public static final int CHAPTER_ID_FIELD_NUMBER = 13;
     private int chapterId_;
     /**
      * <code>uint32 chapter_id = 6;</code>
@@ -180,13 +180,13 @@ public final class BounceConjuringChapterInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (bestScore_ != 0) {
-        output.writeUInt32(3, bestScore_);
+        output.writeUInt32(8, bestScore_);
       }
       if (openTime_ != 0) {
-        output.writeUInt32(4, openTime_);
+        output.writeUInt32(11, openTime_);
       }
       if (chapterId_ != 0) {
-        output.writeUInt32(6, chapterId_);
+        output.writeUInt32(13, chapterId_);
       }
       unknownFields.writeTo(output);
     }
@@ -199,15 +199,15 @@ public final class BounceConjuringChapterInfoOuterClass {
       size = 0;
       if (bestScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, bestScore_);
+          .computeUInt32Size(8, bestScore_);
       }
       if (openTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, openTime_);
+          .computeUInt32Size(11, openTime_);
       }
       if (chapterId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, chapterId_);
+          .computeUInt32Size(13, chapterId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

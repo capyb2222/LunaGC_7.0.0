@@ -92,13 +92,13 @@ public final class StoreItemChangeNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 112: {
               int rawValue = input.readEnum();
 
               reason_ = rawValue;
               break;
             }
-            case 56: {
+            case 88: {
               int rawValue = input.readEnum();
 
               storeType_ = rawValue;
@@ -148,7 +148,7 @@ public final class StoreItemChangeNotifyOuterClass {
               emu.grasscutter.net.proto.StoreItemChangeNotifyOuterClass.StoreItemChangeNotify.class, emu.grasscutter.net.proto.StoreItemChangeNotifyOuterClass.StoreItemChangeNotify.Builder.class);
     }
 
-    public static final int ITEM_LIST_FIELD_NUMBER = 4;
+    public static final int ITEM_LIST_FIELD_NUMBER = 9;
     private java.util.List<emu.grasscutter.net.proto.ItemOuterClass.Item> itemList_;
 
     @java.lang.Override
@@ -178,7 +178,7 @@ public final class StoreItemChangeNotifyOuterClass {
       return itemList_.get(index);
     }
 
-    public static final int STORE_TYPE_FIELD_NUMBER = 2;
+    public static final int STORE_TYPE_FIELD_NUMBER = 11;
     private int storeType_;
 
     @java.lang.Override public int getStoreTypeValue() {
@@ -191,7 +191,7 @@ public final class StoreItemChangeNotifyOuterClass {
       return result == null ? emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType.UNRECOGNIZED : result;
     }
 
-    public static final int REASON_FIELD_NUMBER = 11;
+    public static final int REASON_FIELD_NUMBER = 14;
     private int reason_;
 
     @java.lang.Override public int getReasonValue() {
@@ -219,13 +219,13 @@ public final class StoreItemChangeNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (reason_ != emu.grasscutter.net.proto.CHOEOGNELGNOuterClass.CHOEOGNELGN.CHOEOGNELGN_OTHERS.getNumber()) {
-        output.writeEnum(11, reason_);
+        output.writeEnum(14, reason_);
       }
       if (storeType_ != emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType.StoreType_STORE_NONE.getNumber()) {
-        output.writeEnum(2, storeType_);
+        output.writeEnum(11, storeType_);
       }
       for (int i = 0; i < itemList_.size(); i++) {
-        output.writeMessage(4, itemList_.get(i));
+        output.writeMessage(9, itemList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -238,15 +238,15 @@ public final class StoreItemChangeNotifyOuterClass {
       size = 0;
       if (reason_ != emu.grasscutter.net.proto.CHOEOGNELGNOuterClass.CHOEOGNELGN.CHOEOGNELGN_OTHERS.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(11, reason_);
+          .computeEnumSize(14, reason_);
       }
       if (storeType_ != emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType.StoreType_STORE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(2, storeType_);
+          .computeEnumSize(11, storeType_);
       }
       for (int i = 0; i < itemList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, itemList_.get(i));
+          .computeMessageSize(9, itemList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

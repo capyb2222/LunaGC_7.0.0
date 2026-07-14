@@ -73,17 +73,17 @@ public final class GadgetStateNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 72: {
 
               gadgetState_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 40: {
 
               gadgetEntityId_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 96: {
 
               isEnableInteract_ = input.readBool();
               break;
@@ -120,7 +120,7 @@ public final class GadgetStateNotifyOuterClass {
               emu.grasscutter.net.proto.GadgetStateNotifyOuterClass.GadgetStateNotify.class, emu.grasscutter.net.proto.GadgetStateNotifyOuterClass.GadgetStateNotify.Builder.class);
     }
 
-    public static final int IS_ENABLE_INTERACT_FIELD_NUMBER = 15;
+    public static final int IS_ENABLE_INTERACT_FIELD_NUMBER = 12;
     private boolean isEnableInteract_;
 
     @java.lang.Override
@@ -128,7 +128,7 @@ public final class GadgetStateNotifyOuterClass {
       return isEnableInteract_;
     }
 
-    public static final int GADGET_ENTITY_ID_FIELD_NUMBER = 10;
+    public static final int GADGET_ENTITY_ID_FIELD_NUMBER = 5;
     private int gadgetEntityId_;
 
     @java.lang.Override
@@ -136,7 +136,7 @@ public final class GadgetStateNotifyOuterClass {
       return gadgetEntityId_;
     }
 
-    public static final int GADGET_STATE_FIELD_NUMBER = 2;
+    public static final int GADGET_STATE_FIELD_NUMBER = 9;
     private int gadgetState_;
 
     @java.lang.Override
@@ -159,13 +159,13 @@ public final class GadgetStateNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isEnableInteract_ != false) {
-        output.writeBool(15, isEnableInteract_);
+        output.writeBool(12, isEnableInteract_);
       }
       if (gadgetState_ != 0) {
-        output.writeUInt32(2, gadgetState_);
+        output.writeUInt32(9, gadgetState_);
       }
       if (gadgetEntityId_ != 0) {
-        output.writeUInt32(10, gadgetEntityId_);
+        output.writeUInt32(5, gadgetEntityId_);
       }
       unknownFields.writeTo(output);
     }
@@ -178,15 +178,15 @@ public final class GadgetStateNotifyOuterClass {
       size = 0;
       if (isEnableInteract_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, isEnableInteract_);
+          .computeBoolSize(12, isEnableInteract_);
       }
       if (gadgetState_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, gadgetState_);
+          .computeUInt32Size(9, gadgetState_);
       }
       if (gadgetEntityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, gadgetEntityId_);
+          .computeUInt32Size(5, gadgetEntityId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

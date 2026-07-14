@@ -77,13 +77,13 @@ public final class AvatarTeamOuterClass {
             case 0:
               done = true;
               break;
-            case 18: {
+            case 106: {
               java.lang.String s = input.readStringRequireUtf8();
 
               teamName_ = s;
               break;
             }
-            case 48: {
+            case 72: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 avatarGuidList_ = newLongList();
                 mutable_bitField0_ |= 0x00000001;
@@ -91,7 +91,7 @@ public final class AvatarTeamOuterClass {
               avatarGuidList_.addLong(input.readUInt64());
               break;
             }
-            case 50: {
+            case 74: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -139,7 +139,7 @@ public final class AvatarTeamOuterClass {
               emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam.class, emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam.Builder.class);
     }
 
-    public static final int AVATAR_GUID_LIST_FIELD_NUMBER = 6;
+    public static final int AVATAR_GUID_LIST_FIELD_NUMBER = 9;
     private com.google.protobuf.Internal.LongList avatarGuidList_;
 
     @java.lang.Override
@@ -157,7 +157,7 @@ public final class AvatarTeamOuterClass {
     }
     private int avatarGuidListMemoizedSerializedSize = -1;
 
-    public static final int TEAM_NAME_FIELD_NUMBER = 2;
+    public static final int TEAM_NAME_FIELD_NUMBER = 13;
     private volatile java.lang.Object teamName_;
 
     @java.lang.Override
@@ -205,14 +205,14 @@ public final class AvatarTeamOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getAvatarGuidListList().size() > 0) {
-        output.writeUInt32NoTag(50);
+        output.writeUInt32NoTag(74);
         output.writeUInt32NoTag(avatarGuidListMemoizedSerializedSize);
       }
       for (int i = 0; i < avatarGuidList_.size(); i++) {
         output.writeUInt64NoTag(avatarGuidList_.getLong(i));
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(teamName_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 2, teamName_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 13, teamName_);
       }
       unknownFields.writeTo(output);
     }
@@ -238,7 +238,7 @@ public final class AvatarTeamOuterClass {
         avatarGuidListMemoizedSerializedSize = dataSize;
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(teamName_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(2, teamName_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(13, teamName_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

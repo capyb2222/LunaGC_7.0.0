@@ -77,17 +77,17 @@ public final class UseItemRspOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
+            case 72: {
 
               itemId_ = input.readUInt32();
               break;
             }
-            case 56: {
+            case 88: {
 
               optionIdx_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 112: {
 
               guid_ = input.readUInt64();
               break;
@@ -97,7 +97,7 @@ public final class UseItemRspOuterClass {
               retcode_ = input.readInt32();
               break;
             }
-            case 120: {
+            case 32: {
 
               targetGuid_ = input.readUInt64();
               break;
@@ -134,7 +134,7 @@ public final class UseItemRspOuterClass {
               emu.grasscutter.net.proto.UseItemRspOuterClass.UseItemRsp.class, emu.grasscutter.net.proto.UseItemRspOuterClass.UseItemRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 9;
+    public static final int RETCODE_FIELD_NUMBER = 12;
     private int retcode_;
 
     @java.lang.Override
@@ -142,7 +142,7 @@ public final class UseItemRspOuterClass {
       return retcode_;
     }
 
-    public static final int TARGET_GUID_FIELD_NUMBER = 7;
+    public static final int TARGET_GUID_FIELD_NUMBER = 4;
     private long targetGuid_;
 
     @java.lang.Override
@@ -150,7 +150,7 @@ public final class UseItemRspOuterClass {
       return targetGuid_;
     }
 
-    public static final int GUID_FIELD_NUMBER = 8;
+    public static final int GUID_FIELD_NUMBER = 14;
     private long guid_;
 
     @java.lang.Override
@@ -158,7 +158,7 @@ public final class UseItemRspOuterClass {
       return guid_;
     }
 
-    public static final int ITEM_ID_FIELD_NUMBER = 14;
+    public static final int ITEM_ID_FIELD_NUMBER = 9;
     private int itemId_;
 
     @java.lang.Override
@@ -166,7 +166,7 @@ public final class UseItemRspOuterClass {
       return itemId_;
     }
 
-    public static final int OPTION_IDX_FIELD_NUMBER = 15;
+    public static final int OPTION_IDX_FIELD_NUMBER = 11;
     private int optionIdx_;
 
     @java.lang.Override
@@ -189,19 +189,19 @@ public final class UseItemRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (itemId_ != 0) {
-        output.writeUInt32(14, itemId_);
+        output.writeUInt32(9, itemId_);
       }
       if (optionIdx_ != 0) {
-        output.writeUInt32(15, optionIdx_);
+        output.writeUInt32(11, optionIdx_);
       }
       if (guid_ != 0L) {
-        output.writeUInt64(8, guid_);
+        output.writeUInt64(14, guid_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(9, retcode_);
+        output.writeInt32(12, retcode_);
       }
       if (targetGuid_ != 0L) {
-        output.writeUInt64(7, targetGuid_);
+        output.writeUInt64(4, targetGuid_);
       }
       unknownFields.writeTo(output);
     }
@@ -214,23 +214,23 @@ public final class UseItemRspOuterClass {
       size = 0;
       if (itemId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, itemId_);
+          .computeUInt32Size(9, itemId_);
       }
       if (optionIdx_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, optionIdx_);
+          .computeUInt32Size(11, optionIdx_);
       }
       if (guid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(8, guid_);
+          .computeUInt64Size(14, guid_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(9, retcode_);
+          .computeInt32Size(12, retcode_);
       }
       if (targetGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(7, targetGuid_);
+          .computeUInt64Size(4, targetGuid_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

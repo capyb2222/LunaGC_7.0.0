@@ -105,7 +105,7 @@ public final class SalvageStageInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
+            case 74: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 challengeInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.SalvageChallengeInfoOuterClass.SalvageChallengeInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -114,12 +114,12 @@ public final class SalvageStageInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.SalvageChallengeInfoOuterClass.SalvageChallengeInfo.parser(), extensionRegistry));
               break;
             }
-            case 40: {
+            case 80: {
 
               isOpen_ = input.readBool();
               break;
             }
-            case 64: {
+            case 104: {
 
               stageId_ = input.readUInt32();
               break;
@@ -159,7 +159,7 @@ public final class SalvageStageInfoOuterClass {
               emu.grasscutter.net.proto.SalvageStageInfoOuterClass.SalvageStageInfo.class, emu.grasscutter.net.proto.SalvageStageInfoOuterClass.SalvageStageInfo.Builder.class);
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 6;
+    public static final int STAGE_ID_FIELD_NUMBER = 13;
     private int stageId_;
     /**
      * <code>uint32 stage_id = 8;</code>
@@ -170,7 +170,7 @@ public final class SalvageStageInfoOuterClass {
       return stageId_;
     }
 
-    public static final int CHALLENGE_INFO_LIST_FIELD_NUMBER = 15;
+    public static final int CHALLENGE_INFO_LIST_FIELD_NUMBER = 9;
     private java.util.List<emu.grasscutter.net.proto.SalvageChallengeInfoOuterClass.SalvageChallengeInfo> challengeInfoList_;
     /**
      * <code>repeated .SalvageChallengeInfo challenge_info_list = 1;</code>
@@ -210,7 +210,7 @@ public final class SalvageStageInfoOuterClass {
       return challengeInfoList_.get(index);
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 9;
+    public static final int IS_OPEN_FIELD_NUMBER = 10;
     private boolean isOpen_;
     /**
      * <code>bool is_open = 5;</code>
@@ -236,13 +236,13 @@ public final class SalvageStageInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < challengeInfoList_.size(); i++) {
-        output.writeMessage(15, challengeInfoList_.get(i));
+        output.writeMessage(9, challengeInfoList_.get(i));
       }
       if (isOpen_ != false) {
-        output.writeBool(9, isOpen_);
+        output.writeBool(10, isOpen_);
       }
       if (stageId_ != 0) {
-        output.writeUInt32(6, stageId_);
+        output.writeUInt32(13, stageId_);
       }
       unknownFields.writeTo(output);
     }
@@ -255,15 +255,15 @@ public final class SalvageStageInfoOuterClass {
       size = 0;
       for (int i = 0; i < challengeInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, challengeInfoList_.get(i));
+          .computeMessageSize(9, challengeInfoList_.get(i));
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isOpen_);
+          .computeBoolSize(10, isOpen_);
       }
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, stageId_);
+          .computeUInt32Size(13, stageId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

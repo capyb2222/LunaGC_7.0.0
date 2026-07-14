@@ -79,7 +79,7 @@ public final class WidgetSlotDataOuterClass {
               cdOverTime_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 32: {
 
               materialId_ = input.readUInt32();
               break;
@@ -90,7 +90,7 @@ public final class WidgetSlotDataOuterClass {
               tag_ = rawValue;
               break;
             }
-            case 120: {
+            case 8: {
 
               isActive_ = input.readBool();
               break;
@@ -140,7 +140,7 @@ public final class WidgetSlotDataOuterClass {
       return result == null ? emu.grasscutter.net.proto.WidgetSlotTagOuterClass.WidgetSlotTag.UNRECOGNIZED : result;
     }
 
-    public static final int MATERIAL_ID_FIELD_NUMBER = 11;
+    public static final int MATERIAL_ID_FIELD_NUMBER = 4;
     private int materialId_;
 
     @java.lang.Override
@@ -156,7 +156,7 @@ public final class WidgetSlotDataOuterClass {
       return cdOverTime_;
     }
 
-    public static final int IS_ACTIVE_FIELD_NUMBER = 15;
+    public static final int IS_ACTIVE_FIELD_NUMBER = 1;
     private boolean isActive_;
 
     @java.lang.Override
@@ -182,13 +182,13 @@ public final class WidgetSlotDataOuterClass {
         output.writeUInt32(9, cdOverTime_);
       }
       if (materialId_ != 0) {
-        output.writeUInt32(11, materialId_);
+        output.writeUInt32(4, materialId_);
       }
       if (tag_ != emu.grasscutter.net.proto.WidgetSlotTagOuterClass.WidgetSlotTag.WidgetSlotTag_WIDGET_SLOT_QUICK_USE.getNumber()) {
         output.writeEnum(12, tag_);
       }
       if (isActive_ != false) {
-        output.writeBool(15, isActive_);
+        output.writeBool(1, isActive_);
       }
       unknownFields.writeTo(output);
     }
@@ -205,7 +205,7 @@ public final class WidgetSlotDataOuterClass {
       }
       if (materialId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, materialId_);
+          .computeUInt32Size(4, materialId_);
       }
       if (tag_ != emu.grasscutter.net.proto.WidgetSlotTagOuterClass.WidgetSlotTag.WidgetSlotTag_WIDGET_SLOT_QUICK_USE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
@@ -213,7 +213,7 @@ public final class WidgetSlotDataOuterClass {
       }
       if (isActive_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, isActive_);
+          .computeBoolSize(1, isActive_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

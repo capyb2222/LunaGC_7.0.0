@@ -93,13 +93,13 @@ public final class OtherPlayerEnterHomeNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 106: {
+            case 90: {
               java.lang.String s = input.readStringRequireUtf8();
 
               nickname_ = s;
               break;
             }
-            case 112: {
+            case 56: {
               int rawValue = input.readEnum();
 
               reason_ = rawValue;
@@ -258,7 +258,7 @@ public final class OtherPlayerEnterHomeNotifyOuterClass {
       // @@protoc_insertion_point(enum_scope:OtherPlayerEnterHomeNotify.Reason)
     }
 
-    public static final int NICKNAME_FIELD_NUMBER = 13;
+    public static final int NICKNAME_FIELD_NUMBER = 11;
     private volatile java.lang.Object nickname_;
     /**
      * <code>string nickname = 13;</code>
@@ -296,7 +296,7 @@ public final class OtherPlayerEnterHomeNotifyOuterClass {
       }
     }
 
-    public static final int REASON_FIELD_NUMBER = 14;
+    public static final int REASON_FIELD_NUMBER = 7;
     private int reason_;
     /**
      * <code>.OtherPlayerEnterHomeNotify.Reason reason = 14;</code>
@@ -330,10 +330,10 @@ public final class OtherPlayerEnterHomeNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(nickname_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 13, nickname_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 11, nickname_);
       }
       if (reason_ != emu.grasscutter.net.proto.OtherPlayerEnterHomeNotifyOuterClass.OtherPlayerEnterHomeNotify.Reason.INVALID.getNumber()) {
-        output.writeEnum(14, reason_);
+        output.writeEnum(7, reason_);
       }
       unknownFields.writeTo(output);
     }
@@ -345,11 +345,11 @@ public final class OtherPlayerEnterHomeNotifyOuterClass {
 
       size = 0;
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(nickname_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(13, nickname_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(11, nickname_);
       }
       if (reason_ != emu.grasscutter.net.proto.OtherPlayerEnterHomeNotifyOuterClass.OtherPlayerEnterHomeNotify.Reason.INVALID.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(14, reason_);
+          .computeEnumSize(7, reason_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

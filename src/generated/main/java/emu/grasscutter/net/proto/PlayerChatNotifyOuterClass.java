@@ -75,7 +75,7 @@ public final class PlayerChatNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 56: {
 
               channelId_ = input.readUInt32();
               break;
@@ -143,7 +143,7 @@ public final class PlayerChatNotifyOuterClass {
       return getChatInfo();
     }
 
-    public static final int CHANNEL_ID_FIELD_NUMBER = 2;
+    public static final int CHANNEL_ID_FIELD_NUMBER = 7;
     private int channelId_;
 
     @java.lang.Override
@@ -166,7 +166,7 @@ public final class PlayerChatNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (channelId_ != 0) {
-        output.writeUInt32(2, channelId_);
+        output.writeUInt32(7, channelId_);
       }
       if (chatInfo_ != null) {
         output.writeMessage(14, getChatInfo());
@@ -182,7 +182,7 @@ public final class PlayerChatNotifyOuterClass {
       size = 0;
       if (channelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, channelId_);
+          .computeUInt32Size(7, channelId_);
       }
       if (chatInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream

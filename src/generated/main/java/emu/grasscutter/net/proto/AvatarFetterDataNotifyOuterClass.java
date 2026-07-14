@@ -89,7 +89,7 @@ public final class AvatarFetterDataNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 122: {
+            case 42: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 fetterInfoMap_ = com.google.protobuf.MapField.newMapField(
                     FetterInfoMapDefaultEntryHolder.defaultEntry);
@@ -146,7 +146,7 @@ public final class AvatarFetterDataNotifyOuterClass {
               emu.grasscutter.net.proto.AvatarFetterDataNotifyOuterClass.AvatarFetterDataNotify.class, emu.grasscutter.net.proto.AvatarFetterDataNotifyOuterClass.AvatarFetterDataNotify.Builder.class);
     }
 
-    public static final int FETTER_INFO_MAP_FIELD_NUMBER = 15;
+    public static final int FETTER_INFO_MAP_FIELD_NUMBER = 5;
     private static final class FetterInfoMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Long, emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo> defaultEntry =
@@ -237,7 +237,7 @@ public final class AvatarFetterDataNotifyOuterClass {
           output,
           internalGetFetterInfoMap(),
           FetterInfoMapDefaultEntryHolder.defaultEntry,
-          15);
+          5);
       unknownFields.writeTo(output);
     }
 
@@ -255,7 +255,7 @@ public final class AvatarFetterDataNotifyOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(15, fetterInfoMap__);
+            .computeMessageSize(5, fetterInfoMap__);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

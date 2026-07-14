@@ -65,7 +65,7 @@ public final class RefreshNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 80: {
+            case 8: {
 
               refreshNum_ = input.readUInt32();
               break;
@@ -102,7 +102,7 @@ public final class RefreshNotifyOuterClass {
               emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotify.class, emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotify.Builder.class);
     }
 
-    public static final int REFRESH_NUM_FIELD_NUMBER = 10;
+    public static final int REFRESH_NUM_FIELD_NUMBER = 1;
     private int refreshNum_;
 
     @java.lang.Override
@@ -125,7 +125,7 @@ public final class RefreshNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (refreshNum_ != 0) {
-        output.writeUInt32(10, refreshNum_);
+        output.writeUInt32(1, refreshNum_);
       }
       unknownFields.writeTo(output);
     }
@@ -138,7 +138,7 @@ public final class RefreshNotifyOuterClass {
       size = 0;
       if (refreshNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, refreshNum_);
+          .computeUInt32Size(1, refreshNum_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -69,7 +69,7 @@ public final class EnterSceneReadyReqOuterClass {
             case 0:
               done = true;
               break;
-            case 112: {
+            case 88: {
 
               enterSceneToken_ = input.readUInt32();
               break;
@@ -106,7 +106,7 @@ public final class EnterSceneReadyReqOuterClass {
               emu.grasscutter.net.proto.EnterSceneReadyReqOuterClass.EnterSceneReadyReq.class, emu.grasscutter.net.proto.EnterSceneReadyReqOuterClass.EnterSceneReadyReq.Builder.class);
     }
 
-    public static final int ENTER_SCENE_TOKEN_FIELD_NUMBER = 14;
+    public static final int ENTER_SCENE_TOKEN_FIELD_NUMBER = 11;
     private int enterSceneToken_;
 
     @java.lang.Override
@@ -129,7 +129,7 @@ public final class EnterSceneReadyReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (enterSceneToken_ != 0) {
-        output.writeUInt32(14, enterSceneToken_);
+        output.writeUInt32(11, enterSceneToken_);
       }
       unknownFields.writeTo(output);
     }
@@ -142,7 +142,7 @@ public final class EnterSceneReadyReqOuterClass {
       size = 0;
       if (enterSceneToken_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, enterSceneToken_);
+          .computeUInt32Size(11, enterSceneToken_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

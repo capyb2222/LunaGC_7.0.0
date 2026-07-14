@@ -143,12 +143,12 @@ public final class SceneAudioNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 120: {
 
               sourceUid_ = input.readUInt32();
               break;
             }
-            case 32: {
+            case 112: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 param1_ = newIntList();
                 mutable_bitField0_ |= 0x00000004;
@@ -156,7 +156,7 @@ public final class SceneAudioNotifyOuterClass {
               param1_.addInt(input.readUInt32());
               break;
             }
-            case 34: {
+            case 114: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
@@ -169,7 +169,7 @@ public final class SceneAudioNotifyOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 53: {
+            case 29: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 param2_ = newFloatList();
                 mutable_bitField0_ |= 0x00000002;
@@ -177,7 +177,7 @@ public final class SceneAudioNotifyOuterClass {
               param2_.addFloat(input.readFloat());
               break;
             }
-            case 50: {
+            case 26: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -190,7 +190,7 @@ public final class SceneAudioNotifyOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 90: {
+            case 42: {
               java.lang.String s = input.readStringRequireUtf8();
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 param3_ = new com.google.protobuf.LazyStringArrayList();
@@ -199,7 +199,7 @@ public final class SceneAudioNotifyOuterClass {
               param3_.add(s);
               break;
             }
-            case 96: {
+            case 64: {
 
               type_ = input.readInt32();
               break;
@@ -245,7 +245,7 @@ public final class SceneAudioNotifyOuterClass {
               emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify.class, emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify.Builder.class);
     }
 
-    public static final int PARAM3_FIELD_NUMBER = 13;
+    public static final int PARAM3_FIELD_NUMBER = 5;
     private com.google.protobuf.LazyStringList param3_;
     /**
      * <code>repeated string param3 = 11;</code>
@@ -280,7 +280,7 @@ public final class SceneAudioNotifyOuterClass {
       return param3_.getByteString(index);
     }
 
-    public static final int PARAM2_FIELD_NUMBER = 11;
+    public static final int PARAM2_FIELD_NUMBER = 3;
     private com.google.protobuf.Internal.FloatList param2_;
     /**
      * <code>repeated float param2 = 6;</code>
@@ -308,7 +308,7 @@ public final class SceneAudioNotifyOuterClass {
     }
     private int param2MemoizedSerializedSize = -1;
 
-    public static final int SOURCE_UID_FIELD_NUMBER = 3;
+    public static final int SOURCE_UID_FIELD_NUMBER = 15;
     private int sourceUid_;
     /**
      * <code>uint32 source_uid = 2;</code>
@@ -319,7 +319,7 @@ public final class SceneAudioNotifyOuterClass {
       return sourceUid_;
     }
 
-    public static final int PARAM1_FIELD_NUMBER = 10;
+    public static final int PARAM1_FIELD_NUMBER = 14;
     private com.google.protobuf.Internal.IntList param1_;
     /**
      * <code>repeated uint32 param1 = 4;</code>
@@ -347,7 +347,7 @@ public final class SceneAudioNotifyOuterClass {
     }
     private int param1MemoizedSerializedSize = -1;
 
-    public static final int TYPE_FIELD_NUMBER = 14;
+    public static final int TYPE_FIELD_NUMBER = 8;
     private int type_;
     /**
      * <code>int32 type = 12;</code>
@@ -374,27 +374,27 @@ public final class SceneAudioNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (sourceUid_ != 0) {
-        output.writeUInt32(3, sourceUid_);
+        output.writeUInt32(15, sourceUid_);
       }
       if (getParam1List().size() > 0) {
-        output.writeUInt32NoTag(34);
+        output.writeUInt32NoTag(114);
         output.writeUInt32NoTag(param1MemoizedSerializedSize);
       }
       for (int i = 0; i < param1_.size(); i++) {
         output.writeUInt32NoTag(param1_.getInt(i));
       }
       if (getParam2List().size() > 0) {
-        output.writeUInt32NoTag(50);
+        output.writeUInt32NoTag(26);
         output.writeUInt32NoTag(param2MemoizedSerializedSize);
       }
       for (int i = 0; i < param2_.size(); i++) {
         output.writeFloatNoTag(param2_.getFloat(i));
       }
       for (int i = 0; i < param3_.size(); i++) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 11, param3_.getRaw(i));
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 5, param3_.getRaw(i));
       }
       if (type_ != 0) {
-        output.writeInt32(14, type_);
+        output.writeInt32(8, type_);
       }
       unknownFields.writeTo(output);
     }
@@ -407,7 +407,7 @@ public final class SceneAudioNotifyOuterClass {
       size = 0;
       if (sourceUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, sourceUid_);
+          .computeUInt32Size(15, sourceUid_);
       }
       {
         int dataSize = 0;
@@ -444,7 +444,7 @@ public final class SceneAudioNotifyOuterClass {
       }
       if (type_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(14, type_);
+          .computeInt32Size(8, type_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

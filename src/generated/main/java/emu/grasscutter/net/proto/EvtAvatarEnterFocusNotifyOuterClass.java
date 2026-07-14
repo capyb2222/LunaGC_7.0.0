@@ -171,7 +171,7 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
               oGOLKMLFFHE_ = input.readBool();
               break;
             }
-            case 24: {
+            case 104: {
               int rawValue = input.readEnum();
 
               forwardType_ = rawValue;
@@ -182,7 +182,7 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
               gMLEBIHPOKD_ = input.readBool();
               break;
             }
-            case 48: {
+            case 128000: {
 
               nACMCGNGDLN_ = input.readBool();
               break;
@@ -207,7 +207,7 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
               oEMKCENFMIM_ = input.readBool();
               break;
             }
-            case 88: {
+            case 24: {
 
               entityId_ = input.readUInt32();
               break;
@@ -217,7 +217,7 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
               cCKKABKJJGP_ = input.readBool();
               break;
             }
-            case 106: {
+            case 50: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (focusForward_ != null) {
                 subBuilder = focusForward_.toBuilder();
@@ -267,7 +267,7 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
               emu.grasscutter.net.proto.EvtAvatarEnterFocusNotifyOuterClass.EvtAvatarEnterFocusNotify.class, emu.grasscutter.net.proto.EvtAvatarEnterFocusNotifyOuterClass.EvtAvatarEnterFocusNotify.Builder.class);
     }
 
-    public static final int FOCUS_FORWARD_FIELD_NUMBER = 14;
+    public static final int FOCUS_FORWARD_FIELD_NUMBER = 6;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector focusForward_;
     /**
      * <code>.Vector focus_forward = 13;</code>
@@ -293,7 +293,7 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
       return getFocusForward();
     }
 
-    public static final int FORWARD_TYPE_FIELD_NUMBER = 9;
+    public static final int FORWARD_TYPE_FIELD_NUMBER = 13;
     private int forwardType_;
     /**
      * <code>.ForwardType forward_type = 3;</code>
@@ -334,7 +334,7 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
       return mDMOIMDCOPF_;
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 5;
+    public static final int ENTITY_ID_FIELD_NUMBER = 3;
     private int entityId_;
     /**
      * <code>uint32 entity_id = 11;</code>
@@ -422,7 +422,7 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
       return eGBLCMOLOMC_;
     }
 
-    public static final int NACMCGNGDLN_FIELD_NUMBER = 6;
+    public static final int NACMCGNGDLN_FIELD_NUMBER = 16000;
     private boolean nACMCGNGDLN_;
     /**
      * <code>bool NACMCGNGDLN = 6;</code>
@@ -454,13 +454,13 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
         output.writeBool(2, oGOLKMLFFHE_);
       }
       if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.ForwardType_FORWARD_LOCAL.getNumber()) {
-        output.writeEnum(9, forwardType_);
+        output.writeEnum(13, forwardType_);
       }
       if (gMLEBIHPOKD_ != false) {
         output.writeBool(5, gMLEBIHPOKD_);
       }
       if (nACMCGNGDLN_ != false) {
-        output.writeBool(6, nACMCGNGDLN_);
+        output.writeBool(16000, nACMCGNGDLN_);
       }
       if (mDMOIMDCOPF_ != false) {
         output.writeBool(7, mDMOIMDCOPF_);
@@ -475,13 +475,13 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
         output.writeBool(10, oEMKCENFMIM_);
       }
       if (entityId_ != 0) {
-        output.writeUInt32(5, entityId_);
+        output.writeUInt32(3, entityId_);
       }
       if (cCKKABKJJGP_ != false) {
         output.writeBool(12, cCKKABKJJGP_);
       }
       if (focusForward_ != null) {
-        output.writeMessage(13, getFocusForward());
+        output.writeMessage(6, getFocusForward());
       }
       if (pBHFFGHHPMA_ != false) {
         output.writeBool(15, pBHFFGHHPMA_);
@@ -505,7 +505,7 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
       }
       if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.ForwardType_FORWARD_LOCAL.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(9, forwardType_);
+          .computeEnumSize(13, forwardType_);
       }
       if (gMLEBIHPOKD_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -513,7 +513,7 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
       }
       if (nACMCGNGDLN_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, nACMCGNGDLN_);
+          .computeBoolSize(16000, nACMCGNGDLN_);
       }
       if (mDMOIMDCOPF_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -533,7 +533,7 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
       }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, entityId_);
+          .computeUInt32Size(3, entityId_);
       }
       if (cCKKABKJJGP_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -541,7 +541,7 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
       }
       if (focusForward_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, getFocusForward());
+          .computeMessageSize(6, getFocusForward());
       }
       if (pBHFFGHHPMA_ != false) {
         size += com.google.protobuf.CodedOutputStream

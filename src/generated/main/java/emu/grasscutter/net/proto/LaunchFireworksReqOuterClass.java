@@ -83,7 +83,7 @@ public final class LaunchFireworksReqOuterClass {
             case 0:
               done = true;
               break;
-            case 18: {
+            case 90: {
               emu.grasscutter.net.proto.FireworksLaunchSchemeDataOuterClass.FireworksLaunchSchemeData.Builder subBuilder = null;
               if (schemeData_ != null) {
                 subBuilder = schemeData_.toBuilder();
@@ -128,7 +128,7 @@ public final class LaunchFireworksReqOuterClass {
               emu.grasscutter.net.proto.LaunchFireworksReqOuterClass.LaunchFireworksReq.class, emu.grasscutter.net.proto.LaunchFireworksReqOuterClass.LaunchFireworksReq.Builder.class);
     }
 
-    public static final int SCHEME_DATA_FIELD_NUMBER = 2;
+    public static final int SCHEME_DATA_FIELD_NUMBER = 11;
     private emu.grasscutter.net.proto.FireworksLaunchSchemeDataOuterClass.FireworksLaunchSchemeData schemeData_;
     /**
      * <code>.FireworksLaunchSchemeData scheme_data = 2;</code>
@@ -169,7 +169,7 @@ public final class LaunchFireworksReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (schemeData_ != null) {
-        output.writeMessage(2, getSchemeData());
+        output.writeMessage(11, getSchemeData());
       }
       unknownFields.writeTo(output);
     }
@@ -182,7 +182,7 @@ public final class LaunchFireworksReqOuterClass {
       size = 0;
       if (schemeData_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, getSchemeData());
+          .computeMessageSize(11, getSchemeData());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

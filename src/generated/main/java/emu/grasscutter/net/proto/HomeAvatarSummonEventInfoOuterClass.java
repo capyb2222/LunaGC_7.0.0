@@ -103,32 +103,32 @@ public final class HomeAvatarSummonEventInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 120: {
 
               guid_ = input.readUInt32();
               break;
             }
-            case 32: {
+            case 112: {
 
               eventOverTime_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 96: {
 
               eventId_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 8: {
 
               suitId_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 24: {
 
               randomPosition_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 64: {
 
               avatarId_ = input.readUInt32();
               break;
@@ -165,7 +165,7 @@ public final class HomeAvatarSummonEventInfoOuterClass {
               emu.grasscutter.net.proto.HomeAvatarSummonEventInfoOuterClass.HomeAvatarSummonEventInfo.class, emu.grasscutter.net.proto.HomeAvatarSummonEventInfoOuterClass.HomeAvatarSummonEventInfo.Builder.class);
     }
 
-    public static final int GUID_FIELD_NUMBER = 2;
+    public static final int GUID_FIELD_NUMBER = 15;
     private int guid_;
     /**
      * <code>uint32 guid = 2;</code>
@@ -176,7 +176,7 @@ public final class HomeAvatarSummonEventInfoOuterClass {
       return guid_;
     }
 
-    public static final int EVENT_OVER_TIME_FIELD_NUMBER = 4;
+    public static final int EVENT_OVER_TIME_FIELD_NUMBER = 14;
     private int eventOverTime_;
     /**
      * <code>uint32 event_over_time = 4;</code>
@@ -187,7 +187,7 @@ public final class HomeAvatarSummonEventInfoOuterClass {
       return eventOverTime_;
     }
 
-    public static final int EVENT_ID_FIELD_NUMBER = 6;
+    public static final int EVENT_ID_FIELD_NUMBER = 12;
     private int eventId_;
     /**
      * <code>uint32 event_id = 6;</code>
@@ -198,7 +198,7 @@ public final class HomeAvatarSummonEventInfoOuterClass {
       return eventId_;
     }
 
-    public static final int SUIT_ID_FIELD_NUMBER = 9;
+    public static final int SUIT_ID_FIELD_NUMBER = 1;
     private int suitId_;
     /**
      * <code>uint32 suit_id = 9;</code>
@@ -209,7 +209,7 @@ public final class HomeAvatarSummonEventInfoOuterClass {
       return suitId_;
     }
 
-    public static final int AVATAR_ID_FIELD_NUMBER = 14;
+    public static final int AVATAR_ID_FIELD_NUMBER = 8;
     private int avatarId_;
     /**
      * <code>uint32 avatar_id = 14;</code>
@@ -220,7 +220,7 @@ public final class HomeAvatarSummonEventInfoOuterClass {
       return avatarId_;
     }
 
-    public static final int RANDOM_POSITION_FIELD_NUMBER = 12;
+    public static final int RANDOM_POSITION_FIELD_NUMBER = 3;
     private int randomPosition_;
     /**
      * <code>uint32 random_position = 12;</code>
@@ -246,22 +246,22 @@ public final class HomeAvatarSummonEventInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (guid_ != 0) {
-        output.writeUInt32(2, guid_);
+        output.writeUInt32(15, guid_);
       }
       if (eventOverTime_ != 0) {
-        output.writeUInt32(4, eventOverTime_);
+        output.writeUInt32(14, eventOverTime_);
       }
       if (eventId_ != 0) {
-        output.writeUInt32(6, eventId_);
+        output.writeUInt32(12, eventId_);
       }
       if (suitId_ != 0) {
-        output.writeUInt32(9, suitId_);
+        output.writeUInt32(1, suitId_);
       }
       if (randomPosition_ != 0) {
-        output.writeUInt32(12, randomPosition_);
+        output.writeUInt32(3, randomPosition_);
       }
       if (avatarId_ != 0) {
-        output.writeUInt32(14, avatarId_);
+        output.writeUInt32(8, avatarId_);
       }
       unknownFields.writeTo(output);
     }
@@ -274,27 +274,27 @@ public final class HomeAvatarSummonEventInfoOuterClass {
       size = 0;
       if (guid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, guid_);
+          .computeUInt32Size(15, guid_);
       }
       if (eventOverTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, eventOverTime_);
+          .computeUInt32Size(14, eventOverTime_);
       }
       if (eventId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, eventId_);
+          .computeUInt32Size(12, eventId_);
       }
       if (suitId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, suitId_);
+          .computeUInt32Size(1, suitId_);
       }
       if (randomPosition_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, randomPosition_);
+          .computeUInt32Size(3, randomPosition_);
       }
       if (avatarId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, avatarId_);
+          .computeUInt32Size(8, avatarId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -85,17 +85,17 @@ public final class QuestVarOpOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 40: {
 
               index_ = input.readUInt32();
               break;
             }
-            case 32: {
+            case 16: {
 
               value_ = input.readInt32();
               break;
             }
-            case 88: {
+            case 24: {
 
               isAdd_ = input.readBool();
               break;
@@ -132,7 +132,7 @@ public final class QuestVarOpOuterClass {
               emu.grasscutter.net.proto.QuestVarOpOuterClass.QuestVarOp.class, emu.grasscutter.net.proto.QuestVarOpOuterClass.QuestVarOp.Builder.class);
     }
 
-    public static final int VALUE_FIELD_NUMBER = 4;
+    public static final int VALUE_FIELD_NUMBER = 2;
     private int value_;
     /**
      * <code>int32 value = 4;</code>
@@ -143,7 +143,7 @@ public final class QuestVarOpOuterClass {
       return value_;
     }
 
-    public static final int INDEX_FIELD_NUMBER = 1;
+    public static final int INDEX_FIELD_NUMBER = 5;
     private int index_;
     /**
      * <code>uint32 index = 1;</code>
@@ -154,7 +154,7 @@ public final class QuestVarOpOuterClass {
       return index_;
     }
 
-    public static final int IS_ADD_FIELD_NUMBER = 11;
+    public static final int IS_ADD_FIELD_NUMBER = 3;
     private boolean isAdd_;
     /**
      * <code>bool is_add = 11;</code>
@@ -180,13 +180,13 @@ public final class QuestVarOpOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (index_ != 0) {
-        output.writeUInt32(1, index_);
+        output.writeUInt32(5, index_);
       }
       if (value_ != 0) {
-        output.writeInt32(4, value_);
+        output.writeInt32(2, value_);
       }
       if (isAdd_ != false) {
-        output.writeBool(11, isAdd_);
+        output.writeBool(3, isAdd_);
       }
       unknownFields.writeTo(output);
     }
@@ -199,15 +199,15 @@ public final class QuestVarOpOuterClass {
       size = 0;
       if (index_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, index_);
+          .computeUInt32Size(5, index_);
       }
       if (value_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(4, value_);
+          .computeInt32Size(2, value_);
       }
       if (isAdd_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, isAdd_);
+          .computeBoolSize(3, isAdd_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

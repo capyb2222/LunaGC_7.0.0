@@ -67,7 +67,7 @@ public final class UgcMusicNoteOuterClass {
             case 0:
               done = true;
               break;
-            case 80: {
+            case 64: {
 
               startTime_ = input.readUInt32();
               break;
@@ -109,7 +109,7 @@ public final class UgcMusicNoteOuterClass {
               emu.grasscutter.net.proto.UgcMusicNoteOuterClass.UgcMusicNote.class, emu.grasscutter.net.proto.UgcMusicNoteOuterClass.UgcMusicNote.Builder.class);
     }
 
-    public static final int START_TIME_FIELD_NUMBER = 10;
+    public static final int START_TIME_FIELD_NUMBER = 8;
     private int startTime_;
 
     @java.lang.Override
@@ -140,7 +140,7 @@ public final class UgcMusicNoteOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (startTime_ != 0) {
-        output.writeUInt32(10, startTime_);
+        output.writeUInt32(8, startTime_);
       }
       if (endTime_ != 0) {
         output.writeUInt32(14, endTime_);
@@ -156,7 +156,7 @@ public final class UgcMusicNoteOuterClass {
       size = 0;
       if (startTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, startTime_);
+          .computeUInt32Size(8, startTime_);
       }
       if (endTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream

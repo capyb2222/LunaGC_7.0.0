@@ -140,7 +140,7 @@ public final class CoinCollectTeamInfoDataOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 8: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 avatarIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -148,7 +148,7 @@ public final class CoinCollectTeamInfoDataOuterClass {
               avatarIdList_.addInt(input.readUInt32());
               break;
             }
-            case 34: {
+            case 10: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -182,12 +182,12 @@ public final class CoinCollectTeamInfoDataOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 64: {
+            case 104: {
 
               isHost_ = input.readBool();
               break;
             }
-            case 96: {
+            case 128000: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 pLDBCFMDGLP_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -195,7 +195,7 @@ public final class CoinCollectTeamInfoDataOuterClass {
               pLDBCFMDGLP_.addInt(input.readUInt32());
               break;
             }
-            case 98: {
+            case 128002: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -208,12 +208,12 @@ public final class CoinCollectTeamInfoDataOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 104: {
+            case 32: {
 
               playerUid_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 96: {
 
               chooseSkillNo_ = input.readUInt32();
               break;
@@ -259,7 +259,7 @@ public final class CoinCollectTeamInfoDataOuterClass {
               emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData.class, emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData.Builder.class);
     }
 
-    public static final int AVATAR_ID_LIST_FIELD_NUMBER = 15;
+    public static final int AVATAR_ID_LIST_FIELD_NUMBER = 1;
     private com.google.protobuf.Internal.IntList avatarIdList_;
     /**
      * <code>repeated uint32 avatar_id_list = 4;</code>
@@ -287,7 +287,7 @@ public final class CoinCollectTeamInfoDataOuterClass {
     }
     private int avatarIdListMemoizedSerializedSize = -1;
 
-    public static final int PLAYER_UID_FIELD_NUMBER = 14;
+    public static final int PLAYER_UID_FIELD_NUMBER = 4;
     private int playerUid_;
     /**
      * <code>uint32 player_uid = 13;</code>
@@ -298,7 +298,7 @@ public final class CoinCollectTeamInfoDataOuterClass {
       return playerUid_;
     }
 
-    public static final int IS_HOST_FIELD_NUMBER = 12;
+    public static final int IS_HOST_FIELD_NUMBER = 13;
     private boolean isHost_;
     /**
      * <code>bool is_host = 8;</code>
@@ -309,7 +309,7 @@ public final class CoinCollectTeamInfoDataOuterClass {
       return isHost_;
     }
 
-    public static final int CHOOSE_SKILL_NO_FIELD_NUMBER = 11;
+    public static final int CHOOSE_SKILL_NO_FIELD_NUMBER = 12;
     private int chooseSkillNo_;
     /**
      * <code>uint32 choose_skill_no = 15;</code>
@@ -320,7 +320,7 @@ public final class CoinCollectTeamInfoDataOuterClass {
       return chooseSkillNo_;
     }
 
-    public static final int PLDBCFMDGLP_FIELD_NUMBER = 12;
+    public static final int PLDBCFMDGLP_FIELD_NUMBER = 16000;
     private com.google.protobuf.Internal.IntList pLDBCFMDGLP_;
     /**
      * <code>repeated uint32 PLDBCFMDGLP = 12;</code>
@@ -392,7 +392,7 @@ public final class CoinCollectTeamInfoDataOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getAvatarIdListList().size() > 0) {
-        output.writeUInt32NoTag(34);
+        output.writeUInt32NoTag(10);
         output.writeUInt32NoTag(avatarIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < avatarIdList_.size(); i++) {
@@ -406,20 +406,20 @@ public final class CoinCollectTeamInfoDataOuterClass {
         output.writeUInt32NoTag(dIDCPEELBFN_.getInt(i));
       }
       if (isHost_ != false) {
-        output.writeBool(12, isHost_);
+        output.writeBool(13, isHost_);
       }
       if (getPLDBCFMDGLPList().size() > 0) {
-        output.writeUInt32NoTag(98);
+        output.writeUInt32NoTag(128002);
         output.writeUInt32NoTag(pLDBCFMDGLPMemoizedSerializedSize);
       }
       for (int i = 0; i < pLDBCFMDGLP_.size(); i++) {
         output.writeUInt32NoTag(pLDBCFMDGLP_.getInt(i));
       }
       if (playerUid_ != 0) {
-        output.writeUInt32(14, playerUid_);
+        output.writeUInt32(4, playerUid_);
       }
       if (chooseSkillNo_ != 0) {
-        output.writeUInt32(11, chooseSkillNo_);
+        output.writeUInt32(12, chooseSkillNo_);
       }
       unknownFields.writeTo(output);
     }
@@ -460,7 +460,7 @@ public final class CoinCollectTeamInfoDataOuterClass {
       }
       if (isHost_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, isHost_);
+          .computeBoolSize(13, isHost_);
       }
       {
         int dataSize = 0;
@@ -470,7 +470,7 @@ public final class CoinCollectTeamInfoDataOuterClass {
         }
         size += dataSize;
         if (!getPLDBCFMDGLPList().isEmpty()) {
-          size += 1;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
@@ -478,11 +478,11 @@ public final class CoinCollectTeamInfoDataOuterClass {
       }
       if (playerUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, playerUid_);
+          .computeUInt32Size(4, playerUid_);
       }
       if (chooseSkillNo_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, chooseSkillNo_);
+          .computeUInt32Size(12, chooseSkillNo_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

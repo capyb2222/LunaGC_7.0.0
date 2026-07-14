@@ -74,7 +74,7 @@ public final class GetBargainDataReqOuterClass {
             case 0:
               done = true;
               break;
-            case 104: {
+            case 48: {
 
               bargainId_ = input.readUInt32();
               break;
@@ -111,7 +111,7 @@ public final class GetBargainDataReqOuterClass {
               emu.grasscutter.net.proto.GetBargainDataReqOuterClass.GetBargainDataReq.class, emu.grasscutter.net.proto.GetBargainDataReqOuterClass.GetBargainDataReq.Builder.class);
     }
 
-    public static final int BARGAIN_ID_FIELD_NUMBER = 13;
+    public static final int BARGAIN_ID_FIELD_NUMBER = 6;
     private int bargainId_;
     /**
      * <code>uint32 bargain_id = 13;</code>
@@ -137,7 +137,7 @@ public final class GetBargainDataReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (bargainId_ != 0) {
-        output.writeUInt32(13, bargainId_);
+        output.writeUInt32(6, bargainId_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +150,7 @@ public final class GetBargainDataReqOuterClass {
       size = 0;
       if (bargainId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, bargainId_);
+          .computeUInt32Size(6, bargainId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

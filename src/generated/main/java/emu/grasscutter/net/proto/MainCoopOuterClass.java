@@ -212,13 +212,13 @@ public final class MainCoopOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 56: {
               int rawValue = input.readEnum();
 
               status_ = rawValue;
               break;
             }
-            case 26: {
+            case 122: {
               if (!((mutable_bitField0_ & 0x00000008) != 0)) {
                 seenEndingMap_ = com.google.protobuf.MapField.newMapField(
                     SeenEndingMapDefaultEntryHolder.defaultEntry);
@@ -231,12 +231,12 @@ public final class MainCoopOuterClass {
                   seenEndingMap__.getKey(), seenEndingMap__.getValue());
               break;
             }
-            case 40: {
+            case 80: {
 
               selfConfidence_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 8: {
 
               id_ = input.readUInt32();
               break;
@@ -254,7 +254,7 @@ public final class MainCoopOuterClass {
                   gDBKBKACDFO__.getKey(), gDBKBKACDFO__.getValue());
               break;
             }
-            case 72: {
+            case 112: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 savePointIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -262,7 +262,7 @@ public final class MainCoopOuterClass {
               savePointIdList_.addInt(input.readUInt32());
               break;
             }
-            case 74: {
+            case 114: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -460,7 +460,7 @@ public final class MainCoopOuterClass {
       // @@protoc_insertion_point(enum_scope:MainCoop.Status)
     }
 
-    public static final int SELF_CONFIDENCE_FIELD_NUMBER = 5;
+    public static final int SELF_CONFIDENCE_FIELD_NUMBER = 10;
     private int selfConfidence_;
     /**
      * <code>uint32 self_confidence = 5;</code>
@@ -471,7 +471,7 @@ public final class MainCoopOuterClass {
       return selfConfidence_;
     }
 
-    public static final int STATUS_FIELD_NUMBER = 1;
+    public static final int STATUS_FIELD_NUMBER = 7;
     private int status_;
     /**
      * <code>.MainCoop.Status status = 1;</code>
@@ -490,7 +490,7 @@ public final class MainCoopOuterClass {
       return result == null ? emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop.Status.UNRECOGNIZED : result;
     }
 
-    public static final int SAVE_POINT_ID_LIST_FIELD_NUMBER = 9;
+    public static final int SAVE_POINT_ID_LIST_FIELD_NUMBER = 14;
     private com.google.protobuf.Internal.IntList savePointIdList_;
     /**
      * <code>repeated uint32 save_point_id_list = 9;</code>
@@ -518,7 +518,7 @@ public final class MainCoopOuterClass {
     }
     private int savePointIdListMemoizedSerializedSize = -1;
 
-    public static final int ID_FIELD_NUMBER = 6;
+    public static final int ID_FIELD_NUMBER = 1;
     private int id_;
     /**
      * <code>uint32 id = 6;</code>
@@ -691,7 +691,7 @@ public final class MainCoopOuterClass {
       return map.get(key);
     }
 
-    public static final int SEEN_ENDING_MAP_FIELD_NUMBER = 3;
+    public static final int SEEN_ENDING_MAP_FIELD_NUMBER = 15;
     private static final class SeenEndingMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Integer> defaultEntry =
@@ -788,19 +788,19 @@ public final class MainCoopOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (status_ != emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop.Status.INVALID.getNumber()) {
-        output.writeEnum(1, status_);
+        output.writeEnum(7, status_);
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
           internalGetSeenEndingMap(),
           SeenEndingMapDefaultEntryHolder.defaultEntry,
-          3);
+          15);
       if (selfConfidence_ != 0) {
-        output.writeUInt32(5, selfConfidence_);
+        output.writeUInt32(10, selfConfidence_);
       }
       if (id_ != 0) {
-        output.writeUInt32(6, id_);
+        output.writeUInt32(1, id_);
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
@@ -809,7 +809,7 @@ public final class MainCoopOuterClass {
           GDBKBKACDFODefaultEntryHolder.defaultEntry,
           8);
       if (getSavePointIdListList().size() > 0) {
-        output.writeUInt32NoTag(74);
+        output.writeUInt32NoTag(114);
         output.writeUInt32NoTag(savePointIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < savePointIdList_.size(); i++) {
@@ -832,7 +832,7 @@ public final class MainCoopOuterClass {
       size = 0;
       if (status_ != emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop.Status.INVALID.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(1, status_);
+          .computeEnumSize(7, status_);
       }
       for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
            : internalGetSeenEndingMap().getMap().entrySet()) {
@@ -842,15 +842,15 @@ public final class MainCoopOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(3, seenEndingMap__);
+            .computeMessageSize(15, seenEndingMap__);
       }
       if (selfConfidence_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, selfConfidence_);
+          .computeUInt32Size(10, selfConfidence_);
       }
       if (id_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, id_);
+          .computeUInt32Size(1, id_);
       }
       for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
            : internalGetGDBKBKACDFO().getMap().entrySet()) {

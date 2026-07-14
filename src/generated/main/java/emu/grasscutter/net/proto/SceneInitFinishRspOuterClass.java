@@ -87,12 +87,12 @@ public final class SceneInitFinishRspOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 72: {
 
               enterSceneToken_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 16: {
 
               retcode_ = input.readInt32();
               break;
@@ -129,7 +129,7 @@ public final class SceneInitFinishRspOuterClass {
               emu.grasscutter.net.proto.SceneInitFinishRspOuterClass.SceneInitFinishRsp.class, emu.grasscutter.net.proto.SceneInitFinishRspOuterClass.SceneInitFinishRsp.Builder.class);
     }
 
-    public static final int ENTER_SCENE_TOKEN_FIELD_NUMBER = 4;
+    public static final int ENTER_SCENE_TOKEN_FIELD_NUMBER = 9;
     private int enterSceneToken_;
     /**
      * <pre>
@@ -144,7 +144,7 @@ public final class SceneInitFinishRspOuterClass {
       return enterSceneToken_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 5;
+    public static final int RETCODE_FIELD_NUMBER = 2;
     private int retcode_;
     /**
      * <pre>
@@ -175,10 +175,10 @@ public final class SceneInitFinishRspOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (enterSceneToken_ != 0) {
-        output.writeUInt32(4, enterSceneToken_);
+        output.writeUInt32(9, enterSceneToken_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(5, retcode_);
+        output.writeInt32(2, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -191,11 +191,11 @@ public final class SceneInitFinishRspOuterClass {
       size = 0;
       if (enterSceneToken_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, enterSceneToken_);
+          .computeUInt32Size(9, enterSceneToken_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(5, retcode_);
+          .computeInt32Size(2, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

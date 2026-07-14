@@ -82,7 +82,7 @@ public final class MapAreaChangeNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 50: {
+            case 10: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 mapAreaInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -126,7 +126,7 @@ public final class MapAreaChangeNotifyOuterClass {
               emu.grasscutter.net.proto.MapAreaChangeNotifyOuterClass.MapAreaChangeNotify.class, emu.grasscutter.net.proto.MapAreaChangeNotifyOuterClass.MapAreaChangeNotify.Builder.class);
     }
 
-    public static final int MAP_AREA_INFO_LIST_FIELD_NUMBER = 6;
+    public static final int MAP_AREA_INFO_LIST_FIELD_NUMBER = 1;
     private java.util.List<emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo> mapAreaInfoList_;
 
     @java.lang.Override
@@ -171,7 +171,7 @@ public final class MapAreaChangeNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < mapAreaInfoList_.size(); i++) {
-        output.writeMessage(6, mapAreaInfoList_.get(i));
+        output.writeMessage(1, mapAreaInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -184,7 +184,7 @@ public final class MapAreaChangeNotifyOuterClass {
       size = 0;
       for (int i = 0; i < mapAreaInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, mapAreaInfoList_.get(i));
+          .computeMessageSize(1, mapAreaInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

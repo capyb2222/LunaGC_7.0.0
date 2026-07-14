@@ -83,12 +83,12 @@ public final class ScenePlayerInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 16: {
 
               uid_ = input.readUInt32();
               break;
             }
-            case 74: {
+            case 90: {
               emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder subBuilder = null;
               if (onlinePlayerInfo_ != null) {
                 subBuilder = onlinePlayerInfo_.toBuilder();
@@ -101,22 +101,22 @@ public final class ScenePlayerInfoOuterClass {
 
               break;
             }
-            case 80: {
+            case 32: {
 
               sceneId_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 64: {
 
               peerId_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 24: {
 
               isConnected_ = input.readBool();
               break;
             }
-            case 122: {
+            case 82: {
               java.lang.String s = input.readStringRequireUtf8();
 
               name_ = s;
@@ -154,7 +154,7 @@ public final class ScenePlayerInfoOuterClass {
               emu.grasscutter.net.proto.ScenePlayerInfoOuterClass.ScenePlayerInfo.class, emu.grasscutter.net.proto.ScenePlayerInfoOuterClass.ScenePlayerInfo.Builder.class);
     }
 
-    public static final int NAME_FIELD_NUMBER = 14;
+    public static final int NAME_FIELD_NUMBER = 10;
     private volatile java.lang.Object name_;
 
     @java.lang.Override
@@ -186,7 +186,7 @@ public final class ScenePlayerInfoOuterClass {
       }
     }
 
-    public static final int ONLINE_PLAYER_INFO_FIELD_NUMBER = 15;
+    public static final int ONLINE_PLAYER_INFO_FIELD_NUMBER = 11;
     private emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo onlinePlayerInfo_;
 
     @java.lang.Override
@@ -204,7 +204,7 @@ public final class ScenePlayerInfoOuterClass {
       return getOnlinePlayerInfo();
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 1;
+    public static final int SCENE_ID_FIELD_NUMBER = 4;
     private int sceneId_;
 
     @java.lang.Override
@@ -212,7 +212,7 @@ public final class ScenePlayerInfoOuterClass {
       return sceneId_;
     }
 
-    public static final int UID_FIELD_NUMBER = 7;
+    public static final int UID_FIELD_NUMBER = 2;
     private int uid_;
 
     @java.lang.Override
@@ -220,7 +220,7 @@ public final class ScenePlayerInfoOuterClass {
       return uid_;
     }
 
-    public static final int PEER_ID_FIELD_NUMBER = 3;
+    public static final int PEER_ID_FIELD_NUMBER = 8;
     private int peerId_;
 
     @java.lang.Override
@@ -228,7 +228,7 @@ public final class ScenePlayerInfoOuterClass {
       return peerId_;
     }
 
-    public static final int IS_CONNECTED_FIELD_NUMBER = 13;
+    public static final int IS_CONNECTED_FIELD_NUMBER = 3;
     private boolean isConnected_;
 
     @java.lang.Override
@@ -251,22 +251,22 @@ public final class ScenePlayerInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (uid_ != 0) {
-        output.writeUInt32(7, uid_);
+        output.writeUInt32(2, uid_);
       }
       if (onlinePlayerInfo_ != null) {
-        output.writeMessage(9, getOnlinePlayerInfo());
+        output.writeMessage(11, getOnlinePlayerInfo());
       }
       if (sceneId_ != 0) {
-        output.writeUInt32(1, sceneId_);
+        output.writeUInt32(4, sceneId_);
       }
       if (peerId_ != 0) {
-        output.writeUInt32(3, peerId_);
+        output.writeUInt32(8, peerId_);
       }
       if (isConnected_ != false) {
-        output.writeBool(13, isConnected_);
+        output.writeBool(3, isConnected_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(name_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 15, name_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 10, name_);
       }
       unknownFields.writeTo(output);
     }
@@ -279,26 +279,26 @@ public final class ScenePlayerInfoOuterClass {
       size = 0;
       if (uid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, uid_);
+          .computeUInt32Size(2, uid_);
       }
       if (onlinePlayerInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, getOnlinePlayerInfo());
+          .computeMessageSize(11, getOnlinePlayerInfo());
       }
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, sceneId_);
+          .computeUInt32Size(4, sceneId_);
       }
       if (peerId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, peerId_);
+          .computeUInt32Size(8, peerId_);
       }
       if (isConnected_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, isConnected_);
+          .computeBoolSize(3, isConnected_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(name_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(14, name_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(10, name_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

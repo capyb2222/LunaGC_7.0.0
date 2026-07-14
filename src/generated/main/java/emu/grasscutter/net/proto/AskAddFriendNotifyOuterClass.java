@@ -89,12 +89,12 @@ public final class AskAddFriendNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 16: {
 
               targetUid_ = input.readUInt32();
               break;
             }
-            case 58: {
+            case 106: {
               emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief.Builder subBuilder = null;
               if (targetFriendBrief_ != null) {
                 subBuilder = targetFriendBrief_.toBuilder();
@@ -139,7 +139,7 @@ public final class AskAddFriendNotifyOuterClass {
               emu.grasscutter.net.proto.AskAddFriendNotifyOuterClass.AskAddFriendNotify.class, emu.grasscutter.net.proto.AskAddFriendNotifyOuterClass.AskAddFriendNotify.Builder.class);
     }
 
-    public static final int TARGET_UID_FIELD_NUMBER = 3;
+    public static final int TARGET_UID_FIELD_NUMBER = 2;
     private int targetUid_;
     /**
      * <code>uint32 target_uid = 3;</code>
@@ -150,7 +150,7 @@ public final class AskAddFriendNotifyOuterClass {
       return targetUid_;
     }
 
-    public static final int TARGET_FRIEND_BRIEF_FIELD_NUMBER = 7;
+    public static final int TARGET_FRIEND_BRIEF_FIELD_NUMBER = 13;
     private emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief targetFriendBrief_;
     /**
      * <code>.FriendBrief target_friend_brief = 7;</code>
@@ -191,10 +191,10 @@ public final class AskAddFriendNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (targetUid_ != 0) {
-        output.writeUInt32(3, targetUid_);
+        output.writeUInt32(2, targetUid_);
       }
       if (targetFriendBrief_ != null) {
-        output.writeMessage(7, getTargetFriendBrief());
+        output.writeMessage(13, getTargetFriendBrief());
       }
       unknownFields.writeTo(output);
     }
@@ -207,11 +207,11 @@ public final class AskAddFriendNotifyOuterClass {
       size = 0;
       if (targetUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, targetUid_);
+          .computeUInt32Size(2, targetUid_);
       }
       if (targetFriendBrief_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, getTargetFriendBrief());
+          .computeMessageSize(13, getTargetFriendBrief());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

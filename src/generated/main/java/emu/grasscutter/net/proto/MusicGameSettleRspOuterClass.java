@@ -98,27 +98,27 @@ public final class MusicGameSettleRspOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 64: {
 
               isUnlockNextLevel_ = input.readBool();
               break;
             }
-            case 48: {
+            case 32: {
 
               isNewRecord_ = input.readBool();
               break;
             }
-            case 56: {
+            case 80: {
 
               musicBasicId_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 120: {
 
               ugcGuid_ = input.readUInt64();
               break;
             }
-            case 96: {
+            case 24: {
 
               retcode_ = input.readInt32();
               break;
@@ -155,7 +155,7 @@ public final class MusicGameSettleRspOuterClass {
               emu.grasscutter.net.proto.MusicGameSettleRspOuterClass.MusicGameSettleRsp.class, emu.grasscutter.net.proto.MusicGameSettleRspOuterClass.MusicGameSettleRsp.Builder.class);
     }
 
-    public static final int UGC_GUID_FIELD_NUMBER = 9;
+    public static final int UGC_GUID_FIELD_NUMBER = 15;
     private long ugcGuid_;
     /**
      * <code>uint64 ugc_guid = 9;</code>
@@ -166,7 +166,7 @@ public final class MusicGameSettleRspOuterClass {
       return ugcGuid_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 12;
+    public static final int RETCODE_FIELD_NUMBER = 3;
     private int retcode_;
     /**
      * <code>int32 retcode = 12;</code>
@@ -177,7 +177,7 @@ public final class MusicGameSettleRspOuterClass {
       return retcode_;
     }
 
-    public static final int MUSIC_BASIC_ID_FIELD_NUMBER = 7;
+    public static final int MUSIC_BASIC_ID_FIELD_NUMBER = 10;
     private int musicBasicId_;
     /**
      * <code>uint32 music_basic_id = 7;</code>
@@ -188,7 +188,7 @@ public final class MusicGameSettleRspOuterClass {
       return musicBasicId_;
     }
 
-    public static final int IS_UNLOCK_NEXT_LEVEL_FIELD_NUMBER = 3;
+    public static final int IS_UNLOCK_NEXT_LEVEL_FIELD_NUMBER = 8;
     private boolean isUnlockNextLevel_;
     /**
      * <code>bool is_unlock_next_level = 3;</code>
@@ -199,7 +199,7 @@ public final class MusicGameSettleRspOuterClass {
       return isUnlockNextLevel_;
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 6;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 4;
     private boolean isNewRecord_;
     /**
      * <code>bool is_new_record = 6;</code>
@@ -225,19 +225,19 @@ public final class MusicGameSettleRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isUnlockNextLevel_ != false) {
-        output.writeBool(3, isUnlockNextLevel_);
+        output.writeBool(8, isUnlockNextLevel_);
       }
       if (isNewRecord_ != false) {
-        output.writeBool(6, isNewRecord_);
+        output.writeBool(4, isNewRecord_);
       }
       if (musicBasicId_ != 0) {
-        output.writeUInt32(7, musicBasicId_);
+        output.writeUInt32(10, musicBasicId_);
       }
       if (ugcGuid_ != 0L) {
-        output.writeUInt64(9, ugcGuid_);
+        output.writeUInt64(15, ugcGuid_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(12, retcode_);
+        output.writeInt32(3, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -250,23 +250,23 @@ public final class MusicGameSettleRspOuterClass {
       size = 0;
       if (isUnlockNextLevel_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, isUnlockNextLevel_);
+          .computeBoolSize(8, isUnlockNextLevel_);
       }
       if (isNewRecord_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, isNewRecord_);
+          .computeBoolSize(4, isNewRecord_);
       }
       if (musicBasicId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, musicBasicId_);
+          .computeUInt32Size(10, musicBasicId_);
       }
       if (ugcGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(9, ugcGuid_);
+          .computeUInt64Size(15, ugcGuid_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(12, retcode_);
+          .computeInt32Size(3, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

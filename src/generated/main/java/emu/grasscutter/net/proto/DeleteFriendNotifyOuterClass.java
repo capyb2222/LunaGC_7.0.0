@@ -74,7 +74,7 @@ public final class DeleteFriendNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 120: {
+            case 56: {
 
               targetUid_ = input.readUInt32();
               break;
@@ -111,7 +111,7 @@ public final class DeleteFriendNotifyOuterClass {
               emu.grasscutter.net.proto.DeleteFriendNotifyOuterClass.DeleteFriendNotify.class, emu.grasscutter.net.proto.DeleteFriendNotifyOuterClass.DeleteFriendNotify.Builder.class);
     }
 
-    public static final int TARGET_UID_FIELD_NUMBER = 15;
+    public static final int TARGET_UID_FIELD_NUMBER = 7;
     private int targetUid_;
     /**
      * <code>uint32 target_uid = 15;</code>
@@ -137,7 +137,7 @@ public final class DeleteFriendNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (targetUid_ != 0) {
-        output.writeUInt32(15, targetUid_);
+        output.writeUInt32(7, targetUid_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +150,7 @@ public final class DeleteFriendNotifyOuterClass {
       size = 0;
       if (targetUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, targetUid_);
+          .computeUInt32Size(7, targetUid_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

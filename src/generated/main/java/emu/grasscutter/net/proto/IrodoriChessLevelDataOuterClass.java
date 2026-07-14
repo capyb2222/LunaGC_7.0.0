@@ -109,7 +109,7 @@ public final class IrodoriChessLevelDataOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 16: {
 
               openTime_ = input.readUInt32();
               break;
@@ -140,7 +140,7 @@ public final class IrodoriChessLevelDataOuterClass {
 
               break;
             }
-            case 96: {
+            case 112: {
 
               levelId_ = input.readUInt32();
               break;
@@ -177,7 +177,7 @@ public final class IrodoriChessLevelDataOuterClass {
               emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelData.class, emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelData.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 13;
+    public static final int LEVEL_ID_FIELD_NUMBER = 14;
     private int levelId_;
     /**
      * <code>uint32 level_id = 12;</code>
@@ -188,7 +188,7 @@ public final class IrodoriChessLevelDataOuterClass {
       return levelId_;
     }
 
-    public static final int OPEN_TIME_FIELD_NUMBER = 15;
+    public static final int OPEN_TIME_FIELD_NUMBER = 2;
     private int openTime_;
     /**
      * <code>uint32 open_time = 1;</code>
@@ -266,7 +266,7 @@ public final class IrodoriChessLevelDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (openTime_ != 0) {
-        output.writeUInt32(15, openTime_);
+        output.writeUInt32(2, openTime_);
       }
       if (oMJKGOMNEOF_ != null) {
         output.writeMessage(10, getOMJKGOMNEOF());
@@ -275,7 +275,7 @@ public final class IrodoriChessLevelDataOuterClass {
         output.writeMessage(11, getIPGIFEOKECJ());
       }
       if (levelId_ != 0) {
-        output.writeUInt32(13, levelId_);
+        output.writeUInt32(14, levelId_);
       }
       unknownFields.writeTo(output);
     }
@@ -288,7 +288,7 @@ public final class IrodoriChessLevelDataOuterClass {
       size = 0;
       if (openTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, openTime_);
+          .computeUInt32Size(2, openTime_);
       }
       if (oMJKGOMNEOF_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -300,7 +300,7 @@ public final class IrodoriChessLevelDataOuterClass {
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, levelId_);
+          .computeUInt32Size(14, levelId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

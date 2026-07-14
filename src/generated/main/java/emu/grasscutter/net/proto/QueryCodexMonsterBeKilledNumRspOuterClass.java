@@ -113,7 +113,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
             case 0:
               done = true;
               break;
-            case 72: {
+            case 40: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 codexIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -121,7 +121,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
               codexIdList_.addInt(input.readUInt32());
               break;
             }
-            case 74: {
+            case 42: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -155,7 +155,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 88: {
+            case 48: {
 
               retcode_ = input.readInt32();
               break;
@@ -222,7 +222,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
               emu.grasscutter.net.proto.QueryCodexMonsterBeKilledNumRspOuterClass.QueryCodexMonsterBeKilledNumRsp.class, emu.grasscutter.net.proto.QueryCodexMonsterBeKilledNumRspOuterClass.QueryCodexMonsterBeKilledNumRsp.Builder.class);
     }
 
-    public static final int CODEX_ID_LIST_FIELD_NUMBER = 2;
+    public static final int CODEX_ID_LIST_FIELD_NUMBER = 5;
     private com.google.protobuf.Internal.IntList codexIdList_;
 
     @java.lang.Override
@@ -320,7 +320,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getCodexIdListList().size() > 0) {
-        output.writeUInt32NoTag(74);
+        output.writeUInt32NoTag(42);
         output.writeUInt32NoTag(codexIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < codexIdList_.size(); i++) {

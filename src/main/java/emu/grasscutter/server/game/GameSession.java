@@ -97,7 +97,10 @@ public class GameSession implements GameSessionManager.KcpChannel {
         send(basePacket);
     }
 
+    private static final java.util.Set<Integer> MUTED_LOG_OPCODES = java.util.Set.of(2497);
+
     public void logPacket(String sendOrRecv, int opcode, byte[] payload) {
+        if (MUTED_LOG_OPCODES.contains(opcode)) return;
         Grasscutter.getLogger()
                 .info(sendOrRecv + ": " + PacketOpcodesUtils.getOpcodeName(opcode) + " (" + opcode + ")");
         if (GAME_INFO.isShowPacketPayload) System.out.println(Utils.bytesToHex(payload));

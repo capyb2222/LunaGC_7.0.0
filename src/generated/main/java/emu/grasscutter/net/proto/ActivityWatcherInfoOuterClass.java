@@ -71,22 +71,22 @@ public final class ActivityWatcherInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
+            case 88: {
 
               curProgress_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 96: {
 
               isTakenReward_ = input.readBool();
               break;
             }
-            case 80: {
+            case 8: {
 
               watcherId_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 80: {
 
               totalProgress_ = input.readUInt32();
               break;
@@ -123,7 +123,7 @@ public final class ActivityWatcherInfoOuterClass {
               emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.class, emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.Builder.class);
     }
 
-    public static final int TOTAL_PROGRESS_FIELD_NUMBER = 15;
+    public static final int TOTAL_PROGRESS_FIELD_NUMBER = 10;
     private int totalProgress_;
 
     @java.lang.Override
@@ -131,7 +131,7 @@ public final class ActivityWatcherInfoOuterClass {
       return totalProgress_;
     }
 
-    public static final int CUR_PROGRESS_FIELD_NUMBER = 5;
+    public static final int CUR_PROGRESS_FIELD_NUMBER = 11;
     private int curProgress_;
 
     @java.lang.Override
@@ -139,7 +139,7 @@ public final class ActivityWatcherInfoOuterClass {
       return curProgress_;
     }
 
-    public static final int IS_TAKEN_REWARD_FIELD_NUMBER = 9;
+    public static final int IS_TAKEN_REWARD_FIELD_NUMBER = 12;
     private boolean isTakenReward_;
 
     @java.lang.Override
@@ -147,7 +147,7 @@ public final class ActivityWatcherInfoOuterClass {
       return isTakenReward_;
     }
 
-    public static final int WATCHER_ID_FIELD_NUMBER = 10;
+    public static final int WATCHER_ID_FIELD_NUMBER = 1;
     private int watcherId_;
 
     @java.lang.Override
@@ -170,16 +170,16 @@ public final class ActivityWatcherInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (curProgress_ != 0) {
-        output.writeUInt32(5, curProgress_);
+        output.writeUInt32(11, curProgress_);
       }
       if (isTakenReward_ != false) {
-        output.writeBool(9, isTakenReward_);
+        output.writeBool(12, isTakenReward_);
       }
       if (watcherId_ != 0) {
-        output.writeUInt32(10, watcherId_);
+        output.writeUInt32(1, watcherId_);
       }
       if (totalProgress_ != 0) {
-        output.writeUInt32(15, totalProgress_);
+        output.writeUInt32(10, totalProgress_);
       }
       unknownFields.writeTo(output);
     }
@@ -192,19 +192,19 @@ public final class ActivityWatcherInfoOuterClass {
       size = 0;
       if (curProgress_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, curProgress_);
+          .computeUInt32Size(11, curProgress_);
       }
       if (isTakenReward_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isTakenReward_);
+          .computeBoolSize(12, isTakenReward_);
       }
       if (watcherId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, watcherId_);
+          .computeUInt32Size(1, watcherId_);
       }
       if (totalProgress_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, totalProgress_);
+          .computeUInt32Size(10, totalProgress_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

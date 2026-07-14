@@ -83,7 +83,7 @@ public final class TowerCurLevelRecordChangeNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 42: {
+            case 82: {
               emu.grasscutter.net.proto.TowerCurLevelRecordOuterClass.TowerCurLevelRecord.Builder subBuilder = null;
               if (curLevelRecord_ != null) {
                 subBuilder = curLevelRecord_.toBuilder();
@@ -128,7 +128,7 @@ public final class TowerCurLevelRecordChangeNotifyOuterClass {
               emu.grasscutter.net.proto.TowerCurLevelRecordChangeNotifyOuterClass.TowerCurLevelRecordChangeNotify.class, emu.grasscutter.net.proto.TowerCurLevelRecordChangeNotifyOuterClass.TowerCurLevelRecordChangeNotify.Builder.class);
     }
 
-    public static final int CUR_LEVEL_RECORD_FIELD_NUMBER = 5;
+    public static final int CUR_LEVEL_RECORD_FIELD_NUMBER = 10;
     private emu.grasscutter.net.proto.TowerCurLevelRecordOuterClass.TowerCurLevelRecord curLevelRecord_;
     /**
      * <code>.TowerCurLevelRecord cur_level_record = 3;</code>
@@ -169,7 +169,7 @@ public final class TowerCurLevelRecordChangeNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (curLevelRecord_ != null) {
-        output.writeMessage(5, getCurLevelRecord());
+        output.writeMessage(10, getCurLevelRecord());
       }
       unknownFields.writeTo(output);
     }
@@ -182,7 +182,7 @@ public final class TowerCurLevelRecordChangeNotifyOuterClass {
       size = 0;
       if (curLevelRecord_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, getCurLevelRecord());
+          .computeMessageSize(10, getCurLevelRecord());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

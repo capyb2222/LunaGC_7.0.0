@@ -129,12 +129,12 @@ public final class ChapterStateNotifyOuterClass {
 
               break;
             }
-            case 32: {
+            case 64: {
 
               chapterId_ = input.readUInt32();
               break;
             }
-            case 56: {
+            case 112: {
               int rawValue = input.readEnum();
 
               chapterState_ = rawValue;
@@ -817,11 +817,7 @@ public final class ChapterStateNotifyOuterClass {
               case 0:
                 done = true;
                 break;
-              case 8: {
-
-                isLimit_ = input.readBool();
-                break;
-              }
+              
               case 40: {
 
                 configNeedBeginTime_ = input.readUInt32();
@@ -1371,7 +1367,7 @@ public final class ChapterStateNotifyOuterClass {
       return getNeedPlayerLevel();
     }
 
-    public static final int CHAPTER_STATE_FIELD_NUMBER = 7;
+    public static final int CHAPTER_STATE_FIELD_NUMBER = 14;
     private int chapterState_;
     /**
      * <code>.ChapterState chapter_state = 7;</code>
@@ -1390,7 +1386,7 @@ public final class ChapterStateNotifyOuterClass {
       return result == null ? emu.grasscutter.net.proto.ChapterStateOuterClass.ChapterState.UNRECOGNIZED : result;
     }
 
-    public static final int CHAPTER_ID_FIELD_NUMBER = 4;
+    public static final int CHAPTER_ID_FIELD_NUMBER = 8;
     private int chapterId_;
     /**
      * <code>uint32 chapter_id = 4;</code>
@@ -1419,10 +1415,10 @@ public final class ChapterStateNotifyOuterClass {
         output.writeMessage(3, getNeedPlayerLevel());
       }
       if (chapterId_ != 0) {
-        output.writeUInt32(4, chapterId_);
+        output.writeUInt32(8, chapterId_);
       }
       if (chapterState_ != emu.grasscutter.net.proto.ChapterStateOuterClass.ChapterState.CHAPTER_STATE_INVALID.getNumber()) {
-        output.writeEnum(7, chapterState_);
+        output.writeEnum(14, chapterState_);
       }
       if (needBeginTime_ != null) {
         output.writeMessage(10, getNeedBeginTime());
@@ -1442,11 +1438,11 @@ public final class ChapterStateNotifyOuterClass {
       }
       if (chapterId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, chapterId_);
+          .computeUInt32Size(8, chapterId_);
       }
       if (chapterState_ != emu.grasscutter.net.proto.ChapterStateOuterClass.ChapterState.CHAPTER_STATE_INVALID.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(7, chapterState_);
+          .computeEnumSize(14, chapterState_);
       }
       if (needBeginTime_ != null) {
         size += com.google.protobuf.CodedOutputStream

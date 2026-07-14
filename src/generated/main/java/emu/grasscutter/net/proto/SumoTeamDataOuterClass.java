@@ -111,7 +111,7 @@ public final class SumoTeamDataOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 16: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 skillIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -119,7 +119,7 @@ public final class SumoTeamDataOuterClass {
               skillIdList_.addInt(input.readUInt32());
               break;
             }
-            case 66: {
+            case 18: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -132,7 +132,7 @@ public final class SumoTeamDataOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 98: {
+            case 34: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 avatarInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.SumoAvatarInfoOuterClass.SumoAvatarInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -179,7 +179,7 @@ public final class SumoTeamDataOuterClass {
               emu.grasscutter.net.proto.SumoTeamDataOuterClass.SumoTeamData.class, emu.grasscutter.net.proto.SumoTeamDataOuterClass.SumoTeamData.Builder.class);
     }
 
-    public static final int AVATAR_INFO_LIST_FIELD_NUMBER = 12;
+    public static final int AVATAR_INFO_LIST_FIELD_NUMBER = 4;
     private java.util.List<emu.grasscutter.net.proto.SumoAvatarInfoOuterClass.SumoAvatarInfo> avatarInfoList_;
     /**
      * <code>repeated .SumoAvatarInfo avatar_info_list = 12;</code>
@@ -219,7 +219,7 @@ public final class SumoTeamDataOuterClass {
       return avatarInfoList_.get(index);
     }
 
-    public static final int SKILL_ID_LIST_FIELD_NUMBER = 8;
+    public static final int SKILL_ID_LIST_FIELD_NUMBER = 2;
     private com.google.protobuf.Internal.IntList skillIdList_;
     /**
      * <code>repeated uint32 skill_id_list = 8;</code>
@@ -263,14 +263,14 @@ public final class SumoTeamDataOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getSkillIdListList().size() > 0) {
-        output.writeUInt32NoTag(66);
+        output.writeUInt32NoTag(18);
         output.writeUInt32NoTag(skillIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < skillIdList_.size(); i++) {
         output.writeUInt32NoTag(skillIdList_.getInt(i));
       }
       for (int i = 0; i < avatarInfoList_.size(); i++) {
-        output.writeMessage(12, avatarInfoList_.get(i));
+        output.writeMessage(4, avatarInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -297,7 +297,7 @@ public final class SumoTeamDataOuterClass {
       }
       for (int i = 0; i < avatarInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, avatarInfoList_.get(i));
+          .computeMessageSize(4, avatarInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

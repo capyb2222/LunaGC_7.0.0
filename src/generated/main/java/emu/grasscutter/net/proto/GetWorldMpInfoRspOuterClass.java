@@ -86,17 +86,17 @@ public final class GetWorldMpInfoRspOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 112: {
 
               quitMpValidTime_ = input.readUInt32();
               break;
             }
-            case 32: {
+            case 48: {
 
               isInMpMode_ = input.readBool();
               break;
             }
-            case 72: {
+            case 64: {
 
               retcode_ = input.readInt32();
               break;
@@ -133,7 +133,7 @@ public final class GetWorldMpInfoRspOuterClass {
               emu.grasscutter.net.proto.GetWorldMpInfoRspOuterClass.GetWorldMpInfoRsp.class, emu.grasscutter.net.proto.GetWorldMpInfoRspOuterClass.GetWorldMpInfoRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 9;
+    public static final int RETCODE_FIELD_NUMBER = 8;
     private int retcode_;
     /**
      * <code>int32 retcode = 9;</code>
@@ -144,7 +144,7 @@ public final class GetWorldMpInfoRspOuterClass {
       return retcode_;
     }
 
-    public static final int IS_IN_MP_MODE_FIELD_NUMBER = 4;
+    public static final int IS_IN_MP_MODE_FIELD_NUMBER = 6;
     private boolean isInMpMode_;
     /**
      * <code>bool is_in_mp_mode = 4;</code>
@@ -155,7 +155,7 @@ public final class GetWorldMpInfoRspOuterClass {
       return isInMpMode_;
     }
 
-    public static final int QUIT_MP_VALID_TIME_FIELD_NUMBER = 1;
+    public static final int QUIT_MP_VALID_TIME_FIELD_NUMBER = 14;
     private int quitMpValidTime_;
     /**
      * <code>uint32 quit_mp_valid_time = 1;</code>
@@ -181,13 +181,13 @@ public final class GetWorldMpInfoRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (quitMpValidTime_ != 0) {
-        output.writeUInt32(1, quitMpValidTime_);
+        output.writeUInt32(14, quitMpValidTime_);
       }
       if (isInMpMode_ != false) {
-        output.writeBool(4, isInMpMode_);
+        output.writeBool(6, isInMpMode_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(9, retcode_);
+        output.writeInt32(8, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -200,15 +200,15 @@ public final class GetWorldMpInfoRspOuterClass {
       size = 0;
       if (quitMpValidTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, quitMpValidTime_);
+          .computeUInt32Size(14, quitMpValidTime_);
       }
       if (isInMpMode_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, isInMpMode_);
+          .computeBoolSize(6, isInMpMode_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(9, retcode_);
+          .computeInt32Size(8, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

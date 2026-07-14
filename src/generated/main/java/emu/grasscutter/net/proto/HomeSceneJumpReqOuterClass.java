@@ -74,7 +74,7 @@ public final class HomeSceneJumpReqOuterClass {
             case 0:
               done = true;
               break;
-            case 96: {
+            case 64: {
 
               isEnterRoomScene_ = input.readBool();
               break;
@@ -111,7 +111,7 @@ public final class HomeSceneJumpReqOuterClass {
               emu.grasscutter.net.proto.HomeSceneJumpReqOuterClass.HomeSceneJumpReq.class, emu.grasscutter.net.proto.HomeSceneJumpReqOuterClass.HomeSceneJumpReq.Builder.class);
     }
 
-    public static final int IS_ENTER_ROOM_SCENE_FIELD_NUMBER = 12;
+    public static final int IS_ENTER_ROOM_SCENE_FIELD_NUMBER = 8;
     private boolean isEnterRoomScene_;
     /**
      * <code>bool is_enter_room_scene = 12;</code>
@@ -137,7 +137,7 @@ public final class HomeSceneJumpReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isEnterRoomScene_ != false) {
-        output.writeBool(12, isEnterRoomScene_);
+        output.writeBool(8, isEnterRoomScene_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +150,7 @@ public final class HomeSceneJumpReqOuterClass {
       size = 0;
       if (isEnterRoomScene_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, isEnterRoomScene_);
+          .computeBoolSize(8, isEnterRoomScene_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

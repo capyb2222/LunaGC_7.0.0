@@ -114,7 +114,7 @@ public final class ObstacleModifyNotifyOuterClass {
               sceneId_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 16: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 removeObstacleIds_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -122,7 +122,7 @@ public final class ObstacleModifyNotifyOuterClass {
               removeObstacleIds_.addInt(input.readInt32());
               break;
             }
-            case 122: {
+            case 18: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -156,7 +156,7 @@ public final class ObstacleModifyNotifyOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 66: {
+            case 50: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 addObstacles_ = new java.util.ArrayList<emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo>();
                 mutable_bitField0_ |= 0x00000002;
@@ -206,7 +206,7 @@ public final class ObstacleModifyNotifyOuterClass {
               emu.grasscutter.net.proto.ObstacleModifyNotifyOuterClass.ObstacleModifyNotify.class, emu.grasscutter.net.proto.ObstacleModifyNotifyOuterClass.ObstacleModifyNotify.Builder.class);
     }
 
-    public static final int REMOVE_OBSTACLE_IDS_FIELD_NUMBER = 15;
+    public static final int REMOVE_OBSTACLE_IDS_FIELD_NUMBER = 2;
     private com.google.protobuf.Internal.IntList removeObstacleIds_;
 
     @java.lang.Override
@@ -224,7 +224,7 @@ public final class ObstacleModifyNotifyOuterClass {
     }
     private int removeObstacleIdsMemoizedSerializedSize = -1;
 
-    public static final int ADD_OBSTACLES_FIELD_NUMBER = 8;
+    public static final int ADD_OBSTACLES_FIELD_NUMBER = 6;
     private java.util.List<emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo> addObstacles_;
 
     @java.lang.Override
@@ -309,7 +309,7 @@ public final class ObstacleModifyNotifyOuterClass {
         output.writeUInt32(4, sceneId_);
       }
       if (getRemoveObstacleIdsList().size() > 0) {
-        output.writeUInt32NoTag(122);
+        output.writeUInt32NoTag(18);
         output.writeUInt32NoTag(removeObstacleIdsMemoizedSerializedSize);
       }
       for (int i = 0; i < removeObstacleIds_.size(); i++) {
@@ -323,7 +323,7 @@ public final class ObstacleModifyNotifyOuterClass {
         output.writeInt32NoTag(eFBNDPGCKBA_.getInt(i));
       }
       for (int i = 0; i < addObstacles_.size(); i++) {
-        output.writeMessage(8, addObstacles_.get(i));
+        output.writeMessage(6, addObstacles_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -368,7 +368,7 @@ public final class ObstacleModifyNotifyOuterClass {
       }
       for (int i = 0; i < addObstacles_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, addObstacles_.get(i));
+          .computeMessageSize(6, addObstacles_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

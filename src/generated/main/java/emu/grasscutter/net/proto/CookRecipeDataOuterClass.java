@@ -79,7 +79,7 @@ public final class CookRecipeDataOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
+            case 64: {
 
               recipeId_ = input.readUInt32();
               break;
@@ -121,7 +121,7 @@ public final class CookRecipeDataOuterClass {
               emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData.class, emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData.Builder.class);
     }
 
-    public static final int RECIPE_ID_FIELD_NUMBER = 5;
+    public static final int RECIPE_ID_FIELD_NUMBER = 8;
     private int recipeId_;
     /**
      * <code>uint32 recipe_id = 5;</code>
@@ -158,7 +158,7 @@ public final class CookRecipeDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (recipeId_ != 0) {
-        output.writeUInt32(5, recipeId_);
+        output.writeUInt32(8, recipeId_);
       }
       if (proficiency_ != 0) {
         output.writeUInt32(10, proficiency_);
@@ -174,7 +174,7 @@ public final class CookRecipeDataOuterClass {
       size = 0;
       if (recipeId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, recipeId_);
+          .computeUInt32Size(8, recipeId_);
       }
       if (proficiency_ != 0) {
         size += com.google.protobuf.CodedOutputStream

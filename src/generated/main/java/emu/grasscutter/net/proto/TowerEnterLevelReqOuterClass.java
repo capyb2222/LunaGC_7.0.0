@@ -74,7 +74,7 @@ public final class TowerEnterLevelReqOuterClass {
             case 0:
               done = true;
               break;
-            case 120: {
+            case 56: {
 
               enterPointId_ = input.readUInt32();
               break;
@@ -111,7 +111,7 @@ public final class TowerEnterLevelReqOuterClass {
               emu.grasscutter.net.proto.TowerEnterLevelReqOuterClass.TowerEnterLevelReq.class, emu.grasscutter.net.proto.TowerEnterLevelReqOuterClass.TowerEnterLevelReq.Builder.class);
     }
 
-    public static final int ENTER_POINT_ID_FIELD_NUMBER = 15;
+    public static final int ENTER_POINT_ID_FIELD_NUMBER = 7;
     private int enterPointId_;
     /**
      * <code>uint32 enter_point_id = 5;</code>
@@ -137,7 +137,7 @@ public final class TowerEnterLevelReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (enterPointId_ != 0) {
-        output.writeUInt32(15, enterPointId_);
+        output.writeUInt32(7, enterPointId_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +150,7 @@ public final class TowerEnterLevelReqOuterClass {
       size = 0;
       if (enterPointId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, enterPointId_);
+          .computeUInt32Size(7, enterPointId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

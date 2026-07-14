@@ -130,7 +130,7 @@ public final class DigActivityDetailInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 56: {
+            case 8: {
 
               stageId_ = input.readUInt32();
               break;
@@ -250,7 +250,7 @@ public final class DigActivityDetailInfoOuterClass {
     }
     private int pJFEPCNECFNMemoizedSerializedSize = -1;
 
-    public static final int STAGE_ID_FIELD_NUMBER = 7;
+    public static final int STAGE_ID_FIELD_NUMBER = 1;
     private int stageId_;
 
     @java.lang.Override
@@ -281,7 +281,7 @@ public final class DigActivityDetailInfoOuterClass {
         output.writeUInt32NoTag(pJFEPCNECFN_.getInt(i));
       }
       if (stageId_ != 0) {
-        output.writeUInt32(7, stageId_);
+        output.writeUInt32(1, stageId_);
       }
       for (int i = 0; i < kCCLFGDINGJ_.size(); i++) {
         output.writeMessage(13, kCCLFGDINGJ_.get(i));
@@ -311,7 +311,7 @@ public final class DigActivityDetailInfoOuterClass {
       }
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, stageId_);
+          .computeUInt32Size(1, stageId_);
       }
       for (int i = 0; i < kCCLFGDINGJ_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream

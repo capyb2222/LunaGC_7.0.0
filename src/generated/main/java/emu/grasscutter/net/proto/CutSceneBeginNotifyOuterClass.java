@@ -87,7 +87,7 @@ public final class CutSceneBeginNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 34: {
+            case 114: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 extraParamList_ = new java.util.ArrayList<emu.grasscutter.net.proto.CutSceneExtraParamOuterClass.CutSceneExtraParam>();
                 mutable_bitField0_ |= 0x00000001;
@@ -96,12 +96,12 @@ public final class CutSceneBeginNotifyOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.CutSceneExtraParamOuterClass.CutSceneExtraParam.parser(), extensionRegistry));
               break;
             }
-            case 56: {
+            case 40: {
 
               isWaitOthers_ = input.readBool();
               break;
             }
-            case 88: {
+            case 96: {
 
               cutsceneId_ = input.readUInt32();
               break;
@@ -171,7 +171,7 @@ public final class CutSceneBeginNotifyOuterClass {
       return extraParamList_.get(index);
     }
 
-    public static final int CUTSCENE_ID_FIELD_NUMBER = 6;
+    public static final int CUTSCENE_ID_FIELD_NUMBER = 12;
     private int cutsceneId_;
 
     @java.lang.Override
@@ -179,7 +179,7 @@ public final class CutSceneBeginNotifyOuterClass {
       return cutsceneId_;
     }
 
-    public static final int IS_WAIT_OTHERS_FIELD_NUMBER = 8;
+    public static final int IS_WAIT_OTHERS_FIELD_NUMBER = 5;
     private boolean isWaitOthers_;
 
     @java.lang.Override
@@ -205,10 +205,10 @@ public final class CutSceneBeginNotifyOuterClass {
         output.writeMessage(14, extraParamList_.get(i));
       }
       if (isWaitOthers_ != false) {
-        output.writeBool(8, isWaitOthers_);
+        output.writeBool(5, isWaitOthers_);
       }
       if (cutsceneId_ != 0) {
-        output.writeUInt32(6, cutsceneId_);
+        output.writeUInt32(12, cutsceneId_);
       }
       unknownFields.writeTo(output);
     }
@@ -225,11 +225,11 @@ public final class CutSceneBeginNotifyOuterClass {
       }
       if (isWaitOthers_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, isWaitOthers_);
+          .computeBoolSize(5, isWaitOthers_);
       }
       if (cutsceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, cutsceneId_);
+          .computeUInt32Size(12, cutsceneId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

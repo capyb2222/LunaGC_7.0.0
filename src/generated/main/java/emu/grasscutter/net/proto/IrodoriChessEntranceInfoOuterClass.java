@@ -99,12 +99,12 @@ public final class IrodoriChessEntranceInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 40: {
 
               entrancePointId_ = input.readUInt32();
               break;
             }
-            case 58: {
+            case 66: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 monsterInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.IrodoriChessMonsterInfoOuterClass.IrodoriChessMonsterInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -148,7 +148,7 @@ public final class IrodoriChessEntranceInfoOuterClass {
               emu.grasscutter.net.proto.IrodoriChessEntranceInfoOuterClass.IrodoriChessEntranceInfo.class, emu.grasscutter.net.proto.IrodoriChessEntranceInfoOuterClass.IrodoriChessEntranceInfo.Builder.class);
     }
 
-    public static final int MONSTER_INFO_LIST_FIELD_NUMBER = 12;
+    public static final int MONSTER_INFO_LIST_FIELD_NUMBER = 8;
     private java.util.List<emu.grasscutter.net.proto.IrodoriChessMonsterInfoOuterClass.IrodoriChessMonsterInfo> monsterInfoList_;
     /**
      * <code>repeated .IrodoriChessMonsterInfo monster_info_list = 7;</code>
@@ -188,7 +188,7 @@ public final class IrodoriChessEntranceInfoOuterClass {
       return monsterInfoList_.get(index);
     }
 
-    public static final int ENTRANCE_POINT_ID_FIELD_NUMBER = 10;
+    public static final int ENTRANCE_POINT_ID_FIELD_NUMBER = 5;
     private int entrancePointId_;
     /**
      * <code>uint32 entrance_point_id = 4;</code>
@@ -214,10 +214,10 @@ public final class IrodoriChessEntranceInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (entrancePointId_ != 0) {
-        output.writeUInt32(10, entrancePointId_);
+        output.writeUInt32(5, entrancePointId_);
       }
       for (int i = 0; i < monsterInfoList_.size(); i++) {
-        output.writeMessage(12, monsterInfoList_.get(i));
+        output.writeMessage(8, monsterInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -230,11 +230,11 @@ public final class IrodoriChessEntranceInfoOuterClass {
       size = 0;
       if (entrancePointId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, entrancePointId_);
+          .computeUInt32Size(5, entrancePointId_);
       }
       for (int i = 0; i < monsterInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, monsterInfoList_.get(i));
+          .computeMessageSize(8, monsterInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

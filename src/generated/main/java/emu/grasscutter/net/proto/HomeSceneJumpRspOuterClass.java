@@ -80,12 +80,12 @@ public final class HomeSceneJumpRspOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 80: {
 
               isEnterRoomScene_ = input.readBool();
               break;
             }
-            case 112: {
+            case 24: {
 
               retcode_ = input.readInt32();
               break;
@@ -122,7 +122,7 @@ public final class HomeSceneJumpRspOuterClass {
               emu.grasscutter.net.proto.HomeSceneJumpRspOuterClass.HomeSceneJumpRsp.class, emu.grasscutter.net.proto.HomeSceneJumpRspOuterClass.HomeSceneJumpRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 14;
+    public static final int RETCODE_FIELD_NUMBER = 3;
     private int retcode_;
     /**
      * <code>int32 retcode = 14;</code>
@@ -133,7 +133,7 @@ public final class HomeSceneJumpRspOuterClass {
       return retcode_;
     }
 
-    public static final int IS_ENTER_ROOM_SCENE_FIELD_NUMBER = 8;
+    public static final int IS_ENTER_ROOM_SCENE_FIELD_NUMBER = 10;
     private boolean isEnterRoomScene_;
     /**
      * <code>bool is_enter_room_scene = 8;</code>
@@ -159,10 +159,10 @@ public final class HomeSceneJumpRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isEnterRoomScene_ != false) {
-        output.writeBool(8, isEnterRoomScene_);
+        output.writeBool(10, isEnterRoomScene_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(14, retcode_);
+        output.writeInt32(3, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -175,11 +175,11 @@ public final class HomeSceneJumpRspOuterClass {
       size = 0;
       if (isEnterRoomScene_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, isEnterRoomScene_);
+          .computeBoolSize(10, isEnterRoomScene_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(14, retcode_);
+          .computeInt32Size(3, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

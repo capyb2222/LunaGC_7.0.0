@@ -125,7 +125,7 @@ public final class GetAuthkeyRspOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
+            case 50: {
               java.lang.String s = input.readStringRequireUtf8();
 
               gameBiz_ = s;
@@ -136,7 +136,7 @@ public final class GetAuthkeyRspOuterClass {
               bIGHJAIBJJK_ = input.readUInt32();
               break;
             }
-            case 42: {
+            case 122: {
               java.lang.String s = input.readStringRequireUtf8();
 
               authAppid_ = s;
@@ -152,7 +152,7 @@ public final class GetAuthkeyRspOuterClass {
               retcode_ = input.readInt32();
               break;
             }
-            case 98: {
+            case 10: {
               java.lang.String s = input.readStringRequireUtf8();
 
               authkey_ = s;
@@ -201,7 +201,7 @@ public final class GetAuthkeyRspOuterClass {
       return pGANJHDNINM_;
     }
 
-    public static final int AUTHKEY_FIELD_NUMBER = 12;
+    public static final int AUTHKEY_FIELD_NUMBER = 1;
     private volatile java.lang.Object authkey_;
     /**
      * <code>string authkey = 12;</code>
@@ -250,7 +250,7 @@ public final class GetAuthkeyRspOuterClass {
       return bIGHJAIBJJK_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 10;
+    public static final int RETCODE_FIELD_NUMBER = 9;
     private int retcode_;
     /**
      * <code>int32 retcode = 9;</code>
@@ -261,7 +261,7 @@ public final class GetAuthkeyRspOuterClass {
       return retcode_;
     }
 
-    public static final int AUTH_APPID_FIELD_NUMBER = 5;
+    public static final int AUTH_APPID_FIELD_NUMBER = 15;
     private volatile java.lang.Object authAppid_;
     /**
      * <code>string auth_appid = 5;</code>
@@ -299,7 +299,7 @@ public final class GetAuthkeyRspOuterClass {
       }
     }
 
-    public static final int GAME_BIZ_FIELD_NUMBER = 1;
+    public static final int GAME_BIZ_FIELD_NUMBER = 6;
     private volatile java.lang.Object gameBiz_;
     /**
      * <code>string game_biz = 1;</code>
@@ -352,22 +352,22 @@ public final class GetAuthkeyRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gameBiz_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1, gameBiz_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 6, gameBiz_);
       }
       if (bIGHJAIBJJK_ != 0) {
         output.writeUInt32(2, bIGHJAIBJJK_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(authAppid_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 5, authAppid_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 15, authAppid_);
       }
       if (pGANJHDNINM_ != 0) {
         output.writeUInt32(7, pGANJHDNINM_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(10, retcode_);
+        output.writeInt32(9, retcode_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(authkey_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 12, authkey_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 1, authkey_);
       }
       unknownFields.writeTo(output);
     }
@@ -379,14 +379,14 @@ public final class GetAuthkeyRspOuterClass {
 
       size = 0;
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gameBiz_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, gameBiz_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(6, gameBiz_);
       }
       if (bIGHJAIBJJK_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(2, bIGHJAIBJJK_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(authAppid_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(5, authAppid_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(15, authAppid_);
       }
       if (pGANJHDNINM_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -394,10 +394,10 @@ public final class GetAuthkeyRspOuterClass {
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(10, retcode_);
+          .computeInt32Size(9, retcode_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(authkey_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(12, authkey_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, authkey_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

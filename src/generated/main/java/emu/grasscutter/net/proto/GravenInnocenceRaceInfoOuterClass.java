@@ -93,7 +93,7 @@ public final class GravenInnocenceRaceInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 98: {
+            case 82: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.GravenInnocenceRaceLevelInfoOuterClass.GravenInnocenceRaceLevelInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -137,7 +137,7 @@ public final class GravenInnocenceRaceInfoOuterClass {
               emu.grasscutter.net.proto.GravenInnocenceRaceInfoOuterClass.GravenInnocenceRaceInfo.class, emu.grasscutter.net.proto.GravenInnocenceRaceInfoOuterClass.GravenInnocenceRaceInfo.Builder.class);
     }
 
-    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 12;
+    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 10;
     private java.util.List<emu.grasscutter.net.proto.GravenInnocenceRaceLevelInfoOuterClass.GravenInnocenceRaceLevelInfo> levelInfoList_;
     /**
      * <code>repeated .GravenInnocenceRaceLevelInfo level_info_list = 12;</code>
@@ -192,7 +192,7 @@ public final class GravenInnocenceRaceInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < levelInfoList_.size(); i++) {
-        output.writeMessage(12, levelInfoList_.get(i));
+        output.writeMessage(10, levelInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -205,7 +205,7 @@ public final class GravenInnocenceRaceInfoOuterClass {
       size = 0;
       for (int i = 0; i < levelInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, levelInfoList_.get(i));
+          .computeMessageSize(10, levelInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

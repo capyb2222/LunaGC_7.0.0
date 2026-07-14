@@ -85,12 +85,12 @@ public final class FungusTrainingDungeonDetailOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 56: {
 
               isOpen_ = input.readBool();
               break;
             }
-            case 96: {
+            case 72: {
 
               bestScore_ = input.readUInt32();
               break;
@@ -132,7 +132,7 @@ public final class FungusTrainingDungeonDetailOuterClass {
               emu.grasscutter.net.proto.FungusTrainingDungeonDetailOuterClass.FungusTrainingDungeonDetail.class, emu.grasscutter.net.proto.FungusTrainingDungeonDetailOuterClass.FungusTrainingDungeonDetail.Builder.class);
     }
 
-    public static final int BEST_SCORE_FIELD_NUMBER = 12;
+    public static final int BEST_SCORE_FIELD_NUMBER = 9;
     private int bestScore_;
     /**
      * <code>uint32 best_score = 12;</code>
@@ -154,7 +154,7 @@ public final class FungusTrainingDungeonDetailOuterClass {
       return dungeonId_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 2;
+    public static final int IS_OPEN_FIELD_NUMBER = 7;
     private boolean isOpen_;
     /**
      * <code>bool is_open = 2;</code>
@@ -180,10 +180,10 @@ public final class FungusTrainingDungeonDetailOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isOpen_ != false) {
-        output.writeBool(2, isOpen_);
+        output.writeBool(7, isOpen_);
       }
       if (bestScore_ != 0) {
-        output.writeUInt32(12, bestScore_);
+        output.writeUInt32(9, bestScore_);
       }
       if (dungeonId_ != 0) {
         output.writeUInt32(14, dungeonId_);
@@ -199,11 +199,11 @@ public final class FungusTrainingDungeonDetailOuterClass {
       size = 0;
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(2, isOpen_);
+          .computeBoolSize(7, isOpen_);
       }
       if (bestScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, bestScore_);
+          .computeUInt32Size(9, bestScore_);
       }
       if (dungeonId_ != 0) {
         size += com.google.protobuf.CodedOutputStream

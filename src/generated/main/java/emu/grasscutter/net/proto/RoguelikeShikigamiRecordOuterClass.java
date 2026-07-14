@@ -67,12 +67,12 @@ public final class RoguelikeShikigamiRecordOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 32: {
 
               level_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 112: {
 
               id_ = input.readUInt32();
               break;
@@ -109,7 +109,7 @@ public final class RoguelikeShikigamiRecordOuterClass {
               emu.grasscutter.net.proto.RoguelikeShikigamiRecordOuterClass.RoguelikeShikigamiRecord.class, emu.grasscutter.net.proto.RoguelikeShikigamiRecordOuterClass.RoguelikeShikigamiRecord.Builder.class);
     }
 
-    public static final int ID_FIELD_NUMBER = 9;
+    public static final int ID_FIELD_NUMBER = 14;
     private int id_;
 
     @java.lang.Override
@@ -117,7 +117,7 @@ public final class RoguelikeShikigamiRecordOuterClass {
       return id_;
     }
 
-    public static final int LEVEL_FIELD_NUMBER = 9;
+    public static final int LEVEL_FIELD_NUMBER = 4;
     private int level_;
 
     @java.lang.Override
@@ -140,10 +140,10 @@ public final class RoguelikeShikigamiRecordOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (level_ != 0) {
-        output.writeUInt32(9, level_);
+        output.writeUInt32(4, level_);
       }
       if (id_ != 0) {
-        output.writeUInt32(9, id_);
+        output.writeUInt32(14, id_);
       }
       unknownFields.writeTo(output);
     }
@@ -156,11 +156,11 @@ public final class RoguelikeShikigamiRecordOuterClass {
       size = 0;
       if (level_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, level_);
+          .computeUInt32Size(4, level_);
       }
       if (id_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, id_);
+          .computeUInt32Size(14, id_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

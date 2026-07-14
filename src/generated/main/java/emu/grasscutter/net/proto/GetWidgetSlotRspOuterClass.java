@@ -100,7 +100,7 @@ public final class GetWidgetSlotRspOuterClass {
             case 0:
               done = true;
               break;
-            case 72: {
+            case 96: {
 
               retcode_ = input.readInt32();
               break;
@@ -189,7 +189,7 @@ public final class GetWidgetSlotRspOuterClass {
       return slotList_.get(index);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 9;
+    public static final int RETCODE_FIELD_NUMBER = 12;
     private int retcode_;
     /**
      * <code>int32 retcode = 4;</code>
@@ -215,7 +215,7 @@ public final class GetWidgetSlotRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(9, retcode_);
+        output.writeInt32(12, retcode_);
       }
       for (int i = 0; i < slotList_.size(); i++) {
         output.writeMessage(14, slotList_.get(i));
@@ -231,7 +231,7 @@ public final class GetWidgetSlotRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(9, retcode_);
+          .computeInt32Size(12, retcode_);
       }
       for (int i = 0; i < slotList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream

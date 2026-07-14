@@ -86,17 +86,17 @@ public final class WorldChestOpenNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
+            case 56: {
 
               sceneId_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 40: {
 
               groupId_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 32: {
 
               configId_ = input.readUInt32();
               break;
@@ -133,7 +133,7 @@ public final class WorldChestOpenNotifyOuterClass {
               emu.grasscutter.net.proto.WorldChestOpenNotifyOuterClass.WorldChestOpenNotify.class, emu.grasscutter.net.proto.WorldChestOpenNotifyOuterClass.WorldChestOpenNotify.Builder.class);
     }
 
-    public static final int GROUP_ID_FIELD_NUMBER = 9;
+    public static final int GROUP_ID_FIELD_NUMBER = 5;
     private int groupId_;
     /**
      * <code>uint32 group_id = 5;</code>
@@ -144,7 +144,7 @@ public final class WorldChestOpenNotifyOuterClass {
       return groupId_;
     }
 
-    public static final int CONFIG_ID_FIELD_NUMBER = 10;
+    public static final int CONFIG_ID_FIELD_NUMBER = 4;
     private int configId_;
     /**
      * <code>uint32 config_id = 4;</code>
@@ -155,7 +155,7 @@ public final class WorldChestOpenNotifyOuterClass {
       return configId_;
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 5;
+    public static final int SCENE_ID_FIELD_NUMBER = 7;
     private int sceneId_;
     /**
      * <code>uint32 scene_id = 11;</code>
@@ -181,13 +181,13 @@ public final class WorldChestOpenNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (configId_ != 0) {
-        output.writeUInt32(10, configId_);
+        output.writeUInt32(4, configId_);
       }
       if (groupId_ != 0) {
-        output.writeUInt32(9, groupId_);
+        output.writeUInt32(5, groupId_);
       }
       if (sceneId_ != 0) {
-        output.writeUInt32(5, sceneId_);
+        output.writeUInt32(7, sceneId_);
       }
       unknownFields.writeTo(output);
     }
@@ -200,15 +200,15 @@ public final class WorldChestOpenNotifyOuterClass {
       size = 0;
       if (configId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, configId_);
+          .computeUInt32Size(4, configId_);
       }
       if (groupId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, groupId_);
+          .computeUInt32Size(5, groupId_);
       }
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, sceneId_);
+          .computeUInt32Size(7, sceneId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

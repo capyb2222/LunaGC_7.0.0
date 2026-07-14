@@ -105,7 +105,7 @@ public final class TowerLevelRecordOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 80: {
+            case 16: {
 
               levelId_ = input.readUInt32();
               break;
@@ -173,7 +173,7 @@ public final class TowerLevelRecordOuterClass {
     }
     private int pEJCBHFHGOOMemoizedSerializedSize = -1;
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 1;
+    public static final int LEVEL_ID_FIELD_NUMBER = 2;
     private int levelId_;
 
     @java.lang.Override
@@ -204,7 +204,7 @@ public final class TowerLevelRecordOuterClass {
         output.writeUInt32NoTag(pEJCBHFHGOO_.getInt(i));
       }
       if (levelId_ != 0) {
-        output.writeUInt32(1, levelId_);
+        output.writeUInt32(2, levelId_);
       }
       unknownFields.writeTo(output);
     }
@@ -231,7 +231,7 @@ public final class TowerLevelRecordOuterClass {
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, levelId_);
+          .computeUInt32Size(2, levelId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

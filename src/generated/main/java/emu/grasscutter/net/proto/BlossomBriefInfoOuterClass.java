@@ -147,47 +147,47 @@ public final class BlossomBriefInfoOuterClass {
               resin_ = input.readUInt32();
               break;
             }
-            case 32: {
+            case 112: {
 
               cityId_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 104: {
 
               isGuideOpened_ = input.readBool();
               break;
             }
-            case 56: {
+            case 64: {
 
               rewardId_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 128000: {
 
               hJMMAOMEHOL_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 32: {
 
               state_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 40: {
 
               refreshId_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 24: {
 
               monsterLevel_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 56: {
 
               sceneId_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 80: {
 
               circleCampId_ = input.readUInt32();
               break;
@@ -237,7 +237,7 @@ public final class BlossomBriefInfoOuterClass {
               emu.grasscutter.net.proto.BlossomBriefInfoOuterClass.BlossomBriefInfo.class, emu.grasscutter.net.proto.BlossomBriefInfoOuterClass.BlossomBriefInfo.Builder.class);
     }
 
-    public static final int STATE_FIELD_NUMBER = 10;
+    public static final int STATE_FIELD_NUMBER = 4;
     private int state_;
     /**
      * <code>uint32 state = 10;</code>
@@ -248,7 +248,7 @@ public final class BlossomBriefInfoOuterClass {
       return state_;
     }
 
-    public static final int IS_GUIDE_OPENED_FIELD_NUMBER = 5;
+    public static final int IS_GUIDE_OPENED_FIELD_NUMBER = 13;
     private boolean isGuideOpened_;
     /**
      * <code>bool is_guide_opened = 5;</code>
@@ -270,7 +270,7 @@ public final class BlossomBriefInfoOuterClass {
       return resin_;
     }
 
-    public static final int CIRCLE_CAMP_ID_FIELD_NUMBER = 14;
+    public static final int CIRCLE_CAMP_ID_FIELD_NUMBER = 10;
     private int circleCampId_;
     /**
      * <code>uint32 circle_camp_id = 14;</code>
@@ -281,7 +281,7 @@ public final class BlossomBriefInfoOuterClass {
       return circleCampId_;
     }
 
-    public static final int MONSTER_LEVEL_FIELD_NUMBER = 12;
+    public static final int MONSTER_LEVEL_FIELD_NUMBER = 3;
     private int monsterLevel_;
     /**
      * <code>uint32 monster_level = 12;</code>
@@ -292,7 +292,7 @@ public final class BlossomBriefInfoOuterClass {
       return monsterLevel_;
     }
 
-    public static final int HJMMAOMEHOL_FIELD_NUMBER = 8;
+    public static final int HJMMAOMEHOL_FIELD_NUMBER = 16000;
     private int hJMMAOMEHOL_;
     /**
      * <code>uint32 HJMMAOMEHOL = 8;</code>
@@ -303,7 +303,7 @@ public final class BlossomBriefInfoOuterClass {
       return hJMMAOMEHOL_;
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 13;
+    public static final int SCENE_ID_FIELD_NUMBER = 7;
     private int sceneId_;
     /**
      * <code>uint32 scene_id = 13;</code>
@@ -314,7 +314,7 @@ public final class BlossomBriefInfoOuterClass {
       return sceneId_;
     }
 
-    public static final int REFRESH_ID_FIELD_NUMBER = 11;
+    public static final int REFRESH_ID_FIELD_NUMBER = 5;
     private int refreshId_;
     /**
      * <code>uint32 refresh_id = 11;</code>
@@ -325,7 +325,7 @@ public final class BlossomBriefInfoOuterClass {
       return refreshId_;
     }
 
-    public static final int REWARD_ID_FIELD_NUMBER = 7;
+    public static final int REWARD_ID_FIELD_NUMBER = 8;
     private int rewardId_;
     /**
      * <code>uint32 reward_id = 7;</code>
@@ -362,7 +362,7 @@ public final class BlossomBriefInfoOuterClass {
       return getPos();
     }
 
-    public static final int CITY_ID_FIELD_NUMBER = 4;
+    public static final int CITY_ID_FIELD_NUMBER = 14;
     private int cityId_;
     /**
      * <code>uint32 city_id = 4;</code>
@@ -391,31 +391,31 @@ public final class BlossomBriefInfoOuterClass {
         output.writeUInt32(2, resin_);
       }
       if (cityId_ != 0) {
-        output.writeUInt32(4, cityId_);
+        output.writeUInt32(14, cityId_);
       }
       if (isGuideOpened_ != false) {
-        output.writeBool(5, isGuideOpened_);
+        output.writeBool(13, isGuideOpened_);
       }
       if (rewardId_ != 0) {
-        output.writeUInt32(7, rewardId_);
+        output.writeUInt32(8, rewardId_);
       }
       if (hJMMAOMEHOL_ != 0) {
-        output.writeUInt32(8, hJMMAOMEHOL_);
+        output.writeUInt32(16000, hJMMAOMEHOL_);
       }
       if (state_ != 0) {
-        output.writeUInt32(10, state_);
+        output.writeUInt32(4, state_);
       }
       if (refreshId_ != 0) {
-        output.writeUInt32(11, refreshId_);
+        output.writeUInt32(5, refreshId_);
       }
       if (monsterLevel_ != 0) {
-        output.writeUInt32(12, monsterLevel_);
+        output.writeUInt32(3, monsterLevel_);
       }
       if (sceneId_ != 0) {
-        output.writeUInt32(13, sceneId_);
+        output.writeUInt32(7, sceneId_);
       }
       if (circleCampId_ != 0) {
-        output.writeUInt32(14, circleCampId_);
+        output.writeUInt32(10, circleCampId_);
       }
       if (pos_ != null) {
         output.writeMessage(15, getPos());
@@ -435,39 +435,39 @@ public final class BlossomBriefInfoOuterClass {
       }
       if (cityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, cityId_);
+          .computeUInt32Size(14, cityId_);
       }
       if (isGuideOpened_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, isGuideOpened_);
+          .computeBoolSize(13, isGuideOpened_);
       }
       if (rewardId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, rewardId_);
+          .computeUInt32Size(8, rewardId_);
       }
       if (hJMMAOMEHOL_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, hJMMAOMEHOL_);
+          .computeUInt32Size(16000, hJMMAOMEHOL_);
       }
       if (state_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, state_);
+          .computeUInt32Size(4, state_);
       }
       if (refreshId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, refreshId_);
+          .computeUInt32Size(5, refreshId_);
       }
       if (monsterLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, monsterLevel_);
+          .computeUInt32Size(3, monsterLevel_);
       }
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, sceneId_);
+          .computeUInt32Size(7, sceneId_);
       }
       if (circleCampId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, circleCampId_);
+          .computeUInt32Size(10, circleCampId_);
       }
       if (pos_ != null) {
         size += com.google.protobuf.CodedOutputStream

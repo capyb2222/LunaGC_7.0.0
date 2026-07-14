@@ -96,7 +96,7 @@ public final class BargainSnapshotOuterClass {
               bALOPACHCDB_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 112: {
 
               curMood_ = input.readInt32();
               break;
@@ -106,7 +106,7 @@ public final class BargainSnapshotOuterClass {
               iOCNPJJNHLD_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 8: {
 
               bargainId_ = input.readUInt32();
               break;
@@ -165,7 +165,7 @@ public final class BargainSnapshotOuterClass {
       return bALOPACHCDB_;
     }
 
-    public static final int CUR_MOOD_FIELD_NUMBER = 9;
+    public static final int CUR_MOOD_FIELD_NUMBER = 14;
     private int curMood_;
     /**
      * <code>int32 cur_mood = 9;</code>
@@ -176,7 +176,7 @@ public final class BargainSnapshotOuterClass {
       return curMood_;
     }
 
-    public static final int BARGAIN_ID_FIELD_NUMBER = 15;
+    public static final int BARGAIN_ID_FIELD_NUMBER = 1;
     private int bargainId_;
     /**
      * <code>uint32 bargain_id = 15;</code>
@@ -205,13 +205,13 @@ public final class BargainSnapshotOuterClass {
         output.writeUInt32(2, bALOPACHCDB_);
       }
       if (curMood_ != 0) {
-        output.writeInt32(9, curMood_);
+        output.writeInt32(14, curMood_);
       }
       if (iOCNPJJNHLD_ != 0) {
         output.writeUInt32(12, iOCNPJJNHLD_);
       }
       if (bargainId_ != 0) {
-        output.writeUInt32(15, bargainId_);
+        output.writeUInt32(1, bargainId_);
       }
       unknownFields.writeTo(output);
     }
@@ -228,7 +228,7 @@ public final class BargainSnapshotOuterClass {
       }
       if (curMood_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(9, curMood_);
+          .computeInt32Size(14, curMood_);
       }
       if (iOCNPJJNHLD_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -236,7 +236,7 @@ public final class BargainSnapshotOuterClass {
       }
       if (bargainId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, bargainId_);
+          .computeUInt32Size(1, bargainId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

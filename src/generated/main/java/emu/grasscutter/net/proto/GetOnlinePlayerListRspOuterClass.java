@@ -86,7 +86,7 @@ public final class GetOnlinePlayerListRspOuterClass {
             case 0:
               done = true;
               break;
-            case 18: {
+            case 42: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 playerInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -95,12 +95,12 @@ public final class GetOnlinePlayerListRspOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.parser(), extensionRegistry));
               break;
             }
-            case 24: {
+            case 32: {
 
               param_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 112: {
 
               retcode_ = input.readInt32();
               break;
@@ -140,7 +140,7 @@ public final class GetOnlinePlayerListRspOuterClass {
               emu.grasscutter.net.proto.GetOnlinePlayerListRspOuterClass.GetOnlinePlayerListRsp.class, emu.grasscutter.net.proto.GetOnlinePlayerListRspOuterClass.GetOnlinePlayerListRsp.Builder.class);
     }
 
-    public static final int PLAYER_INFO_LIST_FIELD_NUMBER = 10;
+    public static final int PLAYER_INFO_LIST_FIELD_NUMBER = 5;
     private java.util.List<emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo> playerInfoList_;
 
     @java.lang.Override
@@ -170,7 +170,7 @@ public final class GetOnlinePlayerListRspOuterClass {
       return playerInfoList_.get(index);
     }
 
-    public static final int PARAM_FIELD_NUMBER = 8;
+    public static final int PARAM_FIELD_NUMBER = 4;
     private int param_;
 
     @java.lang.Override
@@ -178,7 +178,7 @@ public final class GetOnlinePlayerListRspOuterClass {
       return param_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 15;
+    public static final int RETCODE_FIELD_NUMBER = 14;
     private int retcode_;
 
     @java.lang.Override
@@ -201,13 +201,13 @@ public final class GetOnlinePlayerListRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < playerInfoList_.size(); i++) {
-        output.writeMessage(10, playerInfoList_.get(i));
+        output.writeMessage(5, playerInfoList_.get(i));
       }
       if (param_ != 0) {
-        output.writeUInt32(8, param_);
+        output.writeUInt32(4, param_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(15, retcode_);
+        output.writeInt32(14, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -220,15 +220,15 @@ public final class GetOnlinePlayerListRspOuterClass {
       size = 0;
       for (int i = 0; i < playerInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, playerInfoList_.get(i));
+          .computeMessageSize(5, playerInfoList_.get(i));
       }
       if (param_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, param_);
+          .computeUInt32Size(4, param_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(15, retcode_);
+          .computeInt32Size(14, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -71,12 +71,12 @@ public final class ModifierPropertyOuterClass {
             case 0:
               done = true;
               break;
-            case 29: {
+            case 21: {
 
               value_ = input.readFloat();
               break;
             }
-            case 114: {
+            case 74: {
               emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder subBuilder = null;
               if (key_ != null) {
                 subBuilder = key_.toBuilder();
@@ -121,7 +121,7 @@ public final class ModifierPropertyOuterClass {
               emu.grasscutter.net.proto.ModifierPropertyOuterClass.ModifierProperty.class, emu.grasscutter.net.proto.ModifierPropertyOuterClass.ModifierProperty.Builder.class);
     }
 
-    public static final int KEY_FIELD_NUMBER = 14;
+    public static final int KEY_FIELD_NUMBER = 9;
     private emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString key_;
 
     @java.lang.Override
@@ -139,7 +139,7 @@ public final class ModifierPropertyOuterClass {
       return getKey();
     }
 
-    public static final int VALUE_FIELD_NUMBER = 3;
+    public static final int VALUE_FIELD_NUMBER = 2;
     private float value_;
 
     @java.lang.Override
@@ -162,10 +162,10 @@ public final class ModifierPropertyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (key_ != null) {
-        output.writeMessage(14, getKey());
+        output.writeMessage(9, getKey());
       }
       if (value_ != 0F) {
-        output.writeFloat(3, value_);
+        output.writeFloat(2, value_);
       }
       unknownFields.writeTo(output);
     }
@@ -178,11 +178,11 @@ public final class ModifierPropertyOuterClass {
       size = 0;
       if (key_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, getKey());
+          .computeMessageSize(9, getKey());
       }
       if (value_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(3, value_);
+          .computeFloatSize(2, value_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

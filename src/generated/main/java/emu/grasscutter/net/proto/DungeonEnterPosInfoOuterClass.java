@@ -72,7 +72,7 @@ public final class DungeonEnterPosInfoOuterClass {
               pointId_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 80: {
 
               questId_ = input.readUInt32();
               break;
@@ -117,7 +117,7 @@ public final class DungeonEnterPosInfoOuterClass {
       return pointId_;
     }
 
-    public static final int QUEST_ID_FIELD_NUMBER = 14;
+    public static final int QUEST_ID_FIELD_NUMBER = 10;
     private int questId_;
 
     @java.lang.Override
@@ -143,7 +143,7 @@ public final class DungeonEnterPosInfoOuterClass {
         output.writeUInt32(2, pointId_);
       }
       if (questId_ != 0) {
-        output.writeUInt32(14, questId_);
+        output.writeUInt32(10, questId_);
       }
       unknownFields.writeTo(output);
     }
@@ -160,7 +160,7 @@ public final class DungeonEnterPosInfoOuterClass {
       }
       if (questId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, questId_);
+          .computeUInt32Size(10, questId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

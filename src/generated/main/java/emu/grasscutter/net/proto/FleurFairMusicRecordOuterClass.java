@@ -85,17 +85,17 @@ public final class FleurFairMusicRecordOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 40: {
 
               maxCombo_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 120: {
 
               maxScore_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 56: {
 
               isUnlock_ = input.readBool();
               break;
@@ -132,7 +132,7 @@ public final class FleurFairMusicRecordOuterClass {
               emu.grasscutter.net.proto.FleurFairMusicRecordOuterClass.FleurFairMusicRecord.class, emu.grasscutter.net.proto.FleurFairMusicRecordOuterClass.FleurFairMusicRecord.Builder.class);
     }
 
-    public static final int MAX_COMBO_FIELD_NUMBER = 3;
+    public static final int MAX_COMBO_FIELD_NUMBER = 5;
     private int maxCombo_;
     /**
      * <code>uint32 max_combo = 3;</code>
@@ -143,7 +143,7 @@ public final class FleurFairMusicRecordOuterClass {
       return maxCombo_;
     }
 
-    public static final int IS_UNLOCK_FIELD_NUMBER = 11;
+    public static final int IS_UNLOCK_FIELD_NUMBER = 7;
     private boolean isUnlock_;
     /**
      * <code>bool is_unlock = 11;</code>
@@ -154,7 +154,7 @@ public final class FleurFairMusicRecordOuterClass {
       return isUnlock_;
     }
 
-    public static final int MAX_SCORE_FIELD_NUMBER = 10;
+    public static final int MAX_SCORE_FIELD_NUMBER = 15;
     private int maxScore_;
     /**
      * <code>uint32 max_score = 10;</code>
@@ -180,13 +180,13 @@ public final class FleurFairMusicRecordOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (maxCombo_ != 0) {
-        output.writeUInt32(3, maxCombo_);
+        output.writeUInt32(5, maxCombo_);
       }
       if (maxScore_ != 0) {
-        output.writeUInt32(10, maxScore_);
+        output.writeUInt32(15, maxScore_);
       }
       if (isUnlock_ != false) {
-        output.writeBool(11, isUnlock_);
+        output.writeBool(7, isUnlock_);
       }
       unknownFields.writeTo(output);
     }
@@ -199,15 +199,15 @@ public final class FleurFairMusicRecordOuterClass {
       size = 0;
       if (maxCombo_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, maxCombo_);
+          .computeUInt32Size(5, maxCombo_);
       }
       if (maxScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, maxScore_);
+          .computeUInt32Size(15, maxScore_);
       }
       if (isUnlock_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, isUnlock_);
+          .computeBoolSize(7, isUnlock_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

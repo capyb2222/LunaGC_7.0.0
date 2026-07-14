@@ -109,12 +109,12 @@ public final class HomeNpcDataOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 48: {
 
               costumeId_ = input.readUInt32();
               break;
             }
-            case 18: {
+            case 26: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (spawnPos_ != null) {
                 subBuilder = spawnPos_.toBuilder();
@@ -127,7 +127,7 @@ public final class HomeNpcDataOuterClass {
 
               break;
             }
-            case 80: {
+            case 8: {
 
               avatarId_ = input.readUInt32();
               break;
@@ -177,7 +177,7 @@ public final class HomeNpcDataOuterClass {
               emu.grasscutter.net.proto.HomeNpcDataOuterClass.HomeNpcData.class, emu.grasscutter.net.proto.HomeNpcDataOuterClass.HomeNpcData.Builder.class);
     }
 
-    public static final int SPAWNROT_FIELD_NUMBER = 12;
+    public static final int SPAWNROT_FIELD_NUMBER = 15;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector spawnRot_;
     /**
      * <code>.Vector spawnRot = 12;</code>
@@ -203,7 +203,7 @@ public final class HomeNpcDataOuterClass {
       return getSpawnRot();
     }
 
-    public static final int AVATAR_ID_FIELD_NUMBER = 10;
+    public static final int AVATAR_ID_FIELD_NUMBER = 1;
     private int avatarId_;
     /**
      * <code>uint32 avatar_id = 10;</code>
@@ -214,7 +214,7 @@ public final class HomeNpcDataOuterClass {
       return avatarId_;
     }
 
-    public static final int SPAWN_POS_FIELD_NUMBER = 2;
+    public static final int SPAWN_POS_FIELD_NUMBER = 3;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector spawnPos_;
     /**
      * <code>.Vector spawn_pos = 2;</code>
@@ -240,7 +240,7 @@ public final class HomeNpcDataOuterClass {
       return getSpawnPos();
     }
 
-    public static final int COSTUME_ID_FIELD_NUMBER = 1;
+    public static final int COSTUME_ID_FIELD_NUMBER = 6;
     private int costumeId_;
     /**
      * <code>uint32 costume_id = 1;</code>
@@ -266,13 +266,13 @@ public final class HomeNpcDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (costumeId_ != 0) {
-        output.writeUInt32(1, costumeId_);
+        output.writeUInt32(6, costumeId_);
       }
       if (spawnPos_ != null) {
-        output.writeMessage(2, getSpawnPos());
+        output.writeMessage(3, getSpawnPos());
       }
       if (avatarId_ != 0) {
-        output.writeUInt32(10, avatarId_);
+        output.writeUInt32(1, avatarId_);
       }
       if (spawnRot_ != null) {
         output.writeMessage(12, getSpawnRot());
@@ -288,15 +288,15 @@ public final class HomeNpcDataOuterClass {
       size = 0;
       if (costumeId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, costumeId_);
+          .computeUInt32Size(6, costumeId_);
       }
       if (spawnPos_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, getSpawnPos());
+          .computeMessageSize(3, getSpawnPos());
       }
       if (avatarId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, avatarId_);
+          .computeUInt32Size(1, avatarId_);
       }
       if (spawnRot_ != null) {
         size += com.google.protobuf.CodedOutputStream

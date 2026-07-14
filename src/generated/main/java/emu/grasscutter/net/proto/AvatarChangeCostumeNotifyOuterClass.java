@@ -73,7 +73,7 @@ public final class AvatarChangeCostumeNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 50: {
+            case 10: {
               emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo.Builder subBuilder = null;
               if (entityInfo_ != null) {
                 subBuilder = entityInfo_.toBuilder();
@@ -118,7 +118,7 @@ public final class AvatarChangeCostumeNotifyOuterClass {
               emu.grasscutter.net.proto.AvatarChangeCostumeNotifyOuterClass.AvatarChangeCostumeNotify.class, emu.grasscutter.net.proto.AvatarChangeCostumeNotifyOuterClass.AvatarChangeCostumeNotify.Builder.class);
     }
 
-    public static final int ENTITY_INFO_FIELD_NUMBER = 6;
+    public static final int ENTITY_INFO_FIELD_NUMBER = 1;
     private emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo entityInfo_;
 
     @java.lang.Override
@@ -151,7 +151,7 @@ public final class AvatarChangeCostumeNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (entityInfo_ != null) {
-        output.writeMessage(6, getEntityInfo());
+        output.writeMessage(1, getEntityInfo());
       }
       unknownFields.writeTo(output);
     }
@@ -164,7 +164,7 @@ public final class AvatarChangeCostumeNotifyOuterClass {
       size = 0;
       if (entityInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, getEntityInfo());
+          .computeMessageSize(1, getEntityInfo());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

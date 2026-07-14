@@ -81,7 +81,7 @@ public final class EntityPropNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 26: {
+            case 66: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 propMap_ = com.google.protobuf.MapField.newMapField(
                     PropMapDefaultEntryHolder.defaultEntry);
@@ -143,7 +143,7 @@ public final class EntityPropNotifyOuterClass {
               emu.grasscutter.net.proto.EntityPropNotifyOuterClass.EntityPropNotify.class, emu.grasscutter.net.proto.EntityPropNotifyOuterClass.EntityPropNotify.Builder.class);
     }
 
-    public static final int PROP_MAP_FIELD_NUMBER = 1;
+    public static final int PROP_MAP_FIELD_NUMBER = 8;
     private static final class PropMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> defaultEntry =
@@ -213,7 +213,7 @@ public final class EntityPropNotifyOuterClass {
       return map.get(key);
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 2;
+    public static final int ENTITY_ID_FIELD_NUMBER = 12;
     private int entityId_;
 
     @java.lang.Override
@@ -240,9 +240,9 @@ public final class EntityPropNotifyOuterClass {
           output,
           internalGetPropMap(),
           PropMapDefaultEntryHolder.defaultEntry,
-          1);
+          8);
       if (entityId_ != 0) {
-        output.writeUInt32(2, entityId_);
+        output.writeUInt32(12, entityId_);
       }
       unknownFields.writeTo(output);
     }
@@ -261,11 +261,11 @@ public final class EntityPropNotifyOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(1, propMap__);
+            .computeMessageSize(8, propMap__);
       }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, entityId_);
+          .computeUInt32Size(12, entityId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

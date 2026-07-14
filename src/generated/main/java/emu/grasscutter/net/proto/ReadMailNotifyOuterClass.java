@@ -87,7 +87,7 @@ public final class ReadMailNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 24: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 mailIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -95,7 +95,7 @@ public final class ReadMailNotifyOuterClass {
               mailIdList_.addInt(input.readUInt32());
               break;
             }
-            case 18: {
+            case 26: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -143,7 +143,7 @@ public final class ReadMailNotifyOuterClass {
               emu.grasscutter.net.proto.ReadMailNotifyOuterClass.ReadMailNotify.class, emu.grasscutter.net.proto.ReadMailNotifyOuterClass.ReadMailNotify.Builder.class);
     }
 
-    public static final int MAIL_ID_LIST_FIELD_NUMBER = 2;
+    public static final int MAIL_ID_LIST_FIELD_NUMBER = 3;
     private com.google.protobuf.Internal.IntList mailIdList_;
     /**
      * <code>repeated uint32 mail_id_list = 2;</code>
@@ -187,7 +187,7 @@ public final class ReadMailNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getMailIdListList().size() > 0) {
-        output.writeUInt32NoTag(18);
+        output.writeUInt32NoTag(26);
         output.writeUInt32NoTag(mailIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < mailIdList_.size(); i++) {

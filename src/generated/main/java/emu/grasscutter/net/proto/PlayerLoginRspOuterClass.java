@@ -313,13 +313,13 @@ public final class PlayerLoginRspOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
+            case 18: {
               java.lang.String s = input.readStringRequireUtf8();
 
               gameBiz_ = s;
               break;
             }
-            case 16: {
+            case 48: {
 
               clientDataVersion_ = input.readUInt32();
               break;
@@ -329,22 +329,22 @@ public final class PlayerLoginRspOuterClass {
               oHMIGAFLNID_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 72: {
 
               targetUid_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 8: {
 
               isRelogin_ = input.readBool();
               break;
             }
-            case 88: {
+            case 64: {
 
               clientSilenceDataVersion_ = input.readUInt32();
               break;
             }
-            case 98: {
+            case 82: {
               if (!((mutable_bitField0_ & 0x00000008) != 0)) {
                 abilityHashMap_ = com.google.protobuf.MapField.newMapField(
                     AbilityHashMapDefaultEntryHolder.defaultEntry);
@@ -357,12 +357,12 @@ public final class PlayerLoginRspOuterClass {
                   abilityHashMap__.getKey(), abilityHashMap__.getValue());
               break;
             }
-            case 112: {
+            case 40: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 362: {
+            case 15306: {
               java.lang.String s = input.readStringRequireUtf8();
 
               birthday_ = s;
@@ -373,7 +373,7 @@ public final class PlayerLoginRspOuterClass {
               hGJADEMFEBI_ = input.readBool();
               break;
             }
-            case 1474: {
+            case 842: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 blockInfoMap_ = com.google.protobuf.MapField.newMapField(
                     BlockInfoMapDefaultEntryHolder.defaultEntry);
@@ -392,7 +392,7 @@ public final class PlayerLoginRspOuterClass {
               fCLAKCLPJFM_ = s;
               break;
             }
-            case 1586: {
+            case 7402: {
               emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.Builder subBuilder = null;
               if (nextResVersionConfig_ != null) {
                 subBuilder = nextResVersionConfig_.toBuilder();
@@ -405,13 +405,13 @@ public final class PlayerLoginRspOuterClass {
 
               break;
             }
-            case 1738: {
+            case 14514: {
               java.lang.String s = input.readStringRequireUtf8();
 
               msg_ = s;
               break;
             }
-            case 2098: {
+            case 1130: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 featureBlockInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfo>();
                 mutable_bitField0_ |= 0x00000004;
@@ -420,7 +420,7 @@ public final class PlayerLoginRspOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfo.parser(), extensionRegistry));
               break;
             }
-            case 2754: {
+            case 15234: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 shortAbilityHashMap_ = new java.util.ArrayList<emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair>();
                 mutable_bitField0_ |= 0x00000001;
@@ -464,7 +464,7 @@ public final class PlayerLoginRspOuterClass {
               dEBOMCCMIPC_ = s;
               break;
             }
-            case 10929: {
+            case 1929: {
 
               totalTickTime_ = input.readDouble();
               break;
@@ -474,19 +474,19 @@ public final class PlayerLoginRspOuterClass {
               isDataNeedRelogin_ = input.readBool();
               break;
             }
-            case 12498: {
+            case 12138: {
               java.lang.String s = input.readStringRequireUtf8();
 
               countryCode_ = s;
               break;
             }
-            case 12946: {
+            case 5146: {
               java.lang.String s = input.readStringRequireUtf8();
 
               nextResourceUrl_ = s;
               break;
             }
-            case 14618: {
+            case 5298: {
               emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.Builder subBuilder = null;
               if (resVersionConfig_ != null) {
                 subBuilder = resVersionConfig_.toBuilder();
@@ -504,7 +504,7 @@ public final class PlayerLoginRspOuterClass {
               lJHCFCNMEFF_ = input.readBool();
               break;
             }
-            case 15650: {
+            case 4762: {
               java.lang.String s = input.readStringRequireUtf8();
 
               clientVersionSuffix_ = s;
@@ -525,7 +525,7 @@ public final class PlayerLoginRspOuterClass {
               aFMPJIOAEJJ_ = input.readBool();
               break;
             }
-            case 16306: {
+            case 2194: {
               java.lang.String s = input.readStringRequireUtf8();
 
               clientSilenceVersionSuffix_ = s;
@@ -583,7 +583,7 @@ public final class PlayerLoginRspOuterClass {
               emu.grasscutter.net.proto.PlayerLoginRspOuterClass.PlayerLoginRsp.class, emu.grasscutter.net.proto.PlayerLoginRspOuterClass.PlayerLoginRsp.Builder.class);
     }
 
-    public static final int MSG_FIELD_NUMBER = 217;
+    public static final int MSG_FIELD_NUMBER = 1814;
     private volatile java.lang.Object msg_;
 
     @java.lang.Override
@@ -615,7 +615,7 @@ public final class PlayerLoginRspOuterClass {
       }
     }
 
-    public static final int SHORT_ABILITY_HASH_MAP_FIELD_NUMBER = 273;
+    public static final int SHORT_ABILITY_HASH_MAP_FIELD_NUMBER = 1904;
     private java.util.List<emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair> shortAbilityHashMap_;
 
     @java.lang.Override
@@ -671,7 +671,7 @@ public final class PlayerLoginRspOuterClass {
       return getNFACHCNJOGL();
     }
 
-    public static final int BIRTHDAY_FIELD_NUMBER = 45;
+    public static final int BIRTHDAY_FIELD_NUMBER = 1913;
     private volatile java.lang.Object birthday_;
 
     @java.lang.Override
@@ -703,7 +703,7 @@ public final class PlayerLoginRspOuterClass {
       }
     }
 
-    public static final int CLIENT_SILENCE_VERSION_SUFFIX_FIELD_NUMBER = 2038;
+    public static final int CLIENT_SILENCE_VERSION_SUFFIX_FIELD_NUMBER = 274;
     private volatile java.lang.Object clientSilenceVersionSuffix_;
 
     @java.lang.Override
@@ -735,7 +735,7 @@ public final class PlayerLoginRspOuterClass {
       }
     }
 
-    public static final int BLOCK_INFO_MAP_FIELD_NUMBER = 184;
+    public static final int BLOCK_INFO_MAP_FIELD_NUMBER = 105;
     private static final class BlockInfoMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, emu.grasscutter.net.proto.BlockInfoOuterClass.BlockInfo> defaultEntry =
@@ -818,7 +818,7 @@ public final class PlayerLoginRspOuterClass {
       return mNPDKKLKDDK_;
     }
 
-    public static final int FEATURE_BLOCK_INFO_LIST_FIELD_NUMBER = 34;
+    public static final int FEATURE_BLOCK_INFO_LIST_FIELD_NUMBER = 141;
     private java.util.List<emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfo> featureBlockInfoList_;
 
     @java.lang.Override
@@ -848,7 +848,7 @@ public final class PlayerLoginRspOuterClass {
       return featureBlockInfoList_.get(index);
     }
 
-    public static final int COUNTRY_CODE_FIELD_NUMBER = 1562;
+    public static final int COUNTRY_CODE_FIELD_NUMBER = 1517;
     private volatile java.lang.Object countryCode_;
 
     @java.lang.Override
@@ -880,7 +880,7 @@ public final class PlayerLoginRspOuterClass {
       }
     }
 
-    public static final int GAME_BIZ_FIELD_NUMBER = 1;
+    public static final int GAME_BIZ_FIELD_NUMBER = 2;
     private volatile java.lang.Object gameBiz_;
 
     @java.lang.Override
@@ -988,7 +988,7 @@ public final class PlayerLoginRspOuterClass {
       }
     }
 
-    public static final int RES_VERSION_CONFIG_FIELD_NUMBER = 73;
+    public static final int RES_VERSION_CONFIG_FIELD_NUMBER = 662;
     private emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig resVersionConfig_;
 
     @java.lang.Override
@@ -1006,7 +1006,7 @@ public final class PlayerLoginRspOuterClass {
       return getResVersionConfig();
     }
 
-    public static final int NEXT_RES_VERSION_CONFIG_FIELD_NUMBER = 1952;
+    public static final int NEXT_RES_VERSION_CONFIG_FIELD_NUMBER = 925;
     private emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig nextResVersionConfig_;
 
     @java.lang.Override
@@ -1062,7 +1062,7 @@ public final class PlayerLoginRspOuterClass {
       }
     }
 
-    public static final int ABILITY_HASH_MAP_FIELD_NUMBER = 12;
+    public static final int ABILITY_HASH_MAP_FIELD_NUMBER = 10;
     private static final class AbilityHashMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.String, java.lang.Integer> defaultEntry =
@@ -1134,7 +1134,7 @@ public final class PlayerLoginRspOuterClass {
       return map.get(key);
     }
 
-    public static final int NEXT_RESOURCE_URL_FIELD_NUMBER = 1581;
+    public static final int NEXT_RESOURCE_URL_FIELD_NUMBER = 643;
     private volatile java.lang.Object nextResourceUrl_;
 
     @java.lang.Override
@@ -1166,7 +1166,7 @@ public final class PlayerLoginRspOuterClass {
       }
     }
 
-    public static final int CLIENT_VERSION_SUFFIX_FIELD_NUMBER = 1956;
+    public static final int CLIENT_VERSION_SUFFIX_FIELD_NUMBER = 595;
     private volatile java.lang.Object clientVersionSuffix_;
 
     @java.lang.Override
@@ -1220,7 +1220,7 @@ public final class PlayerLoginRspOuterClass {
       return hGJADEMFEBI_;
     }
 
-    public static final int IS_RELOGIN_FIELD_NUMBER = 8;
+    public static final int IS_RELOGIN_FIELD_NUMBER = 1;
     private boolean isRelogin_;
 
     @java.lang.Override
@@ -1250,7 +1250,7 @@ public final class PlayerLoginRspOuterClass {
       return oHMIGAFLNID_;
     }
 
-    public static final int TOTAL_TICK_TIME_FIELD_NUMBER = 1124;
+    public static final int TOTAL_TICK_TIME_FIELD_NUMBER = 241;
     private double totalTickTime_;
 
     @java.lang.Override
@@ -1269,7 +1269,7 @@ public final class PlayerLoginRspOuterClass {
       return hCPDJHFNEHE_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 15;
+    public static final int RETCODE_FIELD_NUMBER = 5;
     private int retcode_;
 
     @java.lang.Override
@@ -1310,7 +1310,7 @@ public final class PlayerLoginRspOuterClass {
       return ePJMIPOPAOF_;
     }
 
-    public static final int CLIENT_SILENCE_DATA_VERSION_FIELD_NUMBER = 11;
+    public static final int CLIENT_SILENCE_DATA_VERSION_FIELD_NUMBER = 8;
     private int clientSilenceDataVersion_;
 
     @java.lang.Override
@@ -1318,7 +1318,7 @@ public final class PlayerLoginRspOuterClass {
       return clientSilenceDataVersion_;
     }
 
-    public static final int TARGET_UID_FIELD_NUMBER = 3;
+    public static final int TARGET_UID_FIELD_NUMBER = 9;
     private int targetUid_;
 
     @java.lang.Override
@@ -1326,7 +1326,7 @@ public final class PlayerLoginRspOuterClass {
       return targetUid_;
     }
 
-    public static final int CLIENT_DATA_VERSION_FIELD_NUMBER = 2;
+    public static final int CLIENT_DATA_VERSION_FIELD_NUMBER = 6;
     private int clientDataVersion_;
 
     @java.lang.Override
@@ -1349,34 +1349,34 @@ public final class PlayerLoginRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gameBiz_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 9, gameBiz_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 2, gameBiz_);
       }
       if (clientDataVersion_ != 0) {
         output.writeUInt32(6, clientDataVersion_);
       }
       if (oHMIGAFLNID_ != 0) {
-        output.writeUInt32(10, oHMIGAFLNID_);
+        output.writeUInt32(3, oHMIGAFLNID_);
       }
       if (targetUid_ != 0) {
-        output.writeUInt32(3, targetUid_);
+        output.writeUInt32(9, targetUid_);
       }
       if (isRelogin_ != false) {
-        output.writeBool(8, isRelogin_);
+        output.writeBool(1, isRelogin_);
       }
       if (clientSilenceDataVersion_ != 0) {
-        output.writeUInt32(12, clientSilenceDataVersion_);
+        output.writeUInt32(8, clientSilenceDataVersion_);
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeStringMapTo(
           output,
           internalGetAbilityHashMap(),
           AbilityHashMapDefaultEntryHolder.defaultEntry,
-          5);
+          10);
       if (retcode_ != 0) {
-        output.writeInt32(15, retcode_);
+        output.writeInt32(5, retcode_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(birthday_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 684, birthday_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 1913, birthday_);
       }
       if (hGJADEMFEBI_ != false) {
         output.writeBool(142, hGJADEMFEBI_);
@@ -1386,21 +1386,21 @@ public final class PlayerLoginRspOuterClass {
           output,
           internalGetBlockInfoMap(),
           BlockInfoMapDefaultEntryHolder.defaultEntry,
-          1926);
+          105);
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(fCLAKCLPJFM_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 190, fCLAKCLPJFM_);
       }
       if (nextResVersionConfig_ != null) {
-        output.writeMessage(1952, getNextResVersionConfig());
+        output.writeMessage(925, getNextResVersionConfig());
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(msg_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1128, msg_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 1814, msg_);
       }
       for (int i = 0; i < featureBlockInfoList_.size(); i++) {
-        output.writeMessage(34, featureBlockInfoList_.get(i));
+        output.writeMessage(141, featureBlockInfoList_.get(i));
       }
       for (int i = 0; i < shortAbilityHashMap_.size(); i++) {
-        output.writeMessage(273, shortAbilityHashMap_.get(i));
+        output.writeMessage(1904, shortAbilityHashMap_.get(i));
       }
       if (hCPDJHFNEHE_ != 0) {
         output.writeUInt32(418, hCPDJHFNEHE_);
@@ -1418,25 +1418,25 @@ public final class PlayerLoginRspOuterClass {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 1096, dEBOMCCMIPC_);
       }
       if (totalTickTime_ != 0D) {
-        output.writeDouble(1124, totalTickTime_);
+        output.writeDouble(241, totalTickTime_);
       }
       if (isDataNeedRelogin_ != false) {
         output.writeBool(1520, isDataNeedRelogin_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(countryCode_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 192, countryCode_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 1517, countryCode_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(nextResourceUrl_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1581, nextResourceUrl_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 643, nextResourceUrl_);
       }
       if (resVersionConfig_ != null) {
-        output.writeMessage(73, getResVersionConfig());
+        output.writeMessage(662, getResVersionConfig());
       }
       if (lJHCFCNMEFF_ != false) {
         output.writeBool(1865, lJHCFCNMEFF_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientVersionSuffix_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 66, clientVersionSuffix_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 595, clientVersionSuffix_);
       }
       if (!mNPDKKLKDDK_.isEmpty()) {
         output.writeBytes(1975, mNPDKKLKDDK_);
@@ -1448,7 +1448,7 @@ public final class PlayerLoginRspOuterClass {
         output.writeBool(2019, aFMPJIOAEJJ_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientSilenceVersionSuffix_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1160, clientSilenceVersionSuffix_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 274, clientSilenceVersionSuffix_);
       }
       unknownFields.writeTo(output);
     }
@@ -1460,7 +1460,7 @@ public final class PlayerLoginRspOuterClass {
 
       size = 0;
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gameBiz_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(9, gameBiz_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(2, gameBiz_);
       }
       if (clientDataVersion_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -1468,19 +1468,19 @@ public final class PlayerLoginRspOuterClass {
       }
       if (oHMIGAFLNID_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, oHMIGAFLNID_);
+          .computeUInt32Size(3, oHMIGAFLNID_);
       }
       if (targetUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, targetUid_);
+          .computeUInt32Size(9, targetUid_);
       }
       if (isRelogin_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, isRelogin_);
+          .computeBoolSize(1, isRelogin_);
       }
       if (clientSilenceDataVersion_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, clientSilenceDataVersion_);
+          .computeUInt32Size(8, clientSilenceDataVersion_);
       }
       for (java.util.Map.Entry<java.lang.String, java.lang.Integer> entry
            : internalGetAbilityHashMap().getMap().entrySet()) {
@@ -1490,14 +1490,14 @@ public final class PlayerLoginRspOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(5, abilityHashMap__);
+            .computeMessageSize(10, abilityHashMap__);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(15, retcode_);
+          .computeInt32Size(5, retcode_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(birthday_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(684, birthday_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1913, birthday_);
       }
       if (hGJADEMFEBI_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -1511,25 +1511,25 @@ public final class PlayerLoginRspOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(1926, blockInfoMap__);
+            .computeMessageSize(105, blockInfoMap__);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(fCLAKCLPJFM_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(190, fCLAKCLPJFM_);
       }
       if (nextResVersionConfig_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1952, getNextResVersionConfig());
+          .computeMessageSize(925, getNextResVersionConfig());
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(msg_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1128, msg_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1814, msg_);
       }
       for (int i = 0; i < featureBlockInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(34, featureBlockInfoList_.get(i));
+          .computeMessageSize(141, featureBlockInfoList_.get(i));
       }
       for (int i = 0; i < shortAbilityHashMap_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(273, shortAbilityHashMap_.get(i));
+          .computeMessageSize(1904, shortAbilityHashMap_.get(i));
       }
       if (hCPDJHFNEHE_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -1551,28 +1551,28 @@ public final class PlayerLoginRspOuterClass {
       }
       if (totalTickTime_ != 0D) {
         size += com.google.protobuf.CodedOutputStream
-          .computeDoubleSize(1124, totalTickTime_);
+          .computeDoubleSize(241, totalTickTime_);
       }
       if (isDataNeedRelogin_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1520, isDataNeedRelogin_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(countryCode_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(192, countryCode_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1517, countryCode_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(nextResourceUrl_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1581, nextResourceUrl_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(643, nextResourceUrl_);
       }
       if (resVersionConfig_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(73, getResVersionConfig());
+          .computeMessageSize(662, getResVersionConfig());
       }
       if (lJHCFCNMEFF_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1865, lJHCFCNMEFF_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientVersionSuffix_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(66, clientVersionSuffix_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(595, clientVersionSuffix_);
       }
       if (!mNPDKKLKDDK_.isEmpty()) {
         size += com.google.protobuf.CodedOutputStream
@@ -1587,7 +1587,7 @@ public final class PlayerLoginRspOuterClass {
           .computeBoolSize(2019, aFMPJIOAEJJ_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientSilenceVersionSuffix_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1160, clientSilenceVersionSuffix_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(274, clientSilenceVersionSuffix_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

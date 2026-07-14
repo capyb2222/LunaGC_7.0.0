@@ -85,42 +85,42 @@ public final class OneoffGatherPointDetectorDataOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 56: {
 
               isAllCollected_ = input.readBool();
               break;
             }
-            case 16: {
+            case 112: {
 
               groupId_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 72: {
 
               sceneId_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 32: {
 
               mapLayerId_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 48: {
 
               isHintValid_ = input.readBool();
               break;
             }
-            case 88: {
+            case 96: {
 
               configId_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 8: {
 
               materialId_ = input.readUInt32();
               break;
             }
-            case 122: {
+            case 26: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (hintCenterPos_ != null) {
                 subBuilder = hintCenterPos_.toBuilder();
@@ -133,7 +133,7 @@ public final class OneoffGatherPointDetectorDataOuterClass {
 
               break;
             }
-            case 128: {
+            case 40: {
 
               hintRadius_ = input.readUInt32();
               break;
@@ -170,7 +170,7 @@ public final class OneoffGatherPointDetectorDataOuterClass {
               emu.grasscutter.net.proto.OneoffGatherPointDetectorDataOuterClass.OneoffGatherPointDetectorData.class, emu.grasscutter.net.proto.OneoffGatherPointDetectorDataOuterClass.OneoffGatherPointDetectorData.Builder.class);
     }
 
-    public static final int HINT_CENTER_POS_FIELD_NUMBER = 9;
+    public static final int HINT_CENTER_POS_FIELD_NUMBER = 3;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector hintCenterPos_;
 
     @java.lang.Override
@@ -188,7 +188,7 @@ public final class OneoffGatherPointDetectorDataOuterClass {
       return getHintCenterPos();
     }
 
-    public static final int HINT_RADIUS_FIELD_NUMBER = 16;
+    public static final int HINT_RADIUS_FIELD_NUMBER = 5;
     private int hintRadius_;
 
     @java.lang.Override
@@ -196,7 +196,7 @@ public final class OneoffGatherPointDetectorDataOuterClass {
       return hintRadius_;
     }
 
-    public static final int MATERIAL_ID_FIELD_NUMBER = 7;
+    public static final int MATERIAL_ID_FIELD_NUMBER = 1;
     private int materialId_;
 
     @java.lang.Override
@@ -204,7 +204,7 @@ public final class OneoffGatherPointDetectorDataOuterClass {
       return materialId_;
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 3;
+    public static final int SCENE_ID_FIELD_NUMBER = 9;
     private int sceneId_;
 
     @java.lang.Override
@@ -212,7 +212,7 @@ public final class OneoffGatherPointDetectorDataOuterClass {
       return sceneId_;
     }
 
-    public static final int CONFIG_ID_FIELD_NUMBER = 1;
+    public static final int CONFIG_ID_FIELD_NUMBER = 12;
     private int configId_;
 
     @java.lang.Override
@@ -220,7 +220,7 @@ public final class OneoffGatherPointDetectorDataOuterClass {
       return configId_;
     }
 
-    public static final int IS_HINT_VALID_FIELD_NUMBER = 11;
+    public static final int IS_HINT_VALID_FIELD_NUMBER = 6;
     private boolean isHintValid_;
 
     @java.lang.Override
@@ -228,7 +228,7 @@ public final class OneoffGatherPointDetectorDataOuterClass {
       return isHintValid_;
     }
 
-    public static final int IS_ALL_COLLECTED_FIELD_NUMBER = 2;
+    public static final int IS_ALL_COLLECTED_FIELD_NUMBER = 7;
     private boolean isAllCollected_;
 
     @java.lang.Override
@@ -236,7 +236,7 @@ public final class OneoffGatherPointDetectorDataOuterClass {
       return isAllCollected_;
     }
 
-    public static final int GROUP_ID_FIELD_NUMBER = 15;
+    public static final int GROUP_ID_FIELD_NUMBER = 14;
     private int groupId_;
 
     @java.lang.Override
@@ -244,7 +244,7 @@ public final class OneoffGatherPointDetectorDataOuterClass {
       return groupId_;
     }
 
-    public static final int MAP_LAYER_ID_FIELD_NUMBER = 6;
+    public static final int MAP_LAYER_ID_FIELD_NUMBER = 4;
     private int mapLayerId_;
 
     @java.lang.Override
@@ -267,31 +267,31 @@ public final class OneoffGatherPointDetectorDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isAllCollected_ != false) {
-        output.writeBool(2, isAllCollected_);
+        output.writeBool(7, isAllCollected_);
       }
       if (groupId_ != 0) {
-        output.writeUInt32(15, groupId_);
+        output.writeUInt32(14, groupId_);
       }
       if (sceneId_ != 0) {
-        output.writeUInt32(3, sceneId_);
+        output.writeUInt32(9, sceneId_);
       }
       if (mapLayerId_ != 0) {
-        output.writeUInt32(6, mapLayerId_);
+        output.writeUInt32(4, mapLayerId_);
       }
       if (isHintValid_ != false) {
-        output.writeBool(11, isHintValid_);
+        output.writeBool(6, isHintValid_);
       }
       if (configId_ != 0) {
-        output.writeUInt32(1, configId_);
+        output.writeUInt32(12, configId_);
       }
       if (materialId_ != 0) {
-        output.writeUInt32(7, materialId_);
+        output.writeUInt32(1, materialId_);
       }
       if (hintCenterPos_ != null) {
-        output.writeMessage(15, getHintCenterPos());
+        output.writeMessage(3, getHintCenterPos());
       }
       if (hintRadius_ != 0) {
-        output.writeUInt32(16, hintRadius_);
+        output.writeUInt32(5, hintRadius_);
       }
       unknownFields.writeTo(output);
     }
@@ -304,39 +304,39 @@ public final class OneoffGatherPointDetectorDataOuterClass {
       size = 0;
       if (isAllCollected_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(2, isAllCollected_);
+          .computeBoolSize(7, isAllCollected_);
       }
       if (groupId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, groupId_);
+          .computeUInt32Size(14, groupId_);
       }
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, sceneId_);
+          .computeUInt32Size(9, sceneId_);
       }
       if (mapLayerId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, mapLayerId_);
+          .computeUInt32Size(4, mapLayerId_);
       }
       if (isHintValid_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, isHintValid_);
+          .computeBoolSize(6, isHintValid_);
       }
       if (configId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, configId_);
+          .computeUInt32Size(12, configId_);
       }
       if (materialId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, materialId_);
+          .computeUInt32Size(1, materialId_);
       }
       if (hintCenterPos_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, getHintCenterPos());
+          .computeMessageSize(3, getHintCenterPos());
       }
       if (hintRadius_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(16, hintRadius_);
+          .computeUInt32Size(5, hintRadius_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

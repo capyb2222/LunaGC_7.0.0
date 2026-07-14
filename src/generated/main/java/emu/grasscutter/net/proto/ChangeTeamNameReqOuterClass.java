@@ -75,7 +75,7 @@ public final class ChangeTeamNameReqOuterClass {
             case 0:
               done = true;
               break;
-            case 34: {
+            case 98: {
               java.lang.String s = input.readStringRequireUtf8();
 
               teamName_ = s;
@@ -118,7 +118,7 @@ public final class ChangeTeamNameReqOuterClass {
               emu.grasscutter.net.proto.ChangeTeamNameReqOuterClass.ChangeTeamNameReq.class, emu.grasscutter.net.proto.ChangeTeamNameReqOuterClass.ChangeTeamNameReq.Builder.class);
     }
 
-    public static final int TEAM_NAME_FIELD_NUMBER = 4;
+    public static final int TEAM_NAME_FIELD_NUMBER = 12;
     private volatile java.lang.Object teamName_;
 
     @java.lang.Override
@@ -173,7 +173,7 @@ public final class ChangeTeamNameReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(teamName_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 4, teamName_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 12, teamName_);
       }
       if (teamId_ != 0) {
         output.writeInt32(9, teamId_);
@@ -188,7 +188,7 @@ public final class ChangeTeamNameReqOuterClass {
 
       size = 0;
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(teamName_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(4, teamName_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(12, teamName_);
       }
       if (teamId_ != 0) {
         size += com.google.protobuf.CodedOutputStream

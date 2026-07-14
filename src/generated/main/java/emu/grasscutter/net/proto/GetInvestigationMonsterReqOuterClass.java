@@ -77,12 +77,12 @@ public final class GetInvestigationMonsterReqOuterClass {
             case 0:
               done = true;
               break;
-            case 112: {
+            case 24: {
 
               isForMark_ = input.readBool();
               break;
             }
-            case 88: {
+            case 8: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 cityIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -90,7 +90,7 @@ public final class GetInvestigationMonsterReqOuterClass {
               cityIdList_.addInt(input.readUInt32());
               break;
             }
-            case 90: {
+            case 10: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -138,7 +138,7 @@ public final class GetInvestigationMonsterReqOuterClass {
               emu.grasscutter.net.proto.GetInvestigationMonsterReqOuterClass.GetInvestigationMonsterReq.class, emu.grasscutter.net.proto.GetInvestigationMonsterReqOuterClass.GetInvestigationMonsterReq.Builder.class);
     }
 
-    public static final int CITY_ID_LIST_FIELD_NUMBER = 11;
+    public static final int CITY_ID_LIST_FIELD_NUMBER = 1;
     private com.google.protobuf.Internal.IntList cityIdList_;
 
     @java.lang.Override
@@ -156,7 +156,7 @@ public final class GetInvestigationMonsterReqOuterClass {
     }
     private int cityIdListMemoizedSerializedSize = -1;
 
-    public static final int IS_FOR_MARK_FIELD_NUMBER = 14;
+    public static final int IS_FOR_MARK_FIELD_NUMBER = 3;
     private boolean isForMark_;
 
     @java.lang.Override
@@ -180,10 +180,10 @@ public final class GetInvestigationMonsterReqOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (isForMark_ != false) {
-        output.writeBool(14, isForMark_);
+        output.writeBool(3, isForMark_);
       }
       if (getCityIdListList().size() > 0) {
-        output.writeUInt32NoTag(90);
+        output.writeUInt32NoTag(10);
         output.writeUInt32NoTag(cityIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < cityIdList_.size(); i++) {
@@ -200,7 +200,7 @@ public final class GetInvestigationMonsterReqOuterClass {
       size = 0;
       if (isForMark_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(14, isForMark_);
+          .computeBoolSize(3, isForMark_);
       }
       {
         int dataSize = 0;

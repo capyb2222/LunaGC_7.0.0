@@ -141,7 +141,7 @@ public final class ChannellerSlabBuffInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 56: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 buffIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -149,7 +149,7 @@ public final class ChannellerSlabBuffInfoOuterClass {
               buffIdList_.addInt(input.readUInt32());
               break;
             }
-            case 18: {
+            case 58: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -162,7 +162,7 @@ public final class ChannellerSlabBuffInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 50: {
+            case 42: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 assistInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ChannellerSlabAssistInfoOuterClass.ChannellerSlabAssistInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -235,7 +235,7 @@ public final class ChannellerSlabBuffInfoOuterClass {
               emu.grasscutter.net.proto.ChannellerSlabBuffInfoOuterClass.ChannellerSlabBuffInfo.class, emu.grasscutter.net.proto.ChannellerSlabBuffInfoOuterClass.ChannellerSlabBuffInfo.Builder.class);
     }
 
-    public static final int ASSIST_INFO_LIST_FIELD_NUMBER = 13;
+    public static final int ASSIST_INFO_LIST_FIELD_NUMBER = 5;
     private java.util.List<emu.grasscutter.net.proto.ChannellerSlabAssistInfoOuterClass.ChannellerSlabAssistInfo> assistInfoList_;
     /**
      * <code>repeated .ChannellerSlabAssistInfo assist_info_list = 6;</code>
@@ -301,7 +301,7 @@ public final class ChannellerSlabBuffInfoOuterClass {
       return getABIJPNCCLIG();
     }
 
-    public static final int BUFF_ID_LIST_FIELD_NUMBER = 14;
+    public static final int BUFF_ID_LIST_FIELD_NUMBER = 7;
     private com.google.protobuf.Internal.IntList buffIdList_;
     /**
      * <code>repeated uint32 buff_id_list = 2;</code>
@@ -371,14 +371,14 @@ public final class ChannellerSlabBuffInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getBuffIdListList().size() > 0) {
-        output.writeUInt32NoTag(18);
+        output.writeUInt32NoTag(58);
         output.writeUInt32NoTag(buffIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < buffIdList_.size(); i++) {
         output.writeUInt32NoTag(buffIdList_.getInt(i));
       }
       for (int i = 0; i < assistInfoList_.size(); i++) {
-        output.writeMessage(13, assistInfoList_.get(i));
+        output.writeMessage(5, assistInfoList_.get(i));
       }
       if (aBIJPNCCLIG_ != null) {
         output.writeMessage(11, getABIJPNCCLIG());
@@ -411,7 +411,7 @@ public final class ChannellerSlabBuffInfoOuterClass {
       }
       for (int i = 0; i < assistInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, assistInfoList_.get(i));
+          .computeMessageSize(5, assistInfoList_.get(i));
       }
       if (aBIJPNCCLIG_ != null) {
         size += com.google.protobuf.CodedOutputStream

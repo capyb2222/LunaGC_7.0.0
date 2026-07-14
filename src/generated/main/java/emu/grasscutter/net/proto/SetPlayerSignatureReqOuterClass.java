@@ -111,7 +111,7 @@ public final class SetPlayerSignatureReqOuterClass {
               emu.grasscutter.net.proto.SetPlayerSignatureReqOuterClass.SetPlayerSignatureReq.class, emu.grasscutter.net.proto.SetPlayerSignatureReqOuterClass.SetPlayerSignatureReq.Builder.class);
     }
 
-    public static final int SIGNATURE_FIELD_NUMBER = 14;
+    public static final int SIGNATURE_FIELD_NUMBER = 15;
     private volatile java.lang.Object signature_;
 
     @java.lang.Override

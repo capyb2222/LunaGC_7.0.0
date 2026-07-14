@@ -82,7 +82,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 98: {
+            case 26: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 routineInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -126,7 +126,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
               emu.grasscutter.net.proto.PlayerRoutineDataNotifyOuterClass.PlayerRoutineDataNotify.class, emu.grasscutter.net.proto.PlayerRoutineDataNotifyOuterClass.PlayerRoutineDataNotify.Builder.class);
     }
 
-    public static final int ROUTINE_INFO_LIST_FIELD_NUMBER = 12;
+    public static final int ROUTINE_INFO_LIST_FIELD_NUMBER = 3;
     private java.util.List<emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo> routineInfoList_;
 
     @java.lang.Override
@@ -171,7 +171,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < routineInfoList_.size(); i++) {
-        output.writeMessage(12, routineInfoList_.get(i));
+        output.writeMessage(3, routineInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -184,7 +184,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
       size = 0;
       for (int i = 0; i < routineInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, routineInfoList_.get(i));
+          .computeMessageSize(3, routineInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

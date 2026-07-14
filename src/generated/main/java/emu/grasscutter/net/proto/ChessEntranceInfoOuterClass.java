@@ -105,17 +105,17 @@ public final class ChessEntranceInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
+            case 104: {
 
               entranceIndex_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 88: {
 
               entrancePointId_ = input.readUInt32();
               break;
             }
-            case 114: {
+            case 18: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 monsterInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ChessMonsterInfoOuterClass.ChessMonsterInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -159,7 +159,7 @@ public final class ChessEntranceInfoOuterClass {
               emu.grasscutter.net.proto.ChessEntranceInfoOuterClass.ChessEntranceInfo.class, emu.grasscutter.net.proto.ChessEntranceInfoOuterClass.ChessEntranceInfo.Builder.class);
     }
 
-    public static final int MONSTER_INFO_LIST_FIELD_NUMBER = 14;
+    public static final int MONSTER_INFO_LIST_FIELD_NUMBER = 2;
     private java.util.List<emu.grasscutter.net.proto.ChessMonsterInfoOuterClass.ChessMonsterInfo> monsterInfoList_;
     /**
      * <code>repeated .ChessMonsterInfo monster_info_list = 14;</code>
@@ -199,7 +199,7 @@ public final class ChessEntranceInfoOuterClass {
       return monsterInfoList_.get(index);
     }
 
-    public static final int ENTRANCE_POINT_ID_FIELD_NUMBER = 8;
+    public static final int ENTRANCE_POINT_ID_FIELD_NUMBER = 11;
     private int entrancePointId_;
     /**
      * <code>uint32 entrance_point_id = 8;</code>
@@ -210,7 +210,7 @@ public final class ChessEntranceInfoOuterClass {
       return entrancePointId_;
     }
 
-    public static final int ENTRANCE_INDEX_FIELD_NUMBER = 5;
+    public static final int ENTRANCE_INDEX_FIELD_NUMBER = 13;
     private int entranceIndex_;
     /**
      * <code>uint32 entrance_index = 5;</code>
@@ -236,13 +236,13 @@ public final class ChessEntranceInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (entranceIndex_ != 0) {
-        output.writeUInt32(5, entranceIndex_);
+        output.writeUInt32(13, entranceIndex_);
       }
       if (entrancePointId_ != 0) {
-        output.writeUInt32(8, entrancePointId_);
+        output.writeUInt32(11, entrancePointId_);
       }
       for (int i = 0; i < monsterInfoList_.size(); i++) {
-        output.writeMessage(14, monsterInfoList_.get(i));
+        output.writeMessage(2, monsterInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -255,15 +255,15 @@ public final class ChessEntranceInfoOuterClass {
       size = 0;
       if (entranceIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, entranceIndex_);
+          .computeUInt32Size(13, entranceIndex_);
       }
       if (entrancePointId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, entrancePointId_);
+          .computeUInt32Size(11, entrancePointId_);
       }
       for (int i = 0; i < monsterInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, monsterInfoList_.get(i));
+          .computeMessageSize(2, monsterInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

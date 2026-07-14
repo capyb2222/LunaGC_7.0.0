@@ -108,7 +108,7 @@ public final class EffigyChallengeV2SettleInfoOuterClass {
               pHNDBBLLHDI_ = input.readUInt32();
               break;
             }
-            case 24: {
+            case 48: {
 
               challengeModeDifficulty_ = input.readUInt32();
               break;
@@ -198,7 +198,7 @@ public final class EffigyChallengeV2SettleInfoOuterClass {
       return dCAKCNEDDEB_;
     }
 
-    public static final int CHALLENGE_MODE_DIFFICULTY_FIELD_NUMBER = 3;
+    public static final int CHALLENGE_MODE_DIFFICULTY_FIELD_NUMBER = 6;
     private int challengeModeDifficulty_;
     /**
      * <code>uint32 challenge_mode_difficulty = 3;</code>
@@ -249,7 +249,7 @@ public final class EffigyChallengeV2SettleInfoOuterClass {
         output.writeUInt32(1, pHNDBBLLHDI_);
       }
       if (challengeModeDifficulty_ != 0) {
-        output.writeUInt32(3, challengeModeDifficulty_);
+        output.writeUInt32(6, challengeModeDifficulty_);
       }
       if (fOFHONJNIHG_ != false) {
         output.writeBool(4, fOFHONJNIHG_);
@@ -278,7 +278,7 @@ public final class EffigyChallengeV2SettleInfoOuterClass {
       }
       if (challengeModeDifficulty_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, challengeModeDifficulty_);
+          .computeUInt32Size(6, challengeModeDifficulty_);
       }
       if (fOFHONJNIHG_ != false) {
         size += com.google.protobuf.CodedOutputStream

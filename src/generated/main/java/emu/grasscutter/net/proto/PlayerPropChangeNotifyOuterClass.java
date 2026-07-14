@@ -71,12 +71,12 @@ public final class PlayerPropChangeNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 48: {
 
               propType_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 80: {
 
               propDelta_ = input.readUInt32();
               break;
@@ -113,7 +113,7 @@ public final class PlayerPropChangeNotifyOuterClass {
               emu.grasscutter.net.proto.PlayerPropChangeNotifyOuterClass.PlayerPropChangeNotify.class, emu.grasscutter.net.proto.PlayerPropChangeNotifyOuterClass.PlayerPropChangeNotify.Builder.class);
     }
 
-    public static final int PROP_TYPE_FIELD_NUMBER = 2;
+    public static final int PROP_TYPE_FIELD_NUMBER = 6;
     private int propType_;
 
     @java.lang.Override
@@ -121,7 +121,7 @@ public final class PlayerPropChangeNotifyOuterClass {
       return propType_;
     }
 
-    public static final int PROP_DELTA_FIELD_NUMBER = 5;
+    public static final int PROP_DELTA_FIELD_NUMBER = 10;
     private int propDelta_;
 
     @java.lang.Override
@@ -144,10 +144,10 @@ public final class PlayerPropChangeNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (propType_ != 0) {
-        output.writeUInt32(2, propType_);
+        output.writeUInt32(6, propType_);
       }
       if (propDelta_ != 0) {
-        output.writeUInt32(5, propDelta_);
+        output.writeUInt32(10, propDelta_);
       }
       unknownFields.writeTo(output);
     }
@@ -160,11 +160,11 @@ public final class PlayerPropChangeNotifyOuterClass {
       size = 0;
       if (propType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, propType_);
+          .computeUInt32Size(6, propType_);
       }
       if (propDelta_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, propDelta_);
+          .computeUInt32Size(10, propDelta_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

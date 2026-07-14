@@ -86,12 +86,12 @@ public final class UpdateAbilityCreatedMovingPlatformNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 80: {
+            case 64: {
 
               entityId_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 32: {
               int rawValue = input.readEnum();
 
               opType_ = rawValue;
@@ -250,7 +250,7 @@ public final class UpdateAbilityCreatedMovingPlatformNotifyOuterClass {
       // @@protoc_insertion_point(enum_scope:UpdateAbilityCreatedMovingPlatformNotify.OpType)
     }
 
-    public static final int OP_TYPE_FIELD_NUMBER = 12;
+    public static final int OP_TYPE_FIELD_NUMBER = 4;
     private int opType_;
     /**
      * <code>.UpdateAbilityCreatedMovingPlatformNotify.OpType op_type = 12;</code>
@@ -269,7 +269,7 @@ public final class UpdateAbilityCreatedMovingPlatformNotifyOuterClass {
       return result == null ? emu.grasscutter.net.proto.UpdateAbilityCreatedMovingPlatformNotifyOuterClass.UpdateAbilityCreatedMovingPlatformNotify.OpType.UNRECOGNIZED : result;
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 10;
+    public static final int ENTITY_ID_FIELD_NUMBER = 8;
     private int entityId_;
     /**
      * <code>uint32 entity_id = 10;</code>
@@ -295,10 +295,10 @@ public final class UpdateAbilityCreatedMovingPlatformNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (entityId_ != 0) {
-        output.writeUInt32(10, entityId_);
+        output.writeUInt32(8, entityId_);
       }
       if (opType_ != emu.grasscutter.net.proto.UpdateAbilityCreatedMovingPlatformNotifyOuterClass.UpdateAbilityCreatedMovingPlatformNotify.OpType.OP_TYPE_NONE.getNumber()) {
-        output.writeEnum(12, opType_);
+        output.writeEnum(4, opType_);
       }
       unknownFields.writeTo(output);
     }
@@ -311,11 +311,11 @@ public final class UpdateAbilityCreatedMovingPlatformNotifyOuterClass {
       size = 0;
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, entityId_);
+          .computeUInt32Size(8, entityId_);
       }
       if (opType_ != emu.grasscutter.net.proto.UpdateAbilityCreatedMovingPlatformNotifyOuterClass.UpdateAbilityCreatedMovingPlatformNotify.OpType.OP_TYPE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(12, opType_);
+          .computeEnumSize(4, opType_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

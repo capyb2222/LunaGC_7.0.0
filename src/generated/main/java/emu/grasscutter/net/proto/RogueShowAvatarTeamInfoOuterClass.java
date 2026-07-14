@@ -78,7 +78,7 @@ public final class RogueShowAvatarTeamInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 26: {
+            case 10: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 avatarList_ = new java.util.ArrayList<emu.grasscutter.net.proto.RogueAvatarInfoOuterClass.RogueAvatarInfo>();
                 mutable_bitField0_ |= 0x00000001;

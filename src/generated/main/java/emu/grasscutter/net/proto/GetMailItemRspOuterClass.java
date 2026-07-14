@@ -92,12 +92,12 @@ public final class GetMailItemRspOuterClass {
             case 0:
               done = true;
               break;
-            case 112: {
+            case 8: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 32: {
+            case 112: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 mailIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -105,7 +105,7 @@ public final class GetMailItemRspOuterClass {
               mailIdList_.addInt(input.readUInt32());
               break;
             }
-            case 34: {
+            case 114: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -118,7 +118,7 @@ public final class GetMailItemRspOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 74: {
+            case 82: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 itemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam>();
                 mutable_bitField0_ |= 0x00000002;
@@ -165,7 +165,7 @@ public final class GetMailItemRspOuterClass {
               emu.grasscutter.net.proto.GetMailItemRspOuterClass.GetMailItemRsp.class, emu.grasscutter.net.proto.GetMailItemRspOuterClass.GetMailItemRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 14;
+    public static final int RETCODE_FIELD_NUMBER = 1;
     private int retcode_;
 
     @java.lang.Override
@@ -173,7 +173,7 @@ public final class GetMailItemRspOuterClass {
       return retcode_;
     }
 
-    public static final int MAIL_ID_LIST_FIELD_NUMBER = 4;
+    public static final int MAIL_ID_LIST_FIELD_NUMBER = 14;
     private com.google.protobuf.Internal.IntList mailIdList_;
 
     @java.lang.Override
@@ -191,7 +191,7 @@ public final class GetMailItemRspOuterClass {
     }
     private int mailIdListMemoizedSerializedSize = -1;
 
-    public static final int ITEM_LIST_FIELD_NUMBER = 9;
+    public static final int ITEM_LIST_FIELD_NUMBER = 10;
     private java.util.List<emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam> itemList_;
 
     @java.lang.Override
@@ -237,17 +237,17 @@ public final class GetMailItemRspOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (retcode_ != 0) {
-        output.writeInt32(14, retcode_);
+        output.writeInt32(1, retcode_);
       }
       if (getMailIdListList().size() > 0) {
-        output.writeUInt32NoTag(34);
+        output.writeUInt32NoTag(114);
         output.writeUInt32NoTag(mailIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < mailIdList_.size(); i++) {
         output.writeUInt32NoTag(mailIdList_.getInt(i));
       }
       for (int i = 0; i < itemList_.size(); i++) {
-        output.writeMessage(9, itemList_.get(i));
+        output.writeMessage(10, itemList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -260,7 +260,7 @@ public final class GetMailItemRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(14, retcode_);
+          .computeInt32Size(1, retcode_);
       }
       {
         int dataSize = 0;
@@ -278,7 +278,7 @@ public final class GetMailItemRspOuterClass {
       }
       for (int i = 0; i < itemList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, itemList_.get(i));
+          .computeMessageSize(10, itemList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -87,7 +87,7 @@ public final class HomeGetArrangementInfoReqOuterClass {
             case 0:
               done = true;
               break;
-            case 120: {
+            case 24: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 sceneIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -95,7 +95,7 @@ public final class HomeGetArrangementInfoReqOuterClass {
               sceneIdList_.addInt(input.readUInt32());
               break;
             }
-            case 122: {
+            case 26: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -143,7 +143,7 @@ public final class HomeGetArrangementInfoReqOuterClass {
               emu.grasscutter.net.proto.HomeGetArrangementInfoReqOuterClass.HomeGetArrangementInfoReq.class, emu.grasscutter.net.proto.HomeGetArrangementInfoReqOuterClass.HomeGetArrangementInfoReq.Builder.class);
     }
 
-    public static final int SCENE_ID_LIST_FIELD_NUMBER = 15;
+    public static final int SCENE_ID_LIST_FIELD_NUMBER = 3;
     private com.google.protobuf.Internal.IntList sceneIdList_;
     /**
      * <code>repeated uint32 scene_id_list = 15;</code>
@@ -187,7 +187,7 @@ public final class HomeGetArrangementInfoReqOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getSceneIdListList().size() > 0) {
-        output.writeUInt32NoTag(122);
+        output.writeUInt32NoTag(26);
         output.writeUInt32NoTag(sceneIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < sceneIdList_.size(); i++) {

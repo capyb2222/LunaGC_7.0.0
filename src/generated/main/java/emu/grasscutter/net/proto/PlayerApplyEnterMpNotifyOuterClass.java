@@ -79,7 +79,7 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 26: {
+            case 122: {
               emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder subBuilder = null;
               if (srcPlayerInfo_ != null) {
                 subBuilder = srcPlayerInfo_.toBuilder();
@@ -92,17 +92,17 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
 
               break;
             }
-            case 48: {
+            case 88: {
 
               srcThreadIndex_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 64: {
 
               srcAppId_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 128000: {
 
               cHCHCMBDIOK_ = input.readBool();
               break;
@@ -139,7 +139,7 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
               emu.grasscutter.net.proto.PlayerApplyEnterMpNotifyOuterClass.PlayerApplyEnterMpNotify.class, emu.grasscutter.net.proto.PlayerApplyEnterMpNotifyOuterClass.PlayerApplyEnterMpNotify.Builder.class);
     }
 
-    public static final int SRC_PLAYER_INFO_FIELD_NUMBER = 1;
+    public static final int SRC_PLAYER_INFO_FIELD_NUMBER = 15;
     private emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo srcPlayerInfo_;
 
     @java.lang.Override
@@ -157,7 +157,7 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
       return getSrcPlayerInfo();
     }
 
-    public static final int CHCHCMBDIOK_FIELD_NUMBER = 15;
+    public static final int CHCHCMBDIOK_FIELD_NUMBER = 16000;
     private boolean cHCHCMBDIOK_;
 
     @java.lang.Override
@@ -165,7 +165,7 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
       return cHCHCMBDIOK_;
     }
 
-    public static final int SRC_APP_ID_FIELD_NUMBER = 9;
+    public static final int SRC_APP_ID_FIELD_NUMBER = 8;
     private int srcAppId_;
     /**
      * <code>uint32 src_app_id = 9;</code>
@@ -176,7 +176,7 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
       return srcAppId_;
     }
 
-    public static final int SRC_THREAD_INDEX_FIELD_NUMBER = 6;
+    public static final int SRC_THREAD_INDEX_FIELD_NUMBER = 11;
     private int srcThreadIndex_;
 
     @java.lang.Override
@@ -199,16 +199,16 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (srcPlayerInfo_ != null) {
-        output.writeMessage(3, getSrcPlayerInfo());
+        output.writeMessage(15, getSrcPlayerInfo());
       }
       if (srcThreadIndex_ != 0) {
-        output.writeUInt32(6, srcThreadIndex_);
+        output.writeUInt32(11, srcThreadIndex_);
       }
       if (srcAppId_ != 0) {
-        output.writeUInt32(9, srcAppId_);
+        output.writeUInt32(8, srcAppId_);
       }
       if (cHCHCMBDIOK_ != false) {
-        output.writeBool(15, cHCHCMBDIOK_);
+        output.writeBool(16000, cHCHCMBDIOK_);
       }
       unknownFields.writeTo(output);
     }
@@ -221,19 +221,19 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
       size = 0;
       if (srcPlayerInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, getSrcPlayerInfo());
+          .computeMessageSize(15, getSrcPlayerInfo());
       }
       if (srcThreadIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, srcThreadIndex_);
+          .computeUInt32Size(11, srcThreadIndex_);
       }
       if (srcAppId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, srcAppId_);
+          .computeUInt32Size(8, srcAppId_);
       }
       if (cHCHCMBDIOK_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, cHCHCMBDIOK_);
+          .computeBoolSize(16000, cHCHCMBDIOK_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

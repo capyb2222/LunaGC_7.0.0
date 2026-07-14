@@ -82,12 +82,12 @@ public final class SelectWorktopOptionReqOuterClass {
               hEBNJOABFOO_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 48: {
 
               gadgetEntityId_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 8: {
 
               optionId_ = input.readUInt32();
               break;
@@ -135,7 +135,7 @@ public final class SelectWorktopOptionReqOuterClass {
       return hEBNJOABFOO_;
     }
 
-    public static final int OPTION_ID_FIELD_NUMBER = 12;
+    public static final int OPTION_ID_FIELD_NUMBER = 1;
     private int optionId_;
 
     @java.lang.Override
@@ -143,7 +143,7 @@ public final class SelectWorktopOptionReqOuterClass {
       return optionId_;
     }
 
-    public static final int GADGET_ENTITY_ID_FIELD_NUMBER = 11;
+    public static final int GADGET_ENTITY_ID_FIELD_NUMBER = 6;
     private int gadgetEntityId_;
 
     @java.lang.Override
@@ -166,13 +166,13 @@ public final class SelectWorktopOptionReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (optionId_ != 0) {
-        output.writeUInt32(12, optionId_);
+        output.writeUInt32(1, optionId_);
       }
       if (hEBNJOABFOO_ != 0) {
         output.writeUInt32(7, hEBNJOABFOO_);
       }
       if (gadgetEntityId_ != 0) {
-        output.writeUInt32(11, gadgetEntityId_);
+        output.writeUInt32(6, gadgetEntityId_);
       }
       unknownFields.writeTo(output);
     }
@@ -185,7 +185,7 @@ public final class SelectWorktopOptionReqOuterClass {
       size = 0;
       if (optionId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, optionId_);
+          .computeUInt32Size(1, optionId_);
       }
       if (hEBNJOABFOO_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -193,7 +193,7 @@ public final class SelectWorktopOptionReqOuterClass {
       }
       if (gadgetEntityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, gadgetEntityId_);
+          .computeUInt32Size(6, gadgetEntityId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

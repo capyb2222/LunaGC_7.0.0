@@ -73,17 +73,17 @@ public final class WearEquipRspOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 72: {
 
               equipGuid_ = input.readUInt64();
               break;
             }
-            case 40: {
+            case 96: {
 
               avatarGuid_ = input.readUInt64();
               break;
             }
-            case 72: {
+            case 104: {
 
               retcode_ = input.readInt32();
               break;
@@ -120,7 +120,7 @@ public final class WearEquipRspOuterClass {
               emu.grasscutter.net.proto.WearEquipRspOuterClass.WearEquipRsp.class, emu.grasscutter.net.proto.WearEquipRspOuterClass.WearEquipRsp.Builder.class);
     }
 
-    public static final int EQUIP_GUID_FIELD_NUMBER = 11;
+    public static final int EQUIP_GUID_FIELD_NUMBER = 9;
     private long equipGuid_;
 
     @java.lang.Override
@@ -128,7 +128,7 @@ public final class WearEquipRspOuterClass {
       return equipGuid_;
     }
 
-    public static final int AVATAR_GUID_FIELD_NUMBER = 10;
+    public static final int AVATAR_GUID_FIELD_NUMBER = 12;
     private long avatarGuid_;
 
     @java.lang.Override
@@ -136,7 +136,7 @@ public final class WearEquipRspOuterClass {
       return avatarGuid_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 4;
+    public static final int RETCODE_FIELD_NUMBER = 13;
     private int retcode_;
 
     @java.lang.Override
@@ -159,13 +159,13 @@ public final class WearEquipRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (equipGuid_ != 0L) {
-        output.writeUInt64(11, equipGuid_);
+        output.writeUInt64(9, equipGuid_);
       }
       if (avatarGuid_ != 0L) {
-        output.writeUInt64(10, avatarGuid_);
+        output.writeUInt64(12, avatarGuid_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(4, retcode_);
+        output.writeInt32(13, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -178,15 +178,15 @@ public final class WearEquipRspOuterClass {
       size = 0;
       if (equipGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(11, equipGuid_);
+          .computeUInt64Size(9, equipGuid_);
       }
       if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(10, avatarGuid_);
+          .computeUInt64Size(12, avatarGuid_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(4, retcode_);
+          .computeInt32Size(13, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

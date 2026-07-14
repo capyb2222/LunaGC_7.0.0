@@ -71,12 +71,12 @@ public final class GachaTransferItemOuterClass {
             case 0:
               done = true;
               break;
-            case 80: {
+            case 8: {
 
               isTransferItemNew_ = input.readBool();
               break;
             }
-            case 90: {
+            case 34: {
               emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder subBuilder = null;
               if (item_ != null) {
                 subBuilder = item_.toBuilder();
@@ -121,7 +121,7 @@ public final class GachaTransferItemOuterClass {
               emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem.class, emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem.Builder.class);
     }
 
-    public static final int ITEM_FIELD_NUMBER = 8;
+    public static final int ITEM_FIELD_NUMBER = 4;
     private emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam item_;
 
     @java.lang.Override
@@ -165,7 +165,7 @@ public final class GachaTransferItemOuterClass {
         output.writeBool(1, isTransferItemNew_);
       }
       if (item_ != null) {
-        output.writeMessage(8, getItem());
+        output.writeMessage(4, getItem());
       }
       unknownFields.writeTo(output);
     }
@@ -182,7 +182,7 @@ public final class GachaTransferItemOuterClass {
       }
       if (item_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, getItem());
+          .computeMessageSize(4, getItem());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

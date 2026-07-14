@@ -87,7 +87,7 @@ public final class AvatarExpeditionCallBackReqOuterClass {
             case 0:
               done = true;
               break;
-            case 120: {
+            case 16: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 avatarGuid_ = newLongList();
                 mutable_bitField0_ |= 0x00000001;
@@ -95,7 +95,7 @@ public final class AvatarExpeditionCallBackReqOuterClass {
               avatarGuid_.addLong(input.readUInt64());
               break;
             }
-            case 122: {
+            case 18: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -143,7 +143,7 @@ public final class AvatarExpeditionCallBackReqOuterClass {
               emu.grasscutter.net.proto.AvatarExpeditionCallBackReqOuterClass.AvatarExpeditionCallBackReq.class, emu.grasscutter.net.proto.AvatarExpeditionCallBackReqOuterClass.AvatarExpeditionCallBackReq.Builder.class);
     }
 
-    public static final int AVATAR_GUID_FIELD_NUMBER = 15;
+    public static final int AVATAR_GUID_FIELD_NUMBER = 2;
     private com.google.protobuf.Internal.LongList avatarGuid_;
     /**
      * <code>repeated uint64 avatar_guid = 12;</code>
@@ -187,7 +187,7 @@ public final class AvatarExpeditionCallBackReqOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getAvatarGuidList().size() > 0) {
-        output.writeUInt32NoTag(122);
+        output.writeUInt32NoTag(18);
         output.writeUInt32NoTag(avatarGuidMemoizedSerializedSize);
       }
       for (int i = 0; i < avatarGuid_.size(); i++) {

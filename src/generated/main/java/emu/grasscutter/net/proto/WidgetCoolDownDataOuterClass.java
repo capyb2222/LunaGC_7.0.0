@@ -69,17 +69,17 @@ public final class WidgetCoolDownDataOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 40: {
 
               id_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 8: {
 
               isSuccess_ = input.readBool();
               break;
             }
-            case 112: {
+            case 56: {
 
               coolDownTime_ = input.readUInt64();
               break;
@@ -116,7 +116,7 @@ public final class WidgetCoolDownDataOuterClass {
               emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.class, emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.Builder.class);
     }
 
-    public static final int ID_FIELD_NUMBER = 3;
+    public static final int ID_FIELD_NUMBER = 5;
     private int id_;
 
     @java.lang.Override
@@ -124,7 +124,7 @@ public final class WidgetCoolDownDataOuterClass {
       return id_;
     }
 
-    public static final int IS_SUCCESS_FIELD_NUMBER = 10;
+    public static final int IS_SUCCESS_FIELD_NUMBER = 1;
     private boolean isSuccess_;
 
     @java.lang.Override
@@ -132,7 +132,7 @@ public final class WidgetCoolDownDataOuterClass {
       return isSuccess_;
     }
 
-    public static final int COOL_DOWN_TIME_FIELD_NUMBER = 14;
+    public static final int COOL_DOWN_TIME_FIELD_NUMBER = 7;
     private long coolDownTime_;
 
     @java.lang.Override
@@ -155,13 +155,13 @@ public final class WidgetCoolDownDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (id_ != 0) {
-        output.writeUInt32(3, id_);
+        output.writeUInt32(5, id_);
       }
       if (isSuccess_ != false) {
-        output.writeBool(10, isSuccess_);
+        output.writeBool(1, isSuccess_);
       }
       if (coolDownTime_ != 0L) {
-        output.writeUInt64(14, coolDownTime_);
+        output.writeUInt64(7, coolDownTime_);
       }
       unknownFields.writeTo(output);
     }
@@ -174,15 +174,15 @@ public final class WidgetCoolDownDataOuterClass {
       size = 0;
       if (id_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, id_);
+          .computeUInt32Size(5, id_);
       }
       if (isSuccess_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, isSuccess_);
+          .computeBoolSize(1, isSuccess_);
       }
       if (coolDownTime_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(14, coolDownTime_);
+          .computeUInt64Size(7, coolDownTime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

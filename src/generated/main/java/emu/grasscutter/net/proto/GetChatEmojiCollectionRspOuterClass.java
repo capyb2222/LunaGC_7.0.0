@@ -67,7 +67,7 @@ public final class GetChatEmojiCollectionRspOuterClass {
             case 0:
               done = true;
               break;
-            case 66: {
+            case 82: {
               emu.grasscutter.net.proto.ChatEmojiCollectionDataOuterClass.ChatEmojiCollectionData.Builder subBuilder = null;
               if (chatEmojiCollectionData_ != null) {
                 subBuilder = chatEmojiCollectionData_.toBuilder();
@@ -80,7 +80,7 @@ public final class GetChatEmojiCollectionRspOuterClass {
 
               break;
             }
-            case 56: {
+            case 16: {
 
               retcode_ = input.readInt32();
               break;
@@ -117,7 +117,7 @@ public final class GetChatEmojiCollectionRspOuterClass {
               emu.grasscutter.net.proto.GetChatEmojiCollectionRspOuterClass.GetChatEmojiCollectionRsp.class, emu.grasscutter.net.proto.GetChatEmojiCollectionRspOuterClass.GetChatEmojiCollectionRsp.Builder.class);
     }
 
-    public static final int CHAT_EMOJI_COLLECTION_DATA_FIELD_NUMBER = 8;
+    public static final int CHAT_EMOJI_COLLECTION_DATA_FIELD_NUMBER = 10;
     private emu.grasscutter.net.proto.ChatEmojiCollectionDataOuterClass.ChatEmojiCollectionData chatEmojiCollectionData_;
 
     @java.lang.Override
@@ -135,7 +135,7 @@ public final class GetChatEmojiCollectionRspOuterClass {
       return getChatEmojiCollectionData();
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 7;
+    public static final int RETCODE_FIELD_NUMBER = 2;
     private int retcode_;
 
     @java.lang.Override
@@ -158,10 +158,10 @@ public final class GetChatEmojiCollectionRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (chatEmojiCollectionData_ != null) {
-        output.writeMessage(8, getChatEmojiCollectionData());
+        output.writeMessage(10, getChatEmojiCollectionData());
       }
       if (retcode_ != 0) {
-        output.writeInt32(7, retcode_);
+        output.writeInt32(2, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -174,11 +174,11 @@ public final class GetChatEmojiCollectionRspOuterClass {
       size = 0;
       if (chatEmojiCollectionData_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, getChatEmojiCollectionData());
+          .computeMessageSize(10, getChatEmojiCollectionData());
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(7, retcode_);
+          .computeInt32Size(2, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

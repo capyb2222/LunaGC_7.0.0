@@ -126,7 +126,7 @@ public final class ToTheMoonObstacleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 26: {
+            case 42: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (halfExtents_ != null) {
                 subBuilder = halfExtents_.toBuilder();
@@ -139,7 +139,7 @@ public final class ToTheMoonObstacleInfoOuterClass {
 
               break;
             }
-            case 42: {
+            case 58: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (center_ != null) {
                 subBuilder = center_.toBuilder();
@@ -152,7 +152,7 @@ public final class ToTheMoonObstacleInfoOuterClass {
 
               break;
             }
-            case 74: {
+            case 90: {
               emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.Builder subBuilder = null;
               if (rotation_ != null) {
                 subBuilder = rotation_.toBuilder();
@@ -165,12 +165,12 @@ public final class ToTheMoonObstacleInfoOuterClass {
 
               break;
             }
-            case 88: {
+            case 48: {
 
               handleId_ = input.readInt32();
               break;
             }
-            case 112: {
+            case 72: {
               int rawValue = input.readEnum();
 
               type_ = rawValue;
@@ -208,7 +208,7 @@ public final class ToTheMoonObstacleInfoOuterClass {
               emu.grasscutter.net.proto.ToTheMoonObstacleInfoOuterClass.ToTheMoonObstacleInfo.class, emu.grasscutter.net.proto.ToTheMoonObstacleInfoOuterClass.ToTheMoonObstacleInfo.Builder.class);
     }
 
-    public static final int CENTER_FIELD_NUMBER = 5;
+    public static final int CENTER_FIELD_NUMBER = 7;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector center_;
     /**
      * <code>.Vector center = 5;</code>
@@ -234,7 +234,7 @@ public final class ToTheMoonObstacleInfoOuterClass {
       return getCenter();
     }
 
-    public static final int ROTATION_FIELD_NUMBER = 9;
+    public static final int ROTATION_FIELD_NUMBER = 11;
     private emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion rotation_;
     /**
      * <code>.MathQuaternion rotation = 9;</code>
@@ -260,7 +260,7 @@ public final class ToTheMoonObstacleInfoOuterClass {
       return getRotation();
     }
 
-    public static final int HALF_EXTENTS_FIELD_NUMBER = 3;
+    public static final int HALF_EXTENTS_FIELD_NUMBER = 5;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector halfExtents_;
     /**
      * <code>.Vector half_extents = 3;</code>
@@ -286,7 +286,7 @@ public final class ToTheMoonObstacleInfoOuterClass {
       return getHalfExtents();
     }
 
-    public static final int TYPE_FIELD_NUMBER = 14;
+    public static final int TYPE_FIELD_NUMBER = 9;
     private int type_;
     /**
      * <code>.ShapeType type = 14;</code>
@@ -305,7 +305,7 @@ public final class ToTheMoonObstacleInfoOuterClass {
       return result == null ? emu.grasscutter.net.proto.ShapeTypeOuterClass.ShapeType.UNRECOGNIZED : result;
     }
 
-    public static final int HANDLE_ID_FIELD_NUMBER = 11;
+    public static final int HANDLE_ID_FIELD_NUMBER = 6;
     private int handleId_;
     /**
      * <code>int32 handle_id = 11;</code>
@@ -331,19 +331,19 @@ public final class ToTheMoonObstacleInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (halfExtents_ != null) {
-        output.writeMessage(3, getHalfExtents());
+        output.writeMessage(5, getHalfExtents());
       }
       if (center_ != null) {
-        output.writeMessage(5, getCenter());
+        output.writeMessage(7, getCenter());
       }
       if (rotation_ != null) {
-        output.writeMessage(9, getRotation());
+        output.writeMessage(11, getRotation());
       }
       if (handleId_ != 0) {
-        output.writeInt32(11, handleId_);
+        output.writeInt32(6, handleId_);
       }
       if (type_ != emu.grasscutter.net.proto.ShapeTypeOuterClass.ShapeType.ShapeType_OBSTACLE_SHAPE_CAPSULE.getNumber()) {
-        output.writeEnum(14, type_);
+        output.writeEnum(9, type_);
       }
       unknownFields.writeTo(output);
     }
@@ -356,23 +356,23 @@ public final class ToTheMoonObstacleInfoOuterClass {
       size = 0;
       if (halfExtents_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, getHalfExtents());
+          .computeMessageSize(5, getHalfExtents());
       }
       if (center_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, getCenter());
+          .computeMessageSize(7, getCenter());
       }
       if (rotation_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, getRotation());
+          .computeMessageSize(11, getRotation());
       }
       if (handleId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(11, handleId_);
+          .computeInt32Size(6, handleId_);
       }
       if (type_ != emu.grasscutter.net.proto.ShapeTypeOuterClass.ShapeType.ShapeType_OBSTACLE_SHAPE_CAPSULE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(14, type_);
+          .computeEnumSize(9, type_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

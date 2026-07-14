@@ -81,7 +81,7 @@ public final class HitTreeNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 66: {
+            case 34: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (dropPos_ != null) {
                 subBuilder = dropPos_.toBuilder();
@@ -94,7 +94,7 @@ public final class HitTreeNotifyOuterClass {
 
               break;
             }
-            case 98: {
+            case 74: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (treePos_ != null) {
                 subBuilder = treePos_.toBuilder();
@@ -107,7 +107,7 @@ public final class HitTreeNotifyOuterClass {
 
               break;
             }
-            case 120: {
+            case 104: {
 
               treeType_ = input.readUInt32();
               break;
@@ -144,7 +144,7 @@ public final class HitTreeNotifyOuterClass {
               emu.grasscutter.net.proto.HitTreeNotifyOuterClass.HitTreeNotify.class, emu.grasscutter.net.proto.HitTreeNotifyOuterClass.HitTreeNotify.Builder.class);
     }
 
-    public static final int DROP_POS_FIELD_NUMBER = 8;
+    public static final int DROP_POS_FIELD_NUMBER = 4;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector dropPos_;
 
     @java.lang.Override
@@ -162,7 +162,7 @@ public final class HitTreeNotifyOuterClass {
       return getDropPos();
     }
 
-    public static final int TREE_POS_FIELD_NUMBER = 12;
+    public static final int TREE_POS_FIELD_NUMBER = 9;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector treePos_;
 
     @java.lang.Override
@@ -180,7 +180,7 @@ public final class HitTreeNotifyOuterClass {
       return getTreePos();
     }
 
-    public static final int TREE_TYPE_FIELD_NUMBER = 15;
+    public static final int TREE_TYPE_FIELD_NUMBER = 13;
     private int treeType_;
 
     @java.lang.Override
@@ -203,13 +203,13 @@ public final class HitTreeNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (dropPos_ != null) {
-        output.writeMessage(8, getDropPos());
+        output.writeMessage(4, getDropPos());
       }
       if (treePos_ != null) {
-        output.writeMessage(12, getTreePos());
+        output.writeMessage(9, getTreePos());
       }
       if (treeType_ != 0) {
-        output.writeUInt32(15, treeType_);
+        output.writeUInt32(13, treeType_);
       }
       unknownFields.writeTo(output);
     }
@@ -222,15 +222,15 @@ public final class HitTreeNotifyOuterClass {
       size = 0;
       if (dropPos_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, getDropPos());
+          .computeMessageSize(4, getDropPos());
       }
       if (treePos_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, getTreePos());
+          .computeMessageSize(9, getTreePos());
       }
       if (treeType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, treeType_);
+          .computeUInt32Size(13, treeType_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

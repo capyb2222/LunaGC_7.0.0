@@ -80,12 +80,12 @@ public final class BargainOfferPriceReqOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 104: {
 
               bargainId_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 72: {
 
               price_ = input.readUInt32();
               break;
@@ -122,7 +122,7 @@ public final class BargainOfferPriceReqOuterClass {
               emu.grasscutter.net.proto.BargainOfferPriceReqOuterClass.BargainOfferPriceReq.class, emu.grasscutter.net.proto.BargainOfferPriceReqOuterClass.BargainOfferPriceReq.Builder.class);
     }
 
-    public static final int BARGAIN_ID_FIELD_NUMBER = 3;
+    public static final int BARGAIN_ID_FIELD_NUMBER = 13;
     private int bargainId_;
     /**
      * <code>uint32 bargain_id = 3;</code>
@@ -133,7 +133,7 @@ public final class BargainOfferPriceReqOuterClass {
       return bargainId_;
     }
 
-    public static final int PRICE_FIELD_NUMBER = 15;
+    public static final int PRICE_FIELD_NUMBER = 9;
     private int price_;
     /**
      * <code>uint32 price = 15;</code>
@@ -159,10 +159,10 @@ public final class BargainOfferPriceReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (bargainId_ != 0) {
-        output.writeUInt32(3, bargainId_);
+        output.writeUInt32(13, bargainId_);
       }
       if (price_ != 0) {
-        output.writeUInt32(15, price_);
+        output.writeUInt32(9, price_);
       }
       unknownFields.writeTo(output);
     }
@@ -175,11 +175,11 @@ public final class BargainOfferPriceReqOuterClass {
       size = 0;
       if (bargainId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, bargainId_);
+          .computeUInt32Size(13, bargainId_);
       }
       if (price_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, price_);
+          .computeUInt32Size(9, price_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

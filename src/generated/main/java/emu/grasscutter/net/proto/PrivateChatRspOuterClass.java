@@ -80,12 +80,12 @@ public final class PrivateChatRspOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 104: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 112: {
+            case 72: {
 
               chatForbiddenEndtime_ = input.readUInt32();
               break;
@@ -122,7 +122,7 @@ public final class PrivateChatRspOuterClass {
               emu.grasscutter.net.proto.PrivateChatRspOuterClass.PrivateChatRsp.class, emu.grasscutter.net.proto.PrivateChatRspOuterClass.PrivateChatRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 4;
+    public static final int RETCODE_FIELD_NUMBER = 13;
     private int retcode_;
     /**
      * <code>int32 retcode = 2;</code>
@@ -133,7 +133,7 @@ public final class PrivateChatRspOuterClass {
       return retcode_;
     }
 
-    public static final int CHAT_FORBIDDEN_ENDTIME_FIELD_NUMBER = 14;
+    public static final int CHAT_FORBIDDEN_ENDTIME_FIELD_NUMBER = 9;
     private int chatForbiddenEndtime_;
     /**
      * <code>uint32 chat_forbidden_endtime = 5;</code>
@@ -159,10 +159,10 @@ public final class PrivateChatRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(4, retcode_);
+        output.writeInt32(13, retcode_);
       }
       if (chatForbiddenEndtime_ != 0) {
-        output.writeUInt32(14, chatForbiddenEndtime_);
+        output.writeUInt32(9, chatForbiddenEndtime_);
       }
       unknownFields.writeTo(output);
     }
@@ -175,11 +175,11 @@ public final class PrivateChatRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(4, retcode_);
+          .computeInt32Size(13, retcode_);
       }
       if (chatForbiddenEndtime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, chatForbiddenEndtime_);
+          .computeUInt32Size(9, chatForbiddenEndtime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

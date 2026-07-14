@@ -67,12 +67,12 @@ public final class AsterProgressDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 40: {
 
               count_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 48: {
 
               lastAutoAddTime_ = input.readUInt32();
               break;
@@ -109,7 +109,7 @@ public final class AsterProgressDetailInfoOuterClass {
               emu.grasscutter.net.proto.AsterProgressDetailInfoOuterClass.AsterProgressDetailInfo.class, emu.grasscutter.net.proto.AsterProgressDetailInfoOuterClass.AsterProgressDetailInfo.Builder.class);
     }
 
-    public static final int COUNT_FIELD_NUMBER = 8;
+    public static final int COUNT_FIELD_NUMBER = 5;
     private int count_;
 
     @java.lang.Override
@@ -117,7 +117,7 @@ public final class AsterProgressDetailInfoOuterClass {
       return count_;
     }
 
-    public static final int LAST_AUTO_ADD_TIME_FIELD_NUMBER = 13;
+    public static final int LAST_AUTO_ADD_TIME_FIELD_NUMBER = 6;
     private int lastAutoAddTime_;
 
     @java.lang.Override
@@ -140,10 +140,10 @@ public final class AsterProgressDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (count_ != 0) {
-        output.writeUInt32(8, count_);
+        output.writeUInt32(5, count_);
       }
       if (lastAutoAddTime_ != 0) {
-        output.writeUInt32(13, lastAutoAddTime_);
+        output.writeUInt32(6, lastAutoAddTime_);
       }
       unknownFields.writeTo(output);
     }
@@ -156,11 +156,11 @@ public final class AsterProgressDetailInfoOuterClass {
       size = 0;
       if (count_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, count_);
+          .computeUInt32Size(5, count_);
       }
       if (lastAutoAddTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, lastAutoAddTime_);
+          .computeUInt32Size(6, lastAutoAddTime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

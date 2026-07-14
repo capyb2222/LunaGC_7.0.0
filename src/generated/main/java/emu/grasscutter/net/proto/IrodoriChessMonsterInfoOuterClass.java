@@ -104,7 +104,7 @@ public final class IrodoriChessMonsterInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 80: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 affixList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -112,7 +112,7 @@ public final class IrodoriChessMonsterInfoOuterClass {
               affixList_.addInt(input.readUInt32());
               break;
             }
-            case 50: {
+            case 82: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -125,17 +125,17 @@ public final class IrodoriChessMonsterInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 56: {
+            case 72: {
 
               monsterId_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 64: {
 
               level_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 120: {
 
               grantPoints_ = input.readUInt32();
               break;
@@ -175,7 +175,7 @@ public final class IrodoriChessMonsterInfoOuterClass {
               emu.grasscutter.net.proto.IrodoriChessMonsterInfoOuterClass.IrodoriChessMonsterInfo.class, emu.grasscutter.net.proto.IrodoriChessMonsterInfoOuterClass.IrodoriChessMonsterInfo.Builder.class);
     }
 
-    public static final int MONSTER_ID_FIELD_NUMBER = 4;
+    public static final int MONSTER_ID_FIELD_NUMBER = 9;
     private int monsterId_;
     /**
      * <code>uint32 monster_id = 7;</code>
@@ -186,7 +186,7 @@ public final class IrodoriChessMonsterInfoOuterClass {
       return monsterId_;
     }
 
-    public static final int AFFIX_LIST_FIELD_NUMBER = 12;
+    public static final int AFFIX_LIST_FIELD_NUMBER = 10;
     private com.google.protobuf.Internal.IntList affixList_;
     /**
      * <code>repeated uint32 affix_list = 6;</code>
@@ -214,7 +214,7 @@ public final class IrodoriChessMonsterInfoOuterClass {
     }
     private int affixListMemoizedSerializedSize = -1;
 
-    public static final int LEVEL_FIELD_NUMBER = 13;
+    public static final int LEVEL_FIELD_NUMBER = 8;
     private int level_;
     /**
      * <code>uint32 level = 9;</code>
@@ -225,7 +225,7 @@ public final class IrodoriChessMonsterInfoOuterClass {
       return level_;
     }
 
-    public static final int GRANT_POINTS_FIELD_NUMBER = 5;
+    public static final int GRANT_POINTS_FIELD_NUMBER = 15;
     private int grantPoints_;
     /**
      * <code>uint32 grant_points = 13;</code>
@@ -252,20 +252,20 @@ public final class IrodoriChessMonsterInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getAffixListList().size() > 0) {
-        output.writeUInt32NoTag(50);
+        output.writeUInt32NoTag(82);
         output.writeUInt32NoTag(affixListMemoizedSerializedSize);
       }
       for (int i = 0; i < affixList_.size(); i++) {
         output.writeUInt32NoTag(affixList_.getInt(i));
       }
       if (monsterId_ != 0) {
-        output.writeUInt32(4, monsterId_);
+        output.writeUInt32(9, monsterId_);
       }
       if (level_ != 0) {
-        output.writeUInt32(13, level_);
+        output.writeUInt32(8, level_);
       }
       if (grantPoints_ != 0) {
-        output.writeUInt32(5, grantPoints_);
+        output.writeUInt32(15, grantPoints_);
       }
       unknownFields.writeTo(output);
     }
@@ -292,15 +292,15 @@ public final class IrodoriChessMonsterInfoOuterClass {
       }
       if (monsterId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, monsterId_);
+          .computeUInt32Size(9, monsterId_);
       }
       if (level_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, level_);
+          .computeUInt32Size(8, level_);
       }
       if (grantPoints_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, grantPoints_);
+          .computeUInt32Size(15, grantPoints_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

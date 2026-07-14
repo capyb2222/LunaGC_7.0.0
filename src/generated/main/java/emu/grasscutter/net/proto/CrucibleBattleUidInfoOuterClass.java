@@ -120,18 +120,18 @@ public final class CrucibleBattleUidInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 32: {
 
               uid_ = input.readUInt32();
               break;
             }
-            case 34: {
+            case 18: {
               java.lang.String s = input.readStringRequireUtf8();
 
               onlineId_ = s;
               break;
             }
-            case 50: {
+            case 66: {
               emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder subBuilder = null;
               if (profilePicture_ != null) {
                 subBuilder = profilePicture_.toBuilder();
@@ -144,7 +144,7 @@ public final class CrucibleBattleUidInfoOuterClass {
 
               break;
             }
-            case 82: {
+            case 10: {
               java.lang.String s = input.readStringRequireUtf8();
 
               nickname_ = s;
@@ -187,7 +187,7 @@ public final class CrucibleBattleUidInfoOuterClass {
               emu.grasscutter.net.proto.CrucibleBattleUidInfoOuterClass.CrucibleBattleUidInfo.class, emu.grasscutter.net.proto.CrucibleBattleUidInfoOuterClass.CrucibleBattleUidInfo.Builder.class);
     }
 
-    public static final int UID_FIELD_NUMBER = 15;
+    public static final int UID_FIELD_NUMBER = 4;
     private int uid_;
     /**
      * <code>uint32 uid = 3;</code>
@@ -198,7 +198,7 @@ public final class CrucibleBattleUidInfoOuterClass {
       return uid_;
     }
 
-    public static final int ONLINE_ID_FIELD_NUMBER = 10;
+    public static final int ONLINE_ID_FIELD_NUMBER = 2;
     private volatile java.lang.Object onlineId_;
     /**
      * <code>string online_id = 4;</code>
@@ -236,7 +236,7 @@ public final class CrucibleBattleUidInfoOuterClass {
       }
     }
 
-    public static final int ICON_FIELD_NUMBER = 1;
+    public static final int ICON_FIELD_NUMBER = 14;
     private int icon_;
     /**
      * <code>uint32 icon = 14;</code>
@@ -247,7 +247,7 @@ public final class CrucibleBattleUidInfoOuterClass {
       return icon_;
     }
 
-    public static final int NICKNAME_FIELD_NUMBER = 3;
+    public static final int NICKNAME_FIELD_NUMBER = 1;
     private volatile java.lang.Object nickname_;
     /**
      * <code>string nickname = 10;</code>
@@ -285,7 +285,7 @@ public final class CrucibleBattleUidInfoOuterClass {
       }
     }
 
-    public static final int PROFILE_PICTURE_FIELD_NUMBER = 9;
+    public static final int PROFILE_PICTURE_FIELD_NUMBER = 8;
     private emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture profilePicture_;
     /**
      * <code>.ProfilePicture profile_picture = 6;</code>
@@ -326,19 +326,19 @@ public final class CrucibleBattleUidInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (uid_ != 0) {
-        output.writeUInt32(15, uid_);
+        output.writeUInt32(4, uid_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(onlineId_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 4, onlineId_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 2, onlineId_);
       }
       if (profilePicture_ != null) {
-        output.writeMessage(6, getProfilePicture());
+        output.writeMessage(8, getProfilePicture());
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(nickname_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 10, nickname_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 1, nickname_);
       }
       if (icon_ != 0) {
-        output.writeUInt32(1, icon_);
+        output.writeUInt32(14, icon_);
       }
       unknownFields.writeTo(output);
     }
@@ -351,21 +351,21 @@ public final class CrucibleBattleUidInfoOuterClass {
       size = 0;
       if (uid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, uid_);
+          .computeUInt32Size(4, uid_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(onlineId_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(10, onlineId_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(2, onlineId_);
       }
       if (profilePicture_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, getProfilePicture());
+          .computeMessageSize(8, getProfilePicture());
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(nickname_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(3, nickname_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, nickname_);
       }
       if (icon_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, icon_);
+          .computeUInt32Size(14, icon_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -98,7 +98,7 @@ public final class BattlePassAllDataNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 34: {
+            case 42: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 missionList_ = new java.util.ArrayList<emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission>();
                 mutable_bitField0_ |= 0x00000001;
@@ -107,7 +107,7 @@ public final class BattlePassAllDataNotifyOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission.parser(), extensionRegistry));
               break;
             }
-            case 98: {
+            case 26: {
               emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule.Builder subBuilder = null;
               if (curSchedule_ != null) {
                 subBuilder = curSchedule_.toBuilder();
@@ -120,12 +120,12 @@ public final class BattlePassAllDataNotifyOuterClass {
 
               break;
             }
-            case 80: {
+            case 96: {
 
               haveCurSchedule_ = input.readBool();
               break;
             }
-            case 24: {
+            case 80: {
 
               isViewed_ = input.readBool();
               break;
@@ -170,7 +170,7 @@ public final class BattlePassAllDataNotifyOuterClass {
               emu.grasscutter.net.proto.BattlePassAllDataNotifyOuterClass.BattlePassAllDataNotify.class, emu.grasscutter.net.proto.BattlePassAllDataNotifyOuterClass.BattlePassAllDataNotify.Builder.class);
     }
 
-    public static final int MISSION_LIST_FIELD_NUMBER = 4;
+    public static final int MISSION_LIST_FIELD_NUMBER = 5;
     private java.util.List<emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission> missionList_;
 
     @java.lang.Override
@@ -200,7 +200,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       return missionList_.get(index);
     }
 
-    public static final int CUR_SCHEDULE_FIELD_NUMBER = 12;
+    public static final int CUR_SCHEDULE_FIELD_NUMBER = 3;
     private emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule curSchedule_;
 
     @java.lang.Override
@@ -218,7 +218,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       return getCurSchedule();
     }
 
-    public static final int HAVE_CUR_SCHEDULE_FIELD_NUMBER = 10;
+    public static final int HAVE_CUR_SCHEDULE_FIELD_NUMBER = 12;
     private boolean haveCurSchedule_;
 
     @java.lang.Override
@@ -226,7 +226,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       return haveCurSchedule_;
     }
 
-    public static final int IS_VIEWED_FIELD_NUMBER = 3;
+    public static final int IS_VIEWED_FIELD_NUMBER = 10;
     private boolean isViewed_;
 
     @java.lang.Override
@@ -260,19 +260,19 @@ public final class BattlePassAllDataNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isViewed_ != false) {
-        output.writeBool(3, isViewed_);
+        output.writeBool(10, isViewed_);
       }
       for (int i = 0; i < missionList_.size(); i++) {
-        output.writeMessage(4, missionList_.get(i));
+        output.writeMessage(5, missionList_.get(i));
       }
       if (haveCurSchedule_ != false) {
-        output.writeBool(10, haveCurSchedule_);
+        output.writeBool(12, haveCurSchedule_);
       }
       if (rewardType_ != 0) {
         output.writeUInt32(13, rewardType_);
       }
       if (curSchedule_ != null) {
-        output.writeMessage(12, getCurSchedule());
+        output.writeMessage(3, getCurSchedule());
       }
       unknownFields.writeTo(output);
     }
@@ -285,15 +285,15 @@ public final class BattlePassAllDataNotifyOuterClass {
       size = 0;
       if (isViewed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, isViewed_);
+          .computeBoolSize(10, isViewed_);
       }
       for (int i = 0; i < missionList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, missionList_.get(i));
+          .computeMessageSize(5, missionList_.get(i));
       }
       if (haveCurSchedule_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, haveCurSchedule_);
+          .computeBoolSize(12, haveCurSchedule_);
       }
       if (rewardType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -301,7 +301,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       if (curSchedule_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, getCurSchedule());
+          .computeMessageSize(3, getCurSchedule());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

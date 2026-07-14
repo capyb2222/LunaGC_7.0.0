@@ -85,17 +85,17 @@ public final class LanternRiteFireworksChallengeInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 80: {
 
               bestScore_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 64: {
 
               challengeId_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 88: {
 
               isFullScore_ = input.readBool();
               break;
@@ -132,7 +132,7 @@ public final class LanternRiteFireworksChallengeInfoOuterClass {
               emu.grasscutter.net.proto.LanternRiteFireworksChallengeInfoOuterClass.LanternRiteFireworksChallengeInfo.class, emu.grasscutter.net.proto.LanternRiteFireworksChallengeInfoOuterClass.LanternRiteFireworksChallengeInfo.Builder.class);
     }
 
-    public static final int IS_FULL_SCORE_FIELD_NUMBER = 13;
+    public static final int IS_FULL_SCORE_FIELD_NUMBER = 11;
     private boolean isFullScore_;
     /**
      * <code>bool is_full_score = 13;</code>
@@ -143,7 +143,7 @@ public final class LanternRiteFireworksChallengeInfoOuterClass {
       return isFullScore_;
     }
 
-    public static final int CHALLENGE_ID_FIELD_NUMBER = 12;
+    public static final int CHALLENGE_ID_FIELD_NUMBER = 8;
     private int challengeId_;
     /**
      * <code>uint32 challenge_id = 12;</code>
@@ -154,7 +154,7 @@ public final class LanternRiteFireworksChallengeInfoOuterClass {
       return challengeId_;
     }
 
-    public static final int BEST_SCORE_FIELD_NUMBER = 1;
+    public static final int BEST_SCORE_FIELD_NUMBER = 10;
     private int bestScore_;
     /**
      * <code>uint32 best_score = 1;</code>
@@ -180,13 +180,13 @@ public final class LanternRiteFireworksChallengeInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (bestScore_ != 0) {
-        output.writeUInt32(1, bestScore_);
+        output.writeUInt32(10, bestScore_);
       }
       if (challengeId_ != 0) {
-        output.writeUInt32(12, challengeId_);
+        output.writeUInt32(8, challengeId_);
       }
       if (isFullScore_ != false) {
-        output.writeBool(13, isFullScore_);
+        output.writeBool(11, isFullScore_);
       }
       unknownFields.writeTo(output);
     }
@@ -199,15 +199,15 @@ public final class LanternRiteFireworksChallengeInfoOuterClass {
       size = 0;
       if (bestScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, bestScore_);
+          .computeUInt32Size(10, bestScore_);
       }
       if (challengeId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, challengeId_);
+          .computeUInt32Size(8, challengeId_);
       }
       if (isFullScore_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, isFullScore_);
+          .computeBoolSize(11, isFullScore_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -79,12 +79,12 @@ public final class ChallengeBriefOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 56: {
 
               curProgress_ = input.readUInt32();
               break;
             }
-            case 56: {
+            case 8: {
 
               isSuccess_ = input.readBool();
               break;
@@ -161,7 +161,7 @@ public final class ChallengeBriefOuterClass {
       return curProgress_;
     }
 
-    public static final int IS_SUCCESS_FIELD_NUMBER = 6;
+    public static final int IS_SUCCESS_FIELD_NUMBER = 1;
     private boolean isSuccess_;
 
     @java.lang.Override
@@ -187,7 +187,7 @@ public final class ChallengeBriefOuterClass {
         output.writeUInt32(7, curProgress_);
       }
       if (isSuccess_ != false) {
-        output.writeBool(6, isSuccess_);
+        output.writeBool(1, isSuccess_);
       }
       if (oDJLLLPLBHE_ != 0) {
         output.writeUInt32(32570, oDJLLLPLBHE_);
@@ -210,7 +210,7 @@ public final class ChallengeBriefOuterClass {
       }
       if (isSuccess_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, isSuccess_);
+          .computeBoolSize(1, isSuccess_);
       }
       if (oDJLLLPLBHE_ != 0) {
         size += com.google.protobuf.CodedOutputStream

@@ -93,7 +93,7 @@ public final class GetSceneAreaRspOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 112: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 areaIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -101,7 +101,7 @@ public final class GetSceneAreaRspOuterClass {
               areaIdList_.addInt(input.readUInt32());
               break;
             }
-            case 26: {
+            case 114: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -114,7 +114,7 @@ public final class GetSceneAreaRspOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 74: {
+            case 106: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 cityInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.CityInfoOuterClass.CityInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -123,12 +123,12 @@ public final class GetSceneAreaRspOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.CityInfoOuterClass.CityInfo.parser(), extensionRegistry));
               break;
             }
-            case 80: {
+            case 32: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 104: {
+            case 80: {
 
               sceneId_ = input.readUInt32();
               break;
@@ -171,7 +171,7 @@ public final class GetSceneAreaRspOuterClass {
               emu.grasscutter.net.proto.GetSceneAreaRspOuterClass.GetSceneAreaRsp.class, emu.grasscutter.net.proto.GetSceneAreaRspOuterClass.GetSceneAreaRsp.Builder.class);
     }
 
-    public static final int CITY_INFO_LIST_FIELD_NUMBER = 9;
+    public static final int CITY_INFO_LIST_FIELD_NUMBER = 13;
     private java.util.List<emu.grasscutter.net.proto.CityInfoOuterClass.CityInfo> cityInfoList_;
 
     @java.lang.Override
@@ -201,7 +201,7 @@ public final class GetSceneAreaRspOuterClass {
       return cityInfoList_.get(index);
     }
 
-    public static final int AREA_ID_LIST_FIELD_NUMBER = 3;
+    public static final int AREA_ID_LIST_FIELD_NUMBER = 14;
     private com.google.protobuf.Internal.IntList areaIdList_;
 
     @java.lang.Override
@@ -219,7 +219,7 @@ public final class GetSceneAreaRspOuterClass {
     }
     private int areaIdListMemoizedSerializedSize = -1;
 
-    public static final int SCENE_ID_FIELD_NUMBER = 13;
+    public static final int SCENE_ID_FIELD_NUMBER = 10;
     private int sceneId_;
 
     @java.lang.Override
@@ -227,7 +227,7 @@ public final class GetSceneAreaRspOuterClass {
       return sceneId_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 10;
+    public static final int RETCODE_FIELD_NUMBER = 4;
     private int retcode_;
 
     @java.lang.Override
@@ -251,16 +251,16 @@ public final class GetSceneAreaRspOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (sceneId_ != 0) {
-        output.writeUInt32(13, sceneId_);
+        output.writeUInt32(10, sceneId_);
       }
       for (int i = 0; i < cityInfoList_.size(); i++) {
-        output.writeMessage(9, cityInfoList_.get(i));
+        output.writeMessage(13, cityInfoList_.get(i));
       }
       if (retcode_ != 0) {
-        output.writeInt32(10, retcode_);
+        output.writeInt32(4, retcode_);
       }
       if (getAreaIdListList().size() > 0) {
-        output.writeUInt32NoTag(26);
+        output.writeUInt32NoTag(114);
         output.writeUInt32NoTag(areaIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < areaIdList_.size(); i++) {
@@ -277,15 +277,15 @@ public final class GetSceneAreaRspOuterClass {
       size = 0;
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, sceneId_);
+          .computeUInt32Size(10, sceneId_);
       }
       for (int i = 0; i < cityInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, cityInfoList_.get(i));
+          .computeMessageSize(13, cityInfoList_.get(i));
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(10, retcode_);
+          .computeInt32Size(4, retcode_);
       }
       {
         int dataSize = 0;

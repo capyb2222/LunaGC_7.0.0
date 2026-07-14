@@ -69,7 +69,7 @@ public final class AvatarPromoteReqOuterClass {
             case 0:
               done = true;
               break;
-            case 120: {
+            case 56: {
 
               guid_ = input.readUInt64();
               break;
@@ -106,7 +106,7 @@ public final class AvatarPromoteReqOuterClass {
               emu.grasscutter.net.proto.AvatarPromoteReqOuterClass.AvatarPromoteReq.class, emu.grasscutter.net.proto.AvatarPromoteReqOuterClass.AvatarPromoteReq.Builder.class);
     }
 
-    public static final int GUID_FIELD_NUMBER = 15;
+    public static final int GUID_FIELD_NUMBER = 7;
     private long guid_;
 
     @java.lang.Override
@@ -129,7 +129,7 @@ public final class AvatarPromoteReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (guid_ != 0L) {
-        output.writeUInt64(15, guid_);
+        output.writeUInt64(7, guid_);
       }
       unknownFields.writeTo(output);
     }
@@ -142,7 +142,7 @@ public final class AvatarPromoteReqOuterClass {
       size = 0;
       if (guid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(15, guid_);
+          .computeUInt64Size(7, guid_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

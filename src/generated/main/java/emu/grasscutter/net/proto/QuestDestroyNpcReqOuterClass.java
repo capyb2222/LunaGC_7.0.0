@@ -71,12 +71,12 @@ public final class QuestDestroyNpcReqOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 80: {
 
               npcId_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 64: {
 
               parentQuestId_ = input.readUInt32();
               break;
@@ -113,7 +113,7 @@ public final class QuestDestroyNpcReqOuterClass {
               emu.grasscutter.net.proto.QuestDestroyNpcReqOuterClass.QuestDestroyNpcReq.class, emu.grasscutter.net.proto.QuestDestroyNpcReqOuterClass.QuestDestroyNpcReq.Builder.class);
     }
 
-    public static final int NPC_ID_FIELD_NUMBER = 4;
+    public static final int NPC_ID_FIELD_NUMBER = 10;
     private int npcId_;
 
     @java.lang.Override
@@ -121,7 +121,7 @@ public final class QuestDestroyNpcReqOuterClass {
       return npcId_;
     }
 
-    public static final int PARENT_QUEST_ID_FIELD_NUMBER = 9;
+    public static final int PARENT_QUEST_ID_FIELD_NUMBER = 8;
     private int parentQuestId_;
 
     @java.lang.Override
@@ -144,10 +144,10 @@ public final class QuestDestroyNpcReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (npcId_ != 0) {
-        output.writeUInt32(4, npcId_);
+        output.writeUInt32(10, npcId_);
       }
       if (parentQuestId_ != 0) {
-        output.writeUInt32(9, parentQuestId_);
+        output.writeUInt32(8, parentQuestId_);
       }
       unknownFields.writeTo(output);
     }
@@ -160,11 +160,11 @@ public final class QuestDestroyNpcReqOuterClass {
       size = 0;
       if (npcId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, npcId_);
+          .computeUInt32Size(10, npcId_);
       }
       if (parentQuestId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, parentQuestId_);
+          .computeUInt32Size(8, parentQuestId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

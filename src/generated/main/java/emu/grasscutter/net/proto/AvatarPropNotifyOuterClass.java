@@ -91,7 +91,7 @@ public final class AvatarPropNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 26: {
+            case 66: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 propMap_ = com.google.protobuf.MapField.newMapField(
                     PropMapDefaultEntryHolder.defaultEntry);
@@ -153,7 +153,7 @@ public final class AvatarPropNotifyOuterClass {
               emu.grasscutter.net.proto.AvatarPropNotifyOuterClass.AvatarPropNotify.class, emu.grasscutter.net.proto.AvatarPropNotifyOuterClass.AvatarPropNotify.Builder.class);
     }
 
-    public static final int PROP_MAP_FIELD_NUMBER = 3;
+    public static final int PROP_MAP_FIELD_NUMBER = 8;
     private static final class PropMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Long> defaultEntry =
@@ -255,7 +255,7 @@ public final class AvatarPropNotifyOuterClass {
           output,
           internalGetPropMap(),
           PropMapDefaultEntryHolder.defaultEntry,
-          3);
+          8);
       unknownFields.writeTo(output);
     }
 
@@ -277,7 +277,7 @@ public final class AvatarPropNotifyOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(3, propMap__);
+            .computeMessageSize(8, propMap__);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

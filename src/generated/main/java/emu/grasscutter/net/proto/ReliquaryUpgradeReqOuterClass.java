@@ -91,12 +91,12 @@ public final class ReliquaryUpgradeReqOuterClass {
             case 0:
               done = true;
               break;
-            case 72: {
+            case 40: {
 
               targetReliquaryGuid_ = input.readUInt64();
               break;
             }
-            case 96: {
+            case 32: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 foodReliquaryGuidList_ = newLongList();
                 mutable_bitField0_ |= 0x00000001;
@@ -104,7 +104,7 @@ public final class ReliquaryUpgradeReqOuterClass {
               foodReliquaryGuidList_.addLong(input.readUInt64());
               break;
             }
-            case 98: {
+            case 34: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -117,7 +117,7 @@ public final class ReliquaryUpgradeReqOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 106: {
+            case 66: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 itemParamList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>();
                 mutable_bitField0_ |= 0x00000002;
@@ -164,7 +164,7 @@ public final class ReliquaryUpgradeReqOuterClass {
               emu.grasscutter.net.proto.ReliquaryUpgradeReqOuterClass.ReliquaryUpgradeReq.class, emu.grasscutter.net.proto.ReliquaryUpgradeReqOuterClass.ReliquaryUpgradeReq.Builder.class);
     }
 
-    public static final int FOOD_RELIQUARY_GUID_LIST_FIELD_NUMBER = 12;
+    public static final int FOOD_RELIQUARY_GUID_LIST_FIELD_NUMBER = 4;
     private com.google.protobuf.Internal.LongList foodReliquaryGuidList_;
 
     @java.lang.Override
@@ -182,7 +182,7 @@ public final class ReliquaryUpgradeReqOuterClass {
     }
     private int foodReliquaryGuidListMemoizedSerializedSize = -1;
 
-    public static final int ITEM_PARAM_LIST_FIELD_NUMBER = 13;
+    public static final int ITEM_PARAM_LIST_FIELD_NUMBER = 8;
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> itemParamList_;
 
     @java.lang.Override
@@ -212,7 +212,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       return itemParamList_.get(index);
     }
 
-    public static final int TARGET_RELIQUARY_GUID_FIELD_NUMBER = 9;
+    public static final int TARGET_RELIQUARY_GUID_FIELD_NUMBER = 5;
     private long targetReliquaryGuid_;
 
     @java.lang.Override
@@ -236,17 +236,17 @@ public final class ReliquaryUpgradeReqOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       for (int i = 0; i < itemParamList_.size(); i++) {
-        output.writeMessage(13, itemParamList_.get(i));
+        output.writeMessage(8, itemParamList_.get(i));
       }
       if (getFoodReliquaryGuidListList().size() > 0) {
-        output.writeUInt32NoTag(98);
+        output.writeUInt32NoTag(34);
         output.writeUInt32NoTag(foodReliquaryGuidListMemoizedSerializedSize);
       }
       for (int i = 0; i < foodReliquaryGuidList_.size(); i++) {
         output.writeUInt64NoTag(foodReliquaryGuidList_.getLong(i));
       }
       if (targetReliquaryGuid_ != 0L) {
-        output.writeUInt64(9, targetReliquaryGuid_);
+        output.writeUInt64(5, targetReliquaryGuid_);
       }
       unknownFields.writeTo(output);
     }
@@ -259,7 +259,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       size = 0;
       for (int i = 0; i < itemParamList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, itemParamList_.get(i));
+          .computeMessageSize(8, itemParamList_.get(i));
       }
       {
         int dataSize = 0;
@@ -277,7 +277,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       }
       if (targetReliquaryGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(9, targetReliquaryGuid_);
+          .computeUInt64Size(5, targetReliquaryGuid_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

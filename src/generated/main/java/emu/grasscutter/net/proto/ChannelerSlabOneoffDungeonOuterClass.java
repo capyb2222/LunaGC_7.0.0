@@ -85,7 +85,7 @@ public final class ChannelerSlabOneoffDungeonOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 16: {
 
               dungeonId_ = input.readUInt32();
               break;
@@ -95,7 +95,7 @@ public final class ChannelerSlabOneoffDungeonOuterClass {
               rewardId_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 48: {
 
               isDone_ = input.readBool();
               break;
@@ -143,7 +143,7 @@ public final class ChannelerSlabOneoffDungeonOuterClass {
       return rewardId_;
     }
 
-    public static final int IS_DONE_FIELD_NUMBER = 11;
+    public static final int IS_DONE_FIELD_NUMBER = 6;
     private boolean isDone_;
     /**
      * <code>bool is_done = 11;</code>
@@ -154,7 +154,7 @@ public final class ChannelerSlabOneoffDungeonOuterClass {
       return isDone_;
     }
 
-    public static final int DUNGEON_ID_FIELD_NUMBER = 3;
+    public static final int DUNGEON_ID_FIELD_NUMBER = 2;
     private int dungeonId_;
     /**
      * <code>uint32 dungeon_id = 3;</code>
@@ -180,13 +180,13 @@ public final class ChannelerSlabOneoffDungeonOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (dungeonId_ != 0) {
-        output.writeUInt32(3, dungeonId_);
+        output.writeUInt32(2, dungeonId_);
       }
       if (rewardId_ != 0) {
         output.writeUInt32(10, rewardId_);
       }
       if (isDone_ != false) {
-        output.writeBool(11, isDone_);
+        output.writeBool(6, isDone_);
       }
       unknownFields.writeTo(output);
     }
@@ -199,7 +199,7 @@ public final class ChannelerSlabOneoffDungeonOuterClass {
       size = 0;
       if (dungeonId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, dungeonId_);
+          .computeUInt32Size(2, dungeonId_);
       }
       if (rewardId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -207,7 +207,7 @@ public final class ChannelerSlabOneoffDungeonOuterClass {
       }
       if (isDone_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, isDone_);
+          .computeBoolSize(6, isDone_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

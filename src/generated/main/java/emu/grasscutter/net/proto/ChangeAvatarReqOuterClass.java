@@ -91,12 +91,12 @@ public final class ChangeAvatarReqOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 120: {
 
               skillId_ = input.readUInt32();
               break;
             }
-            case 26: {
+            case 10: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (movePos_ != null) {
                 subBuilder = movePos_.toBuilder();
@@ -114,12 +114,12 @@ public final class ChangeAvatarReqOuterClass {
               iECPBGINIBL_ = input.readBool();
               break;
             }
-            case 48: {
+            case 16: {
 
               guid_ = input.readUInt64();
               break;
             }
-            case 64: {
+            case 88: {
 
               isMove_ = input.readBool();
               break;
@@ -161,7 +161,7 @@ public final class ChangeAvatarReqOuterClass {
               emu.grasscutter.net.proto.ChangeAvatarReqOuterClass.ChangeAvatarReq.class, emu.grasscutter.net.proto.ChangeAvatarReqOuterClass.ChangeAvatarReq.Builder.class);
     }
 
-    public static final int MOVE_POS_FIELD_NUMBER = 3;
+    public static final int MOVE_POS_FIELD_NUMBER = 1;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector movePos_;
 
     @java.lang.Override
@@ -179,7 +179,7 @@ public final class ChangeAvatarReqOuterClass {
       return getMovePos();
     }
 
-    public static final int SKILL_ID_FIELD_NUMBER = 2;
+    public static final int SKILL_ID_FIELD_NUMBER = 15;
     private int skillId_;
 
     @java.lang.Override
@@ -209,7 +209,7 @@ public final class ChangeAvatarReqOuterClass {
       return iECPBGINIBL_;
     }
 
-    public static final int GUID_FIELD_NUMBER = 6;
+    public static final int GUID_FIELD_NUMBER = 2;
     private long guid_;
 
     @java.lang.Override
@@ -217,7 +217,7 @@ public final class ChangeAvatarReqOuterClass {
       return guid_;
     }
 
-    public static final int IS_MOVE_FIELD_NUMBER = 8;
+    public static final int IS_MOVE_FIELD_NUMBER = 11;
     private boolean isMove_;
 
     @java.lang.Override
@@ -240,22 +240,22 @@ public final class ChangeAvatarReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (skillId_ != 0) {
-        output.writeUInt32(2, skillId_);
+        output.writeUInt32(15, skillId_);
       }
       if (iECPBGINIBL_ != false) {
         output.writeBool(4, iECPBGINIBL_);
       }
       if (guid_ != 0L) {
-        output.writeUInt64(6, guid_);
+        output.writeUInt64(2, guid_);
       }
       if (isMove_ != false) {
-        output.writeBool(9, isMove_);
+        output.writeBool(11, isMove_);
       }
       if (movePos_ != null) {
-        output.writeMessage(14, getMovePos());
+        output.writeMessage(1, getMovePos());
       }
       if (dBNDIOAOJHP_ != false) {
-        output.writeBool(140, dBNDIOAOJHP_);
+        output.writeBool(14, dBNDIOAOJHP_);
       }
       unknownFields.writeTo(output);
     }
@@ -268,7 +268,7 @@ public final class ChangeAvatarReqOuterClass {
       size = 0;
       if (skillId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, skillId_);
+          .computeUInt32Size(15, skillId_);
       }
       if (iECPBGINIBL_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -276,19 +276,19 @@ public final class ChangeAvatarReqOuterClass {
       }
       if (guid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(6, guid_);
+          .computeUInt64Size(2, guid_);
       }
       if (isMove_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isMove_);
+          .computeBoolSize(11, isMove_);
       }
       if (movePos_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, getMovePos());
+          .computeMessageSize(1, getMovePos());
       }
       if (dBNDIOAOJHP_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(140, dBNDIOAOJHP_);
+          .computeBoolSize(14, dBNDIOAOJHP_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

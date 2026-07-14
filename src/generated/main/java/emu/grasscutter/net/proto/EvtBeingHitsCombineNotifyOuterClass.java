@@ -87,7 +87,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
+            case 98: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 evtBeingHitInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -96,7 +96,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo.parser(), extensionRegistry));
               break;
             }
-            case 56: {
+            case 88: {
               int rawValue = input.readEnum();
 
               forwardType_ = rawValue;
@@ -137,7 +137,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
               emu.grasscutter.net.proto.EvtBeingHitsCombineNotifyOuterClass.EvtBeingHitsCombineNotify.class, emu.grasscutter.net.proto.EvtBeingHitsCombineNotifyOuterClass.EvtBeingHitsCombineNotify.Builder.class);
     }
 
-    public static final int EVT_BEING_HIT_INFO_LIST_FIELD_NUMBER = 15;
+    public static final int EVT_BEING_HIT_INFO_LIST_FIELD_NUMBER = 12;
     private java.util.List<emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo> evtBeingHitInfoList_;
 
     @java.lang.Override
@@ -167,7 +167,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
       return evtBeingHitInfoList_.get(index);
     }
 
-    public static final int FORWARD_TYPE_FIELD_NUMBER = 13;
+    public static final int FORWARD_TYPE_FIELD_NUMBER = 11;
     private int forwardType_;
 
     @java.lang.Override public int getForwardTypeValue() {
@@ -195,10 +195,10 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < evtBeingHitInfoList_.size(); i++) {
-        output.writeMessage(15, evtBeingHitInfoList_.get(i));
+        output.writeMessage(12, evtBeingHitInfoList_.get(i));
       }
       if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.ForwardType_FORWARD_LOCAL.getNumber()) {
-        output.writeEnum(13, forwardType_);
+        output.writeEnum(11, forwardType_);
       }
       unknownFields.writeTo(output);
     }
@@ -211,11 +211,11 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
       size = 0;
       for (int i = 0; i < evtBeingHitInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, evtBeingHitInfoList_.get(i));
+          .computeMessageSize(12, evtBeingHitInfoList_.get(i));
       }
       if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.ForwardType_FORWARD_LOCAL.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(13, forwardType_);
+          .computeEnumSize(11, forwardType_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

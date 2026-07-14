@@ -148,7 +148,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
               pOLCMMBAENP_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 128000: {
 
               fOCELGIAFLM_ = input.readUInt32();
               break;
@@ -158,7 +158,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
               pDJEIMCPECJ_ = input.readBool();
               break;
             }
-            case 90: {
+            case 74: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 finishedChallengeCellNumMap_ = com.google.protobuf.MapField.newMapField(
                     FinishedChallengeCellNumMapDefaultEntryHolder.defaultEntry);
@@ -258,7 +258,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
       return pOLCMMBAENP_;
     }
 
-    public static final int FINISHED_CHALLENGE_CELL_NUM_MAP_FIELD_NUMBER = 11;
+    public static final int FINISHED_CHALLENGE_CELL_NUM_MAP_FIELD_NUMBER = 9;
     private static final class FinishedChallengeCellNumMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, emu.grasscutter.net.proto.RoguelikeSettleCoinInfoOuterClass.RoguelikeSettleCoinInfo> defaultEntry =
@@ -361,7 +361,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
       return pDJEIMCPECJ_;
     }
 
-    public static final int FOCELGIAFLM_FIELD_NUMBER = 9;
+    public static final int FOCELGIAFLM_FIELD_NUMBER = 16000;
     private int fOCELGIAFLM_;
     /**
      * <code>uint32 FOCELGIAFLM = 9;</code>
@@ -393,7 +393,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
         output.writeUInt32(7, pOLCMMBAENP_);
       }
       if (fOCELGIAFLM_ != 0) {
-        output.writeUInt32(9, fOCELGIAFLM_);
+        output.writeUInt32(16000, fOCELGIAFLM_);
       }
       if (pDJEIMCPECJ_ != false) {
         output.writeBool(10, pDJEIMCPECJ_);
@@ -403,7 +403,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
           output,
           internalGetFinishedChallengeCellNumMap(),
           FinishedChallengeCellNumMapDefaultEntryHolder.defaultEntry,
-          11);
+          9);
       if (stageId_ != 0) {
         output.writeUInt32(12, stageId_);
       }
@@ -429,7 +429,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
       }
       if (fOCELGIAFLM_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, fOCELGIAFLM_);
+          .computeUInt32Size(16000, fOCELGIAFLM_);
       }
       if (pDJEIMCPECJ_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -443,7 +443,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(11, finishedChallengeCellNumMap__);
+            .computeMessageSize(9, finishedChallengeCellNumMap__);
       }
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream

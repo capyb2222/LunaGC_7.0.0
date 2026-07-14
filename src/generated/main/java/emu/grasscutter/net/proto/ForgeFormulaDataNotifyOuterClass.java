@@ -80,12 +80,12 @@ public final class ForgeFormulaDataNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 56: {
 
               forgeId_ = input.readUInt32();
               break;
             }
-            case 32: {
+            case 40: {
 
               isLocked_ = input.readBool();
               break;
@@ -122,7 +122,7 @@ public final class ForgeFormulaDataNotifyOuterClass {
               emu.grasscutter.net.proto.ForgeFormulaDataNotifyOuterClass.ForgeFormulaDataNotify.class, emu.grasscutter.net.proto.ForgeFormulaDataNotifyOuterClass.ForgeFormulaDataNotify.Builder.class);
     }
 
-    public static final int IS_LOCKED_FIELD_NUMBER = 4;
+    public static final int IS_LOCKED_FIELD_NUMBER = 5;
     private boolean isLocked_;
     /**
      * <code>bool is_locked = 4;</code>
@@ -133,7 +133,7 @@ public final class ForgeFormulaDataNotifyOuterClass {
       return isLocked_;
     }
 
-    public static final int FORGE_ID_FIELD_NUMBER = 2;
+    public static final int FORGE_ID_FIELD_NUMBER = 7;
     private int forgeId_;
     /**
      * <code>uint32 forge_id = 2;</code>
@@ -159,10 +159,10 @@ public final class ForgeFormulaDataNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (forgeId_ != 0) {
-        output.writeUInt32(2, forgeId_);
+        output.writeUInt32(7, forgeId_);
       }
       if (isLocked_ != false) {
-        output.writeBool(4, isLocked_);
+        output.writeBool(5, isLocked_);
       }
       unknownFields.writeTo(output);
     }
@@ -175,11 +175,11 @@ public final class ForgeFormulaDataNotifyOuterClass {
       size = 0;
       if (forgeId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, forgeId_);
+          .computeUInt32Size(7, forgeId_);
       }
       if (isLocked_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, isLocked_);
+          .computeBoolSize(5, isLocked_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

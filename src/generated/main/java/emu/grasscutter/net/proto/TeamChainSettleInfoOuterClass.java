@@ -110,7 +110,7 @@ public final class TeamChainSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 40: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 scoreList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -118,7 +118,7 @@ public final class TeamChainSettleInfoOuterClass {
               scoreList_.addInt(input.readUInt32());
               break;
             }
-            case 26: {
+            case 42: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -131,22 +131,22 @@ public final class TeamChainSettleInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 48: {
+            case 64: {
 
               totalScore_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 120: {
 
               isNewRecord_ = input.readBool();
               break;
             }
-            case 80: {
+            case 88: {
 
               stageId_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 32: {
 
               difficulty_ = input.readUInt32();
               break;
@@ -186,7 +186,7 @@ public final class TeamChainSettleInfoOuterClass {
               emu.grasscutter.net.proto.TeamChainSettleInfoOuterClass.TeamChainSettleInfo.class, emu.grasscutter.net.proto.TeamChainSettleInfoOuterClass.TeamChainSettleInfo.Builder.class);
     }
 
-    public static final int SCORE_LIST_FIELD_NUMBER = 3;
+    public static final int SCORE_LIST_FIELD_NUMBER = 5;
     private com.google.protobuf.Internal.IntList scoreList_;
     /**
      * <code>repeated uint32 score_list = 3;</code>
@@ -214,7 +214,7 @@ public final class TeamChainSettleInfoOuterClass {
     }
     private int scoreListMemoizedSerializedSize = -1;
 
-    public static final int DIFFICULTY_FIELD_NUMBER = 15;
+    public static final int DIFFICULTY_FIELD_NUMBER = 4;
     private int difficulty_;
     /**
      * <code>uint32 difficulty = 15;</code>
@@ -225,7 +225,7 @@ public final class TeamChainSettleInfoOuterClass {
       return difficulty_;
     }
 
-    public static final int TOTAL_SCORE_FIELD_NUMBER = 6;
+    public static final int TOTAL_SCORE_FIELD_NUMBER = 8;
     private int totalScore_;
     /**
      * <code>uint32 total_score = 6;</code>
@@ -236,7 +236,7 @@ public final class TeamChainSettleInfoOuterClass {
       return totalScore_;
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 9;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 15;
     private boolean isNewRecord_;
     /**
      * <code>bool is_new_record = 9;</code>
@@ -247,7 +247,7 @@ public final class TeamChainSettleInfoOuterClass {
       return isNewRecord_;
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 10;
+    public static final int STAGE_ID_FIELD_NUMBER = 11;
     private int stageId_;
     /**
      * <code>uint32 stage_id = 10;</code>
@@ -281,16 +281,16 @@ public final class TeamChainSettleInfoOuterClass {
         output.writeUInt32NoTag(scoreList_.getInt(i));
       }
       if (totalScore_ != 0) {
-        output.writeUInt32(6, totalScore_);
+        output.writeUInt32(8, totalScore_);
       }
       if (isNewRecord_ != false) {
-        output.writeBool(9, isNewRecord_);
+        output.writeBool(15, isNewRecord_);
       }
       if (stageId_ != 0) {
-        output.writeUInt32(10, stageId_);
+        output.writeUInt32(11, stageId_);
       }
       if (difficulty_ != 0) {
-        output.writeUInt32(15, difficulty_);
+        output.writeUInt32(4, difficulty_);
       }
       unknownFields.writeTo(output);
     }
@@ -317,19 +317,19 @@ public final class TeamChainSettleInfoOuterClass {
       }
       if (totalScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, totalScore_);
+          .computeUInt32Size(8, totalScore_);
       }
       if (isNewRecord_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isNewRecord_);
+          .computeBoolSize(15, isNewRecord_);
       }
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, stageId_);
+          .computeUInt32Size(11, stageId_);
       }
       if (difficulty_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, difficulty_);
+          .computeUInt32Size(4, difficulty_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

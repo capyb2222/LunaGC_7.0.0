@@ -97,7 +97,7 @@ public final class WeekendDjinnInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
+            case 82: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (rot_ != null) {
                 subBuilder = rot_.toBuilder();
@@ -110,7 +110,7 @@ public final class WeekendDjinnInfoOuterClass {
 
               break;
             }
-            case 34: {
+            case 90: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (pos_ != null) {
                 subBuilder = pos_.toBuilder();
@@ -155,7 +155,7 @@ public final class WeekendDjinnInfoOuterClass {
               emu.grasscutter.net.proto.WeekendDjinnInfoOuterClass.WeekendDjinnInfo.class, emu.grasscutter.net.proto.WeekendDjinnInfoOuterClass.WeekendDjinnInfo.Builder.class);
     }
 
-    public static final int POS_FIELD_NUMBER = 4;
+    public static final int POS_FIELD_NUMBER = 11;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
     /**
      * <code>.Vector pos = 4;</code>
@@ -181,7 +181,7 @@ public final class WeekendDjinnInfoOuterClass {
       return getPos();
     }
 
-    public static final int ROT_FIELD_NUMBER = 1;
+    public static final int ROT_FIELD_NUMBER = 10;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector rot_;
     /**
      * <code>.Vector rot = 1;</code>
@@ -222,10 +222,10 @@ public final class WeekendDjinnInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (rot_ != null) {
-        output.writeMessage(1, getRot());
+        output.writeMessage(10, getRot());
       }
       if (pos_ != null) {
-        output.writeMessage(4, getPos());
+        output.writeMessage(11, getPos());
       }
       unknownFields.writeTo(output);
     }
@@ -238,11 +238,11 @@ public final class WeekendDjinnInfoOuterClass {
       size = 0;
       if (rot_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getRot());
+          .computeMessageSize(10, getRot());
       }
       if (pos_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, getPos());
+          .computeMessageSize(11, getPos());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

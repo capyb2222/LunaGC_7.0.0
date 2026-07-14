@@ -73,17 +73,17 @@ public final class SceneTimeNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 64: {
 
               sceneId_ = input.readUInt32();
               break;
             }
-            case 32: {
+            case 112: {
 
               sceneTime_ = input.readUInt64();
               break;
             }
-            case 48: {
+            case 120: {
 
               isPaused_ = input.readBool();
               break;
@@ -120,7 +120,7 @@ public final class SceneTimeNotifyOuterClass {
               emu.grasscutter.net.proto.SceneTimeNotifyOuterClass.SceneTimeNotify.class, emu.grasscutter.net.proto.SceneTimeNotifyOuterClass.SceneTimeNotify.Builder.class);
     }
 
-    public static final int IS_PAUSED_FIELD_NUMBER = 9;
+    public static final int IS_PAUSED_FIELD_NUMBER = 15;
     private boolean isPaused_;
 
     @java.lang.Override
@@ -128,7 +128,7 @@ public final class SceneTimeNotifyOuterClass {
       return isPaused_;
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 1;
+    public static final int SCENE_ID_FIELD_NUMBER = 8;
     private int sceneId_;
 
     @java.lang.Override
@@ -136,7 +136,7 @@ public final class SceneTimeNotifyOuterClass {
       return sceneId_;
     }
 
-    public static final int SCENE_TIME_FIELD_NUMBER = 6;
+    public static final int SCENE_TIME_FIELD_NUMBER = 14;
     private long sceneTime_;
 
     @java.lang.Override
@@ -159,10 +159,10 @@ public final class SceneTimeNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (sceneTime_ != 0L) {
-        output.writeUInt64(6, sceneTime_);
+        output.writeUInt64(14, sceneTime_);
       }
       if (sceneId_ != 0) {
-        output.writeUInt32(1, sceneId_);
+        output.writeUInt32(8, sceneId_);
       }
       unknownFields.writeTo(output);
     }
@@ -175,11 +175,11 @@ public final class SceneTimeNotifyOuterClass {
       size = 0;
       if (sceneTime_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(6, sceneTime_);
+          .computeUInt64Size(14, sceneTime_);
       }
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, sceneId_);
+          .computeUInt32Size(8, sceneId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

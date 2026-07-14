@@ -106,27 +106,27 @@ public final class PhotoPosDataOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 56: {
 
               openTime_ = input.readUInt32();
               break;
             }
-            case 32: {
+            case 24: {
 
               posId_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 104: {
 
               isView_ = input.readBool();
               break;
             }
-            case 88: {
+            case 96: {
 
               isOpen_ = input.readBool();
               break;
             }
-            case 122: {
+            case 18: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (center_ != null) {
                 subBuilder = center_.toBuilder();
@@ -171,7 +171,7 @@ public final class PhotoPosDataOuterClass {
               emu.grasscutter.net.proto.PhotoPosDataOuterClass.PhotoPosData.class, emu.grasscutter.net.proto.PhotoPosDataOuterClass.PhotoPosData.Builder.class);
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 3;
+    public static final int IS_OPEN_FIELD_NUMBER = 12;
     private boolean isOpen_;
     /**
      * <code>bool is_open = 11;</code>
@@ -182,7 +182,7 @@ public final class PhotoPosDataOuterClass {
       return isOpen_;
     }
 
-    public static final int IS_VIEW_FIELD_NUMBER = 6;
+    public static final int IS_VIEW_FIELD_NUMBER = 13;
     private boolean isView_;
     /**
      * <code>bool is_view = 9;</code>
@@ -193,7 +193,7 @@ public final class PhotoPosDataOuterClass {
       return isView_;
     }
 
-    public static final int OPEN_TIME_FIELD_NUMBER = 9;
+    public static final int OPEN_TIME_FIELD_NUMBER = 7;
     private int openTime_;
     /**
      * <code>uint32 open_time = 2;</code>
@@ -204,7 +204,7 @@ public final class PhotoPosDataOuterClass {
       return openTime_;
     }
 
-    public static final int CENTER_FIELD_NUMBER = 10;
+    public static final int CENTER_FIELD_NUMBER = 2;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector center_;
     /**
      * <code>.Vector center = 15;</code>
@@ -230,7 +230,7 @@ public final class PhotoPosDataOuterClass {
       return getCenter();
     }
 
-    public static final int POS_ID_FIELD_NUMBER = 5;
+    public static final int POS_ID_FIELD_NUMBER = 3;
     private int posId_;
     /**
      * <code>uint32 pos_id = 4;</code>
@@ -256,19 +256,19 @@ public final class PhotoPosDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (openTime_ != 0) {
-        output.writeUInt32(9, openTime_);
+        output.writeUInt32(7, openTime_);
       }
       if (posId_ != 0) {
-        output.writeUInt32(5, posId_);
+        output.writeUInt32(3, posId_);
       }
       if (isView_ != false) {
-        output.writeBool(6, isView_);
+        output.writeBool(13, isView_);
       }
       if (isOpen_ != false) {
-        output.writeBool(3, isOpen_);
+        output.writeBool(12, isOpen_);
       }
       if (center_ != null) {
-        output.writeMessage(15, getCenter());
+        output.writeMessage(2, getCenter());
       }
       unknownFields.writeTo(output);
     }
@@ -281,23 +281,23 @@ public final class PhotoPosDataOuterClass {
       size = 0;
       if (openTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, openTime_);
+          .computeUInt32Size(7, openTime_);
       }
       if (posId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, posId_);
+          .computeUInt32Size(3, posId_);
       }
       if (isView_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, isView_);
+          .computeBoolSize(13, isView_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, isOpen_);
+          .computeBoolSize(12, isOpen_);
       }
       if (center_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, getCenter());
+          .computeMessageSize(2, getCenter());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -101,7 +101,7 @@ public final class SceneEntityMoveNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 40: {
 
               sceneTime_ = input.readUInt32();
               break;
@@ -111,12 +111,12 @@ public final class SceneEntityMoveNotifyOuterClass {
               entityId_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 8: {
 
               reliableSeq_ = input.readUInt32();
               break;
             }
-            case 106: {
+            case 114: {
               emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfo.Builder subBuilder = null;
               if (motionInfo_ != null) {
                 subBuilder = motionInfo_.toBuilder();
@@ -161,7 +161,7 @@ public final class SceneEntityMoveNotifyOuterClass {
               emu.grasscutter.net.proto.SceneEntityMoveNotifyOuterClass.SceneEntityMoveNotify.class, emu.grasscutter.net.proto.SceneEntityMoveNotifyOuterClass.SceneEntityMoveNotify.Builder.class);
     }
 
-    public static final int MOTION_INFO_FIELD_NUMBER = 13;
+    public static final int MOTION_INFO_FIELD_NUMBER = 14;
     private emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfo motionInfo_;
     /**
      * <code>.MotionInfo motion_info = 7;</code>
@@ -198,7 +198,7 @@ public final class SceneEntityMoveNotifyOuterClass {
       return entityId_;
     }
 
-    public static final int RELIABLE_SEQ_FIELD_NUMBER = 12;
+    public static final int RELIABLE_SEQ_FIELD_NUMBER = 1;
     private int reliableSeq_;
     /**
      * <code>uint32 reliable_seq = 10;</code>
@@ -209,7 +209,7 @@ public final class SceneEntityMoveNotifyOuterClass {
       return reliableSeq_;
     }
 
-    public static final int SCENE_TIME_FIELD_NUMBER = 2;
+    public static final int SCENE_TIME_FIELD_NUMBER = 5;
     private int sceneTime_;
     /**
      * <code>uint32 scene_time = 14;</code>
@@ -235,16 +235,16 @@ public final class SceneEntityMoveNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (motionInfo_ != null) {
-        output.writeMessage(13, getMotionInfo());
+        output.writeMessage(14, getMotionInfo());
       }
       if (reliableSeq_ != 0) {
-        output.writeUInt32(12, reliableSeq_);
+        output.writeUInt32(1, reliableSeq_);
       }
       if (entityId_ != 0) {
         output.writeUInt32(10, entityId_);
       }
       if (sceneTime_ != 0) {
-        output.writeUInt32(2, sceneTime_);
+        output.writeUInt32(5, sceneTime_);
       }
       unknownFields.writeTo(output);
     }
@@ -257,11 +257,11 @@ public final class SceneEntityMoveNotifyOuterClass {
       size = 0;
       if (motionInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, getMotionInfo());
+          .computeMessageSize(14, getMotionInfo());
       }
       if (reliableSeq_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, reliableSeq_);
+          .computeUInt32Size(1, reliableSeq_);
       }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -269,7 +269,7 @@ public final class SceneEntityMoveNotifyOuterClass {
       }
       if (sceneTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, sceneTime_);
+          .computeUInt32Size(5, sceneTime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

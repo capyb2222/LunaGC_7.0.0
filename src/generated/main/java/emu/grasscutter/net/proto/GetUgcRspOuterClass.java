@@ -135,17 +135,17 @@ public final class GetUgcRspOuterClass {
             case 0:
               done = true;
               break;
-            case 80: {
+            case 16: {
 
               ugcGuid_ = input.readUInt64();
               break;
             }
-            case 120: {
+            case 40: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 58: {
+            case 122: {
               emu.grasscutter.net.proto.UgcMusicRecordOuterClass.UgcMusicRecord.Builder subBuilder = null;
               if (((bitField0_ & 0x00000001) != 0)) {
                 subBuilder = musicRecord_.toBuilder();
@@ -158,7 +158,7 @@ public final class GetUgcRspOuterClass {
               bitField0_ |= 0x00000001;
               break;
             }
-            case 24: {
+            case 56: {
               int rawValue = input.readEnum();
 
               ugcRecordUsage_ = rawValue;
@@ -170,7 +170,7 @@ public final class GetUgcRspOuterClass {
               ugcType_ = rawValue;
               break;
             }
-            case 15498: {
+            case 5890: {
               emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder subBuilder = null;
               if (((bitField0_ & 0x00000002) != 0)) {
                 subBuilder = musicBriefInfo_.toBuilder();
@@ -216,7 +216,7 @@ public final class GetUgcRspOuterClass {
     }
 
     private int bitField0_;
-    public static final int UGC_RECORD_USAGE_FIELD_NUMBER = 3;
+    public static final int UGC_RECORD_USAGE_FIELD_NUMBER = 7;
     private int ugcRecordUsage_;
     /**
      * <code>.RecordUsage ugc_record_usage = 13;</code>
@@ -235,7 +235,7 @@ public final class GetUgcRspOuterClass {
       return result == null ? emu.grasscutter.net.proto.RecordUsageOuterClass.RecordUsage.UNRECOGNIZED : result;
     }
 
-    public static final int UGC_GUID_FIELD_NUMBER = 10;
+    public static final int UGC_GUID_FIELD_NUMBER = 2;
     private long ugcGuid_;
     /**
      * <code>uint64 ugc_guid = 6;</code>
@@ -246,7 +246,7 @@ public final class GetUgcRspOuterClass {
       return ugcGuid_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 15;
+    public static final int RETCODE_FIELD_NUMBER = 5;
     private int retcode_;
     /**
      * <code>int32 retcode = 9;</code>
@@ -276,7 +276,7 @@ public final class GetUgcRspOuterClass {
       return result == null ? emu.grasscutter.net.proto.UgcTypeOuterClass.UgcType.UNRECOGNIZED : result;
     }
 
-    public static final int MUSIC_RECORD_FIELD_NUMBER = 7;
+    public static final int MUSIC_RECORD_FIELD_NUMBER = 15;
     private emu.grasscutter.net.proto.UgcMusicRecordOuterClass.UgcMusicRecord musicRecord_;
     /**
      * <code>optional .UgcMusicRecord music_record = 10;</code>
@@ -302,7 +302,7 @@ public final class GetUgcRspOuterClass {
       return musicRecord_ == null ? emu.grasscutter.net.proto.UgcMusicRecordOuterClass.UgcMusicRecord.getDefaultInstance() : musicRecord_;
     }
 
-    public static final int MUSIC_BRIEF_INFO_FIELD_NUMBER = 1937;
+    public static final int MUSIC_BRIEF_INFO_FIELD_NUMBER = 736;
     private emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo musicBriefInfo_;
     /**
      * <code>optional .UgcMusicBriefInfo music_brief_info = 791;</code>
@@ -343,16 +343,16 @@ public final class GetUgcRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (ugcGuid_ != 0L) {
-        output.writeUInt64(10, ugcGuid_);
+        output.writeUInt64(2, ugcGuid_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(15, retcode_);
+        output.writeInt32(5, retcode_);
       }
       if (((bitField0_ & 0x00000001) != 0)) {
-        output.writeMessage(7, getMusicRecord());
+        output.writeMessage(16000, getMusicRecord());
       }
       if (ugcRecordUsage_ != emu.grasscutter.net.proto.RecordUsageOuterClass.RecordUsage.UGC_RECORD_USAGE_NONE.getNumber()) {
-        output.writeEnum(3, ugcRecordUsage_);
+        output.writeEnum(7, ugcRecordUsage_);
       }
       if (ugcType_ != emu.grasscutter.net.proto.UgcTypeOuterClass.UgcType.UgcType_NONE.getNumber()) {
         output.writeEnum(12, ugcType_);
@@ -371,19 +371,19 @@ public final class GetUgcRspOuterClass {
       size = 0;
       if (ugcGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(10, ugcGuid_);
+          .computeUInt64Size(2, ugcGuid_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(15, retcode_);
+          .computeInt32Size(5, retcode_);
       }
       if (((bitField0_ & 0x00000001) != 0)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, getMusicRecord());
+          .computeMessageSize(16000, getMusicRecord());
       }
       if (ugcRecordUsage_ != emu.grasscutter.net.proto.RecordUsageOuterClass.RecordUsage.UGC_RECORD_USAGE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(3, ugcRecordUsage_);
+          .computeEnumSize(7, ugcRecordUsage_);
       }
       if (ugcType_ != emu.grasscutter.net.proto.UgcTypeOuterClass.UgcType.UgcType_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream

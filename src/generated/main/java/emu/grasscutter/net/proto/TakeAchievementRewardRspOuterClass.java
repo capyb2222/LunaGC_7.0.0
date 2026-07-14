@@ -118,12 +118,12 @@ public final class TakeAchievementRewardRspOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 8: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 104: {
+            case 72: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 idList_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -131,7 +131,7 @@ public final class TakeAchievementRewardRspOuterClass {
               idList_.addInt(input.readUInt32());
               break;
             }
-            case 106: {
+            case 74: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -144,7 +144,7 @@ public final class TakeAchievementRewardRspOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 114: {
+            case 82: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 itemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>();
                 mutable_bitField0_ |= 0x00000001;
@@ -191,7 +191,7 @@ public final class TakeAchievementRewardRspOuterClass {
               emu.grasscutter.net.proto.TakeAchievementRewardRspOuterClass.TakeAchievementRewardRsp.class, emu.grasscutter.net.proto.TakeAchievementRewardRspOuterClass.TakeAchievementRewardRsp.Builder.class);
     }
 
-    public static final int ITEM_LIST_FIELD_NUMBER = 14;
+    public static final int ITEM_LIST_FIELD_NUMBER = 10;
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> itemList_;
     /**
      * <code>repeated .ItemParam item_list = 14;</code>
@@ -231,7 +231,7 @@ public final class TakeAchievementRewardRspOuterClass {
       return itemList_.get(index);
     }
 
-    public static final int ID_LIST_FIELD_NUMBER = 13;
+    public static final int ID_LIST_FIELD_NUMBER = 9;
     private com.google.protobuf.Internal.IntList idList_;
     /**
      * <code>repeated uint32 id_list = 13;</code>
@@ -259,7 +259,7 @@ public final class TakeAchievementRewardRspOuterClass {
     }
     private int idListMemoizedSerializedSize = -1;
 
-    public static final int RETCODE_FIELD_NUMBER = 2;
+    public static final int RETCODE_FIELD_NUMBER = 1;
     private int retcode_;
     /**
      * <code>int32 retcode = 2;</code>
@@ -286,17 +286,17 @@ public final class TakeAchievementRewardRspOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (retcode_ != 0) {
-        output.writeInt32(2, retcode_);
+        output.writeInt32(1, retcode_);
       }
       if (getIdListList().size() > 0) {
-        output.writeUInt32NoTag(106);
+        output.writeUInt32NoTag(74);
         output.writeUInt32NoTag(idListMemoizedSerializedSize);
       }
       for (int i = 0; i < idList_.size(); i++) {
         output.writeUInt32NoTag(idList_.getInt(i));
       }
       for (int i = 0; i < itemList_.size(); i++) {
-        output.writeMessage(14, itemList_.get(i));
+        output.writeMessage(10, itemList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -309,7 +309,7 @@ public final class TakeAchievementRewardRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(2, retcode_);
+          .computeInt32Size(1, retcode_);
       }
       {
         int dataSize = 0;
@@ -327,7 +327,7 @@ public final class TakeAchievementRewardRspOuterClass {
       }
       for (int i = 0; i < itemList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, itemList_.get(i));
+          .computeMessageSize(10, itemList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

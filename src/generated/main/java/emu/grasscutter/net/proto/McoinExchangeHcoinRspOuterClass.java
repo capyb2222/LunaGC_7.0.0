@@ -86,17 +86,17 @@ public final class McoinExchangeHcoinRspOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 40: {
 
               mcoinCost_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 16: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 88: {
+            case 8: {
 
               hcoin_ = input.readUInt32();
               break;
@@ -133,7 +133,7 @@ public final class McoinExchangeHcoinRspOuterClass {
               emu.grasscutter.net.proto.McoinExchangeHcoinRspOuterClass.McoinExchangeHcoinRsp.class, emu.grasscutter.net.proto.McoinExchangeHcoinRspOuterClass.McoinExchangeHcoinRsp.Builder.class);
     }
 
-    public static final int HCOIN_FIELD_NUMBER = 11;
+    public static final int HCOIN_FIELD_NUMBER = 1;
     private int hcoin_;
     /**
      * <code>uint32 hcoin = 11;</code>
@@ -144,7 +144,7 @@ public final class McoinExchangeHcoinRspOuterClass {
       return hcoin_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 5;
+    public static final int RETCODE_FIELD_NUMBER = 2;
     private int retcode_;
     /**
      * <code>int32 retcode = 5;</code>
@@ -155,7 +155,7 @@ public final class McoinExchangeHcoinRspOuterClass {
       return retcode_;
     }
 
-    public static final int MCOIN_COST_FIELD_NUMBER = 1;
+    public static final int MCOIN_COST_FIELD_NUMBER = 5;
     private int mcoinCost_;
     /**
      * <code>uint32 mcoin_cost = 1;</code>
@@ -181,13 +181,13 @@ public final class McoinExchangeHcoinRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (mcoinCost_ != 0) {
-        output.writeUInt32(1, mcoinCost_);
+        output.writeUInt32(5, mcoinCost_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(5, retcode_);
+        output.writeInt32(2, retcode_);
       }
       if (hcoin_ != 0) {
-        output.writeUInt32(11, hcoin_);
+        output.writeUInt32(1, hcoin_);
       }
       unknownFields.writeTo(output);
     }
@@ -200,15 +200,15 @@ public final class McoinExchangeHcoinRspOuterClass {
       size = 0;
       if (mcoinCost_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, mcoinCost_);
+          .computeUInt32Size(5, mcoinCost_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(5, retcode_);
+          .computeInt32Size(2, retcode_);
       }
       if (hcoin_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, hcoin_);
+          .computeUInt32Size(1, hcoin_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

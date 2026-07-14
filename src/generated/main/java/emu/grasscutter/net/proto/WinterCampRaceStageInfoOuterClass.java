@@ -113,17 +113,17 @@ public final class WinterCampRaceStageInfoOuterClass {
 
               break;
             }
-            case 16: {
+            case 56: {
 
               openTime_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 80: {
 
               id_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 24: {
 
               maxScore_ = input.readUInt32();
               break;
@@ -160,7 +160,7 @@ public final class WinterCampRaceStageInfoOuterClass {
               emu.grasscutter.net.proto.WinterCampRaceStageInfoOuterClass.WinterCampRaceStageInfo.class, emu.grasscutter.net.proto.WinterCampRaceStageInfoOuterClass.WinterCampRaceStageInfo.Builder.class);
     }
 
-    public static final int ID_FIELD_NUMBER = 5;
+    public static final int ID_FIELD_NUMBER = 10;
     private int id_;
     /**
      * <code>uint32 id = 5;</code>
@@ -171,7 +171,7 @@ public final class WinterCampRaceStageInfoOuterClass {
       return id_;
     }
 
-    public static final int MAX_SCORE_FIELD_NUMBER = 5;
+    public static final int MAX_SCORE_FIELD_NUMBER = 3;
     private int maxScore_;
     /**
      * <code>uint32 max_score = 10;</code>
@@ -182,7 +182,7 @@ public final class WinterCampRaceStageInfoOuterClass {
       return maxScore_;
     }
 
-    public static final int POS_FIELD_NUMBER = 15;
+    public static final int POS_FIELD_NUMBER = 1;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
     /**
      * <code>.Vector pos = 1;</code>
@@ -208,7 +208,7 @@ public final class WinterCampRaceStageInfoOuterClass {
       return getPos();
     }
 
-    public static final int OPEN_TIME_FIELD_NUMBER = 9;
+    public static final int OPEN_TIME_FIELD_NUMBER = 7;
     private int openTime_;
     /**
      * <code>uint32 open_time = 2;</code>
@@ -237,13 +237,13 @@ public final class WinterCampRaceStageInfoOuterClass {
         output.writeMessage(1, getPos());
       }
       if (openTime_ != 0) {
-        output.writeUInt32(9, openTime_);
+        output.writeUInt32(7, openTime_);
       }
       if (id_ != 0) {
-        output.writeUInt32(5, id_);
+        output.writeUInt32(10, id_);
       }
       if (maxScore_ != 0) {
-        output.writeUInt32(5, maxScore_);
+        output.writeUInt32(3, maxScore_);
       }
       unknownFields.writeTo(output);
     }
@@ -260,15 +260,15 @@ public final class WinterCampRaceStageInfoOuterClass {
       }
       if (openTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, openTime_);
+          .computeUInt32Size(7, openTime_);
       }
       if (id_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, id_);
+          .computeUInt32Size(10, id_);
       }
       if (maxScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, maxScore_);
+          .computeUInt32Size(3, maxScore_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

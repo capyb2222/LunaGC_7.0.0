@@ -102,7 +102,7 @@ public final class VintageMarketDealInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 58: {
+            case 42: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 traderItemInfoMap_ = com.google.protobuf.MapField.newMapField(
                     TraderItemInfoMapDefaultEntryHolder.defaultEntry);
@@ -159,7 +159,7 @@ public final class VintageMarketDealInfoOuterClass {
               emu.grasscutter.net.proto.VintageMarketDealInfoOuterClass.VintageMarketDealInfo.class, emu.grasscutter.net.proto.VintageMarketDealInfoOuterClass.VintageMarketDealInfo.Builder.class);
     }
 
-    public static final int TRADER_ITEM_INFO_MAP_FIELD_NUMBER = 7;
+    public static final int TRADER_ITEM_INFO_MAP_FIELD_NUMBER = 5;
     private static final class TraderItemInfoMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, emu.grasscutter.net.proto.VintageMarketTraderInfoOuterClass.VintageMarketTraderInfo> defaultEntry =
@@ -259,7 +259,7 @@ public final class VintageMarketDealInfoOuterClass {
           output,
           internalGetTraderItemInfoMap(),
           TraderItemInfoMapDefaultEntryHolder.defaultEntry,
-          7);
+          5);
       unknownFields.writeTo(output);
     }
 
@@ -277,7 +277,7 @@ public final class VintageMarketDealInfoOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(7, traderItemInfoMap__);
+            .computeMessageSize(5, traderItemInfoMap__);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

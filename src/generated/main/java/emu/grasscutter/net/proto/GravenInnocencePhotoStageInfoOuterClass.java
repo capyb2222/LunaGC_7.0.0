@@ -85,12 +85,12 @@ public final class GravenInnocencePhotoStageInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 8: {
 
               isFinished_ = input.readBool();
               break;
             }
-            case 72: {
+            case 48: {
 
               isOpen_ = input.readBool();
               break;
@@ -132,7 +132,7 @@ public final class GravenInnocencePhotoStageInfoOuterClass {
               emu.grasscutter.net.proto.GravenInnocencePhotoStageInfoOuterClass.GravenInnocencePhotoStageInfo.class, emu.grasscutter.net.proto.GravenInnocencePhotoStageInfoOuterClass.GravenInnocencePhotoStageInfo.Builder.class);
     }
 
-    public static final int IS_FINISHED_FIELD_NUMBER = 3;
+    public static final int IS_FINISHED_FIELD_NUMBER = 1;
     private boolean isFinished_;
     /**
      * <code>bool is_finished = 3;</code>
@@ -143,7 +143,7 @@ public final class GravenInnocencePhotoStageInfoOuterClass {
       return isFinished_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 9;
+    public static final int IS_OPEN_FIELD_NUMBER = 6;
     private boolean isOpen_;
     /**
      * <code>bool is_open = 9;</code>
@@ -180,10 +180,10 @@ public final class GravenInnocencePhotoStageInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isFinished_ != false) {
-        output.writeBool(3, isFinished_);
+        output.writeBool(1, isFinished_);
       }
       if (isOpen_ != false) {
-        output.writeBool(9, isOpen_);
+        output.writeBool(6, isOpen_);
       }
       if (stageId_ != 0) {
         output.writeUInt32(13, stageId_);
@@ -199,11 +199,11 @@ public final class GravenInnocencePhotoStageInfoOuterClass {
       size = 0;
       if (isFinished_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, isFinished_);
+          .computeBoolSize(1, isFinished_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isOpen_);
+          .computeBoolSize(6, isOpen_);
       }
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream

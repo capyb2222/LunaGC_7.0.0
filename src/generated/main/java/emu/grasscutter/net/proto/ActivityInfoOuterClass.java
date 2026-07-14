@@ -335,17 +335,17 @@ public final class ActivityInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 56: {
 
               scheduleId_ = input.readUInt32();
               break;
             }
-            case 16: {
+            case 64: {
 
               beginTime_ = input.readUInt32();
               break;
             }
-            case 26: {
+            case 122: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 watcherInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo>();
                 mutable_bitField0_ |= 0x00000002;
@@ -354,12 +354,12 @@ public final class ActivityInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.parser(), extensionRegistry));
               break;
             }
-            case 32: {
+            case 96: {
 
               activityId_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 72: {
 
               endTime_ = input.readUInt32();
               break;
@@ -369,17 +369,17 @@ public final class ActivityInfoOuterClass {
               isFinished_ = input.readBool();
               break;
             }
-            case 104: {
+            case 80: {
 
               activityType_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 128000: {
 
               dKKAEBHHLFM_ = input.readBool();
               break;
             }
-            case 128: {
+            case 48: {
               if (!((mutable_bitField0_ & 0x00000080) != 0)) {
                 meetCondList_ = newIntList();
                 mutable_bitField0_ |= 0x00000080;
@@ -387,7 +387,7 @@ public final class ActivityInfoOuterClass {
               meetCondList_.addInt(input.readUInt32());
               break;
             }
-            case 130: {
+            case 50: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000080) != 0) && input.getBytesUntilLimit() > 0) {
@@ -457,7 +457,7 @@ public final class ActivityInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 4674: {
+            case 9578: {
               if (!((mutable_bitField0_ & 0x00000020) != 0)) {
                 wishGiftNumMap_ = com.google.protobuf.MapField.newMapField(
                     WishGiftNumMapDefaultEntryHolder.defaultEntry);
@@ -496,7 +496,7 @@ public final class ActivityInfoOuterClass {
               fOOCOANFLEL_ = input.readBool();
               break;
             }
-            case 6360: {
+            case 14616: {
 
               firstDayStartTime_ = input.readUInt32();
               break;
@@ -514,9 +514,9 @@ public final class ActivityInfoOuterClass {
 
               break;
             }
-            case 8938: {
+            case 5282: {
               emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo.Builder subBuilder = null;
-              if (detailCase_ == 1117) {
+              if (detailCase_ == 660) {
                 subBuilder = ((emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo) detail_).toBuilder();
               }
               detail_ =
@@ -525,10 +525,10 @@ public final class ActivityInfoOuterClass {
                 subBuilder.mergeFrom((emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
-              detailCase_ = 1117;
+              detailCase_ = 660;
               break;
             }
-            case 9736: {
+            case 10216: {
 
               curScore_ = input.readUInt32();
               break;
@@ -538,7 +538,7 @@ public final class ActivityInfoOuterClass {
               lEOKOPDKDBE_ = input.readUInt32();
               break;
             }
-            case 9874: {
+            case 15786: {
               if (!((mutable_bitField0_ & 0x00000010) != 0)) {
                 activityPushTipsDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData>();
                 mutable_bitField0_ |= 0x00000010;
@@ -547,7 +547,7 @@ public final class ActivityInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData.parser(), extensionRegistry));
               break;
             }
-            case 10034: {
+            case 2866: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 activityCoinMap_ = com.google.protobuf.MapField.newMapField(
                     ActivityCoinMapDefaultEntryHolder.defaultEntry);
@@ -560,9 +560,9 @@ public final class ActivityInfoOuterClass {
                   activityCoinMap__.getKey(), activityCoinMap__.getValue());
               break;
             }
-            case 11778: {
+            case 1962: {
               emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.Builder subBuilder = null;
-              if (detailCase_ == 1472) {
+              if (detailCase_ == 245) {
                 subBuilder = ((emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo) detail_).toBuilder();
               }
               detail_ =
@@ -571,7 +571,7 @@ public final class ActivityInfoOuterClass {
                 subBuilder.mergeFrom((emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
-              detailCase_ = 1472;
+              detailCase_ = 245;
               break;
             }
             case 15136: {
@@ -701,8 +701,8 @@ public final class ActivityInfoOuterClass {
 
       public static DetailCase forNumber(int value) {
         switch (value) {
-          case 1472: return MUSIC_GAME_INFO;
-          case 1117: return BUBBLE_DRAMA_DETAIL_INFO;
+          case 245: return MUSIC_GAME_INFO;
+          case 660: return BUBBLE_DRAMA_DETAIL_INFO;
           case 0: return DETAIL_NOT_SET;
           default: return null;
         }
@@ -718,7 +718,7 @@ public final class ActivityInfoOuterClass {
           detailCase_);
     }
 
-    public static final int ACTIVITY_COIN_MAP_FIELD_NUMBER = 1254;
+    public static final int ACTIVITY_COIN_MAP_FIELD_NUMBER = 358;
     private static final class ActivityCoinMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Integer> defaultEntry =
@@ -790,7 +790,7 @@ public final class ActivityInfoOuterClass {
       return map.get(key);
     }
 
-    public static final int WATCHER_INFO_LIST_FIELD_NUMBER = 7;
+    public static final int WATCHER_INFO_LIST_FIELD_NUMBER = 15;
     private java.util.List<emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo> watcherInfoList_;
 
     @java.lang.Override
@@ -876,7 +876,7 @@ public final class ActivityInfoOuterClass {
     }
     private int nINFIOLKLCJMemoizedSerializedSize = -1;
 
-    public static final int ACTIVITY_PUSH_TIPS_DATA_LIST_FIELD_NUMBER = 1234;
+    public static final int ACTIVITY_PUSH_TIPS_DATA_LIST_FIELD_NUMBER = 1973;
     private java.util.List<emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData> activityPushTipsDataList_;
 
     @java.lang.Override
@@ -906,7 +906,7 @@ public final class ActivityInfoOuterClass {
       return activityPushTipsDataList_.get(index);
     }
 
-    public static final int WISH_GIFT_NUM_MAP_FIELD_NUMBER = 584;
+    public static final int WISH_GIFT_NUM_MAP_FIELD_NUMBER = 1197;
     private static final class WishGiftNumMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Integer> defaultEntry =
@@ -1032,7 +1032,7 @@ public final class ActivityInfoOuterClass {
     }
     private int fLDFIFJDGDBMemoizedSerializedSize = -1;
 
-    public static final int MEET_COND_LIST_FIELD_NUMBER = 11;
+    public static final int MEET_COND_LIST_FIELD_NUMBER = 6;
     private com.google.protobuf.Internal.IntList meetCondList_;
 
     @java.lang.Override
@@ -1096,7 +1096,7 @@ public final class ActivityInfoOuterClass {
     }
     private int gJLKEBPOEEAMemoizedSerializedSize = -1;
 
-    public static final int CUR_SCORE_FIELD_NUMBER = 1217;
+    public static final int CUR_SCORE_FIELD_NUMBER = 1277;
     private int curScore_;
 
     @java.lang.Override
@@ -1115,7 +1115,7 @@ public final class ActivityInfoOuterClass {
       return lEOKOPDKDBE_;
     }
 
-    public static final int ACTIVITY_ID_FIELD_NUMBER = 5;
+    public static final int ACTIVITY_ID_FIELD_NUMBER = 12;
     private int activityId_;
 
     @java.lang.Override
@@ -1134,7 +1134,7 @@ public final class ActivityInfoOuterClass {
       return lFPOBIAKJJN_;
     }
 
-    public static final int FIRST_DAY_START_TIME_FIELD_NUMBER = 116;
+    public static final int FIRST_DAY_START_TIME_FIELD_NUMBER = 1827;
     private int firstDayStartTime_;
 
     @java.lang.Override
@@ -1142,7 +1142,7 @@ public final class ActivityInfoOuterClass {
       return firstDayStartTime_;
     }
 
-    public static final int SCHEDULE_ID_FIELD_NUMBER = 9;
+    public static final int SCHEDULE_ID_FIELD_NUMBER = 7;
     private int scheduleId_;
 
     @java.lang.Override
@@ -1150,7 +1150,7 @@ public final class ActivityInfoOuterClass {
       return scheduleId_;
     }
 
-    public static final int END_TIME_FIELD_NUMBER = 2;
+    public static final int END_TIME_FIELD_NUMBER = 9;
     private int endTime_;
 
     @java.lang.Override
@@ -1158,7 +1158,7 @@ public final class ActivityInfoOuterClass {
       return endTime_;
     }
 
-    public static final int BEGIN_TIME_FIELD_NUMBER = 14;
+    public static final int BEGIN_TIME_FIELD_NUMBER = 8;
     private int beginTime_;
 
     @java.lang.Override
@@ -1188,7 +1188,7 @@ public final class ActivityInfoOuterClass {
       return lNIECLNEDCG_;
     }
 
-    public static final int IS_FINISHED_FIELD_NUMBER = 3;
+    public static final int IS_FINISHED_FIELD_NUMBER = 11;
     private boolean isFinished_;
 
     @java.lang.Override
@@ -1207,7 +1207,7 @@ public final class ActivityInfoOuterClass {
       return kGMLHFFEFOI_;
     }
 
-    public static final int DKKAEBHHLFM_FIELD_NUMBER = 15;
+    public static final int DKKAEBHHLFM_FIELD_NUMBER = 16000;
     private boolean dKKAEBHHLFM_;
     /**
      * <code>bool DKKAEBHHLFM = 15;</code>
@@ -1229,7 +1229,7 @@ public final class ActivityInfoOuterClass {
       return dAGKEOCNIKO_;
     }
 
-    public static final int ACTIVITY_TYPE_FIELD_NUMBER = 13;
+    public static final int ACTIVITY_TYPE_FIELD_NUMBER = 10;
     private int activityType_;
 
     @java.lang.Override
@@ -1259,16 +1259,16 @@ public final class ActivityInfoOuterClass {
       return aHPPKGFBJDK_;
     }
 
-    public static final int MUSIC_GAME_INFO_FIELD_NUMBER = 1472;
+    public static final int MUSIC_GAME_INFO_FIELD_NUMBER = 245;
 
     @java.lang.Override
     public boolean hasMusicGameInfo() {
-      return detailCase_ == 1472;
+      return detailCase_ == 245;
     }
 
     @java.lang.Override
     public emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo getMusicGameInfo() {
-      if (detailCase_ == 1472) {
+      if (detailCase_ == 245) {
          return (emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo) detail_;
       }
       return emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.getDefaultInstance();
@@ -1276,22 +1276,22 @@ public final class ActivityInfoOuterClass {
 
     @java.lang.Override
     public emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfoOrBuilder getMusicGameInfoOrBuilder() {
-      if (detailCase_ == 1472) {
+      if (detailCase_ == 245) {
          return (emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo) detail_;
       }
       return emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.getDefaultInstance();
     }
 
-    public static final int BUBBLE_DRAMA_DETAIL_INFO_FIELD_NUMBER = 1117;
+    public static final int BUBBLE_DRAMA_DETAIL_INFO_FIELD_NUMBER = 660;
 
     @java.lang.Override
     public boolean hasBubbleDramaDetailInfo() {
-      return detailCase_ == 1117;
+      return detailCase_ == 660;
     }
 
     @java.lang.Override
     public emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo getBubbleDramaDetailInfo() {
-      if (detailCase_ == 1117) {
+      if (detailCase_ == 660) {
          return (emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo) detail_;
       }
       return emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo.getDefaultInstance();
@@ -1299,7 +1299,7 @@ public final class ActivityInfoOuterClass {
 
     @java.lang.Override
     public emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfoOrBuilder getBubbleDramaDetailInfoOrBuilder() {
-      if (detailCase_ == 1117) {
+      if (detailCase_ == 660) {
          return (emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo) detail_;
       }
       return emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo.getDefaultInstance();
@@ -1321,31 +1321,31 @@ public final class ActivityInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (scheduleId_ != 0) {
-        output.writeUInt32(9, scheduleId_);
+        output.writeUInt32(7, scheduleId_);
       }
       if (beginTime_ != 0) {
-        output.writeUInt32(14, beginTime_);
+        output.writeUInt32(8, beginTime_);
       }
       for (int i = 0; i < watcherInfoList_.size(); i++) {
-        output.writeMessage(7, watcherInfoList_.get(i));
+        output.writeMessage(15, watcherInfoList_.get(i));
       }
       if (activityId_ != 0) {
-        output.writeUInt32(5, activityId_);
+        output.writeUInt32(12, activityId_);
       }
       if (endTime_ != 0) {
-        output.writeUInt32(2, endTime_);
+        output.writeUInt32(9, endTime_);
       }
       if (isFinished_ != false) {
-        output.writeBool(3, isFinished_);
+        output.writeBool(11, isFinished_);
       }
       if (activityType_ != 0) {
-        output.writeUInt32(13, activityType_);
+        output.writeUInt32(10, activityType_);
       }
       if (dKKAEBHHLFM_ != false) {
-        output.writeBool(15, dKKAEBHHLFM_);
+        output.writeBool(16000, dKKAEBHHLFM_);
       }
       if (getMeetCondListList().size() > 0) {
-        output.writeUInt32NoTag(90);
+        output.writeUInt32NoTag(50);
         output.writeUInt32NoTag(meetCondListMemoizedSerializedSize);
       }
       for (int i = 0; i < meetCondList_.size(); i++) {
@@ -1379,7 +1379,7 @@ public final class ActivityInfoOuterClass {
           output,
           internalGetWishGiftNumMap(),
           WishGiftNumMapDefaultEntryHolder.defaultEntry,
-          584);
+          1197);
       if (getMMGFOBPIIPEList().size() > 0) {
         output.writeUInt32NoTag(4866);
         output.writeUInt32NoTag(mMGFOBPIIPEMemoizedSerializedSize);
@@ -1391,31 +1391,31 @@ public final class ActivityInfoOuterClass {
         output.writeBool(739, fOOCOANFLEL_);
       }
       if (firstDayStartTime_ != 0) {
-        output.writeUInt32(116, firstDayStartTime_);
+        output.writeUInt32(1827, firstDayStartTime_);
       }
       if (bubbleDramaPlayInfo_ != null) {
         output.writeMessage(919, getBubbleDramaPlayInfo());
       }
-      if (detailCase_ == 1117) {
-        output.writeMessage(1117, (emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo) detail_);
+      if (detailCase_ == 660) {
+        output.writeMessage(660, (emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo) detail_);
       }
       if (curScore_ != 0) {
-        output.writeUInt32(1217, curScore_);
+        output.writeUInt32(1277, curScore_);
       }
       if (lEOKOPDKDBE_ != 0) {
         output.writeUInt32(1228, lEOKOPDKDBE_);
       }
       for (int i = 0; i < activityPushTipsDataList_.size(); i++) {
-        output.writeMessage(1234, activityPushTipsDataList_.get(i));
+        output.writeMessage(1973, activityPushTipsDataList_.get(i));
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
           internalGetActivityCoinMap(),
           ActivityCoinMapDefaultEntryHolder.defaultEntry,
-          1254);
-      if (detailCase_ == 1472) {
-        output.writeMessage(1472, (emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo) detail_);
+          358);
+      if (detailCase_ == 245) {
+        output.writeMessage(245, (emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo) detail_);
       }
       if (gDNPPNHLCOA_ != 0) {
         output.writeUInt32(1892, gDNPPNHLCOA_);
@@ -1444,35 +1444,35 @@ public final class ActivityInfoOuterClass {
       size = 0;
       if (scheduleId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, scheduleId_);
+          .computeUInt32Size(7, scheduleId_);
       }
       if (beginTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, beginTime_);
+          .computeUInt32Size(8, beginTime_);
       }
       for (int i = 0; i < watcherInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, watcherInfoList_.get(i));
+          .computeMessageSize(15, watcherInfoList_.get(i));
       }
       if (activityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, activityId_);
+          .computeUInt32Size(12, activityId_);
       }
       if (endTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, endTime_);
+          .computeUInt32Size(9, endTime_);
       }
       if (isFinished_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, isFinished_);
+          .computeBoolSize(11, isFinished_);
       }
       if (activityType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, activityType_);
+          .computeUInt32Size(10, activityType_);
       }
       if (dKKAEBHHLFM_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, dKKAEBHHLFM_);
+          .computeBoolSize(16000, dKKAEBHHLFM_);
       }
       {
         int dataSize = 0;
@@ -1536,7 +1536,7 @@ public final class ActivityInfoOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(584, wishGiftNumMap__);
+            .computeMessageSize(1197, wishGiftNumMap__);
       }
       {
         int dataSize = 0;
@@ -1558,19 +1558,19 @@ public final class ActivityInfoOuterClass {
       }
       if (firstDayStartTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(116, firstDayStartTime_);
+          .computeUInt32Size(1827, firstDayStartTime_);
       }
       if (bubbleDramaPlayInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(919, getBubbleDramaPlayInfo());
       }
-      if (detailCase_ == 1117) {
+      if (detailCase_ == 660) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1117, (emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo) detail_);
+          .computeMessageSize(660, (emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo) detail_);
       }
       if (curScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1217, curScore_);
+          .computeUInt32Size(1277, curScore_);
       }
       if (lEOKOPDKDBE_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -1578,7 +1578,7 @@ public final class ActivityInfoOuterClass {
       }
       for (int i = 0; i < activityPushTipsDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1234, activityPushTipsDataList_.get(i));
+          .computeMessageSize(1973, activityPushTipsDataList_.get(i));
       }
       for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
            : internalGetActivityCoinMap().getMap().entrySet()) {
@@ -1588,11 +1588,11 @@ public final class ActivityInfoOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(1254, activityCoinMap__);
+            .computeMessageSize(358, activityCoinMap__);
       }
-      if (detailCase_ == 1472) {
+      if (detailCase_ == 245) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1472, (emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo) detail_);
+          .computeMessageSize(245, (emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo) detail_);
       }
       if (gDNPPNHLCOA_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -2137,14 +2137,14 @@ public final class ActivityInfoOuterClass {
         result.activityType_ = activityType_;
         result.fOOCOANFLEL_ = fOOCOANFLEL_;
         result.aHPPKGFBJDK_ = aHPPKGFBJDK_;
-        if (detailCase_ == 1472) {
+        if (detailCase_ == 245) {
           if (musicGameInfoBuilder_ == null) {
             result.detail_ = detail_;
           } else {
             result.detail_ = musicGameInfoBuilder_.build();
           }
         }
-        if (detailCase_ == 1117) {
+        if (detailCase_ == 660) {
           if (bubbleDramaDetailInfoBuilder_ == null) {
             result.detail_ = detail_;
           } else {
@@ -4026,18 +4026,18 @@ public final class ActivityInfoOuterClass {
 
       @java.lang.Override
       public boolean hasMusicGameInfo() {
-        return detailCase_ == 1472;
+        return detailCase_ == 245;
       }
 
       @java.lang.Override
       public emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo getMusicGameInfo() {
         if (musicGameInfoBuilder_ == null) {
-          if (detailCase_ == 1472) {
+          if (detailCase_ == 245) {
             return (emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo) detail_;
           }
           return emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.getDefaultInstance();
         } else {
-          if (detailCase_ == 1472) {
+          if (detailCase_ == 245) {
             return musicGameInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.getDefaultInstance();
@@ -4054,7 +4054,7 @@ public final class ActivityInfoOuterClass {
         } else {
           musicGameInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 1472;
+        detailCase_ = 245;
         return this;
       }
 
@@ -4066,13 +4066,13 @@ public final class ActivityInfoOuterClass {
         } else {
           musicGameInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 1472;
+        detailCase_ = 245;
         return this;
       }
 
       public Builder mergeMusicGameInfo(emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo value) {
         if (musicGameInfoBuilder_ == null) {
-          if (detailCase_ == 1472 &&
+          if (detailCase_ == 245 &&
               detail_ != emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.newBuilder((emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo) detail_)
                 .mergeFrom(value).buildPartial();
@@ -4081,24 +4081,24 @@ public final class ActivityInfoOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 1472) {
+          if (detailCase_ == 245) {
             musicGameInfoBuilder_.mergeFrom(value);
           }
           musicGameInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 1472;
+        detailCase_ = 245;
         return this;
       }
 
       public Builder clearMusicGameInfo() {
         if (musicGameInfoBuilder_ == null) {
-          if (detailCase_ == 1472) {
+          if (detailCase_ == 245) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 1472) {
+          if (detailCase_ == 245) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -4113,10 +4113,10 @@ public final class ActivityInfoOuterClass {
 
       @java.lang.Override
       public emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfoOrBuilder getMusicGameInfoOrBuilder() {
-        if ((detailCase_ == 1472) && (musicGameInfoBuilder_ != null)) {
+        if ((detailCase_ == 245) && (musicGameInfoBuilder_ != null)) {
           return musicGameInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 1472) {
+          if (detailCase_ == 245) {
             return (emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo) detail_;
           }
           return emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.getDefaultInstance();
@@ -4127,7 +4127,7 @@ public final class ActivityInfoOuterClass {
           emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo, emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.Builder, emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfoOrBuilder>
           getMusicGameInfoFieldBuilder() {
         if (musicGameInfoBuilder_ == null) {
-          if (!(detailCase_ == 1472)) {
+          if (!(detailCase_ == 245)) {
             detail_ = emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.getDefaultInstance();
           }
           musicGameInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -4137,7 +4137,7 @@ public final class ActivityInfoOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 1472;
+        detailCase_ = 245;
         onChanged();;
         return musicGameInfoBuilder_;
       }
@@ -4147,18 +4147,18 @@ public final class ActivityInfoOuterClass {
 
       @java.lang.Override
       public boolean hasBubbleDramaDetailInfo() {
-        return detailCase_ == 1117;
+        return detailCase_ == 660;
       }
 
       @java.lang.Override
       public emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo getBubbleDramaDetailInfo() {
         if (bubbleDramaDetailInfoBuilder_ == null) {
-          if (detailCase_ == 1117) {
+          if (detailCase_ == 660) {
             return (emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo) detail_;
           }
           return emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo.getDefaultInstance();
         } else {
-          if (detailCase_ == 1117) {
+          if (detailCase_ == 660) {
             return bubbleDramaDetailInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo.getDefaultInstance();
@@ -4175,7 +4175,7 @@ public final class ActivityInfoOuterClass {
         } else {
           bubbleDramaDetailInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 1117;
+        detailCase_ = 660;
         return this;
       }
 
@@ -4187,13 +4187,13 @@ public final class ActivityInfoOuterClass {
         } else {
           bubbleDramaDetailInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 1117;
+        detailCase_ = 660;
         return this;
       }
 
       public Builder mergeBubbleDramaDetailInfo(emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo value) {
         if (bubbleDramaDetailInfoBuilder_ == null) {
-          if (detailCase_ == 1117 &&
+          if (detailCase_ == 660 &&
               detail_ != emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo.newBuilder((emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo) detail_)
                 .mergeFrom(value).buildPartial();
@@ -4202,24 +4202,24 @@ public final class ActivityInfoOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 1117) {
+          if (detailCase_ == 660) {
             bubbleDramaDetailInfoBuilder_.mergeFrom(value);
           }
           bubbleDramaDetailInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 1117;
+        detailCase_ = 660;
         return this;
       }
 
       public Builder clearBubbleDramaDetailInfo() {
         if (bubbleDramaDetailInfoBuilder_ == null) {
-          if (detailCase_ == 1117) {
+          if (detailCase_ == 660) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 1117) {
+          if (detailCase_ == 660) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -4234,10 +4234,10 @@ public final class ActivityInfoOuterClass {
 
       @java.lang.Override
       public emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfoOrBuilder getBubbleDramaDetailInfoOrBuilder() {
-        if ((detailCase_ == 1117) && (bubbleDramaDetailInfoBuilder_ != null)) {
+        if ((detailCase_ == 660) && (bubbleDramaDetailInfoBuilder_ != null)) {
           return bubbleDramaDetailInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 1117) {
+          if (detailCase_ == 660) {
             return (emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo) detail_;
           }
           return emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo.getDefaultInstance();
@@ -4248,7 +4248,7 @@ public final class ActivityInfoOuterClass {
           emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo, emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo.Builder, emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfoOrBuilder>
           getBubbleDramaDetailInfoFieldBuilder() {
         if (bubbleDramaDetailInfoBuilder_ == null) {
-          if (!(detailCase_ == 1117)) {
+          if (!(detailCase_ == 660)) {
             detail_ = emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo.getDefaultInstance();
           }
           bubbleDramaDetailInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -4258,7 +4258,7 @@ public final class ActivityInfoOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 1117;
+        detailCase_ = 660;
         onChanged();;
         return bubbleDramaDetailInfoBuilder_;
       }

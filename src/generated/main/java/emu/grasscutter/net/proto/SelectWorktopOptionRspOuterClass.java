@@ -73,17 +73,17 @@ public final class SelectWorktopOptionRspOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 96: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 88: {
+            case 64: {
 
               optionId_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 88: {
 
               gadgetEntityId_ = input.readUInt32();
               break;
@@ -120,7 +120,7 @@ public final class SelectWorktopOptionRspOuterClass {
               emu.grasscutter.net.proto.SelectWorktopOptionRspOuterClass.SelectWorktopOptionRsp.class, emu.grasscutter.net.proto.SelectWorktopOptionRspOuterClass.SelectWorktopOptionRsp.Builder.class);
     }
 
-    public static final int GADGET_ENTITY_ID_FIELD_NUMBER = 12;
+    public static final int GADGET_ENTITY_ID_FIELD_NUMBER = 11;
     private int gadgetEntityId_;
 
     @java.lang.Override
@@ -128,7 +128,7 @@ public final class SelectWorktopOptionRspOuterClass {
       return gadgetEntityId_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 2;
+    public static final int RETCODE_FIELD_NUMBER = 12;
     private int retcode_;
 
     @java.lang.Override
@@ -136,7 +136,7 @@ public final class SelectWorktopOptionRspOuterClass {
       return retcode_;
     }
 
-    public static final int OPTION_ID_FIELD_NUMBER = 11;
+    public static final int OPTION_ID_FIELD_NUMBER = 8;
     private int optionId_;
 
     @java.lang.Override
@@ -159,13 +159,13 @@ public final class SelectWorktopOptionRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(2, retcode_);
+        output.writeInt32(12, retcode_);
       }
       if (optionId_ != 0) {
-        output.writeUInt32(11, optionId_);
+        output.writeUInt32(8, optionId_);
       }
       if (gadgetEntityId_ != 0) {
-        output.writeUInt32(12, gadgetEntityId_);
+        output.writeUInt32(11, gadgetEntityId_);
       }
       unknownFields.writeTo(output);
     }
@@ -178,15 +178,15 @@ public final class SelectWorktopOptionRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(2, retcode_);
+          .computeInt32Size(12, retcode_);
       }
       if (optionId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, optionId_);
+          .computeUInt32Size(8, optionId_);
       }
       if (gadgetEntityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, gadgetEntityId_);
+          .computeUInt32Size(11, gadgetEntityId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

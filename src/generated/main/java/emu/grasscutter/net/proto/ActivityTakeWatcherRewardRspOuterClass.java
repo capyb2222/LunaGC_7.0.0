@@ -86,17 +86,17 @@ public final class ActivityTakeWatcherRewardRspOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 64: {
 
               watcherId_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 24: {
 
               activityId_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 72: {
 
               retcode_ = input.readInt32();
               break;
@@ -133,7 +133,7 @@ public final class ActivityTakeWatcherRewardRspOuterClass {
               emu.grasscutter.net.proto.ActivityTakeWatcherRewardRspOuterClass.ActivityTakeWatcherRewardRsp.class, emu.grasscutter.net.proto.ActivityTakeWatcherRewardRspOuterClass.ActivityTakeWatcherRewardRsp.Builder.class);
     }
 
-    public static final int WATCHER_ID_FIELD_NUMBER = 2;
+    public static final int WATCHER_ID_FIELD_NUMBER = 8;
     private int watcherId_;
     /**
      * <code>uint32 watcher_id = 2;</code>
@@ -144,7 +144,7 @@ public final class ActivityTakeWatcherRewardRspOuterClass {
       return watcherId_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 13;
+    public static final int RETCODE_FIELD_NUMBER = 9;
     private int retcode_;
     /**
      * <code>int32 retcode = 13;</code>
@@ -155,7 +155,7 @@ public final class ActivityTakeWatcherRewardRspOuterClass {
       return retcode_;
     }
 
-    public static final int ACTIVITY_ID_FIELD_NUMBER = 9;
+    public static final int ACTIVITY_ID_FIELD_NUMBER = 3;
     private int activityId_;
     /**
      * <code>uint32 activity_id = 9;</code>
@@ -181,13 +181,13 @@ public final class ActivityTakeWatcherRewardRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (watcherId_ != 0) {
-        output.writeUInt32(2, watcherId_);
+        output.writeUInt32(8, watcherId_);
       }
       if (activityId_ != 0) {
-        output.writeUInt32(9, activityId_);
+        output.writeUInt32(3, activityId_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(13, retcode_);
+        output.writeInt32(9, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -200,15 +200,15 @@ public final class ActivityTakeWatcherRewardRspOuterClass {
       size = 0;
       if (watcherId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, watcherId_);
+          .computeUInt32Size(8, watcherId_);
       }
       if (activityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, activityId_);
+          .computeUInt32Size(3, activityId_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(13, retcode_);
+          .computeInt32Size(9, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

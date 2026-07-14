@@ -69,17 +69,17 @@ public final class RoutePointChangeInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 45: {
+            case 117: {
 
               targetVelocity_ = input.readFloat();
               break;
             }
-            case 80: {
+            case 16: {
 
               pointIndex_ = input.readUInt32();
               break;
             }
-            case 109: {
+            case 29: {
 
               waitTime_ = input.readFloat();
               break;
@@ -116,7 +116,7 @@ public final class RoutePointChangeInfoOuterClass {
               emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo.class, emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo.Builder.class);
     }
 
-    public static final int POINT_INDEX_FIELD_NUMBER = 10;
+    public static final int POINT_INDEX_FIELD_NUMBER = 2;
     private int pointIndex_;
 
     @java.lang.Override
@@ -124,7 +124,7 @@ public final class RoutePointChangeInfoOuterClass {
       return pointIndex_;
     }
 
-    public static final int TARGET_VELOCITY_FIELD_NUMBER = 5;
+    public static final int TARGET_VELOCITY_FIELD_NUMBER = 14;
     private float targetVelocity_;
 
     @java.lang.Override
@@ -132,7 +132,7 @@ public final class RoutePointChangeInfoOuterClass {
       return targetVelocity_;
     }
 
-    public static final int WAIT_TIME_FIELD_NUMBER = 13;
+    public static final int WAIT_TIME_FIELD_NUMBER = 3;
     private float waitTime_;
 
     @java.lang.Override
@@ -155,13 +155,13 @@ public final class RoutePointChangeInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (targetVelocity_ != 0F) {
-        output.writeFloat(5, targetVelocity_);
+        output.writeFloat(14, targetVelocity_);
       }
       if (pointIndex_ != 0) {
-        output.writeUInt32(10, pointIndex_);
+        output.writeUInt32(2, pointIndex_);
       }
       if (waitTime_ != 0F) {
-        output.writeFloat(13, waitTime_);
+        output.writeFloat(3, waitTime_);
       }
       unknownFields.writeTo(output);
     }
@@ -174,15 +174,15 @@ public final class RoutePointChangeInfoOuterClass {
       size = 0;
       if (targetVelocity_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(5, targetVelocity_);
+          .computeFloatSize(14, targetVelocity_);
       }
       if (pointIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, pointIndex_);
+          .computeUInt32Size(2, pointIndex_);
       }
       if (waitTime_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(13, waitTime_);
+          .computeFloatSize(3, waitTime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -80,12 +80,12 @@ public final class TakeCompoundOutputReqOuterClass {
             case 0:
               done = true;
               break;
-            case 104: {
+            case 80: {
 
               compoundId_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 56: {
 
               compoundGroupId_ = input.readUInt32();
               break;
@@ -122,7 +122,7 @@ public final class TakeCompoundOutputReqOuterClass {
               emu.grasscutter.net.proto.TakeCompoundOutputReqOuterClass.TakeCompoundOutputReq.class, emu.grasscutter.net.proto.TakeCompoundOutputReqOuterClass.TakeCompoundOutputReq.Builder.class);
     }
 
-    public static final int COMPOUND_GROUP_ID_FIELD_NUMBER = 15;
+    public static final int COMPOUND_GROUP_ID_FIELD_NUMBER = 7;
     private int compoundGroupId_;
     /**
      * <code>uint32 compound_group_id = 1;</code>
@@ -133,7 +133,7 @@ public final class TakeCompoundOutputReqOuterClass {
       return compoundGroupId_;
     }
 
-    public static final int COMPOUND_ID_FIELD_NUMBER = 13;
+    public static final int COMPOUND_ID_FIELD_NUMBER = 10;
     private int compoundId_;
     /**
      * <code>uint32 compound_id = 2;</code>
@@ -159,10 +159,10 @@ public final class TakeCompoundOutputReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (compoundGroupId_ != 0) {
-        output.writeUInt32(15, compoundGroupId_);
+        output.writeUInt32(7, compoundGroupId_);
       }
       if (compoundId_ != 0) {
-        output.writeUInt32(13, compoundId_);
+        output.writeUInt32(10, compoundId_);
       }
       unknownFields.writeTo(output);
     }
@@ -175,11 +175,11 @@ public final class TakeCompoundOutputReqOuterClass {
       size = 0;
       if (compoundGroupId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, compoundGroupId_);
+          .computeUInt32Size(7, compoundGroupId_);
       }
       if (compoundId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, compoundId_);
+          .computeUInt32Size(10, compoundId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

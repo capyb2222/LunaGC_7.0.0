@@ -14881,7 +14881,7 @@ SCENES
   -------- ------------------- ----------------------------------------
   1         SCENE_WORLD          BigWorld_LevelStreaming
   2         SCENE_WORLD          BigWorld_LevelStreaming
-  3         SCENE_WORLD          BigWorld_LevelStreaming
+  w         SCENE_WORLD          BigWorld_LevelStreaming
   4         SCENE_WORLD          LostParadise_LevelStreaming
   5         SCENE_WORLD          AbyssalPalace_LevelStreaming
   6         SCENE_WORLD          TheChasm_LevelStreaming

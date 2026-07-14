@@ -74,7 +74,7 @@ public final class HomeChangeBgmReqOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 96: {
 
               bgmId_ = input.readUInt32();
               break;
@@ -111,7 +111,7 @@ public final class HomeChangeBgmReqOuterClass {
               emu.grasscutter.net.proto.HomeChangeBgmReqOuterClass.HomeChangeBgmReq.class, emu.grasscutter.net.proto.HomeChangeBgmReqOuterClass.HomeChangeBgmReq.Builder.class);
     }
 
-    public static final int BGM_ID_FIELD_NUMBER = 1;
+    public static final int BGM_ID_FIELD_NUMBER = 12;
     private int bgmId_;
     /**
      * <code>uint32 bgm_id = 1;</code>
@@ -137,7 +137,7 @@ public final class HomeChangeBgmReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (bgmId_ != 0) {
-        output.writeUInt32(1, bgmId_);
+        output.writeUInt32(12, bgmId_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +150,7 @@ public final class HomeChangeBgmReqOuterClass {
       size = 0;
       if (bgmId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, bgmId_);
+          .computeUInt32Size(12, bgmId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

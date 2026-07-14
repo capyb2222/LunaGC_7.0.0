@@ -98,7 +98,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 18: {
+            case 26: {
               emu.grasscutter.net.proto.MPLevelEntityInfoOuterClass.MPLevelEntityInfo.Builder subBuilder = null;
               if (mpLevelEntityInfo_ != null) {
                 subBuilder = mpLevelEntityInfo_.toBuilder();
@@ -111,17 +111,17 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
 
               break;
             }
-            case 24: {
+            case 104: {
 
               enterSceneToken_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 80: {
 
               curAvatarEntityId_ = input.readUInt32();
               break;
             }
-            case 74: {
+            case 98: {
               emu.grasscutter.net.proto.TeamEnterSceneInfoOuterClass.TeamEnterSceneInfo.Builder subBuilder = null;
               if (teamEnterInfo_ != null) {
                 subBuilder = teamEnterInfo_.toBuilder();
@@ -134,7 +134,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
 
               break;
             }
-            case 114: {
+            case 90: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 avatarEnterInfo_ = new java.util.ArrayList<emu.grasscutter.net.proto.AvatarEnterSceneInfoOuterClass.AvatarEnterSceneInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -178,7 +178,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
               emu.grasscutter.net.proto.PlayerEnterSceneInfoNotifyOuterClass.PlayerEnterSceneInfoNotify.class, emu.grasscutter.net.proto.PlayerEnterSceneInfoNotifyOuterClass.PlayerEnterSceneInfoNotify.Builder.class);
     }
 
-    public static final int AVATAR_ENTER_INFO_FIELD_NUMBER = 14;
+    public static final int AVATAR_ENTER_INFO_FIELD_NUMBER = 11;
     private java.util.List<emu.grasscutter.net.proto.AvatarEnterSceneInfoOuterClass.AvatarEnterSceneInfo> avatarEnterInfo_;
 
     @java.lang.Override
@@ -208,7 +208,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       return avatarEnterInfo_.get(index);
     }
 
-    public static final int TEAM_ENTER_INFO_FIELD_NUMBER = 9;
+    public static final int TEAM_ENTER_INFO_FIELD_NUMBER = 12;
     private emu.grasscutter.net.proto.TeamEnterSceneInfoOuterClass.TeamEnterSceneInfo teamEnterInfo_;
 
     @java.lang.Override
@@ -226,7 +226,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       return getTeamEnterInfo();
     }
 
-    public static final int MP_LEVEL_ENTITY_INFO_FIELD_NUMBER = 2;
+    public static final int MP_LEVEL_ENTITY_INFO_FIELD_NUMBER = 3;
     private emu.grasscutter.net.proto.MPLevelEntityInfoOuterClass.MPLevelEntityInfo mpLevelEntityInfo_;
 
     @java.lang.Override
@@ -244,7 +244,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       return getMpLevelEntityInfo();
     }
 
-    public static final int CUR_AVATAR_ENTITY_ID_FIELD_NUMBER = 8;
+    public static final int CUR_AVATAR_ENTITY_ID_FIELD_NUMBER = 10;
     private int curAvatarEntityId_;
 
     @java.lang.Override
@@ -252,7 +252,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       return curAvatarEntityId_;
     }
 
-    public static final int ENTER_SCENE_TOKEN_FIELD_NUMBER = 3;
+    public static final int ENTER_SCENE_TOKEN_FIELD_NUMBER = 13;
     private int enterSceneToken_;
 
     @java.lang.Override
@@ -275,19 +275,19 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < avatarEnterInfo_.size(); i++) {
-        output.writeMessage(14, avatarEnterInfo_.get(i));
+        output.writeMessage(11, avatarEnterInfo_.get(i));
       }
       if (enterSceneToken_ != 0) {
-        output.writeUInt32(3, enterSceneToken_);
+        output.writeUInt32(13, enterSceneToken_);
       }
       if (teamEnterInfo_ != null) {
-        output.writeMessage(9, getTeamEnterInfo());
+        output.writeMessage(12, getTeamEnterInfo());
       }
       if (curAvatarEntityId_ != 0) {
-        output.writeUInt32(8, curAvatarEntityId_);
+        output.writeUInt32(10, curAvatarEntityId_);
       }
       if (mpLevelEntityInfo_ != null) {
-        output.writeMessage(2, getMpLevelEntityInfo());
+        output.writeMessage(3, getMpLevelEntityInfo());
       }
       unknownFields.writeTo(output);
     }
@@ -300,23 +300,23 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       size = 0;
       for (int i = 0; i < avatarEnterInfo_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, avatarEnterInfo_.get(i));
+          .computeMessageSize(11, avatarEnterInfo_.get(i));
       }
       if (enterSceneToken_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, enterSceneToken_);
+          .computeUInt32Size(13, enterSceneToken_);
       }
       if (teamEnterInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, getTeamEnterInfo());
+          .computeMessageSize(12, getTeamEnterInfo());
       }
       if (curAvatarEntityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, curAvatarEntityId_);
+          .computeUInt32Size(10, curAvatarEntityId_);
       }
       if (mpLevelEntityInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, getMpLevelEntityInfo());
+          .computeMessageSize(3, getMpLevelEntityInfo());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -98,7 +98,7 @@ public final class HomeResourceNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 58: {
+            case 42: {
               emu.grasscutter.net.proto.HomeResourceOuterClass.HomeResource.Builder subBuilder = null;
               if (fetterExp_ != null) {
                 subBuilder = fetterExp_.toBuilder();
@@ -111,7 +111,7 @@ public final class HomeResourceNotifyOuterClass {
 
               break;
             }
-            case 82: {
+            case 98: {
               emu.grasscutter.net.proto.HomeResourceOuterClass.HomeResource.Builder subBuilder = null;
               if (homeCoin_ != null) {
                 subBuilder = homeCoin_.toBuilder();
@@ -156,7 +156,7 @@ public final class HomeResourceNotifyOuterClass {
               emu.grasscutter.net.proto.HomeResourceNotifyOuterClass.HomeResourceNotify.class, emu.grasscutter.net.proto.HomeResourceNotifyOuterClass.HomeResourceNotify.Builder.class);
     }
 
-    public static final int FETTER_EXP_FIELD_NUMBER = 7;
+    public static final int FETTER_EXP_FIELD_NUMBER = 5;
     private emu.grasscutter.net.proto.HomeResourceOuterClass.HomeResource fetterExp_;
     /**
      * <code>.HomeResource fetter_exp = 1;</code>
@@ -182,7 +182,7 @@ public final class HomeResourceNotifyOuterClass {
       return getFetterExp();
     }
 
-    public static final int HOME_COIN_FIELD_NUMBER = 10;
+    public static final int HOME_COIN_FIELD_NUMBER = 12;
     private emu.grasscutter.net.proto.HomeResourceOuterClass.HomeResource homeCoin_;
     /**
      * <code>.HomeResource home_coin = 12;</code>
@@ -223,10 +223,10 @@ public final class HomeResourceNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (fetterExp_ != null) {
-        output.writeMessage(7, getFetterExp());
+        output.writeMessage(5, getFetterExp());
       }
       if (homeCoin_ != null) {
-        output.writeMessage(10, getHomeCoin());
+        output.writeMessage(12, getHomeCoin());
       }
       unknownFields.writeTo(output);
     }
@@ -239,11 +239,11 @@ public final class HomeResourceNotifyOuterClass {
       size = 0;
       if (fetterExp_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, getFetterExp());
+          .computeMessageSize(5, getFetterExp());
       }
       if (homeCoin_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, getHomeCoin());
+          .computeMessageSize(12, getHomeCoin());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

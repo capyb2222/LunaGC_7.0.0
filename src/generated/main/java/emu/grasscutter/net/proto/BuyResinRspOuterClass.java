@@ -80,12 +80,12 @@ public final class BuyResinRspOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 96: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 40: {
+            case 32: {
 
               curValue_ = input.readUInt32();
               break;
@@ -122,7 +122,7 @@ public final class BuyResinRspOuterClass {
               emu.grasscutter.net.proto.BuyResinRspOuterClass.BuyResinRsp.class, emu.grasscutter.net.proto.BuyResinRspOuterClass.BuyResinRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 1;
+    public static final int RETCODE_FIELD_NUMBER = 12;
     private int retcode_;
     /**
      * <code>int32 retcode = 1;</code>
@@ -133,7 +133,7 @@ public final class BuyResinRspOuterClass {
       return retcode_;
     }
 
-    public static final int CUR_VALUE_FIELD_NUMBER = 5;
+    public static final int CUR_VALUE_FIELD_NUMBER = 4;
     private int curValue_;
     /**
      * <code>uint32 cur_value = 5;</code>
@@ -159,10 +159,10 @@ public final class BuyResinRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(1, retcode_);
+        output.writeInt32(12, retcode_);
       }
       if (curValue_ != 0) {
-        output.writeUInt32(5, curValue_);
+        output.writeUInt32(4, curValue_);
       }
       unknownFields.writeTo(output);
     }
@@ -175,11 +175,11 @@ public final class BuyResinRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(1, retcode_);
+          .computeInt32Size(12, retcode_);
       }
       if (curValue_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, curValue_);
+          .computeUInt32Size(4, curValue_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -97,27 +97,27 @@ public final class DragonSpineChapterInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 32: {
 
               progress_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 80: {
 
               openTime_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 112: {
 
               finishedMissionNum_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 64: {
 
               isOpen_ = input.readBool();
               break;
             }
-            case 104: {
+            case 120: {
 
               chapterId_ = input.readUInt32();
               break;
@@ -154,7 +154,7 @@ public final class DragonSpineChapterInfoOuterClass {
               emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfo.class, emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfo.Builder.class);
     }
 
-    public static final int FINISHED_MISSION_NUM_FIELD_NUMBER = 10;
+    public static final int FINISHED_MISSION_NUM_FIELD_NUMBER = 14;
     private int finishedMissionNum_;
     /**
      * <code>uint32 finished_mission_num = 10;</code>
@@ -165,7 +165,7 @@ public final class DragonSpineChapterInfoOuterClass {
       return finishedMissionNum_;
     }
 
-    public static final int PROGRESS_FIELD_NUMBER = 3;
+    public static final int PROGRESS_FIELD_NUMBER = 4;
     private int progress_;
     /**
      * <code>uint32 progress = 3;</code>
@@ -176,7 +176,7 @@ public final class DragonSpineChapterInfoOuterClass {
       return progress_;
     }
 
-    public static final int OPEN_TIME_FIELD_NUMBER = 5;
+    public static final int OPEN_TIME_FIELD_NUMBER = 10;
     private int openTime_;
     /**
      * <code>uint32 open_time = 5;</code>
@@ -187,7 +187,7 @@ public final class DragonSpineChapterInfoOuterClass {
       return openTime_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 12;
+    public static final int IS_OPEN_FIELD_NUMBER = 8;
     private boolean isOpen_;
     /**
      * <code>bool is_open = 12;</code>
@@ -198,7 +198,7 @@ public final class DragonSpineChapterInfoOuterClass {
       return isOpen_;
     }
 
-    public static final int CHAPTER_ID_FIELD_NUMBER = 13;
+    public static final int CHAPTER_ID_FIELD_NUMBER = 15;
     private int chapterId_;
     /**
      * <code>uint32 chapter_id = 13;</code>
@@ -224,19 +224,19 @@ public final class DragonSpineChapterInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (progress_ != 0) {
-        output.writeUInt32(3, progress_);
+        output.writeUInt32(4, progress_);
       }
       if (openTime_ != 0) {
-        output.writeUInt32(5, openTime_);
+        output.writeUInt32(10, openTime_);
       }
       if (finishedMissionNum_ != 0) {
-        output.writeUInt32(10, finishedMissionNum_);
+        output.writeUInt32(14, finishedMissionNum_);
       }
       if (isOpen_ != false) {
-        output.writeBool(12, isOpen_);
+        output.writeBool(8, isOpen_);
       }
       if (chapterId_ != 0) {
-        output.writeUInt32(13, chapterId_);
+        output.writeUInt32(15, chapterId_);
       }
       unknownFields.writeTo(output);
     }
@@ -249,23 +249,23 @@ public final class DragonSpineChapterInfoOuterClass {
       size = 0;
       if (progress_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, progress_);
+          .computeUInt32Size(4, progress_);
       }
       if (openTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, openTime_);
+          .computeUInt32Size(10, openTime_);
       }
       if (finishedMissionNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, finishedMissionNum_);
+          .computeUInt32Size(14, finishedMissionNum_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, isOpen_);
+          .computeBoolSize(8, isOpen_);
       }
       if (chapterId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, chapterId_);
+          .computeUInt32Size(15, chapterId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

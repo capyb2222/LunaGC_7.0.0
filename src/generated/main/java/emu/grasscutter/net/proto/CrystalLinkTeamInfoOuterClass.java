@@ -118,7 +118,7 @@ public final class CrystalLinkTeamInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 50: {
+            case 42: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 avatarInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.CrystalLinkAvatarInfoOuterClass.CrystalLinkAvatarInfo>();
                 mutable_bitField0_ |= 0x00000002;
@@ -127,7 +127,7 @@ public final class CrystalLinkTeamInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.CrystalLinkAvatarInfoOuterClass.CrystalLinkAvatarInfo.parser(), extensionRegistry));
               break;
             }
-            case 58: {
+            case 106: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 buffInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.CrystalLinkBuffInfoOuterClass.CrystalLinkBuffInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -174,7 +174,7 @@ public final class CrystalLinkTeamInfoOuterClass {
               emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfo.class, emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfo.Builder.class);
     }
 
-    public static final int BUFF_INFO_LIST_FIELD_NUMBER = 7;
+    public static final int BUFF_INFO_LIST_FIELD_NUMBER = 13;
     private java.util.List<emu.grasscutter.net.proto.CrystalLinkBuffInfoOuterClass.CrystalLinkBuffInfo> buffInfoList_;
     /**
      * <code>repeated .CrystalLinkBuffInfo buff_info_list = 7;</code>
@@ -214,7 +214,7 @@ public final class CrystalLinkTeamInfoOuterClass {
       return buffInfoList_.get(index);
     }
 
-    public static final int AVATAR_INFO_LIST_FIELD_NUMBER = 6;
+    public static final int AVATAR_INFO_LIST_FIELD_NUMBER = 5;
     private java.util.List<emu.grasscutter.net.proto.CrystalLinkAvatarInfoOuterClass.CrystalLinkAvatarInfo> avatarInfoList_;
     /**
      * <code>repeated .CrystalLinkAvatarInfo avatar_info_list = 6;</code>
@@ -269,10 +269,10 @@ public final class CrystalLinkTeamInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < avatarInfoList_.size(); i++) {
-        output.writeMessage(6, avatarInfoList_.get(i));
+        output.writeMessage(5, avatarInfoList_.get(i));
       }
       for (int i = 0; i < buffInfoList_.size(); i++) {
-        output.writeMessage(7, buffInfoList_.get(i));
+        output.writeMessage(13, buffInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -285,11 +285,11 @@ public final class CrystalLinkTeamInfoOuterClass {
       size = 0;
       for (int i = 0; i < avatarInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, avatarInfoList_.get(i));
+          .computeMessageSize(5, avatarInfoList_.get(i));
       }
       for (int i = 0; i < buffInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, buffInfoList_.get(i));
+          .computeMessageSize(13, buffInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

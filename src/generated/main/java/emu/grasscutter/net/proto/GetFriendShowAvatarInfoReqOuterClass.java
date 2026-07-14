@@ -74,7 +74,7 @@ public final class GetFriendShowAvatarInfoReqOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 32: {
 
               uid_ = input.readUInt32();
               break;
@@ -111,7 +111,7 @@ public final class GetFriendShowAvatarInfoReqOuterClass {
               emu.grasscutter.net.proto.GetFriendShowAvatarInfoReqOuterClass.GetFriendShowAvatarInfoReq.class, emu.grasscutter.net.proto.GetFriendShowAvatarInfoReqOuterClass.GetFriendShowAvatarInfoReq.Builder.class);
     }
 
-    public static final int UID_FIELD_NUMBER = 1;
+    public static final int UID_FIELD_NUMBER = 4;
     private int uid_;
     /**
      * <code>uint32 uid = 1;</code>
@@ -137,7 +137,7 @@ public final class GetFriendShowAvatarInfoReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (uid_ != 0) {
-        output.writeUInt32(1, uid_);
+        output.writeUInt32(4, uid_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +150,7 @@ public final class GetFriendShowAvatarInfoReqOuterClass {
       size = 0;
       if (uid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, uid_);
+          .computeUInt32Size(4, uid_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

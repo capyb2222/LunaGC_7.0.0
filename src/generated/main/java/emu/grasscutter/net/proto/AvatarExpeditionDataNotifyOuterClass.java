@@ -89,7 +89,7 @@ public final class AvatarExpeditionDataNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 74: {
+            case 90: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 expeditionInfoMap_ = com.google.protobuf.MapField.newMapField(
                     ExpeditionInfoMapDefaultEntryHolder.defaultEntry);
@@ -146,7 +146,7 @@ public final class AvatarExpeditionDataNotifyOuterClass {
               emu.grasscutter.net.proto.AvatarExpeditionDataNotifyOuterClass.AvatarExpeditionDataNotify.class, emu.grasscutter.net.proto.AvatarExpeditionDataNotifyOuterClass.AvatarExpeditionDataNotify.Builder.class);
     }
 
-    public static final int EXPEDITION_INFO_MAP_FIELD_NUMBER = 9;
+    public static final int EXPEDITION_INFO_MAP_FIELD_NUMBER = 11;
     private static final class ExpeditionInfoMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Long, emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo> defaultEntry =
@@ -237,7 +237,7 @@ public final class AvatarExpeditionDataNotifyOuterClass {
           output,
           internalGetExpeditionInfoMap(),
           ExpeditionInfoMapDefaultEntryHolder.defaultEntry,
-          9);
+          11);
       unknownFields.writeTo(output);
     }
 
@@ -255,7 +255,7 @@ public final class AvatarExpeditionDataNotifyOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(9, expeditionInfoMap__);
+            .computeMessageSize(11, expeditionInfoMap__);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -69,7 +69,7 @@ public final class SetPlayerHeadImageReqOuterClass {
             case 0:
               done = true;
               break;
-            case 80: {
+            case 88: {
 
               profilePictureId_ = input.readUInt32();
               break;
@@ -106,7 +106,7 @@ public final class SetPlayerHeadImageReqOuterClass {
               emu.grasscutter.net.proto.SetPlayerHeadImageReqOuterClass.SetPlayerHeadImageReq.class, emu.grasscutter.net.proto.SetPlayerHeadImageReqOuterClass.SetPlayerHeadImageReq.Builder.class);
     }
 
-    public static final int PROFILE_PICTURE_ID_FIELD_NUMBER = 10;
+    public static final int PROFILE_PICTURE_ID_FIELD_NUMBER = 11;
     private int profilePictureId_;
     /**
      * <code>uint32 profile_picture_id = 10;</code>
@@ -132,7 +132,7 @@ public final class SetPlayerHeadImageReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (profilePictureId_ != 0) {
-        output.writeUInt32(10, profilePictureId_);
+        output.writeUInt32(11, profilePictureId_);
       }
       unknownFields.writeTo(output);
     }
@@ -145,7 +145,7 @@ public final class SetPlayerHeadImageReqOuterClass {
       size = 0;
       if (profilePictureId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, profilePictureId_);
+          .computeUInt32Size(11, profilePictureId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

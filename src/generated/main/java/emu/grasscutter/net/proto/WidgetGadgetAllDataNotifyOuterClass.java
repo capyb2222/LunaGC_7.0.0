@@ -94,7 +94,7 @@ public final class WidgetGadgetAllDataNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 122: {
+            case 26: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 widgetGadgetData_ = new java.util.ArrayList<emu.grasscutter.net.proto.WidgetGadgetDataOuterClass.WidgetGadgetData>();
                 mutable_bitField0_ |= 0x00000001;
@@ -138,7 +138,7 @@ public final class WidgetGadgetAllDataNotifyOuterClass {
               emu.grasscutter.net.proto.WidgetGadgetAllDataNotifyOuterClass.WidgetGadgetAllDataNotify.class, emu.grasscutter.net.proto.WidgetGadgetAllDataNotifyOuterClass.WidgetGadgetAllDataNotify.Builder.class);
     }
 
-    public static final int WIDGET_GADGET_DATA_FIELD_NUMBER = 15;
+    public static final int WIDGET_GADGET_DATA_FIELD_NUMBER = 3;
     private java.util.List<emu.grasscutter.net.proto.WidgetGadgetDataOuterClass.WidgetGadgetData> widgetGadgetData_;
     /**
      * <code>repeated .WidgetGadgetData widget_gadget_data = 15;</code>
@@ -193,7 +193,7 @@ public final class WidgetGadgetAllDataNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < widgetGadgetData_.size(); i++) {
-        output.writeMessage(15, widgetGadgetData_.get(i));
+        output.writeMessage(3, widgetGadgetData_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -206,7 +206,7 @@ public final class WidgetGadgetAllDataNotifyOuterClass {
       size = 0;
       for (int i = 0; i < widgetGadgetData_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, widgetGadgetData_.get(i));
+          .computeMessageSize(3, widgetGadgetData_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

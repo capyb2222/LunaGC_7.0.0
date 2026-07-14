@@ -128,7 +128,7 @@ public final class SummerTimeDetailInfoOuterClass {
 
               break;
             }
-            case 72: {
+            case 8: {
 
               contentCloseTime_ = input.readUInt32();
               break;
@@ -297,7 +297,7 @@ public final class SummerTimeDetailInfoOuterClass {
       return map.get(key);
     }
 
-    public static final int CONTENT_CLOSE_TIME_FIELD_NUMBER = 9;
+    public static final int CONTENT_CLOSE_TIME_FIELD_NUMBER = 1;
     private int contentCloseTime_;
 
     @java.lang.Override
@@ -323,7 +323,7 @@ public final class SummerTimeDetailInfoOuterClass {
         output.writeMessage(6, getGLFNEFCNJJG());
       }
       if (contentCloseTime_ != 0) {
-        output.writeUInt32(9, contentCloseTime_);
+        output.writeUInt32(1, contentCloseTime_);
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
@@ -346,7 +346,7 @@ public final class SummerTimeDetailInfoOuterClass {
       }
       if (contentCloseTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, contentCloseTime_);
+          .computeUInt32Size(1, contentCloseTime_);
       }
       for (java.util.Map.Entry<java.lang.Integer, emu.grasscutter.net.proto.PHMDLFLKFDIOuterClass.PHMDLFLKFDI> entry
            : internalGetLKKGLNEAMLJ().getMap().entrySet()) {

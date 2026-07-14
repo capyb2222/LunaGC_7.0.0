@@ -105,7 +105,7 @@ public final class AvatarEnterSceneInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
+            case 82: {
               emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder subBuilder = null;
               if (avatarAbilityInfo_ != null) {
                 subBuilder = avatarAbilityInfo_.toBuilder();
@@ -131,7 +131,7 @@ public final class AvatarEnterSceneInfoOuterClass {
 
               break;
             }
-            case 72: {
+            case 104: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 buffIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -139,7 +139,7 @@ public final class AvatarEnterSceneInfoOuterClass {
               buffIdList_.addInt(input.readUInt32());
               break;
             }
-            case 74: {
+            case 106: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -152,12 +152,12 @@ public final class AvatarEnterSceneInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 80: {
+            case 120: {
 
               avatarGuid_ = input.readUInt64();
               break;
             }
-            case 90: {
+            case 66: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 serverBuffList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff>();
                 mutable_bitField0_ |= 0x00000002;
@@ -166,17 +166,17 @@ public final class AvatarEnterSceneInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.parser(), extensionRegistry));
               break;
             }
-            case 96: {
+            case 112: {
 
               weaponEntityId_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 24: {
 
               avatarEntityId_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 40: {
 
               weaponGuid_ = input.readUInt64();
               break;
@@ -237,7 +237,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       return getWeaponAbilityInfo();
     }
 
-    public static final int AVATAR_ABILITY_INFO_FIELD_NUMBER = 1;
+    public static final int AVATAR_ABILITY_INFO_FIELD_NUMBER = 10;
     private emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo avatarAbilityInfo_;
 
     @java.lang.Override
@@ -255,7 +255,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       return getAvatarAbilityInfo();
     }
 
-    public static final int BUFF_ID_LIST_FIELD_NUMBER = 9;
+    public static final int BUFF_ID_LIST_FIELD_NUMBER = 13;
     private com.google.protobuf.Internal.IntList buffIdList_;
 
     @java.lang.Override
@@ -273,7 +273,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     }
     private int buffIdListMemoizedSerializedSize = -1;
 
-    public static final int SERVER_BUFF_LIST_FIELD_NUMBER = 11;
+    public static final int SERVER_BUFF_LIST_FIELD_NUMBER = 8;
     private java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff> serverBuffList_;
 
     @java.lang.Override
@@ -303,7 +303,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       return serverBuffList_.get(index);
     }
 
-    public static final int WEAPON_GUID_FIELD_NUMBER = 14;
+    public static final int WEAPON_GUID_FIELD_NUMBER = 5;
     private long weaponGuid_;
 
     @java.lang.Override
@@ -311,7 +311,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       return weaponGuid_;
     }
 
-    public static final int WEAPON_ENTITY_ID_FIELD_NUMBER = 12;
+    public static final int WEAPON_ENTITY_ID_FIELD_NUMBER = 14;
     private int weaponEntityId_;
 
     @java.lang.Override
@@ -319,7 +319,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       return weaponEntityId_;
     }
 
-    public static final int AVATAR_ENTITY_ID_FIELD_NUMBER = 13;
+    public static final int AVATAR_ENTITY_ID_FIELD_NUMBER = 3;
     private int avatarEntityId_;
 
     @java.lang.Override
@@ -327,7 +327,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       return avatarEntityId_;
     }
 
-    public static final int AVATAR_GUID_FIELD_NUMBER = 10;
+    public static final int AVATAR_GUID_FIELD_NUMBER = 15;
     private long avatarGuid_;
 
     @java.lang.Override
@@ -351,32 +351,32 @@ public final class AvatarEnterSceneInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (avatarAbilityInfo_ != null) {
-        output.writeMessage(1, getAvatarAbilityInfo());
+        output.writeMessage(10, getAvatarAbilityInfo());
       }
       if (weaponAbilityInfo_ != null) {
         output.writeMessage(6, getWeaponAbilityInfo());
       }
       if (getBuffIdListList().size() > 0) {
-        output.writeUInt32NoTag(74);
+        output.writeUInt32NoTag(106);
         output.writeUInt32NoTag(buffIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < buffIdList_.size(); i++) {
         output.writeUInt32NoTag(buffIdList_.getInt(i));
       }
       if (avatarGuid_ != 0L) {
-        output.writeUInt64(10, avatarGuid_);
+        output.writeUInt64(15, avatarGuid_);
       }
       for (int i = 0; i < serverBuffList_.size(); i++) {
-        output.writeMessage(11, serverBuffList_.get(i));
+        output.writeMessage(8, serverBuffList_.get(i));
       }
       if (weaponEntityId_ != 0) {
-        output.writeUInt32(12, weaponEntityId_);
+        output.writeUInt32(14, weaponEntityId_);
       }
       if (avatarEntityId_ != 0) {
-        output.writeUInt32(13, avatarEntityId_);
+        output.writeUInt32(3, avatarEntityId_);
       }
       if (weaponGuid_ != 0L) {
-        output.writeUInt64(14, weaponGuid_);
+        output.writeUInt64(5, weaponGuid_);
       }
       unknownFields.writeTo(output);
     }
@@ -389,7 +389,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       size = 0;
       if (avatarAbilityInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getAvatarAbilityInfo());
+          .computeMessageSize(10, getAvatarAbilityInfo());
       }
       if (weaponAbilityInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -411,23 +411,23 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(10, avatarGuid_);
+          .computeUInt64Size(15, avatarGuid_);
       }
       for (int i = 0; i < serverBuffList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, serverBuffList_.get(i));
+          .computeMessageSize(8, serverBuffList_.get(i));
       }
       if (weaponEntityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, weaponEntityId_);
+          .computeUInt32Size(14, weaponEntityId_);
       }
       if (avatarEntityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, avatarEntityId_);
+          .computeUInt32Size(3, avatarEntityId_);
       }
       if (weaponGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(14, weaponGuid_);
+          .computeUInt64Size(5, weaponGuid_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -91,22 +91,22 @@ public final class SummerTimeV2DungeonStageInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 32: {
 
               isOpen_ = input.readBool();
               break;
             }
-            case 16: {
+            case 64: {
 
               stageId_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 48: {
 
               isPrevDungeonSucceed_ = input.readBool();
               break;
             }
-            case 104: {
+            case 88: {
 
               openTime_ = input.readUInt32();
               break;
@@ -143,7 +143,7 @@ public final class SummerTimeV2DungeonStageInfoOuterClass {
               emu.grasscutter.net.proto.SummerTimeV2DungeonStageInfoOuterClass.SummerTimeV2DungeonStageInfo.class, emu.grasscutter.net.proto.SummerTimeV2DungeonStageInfoOuterClass.SummerTimeV2DungeonStageInfo.Builder.class);
     }
 
-    public static final int IS_PREV_DUNGEON_SUCCEED_FIELD_NUMBER = 12;
+    public static final int IS_PREV_DUNGEON_SUCCEED_FIELD_NUMBER = 6;
     private boolean isPrevDungeonSucceed_;
     /**
      * <code>bool is_prev_dungeon_succeed = 12;</code>
@@ -154,7 +154,7 @@ public final class SummerTimeV2DungeonStageInfoOuterClass {
       return isPrevDungeonSucceed_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 1;
+    public static final int IS_OPEN_FIELD_NUMBER = 4;
     private boolean isOpen_;
     /**
      * <code>bool is_open = 1;</code>
@@ -165,7 +165,7 @@ public final class SummerTimeV2DungeonStageInfoOuterClass {
       return isOpen_;
     }
 
-    public static final int OPEN_TIME_FIELD_NUMBER = 13;
+    public static final int OPEN_TIME_FIELD_NUMBER = 11;
     private int openTime_;
     /**
      * <code>uint32 open_time = 13;</code>
@@ -176,7 +176,7 @@ public final class SummerTimeV2DungeonStageInfoOuterClass {
       return openTime_;
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 2;
+    public static final int STAGE_ID_FIELD_NUMBER = 8;
     private int stageId_;
     /**
      * <code>uint32 stage_id = 2;</code>
@@ -202,16 +202,16 @@ public final class SummerTimeV2DungeonStageInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isOpen_ != false) {
-        output.writeBool(1, isOpen_);
+        output.writeBool(4, isOpen_);
       }
       if (stageId_ != 0) {
-        output.writeUInt32(2, stageId_);
+        output.writeUInt32(8, stageId_);
       }
       if (isPrevDungeonSucceed_ != false) {
-        output.writeBool(12, isPrevDungeonSucceed_);
+        output.writeBool(6, isPrevDungeonSucceed_);
       }
       if (openTime_ != 0) {
-        output.writeUInt32(13, openTime_);
+        output.writeUInt32(11, openTime_);
       }
       unknownFields.writeTo(output);
     }
@@ -224,19 +224,19 @@ public final class SummerTimeV2DungeonStageInfoOuterClass {
       size = 0;
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1, isOpen_);
+          .computeBoolSize(4, isOpen_);
       }
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, stageId_);
+          .computeUInt32Size(8, stageId_);
       }
       if (isPrevDungeonSucceed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, isPrevDungeonSucceed_);
+          .computeBoolSize(6, isPrevDungeonSucceed_);
       }
       if (openTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, openTime_);
+          .computeUInt32Size(11, openTime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

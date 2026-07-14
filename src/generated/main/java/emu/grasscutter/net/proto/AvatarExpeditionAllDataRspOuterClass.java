@@ -100,7 +100,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
+            case 98: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 expeditionInfoMap_ = com.google.protobuf.MapField.newMapField(
                     ExpeditionInfoMapDefaultEntryHolder.defaultEntry);
@@ -113,12 +113,12 @@ public final class AvatarExpeditionAllDataRspOuterClass {
                   expeditionInfoMap__.getKey(), expeditionInfoMap__.getValue());
               break;
             }
-            case 56: {
+            case 48: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 64: {
+            case 40: {
 
               expeditionCountLimit_ = input.readUInt32();
               break;
@@ -209,7 +209,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
     }
     private int openExpeditionListMemoizedSerializedSize = -1;
 
-    public static final int EXPEDITION_INFO_MAP_FIELD_NUMBER = 1;
+    public static final int EXPEDITION_INFO_MAP_FIELD_NUMBER = 12;
     private static final class ExpeditionInfoMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Long, emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo> defaultEntry =
@@ -281,7 +281,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
       return map.get(key);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 7;
+    public static final int RETCODE_FIELD_NUMBER = 6;
     private int retcode_;
 
     @java.lang.Override
@@ -289,7 +289,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
       return retcode_;
     }
 
-    public static final int EXPEDITION_COUNT_LIMIT_FIELD_NUMBER = 8;
+    public static final int EXPEDITION_COUNT_LIMIT_FIELD_NUMBER = 5;
     private int expeditionCountLimit_;
 
     @java.lang.Override
@@ -317,12 +317,12 @@ public final class AvatarExpeditionAllDataRspOuterClass {
           output,
           internalGetExpeditionInfoMap(),
           ExpeditionInfoMapDefaultEntryHolder.defaultEntry,
-          1);
+          12);
       if (retcode_ != 0) {
-        output.writeInt32(7, retcode_);
+        output.writeInt32(6, retcode_);
       }
       if (expeditionCountLimit_ != 0) {
-        output.writeUInt32(8, expeditionCountLimit_);
+        output.writeUInt32(5, expeditionCountLimit_);
       }
       if (getOpenExpeditionListList().size() > 0) {
         output.writeUInt32NoTag(106);
@@ -348,15 +348,15 @@ public final class AvatarExpeditionAllDataRspOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(1, expeditionInfoMap__);
+            .computeMessageSize(12, expeditionInfoMap__);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(7, retcode_);
+          .computeInt32Size(6, retcode_);
       }
       if (expeditionCountLimit_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, expeditionCountLimit_);
+          .computeUInt32Size(5, expeditionCountLimit_);
       }
       {
         int dataSize = 0;

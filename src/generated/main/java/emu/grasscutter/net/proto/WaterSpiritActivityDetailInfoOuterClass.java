@@ -119,7 +119,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
                   pOBHLFCOGEE__.getKey(), pOBHLFCOGEE__.getValue());
               break;
             }
-            case 56: {
+            case 32: {
 
               mpPlayId_ = input.readUInt32();
               break;
@@ -254,7 +254,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       return map.get(key);
     }
 
-    public static final int MP_PLAY_ID_FIELD_NUMBER = 7;
+    public static final int MP_PLAY_ID_FIELD_NUMBER = 4;
     private int mpPlayId_;
 
     @java.lang.Override
@@ -294,7 +294,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
           POBHLFCOGEEDefaultEntryHolder.defaultEntry,
           2);
       if (mpPlayId_ != 0) {
-        output.writeUInt32(7, mpPlayId_);
+        output.writeUInt32(4, mpPlayId_);
       }
       if (iAGHDGAHKHL_ != 0) {
         output.writeUInt32(12, iAGHDGAHKHL_);
@@ -320,7 +320,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       }
       if (mpPlayId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, mpPlayId_);
+          .computeUInt32Size(4, mpPlayId_);
       }
       if (iAGHDGAHKHL_ != 0) {
         size += com.google.protobuf.CodedOutputStream

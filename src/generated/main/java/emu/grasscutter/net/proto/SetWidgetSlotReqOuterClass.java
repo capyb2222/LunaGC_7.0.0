@@ -87,7 +87,7 @@ public final class SetWidgetSlotReqOuterClass {
             case 0:
               done = true;
               break;
-            case 96: {
+            case 112: {
               int rawValue = input.readEnum();
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 tagList_ = new java.util.ArrayList<java.lang.Integer>();
@@ -96,7 +96,7 @@ public final class SetWidgetSlotReqOuterClass {
               tagList_.add(rawValue);
               break;
             }
-            case 98: {
+            case 114: {
               int length = input.readRawVarint32();
               int oldLimit = input.pushLimit(length);
               while(input.getBytesUntilLimit() > 0) {
@@ -110,13 +110,13 @@ public final class SetWidgetSlotReqOuterClass {
               input.popLimit(oldLimit);
               break;
             }
-            case 80: {
+            case 40: {
               int rawValue = input.readEnum();
 
               op_ = rawValue;
               break;
             }
-            case 40: {
+            case 64: {
 
               materialId_ = input.readUInt32();
               break;
@@ -156,7 +156,7 @@ public final class SetWidgetSlotReqOuterClass {
               emu.grasscutter.net.proto.SetWidgetSlotReqOuterClass.SetWidgetSlotReq.class, emu.grasscutter.net.proto.SetWidgetSlotReqOuterClass.SetWidgetSlotReq.Builder.class);
     }
 
-    public static final int TAG_LIST_FIELD_NUMBER = 12;
+    public static final int TAG_LIST_FIELD_NUMBER = 14;
     private java.util.List<java.lang.Integer> tagList_;
     private static final com.google.protobuf.Internal.ListAdapter.Converter<
         java.lang.Integer, emu.grasscutter.net.proto.WidgetSlotTagOuterClass.WidgetSlotTag> tagList_converter_ =
@@ -197,7 +197,7 @@ public final class SetWidgetSlotReqOuterClass {
     }
     private int tagListMemoizedSerializedSize;
 
-    public static final int MATERIAL_ID_FIELD_NUMBER = 5;
+    public static final int MATERIAL_ID_FIELD_NUMBER = 8;
     private int materialId_;
 
     @java.lang.Override
@@ -205,7 +205,7 @@ public final class SetWidgetSlotReqOuterClass {
       return materialId_;
     }
 
-    public static final int OP_FIELD_NUMBER = 10;
+    public static final int OP_FIELD_NUMBER = 5;
     private int op_;
 
     @java.lang.Override public int getOpValue() {
@@ -234,17 +234,17 @@ public final class SetWidgetSlotReqOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getTagListList().size() > 0) {
-        output.writeUInt32NoTag(98);
+        output.writeUInt32NoTag(114);
         output.writeUInt32NoTag(tagListMemoizedSerializedSize);
       }
       for (int i = 0; i < tagList_.size(); i++) {
         output.writeEnumNoTag(tagList_.get(i));
       }
       if (op_ != emu.grasscutter.net.proto.WidgetSlotOpOuterClass.WidgetSlotOp.WidgetSlotOp_ATTACH.getNumber()) {
-        output.writeEnum(10, op_);
+        output.writeEnum(5, op_);
       }
       if (materialId_ != 0) {
-        output.writeUInt32(5, materialId_);
+        output.writeUInt32(8, materialId_);
       }
       unknownFields.writeTo(output);
     }
@@ -269,11 +269,11 @@ public final class SetWidgetSlotReqOuterClass {
       }
       if (op_ != emu.grasscutter.net.proto.WidgetSlotOpOuterClass.WidgetSlotOp.WidgetSlotOp_ATTACH.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(10, op_);
+          .computeEnumSize(5, op_);
       }
       if (materialId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, materialId_);
+          .computeUInt32Size(8, materialId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

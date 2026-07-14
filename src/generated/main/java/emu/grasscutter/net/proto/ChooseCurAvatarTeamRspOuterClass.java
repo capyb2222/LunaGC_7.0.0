@@ -80,12 +80,12 @@ public final class ChooseCurAvatarTeamRspOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 88: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 88: {
+            case 48: {
 
               curTeamId_ = input.readUInt32();
               break;
@@ -122,7 +122,7 @@ public final class ChooseCurAvatarTeamRspOuterClass {
               emu.grasscutter.net.proto.ChooseCurAvatarTeamRspOuterClass.ChooseCurAvatarTeamRsp.class, emu.grasscutter.net.proto.ChooseCurAvatarTeamRspOuterClass.ChooseCurAvatarTeamRsp.Builder.class);
     }
 
-    public static final int CUR_TEAM_ID_FIELD_NUMBER = 11;
+    public static final int CUR_TEAM_ID_FIELD_NUMBER = 6;
     private int curTeamId_;
     /**
      * <code>uint32 cur_team_id = 10;</code>
@@ -133,7 +133,7 @@ public final class ChooseCurAvatarTeamRspOuterClass {
       return curTeamId_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 4;
+    public static final int RETCODE_FIELD_NUMBER = 11;
     private int retcode_;
     /**
      * <code>int32 retcode = 2;</code>
@@ -159,10 +159,10 @@ public final class ChooseCurAvatarTeamRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(4, retcode_);
+        output.writeInt32(11, retcode_);
       }
       if (curTeamId_ != 0) {
-        output.writeUInt32(11, curTeamId_);
+        output.writeUInt32(6, curTeamId_);
       }
       unknownFields.writeTo(output);
     }
@@ -175,11 +175,11 @@ public final class ChooseCurAvatarTeamRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(4, retcode_);
+          .computeInt32Size(11, retcode_);
       }
       if (curTeamId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, curTeamId_);
+          .computeUInt32Size(6, curTeamId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

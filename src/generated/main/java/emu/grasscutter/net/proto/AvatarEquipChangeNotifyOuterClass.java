@@ -87,22 +87,22 @@ public final class AvatarEquipChangeNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 48: {
 
               equipGuid_ = input.readUInt64();
               break;
             }
-            case 40: {
+            case 32: {
 
               equipType_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 96: {
 
               avatarGuid_ = input.readUInt64();
               break;
             }
-            case 58: {
+            case 74: {
               emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder subBuilder = null;
               if (weapon_ != null) {
                 subBuilder = weapon_.toBuilder();
@@ -115,7 +115,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
 
               break;
             }
-            case 72: {
+            case 24: {
 
               itemId_ = input.readUInt32();
               break;
@@ -165,7 +165,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
               emu.grasscutter.net.proto.AvatarEquipChangeNotifyOuterClass.AvatarEquipChangeNotify.class, emu.grasscutter.net.proto.AvatarEquipChangeNotifyOuterClass.AvatarEquipChangeNotify.Builder.class);
     }
 
-    public static final int WEAPON_FIELD_NUMBER = 7;
+    public static final int WEAPON_FIELD_NUMBER = 9;
     private emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo weapon_;
 
     @java.lang.Override
@@ -201,7 +201,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       return getReliquary();
     }
 
-    public static final int EQUIP_GUID_FIELD_NUMBER = 2;
+    public static final int EQUIP_GUID_FIELD_NUMBER = 6;
     private long equipGuid_;
 
     @java.lang.Override
@@ -209,7 +209,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       return equipGuid_;
     }
 
-    public static final int EQUIP_TYPE_FIELD_NUMBER = 5;
+    public static final int EQUIP_TYPE_FIELD_NUMBER = 4;
     private int equipType_;
 
     @java.lang.Override
@@ -217,7 +217,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       return equipType_;
     }
 
-    public static final int ITEM_ID_FIELD_NUMBER = 9;
+    public static final int ITEM_ID_FIELD_NUMBER = 3;
     private int itemId_;
 
     @java.lang.Override
@@ -225,7 +225,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       return itemId_;
     }
 
-    public static final int AVATAR_GUID_FIELD_NUMBER = 6;
+    public static final int AVATAR_GUID_FIELD_NUMBER = 12;
     private long avatarGuid_;
 
     @java.lang.Override
@@ -248,22 +248,22 @@ public final class AvatarEquipChangeNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (equipType_ != 0) {
-        output.writeUInt32(5, equipType_);
+        output.writeUInt32(4, equipType_);
       }
       if (weapon_ != null) {
-        output.writeMessage(7, getWeapon());
+        output.writeMessage(9, getWeapon());
       }
       if (avatarGuid_ != 0L) {
-        output.writeUInt64(6, avatarGuid_);
+        output.writeUInt64(12, avatarGuid_);
       }
       if (itemId_ != 0) {
-        output.writeUInt32(9, itemId_);
+        output.writeUInt32(3, itemId_);
       }
       if (reliquary_ != null) {
         output.writeMessage(10, getReliquary());
       }
       if (equipGuid_ != 0L) {
-        output.writeUInt64(2, equipGuid_);
+        output.writeUInt64(6, equipGuid_);
       }
       unknownFields.writeTo(output);
     }
@@ -276,19 +276,19 @@ public final class AvatarEquipChangeNotifyOuterClass {
       size = 0;
       if (equipType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, equipType_);
+          .computeUInt32Size(4, equipType_);
       }
       if (weapon_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, getWeapon());
+          .computeMessageSize(9, getWeapon());
       }
       if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(6, avatarGuid_);
+          .computeUInt64Size(12, avatarGuid_);
       }
       if (itemId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, itemId_);
+          .computeUInt32Size(3, itemId_);
       }
       if (reliquary_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -296,7 +296,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       }
       if (equipGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(2, equipGuid_);
+          .computeUInt64Size(6, equipGuid_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

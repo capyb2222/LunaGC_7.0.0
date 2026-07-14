@@ -85,32 +85,32 @@ public final class GachaWishRspOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 64: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 24: {
+            case 112: {
 
               gachaType_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 48: {
 
               wishProgress_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 24: {
 
               gachaScheduleId_ = input.readUInt32();
               break;
             }
-            case 56: {
+            case 8: {
 
               wishItemId_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 40: {
 
               wishMaxProgress_ = input.readUInt32();
               break;
@@ -152,7 +152,7 @@ public final class GachaWishRspOuterClass {
               emu.grasscutter.net.proto.GachaWishRspOuterClass.GachaWishRsp.class, emu.grasscutter.net.proto.GachaWishRspOuterClass.GachaWishRsp.Builder.class);
     }
 
-    public static final int WISH_PROGRESS_FIELD_NUMBER = 5;
+    public static final int WISH_PROGRESS_FIELD_NUMBER = 6;
     private int wishProgress_;
 
     @java.lang.Override
@@ -160,7 +160,7 @@ public final class GachaWishRspOuterClass {
       return wishProgress_;
     }
 
-    public static final int WISH_ITEM_ID_FIELD_NUMBER = 7;
+    public static final int WISH_ITEM_ID_FIELD_NUMBER = 1;
     private int wishItemId_;
 
     @java.lang.Override
@@ -168,7 +168,7 @@ public final class GachaWishRspOuterClass {
       return wishItemId_;
     }
 
-    public static final int GACHA_SCHEDULE_ID_FIELD_NUMBER = 6;
+    public static final int GACHA_SCHEDULE_ID_FIELD_NUMBER = 3;
     private int gachaScheduleId_;
 
     @java.lang.Override
@@ -176,7 +176,7 @@ public final class GachaWishRspOuterClass {
       return gachaScheduleId_;
     }
 
-    public static final int GACHA_TYPE_FIELD_NUMBER = 3;
+    public static final int GACHA_TYPE_FIELD_NUMBER = 14;
     private int gachaType_;
 
     @java.lang.Override
@@ -184,7 +184,7 @@ public final class GachaWishRspOuterClass {
       return gachaType_;
     }
 
-    public static final int WISH_MAX_PROGRESS_FIELD_NUMBER = 11;
+    public static final int WISH_MAX_PROGRESS_FIELD_NUMBER = 5;
     private int wishMaxProgress_;
 
     @java.lang.Override
@@ -192,7 +192,7 @@ public final class GachaWishRspOuterClass {
       return wishMaxProgress_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 1;
+    public static final int RETCODE_FIELD_NUMBER = 8;
     private int retcode_;
 
     @java.lang.Override
@@ -226,22 +226,22 @@ public final class GachaWishRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(1, retcode_);
+        output.writeInt32(8, retcode_);
       }
       if (gachaType_ != 0) {
-        output.writeUInt32(3, gachaType_);
+        output.writeUInt32(14, gachaType_);
       }
       if (wishProgress_ != 0) {
-        output.writeUInt32(5, wishProgress_);
+        output.writeUInt32(6, wishProgress_);
       }
       if (gachaScheduleId_ != 0) {
-        output.writeUInt32(6, gachaScheduleId_);
+        output.writeUInt32(3, gachaScheduleId_);
       }
       if (wishItemId_ != 0) {
-        output.writeUInt32(7, wishItemId_);
+        output.writeUInt32(1, wishItemId_);
       }
       if (wishMaxProgress_ != 0) {
-        output.writeUInt32(11, wishMaxProgress_);
+        output.writeUInt32(5, wishMaxProgress_);
       }
       if (tenCostItemId_ != 0) {
         output.writeUInt32(15, tenCostItemId_);
@@ -257,27 +257,27 @@ public final class GachaWishRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(1, retcode_);
+          .computeInt32Size(8, retcode_);
       }
       if (gachaType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, gachaType_);
+          .computeUInt32Size(14, gachaType_);
       }
       if (wishProgress_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, wishProgress_);
+          .computeUInt32Size(6, wishProgress_);
       }
       if (gachaScheduleId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, gachaScheduleId_);
+          .computeUInt32Size(3, gachaScheduleId_);
       }
       if (wishItemId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, wishItemId_);
+          .computeUInt32Size(1, wishItemId_);
       }
       if (wishMaxProgress_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, wishMaxProgress_);
+          .computeUInt32Size(5, wishMaxProgress_);
       }
       if (tenCostItemId_ != 0) {
         size += com.google.protobuf.CodedOutputStream

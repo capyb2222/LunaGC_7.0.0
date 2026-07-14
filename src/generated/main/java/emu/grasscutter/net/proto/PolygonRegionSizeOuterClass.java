@@ -80,7 +80,7 @@ public final class PolygonRegionSizeOuterClass {
             case 0:
               done = true;
               break;
-            case 26: {
+            case 74: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 pointList_ = new java.util.ArrayList<emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane>();
                 mutable_bitField0_ |= 0x00000001;
@@ -89,7 +89,7 @@ public final class PolygonRegionSizeOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane.parser(), extensionRegistry));
               break;
             }
-            case 77: {
+            case 93: {
 
               height_ = input.readFloat();
               break;
@@ -129,7 +129,7 @@ public final class PolygonRegionSizeOuterClass {
               emu.grasscutter.net.proto.PolygonRegionSizeOuterClass.PolygonRegionSize.class, emu.grasscutter.net.proto.PolygonRegionSizeOuterClass.PolygonRegionSize.Builder.class);
     }
 
-    public static final int POINT_LIST_FIELD_NUMBER = 3;
+    public static final int POINT_LIST_FIELD_NUMBER = 9;
     private java.util.List<emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane> pointList_;
 
     @java.lang.Override
@@ -159,7 +159,7 @@ public final class PolygonRegionSizeOuterClass {
       return pointList_.get(index);
     }
 
-    public static final int HEIGHT_FIELD_NUMBER = 9;
+    public static final int HEIGHT_FIELD_NUMBER = 11;
     private float height_;
 
     @java.lang.Override
@@ -182,10 +182,10 @@ public final class PolygonRegionSizeOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < pointList_.size(); i++) {
-        output.writeMessage(3, pointList_.get(i));
+        output.writeMessage(9, pointList_.get(i));
       }
       if (height_ != 0F) {
-        output.writeFloat(9, height_);
+        output.writeFloat(11, height_);
       }
       unknownFields.writeTo(output);
     }
@@ -198,11 +198,11 @@ public final class PolygonRegionSizeOuterClass {
       size = 0;
       for (int i = 0; i < pointList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, pointList_.get(i));
+          .computeMessageSize(9, pointList_.get(i));
       }
       if (height_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(9, height_);
+          .computeFloatSize(11, height_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

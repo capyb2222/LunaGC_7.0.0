@@ -74,7 +74,7 @@ public final class SceneWeatherForcastReqOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 120: {
 
               weatherAreaId_ = input.readUInt32();
               break;
@@ -111,7 +111,7 @@ public final class SceneWeatherForcastReqOuterClass {
               emu.grasscutter.net.proto.SceneWeatherForcastReqOuterClass.SceneWeatherForcastReq.class, emu.grasscutter.net.proto.SceneWeatherForcastReqOuterClass.SceneWeatherForcastReq.Builder.class);
     }
 
-    public static final int WEATHER_AREA_ID_FIELD_NUMBER = 2;
+    public static final int WEATHER_AREA_ID_FIELD_NUMBER = 15;
     private int weatherAreaId_;
     /**
      * <code>uint32 weather_area_id = 2;</code>
@@ -137,7 +137,7 @@ public final class SceneWeatherForcastReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (weatherAreaId_ != 0) {
-        output.writeUInt32(2, weatherAreaId_);
+        output.writeUInt32(15, weatherAreaId_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +150,7 @@ public final class SceneWeatherForcastReqOuterClass {
       size = 0;
       if (weatherAreaId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, weatherAreaId_);
+          .computeUInt32Size(15, weatherAreaId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

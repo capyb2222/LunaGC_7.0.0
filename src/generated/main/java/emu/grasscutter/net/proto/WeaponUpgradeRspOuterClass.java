@@ -90,7 +90,7 @@ public final class WeaponUpgradeRspOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 112: {
 
               oldLevel_ = input.readUInt32();
               break;
@@ -100,7 +100,7 @@ public final class WeaponUpgradeRspOuterClass {
               retcode_ = input.readInt32();
               break;
             }
-            case 50: {
+            case 18: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 itemParamList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>();
                 mutable_bitField0_ |= 0x00000001;
@@ -109,7 +109,7 @@ public final class WeaponUpgradeRspOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.parser(), extensionRegistry));
               break;
             }
-            case 56: {
+            case 48: {
 
               targetWeaponGuid_ = input.readUInt64();
               break;
@@ -154,7 +154,7 @@ public final class WeaponUpgradeRspOuterClass {
               emu.grasscutter.net.proto.WeaponUpgradeRspOuterClass.WeaponUpgradeRsp.class, emu.grasscutter.net.proto.WeaponUpgradeRspOuterClass.WeaponUpgradeRsp.Builder.class);
     }
 
-    public static final int ITEM_PARAM_LIST_FIELD_NUMBER = 6;
+    public static final int ITEM_PARAM_LIST_FIELD_NUMBER = 2;
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> itemParamList_;
 
     @java.lang.Override
@@ -184,7 +184,7 @@ public final class WeaponUpgradeRspOuterClass {
       return itemParamList_.get(index);
     }
 
-    public static final int OLD_LEVEL_FIELD_NUMBER = 2;
+    public static final int OLD_LEVEL_FIELD_NUMBER = 14;
     private int oldLevel_;
 
     @java.lang.Override
@@ -208,7 +208,7 @@ public final class WeaponUpgradeRspOuterClass {
       return retcode_;
     }
 
-    public static final int TARGET_WEAPON_GUID_FIELD_NUMBER = 7;
+    public static final int TARGET_WEAPON_GUID_FIELD_NUMBER = 6;
     private long targetWeaponGuid_;
 
     @java.lang.Override
@@ -231,19 +231,19 @@ public final class WeaponUpgradeRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (targetWeaponGuid_ != 0L) {
-        output.writeUInt64(7, targetWeaponGuid_);
+        output.writeUInt64(6, targetWeaponGuid_);
       }
       if (retcode_ != 0) {
         output.writeInt32(5, retcode_);
       }
       for (int i = 0; i < itemParamList_.size(); i++) {
-        output.writeMessage(6, itemParamList_.get(i));
+        output.writeMessage(2, itemParamList_.get(i));
       }
       if (curLevel_ != 0) {
         output.writeUInt32(13, curLevel_);
       }
       if (oldLevel_ != 0) {
-        output.writeUInt32(2, oldLevel_);
+        output.writeUInt32(14, oldLevel_);
       }
       unknownFields.writeTo(output);
     }
@@ -256,7 +256,7 @@ public final class WeaponUpgradeRspOuterClass {
       size = 0;
       if (targetWeaponGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(7, targetWeaponGuid_);
+          .computeUInt64Size(6, targetWeaponGuid_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -264,7 +264,7 @@ public final class WeaponUpgradeRspOuterClass {
       }
       for (int i = 0; i < itemParamList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, itemParamList_.get(i));
+          .computeMessageSize(2, itemParamList_.get(i));
       }
       if (curLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -272,7 +272,7 @@ public final class WeaponUpgradeRspOuterClass {
       }
       if (oldLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, oldLevel_);
+          .computeUInt32Size(14, oldLevel_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

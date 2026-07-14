@@ -69,7 +69,7 @@ public final class ServerDisconnectClientNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 120: {
+            case 96: {
 
               data_ = input.readUInt32();
               break;
@@ -106,7 +106,7 @@ public final class ServerDisconnectClientNotifyOuterClass {
               emu.grasscutter.net.proto.ServerDisconnectClientNotifyOuterClass.ServerDisconnectClientNotify.class, emu.grasscutter.net.proto.ServerDisconnectClientNotifyOuterClass.ServerDisconnectClientNotify.Builder.class);
     }
 
-    public static final int DATA_FIELD_NUMBER = 15;
+    public static final int DATA_FIELD_NUMBER = 12;
     private int data_;
 
     @java.lang.Override
@@ -129,7 +129,7 @@ public final class ServerDisconnectClientNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (data_ != 0) {
-        output.writeUInt32(15, data_);
+        output.writeUInt32(12, data_);
       }
       unknownFields.writeTo(output);
     }
@@ -142,7 +142,7 @@ public final class ServerDisconnectClientNotifyOuterClass {
       size = 0;
       if (data_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, data_);
+          .computeUInt32Size(12, data_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -90,12 +90,12 @@ public final class MichiaeMatsuriStageOuterClass {
               stageId_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 8: {
 
               openTime_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 88: {
 
               isOpen_ = input.readBool();
               break;
@@ -143,7 +143,7 @@ public final class MichiaeMatsuriStageOuterClass {
       return stageId_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 10;
+    public static final int IS_OPEN_FIELD_NUMBER = 11;
     private boolean isOpen_;
     /**
      * <code>bool is_open = 10;</code>
@@ -154,7 +154,7 @@ public final class MichiaeMatsuriStageOuterClass {
       return isOpen_;
     }
 
-    public static final int OPEN_TIME_FIELD_NUMBER = 8;
+    public static final int OPEN_TIME_FIELD_NUMBER = 1;
     private int openTime_;
     /**
      * <code>uint32 open_time = 8;</code>
@@ -183,10 +183,10 @@ public final class MichiaeMatsuriStageOuterClass {
         output.writeUInt32(6, stageId_);
       }
       if (openTime_ != 0) {
-        output.writeUInt32(8, openTime_);
+        output.writeUInt32(1, openTime_);
       }
       if (isOpen_ != false) {
-        output.writeBool(10, isOpen_);
+        output.writeBool(11, isOpen_);
       }
       unknownFields.writeTo(output);
     }
@@ -203,11 +203,11 @@ public final class MichiaeMatsuriStageOuterClass {
       }
       if (openTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, openTime_);
+          .computeUInt32Size(1, openTime_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, isOpen_);
+          .computeBoolSize(11, isOpen_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

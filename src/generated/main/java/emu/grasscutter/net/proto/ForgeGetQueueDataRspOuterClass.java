@@ -115,17 +115,17 @@ public final class ForgeGetQueueDataRspOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 56: {
 
               maxQueueNum_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 64: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 98: {
+            case 74: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 forgeQueueMap_ = com.google.protobuf.MapField.newMapField(
                     ForgeQueueMapDefaultEntryHolder.defaultEntry);
@@ -182,7 +182,7 @@ public final class ForgeGetQueueDataRspOuterClass {
               emu.grasscutter.net.proto.ForgeGetQueueDataRspOuterClass.ForgeGetQueueDataRsp.class, emu.grasscutter.net.proto.ForgeGetQueueDataRspOuterClass.ForgeGetQueueDataRsp.Builder.class);
     }
 
-    public static final int MAX_QUEUE_NUM_FIELD_NUMBER = 3;
+    public static final int MAX_QUEUE_NUM_FIELD_NUMBER = 7;
     private int maxQueueNum_;
     /**
      * <code>uint32 max_queue_num = 3;</code>
@@ -193,7 +193,7 @@ public final class ForgeGetQueueDataRspOuterClass {
       return maxQueueNum_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 11;
+    public static final int RETCODE_FIELD_NUMBER = 8;
     private int retcode_;
     /**
      * <code>int32 retcode = 11;</code>
@@ -204,7 +204,7 @@ public final class ForgeGetQueueDataRspOuterClass {
       return retcode_;
     }
 
-    public static final int FORGE_QUEUE_MAP_FIELD_NUMBER = 12;
+    public static final int FORGE_QUEUE_MAP_FIELD_NUMBER = 9;
     private static final class ForgeQueueMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData> defaultEntry =
@@ -300,17 +300,17 @@ public final class ForgeGetQueueDataRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (maxQueueNum_ != 0) {
-        output.writeUInt32(3, maxQueueNum_);
+        output.writeUInt32(7, maxQueueNum_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(11, retcode_);
+        output.writeInt32(8, retcode_);
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
           internalGetForgeQueueMap(),
           ForgeQueueMapDefaultEntryHolder.defaultEntry,
-          12);
+          9);
       unknownFields.writeTo(output);
     }
 
@@ -322,11 +322,11 @@ public final class ForgeGetQueueDataRspOuterClass {
       size = 0;
       if (maxQueueNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, maxQueueNum_);
+          .computeUInt32Size(7, maxQueueNum_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(11, retcode_);
+          .computeInt32Size(8, retcode_);
       }
       for (java.util.Map.Entry<java.lang.Integer, emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData> entry
            : internalGetForgeQueueMap().getMap().entrySet()) {
@@ -336,7 +336,7 @@ public final class ForgeGetQueueDataRspOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(12, forgeQueueMap__);
+            .computeMessageSize(9, forgeQueueMap__);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

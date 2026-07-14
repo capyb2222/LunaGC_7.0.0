@@ -82,12 +82,12 @@ public final class DropItemReqOuterClass {
             case 0:
               done = true;
               break;
-            case 96: {
+            case 40: {
 
               guid_ = input.readUInt64();
               break;
             }
-            case 10: {
+            case 98: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (pos_ != null) {
                 subBuilder = pos_.toBuilder();
@@ -100,13 +100,13 @@ public final class DropItemReqOuterClass {
 
               break;
             }
-            case 88: {
+            case 104: {
               int rawValue = input.readEnum();
 
               storeType_ = rawValue;
               break;
             }
-            case 112: {
+            case 56: {
 
               count_ = input.readUInt32();
               break;
@@ -143,7 +143,7 @@ public final class DropItemReqOuterClass {
               emu.grasscutter.net.proto.DropItemReqOuterClass.DropItemReq.class, emu.grasscutter.net.proto.DropItemReqOuterClass.DropItemReq.Builder.class);
     }
 
-    public static final int POS_FIELD_NUMBER = 1;
+    public static final int POS_FIELD_NUMBER = 12;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
 
     @java.lang.Override
@@ -161,7 +161,7 @@ public final class DropItemReqOuterClass {
       return getPos();
     }
 
-    public static final int GUID_FIELD_NUMBER = 12;
+    public static final int GUID_FIELD_NUMBER = 5;
     private long guid_;
 
     @java.lang.Override
@@ -169,7 +169,7 @@ public final class DropItemReqOuterClass {
       return guid_;
     }
 
-    public static final int COUNT_FIELD_NUMBER = 14;
+    public static final int COUNT_FIELD_NUMBER = 7;
     private int count_;
 
     @java.lang.Override
@@ -177,7 +177,7 @@ public final class DropItemReqOuterClass {
       return count_;
     }
 
-    public static final int STORE_TYPE_FIELD_NUMBER = 11;
+    public static final int STORE_TYPE_FIELD_NUMBER = 13;
     private int storeType_;
 
     @java.lang.Override public int getStoreTypeValue() {
@@ -205,16 +205,16 @@ public final class DropItemReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (pos_ != null) {
-        output.writeMessage(1, getPos());
+        output.writeMessage(12, getPos());
       }
       if (storeType_ != emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType.StoreType_STORE_NONE.getNumber()) {
-        output.writeEnum(11, storeType_);
+        output.writeEnum(13, storeType_);
       }
       if (guid_ != 0L) {
-        output.writeUInt64(12, guid_);
+        output.writeUInt64(5, guid_);
       }
       if (count_ != 0) {
-        output.writeUInt32(14, count_);
+        output.writeUInt32(7, count_);
       }
       unknownFields.writeTo(output);
     }
@@ -227,19 +227,19 @@ public final class DropItemReqOuterClass {
       size = 0;
       if (pos_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getPos());
+          .computeMessageSize(12, getPos());
       }
       if (storeType_ != emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType.StoreType_STORE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(11, storeType_);
+          .computeEnumSize(13, storeType_);
       }
       if (guid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(12, guid_);
+          .computeUInt64Size(5, guid_);
       }
       if (count_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, count_);
+          .computeUInt32Size(7, count_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -86,12 +86,12 @@ public final class GetActivityScheduleRspOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
+            case 120: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 58: {
+            case 82: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 activityScheduleList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -100,7 +100,7 @@ public final class GetActivityScheduleRspOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo.parser(), extensionRegistry));
               break;
             }
-            case 88: {
+            case 24: {
 
               remainFlySeaLampNum_ = input.readUInt32();
               break;
@@ -140,7 +140,7 @@ public final class GetActivityScheduleRspOuterClass {
               emu.grasscutter.net.proto.GetActivityScheduleRspOuterClass.GetActivityScheduleRsp.class, emu.grasscutter.net.proto.GetActivityScheduleRspOuterClass.GetActivityScheduleRsp.Builder.class);
     }
 
-    public static final int ACTIVITY_SCHEDULE_LIST_FIELD_NUMBER = 7;
+    public static final int ACTIVITY_SCHEDULE_LIST_FIELD_NUMBER = 10;
     private java.util.List<emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo> activityScheduleList_;
 
     @java.lang.Override
@@ -170,7 +170,7 @@ public final class GetActivityScheduleRspOuterClass {
       return activityScheduleList_.get(index);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 5;
+    public static final int RETCODE_FIELD_NUMBER = 15;
     private int retcode_;
 
     @java.lang.Override
@@ -178,7 +178,7 @@ public final class GetActivityScheduleRspOuterClass {
       return retcode_;
     }
 
-    public static final int REMAIN_FLY_SEA_LAMP_NUM_FIELD_NUMBER = 11;
+    public static final int REMAIN_FLY_SEA_LAMP_NUM_FIELD_NUMBER = 3;
     private int remainFlySeaLampNum_;
 
     @java.lang.Override
@@ -201,13 +201,13 @@ public final class GetActivityScheduleRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(5, retcode_);
+        output.writeInt32(15, retcode_);
       }
       for (int i = 0; i < activityScheduleList_.size(); i++) {
-        output.writeMessage(7, activityScheduleList_.get(i));
+        output.writeMessage(10, activityScheduleList_.get(i));
       }
       if (remainFlySeaLampNum_ != 0) {
-        output.writeUInt32(11, remainFlySeaLampNum_);
+        output.writeUInt32(3, remainFlySeaLampNum_);
       }
       unknownFields.writeTo(output);
     }
@@ -220,15 +220,15 @@ public final class GetActivityScheduleRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(5, retcode_);
+          .computeInt32Size(15, retcode_);
       }
       for (int i = 0; i < activityScheduleList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, activityScheduleList_.get(i));
+          .computeMessageSize(10, activityScheduleList_.get(i));
       }
       if (remainFlySeaLampNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, remainFlySeaLampNum_);
+          .computeUInt32Size(3, remainFlySeaLampNum_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

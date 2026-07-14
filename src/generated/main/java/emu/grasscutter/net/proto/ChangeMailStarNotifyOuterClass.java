@@ -93,12 +93,12 @@ public final class ChangeMailStarNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 72: {
 
               isStar_ = input.readBool();
               break;
             }
-            case 96: {
+            case 56: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 mailIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -106,7 +106,7 @@ public final class ChangeMailStarNotifyOuterClass {
               mailIdList_.addInt(input.readUInt32());
               break;
             }
-            case 98: {
+            case 58: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -154,7 +154,7 @@ public final class ChangeMailStarNotifyOuterClass {
               emu.grasscutter.net.proto.ChangeMailStarNotifyOuterClass.ChangeMailStarNotify.class, emu.grasscutter.net.proto.ChangeMailStarNotifyOuterClass.ChangeMailStarNotify.Builder.class);
     }
 
-    public static final int IS_STAR_FIELD_NUMBER = 1;
+    public static final int IS_STAR_FIELD_NUMBER = 9;
     private boolean isStar_;
     /**
      * <code>bool is_star = 13;</code>
@@ -165,7 +165,7 @@ public final class ChangeMailStarNotifyOuterClass {
       return isStar_;
     }
 
-    public static final int MAIL_ID_LIST_FIELD_NUMBER = 12;
+    public static final int MAIL_ID_LIST_FIELD_NUMBER = 7;
     private com.google.protobuf.Internal.IntList mailIdList_;
     /**
      * <code>repeated uint32 mail_id_list = 15;</code>
@@ -209,10 +209,10 @@ public final class ChangeMailStarNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (isStar_ != false) {
-        output.writeBool(1, isStar_);
+        output.writeBool(9, isStar_);
       }
       if (getMailIdListList().size() > 0) {
-        output.writeUInt32NoTag(98);
+        output.writeUInt32NoTag(58);
         output.writeUInt32NoTag(mailIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < mailIdList_.size(); i++) {
@@ -229,7 +229,7 @@ public final class ChangeMailStarNotifyOuterClass {
       size = 0;
       if (isStar_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1, isStar_);
+          .computeBoolSize(9, isStar_);
       }
       {
         int dataSize = 0;

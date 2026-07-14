@@ -74,7 +74,7 @@ public final class HomeAvatarSummonFinishReqOuterClass {
             case 0:
               done = true;
               break;
-            case 88: {
+            case 104: {
 
               eventId_ = input.readUInt32();
               break;
@@ -111,7 +111,7 @@ public final class HomeAvatarSummonFinishReqOuterClass {
               emu.grasscutter.net.proto.HomeAvatarSummonFinishReqOuterClass.HomeAvatarSummonFinishReq.class, emu.grasscutter.net.proto.HomeAvatarSummonFinishReqOuterClass.HomeAvatarSummonFinishReq.Builder.class);
     }
 
-    public static final int EVENT_ID_FIELD_NUMBER = 11;
+    public static final int EVENT_ID_FIELD_NUMBER = 13;
     private int eventId_;
     /**
      * <code>uint32 event_id = 11;</code>
@@ -137,7 +137,7 @@ public final class HomeAvatarSummonFinishReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (eventId_ != 0) {
-        output.writeUInt32(11, eventId_);
+        output.writeUInt32(13, eventId_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +150,7 @@ public final class HomeAvatarSummonFinishReqOuterClass {
       size = 0;
       if (eventId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, eventId_);
+          .computeUInt32Size(13, eventId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

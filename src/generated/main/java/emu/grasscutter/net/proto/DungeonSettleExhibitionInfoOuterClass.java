@@ -108,7 +108,7 @@ public final class DungeonSettleExhibitionInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 26: {
+            case 58: {
               emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder subBuilder = null;
               if (playerInfo_ != null) {
                 subBuilder = playerInfo_.toBuilder();
@@ -121,7 +121,7 @@ public final class DungeonSettleExhibitionInfoOuterClass {
 
               break;
             }
-            case 98: {
+            case 90: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 cardList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -191,7 +191,7 @@ public final class DungeonSettleExhibitionInfoOuterClass {
       return getPlayerInfo();
     }
 
-    public static final int CARD_LIST_FIELD_NUMBER = 10;
+    public static final int CARD_LIST_FIELD_NUMBER = 11;
     private java.util.List<emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo> cardList_;
     /**
      * <code>repeated .ExhibitionDisplayInfo card_list = 12;</code>
@@ -246,10 +246,10 @@ public final class DungeonSettleExhibitionInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (playerInfo_ != null) {
-        output.writeMessage(3, getPlayerInfo());
+        output.writeMessage(7, getPlayerInfo());
       }
       for (int i = 0; i < cardList_.size(); i++) {
-        output.writeMessage(10, cardList_.get(i));
+        output.writeMessage(11, cardList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -262,11 +262,11 @@ public final class DungeonSettleExhibitionInfoOuterClass {
       size = 0;
       if (playerInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, getPlayerInfo());
+          .computeMessageSize(7, getPlayerInfo());
       }
       for (int i = 0; i < cardList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, cardList_.get(i));
+          .computeMessageSize(11, cardList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -85,17 +85,17 @@ public final class FleurFairDungeonSectionInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 16: {
 
               sectionId_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 64: {
 
               openTime_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 32: {
 
               isOpen_ = input.readBool();
               break;
@@ -132,7 +132,7 @@ public final class FleurFairDungeonSectionInfoOuterClass {
               emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo.class, emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo.Builder.class);
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 14;
+    public static final int IS_OPEN_FIELD_NUMBER = 4;
     private boolean isOpen_;
     /**
      * <code>bool is_open = 14;</code>
@@ -143,7 +143,7 @@ public final class FleurFairDungeonSectionInfoOuterClass {
       return isOpen_;
     }
 
-    public static final int SECTION_ID_FIELD_NUMBER = 6;
+    public static final int SECTION_ID_FIELD_NUMBER = 2;
     private int sectionId_;
     /**
      * <code>uint32 section_id = 6;</code>
@@ -154,7 +154,7 @@ public final class FleurFairDungeonSectionInfoOuterClass {
       return sectionId_;
     }
 
-    public static final int OPEN_TIME_FIELD_NUMBER = 13;
+    public static final int OPEN_TIME_FIELD_NUMBER = 8;
     private int openTime_;
     /**
      * <code>uint32 open_time = 13;</code>
@@ -180,13 +180,13 @@ public final class FleurFairDungeonSectionInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (sectionId_ != 0) {
-        output.writeUInt32(6, sectionId_);
+        output.writeUInt32(2, sectionId_);
       }
       if (openTime_ != 0) {
-        output.writeUInt32(13, openTime_);
+        output.writeUInt32(8, openTime_);
       }
       if (isOpen_ != false) {
-        output.writeBool(14, isOpen_);
+        output.writeBool(4, isOpen_);
       }
       unknownFields.writeTo(output);
     }
@@ -199,15 +199,15 @@ public final class FleurFairDungeonSectionInfoOuterClass {
       size = 0;
       if (sectionId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, sectionId_);
+          .computeUInt32Size(2, sectionId_);
       }
       if (openTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, openTime_);
+          .computeUInt32Size(8, openTime_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(14, isOpen_);
+          .computeBoolSize(4, isOpen_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

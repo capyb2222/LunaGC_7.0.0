@@ -120,12 +120,12 @@ public final class FindHilichurlDetailInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.KDLAPAGEBBJOuterClass.KDLAPAGEBBJ.parser(), extensionRegistry));
               break;
             }
-            case 72: {
+            case 64: {
 
               isContentClosed_ = input.readBool();
               break;
             }
-            case 104: {
+            case 72: {
 
               contentCloseTime_ = input.readUInt32();
               break;
@@ -231,7 +231,7 @@ public final class FindHilichurlDetailInfoOuterClass {
       return fCFICEIPBKH_;
     }
 
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 9;
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 8;
     private boolean isContentClosed_;
 
     @java.lang.Override
@@ -261,7 +261,7 @@ public final class FindHilichurlDetailInfoOuterClass {
       return fIPBFDJDGBN_;
     }
 
-    public static final int CONTENT_CLOSE_TIME_FIELD_NUMBER = 13;
+    public static final int CONTENT_CLOSE_TIME_FIELD_NUMBER = 9;
     private int contentCloseTime_;
 
     @java.lang.Override
@@ -287,10 +287,10 @@ public final class FindHilichurlDetailInfoOuterClass {
         output.writeMessage(2, fMCBBDAOAID_.get(i));
       }
       if (isContentClosed_ != false) {
-        output.writeBool(9, isContentClosed_);
+        output.writeBool(8, isContentClosed_);
       }
       if (contentCloseTime_ != 0) {
-        output.writeUInt32(13, contentCloseTime_);
+        output.writeUInt32(9, contentCloseTime_);
       }
       if (fCFICEIPBKH_ != 0) {
         output.writeUInt32(14, fCFICEIPBKH_);
@@ -316,11 +316,11 @@ public final class FindHilichurlDetailInfoOuterClass {
       }
       if (isContentClosed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isContentClosed_);
+          .computeBoolSize(8, isContentClosed_);
       }
       if (contentCloseTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, contentCloseTime_);
+          .computeUInt32Size(9, contentCloseTime_);
       }
       if (fCFICEIPBKH_ != 0) {
         size += com.google.protobuf.CodedOutputStream

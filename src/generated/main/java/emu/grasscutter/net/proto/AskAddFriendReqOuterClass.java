@@ -69,7 +69,7 @@ public final class AskAddFriendReqOuterClass {
             case 0:
               done = true;
               break;
-            case 88: {
+            case 72: {
 
               targetUid_ = input.readUInt32();
               break;
@@ -106,7 +106,7 @@ public final class AskAddFriendReqOuterClass {
               emu.grasscutter.net.proto.AskAddFriendReqOuterClass.AskAddFriendReq.class, emu.grasscutter.net.proto.AskAddFriendReqOuterClass.AskAddFriendReq.Builder.class);
     }
 
-    public static final int TARGET_UID_FIELD_NUMBER = 11;
+    public static final int TARGET_UID_FIELD_NUMBER = 9;
     private int targetUid_;
 
     @java.lang.Override
@@ -129,7 +129,7 @@ public final class AskAddFriendReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (targetUid_ != 0) {
-        output.writeUInt32(11, targetUid_);
+        output.writeUInt32(9, targetUid_);
       }
       unknownFields.writeTo(output);
     }
@@ -142,7 +142,7 @@ public final class AskAddFriendReqOuterClass {
       size = 0;
       if (targetUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, targetUid_);
+          .computeUInt32Size(9, targetUid_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

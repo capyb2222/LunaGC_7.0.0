@@ -69,7 +69,7 @@ public final class CityInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 64: {
 
               cityId_ = input.readUInt32();
               break;
@@ -79,7 +79,7 @@ public final class CityInfoOuterClass {
               level_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 104: {
 
               crystalNum_ = input.readUInt32();
               break;
@@ -124,7 +124,7 @@ public final class CityInfoOuterClass {
       return level_;
     }
 
-    public static final int CITY_ID_FIELD_NUMBER = 6;
+    public static final int CITY_ID_FIELD_NUMBER = 8;
     private int cityId_;
 
     @java.lang.Override
@@ -132,7 +132,7 @@ public final class CityInfoOuterClass {
       return cityId_;
     }
 
-    public static final int CRYSTAL_NUM_FIELD_NUMBER = 15;
+    public static final int CRYSTAL_NUM_FIELD_NUMBER = 13;
     private int crystalNum_;
 
     @java.lang.Override
@@ -155,13 +155,13 @@ public final class CityInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (cityId_ != 0) {
-        output.writeUInt32(6, cityId_);
+        output.writeUInt32(8, cityId_);
       }
       if (level_ != 0) {
         output.writeUInt32(10, level_);
       }
       if (crystalNum_ != 0) {
-        output.writeUInt32(15, crystalNum_);
+        output.writeUInt32(13, crystalNum_);
       }
       unknownFields.writeTo(output);
     }
@@ -174,7 +174,7 @@ public final class CityInfoOuterClass {
       size = 0;
       if (cityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, cityId_);
+          .computeUInt32Size(8, cityId_);
       }
       if (level_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -182,7 +182,7 @@ public final class CityInfoOuterClass {
       }
       if (crystalNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, crystalNum_);
+          .computeUInt32Size(13, crystalNum_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

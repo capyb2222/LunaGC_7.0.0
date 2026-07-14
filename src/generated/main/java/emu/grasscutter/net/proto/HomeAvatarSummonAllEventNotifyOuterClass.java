@@ -94,7 +94,7 @@ public final class HomeAvatarSummonAllEventNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 122: {
+            case 42: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 summonEventList_ = new java.util.ArrayList<emu.grasscutter.net.proto.HomeAvatarSummonEventInfoOuterClass.HomeAvatarSummonEventInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -138,7 +138,7 @@ public final class HomeAvatarSummonAllEventNotifyOuterClass {
               emu.grasscutter.net.proto.HomeAvatarSummonAllEventNotifyOuterClass.HomeAvatarSummonAllEventNotify.class, emu.grasscutter.net.proto.HomeAvatarSummonAllEventNotifyOuterClass.HomeAvatarSummonAllEventNotify.Builder.class);
     }
 
-    public static final int SUMMON_EVENT_LIST_FIELD_NUMBER = 15;
+    public static final int SUMMON_EVENT_LIST_FIELD_NUMBER = 5;
     private java.util.List<emu.grasscutter.net.proto.HomeAvatarSummonEventInfoOuterClass.HomeAvatarSummonEventInfo> summonEventList_;
     /**
      * <code>repeated .HomeAvatarSummonEventInfo summon_event_list = 15;</code>
@@ -193,7 +193,7 @@ public final class HomeAvatarSummonAllEventNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < summonEventList_.size(); i++) {
-        output.writeMessage(15, summonEventList_.get(i));
+        output.writeMessage(5, summonEventList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -206,7 +206,7 @@ public final class HomeAvatarSummonAllEventNotifyOuterClass {
       size = 0;
       for (int i = 0; i < summonEventList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, summonEventList_.get(i));
+          .computeMessageSize(5, summonEventList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

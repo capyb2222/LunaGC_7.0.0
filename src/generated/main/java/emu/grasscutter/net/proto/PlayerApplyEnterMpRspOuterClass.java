@@ -73,17 +73,17 @@ public final class PlayerApplyEnterMpRspOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 8: {
 
               targetUid_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 112: {
 
               param_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 88: {
 
               retcode_ = input.readInt32();
               break;
@@ -120,7 +120,7 @@ public final class PlayerApplyEnterMpRspOuterClass {
               emu.grasscutter.net.proto.PlayerApplyEnterMpRspOuterClass.PlayerApplyEnterMpRsp.class, emu.grasscutter.net.proto.PlayerApplyEnterMpRspOuterClass.PlayerApplyEnterMpRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 13;
+    public static final int RETCODE_FIELD_NUMBER = 11;
     private int retcode_;
 
     @java.lang.Override
@@ -128,7 +128,7 @@ public final class PlayerApplyEnterMpRspOuterClass {
       return retcode_;
     }
 
-    public static final int TARGET_UID_FIELD_NUMBER = 6;
+    public static final int TARGET_UID_FIELD_NUMBER = 1;
     private int targetUid_;
 
     @java.lang.Override
@@ -136,7 +136,7 @@ public final class PlayerApplyEnterMpRspOuterClass {
       return targetUid_;
     }
 
-    public static final int PARAM_FIELD_NUMBER = 11;
+    public static final int PARAM_FIELD_NUMBER = 14;
     private int param_;
 
     @java.lang.Override
@@ -159,13 +159,13 @@ public final class PlayerApplyEnterMpRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (targetUid_ != 0) {
-        output.writeUInt32(6, targetUid_);
+        output.writeUInt32(1, targetUid_);
       }
       if (param_ != 0) {
-        output.writeUInt32(11, param_);
+        output.writeUInt32(14, param_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(13, retcode_);
+        output.writeInt32(11, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -178,15 +178,15 @@ public final class PlayerApplyEnterMpRspOuterClass {
       size = 0;
       if (targetUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, targetUid_);
+          .computeUInt32Size(1, targetUid_);
       }
       if (param_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, param_);
+          .computeUInt32Size(14, param_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(13, retcode_);
+          .computeInt32Size(11, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -98,22 +98,22 @@ public final class BargainOfferPriceRspOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 88: {
 
               resultParam_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 48: {
 
               curMood_ = input.readInt32();
               break;
             }
-            case 88: {
+            case 16: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 96: {
+            case 40: {
               int rawValue = input.readEnum();
 
               bargainResult_ = rawValue;
@@ -151,7 +151,7 @@ public final class BargainOfferPriceRspOuterClass {
               emu.grasscutter.net.proto.BargainOfferPriceRspOuterClass.BargainOfferPriceRsp.class, emu.grasscutter.net.proto.BargainOfferPriceRspOuterClass.BargainOfferPriceRsp.Builder.class);
     }
 
-    public static final int CUR_MOOD_FIELD_NUMBER = 10;
+    public static final int CUR_MOOD_FIELD_NUMBER = 6;
     private int curMood_;
     /**
      * <code>int32 cur_mood = 10;</code>
@@ -162,7 +162,7 @@ public final class BargainOfferPriceRspOuterClass {
       return curMood_;
     }
 
-    public static final int RESULT_PARAM_FIELD_NUMBER = 8;
+    public static final int RESULT_PARAM_FIELD_NUMBER = 11;
     private int resultParam_;
     /**
      * <code>uint32 result_param = 8;</code>
@@ -173,7 +173,7 @@ public final class BargainOfferPriceRspOuterClass {
       return resultParam_;
     }
 
-    public static final int BARGAIN_RESULT_FIELD_NUMBER = 12;
+    public static final int BARGAIN_RESULT_FIELD_NUMBER = 5;
     private int bargainResult_;
     /**
      * <code>.BargainResultType bargain_result = 12;</code>
@@ -192,7 +192,7 @@ public final class BargainOfferPriceRspOuterClass {
       return result == null ? emu.grasscutter.net.proto.BargainResultTypeOuterClass.BargainResultType.UNRECOGNIZED : result;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 11;
+    public static final int RETCODE_FIELD_NUMBER = 2;
     private int retcode_;
     /**
      * <code>int32 retcode = 11;</code>
@@ -218,16 +218,16 @@ public final class BargainOfferPriceRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (resultParam_ != 0) {
-        output.writeUInt32(8, resultParam_);
+        output.writeUInt32(11, resultParam_);
       }
       if (curMood_ != 0) {
-        output.writeInt32(10, curMood_);
+        output.writeInt32(6, curMood_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(11, retcode_);
+        output.writeInt32(2, retcode_);
       }
       if (bargainResult_ != emu.grasscutter.net.proto.BargainResultTypeOuterClass.BargainResultType.BARGAIN_COMPLETE_SUCC.getNumber()) {
-        output.writeEnum(12, bargainResult_);
+        output.writeEnum(5, bargainResult_);
       }
       unknownFields.writeTo(output);
     }
@@ -240,19 +240,19 @@ public final class BargainOfferPriceRspOuterClass {
       size = 0;
       if (resultParam_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, resultParam_);
+          .computeUInt32Size(11, resultParam_);
       }
       if (curMood_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(10, curMood_);
+          .computeInt32Size(6, curMood_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(11, retcode_);
+          .computeInt32Size(2, retcode_);
       }
       if (bargainResult_ != emu.grasscutter.net.proto.BargainResultTypeOuterClass.BargainResultType.BARGAIN_COMPLETE_SUCC.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(12, bargainResult_);
+          .computeEnumSize(5, bargainResult_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

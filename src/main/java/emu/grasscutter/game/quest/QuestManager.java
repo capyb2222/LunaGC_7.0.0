@@ -40,7 +40,7 @@ public final class QuestManager extends BasePlayerManager {
                     TimeUnit.SECONDS,
                     new LinkedBlockingDeque<>(1000),
                     FastThreadLocalThread::new,
-                    new ThreadPoolExecutor.AbortPolicy());
+                    new ThreadPoolExecutor.CallerRunsPolicy());
 
     public static long getQuestKey(int mainQuestId) {
         QuestEncryptionKey questEncryptionKey = GameData.getMainQuestEncryptionMap().get(mainQuestId);

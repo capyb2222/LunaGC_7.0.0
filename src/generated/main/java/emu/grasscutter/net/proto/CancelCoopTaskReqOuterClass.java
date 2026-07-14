@@ -74,7 +74,7 @@ public final class CancelCoopTaskReqOuterClass {
             case 0:
               done = true;
               break;
-            case 72: {
+            case 120: {
 
               chapterId_ = input.readUInt32();
               break;
@@ -111,7 +111,7 @@ public final class CancelCoopTaskReqOuterClass {
               emu.grasscutter.net.proto.CancelCoopTaskReqOuterClass.CancelCoopTaskReq.class, emu.grasscutter.net.proto.CancelCoopTaskReqOuterClass.CancelCoopTaskReq.Builder.class);
     }
 
-    public static final int CHAPTER_ID_FIELD_NUMBER = 9;
+    public static final int CHAPTER_ID_FIELD_NUMBER = 15;
     private int chapterId_;
     /**
      * <code>uint32 chapter_id = 9;</code>
@@ -137,7 +137,7 @@ public final class CancelCoopTaskReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (chapterId_ != 0) {
-        output.writeUInt32(9, chapterId_);
+        output.writeUInt32(15, chapterId_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +150,7 @@ public final class CancelCoopTaskReqOuterClass {
       size = 0;
       if (chapterId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, chapterId_);
+          .computeUInt32Size(15, chapterId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

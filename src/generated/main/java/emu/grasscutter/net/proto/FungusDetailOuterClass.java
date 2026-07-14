@@ -97,7 +97,7 @@ public final class FungusDetailOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 112: {
 
               nameId_ = input.readUInt32();
               break;
@@ -107,7 +107,7 @@ public final class FungusDetailOuterClass {
               fungusId_ = input.readUInt32();
               break;
             }
-            case 56: {
+            case 32: {
 
               isCultivate_ = input.readBool();
               break;
@@ -176,7 +176,7 @@ public final class FungusDetailOuterClass {
       return pOHAEGNNKFE_;
     }
 
-    public static final int IS_CULTIVATE_FIELD_NUMBER = 7;
+    public static final int IS_CULTIVATE_FIELD_NUMBER = 4;
     private boolean isCultivate_;
     /**
      * <code>bool is_cultivate = 7;</code>
@@ -187,7 +187,7 @@ public final class FungusDetailOuterClass {
       return isCultivate_;
     }
 
-    public static final int NAME_ID_FIELD_NUMBER = 3;
+    public static final int NAME_ID_FIELD_NUMBER = 14;
     private int nameId_;
     /**
      * <code>uint32 name_id = 3;</code>
@@ -224,13 +224,13 @@ public final class FungusDetailOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (nameId_ != 0) {
-        output.writeUInt32(3, nameId_);
+        output.writeUInt32(14, nameId_);
       }
       if (fungusId_ != 0) {
         output.writeUInt32(6, fungusId_);
       }
       if (isCultivate_ != false) {
-        output.writeBool(7, isCultivate_);
+        output.writeBool(4, isCultivate_);
       }
       if (ePEECFNCAJE_ != 0) {
         output.writeUInt32(9, ePEECFNCAJE_);
@@ -249,7 +249,7 @@ public final class FungusDetailOuterClass {
       size = 0;
       if (nameId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, nameId_);
+          .computeUInt32Size(14, nameId_);
       }
       if (fungusId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -257,7 +257,7 @@ public final class FungusDetailOuterClass {
       }
       if (isCultivate_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, isCultivate_);
+          .computeBoolSize(4, isCultivate_);
       }
       if (ePEECFNCAJE_ != 0) {
         size += com.google.protobuf.CodedOutputStream

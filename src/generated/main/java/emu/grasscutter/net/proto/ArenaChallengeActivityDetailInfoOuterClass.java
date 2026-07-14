@@ -158,7 +158,7 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
                   oKANCOLKFJD__.getKey(), oKANCOLKFJD__.getValue());
               break;
             }
-            case 104: {
+            case 96: {
 
               worldLevel_ = input.readUInt32();
               break;
@@ -342,7 +342,7 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
       return hOGCGGNKFBN_;
     }
 
-    public static final int WORLD_LEVEL_FIELD_NUMBER = 13;
+    public static final int WORLD_LEVEL_FIELD_NUMBER = 12;
     private int worldLevel_;
 
     @java.lang.Override
@@ -377,7 +377,7 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
           OKANCOLKFJDDefaultEntryHolder.defaultEntry,
           11);
       if (worldLevel_ != 0) {
-        output.writeUInt32(13, worldLevel_);
+        output.writeUInt32(12, worldLevel_);
       }
       unknownFields.writeTo(output);
     }
@@ -408,7 +408,7 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
       }
       if (worldLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, worldLevel_);
+          .computeUInt32Size(12, worldLevel_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

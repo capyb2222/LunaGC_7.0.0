@@ -67,12 +67,12 @@ public final class ShortAbilityHashPairOuterClass {
             case 0:
               done = true;
               break;
-            case 29: {
+            case 125: {
 
               abilityNameHash_ = input.readSFixed32();
               break;
             }
-            case 53: {
+            case 109: {
 
               abilityConfigHash_ = input.readSFixed32();
               break;
@@ -109,7 +109,7 @@ public final class ShortAbilityHashPairOuterClass {
               emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair.class, emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair.Builder.class);
     }
 
-    public static final int ABILITY_NAME_HASH_FIELD_NUMBER = 3;
+    public static final int ABILITY_NAME_HASH_FIELD_NUMBER = 15;
     private int abilityNameHash_;
 
     @java.lang.Override
@@ -117,7 +117,7 @@ public final class ShortAbilityHashPairOuterClass {
       return abilityNameHash_;
     }
 
-    public static final int ABILITY_CONFIG_HASH_FIELD_NUMBER = 6;
+    public static final int ABILITY_CONFIG_HASH_FIELD_NUMBER = 13;
     private int abilityConfigHash_;
 
     @java.lang.Override
@@ -140,10 +140,10 @@ public final class ShortAbilityHashPairOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (abilityNameHash_ != 0) {
-        output.writeSFixed32(3, abilityNameHash_);
+        output.writeSFixed32(15, abilityNameHash_);
       }
       if (abilityConfigHash_ != 0) {
-        output.writeSFixed32(6, abilityConfigHash_);
+        output.writeSFixed32(13, abilityConfigHash_);
       }
       unknownFields.writeTo(output);
     }
@@ -156,11 +156,11 @@ public final class ShortAbilityHashPairOuterClass {
       size = 0;
       if (abilityNameHash_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeSFixed32Size(3, abilityNameHash_);
+          .computeSFixed32Size(15, abilityNameHash_);
       }
       if (abilityConfigHash_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeSFixed32Size(6, abilityConfigHash_);
+          .computeSFixed32Size(13, abilityConfigHash_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -80,7 +80,7 @@ public final class AvatarChangeElementTypeReqOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 40: {
 
               sceneId_ = input.readUInt32();
               break;
@@ -133,7 +133,7 @@ public final class AvatarChangeElementTypeReqOuterClass {
       return areaId_;
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 8;
+    public static final int SCENE_ID_FIELD_NUMBER = 5;
     private int sceneId_;
     /**
      * <code>uint32 scene_id = 1;</code>
@@ -159,7 +159,7 @@ public final class AvatarChangeElementTypeReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (sceneId_ != 0) {
-        output.writeUInt32(8, sceneId_);
+        output.writeUInt32(5, sceneId_);
       }
       if (areaId_ != 0) {
         output.writeUInt32(14, areaId_);
@@ -175,7 +175,7 @@ public final class AvatarChangeElementTypeReqOuterClass {
       size = 0;
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, sceneId_);
+          .computeUInt32Size(5, sceneId_);
       }
       if (areaId_ != 0) {
         size += com.google.protobuf.CodedOutputStream

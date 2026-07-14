@@ -73,7 +73,7 @@ public final class ActivityInfoNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 114: {
+            case 82: {
               emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo.Builder subBuilder = null;
               if (activityInfo_ != null) {
                 subBuilder = activityInfo_.toBuilder();
@@ -118,7 +118,7 @@ public final class ActivityInfoNotifyOuterClass {
               emu.grasscutter.net.proto.ActivityInfoNotifyOuterClass.ActivityInfoNotify.class, emu.grasscutter.net.proto.ActivityInfoNotifyOuterClass.ActivityInfoNotify.Builder.class);
     }
 
-    public static final int ACTIVITY_INFO_FIELD_NUMBER = 14;
+    public static final int ACTIVITY_INFO_FIELD_NUMBER = 10;
     private emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo activityInfo_;
 
     @java.lang.Override
@@ -151,7 +151,7 @@ public final class ActivityInfoNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (activityInfo_ != null) {
-        output.writeMessage(14, getActivityInfo());
+        output.writeMessage(10, getActivityInfo());
       }
       unknownFields.writeTo(output);
     }
@@ -164,7 +164,7 @@ public final class ActivityInfoNotifyOuterClass {
       size = 0;
       if (activityInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, getActivityInfo());
+          .computeMessageSize(10, getActivityInfo());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

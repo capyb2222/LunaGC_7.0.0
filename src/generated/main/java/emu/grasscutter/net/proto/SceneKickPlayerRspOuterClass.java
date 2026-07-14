@@ -80,12 +80,12 @@ public final class SceneKickPlayerRspOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 16: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 32: {
+            case 104: {
 
               targetUid_ = input.readUInt32();
               break;
@@ -122,7 +122,7 @@ public final class SceneKickPlayerRspOuterClass {
               emu.grasscutter.net.proto.SceneKickPlayerRspOuterClass.SceneKickPlayerRsp.class, emu.grasscutter.net.proto.SceneKickPlayerRspOuterClass.SceneKickPlayerRsp.Builder.class);
     }
 
-    public static final int TARGET_UID_FIELD_NUMBER = 4;
+    public static final int TARGET_UID_FIELD_NUMBER = 13;
     private int targetUid_;
     /**
      * <code>uint32 target_uid = 4;</code>
@@ -133,7 +133,7 @@ public final class SceneKickPlayerRspOuterClass {
       return targetUid_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 1;
+    public static final int RETCODE_FIELD_NUMBER = 2;
     private int retcode_;
     /**
      * <code>int32 retcode = 1;</code>
@@ -159,10 +159,10 @@ public final class SceneKickPlayerRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(1, retcode_);
+        output.writeInt32(2, retcode_);
       }
       if (targetUid_ != 0) {
-        output.writeUInt32(4, targetUid_);
+        output.writeUInt32(13, targetUid_);
       }
       unknownFields.writeTo(output);
     }
@@ -175,11 +175,11 @@ public final class SceneKickPlayerRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(1, retcode_);
+          .computeInt32Size(2, retcode_);
       }
       if (targetUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, targetUid_);
+          .computeUInt32Size(13, targetUid_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

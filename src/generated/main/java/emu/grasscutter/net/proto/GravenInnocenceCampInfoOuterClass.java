@@ -93,7 +93,7 @@ public final class GravenInnocenceCampInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 50: {
+            case 98: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 stageInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -137,7 +137,7 @@ public final class GravenInnocenceCampInfoOuterClass {
               emu.grasscutter.net.proto.GravenInnocenceCampInfoOuterClass.GravenInnocenceCampInfo.class, emu.grasscutter.net.proto.GravenInnocenceCampInfoOuterClass.GravenInnocenceCampInfo.Builder.class);
     }
 
-    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 6;
+    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 12;
     private java.util.List<emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfo> stageInfoList_;
     /**
      * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 6;</code>
@@ -192,7 +192,7 @@ public final class GravenInnocenceCampInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < stageInfoList_.size(); i++) {
-        output.writeMessage(6, stageInfoList_.get(i));
+        output.writeMessage(12, stageInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -205,7 +205,7 @@ public final class GravenInnocenceCampInfoOuterClass {
       size = 0;
       for (int i = 0; i < stageInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, stageInfoList_.get(i));
+          .computeMessageSize(12, stageInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

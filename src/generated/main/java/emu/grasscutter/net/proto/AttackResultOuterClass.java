@@ -228,12 +228,12 @@ public final class AttackResultOuterClass {
             case 0:
               done = true;
               break;
-            case 13: {
+            case 61: {
 
               damage_ = input.readFloat();
               break;
             }
-            case 18: {
+            case 34: {
               emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollision.Builder subBuilder = null;
               if (hitCollision_ != null) {
                 subBuilder = hitCollision_.toBuilder();
@@ -246,12 +246,12 @@ public final class AttackResultOuterClass {
 
               break;
             }
-            case 24: {
+            case 112: {
 
               defenseId_ = input.readUInt32();
               break;
             }
-            case 34: {
+            case 66: {
               emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult.Builder subBuilder = null;
               if (hitEffResult_ != null) {
                 subBuilder = hitEffResult_.toBuilder();
@@ -277,18 +277,18 @@ public final class AttackResultOuterClass {
 
               break;
             }
-            case 50: {
+            case 10: {
               java.lang.String s = input.readStringRequireUtf8();
 
               animEventId_ = s;
               break;
             }
-            case 88: {
+            case 104: {
 
               elementType_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 48: {
 
               attackerId_ = input.readUInt32();
               break;
@@ -459,7 +459,7 @@ public final class AttackResultOuterClass {
       return getResolveDir();
     }
 
-    public static final int HIT_COLLISION_FIELD_NUMBER = 2;
+    public static final int HIT_COLLISION_FIELD_NUMBER = 4;
     private emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollision hitCollision_;
 
     @java.lang.Override
@@ -477,7 +477,7 @@ public final class AttackResultOuterClass {
       return getHitCollision();
     }
 
-    public static final int ANIM_EVENT_ID_FIELD_NUMBER = 6;
+    public static final int ANIM_EVENT_ID_FIELD_NUMBER = 1;
     private volatile java.lang.Object animEventId_;
 
     @java.lang.Override
@@ -578,7 +578,7 @@ public final class AttackResultOuterClass {
       return aNLIHCBGOJC_;
     }
 
-    public static final int ELEMENT_TYPE_FIELD_NUMBER = 11;
+    public static final int ELEMENT_TYPE_FIELD_NUMBER = 13;
     private int elementType_;
 
     @java.lang.Override
@@ -619,7 +619,7 @@ public final class AttackResultOuterClass {
       return hPNOGNFPMBN_;
     }
 
-    public static final int ATTACKER_ID_FIELD_NUMBER = 1;
+    public static final int ATTACKER_ID_FIELD_NUMBER = 6;
     private int attackerId_;
 
     @java.lang.Override
@@ -638,7 +638,7 @@ public final class AttackResultOuterClass {
       return cILLGDKJIFC_;
     }
 
-    public static final int DAMAGE_FIELD_NUMBER = 1;
+    public static final int DAMAGE_FIELD_NUMBER = 7;
     private float damage_;
 
     @java.lang.Override
@@ -804,28 +804,28 @@ public final class AttackResultOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (attackerId_ != 0) {
-        output.writeUInt32(15, attackerId_);
+        output.writeUInt32(6, attackerId_);
       }
       if (damage_ != 0F) {
-        output.writeFloat(1, damage_);
+        output.writeFloat(7, damage_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(animEventId_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 6, animEventId_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 1, animEventId_);
       }
       if (hitCollision_ != null) {
-        output.writeMessage(2, getHitCollision());
+        output.writeMessage(4, getHitCollision());
       }
       if (hitEffResult_ != null) {
-        output.writeMessage(4, getHitEffResult());
+        output.writeMessage(8, getHitEffResult());
       }
       if (elementType_ != 0) {
-        output.writeUInt32(11, elementType_);
+        output.writeUInt32(13, elementType_);
       }
       if (abilityIdentifier_ != null) {
         output.writeMessage(5, getAbilityIdentifier());
       }
       if (defenseId_ != 0) {
-        output.writeUInt32(3, defenseId_);
+        output.writeUInt32(14, defenseId_);
       }
       if (aDIAGMANJIC_ != 0) {
         output.writeUInt32(213, aDIAGMANJIC_);
@@ -898,26 +898,26 @@ public final class AttackResultOuterClass {
       size = 0;
       if (attackerId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, attackerId_);
+          .computeUInt32Size(6, attackerId_);
       }
       if (damage_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(1, damage_);
+          .computeFloatSize(7, damage_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(animEventId_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(6, animEventId_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, animEventId_);
       }
       if (hitCollision_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, getHitCollision());
+          .computeMessageSize(4, getHitCollision());
       }
       if (hitEffResult_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, getHitEffResult());
+          .computeMessageSize(8, getHitEffResult());
       }
       if (elementType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, elementType_);
+          .computeUInt32Size(13, elementType_);
       }
       if (abilityIdentifier_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -925,7 +925,7 @@ public final class AttackResultOuterClass {
       }
       if (defenseId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, defenseId_);
+          .computeUInt32Size(14, defenseId_);
       }
       if (aDIAGMANJIC_ != 0) {
         size += com.google.protobuf.CodedOutputStream

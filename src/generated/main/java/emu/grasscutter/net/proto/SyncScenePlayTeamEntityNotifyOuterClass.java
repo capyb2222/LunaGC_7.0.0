@@ -95,7 +95,7 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 72: {
 
               sceneId_ = input.readUInt32();
               break;
@@ -184,7 +184,7 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
       return dCBANMCKCMP_.get(index);
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 6;
+    public static final int SCENE_ID_FIELD_NUMBER = 9;
     private int sceneId_;
 
     @java.lang.Override
@@ -210,7 +210,7 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
         output.writeMessage(10, dCBANMCKCMP_.get(i));
       }
       if (sceneId_ != 0) {
-        output.writeUInt32(6, sceneId_);
+        output.writeUInt32(9, sceneId_);
       }
       unknownFields.writeTo(output);
     }
@@ -227,7 +227,7 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
       }
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, sceneId_);
+          .computeUInt32Size(9, sceneId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

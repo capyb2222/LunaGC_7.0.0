@@ -128,7 +128,7 @@ public final class BrickBreakerLevelInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 128000: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 chosenAvatarList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -136,7 +136,7 @@ public final class BrickBreakerLevelInfoOuterClass {
               chosenAvatarList_.addInt(input.readUInt32());
               break;
             }
-            case 10: {
+            case 128002: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -149,7 +149,7 @@ public final class BrickBreakerLevelInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 24: {
+            case 8: {
 
               levelId_ = input.readUInt32();
               break;
@@ -164,7 +164,7 @@ public final class BrickBreakerLevelInfoOuterClass {
               isFinish_ = input.readBool();
               break;
             }
-            case 96: {
+            case 40: {
 
               maxScore_ = input.readUInt32();
               break;
@@ -228,7 +228,7 @@ public final class BrickBreakerLevelInfoOuterClass {
               emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo.class, emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 6;
+    public static final int LEVEL_ID_FIELD_NUMBER = 1;
     private int levelId_;
     /**
      * <code>uint32 level_id = 3;</code>
@@ -239,7 +239,7 @@ public final class BrickBreakerLevelInfoOuterClass {
       return levelId_;
     }
 
-    public static final int CHOSEN_AVATAR_LIST_FIELD_NUMBER = 1;
+    public static final int CHOSEN_AVATAR_LIST_FIELD_NUMBER = 16000;
     private com.google.protobuf.Internal.IntList chosenAvatarList_;
     /**
      * <code>repeated uint32 chosen_avatar_list = 1;</code>
@@ -295,7 +295,7 @@ public final class BrickBreakerLevelInfoOuterClass {
     }
     private int chosenSkillListMemoizedSerializedSize = -1;
 
-    public static final int MAX_SCORE_FIELD_NUMBER = 4;
+    public static final int MAX_SCORE_FIELD_NUMBER = 5;
     private int maxScore_;
     /**
      * <code>uint32 max_score = 12;</code>
@@ -306,7 +306,7 @@ public final class BrickBreakerLevelInfoOuterClass {
       return maxScore_;
     }
 
-    public static final int IS_FINISH_FIELD_NUMBER = 10;
+    public static final int IS_FINISH_FIELD_NUMBER = 11;
     private boolean isFinish_;
     /**
      * <code>bool is_finish = 11;</code>
@@ -344,23 +344,23 @@ public final class BrickBreakerLevelInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getChosenAvatarListList().size() > 0) {
-        output.writeUInt32NoTag(10);
+        output.writeUInt32NoTag(128002);
         output.writeUInt32NoTag(chosenAvatarListMemoizedSerializedSize);
       }
       for (int i = 0; i < chosenAvatarList_.size(); i++) {
         output.writeUInt32NoTag(chosenAvatarList_.getInt(i));
       }
       if (levelId_ != 0) {
-        output.writeUInt32(6, levelId_);
+        output.writeUInt32(1, levelId_);
       }
       if (jNFKFCEMOFM_ != false) {
         output.writeBool(8, jNFKFCEMOFM_);
       }
       if (isFinish_ != false) {
-        output.writeBool(10, isFinish_);
+        output.writeBool(11, isFinish_);
       }
       if (maxScore_ != 0) {
-        output.writeUInt32(4, maxScore_);
+        output.writeUInt32(5, maxScore_);
       }
       if (getChosenSkillListList().size() > 0) {
         output.writeUInt32NoTag(106);
@@ -386,7 +386,7 @@ public final class BrickBreakerLevelInfoOuterClass {
         }
         size += dataSize;
         if (!getChosenAvatarListList().isEmpty()) {
-          size += 1;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
@@ -394,7 +394,7 @@ public final class BrickBreakerLevelInfoOuterClass {
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, levelId_);
+          .computeUInt32Size(1, levelId_);
       }
       if (jNFKFCEMOFM_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -402,11 +402,11 @@ public final class BrickBreakerLevelInfoOuterClass {
       }
       if (isFinish_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, isFinish_);
+          .computeBoolSize(11, isFinish_);
       }
       if (maxScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, maxScore_);
+          .computeUInt32Size(5, maxScore_);
       }
       {
         int dataSize = 0;

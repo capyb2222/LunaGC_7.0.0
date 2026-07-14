@@ -79,7 +79,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 32: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 showAvatarIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -87,7 +87,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
               showAvatarIdList_.addInt(input.readUInt32());
               break;
             }
-            case 10: {
+            case 34: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -100,7 +100,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 32: {
+            case 104: {
 
               isShowAvatar_ = input.readBool();
               break;
@@ -145,7 +145,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
               emu.grasscutter.net.proto.UpdatePlayerShowAvatarListReqOuterClass.UpdatePlayerShowAvatarListReq.class, emu.grasscutter.net.proto.UpdatePlayerShowAvatarListReqOuterClass.UpdatePlayerShowAvatarListReq.Builder.class);
     }
 
-    public static final int SHOW_AVATAR_ID_LIST_FIELD_NUMBER = 1;
+    public static final int SHOW_AVATAR_ID_LIST_FIELD_NUMBER = 4;
     private com.google.protobuf.Internal.IntList showAvatarIdList_;
 
     @java.lang.Override
@@ -171,7 +171,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
       return isShowConstellationNum_;
     }
 
-    public static final int IS_SHOW_AVATAR_FIELD_NUMBER = 4;
+    public static final int IS_SHOW_AVATAR_FIELD_NUMBER = 13;
     private boolean isShowAvatar_;
 
     @java.lang.Override
@@ -195,14 +195,14 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getShowAvatarIdListList().size() > 0) {
-        output.writeUInt32NoTag(10);
+        output.writeUInt32NoTag(34);
         output.writeUInt32NoTag(showAvatarIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < showAvatarIdList_.size(); i++) {
         output.writeUInt32NoTag(showAvatarIdList_.getInt(i));
       }
       if (isShowAvatar_ != false) {
-        output.writeBool(4, isShowAvatar_);
+        output.writeBool(13, isShowAvatar_);
       }
       if (isShowConstellationNum_ != false) {
         output.writeBool(6, isShowConstellationNum_);
@@ -232,7 +232,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
       }
       if (isShowAvatar_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, isShowAvatar_);
+          .computeBoolSize(13, isShowAvatar_);
       }
       if (isShowConstellationNum_ != false) {
         size += com.google.protobuf.CodedOutputStream

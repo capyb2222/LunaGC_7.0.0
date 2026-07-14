@@ -168,7 +168,7 @@ public final class CoinCollectLevelDataOuterClass {
             case 0:
               done = true;
               break;
-            case 18: {
+            case 114: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 doubleBestTeamInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData>();
                 mutable_bitField0_ |= 0x00000001;
@@ -182,17 +182,17 @@ public final class CoinCollectLevelDataOuterClass {
               gENIGFJFKEE_ = input.readUInt32();
               break;
             }
-            case 32: {
+            case 128000: {
 
               nFKJLPLDDBM_ = input.readBool();
               break;
             }
-            case 40: {
+            case 32: {
 
               isLevelOpen_ = input.readBool();
               break;
             }
-            case 66: {
+            case 42: {
               emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData.Builder subBuilder = null;
               if (singleBestTeamInfo_ != null) {
                 subBuilder = singleBestTeamInfo_.toBuilder();
@@ -230,12 +230,12 @@ public final class CoinCollectLevelDataOuterClass {
               cGCAEFMBDLE_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 128008: {
 
               pKPHLANBFAM_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 8: {
 
               levelId_ = input.readUInt32();
               break;
@@ -319,7 +319,7 @@ public final class CoinCollectLevelDataOuterClass {
       return gICIIMOFPLC_;
     }
 
-    public static final int IS_LEVEL_OPEN_FIELD_NUMBER = 5;
+    public static final int IS_LEVEL_OPEN_FIELD_NUMBER = 4;
     private boolean isLevelOpen_;
     /**
      * <code>bool is_level_open = 5;</code>
@@ -330,7 +330,7 @@ public final class CoinCollectLevelDataOuterClass {
       return isLevelOpen_;
     }
 
-    public static final int NFKJLPLDDBM_FIELD_NUMBER = 4;
+    public static final int NFKJLPLDDBM_FIELD_NUMBER = 16000;
     private boolean nFKJLPLDDBM_;
     /**
      * <code>bool NFKJLPLDDBM = 4;</code>
@@ -363,7 +363,7 @@ public final class CoinCollectLevelDataOuterClass {
       return gENIGFJFKEE_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 12;
+    public static final int LEVEL_ID_FIELD_NUMBER = 1;
     private int levelId_;
     /**
      * <code>uint32 level_id = 15;</code>
@@ -374,7 +374,7 @@ public final class CoinCollectLevelDataOuterClass {
       return levelId_;
     }
 
-    public static final int SINGLE_BEST_TEAM_INFO_FIELD_NUMBER = 3;
+    public static final int SINGLE_BEST_TEAM_INFO_FIELD_NUMBER = 5;
     private emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData singleBestTeamInfo_;
     /**
      * <code>.CoinCollectTeamInfoData single_best_team_info = 8;</code>
@@ -400,7 +400,7 @@ public final class CoinCollectLevelDataOuterClass {
       return getSingleBestTeamInfo();
     }
 
-    public static final int DOUBLE_BEST_TEAM_INFO_LIST_FIELD_NUMBER = 8;
+    public static final int DOUBLE_BEST_TEAM_INFO_LIST_FIELD_NUMBER = 14;
     private java.util.List<emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData> doubleBestTeamInfoList_;
     /**
      * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 2;</code>
@@ -440,7 +440,7 @@ public final class CoinCollectLevelDataOuterClass {
       return doubleBestTeamInfoList_.get(index);
     }
 
-    public static final int PKPHLANBFAM_FIELD_NUMBER = 14;
+    public static final int PKPHLANBFAM_FIELD_NUMBER = 16001;
     private int pKPHLANBFAM_;
     /**
      * <code>uint32 PKPHLANBFAM = 14;</code>
@@ -466,19 +466,19 @@ public final class CoinCollectLevelDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < doubleBestTeamInfoList_.size(); i++) {
-        output.writeMessage(8, doubleBestTeamInfoList_.get(i));
+        output.writeMessage(14, doubleBestTeamInfoList_.get(i));
       }
       if (gENIGFJFKEE_ != 0) {
         output.writeUInt32(3, gENIGFJFKEE_);
       }
       if (nFKJLPLDDBM_ != false) {
-        output.writeBool(4, nFKJLPLDDBM_);
+        output.writeBool(16000, nFKJLPLDDBM_);
       }
       if (isLevelOpen_ != false) {
-        output.writeBool(5, isLevelOpen_);
+        output.writeBool(4, isLevelOpen_);
       }
       if (singleBestTeamInfo_ != null) {
-        output.writeMessage(8, getSingleBestTeamInfo());
+        output.writeMessage(5, getSingleBestTeamInfo());
       }
       if (gICIIMOFPLC_ != false) {
         output.writeBool(9, gICIIMOFPLC_);
@@ -496,10 +496,10 @@ public final class CoinCollectLevelDataOuterClass {
         output.writeUInt32(13, cGCAEFMBDLE_);
       }
       if (pKPHLANBFAM_ != 0) {
-        output.writeUInt32(14, pKPHLANBFAM_);
+        output.writeUInt32(16001, pKPHLANBFAM_);
       }
       if (levelId_ != 0) {
-        output.writeUInt32(12, levelId_);
+        output.writeUInt32(1, levelId_);
       }
       unknownFields.writeTo(output);
     }
@@ -512,7 +512,7 @@ public final class CoinCollectLevelDataOuterClass {
       size = 0;
       for (int i = 0; i < doubleBestTeamInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, doubleBestTeamInfoList_.get(i));
+          .computeMessageSize(14, doubleBestTeamInfoList_.get(i));
       }
       if (gENIGFJFKEE_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -520,15 +520,15 @@ public final class CoinCollectLevelDataOuterClass {
       }
       if (nFKJLPLDDBM_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, nFKJLPLDDBM_);
+          .computeBoolSize(16000, nFKJLPLDDBM_);
       }
       if (isLevelOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, isLevelOpen_);
+          .computeBoolSize(4, isLevelOpen_);
       }
       if (singleBestTeamInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, getSingleBestTeamInfo());
+          .computeMessageSize(5, getSingleBestTeamInfo());
       }
       if (gICIIMOFPLC_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -552,11 +552,11 @@ public final class CoinCollectLevelDataOuterClass {
       }
       if (pKPHLANBFAM_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, pKPHLANBFAM_);
+          .computeUInt32Size(16001, pKPHLANBFAM_);
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, levelId_);
+          .computeUInt32Size(1, levelId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

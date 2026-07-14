@@ -77,12 +77,12 @@ public final class SceneForceUnlockNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 96: {
 
               isAdd_ = input.readBool();
               break;
             }
-            case 88: {
+            case 16: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 forceIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -90,7 +90,7 @@ public final class SceneForceUnlockNotifyOuterClass {
               forceIdList_.addInt(input.readUInt32());
               break;
             }
-            case 90: {
+            case 18: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -138,7 +138,7 @@ public final class SceneForceUnlockNotifyOuterClass {
               emu.grasscutter.net.proto.SceneForceUnlockNotifyOuterClass.SceneForceUnlockNotify.class, emu.grasscutter.net.proto.SceneForceUnlockNotifyOuterClass.SceneForceUnlockNotify.Builder.class);
     }
 
-    public static final int FORCE_ID_LIST_FIELD_NUMBER = 11;
+    public static final int FORCE_ID_LIST_FIELD_NUMBER = 2;
     private com.google.protobuf.Internal.IntList forceIdList_;
 
     @java.lang.Override
@@ -156,7 +156,7 @@ public final class SceneForceUnlockNotifyOuterClass {
     }
     private int forceIdListMemoizedSerializedSize = -1;
 
-    public static final int IS_ADD_FIELD_NUMBER = 8;
+    public static final int IS_ADD_FIELD_NUMBER = 12;
     private boolean isAdd_;
 
     @java.lang.Override
@@ -180,10 +180,10 @@ public final class SceneForceUnlockNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (isAdd_ != false) {
-        output.writeBool(8, isAdd_);
+        output.writeBool(12, isAdd_);
       }
       if (getForceIdListList().size() > 0) {
-        output.writeUInt32NoTag(90);
+        output.writeUInt32NoTag(18);
         output.writeUInt32NoTag(forceIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < forceIdList_.size(); i++) {
@@ -200,7 +200,7 @@ public final class SceneForceUnlockNotifyOuterClass {
       size = 0;
       if (isAdd_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, isAdd_);
+          .computeBoolSize(12, isAdd_);
       }
       {
         int dataSize = 0;

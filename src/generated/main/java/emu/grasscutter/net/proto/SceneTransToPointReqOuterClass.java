@@ -140,10 +140,10 @@ public final class SceneTransToPointReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (pointId_ != 0) {
-        output.writeUInt32(7, pointId_);
+        output.writeUInt32(8, pointId_);
       }
       if (sceneId_ != 0) {
-        output.writeUInt32(13, sceneId_);
+        output.writeUInt32(12, sceneId_);
       }
       unknownFields.writeTo(output);
     }
@@ -156,11 +156,11 @@ public final class SceneTransToPointReqOuterClass {
       size = 0;
       if (pointId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, pointId_);
+          .computeUInt32Size(8, pointId_);
       }
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, sceneId_);
+          .computeUInt32Size(12, sceneId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

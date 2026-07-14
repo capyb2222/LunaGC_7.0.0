@@ -435,34 +435,34 @@ public final class PlayerLoginReqOuterClass {
               isGuest_ = input.readBool();
               break;
             }
-            case 90: {
+            case 58: {
               java.lang.String s = input.readStringRequireUtf8();
 
               token_ = s;
               break;
             }
-            case 80: {
+            case 96: {
 
               platformType_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 72: {
 
               targetUid_ = input.readUInt32();
               break;
             }
-            case 56: {
+            case 88: {
 
               isEditor_ = input.readBool();
               break;
             }
-            case 114: {
+            case 50: {
               java.lang.String s = input.readStringRequireUtf8();
 
               accountUid_ = s;
               break;
             }
-            case 66: {
+            case 26: {
               java.lang.String s = input.readStringRequireUtf8();
 
               platform_ = s;
@@ -514,13 +514,13 @@ public final class PlayerLoginReqOuterClass {
               bPLIJHLODFK_ = input.readUInt32();
               break;
             }
-            case 1250: {
+            case 8234: {
               java.lang.String s = input.readStringRequireUtf8();
 
               securityLibraryMd5_ = s;
               break;
             }
-            case 9778: {
+            case 15826: {
 
               extraBinData_ = input.readBytes();
               break;
@@ -530,7 +530,7 @@ public final class PlayerLoginReqOuterClass {
               bEGALCDJGIO_ = input.readBytes();
               break;
             }
-            case 2530: {
+            case 7154: {
               java.lang.String s = input.readStringRequireUtf8();
 
               psnId_ = s;
@@ -563,7 +563,7 @@ public final class PlayerLoginReqOuterClass {
               iIIBPEMHHGF_ = input.readUInt32();
               break;
             }
-            case 986: {
+            case 8818: {
 
               securityCmdReply_ = input.readBytes();
               break;
@@ -595,19 +595,19 @@ public final class PlayerLoginReqOuterClass {
               fMNKCIABDMG_ = s;
               break;
             }
-            case 2930: {
+            case 1762: {
               java.lang.String s = input.readStringRequireUtf8();
 
               onlineId_ = s;
               break;
             }
-            case 2282: {
+            case 3274: {
               java.lang.String s = input.readStringRequireUtf8();
 
               birthday_ = s;
               break;
             }
-            case 4514: {
+            case 2114: {
               java.lang.String s = input.readStringRequireUtf8();
 
               countryCode_ = s;
@@ -654,7 +654,7 @@ public final class PlayerLoginReqOuterClass {
               nFFIOJJIIIF_ = s;
               break;
             }
-            case 11176: {
+            case 7448: {
 
               tag_ = input.readUInt32();
               break;
@@ -669,7 +669,7 @@ public final class PlayerLoginReqOuterClass {
               oCKCOOCKBEJ_ = input.readUInt32();
               break;
             }
-            case 12312: {
+            case 3440: {
 
               channelId_ = input.readUInt32();
               break;
@@ -679,12 +679,12 @@ public final class PlayerLoginReqOuterClass {
               bDGHHHNGAID_ = input.readUInt32();
               break;
             }
-            case 13832: {
+            case 7328: {
 
               clientDataVersion_ = input.readUInt32();
               break;
             }
-            case 14130: {
+            case 10450: {
 
               environmentErrorCode_ = input.readBytes();
               break;
@@ -738,7 +738,7 @@ public final class PlayerLoginReqOuterClass {
               emu.grasscutter.net.proto.PlayerLoginReqOuterClass.PlayerLoginReq.class, emu.grasscutter.net.proto.PlayerLoginReqOuterClass.PlayerLoginReq.Builder.class);
     }
 
-    public static final int EXTRA_BIN_DATA_FIELD_NUMBER = 295;
+    public static final int EXTRA_BIN_DATA_FIELD_NUMBER = 1978;
     private com.google.protobuf.ByteString extraBinData_;
 
     @java.lang.Override
@@ -746,7 +746,7 @@ public final class PlayerLoginReqOuterClass {
       return extraBinData_;
     }
 
-    public static final int BIRTHDAY_FIELD_NUMBER = 1129;
+    public static final int BIRTHDAY_FIELD_NUMBER = 409;
     private volatile java.lang.Object birthday_;
 
     @java.lang.Override
@@ -778,7 +778,7 @@ public final class PlayerLoginReqOuterClass {
       }
     }
 
-    public static final int PSN_ID_FIELD_NUMBER = 382;
+    public static final int PSN_ID_FIELD_NUMBER = 894;
     private volatile java.lang.Object psnId_;
 
     @java.lang.Override
@@ -810,7 +810,7 @@ public final class PlayerLoginReqOuterClass {
       }
     }
 
-    public static final int SECURITY_LIBRARY_MD5_FIELD_NUMBER = 254;
+    public static final int SECURITY_LIBRARY_MD5_FIELD_NUMBER = 1029;
     private volatile java.lang.Object securityLibraryMd5_;
 
     @java.lang.Override
@@ -842,7 +842,7 @@ public final class PlayerLoginReqOuterClass {
       }
     }
 
-    public static final int TOKEN_FIELD_NUMBER = 3;
+    public static final int TOKEN_FIELD_NUMBER = 7;
     private volatile java.lang.Object token_;
 
     @java.lang.Override
@@ -874,7 +874,7 @@ public final class PlayerLoginReqOuterClass {
       }
     }
 
-    public static final int PLATFORM_FIELD_NUMBER = 8;
+    public static final int PLATFORM_FIELD_NUMBER = 3;
     private volatile java.lang.Object platform_;
 
     @java.lang.Override
@@ -906,7 +906,7 @@ public final class PlayerLoginReqOuterClass {
       }
     }
 
-    public static final int ACCOUNT_UID_FIELD_NUMBER = 11;
+    public static final int ACCOUNT_UID_FIELD_NUMBER = 6;
     private volatile java.lang.Object accountUid_;
 
     @java.lang.Override
@@ -938,7 +938,7 @@ public final class PlayerLoginReqOuterClass {
       }
     }
 
-    public static final int SECURITY_CMD_REPLY_FIELD_NUMBER = 771;
+    public static final int SECURITY_CMD_REPLY_FIELD_NUMBER = 1102;
     private com.google.protobuf.ByteString securityCmdReply_;
 
     @java.lang.Override
@@ -946,7 +946,7 @@ public final class PlayerLoginReqOuterClass {
       return securityCmdReply_;
     }
 
-    public static final int ENVIRONMENT_ERROR_CODE_FIELD_NUMBER = 1766;
+    public static final int ENVIRONMENT_ERROR_CODE_FIELD_NUMBER = 1306;
     private com.google.protobuf.ByteString environmentErrorCode_;
 
     @java.lang.Override
@@ -954,7 +954,7 @@ public final class PlayerLoginReqOuterClass {
       return environmentErrorCode_;
     }
 
-    public static final int ONLINE_ID_FIELD_NUMBER = 366;
+    public static final int ONLINE_ID_FIELD_NUMBER = 220;
     private volatile java.lang.Object onlineId_;
 
     @java.lang.Override
@@ -986,7 +986,7 @@ public final class PlayerLoginReqOuterClass {
       }
     }
 
-    public static final int TARGET_UID_FIELD_NUMBER = 5;
+    public static final int TARGET_UID_FIELD_NUMBER = 9;
     private int targetUid_;
 
     @java.lang.Override
@@ -994,7 +994,7 @@ public final class PlayerLoginReqOuterClass {
       return targetUid_;
     }
 
-    public static final int CHANNEL_ID_FIELD_NUMBER = 1539;
+    public static final int CHANNEL_ID_FIELD_NUMBER = 430;
     private int channelId_;
 
     @java.lang.Override
@@ -1002,7 +1002,7 @@ public final class PlayerLoginReqOuterClass {
       return channelId_;
     }
 
-    public static final int CLIENT_DATA_VERSION_FIELD_NUMBER = 1729;
+    public static final int CLIENT_DATA_VERSION_FIELD_NUMBER = 916;
     private int clientDataVersion_;
 
     @java.lang.Override
@@ -1010,7 +1010,7 @@ public final class PlayerLoginReqOuterClass {
       return clientDataVersion_;
     }
 
-    public static final int TAG_FIELD_NUMBER = 1397;
+    public static final int TAG_FIELD_NUMBER = 931;
     private int tag_;
 
     @java.lang.Override
@@ -1018,7 +1018,7 @@ public final class PlayerLoginReqOuterClass {
       return tag_;
     }
 
-    public static final int PLATFORM_TYPE_FIELD_NUMBER = 4;
+    public static final int PLATFORM_TYPE_FIELD_NUMBER = 12;
     private int platformType_;
 
     @java.lang.Override
@@ -1026,7 +1026,7 @@ public final class PlayerLoginReqOuterClass {
       return platformType_;
     }
 
-    public static final int IS_EDITOR_FIELD_NUMBER = 10;
+    public static final int IS_EDITOR_FIELD_NUMBER = 11;
     private boolean isEditor_;
 
     @java.lang.Override
@@ -1455,7 +1455,7 @@ public final class PlayerLoginReqOuterClass {
       }
     }
 
-    public static final int COUNTRY_CODE_FIELD_NUMBER = 1160;
+    public static final int COUNTRY_CODE_FIELD_NUMBER = 264;
     private volatile java.lang.Object countryCode_;
 
     @java.lang.Override
@@ -1784,22 +1784,22 @@ public final class PlayerLoginReqOuterClass {
         output.writeBool(15, isGuest_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(token_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 3, token_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 7, token_);
       }
       if (platformType_ != 0) {
-        output.writeUInt32(4, platformType_);
+        output.writeUInt32(12, platformType_);
       }
       if (targetUid_ != 0) {
-        output.writeUInt32(5, targetUid_);
+        output.writeUInt32(9, targetUid_);
       }
       if (isEditor_ != false) {
-        output.writeBool(10, isEditor_);
+        output.writeBool(11, isEditor_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(accountUid_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 11, accountUid_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 6, accountUid_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(platform_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 12, platform_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 3, platform_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(eLNJLDLPCCG_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 13, eLNJLDLPCCG_);
@@ -1823,16 +1823,16 @@ public final class PlayerLoginReqOuterClass {
         output.writeUInt32(234, bPLIJHLODFK_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(securityLibraryMd5_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 254, securityLibraryMd5_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 1029, securityLibraryMd5_);
       }
       if (!extraBinData_.isEmpty()) {
-        output.writeBytes(295, extraBinData_);
+        output.writeBytes(1978, extraBinData_);
       }
       if (!bEGALCDJGIO_.isEmpty()) {
         output.writeBytes(359, bEGALCDJGIO_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(psnId_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 382, psnId_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 894, psnId_);
       }
       if (gGJPKAFNKJK_ != 0) {
         output.writeUInt32(466, gGJPKAFNKJK_);
@@ -1850,7 +1850,7 @@ public final class PlayerLoginReqOuterClass {
         output.writeUInt32(763, iIIBPEMHHGF_);
       }
       if (!securityCmdReply_.isEmpty()) {
-        output.writeBytes(771, securityCmdReply_);
+        output.writeBytes(1102, securityCmdReply_);
       }
       if (oFAGNENPKBF_ != false) {
         output.writeBool(785, oFAGNENPKBF_);
@@ -1868,13 +1868,13 @@ public final class PlayerLoginReqOuterClass {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 1067, fMNKCIABDMG_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(onlineId_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1068, onlineId_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 220, onlineId_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(birthday_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1129, birthday_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 409, birthday_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(countryCode_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1160, countryCode_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 264, countryCode_);
       }
       if (mAECIMMDNEH_ != 0) {
         output.writeUInt32(1168, mAECIMMDNEH_);
@@ -1895,7 +1895,7 @@ public final class PlayerLoginReqOuterClass {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 1386, nFFIOJJIIIF_);
       }
       if (tag_ != 0) {
-        output.writeUInt32(1397, tag_);
+        output.writeUInt32(931, tag_);
       }
       if (lLEPJKJHFNI_ != 0) {
         output.writeUInt32(1453, lLEPJKJHFNI_);
@@ -1904,16 +1904,16 @@ public final class PlayerLoginReqOuterClass {
         output.writeUInt32(1481, oCKCOOCKBEJ_);
       }
       if (channelId_ != 0) {
-        output.writeUInt32(1539, channelId_);
+        output.writeUInt32(430, channelId_);
       }
       if (bDGHHHNGAID_ != 0) {
         output.writeUInt32(1641, bDGHHHNGAID_);
       }
       if (clientDataVersion_ != 0) {
-        output.writeUInt32(1729, clientDataVersion_);
+        output.writeUInt32(916, clientDataVersion_);
       }
       if (!environmentErrorCode_.isEmpty()) {
-        output.writeBytes(1766, environmentErrorCode_);
+        output.writeBytes(1306, environmentErrorCode_);
       }
       if (iMGHHFNKIIG_ != 0) {
         output.writeUInt32(1813, iMGHHFNKIIG_);
@@ -1938,25 +1938,25 @@ public final class PlayerLoginReqOuterClass {
           .computeBoolSize(15, isGuest_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(token_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(3, token_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(7, token_);
       }
       if (platformType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, platformType_);
+          .computeUInt32Size(12, platformType_);
       }
       if (targetUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, targetUid_);
+          .computeUInt32Size(9, targetUid_);
       }
       if (isEditor_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, isEditor_);
+          .computeBoolSize(11, isEditor_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(accountUid_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(11, accountUid_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(6, accountUid_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(platform_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(8, platform_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(3, platform_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(eLNJLDLPCCG_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(13, eLNJLDLPCCG_);
@@ -1984,18 +1984,18 @@ public final class PlayerLoginReqOuterClass {
           .computeUInt32Size(234, bPLIJHLODFK_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(securityLibraryMd5_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(254, securityLibraryMd5_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1029, securityLibraryMd5_);
       }
       if (!extraBinData_.isEmpty()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(295, extraBinData_);
+          .computeBytesSize(1978, extraBinData_);
       }
       if (!bEGALCDJGIO_.isEmpty()) {
         size += com.google.protobuf.CodedOutputStream
           .computeBytesSize(359, bEGALCDJGIO_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(psnId_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(382, psnId_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(894, psnId_);
       }
       if (gGJPKAFNKJK_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -2017,7 +2017,7 @@ public final class PlayerLoginReqOuterClass {
       }
       if (!securityCmdReply_.isEmpty()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(771, securityCmdReply_);
+          .computeBytesSize(1102, securityCmdReply_);
       }
       if (oFAGNENPKBF_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -2038,13 +2038,13 @@ public final class PlayerLoginReqOuterClass {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1067, fMNKCIABDMG_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(onlineId_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(366, onlineId_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(220, onlineId_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(birthday_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1129, birthday_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(409, birthday_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(countryCode_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1160, countryCode_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(264, countryCode_);
       }
       if (mAECIMMDNEH_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -2069,7 +2069,7 @@ public final class PlayerLoginReqOuterClass {
       }
       if (tag_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1397, tag_);
+          .computeUInt32Size(931, tag_);
       }
       if (lLEPJKJHFNI_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -2081,7 +2081,7 @@ public final class PlayerLoginReqOuterClass {
       }
       if (channelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1539, channelId_);
+          .computeUInt32Size(430, channelId_);
       }
       if (bDGHHHNGAID_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -2089,11 +2089,11 @@ public final class PlayerLoginReqOuterClass {
       }
       if (clientDataVersion_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1729, clientDataVersion_);
+          .computeUInt32Size(916, clientDataVersion_);
       }
       if (!environmentErrorCode_.isEmpty()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(1766, environmentErrorCode_);
+          .computeBytesSize(1306, environmentErrorCode_);
       }
       if (iMGHHFNKIIG_ != 0) {
         size += com.google.protobuf.CodedOutputStream

@@ -82,7 +82,7 @@ public final class AbilityInvocationsNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 98: {
+            case 66: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 invokes_ = new java.util.ArrayList<emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry>();
                 mutable_bitField0_ |= 0x00000001;
@@ -126,7 +126,7 @@ public final class AbilityInvocationsNotifyOuterClass {
               emu.grasscutter.net.proto.AbilityInvocationsNotifyOuterClass.AbilityInvocationsNotify.class, emu.grasscutter.net.proto.AbilityInvocationsNotifyOuterClass.AbilityInvocationsNotify.Builder.class);
     }
 
-    public static final int INVOKES_FIELD_NUMBER = 12;
+    public static final int INVOKES_FIELD_NUMBER = 8;
     private java.util.List<emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry> invokes_;
 
     @java.lang.Override
@@ -171,7 +171,7 @@ public final class AbilityInvocationsNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < invokes_.size(); i++) {
-        output.writeMessage(12, invokes_.get(i));
+        output.writeMessage(8, invokes_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -184,7 +184,7 @@ public final class AbilityInvocationsNotifyOuterClass {
       size = 0;
       for (int i = 0; i < invokes_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, invokes_.get(i));
+          .computeMessageSize(8, invokes_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

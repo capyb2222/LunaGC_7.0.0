@@ -233,7 +233,7 @@ public final class BeginCameraSceneLookNotifyOuterClass {
 
               break;
             }
-            case 21: {
+            case 69: {
 
               duration_ = input.readFloat();
               break;
@@ -268,7 +268,7 @@ public final class BeginCameraSceneLookNotifyOuterClass {
               lEMJKJIPEED_.add(s);
               break;
             }
-            case 64: {
+            case 128000: {
 
               iEFJNLANJNI_ = input.readBool();
               break;
@@ -316,7 +316,7 @@ public final class BeginCameraSceneLookNotifyOuterClass {
               eFPNBOJMHOF_ = input.readFloat();
               break;
             }
-            case 4272: {
+            case 3760: {
 
               entityId_ = input.readUInt32();
               break;
@@ -453,7 +453,7 @@ public final class BeginCameraSceneLookNotifyOuterClass {
       return getOCJINDALGCH();
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 1416;
+    public static final int ENTITY_ID_FIELD_NUMBER = 470;
     private int entityId_;
     /**
      * <code>uint32 entity_id = 534;</code>
@@ -486,7 +486,7 @@ public final class BeginCameraSceneLookNotifyOuterClass {
       return fBJIPNLHIJM_;
     }
 
-    public static final int DURATION_FIELD_NUMBER = 2;
+    public static final int DURATION_FIELD_NUMBER = 8;
     private float duration_;
     /**
      * <code>float duration = 2;</code>
@@ -497,7 +497,7 @@ public final class BeginCameraSceneLookNotifyOuterClass {
       return duration_;
     }
 
-    public static final int IEFJNLANJNI_FIELD_NUMBER = 8;
+    public static final int IEFJNLANJNI_FIELD_NUMBER = 16000;
     private boolean iEFJNLANJNI_;
     /**
      * <code>bool IEFJNLANJNI = 8;</code>
@@ -644,7 +644,7 @@ public final class BeginCameraSceneLookNotifyOuterClass {
         output.writeMessage(1, getPKONLLGKBAI());
       }
       if (duration_ != 0F) {
-        output.writeFloat(2, duration_);
+        output.writeFloat(8, duration_);
       }
       if (aGIIGOAJHHO_ != emu.grasscutter.net.proto.KeepRotTypeOuterClass.KeepRotType.KeepRotType_KEEP_ROT_X.getNumber()) {
         output.writeEnum(3, aGIIGOAJHHO_);
@@ -662,7 +662,7 @@ public final class BeginCameraSceneLookNotifyOuterClass {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 7, lEMJKJIPEED_.getRaw(i));
       }
       if (iEFJNLANJNI_ != false) {
-        output.writeBool(8, iEFJNLANJNI_);
+        output.writeBool(16000, iEFJNLANJNI_);
       }
       if (fBJIPNLHIJM_ != 0F) {
         output.writeFloat(9, fBJIPNLHIJM_);
@@ -686,7 +686,7 @@ public final class BeginCameraSceneLookNotifyOuterClass {
         output.writeFloat(506, eFPNBOJMHOF_);
       }
       if (entityId_ != 0) {
-        output.writeUInt32(1416, entityId_);
+        output.writeUInt32(470, entityId_);
       }
       if (hEKPMBICIPF_ != 0) {
         output.writeUInt32(911, hEKPMBICIPF_);
@@ -709,7 +709,7 @@ public final class BeginCameraSceneLookNotifyOuterClass {
       }
       if (duration_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(2, duration_);
+          .computeFloatSize(8, duration_);
       }
       if (aGIIGOAJHHO_ != emu.grasscutter.net.proto.KeepRotTypeOuterClass.KeepRotType.KeepRotType_KEEP_ROT_X.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
@@ -737,7 +737,7 @@ public final class BeginCameraSceneLookNotifyOuterClass {
       }
       if (iEFJNLANJNI_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, iEFJNLANJNI_);
+          .computeBoolSize(16000, iEFJNLANJNI_);
       }
       if (fBJIPNLHIJM_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
@@ -769,7 +769,7 @@ public final class BeginCameraSceneLookNotifyOuterClass {
       }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1416, entityId_);
+          .computeUInt32Size(470, entityId_);
       }
       if (hEKPMBICIPF_ != 0) {
         size += com.google.protobuf.CodedOutputStream

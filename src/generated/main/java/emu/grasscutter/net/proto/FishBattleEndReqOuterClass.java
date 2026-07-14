@@ -81,13 +81,13 @@ public final class FishBattleEndReqOuterClass {
               maxBonusTime_ = input.readUInt32();
               break;
             }
-            case 32: {
+            case 96: {
               int rawValue = input.readEnum();
 
               battleResult_ = rawValue;
               break;
             }
-            case 56: {
+            case 104: {
 
               isAlwaysBonus_ = input.readBool();
               break;
@@ -124,7 +124,7 @@ public final class FishBattleEndReqOuterClass {
               emu.grasscutter.net.proto.FishBattleEndReqOuterClass.FishBattleEndReq.class, emu.grasscutter.net.proto.FishBattleEndReqOuterClass.FishBattleEndReq.Builder.class);
     }
 
-    public static final int IS_ALWAYS_BONUS_FIELD_NUMBER = 7;
+    public static final int IS_ALWAYS_BONUS_FIELD_NUMBER = 13;
     private boolean isAlwaysBonus_;
 
     @java.lang.Override
@@ -140,7 +140,7 @@ public final class FishBattleEndReqOuterClass {
       return maxBonusTime_;
     }
 
-    public static final int BATTLE_RESULT_FIELD_NUMBER = 4;
+    public static final int BATTLE_RESULT_FIELD_NUMBER = 12;
     private int battleResult_;
 
     @java.lang.Override public int getBattleResultValue() {
@@ -171,10 +171,10 @@ public final class FishBattleEndReqOuterClass {
         output.writeUInt32(3, maxBonusTime_);
       }
       if (battleResult_ != emu.grasscutter.net.proto.FishBattleResultOuterClass.FishBattleResult.FishBattleResult_NONE.getNumber()) {
-        output.writeEnum(4, battleResult_);
+        output.writeEnum(12, battleResult_);
       }
       if (isAlwaysBonus_ != false) {
-        output.writeBool(7, isAlwaysBonus_);
+        output.writeBool(13, isAlwaysBonus_);
       }
       unknownFields.writeTo(output);
     }
@@ -191,11 +191,11 @@ public final class FishBattleEndReqOuterClass {
       }
       if (battleResult_ != emu.grasscutter.net.proto.FishBattleResultOuterClass.FishBattleResult.FishBattleResult_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(4, battleResult_);
+          .computeEnumSize(12, battleResult_);
       }
       if (isAlwaysBonus_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, isAlwaysBonus_);
+          .computeBoolSize(13, isAlwaysBonus_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

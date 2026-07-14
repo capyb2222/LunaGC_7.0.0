@@ -76,7 +76,7 @@ public final class GetMapAreaRspOuterClass {
             case 0:
               done = true;
               break;
-            case 106: {
+            case 98: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 mapAreaInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -85,7 +85,7 @@ public final class GetMapAreaRspOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo.parser(), extensionRegistry));
               break;
             }
-            case 120: {
+            case 48: {
 
               retcode_ = input.readInt32();
               break;
@@ -125,7 +125,7 @@ public final class GetMapAreaRspOuterClass {
               emu.grasscutter.net.proto.GetMapAreaRspOuterClass.GetMapAreaRsp.class, emu.grasscutter.net.proto.GetMapAreaRspOuterClass.GetMapAreaRsp.Builder.class);
     }
 
-    public static final int MAP_AREA_INFO_LIST_FIELD_NUMBER = 3;
+    public static final int MAP_AREA_INFO_LIST_FIELD_NUMBER = 12;
     private java.util.List<emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo> mapAreaInfoList_;
 
     @java.lang.Override
@@ -155,7 +155,7 @@ public final class GetMapAreaRspOuterClass {
       return mapAreaInfoList_.get(index);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 12;
+    public static final int RETCODE_FIELD_NUMBER = 6;
     private int retcode_;
 
     @java.lang.Override
@@ -178,10 +178,10 @@ public final class GetMapAreaRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < mapAreaInfoList_.size(); i++) {
-        output.writeMessage(3, mapAreaInfoList_.get(i));
+        output.writeMessage(12, mapAreaInfoList_.get(i));
       }
       if (retcode_ != 0) {
-        output.writeInt32(12, retcode_);
+        output.writeInt32(6, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -194,11 +194,11 @@ public final class GetMapAreaRspOuterClass {
       size = 0;
       for (int i = 0; i < mapAreaInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, mapAreaInfoList_.get(i));
+          .computeMessageSize(12, mapAreaInfoList_.get(i));
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(12, retcode_);
+          .computeInt32Size(6, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

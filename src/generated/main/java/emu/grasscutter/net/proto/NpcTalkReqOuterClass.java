@@ -73,17 +73,17 @@ public final class NpcTalkReqOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 56: {
 
               npcEntityId_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 32: {
 
               entityId_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 24: {
 
               talkId_ = input.readUInt32();
               break;
@@ -120,7 +120,7 @@ public final class NpcTalkReqOuterClass {
               emu.grasscutter.net.proto.NpcTalkReqOuterClass.NpcTalkReq.class, emu.grasscutter.net.proto.NpcTalkReqOuterClass.NpcTalkReq.Builder.class);
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 11;
+    public static final int ENTITY_ID_FIELD_NUMBER = 4;
     private int entityId_;
 
     @java.lang.Override
@@ -128,7 +128,7 @@ public final class NpcTalkReqOuterClass {
       return entityId_;
     }
 
-    public static final int TALK_ID_FIELD_NUMBER = 14;
+    public static final int TALK_ID_FIELD_NUMBER = 3;
     private int talkId_;
 
     @java.lang.Override
@@ -136,7 +136,7 @@ public final class NpcTalkReqOuterClass {
       return talkId_;
     }
 
-    public static final int NPC_ENTITY_ID_FIELD_NUMBER = 2;
+    public static final int NPC_ENTITY_ID_FIELD_NUMBER = 7;
     private int npcEntityId_;
 
     @java.lang.Override
@@ -159,13 +159,13 @@ public final class NpcTalkReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (talkId_ != 0) {
-        output.writeUInt32(14, talkId_);
+        output.writeUInt32(3, talkId_);
       }
       if (npcEntityId_ != 0) {
-        output.writeUInt32(2, npcEntityId_);
+        output.writeUInt32(7, npcEntityId_);
       }
       if (entityId_ != 0) {
-        output.writeUInt32(11, entityId_);
+        output.writeUInt32(4, entityId_);
       }
       unknownFields.writeTo(output);
     }
@@ -178,15 +178,15 @@ public final class NpcTalkReqOuterClass {
       size = 0;
       if (talkId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, talkId_);
+          .computeUInt32Size(3, talkId_);
       }
       if (npcEntityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, npcEntityId_);
+          .computeUInt32Size(7, npcEntityId_);
       }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, entityId_);
+          .computeUInt32Size(4, entityId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

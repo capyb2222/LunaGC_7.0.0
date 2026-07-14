@@ -85,12 +85,12 @@ public final class GravenInnocencePhotoObjectInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 88: {
+            case 32: {
 
               param_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 88: {
 
               finishTime_ = input.readUInt32();
               break;
@@ -132,7 +132,7 @@ public final class GravenInnocencePhotoObjectInfoOuterClass {
               emu.grasscutter.net.proto.GravenInnocencePhotoObjectInfoOuterClass.GravenInnocencePhotoObjectInfo.class, emu.grasscutter.net.proto.GravenInnocencePhotoObjectInfoOuterClass.GravenInnocencePhotoObjectInfo.Builder.class);
     }
 
-    public static final int PARAM_FIELD_NUMBER = 11;
+    public static final int PARAM_FIELD_NUMBER = 4;
     private int param_;
     /**
      * <code>uint32 param = 11;</code>
@@ -143,7 +143,7 @@ public final class GravenInnocencePhotoObjectInfoOuterClass {
       return param_;
     }
 
-    public static final int FINISH_TIME_FIELD_NUMBER = 12;
+    public static final int FINISH_TIME_FIELD_NUMBER = 11;
     private int finishTime_;
     /**
      * <code>uint32 finish_time = 12;</code>
@@ -180,10 +180,10 @@ public final class GravenInnocencePhotoObjectInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (param_ != 0) {
-        output.writeUInt32(11, param_);
+        output.writeUInt32(4, param_);
       }
       if (finishTime_ != 0) {
-        output.writeUInt32(12, finishTime_);
+        output.writeUInt32(11, finishTime_);
       }
       if (objectId_ != 0) {
         output.writeUInt32(14, objectId_);
@@ -199,11 +199,11 @@ public final class GravenInnocencePhotoObjectInfoOuterClass {
       size = 0;
       if (param_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, param_);
+          .computeUInt32Size(4, param_);
       }
       if (finishTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, finishTime_);
+          .computeUInt32Size(11, finishTime_);
       }
       if (objectId_ != 0) {
         size += com.google.protobuf.CodedOutputStream

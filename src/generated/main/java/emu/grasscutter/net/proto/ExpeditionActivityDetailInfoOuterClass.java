@@ -130,7 +130,7 @@ public final class ExpeditionActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 64: {
 
               isContentClosed_ = input.readBool();
               break;
@@ -149,12 +149,12 @@ public final class ExpeditionActivityDetailInfoOuterClass {
               lHFCPFFENMM_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 128000: {
 
               hBNIAJBBEBN_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 104: {
 
               contentCloseTime_ = input.readUInt32();
               break;
@@ -286,7 +286,7 @@ public final class ExpeditionActivityDetailInfoOuterClass {
       return kCHKCHIIBBB_.get(index);
     }
 
-    public static final int HBNIAJBBEBN_FIELD_NUMBER = 8;
+    public static final int HBNIAJBBEBN_FIELD_NUMBER = 16000;
     private int hBNIAJBBEBN_;
     /**
      * <code>uint32 HBNIAJBBEBN = 8;</code>
@@ -308,7 +308,7 @@ public final class ExpeditionActivityDetailInfoOuterClass {
       return lHFCPFFENMM_;
     }
 
-    public static final int CONTENT_CLOSE_TIME_FIELD_NUMBER = 11;
+    public static final int CONTENT_CLOSE_TIME_FIELD_NUMBER = 13;
     private int contentCloseTime_;
 
     @java.lang.Override
@@ -316,7 +316,7 @@ public final class ExpeditionActivityDetailInfoOuterClass {
       return contentCloseTime_;
     }
 
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 1;
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 8;
     private boolean isContentClosed_;
 
     @java.lang.Override
@@ -339,7 +339,7 @@ public final class ExpeditionActivityDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isContentClosed_ != false) {
-        output.writeBool(1, isContentClosed_);
+        output.writeBool(8, isContentClosed_);
       }
       for (int i = 0; i < kCHKCHIIBBB_.size(); i++) {
         output.writeMessage(3, kCHKCHIIBBB_.get(i));
@@ -348,10 +348,10 @@ public final class ExpeditionActivityDetailInfoOuterClass {
         output.writeUInt32(5, lHFCPFFENMM_);
       }
       if (hBNIAJBBEBN_ != 0) {
-        output.writeUInt32(8, hBNIAJBBEBN_);
+        output.writeUInt32(16000, hBNIAJBBEBN_);
       }
       if (contentCloseTime_ != 0) {
-        output.writeUInt32(11, contentCloseTime_);
+        output.writeUInt32(13, contentCloseTime_);
       }
       for (int i = 0; i < gNMKEJEGCJL_.size(); i++) {
         output.writeMessage(16, gNMKEJEGCJL_.get(i));
@@ -367,7 +367,7 @@ public final class ExpeditionActivityDetailInfoOuterClass {
       size = 0;
       if (isContentClosed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1, isContentClosed_);
+          .computeBoolSize(8, isContentClosed_);
       }
       for (int i = 0; i < kCHKCHIIBBB_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -379,11 +379,11 @@ public final class ExpeditionActivityDetailInfoOuterClass {
       }
       if (hBNIAJBBEBN_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, hBNIAJBBEBN_);
+          .computeUInt32Size(16000, hBNIAJBBEBN_);
       }
       if (contentCloseTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, contentCloseTime_);
+          .computeUInt32Size(13, contentCloseTime_);
       }
       for (int i = 0; i < gNMKEJEGCJL_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream

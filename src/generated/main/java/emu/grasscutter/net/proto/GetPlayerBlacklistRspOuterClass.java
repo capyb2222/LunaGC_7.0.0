@@ -84,7 +84,7 @@ public final class GetPlayerBlacklistRspOuterClass {
             case 0:
               done = true;
               break;
-            case 80: {
+            case 104: {
 
               retcode_ = input.readInt32();
               break;
@@ -133,7 +133,7 @@ public final class GetPlayerBlacklistRspOuterClass {
               emu.grasscutter.net.proto.GetPlayerBlacklistRspOuterClass.GetPlayerBlacklistRsp.class, emu.grasscutter.net.proto.GetPlayerBlacklistRspOuterClass.GetPlayerBlacklistRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 10;
+    public static final int RETCODE_FIELD_NUMBER = 13;
     private int retcode_;
     /**
      * <code>int32 retcode = 13;</code>
@@ -144,7 +144,7 @@ public final class GetPlayerBlacklistRspOuterClass {
       return retcode_;
     }
 
-    public static final int BLACKLIST_FIELD_NUMBER = 12;
+    public static final int BLACKLIST_FIELD_NUMBER = 15;
     private java.util.List<emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief> blacklist_;
 
     @java.lang.Override
@@ -189,7 +189,7 @@ public final class GetPlayerBlacklistRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(10, retcode_);
+        output.writeInt32(13, retcode_);
       }
       for (int i = 0; i < blacklist_.size(); i++) {
         output.writeMessage(12, blacklist_.get(i));
@@ -205,7 +205,7 @@ public final class GetPlayerBlacklistRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(10, retcode_);
+          .computeInt32Size(13, retcode_);
       }
       for (int i = 0; i < blacklist_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream

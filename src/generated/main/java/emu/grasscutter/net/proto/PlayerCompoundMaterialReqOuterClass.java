@@ -80,12 +80,12 @@ public final class PlayerCompoundMaterialReqOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 24: {
 
               compoundId_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 64: {
 
               count_ = input.readUInt32();
               break;
@@ -122,7 +122,7 @@ public final class PlayerCompoundMaterialReqOuterClass {
               emu.grasscutter.net.proto.PlayerCompoundMaterialReqOuterClass.PlayerCompoundMaterialReq.class, emu.grasscutter.net.proto.PlayerCompoundMaterialReqOuterClass.PlayerCompoundMaterialReq.Builder.class);
     }
 
-    public static final int COMPOUND_ID_FIELD_NUMBER = 2;
+    public static final int COMPOUND_ID_FIELD_NUMBER = 3;
     private int compoundId_;
     /**
      * <code>uint32 compound_id = 2;</code>
@@ -133,7 +133,7 @@ public final class PlayerCompoundMaterialReqOuterClass {
       return compoundId_;
     }
 
-    public static final int COUNT_FIELD_NUMBER = 11;
+    public static final int COUNT_FIELD_NUMBER = 8;
     private int count_;
     /**
      * <code>uint32 count = 11;</code>
@@ -159,10 +159,10 @@ public final class PlayerCompoundMaterialReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (compoundId_ != 0) {
-        output.writeUInt32(2, compoundId_);
+        output.writeUInt32(3, compoundId_);
       }
       if (count_ != 0) {
-        output.writeUInt32(11, count_);
+        output.writeUInt32(8, count_);
       }
       unknownFields.writeTo(output);
     }
@@ -175,11 +175,11 @@ public final class PlayerCompoundMaterialReqOuterClass {
       size = 0;
       if (compoundId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, compoundId_);
+          .computeUInt32Size(3, compoundId_);
       }
       if (count_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, count_);
+          .computeUInt32Size(8, count_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

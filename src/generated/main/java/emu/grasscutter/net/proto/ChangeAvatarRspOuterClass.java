@@ -78,12 +78,12 @@ public final class ChangeAvatarRspOuterClass {
               skillId_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 64: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 112: {
+            case 56: {
 
               curGuid_ = input.readUInt64();
               break;
@@ -120,7 +120,7 @@ public final class ChangeAvatarRspOuterClass {
               emu.grasscutter.net.proto.ChangeAvatarRspOuterClass.ChangeAvatarRsp.class, emu.grasscutter.net.proto.ChangeAvatarRspOuterClass.ChangeAvatarRsp.Builder.class);
     }
 
-    public static final int CUR_GUID_FIELD_NUMBER = 14;
+    public static final int CUR_GUID_FIELD_NUMBER = 7;
     private long curGuid_;
 
     @java.lang.Override
@@ -136,7 +136,7 @@ public final class ChangeAvatarRspOuterClass {
       return skillId_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 13;
+    public static final int RETCODE_FIELD_NUMBER = 8;
     private int retcode_;
 
     @java.lang.Override
@@ -162,10 +162,10 @@ public final class ChangeAvatarRspOuterClass {
         output.writeUInt32(2, skillId_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(13, retcode_);
+        output.writeInt32(8, retcode_);
       }
       if (curGuid_ != 0L) {
-        output.writeUInt64(14, curGuid_);
+        output.writeUInt64(7, curGuid_);
       }
       unknownFields.writeTo(output);
     }
@@ -182,11 +182,11 @@ public final class ChangeAvatarRspOuterClass {
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(13, retcode_);
+          .computeInt32Size(8, retcode_);
       }
       if (curGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(14, curGuid_);
+          .computeUInt64Size(7, curGuid_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

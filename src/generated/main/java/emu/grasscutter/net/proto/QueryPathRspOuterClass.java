@@ -83,12 +83,12 @@ public final class QueryPathRspOuterClass {
             case 0:
               done = true;
               break;
-            case 96: {
+            case 24: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 50: {
+            case 114: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 corners_ = new java.util.ArrayList<emu.grasscutter.net.proto.VectorOuterClass.Vector>();
                 mutable_bitField0_ |= 0x00000001;
@@ -97,13 +97,13 @@ public final class QueryPathRspOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.VectorOuterClass.Vector.parser(), extensionRegistry));
               break;
             }
-            case 64: {
+            case 104: {
               int rawValue = input.readEnum();
 
               queryStatus_ = rawValue;
               break;
             }
-            case 112: {
+            case 40: {
 
               queryId_ = input.readInt32();
               break;
@@ -143,7 +143,7 @@ public final class QueryPathRspOuterClass {
               emu.grasscutter.net.proto.QueryPathRspOuterClass.QueryPathRsp.class, emu.grasscutter.net.proto.QueryPathRspOuterClass.QueryPathRsp.Builder.class);
     }
 
-    public static final int CORNERS_FIELD_NUMBER = 6;
+    public static final int CORNERS_FIELD_NUMBER = 14;
     private java.util.List<emu.grasscutter.net.proto.VectorOuterClass.Vector> corners_;
 
     @java.lang.Override
@@ -173,7 +173,7 @@ public final class QueryPathRspOuterClass {
       return corners_.get(index);
     }
 
-    public static final int QUERY_STATUS_FIELD_NUMBER = 8;
+    public static final int QUERY_STATUS_FIELD_NUMBER = 13;
     private int queryStatus_;
 
     @java.lang.Override public int getQueryStatusValue() {
@@ -186,7 +186,7 @@ public final class QueryPathRspOuterClass {
       return result == null ? emu.grasscutter.net.proto.PathStatusTypeOuterClass.PathStatusType.UNRECOGNIZED : result;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 12;
+    public static final int RETCODE_FIELD_NUMBER = 3;
     private int retcode_;
 
     @java.lang.Override
@@ -194,7 +194,7 @@ public final class QueryPathRspOuterClass {
       return retcode_;
     }
 
-    public static final int QUERY_ID_FIELD_NUMBER = 14;
+    public static final int QUERY_ID_FIELD_NUMBER = 5;
     private int queryId_;
 
     @java.lang.Override
@@ -217,16 +217,16 @@ public final class QueryPathRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < corners_.size(); i++) {
-        output.writeMessage(6, corners_.get(i));
+        output.writeMessage(14, corners_.get(i));
       }
       if (queryStatus_ != emu.grasscutter.net.proto.PathStatusTypeOuterClass.PathStatusType.PathStatusType_STATUS_FAIL.getNumber()) {
-        output.writeEnum(8, queryStatus_);
+        output.writeEnum(13, queryStatus_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(12, retcode_);
+        output.writeInt32(3, retcode_);
       }
       if (queryId_ != 0) {
-        output.writeInt32(14, queryId_);
+        output.writeInt32(5, queryId_);
       }
       unknownFields.writeTo(output);
     }
@@ -239,19 +239,19 @@ public final class QueryPathRspOuterClass {
       size = 0;
       for (int i = 0; i < corners_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, corners_.get(i));
+          .computeMessageSize(14, corners_.get(i));
       }
       if (queryStatus_ != emu.grasscutter.net.proto.PathStatusTypeOuterClass.PathStatusType.PathStatusType_STATUS_FAIL.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(8, queryStatus_);
+          .computeEnumSize(13, queryStatus_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(12, retcode_);
+          .computeInt32Size(3, retcode_);
       }
       if (queryId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(14, queryId_);
+          .computeInt32Size(5, queryId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -120,12 +120,12 @@ public final class DragonSpineActivityDetailInfoOuterClass {
               dNODGCMPOAN_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 128000: {
 
               mDHGPIPFBOJ_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 48: {
 
               isContentClosed_ = input.readBool();
               break;
@@ -224,7 +224,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
       return aEPAJCHDHED_.get(index);
     }
 
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 8;
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 6;
     private boolean isContentClosed_;
 
     @java.lang.Override
@@ -265,7 +265,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
       return mPBNAFAJHOD_;
     }
 
-    public static final int MDHGPIPFBOJ_FIELD_NUMBER = 6;
+    public static final int MDHGPIPFBOJ_FIELD_NUMBER = 16000;
     private int mDHGPIPFBOJ_;
     /**
      * <code>uint32 MDHGPIPFBOJ = 6;</code>
@@ -294,10 +294,10 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         output.writeUInt32(4, dNODGCMPOAN_);
       }
       if (mDHGPIPFBOJ_ != 0) {
-        output.writeUInt32(6, mDHGPIPFBOJ_);
+        output.writeUInt32(16000, mDHGPIPFBOJ_);
       }
       if (isContentClosed_ != false) {
-        output.writeBool(8, isContentClosed_);
+        output.writeBool(6, isContentClosed_);
       }
       for (int i = 0; i < aEPAJCHDHED_.size(); i++) {
         output.writeMessage(9, aEPAJCHDHED_.get(i));
@@ -323,11 +323,11 @@ public final class DragonSpineActivityDetailInfoOuterClass {
       }
       if (mDHGPIPFBOJ_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, mDHGPIPFBOJ_);
+          .computeUInt32Size(16000, mDHGPIPFBOJ_);
       }
       if (isContentClosed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, isContentClosed_);
+          .computeBoolSize(6, isContentClosed_);
       }
       for (int i = 0; i < aEPAJCHDHED_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream

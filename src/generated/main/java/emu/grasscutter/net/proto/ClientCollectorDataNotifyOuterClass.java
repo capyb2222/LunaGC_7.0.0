@@ -82,7 +82,7 @@ public final class ClientCollectorDataNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 90: {
+            case 82: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 clientCollectorDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData>();
                 mutable_bitField0_ |= 0x00000001;
@@ -126,7 +126,7 @@ public final class ClientCollectorDataNotifyOuterClass {
               emu.grasscutter.net.proto.ClientCollectorDataNotifyOuterClass.ClientCollectorDataNotify.class, emu.grasscutter.net.proto.ClientCollectorDataNotifyOuterClass.ClientCollectorDataNotify.Builder.class);
     }
 
-    public static final int CLIENT_COLLECTOR_DATA_LIST_FIELD_NUMBER = 15;
+    public static final int CLIENT_COLLECTOR_DATA_LIST_FIELD_NUMBER = 10;
     private java.util.List<emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData> clientCollectorDataList_;
 
     @java.lang.Override
@@ -171,7 +171,7 @@ public final class ClientCollectorDataNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < clientCollectorDataList_.size(); i++) {
-        output.writeMessage(15, clientCollectorDataList_.get(i));
+        output.writeMessage(10, clientCollectorDataList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -184,7 +184,7 @@ public final class ClientCollectorDataNotifyOuterClass {
       size = 0;
       for (int i = 0; i < clientCollectorDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, clientCollectorDataList_.get(i));
+          .computeMessageSize(10, clientCollectorDataList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

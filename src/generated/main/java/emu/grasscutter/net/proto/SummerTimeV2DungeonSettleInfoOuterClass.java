@@ -95,7 +95,7 @@ public final class SummerTimeV2DungeonSettleInfoOuterClass {
               mBINEBFILLF_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 120: {
 
               isSuccess_ = input.readBool();
               break;
@@ -132,7 +132,7 @@ public final class SummerTimeV2DungeonSettleInfoOuterClass {
               emu.grasscutter.net.proto.SummerTimeV2DungeonSettleInfoOuterClass.SummerTimeV2DungeonSettleInfo.class, emu.grasscutter.net.proto.SummerTimeV2DungeonSettleInfoOuterClass.SummerTimeV2DungeonSettleInfo.Builder.class);
     }
 
-    public static final int IS_SUCCESS_FIELD_NUMBER = 9;
+    public static final int IS_SUCCESS_FIELD_NUMBER = 15;
     private boolean isSuccess_;
     /**
      * <code>bool is_success = 9;</code>
@@ -186,7 +186,7 @@ public final class SummerTimeV2DungeonSettleInfoOuterClass {
         output.writeUInt32(8, mBINEBFILLF_);
       }
       if (isSuccess_ != false) {
-        output.writeBool(9, isSuccess_);
+        output.writeBool(15, isSuccess_);
       }
       unknownFields.writeTo(output);
     }
@@ -207,7 +207,7 @@ public final class SummerTimeV2DungeonSettleInfoOuterClass {
       }
       if (isSuccess_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isSuccess_);
+          .computeBoolSize(15, isSuccess_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

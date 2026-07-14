@@ -133,7 +133,7 @@ public final class SummerTimeV2DetailInfoOuterClass {
               cKDIALOEBIP_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 16: {
 
               isContentClosed_ = input.readBool();
               break;
@@ -301,7 +301,7 @@ public final class SummerTimeV2DetailInfoOuterClass {
       return cGHLCNODEPG_;
     }
 
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 6;
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 2;
     private boolean isContentClosed_;
 
     @java.lang.Override
@@ -327,7 +327,7 @@ public final class SummerTimeV2DetailInfoOuterClass {
         output.writeUInt32(1, cKDIALOEBIP_);
       }
       if (isContentClosed_ != false) {
-        output.writeBool(6, isContentClosed_);
+        output.writeBool(2, isContentClosed_);
       }
       if (cGHLCNODEPG_ != 0) {
         output.writeUInt32(7, cGHLCNODEPG_);
@@ -353,7 +353,7 @@ public final class SummerTimeV2DetailInfoOuterClass {
       }
       if (isContentClosed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, isContentClosed_);
+          .computeBoolSize(2, isContentClosed_);
       }
       if (cGHLCNODEPG_ != 0) {
         size += com.google.protobuf.CodedOutputStream

@@ -107,7 +107,7 @@ public final class SceneDataNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 82: {
+            case 10: {
               emu.grasscutter.net.proto.MapLayerInfoOuterClass.MapLayerInfo.Builder subBuilder = null;
               if (mapLayerInfo_ != null) {
                 subBuilder = mapLayerInfo_.toBuilder();
@@ -120,7 +120,7 @@ public final class SceneDataNotifyOuterClass {
 
               break;
             }
-            case 74: {
+            case 98: {
               java.lang.String s = input.readStringRequireUtf8();
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 levelConfigNameList_ = new com.google.protobuf.LazyStringArrayList();
@@ -129,7 +129,7 @@ public final class SceneDataNotifyOuterClass {
               levelConfigNameList_.add(s);
               break;
             }
-            case 66: {
+            case 128002: {
               emu.grasscutter.net.proto.BLFDGJBMBMAOuterClass.BLFDGJBMBMA.Builder subBuilder = null;
               if (mGEKPJHLIOJ_ != null) {
                 subBuilder = mGEKPJHLIOJ_.toBuilder();
@@ -142,7 +142,7 @@ public final class SceneDataNotifyOuterClass {
 
               break;
             }
-            case 56: {
+            case 64: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 sceneTagIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -150,7 +150,7 @@ public final class SceneDataNotifyOuterClass {
               sceneTagIdList_.addInt(input.readUInt32());
               break;
             }
-            case 58: {
+            case 66: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -201,7 +201,7 @@ public final class SceneDataNotifyOuterClass {
               emu.grasscutter.net.proto.SceneDataNotifyOuterClass.SceneDataNotify.class, emu.grasscutter.net.proto.SceneDataNotifyOuterClass.SceneDataNotify.Builder.class);
     }
 
-    public static final int LEVEL_CONFIG_NAME_LIST_FIELD_NUMBER = 9;
+    public static final int LEVEL_CONFIG_NAME_LIST_FIELD_NUMBER = 12;
     private com.google.protobuf.LazyStringList levelConfigNameList_;
 
     public com.google.protobuf.ProtocolStringList
@@ -222,7 +222,7 @@ public final class SceneDataNotifyOuterClass {
       return levelConfigNameList_.getByteString(index);
     }
 
-    public static final int MGEKPJHLIOJ_FIELD_NUMBER = 8;
+    public static final int MGEKPJHLIOJ_FIELD_NUMBER = 16000;
     private emu.grasscutter.net.proto.BLFDGJBMBMAOuterClass.BLFDGJBMBMA mGEKPJHLIOJ_;
     /**
      * <code>.BLFDGJBMBMA MGEKPJHLIOJ = 4;</code>
@@ -248,7 +248,7 @@ public final class SceneDataNotifyOuterClass {
       return getMGEKPJHLIOJ();
     }
 
-    public static final int MAP_LAYER_INFO_FIELD_NUMBER = 10;
+    public static final int MAP_LAYER_INFO_FIELD_NUMBER = 1;
     private emu.grasscutter.net.proto.MapLayerInfoOuterClass.MapLayerInfo mapLayerInfo_;
 
     @java.lang.Override
@@ -266,7 +266,7 @@ public final class SceneDataNotifyOuterClass {
       return getMapLayerInfo();
     }
 
-    public static final int SCENE_TAG_ID_LIST_FIELD_NUMBER = 7;
+    public static final int SCENE_TAG_ID_LIST_FIELD_NUMBER = 8;
     private com.google.protobuf.Internal.IntList sceneTagIdList_;
 
     @java.lang.Override
@@ -300,16 +300,16 @@ public final class SceneDataNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (mapLayerInfo_ != null) {
-        output.writeMessage(10, getMapLayerInfo());
+        output.writeMessage(1, getMapLayerInfo());
       }
       for (int i = 0; i < levelConfigNameList_.size(); i++) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 9, levelConfigNameList_.getRaw(i));
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 12, levelConfigNameList_.getRaw(i));
       }
       if (mGEKPJHLIOJ_ != null) {
-        output.writeMessage(8, getMGEKPJHLIOJ());
+        output.writeMessage(16000, getMGEKPJHLIOJ());
       }
       if (getSceneTagIdListList().size() > 0) {
-        output.writeUInt32NoTag(58);
+        output.writeUInt32NoTag(66);
         output.writeUInt32NoTag(sceneTagIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < sceneTagIdList_.size(); i++) {
@@ -326,7 +326,7 @@ public final class SceneDataNotifyOuterClass {
       size = 0;
       if (mapLayerInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, getMapLayerInfo());
+          .computeMessageSize(1, getMapLayerInfo());
       }
       {
         int dataSize = 0;
@@ -338,7 +338,7 @@ public final class SceneDataNotifyOuterClass {
       }
       if (mGEKPJHLIOJ_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, getMGEKPJHLIOJ());
+          .computeMessageSize(16000, getMGEKPJHLIOJ());
       }
       {
         int dataSize = 0;

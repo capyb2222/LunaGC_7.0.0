@@ -123,7 +123,7 @@ public final class CalcWeaponUpgradeReturnItemsReqOuterClass {
               targetWeaponGuid_ = input.readUInt64();
               break;
             }
-            case 112: {
+            case 80: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 foodWeaponGuidList_ = newLongList();
                 mutable_bitField0_ |= 0x00000002;
@@ -131,7 +131,7 @@ public final class CalcWeaponUpgradeReturnItemsReqOuterClass {
               foodWeaponGuidList_.addLong(input.readUInt64());
               break;
             }
-            case 114: {
+            case 82: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -144,7 +144,7 @@ public final class CalcWeaponUpgradeReturnItemsReqOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 122: {
+            case 50: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 itemParamList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>();
                 mutable_bitField0_ |= 0x00000001;
@@ -191,7 +191,7 @@ public final class CalcWeaponUpgradeReturnItemsReqOuterClass {
               emu.grasscutter.net.proto.CalcWeaponUpgradeReturnItemsReqOuterClass.CalcWeaponUpgradeReturnItemsReq.class, emu.grasscutter.net.proto.CalcWeaponUpgradeReturnItemsReqOuterClass.CalcWeaponUpgradeReturnItemsReq.Builder.class);
     }
 
-    public static final int ITEM_PARAM_LIST_FIELD_NUMBER = 15;
+    public static final int ITEM_PARAM_LIST_FIELD_NUMBER = 6;
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> itemParamList_;
     /**
      * <code>repeated .ItemParam item_param_list = 15;</code>
@@ -242,7 +242,7 @@ public final class CalcWeaponUpgradeReturnItemsReqOuterClass {
       return targetWeaponGuid_;
     }
 
-    public static final int FOOD_WEAPON_GUID_LIST_FIELD_NUMBER = 14;
+    public static final int FOOD_WEAPON_GUID_LIST_FIELD_NUMBER = 10;
     private com.google.protobuf.Internal.LongList foodWeaponGuidList_;
     /**
      * <code>repeated uint64 food_weapon_guid_list = 14;</code>
@@ -289,14 +289,14 @@ public final class CalcWeaponUpgradeReturnItemsReqOuterClass {
         output.writeUInt64(1, targetWeaponGuid_);
       }
       if (getFoodWeaponGuidListList().size() > 0) {
-        output.writeUInt32NoTag(114);
+        output.writeUInt32NoTag(82);
         output.writeUInt32NoTag(foodWeaponGuidListMemoizedSerializedSize);
       }
       for (int i = 0; i < foodWeaponGuidList_.size(); i++) {
         output.writeUInt64NoTag(foodWeaponGuidList_.getLong(i));
       }
       for (int i = 0; i < itemParamList_.size(); i++) {
-        output.writeMessage(15, itemParamList_.get(i));
+        output.writeMessage(6, itemParamList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -327,7 +327,7 @@ public final class CalcWeaponUpgradeReturnItemsReqOuterClass {
       }
       for (int i = 0; i < itemParamList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, itemParamList_.get(i));
+          .computeMessageSize(6, itemParamList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -81,32 +81,32 @@ public final class AbilityInvokeEntryHeadOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 88: {
 
               instancedModifierId_ = input.readUInt32();
               break;
             }
-            case 24: {
+            case 72: {
 
               targetId_ = input.readUInt32();
               break;
             }
-            case 32: {
+            case 56: {
 
               instancedAbilityId_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 24: {
 
               serverBuffUid_ = input.readUInt32();
               break;
             }
-            case 56: {
+            case 104: {
 
               modifierConfigLocalId_ = input.readInt32();
               break;
             }
-            case 88: {
+            case 64: {
 
               localId_ = input.readInt32();
               break;
@@ -143,7 +143,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
               emu.grasscutter.net.proto.AbilityInvokeEntryHeadOuterClass.AbilityInvokeEntryHead.class, emu.grasscutter.net.proto.AbilityInvokeEntryHeadOuterClass.AbilityInvokeEntryHead.Builder.class);
     }
 
-    public static final int SERVER_BUFF_UID_FIELD_NUMBER = 5;
+    public static final int SERVER_BUFF_UID_FIELD_NUMBER = 3;
     private int serverBuffUid_;
 
     @java.lang.Override
@@ -151,7 +151,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
       return serverBuffUid_;
     }
 
-    public static final int INSTANCED_MODIFIER_ID_FIELD_NUMBER = 1;
+    public static final int INSTANCED_MODIFIER_ID_FIELD_NUMBER = 11;
     private int instancedModifierId_;
 
     @java.lang.Override
@@ -159,7 +159,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
       return instancedModifierId_;
     }
 
-    public static final int TARGET_ID_FIELD_NUMBER = 3;
+    public static final int TARGET_ID_FIELD_NUMBER = 9;
     private int targetId_;
 
     @java.lang.Override
@@ -167,7 +167,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
       return targetId_;
     }
 
-    public static final int INSTANCED_ABILITY_ID_FIELD_NUMBER = 4;
+    public static final int INSTANCED_ABILITY_ID_FIELD_NUMBER = 7;
     private int instancedAbilityId_;
 
     @java.lang.Override
@@ -186,7 +186,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
       return isServerbuffModifier_;
     }
 
-    public static final int LOCAL_ID_FIELD_NUMBER = 11;
+    public static final int LOCAL_ID_FIELD_NUMBER = 8;
     private int localId_;
 
     @java.lang.Override
@@ -194,7 +194,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
       return localId_;
     }
 
-    public static final int MODIFIER_CONFIG_LOCAL_ID_FIELD_NUMBER = 7;
+    public static final int MODIFIER_CONFIG_LOCAL_ID_FIELD_NUMBER = 13;
     private int modifierConfigLocalId_;
 
     @java.lang.Override
@@ -217,22 +217,22 @@ public final class AbilityInvokeEntryHeadOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (instancedModifierId_ != 0) {
-        output.writeUInt32(1, instancedModifierId_);
+        output.writeUInt32(11, instancedModifierId_);
       }
       if (targetId_ != 0) {
-        output.writeUInt32(3, targetId_);
+        output.writeUInt32(9, targetId_);
       }
       if (instancedAbilityId_ != 0) {
-        output.writeUInt32(4, instancedAbilityId_);
+        output.writeUInt32(7, instancedAbilityId_);
       }
       if (serverBuffUid_ != 0) {
-        output.writeUInt32(5, serverBuffUid_);
+        output.writeUInt32(3, serverBuffUid_);
       }
       if (modifierConfigLocalId_ != 0) {
-        output.writeInt32(7, modifierConfigLocalId_);
+        output.writeInt32(13, modifierConfigLocalId_);
       }
       if (localId_ != 0) {
-        output.writeInt32(11, localId_);
+        output.writeInt32(8, localId_);
       }
       unknownFields.writeTo(output);
     }
@@ -245,27 +245,27 @@ public final class AbilityInvokeEntryHeadOuterClass {
       size = 0;
       if (instancedModifierId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, instancedModifierId_);
+          .computeUInt32Size(11, instancedModifierId_);
       }
       if (targetId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, targetId_);
+          .computeUInt32Size(9, targetId_);
       }
       if (instancedAbilityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, instancedAbilityId_);
+          .computeUInt32Size(7, instancedAbilityId_);
       }
       if (serverBuffUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, serverBuffUid_);
+          .computeUInt32Size(3, serverBuffUid_);
       }
       if (modifierConfigLocalId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(7, modifierConfigLocalId_);
+          .computeInt32Size(13, modifierConfigLocalId_);
       }
       if (localId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(11, localId_);
+          .computeInt32Size(8, localId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

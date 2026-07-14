@@ -91,7 +91,7 @@ public final class JigsawPictureDataOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 32: {
 
               isOpen_ = input.readBool();
               break;
@@ -101,7 +101,7 @@ public final class JigsawPictureDataOuterClass {
               eEMGKJOCHHK_ = input.readUInt32();
               break;
             }
-            case 56: {
+            case 40: {
 
               isFinished_ = input.readBool();
               break;
@@ -143,7 +143,7 @@ public final class JigsawPictureDataOuterClass {
               emu.grasscutter.net.proto.JigsawPictureDataOuterClass.JigsawPictureData.class, emu.grasscutter.net.proto.JigsawPictureDataOuterClass.JigsawPictureData.Builder.class);
     }
 
-    public static final int IS_FINISHED_FIELD_NUMBER = 7;
+    public static final int IS_FINISHED_FIELD_NUMBER = 5;
     private boolean isFinished_;
     /**
      * <code>bool is_finished = 7;</code>
@@ -176,7 +176,7 @@ public final class JigsawPictureDataOuterClass {
       return eEMGKJOCHHK_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 2;
+    public static final int IS_OPEN_FIELD_NUMBER = 4;
     private boolean isOpen_;
     /**
      * <code>bool is_open = 2;</code>
@@ -202,13 +202,13 @@ public final class JigsawPictureDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isOpen_ != false) {
-        output.writeBool(2, isOpen_);
+        output.writeBool(4, isOpen_);
       }
       if (eEMGKJOCHHK_ != 0) {
         output.writeUInt32(6, eEMGKJOCHHK_);
       }
       if (isFinished_ != false) {
-        output.writeBool(7, isFinished_);
+        output.writeBool(5, isFinished_);
       }
       if (mMGJJBELBHF_ != 0) {
         output.writeUInt32(11, mMGJJBELBHF_);
@@ -224,7 +224,7 @@ public final class JigsawPictureDataOuterClass {
       size = 0;
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(2, isOpen_);
+          .computeBoolSize(4, isOpen_);
       }
       if (eEMGKJOCHHK_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -232,7 +232,7 @@ public final class JigsawPictureDataOuterClass {
       }
       if (isFinished_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, isFinished_);
+          .computeBoolSize(5, isFinished_);
       }
       if (mMGJJBELBHF_ != 0) {
         size += com.google.protobuf.CodedOutputStream

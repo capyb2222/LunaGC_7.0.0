@@ -95,7 +95,7 @@ public final class GetBargainDataRspOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 112: {
 
               retcode_ = input.readInt32();
               break;
@@ -113,7 +113,7 @@ public final class GetBargainDataRspOuterClass {
 
               break;
             }
-            case 72: {
+            case 88: {
 
               bargainId_ = input.readUInt32();
               break;
@@ -176,7 +176,7 @@ public final class GetBargainDataRspOuterClass {
       return getSnapshot();
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 1;
+    public static final int RETCODE_FIELD_NUMBER = 14;
     private int retcode_;
     /**
      * <code>int32 retcode = 1;</code>
@@ -187,7 +187,7 @@ public final class GetBargainDataRspOuterClass {
       return retcode_;
     }
 
-    public static final int BARGAIN_ID_FIELD_NUMBER = 9;
+    public static final int BARGAIN_ID_FIELD_NUMBER = 11;
     private int bargainId_;
     /**
      * <code>uint32 bargain_id = 9;</code>
@@ -213,13 +213,13 @@ public final class GetBargainDataRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(1, retcode_);
+        output.writeInt32(14, retcode_);
       }
       if (snapshot_ != null) {
         output.writeMessage(5, getSnapshot());
       }
       if (bargainId_ != 0) {
-        output.writeUInt32(9, bargainId_);
+        output.writeUInt32(11, bargainId_);
       }
       unknownFields.writeTo(output);
     }
@@ -232,7 +232,7 @@ public final class GetBargainDataRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(1, retcode_);
+          .computeInt32Size(14, retcode_);
       }
       if (snapshot_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -240,7 +240,7 @@ public final class GetBargainDataRspOuterClass {
       }
       if (bargainId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, bargainId_);
+          .computeUInt32Size(11, bargainId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

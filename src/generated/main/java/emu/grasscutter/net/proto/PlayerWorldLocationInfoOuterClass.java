@@ -88,12 +88,12 @@ public final class PlayerWorldLocationInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
+            case 48: {
 
               sceneId_ = input.readUInt32();
               break;
             }
-            case 98: {
+            case 74: {
               emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfo.Builder subBuilder = null;
               if (playerLoc_ != null) {
                 subBuilder = playerLoc_.toBuilder();
@@ -138,7 +138,7 @@ public final class PlayerWorldLocationInfoOuterClass {
               emu.grasscutter.net.proto.PlayerWorldLocationInfoOuterClass.PlayerWorldLocationInfo.class, emu.grasscutter.net.proto.PlayerWorldLocationInfoOuterClass.PlayerWorldLocationInfo.Builder.class);
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 7;
+    public static final int SCENE_ID_FIELD_NUMBER = 6;
     private int sceneId_;
     /**
      * <code>uint32 scene_id = 5;</code>
@@ -149,7 +149,7 @@ public final class PlayerWorldLocationInfoOuterClass {
       return sceneId_;
     }
 
-    public static final int PLAYER_LOC_FIELD_NUMBER = 8;
+    public static final int PLAYER_LOC_FIELD_NUMBER = 9;
     private emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfo playerLoc_;
     /**
      * <code>.PlayerLocationInfo player_loc = 12;</code>
@@ -190,10 +190,10 @@ public final class PlayerWorldLocationInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (sceneId_ != 0) {
-        output.writeUInt32(7, sceneId_);
+        output.writeUInt32(6, sceneId_);
       }
       if (playerLoc_ != null) {
-        output.writeMessage(12, getPlayerLoc());
+        output.writeMessage(9, getPlayerLoc());
       }
       unknownFields.writeTo(output);
     }
@@ -206,11 +206,11 @@ public final class PlayerWorldLocationInfoOuterClass {
       size = 0;
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, sceneId_);
+          .computeUInt32Size(6, sceneId_);
       }
       if (playerLoc_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, getPlayerLoc());
+          .computeMessageSize(9, getPlayerLoc());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

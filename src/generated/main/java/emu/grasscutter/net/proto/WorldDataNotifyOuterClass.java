@@ -89,7 +89,7 @@ public final class WorldDataNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 26: {
+            case 18: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 worldPropMap_ = com.google.protobuf.MapField.newMapField(
                     WorldPropMapDefaultEntryHolder.defaultEntry);
@@ -146,7 +146,7 @@ public final class WorldDataNotifyOuterClass {
               emu.grasscutter.net.proto.WorldDataNotifyOuterClass.WorldDataNotify.class, emu.grasscutter.net.proto.WorldDataNotifyOuterClass.WorldDataNotify.Builder.class);
     }
 
-    public static final int WORLD_PROP_MAP_FIELD_NUMBER = 3;
+    public static final int WORLD_PROP_MAP_FIELD_NUMBER = 2;
     private static final class WorldPropMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> defaultEntry =
@@ -237,7 +237,7 @@ public final class WorldDataNotifyOuterClass {
           output,
           internalGetWorldPropMap(),
           WorldPropMapDefaultEntryHolder.defaultEntry,
-          3);
+          2);
       unknownFields.writeTo(output);
     }
 
@@ -255,7 +255,7 @@ public final class WorldDataNotifyOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(3, worldPropMap__);
+            .computeMessageSize(2, worldPropMap__);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

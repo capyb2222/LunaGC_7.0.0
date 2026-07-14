@@ -120,7 +120,7 @@ public final class SetWidgetQuickSlotListRspOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 112: {
+            case 56: {
 
               retcode_ = input.readInt32();
               break;
@@ -188,7 +188,7 @@ public final class SetWidgetQuickSlotListRspOuterClass {
     }
     private int materialIdListMemoizedSerializedSize = -1;
 
-    public static final int RETCODE_FIELD_NUMBER = 14;
+    public static final int RETCODE_FIELD_NUMBER = 7;
     private int retcode_;
     /**
      * <code>int32 retcode = 14;</code>
@@ -236,7 +236,7 @@ public final class SetWidgetQuickSlotListRspOuterClass {
         output.writeUInt32NoTag(materialIdList_.getInt(i));
       }
       if (retcode_ != 0) {
-        output.writeInt32(14, retcode_);
+        output.writeInt32(7, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -267,7 +267,7 @@ public final class SetWidgetQuickSlotListRspOuterClass {
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(14, retcode_);
+          .computeInt32Size(7, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

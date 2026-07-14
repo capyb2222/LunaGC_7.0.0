@@ -82,7 +82,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 72: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 addQuestIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -90,7 +90,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
               addQuestIdList_.addInt(input.readUInt32());
               break;
             }
-            case 10: {
+            case 74: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -103,7 +103,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 120: {
+            case 16: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 delQuestIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -111,7 +111,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
               delQuestIdList_.addInt(input.readUInt32());
               break;
             }
-            case 122: {
+            case 18: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -162,7 +162,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
               emu.grasscutter.net.proto.ServerCondMeetQuestListUpdateNotifyOuterClass.ServerCondMeetQuestListUpdateNotify.class, emu.grasscutter.net.proto.ServerCondMeetQuestListUpdateNotifyOuterClass.ServerCondMeetQuestListUpdateNotify.Builder.class);
     }
 
-    public static final int DEL_QUEST_ID_LIST_FIELD_NUMBER = 15;
+    public static final int DEL_QUEST_ID_LIST_FIELD_NUMBER = 2;
     private com.google.protobuf.Internal.IntList delQuestIdList_;
 
     @java.lang.Override
@@ -180,7 +180,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
     }
     private int delQuestIdListMemoizedSerializedSize = -1;
 
-    public static final int ADD_QUEST_ID_LIST_FIELD_NUMBER = 1;
+    public static final int ADD_QUEST_ID_LIST_FIELD_NUMBER = 9;
     private com.google.protobuf.Internal.IntList addQuestIdList_;
 
     @java.lang.Override
@@ -214,14 +214,14 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getAddQuestIdListList().size() > 0) {
-        output.writeUInt32NoTag(10);
+        output.writeUInt32NoTag(74);
         output.writeUInt32NoTag(addQuestIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < addQuestIdList_.size(); i++) {
         output.writeUInt32NoTag(addQuestIdList_.getInt(i));
       }
       if (getDelQuestIdListList().size() > 0) {
-        output.writeUInt32NoTag(122);
+        output.writeUInt32NoTag(18);
         output.writeUInt32NoTag(delQuestIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < delQuestIdList_.size(); i++) {

@@ -78,13 +78,13 @@ public final class AvatarRenameInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 34: {
+            case 98: {
               java.lang.String s = input.readStringRequireUtf8();
 
               lPLIECDFGGG_ = s;
               break;
             }
-            case 112: {
+            case 40: {
 
               avatarId_ = input.readUInt32();
               break;
@@ -159,7 +159,7 @@ public final class AvatarRenameInfoOuterClass {
       }
     }
 
-    public static final int AVATAR_ID_FIELD_NUMBER = 3;
+    public static final int AVATAR_ID_FIELD_NUMBER = 5;
     private int avatarId_;
 
     @java.lang.Override
@@ -185,7 +185,7 @@ public final class AvatarRenameInfoOuterClass {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 12, lPLIECDFGGG_);
       }
       if (avatarId_ != 0) {
-        output.writeUInt32(3, avatarId_);
+        output.writeUInt32(5, avatarId_);
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class AvatarRenameInfoOuterClass {
       }
       if (avatarId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, avatarId_);
+          .computeUInt32Size(5, avatarId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -74,7 +74,7 @@ public final class GetActivityShopSheetInfoReqOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
+            case 56: {
 
               shopType_ = input.readUInt32();
               break;
@@ -111,7 +111,7 @@ public final class GetActivityShopSheetInfoReqOuterClass {
               emu.grasscutter.net.proto.GetActivityShopSheetInfoReqOuterClass.GetActivityShopSheetInfoReq.class, emu.grasscutter.net.proto.GetActivityShopSheetInfoReqOuterClass.GetActivityShopSheetInfoReq.Builder.class);
     }
 
-    public static final int SHOP_TYPE_FIELD_NUMBER = 5;
+    public static final int SHOP_TYPE_FIELD_NUMBER = 7;
     private int shopType_;
     /**
      * <code>uint32 shop_type = 5;</code>
@@ -137,7 +137,7 @@ public final class GetActivityShopSheetInfoReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (shopType_ != 0) {
-        output.writeUInt32(5, shopType_);
+        output.writeUInt32(7, shopType_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +150,7 @@ public final class GetActivityShopSheetInfoReqOuterClass {
       size = 0;
       if (shopType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, shopType_);
+          .computeUInt32Size(7, shopType_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

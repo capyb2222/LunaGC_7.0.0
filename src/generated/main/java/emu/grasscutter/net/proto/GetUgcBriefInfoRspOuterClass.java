@@ -108,17 +108,17 @@ public final class GetUgcBriefInfoRspOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 64: {
 
               ugcGuid_ = input.readUInt64();
               break;
             }
-            case 40: {
+            case 32: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 58: {
+            case 90: {
               emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder subBuilder = null;
               if (((bitField0_ & 0x00000001) != 0)) {
                 subBuilder = musicBriefInfo_.toBuilder();
@@ -189,7 +189,7 @@ public final class GetUgcBriefInfoRspOuterClass {
       return result == null ? emu.grasscutter.net.proto.UgcTypeOuterClass.UgcType.UNRECOGNIZED : result;
     }
 
-    public static final int UGC_GUID_FIELD_NUMBER = 3;
+    public static final int UGC_GUID_FIELD_NUMBER = 8;
     private long ugcGuid_;
     /**
      * <code>uint64 ugc_guid = 1;</code>
@@ -200,7 +200,7 @@ public final class GetUgcBriefInfoRspOuterClass {
       return ugcGuid_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 5;
+    public static final int RETCODE_FIELD_NUMBER = 4;
     private int retcode_;
     /**
      * <code>int32 retcode = 2;</code>
@@ -211,7 +211,7 @@ public final class GetUgcBriefInfoRspOuterClass {
       return retcode_;
     }
 
-    public static final int MUSIC_BRIEF_INFO_FIELD_NUMBER = 7;
+    public static final int MUSIC_BRIEF_INFO_FIELD_NUMBER = 11;
     private emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo musicBriefInfo_;
     /**
      * <code>optional .UgcMusicBriefInfo music_brief_info = 12;</code>
@@ -252,10 +252,10 @@ public final class GetUgcBriefInfoRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (ugcGuid_ != 0L) {
-        output.writeUInt64(3, ugcGuid_);
+        output.writeUInt64(8, ugcGuid_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(5, retcode_);
+        output.writeInt32(4, retcode_);
       }
       if (((bitField0_ & 0x00000001) != 0)) {
         output.writeMessage(7, getMusicBriefInfo());
@@ -274,11 +274,11 @@ public final class GetUgcBriefInfoRspOuterClass {
       size = 0;
       if (ugcGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(3, ugcGuid_);
+          .computeUInt64Size(8, ugcGuid_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(5, retcode_);
+          .computeInt32Size(4, retcode_);
       }
       if (((bitField0_ & 0x00000001) != 0)) {
         size += com.google.protobuf.CodedOutputStream

@@ -96,7 +96,7 @@ public final class CompoundQueueDataOuterClass {
               outputTime_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 104: {
 
               compoundId_ = input.readUInt32();
               break;
@@ -143,7 +143,7 @@ public final class CompoundQueueDataOuterClass {
               emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData.class, emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData.Builder.class);
     }
 
-    public static final int OUTPUTTIME_FIELD_NUMBER = 1;
+    public static final int OUTPUTTIME_FIELD_NUMBER = 9;
     private int outputTime_;
     /**
      * <code>uint32 outputTime = 1;</code>
@@ -154,7 +154,7 @@ public final class CompoundQueueDataOuterClass {
       return outputTime_;
     }
 
-    public static final int WAITCOUNT_FIELD_NUMBER = 14;
+    public static final int WAITCOUNT_FIELD_NUMBER = 15;
     private int waitCount_;
     /**
      * <code>uint32 waitCount = 14;</code>
@@ -165,7 +165,7 @@ public final class CompoundQueueDataOuterClass {
       return waitCount_;
     }
 
-    public static final int COMPOUND_ID_FIELD_NUMBER = 11;
+    public static final int COMPOUND_ID_FIELD_NUMBER = 13;
     private int compoundId_;
     /**
      * <code>uint32 compound_id = 11;</code>
@@ -176,7 +176,7 @@ public final class CompoundQueueDataOuterClass {
       return compoundId_;
     }
 
-    public static final int OUTPUTCOUNT_FIELD_NUMBER = 12;
+    public static final int OUTPUTCOUNT_FIELD_NUMBER = 2;
     private int outputCount_;
     /**
      * <code>uint32 outputCount = 12;</code>
@@ -205,7 +205,7 @@ public final class CompoundQueueDataOuterClass {
         output.writeUInt32(1, outputTime_);
       }
       if (compoundId_ != 0) {
-        output.writeUInt32(11, compoundId_);
+        output.writeUInt32(13, compoundId_);
       }
       if (outputCount_ != 0) {
         output.writeUInt32(12, outputCount_);
@@ -228,7 +228,7 @@ public final class CompoundQueueDataOuterClass {
       }
       if (compoundId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, compoundId_);
+          .computeUInt32Size(13, compoundId_);
       }
       if (outputCount_ != 0) {
         size += com.google.protobuf.CodedOutputStream

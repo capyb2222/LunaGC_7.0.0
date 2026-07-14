@@ -110,7 +110,7 @@ public final class HomeBlockSubFieldDataOuterClass {
 
               break;
             }
-            case 66: {
+            case 74: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (pos_ != null) {
                 subBuilder = pos_.toBuilder();
@@ -155,7 +155,7 @@ public final class HomeBlockSubFieldDataOuterClass {
               emu.grasscutter.net.proto.HomeBlockSubFieldDataOuterClass.HomeBlockSubFieldData.class, emu.grasscutter.net.proto.HomeBlockSubFieldDataOuterClass.HomeBlockSubFieldData.Builder.class);
     }
 
-    public static final int ROT_FIELD_NUMBER = 10;
+    public static final int ROT_FIELD_NUMBER = 2;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector rot_;
     /**
      * <code>.Vector rot = 2;</code>
@@ -181,7 +181,7 @@ public final class HomeBlockSubFieldDataOuterClass {
       return getRot();
     }
 
-    public static final int POS_FIELD_NUMBER = 6;
+    public static final int POS_FIELD_NUMBER = 9;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
     /**
      * <code>.Vector pos = 8;</code>
@@ -225,7 +225,7 @@ public final class HomeBlockSubFieldDataOuterClass {
         output.writeMessage(2, getRot());
       }
       if (pos_ != null) {
-        output.writeMessage(8, getPos());
+        output.writeMessage(9, getPos());
       }
       unknownFields.writeTo(output);
     }
@@ -242,7 +242,7 @@ public final class HomeBlockSubFieldDataOuterClass {
       }
       if (pos_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, getPos());
+          .computeMessageSize(9, getPos());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

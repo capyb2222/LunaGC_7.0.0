@@ -70,17 +70,17 @@ public final class AreaNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 112: {
 
               areaType_ = input.readUInt32();
               break;
             }
-            case 74: {
+            case 10: {
 
               areaCode_ = input.readBytes();
               break;
             }
-            case 112: {
+            case 80: {
 
               areaId_ = input.readUInt32();
               break;
@@ -117,7 +117,7 @@ public final class AreaNotifyOuterClass {
               emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotify.class, emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotify.Builder.class);
     }
 
-    public static final int AREA_CODE_FIELD_NUMBER = 9;
+    public static final int AREA_CODE_FIELD_NUMBER = 1;
     private com.google.protobuf.ByteString areaCode_;
 
     @java.lang.Override
@@ -125,7 +125,7 @@ public final class AreaNotifyOuterClass {
       return areaCode_;
     }
 
-    public static final int AREA_TYPE_FIELD_NUMBER = 1;
+    public static final int AREA_TYPE_FIELD_NUMBER = 14;
     private int areaType_;
 
     @java.lang.Override
@@ -133,7 +133,7 @@ public final class AreaNotifyOuterClass {
       return areaType_;
     }
 
-    public static final int AREA_ID_FIELD_NUMBER = 14;
+    public static final int AREA_ID_FIELD_NUMBER = 10;
     private int areaId_;
 
     @java.lang.Override
@@ -156,13 +156,13 @@ public final class AreaNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (areaType_ != 0) {
-        output.writeUInt32(1, areaType_);
+        output.writeUInt32(14, areaType_);
       }
       if (!areaCode_.isEmpty()) {
-        output.writeBytes(9, areaCode_);
+        output.writeBytes(1, areaCode_);
       }
       if (areaId_ != 0) {
-        output.writeUInt32(14, areaId_);
+        output.writeUInt32(10, areaId_);
       }
       unknownFields.writeTo(output);
     }
@@ -175,15 +175,15 @@ public final class AreaNotifyOuterClass {
       size = 0;
       if (areaType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, areaType_);
+          .computeUInt32Size(14, areaType_);
       }
       if (!areaCode_.isEmpty()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(9, areaCode_);
+          .computeBytesSize(1, areaCode_);
       }
       if (areaId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, areaId_);
+          .computeUInt32Size(10, areaId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

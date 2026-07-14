@@ -80,7 +80,7 @@ public final class PlayerQuitFromHomeNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 112: {
+            case 72: {
               int rawValue = input.readEnum();
 
               reason_ = rawValue;
@@ -275,7 +275,7 @@ public final class PlayerQuitFromHomeNotifyOuterClass {
       // @@protoc_insertion_point(enum_scope:PlayerQuitFromHomeNotify.QuitReason)
     }
 
-    public static final int REASON_FIELD_NUMBER = 14;
+    public static final int REASON_FIELD_NUMBER = 9;
     private int reason_;
     /**
      * <code>.PlayerQuitFromHomeNotify.QuitReason reason = 14;</code>
@@ -309,7 +309,7 @@ public final class PlayerQuitFromHomeNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (reason_ != emu.grasscutter.net.proto.PlayerQuitFromHomeNotifyOuterClass.PlayerQuitFromHomeNotify.QuitReason.INVALID.getNumber()) {
-        output.writeEnum(14, reason_);
+        output.writeEnum(9, reason_);
       }
       unknownFields.writeTo(output);
     }
@@ -322,7 +322,7 @@ public final class PlayerQuitFromHomeNotifyOuterClass {
       size = 0;
       if (reason_ != emu.grasscutter.net.proto.PlayerQuitFromHomeNotifyOuterClass.PlayerQuitFromHomeNotify.QuitReason.INVALID.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(14, reason_);
+          .computeEnumSize(9, reason_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

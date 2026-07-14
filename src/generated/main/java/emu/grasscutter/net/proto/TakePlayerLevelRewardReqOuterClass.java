@@ -69,7 +69,7 @@ public final class TakePlayerLevelRewardReqOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 72: {
 
               level_ = input.readUInt32();
               break;
@@ -106,7 +106,7 @@ public final class TakePlayerLevelRewardReqOuterClass {
               emu.grasscutter.net.proto.TakePlayerLevelRewardReqOuterClass.TakePlayerLevelRewardReq.class, emu.grasscutter.net.proto.TakePlayerLevelRewardReqOuterClass.TakePlayerLevelRewardReq.Builder.class);
     }
 
-    public static final int LEVEL_FIELD_NUMBER = 4;
+    public static final int LEVEL_FIELD_NUMBER = 9;
     private int level_;
 
     @java.lang.Override
@@ -129,7 +129,7 @@ public final class TakePlayerLevelRewardReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (level_ != 0) {
-        output.writeUInt32(4, level_);
+        output.writeUInt32(9, level_);
       }
       unknownFields.writeTo(output);
     }
@@ -142,7 +142,7 @@ public final class TakePlayerLevelRewardReqOuterClass {
       size = 0;
       if (level_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, level_);
+          .computeUInt32Size(9, level_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

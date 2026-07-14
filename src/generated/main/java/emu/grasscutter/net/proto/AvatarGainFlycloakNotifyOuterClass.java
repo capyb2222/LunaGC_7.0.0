@@ -69,7 +69,7 @@ public final class AvatarGainFlycloakNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 16: {
 
               flycloakId_ = input.readUInt32();
               break;
@@ -106,7 +106,7 @@ public final class AvatarGainFlycloakNotifyOuterClass {
               emu.grasscutter.net.proto.AvatarGainFlycloakNotifyOuterClass.AvatarGainFlycloakNotify.class, emu.grasscutter.net.proto.AvatarGainFlycloakNotifyOuterClass.AvatarGainFlycloakNotify.Builder.class);
     }
 
-    public static final int FLYCLOAK_ID_FIELD_NUMBER = 3;
+    public static final int FLYCLOAK_ID_FIELD_NUMBER = 2;
     private int flycloakId_;
 
     @java.lang.Override
@@ -129,7 +129,7 @@ public final class AvatarGainFlycloakNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (flycloakId_ != 0) {
-        output.writeUInt32(3, flycloakId_);
+        output.writeUInt32(2, flycloakId_);
       }
       unknownFields.writeTo(output);
     }
@@ -142,7 +142,7 @@ public final class AvatarGainFlycloakNotifyOuterClass {
       size = 0;
       if (flycloakId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, flycloakId_);
+          .computeUInt32Size(2, flycloakId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

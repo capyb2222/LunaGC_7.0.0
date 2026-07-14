@@ -74,7 +74,7 @@ public final class WorldPlayerReviveRspOuterClass {
             case 0:
               done = true;
               break;
-            case 112: {
+            case 88: {
 
               retcode_ = input.readInt32();
               break;
@@ -111,7 +111,7 @@ public final class WorldPlayerReviveRspOuterClass {
               emu.grasscutter.net.proto.WorldPlayerReviveRspOuterClass.WorldPlayerReviveRsp.class, emu.grasscutter.net.proto.WorldPlayerReviveRspOuterClass.WorldPlayerReviveRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 14;
+    public static final int RETCODE_FIELD_NUMBER = 11;
     private int retcode_;
     /**
      * <code>int32 retcode = 14;</code>
@@ -137,7 +137,7 @@ public final class WorldPlayerReviveRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(14, retcode_);
+        output.writeInt32(11, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +150,7 @@ public final class WorldPlayerReviveRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(14, retcode_);
+          .computeInt32Size(11, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

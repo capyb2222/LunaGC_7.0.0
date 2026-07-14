@@ -111,12 +111,12 @@ public final class CrystalLinkLevelInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
+            case 96: {
 
               bestScore_ = input.readUInt32();
               break;
             }
-            case 50: {
+            case 74: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 teamInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -125,12 +125,12 @@ public final class CrystalLinkLevelInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfo.parser(), extensionRegistry));
               break;
             }
-            case 88: {
+            case 24: {
 
               isOpen_ = input.readBool();
               break;
             }
-            case 112: {
+            case 48: {
 
               levelId_ = input.readUInt32();
               break;
@@ -170,7 +170,7 @@ public final class CrystalLinkLevelInfoOuterClass {
               emu.grasscutter.net.proto.CrystalLinkLevelInfoOuterClass.CrystalLinkLevelInfo.class, emu.grasscutter.net.proto.CrystalLinkLevelInfoOuterClass.CrystalLinkLevelInfo.Builder.class);
     }
 
-    public static final int BEST_SCORE_FIELD_NUMBER = 5;
+    public static final int BEST_SCORE_FIELD_NUMBER = 12;
     private int bestScore_;
     /**
      * <code>uint32 best_score = 5;</code>
@@ -181,7 +181,7 @@ public final class CrystalLinkLevelInfoOuterClass {
       return bestScore_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 14;
+    public static final int LEVEL_ID_FIELD_NUMBER = 6;
     private int levelId_;
     /**
      * <code>uint32 level_id = 14;</code>
@@ -192,7 +192,7 @@ public final class CrystalLinkLevelInfoOuterClass {
       return levelId_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 11;
+    public static final int IS_OPEN_FIELD_NUMBER = 3;
     private boolean isOpen_;
     /**
      * <code>bool is_open = 11;</code>
@@ -203,7 +203,7 @@ public final class CrystalLinkLevelInfoOuterClass {
       return isOpen_;
     }
 
-    public static final int TEAM_INFO_LIST_FIELD_NUMBER = 6;
+    public static final int TEAM_INFO_LIST_FIELD_NUMBER = 9;
     private java.util.List<emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfo> teamInfoList_;
     /**
      * <code>repeated .CrystalLinkTeamInfo team_info_list = 6;</code>
@@ -258,16 +258,16 @@ public final class CrystalLinkLevelInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (bestScore_ != 0) {
-        output.writeUInt32(5, bestScore_);
+        output.writeUInt32(12, bestScore_);
       }
       for (int i = 0; i < teamInfoList_.size(); i++) {
-        output.writeMessage(6, teamInfoList_.get(i));
+        output.writeMessage(9, teamInfoList_.get(i));
       }
       if (isOpen_ != false) {
-        output.writeBool(11, isOpen_);
+        output.writeBool(3, isOpen_);
       }
       if (levelId_ != 0) {
-        output.writeUInt32(14, levelId_);
+        output.writeUInt32(6, levelId_);
       }
       unknownFields.writeTo(output);
     }
@@ -280,19 +280,19 @@ public final class CrystalLinkLevelInfoOuterClass {
       size = 0;
       if (bestScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, bestScore_);
+          .computeUInt32Size(12, bestScore_);
       }
       for (int i = 0; i < teamInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, teamInfoList_.get(i));
+          .computeMessageSize(9, teamInfoList_.get(i));
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, isOpen_);
+          .computeBoolSize(3, isOpen_);
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, levelId_);
+          .computeUInt32Size(6, levelId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

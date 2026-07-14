@@ -84,12 +84,12 @@ public final class PullRecentChatRspOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 16: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 42: {
+            case 82: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 chatInfo_ = new java.util.ArrayList<emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,7 +133,7 @@ public final class PullRecentChatRspOuterClass {
               emu.grasscutter.net.proto.PullRecentChatRspOuterClass.PullRecentChatRsp.class, emu.grasscutter.net.proto.PullRecentChatRspOuterClass.PullRecentChatRsp.Builder.class);
     }
 
-    public static final int CHAT_INFO_FIELD_NUMBER = 5;
+    public static final int CHAT_INFO_FIELD_NUMBER = 10;
     private java.util.List<emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo> chatInfo_;
 
     @java.lang.Override
@@ -163,7 +163,7 @@ public final class PullRecentChatRspOuterClass {
       return chatInfo_.get(index);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 8;
+    public static final int RETCODE_FIELD_NUMBER = 2;
     private int retcode_;
 
     @java.lang.Override
@@ -186,10 +186,10 @@ public final class PullRecentChatRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(8, retcode_);
+        output.writeInt32(2, retcode_);
       }
       for (int i = 0; i < chatInfo_.size(); i++) {
-        output.writeMessage(5, chatInfo_.get(i));
+        output.writeMessage(10, chatInfo_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -202,11 +202,11 @@ public final class PullRecentChatRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(8, retcode_);
+          .computeInt32Size(2, retcode_);
       }
       for (int i = 0; i < chatInfo_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, chatInfo_.get(i));
+          .computeMessageSize(10, chatInfo_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

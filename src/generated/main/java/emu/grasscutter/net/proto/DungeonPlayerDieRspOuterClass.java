@@ -74,7 +74,7 @@ public final class DungeonPlayerDieRspOuterClass {
             case 0:
               done = true;
               break;
-            case 112: {
+            case 16: {
 
               retcode_ = input.readInt32();
               break;
@@ -111,7 +111,7 @@ public final class DungeonPlayerDieRspOuterClass {
               emu.grasscutter.net.proto.DungeonPlayerDieRspOuterClass.DungeonPlayerDieRsp.class, emu.grasscutter.net.proto.DungeonPlayerDieRspOuterClass.DungeonPlayerDieRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 14;
+    public static final int RETCODE_FIELD_NUMBER = 2;
     private int retcode_;
     /**
      * <code>int32 retcode = 14;</code>
@@ -137,7 +137,7 @@ public final class DungeonPlayerDieRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(14, retcode_);
+        output.writeInt32(2, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +150,7 @@ public final class DungeonPlayerDieRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(14, retcode_);
+          .computeInt32Size(2, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

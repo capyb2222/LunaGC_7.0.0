@@ -126,7 +126,7 @@ public final class ViewCodexReqOuterClass {
               emu.grasscutter.net.proto.ViewCodexReqOuterClass.ViewCodexReq.class, emu.grasscutter.net.proto.ViewCodexReqOuterClass.ViewCodexReq.Builder.class);
     }
 
-    public static final int TYPE_DATA_LIST_FIELD_NUMBER = 13;
+    public static final int TYPE_DATA_LIST_FIELD_NUMBER = 1;
     private java.util.List<emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData> typeDataList_;
 
     @java.lang.Override
@@ -171,7 +171,7 @@ public final class ViewCodexReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < typeDataList_.size(); i++) {
-        output.writeMessage(13, typeDataList_.get(i));
+        output.writeMessage(1, typeDataList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -184,7 +184,7 @@ public final class ViewCodexReqOuterClass {
       size = 0;
       for (int i = 0; i < typeDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, typeDataList_.get(i));
+          .computeMessageSize(1, typeDataList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

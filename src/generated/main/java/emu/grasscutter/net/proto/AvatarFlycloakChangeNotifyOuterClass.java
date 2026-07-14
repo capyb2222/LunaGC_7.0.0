@@ -75,12 +75,12 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 72: {
+            case 104: {
 
               avatarGuid_ = input.readUInt64();
               break;
             }
-            case 88: {
+            case 72: {
 
               flycloakId_ = input.readUInt32();
               break;
@@ -117,7 +117,7 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
               emu.grasscutter.net.proto.AvatarFlycloakChangeNotifyOuterClass.AvatarFlycloakChangeNotify.class, emu.grasscutter.net.proto.AvatarFlycloakChangeNotifyOuterClass.AvatarFlycloakChangeNotify.Builder.class);
     }
 
-    public static final int AVATAR_GUID_FIELD_NUMBER = 9;
+    public static final int AVATAR_GUID_FIELD_NUMBER = 13;
     private long avatarGuid_;
     /**
      * <code>uint64 avatar_guid = 33847;</code>
@@ -128,7 +128,7 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
       return avatarGuid_;
     }
 
-    public static final int FLYCLOAK_ID_FIELD_NUMBER = 11;
+    public static final int FLYCLOAK_ID_FIELD_NUMBER = 9;
     private int flycloakId_;
 
     @java.lang.Override
@@ -151,10 +151,10 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (avatarGuid_ != 0L) {
-        output.writeUInt64(9, avatarGuid_);
+        output.writeUInt64(13, avatarGuid_);
       }
       if (flycloakId_ != 0) {
-        output.writeUInt32(11, flycloakId_);
+        output.writeUInt32(9, flycloakId_);
       }
       unknownFields.writeTo(output);
     }
@@ -167,11 +167,11 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
       size = 0;
       if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(9, avatarGuid_);
+          .computeUInt64Size(13, avatarGuid_);
       }
       if (flycloakId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, flycloakId_);
+          .computeUInt32Size(9, flycloakId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

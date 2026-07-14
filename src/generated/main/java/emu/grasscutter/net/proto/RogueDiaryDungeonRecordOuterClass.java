@@ -91,12 +91,12 @@ public final class RogueDiaryDungeonRecordOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 120: {
 
               maxRound_ = input.readUInt32();
               break;
             }
-            case 56: {
+            case 80: {
 
               finishTime_ = input.readUInt32();
               break;
@@ -106,7 +106,7 @@ public final class RogueDiaryDungeonRecordOuterClass {
               difficulty_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 88: {
 
               isFinish_ = input.readBool();
               break;
@@ -143,7 +143,7 @@ public final class RogueDiaryDungeonRecordOuterClass {
               emu.grasscutter.net.proto.RogueDiaryDungeonRecordOuterClass.RogueDiaryDungeonRecord.class, emu.grasscutter.net.proto.RogueDiaryDungeonRecordOuterClass.RogueDiaryDungeonRecord.Builder.class);
     }
 
-    public static final int MAX_ROUND_FIELD_NUMBER = 1;
+    public static final int MAX_ROUND_FIELD_NUMBER = 15;
     private int maxRound_;
     /**
      * <code>uint32 max_round = 1;</code>
@@ -154,7 +154,7 @@ public final class RogueDiaryDungeonRecordOuterClass {
       return maxRound_;
     }
 
-    public static final int FINISH_TIME_FIELD_NUMBER = 7;
+    public static final int FINISH_TIME_FIELD_NUMBER = 10;
     private int finishTime_;
     /**
      * <code>uint32 finish_time = 7;</code>
@@ -165,7 +165,7 @@ public final class RogueDiaryDungeonRecordOuterClass {
       return finishTime_;
     }
 
-    public static final int IS_FINISH_FIELD_NUMBER = 6;
+    public static final int IS_FINISH_FIELD_NUMBER = 11;
     private boolean isFinish_;
     /**
      * <code>bool is_finish = 14;</code>
@@ -176,7 +176,7 @@ public final class RogueDiaryDungeonRecordOuterClass {
       return isFinish_;
     }
 
-    public static final int DIFFICULTY_FIELD_NUMBER = 4;
+    public static final int DIFFICULTY_FIELD_NUMBER = 9;
     private int difficulty_;
     /**
      * <code>uint32 difficulty = 12;</code>
@@ -202,16 +202,16 @@ public final class RogueDiaryDungeonRecordOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (maxRound_ != 0) {
-        output.writeUInt32(1, maxRound_);
+        output.writeUInt32(15, maxRound_);
       }
       if (finishTime_ != 0) {
-        output.writeUInt32(7, finishTime_);
+        output.writeUInt32(10, finishTime_);
       }
       if (difficulty_ != 0) {
         output.writeUInt32(4, difficulty_);
       }
       if (isFinish_ != false) {
-        output.writeBool(6, isFinish_);
+        output.writeBool(11, isFinish_);
       }
       unknownFields.writeTo(output);
     }
@@ -224,11 +224,11 @@ public final class RogueDiaryDungeonRecordOuterClass {
       size = 0;
       if (maxRound_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, maxRound_);
+          .computeUInt32Size(15, maxRound_);
       }
       if (finishTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, finishTime_);
+          .computeUInt32Size(10, finishTime_);
       }
       if (difficulty_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -236,7 +236,7 @@ public final class RogueDiaryDungeonRecordOuterClass {
       }
       if (isFinish_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, isFinish_);
+          .computeBoolSize(11, isFinish_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

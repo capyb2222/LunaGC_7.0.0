@@ -147,12 +147,12 @@ public final class SeaLampActivityInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.OEIFBAHBIGMOuterClass.OEIFBAHBIGM.parser(), extensionRegistry));
               break;
             }
-            case 72: {
+            case 128000: {
 
               bMLIGIIELDE_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 72: {
 
               isContentClosed_ = input.readBool();
               break;
@@ -162,7 +162,7 @@ public final class SeaLampActivityInfoOuterClass {
               gBNHBMOBHNH_ = input.readBool();
               break;
             }
-            case 112: {
+            case 16: {
 
               firstDayStartTime_ = input.readUInt32();
               break;
@@ -253,7 +253,7 @@ public final class SeaLampActivityInfoOuterClass {
       return jDEDAGMGMOD_;
     }
 
-    public static final int BMLIGIIELDE_FIELD_NUMBER = 9;
+    public static final int BMLIGIIELDE_FIELD_NUMBER = 16000;
     private int bMLIGIIELDE_;
     /**
      * <code>uint32 BMLIGIIELDE = 9;</code>
@@ -264,7 +264,7 @@ public final class SeaLampActivityInfoOuterClass {
       return bMLIGIIELDE_;
     }
 
-    public static final int FIRST_DAY_START_TIME_FIELD_NUMBER = 14;
+    public static final int FIRST_DAY_START_TIME_FIELD_NUMBER = 2;
     private int firstDayStartTime_;
 
     @java.lang.Override
@@ -305,7 +305,7 @@ public final class SeaLampActivityInfoOuterClass {
       return gBNHBMOBHNH_;
     }
 
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 3;
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 9;
     private boolean isContentClosed_;
 
     @java.lang.Override
@@ -340,16 +340,16 @@ public final class SeaLampActivityInfoOuterClass {
         output.writeMessage(7, kLMLDADAPJA_.get(i));
       }
       if (bMLIGIIELDE_ != 0) {
-        output.writeUInt32(9, bMLIGIIELDE_);
+        output.writeUInt32(16000, bMLIGIIELDE_);
       }
       if (isContentClosed_ != false) {
-        output.writeBool(3, isContentClosed_);
+        output.writeBool(9, isContentClosed_);
       }
       if (gBNHBMOBHNH_ != false) {
         output.writeBool(13, gBNHBMOBHNH_);
       }
       if (firstDayStartTime_ != 0) {
-        output.writeUInt32(14, firstDayStartTime_);
+        output.writeUInt32(2, firstDayStartTime_);
       }
       unknownFields.writeTo(output);
     }
@@ -378,11 +378,11 @@ public final class SeaLampActivityInfoOuterClass {
       }
       if (bMLIGIIELDE_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, bMLIGIIELDE_);
+          .computeUInt32Size(16000, bMLIGIIELDE_);
       }
       if (isContentClosed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, isContentClosed_);
+          .computeBoolSize(9, isContentClosed_);
       }
       if (gBNHBMOBHNH_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -390,7 +390,7 @@ public final class SeaLampActivityInfoOuterClass {
       }
       if (firstDayStartTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, firstDayStartTime_);
+          .computeUInt32Size(2, firstDayStartTime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

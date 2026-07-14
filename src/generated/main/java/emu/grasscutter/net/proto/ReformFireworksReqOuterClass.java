@@ -83,7 +83,7 @@ public final class ReformFireworksReqOuterClass {
             case 0:
               done = true;
               break;
-            case 82: {
+            case 26: {
               emu.grasscutter.net.proto.FireworksReformDataOuterClass.FireworksReformData.Builder subBuilder = null;
               if (fireworksReformData_ != null) {
                 subBuilder = fireworksReformData_.toBuilder();
@@ -128,7 +128,7 @@ public final class ReformFireworksReqOuterClass {
               emu.grasscutter.net.proto.ReformFireworksReqOuterClass.ReformFireworksReq.class, emu.grasscutter.net.proto.ReformFireworksReqOuterClass.ReformFireworksReq.Builder.class);
     }
 
-    public static final int FIREWORKS_REFORM_DATA_FIELD_NUMBER = 10;
+    public static final int FIREWORKS_REFORM_DATA_FIELD_NUMBER = 3;
     private emu.grasscutter.net.proto.FireworksReformDataOuterClass.FireworksReformData fireworksReformData_;
     /**
      * <code>.FireworksReformData fireworks_reform_data = 10;</code>
@@ -169,7 +169,7 @@ public final class ReformFireworksReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (fireworksReformData_ != null) {
-        output.writeMessage(10, getFireworksReformData());
+        output.writeMessage(3, getFireworksReformData());
       }
       unknownFields.writeTo(output);
     }
@@ -182,7 +182,7 @@ public final class ReformFireworksReqOuterClass {
       size = 0;
       if (fireworksReformData_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, getFireworksReformData());
+          .computeMessageSize(3, getFireworksReformData());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

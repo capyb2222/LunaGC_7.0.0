@@ -93,12 +93,12 @@ public final class DelMailRspOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 120: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 80: {
+            case 32: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 mailIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -106,7 +106,7 @@ public final class DelMailRspOuterClass {
               mailIdList_.addInt(input.readUInt32());
               break;
             }
-            case 82: {
+            case 34: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -154,7 +154,7 @@ public final class DelMailRspOuterClass {
               emu.grasscutter.net.proto.DelMailRspOuterClass.DelMailRsp.class, emu.grasscutter.net.proto.DelMailRspOuterClass.DelMailRsp.Builder.class);
     }
 
-    public static final int MAIL_ID_LIST_FIELD_NUMBER = 10;
+    public static final int MAIL_ID_LIST_FIELD_NUMBER = 4;
     private com.google.protobuf.Internal.IntList mailIdList_;
     /**
      * <code>repeated uint32 mail_id_list = 13;</code>
@@ -182,7 +182,7 @@ public final class DelMailRspOuterClass {
     }
     private int mailIdListMemoizedSerializedSize = -1;
 
-    public static final int RETCODE_FIELD_NUMBER = 1;
+    public static final int RETCODE_FIELD_NUMBER = 15;
     private int retcode_;
     /**
      * <code>int32 retcode = 8;</code>
@@ -209,10 +209,10 @@ public final class DelMailRspOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (retcode_ != 0) {
-        output.writeInt32(1, retcode_);
+        output.writeInt32(15, retcode_);
       }
       if (getMailIdListList().size() > 0) {
-        output.writeUInt32NoTag(82);
+        output.writeUInt32NoTag(34);
         output.writeUInt32NoTag(mailIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < mailIdList_.size(); i++) {
@@ -229,7 +229,7 @@ public final class DelMailRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(1, retcode_);
+          .computeInt32Size(15, retcode_);
       }
       {
         int dataSize = 0;

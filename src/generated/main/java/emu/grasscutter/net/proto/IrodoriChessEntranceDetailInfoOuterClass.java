@@ -137,7 +137,7 @@ public final class IrodoriChessEntranceDetailInfoOuterClass {
               emu.grasscutter.net.proto.IrodoriChessEntranceDetailInfoOuterClass.IrodoriChessEntranceDetailInfo.class, emu.grasscutter.net.proto.IrodoriChessEntranceDetailInfoOuterClass.IrodoriChessEntranceDetailInfo.Builder.class);
     }
 
-    public static final int INFO_LIST_FIELD_NUMBER = 5;
+    public static final int INFO_LIST_FIELD_NUMBER = 9;
     private java.util.List<emu.grasscutter.net.proto.IrodoriChessEntranceInfoOuterClass.IrodoriChessEntranceInfo> infoList_;
     /**
      * <code>repeated .IrodoriChessEntranceInfo info_list = 9;</code>
@@ -192,7 +192,7 @@ public final class IrodoriChessEntranceDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < infoList_.size(); i++) {
-        output.writeMessage(5, infoList_.get(i));
+        output.writeMessage(9, infoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -205,7 +205,7 @@ public final class IrodoriChessEntranceDetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < infoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, infoList_.get(i));
+          .computeMessageSize(9, infoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

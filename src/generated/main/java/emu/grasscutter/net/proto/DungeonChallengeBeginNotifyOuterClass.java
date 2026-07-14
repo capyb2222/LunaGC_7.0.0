@@ -129,17 +129,17 @@ public final class DungeonChallengeBeginNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 96: {
+            case 120: {
 
               challengeId_ = input.readUInt32();
               break;
             }
-            case 24: {
+            case 80: {
 
               fatherIndex_ = input.readUInt32();
               break;
             }
-            case 16: {
+            case 24: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 paramList_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -147,7 +147,7 @@ public final class DungeonChallengeBeginNotifyOuterClass {
               paramList_.addInt(input.readUInt32());
               break;
             }
-            case 18: {
+            case 26: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -160,17 +160,17 @@ public final class DungeonChallengeBeginNotifyOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 48: {
+            case 16: {
 
               groupId_ = input.readUInt32();
               break;
             }
-            case 32: {
+            case 88: {
 
               challengeIndex_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 112: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 uidList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -178,7 +178,7 @@ public final class DungeonChallengeBeginNotifyOuterClass {
               uidList_.addInt(input.readUInt32());
               break;
             }
-            case 82: {
+            case 114: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -229,7 +229,7 @@ public final class DungeonChallengeBeginNotifyOuterClass {
               emu.grasscutter.net.proto.DungeonChallengeBeginNotifyOuterClass.DungeonChallengeBeginNotify.class, emu.grasscutter.net.proto.DungeonChallengeBeginNotifyOuterClass.DungeonChallengeBeginNotify.Builder.class);
     }
 
-    public static final int CHALLENGE_INDEX_FIELD_NUMBER = 4;
+    public static final int CHALLENGE_INDEX_FIELD_NUMBER = 11;
     private int challengeIndex_;
     /**
      * <code>uint32 challenge_index = 11;</code>
@@ -240,7 +240,7 @@ public final class DungeonChallengeBeginNotifyOuterClass {
       return challengeIndex_;
     }
 
-    public static final int GROUP_ID_FIELD_NUMBER = 6;
+    public static final int GROUP_ID_FIELD_NUMBER = 2;
     private int groupId_;
     /**
      * <code>uint32 group_id = 10;</code>
@@ -251,7 +251,7 @@ public final class DungeonChallengeBeginNotifyOuterClass {
       return groupId_;
     }
 
-    public static final int UID_LIST_FIELD_NUMBER = 10;
+    public static final int UID_LIST_FIELD_NUMBER = 14;
     private com.google.protobuf.Internal.IntList uidList_;
     /**
      * <code>repeated uint32 uid_list = 15;</code>
@@ -279,7 +279,7 @@ public final class DungeonChallengeBeginNotifyOuterClass {
     }
     private int uidListMemoizedSerializedSize = -1;
 
-    public static final int FATHER_INDEX_FIELD_NUMBER = 3;
+    public static final int FATHER_INDEX_FIELD_NUMBER = 10;
     private int fatherIndex_;
     /**
      * <code>uint32 father_index = 4;</code>
@@ -290,7 +290,7 @@ public final class DungeonChallengeBeginNotifyOuterClass {
       return fatherIndex_;
     }
 
-    public static final int CHALLENGE_ID_FIELD_NUMBER = 12;
+    public static final int CHALLENGE_ID_FIELD_NUMBER = 15;
     private int challengeId_;
     /**
      * <code>uint32 challenge_id = 3;</code>
@@ -301,7 +301,7 @@ public final class DungeonChallengeBeginNotifyOuterClass {
       return challengeId_;
     }
 
-    public static final int PARAM_LIST_FIELD_NUMBER = 2;
+    public static final int PARAM_LIST_FIELD_NUMBER = 3;
     private com.google.protobuf.Internal.IntList paramList_;
     /**
      * <code>repeated uint32 param_list = 6;</code>
@@ -345,26 +345,26 @@ public final class DungeonChallengeBeginNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (challengeId_ != 0) {
-        output.writeUInt32(12, challengeId_);
+        output.writeUInt32(15, challengeId_);
       }
       if (fatherIndex_ != 0) {
-        output.writeUInt32(3, fatherIndex_);
+        output.writeUInt32(10, fatherIndex_);
       }
       if (getParamListList().size() > 0) {
-        output.writeUInt32NoTag(18);
+        output.writeUInt32NoTag(26);
         output.writeUInt32NoTag(paramListMemoizedSerializedSize);
       }
       for (int i = 0; i < paramList_.size(); i++) {
         output.writeUInt32NoTag(paramList_.getInt(i));
       }
       if (groupId_ != 0) {
-        output.writeUInt32(6, groupId_);
+        output.writeUInt32(2, groupId_);
       }
       if (challengeIndex_ != 0) {
-        output.writeUInt32(4, challengeIndex_);
+        output.writeUInt32(11, challengeIndex_);
       }
       if (getUidListList().size() > 0) {
-        output.writeUInt32NoTag(82);
+        output.writeUInt32NoTag(114);
         output.writeUInt32NoTag(uidListMemoizedSerializedSize);
       }
       for (int i = 0; i < uidList_.size(); i++) {
@@ -381,11 +381,11 @@ public final class DungeonChallengeBeginNotifyOuterClass {
       size = 0;
       if (challengeId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, challengeId_);
+          .computeUInt32Size(15, challengeId_);
       }
       if (fatherIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, fatherIndex_);
+          .computeUInt32Size(10, fatherIndex_);
       }
       {
         int dataSize = 0;
@@ -403,11 +403,11 @@ public final class DungeonChallengeBeginNotifyOuterClass {
       }
       if (groupId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, groupId_);
+          .computeUInt32Size(2, groupId_);
       }
       if (challengeIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, challengeIndex_);
+          .computeUInt32Size(11, challengeIndex_);
       }
       {
         int dataSize = 0;

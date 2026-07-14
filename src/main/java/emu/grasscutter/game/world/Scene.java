@@ -445,6 +445,7 @@ public class Scene {
 
         if (target == null) {
             Grasscutter.getLogger().info("handleAttack: target not found defenseId={} attackerId={} damage={}", result.getDefenseId(), result.getAttackerId(), result.getDamage());
+            Grasscutter.getLogger().info("handleAttack unknownFields (defense_id = the monster entityId): {}", result.getUnknownFields().toString().replaceAll("\\s+", " "));
             return;
         }
         if (target instanceof EntityAvatar) {

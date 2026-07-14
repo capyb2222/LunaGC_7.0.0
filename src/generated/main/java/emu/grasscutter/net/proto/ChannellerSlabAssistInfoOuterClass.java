@@ -85,17 +85,17 @@ public final class ChannellerSlabAssistInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
+            case 24: {
 
               avatarLevel_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 72: {
 
               uid_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 16: {
 
               avatarId_ = input.readUInt32();
               break;
@@ -132,7 +132,7 @@ public final class ChannellerSlabAssistInfoOuterClass {
               emu.grasscutter.net.proto.ChannellerSlabAssistInfoOuterClass.ChannellerSlabAssistInfo.class, emu.grasscutter.net.proto.ChannellerSlabAssistInfoOuterClass.ChannellerSlabAssistInfo.Builder.class);
     }
 
-    public static final int AVATAR_ID_FIELD_NUMBER = 1;
+    public static final int AVATAR_ID_FIELD_NUMBER = 2;
     private int avatarId_;
     /**
      * <code>uint32 avatar_id = 9;</code>
@@ -154,7 +154,7 @@ public final class ChannellerSlabAssistInfoOuterClass {
       return avatarLevel_;
     }
 
-    public static final int UID_FIELD_NUMBER = 10;
+    public static final int UID_FIELD_NUMBER = 9;
     private int uid_;
     /**
      * <code>uint32 uid = 6;</code>
@@ -183,10 +183,10 @@ public final class ChannellerSlabAssistInfoOuterClass {
         output.writeUInt32(3, avatarLevel_);
       }
       if (uid_ != 0) {
-        output.writeUInt32(10, uid_);
+        output.writeUInt32(9, uid_);
       }
       if (avatarId_ != 0) {
-        output.writeUInt32(1, avatarId_);
+        output.writeUInt32(2, avatarId_);
       }
       unknownFields.writeTo(output);
     }
@@ -203,11 +203,11 @@ public final class ChannellerSlabAssistInfoOuterClass {
       }
       if (uid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, uid_);
+          .computeUInt32Size(9, uid_);
       }
       if (avatarId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, avatarId_);
+          .computeUInt32Size(2, avatarId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

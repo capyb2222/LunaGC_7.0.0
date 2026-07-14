@@ -73,7 +73,7 @@ public final class WorldRoutineTypeRefreshNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 34: {
+            case 114: {
               emu.grasscutter.net.proto.WorldRoutineTypeInfoOuterClass.WorldRoutineTypeInfo.Builder subBuilder = null;
               if (worldRoutineType_ != null) {
                 subBuilder = worldRoutineType_.toBuilder();
@@ -118,7 +118,7 @@ public final class WorldRoutineTypeRefreshNotifyOuterClass {
               emu.grasscutter.net.proto.WorldRoutineTypeRefreshNotifyOuterClass.WorldRoutineTypeRefreshNotify.class, emu.grasscutter.net.proto.WorldRoutineTypeRefreshNotifyOuterClass.WorldRoutineTypeRefreshNotify.Builder.class);
     }
 
-    public static final int WORLD_ROUTINE_TYPE_FIELD_NUMBER = 4;
+    public static final int WORLD_ROUTINE_TYPE_FIELD_NUMBER = 14;
     private emu.grasscutter.net.proto.WorldRoutineTypeInfoOuterClass.WorldRoutineTypeInfo worldRoutineType_;
 
     @java.lang.Override
@@ -151,7 +151,7 @@ public final class WorldRoutineTypeRefreshNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (worldRoutineType_ != null) {
-        output.writeMessage(4, getWorldRoutineType());
+        output.writeMessage(14, getWorldRoutineType());
       }
       unknownFields.writeTo(output);
     }
@@ -164,7 +164,7 @@ public final class WorldRoutineTypeRefreshNotifyOuterClass {
       size = 0;
       if (worldRoutineType_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, getWorldRoutineType());
+          .computeMessageSize(14, getWorldRoutineType());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

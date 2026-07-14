@@ -76,17 +76,17 @@ public final class DealAddFriendRspOuterClass {
             case 0:
               done = true;
               break;
-            case 104: {
+            case 24: {
 
               targetUid_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 80: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 32: {
+            case 88: {
               int rawValue = input.readEnum();
 
               dealAddFriendResult_ = rawValue;
@@ -124,7 +124,7 @@ public final class DealAddFriendRspOuterClass {
               emu.grasscutter.net.proto.DealAddFriendRspOuterClass.DealAddFriendRsp.class, emu.grasscutter.net.proto.DealAddFriendRspOuterClass.DealAddFriendRsp.Builder.class);
     }
 
-    public static final int TARGET_UID_FIELD_NUMBER = 13;
+    public static final int TARGET_UID_FIELD_NUMBER = 3;
     private int targetUid_;
 
     @java.lang.Override
@@ -132,7 +132,7 @@ public final class DealAddFriendRspOuterClass {
       return targetUid_;
     }
 
-    public static final int DEAL_ADD_FRIEND_RESULT_FIELD_NUMBER = 4;
+    public static final int DEAL_ADD_FRIEND_RESULT_FIELD_NUMBER = 11;
     private int dealAddFriendResult_;
 
     @java.lang.Override public int getDealAddFriendResultValue() {
@@ -145,7 +145,7 @@ public final class DealAddFriendRspOuterClass {
       return result == null ? emu.grasscutter.net.proto.DealAddFriendResultTypeOuterClass.DealAddFriendResultType.UNRECOGNIZED : result;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 9;
+    public static final int RETCODE_FIELD_NUMBER = 10;
     private int retcode_;
 
     @java.lang.Override
@@ -168,13 +168,13 @@ public final class DealAddFriendRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (dealAddFriendResult_ != emu.grasscutter.net.proto.DealAddFriendResultTypeOuterClass.DealAddFriendResultType.DealAddFriendResultType_DEAL_ADD_FRIEND_REJECT.getNumber()) {
-        output.writeEnum(4, dealAddFriendResult_);
+        output.writeEnum(11, dealAddFriendResult_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(9, retcode_);
+        output.writeInt32(10, retcode_);
       }
       if (targetUid_ != 0) {
-        output.writeUInt32(13, targetUid_);
+        output.writeUInt32(3, targetUid_);
       }
       unknownFields.writeTo(output);
     }
@@ -187,15 +187,15 @@ public final class DealAddFriendRspOuterClass {
       size = 0;
       if (dealAddFriendResult_ != emu.grasscutter.net.proto.DealAddFriendResultTypeOuterClass.DealAddFriendResultType.DealAddFriendResultType_DEAL_ADD_FRIEND_REJECT.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(4, dealAddFriendResult_);
+          .computeEnumSize(11, dealAddFriendResult_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(9, retcode_);
+          .computeInt32Size(10, retcode_);
       }
       if (targetUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, targetUid_);
+          .computeUInt32Size(3, targetUid_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

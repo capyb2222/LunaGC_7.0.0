@@ -93,12 +93,12 @@ public final class MarkNewNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 120: {
+            case 72: {
 
               markNewType_ = input.readUInt32();
               break;
             }
-            case 24: {
+            case 88: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 idList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -106,7 +106,7 @@ public final class MarkNewNotifyOuterClass {
               idList_.addInt(input.readUInt32());
               break;
             }
-            case 26: {
+            case 90: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -154,7 +154,7 @@ public final class MarkNewNotifyOuterClass {
               emu.grasscutter.net.proto.MarkNewNotifyOuterClass.MarkNewNotify.class, emu.grasscutter.net.proto.MarkNewNotifyOuterClass.MarkNewNotify.Builder.class);
     }
 
-    public static final int MARK_NEW_TYPE_FIELD_NUMBER = 15;
+    public static final int MARK_NEW_TYPE_FIELD_NUMBER = 9;
     private int markNewType_;
     /**
      * <code>uint32 mark_new_type = 9;</code>
@@ -165,7 +165,7 @@ public final class MarkNewNotifyOuterClass {
       return markNewType_;
     }
 
-    public static final int ID_LIST_FIELD_NUMBER = 3;
+    public static final int ID_LIST_FIELD_NUMBER = 11;
     private com.google.protobuf.Internal.IntList idList_;
     /**
      * <code>repeated uint32 id_list = 11;</code>
@@ -209,10 +209,10 @@ public final class MarkNewNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (markNewType_ != 0) {
-        output.writeUInt32(15, markNewType_);
+        output.writeUInt32(9, markNewType_);
       }
       if (getIdListList().size() > 0) {
-        output.writeUInt32NoTag(26);
+        output.writeUInt32NoTag(90);
         output.writeUInt32NoTag(idListMemoizedSerializedSize);
       }
       for (int i = 0; i < idList_.size(); i++) {
@@ -229,7 +229,7 @@ public final class MarkNewNotifyOuterClass {
       size = 0;
       if (markNewType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, markNewType_);
+          .computeUInt32Size(9, markNewType_);
       }
       {
         int dataSize = 0;

@@ -74,7 +74,7 @@ public final class HomeAvatarTalkFinishInfoNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 50: {
+            case 122: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 avatarTalkInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.HomeAvatarTalkFinishInfoOuterClass.HomeAvatarTalkFinishInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -118,7 +118,7 @@ public final class HomeAvatarTalkFinishInfoNotifyOuterClass {
               emu.grasscutter.net.proto.HomeAvatarTalkFinishInfoNotifyOuterClass.HomeAvatarTalkFinishInfoNotify.class, emu.grasscutter.net.proto.HomeAvatarTalkFinishInfoNotifyOuterClass.HomeAvatarTalkFinishInfoNotify.Builder.class);
     }
 
-    public static final int AVATAR_TALK_INFO_LIST_FIELD_NUMBER = 6;
+    public static final int AVATAR_TALK_INFO_LIST_FIELD_NUMBER = 15;
     private java.util.List<emu.grasscutter.net.proto.HomeAvatarTalkFinishInfoOuterClass.HomeAvatarTalkFinishInfo> avatarTalkInfoList_;
 
     @java.lang.Override
@@ -163,7 +163,7 @@ public final class HomeAvatarTalkFinishInfoNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < avatarTalkInfoList_.size(); i++) {
-        output.writeMessage(6, avatarTalkInfoList_.get(i));
+        output.writeMessage(15, avatarTalkInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -176,7 +176,7 @@ public final class HomeAvatarTalkFinishInfoNotifyOuterClass {
       size = 0;
       for (int i = 0; i < avatarTalkInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, avatarTalkInfoList_.get(i));
+          .computeMessageSize(15, avatarTalkInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -117,7 +117,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 88: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 fireworksIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -125,7 +125,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
               fireworksIdList_.addInt(input.readUInt32());
               break;
             }
-            case 26: {
+            case 90: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -138,7 +138,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 96: {
+            case 16: {
 
               schemeId_ = input.readUInt32();
               break;
@@ -230,7 +230,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
       return launchParamList_.get(index);
     }
 
-    public static final int SCHEME_ID_FIELD_NUMBER = 12;
+    public static final int SCHEME_ID_FIELD_NUMBER = 2;
     private int schemeId_;
     /**
      * <code>uint32 scheme_id = 12;</code>
@@ -241,7 +241,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
       return schemeId_;
     }
 
-    public static final int FIREWORKS_ID_LIST_FIELD_NUMBER = 3;
+    public static final int FIREWORKS_ID_LIST_FIELD_NUMBER = 11;
     private com.google.protobuf.Internal.IntList fireworksIdList_;
     /**
      * <code>repeated uint32 fireworks_id_list = 3;</code>
@@ -285,14 +285,14 @@ public final class FireworksLaunchSchemeDataOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getFireworksIdListList().size() > 0) {
-        output.writeUInt32NoTag(26);
+        output.writeUInt32NoTag(90);
         output.writeUInt32NoTag(fireworksIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < fireworksIdList_.size(); i++) {
         output.writeUInt32NoTag(fireworksIdList_.getInt(i));
       }
       if (schemeId_ != 0) {
-        output.writeUInt32(12, schemeId_);
+        output.writeUInt32(2, schemeId_);
       }
       for (int i = 0; i < launchParamList_.size(); i++) {
         output.writeMessage(14, launchParamList_.get(i));
@@ -322,7 +322,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
       }
       if (schemeId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, schemeId_);
+          .computeUInt32Size(2, schemeId_);
       }
       for (int i = 0; i < launchParamList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream

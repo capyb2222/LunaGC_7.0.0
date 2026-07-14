@@ -94,7 +94,7 @@ public final class GetPlayerFriendListRspOuterClass {
             case 0:
               done = true;
               break;
-            case 18: {
+            case 26: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 friendList_ = new java.util.ArrayList<emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief>();
                 mutable_bitField0_ |= 0x00000002;
@@ -103,7 +103,7 @@ public final class GetPlayerFriendListRspOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief.parser(), extensionRegistry));
               break;
             }
-            case 122: {
+            case 106: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 askFriendList_ = new java.util.ArrayList<emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief>();
                 mutable_bitField0_ |= 0x00000001;
@@ -155,7 +155,7 @@ public final class GetPlayerFriendListRspOuterClass {
               emu.grasscutter.net.proto.GetPlayerFriendListRspOuterClass.GetPlayerFriendListRsp.class, emu.grasscutter.net.proto.GetPlayerFriendListRspOuterClass.GetPlayerFriendListRsp.Builder.class);
     }
 
-    public static final int ASK_FRIEND_LIST_FIELD_NUMBER = 15;
+    public static final int ASK_FRIEND_LIST_FIELD_NUMBER = 13;
     private java.util.List<emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief> askFriendList_;
 
     @java.lang.Override
@@ -185,7 +185,7 @@ public final class GetPlayerFriendListRspOuterClass {
       return askFriendList_.get(index);
     }
 
-    public static final int FRIEND_LIST_FIELD_NUMBER = 2;
+    public static final int FRIEND_LIST_FIELD_NUMBER = 3;
     private java.util.List<emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief> friendList_;
 
     @java.lang.Override
@@ -238,10 +238,10 @@ public final class GetPlayerFriendListRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < friendList_.size(); i++) {
-        output.writeMessage(2, friendList_.get(i));
+        output.writeMessage(3, friendList_.get(i));
       }
       for (int i = 0; i < askFriendList_.size(); i++) {
-        output.writeMessage(15, askFriendList_.get(i));
+        output.writeMessage(13, askFriendList_.get(i));
       }
       if (retcode_ != 0) {
         output.writeInt32(10, retcode_);
@@ -257,11 +257,11 @@ public final class GetPlayerFriendListRspOuterClass {
       size = 0;
       for (int i = 0; i < friendList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, friendList_.get(i));
+          .computeMessageSize(3, friendList_.get(i));
       }
       for (int i = 0; i < askFriendList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, askFriendList_.get(i));
+          .computeMessageSize(13, askFriendList_.get(i));
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream

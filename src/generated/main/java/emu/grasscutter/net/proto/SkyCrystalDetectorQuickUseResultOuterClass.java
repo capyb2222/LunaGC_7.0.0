@@ -71,12 +71,12 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
             case 0:
               done = true;
               break;
-            case 88: {
+            case 8: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 98: {
+            case 90: {
               emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorData.Builder subBuilder = null;
               if (skyCrystalDetectorData_ != null) {
                 subBuilder = skyCrystalDetectorData_.toBuilder();
@@ -121,7 +121,7 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
               emu.grasscutter.net.proto.SkyCrystalDetectorQuickUseResultOuterClass.SkyCrystalDetectorQuickUseResult.class, emu.grasscutter.net.proto.SkyCrystalDetectorQuickUseResultOuterClass.SkyCrystalDetectorQuickUseResult.Builder.class);
     }
 
-    public static final int SKY_CRYSTAL_DETECTOR_DATA_FIELD_NUMBER = 3;
+    public static final int SKY_CRYSTAL_DETECTOR_DATA_FIELD_NUMBER = 11;
     private emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorData skyCrystalDetectorData_;
 
     @java.lang.Override
@@ -139,7 +139,7 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
       return getSkyCrystalDetectorData();
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 2;
+    public static final int RETCODE_FIELD_NUMBER = 1;
     private int retcode_;
 
     @java.lang.Override
@@ -162,10 +162,10 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(2, retcode_);
+        output.writeInt32(1, retcode_);
       }
       if (skyCrystalDetectorData_ != null) {
-        output.writeMessage(12, getSkyCrystalDetectorData());
+        output.writeMessage(11, getSkyCrystalDetectorData());
       }
       unknownFields.writeTo(output);
     }
@@ -178,11 +178,11 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(2, retcode_);
+          .computeInt32Size(1, retcode_);
       }
       if (skyCrystalDetectorData_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, getSkyCrystalDetectorData());
+          .computeMessageSize(11, getSkyCrystalDetectorData());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

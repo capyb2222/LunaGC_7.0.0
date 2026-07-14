@@ -135,7 +135,7 @@ public final class HomeBlockFieldDataOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 96: {
 
               furnitureId_ = input.readUInt32();
               break;
@@ -153,7 +153,7 @@ public final class HomeBlockFieldDataOuterClass {
 
               break;
             }
-            case 82: {
+            case 42: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 subFieldList_ = new java.util.ArrayList<emu.grasscutter.net.proto.HomeBlockSubFieldDataOuterClass.HomeBlockSubFieldData>();
                 mutable_bitField0_ |= 0x00000001;
@@ -162,12 +162,12 @@ public final class HomeBlockFieldDataOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.HomeBlockSubFieldDataOuterClass.HomeBlockSubFieldData.parser(), extensionRegistry));
               break;
             }
-            case 104: {
+            case 16: {
 
               guid_ = input.readUInt32();
               break;
             }
-            case 122: {
+            case 90: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (pos_ != null) {
                 subBuilder = pos_.toBuilder();
@@ -215,7 +215,7 @@ public final class HomeBlockFieldDataOuterClass {
               emu.grasscutter.net.proto.HomeBlockFieldDataOuterClass.HomeBlockFieldData.class, emu.grasscutter.net.proto.HomeBlockFieldDataOuterClass.HomeBlockFieldData.Builder.class);
     }
 
-    public static final int SUB_FIELD_LIST_FIELD_NUMBER = 2;
+    public static final int SUB_FIELD_LIST_FIELD_NUMBER = 5;
     private java.util.List<emu.grasscutter.net.proto.HomeBlockSubFieldDataOuterClass.HomeBlockSubFieldData> subFieldList_;
     /**
      * <code>repeated .HomeBlockSubFieldData sub_field_list = 10;</code>
@@ -255,7 +255,7 @@ public final class HomeBlockFieldDataOuterClass {
       return subFieldList_.get(index);
     }
 
-    public static final int FURNITURE_ID_FIELD_NUMBER = 3;
+    public static final int FURNITURE_ID_FIELD_NUMBER = 12;
     private int furnitureId_;
     /**
      * <code>uint32 furniture_id = 1;</code>
@@ -266,7 +266,7 @@ public final class HomeBlockFieldDataOuterClass {
       return furnitureId_;
     }
 
-    public static final int ROT_FIELD_NUMBER = 6;
+    public static final int ROT_FIELD_NUMBER = 8;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector rot_;
     /**
      * <code>.Vector rot = 8;</code>
@@ -292,7 +292,7 @@ public final class HomeBlockFieldDataOuterClass {
       return getRot();
     }
 
-    public static final int POS_FIELD_NUMBER = 7;
+    public static final int POS_FIELD_NUMBER = 11;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
     /**
      * <code>.Vector pos = 15;</code>
@@ -318,7 +318,7 @@ public final class HomeBlockFieldDataOuterClass {
       return getPos();
     }
 
-    public static final int GUID_FIELD_NUMBER = 13;
+    public static final int GUID_FIELD_NUMBER = 2;
     private int guid_;
     /**
      * <code>uint32 guid = 13;</code>
@@ -344,19 +344,19 @@ public final class HomeBlockFieldDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (furnitureId_ != 0) {
-        output.writeUInt32(3, furnitureId_);
+        output.writeUInt32(12, furnitureId_);
       }
       if (rot_ != null) {
         output.writeMessage(8, getRot());
       }
       for (int i = 0; i < subFieldList_.size(); i++) {
-        output.writeMessage(2, subFieldList_.get(i));
+        output.writeMessage(5, subFieldList_.get(i));
       }
       if (guid_ != 0) {
-        output.writeUInt32(13, guid_);
+        output.writeUInt32(2, guid_);
       }
       if (pos_ != null) {
-        output.writeMessage(15, getPos());
+        output.writeMessage(11, getPos());
       }
       unknownFields.writeTo(output);
     }
@@ -369,7 +369,7 @@ public final class HomeBlockFieldDataOuterClass {
       size = 0;
       if (furnitureId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, furnitureId_);
+          .computeUInt32Size(12, furnitureId_);
       }
       if (rot_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -377,15 +377,15 @@ public final class HomeBlockFieldDataOuterClass {
       }
       for (int i = 0; i < subFieldList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, subFieldList_.get(i));
+          .computeMessageSize(5, subFieldList_.get(i));
       }
       if (guid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, guid_);
+          .computeUInt32Size(2, guid_);
       }
       if (pos_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, getPos());
+          .computeMessageSize(11, getPos());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

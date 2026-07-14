@@ -79,12 +79,12 @@ public final class SetPlayerHeadImageRspOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
+            case 88: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 98: {
+            case 34: {
               emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder subBuilder = null;
               if (profilePicture_ != null) {
                 subBuilder = profilePicture_.toBuilder();
@@ -129,7 +129,7 @@ public final class SetPlayerHeadImageRspOuterClass {
               emu.grasscutter.net.proto.SetPlayerHeadImageRspOuterClass.SetPlayerHeadImageRsp.class, emu.grasscutter.net.proto.SetPlayerHeadImageRspOuterClass.SetPlayerHeadImageRsp.Builder.class);
     }
 
-    public static final int PROFILE_PICTURE_FIELD_NUMBER = 12;
+    public static final int PROFILE_PICTURE_FIELD_NUMBER = 4;
     private emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture profilePicture_;
 
     @java.lang.Override
@@ -147,7 +147,7 @@ public final class SetPlayerHeadImageRspOuterClass {
       return getProfilePicture();
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 7;
+    public static final int RETCODE_FIELD_NUMBER = 11;
     private int retcode_;
     /**
      * <code>int32 retcode = 7;</code>
@@ -173,10 +173,10 @@ public final class SetPlayerHeadImageRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(7, retcode_);
+        output.writeInt32(11, retcode_);
       }
       if (profilePicture_ != null) {
-        output.writeMessage(12, getProfilePicture());
+        output.writeMessage(4, getProfilePicture());
       }
       unknownFields.writeTo(output);
     }
@@ -189,11 +189,11 @@ public final class SetPlayerHeadImageRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(7, retcode_);
+          .computeInt32Size(11, retcode_);
       }
       if (profilePicture_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, getProfilePicture());
+          .computeMessageSize(4, getProfilePicture());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

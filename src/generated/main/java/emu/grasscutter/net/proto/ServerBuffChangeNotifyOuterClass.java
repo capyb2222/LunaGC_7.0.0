@@ -148,12 +148,12 @@ public final class ServerBuffChangeNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
+            case 8: {
 
               isCreatureBuff_ = input.readBool();
               break;
             }
-            case 64: {
+            case 104: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 avatarGuidList_ = newLongList();
                 mutable_bitField0_ |= 0x00000002;
@@ -161,7 +161,7 @@ public final class ServerBuffChangeNotifyOuterClass {
               avatarGuidList_.addLong(input.readUInt64());
               break;
             }
-            case 66: {
+            case 106: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -174,13 +174,13 @@ public final class ServerBuffChangeNotifyOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 88: {
+            case 56: {
               int rawValue = input.readEnum();
 
               serverBuffChangeType_ = rawValue;
               break;
             }
-            case 112: {
+            case 80: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 entityIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000004;
@@ -188,7 +188,7 @@ public final class ServerBuffChangeNotifyOuterClass {
               entityIdList_.addInt(input.readUInt32());
               break;
             }
-            case 114: {
+            case 82: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
@@ -201,7 +201,7 @@ public final class ServerBuffChangeNotifyOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 122: {
+            case 26: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 serverBuffList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff>();
                 mutable_bitField0_ |= 0x00000001;
@@ -363,7 +363,7 @@ public final class ServerBuffChangeNotifyOuterClass {
       // @@protoc_insertion_point(enum_scope:ServerBuffChangeNotify.ServerBuffChangeType)
     }
 
-    public static final int SERVER_BUFF_LIST_FIELD_NUMBER = 15;
+    public static final int SERVER_BUFF_LIST_FIELD_NUMBER = 3;
     private java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff> serverBuffList_;
     /**
      * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -403,7 +403,7 @@ public final class ServerBuffChangeNotifyOuterClass {
       return serverBuffList_.get(index);
     }
 
-    public static final int AVATAR_GUID_LIST_FIELD_NUMBER = 8;
+    public static final int AVATAR_GUID_LIST_FIELD_NUMBER = 13;
     private com.google.protobuf.Internal.LongList avatarGuidList_;
     /**
      * <code>repeated uint64 avatar_guid_list = 8;</code>
@@ -431,7 +431,7 @@ public final class ServerBuffChangeNotifyOuterClass {
     }
     private int avatarGuidListMemoizedSerializedSize = -1;
 
-    public static final int SERVER_BUFF_CHANGE_TYPE_FIELD_NUMBER = 13;
+    public static final int SERVER_BUFF_CHANGE_TYPE_FIELD_NUMBER = 7;
     private int serverBuffChangeType_;
     /**
      * <code>.ServerBuffChangeNotify.ServerBuffChangeType server_buff_change_type = 11;</code>
@@ -450,7 +450,7 @@ public final class ServerBuffChangeNotifyOuterClass {
       return result == null ? emu.grasscutter.net.proto.ServerBuffChangeNotifyOuterClass.ServerBuffChangeNotify.ServerBuffChangeType.UNRECOGNIZED : result;
     }
 
-    public static final int ENTITY_ID_LIST_FIELD_NUMBER = 2;
+    public static final int ENTITY_ID_LIST_FIELD_NUMBER = 10;
     private com.google.protobuf.Internal.IntList entityIdList_;
     /**
      * <code>repeated uint32 entity_id_list = 14;</code>
@@ -508,24 +508,24 @@ public final class ServerBuffChangeNotifyOuterClass {
         output.writeBool(1, isCreatureBuff_);
       }
       if (getAvatarGuidListList().size() > 0) {
-        output.writeUInt32NoTag(66);
+        output.writeUInt32NoTag(106);
         output.writeUInt32NoTag(avatarGuidListMemoizedSerializedSize);
       }
       for (int i = 0; i < avatarGuidList_.size(); i++) {
         output.writeUInt64NoTag(avatarGuidList_.getLong(i));
       }
       if (serverBuffChangeType_ != emu.grasscutter.net.proto.ServerBuffChangeNotifyOuterClass.ServerBuffChangeNotify.ServerBuffChangeType.SERVER_BUFF_CHANGE_TYPE_ADD_SERVER_BUFF.getNumber()) {
-        output.writeEnum(13, serverBuffChangeType_);
+        output.writeEnum(7, serverBuffChangeType_);
       }
       if (getEntityIdListList().size() > 0) {
-        output.writeUInt32NoTag(114);
+        output.writeUInt32NoTag(82);
         output.writeUInt32NoTag(entityIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < entityIdList_.size(); i++) {
         output.writeUInt32NoTag(entityIdList_.getInt(i));
       }
       for (int i = 0; i < serverBuffList_.size(); i++) {
-        output.writeMessage(15, serverBuffList_.get(i));
+        output.writeMessage(3, serverBuffList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -556,7 +556,7 @@ public final class ServerBuffChangeNotifyOuterClass {
       }
       if (serverBuffChangeType_ != emu.grasscutter.net.proto.ServerBuffChangeNotifyOuterClass.ServerBuffChangeNotify.ServerBuffChangeType.SERVER_BUFF_CHANGE_TYPE_ADD_SERVER_BUFF.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(13, serverBuffChangeType_);
+          .computeEnumSize(7, serverBuffChangeType_);
       }
       {
         int dataSize = 0;
@@ -574,7 +574,7 @@ public final class ServerBuffChangeNotifyOuterClass {
       }
       for (int i = 0; i < serverBuffList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, serverBuffList_.get(i));
+          .computeMessageSize(3, serverBuffList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

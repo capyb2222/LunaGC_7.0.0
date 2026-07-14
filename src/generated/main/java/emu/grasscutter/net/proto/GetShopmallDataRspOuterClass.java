@@ -77,12 +77,12 @@ public final class GetShopmallDataRspOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 32: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 104: {
+            case 56: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 shopTypeList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -90,7 +90,7 @@ public final class GetShopmallDataRspOuterClass {
               shopTypeList_.addInt(input.readUInt32());
               break;
             }
-            case 106: {
+            case 58: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -138,7 +138,7 @@ public final class GetShopmallDataRspOuterClass {
               emu.grasscutter.net.proto.GetShopmallDataRspOuterClass.GetShopmallDataRsp.class, emu.grasscutter.net.proto.GetShopmallDataRspOuterClass.GetShopmallDataRsp.Builder.class);
     }
 
-    public static final int SHOP_TYPE_LIST_FIELD_NUMBER = 13;
+    public static final int SHOP_TYPE_LIST_FIELD_NUMBER = 7;
     private com.google.protobuf.Internal.IntList shopTypeList_;
 
     @java.lang.Override
@@ -156,7 +156,7 @@ public final class GetShopmallDataRspOuterClass {
     }
     private int shopTypeListMemoizedSerializedSize = -1;
 
-    public static final int RETCODE_FIELD_NUMBER = 6;
+    public static final int RETCODE_FIELD_NUMBER = 4;
     private int retcode_;
 
     @java.lang.Override
@@ -180,10 +180,10 @@ public final class GetShopmallDataRspOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (retcode_ != 0) {
-        output.writeInt32(6, retcode_);
+        output.writeInt32(4, retcode_);
       }
       if (getShopTypeListList().size() > 0) {
-        output.writeUInt32NoTag(106);
+        output.writeUInt32NoTag(58);
         output.writeUInt32NoTag(shopTypeListMemoizedSerializedSize);
       }
       for (int i = 0; i < shopTypeList_.size(); i++) {
@@ -200,7 +200,7 @@ public final class GetShopmallDataRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(6, retcode_);
+          .computeInt32Size(4, retcode_);
       }
       {
         int dataSize = 0;

@@ -103,12 +103,12 @@ public final class AranaraCollectionSuiteOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
+            case 96: {
 
               collectionType_ = input.readUInt32();
               break;
             }
-            case 82: {
+            case 90: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 collectionIdStateMap_ = com.google.protobuf.MapField.newMapField(
                     CollectionIdStateMapDefaultEntryHolder.defaultEntry);
@@ -165,7 +165,7 @@ public final class AranaraCollectionSuiteOuterClass {
               emu.grasscutter.net.proto.AranaraCollectionSuiteOuterClass.AranaraCollectionSuite.class, emu.grasscutter.net.proto.AranaraCollectionSuiteOuterClass.AranaraCollectionSuite.Builder.class);
     }
 
-    public static final int COLLECTION_ID_STATE_MAP_FIELD_NUMBER = 10;
+    public static final int COLLECTION_ID_STATE_MAP_FIELD_NUMBER = 11;
     private static final class CollectionIdStateMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Integer> defaultEntry =
@@ -294,7 +294,7 @@ public final class AranaraCollectionSuiteOuterClass {
       return map.get(key);
     }
 
-    public static final int COLLECTION_TYPE_FIELD_NUMBER = 7;
+    public static final int COLLECTION_TYPE_FIELD_NUMBER = 12;
     private int collectionType_;
 
     @java.lang.Override
@@ -317,14 +317,14 @@ public final class AranaraCollectionSuiteOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (collectionType_ != 0) {
-        output.writeUInt32(7, collectionType_);
+        output.writeUInt32(12, collectionType_);
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
           internalGetCollectionIdStateMap(),
           CollectionIdStateMapDefaultEntryHolder.defaultEntry,
-          10);
+          11);
       unknownFields.writeTo(output);
     }
 
@@ -336,7 +336,7 @@ public final class AranaraCollectionSuiteOuterClass {
       size = 0;
       if (collectionType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, collectionType_);
+          .computeUInt32Size(12, collectionType_);
       }
       for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
            : internalGetCollectionIdStateMap().getMap().entrySet()) {
@@ -346,7 +346,7 @@ public final class AranaraCollectionSuiteOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10, collectionIdStateMap__);
+            .computeMessageSize(11, collectionIdStateMap__);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

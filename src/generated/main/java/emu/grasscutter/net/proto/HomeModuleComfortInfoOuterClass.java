@@ -98,12 +98,12 @@ public final class HomeModuleComfortInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 96: {
 
               roomSceneComfortValue_ = input.readUInt32();
               break;
             }
-            case 24: {
+            case 88: {
 
               moduleId_ = input.readUInt32();
               break;
@@ -164,7 +164,7 @@ public final class HomeModuleComfortInfoOuterClass {
               emu.grasscutter.net.proto.HomeModuleComfortInfoOuterClass.HomeModuleComfortInfo.class, emu.grasscutter.net.proto.HomeModuleComfortInfoOuterClass.HomeModuleComfortInfo.Builder.class);
     }
 
-    public static final int ROOM_SCENE_COMFORT_VALUE_FIELD_NUMBER = 2;
+    public static final int ROOM_SCENE_COMFORT_VALUE_FIELD_NUMBER = 12;
     private int roomSceneComfortValue_;
     /**
      * <code>uint32 room_scene_comfort_value = 2;</code>
@@ -203,7 +203,7 @@ public final class HomeModuleComfortInfoOuterClass {
     }
     private int worldSceneBlockComfortValueListMemoizedSerializedSize = -1;
 
-    public static final int MODULE_ID_FIELD_NUMBER = 3;
+    public static final int MODULE_ID_FIELD_NUMBER = 11;
     private int moduleId_;
     /**
      * <code>uint32 module_id = 3;</code>
@@ -230,10 +230,10 @@ public final class HomeModuleComfortInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (roomSceneComfortValue_ != 0) {
-        output.writeUInt32(2, roomSceneComfortValue_);
+        output.writeUInt32(12, roomSceneComfortValue_);
       }
       if (moduleId_ != 0) {
-        output.writeUInt32(3, moduleId_);
+        output.writeUInt32(11, moduleId_);
       }
       if (getWorldSceneBlockComfortValueListList().size() > 0) {
         output.writeUInt32NoTag(82);
@@ -253,11 +253,11 @@ public final class HomeModuleComfortInfoOuterClass {
       size = 0;
       if (roomSceneComfortValue_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, roomSceneComfortValue_);
+          .computeUInt32Size(12, roomSceneComfortValue_);
       }
       if (moduleId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, moduleId_);
+          .computeUInt32Size(11, moduleId_);
       }
       {
         int dataSize = 0;

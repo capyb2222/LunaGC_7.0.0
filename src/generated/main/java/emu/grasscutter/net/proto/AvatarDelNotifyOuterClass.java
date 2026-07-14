@@ -87,7 +87,7 @@ public final class AvatarDelNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 96: {
+            case 24: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 avatarGuidList_ = newLongList();
                 mutable_bitField0_ |= 0x00000001;
@@ -95,7 +95,7 @@ public final class AvatarDelNotifyOuterClass {
               avatarGuidList_.addLong(input.readUInt64());
               break;
             }
-            case 98: {
+            case 26: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -143,7 +143,7 @@ public final class AvatarDelNotifyOuterClass {
               emu.grasscutter.net.proto.AvatarDelNotifyOuterClass.AvatarDelNotify.class, emu.grasscutter.net.proto.AvatarDelNotifyOuterClass.AvatarDelNotify.Builder.class);
     }
 
-    public static final int AVATAR_GUID_LIST_FIELD_NUMBER = 12;
+    public static final int AVATAR_GUID_LIST_FIELD_NUMBER = 3;
     private com.google.protobuf.Internal.LongList avatarGuidList_;
     /**
      * <code>repeated uint64 avatar_guid_list = 7;</code>
@@ -187,7 +187,7 @@ public final class AvatarDelNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getAvatarGuidListList().size() > 0) {
-        output.writeUInt32NoTag(98);
+        output.writeUInt32NoTag(26);
         output.writeUInt32NoTag(avatarGuidListMemoizedSerializedSize);
       }
       for (int i = 0; i < avatarGuidList_.size(); i++) {

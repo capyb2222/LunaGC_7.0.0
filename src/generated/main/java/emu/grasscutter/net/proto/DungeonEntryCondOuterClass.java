@@ -85,7 +85,7 @@ public final class DungeonEntryCondOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 64: {
               int rawValue = input.readEnum();
 
               condReason_ = rawValue;
@@ -128,7 +128,7 @@ public final class DungeonEntryCondOuterClass {
               emu.grasscutter.net.proto.DungeonEntryCondOuterClass.DungeonEntryCond.class, emu.grasscutter.net.proto.DungeonEntryCondOuterClass.DungeonEntryCond.Builder.class);
     }
 
-    public static final int COND_REASON_FIELD_NUMBER = 4;
+    public static final int COND_REASON_FIELD_NUMBER = 8;
     private int condReason_;
     /**
      * <code>.DungeonEntryBlockReason cond_reason = 4;</code>
@@ -173,7 +173,7 @@ public final class DungeonEntryCondOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (condReason_ != emu.grasscutter.net.proto.DungeonEntryBlockReasonOuterClass.DungeonEntryBlockReason.DUNGEON_ENTRY_REASON_NONE.getNumber()) {
-        output.writeEnum(4, condReason_);
+        output.writeEnum(8, condReason_);
       }
       if (param1_ != 0) {
         output.writeUInt32(12, param1_);
@@ -189,7 +189,7 @@ public final class DungeonEntryCondOuterClass {
       size = 0;
       if (condReason_ != emu.grasscutter.net.proto.DungeonEntryBlockReasonOuterClass.DungeonEntryBlockReason.DUNGEON_ENTRY_REASON_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(4, condReason_);
+          .computeEnumSize(8, condReason_);
       }
       if (param1_ != 0) {
         size += com.google.protobuf.CodedOutputStream

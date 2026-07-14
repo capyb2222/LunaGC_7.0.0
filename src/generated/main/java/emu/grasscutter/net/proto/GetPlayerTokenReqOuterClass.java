@@ -220,57 +220,57 @@ public final class GetPlayerTokenReqOuterClass {
             case 0:
               done = true;
               break;
-            case 122: {
+            case 18: {
               java.lang.String s = input.readStringRequireUtf8();
 
               accountUid_ = s;
               break;
             }
-            case 66: {
+            case 114: {
               java.lang.String s = input.readStringRequireUtf8();
 
               onlineId_ = s;
               break;
             }
-            case 74: {
+            case 106: {
               java.lang.String s = input.readStringRequireUtf8();
 
               psnId_ = s;
               break;
             }
-            case 90: {
+            case 50: {
               java.lang.String s = input.readStringRequireUtf8();
 
               countryCode_ = s;
               break;
             }
-            case 104: {
+            case 40: {
 
               platformType_ = input.readUInt32();
               break;
             }
-            case 24: {
+            case 120: {
 
               channelId_ = input.readUInt32();
               break;
             }
-            case 114: {
+            case 26: {
               java.lang.String s = input.readStringRequireUtf8();
 
               accountToken_ = s;
               break;
             }
-            case 96: {
+            case 88: {
 
               isGuest_ = input.readBool();
               break;
             }
-            case 32: {
+            case 56: {
 
               uid_ = input.readUInt32();
               break;
             }
-            case 42: {
+            case 98: {
               java.lang.String s = input.readStringRequireUtf8();
 
               clientIpStr_ = s;
@@ -286,7 +286,7 @@ public final class GetPlayerTokenReqOuterClass {
               mBNBPHEOAKC_ = input.readUInt32();
               break;
             }
-            case 1098: {
+            case 11562: {
               java.lang.String s = input.readStringRequireUtf8();
 
               birthday_ = s;
@@ -304,7 +304,7 @@ public final class GetPlayerTokenReqOuterClass {
               dDBGGGCJKDF_ = s;
               break;
             }
-            case 360: {
+            case 328: {
 
               keyId_ = input.readUInt32();
               break;
@@ -342,7 +342,7 @@ public final class GetPlayerTokenReqOuterClass {
               jMFFNLENHKG_ = s;
               break;
             }
-            case 2762: {
+            case 11802: {
               java.lang.String s = input.readStringRequireUtf8();
 
               clientRandKey_ = s;
@@ -380,7 +380,7 @@ public final class GetPlayerTokenReqOuterClass {
               emu.grasscutter.net.proto.GetPlayerTokenReqOuterClass.GetPlayerTokenReq.class, emu.grasscutter.net.proto.GetPlayerTokenReqOuterClass.GetPlayerTokenReq.Builder.class);
     }
 
-    public static final int BIRTHDAY_FIELD_NUMBER = 646;
+    public static final int BIRTHDAY_FIELD_NUMBER = 1445;
     private volatile java.lang.Object birthday_;
 
     @java.lang.Override
@@ -412,7 +412,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
     }
 
-    public static final int ACCOUNT_UID_FIELD_NUMBER = 15;
+    public static final int ACCOUNT_UID_FIELD_NUMBER = 2;
     private volatile java.lang.Object accountUid_;
 
     @java.lang.Override
@@ -482,7 +482,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
     }
 
-    public static final int ACCOUNT_TOKEN_FIELD_NUMBER = 14;
+    public static final int ACCOUNT_TOKEN_FIELD_NUMBER = 3;
     private volatile java.lang.Object accountToken_;
 
     @java.lang.Override
@@ -514,7 +514,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
     }
 
-    public static final int ONLINE_ID_FIELD_NUMBER = 8;
+    public static final int ONLINE_ID_FIELD_NUMBER = 14;
     private volatile java.lang.Object onlineId_;
 
     @java.lang.Override
@@ -584,7 +584,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
     }
 
-    public static final int PSN_ID_FIELD_NUMBER = 5;
+    public static final int PSN_ID_FIELD_NUMBER = 13;
     private volatile java.lang.Object psnId_;
 
     @java.lang.Override
@@ -616,7 +616,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
     }
 
-    public static final int CLIENT_RAND_KEY_FIELD_NUMBER = 345;
+    public static final int CLIENT_RAND_KEY_FIELD_NUMBER = 1475;
     private volatile java.lang.Object clientRandKey_;
 
     @java.lang.Override
@@ -724,7 +724,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
     }
 
-    public static final int COUNTRY_CODE_FIELD_NUMBER = 410;
+    public static final int COUNTRY_CODE_FIELD_NUMBER = 6;
     private volatile java.lang.Object countryCode_;
 
     @java.lang.Override
@@ -794,7 +794,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
     }
 
-    public static final int CLIENT_IP_STR_FIELD_NUMBER = 13;
+    public static final int CLIENT_IP_STR_FIELD_NUMBER = 12;
     private volatile java.lang.Object clientIpStr_;
 
     @java.lang.Override
@@ -826,7 +826,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
     }
 
-    public static final int CHANNEL_ID_FIELD_NUMBER = 1605;
+    public static final int CHANNEL_ID_FIELD_NUMBER = 15;
     private int channelId_;
 
     @java.lang.Override
@@ -834,7 +834,7 @@ public final class GetPlayerTokenReqOuterClass {
       return channelId_;
     }
 
-    public static final int IS_GUEST_FIELD_NUMBER = 12;
+    public static final int IS_GUEST_FIELD_NUMBER = 11;
     private boolean isGuest_;
 
     @java.lang.Override
@@ -842,7 +842,7 @@ public final class GetPlayerTokenReqOuterClass {
       return isGuest_;
     }
 
-    public static final int KEY_ID_FIELD_NUMBER = 45;
+    public static final int KEY_ID_FIELD_NUMBER = 41;
     private int keyId_;
 
     @java.lang.Override
@@ -883,7 +883,7 @@ public final class GetPlayerTokenReqOuterClass {
       return mNJMONIDKBF_;
     }
 
-    public static final int PLATFORM_TYPE_FIELD_NUMBER = 13;
+    public static final int PLATFORM_TYPE_FIELD_NUMBER = 5;
     private int platformType_;
 
     @java.lang.Override
@@ -891,7 +891,7 @@ public final class GetPlayerTokenReqOuterClass {
       return platformType_;
     }
 
-    public static final int UID_FIELD_NUMBER = 4;
+    public static final int UID_FIELD_NUMBER = 7;
     private int uid_;
 
     @java.lang.Override
@@ -936,34 +936,34 @@ public final class GetPlayerTokenReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(onlineId_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 3, onlineId_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 14, onlineId_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(psnId_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 5, psnId_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 13, psnId_);
       }
       if (platformType_ != 0) {
-        output.writeUInt32(13, platformType_);
+        output.writeUInt32(5, platformType_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(accountToken_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 14, accountToken_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 3, accountToken_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(accountUid_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 15, accountUid_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 2, accountUid_);
       }
       if (isGuest_ != false) {
-        output.writeBool(12, isGuest_);
+        output.writeBool(11, isGuest_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(countryCode_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 410, countryCode_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 6, countryCode_);
       }
       if (channelId_ != 0) {
-        output.writeUInt32(1605, channelId_);
+        output.writeUInt32(15, channelId_);
       }
       if (uid_ != 0) {
-        output.writeUInt32(4, uid_);
+        output.writeUInt32(7, uid_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientIpStr_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 13, clientIpStr_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 12, clientIpStr_);
       }
       if (bPLIJHLODFK_ != 0) {
         output.writeUInt32(16, bPLIJHLODFK_);
@@ -972,7 +972,7 @@ public final class GetPlayerTokenReqOuterClass {
         output.writeUInt32(570, mBNBPHEOAKC_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(birthday_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 646, birthday_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 1445, birthday_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(mGEJGMCKAEL_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 688, mGEJGMCKAEL_);
@@ -981,7 +981,7 @@ public final class GetPlayerTokenReqOuterClass {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 790, dDBGGGCJKDF_);
       }
       if (keyId_ != 0) {
-        output.writeUInt32(45, keyId_);
+        output.writeUInt32(41, keyId_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(fLEFHGMJIAF_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 1261, fLEFHGMJIAF_);
@@ -1002,7 +1002,7 @@ public final class GetPlayerTokenReqOuterClass {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 1806, jMFFNLENHKG_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientRandKey_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 345, clientRandKey_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 1475, clientRandKey_);
       }
       unknownFields.writeTo(output);
     }
@@ -1014,38 +1014,38 @@ public final class GetPlayerTokenReqOuterClass {
 
       size = 0;
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(onlineId_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(8, onlineId_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(14, onlineId_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(psnId_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(5, psnId_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(13, psnId_);
       }
       if (platformType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, platformType_);
+          .computeUInt32Size(5, platformType_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(accountToken_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(14, accountToken_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(3, accountToken_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(accountUid_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(15, accountUid_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(2, accountUid_);
       }
       if (isGuest_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, isGuest_);
+          .computeBoolSize(11, isGuest_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(countryCode_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(410, countryCode_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(6, countryCode_);
       }
       if (channelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1605, channelId_);
+          .computeUInt32Size(15, channelId_);
       }
       if (uid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, uid_);
+          .computeUInt32Size(7, uid_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientIpStr_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(13, clientIpStr_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(12, clientIpStr_);
       }
       if (bPLIJHLODFK_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -1056,7 +1056,7 @@ public final class GetPlayerTokenReqOuterClass {
           .computeUInt32Size(570, mBNBPHEOAKC_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(birthday_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(646, birthday_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1445, birthday_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(mGEJGMCKAEL_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(688, mGEJGMCKAEL_);
@@ -1066,7 +1066,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       if (keyId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(45, keyId_);
+          .computeUInt32Size(41, keyId_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(fLEFHGMJIAF_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1261, fLEFHGMJIAF_);
@@ -1090,7 +1090,7 @@ public final class GetPlayerTokenReqOuterClass {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1806, jMFFNLENHKG_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientRandKey_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(345, clientRandKey_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1475, clientRandKey_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -90,12 +90,12 @@ public final class BrickBreakerActivityStageInfoOuterClass {
               mHDFOPDMOBC_ = input.readBool();
               break;
             }
-            case 80: {
+            case 120: {
 
               stageId_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 128000: {
 
               hIAOPLJIBNL_ = input.readBool();
               break;
@@ -132,7 +132,7 @@ public final class BrickBreakerActivityStageInfoOuterClass {
               emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfo.class, emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfo.Builder.class);
     }
 
-    public static final int HIAOPLJIBNL_FIELD_NUMBER = 15;
+    public static final int HIAOPLJIBNL_FIELD_NUMBER = 16000;
     private boolean hIAOPLJIBNL_;
     /**
      * <code>bool HIAOPLJIBNL = 15;</code>
@@ -154,7 +154,7 @@ public final class BrickBreakerActivityStageInfoOuterClass {
       return mHDFOPDMOBC_;
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 10;
+    public static final int STAGE_ID_FIELD_NUMBER = 15;
     private int stageId_;
     /**
      * <code>uint32 stage_id = 10;</code>
@@ -183,10 +183,10 @@ public final class BrickBreakerActivityStageInfoOuterClass {
         output.writeBool(6, mHDFOPDMOBC_);
       }
       if (stageId_ != 0) {
-        output.writeUInt32(10, stageId_);
+        output.writeUInt32(15, stageId_);
       }
       if (hIAOPLJIBNL_ != false) {
-        output.writeBool(15, hIAOPLJIBNL_);
+        output.writeBool(16000, hIAOPLJIBNL_);
       }
       unknownFields.writeTo(output);
     }
@@ -203,11 +203,11 @@ public final class BrickBreakerActivityStageInfoOuterClass {
       }
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, stageId_);
+          .computeUInt32Size(15, stageId_);
       }
       if (hIAOPLJIBNL_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, hIAOPLJIBNL_);
+          .computeBoolSize(16000, hIAOPLJIBNL_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

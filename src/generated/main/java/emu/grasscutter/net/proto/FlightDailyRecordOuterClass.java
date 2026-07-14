@@ -110,12 +110,12 @@ public final class FlightDailyRecordOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 40: {
 
               groupId_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 24: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 watcherIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -123,7 +123,7 @@ public final class FlightDailyRecordOuterClass {
               watcherIdList_.addInt(input.readUInt32());
               break;
             }
-            case 42: {
+            case 26: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -136,17 +136,17 @@ public final class FlightDailyRecordOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 48: {
+            case 16: {
 
               startTime_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 112: {
 
               bestScore_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 96: {
 
               isTouched_ = input.readBool();
               break;
@@ -186,7 +186,7 @@ public final class FlightDailyRecordOuterClass {
               emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord.class, emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord.Builder.class);
     }
 
-    public static final int IS_TOUCHED_FIELD_NUMBER = 13;
+    public static final int IS_TOUCHED_FIELD_NUMBER = 12;
     private boolean isTouched_;
     /**
      * <code>bool is_touched = 13;</code>
@@ -197,7 +197,7 @@ public final class FlightDailyRecordOuterClass {
       return isTouched_;
     }
 
-    public static final int WATCHER_ID_LIST_FIELD_NUMBER = 5;
+    public static final int WATCHER_ID_LIST_FIELD_NUMBER = 3;
     private com.google.protobuf.Internal.IntList watcherIdList_;
     /**
      * <code>repeated uint32 watcher_id_list = 5;</code>
@@ -225,7 +225,7 @@ public final class FlightDailyRecordOuterClass {
     }
     private int watcherIdListMemoizedSerializedSize = -1;
 
-    public static final int BEST_SCORE_FIELD_NUMBER = 12;
+    public static final int BEST_SCORE_FIELD_NUMBER = 14;
     private int bestScore_;
     /**
      * <code>uint32 best_score = 12;</code>
@@ -236,7 +236,7 @@ public final class FlightDailyRecordOuterClass {
       return bestScore_;
     }
 
-    public static final int START_TIME_FIELD_NUMBER = 6;
+    public static final int START_TIME_FIELD_NUMBER = 2;
     private int startTime_;
     /**
      * <code>uint32 start_time = 6;</code>
@@ -247,7 +247,7 @@ public final class FlightDailyRecordOuterClass {
       return startTime_;
     }
 
-    public static final int GROUP_ID_FIELD_NUMBER = 2;
+    public static final int GROUP_ID_FIELD_NUMBER = 5;
     private int groupId_;
     /**
      * <code>uint32 group_id = 2;</code>
@@ -274,23 +274,23 @@ public final class FlightDailyRecordOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (groupId_ != 0) {
-        output.writeUInt32(2, groupId_);
+        output.writeUInt32(5, groupId_);
       }
       if (getWatcherIdListList().size() > 0) {
-        output.writeUInt32NoTag(42);
+        output.writeUInt32NoTag(26);
         output.writeUInt32NoTag(watcherIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < watcherIdList_.size(); i++) {
         output.writeUInt32NoTag(watcherIdList_.getInt(i));
       }
       if (startTime_ != 0) {
-        output.writeUInt32(6, startTime_);
+        output.writeUInt32(2, startTime_);
       }
       if (bestScore_ != 0) {
-        output.writeUInt32(12, bestScore_);
+        output.writeUInt32(14, bestScore_);
       }
       if (isTouched_ != false) {
-        output.writeBool(13, isTouched_);
+        output.writeBool(12, isTouched_);
       }
       unknownFields.writeTo(output);
     }
@@ -303,7 +303,7 @@ public final class FlightDailyRecordOuterClass {
       size = 0;
       if (groupId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, groupId_);
+          .computeUInt32Size(5, groupId_);
       }
       {
         int dataSize = 0;
@@ -321,15 +321,15 @@ public final class FlightDailyRecordOuterClass {
       }
       if (startTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, startTime_);
+          .computeUInt32Size(2, startTime_);
       }
       if (bestScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, bestScore_);
+          .computeUInt32Size(14, bestScore_);
       }
       if (isTouched_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, isTouched_);
+          .computeBoolSize(12, isTouched_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

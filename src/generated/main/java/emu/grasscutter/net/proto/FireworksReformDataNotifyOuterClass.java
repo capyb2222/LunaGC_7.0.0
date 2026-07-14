@@ -94,7 +94,7 @@ public final class FireworksReformDataNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 34: {
+            case 18: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 fireworksReformDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.FireworksReformDataOuterClass.FireworksReformData>();
                 mutable_bitField0_ |= 0x00000001;
@@ -138,7 +138,7 @@ public final class FireworksReformDataNotifyOuterClass {
               emu.grasscutter.net.proto.FireworksReformDataNotifyOuterClass.FireworksReformDataNotify.class, emu.grasscutter.net.proto.FireworksReformDataNotifyOuterClass.FireworksReformDataNotify.Builder.class);
     }
 
-    public static final int FIREWORKS_REFORM_DATA_LIST_FIELD_NUMBER = 4;
+    public static final int FIREWORKS_REFORM_DATA_LIST_FIELD_NUMBER = 2;
     private java.util.List<emu.grasscutter.net.proto.FireworksReformDataOuterClass.FireworksReformData> fireworksReformDataList_;
     /**
      * <code>repeated .FireworksReformData fireworks_reform_data_list = 4;</code>
@@ -193,7 +193,7 @@ public final class FireworksReformDataNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < fireworksReformDataList_.size(); i++) {
-        output.writeMessage(4, fireworksReformDataList_.get(i));
+        output.writeMessage(2, fireworksReformDataList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -206,7 +206,7 @@ public final class FireworksReformDataNotifyOuterClass {
       size = 0;
       for (int i = 0; i < fireworksReformDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, fireworksReformDataList_.get(i));
+          .computeMessageSize(2, fireworksReformDataList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

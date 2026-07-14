@@ -78,12 +78,12 @@ public final class AvatarSkillUpgradeReqOuterClass {
               oldLevel_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 48: {
 
               avatarGuid_ = input.readUInt64();
               break;
             }
-            case 112: {
+            case 96: {
 
               avatarSkillId_ = input.readUInt32();
               break;
@@ -120,7 +120,7 @@ public final class AvatarSkillUpgradeReqOuterClass {
               emu.grasscutter.net.proto.AvatarSkillUpgradeReqOuterClass.AvatarSkillUpgradeReq.class, emu.grasscutter.net.proto.AvatarSkillUpgradeReqOuterClass.AvatarSkillUpgradeReq.Builder.class);
     }
 
-    public static final int AVATAR_SKILL_ID_FIELD_NUMBER = 14;
+    public static final int AVATAR_SKILL_ID_FIELD_NUMBER = 12;
     private int avatarSkillId_;
 
     @java.lang.Override
@@ -136,7 +136,7 @@ public final class AvatarSkillUpgradeReqOuterClass {
       return oldLevel_;
     }
 
-    public static final int AVATAR_GUID_FIELD_NUMBER = 10;
+    public static final int AVATAR_GUID_FIELD_NUMBER = 6;
     private long avatarGuid_;
 
     @java.lang.Override
@@ -159,13 +159,13 @@ public final class AvatarSkillUpgradeReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (avatarGuid_ != 0L) {
-        output.writeUInt64(8, avatarGuid_);
+        output.writeUInt64(6, avatarGuid_);
       }
       if (oldLevel_ != 0) {
-        output.writeUInt32(10, oldLevel_);
+        output.writeUInt32(8, oldLevel_);
       }
       if (avatarSkillId_ != 0) {
-        output.writeUInt32(14, avatarSkillId_);
+        output.writeUInt32(12, avatarSkillId_);
       }
       unknownFields.writeTo(output);
     }
@@ -178,15 +178,15 @@ public final class AvatarSkillUpgradeReqOuterClass {
       size = 0;
       if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(8, avatarGuid_);
+          .computeUInt64Size(6, avatarGuid_);
       }
       if (oldLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, oldLevel_);
+          .computeUInt32Size(8, oldLevel_);
       }
       if (avatarSkillId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, avatarSkillId_);
+          .computeUInt32Size(12, avatarSkillId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

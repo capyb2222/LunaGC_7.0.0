@@ -69,17 +69,17 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 48: {
 
               count_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 112: {
 
               isNew_ = input.readBool();
               break;
             }
-            case 72: {
+            case 96: {
 
               itemId_ = input.readUInt32();
               break;
@@ -116,7 +116,7 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
               emu.grasscutter.net.proto.AddNoGachaAvatarCardTransferItemOuterClass.AddNoGachaAvatarCardTransferItem.class, emu.grasscutter.net.proto.AddNoGachaAvatarCardTransferItemOuterClass.AddNoGachaAvatarCardTransferItem.Builder.class);
     }
 
-    public static final int IS_NEW_FIELD_NUMBER = 5;
+    public static final int IS_NEW_FIELD_NUMBER = 14;
     private boolean isNew_;
 
     @java.lang.Override
@@ -124,7 +124,7 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
       return isNew_;
     }
 
-    public static final int COUNT_FIELD_NUMBER = 2;
+    public static final int COUNT_FIELD_NUMBER = 6;
     private int count_;
 
     @java.lang.Override
@@ -132,7 +132,7 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
       return count_;
     }
 
-    public static final int ITEM_ID_FIELD_NUMBER = 9;
+    public static final int ITEM_ID_FIELD_NUMBER = 12;
     private int itemId_;
 
     @java.lang.Override
@@ -155,13 +155,13 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (count_ != 0) {
-        output.writeUInt32(2, count_);
+        output.writeUInt32(6, count_);
       }
       if (isNew_ != false) {
-        output.writeBool(5, isNew_);
+        output.writeBool(14, isNew_);
       }
       if (itemId_ != 0) {
-        output.writeUInt32(9, itemId_);
+        output.writeUInt32(12, itemId_);
       }
       unknownFields.writeTo(output);
     }
@@ -174,15 +174,15 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
       size = 0;
       if (count_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, count_);
+          .computeUInt32Size(6, count_);
       }
       if (isNew_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, isNew_);
+          .computeBoolSize(14, isNew_);
       }
       if (itemId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, itemId_);
+          .computeUInt32Size(12, itemId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

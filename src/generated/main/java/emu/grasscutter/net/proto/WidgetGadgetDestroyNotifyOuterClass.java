@@ -69,7 +69,7 @@ public final class WidgetGadgetDestroyNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 88: {
+            case 72: {
 
               entityId_ = input.readUInt32();
               break;
@@ -106,7 +106,7 @@ public final class WidgetGadgetDestroyNotifyOuterClass {
               emu.grasscutter.net.proto.WidgetGadgetDestroyNotifyOuterClass.WidgetGadgetDestroyNotify.class, emu.grasscutter.net.proto.WidgetGadgetDestroyNotifyOuterClass.WidgetGadgetDestroyNotify.Builder.class);
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 11;
+    public static final int ENTITY_ID_FIELD_NUMBER = 9;
     private int entityId_;
     /**
      * <code>uint32 entity_id = 11;</code>
@@ -132,7 +132,7 @@ public final class WidgetGadgetDestroyNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (entityId_ != 0) {
-        output.writeUInt32(11, entityId_);
+        output.writeUInt32(9, entityId_);
       }
       unknownFields.writeTo(output);
     }
@@ -145,7 +145,7 @@ public final class WidgetGadgetDestroyNotifyOuterClass {
       size = 0;
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, entityId_);
+          .computeUInt32Size(9, entityId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

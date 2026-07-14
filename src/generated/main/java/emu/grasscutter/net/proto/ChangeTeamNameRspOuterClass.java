@@ -93,18 +93,18 @@ public final class ChangeTeamNameRspOuterClass {
             case 0:
               done = true;
               break;
-            case 18: {
+            case 98: {
               java.lang.String s = input.readStringRequireUtf8();
 
               teamName_ = s;
               break;
             }
-            case 48: {
+            case 56: {
 
               teamId_ = input.readInt32();
               break;
             }
-            case 64: {
+            case 48: {
 
               retcode_ = input.readInt32();
               break;
@@ -141,7 +141,7 @@ public final class ChangeTeamNameRspOuterClass {
               emu.grasscutter.net.proto.ChangeTeamNameRspOuterClass.ChangeTeamNameRsp.class, emu.grasscutter.net.proto.ChangeTeamNameRspOuterClass.ChangeTeamNameRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 8;
+    public static final int RETCODE_FIELD_NUMBER = 6;
     private int retcode_;
     /**
      * <code>int32 retcode = 5;</code>
@@ -152,7 +152,7 @@ public final class ChangeTeamNameRspOuterClass {
       return retcode_;
     }
 
-    public static final int TEAM_ID_FIELD_NUMBER = 6;
+    public static final int TEAM_ID_FIELD_NUMBER = 7;
     private int teamId_;
     /**
      * <code>int32 team_id = 12;</code>
@@ -163,7 +163,7 @@ public final class ChangeTeamNameRspOuterClass {
       return teamId_;
     }
 
-    public static final int TEAM_NAME_FIELD_NUMBER = 15;
+    public static final int TEAM_NAME_FIELD_NUMBER = 12;
     private volatile java.lang.Object teamName_;
     /**
      * <code>string team_name = 15;</code>
@@ -216,13 +216,13 @@ public final class ChangeTeamNameRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(8, retcode_);
+        output.writeInt32(6, retcode_);
       }
       if (teamId_ != 0) {
-        output.writeInt32(6, teamId_);
+        output.writeInt32(7, teamId_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(teamName_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 2, teamName_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 12, teamName_);
       }
       unknownFields.writeTo(output);
     }
@@ -235,14 +235,14 @@ public final class ChangeTeamNameRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(8, retcode_);
+          .computeInt32Size(6, retcode_);
       }
       if (teamId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(6, teamId_);
+          .computeInt32Size(7, teamId_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(teamName_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(2, teamName_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(12, teamName_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

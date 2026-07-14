@@ -93,7 +93,7 @@ public final class SeaLampV3ShadowInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 66: {
+            case 82: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 stageInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.SeaLampV3ShadowStageInfoOuterClass.SeaLampV3ShadowStageInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -137,7 +137,7 @@ public final class SeaLampV3ShadowInfoOuterClass {
               emu.grasscutter.net.proto.SeaLampV3ShadowInfoOuterClass.SeaLampV3ShadowInfo.class, emu.grasscutter.net.proto.SeaLampV3ShadowInfoOuterClass.SeaLampV3ShadowInfo.Builder.class);
     }
 
-    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 8;
+    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 10;
     private java.util.List<emu.grasscutter.net.proto.SeaLampV3ShadowStageInfoOuterClass.SeaLampV3ShadowStageInfo> stageInfoList_;
     /**
      * <code>repeated .SeaLampV3ShadowStageInfo stage_info_list = 8;</code>
@@ -192,7 +192,7 @@ public final class SeaLampV3ShadowInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < stageInfoList_.size(); i++) {
-        output.writeMessage(8, stageInfoList_.get(i));
+        output.writeMessage(10, stageInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -205,7 +205,7 @@ public final class SeaLampV3ShadowInfoOuterClass {
       size = 0;
       for (int i = 0; i < stageInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, stageInfoList_.get(i));
+          .computeMessageSize(10, stageInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

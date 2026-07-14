@@ -84,7 +84,7 @@ public final class SceneRouteChangeInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
+            case 42: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 pointList_ = new java.util.ArrayList<emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -93,17 +93,17 @@ public final class SceneRouteChangeInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo.parser(), extensionRegistry));
               break;
             }
-            case 48: {
+            case 88: {
 
               routeId_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 104: {
 
               isForward_ = input.readBool();
               break;
             }
-            case 104: {
+            case 64: {
 
               type_ = input.readUInt32();
               break;
@@ -143,7 +143,7 @@ public final class SceneRouteChangeInfoOuterClass {
               emu.grasscutter.net.proto.SceneRouteChangeInfoOuterClass.SceneRouteChangeInfo.class, emu.grasscutter.net.proto.SceneRouteChangeInfoOuterClass.SceneRouteChangeInfo.Builder.class);
     }
 
-    public static final int POINT_LIST_FIELD_NUMBER = 1;
+    public static final int POINT_LIST_FIELD_NUMBER = 5;
     private java.util.List<emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo> pointList_;
 
     @java.lang.Override
@@ -173,7 +173,7 @@ public final class SceneRouteChangeInfoOuterClass {
       return pointList_.get(index);
     }
 
-    public static final int ROUTE_ID_FIELD_NUMBER = 6;
+    public static final int ROUTE_ID_FIELD_NUMBER = 11;
     private int routeId_;
 
     @java.lang.Override
@@ -181,7 +181,7 @@ public final class SceneRouteChangeInfoOuterClass {
       return routeId_;
     }
 
-    public static final int IS_FORWARD_FIELD_NUMBER = 9;
+    public static final int IS_FORWARD_FIELD_NUMBER = 13;
     private boolean isForward_;
 
     @java.lang.Override
@@ -189,7 +189,7 @@ public final class SceneRouteChangeInfoOuterClass {
       return isForward_;
     }
 
-    public static final int TYPE_FIELD_NUMBER = 13;
+    public static final int TYPE_FIELD_NUMBER = 8;
     private int type_;
 
     @java.lang.Override
@@ -212,16 +212,16 @@ public final class SceneRouteChangeInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < pointList_.size(); i++) {
-        output.writeMessage(1, pointList_.get(i));
+        output.writeMessage(5, pointList_.get(i));
       }
       if (routeId_ != 0) {
-        output.writeUInt32(6, routeId_);
+        output.writeUInt32(11, routeId_);
       }
       if (isForward_ != false) {
-        output.writeBool(9, isForward_);
+        output.writeBool(13, isForward_);
       }
       if (type_ != 0) {
-        output.writeUInt32(13, type_);
+        output.writeUInt32(8, type_);
       }
       unknownFields.writeTo(output);
     }
@@ -234,19 +234,19 @@ public final class SceneRouteChangeInfoOuterClass {
       size = 0;
       for (int i = 0; i < pointList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, pointList_.get(i));
+          .computeMessageSize(5, pointList_.get(i));
       }
       if (routeId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, routeId_);
+          .computeUInt32Size(11, routeId_);
       }
       if (isForward_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isForward_);
+          .computeBoolSize(13, isForward_);
       }
       if (type_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, type_);
+          .computeUInt32Size(8, type_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

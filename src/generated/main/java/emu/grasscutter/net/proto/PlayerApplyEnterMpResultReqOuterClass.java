@@ -67,12 +67,12 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 72: {
 
               isAgreed_ = input.readBool();
               break;
             }
-            case 80: {
+            case 56: {
 
               applyUid_ = input.readUInt32();
               break;
@@ -109,7 +109,7 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
               emu.grasscutter.net.proto.PlayerApplyEnterMpResultReqOuterClass.PlayerApplyEnterMpResultReq.class, emu.grasscutter.net.proto.PlayerApplyEnterMpResultReqOuterClass.PlayerApplyEnterMpResultReq.Builder.class);
     }
 
-    public static final int IS_AGREED_FIELD_NUMBER = 4;
+    public static final int IS_AGREED_FIELD_NUMBER = 9;
     private boolean isAgreed_;
 
     @java.lang.Override
@@ -117,7 +117,7 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
       return isAgreed_;
     }
 
-    public static final int APPLY_UID_FIELD_NUMBER = 10;
+    public static final int APPLY_UID_FIELD_NUMBER = 7;
     private int applyUid_;
 
     @java.lang.Override
@@ -140,10 +140,10 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isAgreed_ != false) {
-        output.writeBool(4, isAgreed_);
+        output.writeBool(9, isAgreed_);
       }
       if (applyUid_ != 0) {
-        output.writeUInt32(10, applyUid_);
+        output.writeUInt32(7, applyUid_);
       }
       unknownFields.writeTo(output);
     }
@@ -156,11 +156,11 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
       size = 0;
       if (isAgreed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, isAgreed_);
+          .computeBoolSize(9, isAgreed_);
       }
       if (applyUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, applyUid_);
+          .computeUInt32Size(7, applyUid_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

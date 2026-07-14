@@ -82,7 +82,7 @@ public final class AllWidgetBackgroundActiveStateNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 8: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 backgroundActiveWidgetList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -90,7 +90,7 @@ public final class AllWidgetBackgroundActiveStateNotifyOuterClass {
               backgroundActiveWidgetList_.addInt(input.readUInt32());
               break;
             }
-            case 34: {
+            case 10: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -138,7 +138,7 @@ public final class AllWidgetBackgroundActiveStateNotifyOuterClass {
               emu.grasscutter.net.proto.AllWidgetBackgroundActiveStateNotifyOuterClass.AllWidgetBackgroundActiveStateNotify.class, emu.grasscutter.net.proto.AllWidgetBackgroundActiveStateNotifyOuterClass.AllWidgetBackgroundActiveStateNotify.Builder.class);
     }
 
-    public static final int BACKGROUND_ACTIVE_WIDGET_LIST_FIELD_NUMBER = 4;
+    public static final int BACKGROUND_ACTIVE_WIDGET_LIST_FIELD_NUMBER = 1;
     private com.google.protobuf.Internal.IntList backgroundActiveWidgetList_;
     /**
      * <code>repeated uint32 background_active_widget_list = 4;</code>
@@ -182,7 +182,7 @@ public final class AllWidgetBackgroundActiveStateNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getBackgroundActiveWidgetListList().size() > 0) {
-        output.writeUInt32NoTag(34);
+        output.writeUInt32NoTag(10);
         output.writeUInt32NoTag(backgroundActiveWidgetListMemoizedSerializedSize);
       }
       for (int i = 0; i < backgroundActiveWidgetList_.size(); i++) {

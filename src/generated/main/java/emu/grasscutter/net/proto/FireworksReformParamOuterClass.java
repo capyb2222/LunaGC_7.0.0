@@ -85,13 +85,13 @@ public final class FireworksReformParamOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 80: {
               int rawValue = input.readEnum();
 
               type_ = rawValue;
               break;
             }
-            case 24: {
+            case 8: {
 
               value_ = input.readInt32();
               break;
@@ -128,7 +128,7 @@ public final class FireworksReformParamOuterClass {
               emu.grasscutter.net.proto.FireworksReformParamOuterClass.FireworksReformParam.class, emu.grasscutter.net.proto.FireworksReformParamOuterClass.FireworksReformParam.Builder.class);
     }
 
-    public static final int TYPE_FIELD_NUMBER = 2;
+    public static final int TYPE_FIELD_NUMBER = 10;
     private int type_;
     /**
      * <code>.FireworksReformParamType type = 2;</code>
@@ -147,7 +147,7 @@ public final class FireworksReformParamOuterClass {
       return result == null ? emu.grasscutter.net.proto.FireworksReformParamTypeOuterClass.FireworksReformParamType.UNRECOGNIZED : result;
     }
 
-    public static final int VALUE_FIELD_NUMBER = 3;
+    public static final int VALUE_FIELD_NUMBER = 1;
     private int value_;
     /**
      * <code>int32 value = 3;</code>
@@ -173,10 +173,10 @@ public final class FireworksReformParamOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (type_ != emu.grasscutter.net.proto.FireworksReformParamTypeOuterClass.FireworksReformParamType.FIREWORKS_REFORM_PARAM_NONE.getNumber()) {
-        output.writeEnum(2, type_);
+        output.writeEnum(10, type_);
       }
       if (value_ != 0) {
-        output.writeInt32(3, value_);
+        output.writeInt32(1, value_);
       }
       unknownFields.writeTo(output);
     }
@@ -189,11 +189,11 @@ public final class FireworksReformParamOuterClass {
       size = 0;
       if (type_ != emu.grasscutter.net.proto.FireworksReformParamTypeOuterClass.FireworksReformParamType.FIREWORKS_REFORM_PARAM_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(2, type_);
+          .computeEnumSize(10, type_);
       }
       if (value_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(3, value_);
+          .computeInt32Size(1, value_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

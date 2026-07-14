@@ -78,7 +78,7 @@ public final class QuestListNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 106: {
+            case 122: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 questList_ = new java.util.ArrayList<emu.grasscutter.net.proto.QuestOuterClass.Quest>();
                 mutable_bitField0_ |= 0x00000001;
@@ -122,7 +122,7 @@ public final class QuestListNotifyOuterClass {
               emu.grasscutter.net.proto.QuestListNotifyOuterClass.QuestListNotify.class, emu.grasscutter.net.proto.QuestListNotifyOuterClass.QuestListNotify.Builder.class);
     }
 
-    public static final int QUEST_LIST_FIELD_NUMBER = 13;
+    public static final int QUEST_LIST_FIELD_NUMBER = 15;
     private java.util.List<emu.grasscutter.net.proto.QuestOuterClass.Quest> questList_;
 
     @java.lang.Override
@@ -167,7 +167,7 @@ public final class QuestListNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < questList_.size(); i++) {
-        output.writeMessage(13, questList_.get(i));
+        output.writeMessage(15, questList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -180,7 +180,7 @@ public final class QuestListNotifyOuterClass {
       size = 0;
       for (int i = 0; i < questList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, questList_.get(i));
+          .computeMessageSize(15, questList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

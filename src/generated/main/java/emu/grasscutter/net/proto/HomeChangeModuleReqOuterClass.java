@@ -74,7 +74,7 @@ public final class HomeChangeModuleReqOuterClass {
             case 0:
               done = true;
               break;
-            case 88: {
+            case 112: {
 
               targetModuleId_ = input.readUInt32();
               break;
@@ -111,7 +111,7 @@ public final class HomeChangeModuleReqOuterClass {
               emu.grasscutter.net.proto.HomeChangeModuleReqOuterClass.HomeChangeModuleReq.class, emu.grasscutter.net.proto.HomeChangeModuleReqOuterClass.HomeChangeModuleReq.Builder.class);
     }
 
-    public static final int TARGET_MODULE_ID_FIELD_NUMBER = 11;
+    public static final int TARGET_MODULE_ID_FIELD_NUMBER = 14;
     private int targetModuleId_;
     /**
      * <code>uint32 target_module_id = 11;</code>
@@ -137,7 +137,7 @@ public final class HomeChangeModuleReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (targetModuleId_ != 0) {
-        output.writeUInt32(11, targetModuleId_);
+        output.writeUInt32(14, targetModuleId_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +150,7 @@ public final class HomeChangeModuleReqOuterClass {
       size = 0;
       if (targetModuleId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, targetModuleId_);
+          .computeUInt32Size(14, targetModuleId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

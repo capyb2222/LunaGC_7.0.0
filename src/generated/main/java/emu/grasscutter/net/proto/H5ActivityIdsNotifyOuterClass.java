@@ -109,7 +109,7 @@ public final class H5ActivityIdsNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 98: {
+            case 66: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 h5ActivityMap_ = com.google.protobuf.MapField.newMapField(
                     H5ActivityMapDefaultEntryHolder.defaultEntry);
@@ -122,7 +122,7 @@ public final class H5ActivityIdsNotifyOuterClass {
                   h5ActivityMap__.getKey(), h5ActivityMap__.getValue());
               break;
             }
-            case 112: {
+            case 104: {
 
               clientRedDotTimestamp_ = input.readUInt32();
               break;
@@ -171,7 +171,7 @@ public final class H5ActivityIdsNotifyOuterClass {
               emu.grasscutter.net.proto.H5ActivityIdsNotifyOuterClass.H5ActivityIdsNotify.class, emu.grasscutter.net.proto.H5ActivityIdsNotifyOuterClass.H5ActivityIdsNotify.Builder.class);
     }
 
-    public static final int CLIENT_RED_DOT_TIMESTAMP_FIELD_NUMBER = 14;
+    public static final int CLIENT_RED_DOT_TIMESTAMP_FIELD_NUMBER = 13;
     private int clientRedDotTimestamp_;
     /**
      * <code>uint32 client_red_dot_timestamp = 14;</code>
@@ -182,7 +182,7 @@ public final class H5ActivityIdsNotifyOuterClass {
       return clientRedDotTimestamp_;
     }
 
-    public static final int H5_ACTIVITY_MAP_FIELD_NUMBER = 12;
+    public static final int H5_ACTIVITY_MAP_FIELD_NUMBER = 8;
     private static final class H5ActivityMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Integer> defaultEntry =
@@ -282,9 +282,9 @@ public final class H5ActivityIdsNotifyOuterClass {
           output,
           internalGetH5ActivityMap(),
           H5ActivityMapDefaultEntryHolder.defaultEntry,
-          12);
+          8);
       if (clientRedDotTimestamp_ != 0) {
-        output.writeUInt32(14, clientRedDotTimestamp_);
+        output.writeUInt32(13, clientRedDotTimestamp_);
       }
       unknownFields.writeTo(output);
     }
@@ -303,11 +303,11 @@ public final class H5ActivityIdsNotifyOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(12, h5ActivityMap__);
+            .computeMessageSize(8, h5ActivityMap__);
       }
       if (clientRedDotTimestamp_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, clientRedDotTimestamp_);
+          .computeUInt32Size(13, clientRedDotTimestamp_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

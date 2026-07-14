@@ -191,7 +191,7 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
       return lGIIAMBMLKC_.get(index);
     }
 
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 11;
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 13;
     private boolean isContentClosed_;
 
     @java.lang.Override
@@ -228,7 +228,7 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
         output.writeMessage(12, lGIIAMBMLKC_.get(i));
       }
       if (isContentClosed_ != false) {
-        output.writeBool(11, isContentClosed_);
+        output.writeBool(13, isContentClosed_);
       }
       if (dELEOLGNEDK_ != 0) {
         output.writeUInt32(15, dELEOLGNEDK_);
@@ -248,7 +248,7 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
       }
       if (isContentClosed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, isContentClosed_);
+          .computeBoolSize(13, isContentClosed_);
       }
       if (dELEOLGNEDK_ != 0) {
         size += com.google.protobuf.CodedOutputStream

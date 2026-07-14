@@ -80,12 +80,12 @@ public final class PlayerApplyEnterHomeResultReqOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 80: {
 
               applyUid_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 96: {
 
               isAgreed_ = input.readBool();
               break;
@@ -122,7 +122,7 @@ public final class PlayerApplyEnterHomeResultReqOuterClass {
               emu.grasscutter.net.proto.PlayerApplyEnterHomeResultReqOuterClass.PlayerApplyEnterHomeResultReq.class, emu.grasscutter.net.proto.PlayerApplyEnterHomeResultReqOuterClass.PlayerApplyEnterHomeResultReq.Builder.class);
     }
 
-    public static final int IS_AGREED_FIELD_NUMBER = 13;
+    public static final int IS_AGREED_FIELD_NUMBER = 12;
     private boolean isAgreed_;
     /**
      * <code>bool is_agreed = 13;</code>
@@ -133,7 +133,7 @@ public final class PlayerApplyEnterHomeResultReqOuterClass {
       return isAgreed_;
     }
 
-    public static final int APPLY_UID_FIELD_NUMBER = 1;
+    public static final int APPLY_UID_FIELD_NUMBER = 10;
     private int applyUid_;
     /**
      * <code>uint32 apply_uid = 1;</code>
@@ -159,10 +159,10 @@ public final class PlayerApplyEnterHomeResultReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (applyUid_ != 0) {
-        output.writeUInt32(1, applyUid_);
+        output.writeUInt32(10, applyUid_);
       }
       if (isAgreed_ != false) {
-        output.writeBool(13, isAgreed_);
+        output.writeBool(12, isAgreed_);
       }
       unknownFields.writeTo(output);
     }
@@ -175,11 +175,11 @@ public final class PlayerApplyEnterHomeResultReqOuterClass {
       size = 0;
       if (applyUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, applyUid_);
+          .computeUInt32Size(10, applyUid_);
       }
       if (isAgreed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, isAgreed_);
+          .computeBoolSize(12, isAgreed_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

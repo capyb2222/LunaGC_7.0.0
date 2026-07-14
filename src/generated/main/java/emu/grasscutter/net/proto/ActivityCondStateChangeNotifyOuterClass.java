@@ -107,12 +107,12 @@ public final class ActivityCondStateChangeNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 16: {
 
               activityId_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 112: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 expireCondList_ = newIntList();
                 mutable_bitField0_ |= 0x00000004;
@@ -120,7 +120,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
               expireCondList_.addInt(input.readUInt32());
               break;
             }
-            case 50: {
+            case 114: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
@@ -133,12 +133,12 @@ public final class ActivityCondStateChangeNotifyOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 56: {
+            case 24: {
 
               scheduleId_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 120: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 meetCondList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -146,7 +146,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
               meetCondList_.addInt(input.readUInt32());
               break;
             }
-            case 66: {
+            case 122: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -233,7 +233,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
               emu.grasscutter.net.proto.ActivityCondStateChangeNotifyOuterClass.ActivityCondStateChangeNotify.class, emu.grasscutter.net.proto.ActivityCondStateChangeNotifyOuterClass.ActivityCondStateChangeNotify.Builder.class);
     }
 
-    public static final int MEET_COND_LIST_FIELD_NUMBER = 8;
+    public static final int MEET_COND_LIST_FIELD_NUMBER = 15;
     private com.google.protobuf.Internal.IntList meetCondList_;
 
     @java.lang.Override
@@ -251,7 +251,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
     }
     private int meetCondListMemoizedSerializedSize = -1;
 
-    public static final int ACTIVATED_SALE_ID_LIST_FIELD_NUMBER = 6;
+    public static final int ACTIVATED_SALE_ID_LIST_FIELD_NUMBER = 11;
     private com.google.protobuf.Internal.IntList activatedSaleIdList_;
 
     @java.lang.Override
@@ -269,7 +269,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
     }
     private int activatedSaleIdListMemoizedSerializedSize = -1;
 
-    public static final int EXPIRE_COND_LIST_FIELD_NUMBER = 6;
+    public static final int EXPIRE_COND_LIST_FIELD_NUMBER = 14;
     private com.google.protobuf.Internal.IntList expireCondList_;
 
     @java.lang.Override
@@ -287,7 +287,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
     }
     private int expireCondListMemoizedSerializedSize = -1;
 
-    public static final int DISABLE_TRANSFER_POINT_INTERACTION_LIST_FIELD_NUMBER = 7;
+    public static final int DISABLE_TRANSFER_POINT_INTERACTION_LIST_FIELD_NUMBER = 13;
     private java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> disableTransferPointInteractionList_;
 
     @java.lang.Override
@@ -317,7 +317,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       return disableTransferPointInteractionList_.get(index);
     }
 
-    public static final int SCHEDULE_ID_FIELD_NUMBER = 1;
+    public static final int SCHEDULE_ID_FIELD_NUMBER = 3;
     private int scheduleId_;
 
     @java.lang.Override
@@ -325,7 +325,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       return scheduleId_;
     }
 
-    public static final int ACTIVITY_ID_FIELD_NUMBER = 12;
+    public static final int ACTIVITY_ID_FIELD_NUMBER = 2;
     private int activityId_;
 
     @java.lang.Override
@@ -349,20 +349,20 @@ public final class ActivityCondStateChangeNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (activityId_ != 0) {
-        output.writeUInt32(12, activityId_);
+        output.writeUInt32(2, activityId_);
       }
       if (getExpireCondListList().size() > 0) {
-        output.writeUInt32NoTag(50);
+        output.writeUInt32NoTag(114);
         output.writeUInt32NoTag(expireCondListMemoizedSerializedSize);
       }
       for (int i = 0; i < expireCondList_.size(); i++) {
         output.writeUInt32NoTag(expireCondList_.getInt(i));
       }
       if (scheduleId_ != 0) {
-        output.writeUInt32(1, scheduleId_);
+        output.writeUInt32(3, scheduleId_);
       }
       if (getMeetCondListList().size() > 0) {
-        output.writeUInt32NoTag(66);
+        output.writeUInt32NoTag(122);
         output.writeUInt32NoTag(meetCondListMemoizedSerializedSize);
       }
       for (int i = 0; i < meetCondList_.size(); i++) {
@@ -376,7 +376,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
         output.writeUInt32NoTag(activatedSaleIdList_.getInt(i));
       }
       for (int i = 0; i < disableTransferPointInteractionList_.size(); i++) {
-        output.writeMessage(7, disableTransferPointInteractionList_.get(i));
+        output.writeMessage(13, disableTransferPointInteractionList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -389,7 +389,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       size = 0;
       if (activityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, activityId_);
+          .computeUInt32Size(2, activityId_);
       }
       {
         int dataSize = 0;
@@ -407,7 +407,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       if (scheduleId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, scheduleId_);
+          .computeUInt32Size(3, scheduleId_);
       }
       {
         int dataSize = 0;
@@ -439,7 +439,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       for (int i = 0; i < disableTransferPointInteractionList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, disableTransferPointInteractionList_.get(i));
+          .computeMessageSize(13, disableTransferPointInteractionList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -87,7 +87,7 @@ public final class TakeAchievementRewardReqOuterClass {
             case 0:
               done = true;
               break;
-            case 120: {
+            case 56: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 idList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -95,7 +95,7 @@ public final class TakeAchievementRewardReqOuterClass {
               idList_.addInt(input.readUInt32());
               break;
             }
-            case 122: {
+            case 58: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -143,7 +143,7 @@ public final class TakeAchievementRewardReqOuterClass {
               emu.grasscutter.net.proto.TakeAchievementRewardReqOuterClass.TakeAchievementRewardReq.class, emu.grasscutter.net.proto.TakeAchievementRewardReqOuterClass.TakeAchievementRewardReq.Builder.class);
     }
 
-    public static final int ID_LIST_FIELD_NUMBER = 15;
+    public static final int ID_LIST_FIELD_NUMBER = 7;
     private com.google.protobuf.Internal.IntList idList_;
     /**
      * <code>repeated uint32 id_list = 15;</code>
@@ -187,7 +187,7 @@ public final class TakeAchievementRewardReqOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getIdListList().size() > 0) {
-        output.writeUInt32NoTag(122);
+        output.writeUInt32NoTag(58);
         output.writeUInt32NoTag(idListMemoizedSerializedSize);
       }
       for (int i = 0; i < idList_.size(); i++) {

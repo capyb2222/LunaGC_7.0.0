@@ -80,7 +80,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
             case 0:
               done = true;
               break;
-            case 18: {
+            case 74: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 invokes_ = new java.util.ArrayList<emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry>();
                 mutable_bitField0_ |= 0x00000001;
@@ -89,7 +89,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.parser(), extensionRegistry));
               break;
             }
-            case 72: {
+            case 40: {
 
               entityId_ = input.readUInt32();
               break;
@@ -129,7 +129,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
               emu.grasscutter.net.proto.EntityAbilityInvokeEntryOuterClass.EntityAbilityInvokeEntry.class, emu.grasscutter.net.proto.EntityAbilityInvokeEntryOuterClass.EntityAbilityInvokeEntry.Builder.class);
     }
 
-    public static final int INVOKES_FIELD_NUMBER = 2;
+    public static final int INVOKES_FIELD_NUMBER = 9;
     private java.util.List<emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry> invokes_;
 
     @java.lang.Override
@@ -159,7 +159,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
       return invokes_.get(index);
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 9;
+    public static final int ENTITY_ID_FIELD_NUMBER = 5;
     private int entityId_;
 
     @java.lang.Override
@@ -182,10 +182,10 @@ public final class EntityAbilityInvokeEntryOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < invokes_.size(); i++) {
-        output.writeMessage(2, invokes_.get(i));
+        output.writeMessage(9, invokes_.get(i));
       }
       if (entityId_ != 0) {
-        output.writeUInt32(9, entityId_);
+        output.writeUInt32(5, entityId_);
       }
       unknownFields.writeTo(output);
     }
@@ -198,11 +198,11 @@ public final class EntityAbilityInvokeEntryOuterClass {
       size = 0;
       for (int i = 0; i < invokes_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, invokes_.get(i));
+          .computeMessageSize(9, invokes_.get(i));
       }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, entityId_);
+          .computeUInt32Size(5, entityId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -81,7 +81,7 @@ public final class EvtDestroyGadgetNotifyOuterClass {
               forwardType_ = rawValue;
               break;
             }
-            case 80: {
+            case 24: {
 
               entityId_ = input.readUInt32();
               break;
@@ -118,7 +118,7 @@ public final class EvtDestroyGadgetNotifyOuterClass {
               emu.grasscutter.net.proto.EvtDestroyGadgetNotifyOuterClass.EvtDestroyGadgetNotify.class, emu.grasscutter.net.proto.EvtDestroyGadgetNotifyOuterClass.EvtDestroyGadgetNotify.Builder.class);
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 10;
+    public static final int ENTITY_ID_FIELD_NUMBER = 3;
     private int entityId_;
 
     @java.lang.Override
@@ -157,7 +157,7 @@ public final class EvtDestroyGadgetNotifyOuterClass {
         output.writeEnum(4, forwardType_);
       }
       if (entityId_ != 0) {
-        output.writeUInt32(10, entityId_);
+        output.writeUInt32(3, entityId_);
       }
       unknownFields.writeTo(output);
     }
@@ -174,7 +174,7 @@ public final class EvtDestroyGadgetNotifyOuterClass {
       }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, entityId_);
+          .computeUInt32Size(3, entityId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

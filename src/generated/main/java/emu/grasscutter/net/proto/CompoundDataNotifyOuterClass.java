@@ -220,7 +220,7 @@ public final class CompoundDataNotifyOuterClass {
       return compoundQueueDataList_.get(index);
     }
 
-    public static final int UNLOCKCOMPOUNDLIST_FIELD_NUMBER = 6;
+    public static final int UNLOCKCOMPOUNDLIST_FIELD_NUMBER = 3;
     private com.google.protobuf.Internal.IntList unlockCompoundList_;
     /**
      * <code>repeated uint32 unlockCompoundList = 6;</code>

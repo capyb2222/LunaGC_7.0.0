@@ -74,7 +74,7 @@ public final class DeleteFriendReqOuterClass {
             case 0:
               done = true;
               break;
-            case 88: {
+            case 80: {
 
               targetUid_ = input.readUInt32();
               break;
@@ -111,7 +111,7 @@ public final class DeleteFriendReqOuterClass {
               emu.grasscutter.net.proto.DeleteFriendReqOuterClass.DeleteFriendReq.class, emu.grasscutter.net.proto.DeleteFriendReqOuterClass.DeleteFriendReq.Builder.class);
     }
 
-    public static final int TARGET_UID_FIELD_NUMBER = 11;
+    public static final int TARGET_UID_FIELD_NUMBER = 10;
     private int targetUid_;
     /**
      * <code>uint32 target_uid = 11;</code>
@@ -137,7 +137,7 @@ public final class DeleteFriendReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (targetUid_ != 0) {
-        output.writeUInt32(11, targetUid_);
+        output.writeUInt32(10, targetUid_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +150,7 @@ public final class DeleteFriendReqOuterClass {
       size = 0;
       if (targetUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, targetUid_);
+          .computeUInt32Size(10, targetUid_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

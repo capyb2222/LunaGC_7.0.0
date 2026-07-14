@@ -132,7 +132,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 26: {
+            case 66: {
               if (!((mutable_bitField0_ & 0x00000008) != 0)) {
                 shikigamiList_ = new java.util.ArrayList<emu.grasscutter.net.proto.RoguelikeShikigamiRecordOuterClass.RoguelikeShikigamiRecord>();
                 mutable_bitField0_ |= 0x00000008;
@@ -141,12 +141,12 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.RoguelikeShikigamiRecordOuterClass.RoguelikeShikigamiRecord.parser(), extensionRegistry));
               break;
             }
-            case 64: {
+            case 48: {
 
               isContentClosed_ = input.readBool();
               break;
             }
-            case 90: {
+            case 82: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 stageList_ = new java.util.ArrayList<emu.grasscutter.net.proto.RogueStageInfoOuterClass.RogueStageInfo>();
                 mutable_bitField0_ |= 0x00000004;
@@ -176,7 +176,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 104: {
+            case 72: {
 
               contentCloseTime_ = input.readUInt32();
               break;
@@ -302,7 +302,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
     }
     private int equippedRuneListMemoizedSerializedSize = -1;
 
-    public static final int STAGE_LIST_FIELD_NUMBER = 3;
+    public static final int STAGE_LIST_FIELD_NUMBER = 10;
     private java.util.List<emu.grasscutter.net.proto.RogueStageInfoOuterClass.RogueStageInfo> stageList_;
 
     @java.lang.Override
@@ -332,7 +332,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       return stageList_.get(index);
     }
 
-    public static final int SHIKIGAMI_LIST_FIELD_NUMBER = 11;
+    public static final int SHIKIGAMI_LIST_FIELD_NUMBER = 8;
     private java.util.List<emu.grasscutter.net.proto.RoguelikeShikigamiRecordOuterClass.RoguelikeShikigamiRecord> shikigamiList_;
 
     @java.lang.Override
@@ -362,7 +362,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       return shikigamiList_.get(index);
     }
 
-    public static final int CONTENT_CLOSE_TIME_FIELD_NUMBER = 6;
+    public static final int CONTENT_CLOSE_TIME_FIELD_NUMBER = 9;
     private int contentCloseTime_;
 
     @java.lang.Override
@@ -370,7 +370,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       return contentCloseTime_;
     }
 
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 8;
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 6;
     private boolean isContentClosed_;
 
     @java.lang.Override
@@ -394,13 +394,13 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       for (int i = 0; i < shikigamiList_.size(); i++) {
-        output.writeMessage(11, shikigamiList_.get(i));
+        output.writeMessage(8, shikigamiList_.get(i));
       }
       if (isContentClosed_ != false) {
-        output.writeBool(8, isContentClosed_);
+        output.writeBool(6, isContentClosed_);
       }
       for (int i = 0; i < stageList_.size(); i++) {
-        output.writeMessage(3, stageList_.get(i));
+        output.writeMessage(10, stageList_.get(i));
       }
       if (getRuneListList().size() > 0) {
         output.writeUInt32NoTag(98);
@@ -410,7 +410,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
         output.writeUInt32NoTag(runeList_.getInt(i));
       }
       if (contentCloseTime_ != 0) {
-        output.writeUInt32(6, contentCloseTime_);
+        output.writeUInt32(9, contentCloseTime_);
       }
       if (getEquippedRuneListList().size() > 0) {
         output.writeUInt32NoTag(96994);
@@ -430,15 +430,15 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < shikigamiList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, shikigamiList_.get(i));
+          .computeMessageSize(8, shikigamiList_.get(i));
       }
       if (isContentClosed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, isContentClosed_);
+          .computeBoolSize(6, isContentClosed_);
       }
       for (int i = 0; i < stageList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, stageList_.get(i));
+          .computeMessageSize(10, stageList_.get(i));
       }
       {
         int dataSize = 0;
@@ -456,7 +456,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       if (contentCloseTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, contentCloseTime_);
+          .computeUInt32Size(9, contentCloseTime_);
       }
       {
         int dataSize = 0;

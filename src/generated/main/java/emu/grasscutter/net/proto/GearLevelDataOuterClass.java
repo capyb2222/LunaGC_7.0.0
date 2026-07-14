@@ -108,7 +108,7 @@ public final class GearLevelDataOuterClass {
               eEMGKJOCHHK_ = input.readUInt32();
               break;
             }
-            case 32: {
+            case 48: {
 
               levelId_ = input.readUInt32();
               break;
@@ -118,17 +118,17 @@ public final class GearLevelDataOuterClass {
               isFinished_ = input.readBool();
               break;
             }
-            case 72: {
+            case 128000: {
 
               mMGJJBELBHF_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 72: {
 
               isOpen_ = input.readBool();
               break;
             }
-            case 112: {
+            case 120: {
 
               openTime_ = input.readUInt32();
               break;
@@ -165,7 +165,7 @@ public final class GearLevelDataOuterClass {
               emu.grasscutter.net.proto.GearLevelDataOuterClass.GearLevelData.class, emu.grasscutter.net.proto.GearLevelDataOuterClass.GearLevelData.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 4;
+    public static final int LEVEL_ID_FIELD_NUMBER = 6;
     private int levelId_;
     /**
      * <code>uint32 level_id = 4;</code>
@@ -187,7 +187,7 @@ public final class GearLevelDataOuterClass {
       return eEMGKJOCHHK_;
     }
 
-    public static final int OPEN_TIME_FIELD_NUMBER = 14;
+    public static final int OPEN_TIME_FIELD_NUMBER = 15;
     private int openTime_;
     /**
      * <code>uint32 open_time = 14;</code>
@@ -198,7 +198,7 @@ public final class GearLevelDataOuterClass {
       return openTime_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 12;
+    public static final int IS_OPEN_FIELD_NUMBER = 9;
     private boolean isOpen_;
     /**
      * <code>bool is_open = 12;</code>
@@ -220,7 +220,7 @@ public final class GearLevelDataOuterClass {
       return isFinished_;
     }
 
-    public static final int MMGJJBELBHF_FIELD_NUMBER = 9;
+    public static final int MMGJJBELBHF_FIELD_NUMBER = 16000;
     private int mMGJJBELBHF_;
     /**
      * <code>uint32 MMGJJBELBHF = 9;</code>
@@ -249,19 +249,19 @@ public final class GearLevelDataOuterClass {
         output.writeUInt32(3, eEMGKJOCHHK_);
       }
       if (levelId_ != 0) {
-        output.writeUInt32(4, levelId_);
+        output.writeUInt32(6, levelId_);
       }
       if (isFinished_ != false) {
         output.writeBool(8, isFinished_);
       }
       if (mMGJJBELBHF_ != 0) {
-        output.writeUInt32(9, mMGJJBELBHF_);
+        output.writeUInt32(16000, mMGJJBELBHF_);
       }
       if (isOpen_ != false) {
-        output.writeBool(12, isOpen_);
+        output.writeBool(9, isOpen_);
       }
       if (openTime_ != 0) {
-        output.writeUInt32(14, openTime_);
+        output.writeUInt32(15, openTime_);
       }
       unknownFields.writeTo(output);
     }
@@ -278,7 +278,7 @@ public final class GearLevelDataOuterClass {
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, levelId_);
+          .computeUInt32Size(6, levelId_);
       }
       if (isFinished_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -286,15 +286,15 @@ public final class GearLevelDataOuterClass {
       }
       if (mMGJJBELBHF_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, mMGJJBELBHF_);
+          .computeUInt32Size(16000, mMGJJBELBHF_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, isOpen_);
+          .computeBoolSize(9, isOpen_);
       }
       if (openTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, openTime_);
+          .computeUInt32Size(15, openTime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

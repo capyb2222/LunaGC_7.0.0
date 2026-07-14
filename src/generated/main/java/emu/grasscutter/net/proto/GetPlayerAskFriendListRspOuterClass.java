@@ -80,12 +80,12 @@ public final class GetPlayerAskFriendListRspOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 104: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 114: {
+            case 74: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 askFriendList_ = new java.util.ArrayList<emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief>();
                 mutable_bitField0_ |= 0x00000001;
@@ -129,7 +129,7 @@ public final class GetPlayerAskFriendListRspOuterClass {
               emu.grasscutter.net.proto.GetPlayerAskFriendListRspOuterClass.GetPlayerAskFriendListRsp.class, emu.grasscutter.net.proto.GetPlayerAskFriendListRspOuterClass.GetPlayerAskFriendListRsp.Builder.class);
     }
 
-    public static final int ASK_FRIEND_LIST_FIELD_NUMBER = 14;
+    public static final int ASK_FRIEND_LIST_FIELD_NUMBER = 9;
     private java.util.List<emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief> askFriendList_;
 
     @java.lang.Override
@@ -159,7 +159,7 @@ public final class GetPlayerAskFriendListRspOuterClass {
       return askFriendList_.get(index);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 3;
+    public static final int RETCODE_FIELD_NUMBER = 13;
     private int retcode_;
 
     @java.lang.Override
@@ -182,10 +182,10 @@ public final class GetPlayerAskFriendListRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(3, retcode_);
+        output.writeInt32(13, retcode_);
       }
       for (int i = 0; i < askFriendList_.size(); i++) {
-        output.writeMessage(14, askFriendList_.get(i));
+        output.writeMessage(9, askFriendList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -198,11 +198,11 @@ public final class GetPlayerAskFriendListRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(3, retcode_);
+          .computeInt32Size(13, retcode_);
       }
       for (int i = 0; i < askFriendList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, askFriendList_.get(i));
+          .computeMessageSize(9, askFriendList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

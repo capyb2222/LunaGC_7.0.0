@@ -87,7 +87,7 @@ public final class TakeBattlePassMissionPointReqOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
+            case 64: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 missionIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -95,7 +95,7 @@ public final class TakeBattlePassMissionPointReqOuterClass {
               missionIdList_.addInt(input.readUInt32());
               break;
             }
-            case 42: {
+            case 66: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -143,7 +143,7 @@ public final class TakeBattlePassMissionPointReqOuterClass {
               emu.grasscutter.net.proto.TakeBattlePassMissionPointReqOuterClass.TakeBattlePassMissionPointReq.class, emu.grasscutter.net.proto.TakeBattlePassMissionPointReqOuterClass.TakeBattlePassMissionPointReq.Builder.class);
     }
 
-    public static final int MISSION_ID_LIST_FIELD_NUMBER = 5;
+    public static final int MISSION_ID_LIST_FIELD_NUMBER = 8;
     private com.google.protobuf.Internal.IntList missionIdList_;
     /**
      * <code>repeated uint32 mission_id_list = 5;</code>
@@ -187,7 +187,7 @@ public final class TakeBattlePassMissionPointReqOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getMissionIdListList().size() > 0) {
-        output.writeUInt32NoTag(42);
+        output.writeUInt32NoTag(66);
         output.writeUInt32NoTag(missionIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < missionIdList_.size(); i++) {

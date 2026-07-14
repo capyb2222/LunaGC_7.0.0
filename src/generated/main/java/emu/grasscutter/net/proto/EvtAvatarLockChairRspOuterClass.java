@@ -81,27 +81,27 @@ public final class EvtAvatarLockChairRspOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 40: {
 
               entityId_ = input.readUInt32();
               break;
             }
-            case 56: {
+            case 128000: {
 
               performId_ = input.readInt32();
               break;
             }
-            case 64: {
+            case 16: {
 
               chairId_ = input.readUInt64();
               break;
             }
-            case 88: {
+            case 56: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 122: {
+            case 50: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (position_ != null) {
                 subBuilder = position_.toBuilder();
@@ -146,7 +146,7 @@ public final class EvtAvatarLockChairRspOuterClass {
               emu.grasscutter.net.proto.EvtAvatarLockChairRspOuterClass.EvtAvatarLockChairRsp.class, emu.grasscutter.net.proto.EvtAvatarLockChairRspOuterClass.EvtAvatarLockChairRsp.Builder.class);
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 13;
+    public static final int ENTITY_ID_FIELD_NUMBER = 5;
     private int entityId_;
 
     @java.lang.Override
@@ -154,7 +154,7 @@ public final class EvtAvatarLockChairRspOuterClass {
       return entityId_;
     }
 
-    public static final int CHAIR_ID_FIELD_NUMBER = 6;
+    public static final int CHAIR_ID_FIELD_NUMBER = 2;
     private long chairId_;
 
     @java.lang.Override
@@ -162,7 +162,7 @@ public final class EvtAvatarLockChairRspOuterClass {
       return chairId_;
     }
 
-    public static final int PERFORM_ID_FIELD_NUMBER = 7;
+    public static final int PERFORM_ID_FIELD_NUMBER = 16000;
     private int performId_;
     /**
      * <code>int32 perform_id = 7;</code>
@@ -173,7 +173,7 @@ public final class EvtAvatarLockChairRspOuterClass {
       return performId_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 11;
+    public static final int RETCODE_FIELD_NUMBER = 7;
     private int retcode_;
 
     @java.lang.Override
@@ -181,7 +181,7 @@ public final class EvtAvatarLockChairRspOuterClass {
       return retcode_;
     }
 
-    public static final int POSITION_FIELD_NUMBER = 12;
+    public static final int POSITION_FIELD_NUMBER = 6;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector position_;
 
     @java.lang.Override
@@ -214,19 +214,19 @@ public final class EvtAvatarLockChairRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (entityId_ != 0) {
-        output.writeUInt32(13, entityId_);
+        output.writeUInt32(5, entityId_);
       }
       if (performId_ != 0) {
-        output.writeInt32(7, performId_);
+        output.writeInt32(16000, performId_);
       }
       if (chairId_ != 0L) {
-        output.writeUInt64(6, chairId_);
+        output.writeUInt64(2, chairId_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(11, retcode_);
+        output.writeInt32(7, retcode_);
       }
       if (position_ != null) {
-        output.writeMessage(15, getPosition());
+        output.writeMessage(6, getPosition());
       }
       unknownFields.writeTo(output);
     }
@@ -239,23 +239,23 @@ public final class EvtAvatarLockChairRspOuterClass {
       size = 0;
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, entityId_);
+          .computeUInt32Size(5, entityId_);
       }
       if (performId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(7, performId_);
+          .computeInt32Size(16000, performId_);
       }
       if (chairId_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(6, chairId_);
+          .computeUInt64Size(2, chairId_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(11, retcode_);
+          .computeInt32Size(7, retcode_);
       }
       if (position_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, getPosition());
+          .computeMessageSize(6, getPosition());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

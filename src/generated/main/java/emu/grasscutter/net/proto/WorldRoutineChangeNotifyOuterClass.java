@@ -75,12 +75,12 @@ public final class WorldRoutineChangeNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 120: {
 
               routineType_ = input.readUInt32();
               break;
             }
-            case 34: {
+            case 66: {
               emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo.Builder subBuilder = null;
               if (routineInfo_ != null) {
                 subBuilder = routineInfo_.toBuilder();
@@ -125,7 +125,7 @@ public final class WorldRoutineChangeNotifyOuterClass {
               emu.grasscutter.net.proto.WorldRoutineChangeNotifyOuterClass.WorldRoutineChangeNotify.class, emu.grasscutter.net.proto.WorldRoutineChangeNotifyOuterClass.WorldRoutineChangeNotify.Builder.class);
     }
 
-    public static final int ROUTINE_INFO_FIELD_NUMBER = 4;
+    public static final int ROUTINE_INFO_FIELD_NUMBER = 8;
     private emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo routineInfo_;
 
     @java.lang.Override
@@ -143,7 +143,7 @@ public final class WorldRoutineChangeNotifyOuterClass {
       return getRoutineInfo();
     }
 
-    public static final int ROUTINE_TYPE_FIELD_NUMBER = 1;
+    public static final int ROUTINE_TYPE_FIELD_NUMBER = 15;
     private int routineType_;
 
     @java.lang.Override
@@ -166,10 +166,10 @@ public final class WorldRoutineChangeNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (routineType_ != 0) {
-        output.writeUInt32(1, routineType_);
+        output.writeUInt32(15, routineType_);
       }
       if (routineInfo_ != null) {
-        output.writeMessage(4, getRoutineInfo());
+        output.writeMessage(8, getRoutineInfo());
       }
       unknownFields.writeTo(output);
     }
@@ -182,11 +182,11 @@ public final class WorldRoutineChangeNotifyOuterClass {
       size = 0;
       if (routineType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, routineType_);
+          .computeUInt32Size(15, routineType_);
       }
       if (routineInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, getRoutineInfo());
+          .computeMessageSize(8, getRoutineInfo());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

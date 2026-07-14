@@ -133,7 +133,7 @@ public final class DailyDungeonEntryInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 128000: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 hAOIOGCMAIM_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -141,7 +141,7 @@ public final class DailyDungeonEntryInfoOuterClass {
               hAOIOGCMAIM_.addInt(input.readUInt32());
               break;
             }
-            case 26: {
+            case 128002: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -154,7 +154,7 @@ public final class DailyDungeonEntryInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 32: {
+            case 24: {
 
               isQuickOpen_ = input.readBool();
               break;
@@ -164,7 +164,7 @@ public final class DailyDungeonEntryInfoOuterClass {
               iJCNGAGBNBO_ = input.readBool();
               break;
             }
-            case 64: {
+            case 128008: {
 
               kCBBHMHAGBK_ = input.readBool();
               break;
@@ -174,12 +174,12 @@ public final class DailyDungeonEntryInfoOuterClass {
               dungeonEntryConfigId_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 8: {
 
               recommendDungeonId_ = input.readUInt32();
               break;
             }
-            case 98: {
+            case 106: {
               emu.grasscutter.net.proto.DungeonEntryInfoOuterClass.DungeonEntryInfo.Builder subBuilder = null;
               if (recommendDungeonEntryInfo_ != null) {
                 subBuilder = recommendDungeonEntryInfo_.toBuilder();
@@ -192,7 +192,7 @@ public final class DailyDungeonEntryInfoOuterClass {
 
               break;
             }
-            case 112: {
+            case 64: {
 
               dungeonEntryId_ = input.readUInt32();
               break;
@@ -232,7 +232,7 @@ public final class DailyDungeonEntryInfoOuterClass {
               emu.grasscutter.net.proto.DailyDungeonEntryInfoOuterClass.DailyDungeonEntryInfo.class, emu.grasscutter.net.proto.DailyDungeonEntryInfoOuterClass.DailyDungeonEntryInfo.Builder.class);
     }
 
-    public static final int HAOIOGCMAIM_FIELD_NUMBER = 3;
+    public static final int HAOIOGCMAIM_FIELD_NUMBER = 16000;
     private com.google.protobuf.Internal.IntList hAOIOGCMAIM_;
     /**
      * <code>repeated uint32 HAOIOGCMAIM = 3;</code>
@@ -260,7 +260,7 @@ public final class DailyDungeonEntryInfoOuterClass {
     }
     private int hAOIOGCMAIMMemoizedSerializedSize = -1;
 
-    public static final int RECOMMEND_DUNGEON_ENTRY_INFO_FIELD_NUMBER = 12;
+    public static final int RECOMMEND_DUNGEON_ENTRY_INFO_FIELD_NUMBER = 13;
     private emu.grasscutter.net.proto.DungeonEntryInfoOuterClass.DungeonEntryInfo recommendDungeonEntryInfo_;
     /**
      * <code>.DungeonEntryInfo recommend_dungeon_entry_info = 12;</code>
@@ -297,7 +297,7 @@ public final class DailyDungeonEntryInfoOuterClass {
       return dungeonEntryConfigId_;
     }
 
-    public static final int RECOMMEND_DUNGEON_ID_FIELD_NUMBER = 11;
+    public static final int RECOMMEND_DUNGEON_ID_FIELD_NUMBER = 1;
     private int recommendDungeonId_;
     /**
      * <code>uint32 recommend_dungeon_id = 11;</code>
@@ -308,7 +308,7 @@ public final class DailyDungeonEntryInfoOuterClass {
       return recommendDungeonId_;
     }
 
-    public static final int DUNGEON_ENTRY_ID_FIELD_NUMBER = 14;
+    public static final int DUNGEON_ENTRY_ID_FIELD_NUMBER = 8;
     private int dungeonEntryId_;
     /**
      * <code>uint32 dungeon_entry_id = 14;</code>
@@ -319,7 +319,7 @@ public final class DailyDungeonEntryInfoOuterClass {
       return dungeonEntryId_;
     }
 
-    public static final int KCBBHMHAGBK_FIELD_NUMBER = 8;
+    public static final int KCBBHMHAGBK_FIELD_NUMBER = 16001;
     private boolean kCBBHMHAGBK_;
     /**
      * <code>bool KCBBHMHAGBK = 8;</code>
@@ -341,7 +341,7 @@ public final class DailyDungeonEntryInfoOuterClass {
       return iJCNGAGBNBO_;
     }
 
-    public static final int IS_QUICK_OPEN_FIELD_NUMBER = 4;
+    public static final int IS_QUICK_OPEN_FIELD_NUMBER = 3;
     private boolean isQuickOpen_;
     /**
      * <code>bool is_quick_open = 4;</code>
@@ -368,32 +368,32 @@ public final class DailyDungeonEntryInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getHAOIOGCMAIMList().size() > 0) {
-        output.writeUInt32NoTag(26);
+        output.writeUInt32NoTag(128002);
         output.writeUInt32NoTag(hAOIOGCMAIMMemoizedSerializedSize);
       }
       for (int i = 0; i < hAOIOGCMAIM_.size(); i++) {
         output.writeUInt32NoTag(hAOIOGCMAIM_.getInt(i));
       }
       if (isQuickOpen_ != false) {
-        output.writeBool(4, isQuickOpen_);
+        output.writeBool(3, isQuickOpen_);
       }
       if (iJCNGAGBNBO_ != false) {
         output.writeBool(7, iJCNGAGBNBO_);
       }
       if (kCBBHMHAGBK_ != false) {
-        output.writeBool(8, kCBBHMHAGBK_);
+        output.writeBool(16001, kCBBHMHAGBK_);
       }
       if (dungeonEntryConfigId_ != 0) {
         output.writeUInt32(10, dungeonEntryConfigId_);
       }
       if (recommendDungeonId_ != 0) {
-        output.writeUInt32(11, recommendDungeonId_);
+        output.writeUInt32(1, recommendDungeonId_);
       }
       if (recommendDungeonEntryInfo_ != null) {
-        output.writeMessage(12, getRecommendDungeonEntryInfo());
+        output.writeMessage(13, getRecommendDungeonEntryInfo());
       }
       if (dungeonEntryId_ != 0) {
-        output.writeUInt32(14, dungeonEntryId_);
+        output.writeUInt32(8, dungeonEntryId_);
       }
       unknownFields.writeTo(output);
     }
@@ -412,7 +412,7 @@ public final class DailyDungeonEntryInfoOuterClass {
         }
         size += dataSize;
         if (!getHAOIOGCMAIMList().isEmpty()) {
-          size += 1;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
@@ -420,7 +420,7 @@ public final class DailyDungeonEntryInfoOuterClass {
       }
       if (isQuickOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, isQuickOpen_);
+          .computeBoolSize(3, isQuickOpen_);
       }
       if (iJCNGAGBNBO_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -428,7 +428,7 @@ public final class DailyDungeonEntryInfoOuterClass {
       }
       if (kCBBHMHAGBK_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, kCBBHMHAGBK_);
+          .computeBoolSize(16001, kCBBHMHAGBK_);
       }
       if (dungeonEntryConfigId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -436,15 +436,15 @@ public final class DailyDungeonEntryInfoOuterClass {
       }
       if (recommendDungeonId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, recommendDungeonId_);
+          .computeUInt32Size(1, recommendDungeonId_);
       }
       if (recommendDungeonEntryInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, getRecommendDungeonEntryInfo());
+          .computeMessageSize(13, getRecommendDungeonEntryInfo());
       }
       if (dungeonEntryId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, dungeonEntryId_);
+          .computeUInt32Size(8, dungeonEntryId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

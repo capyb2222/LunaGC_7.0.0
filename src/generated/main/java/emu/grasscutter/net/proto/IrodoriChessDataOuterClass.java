@@ -99,7 +99,7 @@ public final class IrodoriChessDataOuterClass {
             case 0:
               done = true;
               break;
-            case 42: {
+            case 34: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 levelDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelData>();
                 mutable_bitField0_ |= 0x00000001;
@@ -108,7 +108,7 @@ public final class IrodoriChessDataOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelData.parser(), extensionRegistry));
               break;
             }
-            case 96: {
+            case 56: {
 
               isOpen_ = input.readBool();
               break;
@@ -148,7 +148,7 @@ public final class IrodoriChessDataOuterClass {
               emu.grasscutter.net.proto.IrodoriChessDataOuterClass.IrodoriChessData.class, emu.grasscutter.net.proto.IrodoriChessDataOuterClass.IrodoriChessData.Builder.class);
     }
 
-    public static final int LEVEL_DATA_LIST_FIELD_NUMBER = 2;
+    public static final int LEVEL_DATA_LIST_FIELD_NUMBER = 4;
     private java.util.List<emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelData> levelDataList_;
     /**
      * <code>repeated .IrodoriChessLevelData level_data_list = 5;</code>
@@ -188,7 +188,7 @@ public final class IrodoriChessDataOuterClass {
       return levelDataList_.get(index);
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 11;
+    public static final int IS_OPEN_FIELD_NUMBER = 7;
     private boolean isOpen_;
     /**
      * <code>bool is_open = 12;</code>
@@ -214,10 +214,10 @@ public final class IrodoriChessDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < levelDataList_.size(); i++) {
-        output.writeMessage(2, levelDataList_.get(i));
+        output.writeMessage(4, levelDataList_.get(i));
       }
       if (isOpen_ != false) {
-        output.writeBool(11, isOpen_);
+        output.writeBool(7, isOpen_);
       }
       unknownFields.writeTo(output);
     }
@@ -230,11 +230,11 @@ public final class IrodoriChessDataOuterClass {
       size = 0;
       for (int i = 0; i < levelDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, levelDataList_.get(i));
+          .computeMessageSize(4, levelDataList_.get(i));
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, isOpen_);
+          .computeBoolSize(7, isOpen_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

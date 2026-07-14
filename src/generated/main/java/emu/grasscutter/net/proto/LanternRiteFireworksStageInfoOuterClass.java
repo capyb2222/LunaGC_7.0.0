@@ -110,7 +110,7 @@ public final class LanternRiteFireworksStageInfoOuterClass {
               isOpen_ = input.readBool();
               break;
             }
-            case 66: {
+            case 26: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 challengeInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.LanternRiteFireworksChallengeInfoOuterClass.LanternRiteFireworksChallengeInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -119,7 +119,7 @@ public final class LanternRiteFireworksStageInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.LanternRiteFireworksChallengeInfoOuterClass.LanternRiteFireworksChallengeInfo.parser(), extensionRegistry));
               break;
             }
-            case 80: {
+            case 64: {
 
               stageId_ = input.readUInt32();
               break;
@@ -170,7 +170,7 @@ public final class LanternRiteFireworksStageInfoOuterClass {
       return isOpen_;
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 10;
+    public static final int STAGE_ID_FIELD_NUMBER = 8;
     private int stageId_;
     /**
      * <code>uint32 stage_id = 10;</code>
@@ -181,7 +181,7 @@ public final class LanternRiteFireworksStageInfoOuterClass {
       return stageId_;
     }
 
-    public static final int CHALLENGE_INFO_LIST_FIELD_NUMBER = 8;
+    public static final int CHALLENGE_INFO_LIST_FIELD_NUMBER = 3;
     private java.util.List<emu.grasscutter.net.proto.LanternRiteFireworksChallengeInfoOuterClass.LanternRiteFireworksChallengeInfo> challengeInfoList_;
     /**
      * <code>repeated .LanternRiteFireworksChallengeInfo challenge_info_list = 8;</code>
@@ -239,10 +239,10 @@ public final class LanternRiteFireworksStageInfoOuterClass {
         output.writeBool(6, isOpen_);
       }
       for (int i = 0; i < challengeInfoList_.size(); i++) {
-        output.writeMessage(8, challengeInfoList_.get(i));
+        output.writeMessage(3, challengeInfoList_.get(i));
       }
       if (stageId_ != 0) {
-        output.writeUInt32(10, stageId_);
+        output.writeUInt32(8, stageId_);
       }
       unknownFields.writeTo(output);
     }
@@ -259,11 +259,11 @@ public final class LanternRiteFireworksStageInfoOuterClass {
       }
       for (int i = 0; i < challengeInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, challengeInfoList_.get(i));
+          .computeMessageSize(3, challengeInfoList_.get(i));
       }
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, stageId_);
+          .computeUInt32Size(8, stageId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

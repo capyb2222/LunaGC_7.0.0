@@ -93,12 +93,12 @@ public final class DungeonWayPointNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
+            case 24: {
 
               isAdd_ = input.readBool();
               break;
             }
-            case 48: {
+            case 56: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 activeWayPointList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -106,7 +106,7 @@ public final class DungeonWayPointNotifyOuterClass {
               activeWayPointList_.addInt(input.readUInt32());
               break;
             }
-            case 50: {
+            case 58: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -154,7 +154,7 @@ public final class DungeonWayPointNotifyOuterClass {
               emu.grasscutter.net.proto.DungeonWayPointNotifyOuterClass.DungeonWayPointNotify.class, emu.grasscutter.net.proto.DungeonWayPointNotifyOuterClass.DungeonWayPointNotify.Builder.class);
     }
 
-    public static final int ACTIVE_WAY_POINT_LIST_FIELD_NUMBER = 6;
+    public static final int ACTIVE_WAY_POINT_LIST_FIELD_NUMBER = 7;
     private com.google.protobuf.Internal.IntList activeWayPointList_;
     /**
      * <code>repeated uint32 active_way_point_list = 6;</code>
@@ -182,7 +182,7 @@ public final class DungeonWayPointNotifyOuterClass {
     }
     private int activeWayPointListMemoizedSerializedSize = -1;
 
-    public static final int IS_ADD_FIELD_NUMBER = 5;
+    public static final int IS_ADD_FIELD_NUMBER = 3;
     private boolean isAdd_;
     /**
      * <code>bool is_add = 5;</code>
@@ -209,10 +209,10 @@ public final class DungeonWayPointNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (isAdd_ != false) {
-        output.writeBool(5, isAdd_);
+        output.writeBool(3, isAdd_);
       }
       if (getActiveWayPointListList().size() > 0) {
-        output.writeUInt32NoTag(50);
+        output.writeUInt32NoTag(58);
         output.writeUInt32NoTag(activeWayPointListMemoizedSerializedSize);
       }
       for (int i = 0; i < activeWayPointList_.size(); i++) {
@@ -229,7 +229,7 @@ public final class DungeonWayPointNotifyOuterClass {
       size = 0;
       if (isAdd_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, isAdd_);
+          .computeBoolSize(3, isAdd_);
       }
       {
         int dataSize = 0;

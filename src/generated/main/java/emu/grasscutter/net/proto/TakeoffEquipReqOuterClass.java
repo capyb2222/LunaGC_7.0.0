@@ -71,12 +71,12 @@ public final class TakeoffEquipReqOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 80: {
 
               avatarGuid_ = input.readUInt64();
               break;
             }
-            case 32: {
+            case 120: {
 
               slot_ = input.readUInt32();
               break;
@@ -113,7 +113,7 @@ public final class TakeoffEquipReqOuterClass {
               emu.grasscutter.net.proto.TakeoffEquipReqOuterClass.TakeoffEquipReq.class, emu.grasscutter.net.proto.TakeoffEquipReqOuterClass.TakeoffEquipReq.Builder.class);
     }
 
-    public static final int SLOT_FIELD_NUMBER = 4;
+    public static final int SLOT_FIELD_NUMBER = 15;
     private int slot_;
 
     @java.lang.Override
@@ -121,7 +121,7 @@ public final class TakeoffEquipReqOuterClass {
       return slot_;
     }
 
-    public static final int AVATAR_GUID_FIELD_NUMBER = 1;
+    public static final int AVATAR_GUID_FIELD_NUMBER = 10;
     private long avatarGuid_;
 
     @java.lang.Override
@@ -144,10 +144,10 @@ public final class TakeoffEquipReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (avatarGuid_ != 0L) {
-        output.writeUInt64(1, avatarGuid_);
+        output.writeUInt64(10, avatarGuid_);
       }
       if (slot_ != 0) {
-        output.writeUInt32(4, slot_);
+        output.writeUInt32(15, slot_);
       }
       unknownFields.writeTo(output);
     }
@@ -160,11 +160,11 @@ public final class TakeoffEquipReqOuterClass {
       size = 0;
       if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(1, avatarGuid_);
+          .computeUInt64Size(10, avatarGuid_);
       }
       if (slot_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, slot_);
+          .computeUInt32Size(15, slot_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

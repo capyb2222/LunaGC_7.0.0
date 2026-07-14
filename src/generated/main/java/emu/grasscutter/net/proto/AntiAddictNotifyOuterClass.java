@@ -81,7 +81,7 @@ public final class AntiAddictNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 8: {
 
               msgType_ = input.readInt32();
               break;
@@ -92,7 +92,7 @@ public final class AntiAddictNotifyOuterClass {
               msg_ = s;
               break;
             }
-            case 58: {
+            case 82: {
               java.lang.String s = input.readStringRequireUtf8();
 
               level_ = s;
@@ -130,7 +130,7 @@ public final class AntiAddictNotifyOuterClass {
               emu.grasscutter.net.proto.AntiAddictNotifyOuterClass.AntiAddictNotify.class, emu.grasscutter.net.proto.AntiAddictNotifyOuterClass.AntiAddictNotify.Builder.class);
     }
 
-    public static final int LEVEL_FIELD_NUMBER = 7;
+    public static final int LEVEL_FIELD_NUMBER = 10;
     private volatile java.lang.Object level_;
 
     @java.lang.Override
@@ -194,7 +194,7 @@ public final class AntiAddictNotifyOuterClass {
       }
     }
 
-    public static final int MSG_TYPE_FIELD_NUMBER = 3;
+    public static final int MSG_TYPE_FIELD_NUMBER = 1;
     private int msgType_;
 
     @java.lang.Override
@@ -217,13 +217,13 @@ public final class AntiAddictNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (msgType_ != 0) {
-        output.writeInt32(3, msgType_);
+        output.writeInt32(1, msgType_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(msg_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 4, msg_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(level_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 7, level_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 10, level_);
       }
       unknownFields.writeTo(output);
     }
@@ -236,13 +236,13 @@ public final class AntiAddictNotifyOuterClass {
       size = 0;
       if (msgType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(3, msgType_);
+          .computeInt32Size(1, msgType_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(msg_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(4, msg_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(level_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(7, level_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(10, level_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

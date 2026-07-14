@@ -75,22 +75,22 @@ public final class EnterScenePeerNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 72: {
 
               peerId_ = input.readUInt32();
               break;
             }
-            case 32: {
+            case 56: {
 
               destSceneId_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 48: {
 
               enterSceneToken_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 24: {
 
               hostPeerId_ = input.readUInt32();
               break;
@@ -127,7 +127,7 @@ public final class EnterScenePeerNotifyOuterClass {
               emu.grasscutter.net.proto.EnterScenePeerNotifyOuterClass.EnterScenePeerNotify.class, emu.grasscutter.net.proto.EnterScenePeerNotifyOuterClass.EnterScenePeerNotify.Builder.class);
     }
 
-    public static final int DEST_SCENE_ID_FIELD_NUMBER = 4;
+    public static final int DEST_SCENE_ID_FIELD_NUMBER = 7;
     private int destSceneId_;
 
     @java.lang.Override
@@ -135,7 +135,7 @@ public final class EnterScenePeerNotifyOuterClass {
       return destSceneId_;
     }
 
-    public static final int ENTER_SCENE_TOKEN_FIELD_NUMBER = 12;
+    public static final int ENTER_SCENE_TOKEN_FIELD_NUMBER = 6;
     private int enterSceneToken_;
 
     @java.lang.Override
@@ -143,7 +143,7 @@ public final class EnterScenePeerNotifyOuterClass {
       return enterSceneToken_;
     }
 
-    public static final int PEER_ID_FIELD_NUMBER = 3;
+    public static final int PEER_ID_FIELD_NUMBER = 9;
     private int peerId_;
 
     @java.lang.Override
@@ -151,7 +151,7 @@ public final class EnterScenePeerNotifyOuterClass {
       return peerId_;
     }
 
-    public static final int HOST_PEER_ID_FIELD_NUMBER = 13;
+    public static final int HOST_PEER_ID_FIELD_NUMBER = 3;
     private int hostPeerId_;
 
     @java.lang.Override
@@ -174,16 +174,16 @@ public final class EnterScenePeerNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (enterSceneToken_ != 0) {
-        output.writeUInt32(12, enterSceneToken_);
+        output.writeUInt32(6, enterSceneToken_);
       }
       if (peerId_ != 0) {
-        output.writeUInt32(3, peerId_);
+        output.writeUInt32(9, peerId_);
       }
       if (hostPeerId_ != 0) {
-        output.writeUInt32(13, hostPeerId_);
+        output.writeUInt32(3, hostPeerId_);
       }
       if (destSceneId_ != 0) {
-        output.writeUInt32(4, destSceneId_);
+        output.writeUInt32(7, destSceneId_);
       }
       unknownFields.writeTo(output);
     }
@@ -196,19 +196,19 @@ public final class EnterScenePeerNotifyOuterClass {
       size = 0;
       if (enterSceneToken_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, enterSceneToken_);
+          .computeUInt32Size(6, enterSceneToken_);
       }
       if (peerId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, peerId_);
+          .computeUInt32Size(9, peerId_);
       }
       if (hostPeerId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, hostPeerId_);
+          .computeUInt32Size(3, hostPeerId_);
       }
       if (destSceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, destSceneId_);
+          .computeUInt32Size(7, destSceneId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -80,12 +80,12 @@ public final class McoinExchangeHcoinReqOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 16: {
 
               hcoin_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 48: {
 
               mcoinCost_ = input.readUInt32();
               break;
@@ -122,7 +122,7 @@ public final class McoinExchangeHcoinReqOuterClass {
               emu.grasscutter.net.proto.McoinExchangeHcoinReqOuterClass.McoinExchangeHcoinReq.class, emu.grasscutter.net.proto.McoinExchangeHcoinReqOuterClass.McoinExchangeHcoinReq.Builder.class);
     }
 
-    public static final int MCOIN_COST_FIELD_NUMBER = 13;
+    public static final int MCOIN_COST_FIELD_NUMBER = 6;
     private int mcoinCost_;
     /**
      * <code>uint32 mcoin_cost = 13;</code>
@@ -133,7 +133,7 @@ public final class McoinExchangeHcoinReqOuterClass {
       return mcoinCost_;
     }
 
-    public static final int HCOIN_FIELD_NUMBER = 8;
+    public static final int HCOIN_FIELD_NUMBER = 2;
     private int hcoin_;
     /**
      * <code>uint32 hcoin = 8;</code>
@@ -159,10 +159,10 @@ public final class McoinExchangeHcoinReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (hcoin_ != 0) {
-        output.writeUInt32(8, hcoin_);
+        output.writeUInt32(2, hcoin_);
       }
       if (mcoinCost_ != 0) {
-        output.writeUInt32(13, mcoinCost_);
+        output.writeUInt32(6, mcoinCost_);
       }
       unknownFields.writeTo(output);
     }
@@ -175,11 +175,11 @@ public final class McoinExchangeHcoinReqOuterClass {
       size = 0;
       if (hcoin_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, hcoin_);
+          .computeUInt32Size(2, hcoin_);
       }
       if (mcoinCost_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, mcoinCost_);
+          .computeUInt32Size(6, mcoinCost_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

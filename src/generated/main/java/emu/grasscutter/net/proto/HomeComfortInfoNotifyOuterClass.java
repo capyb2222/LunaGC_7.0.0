@@ -94,7 +94,7 @@ public final class HomeComfortInfoNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 58: {
+            case 50: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 moduleInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.HomeModuleComfortInfoOuterClass.HomeModuleComfortInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -138,7 +138,7 @@ public final class HomeComfortInfoNotifyOuterClass {
               emu.grasscutter.net.proto.HomeComfortInfoNotifyOuterClass.HomeComfortInfoNotify.class, emu.grasscutter.net.proto.HomeComfortInfoNotifyOuterClass.HomeComfortInfoNotify.Builder.class);
     }
 
-    public static final int MODULE_INFO_LIST_FIELD_NUMBER = 7;
+    public static final int MODULE_INFO_LIST_FIELD_NUMBER = 6;
     private java.util.List<emu.grasscutter.net.proto.HomeModuleComfortInfoOuterClass.HomeModuleComfortInfo> moduleInfoList_;
     /**
      * <code>repeated .HomeModuleComfortInfo module_info_list = 11;</code>
@@ -193,7 +193,7 @@ public final class HomeComfortInfoNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < moduleInfoList_.size(); i++) {
-        output.writeMessage(7, moduleInfoList_.get(i));
+        output.writeMessage(6, moduleInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -206,7 +206,7 @@ public final class HomeComfortInfoNotifyOuterClass {
       size = 0;
       for (int i = 0; i < moduleInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, moduleInfoList_.get(i));
+          .computeMessageSize(6, moduleInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

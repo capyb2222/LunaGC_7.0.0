@@ -121,7 +121,7 @@ public final class HomeLimitedShopInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 80: {
 
               uid_ = input.readUInt32();
               break;
@@ -131,7 +131,7 @@ public final class HomeLimitedShopInfoOuterClass {
               startTime_ = input.readFixed32();
               break;
             }
-            case 58: {
+            case 18: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (djinnRot_ != null) {
                 subBuilder = djinnRot_.toBuilder();
@@ -144,7 +144,7 @@ public final class HomeLimitedShopInfoOuterClass {
 
               break;
             }
-            case 66: {
+            case 98: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (djinnPos_ != null) {
                 subBuilder = djinnPos_.toBuilder();
@@ -232,7 +232,7 @@ public final class HomeLimitedShopInfoOuterClass {
       return lMJPHDCDAJK_;
     }
 
-    public static final int DJINN_ROT_FIELD_NUMBER = 7;
+    public static final int DJINN_ROT_FIELD_NUMBER = 2;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector djinnRot_;
     /**
      * <code>.Vector djinn_rot = 7;</code>
@@ -258,7 +258,7 @@ public final class HomeLimitedShopInfoOuterClass {
       return getDjinnRot();
     }
 
-    public static final int DJINN_POS_FIELD_NUMBER = 8;
+    public static final int DJINN_POS_FIELD_NUMBER = 12;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector djinnPos_;
     /**
      * <code>.Vector djinn_pos = 8;</code>
@@ -284,7 +284,7 @@ public final class HomeLimitedShopInfoOuterClass {
       return getDjinnPos();
     }
 
-    public static final int UID_FIELD_NUMBER = 5;
+    public static final int UID_FIELD_NUMBER = 10;
     private int uid_;
     /**
      * <code>uint32 uid = 2;</code>
@@ -310,16 +310,16 @@ public final class HomeLimitedShopInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (uid_ != 0) {
-        output.writeUInt32(5, uid_);
+        output.writeUInt32(10, uid_);
       }
       if (startTime_ != 0) {
         output.writeFixed32(6, startTime_);
       }
       if (djinnRot_ != null) {
-        output.writeMessage(7, getDjinnRot());
+        output.writeMessage(2, getDjinnRot());
       }
       if (djinnPos_ != null) {
-        output.writeMessage(8, getDjinnPos());
+        output.writeMessage(12, getDjinnPos());
       }
       if (endTime_ != 0) {
         output.writeFixed32(13, endTime_);
@@ -338,7 +338,7 @@ public final class HomeLimitedShopInfoOuterClass {
       size = 0;
       if (uid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, uid_);
+          .computeUInt32Size(10, uid_);
       }
       if (startTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -346,11 +346,11 @@ public final class HomeLimitedShopInfoOuterClass {
       }
       if (djinnRot_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, getDjinnRot());
+          .computeMessageSize(2, getDjinnRot());
       }
       if (djinnPos_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, getDjinnPos());
+          .computeMessageSize(12, getDjinnPos());
       }
       if (endTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream

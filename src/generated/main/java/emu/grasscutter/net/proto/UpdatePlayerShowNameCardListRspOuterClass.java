@@ -78,7 +78,7 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 64: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 showNameCardIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -86,7 +86,7 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
               showNameCardIdList_.addInt(input.readUInt32());
               break;
             }
-            case 26: {
+            case 66: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -99,7 +99,7 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 48: {
+            case 96: {
 
               retcode_ = input.readInt32();
               break;
@@ -139,7 +139,7 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
               emu.grasscutter.net.proto.UpdatePlayerShowNameCardListRspOuterClass.UpdatePlayerShowNameCardListRsp.class, emu.grasscutter.net.proto.UpdatePlayerShowNameCardListRspOuterClass.UpdatePlayerShowNameCardListRsp.Builder.class);
     }
 
-    public static final int SHOW_NAME_CARD_ID_LIST_FIELD_NUMBER = 3;
+    public static final int SHOW_NAME_CARD_ID_LIST_FIELD_NUMBER = 8;
     private com.google.protobuf.Internal.IntList showNameCardIdList_;
 
     @java.lang.Override
@@ -157,7 +157,7 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
     }
     private int showNameCardIdListMemoizedSerializedSize = -1;
 
-    public static final int RETCODE_FIELD_NUMBER = 6;
+    public static final int RETCODE_FIELD_NUMBER = 12;
     private int retcode_;
 
     @java.lang.Override
@@ -181,14 +181,14 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getShowNameCardIdListList().size() > 0) {
-        output.writeUInt32NoTag(26);
+        output.writeUInt32NoTag(66);
         output.writeUInt32NoTag(showNameCardIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < showNameCardIdList_.size(); i++) {
         output.writeUInt32NoTag(showNameCardIdList_.getInt(i));
       }
       if (retcode_ != 0) {
-        output.writeInt32(6, retcode_);
+        output.writeInt32(12, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -215,7 +215,7 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(6, retcode_);
+          .computeInt32Size(12, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

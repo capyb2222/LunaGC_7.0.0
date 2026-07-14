@@ -109,32 +109,32 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 48: {
 
               levelId_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 8: {
 
               difficultyId_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 128000: {
 
               eNBKLKPPLHL_ = input.readUInt32();
               break;
             }
-            case 56: {
+            case 16: {
 
               isNewRecord_ = input.readBool();
               break;
             }
-            case 64: {
+            case 128008: {
 
               pDKDBGNJPDL_ = input.readBool();
               break;
             }
-            case 96: {
+            case 64: {
 
               finalScore_ = input.readUInt32();
               break;
@@ -187,7 +187,7 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
       return dEJJPIOCJDD_;
     }
 
-    public static final int FINAL_SCORE_FIELD_NUMBER = 12;
+    public static final int FINAL_SCORE_FIELD_NUMBER = 8;
     private int finalScore_;
     /**
      * <code>uint32 final_score = 12;</code>
@@ -198,7 +198,7 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
       return finalScore_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 3;
+    public static final int LEVEL_ID_FIELD_NUMBER = 6;
     private int levelId_;
     /**
      * <code>uint32 level_id = 3;</code>
@@ -209,7 +209,7 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
       return levelId_;
     }
 
-    public static final int ENBKLKPPLHL_FIELD_NUMBER = 6;
+    public static final int ENBKLKPPLHL_FIELD_NUMBER = 16000;
     private int eNBKLKPPLHL_;
     /**
      * <code>uint32 ENBKLKPPLHL = 6;</code>
@@ -220,7 +220,7 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
       return eNBKLKPPLHL_;
     }
 
-    public static final int DIFFICULTY_ID_FIELD_NUMBER = 5;
+    public static final int DIFFICULTY_ID_FIELD_NUMBER = 1;
     private int difficultyId_;
     /**
      * <code>uint32 difficulty_id = 5;</code>
@@ -231,7 +231,7 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
       return difficultyId_;
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 7;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 2;
     private boolean isNewRecord_;
     /**
      * <code>bool is_new_record = 7;</code>
@@ -242,7 +242,7 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
       return isNewRecord_;
     }
 
-    public static final int PDKDBGNJPDL_FIELD_NUMBER = 8;
+    public static final int PDKDBGNJPDL_FIELD_NUMBER = 16001;
     private boolean pDKDBGNJPDL_;
     /**
      * <code>bool PDKDBGNJPDL = 8;</code>
@@ -268,22 +268,22 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (levelId_ != 0) {
-        output.writeUInt32(3, levelId_);
+        output.writeUInt32(6, levelId_);
       }
       if (difficultyId_ != 0) {
-        output.writeUInt32(5, difficultyId_);
+        output.writeUInt32(1, difficultyId_);
       }
       if (eNBKLKPPLHL_ != 0) {
-        output.writeUInt32(6, eNBKLKPPLHL_);
+        output.writeUInt32(16000, eNBKLKPPLHL_);
       }
       if (isNewRecord_ != false) {
-        output.writeBool(7, isNewRecord_);
+        output.writeBool(2, isNewRecord_);
       }
       if (pDKDBGNJPDL_ != false) {
-        output.writeBool(8, pDKDBGNJPDL_);
+        output.writeBool(16001, pDKDBGNJPDL_);
       }
       if (finalScore_ != 0) {
-        output.writeUInt32(12, finalScore_);
+        output.writeUInt32(8, finalScore_);
       }
       if (dEJJPIOCJDD_ != 0) {
         output.writeUInt32(15, dEJJPIOCJDD_);
@@ -299,27 +299,27 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
       size = 0;
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, levelId_);
+          .computeUInt32Size(6, levelId_);
       }
       if (difficultyId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, difficultyId_);
+          .computeUInt32Size(1, difficultyId_);
       }
       if (eNBKLKPPLHL_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, eNBKLKPPLHL_);
+          .computeUInt32Size(16000, eNBKLKPPLHL_);
       }
       if (isNewRecord_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, isNewRecord_);
+          .computeBoolSize(2, isNewRecord_);
       }
       if (pDKDBGNJPDL_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, pDKDBGNJPDL_);
+          .computeBoolSize(16001, pDKDBGNJPDL_);
       }
       if (finalScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, finalScore_);
+          .computeUInt32Size(8, finalScore_);
       }
       if (dEJJPIOCJDD_ != 0) {
         size += com.google.protobuf.CodedOutputStream

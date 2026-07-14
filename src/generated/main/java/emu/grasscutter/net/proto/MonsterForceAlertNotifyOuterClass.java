@@ -74,7 +74,7 @@ public final class MonsterForceAlertNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 16: {
 
               monsterEntityId_ = input.readUInt32();
               break;
@@ -111,7 +111,7 @@ public final class MonsterForceAlertNotifyOuterClass {
               emu.grasscutter.net.proto.MonsterForceAlertNotifyOuterClass.MonsterForceAlertNotify.class, emu.grasscutter.net.proto.MonsterForceAlertNotifyOuterClass.MonsterForceAlertNotify.Builder.class);
     }
 
-    public static final int MONSTER_ENTITY_ID_FIELD_NUMBER = 8;
+    public static final int MONSTER_ENTITY_ID_FIELD_NUMBER = 2;
     private int monsterEntityId_;
     /**
      * <code>uint32 monster_entity_id = 8;</code>
@@ -137,7 +137,7 @@ public final class MonsterForceAlertNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (monsterEntityId_ != 0) {
-        output.writeUInt32(8, monsterEntityId_);
+        output.writeUInt32(2, monsterEntityId_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +150,7 @@ public final class MonsterForceAlertNotifyOuterClass {
       size = 0;
       if (monsterEntityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, monsterEntityId_);
+          .computeUInt32Size(2, monsterEntityId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

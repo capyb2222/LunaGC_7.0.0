@@ -75,7 +75,7 @@ public final class GetActivityInfoReqOuterClass {
             case 0:
               done = true;
               break;
-            case 88: {
+            case 56: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 activityIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -83,7 +83,7 @@ public final class GetActivityInfoReqOuterClass {
               activityIdList_.addInt(input.readUInt32());
               break;
             }
-            case 90: {
+            case 58: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -131,7 +131,7 @@ public final class GetActivityInfoReqOuterClass {
               emu.grasscutter.net.proto.GetActivityInfoReqOuterClass.GetActivityInfoReq.class, emu.grasscutter.net.proto.GetActivityInfoReqOuterClass.GetActivityInfoReq.Builder.class);
     }
 
-    public static final int ACTIVITY_ID_LIST_FIELD_NUMBER = 11;
+    public static final int ACTIVITY_ID_LIST_FIELD_NUMBER = 7;
     private com.google.protobuf.Internal.IntList activityIdList_;
 
     @java.lang.Override
@@ -165,7 +165,7 @@ public final class GetActivityInfoReqOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getActivityIdListList().size() > 0) {
-        output.writeUInt32NoTag(90);
+        output.writeUInt32NoTag(58);
         output.writeUInt32NoTag(activityIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < activityIdList_.size(); i++) {

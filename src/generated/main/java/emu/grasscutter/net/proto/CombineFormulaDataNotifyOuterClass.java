@@ -80,12 +80,12 @@ public final class CombineFormulaDataNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
+            case 80: {
 
               isLocked_ = input.readBool();
               break;
             }
-            case 112: {
+            case 40: {
 
               combineId_ = input.readUInt32();
               break;
@@ -122,7 +122,7 @@ public final class CombineFormulaDataNotifyOuterClass {
               emu.grasscutter.net.proto.CombineFormulaDataNotifyOuterClass.CombineFormulaDataNotify.class, emu.grasscutter.net.proto.CombineFormulaDataNotifyOuterClass.CombineFormulaDataNotify.Builder.class);
     }
 
-    public static final int COMBINE_ID_FIELD_NUMBER = 14;
+    public static final int COMBINE_ID_FIELD_NUMBER = 5;
     private int combineId_;
     /**
      * <code>uint32 combine_id = 14;</code>
@@ -133,7 +133,7 @@ public final class CombineFormulaDataNotifyOuterClass {
       return combineId_;
     }
 
-    public static final int IS_LOCKED_FIELD_NUMBER = 7;
+    public static final int IS_LOCKED_FIELD_NUMBER = 10;
     private boolean isLocked_;
     /**
      * <code>bool is_locked = 7;</code>
@@ -159,10 +159,10 @@ public final class CombineFormulaDataNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isLocked_ != false) {
-        output.writeBool(7, isLocked_);
+        output.writeBool(10, isLocked_);
       }
       if (combineId_ != 0) {
-        output.writeUInt32(14, combineId_);
+        output.writeUInt32(5, combineId_);
       }
       unknownFields.writeTo(output);
     }
@@ -175,11 +175,11 @@ public final class CombineFormulaDataNotifyOuterClass {
       size = 0;
       if (isLocked_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, isLocked_);
+          .computeBoolSize(10, isLocked_);
       }
       if (combineId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, combineId_);
+          .computeUInt32Size(5, combineId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

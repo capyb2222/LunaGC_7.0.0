@@ -73,17 +73,17 @@ public final class AvatarChangeCostumeRspOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 24: {
 
               avatarGuid_ = input.readUInt64();
               break;
             }
-            case 48: {
+            case 64: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 120: {
+            case 80: {
 
               costumeId_ = input.readUInt32();
               break;
@@ -120,7 +120,7 @@ public final class AvatarChangeCostumeRspOuterClass {
               emu.grasscutter.net.proto.AvatarChangeCostumeRspOuterClass.AvatarChangeCostumeRsp.class, emu.grasscutter.net.proto.AvatarChangeCostumeRspOuterClass.AvatarChangeCostumeRsp.Builder.class);
     }
 
-    public static final int COSTUME_ID_FIELD_NUMBER = 15;
+    public static final int COSTUME_ID_FIELD_NUMBER = 10;
     private int costumeId_;
 
     @java.lang.Override
@@ -128,7 +128,7 @@ public final class AvatarChangeCostumeRspOuterClass {
       return costumeId_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 6;
+    public static final int RETCODE_FIELD_NUMBER = 8;
     private int retcode_;
 
     @java.lang.Override
@@ -136,7 +136,7 @@ public final class AvatarChangeCostumeRspOuterClass {
       return retcode_;
     }
 
-    public static final int AVATAR_GUID_FIELD_NUMBER = 4;
+    public static final int AVATAR_GUID_FIELD_NUMBER = 3;
     private long avatarGuid_;
 
     @java.lang.Override
@@ -159,13 +159,13 @@ public final class AvatarChangeCostumeRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (avatarGuid_ != 0L) {
-        output.writeUInt64(4, avatarGuid_);
+        output.writeUInt64(3, avatarGuid_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(6, retcode_);
+        output.writeInt32(8, retcode_);
       }
       if (costumeId_ != 0) {
-        output.writeUInt32(15, costumeId_);
+        output.writeUInt32(10, costumeId_);
       }
       unknownFields.writeTo(output);
     }
@@ -178,15 +178,15 @@ public final class AvatarChangeCostumeRspOuterClass {
       size = 0;
       if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(4, avatarGuid_);
+          .computeUInt64Size(3, avatarGuid_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(6, retcode_);
+          .computeInt32Size(8, retcode_);
       }
       if (costumeId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, costumeId_);
+          .computeUInt32Size(10, costumeId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

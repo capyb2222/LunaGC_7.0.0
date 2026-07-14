@@ -78,7 +78,7 @@ public final class PotionActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 122: {
+            case 114: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 stageList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO>();
                 mutable_bitField0_ |= 0x00000001;
@@ -122,7 +122,7 @@ public final class PotionActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.PotionActivityDetailInfoOuterClass.PotionActivityDetailInfo.class, emu.grasscutter.net.proto.PotionActivityDetailInfoOuterClass.PotionActivityDetailInfo.Builder.class);
     }
 
-    public static final int STAGE_LIST_FIELD_NUMBER = 15;
+    public static final int STAGE_LIST_FIELD_NUMBER = 14;
     private java.util.List<emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO> stageList_;
 
     @java.lang.Override
@@ -167,7 +167,7 @@ public final class PotionActivityDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < stageList_.size(); i++) {
-        output.writeMessage(15, stageList_.get(i));
+        output.writeMessage(14, stageList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -180,7 +180,7 @@ public final class PotionActivityDetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < stageList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, stageList_.get(i));
+          .computeMessageSize(14, stageList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

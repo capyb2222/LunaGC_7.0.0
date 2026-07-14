@@ -105,7 +105,7 @@ public final class ExpeditionStartReqOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 104: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 avatarIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -113,7 +113,7 @@ public final class ExpeditionStartReqOuterClass {
               avatarIdList_.addInt(input.readUInt32());
               break;
             }
-            case 26: {
+            case 106: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -126,7 +126,7 @@ public final class ExpeditionStartReqOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 72: {
+            case 120: {
 
               pathId_ = input.readUInt32();
               break;
@@ -136,7 +136,7 @@ public final class ExpeditionStartReqOuterClass {
               ePLFCNHCJOD_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 128000: {
 
               dDCIILLJCLH_ = input.readUInt32();
               break;
@@ -176,7 +176,7 @@ public final class ExpeditionStartReqOuterClass {
               emu.grasscutter.net.proto.ExpeditionStartReqOuterClass.ExpeditionStartReq.class, emu.grasscutter.net.proto.ExpeditionStartReqOuterClass.ExpeditionStartReq.Builder.class);
     }
 
-    public static final int AVATAR_ID_LIST_FIELD_NUMBER = 3;
+    public static final int AVATAR_ID_LIST_FIELD_NUMBER = 13;
     private com.google.protobuf.Internal.IntList avatarIdList_;
     /**
      * <code>repeated uint32 avatar_id_list = 3;</code>
@@ -204,7 +204,7 @@ public final class ExpeditionStartReqOuterClass {
     }
     private int avatarIdListMemoizedSerializedSize = -1;
 
-    public static final int DDCIILLJCLH_FIELD_NUMBER = 13;
+    public static final int DDCIILLJCLH_FIELD_NUMBER = 16000;
     private int dDCIILLJCLH_;
     /**
      * <code>uint32 DDCIILLJCLH = 13;</code>
@@ -226,7 +226,7 @@ public final class ExpeditionStartReqOuterClass {
       return ePLFCNHCJOD_;
     }
 
-    public static final int PATH_ID_FIELD_NUMBER = 9;
+    public static final int PATH_ID_FIELD_NUMBER = 15;
     private int pathId_;
     /**
      * <code>uint32 path_id = 9;</code>
@@ -253,20 +253,20 @@ public final class ExpeditionStartReqOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getAvatarIdListList().size() > 0) {
-        output.writeUInt32NoTag(26);
+        output.writeUInt32NoTag(106);
         output.writeUInt32NoTag(avatarIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < avatarIdList_.size(); i++) {
         output.writeUInt32NoTag(avatarIdList_.getInt(i));
       }
       if (pathId_ != 0) {
-        output.writeUInt32(9, pathId_);
+        output.writeUInt32(15, pathId_);
       }
       if (ePLFCNHCJOD_ != 0) {
         output.writeUInt32(11, ePLFCNHCJOD_);
       }
       if (dDCIILLJCLH_ != 0) {
-        output.writeUInt32(13, dDCIILLJCLH_);
+        output.writeUInt32(16000, dDCIILLJCLH_);
       }
       unknownFields.writeTo(output);
     }
@@ -293,7 +293,7 @@ public final class ExpeditionStartReqOuterClass {
       }
       if (pathId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, pathId_);
+          .computeUInt32Size(15, pathId_);
       }
       if (ePLFCNHCJOD_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -301,7 +301,7 @@ public final class ExpeditionStartReqOuterClass {
       }
       if (dDCIILLJCLH_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, dDCIILLJCLH_);
+          .computeUInt32Size(16000, dDCIILLJCLH_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

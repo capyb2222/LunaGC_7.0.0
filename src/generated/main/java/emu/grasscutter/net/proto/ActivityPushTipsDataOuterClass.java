@@ -70,12 +70,12 @@ public final class ActivityPushTipsDataOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 96: {
 
               activityPushTipsId_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 32: {
               int rawValue = input.readEnum();
 
               state_ = rawValue;
@@ -113,7 +113,7 @@ public final class ActivityPushTipsDataOuterClass {
               emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData.class, emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData.Builder.class);
     }
 
-    public static final int ACTIVITY_PUSH_TIPS_ID_FIELD_NUMBER = 8;
+    public static final int ACTIVITY_PUSH_TIPS_ID_FIELD_NUMBER = 12;
     private int activityPushTipsId_;
 
     @java.lang.Override
@@ -121,7 +121,7 @@ public final class ActivityPushTipsDataOuterClass {
       return activityPushTipsId_;
     }
 
-    public static final int STATE_FIELD_NUMBER = 14;
+    public static final int STATE_FIELD_NUMBER = 4;
     private int state_;
 
     @java.lang.Override public int getStateValue() {
@@ -149,10 +149,10 @@ public final class ActivityPushTipsDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (activityPushTipsId_ != 0) {
-        output.writeUInt32(8, activityPushTipsId_);
+        output.writeUInt32(12, activityPushTipsId_);
       }
       if (state_ != emu.grasscutter.net.proto.ActivityPushTipsStateOuterClass.ActivityPushTipsState.ActivityPushTipsState_NONE.getNumber()) {
-        output.writeEnum(14, state_);
+        output.writeEnum(4, state_);
       }
       unknownFields.writeTo(output);
     }
@@ -165,11 +165,11 @@ public final class ActivityPushTipsDataOuterClass {
       size = 0;
       if (activityPushTipsId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, activityPushTipsId_);
+          .computeUInt32Size(12, activityPushTipsId_);
       }
       if (state_ != emu.grasscutter.net.proto.ActivityPushTipsStateOuterClass.ActivityPushTipsState.ActivityPushTipsState_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(14, state_);
+          .computeEnumSize(4, state_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

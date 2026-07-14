@@ -86,12 +86,12 @@ public final class NormalUidOpNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 56: {
 
               duration_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 32: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 paramList_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -99,7 +99,7 @@ public final class NormalUidOpNotifyOuterClass {
               paramList_.addInt(input.readUInt32());
               break;
             }
-            case 42: {
+            case 34: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -112,7 +112,7 @@ public final class NormalUidOpNotifyOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 56: {
+            case 40: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 paramUidList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -120,7 +120,7 @@ public final class NormalUidOpNotifyOuterClass {
               paramUidList_.addInt(input.readUInt32());
               break;
             }
-            case 58: {
+            case 42: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -133,7 +133,7 @@ public final class NormalUidOpNotifyOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 72: {
+            case 48: {
 
               paramIndex_ = input.readUInt32();
               break;
@@ -176,7 +176,7 @@ public final class NormalUidOpNotifyOuterClass {
               emu.grasscutter.net.proto.NormalUidOpNotifyOuterClass.NormalUidOpNotify.class, emu.grasscutter.net.proto.NormalUidOpNotifyOuterClass.NormalUidOpNotify.Builder.class);
     }
 
-    public static final int PARAM_UID_LIST_FIELD_NUMBER = 7;
+    public static final int PARAM_UID_LIST_FIELD_NUMBER = 5;
     private com.google.protobuf.Internal.IntList paramUidList_;
 
     @java.lang.Override
@@ -194,7 +194,7 @@ public final class NormalUidOpNotifyOuterClass {
     }
     private int paramUidListMemoizedSerializedSize = -1;
 
-    public static final int PARAM_LIST_FIELD_NUMBER = 5;
+    public static final int PARAM_LIST_FIELD_NUMBER = 4;
     private com.google.protobuf.Internal.IntList paramList_;
 
     @java.lang.Override
@@ -212,7 +212,7 @@ public final class NormalUidOpNotifyOuterClass {
     }
     private int paramListMemoizedSerializedSize = -1;
 
-    public static final int PARAM_INDEX_FIELD_NUMBER = 9;
+    public static final int PARAM_INDEX_FIELD_NUMBER = 6;
     private int paramIndex_;
 
     @java.lang.Override
@@ -220,7 +220,7 @@ public final class NormalUidOpNotifyOuterClass {
       return paramIndex_;
     }
 
-    public static final int DURATION_FIELD_NUMBER = 1;
+    public static final int DURATION_FIELD_NUMBER = 7;
     private int duration_;
 
     @java.lang.Override
@@ -244,24 +244,24 @@ public final class NormalUidOpNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (duration_ != 0) {
-        output.writeUInt32(1, duration_);
+        output.writeUInt32(7, duration_);
       }
       if (getParamListList().size() > 0) {
-        output.writeUInt32NoTag(42);
+        output.writeUInt32NoTag(34);
         output.writeUInt32NoTag(paramListMemoizedSerializedSize);
       }
       for (int i = 0; i < paramList_.size(); i++) {
         output.writeUInt32NoTag(paramList_.getInt(i));
       }
       if (getParamUidListList().size() > 0) {
-        output.writeUInt32NoTag(58);
+        output.writeUInt32NoTag(42);
         output.writeUInt32NoTag(paramUidListMemoizedSerializedSize);
       }
       for (int i = 0; i < paramUidList_.size(); i++) {
         output.writeUInt32NoTag(paramUidList_.getInt(i));
       }
       if (paramIndex_ != 0) {
-        output.writeUInt32(9, paramIndex_);
+        output.writeUInt32(6, paramIndex_);
       }
       unknownFields.writeTo(output);
     }
@@ -274,7 +274,7 @@ public final class NormalUidOpNotifyOuterClass {
       size = 0;
       if (duration_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, duration_);
+          .computeUInt32Size(7, duration_);
       }
       {
         int dataSize = 0;
@@ -306,7 +306,7 @@ public final class NormalUidOpNotifyOuterClass {
       }
       if (paramIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, paramIndex_);
+          .computeUInt32Size(6, paramIndex_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

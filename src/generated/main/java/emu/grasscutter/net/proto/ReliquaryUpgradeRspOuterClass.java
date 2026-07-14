@@ -92,27 +92,27 @@ public final class ReliquaryUpgradeRspOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 64: {
 
               oldLevel_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 24: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 56: {
+            case 120: {
 
               curLevel_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 16: {
 
               targetReliquaryGuid_ = input.readUInt64();
               break;
             }
-            case 72: {
+            case 112: {
 
               powerUpRate_ = input.readUInt32();
               break;
@@ -138,7 +138,7 @@ public final class ReliquaryUpgradeRspOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 112: {
+            case 128000: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 curAppendPropList_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -146,7 +146,7 @@ public final class ReliquaryUpgradeRspOuterClass {
               curAppendPropList_.addInt(input.readUInt32());
               break;
             }
-            case 114: {
+            case 128002: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -215,7 +215,7 @@ public final class ReliquaryUpgradeRspOuterClass {
     }
     private int oldAppendPropListMemoizedSerializedSize = -1;
 
-    public static final int CUR_APPEND_PROP_LIST_FIELD_NUMBER = 14;
+    public static final int CUR_APPEND_PROP_LIST_FIELD_NUMBER = 16000;
     private com.google.protobuf.Internal.IntList curAppendPropList_;
 
     @java.lang.Override
@@ -233,7 +233,7 @@ public final class ReliquaryUpgradeRspOuterClass {
     }
     private int curAppendPropListMemoizedSerializedSize = -1;
 
-    public static final int CUR_LEVEL_FIELD_NUMBER = 7;
+    public static final int CUR_LEVEL_FIELD_NUMBER = 15;
     private int curLevel_;
 
     @java.lang.Override
@@ -241,7 +241,7 @@ public final class ReliquaryUpgradeRspOuterClass {
       return curLevel_;
     }
 
-    public static final int OLD_LEVEL_FIELD_NUMBER = 2;
+    public static final int OLD_LEVEL_FIELD_NUMBER = 8;
     private int oldLevel_;
 
     @java.lang.Override
@@ -249,7 +249,7 @@ public final class ReliquaryUpgradeRspOuterClass {
       return oldLevel_;
     }
 
-    public static final int TARGET_RELIQUARY_GUID_FIELD_NUMBER = 8;
+    public static final int TARGET_RELIQUARY_GUID_FIELD_NUMBER = 2;
     private long targetReliquaryGuid_;
 
     @java.lang.Override
@@ -257,7 +257,7 @@ public final class ReliquaryUpgradeRspOuterClass {
       return targetReliquaryGuid_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 6;
+    public static final int RETCODE_FIELD_NUMBER = 3;
     private int retcode_;
 
     @java.lang.Override
@@ -265,7 +265,7 @@ public final class ReliquaryUpgradeRspOuterClass {
       return retcode_;
     }
 
-    public static final int POWER_UP_RATE_FIELD_NUMBER = 9;
+    public static final int POWER_UP_RATE_FIELD_NUMBER = 14;
     private int powerUpRate_;
 
     @java.lang.Override
@@ -296,26 +296,26 @@ public final class ReliquaryUpgradeRspOuterClass {
         output.writeUInt32NoTag(oldAppendPropList_.getInt(i));
       }
       if (getCurAppendPropListList().size() > 0) {
-        output.writeUInt32NoTag(114);
+        output.writeUInt32NoTag(128002);
         output.writeUInt32NoTag(curAppendPropListMemoizedSerializedSize);
       }
       for (int i = 0; i < curAppendPropList_.size(); i++) {
         output.writeUInt32NoTag(curAppendPropList_.getInt(i));
       }
       if (curLevel_ != 0) {
-        output.writeUInt32(7, curLevel_);
+        output.writeUInt32(15, curLevel_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(6, retcode_);
+        output.writeInt32(3, retcode_);
       }
       if (powerUpRate_ != 0) {
-        output.writeUInt32(9, powerUpRate_);
+        output.writeUInt32(14, powerUpRate_);
       }
       if (oldLevel_ != 0) {
-        output.writeUInt32(2, oldLevel_);
+        output.writeUInt32(8, oldLevel_);
       }
       if (targetReliquaryGuid_ != 0L) {
-        output.writeUInt64(8, targetReliquaryGuid_);
+        output.writeUInt64(2, targetReliquaryGuid_);
       }
       unknownFields.writeTo(output);
     }
@@ -348,7 +348,7 @@ public final class ReliquaryUpgradeRspOuterClass {
         }
         size += dataSize;
         if (!getCurAppendPropListList().isEmpty()) {
-          size += 1;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
@@ -356,23 +356,23 @@ public final class ReliquaryUpgradeRspOuterClass {
       }
       if (curLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, curLevel_);
+          .computeUInt32Size(15, curLevel_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(6, retcode_);
+          .computeInt32Size(3, retcode_);
       }
       if (powerUpRate_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, powerUpRate_);
+          .computeUInt32Size(14, powerUpRate_);
       }
       if (oldLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, oldLevel_);
+          .computeUInt32Size(8, oldLevel_);
       }
       if (targetReliquaryGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(8, targetReliquaryGuid_);
+          .computeUInt64Size(2, targetReliquaryGuid_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

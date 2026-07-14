@@ -74,7 +74,7 @@ public final class DungeonSlipRevivePointActivateReqOuterClass {
             case 0:
               done = true;
               break;
-            case 88: {
+            case 24: {
 
               slipRevivePointId_ = input.readUInt32();
               break;
@@ -111,7 +111,7 @@ public final class DungeonSlipRevivePointActivateReqOuterClass {
               emu.grasscutter.net.proto.DungeonSlipRevivePointActivateReqOuterClass.DungeonSlipRevivePointActivateReq.class, emu.grasscutter.net.proto.DungeonSlipRevivePointActivateReqOuterClass.DungeonSlipRevivePointActivateReq.Builder.class);
     }
 
-    public static final int SLIP_REVIVE_POINT_ID_FIELD_NUMBER = 11;
+    public static final int SLIP_REVIVE_POINT_ID_FIELD_NUMBER = 3;
     private int slipRevivePointId_;
     /**
      * <code>uint32 slip_revive_point_id = 11;</code>
@@ -137,7 +137,7 @@ public final class DungeonSlipRevivePointActivateReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (slipRevivePointId_ != 0) {
-        output.writeUInt32(11, slipRevivePointId_);
+        output.writeUInt32(3, slipRevivePointId_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +150,7 @@ public final class DungeonSlipRevivePointActivateReqOuterClass {
       size = 0;
       if (slipRevivePointId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, slipRevivePointId_);
+          .computeUInt32Size(3, slipRevivePointId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

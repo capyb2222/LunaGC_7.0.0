@@ -69,7 +69,7 @@ public final class GetDailyDungeonEntryInfoReqOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 104: {
 
               sceneId_ = input.readUInt32();
               break;
@@ -106,7 +106,7 @@ public final class GetDailyDungeonEntryInfoReqOuterClass {
               emu.grasscutter.net.proto.GetDailyDungeonEntryInfoReqOuterClass.GetDailyDungeonEntryInfoReq.class, emu.grasscutter.net.proto.GetDailyDungeonEntryInfoReqOuterClass.GetDailyDungeonEntryInfoReq.Builder.class);
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 3;
+    public static final int SCENE_ID_FIELD_NUMBER = 13;
     private int sceneId_;
     /**
      * <code>uint32 scene_id = 3;</code>
@@ -132,7 +132,7 @@ public final class GetDailyDungeonEntryInfoReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (sceneId_ != 0) {
-        output.writeUInt32(3, sceneId_);
+        output.writeUInt32(13, sceneId_);
       }
       unknownFields.writeTo(output);
     }
@@ -145,7 +145,7 @@ public final class GetDailyDungeonEntryInfoReqOuterClass {
       size = 0;
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, sceneId_);
+          .computeUInt32Size(13, sceneId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

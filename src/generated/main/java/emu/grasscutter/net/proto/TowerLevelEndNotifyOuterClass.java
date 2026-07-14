@@ -130,22 +130,22 @@ public final class TowerLevelEndNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 64: {
 
               continueState_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 128000: {
 
               nextFloorId_ = input.readUInt32();
               break;
             }
-            case 56: {
+            case 88: {
 
               isSuccess_ = input.readBool();
               break;
             }
-            case 106: {
+            case 58: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 rewardItemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>();
                 mutable_bitField0_ |= 0x00000002;
@@ -154,7 +154,7 @@ public final class TowerLevelEndNotifyOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.parser(), extensionRegistry));
               break;
             }
-            case 112: {
+            case 32: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 finishedStarCondList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -162,7 +162,7 @@ public final class TowerLevelEndNotifyOuterClass {
               finishedStarCondList_.addInt(input.readUInt32());
               break;
             }
-            case 114: {
+            case 34: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -330,7 +330,7 @@ public final class TowerLevelEndNotifyOuterClass {
       // @@protoc_insertion_point(enum_scope:TowerLevelEndNotify.ContinueStateType)
     }
 
-    public static final int FINISHED_STAR_COND_LIST_FIELD_NUMBER = 3;
+    public static final int FINISHED_STAR_COND_LIST_FIELD_NUMBER = 4;
     private com.google.protobuf.Internal.IntList finishedStarCondList_;
     /**
      * <code>repeated uint32 finished_star_cond_list = 14;</code>
@@ -358,7 +358,7 @@ public final class TowerLevelEndNotifyOuterClass {
     }
     private int finishedStarCondListMemoizedSerializedSize = -1;
 
-    public static final int IS_SUCCESS_FIELD_NUMBER = 14;
+    public static final int IS_SUCCESS_FIELD_NUMBER = 11;
     private boolean isSuccess_;
     /**
      * <code>bool is_success = 7;</code>
@@ -380,7 +380,7 @@ public final class TowerLevelEndNotifyOuterClass {
       return continueState_;
     }
 
-    public static final int REWARD_ITEM_LIST_FIELD_NUMBER = 4;
+    public static final int REWARD_ITEM_LIST_FIELD_NUMBER = 7;
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> rewardItemList_;
     /**
      * <code>repeated .ItemParam reward_item_list = 13;</code>
@@ -420,7 +420,7 @@ public final class TowerLevelEndNotifyOuterClass {
       return rewardItemList_.get(index);
     }
 
-    public static final int NEXT_FLOOR_ID_FIELD_NUMBER = 7;
+    public static final int NEXT_FLOOR_ID_FIELD_NUMBER = 16000;
     private int nextFloorId_;
     /**
      * <code>uint32 next_floor_id = 5;</code>
@@ -450,16 +450,16 @@ public final class TowerLevelEndNotifyOuterClass {
         output.writeUInt32(8, continueState_);
       }
       if (nextFloorId_ != 0) {
-        output.writeUInt32(7, nextFloorId_);
+        output.writeUInt32(16000, nextFloorId_);
       }
       if (isSuccess_ != false) {
-        output.writeBool(14, isSuccess_);
+        output.writeBool(11, isSuccess_);
       }
       for (int i = 0; i < rewardItemList_.size(); i++) {
-        output.writeMessage(4, rewardItemList_.get(i));
+        output.writeMessage(7, rewardItemList_.get(i));
       }
       if (getFinishedStarCondListList().size() > 0) {
-        output.writeUInt32NoTag(26);
+        output.writeUInt32NoTag(34);
         output.writeUInt32NoTag(finishedStarCondListMemoizedSerializedSize);
       }
       for (int i = 0; i < finishedStarCondList_.size(); i++) {
@@ -480,15 +480,15 @@ public final class TowerLevelEndNotifyOuterClass {
       }
       if (nextFloorId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, nextFloorId_);
+          .computeUInt32Size(16000, nextFloorId_);
       }
       if (isSuccess_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(14, isSuccess_);
+          .computeBoolSize(11, isSuccess_);
       }
       for (int i = 0; i < rewardItemList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, rewardItemList_.get(i));
+          .computeMessageSize(7, rewardItemList_.get(i));
       }
       {
         int dataSize = 0;

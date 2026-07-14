@@ -78,7 +78,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
             case 0:
               done = true;
               break;
-            case 50: {
+            case 26: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 overrideMap_ = new java.util.ArrayList<emu.grasscutter.net.proto.AbilityScalarValueEntryOuterClass.AbilityScalarValueEntry>();
                 mutable_bitField0_ |= 0x00000001;
@@ -122,7 +122,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
               emu.grasscutter.net.proto.AbilityMetaReInitOverrideMapOuterClass.AbilityMetaReInitOverrideMap.class, emu.grasscutter.net.proto.AbilityMetaReInitOverrideMapOuterClass.AbilityMetaReInitOverrideMap.Builder.class);
     }
 
-    public static final int OVERRIDE_MAP_FIELD_NUMBER = 6;
+    public static final int OVERRIDE_MAP_FIELD_NUMBER = 3;
     private java.util.List<emu.grasscutter.net.proto.AbilityScalarValueEntryOuterClass.AbilityScalarValueEntry> overrideMap_;
 
     @java.lang.Override
@@ -167,7 +167,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < overrideMap_.size(); i++) {
-        output.writeMessage(6, overrideMap_.get(i));
+        output.writeMessage(3, overrideMap_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -180,7 +180,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
       size = 0;
       for (int i = 0; i < overrideMap_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, overrideMap_.get(i));
+          .computeMessageSize(3, overrideMap_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

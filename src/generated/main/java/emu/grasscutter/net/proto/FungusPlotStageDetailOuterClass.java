@@ -79,12 +79,12 @@ public final class FungusPlotStageDetailOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
+            case 64: {
 
               isOpen_ = input.readBool();
               break;
             }
-            case 64: {
+            case 16: {
 
               stageId_ = input.readUInt32();
               break;
@@ -121,7 +121,7 @@ public final class FungusPlotStageDetailOuterClass {
               emu.grasscutter.net.proto.FungusPlotStageDetailOuterClass.FungusPlotStageDetail.class, emu.grasscutter.net.proto.FungusPlotStageDetailOuterClass.FungusPlotStageDetail.Builder.class);
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 7;
+    public static final int IS_OPEN_FIELD_NUMBER = 8;
     private boolean isOpen_;
     /**
      * <code>bool is_open = 7;</code>
@@ -132,7 +132,7 @@ public final class FungusPlotStageDetailOuterClass {
       return isOpen_;
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 8;
+    public static final int STAGE_ID_FIELD_NUMBER = 2;
     private int stageId_;
     /**
      * <code>uint32 stage_id = 8;</code>
@@ -158,10 +158,10 @@ public final class FungusPlotStageDetailOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isOpen_ != false) {
-        output.writeBool(7, isOpen_);
+        output.writeBool(8, isOpen_);
       }
       if (stageId_ != 0) {
-        output.writeUInt32(8, stageId_);
+        output.writeUInt32(2, stageId_);
       }
       unknownFields.writeTo(output);
     }
@@ -174,11 +174,11 @@ public final class FungusPlotStageDetailOuterClass {
       size = 0;
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, isOpen_);
+          .computeBoolSize(8, isOpen_);
       }
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, stageId_);
+          .computeUInt32Size(2, stageId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -69,7 +69,7 @@ public final class AvatarGainCostumeNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
+            case 120: {
 
               costumeId_ = input.readUInt32();
               break;
@@ -106,7 +106,7 @@ public final class AvatarGainCostumeNotifyOuterClass {
               emu.grasscutter.net.proto.AvatarGainCostumeNotifyOuterClass.AvatarGainCostumeNotify.class, emu.grasscutter.net.proto.AvatarGainCostumeNotifyOuterClass.AvatarGainCostumeNotify.Builder.class);
     }
 
-    public static final int COSTUME_ID_FIELD_NUMBER = 5;
+    public static final int COSTUME_ID_FIELD_NUMBER = 15;
     private int costumeId_;
 
     @java.lang.Override
@@ -129,7 +129,7 @@ public final class AvatarGainCostumeNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (costumeId_ != 0) {
-        output.writeUInt32(5, costumeId_);
+        output.writeUInt32(15, costumeId_);
       }
       unknownFields.writeTo(output);
     }
@@ -142,7 +142,7 @@ public final class AvatarGainCostumeNotifyOuterClass {
       size = 0;
       if (costumeId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, costumeId_);
+          .computeUInt32Size(15, costumeId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

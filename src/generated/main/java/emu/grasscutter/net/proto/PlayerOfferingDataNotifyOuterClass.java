@@ -82,7 +82,7 @@ public final class PlayerOfferingDataNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 34: {
+            case 50: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 offeringDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.PlayerOfferingDataOuterClass.PlayerOfferingData>();
                 mutable_bitField0_ |= 0x00000001;

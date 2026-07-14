@@ -91,7 +91,7 @@ public final class AbilityIdentifierOuterClass {
               instancedModifierId_ = input.readUInt32();
               break;
             }
-            case 56: {
+            case 96: {
 
               localId_ = input.readInt32();
               break;
@@ -165,7 +165,7 @@ public final class AbilityIdentifierOuterClass {
       return instancedAbilityId_;
     }
 
-    public static final int LOCAL_ID_FIELD_NUMBER = 7;
+    public static final int LOCAL_ID_FIELD_NUMBER = 12;
     private int localId_;
 
     @java.lang.Override
@@ -205,7 +205,7 @@ public final class AbilityIdentifierOuterClass {
         output.writeUInt32(4, instancedModifierId_);
       }
       if (localId_ != 0) {
-        output.writeInt32(7, localId_);
+        output.writeInt32(12, localId_);
       }
       if (isServerbuffModifier_ != false) {
         output.writeBool(8, isServerbuffModifier_);
@@ -232,7 +232,7 @@ public final class AbilityIdentifierOuterClass {
       }
       if (localId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(7, localId_);
+          .computeInt32Size(12, localId_);
       }
       if (isServerbuffModifier_ != false) {
         size += com.google.protobuf.CodedOutputStream

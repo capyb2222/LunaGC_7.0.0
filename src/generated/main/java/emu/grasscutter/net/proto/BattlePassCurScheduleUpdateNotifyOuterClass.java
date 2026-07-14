@@ -89,17 +89,17 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 88: {
 
               haveCurSchedule_ = input.readBool();
               break;
             }
-            case 56: {
+            case 72: {
 
               isViewed_ = input.readBool();
               break;
             }
-            case 10: {
+            case 18: {
               emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule.Builder subBuilder = null;
               if (curSchedule_ != null) {
                 subBuilder = curSchedule_.toBuilder();
@@ -154,7 +154,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
               emu.grasscutter.net.proto.BattlePassCurScheduleUpdateNotifyOuterClass.BattlePassCurScheduleUpdateNotify.class, emu.grasscutter.net.proto.BattlePassCurScheduleUpdateNotifyOuterClass.BattlePassCurScheduleUpdateNotify.Builder.class);
     }
 
-    public static final int CUR_SCHEDULE_FIELD_NUMBER = 1;
+    public static final int CUR_SCHEDULE_FIELD_NUMBER = 2;
     private emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule curSchedule_;
 
     @java.lang.Override
@@ -194,7 +194,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
       return pHLGOADDENJ_;
     }
 
-    public static final int IS_VIEWED_FIELD_NUMBER = 7;
+    public static final int IS_VIEWED_FIELD_NUMBER = 9;
     private boolean isViewed_;
 
     @java.lang.Override
@@ -202,7 +202,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
       return isViewed_;
     }
 
-    public static final int HAVE_CUR_SCHEDULE_FIELD_NUMBER = 3;
+    public static final int HAVE_CUR_SCHEDULE_FIELD_NUMBER = 11;
     private boolean haveCurSchedule_;
 
     @java.lang.Override
@@ -225,13 +225,13 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (curSchedule_ != null) {
-        output.writeMessage(1, getCurSchedule());
+        output.writeMessage(2, getCurSchedule());
       }
       if (haveCurSchedule_ != false) {
-        output.writeBool(3, haveCurSchedule_);
+        output.writeBool(11, haveCurSchedule_);
       }
       if (isViewed_ != false) {
-        output.writeBool(7, isViewed_);
+        output.writeBool(9, isViewed_);
       }
       if (pHLGOADDENJ_ != false) {
         output.writeBool(6, pHLGOADDENJ_);
@@ -250,15 +250,15 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
       size = 0;
       if (curSchedule_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getCurSchedule());
+          .computeMessageSize(2, getCurSchedule());
       }
       if (haveCurSchedule_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, haveCurSchedule_);
+          .computeBoolSize(11, haveCurSchedule_);
       }
       if (isViewed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, isViewed_);
+          .computeBoolSize(9, isViewed_);
       }
       if (pHLGOADDENJ_ != false) {
         size += com.google.protobuf.CodedOutputStream

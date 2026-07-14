@@ -200,7 +200,7 @@ public final class WinterCampActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 128000: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 jNAOCEHBJFL_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -208,7 +208,7 @@ public final class WinterCampActivityDetailInfoOuterClass {
               jNAOCEHBJFL_.addInt(input.readUInt32());
               break;
             }
-            case 26: {
+            case 128002: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -234,7 +234,7 @@ public final class WinterCampActivityDetailInfoOuterClass {
 
               break;
             }
-            case 48: {
+            case 24: {
 
               isContentClosed_ = input.readBool();
               break;
@@ -359,7 +359,7 @@ public final class WinterCampActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.WinterCampActivityDetailInfoOuterClass.WinterCampActivityDetailInfo.class, emu.grasscutter.net.proto.WinterCampActivityDetailInfoOuterClass.WinterCampActivityDetailInfo.Builder.class);
     }
 
-    public static final int JNAOCEHBJFL_FIELD_NUMBER = 3;
+    public static final int JNAOCEHBJFL_FIELD_NUMBER = 16000;
     private com.google.protobuf.Internal.IntList jNAOCEHBJFL_;
     /**
      * <code>repeated uint32 JNAOCEHBJFL = 3;</code>
@@ -599,7 +599,7 @@ public final class WinterCampActivityDetailInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getJNAOCEHBJFLList().size() > 0) {
-        output.writeUInt32NoTag(26);
+        output.writeUInt32NoTag(128002);
         output.writeUInt32NoTag(jNAOCEHBJFLMemoizedSerializedSize);
       }
       for (int i = 0; i < jNAOCEHBJFL_.size(); i++) {
@@ -651,7 +651,7 @@ public final class WinterCampActivityDetailInfoOuterClass {
         }
         size += dataSize;
         if (!getJNAOCEHBJFLList().isEmpty()) {
-          size += 1;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }

@@ -69,7 +69,7 @@ public final class AbilityMetaSetKilledStateOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 48: {
 
               killed_ = input.readBool();
               break;
@@ -106,7 +106,7 @@ public final class AbilityMetaSetKilledStateOuterClass {
               emu.grasscutter.net.proto.AbilityMetaSetKilledStateOuterClass.AbilityMetaSetKilledState.class, emu.grasscutter.net.proto.AbilityMetaSetKilledStateOuterClass.AbilityMetaSetKilledState.Builder.class);
     }
 
-    public static final int KILLED_FIELD_NUMBER = 1;
+    public static final int KILLED_FIELD_NUMBER = 6;
     private boolean killed_;
     /**
      * <code>bool killed = 6;</code>
@@ -132,7 +132,7 @@ public final class AbilityMetaSetKilledStateOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (killed_ != false) {
-        output.writeBool(1, killed_);
+        output.writeBool(6, killed_);
       }
       unknownFields.writeTo(output);
     }
@@ -145,7 +145,7 @@ public final class AbilityMetaSetKilledStateOuterClass {
       size = 0;
       if (killed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1, killed_);
+          .computeBoolSize(6, killed_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

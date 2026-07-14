@@ -106,17 +106,17 @@ public final class TowerLevelStarCondNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 40: {
 
               levelIndex_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 88: {
 
               floorId_ = input.readUInt32();
               break;
             }
-            case 82: {
+            case 26: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 condDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.TowerLevelStarCondDataOuterClass.TowerLevelStarCondData>();
                 mutable_bitField0_ |= 0x00000001;
@@ -160,7 +160,7 @@ public final class TowerLevelStarCondNotifyOuterClass {
               emu.grasscutter.net.proto.TowerLevelStarCondNotifyOuterClass.TowerLevelStarCondNotify.class, emu.grasscutter.net.proto.TowerLevelStarCondNotifyOuterClass.TowerLevelStarCondNotify.Builder.class);
     }
 
-    public static final int FLOOR_ID_FIELD_NUMBER = 7;
+    public static final int FLOOR_ID_FIELD_NUMBER = 11;
     private int floorId_;
     /**
      * <code>uint32 floor_id = 9;</code>
@@ -171,7 +171,7 @@ public final class TowerLevelStarCondNotifyOuterClass {
       return floorId_;
     }
 
-    public static final int LEVEL_INDEX_FIELD_NUMBER = 13;
+    public static final int LEVEL_INDEX_FIELD_NUMBER = 5;
     private int levelIndex_;
     /**
      * <code>uint32 level_index = 2;</code>
@@ -182,7 +182,7 @@ public final class TowerLevelStarCondNotifyOuterClass {
       return levelIndex_;
     }
 
-    public static final int COND_DATA_LIST_FIELD_NUMBER = 5;
+    public static final int COND_DATA_LIST_FIELD_NUMBER = 3;
     private java.util.List<emu.grasscutter.net.proto.TowerLevelStarCondDataOuterClass.TowerLevelStarCondData> condDataList_;
     /**
      * <code>repeated .TowerLevelStarCondData cond_data_list = 10;</code>
@@ -237,13 +237,13 @@ public final class TowerLevelStarCondNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (levelIndex_ != 0) {
-        output.writeUInt32(13, levelIndex_);
+        output.writeUInt32(5, levelIndex_);
       }
       if (floorId_ != 0) {
-        output.writeUInt32(7, floorId_);
+        output.writeUInt32(11, floorId_);
       }
       for (int i = 0; i < condDataList_.size(); i++) {
-        output.writeMessage(5, condDataList_.get(i));
+        output.writeMessage(3, condDataList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -256,15 +256,15 @@ public final class TowerLevelStarCondNotifyOuterClass {
       size = 0;
       if (levelIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, levelIndex_);
+          .computeUInt32Size(5, levelIndex_);
       }
       if (floorId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, floorId_);
+          .computeUInt32Size(11, floorId_);
       }
       for (int i = 0; i < condDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, condDataList_.get(i));
+          .computeMessageSize(3, condDataList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

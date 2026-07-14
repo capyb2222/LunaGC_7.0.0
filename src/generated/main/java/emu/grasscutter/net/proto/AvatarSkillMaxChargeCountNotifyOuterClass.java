@@ -73,17 +73,17 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 80: {
 
               avatarGuid_ = input.readUInt64();
               break;
             }
-            case 48: {
+            case 24: {
 
               skillId_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 88: {
 
               maxChargeCount_ = input.readUInt32();
               break;
@@ -120,7 +120,7 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
               emu.grasscutter.net.proto.AvatarSkillMaxChargeCountNotifyOuterClass.AvatarSkillMaxChargeCountNotify.class, emu.grasscutter.net.proto.AvatarSkillMaxChargeCountNotifyOuterClass.AvatarSkillMaxChargeCountNotify.Builder.class);
     }
 
-    public static final int SKILL_ID_FIELD_NUMBER = 6;
+    public static final int SKILL_ID_FIELD_NUMBER = 3;
     private int skillId_;
 
     @java.lang.Override
@@ -128,7 +128,7 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
       return skillId_;
     }
 
-    public static final int MAX_CHARGE_COUNT_FIELD_NUMBER = 8;
+    public static final int MAX_CHARGE_COUNT_FIELD_NUMBER = 11;
     private int maxChargeCount_;
 
     @java.lang.Override
@@ -136,7 +136,7 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
       return maxChargeCount_;
     }
 
-    public static final int AVATAR_GUID_FIELD_NUMBER = 1;
+    public static final int AVATAR_GUID_FIELD_NUMBER = 10;
     private long avatarGuid_;
 
     @java.lang.Override
@@ -159,13 +159,13 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (avatarGuid_ != 0L) {
-        output.writeUInt64(1, avatarGuid_);
+        output.writeUInt64(10, avatarGuid_);
       }
       if (skillId_ != 0) {
-        output.writeUInt32(6, skillId_);
+        output.writeUInt32(3, skillId_);
       }
       if (maxChargeCount_ != 0) {
-        output.writeUInt32(8, maxChargeCount_);
+        output.writeUInt32(11, maxChargeCount_);
       }
       unknownFields.writeTo(output);
     }
@@ -178,15 +178,15 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
       size = 0;
       if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(1, avatarGuid_);
+          .computeUInt64Size(10, avatarGuid_);
       }
       if (skillId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, skillId_);
+          .computeUInt32Size(3, skillId_);
       }
       if (maxChargeCount_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, maxChargeCount_);
+          .computeUInt32Size(11, maxChargeCount_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

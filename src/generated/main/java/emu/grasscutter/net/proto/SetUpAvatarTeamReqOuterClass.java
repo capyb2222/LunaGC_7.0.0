@@ -79,12 +79,12 @@ public final class SetUpAvatarTeamReqOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
+            case 16: {
 
               curAvatarGuid_ = input.readUInt64();
               break;
             }
-            case 64: {
+            case 48: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 avatarTeamGuidList_ = newLongList();
                 mutable_bitField0_ |= 0x00000001;
@@ -92,7 +92,7 @@ public final class SetUpAvatarTeamReqOuterClass {
               avatarTeamGuidList_.addLong(input.readUInt64());
               break;
             }
-            case 66: {
+            case 50: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -105,7 +105,7 @@ public final class SetUpAvatarTeamReqOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 72: {
+            case 112: {
 
               teamId_ = input.readUInt32();
               break;
@@ -145,7 +145,7 @@ public final class SetUpAvatarTeamReqOuterClass {
               emu.grasscutter.net.proto.SetUpAvatarTeamReqOuterClass.SetUpAvatarTeamReq.class, emu.grasscutter.net.proto.SetUpAvatarTeamReqOuterClass.SetUpAvatarTeamReq.Builder.class);
     }
 
-    public static final int AVATAR_TEAM_GUID_LIST_FIELD_NUMBER = 8;
+    public static final int AVATAR_TEAM_GUID_LIST_FIELD_NUMBER = 6;
     private com.google.protobuf.Internal.LongList avatarTeamGuidList_;
 
     @java.lang.Override
@@ -163,7 +163,7 @@ public final class SetUpAvatarTeamReqOuterClass {
     }
     private int avatarTeamGuidListMemoizedSerializedSize = -1;
 
-    public static final int CUR_AVATAR_GUID_FIELD_NUMBER = 5;
+    public static final int CUR_AVATAR_GUID_FIELD_NUMBER = 2;
     private long curAvatarGuid_;
 
     @java.lang.Override
@@ -171,7 +171,7 @@ public final class SetUpAvatarTeamReqOuterClass {
       return curAvatarGuid_;
     }
 
-    public static final int TEAM_ID_FIELD_NUMBER = 9;
+    public static final int TEAM_ID_FIELD_NUMBER = 14;
     private int teamId_;
 
     @java.lang.Override
@@ -195,17 +195,17 @@ public final class SetUpAvatarTeamReqOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (curAvatarGuid_ != 0L) {
-        output.writeUInt64(5, curAvatarGuid_);
+        output.writeUInt64(2, curAvatarGuid_);
       }
       if (getAvatarTeamGuidListList().size() > 0) {
-        output.writeUInt32NoTag(66);
+        output.writeUInt32NoTag(50);
         output.writeUInt32NoTag(avatarTeamGuidListMemoizedSerializedSize);
       }
       for (int i = 0; i < avatarTeamGuidList_.size(); i++) {
         output.writeUInt64NoTag(avatarTeamGuidList_.getLong(i));
       }
       if (teamId_ != 0) {
-        output.writeUInt32(9, teamId_);
+        output.writeUInt32(14, teamId_);
       }
       unknownFields.writeTo(output);
     }
@@ -218,7 +218,7 @@ public final class SetUpAvatarTeamReqOuterClass {
       size = 0;
       if (curAvatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(5, curAvatarGuid_);
+          .computeUInt64Size(2, curAvatarGuid_);
       }
       {
         int dataSize = 0;
@@ -236,7 +236,7 @@ public final class SetUpAvatarTeamReqOuterClass {
       }
       if (teamId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, teamId_);
+          .computeUInt32Size(14, teamId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

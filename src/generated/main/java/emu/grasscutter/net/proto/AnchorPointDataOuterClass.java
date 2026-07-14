@@ -81,12 +81,12 @@ public final class AnchorPointDataOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 80: {
 
               endTime_ = input.readUInt32();
               break;
             }
-            case 18: {
+            case 90: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (rot_ != null) {
                 subBuilder = rot_.toBuilder();
@@ -99,17 +99,17 @@ public final class AnchorPointDataOuterClass {
 
               break;
             }
-            case 32: {
+            case 48: {
 
               sceneId_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 8: {
 
               anchorPointId_ = input.readUInt32();
               break;
             }
-            case 106: {
+            case 122: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (pos_ != null) {
                 subBuilder = pos_.toBuilder();
@@ -154,7 +154,7 @@ public final class AnchorPointDataOuterClass {
               emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData.class, emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData.Builder.class);
     }
 
-    public static final int ROT_FIELD_NUMBER = 2;
+    public static final int ROT_FIELD_NUMBER = 11;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector rot_;
 
     @java.lang.Override
@@ -172,7 +172,7 @@ public final class AnchorPointDataOuterClass {
       return getRot();
     }
 
-    public static final int POS_FIELD_NUMBER = 13;
+    public static final int POS_FIELD_NUMBER = 15;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
 
     @java.lang.Override
@@ -190,7 +190,7 @@ public final class AnchorPointDataOuterClass {
       return getPos();
     }
 
-    public static final int END_TIME_FIELD_NUMBER = 1;
+    public static final int END_TIME_FIELD_NUMBER = 10;
     private int endTime_;
 
     @java.lang.Override
@@ -198,7 +198,7 @@ public final class AnchorPointDataOuterClass {
       return endTime_;
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 4;
+    public static final int SCENE_ID_FIELD_NUMBER = 6;
     private int sceneId_;
 
     @java.lang.Override
@@ -206,7 +206,7 @@ public final class AnchorPointDataOuterClass {
       return sceneId_;
     }
 
-    public static final int ANCHOR_POINT_ID_FIELD_NUMBER = 6;
+    public static final int ANCHOR_POINT_ID_FIELD_NUMBER = 1;
     private int anchorPointId_;
 
     @java.lang.Override
@@ -229,19 +229,19 @@ public final class AnchorPointDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (endTime_ != 0) {
-        output.writeUInt32(1, endTime_);
+        output.writeUInt32(10, endTime_);
       }
       if (rot_ != null) {
-        output.writeMessage(2, getRot());
+        output.writeMessage(11, getRot());
       }
       if (sceneId_ != 0) {
-        output.writeUInt32(4, sceneId_);
+        output.writeUInt32(6, sceneId_);
       }
       if (anchorPointId_ != 0) {
-        output.writeUInt32(6, anchorPointId_);
+        output.writeUInt32(1, anchorPointId_);
       }
       if (pos_ != null) {
-        output.writeMessage(13, getPos());
+        output.writeMessage(15, getPos());
       }
       unknownFields.writeTo(output);
     }
@@ -254,23 +254,23 @@ public final class AnchorPointDataOuterClass {
       size = 0;
       if (endTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, endTime_);
+          .computeUInt32Size(10, endTime_);
       }
       if (rot_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, getRot());
+          .computeMessageSize(11, getRot());
       }
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, sceneId_);
+          .computeUInt32Size(6, sceneId_);
       }
       if (anchorPointId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, anchorPointId_);
+          .computeUInt32Size(1, anchorPointId_);
       }
       if (pos_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, getPos());
+          .computeMessageSize(15, getPos());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

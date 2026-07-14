@@ -87,7 +87,7 @@ public final class HomeAllUnlockedBgmIdListNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 112: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 allUnlockedBgmIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -95,7 +95,7 @@ public final class HomeAllUnlockedBgmIdListNotifyOuterClass {
               allUnlockedBgmIdList_.addInt(input.readUInt32());
               break;
             }
-            case 10: {
+            case 114: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -143,7 +143,7 @@ public final class HomeAllUnlockedBgmIdListNotifyOuterClass {
               emu.grasscutter.net.proto.HomeAllUnlockedBgmIdListNotifyOuterClass.HomeAllUnlockedBgmIdListNotify.class, emu.grasscutter.net.proto.HomeAllUnlockedBgmIdListNotifyOuterClass.HomeAllUnlockedBgmIdListNotify.Builder.class);
     }
 
-    public static final int ALL_UNLOCKED_BGM_ID_LIST_FIELD_NUMBER = 1;
+    public static final int ALL_UNLOCKED_BGM_ID_LIST_FIELD_NUMBER = 14;
     private com.google.protobuf.Internal.IntList allUnlockedBgmIdList_;
     /**
      * <code>repeated uint32 all_unlocked_bgm_id_list = 1;</code>
@@ -187,7 +187,7 @@ public final class HomeAllUnlockedBgmIdListNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getAllUnlockedBgmIdListList().size() > 0) {
-        output.writeUInt32NoTag(10);
+        output.writeUInt32NoTag(114);
         output.writeUInt32NoTag(allUnlockedBgmIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < allUnlockedBgmIdList_.size(); i++) {

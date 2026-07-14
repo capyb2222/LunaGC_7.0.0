@@ -93,7 +93,7 @@ public final class InstableSprayTeamInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 26: {
+            case 114: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 avatarInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -137,7 +137,7 @@ public final class InstableSprayTeamInfoOuterClass {
               emu.grasscutter.net.proto.InstableSprayTeamInfoOuterClass.InstableSprayTeamInfo.class, emu.grasscutter.net.proto.InstableSprayTeamInfoOuterClass.InstableSprayTeamInfo.Builder.class);
     }
 
-    public static final int AVATAR_INFO_LIST_FIELD_NUMBER = 3;
+    public static final int AVATAR_INFO_LIST_FIELD_NUMBER = 14;
     private java.util.List<emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfo> avatarInfoList_;
     /**
      * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 3;</code>
@@ -192,7 +192,7 @@ public final class InstableSprayTeamInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < avatarInfoList_.size(); i++) {
-        output.writeMessage(3, avatarInfoList_.get(i));
+        output.writeMessage(14, avatarInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -205,7 +205,7 @@ public final class InstableSprayTeamInfoOuterClass {
       size = 0;
       for (int i = 0; i < avatarInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, avatarInfoList_.get(i));
+          .computeMessageSize(14, avatarInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

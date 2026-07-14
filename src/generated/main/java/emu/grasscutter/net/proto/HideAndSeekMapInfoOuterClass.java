@@ -92,12 +92,12 @@ public final class HideAndSeekMapInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 56: {
 
               id_ = input.readUInt32();
               break;
             }
-            case 24: {
+            case 120: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 matchLockReasonList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -105,7 +105,7 @@ public final class HideAndSeekMapInfoOuterClass {
               matchLockReasonList_.addInt(input.readUInt32());
               break;
             }
-            case 26: {
+            case 122: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -153,7 +153,7 @@ public final class HideAndSeekMapInfoOuterClass {
               emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo.class, emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo.Builder.class);
     }
 
-    public static final int ID_FIELD_NUMBER = 1;
+    public static final int ID_FIELD_NUMBER = 7;
     private int id_;
     /**
      * <code>uint32 id = 1;</code>
@@ -164,7 +164,7 @@ public final class HideAndSeekMapInfoOuterClass {
       return id_;
     }
 
-    public static final int MATCH_LOCK_REASON_LIST_FIELD_NUMBER = 7;
+    public static final int MATCH_LOCK_REASON_LIST_FIELD_NUMBER = 15;
     private com.google.protobuf.Internal.IntList matchLockReasonList_;
     /**
      * <code>repeated uint32 match_lock_reason_list = 3;</code>
@@ -208,10 +208,10 @@ public final class HideAndSeekMapInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (id_ != 0) {
-        output.writeUInt32(1, id_);
+        output.writeUInt32(7, id_);
       }
       if (getMatchLockReasonListList().size() > 0) {
-        output.writeUInt32NoTag(26);
+        output.writeUInt32NoTag(122);
         output.writeUInt32NoTag(matchLockReasonListMemoizedSerializedSize);
       }
       for (int i = 0; i < matchLockReasonList_.size(); i++) {
@@ -228,7 +228,7 @@ public final class HideAndSeekMapInfoOuterClass {
       size = 0;
       if (id_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, id_);
+          .computeUInt32Size(7, id_);
       }
       {
         int dataSize = 0;

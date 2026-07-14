@@ -161,7 +161,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.GIGBOMGHMDNOuterClass.GIGBOMGHMDN.parser(), extensionRegistry));
               break;
             }
-            case 34: {
+            case 66: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 stageList_ = new java.util.ArrayList<emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAIN>();
                 mutable_bitField0_ |= 0x00000004;
@@ -175,7 +175,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
               gHILFJPBEJP_ = input.readUInt32();
               break;
             }
-            case 66: {
+            case 128002: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 fJGGCOPAHPI_ = new java.util.ArrayList<emu.grasscutter.net.proto.OKGNJOGFCEBOuterClass.OKGNJOGFCEB>();
                 mutable_bitField0_ |= 0x00000001;
@@ -249,7 +249,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.MichiaeMatsuriActivityDetailInfoOuterClass.MichiaeMatsuriActivityDetailInfo.class, emu.grasscutter.net.proto.MichiaeMatsuriActivityDetailInfoOuterClass.MichiaeMatsuriActivityDetailInfo.Builder.class);
     }
 
-    public static final int FJGGCOPAHPI_FIELD_NUMBER = 8;
+    public static final int FJGGCOPAHPI_FIELD_NUMBER = 16000;
     private java.util.List<emu.grasscutter.net.proto.OKGNJOGFCEBOuterClass.OKGNJOGFCEB> fJGGCOPAHPI_;
     /**
      * <code>repeated .OKGNJOGFCEB FJGGCOPAHPI = 8;</code>
@@ -329,7 +329,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
       return kILFHAAHDJO_.get(index);
     }
 
-    public static final int STAGE_LIST_FIELD_NUMBER = 4;
+    public static final int STAGE_LIST_FIELD_NUMBER = 8;
     private java.util.List<emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAIN> stageList_;
 
     @java.lang.Override
@@ -417,13 +417,13 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
         output.writeMessage(2, kILFHAAHDJO_.get(i));
       }
       for (int i = 0; i < stageList_.size(); i++) {
-        output.writeMessage(4, stageList_.get(i));
+        output.writeMessage(8, stageList_.get(i));
       }
       if (gHILFJPBEJP_ != 0) {
         output.writeUInt32(6, gHILFJPBEJP_);
       }
       for (int i = 0; i < fJGGCOPAHPI_.size(); i++) {
-        output.writeMessage(8, fJGGCOPAHPI_.get(i));
+        output.writeMessage(16000, fJGGCOPAHPI_.get(i));
       }
       if (getPEIDEEKHNHJList().size() > 0) {
         output.writeUInt32NoTag(98);
@@ -447,7 +447,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
       }
       for (int i = 0; i < stageList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, stageList_.get(i));
+          .computeMessageSize(8, stageList_.get(i));
       }
       if (gHILFJPBEJP_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -455,7 +455,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
       }
       for (int i = 0; i < fJGGCOPAHPI_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, fJGGCOPAHPI_.get(i));
+          .computeMessageSize(16000, fJGGCOPAHPI_.get(i));
       }
       {
         int dataSize = 0;

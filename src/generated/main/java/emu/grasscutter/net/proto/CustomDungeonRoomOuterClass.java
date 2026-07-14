@@ -99,12 +99,12 @@ public final class CustomDungeonRoomOuterClass {
             case 0:
               done = true;
               break;
-            case 96: {
+            case 104: {
 
               roomId_ = input.readUInt32();
               break;
             }
-            case 106: {
+            case 18: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 blockList_ = new java.util.ArrayList<emu.grasscutter.net.proto.CustomDungeonBlockOuterClass.CustomDungeonBlock>();
                 mutable_bitField0_ |= 0x00000001;
@@ -148,7 +148,7 @@ public final class CustomDungeonRoomOuterClass {
               emu.grasscutter.net.proto.CustomDungeonRoomOuterClass.CustomDungeonRoom.class, emu.grasscutter.net.proto.CustomDungeonRoomOuterClass.CustomDungeonRoom.Builder.class);
     }
 
-    public static final int BLOCK_LIST_FIELD_NUMBER = 13;
+    public static final int BLOCK_LIST_FIELD_NUMBER = 2;
     private java.util.List<emu.grasscutter.net.proto.CustomDungeonBlockOuterClass.CustomDungeonBlock> blockList_;
     /**
      * <code>repeated .CustomDungeonBlock block_list = 13;</code>
@@ -188,7 +188,7 @@ public final class CustomDungeonRoomOuterClass {
       return blockList_.get(index);
     }
 
-    public static final int ROOM_ID_FIELD_NUMBER = 12;
+    public static final int ROOM_ID_FIELD_NUMBER = 13;
     private int roomId_;
     /**
      * <code>uint32 room_id = 12;</code>
@@ -214,10 +214,10 @@ public final class CustomDungeonRoomOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (roomId_ != 0) {
-        output.writeUInt32(12, roomId_);
+        output.writeUInt32(13, roomId_);
       }
       for (int i = 0; i < blockList_.size(); i++) {
-        output.writeMessage(13, blockList_.get(i));
+        output.writeMessage(2, blockList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -230,11 +230,11 @@ public final class CustomDungeonRoomOuterClass {
       size = 0;
       if (roomId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, roomId_);
+          .computeUInt32Size(13, roomId_);
       }
       for (int i = 0; i < blockList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, blockList_.get(i));
+          .computeMessageSize(2, blockList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

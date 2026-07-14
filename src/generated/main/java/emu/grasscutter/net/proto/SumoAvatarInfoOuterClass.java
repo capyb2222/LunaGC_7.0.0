@@ -79,12 +79,12 @@ public final class SumoAvatarInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 80: {
+            case 120: {
 
               avatarId_ = input.readUInt64();
               break;
             }
-            case 88: {
+            case 24: {
 
               isTrial_ = input.readBool();
               break;
@@ -121,7 +121,7 @@ public final class SumoAvatarInfoOuterClass {
               emu.grasscutter.net.proto.SumoAvatarInfoOuterClass.SumoAvatarInfo.class, emu.grasscutter.net.proto.SumoAvatarInfoOuterClass.SumoAvatarInfo.Builder.class);
     }
 
-    public static final int IS_TRIAL_FIELD_NUMBER = 11;
+    public static final int IS_TRIAL_FIELD_NUMBER = 3;
     private boolean isTrial_;
     /**
      * <code>bool is_trial = 11;</code>
@@ -132,7 +132,7 @@ public final class SumoAvatarInfoOuterClass {
       return isTrial_;
     }
 
-    public static final int AVATAR_ID_FIELD_NUMBER = 10;
+    public static final int AVATAR_ID_FIELD_NUMBER = 15;
     private long avatarId_;
     /**
      * <code>uint64 avatar_id = 10;</code>
@@ -158,10 +158,10 @@ public final class SumoAvatarInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (avatarId_ != 0L) {
-        output.writeUInt64(10, avatarId_);
+        output.writeUInt64(15, avatarId_);
       }
       if (isTrial_ != false) {
-        output.writeBool(11, isTrial_);
+        output.writeBool(3, isTrial_);
       }
       unknownFields.writeTo(output);
     }
@@ -174,11 +174,11 @@ public final class SumoAvatarInfoOuterClass {
       size = 0;
       if (avatarId_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(10, avatarId_);
+          .computeUInt64Size(15, avatarId_);
       }
       if (isTrial_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, isTrial_);
+          .computeBoolSize(3, isTrial_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

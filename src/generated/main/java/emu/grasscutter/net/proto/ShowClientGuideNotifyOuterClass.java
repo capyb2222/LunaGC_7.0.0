@@ -81,7 +81,7 @@ public final class ShowClientGuideNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 50: {
+            case 34: {
               java.lang.String s = input.readStringRequireUtf8();
 
               guideName_ = s;
@@ -119,7 +119,7 @@ public final class ShowClientGuideNotifyOuterClass {
               emu.grasscutter.net.proto.ShowClientGuideNotifyOuterClass.ShowClientGuideNotify.class, emu.grasscutter.net.proto.ShowClientGuideNotifyOuterClass.ShowClientGuideNotify.Builder.class);
     }
 
-    public static final int GUIDE_NAME_FIELD_NUMBER = 6;
+    public static final int GUIDE_NAME_FIELD_NUMBER = 4;
     private volatile java.lang.Object guideName_;
     /**
      * <code>string guide_name = 6;</code>
@@ -172,7 +172,7 @@ public final class ShowClientGuideNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(guideName_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 6, guideName_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 4, guideName_);
       }
       unknownFields.writeTo(output);
     }
@@ -184,7 +184,7 @@ public final class ShowClientGuideNotifyOuterClass {
 
       size = 0;
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(guideName_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(6, guideName_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(4, guideName_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

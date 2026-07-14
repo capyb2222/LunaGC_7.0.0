@@ -105,7 +105,7 @@ public final class ChannelerSlabCampOuterClass {
               buffNum_ = input.readUInt32();
               break;
             }
-            case 90: {
+            case 98: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (pos_ != null) {
                 subBuilder = pos_.toBuilder();
@@ -118,12 +118,12 @@ public final class ChannelerSlabCampOuterClass {
 
               break;
             }
-            case 112: {
+            case 88: {
 
               groupId_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 64: {
 
               rewardId_ = input.readUInt32();
               break;
@@ -160,7 +160,7 @@ public final class ChannelerSlabCampOuterClass {
               emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCamp.class, emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCamp.Builder.class);
     }
 
-    public static final int POS_FIELD_NUMBER = 11;
+    public static final int POS_FIELD_NUMBER = 12;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
     /**
      * <code>.Vector pos = 11;</code>
@@ -186,7 +186,7 @@ public final class ChannelerSlabCampOuterClass {
       return getPos();
     }
 
-    public static final int REWARD_ID_FIELD_NUMBER = 15;
+    public static final int REWARD_ID_FIELD_NUMBER = 8;
     private int rewardId_;
     /**
      * <code>uint32 reward_id = 15;</code>
@@ -197,7 +197,7 @@ public final class ChannelerSlabCampOuterClass {
       return rewardId_;
     }
 
-    public static final int GROUP_ID_FIELD_NUMBER = 14;
+    public static final int GROUP_ID_FIELD_NUMBER = 11;
     private int groupId_;
     /**
      * <code>uint32 group_id = 14;</code>
@@ -237,13 +237,13 @@ public final class ChannelerSlabCampOuterClass {
         output.writeUInt32(5, buffNum_);
       }
       if (pos_ != null) {
-        output.writeMessage(11, getPos());
+        output.writeMessage(12, getPos());
       }
       if (groupId_ != 0) {
-        output.writeUInt32(14, groupId_);
+        output.writeUInt32(11, groupId_);
       }
       if (rewardId_ != 0) {
-        output.writeUInt32(15, rewardId_);
+        output.writeUInt32(8, rewardId_);
       }
       unknownFields.writeTo(output);
     }
@@ -260,15 +260,15 @@ public final class ChannelerSlabCampOuterClass {
       }
       if (pos_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, getPos());
+          .computeMessageSize(12, getPos());
       }
       if (groupId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, groupId_);
+          .computeUInt32Size(11, groupId_);
       }
       if (rewardId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, rewardId_);
+          .computeUInt32Size(8, rewardId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -78,7 +78,7 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 122: {
+            case 106: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 rewardInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -122,7 +122,7 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.TrialAvatarActivityDetailInfoOuterClass.TrialAvatarActivityDetailInfo.class, emu.grasscutter.net.proto.TrialAvatarActivityDetailInfoOuterClass.TrialAvatarActivityDetailInfo.Builder.class);
     }
 
-    public static final int REWARD_INFO_LIST_FIELD_NUMBER = 9;
+    public static final int REWARD_INFO_LIST_FIELD_NUMBER = 13;
     private java.util.List<emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo> rewardInfoList_;
 
     @java.lang.Override
@@ -167,7 +167,7 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < rewardInfoList_.size(); i++) {
-        output.writeMessage(9, rewardInfoList_.get(i));
+        output.writeMessage(13, rewardInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -180,7 +180,7 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < rewardInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, rewardInfoList_.get(i));
+          .computeMessageSize(13, rewardInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

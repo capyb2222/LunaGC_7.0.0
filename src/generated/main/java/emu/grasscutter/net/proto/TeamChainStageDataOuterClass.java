@@ -85,17 +85,17 @@ public final class TeamChainStageDataOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 104: {
 
               bestScore_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 80: {
 
               isOpen_ = input.readBool();
               break;
             }
-            case 72: {
+            case 112: {
 
               stageId_ = input.readUInt32();
               break;
@@ -132,7 +132,7 @@ public final class TeamChainStageDataOuterClass {
               emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData.class, emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData.Builder.class);
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 5;
+    public static final int IS_OPEN_FIELD_NUMBER = 10;
     private boolean isOpen_;
     /**
      * <code>bool is_open = 5;</code>
@@ -143,7 +143,7 @@ public final class TeamChainStageDataOuterClass {
       return isOpen_;
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 9;
+    public static final int STAGE_ID_FIELD_NUMBER = 14;
     private int stageId_;
     /**
      * <code>uint32 stage_id = 9;</code>
@@ -154,7 +154,7 @@ public final class TeamChainStageDataOuterClass {
       return stageId_;
     }
 
-    public static final int BEST_SCORE_FIELD_NUMBER = 1;
+    public static final int BEST_SCORE_FIELD_NUMBER = 13;
     private int bestScore_;
     /**
      * <code>uint32 best_score = 1;</code>
@@ -180,13 +180,13 @@ public final class TeamChainStageDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (bestScore_ != 0) {
-        output.writeUInt32(1, bestScore_);
+        output.writeUInt32(13, bestScore_);
       }
       if (isOpen_ != false) {
-        output.writeBool(5, isOpen_);
+        output.writeBool(10, isOpen_);
       }
       if (stageId_ != 0) {
-        output.writeUInt32(9, stageId_);
+        output.writeUInt32(14, stageId_);
       }
       unknownFields.writeTo(output);
     }
@@ -199,15 +199,15 @@ public final class TeamChainStageDataOuterClass {
       size = 0;
       if (bestScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, bestScore_);
+          .computeUInt32Size(13, bestScore_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, isOpen_);
+          .computeBoolSize(10, isOpen_);
       }
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, stageId_);
+          .computeUInt32Size(14, stageId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

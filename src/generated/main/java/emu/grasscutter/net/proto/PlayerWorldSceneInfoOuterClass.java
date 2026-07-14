@@ -96,12 +96,12 @@ public final class PlayerWorldSceneInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 8: {
 
               isLocked_ = input.readBool();
               break;
             }
-            case 64: {
+            case 104: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 sceneTagIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -109,7 +109,7 @@ public final class PlayerWorldSceneInfoOuterClass {
               sceneTagIdList_.addInt(input.readUInt32());
               break;
             }
-            case 66: {
+            case 106: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -122,12 +122,12 @@ public final class PlayerWorldSceneInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 88: {
+            case 56: {
 
               sceneId_ = input.readUInt32();
               break;
             }
-            case 106: {
+            case 122: {
               emu.grasscutter.net.proto.MapLayerInfoOuterClass.MapLayerInfo.Builder subBuilder = null;
               if (mapLayerInfo_ != null) {
                 subBuilder = mapLayerInfo_.toBuilder();
@@ -140,7 +140,7 @@ public final class PlayerWorldSceneInfoOuterClass {
 
               break;
             }
-            case 122: {
+            case 128002: {
               emu.grasscutter.net.proto.BLFDGJBMBMAOuterClass.BLFDGJBMBMA.Builder subBuilder = null;
               if (mGEKPJHLIOJ_ != null) {
                 subBuilder = mGEKPJHLIOJ_.toBuilder();
@@ -188,7 +188,7 @@ public final class PlayerWorldSceneInfoOuterClass {
               emu.grasscutter.net.proto.PlayerWorldSceneInfoOuterClass.PlayerWorldSceneInfo.class, emu.grasscutter.net.proto.PlayerWorldSceneInfoOuterClass.PlayerWorldSceneInfo.Builder.class);
     }
 
-    public static final int MAP_LAYER_INFO_FIELD_NUMBER = 13;
+    public static final int MAP_LAYER_INFO_FIELD_NUMBER = 15;
     private emu.grasscutter.net.proto.MapLayerInfoOuterClass.MapLayerInfo mapLayerInfo_;
 
     @java.lang.Override
@@ -206,7 +206,7 @@ public final class PlayerWorldSceneInfoOuterClass {
       return getMapLayerInfo();
     }
 
-    public static final int MGEKPJHLIOJ_FIELD_NUMBER = 15;
+    public static final int MGEKPJHLIOJ_FIELD_NUMBER = 16000;
     private emu.grasscutter.net.proto.BLFDGJBMBMAOuterClass.BLFDGJBMBMA mGEKPJHLIOJ_;
     /**
      * <code>.BLFDGJBMBMA MGEKPJHLIOJ = 11;</code>
@@ -232,7 +232,7 @@ public final class PlayerWorldSceneInfoOuterClass {
       return getMGEKPJHLIOJ();
     }
 
-    public static final int SCENE_TAG_ID_LIST_FIELD_NUMBER = 8;
+    public static final int SCENE_TAG_ID_LIST_FIELD_NUMBER = 13;
     private com.google.protobuf.Internal.IntList sceneTagIdList_;
 
     @java.lang.Override
@@ -250,7 +250,7 @@ public final class PlayerWorldSceneInfoOuterClass {
     }
     private int sceneTagIdListMemoizedSerializedSize = -1;
 
-    public static final int IS_LOCKED_FIELD_NUMBER = 3;
+    public static final int IS_LOCKED_FIELD_NUMBER = 1;
     private boolean isLocked_;
 
     @java.lang.Override
@@ -258,7 +258,7 @@ public final class PlayerWorldSceneInfoOuterClass {
       return isLocked_;
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 11;
+    public static final int SCENE_ID_FIELD_NUMBER = 7;
     private int sceneId_;
 
     @java.lang.Override
@@ -282,23 +282,23 @@ public final class PlayerWorldSceneInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (isLocked_ != false) {
-        output.writeBool(3, isLocked_);
+        output.writeBool(1, isLocked_);
       }
       if (mapLayerInfo_ != null) {
-        output.writeMessage(13, getMapLayerInfo());
+        output.writeMessage(15, getMapLayerInfo());
       }
       if (getSceneTagIdListList().size() > 0) {
-        output.writeUInt32NoTag(66);
+        output.writeUInt32NoTag(106);
         output.writeUInt32NoTag(sceneTagIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < sceneTagIdList_.size(); i++) {
         output.writeUInt32NoTag(sceneTagIdList_.getInt(i));
       }
       if (mGEKPJHLIOJ_ != null) {
-        output.writeMessage(15, getMGEKPJHLIOJ());
+        output.writeMessage(16000, getMGEKPJHLIOJ());
       }
       if (sceneId_ != 0) {
-        output.writeUInt32(11, sceneId_);
+        output.writeUInt32(7, sceneId_);
       }
       unknownFields.writeTo(output);
     }
@@ -311,11 +311,11 @@ public final class PlayerWorldSceneInfoOuterClass {
       size = 0;
       if (isLocked_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, isLocked_);
+          .computeBoolSize(1, isLocked_);
       }
       if (mapLayerInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, getMapLayerInfo());
+          .computeMessageSize(15, getMapLayerInfo());
       }
       {
         int dataSize = 0;
@@ -333,11 +333,11 @@ public final class PlayerWorldSceneInfoOuterClass {
       }
       if (mGEKPJHLIOJ_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, getMGEKPJHLIOJ());
+          .computeMessageSize(16000, getMGEKPJHLIOJ());
       }
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, sceneId_);
+          .computeUInt32Size(7, sceneId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

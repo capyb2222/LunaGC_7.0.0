@@ -105,22 +105,22 @@ public final class TowerEnterLevelRspOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 56: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 72: {
+            case 64: {
 
               levelIndex_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 40: {
 
               floorId_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 72: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 towerBuffIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -128,7 +128,7 @@ public final class TowerEnterLevelRspOuterClass {
               towerBuffIdList_.addInt(input.readUInt32());
               break;
             }
-            case 98: {
+            case 74: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -176,7 +176,7 @@ public final class TowerEnterLevelRspOuterClass {
               emu.grasscutter.net.proto.TowerEnterLevelRspOuterClass.TowerEnterLevelRsp.class, emu.grasscutter.net.proto.TowerEnterLevelRspOuterClass.TowerEnterLevelRsp.Builder.class);
     }
 
-    public static final int LEVEL_INDEX_FIELD_NUMBER = 4;
+    public static final int LEVEL_INDEX_FIELD_NUMBER = 8;
     private int levelIndex_;
     /**
      * <code>uint32 level_index = 9;</code>
@@ -187,7 +187,7 @@ public final class TowerEnterLevelRspOuterClass {
       return levelIndex_;
     }
 
-    public static final int TOWER_BUFF_ID_LIST_FIELD_NUMBER = 7;
+    public static final int TOWER_BUFF_ID_LIST_FIELD_NUMBER = 9;
     private com.google.protobuf.Internal.IntList towerBuffIdList_;
     /**
      * <code>repeated uint32 tower_buff_id_list = 12;</code>
@@ -215,7 +215,7 @@ public final class TowerEnterLevelRspOuterClass {
     }
     private int towerBuffIdListMemoizedSerializedSize = -1;
 
-    public static final int RETCODE_FIELD_NUMBER = 14;
+    public static final int RETCODE_FIELD_NUMBER = 7;
     private int retcode_;
     /**
      * <code>int32 retcode = 4;</code>
@@ -226,7 +226,7 @@ public final class TowerEnterLevelRspOuterClass {
       return retcode_;
     }
 
-    public static final int FLOOR_ID_FIELD_NUMBER = 1;
+    public static final int FLOOR_ID_FIELD_NUMBER = 5;
     private int floorId_;
     /**
      * <code>uint32 floor_id = 11;</code>
@@ -253,16 +253,16 @@ public final class TowerEnterLevelRspOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (retcode_ != 0) {
-        output.writeInt32(14, retcode_);
+        output.writeInt32(7, retcode_);
       }
       if (levelIndex_ != 0) {
-        output.writeUInt32(4, levelIndex_);
+        output.writeUInt32(8, levelIndex_);
       }
       if (floorId_ != 0) {
-        output.writeUInt32(1, floorId_);
+        output.writeUInt32(5, floorId_);
       }
       if (getTowerBuffIdListList().size() > 0) {
-        output.writeUInt32NoTag(58);
+        output.writeUInt32NoTag(74);
         output.writeUInt32NoTag(towerBuffIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < towerBuffIdList_.size(); i++) {
@@ -279,15 +279,15 @@ public final class TowerEnterLevelRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(14, retcode_);
+          .computeInt32Size(7, retcode_);
       }
       if (levelIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, levelIndex_);
+          .computeUInt32Size(8, levelIndex_);
       }
       if (floorId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, floorId_);
+          .computeUInt32Size(5, floorId_);
       }
       {
         int dataSize = 0;

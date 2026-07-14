@@ -103,32 +103,32 @@ public final class PotionDungeonResultInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 16: {
 
               finalScore_ = input.readUInt32();
               break;
             }
-            case 16: {
+            case 56: {
 
               stageId_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 40: {
 
               modeId_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 72: {
 
               levelId_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 112: {
 
               leftTime_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 96: {
 
               difficultyLevel_ = input.readUInt32();
               break;
@@ -165,7 +165,7 @@ public final class PotionDungeonResultInfoOuterClass {
               emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo.class, emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 3;
+    public static final int LEVEL_ID_FIELD_NUMBER = 9;
     private int levelId_;
     /**
      * <code>uint32 level_id = 10;</code>
@@ -176,7 +176,7 @@ public final class PotionDungeonResultInfoOuterClass {
       return levelId_;
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 1;
+    public static final int STAGE_ID_FIELD_NUMBER = 7;
     private int stageId_;
     /**
      * <code>uint32 stage_id = 2;</code>
@@ -187,7 +187,7 @@ public final class PotionDungeonResultInfoOuterClass {
       return stageId_;
     }
 
-    public static final int MODE_ID_FIELD_NUMBER = 9;
+    public static final int MODE_ID_FIELD_NUMBER = 5;
     private int modeId_;
     /**
      * <code>uint32 mode_id = 9;</code>
@@ -198,7 +198,7 @@ public final class PotionDungeonResultInfoOuterClass {
       return modeId_;
     }
 
-    public static final int FINAL_SCORE_FIELD_NUMBER = 1;
+    public static final int FINAL_SCORE_FIELD_NUMBER = 2;
     private int finalScore_;
     /**
      * <code>uint32 final_score = 1;</code>
@@ -209,7 +209,7 @@ public final class PotionDungeonResultInfoOuterClass {
       return finalScore_;
     }
 
-    public static final int DIFFICULTY_LEVEL_FIELD_NUMBER = 15;
+    public static final int DIFFICULTY_LEVEL_FIELD_NUMBER = 12;
     private int difficultyLevel_;
     /**
      * <code>uint32 difficulty_level = 15;</code>
@@ -220,7 +220,7 @@ public final class PotionDungeonResultInfoOuterClass {
       return difficultyLevel_;
     }
 
-    public static final int LEFT_TIME_FIELD_NUMBER = 11;
+    public static final int LEFT_TIME_FIELD_NUMBER = 14;
     private int leftTime_;
     /**
      * <code>uint32 left_time = 11;</code>
@@ -246,22 +246,22 @@ public final class PotionDungeonResultInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (finalScore_ != 0) {
-        output.writeUInt32(1, finalScore_);
+        output.writeUInt32(2, finalScore_);
       }
       if (stageId_ != 0) {
-        output.writeUInt32(1, stageId_);
+        output.writeUInt32(7, stageId_);
       }
       if (modeId_ != 0) {
-        output.writeUInt32(9, modeId_);
+        output.writeUInt32(5, modeId_);
       }
       if (levelId_ != 0) {
-        output.writeUInt32(3, levelId_);
+        output.writeUInt32(9, levelId_);
       }
       if (leftTime_ != 0) {
-        output.writeUInt32(11, leftTime_);
+        output.writeUInt32(14, leftTime_);
       }
       if (difficultyLevel_ != 0) {
-        output.writeUInt32(15, difficultyLevel_);
+        output.writeUInt32(12, difficultyLevel_);
       }
       unknownFields.writeTo(output);
     }
@@ -274,27 +274,27 @@ public final class PotionDungeonResultInfoOuterClass {
       size = 0;
       if (finalScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, finalScore_);
+          .computeUInt32Size(2, finalScore_);
       }
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, stageId_);
+          .computeUInt32Size(7, stageId_);
       }
       if (modeId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, modeId_);
+          .computeUInt32Size(5, modeId_);
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, levelId_);
+          .computeUInt32Size(9, levelId_);
       }
       if (leftTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, leftTime_);
+          .computeUInt32Size(14, leftTime_);
       }
       if (difficultyLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, difficultyLevel_);
+          .computeUInt32Size(12, difficultyLevel_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

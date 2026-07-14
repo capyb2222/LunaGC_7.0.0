@@ -188,7 +188,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
                   hNIOAODPNEL__.getKey(), hNIOAODPNEL__.getValue());
               break;
             }
-            case 104: {
+            case 72: {
 
               isContentClosed_ = input.readBool();
               break;
@@ -428,7 +428,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       return aEIMHLOIOKN_;
     }
 
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 13;
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 9;
     private boolean isContentClosed_;
 
     @java.lang.Override
@@ -480,7 +480,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
           HNIOAODPNELDefaultEntryHolder.defaultEntry,
           11);
       if (isContentClosed_ != false) {
-        output.writeBool(13, isContentClosed_);
+        output.writeBool(9, isContentClosed_);
       }
       if (aEIMHLOIOKN_ != false) {
         output.writeBool(15, aEIMHLOIOKN_);
@@ -524,7 +524,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       }
       if (isContentClosed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, isContentClosed_);
+          .computeBoolSize(9, isContentClosed_);
       }
       if (aEIMHLOIOKN_ != false) {
         size += com.google.protobuf.CodedOutputStream

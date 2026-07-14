@@ -92,22 +92,22 @@ public final class TryEnterHomeReqOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 96: {
 
               targetPoint_ = input.readUInt32();
               break;
             }
-            case 24: {
+            case 120: {
 
               targetUid_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 104: {
 
               isTransferToSafePoint_ = input.readBool();
               break;
             }
-            case 120: {
+            case 56: {
 
               isTransferToMainHousePoint_ = input.readBool();
               break;
@@ -144,7 +144,7 @@ public final class TryEnterHomeReqOuterClass {
               emu.grasscutter.net.proto.TryEnterHomeReqOuterClass.TryEnterHomeReq.class, emu.grasscutter.net.proto.TryEnterHomeReqOuterClass.TryEnterHomeReq.Builder.class);
     }
 
-    public static final int TARGET_UID_FIELD_NUMBER = 3;
+    public static final int TARGET_UID_FIELD_NUMBER = 15;
     private int targetUid_;
     /**
      * <code>uint32 target_uid = 4;</code>
@@ -155,7 +155,7 @@ public final class TryEnterHomeReqOuterClass {
       return targetUid_;
     }
 
-    public static final int IS_TRANSFER_TO_SAFE_POINT_FIELD_NUMBER = 9;
+    public static final int IS_TRANSFER_TO_SAFE_POINT_FIELD_NUMBER = 13;
     private boolean isTransferToSafePoint_;
     /**
      * <code>bool is_transfer_to_safe_point = 9;</code>
@@ -166,7 +166,7 @@ public final class TryEnterHomeReqOuterClass {
       return isTransferToSafePoint_;
     }
 
-    public static final int TARGET_POINT_FIELD_NUMBER = 1;
+    public static final int TARGET_POINT_FIELD_NUMBER = 12;
     private int targetPoint_;
     /**
      * <code>uint32 target_point = 5;</code>
@@ -177,7 +177,7 @@ public final class TryEnterHomeReqOuterClass {
       return targetPoint_;
     }
 
-    public static final int IS_TRANSFER_TO_MAIN_HOUSE_POINT_FIELD_NUMBER = 15;
+    public static final int IS_TRANSFER_TO_MAIN_HOUSE_POINT_FIELD_NUMBER = 7;
     private boolean isTransferToMainHousePoint_;
     /**
      * <code>bool is_transfer_to_main_house_point = 12;</code>
@@ -203,16 +203,16 @@ public final class TryEnterHomeReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (targetUid_ != 0) {
-        output.writeUInt32(3, targetUid_);
+        output.writeUInt32(15, targetUid_);
       }
       if (targetPoint_ != 0) {
-        output.writeUInt32(1, targetPoint_);
+        output.writeUInt32(12, targetPoint_);
       }
       if (isTransferToSafePoint_ != false) {
-        output.writeBool(9, isTransferToSafePoint_);
+        output.writeBool(13, isTransferToSafePoint_);
       }
       if (isTransferToMainHousePoint_ != false) {
-        output.writeBool(15, isTransferToMainHousePoint_);
+        output.writeBool(7, isTransferToMainHousePoint_);
       }
       unknownFields.writeTo(output);
     }
@@ -225,19 +225,19 @@ public final class TryEnterHomeReqOuterClass {
       size = 0;
       if (targetUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, targetUid_);
+          .computeUInt32Size(15, targetUid_);
       }
       if (targetPoint_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, targetPoint_);
+          .computeUInt32Size(12, targetPoint_);
       }
       if (isTransferToSafePoint_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isTransferToSafePoint_);
+          .computeBoolSize(13, isTransferToSafePoint_);
       }
       if (isTransferToMainHousePoint_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, isTransferToMainHousePoint_);
+          .computeBoolSize(7, isTransferToMainHousePoint_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

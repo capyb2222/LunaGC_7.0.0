@@ -69,7 +69,7 @@ public final class ChooseCurAvatarTeamReqOuterClass {
             case 0:
               done = true;
               break;
-            case 80: {
+            case 8: {
 
               teamId_ = input.readUInt32();
               break;
@@ -106,7 +106,7 @@ public final class ChooseCurAvatarTeamReqOuterClass {
               emu.grasscutter.net.proto.ChooseCurAvatarTeamReqOuterClass.ChooseCurAvatarTeamReq.class, emu.grasscutter.net.proto.ChooseCurAvatarTeamReqOuterClass.ChooseCurAvatarTeamReq.Builder.class);
     }
 
-    public static final int TEAM_ID_FIELD_NUMBER = 10;
+    public static final int TEAM_ID_FIELD_NUMBER = 1;
     private int teamId_;
 
     @java.lang.Override
@@ -129,7 +129,7 @@ public final class ChooseCurAvatarTeamReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (teamId_ != 0) {
-        output.writeUInt32(10, teamId_);
+        output.writeUInt32(1, teamId_);
       }
       unknownFields.writeTo(output);
     }
@@ -142,7 +142,7 @@ public final class ChooseCurAvatarTeamReqOuterClass {
       size = 0;
       if (teamId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, teamId_);
+          .computeUInt32Size(1, teamId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

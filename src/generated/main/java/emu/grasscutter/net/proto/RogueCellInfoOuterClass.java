@@ -78,7 +78,7 @@ public final class RogueCellInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 32: {
 
               dungeonId_ = input.readUInt32();
               break;
@@ -88,13 +88,13 @@ public final class RogueCellInfoOuterClass {
               eEEOIJHJIJJ_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 72: {
               int rawValue = input.readEnum();
 
               state_ = rawValue;
               break;
             }
-            case 80: {
+            case 8: {
 
               cellId_ = input.readUInt32();
               break;
@@ -131,7 +131,7 @@ public final class RogueCellInfoOuterClass {
               emu.grasscutter.net.proto.RogueCellInfoOuterClass.RogueCellInfo.class, emu.grasscutter.net.proto.RogueCellInfoOuterClass.RogueCellInfo.Builder.class);
     }
 
-    public static final int CELL_ID_FIELD_NUMBER = 10;
+    public static final int CELL_ID_FIELD_NUMBER = 1;
     private int cellId_;
 
     @java.lang.Override
@@ -139,7 +139,7 @@ public final class RogueCellInfoOuterClass {
       return cellId_;
     }
 
-    public static final int STATE_FIELD_NUMBER = 6;
+    public static final int STATE_FIELD_NUMBER = 9;
     private int state_;
 
     @java.lang.Override public int getStateValue() {
@@ -152,7 +152,7 @@ public final class RogueCellInfoOuterClass {
       return result == null ? emu.grasscutter.net.proto.RogueCellStateOuterClass.RogueCellState.UNRECOGNIZED : result;
     }
 
-    public static final int DUNGEON_ID_FIELD_NUMBER = 3;
+    public static final int DUNGEON_ID_FIELD_NUMBER = 4;
     private int dungeonId_;
 
     @java.lang.Override
@@ -186,16 +186,16 @@ public final class RogueCellInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (dungeonId_ != 0) {
-        output.writeUInt32(3, dungeonId_);
+        output.writeUInt32(4, dungeonId_);
       }
       if (eEEOIJHJIJJ_ != 0) {
         output.writeUInt32(5, eEEOIJHJIJJ_);
       }
       if (state_ != emu.grasscutter.net.proto.RogueCellStateOuterClass.RogueCellState.RogueCellState_ROGUE_CELL_NONE.getNumber()) {
-        output.writeEnum(6, state_);
+        output.writeEnum(9, state_);
       }
       if (cellId_ != 0) {
-        output.writeUInt32(10, cellId_);
+        output.writeUInt32(1, cellId_);
       }
       unknownFields.writeTo(output);
     }
@@ -208,7 +208,7 @@ public final class RogueCellInfoOuterClass {
       size = 0;
       if (dungeonId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, dungeonId_);
+          .computeUInt32Size(4, dungeonId_);
       }
       if (eEEOIJHJIJJ_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -216,11 +216,11 @@ public final class RogueCellInfoOuterClass {
       }
       if (state_ != emu.grasscutter.net.proto.RogueCellStateOuterClass.RogueCellState.RogueCellState_ROGUE_CELL_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(6, state_);
+          .computeEnumSize(9, state_);
       }
       if (cellId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, cellId_);
+          .computeUInt32Size(1, cellId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

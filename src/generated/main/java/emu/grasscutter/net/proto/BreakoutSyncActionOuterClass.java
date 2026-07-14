@@ -69,7 +69,7 @@ public final class BreakoutSyncActionOuterClass {
             case 0:
               done = true;
               break;
-            case 50: {
+            case 10: {
               emu.grasscutter.net.proto.BreakoutActionOuterClass.BreakoutAction.Builder subBuilder = null;
               if (action_ != null) {
                 subBuilder = action_.toBuilder();
@@ -114,7 +114,7 @@ public final class BreakoutSyncActionOuterClass {
               emu.grasscutter.net.proto.BreakoutSyncActionOuterClass.BreakoutSyncAction.class, emu.grasscutter.net.proto.BreakoutSyncActionOuterClass.BreakoutSyncAction.Builder.class);
     }
 
-    public static final int ACTION_FIELD_NUMBER = 15;
+    public static final int ACTION_FIELD_NUMBER = 1;
     private emu.grasscutter.net.proto.BreakoutActionOuterClass.BreakoutAction action_;
 
     @java.lang.Override
@@ -147,7 +147,7 @@ public final class BreakoutSyncActionOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (action_ != null) {
-        output.writeMessage(6, getAction());
+        output.writeMessage(1, getAction());
       }
       unknownFields.writeTo(output);
     }
@@ -160,7 +160,7 @@ public final class BreakoutSyncActionOuterClass {
       size = 0;
       if (action_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, getAction());
+          .computeMessageSize(1, getAction());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

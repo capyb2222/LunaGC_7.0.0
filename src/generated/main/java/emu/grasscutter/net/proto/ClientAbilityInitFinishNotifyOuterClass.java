@@ -84,12 +84,12 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 88: {
 
               entityId_ = input.readUInt32();
               break;
             }
-            case 18: {
+            case 114: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 invokes_ = new java.util.ArrayList<emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,7 +133,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
               emu.grasscutter.net.proto.ClientAbilityInitFinishNotifyOuterClass.ClientAbilityInitFinishNotify.class, emu.grasscutter.net.proto.ClientAbilityInitFinishNotifyOuterClass.ClientAbilityInitFinishNotify.Builder.class);
     }
 
-    public static final int INVOKES_FIELD_NUMBER = 2;
+    public static final int INVOKES_FIELD_NUMBER = 14;
     private java.util.List<emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry> invokes_;
 
     @java.lang.Override
@@ -163,7 +163,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
       return invokes_.get(index);
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 4;
+    public static final int ENTITY_ID_FIELD_NUMBER = 11;
     private int entityId_;
 
     @java.lang.Override
@@ -186,10 +186,10 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (entityId_ != 0) {
-        output.writeUInt32(4, entityId_);
+        output.writeUInt32(11, entityId_);
       }
       for (int i = 0; i < invokes_.size(); i++) {
-        output.writeMessage(2, invokes_.get(i));
+        output.writeMessage(14, invokes_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -202,11 +202,11 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
       size = 0;
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, entityId_);
+          .computeUInt32Size(11, entityId_);
       }
       for (int i = 0; i < invokes_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, invokes_.get(i));
+          .computeMessageSize(14, invokes_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

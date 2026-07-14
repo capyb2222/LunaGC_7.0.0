@@ -75,12 +75,12 @@ public final class ChangeWidgetBackgroundActiveStateRspOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 96: {
 
               materialId_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 112: {
 
               retcode_ = input.readInt32();
               break;
@@ -117,7 +117,7 @@ public final class ChangeWidgetBackgroundActiveStateRspOuterClass {
               emu.grasscutter.net.proto.ChangeWidgetBackgroundActiveStateRspOuterClass.ChangeWidgetBackgroundActiveStateRsp.class, emu.grasscutter.net.proto.ChangeWidgetBackgroundActiveStateRspOuterClass.ChangeWidgetBackgroundActiveStateRsp.Builder.class);
     }
 
-    public static final int MATERIAL_ID_FIELD_NUMBER = 8;
+    public static final int MATERIAL_ID_FIELD_NUMBER = 12;
     private int materialId_;
     /**
      * <code>uint32 material_id = 8;</code>
@@ -128,7 +128,7 @@ public final class ChangeWidgetBackgroundActiveStateRspOuterClass {
       return materialId_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 9;
+    public static final int RETCODE_FIELD_NUMBER = 14;
     private int retcode_;
     /**
      * <code>int32 retcode = 9;</code>
@@ -154,10 +154,10 @@ public final class ChangeWidgetBackgroundActiveStateRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (materialId_ != 0) {
-        output.writeUInt32(8, materialId_);
+        output.writeUInt32(12, materialId_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(9, retcode_);
+        output.writeInt32(14, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -170,11 +170,11 @@ public final class ChangeWidgetBackgroundActiveStateRspOuterClass {
       size = 0;
       if (materialId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, materialId_);
+          .computeUInt32Size(12, materialId_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(9, retcode_);
+          .computeInt32Size(14, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -74,7 +74,7 @@ public final class DungeonWayPointActivateReqOuterClass {
             case 0:
               done = true;
               break;
-            case 88: {
+            case 8: {
 
               wayPointId_ = input.readUInt32();
               break;
@@ -111,7 +111,7 @@ public final class DungeonWayPointActivateReqOuterClass {
               emu.grasscutter.net.proto.DungeonWayPointActivateReqOuterClass.DungeonWayPointActivateReq.class, emu.grasscutter.net.proto.DungeonWayPointActivateReqOuterClass.DungeonWayPointActivateReq.Builder.class);
     }
 
-    public static final int WAY_POINT_ID_FIELD_NUMBER = 11;
+    public static final int WAY_POINT_ID_FIELD_NUMBER = 1;
     private int wayPointId_;
     /**
      * <code>uint32 way_point_id = 11;</code>
@@ -137,7 +137,7 @@ public final class DungeonWayPointActivateReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (wayPointId_ != 0) {
-        output.writeUInt32(11, wayPointId_);
+        output.writeUInt32(1, wayPointId_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +150,7 @@ public final class DungeonWayPointActivateReqOuterClass {
       size = 0;
       if (wayPointId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, wayPointId_);
+          .computeUInt32Size(1, wayPointId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

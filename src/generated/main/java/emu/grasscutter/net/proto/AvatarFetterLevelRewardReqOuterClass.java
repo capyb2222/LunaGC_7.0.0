@@ -71,7 +71,7 @@ public final class AvatarFetterLevelRewardReqOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 112: {
 
               fetterLevel_ = input.readUInt32();
               break;
@@ -121,7 +121,7 @@ public final class AvatarFetterLevelRewardReqOuterClass {
       return avatarGuid_;
     }
 
-    public static final int FETTER_LEVEL_FIELD_NUMBER = 8;
+    public static final int FETTER_LEVEL_FIELD_NUMBER = 14;
     private int fetterLevel_;
 
     @java.lang.Override
@@ -144,7 +144,7 @@ public final class AvatarFetterLevelRewardReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (fetterLevel_ != 0) {
-        output.writeUInt32(8, fetterLevel_);
+        output.writeUInt32(14, fetterLevel_);
       }
       if (avatarGuid_ != 0L) {
         output.writeUInt64(6, avatarGuid_);
@@ -160,7 +160,7 @@ public final class AvatarFetterLevelRewardReqOuterClass {
       size = 0;
       if (fetterLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, fetterLevel_);
+          .computeUInt32Size(14, fetterLevel_);
       }
       if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream

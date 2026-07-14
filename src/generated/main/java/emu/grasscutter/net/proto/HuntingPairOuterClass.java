@@ -76,7 +76,7 @@ public final class HuntingPairOuterClass {
               aPNHIONPPGB_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 96: {
 
               monsterConfigId_ = input.readUInt32();
               break;
@@ -113,7 +113,7 @@ public final class HuntingPairOuterClass {
               emu.grasscutter.net.proto.HuntingPairOuterClass.HuntingPair.class, emu.grasscutter.net.proto.HuntingPairOuterClass.HuntingPair.Builder.class);
     }
 
-    public static final int MONSTER_CONFIG_ID_FIELD_NUMBER = 6;
+    public static final int MONSTER_CONFIG_ID_FIELD_NUMBER = 12;
     private int monsterConfigId_;
 
     @java.lang.Override
@@ -150,7 +150,7 @@ public final class HuntingPairOuterClass {
         output.writeUInt32(10, aPNHIONPPGB_);
       }
       if (monsterConfigId_ != 0) {
-        output.writeUInt32(6, monsterConfigId_);
+        output.writeUInt32(12, monsterConfigId_);
       }
       unknownFields.writeTo(output);
     }
@@ -167,7 +167,7 @@ public final class HuntingPairOuterClass {
       }
       if (monsterConfigId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, monsterConfigId_);
+          .computeUInt32Size(12, monsterConfigId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

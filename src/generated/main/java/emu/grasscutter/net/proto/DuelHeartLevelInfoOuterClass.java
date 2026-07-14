@@ -111,22 +111,22 @@ public final class DuelHeartLevelInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 80: {
 
               levelId_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 32: {
 
               isOpen_ = input.readBool();
               break;
             }
-            case 104: {
+            case 24: {
 
               isCgViewed_ = input.readBool();
               break;
             }
-            case 114: {
+            case 66: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 difficultyInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.DuelHeartLevelDifficultyInfoOuterClass.DuelHeartLevelDifficultyInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -170,7 +170,7 @@ public final class DuelHeartLevelInfoOuterClass {
               emu.grasscutter.net.proto.DuelHeartLevelInfoOuterClass.DuelHeartLevelInfo.class, emu.grasscutter.net.proto.DuelHeartLevelInfoOuterClass.DuelHeartLevelInfo.Builder.class);
     }
 
-    public static final int IS_CG_VIEWED_FIELD_NUMBER = 13;
+    public static final int IS_CG_VIEWED_FIELD_NUMBER = 3;
     private boolean isCgViewed_;
     /**
      * <code>bool is_cg_viewed = 13;</code>
@@ -181,7 +181,7 @@ public final class DuelHeartLevelInfoOuterClass {
       return isCgViewed_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 12;
+    public static final int IS_OPEN_FIELD_NUMBER = 4;
     private boolean isOpen_;
     /**
      * <code>bool is_open = 12;</code>
@@ -192,7 +192,7 @@ public final class DuelHeartLevelInfoOuterClass {
       return isOpen_;
     }
 
-    public static final int DIFFICULTY_INFO_LIST_FIELD_NUMBER = 14;
+    public static final int DIFFICULTY_INFO_LIST_FIELD_NUMBER = 8;
     private java.util.List<emu.grasscutter.net.proto.DuelHeartLevelDifficultyInfoOuterClass.DuelHeartLevelDifficultyInfo> difficultyInfoList_;
     /**
      * <code>repeated .DuelHeartLevelDifficultyInfo difficulty_info_list = 14;</code>
@@ -232,7 +232,7 @@ public final class DuelHeartLevelInfoOuterClass {
       return difficultyInfoList_.get(index);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 2;
+    public static final int LEVEL_ID_FIELD_NUMBER = 10;
     private int levelId_;
     /**
      * <code>uint32 level_id = 2;</code>
@@ -258,16 +258,16 @@ public final class DuelHeartLevelInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (levelId_ != 0) {
-        output.writeUInt32(2, levelId_);
+        output.writeUInt32(10, levelId_);
       }
       if (isOpen_ != false) {
-        output.writeBool(12, isOpen_);
+        output.writeBool(4, isOpen_);
       }
       if (isCgViewed_ != false) {
-        output.writeBool(13, isCgViewed_);
+        output.writeBool(3, isCgViewed_);
       }
       for (int i = 0; i < difficultyInfoList_.size(); i++) {
-        output.writeMessage(14, difficultyInfoList_.get(i));
+        output.writeMessage(8, difficultyInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -280,19 +280,19 @@ public final class DuelHeartLevelInfoOuterClass {
       size = 0;
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, levelId_);
+          .computeUInt32Size(10, levelId_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, isOpen_);
+          .computeBoolSize(4, isOpen_);
       }
       if (isCgViewed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, isCgViewed_);
+          .computeBoolSize(3, isCgViewed_);
       }
       for (int i = 0; i < difficultyInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, difficultyInfoList_.get(i));
+          .computeMessageSize(8, difficultyInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

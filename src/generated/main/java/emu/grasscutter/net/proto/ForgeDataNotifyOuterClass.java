@@ -127,7 +127,7 @@ public final class ForgeDataNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 24: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 forgeIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -135,7 +135,7 @@ public final class ForgeDataNotifyOuterClass {
               forgeIdList_.addInt(input.readUInt32());
               break;
             }
-            case 34: {
+            case 26: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -148,7 +148,7 @@ public final class ForgeDataNotifyOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 58: {
+            case 122: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 forgeQueueMap_ = com.google.protobuf.MapField.newMapField(
                     ForgeQueueMapDefaultEntryHolder.defaultEntry);
@@ -161,7 +161,7 @@ public final class ForgeDataNotifyOuterClass {
                   forgeQueueMap__.getKey(), forgeQueueMap__.getValue());
               break;
             }
-            case 72: {
+            case 16: {
 
               maxQueueNum_ = input.readUInt32();
               break;
@@ -213,7 +213,7 @@ public final class ForgeDataNotifyOuterClass {
               emu.grasscutter.net.proto.ForgeDataNotifyOuterClass.ForgeDataNotify.class, emu.grasscutter.net.proto.ForgeDataNotifyOuterClass.ForgeDataNotify.Builder.class);
     }
 
-    public static final int FORGE_QUEUE_MAP_FIELD_NUMBER = 7;
+    public static final int FORGE_QUEUE_MAP_FIELD_NUMBER = 15;
     private static final class ForgeQueueMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData> defaultEntry =
@@ -294,7 +294,7 @@ public final class ForgeDataNotifyOuterClass {
       return map.get(key);
     }
 
-    public static final int MAX_QUEUE_NUM_FIELD_NUMBER = 9;
+    public static final int MAX_QUEUE_NUM_FIELD_NUMBER = 2;
     private int maxQueueNum_;
     /**
      * <code>uint32 max_queue_num = 9;</code>
@@ -305,7 +305,7 @@ public final class ForgeDataNotifyOuterClass {
       return maxQueueNum_;
     }
 
-    public static final int FORGE_ID_LIST_FIELD_NUMBER = 4;
+    public static final int FORGE_ID_LIST_FIELD_NUMBER = 3;
     private com.google.protobuf.Internal.IntList forgeIdList_;
     /**
      * <code>repeated uint32 forge_id_list = 4;</code>
@@ -349,7 +349,7 @@ public final class ForgeDataNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getForgeIdListList().size() > 0) {
-        output.writeUInt32NoTag(34);
+        output.writeUInt32NoTag(26);
         output.writeUInt32NoTag(forgeIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < forgeIdList_.size(); i++) {
@@ -360,9 +360,9 @@ public final class ForgeDataNotifyOuterClass {
           output,
           internalGetForgeQueueMap(),
           ForgeQueueMapDefaultEntryHolder.defaultEntry,
-          7);
+          15);
       if (maxQueueNum_ != 0) {
-        output.writeUInt32(9, maxQueueNum_);
+        output.writeUInt32(2, maxQueueNum_);
       }
       unknownFields.writeTo(output);
     }
@@ -395,11 +395,11 @@ public final class ForgeDataNotifyOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(7, forgeQueueMap__);
+            .computeMessageSize(15, forgeQueueMap__);
       }
       if (maxQueueNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, maxQueueNum_);
+          .computeUInt32Size(2, maxQueueNum_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

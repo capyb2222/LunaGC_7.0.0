@@ -97,12 +97,12 @@ public final class VintageHuntingStageDataOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 48: {
 
               stageId_ = input.readUInt32();
               break;
             }
-            case 32: {
+            case 80: {
 
               isFinish_ = input.readBool();
               break;
@@ -117,7 +117,7 @@ public final class VintageHuntingStageDataOuterClass {
               hKIIFCMCGCL_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 120: {
 
               openTime_ = input.readUInt32();
               break;
@@ -154,7 +154,7 @@ public final class VintageHuntingStageDataOuterClass {
               emu.grasscutter.net.proto.VintageHuntingStageDataOuterClass.VintageHuntingStageData.class, emu.grasscutter.net.proto.VintageHuntingStageDataOuterClass.VintageHuntingStageData.Builder.class);
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 2;
+    public static final int STAGE_ID_FIELD_NUMBER = 6;
     private int stageId_;
     /**
      * <code>uint32 stage_id = 2;</code>
@@ -165,7 +165,7 @@ public final class VintageHuntingStageDataOuterClass {
       return stageId_;
     }
 
-    public static final int IS_FINISH_FIELD_NUMBER = 4;
+    public static final int IS_FINISH_FIELD_NUMBER = 10;
     private boolean isFinish_;
     /**
      * <code>bool is_finish = 4;</code>
@@ -176,7 +176,7 @@ public final class VintageHuntingStageDataOuterClass {
       return isFinish_;
     }
 
-    public static final int OPEN_TIME_FIELD_NUMBER = 12;
+    public static final int OPEN_TIME_FIELD_NUMBER = 15;
     private int openTime_;
     /**
      * <code>uint32 open_time = 12;</code>
@@ -224,10 +224,10 @@ public final class VintageHuntingStageDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (stageId_ != 0) {
-        output.writeUInt32(2, stageId_);
+        output.writeUInt32(6, stageId_);
       }
       if (isFinish_ != false) {
-        output.writeBool(4, isFinish_);
+        output.writeBool(10, isFinish_);
       }
       if (isOpen_ != false) {
         output.writeBool(8, isOpen_);
@@ -236,7 +236,7 @@ public final class VintageHuntingStageDataOuterClass {
         output.writeUInt32(9, hKIIFCMCGCL_);
       }
       if (openTime_ != 0) {
-        output.writeUInt32(12, openTime_);
+        output.writeUInt32(15, openTime_);
       }
       unknownFields.writeTo(output);
     }
@@ -249,11 +249,11 @@ public final class VintageHuntingStageDataOuterClass {
       size = 0;
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, stageId_);
+          .computeUInt32Size(6, stageId_);
       }
       if (isFinish_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, isFinish_);
+          .computeBoolSize(10, isFinish_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -265,7 +265,7 @@ public final class VintageHuntingStageDataOuterClass {
       }
       if (openTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, openTime_);
+          .computeUInt32Size(15, openTime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

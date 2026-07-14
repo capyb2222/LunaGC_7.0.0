@@ -102,17 +102,17 @@ public final class GachaStageDataOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 96: {
 
               stageId_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 112: {
 
               isOpen_ = input.readBool();
               break;
             }
-            case 98: {
+            case 128002: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 gNCJBONIKBF_ = com.google.protobuf.MapField.newMapField(
                     GNCJBONIKBFDefaultEntryHolder.defaultEntry);
@@ -169,7 +169,7 @@ public final class GachaStageDataOuterClass {
               emu.grasscutter.net.proto.GachaStageDataOuterClass.GachaStageData.class, emu.grasscutter.net.proto.GachaStageDataOuterClass.GachaStageData.Builder.class);
     }
 
-    public static final int GNCJBONIKBF_FIELD_NUMBER = 12;
+    public static final int GNCJBONIKBF_FIELD_NUMBER = 16000;
     private static final class GNCJBONIKBFDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Integer> defaultEntry =
@@ -250,7 +250,7 @@ public final class GachaStageDataOuterClass {
       return map.get(key);
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 1;
+    public static final int STAGE_ID_FIELD_NUMBER = 12;
     private int stageId_;
 
     @java.lang.Override
@@ -258,7 +258,7 @@ public final class GachaStageDataOuterClass {
       return stageId_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 9;
+    public static final int IS_OPEN_FIELD_NUMBER = 14;
     private boolean isOpen_;
 
     @java.lang.Override
@@ -281,17 +281,17 @@ public final class GachaStageDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (stageId_ != 0) {
-        output.writeUInt32(1, stageId_);
+        output.writeUInt32(12, stageId_);
       }
       if (isOpen_ != false) {
-        output.writeBool(9, isOpen_);
+        output.writeBool(14, isOpen_);
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
           internalGetGNCJBONIKBF(),
           GNCJBONIKBFDefaultEntryHolder.defaultEntry,
-          12);
+          16000);
       unknownFields.writeTo(output);
     }
 
@@ -303,11 +303,11 @@ public final class GachaStageDataOuterClass {
       size = 0;
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, stageId_);
+          .computeUInt32Size(12, stageId_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isOpen_);
+          .computeBoolSize(14, isOpen_);
       }
       for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
            : internalGetGNCJBONIKBF().getMap().entrySet()) {
@@ -317,7 +317,7 @@ public final class GachaStageDataOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(12, gNCJBONIKBF__);
+            .computeMessageSize(16000, gNCJBONIKBF__);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

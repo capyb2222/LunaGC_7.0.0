@@ -103,28 +103,28 @@ public final class ServerUpdateGlobalValueNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
+            case 104: {
 
               keyHash_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 40: {
               int rawValue = input.readEnum();
 
               updateType_ = rawValue;
               break;
             }
-            case 104: {
+            case 120: {
 
               entityId_ = input.readUInt32();
               break;
             }
-            case 117: {
+            case 37: {
 
               delta_ = input.readFloat();
               break;
             }
-            case 125: {
+            case 101: {
 
               value_ = input.readFloat();
               break;
@@ -172,7 +172,7 @@ public final class ServerUpdateGlobalValueNotifyOuterClass {
       return entityId_;
     }
 
-    public static final int UPDATE_TYPE_FIELD_NUMBER = 10;
+    public static final int UPDATE_TYPE_FIELD_NUMBER = 5;
     private int updateType_;
     /**
      * <code>.UpdateType update_type = 11;</code>
@@ -191,7 +191,7 @@ public final class ServerUpdateGlobalValueNotifyOuterClass {
       return result == null ? emu.grasscutter.net.proto.UpdateTypeOuterClass.UpdateType.UNRECOGNIZED : result;
     }
 
-    public static final int KEY_HASH_FIELD_NUMBER = 8;
+    public static final int KEY_HASH_FIELD_NUMBER = 13;
     private int keyHash_;
     /**
      * <code>uint32 key_hash = 7;</code>
@@ -202,7 +202,7 @@ public final class ServerUpdateGlobalValueNotifyOuterClass {
       return keyHash_;
     }
 
-    public static final int DELTA_FIELD_NUMBER = 7;
+    public static final int DELTA_FIELD_NUMBER = 4;
     private float delta_;
     /**
      * <code>float delta = 14;</code>
@@ -213,7 +213,7 @@ public final class ServerUpdateGlobalValueNotifyOuterClass {
       return delta_;
     }
 
-    public static final int VALUE_FIELD_NUMBER = 2;
+    public static final int VALUE_FIELD_NUMBER = 12;
     private float value_;
     /**
      * <code>float value = 15;</code>
@@ -239,19 +239,19 @@ public final class ServerUpdateGlobalValueNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (keyHash_ != 0) {
-        output.writeUInt32(8, keyHash_);
+        output.writeUInt32(13, keyHash_);
       }
       if (updateType_ != emu.grasscutter.net.proto.UpdateTypeOuterClass.UpdateType.UpdateType_INVALUE.getNumber()) {
-        output.writeEnum(10, updateType_);
+        output.writeEnum(5, updateType_);
       }
       if (entityId_ != 0) {
         output.writeUInt32(15, entityId_);
       }
       if (delta_ != 0F) {
-        output.writeFloat(7, delta_);
+        output.writeFloat(4, delta_);
       }
       if (value_ != 0F) {
-        output.writeFloat(2, value_);
+        output.writeFloat(12, value_);
       }
       unknownFields.writeTo(output);
     }
@@ -264,11 +264,11 @@ public final class ServerUpdateGlobalValueNotifyOuterClass {
       size = 0;
       if (keyHash_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, keyHash_);
+          .computeUInt32Size(13, keyHash_);
       }
       if (updateType_ != emu.grasscutter.net.proto.UpdateTypeOuterClass.UpdateType.UpdateType_INVALUE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(10, updateType_);
+          .computeEnumSize(5, updateType_);
       }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -276,11 +276,11 @@ public final class ServerUpdateGlobalValueNotifyOuterClass {
       }
       if (delta_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(7, delta_);
+          .computeFloatSize(4, delta_);
       }
       if (value_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(2, value_);
+          .computeFloatSize(12, value_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -100,12 +100,12 @@ public final class TakeCompoundOutputRspOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 88: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 34: {
+            case 42: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 itemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>();
                 mutable_bitField0_ |= 0x00000001;
@@ -149,7 +149,7 @@ public final class TakeCompoundOutputRspOuterClass {
               emu.grasscutter.net.proto.TakeCompoundOutputRspOuterClass.TakeCompoundOutputRsp.class, emu.grasscutter.net.proto.TakeCompoundOutputRspOuterClass.TakeCompoundOutputRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 10;
+    public static final int RETCODE_FIELD_NUMBER = 11;
     private int retcode_;
     /**
      * <code>int32 retcode = 3;</code>
@@ -160,7 +160,7 @@ public final class TakeCompoundOutputRspOuterClass {
       return retcode_;
     }
 
-    public static final int ITEM_LIST_FIELD_NUMBER = 7;
+    public static final int ITEM_LIST_FIELD_NUMBER = 5;
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> itemList_;
     /**
      * <code>repeated .ItemParam item_list = 4;</code>
@@ -215,10 +215,10 @@ public final class TakeCompoundOutputRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(10, retcode_);
+        output.writeInt32(11, retcode_);
       }
       for (int i = 0; i < itemList_.size(); i++) {
-        output.writeMessage(7, itemList_.get(i));
+        output.writeMessage(5, itemList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -231,11 +231,11 @@ public final class TakeCompoundOutputRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(10, retcode_);
+          .computeInt32Size(11, retcode_);
       }
       for (int i = 0; i < itemList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, itemList_.get(i));
+          .computeMessageSize(5, itemList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -84,7 +84,7 @@ public final class AvatarUpgradeReqOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
+            case 42: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 itemParamList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>();
                 mutable_bitField0_ |= 0x00000001;
@@ -93,7 +93,7 @@ public final class AvatarUpgradeReqOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.parser(), extensionRegistry));
               break;
             }
-            case 56: {
+            case 72: {
 
               avatarGuid_ = input.readUInt64();
               break;
@@ -133,7 +133,7 @@ public final class AvatarUpgradeReqOuterClass {
               emu.grasscutter.net.proto.AvatarUpgradeReqOuterClass.AvatarUpgradeReq.class, emu.grasscutter.net.proto.AvatarUpgradeReqOuterClass.AvatarUpgradeReq.Builder.class);
     }
 
-    public static final int ITEM_PARAM_LIST_FIELD_NUMBER = 1;
+    public static final int ITEM_PARAM_LIST_FIELD_NUMBER = 5;
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> itemParamList_;
 
     @java.lang.Override
@@ -163,7 +163,7 @@ public final class AvatarUpgradeReqOuterClass {
       return itemParamList_.get(index);
     }
 
-    public static final int AVATAR_GUID_FIELD_NUMBER = 7;
+    public static final int AVATAR_GUID_FIELD_NUMBER = 9;
     private long avatarGuid_;
 
     @java.lang.Override
@@ -186,10 +186,10 @@ public final class AvatarUpgradeReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (avatarGuid_ != 0L) {
-        output.writeUInt64(7, avatarGuid_);
+        output.writeUInt64(9, avatarGuid_);
       }
       for (int i = 0; i < itemParamList_.size(); i++) {
-        output.writeMessage(1, itemParamList_.get(i));
+        output.writeMessage(5, itemParamList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -202,11 +202,11 @@ public final class AvatarUpgradeReqOuterClass {
       size = 0;
       if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(7, avatarGuid_);
+          .computeUInt64Size(9, avatarGuid_);
       }
       for (int i = 0; i < itemParamList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, itemParamList_.get(i));
+          .computeMessageSize(5, itemParamList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

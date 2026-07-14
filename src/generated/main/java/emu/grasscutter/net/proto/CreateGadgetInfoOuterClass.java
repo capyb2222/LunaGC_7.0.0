@@ -210,12 +210,12 @@ public final class CreateGadgetInfoOuterClass {
               case 0:
                 done = true;
                 break;
-              case 8: {
+              case 128000: {
 
                 chestDropId_ = input.readUInt32();
                 break;
               }
-              case 16: {
+              case 128008: {
 
                 isShowCutscene_ = input.readBool();
                 break;
@@ -252,7 +252,7 @@ public final class CreateGadgetInfoOuterClass {
                 emu.grasscutter.net.proto.CreateGadgetInfoOuterClass.CreateGadgetInfo.Chest.class, emu.grasscutter.net.proto.CreateGadgetInfoOuterClass.CreateGadgetInfo.Chest.Builder.class);
       }
 
-      public static final int CHEST_DROP_ID_FIELD_NUMBER = 1;
+      public static final int CHEST_DROP_ID_FIELD_NUMBER = 16000;
       private int chestDropId_;
       /**
        * <code>uint32 chest_drop_id = 1;</code>
@@ -263,7 +263,7 @@ public final class CreateGadgetInfoOuterClass {
         return chestDropId_;
       }
 
-      public static final int IS_SHOW_CUTSCENE_FIELD_NUMBER = 2;
+      public static final int IS_SHOW_CUTSCENE_FIELD_NUMBER = 16001;
       private boolean isShowCutscene_;
       /**
        * <code>bool is_show_cutscene = 2;</code>
@@ -289,10 +289,10 @@ public final class CreateGadgetInfoOuterClass {
       public void writeTo(com.google.protobuf.CodedOutputStream output)
                           throws java.io.IOException {
         if (chestDropId_ != 0) {
-          output.writeUInt32(1, chestDropId_);
+          output.writeUInt32(16000, chestDropId_);
         }
         if (isShowCutscene_ != false) {
-          output.writeBool(2, isShowCutscene_);
+          output.writeBool(16001, isShowCutscene_);
         }
         unknownFields.writeTo(output);
       }
@@ -305,11 +305,11 @@ public final class CreateGadgetInfoOuterClass {
         size = 0;
         if (chestDropId_ != 0) {
           size += com.google.protobuf.CodedOutputStream
-            .computeUInt32Size(1, chestDropId_);
+            .computeUInt32Size(16000, chestDropId_);
         }
         if (isShowCutscene_ != false) {
           size += com.google.protobuf.CodedOutputStream
-            .computeBoolSize(2, isShowCutscene_);
+            .computeBoolSize(16001, isShowCutscene_);
         }
         size += unknownFields.getSerializedSize();
         memoizedSize = size;

@@ -100,12 +100,12 @@ public final class MarkMapRspOuterClass {
             case 0:
               done = true;
               break;
-            case 80: {
+            case 120: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 66: {
+            case 82: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 markList_ = new java.util.ArrayList<emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPoint>();
                 mutable_bitField0_ |= 0x00000001;
@@ -149,7 +149,7 @@ public final class MarkMapRspOuterClass {
               emu.grasscutter.net.proto.MarkMapRspOuterClass.MarkMapRsp.class, emu.grasscutter.net.proto.MarkMapRspOuterClass.MarkMapRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 10;
+    public static final int RETCODE_FIELD_NUMBER = 15;
     private int retcode_;
     /**
      * <code>int32 retcode = 7;</code>
@@ -160,7 +160,7 @@ public final class MarkMapRspOuterClass {
       return retcode_;
     }
 
-    public static final int MARK_LIST_FIELD_NUMBER = 8;
+    public static final int MARK_LIST_FIELD_NUMBER = 10;
     private java.util.List<emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPoint> markList_;
     /**
      * <code>repeated .MapMarkPoint mark_list = 12;</code>
@@ -215,10 +215,10 @@ public final class MarkMapRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(10, retcode_);
+        output.writeInt32(15, retcode_);
       }
       for (int i = 0; i < markList_.size(); i++) {
-        output.writeMessage(8, markList_.get(i));
+        output.writeMessage(10, markList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -231,11 +231,11 @@ public final class MarkMapRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(10, retcode_);
+          .computeInt32Size(15, retcode_);
       }
       for (int i = 0; i < markList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, markList_.get(i));
+          .computeMessageSize(10, markList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

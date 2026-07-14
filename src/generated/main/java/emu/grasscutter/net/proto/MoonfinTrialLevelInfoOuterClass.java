@@ -79,12 +79,12 @@ public final class MoonfinTrialLevelInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 112: {
 
               openTime_ = input.readUInt32();
               break;
             }
-            case 56: {
+            case 104: {
 
               bestRecord_ = input.readUInt32();
               break;
@@ -121,7 +121,7 @@ public final class MoonfinTrialLevelInfoOuterClass {
               emu.grasscutter.net.proto.MoonfinTrialLevelInfoOuterClass.MoonfinTrialLevelInfo.class, emu.grasscutter.net.proto.MoonfinTrialLevelInfoOuterClass.MoonfinTrialLevelInfo.Builder.class);
     }
 
-    public static final int BEST_RECORD_FIELD_NUMBER = 7;
+    public static final int BEST_RECORD_FIELD_NUMBER = 13;
     private int bestRecord_;
     /**
      * <code>uint32 best_record = 7;</code>
@@ -132,7 +132,7 @@ public final class MoonfinTrialLevelInfoOuterClass {
       return bestRecord_;
     }
 
-    public static final int OPEN_TIME_FIELD_NUMBER = 2;
+    public static final int OPEN_TIME_FIELD_NUMBER = 14;
     private int openTime_;
     /**
      * <code>uint32 open_time = 2;</code>
@@ -158,10 +158,10 @@ public final class MoonfinTrialLevelInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (openTime_ != 0) {
-        output.writeUInt32(2, openTime_);
+        output.writeUInt32(14, openTime_);
       }
       if (bestRecord_ != 0) {
-        output.writeUInt32(7, bestRecord_);
+        output.writeUInt32(13, bestRecord_);
       }
       unknownFields.writeTo(output);
     }
@@ -174,11 +174,11 @@ public final class MoonfinTrialLevelInfoOuterClass {
       size = 0;
       if (openTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, openTime_);
+          .computeUInt32Size(14, openTime_);
       }
       if (bestRecord_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, bestRecord_);
+          .computeUInt32Size(13, bestRecord_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

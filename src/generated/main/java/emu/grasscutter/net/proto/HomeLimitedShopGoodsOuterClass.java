@@ -92,7 +92,7 @@ public final class HomeLimitedShopGoodsOuterClass {
             case 0:
               done = true;
               break;
-            case 72: {
+            case 24: {
 
               goodsId_ = input.readUInt32();
               break;
@@ -102,7 +102,7 @@ public final class HomeLimitedShopGoodsOuterClass {
               buyLimit_ = input.readUInt32();
               break;
             }
-            case 90: {
+            case 66: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 costItemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>();
                 mutable_bitField0_ |= 0x00000001;
@@ -111,7 +111,7 @@ public final class HomeLimitedShopGoodsOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.parser(), extensionRegistry));
               break;
             }
-            case 98: {
+            case 114: {
               emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder subBuilder = null;
               if (goodsItem_ != null) {
                 subBuilder = goodsItem_.toBuilder();
@@ -124,12 +124,12 @@ public final class HomeLimitedShopGoodsOuterClass {
 
               break;
             }
-            case 104: {
+            case 72: {
 
               boughtNum_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 128000: {
 
               disableType_ = input.readUInt32();
               break;
@@ -169,7 +169,7 @@ public final class HomeLimitedShopGoodsOuterClass {
               emu.grasscutter.net.proto.HomeLimitedShopGoodsOuterClass.HomeLimitedShopGoods.class, emu.grasscutter.net.proto.HomeLimitedShopGoodsOuterClass.HomeLimitedShopGoods.Builder.class);
     }
 
-    public static final int GOODS_ITEM_FIELD_NUMBER = 1;
+    public static final int GOODS_ITEM_FIELD_NUMBER = 14;
     private emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam goodsItem_;
 
     @java.lang.Override
@@ -187,7 +187,7 @@ public final class HomeLimitedShopGoodsOuterClass {
       return getGoodsItem();
     }
 
-    public static final int COST_ITEM_LIST_FIELD_NUMBER = 10;
+    public static final int COST_ITEM_LIST_FIELD_NUMBER = 8;
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> costItemList_;
 
     @java.lang.Override
@@ -225,7 +225,7 @@ public final class HomeLimitedShopGoodsOuterClass {
       return buyLimit_;
     }
 
-    public static final int DISABLE_TYPE_FIELD_NUMBER = 14;
+    public static final int DISABLE_TYPE_FIELD_NUMBER = 16000;
     private int disableType_;
 
     @java.lang.Override
@@ -233,7 +233,7 @@ public final class HomeLimitedShopGoodsOuterClass {
       return disableType_;
     }
 
-    public static final int GOODS_ID_FIELD_NUMBER = 9;
+    public static final int GOODS_ID_FIELD_NUMBER = 3;
     private int goodsId_;
 
     @java.lang.Override
@@ -241,7 +241,7 @@ public final class HomeLimitedShopGoodsOuterClass {
       return goodsId_;
     }
 
-    public static final int BOUGHT_NUM_FIELD_NUMBER = 13;
+    public static final int BOUGHT_NUM_FIELD_NUMBER = 9;
     private int boughtNum_;
 
     @java.lang.Override
@@ -264,22 +264,22 @@ public final class HomeLimitedShopGoodsOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (goodsId_ != 0) {
-        output.writeUInt32(9, goodsId_);
+        output.writeUInt32(3, goodsId_);
       }
       if (buyLimit_ != 0) {
         output.writeUInt32(10, buyLimit_);
       }
       for (int i = 0; i < costItemList_.size(); i++) {
-        output.writeMessage(10, costItemList_.get(i));
+        output.writeMessage(8, costItemList_.get(i));
       }
       if (goodsItem_ != null) {
-        output.writeMessage(12, getGoodsItem());
+        output.writeMessage(14, getGoodsItem());
       }
       if (boughtNum_ != 0) {
-        output.writeUInt32(13, boughtNum_);
+        output.writeUInt32(9, boughtNum_);
       }
       if (disableType_ != 0) {
-        output.writeUInt32(14, disableType_);
+        output.writeUInt32(16000, disableType_);
       }
       unknownFields.writeTo(output);
     }
@@ -292,7 +292,7 @@ public final class HomeLimitedShopGoodsOuterClass {
       size = 0;
       if (goodsId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, goodsId_);
+          .computeUInt32Size(3, goodsId_);
       }
       if (buyLimit_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -300,19 +300,19 @@ public final class HomeLimitedShopGoodsOuterClass {
       }
       for (int i = 0; i < costItemList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, costItemList_.get(i));
+          .computeMessageSize(8, costItemList_.get(i));
       }
       if (goodsItem_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, getGoodsItem());
+          .computeMessageSize(14, getGoodsItem());
       }
       if (boughtNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, boughtNum_);
+          .computeUInt32Size(9, boughtNum_);
       }
       if (disableType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, disableType_);
+          .computeUInt32Size(16000, disableType_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

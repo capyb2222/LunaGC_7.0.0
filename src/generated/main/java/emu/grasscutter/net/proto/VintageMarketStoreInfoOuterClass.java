@@ -134,12 +134,12 @@ public final class VintageMarketStoreInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 16: {
 
               storeId_ = input.readUInt32();
               break;
             }
-            case 16: {
+            case 128000: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 dIHBDFFFFBG_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -147,7 +147,7 @@ public final class VintageMarketStoreInfoOuterClass {
               dIHBDFFFFBG_.addInt(input.readUInt32());
               break;
             }
-            case 18: {
+            case 128002: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -181,12 +181,12 @@ public final class VintageMarketStoreInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 80: {
+            case 64: {
 
               slotCount_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 32: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 strategyList_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -194,7 +194,7 @@ public final class VintageMarketStoreInfoOuterClass {
               strategyList_.addInt(input.readUInt32());
               break;
             }
-            case 90: {
+            case 34: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -248,7 +248,7 @@ public final class VintageMarketStoreInfoOuterClass {
               emu.grasscutter.net.proto.VintageMarketStoreInfoOuterClass.VintageMarketStoreInfo.class, emu.grasscutter.net.proto.VintageMarketStoreInfoOuterClass.VintageMarketStoreInfo.Builder.class);
     }
 
-    public static final int STORE_ID_FIELD_NUMBER = 1;
+    public static final int STORE_ID_FIELD_NUMBER = 2;
     private int storeId_;
     /**
      * <code>uint32 store_id = 1;</code>
@@ -259,7 +259,7 @@ public final class VintageMarketStoreInfoOuterClass {
       return storeId_;
     }
 
-    public static final int DIHBDFFFFBG_FIELD_NUMBER = 2;
+    public static final int DIHBDFFFFBG_FIELD_NUMBER = 16000;
     private com.google.protobuf.Internal.IntList dIHBDFFFFBG_;
     /**
      * <code>repeated uint32 DIHBDFFFFBG = 2;</code>
@@ -287,7 +287,7 @@ public final class VintageMarketStoreInfoOuterClass {
     }
     private int dIHBDFFFFBGMemoizedSerializedSize = -1;
 
-    public static final int SLOT_COUNT_FIELD_NUMBER = 10;
+    public static final int SLOT_COUNT_FIELD_NUMBER = 8;
     private int slotCount_;
     /**
      * <code>uint32 slot_count = 10;</code>
@@ -298,7 +298,7 @@ public final class VintageMarketStoreInfoOuterClass {
       return slotCount_;
     }
 
-    public static final int STRATEGY_LIST_FIELD_NUMBER = 11;
+    public static final int STRATEGY_LIST_FIELD_NUMBER = 4;
     private com.google.protobuf.Internal.IntList strategyList_;
     /**
      * <code>repeated uint32 strategy_list = 11;</code>
@@ -370,10 +370,10 @@ public final class VintageMarketStoreInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (storeId_ != 0) {
-        output.writeUInt32(1, storeId_);
+        output.writeUInt32(2, storeId_);
       }
       if (getDIHBDFFFFBGList().size() > 0) {
-        output.writeUInt32NoTag(18);
+        output.writeUInt32NoTag(128002);
         output.writeUInt32NoTag(dIHBDFFFFBGMemoizedSerializedSize);
       }
       for (int i = 0; i < dIHBDFFFFBG_.size(); i++) {
@@ -387,10 +387,10 @@ public final class VintageMarketStoreInfoOuterClass {
         output.writeUInt32NoTag(dPEOGCBENHO_.getInt(i));
       }
       if (slotCount_ != 0) {
-        output.writeUInt32(10, slotCount_);
+        output.writeUInt32(8, slotCount_);
       }
       if (getStrategyListList().size() > 0) {
-        output.writeUInt32NoTag(90);
+        output.writeUInt32NoTag(34);
         output.writeUInt32NoTag(strategyListMemoizedSerializedSize);
       }
       for (int i = 0; i < strategyList_.size(); i++) {
@@ -407,7 +407,7 @@ public final class VintageMarketStoreInfoOuterClass {
       size = 0;
       if (storeId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, storeId_);
+          .computeUInt32Size(2, storeId_);
       }
       {
         int dataSize = 0;
@@ -417,7 +417,7 @@ public final class VintageMarketStoreInfoOuterClass {
         }
         size += dataSize;
         if (!getDIHBDFFFFBGList().isEmpty()) {
-          size += 1;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
@@ -439,7 +439,7 @@ public final class VintageMarketStoreInfoOuterClass {
       }
       if (slotCount_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, slotCount_);
+          .computeUInt32Size(8, slotCount_);
       }
       {
         int dataSize = 0;

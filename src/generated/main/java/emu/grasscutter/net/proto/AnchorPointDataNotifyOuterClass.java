@@ -88,7 +88,7 @@ public final class AnchorPointDataNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 58: {
+            case 106: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 anchorPointList_ = new java.util.ArrayList<emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData>();
                 mutable_bitField0_ |= 0x00000001;
@@ -137,7 +137,7 @@ public final class AnchorPointDataNotifyOuterClass {
               emu.grasscutter.net.proto.AnchorPointDataNotifyOuterClass.AnchorPointDataNotify.class, emu.grasscutter.net.proto.AnchorPointDataNotifyOuterClass.AnchorPointDataNotify.Builder.class);
     }
 
-    public static final int ANCHOR_POINT_LIST_FIELD_NUMBER = 7;
+    public static final int ANCHOR_POINT_LIST_FIELD_NUMBER = 13;
     private java.util.List<emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData> anchorPointList_;
 
     @java.lang.Override
@@ -193,7 +193,7 @@ public final class AnchorPointDataNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < anchorPointList_.size(); i++) {
-        output.writeMessage(7, anchorPointList_.get(i));
+        output.writeMessage(13, anchorPointList_.get(i));
       }
       if (nextUsableTime_ != 0) {
         output.writeUInt32(16, nextUsableTime_);
@@ -209,7 +209,7 @@ public final class AnchorPointDataNotifyOuterClass {
       size = 0;
       for (int i = 0; i < anchorPointList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, anchorPointList_.get(i));
+          .computeMessageSize(13, anchorPointList_.get(i));
       }
       if (nextUsableTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream

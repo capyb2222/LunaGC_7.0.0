@@ -87,7 +87,7 @@ public final class HomeModuleSeenReqOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 88: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 seenModuleIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -95,7 +95,7 @@ public final class HomeModuleSeenReqOuterClass {
               seenModuleIdList_.addInt(input.readUInt32());
               break;
             }
-            case 66: {
+            case 90: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -143,7 +143,7 @@ public final class HomeModuleSeenReqOuterClass {
               emu.grasscutter.net.proto.HomeModuleSeenReqOuterClass.HomeModuleSeenReq.class, emu.grasscutter.net.proto.HomeModuleSeenReqOuterClass.HomeModuleSeenReq.Builder.class);
     }
 
-    public static final int SEEN_MODULE_ID_LIST_FIELD_NUMBER = 8;
+    public static final int SEEN_MODULE_ID_LIST_FIELD_NUMBER = 11;
     private com.google.protobuf.Internal.IntList seenModuleIdList_;
     /**
      * <code>repeated uint32 seen_module_id_list = 8;</code>
@@ -187,7 +187,7 @@ public final class HomeModuleSeenReqOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getSeenModuleIdListList().size() > 0) {
-        output.writeUInt32NoTag(66);
+        output.writeUInt32NoTag(90);
         output.writeUInt32NoTag(seenModuleIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < seenModuleIdList_.size(); i++) {

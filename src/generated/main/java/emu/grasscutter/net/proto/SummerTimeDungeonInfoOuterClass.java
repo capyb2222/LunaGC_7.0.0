@@ -97,7 +97,7 @@ public final class SummerTimeDungeonInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 48: {
 
               dungeonId_ = input.readUInt32();
               break;
@@ -176,7 +176,7 @@ public final class SummerTimeDungeonInfoOuterClass {
       return jCMPLCKOOEF_;
     }
 
-    public static final int DUNGEON_ID_FIELD_NUMBER = 7;
+    public static final int DUNGEON_ID_FIELD_NUMBER = 6;
     private int dungeonId_;
     /**
      * <code>uint32 dungeon_id = 2;</code>
@@ -224,7 +224,7 @@ public final class SummerTimeDungeonInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (dungeonId_ != 0) {
-        output.writeUInt32(7, dungeonId_);
+        output.writeUInt32(6, dungeonId_);
       }
       if (nGOIBHADCOM_ != 0) {
         output.writeUInt32(4, nGOIBHADCOM_);
@@ -249,7 +249,7 @@ public final class SummerTimeDungeonInfoOuterClass {
       size = 0;
       if (dungeonId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, dungeonId_);
+          .computeUInt32Size(6, dungeonId_);
       }
       if (nGOIBHADCOM_ != 0) {
         size += com.google.protobuf.CodedOutputStream

@@ -81,19 +81,19 @@ public final class GmTalkRspOuterClass {
             case 0:
               done = true;
               break;
-            case 18: {
+            case 50: {
               java.lang.String s = input.readStringRequireUtf8();
 
               msg_ = s;
               break;
             }
-            case 34: {
+            case 82: {
               java.lang.String s = input.readStringRequireUtf8();
 
               retmsg_ = s;
               break;
             }
-            case 24: {
+            case 64: {
 
               retcode_ = input.readInt32();
               break;
@@ -130,7 +130,7 @@ public final class GmTalkRspOuterClass {
               emu.grasscutter.net.proto.GmTalkRspOuterClass.GmTalkRsp.class, emu.grasscutter.net.proto.GmTalkRspOuterClass.GmTalkRsp.Builder.class);
     }
 
-    public static final int RETMSG_FIELD_NUMBER = 4;
+    public static final int RETMSG_FIELD_NUMBER = 10;
     private volatile java.lang.Object retmsg_;
 
     @java.lang.Override
@@ -162,7 +162,7 @@ public final class GmTalkRspOuterClass {
       }
     }
 
-    public static final int MSG_FIELD_NUMBER = 2;
+    public static final int MSG_FIELD_NUMBER = 6;
     private volatile java.lang.Object msg_;
 
     @java.lang.Override
@@ -194,7 +194,7 @@ public final class GmTalkRspOuterClass {
       }
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 3;
+    public static final int RETCODE_FIELD_NUMBER = 8;
     private int retcode_;
 
     @java.lang.Override
@@ -217,13 +217,13 @@ public final class GmTalkRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(msg_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 2, msg_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 6, msg_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(retmsg_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 4, retmsg_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 10, retmsg_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(3, retcode_);
+        output.writeInt32(8, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -235,14 +235,14 @@ public final class GmTalkRspOuterClass {
 
       size = 0;
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(msg_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(2, msg_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(6, msg_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(retmsg_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(4, retmsg_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(10, retmsg_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(3, retcode_);
+          .computeInt32Size(8, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -79,12 +79,12 @@ public final class VintageBoothUsedItemDataOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 104: {
 
               gadgetId_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 80: {
 
               isOpen_ = input.readBool();
               break;
@@ -121,7 +121,7 @@ public final class VintageBoothUsedItemDataOuterClass {
               emu.grasscutter.net.proto.VintageBoothUsedItemDataOuterClass.VintageBoothUsedItemData.class, emu.grasscutter.net.proto.VintageBoothUsedItemDataOuterClass.VintageBoothUsedItemData.Builder.class);
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 15;
+    public static final int IS_OPEN_FIELD_NUMBER = 10;
     private boolean isOpen_;
     /**
      * <code>bool is_open = 15;</code>
@@ -132,7 +132,7 @@ public final class VintageBoothUsedItemDataOuterClass {
       return isOpen_;
     }
 
-    public static final int GADGET_ID_FIELD_NUMBER = 8;
+    public static final int GADGET_ID_FIELD_NUMBER = 13;
     private int gadgetId_;
     /**
      * <code>uint32 gadget_id = 8;</code>
@@ -158,10 +158,10 @@ public final class VintageBoothUsedItemDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (gadgetId_ != 0) {
-        output.writeUInt32(8, gadgetId_);
+        output.writeUInt32(13, gadgetId_);
       }
       if (isOpen_ != false) {
-        output.writeBool(15, isOpen_);
+        output.writeBool(10, isOpen_);
       }
       unknownFields.writeTo(output);
     }
@@ -174,11 +174,11 @@ public final class VintageBoothUsedItemDataOuterClass {
       size = 0;
       if (gadgetId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, gadgetId_);
+          .computeUInt32Size(13, gadgetId_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, isOpen_);
+          .computeBoolSize(10, isOpen_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

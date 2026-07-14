@@ -114,9 +114,9 @@ public final class WindSeedClientNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 50: {
+            case 34: {
               emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotify.Builder subBuilder = null;
-              if (notifyCase_ == 6) {
+              if (notifyCase_ == 4) {
                 subBuilder = ((emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotify) notify_).toBuilder();
               }
               notify_ =
@@ -125,12 +125,12 @@ public final class WindSeedClientNotifyOuterClass {
                 subBuilder.mergeFrom((emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotify) notify_);
                 notify_ = subBuilder.buildPartial();
               }
-              notifyCase_ = 6;
+              notifyCase_ = 4;
               break;
             }
-            case 58: {
+            case 50: {
               emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotify.Builder subBuilder = null;
-              if (notifyCase_ == 7) {
+              if (notifyCase_ == 6) {
                 subBuilder = ((emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotify) notify_).toBuilder();
               }
               notify_ =
@@ -139,12 +139,12 @@ public final class WindSeedClientNotifyOuterClass {
                 subBuilder.mergeFrom((emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotify) notify_);
                 notify_ = subBuilder.buildPartial();
               }
-              notifyCase_ = 7;
+              notifyCase_ = 6;
               break;
             }
-            case 98: {
+            case 90: {
               emu.grasscutter.net.proto.AddWindBulletNotifyOuterClass.AddWindBulletNotify.Builder subBuilder = null;
-              if (notifyCase_ == 12) {
+              if (notifyCase_ == 11) {
                 subBuilder = ((emu.grasscutter.net.proto.AddWindBulletNotifyOuterClass.AddWindBulletNotify) notify_).toBuilder();
               }
               notify_ =
@@ -153,7 +153,7 @@ public final class WindSeedClientNotifyOuterClass {
                 subBuilder.mergeFrom((emu.grasscutter.net.proto.AddWindBulletNotifyOuterClass.AddWindBulletNotify) notify_);
                 notify_ = subBuilder.buildPartial();
               }
-              notifyCase_ = 12;
+              notifyCase_ = 11;
               break;
             }
             default: {
@@ -213,9 +213,9 @@ public final class WindSeedClientNotifyOuterClass {
 
       public static NotifyCase forNumber(int value) {
         switch (value) {
-          case 7: return AREA_NOTIFY;
-          case 6: return REFRESH_NOTIFY;
-          case 12: return ADD_WIND_BULLET_NOTIFY;
+          case 6: return AREA_NOTIFY;
+          case 4: return REFRESH_NOTIFY;
+          case 11: return ADD_WIND_BULLET_NOTIFY;
           case 0: return NOTIFY_NOT_SET;
           default: return null;
         }
@@ -231,14 +231,14 @@ public final class WindSeedClientNotifyOuterClass {
           notifyCase_);
     }
 
-    public static final int AREA_NOTIFY_FIELD_NUMBER = 7;
+    public static final int AREA_NOTIFY_FIELD_NUMBER = 6;
     /**
      * <code>.AreaNotify area_notify = 7;</code>
      * @return Whether the areaNotify field is set.
      */
     @java.lang.Override
     public boolean hasAreaNotify() {
-      return notifyCase_ == 7;
+      return notifyCase_ == 6;
     }
     /**
      * <code>.AreaNotify area_notify = 7;</code>
@@ -246,7 +246,7 @@ public final class WindSeedClientNotifyOuterClass {
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotify getAreaNotify() {
-      if (notifyCase_ == 7) {
+      if (notifyCase_ == 6) {
          return (emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotify) notify_;
       }
       return emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotify.getDefaultInstance();
@@ -256,20 +256,20 @@ public final class WindSeedClientNotifyOuterClass {
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotifyOrBuilder getAreaNotifyOrBuilder() {
-      if (notifyCase_ == 7) {
+      if (notifyCase_ == 6) {
          return (emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotify) notify_;
       }
       return emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotify.getDefaultInstance();
     }
 
-    public static final int REFRESH_NOTIFY_FIELD_NUMBER = 6;
+    public static final int REFRESH_NOTIFY_FIELD_NUMBER = 4;
     /**
      * <code>.RefreshNotify refresh_notify = 6;</code>
      * @return Whether the refreshNotify field is set.
      */
     @java.lang.Override
     public boolean hasRefreshNotify() {
-      return notifyCase_ == 6;
+      return notifyCase_ == 4;
     }
     /**
      * <code>.RefreshNotify refresh_notify = 6;</code>
@@ -277,7 +277,7 @@ public final class WindSeedClientNotifyOuterClass {
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotify getRefreshNotify() {
-      if (notifyCase_ == 6) {
+      if (notifyCase_ == 4) {
          return (emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotify) notify_;
       }
       return emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotify.getDefaultInstance();
@@ -287,20 +287,20 @@ public final class WindSeedClientNotifyOuterClass {
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotifyOrBuilder getRefreshNotifyOrBuilder() {
-      if (notifyCase_ == 6) {
+      if (notifyCase_ == 4) {
          return (emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotify) notify_;
       }
       return emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotify.getDefaultInstance();
     }
 
-    public static final int ADD_WIND_BULLET_NOTIFY_FIELD_NUMBER = 12;
+    public static final int ADD_WIND_BULLET_NOTIFY_FIELD_NUMBER = 11;
     /**
      * <code>.AddWindBulletNotify add_wind_bullet_notify = 12;</code>
      * @return Whether the addWindBulletNotify field is set.
      */
     @java.lang.Override
     public boolean hasAddWindBulletNotify() {
-      return notifyCase_ == 12;
+      return notifyCase_ == 11;
     }
     /**
      * <code>.AddWindBulletNotify add_wind_bullet_notify = 12;</code>
@@ -308,7 +308,7 @@ public final class WindSeedClientNotifyOuterClass {
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.AddWindBulletNotifyOuterClass.AddWindBulletNotify getAddWindBulletNotify() {
-      if (notifyCase_ == 12) {
+      if (notifyCase_ == 11) {
          return (emu.grasscutter.net.proto.AddWindBulletNotifyOuterClass.AddWindBulletNotify) notify_;
       }
       return emu.grasscutter.net.proto.AddWindBulletNotifyOuterClass.AddWindBulletNotify.getDefaultInstance();
@@ -318,7 +318,7 @@ public final class WindSeedClientNotifyOuterClass {
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.AddWindBulletNotifyOuterClass.AddWindBulletNotifyOrBuilder getAddWindBulletNotifyOrBuilder() {
-      if (notifyCase_ == 12) {
+      if (notifyCase_ == 11) {
          return (emu.grasscutter.net.proto.AddWindBulletNotifyOuterClass.AddWindBulletNotify) notify_;
       }
       return emu.grasscutter.net.proto.AddWindBulletNotifyOuterClass.AddWindBulletNotify.getDefaultInstance();
@@ -338,14 +338,14 @@ public final class WindSeedClientNotifyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (notifyCase_ == 4) {
+        output.writeMessage(4, (emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotify) notify_);
+      }
       if (notifyCase_ == 6) {
-        output.writeMessage(6, (emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotify) notify_);
+        output.writeMessage(6, (emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotify) notify_);
       }
-      if (notifyCase_ == 7) {
-        output.writeMessage(7, (emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotify) notify_);
-      }
-      if (notifyCase_ == 12) {
-        output.writeMessage(12, (emu.grasscutter.net.proto.AddWindBulletNotifyOuterClass.AddWindBulletNotify) notify_);
+      if (notifyCase_ == 11) {
+        output.writeMessage(11, (emu.grasscutter.net.proto.AddWindBulletNotifyOuterClass.AddWindBulletNotify) notify_);
       }
       unknownFields.writeTo(output);
     }
@@ -356,17 +356,17 @@ public final class WindSeedClientNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (notifyCase_ == 4) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(4, (emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotify) notify_);
+      }
       if (notifyCase_ == 6) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, (emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotify) notify_);
+          .computeMessageSize(6, (emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotify) notify_);
       }
-      if (notifyCase_ == 7) {
+      if (notifyCase_ == 11) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, (emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotify) notify_);
-      }
-      if (notifyCase_ == 12) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, (emu.grasscutter.net.proto.AddWindBulletNotifyOuterClass.AddWindBulletNotify) notify_);
+          .computeMessageSize(11, (emu.grasscutter.net.proto.AddWindBulletNotifyOuterClass.AddWindBulletNotify) notify_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -592,21 +592,21 @@ public final class WindSeedClientNotifyOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.WindSeedClientNotifyOuterClass.WindSeedClientNotify buildPartial() {
         emu.grasscutter.net.proto.WindSeedClientNotifyOuterClass.WindSeedClientNotify result = new emu.grasscutter.net.proto.WindSeedClientNotifyOuterClass.WindSeedClientNotify(this);
-        if (notifyCase_ == 7) {
+        if (notifyCase_ == 6) {
           if (areaNotifyBuilder_ == null) {
             result.notify_ = notify_;
           } else {
             result.notify_ = areaNotifyBuilder_.build();
           }
         }
-        if (notifyCase_ == 6) {
+        if (notifyCase_ == 4) {
           if (refreshNotifyBuilder_ == null) {
             result.notify_ = notify_;
           } else {
             result.notify_ = refreshNotifyBuilder_.build();
           }
         }
-        if (notifyCase_ == 12) {
+        if (notifyCase_ == 11) {
           if (addWindBulletNotifyBuilder_ == null) {
             result.notify_ = notify_;
           } else {
@@ -731,7 +731,7 @@ public final class WindSeedClientNotifyOuterClass {
        */
       @java.lang.Override
       public boolean hasAreaNotify() {
-        return notifyCase_ == 7;
+        return notifyCase_ == 6;
       }
       /**
        * <code>.AreaNotify area_notify = 7;</code>
@@ -740,12 +740,12 @@ public final class WindSeedClientNotifyOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotify getAreaNotify() {
         if (areaNotifyBuilder_ == null) {
-          if (notifyCase_ == 7) {
+          if (notifyCase_ == 6) {
             return (emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotify) notify_;
           }
           return emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotify.getDefaultInstance();
         } else {
-          if (notifyCase_ == 7) {
+          if (notifyCase_ == 6) {
             return areaNotifyBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotify.getDefaultInstance();
@@ -764,7 +764,7 @@ public final class WindSeedClientNotifyOuterClass {
         } else {
           areaNotifyBuilder_.setMessage(value);
         }
-        notifyCase_ = 7;
+        notifyCase_ = 6;
         return this;
       }
       /**
@@ -778,7 +778,7 @@ public final class WindSeedClientNotifyOuterClass {
         } else {
           areaNotifyBuilder_.setMessage(builderForValue.build());
         }
-        notifyCase_ = 7;
+        notifyCase_ = 6;
         return this;
       }
       /**
@@ -786,7 +786,7 @@ public final class WindSeedClientNotifyOuterClass {
        */
       public Builder mergeAreaNotify(emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotify value) {
         if (areaNotifyBuilder_ == null) {
-          if (notifyCase_ == 7 &&
+          if (notifyCase_ == 6 &&
               notify_ != emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotify.getDefaultInstance()) {
             notify_ = emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotify.newBuilder((emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotify) notify_)
                 .mergeFrom(value).buildPartial();
@@ -795,12 +795,12 @@ public final class WindSeedClientNotifyOuterClass {
           }
           onChanged();
         } else {
-          if (notifyCase_ == 7) {
+          if (notifyCase_ == 6) {
             areaNotifyBuilder_.mergeFrom(value);
           }
           areaNotifyBuilder_.setMessage(value);
         }
-        notifyCase_ = 7;
+        notifyCase_ = 6;
         return this;
       }
       /**
@@ -808,13 +808,13 @@ public final class WindSeedClientNotifyOuterClass {
        */
       public Builder clearAreaNotify() {
         if (areaNotifyBuilder_ == null) {
-          if (notifyCase_ == 7) {
+          if (notifyCase_ == 6) {
             notifyCase_ = 0;
             notify_ = null;
             onChanged();
           }
         } else {
-          if (notifyCase_ == 7) {
+          if (notifyCase_ == 6) {
             notifyCase_ = 0;
             notify_ = null;
           }
@@ -833,10 +833,10 @@ public final class WindSeedClientNotifyOuterClass {
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotifyOrBuilder getAreaNotifyOrBuilder() {
-        if ((notifyCase_ == 7) && (areaNotifyBuilder_ != null)) {
+        if ((notifyCase_ == 6) && (areaNotifyBuilder_ != null)) {
           return areaNotifyBuilder_.getMessageOrBuilder();
         } else {
-          if (notifyCase_ == 7) {
+          if (notifyCase_ == 6) {
             return (emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotify) notify_;
           }
           return emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotify.getDefaultInstance();
@@ -849,7 +849,7 @@ public final class WindSeedClientNotifyOuterClass {
           emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotify, emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotify.Builder, emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotifyOrBuilder> 
           getAreaNotifyFieldBuilder() {
         if (areaNotifyBuilder_ == null) {
-          if (!(notifyCase_ == 7)) {
+          if (!(notifyCase_ == 6)) {
             notify_ = emu.grasscutter.net.proto.AreaNotifyOuterClass.AreaNotify.getDefaultInstance();
           }
           areaNotifyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -859,7 +859,7 @@ public final class WindSeedClientNotifyOuterClass {
                   isClean());
           notify_ = null;
         }
-        notifyCase_ = 7;
+        notifyCase_ = 6;
         onChanged();;
         return areaNotifyBuilder_;
       }
@@ -872,7 +872,7 @@ public final class WindSeedClientNotifyOuterClass {
        */
       @java.lang.Override
       public boolean hasRefreshNotify() {
-        return notifyCase_ == 6;
+        return notifyCase_ == 4;
       }
       /**
        * <code>.RefreshNotify refresh_notify = 6;</code>
@@ -881,12 +881,12 @@ public final class WindSeedClientNotifyOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotify getRefreshNotify() {
         if (refreshNotifyBuilder_ == null) {
-          if (notifyCase_ == 6) {
+          if (notifyCase_ == 4) {
             return (emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotify) notify_;
           }
           return emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotify.getDefaultInstance();
         } else {
-          if (notifyCase_ == 6) {
+          if (notifyCase_ == 4) {
             return refreshNotifyBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotify.getDefaultInstance();
@@ -905,7 +905,7 @@ public final class WindSeedClientNotifyOuterClass {
         } else {
           refreshNotifyBuilder_.setMessage(value);
         }
-        notifyCase_ = 6;
+        notifyCase_ = 4;
         return this;
       }
       /**
@@ -919,7 +919,7 @@ public final class WindSeedClientNotifyOuterClass {
         } else {
           refreshNotifyBuilder_.setMessage(builderForValue.build());
         }
-        notifyCase_ = 6;
+        notifyCase_ = 4;
         return this;
       }
       /**
@@ -927,7 +927,7 @@ public final class WindSeedClientNotifyOuterClass {
        */
       public Builder mergeRefreshNotify(emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotify value) {
         if (refreshNotifyBuilder_ == null) {
-          if (notifyCase_ == 6 &&
+          if (notifyCase_ == 4 &&
               notify_ != emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotify.getDefaultInstance()) {
             notify_ = emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotify.newBuilder((emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotify) notify_)
                 .mergeFrom(value).buildPartial();
@@ -936,12 +936,12 @@ public final class WindSeedClientNotifyOuterClass {
           }
           onChanged();
         } else {
-          if (notifyCase_ == 6) {
+          if (notifyCase_ == 4) {
             refreshNotifyBuilder_.mergeFrom(value);
           }
           refreshNotifyBuilder_.setMessage(value);
         }
-        notifyCase_ = 6;
+        notifyCase_ = 4;
         return this;
       }
       /**
@@ -949,13 +949,13 @@ public final class WindSeedClientNotifyOuterClass {
        */
       public Builder clearRefreshNotify() {
         if (refreshNotifyBuilder_ == null) {
-          if (notifyCase_ == 6) {
+          if (notifyCase_ == 4) {
             notifyCase_ = 0;
             notify_ = null;
             onChanged();
           }
         } else {
-          if (notifyCase_ == 6) {
+          if (notifyCase_ == 4) {
             notifyCase_ = 0;
             notify_ = null;
           }
@@ -974,10 +974,10 @@ public final class WindSeedClientNotifyOuterClass {
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotifyOrBuilder getRefreshNotifyOrBuilder() {
-        if ((notifyCase_ == 6) && (refreshNotifyBuilder_ != null)) {
+        if ((notifyCase_ == 4) && (refreshNotifyBuilder_ != null)) {
           return refreshNotifyBuilder_.getMessageOrBuilder();
         } else {
-          if (notifyCase_ == 6) {
+          if (notifyCase_ == 4) {
             return (emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotify) notify_;
           }
           return emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotify.getDefaultInstance();
@@ -990,7 +990,7 @@ public final class WindSeedClientNotifyOuterClass {
           emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotify, emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotify.Builder, emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotifyOrBuilder> 
           getRefreshNotifyFieldBuilder() {
         if (refreshNotifyBuilder_ == null) {
-          if (!(notifyCase_ == 6)) {
+          if (!(notifyCase_ == 4)) {
             notify_ = emu.grasscutter.net.proto.RefreshNotifyOuterClass.RefreshNotify.getDefaultInstance();
           }
           refreshNotifyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1000,7 +1000,7 @@ public final class WindSeedClientNotifyOuterClass {
                   isClean());
           notify_ = null;
         }
-        notifyCase_ = 6;
+        notifyCase_ = 4;
         onChanged();;
         return refreshNotifyBuilder_;
       }
@@ -1013,7 +1013,7 @@ public final class WindSeedClientNotifyOuterClass {
        */
       @java.lang.Override
       public boolean hasAddWindBulletNotify() {
-        return notifyCase_ == 12;
+        return notifyCase_ == 11;
       }
       /**
        * <code>.AddWindBulletNotify add_wind_bullet_notify = 12;</code>
@@ -1022,12 +1022,12 @@ public final class WindSeedClientNotifyOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.AddWindBulletNotifyOuterClass.AddWindBulletNotify getAddWindBulletNotify() {
         if (addWindBulletNotifyBuilder_ == null) {
-          if (notifyCase_ == 12) {
+          if (notifyCase_ == 11) {
             return (emu.grasscutter.net.proto.AddWindBulletNotifyOuterClass.AddWindBulletNotify) notify_;
           }
           return emu.grasscutter.net.proto.AddWindBulletNotifyOuterClass.AddWindBulletNotify.getDefaultInstance();
         } else {
-          if (notifyCase_ == 12) {
+          if (notifyCase_ == 11) {
             return addWindBulletNotifyBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto.AddWindBulletNotifyOuterClass.AddWindBulletNotify.getDefaultInstance();
@@ -1046,7 +1046,7 @@ public final class WindSeedClientNotifyOuterClass {
         } else {
           addWindBulletNotifyBuilder_.setMessage(value);
         }
-        notifyCase_ = 12;
+        notifyCase_ = 11;
         return this;
       }
       /**
@@ -1060,7 +1060,7 @@ public final class WindSeedClientNotifyOuterClass {
         } else {
           addWindBulletNotifyBuilder_.setMessage(builderForValue.build());
         }
-        notifyCase_ = 12;
+        notifyCase_ = 11;
         return this;
       }
       /**
@@ -1068,7 +1068,7 @@ public final class WindSeedClientNotifyOuterClass {
        */
       public Builder mergeAddWindBulletNotify(emu.grasscutter.net.proto.AddWindBulletNotifyOuterClass.AddWindBulletNotify value) {
         if (addWindBulletNotifyBuilder_ == null) {
-          if (notifyCase_ == 12 &&
+          if (notifyCase_ == 11 &&
               notify_ != emu.grasscutter.net.proto.AddWindBulletNotifyOuterClass.AddWindBulletNotify.getDefaultInstance()) {
             notify_ = emu.grasscutter.net.proto.AddWindBulletNotifyOuterClass.AddWindBulletNotify.newBuilder((emu.grasscutter.net.proto.AddWindBulletNotifyOuterClass.AddWindBulletNotify) notify_)
                 .mergeFrom(value).buildPartial();
@@ -1077,12 +1077,12 @@ public final class WindSeedClientNotifyOuterClass {
           }
           onChanged();
         } else {
-          if (notifyCase_ == 12) {
+          if (notifyCase_ == 11) {
             addWindBulletNotifyBuilder_.mergeFrom(value);
           }
           addWindBulletNotifyBuilder_.setMessage(value);
         }
-        notifyCase_ = 12;
+        notifyCase_ = 11;
         return this;
       }
       /**
@@ -1090,13 +1090,13 @@ public final class WindSeedClientNotifyOuterClass {
        */
       public Builder clearAddWindBulletNotify() {
         if (addWindBulletNotifyBuilder_ == null) {
-          if (notifyCase_ == 12) {
+          if (notifyCase_ == 11) {
             notifyCase_ = 0;
             notify_ = null;
             onChanged();
           }
         } else {
-          if (notifyCase_ == 12) {
+          if (notifyCase_ == 11) {
             notifyCase_ = 0;
             notify_ = null;
           }
@@ -1115,10 +1115,10 @@ public final class WindSeedClientNotifyOuterClass {
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.AddWindBulletNotifyOuterClass.AddWindBulletNotifyOrBuilder getAddWindBulletNotifyOrBuilder() {
-        if ((notifyCase_ == 12) && (addWindBulletNotifyBuilder_ != null)) {
+        if ((notifyCase_ == 11) && (addWindBulletNotifyBuilder_ != null)) {
           return addWindBulletNotifyBuilder_.getMessageOrBuilder();
         } else {
-          if (notifyCase_ == 12) {
+          if (notifyCase_ == 11) {
             return (emu.grasscutter.net.proto.AddWindBulletNotifyOuterClass.AddWindBulletNotify) notify_;
           }
           return emu.grasscutter.net.proto.AddWindBulletNotifyOuterClass.AddWindBulletNotify.getDefaultInstance();
@@ -1131,7 +1131,7 @@ public final class WindSeedClientNotifyOuterClass {
           emu.grasscutter.net.proto.AddWindBulletNotifyOuterClass.AddWindBulletNotify, emu.grasscutter.net.proto.AddWindBulletNotifyOuterClass.AddWindBulletNotify.Builder, emu.grasscutter.net.proto.AddWindBulletNotifyOuterClass.AddWindBulletNotifyOrBuilder> 
           getAddWindBulletNotifyFieldBuilder() {
         if (addWindBulletNotifyBuilder_ == null) {
-          if (!(notifyCase_ == 12)) {
+          if (!(notifyCase_ == 11)) {
             notify_ = emu.grasscutter.net.proto.AddWindBulletNotifyOuterClass.AddWindBulletNotify.getDefaultInstance();
           }
           addWindBulletNotifyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1141,7 +1141,7 @@ public final class WindSeedClientNotifyOuterClass {
                   isClean());
           notify_ = null;
         }
-        notifyCase_ = 12;
+        notifyCase_ = 11;
         onChanged();;
         return addWindBulletNotifyBuilder_;
       }

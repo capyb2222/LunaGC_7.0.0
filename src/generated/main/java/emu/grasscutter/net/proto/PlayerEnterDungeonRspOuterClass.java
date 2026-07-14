@@ -86,7 +86,7 @@ public final class PlayerEnterDungeonRspOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 104: {
 
               pointId_ = input.readUInt32();
               break;
@@ -96,7 +96,7 @@ public final class PlayerEnterDungeonRspOuterClass {
               retcode_ = input.readInt32();
               break;
             }
-            case 64: {
+            case 16: {
 
               dungeonId_ = input.readUInt32();
               break;
@@ -133,7 +133,7 @@ public final class PlayerEnterDungeonRspOuterClass {
               emu.grasscutter.net.proto.PlayerEnterDungeonRspOuterClass.PlayerEnterDungeonRsp.class, emu.grasscutter.net.proto.PlayerEnterDungeonRspOuterClass.PlayerEnterDungeonRsp.Builder.class);
     }
 
-    public static final int POINT_ID_FIELD_NUMBER = 3;
+    public static final int POINT_ID_FIELD_NUMBER = 13;
     private int pointId_;
     /**
      * <code>uint32 point_id = 1;</code>
@@ -144,7 +144,7 @@ public final class PlayerEnterDungeonRspOuterClass {
       return pointId_;
     }
 
-    public static final int DUNGEON_ID_FIELD_NUMBER = 8;
+    public static final int DUNGEON_ID_FIELD_NUMBER = 2;
     private int dungeonId_;
     /**
      * <code>uint32 dungeon_id = 10;</code>
@@ -181,13 +181,13 @@ public final class PlayerEnterDungeonRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (pointId_ != 0) {
-        output.writeUInt32(3, pointId_);
+        output.writeUInt32(13, pointId_);
       }
       if (retcode_ != 0) {
         output.writeInt32(7, retcode_);
       }
       if (dungeonId_ != 0) {
-        output.writeUInt32(8, dungeonId_);
+        output.writeUInt32(2, dungeonId_);
       }
       unknownFields.writeTo(output);
     }
@@ -200,7 +200,7 @@ public final class PlayerEnterDungeonRspOuterClass {
       size = 0;
       if (pointId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, pointId_);
+          .computeUInt32Size(13, pointId_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -208,7 +208,7 @@ public final class PlayerEnterDungeonRspOuterClass {
       }
       if (dungeonId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, dungeonId_);
+          .computeUInt32Size(2, dungeonId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

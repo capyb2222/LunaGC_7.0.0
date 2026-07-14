@@ -79,7 +79,7 @@ public final class InstableSprayAvatarInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 96: {
+            case 16: {
 
               avatarId_ = input.readUInt64();
               break;
@@ -132,7 +132,7 @@ public final class InstableSprayAvatarInfoOuterClass {
       return isTrial_;
     }
 
-    public static final int AVATAR_ID_FIELD_NUMBER = 12;
+    public static final int AVATAR_ID_FIELD_NUMBER = 2;
     private long avatarId_;
     /**
      * <code>uint64 avatar_id = 12;</code>
@@ -158,7 +158,7 @@ public final class InstableSprayAvatarInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (avatarId_ != 0L) {
-        output.writeUInt64(12, avatarId_);
+        output.writeUInt64(2, avatarId_);
       }
       if (isTrial_ != false) {
         output.writeBool(15, isTrial_);
@@ -174,7 +174,7 @@ public final class InstableSprayAvatarInfoOuterClass {
       size = 0;
       if (avatarId_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(12, avatarId_);
+          .computeUInt64Size(2, avatarId_);
       }
       if (isTrial_ != false) {
         size += com.google.protobuf.CodedOutputStream

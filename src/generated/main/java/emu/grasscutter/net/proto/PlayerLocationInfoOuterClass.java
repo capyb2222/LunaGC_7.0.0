@@ -107,7 +107,7 @@ public final class PlayerLocationInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
+            case 74: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (rot_ != null) {
                 subBuilder = rot_.toBuilder();
@@ -120,7 +120,7 @@ public final class PlayerLocationInfoOuterClass {
 
               break;
             }
-            case 24: {
+            case 64: {
 
               uid_ = input.readUInt32();
               break;
@@ -194,7 +194,7 @@ public final class PlayerLocationInfoOuterClass {
               emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfo.class, emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfo.Builder.class);
     }
 
-    public static final int POS_FIELD_NUMBER = 8;
+    public static final int POS_FIELD_NUMBER = 7;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
     /**
      * <code>.Vector pos = 7;</code>
@@ -238,7 +238,7 @@ public final class PlayerLocationInfoOuterClass {
     }
     private int pFLKBEAJNIJMemoizedSerializedSize = -1;
 
-    public static final int ROT_FIELD_NUMBER = 14;
+    public static final int ROT_FIELD_NUMBER = 9;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector rot_;
     /**
      * <code>.Vector rot = 1;</code>
@@ -264,7 +264,7 @@ public final class PlayerLocationInfoOuterClass {
       return getRot();
     }
 
-    public static final int UID_FIELD_NUMBER = 5;
+    public static final int UID_FIELD_NUMBER = 8;
     private int uid_;
     /**
      * <code>uint32 uid = 3;</code>
@@ -291,10 +291,10 @@ public final class PlayerLocationInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (rot_ != null) {
-        output.writeMessage(1, getRot());
+        output.writeMessage(9, getRot());
       }
       if (uid_ != 0) {
-        output.writeUInt32(5, uid_);
+        output.writeUInt32(8, uid_);
       }
       if (getPFLKBEAJNIJList().size() > 0) {
         output.writeUInt32NoTag(50);
@@ -317,11 +317,11 @@ public final class PlayerLocationInfoOuterClass {
       size = 0;
       if (rot_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getRot());
+          .computeMessageSize(9, getRot());
       }
       if (uid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, uid_);
+          .computeUInt32Size(8, uid_);
       }
       {
         int dataSize = 0;

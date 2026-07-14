@@ -69,7 +69,7 @@ public final class ServerTimeNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 64: {
 
               serverTime_ = input.readUInt64();
               break;
@@ -106,7 +106,7 @@ public final class ServerTimeNotifyOuterClass {
               emu.grasscutter.net.proto.ServerTimeNotifyOuterClass.ServerTimeNotify.class, emu.grasscutter.net.proto.ServerTimeNotifyOuterClass.ServerTimeNotify.Builder.class);
     }
 
-    public static final int SERVER_TIME_FIELD_NUMBER = 1;
+    public static final int SERVER_TIME_FIELD_NUMBER = 8;
     private long serverTime_;
 
     @java.lang.Override
@@ -129,7 +129,7 @@ public final class ServerTimeNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (serverTime_ != 0L) {
-        output.writeUInt64(1, serverTime_);
+        output.writeUInt64(8, serverTime_);
       }
       unknownFields.writeTo(output);
     }
@@ -142,7 +142,7 @@ public final class ServerTimeNotifyOuterClass {
       size = 0;
       if (serverTime_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(1, serverTime_);
+          .computeUInt64Size(8, serverTime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

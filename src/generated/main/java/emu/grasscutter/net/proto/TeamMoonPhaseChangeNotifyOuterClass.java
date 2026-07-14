@@ -56,10 +56,10 @@ public final class TeamMoonPhaseChangeNotifyOuterClass {
           switch (tag) {
             case 0: done = true; break;
             case 8: { gcfnigdbkng_ = input.readUInt32(); break; }
-            case 40: { mdnlkcgakbp_ = input.readUInt64(); break; }
+            case 128000: { mdnlkcgakbp_ = input.readUInt64(); break; }
             case 56: { fkdpdkhjbhi_ = input.readBool(); break; }
-            case 72: { moonPhaseType_ = input.readUInt32(); break; }
-            case 104: { moonPhaseLevel_ = input.readUInt32(); break; }
+            case 40: { moonPhaseType_ = input.readUInt32(); break; }
+            case 88: { moonPhaseLevel_ = input.readUInt32(); break; }
             default: {
               if (!parseUnknownField(input, unknownFields, extensionRegistry, tag)) done = true;
               break;
@@ -89,7 +89,7 @@ public final class TeamMoonPhaseChangeNotifyOuterClass {
     private int gcfnigdbkng_;
     @java.lang.Override public int getGCFNIGDBKNG() { return gcfnigdbkng_; }
 
-    public static final int MDNLKCGAKBP_FIELD_NUMBER = 5;
+    public static final int MDNLKCGAKBP_FIELD_NUMBER = 16000;
     private long mdnlkcgakbp_;
     @java.lang.Override public long getMDNLKCGAKBP() { return mdnlkcgakbp_; }
 
@@ -97,11 +97,11 @@ public final class TeamMoonPhaseChangeNotifyOuterClass {
     private boolean fkdpdkhjbhi_;
     @java.lang.Override public boolean getFKDPDKHJBHI() { return fkdpdkhjbhi_; }
 
-    public static final int MOON_PHASE_TYPE_FIELD_NUMBER = 9;
+    public static final int MOON_PHASE_TYPE_FIELD_NUMBER = 5;
     private int moonPhaseType_;
     @java.lang.Override public int getMoonPhaseType() { return moonPhaseType_; }
 
-    public static final int MOON_PHASE_LEVEL_FIELD_NUMBER = 13;
+    public static final int MOON_PHASE_LEVEL_FIELD_NUMBER = 11;
     private int moonPhaseLevel_;
     @java.lang.Override public int getMoonPhaseLevel() { return moonPhaseLevel_; }
 
@@ -118,10 +118,10 @@ public final class TeamMoonPhaseChangeNotifyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output) throws java.io.IOException {
       if (gcfnigdbkng_ != 0) output.writeUInt32(1, gcfnigdbkng_);
-      if (mdnlkcgakbp_ != 0L) output.writeUInt64(5, mdnlkcgakbp_);
+      if (mdnlkcgakbp_ != 0L) output.writeUInt64(16000, mdnlkcgakbp_);
       if (fkdpdkhjbhi_ != false) output.writeBool(7, fkdpdkhjbhi_);
-      if (moonPhaseType_ != 0) output.writeUInt32(9, moonPhaseType_);
-      if (moonPhaseLevel_ != 0) output.writeUInt32(13, moonPhaseLevel_);
+      if (moonPhaseType_ != 0) output.writeUInt32(5, moonPhaseType_);
+      if (moonPhaseLevel_ != 0) output.writeUInt32(11, moonPhaseLevel_);
       unknownFields.writeTo(output);
     }
 
@@ -131,10 +131,10 @@ public final class TeamMoonPhaseChangeNotifyOuterClass {
       if (size != -1) return size;
       size = 0;
       if (gcfnigdbkng_ != 0) size += com.google.protobuf.CodedOutputStream.computeUInt32Size(1, gcfnigdbkng_);
-      if (mdnlkcgakbp_ != 0L) size += com.google.protobuf.CodedOutputStream.computeUInt64Size(5, mdnlkcgakbp_);
+      if (mdnlkcgakbp_ != 0L) size += com.google.protobuf.CodedOutputStream.computeUInt64Size(16000, mdnlkcgakbp_);
       if (fkdpdkhjbhi_ != false) size += com.google.protobuf.CodedOutputStream.computeBoolSize(7, fkdpdkhjbhi_);
-      if (moonPhaseType_ != 0) size += com.google.protobuf.CodedOutputStream.computeUInt32Size(9, moonPhaseType_);
-      if (moonPhaseLevel_ != 0) size += com.google.protobuf.CodedOutputStream.computeUInt32Size(13, moonPhaseLevel_);
+      if (moonPhaseType_ != 0) size += com.google.protobuf.CodedOutputStream.computeUInt32Size(5, moonPhaseType_);
+      if (moonPhaseLevel_ != 0) size += com.google.protobuf.CodedOutputStream.computeUInt32Size(11, moonPhaseLevel_);
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
       return size;

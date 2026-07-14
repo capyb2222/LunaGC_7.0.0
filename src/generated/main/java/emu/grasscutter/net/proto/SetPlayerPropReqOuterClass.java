@@ -94,7 +94,7 @@ public final class SetPlayerPropReqOuterClass {
             case 0:
               done = true;
               break;
-            case 74: {
+            case 114: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 propList_ = new java.util.ArrayList<emu.grasscutter.net.proto.PropValueOuterClass.PropValue>();
                 mutable_bitField0_ |= 0x00000001;

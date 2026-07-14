@@ -81,7 +81,7 @@ public final class SetPlayerSignatureRspOuterClass {
               signature_ = s;
               break;
             }
-            case 48: {
+            case 40: {
 
               retcode_ = input.readInt32();
               break;
@@ -118,7 +118,7 @@ public final class SetPlayerSignatureRspOuterClass {
               emu.grasscutter.net.proto.SetPlayerSignatureRspOuterClass.SetPlayerSignatureRsp.class, emu.grasscutter.net.proto.SetPlayerSignatureRspOuterClass.SetPlayerSignatureRsp.Builder.class);
     }
 
-    public static final int SIGNATURE_FIELD_NUMBER = 2;
+    public static final int SIGNATURE_FIELD_NUMBER = 8;
     private volatile java.lang.Object signature_;
 
     @java.lang.Override
@@ -150,7 +150,7 @@ public final class SetPlayerSignatureRspOuterClass {
       }
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 6;
+    public static final int RETCODE_FIELD_NUMBER = 5;
     private int retcode_;
 
     @java.lang.Override
@@ -176,7 +176,7 @@ public final class SetPlayerSignatureRspOuterClass {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 2, signature_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(6, retcode_);
+        output.writeInt32(5, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -192,7 +192,7 @@ public final class SetPlayerSignatureRspOuterClass {
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(6, retcode_);
+          .computeInt32Size(5, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -73,7 +73,7 @@ public final class SetPlayerBirthdayReqOuterClass {
             case 0:
               done = true;
               break;
-            case 90: {
+            case 74: {
               emu.grasscutter.net.proto.BirthdayOuterClass.Birthday.Builder subBuilder = null;
               if (birthday_ != null) {
                 subBuilder = birthday_.toBuilder();
@@ -118,7 +118,7 @@ public final class SetPlayerBirthdayReqOuterClass {
               emu.grasscutter.net.proto.SetPlayerBirthdayReqOuterClass.SetPlayerBirthdayReq.class, emu.grasscutter.net.proto.SetPlayerBirthdayReqOuterClass.SetPlayerBirthdayReq.Builder.class);
     }
 
-    public static final int BIRTHDAY_FIELD_NUMBER = 11;
+    public static final int BIRTHDAY_FIELD_NUMBER = 9;
     private emu.grasscutter.net.proto.BirthdayOuterClass.Birthday birthday_;
 
     @java.lang.Override
@@ -151,7 +151,7 @@ public final class SetPlayerBirthdayReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (birthday_ != null) {
-        output.writeMessage(11, getBirthday());
+        output.writeMessage(9, getBirthday());
       }
       unknownFields.writeTo(output);
     }
@@ -164,7 +164,7 @@ public final class SetPlayerBirthdayReqOuterClass {
       size = 0;
       if (birthday_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, getBirthday());
+          .computeMessageSize(9, getBirthday());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

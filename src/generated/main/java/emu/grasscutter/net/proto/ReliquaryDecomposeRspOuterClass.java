@@ -93,7 +93,7 @@ public final class ReliquaryDecomposeRspOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 40: {
 
               retcode_ = input.readInt32();
               break;
@@ -182,7 +182,7 @@ public final class ReliquaryDecomposeRspOuterClass {
     }
     private int guidListMemoizedSerializedSize = -1;
 
-    public static final int RETCODE_FIELD_NUMBER = 8;
+    public static final int RETCODE_FIELD_NUMBER = 5;
     private int retcode_;
     /**
      * <code>int32 retcode = 2;</code>
@@ -209,7 +209,7 @@ public final class ReliquaryDecomposeRspOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (retcode_ != 0) {
-        output.writeInt32(8, retcode_);
+        output.writeInt32(5, retcode_);
       }
       if (getGuidListList().size() > 0) {
         output.writeUInt32NoTag(106);
@@ -229,7 +229,7 @@ public final class ReliquaryDecomposeRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(8, retcode_);
+          .computeInt32Size(5, retcode_);
       }
       {
         int dataSize = 0;

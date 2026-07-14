@@ -93,7 +93,7 @@ public final class HomeModuleSeenRspOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 112: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 seenModuleIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -101,7 +101,7 @@ public final class HomeModuleSeenRspOuterClass {
               seenModuleIdList_.addInt(input.readUInt32());
               break;
             }
-            case 18: {
+            case 114: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -114,7 +114,7 @@ public final class HomeModuleSeenRspOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 120: {
+            case 40: {
 
               retcode_ = input.readInt32();
               break;
@@ -154,7 +154,7 @@ public final class HomeModuleSeenRspOuterClass {
               emu.grasscutter.net.proto.HomeModuleSeenRspOuterClass.HomeModuleSeenRsp.class, emu.grasscutter.net.proto.HomeModuleSeenRspOuterClass.HomeModuleSeenRsp.Builder.class);
     }
 
-    public static final int SEEN_MODULE_ID_LIST_FIELD_NUMBER = 2;
+    public static final int SEEN_MODULE_ID_LIST_FIELD_NUMBER = 14;
     private com.google.protobuf.Internal.IntList seenModuleIdList_;
     /**
      * <code>repeated uint32 seen_module_id_list = 2;</code>
@@ -182,7 +182,7 @@ public final class HomeModuleSeenRspOuterClass {
     }
     private int seenModuleIdListMemoizedSerializedSize = -1;
 
-    public static final int RETCODE_FIELD_NUMBER = 15;
+    public static final int RETCODE_FIELD_NUMBER = 5;
     private int retcode_;
     /**
      * <code>int32 retcode = 15;</code>
@@ -209,14 +209,14 @@ public final class HomeModuleSeenRspOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getSeenModuleIdListList().size() > 0) {
-        output.writeUInt32NoTag(18);
+        output.writeUInt32NoTag(114);
         output.writeUInt32NoTag(seenModuleIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < seenModuleIdList_.size(); i++) {
         output.writeUInt32NoTag(seenModuleIdList_.getInt(i));
       }
       if (retcode_ != 0) {
-        output.writeInt32(15, retcode_);
+        output.writeInt32(5, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -243,7 +243,7 @@ public final class HomeModuleSeenRspOuterClass {
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(15, retcode_);
+          .computeInt32Size(5, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

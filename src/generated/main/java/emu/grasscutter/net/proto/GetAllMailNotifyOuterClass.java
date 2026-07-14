@@ -65,7 +65,7 @@ public final class GetAllMailNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 112: {
 
               isCollected_ = input.readBool();
               break;
@@ -102,7 +102,7 @@ public final class GetAllMailNotifyOuterClass {
               emu.grasscutter.net.proto.GetAllMailNotifyOuterClass.GetAllMailNotify.class, emu.grasscutter.net.proto.GetAllMailNotifyOuterClass.GetAllMailNotify.Builder.class);
     }
 
-    public static final int IS_COLLECTED_FIELD_NUMBER = 8;
+    public static final int IS_COLLECTED_FIELD_NUMBER = 14;
     private boolean isCollected_;
 
     @java.lang.Override
@@ -125,7 +125,7 @@ public final class GetAllMailNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isCollected_ != false) {
-        output.writeBool(8, isCollected_);
+        output.writeBool(14, isCollected_);
       }
       unknownFields.writeTo(output);
     }
@@ -138,7 +138,7 @@ public final class GetAllMailNotifyOuterClass {
       size = 0;
       if (isCollected_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, isCollected_);
+          .computeBoolSize(14, isCollected_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

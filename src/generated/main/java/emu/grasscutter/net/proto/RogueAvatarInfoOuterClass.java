@@ -69,17 +69,17 @@ public final class RogueAvatarInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 40: {
 
               avatarId_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 120: {
 
               isAlive_ = input.readBool();
               break;
             }
-            case 104: {
+            case 32: {
 
               isOnstage_ = input.readBool();
               break;
@@ -116,7 +116,7 @@ public final class RogueAvatarInfoOuterClass {
               emu.grasscutter.net.proto.RogueAvatarInfoOuterClass.RogueAvatarInfo.class, emu.grasscutter.net.proto.RogueAvatarInfoOuterClass.RogueAvatarInfo.Builder.class);
     }
 
-    public static final int AVATAR_ID_FIELD_NUMBER = 4;
+    public static final int AVATAR_ID_FIELD_NUMBER = 5;
     private int avatarId_;
 
     @java.lang.Override
@@ -124,7 +124,7 @@ public final class RogueAvatarInfoOuterClass {
       return avatarId_;
     }
 
-    public static final int IS_ALIVE_FIELD_NUMBER = 10;
+    public static final int IS_ALIVE_FIELD_NUMBER = 15;
     private boolean isAlive_;
 
     @java.lang.Override
@@ -132,7 +132,7 @@ public final class RogueAvatarInfoOuterClass {
       return isAlive_;
     }
 
-    public static final int IS_ONSTAGE_FIELD_NUMBER = 13;
+    public static final int IS_ONSTAGE_FIELD_NUMBER = 4;
     private boolean isOnstage_;
 
     @java.lang.Override
@@ -155,13 +155,13 @@ public final class RogueAvatarInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (avatarId_ != 0) {
-        output.writeUInt32(4, avatarId_);
+        output.writeUInt32(5, avatarId_);
       }
       if (isAlive_ != false) {
-        output.writeBool(10, isAlive_);
+        output.writeBool(15, isAlive_);
       }
       if (isOnstage_ != false) {
-        output.writeBool(13, isOnstage_);
+        output.writeBool(4, isOnstage_);
       }
       unknownFields.writeTo(output);
     }
@@ -174,15 +174,15 @@ public final class RogueAvatarInfoOuterClass {
       size = 0;
       if (avatarId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, avatarId_);
+          .computeUInt32Size(5, avatarId_);
       }
       if (isAlive_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, isAlive_);
+          .computeBoolSize(15, isAlive_);
       }
       if (isOnstage_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, isOnstage_);
+          .computeBoolSize(4, isOnstage_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

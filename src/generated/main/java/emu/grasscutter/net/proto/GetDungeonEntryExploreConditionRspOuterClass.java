@@ -89,7 +89,7 @@ public final class GetDungeonEntryExploreConditionRspOuterClass {
             case 0:
               done = true;
               break;
-            case 88: {
+            case 8: {
 
               retcode_ = input.readInt32();
               break;
@@ -139,7 +139,7 @@ public final class GetDungeonEntryExploreConditionRspOuterClass {
               emu.grasscutter.net.proto.GetDungeonEntryExploreConditionRspOuterClass.GetDungeonEntryExploreConditionRsp.class, emu.grasscutter.net.proto.GetDungeonEntryExploreConditionRspOuterClass.GetDungeonEntryExploreConditionRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 11;
+    public static final int RETCODE_FIELD_NUMBER = 1;
     private int retcode_;
     /**
      * <code>int32 retcode = 11;</code>
@@ -191,7 +191,7 @@ public final class GetDungeonEntryExploreConditionRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(11, retcode_);
+        output.writeInt32(1, retcode_);
       }
       if (dungeonEntryCond_ != null) {
         output.writeMessage(12, getDungeonEntryCond());
@@ -207,7 +207,7 @@ public final class GetDungeonEntryExploreConditionRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(11, retcode_);
+          .computeInt32Size(1, retcode_);
       }
       if (dungeonEntryCond_ != null) {
         size += com.google.protobuf.CodedOutputStream

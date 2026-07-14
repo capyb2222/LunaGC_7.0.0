@@ -106,7 +106,7 @@ public final class CodexDataFullNotifyOuterClass {
               bFGINKEJIAA_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 112: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 recentViewedPushtipsList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -114,7 +114,7 @@ public final class CodexDataFullNotifyOuterClass {
               recentViewedPushtipsList_.addInt(input.readUInt32());
               break;
             }
-            case 50: {
+            case 114: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -127,7 +127,7 @@ public final class CodexDataFullNotifyOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 82: {
+            case 50: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 typeDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData>();
                 mutable_bitField0_ |= 0x00000002;
@@ -136,7 +136,7 @@ public final class CodexDataFullNotifyOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData.parser(), extensionRegistry));
               break;
             }
-            case 112: {
+            case 128000: {
 
               iPCLHNCJCNB_ = input.readUInt32();
               break;
@@ -179,7 +179,7 @@ public final class CodexDataFullNotifyOuterClass {
               emu.grasscutter.net.proto.CodexDataFullNotifyOuterClass.CodexDataFullNotify.class, emu.grasscutter.net.proto.CodexDataFullNotifyOuterClass.CodexDataFullNotify.Builder.class);
     }
 
-    public static final int RECENT_VIEWED_PUSHTIPS_LIST_FIELD_NUMBER = 11;
+    public static final int RECENT_VIEWED_PUSHTIPS_LIST_FIELD_NUMBER = 14;
     private com.google.protobuf.Internal.IntList recentViewedPushtipsList_;
 
     @java.lang.Override
@@ -197,7 +197,7 @@ public final class CodexDataFullNotifyOuterClass {
     }
     private int recentViewedPushtipsListMemoizedSerializedSize = -1;
 
-    public static final int TYPE_DATA_LIST_FIELD_NUMBER = 1;
+    public static final int TYPE_DATA_LIST_FIELD_NUMBER = 6;
     private java.util.List<emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData> typeDataList_;
 
     @java.lang.Override
@@ -227,7 +227,7 @@ public final class CodexDataFullNotifyOuterClass {
       return typeDataList_.get(index);
     }
 
-    public static final int IPCLHNCJCNB_FIELD_NUMBER = 14;
+    public static final int IPCLHNCJCNB_FIELD_NUMBER = 16000;
     private int iPCLHNCJCNB_;
     /**
      * <code>uint32 IPCLHNCJCNB = 14;</code>
@@ -268,17 +268,17 @@ public final class CodexDataFullNotifyOuterClass {
         output.writeUInt32(3, bFGINKEJIAA_);
       }
       if (getRecentViewedPushtipsListList().size() > 0) {
-        output.writeUInt32NoTag(50);
+        output.writeUInt32NoTag(114);
         output.writeUInt32NoTag(recentViewedPushtipsListMemoizedSerializedSize);
       }
       for (int i = 0; i < recentViewedPushtipsList_.size(); i++) {
         output.writeUInt32NoTag(recentViewedPushtipsList_.getInt(i));
       }
       for (int i = 0; i < typeDataList_.size(); i++) {
-        output.writeMessage(1, typeDataList_.get(i));
+        output.writeMessage(6, typeDataList_.get(i));
       }
       if (iPCLHNCJCNB_ != 0) {
-        output.writeUInt32(14, iPCLHNCJCNB_);
+        output.writeUInt32(16000, iPCLHNCJCNB_);
       }
       unknownFields.writeTo(output);
     }
@@ -309,11 +309,11 @@ public final class CodexDataFullNotifyOuterClass {
       }
       for (int i = 0; i < typeDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, typeDataList_.get(i));
+          .computeMessageSize(6, typeDataList_.get(i));
       }
       if (iPCLHNCJCNB_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, iPCLHNCJCNB_);
+          .computeUInt32Size(16000, iPCLHNCJCNB_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

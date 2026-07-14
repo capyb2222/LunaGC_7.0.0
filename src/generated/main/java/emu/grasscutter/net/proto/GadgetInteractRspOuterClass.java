@@ -89,18 +89,18 @@ public final class GadgetInteractRspOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 40: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 32: {
+            case 8: {
               int rawValue = input.readEnum();
 
               interactType_ = rawValue;
               break;
             }
-            case 40: {
+            case 128000: {
 
               hEBNJOABFOO_ = input.readUInt32();
               break;
@@ -110,7 +110,7 @@ public final class GadgetInteractRspOuterClass {
               gadgetEntityId_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 104: {
               int rawValue = input.readEnum();
 
               opType_ = rawValue;
@@ -169,7 +169,7 @@ public final class GadgetInteractRspOuterClass {
       return gadgetEntityId_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 3;
+    public static final int RETCODE_FIELD_NUMBER = 5;
     private int retcode_;
 
     @java.lang.Override
@@ -177,7 +177,7 @@ public final class GadgetInteractRspOuterClass {
       return retcode_;
     }
 
-    public static final int HEBNJOABFOO_FIELD_NUMBER = 5;
+    public static final int HEBNJOABFOO_FIELD_NUMBER = 16000;
     private int hEBNJOABFOO_;
     /**
      * <code>uint32 HEBNJOABFOO = 11;</code>
@@ -188,7 +188,7 @@ public final class GadgetInteractRspOuterClass {
       return hEBNJOABFOO_;
     }
 
-    public static final int INTERACT_TYPE_FIELD_NUMBER = 4;
+    public static final int INTERACT_TYPE_FIELD_NUMBER = 1;
     private int interactType_;
 
     @java.lang.Override public int getInteractTypeValue() {
@@ -201,7 +201,7 @@ public final class GadgetInteractRspOuterClass {
       return result == null ? emu.grasscutter.net.proto.InteractTypeOuterClass.InteractType.UNRECOGNIZED : result;
     }
 
-    public static final int OP_TYPE_FIELD_NUMBER = 9;
+    public static final int OP_TYPE_FIELD_NUMBER = 13;
     private int opType_;
 
     @java.lang.Override public int getOpTypeValue() {
@@ -232,19 +232,19 @@ public final class GadgetInteractRspOuterClass {
         output.writeUInt32(6, gadgetEntityId_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(3, retcode_);
+        output.writeInt32(5, retcode_);
       }
       if (interactType_ != emu.grasscutter.net.proto.InteractTypeOuterClass.InteractType.InteractType_INTERACT_NONE.getNumber()) {
-        output.writeEnum(4, interactType_);
+        output.writeEnum(1, interactType_);
       }
       if (hEBNJOABFOO_ != 0) {
-        output.writeUInt32(5, hEBNJOABFOO_);
+        output.writeUInt32(16000, hEBNJOABFOO_);
       }
       if (gadgetId_ != 0) {
         output.writeUInt32(11, gadgetId_);
       }
       if (opType_ != emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType.InterOpType_INTER_OP_FINISH.getNumber()) {
-        output.writeEnum(9, opType_);
+        output.writeEnum(13, opType_);
       }
       unknownFields.writeTo(output);
     }
@@ -261,15 +261,15 @@ public final class GadgetInteractRspOuterClass {
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(3, retcode_);
+          .computeInt32Size(5, retcode_);
       }
       if (interactType_ != emu.grasscutter.net.proto.InteractTypeOuterClass.InteractType.InteractType_INTERACT_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(4, interactType_);
+          .computeEnumSize(1, interactType_);
       }
       if (hEBNJOABFOO_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, hEBNJOABFOO_);
+          .computeUInt32Size(16000, hEBNJOABFOO_);
       }
       if (gadgetId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -277,7 +277,7 @@ public final class GadgetInteractRspOuterClass {
       }
       if (opType_ != emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType.InterOpType_INTER_OP_FINISH.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(9, opType_);
+          .computeEnumSize(13, opType_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

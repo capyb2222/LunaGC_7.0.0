@@ -115,7 +115,7 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 34: {
+            case 74: {
               emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.Builder subBuilder = null;
               if (rewardEvent_ != null) {
                 subBuilder = rewardEvent_.toBuilder();
@@ -128,12 +128,12 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
 
               break;
             }
-            case 56: {
+            case 48: {
 
               isEventTrigger_ = input.readBool();
               break;
             }
-            case 98: {
+            case 90: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 pendingList_ = new java.util.ArrayList<emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -177,7 +177,7 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
               emu.grasscutter.net.proto.HomeAvatarRewardEventNotifyOuterClass.HomeAvatarRewardEventNotify.class, emu.grasscutter.net.proto.HomeAvatarRewardEventNotifyOuterClass.HomeAvatarRewardEventNotify.Builder.class);
     }
 
-    public static final int REWARD_EVENT_FIELD_NUMBER = 4;
+    public static final int REWARD_EVENT_FIELD_NUMBER = 9;
     private emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo rewardEvent_;
     /**
      * <code>.HomeAvatarRewardEventInfo reward_event = 4;</code>
@@ -203,7 +203,7 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
       return getRewardEvent();
     }
 
-    public static final int PENDING_LIST_FIELD_NUMBER = 12;
+    public static final int PENDING_LIST_FIELD_NUMBER = 11;
     private java.util.List<emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo> pendingList_;
     /**
      * <code>repeated .HomeAvatarRewardEventInfo pending_list = 12;</code>
@@ -243,7 +243,7 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
       return pendingList_.get(index);
     }
 
-    public static final int IS_EVENT_TRIGGER_FIELD_NUMBER = 7;
+    public static final int IS_EVENT_TRIGGER_FIELD_NUMBER = 6;
     private boolean isEventTrigger_;
     /**
      * <code>bool is_event_trigger = 7;</code>
@@ -269,13 +269,13 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (rewardEvent_ != null) {
-        output.writeMessage(4, getRewardEvent());
+        output.writeMessage(9, getRewardEvent());
       }
       if (isEventTrigger_ != false) {
-        output.writeBool(7, isEventTrigger_);
+        output.writeBool(6, isEventTrigger_);
       }
       for (int i = 0; i < pendingList_.size(); i++) {
-        output.writeMessage(12, pendingList_.get(i));
+        output.writeMessage(11, pendingList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -288,15 +288,15 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
       size = 0;
       if (rewardEvent_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, getRewardEvent());
+          .computeMessageSize(9, getRewardEvent());
       }
       if (isEventTrigger_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, isEventTrigger_);
+          .computeBoolSize(6, isEventTrigger_);
       }
       for (int i = 0; i < pendingList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, pendingList_.get(i));
+          .computeMessageSize(11, pendingList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -39,7 +39,8 @@ public class SceneScriptManager {
     private final Scene scene;
     private final Map<String, Integer> variables;
     private SceneMeta meta;
-    private boolean isInit;
+    private volatile boolean isInit;
+    private volatile boolean initAttempted;
     private boolean noCacheGroupGridsToDisk;
 
     private final Map<String, SceneTimeAxis> timeAxis = new ConcurrentHashMap<>();
@@ -109,6 +110,9 @@ public class SceneScriptManager {
         for (int i = 0; i < 10; ++i) {
             if (this.isInit) {
                 return this.meta.config;
+            }
+            if (this.initAttempted) {
+                return null;
             }
             Utils.sleep(100);
         }
@@ -470,13 +474,13 @@ public class SceneScriptManager {
         }
 
         var meta = ScriptLoader.getSceneMeta(getScene().getId());
-        if (meta == null) {
-            return;
-        }
-        this.meta = meta;
+        if (meta != null) {
+            this.meta = meta;
 
-        // TEMP
-        this.isInit = true;
+            // TEMP
+            this.isInit = true;
+        }
+        this.initAttempted = true;
     }
 
     public List<Grid> getGroupGrids() {

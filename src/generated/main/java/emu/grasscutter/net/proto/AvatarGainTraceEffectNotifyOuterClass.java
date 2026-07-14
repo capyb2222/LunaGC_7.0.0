@@ -74,7 +74,7 @@ public final class AvatarGainTraceEffectNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 40: {
 
               traceEffectId_ = input.readUInt32();
               break;
@@ -111,7 +111,7 @@ public final class AvatarGainTraceEffectNotifyOuterClass {
               emu.grasscutter.net.proto.AvatarGainTraceEffectNotifyOuterClass.AvatarGainTraceEffectNotify.class, emu.grasscutter.net.proto.AvatarGainTraceEffectNotifyOuterClass.AvatarGainTraceEffectNotify.Builder.class);
     }
 
-    public static final int TRACE_EFFECT_ID_FIELD_NUMBER = 3;
+    public static final int TRACE_EFFECT_ID_FIELD_NUMBER = 5;
     private int traceEffectId_;
     /**
      * <code>uint32 trace_effect_id = 1;</code>
@@ -137,7 +137,7 @@ public final class AvatarGainTraceEffectNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (traceEffectId_ != 0) {
-        output.writeUInt32(3, traceEffectId_);
+        output.writeUInt32(5, traceEffectId_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +150,7 @@ public final class AvatarGainTraceEffectNotifyOuterClass {
       size = 0;
       if (traceEffectId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, traceEffectId_);
+          .computeUInt32Size(5, traceEffectId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

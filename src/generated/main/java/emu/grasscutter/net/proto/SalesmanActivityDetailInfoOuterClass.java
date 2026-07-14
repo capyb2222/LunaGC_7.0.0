@@ -163,7 +163,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
               mJICAFEKAEB_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 128000: {
 
               bEAHJMEOFHN_ = input.readUInt32();
               break;
@@ -188,7 +188,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
               oHFNJHMMKLK_ = input.readBool();
               break;
             }
-            case 96: {
+            case 48: {
               int rawValue = input.readEnum();
 
               status_ = rawValue;
@@ -346,7 +346,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
       return aHEHGIPMGEJ_;
     }
 
-    public static final int STATUS_FIELD_NUMBER = 12;
+    public static final int STATUS_FIELD_NUMBER = 6;
     private int status_;
 
     @java.lang.Override public int getStatusValue() {
@@ -370,7 +370,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
       return dOHCIFFNBDP_;
     }
 
-    public static final int BEAHJMEOFHN_FIELD_NUMBER = 6;
+    public static final int BEAHJMEOFHN_FIELD_NUMBER = 16000;
     private int bEAHJMEOFHN_;
     /**
      * <code>uint32 BEAHJMEOFHN = 6;</code>
@@ -438,7 +438,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
         output.writeUInt32(3, mJICAFEKAEB_);
       }
       if (bEAHJMEOFHN_ != 0) {
-        output.writeUInt32(6, bEAHJMEOFHN_);
+        output.writeUInt32(16000, bEAHJMEOFHN_);
       }
       if (dOHCIFFNBDP_ != 0) {
         output.writeUInt32(7, dOHCIFFNBDP_);
@@ -453,7 +453,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
         output.writeBool(11, oHFNJHMMKLK_);
       }
       if (status_ != emu.grasscutter.net.proto.DEMBMADKBALOuterClass.DEMBMADKBAL.DEMBMADKBAL_SALESMAN_STATUS_NONE.getNumber()) {
-        output.writeEnum(12, status_);
+        output.writeEnum(6, status_);
       }
       if (aHEHGIPMGEJ_ != 0) {
         output.writeUInt32(15, aHEHGIPMGEJ_);
@@ -483,7 +483,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
       }
       if (bEAHJMEOFHN_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, bEAHJMEOFHN_);
+          .computeUInt32Size(16000, bEAHJMEOFHN_);
       }
       if (dOHCIFFNBDP_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -503,7 +503,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
       }
       if (status_ != emu.grasscutter.net.proto.DEMBMADKBALOuterClass.DEMBMADKBAL.DEMBMADKBAL_SALESMAN_STATUS_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(12, status_);
+          .computeEnumSize(6, status_);
       }
       if (aHEHGIPMGEJ_ != 0) {
         size += com.google.protobuf.CodedOutputStream

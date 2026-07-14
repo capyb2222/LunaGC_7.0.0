@@ -69,7 +69,7 @@ public final class SeeMonsterReqOuterClass {
             case 0:
               done = true;
               break;
-            case 96: {
+            case 48: {
 
               monsterId_ = input.readUInt32();
               break;
@@ -106,7 +106,7 @@ public final class SeeMonsterReqOuterClass {
               emu.grasscutter.net.proto.SeeMonsterReqOuterClass.SeeMonsterReq.class, emu.grasscutter.net.proto.SeeMonsterReqOuterClass.SeeMonsterReq.Builder.class);
     }
 
-    public static final int MONSTER_ID_FIELD_NUMBER = 12;
+    public static final int MONSTER_ID_FIELD_NUMBER = 6;
     private int monsterId_;
 
     @java.lang.Override
@@ -129,7 +129,7 @@ public final class SeeMonsterReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (monsterId_ != 0) {
-        output.writeUInt32(12, monsterId_);
+        output.writeUInt32(6, monsterId_);
       }
       unknownFields.writeTo(output);
     }
@@ -142,7 +142,7 @@ public final class SeeMonsterReqOuterClass {
       size = 0;
       if (monsterId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, monsterId_);
+          .computeUInt32Size(6, monsterId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

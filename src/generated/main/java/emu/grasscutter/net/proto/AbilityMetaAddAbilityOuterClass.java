@@ -69,7 +69,7 @@ public final class AbilityMetaAddAbilityOuterClass {
             case 0:
               done = true;
               break;
-            case 66: {
+            case 50: {
               emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbility.Builder subBuilder = null;
               if (ability_ != null) {
                 subBuilder = ability_.toBuilder();
@@ -114,7 +114,7 @@ public final class AbilityMetaAddAbilityOuterClass {
               emu.grasscutter.net.proto.AbilityMetaAddAbilityOuterClass.AbilityMetaAddAbility.class, emu.grasscutter.net.proto.AbilityMetaAddAbilityOuterClass.AbilityMetaAddAbility.Builder.class);
     }
 
-    public static final int ABILITY_FIELD_NUMBER = 8;
+    public static final int ABILITY_FIELD_NUMBER = 6;
     private emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbility ability_;
 
     @java.lang.Override
@@ -147,7 +147,7 @@ public final class AbilityMetaAddAbilityOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (ability_ != null) {
-        output.writeMessage(8, getAbility());
+        output.writeMessage(6, getAbility());
       }
       unknownFields.writeTo(output);
     }
@@ -160,7 +160,7 @@ public final class AbilityMetaAddAbilityOuterClass {
       size = 0;
       if (ability_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, getAbility());
+          .computeMessageSize(6, getAbility());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

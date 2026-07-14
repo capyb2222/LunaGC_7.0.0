@@ -213,12 +213,12 @@ public final class DungeonChallengeFinishNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 40: {
 
               challengeRecordType_ = input.readUInt32();
               break;
             }
-            case 42: {
+            case 114: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 strengthenPointDataMap_ = com.google.protobuf.MapField.newMapField(
                     StrengthenPointDataMapDefaultEntryHolder.defaultEntry);
@@ -231,40 +231,40 @@ public final class DungeonChallengeFinishNotifyOuterClass {
                   strengthenPointDataMap__.getKey(), strengthenPointDataMap__.getValue());
               break;
             }
-            case 56: {
+            case 104: {
               int rawValue = input.readEnum();
 
               finishType_ = rawValue;
               break;
             }
-            case 64: {
+            case 88: {
 
               challengeIndex_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 96: {
 
               isSuccess_ = input.readBool();
               break;
             }
-            case 104: {
+            case 72: {
 
               timeCost_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 64: {
 
               currentValue_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 24: {
 
               isNewRecord_ = input.readBool();
               break;
             }
-            case 2714: {
+            case 12218: {
               emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo.Builder subBuilder = null;
-              if (detailCase_ == 339) {
+              if (detailCase_ == 1527) {
                 subBuilder = ((emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo) detail_).toBuilder();
               }
               detail_ =
@@ -273,12 +273,12 @@ public final class DungeonChallengeFinishNotifyOuterClass {
                 subBuilder.mergeFrom((emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
-              detailCase_ = 339;
+              detailCase_ = 1527;
               break;
             }
-            case 2810: {
+            case 4738: {
               emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo.Builder subBuilder = null;
-              if (detailCase_ == 351) {
+              if (detailCase_ == 592) {
                 subBuilder = ((emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo) detail_).toBuilder();
               }
               detail_ =
@@ -287,12 +287,12 @@ public final class DungeonChallengeFinishNotifyOuterClass {
                 subBuilder.mergeFrom((emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
-              detailCase_ = 351;
+              detailCase_ = 592;
               break;
             }
-            case 7322: {
+            case 15962: {
               emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo.Builder subBuilder = null;
-              if (detailCase_ == 915) {
+              if (detailCase_ == 1995) {
                 subBuilder = ((emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo) detail_).toBuilder();
               }
               detail_ =
@@ -301,12 +301,12 @@ public final class DungeonChallengeFinishNotifyOuterClass {
                 subBuilder.mergeFrom((emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
-              detailCase_ = 915;
+              detailCase_ = 1995;
               break;
             }
-            case 8890: {
+            case 3290: {
               emu.grasscutter.net.proto.ChannellerSlabLoopDungeonResultInfoOuterClass.ChannellerSlabLoopDungeonResultInfo.Builder subBuilder = null;
-              if (detailCase_ == 1111) {
+              if (detailCase_ == 411) {
                 subBuilder = ((emu.grasscutter.net.proto.ChannellerSlabLoopDungeonResultInfoOuterClass.ChannellerSlabLoopDungeonResultInfo) detail_).toBuilder();
               }
               detail_ =
@@ -315,7 +315,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
                 subBuilder.mergeFrom((emu.grasscutter.net.proto.ChannellerSlabLoopDungeonResultInfoOuterClass.ChannellerSlabLoopDungeonResultInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
-              detailCase_ = 1111;
+              detailCase_ = 411;
               break;
             }
             default: {
@@ -388,10 +388,10 @@ public final class DungeonChallengeFinishNotifyOuterClass {
 
       public static DetailCase forNumber(int value) {
         switch (value) {
-          case 1111: return CHANNELLER_SLAB_LOOP_DUNGEON_RESULT_INFO;
-          case 351: return EFFIGY_CHALLENGE_DUNGEON_RESULT_INFO;
-          case 339: return POTION_DUNGEON_RESULT_INFO;
-          case 915: return CUSTOM_DUNGEON_RESULT_INFO;
+          case 411: return CHANNELLER_SLAB_LOOP_DUNGEON_RESULT_INFO;
+          case 592: return EFFIGY_CHALLENGE_DUNGEON_RESULT_INFO;
+          case 1527: return POTION_DUNGEON_RESULT_INFO;
+          case 1995: return CUSTOM_DUNGEON_RESULT_INFO;
           case 0: return DETAIL_NOT_SET;
           default: return null;
         }
@@ -407,7 +407,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
           detailCase_);
     }
 
-    public static final int FINISH_TYPE_FIELD_NUMBER = 5;
+    public static final int FINISH_TYPE_FIELD_NUMBER = 13;
     private int finishType_;
     /**
      * <code>.ChallengeFinishType finish_type = 7;</code>
@@ -426,7 +426,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
       return result == null ? emu.grasscutter.net.proto.ChallengeFinishTypeOuterClass.ChallengeFinishType.UNRECOGNIZED : result;
     }
 
-    public static final int IS_SUCCESS_FIELD_NUMBER = 15;
+    public static final int IS_SUCCESS_FIELD_NUMBER = 12;
     private boolean isSuccess_;
     /**
      * <code>bool is_success = 11;</code>
@@ -448,7 +448,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
       return challengeIndex_;
     }
 
-    public static final int CURRENTVALUE_FIELD_NUMBER = 14;
+    public static final int CURRENTVALUE_FIELD_NUMBER = 8;
     private int currentValue_;
     /**
      * <code>uint32 currentValue = 14;</code>
@@ -459,7 +459,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
       return currentValue_;
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 9;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 3;
     private boolean isNewRecord_;
     /**
      * <code>bool is_new_record = 15;</code>
@@ -470,7 +470,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
       return isNewRecord_;
     }
 
-    public static final int TIME_COST_FIELD_NUMBER = 13;
+    public static final int TIME_COST_FIELD_NUMBER = 9;
     private int timeCost_;
     /**
      * <code>uint32 time_cost = 13;</code>
@@ -481,7 +481,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
       return timeCost_;
     }
 
-    public static final int STRENGTHEN_POINT_DATA_MAP_FIELD_NUMBER = 5;
+    public static final int STRENGTHEN_POINT_DATA_MAP_FIELD_NUMBER = 14;
     private static final class StrengthenPointDataMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData> defaultEntry =
@@ -562,7 +562,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
       return map.get(key);
     }
 
-    public static final int CHALLENGERECORDTYPE_FIELD_NUMBER = 12;
+    public static final int CHALLENGERECORDTYPE_FIELD_NUMBER = 5;
     private int challengeRecordType_;
     /**
      * <code>uint32 challengeRecordType = 4;</code>
@@ -573,14 +573,14 @@ public final class DungeonChallengeFinishNotifyOuterClass {
       return challengeRecordType_;
     }
 
-    public static final int CHANNELLER_SLAB_LOOP_DUNGEON_RESULT_INFO_FIELD_NUMBER = 1111;
+    public static final int CHANNELLER_SLAB_LOOP_DUNGEON_RESULT_INFO_FIELD_NUMBER = 411;
     /**
      * <code>.ChannellerSlabLoopDungeonResultInfo channeller_slab_loop_dungeon_result_info = 1111;</code>
      * @return Whether the channellerSlabLoopDungeonResultInfo field is set.
      */
     @java.lang.Override
     public boolean hasChannellerSlabLoopDungeonResultInfo() {
-      return detailCase_ == 1111;
+      return detailCase_ == 411;
     }
     /**
      * <code>.ChannellerSlabLoopDungeonResultInfo channeller_slab_loop_dungeon_result_info = 1111;</code>
@@ -588,7 +588,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ChannellerSlabLoopDungeonResultInfoOuterClass.ChannellerSlabLoopDungeonResultInfo getChannellerSlabLoopDungeonResultInfo() {
-      if (detailCase_ == 1111) {
+      if (detailCase_ == 411) {
          return (emu.grasscutter.net.proto.ChannellerSlabLoopDungeonResultInfoOuterClass.ChannellerSlabLoopDungeonResultInfo) detail_;
       }
       return emu.grasscutter.net.proto.ChannellerSlabLoopDungeonResultInfoOuterClass.ChannellerSlabLoopDungeonResultInfo.getDefaultInstance();
@@ -598,20 +598,20 @@ public final class DungeonChallengeFinishNotifyOuterClass {
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ChannellerSlabLoopDungeonResultInfoOuterClass.ChannellerSlabLoopDungeonResultInfoOrBuilder getChannellerSlabLoopDungeonResultInfoOrBuilder() {
-      if (detailCase_ == 1111) {
+      if (detailCase_ == 411) {
          return (emu.grasscutter.net.proto.ChannellerSlabLoopDungeonResultInfoOuterClass.ChannellerSlabLoopDungeonResultInfo) detail_;
       }
       return emu.grasscutter.net.proto.ChannellerSlabLoopDungeonResultInfoOuterClass.ChannellerSlabLoopDungeonResultInfo.getDefaultInstance();
     }
 
-    public static final int EFFIGY_CHALLENGE_DUNGEON_RESULT_INFO_FIELD_NUMBER = 351;
+    public static final int EFFIGY_CHALLENGE_DUNGEON_RESULT_INFO_FIELD_NUMBER = 592;
     /**
      * <code>.EffigyChallengeDungeonResultInfo effigy_challenge_dungeon_result_info = 351;</code>
      * @return Whether the effigyChallengeDungeonResultInfo field is set.
      */
     @java.lang.Override
     public boolean hasEffigyChallengeDungeonResultInfo() {
-      return detailCase_ == 351;
+      return detailCase_ == 592;
     }
     /**
      * <code>.EffigyChallengeDungeonResultInfo effigy_challenge_dungeon_result_info = 351;</code>
@@ -619,7 +619,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo getEffigyChallengeDungeonResultInfo() {
-      if (detailCase_ == 351) {
+      if (detailCase_ == 592) {
          return (emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo) detail_;
       }
       return emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo.getDefaultInstance();
@@ -629,20 +629,20 @@ public final class DungeonChallengeFinishNotifyOuterClass {
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfoOrBuilder getEffigyChallengeDungeonResultInfoOrBuilder() {
-      if (detailCase_ == 351) {
+      if (detailCase_ == 592) {
          return (emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo) detail_;
       }
       return emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo.getDefaultInstance();
     }
 
-    public static final int POTION_DUNGEON_RESULT_INFO_FIELD_NUMBER = 339;
+    public static final int POTION_DUNGEON_RESULT_INFO_FIELD_NUMBER = 1527;
     /**
      * <code>.PotionDungeonResultInfo potion_dungeon_result_info = 339;</code>
      * @return Whether the potionDungeonResultInfo field is set.
      */
     @java.lang.Override
     public boolean hasPotionDungeonResultInfo() {
-      return detailCase_ == 339;
+      return detailCase_ == 1527;
     }
     /**
      * <code>.PotionDungeonResultInfo potion_dungeon_result_info = 339;</code>
@@ -650,7 +650,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo getPotionDungeonResultInfo() {
-      if (detailCase_ == 339) {
+      if (detailCase_ == 1527) {
          return (emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo) detail_;
       }
       return emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo.getDefaultInstance();
@@ -660,20 +660,20 @@ public final class DungeonChallengeFinishNotifyOuterClass {
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfoOrBuilder getPotionDungeonResultInfoOrBuilder() {
-      if (detailCase_ == 339) {
+      if (detailCase_ == 1527) {
          return (emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo) detail_;
       }
       return emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo.getDefaultInstance();
     }
 
-    public static final int CUSTOM_DUNGEON_RESULT_INFO_FIELD_NUMBER = 915;
+    public static final int CUSTOM_DUNGEON_RESULT_INFO_FIELD_NUMBER = 1995;
     /**
      * <code>.CustomDungeonResultInfo custom_dungeon_result_info = 915;</code>
      * @return Whether the customDungeonResultInfo field is set.
      */
     @java.lang.Override
     public boolean hasCustomDungeonResultInfo() {
-      return detailCase_ == 915;
+      return detailCase_ == 1995;
     }
     /**
      * <code>.CustomDungeonResultInfo custom_dungeon_result_info = 915;</code>
@@ -681,7 +681,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo getCustomDungeonResultInfo() {
-      if (detailCase_ == 915) {
+      if (detailCase_ == 1995) {
          return (emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo) detail_;
       }
       return emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo.getDefaultInstance();
@@ -691,7 +691,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfoOrBuilder getCustomDungeonResultInfoOrBuilder() {
-      if (detailCase_ == 915) {
+      if (detailCase_ == 1995) {
          return (emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo) detail_;
       }
       return emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo.getDefaultInstance();
@@ -712,43 +712,43 @@ public final class DungeonChallengeFinishNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (challengeRecordType_ != 0) {
-        output.writeUInt32(12, challengeRecordType_);
+        output.writeUInt32(5, challengeRecordType_);
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
           internalGetStrengthenPointDataMap(),
           StrengthenPointDataMapDefaultEntryHolder.defaultEntry,
-          5);
+          14);
       if (finishType_ != emu.grasscutter.net.proto.ChallengeFinishTypeOuterClass.ChallengeFinishType.CHALLENGE_FINISH_TYPE_NONE.getNumber()) {
-        output.writeEnum(5, finishType_);
+        output.writeEnum(13, finishType_);
       }
       if (challengeIndex_ != 0) {
         output.writeUInt32(11, challengeIndex_);
       }
       if (isSuccess_ != false) {
-        output.writeBool(15, isSuccess_);
+        output.writeBool(12, isSuccess_);
       }
       if (timeCost_ != 0) {
-        output.writeUInt32(13, timeCost_);
+        output.writeUInt32(9, timeCost_);
       }
       if (currentValue_ != 0) {
-        output.writeUInt32(14, currentValue_);
+        output.writeUInt32(8, currentValue_);
       }
       if (isNewRecord_ != false) {
-        output.writeBool(9, isNewRecord_);
+        output.writeBool(3, isNewRecord_);
       }
-      if (detailCase_ == 339) {
-        output.writeMessage(339, (emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo) detail_);
+      if (detailCase_ == 1527) {
+        output.writeMessage(1527, (emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo) detail_);
       }
-      if (detailCase_ == 351) {
-        output.writeMessage(351, (emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo) detail_);
+      if (detailCase_ == 592) {
+        output.writeMessage(592, (emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo) detail_);
       }
-      if (detailCase_ == 915) {
-        output.writeMessage(915, (emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo) detail_);
+      if (detailCase_ == 1995) {
+        output.writeMessage(1995, (emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo) detail_);
       }
-      if (detailCase_ == 1111) {
-        output.writeMessage(1111, (emu.grasscutter.net.proto.ChannellerSlabLoopDungeonResultInfoOuterClass.ChannellerSlabLoopDungeonResultInfo) detail_);
+      if (detailCase_ == 411) {
+        output.writeMessage(411, (emu.grasscutter.net.proto.ChannellerSlabLoopDungeonResultInfoOuterClass.ChannellerSlabLoopDungeonResultInfo) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -761,7 +761,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
       size = 0;
       if (challengeRecordType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, challengeRecordType_);
+          .computeUInt32Size(5, challengeRecordType_);
       }
       for (java.util.Map.Entry<java.lang.Integer, emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData> entry
            : internalGetStrengthenPointDataMap().getMap().entrySet()) {
@@ -771,11 +771,11 @@ public final class DungeonChallengeFinishNotifyOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(5, strengthenPointDataMap__);
+            .computeMessageSize(14, strengthenPointDataMap__);
       }
       if (finishType_ != emu.grasscutter.net.proto.ChallengeFinishTypeOuterClass.ChallengeFinishType.CHALLENGE_FINISH_TYPE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(5, finishType_);
+          .computeEnumSize(13, finishType_);
       }
       if (challengeIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -783,35 +783,35 @@ public final class DungeonChallengeFinishNotifyOuterClass {
       }
       if (isSuccess_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, isSuccess_);
+          .computeBoolSize(12, isSuccess_);
       }
       if (timeCost_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, timeCost_);
+          .computeUInt32Size(9, timeCost_);
       }
       if (currentValue_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, currentValue_);
+          .computeUInt32Size(8, currentValue_);
       }
       if (isNewRecord_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isNewRecord_);
+          .computeBoolSize(3, isNewRecord_);
       }
-      if (detailCase_ == 339) {
+      if (detailCase_ == 1527) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(339, (emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo) detail_);
+          .computeMessageSize(1527, (emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo) detail_);
       }
-      if (detailCase_ == 351) {
+      if (detailCase_ == 592) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(351, (emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo) detail_);
+          .computeMessageSize(592, (emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo) detail_);
       }
-      if (detailCase_ == 915) {
+      if (detailCase_ == 1995) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(915, (emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo) detail_);
+          .computeMessageSize(1995, (emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo) detail_);
       }
-      if (detailCase_ == 1111) {
+      if (detailCase_ == 411) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1111, (emu.grasscutter.net.proto.ChannellerSlabLoopDungeonResultInfoOuterClass.ChannellerSlabLoopDungeonResultInfo) detail_);
+          .computeMessageSize(411, (emu.grasscutter.net.proto.ChannellerSlabLoopDungeonResultInfoOuterClass.ChannellerSlabLoopDungeonResultInfo) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1128,28 +1128,28 @@ public final class DungeonChallengeFinishNotifyOuterClass {
         result.strengthenPointDataMap_ = internalGetStrengthenPointDataMap();
         result.strengthenPointDataMap_.makeImmutable();
         result.challengeRecordType_ = challengeRecordType_;
-        if (detailCase_ == 1111) {
+        if (detailCase_ == 411) {
           if (channellerSlabLoopDungeonResultInfoBuilder_ == null) {
             result.detail_ = detail_;
           } else {
             result.detail_ = channellerSlabLoopDungeonResultInfoBuilder_.build();
           }
         }
-        if (detailCase_ == 351) {
+        if (detailCase_ == 592) {
           if (effigyChallengeDungeonResultInfoBuilder_ == null) {
             result.detail_ = detail_;
           } else {
             result.detail_ = effigyChallengeDungeonResultInfoBuilder_.build();
           }
         }
-        if (detailCase_ == 339) {
+        if (detailCase_ == 1527) {
           if (potionDungeonResultInfoBuilder_ == null) {
             result.detail_ = detail_;
           } else {
             result.detail_ = potionDungeonResultInfoBuilder_.build();
           }
         }
-        if (detailCase_ == 915) {
+        if (detailCase_ == 1995) {
           if (customDungeonResultInfoBuilder_ == null) {
             result.detail_ = detail_;
           } else {
@@ -1670,7 +1670,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        */
       @java.lang.Override
       public boolean hasChannellerSlabLoopDungeonResultInfo() {
-        return detailCase_ == 1111;
+        return detailCase_ == 411;
       }
       /**
        * <code>.ChannellerSlabLoopDungeonResultInfo channeller_slab_loop_dungeon_result_info = 1111;</code>
@@ -1679,12 +1679,12 @@ public final class DungeonChallengeFinishNotifyOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.ChannellerSlabLoopDungeonResultInfoOuterClass.ChannellerSlabLoopDungeonResultInfo getChannellerSlabLoopDungeonResultInfo() {
         if (channellerSlabLoopDungeonResultInfoBuilder_ == null) {
-          if (detailCase_ == 1111) {
+          if (detailCase_ == 411) {
             return (emu.grasscutter.net.proto.ChannellerSlabLoopDungeonResultInfoOuterClass.ChannellerSlabLoopDungeonResultInfo) detail_;
           }
           return emu.grasscutter.net.proto.ChannellerSlabLoopDungeonResultInfoOuterClass.ChannellerSlabLoopDungeonResultInfo.getDefaultInstance();
         } else {
-          if (detailCase_ == 1111) {
+          if (detailCase_ == 411) {
             return channellerSlabLoopDungeonResultInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto.ChannellerSlabLoopDungeonResultInfoOuterClass.ChannellerSlabLoopDungeonResultInfo.getDefaultInstance();
@@ -1703,7 +1703,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
         } else {
           channellerSlabLoopDungeonResultInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 1111;
+        detailCase_ = 411;
         return this;
       }
       /**
@@ -1717,7 +1717,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
         } else {
           channellerSlabLoopDungeonResultInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 1111;
+        detailCase_ = 411;
         return this;
       }
       /**
@@ -1725,7 +1725,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        */
       public Builder mergeChannellerSlabLoopDungeonResultInfo(emu.grasscutter.net.proto.ChannellerSlabLoopDungeonResultInfoOuterClass.ChannellerSlabLoopDungeonResultInfo value) {
         if (channellerSlabLoopDungeonResultInfoBuilder_ == null) {
-          if (detailCase_ == 1111 &&
+          if (detailCase_ == 411 &&
               detail_ != emu.grasscutter.net.proto.ChannellerSlabLoopDungeonResultInfoOuterClass.ChannellerSlabLoopDungeonResultInfo.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto.ChannellerSlabLoopDungeonResultInfoOuterClass.ChannellerSlabLoopDungeonResultInfo.newBuilder((emu.grasscutter.net.proto.ChannellerSlabLoopDungeonResultInfoOuterClass.ChannellerSlabLoopDungeonResultInfo) detail_)
                 .mergeFrom(value).buildPartial();
@@ -1734,12 +1734,12 @@ public final class DungeonChallengeFinishNotifyOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 1111) {
+          if (detailCase_ == 411) {
             channellerSlabLoopDungeonResultInfoBuilder_.mergeFrom(value);
           }
           channellerSlabLoopDungeonResultInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 1111;
+        detailCase_ = 411;
         return this;
       }
       /**
@@ -1747,13 +1747,13 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        */
       public Builder clearChannellerSlabLoopDungeonResultInfo() {
         if (channellerSlabLoopDungeonResultInfoBuilder_ == null) {
-          if (detailCase_ == 1111) {
+          if (detailCase_ == 411) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 1111) {
+          if (detailCase_ == 411) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -1772,10 +1772,10 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.ChannellerSlabLoopDungeonResultInfoOuterClass.ChannellerSlabLoopDungeonResultInfoOrBuilder getChannellerSlabLoopDungeonResultInfoOrBuilder() {
-        if ((detailCase_ == 1111) && (channellerSlabLoopDungeonResultInfoBuilder_ != null)) {
+        if ((detailCase_ == 411) && (channellerSlabLoopDungeonResultInfoBuilder_ != null)) {
           return channellerSlabLoopDungeonResultInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 1111) {
+          if (detailCase_ == 411) {
             return (emu.grasscutter.net.proto.ChannellerSlabLoopDungeonResultInfoOuterClass.ChannellerSlabLoopDungeonResultInfo) detail_;
           }
           return emu.grasscutter.net.proto.ChannellerSlabLoopDungeonResultInfoOuterClass.ChannellerSlabLoopDungeonResultInfo.getDefaultInstance();
@@ -1788,7 +1788,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
           emu.grasscutter.net.proto.ChannellerSlabLoopDungeonResultInfoOuterClass.ChannellerSlabLoopDungeonResultInfo, emu.grasscutter.net.proto.ChannellerSlabLoopDungeonResultInfoOuterClass.ChannellerSlabLoopDungeonResultInfo.Builder, emu.grasscutter.net.proto.ChannellerSlabLoopDungeonResultInfoOuterClass.ChannellerSlabLoopDungeonResultInfoOrBuilder> 
           getChannellerSlabLoopDungeonResultInfoFieldBuilder() {
         if (channellerSlabLoopDungeonResultInfoBuilder_ == null) {
-          if (!(detailCase_ == 1111)) {
+          if (!(detailCase_ == 411)) {
             detail_ = emu.grasscutter.net.proto.ChannellerSlabLoopDungeonResultInfoOuterClass.ChannellerSlabLoopDungeonResultInfo.getDefaultInstance();
           }
           channellerSlabLoopDungeonResultInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1798,7 +1798,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 1111;
+        detailCase_ = 411;
         onChanged();;
         return channellerSlabLoopDungeonResultInfoBuilder_;
       }
@@ -1811,7 +1811,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        */
       @java.lang.Override
       public boolean hasEffigyChallengeDungeonResultInfo() {
-        return detailCase_ == 351;
+        return detailCase_ == 592;
       }
       /**
        * <code>.EffigyChallengeDungeonResultInfo effigy_challenge_dungeon_result_info = 351;</code>
@@ -1820,12 +1820,12 @@ public final class DungeonChallengeFinishNotifyOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo getEffigyChallengeDungeonResultInfo() {
         if (effigyChallengeDungeonResultInfoBuilder_ == null) {
-          if (detailCase_ == 351) {
+          if (detailCase_ == 592) {
             return (emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo) detail_;
           }
           return emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo.getDefaultInstance();
         } else {
-          if (detailCase_ == 351) {
+          if (detailCase_ == 592) {
             return effigyChallengeDungeonResultInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo.getDefaultInstance();
@@ -1844,7 +1844,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
         } else {
           effigyChallengeDungeonResultInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 351;
+        detailCase_ = 592;
         return this;
       }
       /**
@@ -1858,7 +1858,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
         } else {
           effigyChallengeDungeonResultInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 351;
+        detailCase_ = 592;
         return this;
       }
       /**
@@ -1866,7 +1866,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        */
       public Builder mergeEffigyChallengeDungeonResultInfo(emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo value) {
         if (effigyChallengeDungeonResultInfoBuilder_ == null) {
-          if (detailCase_ == 351 &&
+          if (detailCase_ == 592 &&
               detail_ != emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo.newBuilder((emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo) detail_)
                 .mergeFrom(value).buildPartial();
@@ -1875,12 +1875,12 @@ public final class DungeonChallengeFinishNotifyOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 351) {
+          if (detailCase_ == 592) {
             effigyChallengeDungeonResultInfoBuilder_.mergeFrom(value);
           }
           effigyChallengeDungeonResultInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 351;
+        detailCase_ = 592;
         return this;
       }
       /**
@@ -1888,13 +1888,13 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        */
       public Builder clearEffigyChallengeDungeonResultInfo() {
         if (effigyChallengeDungeonResultInfoBuilder_ == null) {
-          if (detailCase_ == 351) {
+          if (detailCase_ == 592) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 351) {
+          if (detailCase_ == 592) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -1913,10 +1913,10 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfoOrBuilder getEffigyChallengeDungeonResultInfoOrBuilder() {
-        if ((detailCase_ == 351) && (effigyChallengeDungeonResultInfoBuilder_ != null)) {
+        if ((detailCase_ == 592) && (effigyChallengeDungeonResultInfoBuilder_ != null)) {
           return effigyChallengeDungeonResultInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 351) {
+          if (detailCase_ == 592) {
             return (emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo) detail_;
           }
           return emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo.getDefaultInstance();
@@ -1929,7 +1929,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
           emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo, emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo.Builder, emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfoOrBuilder> 
           getEffigyChallengeDungeonResultInfoFieldBuilder() {
         if (effigyChallengeDungeonResultInfoBuilder_ == null) {
-          if (!(detailCase_ == 351)) {
+          if (!(detailCase_ == 592)) {
             detail_ = emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo.getDefaultInstance();
           }
           effigyChallengeDungeonResultInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1939,7 +1939,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 351;
+        detailCase_ = 592;
         onChanged();;
         return effigyChallengeDungeonResultInfoBuilder_;
       }
@@ -1952,7 +1952,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        */
       @java.lang.Override
       public boolean hasPotionDungeonResultInfo() {
-        return detailCase_ == 339;
+        return detailCase_ == 1527;
       }
       /**
        * <code>.PotionDungeonResultInfo potion_dungeon_result_info = 339;</code>
@@ -1961,12 +1961,12 @@ public final class DungeonChallengeFinishNotifyOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo getPotionDungeonResultInfo() {
         if (potionDungeonResultInfoBuilder_ == null) {
-          if (detailCase_ == 339) {
+          if (detailCase_ == 1527) {
             return (emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo) detail_;
           }
           return emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo.getDefaultInstance();
         } else {
-          if (detailCase_ == 339) {
+          if (detailCase_ == 1527) {
             return potionDungeonResultInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo.getDefaultInstance();
@@ -1985,7 +1985,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
         } else {
           potionDungeonResultInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 339;
+        detailCase_ = 1527;
         return this;
       }
       /**
@@ -1999,7 +1999,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
         } else {
           potionDungeonResultInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 339;
+        detailCase_ = 1527;
         return this;
       }
       /**
@@ -2007,7 +2007,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        */
       public Builder mergePotionDungeonResultInfo(emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo value) {
         if (potionDungeonResultInfoBuilder_ == null) {
-          if (detailCase_ == 339 &&
+          if (detailCase_ == 1527 &&
               detail_ != emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo.newBuilder((emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo) detail_)
                 .mergeFrom(value).buildPartial();
@@ -2016,12 +2016,12 @@ public final class DungeonChallengeFinishNotifyOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 339) {
+          if (detailCase_ == 1527) {
             potionDungeonResultInfoBuilder_.mergeFrom(value);
           }
           potionDungeonResultInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 339;
+        detailCase_ = 1527;
         return this;
       }
       /**
@@ -2029,13 +2029,13 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        */
       public Builder clearPotionDungeonResultInfo() {
         if (potionDungeonResultInfoBuilder_ == null) {
-          if (detailCase_ == 339) {
+          if (detailCase_ == 1527) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 339) {
+          if (detailCase_ == 1527) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -2054,10 +2054,10 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfoOrBuilder getPotionDungeonResultInfoOrBuilder() {
-        if ((detailCase_ == 339) && (potionDungeonResultInfoBuilder_ != null)) {
+        if ((detailCase_ == 1527) && (potionDungeonResultInfoBuilder_ != null)) {
           return potionDungeonResultInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 339) {
+          if (detailCase_ == 1527) {
             return (emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo) detail_;
           }
           return emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo.getDefaultInstance();
@@ -2070,7 +2070,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
           emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo, emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo.Builder, emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfoOrBuilder> 
           getPotionDungeonResultInfoFieldBuilder() {
         if (potionDungeonResultInfoBuilder_ == null) {
-          if (!(detailCase_ == 339)) {
+          if (!(detailCase_ == 1527)) {
             detail_ = emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo.getDefaultInstance();
           }
           potionDungeonResultInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2080,7 +2080,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 339;
+        detailCase_ = 1527;
         onChanged();;
         return potionDungeonResultInfoBuilder_;
       }
@@ -2093,7 +2093,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        */
       @java.lang.Override
       public boolean hasCustomDungeonResultInfo() {
-        return detailCase_ == 915;
+        return detailCase_ == 1995;
       }
       /**
        * <code>.CustomDungeonResultInfo custom_dungeon_result_info = 915;</code>
@@ -2102,12 +2102,12 @@ public final class DungeonChallengeFinishNotifyOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo getCustomDungeonResultInfo() {
         if (customDungeonResultInfoBuilder_ == null) {
-          if (detailCase_ == 915) {
+          if (detailCase_ == 1995) {
             return (emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo) detail_;
           }
           return emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo.getDefaultInstance();
         } else {
-          if (detailCase_ == 915) {
+          if (detailCase_ == 1995) {
             return customDungeonResultInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo.getDefaultInstance();
@@ -2126,7 +2126,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
         } else {
           customDungeonResultInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 915;
+        detailCase_ = 1995;
         return this;
       }
       /**
@@ -2140,7 +2140,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
         } else {
           customDungeonResultInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 915;
+        detailCase_ = 1995;
         return this;
       }
       /**
@@ -2148,7 +2148,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        */
       public Builder mergeCustomDungeonResultInfo(emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo value) {
         if (customDungeonResultInfoBuilder_ == null) {
-          if (detailCase_ == 915 &&
+          if (detailCase_ == 1995 &&
               detail_ != emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo.newBuilder((emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo) detail_)
                 .mergeFrom(value).buildPartial();
@@ -2157,12 +2157,12 @@ public final class DungeonChallengeFinishNotifyOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 915) {
+          if (detailCase_ == 1995) {
             customDungeonResultInfoBuilder_.mergeFrom(value);
           }
           customDungeonResultInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 915;
+        detailCase_ = 1995;
         return this;
       }
       /**
@@ -2170,13 +2170,13 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        */
       public Builder clearCustomDungeonResultInfo() {
         if (customDungeonResultInfoBuilder_ == null) {
-          if (detailCase_ == 915) {
+          if (detailCase_ == 1995) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 915) {
+          if (detailCase_ == 1995) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -2195,10 +2195,10 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfoOrBuilder getCustomDungeonResultInfoOrBuilder() {
-        if ((detailCase_ == 915) && (customDungeonResultInfoBuilder_ != null)) {
+        if ((detailCase_ == 1995) && (customDungeonResultInfoBuilder_ != null)) {
           return customDungeonResultInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 915) {
+          if (detailCase_ == 1995) {
             return (emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo) detail_;
           }
           return emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo.getDefaultInstance();
@@ -2211,7 +2211,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
           emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo, emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo.Builder, emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfoOrBuilder> 
           getCustomDungeonResultInfoFieldBuilder() {
         if (customDungeonResultInfoBuilder_ == null) {
-          if (!(detailCase_ == 915)) {
+          if (!(detailCase_ == 1995)) {
             detail_ = emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo.getDefaultInstance();
           }
           customDungeonResultInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2221,7 +2221,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 915;
+        detailCase_ = 1995;
         onChanged();;
         return customDungeonResultInfoBuilder_;
       }

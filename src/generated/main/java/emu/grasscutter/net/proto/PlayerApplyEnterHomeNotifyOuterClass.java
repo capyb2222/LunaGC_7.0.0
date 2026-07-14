@@ -102,7 +102,7 @@ public final class PlayerApplyEnterHomeNotifyOuterClass {
 
               break;
             }
-            case 96: {
+            case 48: {
 
               srcAppId_ = input.readUInt32();
               break;
@@ -165,7 +165,7 @@ public final class PlayerApplyEnterHomeNotifyOuterClass {
       return getSrcPlayerInfo();
     }
 
-    public static final int SRC_APP_ID_FIELD_NUMBER = 12;
+    public static final int SRC_APP_ID_FIELD_NUMBER = 6;
     private int srcAppId_;
     /**
      * <code>uint32 src_app_id = 12;</code>
@@ -194,7 +194,7 @@ public final class PlayerApplyEnterHomeNotifyOuterClass {
         output.writeMessage(2, getSrcPlayerInfo());
       }
       if (srcAppId_ != 0) {
-        output.writeUInt32(12, srcAppId_);
+        output.writeUInt32(6, srcAppId_);
       }
       unknownFields.writeTo(output);
     }
@@ -211,7 +211,7 @@ public final class PlayerApplyEnterHomeNotifyOuterClass {
       }
       if (srcAppId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, srcAppId_);
+          .computeUInt32Size(6, srcAppId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

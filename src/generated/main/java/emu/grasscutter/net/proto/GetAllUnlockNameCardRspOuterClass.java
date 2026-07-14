@@ -99,7 +99,7 @@ public final class GetAllUnlockNameCardRspOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 112: {
+            case 96: {
 
               retcode_ = input.readInt32();
               break;
@@ -157,7 +157,7 @@ public final class GetAllUnlockNameCardRspOuterClass {
     }
     private int nameCardListMemoizedSerializedSize = -1;
 
-    public static final int RETCODE_FIELD_NUMBER = 14;
+    public static final int RETCODE_FIELD_NUMBER = 12;
     private int retcode_;
 
     @java.lang.Override
@@ -188,7 +188,7 @@ public final class GetAllUnlockNameCardRspOuterClass {
         output.writeUInt32NoTag(nameCardList_.getInt(i));
       }
       if (retcode_ != 0) {
-        output.writeInt32(14, retcode_);
+        output.writeInt32(12, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -215,7 +215,7 @@ public final class GetAllUnlockNameCardRspOuterClass {
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(14, retcode_);
+          .computeInt32Size(12, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

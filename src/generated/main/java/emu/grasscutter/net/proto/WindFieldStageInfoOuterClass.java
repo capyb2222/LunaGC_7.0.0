@@ -85,17 +85,17 @@ public final class WindFieldStageInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 48: {
 
               stageId_ = input.readUInt32();
               break;
             }
-            case 32: {
+            case 104: {
 
               openTime_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 24: {
 
               isOpen_ = input.readBool();
               break;
@@ -132,7 +132,7 @@ public final class WindFieldStageInfoOuterClass {
               emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo.class, emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo.Builder.class);
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 8;
+    public static final int IS_OPEN_FIELD_NUMBER = 3;
     private boolean isOpen_;
     /**
      * <code>bool is_open = 8;</code>
@@ -143,7 +143,7 @@ public final class WindFieldStageInfoOuterClass {
       return isOpen_;
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 2;
+    public static final int STAGE_ID_FIELD_NUMBER = 6;
     private int stageId_;
     /**
      * <code>uint32 stage_id = 2;</code>
@@ -154,7 +154,7 @@ public final class WindFieldStageInfoOuterClass {
       return stageId_;
     }
 
-    public static final int OPEN_TIME_FIELD_NUMBER = 4;
+    public static final int OPEN_TIME_FIELD_NUMBER = 13;
     private int openTime_;
     /**
      * <code>uint32 open_time = 4;</code>
@@ -180,13 +180,13 @@ public final class WindFieldStageInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (stageId_ != 0) {
-        output.writeUInt32(2, stageId_);
+        output.writeUInt32(6, stageId_);
       }
       if (openTime_ != 0) {
-        output.writeUInt32(4, openTime_);
+        output.writeUInt32(13, openTime_);
       }
       if (isOpen_ != false) {
-        output.writeBool(8, isOpen_);
+        output.writeBool(3, isOpen_);
       }
       unknownFields.writeTo(output);
     }
@@ -199,15 +199,15 @@ public final class WindFieldStageInfoOuterClass {
       size = 0;
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, stageId_);
+          .computeUInt32Size(6, stageId_);
       }
       if (openTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, openTime_);
+          .computeUInt32Size(13, openTime_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, isOpen_);
+          .computeBoolSize(3, isOpen_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

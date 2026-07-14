@@ -109,7 +109,7 @@ public final class MarkMapReqOuterClass {
             case 0:
               done = true;
               break;
-            case 106: {
+            case 66: {
               emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPoint.Builder subBuilder = null;
               if (mark_ != null) {
                 subBuilder = mark_.toBuilder();
@@ -122,7 +122,7 @@ public final class MarkMapReqOuterClass {
 
               break;
             }
-            case 114: {
+            case 42: {
               emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPoint.Builder subBuilder = null;
               if (old_ != null) {
                 subBuilder = old_.toBuilder();
@@ -135,7 +135,7 @@ public final class MarkMapReqOuterClass {
 
               break;
             }
-            case 120: {
+            case 56: {
               int rawValue = input.readEnum();
 
               op_ = rawValue;
@@ -299,7 +299,7 @@ public final class MarkMapReqOuterClass {
       // @@protoc_insertion_point(enum_scope:MarkMapReq.Operation)
     }
 
-    public static final int OLD_FIELD_NUMBER = 14;
+    public static final int OLD_FIELD_NUMBER = 5;
     private emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPoint old_;
     /**
      * <code>.MapMarkPoint old = 6;</code>
@@ -325,7 +325,7 @@ public final class MarkMapReqOuterClass {
       return getOld();
     }
 
-    public static final int MARK_FIELD_NUMBER = 13;
+    public static final int MARK_FIELD_NUMBER = 8;
     private emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPoint mark_;
     /**
      * <code>.MapMarkPoint mark = 1;</code>
@@ -351,7 +351,7 @@ public final class MarkMapReqOuterClass {
       return getMark();
     }
 
-    public static final int OP_FIELD_NUMBER = 15;
+    public static final int OP_FIELD_NUMBER = 7;
     private int op_;
     /**
      * <code>.MarkMapReq.Operation op = 14;</code>
@@ -385,13 +385,13 @@ public final class MarkMapReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (mark_ != null) {
-        output.writeMessage(13, getMark());
+        output.writeMessage(8, getMark());
       }
       if (old_ != null) {
-        output.writeMessage(14, getOld());
+        output.writeMessage(5, getOld());
       }
       if (op_ != emu.grasscutter.net.proto.MarkMapReqOuterClass.MarkMapReq.Operation.OPERATION_ADD.getNumber()) {
-        output.writeEnum(15, op_);
+        output.writeEnum(7, op_);
       }
       unknownFields.writeTo(output);
     }
@@ -404,15 +404,15 @@ public final class MarkMapReqOuterClass {
       size = 0;
       if (mark_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, getMark());
+          .computeMessageSize(8, getMark());
       }
       if (old_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, getOld());
+          .computeMessageSize(5, getOld());
       }
       if (op_ != emu.grasscutter.net.proto.MarkMapReqOuterClass.MarkMapReq.Operation.OPERATION_ADD.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(15, op_);
+          .computeEnumSize(7, op_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

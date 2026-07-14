@@ -73,17 +73,17 @@ public final class ResinChangeNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 16: {
 
               curValue_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 64: {
 
               nextAddTimestamp_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 112: {
 
               curBuyCount_ = input.readUInt32();
               break;
@@ -120,7 +120,7 @@ public final class ResinChangeNotifyOuterClass {
               emu.grasscutter.net.proto.ResinChangeNotifyOuterClass.ResinChangeNotify.class, emu.grasscutter.net.proto.ResinChangeNotifyOuterClass.ResinChangeNotify.Builder.class);
     }
 
-    public static final int NEXT_ADD_TIMESTAMP_FIELD_NUMBER = 6;
+    public static final int NEXT_ADD_TIMESTAMP_FIELD_NUMBER = 8;
     private int nextAddTimestamp_;
 
     @java.lang.Override
@@ -128,7 +128,7 @@ public final class ResinChangeNotifyOuterClass {
       return nextAddTimestamp_;
     }
 
-    public static final int CUR_BUY_COUNT_FIELD_NUMBER = 9;
+    public static final int CUR_BUY_COUNT_FIELD_NUMBER = 14;
     private int curBuyCount_;
 
     @java.lang.Override
@@ -136,7 +136,7 @@ public final class ResinChangeNotifyOuterClass {
       return curBuyCount_;
     }
 
-    public static final int CUR_VALUE_FIELD_NUMBER = 4;
+    public static final int CUR_VALUE_FIELD_NUMBER = 2;
     private int curValue_;
 
     @java.lang.Override
@@ -159,13 +159,13 @@ public final class ResinChangeNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (curValue_ != 0) {
-        output.writeUInt32(4, curValue_);
+        output.writeUInt32(2, curValue_);
       }
       if (nextAddTimestamp_ != 0) {
-        output.writeUInt32(6, nextAddTimestamp_);
+        output.writeUInt32(8, nextAddTimestamp_);
       }
       if (curBuyCount_ != 0) {
-        output.writeUInt32(9, curBuyCount_);
+        output.writeUInt32(14, curBuyCount_);
       }
       unknownFields.writeTo(output);
     }
@@ -178,15 +178,15 @@ public final class ResinChangeNotifyOuterClass {
       size = 0;
       if (curValue_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, curValue_);
+          .computeUInt32Size(2, curValue_);
       }
       if (nextAddTimestamp_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, nextAddTimestamp_);
+          .computeUInt32Size(8, nextAddTimestamp_);
       }
       if (curBuyCount_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, curBuyCount_);
+          .computeUInt32Size(14, curBuyCount_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

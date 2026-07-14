@@ -80,12 +80,12 @@ public final class SetEquipLockStateReqOuterClass {
             case 0:
               done = true;
               break;
-            case 72: {
+            case 104: {
 
               isLocked_ = input.readBool();
               break;
             }
-            case 88: {
+            case 80: {
 
               targetEquipGuid_ = input.readUInt64();
               break;
@@ -122,7 +122,7 @@ public final class SetEquipLockStateReqOuterClass {
               emu.grasscutter.net.proto.SetEquipLockStateReqOuterClass.SetEquipLockStateReq.class, emu.grasscutter.net.proto.SetEquipLockStateReqOuterClass.SetEquipLockStateReq.Builder.class);
     }
 
-    public static final int IS_LOCKED_FIELD_NUMBER = 9;
+    public static final int IS_LOCKED_FIELD_NUMBER = 13;
     private boolean isLocked_;
     /**
      * <code>bool is_locked = 2;</code>
@@ -133,7 +133,7 @@ public final class SetEquipLockStateReqOuterClass {
       return isLocked_;
     }
 
-    public static final int TARGET_EQUIP_GUID_FIELD_NUMBER = 11;
+    public static final int TARGET_EQUIP_GUID_FIELD_NUMBER = 10;
     private long targetEquipGuid_;
     /**
      * <code>uint64 target_equip_guid = 12;</code>
@@ -159,10 +159,10 @@ public final class SetEquipLockStateReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isLocked_ != false) {
-        output.writeBool(9, isLocked_);
+        output.writeBool(13, isLocked_);
       }
       if (targetEquipGuid_ != 0L) {
-        output.writeUInt64(11, targetEquipGuid_);
+        output.writeUInt64(10, targetEquipGuid_);
       }
       unknownFields.writeTo(output);
     }
@@ -175,11 +175,11 @@ public final class SetEquipLockStateReqOuterClass {
       size = 0;
       if (isLocked_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isLocked_);
+          .computeBoolSize(13, isLocked_);
       }
       if (targetEquipGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(11, targetEquipGuid_);
+          .computeUInt64Size(10, targetEquipGuid_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

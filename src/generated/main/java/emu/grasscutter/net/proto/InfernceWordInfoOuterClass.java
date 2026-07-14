@@ -102,12 +102,12 @@ public final class InfernceWordInfoOuterClass {
               hKJHBOMCGLK_ = input.readBool();
               break;
             }
-            case 16: {
+            case 128000: {
 
               jKDGMJCFEDH_ = input.readBool();
               break;
             }
-            case 72: {
+            case 104: {
 
               wordId_ = input.readUInt32();
               break;
@@ -117,7 +117,7 @@ public final class InfernceWordInfoOuterClass {
               dGMLJIKFAMI_ = input.readBool();
               break;
             }
-            case 104: {
+            case 16: {
 
               unlockByWordId_ = input.readUInt32();
               break;
@@ -154,7 +154,7 @@ public final class InfernceWordInfoOuterClass {
               emu.grasscutter.net.proto.InfernceWordInfoOuterClass.InfernceWordInfo.class, emu.grasscutter.net.proto.InfernceWordInfoOuterClass.InfernceWordInfo.Builder.class);
     }
 
-    public static final int UNLOCK_BY_WORD_ID_FIELD_NUMBER = 13;
+    public static final int UNLOCK_BY_WORD_ID_FIELD_NUMBER = 2;
     private int unlockByWordId_;
     /**
      * <code>uint32 unlock_by_word_id = 13;</code>
@@ -165,7 +165,7 @@ public final class InfernceWordInfoOuterClass {
       return unlockByWordId_;
     }
 
-    public static final int JKDGMJCFEDH_FIELD_NUMBER = 2;
+    public static final int JKDGMJCFEDH_FIELD_NUMBER = 16000;
     private boolean jKDGMJCFEDH_;
     /**
      * <code>bool JKDGMJCFEDH = 2;</code>
@@ -198,7 +198,7 @@ public final class InfernceWordInfoOuterClass {
       return hKJHBOMCGLK_;
     }
 
-    public static final int WORD_ID_FIELD_NUMBER = 9;
+    public static final int WORD_ID_FIELD_NUMBER = 13;
     private int wordId_;
     /**
      * <code>uint32 word_id = 9;</code>
@@ -227,16 +227,16 @@ public final class InfernceWordInfoOuterClass {
         output.writeBool(1, hKJHBOMCGLK_);
       }
       if (jKDGMJCFEDH_ != false) {
-        output.writeBool(2, jKDGMJCFEDH_);
+        output.writeBool(16000, jKDGMJCFEDH_);
       }
       if (wordId_ != 0) {
-        output.writeUInt32(9, wordId_);
+        output.writeUInt32(13, wordId_);
       }
       if (dGMLJIKFAMI_ != false) {
         output.writeBool(11, dGMLJIKFAMI_);
       }
       if (unlockByWordId_ != 0) {
-        output.writeUInt32(13, unlockByWordId_);
+        output.writeUInt32(2, unlockByWordId_);
       }
       unknownFields.writeTo(output);
     }
@@ -253,11 +253,11 @@ public final class InfernceWordInfoOuterClass {
       }
       if (jKDGMJCFEDH_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(2, jKDGMJCFEDH_);
+          .computeBoolSize(16000, jKDGMJCFEDH_);
       }
       if (wordId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, wordId_);
+          .computeUInt32Size(13, wordId_);
       }
       if (dGMLJIKFAMI_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -265,7 +265,7 @@ public final class InfernceWordInfoOuterClass {
       }
       if (unlockByWordId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, unlockByWordId_);
+          .computeUInt32Size(2, unlockByWordId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

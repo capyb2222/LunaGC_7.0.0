@@ -97,23 +97,23 @@ public final class CustomDungeonResultInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 120: {
 
               gotCoinNum_ = input.readUInt32();
               break;
             }
-            case 24: {
+            case 56: {
               int rawValue = input.readEnum();
 
               finishType_ = rawValue;
               break;
             }
-            case 32: {
+            case 16: {
 
               isArriveFinish_ = input.readBool();
               break;
             }
-            case 90: {
+            case 82: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 childChallengeList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBrief>();
                 mutable_bitField0_ |= 0x00000001;
@@ -122,7 +122,7 @@ public final class CustomDungeonResultInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBrief.parser(), extensionRegistry));
               break;
             }
-            case 96: {
+            case 64: {
 
               dungeonGuid_ = input.readUInt64();
               break;
@@ -172,7 +172,7 @@ public final class CustomDungeonResultInfoOuterClass {
               emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo.class, emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo.Builder.class);
     }
 
-    public static final int CHILD_CHALLENGE_LIST_FIELD_NUMBER = 3;
+    public static final int CHILD_CHALLENGE_LIST_FIELD_NUMBER = 10;
     private java.util.List<emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBrief> childChallengeList_;
 
     @java.lang.Override
@@ -202,7 +202,7 @@ public final class CustomDungeonResultInfoOuterClass {
       return childChallengeList_.get(index);
     }
 
-    public static final int DUNGEON_GUID_FIELD_NUMBER = 13;
+    public static final int DUNGEON_GUID_FIELD_NUMBER = 8;
     private long dungeonGuid_;
 
     @java.lang.Override
@@ -218,7 +218,7 @@ public final class CustomDungeonResultInfoOuterClass {
       return timeCost_;
     }
 
-    public static final int IS_ARRIVE_FINISH_FIELD_NUMBER = 4;
+    public static final int IS_ARRIVE_FINISH_FIELD_NUMBER = 2;
     private boolean isArriveFinish_;
 
     @java.lang.Override
@@ -237,7 +237,7 @@ public final class CustomDungeonResultInfoOuterClass {
       return hCOANLIOFCA_;
     }
 
-    public static final int GOT_COIN_NUM_FIELD_NUMBER = 2;
+    public static final int GOT_COIN_NUM_FIELD_NUMBER = 15;
     private int gotCoinNum_;
 
     @java.lang.Override
@@ -245,7 +245,7 @@ public final class CustomDungeonResultInfoOuterClass {
       return gotCoinNum_;
     }
 
-    public static final int FINISH_TYPE_FIELD_NUMBER = 14;
+    public static final int FINISH_TYPE_FIELD_NUMBER = 7;
     private int finishType_;
 
     @java.lang.Override public int getFinishTypeValue() {
@@ -273,19 +273,19 @@ public final class CustomDungeonResultInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (gotCoinNum_ != 0) {
-        output.writeUInt32(2, gotCoinNum_);
+        output.writeUInt32(15, gotCoinNum_);
       }
       if (finishType_ != emu.grasscutter.net.proto.CustomDungeonFinishTypeOuterClass.CustomDungeonFinishType.CustomDungeonFinishType_CUSTOM_DUNGEON_FINISH_PLAY_NORMAL.getNumber()) {
-        output.writeEnum(14, finishType_);
+        output.writeEnum(7, finishType_);
       }
       if (isArriveFinish_ != false) {
-        output.writeBool(4, isArriveFinish_);
+        output.writeBool(2, isArriveFinish_);
       }
       for (int i = 0; i < childChallengeList_.size(); i++) {
-        output.writeMessage(3, childChallengeList_.get(i));
+        output.writeMessage(10, childChallengeList_.get(i));
       }
       if (dungeonGuid_ != 0L) {
-        output.writeUInt64(13, dungeonGuid_);
+        output.writeUInt64(8, dungeonGuid_);
       }
       if (hCOANLIOFCA_ != false) {
         output.writeBool(13, hCOANLIOFCA_);
@@ -304,23 +304,23 @@ public final class CustomDungeonResultInfoOuterClass {
       size = 0;
       if (gotCoinNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, gotCoinNum_);
+          .computeUInt32Size(15, gotCoinNum_);
       }
       if (finishType_ != emu.grasscutter.net.proto.CustomDungeonFinishTypeOuterClass.CustomDungeonFinishType.CustomDungeonFinishType_CUSTOM_DUNGEON_FINISH_PLAY_NORMAL.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(14, finishType_);
+          .computeEnumSize(7, finishType_);
       }
       if (isArriveFinish_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, isArriveFinish_);
+          .computeBoolSize(2, isArriveFinish_);
       }
       for (int i = 0; i < childChallengeList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, childChallengeList_.get(i));
+          .computeMessageSize(10, childChallengeList_.get(i));
       }
       if (dungeonGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(13, dungeonGuid_);
+          .computeUInt64Size(8, dungeonGuid_);
       }
       if (hCOANLIOFCA_ != false) {
         size += com.google.protobuf.CodedOutputStream

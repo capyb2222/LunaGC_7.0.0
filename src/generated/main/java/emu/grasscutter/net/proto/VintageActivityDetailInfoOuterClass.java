@@ -224,7 +224,7 @@ public final class VintageActivityDetailInfoOuterClass {
                   oKJBALNDPFC__.getKey(), oKJBALNDPFC__.getValue());
               break;
             }
-            case 80: {
+            case 104: {
 
               isContentClosed_ = input.readBool();
               break;
@@ -611,7 +611,7 @@ public final class VintageActivityDetailInfoOuterClass {
       return getELNFBDICJGM();
     }
 
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 10;
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 13;
     private boolean isContentClosed_;
 
     @java.lang.Override
@@ -646,7 +646,7 @@ public final class VintageActivityDetailInfoOuterClass {
           OKJBALNDPFCDefaultEntryHolder.defaultEntry,
           9);
       if (isContentClosed_ != false) {
-        output.writeBool(10, isContentClosed_);
+        output.writeBool(13, isContentClosed_);
       }
       if (bIDPJADENCE_ != null) {
         output.writeMessage(11, getBIDPJADENCE());
@@ -691,7 +691,7 @@ public final class VintageActivityDetailInfoOuterClass {
       }
       if (isContentClosed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, isContentClosed_);
+          .computeBoolSize(13, isContentClosed_);
       }
       if (bIDPJADENCE_ != null) {
         size += com.google.protobuf.CodedOutputStream

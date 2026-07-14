@@ -75,12 +75,12 @@ public final class SetPlayerBirthdayRspOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
+            case 16: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 122: {
+            case 66: {
               emu.grasscutter.net.proto.BirthdayOuterClass.Birthday.Builder subBuilder = null;
               if (birthday_ != null) {
                 subBuilder = birthday_.toBuilder();
@@ -125,7 +125,7 @@ public final class SetPlayerBirthdayRspOuterClass {
               emu.grasscutter.net.proto.SetPlayerBirthdayRspOuterClass.SetPlayerBirthdayRsp.class, emu.grasscutter.net.proto.SetPlayerBirthdayRspOuterClass.SetPlayerBirthdayRsp.Builder.class);
     }
 
-    public static final int BIRTHDAY_FIELD_NUMBER = 15;
+    public static final int BIRTHDAY_FIELD_NUMBER = 8;
     private emu.grasscutter.net.proto.BirthdayOuterClass.Birthday birthday_;
 
     @java.lang.Override
@@ -143,7 +143,7 @@ public final class SetPlayerBirthdayRspOuterClass {
       return getBirthday();
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 5;
+    public static final int RETCODE_FIELD_NUMBER = 2;
     private int retcode_;
 
     @java.lang.Override
@@ -166,10 +166,10 @@ public final class SetPlayerBirthdayRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(5, retcode_);
+        output.writeInt32(2, retcode_);
       }
       if (birthday_ != null) {
-        output.writeMessage(15, getBirthday());
+        output.writeMessage(8, getBirthday());
       }
       unknownFields.writeTo(output);
     }
@@ -182,11 +182,11 @@ public final class SetPlayerBirthdayRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(5, retcode_);
+          .computeInt32Size(2, retcode_);
       }
       if (birthday_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, getBirthday());
+          .computeMessageSize(8, getBirthday());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -97,7 +97,7 @@ public final class TanukiTravelActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 8: {
 
               isContentClosed_ = input.readBool();
               break;
@@ -191,7 +191,7 @@ public final class TanukiTravelActivityDetailInfoOuterClass {
       return kJHIGIHFFGH_.get(index);
     }
 
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 3;
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 1;
     private boolean isContentClosed_;
 
     @java.lang.Override
@@ -225,7 +225,7 @@ public final class TanukiTravelActivityDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isContentClosed_ != false) {
-        output.writeBool(3, isContentClosed_);
+        output.writeBool(1, isContentClosed_);
       }
       for (int i = 0; i < kJHIGIHFFGH_.size(); i++) {
         output.writeMessage(6, kJHIGIHFFGH_.get(i));
@@ -244,7 +244,7 @@ public final class TanukiTravelActivityDetailInfoOuterClass {
       size = 0;
       if (isContentClosed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, isContentClosed_);
+          .computeBoolSize(1, isContentClosed_);
       }
       for (int i = 0; i < kJHIGIHFFGH_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream

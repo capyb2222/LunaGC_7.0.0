@@ -99,7 +99,7 @@ public final class UseWidgetCreateGadgetReqOuterClass {
             case 0:
               done = true;
               break;
-            case 26: {
+            case 18: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (rot_ != null) {
                 subBuilder = rot_.toBuilder();
@@ -112,12 +112,12 @@ public final class UseWidgetCreateGadgetReqOuterClass {
 
               break;
             }
-            case 88: {
+            case 56: {
 
               materialId_ = input.readUInt32();
               break;
             }
-            case 106: {
+            case 98: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (pos_ != null) {
                 subBuilder = pos_.toBuilder();
@@ -162,7 +162,7 @@ public final class UseWidgetCreateGadgetReqOuterClass {
               emu.grasscutter.net.proto.UseWidgetCreateGadgetReqOuterClass.UseWidgetCreateGadgetReq.class, emu.grasscutter.net.proto.UseWidgetCreateGadgetReqOuterClass.UseWidgetCreateGadgetReq.Builder.class);
     }
 
-    public static final int POS_FIELD_NUMBER = 13;
+    public static final int POS_FIELD_NUMBER = 12;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
     /**
      * <code>.Vector pos = 13;</code>
@@ -188,7 +188,7 @@ public final class UseWidgetCreateGadgetReqOuterClass {
       return getPos();
     }
 
-    public static final int ROT_FIELD_NUMBER = 3;
+    public static final int ROT_FIELD_NUMBER = 2;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector rot_;
     /**
      * <code>.Vector rot = 3;</code>
@@ -214,7 +214,7 @@ public final class UseWidgetCreateGadgetReqOuterClass {
       return getRot();
     }
 
-    public static final int MATERIAL_ID_FIELD_NUMBER = 11;
+    public static final int MATERIAL_ID_FIELD_NUMBER = 7;
     private int materialId_;
     /**
      * <code>uint32 material_id = 11;</code>
@@ -240,13 +240,13 @@ public final class UseWidgetCreateGadgetReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (rot_ != null) {
-        output.writeMessage(3, getRot());
+        output.writeMessage(2, getRot());
       }
       if (materialId_ != 0) {
-        output.writeUInt32(11, materialId_);
+        output.writeUInt32(7, materialId_);
       }
       if (pos_ != null) {
-        output.writeMessage(13, getPos());
+        output.writeMessage(12, getPos());
       }
       unknownFields.writeTo(output);
     }
@@ -259,15 +259,15 @@ public final class UseWidgetCreateGadgetReqOuterClass {
       size = 0;
       if (rot_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, getRot());
+          .computeMessageSize(2, getRot());
       }
       if (materialId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, materialId_);
+          .computeUInt32Size(7, materialId_);
       }
       if (pos_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, getPos());
+          .computeMessageSize(12, getPos());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

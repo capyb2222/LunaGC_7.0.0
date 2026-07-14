@@ -82,7 +82,7 @@ public final class ClientAbilitiesInitFinishCombineNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 66: {
+            case 90: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 entityInvokeList_ = new java.util.ArrayList<emu.grasscutter.net.proto.EntityAbilityInvokeEntryOuterClass.EntityAbilityInvokeEntry>();
                 mutable_bitField0_ |= 0x00000001;
@@ -126,7 +126,7 @@ public final class ClientAbilitiesInitFinishCombineNotifyOuterClass {
               emu.grasscutter.net.proto.ClientAbilitiesInitFinishCombineNotifyOuterClass.ClientAbilitiesInitFinishCombineNotify.class, emu.grasscutter.net.proto.ClientAbilitiesInitFinishCombineNotifyOuterClass.ClientAbilitiesInitFinishCombineNotify.Builder.class);
     }
 
-    public static final int ENTITY_INVOKE_LIST_FIELD_NUMBER = 8;
+    public static final int ENTITY_INVOKE_LIST_FIELD_NUMBER = 11;
     private java.util.List<emu.grasscutter.net.proto.EntityAbilityInvokeEntryOuterClass.EntityAbilityInvokeEntry> entityInvokeList_;
 
     @java.lang.Override
@@ -171,7 +171,7 @@ public final class ClientAbilitiesInitFinishCombineNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < entityInvokeList_.size(); i++) {
-        output.writeMessage(8, entityInvokeList_.get(i));
+        output.writeMessage(11, entityInvokeList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -184,7 +184,7 @@ public final class ClientAbilitiesInitFinishCombineNotifyOuterClass {
       size = 0;
       for (int i = 0; i < entityInvokeList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, entityInvokeList_.get(i));
+          .computeMessageSize(11, entityInvokeList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

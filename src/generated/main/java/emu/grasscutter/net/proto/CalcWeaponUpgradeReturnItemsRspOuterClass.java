@@ -106,7 +106,7 @@ public final class CalcWeaponUpgradeReturnItemsRspOuterClass {
             case 0:
               done = true;
               break;
-            case 82: {
+            case 90: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 itemParamList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>();
                 mutable_bitField0_ |= 0x00000001;
@@ -115,12 +115,12 @@ public final class CalcWeaponUpgradeReturnItemsRspOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.parser(), extensionRegistry));
               break;
             }
-            case 112: {
+            case 24: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 120: {
+            case 72: {
 
               targetWeaponGuid_ = input.readUInt64();
               break;
@@ -160,7 +160,7 @@ public final class CalcWeaponUpgradeReturnItemsRspOuterClass {
               emu.grasscutter.net.proto.CalcWeaponUpgradeReturnItemsRspOuterClass.CalcWeaponUpgradeReturnItemsRsp.class, emu.grasscutter.net.proto.CalcWeaponUpgradeReturnItemsRspOuterClass.CalcWeaponUpgradeReturnItemsRsp.Builder.class);
     }
 
-    public static final int ITEM_PARAM_LIST_FIELD_NUMBER = 7;
+    public static final int ITEM_PARAM_LIST_FIELD_NUMBER = 11;
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> itemParamList_;
     /**
      * <code>repeated .ItemParam item_param_list = 10;</code>
@@ -200,7 +200,7 @@ public final class CalcWeaponUpgradeReturnItemsRspOuterClass {
       return itemParamList_.get(index);
     }
 
-    public static final int TARGET_WEAPON_GUID_FIELD_NUMBER = 8;
+    public static final int TARGET_WEAPON_GUID_FIELD_NUMBER = 9;
     private long targetWeaponGuid_;
     /**
      * <code>uint64 target_weapon_guid = 15;</code>
@@ -211,7 +211,7 @@ public final class CalcWeaponUpgradeReturnItemsRspOuterClass {
       return targetWeaponGuid_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 2;
+    public static final int RETCODE_FIELD_NUMBER = 3;
     private int retcode_;
     /**
      * <code>int32 retcode = 14;</code>
@@ -237,13 +237,13 @@ public final class CalcWeaponUpgradeReturnItemsRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < itemParamList_.size(); i++) {
-        output.writeMessage(7, itemParamList_.get(i));
+        output.writeMessage(11, itemParamList_.get(i));
       }
       if (retcode_ != 0) {
-        output.writeInt32(2, retcode_);
+        output.writeInt32(3, retcode_);
       }
       if (targetWeaponGuid_ != 0L) {
-        output.writeUInt64(8, targetWeaponGuid_);
+        output.writeUInt64(9, targetWeaponGuid_);
       }
       unknownFields.writeTo(output);
     }
@@ -256,15 +256,15 @@ public final class CalcWeaponUpgradeReturnItemsRspOuterClass {
       size = 0;
       for (int i = 0; i < itemParamList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, itemParamList_.get(i));
+          .computeMessageSize(11, itemParamList_.get(i));
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(2, retcode_);
+          .computeInt32Size(3, retcode_);
       }
       if (targetWeaponGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(8, targetWeaponGuid_);
+          .computeUInt64Size(9, targetWeaponGuid_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

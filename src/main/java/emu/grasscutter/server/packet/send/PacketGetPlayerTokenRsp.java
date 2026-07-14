@@ -9,16 +9,17 @@ import java.io.ByteArrayOutputStream;
 
 public class PacketGetPlayerTokenRsp extends BasePacket {
 
-    private static final int F_TOKEN                     = 2;
-    private static final int F_SECURITY_CMD_BUFFER       = 9;
-    private static final int F_PLATFORM_TYPE             = 11;
-    private static final int F_UID                       = 12;
-    private static final int F_CLIENT_IP_STR             = 186;
-    private static final int F_CLIENT_VERSION_RANDOM_KEY = 253;
-    private static final int F_COUNTRY_CODE              = 682;
-    private static final int F_KEY_ID                    = 1020;
-    private static final int F_SERVER_RAND_KEY           = 1127;
-    private static final int F_SIGN                      = 1555;
+    // 6.7 field numbers (from live capture GetPlayerTokenRsp; cross-verified vs deob)
+    private static final int F_TOKEN                     = 6;
+    private static final int F_SECURITY_CMD_BUFFER       = 10;
+    private static final int F_PLATFORM_TYPE             = 4;
+    private static final int F_UID                       = 8;
+    private static final int F_CLIENT_IP_STR             = 1046;
+    private static final int F_CLIENT_VERSION_RANDOM_KEY = 150;
+    private static final int F_COUNTRY_CODE              = 1013;
+    private static final int F_KEY_ID                    = 375;
+    private static final int F_SERVER_RAND_KEY           = 846;
+    private static final int F_SIGN                      = 145;
 
     public PacketGetPlayerTokenRsp(GameSession session, int keyId) {
         super(PacketOpcodes.GetPlayerTokenRsp, true);

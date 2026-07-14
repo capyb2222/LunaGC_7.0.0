@@ -74,7 +74,7 @@ public final class AddBackupAvatarTeamRspOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 8: {
 
               retcode_ = input.readInt32();
               break;
@@ -111,7 +111,7 @@ public final class AddBackupAvatarTeamRspOuterClass {
               emu.grasscutter.net.proto.AddBackupAvatarTeamRspOuterClass.AddBackupAvatarTeamRsp.class, emu.grasscutter.net.proto.AddBackupAvatarTeamRspOuterClass.AddBackupAvatarTeamRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 3;
+    public static final int RETCODE_FIELD_NUMBER = 1;
     private int retcode_;
     /**
      * <code>int32 retcode = 3;</code>
@@ -137,7 +137,7 @@ public final class AddBackupAvatarTeamRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(3, retcode_);
+        output.writeInt32(1, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +150,7 @@ public final class AddBackupAvatarTeamRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(3, retcode_);
+          .computeInt32Size(1, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

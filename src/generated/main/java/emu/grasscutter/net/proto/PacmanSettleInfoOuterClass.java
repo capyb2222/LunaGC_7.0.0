@@ -103,7 +103,7 @@ public final class PacmanSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 64: {
 
               isNewRecord_ = input.readBool();
               break;
@@ -113,18 +113,18 @@ public final class PacmanSettleInfoOuterClass {
               nHFGIBDCPGC_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 48: {
               int rawValue = input.readEnum();
 
               reason_ = rawValue;
               break;
             }
-            case 48: {
+            case 128000: {
 
               gIMCFEIADKI_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 16: {
 
               finalScore_ = input.readUInt32();
               break;
@@ -161,7 +161,7 @@ public final class PacmanSettleInfoOuterClass {
               emu.grasscutter.net.proto.PacmanSettleInfoOuterClass.PacmanSettleInfo.class, emu.grasscutter.net.proto.PacmanSettleInfoOuterClass.PacmanSettleInfo.Builder.class);
     }
 
-    public static final int FINAL_SCORE_FIELD_NUMBER = 8;
+    public static final int FINAL_SCORE_FIELD_NUMBER = 2;
     private int finalScore_;
     /**
      * <code>uint32 final_score = 8;</code>
@@ -172,7 +172,7 @@ public final class PacmanSettleInfoOuterClass {
       return finalScore_;
     }
 
-    public static final int GIMCFEIADKI_FIELD_NUMBER = 6;
+    public static final int GIMCFEIADKI_FIELD_NUMBER = 16000;
     private int gIMCFEIADKI_;
     /**
      * <code>uint32 GIMCFEIADKI = 6;</code>
@@ -183,7 +183,7 @@ public final class PacmanSettleInfoOuterClass {
       return gIMCFEIADKI_;
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 3;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 8;
     private boolean isNewRecord_;
     /**
      * <code>bool is_new_record = 3;</code>
@@ -205,7 +205,7 @@ public final class PacmanSettleInfoOuterClass {
       return nHFGIBDCPGC_;
     }
 
-    public static final int REASON_FIELD_NUMBER = 5;
+    public static final int REASON_FIELD_NUMBER = 6;
     private int reason_;
     /**
      * <code>.FKMJAPDCONH reason = 5;</code>
@@ -239,19 +239,19 @@ public final class PacmanSettleInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isNewRecord_ != false) {
-        output.writeBool(3, isNewRecord_);
+        output.writeBool(8, isNewRecord_);
       }
       if (nHFGIBDCPGC_ != 0) {
         output.writeUInt32(4, nHFGIBDCPGC_);
       }
       if (reason_ != emu.grasscutter.net.proto.FKMJAPDCONHOuterClass.FKMJAPDCONH.FKMJAPDCONH_PacmanDungeonStopNone.getNumber()) {
-        output.writeEnum(5, reason_);
+        output.writeEnum(6, reason_);
       }
       if (gIMCFEIADKI_ != 0) {
-        output.writeUInt32(6, gIMCFEIADKI_);
+        output.writeUInt32(16000, gIMCFEIADKI_);
       }
       if (finalScore_ != 0) {
-        output.writeUInt32(8, finalScore_);
+        output.writeUInt32(2, finalScore_);
       }
       unknownFields.writeTo(output);
     }
@@ -264,7 +264,7 @@ public final class PacmanSettleInfoOuterClass {
       size = 0;
       if (isNewRecord_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, isNewRecord_);
+          .computeBoolSize(8, isNewRecord_);
       }
       if (nHFGIBDCPGC_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -272,15 +272,15 @@ public final class PacmanSettleInfoOuterClass {
       }
       if (reason_ != emu.grasscutter.net.proto.FKMJAPDCONHOuterClass.FKMJAPDCONH.FKMJAPDCONH_PacmanDungeonStopNone.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(5, reason_);
+          .computeEnumSize(6, reason_);
       }
       if (gIMCFEIADKI_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, gIMCFEIADKI_);
+          .computeUInt32Size(16000, gIMCFEIADKI_);
       }
       if (finalScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, finalScore_);
+          .computeUInt32Size(2, finalScore_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

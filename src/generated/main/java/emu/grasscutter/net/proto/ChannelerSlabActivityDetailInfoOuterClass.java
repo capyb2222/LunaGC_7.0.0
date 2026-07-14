@@ -114,7 +114,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
+            case 74: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 stageList_ = new java.util.ArrayList<emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG>();
                 mutable_bitField0_ |= 0x00000001;
@@ -189,7 +189,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.ChannelerSlabActivityDetailInfoOuterClass.ChannelerSlabActivityDetailInfo.class, emu.grasscutter.net.proto.ChannelerSlabActivityDetailInfoOuterClass.ChannelerSlabActivityDetailInfo.Builder.class);
     }
 
-    public static final int STAGE_LIST_FIELD_NUMBER = 1;
+    public static final int STAGE_LIST_FIELD_NUMBER = 9;
     private java.util.List<emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG> stageList_;
 
     @java.lang.Override
@@ -297,7 +297,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < stageList_.size(); i++) {
-        output.writeMessage(1, stageList_.get(i));
+        output.writeMessage(9, stageList_.get(i));
       }
       if (kDHJKPMJILH_ != null) {
         output.writeMessage(6, getKDHJKPMJILH());
@@ -319,7 +319,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < stageList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, stageList_.get(i));
+          .computeMessageSize(9, stageList_.get(i));
       }
       if (kDHJKPMJILH_ != null) {
         size += com.google.protobuf.CodedOutputStream

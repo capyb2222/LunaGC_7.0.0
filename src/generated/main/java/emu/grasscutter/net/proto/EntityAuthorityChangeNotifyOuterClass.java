@@ -82,7 +82,7 @@ public final class EntityAuthorityChangeNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 98: {
+            case 34: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 authorityChangeList_ = new java.util.ArrayList<emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange>();
                 mutable_bitField0_ |= 0x00000001;
@@ -126,7 +126,7 @@ public final class EntityAuthorityChangeNotifyOuterClass {
               emu.grasscutter.net.proto.EntityAuthorityChangeNotifyOuterClass.EntityAuthorityChangeNotify.class, emu.grasscutter.net.proto.EntityAuthorityChangeNotifyOuterClass.EntityAuthorityChangeNotify.Builder.class);
     }
 
-    public static final int AUTHORITY_CHANGE_LIST_FIELD_NUMBER = 15;
+    public static final int AUTHORITY_CHANGE_LIST_FIELD_NUMBER = 4;
     private java.util.List<emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange> authorityChangeList_;
 
     @java.lang.Override
@@ -171,7 +171,7 @@ public final class EntityAuthorityChangeNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < authorityChangeList_.size(); i++) {
-        output.writeMessage(15, authorityChangeList_.get(i));
+        output.writeMessage(4, authorityChangeList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -184,7 +184,7 @@ public final class EntityAuthorityChangeNotifyOuterClass {
       size = 0;
       for (int i = 0; i < authorityChangeList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, authorityChangeList_.get(i));
+          .computeMessageSize(4, authorityChangeList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

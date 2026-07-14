@@ -84,12 +84,12 @@ public final class SceneTeamUpdateNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 72: {
 
               isInMp_ = input.readBool();
               break;
             }
-            case 34: {
+            case 66: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 sceneTeamAvatarList_ = new java.util.ArrayList<emu.grasscutter.net.proto.SceneTeamAvatarOuterClass.SceneTeamAvatar>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,7 +133,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
               emu.grasscutter.net.proto.SceneTeamUpdateNotifyOuterClass.SceneTeamUpdateNotify.class, emu.grasscutter.net.proto.SceneTeamUpdateNotifyOuterClass.SceneTeamUpdateNotify.Builder.class);
     }
 
-    public static final int SCENE_TEAM_AVATAR_LIST_FIELD_NUMBER = 4;
+    public static final int SCENE_TEAM_AVATAR_LIST_FIELD_NUMBER = 8;
     private java.util.List<emu.grasscutter.net.proto.SceneTeamAvatarOuterClass.SceneTeamAvatar> sceneTeamAvatarList_;
 
     @java.lang.Override
@@ -163,7 +163,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
       return sceneTeamAvatarList_.get(index);
     }
 
-    public static final int IS_IN_MP_FIELD_NUMBER = 3;
+    public static final int IS_IN_MP_FIELD_NUMBER = 9;
     private boolean isInMp_;
 
     @java.lang.Override
@@ -186,10 +186,10 @@ public final class SceneTeamUpdateNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isInMp_ != false) {
-        output.writeBool(3, isInMp_);
+        output.writeBool(9, isInMp_);
       }
       for (int i = 0; i < sceneTeamAvatarList_.size(); i++) {
-        output.writeMessage(4, sceneTeamAvatarList_.get(i));
+        output.writeMessage(8, sceneTeamAvatarList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -202,11 +202,11 @@ public final class SceneTeamUpdateNotifyOuterClass {
       size = 0;
       if (isInMp_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, isInMp_);
+          .computeBoolSize(9, isInMp_);
       }
       for (int i = 0; i < sceneTeamAvatarList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, sceneTeamAvatarList_.get(i));
+          .computeMessageSize(8, sceneTeamAvatarList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

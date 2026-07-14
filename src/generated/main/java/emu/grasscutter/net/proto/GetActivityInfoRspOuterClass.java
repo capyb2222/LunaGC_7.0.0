@@ -105,7 +105,7 @@ public final class GetActivityInfoRspOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
+            case 66: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 activityInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo>();
                 mutable_bitField0_ |= 0x00000002;
@@ -114,7 +114,7 @@ public final class GetActivityInfoRspOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo.parser(), extensionRegistry));
               break;
             }
-            case 18: {
+            case 34: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 disableTransferPointInteractionList_ = new java.util.ArrayList<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair>();
                 mutable_bitField0_ |= 0x00000001;
@@ -123,7 +123,7 @@ public final class GetActivityInfoRspOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.parser(), extensionRegistry));
               break;
             }
-            case 32: {
+            case 112: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 activatedSaleIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000004;
@@ -131,7 +131,7 @@ public final class GetActivityInfoRspOuterClass {
               activatedSaleIdList_.addInt(input.readUInt32());
               break;
             }
-            case 34: {
+            case 114: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
@@ -144,7 +144,7 @@ public final class GetActivityInfoRspOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 72: {
+            case 16: {
 
               retcode_ = input.readInt32();
               break;
@@ -190,7 +190,7 @@ public final class GetActivityInfoRspOuterClass {
               emu.grasscutter.net.proto.GetActivityInfoRspOuterClass.GetActivityInfoRsp.class, emu.grasscutter.net.proto.GetActivityInfoRspOuterClass.GetActivityInfoRsp.Builder.class);
     }
 
-    public static final int DISABLE_TRANSFER_POINT_INTERACTION_LIST_FIELD_NUMBER = 13;
+    public static final int DISABLE_TRANSFER_POINT_INTERACTION_LIST_FIELD_NUMBER = 4;
     private java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> disableTransferPointInteractionList_;
 
     @java.lang.Override
@@ -220,7 +220,7 @@ public final class GetActivityInfoRspOuterClass {
       return disableTransferPointInteractionList_.get(index);
     }
 
-    public static final int ACTIVITY_INFO_LIST_FIELD_NUMBER = 1;
+    public static final int ACTIVITY_INFO_LIST_FIELD_NUMBER = 8;
     private java.util.List<emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo> activityInfoList_;
 
     @java.lang.Override
@@ -250,7 +250,7 @@ public final class GetActivityInfoRspOuterClass {
       return activityInfoList_.get(index);
     }
 
-    public static final int ACTIVATED_SALE_ID_LIST_FIELD_NUMBER = 7;
+    public static final int ACTIVATED_SALE_ID_LIST_FIELD_NUMBER = 14;
     private com.google.protobuf.Internal.IntList activatedSaleIdList_;
 
     @java.lang.Override
@@ -268,7 +268,7 @@ public final class GetActivityInfoRspOuterClass {
     }
     private int activatedSaleIdListMemoizedSerializedSize = -1;
 
-    public static final int RETCODE_FIELD_NUMBER = 5;
+    public static final int RETCODE_FIELD_NUMBER = 2;
     private int retcode_;
 
     @java.lang.Override
@@ -292,20 +292,20 @@ public final class GetActivityInfoRspOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       for (int i = 0; i < activityInfoList_.size(); i++) {
-        output.writeMessage(1, activityInfoList_.get(i));
+        output.writeMessage(8, activityInfoList_.get(i));
       }
       for (int i = 0; i < disableTransferPointInteractionList_.size(); i++) {
-        output.writeMessage(13, disableTransferPointInteractionList_.get(i));
+        output.writeMessage(4, disableTransferPointInteractionList_.get(i));
       }
       if (getActivatedSaleIdListList().size() > 0) {
-        output.writeUInt32NoTag(58);
+        output.writeUInt32NoTag(114);
         output.writeUInt32NoTag(activatedSaleIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < activatedSaleIdList_.size(); i++) {
         output.writeUInt32NoTag(activatedSaleIdList_.getInt(i));
       }
       if (retcode_ != 0) {
-        output.writeInt32(5, retcode_);
+        output.writeInt32(2, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -318,11 +318,11 @@ public final class GetActivityInfoRspOuterClass {
       size = 0;
       for (int i = 0; i < activityInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, activityInfoList_.get(i));
+          .computeMessageSize(8, activityInfoList_.get(i));
       }
       for (int i = 0; i < disableTransferPointInteractionList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, disableTransferPointInteractionList_.get(i));
+          .computeMessageSize(4, disableTransferPointInteractionList_.get(i));
       }
       {
         int dataSize = 0;
@@ -340,7 +340,7 @@ public final class GetActivityInfoRspOuterClass {
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(5, retcode_);
+          .computeInt32Size(2, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

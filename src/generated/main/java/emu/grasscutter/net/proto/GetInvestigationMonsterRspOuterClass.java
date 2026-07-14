@@ -86,12 +86,12 @@ public final class GetInvestigationMonsterRspOuterClass {
             case 0:
               done = true;
               break;
-            case 104: {
+            case 88: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 42: {
+            case 18: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 monsterList_ = new java.util.ArrayList<emu.grasscutter.net.proto.InvestigationMonsterOuterClass.InvestigationMonster>();
                 mutable_bitField0_ |= 0x00000001;
@@ -140,7 +140,7 @@ public final class GetInvestigationMonsterRspOuterClass {
               emu.grasscutter.net.proto.GetInvestigationMonsterRspOuterClass.GetInvestigationMonsterRsp.class, emu.grasscutter.net.proto.GetInvestigationMonsterRspOuterClass.GetInvestigationMonsterRsp.Builder.class);
     }
 
-    public static final int MONSTER_LIST_FIELD_NUMBER = 5;
+    public static final int MONSTER_LIST_FIELD_NUMBER = 2;
     private java.util.List<emu.grasscutter.net.proto.InvestigationMonsterOuterClass.InvestigationMonster> monsterList_;
 
     @java.lang.Override
@@ -170,7 +170,7 @@ public final class GetInvestigationMonsterRspOuterClass {
       return monsterList_.get(index);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 13;
+    public static final int RETCODE_FIELD_NUMBER = 11;
     private int retcode_;
 
     @java.lang.Override
@@ -201,10 +201,10 @@ public final class GetInvestigationMonsterRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(13, retcode_);
+        output.writeInt32(11, retcode_);
       }
       for (int i = 0; i < monsterList_.size(); i++) {
-        output.writeMessage(5, monsterList_.get(i));
+        output.writeMessage(2, monsterList_.get(i));
       }
       if (isForMark_ != false) {
         output.writeBool(12, isForMark_);
@@ -220,11 +220,11 @@ public final class GetInvestigationMonsterRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(13, retcode_);
+          .computeInt32Size(11, retcode_);
       }
       for (int i = 0; i < monsterList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, monsterList_.get(i));
+          .computeMessageSize(2, monsterList_.get(i));
       }
       if (isForMark_ != false) {
         size += com.google.protobuf.CodedOutputStream

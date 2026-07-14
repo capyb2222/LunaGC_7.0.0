@@ -145,37 +145,33 @@ public final class ShopGoodsOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 104: {
 
               goodsId_ = input.readUInt32();
-              break;
-            }
-            case 16: {
-
-              nextRefreshTime_ = input.readUInt32();
               break;
             }
             case 24: {
 
+              nextRefreshTime_ = input.readUInt32();
+              break;
+            }
+            case 88: {
+
               beginTime_ = input.readUInt32();
               break;
             }
-            case 32: {
+            case 72: {
 
               boughtNum_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 112: {
 
               scoin_ = input.readUInt32();
               break;
             }
-            case 48: {
-
-              goodsId_ = input.readUInt32();
-              break;
-            }
-            case 66: {
+            
+            case 122: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 costItemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>();
                 mutable_bitField0_ |= 0x00000001;
@@ -184,7 +180,7 @@ public final class ShopGoodsOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.parser(), extensionRegistry));
               break;
             }
-            case 74: {
+            case 98: {
               emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder subBuilder = null;
               if (goodsItem_ != null) {
                 subBuilder = goodsItem_.toBuilder();
@@ -197,7 +193,7 @@ public final class ShopGoodsOuterClass {
 
               break;
             }
-            case 80: {
+            case 48: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 preGoodsIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -205,7 +201,7 @@ public final class ShopGoodsOuterClass {
               preGoodsIdList_.addInt(input.readUInt32());
               break;
             }
-            case 82: {
+            case 50: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -218,37 +214,37 @@ public final class ShopGoodsOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 88: {
+            case 40: {
 
               minLevel_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 64: {
 
               endTime_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 128000: {
 
               disableType_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 80: {
 
               hcoin_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 16: {
 
               mcoin_ = input.readUInt32();
               break;
             }
-            case 128: {
+            case 128008: {
 
               buyLimit_ = input.readUInt32();
               break;
             }
-            case 1536: {
+            case 3776: {
 
               secondarySheetId_ = input.readUInt32();
               break;
@@ -258,22 +254,22 @@ public final class ShopGoodsOuterClass {
               lPOMBLALEPK_ = input.readBool();
               break;
             }
-            case 5448: {
+            case 14824: {
 
               singleLimit_ = input.readUInt32();
               break;
             }
-            case 8264: {
+            case 6784: {
 
               discountBeginTime_ = input.readUInt32();
               break;
             }
-            case 9128: {
+            case 1880: {
 
               discountEndTime_ = input.readUInt32();
               break;
             }
-            case 12096: {
+            case 15784: {
 
               discountId_ = input.readUInt32();
               break;
@@ -321,7 +317,7 @@ public final class ShopGoodsOuterClass {
               emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods.class, emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods.Builder.class);
     }
 
-    public static final int COST_ITEM_LIST_FIELD_NUMBER = 12;
+    public static final int COST_ITEM_LIST_FIELD_NUMBER = 15;
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> costItemList_;
 
     @java.lang.Override
@@ -351,7 +347,7 @@ public final class ShopGoodsOuterClass {
       return costItemList_.get(index);
     }
 
-    public static final int GOODS_ITEM_FIELD_NUMBER = 11;
+    public static final int GOODS_ITEM_FIELD_NUMBER = 12;
     private emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam goodsItem_;
 
     @java.lang.Override
@@ -387,7 +383,7 @@ public final class ShopGoodsOuterClass {
     }
     private int preGoodsIdListMemoizedSerializedSize = -1;
 
-    public static final int BOUGHT_NUM_FIELD_NUMBER = 2;
+    public static final int BOUGHT_NUM_FIELD_NUMBER = 9;
     private int boughtNum_;
 
     @java.lang.Override
@@ -395,7 +391,7 @@ public final class ShopGoodsOuterClass {
       return boughtNum_;
     }
 
-    public static final int SCOIN_FIELD_NUMBER = 5;
+    public static final int SCOIN_FIELD_NUMBER = 14;
     private int scoin_;
 
     @java.lang.Override
@@ -403,7 +399,7 @@ public final class ShopGoodsOuterClass {
       return scoin_;
     }
 
-    public static final int DISABLE_TYPE_FIELD_NUMBER = 7;
+    public static final int DISABLE_TYPE_FIELD_NUMBER = 16000;
     private int disableType_;
 
     @java.lang.Override
@@ -411,7 +407,7 @@ public final class ShopGoodsOuterClass {
       return disableType_;
     }
 
-    public static final int DISCOUNT_END_TIME_FIELD_NUMBER = 1141;
+    public static final int DISCOUNT_END_TIME_FIELD_NUMBER = 235;
     private int discountEndTime_;
 
     @java.lang.Override
@@ -419,7 +415,7 @@ public final class ShopGoodsOuterClass {
       return discountEndTime_;
     }
 
-    public static final int SECONDARY_SHEET_ID_FIELD_NUMBER = 192;
+    public static final int SECONDARY_SHEET_ID_FIELD_NUMBER = 472;
     private int secondarySheetId_;
     /**
      * <code>uint32 secondary_sheet_id = 192;</code>
@@ -430,7 +426,7 @@ public final class ShopGoodsOuterClass {
       return secondarySheetId_;
     }
 
-    public static final int MIN_LEVEL_FIELD_NUMBER = 15;
+    public static final int MIN_LEVEL_FIELD_NUMBER = 5;
     private int minLevel_;
 
     @java.lang.Override
@@ -438,7 +434,7 @@ public final class ShopGoodsOuterClass {
       return minLevel_;
     }
 
-    public static final int MCOIN_FIELD_NUMBER = 15;
+    public static final int MCOIN_FIELD_NUMBER = 2;
     private int mcoin_;
 
     @java.lang.Override
@@ -446,7 +442,7 @@ public final class ShopGoodsOuterClass {
       return mcoin_;
     }
 
-    public static final int END_TIME_FIELD_NUMBER = 14;
+    public static final int END_TIME_FIELD_NUMBER = 8;
     private int endTime_;
 
     @java.lang.Override
@@ -454,7 +450,7 @@ public final class ShopGoodsOuterClass {
       return endTime_;
     }
 
-    public static final int HCOIN_FIELD_NUMBER = 4;
+    public static final int HCOIN_FIELD_NUMBER = 10;
     private int hcoin_;
 
     @java.lang.Override
@@ -462,7 +458,7 @@ public final class ShopGoodsOuterClass {
       return hcoin_;
     }
 
-    public static final int DISCOUNT_ID_FIELD_NUMBER = 1512;
+    public static final int DISCOUNT_ID_FIELD_NUMBER = 1973;
     private int discountId_;
     /**
      * <code>uint32 discount_id = 1512;</code>
@@ -473,7 +469,7 @@ public final class ShopGoodsOuterClass {
       return discountId_;
     }
 
-    public static final int SINGLE_LIMIT_FIELD_NUMBER = 1788;
+    public static final int SINGLE_LIMIT_FIELD_NUMBER = 1853;
     private int singleLimit_;
 
     @java.lang.Override
@@ -481,7 +477,7 @@ public final class ShopGoodsOuterClass {
       return singleLimit_;
     }
 
-    public static final int BUY_LIMIT_FIELD_NUMBER = 10;
+    public static final int BUY_LIMIT_FIELD_NUMBER = 16001;
     private int buyLimit_;
 
     @java.lang.Override
@@ -489,7 +485,7 @@ public final class ShopGoodsOuterClass {
       return buyLimit_;
     }
 
-    public static final int GOODS_ID_FIELD_NUMBER = 1;
+    public static final int GOODS_ID_FIELD_NUMBER = 13;
     private int goodsId_;
 
     @java.lang.Override
@@ -497,7 +493,7 @@ public final class ShopGoodsOuterClass {
       return goodsId_;
     }
 
-    public static final int DISCOUNT_BEGIN_TIME_FIELD_NUMBER = 1033;
+    public static final int DISCOUNT_BEGIN_TIME_FIELD_NUMBER = 848;
     private int discountBeginTime_;
 
     @java.lang.Override
@@ -527,7 +523,7 @@ public final class ShopGoodsOuterClass {
       return gOOPAGPEGGL_;
     }
 
-    public static final int MAX_LEVEL_FIELD_NUMBER = 3;
+    public static final int MAX_LEVEL_FIELD_NUMBER = 7;
     private int maxLevel_;
 
     @java.lang.Override
@@ -535,7 +531,7 @@ public final class ShopGoodsOuterClass {
       return maxLevel_;
     }
 
-    public static final int BEGIN_TIME_FIELD_NUMBER = 13;
+    public static final int BEGIN_TIME_FIELD_NUMBER = 11;
     private int beginTime_;
 
     @java.lang.Override
@@ -543,7 +539,7 @@ public final class ShopGoodsOuterClass {
       return beginTime_;
     }
 
-    public static final int NEXT_REFRESH_TIME_FIELD_NUMBER = 7;
+    public static final int NEXT_REFRESH_TIME_FIELD_NUMBER = 3;
     private int nextRefreshTime_;
 
     @java.lang.Override
@@ -567,28 +563,28 @@ public final class ShopGoodsOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (maxLevel_ != 0) {
-        output.writeUInt32(3, maxLevel_);
+        output.writeUInt32(7, maxLevel_);
       }
       if (nextRefreshTime_ != 0) {
-        output.writeUInt32(7, nextRefreshTime_);
+        output.writeUInt32(3, nextRefreshTime_);
       }
       if (beginTime_ != 0) {
-        output.writeUInt32(13, beginTime_);
+        output.writeUInt32(11, beginTime_);
       }
       if (boughtNum_ != 0) {
-        output.writeUInt32(2, boughtNum_);
+        output.writeUInt32(9, boughtNum_);
       }
       if (scoin_ != 0) {
-        output.writeUInt32(5, scoin_);
+        output.writeUInt32(14, scoin_);
       }
       if (goodsId_ != 0) {
-        output.writeUInt32(1, goodsId_);
+        output.writeUInt32(13, goodsId_);
       }
       for (int i = 0; i < costItemList_.size(); i++) {
-        output.writeMessage(12, costItemList_.get(i));
+        output.writeMessage(15, costItemList_.get(i));
       }
       if (goodsItem_ != null) {
-        output.writeMessage(11, getGoodsItem());
+        output.writeMessage(12, getGoodsItem());
       }
       if (getPreGoodsIdListList().size() > 0) {
         output.writeUInt32NoTag(50);
@@ -598,40 +594,40 @@ public final class ShopGoodsOuterClass {
         output.writeUInt32NoTag(preGoodsIdList_.getInt(i));
       }
       if (minLevel_ != 0) {
-        output.writeUInt32(15, minLevel_);
+        output.writeUInt32(5, minLevel_);
       }
       if (endTime_ != 0) {
-        output.writeUInt32(14, endTime_);
+        output.writeUInt32(8, endTime_);
       }
       if (disableType_ != 0) {
-        output.writeUInt32(7, disableType_);
+        output.writeUInt32(16000, disableType_);
       }
       if (hcoin_ != 0) {
-        output.writeUInt32(4, hcoin_);
+        output.writeUInt32(10, hcoin_);
       }
       if (mcoin_ != 0) {
-        output.writeUInt32(15, mcoin_);
+        output.writeUInt32(2, mcoin_);
       }
       if (buyLimit_ != 0) {
-        output.writeUInt32(10, buyLimit_);
+        output.writeUInt32(16001, buyLimit_);
       }
       if (secondarySheetId_ != 0) {
-        output.writeUInt32(192, secondarySheetId_);
+        output.writeUInt32(472, secondarySheetId_);
       }
       if (lPOMBLALEPK_ != false) {
         output.writeBool(677, lPOMBLALEPK_);
       }
       if (singleLimit_ != 0) {
-        output.writeUInt32(1788, singleLimit_);
+        output.writeUInt32(1853, singleLimit_);
       }
       if (discountBeginTime_ != 0) {
-        output.writeUInt32(1033, discountBeginTime_);
+        output.writeUInt32(848, discountBeginTime_);
       }
       if (discountEndTime_ != 0) {
-        output.writeUInt32(1141, discountEndTime_);
+        output.writeUInt32(235, discountEndTime_);
       }
       if (discountId_ != 0) {
-        output.writeUInt32(1512, discountId_);
+        output.writeUInt32(1973, discountId_);
       }
       if (gOOPAGPEGGL_ != false) {
         output.writeBool(1943, gOOPAGPEGGL_);
@@ -647,35 +643,35 @@ public final class ShopGoodsOuterClass {
       size = 0;
       if (maxLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, maxLevel_);
+          .computeUInt32Size(7, maxLevel_);
       }
       if (nextRefreshTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, nextRefreshTime_);
+          .computeUInt32Size(3, nextRefreshTime_);
       }
       if (beginTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, beginTime_);
+          .computeUInt32Size(11, beginTime_);
       }
       if (boughtNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, boughtNum_);
+          .computeUInt32Size(9, boughtNum_);
       }
       if (scoin_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, scoin_);
+          .computeUInt32Size(14, scoin_);
       }
       if (goodsId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, goodsId_);
+          .computeUInt32Size(13, goodsId_);
       }
       for (int i = 0; i < costItemList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, costItemList_.get(i));
+          .computeMessageSize(15, costItemList_.get(i));
       }
       if (goodsItem_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, getGoodsItem());
+          .computeMessageSize(12, getGoodsItem());
       }
       {
         int dataSize = 0;
@@ -693,31 +689,31 @@ public final class ShopGoodsOuterClass {
       }
       if (minLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, minLevel_);
+          .computeUInt32Size(5, minLevel_);
       }
       if (endTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, endTime_);
+          .computeUInt32Size(8, endTime_);
       }
       if (disableType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, disableType_);
+          .computeUInt32Size(16000, disableType_);
       }
       if (hcoin_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, hcoin_);
+          .computeUInt32Size(10, hcoin_);
       }
       if (mcoin_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, mcoin_);
+          .computeUInt32Size(2, mcoin_);
       }
       if (buyLimit_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, buyLimit_);
+          .computeUInt32Size(16001, buyLimit_);
       }
       if (secondarySheetId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(192, secondarySheetId_);
+          .computeUInt32Size(472, secondarySheetId_);
       }
       if (lPOMBLALEPK_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -725,19 +721,19 @@ public final class ShopGoodsOuterClass {
       }
       if (singleLimit_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1788, singleLimit_);
+          .computeUInt32Size(1853, singleLimit_);
       }
       if (discountBeginTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1033, discountBeginTime_);
+          .computeUInt32Size(848, discountBeginTime_);
       }
       if (discountEndTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1141, discountEndTime_);
+          .computeUInt32Size(235, discountEndTime_);
       }
       if (discountId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1512, discountId_);
+          .computeUInt32Size(1973, discountId_);
       }
       if (gOOPAGPEGGL_ != false) {
         size += com.google.protobuf.CodedOutputStream

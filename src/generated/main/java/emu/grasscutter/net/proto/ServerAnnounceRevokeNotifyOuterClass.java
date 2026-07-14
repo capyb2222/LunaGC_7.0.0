@@ -87,7 +87,7 @@ public final class ServerAnnounceRevokeNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 112: {
+            case 72: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 configIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -95,7 +95,7 @@ public final class ServerAnnounceRevokeNotifyOuterClass {
               configIdList_.addInt(input.readUInt32());
               break;
             }
-            case 114: {
+            case 74: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -143,7 +143,7 @@ public final class ServerAnnounceRevokeNotifyOuterClass {
               emu.grasscutter.net.proto.ServerAnnounceRevokeNotifyOuterClass.ServerAnnounceRevokeNotify.class, emu.grasscutter.net.proto.ServerAnnounceRevokeNotifyOuterClass.ServerAnnounceRevokeNotify.Builder.class);
     }
 
-    public static final int CONFIG_ID_LIST_FIELD_NUMBER = 14;
+    public static final int CONFIG_ID_LIST_FIELD_NUMBER = 9;
     private com.google.protobuf.Internal.IntList configIdList_;
     /**
      * <code>repeated uint32 config_id_list = 14;</code>
@@ -187,7 +187,7 @@ public final class ServerAnnounceRevokeNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getConfigIdListList().size() > 0) {
-        output.writeUInt32NoTag(114);
+        output.writeUInt32NoTag(74);
         output.writeUInt32NoTag(configIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < configIdList_.size(); i++) {

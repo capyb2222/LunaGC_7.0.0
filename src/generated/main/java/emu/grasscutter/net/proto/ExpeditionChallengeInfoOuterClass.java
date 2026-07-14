@@ -85,7 +85,7 @@ public final class ExpeditionChallengeInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 64: {
 
               openTime_ = input.readUInt32();
               break;
@@ -95,7 +95,7 @@ public final class ExpeditionChallengeInfoOuterClass {
               id_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 24: {
 
               isFinished_ = input.readBool();
               break;
@@ -132,7 +132,7 @@ public final class ExpeditionChallengeInfoOuterClass {
               emu.grasscutter.net.proto.ExpeditionChallengeInfoOuterClass.ExpeditionChallengeInfo.class, emu.grasscutter.net.proto.ExpeditionChallengeInfoOuterClass.ExpeditionChallengeInfo.Builder.class);
     }
 
-    public static final int OPEN_TIME_FIELD_NUMBER = 2;
+    public static final int OPEN_TIME_FIELD_NUMBER = 8;
     private int openTime_;
     /**
      * <code>uint32 open_time = 2;</code>
@@ -154,7 +154,7 @@ public final class ExpeditionChallengeInfoOuterClass {
       return id_;
     }
 
-    public static final int IS_FINISHED_FIELD_NUMBER = 10;
+    public static final int IS_FINISHED_FIELD_NUMBER = 3;
     private boolean isFinished_;
     /**
      * <code>bool is_finished = 10;</code>
@@ -180,13 +180,13 @@ public final class ExpeditionChallengeInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (openTime_ != 0) {
-        output.writeUInt32(2, openTime_);
+        output.writeUInt32(8, openTime_);
       }
       if (id_ != 0) {
         output.writeUInt32(4, id_);
       }
       if (isFinished_ != false) {
-        output.writeBool(10, isFinished_);
+        output.writeBool(3, isFinished_);
       }
       unknownFields.writeTo(output);
     }
@@ -199,7 +199,7 @@ public final class ExpeditionChallengeInfoOuterClass {
       size = 0;
       if (openTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, openTime_);
+          .computeUInt32Size(8, openTime_);
       }
       if (id_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -207,7 +207,7 @@ public final class ExpeditionChallengeInfoOuterClass {
       }
       if (isFinished_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, isFinished_);
+          .computeBoolSize(3, isFinished_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

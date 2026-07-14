@@ -82,7 +82,7 @@ public final class BattlePassMissionUpdateNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 66: {
+            case 42: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 missionList_ = new java.util.ArrayList<emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission>();
                 mutable_bitField0_ |= 0x00000001;

@@ -82,18 +82,18 @@ public final class SceneEntityDisappearNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 32: {
               int rawValue = input.readEnum();
 
               disappearType_ = rawValue;
               break;
             }
-            case 56: {
+            case 112: {
 
               param_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 72: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 entityList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -101,7 +101,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
               entityList_.addInt(input.readUInt32());
               break;
             }
-            case 66: {
+            case 74: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -149,7 +149,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
               emu.grasscutter.net.proto.SceneEntityDisappearNotifyOuterClass.SceneEntityDisappearNotify.class, emu.grasscutter.net.proto.SceneEntityDisappearNotifyOuterClass.SceneEntityDisappearNotify.Builder.class);
     }
 
-    public static final int ENTITY_LIST_FIELD_NUMBER = 8;
+    public static final int ENTITY_LIST_FIELD_NUMBER = 9;
     private com.google.protobuf.Internal.IntList entityList_;
 
     @java.lang.Override
@@ -167,7 +167,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
     }
     private int entityListMemoizedSerializedSize = -1;
 
-    public static final int DISAPPEAR_TYPE_FIELD_NUMBER = 6;
+    public static final int DISAPPEAR_TYPE_FIELD_NUMBER = 4;
     private int disappearType_;
 
     @java.lang.Override public int getDisappearTypeValue() {
@@ -180,7 +180,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
       return result == null ? emu.grasscutter.net.proto.VisionTypeOuterClass.VisionType.UNRECOGNIZED : result;
     }
 
-    public static final int PARAM_FIELD_NUMBER = 7;
+    public static final int PARAM_FIELD_NUMBER = 14;
     private int param_;
 
     @java.lang.Override
@@ -204,17 +204,17 @@ public final class SceneEntityDisappearNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (param_ != 0) {
-        output.writeUInt32(7, param_);
+        output.writeUInt32(14, param_);
       }
       if (getEntityListList().size() > 0) {
-        output.writeUInt32NoTag(66);
+        output.writeUInt32NoTag(74);
         output.writeUInt32NoTag(entityListMemoizedSerializedSize);
       }
       for (int i = 0; i < entityList_.size(); i++) {
         output.writeUInt32NoTag(entityList_.getInt(i));
       }
       if (disappearType_ != emu.grasscutter.net.proto.VisionTypeOuterClass.VisionType.VisionType_VISION_NONE.getNumber()) {
-        output.writeEnum(6, disappearType_);
+        output.writeEnum(4, disappearType_);
       }
       unknownFields.writeTo(output);
     }
@@ -227,7 +227,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
       size = 0;
       if (param_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, param_);
+          .computeUInt32Size(14, param_);
       }
       {
         int dataSize = 0;
@@ -245,7 +245,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
       }
       if (disappearType_ != emu.grasscutter.net.proto.VisionTypeOuterClass.VisionType.VisionType_VISION_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(6, disappearType_);
+          .computeEnumSize(4, disappearType_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

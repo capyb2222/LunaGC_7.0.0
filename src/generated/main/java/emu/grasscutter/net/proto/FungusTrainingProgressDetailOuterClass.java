@@ -134,12 +134,12 @@ public final class FungusTrainingProgressDetailOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 64: {
 
               totalUsedTime_ = input.readUInt32();
               break;
             }
-            case 42: {
+            case 26: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 monsterDetailList_ = new java.util.ArrayList<emu.grasscutter.net.proto.FungusFighterMonsterDetailOuterClass.FungusFighterMonsterDetail>();
                 mutable_bitField0_ |= 0x00000001;
@@ -148,7 +148,7 @@ public final class FungusTrainingProgressDetailOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.FungusFighterMonsterDetailOuterClass.FungusFighterMonsterDetail.parser(), extensionRegistry));
               break;
             }
-            case 48: {
+            case 128000: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 gHBMIILJPNH_ = newIntList();
                 mutable_bitField0_ |= 0x00000004;
@@ -156,7 +156,7 @@ public final class FungusTrainingProgressDetailOuterClass {
               gHBMIILJPNH_.addInt(input.readUInt32());
               break;
             }
-            case 50: {
+            case 128002: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
@@ -169,12 +169,12 @@ public final class FungusTrainingProgressDetailOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 56: {
+            case 16: {
 
               dungeonId_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 48: {
 
               curRound_ = input.readUInt32();
               break;
@@ -253,7 +253,7 @@ public final class FungusTrainingProgressDetailOuterClass {
               emu.grasscutter.net.proto.FungusTrainingProgressDetailOuterClass.FungusTrainingProgressDetail.class, emu.grasscutter.net.proto.FungusTrainingProgressDetailOuterClass.FungusTrainingProgressDetail.Builder.class);
     }
 
-    public static final int MONSTER_DETAIL_LIST_FIELD_NUMBER = 5;
+    public static final int MONSTER_DETAIL_LIST_FIELD_NUMBER = 3;
     private java.util.List<emu.grasscutter.net.proto.FungusFighterMonsterDetailOuterClass.FungusFighterMonsterDetail> monsterDetailList_;
 
     @java.lang.Override
@@ -311,7 +311,7 @@ public final class FungusTrainingProgressDetailOuterClass {
     }
     private int kHHKBPKMMFAMemoizedSerializedSize = -1;
 
-    public static final int GHBMIILJPNH_FIELD_NUMBER = 6;
+    public static final int GHBMIILJPNH_FIELD_NUMBER = 16000;
     private com.google.protobuf.Internal.IntList gHBMIILJPNH_;
     /**
      * <code>repeated uint32 GHBMIILJPNH = 6;</code>
@@ -369,7 +369,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       return monsterPoolPreviewList_.get(index);
     }
 
-    public static final int TOTAL_USED_TIME_FIELD_NUMBER = 3;
+    public static final int TOTAL_USED_TIME_FIELD_NUMBER = 8;
     private int totalUsedTime_;
 
     @java.lang.Override
@@ -377,7 +377,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       return totalUsedTime_;
     }
 
-    public static final int CUR_ROUND_FIELD_NUMBER = 14;
+    public static final int CUR_ROUND_FIELD_NUMBER = 6;
     private int curRound_;
 
     @java.lang.Override
@@ -385,7 +385,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       return curRound_;
     }
 
-    public static final int DUNGEON_ID_FIELD_NUMBER = 5;
+    public static final int DUNGEON_ID_FIELD_NUMBER = 2;
     private int dungeonId_;
 
     @java.lang.Override
@@ -409,23 +409,23 @@ public final class FungusTrainingProgressDetailOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (totalUsedTime_ != 0) {
-        output.writeUInt32(3, totalUsedTime_);
+        output.writeUInt32(8, totalUsedTime_);
       }
       for (int i = 0; i < monsterDetailList_.size(); i++) {
-        output.writeMessage(5, monsterDetailList_.get(i));
+        output.writeMessage(3, monsterDetailList_.get(i));
       }
       if (getGHBMIILJPNHList().size() > 0) {
-        output.writeUInt32NoTag(50);
+        output.writeUInt32NoTag(128002);
         output.writeUInt32NoTag(gHBMIILJPNHMemoizedSerializedSize);
       }
       for (int i = 0; i < gHBMIILJPNH_.size(); i++) {
         output.writeUInt32NoTag(gHBMIILJPNH_.getInt(i));
       }
       if (dungeonId_ != 0) {
-        output.writeUInt32(5, dungeonId_);
+        output.writeUInt32(2, dungeonId_);
       }
       if (curRound_ != 0) {
-        output.writeUInt32(14, curRound_);
+        output.writeUInt32(6, curRound_);
       }
       for (int i = 0; i < monsterPoolPreviewList_.size(); i++) {
         output.writeMessage(12, monsterPoolPreviewList_.get(i));
@@ -448,11 +448,11 @@ public final class FungusTrainingProgressDetailOuterClass {
       size = 0;
       if (totalUsedTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, totalUsedTime_);
+          .computeUInt32Size(8, totalUsedTime_);
       }
       for (int i = 0; i < monsterDetailList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, monsterDetailList_.get(i));
+          .computeMessageSize(3, monsterDetailList_.get(i));
       }
       {
         int dataSize = 0;
@@ -462,7 +462,7 @@ public final class FungusTrainingProgressDetailOuterClass {
         }
         size += dataSize;
         if (!getGHBMIILJPNHList().isEmpty()) {
-          size += 1;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
@@ -470,11 +470,11 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       if (dungeonId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, dungeonId_);
+          .computeUInt32Size(2, dungeonId_);
       }
       if (curRound_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, curRound_);
+          .computeUInt32Size(6, curRound_);
       }
       for (int i = 0; i < monsterPoolPreviewList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream

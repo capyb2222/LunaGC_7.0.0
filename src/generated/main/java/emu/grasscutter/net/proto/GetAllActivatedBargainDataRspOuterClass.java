@@ -100,12 +100,12 @@ public final class GetAllActivatedBargainDataRspOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 56: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 50: {
+            case 114: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 snapshotList_ = new java.util.ArrayList<emu.grasscutter.net.proto.BargainSnapshotOuterClass.BargainSnapshot>();
                 mutable_bitField0_ |= 0x00000001;
@@ -149,7 +149,7 @@ public final class GetAllActivatedBargainDataRspOuterClass {
               emu.grasscutter.net.proto.GetAllActivatedBargainDataRspOuterClass.GetAllActivatedBargainDataRsp.class, emu.grasscutter.net.proto.GetAllActivatedBargainDataRspOuterClass.GetAllActivatedBargainDataRsp.Builder.class);
     }
 
-    public static final int SNAPSHOT_LIST_FIELD_NUMBER = 6;
+    public static final int SNAPSHOT_LIST_FIELD_NUMBER = 14;
     private java.util.List<emu.grasscutter.net.proto.BargainSnapshotOuterClass.BargainSnapshot> snapshotList_;
     /**
      * <code>repeated .BargainSnapshot snapshot_list = 6;</code>
@@ -189,7 +189,7 @@ public final class GetAllActivatedBargainDataRspOuterClass {
       return snapshotList_.get(index);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 2;
+    public static final int RETCODE_FIELD_NUMBER = 7;
     private int retcode_;
     /**
      * <code>int32 retcode = 2;</code>
@@ -215,10 +215,10 @@ public final class GetAllActivatedBargainDataRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(2, retcode_);
+        output.writeInt32(7, retcode_);
       }
       for (int i = 0; i < snapshotList_.size(); i++) {
-        output.writeMessage(6, snapshotList_.get(i));
+        output.writeMessage(14, snapshotList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -231,11 +231,11 @@ public final class GetAllActivatedBargainDataRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(2, retcode_);
+          .computeInt32Size(7, retcode_);
       }
       for (int i = 0; i < snapshotList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, snapshotList_.get(i));
+          .computeMessageSize(14, snapshotList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

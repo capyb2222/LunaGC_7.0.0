@@ -93,18 +93,18 @@ public final class CardProductRewardNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 120: {
 
               remainDays_ = input.readUInt32();
               break;
             }
-            case 58: {
+            case 90: {
               java.lang.String s = input.readStringRequireUtf8();
 
               productId_ = s;
               break;
             }
-            case 88: {
+            case 56: {
 
               hcoin_ = input.readUInt32();
               break;
@@ -141,7 +141,7 @@ public final class CardProductRewardNotifyOuterClass {
               emu.grasscutter.net.proto.CardProductRewardNotifyOuterClass.CardProductRewardNotify.class, emu.grasscutter.net.proto.CardProductRewardNotifyOuterClass.CardProductRewardNotify.Builder.class);
     }
 
-    public static final int PRODUCT_ID_FIELD_NUMBER = 7;
+    public static final int PRODUCT_ID_FIELD_NUMBER = 11;
     private volatile java.lang.Object productId_;
     /**
      * <code>string product_id = 7;</code>
@@ -179,7 +179,7 @@ public final class CardProductRewardNotifyOuterClass {
       }
     }
 
-    public static final int HCOIN_FIELD_NUMBER = 11;
+    public static final int HCOIN_FIELD_NUMBER = 7;
     private int hcoin_;
     /**
      * <code>uint32 hcoin = 11;</code>
@@ -190,7 +190,7 @@ public final class CardProductRewardNotifyOuterClass {
       return hcoin_;
     }
 
-    public static final int REMAIN_DAYS_FIELD_NUMBER = 4;
+    public static final int REMAIN_DAYS_FIELD_NUMBER = 15;
     private int remainDays_;
     /**
      * <code>uint32 remain_days = 4;</code>
@@ -216,13 +216,13 @@ public final class CardProductRewardNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (remainDays_ != 0) {
-        output.writeUInt32(4, remainDays_);
+        output.writeUInt32(15, remainDays_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(productId_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 7, productId_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 11, productId_);
       }
       if (hcoin_ != 0) {
-        output.writeUInt32(11, hcoin_);
+        output.writeUInt32(7, hcoin_);
       }
       unknownFields.writeTo(output);
     }
@@ -235,14 +235,14 @@ public final class CardProductRewardNotifyOuterClass {
       size = 0;
       if (remainDays_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, remainDays_);
+          .computeUInt32Size(15, remainDays_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(productId_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(7, productId_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(11, productId_);
       }
       if (hcoin_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, hcoin_);
+          .computeUInt32Size(7, hcoin_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -108,12 +108,12 @@ public final class FungusFighterV2SettleInfoOuterClass {
               oGOLIHBAJDL_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 32: {
 
               levelId_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 112: {
 
               isNewRecord_ = input.readBool();
               break;
@@ -123,7 +123,7 @@ public final class FungusFighterV2SettleInfoOuterClass {
               gOJKOCDIMEO_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 48: {
 
               costTime_ = input.readUInt32();
               break;
@@ -176,7 +176,7 @@ public final class FungusFighterV2SettleInfoOuterClass {
       return gOJKOCDIMEO_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 6;
+    public static final int LEVEL_ID_FIELD_NUMBER = 4;
     private int levelId_;
     /**
      * <code>uint32 level_id = 6;</code>
@@ -198,7 +198,7 @@ public final class FungusFighterV2SettleInfoOuterClass {
       return oGOLIHBAJDL_;
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 8;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 14;
     private boolean isNewRecord_;
     /**
      * <code>bool is_new_record = 8;</code>
@@ -209,7 +209,7 @@ public final class FungusFighterV2SettleInfoOuterClass {
       return isNewRecord_;
     }
 
-    public static final int COST_TIME_FIELD_NUMBER = 13;
+    public static final int COST_TIME_FIELD_NUMBER = 6;
     private int costTime_;
     /**
      * <code>uint32 cost_time = 13;</code>
@@ -249,16 +249,16 @@ public final class FungusFighterV2SettleInfoOuterClass {
         output.writeUInt32(3, oGOLIHBAJDL_);
       }
       if (levelId_ != 0) {
-        output.writeUInt32(6, levelId_);
+        output.writeUInt32(4, levelId_);
       }
       if (isNewRecord_ != false) {
-        output.writeBool(8, isNewRecord_);
+        output.writeBool(14, isNewRecord_);
       }
       if (gOJKOCDIMEO_ != 0) {
         output.writeUInt32(11, gOJKOCDIMEO_);
       }
       if (costTime_ != 0) {
-        output.writeUInt32(13, costTime_);
+        output.writeUInt32(6, costTime_);
       }
       if (iBJOJJBHKCF_ != 0) {
         output.writeUInt32(15, iBJOJJBHKCF_);
@@ -278,11 +278,11 @@ public final class FungusFighterV2SettleInfoOuterClass {
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, levelId_);
+          .computeUInt32Size(4, levelId_);
       }
       if (isNewRecord_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, isNewRecord_);
+          .computeBoolSize(14, isNewRecord_);
       }
       if (gOJKOCDIMEO_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -290,7 +290,7 @@ public final class FungusFighterV2SettleInfoOuterClass {
       }
       if (costTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, costTime_);
+          .computeUInt32Size(6, costTime_);
       }
       if (iBJOJJBHKCF_ != 0) {
         size += com.google.protobuf.CodedOutputStream

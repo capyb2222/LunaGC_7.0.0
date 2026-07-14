@@ -92,7 +92,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 18: {
+            case 42: {
               emu.grasscutter.net.proto.CHJOJKNAHLNOuterClass.CHJOJKNAHLN.Builder subBuilder = null;
               if (curProgress_ != null) {
                 subBuilder = curProgress_.toBuilder();
@@ -105,17 +105,17 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
 
               break;
             }
-            case 40: {
+            case 128000: {
 
               eHBOJIJAGPG_ = input.readBool();
               break;
             }
-            case 56: {
+            case 8: {
 
               isContentClosed_ = input.readBool();
               break;
             }
-            case 74: {
+            case 50: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 stageList_ = new java.util.ArrayList<emu.grasscutter.net.proto.EFHMGIKJOHDOuterClass.EFHMGIKJOHD>();
                 mutable_bitField0_ |= 0x00000001;
@@ -159,7 +159,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.RogueDiaryActivityDetailInfoOuterClass.RogueDiaryActivityDetailInfo.class, emu.grasscutter.net.proto.RogueDiaryActivityDetailInfoOuterClass.RogueDiaryActivityDetailInfo.Builder.class);
     }
 
-    public static final int STAGE_LIST_FIELD_NUMBER = 15;
+    public static final int STAGE_LIST_FIELD_NUMBER = 6;
     private java.util.List<emu.grasscutter.net.proto.EFHMGIKJOHDOuterClass.EFHMGIKJOHD> stageList_;
 
     @java.lang.Override
@@ -189,7 +189,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       return stageList_.get(index);
     }
 
-    public static final int CUR_PROGRESS_FIELD_NUMBER = 8;
+    public static final int CUR_PROGRESS_FIELD_NUMBER = 5;
     private emu.grasscutter.net.proto.CHJOJKNAHLNOuterClass.CHJOJKNAHLN curProgress_;
 
     @java.lang.Override
@@ -207,7 +207,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       return getCurProgress();
     }
 
-    public static final int EHBOJIJAGPG_FIELD_NUMBER = 5;
+    public static final int EHBOJIJAGPG_FIELD_NUMBER = 16000;
     private boolean eHBOJIJAGPG_;
     /**
      * <code>bool EHBOJIJAGPG = 5;</code>
@@ -218,7 +218,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       return eHBOJIJAGPG_;
     }
 
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 5;
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 1;
     private boolean isContentClosed_;
 
     @java.lang.Override
@@ -241,16 +241,16 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (curProgress_ != null) {
-        output.writeMessage(2, getCurProgress());
+        output.writeMessage(5, getCurProgress());
       }
       if (eHBOJIJAGPG_ != false) {
-        output.writeBool(5, eHBOJIJAGPG_);
+        output.writeBool(16000, eHBOJIJAGPG_);
       }
       if (isContentClosed_ != false) {
-        output.writeBool(5, isContentClosed_);
+        output.writeBool(1, isContentClosed_);
       }
       for (int i = 0; i < stageList_.size(); i++) {
-        output.writeMessage(15, stageList_.get(i));
+        output.writeMessage(6, stageList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -263,19 +263,19 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       size = 0;
       if (curProgress_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, getCurProgress());
+          .computeMessageSize(5, getCurProgress());
       }
       if (eHBOJIJAGPG_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, eHBOJIJAGPG_);
+          .computeBoolSize(16000, eHBOJIJAGPG_);
       }
       if (isContentClosed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, isContentClosed_);
+          .computeBoolSize(1, isContentClosed_);
       }
       for (int i = 0; i < stageList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, stageList_.get(i));
+          .computeMessageSize(6, stageList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

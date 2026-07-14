@@ -74,7 +74,7 @@ public final class UnlockPersonalLineReqOuterClass {
             case 0:
               done = true;
               break;
-            case 96: {
+            case 64: {
 
               personalLineId_ = input.readUInt32();
               break;
@@ -111,7 +111,7 @@ public final class UnlockPersonalLineReqOuterClass {
               emu.grasscutter.net.proto.UnlockPersonalLineReqOuterClass.UnlockPersonalLineReq.class, emu.grasscutter.net.proto.UnlockPersonalLineReqOuterClass.UnlockPersonalLineReq.Builder.class);
     }
 
-    public static final int PERSONAL_LINE_ID_FIELD_NUMBER = 12;
+    public static final int PERSONAL_LINE_ID_FIELD_NUMBER = 8;
     private int personalLineId_;
     /**
      * <code>uint32 personal_line_id = 12;</code>
@@ -137,7 +137,7 @@ public final class UnlockPersonalLineReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (personalLineId_ != 0) {
-        output.writeUInt32(12, personalLineId_);
+        output.writeUInt32(8, personalLineId_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +150,7 @@ public final class UnlockPersonalLineReqOuterClass {
       size = 0;
       if (personalLineId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, personalLineId_);
+          .computeUInt32Size(8, personalLineId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

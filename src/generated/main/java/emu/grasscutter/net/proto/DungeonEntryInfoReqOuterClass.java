@@ -92,7 +92,7 @@ public final class DungeonEntryInfoReqOuterClass {
             case 0:
               done = true;
               break;
-            case 66: {
+            case 26: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 scenePointIdList_ = new java.util.ArrayList<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair>();
                 mutable_bitField0_ |= 0x00000001;
@@ -101,12 +101,12 @@ public final class DungeonEntryInfoReqOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.parser(), extensionRegistry));
               break;
             }
-            case 96: {
+            case 112: {
 
               sceneId_ = input.readUInt32();
               break;
             }
-            case 16: {
+            case 64: {
 
               pointId_ = input.readUInt32();
               break;
@@ -151,7 +151,7 @@ public final class DungeonEntryInfoReqOuterClass {
               emu.grasscutter.net.proto.DungeonEntryInfoReqOuterClass.DungeonEntryInfoReq.class, emu.grasscutter.net.proto.DungeonEntryInfoReqOuterClass.DungeonEntryInfoReq.Builder.class);
     }
 
-    public static final int SCENE_POINT_ID_LIST_FIELD_NUMBER = 8;
+    public static final int SCENE_POINT_ID_LIST_FIELD_NUMBER = 3;
     private java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> scenePointIdList_;
 
     @java.lang.Override
@@ -181,7 +181,7 @@ public final class DungeonEntryInfoReqOuterClass {
       return scenePointIdList_.get(index);
     }
 
-    public static final int POINT_ID_FIELD_NUMBER = 2;
+    public static final int POINT_ID_FIELD_NUMBER = 8;
     private int pointId_;
 
     @java.lang.Override
@@ -200,7 +200,7 @@ public final class DungeonEntryInfoReqOuterClass {
       return jPMDJMADPIL_;
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 12;
+    public static final int SCENE_ID_FIELD_NUMBER = 14;
     private int sceneId_;
 
     @java.lang.Override
@@ -223,13 +223,13 @@ public final class DungeonEntryInfoReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < scenePointIdList_.size(); i++) {
-        output.writeMessage(8, scenePointIdList_.get(i));
+        output.writeMessage(3, scenePointIdList_.get(i));
       }
       if (sceneId_ != 0) {
-        output.writeUInt32(12, sceneId_);
+        output.writeUInt32(14, sceneId_);
       }
       if (pointId_ != 0) {
-        output.writeUInt32(2, pointId_);
+        output.writeUInt32(8, pointId_);
       }
       if (jPMDJMADPIL_ != false) {
         output.writeBool(10, jPMDJMADPIL_);
@@ -245,15 +245,15 @@ public final class DungeonEntryInfoReqOuterClass {
       size = 0;
       for (int i = 0; i < scenePointIdList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, scenePointIdList_.get(i));
+          .computeMessageSize(3, scenePointIdList_.get(i));
       }
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, sceneId_);
+          .computeUInt32Size(14, sceneId_);
       }
       if (pointId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, pointId_);
+          .computeUInt32Size(8, pointId_);
       }
       if (jPMDJMADPIL_ != false) {
         size += com.google.protobuf.CodedOutputStream

@@ -79,12 +79,12 @@ public final class BuoyantCombatDailyInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 112: {
 
               startTime_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 48: {
 
               bestScore_ = input.readUInt32();
               break;
@@ -121,7 +121,7 @@ public final class BuoyantCombatDailyInfoOuterClass {
               emu.grasscutter.net.proto.BuoyantCombatDailyInfoOuterClass.BuoyantCombatDailyInfo.class, emu.grasscutter.net.proto.BuoyantCombatDailyInfoOuterClass.BuoyantCombatDailyInfo.Builder.class);
     }
 
-    public static final int BEST_SCORE_FIELD_NUMBER = 10;
+    public static final int BEST_SCORE_FIELD_NUMBER = 6;
     private int bestScore_;
     /**
      * <code>uint32 best_score = 10;</code>
@@ -132,7 +132,7 @@ public final class BuoyantCombatDailyInfoOuterClass {
       return bestScore_;
     }
 
-    public static final int START_TIME_FIELD_NUMBER = 6;
+    public static final int START_TIME_FIELD_NUMBER = 14;
     private int startTime_;
     /**
      * <code>uint32 start_time = 6;</code>
@@ -158,10 +158,10 @@ public final class BuoyantCombatDailyInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (startTime_ != 0) {
-        output.writeUInt32(6, startTime_);
+        output.writeUInt32(14, startTime_);
       }
       if (bestScore_ != 0) {
-        output.writeUInt32(10, bestScore_);
+        output.writeUInt32(6, bestScore_);
       }
       unknownFields.writeTo(output);
     }
@@ -174,11 +174,11 @@ public final class BuoyantCombatDailyInfoOuterClass {
       size = 0;
       if (startTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, startTime_);
+          .computeUInt32Size(14, startTime_);
       }
       if (bestScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, bestScore_);
+          .computeUInt32Size(6, bestScore_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

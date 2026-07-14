@@ -71,7 +71,7 @@ public final class VehicleStaminaNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 69: {
+            case 125: {
 
               curStamina_ = input.readFloat();
               break;
@@ -113,7 +113,7 @@ public final class VehicleStaminaNotifyOuterClass {
               emu.grasscutter.net.proto.VehicleStaminaNotifyOuterClass.VehicleStaminaNotify.class, emu.grasscutter.net.proto.VehicleStaminaNotifyOuterClass.VehicleStaminaNotify.Builder.class);
     }
 
-    public static final int CUR_STAMINA_FIELD_NUMBER = 8;
+    public static final int CUR_STAMINA_FIELD_NUMBER = 15;
     private float curStamina_;
 
     @java.lang.Override
@@ -144,7 +144,7 @@ public final class VehicleStaminaNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (curStamina_ != 0F) {
-        output.writeFloat(8, curStamina_);
+        output.writeFloat(15, curStamina_);
       }
       if (entityId_ != 0) {
         output.writeUInt32(10, entityId_);
@@ -160,7 +160,7 @@ public final class VehicleStaminaNotifyOuterClass {
       size = 0;
       if (curStamina_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(8, curStamina_);
+          .computeFloatSize(15, curStamina_);
       }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream

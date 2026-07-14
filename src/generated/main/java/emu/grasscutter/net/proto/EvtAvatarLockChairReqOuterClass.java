@@ -77,7 +77,7 @@ public final class EvtAvatarLockChairReqOuterClass {
             case 0:
               done = true;
               break;
-            case 50: {
+            case 18: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (position_ != null) {
                 subBuilder = position_.toBuilder();
@@ -95,7 +95,7 @@ public final class EvtAvatarLockChairReqOuterClass {
               performId_ = input.readInt32();
               break;
             }
-            case 96: {
+            case 24: {
 
               chairId_ = input.readUInt64();
               break;
@@ -132,7 +132,7 @@ public final class EvtAvatarLockChairReqOuterClass {
               emu.grasscutter.net.proto.EvtAvatarLockChairReqOuterClass.EvtAvatarLockChairReq.class, emu.grasscutter.net.proto.EvtAvatarLockChairReqOuterClass.EvtAvatarLockChairReq.Builder.class);
     }
 
-    public static final int CHAIR_ID_FIELD_NUMBER = 14;
+    public static final int CHAIR_ID_FIELD_NUMBER = 3;
     private long chairId_;
 
     @java.lang.Override
@@ -140,7 +140,7 @@ public final class EvtAvatarLockChairReqOuterClass {
       return chairId_;
     }
 
-    public static final int POSITION_FIELD_NUMBER = 8;
+    public static final int POSITION_FIELD_NUMBER = 2;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector position_;
 
     @java.lang.Override
@@ -184,13 +184,13 @@ public final class EvtAvatarLockChairReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (position_ != null) {
-        output.writeMessage(6, getPosition());
+        output.writeMessage(2, getPosition());
       }
       if (performId_ != 0) {
         output.writeInt32(9, performId_);
       }
       if (chairId_ != 0L) {
-        output.writeUInt64(14, chairId_);
+        output.writeUInt64(3, chairId_);
       }
       unknownFields.writeTo(output);
     }
@@ -203,7 +203,7 @@ public final class EvtAvatarLockChairReqOuterClass {
       size = 0;
       if (position_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, getPosition());
+          .computeMessageSize(2, getPosition());
       }
       if (performId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -211,7 +211,7 @@ public final class EvtAvatarLockChairReqOuterClass {
       }
       if (chairId_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(14, chairId_);
+          .computeUInt64Size(3, chairId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

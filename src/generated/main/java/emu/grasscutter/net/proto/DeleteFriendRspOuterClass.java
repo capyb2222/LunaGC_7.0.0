@@ -80,12 +80,12 @@ public final class DeleteFriendRspOuterClass {
             case 0:
               done = true;
               break;
-            case 104: {
+            case 72: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 112: {
+            case 64: {
 
               targetUid_ = input.readUInt32();
               break;
@@ -122,7 +122,7 @@ public final class DeleteFriendRspOuterClass {
               emu.grasscutter.net.proto.DeleteFriendRspOuterClass.DeleteFriendRsp.class, emu.grasscutter.net.proto.DeleteFriendRspOuterClass.DeleteFriendRsp.Builder.class);
     }
 
-    public static final int TARGET_UID_FIELD_NUMBER = 14;
+    public static final int TARGET_UID_FIELD_NUMBER = 8;
     private int targetUid_;
     /**
      * <code>uint32 target_uid = 14;</code>
@@ -133,7 +133,7 @@ public final class DeleteFriendRspOuterClass {
       return targetUid_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 13;
+    public static final int RETCODE_FIELD_NUMBER = 9;
     private int retcode_;
     /**
      * <code>int32 retcode = 13;</code>
@@ -159,10 +159,10 @@ public final class DeleteFriendRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(13, retcode_);
+        output.writeInt32(9, retcode_);
       }
       if (targetUid_ != 0) {
-        output.writeUInt32(14, targetUid_);
+        output.writeUInt32(8, targetUid_);
       }
       unknownFields.writeTo(output);
     }
@@ -175,11 +175,11 @@ public final class DeleteFriendRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(13, retcode_);
+          .computeInt32Size(9, retcode_);
       }
       if (targetUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, targetUid_);
+          .computeUInt32Size(8, targetUid_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

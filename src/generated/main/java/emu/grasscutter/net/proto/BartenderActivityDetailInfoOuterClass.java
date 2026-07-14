@@ -408,7 +408,7 @@ public final class BartenderActivityDetailInfoOuterClass {
     }
     private int gAJCOIOECCOMemoizedSerializedSize = -1;
 
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 1;
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 11;
     private boolean isContentClosed_;
 
     @java.lang.Override
@@ -456,7 +456,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         output.writeUInt32NoTag(jIAIIBBBHDA_.getInt(i));
       }
       if (isContentClosed_ != false) {
-        output.writeBool(1, isContentClosed_);
+        output.writeBool(11, isContentClosed_);
       }
       if (getGAJCOIOECCOList().size() > 0) {
         output.writeUInt32NoTag(130);
@@ -501,7 +501,7 @@ public final class BartenderActivityDetailInfoOuterClass {
       }
       if (isContentClosed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1, isContentClosed_);
+          .computeBoolSize(11, isContentClosed_);
       }
       {
         int dataSize = 0;

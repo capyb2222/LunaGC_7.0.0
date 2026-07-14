@@ -7,8 +7,8 @@ import emu.grasscutter.utils.objects.SparseSet;
 import java.util.Arrays;
 
 public final class GameConstants {
-    public static String VERSION = "6.6.0";
-    public static int[] VERSION_PARTS = {6, 6, 0};
+    public static String VERSION = "6.7.0";
+    public static int[] VERSION_PARTS = {6, 7, 0};
     public static boolean DEBUG = false;
 
     public static final int ENTITY_ID_BIT_SHIFT = 21;
@@ -72,7 +72,8 @@ public final class GameConstants {
          "Avatar_ArkheGrade_CD_Controller",
          "Avatar_FluidAgitator",
          "Avatar_TriggerNyxInstant",
-         "Avatar_NyxState_Listener"
+         "Avatar_NyxState_Listener",
+         "Avatar_StarSuperconductor_Field_Checker"
      };
       public static final String[] DEFAULT_TEAM_ABILITY_STRINGS = {
              "Ability_Avatar_Dive_Team",

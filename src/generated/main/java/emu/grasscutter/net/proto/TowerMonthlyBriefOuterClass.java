@@ -87,7 +87,7 @@ public final class TowerMonthlyBriefOuterClass {
               fFJJEFKCJEC_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 24: {
 
               towerScheduleId_ = input.readUInt32();
               break;
@@ -135,7 +135,7 @@ public final class TowerMonthlyBriefOuterClass {
       return ePPJPCMDGEK_;
     }
 
-    public static final int TOWER_SCHEDULE_ID_FIELD_NUMBER = 15;
+    public static final int TOWER_SCHEDULE_ID_FIELD_NUMBER = 3;
     private int towerScheduleId_;
 
     @java.lang.Override
@@ -175,7 +175,7 @@ public final class TowerMonthlyBriefOuterClass {
         output.writeUInt32(12, fFJJEFKCJEC_);
       }
       if (towerScheduleId_ != 0) {
-        output.writeUInt32(15, towerScheduleId_);
+        output.writeUInt32(3, towerScheduleId_);
       }
       unknownFields.writeTo(output);
     }
@@ -196,7 +196,7 @@ public final class TowerMonthlyBriefOuterClass {
       }
       if (towerScheduleId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, towerScheduleId_);
+          .computeUInt32Size(3, towerScheduleId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

@@ -86,17 +86,17 @@ public final class SetEquipLockStateRspOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
+            case 112: {
 
               targetEquipGuid_ = input.readUInt64();
               break;
             }
-            case 64: {
+            case 104: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 112: {
+            case 80: {
 
               isLocked_ = input.readBool();
               break;
@@ -133,7 +133,7 @@ public final class SetEquipLockStateRspOuterClass {
               emu.grasscutter.net.proto.SetEquipLockStateRspOuterClass.SetEquipLockStateRsp.class, emu.grasscutter.net.proto.SetEquipLockStateRspOuterClass.SetEquipLockStateRsp.Builder.class);
     }
 
-    public static final int TARGET_EQUIP_GUID_FIELD_NUMBER = 5;
+    public static final int TARGET_EQUIP_GUID_FIELD_NUMBER = 14;
     private long targetEquipGuid_;
     /**
      * <code>uint64 target_equip_guid = 1;</code>
@@ -144,7 +144,7 @@ public final class SetEquipLockStateRspOuterClass {
       return targetEquipGuid_;
     }
 
-    public static final int IS_LOCKED_FIELD_NUMBER = 14;
+    public static final int IS_LOCKED_FIELD_NUMBER = 10;
     private boolean isLocked_;
     /**
      * <code>bool is_locked = 6;</code>
@@ -155,7 +155,7 @@ public final class SetEquipLockStateRspOuterClass {
       return isLocked_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 8;
+    public static final int RETCODE_FIELD_NUMBER = 13;
     private int retcode_;
     /**
      * <code>int32 retcode = 5;</code>
@@ -181,13 +181,13 @@ public final class SetEquipLockStateRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (targetEquipGuid_ != 0L) {
-        output.writeUInt64(5, targetEquipGuid_);
+        output.writeUInt64(14, targetEquipGuid_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(8, retcode_);
+        output.writeInt32(13, retcode_);
       }
       if (isLocked_ != false) {
-        output.writeBool(14, isLocked_);
+        output.writeBool(10, isLocked_);
       }
       unknownFields.writeTo(output);
     }
@@ -200,15 +200,15 @@ public final class SetEquipLockStateRspOuterClass {
       size = 0;
       if (targetEquipGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(5, targetEquipGuid_);
+          .computeUInt64Size(14, targetEquipGuid_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(8, retcode_);
+          .computeInt32Size(13, retcode_);
       }
       if (isLocked_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(14, isLocked_);
+          .computeBoolSize(10, isLocked_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

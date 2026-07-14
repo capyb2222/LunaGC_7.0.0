@@ -67,7 +67,7 @@ public final class GetAreaExplorePointReqOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 104: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 areaIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -75,7 +75,7 @@ public final class GetAreaExplorePointReqOuterClass {
               areaIdList_.addInt(input.readUInt32());
               break;
             }
-            case 18: {
+            case 106: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -123,7 +123,7 @@ public final class GetAreaExplorePointReqOuterClass {
               emu.grasscutter.net.proto.GetAreaExplorePointReqOuterClass.GetAreaExplorePointReq.class, emu.grasscutter.net.proto.GetAreaExplorePointReqOuterClass.GetAreaExplorePointReq.Builder.class);
     }
 
-    public static final int AREA_ID_LIST_FIELD_NUMBER = 4;
+    public static final int AREA_ID_LIST_FIELD_NUMBER = 13;
     private com.google.protobuf.Internal.IntList areaIdList_;
 
     @java.lang.Override
@@ -157,7 +157,7 @@ public final class GetAreaExplorePointReqOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getAreaIdListList().size() > 0) {
-        output.writeUInt32NoTag(34);
+        output.writeUInt32NoTag(106);
         output.writeUInt32NoTag(areaIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < areaIdList_.size(); i++) {

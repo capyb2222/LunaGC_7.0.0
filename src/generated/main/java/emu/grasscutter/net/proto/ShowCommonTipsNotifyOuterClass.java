@@ -100,18 +100,18 @@ public final class ShowCommonTipsNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 80: {
 
               closeTime_ = input.readUInt32();
               break;
             }
-            case 58: {
+            case 42: {
               java.lang.String s = input.readStringRequireUtf8();
 
               content_ = s;
               break;
             }
-            case 106: {
+            case 58: {
               java.lang.String s = input.readStringRequireUtf8();
 
               title_ = s;
@@ -149,7 +149,7 @@ public final class ShowCommonTipsNotifyOuterClass {
               emu.grasscutter.net.proto.ShowCommonTipsNotifyOuterClass.ShowCommonTipsNotify.class, emu.grasscutter.net.proto.ShowCommonTipsNotifyOuterClass.ShowCommonTipsNotify.Builder.class);
     }
 
-    public static final int TITLE_FIELD_NUMBER = 13;
+    public static final int TITLE_FIELD_NUMBER = 7;
     private volatile java.lang.Object title_;
     /**
      * <code>string title = 13;</code>
@@ -187,7 +187,7 @@ public final class ShowCommonTipsNotifyOuterClass {
       }
     }
 
-    public static final int CLOSE_TIME_FIELD_NUMBER = 1;
+    public static final int CLOSE_TIME_FIELD_NUMBER = 10;
     private int closeTime_;
     /**
      * <code>uint32 close_time = 1;</code>
@@ -198,7 +198,7 @@ public final class ShowCommonTipsNotifyOuterClass {
       return closeTime_;
     }
 
-    public static final int CONTENT_FIELD_NUMBER = 7;
+    public static final int CONTENT_FIELD_NUMBER = 5;
     private volatile java.lang.Object content_;
     /**
      * <code>string content = 7;</code>
@@ -251,13 +251,13 @@ public final class ShowCommonTipsNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (closeTime_ != 0) {
-        output.writeUInt32(1, closeTime_);
+        output.writeUInt32(10, closeTime_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(content_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 7, content_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 5, content_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(title_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 13, title_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 7, title_);
       }
       unknownFields.writeTo(output);
     }
@@ -270,13 +270,13 @@ public final class ShowCommonTipsNotifyOuterClass {
       size = 0;
       if (closeTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, closeTime_);
+          .computeUInt32Size(10, closeTime_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(content_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(7, content_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(5, content_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(title_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(13, title_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(7, title_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

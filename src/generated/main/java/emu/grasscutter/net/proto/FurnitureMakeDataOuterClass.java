@@ -83,17 +83,17 @@ public final class FurnitureMakeDataOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 120: {
 
               avatarId_ = input.readUInt32();
               break;
             }
-            case 37: {
+            case 21: {
 
               beginTime_ = input.readFixed32();
               break;
             }
-            case 72: {
+            case 112: {
 
               index_ = input.readUInt32();
               break;
@@ -103,7 +103,7 @@ public final class FurnitureMakeDataOuterClass {
               durTime_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 48: {
 
               makeId_ = input.readUInt32();
               break;
@@ -145,7 +145,7 @@ public final class FurnitureMakeDataOuterClass {
               emu.grasscutter.net.proto.FurnitureMakeDataOuterClass.FurnitureMakeData.class, emu.grasscutter.net.proto.FurnitureMakeDataOuterClass.FurnitureMakeData.Builder.class);
     }
 
-    public static final int BEGIN_TIME_FIELD_NUMBER = 11;
+    public static final int BEGIN_TIME_FIELD_NUMBER = 2;
     private int beginTime_;
 
     @java.lang.Override
@@ -153,7 +153,7 @@ public final class FurnitureMakeDataOuterClass {
       return beginTime_;
     }
 
-    public static final int DURTIME_FIELD_NUMBER = 13;
+    public static final int DURTIME_FIELD_NUMBER = 1;
     private int durTime_;
     /**
      * <code>uint32 durTime = 13;</code>
@@ -164,7 +164,7 @@ public final class FurnitureMakeDataOuterClass {
       return durTime_;
     }
 
-    public static final int ACCELERATETIME_FIELD_NUMBER = 16;
+    public static final int ACCELERATETIME_FIELD_NUMBER = 4;
     private int accelerateTime_;
     /**
      * <code>fixed32 accelerateTime = 16;</code>
@@ -175,7 +175,7 @@ public final class FurnitureMakeDataOuterClass {
       return accelerateTime_;
     }
 
-    public static final int MAKE_ID_FIELD_NUMBER = 7;
+    public static final int MAKE_ID_FIELD_NUMBER = 6;
     private int makeId_;
 
     @java.lang.Override
@@ -183,7 +183,7 @@ public final class FurnitureMakeDataOuterClass {
       return makeId_;
     }
 
-    public static final int AVATAR_ID_FIELD_NUMBER = 13;
+    public static final int AVATAR_ID_FIELD_NUMBER = 15;
     private int avatarId_;
 
     @java.lang.Override
@@ -191,7 +191,7 @@ public final class FurnitureMakeDataOuterClass {
       return avatarId_;
     }
 
-    public static final int INDEX_FIELD_NUMBER = 1;
+    public static final int INDEX_FIELD_NUMBER = 14;
     private int index_;
 
     @java.lang.Override
@@ -214,19 +214,19 @@ public final class FurnitureMakeDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (avatarId_ != 0) {
-        output.writeUInt32(13, avatarId_);
+        output.writeUInt32(15, avatarId_);
       }
       if (beginTime_ != 0) {
-        output.writeFixed32(11, beginTime_);
+        output.writeFixed32(2, beginTime_);
       }
       if (index_ != 0) {
-        output.writeUInt32(1, index_);
+        output.writeUInt32(14, index_);
       }
       if (durTime_ != 0) {
         output.writeUInt32(13, durTime_);
       }
       if (makeId_ != 0) {
-        output.writeUInt32(7, makeId_);
+        output.writeUInt32(6, makeId_);
       }
       if (accelerateTime_ != 0) {
         output.writeFixed32(16, accelerateTime_);
@@ -242,15 +242,15 @@ public final class FurnitureMakeDataOuterClass {
       size = 0;
       if (avatarId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, avatarId_);
+          .computeUInt32Size(15, avatarId_);
       }
       if (beginTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFixed32Size(11, beginTime_);
+          .computeFixed32Size(2, beginTime_);
       }
       if (index_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, index_);
+          .computeUInt32Size(14, index_);
       }
       if (durTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -258,7 +258,7 @@ public final class FurnitureMakeDataOuterClass {
       }
       if (makeId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, makeId_);
+          .computeUInt32Size(6, makeId_);
       }
       if (accelerateTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream

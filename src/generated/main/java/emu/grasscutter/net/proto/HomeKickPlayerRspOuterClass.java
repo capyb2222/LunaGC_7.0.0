@@ -86,17 +86,17 @@ public final class HomeKickPlayerRspOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 104: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 72: {
+            case 24: {
 
               targetUid_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 16: {
 
               isKickAll_ = input.readBool();
               break;
@@ -133,7 +133,7 @@ public final class HomeKickPlayerRspOuterClass {
               emu.grasscutter.net.proto.HomeKickPlayerRspOuterClass.HomeKickPlayerRsp.class, emu.grasscutter.net.proto.HomeKickPlayerRspOuterClass.HomeKickPlayerRsp.Builder.class);
     }
 
-    public static final int IS_KICK_ALL_FIELD_NUMBER = 10;
+    public static final int IS_KICK_ALL_FIELD_NUMBER = 2;
     private boolean isKickAll_;
     /**
      * <code>bool is_kick_all = 10;</code>
@@ -144,7 +144,7 @@ public final class HomeKickPlayerRspOuterClass {
       return isKickAll_;
     }
 
-    public static final int TARGET_UID_FIELD_NUMBER = 9;
+    public static final int TARGET_UID_FIELD_NUMBER = 3;
     private int targetUid_;
     /**
      * <code>uint32 target_uid = 9;</code>
@@ -155,7 +155,7 @@ public final class HomeKickPlayerRspOuterClass {
       return targetUid_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 8;
+    public static final int RETCODE_FIELD_NUMBER = 13;
     private int retcode_;
     /**
      * <code>int32 retcode = 8;</code>
@@ -181,13 +181,13 @@ public final class HomeKickPlayerRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(8, retcode_);
+        output.writeInt32(13, retcode_);
       }
       if (targetUid_ != 0) {
-        output.writeUInt32(9, targetUid_);
+        output.writeUInt32(3, targetUid_);
       }
       if (isKickAll_ != false) {
-        output.writeBool(10, isKickAll_);
+        output.writeBool(2, isKickAll_);
       }
       unknownFields.writeTo(output);
     }
@@ -200,15 +200,15 @@ public final class HomeKickPlayerRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(8, retcode_);
+          .computeInt32Size(13, retcode_);
       }
       if (targetUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, targetUid_);
+          .computeUInt32Size(3, targetUid_);
       }
       if (isKickAll_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, isKickAll_);
+          .computeBoolSize(2, isKickAll_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
