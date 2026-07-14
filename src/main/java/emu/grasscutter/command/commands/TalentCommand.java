@@ -16,8 +16,10 @@ import java.util.List;
 public final class TalentCommand implements CommandHandler {
     private void setTalentLevel(Player sender, Avatar avatar, int skillId, int newLevel) {
         if (avatar.setSkillLevel(skillId, newLevel)) {
-            long nameHash = GameData.getAvatarSkillDataMap().get(skillId).getNameTextMapHash();
-            var name = Language.getTextMapKey(nameHash);
+            var talent = GameData.getAvatarSkillDataMap().get(skillId);
+            Object name =
+                    talent != null ? Language.getTextMapKey(talent.getNameTextMapHash()) : null;
+            if (name == null) name = skillId;
             CommandHandler.sendTranslatedMessage(
                     sender, "commands.talent.set_id", skillId, name, newLevel);
         } else {
@@ -117,8 +119,12 @@ public final class TalentCommand implements CommandHandler {
                                 id -> {
                                     var talent = map.get(id);
                                     if (talent == null) return;
-                                    var talentName = Language.getTextMapKey(talent.getNameTextMapHash());
-                                    var talentDesc = Language.getTextMapKey(talent.getDescTextMapHash());
+                                    Object talentName =
+                                            Language.getTextMapKey(talent.getNameTextMapHash());
+                                    Object talentDesc =
+                                            Language.getTextMapKey(talent.getDescTextMapHash());
+                                    if (talentName == null) talentName = id;
+                                    if (talentDesc == null) talentDesc = "";
                                     CommandHandler.sendTranslatedMessage(
                                             sender, "commands.talent.id_desc", id, talentName, talentDesc);
                                 });
