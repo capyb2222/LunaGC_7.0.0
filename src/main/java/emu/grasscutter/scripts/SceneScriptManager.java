@@ -120,7 +120,9 @@ public class SceneScriptManager {
     }
 
     public Map<Integer, SceneBlock> getBlocks() {
-        return meta.blocks;
+        // init() leaves meta null when the scene has no script meta on disk, and getConfig()
+        // already reports that case gracefully. Iterating blocks must not be the thing that throws.
+        return this.meta == null ? Collections.emptyMap() : this.meta.blocks;
     }
 
     @Nullable public Map<String, Integer> getVariables(int group_id) {
