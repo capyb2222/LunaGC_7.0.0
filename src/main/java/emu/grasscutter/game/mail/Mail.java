@@ -73,7 +73,7 @@ public final class Mail {
 
     public MailDataOuterClass.MailData toProto(Player player) {
         return MailDataOuterClass.MailData.newBuilder()
-                .setMailId(player.getMailId(this))
+				.setMailId(player.getMailHandler().toClientMailId(player.getMailId(this)))
                 .setMailTextContent(this.mailContent.toProto())
                 .addAllItemList(this.itemList.stream().map(MailItem::toProto).toList())
                 .setSendTime((int) this.sendTime)

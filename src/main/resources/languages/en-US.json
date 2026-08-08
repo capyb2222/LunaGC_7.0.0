@@ -1,7 +1,7 @@
 {
   "messages": {
     "game": {
-      "address_bind": "Game Server started at \u001B[1m\u001B[33m%s:%s\u001B[0m",
+      "address_bind": "Game Server started at \u001b[1m\u001b[33m%s:%s\u001b[0m",
       "port_bind": "Game Server started on port %s",
       "connect": "Client connected from %s",
       "disconnect": "Client disconnected from %s",
@@ -9,7 +9,7 @@
       "command_error": "Command error:"
     },
     "dispatch": {
-      "address_bind": "[Dispatch] Dispatch server started at \u001B[1m\u001B[33m%s:%s\u001B[0m",
+      "address_bind": "[Dispatch] Dispatch server started at \u001b[1m\u001b[33m%s:%s\u001b[0m",
       "port_bind": "[Dispatch] Dispatch server started on port %s",
       "request": "[Dispatch] Client %s %s request: %s",
       "keystore": {
@@ -324,7 +324,7 @@
     "setProp": {
       "description": "Sets accountwide properties. Things like godmode can be enabled this way, as well as changing things like unlocked abyss floor and battle pass progress.\n\tValues for <prop> (case-insensitive): GodMode | UnlimitedStamina | UnlimitedEnergy | TowerLevel | WorldLevel | BPLevel | SetOpenState | UnsetOpenState | UnlockMap\n\t(cont.) see PlayerProperty enum for other possible values, of the form PROP_MAX_SPRING_VOLUME -> max_spring_volume"
     },
-    "setSceneTag":{
+    "setSceneTag": {
       "description": "Sets account-specific scene tags. This controls things like rocks blocking doors, buildings being visible, and other (usually quest-related) things that affect what is visible in your world."
     },
     "setStats": {
@@ -367,6 +367,21 @@
       "avatar_already_in_team": "Avatar is already in team.",
       "avatar_not_found": "Avatar %s not found.",
       "description": "Modify your team manually."
+    },
+    "teapot": {
+      "description": "Manipulate serenitea pot functions.  \n\tValues for setLevel<1-10>  \n\tValues for unlockModule<1-4> \n\tValues for lockModule<1-4> \n\tValues for giveAllFurniture<count> \n\tValues for refreshLimitedShop<none>",
+      "level_range_error": "Serenitea pot level must be between 1 and 10.",
+      "level_success": "Serenitea pot level set to %s.",
+      "invalid_param": "Invalid parameter.",
+      "module_sumeru_error": "Sumeru module unsupported at the moment.",
+      "module_range_error": "Module number must be between 1 - 4.",
+      "unlock_module_contain_error": "Module already unlocked.",
+      "unlock_module_success": "Unlocked module %s.",
+      "lock_module_in_scene_error": "Cannot lock active module.",
+      "lock_module_contain_error": "Module doesn't exist.",
+      "lock_module_success": "Locked module %s.",
+      "give_furniture_success": "Gave all furniture.",
+      "refresh_limited_shop_success": "This feature is not yet available on this server."
     },
     "teleportAll": {
       "success": "Summoned all players to your location.",
@@ -471,6 +486,12 @@
       "not_present": "Plugin %s does not specify an API version.",
       "lower": "Plugin %s is using API version %s, while the server is using API version %s.",
       "outdated": "Plugin %s is using an outdated API method."
+    }
+  },
+  "mail": {
+    "birthday": {
+      "title": "Happy Birthday!",
+      "content": "Dear %s, wishing you a very happy birthday! Please accept this small gift from all of us. May your year ahead be filled with joy and adventure."
     }
   }
 }

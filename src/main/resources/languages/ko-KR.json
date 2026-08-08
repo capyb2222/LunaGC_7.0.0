@@ -368,6 +368,20 @@
       "avatar_not_found": "캐릭터 %d 발견되지 않음.",
       "description": "당신의 팀을 수정으로 수정합니다."
     },
+    "teapot": {
+      "description": "serenitea pot 기능을 조작합니다. \n\tsetLevel<1-10>의 값 \n\tunlockModule<1-4>의 값 \n\tlockModule<1-4>의 값 \n\tgiveAllFurniture<count>의 값 \n\trefreshLimitedShop<none의 값 >",
+      "level_range_error": "Serenitea 냄비 레벨은 1에서 10 사이여야 합니다.",
+      "level_success": "Serenitea 냄비 수준이 %s(으)로 설정되었습니다.",
+      "invalid_param": "잘못된 매개 변수.",
+      "module_sumeru_error": "Sumeru 모듈은 현재 지원되지 않습니다.",
+      "module_range_error": "모듈 번호는 1 - 4 사이여야 합니다.",
+      "unlock_module_contain_error": "모듈이 이미 잠금 해제되었습니다.",
+      "unlock_module_success": "잠금 해제된 모듈 %s.",
+      "lock_module_in_scene_error": "활성 모듈을 잠금 수 없습니다.",
+      "lock_module_contain_error": "모듈이 존재하지 않습니다.",
+      "lock_module_success": "잠긴 모듈 %s.",
+      "give_furniture_success": "모든 가구를 제공합니다."
+    },
     "teleportAll": {
       "success": "모든 플레이어를 당신의 위치로 이동합니다.",
       "error": "MP 모드.",
@@ -471,6 +485,12 @@
       "not_present": "🇺🇸Plugin %s does not specify an API version.",
       "lower": "🇺🇸Plugin %s is using API version %s, while the server is using API version %s.",
       "outdated": "🇺🇸Plugin %s is using an outdated API method."
+    }
+  },
+  "mail": {
+    "birthday": {
+      "title": "Happy Birthday!",
+      "content": "Dear %s, wishing you a very happy birthday! Please accept this small gift from all of us. May your year ahead be filled with joy and adventure."
     }
   }
 }

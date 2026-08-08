@@ -368,6 +368,20 @@
       "avatar_not_found": "Awatar o ID \"%d\" nie istnieje.",
       "description": "Modyfikuj zespół wybranego gracza."
     },
+    "teapot": {
+      "description": "Manipuluj funkcjami garnka Serenitea. \n\tWartości dla setLevel<1-10> \n\tWartości dla unlockModule<1-4> \n\tWartości dla lockModule<1-4> \n\tWartości dla giveAllFurniture<liczba> \n\tWartości dla odświeżeniaLimitedShop<brak >",
+      "level_range_error": "Poziom puli Serenitea musi wynosić od 1 do 10.",
+      "level_success": "Poziom puli Serenitea ustawiony na %s.",
+      "invalid_param": "Niewłaściwy parametr.",
+      "module_sumeru_error": "Moduł Sumeru nie jest obecnie obsługiwany.",
+      "module_range_error": "Numer modułu musi zawierać się w przedziale od 1 do 4.",
+      "unlock_module_contain_error": "Moduł już odblokowany.",
+      "unlock_module_success": "Odblokowany moduł %s.",
+      "lock_module_in_scene_error": "Nie można zablokować aktywnego modułu.",
+      "lock_module_contain_error": "Moduł nie istnieje.",
+      "lock_module_success": "Zablokowany moduł %s.",
+      "give_furniture_success": "Dał wszystkie meble."
+    },
     "teleportAll": {
       "success": "Przyzwano wszystkich graczy do wybranego gracza.",
       "error": "Możesz użyć tej komendy wyłącznie w trybie MP.",
@@ -471,6 +485,12 @@
       "not_present": "🇺🇸Plugin %s does not specify an API version.",
       "lower": "🇺🇸Plugin %s is using API version %s, while the server is using API version %s.",
       "outdated": "🇺🇸Plugin %s is using an outdated API method."
+    }
+  },
+  "mail": {
+    "birthday": {
+      "title": "Happy Birthday!",
+      "content": "Dear %s, wishing you a very happy birthday! Please accept this small gift from all of us. May your year ahead be filled with joy and adventure."
     }
   }
 }

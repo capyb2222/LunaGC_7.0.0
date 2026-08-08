@@ -4,6 +4,7 @@ import emu.grasscutter.*;
 import emu.grasscutter.data.GameData;
 import emu.grasscutter.data.binout.ScenePointEntry;
 import emu.grasscutter.data.excels.dungeon.*;
+import emu.grasscutter.game.dungeons.fallback.MissingDomainFallbackManager;
 import emu.grasscutter.game.dungeons.handlers.DungeonBaseHandler;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.game.props.SceneType;
@@ -108,6 +109,7 @@ public final class DungeonSystem extends BaseGameSystem {
         if (player.getWorld().transferPlayerToScene(player, sceneId, data)) {
             scene = player.getScene();
             scene.setDungeonManager(new DungeonManager(scene, data));
+            MissingDomainFallbackManager.install(scene, data);
             scene.addDungeonSettleObserver(basicDungeonSettleObserver);
         }
 
@@ -217,6 +219,7 @@ public final class DungeonSystem extends BaseGameSystem {
             if (isTower) {
                 scene.addDungeonSettleObserver(new TowerDungeonSettleListener());
             } else {
+                MissingDomainFallbackManager.install(scene, dungeonData);
                 scene.addDungeonSettleObserver(basicDungeonSettleObserver);
             }
         }

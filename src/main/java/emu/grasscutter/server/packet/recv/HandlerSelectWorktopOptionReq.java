@@ -1,5 +1,6 @@
 package emu.grasscutter.server.packet.recv;
 
+import emu.grasscutter.game.dungeons.fallback.MissingDomainFallbackManager;
 import emu.grasscutter.game.entity.*;
 import emu.grasscutter.game.quest.enums.QuestContent;
 import emu.grasscutter.net.packet.*;
@@ -38,6 +39,9 @@ public class HandlerSelectWorktopOptionReq extends PacketHandler {
                     .getQuestManager()
                     .queueEvent(
                             QuestContent.QUEST_CONTENT_WORKTOP_SELECT, entity.getConfigId(), req.getOptionId());
+
+            MissingDomainFallbackManager.handleSelectWorktopOption(
+                    session.getPlayer().getScene(), entity, req.getOptionId());
         } finally {
             // Always send packet
             session.send(new PacketSelectWorktopOptionRsp(req.getGadgetEntityId(), req.getOptionId()));

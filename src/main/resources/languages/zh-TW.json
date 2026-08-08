@@ -368,6 +368,20 @@
       "avatar_not_found": "無法找到該角色：%s",
       "description": "手動修改您的隊伍配置。"
     },
+    "teapot": {
+      "description": "設置塵歌壺各種功能.  \n\t可更改的功能： setLevel<等級>  \n\tunlockModule<洞天值（不包括須彌）> \n\tlockModule<洞天值（不包括須彌）> \n\tgiveAllFurniture<家具數量> \n\tValues for refreshLimitedShop<無/不需要>",
+      "level_range_error": "塵歌壺等級必須在 1 - 10 之間。",
+      "level_success": "成功設定塵歌壺等級為 %s.",
+      "invalid_param": "無效的參數。",
+      "module_sumeru_error": "當前不支持須彌洞天。",
+      "module_range_error": "洞天必須在 1 - 4 之間。",
+      "unlock_module_contain_error": "洞天已解鎖。",
+      "unlock_module_success": "成功解鎖洞天 %s。",
+      "lock_module_in_scene_error": "無法鎖定選定中的洞天。",
+      "lock_module_contain_error": "洞天不存在。",
+      "lock_module_success": "成功鎖定洞天 %s。",
+      "give_furniture_success": "已給予所有的家具。"
+    },
     "teleportAll": {
       "success": "召喚了所有玩家到你的位置上。",
       "error": "此指令僅可在多人遊戲下可用。",
@@ -471,6 +485,12 @@
       "not_present": "外掛程式 %s 並未指定 API 版本。",
       "lower": "外掛程式 %s 使用的 API 版本為 %s，而伺服器使用的 API 版本為 %s。",
       "outdated": "外掛程式 %s 使用了舊版的 API 方法。"
+    }
+  },
+  "mail": {
+    "birthday": {
+      "title": "Happy Birthday!",
+      "content": "Dear %s, wishing you a very happy birthday! Please accept this small gift from all of us. May your year ahead be filled with joy and adventure."
     }
   }
 }

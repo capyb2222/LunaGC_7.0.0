@@ -368,6 +368,20 @@
       "avatar_not_found": "无法找到该角色：%s",
       "description": "手动修改你的队伍"
     },
+    "teapot": {
+      "description": "设置尘歌壶各种功能.  \n\t可更改的功能： setLevel<等级>  \n\tunlockModule<洞天值（不包括须弥）> \n\tlockModule<洞天值（不包括须弥）> \n\tgiveAllFurniture<家具数量> \n\tValues for refreshLimitedShop<无/不需要>",
+      "level_range_error": "尘歌壶等级必须在 1 - 10 之间。",
+      "level_success": "成功设定尘歌壶等级为 %s.",
+      "invalid_param": "无效的参数。",
+      "module_sumeru_error": "当前不支持须弥洞天。",
+      "module_range_error": "洞天必须在 1 - 4 之间。",
+      "unlock_module_contain_error": "洞天已解锁。",
+      "unlock_module_success": "成功解锁洞天 %s。",
+      "lock_module_in_scene_error": "无法锁定选定中的洞天。",
+      "lock_module_contain_error": "洞天不存在。",
+      "lock_module_success": "成功锁定洞天 %s。",
+      "give_furniture_success": "已给予所有的家具。"
+    },
     "teleportAll": {
       "success": "已将所有玩家传送到你的位置。",
       "error": "你只能在多人游戏状态下执行此命令。",
@@ -471,6 +485,12 @@
       "not_present": "🇺🇸Plugin %s does not specify an API version.",
       "lower": "🇺🇸Plugin %s is using API version %s, while the server is using API version %s.",
       "outdated": "🇺🇸Plugin %s is using an outdated API method."
+    }
+  },
+  "mail": {
+    "birthday": {
+      "title": "Happy Birthday!",
+      "content": "Dear %s, wishing you a very happy birthday! Please accept this small gift from all of us. May your year ahead be filled with joy and adventure."
     }
   }
 }

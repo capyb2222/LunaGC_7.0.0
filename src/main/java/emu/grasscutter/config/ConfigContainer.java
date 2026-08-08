@@ -285,6 +285,7 @@ public class ConfigContainer {
         public Rates rates = new Rates();
 
         public HandbookOptions handbook = new HandbookOptions();
+        public BirthdayMailOptions birthdayMail = new BirthdayMailOptions();
 
         public static class InventoryLimits {
             public int weapons = 2000;
@@ -315,6 +316,33 @@ public class ConfigContainer {
         public static class Questing {
             /* Should questing behavior be used? */
             public boolean enabled = false;
+        }
+
+        public static class BirthdayMailOptions {
+            /* Should players receive a mail with a gift on their in-game birthday? */
+            public boolean enabled = true;
+            /* How many days the birthday mail stays claimable before it expires. */
+            public int expireDays = 7;
+            /* The items attached to the birthday mail. Defaults to Mora and Primogems. */
+            public GiftItem[] gifts =
+                    new GiftItem[] {
+                        new GiftItem(202, 10000000), // Mora
+                        new GiftItem(201, 600000) // Primogem
+                    };
+
+            public static class GiftItem {
+                public int itemId;
+                public int count;
+
+                public GiftItem() {
+                    this(202, 1);
+                }
+
+                public GiftItem(int itemId, int count) {
+                    this.itemId = itemId;
+                    this.count = count;
+                }
+            }
         }
 
         public static class HandbookOptions {
