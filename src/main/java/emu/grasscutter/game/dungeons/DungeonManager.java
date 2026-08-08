@@ -7,6 +7,7 @@ import emu.grasscutter.data.excels.dungeon.*;
 import emu.grasscutter.game.activity.trialavatar.TrialAvatarActivityHandler;
 import emu.grasscutter.game.dungeons.dungeon_results.BaseDungeonResult;
 import emu.grasscutter.game.dungeons.enums.DungeonPassConditionType;
+import emu.grasscutter.game.dungeons.fallback.MissingDomainFallbackManager;
 import emu.grasscutter.game.inventory.GameItem;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.game.props.*;
@@ -141,15 +142,27 @@ public final class DungeonManager {
         }
 
         // Get and roll rewards.
-        List<GameItem> rewards =
-                player
-                        .getServer()
-                        .getDropSystem()
-                        .handleDungeonRewardDrop(dungeonData.getStatueDrop(), useCondensed);
-        if (rewards.isEmpty()) {
-            // fallback to legacy drop system
-            Grasscutter.getLogger().debug("dungeon drop failed for {}", dungeonData.getId());
+        List<GameItem> rewards;
+        if (usesLegacyLostValleyDrops(dungeonData.getId())) {
             rewards = new ArrayList<>(this.rollRewards(useCondensed));
+        } else {
+            int statueDropId = dungeonData.getStatueDrop();
+
+            // A fallback domain has no statue drop of its own; borrow one that exists.
+            int fallbackStatueDropId =
+                    MissingDomainFallbackManager.getStatueDropOverride(dungeonData.getId());
+            if (fallbackStatueDropId != 0) {
+                statueDropId = fallbackStatueDropId;
+            }
+
+            rewards =
+                    player.getServer().getDropSystem().handleDungeonRewardDrop(statueDropId, useCondensed);
+
+            if (rewards.isEmpty()) {
+                // fallback to legacy drop system
+                Grasscutter.getLogger().debug("dungeon drop failed for {}", dungeonData.getId());
+                rewards = new ArrayList<>(this.rollRewards(useCondensed));
+            }
         }
         // Add rewards to player and send notification.
         player.getInventory().addItems(rewards, ActionReason.DungeonStatueDrop);
@@ -159,6 +172,14 @@ public final class DungeonManager {
 
         scene.getScriptManager().callEvent(new ScriptArgs(groupId, EventType.EVENT_DUNGEON_REWARD_GET));
         return true;
+    }
+
+    private static boolean usesLegacyLostValleyDrops(int dungeonId) {
+        return switch (dungeonId) {
+                // The Lost Valley / Domain of Blessing: Machine Nest I-IV
+            case 5125, 5126, 5127, 5128 -> true;
+            default -> false;
+        };
     }
 
     public boolean handleCost(Player player, boolean useCondensed) {
