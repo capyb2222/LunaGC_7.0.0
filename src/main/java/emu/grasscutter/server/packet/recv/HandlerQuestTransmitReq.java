@@ -17,7 +17,8 @@ public class HandlerQuestTransmitReq extends PacketHandler {
 
         var posAndRot = new ArrayList<Position>();
         boolean result = false;
-        if (mainQuest.hasTeleportPosition(req.getQuestId(), posAndRot)) {
+        // questId is client-supplied; the player may have no such main quest loaded at all.
+        if (mainQuest != null && mainQuest.hasTeleportPosition(req.getQuestId(), posAndRot)) {
             var sceneId =
                     GameData.getTeleportDataMap()
                             .get(req.getQuestId())

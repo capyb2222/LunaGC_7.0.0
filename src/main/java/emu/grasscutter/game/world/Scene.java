@@ -1079,6 +1079,14 @@ public class Scene {
     }
 
     public void unloadGroup(SceneBlock block, int group_id) {
+        // Callers resolve the block via getBlocks().get(...), which yields null for a group whose
+        // block was never loaded (dynamic groups in particular). Nothing below can run without it.
+        if (block == null) {
+            Grasscutter.getLogger()
+                    .debug("unloadGroup: no block for group {} in scene {}", group_id, this.getId());
+            return;
+        }
+
         List<GameEntity> toRemove =
                 this.getEntities().values().stream()
                         .filter(e -> e != null && (e.getBlockId() == block.id && e.getGroupId() == group_id))
@@ -1090,7 +1098,13 @@ public class Scene {
                     new PacketSceneEntityDisappearNotify(toRemove, VisionType.VisionType_VISION_REMOVE));
         }
 
-        var group = block.groups.get(group_id);
+        // block.groups stays null until the block is actually loaded from script.
+        var group = block.groups == null ? null : block.groups.get(group_id);
+        if (group == null) {
+            Grasscutter.getLogger()
+                    .debug("unloadGroup: group {} is not part of block {}", group_id, block.id);
+            return;
+        }
         if (group.triggers != null) {
             group.triggers.values().forEach(getScriptManager()::deregisterTrigger);
         }
@@ -1101,13 +1115,17 @@ public class Scene {
             challenge.fail();
         }
 
-        scriptManager.getLoadedGroupSetPerBlock().get(block.id).remove(group);
-        this.loadedGroups.remove(group);
-
-        if (this.scriptManager.getLoadedGroupSetPerBlock().get(block.id).isEmpty()) {
-            this.scriptManager.getLoadedGroupSetPerBlock().remove(block.id);
-            Grasscutter.getLogger().trace("Scene {} block {} is unloaded.", this.getId(), block.id);
+        // The per-block set is dropped from the map once it empties (below), so a later unload
+        // targeting the same block finds no entry at all.
+        var blockGroups = scriptManager.getLoadedGroupSetPerBlock().get(block.id);
+        if (blockGroups != null) {
+            blockGroups.remove(group);
+            if (blockGroups.isEmpty()) {
+                this.scriptManager.getLoadedGroupSetPerBlock().remove(block.id);
+                Grasscutter.getLogger().trace("Scene {} block {} is unloaded.", this.getId(), block.id);
+            }
         }
+        this.loadedGroups.remove(group);
 
         this.broadcastPacket(new PacketGroupUnloadNotify(List.of(group_id)));
         this.scriptManager.unregisterGroup(group);

@@ -50,6 +50,12 @@ public class GachaSystem extends BaseGameSystem {
     }
 
     public int getRandom(int[] array) {
+        if (array == null || array.length == 0) {
+            // randomRange(0, -1) would reach nextInt(0) and throw. 0 is not a valid item id, so
+            // doPulls() skips the roll instead of aborting a pull the player has already paid for.
+            Grasscutter.getLogger().warn("[Gacha] Tried to roll from an empty item pool.");
+            return 0;
+        }
         return array[randomRange(0, array.length - 1)];
     }
 
