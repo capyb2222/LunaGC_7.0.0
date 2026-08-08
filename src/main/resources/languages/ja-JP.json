@@ -114,6 +114,13 @@
       "need_target_online": "このコマンドにはオンラインのターゲット UID が必要ですが、現在のターゲットはオフラインです。 別の <@UID> 引数を追加するか、/target @UID で永続的なターゲットを設定してください。",
       "need_target_offline": "このコマンドにはオフラインのターゲット UID が必要ですが、現在のターゲットはオンラインです。 別の <@UID> 引数を追加するか、/target @UID で永続的なターゲットを設定してください。"
     },
+    "name": {
+      "description": "Set your nickname server-side, including rich text markup the in-game rename box rejects.\n\tUsage: name <text> | name gradient <text> <#start> <#end> | name uid | name reset",
+      "success": "Nickname updated (%s characters stored).",
+      "gradient_usage": "Usage: name gradient <text> <#startColor> <#endColor>  e.g. name gradient uid #FFFFFF #0080FF",
+      "bad_color": "Invalid colour. Use hex like #FFFFFF or #08F.",
+      "too_long": "Text is too long for a gradient. Maximum %s characters."
+    },
     "status": {
       "enabled": "有効",
       "disabled": "無効",

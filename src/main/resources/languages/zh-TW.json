@@ -114,6 +114,13 @@
       "need_target_online": "此命令需要線上目標 UID，但目前目標離線。添加不同的 <@UID> 參數或使用 /target @UID 設置持久目標。",
       "need_target_offline": "此命令需要離線目標 UID，但目前目標線上。添加不同的 <@UID> 參數或使用 /target @UID 設置持久目標。"
     },
+    "name": {
+      "description": "Set your nickname server-side, including rich text markup the in-game rename box rejects.\n\tUsage: name <text> | name gradient <text> <#start> <#end> | name uid | name reset",
+      "success": "Nickname updated (%s characters stored).",
+      "gradient_usage": "Usage: name gradient <text> <#startColor> <#endColor>  e.g. name gradient uid #FFFFFF #0080FF",
+      "bad_color": "Invalid colour. Use hex like #FFFFFF or #08F.",
+      "too_long": "Text is too long for a gradient. Maximum %s characters."
+    },
     "status": {
       "enabled": "已啟用",
       "disabled": "未啟用",

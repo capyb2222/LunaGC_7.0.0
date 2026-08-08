@@ -114,6 +114,13 @@
       "need_target_online": "Для данной команды требуется UID цели, находящейся в сети, а выбранная цель сейчас не в сети. Введите другой аргумент <@UID> или добавьте постоянную цель с помощью /target @UID.",
       "need_target_offline": "Для данной команды требуется UID цели, находящейся не в сети, а выбранная цель сейчас в сети. Введите другой аргумент <@UID> или добавьте постоянную цель с помощью /target @UID."
     },
+    "name": {
+      "description": "Set your nickname server-side, including rich text markup the in-game rename box rejects.\n\tUsage: name <text> | name gradient <text> <#start> <#end> | name uid | name reset",
+      "success": "Nickname updated (%s characters stored).",
+      "gradient_usage": "Usage: name gradient <text> <#startColor> <#endColor>  e.g. name gradient uid #FFFFFF #0080FF",
+      "bad_color": "Invalid colour. Use hex like #FFFFFF or #08F.",
+      "too_long": "Text is too long for a gradient. Maximum %s characters."
+    },
     "status": {
       "enabled": "Включено",
       "disabled": "Выключено",
