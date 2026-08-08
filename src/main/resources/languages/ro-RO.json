@@ -368,6 +368,20 @@
       "avatar_not_found": "Avatarul %d nu a fost găsit.",
       "description": "Modifică-ți echipa manual."
     },
+    "teapot": {
+      "description": "Manipulați funcțiile oală serenitea. \n\tValori pentru setLevel<1-10> \n\tValori pentru unlockModule<1-4> \n\tValori pentru lockModule<1-4> \n\tValori pentru giveAllFurniture<număr> \n\tValori pentru refreshLimitedShop<none >",
+      "level_range_error": "Nivelul oală Serenitea trebuie să fie între 1 și 10.",
+      "level_success": "Nivelul oală Serenitea setat la %s.",
+      "invalid_param": "Parametru invalid.",
+      "module_sumeru_error": "Modulul Sumeru nu este acceptat momentan.",
+      "module_range_error": "Numărul modulului trebuie să fie între 1 - 4.",
+      "unlock_module_contain_error": "Modulul este deja deblocat.",
+      "unlock_module_success": "Modulul deblocat %s.",
+      "lock_module_in_scene_error": "Modulul activ nu poate fi blocat.",
+      "lock_module_contain_error": "Modulul nu există.",
+      "lock_module_success": "Modulul blocat %s.",
+      "give_furniture_success": "Am dat toată mobila."
+    },
     "teleportAll": {
       "success": "Ai chemat toți jucătorii în locația ta.",
       "error": "Puteți utiliza această comandă numai în modul MP.",
