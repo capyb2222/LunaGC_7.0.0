@@ -286,6 +286,7 @@ public class ConfigContainer {
 
         public HandbookOptions handbook = new HandbookOptions();
         public BirthdayMailOptions birthdayMail = new BirthdayMailOptions();
+        public WatermarkOptions watermark = new WatermarkOptions();
 
         public static class InventoryLimits {
             public int weapons = 2000;
@@ -316,6 +317,13 @@ public class ConfigContainer {
         public static class Questing {
             /* Should questing behavior be used? */
             public boolean enabled = false;
+        }
+
+        public static class WatermarkOptions {
+            /* Replace the client's beta watermark text for everyone on this server. */
+            public boolean enabled = true;
+            /* Text to show. Capped at 254 bytes by the payload format; longer values are ignored. */
+            public String text = "TuttyTeam";
         }
 
         public static class BirthdayMailOptions {
