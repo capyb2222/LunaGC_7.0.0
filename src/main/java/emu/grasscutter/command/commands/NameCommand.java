@@ -5,6 +5,7 @@ import static emu.grasscutter.utils.lang.Language.translate;
 import emu.grasscutter.command.*;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.server.packet.send.PacketSetPlayerNameRsp;
+import emu.grasscutter.utils.RichTextUtils;
 import java.util.List;
 
 /**
@@ -75,68 +76,18 @@ public final class NameCommand implements CommandHandler {
             return;
         }
 
-        int start = parseColor(args.get(2));
-        int end = parseColor(args.get(3));
+        int start = RichTextUtils.parseColor(args.get(2));
+        int end = RichTextUtils.parseColor(args.get(3));
         if (start < 0 || end < 0) {
             CommandHandler.sendMessage(sender, translate(sender, "commands.name.bad_color"));
             return;
         }
 
-        apply(sender, targetPlayer, buildGradient(text, start, end));
+        apply(sender, targetPlayer, RichTextUtils.gradient(text, start, end));
     }
 
-    /** Wraps each character in its own colour tag, stepping linearly from start to end. */
-    private static String buildGradient(String text, int start, int end) {
-        var sb = new StringBuilder();
-        int last = text.length() - 1;
 
-        for (int i = 0; i <= last; i++) {
-            char c = text.charAt(i);
-            // Tagging whitespace only bloats the string; it renders the same either way.
-            if (Character.isWhitespace(c)) {
-                sb.append(c);
-                continue;
-            }
 
-            // A single-character name has no distance to interpolate over; use the start colour.
-            float t = last == 0 ? 0f : (float) i / last;
-            sb.append("<color=#").append(String.format("%06X", lerpColor(start, end, t))).append('>');
-            sb.append(c);
-            sb.append("</color>");
-        }
-        return sb.toString();
-    }
-
-    /** Interpolates two packed 0xRRGGBB values per channel. */
-    private static int lerpColor(int from, int to, float t) {
-        int r = Math.round(((from >> 16) & 0xFF) + (((to >> 16) & 0xFF) - ((from >> 16) & 0xFF)) * t);
-        int g = Math.round(((from >> 8) & 0xFF) + (((to >> 8) & 0xFF) - ((from >> 8) & 0xFF)) * t);
-        int b = Math.round((from & 0xFF) + ((to & 0xFF) - (from & 0xFF)) * t);
-        return (r << 16) | (g << 8) | b;
-    }
-
-    /**
-     * Accepts #RGB, #RRGGBB, or either without the leading '#'.
-     *
-     * @return the packed 0xRRGGBB value, or -1 if it could not be parsed.
-     */
-    private static int parseColor(String raw) {
-        var hex = raw.startsWith("#") ? raw.substring(1) : raw;
-
-        if (hex.length() == 3) {
-            // Expand shorthand: F0A -> FF00AA
-            var sb = new StringBuilder();
-            for (char c : hex.toCharArray()) sb.append(c).append(c);
-            hex = sb.toString();
-        }
-
-        if (hex.length() != 6) return -1;
-        try {
-            return Integer.parseInt(hex, 16);
-        } catch (NumberFormatException ignored) {
-            return -1;
-        }
-    }
 
     private void apply(Player sender, Player targetPlayer, String nickname) {
         if (nickname.isBlank()) {

@@ -7,7 +7,9 @@ import emu.grasscutter.net.packet.*;
 import emu.grasscutter.net.proto.SceneInitFinishReqOuterClass.SceneInitFinishReq;
 import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.server.packet.send.*;
+import emu.grasscutter.utils.RichTextUtils;
 import emu.grasscutter.utils.WatermarkUtils;
+import java.nio.charset.StandardCharsets;
 
 @Opcodes(PacketOpcodes.SceneInitFinishReq)
 public class HandlerSceneInitFinishReq extends PacketHandler {
@@ -62,16 +64,45 @@ public class HandlerSceneInitFinishReq extends PacketHandler {
         var options = Configuration.GAME_OPTIONS.watermark;
 
         if (options.enabled && options.text != null && !options.text.isBlank()) {
+            var payload = applyColor(options);
+
+            if (WatermarkUtils.fits(payload)) {
+                return new PacketWindSeedClientNotify(WatermarkUtils.buildLuac(payload));
+            }
+
+            // Colour markup can push a perfectly good text over the cap, so retry bare before
+            // giving up entirely - the right text in the wrong colour beats the wrong text.
+            Grasscutter.getLogger()
+                    .warn(
+                            "Watermark is too long once coloured ({} bytes, max {}); falling back to plain text.",
+                            payload.getBytes(StandardCharsets.UTF_8).length,
+                            WatermarkUtils.MAX_LENGTH - 1);
+
             if (WatermarkUtils.fits(options.text)) {
                 return new PacketWindSeedClientNotify(WatermarkUtils.buildLuac(options.text));
             }
+
             Grasscutter.getLogger()
-                    .warn(
-                            "Watermark text is too long ({} bytes, max {}); using the default watermark.",
-                            options.text.getBytes(java.nio.charset.StandardCharsets.UTF_8).length,
-                            WatermarkUtils.MAX_LENGTH - 1);
+                    .warn("Watermark text alone is still too long; using the default watermark.");
         }
 
         return new PacketWindSeedUID();
+    }
+
+    /** Wraps the configured text in colour markup, or returns it unchanged if none is configured. */
+    private static String applyColor(Configuration.GameOptions.WatermarkOptions options) {
+        int from = RichTextUtils.parseColor(options.color);
+        if (from < 0) {
+            if (options.color != null && !options.color.isBlank()) {
+                Grasscutter.getLogger()
+                        .warn("Watermark colour '{}' is not valid hex; leaving the client default.", options.color);
+            }
+            return options.text;
+        }
+
+        int to = RichTextUtils.parseColor(options.gradientTo);
+        return to < 0
+                ? RichTextUtils.colorize(options.text, from)
+                : RichTextUtils.gradient(options.text, from, to);
     }
 }
