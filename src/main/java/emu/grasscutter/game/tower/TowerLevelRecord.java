@@ -26,7 +26,7 @@ public class TowerLevelRecord {
     }
 
     public int getLevelStars(int levelId) {
-        return passedLevelMap.get(levelId);
+        return passedLevelMap.getOrDefault(levelId, 0);
     }
 
     public int getStarCount() {

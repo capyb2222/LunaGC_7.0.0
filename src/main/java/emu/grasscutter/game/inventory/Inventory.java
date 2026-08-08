@@ -577,6 +577,8 @@ public class Inventory extends BasePlayerManager implements Iterable<GameItem> {
             return false;
         }
 
+        int countBefore = item.getCount();
+
         if (item.getItemData().isEquip()) {
             item.setCount(0);
         } else {
@@ -598,7 +600,9 @@ public class Inventory extends BasePlayerManager implements Iterable<GameItem> {
         }
 
         // Battle pass trigger
-        int removeCount = Math.min(count, item.getCount());
+        // Must be measured against the count from before the removal, otherwise this reports the
+        // leftover stack size (or a negative number) instead of how many were actually taken.
+        int removeCount = Math.min(count, countBefore);
         this.triggerRemItemEvents(item, removeCount);
 
         // Update in db

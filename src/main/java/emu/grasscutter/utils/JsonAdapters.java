@@ -120,7 +120,7 @@ public interface JsonAdapters {
                 case BEGIN_ARRAY -> {
                     reader.beginArray();
                     val array = new FloatArrayList(3);
-                    while (reader.hasNext()) array.add(reader.nextInt());
+                    while (reader.hasNext()) array.add((float) reader.nextDouble());
                     reader.endArray();
                     return new Position(array);
                 }

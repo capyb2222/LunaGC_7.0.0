@@ -105,7 +105,12 @@ public class GachaSystem extends BaseGameSystem {
             }
             total += weight;
         }
-        int roll = ThreadLocalRandom.current().nextInt((total < cutoff) ? total : cutoff);
+        int bound = Math.min(total, cutoff);
+        if (bound <= 0) {
+            // nextInt() requires a positive bound; nothing is drawable anyway.
+            return 0;
+        }
+        int roll = ThreadLocalRandom.current().nextInt(bound);
         int subTotal = 0;
         for (int i = 0; i < weights.length; i++) {
             subTotal += weights[i];

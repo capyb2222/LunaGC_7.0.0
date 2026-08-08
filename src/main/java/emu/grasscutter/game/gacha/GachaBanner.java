@@ -225,7 +225,7 @@ public class GachaBanner {
                         .setCostItemId(this.costItemId)
                         .setCostItemNum(this.costItemAmount)
                         .setTenCostItemNum(this.costItemAmount10)
-                        .setTenCostItemId(this.costItemId)
+                        .setTenCostItemId(this.costItemId10)
                         .setGachaPrefabPath(this.getPrefabPath())
                         .setGachaPreviewPrefabPath(previewPath)
                         .setGachaProbUrl(details)

@@ -174,7 +174,9 @@ public final class DungeonSystem extends BaseGameSystem {
             player.getTeamManager().checkCurrentAvatarIsAlive(null);
         }
         player.getTowerManager().clearEntry();
-        dungeonManager.setTowerDungeon(false);
+        if (dungeonManager != null) {
+            dungeonManager.setTowerDungeon(false);
+        }
 
         // Transfer player back to world after a small delay.
         // This wait is important for avoiding double teleports,

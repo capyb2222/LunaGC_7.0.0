@@ -165,10 +165,14 @@ public class WorldChallenge {
             return 100;
         }
 
-        var curHp = guardEntity.getFightProperties().get(FightProperty.FIGHT_PROP_CUR_HP.getId());
-        var maxHp = guardEntity.getFightProperties().get(FightProperty.FIGHT_PROP_BASE_HP.getId());
-        int percent = (int) (curHp * 100 / maxHp);
-        return percent;
+        var curHp = guardEntity.getFightProperty(FightProperty.FIGHT_PROP_CUR_HP);
+        var maxHp = guardEntity.getFightProperty(FightProperty.FIGHT_PROP_MAX_HP);
+        if (maxHp <= 0f) {
+            // No usable max hp to scale against - treat the entity as undamaged rather than
+            // reporting 0% and instantly failing the challenge.
+            return 100;
+        }
+        return (int) (curHp * 100 / maxHp);
     }
 
     public void onMonsterDeath(EntityMonster monster) {
