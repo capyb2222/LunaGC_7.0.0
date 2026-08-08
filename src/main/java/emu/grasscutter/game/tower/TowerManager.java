@@ -60,9 +60,11 @@ public class TowerManager extends BasePlayerManager {
     }
 
     public void onBegin() {
+        // onTick() already treats a missing scene challenge as normal; this re-reads it from the
+        // scene rather than using the one that triggered the call, so it can be null here too.
         var challenge = player.getScene().getChallenge();
         inProgress = true;
-        currentTimeLimit = challenge.getTimeLimit();
+        currentTimeLimit = challenge != null ? challenge.getTimeLimit() : 0;
     }
 
     public void onEnd() {
