@@ -1,5 +1,6 @@
 package emu.grasscutter.server.packet.recv;
 
+import emu.grasscutter.game.mail.BirthdayMailSystem;
 import emu.grasscutter.net.packet.*;
 import emu.grasscutter.net.proto.SetPlayerBirthdayReqOuterClass.SetPlayerBirthdayReq;
 import emu.grasscutter.net.proto.SocialDetailOuterClass.SocialDetail;
@@ -28,14 +29,25 @@ public class HandlerSetPlayerBirthdayReq extends PacketHandler {
         }
 
         // Update birthday value
-        session.getPlayer().setBirthday(day, month);
+		var player = session.getPlayer();
 
-        // Save birthday month and day
-        session.getPlayer().save();
-        SocialDetail.Builder detail = session.getPlayer().getSocialDetail();
+		player.setBirthday(day, month);
 
-        session.send(new PacketSetPlayerBirthdayRsp(session.getPlayer()));
-        session.send(new PacketGetPlayerSocialDetailRsp(detail));
+		// Save birthday month and day.
+		player.save();
+
+		SocialDetail.Builder detail = player.getSocialDetail();
+
+		session.send(new PacketSetPlayerBirthdayRsp(player));
+
+		session.send(new PacketGetPlayerSocialDetailRsp(detail));
+		
+		/*
+		 * The player's daily reset may already have happened today.
+		 * Check immediately so selecting today's date does not cause the
+		 * current year's birthday gift to be missed.
+		 */
+		BirthdayMailSystem.checkAndSend(player);
     }
 
     private boolean isValidBirthday(int month, int day) {

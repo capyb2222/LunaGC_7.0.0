@@ -486,5 +486,11 @@
       "lower": "Le plugin %s utilise la version %s de l'API, alors que le serveur utilise la version %s.",
       "outdated": "Le plugin %s utilise une fonction obsolète de l'API."
     }
+  },
+  "mail": {
+    "birthday": {
+      "title": "Happy Birthday!",
+      "content": "Dear %s, wishing you a very happy birthday! Please accept this small gift from all of us. May your year ahead be filled with joy and adventure."
+    }
   }
 }

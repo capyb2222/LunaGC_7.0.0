@@ -487,5 +487,11 @@
       "lower": "Plugin %s is using API version %s, while the server is using API version %s.",
       "outdated": "Plugin %s is using an outdated API method."
     }
+  },
+  "mail": {
+    "birthday": {
+      "title": "Happy Birthday!",
+      "content": "Dear %s, wishing you a very happy birthday! Please accept this small gift from all of us. May your year ahead be filled with joy and adventure."
+    }
   }
 }

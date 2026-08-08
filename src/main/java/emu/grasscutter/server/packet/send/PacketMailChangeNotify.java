@@ -12,21 +12,26 @@ import java.util.*;
 
 public class PacketMailChangeNotify extends BasePacket {
 
-    public PacketMailChangeNotify(Player player, Mail message) {
-        this(
-                player,
-                new ArrayList<Mail>() {
-                    {
-                        add(message);
-                    }
-                });
-    }
+	/*
+	 * A single Mail means a newly received mail.
+	 */
+	public PacketMailChangeNotify(Player player, Mail message) {
+		this(player, Collections.singletonList(message), null);
+	}
 
-    public PacketMailChangeNotify(Player player, List<Mail> mailList) {
-        this(player, mailList, null);
-    }
+	/*
+	 * A List<Mail> is used by read, star and attachment-claim handlers.
+	 * Those are changes to mail already known by the client. 6.7 does not
+	 * distinguish these from new mail on the wire, so no flag is needed.
+	 */
+	public PacketMailChangeNotify(Player player, List<Mail> changedMailList) {
+		this(player, changedMailList, null);
+	}
 
-    public PacketMailChangeNotify(Player player, List<Mail> mailList, List<Integer> delMailIdList) {
+	/*
+	 * Currently used by the deletion path with mailList == null.
+	 */
+	public PacketMailChangeNotify(Player player, List<Mail> mailList, List<Integer> delMailIdList) {
         super(PacketOpcodes.MailChangeNotify);
 
         var proto = MailChangeNotify.newBuilder();
@@ -51,7 +56,7 @@ public class PacketMailChangeNotify extends BasePacket {
                 }
 
                 var mailData = MailData.newBuilder();
-                mailData.setMailId(player.getMailId(message));
+                mailData.setMailId(player.getMailHandler().toClientMailId(player.getMailId(message)));
                 mailData.setMailTextContent(mailTextContent.build());
                 mailData.addAllItemList(mailItems);
                 mailData.setSendTime((int) message.sendTime);
@@ -61,6 +66,8 @@ public class PacketMailChangeNotify extends BasePacket {
                 mailData.setIsAttachmentGot(message.isAttachmentGot);
                 mailData.setCollectStateValue(message.stateValue);
 
+                // 6.6's MailChangeNotify carried new and changed mail in separate repeated fields
+                // (mail_list / change_mail_list). 6.7 only has mail_list, so both go there.
                 proto.addMailList(mailData.build());
             }
         }

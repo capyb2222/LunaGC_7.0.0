@@ -62,26 +62,91 @@ public class MailHandler extends BasePlayerManager {
         return false;
     }
 
-    public void deleteMail(List<Integer> mailList) {
-        List<Integer> sortedMailList = new ArrayList<>();
-        sortedMailList.addAll(mailList);
-        Collections.sort(sortedMailList, Collections.reverseOrder());
+	public void deleteMail(List<Integer> internalIndexes) {
+		/*
+		 * Remove duplicates before deleting. Deleting the same index twice
+		 * could otherwise remove a different mail after the list shifts.
+		 */
+		List<Integer> sortedInternalIndexes =
+				new ArrayList<>(
+						new LinkedHashSet<>(internalIndexes));
 
-        List<Integer> deleted = new ArrayList<>();
+		/*
+		 * Delete from highest index to lowest index so earlier removals do
+		 * not shift the indexes that still need to be processed.
+		 */
+		sortedInternalIndexes.sort(
+				Collections.reverseOrder());
 
-        for (int id : sortedMailList) {
-            if (this.deleteMail(id)) {
-                deleted.add(id);
-            }
-        }
+		List<Integer> deletedClientIds =
+				new ArrayList<>();
 
-        player.getSession().send(new PacketDelMailRsp(player, deleted));
-        player.getSession().send(new PacketMailChangeNotify(player, null, deleted));
-    }
+		for (int internalIndex : sortedInternalIndexes) {
+			/*
+			 * Save the client-visible ID before removing the mail.
+			 */
+			int clientMailId =
+					this.toClientMailId(internalIndex);
 
-    public Mail getMailById(int index) {
-        return this.mail.get(index);
-    }
+			if (this.deleteMail(internalIndex)) {
+				deletedClientIds.add(clientMailId);
+			}
+		}
+
+		player.getSession().send(
+				new PacketDelMailRsp(
+						player,
+						deletedClientIds));
+
+		player.getSession().send(
+				new PacketMailChangeNotify(
+						player,
+						null,
+						deletedClientIds));
+	}
+
+	public Mail getMailById(int index) {
+		if (index < 0 || index >= this.mail.size()) {
+			return null;
+		}
+
+		return this.mail.get(index);
+	}
+	
+	/**
+	 * Converts LunaGC's internal zero-based list index into the positive
+	 * mail ID sent to the client.
+	 *
+	 * Internal index 0 -> client ID 1
+	 * Internal index 1 -> client ID 2
+	 */
+	public int toClientMailId(int internalIndex) {
+		if (internalIndex < 0) {
+			return 0;
+		}
+
+		return internalIndex + 1;
+	}
+
+	/**
+	 * Converts a positive client mail ID back into LunaGC's internal
+	 * zero-based list index.
+	 *
+	 * Client ID 1 -> internal index 0
+	 * Client ID 2 -> internal index 1
+	 *
+	 * Returns -1 when the supplied client ID is invalid.
+	 */
+	public int toInternalMailIndex(int clientMailId) {
+		int internalIndex = clientMailId - 1;
+
+		if (internalIndex < 0
+				|| internalIndex >= this.mail.size()) {
+			return -1;
+		}
+
+		return internalIndex;
+	}
 
     public int getMailIndex(Mail message) {
         return this.mail.indexOf(message);

@@ -486,5 +486,11 @@
       "lower": "外掛程式 %s 使用的 API 版本為 %s，而伺服器使用的 API 版本為 %s。",
       "outdated": "外掛程式 %s 使用了舊版的 API 方法。"
     }
+  },
+  "mail": {
+    "birthday": {
+      "title": "Happy Birthday!",
+      "content": "Dear %s, wishing you a very happy birthday! Please accept this small gift from all of us. May your year ahead be filled with joy and adventure."
+    }
   }
 }

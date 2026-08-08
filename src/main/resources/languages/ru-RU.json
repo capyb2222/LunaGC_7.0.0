@@ -486,5 +486,11 @@
       "lower": "Плагин %s использует версию API %s, однако сервер работает на версии API %s.",
       "outdated": "Плагин %s использует устаревший API метод."
     }
+  },
+  "mail": {
+    "birthday": {
+      "title": "Happy Birthday!",
+      "content": "Dear %s, wishing you a very happy birthday! Please accept this small gift from all of us. May your year ahead be filled with joy and adventure."
+    }
   }
 }
