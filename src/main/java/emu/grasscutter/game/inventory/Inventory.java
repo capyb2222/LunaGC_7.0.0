@@ -138,7 +138,9 @@ public class Inventory extends BasePlayerManager implements Iterable<GameItem> {
     public boolean addItem(GameItem item, ActionReason reason, boolean forceNotify) {
         boolean result = addItem(item);
 
-        if (item.getItemData().getMaterialType() == MaterialType.MATERIAL_AVATAR) {
+        // putItem() bails out on a null itemData, so an unknown item id gets this far with none.
+        var itemData = item.getItemData();
+        if (itemData != null && itemData.getMaterialType() == MaterialType.MATERIAL_AVATAR) {
             getPlayer()
                     .sendPacket(
                             new PacketAddNoGachaAvatarCardNotify(
