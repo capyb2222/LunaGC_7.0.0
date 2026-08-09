@@ -328,7 +328,7 @@ public class ConfigContainer {
             public String color = "#FFFFFF";
             /* Set to fade from "color" to this one across the text. Blank means a flat colour.
              * A gradient costs ~24 bytes per character, so it fits roughly 10 characters. */
-            public String gradientTo = "#0080FF";
+            public String gradientTo = "#00FF80";
             /* CmdId to send the wind seed notify under. 1242 is confirmed correct for 6.7; it is
              * left configurable because it is renumbered every version and finding it again should
              * not need a rebuild. Set to 0 to send nothing at all. */
