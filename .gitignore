@@ -92,3 +92,8 @@ patches/*.patch
 
 # Artifact Signatures
 *.asc
+
+# Upstream resource dumps. Kept locally only as a source when updating
+# LunaGC-Resources; they are not part of the server.
+animegamedata2/
+YuanShenResources/
