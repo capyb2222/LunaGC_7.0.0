@@ -12,6 +12,9 @@ import emu.grasscutter.game.avatar.Avatar;
 import emu.grasscutter.game.inventory.*;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.game.props.*;
+import emu.grasscutter.game.world.*;
+import emu.grasscutter.server.packet.send.PacketAvatarPropNotify;
+import emu.grasscutter.server.packet.send.PacketSceneEntityAppearNotify;
 import java.util.*;
 import java.util.function.BiConsumer;
 import java.util.regex.Pattern;
@@ -58,6 +61,50 @@ public final class GiveCommand implements CommandHandler {
         avatar.recalcStats(true);
         avatar.save();
         return avatar;
+    }
+
+    /**
+     * Applies the given parameters to an avatar the player already owns.
+     *
+     * <p>{@link emu.grasscutter.game.avatar.AvatarStorage#addAvatar} refuses duplicates, so without
+     * this a /give aimed at an owned character reports success and changes nothing. Only the
+     * arguments actually passed are applied: a bare {@code /give <avatar> lv90} must not reset the
+     * character's constellations and talents to the parameter defaults.
+     */
+    private static void updateAvatar(Player player, Avatar avatar, GiveItemParameters param) {
+        if (param.lvlGiven) {
+            avatar.setLevel(param.lvl);
+            avatar.setPromoteLevel(Avatar.getMinPromoteLevel(param.lvl));
+        }
+
+        if (param.skillLevelGiven) {
+            avatar
+                    .getSkillDepot()
+                    .getSkillsAndEnergySkill()
+                    .forEach(id -> avatar.setSkillLevel(id, param.skillLevel));
+        }
+
+        boolean loweredConstellation = false;
+        if (param.constellationGiven) {
+            loweredConstellation = param.constellation < avatar.getCoreProudSkillLevel();
+            avatar.forceConstellationLevel(param.constellation);
+            avatar.recalcConstellations();
+        }
+
+        avatar.recalcStats(true);
+        avatar.save();
+        player.sendPacket(new PacketAvatarPropNotify(avatar));
+
+        // Constellations that were taken away stay on screen until the scene is rebuilt, because
+        // PacketAvatarPropNotify only carries props. Same workaround SetConstCommand uses.
+        if (loweredConstellation) {
+            World world = player.getWorld();
+            Scene scene = player.getScene();
+            Position pos = player.getPosition();
+            world.transferPlayerToScene(player, 1, pos);
+            world.transferPlayerToScene(player, scene.getId(), pos);
+            scene.broadcastPacket(new PacketSceneEntityAppearNotify(player));
+        }
     }
 
     private static void giveAllAvatars(Player player, GiveItemParameters param) {
@@ -394,8 +441,14 @@ public final class GiveCommand implements CommandHandler {
 
             // Check if this is an avatar
             if (param.avatarData != null) {
-                Avatar avatar = makeAvatar(param);
-                targetPlayer.addAvatar(avatar);
+                // param.id may be the short form (1133), so the lookup has to go through the
+                // resolved data rather than what was typed.
+                Avatar owned = targetPlayer.getAvatars().getAvatarById(param.avatarData.getId());
+                if (owned != null) {
+                    updateAvatar(targetPlayer, owned, param);
+                } else {
+                    targetPlayer.addAvatar(makeAvatar(param));
+                }
                 CommandHandler.sendTranslatedMessage(
                         sender, "commands.give.given_avatar", param.id, param.lvl, targetPlayer.getUid());
                 return;
@@ -451,15 +504,39 @@ public final class GiveCommand implements CommandHandler {
 
     private static class GiveItemParameters {
         public int id;
-        @Setter public int lvl = 0;
+        public int lvl = 0;
         @Setter public int amount = 1;
         @Setter public int refinement = 1;
-        @Setter public int constellation = -1;
-        @Setter public int skillLevel = 1;
+        public int constellation = -1;
+        public int skillLevel = 1;
         public int mainPropId = -1;
         public List<Integer> appendPropIdList;
         public ItemData data;
         public AvatarData avatarData;
         public GiveAllType giveAllType = GiveAllType.NONE;
+
+        /**
+         * Whether the user actually passed the argument, as opposed to it holding the default
+         * above. {@link CommandHelpers#parseIntParameters} only calls a setter when that setter's
+         * regex matched an argument, so writing these by hand instead of letting Lombok generate
+         * them is enough to record it. {@link #updateAvatar} needs the distinction to leave
+         * unmentioned properties of an existing avatar alone.
+         */
+        public boolean lvlGiven, constellationGiven, skillLevelGiven;
+
+        public void setLvl(int lvl) {
+            this.lvl = lvl;
+            this.lvlGiven = true;
+        }
+
+        public void setConstellation(int constellation) {
+            this.constellation = constellation;
+            this.constellationGiven = true;
+        }
+
+        public void setSkillLevel(int skillLevel) {
+            this.skillLevel = skillLevel;
+            this.skillLevelGiven = true;
+        }
     }
 }

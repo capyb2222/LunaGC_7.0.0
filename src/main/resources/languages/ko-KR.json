@@ -114,6 +114,13 @@
       "need_target_online": "이 명령어는 온라인 상태인 실행 대상의 UID가 필요하지만, 설정된 대상은 오프라인 상태입니다. 다른 <@UID>인수를 추가하거나 /target @UID로 영구적인 대상을 설정합니다.",
       "need_target_offline": "이 명령어는 오프라인 상태인 실행 대상의 UID가 필요하지만, 설정된 대상은 온라인 상태입니다. 다른 <@UID>인수를 추가하거나 /target @UID로 영구적인 대상을 설정합니다."
     },
+    "name": {
+      "description": "Set your nickname server-side, including rich text markup the in-game rename box rejects.\n\tUsage: name <text> | name gradient <text> <#start> <#end> | name uid | name reset",
+      "success": "Nickname updated (%s characters stored).",
+      "gradient_usage": "Usage: name gradient <text> <#startColor> <#endColor>  e.g. name gradient uid #FFFFFF #0080FF",
+      "bad_color": "Invalid colour. Use hex like #FFFFFF or #08F.",
+      "too_long": "Text is too long for a gradient. Maximum %s characters."
+    },
     "status": {
       "enabled": "활성화됨",
       "disabled": "비활성화됨",

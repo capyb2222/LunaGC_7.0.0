@@ -114,6 +114,13 @@
       "need_target_online": "This command requires an online target UID, but current target is offline. Add a different <@UID> argument or set a persistent target with /target @UID.",
       "need_target_offline": "This command requires an offline target UID, but current target is online. Add a different <@UID> argument or set a persistent target with /target @UID."
     },
+    "name": {
+      "description": "Set your nickname server-side, including rich text markup the in-game rename box rejects.\n\tUsage: name <text> | name gradient <text> <#start> <#end> | name uid | name reset",
+      "success": "Nickname updated (%s characters stored).",
+      "gradient_usage": "Usage: name gradient <text> <#startColor> <#endColor>  e.g. name gradient uid #FFFFFF #0080FF",
+      "bad_color": "Invalid colour. Use hex like #FFFFFF or #08F.",
+      "too_long": "Text is too long for a gradient. Maximum %s characters."
+    },
     "status": {
       "enabled": "Enabled",
       "disabled": "Disabled",

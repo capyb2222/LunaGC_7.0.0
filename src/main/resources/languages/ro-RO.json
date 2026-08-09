@@ -114,6 +114,13 @@
       "need_target_online": "Această comandă necesită un UID țintă online, dar ținta actuală este offline. Adaugă un argument <@UID> diferit sau setați o țintă persistentă cu /target @UID.",
       "need_target_offline": "Această comandă necesită un UID țintă offline, dar ținta actuală este online. Adaugă un argument <@UID> diferit sau setați o țintă persistentă cu /target @UID."
     },
+    "name": {
+      "description": "Set your nickname server-side, including rich text markup the in-game rename box rejects.\n\tUsage: name <text> | name gradient <text> <#start> <#end> | name uid | name reset",
+      "success": "Nickname updated (%s characters stored).",
+      "gradient_usage": "Usage: name gradient <text> <#startColor> <#endColor>  e.g. name gradient uid #FFFFFF #0080FF",
+      "bad_color": "Invalid colour. Use hex like #FFFFFF or #08F.",
+      "too_long": "Text is too long for a gradient. Maximum %s characters."
+    },
     "status": {
       "enabled": "Activat",
       "disabled": "Dezactivat",
