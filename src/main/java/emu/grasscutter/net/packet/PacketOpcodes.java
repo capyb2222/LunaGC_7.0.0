@@ -94,7 +94,12 @@ public final class PacketOpcodes {
     public static final int UnionCmdNotify = 25878;
     public static final int WearEquipReq = 9108;
     public static final int WearEquipRsp = 28929;
-    public static final int WindSeedType1Notify = 28821;
+    // 6.7 renumbered this and the gagful opcode map never covered it, so the old 28821 - not a
+    // CmdId in this version at all - meant the client silently dropped the packet and kept its
+    // default UID watermark. Confirmed live: obf MIJKAOAONHP, and the payload is a bytes field at
+    // number 8, not 6.6's field 11 (see PacketWindSeedClientNotify.encode, which hand-serializes
+    // because the generated WindSeedType1NotifyOuterClass still carries the 6.6 numbering).
+    public static final int WindSeedType1Notify = 1242;
     public static final int WorldDataNotify = 5837;
     public static final int EvtAvatarLockChairReq = 2707;
     public static final int EvtAvatarLockChairRsp = 8502;
