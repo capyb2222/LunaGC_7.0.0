@@ -177,9 +177,16 @@ public final class AbilityManager extends BasePlayerManager {
 
         eventExecutor.submit(
             () -> {
-                if (!handler.execute(ability, action, abilityData, target)) {
+                try {
+                    if (!handler.execute(ability, action, abilityData, target)) {
+                        Grasscutter.getLogger()
+                            .debug("Ability execute action failed for {} at {}.", action.type, ability);
+                    }
+                } catch (Throwable e) {
+                    // submit() parks anything thrown in a Future nobody reads, so an action that
+                    // blew up left no trace at all - the skill just quietly did nothing.
                     Grasscutter.getLogger()
-                        .debug("Ability execute action failed for {} at {}.", action.type, ability);
+                        .error("Ability action {} threw at {}.", action.type, ability, e);
                 }
             });
     }
@@ -233,9 +240,14 @@ public final class AbilityManager extends BasePlayerManager {
 
         eventExecutor.submit(
             () -> {
-                if (!handler.execute(ability, mixinData, abilityData, target)) {
+                try {
+                    if (!handler.execute(ability, mixinData, abilityData, target)) {
+                        Grasscutter.getLogger()
+                            .error("Ability execute action failed for {} at {}.", mixinData.type, ability);
+                    }
+                } catch (Throwable e) {
                     Grasscutter.getLogger()
-                        .error("Ability execute action failed for {} at {}.", mixinData.type, ability);
+                        .error("Ability mixin {} threw at {}.", mixinData.type, ability, e);
                 }
             });
     }
