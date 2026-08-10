@@ -1,5 +1,6 @@
 package emu.grasscutter.data.excels.avatar;
 
+import com.google.gson.annotations.SerializedName;
 import emu.grasscutter.data.*;
 import emu.grasscutter.data.ResourceLoader.AvatarConfig;
 import emu.grasscutter.data.ResourceType.LoadPriority;
@@ -24,8 +25,19 @@ public class AvatarSkillDepotData extends GameResource {
     private List<Integer> subSkills;
     private List<String> extraAbilities;
     private List<Integer> talents;
+
+    // The obfuscated key for these two rotates every version, and the shipped resources are a mix of
+    // dumps (most rows are 6.6-era, the newest avatars come from a later one), so accept every key
+    // we have seen rather than a single name.
+    @SerializedName(
+            value = "inherentProudSkillOpens",
+            alternate = {"BOIOJNENKHP"})
     private List<InherentProudSkillOpens> inherentProudSkillOpens;
-    private List<SpecialProudSkillOpens> DAEIJGCFNLL;
+
+    @SerializedName(
+            value = "specialProudSkillOpens",
+            alternate = {"DAEIJGCFNLL", "NMKACHALCPO", "EIBOFEEGGID"})
+    private List<SpecialProudSkillOpens> specialProudSkillOpens;
 
     private String talentStarName;
     private String skillDepotAbilityGroup;
@@ -65,9 +77,15 @@ public class AvatarSkillDepotData extends GameResource {
             }
         }
 
-        this.questProudSkillGroupIds = (this.DAEIJGCFNLL == null) ? IntLists.EMPTY_LIST :
+        // A resource set whose obfuscated key we do not know leaves these null; callers iterate them
+        // unconditionally, so normalise here instead of NPEing on the first avatar handed out.
+        if (this.inherentProudSkillOpens == null) {
+            this.inherentProudSkillOpens = List.of();
+        }
+
+        this.questProudSkillGroupIds = (this.specialProudSkillOpens == null) ? IntLists.EMPTY_LIST :
             new IntArrayList(
-                this.DAEIJGCFNLL.stream()
+                this.specialProudSkillOpens.stream()
                     .mapToInt(SpecialProudSkillOpens::getProudSkillGroupId)
                     .filter(id -> id > 0)
                     .toArray());
@@ -88,6 +106,10 @@ public class AvatarSkillDepotData extends GameResource {
     @Getter
     public static class InherentProudSkillOpens {
         private int proudSkillGroupId;
+
+        @SerializedName(
+                value = "needAvatarPromoteLevel",
+                alternate = {"CCHNLJKDDKI"})
         private int needAvatarPromoteLevel;
     }
 
