@@ -352,9 +352,13 @@ public final class GiveCommand implements CommandHandler {
                 try {
                     param.id = Integer.parseInt(id);
                 } catch (NumberFormatException e) {
-                    // TODO: Parse from item name using GM Handbook.
-                    CommandHandler.sendTranslatedMessage(sender, "commands.generic.invalid.itemId");
-                    throw e;
+                    // Not a number, so read it as a name - and keep taking words while they still
+                    // spell one, since "crystalline sword" arrives as two arguments.
+                    param.id = NameIndex.resolve(id, args);
+                    if (param.id == 0) {
+                        CommandHandler.sendTranslatedMessage(sender, "commands.generic.invalid.itemId");
+                        throw e;
+                    }
                 }
                 param.data = GameData.getItemDataMap().get(param.id);
                 if ((param.id > 10_000_000) && (param.id < 12_000_000))
