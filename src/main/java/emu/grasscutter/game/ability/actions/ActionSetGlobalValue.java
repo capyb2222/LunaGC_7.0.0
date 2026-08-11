@@ -15,16 +15,7 @@ public final class ActionSetGlobalValue extends AbilityActionHandler {
     @Override
     public boolean execute(
             Ability ability, AbilityModifierAction action, ByteString abilityData, GameEntity target) {
-                var owner = ability.getOwner();
-                var properties = new Object2FloatOpenHashMap<String>();
-
-                for (var property : FightProperty.values()) {
-                    var name = property.name();
-                    var value = owner.getFightProperty(property);
-                    properties.put(name, value);
-                }
-
-                properties.putAll(ability.getAbilitySpecials());
+                var properties = propertiesFor(ability);
 
                 var valueKey = action.key;
                 float computedValue = action.writtenValue().get(properties, 0f);

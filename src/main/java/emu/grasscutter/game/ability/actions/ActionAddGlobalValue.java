@@ -24,17 +24,7 @@ public final class ActionAddGlobalValue extends AbilityActionHandler {
             List<Map<String, Object>> preds = (List<Map<String, Object>>) (List<?>) action.predicates;
             if (!PredicateEvaluator.all(preds, ability, ability.getOwner(), target, action)) return true;
         }
-        var owner = ability.getOwner();
-        var properties = new Object2FloatOpenHashMap<String>();
-
-        for (var property : FightProperty.values()) {
-  
-   var name = property.name();
-            var value = owner.getFightProperty(property);
-            properties.put(name, value);
-        }
-
-        properties.putAll(ability.getAbilitySpecials());
+        var properties = propertiesFor(ability);
         String valueKey = action.key;
         float valueToAdd = action.ratio.get(properties, 0f);
         float maxValue = action.maxValue.get(properties, 0f);
