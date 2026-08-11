@@ -9,6 +9,8 @@ import emu.grasscutter.net.packet.*;
 import emu.grasscutter.server.event.game.ReceivePacketEvent;
 import emu.grasscutter.server.game.GameSession.SessionState;
 import it.unimi.dsi.fastutil.ints.*;
+import java.util.Set;
+import java.util.concurrent.ConcurrentHashMap;
 public final class GameServerPacketHandler {
 
     private final Int2ObjectMap<PacketHandler> handlers;
@@ -79,13 +81,34 @@ public final class GameServerPacketHandler {
                 event.call();
                 if (!event.isCanceled())
                 handler.handle(session, header, event.getPacketData());
-            } catch (Exception ex) {
-
-                ex.printStackTrace();
+            } catch (Throwable ex) {
+                // Printed to the console it never reached the log file, so an action that quietly did
+                // nothing left nothing behind to explain it. Throwable rather than Exception because
+                // one malformed packet should not be able to take a player's connection with it.
+                Grasscutter.getLogger()
+                        .error(
+                                "{} threw while handling {} for {}.",
+                                handler.getClass().getSimpleName(),
+                                PacketOpcodesUtils.getOpcodeName(opcode),
+                                session.getPlayer() != null ? session.getPlayer().getUid() : "an unlogged session",
+                                ex);
             }
             return;
         }
+
+        // Nothing answers this one. The player sees their action do nothing, so say so once per
+        // opcode rather than leaving it to be guessed at.
+        if (unannounced.add(opcode)) {
+            Grasscutter.getLogger()
+                    .debug(
+                            "No handler for {} ({}), so nothing answers it.",
+                            PacketOpcodesUtils.getOpcodeName(opcode),
+                            opcode);
+        }
     }
+
+    /** Opcodes already reported as unhandled, so the log says it once rather than every packet. */
+    private final Set<Integer> unannounced = ConcurrentHashMap.newKeySet();
 
     private static boolean shouldDump(GameSession session, int opcode) {
         if (PacketOpcodes.BANNED_PACKETS.contains(opcode)) return false;
