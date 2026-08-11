@@ -353,8 +353,11 @@ public final class GiveCommand implements CommandHandler {
                     param.id = Integer.parseInt(id);
                 } catch (NumberFormatException e) {
                     // Not a number, so read it as a name - and keep taking words while they still
-                    // spell one, since "crystalline sword" arrives as two arguments.
-                    param.id = NameIndex.resolve(id, args);
+                    // spell one, since "crystalline sword" arrives as two arguments. An artifact
+                    // asked for by set and slot is tried first: it is the more specific reading, and
+                    // several set names are also the name of a namecard.
+                    param.id = NameIndex.resolveRelic(id, args);
+                    if (param.id == 0) param.id = NameIndex.resolve(id, args);
                     if (param.id == 0) {
                         CommandHandler.sendTranslatedMessage(sender, "commands.generic.invalid.itemId");
                         throw e;
