@@ -13,7 +13,7 @@ public final class ActionSetAnimatorBool extends AbilityActionHandler {
     public boolean execute(
             Ability ability, AbilityModifierAction action, ByteString abilityData, GameEntity target) {
         if (action.animatorParamName == null || target.getScene() == null) return true;
-        boolean val = action.ratio.get(ability, 0f) != 0f;
+        boolean val = action.writtenValue().get(ability, 0f) != 0f;
         ActionSetAnimatorTrigger.broadcastAnimatorParam(target, action.animatorParamName, BOOL_TYPE, val);
         return true;
     }
