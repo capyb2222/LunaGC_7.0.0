@@ -3,6 +3,8 @@ package emu.grasscutter.command.commands;
 import static emu.grasscutter.config.Configuration.GAME_OPTIONS;
 
 import emu.grasscutter.command.*;
+import emu.grasscutter.data.GameData;
+import emu.grasscutter.data.NameIndex;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.server.packet.send.PacketChangeMpTeamAvatarRsp;
 import java.util.*;
@@ -48,11 +50,34 @@ public final class TeamCommand implements CommandHandler {
                                 targetPlayer, targetPlayer.getTeamManager().getCurrentTeamInfo()));
     }
 
+    private static boolean isNumber(String text) {
+        try {
+            Integer.parseInt(text);
+            return true;
+        } catch (NumberFormatException e) {
+            return false;
+        }
+    }
+
     private boolean addCommand(Player sender, Player targetPlayer, List<String> args) {
         if (args.size() < 2) {
             CommandHandler.sendTranslatedMessage(sender, "commands.team.invalid_usage");
             sendUsageMessage(sender);
             return false;
+        }
+
+        // A character can be asked for by name, and a name can run to several words - settle that
+        // before the slot number below is read, or "hu tao 2" would take "tao" for the slot.
+        var typed = args.get(1);
+        if (!typed.contains(",") && !isNumber(typed)) {
+            var rest = new ArrayList<>(args.subList(2, args.size()));
+            var before = rest.size();
+            var named = NameIndex.resolve(typed, rest);
+
+            if (GameData.getAvatarDataMap().containsKey(named)) {
+                for (var i = before - rest.size(); i > 0; i--) args.remove(2);
+                args.set(1, String.valueOf(named));
+            }
         }
 
         int index = -1;
@@ -76,7 +101,20 @@ public final class TeamCommand implements CommandHandler {
         }
 
         for (var avatarId : avatarIds) {
-            int id = Integer.parseInt(avatarId);
+            int id;
+            if (isNumber(avatarId)) {
+                // Short forms like 3 are still meant here; addAvatar raises them itself.
+                id = Integer.parseInt(avatarId);
+            } else {
+                id = NameIndex.resolve(avatarId, new ArrayList<>());
+                if (!GameData.getAvatarDataMap().containsKey(id)) {
+                    // Not a number and not a name either - say so rather than throwing out of the loop.
+                    CommandHandler.sendTranslatedMessage(
+                            sender, "commands.team.failed_to_add_avatar", avatarId);
+                    continue;
+                }
+            }
+
             if (!addAvatar(sender, targetPlayer, id, index))
                 CommandHandler.sendTranslatedMessage(
                         sender, "commands.team.failed_to_add_avatar", avatarId);
