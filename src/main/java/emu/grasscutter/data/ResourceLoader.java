@@ -781,10 +781,23 @@ public final class ResourceLoader {
                         }
                     });
 
-            Grasscutter.getLogger()
-                    .debug("Loaded {} {} entries.", GameData.getMonsterConfigData().size(), className);
+            reportConfigLoad(className, folderPath, targetMap.size());
         } catch (IOException e) {
             Grasscutter.getLogger().error("Failed to load {} folder.", className);
+        }
+    }
+
+    /**
+     * A config folder that yields nothing is a resource gap worth hearing about.
+     *
+     * <p>Every newer character's gadget configs were missing for months and nothing said a word -
+     * their summons just stood there with no abilities and no combat state.
+     */
+    private static void reportConfigLoad(String className, String folderPath, int loaded) {
+        if (loaded > 0) {
+            Grasscutter.getLogger().debug("Loaded {} {} entries from {}.", loaded, className, folderPath);
+        } else {
+            Grasscutter.getLogger().warn("No {} entries in {} - is the folder there?", className, folderPath);
         }
     }
 
@@ -802,8 +815,7 @@ public final class ResourceLoader {
                         }
                     });
 
-            Grasscutter.getLogger()
-                    .debug("Loaded {} {} entries.", GameData.getMonsterConfigData().size(), className);
+            reportConfigLoad(className, folderPath, targetMap.size());
         } catch (IOException e) {
             Grasscutter.getLogger().error("Failed to load {} folder.", className);
         }
