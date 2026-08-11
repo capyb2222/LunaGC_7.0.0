@@ -3,7 +3,9 @@ package emu.grasscutter.data;
 import emu.grasscutter.game.inventory.EquipType;
 import emu.grasscutter.game.inventory.ItemType;
 import emu.grasscutter.utils.lang.Language;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
@@ -102,6 +104,33 @@ public final class NameIndex {
 
         var name = nameOf(id);
         return name == null || name.isBlank() ? String.valueOf(id) : name + " (" + id + ")";
+    }
+
+    /**
+     * Everything whose name contains the given text, as "Name (id)".
+     *
+     * <p>For finding an id without leaving the game - the handbook this server would otherwise send
+     * you to is not built into the jar.
+     */
+    public static List<String> search(String query, int limit) {
+        build();
+
+        var needle = normalise(query);
+        if (needle.isEmpty()) return List.of();
+
+        var found = new ArrayList<String>();
+        var seen = new HashSet<Integer>();
+
+        for (var index : List.of(THINGS, ENTITIES)) {
+            for (var entry : index.byName.entrySet()) {
+                if (!entry.getKey().contains(needle) || !seen.add(entry.getValue())) continue;
+
+                found.add(describe(entry.getValue()));
+                if (found.size() >= limit) return found;
+            }
+        }
+
+        return found;
     }
 
     private static String nameOf(int id) {
