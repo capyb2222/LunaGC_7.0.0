@@ -92,6 +92,37 @@ public final class NameIndex {
     }
 
     /**
+     * How to write an id in a message people read: "Gladiator's Nostalgia (23414)".
+     *
+     * <p>Falls back to the bare id for anything unnamed, so a message never loses information by
+     * asking for this.
+     */
+    public static String describe(int id) {
+        build();
+
+        var name = nameOf(id);
+        return name == null || name.isBlank() ? String.valueOf(id) : name + " (" + id + ")";
+    }
+
+    private static String nameOf(int id) {
+        var item = GameData.getItemDataMap().get(id);
+        if (item != null) return text(item.getNameTextMapHash());
+
+        var avatar = GameData.getAvatarDataMap().get(id);
+        if (avatar != null) return text(avatar.getNameTextMapHash());
+
+        var monster = GameData.getMonsterDataMap().get(id);
+        if (monster != null) {
+            var describe = GameData.getMonsterDescribeDataMap().get(monster.getDescribeId());
+            var named = describe == null ? null : text(describe.getNameTextMapHash());
+            return named != null ? named : monster.getMonsterName();
+        }
+
+        var gadget = GameData.getGadgetDataMap().get(id);
+        return gadget == null ? null : gadget.getJsonName();
+    }
+
+    /**
      * The piece of a set that fills one slot: the highest rarity it was made in, and among those the
      * lowest id.
      *

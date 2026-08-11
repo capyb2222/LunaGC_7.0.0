@@ -457,7 +457,11 @@ public final class GiveCommand implements CommandHandler {
                     targetPlayer.addAvatar(makeAvatar(param));
                 }
                 CommandHandler.sendTranslatedMessage(
-                        sender, "commands.give.given_avatar", param.id, param.lvl, targetPlayer.getUid());
+                        sender,
+                        "commands.give.given_avatar",
+                        NameIndex.describe(param.id),
+                        param.lvl,
+                        targetPlayer.getUid());
                 return;
             }
             // If it's not an avatar, it needs to be a valid item
@@ -474,7 +478,7 @@ public final class GiveCommand implements CommandHandler {
                     CommandHandler.sendTranslatedMessage(
                             sender,
                             "commands.give.given_with_level_and_refinement",
-                            param.id,
+                            NameIndex.describe(param.id),
                             param.lvl,
                             param.refinement,
                             param.amount,
@@ -485,7 +489,7 @@ public final class GiveCommand implements CommandHandler {
                     CommandHandler.sendTranslatedMessage(
                             sender,
                             "commands.give.given_level",
-                            param.id,
+                            NameIndex.describe(param.id),
                             param.lvl,
                             param.amount,
                             targetPlayer.getUid());
@@ -495,7 +499,11 @@ public final class GiveCommand implements CommandHandler {
                             .getInventory()
                             .addItem(new GameItem(param.data, param.amount), ActionReason.SubfieldDrop);
                     CommandHandler.sendTranslatedMessage(
-                            sender, "commands.give.given", param.amount, param.id, targetPlayer.getUid());
+                            sender,
+                            "commands.give.given",
+                            param.amount,
+                            NameIndex.describe(param.id),
+                            targetPlayer.getUid());
             }
         } catch (IllegalArgumentException ignored) {
         }

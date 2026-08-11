@@ -149,7 +149,7 @@ public final class SpawnCommand implements CommandHandler {
             param.scene.addEntity(entity);
         }
         CommandHandler.sendMessage(
-                sender, translate(sender, "commands.spawn.success", param.amount, param.id));
+                sender, translate(sender, "commands.spawn.success", param.amount, NameIndex.describe(param.id)));
     }
 
     private EntityItem createItem(ItemData itemData, SpawnParameters param, Position pos) {
