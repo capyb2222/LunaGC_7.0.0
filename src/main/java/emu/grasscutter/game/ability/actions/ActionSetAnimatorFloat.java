@@ -13,7 +13,7 @@ public final class ActionSetAnimatorFloat extends AbilityActionHandler {
     public boolean execute(
             Ability ability, AbilityModifierAction action, ByteString abilityData, GameEntity target) {
         if (action.animatorParamName == null || target.getScene() == null) return true;
-        float val = action.ratio.get(ability, 0f);
+        float val = action.writtenValue().get(ability, 0f);
         ActionSetAnimatorTrigger.broadcastAnimatorParamFloat(target, action.animatorParamName, FLOAT_TYPE, val);
         return true;
     }

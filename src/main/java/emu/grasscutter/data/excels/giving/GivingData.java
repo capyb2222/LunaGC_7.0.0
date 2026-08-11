@@ -27,6 +27,7 @@ public final class GivingData extends GameResource {
     private int givingGroupCount;
 
     private boolean isRemoveItem;
+    @SerializedName(value = "givingType", alternate = "giveType")
     private GiveType giveType;
 
     public enum GiveMethod {
@@ -43,6 +44,8 @@ public final class GivingData extends GameResource {
         @SerializedName("GIVING_TYPE_QUEST")
         QUEST,
         @SerializedName("GIVING_TYPE_GROUP")
-        GROUP
+        GROUP,
+        @SerializedName("GIVING_TYPE_GADGET")
+        GADGET
     }
 }

@@ -109,7 +109,11 @@ public class EntityGadget extends EntityBaseGadget {
         // That doesn't have a level and defaults to having 5000 hp, so it dies in like 2 hits on 11-1.
         // I'll forgive player skill issues and scale its hp up here.
         // TODO: find out how its fight props are actually scaled
-        if (gadgetData.getJsonName().equals("SceneObj_Gear_Operator_Mamolu_Entity")) {
+        // A gadget the resources don't know (an ability summoning one from a newer dump, say) has no
+        // data at all, and this used to NPE the constructor - silently, since ability actions run on
+        // an executor whose Future nobody reads - so the summon never appeared.
+        if (gadgetData != null
+                && "SceneObj_Gear_Operator_Mamolu_Entity".equals(gadgetData.getJsonName())) {
             MonsterCurveData curve = GameData.getMonsterCurveDataMap().get(11);
             if (curve != null) {
                 FightProperty[] hpProps = {

@@ -257,8 +257,55 @@ public enum FightProperty {
         return stringMap.getOrDefault(name, FIGHT_PROP_NONE);
     }
 
+    /** Spellings people reach for that are not short at all, and one letter off the short ones. */
+    private static final Map<String, FightProperty> spellings =
+            Map.ofEntries(
+                    entry("critrate", FIGHT_PROP_CRITICAL),
+                    entry("critdmg", FIGHT_PROP_CRITICAL_HURT),
+                    entry("critdamage", FIGHT_PROP_CRITICAL_HURT),
+                    entry("crithurt", FIGHT_PROP_CRITICAL_HURT),
+                    entry("energyrecharge", FIGHT_PROP_CHARGE_EFFICIENCY),
+                    entry("recharge", FIGHT_PROP_CHARGE_EFFICIENCY),
+                    entry("elementalmastery", FIGHT_PROP_ELEMENT_MASTERY),
+                    entry("elemmastery", FIGHT_PROP_ELEMENT_MASTERY),
+                    entry("mastery", FIGHT_PROP_ELEMENT_MASTERY),
+                    entry("healingbonus", FIGHT_PROP_HEAL_ADD),
+                    entry("healbonus", FIGHT_PROP_HEAL_ADD),
+                    entry("attack", FIGHT_PROP_ATTACK),
+                    entry("defense", FIGHT_PROP_DEFENSE),
+                    entry("defence", FIGHT_PROP_DEFENSE),
+                    entry("health", FIGHT_PROP_HP),
+                    entry("physical", FIGHT_PROP_PHYSICAL_ADD_HURT));
+
+    /**
+     * Reads a stat the way it was typed rather than the way it is spelled here.
+     *
+     * <p>Case, spaces and underscores are ignored, "percent" and a trailing "p" both mean "%", and a
+     * bare element means that element's damage bonus - so CR, atkp, ATK_PERCENT and pyro all land
+     * where they were meant to. Only ever finds MORE than the exact table did.
+     */
     public static FightProperty getPropByShortName(String name) {
-        return shortNameMap.getOrDefault(name, FIGHT_PROP_NONE);
+        if (name == null) return FIGHT_PROP_NONE;
+
+        var key =
+                name.toLowerCase(Locale.ROOT)
+                        .replace("_", "")
+                        .replace(" ", "")
+                        .replace("-", "")
+                        .replace("percent", "%");
+
+        var exact = shortNameMap.get(key);
+        if (exact != null) return exact;
+
+        if (key.endsWith("p")) {
+            var trailing = shortNameMap.get(key.substring(0, key.length() - 1) + "%");
+            if (trailing != null) return trailing;
+        }
+
+        var implied = shortNameMap.get(key + "%");
+        if (implied != null) return implied;
+
+        return spellings.getOrDefault(key, FIGHT_PROP_NONE);
     }
 
     public static Set<String> getShortNames() {

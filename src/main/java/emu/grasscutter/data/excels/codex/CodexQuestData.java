@@ -1,9 +1,11 @@
 package emu.grasscutter.data.excels.codex;
 
+import com.google.gson.annotations.SerializedName;
 import emu.grasscutter.data.*;
 
 @ResourceType(name = {"QuestCodexExcelConfigData.json"})
 public class CodexQuestData extends GameResource {
+    @SerializedName(value = "id", alternate = "Id")
     private int Id;
     private int parentQuestId;
     private int chapterId;

@@ -39,6 +39,36 @@ public class ScriptLoader {
     private static final AtomicReference<Bindings> currentBindings = new AtomicReference<>(null);
     private static final AtomicReference<ScriptContext> currentContext = new AtomicReference<>(null);
 
+    /** How many scripts have gone missing under each folder, so far this run. */
+    private static final Map<String, Integer> missingScripts = new ConcurrentHashMap<>();
+
+    /**
+     * Reports a script that is not on disk.
+     *
+     * <p>A scene whose group scripts were never shipped asks for hundreds of them, on every single
+     * load, and one error line each buried everything else in the log. The first miss in a folder
+     * says what is wrong; the rest repeat it, so they go to debug.
+     */
+    private static void reportMissingScript(String path) {
+        var cut = Math.max(path.lastIndexOf('/'), path.lastIndexOf('\\'));
+        var folder = cut > 0 ? path.substring(0, cut) : path;
+
+        if (missingScripts.merge(folder, 1, Integer::sum) == 1) {
+            Grasscutter.getLogger()
+                    .warn(
+                            "Could not find script at path {} - further misses under {} are logged at debug.",
+                            path,
+                            folder);
+        } else {
+            Grasscutter.getLogger().debug("Could not find script at path {}", path);
+        }
+    }
+
+    /** How many scripts are missing, by folder - {@code /reload} and friends can report it. */
+    public static Map<String, Integer> getMissingScripts() {
+        return Collections.unmodifiableMap(missingScripts);
+    }
+
     /** Initializes the script engine. */
     public static synchronized void init() throws Exception {
         if (sm != null) {
@@ -192,7 +222,7 @@ public class ScriptLoader {
         // Attempt to load the script.
         var scriptPath = useAbsPath ? Paths.get(path) : FileUtils.getScriptPath(path);
         if (!Files.exists(scriptPath)) {
-            Grasscutter.getLogger().error("Could not find script at path {}", path);
+            reportMissingScript(path);
             return null;
         }
 
@@ -238,7 +268,7 @@ public class ScriptLoader {
                 // Attempt to load the script.
                 var scriptPath = useAbsPath ? Paths.get(path) : FileUtils.getScriptPath(path);
                 if (!Files.exists(scriptPath)) {
-                    Grasscutter.getLogger().error("Could not find script at path {}", path);
+                    reportMissingScript(path);
                     return null;
                 }
 

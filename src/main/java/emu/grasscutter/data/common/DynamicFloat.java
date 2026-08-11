@@ -25,9 +25,16 @@ public class DynamicFloat {
         this.ops = List.of(new StackOp(key));
     }
 
+    /**
+     * A written boolean is just one or zero.
+     *
+     * <p>This used to hand the String constructor "true", which reads any unrecognised word as the
+     * name of a property to look up - so every {@code "value": true} in the ability configs resolved
+     * against a map that has no such key and came out as 0. All 429 animator bools that ship with a
+     * value were being broadcast false.
+     */
     public DynamicFloat(boolean b) {
-        this.dynamic = true;
-        this.ops = List.of(new StackOp(String.valueOf(b)));
+        this.constant = b ? 1f : 0f;
     }
 
     public DynamicFloat(List<StackOp> ops) {
@@ -74,7 +81,9 @@ public class DynamicFloat {
                         -fl.popFloat() + fl.popFloat()); // [f0, f1, f2] -> [f0, f1-f2]  (opposite of RPN order)
                 case MUL -> fl.push(fl.popFloat() * fl.popFloat());
                 case DIV -> fl.push((1f / fl.popFloat()) * fl.popFloat()); // [f0, f1, f2] -> [f0, f1/f2]
-                case NEXBOOLEAN -> fl.push(props.getOrDefault(Optional.of(op.bValue), 0f));
+                // Keyed by an Optional<Boolean> against a map of String, this could only ever
+                // miss and push the default. A boolean in an op list is worth one or zero.
+                case NEXBOOLEAN -> fl.push(op.bValue ? 1f : 0f);
             }
         }
 

@@ -13,7 +13,7 @@ public final class ActionSetAnimatorInt extends AbilityActionHandler {
     public boolean execute(
             Ability ability, AbilityModifierAction action, ByteString abilityData, GameEntity target) {
         if (action.animatorParamName == null || target.getScene() == null) return true;
-        int val = (int) action.ratio.get(ability, 0f);
+        int val = (int) action.writtenValue().get(ability, 0f);
         ActionSetAnimatorTrigger.broadcastAnimatorParamInt(target, action.animatorParamName, INT_TYPE, val);
         return true;
     }

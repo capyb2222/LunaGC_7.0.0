@@ -88,6 +88,18 @@ public final class GameData {
             new Int2ObjectOpenHashMap<>();
 
     @Getter
+    private static final Int2ObjectMap<emu.grasscutter.data.excels.DailyTaskData> dailyTaskDataMap =
+            new Int2ObjectOpenHashMap<>();
+
+    @Getter
+    private static final Int2ObjectMap<emu.grasscutter.data.excels.DailyTaskLevelData> dailyTaskLevelDataMap =
+            new Int2ObjectOpenHashMap<>();
+
+    @Getter
+    private static final Int2ObjectMap<emu.grasscutter.data.excels.DailyTaskRewardData> dailyTaskRewardDataMap =
+            new Int2ObjectOpenHashMap<>();
+
+    @Getter
     private static final Int2ObjectMap<DungeonPassConfigData> dungeonPassConfigDataMap =
             new Int2ObjectOpenHashMap<>();
 

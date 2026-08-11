@@ -152,6 +152,7 @@ public class Player implements PlayerHook, FieldFetch {
     @Getter private transient DeforestationManager deforestationManager;
     @Getter private transient FurnitureManager furnitureManager;
     @Getter private transient BattlePassManager battlePassManager;
+    @Getter private transient emu.grasscutter.game.dailytask.DailyTaskManager dailyTaskManager;
     @Getter private transient CookingManager cookingManager;
     @Getter private transient CookingCompoundManager cookingCompoundManager;
     @Getter private transient ActivityManager activityManager;
@@ -1158,6 +1159,12 @@ public class Player implements PlayerHook, FieldFetch {
             .build();
     }
 
+    /** Loaded the same way the battle pass is, since both are per player and persisted. */
+    public void loadDailyTaskManager() {
+        if (this.dailyTaskManager != null) return;
+        this.dailyTaskManager = DatabaseHelper.loadDailyTaskManager(this);
+    }
+
     public void loadBattlePassManager() {
         if (this.battlePassManager != null) return;
         this.battlePassManager = DatabaseHelper.loadBattlePass(this);
@@ -1281,6 +1288,12 @@ public class Player implements PlayerHook, FieldFetch {
 
         BirthdayMailSystem.checkAndSend(this, currentDate);
 
+        if (this.dailyTaskManager != null) {
+            // Asked, not forced: the commissions keep their own record of which day they belong to,
+            // and only draw a new set when the one they are holding is genuinely from an older one.
+            this.dailyTaskManager.resetDailyTasksForNewDay();
+        }
+
         this.setLastDailyReset(currentTime);
     }
 
@@ -1322,6 +1335,11 @@ public class Player implements PlayerHook, FieldFetch {
         runner.submit(this.getQuestManager()::loadFromDatabase);
 
         runner.submit(this::loadBattlePassManager);
+        runner.submit(
+                () -> {
+                    this.loadDailyTaskManager();
+                    this.dailyTaskManager.onPlayerLogin();
+                });
 
         Utils.waitFor(() ->
             this.getAvatars().isLoaded() &&

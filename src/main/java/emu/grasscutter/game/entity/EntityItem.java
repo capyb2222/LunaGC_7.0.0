@@ -19,10 +19,12 @@ import emu.grasscutter.net.proto.ProtEntityTypeOuterClass.ProtEntityType;
 import emu.grasscutter.net.proto.SceneEntityAiInfoOuterClass.SceneEntityAiInfo;
 import emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo;
 import emu.grasscutter.net.proto.SceneGadgetInfoOuterClass.SceneGadgetInfo;
+import emu.grasscutter.net.proto.TrifleGadgetOuterClass.TrifleGadget;
 import emu.grasscutter.net.proto.VectorOuterClass.Vector;
 import emu.grasscutter.server.packet.send.PacketGadgetInteractRsp;
 import emu.grasscutter.utils.helpers.ProtoHelper;
 import it.unimi.dsi.fastutil.ints.Int2FloatMap;
+import it.unimi.dsi.fastutil.ints.Int2FloatOpenHashMap;
 import lombok.Getter;
 
 public class EntityItem extends EntityBaseGadget {
@@ -78,10 +80,16 @@ public class EntityItem extends EntityBaseGadget {
         return this.getItemData().getGadgetId();
     }
 
+    /**
+     * Nothing fights this entity, but an ability attached to one reads the whole FightProperty set
+     * off its owner, and a null threw right through the action instead of reading zeroes.
+     */
     @Override
     public Int2FloatMap getFightProperties() {
-        return null;
+        return this.fightProperties;
     }
+
+    private final Int2FloatMap fightProperties = new Int2FloatOpenHashMap();
 
     @Override
     public void onInteract(Player player, GadgetInteractReq interactReq) {
@@ -93,19 +101,22 @@ public class EntityItem extends EntityBaseGadget {
             }
         }
 
-        this.getScene().removeEntity(this);
         GameItem item = new GameItem(this.getItemData(), this.getCount());
 
-        // Add to inventory
-        boolean success = player.getInventory().addItem(item, ActionReason.SubfieldDrop);
-        if (success) {
-            if (!this.isShare()) { // not shared drop
-                player.sendPacket(new PacketGadgetInteractRsp(this, InteractType.InteractType_INTERACT_PICK_ITEM));
-            } else {
-                this.getScene()
-                        .broadcastPacket(
-                                new PacketGadgetInteractRsp(this, InteractType.InteractType_INTERACT_PICK_ITEM));
-            }
+        // Add to inventory before despawning: removing first meant a rejected add (a full bag,
+        // most often) destroyed the drop and told nobody, so the item was simply gone.
+        if (!player.getInventory().addItem(item, ActionReason.SubfieldDrop)) {
+            return;
+        }
+
+        this.getScene().removeEntity(this);
+
+        if (!this.isShare()) { // not shared drop
+            player.sendPacket(new PacketGadgetInteractRsp(this, InteractType.InteractType_INTERACT_PICK_ITEM));
+        } else {
+            this.getScene()
+                    .broadcastPacket(
+                            new PacketGadgetInteractRsp(this, InteractType.InteractType_INTERACT_PICK_ITEM));
         }
     }
 
@@ -117,7 +128,10 @@ public class EntityItem extends EntityBaseGadget {
                         .setRendererChangedInfo(EntityRendererChangedInfo.newBuilder())
                         .setAiInfo(
                                 SceneEntityAiInfo.newBuilder().setIsAiOpen(true))
-                        .setBornPos(Vector.newBuilder())
+                        // Every other entity reports where it actually spawned; this one used to
+                        // send an empty Vector, putting the drop's born position at the world
+                        // origin while its model rendered at the real one.
+                        .setBornPos(getPosition().toProto())
                         .build();
 
         SceneEntityInfo.Builder entityInfo =
@@ -146,7 +160,10 @@ public class EntityItem extends EntityBaseGadget {
         SceneGadgetInfo.Builder gadgetInfo =
                 SceneGadgetInfo.newBuilder()
                         .setGadgetId(this.getItemData().getGadgetId())
-                        // .setTrifleGadget(TrifleGadget.newBuilder().setItem(this.getItem().toProto()))
+                        // Carries which item the drop actually is. gadgetId alone only picks the
+                        // model, so without this the client has nothing to hand the player and the
+                        // drop just sits there.
+                        .setTrifleGadget(TrifleGadget.newBuilder().setItem(this.getItem().toProto()))
                         .setBornType(GadgetBornType.GadgetBornType_GADGET_BORN_IN_AIR)
                         .setAuthorityPeerId(this.getWorld().getHostPeerId())
                         .setIsEnableInteract(true);

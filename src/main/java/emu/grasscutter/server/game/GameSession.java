@@ -236,8 +236,14 @@ public class GameSession implements GameSessionManager.KcpChannel {
 
                 getServer().getPacketHandler().handle(this, opcode, header, payload);
             }
-        } catch (Exception e) {
-            e.printStackTrace();
+        } catch (Throwable e) {
+            // The rest of this datagram is lost either way, but printed to the console it never
+            // reached the log, so a dropped packet left the player's action unexplained.
+            Grasscutter.getLogger()
+                    .error(
+                            "Dropped an inbound packet from {}.",
+                            this.getPlayer() != null ? this.getPlayer().getUid() : this.getAddress(),
+                            e);
         } finally {
 
             packet.release();

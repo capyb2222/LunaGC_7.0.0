@@ -1,12 +1,15 @@
 package emu.grasscutter.data.excels.codex;
 
+import com.google.gson.annotations.SerializedName;
 import emu.grasscutter.data.*;
 import it.unimi.dsi.fastutil.ints.*;
 import lombok.Getter;
 
 @ResourceType(name = {"ReliquaryCodexExcelConfigData.json"})
 public class CodexReliquaryData extends GameResource {
-    @Getter private int Id;
+    @Getter
+    @SerializedName(value = "id", alternate = "Id")
+    private int Id;
     @Getter private int suitId;
     @Getter private int level;
     @Getter private int cupId;

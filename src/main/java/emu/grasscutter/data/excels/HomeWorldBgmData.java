@@ -10,8 +10,8 @@ import lombok.experimental.FieldDefaults;
 @ResourceType(name = {"HomeWorldBgmExcelConfigData.json"})
 public class HomeWorldBgmData extends GameResource {
     @SerializedName(
-            value = "homeBgmId",
-            alternate = {"MJJENLEBKEF"})
+            value = "bgmID",
+            alternate = {"homeBgmId", "MJJENLEBKEF"})
     private int homeBgmId;
 
     @SerializedName(

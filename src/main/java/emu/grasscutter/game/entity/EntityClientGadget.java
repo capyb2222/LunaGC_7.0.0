@@ -30,6 +30,7 @@ import emu.grasscutter.net.proto.SceneGadgetInfoOuterClass.SceneGadgetInfo;
 import emu.grasscutter.net.proto.VectorOuterClass.Vector;
 import emu.grasscutter.utils.helpers.ProtoHelper;
 import it.unimi.dsi.fastutil.ints.Int2FloatMap;
+import it.unimi.dsi.fastutil.ints.Int2FloatOpenHashMap;
 import lombok.Getter;
 
 public class EntityClientGadget extends EntityBaseGadget {
@@ -130,10 +131,13 @@ public class EntityClientGadget extends EntityBaseGadget {
         super.onDeath(killerId);
     }
 
-    @Override
-    public Int2FloatMap getFightProperties() {
-        return null;
-    }
+    /**
+     * The client owns this entity's combat state, so nothing here is ever sent - {@link #toProto}
+     * builds its own pairs. It still has to be a map: an ability attached to one of these reads the
+     * whole {@code FightProperty} set off its owner, and a null threw right through the action.
+     */
+    @Getter(onMethod_ = @Override, lazy = true)
+    private final Int2FloatMap fightProperties = new Int2FloatOpenHashMap();
 
     @Override
     public SceneEntityInfo toProto() {

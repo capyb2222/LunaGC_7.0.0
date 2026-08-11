@@ -304,14 +304,35 @@ public final class GameServer extends KcpServer implements Iterable<Player> {
     public synchronized void onTick() {
         var tickStart = Instant.now();
 
-        // Tick worlds and home worlds.
-        this.worlds.removeIf(World::onTick);
+        // Each of these is guarded on its own. One world or one player throwing used to abandon the
+        // whole tick, so everybody else's world stopped moving for reasons that had nothing to do
+        // with them - and the scheduler at the end never ran at all.
+        this.worlds.removeIf(
+                world -> {
+                    try {
+                        return world.onTick();
+                    } catch (Throwable e) {
+                        Grasscutter.getLogger().error("A world threw while ticking.", e);
+                        return false;
+                    }
+                });
 
-        // Tick players.
-        this.players.values().forEach(Player::onTick);
+        this.players
+                .values()
+                .forEach(
+                        player -> {
+                            try {
+                                player.onTick();
+                            } catch (Throwable e) {
+                                Grasscutter.getLogger().error("Player {} threw while ticking.", player.getUid(), e);
+                            }
+                        });
 
-        // Tick scheduler.
-        this.getScheduler().runTasks();
+        try {
+            this.getScheduler().runTasks();
+        } catch (Throwable e) {
+            Grasscutter.getLogger().error("A scheduled task threw.", e);
+        }
 
         // Call server tick event.
         ServerTickEvent event = new ServerTickEvent(tickStart, Instant.now());
@@ -346,7 +367,9 @@ public final class GameServer extends KcpServer implements Iterable<Player> {
                     public void run() {
                         try {
                             onTick();
-                        } catch (Exception e) {
+                        } catch (Throwable e) {
+                            // A Timer thread dies on anything it does not catch, and it is the only
+                            // thing driving the world - so the game would simply stop, quietly.
                             Grasscutter.getLogger().error(translate("messages.game.game_update_error"), e);
                         }
                     }
