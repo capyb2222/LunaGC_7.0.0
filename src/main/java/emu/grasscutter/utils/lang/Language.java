@@ -23,7 +23,7 @@ import lombok.EqualsAndHashCode;
 public final class Language {
     private static final Map<String, Language> cachedLanguages = new ConcurrentHashMap<>();
     // Bumped so the caches written before names were filled in are thrown away once.
-    private static final int TEXTMAP_CACHE_VERSION = 0x9CCACE05;
+    private static final int TEXTMAP_CACHE_VERSION = 0x9CCACE06;
     private static final Pattern textMapKeyValueRegex = Pattern.compile("\"(\\d+)\": \"(.+)\"");
     private static final Path TEXTMAP_CACHE_PATH = getCachePath("TextMap/TextMapCache.bin");
     private static boolean scannedTextmaps =
@@ -387,6 +387,10 @@ public final class Language {
         GameData.getHomeWorldBgmDataMap()
                 .forEach((k, v) -> usedHashes.add((int) v.getBgmNameTextMapHash()));
         GameData.getMonsterDataMap().forEach((k, v) -> usedHashes.add((int) v.getNameTextMapHash()));
+        // What a monster is actually called lives on its describe row - its own name hash resolves
+        // to nothing at all, for every one of the 2422 of them.
+        GameData.getMonsterDescribeDataMap()
+                .forEach((k, v) -> usedHashes.add((int) v.getNameTextMapHash()));
         GameData.getMainQuestDataMap().forEach((k, v) -> usedHashes.add((int) v.getTitleTextMapHash()));
         GameData.getQuestDataMap().forEach((k, v) -> usedHashes.add((int) v.getDescTextMapHash()));
         GameData.getWorldAreaDataMap().forEach((k, v) -> usedHashes.add((int) v.getTextMapHash()));

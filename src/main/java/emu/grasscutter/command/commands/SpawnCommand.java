@@ -6,6 +6,7 @@ import static emu.grasscutter.utils.lang.Language.translate;
 
 import emu.grasscutter.command.*;
 import emu.grasscutter.data.GameData;
+import emu.grasscutter.data.NameIndex;
 import emu.grasscutter.data.excels.*;
 import emu.grasscutter.data.excels.monster.MonsterData;
 import emu.grasscutter.game.entity.*;
@@ -42,6 +43,15 @@ public final class SpawnCommand implements CommandHandler {
                     Map.entry(atkRegex, SpawnParameters::setAtk),
                     Map.entry(aiRegex, SpawnParameters::setAi));
 
+    private static boolean isNumber(String text) {
+        try {
+            Integer.parseInt(text);
+            return true;
+        } catch (NumberFormatException e) {
+            return false;
+        }
+    }
+
     @Override
     public void execute(Player sender, Player targetPlayer, List<String> args) {
         SpawnParameters param = new SpawnParameters();
@@ -52,6 +62,14 @@ public final class SpawnCommand implements CommandHandler {
         if (args.size() < 1) {
             sendUsageMessage(sender); // Reachable if someone does `/give lv90` or similar
             throw new IllegalArgumentException();
+        }
+
+        // A name can run to several words, and the branching below counts arguments to decide what
+        // each one means, so fold the name back down to the single id argument it stands in for.
+        if (!isNumber(args.get(0))) {
+            var name = args.remove(0);
+            var id = NameIndex.resolveEntity(name, args);
+            args.add(0, id != 0 ? String.valueOf(id) : name);
         }
 
         Position pos = new Position(targetPlayer.getPosition());
