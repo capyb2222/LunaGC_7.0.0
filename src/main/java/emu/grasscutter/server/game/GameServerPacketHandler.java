@@ -96,12 +96,13 @@ public final class GameServerPacketHandler {
             return;
         }
 
-        // Nothing answers this one. The player sees their action do nothing, so say so once per
-        // opcode rather than leaving it to be guessed at.
+        // Nothing answers this one, so the player's action does nothing. Said once per opcode, at a
+        // level that is actually visible: this is also how the CmdId of an unimplemented feature is
+        // discovered - go and use the feature in game, and the client names the packet it wanted.
         if (unannounced.add(opcode)) {
             Grasscutter.getLogger()
-                    .debug(
-                            "No handler for {} ({}), so nothing answers it.",
+                    .info(
+                            "Nothing handles {} ({}), so the client got no answer.",
                             PacketOpcodesUtils.getOpcodeName(opcode),
                             opcode);
         }
