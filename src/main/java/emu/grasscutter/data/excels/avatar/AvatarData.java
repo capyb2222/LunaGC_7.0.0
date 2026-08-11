@@ -149,12 +149,13 @@ public class AvatarData extends GameResource {
             }
         }
 
-        /*
-        for (PropGrowCurve growCurve : this.PropGrowCurves) {
+        // Left commented out for a long while against a field name that no longer exists, so the map
+        // stayed null and getGrowthCurveById would have thrown at whoever called it first.
+        this.growthCurveMap = new Int2ObjectOpenHashMap<>();
+        for (PropGrowCurve growCurve : this.propGrowCurves) {
             FightProperty prop = FightProperty.getPropByName(growCurve.getType());
-            this.growthCurveMap.put(prop.getId(), growCurve.getGrowCurve());
+            if (prop != null) this.growthCurveMap.put(prop.getId(), growCurve.getGrowCurve());
         }
-        */
 
         // Cache abilities
         this.buildEmbryo();
