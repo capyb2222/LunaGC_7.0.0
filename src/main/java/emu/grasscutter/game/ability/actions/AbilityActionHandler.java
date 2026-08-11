@@ -27,6 +27,10 @@ public abstract class AbilityActionHandler {
      * @return The target entity.
      */
     protected GameEntity getTarget(Ability ability, GameEntity entity, String target) {
+        // An action that names no target acts on whatever the modifier is attached to. Sandrone's
+        // robot has several of those, and switching on the absent name threw before the action ran.
+        if (target == null) return entity;
+
         return switch (target) {
             default -> throw new RuntimeException("Unknown target type: " + target);
 
