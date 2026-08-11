@@ -387,6 +387,9 @@ public class AbilityModifier implements Serializable {
 
         public Map<String, Object> otherTargets;
 
+        /** How often a Randomed block takes its success branch, from 0 to 1. */
+        public DynamicFloat chance = DynamicFloat.ZERO;
+
         public DynamicFloat minValue = DynamicFloat.ZERO;
         public DynamicFloat maxValue = DynamicFloat.ZERO;
         public DynamicFloat targetValue = DynamicFloat.ZERO;
