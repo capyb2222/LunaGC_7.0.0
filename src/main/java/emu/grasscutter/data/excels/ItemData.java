@@ -57,6 +57,7 @@ public class ItemData extends GameResource {
     private int mainPropDepotId;
     private int appendPropDepotId;
     private int appendPropNum;
+    @SerializedName(value = "setId", alternate = "setID")
     private int setId;
     private int[] addPropLevels;
     private int baseConvExp;

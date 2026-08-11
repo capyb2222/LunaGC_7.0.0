@@ -15,8 +15,8 @@ public class HomeWorldNPCData extends GameResource {
     int avatarID;
 
     @SerializedName(
-            value = "npcId",
-            alternate = {"HDLJMOGHICL"})
+            value = "npcID",
+            alternate = {"npcId", "HDLJMOGHICL"})
     int npcId;
 
     @SerializedName(

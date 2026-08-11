@@ -1,5 +1,6 @@
 package emu.grasscutter.data.excels;
 
+import com.google.gson.annotations.SerializedName;
 import emu.grasscutter.data.*;
 import emu.grasscutter.game.props.EntityType;
 import lombok.Getter;
@@ -16,6 +17,7 @@ public final class GadgetData extends GameResource {
     private String[] tags;
     private String itemJsonName;
     private long nameTextMapHash;
+    @SerializedName(value = "campID", alternate = "campId")
     private int campId;
     private String visionLevel;
 }

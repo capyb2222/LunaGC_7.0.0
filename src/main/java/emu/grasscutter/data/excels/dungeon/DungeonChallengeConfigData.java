@@ -15,6 +15,7 @@ public class DungeonChallengeConfigData extends GameResource {
     private boolean noFailHint;
     private boolean isBlockTopTimer;
     private int subChallengeFadeOutDelayTime;
+    @SerializedName(value = "activitySkillID", alternate = "activitySkillId")
     private int activitySkillId;
     private HashSet<String> teamAbilityGroupList;
 

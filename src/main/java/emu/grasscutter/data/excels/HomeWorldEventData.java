@@ -25,8 +25,8 @@ public class HomeWorldEventData extends GameResource {
     int avatarID;
 
     @SerializedName(
-            value = "talkId",
-            alternate = {"IGNJAICDFPD"})
+            value = "talkID",
+            alternate = {"talkId", "IGNJAICDFPD"})
     int talkId;
 
     int rewardID;
