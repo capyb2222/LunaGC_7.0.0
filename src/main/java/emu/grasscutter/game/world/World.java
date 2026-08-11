@@ -564,7 +564,14 @@ public class World implements Iterable<Player> {
         this.getScenes()
                 .forEach(
                         (k, scene) -> {
-                            if (scene.getPlayerCount() > 0) scene.onTick();
+                            if (scene.getPlayerCount() == 0) return;
+
+                            try {
+                                scene.onTick();
+                            } catch (Throwable e) {
+                                // One scene's trouble is not the next one's, nor the world's clock below.
+                                Grasscutter.getLogger().error("Scene {} threw while ticking.", k, e);
+                            }
                         });
 
         // sync time every 10 seconds
