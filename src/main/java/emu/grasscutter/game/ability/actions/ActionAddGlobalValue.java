@@ -3,6 +3,7 @@ package emu.grasscutter.game.ability.actions;
 import com.google.protobuf.ByteString;
 import emu.grasscutter.data.binout.AbilityModifier.AbilityModifierAction;
 import emu.grasscutter.game.ability.Ability;
+import emu.grasscutter.game.ability.AbilityManager;
 import emu.grasscutter.game.ability.PredicateEvaluator;
 import emu.grasscutter.data.common.DynamicFloat;
 import emu.grasscutter.game.entity.GameEntity;
@@ -52,10 +53,12 @@ public final class ActionAddGlobalValue extends AbilityActionHandler {
         target.getGlobalAbilityValues().put(valueKey, newValue);
 
         target.onAbilityValueUpdate();
-        target
-                .getScene()
-                .getHost()
-                .sendPacket(new PacketServerGlobalValueChangeNotify(target, valueKey, newValue));
+        if (!AbilityManager.isServerOwnedChain()) {
+            target
+                    .getScene()
+                    .getHost()
+                    .sendPacket(new PacketServerGlobalValueChangeNotify(target, valueKey, newValue));
+        }
 
         return true;
     }

@@ -59,6 +59,73 @@ public final class AbilityManager extends BasePlayerManager {
     public static final HashMap<AbilityMixinData.Type, AbilityMixinHandler> mixinHandlers =
         new HashMap<>();
 
+    /**
+     * onAdded actions the server is responsible for even when the modifier orchestrates nothing.
+     *
+     * <p>SetGlobalValue is here because a modifier's marks are what its own later blocks test: the
+     * one that spawns Sandrone's robot clears a mark, searches for a target, then spawns only if
+     * the mark came back set. Skipping the clear left the mark absent on the first hold, so the
+     * spawn never fired until a later attack had written it. Both reasons it used to be left out
+     * are gone - writes made here no longer reach the client, and a bare SetGlobalValue no longer
+     * reads as 1. Damage, healing and energy stay off the list: the client resolves those itself.
+     */
+    private static final java.util.EnumSet<AbilityModifierAction.Type> SERVER_OWNED_ON_ADDED =
+        java.util.EnumSet.of(
+            AbilityModifierAction.Type.Predicated,
+            AbilityModifierAction.Type.CreateGadget,
+            AbilityModifierAction.Type.SetGlobalValue);
+
+    /**
+     * What a server owned chain may run, at any depth.
+     *
+     * <p>The nested actions need the same restriction as the top level ones, and more sharply: a
+     * Predicated block hands its children whichever entity its search picked, so an unfiltered
+     * child that kills or hurts its target would fire straight at the nearest enemy - killing it
+     * outright, with no damage event behind it. Only state and spawning is allowed through.
+     */
+    private static final java.util.EnumSet<AbilityModifierAction.Type> SERVER_OWNED_CHAIN =
+        java.util.EnumSet.of(
+            AbilityModifierAction.Type.Predicated,
+            AbilityModifierAction.Type.CreateGadget,
+            AbilityModifierAction.Type.SetGlobalValue,
+            AbilityModifierAction.Type.AddGlobalValue,
+            AbilityModifierAction.Type.ClearGlobalValue,
+            AbilityModifierAction.Type.CopyGlobalValue);
+
+    public static boolean isAllowedInServerOwnedChain(AbilityModifierAction.Type type) {
+        return type != null && SERVER_OWNED_CHAIN.contains(type);
+    }
+
+    /**
+     * Set while the server runs a modifier chain the client did not ask it to run.
+     *
+     * <p>Values written in there are the server's own bookkeeping - a mark one block sets so a later
+     * block can test it - and the client has already worked them out for itself. Pushing them back
+     * overwrites state that was correct, so those writes stay local.
+     */
+    private static final ThreadLocal<Boolean> serverOwnedChain =
+        ThreadLocal.withInitial(() -> Boolean.FALSE);
+
+    public static boolean isServerOwnedChain() {
+        return serverOwnedChain.get();
+    }
+
+    /**
+     * Runs a block as the server's own bookkeeping.
+     *
+     * <p>Restores whatever the flag was rather than clearing it, so a chain that opens inside
+     * another one does not hand the rest of its parent back to the client half way through.
+     */
+    public static void runServerOwned(Runnable body) {
+        var previous = serverOwnedChain.get();
+        serverOwnedChain.set(Boolean.TRUE);
+        try {
+            body.run();
+        } finally {
+            serverOwnedChain.set(previous);
+        }
+    }
+
     public static final ExecutorService eventExecutor;
 
     static {
@@ -189,6 +256,35 @@ public final class AbilityManager extends BasePlayerManager {
                         .error("Ability action {} threw at {}.", action.type, ability, e);
                 }
             });
+    }
+
+    /**
+     * Runs an action on the calling thread instead of handing it to the pool.
+     *
+     * <p>A modifier's actions are a sequence, not a set: one block sets a value the next block
+     * reads. Submitted individually they race, and the read lands before the write often enough
+     * that whatever they were guarding happens an invocation late, or not at all.
+     */
+    public void executeActionNow(
+        Ability ability, AbilityModifierAction action, ByteString abilityData, GameEntity target) {
+        var handler = actionHandlers.get(action.type);
+        if (handler == null || ability == null) {
+            if (DebugConstants.LOG_MISSING_ABILITY_HANDLERS) {
+                Grasscutter.getLogger()
+                    .debug("Missing ability action handler for {} (invoker: {}).", action.type, ability);
+            }
+
+            return;
+        }
+
+        try {
+            if (!handler.execute(ability, action, abilityData, target)) {
+                Grasscutter.getLogger()
+                    .debug("Ability execute action failed for {} at {}.", action.type, ability);
+            }
+        } catch (Throwable e) {
+            Grasscutter.getLogger().error("Ability action {} threw at {}.", action.type, ability, e);
+        }
     }
 
     public void executeMixin(Ability ability, AbilityMixinData mixinData, ByteString abilityData) {
@@ -834,6 +930,22 @@ public final class AbilityManager extends BasePlayerManager {
                 for (var a : modifierData.onAdded) {
                     executeAction(finalAbility, a, invoke.getAbilityData(), finalEntity);
                 }
+            } else if (modifierData.onAdded != null) {
+                // A modifier whose onAdded neither attaches nor applies another modifier used to run
+                // nothing at all here, so anything the server alone is meant to do - spawning an
+                // avatar's summon, most visibly - never happened. Only the state and spawn actions
+                // are run: damage, healing and energy stay off this path, since the client already
+                // resolves those and running them again would double them up.
+                final var ownedAbility = instancedAbility;
+                final var ownedEntity = entity;
+                runServerOwned(
+                    () -> {
+                        for (var a : modifierData.onAdded) {
+                            if (a != null && SERVER_OWNED_ON_ADDED.contains(a.type)) {
+                                executeActionNow(ownedAbility, a, invoke.getAbilityData(), ownedEntity);
+                            }
+                        }
+                    });
             }
         } else if (modChange.getAction() == ModifierAction.MODIFIER_ACTION_REMOVED) {
             entity.getInstancedModifiers().remove(head.getInstancedModifierId());
