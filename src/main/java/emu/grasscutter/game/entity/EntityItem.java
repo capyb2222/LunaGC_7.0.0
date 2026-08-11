@@ -24,6 +24,7 @@ import emu.grasscutter.net.proto.VectorOuterClass.Vector;
 import emu.grasscutter.server.packet.send.PacketGadgetInteractRsp;
 import emu.grasscutter.utils.helpers.ProtoHelper;
 import it.unimi.dsi.fastutil.ints.Int2FloatMap;
+import it.unimi.dsi.fastutil.ints.Int2FloatOpenHashMap;
 import lombok.Getter;
 
 public class EntityItem extends EntityBaseGadget {
@@ -79,10 +80,16 @@ public class EntityItem extends EntityBaseGadget {
         return this.getItemData().getGadgetId();
     }
 
+    /**
+     * Nothing fights this entity, but an ability attached to one reads the whole FightProperty set
+     * off its owner, and a null threw right through the action instead of reading zeroes.
+     */
     @Override
     public Int2FloatMap getFightProperties() {
-        return null;
+        return this.fightProperties;
     }
+
+    private final Int2FloatMap fightProperties = new Int2FloatOpenHashMap();
 
     @Override
     public void onInteract(Player player, GadgetInteractReq interactReq) {

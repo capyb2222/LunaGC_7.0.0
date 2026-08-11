@@ -1332,7 +1332,9 @@ public final class AbilityManager extends BasePlayerManager {
                     .trace("Entity of ID {} is EntityAvatar. Ignoring", invoke.getEntityId());
                 return;
             }
-            if (entity.getFightProperties() == null) return;
+            // Entities with no combat state of their own used to answer null here; they now answer
+            // an empty map, and reviving something that never had hit points is still meaningless.
+            if (entity.getFightProperties().isEmpty()) return;
             entity.setFightProperty(
                 FightProperty.FIGHT_PROP_CUR_HP,
                 entity.getFightProperty(FightProperty.FIGHT_PROP_MAX_HP));
