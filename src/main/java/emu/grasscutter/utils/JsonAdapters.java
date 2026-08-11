@@ -1,6 +1,7 @@
 package emu.grasscutter.utils;
 
 import com.google.gson.*;
+import com.google.gson.annotations.SerializedName;
 import com.google.gson.reflect.TypeToken;
 import com.google.gson.stream.*;
 import emu.grasscutter.data.common.DynamicFloat;
@@ -164,6 +165,21 @@ public interface JsonAdapters {
             val map = new HashMap<String, T>();
             val enumConstants = enumClass.getEnumConstants();
             for (val constant : enumConstants) map.put(constant.toString(), constant);
+
+            // A constant that names itself differently in the tables says so with @SerializedName,
+            // the way a field does. Reading only the Java name meant every one of those parsed as
+            // null without a word - GivingData's whole giveType column, for one.
+            for (val constant : enumConstants) {
+                try {
+                    val declared = enumClass.getField(((Enum<?>) constant).name());
+                    val named = declared.getAnnotation(SerializedName.class);
+                    if (named == null) continue;
+
+                    map.put(named.value(), constant);
+                    for (val alternate : named.alternate()) map.put(alternate, constant);
+                } catch (NoSuchFieldException ignored) {
+                }
+            }
 
             for (Field f : enumClass.getDeclaredFields()) {
                 if (switch (f.getName()) {
