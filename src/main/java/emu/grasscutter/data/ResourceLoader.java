@@ -189,12 +189,37 @@ public final class ResourceLoader {
                     default -> null;
                 };
         if (results == null) return;
+
+        val before = map.size();
         results.forEach(
                 o -> {
                     GameResource res = (GameResource) o;
                     res.onLoad();
                     map.put(res.getId(), res);
                 });
+
+        reportCollapse(c, filename.getFileName().toString(), results.size(), map.size() - before);
+    }
+
+    /**
+     * Warns when a table's rows nearly all landed on the same key.
+     *
+     * <p>A row whose id field is spelled differently in the table than in the class reads zero -
+     * quietly, since Gson matches names exactly and has nothing to complain about - so every row
+     * takes the same slot and the map ends up holding one of them. That is how the world areas and
+     * three codex tables each came down to a single entry without anyone noticing. Rows can share a
+     * key legitimately, so this only speaks up when almost all of them do.
+     */
+    private static void reportCollapse(Class<?> c, String filename, int rows, int added) {
+        if (rows < 8 || added > Math.max(2, rows / 8)) return;
+
+        Grasscutter.getLogger()
+                .warn(
+                        "{} kept {} of {} rows from {} - are the id field's name and case right?",
+                        c.getSimpleName(),
+                        added,
+                        rows,
+                        filename);
     }
 
     @SuppressWarnings({"rawtypes", "unchecked"})
