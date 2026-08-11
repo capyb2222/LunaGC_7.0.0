@@ -13,7 +13,7 @@ import java.util.*;
 @ResourceType(name = "AvatarExcelConfigData.json", loadPriority = LoadPriority.LOW)
 public class AvatarData extends GameResource {
 
-    private String iconName;
+    @Getter private String iconName;
     @Getter private String bodyType;
     @Getter private String useType;
     @Getter private String qualityType;

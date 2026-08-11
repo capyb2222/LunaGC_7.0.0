@@ -22,7 +22,8 @@ import lombok.EqualsAndHashCode;
 
 public final class Language {
     private static final Map<String, Language> cachedLanguages = new ConcurrentHashMap<>();
-    private static final int TEXTMAP_CACHE_VERSION = 0x9CCACE04;
+    // Bumped so the caches written before names were filled in are thrown away once.
+    private static final int TEXTMAP_CACHE_VERSION = 0x9CCACE05;
     private static final Pattern textMapKeyValueRegex = Pattern.compile("\"(\\d+)\": \"(.+)\"");
     private static final Path TEXTMAP_CACHE_PATH = getCachePath("TextMap/TextMapCache.bin");
     private static boolean scannedTextmaps =
@@ -397,13 +398,106 @@ public final class Language {
         usedHashes.add((int) 3352513147L); // Character Event Wish-2
         usedHashes.add((int) 2864268523L); // Weapon Event Wish
 
+        // Load each hash's drifted twin as well, or there is nothing for the recovery below to find.
+        var drifted = new IntOpenHashSet(usedHashes.size());
+        for (var hash : usedHashes.toIntArray()) drifted.add(hash + HASH_DRIFT);
+        usedHashes.addAll(drifted);
+
         textMapStrings = loadTextMapFiles(usedHashes);
+        nameWhatTheTextMapsMissed(textMapStrings);
         scannedTextmaps = true;
         try {
             saveTextMapsCache(textMapStrings);
         } catch (IOException e) {
             Grasscutter.getLogger().error("Failed to save TextMap cache: ", e);
         }
+    }
+
+    /** Internal names that are not what the thing ended up being called. */
+    private static final Map<String, String> RENAMED = Map.of("MarionetteNew", "Sandrone");
+
+    /**
+     * The shipped text maps and the excel tables come from different dumps, and the drift between
+     * them is a constant: two thirds of the names that look missing are sitting 512 hashes along.
+     */
+    private static final int HASH_DRIFT = 512;
+
+    /**
+     * Gives a readable name to every avatar and item the text maps have no string for.
+     *
+     * <p>Only 61 of 157 avatars resolve on the nose - Diluc, Jean and the Traveler all read blank in
+     * the handbook and in command output, which makes them impossible to look up by name and
+     * impossible to tell apart from each other. Most are recovered by the drift; whatever is left
+     * falls back to the internal name in the icon path, since "Crystalline Sword" beats an empty
+     * row even where it is not the name the game itself would print.
+     */
+    private static void nameWhatTheTextMapsMissed(Int2ObjectMap<TextStrings> strings) {
+        var recovered = new int[2];
+        for (var avatar : GameData.getAvatarDataMap().values()) {
+            nameIfMissing(strings, avatar.getNameTextMapHash(), avatar.getIconName(), recovered);
+        }
+        for (var item : GameData.getItemDataMap().values()) {
+            nameIfMissing(strings, item.getNameTextMapHash(), item.getIcon(), recovered);
+        }
+
+        if (recovered[0] + recovered[1] > 0) {
+            Grasscutter.getLogger()
+                    .info(
+                            "Named {} avatars and items the text maps missed ({} recovered by hash drift, {} from their icon).",
+                            recovered[0] + recovered[1],
+                            recovered[0],
+                            recovered[1]);
+        }
+    }
+
+    private static void nameIfMissing(
+            Int2ObjectMap<TextStrings> strings, long hash, String iconName, int[] recovered) {
+        var key = (int) hash;
+        if (key == 0 || known(strings.get(key))) return;
+
+        var drifted = strings.get(key + HASH_DRIFT);
+        if (known(drifted)) {
+            // The real string, in every language, rather than a guess off an icon path.
+            strings.put(key, drifted);
+            recovered[0]++;
+            return;
+        }
+
+        var name = displayName(iconName);
+        if (name == null) return;
+
+        strings.put(key, new TextStrings(name));
+        recovered[1]++;
+    }
+
+    /**
+     * A hash the files half-answered is still a blank row: the loader fills the languages it has no
+     * string for with "[N/A] <hash>", so that placeholder does not count as known.
+     */
+    private static boolean known(TextStrings strings) {
+        return strings != null && !strings.get(0).startsWith("[N/A]");
+    }
+
+    /** UI_AvatarIcon_MarionetteNew to Sandrone, UI_EquipIcon_Claymore_CrystallineSword to Crystalline Sword. */
+    private static String displayName(String iconName) {
+        if (iconName == null || iconName.isBlank()) return null;
+
+        var internal = iconName.substring(iconName.lastIndexOf('_') + 1);
+        if (internal.isBlank()) return null;
+
+        var renamed = RENAMED.get(internal);
+        if (renamed != null) return renamed;
+
+        // A reworked character keeps its old name with New pinned on the end.
+        if (internal.length() > 3 && internal.endsWith("New")) {
+            internal = internal.substring(0, internal.length() - 3);
+        }
+
+        // Most material and artifact icons end in an id or a piece number. A row reading "5" is
+        // worse than a blank one - it looks like data - so leave those alone.
+        if (internal.chars().allMatch(Character::isDigit)) return null;
+
+        return internal.replaceAll("(?<=[a-z0-9])(?=[A-Z])", " ");
     }
 
     /** get language code */
