@@ -501,6 +501,27 @@ public final class DatabaseHelper {
         DatabaseHelper.saveGameAsync(gameHome);
     }
 
+    public static emu.grasscutter.game.dailytask.DailyTaskManager loadDailyTaskManager(Player player) {
+        var manager =
+                DatabaseManager.getGameDatastore()
+                        .find(emu.grasscutter.game.dailytask.DailyTaskManager.class)
+                        .filter(Filters.eq("ownerUid", player.getUid()))
+                        .first();
+
+        if (manager == null) {
+            manager = new emu.grasscutter.game.dailytask.DailyTaskManager(player);
+            manager.save();
+        } else {
+            manager.setPlayer(player);
+        }
+
+        return manager;
+    }
+
+    public static void saveDailyTaskManager(emu.grasscutter.game.dailytask.DailyTaskManager manager) {
+        DatabaseManager.getGameDatastore().save(manager);
+    }
+
     public static BattlePassManager loadBattlePass(Player player) {
         BattlePassManager manager =
                 DatabaseManager.getGameDatastore()

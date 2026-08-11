@@ -587,6 +587,15 @@ public class Scene {
         }
 
         target.onDeath(attackerId);
+
+        // A commission that asks for kills counts them here, by the group the monster belongs to.
+        if (target instanceof EntityMonster monster) {
+            var host = this.getWorld().getHost();
+            if (host != null && host.getDailyTaskManager() != null) {
+                host.getDailyTaskManager().onMonsterDeath(this, monster.getGroupId());
+            }
+        }
+
         this.triggerDungeonEvent(
                 DungeonPassConditionType.DUNGEON_COND_KILL_MONSTER_COUNT, ++killedMonsterCount);
     }
