@@ -356,7 +356,9 @@ public final class GiveCommand implements CommandHandler {
                     // spell one, since "crystalline sword" arrives as two arguments. An artifact
                     // asked for by set and slot is tried first: it is the more specific reading, and
                     // several set names are also the name of a namecard.
-                    param.id = NameIndex.resolveRelic(id, args);
+                    param.setPieces = NameIndex.resolveRelicSet(id, args);
+                    if (!param.setPieces.isEmpty()) param.id = param.setPieces.get(0);
+                    else param.id = NameIndex.resolveRelic(id, args);
                     if (param.id == 0) param.id = NameIndex.resolve(id, args);
                     if (param.id == 0) {
                         CommandHandler.sendTranslatedMessage(sender, "commands.generic.invalid.itemId");
@@ -485,6 +487,11 @@ public final class GiveCommand implements CommandHandler {
                             targetPlayer.getUid());
                     return;
                 case ITEM_RELIQUARY:
+                    if (!param.setPieces.isEmpty()) {
+                        giveWholeSet(sender, targetPlayer, param);
+                        return;
+                    }
+
                     targetPlayer.getInventory().addItems(makeArtifacts(param), ActionReason.SubfieldDrop);
                     CommandHandler.sendTranslatedMessage(
                             sender,
@@ -517,6 +524,33 @@ public final class GiveCommand implements CommandHandler {
         AVATARS
     }
 
+    /**
+     * Hands over one artifact per slot.
+     *
+     * <p>Main stats and substats are left to roll: they belong to a slot, so the ones typed for a
+     * single piece cannot mean anything sensible across all five.
+     */
+    private static void giveWholeSet(Player sender, Player targetPlayer, GiveItemParameters param) {
+        // Whatever stats were typed were read against the first piece's depot, and a flower cannot
+        // carry a circlet's main stat. Let all five roll rather than force one slot's answer on the rest.
+        param.mainPropId = -1;
+        param.appendPropIdList = null;
+
+        var given = 0;
+        for (var piece : param.setPieces) {
+            var data = GameData.getItemDataMap().get(piece.intValue());
+            if (data == null) continue;
+
+            param.data = data;
+            param.id = piece;
+            targetPlayer.getInventory().addItems(makeArtifacts(param), ActionReason.SubfieldDrop);
+            given++;
+        }
+
+        CommandHandler.sendTranslatedMessage(
+                sender, "commands.give.given", given, "artifacts of the set", targetPlayer.getUid());
+    }
+
     private static class GiveItemParameters {
         public int id;
         public int lvl = 0;
@@ -526,6 +560,9 @@ public final class GiveCommand implements CommandHandler {
         public int skillLevel = 1;
         public int mainPropId = -1;
         public List<Integer> appendPropIdList;
+
+        /** One piece per slot, when a whole set was asked for rather than a single artifact. */
+        public List<Integer> setPieces = List.of();
         public ItemData data;
         public AvatarData avatarData;
         public GiveAllType giveAllType = GiveAllType.NONE;

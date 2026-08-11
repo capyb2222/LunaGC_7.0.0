@@ -9,6 +9,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
+import java.util.Set;
 import java.util.TreeMap;
 
 /**
@@ -91,6 +92,42 @@ public final class NameIndex {
 
         for (var i = 0; i <= match.consumed; i++) rest.remove(0);
         return piece;
+    }
+
+    /** Every slot, in the order the game lists them. */
+    private static final List<EquipType> WHOLE_SET =
+            List.of(
+                    EquipType.EQUIP_BRACER,
+                    EquipType.EQUIP_NECKLACE,
+                    EquipType.EQUIP_SHOES,
+                    EquipType.EQUIP_RING,
+                    EquipType.EQUIP_DRESS);
+
+    /** Words that mean "one of each" where a slot would go. */
+    private static final Set<String> EVERY_SLOT = Set.of("all", "set", "full", "everything");
+
+    /**
+     * Resolves "gladiator's finale all" into one piece per slot.
+     *
+     * @return the five piece ids, or an empty list if this is not a set followed by all
+     */
+    public static List<Integer> resolveRelicSet(String first, List<String> rest) {
+        build();
+
+        var match = SETS.match(first, rest);
+        if (match == null || match.consumed >= rest.size()) return List.of();
+        if (!EVERY_SLOT.contains(normalise(rest.get(match.consumed)))) return List.of();
+
+        var pieces = new ArrayList<Integer>(WHOLE_SET.size());
+        for (var slot : WHOLE_SET) {
+            var piece = bestPiece(match.id, slot);
+            if (piece != 0) pieces.add(piece);
+        }
+
+        if (pieces.isEmpty()) return List.of();
+
+        for (var i = 0; i <= match.consumed; i++) rest.remove(0);
+        return pieces;
     }
 
     /**
