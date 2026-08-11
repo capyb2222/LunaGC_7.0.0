@@ -118,19 +118,38 @@ public final class NameIndex {
         var needle = normalise(query);
         if (needle.isEmpty()) return List.of();
 
-        var found = new ArrayList<String>();
+        var matches = new ArrayList<Map.Entry<String, Integer>>();
         var seen = new HashSet<Integer>();
 
         for (var index : List.of(THINGS, ENTITIES)) {
             for (var entry : index.byName.entrySet()) {
-                if (!entry.getKey().contains(needle) || !seen.add(entry.getValue())) continue;
-
-                found.add(describe(entry.getValue()));
-                if (found.size() >= limit) return found;
+                if (entry.getKey().contains(needle) && seen.add(entry.getValue())) matches.add(entry);
             }
         }
 
-        return found;
+        // Names the game would print come first - the rest are internal names, which are only worth
+        // reading once nothing real matches. Then whole-name matches over fragments buried in
+        // something longer, since alphabetical order alone puts "Anemo Slime-Swallowed Bamboo Shoots"
+        // above "Pyro Slime".
+        matches.sort(
+                java.util.Comparator.comparingInt((Map.Entry<String, Integer> e) -> internal(e.getValue()))
+                        .thenComparingInt(e -> rank(e.getKey(), needle))
+                        .thenComparingInt(e -> e.getKey().length())
+                        .thenComparing(Map.Entry::getKey));
+
+        return matches.stream().limit(limit).map(e -> describe(e.getValue())).toList();
+    }
+
+    /** Internal names carry underscores; nothing the game prints does. */
+    private static int internal(int id) {
+        var name = nameOf(id);
+        return name != null && name.indexOf('_') >= 0 ? 1 : 0;
+    }
+
+    private static int rank(String name, String needle) {
+        if (name.equals(needle)) return 0;
+        if (name.startsWith(needle)) return 1;
+        return 2;
     }
 
     private static String nameOf(int id) {
