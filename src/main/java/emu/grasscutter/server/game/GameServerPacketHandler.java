@@ -105,6 +105,12 @@ public final class GameServerPacketHandler {
                             "Nothing handles {} ({}), so the client got no answer.",
                             PacketOpcodesUtils.getOpcodeName(opcode),
                             opcode);
+            // After a game update every CmdId has moved, so an unhandled packet is usually a known
+            // message wearing a new number. The wire format still gives up its field numbers and
+            // values without any schema, and that is enough to recognise one: a version string, a
+            // base64 RSA blob, a 64-hex token. Logged once per opcode, next to the number itself.
+            Grasscutter.getLogger()
+                    .info("  ({}) fields: {}", opcode, emu.grasscutter.utils.ProtoSniff.describe(payload));
         }
     }
 
