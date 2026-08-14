@@ -1,7 +1,7 @@
-# LunaGC-6.7.0 WIP
+# LunaGC-7.0.0 WIP
 
 ## Note from the maintainer
-This is a fork from girluh's [LunaGC](https://github.com/girluh/LunaGC). Since kitkat's proto and nameTranslation is gone, it is really hard to fix anything in 6.7. I will only be fixing bugs, not implementing anything new since no proto. Have fun!
+This is a fork from girluh's [LunaGC](https://github.com/girluh/LunaGC). Very early update so expect many bugs.
 
 ## Updated version of Grasscutters, with some new features implemented.
 Old Discord for LunaGC https://discord.gg/7D5gkyJR5Y (don't ask for support there as it's been taken over by other people (...), instead create an issue in this repository)
@@ -89,3 +89,5 @@ Contribute if you want/can...
 girluh's [LunaGC](https://github.com/girluh/LunaGC)
 
 kitkat's patch
+
+Terax for nt
