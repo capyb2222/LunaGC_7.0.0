@@ -97,3 +97,9 @@ patches/*.patch
 # LunaGC-Resources; they are not part of the server.
 animegamedata2/
 YuanShenResources/
+
+# Everything local-only lives here and nothing in it is ever committed: the
+# client proto dumps and nameTranslation.txt, the scratch tooling that turns
+# them into src/main/proto, and dev-only launch scripts. Keeping it to one
+# ignored directory means `git add -A` cannot pick any of it up by accident.
+/local/
