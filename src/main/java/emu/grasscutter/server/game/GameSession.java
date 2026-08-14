@@ -27,6 +27,13 @@ public class GameSession implements GameSessionManager.KcpChannel {
     private byte[] encryptKey = Crypto.ENCRYPT_KEY;
 
     @Setter private boolean useSecretKey;
+
+    /** Whether this session has already reported a frame that would not decrypt. */
+    private boolean reportedBadMagic;
+
+    /** Packet classes already reported as having no 7.0 CmdId, so each is said once. */
+    private static final java.util.Set<String> missingCmdIdReported =
+            java.util.concurrent.ConcurrentHashMap.newKeySet();
     @Getter @Setter private SessionState state;
 
     @Getter private int clientTime;
@@ -109,7 +116,15 @@ public class GameSession implements GameSessionManager.KcpChannel {
     public void send(BasePacket packet) {
 
         if (packet.getOpcode() <= 0) {
-            Grasscutter.getLogger().warn("Tried to send packet with missing cmd id!");
+            // A non-positive opcode is one of the negative sentinels in PacketOpcodes - a message
+            // 7.0 has no known CmdId for. Name it once per packet class instead of repeating an
+            // anonymous warning for every send, which drowned the console.
+            if (missingCmdIdReported.add(packet.getClass().getSimpleName())) {
+                Grasscutter.getLogger()
+                        .warn(
+                                "{} has no 7.0 CmdId, so it is not being sent.",
+                                packet.getClass().getSimpleName());
+            }
             return;
         }
 
@@ -164,10 +179,54 @@ public class GameSession implements GameSessionManager.KcpChannel {
         Grasscutter.getLogger().info(translate("messages.game.connect", this.getAddress().toString()));
     }
 
+    /**
+     * Decrypts a frame in place, working out which key it was sent under rather than assuming.
+     *
+     * <p>The token exchange has a step where the two sides disagree about the key: the client moves
+     * to the session key the moment it accepts the response, and the server only knows that happened
+     * when a frame arrives. Guessing wrong in either direction is silent - the frame decrypts to
+     * noise and is dropped - and on a version migration that is indistinguishable from a client that
+     * never replied, which is exactly the false trail this cost us before.
+     *
+     * <p>The frame magic settles it: XOR is its own inverse, so a wrong key can be undone and the
+     * other one tried, and whichever produces the magic is the key the client is actually using.
+     * The session then latches onto it, so this costs one extra XOR only while the two sides are out
+     * of step.
+     */
+    private void decryptWithEitherKey(byte[] bytes) {
+        var primary = useSecretKey() ? this.encryptKey : Crypto.DISPATCH_KEY;
+        Crypto.xor(bytes, primary);
+        if (bytes.length >= 2 && readMagic(bytes) == 17767) return;
+
+        // The session key only exists once a seed has been negotiated, so before that there is
+        // nothing to fall back to and the frame really is undecryptable.
+        var fallback = useSecretKey() ? Crypto.DISPATCH_KEY : this.encryptKey;
+        if (fallback == null || fallback == primary) return;
+
+        Crypto.xor(bytes, primary); // undo
+        Crypto.xor(bytes, fallback);
+        if (bytes.length >= 2 && readMagic(bytes) == 17767) {
+            this.setUseSecretKey(!useSecretKey());
+            Grasscutter.getLogger()
+                    .info(
+                            "Client {} is now talking on the {} key - following it.",
+                            this.getAddress(),
+                            useSecretKey() ? "session" : "dispatch");
+            return;
+        }
+        // Neither key works, so hand the caller the primary decode and let it report the bad magic.
+        Crypto.xor(bytes, fallback);
+        Crypto.xor(bytes, primary);
+    }
+
+    private static int readMagic(byte[] bytes) {
+        return ((bytes[0] & 0xFF) << 8) | (bytes[1] & 0xFF);
+    }
+
     @Override
     public void handleReceive(byte[] bytes) {
         if (Grasscutter.getConfig().server.game.useXorEncryption) {
-            Crypto.xor(bytes, useSecretKey() ? this.encryptKey : Crypto.DISPATCH_KEY);
+            decryptWithEitherKey(bytes);
         }
         ByteBuf packet = Unpooled.wrappedBuffer(bytes);
 
@@ -181,6 +240,24 @@ public class GameSession implements GameSessionManager.KcpChannel {
                 int pktStart = packet.readerIndex();
                 int const1 = packet.readShort();
                 if (const1 != 17767) {
+                    // A frame that does not start with the magic usually means the key is wrong, not
+                    // the packet: a game update can ship a new dispatch key, and then every frame
+                    // decrypts to noise. With packet logging off that failure was completely silent,
+                    // which reads exactly like "the client never connected" - a different problem with
+                    // a different fix. So say it once per session regardless, and hand over the first
+                    // bytes, which is what a key has to be recovered from.
+                    if (!this.reportedBadMagic) {
+                        this.reportedBadMagic = true;
+                        Grasscutter.getLogger()
+                                .warn(
+                                        "A {}-byte frame from {} did not decrypt (magic {}, expected 17767) - the {} key does not match this client. First bytes: {}",
+                                        bytes.length,
+                                        this.getAddress(),
+                                        const1,
+                                        useSecretKey() ? "session" : "dispatch",
+                                        Utils.bytesToHex(
+                                                java.util.Arrays.copyOf(bytes, Math.min(bytes.length, 32))));
+                    }
                     if (allDebug) {
                         int badOffset = packet.readerIndex() - 2;
                         Grasscutter.getLogger()
@@ -276,6 +353,15 @@ public class GameSession implements GameSessionManager.KcpChannel {
 
     public boolean isActive() {
         return getState() == SessionState.ACTIVE;
+    }
+
+    /**
+     * Whether the connection is still open, which is a different question from {@link #isActive()} -
+     * that one asks whether the player has finished logging in. Anything working the handshake, in
+     * front of login, has to ask this one instead.
+     */
+    public boolean isConnected() {
+        return this.tunnel != null;
     }
 
     public enum SessionState {

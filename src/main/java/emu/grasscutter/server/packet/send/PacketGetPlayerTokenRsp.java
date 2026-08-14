@@ -1,91 +1,90 @@
 package emu.grasscutter.server.packet.send;
 
 import com.google.protobuf.ByteString;
-import com.google.protobuf.CodedOutputStream;
+import emu.grasscutter.GameConstants;
 import emu.grasscutter.net.packet.*;
+import emu.grasscutter.net.proto.GetPlayerTokenRspOuterClass.GetPlayerTokenRsp;
 import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.utils.Crypto;
-import java.io.ByteArrayOutputStream;
 
+/**
+ * GetPlayerTokenRsp for 7.0 (CmdId 6000).
+ *
+ * <p>Built from the regenerated proto rather than hand-packed. It was hand-packed for a while
+ * because the tree had no 7.0 protos and the 6.7 generated class would have silently serialised 6.7
+ * field numbers - `token` at 496, which is really `birthday`, and `sign` at 1477, which is really
+ * `client_ip_str`. That is why the client received neither and the handshake never completed.
+ */
 public class PacketGetPlayerTokenRsp extends BasePacket {
 
-    // 6.7 field numbers (from live capture GetPlayerTokenRsp; cross-verified vs deob)
-    private static final int F_TOKEN                     = 6;
-    private static final int F_SECURITY_CMD_BUFFER       = 10;
-    private static final int F_PLATFORM_TYPE             = 4;
-    private static final int F_UID                       = 8;
-    private static final int F_CLIENT_IP_STR             = 1046;
-    private static final int F_CLIENT_VERSION_RANDOM_KEY = 150;
-    private static final int F_COUNTRY_CODE              = 1013;
-    private static final int F_KEY_ID                    = 375;
-    private static final int F_SERVER_RAND_KEY           = 846;
-    private static final int F_SIGN                      = 145;
-
+    /** No key exchange: the seed travels in the clear, the old pre-RSA way. */
     public PacketGetPlayerTokenRsp(GameSession session, int keyId) {
         super(PacketOpcodes.GetPlayerTokenRsp, true);
         this.setUseDispatchKey(true);
-        this.setData(buildRsp(
-            session.getPlayer().getUid(),
-            session.getAccount().getToken(),
-            new byte[0], keyId, 3, "US",
-            session.getAddress().getAddress().getHostAddress(),
-            "", "", "c25-314dd05b0b5f"
-        ));
+        this.setData(build(session, 0, "", 0, null, null, keyId));
     }
 
+    /** Refusal - the client shows retcode and msg, plus black_uid_end_time when it is a ban. */
     public PacketGetPlayerTokenRsp(GameSession session, int retcode, String msg, int blackEndTime) {
         super(PacketOpcodes.GetPlayerTokenRsp, true);
         this.setUseDispatchKey(true);
-        this.setData(buildRsp(
-            session.getPlayer().getUid(),
-            session.getAccount().getToken(),
-            new byte[0], 0, 3, "US",
-            session.getAddress().getAddress().getHostAddress(),
-            "", "", "c25-314dd05b0b5f"
-        ));
+        this.setData(build(session, retcode, msg, blackEndTime, null, null, 0));
     }
 
+    /** RSA key exchange: the seed is encrypted under the client's public key and signed. */
     public PacketGetPlayerTokenRsp(
-        GameSession session, String encryptedSeed, String encryptedSeedSign, int keyId) {
+            GameSession session, String encryptedSeed, String encryptedSeedSign, int keyId) {
         super(PacketOpcodes.GetPlayerTokenRsp, true);
         this.setUseDispatchKey(true);
-        this.setData(buildRsp(
-            session.getPlayer().getUid(),
-            session.getAccount().getToken(),
-            Crypto.ENCRYPT_SEED_BUFFER,
-            keyId, 3, "US",
-            session.getAddress().getAddress().getHostAddress(),
-            encryptedSeed,
-            encryptedSeedSign,
-            "c25-314dd05b0b5f"
-        ));
+        this.setData(build(session, 0, "", 0, encryptedSeed, encryptedSeedSign, keyId));
     }
 
-    private static byte[] buildRsp(
-        int uid, String token, byte[] secCmdBuf, int keyId, int platformType,
-        String countryCode, String clientIpStr, String serverRandKey,
-        String sign, String clientVersionRandomKey) {
-        try {
-            ByteArrayOutputStream baos = new ByteArrayOutputStream(2048);
-            CodedOutputStream cos = CodedOutputStream.newInstance(baos);
-            cos.writeString(F_TOKEN,                     token);
-            if (secCmdBuf.length > 0)
-                cos.writeBytes(F_SECURITY_CMD_BUFFER,    ByteString.copyFrom(secCmdBuf));
-            cos.writeUInt32(F_PLATFORM_TYPE,             platformType);
-            cos.writeUInt32(F_UID,                       uid);
-            cos.writeString(F_CLIENT_IP_STR,             clientIpStr);
-            cos.writeString(F_CLIENT_VERSION_RANDOM_KEY, clientVersionRandomKey);
-            cos.writeString(F_COUNTRY_CODE,              countryCode);
-            if (keyId > 0)
-                cos.writeUInt32(F_KEY_ID,                keyId);
-            if (!serverRandKey.isEmpty())
-                cos.writeString(F_SERVER_RAND_KEY,       serverRandKey);
-            if (!sign.isEmpty())
-                cos.writeString(F_SIGN,                  sign);
-            cos.flush();
-            return baos.toByteArray();
-        } catch (Exception e) {
-            throw new RuntimeException("buildRsp failed", e);
+    private static GetPlayerTokenRsp build(
+            GameSession session,
+            int retcode,
+            String msg,
+            int blackEndTime,
+            String serverRandKey,
+            String sign,
+            int keyId) {
+        var p = GetPlayerTokenRsp.newBuilder();
+
+        if (retcode != 0) p.setRetcode(retcode);
+        if (msg != null && !msg.isEmpty()) p.setMsg(msg);
+        if (blackEndTime != 0) p.setBlackUidEndTime(blackEndTime);
+
+        var account = session.getAccount();
+        if (account != null) {
+            if (account.getId() != null) p.setAccountUid(account.getId());
+            if (account.getToken() != null) p.setToken(account.getToken());
         }
+
+        var player = session.getPlayer();
+        if (player != null) {
+            p.setUid(player.getUid());
+            p.setIsProficientPlayer(player.getNickname() != null && !player.getNickname().isEmpty());
+        }
+
+        p.setAccountType(1)
+                .setPlatformType(3)
+                .setRegPlatform(3)
+                .setChannelId(1)
+                .setCountryCode("US")
+                .setClientVersionRandomKey("c25-314dd05b0b5f")
+                .setClientIpStr(session.getAddress().getAddress().getHostAddress())
+                .setAuthAppid("csc")
+                .setKONDBANCCAH("OSRELWin" + GameConstants.VERSION);
+
+        if (serverRandKey != null && !serverRandKey.isEmpty()) {
+            // The negotiated path: the client decrypts the seed with its own private key, so the
+            // plaintext seed must NOT also be present.
+            p.setKeyId(keyId).setServerRandKey(serverRandKey);
+            if (sign != null && !sign.isEmpty()) p.setSign(sign);
+        } else if (retcode == 0) {
+            p.setSecretKeySeed(Crypto.ENCRYPT_SEED)
+                    .setSecurityCmdBuffer(ByteString.copyFrom(Crypto.ENCRYPT_SEED_BUFFER));
+        }
+
+        return p.build();
     }
 }
