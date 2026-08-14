@@ -125,6 +125,16 @@ public class Player implements PlayerHook, FieldFetch {
     @Getter @Setter private Map<Integer, Set<Integer>> unlockedScenePoints;
     @Getter @Setter private List<Integer> chatEmojiIdList;
 
+    /**
+     * Main quests marked finished for the CLIENT only, with no quest data behind them.
+     *
+     * <p>Region access is quest-gated, and a region released after this server's resource set was
+     * cut has no quest data here - the quest system cannot finish what it does not know about, so
+     * the client keeps the barrier up. These ids are replayed to the client on every login, which is
+     * what makes the unlock survive a relog.
+     */
+    @Getter private Set<Integer> forcedFinishedQuests;
+
     @Transient private long nextGuid = 0;
     @Transient @Getter @Setter private int peerId;
     @Transient private World world;
@@ -255,6 +265,7 @@ public class Player implements PlayerHook, FieldFetch {
         this.sceneTags = new HashMap<>();
         this.unlockedSceneAreas = new HashMap<>();
         this.unlockedScenePoints = new HashMap<>();
+        this.forcedFinishedQuests = new HashSet<>();
         this.chatEmojiIdList = new ArrayList<>();
         this.playerProgress = new PlayerProgress();
         this.activeQuestTimers = new HashSet<>();
@@ -1381,6 +1392,11 @@ public class Player implements PlayerHook, FieldFetch {
         this.getProgressManager().onPlayerLogin();
 
         session.send(new PacketFinishedParentQuestNotify(this));
+        // Replayed every login: these have no server-side quest data, so nothing else would tell
+        // the client about them and the region would lock itself again.
+        if (this.forcedFinishedQuests != null && !this.forcedFinishedQuests.isEmpty()) {
+            emu.grasscutter.game.quest.ForcedQuests.notify(this, this.forcedFinishedQuests);
+        }
         session.send(new PacketBattlePassAllDataNotify(this));
         session.send(new PacketQuestListNotify(this));
         session.send(new PacketQuestGlobalVarNotify(this));

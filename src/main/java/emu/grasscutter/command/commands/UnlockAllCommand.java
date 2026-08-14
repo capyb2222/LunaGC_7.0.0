@@ -79,7 +79,30 @@ public final class UnlockAllCommand implements CommandHandler {
             targetPlayer.sendPacket(new PacketAvatarFetterDataNotify(avatar));
         }
 
+        // Scene tags. New regions are routinely gated behind these - scene 3 alone ships 635 tags
+        // with only 194 valid by default, so leaving them out left a lot of the map switched off.
+        GameData.getSceneTagDataMap()
+                .values()
+                .forEach(
+                        tag ->
+                                targetPlayer
+                                        .getSceneTags()
+                                        .computeIfAbsent(tag.getSceneId(), k -> new HashSet<>())
+                                        .add(tag.getId()));
+        targetPlayer.sendPacket(new PacketPlayerWorldSceneInfoListNotify(targetPlayer));
+
+        // Region access is quest-gated, and a region released after this server's resource set was
+        // cut has no quest data here at all - so the quest system cannot finish it and the client
+        // keeps the barrier up. Telling the client directly is the only lever available.
+        var quests = emu.grasscutter.game.quest.ForcedQuests.allMainQuests();
+        emu.grasscutter.game.quest.ForcedQuests.apply(targetPlayer, quests);
+
+        targetPlayer.save();
+
         CommandHandler.sendMessage(
                 sender, translate(sender, "commands.unlockall.success", targetPlayer.getNickname()));
+        CommandHandler.sendMessage(
+                sender,
+                "Also unlocked every scene tag and force-finished every main quest.");
     }
 }
