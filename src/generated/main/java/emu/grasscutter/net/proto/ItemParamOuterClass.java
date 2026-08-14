@@ -18,8 +18,16 @@ public final class ItemParamOuterClass {
       // @@protoc_insertion_point(interface_extends:ItemParam)
       com.google.protobuf.MessageOrBuilder {
 
+    /**
+     * <code>uint32 item_id = 1;</code>
+     * @return The itemId.
+     */
     int getItemId();
 
+    /**
+     * <code>uint32 count = 2;</code>
+     * @return The count.
+     */
     int getCount();
   }
   /**
@@ -111,7 +119,10 @@ public final class ItemParamOuterClass {
 
     public static final int ITEM_ID_FIELD_NUMBER = 1;
     private int itemId_;
-
+    /**
+     * <code>uint32 item_id = 1;</code>
+     * @return The itemId.
+     */
     @java.lang.Override
     public int getItemId() {
       return itemId_;
@@ -119,7 +130,10 @@ public final class ItemParamOuterClass {
 
     public static final int COUNT_FIELD_NUMBER = 2;
     private int count_;
-
+    /**
+     * <code>uint32 count = 2;</code>
+     * @return The count.
+     */
     @java.lang.Override
     public int getCount() {
       return count_;
@@ -445,42 +459,62 @@ public final class ItemParamOuterClass {
       }
 
       private int itemId_ ;
-
+      /**
+       * <code>uint32 item_id = 1;</code>
+       * @return The itemId.
+       */
       @java.lang.Override
       public int getItemId() {
         return itemId_;
       }
-
+      /**
+       * <code>uint32 item_id = 1;</code>
+       * @param value The itemId to set.
+       * @return This builder for chaining.
+       */
       public Builder setItemId(int value) {
-
+        
         itemId_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint32 item_id = 1;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearItemId() {
-
+        
         itemId_ = 0;
         onChanged();
         return this;
       }
 
       private int count_ ;
-
+      /**
+       * <code>uint32 count = 2;</code>
+       * @return The count.
+       */
       @java.lang.Override
       public int getCount() {
         return count_;
       }
-
+      /**
+       * <code>uint32 count = 2;</code>
+       * @param value The count to set.
+       * @return This builder for chaining.
+       */
       public Builder setCount(int value) {
-
+        
         count_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint32 count = 2;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearCount() {
-
+        
         count_ = 0;
         onChanged();
         return this;
@@ -496,6 +530,7 @@ public final class ItemParamOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:ItemParam)
     }
@@ -539,7 +574,7 @@ public final class ItemParamOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ItemParam_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ItemParam_fieldAccessorTable;
 
@@ -552,8 +587,8 @@ public final class ItemParamOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\017ItemParam.proto\"+\n\tItemParam\022\017\n\007item_i" +
-      "d\030\001 \001(\r\022\r\n\005count\030\002 \001(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "d\030\001 \001(\r\022\r\n\005count\030\002 \001(\rB0\n\031emu.grasscutte" +
+      "r.net.protoB\023ItemParamOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

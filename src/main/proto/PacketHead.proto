@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PacketHeadOuterClass";
+
+message PacketHead {
+	uint32 client_sequence_id = 3;
+	uint64 sent_ms = 6;
+	uint32 NAOICAHMEBA = 7;
+	uint32 NHBKNKEIPAB = 8;
+	uint32 KIBNBAGOICF = 9;
+	uint32 IJAEGLBPOBJ = 10;
+}

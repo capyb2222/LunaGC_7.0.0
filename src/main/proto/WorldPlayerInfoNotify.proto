@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "WorldPlayerInfoNotifyOuterClass";
+
+import "OnlinePlayerInfo.proto";
+import "PlayerWidgetInfo.proto";
+import "_BeyondPlayerInfo.proto";
+
+message WorldPlayerInfoNotify {
+	repeated uint32 player_uid_list = 6;
+	repeated PlayerWidgetInfo player_widget_info_list = 7;
+	repeated _BeyondPlayerInfo _beyond_player_info_list = 10;
+	repeated OnlinePlayerInfo player_info_list = 12;
+}

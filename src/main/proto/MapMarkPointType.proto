@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MapMarkPointTypeOuterClass";
+
+enum MapMarkPointType {
+	MapMarkPointType_NPC = 0;
+	MapMarkPointType_QUEST = 1;
+	MapMarkPointType_SPECIAL = 2;
+	MapMarkPointType_MINE = 3;
+	MapMarkPointType_COLLECTION = 4;
+	MapMarkPointType_MONSTER = 5;
+	MapMarkPointType_FISH_POOL = 6;
+}

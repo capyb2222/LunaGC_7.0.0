@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "LOAAPGCPMIOOuterClass";
+
+import "DACMDDCLPNH.proto";
+import "MHJHCJJGOAD.proto";
+
+message LOAAPGCPMIO {
+	DACMDDCLPNH JJFAGNLJDMN = 2;
+	uint32 DEMNDDHDDKF = 5;
+	MHJHCJJGOAD OIIIOAEMICJ = 9;
+	uint32 progress = 10;
+	uint32 NJIAIJLAFEI = 14;
+	bool is_accept = 15;
+}

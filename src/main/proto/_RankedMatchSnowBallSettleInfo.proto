@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_RankedMatchSnowBallSettleInfoOuterClass";
+
+import "GalleryStopReason.proto";
+
+message _RankedMatchSnowBallSettleInfo {
+	bool is_new_record = 2;
+	GalleryStopReason reason = 8;
+	uint32 score = 11;
+	uint32 level_id = 12;
+	uint32 item_num = 14;
+}

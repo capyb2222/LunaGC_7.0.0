@@ -15,10 +15,6 @@ public final class ExpeditionStateOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   /**
-   * <pre>
-   * Obf: OMJCJJGBBNI
-   * </pre>
-   *
    * Protobuf enum {@code ExpeditionState}
    */
   public enum ExpeditionState
@@ -166,7 +162,8 @@ public final class ExpeditionStateOuterClass {
       "ate\022\023\n\017EXPEDITION_NONE\020\000\022\026\n\022EXPEDITION_S" +
       "TARTED\020\001\022\027\n\023EXPEDITION_FINISHED\020\002\022\027\n\023EXP" +
       "EDITION_REWARDED\020\003\022\025\n\021EXPEDITION_LOCKED\020" +
-      "\004B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\004B6\n\031emu.grasscutter.net.protoB\031Expediti" +
+      "onStateOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

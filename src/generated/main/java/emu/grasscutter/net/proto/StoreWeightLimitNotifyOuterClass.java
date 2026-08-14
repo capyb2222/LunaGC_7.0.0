@@ -19,26 +19,59 @@ public final class StoreWeightLimitNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 ELBMPCBENEO = 16;</code>
-     * @return The eLBMPCBENEO.
+     * <code>uint32 DKIEKFJMMIH = 2;</code>
+     * @return The dKIEKFJMMIH.
      */
-    int getELBMPCBENEO();
+    int getDKIEKFJMMIH();
 
+    /**
+     * <code>uint32 KADABCKKMGA = 3;</code>
+     * @return The kADABCKKMGA.
+     */
+    int getKADABCKKMGA();
+
+    /**
+     * <code>uint32 reliquary_count_limit = 4;</code>
+     * @return The reliquaryCountLimit.
+     */
     int getReliquaryCountLimit();
 
-    int getFurnitureCountLimit();
+    /**
+     * <code>uint32 OAJHCKBKFPP = 6;</code>
+     * @return The oAJHCKBKFPP.
+     */
+    int getOAJHCKBKFPP();
 
+    /**
+     * <code>.StoreType store_type = 8;</code>
+     * @return The enum numeric value on the wire for storeType.
+     */
     int getStoreTypeValue();
-
+    /**
+     * <code>.StoreType store_type = 8;</code>
+     * @return The storeType.
+     */
     emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType getStoreType();
 
+    /**
+     * <code>uint32 weight_limit = 9;</code>
+     * @return The weightLimit.
+     */
     int getWeightLimit();
+
+    /**
+     * <code>uint32 furniture_count_limit = 14;</code>
+     * @return The furnitureCountLimit.
+     */
+    int getFurnitureCountLimit();
+
+    /**
+     * <code>uint32 _beyond_hall_facility_count_limit = 15;</code>
+     * @return The beyondHallFacilityCountLimit.
+     */
+    int getBeyondHallFacilityCountLimit();
   }
   /**
-   * <pre>
-   * CmdId: 20357
-   * </pre>
-   *
    * Protobuf type {@code StoreWeightLimitNotify}
    */
   public static final class StoreWeightLimitNotify extends
@@ -84,22 +117,27 @@ public final class StoreWeightLimitNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 112: {
+            case 16: {
 
-              furnitureCountLimit_ = input.readUInt32();
-              break;
-            }
-            case 56: {
-
-              weightLimit_ = input.readUInt32();
-              break;
-            }
-            case 128: {
-
-              eLBMPCBENEO_ = input.readUInt32();
+              dKIEKFJMMIH_ = input.readUInt32();
               break;
             }
             case 24: {
+
+              kADABCKKMGA_ = input.readUInt32();
+              break;
+            }
+            case 32: {
+
+              reliquaryCountLimit_ = input.readUInt32();
+              break;
+            }
+            case 48: {
+
+              oAJHCKBKFPP_ = input.readUInt32();
+              break;
+            }
+            case 64: {
               int rawValue = input.readEnum();
 
               storeType_ = rawValue;
@@ -107,7 +145,17 @@ public final class StoreWeightLimitNotifyOuterClass {
             }
             case 72: {
 
-              reliquaryCountLimit_ = input.readUInt32();
+              weightLimit_ = input.readUInt32();
+              break;
+            }
+            case 112: {
+
+              furnitureCountLimit_ = input.readUInt32();
+              break;
+            }
+            case 120: {
+
+              BeyondHallFacilityCountLimit_ = input.readUInt32();
               break;
             }
             default: {
@@ -142,52 +190,100 @@ public final class StoreWeightLimitNotifyOuterClass {
               emu.grasscutter.net.proto.StoreWeightLimitNotifyOuterClass.StoreWeightLimitNotify.class, emu.grasscutter.net.proto.StoreWeightLimitNotifyOuterClass.StoreWeightLimitNotify.Builder.class);
     }
 
-    public static final int ELBMPCBENEO_FIELD_NUMBER = 16;
-    private int eLBMPCBENEO_;
+    public static final int DKIEKFJMMIH_FIELD_NUMBER = 2;
+    private int dKIEKFJMMIH_;
     /**
-     * <code>uint32 ELBMPCBENEO = 16;</code>
-     * @return The eLBMPCBENEO.
+     * <code>uint32 DKIEKFJMMIH = 2;</code>
+     * @return The dKIEKFJMMIH.
      */
     @java.lang.Override
-    public int getELBMPCBENEO() {
-      return eLBMPCBENEO_;
+    public int getDKIEKFJMMIH() {
+      return dKIEKFJMMIH_;
     }
 
-    public static final int RELIQUARY_COUNT_LIMIT_FIELD_NUMBER = 9;
-    private int reliquaryCountLimit_;
+    public static final int KADABCKKMGA_FIELD_NUMBER = 3;
+    private int kADABCKKMGA_;
+    /**
+     * <code>uint32 KADABCKKMGA = 3;</code>
+     * @return The kADABCKKMGA.
+     */
+    @java.lang.Override
+    public int getKADABCKKMGA() {
+      return kADABCKKMGA_;
+    }
 
+    public static final int RELIQUARY_COUNT_LIMIT_FIELD_NUMBER = 4;
+    private int reliquaryCountLimit_;
+    /**
+     * <code>uint32 reliquary_count_limit = 4;</code>
+     * @return The reliquaryCountLimit.
+     */
     @java.lang.Override
     public int getReliquaryCountLimit() {
       return reliquaryCountLimit_;
     }
 
-    public static final int FURNITURE_COUNT_LIMIT_FIELD_NUMBER = 14;
-    private int furnitureCountLimit_;
-
+    public static final int OAJHCKBKFPP_FIELD_NUMBER = 6;
+    private int oAJHCKBKFPP_;
+    /**
+     * <code>uint32 OAJHCKBKFPP = 6;</code>
+     * @return The oAJHCKBKFPP.
+     */
     @java.lang.Override
-    public int getFurnitureCountLimit() {
-      return furnitureCountLimit_;
+    public int getOAJHCKBKFPP() {
+      return oAJHCKBKFPP_;
     }
 
-    public static final int STORE_TYPE_FIELD_NUMBER = 3;
+    public static final int STORE_TYPE_FIELD_NUMBER = 8;
     private int storeType_;
-
+    /**
+     * <code>.StoreType store_type = 8;</code>
+     * @return The enum numeric value on the wire for storeType.
+     */
     @java.lang.Override public int getStoreTypeValue() {
       return storeType_;
     }
-
+    /**
+     * <code>.StoreType store_type = 8;</code>
+     * @return The storeType.
+     */
     @java.lang.Override public emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType getStoreType() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType result = emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType.valueOf(storeType_);
       return result == null ? emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType.UNRECOGNIZED : result;
     }
 
-    public static final int WEIGHT_LIMIT_FIELD_NUMBER = 7;
+    public static final int WEIGHT_LIMIT_FIELD_NUMBER = 9;
     private int weightLimit_;
-
+    /**
+     * <code>uint32 weight_limit = 9;</code>
+     * @return The weightLimit.
+     */
     @java.lang.Override
     public int getWeightLimit() {
       return weightLimit_;
+    }
+
+    public static final int FURNITURE_COUNT_LIMIT_FIELD_NUMBER = 14;
+    private int furnitureCountLimit_;
+    /**
+     * <code>uint32 furniture_count_limit = 14;</code>
+     * @return The furnitureCountLimit.
+     */
+    @java.lang.Override
+    public int getFurnitureCountLimit() {
+      return furnitureCountLimit_;
+    }
+
+    public static final int _BEYOND_HALL_FACILITY_COUNT_LIMIT_FIELD_NUMBER = 15;
+    private int BeyondHallFacilityCountLimit_;
+    /**
+     * <code>uint32 _beyond_hall_facility_count_limit = 15;</code>
+     * @return The beyondHallFacilityCountLimit.
+     */
+    @java.lang.Override
+    public int getBeyondHallFacilityCountLimit() {
+      return BeyondHallFacilityCountLimit_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -204,20 +300,29 @@ public final class StoreWeightLimitNotifyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (reliquaryCountLimit_ != 0) {
-        output.writeUInt32(9, reliquaryCountLimit_);
+      if (dKIEKFJMMIH_ != 0) {
+        output.writeUInt32(2, dKIEKFJMMIH_);
       }
-      if (weightLimit_ != 0) {
-        output.writeUInt32(7, weightLimit_);
+      if (kADABCKKMGA_ != 0) {
+        output.writeUInt32(3, kADABCKKMGA_);
+      }
+      if (reliquaryCountLimit_ != 0) {
+        output.writeUInt32(4, reliquaryCountLimit_);
+      }
+      if (oAJHCKBKFPP_ != 0) {
+        output.writeUInt32(6, oAJHCKBKFPP_);
       }
       if (storeType_ != emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType.StoreType_STORE_NONE.getNumber()) {
-        output.writeEnum(3, storeType_);
+        output.writeEnum(8, storeType_);
+      }
+      if (weightLimit_ != 0) {
+        output.writeUInt32(9, weightLimit_);
       }
       if (furnitureCountLimit_ != 0) {
         output.writeUInt32(14, furnitureCountLimit_);
       }
-      if (eLBMPCBENEO_ != 0) {
-        output.writeUInt32(16, eLBMPCBENEO_);
+      if (BeyondHallFacilityCountLimit_ != 0) {
+        output.writeUInt32(15, BeyondHallFacilityCountLimit_);
       }
       unknownFields.writeTo(output);
     }
@@ -228,25 +333,37 @@ public final class StoreWeightLimitNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (dKIEKFJMMIH_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(2, dKIEKFJMMIH_);
+      }
+      if (kADABCKKMGA_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(3, kADABCKKMGA_);
+      }
       if (reliquaryCountLimit_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, reliquaryCountLimit_);
+          .computeUInt32Size(4, reliquaryCountLimit_);
       }
-      if (weightLimit_ != 0) {
+      if (oAJHCKBKFPP_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, weightLimit_);
+          .computeUInt32Size(6, oAJHCKBKFPP_);
       }
       if (storeType_ != emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType.StoreType_STORE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(3, storeType_);
+          .computeEnumSize(8, storeType_);
+      }
+      if (weightLimit_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(9, weightLimit_);
       }
       if (furnitureCountLimit_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(14, furnitureCountLimit_);
       }
-      if (eLBMPCBENEO_ != 0) {
+      if (BeyondHallFacilityCountLimit_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(16, eLBMPCBENEO_);
+          .computeUInt32Size(15, BeyondHallFacilityCountLimit_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -263,15 +380,21 @@ public final class StoreWeightLimitNotifyOuterClass {
       }
       emu.grasscutter.net.proto.StoreWeightLimitNotifyOuterClass.StoreWeightLimitNotify other = (emu.grasscutter.net.proto.StoreWeightLimitNotifyOuterClass.StoreWeightLimitNotify) obj;
 
-      if (getELBMPCBENEO()
-          != other.getELBMPCBENEO()) return false;
+      if (getDKIEKFJMMIH()
+          != other.getDKIEKFJMMIH()) return false;
+      if (getKADABCKKMGA()
+          != other.getKADABCKKMGA()) return false;
       if (getReliquaryCountLimit()
           != other.getReliquaryCountLimit()) return false;
-      if (getFurnitureCountLimit()
-          != other.getFurnitureCountLimit()) return false;
+      if (getOAJHCKBKFPP()
+          != other.getOAJHCKBKFPP()) return false;
       if (storeType_ != other.storeType_) return false;
       if (getWeightLimit()
           != other.getWeightLimit()) return false;
+      if (getFurnitureCountLimit()
+          != other.getFurnitureCountLimit()) return false;
+      if (getBeyondHallFacilityCountLimit()
+          != other.getBeyondHallFacilityCountLimit()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -283,16 +406,22 @@ public final class StoreWeightLimitNotifyOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + ELBMPCBENEO_FIELD_NUMBER;
-      hash = (53 * hash) + getELBMPCBENEO();
+      hash = (37 * hash) + DKIEKFJMMIH_FIELD_NUMBER;
+      hash = (53 * hash) + getDKIEKFJMMIH();
+      hash = (37 * hash) + KADABCKKMGA_FIELD_NUMBER;
+      hash = (53 * hash) + getKADABCKKMGA();
       hash = (37 * hash) + RELIQUARY_COUNT_LIMIT_FIELD_NUMBER;
       hash = (53 * hash) + getReliquaryCountLimit();
-      hash = (37 * hash) + FURNITURE_COUNT_LIMIT_FIELD_NUMBER;
-      hash = (53 * hash) + getFurnitureCountLimit();
+      hash = (37 * hash) + OAJHCKBKFPP_FIELD_NUMBER;
+      hash = (53 * hash) + getOAJHCKBKFPP();
       hash = (37 * hash) + STORE_TYPE_FIELD_NUMBER;
       hash = (53 * hash) + storeType_;
       hash = (37 * hash) + WEIGHT_LIMIT_FIELD_NUMBER;
       hash = (53 * hash) + getWeightLimit();
+      hash = (37 * hash) + FURNITURE_COUNT_LIMIT_FIELD_NUMBER;
+      hash = (53 * hash) + getFurnitureCountLimit();
+      hash = (37 * hash) + _BEYOND_HALL_FACILITY_COUNT_LIMIT_FIELD_NUMBER;
+      hash = (53 * hash) + getBeyondHallFacilityCountLimit();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -389,10 +518,6 @@ public final class StoreWeightLimitNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 20357
-     * </pre>
-     *
      * Protobuf type {@code StoreWeightLimitNotify}
      */
     public static final class Builder extends
@@ -430,15 +555,21 @@ public final class StoreWeightLimitNotifyOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        eLBMPCBENEO_ = 0;
+        dKIEKFJMMIH_ = 0;
+
+        kADABCKKMGA_ = 0;
 
         reliquaryCountLimit_ = 0;
 
-        furnitureCountLimit_ = 0;
+        oAJHCKBKFPP_ = 0;
 
         storeType_ = 0;
 
         weightLimit_ = 0;
+
+        furnitureCountLimit_ = 0;
+
+        BeyondHallFacilityCountLimit_ = 0;
 
         return this;
       }
@@ -466,11 +597,14 @@ public final class StoreWeightLimitNotifyOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.StoreWeightLimitNotifyOuterClass.StoreWeightLimitNotify buildPartial() {
         emu.grasscutter.net.proto.StoreWeightLimitNotifyOuterClass.StoreWeightLimitNotify result = new emu.grasscutter.net.proto.StoreWeightLimitNotifyOuterClass.StoreWeightLimitNotify(this);
-        result.eLBMPCBENEO_ = eLBMPCBENEO_;
+        result.dKIEKFJMMIH_ = dKIEKFJMMIH_;
+        result.kADABCKKMGA_ = kADABCKKMGA_;
         result.reliquaryCountLimit_ = reliquaryCountLimit_;
-        result.furnitureCountLimit_ = furnitureCountLimit_;
+        result.oAJHCKBKFPP_ = oAJHCKBKFPP_;
         result.storeType_ = storeType_;
         result.weightLimit_ = weightLimit_;
+        result.furnitureCountLimit_ = furnitureCountLimit_;
+        result.BeyondHallFacilityCountLimit_ = BeyondHallFacilityCountLimit_;
         onBuilt();
         return result;
       }
@@ -519,20 +653,29 @@ public final class StoreWeightLimitNotifyOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.StoreWeightLimitNotifyOuterClass.StoreWeightLimitNotify other) {
         if (other == emu.grasscutter.net.proto.StoreWeightLimitNotifyOuterClass.StoreWeightLimitNotify.getDefaultInstance()) return this;
-        if (other.getELBMPCBENEO() != 0) {
-          setELBMPCBENEO(other.getELBMPCBENEO());
+        if (other.getDKIEKFJMMIH() != 0) {
+          setDKIEKFJMMIH(other.getDKIEKFJMMIH());
+        }
+        if (other.getKADABCKKMGA() != 0) {
+          setKADABCKKMGA(other.getKADABCKKMGA());
         }
         if (other.getReliquaryCountLimit() != 0) {
           setReliquaryCountLimit(other.getReliquaryCountLimit());
         }
-        if (other.getFurnitureCountLimit() != 0) {
-          setFurnitureCountLimit(other.getFurnitureCountLimit());
+        if (other.getOAJHCKBKFPP() != 0) {
+          setOAJHCKBKFPP(other.getOAJHCKBKFPP());
         }
         if (other.storeType_ != 0) {
           setStoreTypeValue(other.getStoreTypeValue());
         }
         if (other.getWeightLimit() != 0) {
           setWeightLimit(other.getWeightLimit());
+        }
+        if (other.getFurnitureCountLimit() != 0) {
+          setFurnitureCountLimit(other.getFurnitureCountLimit());
+        }
+        if (other.getBeyondHallFacilityCountLimit() != 0) {
+          setBeyondHallFacilityCountLimit(other.getBeyondHallFacilityCountLimit());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -563,133 +706,273 @@ public final class StoreWeightLimitNotifyOuterClass {
         return this;
       }
 
-      private int eLBMPCBENEO_ ;
+      private int dKIEKFJMMIH_ ;
       /**
-       * <code>uint32 ELBMPCBENEO = 16;</code>
-       * @return The eLBMPCBENEO.
+       * <code>uint32 DKIEKFJMMIH = 2;</code>
+       * @return The dKIEKFJMMIH.
        */
       @java.lang.Override
-      public int getELBMPCBENEO() {
-        return eLBMPCBENEO_;
+      public int getDKIEKFJMMIH() {
+        return dKIEKFJMMIH_;
       }
       /**
-       * <code>uint32 ELBMPCBENEO = 16;</code>
-       * @param value The eLBMPCBENEO to set.
+       * <code>uint32 DKIEKFJMMIH = 2;</code>
+       * @param value The dKIEKFJMMIH to set.
        * @return This builder for chaining.
        */
-      public Builder setELBMPCBENEO(int value) {
-
-        eLBMPCBENEO_ = value;
+      public Builder setDKIEKFJMMIH(int value) {
+        
+        dKIEKFJMMIH_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 ELBMPCBENEO = 16;</code>
+       * <code>uint32 DKIEKFJMMIH = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearELBMPCBENEO() {
+      public Builder clearDKIEKFJMMIH() {
+        
+        dKIEKFJMMIH_ = 0;
+        onChanged();
+        return this;
+      }
 
-        eLBMPCBENEO_ = 0;
+      private int kADABCKKMGA_ ;
+      /**
+       * <code>uint32 KADABCKKMGA = 3;</code>
+       * @return The kADABCKKMGA.
+       */
+      @java.lang.Override
+      public int getKADABCKKMGA() {
+        return kADABCKKMGA_;
+      }
+      /**
+       * <code>uint32 KADABCKKMGA = 3;</code>
+       * @param value The kADABCKKMGA to set.
+       * @return This builder for chaining.
+       */
+      public Builder setKADABCKKMGA(int value) {
+        
+        kADABCKKMGA_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 KADABCKKMGA = 3;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearKADABCKKMGA() {
+        
+        kADABCKKMGA_ = 0;
         onChanged();
         return this;
       }
 
       private int reliquaryCountLimit_ ;
-
+      /**
+       * <code>uint32 reliquary_count_limit = 4;</code>
+       * @return The reliquaryCountLimit.
+       */
       @java.lang.Override
       public int getReliquaryCountLimit() {
         return reliquaryCountLimit_;
       }
-
+      /**
+       * <code>uint32 reliquary_count_limit = 4;</code>
+       * @param value The reliquaryCountLimit to set.
+       * @return This builder for chaining.
+       */
       public Builder setReliquaryCountLimit(int value) {
-
+        
         reliquaryCountLimit_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint32 reliquary_count_limit = 4;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearReliquaryCountLimit() {
-
+        
         reliquaryCountLimit_ = 0;
         onChanged();
         return this;
       }
 
-      private int furnitureCountLimit_ ;
-
+      private int oAJHCKBKFPP_ ;
+      /**
+       * <code>uint32 OAJHCKBKFPP = 6;</code>
+       * @return The oAJHCKBKFPP.
+       */
       @java.lang.Override
-      public int getFurnitureCountLimit() {
-        return furnitureCountLimit_;
+      public int getOAJHCKBKFPP() {
+        return oAJHCKBKFPP_;
       }
-
-      public Builder setFurnitureCountLimit(int value) {
-
-        furnitureCountLimit_ = value;
+      /**
+       * <code>uint32 OAJHCKBKFPP = 6;</code>
+       * @param value The oAJHCKBKFPP to set.
+       * @return This builder for chaining.
+       */
+      public Builder setOAJHCKBKFPP(int value) {
+        
+        oAJHCKBKFPP_ = value;
         onChanged();
         return this;
       }
-
-      public Builder clearFurnitureCountLimit() {
-
-        furnitureCountLimit_ = 0;
+      /**
+       * <code>uint32 OAJHCKBKFPP = 6;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearOAJHCKBKFPP() {
+        
+        oAJHCKBKFPP_ = 0;
         onChanged();
         return this;
       }
 
       private int storeType_ = 0;
-
+      /**
+       * <code>.StoreType store_type = 8;</code>
+       * @return The enum numeric value on the wire for storeType.
+       */
       @java.lang.Override public int getStoreTypeValue() {
         return storeType_;
       }
-
+      /**
+       * <code>.StoreType store_type = 8;</code>
+       * @param value The enum numeric value on the wire for storeType to set.
+       * @return This builder for chaining.
+       */
       public Builder setStoreTypeValue(int value) {
-
+        
         storeType_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>.StoreType store_type = 8;</code>
+       * @return The storeType.
+       */
       @java.lang.Override
       public emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType getStoreType() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType result = emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType.valueOf(storeType_);
         return result == null ? emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType.UNRECOGNIZED : result;
       }
-
+      /**
+       * <code>.StoreType store_type = 8;</code>
+       * @param value The storeType to set.
+       * @return This builder for chaining.
+       */
       public Builder setStoreType(emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType value) {
         if (value == null) {
           throw new NullPointerException();
         }
-
+        
         storeType_ = value.getNumber();
         onChanged();
         return this;
       }
-
+      /**
+       * <code>.StoreType store_type = 8;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearStoreType() {
-
+        
         storeType_ = 0;
         onChanged();
         return this;
       }
 
       private int weightLimit_ ;
-
+      /**
+       * <code>uint32 weight_limit = 9;</code>
+       * @return The weightLimit.
+       */
       @java.lang.Override
       public int getWeightLimit() {
         return weightLimit_;
       }
-
+      /**
+       * <code>uint32 weight_limit = 9;</code>
+       * @param value The weightLimit to set.
+       * @return This builder for chaining.
+       */
       public Builder setWeightLimit(int value) {
-
+        
         weightLimit_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint32 weight_limit = 9;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearWeightLimit() {
-
+        
         weightLimit_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int furnitureCountLimit_ ;
+      /**
+       * <code>uint32 furniture_count_limit = 14;</code>
+       * @return The furnitureCountLimit.
+       */
+      @java.lang.Override
+      public int getFurnitureCountLimit() {
+        return furnitureCountLimit_;
+      }
+      /**
+       * <code>uint32 furniture_count_limit = 14;</code>
+       * @param value The furnitureCountLimit to set.
+       * @return This builder for chaining.
+       */
+      public Builder setFurnitureCountLimit(int value) {
+        
+        furnitureCountLimit_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 furniture_count_limit = 14;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearFurnitureCountLimit() {
+        
+        furnitureCountLimit_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int BeyondHallFacilityCountLimit_ ;
+      /**
+       * <code>uint32 _beyond_hall_facility_count_limit = 15;</code>
+       * @return The beyondHallFacilityCountLimit.
+       */
+      @java.lang.Override
+      public int getBeyondHallFacilityCountLimit() {
+        return BeyondHallFacilityCountLimit_;
+      }
+      /**
+       * <code>uint32 _beyond_hall_facility_count_limit = 15;</code>
+       * @param value The beyondHallFacilityCountLimit to set.
+       * @return This builder for chaining.
+       */
+      public Builder setBeyondHallFacilityCountLimit(int value) {
+        
+        BeyondHallFacilityCountLimit_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 _beyond_hall_facility_count_limit = 15;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearBeyondHallFacilityCountLimit() {
+        
+        BeyondHallFacilityCountLimit_ = 0;
         onChanged();
         return this;
       }
@@ -704,6 +987,7 @@ public final class StoreWeightLimitNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:StoreWeightLimitNotify)
     }
@@ -747,7 +1031,7 @@ public final class StoreWeightLimitNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_StoreWeightLimitNotify_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_StoreWeightLimitNotify_fieldAccessorTable;
 
@@ -760,12 +1044,15 @@ public final class StoreWeightLimitNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\034StoreWeightLimitNotify.proto\032\017StoreTyp" +
-      "e.proto\"\241\001\n\026StoreWeightLimitNotify\022\023\n\013EL" +
-      "BMPCBENEO\030\020 \001(\r\022\035\n\025reliquary_count_limit" +
-      "\030\002 \001(\r\022\035\n\025furniture_count_limit\030\017 \001(\r\022\036\n" +
-      "\nstore_type\030\010 \001(\0162\n.StoreType\022\024\n\014weight_" +
-      "limit\030\007 \001(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "e.proto\"\366\001\n\026StoreWeightLimitNotify\022\023\n\013DK" +
+      "IEKFJMMIH\030\002 \001(\r\022\023\n\013KADABCKKMGA\030\003 \001(\r\022\035\n\025" +
+      "reliquary_count_limit\030\004 \001(\r\022\023\n\013OAJHCKBKF" +
+      "PP\030\006 \001(\r\022\036\n\nstore_type\030\010 \001(\0162\n.StoreType" +
+      "\022\024\n\014weight_limit\030\t \001(\r\022\035\n\025furniture_coun" +
+      "t_limit\030\016 \001(\r\022)\n!_beyond_hall_facility_c" +
+      "ount_limit\030\017 \001(\rB=\n\031emu.grasscutter.net." +
+      "protoB StoreWeightLimitNotifyOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -777,7 +1064,7 @@ public final class StoreWeightLimitNotifyOuterClass {
     internal_static_StoreWeightLimitNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_StoreWeightLimitNotify_descriptor,
-        new java.lang.String[] { "ELBMPCBENEO", "ReliquaryCountLimit", "FurnitureCountLimit", "StoreType", "WeightLimit", });
+        new java.lang.String[] { "DKIEKFJMMIH", "KADABCKKMGA", "ReliquaryCountLimit", "OAJHCKBKFPP", "StoreType", "WeightLimit", "FurnitureCountLimit", "BeyondHallFacilityCountLimit", });
     emu.grasscutter.net.proto.StoreTypeOuterClass.getDescriptor();
   }
 

@@ -18,19 +18,30 @@ public final class GetInvestigationMonsterReqOuterClass {
       // @@protoc_insertion_point(interface_extends:GetInvestigationMonsterReq)
       com.google.protobuf.MessageOrBuilder {
 
+    /**
+     * <code>repeated uint32 city_id_list = 1;</code>
+     * @return A list containing the cityIdList.
+     */
     java.util.List<java.lang.Integer> getCityIdListList();
-
+    /**
+     * <code>repeated uint32 city_id_list = 1;</code>
+     * @return The count of cityIdList.
+     */
     int getCityIdListCount();
-
+    /**
+     * <code>repeated uint32 city_id_list = 1;</code>
+     * @param index The index of the element to return.
+     * @return The cityIdList at the given index.
+     */
     int getCityIdList(int index);
 
+    /**
+     * <code>bool is_for_mark = 9;</code>
+     * @return The isForMark.
+     */
     boolean getIsForMark();
   }
   /**
-   * <pre>
-   * CmdId: 4908
-   * </pre>
-   *
    * Protobuf type {@code GetInvestigationMonsterReq}
    */
   public static final class GetInvestigationMonsterReq extends
@@ -77,11 +88,6 @@ public final class GetInvestigationMonsterReqOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
-
-              isForMark_ = input.readBool();
-              break;
-            }
             case 8: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 cityIdList_ = newIntList();
@@ -101,6 +107,11 @@ public final class GetInvestigationMonsterReqOuterClass {
                 cityIdList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
+              break;
+            }
+            case 72: {
+
+              isForMark_ = input.readBool();
               break;
             }
             default: {
@@ -140,25 +151,38 @@ public final class GetInvestigationMonsterReqOuterClass {
 
     public static final int CITY_ID_LIST_FIELD_NUMBER = 1;
     private com.google.protobuf.Internal.IntList cityIdList_;
-
+    /**
+     * <code>repeated uint32 city_id_list = 1;</code>
+     * @return A list containing the cityIdList.
+     */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getCityIdListList() {
       return cityIdList_;
     }
-
+    /**
+     * <code>repeated uint32 city_id_list = 1;</code>
+     * @return The count of cityIdList.
+     */
     public int getCityIdListCount() {
       return cityIdList_.size();
     }
-
+    /**
+     * <code>repeated uint32 city_id_list = 1;</code>
+     * @param index The index of the element to return.
+     * @return The cityIdList at the given index.
+     */
     public int getCityIdList(int index) {
       return cityIdList_.getInt(index);
     }
     private int cityIdListMemoizedSerializedSize = -1;
 
-    public static final int IS_FOR_MARK_FIELD_NUMBER = 3;
+    public static final int IS_FOR_MARK_FIELD_NUMBER = 9;
     private boolean isForMark_;
-
+    /**
+     * <code>bool is_for_mark = 9;</code>
+     * @return The isForMark.
+     */
     @java.lang.Override
     public boolean getIsForMark() {
       return isForMark_;
@@ -179,15 +203,15 @@ public final class GetInvestigationMonsterReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (isForMark_ != false) {
-        output.writeBool(3, isForMark_);
-      }
       if (getCityIdListList().size() > 0) {
         output.writeUInt32NoTag(10);
         output.writeUInt32NoTag(cityIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < cityIdList_.size(); i++) {
         output.writeUInt32NoTag(cityIdList_.getInt(i));
+      }
+      if (isForMark_ != false) {
+        output.writeBool(9, isForMark_);
       }
       unknownFields.writeTo(output);
     }
@@ -198,10 +222,6 @@ public final class GetInvestigationMonsterReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (isForMark_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, isForMark_);
-      }
       {
         int dataSize = 0;
         for (int i = 0; i < cityIdList_.size(); i++) {
@@ -215,6 +235,10 @@ public final class GetInvestigationMonsterReqOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         cityIdListMemoizedSerializedSize = dataSize;
+      }
+      if (isForMark_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(9, isForMark_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -349,10 +373,6 @@ public final class GetInvestigationMonsterReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 4908
-     * </pre>
-     *
      * Protobuf type {@code GetInvestigationMonsterReq}
      */
     public static final class Builder extends
@@ -525,21 +545,36 @@ public final class GetInvestigationMonsterReqOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
-
+      /**
+       * <code>repeated uint32 city_id_list = 1;</code>
+       * @return A list containing the cityIdList.
+       */
       public java.util.List<java.lang.Integer>
           getCityIdListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(cityIdList_) : cityIdList_;
       }
-
+      /**
+       * <code>repeated uint32 city_id_list = 1;</code>
+       * @return The count of cityIdList.
+       */
       public int getCityIdListCount() {
         return cityIdList_.size();
       }
-
+      /**
+       * <code>repeated uint32 city_id_list = 1;</code>
+       * @param index The index of the element to return.
+       * @return The cityIdList at the given index.
+       */
       public int getCityIdList(int index) {
         return cityIdList_.getInt(index);
       }
-
+      /**
+       * <code>repeated uint32 city_id_list = 1;</code>
+       * @param index The index to set the value at.
+       * @param value The cityIdList to set.
+       * @return This builder for chaining.
+       */
       public Builder setCityIdList(
           int index, int value) {
         ensureCityIdListIsMutable();
@@ -547,14 +582,22 @@ public final class GetInvestigationMonsterReqOuterClass {
         onChanged();
         return this;
       }
-
+      /**
+       * <code>repeated uint32 city_id_list = 1;</code>
+       * @param value The cityIdList to add.
+       * @return This builder for chaining.
+       */
       public Builder addCityIdList(int value) {
         ensureCityIdListIsMutable();
         cityIdList_.addInt(value);
         onChanged();
         return this;
       }
-
+      /**
+       * <code>repeated uint32 city_id_list = 1;</code>
+       * @param values The cityIdList to add.
+       * @return This builder for chaining.
+       */
       public Builder addAllCityIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureCityIdListIsMutable();
@@ -563,7 +606,10 @@ public final class GetInvestigationMonsterReqOuterClass {
         onChanged();
         return this;
       }
-
+      /**
+       * <code>repeated uint32 city_id_list = 1;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearCityIdList() {
         cityIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -572,21 +618,31 @@ public final class GetInvestigationMonsterReqOuterClass {
       }
 
       private boolean isForMark_ ;
-
+      /**
+       * <code>bool is_for_mark = 9;</code>
+       * @return The isForMark.
+       */
       @java.lang.Override
       public boolean getIsForMark() {
         return isForMark_;
       }
-
+      /**
+       * <code>bool is_for_mark = 9;</code>
+       * @param value The isForMark to set.
+       * @return This builder for chaining.
+       */
       public Builder setIsForMark(boolean value) {
-
+        
         isForMark_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>bool is_for_mark = 9;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearIsForMark() {
-
+        
         isForMark_ = false;
         onChanged();
         return this;
@@ -602,6 +658,7 @@ public final class GetInvestigationMonsterReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:GetInvestigationMonsterReq)
     }
@@ -645,7 +702,7 @@ public final class GetInvestigationMonsterReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetInvestigationMonsterReq_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetInvestigationMonsterReq_fieldAccessorTable;
 
@@ -659,8 +716,9 @@ public final class GetInvestigationMonsterReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n GetInvestigationMonsterReq.proto\"G\n\032Ge" +
       "tInvestigationMonsterReq\022\024\n\014city_id_list" +
-      "\030\t \003(\r\022\023\n\013is_for_mark\030\005 \001(\010B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\030\001 \003(\r\022\023\n\013is_for_mark\030\t \001(\010BA\n\031emu.grass" +
+      "cutter.net.protoB$GetInvestigationMonste" +
+      "rReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

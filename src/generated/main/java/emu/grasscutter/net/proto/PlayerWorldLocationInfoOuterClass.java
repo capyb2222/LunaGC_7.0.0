@@ -19,7 +19,7 @@ public final class PlayerWorldLocationInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 scene_id = 5;</code>
+     * <code>uint32 scene_id = 3;</code>
      * @return The sceneId.
      */
     int getSceneId();
@@ -40,10 +40,6 @@ public final class PlayerWorldLocationInfoOuterClass {
     emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfoOrBuilder getPlayerLocOrBuilder();
   }
   /**
-   * <pre>
-   * Obf: JNPBJHGCCOP
-   * </pre>
-   *
    * Protobuf type {@code PlayerWorldLocationInfo}
    */
   public static final class PlayerWorldLocationInfo extends
@@ -88,12 +84,12 @@ public final class PlayerWorldLocationInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 24: {
 
               sceneId_ = input.readUInt32();
               break;
             }
-            case 74: {
+            case 98: {
               emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfo.Builder subBuilder = null;
               if (playerLoc_ != null) {
                 subBuilder = playerLoc_.toBuilder();
@@ -138,10 +134,10 @@ public final class PlayerWorldLocationInfoOuterClass {
               emu.grasscutter.net.proto.PlayerWorldLocationInfoOuterClass.PlayerWorldLocationInfo.class, emu.grasscutter.net.proto.PlayerWorldLocationInfoOuterClass.PlayerWorldLocationInfo.Builder.class);
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 6;
+    public static final int SCENE_ID_FIELD_NUMBER = 3;
     private int sceneId_;
     /**
-     * <code>uint32 scene_id = 5;</code>
+     * <code>uint32 scene_id = 3;</code>
      * @return The sceneId.
      */
     @java.lang.Override
@@ -149,7 +145,7 @@ public final class PlayerWorldLocationInfoOuterClass {
       return sceneId_;
     }
 
-    public static final int PLAYER_LOC_FIELD_NUMBER = 9;
+    public static final int PLAYER_LOC_FIELD_NUMBER = 12;
     private emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfo playerLoc_;
     /**
      * <code>.PlayerLocationInfo player_loc = 12;</code>
@@ -190,10 +186,10 @@ public final class PlayerWorldLocationInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (sceneId_ != 0) {
-        output.writeUInt32(6, sceneId_);
+        output.writeUInt32(3, sceneId_);
       }
       if (playerLoc_ != null) {
-        output.writeMessage(9, getPlayerLoc());
+        output.writeMessage(12, getPlayerLoc());
       }
       unknownFields.writeTo(output);
     }
@@ -206,11 +202,11 @@ public final class PlayerWorldLocationInfoOuterClass {
       size = 0;
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, sceneId_);
+          .computeUInt32Size(3, sceneId_);
       }
       if (playerLoc_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, getPlayerLoc());
+          .computeMessageSize(12, getPlayerLoc());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -347,10 +343,6 @@ public final class PlayerWorldLocationInfoOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * Obf: JNPBJHGCCOP
-     * </pre>
-     *
      * Protobuf type {@code PlayerWorldLocationInfo}
      */
     public static final class Builder extends
@@ -513,7 +505,7 @@ public final class PlayerWorldLocationInfoOuterClass {
 
       private int sceneId_ ;
       /**
-       * <code>uint32 scene_id = 5;</code>
+       * <code>uint32 scene_id = 3;</code>
        * @return The sceneId.
        */
       @java.lang.Override
@@ -521,7 +513,7 @@ public final class PlayerWorldLocationInfoOuterClass {
         return sceneId_;
       }
       /**
-       * <code>uint32 scene_id = 5;</code>
+       * <code>uint32 scene_id = 3;</code>
        * @param value The sceneId to set.
        * @return This builder for chaining.
        */
@@ -532,7 +524,7 @@ public final class PlayerWorldLocationInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 scene_id = 5;</code>
+       * <code>uint32 scene_id = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearSceneId() {
@@ -729,9 +721,10 @@ public final class PlayerWorldLocationInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035PlayerWorldLocationInfo.proto\032\030PlayerL" +
       "ocationInfo.proto\"T\n\027PlayerWorldLocation" +
-      "Info\022\020\n\010scene_id\030\005 \001(\r\022\'\n\nplayer_loc\030\014 \001" +
-      "(\0132\023.PlayerLocationInfoB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "Info\022\020\n\010scene_id\030\003 \001(\r\022\'\n\nplayer_loc\030\014 \001" +
+      "(\0132\023.PlayerLocationInfoB>\n\031emu.grasscutt" +
+      "er.net.protoB!PlayerWorldLocationInfoOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_RechargeDiskSettleInfoOuterClass";
+
+message _RechargeDiskSettleInfo {
+	uint32 NNOCIHNFLNI = 4;
+	uint32 difficulty = 5;
+	uint32 level_id = 12;
+	repeated uint32 score_list = 14;
+	bool is_new_record = 15;
+}

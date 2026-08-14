@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FKPFJHCNOLDOuterClass";
+
+enum FKPFJHCNOLD {
+	FKPFJHCNOLD_NONE = 0;
+	FKPFJHCNOLD_START = 1;
+	FKPFJHCNOLD_PAUSED = 2;
+	FKPFJHCNOLD_STOPPED = 3;
+}

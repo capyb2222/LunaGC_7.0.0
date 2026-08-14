@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HKGHMIFOALHOuterClass";
+
+import "AOACBHIACPA.proto";
+
+message HKGHMIFOALH {
+	enum KLEMBLCACPM {
+		KLEMBLCACPM_LOCKED = 0;
+		KLEMBLCACPM_UNLOCK = 1;
+		KLEMBLCACPM_FEEDABLE = 2;
+		KLEMBLCACPM_FINISHED = 3;
+	}
+	uint32 level_id = 2;
+	repeated AOACBHIACPA LHFPBEBAGKG = 5;
+	uint32 stage = 6;
+	uint32 FBAPNDJKIBO = 8;
+}

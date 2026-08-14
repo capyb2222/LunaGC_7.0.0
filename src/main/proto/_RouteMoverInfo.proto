@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_RouteMoverInfoOuterClass";
+
+import "HPPHAPGKFNP.proto";
+import "MathQuaternion.proto";
+
+message _RouteMoverInfo {
+	MathQuaternion IINJFNJGEGP = 1;
+	HPPHAPGKFNP MFOMGKKGCKE = 2;
+}

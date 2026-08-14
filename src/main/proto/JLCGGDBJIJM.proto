@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "JLCGGDBJIJMOuterClass";
+
+message JLCGGDBJIJM {
+	uint32 IILFPOGNOCO = 2;
+	uint32 JCJCKHNDFIK = 7;
+	uint32 POBNCEDDLGD = 15;
+}

@@ -19,40 +19,40 @@ public final class FlightActivityDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .DHLGBDFIDGN DFAJDICMJDG = 6;</code>
+     * <code>repeated .FlightDailyRecord daily_record_list = 8;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN> 
-        getDFAJDICMJDGList();
+    java.util.List<emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord> 
+        getDailyRecordListList();
     /**
-     * <code>repeated .DHLGBDFIDGN DFAJDICMJDG = 6;</code>
+     * <code>repeated .FlightDailyRecord daily_record_list = 8;</code>
      */
-    emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN getDFAJDICMJDG(int index);
+    emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord getDailyRecordList(int index);
     /**
-     * <code>repeated .DHLGBDFIDGN DFAJDICMJDG = 6;</code>
+     * <code>repeated .FlightDailyRecord daily_record_list = 8;</code>
      */
-    int getDFAJDICMJDGCount();
+    int getDailyRecordListCount();
     /**
-     * <code>repeated .DHLGBDFIDGN DFAJDICMJDG = 6;</code>
+     * <code>repeated .FlightDailyRecord daily_record_list = 8;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGNOrBuilder> 
-        getDFAJDICMJDGOrBuilderList();
+    java.util.List<? extends emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecordOrBuilder> 
+        getDailyRecordListOrBuilderList();
     /**
-     * <code>repeated .DHLGBDFIDGN DFAJDICMJDG = 6;</code>
+     * <code>repeated .FlightDailyRecord daily_record_list = 8;</code>
      */
-    emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGNOrBuilder getDFAJDICMJDGOrBuilder(
+    emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecordOrBuilder getDailyRecordListOrBuilder(
         int index);
 
     /**
-     * <code>uint32 FIPBFDJDGBN = 8;</code>
-     * @return The fIPBFDJDGBN.
+     * <code>uint32 preview_reward_id = 9;</code>
+     * @return The previewRewardId.
      */
-    int getFIPBFDJDGBN();
+    int getPreviewRewardId();
 
     /**
-     * <code>uint32 LJOBHEGABPH = 13;</code>
-     * @return The lJOBHEGABPH.
+     * <code>uint32 min_open_player_level = 12;</code>
+     * @return The minOpenPlayerLevel.
      */
-    int getLJOBHEGABPH();
+    int getMinOpenPlayerLevel();
   }
   /**
    * Protobuf type {@code FlightActivityDetailInfo}
@@ -67,7 +67,7 @@ public final class FlightActivityDetailInfoOuterClass {
       super(builder);
     }
     private FlightActivityDetailInfo() {
-      dFAJDICMJDG_ = java.util.Collections.emptyList();
+      dailyRecordList_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -101,23 +101,23 @@ public final class FlightActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 50: {
+            case 66: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                dFAJDICMJDG_ = new java.util.ArrayList<emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN>();
+                dailyRecordList_ = new java.util.ArrayList<emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              dFAJDICMJDG_.add(
-                  input.readMessage(emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN.parser(), extensionRegistry));
+              dailyRecordList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord.parser(), extensionRegistry));
               break;
             }
-            case 64: {
+            case 72: {
 
-              fIPBFDJDGBN_ = input.readUInt32();
+              previewRewardId_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 96: {
 
-              lJOBHEGABPH_ = input.readUInt32();
+              minOpenPlayerLevel_ = input.readUInt32();
               break;
             }
             default: {
@@ -136,7 +136,7 @@ public final class FlightActivityDetailInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          dFAJDICMJDG_ = java.util.Collections.unmodifiableList(dFAJDICMJDG_);
+          dailyRecordList_ = java.util.Collections.unmodifiableList(dailyRecordList_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -155,66 +155,66 @@ public final class FlightActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.FlightActivityDetailInfoOuterClass.FlightActivityDetailInfo.class, emu.grasscutter.net.proto.FlightActivityDetailInfoOuterClass.FlightActivityDetailInfo.Builder.class);
     }
 
-    public static final int DFAJDICMJDG_FIELD_NUMBER = 6;
-    private java.util.List<emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN> dFAJDICMJDG_;
+    public static final int DAILY_RECORD_LIST_FIELD_NUMBER = 8;
+    private java.util.List<emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord> dailyRecordList_;
     /**
-     * <code>repeated .DHLGBDFIDGN DFAJDICMJDG = 6;</code>
+     * <code>repeated .FlightDailyRecord daily_record_list = 8;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN> getDFAJDICMJDGList() {
-      return dFAJDICMJDG_;
+    public java.util.List<emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord> getDailyRecordListList() {
+      return dailyRecordList_;
     }
     /**
-     * <code>repeated .DHLGBDFIDGN DFAJDICMJDG = 6;</code>
+     * <code>repeated .FlightDailyRecord daily_record_list = 8;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGNOrBuilder> 
-        getDFAJDICMJDGOrBuilderList() {
-      return dFAJDICMJDG_;
+    public java.util.List<? extends emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecordOrBuilder> 
+        getDailyRecordListOrBuilderList() {
+      return dailyRecordList_;
     }
     /**
-     * <code>repeated .DHLGBDFIDGN DFAJDICMJDG = 6;</code>
+     * <code>repeated .FlightDailyRecord daily_record_list = 8;</code>
      */
     @java.lang.Override
-    public int getDFAJDICMJDGCount() {
-      return dFAJDICMJDG_.size();
+    public int getDailyRecordListCount() {
+      return dailyRecordList_.size();
     }
     /**
-     * <code>repeated .DHLGBDFIDGN DFAJDICMJDG = 6;</code>
+     * <code>repeated .FlightDailyRecord daily_record_list = 8;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN getDFAJDICMJDG(int index) {
-      return dFAJDICMJDG_.get(index);
+    public emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord getDailyRecordList(int index) {
+      return dailyRecordList_.get(index);
     }
     /**
-     * <code>repeated .DHLGBDFIDGN DFAJDICMJDG = 6;</code>
+     * <code>repeated .FlightDailyRecord daily_record_list = 8;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGNOrBuilder getDFAJDICMJDGOrBuilder(
+    public emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecordOrBuilder getDailyRecordListOrBuilder(
         int index) {
-      return dFAJDICMJDG_.get(index);
+      return dailyRecordList_.get(index);
     }
 
-    public static final int FIPBFDJDGBN_FIELD_NUMBER = 8;
-    private int fIPBFDJDGBN_;
+    public static final int PREVIEW_REWARD_ID_FIELD_NUMBER = 9;
+    private int previewRewardId_;
     /**
-     * <code>uint32 FIPBFDJDGBN = 8;</code>
-     * @return The fIPBFDJDGBN.
+     * <code>uint32 preview_reward_id = 9;</code>
+     * @return The previewRewardId.
      */
     @java.lang.Override
-    public int getFIPBFDJDGBN() {
-      return fIPBFDJDGBN_;
+    public int getPreviewRewardId() {
+      return previewRewardId_;
     }
 
-    public static final int LJOBHEGABPH_FIELD_NUMBER = 13;
-    private int lJOBHEGABPH_;
+    public static final int MIN_OPEN_PLAYER_LEVEL_FIELD_NUMBER = 12;
+    private int minOpenPlayerLevel_;
     /**
-     * <code>uint32 LJOBHEGABPH = 13;</code>
-     * @return The lJOBHEGABPH.
+     * <code>uint32 min_open_player_level = 12;</code>
+     * @return The minOpenPlayerLevel.
      */
     @java.lang.Override
-    public int getLJOBHEGABPH() {
-      return lJOBHEGABPH_;
+    public int getMinOpenPlayerLevel() {
+      return minOpenPlayerLevel_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -231,14 +231,14 @@ public final class FlightActivityDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < dFAJDICMJDG_.size(); i++) {
-        output.writeMessage(6, dFAJDICMJDG_.get(i));
+      for (int i = 0; i < dailyRecordList_.size(); i++) {
+        output.writeMessage(8, dailyRecordList_.get(i));
       }
-      if (fIPBFDJDGBN_ != 0) {
-        output.writeUInt32(8, fIPBFDJDGBN_);
+      if (previewRewardId_ != 0) {
+        output.writeUInt32(9, previewRewardId_);
       }
-      if (lJOBHEGABPH_ != 0) {
-        output.writeUInt32(13, lJOBHEGABPH_);
+      if (minOpenPlayerLevel_ != 0) {
+        output.writeUInt32(12, minOpenPlayerLevel_);
       }
       unknownFields.writeTo(output);
     }
@@ -249,17 +249,17 @@ public final class FlightActivityDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < dFAJDICMJDG_.size(); i++) {
+      for (int i = 0; i < dailyRecordList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, dFAJDICMJDG_.get(i));
+          .computeMessageSize(8, dailyRecordList_.get(i));
       }
-      if (fIPBFDJDGBN_ != 0) {
+      if (previewRewardId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, fIPBFDJDGBN_);
+          .computeUInt32Size(9, previewRewardId_);
       }
-      if (lJOBHEGABPH_ != 0) {
+      if (minOpenPlayerLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, lJOBHEGABPH_);
+          .computeUInt32Size(12, minOpenPlayerLevel_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -276,12 +276,12 @@ public final class FlightActivityDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.FlightActivityDetailInfoOuterClass.FlightActivityDetailInfo other = (emu.grasscutter.net.proto.FlightActivityDetailInfoOuterClass.FlightActivityDetailInfo) obj;
 
-      if (!getDFAJDICMJDGList()
-          .equals(other.getDFAJDICMJDGList())) return false;
-      if (getFIPBFDJDGBN()
-          != other.getFIPBFDJDGBN()) return false;
-      if (getLJOBHEGABPH()
-          != other.getLJOBHEGABPH()) return false;
+      if (!getDailyRecordListList()
+          .equals(other.getDailyRecordListList())) return false;
+      if (getPreviewRewardId()
+          != other.getPreviewRewardId()) return false;
+      if (getMinOpenPlayerLevel()
+          != other.getMinOpenPlayerLevel()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -293,14 +293,14 @@ public final class FlightActivityDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getDFAJDICMJDGCount() > 0) {
-        hash = (37 * hash) + DFAJDICMJDG_FIELD_NUMBER;
-        hash = (53 * hash) + getDFAJDICMJDGList().hashCode();
+      if (getDailyRecordListCount() > 0) {
+        hash = (37 * hash) + DAILY_RECORD_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getDailyRecordListList().hashCode();
       }
-      hash = (37 * hash) + FIPBFDJDGBN_FIELD_NUMBER;
-      hash = (53 * hash) + getFIPBFDJDGBN();
-      hash = (37 * hash) + LJOBHEGABPH_FIELD_NUMBER;
-      hash = (53 * hash) + getLJOBHEGABPH();
+      hash = (37 * hash) + PREVIEW_REWARD_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getPreviewRewardId();
+      hash = (37 * hash) + MIN_OPEN_PLAYER_LEVEL_FIELD_NUMBER;
+      hash = (53 * hash) + getMinOpenPlayerLevel();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -429,21 +429,21 @@ public final class FlightActivityDetailInfoOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
-          getDFAJDICMJDGFieldBuilder();
+          getDailyRecordListFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (dFAJDICMJDGBuilder_ == null) {
-          dFAJDICMJDG_ = java.util.Collections.emptyList();
+        if (dailyRecordListBuilder_ == null) {
+          dailyRecordList_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
         } else {
-          dFAJDICMJDGBuilder_.clear();
+          dailyRecordListBuilder_.clear();
         }
-        fIPBFDJDGBN_ = 0;
+        previewRewardId_ = 0;
 
-        lJOBHEGABPH_ = 0;
+        minOpenPlayerLevel_ = 0;
 
         return this;
       }
@@ -472,17 +472,17 @@ public final class FlightActivityDetailInfoOuterClass {
       public emu.grasscutter.net.proto.FlightActivityDetailInfoOuterClass.FlightActivityDetailInfo buildPartial() {
         emu.grasscutter.net.proto.FlightActivityDetailInfoOuterClass.FlightActivityDetailInfo result = new emu.grasscutter.net.proto.FlightActivityDetailInfoOuterClass.FlightActivityDetailInfo(this);
         int from_bitField0_ = bitField0_;
-        if (dFAJDICMJDGBuilder_ == null) {
+        if (dailyRecordListBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
-            dFAJDICMJDG_ = java.util.Collections.unmodifiableList(dFAJDICMJDG_);
+            dailyRecordList_ = java.util.Collections.unmodifiableList(dailyRecordList_);
             bitField0_ = (bitField0_ & ~0x00000001);
           }
-          result.dFAJDICMJDG_ = dFAJDICMJDG_;
+          result.dailyRecordList_ = dailyRecordList_;
         } else {
-          result.dFAJDICMJDG_ = dFAJDICMJDGBuilder_.build();
+          result.dailyRecordList_ = dailyRecordListBuilder_.build();
         }
-        result.fIPBFDJDGBN_ = fIPBFDJDGBN_;
-        result.lJOBHEGABPH_ = lJOBHEGABPH_;
+        result.previewRewardId_ = previewRewardId_;
+        result.minOpenPlayerLevel_ = minOpenPlayerLevel_;
         onBuilt();
         return result;
       }
@@ -531,37 +531,37 @@ public final class FlightActivityDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.FlightActivityDetailInfoOuterClass.FlightActivityDetailInfo other) {
         if (other == emu.grasscutter.net.proto.FlightActivityDetailInfoOuterClass.FlightActivityDetailInfo.getDefaultInstance()) return this;
-        if (dFAJDICMJDGBuilder_ == null) {
-          if (!other.dFAJDICMJDG_.isEmpty()) {
-            if (dFAJDICMJDG_.isEmpty()) {
-              dFAJDICMJDG_ = other.dFAJDICMJDG_;
+        if (dailyRecordListBuilder_ == null) {
+          if (!other.dailyRecordList_.isEmpty()) {
+            if (dailyRecordList_.isEmpty()) {
+              dailyRecordList_ = other.dailyRecordList_;
               bitField0_ = (bitField0_ & ~0x00000001);
             } else {
-              ensureDFAJDICMJDGIsMutable();
-              dFAJDICMJDG_.addAll(other.dFAJDICMJDG_);
+              ensureDailyRecordListIsMutable();
+              dailyRecordList_.addAll(other.dailyRecordList_);
             }
             onChanged();
           }
         } else {
-          if (!other.dFAJDICMJDG_.isEmpty()) {
-            if (dFAJDICMJDGBuilder_.isEmpty()) {
-              dFAJDICMJDGBuilder_.dispose();
-              dFAJDICMJDGBuilder_ = null;
-              dFAJDICMJDG_ = other.dFAJDICMJDG_;
+          if (!other.dailyRecordList_.isEmpty()) {
+            if (dailyRecordListBuilder_.isEmpty()) {
+              dailyRecordListBuilder_.dispose();
+              dailyRecordListBuilder_ = null;
+              dailyRecordList_ = other.dailyRecordList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              dFAJDICMJDGBuilder_ = 
+              dailyRecordListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getDFAJDICMJDGFieldBuilder() : null;
+                   getDailyRecordListFieldBuilder() : null;
             } else {
-              dFAJDICMJDGBuilder_.addAllMessages(other.dFAJDICMJDG_);
+              dailyRecordListBuilder_.addAllMessages(other.dailyRecordList_);
             }
           }
         }
-        if (other.getFIPBFDJDGBN() != 0) {
-          setFIPBFDJDGBN(other.getFIPBFDJDGBN());
+        if (other.getPreviewRewardId() != 0) {
+          setPreviewRewardId(other.getPreviewRewardId());
         }
-        if (other.getLJOBHEGABPH() != 0) {
-          setLJOBHEGABPH(other.getLJOBHEGABPH());
+        if (other.getMinOpenPlayerLevel() != 0) {
+          setMinOpenPlayerLevel(other.getMinOpenPlayerLevel());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -593,304 +593,304 @@ public final class FlightActivityDetailInfoOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN> dFAJDICMJDG_ =
+      private java.util.List<emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord> dailyRecordList_ =
         java.util.Collections.emptyList();
-      private void ensureDFAJDICMJDGIsMutable() {
+      private void ensureDailyRecordListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          dFAJDICMJDG_ = new java.util.ArrayList<emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN>(dFAJDICMJDG_);
+          dailyRecordList_ = new java.util.ArrayList<emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord>(dailyRecordList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN, emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN.Builder, emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGNOrBuilder> dFAJDICMJDGBuilder_;
+          emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord, emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord.Builder, emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecordOrBuilder> dailyRecordListBuilder_;
 
       /**
-       * <code>repeated .DHLGBDFIDGN DFAJDICMJDG = 6;</code>
+       * <code>repeated .FlightDailyRecord daily_record_list = 8;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN> getDFAJDICMJDGList() {
-        if (dFAJDICMJDGBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(dFAJDICMJDG_);
+      public java.util.List<emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord> getDailyRecordListList() {
+        if (dailyRecordListBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(dailyRecordList_);
         } else {
-          return dFAJDICMJDGBuilder_.getMessageList();
+          return dailyRecordListBuilder_.getMessageList();
         }
       }
       /**
-       * <code>repeated .DHLGBDFIDGN DFAJDICMJDG = 6;</code>
+       * <code>repeated .FlightDailyRecord daily_record_list = 8;</code>
        */
-      public int getDFAJDICMJDGCount() {
-        if (dFAJDICMJDGBuilder_ == null) {
-          return dFAJDICMJDG_.size();
+      public int getDailyRecordListCount() {
+        if (dailyRecordListBuilder_ == null) {
+          return dailyRecordList_.size();
         } else {
-          return dFAJDICMJDGBuilder_.getCount();
+          return dailyRecordListBuilder_.getCount();
         }
       }
       /**
-       * <code>repeated .DHLGBDFIDGN DFAJDICMJDG = 6;</code>
+       * <code>repeated .FlightDailyRecord daily_record_list = 8;</code>
        */
-      public emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN getDFAJDICMJDG(int index) {
-        if (dFAJDICMJDGBuilder_ == null) {
-          return dFAJDICMJDG_.get(index);
+      public emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord getDailyRecordList(int index) {
+        if (dailyRecordListBuilder_ == null) {
+          return dailyRecordList_.get(index);
         } else {
-          return dFAJDICMJDGBuilder_.getMessage(index);
+          return dailyRecordListBuilder_.getMessage(index);
         }
       }
       /**
-       * <code>repeated .DHLGBDFIDGN DFAJDICMJDG = 6;</code>
+       * <code>repeated .FlightDailyRecord daily_record_list = 8;</code>
        */
-      public Builder setDFAJDICMJDG(
-          int index, emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN value) {
-        if (dFAJDICMJDGBuilder_ == null) {
+      public Builder setDailyRecordList(
+          int index, emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord value) {
+        if (dailyRecordListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureDFAJDICMJDGIsMutable();
-          dFAJDICMJDG_.set(index, value);
+          ensureDailyRecordListIsMutable();
+          dailyRecordList_.set(index, value);
           onChanged();
         } else {
-          dFAJDICMJDGBuilder_.setMessage(index, value);
+          dailyRecordListBuilder_.setMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .DHLGBDFIDGN DFAJDICMJDG = 6;</code>
+       * <code>repeated .FlightDailyRecord daily_record_list = 8;</code>
        */
-      public Builder setDFAJDICMJDG(
-          int index, emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN.Builder builderForValue) {
-        if (dFAJDICMJDGBuilder_ == null) {
-          ensureDFAJDICMJDGIsMutable();
-          dFAJDICMJDG_.set(index, builderForValue.build());
+      public Builder setDailyRecordList(
+          int index, emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord.Builder builderForValue) {
+        if (dailyRecordListBuilder_ == null) {
+          ensureDailyRecordListIsMutable();
+          dailyRecordList_.set(index, builderForValue.build());
           onChanged();
         } else {
-          dFAJDICMJDGBuilder_.setMessage(index, builderForValue.build());
+          dailyRecordListBuilder_.setMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .DHLGBDFIDGN DFAJDICMJDG = 6;</code>
+       * <code>repeated .FlightDailyRecord daily_record_list = 8;</code>
        */
-      public Builder addDFAJDICMJDG(emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN value) {
-        if (dFAJDICMJDGBuilder_ == null) {
+      public Builder addDailyRecordList(emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord value) {
+        if (dailyRecordListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureDFAJDICMJDGIsMutable();
-          dFAJDICMJDG_.add(value);
+          ensureDailyRecordListIsMutable();
+          dailyRecordList_.add(value);
           onChanged();
         } else {
-          dFAJDICMJDGBuilder_.addMessage(value);
+          dailyRecordListBuilder_.addMessage(value);
         }
         return this;
       }
       /**
-       * <code>repeated .DHLGBDFIDGN DFAJDICMJDG = 6;</code>
+       * <code>repeated .FlightDailyRecord daily_record_list = 8;</code>
        */
-      public Builder addDFAJDICMJDG(
-          int index, emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN value) {
-        if (dFAJDICMJDGBuilder_ == null) {
+      public Builder addDailyRecordList(
+          int index, emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord value) {
+        if (dailyRecordListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureDFAJDICMJDGIsMutable();
-          dFAJDICMJDG_.add(index, value);
+          ensureDailyRecordListIsMutable();
+          dailyRecordList_.add(index, value);
           onChanged();
         } else {
-          dFAJDICMJDGBuilder_.addMessage(index, value);
+          dailyRecordListBuilder_.addMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .DHLGBDFIDGN DFAJDICMJDG = 6;</code>
+       * <code>repeated .FlightDailyRecord daily_record_list = 8;</code>
        */
-      public Builder addDFAJDICMJDG(
-          emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN.Builder builderForValue) {
-        if (dFAJDICMJDGBuilder_ == null) {
-          ensureDFAJDICMJDGIsMutable();
-          dFAJDICMJDG_.add(builderForValue.build());
+      public Builder addDailyRecordList(
+          emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord.Builder builderForValue) {
+        if (dailyRecordListBuilder_ == null) {
+          ensureDailyRecordListIsMutable();
+          dailyRecordList_.add(builderForValue.build());
           onChanged();
         } else {
-          dFAJDICMJDGBuilder_.addMessage(builderForValue.build());
+          dailyRecordListBuilder_.addMessage(builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .DHLGBDFIDGN DFAJDICMJDG = 6;</code>
+       * <code>repeated .FlightDailyRecord daily_record_list = 8;</code>
        */
-      public Builder addDFAJDICMJDG(
-          int index, emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN.Builder builderForValue) {
-        if (dFAJDICMJDGBuilder_ == null) {
-          ensureDFAJDICMJDGIsMutable();
-          dFAJDICMJDG_.add(index, builderForValue.build());
+      public Builder addDailyRecordList(
+          int index, emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord.Builder builderForValue) {
+        if (dailyRecordListBuilder_ == null) {
+          ensureDailyRecordListIsMutable();
+          dailyRecordList_.add(index, builderForValue.build());
           onChanged();
         } else {
-          dFAJDICMJDGBuilder_.addMessage(index, builderForValue.build());
+          dailyRecordListBuilder_.addMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .DHLGBDFIDGN DFAJDICMJDG = 6;</code>
+       * <code>repeated .FlightDailyRecord daily_record_list = 8;</code>
        */
-      public Builder addAllDFAJDICMJDG(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN> values) {
-        if (dFAJDICMJDGBuilder_ == null) {
-          ensureDFAJDICMJDGIsMutable();
+      public Builder addAllDailyRecordList(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord> values) {
+        if (dailyRecordListBuilder_ == null) {
+          ensureDailyRecordListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, dFAJDICMJDG_);
+              values, dailyRecordList_);
           onChanged();
         } else {
-          dFAJDICMJDGBuilder_.addAllMessages(values);
+          dailyRecordListBuilder_.addAllMessages(values);
         }
         return this;
       }
       /**
-       * <code>repeated .DHLGBDFIDGN DFAJDICMJDG = 6;</code>
+       * <code>repeated .FlightDailyRecord daily_record_list = 8;</code>
        */
-      public Builder clearDFAJDICMJDG() {
-        if (dFAJDICMJDGBuilder_ == null) {
-          dFAJDICMJDG_ = java.util.Collections.emptyList();
+      public Builder clearDailyRecordList() {
+        if (dailyRecordListBuilder_ == null) {
+          dailyRecordList_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
-          dFAJDICMJDGBuilder_.clear();
+          dailyRecordListBuilder_.clear();
         }
         return this;
       }
       /**
-       * <code>repeated .DHLGBDFIDGN DFAJDICMJDG = 6;</code>
+       * <code>repeated .FlightDailyRecord daily_record_list = 8;</code>
        */
-      public Builder removeDFAJDICMJDG(int index) {
-        if (dFAJDICMJDGBuilder_ == null) {
-          ensureDFAJDICMJDGIsMutable();
-          dFAJDICMJDG_.remove(index);
+      public Builder removeDailyRecordList(int index) {
+        if (dailyRecordListBuilder_ == null) {
+          ensureDailyRecordListIsMutable();
+          dailyRecordList_.remove(index);
           onChanged();
         } else {
-          dFAJDICMJDGBuilder_.remove(index);
+          dailyRecordListBuilder_.remove(index);
         }
         return this;
       }
       /**
-       * <code>repeated .DHLGBDFIDGN DFAJDICMJDG = 6;</code>
+       * <code>repeated .FlightDailyRecord daily_record_list = 8;</code>
        */
-      public emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN.Builder getDFAJDICMJDGBuilder(
+      public emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord.Builder getDailyRecordListBuilder(
           int index) {
-        return getDFAJDICMJDGFieldBuilder().getBuilder(index);
+        return getDailyRecordListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .DHLGBDFIDGN DFAJDICMJDG = 6;</code>
+       * <code>repeated .FlightDailyRecord daily_record_list = 8;</code>
        */
-      public emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGNOrBuilder getDFAJDICMJDGOrBuilder(
+      public emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecordOrBuilder getDailyRecordListOrBuilder(
           int index) {
-        if (dFAJDICMJDGBuilder_ == null) {
-          return dFAJDICMJDG_.get(index);  } else {
-          return dFAJDICMJDGBuilder_.getMessageOrBuilder(index);
+        if (dailyRecordListBuilder_ == null) {
+          return dailyRecordList_.get(index);  } else {
+          return dailyRecordListBuilder_.getMessageOrBuilder(index);
         }
       }
       /**
-       * <code>repeated .DHLGBDFIDGN DFAJDICMJDG = 6;</code>
+       * <code>repeated .FlightDailyRecord daily_record_list = 8;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGNOrBuilder> 
-           getDFAJDICMJDGOrBuilderList() {
-        if (dFAJDICMJDGBuilder_ != null) {
-          return dFAJDICMJDGBuilder_.getMessageOrBuilderList();
+      public java.util.List<? extends emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecordOrBuilder> 
+           getDailyRecordListOrBuilderList() {
+        if (dailyRecordListBuilder_ != null) {
+          return dailyRecordListBuilder_.getMessageOrBuilderList();
         } else {
-          return java.util.Collections.unmodifiableList(dFAJDICMJDG_);
+          return java.util.Collections.unmodifiableList(dailyRecordList_);
         }
       }
       /**
-       * <code>repeated .DHLGBDFIDGN DFAJDICMJDG = 6;</code>
+       * <code>repeated .FlightDailyRecord daily_record_list = 8;</code>
        */
-      public emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN.Builder addDFAJDICMJDGBuilder() {
-        return getDFAJDICMJDGFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN.getDefaultInstance());
+      public emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord.Builder addDailyRecordListBuilder() {
+        return getDailyRecordListFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord.getDefaultInstance());
       }
       /**
-       * <code>repeated .DHLGBDFIDGN DFAJDICMJDG = 6;</code>
+       * <code>repeated .FlightDailyRecord daily_record_list = 8;</code>
        */
-      public emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN.Builder addDFAJDICMJDGBuilder(
+      public emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord.Builder addDailyRecordListBuilder(
           int index) {
-        return getDFAJDICMJDGFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN.getDefaultInstance());
+        return getDailyRecordListFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord.getDefaultInstance());
       }
       /**
-       * <code>repeated .DHLGBDFIDGN DFAJDICMJDG = 6;</code>
+       * <code>repeated .FlightDailyRecord daily_record_list = 8;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN.Builder> 
-           getDFAJDICMJDGBuilderList() {
-        return getDFAJDICMJDGFieldBuilder().getBuilderList();
+      public java.util.List<emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord.Builder> 
+           getDailyRecordListBuilderList() {
+        return getDailyRecordListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN, emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN.Builder, emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGNOrBuilder> 
-          getDFAJDICMJDGFieldBuilder() {
-        if (dFAJDICMJDGBuilder_ == null) {
-          dFAJDICMJDGBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN, emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGN.Builder, emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.DHLGBDFIDGNOrBuilder>(
-                  dFAJDICMJDG_,
+          emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord, emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord.Builder, emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecordOrBuilder> 
+          getDailyRecordListFieldBuilder() {
+        if (dailyRecordListBuilder_ == null) {
+          dailyRecordListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord, emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecord.Builder, emu.grasscutter.net.proto.FlightDailyRecordOuterClass.FlightDailyRecordOrBuilder>(
+                  dailyRecordList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
                   isClean());
-          dFAJDICMJDG_ = null;
+          dailyRecordList_ = null;
         }
-        return dFAJDICMJDGBuilder_;
+        return dailyRecordListBuilder_;
       }
 
-      private int fIPBFDJDGBN_ ;
+      private int previewRewardId_ ;
       /**
-       * <code>uint32 FIPBFDJDGBN = 8;</code>
-       * @return The fIPBFDJDGBN.
+       * <code>uint32 preview_reward_id = 9;</code>
+       * @return The previewRewardId.
        */
       @java.lang.Override
-      public int getFIPBFDJDGBN() {
-        return fIPBFDJDGBN_;
+      public int getPreviewRewardId() {
+        return previewRewardId_;
       }
       /**
-       * <code>uint32 FIPBFDJDGBN = 8;</code>
-       * @param value The fIPBFDJDGBN to set.
+       * <code>uint32 preview_reward_id = 9;</code>
+       * @param value The previewRewardId to set.
        * @return This builder for chaining.
        */
-      public Builder setFIPBFDJDGBN(int value) {
+      public Builder setPreviewRewardId(int value) {
         
-        fIPBFDJDGBN_ = value;
+        previewRewardId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 FIPBFDJDGBN = 8;</code>
+       * <code>uint32 preview_reward_id = 9;</code>
        * @return This builder for chaining.
        */
-      public Builder clearFIPBFDJDGBN() {
+      public Builder clearPreviewRewardId() {
         
-        fIPBFDJDGBN_ = 0;
+        previewRewardId_ = 0;
         onChanged();
         return this;
       }
 
-      private int lJOBHEGABPH_ ;
+      private int minOpenPlayerLevel_ ;
       /**
-       * <code>uint32 LJOBHEGABPH = 13;</code>
-       * @return The lJOBHEGABPH.
+       * <code>uint32 min_open_player_level = 12;</code>
+       * @return The minOpenPlayerLevel.
        */
       @java.lang.Override
-      public int getLJOBHEGABPH() {
-        return lJOBHEGABPH_;
+      public int getMinOpenPlayerLevel() {
+        return minOpenPlayerLevel_;
       }
       /**
-       * <code>uint32 LJOBHEGABPH = 13;</code>
-       * @param value The lJOBHEGABPH to set.
+       * <code>uint32 min_open_player_level = 12;</code>
+       * @param value The minOpenPlayerLevel to set.
        * @return This builder for chaining.
        */
-      public Builder setLJOBHEGABPH(int value) {
+      public Builder setMinOpenPlayerLevel(int value) {
         
-        lJOBHEGABPH_ = value;
+        minOpenPlayerLevel_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 LJOBHEGABPH = 13;</code>
+       * <code>uint32 min_open_player_level = 12;</code>
        * @return This builder for chaining.
        */
-      public Builder clearLJOBHEGABPH() {
+      public Builder clearMinOpenPlayerLevel() {
         
-        lJOBHEGABPH_ = 0;
+        minOpenPlayerLevel_ = 0;
         onChanged();
         return this;
       }
@@ -961,24 +961,26 @@ public final class FlightActivityDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\036FlightActivityDetailInfo.proto\032\021DHLGBD" +
-      "FIDGN.proto\"g\n\030FlightActivityDetailInfo\022" +
-      "!\n\013DFAJDICMJDG\030\006 \003(\0132\014.DHLGBDFIDGN\022\023\n\013FI" +
-      "PBFDJDGBN\030\010 \001(\r\022\023\n\013LJOBHEGABPH\030\r \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\n\036FlightActivityDetailInfo.proto\032\027Flight" +
+      "DailyRecord.proto\"\203\001\n\030FlightActivityDeta" +
+      "ilInfo\022-\n\021daily_record_list\030\010 \003(\0132\022.Flig" +
+      "htDailyRecord\022\031\n\021preview_reward_id\030\t \001(\r" +
+      "\022\035\n\025min_open_player_level\030\014 \001(\rB?\n\031emu.g" +
+      "rasscutter.net.protoB\"FlightActivityDeta" +
+      "ilInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.FlightDailyRecordOuterClass.getDescriptor(),
         });
     internal_static_FlightActivityDetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_FlightActivityDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_FlightActivityDetailInfo_descriptor,
-        new java.lang.String[] { "DFAJDICMJDG", "FIPBFDJDGBN", "LJOBHEGABPH", });
-    emu.grasscutter.net.proto.DHLGBDFIDGNOuterClass.getDescriptor();
+        new java.lang.String[] { "DailyRecordList", "PreviewRewardId", "MinOpenPlayerLevel", });
+    emu.grasscutter.net.proto.FlightDailyRecordOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

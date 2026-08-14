@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MDMMOJHDJJNOuterClass";
+
+message MDMMOJHDJJN {
+	uint32 _chess_level_up_id = 2;
+	repeated uint32 equip_id_list = 8;
+	uint32 _auto_chess_chess_id = 9;
+}

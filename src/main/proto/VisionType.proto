@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "VisionTypeOuterClass";
+
+enum VisionType {
+	VisionType_VISION_NONE = 0;
+	VisionType_VISION_MEET = 1;
+	VisionType_VISION_REBORN = 2;
+	VisionType_VISION_REPLACE = 3;
+	VisionType_VISION_WAYPOINT_REBORN = 4;
+	VisionType_VISION_MISS = 5;
+	VisionType_VISION_DIE = 6;
+	VisionType_VISION_GATHER_ESCAPE = 7;
+	VisionType_VISION_REFRESH = 8;
+	VisionType_VISION_TRANSPORT = 9;
+	VisionType_VISION_REPLACE_DIE = 10;
+	VisionType_VISION_REPLACE_NO_NOTIFY = 11;
+	VisionType_VISION_BORN = 12;
+	VisionType_VISION_PICKUP = 13;
+	VisionType_VISION_REMOVE = 14;
+	VisionType_VISION_CHANGE_COSTUME = 15;
+	VisionType_VISION_FISH_REFRESH = 16;
+	VisionType_VISION_FISH_BIG_SHOCK = 17;
+	VisionType_VISION_FISH_QTE_SUCC = 18;
+	VisionType_VISION_CAPTURE_DISAPPEAR = 19;
+}

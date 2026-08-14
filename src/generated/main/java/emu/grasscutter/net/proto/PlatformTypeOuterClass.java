@@ -36,9 +36,9 @@ public final class PlatformTypeOuterClass {
      */
     PlatformType_PC(3),
     /**
-     * <code>PlatformType_PS_4 = 4;</code>
+     * <code>PS4 = 4;</code>
      */
-    PlatformType_PS_4(4),
+    PS4(4),
     /**
      * <code>PlatformType_SERVER = 5;</code>
      */
@@ -52,9 +52,9 @@ public final class PlatformTypeOuterClass {
      */
     PlatformType_CLOUD_IOS(7),
     /**
-     * <code>PlatformType_PS_5 = 8;</code>
+     * <code>PS5 = 8;</code>
      */
-    PlatformType_PS_5(8),
+    PS5(8),
     /**
      * <code>PlatformType_CLOUD_WEB = 9;</code>
      */
@@ -131,9 +131,9 @@ public final class PlatformTypeOuterClass {
      */
     public static final int PlatformType_PC_VALUE = 3;
     /**
-     * <code>PlatformType_PS_4 = 4;</code>
+     * <code>PS4 = 4;</code>
      */
-    public static final int PlatformType_PS_4_VALUE = 4;
+    public static final int PS4_VALUE = 4;
     /**
      * <code>PlatformType_SERVER = 5;</code>
      */
@@ -147,9 +147,9 @@ public final class PlatformTypeOuterClass {
      */
     public static final int PlatformType_CLOUD_IOS_VALUE = 7;
     /**
-     * <code>PlatformType_PS_5 = 8;</code>
+     * <code>PS5 = 8;</code>
      */
-    public static final int PlatformType_PS_5_VALUE = 8;
+    public static final int PS5_VALUE = 8;
     /**
      * <code>PlatformType_CLOUD_WEB = 9;</code>
      */
@@ -236,11 +236,11 @@ public final class PlatformTypeOuterClass {
         case 1: return PlatformType_IOS;
         case 2: return PlatformType_ANDROID;
         case 3: return PlatformType_PC;
-        case 4: return PlatformType_PS_4;
+        case 4: return PS4;
         case 5: return PlatformType_SERVER;
         case 6: return PlatformType_CLOUD_ANDROID;
         case 7: return PlatformType_CLOUD_IOS;
-        case 8: return PlatformType_PS_5;
+        case 8: return PS5;
         case 9: return PlatformType_CLOUD_WEB;
         case 10: return PlatformType_CLOUD_TV;
         case 11: return PlatformType_CLOUD_MAC;
@@ -320,25 +320,25 @@ public final class PlatformTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\022PlatformType.proto*\270\005\n\014PlatformType\022\027\n" +
+      "\n\022PlatformType.proto*\234\005\n\014PlatformType\022\027\n" +
       "\023PlatformType_EDITOR\020\000\022\024\n\020PlatformType_I" +
       "OS\020\001\022\030\n\024PlatformType_ANDROID\020\002\022\023\n\017Platfo" +
-      "rmType_PC\020\003\022\025\n\021PlatformType_PS_4\020\004\022\027\n\023Pl" +
-      "atformType_SERVER\020\005\022\036\n\032PlatformType_CLOU" +
-      "D_ANDROID\020\006\022\032\n\026PlatformType_CLOUD_IOS\020\007\022" +
-      "\025\n\021PlatformType_PS_5\020\010\022\032\n\026PlatformType_C" +
-      "LOUD_WEB\020\t\022\031\n\025PlatformType_CLOUD_TV\020\n\022\032\n" +
-      "\026PlatformType_CLOUD_MAC\020\013\022\031\n\025PlatformTyp" +
-      "e_CLOUD_PC\020\014\022)\n%PlatformType_CLOUD_THIRD" +
-      "_PARTY_MOBILE\020\r\022%\n!PlatformType_CLOUD_TH" +
-      "IRD_PARTY_PC\020\016\022\"\n\036PlatformType_CLOUD_WEB" +
-      "_ANDROID\020\017\022\036\n\032PlatformType_CLOUD_WEB_IOS" +
-      "\020\020\022\035\n\031PlatformType_CLOUD_WEB_PC\020\021\022\036\n\032Pla" +
-      "tformType_CLOUD_WEB_MAC\020\022\022 \n\034PlatformTyp" +
-      "e_CLOUD_WEB_TOUCH\020\023\022#\n\037PlatformType_CLOU" +
-      "D_WEB_KEYBOARD\020\024\022\036\n\032PlatformType_XBOX_SC" +
-      "ARLETT\020\025\022\035\n\031PlatformType_OPEN_HARMONY\020\026B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "rmType_PC\020\003\022\007\n\003PS4\020\004\022\027\n\023PlatformType_SER" +
+      "VER\020\005\022\036\n\032PlatformType_CLOUD_ANDROID\020\006\022\032\n" +
+      "\026PlatformType_CLOUD_IOS\020\007\022\007\n\003PS5\020\010\022\032\n\026Pl" +
+      "atformType_CLOUD_WEB\020\t\022\031\n\025PlatformType_C" +
+      "LOUD_TV\020\n\022\032\n\026PlatformType_CLOUD_MAC\020\013\022\031\n" +
+      "\025PlatformType_CLOUD_PC\020\014\022)\n%PlatformType" +
+      "_CLOUD_THIRD_PARTY_MOBILE\020\r\022%\n!PlatformT" +
+      "ype_CLOUD_THIRD_PARTY_PC\020\016\022\"\n\036PlatformTy" +
+      "pe_CLOUD_WEB_ANDROID\020\017\022\036\n\032PlatformType_C" +
+      "LOUD_WEB_IOS\020\020\022\035\n\031PlatformType_CLOUD_WEB" +
+      "_PC\020\021\022\036\n\032PlatformType_CLOUD_WEB_MAC\020\022\022 \n" +
+      "\034PlatformType_CLOUD_WEB_TOUCH\020\023\022#\n\037Platf" +
+      "ormType_CLOUD_WEB_KEYBOARD\020\024\022\036\n\032Platform" +
+      "Type_XBOX_SCARLETT\020\025\022\035\n\031PlatformType_OPE" +
+      "N_HARMONY\020\026B3\n\031emu.grasscutter.net.proto" +
+      "B\026PlatformTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

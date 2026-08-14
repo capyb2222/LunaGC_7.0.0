@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AnnounceDataOuterClass";
+
+message AnnounceData {
+	bool is_center_system_last_5_every_minutes = 2;
+	uint32 end_time = 3;
+	uint32 begin_time = 4;
+	uint32 center_system_frequency = 5;
+	uint32 count_down_frequency = 9;
+	uint32 config_id = 10;
+	string ENGJGCGFMMM = 11;
+	string LHMGGPMCDCN = 12;
+	string KFAGDOEAIPP = 13;
+}

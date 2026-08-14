@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "WatergunDetailInfoOuterClass";
+
+import "NBBPKNJHPDK.proto";
+
+message WatergunDetailInfo {
+	repeated NBBPKNJHPDK level_info_list = 9;
+}

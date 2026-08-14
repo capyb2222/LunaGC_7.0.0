@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "KFGKNLHHMPMOuterClass";
+
+message KFGKNLHHMPM {
+	int32 index = 1;
+	repeated uint32 EJBMKHMEMFF = 2;
+}

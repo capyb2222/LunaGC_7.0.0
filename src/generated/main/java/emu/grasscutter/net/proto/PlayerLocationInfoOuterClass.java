@@ -19,46 +19,57 @@ public final class PlayerLocationInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.Vector pos = 7;</code>
+     * <code>.Vector pos = 4;</code>
      * @return Whether the pos field is set.
      */
     boolean hasPos();
     /**
-     * <code>.Vector pos = 7;</code>
+     * <code>.Vector pos = 4;</code>
      * @return The pos.
      */
     emu.grasscutter.net.proto.VectorOuterClass.Vector getPos();
     /**
-     * <code>.Vector pos = 7;</code>
+     * <code>.Vector pos = 4;</code>
      */
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPosOrBuilder();
 
-    java.util.List<java.lang.Integer> getPFLKBEAJNIJList();
-
-    int getPFLKBEAJNIJCount();
-
-    int getPFLKBEAJNIJ(int index);
-
     /**
-     * <code>.Vector rot = 1;</code>
+     * <code>.Vector rot = 9;</code>
      * @return Whether the rot field is set.
      */
     boolean hasRot();
     /**
-     * <code>.Vector rot = 1;</code>
+     * <code>.Vector rot = 9;</code>
      * @return The rot.
      */
     emu.grasscutter.net.proto.VectorOuterClass.Vector getRot();
     /**
-     * <code>.Vector rot = 1;</code>
+     * <code>.Vector rot = 9;</code>
      */
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRotOrBuilder();
 
     /**
-     * <code>uint32 uid = 3;</code>
+     * <code>uint32 uid = 11;</code>
      * @return The uid.
      */
     int getUid();
+
+    /**
+     * <code>repeated uint32 pflkbeajnij = 13;</code>
+     * @return A list containing the pflkbeajnij.
+     */
+    java.util.List<java.lang.Integer> getPflkbeajnijList();
+    /**
+     * <code>repeated uint32 pflkbeajnij = 13;</code>
+     * @return The count of pflkbeajnij.
+     */
+    int getPflkbeajnijCount();
+    /**
+     * <code>repeated uint32 pflkbeajnij = 13;</code>
+     * @param index The index of the element to return.
+     * @return The pflkbeajnij at the given index.
+     */
+    int getPflkbeajnij(int index);
   }
   /**
    * Protobuf type {@code PlayerLocationInfo}
@@ -73,7 +84,7 @@ public final class PlayerLocationInfoOuterClass {
       super(builder);
     }
     private PlayerLocationInfo() {
-      pFLKBEAJNIJ_ = emptyIntList();
+      pflkbeajnij_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -107,6 +118,19 @@ public final class PlayerLocationInfoOuterClass {
             case 0:
               done = true;
               break;
+            case 34: {
+              emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
+              if (pos_ != null) {
+                subBuilder = pos_.toBuilder();
+              }
+              pos_ = input.readMessage(emu.grasscutter.net.proto.VectorOuterClass.Vector.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(pos_);
+                pos_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
             case 74: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (rot_ != null) {
@@ -120,43 +144,30 @@ public final class PlayerLocationInfoOuterClass {
 
               break;
             }
-            case 64: {
+            case 88: {
 
               uid_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 104: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                pFLKBEAJNIJ_ = newIntList();
+                pflkbeajnij_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
-              pFLKBEAJNIJ_.addInt(input.readUInt32());
+              pflkbeajnij_.addInt(input.readUInt32());
               break;
             }
-            case 50: {
+            case 106: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                pFLKBEAJNIJ_ = newIntList();
+                pflkbeajnij_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
-                pFLKBEAJNIJ_.addInt(input.readUInt32());
+                pflkbeajnij_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
-              break;
-            }
-            case 58: {
-              emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
-              if (pos_ != null) {
-                subBuilder = pos_.toBuilder();
-              }
-              pos_ = input.readMessage(emu.grasscutter.net.proto.VectorOuterClass.Vector.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(pos_);
-                pos_ = subBuilder.buildPartial();
-              }
-
               break;
             }
             default: {
@@ -175,7 +186,7 @@ public final class PlayerLocationInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          pFLKBEAJNIJ_.makeImmutable(); // C
+          pflkbeajnij_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -194,10 +205,10 @@ public final class PlayerLocationInfoOuterClass {
               emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfo.class, emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfo.Builder.class);
     }
 
-    public static final int POS_FIELD_NUMBER = 7;
+    public static final int POS_FIELD_NUMBER = 4;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
     /**
-     * <code>.Vector pos = 7;</code>
+     * <code>.Vector pos = 4;</code>
      * @return Whether the pos field is set.
      */
     @java.lang.Override
@@ -205,7 +216,7 @@ public final class PlayerLocationInfoOuterClass {
       return pos_ != null;
     }
     /**
-     * <code>.Vector pos = 7;</code>
+     * <code>.Vector pos = 4;</code>
      * @return The pos.
      */
     @java.lang.Override
@@ -213,35 +224,17 @@ public final class PlayerLocationInfoOuterClass {
       return pos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : pos_;
     }
     /**
-     * <code>.Vector pos = 7;</code>
+     * <code>.Vector pos = 4;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPosOrBuilder() {
       return getPos();
     }
 
-    public static final int PFLKBEAJNIJ_FIELD_NUMBER = 6;
-    private com.google.protobuf.Internal.IntList pFLKBEAJNIJ_;
-
-    @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getPFLKBEAJNIJList() {
-      return pFLKBEAJNIJ_;
-    }
-
-    public int getPFLKBEAJNIJCount() {
-      return pFLKBEAJNIJ_.size();
-    }
-
-    public int getPFLKBEAJNIJ(int index) {
-      return pFLKBEAJNIJ_.getInt(index);
-    }
-    private int pFLKBEAJNIJMemoizedSerializedSize = -1;
-
     public static final int ROT_FIELD_NUMBER = 9;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector rot_;
     /**
-     * <code>.Vector rot = 1;</code>
+     * <code>.Vector rot = 9;</code>
      * @return Whether the rot field is set.
      */
     @java.lang.Override
@@ -249,7 +242,7 @@ public final class PlayerLocationInfoOuterClass {
       return rot_ != null;
     }
     /**
-     * <code>.Vector rot = 1;</code>
+     * <code>.Vector rot = 9;</code>
      * @return The rot.
      */
     @java.lang.Override
@@ -257,23 +250,51 @@ public final class PlayerLocationInfoOuterClass {
       return rot_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : rot_;
     }
     /**
-     * <code>.Vector rot = 1;</code>
+     * <code>.Vector rot = 9;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRotOrBuilder() {
       return getRot();
     }
 
-    public static final int UID_FIELD_NUMBER = 8;
+    public static final int UID_FIELD_NUMBER = 11;
     private int uid_;
     /**
-     * <code>uint32 uid = 3;</code>
+     * <code>uint32 uid = 11;</code>
      * @return The uid.
      */
     @java.lang.Override
     public int getUid() {
       return uid_;
     }
+
+    public static final int PFLKBEAJNIJ_FIELD_NUMBER = 13;
+    private com.google.protobuf.Internal.IntList pflkbeajnij_;
+    /**
+     * <code>repeated uint32 pflkbeajnij = 13;</code>
+     * @return A list containing the pflkbeajnij.
+     */
+    @java.lang.Override
+    public java.util.List<java.lang.Integer>
+        getPflkbeajnijList() {
+      return pflkbeajnij_;
+    }
+    /**
+     * <code>repeated uint32 pflkbeajnij = 13;</code>
+     * @return The count of pflkbeajnij.
+     */
+    public int getPflkbeajnijCount() {
+      return pflkbeajnij_.size();
+    }
+    /**
+     * <code>repeated uint32 pflkbeajnij = 13;</code>
+     * @param index The index of the element to return.
+     * @return The pflkbeajnij at the given index.
+     */
+    public int getPflkbeajnij(int index) {
+      return pflkbeajnij_.getInt(index);
+    }
+    private int pflkbeajnijMemoizedSerializedSize = -1;
 
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
@@ -290,21 +311,21 @@ public final class PlayerLocationInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
+      if (pos_ != null) {
+        output.writeMessage(4, getPos());
+      }
       if (rot_ != null) {
         output.writeMessage(9, getRot());
       }
       if (uid_ != 0) {
-        output.writeUInt32(8, uid_);
+        output.writeUInt32(11, uid_);
       }
-      if (getPFLKBEAJNIJList().size() > 0) {
-        output.writeUInt32NoTag(50);
-        output.writeUInt32NoTag(pFLKBEAJNIJMemoizedSerializedSize);
+      if (getPflkbeajnijList().size() > 0) {
+        output.writeUInt32NoTag(106);
+        output.writeUInt32NoTag(pflkbeajnijMemoizedSerializedSize);
       }
-      for (int i = 0; i < pFLKBEAJNIJ_.size(); i++) {
-        output.writeUInt32NoTag(pFLKBEAJNIJ_.getInt(i));
-      }
-      if (pos_ != null) {
-        output.writeMessage(7, getPos());
+      for (int i = 0; i < pflkbeajnij_.size(); i++) {
+        output.writeUInt32NoTag(pflkbeajnij_.getInt(i));
       }
       unknownFields.writeTo(output);
     }
@@ -315,31 +336,31 @@ public final class PlayerLocationInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (pos_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(4, getPos());
+      }
       if (rot_ != null) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(9, getRot());
       }
       if (uid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, uid_);
+          .computeUInt32Size(11, uid_);
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < pFLKBEAJNIJ_.size(); i++) {
+        for (int i = 0; i < pflkbeajnij_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(pFLKBEAJNIJ_.getInt(i));
+            .computeUInt32SizeNoTag(pflkbeajnij_.getInt(i));
         }
         size += dataSize;
-        if (!getPFLKBEAJNIJList().isEmpty()) {
+        if (!getPflkbeajnijList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        pFLKBEAJNIJMemoizedSerializedSize = dataSize;
-      }
-      if (pos_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, getPos());
+        pflkbeajnijMemoizedSerializedSize = dataSize;
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -361,8 +382,6 @@ public final class PlayerLocationInfoOuterClass {
         if (!getPos()
             .equals(other.getPos())) return false;
       }
-      if (!getPFLKBEAJNIJList()
-          .equals(other.getPFLKBEAJNIJList())) return false;
       if (hasRot() != other.hasRot()) return false;
       if (hasRot()) {
         if (!getRot()
@@ -370,6 +389,8 @@ public final class PlayerLocationInfoOuterClass {
       }
       if (getUid()
           != other.getUid()) return false;
+      if (!getPflkbeajnijList()
+          .equals(other.getPflkbeajnijList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -385,16 +406,16 @@ public final class PlayerLocationInfoOuterClass {
         hash = (37 * hash) + POS_FIELD_NUMBER;
         hash = (53 * hash) + getPos().hashCode();
       }
-      if (getPFLKBEAJNIJCount() > 0) {
-        hash = (37 * hash) + PFLKBEAJNIJ_FIELD_NUMBER;
-        hash = (53 * hash) + getPFLKBEAJNIJList().hashCode();
-      }
       if (hasRot()) {
         hash = (37 * hash) + ROT_FIELD_NUMBER;
         hash = (53 * hash) + getRot().hashCode();
       }
       hash = (37 * hash) + UID_FIELD_NUMBER;
       hash = (53 * hash) + getUid();
+      if (getPflkbeajnijCount() > 0) {
+        hash = (37 * hash) + PFLKBEAJNIJ_FIELD_NUMBER;
+        hash = (53 * hash) + getPflkbeajnijList().hashCode();
+      }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -534,8 +555,6 @@ public final class PlayerLocationInfoOuterClass {
           pos_ = null;
           posBuilder_ = null;
         }
-        pFLKBEAJNIJ_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
         if (rotBuilder_ == null) {
           rot_ = null;
         } else {
@@ -544,6 +563,8 @@ public final class PlayerLocationInfoOuterClass {
         }
         uid_ = 0;
 
+        pflkbeajnij_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
         return this;
       }
 
@@ -576,17 +597,17 @@ public final class PlayerLocationInfoOuterClass {
         } else {
           result.pos_ = posBuilder_.build();
         }
-        if (((bitField0_ & 0x00000001) != 0)) {
-          pFLKBEAJNIJ_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000001);
-        }
-        result.pFLKBEAJNIJ_ = pFLKBEAJNIJ_;
         if (rotBuilder_ == null) {
           result.rot_ = rot_;
         } else {
           result.rot_ = rotBuilder_.build();
         }
         result.uid_ = uid_;
+        if (((bitField0_ & 0x00000001) != 0)) {
+          pflkbeajnij_.makeImmutable();
+          bitField0_ = (bitField0_ & ~0x00000001);
+        }
+        result.pflkbeajnij_ = pflkbeajnij_;
         onBuilt();
         return result;
       }
@@ -638,21 +659,21 @@ public final class PlayerLocationInfoOuterClass {
         if (other.hasPos()) {
           mergePos(other.getPos());
         }
-        if (!other.pFLKBEAJNIJ_.isEmpty()) {
-          if (pFLKBEAJNIJ_.isEmpty()) {
-            pFLKBEAJNIJ_ = other.pFLKBEAJNIJ_;
-            bitField0_ = (bitField0_ & ~0x00000001);
-          } else {
-            ensurePFLKBEAJNIJIsMutable();
-            pFLKBEAJNIJ_.addAll(other.pFLKBEAJNIJ_);
-          }
-          onChanged();
-        }
         if (other.hasRot()) {
           mergeRot(other.getRot());
         }
         if (other.getUid() != 0) {
           setUid(other.getUid());
+        }
+        if (!other.pflkbeajnij_.isEmpty()) {
+          if (pflkbeajnij_.isEmpty()) {
+            pflkbeajnij_ = other.pflkbeajnij_;
+            bitField0_ = (bitField0_ & ~0x00000001);
+          } else {
+            ensurePflkbeajnijIsMutable();
+            pflkbeajnij_.addAll(other.pflkbeajnij_);
+          }
+          onChanged();
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -688,14 +709,14 @@ public final class PlayerLocationInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> posBuilder_;
       /**
-       * <code>.Vector pos = 7;</code>
+       * <code>.Vector pos = 4;</code>
        * @return Whether the pos field is set.
        */
       public boolean hasPos() {
         return posBuilder_ != null || pos_ != null;
       }
       /**
-       * <code>.Vector pos = 7;</code>
+       * <code>.Vector pos = 4;</code>
        * @return The pos.
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector getPos() {
@@ -706,7 +727,7 @@ public final class PlayerLocationInfoOuterClass {
         }
       }
       /**
-       * <code>.Vector pos = 7;</code>
+       * <code>.Vector pos = 4;</code>
        */
       public Builder setPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (posBuilder_ == null) {
@@ -722,7 +743,7 @@ public final class PlayerLocationInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Vector pos = 7;</code>
+       * <code>.Vector pos = 4;</code>
        */
       public Builder setPos(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
@@ -736,7 +757,7 @@ public final class PlayerLocationInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Vector pos = 7;</code>
+       * <code>.Vector pos = 4;</code>
        */
       public Builder mergePos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (posBuilder_ == null) {
@@ -754,7 +775,7 @@ public final class PlayerLocationInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Vector pos = 7;</code>
+       * <code>.Vector pos = 4;</code>
        */
       public Builder clearPos() {
         if (posBuilder_ == null) {
@@ -768,15 +789,15 @@ public final class PlayerLocationInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Vector pos = 7;</code>
+       * <code>.Vector pos = 4;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getPosBuilder() {
-
+        
         onChanged();
         return getPosFieldBuilder().getBuilder();
       }
       /**
-       * <code>.Vector pos = 7;</code>
+       * <code>.Vector pos = 4;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPosOrBuilder() {
         if (posBuilder_ != null) {
@@ -787,10 +808,10 @@ public final class PlayerLocationInfoOuterClass {
         }
       }
       /**
-       * <code>.Vector pos = 7;</code>
+       * <code>.Vector pos = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
           getPosFieldBuilder() {
         if (posBuilder_ == null) {
           posBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -803,71 +824,18 @@ public final class PlayerLocationInfoOuterClass {
         return posBuilder_;
       }
 
-      private com.google.protobuf.Internal.IntList pFLKBEAJNIJ_ = emptyIntList();
-      private void ensurePFLKBEAJNIJIsMutable() {
-        if (!((bitField0_ & 0x00000001) != 0)) {
-          pFLKBEAJNIJ_ = mutableCopy(pFLKBEAJNIJ_);
-          bitField0_ |= 0x00000001;
-         }
-      }
-
-      public java.util.List<java.lang.Integer>
-          getPFLKBEAJNIJList() {
-        return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(pFLKBEAJNIJ_) : pFLKBEAJNIJ_;
-      }
-
-      public int getPFLKBEAJNIJCount() {
-        return pFLKBEAJNIJ_.size();
-      }
-
-      public int getPFLKBEAJNIJ(int index) {
-        return pFLKBEAJNIJ_.getInt(index);
-      }
-
-      public Builder setPFLKBEAJNIJ(
-          int index, int value) {
-        ensurePFLKBEAJNIJIsMutable();
-        pFLKBEAJNIJ_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-
-      public Builder addPFLKBEAJNIJ(int value) {
-        ensurePFLKBEAJNIJIsMutable();
-        pFLKBEAJNIJ_.addInt(value);
-        onChanged();
-        return this;
-      }
-
-      public Builder addAllPFLKBEAJNIJ(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensurePFLKBEAJNIJIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, pFLKBEAJNIJ_);
-        onChanged();
-        return this;
-      }
-
-      public Builder clearPFLKBEAJNIJ() {
-        pFLKBEAJNIJ_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
-        onChanged();
-        return this;
-      }
-
       private emu.grasscutter.net.proto.VectorOuterClass.Vector rot_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> rotBuilder_;
       /**
-       * <code>.Vector rot = 1;</code>
+       * <code>.Vector rot = 9;</code>
        * @return Whether the rot field is set.
        */
       public boolean hasRot() {
         return rotBuilder_ != null || rot_ != null;
       }
       /**
-       * <code>.Vector rot = 1;</code>
+       * <code>.Vector rot = 9;</code>
        * @return The rot.
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector getRot() {
@@ -878,7 +846,7 @@ public final class PlayerLocationInfoOuterClass {
         }
       }
       /**
-       * <code>.Vector rot = 1;</code>
+       * <code>.Vector rot = 9;</code>
        */
       public Builder setRot(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (rotBuilder_ == null) {
@@ -894,7 +862,7 @@ public final class PlayerLocationInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Vector rot = 1;</code>
+       * <code>.Vector rot = 9;</code>
        */
       public Builder setRot(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
@@ -908,7 +876,7 @@ public final class PlayerLocationInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Vector rot = 1;</code>
+       * <code>.Vector rot = 9;</code>
        */
       public Builder mergeRot(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (rotBuilder_ == null) {
@@ -926,7 +894,7 @@ public final class PlayerLocationInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Vector rot = 1;</code>
+       * <code>.Vector rot = 9;</code>
        */
       public Builder clearRot() {
         if (rotBuilder_ == null) {
@@ -940,15 +908,15 @@ public final class PlayerLocationInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Vector rot = 1;</code>
+       * <code>.Vector rot = 9;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getRotBuilder() {
-
+        
         onChanged();
         return getRotFieldBuilder().getBuilder();
       }
       /**
-       * <code>.Vector rot = 1;</code>
+       * <code>.Vector rot = 9;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRotOrBuilder() {
         if (rotBuilder_ != null) {
@@ -959,10 +927,10 @@ public final class PlayerLocationInfoOuterClass {
         }
       }
       /**
-       * <code>.Vector rot = 1;</code>
+       * <code>.Vector rot = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
           getRotFieldBuilder() {
         if (rotBuilder_ == null) {
           rotBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -977,7 +945,7 @@ public final class PlayerLocationInfoOuterClass {
 
       private int uid_ ;
       /**
-       * <code>uint32 uid = 3;</code>
+       * <code>uint32 uid = 11;</code>
        * @return The uid.
        */
       @java.lang.Override
@@ -985,23 +953,102 @@ public final class PlayerLocationInfoOuterClass {
         return uid_;
       }
       /**
-       * <code>uint32 uid = 3;</code>
+       * <code>uint32 uid = 11;</code>
        * @param value The uid to set.
        * @return This builder for chaining.
        */
       public Builder setUid(int value) {
-
+        
         uid_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 uid = 3;</code>
+       * <code>uint32 uid = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearUid() {
-
+        
         uid_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.Internal.IntList pflkbeajnij_ = emptyIntList();
+      private void ensurePflkbeajnijIsMutable() {
+        if (!((bitField0_ & 0x00000001) != 0)) {
+          pflkbeajnij_ = mutableCopy(pflkbeajnij_);
+          bitField0_ |= 0x00000001;
+         }
+      }
+      /**
+       * <code>repeated uint32 pflkbeajnij = 13;</code>
+       * @return A list containing the pflkbeajnij.
+       */
+      public java.util.List<java.lang.Integer>
+          getPflkbeajnijList() {
+        return ((bitField0_ & 0x00000001) != 0) ?
+                 java.util.Collections.unmodifiableList(pflkbeajnij_) : pflkbeajnij_;
+      }
+      /**
+       * <code>repeated uint32 pflkbeajnij = 13;</code>
+       * @return The count of pflkbeajnij.
+       */
+      public int getPflkbeajnijCount() {
+        return pflkbeajnij_.size();
+      }
+      /**
+       * <code>repeated uint32 pflkbeajnij = 13;</code>
+       * @param index The index of the element to return.
+       * @return The pflkbeajnij at the given index.
+       */
+      public int getPflkbeajnij(int index) {
+        return pflkbeajnij_.getInt(index);
+      }
+      /**
+       * <code>repeated uint32 pflkbeajnij = 13;</code>
+       * @param index The index to set the value at.
+       * @param value The pflkbeajnij to set.
+       * @return This builder for chaining.
+       */
+      public Builder setPflkbeajnij(
+          int index, int value) {
+        ensurePflkbeajnijIsMutable();
+        pflkbeajnij_.setInt(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 pflkbeajnij = 13;</code>
+       * @param value The pflkbeajnij to add.
+       * @return This builder for chaining.
+       */
+      public Builder addPflkbeajnij(int value) {
+        ensurePflkbeajnijIsMutable();
+        pflkbeajnij_.addInt(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 pflkbeajnij = 13;</code>
+       * @param values The pflkbeajnij to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllPflkbeajnij(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensurePflkbeajnijIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, pflkbeajnij_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 pflkbeajnij = 13;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearPflkbeajnij() {
+        pflkbeajnij_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
         onChanged();
         return this;
       }
@@ -1016,6 +1063,7 @@ public final class PlayerLocationInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:PlayerLocationInfo)
     }
@@ -1059,7 +1107,7 @@ public final class PlayerLocationInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerLocationInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerLocationInfo_fieldAccessorTable;
 
@@ -1072,10 +1120,11 @@ public final class PlayerLocationInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\030PlayerLocationInfo.proto\032\014Vector.proto" +
-      "\"b\n\022PlayerLocationInfo\022\024\n\003pos\030\007 \001(\0132\007.Ve" +
-      "ctor\022\023\n\013PFLKBEAJNIJ\030\006 \003(\r\022\024\n\003rot\030\001 \001(\0132\007" +
-      ".Vector\022\013\n\003uid\030\003 \001(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\"b\n\022PlayerLocationInfo\022\024\n\003pos\030\004 \001(\0132\007.Ve" +
+      "ctor\022\024\n\003rot\030\t \001(\0132\007.Vector\022\013\n\003uid\030\013 \001(\r\022" +
+      "\023\n\013pflkbeajnij\030\r \003(\rB9\n\031emu.grasscutter." +
+      "net.protoB\034PlayerLocationInfoOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1087,7 +1136,7 @@ public final class PlayerLocationInfoOuterClass {
     internal_static_PlayerLocationInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_PlayerLocationInfo_descriptor,
-        new java.lang.String[] { "Pos", "PFLKBEAJNIJ", "Rot", "Uid", });
+        new java.lang.String[] { "Pos", "Rot", "Uid", "Pflkbeajnij", });
     emu.grasscutter.net.proto.VectorOuterClass.getDescriptor();
   }
 

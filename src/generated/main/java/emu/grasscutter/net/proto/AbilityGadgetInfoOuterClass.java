@@ -18,10 +18,22 @@ public final class AbilityGadgetInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:AbilityGadgetInfo)
       com.google.protobuf.MessageOrBuilder {
 
-    int getCampTargetType();
-
+    /**
+     * <code>uint32 camp_id = 1;</code>
+     * @return The campId.
+     */
     int getCampId();
 
+    /**
+     * <code>uint32 camp_target_type = 2;</code>
+     * @return The campTargetType.
+     */
+    int getCampTargetType();
+
+    /**
+     * <code>uint32 target_entity_id = 3;</code>
+     * @return The targetEntityId.
+     */
     int getTargetEntityId();
   }
   /**
@@ -116,25 +128,34 @@ public final class AbilityGadgetInfoOuterClass {
               emu.grasscutter.net.proto.AbilityGadgetInfoOuterClass.AbilityGadgetInfo.class, emu.grasscutter.net.proto.AbilityGadgetInfoOuterClass.AbilityGadgetInfo.Builder.class);
     }
 
-    public static final int CAMP_TARGET_TYPE_FIELD_NUMBER = 2;
-    private int campTargetType_;
-
-    @java.lang.Override
-    public int getCampTargetType() {
-      return campTargetType_;
-    }
-
     public static final int CAMP_ID_FIELD_NUMBER = 1;
     private int campId_;
-
+    /**
+     * <code>uint32 camp_id = 1;</code>
+     * @return The campId.
+     */
     @java.lang.Override
     public int getCampId() {
       return campId_;
     }
 
+    public static final int CAMP_TARGET_TYPE_FIELD_NUMBER = 2;
+    private int campTargetType_;
+    /**
+     * <code>uint32 camp_target_type = 2;</code>
+     * @return The campTargetType.
+     */
+    @java.lang.Override
+    public int getCampTargetType() {
+      return campTargetType_;
+    }
+
     public static final int TARGET_ENTITY_ID_FIELD_NUMBER = 3;
     private int targetEntityId_;
-
+    /**
+     * <code>uint32 target_entity_id = 3;</code>
+     * @return The targetEntityId.
+     */
     @java.lang.Override
     public int getTargetEntityId() {
       return targetEntityId_;
@@ -199,10 +220,10 @@ public final class AbilityGadgetInfoOuterClass {
       }
       emu.grasscutter.net.proto.AbilityGadgetInfoOuterClass.AbilityGadgetInfo other = (emu.grasscutter.net.proto.AbilityGadgetInfoOuterClass.AbilityGadgetInfo) obj;
 
-      if (getCampTargetType()
-          != other.getCampTargetType()) return false;
       if (getCampId()
           != other.getCampId()) return false;
+      if (getCampTargetType()
+          != other.getCampTargetType()) return false;
       if (getTargetEntityId()
           != other.getTargetEntityId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -216,10 +237,10 @@ public final class AbilityGadgetInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + CAMP_TARGET_TYPE_FIELD_NUMBER;
-      hash = (53 * hash) + getCampTargetType();
       hash = (37 * hash) + CAMP_ID_FIELD_NUMBER;
       hash = (53 * hash) + getCampId();
+      hash = (37 * hash) + CAMP_TARGET_TYPE_FIELD_NUMBER;
+      hash = (53 * hash) + getCampTargetType();
       hash = (37 * hash) + TARGET_ENTITY_ID_FIELD_NUMBER;
       hash = (53 * hash) + getTargetEntityId();
       hash = (29 * hash) + unknownFields.hashCode();
@@ -355,9 +376,9 @@ public final class AbilityGadgetInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        campTargetType_ = 0;
-
         campId_ = 0;
+
+        campTargetType_ = 0;
 
         targetEntityId_ = 0;
 
@@ -387,8 +408,8 @@ public final class AbilityGadgetInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.AbilityGadgetInfoOuterClass.AbilityGadgetInfo buildPartial() {
         emu.grasscutter.net.proto.AbilityGadgetInfoOuterClass.AbilityGadgetInfo result = new emu.grasscutter.net.proto.AbilityGadgetInfoOuterClass.AbilityGadgetInfo(this);
-        result.campTargetType_ = campTargetType_;
         result.campId_ = campId_;
+        result.campTargetType_ = campTargetType_;
         result.targetEntityId_ = targetEntityId_;
         onBuilt();
         return result;
@@ -438,11 +459,11 @@ public final class AbilityGadgetInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.AbilityGadgetInfoOuterClass.AbilityGadgetInfo other) {
         if (other == emu.grasscutter.net.proto.AbilityGadgetInfoOuterClass.AbilityGadgetInfo.getDefaultInstance()) return this;
-        if (other.getCampTargetType() != 0) {
-          setCampTargetType(other.getCampTargetType());
-        }
         if (other.getCampId() != 0) {
           setCampId(other.getCampId());
+        }
+        if (other.getCampTargetType() != 0) {
+          setCampTargetType(other.getCampTargetType());
         }
         if (other.getTargetEntityId() != 0) {
           setTargetEntityId(other.getTargetEntityId());
@@ -476,64 +497,94 @@ public final class AbilityGadgetInfoOuterClass {
         return this;
       }
 
-      private int campTargetType_ ;
-
-      @java.lang.Override
-      public int getCampTargetType() {
-        return campTargetType_;
-      }
-
-      public Builder setCampTargetType(int value) {
-
-        campTargetType_ = value;
-        onChanged();
-        return this;
-      }
-
-      public Builder clearCampTargetType() {
-
-        campTargetType_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int campId_ ;
-
+      /**
+       * <code>uint32 camp_id = 1;</code>
+       * @return The campId.
+       */
       @java.lang.Override
       public int getCampId() {
         return campId_;
       }
-
+      /**
+       * <code>uint32 camp_id = 1;</code>
+       * @param value The campId to set.
+       * @return This builder for chaining.
+       */
       public Builder setCampId(int value) {
-
+        
         campId_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint32 camp_id = 1;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearCampId() {
-
+        
         campId_ = 0;
         onChanged();
         return this;
       }
 
-      private int targetEntityId_ ;
-
+      private int campTargetType_ ;
+      /**
+       * <code>uint32 camp_target_type = 2;</code>
+       * @return The campTargetType.
+       */
       @java.lang.Override
-      public int getTargetEntityId() {
-        return targetEntityId_;
+      public int getCampTargetType() {
+        return campTargetType_;
       }
-
-      public Builder setTargetEntityId(int value) {
-
-        targetEntityId_ = value;
+      /**
+       * <code>uint32 camp_target_type = 2;</code>
+       * @param value The campTargetType to set.
+       * @return This builder for chaining.
+       */
+      public Builder setCampTargetType(int value) {
+        
+        campTargetType_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 camp_target_type = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearCampTargetType() {
+        
+        campTargetType_ = 0;
         onChanged();
         return this;
       }
 
+      private int targetEntityId_ ;
+      /**
+       * <code>uint32 target_entity_id = 3;</code>
+       * @return The targetEntityId.
+       */
+      @java.lang.Override
+      public int getTargetEntityId() {
+        return targetEntityId_;
+      }
+      /**
+       * <code>uint32 target_entity_id = 3;</code>
+       * @param value The targetEntityId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setTargetEntityId(int value) {
+        
+        targetEntityId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 target_entity_id = 3;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearTargetEntityId() {
-
+        
         targetEntityId_ = 0;
         onChanged();
         return this;
@@ -549,6 +600,7 @@ public final class AbilityGadgetInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:AbilityGadgetInfo)
     }
@@ -592,7 +644,7 @@ public final class AbilityGadgetInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AbilityGadgetInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AbilityGadgetInfo_fieldAccessorTable;
 
@@ -605,9 +657,10 @@ public final class AbilityGadgetInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027AbilityGadgetInfo.proto\"X\n\021AbilityGadg" +
-      "etInfo\022\030\n\020camp_target_type\030\002 \001(\r\022\017\n\007camp" +
-      "_id\030\001 \001(\r\022\030\n\020target_entity_id\030\003 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "etInfo\022\017\n\007camp_id\030\001 \001(\r\022\030\n\020camp_target_t" +
+      "ype\030\002 \001(\r\022\030\n\020target_entity_id\030\003 \001(\rB8\n\031e" +
+      "mu.grasscutter.net.protoB\033AbilityGadgetI" +
+      "nfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -618,7 +671,7 @@ public final class AbilityGadgetInfoOuterClass {
     internal_static_AbilityGadgetInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AbilityGadgetInfo_descriptor,
-        new java.lang.String[] { "CampTargetType", "CampId", "TargetEntityId", });
+        new java.lang.String[] { "CampId", "CampTargetType", "TargetEntityId", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

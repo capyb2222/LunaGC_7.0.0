@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "RoguelikeGadgetInfoOuterClass";
+
+message RoguelikeGadgetInfo {
+	uint32 cell_config_id = 1;
+	uint32 cell_type = 2;
+	uint32 cell_state = 3;
+	uint32 cell_id = 4;
+}

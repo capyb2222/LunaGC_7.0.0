@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MCBKGPEICPJOuterClass";
+
+import "Uint32Pair.proto";
+
+message MCBKGPEICPJ {
+	Uint32Pair IAHEMLEBGPH = 1;
+	uint32 LOIFEKALBKH = 2;
+}

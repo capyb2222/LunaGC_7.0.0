@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_SlimeCannonSettleInfoOuterClass";
+
+message _SlimeCannonSettleInfo {
+	uint32 DDEJMMAOCJG = 3;
+	uint32 GANHHPBJJIK = 5;
+	uint32 HFDJKLDGLML = 7;
+	uint32 level_id = 9;
+	uint32 kill_num = 11;
+	uint32 life_num = 12;
+}

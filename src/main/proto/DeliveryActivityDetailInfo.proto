@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DeliveryActivityDetailInfoOuterClass";
+
+message DeliveryActivityDetailInfo {
+	repeated uint32 finished_delivery_quest_index = 5;
+	bool is_taken_reward = 10;
+	uint32 day_index = 11;
+}

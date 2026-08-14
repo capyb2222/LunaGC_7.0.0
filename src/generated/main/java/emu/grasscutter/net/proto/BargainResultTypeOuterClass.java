@@ -15,10 +15,6 @@ public final class BargainResultTypeOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   /**
-   * <pre>
-   * Obf: AGEMDFOGNBD
-   * </pre>
-   *
    * Protobuf enum {@code BargainResultType}
    */
   public enum BargainResultType
@@ -147,8 +143,8 @@ public final class BargainResultTypeOuterClass {
       "\n\027BargainResultType.proto*b\n\021BargainResu" +
       "ltType\022\031\n\025BARGAIN_COMPLETE_SUCC\020\000\022\027\n\023BAR" +
       "GAIN_SINGLE_FAIL\020\001\022\031\n\025BARGAIN_COMPLETE_F" +
-      "AIL\020\002B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "AIL\020\002B8\n\031emu.grasscutter.net.protoB\033Barg" +
+      "ainResultTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

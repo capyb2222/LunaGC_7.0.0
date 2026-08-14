@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AIOAIEIKFFDOuterClass";
+
+import "BDPJCGLCLJI.proto";
+import "BECFBHPNDKD.proto";
+import "BJNDIAIEGJJ.proto";
+import "_CurrentPhase.proto";
+
+message AIOAIEIKFFD {
+	_CurrentPhase MNJFGIHFEPA = 1;
+	repeated BDPJCGLCLJI GKPMNIPPOMG = 2;
+	repeated BJNDIAIEGJJ CDMLMNAGMKJ = 3;
+	repeated BECFBHPNDKD COMOLMAMDBB = 4;
+	uint32 ACGFEKLLKKM = 5;
+}

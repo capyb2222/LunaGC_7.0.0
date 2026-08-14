@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_AvatarChangeCostumeReasonOuterClass";
+
+enum _AvatarChangeCostumeReason {
+	_AvatarChangeCostumeReason_NONE = 0;
+	SAVE = 1;
+	SWITCH = 2;
+	DELETE = 3;
+	TRIAL_TIMEOUT = 4;
+	CLIENT_REQ = 5;
+}

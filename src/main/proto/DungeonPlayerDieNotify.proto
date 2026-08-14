@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DungeonPlayerDieNotifyOuterClass";
+
+import "AbilityString.proto";
+import "PlayerDieType.proto";
+import "StrengthenPointData.proto";
+
+message DungeonPlayerDieNotify {
+	oneof entity {
+		uint32 gadget_id = 1;
+		uint32 monster_id = 6;
+	}
+	PlayerDieType die_type = 2;
+	uint32 murderer_entity_id = 3;
+	uint32 AOMDIHGJMNK = 4;
+	AbilityString cfadgphidli = 5;
+	uint32 revive_count = 7;
+	map<uint32, StrengthenPointData> strengthen_point_data_map = 11;
+	uint32 OBOKABMLGHI = 12;
+	uint32 dungeon_id = 13;
+	uint32 wait_time = 15;
+}

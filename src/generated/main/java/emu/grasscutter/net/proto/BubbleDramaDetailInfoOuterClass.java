@@ -19,7 +19,7 @@ public final class BubbleDramaDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 quest_state = 2;</code>
+     * <code>uint32 quest_state = 5;</code>
      * @return The questState.
      */
     int getQuestState();
@@ -69,7 +69,7 @@ public final class BubbleDramaDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 40: {
 
               questState_ = input.readUInt32();
               break;
@@ -106,10 +106,10 @@ public final class BubbleDramaDetailInfoOuterClass {
               emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo.class, emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo.Builder.class);
     }
 
-    public static final int QUEST_STATE_FIELD_NUMBER = 2;
+    public static final int QUEST_STATE_FIELD_NUMBER = 5;
     private int questState_;
     /**
-     * <code>uint32 quest_state = 2;</code>
+     * <code>uint32 quest_state = 5;</code>
      * @return The questState.
      */
     @java.lang.Override
@@ -132,7 +132,7 @@ public final class BubbleDramaDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (questState_ != 0) {
-        output.writeUInt32(2, questState_);
+        output.writeUInt32(5, questState_);
       }
       unknownFields.writeTo(output);
     }
@@ -145,7 +145,7 @@ public final class BubbleDramaDetailInfoOuterClass {
       size = 0;
       if (questState_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, questState_);
+          .computeUInt32Size(5, questState_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -421,7 +421,7 @@ public final class BubbleDramaDetailInfoOuterClass {
 
       private int questState_ ;
       /**
-       * <code>uint32 quest_state = 2;</code>
+       * <code>uint32 quest_state = 5;</code>
        * @return The questState.
        */
       @java.lang.Override
@@ -429,7 +429,7 @@ public final class BubbleDramaDetailInfoOuterClass {
         return questState_;
       }
       /**
-       * <code>uint32 quest_state = 2;</code>
+       * <code>uint32 quest_state = 5;</code>
        * @param value The questState to set.
        * @return This builder for chaining.
        */
@@ -440,7 +440,7 @@ public final class BubbleDramaDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 quest_state = 2;</code>
+       * <code>uint32 quest_state = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearQuestState() {
@@ -517,8 +517,9 @@ public final class BubbleDramaDetailInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033BubbleDramaDetailInfo.proto\",\n\025BubbleD" +
-      "ramaDetailInfo\022\023\n\013quest_state\030\002 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "ramaDetailInfo\022\023\n\013quest_state\030\005 \001(\rB<\n\031e" +
+      "mu.grasscutter.net.protoB\037BubbleDramaDet" +
+      "ailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -67,6 +67,18 @@ public final class PlayerDieTypeOuterClass {
      * <code>PlayerDieType_PLAYER_DIE_LEVEL_FORCE_DIE = 11;</code>
      */
     PlayerDieType_PLAYER_DIE_LEVEL_FORCE_DIE(11),
+    /**
+     * <code>PLAYER_DIE_HEART_BLOOD_USED_OUT = 12;</code>
+     */
+    PLAYER_DIE_HEART_BLOOD_USED_OUT(12),
+    /**
+     * <code>PLAYER_DIE_BEYOND_BLUEPRINT = 13;</code>
+     */
+    PLAYER_DIE_BEYOND_BLUEPRINT(13),
+    /**
+     * <code>PLAYER_DIE_THE_GREY = 14;</code>
+     */
+    PLAYER_DIE_THE_GREY(14),
     UNRECOGNIZED(-1),
     ;
 
@@ -118,6 +130,18 @@ public final class PlayerDieTypeOuterClass {
      * <code>PlayerDieType_PLAYER_DIE_LEVEL_FORCE_DIE = 11;</code>
      */
     public static final int PlayerDieType_PLAYER_DIE_LEVEL_FORCE_DIE_VALUE = 11;
+    /**
+     * <code>PLAYER_DIE_HEART_BLOOD_USED_OUT = 12;</code>
+     */
+    public static final int PLAYER_DIE_HEART_BLOOD_USED_OUT_VALUE = 12;
+    /**
+     * <code>PLAYER_DIE_BEYOND_BLUEPRINT = 13;</code>
+     */
+    public static final int PLAYER_DIE_BEYOND_BLUEPRINT_VALUE = 13;
+    /**
+     * <code>PLAYER_DIE_THE_GREY = 14;</code>
+     */
+    public static final int PLAYER_DIE_THE_GREY_VALUE = 14;
 
 
     public final int getNumber() {
@@ -156,6 +180,9 @@ public final class PlayerDieTypeOuterClass {
         case 9: return PlayerDieType_PLAYER_DIE_DIRTY_WATER_EROSION;
         case 10: return PlayerDieType_PLAYER_DIE_LIQUID_PHLOGISTON;
         case 11: return PlayerDieType_PLAYER_DIE_LEVEL_FORCE_DIE;
+        case 12: return PLAYER_DIE_HEART_BLOOD_USED_OUT;
+        case 13: return PLAYER_DIE_BEYOND_BLUEPRINT;
+        case 14: return PLAYER_DIE_THE_GREY;
         default: return null;
       }
     }
@@ -221,7 +248,7 @@ public final class PlayerDieTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\023PlayerDieType.proto*\377\003\n\rPlayerDieType\022" +
+      "\n\023PlayerDieType.proto*\336\004\n\rPlayerDieType\022" +
       "!\n\035PlayerDieType_PLAYER_DIE_NONE\020\000\022,\n(Pl" +
       "ayerDieType_PLAYER_DIE_KILL_BY_MONSTER\020\001" +
       "\022)\n%PlayerDieType_PLAYER_DIE_KILL_BY_GEA" +
@@ -234,8 +261,11 @@ public final class PlayerDieTypeOuterClass {
       "rDieType_PLAYER_DIE_DIRTY_WATER_EROSION\020" +
       "\t\022.\n*PlayerDieType_PLAYER_DIE_LIQUID_PHL" +
       "OGISTON\020\n\022,\n(PlayerDieType_PLAYER_DIE_LE" +
-      "VEL_FORCE_DIE\020\013B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "VEL_FORCE_DIE\020\013\022#\n\037PLAYER_DIE_HEART_BLOO" +
+      "D_USED_OUT\020\014\022\037\n\033PLAYER_DIE_BEYOND_BLUEPR" +
+      "INT\020\r\022\027\n\023PLAYER_DIE_THE_GREY\020\016B4\n\031emu.gr" +
+      "asscutter.net.protoB\027PlayerDieTypeOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

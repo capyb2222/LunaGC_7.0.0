@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "VintageActivityDetailInfoOuterClass";
+
+import "VintageBoothUsedItemData.proto";
+import "VintageCampChallengeStageData.proto";
+import "VintageHuntingStageData.proto";
+import "VintageMarketInfo.proto";
+import "VintagePresentStageData.proto";
+
+message VintageActivityDetailInfo {
+	map<uint32, VintagePresentStageData> present_stage_map = 1;
+	bool is_content_closed = 2;
+	map<uint32, VintageCampChallengeStageData> camp_stage_map = 8;
+	VintageMarketInfo market_info = 9;
+	VintageBoothUsedItemData booth_data = 12;
+	map<uint32, VintageHuntingStageData> hunting_stage_map = 15;
+}

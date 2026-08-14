@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_CeremonyBattleSettleInfoOuterClass";
+
+message _CeremonyBattleSettleInfo {
+	uint32 AKINHLAMEHF = 2;
+	bool is_new_record = 4;
+	uint32 level_id = 10;
+	uint32 score = 13;
+}

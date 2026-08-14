@@ -19,23 +19,18 @@ public final class BuyResinRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>int32 retcode = 1;</code>
+     * <code>int32 retcode = 8;</code>
      * @return The retcode.
      */
     int getRetcode();
 
     /**
-     * <code>uint32 cur_value = 5;</code>
+     * <code>uint32 cur_value = 13;</code>
      * @return The curValue.
      */
     int getCurValue();
   }
   /**
-   * <pre>
-   * CmdId: 3650
-   * Obf: MKMFMBMHOPG
-   * </pre>
-   *
    * Protobuf type {@code BuyResinRsp}
    */
   public static final class BuyResinRsp extends
@@ -80,12 +75,12 @@ public final class BuyResinRspOuterClass {
             case 0:
               done = true;
               break;
-            case 96: {
+            case 64: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 32: {
+            case 104: {
 
               curValue_ = input.readUInt32();
               break;
@@ -122,10 +117,10 @@ public final class BuyResinRspOuterClass {
               emu.grasscutter.net.proto.BuyResinRspOuterClass.BuyResinRsp.class, emu.grasscutter.net.proto.BuyResinRspOuterClass.BuyResinRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 12;
+    public static final int RETCODE_FIELD_NUMBER = 8;
     private int retcode_;
     /**
-     * <code>int32 retcode = 1;</code>
+     * <code>int32 retcode = 8;</code>
      * @return The retcode.
      */
     @java.lang.Override
@@ -133,10 +128,10 @@ public final class BuyResinRspOuterClass {
       return retcode_;
     }
 
-    public static final int CUR_VALUE_FIELD_NUMBER = 4;
+    public static final int CUR_VALUE_FIELD_NUMBER = 13;
     private int curValue_;
     /**
-     * <code>uint32 cur_value = 5;</code>
+     * <code>uint32 cur_value = 13;</code>
      * @return The curValue.
      */
     @java.lang.Override
@@ -159,10 +154,10 @@ public final class BuyResinRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(12, retcode_);
+        output.writeInt32(8, retcode_);
       }
       if (curValue_ != 0) {
-        output.writeUInt32(4, curValue_);
+        output.writeUInt32(13, curValue_);
       }
       unknownFields.writeTo(output);
     }
@@ -175,11 +170,11 @@ public final class BuyResinRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(12, retcode_);
+          .computeInt32Size(8, retcode_);
       }
       if (curValue_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, curValue_);
+          .computeUInt32Size(13, curValue_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -311,11 +306,6 @@ public final class BuyResinRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 3650
-     * Obf: MKMFMBMHOPG
-     * </pre>
-     *
      * Protobuf type {@code BuyResinRsp}
      */
     public static final class Builder extends
@@ -470,7 +460,7 @@ public final class BuyResinRspOuterClass {
 
       private int retcode_ ;
       /**
-       * <code>int32 retcode = 1;</code>
+       * <code>int32 retcode = 8;</code>
        * @return The retcode.
        */
       @java.lang.Override
@@ -478,7 +468,7 @@ public final class BuyResinRspOuterClass {
         return retcode_;
       }
       /**
-       * <code>int32 retcode = 1;</code>
+       * <code>int32 retcode = 8;</code>
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
@@ -489,7 +479,7 @@ public final class BuyResinRspOuterClass {
         return this;
       }
       /**
-       * <code>int32 retcode = 1;</code>
+       * <code>int32 retcode = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
@@ -501,7 +491,7 @@ public final class BuyResinRspOuterClass {
 
       private int curValue_ ;
       /**
-       * <code>uint32 cur_value = 5;</code>
+       * <code>uint32 cur_value = 13;</code>
        * @return The curValue.
        */
       @java.lang.Override
@@ -509,7 +499,7 @@ public final class BuyResinRspOuterClass {
         return curValue_;
       }
       /**
-       * <code>uint32 cur_value = 5;</code>
+       * <code>uint32 cur_value = 13;</code>
        * @param value The curValue to set.
        * @return This builder for chaining.
        */
@@ -520,7 +510,7 @@ public final class BuyResinRspOuterClass {
         return this;
       }
       /**
-       * <code>uint32 cur_value = 5;</code>
+       * <code>uint32 cur_value = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearCurValue() {
@@ -597,8 +587,9 @@ public final class BuyResinRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BuyResinRsp.proto\"1\n\013BuyResinRsp\022\017\n\007re" +
-      "tcode\030\001 \001(\005\022\021\n\tcur_value\030\005 \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "tcode\030\010 \001(\005\022\021\n\tcur_value\030\r \001(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025BuyResinRspOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

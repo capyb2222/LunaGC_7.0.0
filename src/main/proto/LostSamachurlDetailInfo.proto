@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "LostSamachurlDetailInfoOuterClass";
+
+import "EKCCNKGEJPN.proto";
+import "GMBMFLHFBNG.proto";
+
+message LostSamachurlDetailInfo {
+	repeated EKCCNKGEJPN dacllbeooic = 2;
+	repeated GMBMFLHFBNG fffjlckmddf = 15;
+}

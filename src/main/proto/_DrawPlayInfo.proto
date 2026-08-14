@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_DrawPlayInfoOuterClass";
+
+message _DrawPlayInfo {
+	repeated uint32 CBHPBBCOPPE = 1;
+	repeated uint32 FEIANMMFPJC = 2;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MarkNewNotifyOuterClass";
+
+message MarkNewNotify {
+	repeated uint32 id_list = 3;
+	uint32 mark_new_type = 7;
+}

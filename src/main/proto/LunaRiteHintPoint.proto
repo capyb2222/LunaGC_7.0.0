@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "LunaRiteHintPointOuterClass";
+
+import "LunaRiteHintPointType.proto";
+import "Vector.proto";
+
+message LunaRiteHintPoint {
+	LunaRiteHintPointType type = 6;
+	uint32 index = 7;
+	uint32 area_id = 8;
+	Vector pos = 11;
+}

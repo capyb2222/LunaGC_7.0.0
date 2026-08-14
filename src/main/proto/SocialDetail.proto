@@ -1,0 +1,64 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SocialDetailOuterClass";
+
+import "Birthday.proto";
+import "FeatureBlockType.proto";
+import "FriendEnterHomeOption.proto";
+import "FriendOnlineState.proto";
+import "PlatformType.proto";
+import "ProfilePicture.proto";
+import "SocialShowAvatarInfo.proto";
+
+message SocialDetail {
+	enum _DetailVersionType {
+		VERSION_NONE = 0;
+		V50 = 1;
+		V57 = 2;
+	}
+	uint32 uid = 1;
+	string nickname = 2;
+	uint32 level = 3;
+	uint32 avatar_id = 4;
+	string signature = 5;
+	Birthday birthday = 6;
+	uint32 world_level = 7;
+	repeated uint32 reserved_list = 8;
+	FriendOnlineState online_state = 9;
+	uint32 param = 10;
+	bool is_friend = 11;
+	bool is_mp_mode_available = 12;
+	string online_id = 13;
+	uint32 name_card_id = 14;
+	bool is_in_blacklist = 15;
+	bool is_chat_no_disturb = 16;
+	string remark_name = 17;
+	uint32 finish_achievement_num = 18;
+	uint32 tower_floor_index = 19;
+	uint32 tower_level_index = 20;
+	bool is_show_avatar = 21;
+	repeated SocialShowAvatarInfo show_avatar_info_list = 22;
+	repeated uint32 show_name_card_id_list = 23;
+	FriendEnterHomeOption friend_enter_home_option = 24;
+	ProfilePicture profile_picture = 25;
+	string ip_code = 26;
+	uint32 _role_combat_round = 27;
+	uint32 _role_combat_difficulty_id = 28;
+	string _xbox_gamertag = 29;
+	string _xuid = 30;
+	PlatformType platform_type = 31;
+	uint32 _role_combat_star_num = 32;
+	bool is_show_constellation_num = 33;
+	uint32 _friendship_max_count = 34;
+	uint32 _tower_star_count = 35;
+	_DetailVersionType data_version = 36;
+	uint32 _ley_line_challenge_last_difficulty = 37;
+	uint32 _ley_line_challenge_last_best_time = 38;
+	uint32 _ley_line_challenge_last_schedule_id = 39;
+	bool LMBOLJGNPMP = 40;
+	uint32 EBHKKOIGCAO = 41;
+	bool LDKHOKLNEBP = 42;
+	repeated FeatureBlockType BJDNNEJJPOL = 43;
+	uint32 OMGDPJCAAAI = 44;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GetActivityShopSheetInfoRspOuterClass";
+
+import "ActivityShopSheetInfo.proto";
+
+message GetActivityShopSheetInfoRsp {
+	uint32 shop_type = 2;
+	repeated ActivityShopSheetInfo sheet_info_list = 3;
+	int32 retcode = 8;
+}

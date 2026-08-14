@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CrystalLinkLevelInfoOuterClass";
+
+import "CrystalLinkTeamInfo.proto";
+
+message CrystalLinkLevelInfo {
+	uint32 level_id = 8;
+	uint32 best_score = 10;
+	bool is_open = 12;
+	repeated CrystalLinkTeamInfo team_info_list = 13;
+}

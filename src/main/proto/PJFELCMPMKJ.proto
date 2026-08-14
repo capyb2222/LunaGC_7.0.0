@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PJFELCMPMKJOuterClass";
+
+import "DBEJCJGBLLE.proto";
+
+message PJFELCMPMKJ {
+	uint32 BALDNEDMJPL = 2;
+	uint32 FIAGKCJCJIG = 3;
+	uint32 ELPMAGBGCLC = 7;
+	uint32 IFEMGHKKIIO = 8;
+	repeated uint32 IEAHOCHKFNN = 9;
+	uint32 AJFHLGLOBLG = 10;
+	repeated DBEJCJGBLLE JOIPBPIOIOD = 11;
+	uint32 CGPICKDFGNE = 13;
+}

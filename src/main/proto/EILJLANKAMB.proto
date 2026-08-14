@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EILJLANKAMBOuterClass";
+
+import "OKJOINFCNLJ.proto";
+
+message EILJLANKAMB {
+	OKJOINFCNLJ CJKAEPPKOHC = 1;
+	bool is_pause = 2;
+}

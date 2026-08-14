@@ -134,8 +134,9 @@ public final class ForgeQueueManipulateTypeOuterClass {
       "\n\036ForgeQueueManipulateType.proto*p\n\030Forg" +
       "eQueueManipulateType\022+\n\'ForgeQueueManipu" +
       "lateType_RECEIVE_OUTPUT\020\000\022\'\n#ForgeQueueM" +
-      "anipulateType_STOP_FORGE\020\001B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "anipulateType_STOP_FORGE\020\001B?\n\031emu.grassc" +
+      "utter.net.protoB\"ForgeQueueManipulateTyp" +
+      "eOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

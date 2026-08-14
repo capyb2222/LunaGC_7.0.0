@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "RockBoardExploreStageDataOuterClass";
+
+message RockBoardExploreStageData {
+	bool is_open = 10;
+	uint32 open_time = 11;
+	bool is_finish = 13;
+	uint32 stage_id = 14;
+}

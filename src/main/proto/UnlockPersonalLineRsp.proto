@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "UnlockPersonalLineRspOuterClass";
+
+message UnlockPersonalLineRsp {
+	oneof param {
+		uint32 level = 1;
+		uint32 chapter_id = 3;
+	}
+	uint32 personal_line_id = 13;
+	int32 retcode = 15;
+}

@@ -18,8 +18,15 @@ public final class ForceUpdateInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:ForceUpdateInfo)
       com.google.protobuf.MessageOrBuilder {
 
+    /**
+     * <code>string force_update_url = 1;</code>
+     * @return The forceUpdateUrl.
+     */
     java.lang.String getForceUpdateUrl();
-
+    /**
+     * <code>string force_update_url = 1;</code>
+     * @return The bytes for forceUpdateUrl.
+     */
     com.google.protobuf.ByteString
         getForceUpdateUrlBytes();
   }
@@ -109,27 +116,33 @@ public final class ForceUpdateInfoOuterClass {
 
     public static final int FORCE_UPDATE_URL_FIELD_NUMBER = 1;
     private volatile java.lang.Object forceUpdateUrl_;
-
+    /**
+     * <code>string force_update_url = 1;</code>
+     * @return The forceUpdateUrl.
+     */
     @java.lang.Override
     public java.lang.String getForceUpdateUrl() {
       java.lang.Object ref = forceUpdateUrl_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         forceUpdateUrl_ = s;
         return s;
       }
     }
-
+    /**
+     * <code>string force_update_url = 1;</code>
+     * @return The bytes for forceUpdateUrl.
+     */
     @java.lang.Override
     public com.google.protobuf.ByteString
         getForceUpdateUrlBytes() {
       java.lang.Object ref = forceUpdateUrl_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         forceUpdateUrl_ = b;
@@ -442,7 +455,10 @@ public final class ForceUpdateInfoOuterClass {
       }
 
       private java.lang.Object forceUpdateUrl_ = "";
-
+      /**
+       * <code>string force_update_url = 1;</code>
+       * @return The forceUpdateUrl.
+       */
       public java.lang.String getForceUpdateUrl() {
         java.lang.Object ref = forceUpdateUrl_;
         if (!(ref instanceof java.lang.String)) {
@@ -455,12 +471,15 @@ public final class ForceUpdateInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
-
+      /**
+       * <code>string force_update_url = 1;</code>
+       * @return The bytes for forceUpdateUrl.
+       */
       public com.google.protobuf.ByteString
           getForceUpdateUrlBytes() {
         java.lang.Object ref = forceUpdateUrl_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           forceUpdateUrl_ = b;
@@ -469,32 +488,43 @@ public final class ForceUpdateInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-
+      /**
+       * <code>string force_update_url = 1;</code>
+       * @param value The forceUpdateUrl to set.
+       * @return This builder for chaining.
+       */
       public Builder setForceUpdateUrl(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         forceUpdateUrl_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>string force_update_url = 1;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearForceUpdateUrl() {
-
+        
         forceUpdateUrl_ = getDefaultInstance().getForceUpdateUrl();
         onChanged();
         return this;
       }
-
+      /**
+       * <code>string force_update_url = 1;</code>
+       * @param value The bytes for forceUpdateUrl to set.
+       * @return This builder for chaining.
+       */
       public Builder setForceUpdateUrlBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         forceUpdateUrl_ = value;
         onChanged();
         return this;
@@ -510,6 +540,7 @@ public final class ForceUpdateInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:ForceUpdateInfo)
     }
@@ -553,7 +584,7 @@ public final class ForceUpdateInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ForceUpdateInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ForceUpdateInfo_fieldAccessorTable;
 
@@ -566,8 +597,9 @@ public final class ForceUpdateInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\025ForceUpdateInfo.proto\"+\n\017ForceUpdateIn" +
-      "fo\022\030\n\020force_update_url\030\001 \001(\tB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "fo\022\030\n\020force_update_url\030\001 \001(\tB6\n\031emu.gras" +
+      "scutter.net.protoB\031ForceUpdateInfoOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

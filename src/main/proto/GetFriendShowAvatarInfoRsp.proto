@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GetFriendShowAvatarInfoRspOuterClass";
+
+import "ShowAvatarInfo.proto";
+
+message GetFriendShowAvatarInfoRsp {
+	int32 retcode = 12;
+	uint32 uid = 13;
+	repeated ShowAvatarInfo show_avatar_info_list = 15;
+}

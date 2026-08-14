@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "BlitzRushActivityDetailInfoOuterClass";
+
+import "BlitzRushStage.proto";
+import "ParkourLevelInfo.proto";
+
+message BlitzRushActivityDetailInfo {
+	uint32 content_close_time = 7;
+	repeated ParkourLevelInfo parkour_level_info_list = 11;
+	repeated BlitzRushStage stage_list = 13;
+	bool is_content_closed = 15;
+}

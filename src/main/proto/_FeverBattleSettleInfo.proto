@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_FeverBattleSettleInfoOuterClass";
+
+message _FeverBattleSettleInfo {
+	uint32 difficulty = 7;
+	uint32 level_id = 8;
+	bool is_new_record = 9;
+	uint32 score = 15;
+}

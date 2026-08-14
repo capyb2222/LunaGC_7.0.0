@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FleurFairMinigameInfoOuterClass";
+
+import "FleurFairBalloonInfo.proto";
+import "FleurFairFallInfo.proto";
+import "FleurFairMusicGameInfo.proto";
+
+message FleurFairMinigameInfo {
+	oneof detail {
+		FleurFairMusicGameInfo music_info = 4;
+		FleurFairFallInfo fall_info = 14;
+		FleurFairBalloonInfo balloon_info = 15;
+	}
+	uint32 minigame_id = 7;
+	uint32 open_time = 8;
+	bool is_open = 10;
+}

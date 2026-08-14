@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CurVehicleInfoOuterClass";
+
+import "Vector.proto";
+
+message CurVehicleInfo {
+	uint32 entity_id = 1;
+	uint32 pos = 2;
+	uint32 gadget_id = 3;
+	Vector _vehicle_pos = 4;
+	uint32 _vehicle_type = 5;
+	Vector _vehicle_rot = 6;
+}

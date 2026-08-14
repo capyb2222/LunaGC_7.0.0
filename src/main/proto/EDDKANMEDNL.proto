@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EDDKANMEDNLOuterClass";
+
+enum EDDKANMEDNL {
+	EDDKANMEDNL_NONE = 0;
+	EDDKANMEDNL_MAX_DIFFICULTY = 1;
+	EDDKANMEDNL_MAX_DIFFICULTY_EXTRA = 2;
+}

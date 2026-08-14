@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ServerGlobalValueChangeNotifyOuterClass";
+
+message ServerGlobalValueChangeNotify {
+	uint32 key_hash = 2;
+	float value = 7;
+	uint32 entity_id = 12;
+}

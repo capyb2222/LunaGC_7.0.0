@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FNMMKAMBICNOuterClass";
+
+import "IOIOBABMMLL.proto";
+
+message FNMMKAMBICN {
+	repeated IOIOBABMMLL LCFBHOGGFHB = 1;
+	uint32 slot_id = 2;
+	string name = 9;
+	uint32 audit_state = 13;
+}

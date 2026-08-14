@@ -15,10 +15,6 @@ public final class WindFieldDungeonFailReasonOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   /**
-   * <pre>
-   * Obf: EPFKHGDAOCP
-   * </pre>
-   *
    * Protobuf enum {@code WindFieldDungeonFailReason}
    */
   public enum WindFieldDungeonFailReason
@@ -168,8 +164,9 @@ public final class WindFieldDungeonFailReasonOuterClass {
       "N_FAIL_CANCEL\020\001\022#\n\037WIND_FIELD_DUNGEON_FA" +
       "IL_TIMEOUT\020\002\022*\n&WIND_FIELD_DUNGEON_FAIL_" +
       "ALL_AVATAR_DIE\020\003\022)\n%WIND_FIELD_DUNGEON_F" +
-      "AIL_LUA_INTERRUPT\020\004B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "AIL_LUA_INTERRUPT\020\004BA\n\031emu.grasscutter.n" +
+      "et.protoB$WindFieldDungeonFailReasonOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

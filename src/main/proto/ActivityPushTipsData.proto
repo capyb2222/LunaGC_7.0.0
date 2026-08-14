@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ActivityPushTipsDataOuterClass";
+
+import "ActivityPushTipsState.proto";
+
+message ActivityPushTipsData {
+	ActivityPushTipsState state = 4;
+	uint32 activity_push_tips_id = 8;
+}

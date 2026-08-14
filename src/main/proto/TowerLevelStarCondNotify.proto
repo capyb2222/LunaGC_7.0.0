@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "TowerLevelStarCondNotifyOuterClass";
+
+import "TowerLevelStarCondData.proto";
+
+message TowerLevelStarCondNotify {
+	repeated TowerLevelStarCondData cond_data_list = 1;
+	uint32 level_index = 3;
+	uint32 floor_id = 10;
+}

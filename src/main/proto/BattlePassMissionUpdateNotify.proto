@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "BattlePassMissionUpdateNotifyOuterClass";
+
+import "BattlePassMission.proto";
+
+message BattlePassMissionUpdateNotify {
+	repeated BattlePassMission mission_list = 4;
+}

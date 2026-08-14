@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "VehicleInteractReqOuterClass";
+
+import "VehicleInteractType.proto";
+
+message VehicleInteractReq {
+	uint32 pos = 1;
+	VehicleInteractType interact_type = 3;
+	bool _is_need_destroy = 4;
+	uint32 entity_id = 5;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DBKDCMPAGEGOuterClass";
+
+import "LEEAPMKHDJK.proto";
+
+message DBKDCMPAGEG {
+	uint32 difficulty = 1;
+	repeated LEEAPMKHDJK team_list = 9;
+	uint32 BOJBEECJFDL = 12;
+	uint32 ONEMANNIKIH = 14;
+}

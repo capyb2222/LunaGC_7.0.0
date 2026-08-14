@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SceneEntityDisappearNotifyOuterClass";
+
+import "VisionType.proto";
+
+message SceneEntityDisappearNotify {
+	repeated uint32 entity_list = 3;
+	uint32 param = 12;
+	VisionType disappear_type = 14;
+}

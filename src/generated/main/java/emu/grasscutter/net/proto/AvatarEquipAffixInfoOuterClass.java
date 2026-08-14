@@ -18,9 +18,17 @@ public final class AvatarEquipAffixInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:AvatarEquipAffixInfo)
       com.google.protobuf.MessageOrBuilder {
 
-    int getLeftCdTime();
-
+    /**
+     * <code>uint32 equip_affix_id = 1;</code>
+     * @return The equipAffixId.
+     */
     int getEquipAffixId();
+
+    /**
+     * <code>uint32 left_cd_time = 2;</code>
+     * @return The leftCdTime.
+     */
+    int getLeftCdTime();
   }
   /**
    * Protobuf type {@code AvatarEquipAffixInfo}
@@ -109,20 +117,26 @@ public final class AvatarEquipAffixInfoOuterClass {
               emu.grasscutter.net.proto.AvatarEquipAffixInfoOuterClass.AvatarEquipAffixInfo.class, emu.grasscutter.net.proto.AvatarEquipAffixInfoOuterClass.AvatarEquipAffixInfo.Builder.class);
     }
 
-    public static final int LEFT_CD_TIME_FIELD_NUMBER = 2;
-    private int leftCdTime_;
-
-    @java.lang.Override
-    public int getLeftCdTime() {
-      return leftCdTime_;
-    }
-
     public static final int EQUIP_AFFIX_ID_FIELD_NUMBER = 1;
     private int equipAffixId_;
-
+    /**
+     * <code>uint32 equip_affix_id = 1;</code>
+     * @return The equipAffixId.
+     */
     @java.lang.Override
     public int getEquipAffixId() {
       return equipAffixId_;
+    }
+
+    public static final int LEFT_CD_TIME_FIELD_NUMBER = 2;
+    private int leftCdTime_;
+    /**
+     * <code>uint32 left_cd_time = 2;</code>
+     * @return The leftCdTime.
+     */
+    @java.lang.Override
+    public int getLeftCdTime() {
+      return leftCdTime_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -177,10 +191,10 @@ public final class AvatarEquipAffixInfoOuterClass {
       }
       emu.grasscutter.net.proto.AvatarEquipAffixInfoOuterClass.AvatarEquipAffixInfo other = (emu.grasscutter.net.proto.AvatarEquipAffixInfoOuterClass.AvatarEquipAffixInfo) obj;
 
-      if (getLeftCdTime()
-          != other.getLeftCdTime()) return false;
       if (getEquipAffixId()
           != other.getEquipAffixId()) return false;
+      if (getLeftCdTime()
+          != other.getLeftCdTime()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -192,10 +206,10 @@ public final class AvatarEquipAffixInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + LEFT_CD_TIME_FIELD_NUMBER;
-      hash = (53 * hash) + getLeftCdTime();
       hash = (37 * hash) + EQUIP_AFFIX_ID_FIELD_NUMBER;
       hash = (53 * hash) + getEquipAffixId();
+      hash = (37 * hash) + LEFT_CD_TIME_FIELD_NUMBER;
+      hash = (53 * hash) + getLeftCdTime();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -329,9 +343,9 @@ public final class AvatarEquipAffixInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        leftCdTime_ = 0;
-
         equipAffixId_ = 0;
+
+        leftCdTime_ = 0;
 
         return this;
       }
@@ -359,8 +373,8 @@ public final class AvatarEquipAffixInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.AvatarEquipAffixInfoOuterClass.AvatarEquipAffixInfo buildPartial() {
         emu.grasscutter.net.proto.AvatarEquipAffixInfoOuterClass.AvatarEquipAffixInfo result = new emu.grasscutter.net.proto.AvatarEquipAffixInfoOuterClass.AvatarEquipAffixInfo(this);
-        result.leftCdTime_ = leftCdTime_;
         result.equipAffixId_ = equipAffixId_;
+        result.leftCdTime_ = leftCdTime_;
         onBuilt();
         return result;
       }
@@ -409,11 +423,11 @@ public final class AvatarEquipAffixInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.AvatarEquipAffixInfoOuterClass.AvatarEquipAffixInfo other) {
         if (other == emu.grasscutter.net.proto.AvatarEquipAffixInfoOuterClass.AvatarEquipAffixInfo.getDefaultInstance()) return this;
-        if (other.getLeftCdTime() != 0) {
-          setLeftCdTime(other.getLeftCdTime());
-        }
         if (other.getEquipAffixId() != 0) {
           setEquipAffixId(other.getEquipAffixId());
+        }
+        if (other.getLeftCdTime() != 0) {
+          setLeftCdTime(other.getLeftCdTime());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -444,44 +458,64 @@ public final class AvatarEquipAffixInfoOuterClass {
         return this;
       }
 
-      private int leftCdTime_ ;
-
-      @java.lang.Override
-      public int getLeftCdTime() {
-        return leftCdTime_;
-      }
-
-      public Builder setLeftCdTime(int value) {
-
-        leftCdTime_ = value;
-        onChanged();
-        return this;
-      }
-
-      public Builder clearLeftCdTime() {
-
-        leftCdTime_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int equipAffixId_ ;
-
+      /**
+       * <code>uint32 equip_affix_id = 1;</code>
+       * @return The equipAffixId.
+       */
       @java.lang.Override
       public int getEquipAffixId() {
         return equipAffixId_;
       }
-
+      /**
+       * <code>uint32 equip_affix_id = 1;</code>
+       * @param value The equipAffixId to set.
+       * @return This builder for chaining.
+       */
       public Builder setEquipAffixId(int value) {
-
+        
         equipAffixId_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint32 equip_affix_id = 1;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearEquipAffixId() {
-
+        
         equipAffixId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int leftCdTime_ ;
+      /**
+       * <code>uint32 left_cd_time = 2;</code>
+       * @return The leftCdTime.
+       */
+      @java.lang.Override
+      public int getLeftCdTime() {
+        return leftCdTime_;
+      }
+      /**
+       * <code>uint32 left_cd_time = 2;</code>
+       * @param value The leftCdTime to set.
+       * @return This builder for chaining.
+       */
+      public Builder setLeftCdTime(int value) {
+        
+        leftCdTime_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 left_cd_time = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearLeftCdTime() {
+        
+        leftCdTime_ = 0;
         onChanged();
         return this;
       }
@@ -496,6 +530,7 @@ public final class AvatarEquipAffixInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:AvatarEquipAffixInfo)
     }
@@ -539,7 +574,7 @@ public final class AvatarEquipAffixInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarEquipAffixInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarEquipAffixInfo_fieldAccessorTable;
 
@@ -552,9 +587,10 @@ public final class AvatarEquipAffixInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032AvatarEquipAffixInfo.proto\"D\n\024AvatarEq" +
-      "uipAffixInfo\022\024\n\014left_cd_time\030\002 \001(\r\022\026\n\016eq" +
-      "uip_affix_id\030\001 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "uipAffixInfo\022\026\n\016equip_affix_id\030\001 \001(\r\022\024\n\014" +
+      "left_cd_time\030\002 \001(\rB;\n\031emu.grasscutter.ne" +
+      "t.protoB\036AvatarEquipAffixInfoOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -565,7 +601,7 @@ public final class AvatarEquipAffixInfoOuterClass {
     internal_static_AvatarEquipAffixInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AvatarEquipAffixInfo_descriptor,
-        new java.lang.String[] { "LeftCdTime", "EquipAffixId", });
+        new java.lang.String[] { "EquipAffixId", "LeftCdTime", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

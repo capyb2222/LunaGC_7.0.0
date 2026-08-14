@@ -19,7 +19,7 @@ public final class SetPlayerHeadImageReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 profile_picture_id = 10;</code>
+     * <code>uint32 _profile_picture_id = 4;</code>
      * @return The profilePictureId.
      */
     int getProfilePictureId();
@@ -69,9 +69,9 @@ public final class SetPlayerHeadImageReqOuterClass {
             case 0:
               done = true;
               break;
-            case 88: {
+            case 32: {
 
-              profilePictureId_ = input.readUInt32();
+              ProfilePictureId_ = input.readUInt32();
               break;
             }
             default: {
@@ -106,15 +106,15 @@ public final class SetPlayerHeadImageReqOuterClass {
               emu.grasscutter.net.proto.SetPlayerHeadImageReqOuterClass.SetPlayerHeadImageReq.class, emu.grasscutter.net.proto.SetPlayerHeadImageReqOuterClass.SetPlayerHeadImageReq.Builder.class);
     }
 
-    public static final int PROFILE_PICTURE_ID_FIELD_NUMBER = 11;
-    private int profilePictureId_;
+    public static final int _PROFILE_PICTURE_ID_FIELD_NUMBER = 4;
+    private int ProfilePictureId_;
     /**
-     * <code>uint32 profile_picture_id = 10;</code>
+     * <code>uint32 _profile_picture_id = 4;</code>
      * @return The profilePictureId.
      */
     @java.lang.Override
     public int getProfilePictureId() {
-      return profilePictureId_;
+      return ProfilePictureId_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -131,8 +131,8 @@ public final class SetPlayerHeadImageReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (profilePictureId_ != 0) {
-        output.writeUInt32(11, profilePictureId_);
+      if (ProfilePictureId_ != 0) {
+        output.writeUInt32(4, ProfilePictureId_);
       }
       unknownFields.writeTo(output);
     }
@@ -143,9 +143,9 @@ public final class SetPlayerHeadImageReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (profilePictureId_ != 0) {
+      if (ProfilePictureId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, profilePictureId_);
+          .computeUInt32Size(4, ProfilePictureId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -175,7 +175,7 @@ public final class SetPlayerHeadImageReqOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + PROFILE_PICTURE_ID_FIELD_NUMBER;
+      hash = (37 * hash) + _PROFILE_PICTURE_ID_FIELD_NUMBER;
       hash = (53 * hash) + getProfilePictureId();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -310,7 +310,7 @@ public final class SetPlayerHeadImageReqOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        profilePictureId_ = 0;
+        ProfilePictureId_ = 0;
 
         return this;
       }
@@ -338,7 +338,7 @@ public final class SetPlayerHeadImageReqOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.SetPlayerHeadImageReqOuterClass.SetPlayerHeadImageReq buildPartial() {
         emu.grasscutter.net.proto.SetPlayerHeadImageReqOuterClass.SetPlayerHeadImageReq result = new emu.grasscutter.net.proto.SetPlayerHeadImageReqOuterClass.SetPlayerHeadImageReq(this);
-        result.profilePictureId_ = profilePictureId_;
+        result.ProfilePictureId_ = ProfilePictureId_;
         onBuilt();
         return result;
       }
@@ -419,33 +419,33 @@ public final class SetPlayerHeadImageReqOuterClass {
         return this;
       }
 
-      private int profilePictureId_ ;
+      private int ProfilePictureId_ ;
       /**
-       * <code>uint32 profile_picture_id = 10;</code>
+       * <code>uint32 _profile_picture_id = 4;</code>
        * @return The profilePictureId.
        */
       @java.lang.Override
       public int getProfilePictureId() {
-        return profilePictureId_;
+        return ProfilePictureId_;
       }
       /**
-       * <code>uint32 profile_picture_id = 10;</code>
+       * <code>uint32 _profile_picture_id = 4;</code>
        * @param value The profilePictureId to set.
        * @return This builder for chaining.
        */
       public Builder setProfilePictureId(int value) {
         
-        profilePictureId_ = value;
+        ProfilePictureId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 profile_picture_id = 10;</code>
+       * <code>uint32 _profile_picture_id = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearProfilePictureId() {
         
-        profilePictureId_ = 0;
+        ProfilePictureId_ = 0;
         onChanged();
         return this;
       }
@@ -516,9 +516,10 @@ public final class SetPlayerHeadImageReqOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033SetPlayerHeadImageReq.proto\"3\n\025SetPlay" +
-      "erHeadImageReq\022\032\n\022profile_picture_id\030\n \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\n\033SetPlayerHeadImageReq.proto\"4\n\025SetPlay" +
+      "erHeadImageReq\022\033\n\023_profile_picture_id\030\004 " +
+      "\001(\rB<\n\031emu.grasscutter.net.protoB\037SetPla" +
+      "yerHeadImageReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CreateGadgetInfoOuterClass";
+
+import "GadgetBornType.proto";
+
+message CreateGadgetInfo {
+	message Chest {
+		uint32 chest_drop_id = 1;
+		bool is_show_cutscene = 2;
+	}
+	GadgetBornType born_type = 1;
+	Chest chest = 2;
+}

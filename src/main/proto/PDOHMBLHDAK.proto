@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PDOHMBLHDAKOuterClass";
+
+import "FJFKBKCECBC.proto";
+
+message PDOHMBLHDAK {
+	string ENOPBNNPDFB = 1;
+	uint32 KKHKMDNENCL = 2;
+	uint32 JNLJNHALBOC = 3;
+	FJFKBKCECBC MNNMOFNEFEK = 4;
+	string PECGECKPLMF = 5;
+}

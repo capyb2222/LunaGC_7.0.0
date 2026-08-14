@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GetGachaInfoRspOuterClass";
+
+import "GachaInfo.proto";
+
+message GetGachaInfoRsp {
+	bool mohcmpfghoc = 7;
+	uint32 gacha_random = 8;
+	bool hdgolidpbgc = 10;
+	repeated GachaInfo gacha_info_list = 12;
+	uint32 daily_gacha_times = 13;
+	int32 retcode = 15;
+}

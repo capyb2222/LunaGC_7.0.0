@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ReliquaryDecomposeRspOuterClass";
+
+message ReliquaryDecomposeRsp {
+	int32 retcode = 5;
+	repeated uint64 guid_list = 6;
+}

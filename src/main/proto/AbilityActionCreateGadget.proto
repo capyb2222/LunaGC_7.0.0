@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AbilityActionCreateGadgetOuterClass";
+
+import "Vector.proto";
+
+message AbilityActionCreateGadget {
+	uint32 room_id = 4;
+	Vector rot = 11;
+	Vector pos = 13;
+}

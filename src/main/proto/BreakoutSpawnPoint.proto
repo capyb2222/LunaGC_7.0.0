@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "BreakoutSpawnPointOuterClass";
+
+import "BreakoutPhysicalObject.proto";
+import "_Vector2Int.proto";
+
+message BreakoutSpawnPoint {
+	uint32 id = 1;
+	uint32 brick_suite_id = 2;
+	repeated BreakoutPhysicalObject spawned_brick_list = 3;
+	uint32 ookahkpliee = 4;
+	uint32 kgaaoobmbmn = 5;
+	repeated _Vector2Int cemaggfilch = 6;
+	repeated int32 int_param_list = 7;
+}

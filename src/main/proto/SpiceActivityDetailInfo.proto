@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SpiceActivityDetailInfoOuterClass";
+
+import "SpiceStageData.proto";
+
+message SpiceActivityDetailInfo {
+	repeated SpiceStageData spice_stage_data_list = 2;
+	uint32 OIIKKGLKPAE = 5;
+	uint32 IGHPCKKBJHK = 15;
+}

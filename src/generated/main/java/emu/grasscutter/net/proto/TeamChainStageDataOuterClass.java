@@ -19,10 +19,10 @@ public final class TeamChainStageDataOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool is_open = 5;</code>
-     * @return The isOpen.
+     * <code>uint32 best_score = 1;</code>
+     * @return The bestScore.
      */
-    boolean getIsOpen();
+    int getBestScore();
 
     /**
      * <code>uint32 stage_id = 9;</code>
@@ -31,16 +31,12 @@ public final class TeamChainStageDataOuterClass {
     int getStageId();
 
     /**
-     * <code>uint32 best_score = 1;</code>
-     * @return The bestScore.
+     * <code>bool is_open = 14;</code>
+     * @return The isOpen.
      */
-    int getBestScore();
+    boolean getIsOpen();
   }
   /**
-   * <pre>
-   * Obf: FMDEBOLBHEC
-   * </pre>
-   *
    * Protobuf type {@code TeamChainStageData}
    */
   public static final class TeamChainStageData extends
@@ -85,19 +81,19 @@ public final class TeamChainStageDataOuterClass {
             case 0:
               done = true;
               break;
-            case 104: {
+            case 8: {
 
               bestScore_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 72: {
 
-              isOpen_ = input.readBool();
+              stageId_ = input.readUInt32();
               break;
             }
             case 112: {
 
-              stageId_ = input.readUInt32();
+              isOpen_ = input.readBool();
               break;
             }
             default: {
@@ -132,18 +128,18 @@ public final class TeamChainStageDataOuterClass {
               emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData.class, emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData.Builder.class);
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 10;
-    private boolean isOpen_;
+    public static final int BEST_SCORE_FIELD_NUMBER = 1;
+    private int bestScore_;
     /**
-     * <code>bool is_open = 5;</code>
-     * @return The isOpen.
+     * <code>uint32 best_score = 1;</code>
+     * @return The bestScore.
      */
     @java.lang.Override
-    public boolean getIsOpen() {
-      return isOpen_;
+    public int getBestScore() {
+      return bestScore_;
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 14;
+    public static final int STAGE_ID_FIELD_NUMBER = 9;
     private int stageId_;
     /**
      * <code>uint32 stage_id = 9;</code>
@@ -154,15 +150,15 @@ public final class TeamChainStageDataOuterClass {
       return stageId_;
     }
 
-    public static final int BEST_SCORE_FIELD_NUMBER = 13;
-    private int bestScore_;
+    public static final int IS_OPEN_FIELD_NUMBER = 14;
+    private boolean isOpen_;
     /**
-     * <code>uint32 best_score = 1;</code>
-     * @return The bestScore.
+     * <code>bool is_open = 14;</code>
+     * @return The isOpen.
      */
     @java.lang.Override
-    public int getBestScore() {
-      return bestScore_;
+    public boolean getIsOpen() {
+      return isOpen_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -180,13 +176,13 @@ public final class TeamChainStageDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (bestScore_ != 0) {
-        output.writeUInt32(13, bestScore_);
-      }
-      if (isOpen_ != false) {
-        output.writeBool(10, isOpen_);
+        output.writeUInt32(1, bestScore_);
       }
       if (stageId_ != 0) {
-        output.writeUInt32(14, stageId_);
+        output.writeUInt32(9, stageId_);
+      }
+      if (isOpen_ != false) {
+        output.writeBool(14, isOpen_);
       }
       unknownFields.writeTo(output);
     }
@@ -199,15 +195,15 @@ public final class TeamChainStageDataOuterClass {
       size = 0;
       if (bestScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, bestScore_);
-      }
-      if (isOpen_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, isOpen_);
+          .computeUInt32Size(1, bestScore_);
       }
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, stageId_);
+          .computeUInt32Size(9, stageId_);
+      }
+      if (isOpen_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(14, isOpen_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -224,12 +220,12 @@ public final class TeamChainStageDataOuterClass {
       }
       emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData other = (emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData) obj;
 
-      if (getIsOpen()
-          != other.getIsOpen()) return false;
-      if (getStageId()
-          != other.getStageId()) return false;
       if (getBestScore()
           != other.getBestScore()) return false;
+      if (getStageId()
+          != other.getStageId()) return false;
+      if (getIsOpen()
+          != other.getIsOpen()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -241,13 +237,13 @@ public final class TeamChainStageDataOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + BEST_SCORE_FIELD_NUMBER;
+      hash = (53 * hash) + getBestScore();
+      hash = (37 * hash) + STAGE_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getStageId();
       hash = (37 * hash) + IS_OPEN_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsOpen());
-      hash = (37 * hash) + STAGE_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getStageId();
-      hash = (37 * hash) + BEST_SCORE_FIELD_NUMBER;
-      hash = (53 * hash) + getBestScore();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -344,10 +340,6 @@ public final class TeamChainStageDataOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * Obf: FMDEBOLBHEC
-     * </pre>
-     *
      * Protobuf type {@code TeamChainStageData}
      */
     public static final class Builder extends
@@ -385,11 +377,11 @@ public final class TeamChainStageDataOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        isOpen_ = false;
+        bestScore_ = 0;
 
         stageId_ = 0;
 
-        bestScore_ = 0;
+        isOpen_ = false;
 
         return this;
       }
@@ -417,9 +409,9 @@ public final class TeamChainStageDataOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData buildPartial() {
         emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData result = new emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData(this);
-        result.isOpen_ = isOpen_;
-        result.stageId_ = stageId_;
         result.bestScore_ = bestScore_;
+        result.stageId_ = stageId_;
+        result.isOpen_ = isOpen_;
         onBuilt();
         return result;
       }
@@ -468,14 +460,14 @@ public final class TeamChainStageDataOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData other) {
         if (other == emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData.getDefaultInstance()) return this;
-        if (other.getIsOpen() != false) {
-          setIsOpen(other.getIsOpen());
+        if (other.getBestScore() != 0) {
+          setBestScore(other.getBestScore());
         }
         if (other.getStageId() != 0) {
           setStageId(other.getStageId());
         }
-        if (other.getBestScore() != 0) {
-          setBestScore(other.getBestScore());
+        if (other.getIsOpen() != false) {
+          setIsOpen(other.getIsOpen());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -506,33 +498,33 @@ public final class TeamChainStageDataOuterClass {
         return this;
       }
 
-      private boolean isOpen_ ;
+      private int bestScore_ ;
       /**
-       * <code>bool is_open = 5;</code>
-       * @return The isOpen.
+       * <code>uint32 best_score = 1;</code>
+       * @return The bestScore.
        */
       @java.lang.Override
-      public boolean getIsOpen() {
-        return isOpen_;
+      public int getBestScore() {
+        return bestScore_;
       }
       /**
-       * <code>bool is_open = 5;</code>
-       * @param value The isOpen to set.
+       * <code>uint32 best_score = 1;</code>
+       * @param value The bestScore to set.
        * @return This builder for chaining.
        */
-      public Builder setIsOpen(boolean value) {
+      public Builder setBestScore(int value) {
         
-        isOpen_ = value;
+        bestScore_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool is_open = 5;</code>
+       * <code>uint32 best_score = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearIsOpen() {
+      public Builder clearBestScore() {
         
-        isOpen_ = false;
+        bestScore_ = 0;
         onChanged();
         return this;
       }
@@ -568,33 +560,33 @@ public final class TeamChainStageDataOuterClass {
         return this;
       }
 
-      private int bestScore_ ;
+      private boolean isOpen_ ;
       /**
-       * <code>uint32 best_score = 1;</code>
-       * @return The bestScore.
+       * <code>bool is_open = 14;</code>
+       * @return The isOpen.
        */
       @java.lang.Override
-      public int getBestScore() {
-        return bestScore_;
+      public boolean getIsOpen() {
+        return isOpen_;
       }
       /**
-       * <code>uint32 best_score = 1;</code>
-       * @param value The bestScore to set.
+       * <code>bool is_open = 14;</code>
+       * @param value The isOpen to set.
        * @return This builder for chaining.
        */
-      public Builder setBestScore(int value) {
+      public Builder setIsOpen(boolean value) {
         
-        bestScore_ = value;
+        isOpen_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 best_score = 1;</code>
+       * <code>bool is_open = 14;</code>
        * @return This builder for chaining.
        */
-      public Builder clearBestScore() {
+      public Builder clearIsOpen() {
         
-        bestScore_ = 0;
+        isOpen_ = false;
         onChanged();
         return this;
       }
@@ -666,9 +658,10 @@ public final class TeamChainStageDataOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\030TeamChainStageData.proto\"K\n\022TeamChainS" +
-      "tageData\022\017\n\007is_open\030\005 \001(\010\022\020\n\010stage_id\030\t " +
-      "\001(\r\022\022\n\nbest_score\030\001 \001(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "tageData\022\022\n\nbest_score\030\001 \001(\r\022\020\n\010stage_id" +
+      "\030\t \001(\r\022\017\n\007is_open\030\016 \001(\010B9\n\031emu.grasscutt" +
+      "er.net.protoB\034TeamChainStageDataOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -679,7 +672,7 @@ public final class TeamChainStageDataOuterClass {
     internal_static_TeamChainStageData_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_TeamChainStageData_descriptor,
-        new java.lang.String[] { "IsOpen", "StageId", "BestScore", });
+        new java.lang.String[] { "BestScore", "StageId", "IsOpen", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

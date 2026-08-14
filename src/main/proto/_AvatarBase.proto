@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_AvatarBaseOuterClass";
+
+import "EMCDNJLCAEB.proto";
+import "JEOKDCIGCFP.proto";
+
+message _AvatarBase {
+	uint32 EAFGFOJNJMD = 1;
+	bool KAJLCAPNCFA = 2;
+	JEOKDCIGCFP IDLLCHKCKLM = 3;
+	repeated EMCDNJLCAEB IOFBONMICEB = 4;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AOACBHIACPAOuterClass";
+
+message AOACBHIACPA {
+	uint32 APGDMMNLIGP = 7;
+	uint32 furniture_id = 9;
+}

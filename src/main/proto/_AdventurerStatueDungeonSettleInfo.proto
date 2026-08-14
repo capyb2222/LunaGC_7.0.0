@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_AdventurerStatueDungeonSettleInfoOuterClass";
+
+message _AdventurerStatueDungeonSettleInfo {
+	uint32 level_id = 2;
+	bool is_new_record = 4;
+	bool is_succ = 5;
+	uint32 score = 11;
+}

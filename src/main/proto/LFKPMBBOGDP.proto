@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "LFKPMBBOGDPOuterClass";
+
+import "Vector.proto";
+
+message LFKPMBBOGDP {
+	bool is_finish = 2;
+	uint32 open_time = 4;
+	repeated uint32 GHGKAOABLFK = 6;
+	bool is_open = 7;
+	uint32 level_id = 10;
+	Vector region_center_pos = 11;
+	uint32 scene_id = 13;
+	float region_radius = 14;
+}

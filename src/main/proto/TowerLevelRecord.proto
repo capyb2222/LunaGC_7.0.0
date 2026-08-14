@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "TowerLevelRecordOuterClass";
+
+message TowerLevelRecord {
+	repeated uint32 satisfied_cond_list = 4;
+	uint32 level_id = 5;
+}

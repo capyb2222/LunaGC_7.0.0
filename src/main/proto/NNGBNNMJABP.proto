@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "NNGBNNMJABPOuterClass";
+
+import "DACMDDCLPNH.proto";
+import "GKOENKALADA.proto";
+import "OEHOLOIDPEF.proto";
+
+message NNGBNNMJABP {
+	uint32 JKOEGDMOGON = 1;
+	uint32 level = 6;
+	repeated GKOENKALADA IMGAIHFOHFJ = 8;
+	bool OICODBBMDAO = 11;
+	DACMDDCLPNH BPIHKBCGHJA = 12;
+	repeated OEHOLOIDPEF ELEPHHGAEMM = 13;
+	bool FJKGOLJBKIM = 15;
+}

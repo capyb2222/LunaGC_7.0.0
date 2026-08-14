@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SalesmanActivityDetailInfoOuterClass";
+
+import "SalesmanStatusType.proto";
+
+message SalesmanActivityDetailInfo {
+	bool CCIDPKHDGLB = 1;
+	SalesmanStatusType status = 2;
+	map<uint32, uint32> selected_reward_id_map = 4;
+	uint32 FNPCMPBIIMP = 6;
+	bool LOCIIDPOHAH = 8;
+	uint32 KMKFHBKGBOH = 9;
+	uint32 IKCLPCPHAJF = 10;
+	uint32 DILMJEONOCC = 11;
+	uint32 KFEIFMLHHGM = 13;
+	uint32 day_index = 15;
+}

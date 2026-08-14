@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_UgcLanV5CardRecordOuterClass";
+
+import "IOIOBABMMLL.proto";
+
+message _UgcLanV5CardRecord {
+	repeated IOIOBABMMLL LCFBHOGGFHB = 1;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "IrodoriChessLevelDataOuterClass";
+
+import "IrodoriChessMapData.proto";
+
+message IrodoriChessLevelData {
+	IrodoriChessMapData KHMINPCFODJ = 1;
+	uint32 level_id = 3;
+	uint32 open_time = 11;
+	IrodoriChessMapData DEOIKMODAPM = 12;
+}

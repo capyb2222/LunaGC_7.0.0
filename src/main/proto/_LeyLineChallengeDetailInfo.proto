@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_LeyLineChallengeDetailInfoOuterClass";
+
+import "FAAOMPMEBKI.proto";
+import "HDHLLCCCLJM.proto";
+import "JJKBEPPIFIE.proto";
+import "MKADIBABGKH.proto";
+
+message _LeyLineChallengeDetailInfo {
+	bool OFBDHIJICPL = 1;
+	HDHLLCCCLJM FKGDIAPACDB = 3;
+	uint32 PIJLAHENJEP = 4;
+	bool LBCGNOOJDIC = 5;
+	JJKBEPPIFIE ALJFGLAPKKM = 6;
+	HDHLLCCCLJM IDIHOMKNMHE = 7;
+	uint64 LEEHFFLICIK = 9;
+	repeated HDHLLCCCLJM HDAKHICDPPN = 11;
+	repeated FAAOMPMEBKI AKLPNJCALKO = 12;
+	uint32 GCONANDBHMP = 14;
+	repeated MKADIBABGKH difficulty_info_list = 15;
+}

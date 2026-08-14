@@ -18,16 +18,19 @@ public final class SetNameCardRspOuterClass {
       // @@protoc_insertion_point(interface_extends:SetNameCardRsp)
       com.google.protobuf.MessageOrBuilder {
 
+    /**
+     * <code>uint32 name_card_id = 10;</code>
+     * @return The nameCardId.
+     */
     int getNameCardId();
 
+    /**
+     * <code>int32 retcode = 12;</code>
+     * @return The retcode.
+     */
     int getRetcode();
   }
   /**
-   * <pre>
-   * Version: 5.8
-   * CmdId: 1382
-   * </pre>
-   *
    * Protobuf type {@code SetNameCardRsp}
    */
   public static final class SetNameCardRsp extends
@@ -72,14 +75,14 @@ public final class SetNameCardRspOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
-
-              retcode_ = input.readInt32();
-              break;
-            }
-            case 56: {
+            case 80: {
 
               nameCardId_ = input.readUInt32();
+              break;
+            }
+            case 96: {
+
+              retcode_ = input.readInt32();
               break;
             }
             default: {
@@ -114,17 +117,23 @@ public final class SetNameCardRspOuterClass {
               emu.grasscutter.net.proto.SetNameCardRspOuterClass.SetNameCardRsp.class, emu.grasscutter.net.proto.SetNameCardRspOuterClass.SetNameCardRsp.Builder.class);
     }
 
-    public static final int NAME_CARD_ID_FIELD_NUMBER = 7;
+    public static final int NAME_CARD_ID_FIELD_NUMBER = 10;
     private int nameCardId_;
-
+    /**
+     * <code>uint32 name_card_id = 10;</code>
+     * @return The nameCardId.
+     */
     @java.lang.Override
     public int getNameCardId() {
       return nameCardId_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 8;
+    public static final int RETCODE_FIELD_NUMBER = 12;
     private int retcode_;
-
+    /**
+     * <code>int32 retcode = 12;</code>
+     * @return The retcode.
+     */
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -145,10 +154,10 @@ public final class SetNameCardRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (nameCardId_ != 0) {
-        output.writeUInt32(7, nameCardId_);
+        output.writeUInt32(10, nameCardId_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(8, retcode_);
+        output.writeInt32(12, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -161,11 +170,11 @@ public final class SetNameCardRspOuterClass {
       size = 0;
       if (nameCardId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, nameCardId_);
+          .computeUInt32Size(10, nameCardId_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(8, retcode_);
+          .computeInt32Size(12, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -297,11 +306,6 @@ public final class SetNameCardRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * Version: 5.8
-     * CmdId: 1382
-     * </pre>
-     *
      * Protobuf type {@code SetNameCardRsp}
      */
     public static final class Builder extends
@@ -455,42 +459,62 @@ public final class SetNameCardRspOuterClass {
       }
 
       private int nameCardId_ ;
-
+      /**
+       * <code>uint32 name_card_id = 10;</code>
+       * @return The nameCardId.
+       */
       @java.lang.Override
       public int getNameCardId() {
         return nameCardId_;
       }
-
+      /**
+       * <code>uint32 name_card_id = 10;</code>
+       * @param value The nameCardId to set.
+       * @return This builder for chaining.
+       */
       public Builder setNameCardId(int value) {
-
+        
         nameCardId_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint32 name_card_id = 10;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearNameCardId() {
-
+        
         nameCardId_ = 0;
         onChanged();
         return this;
       }
 
       private int retcode_ ;
-
+      /**
+       * <code>int32 retcode = 12;</code>
+       * @return The retcode.
+       */
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
-
+      /**
+       * <code>int32 retcode = 12;</code>
+       * @param value The retcode to set.
+       * @return This builder for chaining.
+       */
       public Builder setRetcode(int value) {
-
+        
         retcode_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>int32 retcode = 12;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearRetcode() {
-
+        
         retcode_ = 0;
         onChanged();
         return this;
@@ -506,6 +530,7 @@ public final class SetNameCardRspOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:SetNameCardRsp)
     }
@@ -549,7 +574,7 @@ public final class SetNameCardRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SetNameCardRsp_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SetNameCardRsp_fieldAccessorTable;
 
@@ -562,8 +587,9 @@ public final class SetNameCardRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\024SetNameCardRsp.proto\"7\n\016SetNameCardRsp" +
-      "\022\024\n\014name_card_id\030\013 \001(\r\022\017\n\007retcode\030\003 \001(\005B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\022\024\n\014name_card_id\030\n \001(\r\022\017\n\007retcode\030\014 \001(\005B" +
+      "5\n\031emu.grasscutter.net.protoB\030SetNameCar" +
+      "dRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

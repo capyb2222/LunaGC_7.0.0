@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "BlessingActivityDetailInfoOuterClass";
+
+message BlessingActivityDetailInfo {
+	uint32 HLGJOMHPMDA = 1;
+	bool is_content_closed = 5;
+	uint32 next_refresh_time = 7;
+	uint32 ppbchanjknf = 9;
+	bool is_activated = 11;
+	map<uint32, uint32> pic_num_map = 12;
+	uint32 DKHOJDNIKGN = 13;
+	uint32 content_close_time = 14;
+}

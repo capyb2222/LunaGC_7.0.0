@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DONBNKJAIDHOuterClass";
+
+enum DONBNKJAIDH {
+	DONBNKJAIDH_SANDWORM_LEVEL_NOT_OPEN = 0;
+	DONBNKJAIDH_SANDWORM_LEVEL_PRE_QUEST = 1;
+	DONBNKJAIDH_SANDWORM_LEVEL_START = 2;
+	DONBNKJAIDH_SANDWORM_LEVEL_SEQUEL_QUEST = 3;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "KDHFFAMFLKCOuterClass";
+
+message KDHFFAMFLKC {
+	uint32 DNIBBKLBBJE = 1;
+	uint32 rotation = 5;
+	uint32 LAPJDMHDDIP = 8;
+	uint32 MHFDNNEMNJB = 12;
+}

@@ -1,0 +1,65 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PlayerLoginReqOuterClass";
+
+import "ALFKEHMLFLO.proto";
+import "FNGEEAFJCDG.proto";
+import "_Vector2Int.proto";
+
+message PlayerLoginReq {
+	bool is_guest = 1;
+	uint32 platform_type = 2;
+	uint32 target_uid = 3;
+	string device_uuid = 4;
+	string platform = 5;
+	string token = 6;
+	string system_version = 7;
+	string client_version = 8;
+	uint32 language_type = 9;
+	string device_name = 10;
+	uint64 login_rand = 11;
+	string device_info = 12;
+	uint32 account_type = 13;
+	string account_uid = 14;
+	bool is_editor = 15;
+	uint32 NBFMNCMEHGM = 63;
+	string cps = 125;
+	ALFKEHMLFLO DFNBAFNKCED = 128;
+	_Vector2Int IHMDHCDBHDJ = 137;
+	bool CEADLMGKJMP = 154;
+	uint32 channel_id = 257;
+	string _xuid = 306;
+	string checksum = 318;
+	string psn_id = 367;
+	uint32 timestamp = 383;
+	uint32 reg_platform = 499;
+	bool CGMBIAPFHGE = 516;
+	string online_id = 633;
+	uint32 gm_uid = 669;
+	string security_library_md5 = 670;
+	uint32 tag = 755;
+	FNGEEAFJCDG KJEMCDAJINF = 758;
+	string ECJHHHKAFIO = 787;
+	uint32 sub_channel_id = 844;
+	bytes security_cmd_reply = 894;
+	bytes extra_bin_data = 895;
+	uint32 cloud_client_ip = 956;
+	string _xbox_gamertag = 1033;
+	uint32 MCKNOBKGGEM = 1051;
+	string country_code = 1061;
+	uint32 HPHGKOCDPJE = 1084;
+	string birthday = 1129;
+	string checksum_client_version = 1160;
+	bool LFABPIKDHKL = 1166;
+	string OMBBHFFLNIM = 1174;
+	uint32 HENDBLEDPIG = 1237;
+	string PMBCMNHEGHO = 1292;
+	uint32 ALMPHOAOJEC = 1313;
+	uint32 KDIKBHLPKDJ = 1531;
+	uint32 client_data_version = 1581;
+	string BKIICHHOJAF = 1591;
+	string PDDPLNEPLJJ = 1640;
+	string client_verison_hash = 1747;
+	bytes environment_error_code = 1989;
+}

@@ -43,6 +43,18 @@ public final class ResinCostTypeOuterClass {
      * <code>ResinCostType_MATERIAL = 5;</code>
      */
     ResinCostType_MATERIAL(5),
+    /**
+     * <code>FRAGILE = 6;</code>
+     */
+    FRAGILE(6),
+    /**
+     * <code>TIMING = 7;</code>
+     */
+    TIMING(7),
+    /**
+     * <code>HCOIN = 8;</code>
+     */
+    HCOIN(8),
     UNRECOGNIZED(-1),
     ;
 
@@ -70,6 +82,18 @@ public final class ResinCostTypeOuterClass {
      * <code>ResinCostType_MATERIAL = 5;</code>
      */
     public static final int ResinCostType_MATERIAL_VALUE = 5;
+    /**
+     * <code>FRAGILE = 6;</code>
+     */
+    public static final int FRAGILE_VALUE = 6;
+    /**
+     * <code>TIMING = 7;</code>
+     */
+    public static final int TIMING_VALUE = 7;
+    /**
+     * <code>HCOIN = 8;</code>
+     */
+    public static final int HCOIN_VALUE = 8;
 
 
     public final int getNumber() {
@@ -102,6 +126,9 @@ public final class ResinCostTypeOuterClass {
         case 3: return ResinCostType_REUNION_PRIVILEGE;
         case 4: return ResinCostType_OP_ACTIVITY;
         case 5: return ResinCostType_MATERIAL;
+        case 6: return FRAGILE;
+        case 7: return TIMING;
+        case 8: return HCOIN;
         default: return null;
       }
     }
@@ -167,13 +194,14 @@ public final class ResinCostTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\023ResinCostType.proto*\275\001\n\rResinCostType\022" +
+      "\n\023ResinCostType.proto*\341\001\n\rResinCostType\022" +
       "\026\n\022ResinCostType_NONE\020\000\022\030\n\024ResinCostType" +
       "_NORMAL\020\001\022\032\n\026ResinCostType_CONDENSE\020\002\022#\n" +
       "\037ResinCostType_REUNION_PRIVILEGE\020\003\022\035\n\031Re" +
       "sinCostType_OP_ACTIVITY\020\004\022\032\n\026ResinCostTy" +
-      "pe_MATERIAL\020\005B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "pe_MATERIAL\020\005\022\013\n\007FRAGILE\020\006\022\n\n\006TIMING\020\007\022\t" +
+      "\n\005HCOIN\020\010B4\n\031emu.grasscutter.net.protoB\027" +
+      "ResinCostTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

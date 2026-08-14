@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GadgetAutoPickDropInfoNotifyOuterClass";
+
+import "Item.proto";
+import "_ChestExtraItem.proto";
+
+message GadgetAutoPickDropInfoNotify {
+	repeated Item item_list = 7;
+	repeated _ChestExtraItem _chest_extra_item_list = 14;
+}

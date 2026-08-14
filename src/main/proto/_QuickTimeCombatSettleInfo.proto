@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_QuickTimeCombatSettleInfoOuterClass";
+
+message _QuickTimeCombatSettleInfo {
+	uint32 stage_id = 2;
+	uint32 total_score = 5;
+	bool is_new_record = 9;
+	uint32 difficulty = 11;
+	repeated uint32 KKBGBCAOLAP = 14;
+}

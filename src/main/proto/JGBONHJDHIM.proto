@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "JGBONHJDHIMOuterClass";
+
+message JGBONHJDHIM {
+	int32 id = 1;
+	bool is_active = 2;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MOFPMJLCGJDOuterClass";
+
+message MOFPMJLCGJD {
+	uint32 level_id = 2;
+	uint32 KIABLKFFKIJ = 8;
+	bool is_finish = 9;
+	bool is_open = 13;
+}

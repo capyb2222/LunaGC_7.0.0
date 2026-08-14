@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HomeAvatarTalkReqOuterClass";
+
+message HomeAvatarTalkReq {
+	uint32 avatar_id = 9;
+	uint32 talk_id = 13;
+}

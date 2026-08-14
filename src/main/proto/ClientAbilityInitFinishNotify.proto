@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ClientAbilityInitFinishNotifyOuterClass";
+
+import "AbilityInvokeEntry.proto";
+
+message ClientAbilityInitFinishNotify {
+	uint32 entity_id = 10;
+	repeated AbilityInvokeEntry invokes = 15;
+}

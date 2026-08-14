@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_LanternRiteV6DetailInfoOuterClass";
+
+import "_LanternRiteV6CardInfo.proto";
+import "_LanternRiteV6DanmakuInfo.proto";
+
+message _LanternRiteV6DetailInfo {
+	uint32 like_num = 1;
+	_LanternRiteV6DanmakuInfo _danmaku_info = 5;
+	uint32 JFKNEPBHALE = 9;
+	bool is_taken_costume_reward = 10;
+	_LanternRiteV6CardInfo _card_info = 13;
+}

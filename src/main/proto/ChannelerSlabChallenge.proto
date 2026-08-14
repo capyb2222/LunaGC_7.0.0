@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ChannelerSlabChallengeOuterClass";
+
+import "ChannelerSlabCamp.proto";
+
+message ChannelerSlabChallenge {
+	uint32 active_camp_index = 6;
+	repeated ChannelerSlabCamp camp_list = 10;
+}

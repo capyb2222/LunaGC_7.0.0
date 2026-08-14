@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GetScenePointRspOuterClass";
+
+message GetScenePointRsp {
+	bool is_relogin = 1;
+	repeated uint32 unlocked_point_list = 2;
+	int32 retcode = 3;
+	repeated uint32 JHHBKAOPBAH = 5;
+	repeated uint32 unlock_area_list = 6;
+	repeated uint32 IEMCNADNPED = 7;
+	repeated uint32 unhide_point_list = 8;
+	repeated uint32 group_unlimit_point_list = 9;
+	repeated uint32 OLEEDBKCAAN = 10;
+	uint32 scene_id = 12;
+	uint32 belong_uid = 13;
+	repeated uint32 hide_point_list = 14;
+	repeated uint32 locked_point_list = 15;
+}

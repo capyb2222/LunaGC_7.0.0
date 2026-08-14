@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "TreasureSeelieRegionDataOuterClass";
+
+import "Vector.proto";
+
+message TreasureSeelieRegionData {
+	uint32 open_time = 1;
+	bool is_open = 4;
+	uint32 OKGPCPGPPMG = 5;
+	Vector region_center_pos = 6;
+	uint32 region_id = 7;
+	uint32 scene_id = 8;
+	uint32 LPGPONIONFK = 12;
+	uint32 pdhmghbaedh = 13;
+	bool is_done = 14;
+	float region_radius = 15;
+}

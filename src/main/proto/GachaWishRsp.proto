@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GachaWishRspOuterClass";
+
+message GachaWishRsp {
+	uint32 wish_item_id = 1;
+	uint32 gacha_schedule_id = 2;
+	int32 retcode = 4;
+	uint32 INBDJDEECHH = 10;
+	uint32 gacha_type = 12;
+	uint32 JHGDJIHMNGO = 13;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "VehicleStaminaNotifyOuterClass";
+
+message VehicleStaminaNotify {
+	float cur_stamina = 3;
+	uint32 entity_id = 15;
+}

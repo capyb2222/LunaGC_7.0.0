@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_TradeShowBattleSettleInfoOuterClass";
+
+message _TradeShowBattleSettleInfo {
+	uint32 level_id = 3;
+	uint32 GBHMBBOAMLK = 4;
+	uint32 score = 5;
+	uint32 difficulty_id = 6;
+	bool is_new_record = 11;
+	uint32 NKMECOILMIO = 14;
+}

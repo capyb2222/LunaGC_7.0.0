@@ -166,8 +166,9 @@ public final class AvatarExpeditionStateOuterClass {
       "FINISH_WAIT_REWARD\020\002\022@\n<AvatarExpedition" +
       "State_AVATAR_EXPEDITION_CALLBACK_WAIT_RE" +
       "WARD\020\003\0222\n.AvatarExpeditionState_AVATAR_E" +
-      "XPEDITION_LOCKED\020\004B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "XPEDITION_LOCKED\020\004B<\n\031emu.grasscutter.ne" +
+      "t.protoB\037AvatarExpeditionStateOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

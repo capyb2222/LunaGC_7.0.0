@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "InfernceWordInfoOuterClass";
+
+message InfernceWordInfo {
+	uint32 associate_word_id = 1;
+	uint32 word_id = 6;
+	uint32 unlock_by_word_id = 8;
+	bool dgmljikfami = 11;
+	bool DKHJIGMFFOG = 13;
+	bool IAFPDGKDPPH = 14;
+}

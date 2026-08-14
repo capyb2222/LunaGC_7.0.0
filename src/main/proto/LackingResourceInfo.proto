@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "LackingResourceInfoOuterClass";
+
+message LackingResourceInfo {
+	repeated uint32 lacked_npc_list = 1;
+	map<uint32, uint32> lacked_npc_map = 2;
+	repeated uint32 lacked_place_list = 3;
+	map<uint32, uint32> lacked_place_map = 4;
+	repeated uint32 ohlogcnchdg = 5;
+	map<uint32, uint32> PMIOEBCNJFM = 6;
+	repeated uint32 labehojblog = 7;
+	repeated uint32 mgfljomahdg = 8;
+	repeated uint32 _focused_parent_quest_id_list = 9;
+	uint32 POMNBEBGIEM = 10;
+	map<uint32, uint32> LAMMLKHEHII = 11;
+}

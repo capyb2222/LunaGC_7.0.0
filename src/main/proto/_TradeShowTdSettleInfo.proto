@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_TradeShowTdSettleInfoOuterClass";
+
+message _TradeShowTdSettleInfo {
+	bool is_new_record = 4;
+	uint32 OOEGJHCJDKI = 10;
+	uint32 level_id = 13;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_ThemeParkTriathlonSettleInfoOuterClass";
+
+message _ThemeParkTriathlonSettleInfo {
+	bool OABFNCIAGMK = 13;
+	uint32 level_id = 14;
+}

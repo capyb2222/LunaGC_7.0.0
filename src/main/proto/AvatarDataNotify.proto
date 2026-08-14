@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AvatarDataNotifyOuterClass";
+
+import "AvatarInfo.proto";
+import "AvatarRenameInfo.proto";
+import "AvatarTeam.proto";
+
+message AvatarDataNotify {
+	repeated uint32 owned_flycloak_list = 4;
+	repeated AvatarInfo avatar_list = 6;
+	uint32 cur_avatar_team_id = 7;
+	repeated AvatarRenameInfo avatar_rename_list = 8;
+	repeated uint32 owned_costume_list = 9;
+	repeated uint32 _owned_trace_effect_list = 11;
+	repeated uint32 backup_avatar_team_order_list = 12;
+	map<uint32, AvatarTeam> avatar_team_map = 13;
+	uint64 choose_avatar_guid = 14;
+	repeated uint64 temp_avatar_guid_list = 15;
+}

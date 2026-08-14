@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EGDOCIBGAIJOuterClass";
+
+message EGDOCIBGAIJ {
+	uint32 max_score = 4;
+	uint32 level_id = 6;
+	uint32 CEAOGBDNNBG = 7;
+	repeated uint64 JAJDEPFBKHI = 12;
+}

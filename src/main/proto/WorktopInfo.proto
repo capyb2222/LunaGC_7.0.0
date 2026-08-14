@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "WorktopInfoOuterClass";
+
+message WorktopInfo {
+	repeated uint32 option_list = 1;
+	bool is_guest_can_operate = 2;
+}

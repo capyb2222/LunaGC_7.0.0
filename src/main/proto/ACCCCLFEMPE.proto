@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ACCCCLFEMPEOuterClass";
+
+message ACCCCLFEMPE {
+	uint32 level_id = 1;
+	repeated uint32 NBPIEMDDNDB = 6;
+	bool is_open = 13;
+	bool is_finish = 15;
+}

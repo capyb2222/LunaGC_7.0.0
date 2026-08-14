@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_MonsterChessCardDetailOuterClass";
+
+message _MonsterChessCardDetail {
+	uint32 guid = 1;
+	uint32 _card_star_num = 2;
+	uint32 _card_level = 3;
+	uint32 card_id = 6;
+	uint32 _card_extra_level = 9;
+}

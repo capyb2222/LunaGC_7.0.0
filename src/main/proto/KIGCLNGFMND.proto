@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "KIGCLNGFMNDOuterClass";
+
+message KIGCLNGFMND {
+	uint32 MMCBCEOJBPB = 1;
+	repeated uint32 ENIINHOKAJO = 2;
+}

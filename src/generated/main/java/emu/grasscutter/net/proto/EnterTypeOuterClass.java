@@ -71,6 +71,14 @@ public final class EnterTypeOuterClass {
      * <code>EnterType_ENTER_GOTO_BY_TPL = 12;</code>
      */
     EnterType_ENTER_GOTO_BY_TPL(12),
+    /**
+     * <code>ENTER_BEYOND = 13;</code>
+     */
+    ENTER_BEYOND(13),
+    /**
+     * <code>ENTER_HALL = 14;</code>
+     */
+    ENTER_HALL(14),
     UNRECOGNIZED(-1),
     ;
 
@@ -126,6 +134,14 @@ public final class EnterTypeOuterClass {
      * <code>EnterType_ENTER_GOTO_BY_TPL = 12;</code>
      */
     public static final int EnterType_ENTER_GOTO_BY_TPL_VALUE = 12;
+    /**
+     * <code>ENTER_BEYOND = 13;</code>
+     */
+    public static final int ENTER_BEYOND_VALUE = 13;
+    /**
+     * <code>ENTER_HALL = 14;</code>
+     */
+    public static final int ENTER_HALL_VALUE = 14;
 
 
     public final int getNumber() {
@@ -165,6 +181,8 @@ public final class EnterTypeOuterClass {
         case 10: return EnterType_ENTER_OTHER_HOME;
         case 11: return EnterType_ENTER_GOTO_RECREATE;
         case 12: return EnterType_ENTER_GOTO_BY_TPL;
+        case 13: return ENTER_BEYOND;
+        case 14: return ENTER_HALL;
         default: return null;
       }
     }
@@ -230,7 +248,7 @@ public final class EnterTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\017EnterType.proto*\220\003\n\tEnterType\022\030\n\024Enter" +
+      "\n\017EnterType.proto*\262\003\n\tEnterType\022\030\n\024Enter" +
       "Type_ENTER_NONE\020\000\022\030\n\024EnterType_ENTER_SEL" +
       "F\020\001\022\030\n\024EnterType_ENTER_GOTO\020\002\022\030\n\024EnterTy" +
       "pe_ENTER_JUMP\020\003\022\031\n\025EnterType_ENTER_OTHER" +
@@ -240,8 +258,9 @@ public final class EnterTypeOuterClass {
       "_PORTAL\020\010\022\035\n\031EnterType_ENTER_SELF_HOME\020\t" +
       "\022\036\n\032EnterType_ENTER_OTHER_HOME\020\n\022!\n\035Ente" +
       "rType_ENTER_GOTO_RECREATE\020\013\022\037\n\033EnterType" +
-      "_ENTER_GOTO_BY_TPL\020\014B\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "_ENTER_GOTO_BY_TPL\020\014\022\020\n\014ENTER_BEYOND\020\r\022\016" +
+      "\n\nENTER_HALL\020\016B0\n\031emu.grasscutter.net.pr" +
+      "otoB\023EnterTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -15,10 +15,6 @@ public final class SalesmanStatusTypeOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   /**
-   * <pre>
-   * Obf: IGGCOLMGDPL
-   * </pre>
-   *
    * Protobuf enum {@code SalesmanStatusType}
    */
   public enum SalesmanStatusType
@@ -157,8 +153,8 @@ public final class SalesmanStatusTypeOuterClass {
       "tatusType\022\030\n\024SALESMAN_STATUS_NONE\020\000\022\035\n\031S" +
       "ALESMAN_STATUS_UNSTARTED\020\001\022\033\n\027SALESMAN_S" +
       "TATUS_STARTED\020\002\022\035\n\031SALESMAN_STATUS_DELIV" +
-      "ERED\020\003B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "ERED\020\003B9\n\031emu.grasscutter.net.protoB\034Sal" +
+      "esmanStatusTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

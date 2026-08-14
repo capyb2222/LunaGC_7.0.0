@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "OMLPFJJBOEPOuterClass";
+
+message OMLPFJJBOEP {
+	bool is_level_open = 4;
+	uint32 level_id = 7;
+	uint32 NHEFNKONPEI = 11;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FleurFairV2DetailInfoOuterClass";
+
+import "GIMDACMEMIB.proto";
+import "HGBCEHMPOBA.proto";
+import "KGIPKNLNOMN.proto";
+
+message FleurFairV2DetailInfo {
+	HGBCEHMPOBA HNHIEBFPFIM = 6;
+	KGIPKNLNOMN CCHNHMPAMIH = 7;
+	GIMDACMEMIB photo_info = 10;
+}

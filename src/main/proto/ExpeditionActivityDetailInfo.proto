@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ExpeditionActivityDetailInfoOuterClass";
+
+import "ExpeditionChallengeInfo.proto";
+import "ExpeditionPathInfo.proto";
+
+message ExpeditionActivityDetailInfo {
+	repeated ExpeditionChallengeInfo challenge_info_list = 1;
+	repeated ExpeditionPathInfo path_info_list = 2;
+	uint32 MFHNOLBKGOD = 4;
+	uint32 content_close_time = 6;
+	bool is_content_closed = 10;
+	uint32 AGBJCLKGAPP = 15;
+}

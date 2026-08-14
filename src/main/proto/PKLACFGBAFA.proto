@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PKLACFGBAFAOuterClass";
+
+message PKLACFGBAFA {
+	uint32 HAPFBMBBCBK = 6;
+	map<uint32, uint32> LHCKKICIDIP = 7;
+	bool is_open = 8;
+	uint32 PIHNDCEGCNO = 14;
+}

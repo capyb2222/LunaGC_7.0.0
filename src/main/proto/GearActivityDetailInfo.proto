@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GearActivityDetailInfoOuterClass";
+
+import "GearLevelData.proto";
+import "JigsawPictureData.proto";
+
+message GearActivityDetailInfo {
+	JigsawPictureData jigsaw_picture_data = 6;
+	repeated GearLevelData gear_level_data_list = 12;
+}

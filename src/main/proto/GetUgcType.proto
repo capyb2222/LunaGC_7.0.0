@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GetUgcTypeOuterClass";
+
+enum GetUgcType {
+	GET_UGC_NONE = 0;
+	GET_UgcType_MINE = 1;
+	GET_UgcType_PUBLISH = 2;
+}

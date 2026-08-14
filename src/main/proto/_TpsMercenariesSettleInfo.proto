@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_TpsMercenariesSettleInfoOuterClass";
+
+message _TpsMercenariesSettleInfo {
+	uint32 difficulty = 1;
+	uint32 BKLAKFGNCIH = 2;
+	uint32 DLCKFLBGLPL = 3;
+	uint32 KDLJHPGCKEK = 4;
+	uint32 use_time = 5;
+	uint32 level_id = 6;
+	bool is_new_record = 7;
+	float LCGFBJHGFHF = 8;
+	uint32 GADNKLEDPAK = 9;
+	uint32 left_time = 10;
+	uint32 ICLCODDOBDM = 11;
+	bool ICBLEOKBPAJ = 12;
+	float NBFANLFNCCO = 13;
+	uint32 score = 14;
+	repeated uint32 FHINHGGMCEI = 15;
+}

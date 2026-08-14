@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "JNMJNFCENKBOuterClass";
+
+message JNMJNFCENKB {
+	uint32 FOHNJKCKKPC = 1;
+	uint32 FEKGLGPBOAC = 2;
+	uint32 MJHEECGMMHI = 7;
+	int32 LICONHNCIPB = 10;
+	uint32 OADOGGFPLAJ = 15;
+}

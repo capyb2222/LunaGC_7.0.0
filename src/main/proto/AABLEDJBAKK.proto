@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AABLEDJBAKKOuterClass";
+
+import "APIBGNMPLHD.proto";
+import "JMBPOAGEPCL.proto";
+
+message AABLEDJBAKK {
+	APIBGNMPLHD IMBIHDBGJHK = 1;
+	JMBPOAGEPCL CDKNGAEHLMM = 2;
+}

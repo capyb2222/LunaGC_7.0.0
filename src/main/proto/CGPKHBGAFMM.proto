@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CGPKHBGAFMMOuterClass";
+
+message CGPKHBGAFMM {
+	bool is_finish = 3;
+	bool is_open = 4;
+	uint32 use_time = 5;
+	uint32 level_id = 6;
+}

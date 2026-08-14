@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "UgcMusicTrackOuterClass";
+
+import "UgcMusicNote.proto";
+
+message UgcMusicTrack {
+	repeated UgcMusicNote music_note_list = 13;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FontaineGatherDetailInfoOuterClass";
+
+import "HGLMBIEIGIN.proto";
+
+message FontaineGatherDetailInfo {
+	repeated HGLMBIEIGIN stage_info_list = 6;
+}

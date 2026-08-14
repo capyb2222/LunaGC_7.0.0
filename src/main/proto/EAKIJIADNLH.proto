@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EAKIJIADNLHOuterClass";
+
+message EAKIJIADNLH {
+	int32 CFGGICGANBF = 1;
+	bool is_active = 2;
+}

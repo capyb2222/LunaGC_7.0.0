@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AvatarChangeTraceEffectReqOuterClass";
+
+message AvatarChangeTraceEffectReq {
+	uint32 _trace_effect_id = 1;
+	uint64 avatar_guid = 5;
+}

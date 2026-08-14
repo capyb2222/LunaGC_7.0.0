@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_ClientPlayDataOuterClass";
+
+import "_ClientPlayInfo.proto";
+
+message _ClientPlayData {
+	repeated _ClientPlayInfo play_info_list = 11;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DKKMKBDDLOJOuterClass";
+
+message DKKMKBDDLOJ {
+	bool is_open = 3;
+	bool is_finish = 8;
+	uint32 PAGGBIOEHOO = 9;
+	float CJFPPKKJLMK = 11;
+	uint32 level_id = 12;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "NBMAFDLIACAOuterClass";
+
+enum NBMAFDLIACA {
+	NBMAFDLIACA_NONE = 0;
+	NBMAFDLIACA_ALL_AVATAR_SELECTED = 1;
+	NBMAFDLIACA_CHANCE_FORBIDDEN = 2;
+	NBMAFDLIACA_CANDIDATE_AVATAR_NUM_ZERO = 3;
+}

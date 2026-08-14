@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "UseItemRspOuterClass";
+
+message UseItemRsp {
+	uint64 target_guid = 1;
+	int32 retcode = 5;
+	uint32 item_id = 9;
+	uint32 option_idx = 12;
+	uint64 guid = 13;
+	repeated uint32 _option_idx_list = 15;
+}

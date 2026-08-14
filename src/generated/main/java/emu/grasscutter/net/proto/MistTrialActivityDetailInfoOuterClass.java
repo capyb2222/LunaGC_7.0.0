@@ -19,27 +19,27 @@ public final class MistTrialActivityDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .DAHCKBDIPNA EAHJGIFALHE = 5;</code>
+     * <code>repeated .MistTrialLevelData trial_level_data_list = 9;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA> 
-        getEAHJGIFALHEList();
+    java.util.List<emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData> 
+        getTrialLevelDataListList();
     /**
-     * <code>repeated .DAHCKBDIPNA EAHJGIFALHE = 5;</code>
+     * <code>repeated .MistTrialLevelData trial_level_data_list = 9;</code>
      */
-    emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA getEAHJGIFALHE(int index);
+    emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData getTrialLevelDataList(int index);
     /**
-     * <code>repeated .DAHCKBDIPNA EAHJGIFALHE = 5;</code>
+     * <code>repeated .MistTrialLevelData trial_level_data_list = 9;</code>
      */
-    int getEAHJGIFALHECount();
+    int getTrialLevelDataListCount();
     /**
-     * <code>repeated .DAHCKBDIPNA EAHJGIFALHE = 5;</code>
+     * <code>repeated .MistTrialLevelData trial_level_data_list = 9;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNAOrBuilder> 
-        getEAHJGIFALHEOrBuilderList();
+    java.util.List<? extends emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelDataOrBuilder> 
+        getTrialLevelDataListOrBuilderList();
     /**
-     * <code>repeated .DAHCKBDIPNA EAHJGIFALHE = 5;</code>
+     * <code>repeated .MistTrialLevelData trial_level_data_list = 9;</code>
      */
-    emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNAOrBuilder getEAHJGIFALHEOrBuilder(
+    emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelDataOrBuilder getTrialLevelDataListOrBuilder(
         int index);
   }
   /**
@@ -55,7 +55,7 @@ public final class MistTrialActivityDetailInfoOuterClass {
       super(builder);
     }
     private MistTrialActivityDetailInfo() {
-      eAHJGIFALHE_ = java.util.Collections.emptyList();
+      trialLevelDataList_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -89,13 +89,13 @@ public final class MistTrialActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 42: {
+            case 74: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                eAHJGIFALHE_ = new java.util.ArrayList<emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA>();
+                trialLevelDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              eAHJGIFALHE_.add(
-                  input.readMessage(emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA.parser(), extensionRegistry));
+              trialLevelDataList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -114,7 +114,7 @@ public final class MistTrialActivityDetailInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          eAHJGIFALHE_ = java.util.Collections.unmodifiableList(eAHJGIFALHE_);
+          trialLevelDataList_ = java.util.Collections.unmodifiableList(trialLevelDataList_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -133,44 +133,44 @@ public final class MistTrialActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.MistTrialActivityDetailInfoOuterClass.MistTrialActivityDetailInfo.class, emu.grasscutter.net.proto.MistTrialActivityDetailInfoOuterClass.MistTrialActivityDetailInfo.Builder.class);
     }
 
-    public static final int EAHJGIFALHE_FIELD_NUMBER = 5;
-    private java.util.List<emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA> eAHJGIFALHE_;
+    public static final int TRIAL_LEVEL_DATA_LIST_FIELD_NUMBER = 9;
+    private java.util.List<emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData> trialLevelDataList_;
     /**
-     * <code>repeated .DAHCKBDIPNA EAHJGIFALHE = 5;</code>
+     * <code>repeated .MistTrialLevelData trial_level_data_list = 9;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA> getEAHJGIFALHEList() {
-      return eAHJGIFALHE_;
+    public java.util.List<emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData> getTrialLevelDataListList() {
+      return trialLevelDataList_;
     }
     /**
-     * <code>repeated .DAHCKBDIPNA EAHJGIFALHE = 5;</code>
+     * <code>repeated .MistTrialLevelData trial_level_data_list = 9;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNAOrBuilder> 
-        getEAHJGIFALHEOrBuilderList() {
-      return eAHJGIFALHE_;
+    public java.util.List<? extends emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelDataOrBuilder> 
+        getTrialLevelDataListOrBuilderList() {
+      return trialLevelDataList_;
     }
     /**
-     * <code>repeated .DAHCKBDIPNA EAHJGIFALHE = 5;</code>
+     * <code>repeated .MistTrialLevelData trial_level_data_list = 9;</code>
      */
     @java.lang.Override
-    public int getEAHJGIFALHECount() {
-      return eAHJGIFALHE_.size();
+    public int getTrialLevelDataListCount() {
+      return trialLevelDataList_.size();
     }
     /**
-     * <code>repeated .DAHCKBDIPNA EAHJGIFALHE = 5;</code>
+     * <code>repeated .MistTrialLevelData trial_level_data_list = 9;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA getEAHJGIFALHE(int index) {
-      return eAHJGIFALHE_.get(index);
+    public emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData getTrialLevelDataList(int index) {
+      return trialLevelDataList_.get(index);
     }
     /**
-     * <code>repeated .DAHCKBDIPNA EAHJGIFALHE = 5;</code>
+     * <code>repeated .MistTrialLevelData trial_level_data_list = 9;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNAOrBuilder getEAHJGIFALHEOrBuilder(
+    public emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelDataOrBuilder getTrialLevelDataListOrBuilder(
         int index) {
-      return eAHJGIFALHE_.get(index);
+      return trialLevelDataList_.get(index);
     }
 
     private byte memoizedIsInitialized = -1;
@@ -187,8 +187,8 @@ public final class MistTrialActivityDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < eAHJGIFALHE_.size(); i++) {
-        output.writeMessage(5, eAHJGIFALHE_.get(i));
+      for (int i = 0; i < trialLevelDataList_.size(); i++) {
+        output.writeMessage(9, trialLevelDataList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -199,9 +199,9 @@ public final class MistTrialActivityDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < eAHJGIFALHE_.size(); i++) {
+      for (int i = 0; i < trialLevelDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, eAHJGIFALHE_.get(i));
+          .computeMessageSize(9, trialLevelDataList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -218,8 +218,8 @@ public final class MistTrialActivityDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.MistTrialActivityDetailInfoOuterClass.MistTrialActivityDetailInfo other = (emu.grasscutter.net.proto.MistTrialActivityDetailInfoOuterClass.MistTrialActivityDetailInfo) obj;
 
-      if (!getEAHJGIFALHEList()
-          .equals(other.getEAHJGIFALHEList())) return false;
+      if (!getTrialLevelDataListList()
+          .equals(other.getTrialLevelDataListList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -231,9 +231,9 @@ public final class MistTrialActivityDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getEAHJGIFALHECount() > 0) {
-        hash = (37 * hash) + EAHJGIFALHE_FIELD_NUMBER;
-        hash = (53 * hash) + getEAHJGIFALHEList().hashCode();
+      if (getTrialLevelDataListCount() > 0) {
+        hash = (37 * hash) + TRIAL_LEVEL_DATA_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getTrialLevelDataListList().hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -363,17 +363,17 @@ public final class MistTrialActivityDetailInfoOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
-          getEAHJGIFALHEFieldBuilder();
+          getTrialLevelDataListFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (eAHJGIFALHEBuilder_ == null) {
-          eAHJGIFALHE_ = java.util.Collections.emptyList();
+        if (trialLevelDataListBuilder_ == null) {
+          trialLevelDataList_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
         } else {
-          eAHJGIFALHEBuilder_.clear();
+          trialLevelDataListBuilder_.clear();
         }
         return this;
       }
@@ -402,14 +402,14 @@ public final class MistTrialActivityDetailInfoOuterClass {
       public emu.grasscutter.net.proto.MistTrialActivityDetailInfoOuterClass.MistTrialActivityDetailInfo buildPartial() {
         emu.grasscutter.net.proto.MistTrialActivityDetailInfoOuterClass.MistTrialActivityDetailInfo result = new emu.grasscutter.net.proto.MistTrialActivityDetailInfoOuterClass.MistTrialActivityDetailInfo(this);
         int from_bitField0_ = bitField0_;
-        if (eAHJGIFALHEBuilder_ == null) {
+        if (trialLevelDataListBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
-            eAHJGIFALHE_ = java.util.Collections.unmodifiableList(eAHJGIFALHE_);
+            trialLevelDataList_ = java.util.Collections.unmodifiableList(trialLevelDataList_);
             bitField0_ = (bitField0_ & ~0x00000001);
           }
-          result.eAHJGIFALHE_ = eAHJGIFALHE_;
+          result.trialLevelDataList_ = trialLevelDataList_;
         } else {
-          result.eAHJGIFALHE_ = eAHJGIFALHEBuilder_.build();
+          result.trialLevelDataList_ = trialLevelDataListBuilder_.build();
         }
         onBuilt();
         return result;
@@ -459,29 +459,29 @@ public final class MistTrialActivityDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.MistTrialActivityDetailInfoOuterClass.MistTrialActivityDetailInfo other) {
         if (other == emu.grasscutter.net.proto.MistTrialActivityDetailInfoOuterClass.MistTrialActivityDetailInfo.getDefaultInstance()) return this;
-        if (eAHJGIFALHEBuilder_ == null) {
-          if (!other.eAHJGIFALHE_.isEmpty()) {
-            if (eAHJGIFALHE_.isEmpty()) {
-              eAHJGIFALHE_ = other.eAHJGIFALHE_;
+        if (trialLevelDataListBuilder_ == null) {
+          if (!other.trialLevelDataList_.isEmpty()) {
+            if (trialLevelDataList_.isEmpty()) {
+              trialLevelDataList_ = other.trialLevelDataList_;
               bitField0_ = (bitField0_ & ~0x00000001);
             } else {
-              ensureEAHJGIFALHEIsMutable();
-              eAHJGIFALHE_.addAll(other.eAHJGIFALHE_);
+              ensureTrialLevelDataListIsMutable();
+              trialLevelDataList_.addAll(other.trialLevelDataList_);
             }
             onChanged();
           }
         } else {
-          if (!other.eAHJGIFALHE_.isEmpty()) {
-            if (eAHJGIFALHEBuilder_.isEmpty()) {
-              eAHJGIFALHEBuilder_.dispose();
-              eAHJGIFALHEBuilder_ = null;
-              eAHJGIFALHE_ = other.eAHJGIFALHE_;
+          if (!other.trialLevelDataList_.isEmpty()) {
+            if (trialLevelDataListBuilder_.isEmpty()) {
+              trialLevelDataListBuilder_.dispose();
+              trialLevelDataListBuilder_ = null;
+              trialLevelDataList_ = other.trialLevelDataList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              eAHJGIFALHEBuilder_ = 
+              trialLevelDataListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getEAHJGIFALHEFieldBuilder() : null;
+                   getTrialLevelDataListFieldBuilder() : null;
             } else {
-              eAHJGIFALHEBuilder_.addAllMessages(other.eAHJGIFALHE_);
+              trialLevelDataListBuilder_.addAllMessages(other.trialLevelDataList_);
             }
           }
         }
@@ -515,244 +515,244 @@ public final class MistTrialActivityDetailInfoOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA> eAHJGIFALHE_ =
+      private java.util.List<emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData> trialLevelDataList_ =
         java.util.Collections.emptyList();
-      private void ensureEAHJGIFALHEIsMutable() {
+      private void ensureTrialLevelDataListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          eAHJGIFALHE_ = new java.util.ArrayList<emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA>(eAHJGIFALHE_);
+          trialLevelDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData>(trialLevelDataList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA, emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA.Builder, emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNAOrBuilder> eAHJGIFALHEBuilder_;
+          emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData, emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData.Builder, emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelDataOrBuilder> trialLevelDataListBuilder_;
 
       /**
-       * <code>repeated .DAHCKBDIPNA EAHJGIFALHE = 5;</code>
+       * <code>repeated .MistTrialLevelData trial_level_data_list = 9;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA> getEAHJGIFALHEList() {
-        if (eAHJGIFALHEBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(eAHJGIFALHE_);
+      public java.util.List<emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData> getTrialLevelDataListList() {
+        if (trialLevelDataListBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(trialLevelDataList_);
         } else {
-          return eAHJGIFALHEBuilder_.getMessageList();
+          return trialLevelDataListBuilder_.getMessageList();
         }
       }
       /**
-       * <code>repeated .DAHCKBDIPNA EAHJGIFALHE = 5;</code>
+       * <code>repeated .MistTrialLevelData trial_level_data_list = 9;</code>
        */
-      public int getEAHJGIFALHECount() {
-        if (eAHJGIFALHEBuilder_ == null) {
-          return eAHJGIFALHE_.size();
+      public int getTrialLevelDataListCount() {
+        if (trialLevelDataListBuilder_ == null) {
+          return trialLevelDataList_.size();
         } else {
-          return eAHJGIFALHEBuilder_.getCount();
+          return trialLevelDataListBuilder_.getCount();
         }
       }
       /**
-       * <code>repeated .DAHCKBDIPNA EAHJGIFALHE = 5;</code>
+       * <code>repeated .MistTrialLevelData trial_level_data_list = 9;</code>
        */
-      public emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA getEAHJGIFALHE(int index) {
-        if (eAHJGIFALHEBuilder_ == null) {
-          return eAHJGIFALHE_.get(index);
+      public emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData getTrialLevelDataList(int index) {
+        if (trialLevelDataListBuilder_ == null) {
+          return trialLevelDataList_.get(index);
         } else {
-          return eAHJGIFALHEBuilder_.getMessage(index);
+          return trialLevelDataListBuilder_.getMessage(index);
         }
       }
       /**
-       * <code>repeated .DAHCKBDIPNA EAHJGIFALHE = 5;</code>
+       * <code>repeated .MistTrialLevelData trial_level_data_list = 9;</code>
        */
-      public Builder setEAHJGIFALHE(
-          int index, emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA value) {
-        if (eAHJGIFALHEBuilder_ == null) {
+      public Builder setTrialLevelDataList(
+          int index, emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData value) {
+        if (trialLevelDataListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureEAHJGIFALHEIsMutable();
-          eAHJGIFALHE_.set(index, value);
+          ensureTrialLevelDataListIsMutable();
+          trialLevelDataList_.set(index, value);
           onChanged();
         } else {
-          eAHJGIFALHEBuilder_.setMessage(index, value);
+          trialLevelDataListBuilder_.setMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .DAHCKBDIPNA EAHJGIFALHE = 5;</code>
+       * <code>repeated .MistTrialLevelData trial_level_data_list = 9;</code>
        */
-      public Builder setEAHJGIFALHE(
-          int index, emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA.Builder builderForValue) {
-        if (eAHJGIFALHEBuilder_ == null) {
-          ensureEAHJGIFALHEIsMutable();
-          eAHJGIFALHE_.set(index, builderForValue.build());
+      public Builder setTrialLevelDataList(
+          int index, emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData.Builder builderForValue) {
+        if (trialLevelDataListBuilder_ == null) {
+          ensureTrialLevelDataListIsMutable();
+          trialLevelDataList_.set(index, builderForValue.build());
           onChanged();
         } else {
-          eAHJGIFALHEBuilder_.setMessage(index, builderForValue.build());
+          trialLevelDataListBuilder_.setMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .DAHCKBDIPNA EAHJGIFALHE = 5;</code>
+       * <code>repeated .MistTrialLevelData trial_level_data_list = 9;</code>
        */
-      public Builder addEAHJGIFALHE(emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA value) {
-        if (eAHJGIFALHEBuilder_ == null) {
+      public Builder addTrialLevelDataList(emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData value) {
+        if (trialLevelDataListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureEAHJGIFALHEIsMutable();
-          eAHJGIFALHE_.add(value);
+          ensureTrialLevelDataListIsMutable();
+          trialLevelDataList_.add(value);
           onChanged();
         } else {
-          eAHJGIFALHEBuilder_.addMessage(value);
+          trialLevelDataListBuilder_.addMessage(value);
         }
         return this;
       }
       /**
-       * <code>repeated .DAHCKBDIPNA EAHJGIFALHE = 5;</code>
+       * <code>repeated .MistTrialLevelData trial_level_data_list = 9;</code>
        */
-      public Builder addEAHJGIFALHE(
-          int index, emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA value) {
-        if (eAHJGIFALHEBuilder_ == null) {
+      public Builder addTrialLevelDataList(
+          int index, emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData value) {
+        if (trialLevelDataListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureEAHJGIFALHEIsMutable();
-          eAHJGIFALHE_.add(index, value);
+          ensureTrialLevelDataListIsMutable();
+          trialLevelDataList_.add(index, value);
           onChanged();
         } else {
-          eAHJGIFALHEBuilder_.addMessage(index, value);
+          trialLevelDataListBuilder_.addMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .DAHCKBDIPNA EAHJGIFALHE = 5;</code>
+       * <code>repeated .MistTrialLevelData trial_level_data_list = 9;</code>
        */
-      public Builder addEAHJGIFALHE(
-          emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA.Builder builderForValue) {
-        if (eAHJGIFALHEBuilder_ == null) {
-          ensureEAHJGIFALHEIsMutable();
-          eAHJGIFALHE_.add(builderForValue.build());
+      public Builder addTrialLevelDataList(
+          emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData.Builder builderForValue) {
+        if (trialLevelDataListBuilder_ == null) {
+          ensureTrialLevelDataListIsMutable();
+          trialLevelDataList_.add(builderForValue.build());
           onChanged();
         } else {
-          eAHJGIFALHEBuilder_.addMessage(builderForValue.build());
+          trialLevelDataListBuilder_.addMessage(builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .DAHCKBDIPNA EAHJGIFALHE = 5;</code>
+       * <code>repeated .MistTrialLevelData trial_level_data_list = 9;</code>
        */
-      public Builder addEAHJGIFALHE(
-          int index, emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA.Builder builderForValue) {
-        if (eAHJGIFALHEBuilder_ == null) {
-          ensureEAHJGIFALHEIsMutable();
-          eAHJGIFALHE_.add(index, builderForValue.build());
+      public Builder addTrialLevelDataList(
+          int index, emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData.Builder builderForValue) {
+        if (trialLevelDataListBuilder_ == null) {
+          ensureTrialLevelDataListIsMutable();
+          trialLevelDataList_.add(index, builderForValue.build());
           onChanged();
         } else {
-          eAHJGIFALHEBuilder_.addMessage(index, builderForValue.build());
+          trialLevelDataListBuilder_.addMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .DAHCKBDIPNA EAHJGIFALHE = 5;</code>
+       * <code>repeated .MistTrialLevelData trial_level_data_list = 9;</code>
        */
-      public Builder addAllEAHJGIFALHE(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA> values) {
-        if (eAHJGIFALHEBuilder_ == null) {
-          ensureEAHJGIFALHEIsMutable();
+      public Builder addAllTrialLevelDataList(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData> values) {
+        if (trialLevelDataListBuilder_ == null) {
+          ensureTrialLevelDataListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, eAHJGIFALHE_);
+              values, trialLevelDataList_);
           onChanged();
         } else {
-          eAHJGIFALHEBuilder_.addAllMessages(values);
+          trialLevelDataListBuilder_.addAllMessages(values);
         }
         return this;
       }
       /**
-       * <code>repeated .DAHCKBDIPNA EAHJGIFALHE = 5;</code>
+       * <code>repeated .MistTrialLevelData trial_level_data_list = 9;</code>
        */
-      public Builder clearEAHJGIFALHE() {
-        if (eAHJGIFALHEBuilder_ == null) {
-          eAHJGIFALHE_ = java.util.Collections.emptyList();
+      public Builder clearTrialLevelDataList() {
+        if (trialLevelDataListBuilder_ == null) {
+          trialLevelDataList_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
-          eAHJGIFALHEBuilder_.clear();
+          trialLevelDataListBuilder_.clear();
         }
         return this;
       }
       /**
-       * <code>repeated .DAHCKBDIPNA EAHJGIFALHE = 5;</code>
+       * <code>repeated .MistTrialLevelData trial_level_data_list = 9;</code>
        */
-      public Builder removeEAHJGIFALHE(int index) {
-        if (eAHJGIFALHEBuilder_ == null) {
-          ensureEAHJGIFALHEIsMutable();
-          eAHJGIFALHE_.remove(index);
+      public Builder removeTrialLevelDataList(int index) {
+        if (trialLevelDataListBuilder_ == null) {
+          ensureTrialLevelDataListIsMutable();
+          trialLevelDataList_.remove(index);
           onChanged();
         } else {
-          eAHJGIFALHEBuilder_.remove(index);
+          trialLevelDataListBuilder_.remove(index);
         }
         return this;
       }
       /**
-       * <code>repeated .DAHCKBDIPNA EAHJGIFALHE = 5;</code>
+       * <code>repeated .MistTrialLevelData trial_level_data_list = 9;</code>
        */
-      public emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA.Builder getEAHJGIFALHEBuilder(
+      public emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData.Builder getTrialLevelDataListBuilder(
           int index) {
-        return getEAHJGIFALHEFieldBuilder().getBuilder(index);
+        return getTrialLevelDataListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .DAHCKBDIPNA EAHJGIFALHE = 5;</code>
+       * <code>repeated .MistTrialLevelData trial_level_data_list = 9;</code>
        */
-      public emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNAOrBuilder getEAHJGIFALHEOrBuilder(
+      public emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelDataOrBuilder getTrialLevelDataListOrBuilder(
           int index) {
-        if (eAHJGIFALHEBuilder_ == null) {
-          return eAHJGIFALHE_.get(index);  } else {
-          return eAHJGIFALHEBuilder_.getMessageOrBuilder(index);
+        if (trialLevelDataListBuilder_ == null) {
+          return trialLevelDataList_.get(index);  } else {
+          return trialLevelDataListBuilder_.getMessageOrBuilder(index);
         }
       }
       /**
-       * <code>repeated .DAHCKBDIPNA EAHJGIFALHE = 5;</code>
+       * <code>repeated .MistTrialLevelData trial_level_data_list = 9;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNAOrBuilder> 
-           getEAHJGIFALHEOrBuilderList() {
-        if (eAHJGIFALHEBuilder_ != null) {
-          return eAHJGIFALHEBuilder_.getMessageOrBuilderList();
+      public java.util.List<? extends emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelDataOrBuilder> 
+           getTrialLevelDataListOrBuilderList() {
+        if (trialLevelDataListBuilder_ != null) {
+          return trialLevelDataListBuilder_.getMessageOrBuilderList();
         } else {
-          return java.util.Collections.unmodifiableList(eAHJGIFALHE_);
+          return java.util.Collections.unmodifiableList(trialLevelDataList_);
         }
       }
       /**
-       * <code>repeated .DAHCKBDIPNA EAHJGIFALHE = 5;</code>
+       * <code>repeated .MistTrialLevelData trial_level_data_list = 9;</code>
        */
-      public emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA.Builder addEAHJGIFALHEBuilder() {
-        return getEAHJGIFALHEFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA.getDefaultInstance());
+      public emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData.Builder addTrialLevelDataListBuilder() {
+        return getTrialLevelDataListFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData.getDefaultInstance());
       }
       /**
-       * <code>repeated .DAHCKBDIPNA EAHJGIFALHE = 5;</code>
+       * <code>repeated .MistTrialLevelData trial_level_data_list = 9;</code>
        */
-      public emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA.Builder addEAHJGIFALHEBuilder(
+      public emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData.Builder addTrialLevelDataListBuilder(
           int index) {
-        return getEAHJGIFALHEFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA.getDefaultInstance());
+        return getTrialLevelDataListFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData.getDefaultInstance());
       }
       /**
-       * <code>repeated .DAHCKBDIPNA EAHJGIFALHE = 5;</code>
+       * <code>repeated .MistTrialLevelData trial_level_data_list = 9;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA.Builder> 
-           getEAHJGIFALHEBuilderList() {
-        return getEAHJGIFALHEFieldBuilder().getBuilderList();
+      public java.util.List<emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData.Builder> 
+           getTrialLevelDataListBuilderList() {
+        return getTrialLevelDataListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA, emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA.Builder, emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNAOrBuilder> 
-          getEAHJGIFALHEFieldBuilder() {
-        if (eAHJGIFALHEBuilder_ == null) {
-          eAHJGIFALHEBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA, emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNA.Builder, emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.DAHCKBDIPNAOrBuilder>(
-                  eAHJGIFALHE_,
+          emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData, emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData.Builder, emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelDataOrBuilder> 
+          getTrialLevelDataListFieldBuilder() {
+        if (trialLevelDataListBuilder_ == null) {
+          trialLevelDataListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData, emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelData.Builder, emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.MistTrialLevelDataOrBuilder>(
+                  trialLevelDataList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
                   isClean());
-          eAHJGIFALHE_ = null;
+          trialLevelDataList_ = null;
         }
-        return eAHJGIFALHEBuilder_;
+        return trialLevelDataListBuilder_;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -821,23 +821,25 @@ public final class MistTrialActivityDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n!MistTrialActivityDetailInfo.proto\032\021DAH" +
-      "CKBDIPNA.proto\"@\n\033MistTrialActivityDetai" +
-      "lInfo\022!\n\013EAHJGIFALHE\030\005 \003(\0132\014.DAHCKBDIPNA" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\n!MistTrialActivityDetailInfo.proto\032\030Mis" +
+      "tTrialLevelData.proto\"Q\n\033MistTrialActivi" +
+      "tyDetailInfo\0222\n\025trial_level_data_list\030\t " +
+      "\003(\0132\023.MistTrialLevelDataBB\n\031emu.grasscut" +
+      "ter.net.protoB%MistTrialActivityDetailIn" +
+      "foOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.getDescriptor(),
         });
     internal_static_MistTrialActivityDetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_MistTrialActivityDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_MistTrialActivityDetailInfo_descriptor,
-        new java.lang.String[] { "EAHJGIFALHE", });
-    emu.grasscutter.net.proto.DAHCKBDIPNAOuterClass.getDescriptor();
+        new java.lang.String[] { "TrialLevelDataList", });
+    emu.grasscutter.net.proto.MistTrialLevelDataOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

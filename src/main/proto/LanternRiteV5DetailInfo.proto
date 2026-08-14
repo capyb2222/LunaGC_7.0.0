@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "LanternRiteV5DetailInfoOuterClass";
+
+import "BCFOEMEOBNF.proto";
+import "HJFEGHPLBDI.proto";
+import "JGLAEHFEJLA.proto";
+import "MCBCGPMDIFI.proto";
+import "OPOHILFOCHP.proto";
+
+message LanternRiteV5DetailInfo {
+	JGLAEHFEJLA cemnlfpmlmj = 2;
+	BCFOEMEOBNF OJDCBKDNBHB = 3;
+	MCBCGPMDIFI GLOHDCCHBIH = 6;
+	HJFEGHPLBDI PENBJIKKHHJ = 11;
+	OPOHILFOCHP AMKDIHKLMNC = 14;
+}

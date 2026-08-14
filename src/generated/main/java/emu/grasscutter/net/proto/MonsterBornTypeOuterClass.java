@@ -144,8 +144,8 @@ public final class MonsterBornTypeOuterClass {
       "ype\022%\n!MonsterBornType_MONSTER_BORN_NONE" +
       "\020\000\022(\n$MonsterBornType_MONSTER_BORN_DEFAU" +
       "LT\020\001\022\'\n#MonsterBornType_MONSTER_BORN_RAN" +
-      "DOM\020\002B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "DOM\020\002B6\n\031emu.grasscutter.net.protoB\031Mons" +
+      "terBornTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

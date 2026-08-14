@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "WearEquipRspOuterClass";
+
+message WearEquipRsp {
+	uint64 equip_guid = 3;
+	uint64 avatar_guid = 7;
+	int32 retcode = 13;
+}

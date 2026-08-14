@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PFFMGFPKANEOuterClass";
+
+import "ProfilePicture.proto";
+
+message PFFMGFPKANE {
+	string _xbox_gamertag = 6;
+	string online_id = 9;
+	uint32 HLDCINAFEAJ = 10;
+	ProfilePicture profile_picture = 11;
+	bool NDJCMBBPOKH = 12;
+	string nickname = 13;
+	uint32 uid = 14;
+}

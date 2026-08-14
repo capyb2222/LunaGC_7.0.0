@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_RankedMatchPuzzleSettleInfoOuterClass";
+
+import "GalleryStopReason.proto";
+
+message _RankedMatchPuzzleSettleInfo {
+	GalleryStopReason reason = 2;
+	uint32 item_num = 11;
+	uint32 level_id = 15;
+}

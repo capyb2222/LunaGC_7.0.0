@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AlchemySimDetailInfoOuterClass";
+
+import "BBCHHKCMIOJ.proto";
+import "CDOHBLNEKCJ.proto";
+import "CKFHELMIGOP.proto";
+import "GIMNDGBLHNL.proto";
+import "GJFNDOODMCB.proto";
+import "HMNAKLDLGGF.proto";
+import "INNBIIAMPIJ.proto";
+import "LGNCGIEICJJ.proto";
+import "MKJLLPCIMCM.proto";
+
+message AlchemySimDetailInfo {
+	GIMNDGBLHNL hpmkggonkgp = 1;
+	GJFNDOODMCB hkkinpgdepc = 2;
+	MKJLLPCIMCM BJLMKGHFMDA = 4;
+	CKFHELMIGOP PMMPDHCPONP = 5;
+	BBCHHKCMIOJ basic_info = 6;
+	repeated LGNCGIEICJJ NLKBEFDOFKN = 7;
+	repeated CDOHBLNEKCJ CCKABEMPMAP = 8;
+	INNBIIAMPIJ hahnbkedick = 11;
+	HMNAKLDLGGF KLIJBFPJEDF = 12;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ArenaChallengeV5DetailInfoOuterClass";
+
+import "DPEEOGGEECK.proto";
+import "MLLGCECGGME.proto";
+
+message ArenaChallengeV5DetailInfo {
+	repeated MLLGCECGGME level_info_list = 2;
+	repeated DPEEOGGEECK level_list = 7;
+}

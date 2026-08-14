@@ -253,8 +253,9 @@ public final class ProtEntityTypeOuterClass {
       "ype_PROT_ENTITY_MP_LEVEL\020\013\022/\n+ProtEntity" +
       "Type_PROT_ENTITY_PLAY_TEAM_ENTITY\020\014\022(\n$P" +
       "rotEntityType_PROT_ENTITY_EYE_POINT\020\r\022\"\n" +
-      "\036ProtEntityType_PROT_ENTITY_MAX\020\016B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "\036ProtEntityType_PROT_ENTITY_MAX\020\016B5\n\031emu" +
+      ".grasscutter.net.protoB\030ProtEntityTypeOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

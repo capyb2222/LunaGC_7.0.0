@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MotionInfoOuterClass";
+
+import "MotionState.proto";
+import "Vector.proto";
+
+message MotionInfo {
+	Vector pos = 1;
+	Vector rot = 2;
+	Vector speed = 3;
+	MotionState state = 4;
+	repeated Vector params = 5;
+	Vector ref_pos = 6;
+	uint32 ref_id = 7;
+	uint32 scene_time = 8;
+	uint64 interval_velocity = 9;
+	uint32 kgnfjlofkem = 10;
+	uint32 olboiljdoai = 11;
+	repeated int32 IEKGKKEMLMI = 100;
+}

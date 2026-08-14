@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DungeonWayPointNotifyOuterClass";
+
+message DungeonWayPointNotify {
+	repeated uint32 active_way_point_list = 4;
+	bool is_add = 11;
+}

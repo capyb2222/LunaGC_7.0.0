@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GachaItemOuterClass";
+
+import "GachaTransferItem.proto";
+import "ItemParam.proto";
+
+message GachaItem {
+	bool is_flash_card = 2;
+	bool is_gacha_item_new = 3;
+	ItemParam gacha_item = 5;
+	repeated GachaTransferItem transfer_items = 8;
+	repeated ItemParam token_item_list = 13;
+}

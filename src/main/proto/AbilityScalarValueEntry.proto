@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AbilityScalarValueEntryOuterClass";
+
+import "AbilityString.proto";
+
+message AbilityScalarValueEntry {
+	AbilityString key = 1;
+	float float_value = 3;
+}

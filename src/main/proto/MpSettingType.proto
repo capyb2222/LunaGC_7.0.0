@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MpSettingTypeOuterClass";
+
+enum MpSettingType {
+	MpSettingType_MP_SETTING_NO_ENTER = 0;
+	MpSettingType_MP_SETTING_ENTER_FREELY = 1;
+	MpSettingType_MP_SETTING_ENTER_AFTER_APPLY = 2;
+}

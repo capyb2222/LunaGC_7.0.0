@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PenumbraAdventureDetailInfoOuterClass";
+
+import "APGNMMCFCPD.proto";
+import "GBAOLFCECGM.proto";
+import "HFLCFLBGIKI.proto";
+import "_PenumbraAdventureFlightGearInfo.proto";
+import "_PenumbraAdventureTargetShootingInfo.proto";
+
+message PenumbraAdventureDetailInfo {
+	_PenumbraAdventureFlightGearInfo _flight_gear_info = 3;
+	APGNMMCFCPD CLJOHONMNEH = 5;
+	HFLCFLBGIKI lkjafjofkjf = 6;
+	_PenumbraAdventureTargetShootingInfo _target_shooting_info = 7;
+	GBAOLFCECGM LLHAEBMBODJ = 13;
+}

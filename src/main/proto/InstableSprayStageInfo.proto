@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "InstableSprayStageInfoOuterClass";
+
+import "InstableSprayTeamInfo.proto";
+
+message InstableSprayStageInfo {
+	bool is_finished = 4;
+	repeated InstableSprayTeamInfo team_info_list = 6;
+	uint32 stage_id = 9;
+	uint32 max_score = 13;
+}

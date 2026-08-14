@@ -18,19 +18,34 @@ public final class RouteOuterClass {
       // @@protoc_insertion_point(interface_extends:Route)
       com.google.protobuf.MessageOrBuilder {
 
-    java.util.List<emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint>
+    /**
+     * <code>repeated .RoutePoint route_points = 1;</code>
+     */
+    java.util.List<emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint> 
         getRoutePointsList();
-
+    /**
+     * <code>repeated .RoutePoint route_points = 1;</code>
+     */
     emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint getRoutePoints(int index);
-
+    /**
+     * <code>repeated .RoutePoint route_points = 1;</code>
+     */
     int getRoutePointsCount();
-
-    java.util.List<? extends emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder>
+    /**
+     * <code>repeated .RoutePoint route_points = 1;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder> 
         getRoutePointsOrBuilderList();
-
+    /**
+     * <code>repeated .RoutePoint route_points = 1;</code>
+     */
     emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder getRoutePointsOrBuilder(
         int index);
 
+    /**
+     * <code>uint32 route_type = 2;</code>
+     * @return The routeType.
+     */
     int getRouteType();
   }
   /**
@@ -131,28 +146,38 @@ public final class RouteOuterClass {
 
     public static final int ROUTE_POINTS_FIELD_NUMBER = 1;
     private java.util.List<emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint> routePoints_;
-
+    /**
+     * <code>repeated .RoutePoint route_points = 1;</code>
+     */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint> getRoutePointsList() {
       return routePoints_;
     }
-
+    /**
+     * <code>repeated .RoutePoint route_points = 1;</code>
+     */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder> 
         getRoutePointsOrBuilderList() {
       return routePoints_;
     }
-
+    /**
+     * <code>repeated .RoutePoint route_points = 1;</code>
+     */
     @java.lang.Override
     public int getRoutePointsCount() {
       return routePoints_.size();
     }
-
+    /**
+     * <code>repeated .RoutePoint route_points = 1;</code>
+     */
     @java.lang.Override
     public emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint getRoutePoints(int index) {
       return routePoints_.get(index);
     }
-
+    /**
+     * <code>repeated .RoutePoint route_points = 1;</code>
+     */
     @java.lang.Override
     public emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder getRoutePointsOrBuilder(
         int index) {
@@ -161,7 +186,10 @@ public final class RouteOuterClass {
 
     public static final int ROUTE_TYPE_FIELD_NUMBER = 2;
     private int routeType_;
-
+    /**
+     * <code>uint32 route_type = 2;</code>
+     * @return The routeType.
+     */
     @java.lang.Override
     public int getRouteType() {
       return routeType_;
@@ -485,7 +513,7 @@ public final class RouteOuterClass {
               routePointsBuilder_ = null;
               routePoints_ = other.routePoints_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              routePointsBuilder_ =
+              routePointsBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRoutePointsFieldBuilder() : null;
             } else {
@@ -538,6 +566,9 @@ public final class RouteOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint, emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder, emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder> routePointsBuilder_;
 
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public java.util.List<emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint> getRoutePointsList() {
         if (routePointsBuilder_ == null) {
           return java.util.Collections.unmodifiableList(routePoints_);
@@ -545,7 +576,9 @@ public final class RouteOuterClass {
           return routePointsBuilder_.getMessageList();
         }
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public int getRoutePointsCount() {
         if (routePointsBuilder_ == null) {
           return routePoints_.size();
@@ -553,7 +586,9 @@ public final class RouteOuterClass {
           return routePointsBuilder_.getCount();
         }
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint getRoutePoints(int index) {
         if (routePointsBuilder_ == null) {
           return routePoints_.get(index);
@@ -561,7 +596,9 @@ public final class RouteOuterClass {
           return routePointsBuilder_.getMessage(index);
         }
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public Builder setRoutePoints(
           int index, emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint value) {
         if (routePointsBuilder_ == null) {
@@ -576,7 +613,9 @@ public final class RouteOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public Builder setRoutePoints(
           int index, emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder builderForValue) {
         if (routePointsBuilder_ == null) {
@@ -588,7 +627,9 @@ public final class RouteOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public Builder addRoutePoints(emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint value) {
         if (routePointsBuilder_ == null) {
           if (value == null) {
@@ -602,7 +643,9 @@ public final class RouteOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public Builder addRoutePoints(
           int index, emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint value) {
         if (routePointsBuilder_ == null) {
@@ -617,7 +660,9 @@ public final class RouteOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public Builder addRoutePoints(
           emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder builderForValue) {
         if (routePointsBuilder_ == null) {
@@ -629,7 +674,9 @@ public final class RouteOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public Builder addRoutePoints(
           int index, emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder builderForValue) {
         if (routePointsBuilder_ == null) {
@@ -641,7 +688,9 @@ public final class RouteOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public Builder addAllRoutePoints(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint> values) {
         if (routePointsBuilder_ == null) {
@@ -654,7 +703,9 @@ public final class RouteOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public Builder clearRoutePoints() {
         if (routePointsBuilder_ == null) {
           routePoints_ = java.util.Collections.emptyList();
@@ -665,7 +716,9 @@ public final class RouteOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public Builder removeRoutePoints(int index) {
         if (routePointsBuilder_ == null) {
           ensureRoutePointsIsMutable();
@@ -676,12 +729,16 @@ public final class RouteOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder getRoutePointsBuilder(
           int index) {
         return getRoutePointsFieldBuilder().getBuilder(index);
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder getRoutePointsOrBuilder(
           int index) {
         if (routePointsBuilder_ == null) {
@@ -689,8 +746,10 @@ public final class RouteOuterClass {
           return routePointsBuilder_.getMessageOrBuilder(index);
         }
       }
-
-      public java.util.List<? extends emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder>
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder> 
            getRoutePointsOrBuilderList() {
         if (routePointsBuilder_ != null) {
           return routePointsBuilder_.getMessageOrBuilderList();
@@ -698,24 +757,30 @@ public final class RouteOuterClass {
           return java.util.Collections.unmodifiableList(routePoints_);
         }
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder addRoutePointsBuilder() {
         return getRoutePointsFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.getDefaultInstance());
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder addRoutePointsBuilder(
           int index) {
         return getRoutePointsFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.getDefaultInstance());
       }
-
-      public java.util.List<emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder>
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder> 
            getRoutePointsBuilderList() {
         return getRoutePointsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint, emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder, emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder>
+          emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint, emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder, emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder> 
           getRoutePointsFieldBuilder() {
         if (routePointsBuilder_ == null) {
           routePointsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -730,21 +795,31 @@ public final class RouteOuterClass {
       }
 
       private int routeType_ ;
-
+      /**
+       * <code>uint32 route_type = 2;</code>
+       * @return The routeType.
+       */
       @java.lang.Override
       public int getRouteType() {
         return routeType_;
       }
-
+      /**
+       * <code>uint32 route_type = 2;</code>
+       * @param value The routeType to set.
+       * @return This builder for chaining.
+       */
       public Builder setRouteType(int value) {
-
+        
         routeType_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint32 route_type = 2;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearRouteType() {
-
+        
         routeType_ = 0;
         onChanged();
         return this;
@@ -760,6 +835,7 @@ public final class RouteOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:Route)
     }
@@ -803,7 +879,7 @@ public final class RouteOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Route_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Route_fieldAccessorTable;
 
@@ -817,8 +893,8 @@ public final class RouteOuterClass {
     java.lang.String[] descriptorData = {
       "\n\013Route.proto\032\020RoutePoint.proto\">\n\005Route" +
       "\022!\n\014route_points\030\001 \003(\0132\013.RoutePoint\022\022\n\nr" +
-      "oute_type\030\002 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "oute_type\030\002 \001(\rB,\n\031emu.grasscutter.net.p" +
+      "rotoB\017RouteOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

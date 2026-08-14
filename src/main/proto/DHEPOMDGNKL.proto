@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DHEPOMDGNKLOuterClass";
+
+message DHEPOMDGNKL {
+	bool is_finished = 2;
+	uint32 level_id = 4;
+	bool is_level_open = 9;
+	uint32 max_score = 15;
+}

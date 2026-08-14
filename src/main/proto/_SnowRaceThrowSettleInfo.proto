@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_SnowRaceThrowSettleInfoOuterClass";
+
+message _SnowRaceThrowSettleInfo {
+	uint32 use_time = 3;
+	uint32 level_id = 4;
+	bool is_new_record = 8;
+	uint32 score = 15;
+}

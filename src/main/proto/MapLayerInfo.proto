@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MapLayerInfoOuterClass";
+
+message MapLayerInfo {
+	repeated uint32 _unlock_map_layer_list = 10;
+	repeated uint32 CGAHBCDBIGF = 11;
+	repeated uint32 _unlock_map_layer_group_list = 15;
+}

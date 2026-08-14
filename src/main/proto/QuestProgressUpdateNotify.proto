@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "QuestProgressUpdateNotifyOuterClass";
+
+message QuestProgressUpdateNotify {
+	repeated uint32 finish_progress_list = 3;
+	uint32 quest_id = 4;
+	repeated uint32 fail_progress_list = 14;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_TemplateTextOuterClass";
+
+import "ODFACIIAFJM.proto";
+
+message _TemplateText {
+	repeated ODFACIIAFJM AABINJFFLHE = 1;
+}

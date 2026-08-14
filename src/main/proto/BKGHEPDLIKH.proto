@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "BKGHEPDLIKHOuterClass";
+
+message BKGHEPDLIKH {
+	bool is_open = 7;
+	uint32 level_id = 14;
+}

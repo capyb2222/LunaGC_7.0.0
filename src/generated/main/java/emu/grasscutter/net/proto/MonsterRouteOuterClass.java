@@ -18,40 +18,98 @@ public final class MonsterRouteOuterClass {
       // @@protoc_insertion_point(interface_extends:MonsterRoute)
       com.google.protobuf.MessageOrBuilder {
 
-    java.util.List<emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint>
+    /**
+     * <code>repeated .RoutePoint route_points = 1;</code>
+     */
+    java.util.List<emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint> 
         getRoutePointsList();
-
+    /**
+     * <code>repeated .RoutePoint route_points = 1;</code>
+     */
     emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint getRoutePoints(int index);
-
+    /**
+     * <code>repeated .RoutePoint route_points = 1;</code>
+     */
     int getRoutePointsCount();
-
-    java.util.List<? extends emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder>
+    /**
+     * <code>repeated .RoutePoint route_points = 1;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder> 
         getRoutePointsOrBuilderList();
-
+    /**
+     * <code>repeated .RoutePoint route_points = 1;</code>
+     */
     emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder getRoutePointsOrBuilder(
         int index);
 
+    /**
+     * <code>uint32 speed_level = 2;</code>
+     * @return The speedLevel.
+     */
+    int getSpeedLevel();
+
+    /**
+     * <code>uint32 route_type = 3;</code>
+     * @return The routeType.
+     */
     int getRouteType();
 
     /**
-     * <code>bool GAEHDBIOCIM = 5;</code>
-     * @return The gAEHDBIOCIM.
+     * <code>float arrive_range = 4;</code>
+     * @return The arriveRange.
      */
-    boolean getGAEHDBIOCIM();
-
-    /**
-     * <code>bool LFOONDPJHPI = 6;</code>
-     * @return The lFOONDPJHPI.
-     */
-    boolean getLFOONDPJHPI();
-
-    /**
-     * <code>uint32 PLHFLBJDOLG = 2;</code>
-     * @return The pLHFLBJDOLG.
-     */
-    int getPLHFLBJDOLG();
-
     float getArriveRange();
+
+    /**
+     * <code>bool gaehdbiocim = 5;</code>
+     * @return The gaehdbiocim.
+     */
+    boolean getGaehdbiocim();
+
+    /**
+     * <code>bool lfoondpjhpi = 6;</code>
+     * @return The lfoondpjhpi.
+     */
+    boolean getLfoondpjhpi();
+
+    /**
+     * <code>bool OODNNGPEAGN = 7;</code>
+     * @return The oODNNGPEAGN.
+     */
+    boolean getOODNNGPEAGN();
+
+    /**
+     * <code>int32 route_id = 8;</code>
+     * @return The routeId.
+     */
+    int getRouteId();
+
+    /**
+     * <code>bool DHBMEFLJCMJ = 9;</code>
+     * @return The dHBMEFLJCMJ.
+     */
+    boolean getDHBMEFLJCMJ();
+
+    /**
+     * <code>bool OEBCFCLIDMA = 10;</code>
+     * @return The oEBCFCLIDMA.
+     */
+    boolean getOEBCFCLIDMA();
+
+    /**
+     * <code>.COEBLNIFMOB BPKJKEENKKI = 11;</code>
+     * @return Whether the bPKJKEENKKI field is set.
+     */
+    boolean hasBPKJKEENKKI();
+    /**
+     * <code>.COEBLNIFMOB BPKJKEENKKI = 11;</code>
+     * @return The bPKJKEENKKI.
+     */
+    emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.COEBLNIFMOB getBPKJKEENKKI();
+    /**
+     * <code>.COEBLNIFMOB BPKJKEENKKI = 11;</code>
+     */
+    emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.COEBLNIFMOBOrBuilder getBPKJKEENKKIOrBuilder();
   }
   /**
    * Protobuf type {@code MonsterRoute}
@@ -111,7 +169,7 @@ public final class MonsterRouteOuterClass {
             }
             case 16: {
 
-              pLHFLBJDOLG_ = input.readUInt32();
+              speedLevel_ = input.readUInt32();
               break;
             }
             case 24: {
@@ -126,12 +184,45 @@ public final class MonsterRouteOuterClass {
             }
             case 40: {
 
-              gAEHDBIOCIM_ = input.readBool();
+              gaehdbiocim_ = input.readBool();
               break;
             }
             case 48: {
 
-              lFOONDPJHPI_ = input.readBool();
+              lfoondpjhpi_ = input.readBool();
+              break;
+            }
+            case 56: {
+
+              oODNNGPEAGN_ = input.readBool();
+              break;
+            }
+            case 64: {
+
+              routeId_ = input.readInt32();
+              break;
+            }
+            case 72: {
+
+              dHBMEFLJCMJ_ = input.readBool();
+              break;
+            }
+            case 80: {
+
+              oEBCFCLIDMA_ = input.readBool();
+              break;
+            }
+            case 90: {
+              emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.COEBLNIFMOB.Builder subBuilder = null;
+              if (bPKJKEENKKI_ != null) {
+                subBuilder = bPKJKEENKKI_.toBuilder();
+              }
+              bPKJKEENKKI_ = input.readMessage(emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.COEBLNIFMOB.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(bPKJKEENKKI_);
+                bPKJKEENKKI_ = subBuilder.buildPartial();
+              }
+
               break;
             }
             default: {
@@ -171,81 +262,167 @@ public final class MonsterRouteOuterClass {
 
     public static final int ROUTE_POINTS_FIELD_NUMBER = 1;
     private java.util.List<emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint> routePoints_;
-
+    /**
+     * <code>repeated .RoutePoint route_points = 1;</code>
+     */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint> getRoutePointsList() {
       return routePoints_;
     }
-
+    /**
+     * <code>repeated .RoutePoint route_points = 1;</code>
+     */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder> 
         getRoutePointsOrBuilderList() {
       return routePoints_;
     }
-
+    /**
+     * <code>repeated .RoutePoint route_points = 1;</code>
+     */
     @java.lang.Override
     public int getRoutePointsCount() {
       return routePoints_.size();
     }
-
+    /**
+     * <code>repeated .RoutePoint route_points = 1;</code>
+     */
     @java.lang.Override
     public emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint getRoutePoints(int index) {
       return routePoints_.get(index);
     }
-
+    /**
+     * <code>repeated .RoutePoint route_points = 1;</code>
+     */
     @java.lang.Override
     public emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder getRoutePointsOrBuilder(
         int index) {
       return routePoints_.get(index);
     }
 
+    public static final int SPEED_LEVEL_FIELD_NUMBER = 2;
+    private int speedLevel_;
+    /**
+     * <code>uint32 speed_level = 2;</code>
+     * @return The speedLevel.
+     */
+    @java.lang.Override
+    public int getSpeedLevel() {
+      return speedLevel_;
+    }
+
     public static final int ROUTE_TYPE_FIELD_NUMBER = 3;
     private int routeType_;
-
+    /**
+     * <code>uint32 route_type = 3;</code>
+     * @return The routeType.
+     */
     @java.lang.Override
     public int getRouteType() {
       return routeType_;
     }
 
-    public static final int GAEHDBIOCIM_FIELD_NUMBER = 5;
-    private boolean gAEHDBIOCIM_;
-    /**
-     * <code>bool GAEHDBIOCIM = 5;</code>
-     * @return The gAEHDBIOCIM.
-     */
-    @java.lang.Override
-    public boolean getGAEHDBIOCIM() {
-      return gAEHDBIOCIM_;
-    }
-
-    public static final int LFOONDPJHPI_FIELD_NUMBER = 6;
-    private boolean lFOONDPJHPI_;
-    /**
-     * <code>bool LFOONDPJHPI = 6;</code>
-     * @return The lFOONDPJHPI.
-     */
-    @java.lang.Override
-    public boolean getLFOONDPJHPI() {
-      return lFOONDPJHPI_;
-    }
-
-    public static final int PLHFLBJDOLG_FIELD_NUMBER = 2;
-    private int pLHFLBJDOLG_;
-    /**
-     * <code>uint32 PLHFLBJDOLG = 2;</code>
-     * @return The pLHFLBJDOLG.
-     */
-    @java.lang.Override
-    public int getPLHFLBJDOLG() {
-      return pLHFLBJDOLG_;
-    }
-
     public static final int ARRIVE_RANGE_FIELD_NUMBER = 4;
     private float arriveRange_;
-
+    /**
+     * <code>float arrive_range = 4;</code>
+     * @return The arriveRange.
+     */
     @java.lang.Override
     public float getArriveRange() {
       return arriveRange_;
+    }
+
+    public static final int GAEHDBIOCIM_FIELD_NUMBER = 5;
+    private boolean gaehdbiocim_;
+    /**
+     * <code>bool gaehdbiocim = 5;</code>
+     * @return The gaehdbiocim.
+     */
+    @java.lang.Override
+    public boolean getGaehdbiocim() {
+      return gaehdbiocim_;
+    }
+
+    public static final int LFOONDPJHPI_FIELD_NUMBER = 6;
+    private boolean lfoondpjhpi_;
+    /**
+     * <code>bool lfoondpjhpi = 6;</code>
+     * @return The lfoondpjhpi.
+     */
+    @java.lang.Override
+    public boolean getLfoondpjhpi() {
+      return lfoondpjhpi_;
+    }
+
+    public static final int OODNNGPEAGN_FIELD_NUMBER = 7;
+    private boolean oODNNGPEAGN_;
+    /**
+     * <code>bool OODNNGPEAGN = 7;</code>
+     * @return The oODNNGPEAGN.
+     */
+    @java.lang.Override
+    public boolean getOODNNGPEAGN() {
+      return oODNNGPEAGN_;
+    }
+
+    public static final int ROUTE_ID_FIELD_NUMBER = 8;
+    private int routeId_;
+    /**
+     * <code>int32 route_id = 8;</code>
+     * @return The routeId.
+     */
+    @java.lang.Override
+    public int getRouteId() {
+      return routeId_;
+    }
+
+    public static final int DHBMEFLJCMJ_FIELD_NUMBER = 9;
+    private boolean dHBMEFLJCMJ_;
+    /**
+     * <code>bool DHBMEFLJCMJ = 9;</code>
+     * @return The dHBMEFLJCMJ.
+     */
+    @java.lang.Override
+    public boolean getDHBMEFLJCMJ() {
+      return dHBMEFLJCMJ_;
+    }
+
+    public static final int OEBCFCLIDMA_FIELD_NUMBER = 10;
+    private boolean oEBCFCLIDMA_;
+    /**
+     * <code>bool OEBCFCLIDMA = 10;</code>
+     * @return The oEBCFCLIDMA.
+     */
+    @java.lang.Override
+    public boolean getOEBCFCLIDMA() {
+      return oEBCFCLIDMA_;
+    }
+
+    public static final int BPKJKEENKKI_FIELD_NUMBER = 11;
+    private emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.COEBLNIFMOB bPKJKEENKKI_;
+    /**
+     * <code>.COEBLNIFMOB BPKJKEENKKI = 11;</code>
+     * @return Whether the bPKJKEENKKI field is set.
+     */
+    @java.lang.Override
+    public boolean hasBPKJKEENKKI() {
+      return bPKJKEENKKI_ != null;
+    }
+    /**
+     * <code>.COEBLNIFMOB BPKJKEENKKI = 11;</code>
+     * @return The bPKJKEENKKI.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.COEBLNIFMOB getBPKJKEENKKI() {
+      return bPKJKEENKKI_ == null ? emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.COEBLNIFMOB.getDefaultInstance() : bPKJKEENKKI_;
+    }
+    /**
+     * <code>.COEBLNIFMOB BPKJKEENKKI = 11;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.COEBLNIFMOBOrBuilder getBPKJKEENKKIOrBuilder() {
+      return getBPKJKEENKKI();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -265,8 +442,8 @@ public final class MonsterRouteOuterClass {
       for (int i = 0; i < routePoints_.size(); i++) {
         output.writeMessage(1, routePoints_.get(i));
       }
-      if (pLHFLBJDOLG_ != 0) {
-        output.writeUInt32(2, pLHFLBJDOLG_);
+      if (speedLevel_ != 0) {
+        output.writeUInt32(2, speedLevel_);
       }
       if (routeType_ != 0) {
         output.writeUInt32(3, routeType_);
@@ -274,11 +451,26 @@ public final class MonsterRouteOuterClass {
       if (arriveRange_ != 0F) {
         output.writeFloat(4, arriveRange_);
       }
-      if (gAEHDBIOCIM_ != false) {
-        output.writeBool(5, gAEHDBIOCIM_);
+      if (gaehdbiocim_ != false) {
+        output.writeBool(5, gaehdbiocim_);
       }
-      if (lFOONDPJHPI_ != false) {
-        output.writeBool(6, lFOONDPJHPI_);
+      if (lfoondpjhpi_ != false) {
+        output.writeBool(6, lfoondpjhpi_);
+      }
+      if (oODNNGPEAGN_ != false) {
+        output.writeBool(7, oODNNGPEAGN_);
+      }
+      if (routeId_ != 0) {
+        output.writeInt32(8, routeId_);
+      }
+      if (dHBMEFLJCMJ_ != false) {
+        output.writeBool(9, dHBMEFLJCMJ_);
+      }
+      if (oEBCFCLIDMA_ != false) {
+        output.writeBool(10, oEBCFCLIDMA_);
+      }
+      if (bPKJKEENKKI_ != null) {
+        output.writeMessage(11, getBPKJKEENKKI());
       }
       unknownFields.writeTo(output);
     }
@@ -293,9 +485,9 @@ public final class MonsterRouteOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(1, routePoints_.get(i));
       }
-      if (pLHFLBJDOLG_ != 0) {
+      if (speedLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, pLHFLBJDOLG_);
+          .computeUInt32Size(2, speedLevel_);
       }
       if (routeType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -305,13 +497,33 @@ public final class MonsterRouteOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeFloatSize(4, arriveRange_);
       }
-      if (gAEHDBIOCIM_ != false) {
+      if (gaehdbiocim_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, gAEHDBIOCIM_);
+          .computeBoolSize(5, gaehdbiocim_);
       }
-      if (lFOONDPJHPI_ != false) {
+      if (lfoondpjhpi_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, lFOONDPJHPI_);
+          .computeBoolSize(6, lfoondpjhpi_);
+      }
+      if (oODNNGPEAGN_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(7, oODNNGPEAGN_);
+      }
+      if (routeId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt32Size(8, routeId_);
+      }
+      if (dHBMEFLJCMJ_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(9, dHBMEFLJCMJ_);
+      }
+      if (oEBCFCLIDMA_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(10, oEBCFCLIDMA_);
+      }
+      if (bPKJKEENKKI_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(11, getBPKJKEENKKI());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -330,17 +542,30 @@ public final class MonsterRouteOuterClass {
 
       if (!getRoutePointsList()
           .equals(other.getRoutePointsList())) return false;
+      if (getSpeedLevel()
+          != other.getSpeedLevel()) return false;
       if (getRouteType()
           != other.getRouteType()) return false;
-      if (getGAEHDBIOCIM()
-          != other.getGAEHDBIOCIM()) return false;
-      if (getLFOONDPJHPI()
-          != other.getLFOONDPJHPI()) return false;
-      if (getPLHFLBJDOLG()
-          != other.getPLHFLBJDOLG()) return false;
       if (java.lang.Float.floatToIntBits(getArriveRange())
           != java.lang.Float.floatToIntBits(
               other.getArriveRange())) return false;
+      if (getGaehdbiocim()
+          != other.getGaehdbiocim()) return false;
+      if (getLfoondpjhpi()
+          != other.getLfoondpjhpi()) return false;
+      if (getOODNNGPEAGN()
+          != other.getOODNNGPEAGN()) return false;
+      if (getRouteId()
+          != other.getRouteId()) return false;
+      if (getDHBMEFLJCMJ()
+          != other.getDHBMEFLJCMJ()) return false;
+      if (getOEBCFCLIDMA()
+          != other.getOEBCFCLIDMA()) return false;
+      if (hasBPKJKEENKKI() != other.hasBPKJKEENKKI()) return false;
+      if (hasBPKJKEENKKI()) {
+        if (!getBPKJKEENKKI()
+            .equals(other.getBPKJKEENKKI())) return false;
+      }
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -356,19 +581,34 @@ public final class MonsterRouteOuterClass {
         hash = (37 * hash) + ROUTE_POINTS_FIELD_NUMBER;
         hash = (53 * hash) + getRoutePointsList().hashCode();
       }
+      hash = (37 * hash) + SPEED_LEVEL_FIELD_NUMBER;
+      hash = (53 * hash) + getSpeedLevel();
       hash = (37 * hash) + ROUTE_TYPE_FIELD_NUMBER;
       hash = (53 * hash) + getRouteType();
-      hash = (37 * hash) + GAEHDBIOCIM_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getGAEHDBIOCIM());
-      hash = (37 * hash) + LFOONDPJHPI_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getLFOONDPJHPI());
-      hash = (37 * hash) + PLHFLBJDOLG_FIELD_NUMBER;
-      hash = (53 * hash) + getPLHFLBJDOLG();
       hash = (37 * hash) + ARRIVE_RANGE_FIELD_NUMBER;
       hash = (53 * hash) + java.lang.Float.floatToIntBits(
           getArriveRange());
+      hash = (37 * hash) + GAEHDBIOCIM_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getGaehdbiocim());
+      hash = (37 * hash) + LFOONDPJHPI_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getLfoondpjhpi());
+      hash = (37 * hash) + OODNNGPEAGN_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOODNNGPEAGN());
+      hash = (37 * hash) + ROUTE_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getRouteId();
+      hash = (37 * hash) + DHBMEFLJCMJ_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDHBMEFLJCMJ());
+      hash = (37 * hash) + OEBCFCLIDMA_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOEBCFCLIDMA());
+      if (hasBPKJKEENKKI()) {
+        hash = (37 * hash) + BPKJKEENKKI_FIELD_NUMBER;
+        hash = (53 * hash) + getBPKJKEENKKI().hashCode();
+      }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -509,16 +749,30 @@ public final class MonsterRouteOuterClass {
         } else {
           routePointsBuilder_.clear();
         }
+        speedLevel_ = 0;
+
         routeType_ = 0;
-
-        gAEHDBIOCIM_ = false;
-
-        lFOONDPJHPI_ = false;
-
-        pLHFLBJDOLG_ = 0;
 
         arriveRange_ = 0F;
 
+        gaehdbiocim_ = false;
+
+        lfoondpjhpi_ = false;
+
+        oODNNGPEAGN_ = false;
+
+        routeId_ = 0;
+
+        dHBMEFLJCMJ_ = false;
+
+        oEBCFCLIDMA_ = false;
+
+        if (bPKJKEENKKIBuilder_ == null) {
+          bPKJKEENKKI_ = null;
+        } else {
+          bPKJKEENKKI_ = null;
+          bPKJKEENKKIBuilder_ = null;
+        }
         return this;
       }
 
@@ -555,11 +809,20 @@ public final class MonsterRouteOuterClass {
         } else {
           result.routePoints_ = routePointsBuilder_.build();
         }
+        result.speedLevel_ = speedLevel_;
         result.routeType_ = routeType_;
-        result.gAEHDBIOCIM_ = gAEHDBIOCIM_;
-        result.lFOONDPJHPI_ = lFOONDPJHPI_;
-        result.pLHFLBJDOLG_ = pLHFLBJDOLG_;
         result.arriveRange_ = arriveRange_;
+        result.gaehdbiocim_ = gaehdbiocim_;
+        result.lfoondpjhpi_ = lfoondpjhpi_;
+        result.oODNNGPEAGN_ = oODNNGPEAGN_;
+        result.routeId_ = routeId_;
+        result.dHBMEFLJCMJ_ = dHBMEFLJCMJ_;
+        result.oEBCFCLIDMA_ = oEBCFCLIDMA_;
+        if (bPKJKEENKKIBuilder_ == null) {
+          result.bPKJKEENKKI_ = bPKJKEENKKI_;
+        } else {
+          result.bPKJKEENKKI_ = bPKJKEENKKIBuilder_.build();
+        }
         onBuilt();
         return result;
       }
@@ -626,7 +889,7 @@ public final class MonsterRouteOuterClass {
               routePointsBuilder_ = null;
               routePoints_ = other.routePoints_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              routePointsBuilder_ =
+              routePointsBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRoutePointsFieldBuilder() : null;
             } else {
@@ -634,20 +897,35 @@ public final class MonsterRouteOuterClass {
             }
           }
         }
+        if (other.getSpeedLevel() != 0) {
+          setSpeedLevel(other.getSpeedLevel());
+        }
         if (other.getRouteType() != 0) {
           setRouteType(other.getRouteType());
         }
-        if (other.getGAEHDBIOCIM() != false) {
-          setGAEHDBIOCIM(other.getGAEHDBIOCIM());
-        }
-        if (other.getLFOONDPJHPI() != false) {
-          setLFOONDPJHPI(other.getLFOONDPJHPI());
-        }
-        if (other.getPLHFLBJDOLG() != 0) {
-          setPLHFLBJDOLG(other.getPLHFLBJDOLG());
-        }
         if (other.getArriveRange() != 0F) {
           setArriveRange(other.getArriveRange());
+        }
+        if (other.getGaehdbiocim() != false) {
+          setGaehdbiocim(other.getGaehdbiocim());
+        }
+        if (other.getLfoondpjhpi() != false) {
+          setLfoondpjhpi(other.getLfoondpjhpi());
+        }
+        if (other.getOODNNGPEAGN() != false) {
+          setOODNNGPEAGN(other.getOODNNGPEAGN());
+        }
+        if (other.getRouteId() != 0) {
+          setRouteId(other.getRouteId());
+        }
+        if (other.getDHBMEFLJCMJ() != false) {
+          setDHBMEFLJCMJ(other.getDHBMEFLJCMJ());
+        }
+        if (other.getOEBCFCLIDMA() != false) {
+          setOEBCFCLIDMA(other.getOEBCFCLIDMA());
+        }
+        if (other.hasBPKJKEENKKI()) {
+          mergeBPKJKEENKKI(other.getBPKJKEENKKI());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -691,6 +969,9 @@ public final class MonsterRouteOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint, emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder, emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder> routePointsBuilder_;
 
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public java.util.List<emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint> getRoutePointsList() {
         if (routePointsBuilder_ == null) {
           return java.util.Collections.unmodifiableList(routePoints_);
@@ -698,7 +979,9 @@ public final class MonsterRouteOuterClass {
           return routePointsBuilder_.getMessageList();
         }
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public int getRoutePointsCount() {
         if (routePointsBuilder_ == null) {
           return routePoints_.size();
@@ -706,7 +989,9 @@ public final class MonsterRouteOuterClass {
           return routePointsBuilder_.getCount();
         }
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint getRoutePoints(int index) {
         if (routePointsBuilder_ == null) {
           return routePoints_.get(index);
@@ -714,7 +999,9 @@ public final class MonsterRouteOuterClass {
           return routePointsBuilder_.getMessage(index);
         }
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public Builder setRoutePoints(
           int index, emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint value) {
         if (routePointsBuilder_ == null) {
@@ -729,7 +1016,9 @@ public final class MonsterRouteOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public Builder setRoutePoints(
           int index, emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder builderForValue) {
         if (routePointsBuilder_ == null) {
@@ -741,7 +1030,9 @@ public final class MonsterRouteOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public Builder addRoutePoints(emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint value) {
         if (routePointsBuilder_ == null) {
           if (value == null) {
@@ -755,7 +1046,9 @@ public final class MonsterRouteOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public Builder addRoutePoints(
           int index, emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint value) {
         if (routePointsBuilder_ == null) {
@@ -770,7 +1063,9 @@ public final class MonsterRouteOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public Builder addRoutePoints(
           emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder builderForValue) {
         if (routePointsBuilder_ == null) {
@@ -782,7 +1077,9 @@ public final class MonsterRouteOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public Builder addRoutePoints(
           int index, emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder builderForValue) {
         if (routePointsBuilder_ == null) {
@@ -794,7 +1091,9 @@ public final class MonsterRouteOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public Builder addAllRoutePoints(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint> values) {
         if (routePointsBuilder_ == null) {
@@ -807,7 +1106,9 @@ public final class MonsterRouteOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public Builder clearRoutePoints() {
         if (routePointsBuilder_ == null) {
           routePoints_ = java.util.Collections.emptyList();
@@ -818,7 +1119,9 @@ public final class MonsterRouteOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public Builder removeRoutePoints(int index) {
         if (routePointsBuilder_ == null) {
           ensureRoutePointsIsMutable();
@@ -829,12 +1132,16 @@ public final class MonsterRouteOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder getRoutePointsBuilder(
           int index) {
         return getRoutePointsFieldBuilder().getBuilder(index);
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder getRoutePointsOrBuilder(
           int index) {
         if (routePointsBuilder_ == null) {
@@ -842,8 +1149,10 @@ public final class MonsterRouteOuterClass {
           return routePointsBuilder_.getMessageOrBuilder(index);
         }
       }
-
-      public java.util.List<? extends emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder>
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder> 
            getRoutePointsOrBuilderList() {
         if (routePointsBuilder_ != null) {
           return routePointsBuilder_.getMessageOrBuilderList();
@@ -851,24 +1160,30 @@ public final class MonsterRouteOuterClass {
           return java.util.Collections.unmodifiableList(routePoints_);
         }
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder addRoutePointsBuilder() {
         return getRoutePointsFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.getDefaultInstance());
       }
-
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
       public emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder addRoutePointsBuilder(
           int index) {
         return getRoutePointsFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.getDefaultInstance());
       }
-
-      public java.util.List<emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder>
+      /**
+       * <code>repeated .RoutePoint route_points = 1;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder> 
            getRoutePointsBuilderList() {
         return getRoutePointsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint, emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder, emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder>
+          emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint, emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder, emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder> 
           getRoutePointsFieldBuilder() {
         if (routePointsBuilder_ == null) {
           routePointsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -882,139 +1197,402 @@ public final class MonsterRouteOuterClass {
         return routePointsBuilder_;
       }
 
-      private int routeType_ ;
-
+      private int speedLevel_ ;
+      /**
+       * <code>uint32 speed_level = 2;</code>
+       * @return The speedLevel.
+       */
       @java.lang.Override
-      public int getRouteType() {
-        return routeType_;
+      public int getSpeedLevel() {
+        return speedLevel_;
       }
-
-      public Builder setRouteType(int value) {
-
-        routeType_ = value;
+      /**
+       * <code>uint32 speed_level = 2;</code>
+       * @param value The speedLevel to set.
+       * @return This builder for chaining.
+       */
+      public Builder setSpeedLevel(int value) {
+        
+        speedLevel_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 speed_level = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearSpeedLevel() {
+        
+        speedLevel_ = 0;
         onChanged();
         return this;
       }
 
+      private int routeType_ ;
+      /**
+       * <code>uint32 route_type = 3;</code>
+       * @return The routeType.
+       */
+      @java.lang.Override
+      public int getRouteType() {
+        return routeType_;
+      }
+      /**
+       * <code>uint32 route_type = 3;</code>
+       * @param value The routeType to set.
+       * @return This builder for chaining.
+       */
+      public Builder setRouteType(int value) {
+        
+        routeType_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 route_type = 3;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearRouteType() {
-
+        
         routeType_ = 0;
         onChanged();
         return this;
       }
 
-      private boolean gAEHDBIOCIM_ ;
-      /**
-       * <code>bool GAEHDBIOCIM = 5;</code>
-       * @return The gAEHDBIOCIM.
-       */
-      @java.lang.Override
-      public boolean getGAEHDBIOCIM() {
-        return gAEHDBIOCIM_;
-      }
-      /**
-       * <code>bool GAEHDBIOCIM = 5;</code>
-       * @param value The gAEHDBIOCIM to set.
-       * @return This builder for chaining.
-       */
-      public Builder setGAEHDBIOCIM(boolean value) {
-
-        gAEHDBIOCIM_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool GAEHDBIOCIM = 5;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearGAEHDBIOCIM() {
-
-        gAEHDBIOCIM_ = false;
-        onChanged();
-        return this;
-      }
-
-      private boolean lFOONDPJHPI_ ;
-      /**
-       * <code>bool LFOONDPJHPI = 6;</code>
-       * @return The lFOONDPJHPI.
-       */
-      @java.lang.Override
-      public boolean getLFOONDPJHPI() {
-        return lFOONDPJHPI_;
-      }
-      /**
-       * <code>bool LFOONDPJHPI = 6;</code>
-       * @param value The lFOONDPJHPI to set.
-       * @return This builder for chaining.
-       */
-      public Builder setLFOONDPJHPI(boolean value) {
-
-        lFOONDPJHPI_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool LFOONDPJHPI = 6;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearLFOONDPJHPI() {
-
-        lFOONDPJHPI_ = false;
-        onChanged();
-        return this;
-      }
-
-      private int pLHFLBJDOLG_ ;
-      /**
-       * <code>uint32 PLHFLBJDOLG = 2;</code>
-       * @return The pLHFLBJDOLG.
-       */
-      @java.lang.Override
-      public int getPLHFLBJDOLG() {
-        return pLHFLBJDOLG_;
-      }
-      /**
-       * <code>uint32 PLHFLBJDOLG = 2;</code>
-       * @param value The pLHFLBJDOLG to set.
-       * @return This builder for chaining.
-       */
-      public Builder setPLHFLBJDOLG(int value) {
-
-        pLHFLBJDOLG_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 PLHFLBJDOLG = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearPLHFLBJDOLG() {
-
-        pLHFLBJDOLG_ = 0;
-        onChanged();
-        return this;
-      }
-
       private float arriveRange_ ;
-
+      /**
+       * <code>float arrive_range = 4;</code>
+       * @return The arriveRange.
+       */
       @java.lang.Override
       public float getArriveRange() {
         return arriveRange_;
       }
-
+      /**
+       * <code>float arrive_range = 4;</code>
+       * @param value The arriveRange to set.
+       * @return This builder for chaining.
+       */
       public Builder setArriveRange(float value) {
-
+        
         arriveRange_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>float arrive_range = 4;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearArriveRange() {
-
+        
         arriveRange_ = 0F;
         onChanged();
         return this;
+      }
+
+      private boolean gaehdbiocim_ ;
+      /**
+       * <code>bool gaehdbiocim = 5;</code>
+       * @return The gaehdbiocim.
+       */
+      @java.lang.Override
+      public boolean getGaehdbiocim() {
+        return gaehdbiocim_;
+      }
+      /**
+       * <code>bool gaehdbiocim = 5;</code>
+       * @param value The gaehdbiocim to set.
+       * @return This builder for chaining.
+       */
+      public Builder setGaehdbiocim(boolean value) {
+        
+        gaehdbiocim_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool gaehdbiocim = 5;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearGaehdbiocim() {
+        
+        gaehdbiocim_ = false;
+        onChanged();
+        return this;
+      }
+
+      private boolean lfoondpjhpi_ ;
+      /**
+       * <code>bool lfoondpjhpi = 6;</code>
+       * @return The lfoondpjhpi.
+       */
+      @java.lang.Override
+      public boolean getLfoondpjhpi() {
+        return lfoondpjhpi_;
+      }
+      /**
+       * <code>bool lfoondpjhpi = 6;</code>
+       * @param value The lfoondpjhpi to set.
+       * @return This builder for chaining.
+       */
+      public Builder setLfoondpjhpi(boolean value) {
+        
+        lfoondpjhpi_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool lfoondpjhpi = 6;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearLfoondpjhpi() {
+        
+        lfoondpjhpi_ = false;
+        onChanged();
+        return this;
+      }
+
+      private boolean oODNNGPEAGN_ ;
+      /**
+       * <code>bool OODNNGPEAGN = 7;</code>
+       * @return The oODNNGPEAGN.
+       */
+      @java.lang.Override
+      public boolean getOODNNGPEAGN() {
+        return oODNNGPEAGN_;
+      }
+      /**
+       * <code>bool OODNNGPEAGN = 7;</code>
+       * @param value The oODNNGPEAGN to set.
+       * @return This builder for chaining.
+       */
+      public Builder setOODNNGPEAGN(boolean value) {
+        
+        oODNNGPEAGN_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool OODNNGPEAGN = 7;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearOODNNGPEAGN() {
+        
+        oODNNGPEAGN_ = false;
+        onChanged();
+        return this;
+      }
+
+      private int routeId_ ;
+      /**
+       * <code>int32 route_id = 8;</code>
+       * @return The routeId.
+       */
+      @java.lang.Override
+      public int getRouteId() {
+        return routeId_;
+      }
+      /**
+       * <code>int32 route_id = 8;</code>
+       * @param value The routeId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setRouteId(int value) {
+        
+        routeId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>int32 route_id = 8;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearRouteId() {
+        
+        routeId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private boolean dHBMEFLJCMJ_ ;
+      /**
+       * <code>bool DHBMEFLJCMJ = 9;</code>
+       * @return The dHBMEFLJCMJ.
+       */
+      @java.lang.Override
+      public boolean getDHBMEFLJCMJ() {
+        return dHBMEFLJCMJ_;
+      }
+      /**
+       * <code>bool DHBMEFLJCMJ = 9;</code>
+       * @param value The dHBMEFLJCMJ to set.
+       * @return This builder for chaining.
+       */
+      public Builder setDHBMEFLJCMJ(boolean value) {
+        
+        dHBMEFLJCMJ_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool DHBMEFLJCMJ = 9;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearDHBMEFLJCMJ() {
+        
+        dHBMEFLJCMJ_ = false;
+        onChanged();
+        return this;
+      }
+
+      private boolean oEBCFCLIDMA_ ;
+      /**
+       * <code>bool OEBCFCLIDMA = 10;</code>
+       * @return The oEBCFCLIDMA.
+       */
+      @java.lang.Override
+      public boolean getOEBCFCLIDMA() {
+        return oEBCFCLIDMA_;
+      }
+      /**
+       * <code>bool OEBCFCLIDMA = 10;</code>
+       * @param value The oEBCFCLIDMA to set.
+       * @return This builder for chaining.
+       */
+      public Builder setOEBCFCLIDMA(boolean value) {
+        
+        oEBCFCLIDMA_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool OEBCFCLIDMA = 10;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearOEBCFCLIDMA() {
+        
+        oEBCFCLIDMA_ = false;
+        onChanged();
+        return this;
+      }
+
+      private emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.COEBLNIFMOB bPKJKEENKKI_;
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.COEBLNIFMOB, emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.COEBLNIFMOB.Builder, emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.COEBLNIFMOBOrBuilder> bPKJKEENKKIBuilder_;
+      /**
+       * <code>.COEBLNIFMOB BPKJKEENKKI = 11;</code>
+       * @return Whether the bPKJKEENKKI field is set.
+       */
+      public boolean hasBPKJKEENKKI() {
+        return bPKJKEENKKIBuilder_ != null || bPKJKEENKKI_ != null;
+      }
+      /**
+       * <code>.COEBLNIFMOB BPKJKEENKKI = 11;</code>
+       * @return The bPKJKEENKKI.
+       */
+      public emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.COEBLNIFMOB getBPKJKEENKKI() {
+        if (bPKJKEENKKIBuilder_ == null) {
+          return bPKJKEENKKI_ == null ? emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.COEBLNIFMOB.getDefaultInstance() : bPKJKEENKKI_;
+        } else {
+          return bPKJKEENKKIBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>.COEBLNIFMOB BPKJKEENKKI = 11;</code>
+       */
+      public Builder setBPKJKEENKKI(emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.COEBLNIFMOB value) {
+        if (bPKJKEENKKIBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          bPKJKEENKKI_ = value;
+          onChanged();
+        } else {
+          bPKJKEENKKIBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>.COEBLNIFMOB BPKJKEENKKI = 11;</code>
+       */
+      public Builder setBPKJKEENKKI(
+          emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.COEBLNIFMOB.Builder builderForValue) {
+        if (bPKJKEENKKIBuilder_ == null) {
+          bPKJKEENKKI_ = builderForValue.build();
+          onChanged();
+        } else {
+          bPKJKEENKKIBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>.COEBLNIFMOB BPKJKEENKKI = 11;</code>
+       */
+      public Builder mergeBPKJKEENKKI(emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.COEBLNIFMOB value) {
+        if (bPKJKEENKKIBuilder_ == null) {
+          if (bPKJKEENKKI_ != null) {
+            bPKJKEENKKI_ =
+              emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.COEBLNIFMOB.newBuilder(bPKJKEENKKI_).mergeFrom(value).buildPartial();
+          } else {
+            bPKJKEENKKI_ = value;
+          }
+          onChanged();
+        } else {
+          bPKJKEENKKIBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>.COEBLNIFMOB BPKJKEENKKI = 11;</code>
+       */
+      public Builder clearBPKJKEENKKI() {
+        if (bPKJKEENKKIBuilder_ == null) {
+          bPKJKEENKKI_ = null;
+          onChanged();
+        } else {
+          bPKJKEENKKI_ = null;
+          bPKJKEENKKIBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>.COEBLNIFMOB BPKJKEENKKI = 11;</code>
+       */
+      public emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.COEBLNIFMOB.Builder getBPKJKEENKKIBuilder() {
+        
+        onChanged();
+        return getBPKJKEENKKIFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>.COEBLNIFMOB BPKJKEENKKI = 11;</code>
+       */
+      public emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.COEBLNIFMOBOrBuilder getBPKJKEENKKIOrBuilder() {
+        if (bPKJKEENKKIBuilder_ != null) {
+          return bPKJKEENKKIBuilder_.getMessageOrBuilder();
+        } else {
+          return bPKJKEENKKI_ == null ?
+              emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.COEBLNIFMOB.getDefaultInstance() : bPKJKEENKKI_;
+        }
+      }
+      /**
+       * <code>.COEBLNIFMOB BPKJKEENKKI = 11;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.COEBLNIFMOB, emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.COEBLNIFMOB.Builder, emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.COEBLNIFMOBOrBuilder> 
+          getBPKJKEENKKIFieldBuilder() {
+        if (bPKJKEENKKIBuilder_ == null) {
+          bPKJKEENKKIBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.COEBLNIFMOB, emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.COEBLNIFMOB.Builder, emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.COEBLNIFMOBOrBuilder>(
+                  getBPKJKEENKKI(),
+                  getParentForChildren(),
+                  isClean());
+          bPKJKEENKKI_ = null;
+        }
+        return bPKJKEENKKIBuilder_;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -1027,6 +1605,7 @@ public final class MonsterRouteOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:MonsterRoute)
     }
@@ -1070,7 +1649,7 @@ public final class MonsterRouteOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MonsterRoute_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MonsterRoute_fieldAccessorTable;
 
@@ -1082,16 +1661,21 @@ public final class MonsterRouteOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\022MonsterRoute.proto\032\020RoutePoint.proto\"\232" +
-      "\001\n\014MonsterRoute\022!\n\014route_points\030\001 \003(\0132\013." +
-      "RoutePoint\022\022\n\nroute_type\030\003 \001(\r\022\023\n\013GAEHDB" +
-      "IOCIM\030\005 \001(\010\022\023\n\013LFOONDPJHPI\030\006 \001(\010\022\023\n\013PLHF" +
-      "LBJDOLG\030\002 \001(\r\022\024\n\014arrive_range\030\004 \001(\002B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\n\022MonsterRoute.proto\032\021COEBLNIFMOB.proto\032" +
+      "\020RoutePoint.proto\"\216\002\n\014MonsterRoute\022!\n\014ro" +
+      "ute_points\030\001 \003(\0132\013.RoutePoint\022\023\n\013speed_l" +
+      "evel\030\002 \001(\r\022\022\n\nroute_type\030\003 \001(\r\022\024\n\014arrive" +
+      "_range\030\004 \001(\002\022\023\n\013gaehdbiocim\030\005 \001(\010\022\023\n\013lfo" +
+      "ondpjhpi\030\006 \001(\010\022\023\n\013OODNNGPEAGN\030\007 \001(\010\022\020\n\010r" +
+      "oute_id\030\010 \001(\005\022\023\n\013DHBMEFLJCMJ\030\t \001(\010\022\023\n\013OE" +
+      "BCFCLIDMA\030\n \001(\010\022!\n\013BPKJKEENKKI\030\013 \001(\0132\014.C" +
+      "OEBLNIFMOBB3\n\031emu.grasscutter.net.protoB" +
+      "\026MonsterRouteOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
+          emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.RoutePointOuterClass.getDescriptor(),
         });
     internal_static_MonsterRoute_descriptor =
@@ -1099,7 +1683,8 @@ public final class MonsterRouteOuterClass {
     internal_static_MonsterRoute_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_MonsterRoute_descriptor,
-        new java.lang.String[] { "RoutePoints", "RouteType", "GAEHDBIOCIM", "LFOONDPJHPI", "PLHFLBJDOLG", "ArriveRange", });
+        new java.lang.String[] { "RoutePoints", "SpeedLevel", "RouteType", "ArriveRange", "Gaehdbiocim", "Lfoondpjhpi", "OODNNGPEAGN", "RouteId", "DHBMEFLJCMJ", "OEBCFCLIDMA", "BPKJKEENKKI", });
+    emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.getDescriptor();
     emu.grasscutter.net.proto.RoutePointOuterClass.getDescriptor();
   }
 

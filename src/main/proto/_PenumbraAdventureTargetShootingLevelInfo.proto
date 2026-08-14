@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_PenumbraAdventureTargetShootingLevelInfoOuterClass";
+
+message _PenumbraAdventureTargetShootingLevelInfo {
+	uint32 level_id = 3;
+	uint32 _max_combo_num = 7;
+	uint32 max_score = 10;
+	bool is_finish = 12;
+	bool is_open = 13;
+}

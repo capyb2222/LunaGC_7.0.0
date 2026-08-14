@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HomeAllUnlockedBgmIdListNotifyOuterClass";
+
+message HomeAllUnlockedBgmIdListNotify {
+	repeated uint32 all_unlocked_bgm_id_list = 2;
+}

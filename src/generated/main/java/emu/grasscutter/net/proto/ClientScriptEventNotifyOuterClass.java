@@ -19,24 +19,6 @@ public final class ClientScriptEventNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 source_entity_id = 14;</code>
-     * @return The sourceEntityId.
-     */
-    int getSourceEntityId();
-
-    /**
-     * <code>uint32 target_entity_id = 1;</code>
-     * @return The targetEntityId.
-     */
-    int getTargetEntityId();
-
-    /**
-     * <code>uint32 event_type = 4;</code>
-     * @return The eventType.
-     */
-    int getEventType();
-
-    /**
      * <code>repeated int32 param_list = 2;</code>
      * @return A list containing the paramList.
      */
@@ -52,13 +34,26 @@ public final class ClientScriptEventNotifyOuterClass {
      * @return The paramList at the given index.
      */
     int getParamList(int index);
+
+    /**
+     * <code>uint32 source_entity_id = 6;</code>
+     * @return The sourceEntityId.
+     */
+    int getSourceEntityId();
+
+    /**
+     * <code>uint32 event_type = 8;</code>
+     * @return The eventType.
+     */
+    int getEventType();
+
+    /**
+     * <code>uint32 target_entity_id = 9;</code>
+     * @return The targetEntityId.
+     */
+    int getTargetEntityId();
   }
   /**
-   * <pre>
-   * CmdId: 3165
-   * Obf: KPKNHHAMCOG
-   * </pre>
-   *
    * Protobuf type {@code ClientScriptEventNotify}
    */
   public static final class ClientScriptEventNotify extends
@@ -105,12 +100,7 @@ public final class ClientScriptEventNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
-
-              targetEntityId_ = input.readUInt32();
-              break;
-            }
-            case 72: {
+            case 16: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 paramList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -118,7 +108,7 @@ public final class ClientScriptEventNotifyOuterClass {
               paramList_.addInt(input.readInt32());
               break;
             }
-            case 74: {
+            case 18: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -131,14 +121,19 @@ public final class ClientScriptEventNotifyOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 104: {
+            case 48: {
+
+              sourceEntityId_ = input.readUInt32();
+              break;
+            }
+            case 64: {
 
               eventType_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 72: {
 
-              sourceEntityId_ = input.readUInt32();
+              targetEntityId_ = input.readUInt32();
               break;
             }
             default: {
@@ -176,40 +171,7 @@ public final class ClientScriptEventNotifyOuterClass {
               emu.grasscutter.net.proto.ClientScriptEventNotifyOuterClass.ClientScriptEventNotify.class, emu.grasscutter.net.proto.ClientScriptEventNotifyOuterClass.ClientScriptEventNotify.Builder.class);
     }
 
-    public static final int SOURCE_ENTITY_ID_FIELD_NUMBER = 5;
-    private int sourceEntityId_;
-    /**
-     * <code>uint32 source_entity_id = 14;</code>
-     * @return The sourceEntityId.
-     */
-    @java.lang.Override
-    public int getSourceEntityId() {
-      return sourceEntityId_;
-    }
-
-    public static final int TARGET_ENTITY_ID_FIELD_NUMBER = 3;
-    private int targetEntityId_;
-    /**
-     * <code>uint32 target_entity_id = 1;</code>
-     * @return The targetEntityId.
-     */
-    @java.lang.Override
-    public int getTargetEntityId() {
-      return targetEntityId_;
-    }
-
-    public static final int EVENT_TYPE_FIELD_NUMBER = 13;
-    private int eventType_;
-    /**
-     * <code>uint32 event_type = 4;</code>
-     * @return The eventType.
-     */
-    @java.lang.Override
-    public int getEventType() {
-      return eventType_;
-    }
-
-    public static final int PARAM_LIST_FIELD_NUMBER = 9;
+    public static final int PARAM_LIST_FIELD_NUMBER = 2;
     private com.google.protobuf.Internal.IntList paramList_;
     /**
      * <code>repeated int32 param_list = 2;</code>
@@ -237,6 +199,39 @@ public final class ClientScriptEventNotifyOuterClass {
     }
     private int paramListMemoizedSerializedSize = -1;
 
+    public static final int SOURCE_ENTITY_ID_FIELD_NUMBER = 6;
+    private int sourceEntityId_;
+    /**
+     * <code>uint32 source_entity_id = 6;</code>
+     * @return The sourceEntityId.
+     */
+    @java.lang.Override
+    public int getSourceEntityId() {
+      return sourceEntityId_;
+    }
+
+    public static final int EVENT_TYPE_FIELD_NUMBER = 8;
+    private int eventType_;
+    /**
+     * <code>uint32 event_type = 8;</code>
+     * @return The eventType.
+     */
+    @java.lang.Override
+    public int getEventType() {
+      return eventType_;
+    }
+
+    public static final int TARGET_ENTITY_ID_FIELD_NUMBER = 9;
+    private int targetEntityId_;
+    /**
+     * <code>uint32 target_entity_id = 9;</code>
+     * @return The targetEntityId.
+     */
+    @java.lang.Override
+    public int getTargetEntityId() {
+      return targetEntityId_;
+    }
+
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
     public final boolean isInitialized() {
@@ -252,21 +247,21 @@ public final class ClientScriptEventNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (targetEntityId_ != 0) {
-        output.writeUInt32(3, targetEntityId_);
-      }
       if (getParamListList().size() > 0) {
-        output.writeUInt32NoTag(74);
+        output.writeUInt32NoTag(18);
         output.writeUInt32NoTag(paramListMemoizedSerializedSize);
       }
       for (int i = 0; i < paramList_.size(); i++) {
         output.writeInt32NoTag(paramList_.getInt(i));
       }
-      if (eventType_ != 0) {
-        output.writeUInt32(13, eventType_);
-      }
       if (sourceEntityId_ != 0) {
-        output.writeUInt32(5, sourceEntityId_);
+        output.writeUInt32(6, sourceEntityId_);
+      }
+      if (eventType_ != 0) {
+        output.writeUInt32(8, eventType_);
+      }
+      if (targetEntityId_ != 0) {
+        output.writeUInt32(9, targetEntityId_);
       }
       unknownFields.writeTo(output);
     }
@@ -277,10 +272,6 @@ public final class ClientScriptEventNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (targetEntityId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, targetEntityId_);
-      }
       {
         int dataSize = 0;
         for (int i = 0; i < paramList_.size(); i++) {
@@ -295,13 +286,17 @@ public final class ClientScriptEventNotifyOuterClass {
         }
         paramListMemoizedSerializedSize = dataSize;
       }
-      if (eventType_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, eventType_);
-      }
       if (sourceEntityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, sourceEntityId_);
+          .computeUInt32Size(6, sourceEntityId_);
+      }
+      if (eventType_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(8, eventType_);
+      }
+      if (targetEntityId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(9, targetEntityId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -318,14 +313,14 @@ public final class ClientScriptEventNotifyOuterClass {
       }
       emu.grasscutter.net.proto.ClientScriptEventNotifyOuterClass.ClientScriptEventNotify other = (emu.grasscutter.net.proto.ClientScriptEventNotifyOuterClass.ClientScriptEventNotify) obj;
 
-      if (getSourceEntityId()
-          != other.getSourceEntityId()) return false;
-      if (getTargetEntityId()
-          != other.getTargetEntityId()) return false;
-      if (getEventType()
-          != other.getEventType()) return false;
       if (!getParamListList()
           .equals(other.getParamListList())) return false;
+      if (getSourceEntityId()
+          != other.getSourceEntityId()) return false;
+      if (getEventType()
+          != other.getEventType()) return false;
+      if (getTargetEntityId()
+          != other.getTargetEntityId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -337,16 +332,16 @@ public final class ClientScriptEventNotifyOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + SOURCE_ENTITY_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getSourceEntityId();
-      hash = (37 * hash) + TARGET_ENTITY_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getTargetEntityId();
-      hash = (37 * hash) + EVENT_TYPE_FIELD_NUMBER;
-      hash = (53 * hash) + getEventType();
       if (getParamListCount() > 0) {
         hash = (37 * hash) + PARAM_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getParamListList().hashCode();
       }
+      hash = (37 * hash) + SOURCE_ENTITY_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getSourceEntityId();
+      hash = (37 * hash) + EVENT_TYPE_FIELD_NUMBER;
+      hash = (53 * hash) + getEventType();
+      hash = (37 * hash) + TARGET_ENTITY_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getTargetEntityId();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -443,11 +438,6 @@ public final class ClientScriptEventNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 3165
-     * Obf: KPKNHHAMCOG
-     * </pre>
-     *
      * Protobuf type {@code ClientScriptEventNotify}
      */
     public static final class Builder extends
@@ -485,14 +475,14 @@ public final class ClientScriptEventNotifyOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        paramList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
         sourceEntityId_ = 0;
-
-        targetEntityId_ = 0;
 
         eventType_ = 0;
 
-        paramList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
+        targetEntityId_ = 0;
+
         return this;
       }
 
@@ -520,14 +510,14 @@ public final class ClientScriptEventNotifyOuterClass {
       public emu.grasscutter.net.proto.ClientScriptEventNotifyOuterClass.ClientScriptEventNotify buildPartial() {
         emu.grasscutter.net.proto.ClientScriptEventNotifyOuterClass.ClientScriptEventNotify result = new emu.grasscutter.net.proto.ClientScriptEventNotifyOuterClass.ClientScriptEventNotify(this);
         int from_bitField0_ = bitField0_;
-        result.sourceEntityId_ = sourceEntityId_;
-        result.targetEntityId_ = targetEntityId_;
-        result.eventType_ = eventType_;
         if (((bitField0_ & 0x00000001) != 0)) {
           paramList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
         result.paramList_ = paramList_;
+        result.sourceEntityId_ = sourceEntityId_;
+        result.eventType_ = eventType_;
+        result.targetEntityId_ = targetEntityId_;
         onBuilt();
         return result;
       }
@@ -576,15 +566,6 @@ public final class ClientScriptEventNotifyOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.ClientScriptEventNotifyOuterClass.ClientScriptEventNotify other) {
         if (other == emu.grasscutter.net.proto.ClientScriptEventNotifyOuterClass.ClientScriptEventNotify.getDefaultInstance()) return this;
-        if (other.getSourceEntityId() != 0) {
-          setSourceEntityId(other.getSourceEntityId());
-        }
-        if (other.getTargetEntityId() != 0) {
-          setTargetEntityId(other.getTargetEntityId());
-        }
-        if (other.getEventType() != 0) {
-          setEventType(other.getEventType());
-        }
         if (!other.paramList_.isEmpty()) {
           if (paramList_.isEmpty()) {
             paramList_ = other.paramList_;
@@ -594,6 +575,15 @@ public final class ClientScriptEventNotifyOuterClass {
             paramList_.addAll(other.paramList_);
           }
           onChanged();
+        }
+        if (other.getSourceEntityId() != 0) {
+          setSourceEntityId(other.getSourceEntityId());
+        }
+        if (other.getEventType() != 0) {
+          setEventType(other.getEventType());
+        }
+        if (other.getTargetEntityId() != 0) {
+          setTargetEntityId(other.getTargetEntityId());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -624,99 +614,6 @@ public final class ClientScriptEventNotifyOuterClass {
         return this;
       }
       private int bitField0_;
-
-      private int sourceEntityId_ ;
-      /**
-       * <code>uint32 source_entity_id = 14;</code>
-       * @return The sourceEntityId.
-       */
-      @java.lang.Override
-      public int getSourceEntityId() {
-        return sourceEntityId_;
-      }
-      /**
-       * <code>uint32 source_entity_id = 14;</code>
-       * @param value The sourceEntityId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setSourceEntityId(int value) {
-        
-        sourceEntityId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 source_entity_id = 14;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearSourceEntityId() {
-        
-        sourceEntityId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int targetEntityId_ ;
-      /**
-       * <code>uint32 target_entity_id = 1;</code>
-       * @return The targetEntityId.
-       */
-      @java.lang.Override
-      public int getTargetEntityId() {
-        return targetEntityId_;
-      }
-      /**
-       * <code>uint32 target_entity_id = 1;</code>
-       * @param value The targetEntityId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setTargetEntityId(int value) {
-        
-        targetEntityId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 target_entity_id = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearTargetEntityId() {
-        
-        targetEntityId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int eventType_ ;
-      /**
-       * <code>uint32 event_type = 4;</code>
-       * @return The eventType.
-       */
-      @java.lang.Override
-      public int getEventType() {
-        return eventType_;
-      }
-      /**
-       * <code>uint32 event_type = 4;</code>
-       * @param value The eventType to set.
-       * @return This builder for chaining.
-       */
-      public Builder setEventType(int value) {
-        
-        eventType_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 event_type = 4;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearEventType() {
-        
-        eventType_ = 0;
-        onChanged();
-        return this;
-      }
 
       private com.google.protobuf.Internal.IntList paramList_ = emptyIntList();
       private void ensureParamListIsMutable() {
@@ -796,6 +693,99 @@ public final class ClientScriptEventNotifyOuterClass {
         onChanged();
         return this;
       }
+
+      private int sourceEntityId_ ;
+      /**
+       * <code>uint32 source_entity_id = 6;</code>
+       * @return The sourceEntityId.
+       */
+      @java.lang.Override
+      public int getSourceEntityId() {
+        return sourceEntityId_;
+      }
+      /**
+       * <code>uint32 source_entity_id = 6;</code>
+       * @param value The sourceEntityId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setSourceEntityId(int value) {
+        
+        sourceEntityId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 source_entity_id = 6;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearSourceEntityId() {
+        
+        sourceEntityId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int eventType_ ;
+      /**
+       * <code>uint32 event_type = 8;</code>
+       * @return The eventType.
+       */
+      @java.lang.Override
+      public int getEventType() {
+        return eventType_;
+      }
+      /**
+       * <code>uint32 event_type = 8;</code>
+       * @param value The eventType to set.
+       * @return This builder for chaining.
+       */
+      public Builder setEventType(int value) {
+        
+        eventType_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 event_type = 8;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearEventType() {
+        
+        eventType_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int targetEntityId_ ;
+      /**
+       * <code>uint32 target_entity_id = 9;</code>
+       * @return The targetEntityId.
+       */
+      @java.lang.Override
+      public int getTargetEntityId() {
+        return targetEntityId_;
+      }
+      /**
+       * <code>uint32 target_entity_id = 9;</code>
+       * @param value The targetEntityId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setTargetEntityId(int value) {
+        
+        targetEntityId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 target_entity_id = 9;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearTargetEntityId() {
+        
+        targetEntityId_ = 0;
+        onChanged();
+        return this;
+      }
       @java.lang.Override
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -864,10 +854,11 @@ public final class ClientScriptEventNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\035ClientScriptEventNotify.proto\"u\n\027Clien" +
-      "tScriptEventNotify\022\030\n\020source_entity_id\030\016" +
-      " \001(\r\022\030\n\020target_entity_id\030\001 \001(\r\022\022\n\nevent_" +
-      "type\030\004 \001(\r\022\022\n\nparam_list\030\002 \003(\005B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "tScriptEventNotify\022\022\n\nparam_list\030\002 \003(\005\022\030" +
+      "\n\020source_entity_id\030\006 \001(\r\022\022\n\nevent_type\030\010" +
+      " \001(\r\022\030\n\020target_entity_id\030\t \001(\rB>\n\031emu.gr" +
+      "asscutter.net.protoB!ClientScriptEventNo" +
+      "tifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -878,7 +869,7 @@ public final class ClientScriptEventNotifyOuterClass {
     internal_static_ClientScriptEventNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ClientScriptEventNotify_descriptor,
-        new java.lang.String[] { "SourceEntityId", "TargetEntityId", "EventType", "ParamList", });
+        new java.lang.String[] { "ParamList", "SourceEntityId", "EventType", "TargetEntityId", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

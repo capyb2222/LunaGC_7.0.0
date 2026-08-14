@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "NOJCFCNEIMJOuterClass";
+
+import "_ActivityAvatarInfo.proto";
+
+message NOJCFCNEIMJ {
+	uint32 difficulty = 6;
+	repeated _ActivityAvatarInfo avatar_info_list = 9;
+	uint32 BOAKDOGPPPG = 12;
+	bool IMEPIKDEFHA = 14;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EBGOFBOCPDIOuterClass";
+
+message EBGOFBOCPDI {
+	bool BKDPIJGILMM = 1;
+	int32 MIBKOHJMCPD = 2;
+	bool MONJLHDADJO = 3;
+	uint32 IKLHCJEKOKF = 4;
+	bool MLNKPJDBLBD = 5;
+}

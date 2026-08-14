@@ -18,13 +18,13 @@ public final class PlayerSetPauseReqOuterClass {
       // @@protoc_insertion_point(interface_extends:PlayerSetPauseReq)
       com.google.protobuf.MessageOrBuilder {
 
+    /**
+     * <code>bool is_paused = 3;</code>
+     * @return The isPaused.
+     */
     boolean getIsPaused();
   }
   /**
-   * <pre>
-   * CmdId: 8695
-   * </pre>
-   *
    * Protobuf type {@code PlayerSetPauseReq}
    */
   public static final class PlayerSetPauseReq extends
@@ -69,7 +69,7 @@ public final class PlayerSetPauseReqOuterClass {
             case 0:
               done = true;
               break;
-            case 104: {
+            case 24: {
 
               isPaused_ = input.readBool();
               break;
@@ -106,9 +106,12 @@ public final class PlayerSetPauseReqOuterClass {
               emu.grasscutter.net.proto.PlayerSetPauseReqOuterClass.PlayerSetPauseReq.class, emu.grasscutter.net.proto.PlayerSetPauseReqOuterClass.PlayerSetPauseReq.Builder.class);
     }
 
-    public static final int IS_PAUSED_FIELD_NUMBER = 13;
+    public static final int IS_PAUSED_FIELD_NUMBER = 3;
     private boolean isPaused_;
-
+    /**
+     * <code>bool is_paused = 3;</code>
+     * @return The isPaused.
+     */
     @java.lang.Override
     public boolean getIsPaused() {
       return isPaused_;
@@ -129,7 +132,7 @@ public final class PlayerSetPauseReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isPaused_ != false) {
-        output.writeBool(13, isPaused_);
+        output.writeBool(3, isPaused_);
       }
       unknownFields.writeTo(output);
     }
@@ -142,7 +145,7 @@ public final class PlayerSetPauseReqOuterClass {
       size = 0;
       if (isPaused_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, isPaused_);
+          .computeBoolSize(3, isPaused_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -271,10 +274,6 @@ public final class PlayerSetPauseReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 8695
-     * </pre>
-     *
      * Protobuf type {@code PlayerSetPauseReq}
      */
     public static final class Builder extends
@@ -422,21 +421,31 @@ public final class PlayerSetPauseReqOuterClass {
       }
 
       private boolean isPaused_ ;
-
+      /**
+       * <code>bool is_paused = 3;</code>
+       * @return The isPaused.
+       */
       @java.lang.Override
       public boolean getIsPaused() {
         return isPaused_;
       }
-
+      /**
+       * <code>bool is_paused = 3;</code>
+       * @param value The isPaused to set.
+       * @return This builder for chaining.
+       */
       public Builder setIsPaused(boolean value) {
-
+        
         isPaused_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>bool is_paused = 3;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearIsPaused() {
-
+        
         isPaused_ = false;
         onChanged();
         return this;
@@ -452,6 +461,7 @@ public final class PlayerSetPauseReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:PlayerSetPauseReq)
     }
@@ -495,7 +505,7 @@ public final class PlayerSetPauseReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerSetPauseReq_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerSetPauseReq_fieldAccessorTable;
 
@@ -508,8 +518,9 @@ public final class PlayerSetPauseReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027PlayerSetPauseReq.proto\"&\n\021PlayerSetPa" +
-      "useReq\022\021\n\tis_paused\030\005 \001(\010B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "useReq\022\021\n\tis_paused\030\003 \001(\010B8\n\031emu.grasscu" +
+      "tter.net.protoB\033PlayerSetPauseReqOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

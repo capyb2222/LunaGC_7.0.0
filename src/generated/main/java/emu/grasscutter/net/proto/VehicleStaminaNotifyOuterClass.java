@@ -18,15 +18,19 @@ public final class VehicleStaminaNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:VehicleStaminaNotify)
       com.google.protobuf.MessageOrBuilder {
 
+    /**
+     * <code>float cur_stamina = 3;</code>
+     * @return The curStamina.
+     */
     float getCurStamina();
 
+    /**
+     * <code>uint32 entity_id = 15;</code>
+     * @return The entityId.
+     */
     int getEntityId();
   }
   /**
-   * <pre>
-   * CmdId: 7677
-   * </pre>
-   *
    * Protobuf type {@code VehicleStaminaNotify}
    */
   public static final class VehicleStaminaNotify extends
@@ -71,12 +75,12 @@ public final class VehicleStaminaNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 125: {
+            case 29: {
 
               curStamina_ = input.readFloat();
               break;
             }
-            case 80: {
+            case 120: {
 
               entityId_ = input.readUInt32();
               break;
@@ -113,17 +117,23 @@ public final class VehicleStaminaNotifyOuterClass {
               emu.grasscutter.net.proto.VehicleStaminaNotifyOuterClass.VehicleStaminaNotify.class, emu.grasscutter.net.proto.VehicleStaminaNotifyOuterClass.VehicleStaminaNotify.Builder.class);
     }
 
-    public static final int CUR_STAMINA_FIELD_NUMBER = 15;
+    public static final int CUR_STAMINA_FIELD_NUMBER = 3;
     private float curStamina_;
-
+    /**
+     * <code>float cur_stamina = 3;</code>
+     * @return The curStamina.
+     */
     @java.lang.Override
     public float getCurStamina() {
       return curStamina_;
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 10;
+    public static final int ENTITY_ID_FIELD_NUMBER = 15;
     private int entityId_;
-
+    /**
+     * <code>uint32 entity_id = 15;</code>
+     * @return The entityId.
+     */
     @java.lang.Override
     public int getEntityId() {
       return entityId_;
@@ -144,10 +154,10 @@ public final class VehicleStaminaNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (curStamina_ != 0F) {
-        output.writeFloat(15, curStamina_);
+        output.writeFloat(3, curStamina_);
       }
       if (entityId_ != 0) {
-        output.writeUInt32(10, entityId_);
+        output.writeUInt32(15, entityId_);
       }
       unknownFields.writeTo(output);
     }
@@ -160,11 +170,11 @@ public final class VehicleStaminaNotifyOuterClass {
       size = 0;
       if (curStamina_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(15, curStamina_);
+          .computeFloatSize(3, curStamina_);
       }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, entityId_);
+          .computeUInt32Size(15, entityId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -298,10 +308,6 @@ public final class VehicleStaminaNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 7677
-     * </pre>
-     *
      * Protobuf type {@code VehicleStaminaNotify}
      */
     public static final class Builder extends
@@ -455,42 +461,62 @@ public final class VehicleStaminaNotifyOuterClass {
       }
 
       private float curStamina_ ;
-
+      /**
+       * <code>float cur_stamina = 3;</code>
+       * @return The curStamina.
+       */
       @java.lang.Override
       public float getCurStamina() {
         return curStamina_;
       }
-
+      /**
+       * <code>float cur_stamina = 3;</code>
+       * @param value The curStamina to set.
+       * @return This builder for chaining.
+       */
       public Builder setCurStamina(float value) {
-
+        
         curStamina_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>float cur_stamina = 3;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearCurStamina() {
-
+        
         curStamina_ = 0F;
         onChanged();
         return this;
       }
 
       private int entityId_ ;
-
+      /**
+       * <code>uint32 entity_id = 15;</code>
+       * @return The entityId.
+       */
       @java.lang.Override
       public int getEntityId() {
         return entityId_;
       }
-
+      /**
+       * <code>uint32 entity_id = 15;</code>
+       * @param value The entityId to set.
+       * @return This builder for chaining.
+       */
       public Builder setEntityId(int value) {
-
+        
         entityId_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint32 entity_id = 15;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearEntityId() {
-
+        
         entityId_ = 0;
         onChanged();
         return this;
@@ -506,6 +532,7 @@ public final class VehicleStaminaNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:VehicleStaminaNotify)
     }
@@ -549,7 +576,7 @@ public final class VehicleStaminaNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_VehicleStaminaNotify_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_VehicleStaminaNotify_fieldAccessorTable;
 
@@ -562,9 +589,10 @@ public final class VehicleStaminaNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032VehicleStaminaNotify.proto\">\n\024VehicleS" +
-      "taminaNotify\022\023\n\013cur_stamina\030\r \001(\002\022\021\n\tent" +
-      "ity_id\030\013 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "taminaNotify\022\023\n\013cur_stamina\030\003 \001(\002\022\021\n\tent" +
+      "ity_id\030\017 \001(\rB;\n\031emu.grasscutter.net.prot" +
+      "oB\036VehicleStaminaNotifyOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

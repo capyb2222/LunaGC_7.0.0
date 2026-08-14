@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "OKDEHNGHKGAOuterClass";
+
+import "_CurrentPhase.proto";
+
+message OKDEHNGHKGA {
+	repeated int32 HEMLPIJAGIL = 1;
+	repeated _CurrentPhase KBNICINGGBH = 2;
+}

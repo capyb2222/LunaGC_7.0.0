@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GetMailItemRspOuterClass";
+
+import "EquipParam.proto";
+import "ItemHint.proto";
+
+message GetMailItemRsp {
+	int32 retcode = 1;
+	repeated uint32 mail_id_list = 13;
+	repeated ItemHint _beyond_item_hint = 14;
+	repeated EquipParam item_list = 15;
+}

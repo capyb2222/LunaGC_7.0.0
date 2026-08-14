@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_MonsterChessV2RecordInfoOuterClass";
+
+import "_MonsterChessV2RecordTeamInfo.proto";
+
+message _MonsterChessV2RecordInfo {
+	repeated uint32 _artifact_id_list = 1;
+	uint32 timestamp = 7;
+	bool _is_infinite = 10;
+	uint32 _infinite_win_num = 11;
+	repeated uint32 _win_round_list = 14;
+	repeated _MonsterChessV2RecordTeamInfo team_info_list = 15;
+}

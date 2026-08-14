@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EvtAvatarStandUpNotifyOuterClass";
+
+message EvtAvatarStandUpNotify {
+	int32 performID = 1;
+	uint32 entity_id = 3;
+	uint64 chair_id = 7;
+	int32 direction = 8;
+}

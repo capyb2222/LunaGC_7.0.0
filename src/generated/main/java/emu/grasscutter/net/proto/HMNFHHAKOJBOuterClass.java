@@ -25,16 +25,16 @@ public final class HMNFHHAKOJBOuterClass {
     int getStartTime();
 
     /**
-     * <code>uint32 ODJLLLPLBHE = 3;</code>
-     * @return The oDJLLLPLBHE.
-     */
-    int getODJLLLPLBHE();
-
-    /**
      * <code>int32 end_time = 2;</code>
      * @return The endTime.
      */
     int getEndTime();
+
+    /**
+     * <code>uint32 challenge_id = 3;</code>
+     * @return The challengeId.
+     */
+    int getChallengeId();
 
     /**
      * <code>int32 cur_value = 4;</code>
@@ -99,7 +99,7 @@ public final class HMNFHHAKOJBOuterClass {
             }
             case 24: {
 
-              oDJLLLPLBHE_ = input.readUInt32();
+              challengeId_ = input.readUInt32();
               break;
             }
             case 32: {
@@ -150,17 +150,6 @@ public final class HMNFHHAKOJBOuterClass {
       return startTime_;
     }
 
-    public static final int ODJLLLPLBHE_FIELD_NUMBER = 3;
-    private int oDJLLLPLBHE_;
-    /**
-     * <code>uint32 ODJLLLPLBHE = 3;</code>
-     * @return The oDJLLLPLBHE.
-     */
-    @java.lang.Override
-    public int getODJLLLPLBHE() {
-      return oDJLLLPLBHE_;
-    }
-
     public static final int END_TIME_FIELD_NUMBER = 2;
     private int endTime_;
     /**
@@ -170,6 +159,17 @@ public final class HMNFHHAKOJBOuterClass {
     @java.lang.Override
     public int getEndTime() {
       return endTime_;
+    }
+
+    public static final int CHALLENGE_ID_FIELD_NUMBER = 3;
+    private int challengeId_;
+    /**
+     * <code>uint32 challenge_id = 3;</code>
+     * @return The challengeId.
+     */
+    @java.lang.Override
+    public int getChallengeId() {
+      return challengeId_;
     }
 
     public static final int CUR_VALUE_FIELD_NUMBER = 4;
@@ -203,8 +203,8 @@ public final class HMNFHHAKOJBOuterClass {
       if (endTime_ != 0) {
         output.writeInt32(2, endTime_);
       }
-      if (oDJLLLPLBHE_ != 0) {
-        output.writeUInt32(3, oDJLLLPLBHE_);
+      if (challengeId_ != 0) {
+        output.writeUInt32(3, challengeId_);
       }
       if (curValue_ != 0) {
         output.writeInt32(4, curValue_);
@@ -226,9 +226,9 @@ public final class HMNFHHAKOJBOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeInt32Size(2, endTime_);
       }
-      if (oDJLLLPLBHE_ != 0) {
+      if (challengeId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, oDJLLLPLBHE_);
+          .computeUInt32Size(3, challengeId_);
       }
       if (curValue_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -251,10 +251,10 @@ public final class HMNFHHAKOJBOuterClass {
 
       if (getStartTime()
           != other.getStartTime()) return false;
-      if (getODJLLLPLBHE()
-          != other.getODJLLLPLBHE()) return false;
       if (getEndTime()
           != other.getEndTime()) return false;
+      if (getChallengeId()
+          != other.getChallengeId()) return false;
       if (getCurValue()
           != other.getCurValue()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -270,10 +270,10 @@ public final class HMNFHHAKOJBOuterClass {
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + START_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getStartTime();
-      hash = (37 * hash) + ODJLLLPLBHE_FIELD_NUMBER;
-      hash = (53 * hash) + getODJLLLPLBHE();
       hash = (37 * hash) + END_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getEndTime();
+      hash = (37 * hash) + CHALLENGE_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getChallengeId();
       hash = (37 * hash) + CUR_VALUE_FIELD_NUMBER;
       hash = (53 * hash) + getCurValue();
       hash = (29 * hash) + unknownFields.hashCode();
@@ -411,9 +411,9 @@ public final class HMNFHHAKOJBOuterClass {
         super.clear();
         startTime_ = 0;
 
-        oDJLLLPLBHE_ = 0;
-
         endTime_ = 0;
+
+        challengeId_ = 0;
 
         curValue_ = 0;
 
@@ -444,8 +444,8 @@ public final class HMNFHHAKOJBOuterClass {
       public emu.grasscutter.net.proto.HMNFHHAKOJBOuterClass.HMNFHHAKOJB buildPartial() {
         emu.grasscutter.net.proto.HMNFHHAKOJBOuterClass.HMNFHHAKOJB result = new emu.grasscutter.net.proto.HMNFHHAKOJBOuterClass.HMNFHHAKOJB(this);
         result.startTime_ = startTime_;
-        result.oDJLLLPLBHE_ = oDJLLLPLBHE_;
         result.endTime_ = endTime_;
+        result.challengeId_ = challengeId_;
         result.curValue_ = curValue_;
         onBuilt();
         return result;
@@ -498,11 +498,11 @@ public final class HMNFHHAKOJBOuterClass {
         if (other.getStartTime() != 0) {
           setStartTime(other.getStartTime());
         }
-        if (other.getODJLLLPLBHE() != 0) {
-          setODJLLLPLBHE(other.getODJLLLPLBHE());
-        }
         if (other.getEndTime() != 0) {
           setEndTime(other.getEndTime());
+        }
+        if (other.getChallengeId() != 0) {
+          setChallengeId(other.getChallengeId());
         }
         if (other.getCurValue() != 0) {
           setCurValue(other.getCurValue());
@@ -567,37 +567,6 @@ public final class HMNFHHAKOJBOuterClass {
         return this;
       }
 
-      private int oDJLLLPLBHE_ ;
-      /**
-       * <code>uint32 ODJLLLPLBHE = 3;</code>
-       * @return The oDJLLLPLBHE.
-       */
-      @java.lang.Override
-      public int getODJLLLPLBHE() {
-        return oDJLLLPLBHE_;
-      }
-      /**
-       * <code>uint32 ODJLLLPLBHE = 3;</code>
-       * @param value The oDJLLLPLBHE to set.
-       * @return This builder for chaining.
-       */
-      public Builder setODJLLLPLBHE(int value) {
-        
-        oDJLLLPLBHE_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 ODJLLLPLBHE = 3;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearODJLLLPLBHE() {
-        
-        oDJLLLPLBHE_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int endTime_ ;
       /**
        * <code>int32 end_time = 2;</code>
@@ -625,6 +594,37 @@ public final class HMNFHHAKOJBOuterClass {
       public Builder clearEndTime() {
         
         endTime_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int challengeId_ ;
+      /**
+       * <code>uint32 challenge_id = 3;</code>
+       * @return The challengeId.
+       */
+      @java.lang.Override
+      public int getChallengeId() {
+        return challengeId_;
+      }
+      /**
+       * <code>uint32 challenge_id = 3;</code>
+       * @param value The challengeId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setChallengeId(int value) {
+        
+        challengeId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 challenge_id = 3;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearChallengeId() {
+        
+        challengeId_ = 0;
         onChanged();
         return this;
       }
@@ -726,10 +726,11 @@ public final class HMNFHHAKOJBOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021HMNFHHAKOJB.proto\"[\n\013HMNFHHAKOJB\022\022\n\nst" +
-      "art_time\030\001 \001(\005\022\023\n\013ODJLLLPLBHE\030\003 \001(\r\022\020\n\010e" +
-      "nd_time\030\002 \001(\005\022\021\n\tcur_value\030\004 \001(\005B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\n\021HMNFHHAKOJB.proto\"\\\n\013HMNFHHAKOJB\022\022\n\nst" +
+      "art_time\030\001 \001(\005\022\020\n\010end_time\030\002 \001(\005\022\024\n\014chal" +
+      "lenge_id\030\003 \001(\r\022\021\n\tcur_value\030\004 \001(\005B2\n\031emu" +
+      ".grasscutter.net.protoB\025HMNFHHAKOJBOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -740,7 +741,7 @@ public final class HMNFHHAKOJBOuterClass {
     internal_static_HMNFHHAKOJB_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_HMNFHHAKOJB_descriptor,
-        new java.lang.String[] { "StartTime", "ODJLLLPLBHE", "EndTime", "CurValue", });
+        new java.lang.String[] { "StartTime", "EndTime", "ChallengeId", "CurValue", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

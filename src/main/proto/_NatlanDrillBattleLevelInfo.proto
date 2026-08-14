@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_NatlanDrillBattleLevelInfoOuterClass";
+
+import "IPHFKFLNBGH.proto";
+
+message _NatlanDrillBattleLevelInfo {
+	uint32 KECOPPMCKBN = 1;
+	uint32 MOLLHFILBFO = 2;
+	uint32 DHIFGDJPNCH = 4;
+	IPHFKFLNBGH IANMIFHGOMJ = 6;
+	uint32 DEADDOKKEHM = 8;
+	bool is_finished = 13;
+	uint32 LGKKNHDOBHE = 15;
+}

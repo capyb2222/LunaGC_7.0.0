@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "TeamChainStageDataOuterClass";
+
+message TeamChainStageData {
+	uint32 best_score = 1;
+	uint32 stage_id = 9;
+	bool is_open = 14;
+}

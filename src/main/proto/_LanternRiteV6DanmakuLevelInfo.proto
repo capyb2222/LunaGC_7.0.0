@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_LanternRiteV6DanmakuLevelInfoOuterClass";
+
+message _LanternRiteV6DanmakuLevelInfo {
+	uint32 _round_num = 1;
+	uint32 IJGJCFGFPFE = 5;
+	uint32 PLAPMAGJCCA = 6;
+	uint32 level_id = 7;
+	bool is_succ = 8;
+	uint32 FAMHJPHJKPE = 9;
+	uint32 BGFHONDHLIF = 10;
+	uint32 KOJLBGECDGJ = 14;
+}

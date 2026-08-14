@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AvatarUpgradeReqOuterClass";
+
+import "ItemParam.proto";
+
+message AvatarUpgradeReq {
+	repeated ItemParam item_param_list = 1;
+	uint64 avatar_guid = 2;
+}

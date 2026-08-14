@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GetShopmallDataRspOuterClass";
+
+message GetShopmallDataRsp {
+	uint32 param = 6;
+	int32 retcode = 8;
+	repeated uint32 shop_type_list = 13;
+}

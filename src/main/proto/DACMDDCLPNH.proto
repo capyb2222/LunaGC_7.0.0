@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DACMDDCLPNHOuterClass";
+
+message DACMDDCLPNH {
+	uint32 GLDFCOELCLJ = 3;
+	uint32 DOEJNJLAHAI = 6;
+	bool FNPLMFCNBML = 8;
+	uint32 JKPKJODEEEN = 11;
+	uint32 BGLEEKPNKCB = 13;
+}

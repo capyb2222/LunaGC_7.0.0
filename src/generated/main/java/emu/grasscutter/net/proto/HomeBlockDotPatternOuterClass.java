@@ -18,11 +18,23 @@ public final class HomeBlockDotPatternOuterClass {
       // @@protoc_insertion_point(interface_extends:HomeBlockDotPattern)
       com.google.protobuf.MessageOrBuilder {
 
+    /**
+     * <code>uint32 height = 1;</code>
+     * @return The height.
+     */
+    int getHeight();
+
+    /**
+     * <code>bytes data = 11;</code>
+     * @return The data.
+     */
     com.google.protobuf.ByteString getData();
 
+    /**
+     * <code>uint32 width = 13;</code>
+     * @return The width.
+     */
     int getWidth();
-
-    int getHeight();
   }
   /**
    * Protobuf type {@code HomeBlockDotPattern}
@@ -70,17 +82,17 @@ public final class HomeBlockDotPatternOuterClass {
             case 0:
               done = true;
               break;
-            case 104: {
+            case 8: {
 
               height_ = input.readUInt32();
               break;
             }
-            case 82: {
+            case 90: {
 
               data_ = input.readBytes();
               break;
             }
-            case 120: {
+            case 104: {
 
               width_ = input.readUInt32();
               break;
@@ -117,28 +129,37 @@ public final class HomeBlockDotPatternOuterClass {
               emu.grasscutter.net.proto.HomeBlockDotPatternOuterClass.HomeBlockDotPattern.class, emu.grasscutter.net.proto.HomeBlockDotPatternOuterClass.HomeBlockDotPattern.Builder.class);
     }
 
-    public static final int DATA_FIELD_NUMBER = 10;
-    private com.google.protobuf.ByteString data_;
+    public static final int HEIGHT_FIELD_NUMBER = 1;
+    private int height_;
+    /**
+     * <code>uint32 height = 1;</code>
+     * @return The height.
+     */
+    @java.lang.Override
+    public int getHeight() {
+      return height_;
+    }
 
+    public static final int DATA_FIELD_NUMBER = 11;
+    private com.google.protobuf.ByteString data_;
+    /**
+     * <code>bytes data = 11;</code>
+     * @return The data.
+     */
     @java.lang.Override
     public com.google.protobuf.ByteString getData() {
       return data_;
     }
 
-    public static final int WIDTH_FIELD_NUMBER = 15;
+    public static final int WIDTH_FIELD_NUMBER = 13;
     private int width_;
-
+    /**
+     * <code>uint32 width = 13;</code>
+     * @return The width.
+     */
     @java.lang.Override
     public int getWidth() {
       return width_;
-    }
-
-    public static final int HEIGHT_FIELD_NUMBER = 13;
-    private int height_;
-
-    @java.lang.Override
-    public int getHeight() {
-      return height_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -156,13 +177,13 @@ public final class HomeBlockDotPatternOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (height_ != 0) {
-        output.writeUInt32(13, height_);
+        output.writeUInt32(1, height_);
       }
       if (!data_.isEmpty()) {
-        output.writeBytes(10, data_);
+        output.writeBytes(11, data_);
       }
       if (width_ != 0) {
-        output.writeUInt32(15, width_);
+        output.writeUInt32(13, width_);
       }
       unknownFields.writeTo(output);
     }
@@ -175,15 +196,15 @@ public final class HomeBlockDotPatternOuterClass {
       size = 0;
       if (height_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, height_);
+          .computeUInt32Size(1, height_);
       }
       if (!data_.isEmpty()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(10, data_);
+          .computeBytesSize(11, data_);
       }
       if (width_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, width_);
+          .computeUInt32Size(13, width_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -200,12 +221,12 @@ public final class HomeBlockDotPatternOuterClass {
       }
       emu.grasscutter.net.proto.HomeBlockDotPatternOuterClass.HomeBlockDotPattern other = (emu.grasscutter.net.proto.HomeBlockDotPatternOuterClass.HomeBlockDotPattern) obj;
 
+      if (getHeight()
+          != other.getHeight()) return false;
       if (!getData()
           .equals(other.getData())) return false;
       if (getWidth()
           != other.getWidth()) return false;
-      if (getHeight()
-          != other.getHeight()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -217,12 +238,12 @@ public final class HomeBlockDotPatternOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + HEIGHT_FIELD_NUMBER;
+      hash = (53 * hash) + getHeight();
       hash = (37 * hash) + DATA_FIELD_NUMBER;
       hash = (53 * hash) + getData().hashCode();
       hash = (37 * hash) + WIDTH_FIELD_NUMBER;
       hash = (53 * hash) + getWidth();
-      hash = (37 * hash) + HEIGHT_FIELD_NUMBER;
-      hash = (53 * hash) + getHeight();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -356,11 +377,11 @@ public final class HomeBlockDotPatternOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        height_ = 0;
+
         data_ = com.google.protobuf.ByteString.EMPTY;
 
         width_ = 0;
-
-        height_ = 0;
 
         return this;
       }
@@ -388,9 +409,9 @@ public final class HomeBlockDotPatternOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.HomeBlockDotPatternOuterClass.HomeBlockDotPattern buildPartial() {
         emu.grasscutter.net.proto.HomeBlockDotPatternOuterClass.HomeBlockDotPattern result = new emu.grasscutter.net.proto.HomeBlockDotPatternOuterClass.HomeBlockDotPattern(this);
+        result.height_ = height_;
         result.data_ = data_;
         result.width_ = width_;
-        result.height_ = height_;
         onBuilt();
         return result;
       }
@@ -439,14 +460,14 @@ public final class HomeBlockDotPatternOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.HomeBlockDotPatternOuterClass.HomeBlockDotPattern other) {
         if (other == emu.grasscutter.net.proto.HomeBlockDotPatternOuterClass.HomeBlockDotPattern.getDefaultInstance()) return this;
+        if (other.getHeight() != 0) {
+          setHeight(other.getHeight());
+        }
         if (other.getData() != com.google.protobuf.ByteString.EMPTY) {
           setData(other.getData());
         }
         if (other.getWidth() != 0) {
           setWidth(other.getWidth());
-        }
-        if (other.getHeight() != 0) {
-          setHeight(other.getHeight());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -477,68 +498,98 @@ public final class HomeBlockDotPatternOuterClass {
         return this;
       }
 
-      private com.google.protobuf.ByteString data_ = com.google.protobuf.ByteString.EMPTY;
-
+      private int height_ ;
+      /**
+       * <code>uint32 height = 1;</code>
+       * @return The height.
+       */
       @java.lang.Override
-      public com.google.protobuf.ByteString getData() {
-        return data_;
+      public int getHeight() {
+        return height_;
       }
-
-      public Builder setData(com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-
-        data_ = value;
+      /**
+       * <code>uint32 height = 1;</code>
+       * @param value The height to set.
+       * @return This builder for chaining.
+       */
+      public Builder setHeight(int value) {
+        
+        height_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 height = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearHeight() {
+        
+        height_ = 0;
         onChanged();
         return this;
       }
 
+      private com.google.protobuf.ByteString data_ = com.google.protobuf.ByteString.EMPTY;
+      /**
+       * <code>bytes data = 11;</code>
+       * @return The data.
+       */
+      @java.lang.Override
+      public com.google.protobuf.ByteString getData() {
+        return data_;
+      }
+      /**
+       * <code>bytes data = 11;</code>
+       * @param value The data to set.
+       * @return This builder for chaining.
+       */
+      public Builder setData(com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        data_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bytes data = 11;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearData() {
-
+        
         data_ = getDefaultInstance().getData();
         onChanged();
         return this;
       }
 
       private int width_ ;
-
+      /**
+       * <code>uint32 width = 13;</code>
+       * @return The width.
+       */
       @java.lang.Override
       public int getWidth() {
         return width_;
       }
-
+      /**
+       * <code>uint32 width = 13;</code>
+       * @param value The width to set.
+       * @return This builder for chaining.
+       */
       public Builder setWidth(int value) {
-
+        
         width_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint32 width = 13;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearWidth() {
-
+        
         width_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int height_ ;
-
-      @java.lang.Override
-      public int getHeight() {
-        return height_;
-      }
-
-      public Builder setHeight(int value) {
-
-        height_ = value;
-        onChanged();
-        return this;
-      }
-
-      public Builder clearHeight() {
-
-        height_ = 0;
         onChanged();
         return this;
       }
@@ -553,6 +604,7 @@ public final class HomeBlockDotPatternOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:HomeBlockDotPattern)
     }
@@ -596,7 +648,7 @@ public final class HomeBlockDotPatternOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_HomeBlockDotPattern_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_HomeBlockDotPattern_fieldAccessorTable;
 
@@ -609,9 +661,10 @@ public final class HomeBlockDotPatternOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\031HomeBlockDotPattern.proto\"B\n\023HomeBlock" +
-      "DotPattern\022\014\n\004data\030\010 \001(\014\022\r\n\005width\030\n \001(\r\022" +
-      "\016\n\006height\030\001 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "DotPattern\022\016\n\006height\030\001 \001(\r\022\014\n\004data\030\013 \001(\014" +
+      "\022\r\n\005width\030\r \001(\rB:\n\031emu.grasscutter.net.p" +
+      "rotoB\035HomeBlockDotPatternOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -622,7 +675,7 @@ public final class HomeBlockDotPatternOuterClass {
     internal_static_HomeBlockDotPattern_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_HomeBlockDotPattern_descriptor,
-        new java.lang.String[] { "Data", "Width", "Height", });
+        new java.lang.String[] { "Height", "Data", "Width", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

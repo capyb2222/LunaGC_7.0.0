@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GFFKODENHJAOuterClass";
+
+import "Vector.proto";
+
+message GFFKODENHJA {
+	uint32 entity_id = 9;
+	Vector ref_pos = 11;
+	uint32 ref_id = 15;
+}

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GadgetInteractReqOuterClass";
+
+import "InterOpType.proto";
+import "ResinCostType.proto";
+
+message GadgetInteractReq {
+	bool AJDBEGMCGKD = 1;
+	ResinCostType resin_cost_type = 2;
+	uint32 EBEELPIEKEL = 3;
+	bool HDJABIODGCI = 4;
+	bool DOGHJJCHDLF = 5;
+	uint32 gadget_entity_id = 6;
+	bool LPCDPGNKGFL = 7;
+	uint32 gadget_id = 8;
+	uint32 CJIPKAIPCIB = 11;
+	bool IKMNHOHNBKJ = 12;
+	bool IKDIFBEOEKM = 13;
+	InterOpType op_type = 14;
+	uint32 ALLPOOBNNPH = 15;
+}

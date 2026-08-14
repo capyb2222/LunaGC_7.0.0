@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_AddTotalRevenueAfterActionsExecBuffInfoOuterClass";
+
+import "NGGGDAFGJDL.proto";
+
+message _AddTotalRevenueAfterActionsExecBuffInfo {
+	repeated NGGGDAFGJDL action_list = 1;
+	bool NHLOILJDDIP = 6;
+}

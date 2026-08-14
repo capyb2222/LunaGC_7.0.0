@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_AdShootingSettleInfoOuterClass";
+
+import "FriendBrief.proto";
+import "NBKIIACAEDE.proto";
+import "Uint32Pair.proto";
+
+message _AdShootingSettleInfo {
+	bool AAPHBOOLCJJ = 2;
+	bool JDOMINLKBJH = 4;
+	repeated Uint32Pair BGKNOBGMOIP = 5;
+	FriendBrief _friend_brief = 6;
+	NBKIIACAEDE type = 10;
+	uint32 score = 12;
+	bool AIMJHJLEPEM = 13;
+	uint32 level_id = 15;
+}

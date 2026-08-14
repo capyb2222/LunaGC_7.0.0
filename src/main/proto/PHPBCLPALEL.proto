@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PHPBCLPALELOuterClass";
+
+message PHPBCLPALEL {
+	uint32 HNFMJGOFMBG = 2;
+	uint32 NMHDKNDDLMC = 5;
+	uint32 level_id = 8;
+	bool is_finish = 9;
+	bool KIEMHBNNEBF = 11;
+	uint32 PDLNMDDFNPC = 13;
+	repeated uint32 NHDHPIAOEGE = 15;
+}

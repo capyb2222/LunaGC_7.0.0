@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MonsterRouteOuterClass";
+
+import "COEBLNIFMOB.proto";
+import "RoutePoint.proto";
+
+message MonsterRoute {
+	repeated RoutePoint route_points = 1;
+	uint32 speed_level = 2;
+	uint32 route_type = 3;
+	float arrive_range = 4;
+	bool gaehdbiocim = 5;
+	bool lfoondpjhpi = 6;
+	bool OODNNGPEAGN = 7;
+	int32 route_id = 8;
+	bool DHBMEFLJCMJ = 9;
+	bool OEBCFCLIDMA = 10;
+	COEBLNIFMOB BPKJKEENKKI = 11;
+}

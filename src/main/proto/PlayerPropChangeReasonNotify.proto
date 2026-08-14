@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PlayerPropChangeReasonNotifyOuterClass";
+
+import "PropChangeReason.proto";
+
+message PlayerPropChangeReasonNotify {
+	uint32 prop_type = 3;
+	PropChangeReason reason = 8;
+	float cur_value = 12;
+	float old_value = 15;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HBBCGELHFHEOuterClass";
+
+import "EGDOCIBGAIJ.proto";
+
+message HBBCGELHFHE {
+	repeated EGDOCIBGAIJ level_info_list = 12;
+}

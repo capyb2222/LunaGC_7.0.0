@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "StoreItemChangeNotifyOuterClass";
+
+import "Item.proto";
+import "StoreType.proto";
+
+message StoreItemChangeNotify {
+	enum _ChangeReason {
+		OTHERS = 0;
+		LOCK_OR_STAR = 1;
+	}
+	repeated Item item_list = 1;
+	StoreType store_type = 10;
+	_ChangeReason reason = 14;
+}

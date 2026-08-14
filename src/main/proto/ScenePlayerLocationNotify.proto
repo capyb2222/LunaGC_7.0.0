@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ScenePlayerLocationNotifyOuterClass";
+
+import "PlayerLocationInfo.proto";
+import "VehicleLocationInfo.proto";
+
+message ScenePlayerLocationNotify {
+	uint32 scene_id = 8;
+	repeated PlayerLocationInfo player_loc_list = 10;
+	repeated VehicleLocationInfo vehicle_loc_list = 11;
+}

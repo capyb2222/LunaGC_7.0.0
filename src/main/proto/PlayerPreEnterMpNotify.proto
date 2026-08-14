@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PlayerPreEnterMpNotifyOuterClass";
+
+message PlayerPreEnterMpNotify {
+	enum State {
+		State_INVALID = 0;
+		State_START = 1;
+		State_TIMEOUT = 2;
+	}
+	State state = 7;
+	string nickname = 9;
+	uint32 uid = 11;
+}

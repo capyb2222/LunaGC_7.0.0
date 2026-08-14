@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MapMarkPointOuterClass";
+
+import "MapMarkFromType.proto";
+import "MapMarkPointType.proto";
+import "Vector.proto";
+
+message MapMarkPoint {
+	uint32 scene_id = 1;
+	string name = 2;
+	Vector pos = 3;
+	MapMarkPointType point_type = 4;
+	uint32 monster_id = 5;
+	MapMarkFromType from_type = 6;
+	uint32 quest_id = 7;
+	uint32 _map_layer_id = 8;
+}

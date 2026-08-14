@@ -19,40 +19,40 @@ public final class AttackHitEffectResultOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 KLFHECELKOE = 15;</code>
-     * @return The kLFHECELKOE.
+     * <code>uint32 dgedhlmbpca = 1;</code>
+     * @return The dgedhlmbpca.
      */
-    int getKLFHECELKOE();
+    int getDgedhlmbpca();
 
     /**
-     * <code>uint32 ELOALAEECIF = 11;</code>
-     * @return The eLOALAEECIF.
+     * <code>float APDAHHOOLAA = 2;</code>
+     * @return The aPDAHHOOLAA.
      */
-    int getELOALAEECIF();
+    float getAPDAHHOOLAA();
 
     /**
-     * <code>float KNNMELJMIPK = 6;</code>
-     * @return The kNNMELJMIPK.
+     * <code>float OPGJOJGJHCJ = 5;</code>
+     * @return The oPGJOJGJHCJ.
      */
-    float getKNNMELJMIPK();
+    float getOPGJOJGJHCJ();
 
     /**
-     * <code>float DGEDHLMBPCA = 1;</code>
-     * @return The dGEDHLMBPCA.
+     * <code>uint32 JKKNMKKLHMD = 7;</code>
+     * @return The jKKNMKKLHMD.
      */
-    float getDGEDHLMBPCA();
+    int getJKKNMKKLHMD();
 
     /**
-     * <code>float NAGJFKIBIJH = 9;</code>
-     * @return The nAGJFKIBIJH.
+     * <code>float MBGEPHDJINB = 12;</code>
+     * @return The mBGEPHDJINB.
      */
-    float getNAGJFKIBIJH();
+    float getMBGEPHDJINB();
 
     /**
-     * <code>float MHJNMCADLMO = 14;</code>
-     * @return The mHJNMCADLMO.
+     * <code>float klfhecelkoe = 15;</code>
+     * @return The klfhecelkoe.
      */
-    float getMHJNMCADLMO();
+    float getKlfhecelkoe();
   }
   /**
    * Protobuf type {@code AttackHitEffectResult}
@@ -99,34 +99,34 @@ public final class AttackHitEffectResultOuterClass {
             case 0:
               done = true;
               break;
-            case 13: {
+            case 8: {
 
-              dGEDHLMBPCA_ = input.readFloat();
+              dgedhlmbpca_ = input.readUInt32();
               break;
             }
-            case 53: {
+            case 21: {
 
-              kNNMELJMIPK_ = input.readFloat();
+              aPDAHHOOLAA_ = input.readFloat();
               break;
             }
-            case 77: {
+            case 45: {
 
-              nAGJFKIBIJH_ = input.readFloat();
+              oPGJOJGJHCJ_ = input.readFloat();
               break;
             }
-            case 88: {
+            case 56: {
 
-              eLOALAEECIF_ = input.readUInt32();
+              jKKNMKKLHMD_ = input.readUInt32();
               break;
             }
-            case 117: {
+            case 101: {
 
-              mHJNMCADLMO_ = input.readFloat();
+              mBGEPHDJINB_ = input.readFloat();
               break;
             }
-            case 120: {
+            case 125: {
 
-              kLFHECELKOE_ = input.readUInt32();
+              klfhecelkoe_ = input.readFloat();
               break;
             }
             default: {
@@ -161,70 +161,70 @@ public final class AttackHitEffectResultOuterClass {
               emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult.class, emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult.Builder.class);
     }
 
-    public static final int KLFHECELKOE_FIELD_NUMBER = 15;
-    private int kLFHECELKOE_;
-    /**
-     * <code>uint32 KLFHECELKOE = 15;</code>
-     * @return The kLFHECELKOE.
-     */
-    @java.lang.Override
-    public int getKLFHECELKOE() {
-      return kLFHECELKOE_;
-    }
-
-    public static final int ELOALAEECIF_FIELD_NUMBER = 11;
-    private int eLOALAEECIF_;
-    /**
-     * <code>uint32 ELOALAEECIF = 11;</code>
-     * @return The eLOALAEECIF.
-     */
-    @java.lang.Override
-    public int getELOALAEECIF() {
-      return eLOALAEECIF_;
-    }
-
-    public static final int KNNMELJMIPK_FIELD_NUMBER = 6;
-    private float kNNMELJMIPK_;
-    /**
-     * <code>float KNNMELJMIPK = 6;</code>
-     * @return The kNNMELJMIPK.
-     */
-    @java.lang.Override
-    public float getKNNMELJMIPK() {
-      return kNNMELJMIPK_;
-    }
-
     public static final int DGEDHLMBPCA_FIELD_NUMBER = 1;
-    private float dGEDHLMBPCA_;
+    private int dgedhlmbpca_;
     /**
-     * <code>float DGEDHLMBPCA = 1;</code>
-     * @return The dGEDHLMBPCA.
+     * <code>uint32 dgedhlmbpca = 1;</code>
+     * @return The dgedhlmbpca.
      */
     @java.lang.Override
-    public float getDGEDHLMBPCA() {
-      return dGEDHLMBPCA_;
+    public int getDgedhlmbpca() {
+      return dgedhlmbpca_;
     }
 
-    public static final int NAGJFKIBIJH_FIELD_NUMBER = 9;
-    private float nAGJFKIBIJH_;
+    public static final int APDAHHOOLAA_FIELD_NUMBER = 2;
+    private float aPDAHHOOLAA_;
     /**
-     * <code>float NAGJFKIBIJH = 9;</code>
-     * @return The nAGJFKIBIJH.
+     * <code>float APDAHHOOLAA = 2;</code>
+     * @return The aPDAHHOOLAA.
      */
     @java.lang.Override
-    public float getNAGJFKIBIJH() {
-      return nAGJFKIBIJH_;
+    public float getAPDAHHOOLAA() {
+      return aPDAHHOOLAA_;
     }
 
-    public static final int MHJNMCADLMO_FIELD_NUMBER = 14;
-    private float mHJNMCADLMO_;
+    public static final int OPGJOJGJHCJ_FIELD_NUMBER = 5;
+    private float oPGJOJGJHCJ_;
     /**
-     * <code>float MHJNMCADLMO = 14;</code>
-     * @return The mHJNMCADLMO.
+     * <code>float OPGJOJGJHCJ = 5;</code>
+     * @return The oPGJOJGJHCJ.
      */
     @java.lang.Override
-    public float getMHJNMCADLMO() {
-      return mHJNMCADLMO_;
+    public float getOPGJOJGJHCJ() {
+      return oPGJOJGJHCJ_;
+    }
+
+    public static final int JKKNMKKLHMD_FIELD_NUMBER = 7;
+    private int jKKNMKKLHMD_;
+    /**
+     * <code>uint32 JKKNMKKLHMD = 7;</code>
+     * @return The jKKNMKKLHMD.
+     */
+    @java.lang.Override
+    public int getJKKNMKKLHMD() {
+      return jKKNMKKLHMD_;
+    }
+
+    public static final int MBGEPHDJINB_FIELD_NUMBER = 12;
+    private float mBGEPHDJINB_;
+    /**
+     * <code>float MBGEPHDJINB = 12;</code>
+     * @return The mBGEPHDJINB.
+     */
+    @java.lang.Override
+    public float getMBGEPHDJINB() {
+      return mBGEPHDJINB_;
+    }
+
+    public static final int KLFHECELKOE_FIELD_NUMBER = 15;
+    private float klfhecelkoe_;
+    /**
+     * <code>float klfhecelkoe = 15;</code>
+     * @return The klfhecelkoe.
+     */
+    @java.lang.Override
+    public float getKlfhecelkoe() {
+      return klfhecelkoe_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -241,23 +241,23 @@ public final class AttackHitEffectResultOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (dGEDHLMBPCA_ != 0F) {
-        output.writeFloat(1, dGEDHLMBPCA_);
+      if (dgedhlmbpca_ != 0) {
+        output.writeUInt32(1, dgedhlmbpca_);
       }
-      if (kNNMELJMIPK_ != 0F) {
-        output.writeFloat(6, kNNMELJMIPK_);
+      if (aPDAHHOOLAA_ != 0F) {
+        output.writeFloat(2, aPDAHHOOLAA_);
       }
-      if (nAGJFKIBIJH_ != 0F) {
-        output.writeFloat(9, nAGJFKIBIJH_);
+      if (oPGJOJGJHCJ_ != 0F) {
+        output.writeFloat(5, oPGJOJGJHCJ_);
       }
-      if (eLOALAEECIF_ != 0) {
-        output.writeUInt32(11, eLOALAEECIF_);
+      if (jKKNMKKLHMD_ != 0) {
+        output.writeUInt32(7, jKKNMKKLHMD_);
       }
-      if (mHJNMCADLMO_ != 0F) {
-        output.writeFloat(14, mHJNMCADLMO_);
+      if (mBGEPHDJINB_ != 0F) {
+        output.writeFloat(12, mBGEPHDJINB_);
       }
-      if (kLFHECELKOE_ != 0) {
-        output.writeUInt32(15, kLFHECELKOE_);
+      if (klfhecelkoe_ != 0F) {
+        output.writeFloat(15, klfhecelkoe_);
       }
       unknownFields.writeTo(output);
     }
@@ -268,29 +268,29 @@ public final class AttackHitEffectResultOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (dGEDHLMBPCA_ != 0F) {
+      if (dgedhlmbpca_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(1, dGEDHLMBPCA_);
+          .computeUInt32Size(1, dgedhlmbpca_);
       }
-      if (kNNMELJMIPK_ != 0F) {
+      if (aPDAHHOOLAA_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(6, kNNMELJMIPK_);
+          .computeFloatSize(2, aPDAHHOOLAA_);
       }
-      if (nAGJFKIBIJH_ != 0F) {
+      if (oPGJOJGJHCJ_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(9, nAGJFKIBIJH_);
+          .computeFloatSize(5, oPGJOJGJHCJ_);
       }
-      if (eLOALAEECIF_ != 0) {
+      if (jKKNMKKLHMD_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, eLOALAEECIF_);
+          .computeUInt32Size(7, jKKNMKKLHMD_);
       }
-      if (mHJNMCADLMO_ != 0F) {
+      if (mBGEPHDJINB_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(14, mHJNMCADLMO_);
+          .computeFloatSize(12, mBGEPHDJINB_);
       }
-      if (kLFHECELKOE_ != 0) {
+      if (klfhecelkoe_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, kLFHECELKOE_);
+          .computeFloatSize(15, klfhecelkoe_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -307,22 +307,22 @@ public final class AttackHitEffectResultOuterClass {
       }
       emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult other = (emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult) obj;
 
-      if (getKLFHECELKOE()
-          != other.getKLFHECELKOE()) return false;
-      if (getELOALAEECIF()
-          != other.getELOALAEECIF()) return false;
-      if (java.lang.Float.floatToIntBits(getKNNMELJMIPK())
+      if (getDgedhlmbpca()
+          != other.getDgedhlmbpca()) return false;
+      if (java.lang.Float.floatToIntBits(getAPDAHHOOLAA())
           != java.lang.Float.floatToIntBits(
-              other.getKNNMELJMIPK())) return false;
-      if (java.lang.Float.floatToIntBits(getDGEDHLMBPCA())
+              other.getAPDAHHOOLAA())) return false;
+      if (java.lang.Float.floatToIntBits(getOPGJOJGJHCJ())
           != java.lang.Float.floatToIntBits(
-              other.getDGEDHLMBPCA())) return false;
-      if (java.lang.Float.floatToIntBits(getNAGJFKIBIJH())
+              other.getOPGJOJGJHCJ())) return false;
+      if (getJKKNMKKLHMD()
+          != other.getJKKNMKKLHMD()) return false;
+      if (java.lang.Float.floatToIntBits(getMBGEPHDJINB())
           != java.lang.Float.floatToIntBits(
-              other.getNAGJFKIBIJH())) return false;
-      if (java.lang.Float.floatToIntBits(getMHJNMCADLMO())
+              other.getMBGEPHDJINB())) return false;
+      if (java.lang.Float.floatToIntBits(getKlfhecelkoe())
           != java.lang.Float.floatToIntBits(
-              other.getMHJNMCADLMO())) return false;
+              other.getKlfhecelkoe())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -334,22 +334,22 @@ public final class AttackHitEffectResultOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + KLFHECELKOE_FIELD_NUMBER;
-      hash = (53 * hash) + getKLFHECELKOE();
-      hash = (37 * hash) + ELOALAEECIF_FIELD_NUMBER;
-      hash = (53 * hash) + getELOALAEECIF();
-      hash = (37 * hash) + KNNMELJMIPK_FIELD_NUMBER;
-      hash = (53 * hash) + java.lang.Float.floatToIntBits(
-          getKNNMELJMIPK());
       hash = (37 * hash) + DGEDHLMBPCA_FIELD_NUMBER;
+      hash = (53 * hash) + getDgedhlmbpca();
+      hash = (37 * hash) + APDAHHOOLAA_FIELD_NUMBER;
       hash = (53 * hash) + java.lang.Float.floatToIntBits(
-          getDGEDHLMBPCA());
-      hash = (37 * hash) + NAGJFKIBIJH_FIELD_NUMBER;
+          getAPDAHHOOLAA());
+      hash = (37 * hash) + OPGJOJGJHCJ_FIELD_NUMBER;
       hash = (53 * hash) + java.lang.Float.floatToIntBits(
-          getNAGJFKIBIJH());
-      hash = (37 * hash) + MHJNMCADLMO_FIELD_NUMBER;
+          getOPGJOJGJHCJ());
+      hash = (37 * hash) + JKKNMKKLHMD_FIELD_NUMBER;
+      hash = (53 * hash) + getJKKNMKKLHMD();
+      hash = (37 * hash) + MBGEPHDJINB_FIELD_NUMBER;
       hash = (53 * hash) + java.lang.Float.floatToIntBits(
-          getMHJNMCADLMO());
+          getMBGEPHDJINB());
+      hash = (37 * hash) + KLFHECELKOE_FIELD_NUMBER;
+      hash = (53 * hash) + java.lang.Float.floatToIntBits(
+          getKlfhecelkoe());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -483,17 +483,17 @@ public final class AttackHitEffectResultOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        kLFHECELKOE_ = 0;
+        dgedhlmbpca_ = 0;
 
-        eLOALAEECIF_ = 0;
+        aPDAHHOOLAA_ = 0F;
 
-        kNNMELJMIPK_ = 0F;
+        oPGJOJGJHCJ_ = 0F;
 
-        dGEDHLMBPCA_ = 0F;
+        jKKNMKKLHMD_ = 0;
 
-        nAGJFKIBIJH_ = 0F;
+        mBGEPHDJINB_ = 0F;
 
-        mHJNMCADLMO_ = 0F;
+        klfhecelkoe_ = 0F;
 
         return this;
       }
@@ -521,12 +521,12 @@ public final class AttackHitEffectResultOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult buildPartial() {
         emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult result = new emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult(this);
-        result.kLFHECELKOE_ = kLFHECELKOE_;
-        result.eLOALAEECIF_ = eLOALAEECIF_;
-        result.kNNMELJMIPK_ = kNNMELJMIPK_;
-        result.dGEDHLMBPCA_ = dGEDHLMBPCA_;
-        result.nAGJFKIBIJH_ = nAGJFKIBIJH_;
-        result.mHJNMCADLMO_ = mHJNMCADLMO_;
+        result.dgedhlmbpca_ = dgedhlmbpca_;
+        result.aPDAHHOOLAA_ = aPDAHHOOLAA_;
+        result.oPGJOJGJHCJ_ = oPGJOJGJHCJ_;
+        result.jKKNMKKLHMD_ = jKKNMKKLHMD_;
+        result.mBGEPHDJINB_ = mBGEPHDJINB_;
+        result.klfhecelkoe_ = klfhecelkoe_;
         onBuilt();
         return result;
       }
@@ -575,23 +575,23 @@ public final class AttackHitEffectResultOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult other) {
         if (other == emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult.getDefaultInstance()) return this;
-        if (other.getKLFHECELKOE() != 0) {
-          setKLFHECELKOE(other.getKLFHECELKOE());
+        if (other.getDgedhlmbpca() != 0) {
+          setDgedhlmbpca(other.getDgedhlmbpca());
         }
-        if (other.getELOALAEECIF() != 0) {
-          setELOALAEECIF(other.getELOALAEECIF());
+        if (other.getAPDAHHOOLAA() != 0F) {
+          setAPDAHHOOLAA(other.getAPDAHHOOLAA());
         }
-        if (other.getKNNMELJMIPK() != 0F) {
-          setKNNMELJMIPK(other.getKNNMELJMIPK());
+        if (other.getOPGJOJGJHCJ() != 0F) {
+          setOPGJOJGJHCJ(other.getOPGJOJGJHCJ());
         }
-        if (other.getDGEDHLMBPCA() != 0F) {
-          setDGEDHLMBPCA(other.getDGEDHLMBPCA());
+        if (other.getJKKNMKKLHMD() != 0) {
+          setJKKNMKKLHMD(other.getJKKNMKKLHMD());
         }
-        if (other.getNAGJFKIBIJH() != 0F) {
-          setNAGJFKIBIJH(other.getNAGJFKIBIJH());
+        if (other.getMBGEPHDJINB() != 0F) {
+          setMBGEPHDJINB(other.getMBGEPHDJINB());
         }
-        if (other.getMHJNMCADLMO() != 0F) {
-          setMHJNMCADLMO(other.getMHJNMCADLMO());
+        if (other.getKlfhecelkoe() != 0F) {
+          setKlfhecelkoe(other.getKlfhecelkoe());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -622,188 +622,188 @@ public final class AttackHitEffectResultOuterClass {
         return this;
       }
 
-      private int kLFHECELKOE_ ;
+      private int dgedhlmbpca_ ;
       /**
-       * <code>uint32 KLFHECELKOE = 15;</code>
-       * @return The kLFHECELKOE.
+       * <code>uint32 dgedhlmbpca = 1;</code>
+       * @return The dgedhlmbpca.
        */
       @java.lang.Override
-      public int getKLFHECELKOE() {
-        return kLFHECELKOE_;
+      public int getDgedhlmbpca() {
+        return dgedhlmbpca_;
       }
       /**
-       * <code>uint32 KLFHECELKOE = 15;</code>
-       * @param value The kLFHECELKOE to set.
+       * <code>uint32 dgedhlmbpca = 1;</code>
+       * @param value The dgedhlmbpca to set.
        * @return This builder for chaining.
        */
-      public Builder setKLFHECELKOE(int value) {
+      public Builder setDgedhlmbpca(int value) {
         
-        kLFHECELKOE_ = value;
+        dgedhlmbpca_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 KLFHECELKOE = 15;</code>
+       * <code>uint32 dgedhlmbpca = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearKLFHECELKOE() {
+      public Builder clearDgedhlmbpca() {
         
-        kLFHECELKOE_ = 0;
+        dgedhlmbpca_ = 0;
         onChanged();
         return this;
       }
 
-      private int eLOALAEECIF_ ;
+      private float aPDAHHOOLAA_ ;
       /**
-       * <code>uint32 ELOALAEECIF = 11;</code>
-       * @return The eLOALAEECIF.
+       * <code>float APDAHHOOLAA = 2;</code>
+       * @return The aPDAHHOOLAA.
        */
       @java.lang.Override
-      public int getELOALAEECIF() {
-        return eLOALAEECIF_;
+      public float getAPDAHHOOLAA() {
+        return aPDAHHOOLAA_;
       }
       /**
-       * <code>uint32 ELOALAEECIF = 11;</code>
-       * @param value The eLOALAEECIF to set.
+       * <code>float APDAHHOOLAA = 2;</code>
+       * @param value The aPDAHHOOLAA to set.
        * @return This builder for chaining.
        */
-      public Builder setELOALAEECIF(int value) {
+      public Builder setAPDAHHOOLAA(float value) {
         
-        eLOALAEECIF_ = value;
+        aPDAHHOOLAA_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 ELOALAEECIF = 11;</code>
+       * <code>float APDAHHOOLAA = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearELOALAEECIF() {
+      public Builder clearAPDAHHOOLAA() {
         
-        eLOALAEECIF_ = 0;
+        aPDAHHOOLAA_ = 0F;
         onChanged();
         return this;
       }
 
-      private float kNNMELJMIPK_ ;
+      private float oPGJOJGJHCJ_ ;
       /**
-       * <code>float KNNMELJMIPK = 6;</code>
-       * @return The kNNMELJMIPK.
+       * <code>float OPGJOJGJHCJ = 5;</code>
+       * @return The oPGJOJGJHCJ.
        */
       @java.lang.Override
-      public float getKNNMELJMIPK() {
-        return kNNMELJMIPK_;
+      public float getOPGJOJGJHCJ() {
+        return oPGJOJGJHCJ_;
       }
       /**
-       * <code>float KNNMELJMIPK = 6;</code>
-       * @param value The kNNMELJMIPK to set.
+       * <code>float OPGJOJGJHCJ = 5;</code>
+       * @param value The oPGJOJGJHCJ to set.
        * @return This builder for chaining.
        */
-      public Builder setKNNMELJMIPK(float value) {
+      public Builder setOPGJOJGJHCJ(float value) {
         
-        kNNMELJMIPK_ = value;
+        oPGJOJGJHCJ_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>float KNNMELJMIPK = 6;</code>
+       * <code>float OPGJOJGJHCJ = 5;</code>
        * @return This builder for chaining.
        */
-      public Builder clearKNNMELJMIPK() {
+      public Builder clearOPGJOJGJHCJ() {
         
-        kNNMELJMIPK_ = 0F;
+        oPGJOJGJHCJ_ = 0F;
         onChanged();
         return this;
       }
 
-      private float dGEDHLMBPCA_ ;
+      private int jKKNMKKLHMD_ ;
       /**
-       * <code>float DGEDHLMBPCA = 1;</code>
-       * @return The dGEDHLMBPCA.
+       * <code>uint32 JKKNMKKLHMD = 7;</code>
+       * @return The jKKNMKKLHMD.
        */
       @java.lang.Override
-      public float getDGEDHLMBPCA() {
-        return dGEDHLMBPCA_;
+      public int getJKKNMKKLHMD() {
+        return jKKNMKKLHMD_;
       }
       /**
-       * <code>float DGEDHLMBPCA = 1;</code>
-       * @param value The dGEDHLMBPCA to set.
+       * <code>uint32 JKKNMKKLHMD = 7;</code>
+       * @param value The jKKNMKKLHMD to set.
        * @return This builder for chaining.
        */
-      public Builder setDGEDHLMBPCA(float value) {
+      public Builder setJKKNMKKLHMD(int value) {
         
-        dGEDHLMBPCA_ = value;
+        jKKNMKKLHMD_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>float DGEDHLMBPCA = 1;</code>
+       * <code>uint32 JKKNMKKLHMD = 7;</code>
        * @return This builder for chaining.
        */
-      public Builder clearDGEDHLMBPCA() {
+      public Builder clearJKKNMKKLHMD() {
         
-        dGEDHLMBPCA_ = 0F;
+        jKKNMKKLHMD_ = 0;
         onChanged();
         return this;
       }
 
-      private float nAGJFKIBIJH_ ;
+      private float mBGEPHDJINB_ ;
       /**
-       * <code>float NAGJFKIBIJH = 9;</code>
-       * @return The nAGJFKIBIJH.
+       * <code>float MBGEPHDJINB = 12;</code>
+       * @return The mBGEPHDJINB.
        */
       @java.lang.Override
-      public float getNAGJFKIBIJH() {
-        return nAGJFKIBIJH_;
+      public float getMBGEPHDJINB() {
+        return mBGEPHDJINB_;
       }
       /**
-       * <code>float NAGJFKIBIJH = 9;</code>
-       * @param value The nAGJFKIBIJH to set.
+       * <code>float MBGEPHDJINB = 12;</code>
+       * @param value The mBGEPHDJINB to set.
        * @return This builder for chaining.
        */
-      public Builder setNAGJFKIBIJH(float value) {
+      public Builder setMBGEPHDJINB(float value) {
         
-        nAGJFKIBIJH_ = value;
+        mBGEPHDJINB_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>float NAGJFKIBIJH = 9;</code>
+       * <code>float MBGEPHDJINB = 12;</code>
        * @return This builder for chaining.
        */
-      public Builder clearNAGJFKIBIJH() {
+      public Builder clearMBGEPHDJINB() {
         
-        nAGJFKIBIJH_ = 0F;
+        mBGEPHDJINB_ = 0F;
         onChanged();
         return this;
       }
 
-      private float mHJNMCADLMO_ ;
+      private float klfhecelkoe_ ;
       /**
-       * <code>float MHJNMCADLMO = 14;</code>
-       * @return The mHJNMCADLMO.
+       * <code>float klfhecelkoe = 15;</code>
+       * @return The klfhecelkoe.
        */
       @java.lang.Override
-      public float getMHJNMCADLMO() {
-        return mHJNMCADLMO_;
+      public float getKlfhecelkoe() {
+        return klfhecelkoe_;
       }
       /**
-       * <code>float MHJNMCADLMO = 14;</code>
-       * @param value The mHJNMCADLMO to set.
+       * <code>float klfhecelkoe = 15;</code>
+       * @param value The klfhecelkoe to set.
        * @return This builder for chaining.
        */
-      public Builder setMHJNMCADLMO(float value) {
+      public Builder setKlfhecelkoe(float value) {
         
-        mHJNMCADLMO_ = value;
+        klfhecelkoe_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>float MHJNMCADLMO = 14;</code>
+       * <code>float klfhecelkoe = 15;</code>
        * @return This builder for chaining.
        */
-      public Builder clearMHJNMCADLMO() {
+      public Builder clearKlfhecelkoe() {
         
-        mHJNMCADLMO_ = 0F;
+        klfhecelkoe_ = 0F;
         onChanged();
         return this;
       }
@@ -875,11 +875,12 @@ public final class AttackHitEffectResultOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033AttackHitEffectResult.proto\"\225\001\n\025Attack" +
-      "HitEffectResult\022\023\n\013KLFHECELKOE\030\017 \001(\r\022\023\n\013" +
-      "ELOALAEECIF\030\013 \001(\r\022\023\n\013KNNMELJMIPK\030\006 \001(\002\022\023" +
-      "\n\013DGEDHLMBPCA\030\001 \001(\002\022\023\n\013NAGJFKIBIJH\030\t \001(\002" +
-      "\022\023\n\013MHJNMCADLMO\030\016 \001(\002B\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "HitEffectResult\022\023\n\013dgedhlmbpca\030\001 \001(\r\022\023\n\013" +
+      "APDAHHOOLAA\030\002 \001(\002\022\023\n\013OPGJOJGJHCJ\030\005 \001(\002\022\023" +
+      "\n\013JKKNMKKLHMD\030\007 \001(\r\022\023\n\013MBGEPHDJINB\030\014 \001(\002" +
+      "\022\023\n\013klfhecelkoe\030\017 \001(\002B<\n\031emu.grasscutter" +
+      ".net.protoB\037AttackHitEffectResultOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -890,7 +891,7 @@ public final class AttackHitEffectResultOuterClass {
     internal_static_AttackHitEffectResult_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AttackHitEffectResult_descriptor,
-        new java.lang.String[] { "KLFHECELKOE", "ELOALAEECIF", "KNNMELJMIPK", "DGEDHLMBPCA", "NAGJFKIBIJH", "MHJNMCADLMO", });
+        new java.lang.String[] { "Dgedhlmbpca", "APDAHHOOLAA", "OPGJOJGJHCJ", "JKKNMKKLHMD", "MBGEPHDJINB", "Klfhecelkoe", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

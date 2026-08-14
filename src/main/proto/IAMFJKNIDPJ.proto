@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "IAMFJKNIDPJOuterClass";
+
+import "EMPEPKOOJHP.proto";
+import "JEDABPPFPPK.proto";
+
+message IAMFJKNIDPJ {
+	JEDABPPFPPK NBEAAGGCFHC = 1;
+	EMPEPKOOJHP GLGMMOMNFJG = 2;
+}

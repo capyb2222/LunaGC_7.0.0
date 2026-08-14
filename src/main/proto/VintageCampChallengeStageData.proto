@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "VintageCampChallengeStageDataOuterClass";
+
+import "VintageCampChallengeLevelData.proto";
+
+message VintageCampChallengeStageData {
+	bool is_open = 1;
+	uint32 open_time = 3;
+	uint32 stage_id = 4;
+	bool is_finish = 13;
+	map<uint32, VintageCampChallengeLevelData> camp_level_map = 14;
+	uint32 max_finished_level = 15;
+}

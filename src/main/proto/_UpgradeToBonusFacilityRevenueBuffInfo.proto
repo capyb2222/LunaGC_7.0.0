@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_UpgradeToBonusFacilityRevenueBuffInfoOuterClass";
+
+import "Uint32Pair.proto";
+
+message _UpgradeToBonusFacilityRevenueBuffInfo {
+	uint32 MPPNKBJHBOK = 1;
+	bool NHLOILJDDIP = 4;
+	repeated Uint32Pair ICLJFFNOEHF = 13;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PHCHPFLPIFLOuterClass";
+
+enum PHCHPFLPIFL {
+	PHCHPFLPIFL_DEFAULT_VALUE = 0;
+	PHCHPFLPIFL__1 = 1;
+	PHCHPFLPIFL__2 = 2;
+	PHCHPFLPIFL__3 = 3;
+}

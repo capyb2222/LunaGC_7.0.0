@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ItemGivingRspOuterClass";
+
+message ItemGivingRsp {
+	uint32 giving_group_id = 11;
+	uint32 giving_id = 12;
+	int32 retcode = 15;
+}

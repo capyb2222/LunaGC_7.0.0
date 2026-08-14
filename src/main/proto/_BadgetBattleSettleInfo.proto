@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_BadgetBattleSettleInfoOuterClass";
+
+message _BadgetBattleSettleInfo {
+	uint32 difficulty = 4;
+	bool is_new_record = 7;
+	uint32 level_id = 9;
+	repeated uint32 LLDFKPKHFFB = 12;
+	uint32 score = 13;
+}

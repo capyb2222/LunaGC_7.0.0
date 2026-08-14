@@ -19,27 +19,27 @@ public final class CoinCollectDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .PIKOPKBKIPH CIAOIGFGPMJ = 3;</code>
+     * <code>repeated .CoinCollectLevelData level_data_list = 1;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH> 
-        getCIAOIGFGPMJList();
+    java.util.List<emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData> 
+        getLevelDataListList();
     /**
-     * <code>repeated .PIKOPKBKIPH CIAOIGFGPMJ = 3;</code>
+     * <code>repeated .CoinCollectLevelData level_data_list = 1;</code>
      */
-    emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH getCIAOIGFGPMJ(int index);
+    emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData getLevelDataList(int index);
     /**
-     * <code>repeated .PIKOPKBKIPH CIAOIGFGPMJ = 3;</code>
+     * <code>repeated .CoinCollectLevelData level_data_list = 1;</code>
      */
-    int getCIAOIGFGPMJCount();
+    int getLevelDataListCount();
     /**
-     * <code>repeated .PIKOPKBKIPH CIAOIGFGPMJ = 3;</code>
+     * <code>repeated .CoinCollectLevelData level_data_list = 1;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPHOrBuilder> 
-        getCIAOIGFGPMJOrBuilderList();
+    java.util.List<? extends emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelDataOrBuilder> 
+        getLevelDataListOrBuilderList();
     /**
-     * <code>repeated .PIKOPKBKIPH CIAOIGFGPMJ = 3;</code>
+     * <code>repeated .CoinCollectLevelData level_data_list = 1;</code>
      */
-    emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPHOrBuilder getCIAOIGFGPMJOrBuilder(
+    emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelDataOrBuilder getLevelDataListOrBuilder(
         int index);
   }
   /**
@@ -55,7 +55,7 @@ public final class CoinCollectDetailInfoOuterClass {
       super(builder);
     }
     private CoinCollectDetailInfo() {
-      cIAOIGFGPMJ_ = java.util.Collections.emptyList();
+      levelDataList_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -89,13 +89,13 @@ public final class CoinCollectDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 26: {
+            case 10: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                cIAOIGFGPMJ_ = new java.util.ArrayList<emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH>();
+                levelDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              cIAOIGFGPMJ_.add(
-                  input.readMessage(emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH.parser(), extensionRegistry));
+              levelDataList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -114,7 +114,7 @@ public final class CoinCollectDetailInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          cIAOIGFGPMJ_ = java.util.Collections.unmodifiableList(cIAOIGFGPMJ_);
+          levelDataList_ = java.util.Collections.unmodifiableList(levelDataList_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -133,44 +133,44 @@ public final class CoinCollectDetailInfoOuterClass {
               emu.grasscutter.net.proto.CoinCollectDetailInfoOuterClass.CoinCollectDetailInfo.class, emu.grasscutter.net.proto.CoinCollectDetailInfoOuterClass.CoinCollectDetailInfo.Builder.class);
     }
 
-    public static final int CIAOIGFGPMJ_FIELD_NUMBER = 3;
-    private java.util.List<emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH> cIAOIGFGPMJ_;
+    public static final int LEVEL_DATA_LIST_FIELD_NUMBER = 1;
+    private java.util.List<emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData> levelDataList_;
     /**
-     * <code>repeated .PIKOPKBKIPH CIAOIGFGPMJ = 3;</code>
+     * <code>repeated .CoinCollectLevelData level_data_list = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH> getCIAOIGFGPMJList() {
-      return cIAOIGFGPMJ_;
+    public java.util.List<emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData> getLevelDataListList() {
+      return levelDataList_;
     }
     /**
-     * <code>repeated .PIKOPKBKIPH CIAOIGFGPMJ = 3;</code>
+     * <code>repeated .CoinCollectLevelData level_data_list = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPHOrBuilder> 
-        getCIAOIGFGPMJOrBuilderList() {
-      return cIAOIGFGPMJ_;
+    public java.util.List<? extends emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelDataOrBuilder> 
+        getLevelDataListOrBuilderList() {
+      return levelDataList_;
     }
     /**
-     * <code>repeated .PIKOPKBKIPH CIAOIGFGPMJ = 3;</code>
+     * <code>repeated .CoinCollectLevelData level_data_list = 1;</code>
      */
     @java.lang.Override
-    public int getCIAOIGFGPMJCount() {
-      return cIAOIGFGPMJ_.size();
+    public int getLevelDataListCount() {
+      return levelDataList_.size();
     }
     /**
-     * <code>repeated .PIKOPKBKIPH CIAOIGFGPMJ = 3;</code>
+     * <code>repeated .CoinCollectLevelData level_data_list = 1;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH getCIAOIGFGPMJ(int index) {
-      return cIAOIGFGPMJ_.get(index);
+    public emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData getLevelDataList(int index) {
+      return levelDataList_.get(index);
     }
     /**
-     * <code>repeated .PIKOPKBKIPH CIAOIGFGPMJ = 3;</code>
+     * <code>repeated .CoinCollectLevelData level_data_list = 1;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPHOrBuilder getCIAOIGFGPMJOrBuilder(
+    public emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelDataOrBuilder getLevelDataListOrBuilder(
         int index) {
-      return cIAOIGFGPMJ_.get(index);
+      return levelDataList_.get(index);
     }
 
     private byte memoizedIsInitialized = -1;
@@ -187,8 +187,8 @@ public final class CoinCollectDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < cIAOIGFGPMJ_.size(); i++) {
-        output.writeMessage(3, cIAOIGFGPMJ_.get(i));
+      for (int i = 0; i < levelDataList_.size(); i++) {
+        output.writeMessage(1, levelDataList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -199,9 +199,9 @@ public final class CoinCollectDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < cIAOIGFGPMJ_.size(); i++) {
+      for (int i = 0; i < levelDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, cIAOIGFGPMJ_.get(i));
+          .computeMessageSize(1, levelDataList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -218,8 +218,8 @@ public final class CoinCollectDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.CoinCollectDetailInfoOuterClass.CoinCollectDetailInfo other = (emu.grasscutter.net.proto.CoinCollectDetailInfoOuterClass.CoinCollectDetailInfo) obj;
 
-      if (!getCIAOIGFGPMJList()
-          .equals(other.getCIAOIGFGPMJList())) return false;
+      if (!getLevelDataListList()
+          .equals(other.getLevelDataListList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -231,9 +231,9 @@ public final class CoinCollectDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getCIAOIGFGPMJCount() > 0) {
-        hash = (37 * hash) + CIAOIGFGPMJ_FIELD_NUMBER;
-        hash = (53 * hash) + getCIAOIGFGPMJList().hashCode();
+      if (getLevelDataListCount() > 0) {
+        hash = (37 * hash) + LEVEL_DATA_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getLevelDataListList().hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -363,17 +363,17 @@ public final class CoinCollectDetailInfoOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
-          getCIAOIGFGPMJFieldBuilder();
+          getLevelDataListFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (cIAOIGFGPMJBuilder_ == null) {
-          cIAOIGFGPMJ_ = java.util.Collections.emptyList();
+        if (levelDataListBuilder_ == null) {
+          levelDataList_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
         } else {
-          cIAOIGFGPMJBuilder_.clear();
+          levelDataListBuilder_.clear();
         }
         return this;
       }
@@ -402,14 +402,14 @@ public final class CoinCollectDetailInfoOuterClass {
       public emu.grasscutter.net.proto.CoinCollectDetailInfoOuterClass.CoinCollectDetailInfo buildPartial() {
         emu.grasscutter.net.proto.CoinCollectDetailInfoOuterClass.CoinCollectDetailInfo result = new emu.grasscutter.net.proto.CoinCollectDetailInfoOuterClass.CoinCollectDetailInfo(this);
         int from_bitField0_ = bitField0_;
-        if (cIAOIGFGPMJBuilder_ == null) {
+        if (levelDataListBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
-            cIAOIGFGPMJ_ = java.util.Collections.unmodifiableList(cIAOIGFGPMJ_);
+            levelDataList_ = java.util.Collections.unmodifiableList(levelDataList_);
             bitField0_ = (bitField0_ & ~0x00000001);
           }
-          result.cIAOIGFGPMJ_ = cIAOIGFGPMJ_;
+          result.levelDataList_ = levelDataList_;
         } else {
-          result.cIAOIGFGPMJ_ = cIAOIGFGPMJBuilder_.build();
+          result.levelDataList_ = levelDataListBuilder_.build();
         }
         onBuilt();
         return result;
@@ -459,29 +459,29 @@ public final class CoinCollectDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.CoinCollectDetailInfoOuterClass.CoinCollectDetailInfo other) {
         if (other == emu.grasscutter.net.proto.CoinCollectDetailInfoOuterClass.CoinCollectDetailInfo.getDefaultInstance()) return this;
-        if (cIAOIGFGPMJBuilder_ == null) {
-          if (!other.cIAOIGFGPMJ_.isEmpty()) {
-            if (cIAOIGFGPMJ_.isEmpty()) {
-              cIAOIGFGPMJ_ = other.cIAOIGFGPMJ_;
+        if (levelDataListBuilder_ == null) {
+          if (!other.levelDataList_.isEmpty()) {
+            if (levelDataList_.isEmpty()) {
+              levelDataList_ = other.levelDataList_;
               bitField0_ = (bitField0_ & ~0x00000001);
             } else {
-              ensureCIAOIGFGPMJIsMutable();
-              cIAOIGFGPMJ_.addAll(other.cIAOIGFGPMJ_);
+              ensureLevelDataListIsMutable();
+              levelDataList_.addAll(other.levelDataList_);
             }
             onChanged();
           }
         } else {
-          if (!other.cIAOIGFGPMJ_.isEmpty()) {
-            if (cIAOIGFGPMJBuilder_.isEmpty()) {
-              cIAOIGFGPMJBuilder_.dispose();
-              cIAOIGFGPMJBuilder_ = null;
-              cIAOIGFGPMJ_ = other.cIAOIGFGPMJ_;
+          if (!other.levelDataList_.isEmpty()) {
+            if (levelDataListBuilder_.isEmpty()) {
+              levelDataListBuilder_.dispose();
+              levelDataListBuilder_ = null;
+              levelDataList_ = other.levelDataList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              cIAOIGFGPMJBuilder_ = 
+              levelDataListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getCIAOIGFGPMJFieldBuilder() : null;
+                   getLevelDataListFieldBuilder() : null;
             } else {
-              cIAOIGFGPMJBuilder_.addAllMessages(other.cIAOIGFGPMJ_);
+              levelDataListBuilder_.addAllMessages(other.levelDataList_);
             }
           }
         }
@@ -515,244 +515,244 @@ public final class CoinCollectDetailInfoOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH> cIAOIGFGPMJ_ =
+      private java.util.List<emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData> levelDataList_ =
         java.util.Collections.emptyList();
-      private void ensureCIAOIGFGPMJIsMutable() {
+      private void ensureLevelDataListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          cIAOIGFGPMJ_ = new java.util.ArrayList<emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH>(cIAOIGFGPMJ_);
+          levelDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData>(levelDataList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH, emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH.Builder, emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPHOrBuilder> cIAOIGFGPMJBuilder_;
+          emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData, emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData.Builder, emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelDataOrBuilder> levelDataListBuilder_;
 
       /**
-       * <code>repeated .PIKOPKBKIPH CIAOIGFGPMJ = 3;</code>
+       * <code>repeated .CoinCollectLevelData level_data_list = 1;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH> getCIAOIGFGPMJList() {
-        if (cIAOIGFGPMJBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(cIAOIGFGPMJ_);
+      public java.util.List<emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData> getLevelDataListList() {
+        if (levelDataListBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(levelDataList_);
         } else {
-          return cIAOIGFGPMJBuilder_.getMessageList();
+          return levelDataListBuilder_.getMessageList();
         }
       }
       /**
-       * <code>repeated .PIKOPKBKIPH CIAOIGFGPMJ = 3;</code>
+       * <code>repeated .CoinCollectLevelData level_data_list = 1;</code>
        */
-      public int getCIAOIGFGPMJCount() {
-        if (cIAOIGFGPMJBuilder_ == null) {
-          return cIAOIGFGPMJ_.size();
+      public int getLevelDataListCount() {
+        if (levelDataListBuilder_ == null) {
+          return levelDataList_.size();
         } else {
-          return cIAOIGFGPMJBuilder_.getCount();
+          return levelDataListBuilder_.getCount();
         }
       }
       /**
-       * <code>repeated .PIKOPKBKIPH CIAOIGFGPMJ = 3;</code>
+       * <code>repeated .CoinCollectLevelData level_data_list = 1;</code>
        */
-      public emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH getCIAOIGFGPMJ(int index) {
-        if (cIAOIGFGPMJBuilder_ == null) {
-          return cIAOIGFGPMJ_.get(index);
+      public emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData getLevelDataList(int index) {
+        if (levelDataListBuilder_ == null) {
+          return levelDataList_.get(index);
         } else {
-          return cIAOIGFGPMJBuilder_.getMessage(index);
+          return levelDataListBuilder_.getMessage(index);
         }
       }
       /**
-       * <code>repeated .PIKOPKBKIPH CIAOIGFGPMJ = 3;</code>
+       * <code>repeated .CoinCollectLevelData level_data_list = 1;</code>
        */
-      public Builder setCIAOIGFGPMJ(
-          int index, emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH value) {
-        if (cIAOIGFGPMJBuilder_ == null) {
+      public Builder setLevelDataList(
+          int index, emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData value) {
+        if (levelDataListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureCIAOIGFGPMJIsMutable();
-          cIAOIGFGPMJ_.set(index, value);
+          ensureLevelDataListIsMutable();
+          levelDataList_.set(index, value);
           onChanged();
         } else {
-          cIAOIGFGPMJBuilder_.setMessage(index, value);
+          levelDataListBuilder_.setMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .PIKOPKBKIPH CIAOIGFGPMJ = 3;</code>
+       * <code>repeated .CoinCollectLevelData level_data_list = 1;</code>
        */
-      public Builder setCIAOIGFGPMJ(
-          int index, emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH.Builder builderForValue) {
-        if (cIAOIGFGPMJBuilder_ == null) {
-          ensureCIAOIGFGPMJIsMutable();
-          cIAOIGFGPMJ_.set(index, builderForValue.build());
+      public Builder setLevelDataList(
+          int index, emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData.Builder builderForValue) {
+        if (levelDataListBuilder_ == null) {
+          ensureLevelDataListIsMutable();
+          levelDataList_.set(index, builderForValue.build());
           onChanged();
         } else {
-          cIAOIGFGPMJBuilder_.setMessage(index, builderForValue.build());
+          levelDataListBuilder_.setMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .PIKOPKBKIPH CIAOIGFGPMJ = 3;</code>
+       * <code>repeated .CoinCollectLevelData level_data_list = 1;</code>
        */
-      public Builder addCIAOIGFGPMJ(emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH value) {
-        if (cIAOIGFGPMJBuilder_ == null) {
+      public Builder addLevelDataList(emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData value) {
+        if (levelDataListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureCIAOIGFGPMJIsMutable();
-          cIAOIGFGPMJ_.add(value);
+          ensureLevelDataListIsMutable();
+          levelDataList_.add(value);
           onChanged();
         } else {
-          cIAOIGFGPMJBuilder_.addMessage(value);
+          levelDataListBuilder_.addMessage(value);
         }
         return this;
       }
       /**
-       * <code>repeated .PIKOPKBKIPH CIAOIGFGPMJ = 3;</code>
+       * <code>repeated .CoinCollectLevelData level_data_list = 1;</code>
        */
-      public Builder addCIAOIGFGPMJ(
-          int index, emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH value) {
-        if (cIAOIGFGPMJBuilder_ == null) {
+      public Builder addLevelDataList(
+          int index, emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData value) {
+        if (levelDataListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureCIAOIGFGPMJIsMutable();
-          cIAOIGFGPMJ_.add(index, value);
+          ensureLevelDataListIsMutable();
+          levelDataList_.add(index, value);
           onChanged();
         } else {
-          cIAOIGFGPMJBuilder_.addMessage(index, value);
+          levelDataListBuilder_.addMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .PIKOPKBKIPH CIAOIGFGPMJ = 3;</code>
+       * <code>repeated .CoinCollectLevelData level_data_list = 1;</code>
        */
-      public Builder addCIAOIGFGPMJ(
-          emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH.Builder builderForValue) {
-        if (cIAOIGFGPMJBuilder_ == null) {
-          ensureCIAOIGFGPMJIsMutable();
-          cIAOIGFGPMJ_.add(builderForValue.build());
+      public Builder addLevelDataList(
+          emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData.Builder builderForValue) {
+        if (levelDataListBuilder_ == null) {
+          ensureLevelDataListIsMutable();
+          levelDataList_.add(builderForValue.build());
           onChanged();
         } else {
-          cIAOIGFGPMJBuilder_.addMessage(builderForValue.build());
+          levelDataListBuilder_.addMessage(builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .PIKOPKBKIPH CIAOIGFGPMJ = 3;</code>
+       * <code>repeated .CoinCollectLevelData level_data_list = 1;</code>
        */
-      public Builder addCIAOIGFGPMJ(
-          int index, emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH.Builder builderForValue) {
-        if (cIAOIGFGPMJBuilder_ == null) {
-          ensureCIAOIGFGPMJIsMutable();
-          cIAOIGFGPMJ_.add(index, builderForValue.build());
+      public Builder addLevelDataList(
+          int index, emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData.Builder builderForValue) {
+        if (levelDataListBuilder_ == null) {
+          ensureLevelDataListIsMutable();
+          levelDataList_.add(index, builderForValue.build());
           onChanged();
         } else {
-          cIAOIGFGPMJBuilder_.addMessage(index, builderForValue.build());
+          levelDataListBuilder_.addMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .PIKOPKBKIPH CIAOIGFGPMJ = 3;</code>
+       * <code>repeated .CoinCollectLevelData level_data_list = 1;</code>
        */
-      public Builder addAllCIAOIGFGPMJ(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH> values) {
-        if (cIAOIGFGPMJBuilder_ == null) {
-          ensureCIAOIGFGPMJIsMutable();
+      public Builder addAllLevelDataList(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData> values) {
+        if (levelDataListBuilder_ == null) {
+          ensureLevelDataListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, cIAOIGFGPMJ_);
+              values, levelDataList_);
           onChanged();
         } else {
-          cIAOIGFGPMJBuilder_.addAllMessages(values);
+          levelDataListBuilder_.addAllMessages(values);
         }
         return this;
       }
       /**
-       * <code>repeated .PIKOPKBKIPH CIAOIGFGPMJ = 3;</code>
+       * <code>repeated .CoinCollectLevelData level_data_list = 1;</code>
        */
-      public Builder clearCIAOIGFGPMJ() {
-        if (cIAOIGFGPMJBuilder_ == null) {
-          cIAOIGFGPMJ_ = java.util.Collections.emptyList();
+      public Builder clearLevelDataList() {
+        if (levelDataListBuilder_ == null) {
+          levelDataList_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
-          cIAOIGFGPMJBuilder_.clear();
+          levelDataListBuilder_.clear();
         }
         return this;
       }
       /**
-       * <code>repeated .PIKOPKBKIPH CIAOIGFGPMJ = 3;</code>
+       * <code>repeated .CoinCollectLevelData level_data_list = 1;</code>
        */
-      public Builder removeCIAOIGFGPMJ(int index) {
-        if (cIAOIGFGPMJBuilder_ == null) {
-          ensureCIAOIGFGPMJIsMutable();
-          cIAOIGFGPMJ_.remove(index);
+      public Builder removeLevelDataList(int index) {
+        if (levelDataListBuilder_ == null) {
+          ensureLevelDataListIsMutable();
+          levelDataList_.remove(index);
           onChanged();
         } else {
-          cIAOIGFGPMJBuilder_.remove(index);
+          levelDataListBuilder_.remove(index);
         }
         return this;
       }
       /**
-       * <code>repeated .PIKOPKBKIPH CIAOIGFGPMJ = 3;</code>
+       * <code>repeated .CoinCollectLevelData level_data_list = 1;</code>
        */
-      public emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH.Builder getCIAOIGFGPMJBuilder(
+      public emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData.Builder getLevelDataListBuilder(
           int index) {
-        return getCIAOIGFGPMJFieldBuilder().getBuilder(index);
+        return getLevelDataListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .PIKOPKBKIPH CIAOIGFGPMJ = 3;</code>
+       * <code>repeated .CoinCollectLevelData level_data_list = 1;</code>
        */
-      public emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPHOrBuilder getCIAOIGFGPMJOrBuilder(
+      public emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelDataOrBuilder getLevelDataListOrBuilder(
           int index) {
-        if (cIAOIGFGPMJBuilder_ == null) {
-          return cIAOIGFGPMJ_.get(index);  } else {
-          return cIAOIGFGPMJBuilder_.getMessageOrBuilder(index);
+        if (levelDataListBuilder_ == null) {
+          return levelDataList_.get(index);  } else {
+          return levelDataListBuilder_.getMessageOrBuilder(index);
         }
       }
       /**
-       * <code>repeated .PIKOPKBKIPH CIAOIGFGPMJ = 3;</code>
+       * <code>repeated .CoinCollectLevelData level_data_list = 1;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPHOrBuilder> 
-           getCIAOIGFGPMJOrBuilderList() {
-        if (cIAOIGFGPMJBuilder_ != null) {
-          return cIAOIGFGPMJBuilder_.getMessageOrBuilderList();
+      public java.util.List<? extends emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelDataOrBuilder> 
+           getLevelDataListOrBuilderList() {
+        if (levelDataListBuilder_ != null) {
+          return levelDataListBuilder_.getMessageOrBuilderList();
         } else {
-          return java.util.Collections.unmodifiableList(cIAOIGFGPMJ_);
+          return java.util.Collections.unmodifiableList(levelDataList_);
         }
       }
       /**
-       * <code>repeated .PIKOPKBKIPH CIAOIGFGPMJ = 3;</code>
+       * <code>repeated .CoinCollectLevelData level_data_list = 1;</code>
        */
-      public emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH.Builder addCIAOIGFGPMJBuilder() {
-        return getCIAOIGFGPMJFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH.getDefaultInstance());
+      public emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData.Builder addLevelDataListBuilder() {
+        return getLevelDataListFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData.getDefaultInstance());
       }
       /**
-       * <code>repeated .PIKOPKBKIPH CIAOIGFGPMJ = 3;</code>
+       * <code>repeated .CoinCollectLevelData level_data_list = 1;</code>
        */
-      public emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH.Builder addCIAOIGFGPMJBuilder(
+      public emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData.Builder addLevelDataListBuilder(
           int index) {
-        return getCIAOIGFGPMJFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH.getDefaultInstance());
+        return getLevelDataListFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData.getDefaultInstance());
       }
       /**
-       * <code>repeated .PIKOPKBKIPH CIAOIGFGPMJ = 3;</code>
+       * <code>repeated .CoinCollectLevelData level_data_list = 1;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH.Builder> 
-           getCIAOIGFGPMJBuilderList() {
-        return getCIAOIGFGPMJFieldBuilder().getBuilderList();
+      public java.util.List<emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData.Builder> 
+           getLevelDataListBuilderList() {
+        return getLevelDataListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH, emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH.Builder, emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPHOrBuilder> 
-          getCIAOIGFGPMJFieldBuilder() {
-        if (cIAOIGFGPMJBuilder_ == null) {
-          cIAOIGFGPMJBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH, emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPH.Builder, emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.PIKOPKBKIPHOrBuilder>(
-                  cIAOIGFGPMJ_,
+          emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData, emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData.Builder, emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelDataOrBuilder> 
+          getLevelDataListFieldBuilder() {
+        if (levelDataListBuilder_ == null) {
+          levelDataListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData, emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData.Builder, emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelDataOrBuilder>(
+                  levelDataList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
                   isClean());
-          cIAOIGFGPMJ_ = null;
+          levelDataList_ = null;
         }
-        return cIAOIGFGPMJBuilder_;
+        return levelDataListBuilder_;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -821,23 +821,24 @@ public final class CoinCollectDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033CoinCollectDetailInfo.proto\032\021PIKOPKBKI" +
-      "PH.proto\":\n\025CoinCollectDetailInfo\022!\n\013CIA" +
-      "OIGFGPMJ\030\003 \003(\0132\014.PIKOPKBKIPHB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "\n\033CoinCollectDetailInfo.proto\032\032CoinColle" +
+      "ctLevelData.proto\"G\n\025CoinCollectDetailIn" +
+      "fo\022.\n\017level_data_list\030\001 \003(\0132\025.CoinCollec" +
+      "tLevelDataB<\n\031emu.grasscutter.net.protoB" +
+      "\037CoinCollectDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.getDescriptor(),
         });
     internal_static_CoinCollectDetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_CoinCollectDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_CoinCollectDetailInfo_descriptor,
-        new java.lang.String[] { "CIAOIGFGPMJ", });
-    emu.grasscutter.net.proto.PIKOPKBKIPHOuterClass.getDescriptor();
+        new java.lang.String[] { "LevelDataList", });
+    emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

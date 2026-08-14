@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "IrodoriChessEntranceDetailInfoOuterClass";
+
+import "IrodoriChessEntranceInfo.proto";
+
+message IrodoriChessEntranceDetailInfo {
+	repeated IrodoriChessEntranceInfo info_list = 3;
+}

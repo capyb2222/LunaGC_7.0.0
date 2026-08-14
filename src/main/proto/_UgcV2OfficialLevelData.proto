@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_UgcV2OfficialLevelDataOuterClass";
+
+message _UgcV2OfficialLevelData {
+	uint32 level_id = 5;
+	bool is_level_open = 6;
+	bool is_finished = 7;
+	uint32 best_score = 11;
+	uint64 _level_guid = 15;
+}

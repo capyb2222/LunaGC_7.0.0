@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "TeamChainSettleInfoOuterClass";
+
+message TeamChainSettleInfo {
+	uint32 total_score = 4;
+	uint32 difficulty = 5;
+	repeated uint32 score_list = 10;
+	uint32 stage_id = 11;
+	bool is_new_record = 12;
+}

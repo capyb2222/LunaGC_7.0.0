@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PlayerEnterDungeonReqOuterClass";
+
+import "DungeonEnterPosInfo.proto";
+
+message PlayerEnterDungeonReq {
+	uint32 BAEJLCIOPMI = 2;
+	DungeonEnterPosInfo enter_pos_info = 3;
+	uint32 CCIOMCLOGDK = 6;
+	uint32 point_id = 7;
+	uint32 dungeon_id = 9;
+	bool _is_continue = 12;
+}

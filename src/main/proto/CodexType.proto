@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CodexTypeOuterClass";
+
+enum CodexType {
+	CodexType_CODEX_NONE = 0;
+	CodexType_CODEX_QUEST = 1;
+	CodexType_CODEX_WEAPON = 2;
+	CodexType_CODEX_ANIMAL = 3;
+	CodexType_CODEX_MATERIAL = 4;
+	CodexType_CODEX_BOOKS = 5;
+	CodexType_CODEX_PUSHTIPS = 6;
+	CodexType_CODEX_VIEW = 7;
+	CodexType_CODEX_RELIQUARY = 8;
+}

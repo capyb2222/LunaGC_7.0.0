@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SetEquipLockStateReqOuterClass";
+
+message SetEquipLockStateReq {
+	bool is_locked = 8;
+	uint64 target_equip_guid = 12;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AJKHPLDCLEOOuterClass";
+
+import "EIHOFHPLHMH.proto";
+
+message AJKHPLDCLEO {
+	bool is_open = 2;
+	repeated EIHOFHPLHMH BMJDALKAMOO = 4;
+	uint32 score = 8;
+	uint32 level_id = 13;
+	bool is_finish = 15;
+}

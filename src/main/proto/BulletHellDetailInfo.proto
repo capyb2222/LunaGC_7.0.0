@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "BulletHellDetailInfoOuterClass";
+
+import "IKJLKLMCEHM.proto";
+
+message BulletHellDetailInfo {
+	repeated IKJLKLMCEHM level_info_list = 7;
+}

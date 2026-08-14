@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "NatlanArenaDetailInfoOuterClass";
+
+import "DHPCNLIFCNJ.proto";
+
+message NatlanArenaDetailInfo {
+	uint32 icmhjlaaeoi = 5;
+	repeated DHPCNLIFCNJ level_info_list = 12;
+}

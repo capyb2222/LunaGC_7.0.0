@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MKCENPDADHAOuterClass";
+
+import "BCFNIJFCBJK.proto";
+
+message MKCENPDADHA {
+	BCFNIJFCBJK dungeon_info = 4;
+	string EFAEIFOKMDL = 8;
+	bool is_trial = 9;
+	string PJBGKFGIKBA = 10;
+}

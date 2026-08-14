@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_ShopBeyondMcoinProductOuterClass";
+
+message _ShopBeyondMcoinProduct {
+	string product_id = 1;
+	string price_tier = 2;
+	uint32 LFHDKJJCMBL = 3;
+	uint32 ABAIKHIEDBC = 4;
+}

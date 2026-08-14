@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PlayerApplyEnterHomeResultNotifyOuterClass";
+
+message PlayerApplyEnterHomeResultNotify {
+	enum Reason {
+		PLAYER_JUDGE = 0;
+		PLAYER_ENTER_OPTION_REFUSE = 1;
+		PLAYER_ENTER_OPTION_DIRECT = 2;
+		SYSTEM_JUDGE = 3;
+		HOST_IN_MATCH = 4;
+		PS_PLAYER_NOT_ACCEPT_OTHERS = 5;
+		OPEN_STATE_NOT_OPEN = 6;
+		HOST_IN_EDIT_MODE = 7;
+		PRIOR_CHECK = 8;
+		XBOX_PLAYER_NOT_ACCEPT_OTHERS = 9;
+		PLAYER_NOT_ACCEPT_OTHER_PLATFORM = 10;
+		XBOX_ONLY = 11;
+		SCENE_CANNOT_ENTER = 12;
+	}
+	string target_nickname = 3;
+	uint32 target_uid = 9;
+	Reason reason = 10;
+	bool is_agreed = 14;
+}

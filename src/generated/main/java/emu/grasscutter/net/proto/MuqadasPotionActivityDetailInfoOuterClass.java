@@ -19,27 +19,27 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .OPIACKOEFDP IOOJLBMEFOB = 14;</code>
+     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 13;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP> 
-        getIOOJLBMEFOBList();
+    java.util.List<emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData> 
+        getMuqadasPotionLevelDataListList();
     /**
-     * <code>repeated .OPIACKOEFDP IOOJLBMEFOB = 14;</code>
+     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 13;</code>
      */
-    emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP getIOOJLBMEFOB(int index);
+    emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData getMuqadasPotionLevelDataList(int index);
     /**
-     * <code>repeated .OPIACKOEFDP IOOJLBMEFOB = 14;</code>
+     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 13;</code>
      */
-    int getIOOJLBMEFOBCount();
+    int getMuqadasPotionLevelDataListCount();
     /**
-     * <code>repeated .OPIACKOEFDP IOOJLBMEFOB = 14;</code>
+     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 13;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDPOrBuilder> 
-        getIOOJLBMEFOBOrBuilderList();
+    java.util.List<? extends emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelDataOrBuilder> 
+        getMuqadasPotionLevelDataListOrBuilderList();
     /**
-     * <code>repeated .OPIACKOEFDP IOOJLBMEFOB = 14;</code>
+     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 13;</code>
      */
-    emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDPOrBuilder getIOOJLBMEFOBOrBuilder(
+    emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelDataOrBuilder getMuqadasPotionLevelDataListOrBuilder(
         int index);
   }
   /**
@@ -55,7 +55,7 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
       super(builder);
     }
     private MuqadasPotionActivityDetailInfo() {
-      iOOJLBMEFOB_ = java.util.Collections.emptyList();
+      muqadasPotionLevelDataList_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -89,13 +89,13 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 114: {
+            case 106: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                iOOJLBMEFOB_ = new java.util.ArrayList<emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP>();
+                muqadasPotionLevelDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              iOOJLBMEFOB_.add(
-                  input.readMessage(emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP.parser(), extensionRegistry));
+              muqadasPotionLevelDataList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -114,7 +114,7 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          iOOJLBMEFOB_ = java.util.Collections.unmodifiableList(iOOJLBMEFOB_);
+          muqadasPotionLevelDataList_ = java.util.Collections.unmodifiableList(muqadasPotionLevelDataList_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -133,44 +133,44 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.MuqadasPotionActivityDetailInfoOuterClass.MuqadasPotionActivityDetailInfo.class, emu.grasscutter.net.proto.MuqadasPotionActivityDetailInfoOuterClass.MuqadasPotionActivityDetailInfo.Builder.class);
     }
 
-    public static final int IOOJLBMEFOB_FIELD_NUMBER = 14;
-    private java.util.List<emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP> iOOJLBMEFOB_;
+    public static final int MUQADAS_POTION_LEVEL_DATA_LIST_FIELD_NUMBER = 13;
+    private java.util.List<emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData> muqadasPotionLevelDataList_;
     /**
-     * <code>repeated .OPIACKOEFDP IOOJLBMEFOB = 14;</code>
+     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 13;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP> getIOOJLBMEFOBList() {
-      return iOOJLBMEFOB_;
+    public java.util.List<emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData> getMuqadasPotionLevelDataListList() {
+      return muqadasPotionLevelDataList_;
     }
     /**
-     * <code>repeated .OPIACKOEFDP IOOJLBMEFOB = 14;</code>
+     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 13;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDPOrBuilder> 
-        getIOOJLBMEFOBOrBuilderList() {
-      return iOOJLBMEFOB_;
+    public java.util.List<? extends emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelDataOrBuilder> 
+        getMuqadasPotionLevelDataListOrBuilderList() {
+      return muqadasPotionLevelDataList_;
     }
     /**
-     * <code>repeated .OPIACKOEFDP IOOJLBMEFOB = 14;</code>
+     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 13;</code>
      */
     @java.lang.Override
-    public int getIOOJLBMEFOBCount() {
-      return iOOJLBMEFOB_.size();
+    public int getMuqadasPotionLevelDataListCount() {
+      return muqadasPotionLevelDataList_.size();
     }
     /**
-     * <code>repeated .OPIACKOEFDP IOOJLBMEFOB = 14;</code>
+     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 13;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP getIOOJLBMEFOB(int index) {
-      return iOOJLBMEFOB_.get(index);
+    public emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData getMuqadasPotionLevelDataList(int index) {
+      return muqadasPotionLevelDataList_.get(index);
     }
     /**
-     * <code>repeated .OPIACKOEFDP IOOJLBMEFOB = 14;</code>
+     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 13;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDPOrBuilder getIOOJLBMEFOBOrBuilder(
+    public emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelDataOrBuilder getMuqadasPotionLevelDataListOrBuilder(
         int index) {
-      return iOOJLBMEFOB_.get(index);
+      return muqadasPotionLevelDataList_.get(index);
     }
 
     private byte memoizedIsInitialized = -1;
@@ -187,8 +187,8 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < iOOJLBMEFOB_.size(); i++) {
-        output.writeMessage(14, iOOJLBMEFOB_.get(i));
+      for (int i = 0; i < muqadasPotionLevelDataList_.size(); i++) {
+        output.writeMessage(13, muqadasPotionLevelDataList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -199,9 +199,9 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < iOOJLBMEFOB_.size(); i++) {
+      for (int i = 0; i < muqadasPotionLevelDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, iOOJLBMEFOB_.get(i));
+          .computeMessageSize(13, muqadasPotionLevelDataList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -218,8 +218,8 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.MuqadasPotionActivityDetailInfoOuterClass.MuqadasPotionActivityDetailInfo other = (emu.grasscutter.net.proto.MuqadasPotionActivityDetailInfoOuterClass.MuqadasPotionActivityDetailInfo) obj;
 
-      if (!getIOOJLBMEFOBList()
-          .equals(other.getIOOJLBMEFOBList())) return false;
+      if (!getMuqadasPotionLevelDataListList()
+          .equals(other.getMuqadasPotionLevelDataListList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -231,9 +231,9 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getIOOJLBMEFOBCount() > 0) {
-        hash = (37 * hash) + IOOJLBMEFOB_FIELD_NUMBER;
-        hash = (53 * hash) + getIOOJLBMEFOBList().hashCode();
+      if (getMuqadasPotionLevelDataListCount() > 0) {
+        hash = (37 * hash) + MUQADAS_POTION_LEVEL_DATA_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getMuqadasPotionLevelDataListList().hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -363,17 +363,17 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
-          getIOOJLBMEFOBFieldBuilder();
+          getMuqadasPotionLevelDataListFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (iOOJLBMEFOBBuilder_ == null) {
-          iOOJLBMEFOB_ = java.util.Collections.emptyList();
+        if (muqadasPotionLevelDataListBuilder_ == null) {
+          muqadasPotionLevelDataList_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
         } else {
-          iOOJLBMEFOBBuilder_.clear();
+          muqadasPotionLevelDataListBuilder_.clear();
         }
         return this;
       }
@@ -402,14 +402,14 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
       public emu.grasscutter.net.proto.MuqadasPotionActivityDetailInfoOuterClass.MuqadasPotionActivityDetailInfo buildPartial() {
         emu.grasscutter.net.proto.MuqadasPotionActivityDetailInfoOuterClass.MuqadasPotionActivityDetailInfo result = new emu.grasscutter.net.proto.MuqadasPotionActivityDetailInfoOuterClass.MuqadasPotionActivityDetailInfo(this);
         int from_bitField0_ = bitField0_;
-        if (iOOJLBMEFOBBuilder_ == null) {
+        if (muqadasPotionLevelDataListBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
-            iOOJLBMEFOB_ = java.util.Collections.unmodifiableList(iOOJLBMEFOB_);
+            muqadasPotionLevelDataList_ = java.util.Collections.unmodifiableList(muqadasPotionLevelDataList_);
             bitField0_ = (bitField0_ & ~0x00000001);
           }
-          result.iOOJLBMEFOB_ = iOOJLBMEFOB_;
+          result.muqadasPotionLevelDataList_ = muqadasPotionLevelDataList_;
         } else {
-          result.iOOJLBMEFOB_ = iOOJLBMEFOBBuilder_.build();
+          result.muqadasPotionLevelDataList_ = muqadasPotionLevelDataListBuilder_.build();
         }
         onBuilt();
         return result;
@@ -459,29 +459,29 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.MuqadasPotionActivityDetailInfoOuterClass.MuqadasPotionActivityDetailInfo other) {
         if (other == emu.grasscutter.net.proto.MuqadasPotionActivityDetailInfoOuterClass.MuqadasPotionActivityDetailInfo.getDefaultInstance()) return this;
-        if (iOOJLBMEFOBBuilder_ == null) {
-          if (!other.iOOJLBMEFOB_.isEmpty()) {
-            if (iOOJLBMEFOB_.isEmpty()) {
-              iOOJLBMEFOB_ = other.iOOJLBMEFOB_;
+        if (muqadasPotionLevelDataListBuilder_ == null) {
+          if (!other.muqadasPotionLevelDataList_.isEmpty()) {
+            if (muqadasPotionLevelDataList_.isEmpty()) {
+              muqadasPotionLevelDataList_ = other.muqadasPotionLevelDataList_;
               bitField0_ = (bitField0_ & ~0x00000001);
             } else {
-              ensureIOOJLBMEFOBIsMutable();
-              iOOJLBMEFOB_.addAll(other.iOOJLBMEFOB_);
+              ensureMuqadasPotionLevelDataListIsMutable();
+              muqadasPotionLevelDataList_.addAll(other.muqadasPotionLevelDataList_);
             }
             onChanged();
           }
         } else {
-          if (!other.iOOJLBMEFOB_.isEmpty()) {
-            if (iOOJLBMEFOBBuilder_.isEmpty()) {
-              iOOJLBMEFOBBuilder_.dispose();
-              iOOJLBMEFOBBuilder_ = null;
-              iOOJLBMEFOB_ = other.iOOJLBMEFOB_;
+          if (!other.muqadasPotionLevelDataList_.isEmpty()) {
+            if (muqadasPotionLevelDataListBuilder_.isEmpty()) {
+              muqadasPotionLevelDataListBuilder_.dispose();
+              muqadasPotionLevelDataListBuilder_ = null;
+              muqadasPotionLevelDataList_ = other.muqadasPotionLevelDataList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              iOOJLBMEFOBBuilder_ = 
+              muqadasPotionLevelDataListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getIOOJLBMEFOBFieldBuilder() : null;
+                   getMuqadasPotionLevelDataListFieldBuilder() : null;
             } else {
-              iOOJLBMEFOBBuilder_.addAllMessages(other.iOOJLBMEFOB_);
+              muqadasPotionLevelDataListBuilder_.addAllMessages(other.muqadasPotionLevelDataList_);
             }
           }
         }
@@ -515,244 +515,244 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP> iOOJLBMEFOB_ =
+      private java.util.List<emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData> muqadasPotionLevelDataList_ =
         java.util.Collections.emptyList();
-      private void ensureIOOJLBMEFOBIsMutable() {
+      private void ensureMuqadasPotionLevelDataListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          iOOJLBMEFOB_ = new java.util.ArrayList<emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP>(iOOJLBMEFOB_);
+          muqadasPotionLevelDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData>(muqadasPotionLevelDataList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP, emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP.Builder, emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDPOrBuilder> iOOJLBMEFOBBuilder_;
+          emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData, emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData.Builder, emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelDataOrBuilder> muqadasPotionLevelDataListBuilder_;
 
       /**
-       * <code>repeated .OPIACKOEFDP IOOJLBMEFOB = 14;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 13;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP> getIOOJLBMEFOBList() {
-        if (iOOJLBMEFOBBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(iOOJLBMEFOB_);
+      public java.util.List<emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData> getMuqadasPotionLevelDataListList() {
+        if (muqadasPotionLevelDataListBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(muqadasPotionLevelDataList_);
         } else {
-          return iOOJLBMEFOBBuilder_.getMessageList();
+          return muqadasPotionLevelDataListBuilder_.getMessageList();
         }
       }
       /**
-       * <code>repeated .OPIACKOEFDP IOOJLBMEFOB = 14;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 13;</code>
        */
-      public int getIOOJLBMEFOBCount() {
-        if (iOOJLBMEFOBBuilder_ == null) {
-          return iOOJLBMEFOB_.size();
+      public int getMuqadasPotionLevelDataListCount() {
+        if (muqadasPotionLevelDataListBuilder_ == null) {
+          return muqadasPotionLevelDataList_.size();
         } else {
-          return iOOJLBMEFOBBuilder_.getCount();
+          return muqadasPotionLevelDataListBuilder_.getCount();
         }
       }
       /**
-       * <code>repeated .OPIACKOEFDP IOOJLBMEFOB = 14;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 13;</code>
        */
-      public emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP getIOOJLBMEFOB(int index) {
-        if (iOOJLBMEFOBBuilder_ == null) {
-          return iOOJLBMEFOB_.get(index);
+      public emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData getMuqadasPotionLevelDataList(int index) {
+        if (muqadasPotionLevelDataListBuilder_ == null) {
+          return muqadasPotionLevelDataList_.get(index);
         } else {
-          return iOOJLBMEFOBBuilder_.getMessage(index);
+          return muqadasPotionLevelDataListBuilder_.getMessage(index);
         }
       }
       /**
-       * <code>repeated .OPIACKOEFDP IOOJLBMEFOB = 14;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 13;</code>
        */
-      public Builder setIOOJLBMEFOB(
-          int index, emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP value) {
-        if (iOOJLBMEFOBBuilder_ == null) {
+      public Builder setMuqadasPotionLevelDataList(
+          int index, emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData value) {
+        if (muqadasPotionLevelDataListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureIOOJLBMEFOBIsMutable();
-          iOOJLBMEFOB_.set(index, value);
+          ensureMuqadasPotionLevelDataListIsMutable();
+          muqadasPotionLevelDataList_.set(index, value);
           onChanged();
         } else {
-          iOOJLBMEFOBBuilder_.setMessage(index, value);
+          muqadasPotionLevelDataListBuilder_.setMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .OPIACKOEFDP IOOJLBMEFOB = 14;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 13;</code>
        */
-      public Builder setIOOJLBMEFOB(
-          int index, emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP.Builder builderForValue) {
-        if (iOOJLBMEFOBBuilder_ == null) {
-          ensureIOOJLBMEFOBIsMutable();
-          iOOJLBMEFOB_.set(index, builderForValue.build());
+      public Builder setMuqadasPotionLevelDataList(
+          int index, emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData.Builder builderForValue) {
+        if (muqadasPotionLevelDataListBuilder_ == null) {
+          ensureMuqadasPotionLevelDataListIsMutable();
+          muqadasPotionLevelDataList_.set(index, builderForValue.build());
           onChanged();
         } else {
-          iOOJLBMEFOBBuilder_.setMessage(index, builderForValue.build());
+          muqadasPotionLevelDataListBuilder_.setMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .OPIACKOEFDP IOOJLBMEFOB = 14;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 13;</code>
        */
-      public Builder addIOOJLBMEFOB(emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP value) {
-        if (iOOJLBMEFOBBuilder_ == null) {
+      public Builder addMuqadasPotionLevelDataList(emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData value) {
+        if (muqadasPotionLevelDataListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureIOOJLBMEFOBIsMutable();
-          iOOJLBMEFOB_.add(value);
+          ensureMuqadasPotionLevelDataListIsMutable();
+          muqadasPotionLevelDataList_.add(value);
           onChanged();
         } else {
-          iOOJLBMEFOBBuilder_.addMessage(value);
+          muqadasPotionLevelDataListBuilder_.addMessage(value);
         }
         return this;
       }
       /**
-       * <code>repeated .OPIACKOEFDP IOOJLBMEFOB = 14;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 13;</code>
        */
-      public Builder addIOOJLBMEFOB(
-          int index, emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP value) {
-        if (iOOJLBMEFOBBuilder_ == null) {
+      public Builder addMuqadasPotionLevelDataList(
+          int index, emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData value) {
+        if (muqadasPotionLevelDataListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureIOOJLBMEFOBIsMutable();
-          iOOJLBMEFOB_.add(index, value);
+          ensureMuqadasPotionLevelDataListIsMutable();
+          muqadasPotionLevelDataList_.add(index, value);
           onChanged();
         } else {
-          iOOJLBMEFOBBuilder_.addMessage(index, value);
+          muqadasPotionLevelDataListBuilder_.addMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .OPIACKOEFDP IOOJLBMEFOB = 14;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 13;</code>
        */
-      public Builder addIOOJLBMEFOB(
-          emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP.Builder builderForValue) {
-        if (iOOJLBMEFOBBuilder_ == null) {
-          ensureIOOJLBMEFOBIsMutable();
-          iOOJLBMEFOB_.add(builderForValue.build());
+      public Builder addMuqadasPotionLevelDataList(
+          emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData.Builder builderForValue) {
+        if (muqadasPotionLevelDataListBuilder_ == null) {
+          ensureMuqadasPotionLevelDataListIsMutable();
+          muqadasPotionLevelDataList_.add(builderForValue.build());
           onChanged();
         } else {
-          iOOJLBMEFOBBuilder_.addMessage(builderForValue.build());
+          muqadasPotionLevelDataListBuilder_.addMessage(builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .OPIACKOEFDP IOOJLBMEFOB = 14;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 13;</code>
        */
-      public Builder addIOOJLBMEFOB(
-          int index, emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP.Builder builderForValue) {
-        if (iOOJLBMEFOBBuilder_ == null) {
-          ensureIOOJLBMEFOBIsMutable();
-          iOOJLBMEFOB_.add(index, builderForValue.build());
+      public Builder addMuqadasPotionLevelDataList(
+          int index, emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData.Builder builderForValue) {
+        if (muqadasPotionLevelDataListBuilder_ == null) {
+          ensureMuqadasPotionLevelDataListIsMutable();
+          muqadasPotionLevelDataList_.add(index, builderForValue.build());
           onChanged();
         } else {
-          iOOJLBMEFOBBuilder_.addMessage(index, builderForValue.build());
+          muqadasPotionLevelDataListBuilder_.addMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .OPIACKOEFDP IOOJLBMEFOB = 14;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 13;</code>
        */
-      public Builder addAllIOOJLBMEFOB(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP> values) {
-        if (iOOJLBMEFOBBuilder_ == null) {
-          ensureIOOJLBMEFOBIsMutable();
+      public Builder addAllMuqadasPotionLevelDataList(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData> values) {
+        if (muqadasPotionLevelDataListBuilder_ == null) {
+          ensureMuqadasPotionLevelDataListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, iOOJLBMEFOB_);
+              values, muqadasPotionLevelDataList_);
           onChanged();
         } else {
-          iOOJLBMEFOBBuilder_.addAllMessages(values);
+          muqadasPotionLevelDataListBuilder_.addAllMessages(values);
         }
         return this;
       }
       /**
-       * <code>repeated .OPIACKOEFDP IOOJLBMEFOB = 14;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 13;</code>
        */
-      public Builder clearIOOJLBMEFOB() {
-        if (iOOJLBMEFOBBuilder_ == null) {
-          iOOJLBMEFOB_ = java.util.Collections.emptyList();
+      public Builder clearMuqadasPotionLevelDataList() {
+        if (muqadasPotionLevelDataListBuilder_ == null) {
+          muqadasPotionLevelDataList_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
-          iOOJLBMEFOBBuilder_.clear();
+          muqadasPotionLevelDataListBuilder_.clear();
         }
         return this;
       }
       /**
-       * <code>repeated .OPIACKOEFDP IOOJLBMEFOB = 14;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 13;</code>
        */
-      public Builder removeIOOJLBMEFOB(int index) {
-        if (iOOJLBMEFOBBuilder_ == null) {
-          ensureIOOJLBMEFOBIsMutable();
-          iOOJLBMEFOB_.remove(index);
+      public Builder removeMuqadasPotionLevelDataList(int index) {
+        if (muqadasPotionLevelDataListBuilder_ == null) {
+          ensureMuqadasPotionLevelDataListIsMutable();
+          muqadasPotionLevelDataList_.remove(index);
           onChanged();
         } else {
-          iOOJLBMEFOBBuilder_.remove(index);
+          muqadasPotionLevelDataListBuilder_.remove(index);
         }
         return this;
       }
       /**
-       * <code>repeated .OPIACKOEFDP IOOJLBMEFOB = 14;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 13;</code>
        */
-      public emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP.Builder getIOOJLBMEFOBBuilder(
+      public emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData.Builder getMuqadasPotionLevelDataListBuilder(
           int index) {
-        return getIOOJLBMEFOBFieldBuilder().getBuilder(index);
+        return getMuqadasPotionLevelDataListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .OPIACKOEFDP IOOJLBMEFOB = 14;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 13;</code>
        */
-      public emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDPOrBuilder getIOOJLBMEFOBOrBuilder(
+      public emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelDataOrBuilder getMuqadasPotionLevelDataListOrBuilder(
           int index) {
-        if (iOOJLBMEFOBBuilder_ == null) {
-          return iOOJLBMEFOB_.get(index);  } else {
-          return iOOJLBMEFOBBuilder_.getMessageOrBuilder(index);
+        if (muqadasPotionLevelDataListBuilder_ == null) {
+          return muqadasPotionLevelDataList_.get(index);  } else {
+          return muqadasPotionLevelDataListBuilder_.getMessageOrBuilder(index);
         }
       }
       /**
-       * <code>repeated .OPIACKOEFDP IOOJLBMEFOB = 14;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 13;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDPOrBuilder> 
-           getIOOJLBMEFOBOrBuilderList() {
-        if (iOOJLBMEFOBBuilder_ != null) {
-          return iOOJLBMEFOBBuilder_.getMessageOrBuilderList();
+      public java.util.List<? extends emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelDataOrBuilder> 
+           getMuqadasPotionLevelDataListOrBuilderList() {
+        if (muqadasPotionLevelDataListBuilder_ != null) {
+          return muqadasPotionLevelDataListBuilder_.getMessageOrBuilderList();
         } else {
-          return java.util.Collections.unmodifiableList(iOOJLBMEFOB_);
+          return java.util.Collections.unmodifiableList(muqadasPotionLevelDataList_);
         }
       }
       /**
-       * <code>repeated .OPIACKOEFDP IOOJLBMEFOB = 14;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 13;</code>
        */
-      public emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP.Builder addIOOJLBMEFOBBuilder() {
-        return getIOOJLBMEFOBFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP.getDefaultInstance());
+      public emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData.Builder addMuqadasPotionLevelDataListBuilder() {
+        return getMuqadasPotionLevelDataListFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData.getDefaultInstance());
       }
       /**
-       * <code>repeated .OPIACKOEFDP IOOJLBMEFOB = 14;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 13;</code>
        */
-      public emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP.Builder addIOOJLBMEFOBBuilder(
+      public emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData.Builder addMuqadasPotionLevelDataListBuilder(
           int index) {
-        return getIOOJLBMEFOBFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP.getDefaultInstance());
+        return getMuqadasPotionLevelDataListFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData.getDefaultInstance());
       }
       /**
-       * <code>repeated .OPIACKOEFDP IOOJLBMEFOB = 14;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 13;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP.Builder> 
-           getIOOJLBMEFOBBuilderList() {
-        return getIOOJLBMEFOBFieldBuilder().getBuilderList();
+      public java.util.List<emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData.Builder> 
+           getMuqadasPotionLevelDataListBuilderList() {
+        return getMuqadasPotionLevelDataListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP, emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP.Builder, emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDPOrBuilder> 
-          getIOOJLBMEFOBFieldBuilder() {
-        if (iOOJLBMEFOBBuilder_ == null) {
-          iOOJLBMEFOBBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP, emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDP.Builder, emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.OPIACKOEFDPOrBuilder>(
-                  iOOJLBMEFOB_,
+          emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData, emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData.Builder, emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelDataOrBuilder> 
+          getMuqadasPotionLevelDataListFieldBuilder() {
+        if (muqadasPotionLevelDataListBuilder_ == null) {
+          muqadasPotionLevelDataListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData, emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData.Builder, emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelDataOrBuilder>(
+                  muqadasPotionLevelDataList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
                   isClean());
-          iOOJLBMEFOB_ = null;
+          muqadasPotionLevelDataList_ = null;
         }
-        return iOOJLBMEFOBBuilder_;
+        return muqadasPotionLevelDataListBuilder_;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -822,23 +822,25 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n%MuqadasPotionActivityDetailInfo.proto\032" +
-      "\021OPIACKOEFDP.proto\"D\n\037MuqadasPotionActiv" +
-      "ityDetailInfo\022!\n\013IOOJLBMEFOB\030\016 \003(\0132\014.OPI" +
-      "ACKOEFDPB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "\034MuqadasPotionLevelData.proto\"b\n\037Muqadas" +
+      "PotionActivityDetailInfo\022?\n\036muqadas_poti" +
+      "on_level_data_list\030\r \003(\0132\027.MuqadasPotion" +
+      "LevelDataBF\n\031emu.grasscutter.net.protoB)" +
+      "MuqadasPotionActivityDetailInfoOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.getDescriptor(),
         });
     internal_static_MuqadasPotionActivityDetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_MuqadasPotionActivityDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_MuqadasPotionActivityDetailInfo_descriptor,
-        new java.lang.String[] { "IOOJLBMEFOB", });
-    emu.grasscutter.net.proto.OPIACKOEFDPOuterClass.getDescriptor();
+        new java.lang.String[] { "MuqadasPotionLevelDataList", });
+    emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

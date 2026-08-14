@@ -18,8 +18,13 @@ public final class LunchBoxDataOuterClass {
       // @@protoc_insertion_point(interface_extends:LunchBoxData)
       com.google.protobuf.MessageOrBuilder {
 
+    /**
+     * <code>map&lt;uint32, uint32&gt; slot_material_map = 4;</code>
+     */
     int getSlotMaterialMapCount();
-
+    /**
+     * <code>map&lt;uint32, uint32&gt; slot_material_map = 4;</code>
+     */
     boolean containsSlotMaterialMap(
         int key);
     /**
@@ -28,13 +33,21 @@ public final class LunchBoxDataOuterClass {
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getSlotMaterialMap();
-
+    /**
+     * <code>map&lt;uint32, uint32&gt; slot_material_map = 4;</code>
+     */
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getSlotMaterialMapMap();
+    /**
+     * <code>map&lt;uint32, uint32&gt; slot_material_map = 4;</code>
+     */
 
     int getSlotMaterialMapOrDefault(
         int key,
         int defaultValue);
+    /**
+     * <code>map&lt;uint32, uint32&gt; slot_material_map = 4;</code>
+     */
 
     int getSlotMaterialMapOrThrow(
         int key);
@@ -85,7 +98,7 @@ public final class LunchBoxDataOuterClass {
             case 0:
               done = true;
               break;
-            case 58: {
+            case 34: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 slotMaterialMap_ = com.google.protobuf.MapField.newMapField(
                     SlotMaterialMapDefaultEntryHolder.defaultEntry);
@@ -127,7 +140,7 @@ public final class LunchBoxDataOuterClass {
     protected com.google.protobuf.MapField internalGetMapField(
         int number) {
       switch (number) {
-        case 13:
+        case 4:
           return internalGetSlotMaterialMap();
         default:
           throw new RuntimeException(
@@ -142,13 +155,13 @@ public final class LunchBoxDataOuterClass {
               emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxData.class, emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxData.Builder.class);
     }
 
-    public static final int SLOT_MATERIAL_MAP_FIELD_NUMBER = 7;
+    public static final int SLOT_MATERIAL_MAP_FIELD_NUMBER = 4;
     private static final class SlotMaterialMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.LunchBoxDataOuterClass.internal_static_LunchBoxData_SlotMaterialMapEntry_descriptor,
+                  emu.grasscutter.net.proto.LunchBoxDataOuterClass.internal_static_LunchBoxData_SlotMaterialMapEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -168,11 +181,14 @@ public final class LunchBoxDataOuterClass {
     public int getSlotMaterialMapCount() {
       return internalGetSlotMaterialMap().getMap().size();
     }
+    /**
+     * <code>map&lt;uint32, uint32&gt; slot_material_map = 4;</code>
+     */
 
     @java.lang.Override
     public boolean containsSlotMaterialMap(
         int key) {
-
+      
       return internalGetSlotMaterialMap().getMap().containsKey(key);
     }
     /**
@@ -183,29 +199,35 @@ public final class LunchBoxDataOuterClass {
     public java.util.Map<java.lang.Integer, java.lang.Integer> getSlotMaterialMap() {
       return getSlotMaterialMapMap();
     }
-
+    /**
+     * <code>map&lt;uint32, uint32&gt; slot_material_map = 4;</code>
+     */
     @java.lang.Override
 
     public java.util.Map<java.lang.Integer, java.lang.Integer> getSlotMaterialMapMap() {
       return internalGetSlotMaterialMap().getMap();
     }
-
+    /**
+     * <code>map&lt;uint32, uint32&gt; slot_material_map = 4;</code>
+     */
     @java.lang.Override
 
     public int getSlotMaterialMapOrDefault(
         int key,
         int defaultValue) {
-
+      
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetSlotMaterialMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
-
+    /**
+     * <code>map&lt;uint32, uint32&gt; slot_material_map = 4;</code>
+     */
     @java.lang.Override
 
     public int getSlotMaterialMapOrThrow(
         int key) {
-
+      
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetSlotMaterialMap().getMap();
       if (!map.containsKey(key)) {
@@ -233,7 +255,7 @@ public final class LunchBoxDataOuterClass {
           output,
           internalGetSlotMaterialMap(),
           SlotMaterialMapDefaultEntryHolder.defaultEntry,
-          7);
+          4);
       unknownFields.writeTo(output);
     }
 
@@ -251,7 +273,7 @@ public final class LunchBoxDataOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(7, slotMaterialMap__);
+            .computeMessageSize(4, slotMaterialMap__);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -396,7 +418,7 @@ public final class LunchBoxDataOuterClass {
       protected com.google.protobuf.MapField internalGetMapField(
           int number) {
         switch (number) {
-          case 13:
+          case 4:
             return internalGetSlotMaterialMap();
           default:
             throw new RuntimeException(
@@ -407,7 +429,7 @@ public final class LunchBoxDataOuterClass {
       protected com.google.protobuf.MapField internalGetMutableMapField(
           int number) {
         switch (number) {
-          case 13:
+          case 4:
             return internalGetMutableSlotMaterialMap();
           default:
             throw new RuntimeException(
@@ -576,11 +598,14 @@ public final class LunchBoxDataOuterClass {
       public int getSlotMaterialMapCount() {
         return internalGetSlotMaterialMap().getMap().size();
       }
+      /**
+       * <code>map&lt;uint32, uint32&gt; slot_material_map = 4;</code>
+       */
 
       @java.lang.Override
       public boolean containsSlotMaterialMap(
           int key) {
-
+        
         return internalGetSlotMaterialMap().getMap().containsKey(key);
       }
       /**
@@ -591,29 +616,35 @@ public final class LunchBoxDataOuterClass {
       public java.util.Map<java.lang.Integer, java.lang.Integer> getSlotMaterialMap() {
         return getSlotMaterialMapMap();
       }
-
+      /**
+       * <code>map&lt;uint32, uint32&gt; slot_material_map = 4;</code>
+       */
       @java.lang.Override
 
       public java.util.Map<java.lang.Integer, java.lang.Integer> getSlotMaterialMapMap() {
         return internalGetSlotMaterialMap().getMap();
       }
-
+      /**
+       * <code>map&lt;uint32, uint32&gt; slot_material_map = 4;</code>
+       */
       @java.lang.Override
 
       public int getSlotMaterialMapOrDefault(
           int key,
           int defaultValue) {
-
+        
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetSlotMaterialMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
-
+      /**
+       * <code>map&lt;uint32, uint32&gt; slot_material_map = 4;</code>
+       */
       @java.lang.Override
 
       public int getSlotMaterialMapOrThrow(
           int key) {
-
+        
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetSlotMaterialMap().getMap();
         if (!map.containsKey(key)) {
@@ -627,10 +658,13 @@ public final class LunchBoxDataOuterClass {
             .clear();
         return this;
       }
+      /**
+       * <code>map&lt;uint32, uint32&gt; slot_material_map = 4;</code>
+       */
 
       public Builder removeSlotMaterialMap(
           int key) {
-
+        
         internalGetMutableSlotMaterialMap().getMutableMap()
             .remove(key);
         return this;
@@ -643,15 +677,21 @@ public final class LunchBoxDataOuterClass {
       getMutableSlotMaterialMap() {
         return internalGetMutableSlotMaterialMap().getMutableMap();
       }
-
+      /**
+       * <code>map&lt;uint32, uint32&gt; slot_material_map = 4;</code>
+       */
       public Builder putSlotMaterialMap(
           int key,
           int value) {
-
+        
+        
         internalGetMutableSlotMaterialMap().getMutableMap()
             .put(key, value);
         return this;
       }
+      /**
+       * <code>map&lt;uint32, uint32&gt; slot_material_map = 4;</code>
+       */
 
       public Builder putAllSlotMaterialMap(
           java.util.Map<java.lang.Integer, java.lang.Integer> values) {
@@ -670,6 +710,7 @@ public final class LunchBoxDataOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:LunchBoxData)
     }
@@ -713,12 +754,12 @@ public final class LunchBoxDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_LunchBoxData_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_LunchBoxData_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_LunchBoxData_SlotMaterialMapEntry_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_LunchBoxData_SlotMaterialMapEntry_fieldAccessorTable;
 
@@ -731,10 +772,11 @@ public final class LunchBoxDataOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\022LunchBoxData.proto\"\205\001\n\014LunchBoxData\022=\n" +
-      "\021slot_material_map\030\r \003(\0132\".LunchBoxData." +
+      "\021slot_material_map\030\004 \003(\0132\".LunchBoxData." +
       "SlotMaterialMapEntry\0326\n\024SlotMaterialMapE" +
-      "ntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "ntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B3\n\031" +
+      "emu.grasscutter.net.protoB\026LunchBoxDataO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

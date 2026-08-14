@@ -18,15 +18,35 @@ public final class AvatarExcelInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:AvatarExcelInfo)
       com.google.protobuf.MessageOrBuilder {
 
-    long getControllerPathRemoteHash();
-
-    long getCombatConfigHash();
-
-    long getPrefabPathRemoteHash();
-
+    /**
+     * <code>uint64 prefab_path_hash = 1;</code>
+     * @return The prefabPathHash.
+     */
     long getPrefabPathHash();
 
+    /**
+     * <code>uint64 prefab_path_remote_hash = 2;</code>
+     * @return The prefabPathRemoteHash.
+     */
+    long getPrefabPathRemoteHash();
+
+    /**
+     * <code>uint64 controller_path_hash = 3;</code>
+     * @return The controllerPathHash.
+     */
     long getControllerPathHash();
+
+    /**
+     * <code>uint64 controller_path_remote_hash = 4;</code>
+     * @return The controllerPathRemoteHash.
+     */
+    long getControllerPathRemoteHash();
+
+    /**
+     * <code>uint64 combat_config_hash = 5;</code>
+     * @return The combatConfigHash.
+     */
+    long getCombatConfigHash();
   }
   /**
    * Protobuf type {@code AvatarExcelInfo}
@@ -130,9 +150,45 @@ public final class AvatarExcelInfoOuterClass {
               emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo.class, emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo.Builder.class);
     }
 
+    public static final int PREFAB_PATH_HASH_FIELD_NUMBER = 1;
+    private long prefabPathHash_;
+    /**
+     * <code>uint64 prefab_path_hash = 1;</code>
+     * @return The prefabPathHash.
+     */
+    @java.lang.Override
+    public long getPrefabPathHash() {
+      return prefabPathHash_;
+    }
+
+    public static final int PREFAB_PATH_REMOTE_HASH_FIELD_NUMBER = 2;
+    private long prefabPathRemoteHash_;
+    /**
+     * <code>uint64 prefab_path_remote_hash = 2;</code>
+     * @return The prefabPathRemoteHash.
+     */
+    @java.lang.Override
+    public long getPrefabPathRemoteHash() {
+      return prefabPathRemoteHash_;
+    }
+
+    public static final int CONTROLLER_PATH_HASH_FIELD_NUMBER = 3;
+    private long controllerPathHash_;
+    /**
+     * <code>uint64 controller_path_hash = 3;</code>
+     * @return The controllerPathHash.
+     */
+    @java.lang.Override
+    public long getControllerPathHash() {
+      return controllerPathHash_;
+    }
+
     public static final int CONTROLLER_PATH_REMOTE_HASH_FIELD_NUMBER = 4;
     private long controllerPathRemoteHash_;
-
+    /**
+     * <code>uint64 controller_path_remote_hash = 4;</code>
+     * @return The controllerPathRemoteHash.
+     */
     @java.lang.Override
     public long getControllerPathRemoteHash() {
       return controllerPathRemoteHash_;
@@ -140,34 +196,13 @@ public final class AvatarExcelInfoOuterClass {
 
     public static final int COMBAT_CONFIG_HASH_FIELD_NUMBER = 5;
     private long combatConfigHash_;
-
+    /**
+     * <code>uint64 combat_config_hash = 5;</code>
+     * @return The combatConfigHash.
+     */
     @java.lang.Override
     public long getCombatConfigHash() {
       return combatConfigHash_;
-    }
-
-    public static final int PREFAB_PATH_REMOTE_HASH_FIELD_NUMBER = 2;
-    private long prefabPathRemoteHash_;
-
-    @java.lang.Override
-    public long getPrefabPathRemoteHash() {
-      return prefabPathRemoteHash_;
-    }
-
-    public static final int PREFAB_PATH_HASH_FIELD_NUMBER = 1;
-    private long prefabPathHash_;
-
-    @java.lang.Override
-    public long getPrefabPathHash() {
-      return prefabPathHash_;
-    }
-
-    public static final int CONTROLLER_PATH_HASH_FIELD_NUMBER = 3;
-    private long controllerPathHash_;
-
-    @java.lang.Override
-    public long getControllerPathHash() {
-      return controllerPathHash_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -243,16 +278,16 @@ public final class AvatarExcelInfoOuterClass {
       }
       emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo other = (emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo) obj;
 
+      if (getPrefabPathHash()
+          != other.getPrefabPathHash()) return false;
+      if (getPrefabPathRemoteHash()
+          != other.getPrefabPathRemoteHash()) return false;
+      if (getControllerPathHash()
+          != other.getControllerPathHash()) return false;
       if (getControllerPathRemoteHash()
           != other.getControllerPathRemoteHash()) return false;
       if (getCombatConfigHash()
           != other.getCombatConfigHash()) return false;
-      if (getPrefabPathRemoteHash()
-          != other.getPrefabPathRemoteHash()) return false;
-      if (getPrefabPathHash()
-          != other.getPrefabPathHash()) return false;
-      if (getControllerPathHash()
-          != other.getControllerPathHash()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -264,21 +299,21 @@ public final class AvatarExcelInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + PREFAB_PATH_HASH_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
+          getPrefabPathHash());
+      hash = (37 * hash) + PREFAB_PATH_REMOTE_HASH_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
+          getPrefabPathRemoteHash());
+      hash = (37 * hash) + CONTROLLER_PATH_HASH_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
+          getControllerPathHash());
       hash = (37 * hash) + CONTROLLER_PATH_REMOTE_HASH_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           getControllerPathRemoteHash());
       hash = (37 * hash) + COMBAT_CONFIG_HASH_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           getCombatConfigHash());
-      hash = (37 * hash) + PREFAB_PATH_REMOTE_HASH_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
-          getPrefabPathRemoteHash());
-      hash = (37 * hash) + PREFAB_PATH_HASH_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
-          getPrefabPathHash());
-      hash = (37 * hash) + CONTROLLER_PATH_HASH_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
-          getControllerPathHash());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -412,15 +447,15 @@ public final class AvatarExcelInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        controllerPathRemoteHash_ = 0L;
-
-        combatConfigHash_ = 0L;
+        prefabPathHash_ = 0L;
 
         prefabPathRemoteHash_ = 0L;
 
-        prefabPathHash_ = 0L;
-
         controllerPathHash_ = 0L;
+
+        controllerPathRemoteHash_ = 0L;
+
+        combatConfigHash_ = 0L;
 
         return this;
       }
@@ -448,11 +483,11 @@ public final class AvatarExcelInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo buildPartial() {
         emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo result = new emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo(this);
+        result.prefabPathHash_ = prefabPathHash_;
+        result.prefabPathRemoteHash_ = prefabPathRemoteHash_;
+        result.controllerPathHash_ = controllerPathHash_;
         result.controllerPathRemoteHash_ = controllerPathRemoteHash_;
         result.combatConfigHash_ = combatConfigHash_;
-        result.prefabPathRemoteHash_ = prefabPathRemoteHash_;
-        result.prefabPathHash_ = prefabPathHash_;
-        result.controllerPathHash_ = controllerPathHash_;
         onBuilt();
         return result;
       }
@@ -501,20 +536,20 @@ public final class AvatarExcelInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo other) {
         if (other == emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo.getDefaultInstance()) return this;
+        if (other.getPrefabPathHash() != 0L) {
+          setPrefabPathHash(other.getPrefabPathHash());
+        }
+        if (other.getPrefabPathRemoteHash() != 0L) {
+          setPrefabPathRemoteHash(other.getPrefabPathRemoteHash());
+        }
+        if (other.getControllerPathHash() != 0L) {
+          setControllerPathHash(other.getControllerPathHash());
+        }
         if (other.getControllerPathRemoteHash() != 0L) {
           setControllerPathRemoteHash(other.getControllerPathRemoteHash());
         }
         if (other.getCombatConfigHash() != 0L) {
           setCombatConfigHash(other.getCombatConfigHash());
-        }
-        if (other.getPrefabPathRemoteHash() != 0L) {
-          setPrefabPathRemoteHash(other.getPrefabPathRemoteHash());
-        }
-        if (other.getPrefabPathHash() != 0L) {
-          setPrefabPathHash(other.getPrefabPathHash());
-        }
-        if (other.getControllerPathHash() != 0L) {
-          setControllerPathHash(other.getControllerPathHash());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -545,107 +580,157 @@ public final class AvatarExcelInfoOuterClass {
         return this;
       }
 
-      private long controllerPathRemoteHash_ ;
-
+      private long prefabPathHash_ ;
+      /**
+       * <code>uint64 prefab_path_hash = 1;</code>
+       * @return The prefabPathHash.
+       */
       @java.lang.Override
-      public long getControllerPathRemoteHash() {
-        return controllerPathRemoteHash_;
+      public long getPrefabPathHash() {
+        return prefabPathHash_;
       }
-
-      public Builder setControllerPathRemoteHash(long value) {
-
-        controllerPathRemoteHash_ = value;
+      /**
+       * <code>uint64 prefab_path_hash = 1;</code>
+       * @param value The prefabPathHash to set.
+       * @return This builder for chaining.
+       */
+      public Builder setPrefabPathHash(long value) {
+        
+        prefabPathHash_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint64 prefab_path_hash = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearPrefabPathHash() {
+        
+        prefabPathHash_ = 0L;
         onChanged();
         return this;
       }
 
-      public Builder clearControllerPathRemoteHash() {
+      private long prefabPathRemoteHash_ ;
+      /**
+       * <code>uint64 prefab_path_remote_hash = 2;</code>
+       * @return The prefabPathRemoteHash.
+       */
+      @java.lang.Override
+      public long getPrefabPathRemoteHash() {
+        return prefabPathRemoteHash_;
+      }
+      /**
+       * <code>uint64 prefab_path_remote_hash = 2;</code>
+       * @param value The prefabPathRemoteHash to set.
+       * @return This builder for chaining.
+       */
+      public Builder setPrefabPathRemoteHash(long value) {
+        
+        prefabPathRemoteHash_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint64 prefab_path_remote_hash = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearPrefabPathRemoteHash() {
+        
+        prefabPathRemoteHash_ = 0L;
+        onChanged();
+        return this;
+      }
 
+      private long controllerPathHash_ ;
+      /**
+       * <code>uint64 controller_path_hash = 3;</code>
+       * @return The controllerPathHash.
+       */
+      @java.lang.Override
+      public long getControllerPathHash() {
+        return controllerPathHash_;
+      }
+      /**
+       * <code>uint64 controller_path_hash = 3;</code>
+       * @param value The controllerPathHash to set.
+       * @return This builder for chaining.
+       */
+      public Builder setControllerPathHash(long value) {
+        
+        controllerPathHash_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint64 controller_path_hash = 3;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearControllerPathHash() {
+        
+        controllerPathHash_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long controllerPathRemoteHash_ ;
+      /**
+       * <code>uint64 controller_path_remote_hash = 4;</code>
+       * @return The controllerPathRemoteHash.
+       */
+      @java.lang.Override
+      public long getControllerPathRemoteHash() {
+        return controllerPathRemoteHash_;
+      }
+      /**
+       * <code>uint64 controller_path_remote_hash = 4;</code>
+       * @param value The controllerPathRemoteHash to set.
+       * @return This builder for chaining.
+       */
+      public Builder setControllerPathRemoteHash(long value) {
+        
+        controllerPathRemoteHash_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint64 controller_path_remote_hash = 4;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearControllerPathRemoteHash() {
+        
         controllerPathRemoteHash_ = 0L;
         onChanged();
         return this;
       }
 
       private long combatConfigHash_ ;
-
+      /**
+       * <code>uint64 combat_config_hash = 5;</code>
+       * @return The combatConfigHash.
+       */
       @java.lang.Override
       public long getCombatConfigHash() {
         return combatConfigHash_;
       }
-
+      /**
+       * <code>uint64 combat_config_hash = 5;</code>
+       * @param value The combatConfigHash to set.
+       * @return This builder for chaining.
+       */
       public Builder setCombatConfigHash(long value) {
-
+        
         combatConfigHash_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint64 combat_config_hash = 5;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearCombatConfigHash() {
-
+        
         combatConfigHash_ = 0L;
-        onChanged();
-        return this;
-      }
-
-      private long prefabPathRemoteHash_ ;
-
-      @java.lang.Override
-      public long getPrefabPathRemoteHash() {
-        return prefabPathRemoteHash_;
-      }
-
-      public Builder setPrefabPathRemoteHash(long value) {
-
-        prefabPathRemoteHash_ = value;
-        onChanged();
-        return this;
-      }
-
-      public Builder clearPrefabPathRemoteHash() {
-
-        prefabPathRemoteHash_ = 0L;
-        onChanged();
-        return this;
-      }
-
-      private long prefabPathHash_ ;
-
-      @java.lang.Override
-      public long getPrefabPathHash() {
-        return prefabPathHash_;
-      }
-
-      public Builder setPrefabPathHash(long value) {
-
-        prefabPathHash_ = value;
-        onChanged();
-        return this;
-      }
-
-      public Builder clearPrefabPathHash() {
-
-        prefabPathHash_ = 0L;
-        onChanged();
-        return this;
-      }
-
-      private long controllerPathHash_ ;
-
-      @java.lang.Override
-      public long getControllerPathHash() {
-        return controllerPathHash_;
-      }
-
-      public Builder setControllerPathHash(long value) {
-
-        controllerPathHash_ = value;
-        onChanged();
-        return this;
-      }
-
-      public Builder clearControllerPathHash() {
-
-        controllerPathHash_ = 0L;
         onChanged();
         return this;
       }
@@ -660,6 +745,7 @@ public final class AvatarExcelInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:AvatarExcelInfo)
     }
@@ -703,7 +789,7 @@ public final class AvatarExcelInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarExcelInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarExcelInfo_fieldAccessorTable;
 
@@ -716,11 +802,12 @@ public final class AvatarExcelInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\025AvatarExcelInfo.proto\"\253\001\n\017AvatarExcelI" +
-      "nfo\022#\n\033controller_path_remote_hash\030\004 \001(\004" +
-      "\022\032\n\022combat_config_hash\030\005 \001(\004\022\037\n\027prefab_p" +
-      "ath_remote_hash\030\002 \001(\004\022\030\n\020prefab_path_has" +
-      "h\030\001 \001(\004\022\034\n\024controller_path_hash\030\003 \001(\004B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "nfo\022\030\n\020prefab_path_hash\030\001 \001(\004\022\037\n\027prefab_" +
+      "path_remote_hash\030\002 \001(\004\022\034\n\024controller_pat" +
+      "h_hash\030\003 \001(\004\022#\n\033controller_path_remote_h" +
+      "ash\030\004 \001(\004\022\032\n\022combat_config_hash\030\005 \001(\004B6\n" +
+      "\031emu.grasscutter.net.protoB\031AvatarExcelI" +
+      "nfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -731,7 +818,7 @@ public final class AvatarExcelInfoOuterClass {
     internal_static_AvatarExcelInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AvatarExcelInfo_descriptor,
-        new java.lang.String[] { "ControllerPathRemoteHash", "CombatConfigHash", "PrefabPathRemoteHash", "PrefabPathHash", "ControllerPathHash", });
+        new java.lang.String[] { "PrefabPathHash", "PrefabPathRemoteHash", "ControllerPathHash", "ControllerPathRemoteHash", "CombatConfigHash", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

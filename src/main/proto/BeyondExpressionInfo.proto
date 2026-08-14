@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "BeyondExpressionInfoOuterClass";
+
+message BeyondExpressionInfo {
+	enum LPGEIAEOHPI {
+		LPGEIAEOHPI_NONE = 0;
+		LPGEIAEOHPI_EMOJI = 1;
+		LPGEIAEOHPI_POSE = 2;
+		LPGEIAEOHPI_SUIT_POSE = 3;
+		LPGEIAEOHPI_GOLDEN_POSE = 4;
+	}
+	uint32 index = 1;
+	LPGEIAEOHPI expression_type = 2;
+	uint32 id = 3;
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FungusTrainingProgressDetailOuterClass";
+
+import "FungusFighterMonsterDetail.proto";
+import "FungusTrainingPoolPreviewDetail.proto";
+
+message FungusTrainingProgressDetail {
+	repeated uint32 BJKNGIJCKOE = 1;
+	uint32 dungeon_id = 2;
+	uint32 total_used_time = 4;
+	repeated FungusTrainingPoolPreviewDetail monster_pool_preview_list = 5;
+	uint32 cur_round = 9;
+	repeated uint32 HLMGKMNFOOF = 11;
+	repeated FungusFighterMonsterDetail monster_detail_list = 15;
+}

@@ -182,8 +182,8 @@ public final class MapMarkPointTypeOuterClass {
       "SPECIAL\020\002\022\031\n\025MapMarkPointType_MINE\020\003\022\037\n\033" +
       "MapMarkPointType_COLLECTION\020\004\022\034\n\030MapMark" +
       "PointType_MONSTER\020\005\022\036\n\032MapMarkPointType_" +
-      "FISH_POOL\020\006B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "FISH_POOL\020\006B7\n\031emu.grasscutter.net.proto" +
+      "B\032MapMarkPointTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

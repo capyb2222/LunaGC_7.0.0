@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_HumanDragonPuzzleSettleInfoOuterClass";
+
+message _HumanDragonPuzzleSettleInfo {
+	uint32 collect_num = 12;
+	uint32 level_id = 15;
+}

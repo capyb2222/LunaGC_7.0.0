@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GetPlayerFriendListRspOuterClass";
+
+import "FriendBrief.proto";
+
+message GetPlayerFriendListRsp {
+	repeated FriendBrief friend_list = 8;
+	int32 retcode = 11;
+	repeated FriendBrief ask_friend_list = 14;
+}

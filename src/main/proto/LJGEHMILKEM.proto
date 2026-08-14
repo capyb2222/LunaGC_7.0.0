@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "LJGEHMILKEMOuterClass";
+
+enum LJGEHMILKEM {
+	LJGEHMILKEM_NORMAL = 0;
+	LJGEHMILKEM_SERVER_BUFF = 1;
+	LJGEHMILKEM_SERVER = 2;
+}

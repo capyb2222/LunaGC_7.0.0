@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EGHMHMPPMLLOuterClass";
+
+enum EGHMHMPPMLL {
+	EGHMHMPPMLL_NONE = 0;
+	EGHMHMPPMLL_BUNDLE_GOODS = 1;
+	EGHMHMPPMLL_COSTUME_SUIT = 2;
+}

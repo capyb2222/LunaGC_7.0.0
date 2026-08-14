@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "BMFHLLPLCNAOuterClass";
+
+import "KANFGENDGJN.proto";
+import "PKLACFGBAFA.proto";
+
+message BMFHLLPLCNA {
+	repeated PKLACFGBAFA CLBFJPDNHCG = 1;
+	repeated KANFGENDGJN IHPFBPKHHNO = 3;
+	uint32 CDFGMOEHFDP = 15;
+}

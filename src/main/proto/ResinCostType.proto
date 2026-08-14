@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ResinCostTypeOuterClass";
+
+enum ResinCostType {
+	ResinCostType_NONE = 0;
+	ResinCostType_NORMAL = 1;
+	ResinCostType_CONDENSE = 2;
+	ResinCostType_REUNION_PRIVILEGE = 3;
+	ResinCostType_OP_ACTIVITY = 4;
+	ResinCostType_MATERIAL = 5;
+	FRAGILE = 6;
+	TIMING = 7;
+	HCOIN = 8;
+}

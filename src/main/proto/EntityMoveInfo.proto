@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EntityMoveInfoOuterClass";
+
+import "MotionInfo.proto";
+
+message EntityMoveInfo {
+	uint32 entity_id = 1;
+	MotionInfo motion_info = 2;
+	uint32 scene_time = 3;
+	uint32 reliable_seq = 4;
+	bool is_reliable = 5;
+	bool BOJGGCAHNCD = 100;
+}

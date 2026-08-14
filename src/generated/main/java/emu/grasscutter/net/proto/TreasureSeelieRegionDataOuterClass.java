@@ -19,28 +19,43 @@ public final class TreasureSeelieRegionDataOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 JGGFJJFHMBA = 4;</code>
-     * @return The jGGFJJFHMBA.
+     * <code>uint32 open_time = 1;</code>
+     * @return The openTime.
      */
-    int getJGGFJJFHMBA();
+    int getOpenTime();
 
     /**
-     * <code>bool is_open = 15;</code>
+     * <code>bool is_open = 4;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
 
     /**
-     * <code>float region_radius = 14;</code>
-     * @return The regionRadius.
+     * <code>uint32 OKGPCPGPPMG = 5;</code>
+     * @return The oKGPCPGPPMG.
      */
-    float getRegionRadius();
+    int getOKGPCPGPPMG();
 
     /**
-     * <code>bool is_done = 6;</code>
-     * @return The isDone.
+     * <code>.Vector region_center_pos = 6;</code>
+     * @return Whether the regionCenterPos field is set.
      */
-    boolean getIsDone();
+    boolean hasRegionCenterPos();
+    /**
+     * <code>.Vector region_center_pos = 6;</code>
+     * @return The regionCenterPos.
+     */
+    emu.grasscutter.net.proto.VectorOuterClass.Vector getRegionCenterPos();
+    /**
+     * <code>.Vector region_center_pos = 6;</code>
+     */
+    emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRegionCenterPosOrBuilder();
+
+    /**
+     * <code>uint32 region_id = 7;</code>
+     * @return The regionId.
+     */
+    int getRegionId();
 
     /**
      * <code>uint32 scene_id = 8;</code>
@@ -49,49 +64,30 @@ public final class TreasureSeelieRegionDataOuterClass {
     int getSceneId();
 
     /**
-     * <code>uint32 GLJJLGABDLD = 11;</code>
-     * @return The gLJJLGABDLD.
+     * <code>uint32 LPGPONIONFK = 12;</code>
+     * @return The lPGPONIONFK.
      */
-    int getGLJJLGABDLD();
+    int getLPGPONIONFK();
 
     /**
-     * <code>.Vector region_center_pos = 3;</code>
-     * @return Whether the regionCenterPos field is set.
+     * <code>uint32 pdhmghbaedh = 13;</code>
+     * @return The pdhmghbaedh.
      */
-    boolean hasRegionCenterPos();
-    /**
-     * <code>.Vector region_center_pos = 3;</code>
-     * @return The regionCenterPos.
-     */
-    emu.grasscutter.net.proto.VectorOuterClass.Vector getRegionCenterPos();
-    /**
-     * <code>.Vector region_center_pos = 3;</code>
-     */
-    emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRegionCenterPosOrBuilder();
+    int getPdhmghbaedh();
 
     /**
-     * <code>uint32 open_time = 5;</code>
-     * @return The openTime.
+     * <code>bool is_done = 14;</code>
+     * @return The isDone.
      */
-    int getOpenTime();
+    boolean getIsDone();
 
     /**
-     * <code>uint32 region_id = 1;</code>
-     * @return The regionId.
+     * <code>float region_radius = 15;</code>
+     * @return The regionRadius.
      */
-    int getRegionId();
-
-    /**
-     * <code>uint32 PDHMGHBAEDH = 13;</code>
-     * @return The pDHMGHBAEDH.
-     */
-    int getPDHMGHBAEDH();
+    float getRegionRadius();
   }
   /**
-   * <pre>
-   * Obf: AOALBKBJENB
-   * </pre>
-   *
    * Protobuf type {@code TreasureSeelieRegionData}
    */
   public static final class TreasureSeelieRegionData extends
@@ -136,12 +132,22 @@ public final class TreasureSeelieRegionDataOuterClass {
             case 0:
               done = true;
               break;
-            case 96: {
+            case 8: {
 
-              regionId_ = input.readUInt32();
+              openTime_ = input.readUInt32();
               break;
             }
-            case 26: {
+            case 32: {
+
+              isOpen_ = input.readBool();
+              break;
+            }
+            case 40: {
+
+              oKGPCPGPPMG_ = input.readUInt32();
+              break;
+            }
+            case 50: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (regionCenterPos_ != null) {
                 subBuilder = regionCenterPos_.toBuilder();
@@ -154,44 +160,34 @@ public final class TreasureSeelieRegionDataOuterClass {
 
               break;
             }
-            case 32: {
+            case 56: {
 
-              jGGFJJFHMBA_ = input.readUInt32();
+              regionId_ = input.readUInt32();
               break;
             }
-            case 16: {
-
-              openTime_ = input.readUInt32();
-              break;
-            }
-            case 40: {
-
-              isDone_ = input.readBool();
-              break;
-            }
-            case 112: {
+            case 64: {
 
               sceneId_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 96: {
 
-              gLJJLGABDLD_ = input.readUInt32();
+              lPGPONIONFK_ = input.readUInt32();
               break;
             }
             case 104: {
 
-              pDHMGHBAEDH_ = input.readUInt32();
+              pdhmghbaedh_ = input.readUInt32();
               break;
             }
-            case 13: {
+            case 112: {
+
+              isDone_ = input.readBool();
+              break;
+            }
+            case 125: {
 
               regionRadius_ = input.readFloat();
-              break;
-            }
-            case 120: {
-
-              isOpen_ = input.readBool();
               break;
             }
             default: {
@@ -226,21 +222,21 @@ public final class TreasureSeelieRegionDataOuterClass {
               emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData.class, emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData.Builder.class);
     }
 
-    public static final int JGGFJJFHMBA_FIELD_NUMBER = 4;
-    private int jGGFJJFHMBA_;
+    public static final int OPEN_TIME_FIELD_NUMBER = 1;
+    private int openTime_;
     /**
-     * <code>uint32 JGGFJJFHMBA = 4;</code>
-     * @return The jGGFJJFHMBA.
+     * <code>uint32 open_time = 1;</code>
+     * @return The openTime.
      */
     @java.lang.Override
-    public int getJGGFJJFHMBA() {
-      return jGGFJJFHMBA_;
+    public int getOpenTime() {
+      return openTime_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 15;
+    public static final int IS_OPEN_FIELD_NUMBER = 4;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 15;</code>
+     * <code>bool is_open = 4;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -248,29 +244,55 @@ public final class TreasureSeelieRegionDataOuterClass {
       return isOpen_;
     }
 
-    public static final int REGION_RADIUS_FIELD_NUMBER = 1;
-    private float regionRadius_;
+    public static final int OKGPCPGPPMG_FIELD_NUMBER = 5;
+    private int oKGPCPGPPMG_;
     /**
-     * <code>float region_radius = 14;</code>
-     * @return The regionRadius.
+     * <code>uint32 OKGPCPGPPMG = 5;</code>
+     * @return The oKGPCPGPPMG.
      */
     @java.lang.Override
-    public float getRegionRadius() {
-      return regionRadius_;
+    public int getOKGPCPGPPMG() {
+      return oKGPCPGPPMG_;
     }
 
-    public static final int IS_DONE_FIELD_NUMBER = 5;
-    private boolean isDone_;
+    public static final int REGION_CENTER_POS_FIELD_NUMBER = 6;
+    private emu.grasscutter.net.proto.VectorOuterClass.Vector regionCenterPos_;
     /**
-     * <code>bool is_done = 6;</code>
-     * @return The isDone.
+     * <code>.Vector region_center_pos = 6;</code>
+     * @return Whether the regionCenterPos field is set.
      */
     @java.lang.Override
-    public boolean getIsDone() {
-      return isDone_;
+    public boolean hasRegionCenterPos() {
+      return regionCenterPos_ != null;
+    }
+    /**
+     * <code>.Vector region_center_pos = 6;</code>
+     * @return The regionCenterPos.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.VectorOuterClass.Vector getRegionCenterPos() {
+      return regionCenterPos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : regionCenterPos_;
+    }
+    /**
+     * <code>.Vector region_center_pos = 6;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRegionCenterPosOrBuilder() {
+      return getRegionCenterPos();
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 14;
+    public static final int REGION_ID_FIELD_NUMBER = 7;
+    private int regionId_;
+    /**
+     * <code>uint32 region_id = 7;</code>
+     * @return The regionId.
+     */
+    @java.lang.Override
+    public int getRegionId() {
+      return regionId_;
+    }
+
+    public static final int SCENE_ID_FIELD_NUMBER = 8;
     private int sceneId_;
     /**
      * <code>uint32 scene_id = 8;</code>
@@ -281,74 +303,48 @@ public final class TreasureSeelieRegionDataOuterClass {
       return sceneId_;
     }
 
-    public static final int GLJJLGABDLD_FIELD_NUMBER = 11;
-    private int gLJJLGABDLD_;
+    public static final int LPGPONIONFK_FIELD_NUMBER = 12;
+    private int lPGPONIONFK_;
     /**
-     * <code>uint32 GLJJLGABDLD = 11;</code>
-     * @return The gLJJLGABDLD.
+     * <code>uint32 LPGPONIONFK = 12;</code>
+     * @return The lPGPONIONFK.
      */
     @java.lang.Override
-    public int getGLJJLGABDLD() {
-      return gLJJLGABDLD_;
-    }
-
-    public static final int REGION_CENTER_POS_FIELD_NUMBER = 3;
-    private emu.grasscutter.net.proto.VectorOuterClass.Vector regionCenterPos_;
-    /**
-     * <code>.Vector region_center_pos = 3;</code>
-     * @return Whether the regionCenterPos field is set.
-     */
-    @java.lang.Override
-    public boolean hasRegionCenterPos() {
-      return regionCenterPos_ != null;
-    }
-    /**
-     * <code>.Vector region_center_pos = 3;</code>
-     * @return The regionCenterPos.
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.VectorOuterClass.Vector getRegionCenterPos() {
-      return regionCenterPos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : regionCenterPos_;
-    }
-    /**
-     * <code>.Vector region_center_pos = 3;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRegionCenterPosOrBuilder() {
-      return getRegionCenterPos();
-    }
-
-    public static final int OPEN_TIME_FIELD_NUMBER = 2;
-    private int openTime_;
-    /**
-     * <code>uint32 open_time = 5;</code>
-     * @return The openTime.
-     */
-    @java.lang.Override
-    public int getOpenTime() {
-      return openTime_;
-    }
-
-    public static final int REGION_ID_FIELD_NUMBER = 12;
-    private int regionId_;
-    /**
-     * <code>uint32 region_id = 1;</code>
-     * @return The regionId.
-     */
-    @java.lang.Override
-    public int getRegionId() {
-      return regionId_;
+    public int getLPGPONIONFK() {
+      return lPGPONIONFK_;
     }
 
     public static final int PDHMGHBAEDH_FIELD_NUMBER = 13;
-    private int pDHMGHBAEDH_;
+    private int pdhmghbaedh_;
     /**
-     * <code>uint32 PDHMGHBAEDH = 13;</code>
-     * @return The pDHMGHBAEDH.
+     * <code>uint32 pdhmghbaedh = 13;</code>
+     * @return The pdhmghbaedh.
      */
     @java.lang.Override
-    public int getPDHMGHBAEDH() {
-      return pDHMGHBAEDH_;
+    public int getPdhmghbaedh() {
+      return pdhmghbaedh_;
+    }
+
+    public static final int IS_DONE_FIELD_NUMBER = 14;
+    private boolean isDone_;
+    /**
+     * <code>bool is_done = 14;</code>
+     * @return The isDone.
+     */
+    @java.lang.Override
+    public boolean getIsDone() {
+      return isDone_;
+    }
+
+    public static final int REGION_RADIUS_FIELD_NUMBER = 15;
+    private float regionRadius_;
+    /**
+     * <code>float region_radius = 15;</code>
+     * @return The regionRadius.
+     */
+    @java.lang.Override
+    public float getRegionRadius() {
+      return regionRadius_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -365,35 +361,35 @@ public final class TreasureSeelieRegionDataOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (regionId_ != 0) {
-        output.writeUInt32(12, regionId_);
-      }
-      if (regionCenterPos_ != null) {
-        output.writeMessage(3, getRegionCenterPos());
-      }
-      if (jGGFJJFHMBA_ != 0) {
-        output.writeUInt32(4, jGGFJJFHMBA_);
-      }
       if (openTime_ != 0) {
-        output.writeUInt32(2, openTime_);
-      }
-      if (isDone_ != false) {
-        output.writeBool(5, isDone_);
-      }
-      if (sceneId_ != 0) {
-        output.writeUInt32(14, sceneId_);
-      }
-      if (gLJJLGABDLD_ != 0) {
-        output.writeUInt32(11, gLJJLGABDLD_);
-      }
-      if (pDHMGHBAEDH_ != 0) {
-        output.writeUInt32(13, pDHMGHBAEDH_);
-      }
-      if (regionRadius_ != 0F) {
-        output.writeFloat(1, regionRadius_);
+        output.writeUInt32(1, openTime_);
       }
       if (isOpen_ != false) {
-        output.writeBool(15, isOpen_);
+        output.writeBool(4, isOpen_);
+      }
+      if (oKGPCPGPPMG_ != 0) {
+        output.writeUInt32(5, oKGPCPGPPMG_);
+      }
+      if (regionCenterPos_ != null) {
+        output.writeMessage(6, getRegionCenterPos());
+      }
+      if (regionId_ != 0) {
+        output.writeUInt32(7, regionId_);
+      }
+      if (sceneId_ != 0) {
+        output.writeUInt32(8, sceneId_);
+      }
+      if (lPGPONIONFK_ != 0) {
+        output.writeUInt32(12, lPGPONIONFK_);
+      }
+      if (pdhmghbaedh_ != 0) {
+        output.writeUInt32(13, pdhmghbaedh_);
+      }
+      if (isDone_ != false) {
+        output.writeBool(14, isDone_);
+      }
+      if (regionRadius_ != 0F) {
+        output.writeFloat(15, regionRadius_);
       }
       unknownFields.writeTo(output);
     }
@@ -404,45 +400,45 @@ public final class TreasureSeelieRegionDataOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (regionId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, regionId_);
-      }
-      if (regionCenterPos_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, getRegionCenterPos());
-      }
-      if (jGGFJJFHMBA_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, jGGFJJFHMBA_);
-      }
       if (openTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, openTime_);
-      }
-      if (isDone_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, isDone_);
-      }
-      if (sceneId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, sceneId_);
-      }
-      if (gLJJLGABDLD_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, gLJJLGABDLD_);
-      }
-      if (pDHMGHBAEDH_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, pDHMGHBAEDH_);
-      }
-      if (regionRadius_ != 0F) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(1, regionRadius_);
+          .computeUInt32Size(1, openTime_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, isOpen_);
+          .computeBoolSize(4, isOpen_);
+      }
+      if (oKGPCPGPPMG_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(5, oKGPCPGPPMG_);
+      }
+      if (regionCenterPos_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(6, getRegionCenterPos());
+      }
+      if (regionId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(7, regionId_);
+      }
+      if (sceneId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(8, sceneId_);
+      }
+      if (lPGPONIONFK_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(12, lPGPONIONFK_);
+      }
+      if (pdhmghbaedh_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(13, pdhmghbaedh_);
+      }
+      if (isDone_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(14, isDone_);
+      }
+      if (regionRadius_ != 0F) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeFloatSize(15, regionRadius_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -459,30 +455,30 @@ public final class TreasureSeelieRegionDataOuterClass {
       }
       emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData other = (emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData) obj;
 
-      if (getJGGFJJFHMBA()
-          != other.getJGGFJJFHMBA()) return false;
+      if (getOpenTime()
+          != other.getOpenTime()) return false;
       if (getIsOpen()
           != other.getIsOpen()) return false;
-      if (java.lang.Float.floatToIntBits(getRegionRadius())
-          != java.lang.Float.floatToIntBits(
-              other.getRegionRadius())) return false;
-      if (getIsDone()
-          != other.getIsDone()) return false;
-      if (getSceneId()
-          != other.getSceneId()) return false;
-      if (getGLJJLGABDLD()
-          != other.getGLJJLGABDLD()) return false;
+      if (getOKGPCPGPPMG()
+          != other.getOKGPCPGPPMG()) return false;
       if (hasRegionCenterPos() != other.hasRegionCenterPos()) return false;
       if (hasRegionCenterPos()) {
         if (!getRegionCenterPos()
             .equals(other.getRegionCenterPos())) return false;
       }
-      if (getOpenTime()
-          != other.getOpenTime()) return false;
       if (getRegionId()
           != other.getRegionId()) return false;
-      if (getPDHMGHBAEDH()
-          != other.getPDHMGHBAEDH()) return false;
+      if (getSceneId()
+          != other.getSceneId()) return false;
+      if (getLPGPONIONFK()
+          != other.getLPGPONIONFK()) return false;
+      if (getPdhmghbaedh()
+          != other.getPdhmghbaedh()) return false;
+      if (getIsDone()
+          != other.getIsDone()) return false;
+      if (java.lang.Float.floatToIntBits(getRegionRadius())
+          != java.lang.Float.floatToIntBits(
+              other.getRegionRadius())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -494,31 +490,31 @@ public final class TreasureSeelieRegionDataOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + JGGFJJFHMBA_FIELD_NUMBER;
-      hash = (53 * hash) + getJGGFJJFHMBA();
+      hash = (37 * hash) + OPEN_TIME_FIELD_NUMBER;
+      hash = (53 * hash) + getOpenTime();
       hash = (37 * hash) + IS_OPEN_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsOpen());
-      hash = (37 * hash) + REGION_RADIUS_FIELD_NUMBER;
-      hash = (53 * hash) + java.lang.Float.floatToIntBits(
-          getRegionRadius());
-      hash = (37 * hash) + IS_DONE_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIsDone());
-      hash = (37 * hash) + SCENE_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getSceneId();
-      hash = (37 * hash) + GLJJLGABDLD_FIELD_NUMBER;
-      hash = (53 * hash) + getGLJJLGABDLD();
+      hash = (37 * hash) + OKGPCPGPPMG_FIELD_NUMBER;
+      hash = (53 * hash) + getOKGPCPGPPMG();
       if (hasRegionCenterPos()) {
         hash = (37 * hash) + REGION_CENTER_POS_FIELD_NUMBER;
         hash = (53 * hash) + getRegionCenterPos().hashCode();
       }
-      hash = (37 * hash) + OPEN_TIME_FIELD_NUMBER;
-      hash = (53 * hash) + getOpenTime();
       hash = (37 * hash) + REGION_ID_FIELD_NUMBER;
       hash = (53 * hash) + getRegionId();
+      hash = (37 * hash) + SCENE_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getSceneId();
+      hash = (37 * hash) + LPGPONIONFK_FIELD_NUMBER;
+      hash = (53 * hash) + getLPGPONIONFK();
       hash = (37 * hash) + PDHMGHBAEDH_FIELD_NUMBER;
-      hash = (53 * hash) + getPDHMGHBAEDH();
+      hash = (53 * hash) + getPdhmghbaedh();
+      hash = (37 * hash) + IS_DONE_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIsDone());
+      hash = (37 * hash) + REGION_RADIUS_FIELD_NUMBER;
+      hash = (53 * hash) + java.lang.Float.floatToIntBits(
+          getRegionRadius());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -615,10 +611,6 @@ public final class TreasureSeelieRegionDataOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * Obf: AOALBKBJENB
-     * </pre>
-     *
      * Protobuf type {@code TreasureSeelieRegionData}
      */
     public static final class Builder extends
@@ -656,17 +648,11 @@ public final class TreasureSeelieRegionDataOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        jGGFJJFHMBA_ = 0;
+        openTime_ = 0;
 
         isOpen_ = false;
 
-        regionRadius_ = 0F;
-
-        isDone_ = false;
-
-        sceneId_ = 0;
-
-        gLJJLGABDLD_ = 0;
+        oKGPCPGPPMG_ = 0;
 
         if (regionCenterPosBuilder_ == null) {
           regionCenterPos_ = null;
@@ -674,11 +660,17 @@ public final class TreasureSeelieRegionDataOuterClass {
           regionCenterPos_ = null;
           regionCenterPosBuilder_ = null;
         }
-        openTime_ = 0;
-
         regionId_ = 0;
 
-        pDHMGHBAEDH_ = 0;
+        sceneId_ = 0;
+
+        lPGPONIONFK_ = 0;
+
+        pdhmghbaedh_ = 0;
+
+        isDone_ = false;
+
+        regionRadius_ = 0F;
 
         return this;
       }
@@ -706,20 +698,20 @@ public final class TreasureSeelieRegionDataOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData buildPartial() {
         emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData result = new emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData(this);
-        result.jGGFJJFHMBA_ = jGGFJJFHMBA_;
+        result.openTime_ = openTime_;
         result.isOpen_ = isOpen_;
-        result.regionRadius_ = regionRadius_;
-        result.isDone_ = isDone_;
-        result.sceneId_ = sceneId_;
-        result.gLJJLGABDLD_ = gLJJLGABDLD_;
+        result.oKGPCPGPPMG_ = oKGPCPGPPMG_;
         if (regionCenterPosBuilder_ == null) {
           result.regionCenterPos_ = regionCenterPos_;
         } else {
           result.regionCenterPos_ = regionCenterPosBuilder_.build();
         }
-        result.openTime_ = openTime_;
         result.regionId_ = regionId_;
-        result.pDHMGHBAEDH_ = pDHMGHBAEDH_;
+        result.sceneId_ = sceneId_;
+        result.lPGPONIONFK_ = lPGPONIONFK_;
+        result.pdhmghbaedh_ = pdhmghbaedh_;
+        result.isDone_ = isDone_;
+        result.regionRadius_ = regionRadius_;
         onBuilt();
         return result;
       }
@@ -768,35 +760,35 @@ public final class TreasureSeelieRegionDataOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData other) {
         if (other == emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData.getDefaultInstance()) return this;
-        if (other.getJGGFJJFHMBA() != 0) {
-          setJGGFJJFHMBA(other.getJGGFJJFHMBA());
+        if (other.getOpenTime() != 0) {
+          setOpenTime(other.getOpenTime());
         }
         if (other.getIsOpen() != false) {
           setIsOpen(other.getIsOpen());
         }
-        if (other.getRegionRadius() != 0F) {
-          setRegionRadius(other.getRegionRadius());
-        }
-        if (other.getIsDone() != false) {
-          setIsDone(other.getIsDone());
-        }
-        if (other.getSceneId() != 0) {
-          setSceneId(other.getSceneId());
-        }
-        if (other.getGLJJLGABDLD() != 0) {
-          setGLJJLGABDLD(other.getGLJJLGABDLD());
+        if (other.getOKGPCPGPPMG() != 0) {
+          setOKGPCPGPPMG(other.getOKGPCPGPPMG());
         }
         if (other.hasRegionCenterPos()) {
           mergeRegionCenterPos(other.getRegionCenterPos());
         }
-        if (other.getOpenTime() != 0) {
-          setOpenTime(other.getOpenTime());
-        }
         if (other.getRegionId() != 0) {
           setRegionId(other.getRegionId());
         }
-        if (other.getPDHMGHBAEDH() != 0) {
-          setPDHMGHBAEDH(other.getPDHMGHBAEDH());
+        if (other.getSceneId() != 0) {
+          setSceneId(other.getSceneId());
+        }
+        if (other.getLPGPONIONFK() != 0) {
+          setLPGPONIONFK(other.getLPGPONIONFK());
+        }
+        if (other.getPdhmghbaedh() != 0) {
+          setPdhmghbaedh(other.getPdhmghbaedh());
+        }
+        if (other.getIsDone() != false) {
+          setIsDone(other.getIsDone());
+        }
+        if (other.getRegionRadius() != 0F) {
+          setRegionRadius(other.getRegionRadius());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -827,40 +819,40 @@ public final class TreasureSeelieRegionDataOuterClass {
         return this;
       }
 
-      private int jGGFJJFHMBA_ ;
+      private int openTime_ ;
       /**
-       * <code>uint32 JGGFJJFHMBA = 4;</code>
-       * @return The jGGFJJFHMBA.
+       * <code>uint32 open_time = 1;</code>
+       * @return The openTime.
        */
       @java.lang.Override
-      public int getJGGFJJFHMBA() {
-        return jGGFJJFHMBA_;
+      public int getOpenTime() {
+        return openTime_;
       }
       /**
-       * <code>uint32 JGGFJJFHMBA = 4;</code>
-       * @param value The jGGFJJFHMBA to set.
+       * <code>uint32 open_time = 1;</code>
+       * @param value The openTime to set.
        * @return This builder for chaining.
        */
-      public Builder setJGGFJJFHMBA(int value) {
+      public Builder setOpenTime(int value) {
         
-        jGGFJJFHMBA_ = value;
+        openTime_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 JGGFJJFHMBA = 4;</code>
+       * <code>uint32 open_time = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearJGGFJJFHMBA() {
+      public Builder clearOpenTime() {
         
-        jGGFJJFHMBA_ = 0;
+        openTime_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 15;</code>
+       * <code>bool is_open = 4;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -868,7 +860,7 @@ public final class TreasureSeelieRegionDataOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 15;</code>
+       * <code>bool is_open = 4;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -879,7 +871,7 @@ public final class TreasureSeelieRegionDataOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 15;</code>
+       * <code>bool is_open = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -889,64 +881,183 @@ public final class TreasureSeelieRegionDataOuterClass {
         return this;
       }
 
-      private float regionRadius_ ;
+      private int oKGPCPGPPMG_ ;
       /**
-       * <code>float region_radius = 14;</code>
-       * @return The regionRadius.
+       * <code>uint32 OKGPCPGPPMG = 5;</code>
+       * @return The oKGPCPGPPMG.
        */
       @java.lang.Override
-      public float getRegionRadius() {
-        return regionRadius_;
+      public int getOKGPCPGPPMG() {
+        return oKGPCPGPPMG_;
       }
       /**
-       * <code>float region_radius = 14;</code>
-       * @param value The regionRadius to set.
+       * <code>uint32 OKGPCPGPPMG = 5;</code>
+       * @param value The oKGPCPGPPMG to set.
        * @return This builder for chaining.
        */
-      public Builder setRegionRadius(float value) {
+      public Builder setOKGPCPGPPMG(int value) {
         
-        regionRadius_ = value;
+        oKGPCPGPPMG_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>float region_radius = 14;</code>
+       * <code>uint32 OKGPCPGPPMG = 5;</code>
        * @return This builder for chaining.
        */
-      public Builder clearRegionRadius() {
+      public Builder clearOKGPCPGPPMG() {
         
-        regionRadius_ = 0F;
+        oKGPCPGPPMG_ = 0;
         onChanged();
         return this;
       }
 
-      private boolean isDone_ ;
+      private emu.grasscutter.net.proto.VectorOuterClass.Vector regionCenterPos_;
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> regionCenterPosBuilder_;
       /**
-       * <code>bool is_done = 6;</code>
-       * @return The isDone.
+       * <code>.Vector region_center_pos = 6;</code>
+       * @return Whether the regionCenterPos field is set.
        */
-      @java.lang.Override
-      public boolean getIsDone() {
-        return isDone_;
+      public boolean hasRegionCenterPos() {
+        return regionCenterPosBuilder_ != null || regionCenterPos_ != null;
       }
       /**
-       * <code>bool is_done = 6;</code>
-       * @param value The isDone to set.
+       * <code>.Vector region_center_pos = 6;</code>
+       * @return The regionCenterPos.
+       */
+      public emu.grasscutter.net.proto.VectorOuterClass.Vector getRegionCenterPos() {
+        if (regionCenterPosBuilder_ == null) {
+          return regionCenterPos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : regionCenterPos_;
+        } else {
+          return regionCenterPosBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>.Vector region_center_pos = 6;</code>
+       */
+      public Builder setRegionCenterPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
+        if (regionCenterPosBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          regionCenterPos_ = value;
+          onChanged();
+        } else {
+          regionCenterPosBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>.Vector region_center_pos = 6;</code>
+       */
+      public Builder setRegionCenterPos(
+          emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
+        if (regionCenterPosBuilder_ == null) {
+          regionCenterPos_ = builderForValue.build();
+          onChanged();
+        } else {
+          regionCenterPosBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>.Vector region_center_pos = 6;</code>
+       */
+      public Builder mergeRegionCenterPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
+        if (regionCenterPosBuilder_ == null) {
+          if (regionCenterPos_ != null) {
+            regionCenterPos_ =
+              emu.grasscutter.net.proto.VectorOuterClass.Vector.newBuilder(regionCenterPos_).mergeFrom(value).buildPartial();
+          } else {
+            regionCenterPos_ = value;
+          }
+          onChanged();
+        } else {
+          regionCenterPosBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>.Vector region_center_pos = 6;</code>
+       */
+      public Builder clearRegionCenterPos() {
+        if (regionCenterPosBuilder_ == null) {
+          regionCenterPos_ = null;
+          onChanged();
+        } else {
+          regionCenterPos_ = null;
+          regionCenterPosBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>.Vector region_center_pos = 6;</code>
+       */
+      public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getRegionCenterPosBuilder() {
+        
+        onChanged();
+        return getRegionCenterPosFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>.Vector region_center_pos = 6;</code>
+       */
+      public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRegionCenterPosOrBuilder() {
+        if (regionCenterPosBuilder_ != null) {
+          return regionCenterPosBuilder_.getMessageOrBuilder();
+        } else {
+          return regionCenterPos_ == null ?
+              emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : regionCenterPos_;
+        }
+      }
+      /**
+       * <code>.Vector region_center_pos = 6;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          getRegionCenterPosFieldBuilder() {
+        if (regionCenterPosBuilder_ == null) {
+          regionCenterPosBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>(
+                  getRegionCenterPos(),
+                  getParentForChildren(),
+                  isClean());
+          regionCenterPos_ = null;
+        }
+        return regionCenterPosBuilder_;
+      }
+
+      private int regionId_ ;
+      /**
+       * <code>uint32 region_id = 7;</code>
+       * @return The regionId.
+       */
+      @java.lang.Override
+      public int getRegionId() {
+        return regionId_;
+      }
+      /**
+       * <code>uint32 region_id = 7;</code>
+       * @param value The regionId to set.
        * @return This builder for chaining.
        */
-      public Builder setIsDone(boolean value) {
+      public Builder setRegionId(int value) {
         
-        isDone_ = value;
+        regionId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool is_done = 6;</code>
+       * <code>uint32 region_id = 7;</code>
        * @return This builder for chaining.
        */
-      public Builder clearIsDone() {
+      public Builder clearRegionId() {
         
-        isDone_ = false;
+        regionId_ = 0;
         onChanged();
         return this;
       }
@@ -982,245 +1093,126 @@ public final class TreasureSeelieRegionDataOuterClass {
         return this;
       }
 
-      private int gLJJLGABDLD_ ;
+      private int lPGPONIONFK_ ;
       /**
-       * <code>uint32 GLJJLGABDLD = 11;</code>
-       * @return The gLJJLGABDLD.
+       * <code>uint32 LPGPONIONFK = 12;</code>
+       * @return The lPGPONIONFK.
        */
       @java.lang.Override
-      public int getGLJJLGABDLD() {
-        return gLJJLGABDLD_;
+      public int getLPGPONIONFK() {
+        return lPGPONIONFK_;
       }
       /**
-       * <code>uint32 GLJJLGABDLD = 11;</code>
-       * @param value The gLJJLGABDLD to set.
+       * <code>uint32 LPGPONIONFK = 12;</code>
+       * @param value The lPGPONIONFK to set.
        * @return This builder for chaining.
        */
-      public Builder setGLJJLGABDLD(int value) {
+      public Builder setLPGPONIONFK(int value) {
         
-        gLJJLGABDLD_ = value;
+        lPGPONIONFK_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 GLJJLGABDLD = 11;</code>
+       * <code>uint32 LPGPONIONFK = 12;</code>
        * @return This builder for chaining.
        */
-      public Builder clearGLJJLGABDLD() {
+      public Builder clearLPGPONIONFK() {
         
-        gLJJLGABDLD_ = 0;
+        lPGPONIONFK_ = 0;
         onChanged();
         return this;
       }
 
-      private emu.grasscutter.net.proto.VectorOuterClass.Vector regionCenterPos_;
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> regionCenterPosBuilder_;
+      private int pdhmghbaedh_ ;
       /**
-       * <code>.Vector region_center_pos = 3;</code>
-       * @return Whether the regionCenterPos field is set.
-       */
-      public boolean hasRegionCenterPos() {
-        return regionCenterPosBuilder_ != null || regionCenterPos_ != null;
-      }
-      /**
-       * <code>.Vector region_center_pos = 3;</code>
-       * @return The regionCenterPos.
-       */
-      public emu.grasscutter.net.proto.VectorOuterClass.Vector getRegionCenterPos() {
-        if (regionCenterPosBuilder_ == null) {
-          return regionCenterPos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : regionCenterPos_;
-        } else {
-          return regionCenterPosBuilder_.getMessage();
-        }
-      }
-      /**
-       * <code>.Vector region_center_pos = 3;</code>
-       */
-      public Builder setRegionCenterPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
-        if (regionCenterPosBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          regionCenterPos_ = value;
-          onChanged();
-        } else {
-          regionCenterPosBuilder_.setMessage(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>.Vector region_center_pos = 3;</code>
-       */
-      public Builder setRegionCenterPos(
-          emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
-        if (regionCenterPosBuilder_ == null) {
-          regionCenterPos_ = builderForValue.build();
-          onChanged();
-        } else {
-          regionCenterPosBuilder_.setMessage(builderForValue.build());
-        }
-
-        return this;
-      }
-      /**
-       * <code>.Vector region_center_pos = 3;</code>
-       */
-      public Builder mergeRegionCenterPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
-        if (regionCenterPosBuilder_ == null) {
-          if (regionCenterPos_ != null) {
-            regionCenterPos_ =
-              emu.grasscutter.net.proto.VectorOuterClass.Vector.newBuilder(regionCenterPos_).mergeFrom(value).buildPartial();
-          } else {
-            regionCenterPos_ = value;
-          }
-          onChanged();
-        } else {
-          regionCenterPosBuilder_.mergeFrom(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>.Vector region_center_pos = 3;</code>
-       */
-      public Builder clearRegionCenterPos() {
-        if (regionCenterPosBuilder_ == null) {
-          regionCenterPos_ = null;
-          onChanged();
-        } else {
-          regionCenterPos_ = null;
-          regionCenterPosBuilder_ = null;
-        }
-
-        return this;
-      }
-      /**
-       * <code>.Vector region_center_pos = 3;</code>
-       */
-      public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getRegionCenterPosBuilder() {
-        
-        onChanged();
-        return getRegionCenterPosFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>.Vector region_center_pos = 3;</code>
-       */
-      public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRegionCenterPosOrBuilder() {
-        if (regionCenterPosBuilder_ != null) {
-          return regionCenterPosBuilder_.getMessageOrBuilder();
-        } else {
-          return regionCenterPos_ == null ?
-              emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : regionCenterPos_;
-        }
-      }
-      /**
-       * <code>.Vector region_center_pos = 3;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
-          getRegionCenterPosFieldBuilder() {
-        if (regionCenterPosBuilder_ == null) {
-          regionCenterPosBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>(
-                  getRegionCenterPos(),
-                  getParentForChildren(),
-                  isClean());
-          regionCenterPos_ = null;
-        }
-        return regionCenterPosBuilder_;
-      }
-
-      private int openTime_ ;
-      /**
-       * <code>uint32 open_time = 5;</code>
-       * @return The openTime.
+       * <code>uint32 pdhmghbaedh = 13;</code>
+       * @return The pdhmghbaedh.
        */
       @java.lang.Override
-      public int getOpenTime() {
-        return openTime_;
+      public int getPdhmghbaedh() {
+        return pdhmghbaedh_;
       }
       /**
-       * <code>uint32 open_time = 5;</code>
-       * @param value The openTime to set.
+       * <code>uint32 pdhmghbaedh = 13;</code>
+       * @param value The pdhmghbaedh to set.
        * @return This builder for chaining.
        */
-      public Builder setOpenTime(int value) {
+      public Builder setPdhmghbaedh(int value) {
         
-        openTime_ = value;
+        pdhmghbaedh_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 open_time = 5;</code>
+       * <code>uint32 pdhmghbaedh = 13;</code>
        * @return This builder for chaining.
        */
-      public Builder clearOpenTime() {
+      public Builder clearPdhmghbaedh() {
         
-        openTime_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int regionId_ ;
-      /**
-       * <code>uint32 region_id = 1;</code>
-       * @return The regionId.
-       */
-      @java.lang.Override
-      public int getRegionId() {
-        return regionId_;
-      }
-      /**
-       * <code>uint32 region_id = 1;</code>
-       * @param value The regionId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setRegionId(int value) {
-        
-        regionId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 region_id = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearRegionId() {
-        
-        regionId_ = 0;
+        pdhmghbaedh_ = 0;
         onChanged();
         return this;
       }
 
-      private int pDHMGHBAEDH_ ;
+      private boolean isDone_ ;
       /**
-       * <code>uint32 PDHMGHBAEDH = 13;</code>
-       * @return The pDHMGHBAEDH.
+       * <code>bool is_done = 14;</code>
+       * @return The isDone.
        */
       @java.lang.Override
-      public int getPDHMGHBAEDH() {
-        return pDHMGHBAEDH_;
+      public boolean getIsDone() {
+        return isDone_;
       }
       /**
-       * <code>uint32 PDHMGHBAEDH = 13;</code>
-       * @param value The pDHMGHBAEDH to set.
+       * <code>bool is_done = 14;</code>
+       * @param value The isDone to set.
        * @return This builder for chaining.
        */
-      public Builder setPDHMGHBAEDH(int value) {
+      public Builder setIsDone(boolean value) {
         
-        pDHMGHBAEDH_ = value;
+        isDone_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 PDHMGHBAEDH = 13;</code>
+       * <code>bool is_done = 14;</code>
        * @return This builder for chaining.
        */
-      public Builder clearPDHMGHBAEDH() {
+      public Builder clearIsDone() {
         
-        pDHMGHBAEDH_ = 0;
+        isDone_ = false;
+        onChanged();
+        return this;
+      }
+
+      private float regionRadius_ ;
+      /**
+       * <code>float region_radius = 15;</code>
+       * @return The regionRadius.
+       */
+      @java.lang.Override
+      public float getRegionRadius() {
+        return regionRadius_;
+      }
+      /**
+       * <code>float region_radius = 15;</code>
+       * @param value The regionRadius to set.
+       * @return This builder for chaining.
+       */
+      public Builder setRegionRadius(float value) {
+        
+        regionRadius_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>float region_radius = 15;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearRegionRadius() {
+        
+        regionRadius_ = 0F;
         onChanged();
         return this;
       }
@@ -1292,14 +1284,14 @@ public final class TreasureSeelieRegionDataOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\036TreasureSeelieRegionData.proto\032\014Vector" +
-      ".proto\"\356\001\n\030TreasureSeelieRegionData\022\023\n\013J" +
-      "GGFJJFHMBA\030\004 \001(\r\022\017\n\007is_open\030\017 \001(\010\022\025\n\rreg" +
-      "ion_radius\030\016 \001(\002\022\017\n\007is_done\030\006 \001(\010\022\020\n\010sce" +
-      "ne_id\030\010 \001(\r\022\023\n\013GLJJLGABDLD\030\013 \001(\r\022\"\n\021regi" +
-      "on_center_pos\030\003 \001(\0132\007.Vector\022\021\n\topen_tim" +
-      "e\030\005 \001(\r\022\021\n\tregion_id\030\001 \001(\r\022\023\n\013PDHMGHBAED" +
-      "H\030\r \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      ".proto\"\356\001\n\030TreasureSeelieRegionData\022\021\n\to" +
+      "pen_time\030\001 \001(\r\022\017\n\007is_open\030\004 \001(\010\022\023\n\013OKGPC" +
+      "PGPPMG\030\005 \001(\r\022\"\n\021region_center_pos\030\006 \001(\0132" +
+      "\007.Vector\022\021\n\tregion_id\030\007 \001(\r\022\020\n\010scene_id\030" +
+      "\010 \001(\r\022\023\n\013LPGPONIONFK\030\014 \001(\r\022\023\n\013pdhmghbaed" +
+      "h\030\r \001(\r\022\017\n\007is_done\030\016 \001(\010\022\025\n\rregion_radiu" +
+      "s\030\017 \001(\002B?\n\031emu.grasscutter.net.protoB\"Tr" +
+      "easureSeelieRegionDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1311,7 +1303,7 @@ public final class TreasureSeelieRegionDataOuterClass {
     internal_static_TreasureSeelieRegionData_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_TreasureSeelieRegionData_descriptor,
-        new java.lang.String[] { "JGGFJJFHMBA", "IsOpen", "RegionRadius", "IsDone", "SceneId", "GLJJLGABDLD", "RegionCenterPos", "OpenTime", "RegionId", "PDHMGHBAEDH", });
+        new java.lang.String[] { "OpenTime", "IsOpen", "OKGPCPGPPMG", "RegionCenterPos", "RegionId", "SceneId", "LPGPONIONFK", "Pdhmghbaedh", "IsDone", "RegionRadius", });
     emu.grasscutter.net.proto.VectorOuterClass.getDescriptor();
   }
 

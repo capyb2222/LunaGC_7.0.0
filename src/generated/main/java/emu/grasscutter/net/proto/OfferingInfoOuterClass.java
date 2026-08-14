@@ -18,6 +18,10 @@ public final class OfferingInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:OfferingInfo)
       com.google.protobuf.MessageOrBuilder {
 
+    /**
+     * <code>uint32 offering_id = 1;</code>
+     * @return The offeringId.
+     */
     int getOfferingId();
   }
   /**
@@ -104,7 +108,10 @@ public final class OfferingInfoOuterClass {
 
     public static final int OFFERING_ID_FIELD_NUMBER = 1;
     private int offeringId_;
-
+    /**
+     * <code>uint32 offering_id = 1;</code>
+     * @return The offeringId.
+     */
     @java.lang.Override
     public int getOfferingId() {
       return offeringId_;
@@ -413,21 +420,31 @@ public final class OfferingInfoOuterClass {
       }
 
       private int offeringId_ ;
-
+      /**
+       * <code>uint32 offering_id = 1;</code>
+       * @return The offeringId.
+       */
       @java.lang.Override
       public int getOfferingId() {
         return offeringId_;
       }
-
+      /**
+       * <code>uint32 offering_id = 1;</code>
+       * @param value The offeringId to set.
+       * @return This builder for chaining.
+       */
       public Builder setOfferingId(int value) {
-
+        
         offeringId_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint32 offering_id = 1;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearOfferingId() {
-
+        
         offeringId_ = 0;
         onChanged();
         return this;
@@ -443,6 +460,7 @@ public final class OfferingInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:OfferingInfo)
     }
@@ -486,7 +504,7 @@ public final class OfferingInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_OfferingInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_OfferingInfo_fieldAccessorTable;
 
@@ -499,8 +517,8 @@ public final class OfferingInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\022OfferingInfo.proto\"#\n\014OfferingInfo\022\023\n\013" +
-      "offering_id\030\001 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "offering_id\030\001 \001(\rB3\n\031emu.grasscutter.net" +
+      ".protoB\026OfferingInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

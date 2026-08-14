@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MichiaeMatsuriActivityDetailInfoOuterClass";
+
+import "MichiaeMatsuriChallengePositionInfo.proto";
+import "MichiaeMatsuriChestPositionInfo.proto";
+import "MichiaeMatsuriStage.proto";
+
+message MichiaeMatsuriActivityDetailInfo {
+	uint32 gain_crystal_exp = 2;
+	repeated MichiaeMatsuriChestPositionInfo chest_pos_list = 7;
+	repeated MichiaeMatsuriStage stage_list = 8;
+	repeated MichiaeMatsuriChallengePositionInfo challenge_pos_list = 9;
+	repeated uint32 unlocked_crystal_skill_list = 10;
+}

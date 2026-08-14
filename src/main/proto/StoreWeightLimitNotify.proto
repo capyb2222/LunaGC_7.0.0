@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "StoreWeightLimitNotifyOuterClass";
+
+import "StoreType.proto";
+
+message StoreWeightLimitNotify {
+	uint32 DKIEKFJMMIH = 2;
+	uint32 KADABCKKMGA = 3;
+	uint32 reliquary_count_limit = 4;
+	uint32 OAJHCKBKFPP = 6;
+	StoreType store_type = 8;
+	uint32 weight_limit = 9;
+	uint32 furniture_count_limit = 14;
+	uint32 _beyond_hall_facility_count_limit = 15;
+}

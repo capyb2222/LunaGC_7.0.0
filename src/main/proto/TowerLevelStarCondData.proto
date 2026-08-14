@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "TowerLevelStarCondDataOuterClass";
+
+message TowerLevelStarCondData {
+	uint32 star_cond_index = 1;
+	bool is_pause = 11;
+	bool is_fail = 12;
+	uint32 cond_value = 13;
+}

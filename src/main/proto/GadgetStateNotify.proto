@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GadgetStateNotifyOuterClass";
+
+message GadgetStateNotify {
+	uint32 gadget_entity_id = 3;
+	bool is_enable_interact = 4;
+	uint32 gadget_state = 14;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "StoreTypeOuterClass";
+
+enum StoreType {
+	StoreType_STORE_NONE = 0;
+	StoreType_STORE_PACK = 1;
+	StoreType_STORE_DEPOT = 2;
+}

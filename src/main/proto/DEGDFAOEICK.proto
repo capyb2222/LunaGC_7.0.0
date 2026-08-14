@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DEGDFAOEICKOuterClass";
+
+enum DEGDFAOEICK {
+	DEGDFAOEICK_OFFICIAL = 0;
+	DEGDFAOEICK_CUSTOM = 1;
+	DEGDFAOEICK_SUB_BLUEPRINT = 2;
+}

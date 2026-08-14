@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DungeonPlayerDieReqOuterClass";
+
+import "PlayerDieType.proto";
+
+message DungeonPlayerDieReq {
+	uint32 dungeon_id = 2;
+	PlayerDieType die_type = 6;
+}

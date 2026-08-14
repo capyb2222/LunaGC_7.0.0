@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "BirdBallDetailInfoOuterClass";
+
+import "CPAPGLMOHIO.proto";
+
+message BirdBallDetailInfo {
+	repeated CPAPGLMOHIO micfncjpgim = 2;
+	uint32 ibhhmnemdlk = 12;
+	repeated CPAPGLMOHIO inhailmbbld = 14;
+}

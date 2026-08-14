@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_EffigyChallengeV5SocialInfoOuterClass";
+
+import "GAALHKEALCN.proto";
+
+message _EffigyChallengeV5SocialInfo {
+	repeated GAALHKEALCN level_info_list = 10;
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_NodkraiTourParkourSettleInfoOuterClass";
+
+import "GalleryStopReason.proto";
+
+message _NodkraiTourParkourSettleInfo {
+	uint32 IMONKEJDJCA = 3;
+	uint32 _max_collect_num = 4;
+	bool is_new_record = 5;
+	uint32 collect_num = 6;
+	GalleryStopReason reason = 9;
+	uint32 use_time = 11;
+	uint32 CFLAKMKGAMO = 13;
+	uint32 score = 14;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DelBackupAvatarTeamReqOuterClass";
+
+message DelBackupAvatarTeamReq {
+	uint32 backup_avatar_team_id = 9;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CKKMPKBFBDPOuterClass";
+
+message CKKMPKBFBDP {
+	uint32 IGMMOECLONN = 5;
+	bool is_success = 10;
+	uint32 DEAAPCPBBBF = 11;
+	uint32 OKKIAOILIMN = 12;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "TowerEnterLevelRspOuterClass";
+
+message TowerEnterLevelRsp {
+	repeated uint32 tower_buff_id_list = 2;
+	int32 retcode = 10;
+	uint32 floor_id = 11;
+	uint32 level_index = 13;
+}

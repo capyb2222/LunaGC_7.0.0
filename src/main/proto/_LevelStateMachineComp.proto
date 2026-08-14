@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_LevelStateMachineCompOuterClass";
+
+message _LevelStateMachineComp {
+	int32 BIFLHAOJNJO = 1;
+	string GACOKFFCBJO = 2;
+}

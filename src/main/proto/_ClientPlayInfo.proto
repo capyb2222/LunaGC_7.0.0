@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_ClientPlayInfoOuterClass";
+
+import "_ClientPlayLevelInfo.proto";
+
+message _ClientPlayInfo {
+	repeated _ClientPlayLevelInfo level_info_list = 8;
+	uint32 play_type = 14;
+}

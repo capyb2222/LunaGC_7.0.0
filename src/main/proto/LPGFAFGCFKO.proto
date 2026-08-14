@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "LPGFAFGCFKOOuterClass";
+
+import "_ActivityAvatarInfo.proto";
+
+message LPGFAFGCFKO {
+	bool is_open = 3;
+	bool is_finish = 4;
+	repeated _ActivityAvatarInfo GPMEFKHPBFK = 8;
+	uint32 level_id = 9;
+	uint32 best_score = 14;
+}

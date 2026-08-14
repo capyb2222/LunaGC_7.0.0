@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PPPBDOGNGALOuterClass";
+
+import "_BeyondWorldInfo.proto";
+import "_HallWorldInfo.proto";
+import "_PlayerWorldAnchorPointInfo.proto";
+import "_PlayerWorldInfo.proto";
+
+message PPPBDOGNGAL {
+	oneof detail {
+		_BeyondWorldInfo beyond_world_info = 11;
+		_HallWorldInfo hall_world_info = 12;
+		_PlayerWorldInfo player_world_info = 13;
+		_PlayerWorldAnchorPointInfo player_world_anchor_point_info = 14;
+	}
+}

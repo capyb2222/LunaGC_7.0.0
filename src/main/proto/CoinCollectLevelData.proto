@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CoinCollectLevelDataOuterClass";
+
+import "CoinCollectTeamInfoData.proto";
+
+message CoinCollectLevelData {
+	bool DEELGNJPPHJ = 1;
+	bool MHKPMMIOIFO = 2;
+	CoinCollectTeamInfoData single_best_team_info = 3;
+	uint32 level_id = 4;
+	uint32 CLLFHBFHJFB = 8;
+	uint32 FIJFFHDFDLI = 9;
+	bool njjlelknfpl = 10;
+	uint32 oidegdjmaah = 11;
+	uint32 nobhhoiapmm = 12;
+	bool is_level_open = 13;
+	repeated CoinCollectTeamInfoData double_best_team_info_list = 14;
+	uint32 MCGGMMLPIJP = 15;
+}

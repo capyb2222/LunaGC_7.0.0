@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_BeyondCostumePieceAdjustmentOuterClass";
+
+message _BeyondCostumePieceAdjustment {
+	uint32 _adjust_key = 1;
+	uint32 _adjust_value = 2;
+}

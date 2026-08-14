@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AvatarTypeOuterClass";
+
+enum AvatarType {
+	AVATAR_TYPE_NONE = 0;
+	AVATAR_TYPE_FORMAL = 1;
+	AVATAR_TYPE_TRIAL = 2;
+	AVATAR_TYPE_MIRROR = 3;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CodexDataUpdateNotifyOuterClass";
+
+import "CodexType.proto";
+
+message CodexDataUpdateNotify {
+	CodexType type = 9;
+	bool OBEHJKBNDJG = 11;
+	uint32 weapon_max_promote_level = 13;
+	uint32 id = 14;
+}

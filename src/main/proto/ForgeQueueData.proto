@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ForgeQueueDataOuterClass";
+
+message ForgeQueueData {
+	uint32 total_finish_timestamp = 2;
+	uint32 forge_id = 4;
+	uint32 next_finish_timestamp = 5;
+	uint32 finish_count = 6;
+	uint32 queue_id = 7;
+	uint32 unfinish_count = 9;
+	uint32 avatar_id = 14;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_StaminaFightSettleInfoOuterClass";
+
+message _StaminaFightSettleInfo {
+	uint32 cost_time = 1;
+	uint32 level_id = 2;
+	bool is_new_record = 11;
+	uint32 difficulty = 15;
+}

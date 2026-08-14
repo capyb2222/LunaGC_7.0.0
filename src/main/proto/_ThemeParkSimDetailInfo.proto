@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_ThemeParkSimDetailInfoOuterClass";
+
+import "FHNGLNCPHKA.proto";
+import "GAGPIICGHOF.proto";
+
+message _ThemeParkSimDetailInfo {
+	repeated uint32 LOAEMCLFDDF = 1;
+	GAGPIICGHOF PFPHDJPACAF = 2;
+	repeated uint32 FDFPADCAGKJ = 9;
+	FHNGLNCPHKA PHGDGOKPMEF = 12;
+}

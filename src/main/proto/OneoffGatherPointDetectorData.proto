@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "OneoffGatherPointDetectorDataOuterClass";
+
+import "Vector.proto";
+
+message OneoffGatherPointDetectorData {
+	uint32 map_layer_id = 2;
+	uint32 scene_id = 4;
+	uint32 config_id = 5;
+	uint32 group_id = 7;
+	uint32 hint_radius = 8;
+	Vector hint_center_pos = 10;
+	bool is_all_collected = 11;
+	bool is_hint_valid = 12;
+	uint32 material_id = 13;
+	uint32 _map_layer_id_x = 14;
+}

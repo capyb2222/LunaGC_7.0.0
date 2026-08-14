@@ -18,17 +18,40 @@ public final class AvatarExpeditionInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:AvatarExpeditionInfo)
       com.google.protobuf.MessageOrBuilder {
 
-    int getHourTime();
+    /**
+     * <code>.AvatarExpeditionState state = 1;</code>
+     * @return The enum numeric value on the wire for state.
+     */
+    int getStateValue();
+    /**
+     * <code>.AvatarExpeditionState state = 1;</code>
+     * @return The state.
+     */
+    emu.grasscutter.net.proto.AvatarExpeditionStateOuterClass.AvatarExpeditionState getState();
 
-    int getStartTime();
-
+    /**
+     * <code>uint32 exp_id = 2;</code>
+     * @return The expId.
+     */
     int getExpId();
 
+    /**
+     * <code>uint32 hour_time = 3;</code>
+     * @return The hourTime.
+     */
+    int getHourTime();
+
+    /**
+     * <code>uint32 start_time = 4;</code>
+     * @return The startTime.
+     */
+    int getStartTime();
+
+    /**
+     * <code>float shorten_ratio = 5;</code>
+     * @return The shortenRatio.
+     */
     float getShortenRatio();
-
-    int getStateValue();
-
-    emu.grasscutter.net.proto.AvatarExpeditionStateOuterClass.AvatarExpeditionState getState();
   }
   /**
    * Protobuf type {@code AvatarExpeditionInfo}
@@ -134,9 +157,42 @@ public final class AvatarExpeditionInfoOuterClass {
               emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo.class, emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo.Builder.class);
     }
 
+    public static final int STATE_FIELD_NUMBER = 1;
+    private int state_;
+    /**
+     * <code>.AvatarExpeditionState state = 1;</code>
+     * @return The enum numeric value on the wire for state.
+     */
+    @java.lang.Override public int getStateValue() {
+      return state_;
+    }
+    /**
+     * <code>.AvatarExpeditionState state = 1;</code>
+     * @return The state.
+     */
+    @java.lang.Override public emu.grasscutter.net.proto.AvatarExpeditionStateOuterClass.AvatarExpeditionState getState() {
+      @SuppressWarnings("deprecation")
+      emu.grasscutter.net.proto.AvatarExpeditionStateOuterClass.AvatarExpeditionState result = emu.grasscutter.net.proto.AvatarExpeditionStateOuterClass.AvatarExpeditionState.valueOf(state_);
+      return result == null ? emu.grasscutter.net.proto.AvatarExpeditionStateOuterClass.AvatarExpeditionState.UNRECOGNIZED : result;
+    }
+
+    public static final int EXP_ID_FIELD_NUMBER = 2;
+    private int expId_;
+    /**
+     * <code>uint32 exp_id = 2;</code>
+     * @return The expId.
+     */
+    @java.lang.Override
+    public int getExpId() {
+      return expId_;
+    }
+
     public static final int HOUR_TIME_FIELD_NUMBER = 3;
     private int hourTime_;
-
+    /**
+     * <code>uint32 hour_time = 3;</code>
+     * @return The hourTime.
+     */
     @java.lang.Override
     public int getHourTime() {
       return hourTime_;
@@ -144,39 +200,24 @@ public final class AvatarExpeditionInfoOuterClass {
 
     public static final int START_TIME_FIELD_NUMBER = 4;
     private int startTime_;
-
+    /**
+     * <code>uint32 start_time = 4;</code>
+     * @return The startTime.
+     */
     @java.lang.Override
     public int getStartTime() {
       return startTime_;
     }
 
-    public static final int EXP_ID_FIELD_NUMBER = 2;
-    private int expId_;
-
-    @java.lang.Override
-    public int getExpId() {
-      return expId_;
-    }
-
     public static final int SHORTEN_RATIO_FIELD_NUMBER = 5;
     private float shortenRatio_;
-
+    /**
+     * <code>float shorten_ratio = 5;</code>
+     * @return The shortenRatio.
+     */
     @java.lang.Override
     public float getShortenRatio() {
       return shortenRatio_;
-    }
-
-    public static final int STATE_FIELD_NUMBER = 1;
-    private int state_;
-
-    @java.lang.Override public int getStateValue() {
-      return state_;
-    }
-
-    @java.lang.Override public emu.grasscutter.net.proto.AvatarExpeditionStateOuterClass.AvatarExpeditionState getState() {
-      @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.AvatarExpeditionStateOuterClass.AvatarExpeditionState result = emu.grasscutter.net.proto.AvatarExpeditionStateOuterClass.AvatarExpeditionState.valueOf(state_);
-      return result == null ? emu.grasscutter.net.proto.AvatarExpeditionStateOuterClass.AvatarExpeditionState.UNRECOGNIZED : result;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -252,16 +293,16 @@ public final class AvatarExpeditionInfoOuterClass {
       }
       emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo other = (emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo) obj;
 
+      if (state_ != other.state_) return false;
+      if (getExpId()
+          != other.getExpId()) return false;
       if (getHourTime()
           != other.getHourTime()) return false;
       if (getStartTime()
           != other.getStartTime()) return false;
-      if (getExpId()
-          != other.getExpId()) return false;
       if (java.lang.Float.floatToIntBits(getShortenRatio())
           != java.lang.Float.floatToIntBits(
               other.getShortenRatio())) return false;
-      if (state_ != other.state_) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -273,17 +314,17 @@ public final class AvatarExpeditionInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + STATE_FIELD_NUMBER;
+      hash = (53 * hash) + state_;
+      hash = (37 * hash) + EXP_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getExpId();
       hash = (37 * hash) + HOUR_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getHourTime();
       hash = (37 * hash) + START_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getStartTime();
-      hash = (37 * hash) + EXP_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getExpId();
       hash = (37 * hash) + SHORTEN_RATIO_FIELD_NUMBER;
       hash = (53 * hash) + java.lang.Float.floatToIntBits(
           getShortenRatio());
-      hash = (37 * hash) + STATE_FIELD_NUMBER;
-      hash = (53 * hash) + state_;
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -417,15 +458,15 @@ public final class AvatarExpeditionInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        state_ = 0;
+
+        expId_ = 0;
+
         hourTime_ = 0;
 
         startTime_ = 0;
 
-        expId_ = 0;
-
         shortenRatio_ = 0F;
-
-        state_ = 0;
 
         return this;
       }
@@ -453,11 +494,11 @@ public final class AvatarExpeditionInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo buildPartial() {
         emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo result = new emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo(this);
+        result.state_ = state_;
+        result.expId_ = expId_;
         result.hourTime_ = hourTime_;
         result.startTime_ = startTime_;
-        result.expId_ = expId_;
         result.shortenRatio_ = shortenRatio_;
-        result.state_ = state_;
         onBuilt();
         return result;
       }
@@ -506,20 +547,20 @@ public final class AvatarExpeditionInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo other) {
         if (other == emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo.getDefaultInstance()) return this;
+        if (other.state_ != 0) {
+          setStateValue(other.getStateValue());
+        }
+        if (other.getExpId() != 0) {
+          setExpId(other.getExpId());
+        }
         if (other.getHourTime() != 0) {
           setHourTime(other.getHourTime());
         }
         if (other.getStartTime() != 0) {
           setStartTime(other.getStartTime());
         }
-        if (other.getExpId() != 0) {
-          setExpId(other.getExpId());
-        }
         if (other.getShortenRatio() != 0F) {
           setShortenRatio(other.getShortenRatio());
-        }
-        if (other.state_ != 0) {
-          setStateValue(other.getStateValue());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -550,123 +591,180 @@ public final class AvatarExpeditionInfoOuterClass {
         return this;
       }
 
-      private int hourTime_ ;
-
-      @java.lang.Override
-      public int getHourTime() {
-        return hourTime_;
-      }
-
-      public Builder setHourTime(int value) {
-
-        hourTime_ = value;
-        onChanged();
-        return this;
-      }
-
-      public Builder clearHourTime() {
-
-        hourTime_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int startTime_ ;
-
-      @java.lang.Override
-      public int getStartTime() {
-        return startTime_;
-      }
-
-      public Builder setStartTime(int value) {
-
-        startTime_ = value;
-        onChanged();
-        return this;
-      }
-
-      public Builder clearStartTime() {
-
-        startTime_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int expId_ ;
-
-      @java.lang.Override
-      public int getExpId() {
-        return expId_;
-      }
-
-      public Builder setExpId(int value) {
-
-        expId_ = value;
-        onChanged();
-        return this;
-      }
-
-      public Builder clearExpId() {
-
-        expId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private float shortenRatio_ ;
-
-      @java.lang.Override
-      public float getShortenRatio() {
-        return shortenRatio_;
-      }
-
-      public Builder setShortenRatio(float value) {
-
-        shortenRatio_ = value;
-        onChanged();
-        return this;
-      }
-
-      public Builder clearShortenRatio() {
-
-        shortenRatio_ = 0F;
-        onChanged();
-        return this;
-      }
-
       private int state_ = 0;
-
+      /**
+       * <code>.AvatarExpeditionState state = 1;</code>
+       * @return The enum numeric value on the wire for state.
+       */
       @java.lang.Override public int getStateValue() {
         return state_;
       }
-
+      /**
+       * <code>.AvatarExpeditionState state = 1;</code>
+       * @param value The enum numeric value on the wire for state to set.
+       * @return This builder for chaining.
+       */
       public Builder setStateValue(int value) {
-
+        
         state_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>.AvatarExpeditionState state = 1;</code>
+       * @return The state.
+       */
       @java.lang.Override
       public emu.grasscutter.net.proto.AvatarExpeditionStateOuterClass.AvatarExpeditionState getState() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.AvatarExpeditionStateOuterClass.AvatarExpeditionState result = emu.grasscutter.net.proto.AvatarExpeditionStateOuterClass.AvatarExpeditionState.valueOf(state_);
         return result == null ? emu.grasscutter.net.proto.AvatarExpeditionStateOuterClass.AvatarExpeditionState.UNRECOGNIZED : result;
       }
-
+      /**
+       * <code>.AvatarExpeditionState state = 1;</code>
+       * @param value The state to set.
+       * @return This builder for chaining.
+       */
       public Builder setState(emu.grasscutter.net.proto.AvatarExpeditionStateOuterClass.AvatarExpeditionState value) {
         if (value == null) {
           throw new NullPointerException();
         }
-
+        
         state_ = value.getNumber();
         onChanged();
         return this;
       }
-
+      /**
+       * <code>.AvatarExpeditionState state = 1;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearState() {
-
+        
         state_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int expId_ ;
+      /**
+       * <code>uint32 exp_id = 2;</code>
+       * @return The expId.
+       */
+      @java.lang.Override
+      public int getExpId() {
+        return expId_;
+      }
+      /**
+       * <code>uint32 exp_id = 2;</code>
+       * @param value The expId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setExpId(int value) {
+        
+        expId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 exp_id = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearExpId() {
+        
+        expId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int hourTime_ ;
+      /**
+       * <code>uint32 hour_time = 3;</code>
+       * @return The hourTime.
+       */
+      @java.lang.Override
+      public int getHourTime() {
+        return hourTime_;
+      }
+      /**
+       * <code>uint32 hour_time = 3;</code>
+       * @param value The hourTime to set.
+       * @return This builder for chaining.
+       */
+      public Builder setHourTime(int value) {
+        
+        hourTime_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 hour_time = 3;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearHourTime() {
+        
+        hourTime_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int startTime_ ;
+      /**
+       * <code>uint32 start_time = 4;</code>
+       * @return The startTime.
+       */
+      @java.lang.Override
+      public int getStartTime() {
+        return startTime_;
+      }
+      /**
+       * <code>uint32 start_time = 4;</code>
+       * @param value The startTime to set.
+       * @return This builder for chaining.
+       */
+      public Builder setStartTime(int value) {
+        
+        startTime_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 start_time = 4;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearStartTime() {
+        
+        startTime_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private float shortenRatio_ ;
+      /**
+       * <code>float shorten_ratio = 5;</code>
+       * @return The shortenRatio.
+       */
+      @java.lang.Override
+      public float getShortenRatio() {
+        return shortenRatio_;
+      }
+      /**
+       * <code>float shorten_ratio = 5;</code>
+       * @param value The shortenRatio to set.
+       * @return This builder for chaining.
+       */
+      public Builder setShortenRatio(float value) {
+        
+        shortenRatio_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>float shorten_ratio = 5;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearShortenRatio() {
+        
+        shortenRatio_ = 0F;
         onChanged();
         return this;
       }
@@ -681,6 +779,7 @@ public final class AvatarExpeditionInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:AvatarExpeditionInfo)
     }
@@ -724,7 +823,7 @@ public final class AvatarExpeditionInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarExpeditionInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarExpeditionInfo_fieldAccessorTable;
 
@@ -738,10 +837,11 @@ public final class AvatarExpeditionInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032AvatarExpeditionInfo.proto\032\033AvatarExpe" +
       "ditionState.proto\"\213\001\n\024AvatarExpeditionIn" +
-      "fo\022\021\n\thour_time\030\003 \001(\r\022\022\n\nstart_time\030\004 \001(" +
-      "\r\022\016\n\006exp_id\030\002 \001(\r\022\025\n\rshorten_ratio\030\005 \001(\002" +
-      "\022%\n\005state\030\001 \001(\0162\026.AvatarExpeditionStateB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "fo\022%\n\005state\030\001 \001(\0162\026.AvatarExpeditionStat" +
+      "e\022\016\n\006exp_id\030\002 \001(\r\022\021\n\thour_time\030\003 \001(\r\022\022\n\n" +
+      "start_time\030\004 \001(\r\022\025\n\rshorten_ratio\030\005 \001(\002B" +
+      ";\n\031emu.grasscutter.net.protoB\036AvatarExpe" +
+      "ditionInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -753,7 +853,7 @@ public final class AvatarExpeditionInfoOuterClass {
     internal_static_AvatarExpeditionInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AvatarExpeditionInfo_descriptor,
-        new java.lang.String[] { "HourTime", "StartTime", "ExpId", "ShortenRatio", "State", });
+        new java.lang.String[] { "State", "ExpId", "HourTime", "StartTime", "ShortenRatio", });
     emu.grasscutter.net.proto.AvatarExpeditionStateOuterClass.getDescriptor();
   }
 

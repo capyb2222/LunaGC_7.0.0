@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HIMBAGFLEHMOuterClass";
+
+import "APNLICDADPC.proto";
+import "FGDPACMHDOO.proto";
+import "GKLJODICHJN.proto";
+
+message HIMBAGFLEHM {
+	repeated GKLJODICHJN NCNBEDEPFPM = 1;
+	repeated APNLICDADPC BFPMGFFNFCL = 2;
+	repeated FGDPACMHDOO BHLNAGPKJIL = 3;
+}

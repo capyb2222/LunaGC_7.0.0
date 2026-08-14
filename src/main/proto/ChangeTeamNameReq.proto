@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ChangeTeamNameReqOuterClass";
+
+message ChangeTeamNameReq {
+	int32 team_id = 7;
+	string team_name = 15;
+}

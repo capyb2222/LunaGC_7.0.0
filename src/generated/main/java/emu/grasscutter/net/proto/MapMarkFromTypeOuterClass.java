@@ -143,7 +143,8 @@ public final class MapMarkFromTypeOuterClass {
       "\n\025MapMarkFromType.proto*b\n\017MapMarkFromTy" +
       "pe\022\027\n\023MapMarkFromType_NOE\020\000\022\033\n\027MapMarkFr" +
       "omType_MONSTER\020\001\022\031\n\025MapMarkFromType_QUES" +
-      "T\020\002B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "T\020\002B6\n\031emu.grasscutter.net.protoB\031MapMar" +
+      "kFromTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

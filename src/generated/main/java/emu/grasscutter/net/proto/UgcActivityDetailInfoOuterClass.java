@@ -19,46 +19,46 @@ public final class UgcActivityDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .LKLACPHGDNC MOOPNOJBBLF = 14;</code>
+     * <code>repeated .OfficialCustomDungeon official_custom_dungeon_list = 3;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC> 
-        getMOOPNOJBBLFList();
+    java.util.List<emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon> 
+        getOfficialCustomDungeonListList();
     /**
-     * <code>repeated .LKLACPHGDNC MOOPNOJBBLF = 14;</code>
+     * <code>repeated .OfficialCustomDungeon official_custom_dungeon_list = 3;</code>
      */
-    emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC getMOOPNOJBBLF(int index);
+    emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon getOfficialCustomDungeonList(int index);
     /**
-     * <code>repeated .LKLACPHGDNC MOOPNOJBBLF = 14;</code>
+     * <code>repeated .OfficialCustomDungeon official_custom_dungeon_list = 3;</code>
      */
-    int getMOOPNOJBBLFCount();
+    int getOfficialCustomDungeonListCount();
     /**
-     * <code>repeated .LKLACPHGDNC MOOPNOJBBLF = 14;</code>
+     * <code>repeated .OfficialCustomDungeon official_custom_dungeon_list = 3;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNCOrBuilder> 
-        getMOOPNOJBBLFOrBuilderList();
+    java.util.List<? extends emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeonOrBuilder> 
+        getOfficialCustomDungeonListOrBuilderList();
     /**
-     * <code>repeated .LKLACPHGDNC MOOPNOJBBLF = 14;</code>
+     * <code>repeated .OfficialCustomDungeon official_custom_dungeon_list = 3;</code>
      */
-    emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNCOrBuilder getMOOPNOJBBLFOrBuilder(
+    emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeonOrBuilder getOfficialCustomDungeonListOrBuilder(
         int index);
 
     /**
-     * <code>bool HMODCOPLPPJ = 4;</code>
-     * @return The hMODCOPLPPJ.
+     * <code>uint32 custom_dungeon_group_id = 4;</code>
+     * @return The customDungeonGroupId.
      */
-    boolean getHMODCOPLPPJ();
+    int getCustomDungeonGroupId();
 
     /**
-     * <code>bool AOPMHACIAOJ = 13;</code>
-     * @return The aOPMHACIAOJ.
+     * <code>bool is_ugc_feature_closed = 11;</code>
+     * @return The isUgcFeatureClosed.
      */
-    boolean getAOPMHACIAOJ();
+    boolean getIsUgcFeatureClosed();
 
     /**
-     * <code>uint32 LLEJKCHKEGD = 1;</code>
-     * @return The lLEJKCHKEGD.
+     * <code>bool is_enable_ugc = 12;</code>
+     * @return The isEnableUgc.
      */
-    int getLLEJKCHKEGD();
+    boolean getIsEnableUgc();
   }
   /**
    * Protobuf type {@code UgcActivityDetailInfo}
@@ -73,7 +73,7 @@ public final class UgcActivityDetailInfoOuterClass {
       super(builder);
     }
     private UgcActivityDetailInfo() {
-      mOOPNOJBBLF_ = java.util.Collections.emptyList();
+      officialCustomDungeonList_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -107,28 +107,28 @@ public final class UgcActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-
-              lLEJKCHKEGD_ = input.readUInt32();
+            case 26: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                officialCustomDungeonList_ = new java.util.ArrayList<emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              officialCustomDungeonList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon.parser(), extensionRegistry));
               break;
             }
             case 32: {
 
-              hMODCOPLPPJ_ = input.readBool();
+              customDungeonGroupId_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 88: {
 
-              aOPMHACIAOJ_ = input.readBool();
+              isUgcFeatureClosed_ = input.readBool();
               break;
             }
-            case 114: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                mOOPNOJBBLF_ = new java.util.ArrayList<emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              mOOPNOJBBLF_.add(
-                  input.readMessage(emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC.parser(), extensionRegistry));
+            case 96: {
+
+              isEnableUgc_ = input.readBool();
               break;
             }
             default: {
@@ -147,7 +147,7 @@ public final class UgcActivityDetailInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          mOOPNOJBBLF_ = java.util.Collections.unmodifiableList(mOOPNOJBBLF_);
+          officialCustomDungeonList_ = java.util.Collections.unmodifiableList(officialCustomDungeonList_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -166,77 +166,77 @@ public final class UgcActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.UgcActivityDetailInfoOuterClass.UgcActivityDetailInfo.class, emu.grasscutter.net.proto.UgcActivityDetailInfoOuterClass.UgcActivityDetailInfo.Builder.class);
     }
 
-    public static final int MOOPNOJBBLF_FIELD_NUMBER = 14;
-    private java.util.List<emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC> mOOPNOJBBLF_;
+    public static final int OFFICIAL_CUSTOM_DUNGEON_LIST_FIELD_NUMBER = 3;
+    private java.util.List<emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon> officialCustomDungeonList_;
     /**
-     * <code>repeated .LKLACPHGDNC MOOPNOJBBLF = 14;</code>
+     * <code>repeated .OfficialCustomDungeon official_custom_dungeon_list = 3;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC> getMOOPNOJBBLFList() {
-      return mOOPNOJBBLF_;
+    public java.util.List<emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon> getOfficialCustomDungeonListList() {
+      return officialCustomDungeonList_;
     }
     /**
-     * <code>repeated .LKLACPHGDNC MOOPNOJBBLF = 14;</code>
+     * <code>repeated .OfficialCustomDungeon official_custom_dungeon_list = 3;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNCOrBuilder> 
-        getMOOPNOJBBLFOrBuilderList() {
-      return mOOPNOJBBLF_;
+    public java.util.List<? extends emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeonOrBuilder> 
+        getOfficialCustomDungeonListOrBuilderList() {
+      return officialCustomDungeonList_;
     }
     /**
-     * <code>repeated .LKLACPHGDNC MOOPNOJBBLF = 14;</code>
+     * <code>repeated .OfficialCustomDungeon official_custom_dungeon_list = 3;</code>
      */
     @java.lang.Override
-    public int getMOOPNOJBBLFCount() {
-      return mOOPNOJBBLF_.size();
+    public int getOfficialCustomDungeonListCount() {
+      return officialCustomDungeonList_.size();
     }
     /**
-     * <code>repeated .LKLACPHGDNC MOOPNOJBBLF = 14;</code>
+     * <code>repeated .OfficialCustomDungeon official_custom_dungeon_list = 3;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC getMOOPNOJBBLF(int index) {
-      return mOOPNOJBBLF_.get(index);
+    public emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon getOfficialCustomDungeonList(int index) {
+      return officialCustomDungeonList_.get(index);
     }
     /**
-     * <code>repeated .LKLACPHGDNC MOOPNOJBBLF = 14;</code>
+     * <code>repeated .OfficialCustomDungeon official_custom_dungeon_list = 3;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNCOrBuilder getMOOPNOJBBLFOrBuilder(
+    public emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeonOrBuilder getOfficialCustomDungeonListOrBuilder(
         int index) {
-      return mOOPNOJBBLF_.get(index);
+      return officialCustomDungeonList_.get(index);
     }
 
-    public static final int HMODCOPLPPJ_FIELD_NUMBER = 4;
-    private boolean hMODCOPLPPJ_;
+    public static final int CUSTOM_DUNGEON_GROUP_ID_FIELD_NUMBER = 4;
+    private int customDungeonGroupId_;
     /**
-     * <code>bool HMODCOPLPPJ = 4;</code>
-     * @return The hMODCOPLPPJ.
+     * <code>uint32 custom_dungeon_group_id = 4;</code>
+     * @return The customDungeonGroupId.
      */
     @java.lang.Override
-    public boolean getHMODCOPLPPJ() {
-      return hMODCOPLPPJ_;
+    public int getCustomDungeonGroupId() {
+      return customDungeonGroupId_;
     }
 
-    public static final int AOPMHACIAOJ_FIELD_NUMBER = 13;
-    private boolean aOPMHACIAOJ_;
+    public static final int IS_UGC_FEATURE_CLOSED_FIELD_NUMBER = 11;
+    private boolean isUgcFeatureClosed_;
     /**
-     * <code>bool AOPMHACIAOJ = 13;</code>
-     * @return The aOPMHACIAOJ.
+     * <code>bool is_ugc_feature_closed = 11;</code>
+     * @return The isUgcFeatureClosed.
      */
     @java.lang.Override
-    public boolean getAOPMHACIAOJ() {
-      return aOPMHACIAOJ_;
+    public boolean getIsUgcFeatureClosed() {
+      return isUgcFeatureClosed_;
     }
 
-    public static final int LLEJKCHKEGD_FIELD_NUMBER = 1;
-    private int lLEJKCHKEGD_;
+    public static final int IS_ENABLE_UGC_FIELD_NUMBER = 12;
+    private boolean isEnableUgc_;
     /**
-     * <code>uint32 LLEJKCHKEGD = 1;</code>
-     * @return The lLEJKCHKEGD.
+     * <code>bool is_enable_ugc = 12;</code>
+     * @return The isEnableUgc.
      */
     @java.lang.Override
-    public int getLLEJKCHKEGD() {
-      return lLEJKCHKEGD_;
+    public boolean getIsEnableUgc() {
+      return isEnableUgc_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -253,17 +253,17 @@ public final class UgcActivityDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (lLEJKCHKEGD_ != 0) {
-        output.writeUInt32(1, lLEJKCHKEGD_);
+      for (int i = 0; i < officialCustomDungeonList_.size(); i++) {
+        output.writeMessage(3, officialCustomDungeonList_.get(i));
       }
-      if (hMODCOPLPPJ_ != false) {
-        output.writeBool(4, hMODCOPLPPJ_);
+      if (customDungeonGroupId_ != 0) {
+        output.writeUInt32(4, customDungeonGroupId_);
       }
-      if (aOPMHACIAOJ_ != false) {
-        output.writeBool(13, aOPMHACIAOJ_);
+      if (isUgcFeatureClosed_ != false) {
+        output.writeBool(11, isUgcFeatureClosed_);
       }
-      for (int i = 0; i < mOOPNOJBBLF_.size(); i++) {
-        output.writeMessage(14, mOOPNOJBBLF_.get(i));
+      if (isEnableUgc_ != false) {
+        output.writeBool(12, isEnableUgc_);
       }
       unknownFields.writeTo(output);
     }
@@ -274,21 +274,21 @@ public final class UgcActivityDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (lLEJKCHKEGD_ != 0) {
+      for (int i = 0; i < officialCustomDungeonList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, lLEJKCHKEGD_);
+          .computeMessageSize(3, officialCustomDungeonList_.get(i));
       }
-      if (hMODCOPLPPJ_ != false) {
+      if (customDungeonGroupId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, hMODCOPLPPJ_);
+          .computeUInt32Size(4, customDungeonGroupId_);
       }
-      if (aOPMHACIAOJ_ != false) {
+      if (isUgcFeatureClosed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, aOPMHACIAOJ_);
+          .computeBoolSize(11, isUgcFeatureClosed_);
       }
-      for (int i = 0; i < mOOPNOJBBLF_.size(); i++) {
+      if (isEnableUgc_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, mOOPNOJBBLF_.get(i));
+          .computeBoolSize(12, isEnableUgc_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -305,14 +305,14 @@ public final class UgcActivityDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.UgcActivityDetailInfoOuterClass.UgcActivityDetailInfo other = (emu.grasscutter.net.proto.UgcActivityDetailInfoOuterClass.UgcActivityDetailInfo) obj;
 
-      if (!getMOOPNOJBBLFList()
-          .equals(other.getMOOPNOJBBLFList())) return false;
-      if (getHMODCOPLPPJ()
-          != other.getHMODCOPLPPJ()) return false;
-      if (getAOPMHACIAOJ()
-          != other.getAOPMHACIAOJ()) return false;
-      if (getLLEJKCHKEGD()
-          != other.getLLEJKCHKEGD()) return false;
+      if (!getOfficialCustomDungeonListList()
+          .equals(other.getOfficialCustomDungeonListList())) return false;
+      if (getCustomDungeonGroupId()
+          != other.getCustomDungeonGroupId()) return false;
+      if (getIsUgcFeatureClosed()
+          != other.getIsUgcFeatureClosed()) return false;
+      if (getIsEnableUgc()
+          != other.getIsEnableUgc()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -324,18 +324,18 @@ public final class UgcActivityDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getMOOPNOJBBLFCount() > 0) {
-        hash = (37 * hash) + MOOPNOJBBLF_FIELD_NUMBER;
-        hash = (53 * hash) + getMOOPNOJBBLFList().hashCode();
+      if (getOfficialCustomDungeonListCount() > 0) {
+        hash = (37 * hash) + OFFICIAL_CUSTOM_DUNGEON_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getOfficialCustomDungeonListList().hashCode();
       }
-      hash = (37 * hash) + HMODCOPLPPJ_FIELD_NUMBER;
+      hash = (37 * hash) + CUSTOM_DUNGEON_GROUP_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getCustomDungeonGroupId();
+      hash = (37 * hash) + IS_UGC_FEATURE_CLOSED_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getHMODCOPLPPJ());
-      hash = (37 * hash) + AOPMHACIAOJ_FIELD_NUMBER;
+          getIsUgcFeatureClosed());
+      hash = (37 * hash) + IS_ENABLE_UGC_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getAOPMHACIAOJ());
-      hash = (37 * hash) + LLEJKCHKEGD_FIELD_NUMBER;
-      hash = (53 * hash) + getLLEJKCHKEGD();
+          getIsEnableUgc());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -464,23 +464,23 @@ public final class UgcActivityDetailInfoOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
-          getMOOPNOJBBLFFieldBuilder();
+          getOfficialCustomDungeonListFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (mOOPNOJBBLFBuilder_ == null) {
-          mOOPNOJBBLF_ = java.util.Collections.emptyList();
+        if (officialCustomDungeonListBuilder_ == null) {
+          officialCustomDungeonList_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
         } else {
-          mOOPNOJBBLFBuilder_.clear();
+          officialCustomDungeonListBuilder_.clear();
         }
-        hMODCOPLPPJ_ = false;
+        customDungeonGroupId_ = 0;
 
-        aOPMHACIAOJ_ = false;
+        isUgcFeatureClosed_ = false;
 
-        lLEJKCHKEGD_ = 0;
+        isEnableUgc_ = false;
 
         return this;
       }
@@ -509,18 +509,18 @@ public final class UgcActivityDetailInfoOuterClass {
       public emu.grasscutter.net.proto.UgcActivityDetailInfoOuterClass.UgcActivityDetailInfo buildPartial() {
         emu.grasscutter.net.proto.UgcActivityDetailInfoOuterClass.UgcActivityDetailInfo result = new emu.grasscutter.net.proto.UgcActivityDetailInfoOuterClass.UgcActivityDetailInfo(this);
         int from_bitField0_ = bitField0_;
-        if (mOOPNOJBBLFBuilder_ == null) {
+        if (officialCustomDungeonListBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
-            mOOPNOJBBLF_ = java.util.Collections.unmodifiableList(mOOPNOJBBLF_);
+            officialCustomDungeonList_ = java.util.Collections.unmodifiableList(officialCustomDungeonList_);
             bitField0_ = (bitField0_ & ~0x00000001);
           }
-          result.mOOPNOJBBLF_ = mOOPNOJBBLF_;
+          result.officialCustomDungeonList_ = officialCustomDungeonList_;
         } else {
-          result.mOOPNOJBBLF_ = mOOPNOJBBLFBuilder_.build();
+          result.officialCustomDungeonList_ = officialCustomDungeonListBuilder_.build();
         }
-        result.hMODCOPLPPJ_ = hMODCOPLPPJ_;
-        result.aOPMHACIAOJ_ = aOPMHACIAOJ_;
-        result.lLEJKCHKEGD_ = lLEJKCHKEGD_;
+        result.customDungeonGroupId_ = customDungeonGroupId_;
+        result.isUgcFeatureClosed_ = isUgcFeatureClosed_;
+        result.isEnableUgc_ = isEnableUgc_;
         onBuilt();
         return result;
       }
@@ -569,40 +569,40 @@ public final class UgcActivityDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.UgcActivityDetailInfoOuterClass.UgcActivityDetailInfo other) {
         if (other == emu.grasscutter.net.proto.UgcActivityDetailInfoOuterClass.UgcActivityDetailInfo.getDefaultInstance()) return this;
-        if (mOOPNOJBBLFBuilder_ == null) {
-          if (!other.mOOPNOJBBLF_.isEmpty()) {
-            if (mOOPNOJBBLF_.isEmpty()) {
-              mOOPNOJBBLF_ = other.mOOPNOJBBLF_;
+        if (officialCustomDungeonListBuilder_ == null) {
+          if (!other.officialCustomDungeonList_.isEmpty()) {
+            if (officialCustomDungeonList_.isEmpty()) {
+              officialCustomDungeonList_ = other.officialCustomDungeonList_;
               bitField0_ = (bitField0_ & ~0x00000001);
             } else {
-              ensureMOOPNOJBBLFIsMutable();
-              mOOPNOJBBLF_.addAll(other.mOOPNOJBBLF_);
+              ensureOfficialCustomDungeonListIsMutable();
+              officialCustomDungeonList_.addAll(other.officialCustomDungeonList_);
             }
             onChanged();
           }
         } else {
-          if (!other.mOOPNOJBBLF_.isEmpty()) {
-            if (mOOPNOJBBLFBuilder_.isEmpty()) {
-              mOOPNOJBBLFBuilder_.dispose();
-              mOOPNOJBBLFBuilder_ = null;
-              mOOPNOJBBLF_ = other.mOOPNOJBBLF_;
+          if (!other.officialCustomDungeonList_.isEmpty()) {
+            if (officialCustomDungeonListBuilder_.isEmpty()) {
+              officialCustomDungeonListBuilder_.dispose();
+              officialCustomDungeonListBuilder_ = null;
+              officialCustomDungeonList_ = other.officialCustomDungeonList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              mOOPNOJBBLFBuilder_ = 
+              officialCustomDungeonListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getMOOPNOJBBLFFieldBuilder() : null;
+                   getOfficialCustomDungeonListFieldBuilder() : null;
             } else {
-              mOOPNOJBBLFBuilder_.addAllMessages(other.mOOPNOJBBLF_);
+              officialCustomDungeonListBuilder_.addAllMessages(other.officialCustomDungeonList_);
             }
           }
         }
-        if (other.getHMODCOPLPPJ() != false) {
-          setHMODCOPLPPJ(other.getHMODCOPLPPJ());
+        if (other.getCustomDungeonGroupId() != 0) {
+          setCustomDungeonGroupId(other.getCustomDungeonGroupId());
         }
-        if (other.getAOPMHACIAOJ() != false) {
-          setAOPMHACIAOJ(other.getAOPMHACIAOJ());
+        if (other.getIsUgcFeatureClosed() != false) {
+          setIsUgcFeatureClosed(other.getIsUgcFeatureClosed());
         }
-        if (other.getLLEJKCHKEGD() != 0) {
-          setLLEJKCHKEGD(other.getLLEJKCHKEGD());
+        if (other.getIsEnableUgc() != false) {
+          setIsEnableUgc(other.getIsEnableUgc());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -634,335 +634,335 @@ public final class UgcActivityDetailInfoOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC> mOOPNOJBBLF_ =
+      private java.util.List<emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon> officialCustomDungeonList_ =
         java.util.Collections.emptyList();
-      private void ensureMOOPNOJBBLFIsMutable() {
+      private void ensureOfficialCustomDungeonListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          mOOPNOJBBLF_ = new java.util.ArrayList<emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC>(mOOPNOJBBLF_);
+          officialCustomDungeonList_ = new java.util.ArrayList<emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon>(officialCustomDungeonList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC, emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC.Builder, emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNCOrBuilder> mOOPNOJBBLFBuilder_;
+          emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon, emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon.Builder, emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeonOrBuilder> officialCustomDungeonListBuilder_;
 
       /**
-       * <code>repeated .LKLACPHGDNC MOOPNOJBBLF = 14;</code>
+       * <code>repeated .OfficialCustomDungeon official_custom_dungeon_list = 3;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC> getMOOPNOJBBLFList() {
-        if (mOOPNOJBBLFBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(mOOPNOJBBLF_);
+      public java.util.List<emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon> getOfficialCustomDungeonListList() {
+        if (officialCustomDungeonListBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(officialCustomDungeonList_);
         } else {
-          return mOOPNOJBBLFBuilder_.getMessageList();
+          return officialCustomDungeonListBuilder_.getMessageList();
         }
       }
       /**
-       * <code>repeated .LKLACPHGDNC MOOPNOJBBLF = 14;</code>
+       * <code>repeated .OfficialCustomDungeon official_custom_dungeon_list = 3;</code>
        */
-      public int getMOOPNOJBBLFCount() {
-        if (mOOPNOJBBLFBuilder_ == null) {
-          return mOOPNOJBBLF_.size();
+      public int getOfficialCustomDungeonListCount() {
+        if (officialCustomDungeonListBuilder_ == null) {
+          return officialCustomDungeonList_.size();
         } else {
-          return mOOPNOJBBLFBuilder_.getCount();
+          return officialCustomDungeonListBuilder_.getCount();
         }
       }
       /**
-       * <code>repeated .LKLACPHGDNC MOOPNOJBBLF = 14;</code>
+       * <code>repeated .OfficialCustomDungeon official_custom_dungeon_list = 3;</code>
        */
-      public emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC getMOOPNOJBBLF(int index) {
-        if (mOOPNOJBBLFBuilder_ == null) {
-          return mOOPNOJBBLF_.get(index);
+      public emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon getOfficialCustomDungeonList(int index) {
+        if (officialCustomDungeonListBuilder_ == null) {
+          return officialCustomDungeonList_.get(index);
         } else {
-          return mOOPNOJBBLFBuilder_.getMessage(index);
+          return officialCustomDungeonListBuilder_.getMessage(index);
         }
       }
       /**
-       * <code>repeated .LKLACPHGDNC MOOPNOJBBLF = 14;</code>
+       * <code>repeated .OfficialCustomDungeon official_custom_dungeon_list = 3;</code>
        */
-      public Builder setMOOPNOJBBLF(
-          int index, emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC value) {
-        if (mOOPNOJBBLFBuilder_ == null) {
+      public Builder setOfficialCustomDungeonList(
+          int index, emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon value) {
+        if (officialCustomDungeonListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureMOOPNOJBBLFIsMutable();
-          mOOPNOJBBLF_.set(index, value);
+          ensureOfficialCustomDungeonListIsMutable();
+          officialCustomDungeonList_.set(index, value);
           onChanged();
         } else {
-          mOOPNOJBBLFBuilder_.setMessage(index, value);
+          officialCustomDungeonListBuilder_.setMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .LKLACPHGDNC MOOPNOJBBLF = 14;</code>
+       * <code>repeated .OfficialCustomDungeon official_custom_dungeon_list = 3;</code>
        */
-      public Builder setMOOPNOJBBLF(
-          int index, emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC.Builder builderForValue) {
-        if (mOOPNOJBBLFBuilder_ == null) {
-          ensureMOOPNOJBBLFIsMutable();
-          mOOPNOJBBLF_.set(index, builderForValue.build());
+      public Builder setOfficialCustomDungeonList(
+          int index, emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon.Builder builderForValue) {
+        if (officialCustomDungeonListBuilder_ == null) {
+          ensureOfficialCustomDungeonListIsMutable();
+          officialCustomDungeonList_.set(index, builderForValue.build());
           onChanged();
         } else {
-          mOOPNOJBBLFBuilder_.setMessage(index, builderForValue.build());
+          officialCustomDungeonListBuilder_.setMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .LKLACPHGDNC MOOPNOJBBLF = 14;</code>
+       * <code>repeated .OfficialCustomDungeon official_custom_dungeon_list = 3;</code>
        */
-      public Builder addMOOPNOJBBLF(emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC value) {
-        if (mOOPNOJBBLFBuilder_ == null) {
+      public Builder addOfficialCustomDungeonList(emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon value) {
+        if (officialCustomDungeonListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureMOOPNOJBBLFIsMutable();
-          mOOPNOJBBLF_.add(value);
+          ensureOfficialCustomDungeonListIsMutable();
+          officialCustomDungeonList_.add(value);
           onChanged();
         } else {
-          mOOPNOJBBLFBuilder_.addMessage(value);
+          officialCustomDungeonListBuilder_.addMessage(value);
         }
         return this;
       }
       /**
-       * <code>repeated .LKLACPHGDNC MOOPNOJBBLF = 14;</code>
+       * <code>repeated .OfficialCustomDungeon official_custom_dungeon_list = 3;</code>
        */
-      public Builder addMOOPNOJBBLF(
-          int index, emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC value) {
-        if (mOOPNOJBBLFBuilder_ == null) {
+      public Builder addOfficialCustomDungeonList(
+          int index, emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon value) {
+        if (officialCustomDungeonListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureMOOPNOJBBLFIsMutable();
-          mOOPNOJBBLF_.add(index, value);
+          ensureOfficialCustomDungeonListIsMutable();
+          officialCustomDungeonList_.add(index, value);
           onChanged();
         } else {
-          mOOPNOJBBLFBuilder_.addMessage(index, value);
+          officialCustomDungeonListBuilder_.addMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .LKLACPHGDNC MOOPNOJBBLF = 14;</code>
+       * <code>repeated .OfficialCustomDungeon official_custom_dungeon_list = 3;</code>
        */
-      public Builder addMOOPNOJBBLF(
-          emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC.Builder builderForValue) {
-        if (mOOPNOJBBLFBuilder_ == null) {
-          ensureMOOPNOJBBLFIsMutable();
-          mOOPNOJBBLF_.add(builderForValue.build());
+      public Builder addOfficialCustomDungeonList(
+          emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon.Builder builderForValue) {
+        if (officialCustomDungeonListBuilder_ == null) {
+          ensureOfficialCustomDungeonListIsMutable();
+          officialCustomDungeonList_.add(builderForValue.build());
           onChanged();
         } else {
-          mOOPNOJBBLFBuilder_.addMessage(builderForValue.build());
+          officialCustomDungeonListBuilder_.addMessage(builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .LKLACPHGDNC MOOPNOJBBLF = 14;</code>
+       * <code>repeated .OfficialCustomDungeon official_custom_dungeon_list = 3;</code>
        */
-      public Builder addMOOPNOJBBLF(
-          int index, emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC.Builder builderForValue) {
-        if (mOOPNOJBBLFBuilder_ == null) {
-          ensureMOOPNOJBBLFIsMutable();
-          mOOPNOJBBLF_.add(index, builderForValue.build());
+      public Builder addOfficialCustomDungeonList(
+          int index, emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon.Builder builderForValue) {
+        if (officialCustomDungeonListBuilder_ == null) {
+          ensureOfficialCustomDungeonListIsMutable();
+          officialCustomDungeonList_.add(index, builderForValue.build());
           onChanged();
         } else {
-          mOOPNOJBBLFBuilder_.addMessage(index, builderForValue.build());
+          officialCustomDungeonListBuilder_.addMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .LKLACPHGDNC MOOPNOJBBLF = 14;</code>
+       * <code>repeated .OfficialCustomDungeon official_custom_dungeon_list = 3;</code>
        */
-      public Builder addAllMOOPNOJBBLF(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC> values) {
-        if (mOOPNOJBBLFBuilder_ == null) {
-          ensureMOOPNOJBBLFIsMutable();
+      public Builder addAllOfficialCustomDungeonList(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon> values) {
+        if (officialCustomDungeonListBuilder_ == null) {
+          ensureOfficialCustomDungeonListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, mOOPNOJBBLF_);
+              values, officialCustomDungeonList_);
           onChanged();
         } else {
-          mOOPNOJBBLFBuilder_.addAllMessages(values);
+          officialCustomDungeonListBuilder_.addAllMessages(values);
         }
         return this;
       }
       /**
-       * <code>repeated .LKLACPHGDNC MOOPNOJBBLF = 14;</code>
+       * <code>repeated .OfficialCustomDungeon official_custom_dungeon_list = 3;</code>
        */
-      public Builder clearMOOPNOJBBLF() {
-        if (mOOPNOJBBLFBuilder_ == null) {
-          mOOPNOJBBLF_ = java.util.Collections.emptyList();
+      public Builder clearOfficialCustomDungeonList() {
+        if (officialCustomDungeonListBuilder_ == null) {
+          officialCustomDungeonList_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
-          mOOPNOJBBLFBuilder_.clear();
+          officialCustomDungeonListBuilder_.clear();
         }
         return this;
       }
       /**
-       * <code>repeated .LKLACPHGDNC MOOPNOJBBLF = 14;</code>
+       * <code>repeated .OfficialCustomDungeon official_custom_dungeon_list = 3;</code>
        */
-      public Builder removeMOOPNOJBBLF(int index) {
-        if (mOOPNOJBBLFBuilder_ == null) {
-          ensureMOOPNOJBBLFIsMutable();
-          mOOPNOJBBLF_.remove(index);
+      public Builder removeOfficialCustomDungeonList(int index) {
+        if (officialCustomDungeonListBuilder_ == null) {
+          ensureOfficialCustomDungeonListIsMutable();
+          officialCustomDungeonList_.remove(index);
           onChanged();
         } else {
-          mOOPNOJBBLFBuilder_.remove(index);
+          officialCustomDungeonListBuilder_.remove(index);
         }
         return this;
       }
       /**
-       * <code>repeated .LKLACPHGDNC MOOPNOJBBLF = 14;</code>
+       * <code>repeated .OfficialCustomDungeon official_custom_dungeon_list = 3;</code>
        */
-      public emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC.Builder getMOOPNOJBBLFBuilder(
+      public emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon.Builder getOfficialCustomDungeonListBuilder(
           int index) {
-        return getMOOPNOJBBLFFieldBuilder().getBuilder(index);
+        return getOfficialCustomDungeonListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .LKLACPHGDNC MOOPNOJBBLF = 14;</code>
+       * <code>repeated .OfficialCustomDungeon official_custom_dungeon_list = 3;</code>
        */
-      public emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNCOrBuilder getMOOPNOJBBLFOrBuilder(
+      public emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeonOrBuilder getOfficialCustomDungeonListOrBuilder(
           int index) {
-        if (mOOPNOJBBLFBuilder_ == null) {
-          return mOOPNOJBBLF_.get(index);  } else {
-          return mOOPNOJBBLFBuilder_.getMessageOrBuilder(index);
+        if (officialCustomDungeonListBuilder_ == null) {
+          return officialCustomDungeonList_.get(index);  } else {
+          return officialCustomDungeonListBuilder_.getMessageOrBuilder(index);
         }
       }
       /**
-       * <code>repeated .LKLACPHGDNC MOOPNOJBBLF = 14;</code>
+       * <code>repeated .OfficialCustomDungeon official_custom_dungeon_list = 3;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNCOrBuilder> 
-           getMOOPNOJBBLFOrBuilderList() {
-        if (mOOPNOJBBLFBuilder_ != null) {
-          return mOOPNOJBBLFBuilder_.getMessageOrBuilderList();
+      public java.util.List<? extends emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeonOrBuilder> 
+           getOfficialCustomDungeonListOrBuilderList() {
+        if (officialCustomDungeonListBuilder_ != null) {
+          return officialCustomDungeonListBuilder_.getMessageOrBuilderList();
         } else {
-          return java.util.Collections.unmodifiableList(mOOPNOJBBLF_);
+          return java.util.Collections.unmodifiableList(officialCustomDungeonList_);
         }
       }
       /**
-       * <code>repeated .LKLACPHGDNC MOOPNOJBBLF = 14;</code>
+       * <code>repeated .OfficialCustomDungeon official_custom_dungeon_list = 3;</code>
        */
-      public emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC.Builder addMOOPNOJBBLFBuilder() {
-        return getMOOPNOJBBLFFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC.getDefaultInstance());
+      public emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon.Builder addOfficialCustomDungeonListBuilder() {
+        return getOfficialCustomDungeonListFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon.getDefaultInstance());
       }
       /**
-       * <code>repeated .LKLACPHGDNC MOOPNOJBBLF = 14;</code>
+       * <code>repeated .OfficialCustomDungeon official_custom_dungeon_list = 3;</code>
        */
-      public emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC.Builder addMOOPNOJBBLFBuilder(
+      public emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon.Builder addOfficialCustomDungeonListBuilder(
           int index) {
-        return getMOOPNOJBBLFFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC.getDefaultInstance());
+        return getOfficialCustomDungeonListFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon.getDefaultInstance());
       }
       /**
-       * <code>repeated .LKLACPHGDNC MOOPNOJBBLF = 14;</code>
+       * <code>repeated .OfficialCustomDungeon official_custom_dungeon_list = 3;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC.Builder> 
-           getMOOPNOJBBLFBuilderList() {
-        return getMOOPNOJBBLFFieldBuilder().getBuilderList();
+      public java.util.List<emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon.Builder> 
+           getOfficialCustomDungeonListBuilderList() {
+        return getOfficialCustomDungeonListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC, emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC.Builder, emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNCOrBuilder> 
-          getMOOPNOJBBLFFieldBuilder() {
-        if (mOOPNOJBBLFBuilder_ == null) {
-          mOOPNOJBBLFBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC, emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNC.Builder, emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.LKLACPHGDNCOrBuilder>(
-                  mOOPNOJBBLF_,
+          emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon, emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon.Builder, emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeonOrBuilder> 
+          getOfficialCustomDungeonListFieldBuilder() {
+        if (officialCustomDungeonListBuilder_ == null) {
+          officialCustomDungeonListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon, emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeon.Builder, emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.OfficialCustomDungeonOrBuilder>(
+                  officialCustomDungeonList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
                   isClean());
-          mOOPNOJBBLF_ = null;
+          officialCustomDungeonList_ = null;
         }
-        return mOOPNOJBBLFBuilder_;
+        return officialCustomDungeonListBuilder_;
       }
 
-      private boolean hMODCOPLPPJ_ ;
+      private int customDungeonGroupId_ ;
       /**
-       * <code>bool HMODCOPLPPJ = 4;</code>
-       * @return The hMODCOPLPPJ.
+       * <code>uint32 custom_dungeon_group_id = 4;</code>
+       * @return The customDungeonGroupId.
        */
       @java.lang.Override
-      public boolean getHMODCOPLPPJ() {
-        return hMODCOPLPPJ_;
+      public int getCustomDungeonGroupId() {
+        return customDungeonGroupId_;
       }
       /**
-       * <code>bool HMODCOPLPPJ = 4;</code>
-       * @param value The hMODCOPLPPJ to set.
+       * <code>uint32 custom_dungeon_group_id = 4;</code>
+       * @param value The customDungeonGroupId to set.
        * @return This builder for chaining.
        */
-      public Builder setHMODCOPLPPJ(boolean value) {
+      public Builder setCustomDungeonGroupId(int value) {
         
-        hMODCOPLPPJ_ = value;
+        customDungeonGroupId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool HMODCOPLPPJ = 4;</code>
+       * <code>uint32 custom_dungeon_group_id = 4;</code>
        * @return This builder for chaining.
        */
-      public Builder clearHMODCOPLPPJ() {
+      public Builder clearCustomDungeonGroupId() {
         
-        hMODCOPLPPJ_ = false;
-        onChanged();
-        return this;
-      }
-
-      private boolean aOPMHACIAOJ_ ;
-      /**
-       * <code>bool AOPMHACIAOJ = 13;</code>
-       * @return The aOPMHACIAOJ.
-       */
-      @java.lang.Override
-      public boolean getAOPMHACIAOJ() {
-        return aOPMHACIAOJ_;
-      }
-      /**
-       * <code>bool AOPMHACIAOJ = 13;</code>
-       * @param value The aOPMHACIAOJ to set.
-       * @return This builder for chaining.
-       */
-      public Builder setAOPMHACIAOJ(boolean value) {
-        
-        aOPMHACIAOJ_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool AOPMHACIAOJ = 13;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearAOPMHACIAOJ() {
-        
-        aOPMHACIAOJ_ = false;
+        customDungeonGroupId_ = 0;
         onChanged();
         return this;
       }
 
-      private int lLEJKCHKEGD_ ;
+      private boolean isUgcFeatureClosed_ ;
       /**
-       * <code>uint32 LLEJKCHKEGD = 1;</code>
-       * @return The lLEJKCHKEGD.
+       * <code>bool is_ugc_feature_closed = 11;</code>
+       * @return The isUgcFeatureClosed.
        */
       @java.lang.Override
-      public int getLLEJKCHKEGD() {
-        return lLEJKCHKEGD_;
+      public boolean getIsUgcFeatureClosed() {
+        return isUgcFeatureClosed_;
       }
       /**
-       * <code>uint32 LLEJKCHKEGD = 1;</code>
-       * @param value The lLEJKCHKEGD to set.
+       * <code>bool is_ugc_feature_closed = 11;</code>
+       * @param value The isUgcFeatureClosed to set.
        * @return This builder for chaining.
        */
-      public Builder setLLEJKCHKEGD(int value) {
+      public Builder setIsUgcFeatureClosed(boolean value) {
         
-        lLEJKCHKEGD_ = value;
+        isUgcFeatureClosed_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 LLEJKCHKEGD = 1;</code>
+       * <code>bool is_ugc_feature_closed = 11;</code>
        * @return This builder for chaining.
        */
-      public Builder clearLLEJKCHKEGD() {
+      public Builder clearIsUgcFeatureClosed() {
         
-        lLEJKCHKEGD_ = 0;
+        isUgcFeatureClosed_ = false;
+        onChanged();
+        return this;
+      }
+
+      private boolean isEnableUgc_ ;
+      /**
+       * <code>bool is_enable_ugc = 12;</code>
+       * @return The isEnableUgc.
+       */
+      @java.lang.Override
+      public boolean getIsEnableUgc() {
+        return isEnableUgc_;
+      }
+      /**
+       * <code>bool is_enable_ugc = 12;</code>
+       * @param value The isEnableUgc to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIsEnableUgc(boolean value) {
+        
+        isEnableUgc_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool is_enable_ugc = 12;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIsEnableUgc() {
+        
+        isEnableUgc_ = false;
         onChanged();
         return this;
       }
@@ -1033,25 +1033,27 @@ public final class UgcActivityDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033UgcActivityDetailInfo.proto\032\021LKLACPHGD" +
-      "NC.proto\"y\n\025UgcActivityDetailInfo\022!\n\013MOO" +
-      "PNOJBBLF\030\016 \003(\0132\014.LKLACPHGDNC\022\023\n\013HMODCOPL" +
-      "PPJ\030\004 \001(\010\022\023\n\013AOPMHACIAOJ\030\r \001(\010\022\023\n\013LLEJKC" +
-      "HKEGD\030\001 \001(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "\n\033UgcActivityDetailInfo.proto\032\033OfficialC" +
+      "ustomDungeon.proto\"\254\001\n\025UgcActivityDetail" +
+      "Info\022<\n\034official_custom_dungeon_list\030\003 \003" +
+      "(\0132\026.OfficialCustomDungeon\022\037\n\027custom_dun" +
+      "geon_group_id\030\004 \001(\r\022\035\n\025is_ugc_feature_cl" +
+      "osed\030\013 \001(\010\022\025\n\ris_enable_ugc\030\014 \001(\010B<\n\031emu" +
+      ".grasscutter.net.protoB\037UgcActivityDetai" +
+      "lInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.getDescriptor(),
         });
     internal_static_UgcActivityDetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_UgcActivityDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_UgcActivityDetailInfo_descriptor,
-        new java.lang.String[] { "MOOPNOJBBLF", "HMODCOPLPPJ", "AOPMHACIAOJ", "LLEJKCHKEGD", });
-    emu.grasscutter.net.proto.LKLACPHGDNCOuterClass.getDescriptor();
+        new java.lang.String[] { "OfficialCustomDungeonList", "CustomDungeonGroupId", "IsUgcFeatureClosed", "IsEnableUgc", });
+    emu.grasscutter.net.proto.OfficialCustomDungeonOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

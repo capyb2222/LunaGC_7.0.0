@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HomeAvatarRewardEventInfoOuterClass";
+
+message HomeAvatarRewardEventInfo {
+	uint32 guid = 3;
+	uint32 event_id = 6;
+	uint32 suite_id = 7;
+	uint32 avatar_id = 8;
+	uint32 random_position = 12;
+}

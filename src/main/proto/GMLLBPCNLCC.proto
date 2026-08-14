@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GMLLBPCNLCCOuterClass";
+
+import "_MinloadGameserver.proto";
+import "_SpecificGameserver.proto";
+
+message GMLLBPCNLCC {
+	oneof detail {
+		_SpecificGameserver specific_gameserver = 11;
+		_MinloadGameserver minload_gameserver = 12;
+	}
+}

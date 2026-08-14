@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_BeyondPlayerInfoOuterClass";
+
+import "_BydPlayerDetailOnlineInfo.proto";
+
+message _BeyondPlayerInfo {
+	enum OLNNFFJAAPM {
+		OLNNFFJAAPM_OFFLINE = 0;
+		OLNNFFJAAPM_ONLINE = 1;
+	}
+	enum EMLLHGLCCJJ {
+		EMLLHGLCCJJ_TEYVAT = 0;
+		EMLLHGLCCJJ_BEYOND = 1;
+	}
+	optional _BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;
+	uint32 uid = 1;
+	OLNNFFJAAPM online_state = 2;
+	EMLLHGLCCJJ world_type = 3;
+}

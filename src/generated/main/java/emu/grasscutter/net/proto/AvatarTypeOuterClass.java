@@ -15,10 +15,6 @@ public final class AvatarTypeOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   /**
-   * <pre>
-   * Obf: OPLFNKHAOBP
-   * </pre>
-   *
    * Protobuf enum {@code AvatarType}
    */
   public enum AvatarType
@@ -156,8 +152,8 @@ public final class AvatarTypeOuterClass {
       "\n\020AvatarType.proto*i\n\nAvatarType\022\024\n\020AVAT" +
       "AR_TYPE_NONE\020\000\022\026\n\022AVATAR_TYPE_FORMAL\020\001\022\025" +
       "\n\021AVATAR_TYPE_TRIAL\020\002\022\026\n\022AVATAR_TYPE_MIR" +
-      "ROR\020\003B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "ROR\020\003B1\n\031emu.grasscutter.net.protoB\024Avat" +
+      "arTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

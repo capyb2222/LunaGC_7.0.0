@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_LanV6LanternGiftSourceOuterClass";
+
+import "EDLMACJNHGP.proto";
+import "FIEHCAPFKFI.proto";
+
+message _LanV6LanternGiftSource {
+	oneof detail {
+		FIEHCAPFKFI npc = 1639;
+		EDLMACJNHGP player = 1981;
+	}
+	fixed32 timestamp = 1;
+	fixed32 BNBMJMEHPLJ = 3;
+}

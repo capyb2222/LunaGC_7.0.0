@@ -201,8 +201,8 @@ public final class CodexTypeOuterClass {
       "MATERIAL\020\004\022\031\n\025CodexType_CODEX_BOOKS\020\005\022\034\n" +
       "\030CodexType_CODEX_PUSHTIPS\020\006\022\030\n\024CodexType" +
       "_CODEX_VIEW\020\007\022\035\n\031CodexType_CODEX_RELIQUA" +
-      "RY\020\010B\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "RY\020\010B0\n\031emu.grasscutter.net.protoB\023Codex" +
+      "TypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

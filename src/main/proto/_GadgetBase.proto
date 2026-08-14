@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_GadgetBaseOuterClass";
+
+import "JGFGJGJGLPD.proto";
+import "MDGFOMDDDEF.proto";
+import "Vector.proto";
+
+message _GadgetBase {
+	uint32 GACKKCOFACA = 1;
+	repeated JGFGJGJGLPD FAHAJIEGCEP = 2;
+	Vector OLIPGCONBJC = 3;
+	MDGFOMDDDEF JPIGMAONIDJ = 4;
+}

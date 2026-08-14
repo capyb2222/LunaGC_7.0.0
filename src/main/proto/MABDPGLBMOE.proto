@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MABDPGLBMOEOuterClass";
+
+message MABDPGLBMOE {
+	uint32 score = 1;
+	uint32 level_id = 2;
+	bool is_finish = 3;
+	bool is_open = 13;
+}

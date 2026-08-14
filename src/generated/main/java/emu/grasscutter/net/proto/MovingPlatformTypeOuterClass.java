@@ -155,7 +155,8 @@ public final class MovingPlatformTypeOuterClass {
       "ING_PLATFORM_USE_CONFIG\020\001\022.\n*MovingPlatf" +
       "ormType_MOVING_PLATFORM_ABILITY\020\002\022,\n(Mov" +
       "ingPlatformType_MOVING_PLATFORM_ROUTE\020\003B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "9\n\031emu.grasscutter.net.protoB\034MovingPlat" +
+      "formTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

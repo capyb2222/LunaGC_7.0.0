@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PoetryFestivalDetailInfoOuterClass";
+
+import "BNLFGDGHCJH.proto";
+import "GBPENPLJMNG.proto";
+import "GECNMHDPJKN.proto";
+
+message PoetryFestivalDetailInfo {
+	BNLFGDGHCJH HIHIOBJPCEF = 4;
+	GBPENPLJMNG NFIPAFAGGED = 6;
+	GECNMHDPJKN CPKPABJNLNJ = 9;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PBNLFGAMIGIOuterClass";
+
+import "ExhibitionDisplayInfo.proto";
+import "OnlinePlayerInfo.proto";
+
+message PBNLFGAMIGI {
+	OnlinePlayerInfo player_info = 5;
+	repeated ExhibitionDisplayInfo info_list = 9;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "NHCBLLBBFMIOuterClass";
+
+import "DBKDCMPAGEG.proto";
+
+message NHCBLLBBFMI {
+	uint32 level_id = 1;
+	bool is_finish = 5;
+	bool is_open = 8;
+	uint32 score = 11;
+	DBKDCMPAGEG BFLGEJHJKKC = 15;
+}

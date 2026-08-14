@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "OMNMAIIHHDJOuterClass";
+
+import "FIIHDNCNDHH.proto";
+import "OLNDJCHOPMC.proto";
+import "Uint32Pair.proto";
+
+message OMNMAIIHHDJ {
+	bool FHIOEKBKAJF = 1;
+	uint64 HALOGJLKGLB = 2;
+	repeated FIIHDNCNDHH record_list = 6;
+	uint32 PDDGCIDOLBL = 7;
+	uint32 IKADJGPFNOI = 8;
+	repeated Uint32Pair KEJAEGGMIBJ = 9;
+	repeated Uint32Pair AABFCMMGMKE = 11;
+	bool is_open = 13;
+	uint32 HBCLKADPLED = 14;
+	repeated OLNDJCHOPMC PDNALAKIIKL = 15;
+}

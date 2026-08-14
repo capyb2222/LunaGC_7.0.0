@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CreateVehicleRspOuterClass";
+
+message CreateVehicleRsp {
+	uint32 vehicle_id = 10;
+	uint32 entity_id = 13;
+	int32 retcode = 15;
+}

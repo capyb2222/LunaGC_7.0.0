@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ChangeAvatarReqOuterClass";
+
+import "Vector.proto";
+
+message ChangeAvatarReq {
+	Vector move_pos = 3;
+	uint64 guid = 5;
+	uint32 skill_id = 8;
+	bool FGGPBEPIJOG = 11;
+	bool is_move = 13;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GetMapAreaRspOuterClass";
+
+import "MapAreaInfo.proto";
+
+message GetMapAreaRsp {
+	int32 retcode = 12;
+	repeated MapAreaInfo map_area_info_list = 13;
+}

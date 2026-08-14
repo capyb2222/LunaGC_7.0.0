@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EvtAvatarUpdateFocusNotifyOuterClass";
+
+import "ForwardType.proto";
+import "Vector.proto";
+
+message EvtAvatarUpdateFocusNotify {
+	ForwardType forward_type = 3;
+	uint32 entity_id = 11;
+	Vector focus_forward = 15;
+}

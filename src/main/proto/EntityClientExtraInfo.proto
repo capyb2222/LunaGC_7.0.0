@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EntityClientExtraInfoOuterClass";
+
+import "Vector.proto";
+
+message EntityClientExtraInfo {
+	Vector skill_anchor_position = 1;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "RogueDiaryDungeonRecordOuterClass";
+
+message RogueDiaryDungeonRecord {
+	uint32 difficulty = 4;
+	uint32 max_round = 7;
+	uint32 finish_time = 11;
+	bool is_finish = 15;
+}

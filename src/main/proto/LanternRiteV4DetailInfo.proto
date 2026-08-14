@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "LanternRiteV4DetailInfoOuterClass";
+
+import "EIKPBFHDENP.proto";
+import "LPDPPPHCNLA.proto";
+import "NMGCANGGNKB.proto";
+
+message LanternRiteV4DetailInfo {
+	EIKPBFHDENP MIMIPBMJFEK = 5;
+	LPDPPPHCNLA BMMIHMMPHDD = 6;
+	NMGCANGGNKB IOLIBNOCBBB = 14;
+}

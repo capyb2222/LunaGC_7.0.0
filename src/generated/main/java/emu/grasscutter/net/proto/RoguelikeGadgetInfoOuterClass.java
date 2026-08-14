@@ -18,25 +18,29 @@ public final class RoguelikeGadgetInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:RoguelikeGadgetInfo)
       com.google.protobuf.MessageOrBuilder {
 
+    /**
+     * <code>uint32 cell_config_id = 1;</code>
+     * @return The cellConfigId.
+     */
+    int getCellConfigId();
+
+    /**
+     * <code>uint32 cell_type = 2;</code>
+     * @return The cellType.
+     */
+    int getCellType();
+
+    /**
+     * <code>uint32 cell_state = 3;</code>
+     * @return The cellState.
+     */
+    int getCellState();
+
+    /**
+     * <code>uint32 cell_id = 4;</code>
+     * @return The cellId.
+     */
     int getCellId();
-
-    /**
-     * <code>uint32 GPLFEMAHFEI = 1;</code>
-     * @return The gPLFEMAHFEI.
-     */
-    int getGPLFEMAHFEI();
-
-    /**
-     * <code>uint32 EEEOIJHJIJJ = 2;</code>
-     * @return The eEEOIJHJIJJ.
-     */
-    int getEEEOIJHJIJJ();
-
-    /**
-     * <code>uint32 JNHLCOFNKKH = 3;</code>
-     * @return The jNHLCOFNKKH.
-     */
-    int getJNHLCOFNKKH();
   }
   /**
    * Protobuf type {@code RoguelikeGadgetInfo}
@@ -85,17 +89,17 @@ public final class RoguelikeGadgetInfoOuterClass {
               break;
             case 8: {
 
-              gPLFEMAHFEI_ = input.readUInt32();
+              cellConfigId_ = input.readUInt32();
               break;
             }
             case 16: {
 
-              eEEOIJHJIJJ_ = input.readUInt32();
+              cellType_ = input.readUInt32();
               break;
             }
             case 24: {
 
-              jNHLCOFNKKH_ = input.readUInt32();
+              cellState_ = input.readUInt32();
               break;
             }
             case 32: {
@@ -135,45 +139,48 @@ public final class RoguelikeGadgetInfoOuterClass {
               emu.grasscutter.net.proto.RoguelikeGadgetInfoOuterClass.RoguelikeGadgetInfo.class, emu.grasscutter.net.proto.RoguelikeGadgetInfoOuterClass.RoguelikeGadgetInfo.Builder.class);
     }
 
+    public static final int CELL_CONFIG_ID_FIELD_NUMBER = 1;
+    private int cellConfigId_;
+    /**
+     * <code>uint32 cell_config_id = 1;</code>
+     * @return The cellConfigId.
+     */
+    @java.lang.Override
+    public int getCellConfigId() {
+      return cellConfigId_;
+    }
+
+    public static final int CELL_TYPE_FIELD_NUMBER = 2;
+    private int cellType_;
+    /**
+     * <code>uint32 cell_type = 2;</code>
+     * @return The cellType.
+     */
+    @java.lang.Override
+    public int getCellType() {
+      return cellType_;
+    }
+
+    public static final int CELL_STATE_FIELD_NUMBER = 3;
+    private int cellState_;
+    /**
+     * <code>uint32 cell_state = 3;</code>
+     * @return The cellState.
+     */
+    @java.lang.Override
+    public int getCellState() {
+      return cellState_;
+    }
+
     public static final int CELL_ID_FIELD_NUMBER = 4;
     private int cellId_;
-
+    /**
+     * <code>uint32 cell_id = 4;</code>
+     * @return The cellId.
+     */
     @java.lang.Override
     public int getCellId() {
       return cellId_;
-    }
-
-    public static final int GPLFEMAHFEI_FIELD_NUMBER = 1;
-    private int gPLFEMAHFEI_;
-    /**
-     * <code>uint32 GPLFEMAHFEI = 1;</code>
-     * @return The gPLFEMAHFEI.
-     */
-    @java.lang.Override
-    public int getGPLFEMAHFEI() {
-      return gPLFEMAHFEI_;
-    }
-
-    public static final int EEEOIJHJIJJ_FIELD_NUMBER = 2;
-    private int eEEOIJHJIJJ_;
-    /**
-     * <code>uint32 EEEOIJHJIJJ = 2;</code>
-     * @return The eEEOIJHJIJJ.
-     */
-    @java.lang.Override
-    public int getEEEOIJHJIJJ() {
-      return eEEOIJHJIJJ_;
-    }
-
-    public static final int JNHLCOFNKKH_FIELD_NUMBER = 3;
-    private int jNHLCOFNKKH_;
-    /**
-     * <code>uint32 JNHLCOFNKKH = 3;</code>
-     * @return The jNHLCOFNKKH.
-     */
-    @java.lang.Override
-    public int getJNHLCOFNKKH() {
-      return jNHLCOFNKKH_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -190,14 +197,14 @@ public final class RoguelikeGadgetInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (gPLFEMAHFEI_ != 0) {
-        output.writeUInt32(1, gPLFEMAHFEI_);
+      if (cellConfigId_ != 0) {
+        output.writeUInt32(1, cellConfigId_);
       }
-      if (eEEOIJHJIJJ_ != 0) {
-        output.writeUInt32(2, eEEOIJHJIJJ_);
+      if (cellType_ != 0) {
+        output.writeUInt32(2, cellType_);
       }
-      if (jNHLCOFNKKH_ != 0) {
-        output.writeUInt32(3, jNHLCOFNKKH_);
+      if (cellState_ != 0) {
+        output.writeUInt32(3, cellState_);
       }
       if (cellId_ != 0) {
         output.writeUInt32(4, cellId_);
@@ -211,17 +218,17 @@ public final class RoguelikeGadgetInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (gPLFEMAHFEI_ != 0) {
+      if (cellConfigId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, gPLFEMAHFEI_);
+          .computeUInt32Size(1, cellConfigId_);
       }
-      if (eEEOIJHJIJJ_ != 0) {
+      if (cellType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, eEEOIJHJIJJ_);
+          .computeUInt32Size(2, cellType_);
       }
-      if (jNHLCOFNKKH_ != 0) {
+      if (cellState_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, jNHLCOFNKKH_);
+          .computeUInt32Size(3, cellState_);
       }
       if (cellId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -242,14 +249,14 @@ public final class RoguelikeGadgetInfoOuterClass {
       }
       emu.grasscutter.net.proto.RoguelikeGadgetInfoOuterClass.RoguelikeGadgetInfo other = (emu.grasscutter.net.proto.RoguelikeGadgetInfoOuterClass.RoguelikeGadgetInfo) obj;
 
+      if (getCellConfigId()
+          != other.getCellConfigId()) return false;
+      if (getCellType()
+          != other.getCellType()) return false;
+      if (getCellState()
+          != other.getCellState()) return false;
       if (getCellId()
           != other.getCellId()) return false;
-      if (getGPLFEMAHFEI()
-          != other.getGPLFEMAHFEI()) return false;
-      if (getEEEOIJHJIJJ()
-          != other.getEEEOIJHJIJJ()) return false;
-      if (getJNHLCOFNKKH()
-          != other.getJNHLCOFNKKH()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -261,14 +268,14 @@ public final class RoguelikeGadgetInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + CELL_CONFIG_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getCellConfigId();
+      hash = (37 * hash) + CELL_TYPE_FIELD_NUMBER;
+      hash = (53 * hash) + getCellType();
+      hash = (37 * hash) + CELL_STATE_FIELD_NUMBER;
+      hash = (53 * hash) + getCellState();
       hash = (37 * hash) + CELL_ID_FIELD_NUMBER;
       hash = (53 * hash) + getCellId();
-      hash = (37 * hash) + GPLFEMAHFEI_FIELD_NUMBER;
-      hash = (53 * hash) + getGPLFEMAHFEI();
-      hash = (37 * hash) + EEEOIJHJIJJ_FIELD_NUMBER;
-      hash = (53 * hash) + getEEEOIJHJIJJ();
-      hash = (37 * hash) + JNHLCOFNKKH_FIELD_NUMBER;
-      hash = (53 * hash) + getJNHLCOFNKKH();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -402,13 +409,13 @@ public final class RoguelikeGadgetInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        cellConfigId_ = 0;
+
+        cellType_ = 0;
+
+        cellState_ = 0;
+
         cellId_ = 0;
-
-        gPLFEMAHFEI_ = 0;
-
-        eEEOIJHJIJJ_ = 0;
-
-        jNHLCOFNKKH_ = 0;
 
         return this;
       }
@@ -436,10 +443,10 @@ public final class RoguelikeGadgetInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.RoguelikeGadgetInfoOuterClass.RoguelikeGadgetInfo buildPartial() {
         emu.grasscutter.net.proto.RoguelikeGadgetInfoOuterClass.RoguelikeGadgetInfo result = new emu.grasscutter.net.proto.RoguelikeGadgetInfoOuterClass.RoguelikeGadgetInfo(this);
+        result.cellConfigId_ = cellConfigId_;
+        result.cellType_ = cellType_;
+        result.cellState_ = cellState_;
         result.cellId_ = cellId_;
-        result.gPLFEMAHFEI_ = gPLFEMAHFEI_;
-        result.eEEOIJHJIJJ_ = eEEOIJHJIJJ_;
-        result.jNHLCOFNKKH_ = jNHLCOFNKKH_;
         onBuilt();
         return result;
       }
@@ -488,17 +495,17 @@ public final class RoguelikeGadgetInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.RoguelikeGadgetInfoOuterClass.RoguelikeGadgetInfo other) {
         if (other == emu.grasscutter.net.proto.RoguelikeGadgetInfoOuterClass.RoguelikeGadgetInfo.getDefaultInstance()) return this;
+        if (other.getCellConfigId() != 0) {
+          setCellConfigId(other.getCellConfigId());
+        }
+        if (other.getCellType() != 0) {
+          setCellType(other.getCellType());
+        }
+        if (other.getCellState() != 0) {
+          setCellState(other.getCellState());
+        }
         if (other.getCellId() != 0) {
           setCellId(other.getCellId());
-        }
-        if (other.getGPLFEMAHFEI() != 0) {
-          setGPLFEMAHFEI(other.getGPLFEMAHFEI());
-        }
-        if (other.getEEEOIJHJIJJ() != 0) {
-          setEEEOIJHJIJJ(other.getEEEOIJHJIJJ());
-        }
-        if (other.getJNHLCOFNKKH() != 0) {
-          setJNHLCOFNKKH(other.getJNHLCOFNKKH());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -529,116 +536,126 @@ public final class RoguelikeGadgetInfoOuterClass {
         return this;
       }
 
-      private int cellId_ ;
+      private int cellConfigId_ ;
+      /**
+       * <code>uint32 cell_config_id = 1;</code>
+       * @return The cellConfigId.
+       */
+      @java.lang.Override
+      public int getCellConfigId() {
+        return cellConfigId_;
+      }
+      /**
+       * <code>uint32 cell_config_id = 1;</code>
+       * @param value The cellConfigId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setCellConfigId(int value) {
+        
+        cellConfigId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 cell_config_id = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearCellConfigId() {
+        
+        cellConfigId_ = 0;
+        onChanged();
+        return this;
+      }
 
+      private int cellType_ ;
+      /**
+       * <code>uint32 cell_type = 2;</code>
+       * @return The cellType.
+       */
+      @java.lang.Override
+      public int getCellType() {
+        return cellType_;
+      }
+      /**
+       * <code>uint32 cell_type = 2;</code>
+       * @param value The cellType to set.
+       * @return This builder for chaining.
+       */
+      public Builder setCellType(int value) {
+        
+        cellType_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 cell_type = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearCellType() {
+        
+        cellType_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int cellState_ ;
+      /**
+       * <code>uint32 cell_state = 3;</code>
+       * @return The cellState.
+       */
+      @java.lang.Override
+      public int getCellState() {
+        return cellState_;
+      }
+      /**
+       * <code>uint32 cell_state = 3;</code>
+       * @param value The cellState to set.
+       * @return This builder for chaining.
+       */
+      public Builder setCellState(int value) {
+        
+        cellState_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 cell_state = 3;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearCellState() {
+        
+        cellState_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int cellId_ ;
+      /**
+       * <code>uint32 cell_id = 4;</code>
+       * @return The cellId.
+       */
       @java.lang.Override
       public int getCellId() {
         return cellId_;
       }
-
+      /**
+       * <code>uint32 cell_id = 4;</code>
+       * @param value The cellId to set.
+       * @return This builder for chaining.
+       */
       public Builder setCellId(int value) {
-
+        
         cellId_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint32 cell_id = 4;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearCellId() {
-
+        
         cellId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int gPLFEMAHFEI_ ;
-      /**
-       * <code>uint32 GPLFEMAHFEI = 1;</code>
-       * @return The gPLFEMAHFEI.
-       */
-      @java.lang.Override
-      public int getGPLFEMAHFEI() {
-        return gPLFEMAHFEI_;
-      }
-      /**
-       * <code>uint32 GPLFEMAHFEI = 1;</code>
-       * @param value The gPLFEMAHFEI to set.
-       * @return This builder for chaining.
-       */
-      public Builder setGPLFEMAHFEI(int value) {
-
-        gPLFEMAHFEI_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 GPLFEMAHFEI = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearGPLFEMAHFEI() {
-
-        gPLFEMAHFEI_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int eEEOIJHJIJJ_ ;
-      /**
-       * <code>uint32 EEEOIJHJIJJ = 2;</code>
-       * @return The eEEOIJHJIJJ.
-       */
-      @java.lang.Override
-      public int getEEEOIJHJIJJ() {
-        return eEEOIJHJIJJ_;
-      }
-      /**
-       * <code>uint32 EEEOIJHJIJJ = 2;</code>
-       * @param value The eEEOIJHJIJJ to set.
-       * @return This builder for chaining.
-       */
-      public Builder setEEEOIJHJIJJ(int value) {
-
-        eEEOIJHJIJJ_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 EEEOIJHJIJJ = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearEEEOIJHJIJJ() {
-
-        eEEOIJHJIJJ_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int jNHLCOFNKKH_ ;
-      /**
-       * <code>uint32 JNHLCOFNKKH = 3;</code>
-       * @return The jNHLCOFNKKH.
-       */
-      @java.lang.Override
-      public int getJNHLCOFNKKH() {
-        return jNHLCOFNKKH_;
-      }
-      /**
-       * <code>uint32 JNHLCOFNKKH = 3;</code>
-       * @param value The jNHLCOFNKKH to set.
-       * @return This builder for chaining.
-       */
-      public Builder setJNHLCOFNKKH(int value) {
-
-        jNHLCOFNKKH_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 JNHLCOFNKKH = 3;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearJNHLCOFNKKH() {
-
-        jNHLCOFNKKH_ = 0;
         onChanged();
         return this;
       }
@@ -653,6 +670,7 @@ public final class RoguelikeGadgetInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:RoguelikeGadgetInfo)
     }
@@ -696,7 +714,7 @@ public final class RoguelikeGadgetInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_RoguelikeGadgetInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_RoguelikeGadgetInfo_fieldAccessorTable;
 
@@ -709,10 +727,10 @@ public final class RoguelikeGadgetInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\031RoguelikeGadgetInfo.proto\"e\n\023Roguelike" +
-      "GadgetInfo\022\017\n\007cell_id\030\004 \001(\r\022\023\n\013GPLFEMAHF" +
-      "EI\030\001 \001(\r\022\023\n\013EEEOIJHJIJJ\030\002 \001(\r\022\023\n\013JNHLCOF" +
-      "NKKH\030\003 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "GadgetInfo\022\026\n\016cell_config_id\030\001 \001(\r\022\021\n\tce" +
+      "ll_type\030\002 \001(\r\022\022\n\ncell_state\030\003 \001(\r\022\017\n\007cel" +
+      "l_id\030\004 \001(\rB:\n\031emu.grasscutter.net.protoB" +
+      "\035RoguelikeGadgetInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -723,7 +741,7 @@ public final class RoguelikeGadgetInfoOuterClass {
     internal_static_RoguelikeGadgetInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_RoguelikeGadgetInfo_descriptor,
-        new java.lang.String[] { "CellId", "GPLFEMAHFEI", "EEEOIJHJIJJ", "JNHLCOFNKKH", });
+        new java.lang.String[] { "CellConfigId", "CellType", "CellState", "CellId", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

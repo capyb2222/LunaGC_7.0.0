@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HomeMarkPointFurnitureDataOuterClass";
+
+import "HomeMarkPointNPCData.proto";
+import "HomeMarkPointSuiteData.proto";
+import "Vector.proto";
+
+message HomeMarkPointFurnitureData {
+	oneof extra {
+		HomeMarkPointNPCData npc_data = 6;
+		HomeMarkPointSuiteData suite_data = 7;
+	}
+	uint32 guid = 1;
+	uint32 furniture_id = 2;
+	uint32 furniture_type = 3;
+	Vector pos = 4;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DropHintNotifyOuterClass";
+
+import "Vector.proto";
+
+message DropHintNotify {
+	repeated uint32 item_id_list = 3;
+	bool AJDBEGMCGKD = 5;
+	Vector position = 7;
+	Vector rotation = 10;
+	uint32 entity_id = 15;
+}

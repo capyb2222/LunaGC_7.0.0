@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FishPoolInfoOuterClass";
+
+message FishPoolInfo {
+	uint32 pool_id = 1;
+	repeated uint32 fish_area_list = 2;
+	uint32 today_fish_num = 3;
+}

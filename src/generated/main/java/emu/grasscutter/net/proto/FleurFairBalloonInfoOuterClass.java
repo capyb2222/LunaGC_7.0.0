@@ -19,10 +19,10 @@ public final class FleurFairBalloonInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 OMEBOHLACPH = 1;</code>
-     * @return The oMEBOHLACPH.
+     * <code>uint32 best_score = 7;</code>
+     * @return The bestScore.
      */
-    int getOMEBOHLACPH();
+    int getBestScore();
   }
   /**
    * Protobuf type {@code FleurFairBalloonInfo}
@@ -69,9 +69,9 @@ public final class FleurFairBalloonInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 56: {
 
-              oMEBOHLACPH_ = input.readUInt32();
+              bestScore_ = input.readUInt32();
               break;
             }
             default: {
@@ -106,15 +106,15 @@ public final class FleurFairBalloonInfoOuterClass {
               emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.class, emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.Builder.class);
     }
 
-    public static final int OMEBOHLACPH_FIELD_NUMBER = 1;
-    private int oMEBOHLACPH_;
+    public static final int BEST_SCORE_FIELD_NUMBER = 7;
+    private int bestScore_;
     /**
-     * <code>uint32 OMEBOHLACPH = 1;</code>
-     * @return The oMEBOHLACPH.
+     * <code>uint32 best_score = 7;</code>
+     * @return The bestScore.
      */
     @java.lang.Override
-    public int getOMEBOHLACPH() {
-      return oMEBOHLACPH_;
+    public int getBestScore() {
+      return bestScore_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -131,8 +131,8 @@ public final class FleurFairBalloonInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (oMEBOHLACPH_ != 0) {
-        output.writeUInt32(1, oMEBOHLACPH_);
+      if (bestScore_ != 0) {
+        output.writeUInt32(7, bestScore_);
       }
       unknownFields.writeTo(output);
     }
@@ -143,9 +143,9 @@ public final class FleurFairBalloonInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (oMEBOHLACPH_ != 0) {
+      if (bestScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, oMEBOHLACPH_);
+          .computeUInt32Size(7, bestScore_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -162,8 +162,8 @@ public final class FleurFairBalloonInfoOuterClass {
       }
       emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo other = (emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo) obj;
 
-      if (getOMEBOHLACPH()
-          != other.getOMEBOHLACPH()) return false;
+      if (getBestScore()
+          != other.getBestScore()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -175,8 +175,8 @@ public final class FleurFairBalloonInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + OMEBOHLACPH_FIELD_NUMBER;
-      hash = (53 * hash) + getOMEBOHLACPH();
+      hash = (37 * hash) + BEST_SCORE_FIELD_NUMBER;
+      hash = (53 * hash) + getBestScore();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -310,7 +310,7 @@ public final class FleurFairBalloonInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        oMEBOHLACPH_ = 0;
+        bestScore_ = 0;
 
         return this;
       }
@@ -338,7 +338,7 @@ public final class FleurFairBalloonInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo buildPartial() {
         emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo result = new emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo(this);
-        result.oMEBOHLACPH_ = oMEBOHLACPH_;
+        result.bestScore_ = bestScore_;
         onBuilt();
         return result;
       }
@@ -387,8 +387,8 @@ public final class FleurFairBalloonInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo other) {
         if (other == emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.getDefaultInstance()) return this;
-        if (other.getOMEBOHLACPH() != 0) {
-          setOMEBOHLACPH(other.getOMEBOHLACPH());
+        if (other.getBestScore() != 0) {
+          setBestScore(other.getBestScore());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -419,33 +419,33 @@ public final class FleurFairBalloonInfoOuterClass {
         return this;
       }
 
-      private int oMEBOHLACPH_ ;
+      private int bestScore_ ;
       /**
-       * <code>uint32 OMEBOHLACPH = 1;</code>
-       * @return The oMEBOHLACPH.
+       * <code>uint32 best_score = 7;</code>
+       * @return The bestScore.
        */
       @java.lang.Override
-      public int getOMEBOHLACPH() {
-        return oMEBOHLACPH_;
+      public int getBestScore() {
+        return bestScore_;
       }
       /**
-       * <code>uint32 OMEBOHLACPH = 1;</code>
-       * @param value The oMEBOHLACPH to set.
+       * <code>uint32 best_score = 7;</code>
+       * @param value The bestScore to set.
        * @return This builder for chaining.
        */
-      public Builder setOMEBOHLACPH(int value) {
+      public Builder setBestScore(int value) {
         
-        oMEBOHLACPH_ = value;
+        bestScore_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 OMEBOHLACPH = 1;</code>
+       * <code>uint32 best_score = 7;</code>
        * @return This builder for chaining.
        */
-      public Builder clearOMEBOHLACPH() {
+      public Builder clearBestScore() {
         
-        oMEBOHLACPH_ = 0;
+        bestScore_ = 0;
         onChanged();
         return this;
       }
@@ -516,9 +516,10 @@ public final class FleurFairBalloonInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\032FleurFairBalloonInfo.proto\"+\n\024FleurFai" +
-      "rBalloonInfo\022\023\n\013OMEBOHLACPH\030\001 \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "\n\032FleurFairBalloonInfo.proto\"*\n\024FleurFai" +
+      "rBalloonInfo\022\022\n\nbest_score\030\007 \001(\rB;\n\031emu." +
+      "grasscutter.net.protoB\036FleurFairBalloonI" +
+      "nfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -529,7 +530,7 @@ public final class FleurFairBalloonInfoOuterClass {
     internal_static_FleurFairBalloonInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_FleurFairBalloonInfo_descriptor,
-        new java.lang.String[] { "OMEBOHLACPH", });
+        new java.lang.String[] { "BestScore", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

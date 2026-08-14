@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GetInvestigationMonsterRspOuterClass";
+
+import "InvestigationMonster.proto";
+
+message GetInvestigationMonsterRsp {
+	int32 retcode = 1;
+	bool is_for_mark = 8;
+	repeated InvestigationMonster monster_list = 14;
+}

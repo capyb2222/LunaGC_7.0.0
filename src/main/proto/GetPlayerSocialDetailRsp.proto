@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GetPlayerSocialDetailRspOuterClass";
+
+import "SocialDetail.proto";
+
+message GetPlayerSocialDetailRsp {
+	int32 retcode = 2;
+	SocialDetail detail_data = 8;
+	uint32 param = 14;
+}

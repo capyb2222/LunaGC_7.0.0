@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CombatInvocationsNotifyOuterClass";
+
+import "CombatInvokeEntry.proto";
+
+message CombatInvocationsNotify {
+	uint32 client_sequence_id = 1;
+	repeated CombatInvokeEntry invoke_list = 14;
+}

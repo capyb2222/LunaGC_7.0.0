@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "JigsawPictureDataOuterClass";
+
+message JigsawPictureData {
+	bool is_finished = 1;
+	uint32 eemgkjochhk = 6;
+	bool is_open = 12;
+	uint32 mmgjjbelbhf = 14;
+}

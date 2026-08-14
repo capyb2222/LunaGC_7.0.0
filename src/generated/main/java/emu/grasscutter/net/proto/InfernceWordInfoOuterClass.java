@@ -19,40 +19,42 @@ public final class InfernceWordInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 unlock_by_word_id = 13;</code>
+     * <code>uint32 associate_word_id = 1;</code>
+     * @return The associateWordId.
+     */
+    int getAssociateWordId();
+
+    /**
+     * <code>uint32 word_id = 6;</code>
+     * @return The wordId.
+     */
+    int getWordId();
+
+    /**
+     * <code>uint32 unlock_by_word_id = 8;</code>
      * @return The unlockByWordId.
      */
     int getUnlockByWordId();
 
     /**
-     * <code>bool JKDGMJCFEDH = 2;</code>
-     * @return The jKDGMJCFEDH.
+     * <code>bool dgmljikfami = 11;</code>
+     * @return The dgmljikfami.
      */
-    boolean getJKDGMJCFEDH();
+    boolean getDgmljikfami();
 
     /**
-     * <code>bool DGMLJIKFAMI = 11;</code>
-     * @return The dGMLJIKFAMI.
+     * <code>bool DKHJIGMFFOG = 13;</code>
+     * @return The dKHJIGMFFOG.
      */
-    boolean getDGMLJIKFAMI();
+    boolean getDKHJIGMFFOG();
 
     /**
-     * <code>bool HKJHBOMCGLK = 1;</code>
-     * @return The hKJHBOMCGLK.
+     * <code>bool IAFPDGKDPPH = 14;</code>
+     * @return The iAFPDGKDPPH.
      */
-    boolean getHKJHBOMCGLK();
-
-    /**
-     * <code>uint32 word_id = 9;</code>
-     * @return The wordId.
-     */
-    int getWordId();
+    boolean getIAFPDGKDPPH();
   }
   /**
-   * <pre>
-   * Obf: JBNOKAPFIAH
-   * </pre>
-   *
    * Protobuf type {@code InfernceWordInfo}
    */
   public static final class InfernceWordInfo extends
@@ -99,27 +101,32 @@ public final class InfernceWordInfoOuterClass {
               break;
             case 8: {
 
-              hKJHBOMCGLK_ = input.readBool();
+              associateWordId_ = input.readUInt32();
               break;
             }
-            case 128000: {
-
-              jKDGMJCFEDH_ = input.readBool();
-              break;
-            }
-            case 104: {
+            case 48: {
 
               wordId_ = input.readUInt32();
               break;
             }
-            case 88: {
-
-              dGMLJIKFAMI_ = input.readBool();
-              break;
-            }
-            case 16: {
+            case 64: {
 
               unlockByWordId_ = input.readUInt32();
+              break;
+            }
+            case 88: {
+
+              dgmljikfami_ = input.readBool();
+              break;
+            }
+            case 104: {
+
+              dKHJIGMFFOG_ = input.readBool();
+              break;
+            }
+            case 112: {
+
+              iAFPDGKDPPH_ = input.readBool();
               break;
             }
             default: {
@@ -154,10 +161,32 @@ public final class InfernceWordInfoOuterClass {
               emu.grasscutter.net.proto.InfernceWordInfoOuterClass.InfernceWordInfo.class, emu.grasscutter.net.proto.InfernceWordInfoOuterClass.InfernceWordInfo.Builder.class);
     }
 
-    public static final int UNLOCK_BY_WORD_ID_FIELD_NUMBER = 2;
+    public static final int ASSOCIATE_WORD_ID_FIELD_NUMBER = 1;
+    private int associateWordId_;
+    /**
+     * <code>uint32 associate_word_id = 1;</code>
+     * @return The associateWordId.
+     */
+    @java.lang.Override
+    public int getAssociateWordId() {
+      return associateWordId_;
+    }
+
+    public static final int WORD_ID_FIELD_NUMBER = 6;
+    private int wordId_;
+    /**
+     * <code>uint32 word_id = 6;</code>
+     * @return The wordId.
+     */
+    @java.lang.Override
+    public int getWordId() {
+      return wordId_;
+    }
+
+    public static final int UNLOCK_BY_WORD_ID_FIELD_NUMBER = 8;
     private int unlockByWordId_;
     /**
-     * <code>uint32 unlock_by_word_id = 13;</code>
+     * <code>uint32 unlock_by_word_id = 8;</code>
      * @return The unlockByWordId.
      */
     @java.lang.Override
@@ -165,48 +194,37 @@ public final class InfernceWordInfoOuterClass {
       return unlockByWordId_;
     }
 
-    public static final int JKDGMJCFEDH_FIELD_NUMBER = 16000;
-    private boolean jKDGMJCFEDH_;
-    /**
-     * <code>bool JKDGMJCFEDH = 2;</code>
-     * @return The jKDGMJCFEDH.
-     */
-    @java.lang.Override
-    public boolean getJKDGMJCFEDH() {
-      return jKDGMJCFEDH_;
-    }
-
     public static final int DGMLJIKFAMI_FIELD_NUMBER = 11;
-    private boolean dGMLJIKFAMI_;
+    private boolean dgmljikfami_;
     /**
-     * <code>bool DGMLJIKFAMI = 11;</code>
-     * @return The dGMLJIKFAMI.
+     * <code>bool dgmljikfami = 11;</code>
+     * @return The dgmljikfami.
      */
     @java.lang.Override
-    public boolean getDGMLJIKFAMI() {
-      return dGMLJIKFAMI_;
+    public boolean getDgmljikfami() {
+      return dgmljikfami_;
     }
 
-    public static final int HKJHBOMCGLK_FIELD_NUMBER = 1;
-    private boolean hKJHBOMCGLK_;
+    public static final int DKHJIGMFFOG_FIELD_NUMBER = 13;
+    private boolean dKHJIGMFFOG_;
     /**
-     * <code>bool HKJHBOMCGLK = 1;</code>
-     * @return The hKJHBOMCGLK.
+     * <code>bool DKHJIGMFFOG = 13;</code>
+     * @return The dKHJIGMFFOG.
      */
     @java.lang.Override
-    public boolean getHKJHBOMCGLK() {
-      return hKJHBOMCGLK_;
+    public boolean getDKHJIGMFFOG() {
+      return dKHJIGMFFOG_;
     }
 
-    public static final int WORD_ID_FIELD_NUMBER = 13;
-    private int wordId_;
+    public static final int IAFPDGKDPPH_FIELD_NUMBER = 14;
+    private boolean iAFPDGKDPPH_;
     /**
-     * <code>uint32 word_id = 9;</code>
-     * @return The wordId.
+     * <code>bool IAFPDGKDPPH = 14;</code>
+     * @return The iAFPDGKDPPH.
      */
     @java.lang.Override
-    public int getWordId() {
-      return wordId_;
+    public boolean getIAFPDGKDPPH() {
+      return iAFPDGKDPPH_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -223,20 +241,23 @@ public final class InfernceWordInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (hKJHBOMCGLK_ != false) {
-        output.writeBool(1, hKJHBOMCGLK_);
-      }
-      if (jKDGMJCFEDH_ != false) {
-        output.writeBool(16000, jKDGMJCFEDH_);
+      if (associateWordId_ != 0) {
+        output.writeUInt32(1, associateWordId_);
       }
       if (wordId_ != 0) {
-        output.writeUInt32(13, wordId_);
-      }
-      if (dGMLJIKFAMI_ != false) {
-        output.writeBool(11, dGMLJIKFAMI_);
+        output.writeUInt32(6, wordId_);
       }
       if (unlockByWordId_ != 0) {
-        output.writeUInt32(2, unlockByWordId_);
+        output.writeUInt32(8, unlockByWordId_);
+      }
+      if (dgmljikfami_ != false) {
+        output.writeBool(11, dgmljikfami_);
+      }
+      if (dKHJIGMFFOG_ != false) {
+        output.writeBool(13, dKHJIGMFFOG_);
+      }
+      if (iAFPDGKDPPH_ != false) {
+        output.writeBool(14, iAFPDGKDPPH_);
       }
       unknownFields.writeTo(output);
     }
@@ -247,25 +268,29 @@ public final class InfernceWordInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (hKJHBOMCGLK_ != false) {
+      if (associateWordId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1, hKJHBOMCGLK_);
-      }
-      if (jKDGMJCFEDH_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(16000, jKDGMJCFEDH_);
+          .computeUInt32Size(1, associateWordId_);
       }
       if (wordId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, wordId_);
-      }
-      if (dGMLJIKFAMI_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, dGMLJIKFAMI_);
+          .computeUInt32Size(6, wordId_);
       }
       if (unlockByWordId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, unlockByWordId_);
+          .computeUInt32Size(8, unlockByWordId_);
+      }
+      if (dgmljikfami_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(11, dgmljikfami_);
+      }
+      if (dKHJIGMFFOG_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(13, dKHJIGMFFOG_);
+      }
+      if (iAFPDGKDPPH_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(14, iAFPDGKDPPH_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -282,16 +307,18 @@ public final class InfernceWordInfoOuterClass {
       }
       emu.grasscutter.net.proto.InfernceWordInfoOuterClass.InfernceWordInfo other = (emu.grasscutter.net.proto.InfernceWordInfoOuterClass.InfernceWordInfo) obj;
 
-      if (getUnlockByWordId()
-          != other.getUnlockByWordId()) return false;
-      if (getJKDGMJCFEDH()
-          != other.getJKDGMJCFEDH()) return false;
-      if (getDGMLJIKFAMI()
-          != other.getDGMLJIKFAMI()) return false;
-      if (getHKJHBOMCGLK()
-          != other.getHKJHBOMCGLK()) return false;
+      if (getAssociateWordId()
+          != other.getAssociateWordId()) return false;
       if (getWordId()
           != other.getWordId()) return false;
+      if (getUnlockByWordId()
+          != other.getUnlockByWordId()) return false;
+      if (getDgmljikfami()
+          != other.getDgmljikfami()) return false;
+      if (getDKHJIGMFFOG()
+          != other.getDKHJIGMFFOG()) return false;
+      if (getIAFPDGKDPPH()
+          != other.getIAFPDGKDPPH()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -303,19 +330,21 @@ public final class InfernceWordInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + UNLOCK_BY_WORD_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getUnlockByWordId();
-      hash = (37 * hash) + JKDGMJCFEDH_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getJKDGMJCFEDH());
-      hash = (37 * hash) + DGMLJIKFAMI_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getDGMLJIKFAMI());
-      hash = (37 * hash) + HKJHBOMCGLK_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getHKJHBOMCGLK());
+      hash = (37 * hash) + ASSOCIATE_WORD_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getAssociateWordId();
       hash = (37 * hash) + WORD_ID_FIELD_NUMBER;
       hash = (53 * hash) + getWordId();
+      hash = (37 * hash) + UNLOCK_BY_WORD_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getUnlockByWordId();
+      hash = (37 * hash) + DGMLJIKFAMI_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDgmljikfami());
+      hash = (37 * hash) + DKHJIGMFFOG_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDKHJIGMFFOG());
+      hash = (37 * hash) + IAFPDGKDPPH_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIAFPDGKDPPH());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -412,10 +441,6 @@ public final class InfernceWordInfoOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * Obf: JBNOKAPFIAH
-     * </pre>
-     *
      * Protobuf type {@code InfernceWordInfo}
      */
     public static final class Builder extends
@@ -453,15 +478,17 @@ public final class InfernceWordInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        unlockByWordId_ = 0;
-
-        jKDGMJCFEDH_ = false;
-
-        dGMLJIKFAMI_ = false;
-
-        hKJHBOMCGLK_ = false;
+        associateWordId_ = 0;
 
         wordId_ = 0;
+
+        unlockByWordId_ = 0;
+
+        dgmljikfami_ = false;
+
+        dKHJIGMFFOG_ = false;
+
+        iAFPDGKDPPH_ = false;
 
         return this;
       }
@@ -489,11 +516,12 @@ public final class InfernceWordInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.InfernceWordInfoOuterClass.InfernceWordInfo buildPartial() {
         emu.grasscutter.net.proto.InfernceWordInfoOuterClass.InfernceWordInfo result = new emu.grasscutter.net.proto.InfernceWordInfoOuterClass.InfernceWordInfo(this);
-        result.unlockByWordId_ = unlockByWordId_;
-        result.jKDGMJCFEDH_ = jKDGMJCFEDH_;
-        result.dGMLJIKFAMI_ = dGMLJIKFAMI_;
-        result.hKJHBOMCGLK_ = hKJHBOMCGLK_;
+        result.associateWordId_ = associateWordId_;
         result.wordId_ = wordId_;
+        result.unlockByWordId_ = unlockByWordId_;
+        result.dgmljikfami_ = dgmljikfami_;
+        result.dKHJIGMFFOG_ = dKHJIGMFFOG_;
+        result.iAFPDGKDPPH_ = iAFPDGKDPPH_;
         onBuilt();
         return result;
       }
@@ -542,20 +570,23 @@ public final class InfernceWordInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.InfernceWordInfoOuterClass.InfernceWordInfo other) {
         if (other == emu.grasscutter.net.proto.InfernceWordInfoOuterClass.InfernceWordInfo.getDefaultInstance()) return this;
-        if (other.getUnlockByWordId() != 0) {
-          setUnlockByWordId(other.getUnlockByWordId());
-        }
-        if (other.getJKDGMJCFEDH() != false) {
-          setJKDGMJCFEDH(other.getJKDGMJCFEDH());
-        }
-        if (other.getDGMLJIKFAMI() != false) {
-          setDGMLJIKFAMI(other.getDGMLJIKFAMI());
-        }
-        if (other.getHKJHBOMCGLK() != false) {
-          setHKJHBOMCGLK(other.getHKJHBOMCGLK());
+        if (other.getAssociateWordId() != 0) {
+          setAssociateWordId(other.getAssociateWordId());
         }
         if (other.getWordId() != 0) {
           setWordId(other.getWordId());
+        }
+        if (other.getUnlockByWordId() != 0) {
+          setUnlockByWordId(other.getUnlockByWordId());
+        }
+        if (other.getDgmljikfami() != false) {
+          setDgmljikfami(other.getDgmljikfami());
+        }
+        if (other.getDKHJIGMFFOG() != false) {
+          setDKHJIGMFFOG(other.getDKHJIGMFFOG());
+        }
+        if (other.getIAFPDGKDPPH() != false) {
+          setIAFPDGKDPPH(other.getIAFPDGKDPPH());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -586,133 +617,40 @@ public final class InfernceWordInfoOuterClass {
         return this;
       }
 
-      private int unlockByWordId_ ;
+      private int associateWordId_ ;
       /**
-       * <code>uint32 unlock_by_word_id = 13;</code>
-       * @return The unlockByWordId.
+       * <code>uint32 associate_word_id = 1;</code>
+       * @return The associateWordId.
        */
       @java.lang.Override
-      public int getUnlockByWordId() {
-        return unlockByWordId_;
+      public int getAssociateWordId() {
+        return associateWordId_;
       }
       /**
-       * <code>uint32 unlock_by_word_id = 13;</code>
-       * @param value The unlockByWordId to set.
+       * <code>uint32 associate_word_id = 1;</code>
+       * @param value The associateWordId to set.
        * @return This builder for chaining.
        */
-      public Builder setUnlockByWordId(int value) {
+      public Builder setAssociateWordId(int value) {
         
-        unlockByWordId_ = value;
+        associateWordId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 unlock_by_word_id = 13;</code>
+       * <code>uint32 associate_word_id = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnlockByWordId() {
+      public Builder clearAssociateWordId() {
         
-        unlockByWordId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private boolean jKDGMJCFEDH_ ;
-      /**
-       * <code>bool JKDGMJCFEDH = 2;</code>
-       * @return The jKDGMJCFEDH.
-       */
-      @java.lang.Override
-      public boolean getJKDGMJCFEDH() {
-        return jKDGMJCFEDH_;
-      }
-      /**
-       * <code>bool JKDGMJCFEDH = 2;</code>
-       * @param value The jKDGMJCFEDH to set.
-       * @return This builder for chaining.
-       */
-      public Builder setJKDGMJCFEDH(boolean value) {
-        
-        jKDGMJCFEDH_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool JKDGMJCFEDH = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearJKDGMJCFEDH() {
-        
-        jKDGMJCFEDH_ = false;
-        onChanged();
-        return this;
-      }
-
-      private boolean dGMLJIKFAMI_ ;
-      /**
-       * <code>bool DGMLJIKFAMI = 11;</code>
-       * @return The dGMLJIKFAMI.
-       */
-      @java.lang.Override
-      public boolean getDGMLJIKFAMI() {
-        return dGMLJIKFAMI_;
-      }
-      /**
-       * <code>bool DGMLJIKFAMI = 11;</code>
-       * @param value The dGMLJIKFAMI to set.
-       * @return This builder for chaining.
-       */
-      public Builder setDGMLJIKFAMI(boolean value) {
-        
-        dGMLJIKFAMI_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool DGMLJIKFAMI = 11;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearDGMLJIKFAMI() {
-        
-        dGMLJIKFAMI_ = false;
-        onChanged();
-        return this;
-      }
-
-      private boolean hKJHBOMCGLK_ ;
-      /**
-       * <code>bool HKJHBOMCGLK = 1;</code>
-       * @return The hKJHBOMCGLK.
-       */
-      @java.lang.Override
-      public boolean getHKJHBOMCGLK() {
-        return hKJHBOMCGLK_;
-      }
-      /**
-       * <code>bool HKJHBOMCGLK = 1;</code>
-       * @param value The hKJHBOMCGLK to set.
-       * @return This builder for chaining.
-       */
-      public Builder setHKJHBOMCGLK(boolean value) {
-        
-        hKJHBOMCGLK_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool HKJHBOMCGLK = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearHKJHBOMCGLK() {
-        
-        hKJHBOMCGLK_ = false;
+        associateWordId_ = 0;
         onChanged();
         return this;
       }
 
       private int wordId_ ;
       /**
-       * <code>uint32 word_id = 9;</code>
+       * <code>uint32 word_id = 6;</code>
        * @return The wordId.
        */
       @java.lang.Override
@@ -720,7 +658,7 @@ public final class InfernceWordInfoOuterClass {
         return wordId_;
       }
       /**
-       * <code>uint32 word_id = 9;</code>
+       * <code>uint32 word_id = 6;</code>
        * @param value The wordId to set.
        * @return This builder for chaining.
        */
@@ -731,12 +669,136 @@ public final class InfernceWordInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 word_id = 9;</code>
+       * <code>uint32 word_id = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearWordId() {
         
         wordId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int unlockByWordId_ ;
+      /**
+       * <code>uint32 unlock_by_word_id = 8;</code>
+       * @return The unlockByWordId.
+       */
+      @java.lang.Override
+      public int getUnlockByWordId() {
+        return unlockByWordId_;
+      }
+      /**
+       * <code>uint32 unlock_by_word_id = 8;</code>
+       * @param value The unlockByWordId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setUnlockByWordId(int value) {
+        
+        unlockByWordId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 unlock_by_word_id = 8;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearUnlockByWordId() {
+        
+        unlockByWordId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private boolean dgmljikfami_ ;
+      /**
+       * <code>bool dgmljikfami = 11;</code>
+       * @return The dgmljikfami.
+       */
+      @java.lang.Override
+      public boolean getDgmljikfami() {
+        return dgmljikfami_;
+      }
+      /**
+       * <code>bool dgmljikfami = 11;</code>
+       * @param value The dgmljikfami to set.
+       * @return This builder for chaining.
+       */
+      public Builder setDgmljikfami(boolean value) {
+        
+        dgmljikfami_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool dgmljikfami = 11;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearDgmljikfami() {
+        
+        dgmljikfami_ = false;
+        onChanged();
+        return this;
+      }
+
+      private boolean dKHJIGMFFOG_ ;
+      /**
+       * <code>bool DKHJIGMFFOG = 13;</code>
+       * @return The dKHJIGMFFOG.
+       */
+      @java.lang.Override
+      public boolean getDKHJIGMFFOG() {
+        return dKHJIGMFFOG_;
+      }
+      /**
+       * <code>bool DKHJIGMFFOG = 13;</code>
+       * @param value The dKHJIGMFFOG to set.
+       * @return This builder for chaining.
+       */
+      public Builder setDKHJIGMFFOG(boolean value) {
+        
+        dKHJIGMFFOG_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool DKHJIGMFFOG = 13;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearDKHJIGMFFOG() {
+        
+        dKHJIGMFFOG_ = false;
+        onChanged();
+        return this;
+      }
+
+      private boolean iAFPDGKDPPH_ ;
+      /**
+       * <code>bool IAFPDGKDPPH = 14;</code>
+       * @return The iAFPDGKDPPH.
+       */
+      @java.lang.Override
+      public boolean getIAFPDGKDPPH() {
+        return iAFPDGKDPPH_;
+      }
+      /**
+       * <code>bool IAFPDGKDPPH = 14;</code>
+       * @param value The iAFPDGKDPPH to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIAFPDGKDPPH(boolean value) {
+        
+        iAFPDGKDPPH_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool IAFPDGKDPPH = 14;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIAFPDGKDPPH() {
+        
+        iAFPDGKDPPH_ = false;
         onChanged();
         return this;
       }
@@ -807,11 +869,13 @@ public final class InfernceWordInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\026InfernceWordInfo.proto\"}\n\020InfernceWord" +
-      "Info\022\031\n\021unlock_by_word_id\030\r \001(\r\022\023\n\013JKDGM" +
-      "JCFEDH\030\002 \001(\010\022\023\n\013DGMLJIKFAMI\030\013 \001(\010\022\023\n\013HKJ" +
-      "HBOMCGLK\030\001 \001(\010\022\017\n\007word_id\030\t \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "\n\026InfernceWordInfo.proto\"\230\001\n\020InfernceWor" +
+      "dInfo\022\031\n\021associate_word_id\030\001 \001(\r\022\017\n\007word" +
+      "_id\030\006 \001(\r\022\031\n\021unlock_by_word_id\030\010 \001(\r\022\023\n\013" +
+      "dgmljikfami\030\013 \001(\010\022\023\n\013DKHJIGMFFOG\030\r \001(\010\022\023" +
+      "\n\013IAFPDGKDPPH\030\016 \001(\010B7\n\031emu.grasscutter.n" +
+      "et.protoB\032InfernceWordInfoOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -822,7 +886,7 @@ public final class InfernceWordInfoOuterClass {
     internal_static_InfernceWordInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_InfernceWordInfo_descriptor,
-        new java.lang.String[] { "UnlockByWordId", "JKDGMJCFEDH", "DGMLJIKFAMI", "HKJHBOMCGLK", "WordId", });
+        new java.lang.String[] { "AssociateWordId", "WordId", "UnlockByWordId", "Dgmljikfami", "DKHJIGMFFOG", "IAFPDGKDPPH", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

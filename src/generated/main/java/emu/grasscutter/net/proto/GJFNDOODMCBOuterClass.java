@@ -19,55 +19,55 @@ public final class GJFNDOODMCBOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>map&lt;uint32, uint32&gt; OGJDJMGHNAE = 14;</code>
+     * <code>repeated uint32 PJABINOBEJL = 1;</code>
+     * @return A list containing the pJABINOBEJL.
      */
-    int getOGJDJMGHNAECount();
+    java.util.List<java.lang.Integer> getPJABINOBEJLList();
     /**
-     * <code>map&lt;uint32, uint32&gt; OGJDJMGHNAE = 14;</code>
+     * <code>repeated uint32 PJABINOBEJL = 1;</code>
+     * @return The count of pJABINOBEJL.
      */
-    boolean containsOGJDJMGHNAE(
+    int getPJABINOBEJLCount();
+    /**
+     * <code>repeated uint32 PJABINOBEJL = 1;</code>
+     * @param index The index of the element to return.
+     * @return The pJABINOBEJL at the given index.
+     */
+    int getPJABINOBEJL(int index);
+
+    /**
+     * <code>map&lt;uint32, uint32&gt; EBCJOCPDGID = 11;</code>
+     */
+    int getEBCJOCPDGIDCount();
+    /**
+     * <code>map&lt;uint32, uint32&gt; EBCJOCPDGID = 11;</code>
+     */
+    boolean containsEBCJOCPDGID(
         int key);
     /**
-     * Use {@link #getOGJDJMGHNAEMap()} instead.
+     * Use {@link #getEBCJOCPDGIDMap()} instead.
      */
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Integer>
-    getOGJDJMGHNAE();
+    getEBCJOCPDGID();
     /**
-     * <code>map&lt;uint32, uint32&gt; OGJDJMGHNAE = 14;</code>
+     * <code>map&lt;uint32, uint32&gt; EBCJOCPDGID = 11;</code>
      */
     java.util.Map<java.lang.Integer, java.lang.Integer>
-    getOGJDJMGHNAEMap();
+    getEBCJOCPDGIDMap();
     /**
-     * <code>map&lt;uint32, uint32&gt; OGJDJMGHNAE = 14;</code>
+     * <code>map&lt;uint32, uint32&gt; EBCJOCPDGID = 11;</code>
      */
 
-    int getOGJDJMGHNAEOrDefault(
+    int getEBCJOCPDGIDOrDefault(
         int key,
         int defaultValue);
     /**
-     * <code>map&lt;uint32, uint32&gt; OGJDJMGHNAE = 14;</code>
+     * <code>map&lt;uint32, uint32&gt; EBCJOCPDGID = 11;</code>
      */
 
-    int getOGJDJMGHNAEOrThrow(
+    int getEBCJOCPDGIDOrThrow(
         int key);
-
-    /**
-     * <code>repeated uint32 ABINJMLALLB = 5;</code>
-     * @return A list containing the aBINJMLALLB.
-     */
-    java.util.List<java.lang.Integer> getABINJMLALLBList();
-    /**
-     * <code>repeated uint32 ABINJMLALLB = 5;</code>
-     * @return The count of aBINJMLALLB.
-     */
-    int getABINJMLALLBCount();
-    /**
-     * <code>repeated uint32 ABINJMLALLB = 5;</code>
-     * @param index The index of the element to return.
-     * @return The aBINJMLALLB at the given index.
-     */
-    int getABINJMLALLB(int index);
   }
   /**
    * Protobuf type {@code GJFNDOODMCB}
@@ -82,7 +82,7 @@ public final class GJFNDOODMCBOuterClass {
       super(builder);
     }
     private GJFNDOODMCB() {
-      aBINJMLALLB_ = emptyIntList();
+      pJABINOBEJL_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -116,38 +116,38 @@ public final class GJFNDOODMCBOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                aBINJMLALLB_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
+            case 8: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                pJABINOBEJL_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
               }
-              aBINJMLALLB_.addInt(input.readUInt32());
+              pJABINOBEJL_.addInt(input.readUInt32());
               break;
             }
-            case 42: {
+            case 10: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
-                aBINJMLALLB_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
+                pJABINOBEJL_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
-                aBINJMLALLB_.addInt(input.readUInt32());
+                pJABINOBEJL_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
             }
-            case 114: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                oGJDJMGHNAE_ = com.google.protobuf.MapField.newMapField(
-                    OGJDJMGHNAEDefaultEntryHolder.defaultEntry);
-                mutable_bitField0_ |= 0x00000001;
+            case 90: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                eBCJOCPDGID_ = com.google.protobuf.MapField.newMapField(
+                    EBCJOCPDGIDDefaultEntryHolder.defaultEntry);
+                mutable_bitField0_ |= 0x00000002;
               }
               com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
-              oGJDJMGHNAE__ = input.readMessage(
-                  OGJDJMGHNAEDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
-              oGJDJMGHNAE_.getMutableMap().put(
-                  oGJDJMGHNAE__.getKey(), oGJDJMGHNAE__.getValue());
+              eBCJOCPDGID__ = input.readMessage(
+                  EBCJOCPDGIDDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
+              eBCJOCPDGID_.getMutableMap().put(
+                  eBCJOCPDGID__.getKey(), eBCJOCPDGID__.getValue());
               break;
             }
             default: {
@@ -165,8 +165,8 @@ public final class GJFNDOODMCBOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000002) != 0)) {
-          aBINJMLALLB_.makeImmutable(); // C
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          pJABINOBEJL_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -182,8 +182,8 @@ public final class GJFNDOODMCBOuterClass {
     protected com.google.protobuf.MapField internalGetMapField(
         int number) {
       switch (number) {
-        case 14:
-          return internalGetOGJDJMGHNAE();
+        case 11:
+          return internalGetEBCJOCPDGID();
         default:
           throw new RuntimeException(
               "Invalid map field number: " + number);
@@ -197,114 +197,114 @@ public final class GJFNDOODMCBOuterClass {
               emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCB.class, emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCB.Builder.class);
     }
 
-    public static final int OGJDJMGHNAE_FIELD_NUMBER = 14;
-    private static final class OGJDJMGHNAEDefaultEntryHolder {
+    public static final int PJABINOBEJL_FIELD_NUMBER = 1;
+    private com.google.protobuf.Internal.IntList pJABINOBEJL_;
+    /**
+     * <code>repeated uint32 PJABINOBEJL = 1;</code>
+     * @return A list containing the pJABINOBEJL.
+     */
+    @java.lang.Override
+    public java.util.List<java.lang.Integer>
+        getPJABINOBEJLList() {
+      return pJABINOBEJL_;
+    }
+    /**
+     * <code>repeated uint32 PJABINOBEJL = 1;</code>
+     * @return The count of pJABINOBEJL.
+     */
+    public int getPJABINOBEJLCount() {
+      return pJABINOBEJL_.size();
+    }
+    /**
+     * <code>repeated uint32 PJABINOBEJL = 1;</code>
+     * @param index The index of the element to return.
+     * @return The pJABINOBEJL at the given index.
+     */
+    public int getPJABINOBEJL(int index) {
+      return pJABINOBEJL_.getInt(index);
+    }
+    private int pJABINOBEJLMemoizedSerializedSize = -1;
+
+    public static final int EBCJOCPDGID_FIELD_NUMBER = 11;
+    private static final class EBCJOCPDGIDDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.internal_static_GJFNDOODMCB_OGJDJMGHNAEEntry_descriptor, 
+                  emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.internal_static_GJFNDOODMCB_EBCJOCPDGIDEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0);
     }
     private com.google.protobuf.MapField<
-        java.lang.Integer, java.lang.Integer> oGJDJMGHNAE_;
+        java.lang.Integer, java.lang.Integer> eBCJOCPDGID_;
     private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-    internalGetOGJDJMGHNAE() {
-      if (oGJDJMGHNAE_ == null) {
+    internalGetEBCJOCPDGID() {
+      if (eBCJOCPDGID_ == null) {
         return com.google.protobuf.MapField.emptyMapField(
-            OGJDJMGHNAEDefaultEntryHolder.defaultEntry);
+            EBCJOCPDGIDDefaultEntryHolder.defaultEntry);
       }
-      return oGJDJMGHNAE_;
+      return eBCJOCPDGID_;
     }
 
-    public int getOGJDJMGHNAECount() {
-      return internalGetOGJDJMGHNAE().getMap().size();
+    public int getEBCJOCPDGIDCount() {
+      return internalGetEBCJOCPDGID().getMap().size();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; OGJDJMGHNAE = 14;</code>
+     * <code>map&lt;uint32, uint32&gt; EBCJOCPDGID = 11;</code>
      */
 
     @java.lang.Override
-    public boolean containsOGJDJMGHNAE(
+    public boolean containsEBCJOCPDGID(
         int key) {
       
-      return internalGetOGJDJMGHNAE().getMap().containsKey(key);
+      return internalGetEBCJOCPDGID().getMap().containsKey(key);
     }
     /**
-     * Use {@link #getOGJDJMGHNAEMap()} instead.
+     * Use {@link #getEBCJOCPDGIDMap()} instead.
      */
     @java.lang.Override
     @java.lang.Deprecated
-    public java.util.Map<java.lang.Integer, java.lang.Integer> getOGJDJMGHNAE() {
-      return getOGJDJMGHNAEMap();
+    public java.util.Map<java.lang.Integer, java.lang.Integer> getEBCJOCPDGID() {
+      return getEBCJOCPDGIDMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; OGJDJMGHNAE = 14;</code>
+     * <code>map&lt;uint32, uint32&gt; EBCJOCPDGID = 11;</code>
      */
     @java.lang.Override
 
-    public java.util.Map<java.lang.Integer, java.lang.Integer> getOGJDJMGHNAEMap() {
-      return internalGetOGJDJMGHNAE().getMap();
+    public java.util.Map<java.lang.Integer, java.lang.Integer> getEBCJOCPDGIDMap() {
+      return internalGetEBCJOCPDGID().getMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; OGJDJMGHNAE = 14;</code>
+     * <code>map&lt;uint32, uint32&gt; EBCJOCPDGID = 11;</code>
      */
     @java.lang.Override
 
-    public int getOGJDJMGHNAEOrDefault(
+    public int getEBCJOCPDGIDOrDefault(
         int key,
         int defaultValue) {
       
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
-          internalGetOGJDJMGHNAE().getMap();
+          internalGetEBCJOCPDGID().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; OGJDJMGHNAE = 14;</code>
+     * <code>map&lt;uint32, uint32&gt; EBCJOCPDGID = 11;</code>
      */
     @java.lang.Override
 
-    public int getOGJDJMGHNAEOrThrow(
+    public int getEBCJOCPDGIDOrThrow(
         int key) {
       
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
-          internalGetOGJDJMGHNAE().getMap();
+          internalGetEBCJOCPDGID().getMap();
       if (!map.containsKey(key)) {
         throw new java.lang.IllegalArgumentException();
       }
       return map.get(key);
     }
-
-    public static final int ABINJMLALLB_FIELD_NUMBER = 5;
-    private com.google.protobuf.Internal.IntList aBINJMLALLB_;
-    /**
-     * <code>repeated uint32 ABINJMLALLB = 5;</code>
-     * @return A list containing the aBINJMLALLB.
-     */
-    @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getABINJMLALLBList() {
-      return aBINJMLALLB_;
-    }
-    /**
-     * <code>repeated uint32 ABINJMLALLB = 5;</code>
-     * @return The count of aBINJMLALLB.
-     */
-    public int getABINJMLALLBCount() {
-      return aBINJMLALLB_.size();
-    }
-    /**
-     * <code>repeated uint32 ABINJMLALLB = 5;</code>
-     * @param index The index of the element to return.
-     * @return The aBINJMLALLB at the given index.
-     */
-    public int getABINJMLALLB(int index) {
-      return aBINJMLALLB_.getInt(index);
-    }
-    private int aBINJMLALLBMemoizedSerializedSize = -1;
 
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
@@ -321,19 +321,19 @@ public final class GJFNDOODMCBOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (getABINJMLALLBList().size() > 0) {
-        output.writeUInt32NoTag(42);
-        output.writeUInt32NoTag(aBINJMLALLBMemoizedSerializedSize);
+      if (getPJABINOBEJLList().size() > 0) {
+        output.writeUInt32NoTag(10);
+        output.writeUInt32NoTag(pJABINOBEJLMemoizedSerializedSize);
       }
-      for (int i = 0; i < aBINJMLALLB_.size(); i++) {
-        output.writeUInt32NoTag(aBINJMLALLB_.getInt(i));
+      for (int i = 0; i < pJABINOBEJL_.size(); i++) {
+        output.writeUInt32NoTag(pJABINOBEJL_.getInt(i));
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
-          internalGetOGJDJMGHNAE(),
-          OGJDJMGHNAEDefaultEntryHolder.defaultEntry,
-          14);
+          internalGetEBCJOCPDGID(),
+          EBCJOCPDGIDDefaultEntryHolder.defaultEntry,
+          11);
       unknownFields.writeTo(output);
     }
 
@@ -345,27 +345,27 @@ public final class GJFNDOODMCBOuterClass {
       size = 0;
       {
         int dataSize = 0;
-        for (int i = 0; i < aBINJMLALLB_.size(); i++) {
+        for (int i = 0; i < pJABINOBEJL_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(aBINJMLALLB_.getInt(i));
+            .computeUInt32SizeNoTag(pJABINOBEJL_.getInt(i));
         }
         size += dataSize;
-        if (!getABINJMLALLBList().isEmpty()) {
+        if (!getPJABINOBEJLList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        aBINJMLALLBMemoizedSerializedSize = dataSize;
+        pJABINOBEJLMemoizedSerializedSize = dataSize;
       }
       for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
-           : internalGetOGJDJMGHNAE().getMap().entrySet()) {
+           : internalGetEBCJOCPDGID().getMap().entrySet()) {
         com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
-        oGJDJMGHNAE__ = OGJDJMGHNAEDefaultEntryHolder.defaultEntry.newBuilderForType()
+        eBCJOCPDGID__ = EBCJOCPDGIDDefaultEntryHolder.defaultEntry.newBuilderForType()
             .setKey(entry.getKey())
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(14, oGJDJMGHNAE__);
+            .computeMessageSize(11, eBCJOCPDGID__);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -382,10 +382,10 @@ public final class GJFNDOODMCBOuterClass {
       }
       emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCB other = (emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCB) obj;
 
-      if (!internalGetOGJDJMGHNAE().equals(
-          other.internalGetOGJDJMGHNAE())) return false;
-      if (!getABINJMLALLBList()
-          .equals(other.getABINJMLALLBList())) return false;
+      if (!getPJABINOBEJLList()
+          .equals(other.getPJABINOBEJLList())) return false;
+      if (!internalGetEBCJOCPDGID().equals(
+          other.internalGetEBCJOCPDGID())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -397,13 +397,13 @@ public final class GJFNDOODMCBOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (!internalGetOGJDJMGHNAE().getMap().isEmpty()) {
-        hash = (37 * hash) + OGJDJMGHNAE_FIELD_NUMBER;
-        hash = (53 * hash) + internalGetOGJDJMGHNAE().hashCode();
+      if (getPJABINOBEJLCount() > 0) {
+        hash = (37 * hash) + PJABINOBEJL_FIELD_NUMBER;
+        hash = (53 * hash) + getPJABINOBEJLList().hashCode();
       }
-      if (getABINJMLALLBCount() > 0) {
-        hash = (37 * hash) + ABINJMLALLB_FIELD_NUMBER;
-        hash = (53 * hash) + getABINJMLALLBList().hashCode();
+      if (!internalGetEBCJOCPDGID().getMap().isEmpty()) {
+        hash = (37 * hash) + EBCJOCPDGID_FIELD_NUMBER;
+        hash = (53 * hash) + internalGetEBCJOCPDGID().hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -516,8 +516,8 @@ public final class GJFNDOODMCBOuterClass {
       protected com.google.protobuf.MapField internalGetMapField(
           int number) {
         switch (number) {
-          case 14:
-            return internalGetOGJDJMGHNAE();
+          case 11:
+            return internalGetEBCJOCPDGID();
           default:
             throw new RuntimeException(
                 "Invalid map field number: " + number);
@@ -527,8 +527,8 @@ public final class GJFNDOODMCBOuterClass {
       protected com.google.protobuf.MapField internalGetMutableMapField(
           int number) {
         switch (number) {
-          case 14:
-            return internalGetMutableOGJDJMGHNAE();
+          case 11:
+            return internalGetMutableEBCJOCPDGID();
           default:
             throw new RuntimeException(
                 "Invalid map field number: " + number);
@@ -560,9 +560,9 @@ public final class GJFNDOODMCBOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        internalGetMutableOGJDJMGHNAE().clear();
-        aBINJMLALLB_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
+        pJABINOBEJL_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
+        internalGetMutableEBCJOCPDGID().clear();
         return this;
       }
 
@@ -590,13 +590,13 @@ public final class GJFNDOODMCBOuterClass {
       public emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCB buildPartial() {
         emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCB result = new emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCB(this);
         int from_bitField0_ = bitField0_;
-        result.oGJDJMGHNAE_ = internalGetOGJDJMGHNAE();
-        result.oGJDJMGHNAE_.makeImmutable();
-        if (((bitField0_ & 0x00000002) != 0)) {
-          aBINJMLALLB_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000002);
+        if (((bitField0_ & 0x00000001) != 0)) {
+          pJABINOBEJL_.makeImmutable();
+          bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.aBINJMLALLB_ = aBINJMLALLB_;
+        result.pJABINOBEJL_ = pJABINOBEJL_;
+        result.eBCJOCPDGID_ = internalGetEBCJOCPDGID();
+        result.eBCJOCPDGID_.makeImmutable();
         onBuilt();
         return result;
       }
@@ -645,18 +645,18 @@ public final class GJFNDOODMCBOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCB other) {
         if (other == emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCB.getDefaultInstance()) return this;
-        internalGetMutableOGJDJMGHNAE().mergeFrom(
-            other.internalGetOGJDJMGHNAE());
-        if (!other.aBINJMLALLB_.isEmpty()) {
-          if (aBINJMLALLB_.isEmpty()) {
-            aBINJMLALLB_ = other.aBINJMLALLB_;
-            bitField0_ = (bitField0_ & ~0x00000002);
+        if (!other.pJABINOBEJL_.isEmpty()) {
+          if (pJABINOBEJL_.isEmpty()) {
+            pJABINOBEJL_ = other.pJABINOBEJL_;
+            bitField0_ = (bitField0_ & ~0x00000001);
           } else {
-            ensureABINJMLALLBIsMutable();
-            aBINJMLALLB_.addAll(other.aBINJMLALLB_);
+            ensurePJABINOBEJLIsMutable();
+            pJABINOBEJL_.addAll(other.pJABINOBEJL_);
           }
           onChanged();
         }
+        internalGetMutableEBCJOCPDGID().mergeFrom(
+            other.internalGetEBCJOCPDGID());
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
         return this;
@@ -687,100 +687,179 @@ public final class GJFNDOODMCBOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.MapField<
-          java.lang.Integer, java.lang.Integer> oGJDJMGHNAE_;
-      private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-      internalGetOGJDJMGHNAE() {
-        if (oGJDJMGHNAE_ == null) {
-          return com.google.protobuf.MapField.emptyMapField(
-              OGJDJMGHNAEDefaultEntryHolder.defaultEntry);
-        }
-        return oGJDJMGHNAE_;
-      }
-      private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-      internalGetMutableOGJDJMGHNAE() {
-        onChanged();;
-        if (oGJDJMGHNAE_ == null) {
-          oGJDJMGHNAE_ = com.google.protobuf.MapField.newMapField(
-              OGJDJMGHNAEDefaultEntryHolder.defaultEntry);
-        }
-        if (!oGJDJMGHNAE_.isMutable()) {
-          oGJDJMGHNAE_ = oGJDJMGHNAE_.copy();
-        }
-        return oGJDJMGHNAE_;
-      }
-
-      public int getOGJDJMGHNAECount() {
-        return internalGetOGJDJMGHNAE().getMap().size();
+      private com.google.protobuf.Internal.IntList pJABINOBEJL_ = emptyIntList();
+      private void ensurePJABINOBEJLIsMutable() {
+        if (!((bitField0_ & 0x00000001) != 0)) {
+          pJABINOBEJL_ = mutableCopy(pJABINOBEJL_);
+          bitField0_ |= 0x00000001;
+         }
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; OGJDJMGHNAE = 14;</code>
+       * <code>repeated uint32 PJABINOBEJL = 1;</code>
+       * @return A list containing the pJABINOBEJL.
+       */
+      public java.util.List<java.lang.Integer>
+          getPJABINOBEJLList() {
+        return ((bitField0_ & 0x00000001) != 0) ?
+                 java.util.Collections.unmodifiableList(pJABINOBEJL_) : pJABINOBEJL_;
+      }
+      /**
+       * <code>repeated uint32 PJABINOBEJL = 1;</code>
+       * @return The count of pJABINOBEJL.
+       */
+      public int getPJABINOBEJLCount() {
+        return pJABINOBEJL_.size();
+      }
+      /**
+       * <code>repeated uint32 PJABINOBEJL = 1;</code>
+       * @param index The index of the element to return.
+       * @return The pJABINOBEJL at the given index.
+       */
+      public int getPJABINOBEJL(int index) {
+        return pJABINOBEJL_.getInt(index);
+      }
+      /**
+       * <code>repeated uint32 PJABINOBEJL = 1;</code>
+       * @param index The index to set the value at.
+       * @param value The pJABINOBEJL to set.
+       * @return This builder for chaining.
+       */
+      public Builder setPJABINOBEJL(
+          int index, int value) {
+        ensurePJABINOBEJLIsMutable();
+        pJABINOBEJL_.setInt(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 PJABINOBEJL = 1;</code>
+       * @param value The pJABINOBEJL to add.
+       * @return This builder for chaining.
+       */
+      public Builder addPJABINOBEJL(int value) {
+        ensurePJABINOBEJLIsMutable();
+        pJABINOBEJL_.addInt(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 PJABINOBEJL = 1;</code>
+       * @param values The pJABINOBEJL to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllPJABINOBEJL(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensurePJABINOBEJLIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, pJABINOBEJL_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 PJABINOBEJL = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearPJABINOBEJL() {
+        pJABINOBEJL_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.MapField<
+          java.lang.Integer, java.lang.Integer> eBCJOCPDGID_;
+      private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
+      internalGetEBCJOCPDGID() {
+        if (eBCJOCPDGID_ == null) {
+          return com.google.protobuf.MapField.emptyMapField(
+              EBCJOCPDGIDDefaultEntryHolder.defaultEntry);
+        }
+        return eBCJOCPDGID_;
+      }
+      private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
+      internalGetMutableEBCJOCPDGID() {
+        onChanged();;
+        if (eBCJOCPDGID_ == null) {
+          eBCJOCPDGID_ = com.google.protobuf.MapField.newMapField(
+              EBCJOCPDGIDDefaultEntryHolder.defaultEntry);
+        }
+        if (!eBCJOCPDGID_.isMutable()) {
+          eBCJOCPDGID_ = eBCJOCPDGID_.copy();
+        }
+        return eBCJOCPDGID_;
+      }
+
+      public int getEBCJOCPDGIDCount() {
+        return internalGetEBCJOCPDGID().getMap().size();
+      }
+      /**
+       * <code>map&lt;uint32, uint32&gt; EBCJOCPDGID = 11;</code>
        */
 
       @java.lang.Override
-      public boolean containsOGJDJMGHNAE(
+      public boolean containsEBCJOCPDGID(
           int key) {
         
-        return internalGetOGJDJMGHNAE().getMap().containsKey(key);
+        return internalGetEBCJOCPDGID().getMap().containsKey(key);
       }
       /**
-       * Use {@link #getOGJDJMGHNAEMap()} instead.
+       * Use {@link #getEBCJOCPDGIDMap()} instead.
        */
       @java.lang.Override
       @java.lang.Deprecated
-      public java.util.Map<java.lang.Integer, java.lang.Integer> getOGJDJMGHNAE() {
-        return getOGJDJMGHNAEMap();
+      public java.util.Map<java.lang.Integer, java.lang.Integer> getEBCJOCPDGID() {
+        return getEBCJOCPDGIDMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; OGJDJMGHNAE = 14;</code>
+       * <code>map&lt;uint32, uint32&gt; EBCJOCPDGID = 11;</code>
        */
       @java.lang.Override
 
-      public java.util.Map<java.lang.Integer, java.lang.Integer> getOGJDJMGHNAEMap() {
-        return internalGetOGJDJMGHNAE().getMap();
+      public java.util.Map<java.lang.Integer, java.lang.Integer> getEBCJOCPDGIDMap() {
+        return internalGetEBCJOCPDGID().getMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; OGJDJMGHNAE = 14;</code>
+       * <code>map&lt;uint32, uint32&gt; EBCJOCPDGID = 11;</code>
        */
       @java.lang.Override
 
-      public int getOGJDJMGHNAEOrDefault(
+      public int getEBCJOCPDGIDOrDefault(
           int key,
           int defaultValue) {
         
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
-            internalGetOGJDJMGHNAE().getMap();
+            internalGetEBCJOCPDGID().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; OGJDJMGHNAE = 14;</code>
+       * <code>map&lt;uint32, uint32&gt; EBCJOCPDGID = 11;</code>
        */
       @java.lang.Override
 
-      public int getOGJDJMGHNAEOrThrow(
+      public int getEBCJOCPDGIDOrThrow(
           int key) {
         
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
-            internalGetOGJDJMGHNAE().getMap();
+            internalGetEBCJOCPDGID().getMap();
         if (!map.containsKey(key)) {
           throw new java.lang.IllegalArgumentException();
         }
         return map.get(key);
       }
 
-      public Builder clearOGJDJMGHNAE() {
-        internalGetMutableOGJDJMGHNAE().getMutableMap()
+      public Builder clearEBCJOCPDGID() {
+        internalGetMutableEBCJOCPDGID().getMutableMap()
             .clear();
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; OGJDJMGHNAE = 14;</code>
+       * <code>map&lt;uint32, uint32&gt; EBCJOCPDGID = 11;</code>
        */
 
-      public Builder removeOGJDJMGHNAE(
+      public Builder removeEBCJOCPDGID(
           int key) {
         
-        internalGetMutableOGJDJMGHNAE().getMutableMap()
+        internalGetMutableEBCJOCPDGID().getMutableMap()
             .remove(key);
         return this;
       }
@@ -789,108 +868,29 @@ public final class GJFNDOODMCBOuterClass {
        */
       @java.lang.Deprecated
       public java.util.Map<java.lang.Integer, java.lang.Integer>
-      getMutableOGJDJMGHNAE() {
-        return internalGetMutableOGJDJMGHNAE().getMutableMap();
+      getMutableEBCJOCPDGID() {
+        return internalGetMutableEBCJOCPDGID().getMutableMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; OGJDJMGHNAE = 14;</code>
+       * <code>map&lt;uint32, uint32&gt; EBCJOCPDGID = 11;</code>
        */
-      public Builder putOGJDJMGHNAE(
+      public Builder putEBCJOCPDGID(
           int key,
           int value) {
         
         
-        internalGetMutableOGJDJMGHNAE().getMutableMap()
+        internalGetMutableEBCJOCPDGID().getMutableMap()
             .put(key, value);
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; OGJDJMGHNAE = 14;</code>
+       * <code>map&lt;uint32, uint32&gt; EBCJOCPDGID = 11;</code>
        */
 
-      public Builder putAllOGJDJMGHNAE(
+      public Builder putAllEBCJOCPDGID(
           java.util.Map<java.lang.Integer, java.lang.Integer> values) {
-        internalGetMutableOGJDJMGHNAE().getMutableMap()
+        internalGetMutableEBCJOCPDGID().getMutableMap()
             .putAll(values);
-        return this;
-      }
-
-      private com.google.protobuf.Internal.IntList aBINJMLALLB_ = emptyIntList();
-      private void ensureABINJMLALLBIsMutable() {
-        if (!((bitField0_ & 0x00000002) != 0)) {
-          aBINJMLALLB_ = mutableCopy(aBINJMLALLB_);
-          bitField0_ |= 0x00000002;
-         }
-      }
-      /**
-       * <code>repeated uint32 ABINJMLALLB = 5;</code>
-       * @return A list containing the aBINJMLALLB.
-       */
-      public java.util.List<java.lang.Integer>
-          getABINJMLALLBList() {
-        return ((bitField0_ & 0x00000002) != 0) ?
-                 java.util.Collections.unmodifiableList(aBINJMLALLB_) : aBINJMLALLB_;
-      }
-      /**
-       * <code>repeated uint32 ABINJMLALLB = 5;</code>
-       * @return The count of aBINJMLALLB.
-       */
-      public int getABINJMLALLBCount() {
-        return aBINJMLALLB_.size();
-      }
-      /**
-       * <code>repeated uint32 ABINJMLALLB = 5;</code>
-       * @param index The index of the element to return.
-       * @return The aBINJMLALLB at the given index.
-       */
-      public int getABINJMLALLB(int index) {
-        return aBINJMLALLB_.getInt(index);
-      }
-      /**
-       * <code>repeated uint32 ABINJMLALLB = 5;</code>
-       * @param index The index to set the value at.
-       * @param value The aBINJMLALLB to set.
-       * @return This builder for chaining.
-       */
-      public Builder setABINJMLALLB(
-          int index, int value) {
-        ensureABINJMLALLBIsMutable();
-        aBINJMLALLB_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 ABINJMLALLB = 5;</code>
-       * @param value The aBINJMLALLB to add.
-       * @return This builder for chaining.
-       */
-      public Builder addABINJMLALLB(int value) {
-        ensureABINJMLALLBIsMutable();
-        aBINJMLALLB_.addInt(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 ABINJMLALLB = 5;</code>
-       * @param values The aBINJMLALLB to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllABINJMLALLB(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureABINJMLALLBIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, aBINJMLALLB_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 ABINJMLALLB = 5;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearABINJMLALLB() {
-        aBINJMLALLB_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
-        onChanged();
         return this;
       }
       @java.lang.Override
@@ -952,10 +952,10 @@ public final class GJFNDOODMCBOuterClass {
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GJFNDOODMCB_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_GJFNDOODMCB_OGJDJMGHNAEEntry_descriptor;
+    internal_static_GJFNDOODMCB_EBCJOCPDGIDEntry_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_GJFNDOODMCB_OGJDJMGHNAEEntry_fieldAccessorTable;
+      internal_static_GJFNDOODMCB_EBCJOCPDGIDEntry_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -965,11 +965,12 @@ public final class GJFNDOODMCBOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021GJFNDOODMCB.proto\"\212\001\n\013GJFNDOODMCB\0222\n\013O" +
-      "GJDJMGHNAE\030\016 \003(\0132\035.GJFNDOODMCB.OGJDJMGHN" +
-      "AEEntry\022\023\n\013ABINJMLALLB\030\005 \003(\r\0322\n\020OGJDJMGH" +
-      "NAEEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\n\021GJFNDOODMCB.proto\"\212\001\n\013GJFNDOODMCB\022\023\n\013P" +
+      "JABINOBEJL\030\001 \003(\r\0222\n\013EBCJOCPDGID\030\013 \003(\0132\035." +
+      "GJFNDOODMCB.EBCJOCPDGIDEntry\0322\n\020EBCJOCPD" +
+      "GIDEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001" +
+      "B2\n\031emu.grasscutter.net.protoB\025GJFNDOODM" +
+      "CBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -980,12 +981,12 @@ public final class GJFNDOODMCBOuterClass {
     internal_static_GJFNDOODMCB_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GJFNDOODMCB_descriptor,
-        new java.lang.String[] { "OGJDJMGHNAE", "ABINJMLALLB", });
-    internal_static_GJFNDOODMCB_OGJDJMGHNAEEntry_descriptor =
+        new java.lang.String[] { "PJABINOBEJL", "EBCJOCPDGID", });
+    internal_static_GJFNDOODMCB_EBCJOCPDGIDEntry_descriptor =
       internal_static_GJFNDOODMCB_descriptor.getNestedTypes().get(0);
-    internal_static_GJFNDOODMCB_OGJDJMGHNAEEntry_fieldAccessorTable = new
+    internal_static_GJFNDOODMCB_EBCJOCPDGIDEntry_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_GJFNDOODMCB_OGJDJMGHNAEEntry_descriptor,
+        internal_static_GJFNDOODMCB_EBCJOCPDGIDEntry_descriptor,
         new java.lang.String[] { "Key", "Value", });
   }
 

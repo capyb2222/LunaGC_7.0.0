@@ -18,14 +18,13 @@ public final class SetNameCardReqOuterClass {
       // @@protoc_insertion_point(interface_extends:SetNameCardReq)
       com.google.protobuf.MessageOrBuilder {
 
+    /**
+     * <code>uint32 name_card_id = 1;</code>
+     * @return The nameCardId.
+     */
     int getNameCardId();
   }
   /**
-   * <pre>
-   * Version: 5.8
-   * CmdId: 28615
-   * </pre>
-   *
    * Protobuf type {@code SetNameCardReq}
    */
   public static final class SetNameCardReq extends
@@ -70,7 +69,7 @@ public final class SetNameCardReqOuterClass {
             case 0:
               done = true;
               break;
-            case 120: {
+            case 8: {
 
               nameCardId_ = input.readUInt32();
               break;
@@ -107,9 +106,12 @@ public final class SetNameCardReqOuterClass {
               emu.grasscutter.net.proto.SetNameCardReqOuterClass.SetNameCardReq.class, emu.grasscutter.net.proto.SetNameCardReqOuterClass.SetNameCardReq.Builder.class);
     }
 
-    public static final int NAME_CARD_ID_FIELD_NUMBER = 15;
+    public static final int NAME_CARD_ID_FIELD_NUMBER = 1;
     private int nameCardId_;
-
+    /**
+     * <code>uint32 name_card_id = 1;</code>
+     * @return The nameCardId.
+     */
     @java.lang.Override
     public int getNameCardId() {
       return nameCardId_;
@@ -130,7 +132,7 @@ public final class SetNameCardReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (nameCardId_ != 0) {
-        output.writeUInt32(15, nameCardId_);
+        output.writeUInt32(1, nameCardId_);
       }
       unknownFields.writeTo(output);
     }
@@ -143,7 +145,7 @@ public final class SetNameCardReqOuterClass {
       size = 0;
       if (nameCardId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, nameCardId_);
+          .computeUInt32Size(1, nameCardId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -271,11 +273,6 @@ public final class SetNameCardReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * Version: 5.8
-     * CmdId: 28615
-     * </pre>
-     *
      * Protobuf type {@code SetNameCardReq}
      */
     public static final class Builder extends
@@ -423,21 +420,31 @@ public final class SetNameCardReqOuterClass {
       }
 
       private int nameCardId_ ;
-
+      /**
+       * <code>uint32 name_card_id = 1;</code>
+       * @return The nameCardId.
+       */
       @java.lang.Override
       public int getNameCardId() {
         return nameCardId_;
       }
-
+      /**
+       * <code>uint32 name_card_id = 1;</code>
+       * @param value The nameCardId to set.
+       * @return This builder for chaining.
+       */
       public Builder setNameCardId(int value) {
-
+        
         nameCardId_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint32 name_card_id = 1;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearNameCardId() {
-
+        
         nameCardId_ = 0;
         onChanged();
         return this;
@@ -453,6 +460,7 @@ public final class SetNameCardReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:SetNameCardReq)
     }
@@ -496,7 +504,7 @@ public final class SetNameCardReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SetNameCardReq_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SetNameCardReq_fieldAccessorTable;
 
@@ -509,8 +517,9 @@ public final class SetNameCardReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\024SetNameCardReq.proto\"&\n\016SetNameCardReq" +
-      "\022\024\n\014name_card_id\030\n \001(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\022\024\n\014name_card_id\030\001 \001(\rB5\n\031emu.grasscutte" +
+      "r.net.protoB\030SetNameCardReqOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

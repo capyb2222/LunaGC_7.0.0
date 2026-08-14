@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "VintagePresentStageDataOuterClass";
+
+import "VintagePresentLevelData.proto";
+
+message VintagePresentStageData {
+	uint32 stage_id = 4;
+	map<uint32, VintagePresentLevelData> present_level_map = 7;
+	bool is_finish = 8;
+	bool is_open = 9;
+	uint32 open_time = 11;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EABNOCBCGFMOuterClass";
+
+import "AFCJANIEJKC.proto";
+import "EEEPOOPKBPC.proto";
+
+message EABNOCBCGFM {
+	uint32 PHDOCOKGBOF = 1;
+	uint32 round = 5;
+	AFCJANIEJKC EJGAEGAPEBA = 8;
+	uint32 GEPHOFOGHJC = 12;
+	EEEPOOPKBPC FOHNJKCKKPC = 14;
+}

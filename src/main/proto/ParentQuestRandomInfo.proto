@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ParentQuestRandomInfoOuterClass";
+
+message ParentQuestRandomInfo {
+	uint32 entrance_id = 1;
+	repeated uint32 factor_list = 9;
+	uint32 template_id = 13;
+}

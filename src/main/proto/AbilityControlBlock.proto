@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AbilityControlBlockOuterClass";
+
+import "AbilityEmbryo.proto";
+
+message AbilityControlBlock {
+	repeated AbilityEmbryo ability_embryo_list = 1;
+}

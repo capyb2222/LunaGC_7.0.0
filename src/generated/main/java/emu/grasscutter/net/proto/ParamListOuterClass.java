@@ -36,10 +36,6 @@ public final class ParamListOuterClass {
     int getParamList(int index);
   }
   /**
-   * <pre>
-   * Obf: BLCNFAPGDKG
-   * </pre>
-   *
    * Protobuf type {@code ParamList}
    */
   public static final class ParamList extends
@@ -343,10 +339,6 @@ public final class ParamListOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * Obf: BLCNFAPGDKG
-     * </pre>
-     *
      * Protobuf type {@code ParamList}
      */
     public static final class Builder extends
@@ -652,8 +644,8 @@ public final class ParamListOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\017ParamList.proto\"\037\n\tParamList\022\022\n\nparam_" +
-      "list\030\001 \003(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "list\030\001 \003(\rB0\n\031emu.grasscutter.net.protoB" +
+      "\023ParamListOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

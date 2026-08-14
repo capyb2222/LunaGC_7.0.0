@@ -19,17 +19,18 @@ public final class AvatarExpeditionGetRewardReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <code>bool _is_claim_all = 1;</code>
+     * @return The isClaimAll.
+     */
+    boolean getIsClaimAll();
+
+    /**
      * <code>uint64 avatar_guid = 11;</code>
      * @return The avatarGuid.
      */
     long getAvatarGuid();
   }
   /**
-   * <pre>
-   * CmdId: 4847
-   * Obf: PPKAGNHEIBA
-   * </pre>
-   *
    * Protobuf type {@code AvatarExpeditionGetRewardReq}
    */
   public static final class AvatarExpeditionGetRewardReq extends
@@ -74,6 +75,11 @@ public final class AvatarExpeditionGetRewardReqOuterClass {
             case 0:
               done = true;
               break;
+            case 8: {
+
+              IsClaimAll_ = input.readBool();
+              break;
+            }
             case 88: {
 
               avatarGuid_ = input.readUInt64();
@@ -111,6 +117,17 @@ public final class AvatarExpeditionGetRewardReqOuterClass {
               emu.grasscutter.net.proto.AvatarExpeditionGetRewardReqOuterClass.AvatarExpeditionGetRewardReq.class, emu.grasscutter.net.proto.AvatarExpeditionGetRewardReqOuterClass.AvatarExpeditionGetRewardReq.Builder.class);
     }
 
+    public static final int _IS_CLAIM_ALL_FIELD_NUMBER = 1;
+    private boolean IsClaimAll_;
+    /**
+     * <code>bool _is_claim_all = 1;</code>
+     * @return The isClaimAll.
+     */
+    @java.lang.Override
+    public boolean getIsClaimAll() {
+      return IsClaimAll_;
+    }
+
     public static final int AVATAR_GUID_FIELD_NUMBER = 11;
     private long avatarGuid_;
     /**
@@ -136,6 +153,9 @@ public final class AvatarExpeditionGetRewardReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (IsClaimAll_ != false) {
+        output.writeBool(1, IsClaimAll_);
+      }
       if (avatarGuid_ != 0L) {
         output.writeUInt64(11, avatarGuid_);
       }
@@ -148,6 +168,10 @@ public final class AvatarExpeditionGetRewardReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (IsClaimAll_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1, IsClaimAll_);
+      }
       if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt64Size(11, avatarGuid_);
@@ -167,6 +191,8 @@ public final class AvatarExpeditionGetRewardReqOuterClass {
       }
       emu.grasscutter.net.proto.AvatarExpeditionGetRewardReqOuterClass.AvatarExpeditionGetRewardReq other = (emu.grasscutter.net.proto.AvatarExpeditionGetRewardReqOuterClass.AvatarExpeditionGetRewardReq) obj;
 
+      if (getIsClaimAll()
+          != other.getIsClaimAll()) return false;
       if (getAvatarGuid()
           != other.getAvatarGuid()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -180,6 +206,9 @@ public final class AvatarExpeditionGetRewardReqOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + _IS_CLAIM_ALL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIsClaimAll());
       hash = (37 * hash) + AVATAR_GUID_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           getAvatarGuid());
@@ -279,11 +308,6 @@ public final class AvatarExpeditionGetRewardReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 4847
-     * Obf: PPKAGNHEIBA
-     * </pre>
-     *
      * Protobuf type {@code AvatarExpeditionGetRewardReq}
      */
     public static final class Builder extends
@@ -321,6 +345,8 @@ public final class AvatarExpeditionGetRewardReqOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        IsClaimAll_ = false;
+
         avatarGuid_ = 0L;
 
         return this;
@@ -349,6 +375,7 @@ public final class AvatarExpeditionGetRewardReqOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.AvatarExpeditionGetRewardReqOuterClass.AvatarExpeditionGetRewardReq buildPartial() {
         emu.grasscutter.net.proto.AvatarExpeditionGetRewardReqOuterClass.AvatarExpeditionGetRewardReq result = new emu.grasscutter.net.proto.AvatarExpeditionGetRewardReqOuterClass.AvatarExpeditionGetRewardReq(this);
+        result.IsClaimAll_ = IsClaimAll_;
         result.avatarGuid_ = avatarGuid_;
         onBuilt();
         return result;
@@ -398,6 +425,9 @@ public final class AvatarExpeditionGetRewardReqOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.AvatarExpeditionGetRewardReqOuterClass.AvatarExpeditionGetRewardReq other) {
         if (other == emu.grasscutter.net.proto.AvatarExpeditionGetRewardReqOuterClass.AvatarExpeditionGetRewardReq.getDefaultInstance()) return this;
+        if (other.getIsClaimAll() != false) {
+          setIsClaimAll(other.getIsClaimAll());
+        }
         if (other.getAvatarGuid() != 0L) {
           setAvatarGuid(other.getAvatarGuid());
         }
@@ -427,6 +457,37 @@ public final class AvatarExpeditionGetRewardReqOuterClass {
             mergeFrom(parsedMessage);
           }
         }
+        return this;
+      }
+
+      private boolean IsClaimAll_ ;
+      /**
+       * <code>bool _is_claim_all = 1;</code>
+       * @return The isClaimAll.
+       */
+      @java.lang.Override
+      public boolean getIsClaimAll() {
+        return IsClaimAll_;
+      }
+      /**
+       * <code>bool _is_claim_all = 1;</code>
+       * @param value The isClaimAll to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIsClaimAll(boolean value) {
+        
+        IsClaimAll_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool _is_claim_all = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIsClaimAll() {
+        
+        IsClaimAll_ = false;
+        onChanged();
         return this;
       }
 
@@ -527,10 +588,11 @@ public final class AvatarExpeditionGetRewardReqOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\"AvatarExpeditionGetRewardReq.proto\"3\n\034" +
-      "AvatarExpeditionGetRewardReq\022\023\n\013avatar_g" +
-      "uid\030\013 \001(\004B\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "\n\"AvatarExpeditionGetRewardReq.proto\"J\n\034" +
+      "AvatarExpeditionGetRewardReq\022\025\n\r_is_clai" +
+      "m_all\030\001 \001(\010\022\023\n\013avatar_guid\030\013 \001(\004BC\n\031emu." +
+      "grasscutter.net.protoB&AvatarExpeditionG" +
+      "etRewardReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -541,7 +603,7 @@ public final class AvatarExpeditionGetRewardReqOuterClass {
     internal_static_AvatarExpeditionGetRewardReq_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AvatarExpeditionGetRewardReq_descriptor,
-        new java.lang.String[] { "AvatarGuid", });
+        new java.lang.String[] { "IsClaimAll", "AvatarGuid", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

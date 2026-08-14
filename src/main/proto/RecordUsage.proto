@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "RecordUsageOuterClass";
+
+enum RecordUsage {
+	UGC_RECORD_USAGE_NONE = 0;
+	UGC_RECORD_USAGE_IMPORT = 1;
+	UGC_RECORD_USAGE_PLAY = 2;
+	UGC_RECORD_USAGE_TRIAL = 3;
+	UGC_RECORD_USAGE_COMPARE = 4;
+	UGC_RECORD_USAGE_PVP = 5;
+}

@@ -19,25 +19,25 @@ public final class BubbleDramaPhotoLevelInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 7;</code>
+     * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 12;</code>
      */
     java.util.List<emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatar> 
         getActivityAvatarList();
     /**
-     * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 7;</code>
+     * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 12;</code>
      */
     emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatar getActivityAvatar(int index);
     /**
-     * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 7;</code>
+     * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 12;</code>
      */
     int getActivityAvatarCount();
     /**
-     * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 7;</code>
+     * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 12;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatarOrBuilder> 
         getActivityAvatarOrBuilderList();
     /**
-     * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 7;</code>
+     * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 12;</code>
      */
     emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatarOrBuilder getActivityAvatarOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class BubbleDramaPhotoLevelInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 58: {
+            case 98: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 activityAvatar_ = new java.util.ArrayList<emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatar>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class BubbleDramaPhotoLevelInfoOuterClass {
               emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.class, emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.Builder.class);
     }
 
-    public static final int ACTIVITY_AVATAR_FIELD_NUMBER = 7;
+    public static final int ACTIVITY_AVATAR_FIELD_NUMBER = 12;
     private java.util.List<emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatar> activityAvatar_;
     /**
-     * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 7;</code>
+     * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 12;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatar> getActivityAvatarList() {
       return activityAvatar_;
     }
     /**
-     * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 7;</code>
+     * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 12;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatarOrBuilder> 
@@ -151,21 +151,21 @@ public final class BubbleDramaPhotoLevelInfoOuterClass {
       return activityAvatar_;
     }
     /**
-     * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 7;</code>
+     * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 12;</code>
      */
     @java.lang.Override
     public int getActivityAvatarCount() {
       return activityAvatar_.size();
     }
     /**
-     * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 7;</code>
+     * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatar getActivityAvatar(int index) {
       return activityAvatar_.get(index);
     }
     /**
-     * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 7;</code>
+     * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatarOrBuilder getActivityAvatarOrBuilder(
@@ -188,7 +188,7 @@ public final class BubbleDramaPhotoLevelInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < activityAvatar_.size(); i++) {
-        output.writeMessage(7, activityAvatar_.get(i));
+        output.writeMessage(12, activityAvatar_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class BubbleDramaPhotoLevelInfoOuterClass {
       size = 0;
       for (int i = 0; i < activityAvatar_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, activityAvatar_.get(i));
+          .computeMessageSize(12, activityAvatar_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class BubbleDramaPhotoLevelInfoOuterClass {
           emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatar, emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatar.Builder, emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatarOrBuilder> activityAvatarBuilder_;
 
       /**
-       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 7;</code>
+       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 12;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatar> getActivityAvatarList() {
         if (activityAvatarBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class BubbleDramaPhotoLevelInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 7;</code>
+       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 12;</code>
        */
       public int getActivityAvatarCount() {
         if (activityAvatarBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class BubbleDramaPhotoLevelInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 7;</code>
+       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 12;</code>
        */
       public emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatar getActivityAvatar(int index) {
         if (activityAvatarBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class BubbleDramaPhotoLevelInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 7;</code>
+       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 12;</code>
        */
       public Builder setActivityAvatar(
           int index, emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatar value) {
@@ -575,7 +575,7 @@ public final class BubbleDramaPhotoLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 7;</code>
+       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 12;</code>
        */
       public Builder setActivityAvatar(
           int index, emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatar.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class BubbleDramaPhotoLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 7;</code>
+       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 12;</code>
        */
       public Builder addActivityAvatar(emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatar value) {
         if (activityAvatarBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class BubbleDramaPhotoLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 7;</code>
+       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 12;</code>
        */
       public Builder addActivityAvatar(
           int index, emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatar value) {
@@ -622,7 +622,7 @@ public final class BubbleDramaPhotoLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 7;</code>
+       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 12;</code>
        */
       public Builder addActivityAvatar(
           emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatar.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class BubbleDramaPhotoLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 7;</code>
+       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 12;</code>
        */
       public Builder addActivityAvatar(
           int index, emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatar.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class BubbleDramaPhotoLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 7;</code>
+       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 12;</code>
        */
       public Builder addAllActivityAvatar(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatar> values) {
@@ -665,7 +665,7 @@ public final class BubbleDramaPhotoLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 7;</code>
+       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 12;</code>
        */
       public Builder clearActivityAvatar() {
         if (activityAvatarBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class BubbleDramaPhotoLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 7;</code>
+       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 12;</code>
        */
       public Builder removeActivityAvatar(int index) {
         if (activityAvatarBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class BubbleDramaPhotoLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 7;</code>
+       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 12;</code>
        */
       public emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatar.Builder getActivityAvatarBuilder(
           int index) {
         return getActivityAvatarFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 7;</code>
+       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 12;</code>
        */
       public emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatarOrBuilder getActivityAvatarOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class BubbleDramaPhotoLevelInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 7;</code>
+       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 12;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatarOrBuilder> 
            getActivityAvatarOrBuilderList() {
@@ -719,14 +719,14 @@ public final class BubbleDramaPhotoLevelInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 7;</code>
+       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 12;</code>
        */
       public emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatar.Builder addActivityAvatarBuilder() {
         return getActivityAvatarFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatar.getDefaultInstance());
       }
       /**
-       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 7;</code>
+       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 12;</code>
        */
       public emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatar.Builder addActivityAvatarBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class BubbleDramaPhotoLevelInfoOuterClass {
             index, emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatar.getDefaultInstance());
       }
       /**
-       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 7;</code>
+       * <code>repeated .BubbleDramaActivityAvatar activity_avatar = 12;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatar.Builder> 
            getActivityAvatarBuilderList() {
@@ -823,9 +823,10 @@ public final class BubbleDramaPhotoLevelInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\037BubbleDramaPhotoLevelInfo.proto\032\037Bubbl" +
       "eDramaActivityAvatar.proto\"P\n\031BubbleDram" +
-      "aPhotoLevelInfo\0223\n\017activity_avatar\030\007 \003(\013" +
-      "2\032.BubbleDramaActivityAvatarB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "aPhotoLevelInfo\0223\n\017activity_avatar\030\014 \003(\013" +
+      "2\032.BubbleDramaActivityAvatarB@\n\031emu.gras" +
+      "scutter.net.protoB#BubbleDramaPhotoLevel" +
+      "InfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

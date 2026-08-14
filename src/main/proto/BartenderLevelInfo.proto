@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "BartenderLevelInfoOuterClass";
+
+message BartenderLevelInfo {
+	uint32 max_score = 2;
+	uint32 id = 9;
+	bool is_finish = 10;
+}

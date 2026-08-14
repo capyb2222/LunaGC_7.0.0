@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "BounceConjuringActivityDetailInfoOuterClass";
+
+import "BounceConjuringChapterInfo.proto";
+
+message BounceConjuringActivityDetailInfo {
+	bool is_content_closed = 3;
+	uint32 content_close_time = 6;
+	repeated BounceConjuringChapterInfo chapter_info_list = 13;
+}

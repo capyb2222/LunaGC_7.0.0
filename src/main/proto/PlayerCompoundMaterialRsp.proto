@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PlayerCompoundMaterialRspOuterClass";
+
+import "CompoundQueueData.proto";
+
+message PlayerCompoundMaterialRsp {
+	CompoundQueueData compound_que_data = 2;
+	int32 retcode = 10;
+}

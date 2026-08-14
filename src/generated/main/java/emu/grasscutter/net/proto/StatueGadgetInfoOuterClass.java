@@ -19,21 +19,21 @@ public final class StatueGadgetInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 LFFFENMHEKF = 1;</code>
-     * @return A list containing the lFFFENMHEKF.
+     * <code>repeated uint32 opened_statue_uid_list = 1;</code>
+     * @return A list containing the openedStatueUidList.
      */
-    java.util.List<java.lang.Integer> getLFFFENMHEKFList();
+    java.util.List<java.lang.Integer> getOpenedStatueUidListList();
     /**
-     * <code>repeated uint32 LFFFENMHEKF = 1;</code>
-     * @return The count of lFFFENMHEKF.
+     * <code>repeated uint32 opened_statue_uid_list = 1;</code>
+     * @return The count of openedStatueUidList.
      */
-    int getLFFFENMHEKFCount();
+    int getOpenedStatueUidListCount();
     /**
-     * <code>repeated uint32 LFFFENMHEKF = 1;</code>
+     * <code>repeated uint32 opened_statue_uid_list = 1;</code>
      * @param index The index of the element to return.
-     * @return The lFFFENMHEKF at the given index.
+     * @return The openedStatueUidList at the given index.
      */
-    int getLFFFENMHEKF(int index);
+    int getOpenedStatueUidList(int index);
   }
   /**
    * Protobuf type {@code StatueGadgetInfo}
@@ -48,7 +48,7 @@ public final class StatueGadgetInfoOuterClass {
       super(builder);
     }
     private StatueGadgetInfo() {
-      lFFFENMHEKF_ = emptyIntList();
+      openedStatueUidList_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -84,21 +84,21 @@ public final class StatueGadgetInfoOuterClass {
               break;
             case 8: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                lFFFENMHEKF_ = newIntList();
+                openedStatueUidList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
-              lFFFENMHEKF_.addInt(input.readUInt32());
+              openedStatueUidList_.addInt(input.readUInt32());
               break;
             }
             case 10: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                lFFFENMHEKF_ = newIntList();
+                openedStatueUidList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
-                lFFFENMHEKF_.addInt(input.readUInt32());
+                openedStatueUidList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
@@ -119,7 +119,7 @@ public final class StatueGadgetInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          lFFFENMHEKF_.makeImmutable(); // C
+          openedStatueUidList_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -138,33 +138,33 @@ public final class StatueGadgetInfoOuterClass {
               emu.grasscutter.net.proto.StatueGadgetInfoOuterClass.StatueGadgetInfo.class, emu.grasscutter.net.proto.StatueGadgetInfoOuterClass.StatueGadgetInfo.Builder.class);
     }
 
-    public static final int LFFFENMHEKF_FIELD_NUMBER = 1;
-    private com.google.protobuf.Internal.IntList lFFFENMHEKF_;
+    public static final int OPENED_STATUE_UID_LIST_FIELD_NUMBER = 1;
+    private com.google.protobuf.Internal.IntList openedStatueUidList_;
     /**
-     * <code>repeated uint32 LFFFENMHEKF = 1;</code>
-     * @return A list containing the lFFFENMHEKF.
+     * <code>repeated uint32 opened_statue_uid_list = 1;</code>
+     * @return A list containing the openedStatueUidList.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getLFFFENMHEKFList() {
-      return lFFFENMHEKF_;
+        getOpenedStatueUidListList() {
+      return openedStatueUidList_;
     }
     /**
-     * <code>repeated uint32 LFFFENMHEKF = 1;</code>
-     * @return The count of lFFFENMHEKF.
+     * <code>repeated uint32 opened_statue_uid_list = 1;</code>
+     * @return The count of openedStatueUidList.
      */
-    public int getLFFFENMHEKFCount() {
-      return lFFFENMHEKF_.size();
+    public int getOpenedStatueUidListCount() {
+      return openedStatueUidList_.size();
     }
     /**
-     * <code>repeated uint32 LFFFENMHEKF = 1;</code>
+     * <code>repeated uint32 opened_statue_uid_list = 1;</code>
      * @param index The index of the element to return.
-     * @return The lFFFENMHEKF at the given index.
+     * @return The openedStatueUidList at the given index.
      */
-    public int getLFFFENMHEKF(int index) {
-      return lFFFENMHEKF_.getInt(index);
+    public int getOpenedStatueUidList(int index) {
+      return openedStatueUidList_.getInt(index);
     }
-    private int lFFFENMHEKFMemoizedSerializedSize = -1;
+    private int openedStatueUidListMemoizedSerializedSize = -1;
 
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
@@ -181,12 +181,12 @@ public final class StatueGadgetInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (getLFFFENMHEKFList().size() > 0) {
+      if (getOpenedStatueUidListList().size() > 0) {
         output.writeUInt32NoTag(10);
-        output.writeUInt32NoTag(lFFFENMHEKFMemoizedSerializedSize);
+        output.writeUInt32NoTag(openedStatueUidListMemoizedSerializedSize);
       }
-      for (int i = 0; i < lFFFENMHEKF_.size(); i++) {
-        output.writeUInt32NoTag(lFFFENMHEKF_.getInt(i));
+      for (int i = 0; i < openedStatueUidList_.size(); i++) {
+        output.writeUInt32NoTag(openedStatueUidList_.getInt(i));
       }
       unknownFields.writeTo(output);
     }
@@ -199,17 +199,17 @@ public final class StatueGadgetInfoOuterClass {
       size = 0;
       {
         int dataSize = 0;
-        for (int i = 0; i < lFFFENMHEKF_.size(); i++) {
+        for (int i = 0; i < openedStatueUidList_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(lFFFENMHEKF_.getInt(i));
+            .computeUInt32SizeNoTag(openedStatueUidList_.getInt(i));
         }
         size += dataSize;
-        if (!getLFFFENMHEKFList().isEmpty()) {
+        if (!getOpenedStatueUidListList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        lFFFENMHEKFMemoizedSerializedSize = dataSize;
+        openedStatueUidListMemoizedSerializedSize = dataSize;
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -226,8 +226,8 @@ public final class StatueGadgetInfoOuterClass {
       }
       emu.grasscutter.net.proto.StatueGadgetInfoOuterClass.StatueGadgetInfo other = (emu.grasscutter.net.proto.StatueGadgetInfoOuterClass.StatueGadgetInfo) obj;
 
-      if (!getLFFFENMHEKFList()
-          .equals(other.getLFFFENMHEKFList())) return false;
+      if (!getOpenedStatueUidListList()
+          .equals(other.getOpenedStatueUidListList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -239,9 +239,9 @@ public final class StatueGadgetInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getLFFFENMHEKFCount() > 0) {
-        hash = (37 * hash) + LFFFENMHEKF_FIELD_NUMBER;
-        hash = (53 * hash) + getLFFFENMHEKFList().hashCode();
+      if (getOpenedStatueUidListCount() > 0) {
+        hash = (37 * hash) + OPENED_STATUE_UID_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getOpenedStatueUidListList().hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -376,7 +376,7 @@ public final class StatueGadgetInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        lFFFENMHEKF_ = emptyIntList();
+        openedStatueUidList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
         return this;
       }
@@ -406,10 +406,10 @@ public final class StatueGadgetInfoOuterClass {
         emu.grasscutter.net.proto.StatueGadgetInfoOuterClass.StatueGadgetInfo result = new emu.grasscutter.net.proto.StatueGadgetInfoOuterClass.StatueGadgetInfo(this);
         int from_bitField0_ = bitField0_;
         if (((bitField0_ & 0x00000001) != 0)) {
-          lFFFENMHEKF_.makeImmutable();
+          openedStatueUidList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.lFFFENMHEKF_ = lFFFENMHEKF_;
+        result.openedStatueUidList_ = openedStatueUidList_;
         onBuilt();
         return result;
       }
@@ -458,13 +458,13 @@ public final class StatueGadgetInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.StatueGadgetInfoOuterClass.StatueGadgetInfo other) {
         if (other == emu.grasscutter.net.proto.StatueGadgetInfoOuterClass.StatueGadgetInfo.getDefaultInstance()) return this;
-        if (!other.lFFFENMHEKF_.isEmpty()) {
-          if (lFFFENMHEKF_.isEmpty()) {
-            lFFFENMHEKF_ = other.lFFFENMHEKF_;
+        if (!other.openedStatueUidList_.isEmpty()) {
+          if (openedStatueUidList_.isEmpty()) {
+            openedStatueUidList_ = other.openedStatueUidList_;
             bitField0_ = (bitField0_ & ~0x00000001);
           } else {
-            ensureLFFFENMHEKFIsMutable();
-            lFFFENMHEKF_.addAll(other.lFFFENMHEKF_);
+            ensureOpenedStatueUidListIsMutable();
+            openedStatueUidList_.addAll(other.openedStatueUidList_);
           }
           onChanged();
         }
@@ -498,80 +498,80 @@ public final class StatueGadgetInfoOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.Internal.IntList lFFFENMHEKF_ = emptyIntList();
-      private void ensureLFFFENMHEKFIsMutable() {
+      private com.google.protobuf.Internal.IntList openedStatueUidList_ = emptyIntList();
+      private void ensureOpenedStatueUidListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          lFFFENMHEKF_ = mutableCopy(lFFFENMHEKF_);
+          openedStatueUidList_ = mutableCopy(openedStatueUidList_);
           bitField0_ |= 0x00000001;
          }
       }
       /**
-       * <code>repeated uint32 LFFFENMHEKF = 1;</code>
-       * @return A list containing the lFFFENMHEKF.
+       * <code>repeated uint32 opened_statue_uid_list = 1;</code>
+       * @return A list containing the openedStatueUidList.
        */
       public java.util.List<java.lang.Integer>
-          getLFFFENMHEKFList() {
+          getOpenedStatueUidListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(lFFFENMHEKF_) : lFFFENMHEKF_;
+                 java.util.Collections.unmodifiableList(openedStatueUidList_) : openedStatueUidList_;
       }
       /**
-       * <code>repeated uint32 LFFFENMHEKF = 1;</code>
-       * @return The count of lFFFENMHEKF.
+       * <code>repeated uint32 opened_statue_uid_list = 1;</code>
+       * @return The count of openedStatueUidList.
        */
-      public int getLFFFENMHEKFCount() {
-        return lFFFENMHEKF_.size();
+      public int getOpenedStatueUidListCount() {
+        return openedStatueUidList_.size();
       }
       /**
-       * <code>repeated uint32 LFFFENMHEKF = 1;</code>
+       * <code>repeated uint32 opened_statue_uid_list = 1;</code>
        * @param index The index of the element to return.
-       * @return The lFFFENMHEKF at the given index.
+       * @return The openedStatueUidList at the given index.
        */
-      public int getLFFFENMHEKF(int index) {
-        return lFFFENMHEKF_.getInt(index);
+      public int getOpenedStatueUidList(int index) {
+        return openedStatueUidList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 LFFFENMHEKF = 1;</code>
+       * <code>repeated uint32 opened_statue_uid_list = 1;</code>
        * @param index The index to set the value at.
-       * @param value The lFFFENMHEKF to set.
+       * @param value The openedStatueUidList to set.
        * @return This builder for chaining.
        */
-      public Builder setLFFFENMHEKF(
+      public Builder setOpenedStatueUidList(
           int index, int value) {
-        ensureLFFFENMHEKFIsMutable();
-        lFFFENMHEKF_.setInt(index, value);
+        ensureOpenedStatueUidListIsMutable();
+        openedStatueUidList_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 LFFFENMHEKF = 1;</code>
-       * @param value The lFFFENMHEKF to add.
+       * <code>repeated uint32 opened_statue_uid_list = 1;</code>
+       * @param value The openedStatueUidList to add.
        * @return This builder for chaining.
        */
-      public Builder addLFFFENMHEKF(int value) {
-        ensureLFFFENMHEKFIsMutable();
-        lFFFENMHEKF_.addInt(value);
+      public Builder addOpenedStatueUidList(int value) {
+        ensureOpenedStatueUidListIsMutable();
+        openedStatueUidList_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 LFFFENMHEKF = 1;</code>
-       * @param values The lFFFENMHEKF to add.
+       * <code>repeated uint32 opened_statue_uid_list = 1;</code>
+       * @param values The openedStatueUidList to add.
        * @return This builder for chaining.
        */
-      public Builder addAllLFFFENMHEKF(
+      public Builder addAllOpenedStatueUidList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureLFFFENMHEKFIsMutable();
+        ensureOpenedStatueUidListIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, lFFFENMHEKF_);
+            values, openedStatueUidList_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 LFFFENMHEKF = 1;</code>
+       * <code>repeated uint32 opened_statue_uid_list = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearLFFFENMHEKF() {
-        lFFFENMHEKF_ = emptyIntList();
+      public Builder clearOpenedStatueUidList() {
+        openedStatueUidList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
         onChanged();
         return this;
@@ -643,9 +643,10 @@ public final class StatueGadgetInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\026StatueGadgetInfo.proto\"\'\n\020StatueGadget" +
-      "Info\022\023\n\013LFFFENMHEKF\030\001 \003(\rB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "\n\026StatueGadgetInfo.proto\"2\n\020StatueGadget" +
+      "Info\022\036\n\026opened_statue_uid_list\030\001 \003(\rB7\n\031" +
+      "emu.grasscutter.net.protoB\032StatueGadgetI" +
+      "nfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -656,7 +657,7 @@ public final class StatueGadgetInfoOuterClass {
     internal_static_StatueGadgetInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_StatueGadgetInfo_descriptor,
-        new java.lang.String[] { "LFFFENMHEKF", });
+        new java.lang.String[] { "OpenedStatueUidList", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

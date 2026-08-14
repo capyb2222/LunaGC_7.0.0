@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ClientAbilitiesInitFinishCombineNotifyOuterClass";
+
+import "EntityAbilityInvokeEntry.proto";
+
+message ClientAbilitiesInitFinishCombineNotify {
+	repeated EntityAbilityInvokeEntry entity_invoke_list = 8;
+}

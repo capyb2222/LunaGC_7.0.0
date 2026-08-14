@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SummerTimeSprintBoatInfoOuterClass";
+
+import "SummerTimeSprintBoatRecord.proto";
+
+message SummerTimeSprintBoatInfo {
+	repeated SummerTimeSprintBoatRecord record_list = 1;
+}

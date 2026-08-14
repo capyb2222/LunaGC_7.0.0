@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FungusPlotStageDetailOuterClass";
+
+message FungusPlotStageDetail {
+	uint32 stage_id = 6;
+	bool is_open = 7;
+}

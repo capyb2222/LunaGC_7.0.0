@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MHEPPFLCCIJOuterClass";
+
+import "_MultiSyncInfo.proto";
+import "_NormalSyncInfo.proto";
+
+message MHEPPFLCCIJ {
+	_NormalSyncInfo JAMAELGONGI = 1;
+	_MultiSyncInfo LDNDILCMPPJ = 2;
+}

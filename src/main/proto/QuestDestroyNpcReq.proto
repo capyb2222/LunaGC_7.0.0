@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "QuestDestroyNpcReqOuterClass";
+
+message QuestDestroyNpcReq {
+	uint32 parent_quest_id = 11;
+	uint32 npc_id = 12;
+}

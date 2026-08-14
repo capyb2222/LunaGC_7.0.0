@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SummerTimeV2BoatStageInfoOuterClass";
+
+message SummerTimeV2BoatStageInfo {
+	uint32 stage_id = 4;
+	uint32 best_score = 8;
+	bool is_open = 13;
+	uint32 open_time = 14;
+}

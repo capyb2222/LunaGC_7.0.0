@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EnterTypeOuterClass";
+
+enum EnterType {
+	EnterType_ENTER_NONE = 0;
+	EnterType_ENTER_SELF = 1;
+	EnterType_ENTER_GOTO = 2;
+	EnterType_ENTER_JUMP = 3;
+	EnterType_ENTER_OTHER = 4;
+	EnterType_ENTER_BACK = 5;
+	EnterType_ENTER_DUNGEON = 6;
+	EnterType_ENTER_DUNGEON_REPLAY = 7;
+	EnterType_ENTER_GOTO_BY_PORTAL = 8;
+	EnterType_ENTER_SELF_HOME = 9;
+	EnterType_ENTER_OTHER_HOME = 10;
+	EnterType_ENTER_GOTO_RECREATE = 11;
+	EnterType_ENTER_GOTO_BY_TPL = 12;
+	ENTER_BEYOND = 13;
+	ENTER_HALL = 14;
+}

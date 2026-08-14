@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EBPIBIFOEFFOuterClass";
+
+message EBPIBIFOEFF {
+	uint32 avatar_id = 3;
+	bool is_trial_avatar = 15;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DigActivityDetailInfoOuterClass";
+
+import "DigMarkPoint.proto";
+
+message DigActivityDetailInfo {
+	uint32 stage_id = 3;
+	repeated DigMarkPoint dig_mark_point_list = 8;
+	repeated uint32 stage_id_list = 11;
+}

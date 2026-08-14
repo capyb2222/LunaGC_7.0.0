@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PHFAOBBPOIPOuterClass";
+
+import "_CurrentPhase.proto";
+
+message PHFAOBBPOIP {
+	int32 talk_id = 1;
+	_CurrentPhase GEKGLENKCJA = 2;
+	repeated uint32 IMNCDNIEBIH = 3;
+}

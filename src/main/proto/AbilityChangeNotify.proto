@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AbilityChangeNotifyOuterClass";
+
+import "AbilityControlBlock.proto";
+
+message AbilityChangeNotify {
+	AbilityControlBlock ability_control_block = 3;
+	uint32 entity_id = 4;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HMNFHHAKOJBOuterClass";
+
+message HMNFHHAKOJB {
+	int32 start_time = 1;
+	int32 end_time = 2;
+	uint32 challenge_id = 3;
+	int32 cur_value = 4;
+}

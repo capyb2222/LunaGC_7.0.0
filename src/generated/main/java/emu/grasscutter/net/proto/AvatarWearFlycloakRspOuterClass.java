@@ -19,20 +19,52 @@ public final class AvatarWearFlycloakRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint64 avatar_guid = 16160;</code>
-     * @return The avatarGuid.
+     * <code>uint32 flycloak_id = 10;</code>
+     * @return The flycloakId.
      */
-    long getAvatarGuid();
-
     int getFlycloakId();
 
+    /**
+     * <code>repeated uint64 avatar_guid_list = 12;</code>
+     * @return A list containing the avatarGuidList.
+     */
+    java.util.List<java.lang.Long> getAvatarGuidListList();
+    /**
+     * <code>repeated uint64 avatar_guid_list = 12;</code>
+     * @return The count of avatarGuidList.
+     */
+    int getAvatarGuidListCount();
+    /**
+     * <code>repeated uint64 avatar_guid_list = 12;</code>
+     * @param index The index of the element to return.
+     * @return The avatarGuidList at the given index.
+     */
+    long getAvatarGuidList(int index);
+
+    /**
+     * <code>int32 retcode = 14;</code>
+     * @return The retcode.
+     */
     int getRetcode();
+
+    /**
+     * <code>repeated uint64 MNCEBDCODIE = 15;</code>
+     * @return A list containing the mNCEBDCODIE.
+     */
+    java.util.List<java.lang.Long> getMNCEBDCODIEList();
+    /**
+     * <code>repeated uint64 MNCEBDCODIE = 15;</code>
+     * @return The count of mNCEBDCODIE.
+     */
+    int getMNCEBDCODIECount();
+    /**
+     * <code>repeated uint64 MNCEBDCODIE = 15;</code>
+     * @param index The index of the element to return.
+     * @return The mNCEBDCODIE at the given index.
+     */
+    long getMNCEBDCODIE(int index);
   }
   /**
-   * <pre>
-   * CmdId: 25501
-   * </pre>
-   *
    * Protobuf type {@code AvatarWearFlycloakRsp}
    */
   public static final class AvatarWearFlycloakRsp extends
@@ -45,6 +77,8 @@ public final class AvatarWearFlycloakRspOuterClass {
       super(builder);
     }
     private AvatarWearFlycloakRsp() {
+      avatarGuidList_ = emptyLongList();
+      mNCEBDCODIE_ = emptyLongList();
     }
 
     @java.lang.Override
@@ -67,6 +101,7 @@ public final class AvatarWearFlycloakRspOuterClass {
       if (extensionRegistry == null) {
         throw new java.lang.NullPointerException();
       }
+      int mutable_bitField0_ = 0;
       com.google.protobuf.UnknownFieldSet.Builder unknownFields =
           com.google.protobuf.UnknownFieldSet.newBuilder();
       try {
@@ -77,19 +112,56 @@ public final class AvatarWearFlycloakRspOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
-
-              avatarGuid_ = input.readUInt64();
-              break;
-            }
-            case 8: {
+            case 80: {
 
               flycloakId_ = input.readUInt32();
               break;
             }
-            case 24: {
+            case 96: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                avatarGuidList_ = newLongList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              avatarGuidList_.addLong(input.readUInt64());
+              break;
+            }
+            case 98: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
+                avatarGuidList_ = newLongList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                avatarGuidList_.addLong(input.readUInt64());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 112: {
 
               retcode_ = input.readInt32();
+              break;
+            }
+            case 120: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                mNCEBDCODIE_ = newLongList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              mNCEBDCODIE_.addLong(input.readUInt64());
+              break;
+            }
+            case 122: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
+                mNCEBDCODIE_ = newLongList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                mNCEBDCODIE_.addLong(input.readUInt64());
+              }
+              input.popLimit(limit);
               break;
             }
             default: {
@@ -107,6 +179,12 @@ public final class AvatarWearFlycloakRspOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          avatarGuidList_.makeImmutable(); // C
+        }
+        if (((mutable_bitField0_ & 0x00000002) != 0)) {
+          mNCEBDCODIE_.makeImmutable(); // C
+        }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
       }
@@ -124,32 +202,83 @@ public final class AvatarWearFlycloakRspOuterClass {
               emu.grasscutter.net.proto.AvatarWearFlycloakRspOuterClass.AvatarWearFlycloakRsp.class, emu.grasscutter.net.proto.AvatarWearFlycloakRspOuterClass.AvatarWearFlycloakRsp.Builder.class);
     }
 
-    public static final int AVATAR_GUID_FIELD_NUMBER = 2;
-    private long avatarGuid_;
-    /**
-     * <code>uint64 avatar_guid = 16160;</code>
-     * @return The avatarGuid.
-     */
-    @java.lang.Override
-    public long getAvatarGuid() {
-      return avatarGuid_;
-    }
-
-    public static final int FLYCLOAK_ID_FIELD_NUMBER = 1;
+    public static final int FLYCLOAK_ID_FIELD_NUMBER = 10;
     private int flycloakId_;
-
+    /**
+     * <code>uint32 flycloak_id = 10;</code>
+     * @return The flycloakId.
+     */
     @java.lang.Override
     public int getFlycloakId() {
       return flycloakId_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 3;
-    private int retcode_;
+    public static final int AVATAR_GUID_LIST_FIELD_NUMBER = 12;
+    private com.google.protobuf.Internal.LongList avatarGuidList_;
+    /**
+     * <code>repeated uint64 avatar_guid_list = 12;</code>
+     * @return A list containing the avatarGuidList.
+     */
+    @java.lang.Override
+    public java.util.List<java.lang.Long>
+        getAvatarGuidListList() {
+      return avatarGuidList_;
+    }
+    /**
+     * <code>repeated uint64 avatar_guid_list = 12;</code>
+     * @return The count of avatarGuidList.
+     */
+    public int getAvatarGuidListCount() {
+      return avatarGuidList_.size();
+    }
+    /**
+     * <code>repeated uint64 avatar_guid_list = 12;</code>
+     * @param index The index of the element to return.
+     * @return The avatarGuidList at the given index.
+     */
+    public long getAvatarGuidList(int index) {
+      return avatarGuidList_.getLong(index);
+    }
+    private int avatarGuidListMemoizedSerializedSize = -1;
 
+    public static final int RETCODE_FIELD_NUMBER = 14;
+    private int retcode_;
+    /**
+     * <code>int32 retcode = 14;</code>
+     * @return The retcode.
+     */
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
     }
+
+    public static final int MNCEBDCODIE_FIELD_NUMBER = 15;
+    private com.google.protobuf.Internal.LongList mNCEBDCODIE_;
+    /**
+     * <code>repeated uint64 MNCEBDCODIE = 15;</code>
+     * @return A list containing the mNCEBDCODIE.
+     */
+    @java.lang.Override
+    public java.util.List<java.lang.Long>
+        getMNCEBDCODIEList() {
+      return mNCEBDCODIE_;
+    }
+    /**
+     * <code>repeated uint64 MNCEBDCODIE = 15;</code>
+     * @return The count of mNCEBDCODIE.
+     */
+    public int getMNCEBDCODIECount() {
+      return mNCEBDCODIE_.size();
+    }
+    /**
+     * <code>repeated uint64 MNCEBDCODIE = 15;</code>
+     * @param index The index of the element to return.
+     * @return The mNCEBDCODIE at the given index.
+     */
+    public long getMNCEBDCODIE(int index) {
+      return mNCEBDCODIE_.getLong(index);
+    }
+    private int mNCEBDCODIEMemoizedSerializedSize = -1;
 
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
@@ -165,14 +294,26 @@ public final class AvatarWearFlycloakRspOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      getSerializedSize();
       if (flycloakId_ != 0) {
-        output.writeUInt32(1, flycloakId_);
+        output.writeUInt32(10, flycloakId_);
+      }
+      if (getAvatarGuidListList().size() > 0) {
+        output.writeUInt32NoTag(98);
+        output.writeUInt32NoTag(avatarGuidListMemoizedSerializedSize);
+      }
+      for (int i = 0; i < avatarGuidList_.size(); i++) {
+        output.writeUInt64NoTag(avatarGuidList_.getLong(i));
       }
       if (retcode_ != 0) {
-        output.writeInt32(3, retcode_);
+        output.writeInt32(14, retcode_);
       }
-      if (avatarGuid_ != 0L) {
-        output.writeUInt64(2, avatarGuid_);
+      if (getMNCEBDCODIEList().size() > 0) {
+        output.writeUInt32NoTag(122);
+        output.writeUInt32NoTag(mNCEBDCODIEMemoizedSerializedSize);
+      }
+      for (int i = 0; i < mNCEBDCODIE_.size(); i++) {
+        output.writeUInt64NoTag(mNCEBDCODIE_.getLong(i));
       }
       unknownFields.writeTo(output);
     }
@@ -185,15 +326,39 @@ public final class AvatarWearFlycloakRspOuterClass {
       size = 0;
       if (flycloakId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, flycloakId_);
+          .computeUInt32Size(10, flycloakId_);
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < avatarGuidList_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt64SizeNoTag(avatarGuidList_.getLong(i));
+        }
+        size += dataSize;
+        if (!getAvatarGuidListList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        avatarGuidListMemoizedSerializedSize = dataSize;
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(3, retcode_);
+          .computeInt32Size(14, retcode_);
       }
-      if (avatarGuid_ != 0L) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(2, avatarGuid_);
+      {
+        int dataSize = 0;
+        for (int i = 0; i < mNCEBDCODIE_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt64SizeNoTag(mNCEBDCODIE_.getLong(i));
+        }
+        size += dataSize;
+        if (!getMNCEBDCODIEList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        mNCEBDCODIEMemoizedSerializedSize = dataSize;
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -210,12 +375,14 @@ public final class AvatarWearFlycloakRspOuterClass {
       }
       emu.grasscutter.net.proto.AvatarWearFlycloakRspOuterClass.AvatarWearFlycloakRsp other = (emu.grasscutter.net.proto.AvatarWearFlycloakRspOuterClass.AvatarWearFlycloakRsp) obj;
 
-      if (getAvatarGuid()
-          != other.getAvatarGuid()) return false;
       if (getFlycloakId()
           != other.getFlycloakId()) return false;
+      if (!getAvatarGuidListList()
+          .equals(other.getAvatarGuidListList())) return false;
       if (getRetcode()
           != other.getRetcode()) return false;
+      if (!getMNCEBDCODIEList()
+          .equals(other.getMNCEBDCODIEList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -227,13 +394,18 @@ public final class AvatarWearFlycloakRspOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + AVATAR_GUID_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
-          getAvatarGuid());
       hash = (37 * hash) + FLYCLOAK_ID_FIELD_NUMBER;
       hash = (53 * hash) + getFlycloakId();
+      if (getAvatarGuidListCount() > 0) {
+        hash = (37 * hash) + AVATAR_GUID_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getAvatarGuidListList().hashCode();
+      }
       hash = (37 * hash) + RETCODE_FIELD_NUMBER;
       hash = (53 * hash) + getRetcode();
+      if (getMNCEBDCODIECount() > 0) {
+        hash = (37 * hash) + MNCEBDCODIE_FIELD_NUMBER;
+        hash = (53 * hash) + getMNCEBDCODIEList().hashCode();
+      }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -330,10 +502,6 @@ public final class AvatarWearFlycloakRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 25501
-     * </pre>
-     *
      * Protobuf type {@code AvatarWearFlycloakRsp}
      */
     public static final class Builder extends
@@ -371,12 +539,14 @@ public final class AvatarWearFlycloakRspOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        avatarGuid_ = 0L;
-
         flycloakId_ = 0;
 
+        avatarGuidList_ = emptyLongList();
+        bitField0_ = (bitField0_ & ~0x00000001);
         retcode_ = 0;
 
+        mNCEBDCODIE_ = emptyLongList();
+        bitField0_ = (bitField0_ & ~0x00000002);
         return this;
       }
 
@@ -403,9 +573,19 @@ public final class AvatarWearFlycloakRspOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.AvatarWearFlycloakRspOuterClass.AvatarWearFlycloakRsp buildPartial() {
         emu.grasscutter.net.proto.AvatarWearFlycloakRspOuterClass.AvatarWearFlycloakRsp result = new emu.grasscutter.net.proto.AvatarWearFlycloakRspOuterClass.AvatarWearFlycloakRsp(this);
-        result.avatarGuid_ = avatarGuid_;
+        int from_bitField0_ = bitField0_;
         result.flycloakId_ = flycloakId_;
+        if (((bitField0_ & 0x00000001) != 0)) {
+          avatarGuidList_.makeImmutable();
+          bitField0_ = (bitField0_ & ~0x00000001);
+        }
+        result.avatarGuidList_ = avatarGuidList_;
         result.retcode_ = retcode_;
+        if (((bitField0_ & 0x00000002) != 0)) {
+          mNCEBDCODIE_.makeImmutable();
+          bitField0_ = (bitField0_ & ~0x00000002);
+        }
+        result.mNCEBDCODIE_ = mNCEBDCODIE_;
         onBuilt();
         return result;
       }
@@ -454,14 +634,31 @@ public final class AvatarWearFlycloakRspOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.AvatarWearFlycloakRspOuterClass.AvatarWearFlycloakRsp other) {
         if (other == emu.grasscutter.net.proto.AvatarWearFlycloakRspOuterClass.AvatarWearFlycloakRsp.getDefaultInstance()) return this;
-        if (other.getAvatarGuid() != 0L) {
-          setAvatarGuid(other.getAvatarGuid());
-        }
         if (other.getFlycloakId() != 0) {
           setFlycloakId(other.getFlycloakId());
         }
+        if (!other.avatarGuidList_.isEmpty()) {
+          if (avatarGuidList_.isEmpty()) {
+            avatarGuidList_ = other.avatarGuidList_;
+            bitField0_ = (bitField0_ & ~0x00000001);
+          } else {
+            ensureAvatarGuidListIsMutable();
+            avatarGuidList_.addAll(other.avatarGuidList_);
+          }
+          onChanged();
+        }
         if (other.getRetcode() != 0) {
           setRetcode(other.getRetcode());
+        }
+        if (!other.mNCEBDCODIE_.isEmpty()) {
+          if (mNCEBDCODIE_.isEmpty()) {
+            mNCEBDCODIE_ = other.mNCEBDCODIE_;
+            bitField0_ = (bitField0_ & ~0x00000002);
+          } else {
+            ensureMNCEBDCODIEIsMutable();
+            mNCEBDCODIE_.addAll(other.mNCEBDCODIE_);
+          }
+          onChanged();
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -491,76 +688,224 @@ public final class AvatarWearFlycloakRspOuterClass {
         }
         return this;
       }
-
-      private long avatarGuid_ ;
-      /**
-       * <code>uint64 avatar_guid = 16160;</code>
-       * @return The avatarGuid.
-       */
-      @java.lang.Override
-      public long getAvatarGuid() {
-        return avatarGuid_;
-      }
-      /**
-       * <code>uint64 avatar_guid = 16160;</code>
-       * @param value The avatarGuid to set.
-       * @return This builder for chaining.
-       */
-      public Builder setAvatarGuid(long value) {
-
-        avatarGuid_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint64 avatar_guid = 16160;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearAvatarGuid() {
-
-        avatarGuid_ = 0L;
-        onChanged();
-        return this;
-      }
+      private int bitField0_;
 
       private int flycloakId_ ;
-
+      /**
+       * <code>uint32 flycloak_id = 10;</code>
+       * @return The flycloakId.
+       */
       @java.lang.Override
       public int getFlycloakId() {
         return flycloakId_;
       }
-
+      /**
+       * <code>uint32 flycloak_id = 10;</code>
+       * @param value The flycloakId to set.
+       * @return This builder for chaining.
+       */
       public Builder setFlycloakId(int value) {
-
+        
         flycloakId_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint32 flycloak_id = 10;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearFlycloakId() {
-
+        
         flycloakId_ = 0;
         onChanged();
         return this;
       }
 
-      private int retcode_ ;
-
-      @java.lang.Override
-      public int getRetcode() {
-        return retcode_;
+      private com.google.protobuf.Internal.LongList avatarGuidList_ = emptyLongList();
+      private void ensureAvatarGuidListIsMutable() {
+        if (!((bitField0_ & 0x00000001) != 0)) {
+          avatarGuidList_ = mutableCopy(avatarGuidList_);
+          bitField0_ |= 0x00000001;
+         }
       }
-
-      public Builder setRetcode(int value) {
-
-        retcode_ = value;
+      /**
+       * <code>repeated uint64 avatar_guid_list = 12;</code>
+       * @return A list containing the avatarGuidList.
+       */
+      public java.util.List<java.lang.Long>
+          getAvatarGuidListList() {
+        return ((bitField0_ & 0x00000001) != 0) ?
+                 java.util.Collections.unmodifiableList(avatarGuidList_) : avatarGuidList_;
+      }
+      /**
+       * <code>repeated uint64 avatar_guid_list = 12;</code>
+       * @return The count of avatarGuidList.
+       */
+      public int getAvatarGuidListCount() {
+        return avatarGuidList_.size();
+      }
+      /**
+       * <code>repeated uint64 avatar_guid_list = 12;</code>
+       * @param index The index of the element to return.
+       * @return The avatarGuidList at the given index.
+       */
+      public long getAvatarGuidList(int index) {
+        return avatarGuidList_.getLong(index);
+      }
+      /**
+       * <code>repeated uint64 avatar_guid_list = 12;</code>
+       * @param index The index to set the value at.
+       * @param value The avatarGuidList to set.
+       * @return This builder for chaining.
+       */
+      public Builder setAvatarGuidList(
+          int index, long value) {
+        ensureAvatarGuidListIsMutable();
+        avatarGuidList_.setLong(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint64 avatar_guid_list = 12;</code>
+       * @param value The avatarGuidList to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAvatarGuidList(long value) {
+        ensureAvatarGuidListIsMutable();
+        avatarGuidList_.addLong(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint64 avatar_guid_list = 12;</code>
+       * @param values The avatarGuidList to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllAvatarGuidList(
+          java.lang.Iterable<? extends java.lang.Long> values) {
+        ensureAvatarGuidListIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, avatarGuidList_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint64 avatar_guid_list = 12;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearAvatarGuidList() {
+        avatarGuidList_ = emptyLongList();
+        bitField0_ = (bitField0_ & ~0x00000001);
         onChanged();
         return this;
       }
 
+      private int retcode_ ;
+      /**
+       * <code>int32 retcode = 14;</code>
+       * @return The retcode.
+       */
+      @java.lang.Override
+      public int getRetcode() {
+        return retcode_;
+      }
+      /**
+       * <code>int32 retcode = 14;</code>
+       * @param value The retcode to set.
+       * @return This builder for chaining.
+       */
+      public Builder setRetcode(int value) {
+        
+        retcode_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>int32 retcode = 14;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearRetcode() {
-
+        
         retcode_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.Internal.LongList mNCEBDCODIE_ = emptyLongList();
+      private void ensureMNCEBDCODIEIsMutable() {
+        if (!((bitField0_ & 0x00000002) != 0)) {
+          mNCEBDCODIE_ = mutableCopy(mNCEBDCODIE_);
+          bitField0_ |= 0x00000002;
+         }
+      }
+      /**
+       * <code>repeated uint64 MNCEBDCODIE = 15;</code>
+       * @return A list containing the mNCEBDCODIE.
+       */
+      public java.util.List<java.lang.Long>
+          getMNCEBDCODIEList() {
+        return ((bitField0_ & 0x00000002) != 0) ?
+                 java.util.Collections.unmodifiableList(mNCEBDCODIE_) : mNCEBDCODIE_;
+      }
+      /**
+       * <code>repeated uint64 MNCEBDCODIE = 15;</code>
+       * @return The count of mNCEBDCODIE.
+       */
+      public int getMNCEBDCODIECount() {
+        return mNCEBDCODIE_.size();
+      }
+      /**
+       * <code>repeated uint64 MNCEBDCODIE = 15;</code>
+       * @param index The index of the element to return.
+       * @return The mNCEBDCODIE at the given index.
+       */
+      public long getMNCEBDCODIE(int index) {
+        return mNCEBDCODIE_.getLong(index);
+      }
+      /**
+       * <code>repeated uint64 MNCEBDCODIE = 15;</code>
+       * @param index The index to set the value at.
+       * @param value The mNCEBDCODIE to set.
+       * @return This builder for chaining.
+       */
+      public Builder setMNCEBDCODIE(
+          int index, long value) {
+        ensureMNCEBDCODIEIsMutable();
+        mNCEBDCODIE_.setLong(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint64 MNCEBDCODIE = 15;</code>
+       * @param value The mNCEBDCODIE to add.
+       * @return This builder for chaining.
+       */
+      public Builder addMNCEBDCODIE(long value) {
+        ensureMNCEBDCODIEIsMutable();
+        mNCEBDCODIE_.addLong(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint64 MNCEBDCODIE = 15;</code>
+       * @param values The mNCEBDCODIE to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllMNCEBDCODIE(
+          java.lang.Iterable<? extends java.lang.Long> values) {
+        ensureMNCEBDCODIEIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, mNCEBDCODIE_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint64 MNCEBDCODIE = 15;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearMNCEBDCODIE() {
+        mNCEBDCODIE_ = emptyLongList();
+        bitField0_ = (bitField0_ & ~0x00000002);
         onChanged();
         return this;
       }
@@ -575,6 +920,7 @@ public final class AvatarWearFlycloakRspOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:AvatarWearFlycloakRsp)
     }
@@ -618,7 +964,7 @@ public final class AvatarWearFlycloakRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarWearFlycloakRsp_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarWearFlycloakRsp_fieldAccessorTable;
 
@@ -630,10 +976,12 @@ public final class AvatarWearFlycloakRspOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033AvatarWearFlycloakRsp.proto\"S\n\025AvatarW" +
-      "earFlycloakRsp\022\024\n\013avatar_guid\030\240~ \001(\004\022\023\n\013" +
-      "flycloak_id\030\t \001(\r\022\017\n\007retcode\030\016 \001(\005B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\033AvatarWearFlycloakRsp.proto\"l\n\025AvatarW" +
+      "earFlycloakRsp\022\023\n\013flycloak_id\030\n \001(\r\022\030\n\020a" +
+      "vatar_guid_list\030\014 \003(\004\022\017\n\007retcode\030\016 \001(\005\022\023" +
+      "\n\013MNCEBDCODIE\030\017 \003(\004B<\n\031emu.grasscutter.n" +
+      "et.protoB\037AvatarWearFlycloakRspOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -644,7 +992,7 @@ public final class AvatarWearFlycloakRspOuterClass {
     internal_static_AvatarWearFlycloakRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AvatarWearFlycloakRsp_descriptor,
-        new java.lang.String[] { "AvatarGuid", "FlycloakId", "Retcode", });
+        new java.lang.String[] { "FlycloakId", "AvatarGuidList", "Retcode", "MNCEBDCODIE", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

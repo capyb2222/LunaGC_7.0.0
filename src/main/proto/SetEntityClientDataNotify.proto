@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SetEntityClientDataNotifyOuterClass";
+
+import "EntityClientData.proto";
+
+message SetEntityClientDataNotify {
+	uint32 entity_id = 3;
+	EntityClientData entity_client_data = 15;
+}

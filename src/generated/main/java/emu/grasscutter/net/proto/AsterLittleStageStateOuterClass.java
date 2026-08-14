@@ -155,8 +155,9 @@ public final class AsterLittleStageStateOuterClass {
       "eStageState_ASTER_LITTLE_STAGE_UNSTARTED" +
       "\020\001\0224\n0AsterLittleStageState_ASTER_LITTLE" +
       "_STAGE_STARTED\020\002\0225\n1AsterLittleStageStat" +
-      "e_ASTER_LITTLE_STAGE_FINISHED\020\003B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "e_ASTER_LITTLE_STAGE_FINISHED\020\003B<\n\031emu.g" +
+      "rasscutter.net.protoB\037AsterLittleStageSt" +
+      "ateOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

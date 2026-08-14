@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FEAMAENBJPCOuterClass";
+
+import "FJFKBKCECBC.proto";
+import "Vector.proto";
+import "_CurrentPhase.proto";
+
+message FEAMAENBJPC {
+	int32 KPEOPGPENGN = 1;
+	int32 GOKMKDKPBEK = 2;
+	string MIKFCHLALBN = 3;
+	bool DKKGNMHFHOI = 4;
+	bool BAFDBADGIKI = 5;
+	Vector MPCANOANMNM = 6;
+	Vector rot = 7;
+	float OLIPGCONBJC = 8;
+	_CurrentPhase NECKOCPCNAB = 9;
+	repeated int32 POGPHDLNFFL = 10;
+	FJFKBKCECBC PNFMAMOFHHN = 11;
+	_CurrentPhase HGDAMCKDNDN = 12;
+	bool MCGOLBFHCJI = 13;
+}

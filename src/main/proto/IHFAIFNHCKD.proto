@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "IHFAIFNHCKDOuterClass";
+
+message IHFAIFNHCKD {
+	bool is_finish = 9;
+	uint32 score = 11;
+	uint32 stage_id = 12;
+	bool is_open = 13;
+}

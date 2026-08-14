@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ToyBattleDetailInfoOuterClass";
+
+import "EBPGBJPNECE.proto";
+import "MDCLJNPDHKG.proto";
+import "OGPKLKFOKMA.proto";
+
+message ToyBattleDetailInfo {
+	OGPKLKFOKMA camp_info = 5;
+	MDCLJNPDHKG LPJNDCOPMLF = 8;
+	EBPGBJPNECE ECIAOICLCLC = 13;
+}

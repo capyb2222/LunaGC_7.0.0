@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PlayerChatReqOuterClass";
+
+import "ChatInfo.proto";
+
+message PlayerChatReq {
+	uint32 channel_id = 6;
+	ChatInfo chat_info = 10;
+}

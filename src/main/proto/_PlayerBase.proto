@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_PlayerBaseOuterClass";
+
+import "AGCBFLPCCPO.proto";
+import "BKNLEJAHPKD.proto";
+import "EBGOFBOCPDI.proto";
+import "EILJLANKAMB.proto";
+import "KIGCLNGFMND.proto";
+import "LPEEBGCIIFM.proto";
+import "NHJDKJCBKIK.proto";
+import "PDOHMBLHDAK.proto";
+import "Vector.proto";
+import "_CurrentPhase.proto";
+
+message _PlayerBase {
+	uint32 uid = 1;
+	PDOHMBLHDAK FBPALNKBLEE = 2;
+	repeated uint32 EHNOLFOMCKB = 3;
+	LPEEBGCIIFM PPEFAEBIENB = 4;
+	AGCBFLPCCPO JLOMNEOEJFD = 5;
+	EBGOFBOCPDI KIBCJILIIPN = 6;
+	EILJLANKAMB EHFCIKLMMLH = 7;
+	float KAGKGEAGKAE = 8;
+	Vector GBDPEEAGILA = 9;
+	repeated NHJDKJCBKIK JNKMOGCMGGN = 10;
+	_CurrentPhase IJADOHFMJGK = 11;
+	bool GDODIKIAFME = 12;
+	BKNLEJAHPKD MIFIHMMDHEP = 13;
+	KIGCLNGFMND INNCANGHMNH = 14;
+}

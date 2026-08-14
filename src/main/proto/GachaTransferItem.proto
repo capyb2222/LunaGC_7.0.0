@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GachaTransferItemOuterClass";
+
+import "ItemParam.proto";
+
+message GachaTransferItem {
+	bool is_transfer_item_new = 6;
+	ItemParam item = 9;
+}

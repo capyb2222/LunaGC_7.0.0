@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "IrodoriChessEntranceInfoOuterClass";
+
+import "IrodoriChessMonsterInfo.proto";
+
+message IrodoriChessEntranceInfo {
+	uint32 entrance_point_id = 3;
+	repeated IrodoriChessMonsterInfo monster_info_list = 11;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ClientAbilityChangeNotifyOuterClass";
+
+import "AbilityInvokeEntry.proto";
+
+message ClientAbilityChangeNotify {
+	bool is_init_hash = 4;
+	repeated AbilityInvokeEntry invokes = 12;
+	uint32 entity_id = 13;
+}

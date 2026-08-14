@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_GCGPveDetailInfoOuterClass";
+
+import "LDGCGLKMJFO.proto";
+
+message _GCGPveDetailInfo {
+	repeated LDGCGLKMJFO level_data_list = 7;
+	bool LFAFBLMLCKG = 14;
+}

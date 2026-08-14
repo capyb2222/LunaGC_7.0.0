@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AvatarFightPropUpdateNotifyOuterClass";
+
+message AvatarFightPropUpdateNotify {
+	map<uint32, float> fight_prop_map = 11;
+	uint64 avatar_guid = 15;
+}

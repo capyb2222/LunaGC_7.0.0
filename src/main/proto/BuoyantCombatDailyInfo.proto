@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "BuoyantCombatDailyInfoOuterClass";
+
+message BuoyantCombatDailyInfo {
+	uint32 start_time = 12;
+	uint32 best_score = 13;
+}

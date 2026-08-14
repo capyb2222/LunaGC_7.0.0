@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DungeonSlipRevivePointActivateReqOuterClass";
+
+message DungeonSlipRevivePointActivateReq {
+	uint32 slip_revive_point_id = 7;
+}

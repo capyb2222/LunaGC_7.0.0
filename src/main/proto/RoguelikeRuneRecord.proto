@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "RoguelikeRuneRecordOuterClass";
+
+message RoguelikeRuneRecord {
+	uint32 pddnmmiceml = 7;
+	uint32 HAKBGHFECEJ = 9;
+	uint32 rune_id = 12;
+}

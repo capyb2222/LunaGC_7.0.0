@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SeaLampActivityDetailInfoOuterClass";
+
+message SeaLampActivityDetailInfo {
+	uint32 PLOPGFGAFLJ = 1;
+	uint32 phase_id = 3;
+	repeated uint32 ICNIKLDGHJA = 4;
+	uint32 progress = 6;
+	uint32 AEBFOBBJKLH = 8;
+	repeated uint32 MGKPFINDMBE = 10;
+	uint32 days = 13;
+}

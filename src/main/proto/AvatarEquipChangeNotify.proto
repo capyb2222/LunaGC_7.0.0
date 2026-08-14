@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AvatarEquipChangeNotifyOuterClass";
+
+import "SceneReliquaryInfo.proto";
+import "SceneWeaponInfo.proto";
+
+message AvatarEquipChangeNotify {
+	uint32 item_id = 3;
+	uint64 equip_guid = 8;
+	uint64 avatar_guid = 9;
+	SceneReliquaryInfo reliquary = 10;
+	uint32 equip_type = 12;
+	SceneWeaponInfo weapon = 13;
+}

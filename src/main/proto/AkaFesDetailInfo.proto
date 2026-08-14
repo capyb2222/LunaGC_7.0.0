@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AkaFesDetailInfoOuterClass";
+
+import "ANKDJAOILKB.proto";
+import "DEDPANJOEAE.proto";
+import "DOAKNFOOGMH.proto";
+import "GKPJJJLDBOJ.proto";
+import "ILHCGIIMHBM.proto";
+import "MENHFPBEHLL.proto";
+
+message AkaFesDetailInfo {
+	ILHCGIIMHBM ACOACLMAJNM = 1;
+	MENHFPBEHLL GFIMJAILAFF = 3;
+	DOAKNFOOGMH NJACKJJLCHN = 5;
+	DEDPANJOEAE pjciiiofmli = 9;
+	ANKDJAOILKB EGNIINEIJGB = 10;
+	GKPJJJLDBOJ ijgpjhppgmb = 14;
+}

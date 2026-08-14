@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "IOIOBABMMLLOuterClass";
+
+message IOIOBABMMLL {
+	float rot = 1;
+	bool GDNALHJEFPE = 3;
+	uint32 id = 4;
+	float HGHDGAIHIHJ = 5;
+	float MIFLBOMJLLO = 6;
+	uint32 value = 8;
+	float JADCKOMEOGC = 9;
+	uint32 IPHHMCDGGCP = 11;
+}

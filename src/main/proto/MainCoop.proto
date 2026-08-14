@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MainCoopOuterClass";
+
+message MainCoop {
+	enum Status {
+		INVALID = 0;
+		RUNNING = 1;
+		FINISHED = 2;
+	}
+	map<uint32, int32> HONMHLPABBF = 2;
+	repeated uint32 save_point_id_list = 3;
+	uint32 self_confidence = 4;
+	uint32 id = 11;
+	map<uint32, int32> KAFJENECJNC = 12;
+	Status status = 14;
+	map<uint32, uint32> seen_ending_map = 15;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HMNAKLDLGGFOuterClass";
+
+import "CADPEFKILCP.proto";
+
+message HMNAKLDLGGF {
+	repeated uint32 OPCJALLNAGK = 12;
+	uint32 LLKBGEFIHAL = 13;
+	repeated CADPEFKILCP NNJAEBPGEBD = 14;
+}

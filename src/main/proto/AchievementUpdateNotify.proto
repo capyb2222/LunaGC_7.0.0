@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AchievementUpdateNotifyOuterClass";
+
+import "Achievement.proto";
+
+message AchievementUpdateNotify {
+	repeated Achievement achievement_list = 5;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "BargainOfferPriceRspOuterClass";
+
+import "BargainResultType.proto";
+
+message BargainOfferPriceRsp {
+	int32 retcode = 1;
+	uint32 result_param = 3;
+	int32 cur_mood = 7;
+	BargainResultType bargain_result = 9;
+}

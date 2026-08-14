@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HomeMarkPointSceneDataOuterClass";
+
+import "HomeMarkPointFurnitureData.proto";
+import "Vector.proto";
+
+message HomeMarkPointSceneData {
+	uint32 scene_id = 5;
+	Vector safe_point_pos = 6;
+	uint32 module_id = 7;
+	repeated HomeMarkPointFurnitureData furniture_list = 13;
+	Vector teapot_spirit_pos = 15;
+}

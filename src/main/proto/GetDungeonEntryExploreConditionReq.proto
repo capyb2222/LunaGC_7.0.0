@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GetDungeonEntryExploreConditionReqOuterClass";
+
+message GetDungeonEntryExploreConditionReq {
+	uint32 dungeon_entry_scene_point_id = 8;
+	uint32 scene_id = 9;
+	uint32 dungeon_entry_config_id = 12;
+}

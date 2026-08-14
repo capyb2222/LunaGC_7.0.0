@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "NHKBDCPGNMNOuterClass";
+
+import "_ActivityAvatarInfo.proto";
+
+message NHKBDCPGNMN {
+	uint32 max_score = 4;
+	bool is_open = 5;
+	bool is_finish = 9;
+	uint32 level_id = 11;
+	repeated _ActivityAvatarInfo select_avatar_list = 14;
+}

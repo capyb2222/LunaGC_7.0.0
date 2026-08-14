@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_FilmfestBallGameSnapShotOuterClass";
+
+import "INKBFLJAEJP.proto";
+import "LKILCHLHHLL.proto";
+import "_FilmfestBallGameAction.proto";
+import "_FilmfestBallGameSyncCreateConnect.proto";
+
+message _FilmfestBallGameSnapShot {
+	uint64 client_game_time = 1;
+	uint64 server_game_time = 2;
+	repeated LKILCHLHHLL entity_list = 3;
+	repeated _FilmfestBallGameAction action_list = 4;
+	bool is_finish = 5;
+	repeated uint32 id_index_list = 6;
+	int32 raw_client_game_time = 7;
+	repeated INKBFLJAEJP player_info_list = 8;
+	int32 wave_index = 9;
+	_FilmfestBallGameSyncCreateConnect JKKCIDJMDFG = 10;
+	int32 ODBIBEOODJI = 11;
+	int32 GIFKGKALNLN = 12;
+	uint32 BPELMIOKONI = 13;
+	uint32 KPBOJGIHHKJ = 14;
+	uint32 FDEKNDHGJDC = 15;
+	uint32 FPDAOCDFDBD = 16;
+	uint32 stage_index = 17;
+	int32 CHNDKFKCHDL = 18;
+}

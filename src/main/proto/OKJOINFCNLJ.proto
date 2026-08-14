@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "OKJOINFCNLJOuterClass";
+
+message OKJOINFCNLJ {
+	int32 LKJNKMLEDHN = 1;
+	float begin_time = 2;
+	float end_time = 3;
+	bool JAIKAMEDKOB = 4;
+	float MCMDPFOIHAJ = 5;
+	int32 GMGNKGGBBAM = 6;
+	float BDFKCBOIAIP = 7;
+	bool OFDMGHJACIC = 8;
+}

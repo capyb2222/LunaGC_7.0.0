@@ -18,25 +18,53 @@ public final class RegionSimpleInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:RegionSimpleInfo)
       com.google.protobuf.MessageOrBuilder {
 
+    /**
+     * <code>string name = 1;</code>
+     * @return The name.
+     */
     java.lang.String getName();
-
+    /**
+     * <code>string name = 1;</code>
+     * @return The bytes for name.
+     */
     com.google.protobuf.ByteString
         getNameBytes();
 
-    java.lang.String getDispatchUrl();
-
+    /**
+     * <code>string title = 2;</code>
+     * @return The title.
+     */
+    java.lang.String getTitle();
+    /**
+     * <code>string title = 2;</code>
+     * @return The bytes for title.
+     */
     com.google.protobuf.ByteString
-        getDispatchUrlBytes();
+        getTitleBytes();
 
+    /**
+     * <code>string type = 3;</code>
+     * @return The type.
+     */
     java.lang.String getType();
-
+    /**
+     * <code>string type = 3;</code>
+     * @return The bytes for type.
+     */
     com.google.protobuf.ByteString
         getTypeBytes();
 
-    java.lang.String getTitle();
-
+    /**
+     * <code>string dispatch_url = 4;</code>
+     * @return The dispatchUrl.
+     */
+    java.lang.String getDispatchUrl();
+    /**
+     * <code>string dispatch_url = 4;</code>
+     * @return The bytes for dispatchUrl.
+     */
     com.google.protobuf.ByteString
-        getTitleBytes();
+        getDispatchUrlBytes();
   }
   /**
    * Protobuf type {@code RegionSimpleInfo}
@@ -52,9 +80,9 @@ public final class RegionSimpleInfoOuterClass {
     }
     private RegionSimpleInfo() {
       name_ = "";
-      dispatchUrl_ = "";
-      type_ = "";
       title_ = "";
+      type_ = "";
+      dispatchUrl_ = "";
     }
 
     @java.lang.Override
@@ -145,27 +173,33 @@ public final class RegionSimpleInfoOuterClass {
 
     public static final int NAME_FIELD_NUMBER = 1;
     private volatile java.lang.Object name_;
-
+    /**
+     * <code>string name = 1;</code>
+     * @return The name.
+     */
     @java.lang.Override
     public java.lang.String getName() {
       java.lang.Object ref = name_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         name_ = s;
         return s;
       }
     }
-
+    /**
+     * <code>string name = 1;</code>
+     * @return The bytes for name.
+     */
     @java.lang.Override
     public com.google.protobuf.ByteString
         getNameBytes() {
       java.lang.Object ref = name_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         name_ = b;
@@ -175,32 +209,38 @@ public final class RegionSimpleInfoOuterClass {
       }
     }
 
-    public static final int DISPATCH_URL_FIELD_NUMBER = 4;
-    private volatile java.lang.Object dispatchUrl_;
-
+    public static final int TITLE_FIELD_NUMBER = 2;
+    private volatile java.lang.Object title_;
+    /**
+     * <code>string title = 2;</code>
+     * @return The title.
+     */
     @java.lang.Override
-    public java.lang.String getDispatchUrl() {
-      java.lang.Object ref = dispatchUrl_;
+    public java.lang.String getTitle() {
+      java.lang.Object ref = title_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        dispatchUrl_ = s;
+        title_ = s;
         return s;
       }
     }
-
+    /**
+     * <code>string title = 2;</code>
+     * @return The bytes for title.
+     */
     @java.lang.Override
     public com.google.protobuf.ByteString
-        getDispatchUrlBytes() {
-      java.lang.Object ref = dispatchUrl_;
+        getTitleBytes() {
+      java.lang.Object ref = title_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        dispatchUrl_ = b;
+        title_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
@@ -209,27 +249,33 @@ public final class RegionSimpleInfoOuterClass {
 
     public static final int TYPE_FIELD_NUMBER = 3;
     private volatile java.lang.Object type_;
-
+    /**
+     * <code>string type = 3;</code>
+     * @return The type.
+     */
     @java.lang.Override
     public java.lang.String getType() {
       java.lang.Object ref = type_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         type_ = s;
         return s;
       }
     }
-
+    /**
+     * <code>string type = 3;</code>
+     * @return The bytes for type.
+     */
     @java.lang.Override
     public com.google.protobuf.ByteString
         getTypeBytes() {
       java.lang.Object ref = type_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         type_ = b;
@@ -239,32 +285,38 @@ public final class RegionSimpleInfoOuterClass {
       }
     }
 
-    public static final int TITLE_FIELD_NUMBER = 2;
-    private volatile java.lang.Object title_;
-
+    public static final int DISPATCH_URL_FIELD_NUMBER = 4;
+    private volatile java.lang.Object dispatchUrl_;
+    /**
+     * <code>string dispatch_url = 4;</code>
+     * @return The dispatchUrl.
+     */
     @java.lang.Override
-    public java.lang.String getTitle() {
-      java.lang.Object ref = title_;
+    public java.lang.String getDispatchUrl() {
+      java.lang.Object ref = dispatchUrl_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        title_ = s;
+        dispatchUrl_ = s;
         return s;
       }
     }
-
+    /**
+     * <code>string dispatch_url = 4;</code>
+     * @return The bytes for dispatchUrl.
+     */
     @java.lang.Override
     public com.google.protobuf.ByteString
-        getTitleBytes() {
-      java.lang.Object ref = title_;
+        getDispatchUrlBytes() {
+      java.lang.Object ref = dispatchUrl_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        title_ = b;
+        dispatchUrl_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
@@ -335,12 +387,12 @@ public final class RegionSimpleInfoOuterClass {
 
       if (!getName()
           .equals(other.getName())) return false;
-      if (!getDispatchUrl()
-          .equals(other.getDispatchUrl())) return false;
-      if (!getType()
-          .equals(other.getType())) return false;
       if (!getTitle()
           .equals(other.getTitle())) return false;
+      if (!getType()
+          .equals(other.getType())) return false;
+      if (!getDispatchUrl()
+          .equals(other.getDispatchUrl())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -354,12 +406,12 @@ public final class RegionSimpleInfoOuterClass {
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + NAME_FIELD_NUMBER;
       hash = (53 * hash) + getName().hashCode();
-      hash = (37 * hash) + DISPATCH_URL_FIELD_NUMBER;
-      hash = (53 * hash) + getDispatchUrl().hashCode();
-      hash = (37 * hash) + TYPE_FIELD_NUMBER;
-      hash = (53 * hash) + getType().hashCode();
       hash = (37 * hash) + TITLE_FIELD_NUMBER;
       hash = (53 * hash) + getTitle().hashCode();
+      hash = (37 * hash) + TYPE_FIELD_NUMBER;
+      hash = (53 * hash) + getType().hashCode();
+      hash = (37 * hash) + DISPATCH_URL_FIELD_NUMBER;
+      hash = (53 * hash) + getDispatchUrl().hashCode();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -495,11 +547,11 @@ public final class RegionSimpleInfoOuterClass {
         super.clear();
         name_ = "";
 
-        dispatchUrl_ = "";
+        title_ = "";
 
         type_ = "";
 
-        title_ = "";
+        dispatchUrl_ = "";
 
         return this;
       }
@@ -528,9 +580,9 @@ public final class RegionSimpleInfoOuterClass {
       public emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo buildPartial() {
         emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo result = new emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo(this);
         result.name_ = name_;
-        result.dispatchUrl_ = dispatchUrl_;
-        result.type_ = type_;
         result.title_ = title_;
+        result.type_ = type_;
+        result.dispatchUrl_ = dispatchUrl_;
         onBuilt();
         return result;
       }
@@ -583,16 +635,16 @@ public final class RegionSimpleInfoOuterClass {
           name_ = other.name_;
           onChanged();
         }
-        if (!other.getDispatchUrl().isEmpty()) {
-          dispatchUrl_ = other.dispatchUrl_;
+        if (!other.getTitle().isEmpty()) {
+          title_ = other.title_;
           onChanged();
         }
         if (!other.getType().isEmpty()) {
           type_ = other.type_;
           onChanged();
         }
-        if (!other.getTitle().isEmpty()) {
-          title_ = other.title_;
+        if (!other.getDispatchUrl().isEmpty()) {
+          dispatchUrl_ = other.dispatchUrl_;
           onChanged();
         }
         this.mergeUnknownFields(other.unknownFields);
@@ -625,7 +677,10 @@ public final class RegionSimpleInfoOuterClass {
       }
 
       private java.lang.Object name_ = "";
-
+      /**
+       * <code>string name = 1;</code>
+       * @return The name.
+       */
       public java.lang.String getName() {
         java.lang.Object ref = name_;
         if (!(ref instanceof java.lang.String)) {
@@ -638,12 +693,15 @@ public final class RegionSimpleInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
-
+      /**
+       * <code>string name = 1;</code>
+       * @return The bytes for name.
+       */
       public com.google.protobuf.ByteString
           getNameBytes() {
         java.lang.Object ref = name_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           name_ = b;
@@ -652,157 +710,53 @@ public final class RegionSimpleInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-
+      /**
+       * <code>string name = 1;</code>
+       * @param value The name to set.
+       * @return This builder for chaining.
+       */
       public Builder setName(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         name_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>string name = 1;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearName() {
-
+        
         name_ = getDefaultInstance().getName();
         onChanged();
         return this;
       }
-
+      /**
+       * <code>string name = 1;</code>
+       * @param value The bytes for name to set.
+       * @return This builder for chaining.
+       */
       public Builder setNameBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         name_ = value;
         onChanged();
         return this;
       }
 
-      private java.lang.Object dispatchUrl_ = "";
-
-      public java.lang.String getDispatchUrl() {
-        java.lang.Object ref = dispatchUrl_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          dispatchUrl_ = s;
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
-      }
-
-      public com.google.protobuf.ByteString
-          getDispatchUrlBytes() {
-        java.lang.Object ref = dispatchUrl_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          dispatchUrl_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-
-      public Builder setDispatchUrl(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-
-        dispatchUrl_ = value;
-        onChanged();
-        return this;
-      }
-
-      public Builder clearDispatchUrl() {
-
-        dispatchUrl_ = getDefaultInstance().getDispatchUrl();
-        onChanged();
-        return this;
-      }
-
-      public Builder setDispatchUrlBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-
-        dispatchUrl_ = value;
-        onChanged();
-        return this;
-      }
-
-      private java.lang.Object type_ = "";
-
-      public java.lang.String getType() {
-        java.lang.Object ref = type_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          type_ = s;
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
-      }
-
-      public com.google.protobuf.ByteString
-          getTypeBytes() {
-        java.lang.Object ref = type_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          type_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-
-      public Builder setType(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-
-        type_ = value;
-        onChanged();
-        return this;
-      }
-
-      public Builder clearType() {
-
-        type_ = getDefaultInstance().getType();
-        onChanged();
-        return this;
-      }
-
-      public Builder setTypeBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-
-        type_ = value;
-        onChanged();
-        return this;
-      }
-
       private java.lang.Object title_ = "";
-
+      /**
+       * <code>string title = 2;</code>
+       * @return The title.
+       */
       public java.lang.String getTitle() {
         java.lang.Object ref = title_;
         if (!(ref instanceof java.lang.String)) {
@@ -815,12 +769,15 @@ public final class RegionSimpleInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
-
+      /**
+       * <code>string title = 2;</code>
+       * @return The bytes for title.
+       */
       public com.google.protobuf.ByteString
           getTitleBytes() {
         java.lang.Object ref = title_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           title_ = b;
@@ -829,33 +786,196 @@ public final class RegionSimpleInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-
+      /**
+       * <code>string title = 2;</code>
+       * @param value The title to set.
+       * @return This builder for chaining.
+       */
       public Builder setTitle(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         title_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>string title = 2;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearTitle() {
-
+        
         title_ = getDefaultInstance().getTitle();
         onChanged();
         return this;
       }
-
+      /**
+       * <code>string title = 2;</code>
+       * @param value The bytes for title to set.
+       * @return This builder for chaining.
+       */
       public Builder setTitleBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         title_ = value;
+        onChanged();
+        return this;
+      }
+
+      private java.lang.Object type_ = "";
+      /**
+       * <code>string type = 3;</code>
+       * @return The type.
+       */
+      public java.lang.String getType() {
+        java.lang.Object ref = type_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          type_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>string type = 3;</code>
+       * @return The bytes for type.
+       */
+      public com.google.protobuf.ByteString
+          getTypeBytes() {
+        java.lang.Object ref = type_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          type_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>string type = 3;</code>
+       * @param value The type to set.
+       * @return This builder for chaining.
+       */
+      public Builder setType(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        type_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>string type = 3;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearType() {
+        
+        type_ = getDefaultInstance().getType();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>string type = 3;</code>
+       * @param value The bytes for type to set.
+       * @return This builder for chaining.
+       */
+      public Builder setTypeBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+        
+        type_ = value;
+        onChanged();
+        return this;
+      }
+
+      private java.lang.Object dispatchUrl_ = "";
+      /**
+       * <code>string dispatch_url = 4;</code>
+       * @return The dispatchUrl.
+       */
+      public java.lang.String getDispatchUrl() {
+        java.lang.Object ref = dispatchUrl_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          dispatchUrl_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>string dispatch_url = 4;</code>
+       * @return The bytes for dispatchUrl.
+       */
+      public com.google.protobuf.ByteString
+          getDispatchUrlBytes() {
+        java.lang.Object ref = dispatchUrl_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          dispatchUrl_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>string dispatch_url = 4;</code>
+       * @param value The dispatchUrl to set.
+       * @return This builder for chaining.
+       */
+      public Builder setDispatchUrl(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        dispatchUrl_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>string dispatch_url = 4;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearDispatchUrl() {
+        
+        dispatchUrl_ = getDefaultInstance().getDispatchUrl();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>string dispatch_url = 4;</code>
+       * @param value The bytes for dispatchUrl to set.
+       * @return This builder for chaining.
+       */
+      public Builder setDispatchUrlBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+        
+        dispatchUrl_ = value;
         onChanged();
         return this;
       }
@@ -870,6 +990,7 @@ public final class RegionSimpleInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:RegionSimpleInfo)
     }
@@ -913,7 +1034,7 @@ public final class RegionSimpleInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_RegionSimpleInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_RegionSimpleInfo_fieldAccessorTable;
 
@@ -926,9 +1047,10 @@ public final class RegionSimpleInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026RegionSimpleInfo.proto\"S\n\020RegionSimple" +
-      "Info\022\014\n\004name\030\001 \001(\t\022\024\n\014dispatch_url\030\004 \001(\t" +
-      "\022\014\n\004type\030\003 \001(\t\022\r\n\005title\030\002 \001(\tB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "Info\022\014\n\004name\030\001 \001(\t\022\r\n\005title\030\002 \001(\t\022\014\n\004typ" +
+      "e\030\003 \001(\t\022\024\n\014dispatch_url\030\004 \001(\tB7\n\031emu.gra" +
+      "sscutter.net.protoB\032RegionSimpleInfoOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -939,7 +1061,7 @@ public final class RegionSimpleInfoOuterClass {
     internal_static_RegionSimpleInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_RegionSimpleInfo_descriptor,
-        new java.lang.String[] { "Name", "DispatchUrl", "Type", "Title", });
+        new java.lang.String[] { "Name", "Title", "Type", "DispatchUrl", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

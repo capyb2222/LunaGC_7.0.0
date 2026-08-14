@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_Mvm2DetailInfoOuterClass";
+
+import "CGPKHBGAFMM.proto";
+import "OMNMAIIHHDJ.proto";
+
+message _Mvm2DetailInfo {
+	repeated CGPKHBGAFMM OGDLCAIMFHD = 6;
+	OMNMAIIHHDJ PNBPGDLCHNC = 8;
+}

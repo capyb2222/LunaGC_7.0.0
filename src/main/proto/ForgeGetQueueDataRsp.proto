@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ForgeGetQueueDataRspOuterClass";
+
+import "ForgeQueueData.proto";
+
+message ForgeGetQueueDataRsp {
+	uint32 max_queue_num = 5;
+	int32 retcode = 8;
+	map<uint32, ForgeQueueData> forge_queue_map = 15;
+}

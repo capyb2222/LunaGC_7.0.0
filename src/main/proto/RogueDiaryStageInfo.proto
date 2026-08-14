@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "RogueDiaryStageInfoOuterClass";
+
+import "RogueDiaryDungeonRecord.proto";
+
+message RogueDiaryStageInfo {
+	uint32 stage_id = 7;
+	RogueDiaryDungeonRecord best_record = 10;
+	bool is_have_try = 15;
+}

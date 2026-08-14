@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ChallengeFinishTypeOuterClass";
+
+enum ChallengeFinishType {
+	CHALLENGE_FINISH_TYPE_NONE = 0;
+	CHALLENGE_FINISH_TYPE_FAIL = 1;
+	CHALLENGE_FINISH_TYPE_SUCC = 2;
+	CHALLENGE_FINISH_TYPE_PAUSE = 3;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DJBEAHLAPPIOuterClass";
+
+message DJBEAHLAPPI {
+	uint32 level_id = 5;
+	uint32 max_score = 10;
+	bool is_open = 12;
+}

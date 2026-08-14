@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_PacmanDungeonStopReasonOuterClass";
+
+enum _PacmanDungeonStopReason {
+	PACMAN_DUNGEON_STOP_NONE = 0;
+	PACMAN_DUNGEON_STOP_SUCCESS = 1;
+	PACMAN_DUNGEON_STOP_TIMEUP = 2;
+	PACMAN_DUNGEON_STOP_CLIENT_INTERRUPT = 3;
+	PACMAN_DUNGEON_STOP_CANCEL = 4;
+	PACMAN_DUNGEON_STOP_ACTIVITY_CLOSED = 5;
+	PACMAN_DUNGEON_STOP_FAIL = 6;
+}

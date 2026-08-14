@@ -134,8 +134,8 @@ public final class WidgetSlotTagOuterClass {
       "\n\023WidgetSlotTag.proto*e\n\rWidgetSlotTag\022\'" +
       "\n#WidgetSlotTag_WIDGET_SLOT_QUICK_USE\020\000\022" +
       "+\n\'WidgetSlotTag_WIDGET_SLOT_ATTACH_AVAT" +
-      "AR\020\001B\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "AR\020\001B4\n\031emu.grasscutter.net.protoB\027Widge" +
+      "tSlotTagOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

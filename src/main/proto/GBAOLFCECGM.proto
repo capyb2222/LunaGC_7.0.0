@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GBAOLFCECGMOuterClass";
+
+import "BNJGIMAFELC.proto";
+
+message GBAOLFCECGM {
+	bool LAOJFDMECIB = 3;
+	repeated uint32 JLGIAAGNLCO = 7;
+	repeated BNJGIMAFELC mark_list = 11;
+	bool NNBCNODJNBG = 14;
+}

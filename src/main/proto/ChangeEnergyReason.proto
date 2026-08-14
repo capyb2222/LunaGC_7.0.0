@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ChangeEnergyReasonOuterClass";
+
+enum ChangeEnergyReason {
+	ChangeEnergyReason_CHANGE_ENERGY_NONE = 0;
+	ChangeEnergyReason_CHANGE_ENERGY_SKILL_START = 1;
+	ChangeEnergyReason_CHANGE_ENERGY_BALL = 2;
+	ChangeEnergyReason_CHANGE_ENERGY_QUEST = 3;
+	ChangeEnergyReason_CHANGE_ENERGY_ABILITY = 4;
+	ChangeEnergyReason_CHANGE_ENERGY_DIE = 5;
+	ChangeEnergyReason_CHANGE_ENERGY_SKILL_DEPOT = 6;
+	CHANGE_ENERGY_BEYOND_BLUEPRINT = 7;
+}

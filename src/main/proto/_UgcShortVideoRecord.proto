@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_UgcShortVideoRecordOuterClass";
+
+import "Vector.proto";
+
+message _UgcShortVideoRecord {
+	Vector FKEJGKDKMNF = 1;
+	float COKFPGMKCHI = 2;
+	uint32 _camera_config_id = 3;
+	repeated string _replay_config_name_list = 5;
+	bool HIMEMDELPIO = 6;
+	Vector LCLFPBMNJHF = 12;
+	bool FOJNJFAHNBH = 14;
+	float KKHKIILOLLN = 15;
+}

@@ -19,34 +19,30 @@ public final class GravenInnocenceCampInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 6;</code>
+     * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 12;</code>
      */
     java.util.List<emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfo> 
         getStageInfoListList();
     /**
-     * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 6;</code>
+     * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 12;</code>
      */
     emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfo getStageInfoList(int index);
     /**
-     * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 6;</code>
+     * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 12;</code>
      */
     int getStageInfoListCount();
     /**
-     * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 6;</code>
+     * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 12;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfoOrBuilder> 
         getStageInfoListOrBuilderList();
     /**
-     * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 6;</code>
+     * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 12;</code>
      */
     emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfoOrBuilder getStageInfoListOrBuilder(
         int index);
   }
   /**
-   * <pre>
-   * Obf: BGNMBICOPLD
-   * </pre>
-   *
    * Protobuf type {@code GravenInnocenceCampInfo}
    */
   public static final class GravenInnocenceCampInfo extends
@@ -140,14 +136,14 @@ public final class GravenInnocenceCampInfoOuterClass {
     public static final int STAGE_INFO_LIST_FIELD_NUMBER = 12;
     private java.util.List<emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfo> stageInfoList_;
     /**
-     * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 6;</code>
+     * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 12;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfo> getStageInfoListList() {
       return stageInfoList_;
     }
     /**
-     * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 6;</code>
+     * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 12;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfoOrBuilder> 
@@ -155,21 +151,21 @@ public final class GravenInnocenceCampInfoOuterClass {
       return stageInfoList_;
     }
     /**
-     * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 6;</code>
+     * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 12;</code>
      */
     @java.lang.Override
     public int getStageInfoListCount() {
       return stageInfoList_.size();
     }
     /**
-     * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 6;</code>
+     * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfo getStageInfoList(int index) {
       return stageInfoList_.get(index);
     }
     /**
-     * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 6;</code>
+     * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfoOrBuilder getStageInfoListOrBuilder(
@@ -335,10 +331,6 @@ public final class GravenInnocenceCampInfoOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * Obf: BGNMBICOPLD
-     * </pre>
-     *
      * Protobuf type {@code GravenInnocenceCampInfo}
      */
     public static final class Builder extends
@@ -536,7 +528,7 @@ public final class GravenInnocenceCampInfoOuterClass {
           emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfo, emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfo.Builder, emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfoOrBuilder> stageInfoListBuilder_;
 
       /**
-       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 6;</code>
+       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 12;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfo> getStageInfoListList() {
         if (stageInfoListBuilder_ == null) {
@@ -546,7 +538,7 @@ public final class GravenInnocenceCampInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 6;</code>
+       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 12;</code>
        */
       public int getStageInfoListCount() {
         if (stageInfoListBuilder_ == null) {
@@ -556,7 +548,7 @@ public final class GravenInnocenceCampInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 6;</code>
+       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfo getStageInfoList(int index) {
         if (stageInfoListBuilder_ == null) {
@@ -566,7 +558,7 @@ public final class GravenInnocenceCampInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 6;</code>
+       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 12;</code>
        */
       public Builder setStageInfoList(
           int index, emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfo value) {
@@ -583,7 +575,7 @@ public final class GravenInnocenceCampInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 6;</code>
+       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 12;</code>
        */
       public Builder setStageInfoList(
           int index, emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfo.Builder builderForValue) {
@@ -597,7 +589,7 @@ public final class GravenInnocenceCampInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 6;</code>
+       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 12;</code>
        */
       public Builder addStageInfoList(emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfo value) {
         if (stageInfoListBuilder_ == null) {
@@ -613,7 +605,7 @@ public final class GravenInnocenceCampInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 6;</code>
+       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 12;</code>
        */
       public Builder addStageInfoList(
           int index, emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfo value) {
@@ -630,7 +622,7 @@ public final class GravenInnocenceCampInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 6;</code>
+       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 12;</code>
        */
       public Builder addStageInfoList(
           emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfo.Builder builderForValue) {
@@ -644,7 +636,7 @@ public final class GravenInnocenceCampInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 6;</code>
+       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 12;</code>
        */
       public Builder addStageInfoList(
           int index, emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfo.Builder builderForValue) {
@@ -658,7 +650,7 @@ public final class GravenInnocenceCampInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 6;</code>
+       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 12;</code>
        */
       public Builder addAllStageInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfo> values) {
@@ -673,7 +665,7 @@ public final class GravenInnocenceCampInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 6;</code>
+       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 12;</code>
        */
       public Builder clearStageInfoList() {
         if (stageInfoListBuilder_ == null) {
@@ -686,7 +678,7 @@ public final class GravenInnocenceCampInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 6;</code>
+       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 12;</code>
        */
       public Builder removeStageInfoList(int index) {
         if (stageInfoListBuilder_ == null) {
@@ -699,14 +691,14 @@ public final class GravenInnocenceCampInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 6;</code>
+       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfo.Builder getStageInfoListBuilder(
           int index) {
         return getStageInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 6;</code>
+       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfoOrBuilder getStageInfoListOrBuilder(
           int index) {
@@ -716,7 +708,7 @@ public final class GravenInnocenceCampInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 6;</code>
+       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 12;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfoOrBuilder> 
            getStageInfoListOrBuilderList() {
@@ -727,14 +719,14 @@ public final class GravenInnocenceCampInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 6;</code>
+       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfo.Builder addStageInfoListBuilder() {
         return getStageInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 6;</code>
+       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfo.Builder addStageInfoListBuilder(
           int index) {
@@ -742,7 +734,7 @@ public final class GravenInnocenceCampInfoOuterClass {
             index, emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 6;</code>
+       * <code>repeated .GravenInnocenceCampStageInfo stage_info_list = 12;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.GravenInnocenceCampStageInfoOuterClass.GravenInnocenceCampStageInfo.Builder> 
            getStageInfoListBuilderList() {
@@ -831,9 +823,10 @@ public final class GravenInnocenceCampInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035GravenInnocenceCampInfo.proto\032\"GravenI" +
       "nnocenceCampStageInfo.proto\"Q\n\027GravenInn" +
-      "ocenceCampInfo\0226\n\017stage_info_list\030\006 \003(\0132" +
-      "\035.GravenInnocenceCampStageInfoB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "ocenceCampInfo\0226\n\017stage_info_list\030\014 \003(\0132" +
+      "\035.GravenInnocenceCampStageInfoB>\n\031emu.gr" +
+      "asscutter.net.protoB!GravenInnocenceCamp" +
+      "InfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

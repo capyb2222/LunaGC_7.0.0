@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ICELADLJBHMOuterClass";
+
+message ICELADLJBHM {
+	uint32 JDNEDLFHMML = 2;
+	uint32 JBEPCMGPOLJ = 7;
+}

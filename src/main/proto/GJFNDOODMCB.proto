@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GJFNDOODMCBOuterClass";
+
+message GJFNDOODMCB {
+	repeated uint32 PJABINOBEJL = 1;
+	map<uint32, uint32> EBCJOCPDGID = 11;
+}

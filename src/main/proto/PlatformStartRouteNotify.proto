@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PlatformStartRouteNotifyOuterClass";
+
+import "PlatformInfo.proto";
+
+message PlatformStartRouteNotify {
+	uint32 entity_id = 3;
+	uint32 scene_time = 11;
+	PlatformInfo platform = 14;
+}

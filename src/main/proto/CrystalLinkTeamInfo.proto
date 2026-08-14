@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CrystalLinkTeamInfoOuterClass";
+
+import "CrystalLinkAvatarInfo.proto";
+import "CrystalLinkBuffInfo.proto";
+
+message CrystalLinkTeamInfo {
+	repeated CrystalLinkAvatarInfo avatar_info_list = 12;
+	repeated CrystalLinkBuffInfo buff_info_list = 13;
+}

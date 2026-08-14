@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SalesmanStatusTypeOuterClass";
+
+enum SalesmanStatusType {
+	SALESMAN_STATUS_NONE = 0;
+	SALESMAN_STATUS_UNSTARTED = 1;
+	SALESMAN_STATUS_STARTED = 2;
+	SALESMAN_STATUS_DELIVERED = 3;
+}

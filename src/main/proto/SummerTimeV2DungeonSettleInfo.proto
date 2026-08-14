@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SummerTimeV2DungeonSettleInfoOuterClass";
+
+message SummerTimeV2DungeonSettleInfo {
+	uint32 cur_dungeon_reward_limit = 1;
+	uint32 taken_reward_count = 12;
+	bool is_success = 13;
+}

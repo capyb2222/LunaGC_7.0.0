@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FeatureBlockTypeOuterClass";
+
+enum FeatureBlockType {
+	NONE = 0;
+	CHAT = 1;
+	MP = 2;
+	FEATRURE_BLOCK_TYPE_CRC = 3;
+	HOME = 4;
+	HALL_CUSTOME = 5;
+	BEYOND = 6;
+	BEYOND_MP = 7;
+	BEYOND_DISPLAY_COSTUME = 8;
+	BEYOND_UPDATE_COSTUME = 9;
+	BEYOND_ARCHIVE = 10;
+	BEYOND_ROOM = 11;
+	BEYOND_GACHA_GIFT = 12;
+	BEYOND_SHOP_GIFT = 13;
+	BEYOND_VOICE_CHAT = 14;
+}

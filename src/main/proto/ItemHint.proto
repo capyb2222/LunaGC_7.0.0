@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ItemHintOuterClass";
+
+import "OBLGMFAIFCM.proto";
+
+message ItemHint {
+	uint32 item_id = 1;
+	uint32 count = 2;
+	bool is_new = 3;
+	uint64 guid = 4;
+	repeated OBLGMFAIFCM JFCPGMBKDDO = 5;
+}

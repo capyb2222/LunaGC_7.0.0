@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HostPlayerNotifyOuterClass";
+
+message HostPlayerNotify {
+	uint32 host_uid = 2;
+	uint32 host_peer_id = 8;
+}

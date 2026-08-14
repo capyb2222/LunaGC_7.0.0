@@ -19,6 +19,38 @@ public final class ChannellerSlabBuffInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <code>repeated uint32 buff_id_list = 2;</code>
+     * @return A list containing the buffIdList.
+     */
+    java.util.List<java.lang.Integer> getBuffIdListList();
+    /**
+     * <code>repeated uint32 buff_id_list = 2;</code>
+     * @return The count of buffIdList.
+     */
+    int getBuffIdListCount();
+    /**
+     * <code>repeated uint32 buff_id_list = 2;</code>
+     * @param index The index of the element to return.
+     * @return The buffIdList at the given index.
+     */
+    int getBuffIdList(int index);
+
+    /**
+     * <code>.MFLOIKPJCDI AKKLDFFAGMI = 3;</code>
+     * @return Whether the aKKLDFFAGMI field is set.
+     */
+    boolean hasAKKLDFFAGMI();
+    /**
+     * <code>.MFLOIKPJCDI AKKLDFFAGMI = 3;</code>
+     * @return The aKKLDFFAGMI.
+     */
+    emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI getAKKLDFFAGMI();
+    /**
+     * <code>.MFLOIKPJCDI AKKLDFFAGMI = 3;</code>
+     */
+    emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDIOrBuilder getAKKLDFFAGMIOrBuilder();
+
+    /**
      * <code>repeated .ChannellerSlabAssistInfo assist_info_list = 6;</code>
      */
     java.util.List<emu.grasscutter.net.proto.ChannellerSlabAssistInfoOuterClass.ChannellerSlabAssistInfo> 
@@ -43,57 +75,21 @@ public final class ChannellerSlabBuffInfoOuterClass {
         int index);
 
     /**
-     * <code>.ChannellerSlabBuffSchemeInfo ABIJPNCCLIG = 11;</code>
-     * @return Whether the aBIJPNCCLIG field is set.
+     * <code>.MFLOIKPJCDI EBICDMABNFJ = 12;</code>
+     * @return Whether the eBICDMABNFJ field is set.
      */
-    boolean hasABIJPNCCLIG();
+    boolean hasEBICDMABNFJ();
     /**
-     * <code>.ChannellerSlabBuffSchemeInfo ABIJPNCCLIG = 11;</code>
-     * @return The aBIJPNCCLIG.
+     * <code>.MFLOIKPJCDI EBICDMABNFJ = 12;</code>
+     * @return The eBICDMABNFJ.
      */
-    emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo getABIJPNCCLIG();
+    emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI getEBICDMABNFJ();
     /**
-     * <code>.ChannellerSlabBuffSchemeInfo ABIJPNCCLIG = 11;</code>
+     * <code>.MFLOIKPJCDI EBICDMABNFJ = 12;</code>
      */
-    emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfoOrBuilder getABIJPNCCLIGOrBuilder();
-
-    /**
-     * <code>repeated uint32 buff_id_list = 2;</code>
-     * @return A list containing the buffIdList.
-     */
-    java.util.List<java.lang.Integer> getBuffIdListList();
-    /**
-     * <code>repeated uint32 buff_id_list = 2;</code>
-     * @return The count of buffIdList.
-     */
-    int getBuffIdListCount();
-    /**
-     * <code>repeated uint32 buff_id_list = 2;</code>
-     * @param index The index of the element to return.
-     * @return The buffIdList at the given index.
-     */
-    int getBuffIdList(int index);
-
-    /**
-     * <code>.ChannellerSlabBuffSchemeInfo HEKCEFKOLOE = 15;</code>
-     * @return Whether the hEKCEFKOLOE field is set.
-     */
-    boolean hasHEKCEFKOLOE();
-    /**
-     * <code>.ChannellerSlabBuffSchemeInfo HEKCEFKOLOE = 15;</code>
-     * @return The hEKCEFKOLOE.
-     */
-    emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo getHEKCEFKOLOE();
-    /**
-     * <code>.ChannellerSlabBuffSchemeInfo HEKCEFKOLOE = 15;</code>
-     */
-    emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfoOrBuilder getHEKCEFKOLOEOrBuilder();
+    emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDIOrBuilder getEBICDMABNFJOrBuilder();
   }
   /**
-   * <pre>
-   * Obf: DLIGELBIGDK
-   * </pre>
-   *
    * Protobuf type {@code ChannellerSlabBuffInfo}
    */
   public static final class ChannellerSlabBuffInfo extends
@@ -106,8 +102,8 @@ public final class ChannellerSlabBuffInfoOuterClass {
       super(builder);
     }
     private ChannellerSlabBuffInfo() {
-      assistInfoList_ = java.util.Collections.emptyList();
       buffIdList_ = emptyIntList();
+      assistInfoList_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -141,20 +137,20 @@ public final class ChannellerSlabBuffInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+            case 16: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 buffIdList_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               buffIdList_.addInt(input.readUInt32());
               break;
             }
-            case 58: {
+            case 18: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
                 buffIdList_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
                 buffIdList_.addInt(input.readUInt32());
@@ -162,37 +158,37 @@ public final class ChannellerSlabBuffInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 42: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+            case 26: {
+              emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI.Builder subBuilder = null;
+              if (aKKLDFFAGMI_ != null) {
+                subBuilder = aKKLDFFAGMI_.toBuilder();
+              }
+              aKKLDFFAGMI_ = input.readMessage(emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(aKKLDFFAGMI_);
+                aKKLDFFAGMI_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 50: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 assistInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ChannellerSlabAssistInfoOuterClass.ChannellerSlabAssistInfo>();
-                mutable_bitField0_ |= 0x00000001;
+                mutable_bitField0_ |= 0x00000002;
               }
               assistInfoList_.add(
                   input.readMessage(emu.grasscutter.net.proto.ChannellerSlabAssistInfoOuterClass.ChannellerSlabAssistInfo.parser(), extensionRegistry));
               break;
             }
-            case 90: {
-              emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo.Builder subBuilder = null;
-              if (aBIJPNCCLIG_ != null) {
-                subBuilder = aBIJPNCCLIG_.toBuilder();
+            case 98: {
+              emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI.Builder subBuilder = null;
+              if (eBICDMABNFJ_ != null) {
+                subBuilder = eBICDMABNFJ_.toBuilder();
               }
-              aBIJPNCCLIG_ = input.readMessage(emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo.parser(), extensionRegistry);
+              eBICDMABNFJ_ = input.readMessage(emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom(aBIJPNCCLIG_);
-                aBIJPNCCLIG_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
-            case 122: {
-              emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo.Builder subBuilder = null;
-              if (hEKCEFKOLOE_ != null) {
-                subBuilder = hEKCEFKOLOE_.toBuilder();
-              }
-              hEKCEFKOLOE_ = input.readMessage(emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(hEKCEFKOLOE_);
-                hEKCEFKOLOE_ = subBuilder.buildPartial();
+                subBuilder.mergeFrom(eBICDMABNFJ_);
+                eBICDMABNFJ_ = subBuilder.buildPartial();
               }
 
               break;
@@ -212,10 +208,10 @@ public final class ChannellerSlabBuffInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000002) != 0)) {
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
           buffIdList_.makeImmutable(); // C
         }
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+        if (((mutable_bitField0_ & 0x00000002) != 0)) {
           assistInfoList_ = java.util.Collections.unmodifiableList(assistInfoList_);
         }
         this.unknownFields = unknownFields.build();
@@ -235,7 +231,61 @@ public final class ChannellerSlabBuffInfoOuterClass {
               emu.grasscutter.net.proto.ChannellerSlabBuffInfoOuterClass.ChannellerSlabBuffInfo.class, emu.grasscutter.net.proto.ChannellerSlabBuffInfoOuterClass.ChannellerSlabBuffInfo.Builder.class);
     }
 
-    public static final int ASSIST_INFO_LIST_FIELD_NUMBER = 5;
+    public static final int BUFF_ID_LIST_FIELD_NUMBER = 2;
+    private com.google.protobuf.Internal.IntList buffIdList_;
+    /**
+     * <code>repeated uint32 buff_id_list = 2;</code>
+     * @return A list containing the buffIdList.
+     */
+    @java.lang.Override
+    public java.util.List<java.lang.Integer>
+        getBuffIdListList() {
+      return buffIdList_;
+    }
+    /**
+     * <code>repeated uint32 buff_id_list = 2;</code>
+     * @return The count of buffIdList.
+     */
+    public int getBuffIdListCount() {
+      return buffIdList_.size();
+    }
+    /**
+     * <code>repeated uint32 buff_id_list = 2;</code>
+     * @param index The index of the element to return.
+     * @return The buffIdList at the given index.
+     */
+    public int getBuffIdList(int index) {
+      return buffIdList_.getInt(index);
+    }
+    private int buffIdListMemoizedSerializedSize = -1;
+
+    public static final int AKKLDFFAGMI_FIELD_NUMBER = 3;
+    private emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI aKKLDFFAGMI_;
+    /**
+     * <code>.MFLOIKPJCDI AKKLDFFAGMI = 3;</code>
+     * @return Whether the aKKLDFFAGMI field is set.
+     */
+    @java.lang.Override
+    public boolean hasAKKLDFFAGMI() {
+      return aKKLDFFAGMI_ != null;
+    }
+    /**
+     * <code>.MFLOIKPJCDI AKKLDFFAGMI = 3;</code>
+     * @return The aKKLDFFAGMI.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI getAKKLDFFAGMI() {
+      return aKKLDFFAGMI_ == null ? emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI.getDefaultInstance() : aKKLDFFAGMI_;
+    }
+    /**
+     * <code>.MFLOIKPJCDI AKKLDFFAGMI = 3;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDIOrBuilder getAKKLDFFAGMIOrBuilder() {
+      return getAKKLDFFAGMI();
+    }
+
+    public static final int ASSIST_INFO_LIST_FIELD_NUMBER = 6;
     private java.util.List<emu.grasscutter.net.proto.ChannellerSlabAssistInfoOuterClass.ChannellerSlabAssistInfo> assistInfoList_;
     /**
      * <code>repeated .ChannellerSlabAssistInfo assist_info_list = 6;</code>
@@ -275,84 +325,30 @@ public final class ChannellerSlabBuffInfoOuterClass {
       return assistInfoList_.get(index);
     }
 
-    public static final int ABIJPNCCLIG_FIELD_NUMBER = 11;
-    private emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo aBIJPNCCLIG_;
+    public static final int EBICDMABNFJ_FIELD_NUMBER = 12;
+    private emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI eBICDMABNFJ_;
     /**
-     * <code>.ChannellerSlabBuffSchemeInfo ABIJPNCCLIG = 11;</code>
-     * @return Whether the aBIJPNCCLIG field is set.
+     * <code>.MFLOIKPJCDI EBICDMABNFJ = 12;</code>
+     * @return Whether the eBICDMABNFJ field is set.
      */
     @java.lang.Override
-    public boolean hasABIJPNCCLIG() {
-      return aBIJPNCCLIG_ != null;
+    public boolean hasEBICDMABNFJ() {
+      return eBICDMABNFJ_ != null;
     }
     /**
-     * <code>.ChannellerSlabBuffSchemeInfo ABIJPNCCLIG = 11;</code>
-     * @return The aBIJPNCCLIG.
+     * <code>.MFLOIKPJCDI EBICDMABNFJ = 12;</code>
+     * @return The eBICDMABNFJ.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo getABIJPNCCLIG() {
-      return aBIJPNCCLIG_ == null ? emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo.getDefaultInstance() : aBIJPNCCLIG_;
+    public emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI getEBICDMABNFJ() {
+      return eBICDMABNFJ_ == null ? emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI.getDefaultInstance() : eBICDMABNFJ_;
     }
     /**
-     * <code>.ChannellerSlabBuffSchemeInfo ABIJPNCCLIG = 11;</code>
+     * <code>.MFLOIKPJCDI EBICDMABNFJ = 12;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfoOrBuilder getABIJPNCCLIGOrBuilder() {
-      return getABIJPNCCLIG();
-    }
-
-    public static final int BUFF_ID_LIST_FIELD_NUMBER = 7;
-    private com.google.protobuf.Internal.IntList buffIdList_;
-    /**
-     * <code>repeated uint32 buff_id_list = 2;</code>
-     * @return A list containing the buffIdList.
-     */
-    @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getBuffIdListList() {
-      return buffIdList_;
-    }
-    /**
-     * <code>repeated uint32 buff_id_list = 2;</code>
-     * @return The count of buffIdList.
-     */
-    public int getBuffIdListCount() {
-      return buffIdList_.size();
-    }
-    /**
-     * <code>repeated uint32 buff_id_list = 2;</code>
-     * @param index The index of the element to return.
-     * @return The buffIdList at the given index.
-     */
-    public int getBuffIdList(int index) {
-      return buffIdList_.getInt(index);
-    }
-    private int buffIdListMemoizedSerializedSize = -1;
-
-    public static final int HEKCEFKOLOE_FIELD_NUMBER = 15;
-    private emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo hEKCEFKOLOE_;
-    /**
-     * <code>.ChannellerSlabBuffSchemeInfo HEKCEFKOLOE = 15;</code>
-     * @return Whether the hEKCEFKOLOE field is set.
-     */
-    @java.lang.Override
-    public boolean hasHEKCEFKOLOE() {
-      return hEKCEFKOLOE_ != null;
-    }
-    /**
-     * <code>.ChannellerSlabBuffSchemeInfo HEKCEFKOLOE = 15;</code>
-     * @return The hEKCEFKOLOE.
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo getHEKCEFKOLOE() {
-      return hEKCEFKOLOE_ == null ? emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo.getDefaultInstance() : hEKCEFKOLOE_;
-    }
-    /**
-     * <code>.ChannellerSlabBuffSchemeInfo HEKCEFKOLOE = 15;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfoOrBuilder getHEKCEFKOLOEOrBuilder() {
-      return getHEKCEFKOLOE();
+    public emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDIOrBuilder getEBICDMABNFJOrBuilder() {
+      return getEBICDMABNFJ();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -371,20 +367,20 @@ public final class ChannellerSlabBuffInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getBuffIdListList().size() > 0) {
-        output.writeUInt32NoTag(58);
+        output.writeUInt32NoTag(18);
         output.writeUInt32NoTag(buffIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < buffIdList_.size(); i++) {
         output.writeUInt32NoTag(buffIdList_.getInt(i));
       }
+      if (aKKLDFFAGMI_ != null) {
+        output.writeMessage(3, getAKKLDFFAGMI());
+      }
       for (int i = 0; i < assistInfoList_.size(); i++) {
-        output.writeMessage(5, assistInfoList_.get(i));
+        output.writeMessage(6, assistInfoList_.get(i));
       }
-      if (aBIJPNCCLIG_ != null) {
-        output.writeMessage(11, getABIJPNCCLIG());
-      }
-      if (hEKCEFKOLOE_ != null) {
-        output.writeMessage(15, getHEKCEFKOLOE());
+      if (eBICDMABNFJ_ != null) {
+        output.writeMessage(12, getEBICDMABNFJ());
       }
       unknownFields.writeTo(output);
     }
@@ -409,17 +405,17 @@ public final class ChannellerSlabBuffInfoOuterClass {
         }
         buffIdListMemoizedSerializedSize = dataSize;
       }
+      if (aKKLDFFAGMI_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(3, getAKKLDFFAGMI());
+      }
       for (int i = 0; i < assistInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, assistInfoList_.get(i));
+          .computeMessageSize(6, assistInfoList_.get(i));
       }
-      if (aBIJPNCCLIG_ != null) {
+      if (eBICDMABNFJ_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, getABIJPNCCLIG());
-      }
-      if (hEKCEFKOLOE_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, getHEKCEFKOLOE());
+          .computeMessageSize(12, getEBICDMABNFJ());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -436,19 +432,19 @@ public final class ChannellerSlabBuffInfoOuterClass {
       }
       emu.grasscutter.net.proto.ChannellerSlabBuffInfoOuterClass.ChannellerSlabBuffInfo other = (emu.grasscutter.net.proto.ChannellerSlabBuffInfoOuterClass.ChannellerSlabBuffInfo) obj;
 
-      if (!getAssistInfoListList()
-          .equals(other.getAssistInfoListList())) return false;
-      if (hasABIJPNCCLIG() != other.hasABIJPNCCLIG()) return false;
-      if (hasABIJPNCCLIG()) {
-        if (!getABIJPNCCLIG()
-            .equals(other.getABIJPNCCLIG())) return false;
-      }
       if (!getBuffIdListList()
           .equals(other.getBuffIdListList())) return false;
-      if (hasHEKCEFKOLOE() != other.hasHEKCEFKOLOE()) return false;
-      if (hasHEKCEFKOLOE()) {
-        if (!getHEKCEFKOLOE()
-            .equals(other.getHEKCEFKOLOE())) return false;
+      if (hasAKKLDFFAGMI() != other.hasAKKLDFFAGMI()) return false;
+      if (hasAKKLDFFAGMI()) {
+        if (!getAKKLDFFAGMI()
+            .equals(other.getAKKLDFFAGMI())) return false;
+      }
+      if (!getAssistInfoListList()
+          .equals(other.getAssistInfoListList())) return false;
+      if (hasEBICDMABNFJ() != other.hasEBICDMABNFJ()) return false;
+      if (hasEBICDMABNFJ()) {
+        if (!getEBICDMABNFJ()
+            .equals(other.getEBICDMABNFJ())) return false;
       }
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
@@ -461,21 +457,21 @@ public final class ChannellerSlabBuffInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getAssistInfoListCount() > 0) {
-        hash = (37 * hash) + ASSIST_INFO_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getAssistInfoListList().hashCode();
-      }
-      if (hasABIJPNCCLIG()) {
-        hash = (37 * hash) + ABIJPNCCLIG_FIELD_NUMBER;
-        hash = (53 * hash) + getABIJPNCCLIG().hashCode();
-      }
       if (getBuffIdListCount() > 0) {
         hash = (37 * hash) + BUFF_ID_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getBuffIdListList().hashCode();
       }
-      if (hasHEKCEFKOLOE()) {
-        hash = (37 * hash) + HEKCEFKOLOE_FIELD_NUMBER;
-        hash = (53 * hash) + getHEKCEFKOLOE().hashCode();
+      if (hasAKKLDFFAGMI()) {
+        hash = (37 * hash) + AKKLDFFAGMI_FIELD_NUMBER;
+        hash = (53 * hash) + getAKKLDFFAGMI().hashCode();
+      }
+      if (getAssistInfoListCount() > 0) {
+        hash = (37 * hash) + ASSIST_INFO_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getAssistInfoListList().hashCode();
+      }
+      if (hasEBICDMABNFJ()) {
+        hash = (37 * hash) + EBICDMABNFJ_FIELD_NUMBER;
+        hash = (53 * hash) + getEBICDMABNFJ().hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -573,10 +569,6 @@ public final class ChannellerSlabBuffInfoOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * Obf: DLIGELBIGDK
-     * </pre>
-     *
      * Protobuf type {@code ChannellerSlabBuffInfo}
      */
     public static final class Builder extends
@@ -615,25 +607,25 @@ public final class ChannellerSlabBuffInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        buffIdList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
+        if (aKKLDFFAGMIBuilder_ == null) {
+          aKKLDFFAGMI_ = null;
+        } else {
+          aKKLDFFAGMI_ = null;
+          aKKLDFFAGMIBuilder_ = null;
+        }
         if (assistInfoListBuilder_ == null) {
           assistInfoList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000001);
+          bitField0_ = (bitField0_ & ~0x00000002);
         } else {
           assistInfoListBuilder_.clear();
         }
-        if (aBIJPNCCLIGBuilder_ == null) {
-          aBIJPNCCLIG_ = null;
+        if (eBICDMABNFJBuilder_ == null) {
+          eBICDMABNFJ_ = null;
         } else {
-          aBIJPNCCLIG_ = null;
-          aBIJPNCCLIGBuilder_ = null;
-        }
-        buffIdList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
-        if (hEKCEFKOLOEBuilder_ == null) {
-          hEKCEFKOLOE_ = null;
-        } else {
-          hEKCEFKOLOE_ = null;
-          hEKCEFKOLOEBuilder_ = null;
+          eBICDMABNFJ_ = null;
+          eBICDMABNFJBuilder_ = null;
         }
         return this;
       }
@@ -662,29 +654,29 @@ public final class ChannellerSlabBuffInfoOuterClass {
       public emu.grasscutter.net.proto.ChannellerSlabBuffInfoOuterClass.ChannellerSlabBuffInfo buildPartial() {
         emu.grasscutter.net.proto.ChannellerSlabBuffInfoOuterClass.ChannellerSlabBuffInfo result = new emu.grasscutter.net.proto.ChannellerSlabBuffInfoOuterClass.ChannellerSlabBuffInfo(this);
         int from_bitField0_ = bitField0_;
+        if (((bitField0_ & 0x00000001) != 0)) {
+          buffIdList_.makeImmutable();
+          bitField0_ = (bitField0_ & ~0x00000001);
+        }
+        result.buffIdList_ = buffIdList_;
+        if (aKKLDFFAGMIBuilder_ == null) {
+          result.aKKLDFFAGMI_ = aKKLDFFAGMI_;
+        } else {
+          result.aKKLDFFAGMI_ = aKKLDFFAGMIBuilder_.build();
+        }
         if (assistInfoListBuilder_ == null) {
-          if (((bitField0_ & 0x00000001) != 0)) {
+          if (((bitField0_ & 0x00000002) != 0)) {
             assistInfoList_ = java.util.Collections.unmodifiableList(assistInfoList_);
-            bitField0_ = (bitField0_ & ~0x00000001);
+            bitField0_ = (bitField0_ & ~0x00000002);
           }
           result.assistInfoList_ = assistInfoList_;
         } else {
           result.assistInfoList_ = assistInfoListBuilder_.build();
         }
-        if (aBIJPNCCLIGBuilder_ == null) {
-          result.aBIJPNCCLIG_ = aBIJPNCCLIG_;
+        if (eBICDMABNFJBuilder_ == null) {
+          result.eBICDMABNFJ_ = eBICDMABNFJ_;
         } else {
-          result.aBIJPNCCLIG_ = aBIJPNCCLIGBuilder_.build();
-        }
-        if (((bitField0_ & 0x00000002) != 0)) {
-          buffIdList_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000002);
-        }
-        result.buffIdList_ = buffIdList_;
-        if (hEKCEFKOLOEBuilder_ == null) {
-          result.hEKCEFKOLOE_ = hEKCEFKOLOE_;
-        } else {
-          result.hEKCEFKOLOE_ = hEKCEFKOLOEBuilder_.build();
+          result.eBICDMABNFJ_ = eBICDMABNFJBuilder_.build();
         }
         onBuilt();
         return result;
@@ -734,11 +726,24 @@ public final class ChannellerSlabBuffInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.ChannellerSlabBuffInfoOuterClass.ChannellerSlabBuffInfo other) {
         if (other == emu.grasscutter.net.proto.ChannellerSlabBuffInfoOuterClass.ChannellerSlabBuffInfo.getDefaultInstance()) return this;
+        if (!other.buffIdList_.isEmpty()) {
+          if (buffIdList_.isEmpty()) {
+            buffIdList_ = other.buffIdList_;
+            bitField0_ = (bitField0_ & ~0x00000001);
+          } else {
+            ensureBuffIdListIsMutable();
+            buffIdList_.addAll(other.buffIdList_);
+          }
+          onChanged();
+        }
+        if (other.hasAKKLDFFAGMI()) {
+          mergeAKKLDFFAGMI(other.getAKKLDFFAGMI());
+        }
         if (assistInfoListBuilder_ == null) {
           if (!other.assistInfoList_.isEmpty()) {
             if (assistInfoList_.isEmpty()) {
               assistInfoList_ = other.assistInfoList_;
-              bitField0_ = (bitField0_ & ~0x00000001);
+              bitField0_ = (bitField0_ & ~0x00000002);
             } else {
               ensureAssistInfoListIsMutable();
               assistInfoList_.addAll(other.assistInfoList_);
@@ -751,7 +756,7 @@ public final class ChannellerSlabBuffInfoOuterClass {
               assistInfoListBuilder_.dispose();
               assistInfoListBuilder_ = null;
               assistInfoList_ = other.assistInfoList_;
-              bitField0_ = (bitField0_ & ~0x00000001);
+              bitField0_ = (bitField0_ & ~0x00000002);
               assistInfoListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getAssistInfoListFieldBuilder() : null;
@@ -760,21 +765,8 @@ public final class ChannellerSlabBuffInfoOuterClass {
             }
           }
         }
-        if (other.hasABIJPNCCLIG()) {
-          mergeABIJPNCCLIG(other.getABIJPNCCLIG());
-        }
-        if (!other.buffIdList_.isEmpty()) {
-          if (buffIdList_.isEmpty()) {
-            buffIdList_ = other.buffIdList_;
-            bitField0_ = (bitField0_ & ~0x00000002);
-          } else {
-            ensureBuffIdListIsMutable();
-            buffIdList_.addAll(other.buffIdList_);
-          }
-          onChanged();
-        }
-        if (other.hasHEKCEFKOLOE()) {
-          mergeHEKCEFKOLOE(other.getHEKCEFKOLOE());
+        if (other.hasEBICDMABNFJ()) {
+          mergeEBICDMABNFJ(other.getEBICDMABNFJ());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -806,12 +798,210 @@ public final class ChannellerSlabBuffInfoOuterClass {
       }
       private int bitField0_;
 
+      private com.google.protobuf.Internal.IntList buffIdList_ = emptyIntList();
+      private void ensureBuffIdListIsMutable() {
+        if (!((bitField0_ & 0x00000001) != 0)) {
+          buffIdList_ = mutableCopy(buffIdList_);
+          bitField0_ |= 0x00000001;
+         }
+      }
+      /**
+       * <code>repeated uint32 buff_id_list = 2;</code>
+       * @return A list containing the buffIdList.
+       */
+      public java.util.List<java.lang.Integer>
+          getBuffIdListList() {
+        return ((bitField0_ & 0x00000001) != 0) ?
+                 java.util.Collections.unmodifiableList(buffIdList_) : buffIdList_;
+      }
+      /**
+       * <code>repeated uint32 buff_id_list = 2;</code>
+       * @return The count of buffIdList.
+       */
+      public int getBuffIdListCount() {
+        return buffIdList_.size();
+      }
+      /**
+       * <code>repeated uint32 buff_id_list = 2;</code>
+       * @param index The index of the element to return.
+       * @return The buffIdList at the given index.
+       */
+      public int getBuffIdList(int index) {
+        return buffIdList_.getInt(index);
+      }
+      /**
+       * <code>repeated uint32 buff_id_list = 2;</code>
+       * @param index The index to set the value at.
+       * @param value The buffIdList to set.
+       * @return This builder for chaining.
+       */
+      public Builder setBuffIdList(
+          int index, int value) {
+        ensureBuffIdListIsMutable();
+        buffIdList_.setInt(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 buff_id_list = 2;</code>
+       * @param value The buffIdList to add.
+       * @return This builder for chaining.
+       */
+      public Builder addBuffIdList(int value) {
+        ensureBuffIdListIsMutable();
+        buffIdList_.addInt(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 buff_id_list = 2;</code>
+       * @param values The buffIdList to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllBuffIdList(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureBuffIdListIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, buffIdList_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 buff_id_list = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearBuffIdList() {
+        buffIdList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
+        onChanged();
+        return this;
+      }
+
+      private emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI aKKLDFFAGMI_;
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI, emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI.Builder, emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDIOrBuilder> aKKLDFFAGMIBuilder_;
+      /**
+       * <code>.MFLOIKPJCDI AKKLDFFAGMI = 3;</code>
+       * @return Whether the aKKLDFFAGMI field is set.
+       */
+      public boolean hasAKKLDFFAGMI() {
+        return aKKLDFFAGMIBuilder_ != null || aKKLDFFAGMI_ != null;
+      }
+      /**
+       * <code>.MFLOIKPJCDI AKKLDFFAGMI = 3;</code>
+       * @return The aKKLDFFAGMI.
+       */
+      public emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI getAKKLDFFAGMI() {
+        if (aKKLDFFAGMIBuilder_ == null) {
+          return aKKLDFFAGMI_ == null ? emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI.getDefaultInstance() : aKKLDFFAGMI_;
+        } else {
+          return aKKLDFFAGMIBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>.MFLOIKPJCDI AKKLDFFAGMI = 3;</code>
+       */
+      public Builder setAKKLDFFAGMI(emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI value) {
+        if (aKKLDFFAGMIBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          aKKLDFFAGMI_ = value;
+          onChanged();
+        } else {
+          aKKLDFFAGMIBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>.MFLOIKPJCDI AKKLDFFAGMI = 3;</code>
+       */
+      public Builder setAKKLDFFAGMI(
+          emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI.Builder builderForValue) {
+        if (aKKLDFFAGMIBuilder_ == null) {
+          aKKLDFFAGMI_ = builderForValue.build();
+          onChanged();
+        } else {
+          aKKLDFFAGMIBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>.MFLOIKPJCDI AKKLDFFAGMI = 3;</code>
+       */
+      public Builder mergeAKKLDFFAGMI(emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI value) {
+        if (aKKLDFFAGMIBuilder_ == null) {
+          if (aKKLDFFAGMI_ != null) {
+            aKKLDFFAGMI_ =
+              emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI.newBuilder(aKKLDFFAGMI_).mergeFrom(value).buildPartial();
+          } else {
+            aKKLDFFAGMI_ = value;
+          }
+          onChanged();
+        } else {
+          aKKLDFFAGMIBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>.MFLOIKPJCDI AKKLDFFAGMI = 3;</code>
+       */
+      public Builder clearAKKLDFFAGMI() {
+        if (aKKLDFFAGMIBuilder_ == null) {
+          aKKLDFFAGMI_ = null;
+          onChanged();
+        } else {
+          aKKLDFFAGMI_ = null;
+          aKKLDFFAGMIBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>.MFLOIKPJCDI AKKLDFFAGMI = 3;</code>
+       */
+      public emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI.Builder getAKKLDFFAGMIBuilder() {
+        
+        onChanged();
+        return getAKKLDFFAGMIFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>.MFLOIKPJCDI AKKLDFFAGMI = 3;</code>
+       */
+      public emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDIOrBuilder getAKKLDFFAGMIOrBuilder() {
+        if (aKKLDFFAGMIBuilder_ != null) {
+          return aKKLDFFAGMIBuilder_.getMessageOrBuilder();
+        } else {
+          return aKKLDFFAGMI_ == null ?
+              emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI.getDefaultInstance() : aKKLDFFAGMI_;
+        }
+      }
+      /**
+       * <code>.MFLOIKPJCDI AKKLDFFAGMI = 3;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI, emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI.Builder, emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDIOrBuilder> 
+          getAKKLDFFAGMIFieldBuilder() {
+        if (aKKLDFFAGMIBuilder_ == null) {
+          aKKLDFFAGMIBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI, emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI.Builder, emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDIOrBuilder>(
+                  getAKKLDFFAGMI(),
+                  getParentForChildren(),
+                  isClean());
+          aKKLDFFAGMI_ = null;
+        }
+        return aKKLDFFAGMIBuilder_;
+      }
+
       private java.util.List<emu.grasscutter.net.proto.ChannellerSlabAssistInfoOuterClass.ChannellerSlabAssistInfo> assistInfoList_ =
         java.util.Collections.emptyList();
       private void ensureAssistInfoListIsMutable() {
-        if (!((bitField0_ & 0x00000001) != 0)) {
+        if (!((bitField0_ & 0x00000002) != 0)) {
           assistInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ChannellerSlabAssistInfoOuterClass.ChannellerSlabAssistInfo>(assistInfoList_);
-          bitField0_ |= 0x00000001;
+          bitField0_ |= 0x00000002;
          }
       }
 
@@ -961,7 +1151,7 @@ public final class ChannellerSlabBuffInfoOuterClass {
       public Builder clearAssistInfoList() {
         if (assistInfoListBuilder_ == null) {
           assistInfoList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000001);
+          bitField0_ = (bitField0_ & ~0x00000002);
           onChanged();
         } else {
           assistInfoListBuilder_.clear();
@@ -1038,7 +1228,7 @@ public final class ChannellerSlabBuffInfoOuterClass {
           assistInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               emu.grasscutter.net.proto.ChannellerSlabAssistInfoOuterClass.ChannellerSlabAssistInfo, emu.grasscutter.net.proto.ChannellerSlabAssistInfoOuterClass.ChannellerSlabAssistInfo.Builder, emu.grasscutter.net.proto.ChannellerSlabAssistInfoOuterClass.ChannellerSlabAssistInfoOrBuilder>(
                   assistInfoList_,
-                  ((bitField0_ & 0x00000001) != 0),
+                  ((bitField0_ & 0x00000002) != 0),
                   getParentForChildren(),
                   isClean());
           assistInfoList_ = null;
@@ -1046,321 +1236,123 @@ public final class ChannellerSlabBuffInfoOuterClass {
         return assistInfoListBuilder_;
       }
 
-      private emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo aBIJPNCCLIG_;
+      private emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI eBICDMABNFJ_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo, emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo.Builder, emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfoOrBuilder> aBIJPNCCLIGBuilder_;
+          emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI, emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI.Builder, emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDIOrBuilder> eBICDMABNFJBuilder_;
       /**
-       * <code>.ChannellerSlabBuffSchemeInfo ABIJPNCCLIG = 11;</code>
-       * @return Whether the aBIJPNCCLIG field is set.
+       * <code>.MFLOIKPJCDI EBICDMABNFJ = 12;</code>
+       * @return Whether the eBICDMABNFJ field is set.
        */
-      public boolean hasABIJPNCCLIG() {
-        return aBIJPNCCLIGBuilder_ != null || aBIJPNCCLIG_ != null;
+      public boolean hasEBICDMABNFJ() {
+        return eBICDMABNFJBuilder_ != null || eBICDMABNFJ_ != null;
       }
       /**
-       * <code>.ChannellerSlabBuffSchemeInfo ABIJPNCCLIG = 11;</code>
-       * @return The aBIJPNCCLIG.
+       * <code>.MFLOIKPJCDI EBICDMABNFJ = 12;</code>
+       * @return The eBICDMABNFJ.
        */
-      public emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo getABIJPNCCLIG() {
-        if (aBIJPNCCLIGBuilder_ == null) {
-          return aBIJPNCCLIG_ == null ? emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo.getDefaultInstance() : aBIJPNCCLIG_;
+      public emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI getEBICDMABNFJ() {
+        if (eBICDMABNFJBuilder_ == null) {
+          return eBICDMABNFJ_ == null ? emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI.getDefaultInstance() : eBICDMABNFJ_;
         } else {
-          return aBIJPNCCLIGBuilder_.getMessage();
+          return eBICDMABNFJBuilder_.getMessage();
         }
       }
       /**
-       * <code>.ChannellerSlabBuffSchemeInfo ABIJPNCCLIG = 11;</code>
+       * <code>.MFLOIKPJCDI EBICDMABNFJ = 12;</code>
        */
-      public Builder setABIJPNCCLIG(emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo value) {
-        if (aBIJPNCCLIGBuilder_ == null) {
+      public Builder setEBICDMABNFJ(emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI value) {
+        if (eBICDMABNFJBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          aBIJPNCCLIG_ = value;
+          eBICDMABNFJ_ = value;
           onChanged();
         } else {
-          aBIJPNCCLIGBuilder_.setMessage(value);
+          eBICDMABNFJBuilder_.setMessage(value);
         }
 
         return this;
       }
       /**
-       * <code>.ChannellerSlabBuffSchemeInfo ABIJPNCCLIG = 11;</code>
+       * <code>.MFLOIKPJCDI EBICDMABNFJ = 12;</code>
        */
-      public Builder setABIJPNCCLIG(
-          emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo.Builder builderForValue) {
-        if (aBIJPNCCLIGBuilder_ == null) {
-          aBIJPNCCLIG_ = builderForValue.build();
+      public Builder setEBICDMABNFJ(
+          emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI.Builder builderForValue) {
+        if (eBICDMABNFJBuilder_ == null) {
+          eBICDMABNFJ_ = builderForValue.build();
           onChanged();
         } else {
-          aBIJPNCCLIGBuilder_.setMessage(builderForValue.build());
+          eBICDMABNFJBuilder_.setMessage(builderForValue.build());
         }
 
         return this;
       }
       /**
-       * <code>.ChannellerSlabBuffSchemeInfo ABIJPNCCLIG = 11;</code>
+       * <code>.MFLOIKPJCDI EBICDMABNFJ = 12;</code>
        */
-      public Builder mergeABIJPNCCLIG(emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo value) {
-        if (aBIJPNCCLIGBuilder_ == null) {
-          if (aBIJPNCCLIG_ != null) {
-            aBIJPNCCLIG_ =
-              emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo.newBuilder(aBIJPNCCLIG_).mergeFrom(value).buildPartial();
+      public Builder mergeEBICDMABNFJ(emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI value) {
+        if (eBICDMABNFJBuilder_ == null) {
+          if (eBICDMABNFJ_ != null) {
+            eBICDMABNFJ_ =
+              emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI.newBuilder(eBICDMABNFJ_).mergeFrom(value).buildPartial();
           } else {
-            aBIJPNCCLIG_ = value;
+            eBICDMABNFJ_ = value;
           }
           onChanged();
         } else {
-          aBIJPNCCLIGBuilder_.mergeFrom(value);
+          eBICDMABNFJBuilder_.mergeFrom(value);
         }
 
         return this;
       }
       /**
-       * <code>.ChannellerSlabBuffSchemeInfo ABIJPNCCLIG = 11;</code>
+       * <code>.MFLOIKPJCDI EBICDMABNFJ = 12;</code>
        */
-      public Builder clearABIJPNCCLIG() {
-        if (aBIJPNCCLIGBuilder_ == null) {
-          aBIJPNCCLIG_ = null;
+      public Builder clearEBICDMABNFJ() {
+        if (eBICDMABNFJBuilder_ == null) {
+          eBICDMABNFJ_ = null;
           onChanged();
         } else {
-          aBIJPNCCLIG_ = null;
-          aBIJPNCCLIGBuilder_ = null;
+          eBICDMABNFJ_ = null;
+          eBICDMABNFJBuilder_ = null;
         }
 
         return this;
       }
       /**
-       * <code>.ChannellerSlabBuffSchemeInfo ABIJPNCCLIG = 11;</code>
+       * <code>.MFLOIKPJCDI EBICDMABNFJ = 12;</code>
        */
-      public emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo.Builder getABIJPNCCLIGBuilder() {
+      public emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI.Builder getEBICDMABNFJBuilder() {
         
         onChanged();
-        return getABIJPNCCLIGFieldBuilder().getBuilder();
+        return getEBICDMABNFJFieldBuilder().getBuilder();
       }
       /**
-       * <code>.ChannellerSlabBuffSchemeInfo ABIJPNCCLIG = 11;</code>
+       * <code>.MFLOIKPJCDI EBICDMABNFJ = 12;</code>
        */
-      public emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfoOrBuilder getABIJPNCCLIGOrBuilder() {
-        if (aBIJPNCCLIGBuilder_ != null) {
-          return aBIJPNCCLIGBuilder_.getMessageOrBuilder();
+      public emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDIOrBuilder getEBICDMABNFJOrBuilder() {
+        if (eBICDMABNFJBuilder_ != null) {
+          return eBICDMABNFJBuilder_.getMessageOrBuilder();
         } else {
-          return aBIJPNCCLIG_ == null ?
-              emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo.getDefaultInstance() : aBIJPNCCLIG_;
+          return eBICDMABNFJ_ == null ?
+              emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI.getDefaultInstance() : eBICDMABNFJ_;
         }
       }
       /**
-       * <code>.ChannellerSlabBuffSchemeInfo ABIJPNCCLIG = 11;</code>
+       * <code>.MFLOIKPJCDI EBICDMABNFJ = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo, emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo.Builder, emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfoOrBuilder> 
-          getABIJPNCCLIGFieldBuilder() {
-        if (aBIJPNCCLIGBuilder_ == null) {
-          aBIJPNCCLIGBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo, emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo.Builder, emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfoOrBuilder>(
-                  getABIJPNCCLIG(),
+          emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI, emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI.Builder, emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDIOrBuilder> 
+          getEBICDMABNFJFieldBuilder() {
+        if (eBICDMABNFJBuilder_ == null) {
+          eBICDMABNFJBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI, emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDI.Builder, emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.MFLOIKPJCDIOrBuilder>(
+                  getEBICDMABNFJ(),
                   getParentForChildren(),
                   isClean());
-          aBIJPNCCLIG_ = null;
+          eBICDMABNFJ_ = null;
         }
-        return aBIJPNCCLIGBuilder_;
-      }
-
-      private com.google.protobuf.Internal.IntList buffIdList_ = emptyIntList();
-      private void ensureBuffIdListIsMutable() {
-        if (!((bitField0_ & 0x00000002) != 0)) {
-          buffIdList_ = mutableCopy(buffIdList_);
-          bitField0_ |= 0x00000002;
-         }
-      }
-      /**
-       * <code>repeated uint32 buff_id_list = 2;</code>
-       * @return A list containing the buffIdList.
-       */
-      public java.util.List<java.lang.Integer>
-          getBuffIdListList() {
-        return ((bitField0_ & 0x00000002) != 0) ?
-                 java.util.Collections.unmodifiableList(buffIdList_) : buffIdList_;
-      }
-      /**
-       * <code>repeated uint32 buff_id_list = 2;</code>
-       * @return The count of buffIdList.
-       */
-      public int getBuffIdListCount() {
-        return buffIdList_.size();
-      }
-      /**
-       * <code>repeated uint32 buff_id_list = 2;</code>
-       * @param index The index of the element to return.
-       * @return The buffIdList at the given index.
-       */
-      public int getBuffIdList(int index) {
-        return buffIdList_.getInt(index);
-      }
-      /**
-       * <code>repeated uint32 buff_id_list = 2;</code>
-       * @param index The index to set the value at.
-       * @param value The buffIdList to set.
-       * @return This builder for chaining.
-       */
-      public Builder setBuffIdList(
-          int index, int value) {
-        ensureBuffIdListIsMutable();
-        buffIdList_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 buff_id_list = 2;</code>
-       * @param value The buffIdList to add.
-       * @return This builder for chaining.
-       */
-      public Builder addBuffIdList(int value) {
-        ensureBuffIdListIsMutable();
-        buffIdList_.addInt(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 buff_id_list = 2;</code>
-       * @param values The buffIdList to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllBuffIdList(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureBuffIdListIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, buffIdList_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 buff_id_list = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearBuffIdList() {
-        buffIdList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
-        onChanged();
-        return this;
-      }
-
-      private emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo hEKCEFKOLOE_;
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo, emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo.Builder, emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfoOrBuilder> hEKCEFKOLOEBuilder_;
-      /**
-       * <code>.ChannellerSlabBuffSchemeInfo HEKCEFKOLOE = 15;</code>
-       * @return Whether the hEKCEFKOLOE field is set.
-       */
-      public boolean hasHEKCEFKOLOE() {
-        return hEKCEFKOLOEBuilder_ != null || hEKCEFKOLOE_ != null;
-      }
-      /**
-       * <code>.ChannellerSlabBuffSchemeInfo HEKCEFKOLOE = 15;</code>
-       * @return The hEKCEFKOLOE.
-       */
-      public emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo getHEKCEFKOLOE() {
-        if (hEKCEFKOLOEBuilder_ == null) {
-          return hEKCEFKOLOE_ == null ? emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo.getDefaultInstance() : hEKCEFKOLOE_;
-        } else {
-          return hEKCEFKOLOEBuilder_.getMessage();
-        }
-      }
-      /**
-       * <code>.ChannellerSlabBuffSchemeInfo HEKCEFKOLOE = 15;</code>
-       */
-      public Builder setHEKCEFKOLOE(emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo value) {
-        if (hEKCEFKOLOEBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          hEKCEFKOLOE_ = value;
-          onChanged();
-        } else {
-          hEKCEFKOLOEBuilder_.setMessage(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>.ChannellerSlabBuffSchemeInfo HEKCEFKOLOE = 15;</code>
-       */
-      public Builder setHEKCEFKOLOE(
-          emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo.Builder builderForValue) {
-        if (hEKCEFKOLOEBuilder_ == null) {
-          hEKCEFKOLOE_ = builderForValue.build();
-          onChanged();
-        } else {
-          hEKCEFKOLOEBuilder_.setMessage(builderForValue.build());
-        }
-
-        return this;
-      }
-      /**
-       * <code>.ChannellerSlabBuffSchemeInfo HEKCEFKOLOE = 15;</code>
-       */
-      public Builder mergeHEKCEFKOLOE(emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo value) {
-        if (hEKCEFKOLOEBuilder_ == null) {
-          if (hEKCEFKOLOE_ != null) {
-            hEKCEFKOLOE_ =
-              emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo.newBuilder(hEKCEFKOLOE_).mergeFrom(value).buildPartial();
-          } else {
-            hEKCEFKOLOE_ = value;
-          }
-          onChanged();
-        } else {
-          hEKCEFKOLOEBuilder_.mergeFrom(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>.ChannellerSlabBuffSchemeInfo HEKCEFKOLOE = 15;</code>
-       */
-      public Builder clearHEKCEFKOLOE() {
-        if (hEKCEFKOLOEBuilder_ == null) {
-          hEKCEFKOLOE_ = null;
-          onChanged();
-        } else {
-          hEKCEFKOLOE_ = null;
-          hEKCEFKOLOEBuilder_ = null;
-        }
-
-        return this;
-      }
-      /**
-       * <code>.ChannellerSlabBuffSchemeInfo HEKCEFKOLOE = 15;</code>
-       */
-      public emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo.Builder getHEKCEFKOLOEBuilder() {
-        
-        onChanged();
-        return getHEKCEFKOLOEFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>.ChannellerSlabBuffSchemeInfo HEKCEFKOLOE = 15;</code>
-       */
-      public emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfoOrBuilder getHEKCEFKOLOEOrBuilder() {
-        if (hEKCEFKOLOEBuilder_ != null) {
-          return hEKCEFKOLOEBuilder_.getMessageOrBuilder();
-        } else {
-          return hEKCEFKOLOE_ == null ?
-              emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo.getDefaultInstance() : hEKCEFKOLOE_;
-        }
-      }
-      /**
-       * <code>.ChannellerSlabBuffSchemeInfo HEKCEFKOLOE = 15;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo, emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo.Builder, emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfoOrBuilder> 
-          getHEKCEFKOLOEFieldBuilder() {
-        if (hEKCEFKOLOEBuilder_ == null) {
-          hEKCEFKOLOEBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo, emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfo.Builder, emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.ChannellerSlabBuffSchemeInfoOrBuilder>(
-                  getHEKCEFKOLOE(),
-                  getParentForChildren(),
-                  isClean());
-          hEKCEFKOLOE_ = null;
-        }
-        return hEKCEFKOLOEBuilder_;
+        return eBICDMABNFJBuilder_;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -1430,29 +1422,29 @@ public final class ChannellerSlabBuffInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\034ChannellerSlabBuffInfo.proto\032\036Channell" +
-      "erSlabAssistInfo.proto\032\"ChannellerSlabBu" +
-      "ffSchemeInfo.proto\"\313\001\n\026ChannellerSlabBuf" +
-      "fInfo\0223\n\020assist_info_list\030\006 \003(\0132\031.Channe" +
-      "llerSlabAssistInfo\0222\n\013ABIJPNCCLIG\030\013 \001(\0132" +
-      "\035.ChannellerSlabBuffSchemeInfo\022\024\n\014buff_i" +
-      "d_list\030\002 \003(\r\0222\n\013HEKCEFKOLOE\030\017 \001(\0132\035.Chan" +
-      "nellerSlabBuffSchemeInfoB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "erSlabAssistInfo.proto\032\021MFLOIKPJCDI.prot" +
+      "o\"\251\001\n\026ChannellerSlabBuffInfo\022\024\n\014buff_id_" +
+      "list\030\002 \003(\r\022!\n\013AKKLDFFAGMI\030\003 \001(\0132\014.MFLOIK" +
+      "PJCDI\0223\n\020assist_info_list\030\006 \003(\0132\031.Channe" +
+      "llerSlabAssistInfo\022!\n\013EBICDMABNFJ\030\014 \001(\0132" +
+      "\014.MFLOIKPJCDIB=\n\031emu.grasscutter.net.pro" +
+      "toB ChannellerSlabBuffInfoOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.ChannellerSlabAssistInfoOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.getDescriptor(),
         });
     internal_static_ChannellerSlabBuffInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_ChannellerSlabBuffInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ChannellerSlabBuffInfo_descriptor,
-        new java.lang.String[] { "AssistInfoList", "ABIJPNCCLIG", "BuffIdList", "HEKCEFKOLOE", });
+        new java.lang.String[] { "BuffIdList", "AKKLDFFAGMI", "AssistInfoList", "EBICDMABNFJ", });
     emu.grasscutter.net.proto.ChannellerSlabAssistInfoOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.ChannellerSlabBuffSchemeInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.MFLOIKPJCDIOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_MonsterBaseOuterClass";
+
+import "DJNNMCLAEBL.proto";
+
+message _MonsterBase {
+	uint32 GNHNOINLCFC = 1;
+	uint32 NLACIAJDIGD = 2;
+	float NDAPJMNKOGL = 3;
+	repeated DJNNMCLAEBL EPPLNKCAPHJ = 4;
+}

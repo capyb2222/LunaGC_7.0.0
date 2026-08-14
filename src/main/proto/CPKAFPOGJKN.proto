@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CPKAFPOGJKNOuterClass";
+
+import "DACMDDCLPNH.proto";
+
+message CPKAFPOGJKN {
+	uint32 KOEKLGJJJKI = 2;
+	bool EIBFFKFHDOJ = 3;
+	uint32 OADOGGFPLAJ = 4;
+	uint32 upgrade_level = 6;
+	DACMDDCLPNH CCIIPCGDMIM = 7;
+	uint32 GJKEOFMEJKB = 8;
+	repeated uint32 MOLFPGIEHLM = 9;
+	uint32 NONHKCOBFKM = 10;
+	uint32 ECIPNPDCCJM = 11;
+	bool KPJLFMDDPMK = 12;
+	uint32 EFDAONILFMD = 13;
+	DACMDDCLPNH FGBOIBJOHAE = 15;
+}

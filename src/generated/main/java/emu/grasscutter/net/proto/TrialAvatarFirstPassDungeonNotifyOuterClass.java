@@ -19,17 +19,12 @@ public final class TrialAvatarFirstPassDungeonNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 trial_avatar_index_id = 6;</code>
+     * <code>uint32 trial_avatar_index_id = 10;</code>
      * @return The trialAvatarIndexId.
      */
     int getTrialAvatarIndexId();
   }
   /**
-   * <pre>
-   * CmdId: 6009
-   * Obf: FMDPKNJCNHO
-   * </pre>
-   *
    * Protobuf type {@code TrialAvatarFirstPassDungeonNotify}
    */
   public static final class TrialAvatarFirstPassDungeonNotify extends
@@ -114,7 +109,7 @@ public final class TrialAvatarFirstPassDungeonNotifyOuterClass {
     public static final int TRIAL_AVATAR_INDEX_ID_FIELD_NUMBER = 10;
     private int trialAvatarIndexId_;
     /**
-     * <code>uint32 trial_avatar_index_id = 6;</code>
+     * <code>uint32 trial_avatar_index_id = 10;</code>
      * @return The trialAvatarIndexId.
      */
     @java.lang.Override
@@ -278,11 +273,6 @@ public final class TrialAvatarFirstPassDungeonNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 6009
-     * Obf: FMDPKNJCNHO
-     * </pre>
-     *
      * Protobuf type {@code TrialAvatarFirstPassDungeonNotify}
      */
     public static final class Builder extends
@@ -431,7 +421,7 @@ public final class TrialAvatarFirstPassDungeonNotifyOuterClass {
 
       private int trialAvatarIndexId_ ;
       /**
-       * <code>uint32 trial_avatar_index_id = 6;</code>
+       * <code>uint32 trial_avatar_index_id = 10;</code>
        * @return The trialAvatarIndexId.
        */
       @java.lang.Override
@@ -439,7 +429,7 @@ public final class TrialAvatarFirstPassDungeonNotifyOuterClass {
         return trialAvatarIndexId_;
       }
       /**
-       * <code>uint32 trial_avatar_index_id = 6;</code>
+       * <code>uint32 trial_avatar_index_id = 10;</code>
        * @param value The trialAvatarIndexId to set.
        * @return This builder for chaining.
        */
@@ -450,7 +440,7 @@ public final class TrialAvatarFirstPassDungeonNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 trial_avatar_index_id = 6;</code>
+       * <code>uint32 trial_avatar_index_id = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearTrialAvatarIndexId() {
@@ -528,8 +518,9 @@ public final class TrialAvatarFirstPassDungeonNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\'TrialAvatarFirstPassDungeonNotify.prot" +
       "o\"B\n!TrialAvatarFirstPassDungeonNotify\022\035" +
-      "\n\025trial_avatar_index_id\030\006 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "\n\025trial_avatar_index_id\030\n \001(\rBH\n\031emu.gra" +
+      "sscutter.net.protoB+TrialAvatarFirstPass" +
+      "DungeonNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

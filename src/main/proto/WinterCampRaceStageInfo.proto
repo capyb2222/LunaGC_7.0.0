@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "WinterCampRaceStageInfoOuterClass";
+
+import "Vector.proto";
+
+message WinterCampRaceStageInfo {
+	uint32 id = 4;
+	uint32 open_time = 6;
+	uint32 max_score = 8;
+	Vector pos = 12;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "BartenderActivityDetailInfoOuterClass";
+
+import "BartenderLevelInfo.proto";
+import "BartenderTaskInfo.proto";
+
+message BartenderActivityDetailInfo {
+	repeated BartenderTaskInfo unlock_task_list = 5;
+	repeated BartenderLevelInfo unlock_level_list = 6;
+	repeated uint32 ENBFJNEEJNP = 8;
+	bool is_content_closed = 9;
+	bool is_develop_module_open = 10;
+	repeated uint32 PCPKHLCPABB = 13;
+}

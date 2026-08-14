@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ForgeQueueManipulateRspOuterClass";
+
+import "ForgeQueueManipulateType.proto";
+import "ItemHint.proto";
+
+message ForgeQueueManipulateRsp {
+	int32 retcode = 2;
+	repeated ItemHint extra_output_item_list = 7;
+	ForgeQueueManipulateType manipulate_type = 9;
+	repeated ItemHint return_item_list = 12;
+	repeated ItemHint output_item_list = 14;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EJCHPEFKGLJOuterClass";
+
+import "CPKAFPOGJKN.proto";
+
+message EJCHPEFKGLJ {
+	repeated uint32 NOBECNCCHLA = 7;
+	repeated CPKAFPOGJKN PAEHFGOIMPA = 8;
+	bool AIFBNCGPEDK = 12;
+	uint32 DEIJOHMBMAO = 13;
+}

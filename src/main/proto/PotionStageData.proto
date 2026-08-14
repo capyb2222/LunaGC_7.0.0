@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PotionStageDataOuterClass";
+
+import "PotionLevelData.proto";
+
+message PotionStageData {
+	repeated uint32 HLFNHDFMEEL = 7;
+	bool is_open = 8;
+	repeated PotionLevelData level_list = 10;
+	uint32 stage_id = 14;
+	repeated uint32 MDEMNAHABEN = 15;
+}

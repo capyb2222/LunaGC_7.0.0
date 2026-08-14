@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CombatInvokeEntryOuterClass";
+
+import "CombatTypeArgument.proto";
+import "ForwardType.proto";
+
+message CombatInvokeEntry {
+	CombatTypeArgument argument_type = 4;
+	ForwardType forward_type = 5;
+	bytes combat_data = 6;
+	uint32 LDAODDFLPGB = 11;
+}

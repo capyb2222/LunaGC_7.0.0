@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FNGEEAFJCDGOuterClass";
+
+import "GMLLBPCNLCC.proto";
+import "HFGMPCKCFNA.proto";
+import "PPPBDOGNGAL.proto";
+
+message FNGEEAFJCDG {
+	bool DOGLJKBLACH = 1;
+	GMLLBPCNLCC PPKGHENHBLM = 2;
+	PPPBDOGNGAL BJMOMCDMAHB = 3;
+	HFGMPCKCFNA CABJNDKLMIE = 4;
+}

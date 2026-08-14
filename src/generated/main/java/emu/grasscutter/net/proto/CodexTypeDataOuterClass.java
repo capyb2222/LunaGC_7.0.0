@@ -18,8 +18,13 @@ public final class CodexTypeDataOuterClass {
       // @@protoc_insertion_point(interface_extends:CodexTypeData)
       com.google.protobuf.MessageOrBuilder {
 
+    /**
+     * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
+     */
     int getWeaponMaxPromoteLevelMapCount();
-
+    /**
+     * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
+     */
     boolean containsWeaponMaxPromoteLevelMap(
         int key);
     /**
@@ -28,32 +33,69 @@ public final class CodexTypeDataOuterClass {
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getWeaponMaxPromoteLevelMap();
-
+    /**
+     * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
+     */
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getWeaponMaxPromoteLevelMapMap();
+    /**
+     * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
+     */
 
     int getWeaponMaxPromoteLevelMapOrDefault(
         int key,
         int defaultValue);
+    /**
+     * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
+     */
 
     int getWeaponMaxPromoteLevelMapOrThrow(
         int key);
 
-    java.util.List<java.lang.Integer> getCodexIdListList();
-
-    int getCodexIdListCount();
-
-    int getCodexIdList(int index);
-
+    /**
+     * <code>repeated bool have_viewed_list = 7;</code>
+     * @return A list containing the haveViewedList.
+     */
     java.util.List<java.lang.Boolean> getHaveViewedListList();
-
+    /**
+     * <code>repeated bool have_viewed_list = 7;</code>
+     * @return The count of haveViewedList.
+     */
     int getHaveViewedListCount();
-
+    /**
+     * <code>repeated bool have_viewed_list = 7;</code>
+     * @param index The index of the element to return.
+     * @return The haveViewedList at the given index.
+     */
     boolean getHaveViewedList(int index);
 
+    /**
+     * <code>.CodexType type = 11;</code>
+     * @return The enum numeric value on the wire for type.
+     */
     int getTypeValue();
-
+    /**
+     * <code>.CodexType type = 11;</code>
+     * @return The type.
+     */
     emu.grasscutter.net.proto.CodexTypeOuterClass.CodexType getType();
+
+    /**
+     * <code>repeated uint32 codex_id_list = 14;</code>
+     * @return A list containing the codexIdList.
+     */
+    java.util.List<java.lang.Integer> getCodexIdListList();
+    /**
+     * <code>repeated uint32 codex_id_list = 14;</code>
+     * @return The count of codexIdList.
+     */
+    int getCodexIdListCount();
+    /**
+     * <code>repeated uint32 codex_id_list = 14;</code>
+     * @param index The index of the element to return.
+     * @return The codexIdList at the given index.
+     */
+    int getCodexIdList(int index);
   }
   /**
    * Protobuf type {@code CodexTypeData}
@@ -68,9 +110,9 @@ public final class CodexTypeDataOuterClass {
       super(builder);
     }
     private CodexTypeData() {
-      codexIdList_ = emptyIntList();
       haveViewedList_ = emptyBooleanList();
       type_ = 0;
+      codexIdList_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -104,7 +146,7 @@ public final class CodexTypeDataOuterClass {
             case 0:
               done = true;
               break;
-            case 114: {
+            case 50: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 weaponMaxPromoteLevelMap_ = com.google.protobuf.MapField.newMapField(
                     WeaponMaxPromoteLevelMapDefaultEntryHolder.defaultEntry);
@@ -117,20 +159,20 @@ public final class CodexTypeDataOuterClass {
                   weaponMaxPromoteLevelMap__.getKey(), weaponMaxPromoteLevelMap__.getValue());
               break;
             }
-            case 16: {
-              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
+            case 56: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 haveViewedList_ = newBooleanList();
-                mutable_bitField0_ |= 0x00000004;
+                mutable_bitField0_ |= 0x00000002;
               }
               haveViewedList_.addBoolean(input.readBool());
               break;
             }
-            case 18: {
+            case 58: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
+              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
                 haveViewedList_ = newBooleanList();
-                mutable_bitField0_ |= 0x00000004;
+                mutable_bitField0_ |= 0x00000002;
               }
               while (input.getBytesUntilLimit() > 0) {
                 haveViewedList_.addBoolean(input.readBool());
@@ -138,26 +180,26 @@ public final class CodexTypeDataOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 120: {
+            case 88: {
               int rawValue = input.readEnum();
 
               type_ = rawValue;
               break;
             }
-            case 72: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+            case 112: {
+              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 codexIdList_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000004;
               }
               codexIdList_.addInt(input.readUInt32());
               break;
             }
-            case 74: {
+            case 114: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
+              if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
                 codexIdList_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000004;
               }
               while (input.getBytesUntilLimit() > 0) {
                 codexIdList_.addInt(input.readUInt32());
@@ -180,10 +222,10 @@ public final class CodexTypeDataOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000004) != 0)) {
+        if (((mutable_bitField0_ & 0x00000002) != 0)) {
           haveViewedList_.makeImmutable(); // C
         }
-        if (((mutable_bitField0_ & 0x00000002) != 0)) {
+        if (((mutable_bitField0_ & 0x00000004) != 0)) {
           codexIdList_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
@@ -215,13 +257,13 @@ public final class CodexTypeDataOuterClass {
               emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData.class, emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData.Builder.class);
     }
 
-    public static final int WEAPON_MAX_PROMOTE_LEVEL_MAP_FIELD_NUMBER = 14;
+    public static final int WEAPON_MAX_PROMOTE_LEVEL_MAP_FIELD_NUMBER = 6;
     private static final class WeaponMaxPromoteLevelMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.CodexTypeDataOuterClass.internal_static_CodexTypeData_WeaponMaxPromoteLevelMapEntry_descriptor,
+                  emu.grasscutter.net.proto.CodexTypeDataOuterClass.internal_static_CodexTypeData_WeaponMaxPromoteLevelMapEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -241,11 +283,14 @@ public final class CodexTypeDataOuterClass {
     public int getWeaponMaxPromoteLevelMapCount() {
       return internalGetWeaponMaxPromoteLevelMap().getMap().size();
     }
+    /**
+     * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
+     */
 
     @java.lang.Override
     public boolean containsWeaponMaxPromoteLevelMap(
         int key) {
-
+      
       return internalGetWeaponMaxPromoteLevelMap().getMap().containsKey(key);
     }
     /**
@@ -256,29 +301,35 @@ public final class CodexTypeDataOuterClass {
     public java.util.Map<java.lang.Integer, java.lang.Integer> getWeaponMaxPromoteLevelMap() {
       return getWeaponMaxPromoteLevelMapMap();
     }
-
+    /**
+     * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
+     */
     @java.lang.Override
 
     public java.util.Map<java.lang.Integer, java.lang.Integer> getWeaponMaxPromoteLevelMapMap() {
       return internalGetWeaponMaxPromoteLevelMap().getMap();
     }
-
+    /**
+     * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
+     */
     @java.lang.Override
 
     public int getWeaponMaxPromoteLevelMapOrDefault(
         int key,
         int defaultValue) {
-
+      
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetWeaponMaxPromoteLevelMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
-
+    /**
+     * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
+     */
     @java.lang.Override
 
     public int getWeaponMaxPromoteLevelMapOrThrow(
         int key) {
-
+      
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetWeaponMaxPromoteLevelMap().getMap();
       if (!map.containsKey(key)) {
@@ -287,54 +338,80 @@ public final class CodexTypeDataOuterClass {
       return map.get(key);
     }
 
-    public static final int CODEX_ID_LIST_FIELD_NUMBER = 9;
-    private com.google.protobuf.Internal.IntList codexIdList_;
-
-    @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getCodexIdListList() {
-      return codexIdList_;
-    }
-
-    public int getCodexIdListCount() {
-      return codexIdList_.size();
-    }
-
-    public int getCodexIdList(int index) {
-      return codexIdList_.getInt(index);
-    }
-    private int codexIdListMemoizedSerializedSize = -1;
-
-    public static final int HAVE_VIEWED_LIST_FIELD_NUMBER = 2;
+    public static final int HAVE_VIEWED_LIST_FIELD_NUMBER = 7;
     private com.google.protobuf.Internal.BooleanList haveViewedList_;
-
+    /**
+     * <code>repeated bool have_viewed_list = 7;</code>
+     * @return A list containing the haveViewedList.
+     */
     @java.lang.Override
     public java.util.List<java.lang.Boolean>
         getHaveViewedListList() {
       return haveViewedList_;
     }
-
+    /**
+     * <code>repeated bool have_viewed_list = 7;</code>
+     * @return The count of haveViewedList.
+     */
     public int getHaveViewedListCount() {
       return haveViewedList_.size();
     }
-
+    /**
+     * <code>repeated bool have_viewed_list = 7;</code>
+     * @param index The index of the element to return.
+     * @return The haveViewedList at the given index.
+     */
     public boolean getHaveViewedList(int index) {
       return haveViewedList_.getBoolean(index);
     }
     private int haveViewedListMemoizedSerializedSize = -1;
 
-    public static final int TYPE_FIELD_NUMBER = 15;
+    public static final int TYPE_FIELD_NUMBER = 11;
     private int type_;
-
+    /**
+     * <code>.CodexType type = 11;</code>
+     * @return The enum numeric value on the wire for type.
+     */
     @java.lang.Override public int getTypeValue() {
       return type_;
     }
-
+    /**
+     * <code>.CodexType type = 11;</code>
+     * @return The type.
+     */
     @java.lang.Override public emu.grasscutter.net.proto.CodexTypeOuterClass.CodexType getType() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.CodexTypeOuterClass.CodexType result = emu.grasscutter.net.proto.CodexTypeOuterClass.CodexType.valueOf(type_);
       return result == null ? emu.grasscutter.net.proto.CodexTypeOuterClass.CodexType.UNRECOGNIZED : result;
     }
+
+    public static final int CODEX_ID_LIST_FIELD_NUMBER = 14;
+    private com.google.protobuf.Internal.IntList codexIdList_;
+    /**
+     * <code>repeated uint32 codex_id_list = 14;</code>
+     * @return A list containing the codexIdList.
+     */
+    @java.lang.Override
+    public java.util.List<java.lang.Integer>
+        getCodexIdListList() {
+      return codexIdList_;
+    }
+    /**
+     * <code>repeated uint32 codex_id_list = 14;</code>
+     * @return The count of codexIdList.
+     */
+    public int getCodexIdListCount() {
+      return codexIdList_.size();
+    }
+    /**
+     * <code>repeated uint32 codex_id_list = 14;</code>
+     * @param index The index of the element to return.
+     * @return The codexIdList at the given index.
+     */
+    public int getCodexIdList(int index) {
+      return codexIdList_.getInt(index);
+    }
+    private int codexIdListMemoizedSerializedSize = -1;
 
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
@@ -356,19 +433,19 @@ public final class CodexTypeDataOuterClass {
           output,
           internalGetWeaponMaxPromoteLevelMap(),
           WeaponMaxPromoteLevelMapDefaultEntryHolder.defaultEntry,
-          14);
+          6);
       if (getHaveViewedListList().size() > 0) {
-        output.writeUInt32NoTag(18);
+        output.writeUInt32NoTag(58);
         output.writeUInt32NoTag(haveViewedListMemoizedSerializedSize);
       }
       for (int i = 0; i < haveViewedList_.size(); i++) {
         output.writeBoolNoTag(haveViewedList_.getBoolean(i));
       }
       if (type_ != emu.grasscutter.net.proto.CodexTypeOuterClass.CodexType.CodexType_CODEX_NONE.getNumber()) {
-        output.writeEnum(15, type_);
+        output.writeEnum(11, type_);
       }
       if (getCodexIdListList().size() > 0) {
-        output.writeUInt32NoTag(74);
+        output.writeUInt32NoTag(114);
         output.writeUInt32NoTag(codexIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < codexIdList_.size(); i++) {
@@ -391,7 +468,7 @@ public final class CodexTypeDataOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(14, weaponMaxPromoteLevelMap__);
+            .computeMessageSize(6, weaponMaxPromoteLevelMap__);
       }
       {
         int dataSize = 0;
@@ -406,7 +483,7 @@ public final class CodexTypeDataOuterClass {
       }
       if (type_ != emu.grasscutter.net.proto.CodexTypeOuterClass.CodexType.CodexType_CODEX_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(15, type_);
+          .computeEnumSize(11, type_);
       }
       {
         int dataSize = 0;
@@ -439,11 +516,11 @@ public final class CodexTypeDataOuterClass {
 
       if (!internalGetWeaponMaxPromoteLevelMap().equals(
           other.internalGetWeaponMaxPromoteLevelMap())) return false;
-      if (!getCodexIdListList()
-          .equals(other.getCodexIdListList())) return false;
       if (!getHaveViewedListList()
           .equals(other.getHaveViewedListList())) return false;
       if (type_ != other.type_) return false;
+      if (!getCodexIdListList()
+          .equals(other.getCodexIdListList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -459,16 +536,16 @@ public final class CodexTypeDataOuterClass {
         hash = (37 * hash) + WEAPON_MAX_PROMOTE_LEVEL_MAP_FIELD_NUMBER;
         hash = (53 * hash) + internalGetWeaponMaxPromoteLevelMap().hashCode();
       }
-      if (getCodexIdListCount() > 0) {
-        hash = (37 * hash) + CODEX_ID_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getCodexIdListList().hashCode();
-      }
       if (getHaveViewedListCount() > 0) {
         hash = (37 * hash) + HAVE_VIEWED_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getHaveViewedListList().hashCode();
       }
       hash = (37 * hash) + TYPE_FIELD_NUMBER;
       hash = (53 * hash) + type_;
+      if (getCodexIdListCount() > 0) {
+        hash = (37 * hash) + CODEX_ID_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getCodexIdListList().hashCode();
+      }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -625,12 +702,12 @@ public final class CodexTypeDataOuterClass {
       public Builder clear() {
         super.clear();
         internalGetMutableWeaponMaxPromoteLevelMap().clear();
-        codexIdList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
         haveViewedList_ = emptyBooleanList();
-        bitField0_ = (bitField0_ & ~0x00000004);
+        bitField0_ = (bitField0_ & ~0x00000002);
         type_ = 0;
 
+        codexIdList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000004);
         return this;
       }
 
@@ -661,16 +738,16 @@ public final class CodexTypeDataOuterClass {
         result.weaponMaxPromoteLevelMap_ = internalGetWeaponMaxPromoteLevelMap();
         result.weaponMaxPromoteLevelMap_.makeImmutable();
         if (((bitField0_ & 0x00000002) != 0)) {
-          codexIdList_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000002);
-        }
-        result.codexIdList_ = codexIdList_;
-        if (((bitField0_ & 0x00000004) != 0)) {
           haveViewedList_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000002);
         }
         result.haveViewedList_ = haveViewedList_;
         result.type_ = type_;
+        if (((bitField0_ & 0x00000004) != 0)) {
+          codexIdList_.makeImmutable();
+          bitField0_ = (bitField0_ & ~0x00000004);
+        }
+        result.codexIdList_ = codexIdList_;
         onBuilt();
         return result;
       }
@@ -721,20 +798,10 @@ public final class CodexTypeDataOuterClass {
         if (other == emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData.getDefaultInstance()) return this;
         internalGetMutableWeaponMaxPromoteLevelMap().mergeFrom(
             other.internalGetWeaponMaxPromoteLevelMap());
-        if (!other.codexIdList_.isEmpty()) {
-          if (codexIdList_.isEmpty()) {
-            codexIdList_ = other.codexIdList_;
-            bitField0_ = (bitField0_ & ~0x00000002);
-          } else {
-            ensureCodexIdListIsMutable();
-            codexIdList_.addAll(other.codexIdList_);
-          }
-          onChanged();
-        }
         if (!other.haveViewedList_.isEmpty()) {
           if (haveViewedList_.isEmpty()) {
             haveViewedList_ = other.haveViewedList_;
-            bitField0_ = (bitField0_ & ~0x00000004);
+            bitField0_ = (bitField0_ & ~0x00000002);
           } else {
             ensureHaveViewedListIsMutable();
             haveViewedList_.addAll(other.haveViewedList_);
@@ -743,6 +810,16 @@ public final class CodexTypeDataOuterClass {
         }
         if (other.type_ != 0) {
           setTypeValue(other.getTypeValue());
+        }
+        if (!other.codexIdList_.isEmpty()) {
+          if (codexIdList_.isEmpty()) {
+            codexIdList_ = other.codexIdList_;
+            bitField0_ = (bitField0_ & ~0x00000004);
+          } else {
+            ensureCodexIdListIsMutable();
+            codexIdList_.addAll(other.codexIdList_);
+          }
+          onChanged();
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -800,11 +877,14 @@ public final class CodexTypeDataOuterClass {
       public int getWeaponMaxPromoteLevelMapCount() {
         return internalGetWeaponMaxPromoteLevelMap().getMap().size();
       }
+      /**
+       * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
+       */
 
       @java.lang.Override
       public boolean containsWeaponMaxPromoteLevelMap(
           int key) {
-
+        
         return internalGetWeaponMaxPromoteLevelMap().getMap().containsKey(key);
       }
       /**
@@ -815,29 +895,35 @@ public final class CodexTypeDataOuterClass {
       public java.util.Map<java.lang.Integer, java.lang.Integer> getWeaponMaxPromoteLevelMap() {
         return getWeaponMaxPromoteLevelMapMap();
       }
-
+      /**
+       * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
+       */
       @java.lang.Override
 
       public java.util.Map<java.lang.Integer, java.lang.Integer> getWeaponMaxPromoteLevelMapMap() {
         return internalGetWeaponMaxPromoteLevelMap().getMap();
       }
-
+      /**
+       * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
+       */
       @java.lang.Override
 
       public int getWeaponMaxPromoteLevelMapOrDefault(
           int key,
           int defaultValue) {
-
+        
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetWeaponMaxPromoteLevelMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
-
+      /**
+       * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
+       */
       @java.lang.Override
 
       public int getWeaponMaxPromoteLevelMapOrThrow(
           int key) {
-
+        
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetWeaponMaxPromoteLevelMap().getMap();
         if (!map.containsKey(key)) {
@@ -851,10 +937,13 @@ public final class CodexTypeDataOuterClass {
             .clear();
         return this;
       }
+      /**
+       * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
+       */
 
       public Builder removeWeaponMaxPromoteLevelMap(
           int key) {
-
+        
         internalGetMutableWeaponMaxPromoteLevelMap().getMutableMap()
             .remove(key);
         return this;
@@ -867,15 +956,21 @@ public final class CodexTypeDataOuterClass {
       getMutableWeaponMaxPromoteLevelMap() {
         return internalGetMutableWeaponMaxPromoteLevelMap().getMutableMap();
       }
-
+      /**
+       * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
+       */
       public Builder putWeaponMaxPromoteLevelMap(
           int key,
           int value) {
-
+        
+        
         internalGetMutableWeaponMaxPromoteLevelMap().getMutableMap()
             .put(key, value);
         return this;
       }
+      /**
+       * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
+       */
 
       public Builder putAllWeaponMaxPromoteLevelMap(
           java.util.Map<java.lang.Integer, java.lang.Integer> values) {
@@ -884,81 +979,43 @@ public final class CodexTypeDataOuterClass {
         return this;
       }
 
-      private com.google.protobuf.Internal.IntList codexIdList_ = emptyIntList();
-      private void ensureCodexIdListIsMutable() {
+      private com.google.protobuf.Internal.BooleanList haveViewedList_ = emptyBooleanList();
+      private void ensureHaveViewedListIsMutable() {
         if (!((bitField0_ & 0x00000002) != 0)) {
-          codexIdList_ = mutableCopy(codexIdList_);
+          haveViewedList_ = mutableCopy(haveViewedList_);
           bitField0_ |= 0x00000002;
          }
       }
-
-      public java.util.List<java.lang.Integer>
-          getCodexIdListList() {
-        return ((bitField0_ & 0x00000002) != 0) ?
-                 java.util.Collections.unmodifiableList(codexIdList_) : codexIdList_;
-      }
-
-      public int getCodexIdListCount() {
-        return codexIdList_.size();
-      }
-
-      public int getCodexIdList(int index) {
-        return codexIdList_.getInt(index);
-      }
-
-      public Builder setCodexIdList(
-          int index, int value) {
-        ensureCodexIdListIsMutable();
-        codexIdList_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-
-      public Builder addCodexIdList(int value) {
-        ensureCodexIdListIsMutable();
-        codexIdList_.addInt(value);
-        onChanged();
-        return this;
-      }
-
-      public Builder addAllCodexIdList(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureCodexIdListIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, codexIdList_);
-        onChanged();
-        return this;
-      }
-
-      public Builder clearCodexIdList() {
-        codexIdList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
-        onChanged();
-        return this;
-      }
-
-      private com.google.protobuf.Internal.BooleanList haveViewedList_ = emptyBooleanList();
-      private void ensureHaveViewedListIsMutable() {
-        if (!((bitField0_ & 0x00000004) != 0)) {
-          haveViewedList_ = mutableCopy(haveViewedList_);
-          bitField0_ |= 0x00000004;
-         }
-      }
-
+      /**
+       * <code>repeated bool have_viewed_list = 7;</code>
+       * @return A list containing the haveViewedList.
+       */
       public java.util.List<java.lang.Boolean>
           getHaveViewedListList() {
-        return ((bitField0_ & 0x00000004) != 0) ?
+        return ((bitField0_ & 0x00000002) != 0) ?
                  java.util.Collections.unmodifiableList(haveViewedList_) : haveViewedList_;
       }
-
+      /**
+       * <code>repeated bool have_viewed_list = 7;</code>
+       * @return The count of haveViewedList.
+       */
       public int getHaveViewedListCount() {
         return haveViewedList_.size();
       }
-
+      /**
+       * <code>repeated bool have_viewed_list = 7;</code>
+       * @param index The index of the element to return.
+       * @return The haveViewedList at the given index.
+       */
       public boolean getHaveViewedList(int index) {
         return haveViewedList_.getBoolean(index);
       }
-
+      /**
+       * <code>repeated bool have_viewed_list = 7;</code>
+       * @param index The index to set the value at.
+       * @param value The haveViewedList to set.
+       * @return This builder for chaining.
+       */
       public Builder setHaveViewedList(
           int index, boolean value) {
         ensureHaveViewedListIsMutable();
@@ -966,14 +1023,22 @@ public final class CodexTypeDataOuterClass {
         onChanged();
         return this;
       }
-
+      /**
+       * <code>repeated bool have_viewed_list = 7;</code>
+       * @param value The haveViewedList to add.
+       * @return This builder for chaining.
+       */
       public Builder addHaveViewedList(boolean value) {
         ensureHaveViewedListIsMutable();
         haveViewedList_.addBoolean(value);
         onChanged();
         return this;
       }
-
+      /**
+       * <code>repeated bool have_viewed_list = 7;</code>
+       * @param values The haveViewedList to add.
+       * @return This builder for chaining.
+       */
       public Builder addAllHaveViewedList(
           java.lang.Iterable<? extends java.lang.Boolean> values) {
         ensureHaveViewedListIsMutable();
@@ -982,47 +1047,146 @@ public final class CodexTypeDataOuterClass {
         onChanged();
         return this;
       }
-
+      /**
+       * <code>repeated bool have_viewed_list = 7;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearHaveViewedList() {
         haveViewedList_ = emptyBooleanList();
-        bitField0_ = (bitField0_ & ~0x00000004);
+        bitField0_ = (bitField0_ & ~0x00000002);
         onChanged();
         return this;
       }
 
       private int type_ = 0;
-
+      /**
+       * <code>.CodexType type = 11;</code>
+       * @return The enum numeric value on the wire for type.
+       */
       @java.lang.Override public int getTypeValue() {
         return type_;
       }
-
+      /**
+       * <code>.CodexType type = 11;</code>
+       * @param value The enum numeric value on the wire for type to set.
+       * @return This builder for chaining.
+       */
       public Builder setTypeValue(int value) {
-
+        
         type_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>.CodexType type = 11;</code>
+       * @return The type.
+       */
       @java.lang.Override
       public emu.grasscutter.net.proto.CodexTypeOuterClass.CodexType getType() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.CodexTypeOuterClass.CodexType result = emu.grasscutter.net.proto.CodexTypeOuterClass.CodexType.valueOf(type_);
         return result == null ? emu.grasscutter.net.proto.CodexTypeOuterClass.CodexType.UNRECOGNIZED : result;
       }
-
+      /**
+       * <code>.CodexType type = 11;</code>
+       * @param value The type to set.
+       * @return This builder for chaining.
+       */
       public Builder setType(emu.grasscutter.net.proto.CodexTypeOuterClass.CodexType value) {
         if (value == null) {
           throw new NullPointerException();
         }
-
+        
         type_ = value.getNumber();
         onChanged();
         return this;
       }
-
+      /**
+       * <code>.CodexType type = 11;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearType() {
-
+        
         type_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.Internal.IntList codexIdList_ = emptyIntList();
+      private void ensureCodexIdListIsMutable() {
+        if (!((bitField0_ & 0x00000004) != 0)) {
+          codexIdList_ = mutableCopy(codexIdList_);
+          bitField0_ |= 0x00000004;
+         }
+      }
+      /**
+       * <code>repeated uint32 codex_id_list = 14;</code>
+       * @return A list containing the codexIdList.
+       */
+      public java.util.List<java.lang.Integer>
+          getCodexIdListList() {
+        return ((bitField0_ & 0x00000004) != 0) ?
+                 java.util.Collections.unmodifiableList(codexIdList_) : codexIdList_;
+      }
+      /**
+       * <code>repeated uint32 codex_id_list = 14;</code>
+       * @return The count of codexIdList.
+       */
+      public int getCodexIdListCount() {
+        return codexIdList_.size();
+      }
+      /**
+       * <code>repeated uint32 codex_id_list = 14;</code>
+       * @param index The index of the element to return.
+       * @return The codexIdList at the given index.
+       */
+      public int getCodexIdList(int index) {
+        return codexIdList_.getInt(index);
+      }
+      /**
+       * <code>repeated uint32 codex_id_list = 14;</code>
+       * @param index The index to set the value at.
+       * @param value The codexIdList to set.
+       * @return This builder for chaining.
+       */
+      public Builder setCodexIdList(
+          int index, int value) {
+        ensureCodexIdListIsMutable();
+        codexIdList_.setInt(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 codex_id_list = 14;</code>
+       * @param value The codexIdList to add.
+       * @return This builder for chaining.
+       */
+      public Builder addCodexIdList(int value) {
+        ensureCodexIdListIsMutable();
+        codexIdList_.addInt(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 codex_id_list = 14;</code>
+       * @param values The codexIdList to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllCodexIdList(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureCodexIdListIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, codexIdList_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 codex_id_list = 14;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearCodexIdList() {
+        codexIdList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000004);
         onChanged();
         return this;
       }
@@ -1037,6 +1201,7 @@ public final class CodexTypeDataOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:CodexTypeData)
     }
@@ -1080,12 +1245,12 @@ public final class CodexTypeDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CodexTypeData_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CodexTypeData_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CodexTypeData_WeaponMaxPromoteLevelMapEntry_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CodexTypeData_WeaponMaxPromoteLevelMapEntry_fieldAccessorTable;
 
@@ -1100,11 +1265,12 @@ public final class CodexTypeDataOuterClass {
       "\n\023CodexTypeData.proto\032\017CodexType.proto\"\357" +
       "\001\n\rCodexTypeData\022R\n\034weapon_max_promote_l" +
       "evel_map\030\006 \003(\0132,.CodexTypeData.WeaponMax" +
-      "PromoteLevelMapEntry\022\025\n\rcodex_id_list\030\016 " +
-      "\003(\r\022\030\n\020have_viewed_list\030\t \003(\010\022\030\n\004type\030\013 " +
-      "\001(\0162\n.CodexType\032?\n\035WeaponMaxPromoteLevel" +
+      "PromoteLevelMapEntry\022\030\n\020have_viewed_list" +
+      "\030\007 \003(\010\022\030\n\004type\030\013 \001(\0162\n.CodexType\022\025\n\rcode" +
+      "x_id_list\030\016 \003(\r\032?\n\035WeaponMaxPromoteLevel" +
       "MapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B4\n\031emu.grasscutter.net.protoB\027CodexType" +
+      "DataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1116,7 +1282,7 @@ public final class CodexTypeDataOuterClass {
     internal_static_CodexTypeData_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_CodexTypeData_descriptor,
-        new java.lang.String[] { "WeaponMaxPromoteLevelMap", "CodexIdList", "HaveViewedList", "Type", });
+        new java.lang.String[] { "WeaponMaxPromoteLevelMap", "HaveViewedList", "Type", "CodexIdList", });
     internal_static_CodexTypeData_WeaponMaxPromoteLevelMapEntry_descriptor =
       internal_static_CodexTypeData_descriptor.getNestedTypes().get(0);
     internal_static_CodexTypeData_WeaponMaxPromoteLevelMapEntry_fieldAccessorTable = new

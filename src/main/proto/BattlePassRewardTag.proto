@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "BattlePassRewardTagOuterClass";
+
+import "BattlePassUnlockStatus.proto";
+
+message BattlePassRewardTag {
+	BattlePassUnlockStatus unlock_status = 4;
+	uint32 reward_id = 7;
+	uint32 gamkmjljind = 14;
+	uint32 level = 15;
+}

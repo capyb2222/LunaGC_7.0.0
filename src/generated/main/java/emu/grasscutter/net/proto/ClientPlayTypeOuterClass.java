@@ -32,9 +32,9 @@ public final class ClientPlayTypeOuterClass {
      */
     ClientPlayType_CLIENT_PLAY_COOK_GAME_TYPE(2),
     /**
-     * <code>ClientPlayType_CLIENT_PLAY_LAN_V_4_PUSH_BOX_TYPE = 3;</code>
+     * <code>CLIENT_PLAY_LAN_V4_PUSH_BOX_TYPE = 3;</code>
      */
-    ClientPlayType_CLIENT_PLAY_LAN_V_4_PUSH_BOX_TYPE(3),
+    CLIENT_PLAY_LAN_V4_PUSH_BOX_TYPE(3),
     /**
      * <code>ClientPlayType_CLIENT_PLAY_CATCAFE_LAYOUT_TYPE = 4;</code>
      */
@@ -44,9 +44,9 @@ public final class ClientPlayTypeOuterClass {
      */
     ClientPlayType_CLIENT_PLAY_CATCAFE_CAT_TYPE(5),
     /**
-     * <code>ClientPlayType_CLIENT_PLAY_GREAT_FESTIVAL_V_2_SHEET_RESTORE_TYPE = 6;</code>
+     * <code>CLIENT_PLAY_GREAT_FESTIVAL_V2_SHEET_RESTORE_TYPE = 6;</code>
      */
-    ClientPlayType_CLIENT_PLAY_GREAT_FESTIVAL_V_2_SHEET_RESTORE_TYPE(6),
+    CLIENT_PLAY_GREAT_FESTIVAL_V2_SHEET_RESTORE_TYPE(6),
     /**
      * <code>ClientPlayType_CLIENT_PLAY_BIRD_BALL_TYPE = 7;</code>
      */
@@ -64,13 +64,13 @@ public final class ClientPlayTypeOuterClass {
      */
     ClientPlayType_CLIENT_PLAY_CEREMONY_DOODLE_TYPE(10),
     /**
-     * <code>ClientPlayType_CLIENT_PLAY_LAN_V_5_CARD_TYPE = 12;</code>
+     * <code>CLIENT_PLAY_LAN_V5_CARD_TYPE = 12;</code>
      */
-    ClientPlayType_CLIENT_PLAY_LAN_V_5_CARD_TYPE(12),
+    CLIENT_PLAY_LAN_V5_CARD_TYPE(12),
     /**
-     * <code>ClientPlayType_CLIENT_PLAY_LAN_V_5_CARD_NPC_LEVEL_TYPE = 13;</code>
+     * <code>CLIENT_PLAY_LAN_V5_CARD_NPC_LEVEL_TYPE = 13;</code>
      */
-    ClientPlayType_CLIENT_PLAY_LAN_V_5_CARD_NPC_LEVEL_TYPE(13),
+    CLIENT_PLAY_LAN_V5_CARD_NPC_LEVEL_TYPE(13),
     /**
      * <code>ClientPlayType_CLIENT_PLAY_DREAM_SWITCHING = 14;</code>
      */
@@ -79,6 +79,30 @@ public final class ClientPlayTypeOuterClass {
      * <code>ClientPlayType_CLIENT_PLAY_NATLAN_DRILL_COLLECT = 15;</code>
      */
     ClientPlayType_CLIENT_PLAY_NATLAN_DRILL_COLLECT(15),
+    /**
+     * <code>CLIENT_PLAY_HOLIDAY_RESORT_ADVENTURE = 16;</code>
+     */
+    CLIENT_PLAY_HOLIDAY_RESORT_ADVENTURE(16),
+    /**
+     * <code>CLIENT_PLAY_AUTOCHESS_FRUIT_PICK = 17;</code>
+     */
+    CLIENT_PLAY_AUTOCHESS_FRUIT_PICK(17),
+    /**
+     * <code>CLIENT_PLAY_LAN_V6_DANMAKU = 18;</code>
+     */
+    CLIENT_PLAY_LAN_V6_DANMAKU(18),
+    /**
+     * <code>CLIENT_PLAY_PAINTING_REPAIR_V2 = 19;</code>
+     */
+    CLIENT_PLAY_PAINTING_REPAIR_V2(19),
+    /**
+     * <code>CLIENT_PLAY_LOLI_JUMP = 20;</code>
+     */
+    CLIENT_PLAY_LOLI_JUMP(20),
+    /**
+     * <code>CLIENT_PLAY_AQUARIUM_SELL = 21;</code>
+     */
+    CLIENT_PLAY_AQUARIUM_SELL(21),
     UNRECOGNIZED(-1),
     ;
 
@@ -95,9 +119,9 @@ public final class ClientPlayTypeOuterClass {
      */
     public static final int ClientPlayType_CLIENT_PLAY_COOK_GAME_TYPE_VALUE = 2;
     /**
-     * <code>ClientPlayType_CLIENT_PLAY_LAN_V_4_PUSH_BOX_TYPE = 3;</code>
+     * <code>CLIENT_PLAY_LAN_V4_PUSH_BOX_TYPE = 3;</code>
      */
-    public static final int ClientPlayType_CLIENT_PLAY_LAN_V_4_PUSH_BOX_TYPE_VALUE = 3;
+    public static final int CLIENT_PLAY_LAN_V4_PUSH_BOX_TYPE_VALUE = 3;
     /**
      * <code>ClientPlayType_CLIENT_PLAY_CATCAFE_LAYOUT_TYPE = 4;</code>
      */
@@ -107,9 +131,9 @@ public final class ClientPlayTypeOuterClass {
      */
     public static final int ClientPlayType_CLIENT_PLAY_CATCAFE_CAT_TYPE_VALUE = 5;
     /**
-     * <code>ClientPlayType_CLIENT_PLAY_GREAT_FESTIVAL_V_2_SHEET_RESTORE_TYPE = 6;</code>
+     * <code>CLIENT_PLAY_GREAT_FESTIVAL_V2_SHEET_RESTORE_TYPE = 6;</code>
      */
-    public static final int ClientPlayType_CLIENT_PLAY_GREAT_FESTIVAL_V_2_SHEET_RESTORE_TYPE_VALUE = 6;
+    public static final int CLIENT_PLAY_GREAT_FESTIVAL_V2_SHEET_RESTORE_TYPE_VALUE = 6;
     /**
      * <code>ClientPlayType_CLIENT_PLAY_BIRD_BALL_TYPE = 7;</code>
      */
@@ -127,13 +151,13 @@ public final class ClientPlayTypeOuterClass {
      */
     public static final int ClientPlayType_CLIENT_PLAY_CEREMONY_DOODLE_TYPE_VALUE = 10;
     /**
-     * <code>ClientPlayType_CLIENT_PLAY_LAN_V_5_CARD_TYPE = 12;</code>
+     * <code>CLIENT_PLAY_LAN_V5_CARD_TYPE = 12;</code>
      */
-    public static final int ClientPlayType_CLIENT_PLAY_LAN_V_5_CARD_TYPE_VALUE = 12;
+    public static final int CLIENT_PLAY_LAN_V5_CARD_TYPE_VALUE = 12;
     /**
-     * <code>ClientPlayType_CLIENT_PLAY_LAN_V_5_CARD_NPC_LEVEL_TYPE = 13;</code>
+     * <code>CLIENT_PLAY_LAN_V5_CARD_NPC_LEVEL_TYPE = 13;</code>
      */
-    public static final int ClientPlayType_CLIENT_PLAY_LAN_V_5_CARD_NPC_LEVEL_TYPE_VALUE = 13;
+    public static final int CLIENT_PLAY_LAN_V5_CARD_NPC_LEVEL_TYPE_VALUE = 13;
     /**
      * <code>ClientPlayType_CLIENT_PLAY_DREAM_SWITCHING = 14;</code>
      */
@@ -142,6 +166,30 @@ public final class ClientPlayTypeOuterClass {
      * <code>ClientPlayType_CLIENT_PLAY_NATLAN_DRILL_COLLECT = 15;</code>
      */
     public static final int ClientPlayType_CLIENT_PLAY_NATLAN_DRILL_COLLECT_VALUE = 15;
+    /**
+     * <code>CLIENT_PLAY_HOLIDAY_RESORT_ADVENTURE = 16;</code>
+     */
+    public static final int CLIENT_PLAY_HOLIDAY_RESORT_ADVENTURE_VALUE = 16;
+    /**
+     * <code>CLIENT_PLAY_AUTOCHESS_FRUIT_PICK = 17;</code>
+     */
+    public static final int CLIENT_PLAY_AUTOCHESS_FRUIT_PICK_VALUE = 17;
+    /**
+     * <code>CLIENT_PLAY_LAN_V6_DANMAKU = 18;</code>
+     */
+    public static final int CLIENT_PLAY_LAN_V6_DANMAKU_VALUE = 18;
+    /**
+     * <code>CLIENT_PLAY_PAINTING_REPAIR_V2 = 19;</code>
+     */
+    public static final int CLIENT_PLAY_PAINTING_REPAIR_V2_VALUE = 19;
+    /**
+     * <code>CLIENT_PLAY_LOLI_JUMP = 20;</code>
+     */
+    public static final int CLIENT_PLAY_LOLI_JUMP_VALUE = 20;
+    /**
+     * <code>CLIENT_PLAY_AQUARIUM_SELL = 21;</code>
+     */
+    public static final int CLIENT_PLAY_AQUARIUM_SELL_VALUE = 21;
 
 
     public final int getNumber() {
@@ -171,18 +219,24 @@ public final class ClientPlayTypeOuterClass {
         case 0: return ClientPlayType_CLIENT_PLAY_NONE_TYPE;
         case 1: return ClientPlayType_CLIENT_PLAY_FILMFEST_SHOOTING_TYPE;
         case 2: return ClientPlayType_CLIENT_PLAY_COOK_GAME_TYPE;
-        case 3: return ClientPlayType_CLIENT_PLAY_LAN_V_4_PUSH_BOX_TYPE;
+        case 3: return CLIENT_PLAY_LAN_V4_PUSH_BOX_TYPE;
         case 4: return ClientPlayType_CLIENT_PLAY_CATCAFE_LAYOUT_TYPE;
         case 5: return ClientPlayType_CLIENT_PLAY_CATCAFE_CAT_TYPE;
-        case 6: return ClientPlayType_CLIENT_PLAY_GREAT_FESTIVAL_V_2_SHEET_RESTORE_TYPE;
+        case 6: return CLIENT_PLAY_GREAT_FESTIVAL_V2_SHEET_RESTORE_TYPE;
         case 7: return ClientPlayType_CLIENT_PLAY_BIRD_BALL_TYPE;
         case 8: return ClientPlayType_CLIENT_PLAY_FAIRY_TALES_FLYPPY_HAT_TOY_TYPE;
         case 9: return ClientPlayType_CLIENT_PLAY_NAHIDA_BIRTH_FLOAT_TOY_TYPE;
         case 10: return ClientPlayType_CLIENT_PLAY_CEREMONY_DOODLE_TYPE;
-        case 12: return ClientPlayType_CLIENT_PLAY_LAN_V_5_CARD_TYPE;
-        case 13: return ClientPlayType_CLIENT_PLAY_LAN_V_5_CARD_NPC_LEVEL_TYPE;
+        case 12: return CLIENT_PLAY_LAN_V5_CARD_TYPE;
+        case 13: return CLIENT_PLAY_LAN_V5_CARD_NPC_LEVEL_TYPE;
         case 14: return ClientPlayType_CLIENT_PLAY_DREAM_SWITCHING;
         case 15: return ClientPlayType_CLIENT_PLAY_NATLAN_DRILL_COLLECT;
+        case 16: return CLIENT_PLAY_HOLIDAY_RESORT_ADVENTURE;
+        case 17: return CLIENT_PLAY_AUTOCHESS_FRUIT_PICK;
+        case 18: return CLIENT_PLAY_LAN_V6_DANMAKU;
+        case 19: return CLIENT_PLAY_PAINTING_REPAIR_V2;
+        case 20: return CLIENT_PLAY_LOLI_JUMP;
+        case 21: return CLIENT_PLAY_AQUARIUM_SELL;
         default: return null;
       }
     }
@@ -248,29 +302,33 @@ public final class ClientPlayTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\024ClientPlayType.proto*\264\006\n\016ClientPlayTyp" +
+      "\n\024ClientPlayType.proto*\302\007\n\016ClientPlayTyp" +
       "e\022(\n$ClientPlayType_CLIENT_PLAY_NONE_TYP" +
       "E\020\000\0225\n1ClientPlayType_CLIENT_PLAY_FILMFE" +
       "ST_SHOOTING_TYPE\020\001\022-\n)ClientPlayType_CLI" +
-      "ENT_PLAY_COOK_GAME_TYPE\020\002\0224\n0ClientPlayT" +
-      "ype_CLIENT_PLAY_LAN_V_4_PUSH_BOX_TYPE\020\003\022" +
-      "2\n.ClientPlayType_CLIENT_PLAY_CATCAFE_LA" +
-      "YOUT_TYPE\020\004\022/\n+ClientPlayType_CLIENT_PLA" +
-      "Y_CATCAFE_CAT_TYPE\020\005\022D\n@ClientPlayType_C" +
-      "LIENT_PLAY_GREAT_FESTIVAL_V_2_SHEET_REST" +
-      "ORE_TYPE\020\006\022-\n)ClientPlayType_CLIENT_PLAY" +
-      "_BIRD_BALL_TYPE\020\007\022>\n:ClientPlayType_CLIE" +
-      "NT_PLAY_FAIRY_TALES_FLYPPY_HAT_TOY_TYPE\020" +
-      "\010\022:\n6ClientPlayType_CLIENT_PLAY_NAHIDA_B" +
-      "IRTH_FLOAT_TOY_TYPE\020\t\0223\n/ClientPlayType_" +
-      "CLIENT_PLAY_CEREMONY_DOODLE_TYPE\020\n\0220\n,Cl" +
-      "ientPlayType_CLIENT_PLAY_LAN_V_5_CARD_TY" +
-      "PE\020\014\022:\n6ClientPlayType_CLIENT_PLAY_LAN_V" +
-      "_5_CARD_NPC_LEVEL_TYPE\020\r\022.\n*ClientPlayTy" +
-      "pe_CLIENT_PLAY_DREAM_SWITCHING\020\016\0223\n/Clie" +
-      "ntPlayType_CLIENT_PLAY_NATLAN_DRILL_COLL" +
-      "ECT\020\017B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "ENT_PLAY_COOK_GAME_TYPE\020\002\022$\n CLIENT_PLAY" +
+      "_LAN_V4_PUSH_BOX_TYPE\020\003\0222\n.ClientPlayTyp" +
+      "e_CLIENT_PLAY_CATCAFE_LAYOUT_TYPE\020\004\022/\n+C" +
+      "lientPlayType_CLIENT_PLAY_CATCAFE_CAT_TY" +
+      "PE\020\005\0224\n0CLIENT_PLAY_GREAT_FESTIVAL_V2_SH" +
+      "EET_RESTORE_TYPE\020\006\022-\n)ClientPlayType_CLI" +
+      "ENT_PLAY_BIRD_BALL_TYPE\020\007\022>\n:ClientPlayT" +
+      "ype_CLIENT_PLAY_FAIRY_TALES_FLYPPY_HAT_T" +
+      "OY_TYPE\020\010\022:\n6ClientPlayType_CLIENT_PLAY_" +
+      "NAHIDA_BIRTH_FLOAT_TOY_TYPE\020\t\0223\n/ClientP" +
+      "layType_CLIENT_PLAY_CEREMONY_DOODLE_TYPE" +
+      "\020\n\022 \n\034CLIENT_PLAY_LAN_V5_CARD_TYPE\020\014\022*\n&" +
+      "CLIENT_PLAY_LAN_V5_CARD_NPC_LEVEL_TYPE\020\r" +
+      "\022.\n*ClientPlayType_CLIENT_PLAY_DREAM_SWI" +
+      "TCHING\020\016\0223\n/ClientPlayType_CLIENT_PLAY_N" +
+      "ATLAN_DRILL_COLLECT\020\017\022(\n$CLIENT_PLAY_HOL" +
+      "IDAY_RESORT_ADVENTURE\020\020\022$\n CLIENT_PLAY_A" +
+      "UTOCHESS_FRUIT_PICK\020\021\022\036\n\032CLIENT_PLAY_LAN" +
+      "_V6_DANMAKU\020\022\022\"\n\036CLIENT_PLAY_PAINTING_RE" +
+      "PAIR_V2\020\023\022\031\n\025CLIENT_PLAY_LOLI_JUMP\020\024\022\035\n\031" +
+      "CLIENT_PLAY_AQUARIUM_SELL\020\025B5\n\031emu.grass" +
+      "cutter.net.protoB\030ClientPlayTypeOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

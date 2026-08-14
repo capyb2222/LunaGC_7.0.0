@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "BattlePassCurScheduleUpdateNotifyOuterClass";
+
+import "BattlePassSchedule.proto";
+
+message BattlePassCurScheduleUpdateNotify {
+	bool is_viewed = 2;
+	bool have_cur_schedule = 4;
+	bool phlgoaddenj = 8;
+	BattlePassSchedule cur_schedule = 10;
+	uint32 _battle_pass_plan = 12;
+}

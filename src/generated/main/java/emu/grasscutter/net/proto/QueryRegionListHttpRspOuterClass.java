@@ -18,25 +18,52 @@ public final class QueryRegionListHttpRspOuterClass {
       // @@protoc_insertion_point(interface_extends:QueryRegionListHttpRsp)
       com.google.protobuf.MessageOrBuilder {
 
-    java.util.List<emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo>
+    /**
+     * <code>int32 retcode = 1;</code>
+     * @return The retcode.
+     */
+    int getRetcode();
+
+    /**
+     * <code>repeated .RegionSimpleInfo region_list = 2;</code>
+     */
+    java.util.List<emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo> 
         getRegionListList();
-
+    /**
+     * <code>repeated .RegionSimpleInfo region_list = 2;</code>
+     */
     emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo getRegionList(int index);
-
+    /**
+     * <code>repeated .RegionSimpleInfo region_list = 2;</code>
+     */
     int getRegionListCount();
-
-    java.util.List<? extends emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfoOrBuilder>
+    /**
+     * <code>repeated .RegionSimpleInfo region_list = 2;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfoOrBuilder> 
         getRegionListOrBuilderList();
-
+    /**
+     * <code>repeated .RegionSimpleInfo region_list = 2;</code>
+     */
     emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfoOrBuilder getRegionListOrBuilder(
         int index);
 
-    com.google.protobuf.ByteString getClientCustomConfigEncrypted();
-
+    /**
+     * <code>bytes client_secret_key = 5;</code>
+     * @return The clientSecretKey.
+     */
     com.google.protobuf.ByteString getClientSecretKey();
 
-    int getRetcode();
+    /**
+     * <code>bytes client_custom_config_encrypted = 6;</code>
+     * @return The clientCustomConfigEncrypted.
+     */
+    com.google.protobuf.ByteString getClientCustomConfigEncrypted();
 
+    /**
+     * <code>bool enable_login_pc = 7;</code>
+     * @return The enableLoginPc.
+     */
     boolean getEnableLoginPc();
   }
   /**
@@ -53,8 +80,8 @@ public final class QueryRegionListHttpRspOuterClass {
     }
     private QueryRegionListHttpRsp() {
       regionList_ = java.util.Collections.emptyList();
-      clientCustomConfigEncrypted_ = com.google.protobuf.ByteString.EMPTY;
       clientSecretKey_ = com.google.protobuf.ByteString.EMPTY;
+      clientCustomConfigEncrypted_ = com.google.protobuf.ByteString.EMPTY;
     }
 
     @java.lang.Override
@@ -152,63 +179,85 @@ public final class QueryRegionListHttpRspOuterClass {
               emu.grasscutter.net.proto.QueryRegionListHttpRspOuterClass.QueryRegionListHttpRsp.class, emu.grasscutter.net.proto.QueryRegionListHttpRspOuterClass.QueryRegionListHttpRsp.Builder.class);
     }
 
+    public static final int RETCODE_FIELD_NUMBER = 1;
+    private int retcode_;
+    /**
+     * <code>int32 retcode = 1;</code>
+     * @return The retcode.
+     */
+    @java.lang.Override
+    public int getRetcode() {
+      return retcode_;
+    }
+
     public static final int REGION_LIST_FIELD_NUMBER = 2;
     private java.util.List<emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo> regionList_;
-
+    /**
+     * <code>repeated .RegionSimpleInfo region_list = 2;</code>
+     */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo> getRegionListList() {
       return regionList_;
     }
-
+    /**
+     * <code>repeated .RegionSimpleInfo region_list = 2;</code>
+     */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfoOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfoOrBuilder> 
         getRegionListOrBuilderList() {
       return regionList_;
     }
-
+    /**
+     * <code>repeated .RegionSimpleInfo region_list = 2;</code>
+     */
     @java.lang.Override
     public int getRegionListCount() {
       return regionList_.size();
     }
-
+    /**
+     * <code>repeated .RegionSimpleInfo region_list = 2;</code>
+     */
     @java.lang.Override
     public emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo getRegionList(int index) {
       return regionList_.get(index);
     }
-
+    /**
+     * <code>repeated .RegionSimpleInfo region_list = 2;</code>
+     */
     @java.lang.Override
     public emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfoOrBuilder getRegionListOrBuilder(
         int index) {
       return regionList_.get(index);
     }
 
-    public static final int CLIENT_CUSTOM_CONFIG_ENCRYPTED_FIELD_NUMBER = 6;
-    private com.google.protobuf.ByteString clientCustomConfigEncrypted_;
-
-    @java.lang.Override
-    public com.google.protobuf.ByteString getClientCustomConfigEncrypted() {
-      return clientCustomConfigEncrypted_;
-    }
-
     public static final int CLIENT_SECRET_KEY_FIELD_NUMBER = 5;
     private com.google.protobuf.ByteString clientSecretKey_;
-
+    /**
+     * <code>bytes client_secret_key = 5;</code>
+     * @return The clientSecretKey.
+     */
     @java.lang.Override
     public com.google.protobuf.ByteString getClientSecretKey() {
       return clientSecretKey_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 1;
-    private int retcode_;
-
+    public static final int CLIENT_CUSTOM_CONFIG_ENCRYPTED_FIELD_NUMBER = 6;
+    private com.google.protobuf.ByteString clientCustomConfigEncrypted_;
+    /**
+     * <code>bytes client_custom_config_encrypted = 6;</code>
+     * @return The clientCustomConfigEncrypted.
+     */
     @java.lang.Override
-    public int getRetcode() {
-      return retcode_;
+    public com.google.protobuf.ByteString getClientCustomConfigEncrypted() {
+      return clientCustomConfigEncrypted_;
     }
 
     public static final int ENABLE_LOGIN_PC_FIELD_NUMBER = 7;
     private boolean enableLoginPc_;
-
+    /**
+     * <code>bool enable_login_pc = 7;</code>
+     * @return The enableLoginPc.
+     */
     @java.lang.Override
     public boolean getEnableLoginPc() {
       return enableLoginPc_;
@@ -287,14 +336,14 @@ public final class QueryRegionListHttpRspOuterClass {
       }
       emu.grasscutter.net.proto.QueryRegionListHttpRspOuterClass.QueryRegionListHttpRsp other = (emu.grasscutter.net.proto.QueryRegionListHttpRspOuterClass.QueryRegionListHttpRsp) obj;
 
-      if (!getRegionListList()
-          .equals(other.getRegionListList())) return false;
-      if (!getClientCustomConfigEncrypted()
-          .equals(other.getClientCustomConfigEncrypted())) return false;
-      if (!getClientSecretKey()
-          .equals(other.getClientSecretKey())) return false;
       if (getRetcode()
           != other.getRetcode()) return false;
+      if (!getRegionListList()
+          .equals(other.getRegionListList())) return false;
+      if (!getClientSecretKey()
+          .equals(other.getClientSecretKey())) return false;
+      if (!getClientCustomConfigEncrypted()
+          .equals(other.getClientCustomConfigEncrypted())) return false;
       if (getEnableLoginPc()
           != other.getEnableLoginPc()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -308,16 +357,16 @@ public final class QueryRegionListHttpRspOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + RETCODE_FIELD_NUMBER;
+      hash = (53 * hash) + getRetcode();
       if (getRegionListCount() > 0) {
         hash = (37 * hash) + REGION_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getRegionListList().hashCode();
       }
-      hash = (37 * hash) + CLIENT_CUSTOM_CONFIG_ENCRYPTED_FIELD_NUMBER;
-      hash = (53 * hash) + getClientCustomConfigEncrypted().hashCode();
       hash = (37 * hash) + CLIENT_SECRET_KEY_FIELD_NUMBER;
       hash = (53 * hash) + getClientSecretKey().hashCode();
-      hash = (37 * hash) + RETCODE_FIELD_NUMBER;
-      hash = (53 * hash) + getRetcode();
+      hash = (37 * hash) + CLIENT_CUSTOM_CONFIG_ENCRYPTED_FIELD_NUMBER;
+      hash = (53 * hash) + getClientCustomConfigEncrypted().hashCode();
       hash = (37 * hash) + ENABLE_LOGIN_PC_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getEnableLoginPc());
@@ -455,17 +504,17 @@ public final class QueryRegionListHttpRspOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        retcode_ = 0;
+
         if (regionListBuilder_ == null) {
           regionList_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
         } else {
           regionListBuilder_.clear();
         }
-        clientCustomConfigEncrypted_ = com.google.protobuf.ByteString.EMPTY;
-
         clientSecretKey_ = com.google.protobuf.ByteString.EMPTY;
 
-        retcode_ = 0;
+        clientCustomConfigEncrypted_ = com.google.protobuf.ByteString.EMPTY;
 
         enableLoginPc_ = false;
 
@@ -496,6 +545,7 @@ public final class QueryRegionListHttpRspOuterClass {
       public emu.grasscutter.net.proto.QueryRegionListHttpRspOuterClass.QueryRegionListHttpRsp buildPartial() {
         emu.grasscutter.net.proto.QueryRegionListHttpRspOuterClass.QueryRegionListHttpRsp result = new emu.grasscutter.net.proto.QueryRegionListHttpRspOuterClass.QueryRegionListHttpRsp(this);
         int from_bitField0_ = bitField0_;
+        result.retcode_ = retcode_;
         if (regionListBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
             regionList_ = java.util.Collections.unmodifiableList(regionList_);
@@ -505,9 +555,8 @@ public final class QueryRegionListHttpRspOuterClass {
         } else {
           result.regionList_ = regionListBuilder_.build();
         }
-        result.clientCustomConfigEncrypted_ = clientCustomConfigEncrypted_;
         result.clientSecretKey_ = clientSecretKey_;
-        result.retcode_ = retcode_;
+        result.clientCustomConfigEncrypted_ = clientCustomConfigEncrypted_;
         result.enableLoginPc_ = enableLoginPc_;
         onBuilt();
         return result;
@@ -557,6 +606,9 @@ public final class QueryRegionListHttpRspOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.QueryRegionListHttpRspOuterClass.QueryRegionListHttpRsp other) {
         if (other == emu.grasscutter.net.proto.QueryRegionListHttpRspOuterClass.QueryRegionListHttpRsp.getDefaultInstance()) return this;
+        if (other.getRetcode() != 0) {
+          setRetcode(other.getRetcode());
+        }
         if (regionListBuilder_ == null) {
           if (!other.regionList_.isEmpty()) {
             if (regionList_.isEmpty()) {
@@ -575,7 +627,7 @@ public final class QueryRegionListHttpRspOuterClass {
               regionListBuilder_ = null;
               regionList_ = other.regionList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              regionListBuilder_ =
+              regionListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRegionListFieldBuilder() : null;
             } else {
@@ -583,14 +635,11 @@ public final class QueryRegionListHttpRspOuterClass {
             }
           }
         }
-        if (other.getClientCustomConfigEncrypted() != com.google.protobuf.ByteString.EMPTY) {
-          setClientCustomConfigEncrypted(other.getClientCustomConfigEncrypted());
-        }
         if (other.getClientSecretKey() != com.google.protobuf.ByteString.EMPTY) {
           setClientSecretKey(other.getClientSecretKey());
         }
-        if (other.getRetcode() != 0) {
-          setRetcode(other.getRetcode());
+        if (other.getClientCustomConfigEncrypted() != com.google.protobuf.ByteString.EMPTY) {
+          setClientCustomConfigEncrypted(other.getClientCustomConfigEncrypted());
         }
         if (other.getEnableLoginPc() != false) {
           setEnableLoginPc(other.getEnableLoginPc());
@@ -625,6 +674,37 @@ public final class QueryRegionListHttpRspOuterClass {
       }
       private int bitField0_;
 
+      private int retcode_ ;
+      /**
+       * <code>int32 retcode = 1;</code>
+       * @return The retcode.
+       */
+      @java.lang.Override
+      public int getRetcode() {
+        return retcode_;
+      }
+      /**
+       * <code>int32 retcode = 1;</code>
+       * @param value The retcode to set.
+       * @return This builder for chaining.
+       */
+      public Builder setRetcode(int value) {
+        
+        retcode_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>int32 retcode = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearRetcode() {
+        
+        retcode_ = 0;
+        onChanged();
+        return this;
+      }
+
       private java.util.List<emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo> regionList_ =
         java.util.Collections.emptyList();
       private void ensureRegionListIsMutable() {
@@ -637,6 +717,9 @@ public final class QueryRegionListHttpRspOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo, emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo.Builder, emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfoOrBuilder> regionListBuilder_;
 
+      /**
+       * <code>repeated .RegionSimpleInfo region_list = 2;</code>
+       */
       public java.util.List<emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo> getRegionListList() {
         if (regionListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(regionList_);
@@ -644,7 +727,9 @@ public final class QueryRegionListHttpRspOuterClass {
           return regionListBuilder_.getMessageList();
         }
       }
-
+      /**
+       * <code>repeated .RegionSimpleInfo region_list = 2;</code>
+       */
       public int getRegionListCount() {
         if (regionListBuilder_ == null) {
           return regionList_.size();
@@ -652,7 +737,9 @@ public final class QueryRegionListHttpRspOuterClass {
           return regionListBuilder_.getCount();
         }
       }
-
+      /**
+       * <code>repeated .RegionSimpleInfo region_list = 2;</code>
+       */
       public emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo getRegionList(int index) {
         if (regionListBuilder_ == null) {
           return regionList_.get(index);
@@ -660,7 +747,9 @@ public final class QueryRegionListHttpRspOuterClass {
           return regionListBuilder_.getMessage(index);
         }
       }
-
+      /**
+       * <code>repeated .RegionSimpleInfo region_list = 2;</code>
+       */
       public Builder setRegionList(
           int index, emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo value) {
         if (regionListBuilder_ == null) {
@@ -675,7 +764,9 @@ public final class QueryRegionListHttpRspOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .RegionSimpleInfo region_list = 2;</code>
+       */
       public Builder setRegionList(
           int index, emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo.Builder builderForValue) {
         if (regionListBuilder_ == null) {
@@ -687,7 +778,9 @@ public final class QueryRegionListHttpRspOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .RegionSimpleInfo region_list = 2;</code>
+       */
       public Builder addRegionList(emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo value) {
         if (regionListBuilder_ == null) {
           if (value == null) {
@@ -701,7 +794,9 @@ public final class QueryRegionListHttpRspOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .RegionSimpleInfo region_list = 2;</code>
+       */
       public Builder addRegionList(
           int index, emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo value) {
         if (regionListBuilder_ == null) {
@@ -716,7 +811,9 @@ public final class QueryRegionListHttpRspOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .RegionSimpleInfo region_list = 2;</code>
+       */
       public Builder addRegionList(
           emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo.Builder builderForValue) {
         if (regionListBuilder_ == null) {
@@ -728,7 +825,9 @@ public final class QueryRegionListHttpRspOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .RegionSimpleInfo region_list = 2;</code>
+       */
       public Builder addRegionList(
           int index, emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo.Builder builderForValue) {
         if (regionListBuilder_ == null) {
@@ -740,7 +839,9 @@ public final class QueryRegionListHttpRspOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .RegionSimpleInfo region_list = 2;</code>
+       */
       public Builder addAllRegionList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo> values) {
         if (regionListBuilder_ == null) {
@@ -753,7 +854,9 @@ public final class QueryRegionListHttpRspOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .RegionSimpleInfo region_list = 2;</code>
+       */
       public Builder clearRegionList() {
         if (regionListBuilder_ == null) {
           regionList_ = java.util.Collections.emptyList();
@@ -764,7 +867,9 @@ public final class QueryRegionListHttpRspOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .RegionSimpleInfo region_list = 2;</code>
+       */
       public Builder removeRegionList(int index) {
         if (regionListBuilder_ == null) {
           ensureRegionListIsMutable();
@@ -775,12 +880,16 @@ public final class QueryRegionListHttpRspOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .RegionSimpleInfo region_list = 2;</code>
+       */
       public emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo.Builder getRegionListBuilder(
           int index) {
         return getRegionListFieldBuilder().getBuilder(index);
       }
-
+      /**
+       * <code>repeated .RegionSimpleInfo region_list = 2;</code>
+       */
       public emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfoOrBuilder getRegionListOrBuilder(
           int index) {
         if (regionListBuilder_ == null) {
@@ -788,8 +897,10 @@ public final class QueryRegionListHttpRspOuterClass {
           return regionListBuilder_.getMessageOrBuilder(index);
         }
       }
-
-      public java.util.List<? extends emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfoOrBuilder>
+      /**
+       * <code>repeated .RegionSimpleInfo region_list = 2;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfoOrBuilder> 
            getRegionListOrBuilderList() {
         if (regionListBuilder_ != null) {
           return regionListBuilder_.getMessageOrBuilderList();
@@ -797,24 +908,30 @@ public final class QueryRegionListHttpRspOuterClass {
           return java.util.Collections.unmodifiableList(regionList_);
         }
       }
-
+      /**
+       * <code>repeated .RegionSimpleInfo region_list = 2;</code>
+       */
       public emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo.Builder addRegionListBuilder() {
         return getRegionListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo.getDefaultInstance());
       }
-
+      /**
+       * <code>repeated .RegionSimpleInfo region_list = 2;</code>
+       */
       public emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo.Builder addRegionListBuilder(
           int index) {
         return getRegionListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo.getDefaultInstance());
       }
-
-      public java.util.List<emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo.Builder>
+      /**
+       * <code>repeated .RegionSimpleInfo region_list = 2;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo.Builder> 
            getRegionListBuilderList() {
         return getRegionListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo, emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo.Builder, emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfoOrBuilder>
+          emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo, emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo.Builder, emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfoOrBuilder> 
           getRegionListFieldBuilder() {
         if (regionListBuilder_ == null) {
           regionListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -828,91 +945,100 @@ public final class QueryRegionListHttpRspOuterClass {
         return regionListBuilder_;
       }
 
-      private com.google.protobuf.ByteString clientCustomConfigEncrypted_ = com.google.protobuf.ByteString.EMPTY;
-
-      @java.lang.Override
-      public com.google.protobuf.ByteString getClientCustomConfigEncrypted() {
-        return clientCustomConfigEncrypted_;
-      }
-
-      public Builder setClientCustomConfigEncrypted(com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-
-        clientCustomConfigEncrypted_ = value;
-        onChanged();
-        return this;
-      }
-
-      public Builder clearClientCustomConfigEncrypted() {
-
-        clientCustomConfigEncrypted_ = getDefaultInstance().getClientCustomConfigEncrypted();
-        onChanged();
-        return this;
-      }
-
       private com.google.protobuf.ByteString clientSecretKey_ = com.google.protobuf.ByteString.EMPTY;
-
+      /**
+       * <code>bytes client_secret_key = 5;</code>
+       * @return The clientSecretKey.
+       */
       @java.lang.Override
       public com.google.protobuf.ByteString getClientSecretKey() {
         return clientSecretKey_;
       }
-
+      /**
+       * <code>bytes client_secret_key = 5;</code>
+       * @param value The clientSecretKey to set.
+       * @return This builder for chaining.
+       */
       public Builder setClientSecretKey(com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         clientSecretKey_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>bytes client_secret_key = 5;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearClientSecretKey() {
-
+        
         clientSecretKey_ = getDefaultInstance().getClientSecretKey();
         onChanged();
         return this;
       }
 
-      private int retcode_ ;
-
+      private com.google.protobuf.ByteString clientCustomConfigEncrypted_ = com.google.protobuf.ByteString.EMPTY;
+      /**
+       * <code>bytes client_custom_config_encrypted = 6;</code>
+       * @return The clientCustomConfigEncrypted.
+       */
       @java.lang.Override
-      public int getRetcode() {
-        return retcode_;
+      public com.google.protobuf.ByteString getClientCustomConfigEncrypted() {
+        return clientCustomConfigEncrypted_;
       }
-
-      public Builder setRetcode(int value) {
-
-        retcode_ = value;
+      /**
+       * <code>bytes client_custom_config_encrypted = 6;</code>
+       * @param value The clientCustomConfigEncrypted to set.
+       * @return This builder for chaining.
+       */
+      public Builder setClientCustomConfigEncrypted(com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        clientCustomConfigEncrypted_ = value;
         onChanged();
         return this;
       }
-
-      public Builder clearRetcode() {
-
-        retcode_ = 0;
+      /**
+       * <code>bytes client_custom_config_encrypted = 6;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearClientCustomConfigEncrypted() {
+        
+        clientCustomConfigEncrypted_ = getDefaultInstance().getClientCustomConfigEncrypted();
         onChanged();
         return this;
       }
 
       private boolean enableLoginPc_ ;
-
+      /**
+       * <code>bool enable_login_pc = 7;</code>
+       * @return The enableLoginPc.
+       */
       @java.lang.Override
       public boolean getEnableLoginPc() {
         return enableLoginPc_;
       }
-
+      /**
+       * <code>bool enable_login_pc = 7;</code>
+       * @param value The enableLoginPc to set.
+       * @return This builder for chaining.
+       */
       public Builder setEnableLoginPc(boolean value) {
-
+        
         enableLoginPc_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>bool enable_login_pc = 7;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearEnableLoginPc() {
-
+        
         enableLoginPc_ = false;
         onChanged();
         return this;
@@ -928,6 +1054,7 @@ public final class QueryRegionListHttpRspOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:QueryRegionListHttpRsp)
     }
@@ -971,7 +1098,7 @@ public final class QueryRegionListHttpRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_QueryRegionListHttpRsp_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_QueryRegionListHttpRsp_fieldAccessorTable;
 
@@ -985,11 +1112,12 @@ public final class QueryRegionListHttpRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034QueryRegionListHttpRsp.proto\032\026RegionSi" +
       "mpleInfo.proto\"\255\001\n\026QueryRegionListHttpRs" +
-      "p\022&\n\013region_list\030\002 \003(\0132\021.RegionSimpleInf" +
-      "o\022&\n\036client_custom_config_encrypted\030\006 \001(" +
-      "\014\022\031\n\021client_secret_key\030\005 \001(\014\022\017\n\007retcode\030" +
-      "\001 \001(\005\022\027\n\017enable_login_pc\030\007 \001(\010B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "p\022\017\n\007retcode\030\001 \001(\005\022&\n\013region_list\030\002 \003(\0132" +
+      "\021.RegionSimpleInfo\022\031\n\021client_secret_key\030" +
+      "\005 \001(\014\022&\n\036client_custom_config_encrypted\030" +
+      "\006 \001(\014\022\027\n\017enable_login_pc\030\007 \001(\010B=\n\031emu.gr" +
+      "asscutter.net.protoB QueryRegionListHttp" +
+      "RspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1001,7 +1129,7 @@ public final class QueryRegionListHttpRspOuterClass {
     internal_static_QueryRegionListHttpRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_QueryRegionListHttpRsp_descriptor,
-        new java.lang.String[] { "RegionList", "ClientCustomConfigEncrypted", "ClientSecretKey", "Retcode", "EnableLoginPc", });
+        new java.lang.String[] { "Retcode", "RegionList", "ClientSecretKey", "ClientCustomConfigEncrypted", "EnableLoginPc", });
     emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.getDescriptor();
   }
 

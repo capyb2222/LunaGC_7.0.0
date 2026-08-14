@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PullPrivateChatRspOuterClass";
+
+import "ChatInfo.proto";
+
+message PullPrivateChatRsp {
+	int32 retcode = 4;
+	repeated ChatInfo chat_info = 7;
+}

@@ -447,8 +447,9 @@ public final class MikawaFlowerDetailInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\034MikawaFlowerDetailInfo.proto\"\030\n\026Mikawa" +
-      "FlowerDetailInfoB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "FlowerDetailInfoB=\n\031emu.grasscutter.net." +
+      "protoB MikawaFlowerDetailInfoOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

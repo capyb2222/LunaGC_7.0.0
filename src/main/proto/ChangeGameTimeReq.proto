@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ChangeGameTimeReqOuterClass";
+
+message ChangeGameTimeReq {
+	uint32 extra_days = 1;
+	bool is_force_set = 4;
+	uint32 game_time = 13;
+}

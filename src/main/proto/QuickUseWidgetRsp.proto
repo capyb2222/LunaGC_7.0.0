@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "QuickUseWidgetRspOuterClass";
+
+import "ClientCollectorData.proto";
+import "OneoffGatherPointDetectorData.proto";
+import "SkyCrystalDetectorQuickUseResult.proto";
+import "_ClientDetectorResult.proto";
+
+message QuickUseWidgetRsp {
+	oneof param {
+		OneoffGatherPointDetectorData detector_data = 5;
+		ClientCollectorData client_collector_data = 10;
+		SkyCrystalDetectorQuickUseResult sky_crystal_detector_quick_use_result = 2695;
+		_ClientDetectorResult client_detector_result = 7526;
+	}
+	uint32 material_id = 2;
+	uint32 KHEMKPBBNHC = 3;
+	int32 retcode = 13;
+}

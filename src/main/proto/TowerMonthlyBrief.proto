@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "TowerMonthlyBriefOuterClass";
+
+message TowerMonthlyBrief {
+	uint32 best_floor_index = 1;
+	uint32 best_level_index = 2;
+	uint32 total_star_count = 3;
+	uint32 tower_schedule_id = 12;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EMCDNJLCAEBOuterClass";
+
+import "HHEDHCFPEKM.proto";
+
+message EMCDNJLCAEB {
+	string name = 1;
+	HHEDHCFPEKM NGLCFKKJGFJ = 2;
+	HHEDHCFPEKM NNPNDCFIAMA = 3;
+}

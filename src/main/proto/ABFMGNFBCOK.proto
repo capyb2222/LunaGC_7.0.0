@@ -1,0 +1,81 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ABFMGNFBCOKOuterClass";
+
+import "AABLEDJBAKK.proto";
+import "APIBGNMPLHD.proto";
+import "FNJCCKFOHGB.proto";
+import "GFFHPDDCMCN.proto";
+import "JEIFHGBPMKL.proto";
+import "JJBFOBBJFON.proto";
+import "MPFKEPDMHJF.proto";
+import "NBHPODHNOOJ.proto";
+import "NDFHOBKHMKP.proto";
+import "PJJPMFAMBFE.proto";
+import "_BeyondParamValueArmy.proto";
+import "_BeyondParamValueBool.proto";
+import "_BeyondParamValueBoolList.proto";
+import "_BeyondParamValueCompType.proto";
+import "_BeyondParamValueEntity.proto";
+import "_BeyondParamValueEntityList.proto";
+import "_BeyondParamValueEnum.proto";
+import "_BeyondParamValueFloat.proto";
+import "_BeyondParamValueFloatList.proto";
+import "_BeyondParamValueGuid.proto";
+import "_BeyondParamValueGuidList.proto";
+import "_BeyondParamValueInt.proto";
+import "_BeyondParamValueIntList.proto";
+import "_BeyondParamValueString.proto";
+import "_BeyondParamValueStringList.proto";
+import "_BeyondParamValueVariable.proto";
+import "_BeyondParamValueVector3.proto";
+import "_BeyondParamValueVector3List.proto";
+
+message ABFMGNFBCOK {
+	oneof detail {
+		_BeyondParamValueEntity beyond_param_value_entity = 11;
+		_BeyondParamValueGuid beyond_param_value_guid = 12;
+		_BeyondParamValueInt beyond_param_value_int = 13;
+		_BeyondParamValueBool beyond_param_value_bool = 14;
+		_BeyondParamValueFloat beyond_param_value_float = 15;
+		_BeyondParamValueString beyond_param_value_string = 16;
+		_BeyondParamValueGuidList beyond_param_value_guid_list = 17;
+		_BeyondParamValueIntList beyond_param_value_int_list = 18;
+		_BeyondParamValueBoolList beyond_param_value_bool_list = 19;
+		_BeyondParamValueFloatList beyond_param_value_float_list = 20;
+		_BeyondParamValueStringList beyond_param_value_string_list = 21;
+		_BeyondParamValueVector3 beyond_param_value_vector3 = 22;
+		_BeyondParamValueEntityList beyond_param_value_entity_list = 23;
+		_BeyondParamValueEnum beyond_param_value_enum = 24;
+		_BeyondParamValueVector3List beyond_param_value_vector3_list = 25;
+		_BeyondParamValueVariable beyond_param_value_variable = 26;
+		_BeyondParamValueArmy beyond_param_value_army = 27;
+		_BeyondParamValueCompType beyond_param_value_comp_type = 28;
+		MPFKEPDMHJF beyond_param_value_category_type = 29;
+		PJJPMFAMBFE beyond_param_value_config_reference = 30;
+		FNJCCKFOHGB beyond_param_value_entity_reference = 31;
+		JEIFHGBPMKL beyond_param_value_config_reference_list = 32;
+		JJBFOBBJFON beyond_param_value_entity_reference_list = 33;
+		NDFHOBKHMKP beyond_param_value_army_list = 34;
+		HKIBBMCDDGM beyond_param_value_struct_const = 35;
+		OGIEFPAFBDK beyond_param_value_struct_list_const = 36;
+		PPEMCNMMKOM beyond_param_value_dict_const = 37;
+		GFFHPDDCMCN beyond_param_value_custom_value_snapshot = 38;
+		NBHPODHNOOJ beyond_param_value_enum_list = 39;
+	}
+	APIBGNMPLHD IMBIHDBGJHK = 1;
+	AABLEDJBAKK KGEKOKKHFMG = 2;
+}
+
+message HKIBBMCDDGM {
+	repeated ABFMGNFBCOK member_list = 1;
+}
+
+message OGIEFPAFBDK {
+	repeated ABFMGNFBCOK PGOCCPDHGNH = 1;
+}
+
+message PPEMCNMMKOM {
+	repeated ABFMGNFBCOK FACMDMDINJO = 1;
+}

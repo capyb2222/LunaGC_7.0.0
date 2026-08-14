@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HomeAvatarSummonEventInfoOuterClass";
+
+message HomeAvatarSummonEventInfo {
+	uint32 guid = 1;
+	uint32 avatar_id = 2;
+	uint32 random_position = 7;
+	uint32 event_over_time = 9;
+	uint32 event_id = 11;
+	uint32 suit_id = 12;
+}

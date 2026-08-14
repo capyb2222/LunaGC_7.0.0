@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "OfficialCustomDungeonOuterClass";
+
+message OfficialCustomDungeon {
+	uint32 dungeon_id = 1;
+	uint32 win_times = 11;
+}

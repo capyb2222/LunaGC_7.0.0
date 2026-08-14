@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "BattlePassUnlockStatusOuterClass";
+
+enum BattlePassUnlockStatus {
+	BattlePassUnlockSTATUS_BATTLE_PASS_UNLOCK_INVALID = 0;
+	BattlePassUnlockSTATUS_BATTLE_PASS_UNLOCK_FREE = 1;
+	BattlePassUnlockSTATUS_BATTLE_PASS_UNLOCK_PAID = 2;
+}

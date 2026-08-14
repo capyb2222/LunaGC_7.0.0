@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CoopCgOuterClass";
+
+message CoopCg {
+	uint32 id = 2;
+	bool is_unlock = 6;
+}

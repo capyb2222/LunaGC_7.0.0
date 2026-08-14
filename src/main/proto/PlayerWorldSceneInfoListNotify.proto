@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PlayerWorldSceneInfoListNotifyOuterClass";
+
+import "PlayerWorldSceneInfo.proto";
+
+message PlayerWorldSceneInfoListNotify {
+	repeated PlayerWorldSceneInfo info_list = 5;
+	repeated uint32 unlocked_area_id_list = 1765;
+}

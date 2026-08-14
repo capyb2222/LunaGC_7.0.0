@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ElectroherculesBattleDetailInfoOuterClass";
+
+import "ElectroherculesBattleStageInfo.proto";
+
+message ElectroherculesBattleDetailInfo {
+	repeated ElectroherculesBattleStageInfo stage_info_list = 2;
+	bool is_pass_all_stage = 8;
+}

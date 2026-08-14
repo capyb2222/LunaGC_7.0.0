@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "APNLICDADPCOuterClass";
+
+message APNLICDADPC {
+	int32 key_hash = 1;
+	repeated float ENLJFAGNPDG = 2;
+}

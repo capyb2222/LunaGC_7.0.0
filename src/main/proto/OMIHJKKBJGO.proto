@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "OMIHJKKBJGOOuterClass";
+
+import "FJFKBKCECBC.proto";
+import "FKPFJHCNOLD.proto";
+
+message OMIHJKKBJGO {
+	string key = 1;
+	float GOHMGHDBJMC = 2;
+	uint64 KCMJPMNPCBA = 3;
+	uint64 LGGICGBDDFO = 4;
+	bool NKDMPKJGMFF = 5;
+	FKPFJHCNOLD status = 6;
+	float AGJIJMBOBAN = 7;
+	FJFKBKCECBC PMHDJBEJGKN = 8;
+}

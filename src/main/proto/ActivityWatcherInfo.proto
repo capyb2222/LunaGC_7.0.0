@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ActivityWatcherInfoOuterClass";
+
+message ActivityWatcherInfo {
+	uint32 watcher_id = 2;
+	uint32 cur_progress = 4;
+	bool is_taken_reward = 12;
+	uint32 total_progress = 13;
+}

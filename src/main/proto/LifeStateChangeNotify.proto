@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "LifeStateChangeNotifyOuterClass";
+
+import "PlayerDieType.proto";
+import "ServerBuff.proto";
+
+message LifeStateChangeNotify {
+	string attack_tag = 1;
+	repeated string jodaadbmkka = 3;
+	uint32 AFPBFDHCDNK = 4;
+	uint32 source_entity_id = 5;
+	uint32 entity_id = 7;
+	uint32 life_state = 9;
+	uint32 move_reliable_seq = 10;
+	repeated ServerBuff server_buff_list = 11;
+	uint32 LDAODDFLPGB = 12;
+	uint32 client_sequence_id = 14;
+	PlayerDieType die_type = 15;
+}

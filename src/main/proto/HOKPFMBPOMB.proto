@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HOKPFMBPOMBOuterClass";
+
+enum HOKPFMBPOMB {
+	HOKPFMBPOMB_BEYOND_MOVER_VECTOR = 0;
+	HOKPFMBPOMB_BEYOND_MOVER_ROTATE = 1;
+	HOKPFMBPOMB_BEYOND_MOVER_ROUTE = 2;
+	HOKPFMBPOMB_BEYOND_MOVER_ROTATE_TO_DIR = 3;
+	HOKPFMBPOMB_BEYOND_MOVER_FIXED_POS_ROT = 4;
+}

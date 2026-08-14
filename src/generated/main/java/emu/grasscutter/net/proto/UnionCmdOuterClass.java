@@ -18,8 +18,16 @@ public final class UnionCmdOuterClass {
       // @@protoc_insertion_point(interface_extends:UnionCmd)
       com.google.protobuf.MessageOrBuilder {
 
+    /**
+     * <code>bytes body = 8;</code>
+     * @return The body.
+     */
     com.google.protobuf.ByteString getBody();
 
+    /**
+     * <code>uint32 message_id = 15;</code>
+     * @return The messageId.
+     */
     int getMessageId();
   }
   /**
@@ -68,14 +76,14 @@ public final class UnionCmdOuterClass {
             case 0:
               done = true;
               break;
-            case 80: {
-
-              messageId_ = input.readUInt32();
-              break;
-            }
-            case 10: {
+            case 66: {
 
               body_ = input.readBytes();
+              break;
+            }
+            case 120: {
+
+              messageId_ = input.readUInt32();
               break;
             }
             default: {
@@ -110,17 +118,23 @@ public final class UnionCmdOuterClass {
               emu.grasscutter.net.proto.UnionCmdOuterClass.UnionCmd.class, emu.grasscutter.net.proto.UnionCmdOuterClass.UnionCmd.Builder.class);
     }
 
-    public static final int BODY_FIELD_NUMBER = 1;
+    public static final int BODY_FIELD_NUMBER = 8;
     private com.google.protobuf.ByteString body_;
-
+    /**
+     * <code>bytes body = 8;</code>
+     * @return The body.
+     */
     @java.lang.Override
     public com.google.protobuf.ByteString getBody() {
       return body_;
     }
 
-    public static final int MESSAGE_ID_FIELD_NUMBER = 10;
+    public static final int MESSAGE_ID_FIELD_NUMBER = 15;
     private int messageId_;
-
+    /**
+     * <code>uint32 message_id = 15;</code>
+     * @return The messageId.
+     */
     @java.lang.Override
     public int getMessageId() {
       return messageId_;
@@ -140,11 +154,11 @@ public final class UnionCmdOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (messageId_ != 0) {
-        output.writeUInt32(10, messageId_);
-      }
       if (!body_.isEmpty()) {
-        output.writeBytes(1, body_);
+        output.writeBytes(8, body_);
+      }
+      if (messageId_ != 0) {
+        output.writeUInt32(15, messageId_);
       }
       unknownFields.writeTo(output);
     }
@@ -155,13 +169,13 @@ public final class UnionCmdOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (messageId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, messageId_);
-      }
       if (!body_.isEmpty()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(1, body_);
+          .computeBytesSize(8, body_);
+      }
+      if (messageId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, messageId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -446,45 +460,65 @@ public final class UnionCmdOuterClass {
       }
 
       private com.google.protobuf.ByteString body_ = com.google.protobuf.ByteString.EMPTY;
-
+      /**
+       * <code>bytes body = 8;</code>
+       * @return The body.
+       */
       @java.lang.Override
       public com.google.protobuf.ByteString getBody() {
         return body_;
       }
-
+      /**
+       * <code>bytes body = 8;</code>
+       * @param value The body to set.
+       * @return This builder for chaining.
+       */
       public Builder setBody(com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         body_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>bytes body = 8;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearBody() {
-
+        
         body_ = getDefaultInstance().getBody();
         onChanged();
         return this;
       }
 
       private int messageId_ ;
-
+      /**
+       * <code>uint32 message_id = 15;</code>
+       * @return The messageId.
+       */
       @java.lang.Override
       public int getMessageId() {
         return messageId_;
       }
-
+      /**
+       * <code>uint32 message_id = 15;</code>
+       * @param value The messageId to set.
+       * @return This builder for chaining.
+       */
       public Builder setMessageId(int value) {
-
+        
         messageId_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint32 message_id = 15;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearMessageId() {
-
+        
         messageId_ = 0;
         onChanged();
         return this;
@@ -500,6 +534,7 @@ public final class UnionCmdOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:UnionCmd)
     }
@@ -543,7 +578,7 @@ public final class UnionCmdOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_UnionCmd_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_UnionCmd_fieldAccessorTable;
 
@@ -555,9 +590,9 @@ public final class UnionCmdOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\016UnionCmd.proto\",\n\010UnionCmd\022\014\n\004body\030\014 \001" +
-      "(\014\022\022\n\nmessage_id\030\n \001(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\n\016UnionCmd.proto\",\n\010UnionCmd\022\014\n\004body\030\010 \001" +
+      "(\014\022\022\n\nmessage_id\030\017 \001(\rB/\n\031emu.grasscutte" +
+      "r.net.protoB\022UnionCmdOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

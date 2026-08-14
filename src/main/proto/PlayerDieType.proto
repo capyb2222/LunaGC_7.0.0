@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PlayerDieTypeOuterClass";
+
+enum PlayerDieType {
+	PlayerDieType_PLAYER_DIE_NONE = 0;
+	PlayerDieType_PLAYER_DIE_KILL_BY_MONSTER = 1;
+	PlayerDieType_PLAYER_DIE_KILL_BY_GEAR = 2;
+	PlayerDieType_PLAYER_DIE_FALL = 3;
+	PlayerDieType_PLAYER_DIE_DRAWN = 4;
+	PlayerDieType_PLAYER_DIE_ABYSS = 5;
+	PlayerDieType_PLAYER_DIE_GM = 6;
+	PlayerDieType_PLAYER_DIE_CLIMATE_COLD = 7;
+	PlayerDieType_PLAYER_DIE_STORM_LIGHTING = 8;
+	PlayerDieType_PLAYER_DIE_DIRTY_WATER_EROSION = 9;
+	PlayerDieType_PLAYER_DIE_LIQUID_PHLOGISTON = 10;
+	PlayerDieType_PLAYER_DIE_LEVEL_FORCE_DIE = 11;
+	PLAYER_DIE_HEART_BLOOD_USED_OUT = 12;
+	PLAYER_DIE_BEYOND_BLUEPRINT = 13;
+	PLAYER_DIE_THE_GREY = 14;
+}

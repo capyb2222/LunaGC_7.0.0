@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PlayerWidgetInfoOuterClass";
+
+import "WidgetSlotData.proto";
+
+message PlayerWidgetInfo {
+	uint32 uid = 7;
+	repeated WidgetSlotData slot_list = 12;
+}

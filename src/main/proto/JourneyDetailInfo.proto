@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "JourneyDetailInfoOuterClass";
+
+import "BFOFMBLMHBA.proto";
+import "HBBCGELHFHE.proto";
+import "ILCHPINGCCJ.proto";
+import "JPCAOAHBLHB.proto";
+
+message JourneyDetailInfo {
+	JPCAOAHBLHB BJMFNOPMJEL = 1;
+	BFOFMBLMHBA AGKNFNOJMOE = 5;
+	HBBCGELHFHE MDEKHOGJKCF = 10;
+	ILCHPINGCCJ gmildlieicb = 12;
+}

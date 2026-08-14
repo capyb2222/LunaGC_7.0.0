@@ -203,8 +203,8 @@ public final class ForwardTypeOuterClass {
       "EER\020\005\022 \n\034ForwardType_FORWARD_TO_PEERS\020\006\022" +
       "#\n\037ForwardType_FORWARD_ONLY_SERVER\020\007\022/\n+" +
       "ForwardType_FORWARD_TO_ALL_EXIST_EXCEPT_" +
-      "CUR\020\010B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "CUR\020\010B2\n\031emu.grasscutter.net.protoB\025Forw" +
+      "ardTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EvtBeingHitNotifyOuterClass";
+
+import "EvtBeingHitInfo.proto";
+import "ForwardType.proto";
+
+message EvtBeingHitNotify {
+	ForwardType forward_type = 12;
+	EvtBeingHitInfo being_hit_info = 14;
+}

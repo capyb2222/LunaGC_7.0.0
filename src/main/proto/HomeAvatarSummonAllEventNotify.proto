@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HomeAvatarSummonAllEventNotifyOuterClass";
+
+import "HomeAvatarSummonEventInfo.proto";
+
+message HomeAvatarSummonAllEventNotify {
+	repeated HomeAvatarSummonEventInfo summon_event_list = 8;
+}

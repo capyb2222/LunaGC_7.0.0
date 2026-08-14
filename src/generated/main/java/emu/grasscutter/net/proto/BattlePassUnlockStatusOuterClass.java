@@ -145,8 +145,9 @@ public final class BattlePassUnlockStatusOuterClass {
       "TUS_BATTLE_PASS_UNLOCK_INVALID\020\000\0222\n.Batt" +
       "lePassUnlockSTATUS_BATTLE_PASS_UNLOCK_FR" +
       "EE\020\001\0222\n.BattlePassUnlockSTATUS_BATTLE_PA" +
-      "SS_UNLOCK_PAID\020\002B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "SS_UNLOCK_PAID\020\002B=\n\031emu.grasscutter.net." +
+      "protoB BattlePassUnlockStatusOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

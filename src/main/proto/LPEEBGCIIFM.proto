@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "LPEEBGCIIFMOuterClass";
+
+import "OELBHFBBGCD.proto";
+
+message LPEEBGCIIFM {
+	string MPGBICGMCDG = 1;
+	repeated OELBHFBBGCD FCPKHKOHIEG = 2;
+	int32 LDLKNBIMPNL = 3;
+}

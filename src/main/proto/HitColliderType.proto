@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HitColliderTypeOuterClass";
+
+enum HitColliderType {
+	HitColliderType_HIT_COLLIDER_INVALID = 0;
+	HitColliderType_HIT_COLLIDER_HIT_BOX = 1;
+	HitColliderType_HIT_COLLIDER_WET_HIT_BOX = 2;
+	HitColliderType_HIT_COLLIDER_HEAD_BOX = 3;
+}

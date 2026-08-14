@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PJJFGODDFMEOuterClass";
+
+message PJJFGODDFME {
+	uint32 max_score = 5;
+	bool is_finished = 6;
+	bool is_open = 8;
+	uint32 level_id = 10;
+}

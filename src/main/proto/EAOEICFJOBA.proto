@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EAOEICFJOBAOuterClass";
+
+import "Uint32Pair.proto";
+
+message EAOEICFJOBA {
+	bool KEHLBIHCOBB = 1;
+	repeated Uint32Pair BGKNOBGMOIP = 11;
+	uint32 finish_time = 13;
+}

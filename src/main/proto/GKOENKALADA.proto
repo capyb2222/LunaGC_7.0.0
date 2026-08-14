@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GKOENKALADAOuterClass";
+
+import "_ActionPointsNoCostInfo.proto";
+import "_RevenueBonusInfo.proto";
+
+message GKOENKALADA {
+	oneof detail {
+		_ActionPointsNoCostInfo action_points_no_cost_info = 631;
+		_RevenueBonusInfo revenue_bonus_info = 1492;
+	}
+	bool HFFJGFBKIFL = 7;
+	uint32 buff_id = 11;
+}

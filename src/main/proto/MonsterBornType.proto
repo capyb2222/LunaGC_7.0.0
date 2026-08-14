@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MonsterBornTypeOuterClass";
+
+enum MonsterBornType {
+	MonsterBornType_MONSTER_BORN_NONE = 0;
+	MonsterBornType_MONSTER_BORN_DEFAULT = 1;
+	MonsterBornType_MONSTER_BORN_RANDOM = 2;
+}

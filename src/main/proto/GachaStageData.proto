@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GachaStageDataOuterClass";
+
+message GachaStageData {
+	uint32 stage_id = 6;
+	bool is_open = 12;
+	map<uint32, uint32> target_num_map = 13;
+}

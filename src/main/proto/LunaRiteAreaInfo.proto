@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "LunaRiteAreaInfoOuterClass";
+
+import "LunaRiteHintStatusType.proto";
+
+message LunaRiteAreaInfo {
+	LunaRiteHintStatusType hint_status = 7;
+	repeated uint32 sacrifice_list = 8;
+	uint32 area_id = 12;
+	repeated uint32 sacrifice_reward_list = 13;
+	uint32 challenge_index = 14;
+}

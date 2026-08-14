@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ScenePointUnlockNotifyOuterClass";
+
+message ScenePointUnlockNotify {
+	repeated uint32 unhide_point_list = 2;
+	repeated uint32 locked_point_list = 4;
+	repeated uint32 point_list = 5;
+	repeated uint32 hide_point_list = 8;
+	uint32 scene_id = 9;
+}

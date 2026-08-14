@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PBBCDKFGPFFOuterClass";
+
+message PBBCDKFGPFF {
+	bool is_succ = 8;
+	uint32 best_score = 9;
+	uint32 level_id = 12;
+	bool is_finish = 14;
+	bool is_open = 15;
+}

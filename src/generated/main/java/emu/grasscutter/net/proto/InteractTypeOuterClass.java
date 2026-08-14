@@ -283,7 +283,8 @@ public final class InteractTypeOuterClass {
       "\022&\n\"InteractType_INTERACT_QUEST_GADGET\020\016" +
       "\022%\n!InteractType_INTERACT_UI_INTERACT\020\017\022" +
       ")\n%InteractType_INTERACT_DESHRET_OBELISK" +
-      "\020\020B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\020\020B3\n\031emu.grasscutter.net.protoB\026Interac" +
+      "tTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

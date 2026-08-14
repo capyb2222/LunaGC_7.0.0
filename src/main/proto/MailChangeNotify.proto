@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MailChangeNotifyOuterClass";
+
+import "MailData.proto";
+
+message MailChangeNotify {
+	repeated MailData mail_list = 5;
+	repeated uint32 del_mail_id_list = 9;
+	repeated MailData _change_mail_list = 15;
+}

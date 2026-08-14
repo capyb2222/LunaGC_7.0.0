@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ChangeMpTeamAvatarReqOuterClass";
+
+message ChangeMpTeamAvatarReq {
+	uint64 cur_avatar_guid = 4;
+	repeated uint64 avatar_guid_list = 14;
+}

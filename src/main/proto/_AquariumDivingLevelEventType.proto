@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_AquariumDivingLevelEventTypeOuterClass";
+
+enum _AquariumDivingLevelEventType {
+	AQUARIUM_DIVING_LEVEL_EVENT_NONE = 0;
+	AQUARIUM_DIVING_LEVEL_EVENT_TOTAL_FISH_REVENUE_UP = 1;
+	AQUARIUM_DIVING_LEVEL_EVENT_LEVEL_DROP_UP = 2;
+	AQUARIUM_DIVING_LEVEL_EVENT_RANDOM_FISH_REVENUE_UP = 3;
+	AQUARIUM_DIVING_LEVEL_EVENT_SPECIAL_EVENT_OPEN = 4;
+	AQUARIUM_DIVING_LEVEL_EVENT_CHEST_EXTRA_FISH_FRY = 6;
+}

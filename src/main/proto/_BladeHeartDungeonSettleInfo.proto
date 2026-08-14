@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_BladeHeartDungeonSettleInfoOuterClass";
+
+import "GalleryStopReason.proto";
+
+message _BladeHeartDungeonSettleInfo {
+	bool is_perfect = 6;
+	GalleryStopReason reason = 7;
+	uint32 use_time = 8;
+	uint32 level_id = 12;
+	bool is_new_record = 15;
+}

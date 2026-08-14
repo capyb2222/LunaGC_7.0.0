@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "JJKBEPPIFIEOuterClass";
+
+import "HDHLLCCCLJM.proto";
+import "JPLNCOKGBBG.proto";
+import "PPOBOBDKPHI.proto";
+
+message JJKBEPPIFIE {
+	repeated JPLNCOKGBBG ABPMPKBOINH = 2;
+	uint32 EBMOODIKLDM = 6;
+	bool KOMPLLJLEOL = 7;
+	uint32 DEADDOKKEHM = 8;
+	uint32 FIDIFABIGBH = 10;
+	PPOBOBDKPHI OFCFHPFDGLD = 11;
+	uint64 JLAMEIEBIHO = 12;
+	repeated HDHLLCCCLJM NFNDONBDLJA = 13;
+	repeated HDHLLCCCLJM OPMOMHOOMAA = 14;
+	uint32 NNPHIFOPPKO = 15;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MovingPlatformTypeOuterClass";
+
+enum MovingPlatformType {
+	MovingPlatformType_MOVING_PLATFORM_NONE = 0;
+	MovingPlatformType_MOVING_PLATFORM_USE_CONFIG = 1;
+	MovingPlatformType_MOVING_PLATFORM_ABILITY = 2;
+	MovingPlatformType_MOVING_PLATFORM_ROUTE = 3;
+}

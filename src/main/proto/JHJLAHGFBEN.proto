@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "JHJLAHGFBENOuterClass";
+
+import "KFFBNCLNHOA.proto";
+
+message JHJLAHGFBEN {
+	repeated KFFBNCLNHOA AAOIJKNFGGE = 3;
+}

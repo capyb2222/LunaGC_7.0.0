@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_GCGPveInfiniteDetailInfoOuterClass";
+
+message _GCGPveInfiniteDetailInfo {
+	map<uint32, uint32> ELGGPGHLKIH = 2;
+	bool LFAFBLMLCKG = 6;
+}

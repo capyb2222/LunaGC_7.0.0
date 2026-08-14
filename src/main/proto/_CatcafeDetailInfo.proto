@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_CatcafeDetailInfoOuterClass";
+
+import "HKGHMIFOALH.proto";
+import "PIPGMGPIKIP.proto";
+
+message _CatcafeDetailInfo {
+	repeated PIPGMGPIKIP EBPDFPJCIGE = 11;
+	repeated HKGHMIFOALH FIOPDPIHANO = 13;
+}

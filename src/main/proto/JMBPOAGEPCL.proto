@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "JMBPOAGEPCLOuterClass";
+
+import "DEGDFAOEICK.proto";
+
+message JMBPOAGEPCL {
+	DEGDFAOEICK KKFBGJGDAJI = 1;
+	uint32 COHNFJIALLJ = 2;
+}

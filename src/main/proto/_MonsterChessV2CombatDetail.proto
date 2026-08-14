@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_MonsterChessV2CombatDetailOuterClass";
+
+message _MonsterChessV2CombatDetail {
+	uint32 NOMLLIOOACN = 1;
+	uint32 HOBDHKJKLEG = 2;
+	bool _is_infinite = 3;
+	uint32 BMOMAEIJNKG = 8;
+	uint32 DBMMFDFAHHL = 9;
+	uint32 _cur_round_num = 14;
+	uint32 MBCDJGNPNIL = 15;
+}

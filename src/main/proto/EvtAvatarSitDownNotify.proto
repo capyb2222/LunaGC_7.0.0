@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EvtAvatarSitDownNotifyOuterClass";
+
+import "Vector.proto";
+
+message EvtAvatarSitDownNotify {
+	uint64 chair_id = 2;
+	int32 direction = 8;
+	Vector position = 9;
+	uint32 entity_id = 15;
+}

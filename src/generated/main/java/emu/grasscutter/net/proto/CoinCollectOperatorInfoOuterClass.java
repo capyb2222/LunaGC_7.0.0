@@ -18,6 +18,10 @@ public final class CoinCollectOperatorInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:CoinCollectOperatorInfo)
       com.google.protobuf.MessageOrBuilder {
 
+    /**
+     * <code>uint32 level_id = 1;</code>
+     * @return The levelId.
+     */
     int getLevelId();
   }
   /**
@@ -104,7 +108,10 @@ public final class CoinCollectOperatorInfoOuterClass {
 
     public static final int LEVEL_ID_FIELD_NUMBER = 1;
     private int levelId_;
-
+    /**
+     * <code>uint32 level_id = 1;</code>
+     * @return The levelId.
+     */
     @java.lang.Override
     public int getLevelId() {
       return levelId_;
@@ -413,21 +420,31 @@ public final class CoinCollectOperatorInfoOuterClass {
       }
 
       private int levelId_ ;
-
+      /**
+       * <code>uint32 level_id = 1;</code>
+       * @return The levelId.
+       */
       @java.lang.Override
       public int getLevelId() {
         return levelId_;
       }
-
+      /**
+       * <code>uint32 level_id = 1;</code>
+       * @param value The levelId to set.
+       * @return This builder for chaining.
+       */
       public Builder setLevelId(int value) {
-
+        
         levelId_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint32 level_id = 1;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearLevelId() {
-
+        
         levelId_ = 0;
         onChanged();
         return this;
@@ -443,6 +460,7 @@ public final class CoinCollectOperatorInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:CoinCollectOperatorInfo)
     }
@@ -486,7 +504,7 @@ public final class CoinCollectOperatorInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CoinCollectOperatorInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CoinCollectOperatorInfo_fieldAccessorTable;
 
@@ -499,8 +517,9 @@ public final class CoinCollectOperatorInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\035CoinCollectOperatorInfo.proto\"+\n\027CoinC" +
-      "ollectOperatorInfo\022\020\n\010level_id\030\001 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "ollectOperatorInfo\022\020\n\010level_id\030\001 \001(\rB>\n\031" +
+      "emu.grasscutter.net.protoB!CoinCollectOp" +
+      "eratorInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

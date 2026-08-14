@@ -18,17 +18,24 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
       // @@protoc_insertion_point(interface_extends:QueryCodexMonsterBeKilledNumReq)
       com.google.protobuf.MessageOrBuilder {
 
+    /**
+     * <code>repeated uint32 codex_id_list = 1;</code>
+     * @return A list containing the codexIdList.
+     */
     java.util.List<java.lang.Integer> getCodexIdListList();
-
+    /**
+     * <code>repeated uint32 codex_id_list = 1;</code>
+     * @return The count of codexIdList.
+     */
     int getCodexIdListCount();
-
+    /**
+     * <code>repeated uint32 codex_id_list = 1;</code>
+     * @param index The index of the element to return.
+     * @return The codexIdList at the given index.
+     */
     int getCodexIdList(int index);
   }
   /**
-   * <pre>
-   * CmdId: 21802
-   * </pre>
-   *
    * Protobuf type {@code QueryCodexMonsterBeKilledNumReq}
    */
   public static final class QueryCodexMonsterBeKilledNumReq extends
@@ -75,7 +82,7 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
             case 0:
               done = true;
               break;
-            case 88: {
+            case 8: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 codexIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -83,7 +90,7 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
               codexIdList_.addInt(input.readUInt32());
               break;
             }
-            case 90: {
+            case 10: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -131,19 +138,29 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
               emu.grasscutter.net.proto.QueryCodexMonsterBeKilledNumReqOuterClass.QueryCodexMonsterBeKilledNumReq.class, emu.grasscutter.net.proto.QueryCodexMonsterBeKilledNumReqOuterClass.QueryCodexMonsterBeKilledNumReq.Builder.class);
     }
 
-    public static final int CODEX_ID_LIST_FIELD_NUMBER = 11;
+    public static final int CODEX_ID_LIST_FIELD_NUMBER = 1;
     private com.google.protobuf.Internal.IntList codexIdList_;
-
+    /**
+     * <code>repeated uint32 codex_id_list = 1;</code>
+     * @return A list containing the codexIdList.
+     */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getCodexIdListList() {
       return codexIdList_;
     }
-
+    /**
+     * <code>repeated uint32 codex_id_list = 1;</code>
+     * @return The count of codexIdList.
+     */
     public int getCodexIdListCount() {
       return codexIdList_.size();
     }
-
+    /**
+     * <code>repeated uint32 codex_id_list = 1;</code>
+     * @param index The index of the element to return.
+     * @return The codexIdList at the given index.
+     */
     public int getCodexIdList(int index) {
       return codexIdList_.getInt(index);
     }
@@ -165,7 +182,7 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getCodexIdListList().size() > 0) {
-        output.writeUInt32NoTag(90);
+        output.writeUInt32NoTag(10);
         output.writeUInt32NoTag(codexIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < codexIdList_.size(); i++) {
@@ -322,10 +339,6 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 21802
-     * </pre>
-     *
      * Protobuf type {@code QueryCodexMonsterBeKilledNumReq}
      */
     public static final class Builder extends
@@ -492,21 +505,36 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
-
+      /**
+       * <code>repeated uint32 codex_id_list = 1;</code>
+       * @return A list containing the codexIdList.
+       */
       public java.util.List<java.lang.Integer>
           getCodexIdListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(codexIdList_) : codexIdList_;
       }
-
+      /**
+       * <code>repeated uint32 codex_id_list = 1;</code>
+       * @return The count of codexIdList.
+       */
       public int getCodexIdListCount() {
         return codexIdList_.size();
       }
-
+      /**
+       * <code>repeated uint32 codex_id_list = 1;</code>
+       * @param index The index of the element to return.
+       * @return The codexIdList at the given index.
+       */
       public int getCodexIdList(int index) {
         return codexIdList_.getInt(index);
       }
-
+      /**
+       * <code>repeated uint32 codex_id_list = 1;</code>
+       * @param index The index to set the value at.
+       * @param value The codexIdList to set.
+       * @return This builder for chaining.
+       */
       public Builder setCodexIdList(
           int index, int value) {
         ensureCodexIdListIsMutable();
@@ -514,14 +542,22 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
         onChanged();
         return this;
       }
-
+      /**
+       * <code>repeated uint32 codex_id_list = 1;</code>
+       * @param value The codexIdList to add.
+       * @return This builder for chaining.
+       */
       public Builder addCodexIdList(int value) {
         ensureCodexIdListIsMutable();
         codexIdList_.addInt(value);
         onChanged();
         return this;
       }
-
+      /**
+       * <code>repeated uint32 codex_id_list = 1;</code>
+       * @param values The codexIdList to add.
+       * @return This builder for chaining.
+       */
       public Builder addAllCodexIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureCodexIdListIsMutable();
@@ -530,7 +566,10 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
         onChanged();
         return this;
       }
-
+      /**
+       * <code>repeated uint32 codex_id_list = 1;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearCodexIdList() {
         codexIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -548,6 +587,7 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:QueryCodexMonsterBeKilledNumReq)
     }
@@ -591,7 +631,7 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_QueryCodexMonsterBeKilledNumReq_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_QueryCodexMonsterBeKilledNumReq_fieldAccessorTable;
 
@@ -605,8 +645,9 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n%QueryCodexMonsterBeKilledNumReq.proto\"" +
       "8\n\037QueryCodexMonsterBeKilledNumReq\022\025\n\rco" +
-      "dex_id_list\030\017 \003(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "dex_id_list\030\001 \003(\rBF\n\031emu.grasscutter.net" +
+      ".protoB)QueryCodexMonsterBeKilledNumReqO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

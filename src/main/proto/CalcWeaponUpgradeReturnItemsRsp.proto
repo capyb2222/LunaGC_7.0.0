@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CalcWeaponUpgradeReturnItemsRspOuterClass";
+
+import "ItemParam.proto";
+
+message CalcWeaponUpgradeReturnItemsRsp {
+	uint64 target_weapon_guid = 1;
+	repeated ItemParam item_param_list = 12;
+	int32 retcode = 14;
+}

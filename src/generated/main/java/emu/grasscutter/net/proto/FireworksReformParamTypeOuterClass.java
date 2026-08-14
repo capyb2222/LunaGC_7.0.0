@@ -15,10 +15,6 @@ public final class FireworksReformParamTypeOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   /**
-   * <pre>
-   * Obf: FPEFLILOLGL
-   * </pre>
-   *
    * Protobuf enum {@code FireworksReformParamType}
    */
   public enum FireworksReformParamType
@@ -177,8 +173,9 @@ public final class FireworksReformParamTypeOuterClass {
       "_COLOR\020\001\022!\n\035FIREWORKS_REFORM_PARAM_HEIGH" +
       "T\020\002\022\037\n\033FIREWORKS_REFORM_PARAM_SIZE\020\003\022\"\n\036" +
       "FIREWORKS_REFORM_PARAM_DENSITY\020\004\022#\n\037FIRE" +
-      "WORKS_REFORM_PARAM_ROTATION\020\005B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "WORKS_REFORM_PARAM_ROTATION\020\005B?\n\031emu.gra" +
+      "sscutter.net.protoB\"FireworksReformParam" +
+      "TypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

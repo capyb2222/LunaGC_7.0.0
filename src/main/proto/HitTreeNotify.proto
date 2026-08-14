@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HitTreeNotifyOuterClass";
+
+import "Vector.proto";
+
+message HitTreeNotify {
+	uint32 tree_type = 1;
+	Vector tree_pos = 2;
+	Vector drop_pos = 12;
+}

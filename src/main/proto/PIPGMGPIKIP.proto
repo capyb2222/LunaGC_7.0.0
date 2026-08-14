@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PIPGMGPIKIPOuterClass";
+
+message PIPGMGPIKIP {
+	enum IEBKFMGNBOP {
+		IEBKFMGNBOP_STRANGE = 0;
+		IEBKFMGNBOP_FAMILIAR = 1;
+		IEBKFMGNBOP_HONEY = 2;
+	}
+	uint32 MOALINDDJKJ = 5;
+	uint32 stage = 9;
+}

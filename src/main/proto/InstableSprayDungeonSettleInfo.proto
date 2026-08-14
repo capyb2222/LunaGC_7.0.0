@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "InstableSprayDungeonSettleInfoOuterClass";
+
+message InstableSprayDungeonSettleInfo {
+	uint32 difficulty = 2;
+	uint32 round = 5;
+	uint32 stage_id = 9;
+	repeated uint32 score_list = 11;
+	uint32 level_id = 14;
+	bool is_new_record = 15;
+}

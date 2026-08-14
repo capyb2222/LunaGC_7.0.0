@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ILHCGIIMHBMOuterClass";
+
+import "GINPDLOONGJ.proto";
+
+message ILHCGIIMHBM {
+	repeated GINPDLOONGJ level_info_list = 3;
+}

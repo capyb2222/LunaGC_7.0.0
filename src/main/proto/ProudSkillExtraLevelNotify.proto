@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ProudSkillExtraLevelNotifyOuterClass";
+
+message ProudSkillExtraLevelNotify {
+	uint32 extra_level = 1;
+	uint32 talent_index = 2;
+	uint64 avatar_guid = 10;
+	uint32 talent_type = 11;
+}

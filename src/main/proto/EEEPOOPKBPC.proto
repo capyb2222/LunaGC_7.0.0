@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EEEPOOPKBPCOuterClass";
+
+import "JNMJNFCENKB.proto";
+import "MGJIPEKJMGF.proto";
+
+message EEEPOOPKBPC {
+	uint32 IBCIIPLFBHB = 3;
+	MGJIPEKJMGF IMKAGHMOFBL = 5;
+	repeated JNMJNFCENKB GEFJPILJCMC = 9;
+	uint32 GPAGAPLCNON = 10;
+	uint32 FEKGLGPBOAC = 11;
+	repeated JNMJNFCENKB CJPOCMKBMEI = 13;
+	uint32 LICONHNCIPB = 14;
+	uint32 LDIIGMAACGI = 15;
+}

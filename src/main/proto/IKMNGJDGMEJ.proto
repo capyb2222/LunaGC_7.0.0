@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "IKMNGJDGMEJOuterClass";
+
+enum IKMNGJDGMEJ {
+	IKMNGJDGMEJ_NONE = 0;
+	IKMNGJDGMEJ_FINISH = 1;
+	IKMNGJDGMEJ_PRE_START = 2;
+	IKMNGJDGMEJ_START = 3;
+}

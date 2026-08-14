@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_ClientPlayDetailInfoOuterClass";
+
+import "BubbleDramaPhotoLevelInfo.proto";
+import "_AutochessLevelInfo.proto";
+import "_BladeHeartLevelInfo.proto";
+import "_DiversityBattleLevelInfo.proto";
+import "_DoppelgangerPuzzleLevelInfo.proto";
+import "_DreamSwitchingLevelInfo.proto";
+import "_HolidayResortAdventureLevelInfo.proto";
+import "_HolidayResortBattleLevelInfo.proto";
+import "_HolidayResortGraffitiLevelInfo.proto";
+import "_HolidayResortSniperLevelInfo.proto";
+import "_InazumaBadmintonLevelInfo.proto";
+import "_LoliJumpLevelInfo.proto";
+import "_MapMarkLevelInfo.proto";
+import "_NatlanDrillBattleLevelInfo.proto";
+import "_OneShotLevelInfo.proto";
+import "_PartyLevelInfo.proto";
+import "_RankedMatchTrainLevelInfo.proto";
+import "_SumeruAdventureGoalFightingLevelInfo.proto";
+import "_TowerDefenseLevelInfo.proto";
+
+message _ClientPlayDetailInfo {
+	oneof detail {
+		_RankedMatchTrainLevelInfo ranked_match_train_level_info = 3228;
+		_AutochessLevelInfo autochess_level_info = 4424;
+		_HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 4862;
+		_TowerDefenseLevelInfo tower_defense_level_info = 6393;
+		_MapMarkLevelInfo map_mark_level_info = 7133;
+		_NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 7860;
+		_LoliJumpLevelInfo loli_jump_level_info = 8493;
+		_BladeHeartLevelInfo blade_heart_level_info = 10385;
+		_HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 10504;
+		_HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 13156;
+		_HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 13427;
+		_DiversityBattleLevelInfo diversity_battle_level_info = 13523;
+		_InazumaBadmintonLevelInfo inazuma_badminton_level_info = 15324;
+		_PartyLevelInfo party_level_info = 15619;
+		_OneShotLevelInfo one_shot_level_info = 16358;
+		_DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 16864;
+		BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;
+		_DreamSwitchingLevelInfo dream_switching_level_info = 17851;
+		_SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18549;
+	}
+}

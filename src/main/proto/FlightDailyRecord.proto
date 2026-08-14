@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FlightDailyRecordOuterClass";
+
+message FlightDailyRecord {
+	uint32 start_time = 9;
+	uint32 group_id = 10;
+	repeated uint32 watcher_id_list = 12;
+	uint32 best_score = 14;
+	bool is_touched = 15;
+}

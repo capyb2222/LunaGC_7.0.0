@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PlayerLocationInfoOuterClass";
+
+import "Vector.proto";
+
+message PlayerLocationInfo {
+	Vector pos = 4;
+	Vector rot = 9;
+	uint32 uid = 11;
+	repeated uint32 pflkbeajnij = 13;
+}

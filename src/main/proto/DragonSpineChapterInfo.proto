@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DragonSpineChapterInfoOuterClass";
+
+message DragonSpineChapterInfo {
+	bool is_open = 1;
+	uint32 finished_mission_num = 2;
+	uint32 progress = 5;
+	uint32 open_time = 7;
+	uint32 chapter_id = 15;
+}

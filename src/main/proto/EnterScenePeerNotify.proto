@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EnterScenePeerNotifyOuterClass";
+
+message EnterScenePeerNotify {
+	uint32 peer_id = 10;
+	uint32 dest_scene_id = 11;
+	uint32 enter_scene_token = 12;
+	uint32 host_peer_id = 15;
+}

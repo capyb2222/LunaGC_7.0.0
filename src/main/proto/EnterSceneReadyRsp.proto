@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EnterSceneReadyRspOuterClass";
+
+message EnterSceneReadyRsp {
+	uint32 enter_scene_token = 4;
+	int32 retcode = 15;
+}

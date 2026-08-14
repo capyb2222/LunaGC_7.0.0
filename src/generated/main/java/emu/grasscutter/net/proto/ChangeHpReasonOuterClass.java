@@ -124,6 +124,14 @@ public final class ChangeHpReasonOuterClass {
      */
     ChangeHpReason_CHANGE_HP_SUB_LEVEL_FORCE_DIE(25),
     /**
+     * <code>CHANGE_HP_SUB_HEART_BLOOD_USED_OUT = 26;</code>
+     */
+    CHANGE_HP_SUB_HEART_BLOOD_USED_OUT(26),
+    /**
+     * <code>CHANGE_HP_SUB_BEYOND_BL_UEPRINT = 27;</code>
+     */
+    CHANGE_HP_SUB_BEYOND_BL_UEPRINT(27),
+    /**
      * <code>ChangeHpReason_CHANGE_HP_BY_LUA = 51;</code>
      */
     ChangeHpReason_CHANGE_HP_BY_LUA(51),
@@ -164,9 +172,13 @@ public final class ChangeHpReasonOuterClass {
      */
     ChangeHpReason_CHANGE_HP_ADD_ROUGUELIKE_SPRING(109),
     /**
-     * <code>ChangeHpReason_CHANGE_HP_ADD_EFFIGY_CHALLENGE_V_5 = 110;</code>
+     * <code>CHANGE_HP_ADD_EFFIGY_CHALLENGE_V5 = 110;</code>
      */
-    ChangeHpReason_CHANGE_HP_ADD_EFFIGY_CHALLENGE_V_5(110),
+    CHANGE_HP_ADD_EFFIGY_CHALLENGE_V5(110),
+    /**
+     * <code>CHANGE_HP_ADD_BEYOND_BLUEPRINT = 111;</code>
+     */
+    CHANGE_HP_ADD_BEYOND_BLUEPRINT(111),
     UNRECOGNIZED(-1),
     ;
 
@@ -275,6 +287,14 @@ public final class ChangeHpReasonOuterClass {
      */
     public static final int ChangeHpReason_CHANGE_HP_SUB_LEVEL_FORCE_DIE_VALUE = 25;
     /**
+     * <code>CHANGE_HP_SUB_HEART_BLOOD_USED_OUT = 26;</code>
+     */
+    public static final int CHANGE_HP_SUB_HEART_BLOOD_USED_OUT_VALUE = 26;
+    /**
+     * <code>CHANGE_HP_SUB_BEYOND_BL_UEPRINT = 27;</code>
+     */
+    public static final int CHANGE_HP_SUB_BEYOND_BL_UEPRINT_VALUE = 27;
+    /**
      * <code>ChangeHpReason_CHANGE_HP_BY_LUA = 51;</code>
      */
     public static final int ChangeHpReason_CHANGE_HP_BY_LUA_VALUE = 51;
@@ -315,9 +335,13 @@ public final class ChangeHpReasonOuterClass {
      */
     public static final int ChangeHpReason_CHANGE_HP_ADD_ROUGUELIKE_SPRING_VALUE = 109;
     /**
-     * <code>ChangeHpReason_CHANGE_HP_ADD_EFFIGY_CHALLENGE_V_5 = 110;</code>
+     * <code>CHANGE_HP_ADD_EFFIGY_CHALLENGE_V5 = 110;</code>
      */
-    public static final int ChangeHpReason_CHANGE_HP_ADD_EFFIGY_CHALLENGE_V_5_VALUE = 110;
+    public static final int CHANGE_HP_ADD_EFFIGY_CHALLENGE_V5_VALUE = 110;
+    /**
+     * <code>CHANGE_HP_ADD_BEYOND_BLUEPRINT = 111;</code>
+     */
+    public static final int CHANGE_HP_ADD_BEYOND_BLUEPRINT_VALUE = 111;
 
 
     public final int getNumber() {
@@ -370,6 +394,8 @@ public final class ChangeHpReasonOuterClass {
         case 23: return ChangeHpReason_CHANGE_HP_SUB_DESTROY_SELF;
         case 24: return ChangeHpReason_CHANGE_HP_SUB_LIQUID_PHLOGISTON;
         case 25: return ChangeHpReason_CHANGE_HP_SUB_LEVEL_FORCE_DIE;
+        case 26: return CHANGE_HP_SUB_HEART_BLOOD_USED_OUT;
+        case 27: return CHANGE_HP_SUB_BEYOND_BL_UEPRINT;
         case 51: return ChangeHpReason_CHANGE_HP_BY_LUA;
         case 101: return ChangeHpReason_CHANGE_HP_ADD_ABILITY;
         case 102: return ChangeHpReason_CHANGE_HP_ADD_ITEM;
@@ -380,7 +406,8 @@ public final class ChangeHpReasonOuterClass {
         case 107: return ChangeHpReason_CHANGE_HP_ADD_GM;
         case 108: return ChangeHpReason_CHANGE_HP_ADD_TRIAL_AVATAR_ACTIVITY;
         case 109: return ChangeHpReason_CHANGE_HP_ADD_ROUGUELIKE_SPRING;
-        case 110: return ChangeHpReason_CHANGE_HP_ADD_EFFIGY_CHALLENGE_V_5;
+        case 110: return CHANGE_HP_ADD_EFFIGY_CHALLENGE_V5;
+        case 111: return CHANGE_HP_ADD_BEYOND_BLUEPRINT;
         default: return null;
       }
     }
@@ -446,7 +473,7 @@ public final class ChangeHpReasonOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\024ChangeHpReason.proto*\355\014\n\016ChangeHpReaso" +
+      "\n\024ChangeHpReason.proto*\316\r\n\016ChangeHpReaso" +
       "n\022!\n\035ChangeHpReason_CHANGE_HP_NONE\020\000\022\'\n#" +
       "ChangeHpReason_CHANGE_HP_SUB_AVATAR\020\001\022(\n" +
       "$ChangeHpReason_CHANGE_HP_SUB_MONSTER\020\002\022" +
@@ -475,20 +502,23 @@ public final class ChangeHpReasonOuterClass {
       "angeHpReason_CHANGE_HP_SUB_DESTROY_SELF\020" +
       "\027\0222\n.ChangeHpReason_CHANGE_HP_SUB_LIQUID" +
       "_PHLOGISTON\020\030\0220\n,ChangeHpReason_CHANGE_H" +
-      "P_SUB_LEVEL_FORCE_DIE\020\031\022#\n\037ChangeHpReaso" +
-      "n_CHANGE_HP_BY_LUA\0203\022(\n$ChangeHpReason_C" +
-      "HANGE_HP_ADD_ABILITY\020e\022%\n!ChangeHpReason" +
-      "_CHANGE_HP_ADD_ITEM\020f\022\'\n#ChangeHpReason_" +
-      "CHANGE_HP_ADD_REVIVE\020g\022(\n$ChangeHpReason" +
-      "_CHANGE_HP_ADD_UPGRADE\020h\022\'\n#ChangeHpReas" +
-      "on_CHANGE_HP_ADD_STATUE\020i\022+\n\'ChangeHpRea" +
-      "son_CHANGE_HP_ADD_BACKGROUND\020j\022#\n\037Change" +
-      "HpReason_CHANGE_HP_ADD_GM\020k\0226\n2ChangeHpR" +
-      "eason_CHANGE_HP_ADD_TRIAL_AVATAR_ACTIVIT" +
-      "Y\020l\0222\n.ChangeHpReason_CHANGE_HP_ADD_ROUG" +
-      "UELIKE_SPRING\020m\0225\n1ChangeHpReason_CHANGE" +
-      "_HP_ADD_EFFIGY_CHALLENGE_V_5\020nB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "P_SUB_LEVEL_FORCE_DIE\020\031\022&\n\"CHANGE_HP_SUB" +
+      "_HEART_BLOOD_USED_OUT\020\032\022#\n\037CHANGE_HP_SUB" +
+      "_BEYOND_BL_UEPRINT\020\033\022#\n\037ChangeHpReason_C" +
+      "HANGE_HP_BY_LUA\0203\022(\n$ChangeHpReason_CHAN" +
+      "GE_HP_ADD_ABILITY\020e\022%\n!ChangeHpReason_CH" +
+      "ANGE_HP_ADD_ITEM\020f\022\'\n#ChangeHpReason_CHA" +
+      "NGE_HP_ADD_REVIVE\020g\022(\n$ChangeHpReason_CH" +
+      "ANGE_HP_ADD_UPGRADE\020h\022\'\n#ChangeHpReason_" +
+      "CHANGE_HP_ADD_STATUE\020i\022+\n\'ChangeHpReason" +
+      "_CHANGE_HP_ADD_BACKGROUND\020j\022#\n\037ChangeHpR" +
+      "eason_CHANGE_HP_ADD_GM\020k\0226\n2ChangeHpReas" +
+      "on_CHANGE_HP_ADD_TRIAL_AVATAR_ACTIVITY\020l" +
+      "\0222\n.ChangeHpReason_CHANGE_HP_ADD_ROUGUEL" +
+      "IKE_SPRING\020m\022%\n!CHANGE_HP_ADD_EFFIGY_CHA" +
+      "LLENGE_V5\020n\022\"\n\036CHANGE_HP_ADD_BEYOND_BLUE" +
+      "PRINT\020oB5\n\031emu.grasscutter.net.protoB\030Ch" +
+      "angeHpReasonOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

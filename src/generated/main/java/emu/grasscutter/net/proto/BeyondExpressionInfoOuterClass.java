@@ -19,31 +19,23 @@ public final class BeyondExpressionInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <pre>
-     *6.4.0 //6.5.0
-     * </pre>
-     *
      * <code>uint32 index = 1;</code>
      * @return The index.
      */
     int getIndex();
 
     /**
-     * <code>.BeyondExpressionInfo.ExpressionType expression_type = 2;</code>
+     * <code>.BeyondExpressionInfo.LPGEIAEOHPI expression_type = 2;</code>
      * @return The enum numeric value on the wire for expressionType.
      */
     int getExpressionTypeValue();
     /**
-     * <code>.BeyondExpressionInfo.ExpressionType expression_type = 2;</code>
+     * <code>.BeyondExpressionInfo.LPGEIAEOHPI expression_type = 2;</code>
      * @return The expressionType.
      */
-    emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.ExpressionType getExpressionType();
+    emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.LPGEIAEOHPI getExpressionType();
 
     /**
-     * <pre>
-     *6.4.0 //6.5.0
-     * </pre>
-     *
      * <code>uint32 id = 3;</code>
      * @return The id.
      */
@@ -144,53 +136,53 @@ public final class BeyondExpressionInfoOuterClass {
     }
 
     /**
-     * Protobuf enum {@code BeyondExpressionInfo.ExpressionType}
+     * Protobuf enum {@code BeyondExpressionInfo.LPGEIAEOHPI}
      */
-    public enum ExpressionType
+    public enum LPGEIAEOHPI
         implements com.google.protobuf.ProtocolMessageEnum {
       /**
-       * <code>EXPRESSION_TYPE_NONE = 0;</code>
+       * <code>LPGEIAEOHPI_NONE = 0;</code>
        */
-      EXPRESSION_TYPE_NONE(0),
+      LPGEIAEOHPI_NONE(0),
       /**
-       * <code>EXPRESSION_TYPE_EMOJI = 1;</code>
+       * <code>LPGEIAEOHPI_EMOJI = 1;</code>
        */
-      EXPRESSION_TYPE_EMOJI(1),
+      LPGEIAEOHPI_EMOJI(1),
       /**
-       * <code>EXPRESSION_TYPE_POSE = 2;</code>
+       * <code>LPGEIAEOHPI_POSE = 2;</code>
        */
-      EXPRESSION_TYPE_POSE(2),
+      LPGEIAEOHPI_POSE(2),
       /**
-       * <code>EXPRESSION_TYPE_SUIT_POSE = 3;</code>
+       * <code>LPGEIAEOHPI_SUIT_POSE = 3;</code>
        */
-      EXPRESSION_TYPE_SUIT_POSE(3),
+      LPGEIAEOHPI_SUIT_POSE(3),
       /**
-       * <code>EXPRESSION_TYPE_GOLDEN_POSE = 4;</code>
+       * <code>LPGEIAEOHPI_GOLDEN_POSE = 4;</code>
        */
-      EXPRESSION_TYPE_GOLDEN_POSE(4),
+      LPGEIAEOHPI_GOLDEN_POSE(4),
       UNRECOGNIZED(-1),
       ;
 
       /**
-       * <code>EXPRESSION_TYPE_NONE = 0;</code>
+       * <code>LPGEIAEOHPI_NONE = 0;</code>
        */
-      public static final int EXPRESSION_TYPE_NONE_VALUE = 0;
+      public static final int LPGEIAEOHPI_NONE_VALUE = 0;
       /**
-       * <code>EXPRESSION_TYPE_EMOJI = 1;</code>
+       * <code>LPGEIAEOHPI_EMOJI = 1;</code>
        */
-      public static final int EXPRESSION_TYPE_EMOJI_VALUE = 1;
+      public static final int LPGEIAEOHPI_EMOJI_VALUE = 1;
       /**
-       * <code>EXPRESSION_TYPE_POSE = 2;</code>
+       * <code>LPGEIAEOHPI_POSE = 2;</code>
        */
-      public static final int EXPRESSION_TYPE_POSE_VALUE = 2;
+      public static final int LPGEIAEOHPI_POSE_VALUE = 2;
       /**
-       * <code>EXPRESSION_TYPE_SUIT_POSE = 3;</code>
+       * <code>LPGEIAEOHPI_SUIT_POSE = 3;</code>
        */
-      public static final int EXPRESSION_TYPE_SUIT_POSE_VALUE = 3;
+      public static final int LPGEIAEOHPI_SUIT_POSE_VALUE = 3;
       /**
-       * <code>EXPRESSION_TYPE_GOLDEN_POSE = 4;</code>
+       * <code>LPGEIAEOHPI_GOLDEN_POSE = 4;</code>
        */
-      public static final int EXPRESSION_TYPE_GOLDEN_POSE_VALUE = 4;
+      public static final int LPGEIAEOHPI_GOLDEN_POSE_VALUE = 4;
 
 
       public final int getNumber() {
@@ -207,7 +199,7 @@ public final class BeyondExpressionInfoOuterClass {
        * @deprecated Use {@link #forNumber(int)} instead.
        */
       @java.lang.Deprecated
-      public static ExpressionType valueOf(int value) {
+      public static LPGEIAEOHPI valueOf(int value) {
         return forNumber(value);
       }
 
@@ -215,26 +207,26 @@ public final class BeyondExpressionInfoOuterClass {
        * @param value The numeric wire value of the corresponding enum entry.
        * @return The enum associated with the given numeric wire value.
        */
-      public static ExpressionType forNumber(int value) {
+      public static LPGEIAEOHPI forNumber(int value) {
         switch (value) {
-          case 0: return EXPRESSION_TYPE_NONE;
-          case 1: return EXPRESSION_TYPE_EMOJI;
-          case 2: return EXPRESSION_TYPE_POSE;
-          case 3: return EXPRESSION_TYPE_SUIT_POSE;
-          case 4: return EXPRESSION_TYPE_GOLDEN_POSE;
+          case 0: return LPGEIAEOHPI_NONE;
+          case 1: return LPGEIAEOHPI_EMOJI;
+          case 2: return LPGEIAEOHPI_POSE;
+          case 3: return LPGEIAEOHPI_SUIT_POSE;
+          case 4: return LPGEIAEOHPI_GOLDEN_POSE;
           default: return null;
         }
       }
 
-      public static com.google.protobuf.Internal.EnumLiteMap<ExpressionType>
+      public static com.google.protobuf.Internal.EnumLiteMap<LPGEIAEOHPI>
           internalGetValueMap() {
         return internalValueMap;
       }
       private static final com.google.protobuf.Internal.EnumLiteMap<
-          ExpressionType> internalValueMap =
-            new com.google.protobuf.Internal.EnumLiteMap<ExpressionType>() {
-              public ExpressionType findValueByNumber(int number) {
-                return ExpressionType.forNumber(number);
+          LPGEIAEOHPI> internalValueMap =
+            new com.google.protobuf.Internal.EnumLiteMap<LPGEIAEOHPI>() {
+              public LPGEIAEOHPI findValueByNumber(int number) {
+                return LPGEIAEOHPI.forNumber(number);
               }
             };
 
@@ -255,9 +247,9 @@ public final class BeyondExpressionInfoOuterClass {
         return emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.getDescriptor().getEnumTypes().get(0);
       }
 
-      private static final ExpressionType[] VALUES = values();
+      private static final LPGEIAEOHPI[] VALUES = values();
 
-      public static ExpressionType valueOf(
+      public static LPGEIAEOHPI valueOf(
           com.google.protobuf.Descriptors.EnumValueDescriptor desc) {
         if (desc.getType() != getDescriptor()) {
           throw new java.lang.IllegalArgumentException(
@@ -271,20 +263,16 @@ public final class BeyondExpressionInfoOuterClass {
 
       private final int value;
 
-      private ExpressionType(int value) {
+      private LPGEIAEOHPI(int value) {
         this.value = value;
       }
 
-      // @@protoc_insertion_point(enum_scope:BeyondExpressionInfo.ExpressionType)
+      // @@protoc_insertion_point(enum_scope:BeyondExpressionInfo.LPGEIAEOHPI)
     }
 
     public static final int INDEX_FIELD_NUMBER = 1;
     private int index_;
     /**
-     * <pre>
-     *6.4.0 //6.5.0
-     * </pre>
-     *
      * <code>uint32 index = 1;</code>
      * @return The index.
      */
@@ -296,29 +284,25 @@ public final class BeyondExpressionInfoOuterClass {
     public static final int EXPRESSION_TYPE_FIELD_NUMBER = 2;
     private int expressionType_;
     /**
-     * <code>.BeyondExpressionInfo.ExpressionType expression_type = 2;</code>
+     * <code>.BeyondExpressionInfo.LPGEIAEOHPI expression_type = 2;</code>
      * @return The enum numeric value on the wire for expressionType.
      */
     @java.lang.Override public int getExpressionTypeValue() {
       return expressionType_;
     }
     /**
-     * <code>.BeyondExpressionInfo.ExpressionType expression_type = 2;</code>
+     * <code>.BeyondExpressionInfo.LPGEIAEOHPI expression_type = 2;</code>
      * @return The expressionType.
      */
-    @java.lang.Override public emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.ExpressionType getExpressionType() {
+    @java.lang.Override public emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.LPGEIAEOHPI getExpressionType() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.ExpressionType result = emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.ExpressionType.valueOf(expressionType_);
-      return result == null ? emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.ExpressionType.UNRECOGNIZED : result;
+      emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.LPGEIAEOHPI result = emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.LPGEIAEOHPI.valueOf(expressionType_);
+      return result == null ? emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.LPGEIAEOHPI.UNRECOGNIZED : result;
     }
 
     public static final int ID_FIELD_NUMBER = 3;
     private int id_;
     /**
-     * <pre>
-     *6.4.0 //6.5.0
-     * </pre>
-     *
      * <code>uint32 id = 3;</code>
      * @return The id.
      */
@@ -344,7 +328,7 @@ public final class BeyondExpressionInfoOuterClass {
       if (index_ != 0) {
         output.writeUInt32(1, index_);
       }
-      if (expressionType_ != emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.ExpressionType.EXPRESSION_TYPE_NONE.getNumber()) {
+      if (expressionType_ != emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.LPGEIAEOHPI.LPGEIAEOHPI_NONE.getNumber()) {
         output.writeEnum(2, expressionType_);
       }
       if (id_ != 0) {
@@ -363,7 +347,7 @@ public final class BeyondExpressionInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(1, index_);
       }
-      if (expressionType_ != emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.ExpressionType.EXPRESSION_TYPE_NONE.getNumber()) {
+      if (expressionType_ != emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.LPGEIAEOHPI.LPGEIAEOHPI_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(2, expressionType_);
       }
@@ -664,10 +648,6 @@ public final class BeyondExpressionInfoOuterClass {
 
       private int index_ ;
       /**
-       * <pre>
-       *6.4.0 //6.5.0
-       * </pre>
-       *
        * <code>uint32 index = 1;</code>
        * @return The index.
        */
@@ -676,10 +656,6 @@ public final class BeyondExpressionInfoOuterClass {
         return index_;
       }
       /**
-       * <pre>
-       *6.4.0 //6.5.0
-       * </pre>
-       *
        * <code>uint32 index = 1;</code>
        * @param value The index to set.
        * @return This builder for chaining.
@@ -691,10 +667,6 @@ public final class BeyondExpressionInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *6.4.0 //6.5.0
-       * </pre>
-       *
        * <code>uint32 index = 1;</code>
        * @return This builder for chaining.
        */
@@ -707,14 +679,14 @@ public final class BeyondExpressionInfoOuterClass {
 
       private int expressionType_ = 0;
       /**
-       * <code>.BeyondExpressionInfo.ExpressionType expression_type = 2;</code>
+       * <code>.BeyondExpressionInfo.LPGEIAEOHPI expression_type = 2;</code>
        * @return The enum numeric value on the wire for expressionType.
        */
       @java.lang.Override public int getExpressionTypeValue() {
         return expressionType_;
       }
       /**
-       * <code>.BeyondExpressionInfo.ExpressionType expression_type = 2;</code>
+       * <code>.BeyondExpressionInfo.LPGEIAEOHPI expression_type = 2;</code>
        * @param value The enum numeric value on the wire for expressionType to set.
        * @return This builder for chaining.
        */
@@ -725,21 +697,21 @@ public final class BeyondExpressionInfoOuterClass {
         return this;
       }
       /**
-       * <code>.BeyondExpressionInfo.ExpressionType expression_type = 2;</code>
+       * <code>.BeyondExpressionInfo.LPGEIAEOHPI expression_type = 2;</code>
        * @return The expressionType.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.ExpressionType getExpressionType() {
+      public emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.LPGEIAEOHPI getExpressionType() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.ExpressionType result = emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.ExpressionType.valueOf(expressionType_);
-        return result == null ? emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.ExpressionType.UNRECOGNIZED : result;
+        emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.LPGEIAEOHPI result = emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.LPGEIAEOHPI.valueOf(expressionType_);
+        return result == null ? emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.LPGEIAEOHPI.UNRECOGNIZED : result;
       }
       /**
-       * <code>.BeyondExpressionInfo.ExpressionType expression_type = 2;</code>
+       * <code>.BeyondExpressionInfo.LPGEIAEOHPI expression_type = 2;</code>
        * @param value The expressionType to set.
        * @return This builder for chaining.
        */
-      public Builder setExpressionType(emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.ExpressionType value) {
+      public Builder setExpressionType(emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.LPGEIAEOHPI value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -749,7 +721,7 @@ public final class BeyondExpressionInfoOuterClass {
         return this;
       }
       /**
-       * <code>.BeyondExpressionInfo.ExpressionType expression_type = 2;</code>
+       * <code>.BeyondExpressionInfo.LPGEIAEOHPI expression_type = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearExpressionType() {
@@ -761,10 +733,6 @@ public final class BeyondExpressionInfoOuterClass {
 
       private int id_ ;
       /**
-       * <pre>
-       *6.4.0 //6.5.0
-       * </pre>
-       *
        * <code>uint32 id = 3;</code>
        * @return The id.
        */
@@ -773,10 +741,6 @@ public final class BeyondExpressionInfoOuterClass {
         return id_;
       }
       /**
-       * <pre>
-       *6.4.0 //6.5.0
-       * </pre>
-       *
        * <code>uint32 id = 3;</code>
        * @param value The id to set.
        * @return This builder for chaining.
@@ -788,10 +752,6 @@ public final class BeyondExpressionInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *6.4.0 //6.5.0
-       * </pre>
-       *
        * <code>uint32 id = 3;</code>
        * @return This builder for chaining.
        */
@@ -868,15 +828,15 @@ public final class BeyondExpressionInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\032BeyondExpressionInfo.proto\"\222\002\n\024BeyondE" +
-      "xpressionInfo\022\r\n\005index\030\001 \001(\r\022=\n\017expressi" +
-      "on_type\030\002 \001(\0162$.BeyondExpressionInfo.Exp" +
-      "ressionType\022\n\n\002id\030\003 \001(\r\"\237\001\n\016ExpressionTy" +
-      "pe\022\030\n\024EXPRESSION_TYPE_NONE\020\000\022\031\n\025EXPRESSI" +
-      "ON_TYPE_EMOJI\020\001\022\030\n\024EXPRESSION_TYPE_POSE\020" +
-      "\002\022\035\n\031EXPRESSION_TYPE_SUIT_POSE\020\003\022\037\n\033EXPR" +
-      "ESSION_TYPE_GOLDEN_POSE\020\004B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "\n\032BeyondExpressionInfo.proto\"\370\001\n\024BeyondE" +
+      "xpressionInfo\022\r\n\005index\030\001 \001(\r\022:\n\017expressi" +
+      "on_type\030\002 \001(\0162!.BeyondExpressionInfo.LPG" +
+      "EIAEOHPI\022\n\n\002id\030\003 \001(\r\"\210\001\n\013LPGEIAEOHPI\022\024\n\020" +
+      "LPGEIAEOHPI_NONE\020\000\022\025\n\021LPGEIAEOHPI_EMOJI\020" +
+      "\001\022\024\n\020LPGEIAEOHPI_POSE\020\002\022\031\n\025LPGEIAEOHPI_S" +
+      "UIT_POSE\020\003\022\033\n\027LPGEIAEOHPI_GOLDEN_POSE\020\004B" +
+      ";\n\031emu.grasscutter.net.protoB\036BeyondExpr" +
+      "essionInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

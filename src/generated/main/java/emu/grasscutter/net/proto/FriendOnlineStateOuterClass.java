@@ -134,8 +134,8 @@ public final class FriendOnlineStateOuterClass {
       "\n\027FriendOnlineState.proto*b\n\021FriendOnlin" +
       "eState\022(\n$FriendOnlineState_FREIEND_DISC" +
       "ONNECT\020\000\022#\n\037FriendOnlineState_FRIEND_ONL" +
-      "INE\020\001B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "INE\020\001B8\n\031emu.grasscutter.net.protoB\033Frie" +
+      "ndOnlineStateOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

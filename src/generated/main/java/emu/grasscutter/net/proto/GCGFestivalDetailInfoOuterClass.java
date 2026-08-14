@@ -19,10 +19,10 @@ public final class GCGFestivalDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool FNPBCDMFGAF = 1;</code>
-     * @return The fNPBCDMFGAF.
+     * <code>bool is_gcg_festival_mode_open = 14;</code>
+     * @return The isGcgFestivalModeOpen.
      */
-    boolean getFNPBCDMFGAF();
+    boolean getIsGcgFestivalModeOpen();
   }
   /**
    * Protobuf type {@code GCGFestivalDetailInfo}
@@ -69,9 +69,9 @@ public final class GCGFestivalDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 112: {
 
-              fNPBCDMFGAF_ = input.readBool();
+              isGcgFestivalModeOpen_ = input.readBool();
               break;
             }
             default: {
@@ -106,15 +106,15 @@ public final class GCGFestivalDetailInfoOuterClass {
               emu.grasscutter.net.proto.GCGFestivalDetailInfoOuterClass.GCGFestivalDetailInfo.class, emu.grasscutter.net.proto.GCGFestivalDetailInfoOuterClass.GCGFestivalDetailInfo.Builder.class);
     }
 
-    public static final int FNPBCDMFGAF_FIELD_NUMBER = 1;
-    private boolean fNPBCDMFGAF_;
+    public static final int IS_GCG_FESTIVAL_MODE_OPEN_FIELD_NUMBER = 14;
+    private boolean isGcgFestivalModeOpen_;
     /**
-     * <code>bool FNPBCDMFGAF = 1;</code>
-     * @return The fNPBCDMFGAF.
+     * <code>bool is_gcg_festival_mode_open = 14;</code>
+     * @return The isGcgFestivalModeOpen.
      */
     @java.lang.Override
-    public boolean getFNPBCDMFGAF() {
-      return fNPBCDMFGAF_;
+    public boolean getIsGcgFestivalModeOpen() {
+      return isGcgFestivalModeOpen_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -131,8 +131,8 @@ public final class GCGFestivalDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (fNPBCDMFGAF_ != false) {
-        output.writeBool(1, fNPBCDMFGAF_);
+      if (isGcgFestivalModeOpen_ != false) {
+        output.writeBool(14, isGcgFestivalModeOpen_);
       }
       unknownFields.writeTo(output);
     }
@@ -143,9 +143,9 @@ public final class GCGFestivalDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (fNPBCDMFGAF_ != false) {
+      if (isGcgFestivalModeOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1, fNPBCDMFGAF_);
+          .computeBoolSize(14, isGcgFestivalModeOpen_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -162,8 +162,8 @@ public final class GCGFestivalDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.GCGFestivalDetailInfoOuterClass.GCGFestivalDetailInfo other = (emu.grasscutter.net.proto.GCGFestivalDetailInfoOuterClass.GCGFestivalDetailInfo) obj;
 
-      if (getFNPBCDMFGAF()
-          != other.getFNPBCDMFGAF()) return false;
+      if (getIsGcgFestivalModeOpen()
+          != other.getIsGcgFestivalModeOpen()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -175,9 +175,9 @@ public final class GCGFestivalDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + FNPBCDMFGAF_FIELD_NUMBER;
+      hash = (37 * hash) + IS_GCG_FESTIVAL_MODE_OPEN_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getFNPBCDMFGAF());
+          getIsGcgFestivalModeOpen());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -311,7 +311,7 @@ public final class GCGFestivalDetailInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        fNPBCDMFGAF_ = false;
+        isGcgFestivalModeOpen_ = false;
 
         return this;
       }
@@ -339,7 +339,7 @@ public final class GCGFestivalDetailInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.GCGFestivalDetailInfoOuterClass.GCGFestivalDetailInfo buildPartial() {
         emu.grasscutter.net.proto.GCGFestivalDetailInfoOuterClass.GCGFestivalDetailInfo result = new emu.grasscutter.net.proto.GCGFestivalDetailInfoOuterClass.GCGFestivalDetailInfo(this);
-        result.fNPBCDMFGAF_ = fNPBCDMFGAF_;
+        result.isGcgFestivalModeOpen_ = isGcgFestivalModeOpen_;
         onBuilt();
         return result;
       }
@@ -388,8 +388,8 @@ public final class GCGFestivalDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.GCGFestivalDetailInfoOuterClass.GCGFestivalDetailInfo other) {
         if (other == emu.grasscutter.net.proto.GCGFestivalDetailInfoOuterClass.GCGFestivalDetailInfo.getDefaultInstance()) return this;
-        if (other.getFNPBCDMFGAF() != false) {
-          setFNPBCDMFGAF(other.getFNPBCDMFGAF());
+        if (other.getIsGcgFestivalModeOpen() != false) {
+          setIsGcgFestivalModeOpen(other.getIsGcgFestivalModeOpen());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -420,33 +420,33 @@ public final class GCGFestivalDetailInfoOuterClass {
         return this;
       }
 
-      private boolean fNPBCDMFGAF_ ;
+      private boolean isGcgFestivalModeOpen_ ;
       /**
-       * <code>bool FNPBCDMFGAF = 1;</code>
-       * @return The fNPBCDMFGAF.
+       * <code>bool is_gcg_festival_mode_open = 14;</code>
+       * @return The isGcgFestivalModeOpen.
        */
       @java.lang.Override
-      public boolean getFNPBCDMFGAF() {
-        return fNPBCDMFGAF_;
+      public boolean getIsGcgFestivalModeOpen() {
+        return isGcgFestivalModeOpen_;
       }
       /**
-       * <code>bool FNPBCDMFGAF = 1;</code>
-       * @param value The fNPBCDMFGAF to set.
+       * <code>bool is_gcg_festival_mode_open = 14;</code>
+       * @param value The isGcgFestivalModeOpen to set.
        * @return This builder for chaining.
        */
-      public Builder setFNPBCDMFGAF(boolean value) {
+      public Builder setIsGcgFestivalModeOpen(boolean value) {
         
-        fNPBCDMFGAF_ = value;
+        isGcgFestivalModeOpen_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool FNPBCDMFGAF = 1;</code>
+       * <code>bool is_gcg_festival_mode_open = 14;</code>
        * @return This builder for chaining.
        */
-      public Builder clearFNPBCDMFGAF() {
+      public Builder clearIsGcgFestivalModeOpen() {
         
-        fNPBCDMFGAF_ = false;
+        isGcgFestivalModeOpen_ = false;
         onChanged();
         return this;
       }
@@ -517,9 +517,10 @@ public final class GCGFestivalDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033GCGFestivalDetailInfo.proto\",\n\025GCGFest" +
-      "ivalDetailInfo\022\023\n\013FNPBCDMFGAF\030\001 \001(\010B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\n\033GCGFestivalDetailInfo.proto\":\n\025GCGFest" +
+      "ivalDetailInfo\022!\n\031is_gcg_festival_mode_o" +
+      "pen\030\016 \001(\010B<\n\031emu.grasscutter.net.protoB\037" +
+      "GCGFestivalDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -530,7 +531,7 @@ public final class GCGFestivalDetailInfoOuterClass {
     internal_static_GCGFestivalDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GCGFestivalDetailInfo_descriptor,
-        new java.lang.String[] { "FNPBCDMFGAF", });
+        new java.lang.String[] { "IsGcgFestivalModeOpen", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

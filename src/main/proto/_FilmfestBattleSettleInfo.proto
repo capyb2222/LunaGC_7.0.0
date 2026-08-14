@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_FilmfestBattleSettleInfoOuterClass";
+
+message _FilmfestBattleSettleInfo {
+	bool is_new_record = 1;
+	uint32 FFDJNIKMFFC = 2;
+	uint32 level_id = 7;
+	uint32 PFEPGBGJJMM = 8;
+	uint32 difficulty = 12;
+	uint32 score = 13;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "LanternRiteFireworksInfoOuterClass";
+
+import "LanternRiteFireworksStageInfo.proto";
+
+message LanternRiteFireworksInfo {
+	repeated LanternRiteFireworksStageInfo stage_info_list = 10;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FilmfestDetailInfoOuterClass";
+
+import "DKKMKBDDLOJ.proto";
+import "FMNPNEKAICI.proto";
+import "NPLDPCGLKMK.proto";
+
+message FilmfestDetailInfo {
+	repeated DKKMKBDDLOJ fgflpokjjkh = 5;
+	bool cpaagmfkcao = 9;
+	repeated NPLDPCGLKMK OFIOKIABKNN = 11;
+	repeated FMNPNEKAICI HGNLKDCGLBO = 12;
+}

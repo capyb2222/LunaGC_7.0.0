@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ElectroherculesBattleV3DetailInfoOuterClass";
+
+import "LBFLDOEMDHP.proto";
+
+message ElectroherculesBattleV3DetailInfo {
+	repeated uint32 open_stage_list = 2;
+	repeated LBFLDOEMDHP level_info_list = 10;
+}

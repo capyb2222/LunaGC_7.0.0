@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "OELBHFBBGCDOuterClass";
+
+import "JEOKDCIGCFP.proto";
+
+message OELBHFBBGCD {
+	int32 HBHHDIFGJHK = 1;
+	JEOKDCIGCFP status = 2;
+}

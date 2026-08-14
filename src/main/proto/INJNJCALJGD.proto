@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "INJNJCALJGDOuterClass";
+
+message INJNJCALJGD {
+	uint32 CMNDIKJCLOH = 1;
+	uint32 rotation = 4;
+	uint32 JLAIKBAJKAG = 11;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HomeAvatarRewardEventNotifyOuterClass";
+
+import "HomeAvatarRewardEventInfo.proto";
+
+message HomeAvatarRewardEventNotify {
+	bool is_event_trigger = 4;
+	repeated HomeAvatarRewardEventInfo pending_list = 9;
+	HomeAvatarRewardEventInfo reward_event = 13;
+}

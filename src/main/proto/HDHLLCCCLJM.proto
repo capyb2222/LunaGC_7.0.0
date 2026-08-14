@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HDHLLCCCLJMOuterClass";
+
+import "DDBNDHNGEMF.proto";
+import "PFFMGFPKANE.proto";
+
+message HDHLLCCCLJM {
+	uint32 difficulty = 4;
+	bool OIFKDFIFIOP = 6;
+	fixed64 timestamp = 7;
+	repeated DDBNDHNGEMF KDFMEPMGGHJ = 8;
+	repeated PFFMGFPKANE player_info_list = 9;
+	uint32 schedule_id = 15;
+}

@@ -154,8 +154,8 @@ public final class HitColliderTypeOuterClass {
       "LID\020\000\022(\n$HitColliderType_HIT_COLLIDER_HI" +
       "T_BOX\020\001\022,\n(HitColliderType_HIT_COLLIDER_" +
       "WET_HIT_BOX\020\002\022)\n%HitColliderType_HIT_COL" +
-      "LIDER_HEAD_BOX\020\003B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "LIDER_HEAD_BOX\020\003B6\n\031emu.grasscutter.net." +
+      "protoB\031HitColliderTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

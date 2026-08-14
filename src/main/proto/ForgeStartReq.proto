@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ForgeStartReqOuterClass";
+
+message ForgeStartReq {
+	uint32 forge_count = 5;
+	uint32 forge_id = 8;
+	uint32 avatar_id = 12;
+}

@@ -15,10 +15,6 @@ public final class PlayerDieOptionOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   /**
-   * <pre>
-   * Obf: FEBNBMEEDHK
-   * </pre>
-   *
    * Protobuf enum {@code PlayerDieOption}
    */
   public enum PlayerDieOption
@@ -156,7 +152,8 @@ public final class PlayerDieOptionOuterClass {
       "\n\025PlayerDieOption.proto*_\n\017PlayerDieOpti" +
       "on\022\020\n\014DIE_OPT_NONE\020\000\022\022\n\016DIE_OPT_REPLAY\020\001" +
       "\022\022\n\016DIE_OPT_CANCEL\020\002\022\022\n\016DIE_OPT_REVIVE\020\003" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B6\n\031emu.grasscutter.net.protoB\031PlayerDie" +
+      "OptionOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

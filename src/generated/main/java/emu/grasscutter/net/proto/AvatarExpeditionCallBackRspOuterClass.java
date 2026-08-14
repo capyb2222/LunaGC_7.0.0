@@ -19,6 +19,12 @@ public final class AvatarExpeditionCallBackRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <code>int32 retcode = 3;</code>
+     * @return The retcode.
+     */
+    int getRetcode();
+
+    /**
      * <code>map&lt;uint64, .AvatarExpeditionInfo&gt; expedition_info_map = 14;</code>
      */
     int getExpeditionInfoMapCount();
@@ -51,19 +57,8 @@ public final class AvatarExpeditionCallBackRspOuterClass {
 
     emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo getExpeditionInfoMapOrThrow(
         long key);
-
-    /**
-     * <code>int32 retcode = 6;</code>
-     * @return The retcode.
-     */
-    int getRetcode();
   }
   /**
-   * <pre>
-   * CmdId: 22955
-   * Obf: FBHCEMGILMK
-   * </pre>
-   *
    * Protobuf type {@code AvatarExpeditionCallBackRsp}
    */
   public static final class AvatarExpeditionCallBackRsp extends
@@ -109,12 +104,12 @@ public final class AvatarExpeditionCallBackRspOuterClass {
             case 0:
               done = true;
               break;
-            case 80: {
+            case 24: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 106: {
+            case 114: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 expeditionInfoMap_ = com.google.protobuf.MapField.newMapField(
                     ExpeditionInfoMapDefaultEntryHolder.defaultEntry);
@@ -171,7 +166,18 @@ public final class AvatarExpeditionCallBackRspOuterClass {
               emu.grasscutter.net.proto.AvatarExpeditionCallBackRspOuterClass.AvatarExpeditionCallBackRsp.class, emu.grasscutter.net.proto.AvatarExpeditionCallBackRspOuterClass.AvatarExpeditionCallBackRsp.Builder.class);
     }
 
-    public static final int EXPEDITION_INFO_MAP_FIELD_NUMBER = 13;
+    public static final int RETCODE_FIELD_NUMBER = 3;
+    private int retcode_;
+    /**
+     * <code>int32 retcode = 3;</code>
+     * @return The retcode.
+     */
+    @java.lang.Override
+    public int getRetcode() {
+      return retcode_;
+    }
+
+    public static final int EXPEDITION_INFO_MAP_FIELD_NUMBER = 14;
     private static final class ExpeditionInfoMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Long, emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo> defaultEntry =
@@ -252,17 +258,6 @@ public final class AvatarExpeditionCallBackRspOuterClass {
       return map.get(key);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 10;
-    private int retcode_;
-    /**
-     * <code>int32 retcode = 6;</code>
-     * @return The retcode.
-     */
-    @java.lang.Override
-    public int getRetcode() {
-      return retcode_;
-    }
-
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
     public final boolean isInitialized() {
@@ -278,14 +273,14 @@ public final class AvatarExpeditionCallBackRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(10, retcode_);
+        output.writeInt32(3, retcode_);
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeLongMapTo(
           output,
           internalGetExpeditionInfoMap(),
           ExpeditionInfoMapDefaultEntryHolder.defaultEntry,
-          13);
+          14);
       unknownFields.writeTo(output);
     }
 
@@ -297,7 +292,7 @@ public final class AvatarExpeditionCallBackRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(10, retcode_);
+          .computeInt32Size(3, retcode_);
       }
       for (java.util.Map.Entry<java.lang.Long, emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo> entry
            : internalGetExpeditionInfoMap().getMap().entrySet()) {
@@ -307,7 +302,7 @@ public final class AvatarExpeditionCallBackRspOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(13, expeditionInfoMap__);
+            .computeMessageSize(14, expeditionInfoMap__);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -324,10 +319,10 @@ public final class AvatarExpeditionCallBackRspOuterClass {
       }
       emu.grasscutter.net.proto.AvatarExpeditionCallBackRspOuterClass.AvatarExpeditionCallBackRsp other = (emu.grasscutter.net.proto.AvatarExpeditionCallBackRspOuterClass.AvatarExpeditionCallBackRsp) obj;
 
-      if (!internalGetExpeditionInfoMap().equals(
-          other.internalGetExpeditionInfoMap())) return false;
       if (getRetcode()
           != other.getRetcode()) return false;
+      if (!internalGetExpeditionInfoMap().equals(
+          other.internalGetExpeditionInfoMap())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -339,12 +334,12 @@ public final class AvatarExpeditionCallBackRspOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + RETCODE_FIELD_NUMBER;
+      hash = (53 * hash) + getRetcode();
       if (!internalGetExpeditionInfoMap().getMap().isEmpty()) {
         hash = (37 * hash) + EXPEDITION_INFO_MAP_FIELD_NUMBER;
         hash = (53 * hash) + internalGetExpeditionInfoMap().hashCode();
       }
-      hash = (37 * hash) + RETCODE_FIELD_NUMBER;
-      hash = (53 * hash) + getRetcode();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -441,11 +436,6 @@ public final class AvatarExpeditionCallBackRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 22955
-     * Obf: FBHCEMGILMK
-     * </pre>
-     *
      * Protobuf type {@code AvatarExpeditionCallBackRsp}
      */
     public static final class Builder extends
@@ -505,9 +495,9 @@ public final class AvatarExpeditionCallBackRspOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        internalGetMutableExpeditionInfoMap().clear();
         retcode_ = 0;
 
+        internalGetMutableExpeditionInfoMap().clear();
         return this;
       }
 
@@ -535,9 +525,9 @@ public final class AvatarExpeditionCallBackRspOuterClass {
       public emu.grasscutter.net.proto.AvatarExpeditionCallBackRspOuterClass.AvatarExpeditionCallBackRsp buildPartial() {
         emu.grasscutter.net.proto.AvatarExpeditionCallBackRspOuterClass.AvatarExpeditionCallBackRsp result = new emu.grasscutter.net.proto.AvatarExpeditionCallBackRspOuterClass.AvatarExpeditionCallBackRsp(this);
         int from_bitField0_ = bitField0_;
+        result.retcode_ = retcode_;
         result.expeditionInfoMap_ = internalGetExpeditionInfoMap();
         result.expeditionInfoMap_.makeImmutable();
-        result.retcode_ = retcode_;
         onBuilt();
         return result;
       }
@@ -586,11 +576,11 @@ public final class AvatarExpeditionCallBackRspOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.AvatarExpeditionCallBackRspOuterClass.AvatarExpeditionCallBackRsp other) {
         if (other == emu.grasscutter.net.proto.AvatarExpeditionCallBackRspOuterClass.AvatarExpeditionCallBackRsp.getDefaultInstance()) return this;
-        internalGetMutableExpeditionInfoMap().mergeFrom(
-            other.internalGetExpeditionInfoMap());
         if (other.getRetcode() != 0) {
           setRetcode(other.getRetcode());
         }
+        internalGetMutableExpeditionInfoMap().mergeFrom(
+            other.internalGetExpeditionInfoMap());
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
         return this;
@@ -620,6 +610,37 @@ public final class AvatarExpeditionCallBackRspOuterClass {
         return this;
       }
       private int bitField0_;
+
+      private int retcode_ ;
+      /**
+       * <code>int32 retcode = 3;</code>
+       * @return The retcode.
+       */
+      @java.lang.Override
+      public int getRetcode() {
+        return retcode_;
+      }
+      /**
+       * <code>int32 retcode = 3;</code>
+       * @param value The retcode to set.
+       * @return This builder for chaining.
+       */
+      public Builder setRetcode(int value) {
+        
+        retcode_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>int32 retcode = 3;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearRetcode() {
+        
+        retcode_ = 0;
+        onChanged();
+        return this;
+      }
 
       private com.google.protobuf.MapField<
           java.lang.Long, emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo> expeditionInfoMap_;
@@ -748,37 +769,6 @@ public final class AvatarExpeditionCallBackRspOuterClass {
             .putAll(values);
         return this;
       }
-
-      private int retcode_ ;
-      /**
-       * <code>int32 retcode = 6;</code>
-       * @return The retcode.
-       */
-      @java.lang.Override
-      public int getRetcode() {
-        return retcode_;
-      }
-      /**
-       * <code>int32 retcode = 6;</code>
-       * @param value The retcode to set.
-       * @return This builder for chaining.
-       */
-      public Builder setRetcode(int value) {
-        
-        retcode_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>int32 retcode = 6;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearRetcode() {
-        
-        retcode_ = 0;
-        onChanged();
-        return this;
-      }
       @java.lang.Override
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -853,12 +843,13 @@ public final class AvatarExpeditionCallBackRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n!AvatarExpeditionCallBackRsp.proto\032\032Ava" +
       "tarExpeditionInfo.proto\"\321\001\n\033AvatarExpedi" +
-      "tionCallBackRsp\022P\n\023expedition_info_map\030\016" +
-      " \003(\01323.AvatarExpeditionCallBackRsp.Exped" +
-      "itionInfoMapEntry\022\017\n\007retcode\030\006 \001(\005\032O\n\026Ex" +
+      "tionCallBackRsp\022\017\n\007retcode\030\003 \001(\005\022P\n\023expe" +
+      "dition_info_map\030\016 \003(\01323.AvatarExpedition" +
+      "CallBackRsp.ExpeditionInfoMapEntry\032O\n\026Ex" +
       "peditionInfoMapEntry\022\013\n\003key\030\001 \001(\004\022$\n\005val" +
-      "ue\030\002 \001(\0132\025.AvatarExpeditionInfo:\0028\001B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "ue\030\002 \001(\0132\025.AvatarExpeditionInfo:\0028\001BB\n\031e" +
+      "mu.grasscutter.net.protoB%AvatarExpediti" +
+      "onCallBackRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -870,7 +861,7 @@ public final class AvatarExpeditionCallBackRspOuterClass {
     internal_static_AvatarExpeditionCallBackRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AvatarExpeditionCallBackRsp_descriptor,
-        new java.lang.String[] { "ExpeditionInfoMap", "Retcode", });
+        new java.lang.String[] { "Retcode", "ExpeditionInfoMap", });
     internal_static_AvatarExpeditionCallBackRsp_ExpeditionInfoMapEntry_descriptor =
       internal_static_AvatarExpeditionCallBackRsp_descriptor.getNestedTypes().get(0);
     internal_static_AvatarExpeditionCallBackRsp_ExpeditionInfoMapEntry_fieldAccessorTable = new

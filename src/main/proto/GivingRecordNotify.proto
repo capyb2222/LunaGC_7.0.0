@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GivingRecordNotifyOuterClass";
+
+import "GivingRecord.proto";
+
+message GivingRecordNotify {
+	repeated GivingRecord giving_record_list = 10;
+}

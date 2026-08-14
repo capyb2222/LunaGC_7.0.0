@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MCBCGPMDIFIOuterClass";
+
+import "FNMMKAMBICN.proto";
+import "JPGDPIOHKOL.proto";
+
+message MCBCGPMDIFI {
+	repeated JPGDPIOHKOL level_info_list = 1;
+	bool GFMDMENKALA = 2;
+	repeated uint32 NGNKDNFOPDB = 3;
+	repeated uint32 MFKFEOAALPN = 5;
+	bool EIFNKICAKCO = 6;
+	uint32 IKBLLCLNBLH = 7;
+	repeated uint32 EMPMBEDABCD = 8;
+	uint32 IBNKIJCDIKK = 10;
+	repeated FNMMKAMBICN FECECFDPFBP = 11;
+	bool EFIHHNEAFAK = 14;
+	repeated uint32 OODMCABNGPE = 15;
+}

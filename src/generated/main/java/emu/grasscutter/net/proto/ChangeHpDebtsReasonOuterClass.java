@@ -176,8 +176,8 @@ public final class ChangeHpDebtsReasonOuterClass {
       "DEBTS_CLEAR\020\025\0229\n5CHANGE_HP_DEBTS_REASON_" +
       "CHANGE_HP_DEBTS_REDUCE_ABILITY\020)\0226\n2CHAN" +
       "GE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_ADD_A" +
-      "BILITY\0203B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "BILITY\0203B:\n\031emu.grasscutter.net.protoB\035C" +
+      "hangeHpDebtsReasonOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

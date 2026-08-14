@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "LevelupCityReqOuterClass";
+
+message LevelupCityReq {
+	uint32 scene_id = 3;
+	uint32 area_id = 4;
+	uint32 item_num = 11;
+}

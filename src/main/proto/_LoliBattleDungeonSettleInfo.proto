@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_LoliBattleDungeonSettleInfoOuterClass";
+
+message _LoliBattleDungeonSettleInfo {
+	bool is_new_record = 1;
+	uint32 level_id = 3;
+	uint32 score = 6;
+	uint32 difficulty_id = 8;
+}

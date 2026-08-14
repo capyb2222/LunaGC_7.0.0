@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AvatarSkillInfoNotifyOuterClass";
+
+import "AvatarSkillInfo.proto";
+
+message AvatarSkillInfoNotify {
+	map<uint32, AvatarSkillInfo> skill_map = 11;
+	uint64 guid = 15;
+}

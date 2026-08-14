@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CodexTypeDataOuterClass";
+
+import "CodexType.proto";
+
+message CodexTypeData {
+	map<uint32, uint32> weapon_max_promote_level_map = 6;
+	repeated bool have_viewed_list = 7;
+	CodexType type = 11;
+	repeated uint32 codex_id_list = 14;
+}

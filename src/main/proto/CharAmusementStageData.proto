@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CharAmusementStageDataOuterClass";
+
+message CharAmusementStageData {
+	uint32 finish_time = 6;
+	uint32 stage_id = 9;
+	bool is_open = 14;
+}

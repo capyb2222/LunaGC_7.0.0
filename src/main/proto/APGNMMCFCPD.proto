@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "APGNMMCFCPDOuterClass";
+
+import "JJNLBIGDBFJ.proto";
+
+message APGNMMCFCPD {
+	repeated JJNLBIGDBFJ level_info_list = 7;
+}

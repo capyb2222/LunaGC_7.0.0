@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MKJLLPCIMCMOuterClass";
+
+import "AHKBALPHAAB.proto";
+import "_TemplatePotionInfo.proto";
+
+message MKJLLPCIMCM {
+	uint32 BMFLNENJCCJ = 1;
+	uint32 GLNPCFFJOMK = 2;
+	uint32 PABCOFFLFMF = 3;
+	uint32 PFGKLKDGKNI = 6;
+	repeated _TemplatePotionInfo NFCHLDDOALL = 7;
+	uint32 CPLCJCLPOPH = 8;
+	AHKBALPHAAB ELKDIMBAEPJ = 9;
+	uint32 OICBPFABKFM = 10;
+	uint32 ACJECNOJOBP = 11;
+	bool GHEDNNPDEMO = 12;
+	_TemplatePotionInfo BNDLHOBBABM = 13;
+	uint32 IDBAEDDIAGI = 14;
+}

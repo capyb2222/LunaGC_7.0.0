@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "UgcMusicNoteOuterClass";
+
+message UgcMusicNote {
+	uint32 end_time = 4;
+	uint32 start_time = 7;
+}

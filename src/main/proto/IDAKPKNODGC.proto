@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "IDAKPKNODGCOuterClass";
+
+message IDAKPKNODGC {
+	uint32 id = 1;
+	float cur_value = 2;
+}

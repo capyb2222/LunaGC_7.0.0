@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AvatarWearFlycloakReqOuterClass";
+
+message AvatarWearFlycloakReq {
+	uint32 flycloak_id = 13;
+	repeated uint64 avatar_guid_list = 14;
+}

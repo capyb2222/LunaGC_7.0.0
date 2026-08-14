@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_SnowRaceCombatSettleInfoOuterClass";
+
+message _SnowRaceCombatSettleInfo {
+	uint32 difficulty = 2;
+	uint32 score = 5;
+	uint32 use_time = 8;
+	bool is_new_record = 12;
+	uint32 level_id = 13;
+}

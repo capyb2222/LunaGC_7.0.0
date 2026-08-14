@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AsterMidCampInfoOuterClass";
+
+import "Vector.proto";
+
+message AsterMidCampInfo {
+	Vector pos = 5;
+	uint32 camp_id = 11;
+}

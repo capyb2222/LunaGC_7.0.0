@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MLHLODGBHKMOuterClass";
+
+import "ShowAvatarInfo.proto";
+
+message MLHLODGBHKM {
+	uint32 FCJFGPBEEKD = 1;
+	uint32 PAEIDOBHKMA = 2;
+	bool is_finish = 4;
+	repeated ShowAvatarInfo LIFIMBEPICC = 5;
+	uint32 PBBBLFJECID = 7;
+	uint32 GHNIABHCKPO = 9;
+	uint32 level_id = 11;
+	bool is_open = 12;
+	uint32 MLIINJCDNGJ = 15;
+}

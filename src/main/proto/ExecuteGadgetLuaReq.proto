@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ExecuteGadgetLuaReqOuterClass";
+
+message ExecuteGadgetLuaReq {
+	uint32 source_entity_id = 9;
+	int32 param1 = 11;
+	int32 param2 = 13;
+	int32 param3 = 15;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_NodkraiTourHackSettleInfoOuterClass";
+
+message _NodkraiTourHackSettleInfo {
+	uint32 use_time = 1;
+	uint32 collect_num = 2;
+	uint32 hit_point = 5;
+	bool is_new_record = 9;
+}

@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_AquariumDetailInfoOuterClass";
+
+import "IIOFHFIDENJ.proto";
+import "Uint32Pair.proto";
+import "_AquariumDivingLevelEvent.proto";
+import "_AquariumDivingTaskInfo.proto";
+
+message _AquariumDetailInfo {
+	repeated uint32 MDCCIIFACFK = 1;
+	uint32 DGJCEMANOCM = 2;
+	repeated uint32 GCCOJAGHNKJ = 3;
+	repeated Uint32Pair item_count_list = 4;
+	repeated _AquariumDivingTaskInfo task_list = 5;
+	repeated Uint32Pair FKCIFOHLLBM = 6;
+	repeated uint32 OIECMONFHBM = 7;
+	bool LABPMPANIDK = 8;
+	uint32 FOPBJKEMJPF = 9;
+	uint32 IMDGIKDEBOD = 10;
+	bool PHIFBJJBPLK = 11;
+	uint32 stage_id = 12;
+	bool AKNKPOEJHBO = 13;
+	uint32 NAOEDFPLOAE = 14;
+	uint32 EDMCKBNOELC = 15;
+	repeated uint32 PAEGHMOCAME = 122;
+	repeated _AquariumDivingLevelEvent PCJNHLNMKFL = 416;
+	uint32 JMBAEDIMHFN = 457;
+	bool OAOKCCGGMGB = 693;
+	repeated uint32 PMJLEBGOILE = 731;
+	repeated IIOFHFIDENJ FLPPKAACIAA = 1341;
+	repeated uint32 HFGLFBIEAAM = 2020;
+}

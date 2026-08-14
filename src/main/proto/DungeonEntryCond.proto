@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DungeonEntryCondOuterClass";
+
+import "DungeonEntryBlockReason.proto";
+
+message DungeonEntryCond {
+	DungeonEntryBlockReason cond_reason = 1;
+	uint32 param1 = 6;
+}

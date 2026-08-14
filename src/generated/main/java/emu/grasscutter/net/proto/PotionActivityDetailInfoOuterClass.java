@@ -18,17 +18,28 @@ public final class PotionActivityDetailInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:PotionActivityDetailInfo)
       com.google.protobuf.MessageOrBuilder {
 
-    java.util.List<emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO>
+    /**
+     * <code>repeated .PotionStageData stage_list = 7;</code>
+     */
+    java.util.List<emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData> 
         getStageListList();
-
-    emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO getStageList(int index);
-
+    /**
+     * <code>repeated .PotionStageData stage_list = 7;</code>
+     */
+    emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData getStageList(int index);
+    /**
+     * <code>repeated .PotionStageData stage_list = 7;</code>
+     */
     int getStageListCount();
-
-    java.util.List<? extends emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAOOrBuilder>
+    /**
+     * <code>repeated .PotionStageData stage_list = 7;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageDataOrBuilder> 
         getStageListOrBuilderList();
-
-    emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAOOrBuilder getStageListOrBuilder(
+    /**
+     * <code>repeated .PotionStageData stage_list = 7;</code>
+     */
+    emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageDataOrBuilder getStageListOrBuilder(
         int index);
   }
   /**
@@ -78,13 +89,13 @@ public final class PotionActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 114: {
+            case 58: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                stageList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO>();
+                stageList_ = new java.util.ArrayList<emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData>();
                 mutable_bitField0_ |= 0x00000001;
               }
               stageList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -122,32 +133,42 @@ public final class PotionActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.PotionActivityDetailInfoOuterClass.PotionActivityDetailInfo.class, emu.grasscutter.net.proto.PotionActivityDetailInfoOuterClass.PotionActivityDetailInfo.Builder.class);
     }
 
-    public static final int STAGE_LIST_FIELD_NUMBER = 14;
-    private java.util.List<emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO> stageList_;
-
+    public static final int STAGE_LIST_FIELD_NUMBER = 7;
+    private java.util.List<emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData> stageList_;
+    /**
+     * <code>repeated .PotionStageData stage_list = 7;</code>
+     */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO> getStageListList() {
+    public java.util.List<emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData> getStageListList() {
       return stageList_;
     }
-
+    /**
+     * <code>repeated .PotionStageData stage_list = 7;</code>
+     */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAOOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageDataOrBuilder> 
         getStageListOrBuilderList() {
       return stageList_;
     }
-
+    /**
+     * <code>repeated .PotionStageData stage_list = 7;</code>
+     */
     @java.lang.Override
     public int getStageListCount() {
       return stageList_.size();
     }
-
+    /**
+     * <code>repeated .PotionStageData stage_list = 7;</code>
+     */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO getStageList(int index) {
+    public emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData getStageList(int index) {
       return stageList_.get(index);
     }
-
+    /**
+     * <code>repeated .PotionStageData stage_list = 7;</code>
+     */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAOOrBuilder getStageListOrBuilder(
+    public emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageDataOrBuilder getStageListOrBuilder(
         int index) {
       return stageList_.get(index);
     }
@@ -167,7 +188,7 @@ public final class PotionActivityDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < stageList_.size(); i++) {
-        output.writeMessage(14, stageList_.get(i));
+        output.writeMessage(7, stageList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -180,7 +201,7 @@ public final class PotionActivityDetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < stageList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, stageList_.get(i));
+          .computeMessageSize(7, stageList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -456,7 +477,7 @@ public final class PotionActivityDetailInfoOuterClass {
               stageListBuilder_ = null;
               stageList_ = other.stageList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              stageListBuilder_ =
+              stageListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getStageListFieldBuilder() : null;
             } else {
@@ -494,26 +515,31 @@ public final class PotionActivityDetailInfoOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO> stageList_ =
+      private java.util.List<emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData> stageList_ =
         java.util.Collections.emptyList();
       private void ensureStageListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          stageList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO>(stageList_);
+          stageList_ = new java.util.ArrayList<emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData>(stageList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO, emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO.Builder, emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAOOrBuilder> stageListBuilder_;
+          emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData, emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData.Builder, emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageDataOrBuilder> stageListBuilder_;
 
-      public java.util.List<emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO> getStageListList() {
+      /**
+       * <code>repeated .PotionStageData stage_list = 7;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData> getStageListList() {
         if (stageListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(stageList_);
         } else {
           return stageListBuilder_.getMessageList();
         }
       }
-
+      /**
+       * <code>repeated .PotionStageData stage_list = 7;</code>
+       */
       public int getStageListCount() {
         if (stageListBuilder_ == null) {
           return stageList_.size();
@@ -521,17 +547,21 @@ public final class PotionActivityDetailInfoOuterClass {
           return stageListBuilder_.getCount();
         }
       }
-
-      public emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO getStageList(int index) {
+      /**
+       * <code>repeated .PotionStageData stage_list = 7;</code>
+       */
+      public emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData getStageList(int index) {
         if (stageListBuilder_ == null) {
           return stageList_.get(index);
         } else {
           return stageListBuilder_.getMessage(index);
         }
       }
-
+      /**
+       * <code>repeated .PotionStageData stage_list = 7;</code>
+       */
       public Builder setStageList(
-          int index, emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO value) {
+          int index, emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData value) {
         if (stageListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -544,9 +574,11 @@ public final class PotionActivityDetailInfoOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .PotionStageData stage_list = 7;</code>
+       */
       public Builder setStageList(
-          int index, emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData.Builder builderForValue) {
         if (stageListBuilder_ == null) {
           ensureStageListIsMutable();
           stageList_.set(index, builderForValue.build());
@@ -556,8 +588,10 @@ public final class PotionActivityDetailInfoOuterClass {
         }
         return this;
       }
-
-      public Builder addStageList(emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO value) {
+      /**
+       * <code>repeated .PotionStageData stage_list = 7;</code>
+       */
+      public Builder addStageList(emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData value) {
         if (stageListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -570,9 +604,11 @@ public final class PotionActivityDetailInfoOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .PotionStageData stage_list = 7;</code>
+       */
       public Builder addStageList(
-          int index, emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO value) {
+          int index, emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData value) {
         if (stageListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -585,9 +621,11 @@ public final class PotionActivityDetailInfoOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .PotionStageData stage_list = 7;</code>
+       */
       public Builder addStageList(
-          emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO.Builder builderForValue) {
+          emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData.Builder builderForValue) {
         if (stageListBuilder_ == null) {
           ensureStageListIsMutable();
           stageList_.add(builderForValue.build());
@@ -597,9 +635,11 @@ public final class PotionActivityDetailInfoOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .PotionStageData stage_list = 7;</code>
+       */
       public Builder addStageList(
-          int index, emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData.Builder builderForValue) {
         if (stageListBuilder_ == null) {
           ensureStageListIsMutable();
           stageList_.add(index, builderForValue.build());
@@ -609,9 +649,11 @@ public final class PotionActivityDetailInfoOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .PotionStageData stage_list = 7;</code>
+       */
       public Builder addAllStageList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData> values) {
         if (stageListBuilder_ == null) {
           ensureStageListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -622,7 +664,9 @@ public final class PotionActivityDetailInfoOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .PotionStageData stage_list = 7;</code>
+       */
       public Builder clearStageList() {
         if (stageListBuilder_ == null) {
           stageList_ = java.util.Collections.emptyList();
@@ -633,7 +677,9 @@ public final class PotionActivityDetailInfoOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .PotionStageData stage_list = 7;</code>
+       */
       public Builder removeStageList(int index) {
         if (stageListBuilder_ == null) {
           ensureStageListIsMutable();
@@ -644,21 +690,27 @@ public final class PotionActivityDetailInfoOuterClass {
         }
         return this;
       }
-
-      public emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO.Builder getStageListBuilder(
+      /**
+       * <code>repeated .PotionStageData stage_list = 7;</code>
+       */
+      public emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData.Builder getStageListBuilder(
           int index) {
         return getStageListFieldBuilder().getBuilder(index);
       }
-
-      public emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAOOrBuilder getStageListOrBuilder(
+      /**
+       * <code>repeated .PotionStageData stage_list = 7;</code>
+       */
+      public emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageDataOrBuilder getStageListOrBuilder(
           int index) {
         if (stageListBuilder_ == null) {
           return stageList_.get(index);  } else {
           return stageListBuilder_.getMessageOrBuilder(index);
         }
       }
-
-      public java.util.List<? extends emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAOOrBuilder>
+      /**
+       * <code>repeated .PotionStageData stage_list = 7;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageDataOrBuilder> 
            getStageListOrBuilderList() {
         if (stageListBuilder_ != null) {
           return stageListBuilder_.getMessageOrBuilderList();
@@ -666,28 +718,34 @@ public final class PotionActivityDetailInfoOuterClass {
           return java.util.Collections.unmodifiableList(stageList_);
         }
       }
-
-      public emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO.Builder addStageListBuilder() {
+      /**
+       * <code>repeated .PotionStageData stage_list = 7;</code>
+       */
+      public emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData.Builder addStageListBuilder() {
         return getStageListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO.getDefaultInstance());
+            emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData.getDefaultInstance());
       }
-
-      public emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO.Builder addStageListBuilder(
+      /**
+       * <code>repeated .PotionStageData stage_list = 7;</code>
+       */
+      public emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData.Builder addStageListBuilder(
           int index) {
         return getStageListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO.getDefaultInstance());
+            index, emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData.getDefaultInstance());
       }
-
-      public java.util.List<emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO.Builder>
+      /**
+       * <code>repeated .PotionStageData stage_list = 7;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData.Builder> 
            getStageListBuilderList() {
         return getStageListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO, emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO.Builder, emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAOOrBuilder>
+          emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData, emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData.Builder, emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageDataOrBuilder> 
           getStageListFieldBuilder() {
         if (stageListBuilder_ == null) {
           stageListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO, emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO.Builder, emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAOOrBuilder>(
+              emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData, emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData.Builder, emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageDataOrBuilder>(
                   stageList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -707,6 +765,7 @@ public final class PotionActivityDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:PotionActivityDetailInfo)
     }
@@ -750,7 +809,7 @@ public final class PotionActivityDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PotionActivityDetailInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PotionActivityDetailInfo_fieldAccessorTable;
 
@@ -762,15 +821,16 @@ public final class PotionActivityDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\036PotionActivityDetailInfo.proto\032\021ANHFAK" +
-      "ADIAO.proto\"<\n\030PotionActivityDetailInfo\022" +
-      " \n\nstage_list\030\017 \003(\0132\014.ANHFAKADIAOB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "\n\036PotionActivityDetailInfo.proto\032\025Potion" +
+      "StageData.proto\"@\n\030PotionActivityDetailI" +
+      "nfo\022$\n\nstage_list\030\007 \003(\0132\020.PotionStageDat" +
+      "aB?\n\031emu.grasscutter.net.protoB\"PotionAc" +
+      "tivityDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.PotionStageDataOuterClass.getDescriptor(),
         });
     internal_static_PotionActivityDetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -778,7 +838,7 @@ public final class PotionActivityDetailInfoOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_PotionActivityDetailInfo_descriptor,
         new java.lang.String[] { "StageList", });
-    emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.PotionStageDataOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

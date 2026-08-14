@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_TpsDefenseSettleInfoOuterClass";
+
+message _TpsDefenseSettleInfo {
+	uint32 score = 1;
+	bool is_new_record = 3;
+	uint32 kill_num = 5;
+	uint32 max_hp = 9;
+	uint32 hp = 14;
+}

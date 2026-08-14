@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DragonSpineActivityDetailInfoOuterClass";
+
+import "DragonSpineChapterInfo.proto";
+
+message DragonSpineActivityDetailInfo {
+	uint32 dnodgcmpoan = 4;
+	uint32 ABBFOLNPGNE = 6;
+	bool is_content_closed = 7;
+	uint32 content_finish_time = 8;
+	uint32 weapon_enhance_level = 10;
+	uint32 GNADEDJKAJM = 14;
+	repeated DragonSpineChapterInfo chapter_info_list = 15;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_AcrobaticsBattleSettleInfoOuterClass";
+
+message _AcrobaticsBattleSettleInfo {
+	uint32 stage_id = 3;
+	uint32 cost_time = 5;
+	bool MEJIIKGGCOO = 8;
+	uint32 difficulty = 10;
+}

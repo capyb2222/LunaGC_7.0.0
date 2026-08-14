@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FurnitureMakeStartReqOuterClass";
+
+message FurnitureMakeStartReq {
+	uint32 make_id = 3;
+	uint32 avatar_id = 12;
+}

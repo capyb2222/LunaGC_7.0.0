@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ChannellerSlabLoopDungeonStageInfoOuterClass";
+
+import "ChannellerSlabLoopDungeonInfo.proto";
+
+message ChannellerSlabLoopDungeonStageInfo {
+	repeated ChannellerSlabLoopDungeonInfo dungeon_info_list = 3;
+	repeated uint32 taken_reward_index_list = 8;
+	uint32 open_time = 11;
+	uint32 last_difficulty_id = 13;
+	bool is_open = 15;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FEDNPBICDHBOuterClass";
+
+message FEDNPBICDHB {
+	repeated uint64 avatar_guid_list = 1;
+	bool is_finish = 2;
+	bool is_open = 5;
+	uint32 max_score = 7;
+	uint32 level_id = 10;
+	uint32 use_time = 11;
+	repeated uint32 monster_id_list = 12;
+	repeated uint32 _elite_monster_id_list = 13;
+}

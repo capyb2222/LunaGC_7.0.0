@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SceneWeaponInfoOuterClass";
+
+import "AbilitySyncStateInfo.proto";
+import "EntityRendererChangedInfo.proto";
+import "IMPFHAGJHCE.proto";
+
+message SceneWeaponInfo {
+	uint32 entity_id = 1;
+	uint32 gadget_id = 2;
+	uint32 item_id = 3;
+	uint64 guid = 4;
+	uint32 level = 5;
+	uint32 promote_level = 6;
+	AbilitySyncStateInfo ability_info = 7;
+	map<uint32, uint32> affix_map = 8;
+	EntityRendererChangedInfo renderer_changed_info = 9;
+	bool hhgdiooebmj = 10;
+	uint32 _weapon_skin_id = 11;
+	repeated IMPFHAGJHCE KCLFBBACHLP = 12;
+}

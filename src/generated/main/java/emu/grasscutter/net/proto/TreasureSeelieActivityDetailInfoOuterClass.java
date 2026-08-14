@@ -19,36 +19,40 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
+     * <code>bool is_content_closed = 5;</code>
+     * @return The isContentClosed.
      */
-    java.util.List<emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND>
-        getLGIIAMBMLKCList();
-    /**
-     * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
-     */
-    emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND getLGIIAMBMLKC(int index);
-    /**
-     * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
-     */
-    int getLGIIAMBMLKCCount();
-    /**
-     * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
-     */
-    java.util.List<? extends emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBNDOrBuilder>
-        getLGIIAMBMLKCOrBuilderList();
-    /**
-     * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
-     */
-    emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBNDOrBuilder getLGIIAMBMLKCOrBuilder(
-        int index);
-
     boolean getIsContentClosed();
 
     /**
-     * <code>uint32 DELEOLGNEDK = 15;</code>
-     * @return The dELEOLGNEDK.
+     * <code>repeated .TreasureSeelieRegionData region_data_list = 8;</code>
      */
-    int getDELEOLGNEDK();
+    java.util.List<emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData> 
+        getRegionDataListList();
+    /**
+     * <code>repeated .TreasureSeelieRegionData region_data_list = 8;</code>
+     */
+    emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData getRegionDataList(int index);
+    /**
+     * <code>repeated .TreasureSeelieRegionData region_data_list = 8;</code>
+     */
+    int getRegionDataListCount();
+    /**
+     * <code>repeated .TreasureSeelieRegionData region_data_list = 8;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionDataOrBuilder> 
+        getRegionDataListOrBuilderList();
+    /**
+     * <code>repeated .TreasureSeelieRegionData region_data_list = 8;</code>
+     */
+    emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionDataOrBuilder getRegionDataListOrBuilder(
+        int index);
+
+    /**
+     * <code>uint32 treasure_close_time = 14;</code>
+     * @return The treasureCloseTime.
+     */
+    int getTreasureCloseTime();
   }
   /**
    * Protobuf type {@code TreasureSeelieActivityDetailInfo}
@@ -63,7 +67,7 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
       super(builder);
     }
     private TreasureSeelieActivityDetailInfo() {
-      lGIIAMBMLKC_ = java.util.Collections.emptyList();
+      regionDataList_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -97,23 +101,23 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 98: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                lGIIAMBMLKC_ = new java.util.ArrayList<emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              lGIIAMBMLKC_.add(
-                  input.readMessage(emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND.parser(), extensionRegistry));
-              break;
-            }
-            case 104: {
+            case 40: {
 
               isContentClosed_ = input.readBool();
               break;
             }
-            case 120: {
+            case 66: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                regionDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              regionDataList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData.parser(), extensionRegistry));
+              break;
+            }
+            case 112: {
 
-              dELEOLGNEDK_ = input.readUInt32();
+              treasureCloseTime_ = input.readUInt32();
               break;
             }
             default: {
@@ -132,7 +136,7 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          lGIIAMBMLKC_ = java.util.Collections.unmodifiableList(lGIIAMBMLKC_);
+          regionDataList_ = java.util.Collections.unmodifiableList(regionDataList_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -151,63 +155,66 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.TreasureSeelieActivityDetailInfoOuterClass.TreasureSeelieActivityDetailInfo.class, emu.grasscutter.net.proto.TreasureSeelieActivityDetailInfoOuterClass.TreasureSeelieActivityDetailInfo.Builder.class);
     }
 
-    public static final int LGIIAMBMLKC_FIELD_NUMBER = 12;
-    private java.util.List<emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND> lGIIAMBMLKC_;
-    /**
-     * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
-     */
-    @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND> getLGIIAMBMLKCList() {
-      return lGIIAMBMLKC_;
-    }
-    /**
-     * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
-     */
-    @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBNDOrBuilder>
-        getLGIIAMBMLKCOrBuilderList() {
-      return lGIIAMBMLKC_;
-    }
-    /**
-     * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
-     */
-    @java.lang.Override
-    public int getLGIIAMBMLKCCount() {
-      return lGIIAMBMLKC_.size();
-    }
-    /**
-     * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND getLGIIAMBMLKC(int index) {
-      return lGIIAMBMLKC_.get(index);
-    }
-    /**
-     * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBNDOrBuilder getLGIIAMBMLKCOrBuilder(
-        int index) {
-      return lGIIAMBMLKC_.get(index);
-    }
-
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 13;
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 5;
     private boolean isContentClosed_;
-
+    /**
+     * <code>bool is_content_closed = 5;</code>
+     * @return The isContentClosed.
+     */
     @java.lang.Override
     public boolean getIsContentClosed() {
       return isContentClosed_;
     }
 
-    public static final int DELEOLGNEDK_FIELD_NUMBER = 15;
-    private int dELEOLGNEDK_;
+    public static final int REGION_DATA_LIST_FIELD_NUMBER = 8;
+    private java.util.List<emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData> regionDataList_;
     /**
-     * <code>uint32 DELEOLGNEDK = 15;</code>
-     * @return The dELEOLGNEDK.
+     * <code>repeated .TreasureSeelieRegionData region_data_list = 8;</code>
      */
     @java.lang.Override
-    public int getDELEOLGNEDK() {
-      return dELEOLGNEDK_;
+    public java.util.List<emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData> getRegionDataListList() {
+      return regionDataList_;
+    }
+    /**
+     * <code>repeated .TreasureSeelieRegionData region_data_list = 8;</code>
+     */
+    @java.lang.Override
+    public java.util.List<? extends emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionDataOrBuilder> 
+        getRegionDataListOrBuilderList() {
+      return regionDataList_;
+    }
+    /**
+     * <code>repeated .TreasureSeelieRegionData region_data_list = 8;</code>
+     */
+    @java.lang.Override
+    public int getRegionDataListCount() {
+      return regionDataList_.size();
+    }
+    /**
+     * <code>repeated .TreasureSeelieRegionData region_data_list = 8;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData getRegionDataList(int index) {
+      return regionDataList_.get(index);
+    }
+    /**
+     * <code>repeated .TreasureSeelieRegionData region_data_list = 8;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionDataOrBuilder getRegionDataListOrBuilder(
+        int index) {
+      return regionDataList_.get(index);
+    }
+
+    public static final int TREASURE_CLOSE_TIME_FIELD_NUMBER = 14;
+    private int treasureCloseTime_;
+    /**
+     * <code>uint32 treasure_close_time = 14;</code>
+     * @return The treasureCloseTime.
+     */
+    @java.lang.Override
+    public int getTreasureCloseTime() {
+      return treasureCloseTime_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -224,14 +231,14 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < lGIIAMBMLKC_.size(); i++) {
-        output.writeMessage(12, lGIIAMBMLKC_.get(i));
-      }
       if (isContentClosed_ != false) {
-        output.writeBool(13, isContentClosed_);
+        output.writeBool(5, isContentClosed_);
       }
-      if (dELEOLGNEDK_ != 0) {
-        output.writeUInt32(15, dELEOLGNEDK_);
+      for (int i = 0; i < regionDataList_.size(); i++) {
+        output.writeMessage(8, regionDataList_.get(i));
+      }
+      if (treasureCloseTime_ != 0) {
+        output.writeUInt32(14, treasureCloseTime_);
       }
       unknownFields.writeTo(output);
     }
@@ -242,17 +249,17 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < lGIIAMBMLKC_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, lGIIAMBMLKC_.get(i));
-      }
       if (isContentClosed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, isContentClosed_);
+          .computeBoolSize(5, isContentClosed_);
       }
-      if (dELEOLGNEDK_ != 0) {
+      for (int i = 0; i < regionDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, dELEOLGNEDK_);
+          .computeMessageSize(8, regionDataList_.get(i));
+      }
+      if (treasureCloseTime_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(14, treasureCloseTime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -269,12 +276,12 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.TreasureSeelieActivityDetailInfoOuterClass.TreasureSeelieActivityDetailInfo other = (emu.grasscutter.net.proto.TreasureSeelieActivityDetailInfoOuterClass.TreasureSeelieActivityDetailInfo) obj;
 
-      if (!getLGIIAMBMLKCList()
-          .equals(other.getLGIIAMBMLKCList())) return false;
       if (getIsContentClosed()
           != other.getIsContentClosed()) return false;
-      if (getDELEOLGNEDK()
-          != other.getDELEOLGNEDK()) return false;
+      if (!getRegionDataListList()
+          .equals(other.getRegionDataListList())) return false;
+      if (getTreasureCloseTime()
+          != other.getTreasureCloseTime()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -286,15 +293,15 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getLGIIAMBMLKCCount() > 0) {
-        hash = (37 * hash) + LGIIAMBMLKC_FIELD_NUMBER;
-        hash = (53 * hash) + getLGIIAMBMLKCList().hashCode();
-      }
       hash = (37 * hash) + IS_CONTENT_CLOSED_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsContentClosed());
-      hash = (37 * hash) + DELEOLGNEDK_FIELD_NUMBER;
-      hash = (53 * hash) + getDELEOLGNEDK();
+      if (getRegionDataListCount() > 0) {
+        hash = (37 * hash) + REGION_DATA_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getRegionDataListList().hashCode();
+      }
+      hash = (37 * hash) + TREASURE_CLOSE_TIME_FIELD_NUMBER;
+      hash = (53 * hash) + getTreasureCloseTime();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -423,21 +430,21 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
-          getLGIIAMBMLKCFieldBuilder();
+          getRegionDataListFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (lGIIAMBMLKCBuilder_ == null) {
-          lGIIAMBMLKC_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000001);
-        } else {
-          lGIIAMBMLKCBuilder_.clear();
-        }
         isContentClosed_ = false;
 
-        dELEOLGNEDK_ = 0;
+        if (regionDataListBuilder_ == null) {
+          regionDataList_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
+        } else {
+          regionDataListBuilder_.clear();
+        }
+        treasureCloseTime_ = 0;
 
         return this;
       }
@@ -466,17 +473,17 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
       public emu.grasscutter.net.proto.TreasureSeelieActivityDetailInfoOuterClass.TreasureSeelieActivityDetailInfo buildPartial() {
         emu.grasscutter.net.proto.TreasureSeelieActivityDetailInfoOuterClass.TreasureSeelieActivityDetailInfo result = new emu.grasscutter.net.proto.TreasureSeelieActivityDetailInfoOuterClass.TreasureSeelieActivityDetailInfo(this);
         int from_bitField0_ = bitField0_;
-        if (lGIIAMBMLKCBuilder_ == null) {
+        result.isContentClosed_ = isContentClosed_;
+        if (regionDataListBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
-            lGIIAMBMLKC_ = java.util.Collections.unmodifiableList(lGIIAMBMLKC_);
+            regionDataList_ = java.util.Collections.unmodifiableList(regionDataList_);
             bitField0_ = (bitField0_ & ~0x00000001);
           }
-          result.lGIIAMBMLKC_ = lGIIAMBMLKC_;
+          result.regionDataList_ = regionDataList_;
         } else {
-          result.lGIIAMBMLKC_ = lGIIAMBMLKCBuilder_.build();
+          result.regionDataList_ = regionDataListBuilder_.build();
         }
-        result.isContentClosed_ = isContentClosed_;
-        result.dELEOLGNEDK_ = dELEOLGNEDK_;
+        result.treasureCloseTime_ = treasureCloseTime_;
         onBuilt();
         return result;
       }
@@ -525,37 +532,37 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.TreasureSeelieActivityDetailInfoOuterClass.TreasureSeelieActivityDetailInfo other) {
         if (other == emu.grasscutter.net.proto.TreasureSeelieActivityDetailInfoOuterClass.TreasureSeelieActivityDetailInfo.getDefaultInstance()) return this;
-        if (lGIIAMBMLKCBuilder_ == null) {
-          if (!other.lGIIAMBMLKC_.isEmpty()) {
-            if (lGIIAMBMLKC_.isEmpty()) {
-              lGIIAMBMLKC_ = other.lGIIAMBMLKC_;
+        if (other.getIsContentClosed() != false) {
+          setIsContentClosed(other.getIsContentClosed());
+        }
+        if (regionDataListBuilder_ == null) {
+          if (!other.regionDataList_.isEmpty()) {
+            if (regionDataList_.isEmpty()) {
+              regionDataList_ = other.regionDataList_;
               bitField0_ = (bitField0_ & ~0x00000001);
             } else {
-              ensureLGIIAMBMLKCIsMutable();
-              lGIIAMBMLKC_.addAll(other.lGIIAMBMLKC_);
+              ensureRegionDataListIsMutable();
+              regionDataList_.addAll(other.regionDataList_);
             }
             onChanged();
           }
         } else {
-          if (!other.lGIIAMBMLKC_.isEmpty()) {
-            if (lGIIAMBMLKCBuilder_.isEmpty()) {
-              lGIIAMBMLKCBuilder_.dispose();
-              lGIIAMBMLKCBuilder_ = null;
-              lGIIAMBMLKC_ = other.lGIIAMBMLKC_;
+          if (!other.regionDataList_.isEmpty()) {
+            if (regionDataListBuilder_.isEmpty()) {
+              regionDataListBuilder_.dispose();
+              regionDataListBuilder_ = null;
+              regionDataList_ = other.regionDataList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              lGIIAMBMLKCBuilder_ =
+              regionDataListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getLGIIAMBMLKCFieldBuilder() : null;
+                   getRegionDataListFieldBuilder() : null;
             } else {
-              lGIIAMBMLKCBuilder_.addAllMessages(other.lGIIAMBMLKC_);
+              regionDataListBuilder_.addAllMessages(other.regionDataList_);
             }
           }
         }
-        if (other.getIsContentClosed() != false) {
-          setIsContentClosed(other.getIsContentClosed());
-        }
-        if (other.getDELEOLGNEDK() != 0) {
-          setDELEOLGNEDK(other.getDELEOLGNEDK());
+        if (other.getTreasureCloseTime() != 0) {
+          setTreasureCloseTime(other.getTreasureCloseTime());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -587,294 +594,304 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND> lGIIAMBMLKC_ =
-        java.util.Collections.emptyList();
-      private void ensureLGIIAMBMLKCIsMutable() {
-        if (!((bitField0_ & 0x00000001) != 0)) {
-          lGIIAMBMLKC_ = new java.util.ArrayList<emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND>(lGIIAMBMLKC_);
-          bitField0_ |= 0x00000001;
-         }
-      }
-
-      private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND, emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND.Builder, emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBNDOrBuilder> lGIIAMBMLKCBuilder_;
-
-      /**
-       * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND> getLGIIAMBMLKCList() {
-        if (lGIIAMBMLKCBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(lGIIAMBMLKC_);
-        } else {
-          return lGIIAMBMLKCBuilder_.getMessageList();
-        }
-      }
-      /**
-       * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
-       */
-      public int getLGIIAMBMLKCCount() {
-        if (lGIIAMBMLKCBuilder_ == null) {
-          return lGIIAMBMLKC_.size();
-        } else {
-          return lGIIAMBMLKCBuilder_.getCount();
-        }
-      }
-      /**
-       * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
-       */
-      public emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND getLGIIAMBMLKC(int index) {
-        if (lGIIAMBMLKCBuilder_ == null) {
-          return lGIIAMBMLKC_.get(index);
-        } else {
-          return lGIIAMBMLKCBuilder_.getMessage(index);
-        }
-      }
-      /**
-       * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
-       */
-      public Builder setLGIIAMBMLKC(
-          int index, emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND value) {
-        if (lGIIAMBMLKCBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureLGIIAMBMLKCIsMutable();
-          lGIIAMBMLKC_.set(index, value);
-          onChanged();
-        } else {
-          lGIIAMBMLKCBuilder_.setMessage(index, value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
-       */
-      public Builder setLGIIAMBMLKC(
-          int index, emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND.Builder builderForValue) {
-        if (lGIIAMBMLKCBuilder_ == null) {
-          ensureLGIIAMBMLKCIsMutable();
-          lGIIAMBMLKC_.set(index, builderForValue.build());
-          onChanged();
-        } else {
-          lGIIAMBMLKCBuilder_.setMessage(index, builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
-       */
-      public Builder addLGIIAMBMLKC(emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND value) {
-        if (lGIIAMBMLKCBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureLGIIAMBMLKCIsMutable();
-          lGIIAMBMLKC_.add(value);
-          onChanged();
-        } else {
-          lGIIAMBMLKCBuilder_.addMessage(value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
-       */
-      public Builder addLGIIAMBMLKC(
-          int index, emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND value) {
-        if (lGIIAMBMLKCBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureLGIIAMBMLKCIsMutable();
-          lGIIAMBMLKC_.add(index, value);
-          onChanged();
-        } else {
-          lGIIAMBMLKCBuilder_.addMessage(index, value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
-       */
-      public Builder addLGIIAMBMLKC(
-          emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND.Builder builderForValue) {
-        if (lGIIAMBMLKCBuilder_ == null) {
-          ensureLGIIAMBMLKCIsMutable();
-          lGIIAMBMLKC_.add(builderForValue.build());
-          onChanged();
-        } else {
-          lGIIAMBMLKCBuilder_.addMessage(builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
-       */
-      public Builder addLGIIAMBMLKC(
-          int index, emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND.Builder builderForValue) {
-        if (lGIIAMBMLKCBuilder_ == null) {
-          ensureLGIIAMBMLKCIsMutable();
-          lGIIAMBMLKC_.add(index, builderForValue.build());
-          onChanged();
-        } else {
-          lGIIAMBMLKCBuilder_.addMessage(index, builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
-       */
-      public Builder addAllLGIIAMBMLKC(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND> values) {
-        if (lGIIAMBMLKCBuilder_ == null) {
-          ensureLGIIAMBMLKCIsMutable();
-          com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, lGIIAMBMLKC_);
-          onChanged();
-        } else {
-          lGIIAMBMLKCBuilder_.addAllMessages(values);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
-       */
-      public Builder clearLGIIAMBMLKC() {
-        if (lGIIAMBMLKCBuilder_ == null) {
-          lGIIAMBMLKC_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000001);
-          onChanged();
-        } else {
-          lGIIAMBMLKCBuilder_.clear();
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
-       */
-      public Builder removeLGIIAMBMLKC(int index) {
-        if (lGIIAMBMLKCBuilder_ == null) {
-          ensureLGIIAMBMLKCIsMutable();
-          lGIIAMBMLKC_.remove(index);
-          onChanged();
-        } else {
-          lGIIAMBMLKCBuilder_.remove(index);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
-       */
-      public emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND.Builder getLGIIAMBMLKCBuilder(
-          int index) {
-        return getLGIIAMBMLKCFieldBuilder().getBuilder(index);
-      }
-      /**
-       * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
-       */
-      public emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBNDOrBuilder getLGIIAMBMLKCOrBuilder(
-          int index) {
-        if (lGIIAMBMLKCBuilder_ == null) {
-          return lGIIAMBMLKC_.get(index);  } else {
-          return lGIIAMBMLKCBuilder_.getMessageOrBuilder(index);
-        }
-      }
-      /**
-       * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
-       */
-      public java.util.List<? extends emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBNDOrBuilder>
-           getLGIIAMBMLKCOrBuilderList() {
-        if (lGIIAMBMLKCBuilder_ != null) {
-          return lGIIAMBMLKCBuilder_.getMessageOrBuilderList();
-        } else {
-          return java.util.Collections.unmodifiableList(lGIIAMBMLKC_);
-        }
-      }
-      /**
-       * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
-       */
-      public emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND.Builder addLGIIAMBMLKCBuilder() {
-        return getLGIIAMBMLKCFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND.getDefaultInstance());
-      }
-      /**
-       * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
-       */
-      public emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND.Builder addLGIIAMBMLKCBuilder(
-          int index) {
-        return getLGIIAMBMLKCFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND.getDefaultInstance());
-      }
-      /**
-       * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND.Builder>
-           getLGIIAMBMLKCBuilderList() {
-        return getLGIIAMBMLKCFieldBuilder().getBuilderList();
-      }
-      private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND, emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND.Builder, emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBNDOrBuilder>
-          getLGIIAMBMLKCFieldBuilder() {
-        if (lGIIAMBMLKCBuilder_ == null) {
-          lGIIAMBMLKCBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND, emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND.Builder, emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBNDOrBuilder>(
-                  lGIIAMBMLKC_,
-                  ((bitField0_ & 0x00000001) != 0),
-                  getParentForChildren(),
-                  isClean());
-          lGIIAMBMLKC_ = null;
-        }
-        return lGIIAMBMLKCBuilder_;
-      }
-
       private boolean isContentClosed_ ;
-
+      /**
+       * <code>bool is_content_closed = 5;</code>
+       * @return The isContentClosed.
+       */
       @java.lang.Override
       public boolean getIsContentClosed() {
         return isContentClosed_;
       }
-
+      /**
+       * <code>bool is_content_closed = 5;</code>
+       * @param value The isContentClosed to set.
+       * @return This builder for chaining.
+       */
       public Builder setIsContentClosed(boolean value) {
-
+        
         isContentClosed_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>bool is_content_closed = 5;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearIsContentClosed() {
-
+        
         isContentClosed_ = false;
         onChanged();
         return this;
       }
 
-      private int dELEOLGNEDK_ ;
+      private java.util.List<emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData> regionDataList_ =
+        java.util.Collections.emptyList();
+      private void ensureRegionDataListIsMutable() {
+        if (!((bitField0_ & 0x00000001) != 0)) {
+          regionDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData>(regionDataList_);
+          bitField0_ |= 0x00000001;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData, emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData.Builder, emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionDataOrBuilder> regionDataListBuilder_;
+
       /**
-       * <code>uint32 DELEOLGNEDK = 15;</code>
-       * @return The dELEOLGNEDK.
+       * <code>repeated .TreasureSeelieRegionData region_data_list = 8;</code>
        */
-      @java.lang.Override
-      public int getDELEOLGNEDK() {
-        return dELEOLGNEDK_;
+      public java.util.List<emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData> getRegionDataListList() {
+        if (regionDataListBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(regionDataList_);
+        } else {
+          return regionDataListBuilder_.getMessageList();
+        }
       }
       /**
-       * <code>uint32 DELEOLGNEDK = 15;</code>
-       * @param value The dELEOLGNEDK to set.
+       * <code>repeated .TreasureSeelieRegionData region_data_list = 8;</code>
+       */
+      public int getRegionDataListCount() {
+        if (regionDataListBuilder_ == null) {
+          return regionDataList_.size();
+        } else {
+          return regionDataListBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .TreasureSeelieRegionData region_data_list = 8;</code>
+       */
+      public emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData getRegionDataList(int index) {
+        if (regionDataListBuilder_ == null) {
+          return regionDataList_.get(index);
+        } else {
+          return regionDataListBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .TreasureSeelieRegionData region_data_list = 8;</code>
+       */
+      public Builder setRegionDataList(
+          int index, emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData value) {
+        if (regionDataListBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureRegionDataListIsMutable();
+          regionDataList_.set(index, value);
+          onChanged();
+        } else {
+          regionDataListBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .TreasureSeelieRegionData region_data_list = 8;</code>
+       */
+      public Builder setRegionDataList(
+          int index, emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData.Builder builderForValue) {
+        if (regionDataListBuilder_ == null) {
+          ensureRegionDataListIsMutable();
+          regionDataList_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          regionDataListBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .TreasureSeelieRegionData region_data_list = 8;</code>
+       */
+      public Builder addRegionDataList(emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData value) {
+        if (regionDataListBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureRegionDataListIsMutable();
+          regionDataList_.add(value);
+          onChanged();
+        } else {
+          regionDataListBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .TreasureSeelieRegionData region_data_list = 8;</code>
+       */
+      public Builder addRegionDataList(
+          int index, emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData value) {
+        if (regionDataListBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureRegionDataListIsMutable();
+          regionDataList_.add(index, value);
+          onChanged();
+        } else {
+          regionDataListBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .TreasureSeelieRegionData region_data_list = 8;</code>
+       */
+      public Builder addRegionDataList(
+          emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData.Builder builderForValue) {
+        if (regionDataListBuilder_ == null) {
+          ensureRegionDataListIsMutable();
+          regionDataList_.add(builderForValue.build());
+          onChanged();
+        } else {
+          regionDataListBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .TreasureSeelieRegionData region_data_list = 8;</code>
+       */
+      public Builder addRegionDataList(
+          int index, emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData.Builder builderForValue) {
+        if (regionDataListBuilder_ == null) {
+          ensureRegionDataListIsMutable();
+          regionDataList_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          regionDataListBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .TreasureSeelieRegionData region_data_list = 8;</code>
+       */
+      public Builder addAllRegionDataList(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData> values) {
+        if (regionDataListBuilder_ == null) {
+          ensureRegionDataListIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, regionDataList_);
+          onChanged();
+        } else {
+          regionDataListBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .TreasureSeelieRegionData region_data_list = 8;</code>
+       */
+      public Builder clearRegionDataList() {
+        if (regionDataListBuilder_ == null) {
+          regionDataList_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
+          onChanged();
+        } else {
+          regionDataListBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .TreasureSeelieRegionData region_data_list = 8;</code>
+       */
+      public Builder removeRegionDataList(int index) {
+        if (regionDataListBuilder_ == null) {
+          ensureRegionDataListIsMutable();
+          regionDataList_.remove(index);
+          onChanged();
+        } else {
+          regionDataListBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .TreasureSeelieRegionData region_data_list = 8;</code>
+       */
+      public emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData.Builder getRegionDataListBuilder(
+          int index) {
+        return getRegionDataListFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .TreasureSeelieRegionData region_data_list = 8;</code>
+       */
+      public emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionDataOrBuilder getRegionDataListOrBuilder(
+          int index) {
+        if (regionDataListBuilder_ == null) {
+          return regionDataList_.get(index);  } else {
+          return regionDataListBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .TreasureSeelieRegionData region_data_list = 8;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionDataOrBuilder> 
+           getRegionDataListOrBuilderList() {
+        if (regionDataListBuilder_ != null) {
+          return regionDataListBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(regionDataList_);
+        }
+      }
+      /**
+       * <code>repeated .TreasureSeelieRegionData region_data_list = 8;</code>
+       */
+      public emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData.Builder addRegionDataListBuilder() {
+        return getRegionDataListFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .TreasureSeelieRegionData region_data_list = 8;</code>
+       */
+      public emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData.Builder addRegionDataListBuilder(
+          int index) {
+        return getRegionDataListFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .TreasureSeelieRegionData region_data_list = 8;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData.Builder> 
+           getRegionDataListBuilderList() {
+        return getRegionDataListFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData, emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData.Builder, emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionDataOrBuilder> 
+          getRegionDataListFieldBuilder() {
+        if (regionDataListBuilder_ == null) {
+          regionDataListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData, emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionData.Builder, emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.TreasureSeelieRegionDataOrBuilder>(
+                  regionDataList_,
+                  ((bitField0_ & 0x00000001) != 0),
+                  getParentForChildren(),
+                  isClean());
+          regionDataList_ = null;
+        }
+        return regionDataListBuilder_;
+      }
+
+      private int treasureCloseTime_ ;
+      /**
+       * <code>uint32 treasure_close_time = 14;</code>
+       * @return The treasureCloseTime.
+       */
+      @java.lang.Override
+      public int getTreasureCloseTime() {
+        return treasureCloseTime_;
+      }
+      /**
+       * <code>uint32 treasure_close_time = 14;</code>
+       * @param value The treasureCloseTime to set.
        * @return This builder for chaining.
        */
-      public Builder setDELEOLGNEDK(int value) {
-
-        dELEOLGNEDK_ = value;
+      public Builder setTreasureCloseTime(int value) {
+        
+        treasureCloseTime_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 DELEOLGNEDK = 15;</code>
+       * <code>uint32 treasure_close_time = 14;</code>
        * @return This builder for chaining.
        */
-      public Builder clearDELEOLGNEDK() {
-
-        dELEOLGNEDK_ = 0;
+      public Builder clearTreasureCloseTime() {
+        
+        treasureCloseTime_ = 0;
         onChanged();
         return this;
       }
@@ -889,6 +906,7 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:TreasureSeelieActivityDetailInfo)
     }
@@ -932,7 +950,7 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_TreasureSeelieActivityDetailInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_TreasureSeelieActivityDetailInfo_fieldAccessorTable;
 
@@ -945,24 +963,26 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n&TreasureSeelieActivityDetailInfo.proto" +
-      "\032\021IHMEPOBHBND.proto\"u\n TreasureSeelieAct" +
-      "ivityDetailInfo\022!\n\013LGIIAMBMLKC\030\014 \003(\0132\014.I" +
-      "HMEPOBHBND\022\031\n\021is_content_closed\030\r \001(\010\022\023\n" +
-      "\013DELEOLGNEDK\030\017 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\032\036TreasureSeelieRegionData.proto\"\217\001\n Tre" +
+      "asureSeelieActivityDetailInfo\022\031\n\021is_cont" +
+      "ent_closed\030\005 \001(\010\0223\n\020region_data_list\030\010 \003" +
+      "(\0132\031.TreasureSeelieRegionData\022\033\n\023treasur" +
+      "e_close_time\030\016 \001(\rBG\n\031emu.grasscutter.ne" +
+      "t.protoB*TreasureSeelieActivityDetailInf" +
+      "oOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.getDescriptor(),
         });
     internal_static_TreasureSeelieActivityDetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_TreasureSeelieActivityDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_TreasureSeelieActivityDetailInfo_descriptor,
-        new java.lang.String[] { "LGIIAMBMLKC", "IsContentClosed", "DELEOLGNEDK", });
-    emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.getDescriptor();
+        new java.lang.String[] { "IsContentClosed", "RegionDataList", "TreasureCloseTime", });
+    emu.grasscutter.net.proto.TreasureSeelieRegionDataOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

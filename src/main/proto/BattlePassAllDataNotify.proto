@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "BattlePassAllDataNotifyOuterClass";
+
+import "BattlePassMission.proto";
+import "BattlePassSchedule.proto";
+
+message BattlePassAllDataNotify {
+	bool have_cur_schedule = 1;
+	repeated BattlePassMission mission_list = 2;
+	BattlePassSchedule cur_schedule = 7;
+	uint32 _battle_pass_plan = 8;
+	bool HBHFBAGFADF = 10;
+	bool is_viewed = 13;
+}

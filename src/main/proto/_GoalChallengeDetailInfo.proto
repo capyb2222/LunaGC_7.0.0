@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_GoalChallengeDetailInfoOuterClass";
+
+import "CCINMGMEJBN.proto";
+
+message _GoalChallengeDetailInfo {
+	uint32 AFLBMHKMOEF = 2;
+	repeated CCINMGMEJBN stage_info_list = 15;
+}

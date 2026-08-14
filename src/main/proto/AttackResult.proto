@@ -1,0 +1,55 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AttackResultOuterClass";
+
+import "AbilityIdentifier.proto";
+import "AttackHitEffectResult.proto";
+import "CIHENMDCMGJ.proto";
+import "HIMBAGFLEHM.proto";
+import "HitCollision.proto";
+import "IFMIEJICEMA.proto";
+import "Vector.proto";
+
+message AttackResult {
+	Vector NKCMIFFBMEN = 1;
+	uint32 attacker_id = 2;
+	uint32 LNFCPOINHKK = 3;
+	uint32 element_type = 4;
+	bool EPLABAAGCKE = 5;
+	HitCollision hit_collision = 7;
+	int32 hit_retreat_angle_compat = 8;
+	uint32 ANHLIIPLJLJ = 9;
+	AbilityIdentifier ability_identifier = 10;
+	AttackHitEffectResult hit_eff_result = 11;
+	float damage = 13;
+	uint32 defense_id = 14;
+	string anim_event_id = 15;
+	uint32 EKDNPKHMJIE = 84;
+	float OOFNGENKHKG = 126;
+	repeated uint32 OHPEIAGBOIK = 139;
+	bool GGAMPLOEPMG = 221;
+	float MDECMKGHDAK = 239;
+	CIHENMDCMGJ EFBFOAOJADK = 313;
+	uint32 BNBBLJCDMPJ = 363;
+	float MDBPICGKMLB = 370;
+	uint32 JCPDJCGGJCC = 404;
+	uint32 FDEGAMMGNGI = 536;
+	uint32 MHJDKCODNAA = 753;
+	uint32 GMNALDFDANK = 850;
+	float NILAPFIGLLH = 956;
+	bool PKOFLCBFEOA = 993;
+	uint32 IFHJIFEBKAO = 1085;
+	uint32 CFKHDFPCHCL = 1213;
+	uint32 PLNPCMILPPD = 1251;
+	float NJFMEBDIICN = 1413;
+	HIMBAGFLEHM PGPBACPJGNM = 1468;
+	uint32 JILIGGDCLDH = 1512;
+	IFMIEJICEMA EEDDIJJOCFM = 1598;
+	bool DMIEAHDCHFA = 1762;
+	Vector DNMDKFFCNPJ = 1776;
+	bool OMJGKPMPFBI = 1793;
+	uint32 BJHAEPGOAKM = 1837;
+	uint32 MOEKEMAHBNN = 1964;
+	uint32 IDENIGMCBJB = 2045;
+}

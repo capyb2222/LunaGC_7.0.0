@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GAMGGAFDDNGOuterClass";
+
+import "Vector.proto";
+
+message GAMGGAFDDNG {
+	uint32 pos_id = 4;
+	Vector center = 5;
+	bool is_view = 9;
+	uint32 open_time = 12;
+	bool is_open = 15;
+}

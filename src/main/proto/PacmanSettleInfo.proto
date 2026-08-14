@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PacmanSettleInfoOuterClass";
+
+import "_PacmanDungeonStopReason.proto";
+
+message PacmanSettleInfo {
+	_PacmanDungeonStopReason reason = 2;
+	uint32 coin_num = 9;
+	uint32 final_score = 10;
+	bool is_new_record = 11;
+	uint32 killed_monster_num = 15;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "TreasureHuntV4DetailInfoOuterClass";
+
+import "LFKPMBBOGDP.proto";
+
+message TreasureHuntV4DetailInfo {
+	repeated LFKPMBBOGDP level_info_list = 13;
+}

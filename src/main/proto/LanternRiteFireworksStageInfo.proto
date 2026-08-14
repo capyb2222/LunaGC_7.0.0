@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "LanternRiteFireworksStageInfoOuterClass";
+
+import "LanternRiteFireworksChallengeInfo.proto";
+
+message LanternRiteFireworksStageInfo {
+	uint32 stage_id = 1;
+	repeated LanternRiteFireworksChallengeInfo challenge_info_list = 7;
+	bool is_open = 12;
+}

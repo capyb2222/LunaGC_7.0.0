@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AGFKCCEPCELOuterClass";
+
+message AGFKCCEPCEL {
+	repeated uint32 DKEHHBCDOFM = 2;
+	uint32 level_id = 4;
+	uint32 IGDLJCFLAMD = 9;
+	repeated uint32 OEEJKPILPFI = 12;
+}

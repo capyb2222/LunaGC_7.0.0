@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ForwardTypeOuterClass";
+
+enum ForwardType {
+	ForwardType_FORWARD_LOCAL = 0;
+	ForwardType_FORWARD_TO_ALL = 1;
+	ForwardType_FORWARD_TO_ALL_EXCEPT_CUR = 2;
+	ForwardType_FORWARD_TO_HOST = 3;
+	ForwardType_FORWARD_TO_ALL_GUEST = 4;
+	ForwardType_FORWARD_TO_PEER = 5;
+	ForwardType_FORWARD_TO_PEERS = 6;
+	ForwardType_FORWARD_ONLY_SERVER = 7;
+	ForwardType_FORWARD_TO_ALL_EXIST_EXCEPT_CUR = 8;
+}

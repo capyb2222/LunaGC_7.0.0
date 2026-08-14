@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CEAFBJOBFJEOuterClass";
+
+import "DEGDFAOEICK.proto";
+
+message CEAFBJOBFJE {
+	DEGDFAOEICK KKFBGJGDAJI = 1;
+	uint32 EMBJNKGJLFN = 2;
+}

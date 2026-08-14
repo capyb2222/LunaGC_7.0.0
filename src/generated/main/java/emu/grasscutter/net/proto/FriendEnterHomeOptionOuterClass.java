@@ -144,7 +144,8 @@ public final class FriendEnterHomeOptionOuterClass {
       "EnterHomeOption\022&\n\"FriendEnterHomeOption" +
       "_NEED_CONFIRM\020\000\022 \n\034FriendEnterHomeOption" +
       "_REFUSE\020\001\022 \n\034FriendEnterHomeOption_DIREC" +
-      "T\020\002B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "T\020\002B<\n\031emu.grasscutter.net.protoB\037Friend" +
+      "EnterHomeOptionOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

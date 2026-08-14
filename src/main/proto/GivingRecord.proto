@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GivingRecordOuterClass";
+
+message GivingRecord {
+	uint32 config_id = 1;
+	uint32 group_id = 4;
+	bool is_finished = 7;
+	uint32 last_group_id = 8;
+	map<uint32, uint32> material_cnt_map = 9;
+	uint32 giving_id = 14;
+	bool is_gadget_giving = 15;
+}

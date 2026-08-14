@@ -18,8 +18,13 @@ public final class AvatarPropNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:AvatarPropNotify)
       com.google.protobuf.MessageOrBuilder {
 
+    /**
+     * <code>map&lt;uint32, int64&gt; prop_map = 9;</code>
+     */
     int getPropMapCount();
-
+    /**
+     * <code>map&lt;uint32, int64&gt; prop_map = 9;</code>
+     */
     boolean containsPropMap(
         int key);
     /**
@@ -28,24 +33,32 @@ public final class AvatarPropNotifyOuterClass {
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Long>
     getPropMap();
-
+    /**
+     * <code>map&lt;uint32, int64&gt; prop_map = 9;</code>
+     */
     java.util.Map<java.lang.Integer, java.lang.Long>
     getPropMapMap();
+    /**
+     * <code>map&lt;uint32, int64&gt; prop_map = 9;</code>
+     */
 
     long getPropMapOrDefault(
         int key,
         long defaultValue);
+    /**
+     * <code>map&lt;uint32, int64&gt; prop_map = 9;</code>
+     */
 
     long getPropMapOrThrow(
         int key);
 
+    /**
+     * <code>uint64 avatar_guid = 14;</code>
+     * @return The avatarGuid.
+     */
     long getAvatarGuid();
   }
   /**
-   * <pre>
-   * CmdId: 4434
-   * </pre>
-   *
    * Protobuf type {@code AvatarPropNotify}
    */
   public static final class AvatarPropNotify extends
@@ -91,7 +104,7 @@ public final class AvatarPropNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 66: {
+            case 74: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 propMap_ = com.google.protobuf.MapField.newMapField(
                     PropMapDefaultEntryHolder.defaultEntry);
@@ -104,7 +117,7 @@ public final class AvatarPropNotifyOuterClass {
                   propMap__.getKey(), propMap__.getValue());
               break;
             }
-            case 104: {
+            case 112: {
 
               avatarGuid_ = input.readUInt64();
               break;
@@ -138,7 +151,7 @@ public final class AvatarPropNotifyOuterClass {
     protected com.google.protobuf.MapField internalGetMapField(
         int number) {
       switch (number) {
-        case 3:
+        case 9:
           return internalGetPropMap();
         default:
           throw new RuntimeException(
@@ -153,13 +166,13 @@ public final class AvatarPropNotifyOuterClass {
               emu.grasscutter.net.proto.AvatarPropNotifyOuterClass.AvatarPropNotify.class, emu.grasscutter.net.proto.AvatarPropNotifyOuterClass.AvatarPropNotify.Builder.class);
     }
 
-    public static final int PROP_MAP_FIELD_NUMBER = 8;
+    public static final int PROP_MAP_FIELD_NUMBER = 9;
     private static final class PropMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Long> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Long>newDefaultInstance(
-                  emu.grasscutter.net.proto.AvatarPropNotifyOuterClass.internal_static_AvatarPropNotify_PropMapEntry_descriptor,
+                  emu.grasscutter.net.proto.AvatarPropNotifyOuterClass.internal_static_AvatarPropNotify_PropMapEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.INT64,
@@ -179,11 +192,14 @@ public final class AvatarPropNotifyOuterClass {
     public int getPropMapCount() {
       return internalGetPropMap().getMap().size();
     }
+    /**
+     * <code>map&lt;uint32, int64&gt; prop_map = 9;</code>
+     */
 
     @java.lang.Override
     public boolean containsPropMap(
         int key) {
-
+      
       return internalGetPropMap().getMap().containsKey(key);
     }
     /**
@@ -194,29 +210,35 @@ public final class AvatarPropNotifyOuterClass {
     public java.util.Map<java.lang.Integer, java.lang.Long> getPropMap() {
       return getPropMapMap();
     }
-
+    /**
+     * <code>map&lt;uint32, int64&gt; prop_map = 9;</code>
+     */
     @java.lang.Override
 
     public java.util.Map<java.lang.Integer, java.lang.Long> getPropMapMap() {
       return internalGetPropMap().getMap();
     }
-
+    /**
+     * <code>map&lt;uint32, int64&gt; prop_map = 9;</code>
+     */
     @java.lang.Override
 
     public long getPropMapOrDefault(
         int key,
         long defaultValue) {
-
+      
       java.util.Map<java.lang.Integer, java.lang.Long> map =
           internalGetPropMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
-
+    /**
+     * <code>map&lt;uint32, int64&gt; prop_map = 9;</code>
+     */
     @java.lang.Override
 
     public long getPropMapOrThrow(
         int key) {
-
+      
       java.util.Map<java.lang.Integer, java.lang.Long> map =
           internalGetPropMap().getMap();
       if (!map.containsKey(key)) {
@@ -225,9 +247,12 @@ public final class AvatarPropNotifyOuterClass {
       return map.get(key);
     }
 
-    public static final int AVATAR_GUID_FIELD_NUMBER = 13;
+    public static final int AVATAR_GUID_FIELD_NUMBER = 14;
     private long avatarGuid_;
-
+    /**
+     * <code>uint64 avatar_guid = 14;</code>
+     * @return The avatarGuid.
+     */
     @java.lang.Override
     public long getAvatarGuid() {
       return avatarGuid_;
@@ -247,15 +272,15 @@ public final class AvatarPropNotifyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (avatarGuid_ != 0L) {
-        output.writeUInt64(13, avatarGuid_);
-      }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
           internalGetPropMap(),
           PropMapDefaultEntryHolder.defaultEntry,
-          8);
+          9);
+      if (avatarGuid_ != 0L) {
+        output.writeUInt64(14, avatarGuid_);
+      }
       unknownFields.writeTo(output);
     }
 
@@ -265,10 +290,6 @@ public final class AvatarPropNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (avatarGuid_ != 0L) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(13, avatarGuid_);
-      }
       for (java.util.Map.Entry<java.lang.Integer, java.lang.Long> entry
            : internalGetPropMap().getMap().entrySet()) {
         com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Long>
@@ -277,7 +298,11 @@ public final class AvatarPropNotifyOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(8, propMap__);
+            .computeMessageSize(9, propMap__);
+      }
+      if (avatarGuid_ != 0L) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt64Size(14, avatarGuid_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -412,10 +437,6 @@ public final class AvatarPropNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 4434
-     * </pre>
-     *
      * Protobuf type {@code AvatarPropNotify}
      */
     public static final class Builder extends
@@ -431,7 +452,7 @@ public final class AvatarPropNotifyOuterClass {
       protected com.google.protobuf.MapField internalGetMapField(
           int number) {
         switch (number) {
-          case 14:
+          case 9:
             return internalGetPropMap();
           default:
             throw new RuntimeException(
@@ -442,7 +463,7 @@ public final class AvatarPropNotifyOuterClass {
       protected com.google.protobuf.MapField internalGetMutableMapField(
           int number) {
         switch (number) {
-          case 3:
+          case 9:
             return internalGetMutablePropMap();
           default:
             throw new RuntimeException(
@@ -617,11 +638,14 @@ public final class AvatarPropNotifyOuterClass {
       public int getPropMapCount() {
         return internalGetPropMap().getMap().size();
       }
+      /**
+       * <code>map&lt;uint32, int64&gt; prop_map = 9;</code>
+       */
 
       @java.lang.Override
       public boolean containsPropMap(
           int key) {
-
+        
         return internalGetPropMap().getMap().containsKey(key);
       }
       /**
@@ -632,29 +656,35 @@ public final class AvatarPropNotifyOuterClass {
       public java.util.Map<java.lang.Integer, java.lang.Long> getPropMap() {
         return getPropMapMap();
       }
-
+      /**
+       * <code>map&lt;uint32, int64&gt; prop_map = 9;</code>
+       */
       @java.lang.Override
 
       public java.util.Map<java.lang.Integer, java.lang.Long> getPropMapMap() {
         return internalGetPropMap().getMap();
       }
-
+      /**
+       * <code>map&lt;uint32, int64&gt; prop_map = 9;</code>
+       */
       @java.lang.Override
 
       public long getPropMapOrDefault(
           int key,
           long defaultValue) {
-
+        
         java.util.Map<java.lang.Integer, java.lang.Long> map =
             internalGetPropMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
-
+      /**
+       * <code>map&lt;uint32, int64&gt; prop_map = 9;</code>
+       */
       @java.lang.Override
 
       public long getPropMapOrThrow(
           int key) {
-
+        
         java.util.Map<java.lang.Integer, java.lang.Long> map =
             internalGetPropMap().getMap();
         if (!map.containsKey(key)) {
@@ -668,10 +698,13 @@ public final class AvatarPropNotifyOuterClass {
             .clear();
         return this;
       }
+      /**
+       * <code>map&lt;uint32, int64&gt; prop_map = 9;</code>
+       */
 
       public Builder removePropMap(
           int key) {
-
+        
         internalGetMutablePropMap().getMutableMap()
             .remove(key);
         return this;
@@ -684,15 +717,21 @@ public final class AvatarPropNotifyOuterClass {
       getMutablePropMap() {
         return internalGetMutablePropMap().getMutableMap();
       }
-
+      /**
+       * <code>map&lt;uint32, int64&gt; prop_map = 9;</code>
+       */
       public Builder putPropMap(
           int key,
           long value) {
-
+        
+        
         internalGetMutablePropMap().getMutableMap()
             .put(key, value);
         return this;
       }
+      /**
+       * <code>map&lt;uint32, int64&gt; prop_map = 9;</code>
+       */
 
       public Builder putAllPropMap(
           java.util.Map<java.lang.Integer, java.lang.Long> values) {
@@ -702,21 +741,31 @@ public final class AvatarPropNotifyOuterClass {
       }
 
       private long avatarGuid_ ;
-
+      /**
+       * <code>uint64 avatar_guid = 14;</code>
+       * @return The avatarGuid.
+       */
       @java.lang.Override
       public long getAvatarGuid() {
         return avatarGuid_;
       }
-
+      /**
+       * <code>uint64 avatar_guid = 14;</code>
+       * @param value The avatarGuid to set.
+       * @return This builder for chaining.
+       */
       public Builder setAvatarGuid(long value) {
-
+        
         avatarGuid_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint64 avatar_guid = 14;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearAvatarGuid() {
-
+        
         avatarGuid_ = 0L;
         onChanged();
         return this;
@@ -732,6 +781,7 @@ public final class AvatarPropNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:AvatarPropNotify)
     }
@@ -775,12 +825,12 @@ public final class AvatarPropNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarPropNotify_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarPropNotify_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarPropNotify_PropMapEntry_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarPropNotify_PropMapEntry_fieldAccessorTable;
 
@@ -793,11 +843,11 @@ public final class AvatarPropNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026AvatarPropNotify.proto\"\211\001\n\020AvatarPropN" +
-      "otify\0220\n\010prop_map\030\016 \003(\0132\036.AvatarPropNoti" +
-      "fy.PropMapEntry\022\023\n\013avatar_guid\030\014 \001(\004\032.\n\014" +
+      "otify\0220\n\010prop_map\030\t \003(\0132\036.AvatarPropNoti" +
+      "fy.PropMapEntry\022\023\n\013avatar_guid\030\016 \001(\004\032.\n\014" +
       "PropMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\003" +
-      ":\0028\001B\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      ":\0028\001B7\n\031emu.grasscutter.net.protoB\032Avata" +
+      "rPropNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

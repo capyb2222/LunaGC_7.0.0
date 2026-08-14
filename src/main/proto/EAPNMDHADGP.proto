@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EAPNMDHADGPOuterClass";
+
+message EAPNMDHADGP {
+	bool is_open = 6;
+	uint32 level_id = 13;
+}

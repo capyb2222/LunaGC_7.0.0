@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "LanternProjectionInfoOuterClass";
+
+import "ClientInputType.proto";
+import "LanternProjectionLevelInfo.proto";
+
+message LanternProjectionInfo {
+	repeated uint32 open_stage_list = 4;
+	repeated LanternProjectionLevelInfo level_list = 6;
+	repeated ClientInputType GOBNJOGJEMP = 11;
+	repeated ClientInputType PLJBMMAMJDL = 15;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "JPLNCOKGBBGOuterClass";
+
+import "IHNALHEKDID.proto";
+
+message JPLNCOKGBBG {
+	uint32 schedule_id = 2;
+	repeated IHNALHEKDID HAOABGIPDMO = 14;
+}

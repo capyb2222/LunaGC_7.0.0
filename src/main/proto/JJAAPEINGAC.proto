@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "JJAAPEINGACOuterClass";
+
+import "GCGPlayCardCostInfo.proto";
+
+message JJAAPEINGAC {
+	uint32 NMKGLEHEEIN = 1;
+	repeated uint32 AJJGPPPBOAB = 6;
+	repeated uint32 EGLADOIBKMG = 7;
+	uint32 FHJEAPIGJLG = 11;
+	repeated GCGPlayCardCostInfo MNIGABGNNBK = 12;
+}

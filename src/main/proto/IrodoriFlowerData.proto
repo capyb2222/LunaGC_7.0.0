@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "IrodoriFlowerDataOuterClass";
+
+import "ItemParam.proto";
+
+message IrodoriFlowerData {
+	repeated uint32 finished_theme_list = 1;
+	repeated ItemParam used_flower_list = 10;
+}

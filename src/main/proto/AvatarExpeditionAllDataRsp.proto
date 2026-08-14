@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AvatarExpeditionAllDataRspOuterClass";
+
+import "AvatarExpeditionInfo.proto";
+
+message AvatarExpeditionAllDataRsp {
+	uint32 expedition_count_limit = 4;
+	map<uint64, AvatarExpeditionInfo> expedition_info_map = 11;
+	int32 retcode = 12;
+	repeated uint32 open_expedition_list = 14;
+}

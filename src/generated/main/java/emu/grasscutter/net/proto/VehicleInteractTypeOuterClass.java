@@ -144,8 +144,9 @@ public final class VehicleInteractTypeOuterClass {
       "nteractType\022-\n)VehicleInteractType_VEHIC" +
       "LE_INTERACT_NONE\020\000\022+\n\'VehicleInteractTyp" +
       "e_VEHICLE_INTERACT_IN\020\001\022,\n(VehicleIntera" +
-      "ctType_VEHICLE_INTERACT_OUT\020\002B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "ctType_VEHICLE_INTERACT_OUT\020\002B:\n\031emu.gra" +
+      "sscutter.net.protoB\035VehicleInteractTypeO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

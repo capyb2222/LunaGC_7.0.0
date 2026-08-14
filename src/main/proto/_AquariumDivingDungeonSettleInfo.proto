@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_AquariumDivingDungeonSettleInfoOuterClass";
+
+import "_AquariumDivingBagDetail.proto";
+import "_AquariumDivingLevelEvent.proto";
+
+message _AquariumDivingDungeonSettleInfo {
+	uint32 IHODOKLDAGG = 4;
+	_AquariumDivingBagDetail _bag_detail = 6;
+	uint32 EFPBHJOIBJH = 9;
+	uint32 CFPHMDCAGDL = 10;
+	uint32 _bait_count = 12;
+	repeated uint32 _finished_task_id_list = 13;
+	_AquariumDivingLevelEvent IDPMJLBKBNC = 14;
+	uint32 GJFKPLMNGED = 15;
+}

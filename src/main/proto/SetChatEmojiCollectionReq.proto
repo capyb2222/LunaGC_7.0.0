@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SetChatEmojiCollectionReqOuterClass";
+
+import "ChatEmojiCollectionData.proto";
+
+message SetChatEmojiCollectionReq {
+	ChatEmojiCollectionData chat_emoji_collection_data = 1;
+}

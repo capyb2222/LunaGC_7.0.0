@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HomeAvatarCostumeChangeNotifyOuterClass";
+
+message HomeAvatarCostumeChangeNotify {
+	uint32 avatar_id = 5;
+	uint32 costume_id = 7;
+}

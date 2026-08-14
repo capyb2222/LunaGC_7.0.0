@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_LanV6CardStickerOuterClass";
+
+message _LanV6CardSticker {
+	uint32 slot_id = 1;
+	uint32 _sticker_id = 2;
+}

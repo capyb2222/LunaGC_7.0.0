@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DAFKLLCCHJJOuterClass";
+
+message DAFKLLCCHJJ {
+	uint32 LDIIGMAACGI = 4;
+	uint32 BLKBLMKAABE = 15;
+}

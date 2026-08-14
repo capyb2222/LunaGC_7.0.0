@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "TryEnterHomeReqOuterClass";
+
+message TryEnterHomeReq {
+	uint32 target_point = 5;
+	bool is_transfer_to_safe_point = 6;
+	bool _is_transfer_to_main_house_point = 8;
+	uint32 target_uid = 14;
+}

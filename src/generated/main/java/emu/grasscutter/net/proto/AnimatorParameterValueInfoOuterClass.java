@@ -19,12 +19,6 @@ public final class AnimatorParameterValueInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 para_type = 1;</code>
-     * @return The paraType.
-     */
-    int getParaType();
-
-    /**
      * <code>int32 int_val = 2;</code>
      * @return Whether the intVal field is set.
      */
@@ -56,6 +50,12 @@ public final class AnimatorParameterValueInfoOuterClass {
      * @return The boolVal.
      */
     boolean getBoolVal();
+
+    /**
+     * <code>uint32 para_type = 1;</code>
+     * @return The paraType.
+     */
+    int getParaType();
 
     public emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo.ParaValCase getParaValCase();
   }
@@ -199,17 +199,6 @@ public final class AnimatorParameterValueInfoOuterClass {
           paraValCase_);
     }
 
-    public static final int PARA_TYPE_FIELD_NUMBER = 1;
-    private int paraType_;
-    /**
-     * <code>uint32 para_type = 1;</code>
-     * @return The paraType.
-     */
-    @java.lang.Override
-    public int getParaType() {
-      return paraType_;
-    }
-
     public static final int INT_VAL_FIELD_NUMBER = 2;
     /**
      * <code>int32 int_val = 2;</code>
@@ -271,6 +260,17 @@ public final class AnimatorParameterValueInfoOuterClass {
         return (java.lang.Boolean) paraVal_;
       }
       return false;
+    }
+
+    public static final int PARA_TYPE_FIELD_NUMBER = 1;
+    private int paraType_;
+    /**
+     * <code>uint32 para_type = 1;</code>
+     * @return The paraType.
+     */
+    @java.lang.Override
+    public int getParaType() {
+      return paraType_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -559,7 +559,6 @@ public final class AnimatorParameterValueInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo buildPartial() {
         emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo result = new emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo(this);
-        result.paraType_ = paraType_;
         if (paraValCase_ == 2) {
           result.paraVal_ = paraVal_;
         }
@@ -569,6 +568,7 @@ public final class AnimatorParameterValueInfoOuterClass {
         if (paraValCase_ == 4) {
           result.paraVal_ = paraVal_;
         }
+        result.paraType_ = paraType_;
         result.paraValCase_ = paraValCase_;
         onBuilt();
         return result;
@@ -681,37 +681,6 @@ public final class AnimatorParameterValueInfoOuterClass {
         return this;
       }
 
-
-      private int paraType_ ;
-      /**
-       * <code>uint32 para_type = 1;</code>
-       * @return The paraType.
-       */
-      @java.lang.Override
-      public int getParaType() {
-        return paraType_;
-      }
-      /**
-       * <code>uint32 para_type = 1;</code>
-       * @param value The paraType to set.
-       * @return This builder for chaining.
-       */
-      public Builder setParaType(int value) {
-        
-        paraType_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 para_type = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearParaType() {
-        
-        paraType_ = 0;
-        onChanged();
-        return this;
-      }
 
       /**
        * <code>int32 int_val = 2;</code>
@@ -835,6 +804,37 @@ public final class AnimatorParameterValueInfoOuterClass {
         }
         return this;
       }
+
+      private int paraType_ ;
+      /**
+       * <code>uint32 para_type = 1;</code>
+       * @return The paraType.
+       */
+      @java.lang.Override
+      public int getParaType() {
+        return paraType_;
+      }
+      /**
+       * <code>uint32 para_type = 1;</code>
+       * @param value The paraType to set.
+       * @return This builder for chaining.
+       */
+      public Builder setParaType(int value) {
+        
+        paraType_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 para_type = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearParaType() {
+        
+        paraType_ = 0;
+        onChanged();
+        return this;
+      }
       @java.lang.Override
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -903,10 +903,11 @@ public final class AnimatorParameterValueInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n AnimatorParameterValueInfo.proto\"w\n\032An" +
-      "imatorParameterValueInfo\022\021\n\tpara_type\030\001 " +
-      "\001(\r\022\021\n\007int_val\030\002 \001(\005H\000\022\023\n\tfloat_val\030\003 \001(" +
-      "\002H\000\022\022\n\010bool_val\030\004 \001(\010H\000B\n\n\010para_valB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "imatorParameterValueInfo\022\021\n\007int_val\030\002 \001(" +
+      "\005H\000\022\023\n\tfloat_val\030\003 \001(\002H\000\022\022\n\010bool_val\030\004 \001" +
+      "(\010H\000\022\021\n\tpara_type\030\001 \001(\rB\n\n\010para_valBA\n\031e" +
+      "mu.grasscutter.net.protoB$AnimatorParame" +
+      "terValueInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -917,7 +918,7 @@ public final class AnimatorParameterValueInfoOuterClass {
     internal_static_AnimatorParameterValueInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AnimatorParameterValueInfo_descriptor,
-        new java.lang.String[] { "ParaType", "IntVal", "FloatVal", "BoolVal", "ParaVal", });
+        new java.lang.String[] { "IntVal", "FloatVal", "BoolVal", "ParaType", "ParaVal", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

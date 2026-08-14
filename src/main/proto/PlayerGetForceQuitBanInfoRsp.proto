@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PlayerGetForceQuitBanInfoRspOuterClass";
+
+message PlayerGetForceQuitBanInfoRsp {
+	uint32 expire_time = 3;
+	uint32 match_id = 8;
+	int32 retcode = 10;
+}

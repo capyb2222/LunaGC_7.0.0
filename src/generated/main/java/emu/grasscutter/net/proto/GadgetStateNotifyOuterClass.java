@@ -18,17 +18,25 @@ public final class GadgetStateNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:GadgetStateNotify)
       com.google.protobuf.MessageOrBuilder {
 
-    boolean getIsEnableInteract();
-
+    /**
+     * <code>uint32 gadget_entity_id = 3;</code>
+     * @return The gadgetEntityId.
+     */
     int getGadgetEntityId();
 
+    /**
+     * <code>bool is_enable_interact = 4;</code>
+     * @return The isEnableInteract.
+     */
+    boolean getIsEnableInteract();
+
+    /**
+     * <code>uint32 gadget_state = 14;</code>
+     * @return The gadgetState.
+     */
     int getGadgetState();
   }
   /**
-   * <pre>
-   * CmdId: 2731
-   * </pre>
-   *
    * Protobuf type {@code GadgetStateNotify}
    */
   public static final class GadgetStateNotify extends
@@ -73,19 +81,19 @@ public final class GadgetStateNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 72: {
-
-              gadgetState_ = input.readUInt32();
-              break;
-            }
-            case 40: {
+            case 24: {
 
               gadgetEntityId_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 32: {
 
               isEnableInteract_ = input.readBool();
+              break;
+            }
+            case 112: {
+
+              gadgetState_ = input.readUInt32();
               break;
             }
             default: {
@@ -120,25 +128,34 @@ public final class GadgetStateNotifyOuterClass {
               emu.grasscutter.net.proto.GadgetStateNotifyOuterClass.GadgetStateNotify.class, emu.grasscutter.net.proto.GadgetStateNotifyOuterClass.GadgetStateNotify.Builder.class);
     }
 
-    public static final int IS_ENABLE_INTERACT_FIELD_NUMBER = 12;
-    private boolean isEnableInteract_;
-
-    @java.lang.Override
-    public boolean getIsEnableInteract() {
-      return isEnableInteract_;
-    }
-
-    public static final int GADGET_ENTITY_ID_FIELD_NUMBER = 5;
+    public static final int GADGET_ENTITY_ID_FIELD_NUMBER = 3;
     private int gadgetEntityId_;
-
+    /**
+     * <code>uint32 gadget_entity_id = 3;</code>
+     * @return The gadgetEntityId.
+     */
     @java.lang.Override
     public int getGadgetEntityId() {
       return gadgetEntityId_;
     }
 
-    public static final int GADGET_STATE_FIELD_NUMBER = 9;
-    private int gadgetState_;
+    public static final int IS_ENABLE_INTERACT_FIELD_NUMBER = 4;
+    private boolean isEnableInteract_;
+    /**
+     * <code>bool is_enable_interact = 4;</code>
+     * @return The isEnableInteract.
+     */
+    @java.lang.Override
+    public boolean getIsEnableInteract() {
+      return isEnableInteract_;
+    }
 
+    public static final int GADGET_STATE_FIELD_NUMBER = 14;
+    private int gadgetState_;
+    /**
+     * <code>uint32 gadget_state = 14;</code>
+     * @return The gadgetState.
+     */
     @java.lang.Override
     public int getGadgetState() {
       return gadgetState_;
@@ -158,14 +175,14 @@ public final class GadgetStateNotifyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (gadgetEntityId_ != 0) {
+        output.writeUInt32(3, gadgetEntityId_);
+      }
       if (isEnableInteract_ != false) {
-        output.writeBool(12, isEnableInteract_);
+        output.writeBool(4, isEnableInteract_);
       }
       if (gadgetState_ != 0) {
-        output.writeUInt32(9, gadgetState_);
-      }
-      if (gadgetEntityId_ != 0) {
-        output.writeUInt32(5, gadgetEntityId_);
+        output.writeUInt32(14, gadgetState_);
       }
       unknownFields.writeTo(output);
     }
@@ -176,17 +193,17 @@ public final class GadgetStateNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (gadgetEntityId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(3, gadgetEntityId_);
+      }
       if (isEnableInteract_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, isEnableInteract_);
+          .computeBoolSize(4, isEnableInteract_);
       }
       if (gadgetState_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, gadgetState_);
-      }
-      if (gadgetEntityId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, gadgetEntityId_);
+          .computeUInt32Size(14, gadgetState_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -203,10 +220,10 @@ public final class GadgetStateNotifyOuterClass {
       }
       emu.grasscutter.net.proto.GadgetStateNotifyOuterClass.GadgetStateNotify other = (emu.grasscutter.net.proto.GadgetStateNotifyOuterClass.GadgetStateNotify) obj;
 
-      if (getIsEnableInteract()
-          != other.getIsEnableInteract()) return false;
       if (getGadgetEntityId()
           != other.getGadgetEntityId()) return false;
+      if (getIsEnableInteract()
+          != other.getIsEnableInteract()) return false;
       if (getGadgetState()
           != other.getGadgetState()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -220,11 +237,11 @@ public final class GadgetStateNotifyOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + GADGET_ENTITY_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getGadgetEntityId();
       hash = (37 * hash) + IS_ENABLE_INTERACT_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsEnableInteract());
-      hash = (37 * hash) + GADGET_ENTITY_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getGadgetEntityId();
       hash = (37 * hash) + GADGET_STATE_FIELD_NUMBER;
       hash = (53 * hash) + getGadgetState();
       hash = (29 * hash) + unknownFields.hashCode();
@@ -323,10 +340,6 @@ public final class GadgetStateNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 2731
-     * </pre>
-     *
      * Protobuf type {@code GadgetStateNotify}
      */
     public static final class Builder extends
@@ -364,9 +377,9 @@ public final class GadgetStateNotifyOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        isEnableInteract_ = false;
-
         gadgetEntityId_ = 0;
+
+        isEnableInteract_ = false;
 
         gadgetState_ = 0;
 
@@ -396,8 +409,8 @@ public final class GadgetStateNotifyOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.GadgetStateNotifyOuterClass.GadgetStateNotify buildPartial() {
         emu.grasscutter.net.proto.GadgetStateNotifyOuterClass.GadgetStateNotify result = new emu.grasscutter.net.proto.GadgetStateNotifyOuterClass.GadgetStateNotify(this);
-        result.isEnableInteract_ = isEnableInteract_;
         result.gadgetEntityId_ = gadgetEntityId_;
+        result.isEnableInteract_ = isEnableInteract_;
         result.gadgetState_ = gadgetState_;
         onBuilt();
         return result;
@@ -447,11 +460,11 @@ public final class GadgetStateNotifyOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.GadgetStateNotifyOuterClass.GadgetStateNotify other) {
         if (other == emu.grasscutter.net.proto.GadgetStateNotifyOuterClass.GadgetStateNotify.getDefaultInstance()) return this;
-        if (other.getIsEnableInteract() != false) {
-          setIsEnableInteract(other.getIsEnableInteract());
-        }
         if (other.getGadgetEntityId() != 0) {
           setGadgetEntityId(other.getGadgetEntityId());
+        }
+        if (other.getIsEnableInteract() != false) {
+          setIsEnableInteract(other.getIsEnableInteract());
         }
         if (other.getGadgetState() != 0) {
           setGadgetState(other.getGadgetState());
@@ -485,64 +498,94 @@ public final class GadgetStateNotifyOuterClass {
         return this;
       }
 
-      private boolean isEnableInteract_ ;
-
-      @java.lang.Override
-      public boolean getIsEnableInteract() {
-        return isEnableInteract_;
-      }
-
-      public Builder setIsEnableInteract(boolean value) {
-
-        isEnableInteract_ = value;
-        onChanged();
-        return this;
-      }
-
-      public Builder clearIsEnableInteract() {
-
-        isEnableInteract_ = false;
-        onChanged();
-        return this;
-      }
-
       private int gadgetEntityId_ ;
-
+      /**
+       * <code>uint32 gadget_entity_id = 3;</code>
+       * @return The gadgetEntityId.
+       */
       @java.lang.Override
       public int getGadgetEntityId() {
         return gadgetEntityId_;
       }
-
+      /**
+       * <code>uint32 gadget_entity_id = 3;</code>
+       * @param value The gadgetEntityId to set.
+       * @return This builder for chaining.
+       */
       public Builder setGadgetEntityId(int value) {
-
+        
         gadgetEntityId_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint32 gadget_entity_id = 3;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearGadgetEntityId() {
-
+        
         gadgetEntityId_ = 0;
         onChanged();
         return this;
       }
 
-      private int gadgetState_ ;
-
+      private boolean isEnableInteract_ ;
+      /**
+       * <code>bool is_enable_interact = 4;</code>
+       * @return The isEnableInteract.
+       */
       @java.lang.Override
-      public int getGadgetState() {
-        return gadgetState_;
+      public boolean getIsEnableInteract() {
+        return isEnableInteract_;
       }
-
-      public Builder setGadgetState(int value) {
-
-        gadgetState_ = value;
+      /**
+       * <code>bool is_enable_interact = 4;</code>
+       * @param value The isEnableInteract to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIsEnableInteract(boolean value) {
+        
+        isEnableInteract_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool is_enable_interact = 4;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIsEnableInteract() {
+        
+        isEnableInteract_ = false;
         onChanged();
         return this;
       }
 
+      private int gadgetState_ ;
+      /**
+       * <code>uint32 gadget_state = 14;</code>
+       * @return The gadgetState.
+       */
+      @java.lang.Override
+      public int getGadgetState() {
+        return gadgetState_;
+      }
+      /**
+       * <code>uint32 gadget_state = 14;</code>
+       * @param value The gadgetState to set.
+       * @return This builder for chaining.
+       */
+      public Builder setGadgetState(int value) {
+        
+        gadgetState_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 gadget_state = 14;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearGadgetState() {
-
+        
         gadgetState_ = 0;
         onChanged();
         return this;
@@ -558,6 +601,7 @@ public final class GadgetStateNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:GadgetStateNotify)
     }
@@ -601,7 +645,7 @@ public final class GadgetStateNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GadgetStateNotify_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GadgetStateNotify_fieldAccessorTable;
 
@@ -614,9 +658,10 @@ public final class GadgetStateNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027GadgetStateNotify.proto\"_\n\021GadgetState" +
-      "Notify\022\032\n\022is_enable_interact\030\003 \001(\010\022\030\n\020ga" +
-      "dget_entity_id\030\016 \001(\r\022\024\n\014gadget_state\030\r \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "Notify\022\030\n\020gadget_entity_id\030\003 \001(\r\022\032\n\022is_e" +
+      "nable_interact\030\004 \001(\010\022\024\n\014gadget_state\030\016 \001" +
+      "(\rB8\n\031emu.grasscutter.net.protoB\033GadgetS" +
+      "tateNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -627,7 +672,7 @@ public final class GadgetStateNotifyOuterClass {
     internal_static_GadgetStateNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GadgetStateNotify_descriptor,
-        new java.lang.String[] { "IsEnableInteract", "GadgetEntityId", "GadgetState", });
+        new java.lang.String[] { "GadgetEntityId", "IsEnableInteract", "GadgetState", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_MultiSyncInfoOuterClass";
+
+import "IHPAJHCDDIF.proto";
+
+message _MultiSyncInfo {
+	repeated IHPAJHCDDIF KBMGLOPGOHF = 2;
+}

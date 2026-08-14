@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_SpecificGameserverOuterClass";
+
+message _SpecificGameserver {
+	uint32 JNFCLADDNJC = 1;
+	uint32 FOCNOCHNIAO = 2;
+}

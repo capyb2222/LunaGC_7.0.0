@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SeaLampV3RaceInfoOuterClass";
+
+import "SeaLampV3RaceLevelInfo.proto";
+
+message SeaLampV3RaceInfo {
+	repeated SeaLampV3RaceLevelInfo level_info_list = 6;
+}

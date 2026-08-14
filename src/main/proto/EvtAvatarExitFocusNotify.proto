@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EvtAvatarExitFocusNotifyOuterClass";
+
+import "ForwardType.proto";
+import "Vector.proto";
+
+message EvtAvatarExitFocusNotify {
+	uint32 entity_id = 3;
+	ForwardType forward_type = 12;
+	Vector finish_forward = 13;
+}

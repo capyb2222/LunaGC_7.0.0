@@ -154,8 +154,9 @@ public final class MailCollectStateOuterClass {
       "LE_UNKONW\020\000\022)\n%MailCollectState_MAIL_NOT" +
       "_COLLECTIBLE\020\001\0221\n-MailCollectState_MAIL_" +
       "COLLECTIBLE_UNCOLLECTED\020\002\022/\n+MailCollect" +
-      "State_MAIL_COLLECTIBLE_COLLECTED\020\003B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "State_MAIL_COLLECTIBLE_COLLECTED\020\003B7\n\031em" +
+      "u.grasscutter.net.protoB\032MailCollectStat" +
+      "eOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

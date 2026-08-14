@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_BeaconOuterClass";
+
+import "_TemplateText.proto";
+
+message _Beacon {
+	oneof detail {
+		_TemplateText template_text = 1;
+		uint32 icon_id = 2;
+	}
+}

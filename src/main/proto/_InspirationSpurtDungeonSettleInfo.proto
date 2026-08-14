@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_InspirationSpurtDungeonSettleInfoOuterClass";
+
+message _InspirationSpurtDungeonSettleInfo {
+	bool is_new_record = 2;
+	uint32 level_id = 7;
+	uint32 score = 8;
+	uint32 use_time = 10;
+	uint32 kill_monster_num = 11;
+}

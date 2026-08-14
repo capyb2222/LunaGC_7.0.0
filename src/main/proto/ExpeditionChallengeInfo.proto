@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ExpeditionChallengeInfoOuterClass";
+
+message ExpeditionChallengeInfo {
+	bool is_finished = 1;
+	uint32 open_time = 10;
+	uint32 id = 12;
+}

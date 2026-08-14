@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "INNBIIAMPIJOuterClass";
+
+import "_ExamInfo.proto";
+import "_OrderInfo.proto";
+
+message INNBIIAMPIJ {
+	oneof detail {
+		_ExamInfo exam_info = 9;
+		_OrderInfo order_info = 12;
+	}
+	repeated uint32 BJPDBEKODPL = 8;
+}

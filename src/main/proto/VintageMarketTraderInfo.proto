@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "VintageMarketTraderInfoOuterClass";
+
+import "ItemParam.proto";
+
+message VintageMarketTraderInfo {
+	uint32 trader_id = 3;
+	repeated ItemParam available_item_list = 6;
+}

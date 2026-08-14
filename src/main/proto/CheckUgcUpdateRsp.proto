@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CheckUgcUpdateRspOuterClass";
+
+import "UgcType.proto";
+
+message CheckUgcUpdateRsp {
+	UgcType ugc_type = 1;
+	int32 retcode = 9;
+	repeated uint64 update_ugc_guid_list = 10;
+}

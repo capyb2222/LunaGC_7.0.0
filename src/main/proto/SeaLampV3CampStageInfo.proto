@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SeaLampV3CampStageInfoOuterClass";
+
+message SeaLampV3CampStageInfo {
+	bool is_open = 6;
+	bool is_finished = 8;
+	uint32 level_id = 12;
+	uint32 stage_id = 15;
+}

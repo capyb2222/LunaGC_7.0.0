@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "WidgetCreateLocationInfoOuterClass";
+
+import "Vector.proto";
+
+message WidgetCreateLocationInfo {
+	Vector rot = 11;
+	Vector pos = 14;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GAJPJEMGABNOuterClass";
+
+message GAJPJEMGABN {
+	bool is_finished = 3;
+	uint32 level_id = 8;
+	uint32 max_score = 10;
+	bool is_open = 11;
+}

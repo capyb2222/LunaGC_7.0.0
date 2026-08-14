@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ShortAbilityHashPairOuterClass";
+
+message ShortAbilityHashPair {
+	sfixed32 ability_name_hash = 4;
+	sfixed32 ability_config_hash = 12;
+}

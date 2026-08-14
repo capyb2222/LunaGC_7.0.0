@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "WeatherInfoOuterClass";
+
+message WeatherInfo {
+	uint32 weather_area_id = 1;
+}

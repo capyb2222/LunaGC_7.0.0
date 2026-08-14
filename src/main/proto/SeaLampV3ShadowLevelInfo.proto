@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SeaLampV3ShadowLevelInfoOuterClass";
+
+message SeaLampV3ShadowLevelInfo {
+	bool is_open = 5;
+	uint32 level_id = 8;
+	uint32 min_finish_time = 12;
+}

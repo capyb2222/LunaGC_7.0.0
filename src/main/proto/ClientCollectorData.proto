@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ClientCollectorDataOuterClass";
+
+message ClientCollectorData {
+	uint32 max_points = 2;
+	uint32 material_id = 8;
+	uint32 curr_points = 9;
+}

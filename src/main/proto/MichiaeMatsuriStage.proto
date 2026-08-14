@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MichiaeMatsuriStageOuterClass";
+
+message MichiaeMatsuriStage {
+	bool is_open = 1;
+	uint32 open_time = 7;
+	uint32 stage_id = 13;
+}

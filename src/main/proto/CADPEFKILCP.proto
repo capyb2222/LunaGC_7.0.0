@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CADPEFKILCPOuterClass";
+
+message CADPEFKILCP {
+	repeated uint32 LEEFNCOJIGF = 4;
+	uint32 ACMCGGNFCPI = 5;
+	repeated uint32 JMHACMLMGCM = 13;
+}

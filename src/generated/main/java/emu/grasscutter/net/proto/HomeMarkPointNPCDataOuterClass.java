@@ -31,10 +31,6 @@ public final class HomeMarkPointNPCDataOuterClass {
     int getCostumeId();
   }
   /**
-   * <pre>
-   * Obf: DEEONIENNBB
-   * </pre>
-   *
    * Protobuf type {@code HomeMarkPointNPCData}
    */
   public static final class HomeMarkPointNPCData extends
@@ -310,10 +306,6 @@ public final class HomeMarkPointNPCDataOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * Obf: DEEONIENNBB
-     * </pre>
-     *
      * Protobuf type {@code HomeMarkPointNPCData}
      */
     public static final class Builder extends
@@ -596,8 +588,8 @@ public final class HomeMarkPointNPCDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032HomeMarkPointNPCData.proto\"=\n\024HomeMark" +
       "PointNPCData\022\021\n\tavatar_id\030\001 \001(\r\022\022\n\ncostu" +
-      "me_id\030\002 \001(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "me_id\030\002 \001(\rB;\n\031emu.grasscutter.net.proto" +
+      "B\036HomeMarkPointNPCDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

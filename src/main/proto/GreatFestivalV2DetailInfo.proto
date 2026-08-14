@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GreatFestivalV2DetailInfoOuterClass";
+
+import "IJNAPHNIHJH.proto";
+import "IPPDBOLOOIB.proto";
+import "OAKCNCLBBMI.proto";
+import "OPDOPCHKCMC.proto";
+
+message GreatFestivalV2DetailInfo {
+	IPPDBOLOOIB GOFMMGFEDBI = 2;
+	OAKCNCLBBMI CLHOGMFANFJ = 12;
+	IJNAPHNIHJH HNHIEBFPFIM = 13;
+	OPDOPCHKCMC mdppmahkpfi = 14;
+}

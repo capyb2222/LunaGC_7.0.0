@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GearLevelDataOuterClass";
+
+message GearLevelData {
+	uint32 AEAJNEDAFJI = 1;
+	bool is_open = 2;
+	uint32 level_id = 5;
+	uint32 IOAAECDDKOC = 9;
+	bool is_finished = 11;
+	uint32 open_time = 15;
+}

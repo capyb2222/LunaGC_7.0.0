@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_CooperateChallengeSettleInfoOuterClass";
+
+import "ExhibitionDisplayInfo.proto";
+import "ProfilePicture.proto";
+
+message _CooperateChallengeSettleInfo {
+	enum EACPNCPOKGE {
+		EACPNCPOKGE_SETTLE_REASON_NONE = 0;
+		EACPNCPOKGE_SETTLE_REASON_SUCC = 1;
+		EACPNCPOKGE_SETTLE_REASON_PLAYER_NOT_ENOUGH = 2;
+	}
+	message FGCJMIDEKMB {
+		repeated uint32 uid_list = 4;
+		uint32 FAFDNMIEMEL = 6;
+		int32 EOAFEBOFEJB = 9;
+	}
+	message JOPDICINNLJ {
+		uint32 uid = 2;
+		string online_id = 3;
+		ProfilePicture profile_picture = 6;
+		uint32 add_score = 7;
+		string _xbox_gamertag = 8;
+		repeated uint32 OFEHCJOPEIG = 10;
+		uint32 score = 11;
+		string nickname = 14;
+		repeated ExhibitionDisplayInfo card_list = 15;
+	}
+	uint32 IKLNEBCKENF = 3;
+	uint32 difficulty_id = 6;
+	repeated JOPDICINNLJ _settle_list = 9;
+	repeated FGCJMIDEKMB GMNBBBOLHDH = 12;
+	repeated uint32 MIFCBDAIKNH = 14;
+	EACPNCPOKGE EBGPHJCLGKC = 15;
+}

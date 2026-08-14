@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "KDIBMDNOKDBOuterClass";
+
+message KDIBMDNOKDB {
+	bool FBHFAMPKPPK = 1;
+	bool is_open = 8;
+	uint32 level_id = 11;
+	bool CLGJGGGKHBF = 14;
+	uint32 camp_id = 15;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DuelHeartLevelDifficultyInfoOuterClass";
+
+message DuelHeartLevelDifficultyInfo {
+	uint32 cost_time = 7;
+	uint32 difficulty = 8;
+	bool is_open = 11;
+}

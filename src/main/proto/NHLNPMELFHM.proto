@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "NHLNPMELFHMOuterClass";
+
+enum NHLNPMELFHM {
+	NHLNPMELFHM_GLOBAL = 0;
+	NHLNPMELFHM_ABILITY = 1;
+	NHLNPMELFHM_MP_ACTION_CONFIG_ANIM_EVENT = 2;
+	NHLNPMELFHM_MP_ACTION_CONFIG_USE_GADGET_DAMAGE_ACTION = 3;
+}

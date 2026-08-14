@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ProtEntityTypeOuterClass";
+
+enum ProtEntityType {
+	ProtEntityType_PROT_ENTITY_NONE = 0;
+	ProtEntityType_PROT_ENTITY_AVATAR = 1;
+	ProtEntityType_PROT_ENTITY_MONSTER = 2;
+	ProtEntityType_PROT_ENTITY_NPC = 3;
+	ProtEntityType_PROT_ENTITY_GADGET = 4;
+	ProtEntityType_PROT_ENTITY_REGION = 5;
+	ProtEntityType_PROT_ENTITY_WEAPON = 6;
+	ProtEntityType_PROT_ENTITY_WEATHER = 7;
+	ProtEntityType_PROT_ENTITY_SCENE = 8;
+	ProtEntityType_PROT_ENTITY_TEAM = 9;
+	ProtEntityType_PROT_ENTITY_MP_LEVEL = 11;
+	ProtEntityType_PROT_ENTITY_PLAY_TEAM_ENTITY = 12;
+	ProtEntityType_PROT_ENTITY_EYE_POINT = 13;
+	ProtEntityType_PROT_ENTITY_MAX = 14;
+}

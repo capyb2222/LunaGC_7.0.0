@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CGGCKMNCAKOOuterClass";
+
+import "DACMDDCLPNH.proto";
+import "PHMCFKLKEDO.proto";
+
+message CGGCKMNCAKO {
+	uint32 LIGGJOPGIHJ = 7;
+	DACMDDCLPNH KOCIGEHDEPP = 8;
+	uint32 max_level = 9;
+	uint32 level = 13;
+	PHMCFKLKEDO state = 14;
+}

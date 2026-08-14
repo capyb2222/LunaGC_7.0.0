@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GLHICJGJDLPOuterClass";
+
+import "EPBLMMLPIND.proto";
+import "JAGCAMGLGDP.proto";
+
+message GLHICJGJDLP {
+	uint32 DIKAJGKLPGO = 1;
+	uint32 section_id = 2;
+	map<uint32, JAGCAMGLGDP> MIJCCHLCPBA = 3;
+	map<uint32, EPBLMMLPIND> COICCEMLBOD = 4;
+}

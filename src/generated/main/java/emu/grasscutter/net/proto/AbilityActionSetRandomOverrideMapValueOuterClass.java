@@ -19,7 +19,7 @@ public final class AbilityActionSetRandomOverrideMapValueOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>float random_value = 1;</code>
+     * <code>float random_value = 4;</code>
      * @return The randomValue.
      */
     float getRandomValue();
@@ -69,7 +69,7 @@ public final class AbilityActionSetRandomOverrideMapValueOuterClass {
             case 0:
               done = true;
               break;
-            case 21: {
+            case 37: {
 
               randomValue_ = input.readFloat();
               break;
@@ -106,10 +106,10 @@ public final class AbilityActionSetRandomOverrideMapValueOuterClass {
               emu.grasscutter.net.proto.AbilityActionSetRandomOverrideMapValueOuterClass.AbilityActionSetRandomOverrideMapValue.class, emu.grasscutter.net.proto.AbilityActionSetRandomOverrideMapValueOuterClass.AbilityActionSetRandomOverrideMapValue.Builder.class);
     }
 
-    public static final int RANDOM_VALUE_FIELD_NUMBER = 2;
+    public static final int RANDOM_VALUE_FIELD_NUMBER = 4;
     private float randomValue_;
     /**
-     * <code>float random_value = 1;</code>
+     * <code>float random_value = 4;</code>
      * @return The randomValue.
      */
     @java.lang.Override
@@ -132,7 +132,7 @@ public final class AbilityActionSetRandomOverrideMapValueOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (randomValue_ != 0F) {
-        output.writeFloat(2, randomValue_);
+        output.writeFloat(4, randomValue_);
       }
       unknownFields.writeTo(output);
     }
@@ -145,7 +145,7 @@ public final class AbilityActionSetRandomOverrideMapValueOuterClass {
       size = 0;
       if (randomValue_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(2, randomValue_);
+          .computeFloatSize(4, randomValue_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -423,7 +423,7 @@ public final class AbilityActionSetRandomOverrideMapValueOuterClass {
 
       private float randomValue_ ;
       /**
-       * <code>float random_value = 1;</code>
+       * <code>float random_value = 4;</code>
        * @return The randomValue.
        */
       @java.lang.Override
@@ -431,7 +431,7 @@ public final class AbilityActionSetRandomOverrideMapValueOuterClass {
         return randomValue_;
       }
       /**
-       * <code>float random_value = 1;</code>
+       * <code>float random_value = 4;</code>
        * @param value The randomValue to set.
        * @return This builder for chaining.
        */
@@ -442,7 +442,7 @@ public final class AbilityActionSetRandomOverrideMapValueOuterClass {
         return this;
       }
       /**
-       * <code>float random_value = 1;</code>
+       * <code>float random_value = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearRandomValue() {
@@ -520,8 +520,9 @@ public final class AbilityActionSetRandomOverrideMapValueOuterClass {
     java.lang.String[] descriptorData = {
       "\n,AbilityActionSetRandomOverrideMapValue" +
       ".proto\">\n&AbilityActionSetRandomOverride" +
-      "MapValue\022\024\n\014random_value\030\001 \001(\002B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "MapValue\022\024\n\014random_value\030\004 \001(\002BM\n\031emu.gr" +
+      "asscutter.net.protoB0AbilityActionSetRan" +
+      "domOverrideMapValueOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

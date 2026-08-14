@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "NpcTalkRspOuterClass";
+
+message NpcTalkRsp {
+	uint32 cur_talk_id = 2;
+	int32 retcode = 7;
+	uint32 npc_entity_id = 13;
+	uint32 entity_id = 15;
+}

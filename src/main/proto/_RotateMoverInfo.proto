@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_RotateMoverInfoOuterClass";
+
+import "MathQuaternion.proto";
+import "Vector.proto";
+
+message _RotateMoverInfo {
+	Vector IMFDIHLBFEN = 1;
+	float LAIKIBMMJKD = 2;
+	MathQuaternion GMDLGOECLKP = 3;
+}

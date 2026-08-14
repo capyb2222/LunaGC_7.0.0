@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ChangeMailStarNotifyOuterClass";
+
+message ChangeMailStarNotify {
+	bool is_star = 2;
+	repeated uint32 mail_id_list = 14;
+}

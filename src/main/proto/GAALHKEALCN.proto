@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GAALHKEALCNOuterClass";
+
+import "NMPMEMFEOMA.proto";
+import "ShowAvatarInfo.proto";
+
+message GAALHKEALCN {
+	uint32 level_id = 1;
+	uint32 EGGHBMLGLHC = 2;
+	repeated uint32 ODGDINNDMGE = 3;
+	repeated NMPMEMFEOMA EPLCNHFNDPA = 4;
+	repeated ShowAvatarInfo show_avatar_info_list = 5;
+	uint32 DEADDOKKEHM = 7;
+	repeated uint32 AGFGCHIHNEE = 9;
+	bool is_finish = 10;
+	uint32 cost_time = 11;
+	bool OGBLPLNCKIF = 12;
+	bool is_open = 13;
+	uint32 AKCPFFADDOP = 14;
+}

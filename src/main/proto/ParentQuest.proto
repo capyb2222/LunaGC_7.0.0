@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ParentQuestOuterClass";
+
+import "CKKMPKBFBDP.proto";
+import "ChildQuest.proto";
+import "InferencePageInfo.proto";
+import "ParentQuestRandomInfo.proto";
+
+message ParentQuest {
+	bool is_finished = 1;
+	uint32 accept_time = 2;
+	repeated CKKMPKBFBDP GFFBOKNBJLC = 3;
+	repeated InferencePageInfo inference_page_list = 4;
+	repeated int32 quest_var = 5;
+	repeated ChildQuest child_quest_list = 6;
+	bool is_random = 7;
+	uint32 quest_var_seq = 8;
+	uint32 parent_quest_state = 9;
+	ParentQuestRandomInfo random_info = 10;
+	uint64 video_key = 11;
+	uint32 parent_quest_id = 12;
+	map<uint32, uint32> time_var_map = 13;
+	bool DDHKDIOKFIF = 14;
+	bool _is_focus_mode = 15;
+}

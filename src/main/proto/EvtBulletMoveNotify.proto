@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EvtBulletMoveNotifyOuterClass";
+
+import "ForwardType.proto";
+import "Vector.proto";
+
+message EvtBulletMoveNotify {
+	uint32 entity_id = 5;
+	Vector cur_pos = 8;
+	bool EOCBPPKDLBH = 9;
+	ForwardType forward_type = 14;
+}

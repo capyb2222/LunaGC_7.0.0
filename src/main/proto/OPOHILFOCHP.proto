@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "OPOHILFOCHPOuterClass";
+
+import "OJMLCFIPPAM.proto";
+
+message OPOHILFOCHP {
+	uint32 IAMHNPDGKNA = 2;
+	repeated uint32 CNIPLLIJAFD = 4;
+	repeated OJMLCFIPPAM level_info_list = 6;
+	uint32 HMJDEIANCKN = 12;
+	uint32 _win_count = 15;
+}

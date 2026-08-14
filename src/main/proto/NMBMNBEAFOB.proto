@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "NMBMNBEAFOBOuterClass";
+
+message NMBMNBEAFOB {
+	uint32 LOGADODHKOG = 3;
+	uint32 JAECPMNDFGP = 12;
+}

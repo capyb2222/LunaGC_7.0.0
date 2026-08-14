@@ -1,0 +1,41 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PlayerEnterSceneNotifyOuterClass";
+
+import "EnterType.proto";
+import "MKCENPDADHA.proto";
+import "MapLayerInfo.proto";
+import "PIJIEDJBGCN.proto";
+import "Vector.proto";
+import "_LimitedRegionInfo.proto";
+import "_MirrorWorldSceneDetail.proto";
+
+message PlayerEnterSceneNotify {
+	repeated uint32 scene_tag_id_list = 1;
+	uint32 scene_id = 2;
+	uint32 world_level = 5;
+	Vector prev_pos = 6;
+	uint32 prev_scene_id = 7;
+	Vector pos = 8;
+	EnterType type = 9;
+	uint32 enter_scene_token = 10;
+	uint64 scene_begin_time = 11;
+	uint32 target_uid = 13;
+	bool DGILMKBJBMH = 14;
+	uint32 dungeon_id = 15;
+	uint32 _template_loading_id = 673;
+	uint32 enter_reason = 685;
+	_LimitedRegionInfo _limited_region_info = 709;
+	string scene_transaction = 757;
+	uint32 _dungeon_difficulty_type = 831;
+	uint32 BGICEPHCGEO = 904;
+	PIJIEDJBGCN PCBFOAKLMKG = 960;
+	MKCENPDADHA HBCAHGNHINM = 970;
+	_MirrorWorldSceneDetail _mirror_world_scene_detail = 998;
+	MapLayerInfo _map_layer_info = 1163;
+	Vector ALLIIBMKFLN = 1281;
+	uint32 create_player_uid = 1669;
+	bool FKICGIHNPOI = 1843;
+	uint32 world_type = 1967;
+}

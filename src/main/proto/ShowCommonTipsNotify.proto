@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ShowCommonTipsNotifyOuterClass";
+
+message ShowCommonTipsNotify {
+	string title = 1;
+	string content = 9;
+	uint32 close_time = 10;
+}

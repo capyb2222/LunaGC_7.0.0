@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "INKBFLJAEJPOuterClass";
+
+import "_Vector2Int.proto";
+
+message INKBFLJAEJP {
+	uint32 uid = 1;
+	_Vector2Int pos = 2;
+	uint32 score = 3;
+	uint32 index = 4;
+	uint32 KFEHIPLFNMI = 5;
+	uint32 LOKEFCNECID = 6;
+	int32 rot = 8;
+	uint32 CFCKHNGAPKE = 9;
+	uint32 AEKEMNLLBAF = 10;
+	uint32 HDACLIOHBJC = 11;
+	uint32 HGFLCHNCDLN = 12;
+	uint32 JJFKBJHENLI = 13;
+	uint32 NINOCKACDKO = 14;
+	uint32 AKAPJEMAJHN = 15;
+	uint32 PBIOFMENBEA = 16;
+}

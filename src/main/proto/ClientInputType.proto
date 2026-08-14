@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ClientInputTypeOuterClass";
+
+enum ClientInputType {
+	CLIENT_INPUT_NONE = 0;
+	CLIENT_INPUT_KEYBORD_MOUSE = 1;
+	CLIENT_INPUT_GAMEPAD = 2;
+	CLIENT_INPUT_TOUCH_PANEL = 3;
+}

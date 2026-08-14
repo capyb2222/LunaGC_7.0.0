@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ForgeDataNotifyOuterClass";
+
+import "ForgeQueueData.proto";
+
+message ForgeDataNotify {
+	repeated uint32 forge_id_list = 6;
+	map<uint32, ForgeQueueData> forge_queue_map = 9;
+	uint32 max_queue_num = 11;
+}

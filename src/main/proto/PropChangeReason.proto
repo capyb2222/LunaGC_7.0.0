@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PropChangeReasonOuterClass";
+
+enum PropChangeReason {
+	PropChangeReason_PROP_CHANGE_NONE = 0;
+	PropChangeReason_PROP_CHANGE_STATUE_RECOVER = 1;
+	PropChangeReason_PROP_CHANGE_ENERGY_BALL = 2;
+	PropChangeReason_PROP_CHANGE_ABILITY = 3;
+	PropChangeReason_PROP_CHANGE_LEVELUP = 4;
+	PropChangeReason_PROP_CHANGE_ITEM = 5;
+	PropChangeReason_PROP_CHANGE_AVATAR_CARD = 6;
+	PropChangeReason_PROP_CHANGE_CITY_LEVELUP = 7;
+	PropChangeReason_PROP_CHANGE_AVATAR_UPGRADE = 8;
+	PropChangeReason_PROP_CHANGE_AVATAR_PROMOTE = 9;
+	PropChangeReason_PROP_CHANGE_PLAYER_ADD_EXP = 10;
+	PropChangeReason_PROP_CHANGE_FINISH_QUEST = 11;
+	PropChangeReason_PROP_CHANGE_GM = 12;
+	PropChangeReason_PROP_CHANGE_MANUAL_ADJUST_WORLD_LEVEL = 13;
+	PROP_CHANGE_BEYOND_DUTY = 14;
+	PROP_CHANGE_BEYOND_BLUEPRINT = 15;
+	PROP_CHANGE_BEYOND_EXP = 16;
+	PROP_CHANGE_OFFERING_LEVEL_UP = 17;
+}

@@ -19,18 +19,18 @@ public final class BubbleDramaActivityAvatarOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.BubbleDramaActivityAvatarState state = 15;</code>
+     * <code>.HEEENDPMDPA state = 12;</code>
      * @return The enum numeric value on the wire for state.
      */
     int getStateValue();
     /**
-     * <code>.BubbleDramaActivityAvatarState state = 15;</code>
+     * <code>.HEEENDPMDPA state = 12;</code>
      * @return The state.
      */
-    emu.grasscutter.net.proto.BubbleDramaActivityAvatarStateOuterClass.BubbleDramaActivityAvatarState getState();
+    emu.grasscutter.net.proto.HEEENDPMDPAOuterClass.HEEENDPMDPA getState();
 
     /**
-     * <code>uint32 target_id = 6;</code>
+     * <code>uint32 target_id = 13;</code>
      * @return The targetId.
      */
     int getTargetId();
@@ -81,15 +81,15 @@ public final class BubbleDramaActivityAvatarOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
-
-              targetId_ = input.readUInt32();
-              break;
-            }
-            case 120: {
+            case 96: {
               int rawValue = input.readEnum();
 
               state_ = rawValue;
+              break;
+            }
+            case 104: {
+
+              targetId_ = input.readUInt32();
               break;
             }
             default: {
@@ -124,29 +124,29 @@ public final class BubbleDramaActivityAvatarOuterClass {
               emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatar.class, emu.grasscutter.net.proto.BubbleDramaActivityAvatarOuterClass.BubbleDramaActivityAvatar.Builder.class);
     }
 
-    public static final int STATE_FIELD_NUMBER = 15;
+    public static final int STATE_FIELD_NUMBER = 12;
     private int state_;
     /**
-     * <code>.BubbleDramaActivityAvatarState state = 15;</code>
+     * <code>.HEEENDPMDPA state = 12;</code>
      * @return The enum numeric value on the wire for state.
      */
     @java.lang.Override public int getStateValue() {
       return state_;
     }
     /**
-     * <code>.BubbleDramaActivityAvatarState state = 15;</code>
+     * <code>.HEEENDPMDPA state = 12;</code>
      * @return The state.
      */
-    @java.lang.Override public emu.grasscutter.net.proto.BubbleDramaActivityAvatarStateOuterClass.BubbleDramaActivityAvatarState getState() {
+    @java.lang.Override public emu.grasscutter.net.proto.HEEENDPMDPAOuterClass.HEEENDPMDPA getState() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.BubbleDramaActivityAvatarStateOuterClass.BubbleDramaActivityAvatarState result = emu.grasscutter.net.proto.BubbleDramaActivityAvatarStateOuterClass.BubbleDramaActivityAvatarState.valueOf(state_);
-      return result == null ? emu.grasscutter.net.proto.BubbleDramaActivityAvatarStateOuterClass.BubbleDramaActivityAvatarState.UNRECOGNIZED : result;
+      emu.grasscutter.net.proto.HEEENDPMDPAOuterClass.HEEENDPMDPA result = emu.grasscutter.net.proto.HEEENDPMDPAOuterClass.HEEENDPMDPA.valueOf(state_);
+      return result == null ? emu.grasscutter.net.proto.HEEENDPMDPAOuterClass.HEEENDPMDPA.UNRECOGNIZED : result;
     }
 
-    public static final int TARGET_ID_FIELD_NUMBER = 6;
+    public static final int TARGET_ID_FIELD_NUMBER = 13;
     private int targetId_;
     /**
-     * <code>uint32 target_id = 6;</code>
+     * <code>uint32 target_id = 13;</code>
      * @return The targetId.
      */
     @java.lang.Override
@@ -168,11 +168,11 @@ public final class BubbleDramaActivityAvatarOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (targetId_ != 0) {
-        output.writeUInt32(6, targetId_);
+      if (state_ != emu.grasscutter.net.proto.HEEENDPMDPAOuterClass.HEEENDPMDPA.HEEENDPMDPA_NONE.getNumber()) {
+        output.writeEnum(12, state_);
       }
-      if (state_ != emu.grasscutter.net.proto.BubbleDramaActivityAvatarStateOuterClass.BubbleDramaActivityAvatarState.BubbleDramaActivityAvatarState_NONE.getNumber()) {
-        output.writeEnum(15, state_);
+      if (targetId_ != 0) {
+        output.writeUInt32(13, targetId_);
       }
       unknownFields.writeTo(output);
     }
@@ -183,13 +183,13 @@ public final class BubbleDramaActivityAvatarOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (state_ != emu.grasscutter.net.proto.HEEENDPMDPAOuterClass.HEEENDPMDPA.HEEENDPMDPA_NONE.getNumber()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeEnumSize(12, state_);
+      }
       if (targetId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, targetId_);
-      }
-      if (state_ != emu.grasscutter.net.proto.BubbleDramaActivityAvatarStateOuterClass.BubbleDramaActivityAvatarState.BubbleDramaActivityAvatarState_NONE.getNumber()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(15, state_);
+          .computeUInt32Size(13, targetId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -474,14 +474,14 @@ public final class BubbleDramaActivityAvatarOuterClass {
 
       private int state_ = 0;
       /**
-       * <code>.BubbleDramaActivityAvatarState state = 15;</code>
+       * <code>.HEEENDPMDPA state = 12;</code>
        * @return The enum numeric value on the wire for state.
        */
       @java.lang.Override public int getStateValue() {
         return state_;
       }
       /**
-       * <code>.BubbleDramaActivityAvatarState state = 15;</code>
+       * <code>.HEEENDPMDPA state = 12;</code>
        * @param value The enum numeric value on the wire for state to set.
        * @return This builder for chaining.
        */
@@ -492,21 +492,21 @@ public final class BubbleDramaActivityAvatarOuterClass {
         return this;
       }
       /**
-       * <code>.BubbleDramaActivityAvatarState state = 15;</code>
+       * <code>.HEEENDPMDPA state = 12;</code>
        * @return The state.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BubbleDramaActivityAvatarStateOuterClass.BubbleDramaActivityAvatarState getState() {
+      public emu.grasscutter.net.proto.HEEENDPMDPAOuterClass.HEEENDPMDPA getState() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.BubbleDramaActivityAvatarStateOuterClass.BubbleDramaActivityAvatarState result = emu.grasscutter.net.proto.BubbleDramaActivityAvatarStateOuterClass.BubbleDramaActivityAvatarState.valueOf(state_);
-        return result == null ? emu.grasscutter.net.proto.BubbleDramaActivityAvatarStateOuterClass.BubbleDramaActivityAvatarState.UNRECOGNIZED : result;
+        emu.grasscutter.net.proto.HEEENDPMDPAOuterClass.HEEENDPMDPA result = emu.grasscutter.net.proto.HEEENDPMDPAOuterClass.HEEENDPMDPA.valueOf(state_);
+        return result == null ? emu.grasscutter.net.proto.HEEENDPMDPAOuterClass.HEEENDPMDPA.UNRECOGNIZED : result;
       }
       /**
-       * <code>.BubbleDramaActivityAvatarState state = 15;</code>
+       * <code>.HEEENDPMDPA state = 12;</code>
        * @param value The state to set.
        * @return This builder for chaining.
        */
-      public Builder setState(emu.grasscutter.net.proto.BubbleDramaActivityAvatarStateOuterClass.BubbleDramaActivityAvatarState value) {
+      public Builder setState(emu.grasscutter.net.proto.HEEENDPMDPAOuterClass.HEEENDPMDPA value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -516,7 +516,7 @@ public final class BubbleDramaActivityAvatarOuterClass {
         return this;
       }
       /**
-       * <code>.BubbleDramaActivityAvatarState state = 15;</code>
+       * <code>.HEEENDPMDPA state = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearState() {
@@ -528,7 +528,7 @@ public final class BubbleDramaActivityAvatarOuterClass {
 
       private int targetId_ ;
       /**
-       * <code>uint32 target_id = 6;</code>
+       * <code>uint32 target_id = 13;</code>
        * @return The targetId.
        */
       @java.lang.Override
@@ -536,7 +536,7 @@ public final class BubbleDramaActivityAvatarOuterClass {
         return targetId_;
       }
       /**
-       * <code>uint32 target_id = 6;</code>
+       * <code>uint32 target_id = 13;</code>
        * @param value The targetId to set.
        * @return This builder for chaining.
        */
@@ -547,7 +547,7 @@ public final class BubbleDramaActivityAvatarOuterClass {
         return this;
       }
       /**
-       * <code>uint32 target_id = 6;</code>
+       * <code>uint32 target_id = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearTargetId() {
@@ -623,17 +623,17 @@ public final class BubbleDramaActivityAvatarOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\037BubbleDramaActivityAvatar.proto\032$Bubbl" +
-      "eDramaActivityAvatarState.proto\"^\n\031Bubbl" +
-      "eDramaActivityAvatar\022.\n\005state\030\017 \001(\0162\037.Bu" +
-      "bbleDramaActivityAvatarState\022\021\n\ttarget_i" +
-      "d\030\006 \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "\n\037BubbleDramaActivityAvatar.proto\032\021HEEEN" +
+      "DPMDPA.proto\"K\n\031BubbleDramaActivityAvata" +
+      "r\022\033\n\005state\030\014 \001(\0162\014.HEEENDPMDPA\022\021\n\ttarget" +
+      "_id\030\r \001(\rB@\n\031emu.grasscutter.net.protoB#" +
+      "BubbleDramaActivityAvatarOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.BubbleDramaActivityAvatarStateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.HEEENDPMDPAOuterClass.getDescriptor(),
         });
     internal_static_BubbleDramaActivityAvatar_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -641,7 +641,7 @@ public final class BubbleDramaActivityAvatarOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BubbleDramaActivityAvatar_descriptor,
         new java.lang.String[] { "State", "TargetId", });
-    emu.grasscutter.net.proto.BubbleDramaActivityAvatarStateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.HEEENDPMDPAOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

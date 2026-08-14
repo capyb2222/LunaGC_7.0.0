@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "BuyGoodsReqOuterClass";
+
+import "ShopGoods.proto";
+
+message BuyGoodsReq {
+	uint32 shop_type = 3;
+	uint32 buy_count = 4;
+	ShopGoods goods = 12;
+}

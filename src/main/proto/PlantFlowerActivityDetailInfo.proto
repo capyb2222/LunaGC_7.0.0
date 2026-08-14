@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PlantFlowerActivityDetailInfoOuterClass";
+
+message PlantFlowerActivityDetailInfo {
+	bool is_today_has_awarded = 1;
+	uint32 today_seed_reward_id = 4;
+	map<uint32, uint32> JOIMIBFDKBA = 9;
+	uint32 day_index = 10;
+	map<uint32, uint32> NKAHFKHPICE = 11;
+	bool is_content_closed = 15;
+}

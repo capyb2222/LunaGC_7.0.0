@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CEBBKEOIFGLOuterClass";
+
+message CEBBKEOIFGL {
+	bool is_open = 2;
+	uint32 level_id = 4;
+	uint32 NICLGNCGADF = 9;
+	uint32 min_finish_time = 11;
+}

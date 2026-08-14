@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SummerTimeV2DetailInfoOuterClass";
+
+import "SummerTimeV2BoatStageInfo.proto";
+import "SummerTimeV2DungeonStageInfo.proto";
+
+message SummerTimeV2DetailInfo {
+	uint32 taken_reward_count = 1;
+	uint32 cur_dungeon_reward_limit = 4;
+	repeated SummerTimeV2DungeonStageInfo dungeon_stage_info_list = 5;
+	bool is_content_closed = 7;
+	repeated SummerTimeV2BoatStageInfo boat_stage_info_list = 15;
+}

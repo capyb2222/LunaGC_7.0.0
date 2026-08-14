@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SalvageStageInfoOuterClass";
+
+import "SalvageChallengeInfo.proto";
+
+message SalvageStageInfo {
+	bool is_open = 8;
+	repeated SalvageChallengeInfo challenge_info_list = 9;
+	uint32 stage_id = 15;
+}

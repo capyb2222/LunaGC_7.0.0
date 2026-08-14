@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "JJBFOBBJFONOuterClass";
+
+import "EJFFMPFNPEL.proto";
+
+message JJBFOBBJFON {
+	repeated EJFFMPFNPEL value_list = 1;
+}

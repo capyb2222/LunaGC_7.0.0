@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FireworksLaunchDataNotifyOuterClass";
+
+import "FireworksLaunchSchemeData.proto";
+
+message FireworksLaunchDataNotify {
+	uint32 last_use_scheme_id = 5;
+	repeated FireworksLaunchSchemeData scheme_data_list = 12;
+}

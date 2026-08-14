@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CDOHBLNEKCJOuterClass";
+
+import "DOCGOEBMIOH.proto";
+import "PJFELCMPMKJ.proto";
+
+message CDOHBLNEKCJ {
+	uint32 npc_id = 1;
+	uint32 LLMNLCGAFNF = 2;
+	repeated PJFELCMPMKJ GPHLIKMIIKI = 3;
+	uint32 FLGHAOCLOAJ = 4;
+	DOCGOEBMIOH MHHNHHHDGDE = 5;
+	PJFELCMPMKJ GLHMFLEIGFA = 6;
+	bool LKIIDNBEBIM = 9;
+	uint32 KPDEJEOKNGK = 10;
+	uint32 id = 12;
+	bool DDEFOMCJOCJ = 13;
+}

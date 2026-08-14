@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PhotoUnderseaDetailInfoOuterClass";
+
+import "BKGHEPDLIKH.proto";
+import "FPKKPDDNKHE.proto";
+
+message PhotoUnderseaDetailInfo {
+	repeated FPKKPDDNKHE object_info_list = 8;
+	repeated BKGHEPDLIKH level_info_list = 10;
+}

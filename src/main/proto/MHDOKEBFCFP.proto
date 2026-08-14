@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MHDOKEBFCFPOuterClass";
+
+import "_TriggerAbility.proto";
+
+message MHDOKEBFCFP {
+	optional _TriggerAbility trigger_ability = 100;
+	bool KFMDCEHACKM = 1;
+	float OMPEDKKJAJD = 2;
+}

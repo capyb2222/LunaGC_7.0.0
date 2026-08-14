@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "InteractTypeOuterClass";
+
+enum InteractType {
+	InteractType_INTERACT_NONE = 0;
+	InteractType_INTERACT_PICK_ITEM = 1;
+	InteractType_INTERACT_GATHER = 2;
+	InteractType_INTERACT_OPEN_CHEST = 3;
+	InteractType_INTERACT_OPEN_STATUE = 4;
+	InteractType_INTERACT_CONSUM = 5;
+	InteractType_INTERACT_MP_PLAY_REWARD = 6;
+	InteractType_INTERACT_VIEW = 7;
+	InteractType_INTERACT_GENERAL_REWARD = 8;
+	InteractType_INTERACT_MIRACLE_RING = 9;
+	InteractType_INTERACT_FOUNDATION = 10;
+	InteractType_INTERACT_ECHO_SHELL = 11;
+	InteractType_INTERACT_HOME_GATHER = 12;
+	InteractType_INTERACT_ENV_ANIMAL = 13;
+	InteractType_INTERACT_QUEST_GADGET = 14;
+	InteractType_INTERACT_UI_INTERACT = 15;
+	InteractType_INTERACT_DESHRET_OBELISK = 16;
+}

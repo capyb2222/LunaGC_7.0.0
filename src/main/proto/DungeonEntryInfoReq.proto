@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DungeonEntryInfoReqOuterClass";
+
+import "Uint32Pair.proto";
+
+message DungeonEntryInfoReq {
+	bool jpmdjmadpil = 5;
+	repeated Uint32Pair scene_point_id_list = 9;
+	uint32 point_id = 10;
+	uint32 scene_id = 15;
+}

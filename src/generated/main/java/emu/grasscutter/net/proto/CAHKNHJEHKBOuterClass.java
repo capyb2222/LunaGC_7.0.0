@@ -19,21 +19,21 @@ public final class CAHKNHJEHKBOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 level_id = 11;</code>
+     * <code>uint32 level_id = 2;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>.NIGDGHMKJIK PLAMLNLHFDC = 8;</code>
-     * @return The enum numeric value on the wire for pLAMLNLHFDC.
+     * <code>.DONBNKJAIDH JLOKHDKLJEE = 15;</code>
+     * @return The enum numeric value on the wire for jLOKHDKLJEE.
      */
-    int getPLAMLNLHFDCValue();
+    int getJLOKHDKLJEEValue();
     /**
-     * <code>.NIGDGHMKJIK PLAMLNLHFDC = 8;</code>
-     * @return The pLAMLNLHFDC.
+     * <code>.DONBNKJAIDH JLOKHDKLJEE = 15;</code>
+     * @return The jLOKHDKLJEE.
      */
-    emu.grasscutter.net.proto.NIGDGHMKJIKOuterClass.NIGDGHMKJIK getPLAMLNLHFDC();
+    emu.grasscutter.net.proto.DONBNKJAIDHOuterClass.DONBNKJAIDH getJLOKHDKLJEE();
   }
   /**
    * Protobuf type {@code CAHKNHJEHKB}
@@ -48,7 +48,7 @@ public final class CAHKNHJEHKBOuterClass {
       super(builder);
     }
     private CAHKNHJEHKB() {
-      pLAMLNLHFDC_ = 0;
+      jLOKHDKLJEE_ = 0;
     }
 
     @java.lang.Override
@@ -81,15 +81,15 @@ public final class CAHKNHJEHKBOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
-              int rawValue = input.readEnum();
-
-              pLAMLNLHFDC_ = rawValue;
-              break;
-            }
-            case 88: {
+            case 16: {
 
               levelId_ = input.readUInt32();
+              break;
+            }
+            case 120: {
+              int rawValue = input.readEnum();
+
+              jLOKHDKLJEE_ = rawValue;
               break;
             }
             default: {
@@ -124,10 +124,10 @@ public final class CAHKNHJEHKBOuterClass {
               emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKB.class, emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKB.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 11;
+    public static final int LEVEL_ID_FIELD_NUMBER = 2;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 11;</code>
+     * <code>uint32 level_id = 2;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -135,23 +135,23 @@ public final class CAHKNHJEHKBOuterClass {
       return levelId_;
     }
 
-    public static final int PLAMLNLHFDC_FIELD_NUMBER = 8;
-    private int pLAMLNLHFDC_;
+    public static final int JLOKHDKLJEE_FIELD_NUMBER = 15;
+    private int jLOKHDKLJEE_;
     /**
-     * <code>.NIGDGHMKJIK PLAMLNLHFDC = 8;</code>
-     * @return The enum numeric value on the wire for pLAMLNLHFDC.
+     * <code>.DONBNKJAIDH JLOKHDKLJEE = 15;</code>
+     * @return The enum numeric value on the wire for jLOKHDKLJEE.
      */
-    @java.lang.Override public int getPLAMLNLHFDCValue() {
-      return pLAMLNLHFDC_;
+    @java.lang.Override public int getJLOKHDKLJEEValue() {
+      return jLOKHDKLJEE_;
     }
     /**
-     * <code>.NIGDGHMKJIK PLAMLNLHFDC = 8;</code>
-     * @return The pLAMLNLHFDC.
+     * <code>.DONBNKJAIDH JLOKHDKLJEE = 15;</code>
+     * @return The jLOKHDKLJEE.
      */
-    @java.lang.Override public emu.grasscutter.net.proto.NIGDGHMKJIKOuterClass.NIGDGHMKJIK getPLAMLNLHFDC() {
+    @java.lang.Override public emu.grasscutter.net.proto.DONBNKJAIDHOuterClass.DONBNKJAIDH getJLOKHDKLJEE() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.NIGDGHMKJIKOuterClass.NIGDGHMKJIK result = emu.grasscutter.net.proto.NIGDGHMKJIKOuterClass.NIGDGHMKJIK.valueOf(pLAMLNLHFDC_);
-      return result == null ? emu.grasscutter.net.proto.NIGDGHMKJIKOuterClass.NIGDGHMKJIK.UNRECOGNIZED : result;
+      emu.grasscutter.net.proto.DONBNKJAIDHOuterClass.DONBNKJAIDH result = emu.grasscutter.net.proto.DONBNKJAIDHOuterClass.DONBNKJAIDH.valueOf(jLOKHDKLJEE_);
+      return result == null ? emu.grasscutter.net.proto.DONBNKJAIDHOuterClass.DONBNKJAIDH.UNRECOGNIZED : result;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -168,11 +168,11 @@ public final class CAHKNHJEHKBOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (pLAMLNLHFDC_ != emu.grasscutter.net.proto.NIGDGHMKJIKOuterClass.NIGDGHMKJIK.NIGDGHMKJIK_SANDWORM_LEVEL_NOT_OPEN.getNumber()) {
-        output.writeEnum(8, pLAMLNLHFDC_);
-      }
       if (levelId_ != 0) {
-        output.writeUInt32(11, levelId_);
+        output.writeUInt32(2, levelId_);
+      }
+      if (jLOKHDKLJEE_ != emu.grasscutter.net.proto.DONBNKJAIDHOuterClass.DONBNKJAIDH.DONBNKJAIDH_SANDWORM_LEVEL_NOT_OPEN.getNumber()) {
+        output.writeEnum(15, jLOKHDKLJEE_);
       }
       unknownFields.writeTo(output);
     }
@@ -183,13 +183,13 @@ public final class CAHKNHJEHKBOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (pLAMLNLHFDC_ != emu.grasscutter.net.proto.NIGDGHMKJIKOuterClass.NIGDGHMKJIK.NIGDGHMKJIK_SANDWORM_LEVEL_NOT_OPEN.getNumber()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(8, pLAMLNLHFDC_);
-      }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, levelId_);
+          .computeUInt32Size(2, levelId_);
+      }
+      if (jLOKHDKLJEE_ != emu.grasscutter.net.proto.DONBNKJAIDHOuterClass.DONBNKJAIDH.DONBNKJAIDH_SANDWORM_LEVEL_NOT_OPEN.getNumber()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeEnumSize(15, jLOKHDKLJEE_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -208,7 +208,7 @@ public final class CAHKNHJEHKBOuterClass {
 
       if (getLevelId()
           != other.getLevelId()) return false;
-      if (pLAMLNLHFDC_ != other.pLAMLNLHFDC_) return false;
+      if (jLOKHDKLJEE_ != other.jLOKHDKLJEE_) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -222,8 +222,8 @@ public final class CAHKNHJEHKBOuterClass {
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + LEVEL_ID_FIELD_NUMBER;
       hash = (53 * hash) + getLevelId();
-      hash = (37 * hash) + PLAMLNLHFDC_FIELD_NUMBER;
-      hash = (53 * hash) + pLAMLNLHFDC_;
+      hash = (37 * hash) + JLOKHDKLJEE_FIELD_NUMBER;
+      hash = (53 * hash) + jLOKHDKLJEE_;
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -359,7 +359,7 @@ public final class CAHKNHJEHKBOuterClass {
         super.clear();
         levelId_ = 0;
 
-        pLAMLNLHFDC_ = 0;
+        jLOKHDKLJEE_ = 0;
 
         return this;
       }
@@ -388,7 +388,7 @@ public final class CAHKNHJEHKBOuterClass {
       public emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKB buildPartial() {
         emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKB result = new emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKB(this);
         result.levelId_ = levelId_;
-        result.pLAMLNLHFDC_ = pLAMLNLHFDC_;
+        result.jLOKHDKLJEE_ = jLOKHDKLJEE_;
         onBuilt();
         return result;
       }
@@ -440,8 +440,8 @@ public final class CAHKNHJEHKBOuterClass {
         if (other.getLevelId() != 0) {
           setLevelId(other.getLevelId());
         }
-        if (other.pLAMLNLHFDC_ != 0) {
-          setPLAMLNLHFDCValue(other.getPLAMLNLHFDCValue());
+        if (other.jLOKHDKLJEE_ != 0) {
+          setJLOKHDKLJEEValue(other.getJLOKHDKLJEEValue());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -474,7 +474,7 @@ public final class CAHKNHJEHKBOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 11;</code>
+       * <code>uint32 level_id = 2;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -482,7 +482,7 @@ public final class CAHKNHJEHKBOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 11;</code>
+       * <code>uint32 level_id = 2;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -493,7 +493,7 @@ public final class CAHKNHJEHKBOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 11;</code>
+       * <code>uint32 level_id = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -503,56 +503,56 @@ public final class CAHKNHJEHKBOuterClass {
         return this;
       }
 
-      private int pLAMLNLHFDC_ = 0;
+      private int jLOKHDKLJEE_ = 0;
       /**
-       * <code>.NIGDGHMKJIK PLAMLNLHFDC = 8;</code>
-       * @return The enum numeric value on the wire for pLAMLNLHFDC.
+       * <code>.DONBNKJAIDH JLOKHDKLJEE = 15;</code>
+       * @return The enum numeric value on the wire for jLOKHDKLJEE.
        */
-      @java.lang.Override public int getPLAMLNLHFDCValue() {
-        return pLAMLNLHFDC_;
+      @java.lang.Override public int getJLOKHDKLJEEValue() {
+        return jLOKHDKLJEE_;
       }
       /**
-       * <code>.NIGDGHMKJIK PLAMLNLHFDC = 8;</code>
-       * @param value The enum numeric value on the wire for pLAMLNLHFDC to set.
+       * <code>.DONBNKJAIDH JLOKHDKLJEE = 15;</code>
+       * @param value The enum numeric value on the wire for jLOKHDKLJEE to set.
        * @return This builder for chaining.
        */
-      public Builder setPLAMLNLHFDCValue(int value) {
+      public Builder setJLOKHDKLJEEValue(int value) {
         
-        pLAMLNLHFDC_ = value;
+        jLOKHDKLJEE_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>.NIGDGHMKJIK PLAMLNLHFDC = 8;</code>
-       * @return The pLAMLNLHFDC.
+       * <code>.DONBNKJAIDH JLOKHDKLJEE = 15;</code>
+       * @return The jLOKHDKLJEE.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.NIGDGHMKJIKOuterClass.NIGDGHMKJIK getPLAMLNLHFDC() {
+      public emu.grasscutter.net.proto.DONBNKJAIDHOuterClass.DONBNKJAIDH getJLOKHDKLJEE() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.NIGDGHMKJIKOuterClass.NIGDGHMKJIK result = emu.grasscutter.net.proto.NIGDGHMKJIKOuterClass.NIGDGHMKJIK.valueOf(pLAMLNLHFDC_);
-        return result == null ? emu.grasscutter.net.proto.NIGDGHMKJIKOuterClass.NIGDGHMKJIK.UNRECOGNIZED : result;
+        emu.grasscutter.net.proto.DONBNKJAIDHOuterClass.DONBNKJAIDH result = emu.grasscutter.net.proto.DONBNKJAIDHOuterClass.DONBNKJAIDH.valueOf(jLOKHDKLJEE_);
+        return result == null ? emu.grasscutter.net.proto.DONBNKJAIDHOuterClass.DONBNKJAIDH.UNRECOGNIZED : result;
       }
       /**
-       * <code>.NIGDGHMKJIK PLAMLNLHFDC = 8;</code>
-       * @param value The pLAMLNLHFDC to set.
+       * <code>.DONBNKJAIDH JLOKHDKLJEE = 15;</code>
+       * @param value The jLOKHDKLJEE to set.
        * @return This builder for chaining.
        */
-      public Builder setPLAMLNLHFDC(emu.grasscutter.net.proto.NIGDGHMKJIKOuterClass.NIGDGHMKJIK value) {
+      public Builder setJLOKHDKLJEE(emu.grasscutter.net.proto.DONBNKJAIDHOuterClass.DONBNKJAIDH value) {
         if (value == null) {
           throw new NullPointerException();
         }
         
-        pLAMLNLHFDC_ = value.getNumber();
+        jLOKHDKLJEE_ = value.getNumber();
         onChanged();
         return this;
       }
       /**
-       * <code>.NIGDGHMKJIK PLAMLNLHFDC = 8;</code>
+       * <code>.DONBNKJAIDH JLOKHDKLJEE = 15;</code>
        * @return This builder for chaining.
        */
-      public Builder clearPLAMLNLHFDC() {
+      public Builder clearJLOKHDKLJEE() {
         
-        pLAMLNLHFDC_ = 0;
+        jLOKHDKLJEE_ = 0;
         onChanged();
         return this;
       }
@@ -623,23 +623,24 @@ public final class CAHKNHJEHKBOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021CAHKNHJEHKB.proto\032\021NIGDGHMKJIK.proto\"B" +
-      "\n\013CAHKNHJEHKB\022\020\n\010level_id\030\013 \001(\r\022!\n\013PLAML" +
-      "NLHFDC\030\010 \001(\0162\014.NIGDGHMKJIKB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\n\021CAHKNHJEHKB.proto\032\021DONBNKJAIDH.proto\"B" +
+      "\n\013CAHKNHJEHKB\022\020\n\010level_id\030\002 \001(\r\022!\n\013JLOKH" +
+      "DKLJEE\030\017 \001(\0162\014.DONBNKJAIDHB2\n\031emu.grassc" +
+      "utter.net.protoB\025CAHKNHJEHKBOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.NIGDGHMKJIKOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.DONBNKJAIDHOuterClass.getDescriptor(),
         });
     internal_static_CAHKNHJEHKB_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_CAHKNHJEHKB_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_CAHKNHJEHKB_descriptor,
-        new java.lang.String[] { "LevelId", "PLAMLNLHFDC", });
-    emu.grasscutter.net.proto.NIGDGHMKJIKOuterClass.getDescriptor();
+        new java.lang.String[] { "LevelId", "JLOKHDKLJEE", });
+    emu.grasscutter.net.proto.DONBNKJAIDHOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

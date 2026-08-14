@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MPGPEKAFHJGOuterClass";
+
+message MPGPEKAFHJG {
+	uint64 ICIOGPBPCJM = 1;
+	bytes IFAKNOBICLA = 2;
+	bytes AOJHPEKFBEE = 3;
+	uint32 IPKFMNCHANM = 4;
+	uint32 data_version = 5;
+	bool DEJLAEJOEEP = 6;
+	bool JLGJPDGAIGG = 21;
+	bool is_dirty = 22;
+}

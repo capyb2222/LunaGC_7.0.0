@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SkyCrystalDetectorQuickUseResultOuterClass";
+
+import "SkyCrystalDetectorData.proto";
+
+message SkyCrystalDetectorQuickUseResult {
+	int32 retcode = 5;
+	SkyCrystalDetectorData sky_crystal_detector_data = 7;
+}

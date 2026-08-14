@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "VehicleInfoOuterClass";
+
+import "VehicleMember.proto";
+
+message VehicleInfo {
+	repeated VehicleMember member_list = 1;
+	uint32 owner_uid = 2;
+	float cur_stamina = 3;
+	uint32 _transform_entity_id = 4;
+	float _cur_phlogiston = 5;
+	uint32 anim_hash = 6;
+}

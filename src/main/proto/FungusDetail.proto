@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FungusDetailOuterClass";
+
+message FungusDetail {
+	uint32 OOEGNGJFOHA = 2;
+	uint32 name_id = 5;
+	uint32 LOCPCOJHMLB = 6;
+	uint32 fungus_id = 13;
+	bool is_cultivate = 15;
+}

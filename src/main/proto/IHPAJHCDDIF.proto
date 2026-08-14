@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "IHPAJHCDDIFOuterClass";
+
+message IHPAJHCDDIF {
+	int32 IJFIIPKODAF = 1;
+	int32 GBFLALGBMFD = 2;
+	uint32 KPLIBHECJBL = 3;
+	repeated uint32 data_list = 4;
+}

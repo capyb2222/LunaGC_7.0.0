@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HideAndSeekMapInfoOuterClass";
+
+message HideAndSeekMapInfo {
+	repeated uint32 match_lock_reason_list = 3;
+	uint32 id = 11;
+}

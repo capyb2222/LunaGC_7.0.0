@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FMNPNEKAICIOuterClass";
+
+message FMNPNEKAICI {
+	uint32 level_id = 1;
+	bool ODDFFNIOBLN = 4;
+	bool KLGNBKEEEIE = 7;
+	uint32 best_score = 11;
+}

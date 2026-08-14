@@ -1,0 +1,90 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ChatInfoOuterClass";
+
+message ChatInfo {
+	message SystemHint {
+		uint32 type = 4;
+		repeated uint32 uid_list = 13;
+	}
+	message _BeyondCollectionNewCaptain {
+		string PCLIOFOLGJG = 8;
+		uint32 PIIDPLPGDOJ = 11;
+		uint32 OHANCMMCDHI = 12;
+	}
+	message _HallInvitation {
+		uint32 DGNNJCJPGEO = 1;
+		uint64 BJFFLGDNMPL = 4;
+		repeated uint32 CFPLKFNPNAM = 6;
+		uint32 GHNMBPLBBFN = 8;
+		uint64 BOJNPHONGMP = 11;
+		uint32 CNFEBIOPANP = 12;
+		uint32 EPHGOMPBKJA = 15;
+	}
+	message _BeyondTeamInvitation {
+		uint32 EPHGOMPBKJA = 11;
+		uint64 BOJNPHONGMP = 12;
+		uint32 GHNMBPLBBFN = 14;
+		uint32 CNFEBIOPANP = 15;
+	}
+	message _BeyondTeamApplication {
+		uint64 MIHICCAEFOM = 1;
+		uint32 GJNLFEJCKPA = 10;
+		uint32 target_uid = 13;
+		uint32 HDMBGALJFMK = 15;
+	}
+	message _BeyondTeamRecruitment {
+		uint32 OJDIIPKINNL = 6;
+		uint32 FDIFPEHDKFD = 10;
+		uint32 EILHBPNLEFB = 14;
+	}
+	message _BeyondRoomInvitation {
+		uint32 GHNMBPLBBFN = 2;
+		uint64 BOJNPHONGMP = 6;
+		uint64 NMAOGMMKNBG = 8;
+		uint32 CNFEBIOPANP = 11;
+		uint32 EPHGOMPBKJA = 12;
+	}
+	message _BeyondGachaGift {
+		string transaction = 4;
+	}
+	message _BeyondCostumeShareCode {
+		bytes FEPAFANMNLK = 7;
+	}
+	message _HallRecruitingInvitation {
+		uint64 DKLMLPNMIHN = 2;
+		uint32 DELCBHHBDCJ = 5;
+		uint32 EILHBPNLEFB = 8;
+		uint32 LMNLLOEFBOM = 10;
+		repeated uint32 GOFEPGIPJNF = 14;
+		uint64 OJDIIPKINNL = 15;
+	}
+	oneof mention {
+		bool is_mention_all = 1;
+		uint32 mentioned_uid = 12;
+	}
+	oneof content {
+		_BeyondTeamRecruitment beyond_team_recruitment = 386;
+		_BeyondCostumeShareCode beyond_costume_share_code = 394;
+		uint32 icon = 654;
+		_BeyondRoomInvitation beyond_room_invitation = 763;
+		_BeyondCollectionNewCaptain beyond_collection_new_captain = 833;
+		SystemHint system_hint = 934;
+		_HallInvitation hall_invitation = 1168;
+		string text = 1275;
+		_BeyondTeamApplication beyond_team_application = 1351;
+		_HallRecruitingInvitation hall_recruiting_invitation = 1402;
+		_BeyondGachaGift beyond_gacha_gift = 1496;
+		_BeyondTeamInvitation beyond_team_invitation = 1613;
+	}
+	string _xuid = 2;
+	uint32 to_uid = 3;
+	uint32 ALKIPKCAPFL = 5;
+	uint32 platform_type = 7;
+	uint32 uid = 8;
+	uint32 time = 9;
+	uint64 OIEHJMHHCFB = 10;
+	bool is_read = 13;
+	uint32 sequence = 15;
+}

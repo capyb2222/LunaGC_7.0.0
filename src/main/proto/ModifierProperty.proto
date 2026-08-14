@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ModifierPropertyOuterClass";
+
+import "AbilityString.proto";
+
+message ModifierProperty {
+	float value = 7;
+	AbilityString key = 10;
+}

@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "RoutePointOuterClass";
+
+import "MHDOKEBFCFP.proto";
+import "MathQuaternion.proto";
+import "PHCHPFLPIFL.proto";
+import "Vector.proto";
+
+message RoutePoint {
+	enum IGDEDOLNAKF {
+		IGDEDOLNAKF_KEEP_MOVE = 0;
+		IGDEDOLNAKF_TELEPORT_BY_OBSTACLE = 1;
+		IGDEDOLNAKF_FADE_IN_OUT_TELEPORT_BY_OBSTACLE = 2;
+	}
+	oneof rotate_params {
+		Vector rotation = 21;
+		MathQuaternion rotation_speed = 22;
+		MathQuaternion axis_speed = 23;
+	}
+	oneof move_params {
+		float velocity = 11;
+		float time = 12;
+	}
+	Vector position = 1;
+	float arrive_range = 2;
+	bool has_reach_event = 3;
+	int32 speed_level = 4;
+	PHCHPFLPIFL point_type = 24;
+	MHDOKEBFCFP action = 25;
+	bool cpniemmjckj = 26;
+	uint32 EIHOHLKAHMF = 27;
+	bool PLKKAGBMEHC = 28;
+	bool MGNMPMKHHEI = 29;
+	IGDEDOLNAKF LNDBCAEOICD = 30;
+}

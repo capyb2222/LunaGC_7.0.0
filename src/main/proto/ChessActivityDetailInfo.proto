@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ChessActivityDetailInfoOuterClass";
+
+message ChessActivityDetailInfo {
+	uint32 MNMFHCLBLMH = 2;
+	uint32 exp = 5;
+	uint32 content_close_time = 6;
+	uint32 level = 7;
+	bool is_teach_dungeon_finished = 8;
+	repeated uint32 finished_map_id_list = 9;
+	uint32 MMJCFABPFPE = 11;
+	uint32 AIHKOHFLHLC = 12;
+	bool is_content_closed = 14;
+}

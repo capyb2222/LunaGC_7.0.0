@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SceneAudioNotifyOuterClass";
+
+message SceneAudioNotify {
+	enum _SceneAudioBusinessType {
+		NORMAL = 0;
+		INSTRUMENT_WIDGET = 1;
+	}
+	uint32 source_uid = 5;
+	int32 type = 6;
+	_SceneAudioBusinessType business_type = 9;
+	repeated string param3 = 11;
+	repeated float param2 = 13;
+	repeated uint32 param1 = 14;
+}

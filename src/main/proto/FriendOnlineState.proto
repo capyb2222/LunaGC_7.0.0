@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FriendOnlineStateOuterClass";
+
+enum FriendOnlineState {
+	FriendOnlineState_FREIEND_DISCONNECT = 0;
+	FriendOnlineState_FRIEND_ONLINE = 1;
+}

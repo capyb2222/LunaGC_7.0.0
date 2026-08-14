@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_LanternRiteV6DanmakuInfoOuterClass";
+
+import "_LanternRiteV6DanmakuLevelInfo.proto";
+import "_LanternRiteV6DanmakuRecord.proto";
+import "_LanternRiteV6DanmakuTechInfo.proto";
+
+message _LanternRiteV6DanmakuInfo {
+	_LanternRiteV6DanmakuRecord _danmaku_record = 10;
+	_LanternRiteV6DanmakuTechInfo _tech_info = 11;
+	_LanternRiteV6DanmakuLevelInfo _cur_level_info = 13;
+}

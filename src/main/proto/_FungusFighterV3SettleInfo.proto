@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_FungusFighterV3SettleInfoOuterClass";
+
+message _FungusFighterV3SettleInfo {
+	uint32 cost_time = 1;
+	uint32 BHLLNNJEIPK = 2;
+	uint32 JCPLPMNGDMH = 4;
+	uint32 JJIGBMIIKIM = 8;
+	uint32 level_id = 10;
+	bool is_new_record = 11;
+	uint32 JBIHFNGJEIM = 13;
+	uint32 BOGFMBGOGIO = 14;
+	uint32 AMDIMFEIKDJ = 15;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_TriggerAbilityOuterClass";
+
+import "AbilityScalarValueEntry.proto";
+
+message _TriggerAbility {
+	string ability_name = 1;
+	uint32 BGPJFOMGFOH = 2;
+	repeated AbilityScalarValueEntry AEAMIIECBOL = 3;
+}

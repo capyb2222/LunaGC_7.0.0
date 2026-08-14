@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "BargainOfferPriceReqOuterClass";
+
+message BargainOfferPriceReq {
+	uint32 price = 10;
+	uint32 bargain_id = 15;
+}

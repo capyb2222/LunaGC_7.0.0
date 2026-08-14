@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "RainbowPrinceDetailInfoOuterClass";
+
+import "HEEIDHNNCDM.proto";
+import "LBGHHNDLACN.proto";
+
+message RainbowPrinceDetailInfo {
+	repeated LBGHHNDLACN HGNLKDCGLBO = 2;
+	repeated HEEIDHNNCDM NBALJIPCLAF = 6;
+}

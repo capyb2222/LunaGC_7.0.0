@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_ShortVideoVoteRecordOuterClass";
+
+message _ShortVideoVoteRecord {
+	uint32 value = 2;
+	uint64 key = 5;
+}

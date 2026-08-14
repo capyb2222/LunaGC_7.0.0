@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "QuestUpdateQuestVarRspOuterClass";
+
+message QuestUpdateQuestVarRsp {
+	uint32 parent_quest_var_seq = 7;
+	uint32 parent_quest_id = 9;
+	int32 retcode = 13;
+	uint32 quest_id = 14;
+}

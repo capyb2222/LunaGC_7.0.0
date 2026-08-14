@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_GainBuffSettleInfoOuterClass";
+
+message _GainBuffSettleInfo {
+	uint32 difficulty = 1;
+	bool is_new_record = 3;
+	uint32 score = 5;
+	uint32 level_id = 7;
+}

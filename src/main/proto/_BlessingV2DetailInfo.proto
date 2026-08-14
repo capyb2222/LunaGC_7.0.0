@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_BlessingV2DetailInfoOuterClass";
+
+import "ADMKLIPHAHG.proto";
+
+message _BlessingV2DetailInfo {
+	bool is_activated = 1;
+	bool ELCGFJCJMNN = 2;
+	uint32 DKHOJDNIKGN = 3;
+	uint32 GFJBLFOFJIP = 5;
+	repeated ADMKLIPHAHG OIJEHCLCPFN = 6;
+	fixed32 content_close_time = 7;
+	uint32 HLGJOMHPMDA = 12;
+	fixed32 next_refresh_time = 15;
+}

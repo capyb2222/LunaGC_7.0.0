@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_LanternRiteV6BattleSettleInfoOuterClass";
+
+message _LanternRiteV6BattleSettleInfo {
+	uint32 level_id = 1;
+	uint32 score = 3;
+	uint32 difficulty = 6;
+	uint32 use_time = 11;
+	bool is_new_record = 13;
+}

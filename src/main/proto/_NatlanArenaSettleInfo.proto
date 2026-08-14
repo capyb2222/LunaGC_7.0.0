@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_NatlanArenaSettleInfoOuterClass";
+
+message _NatlanArenaSettleInfo {
+	uint32 cost_time = 1;
+	uint32 JGLPDDIMNAC = 2;
+	bool DAGLJBFPHEK = 3;
+	uint32 level_id = 4;
+	bool is_new_record = 5;
+	bool LDMJHAPIDNA = 6;
+	uint32 BBHKPGDIDOP = 9;
+	uint32 EKLLGJEHJPA = 11;
+	uint32 difficulty = 12;
+	uint32 MDFOCKGPHEN = 13;
+}

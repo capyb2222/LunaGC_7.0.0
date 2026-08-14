@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CombatTypeArgumentOuterClass";
+
+enum CombatTypeArgument {
+	CombatTypeArgument_COMBAT_NONE = 0;
+	CombatTypeArgument_COMBAT_EVT_BEING_HIT = 1;
+	CombatTypeArgument_COMBAT_ANIMATOR_STATE_CHANGED = 2;
+	CombatTypeArgument_COMBAT_FACE_TO_DIR = 3;
+	CombatTypeArgument_COMBAT_SET_ATTACK_TARGET = 4;
+	CombatTypeArgument_COMBAT_RUSH_MOVE = 5;
+	CombatTypeArgument_COMBAT_ANIMATOR_PARAMETER_CHANGED = 6;
+	CombatTypeArgument_ENTITY_MOVE = 7;
+	CombatTypeArgument_SYNC_ENTITY_POSITION = 8;
+	CombatTypeArgument_COMBAT_STEER_MOTION_INFO = 9;
+	CombatTypeArgument_COMBAT_FORCE_SET_POS_INFO = 10;
+	CombatTypeArgument_COMBAT_COMPENSATE_POS_DIFF = 11;
+	CombatTypeArgument_COMBAT_MONSTER_DO_BLINK = 12;
+	CombatTypeArgument_COMBAT_FIXED_RUSH_MOVE = 13;
+	CombatTypeArgument_COMBAT_SYNC_TRANSFORM = 14;
+	CombatTypeArgument_COMBAT_LIGHT_CORE_MOVE = 15;
+	CombatTypeArgument_COMBAT_BEING_HEALED_NTF = 16;
+	CombatTypeArgument_COMBAT_SKILL_ANCHOR_POSITION_NTF = 17;
+	CombatTypeArgument_COMBAT_GRAPPLING_HOOK_MOVE = 18;
+	CombatTypeArgument_COMBAT_SPECIAL_MOTION_INFO = 19;
+	CombatTypeArgument_COMBAT_FIXED_AVATAR_FLASH_MOVE = 20;
+	CombatTypeArgument_COMBAT_MULTI_OVERRIDE_ANIM = 21;
+	CombatTypeArgument_COMBAT_DEBUG_SYNC_MOTION = 22;
+	ENTITY_INTERPOLATE_MOVE = 24;
+	COMBAT_DIE_ANIMATOR_CHANGE = 25;
+	COMBAT_AVATAR_TRANSFER_BY_SERVER = 26;
+}

@@ -19,58 +19,58 @@ public final class BMFHLLPLCNAOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .HLEDDDGEGNM JCNKLCNFACH = 15;</code>
+     * <code>repeated .PKLACFGBAFA CLBFJPDNHCG = 1;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM> 
-        getJCNKLCNFACHList();
+    java.util.List<emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA> 
+        getCLBFJPDNHCGList();
     /**
-     * <code>repeated .HLEDDDGEGNM JCNKLCNFACH = 15;</code>
+     * <code>repeated .PKLACFGBAFA CLBFJPDNHCG = 1;</code>
      */
-    emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM getJCNKLCNFACH(int index);
+    emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA getCLBFJPDNHCG(int index);
     /**
-     * <code>repeated .HLEDDDGEGNM JCNKLCNFACH = 15;</code>
+     * <code>repeated .PKLACFGBAFA CLBFJPDNHCG = 1;</code>
      */
-    int getJCNKLCNFACHCount();
+    int getCLBFJPDNHCGCount();
     /**
-     * <code>repeated .HLEDDDGEGNM JCNKLCNFACH = 15;</code>
+     * <code>repeated .PKLACFGBAFA CLBFJPDNHCG = 1;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNMOrBuilder> 
-        getJCNKLCNFACHOrBuilderList();
+    java.util.List<? extends emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFAOrBuilder> 
+        getCLBFJPDNHCGOrBuilderList();
     /**
-     * <code>repeated .HLEDDDGEGNM JCNKLCNFACH = 15;</code>
+     * <code>repeated .PKLACFGBAFA CLBFJPDNHCG = 1;</code>
      */
-    emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNMOrBuilder getJCNKLCNFACHOrBuilder(
+    emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFAOrBuilder getCLBFJPDNHCGOrBuilder(
         int index);
 
     /**
-     * <code>repeated .HFHBPJIEOPD BNEPMCDHMJA = 5;</code>
+     * <code>repeated .KANFGENDGJN IHPFBPKHHNO = 3;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD> 
-        getBNEPMCDHMJAList();
+    java.util.List<emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN> 
+        getIHPFBPKHHNOList();
     /**
-     * <code>repeated .HFHBPJIEOPD BNEPMCDHMJA = 5;</code>
+     * <code>repeated .KANFGENDGJN IHPFBPKHHNO = 3;</code>
      */
-    emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD getBNEPMCDHMJA(int index);
+    emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN getIHPFBPKHHNO(int index);
     /**
-     * <code>repeated .HFHBPJIEOPD BNEPMCDHMJA = 5;</code>
+     * <code>repeated .KANFGENDGJN IHPFBPKHHNO = 3;</code>
      */
-    int getBNEPMCDHMJACount();
+    int getIHPFBPKHHNOCount();
     /**
-     * <code>repeated .HFHBPJIEOPD BNEPMCDHMJA = 5;</code>
+     * <code>repeated .KANFGENDGJN IHPFBPKHHNO = 3;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPDOrBuilder> 
-        getBNEPMCDHMJAOrBuilderList();
+    java.util.List<? extends emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJNOrBuilder> 
+        getIHPFBPKHHNOOrBuilderList();
     /**
-     * <code>repeated .HFHBPJIEOPD BNEPMCDHMJA = 5;</code>
+     * <code>repeated .KANFGENDGJN IHPFBPKHHNO = 3;</code>
      */
-    emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPDOrBuilder getBNEPMCDHMJAOrBuilder(
+    emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJNOrBuilder getIHPFBPKHHNOOrBuilder(
         int index);
 
     /**
-     * <code>uint32 PMNHIOANGEG = 10;</code>
-     * @return The pMNHIOANGEG.
+     * <code>uint32 CDFGMOEHFDP = 15;</code>
+     * @return The cDFGMOEHFDP.
      */
-    int getPMNHIOANGEG();
+    int getCDFGMOEHFDP();
   }
   /**
    * Protobuf type {@code BMFHLLPLCNA}
@@ -85,8 +85,8 @@ public final class BMFHLLPLCNAOuterClass {
       super(builder);
     }
     private BMFHLLPLCNA() {
-      jCNKLCNFACH_ = java.util.Collections.emptyList();
-      bNEPMCDHMJA_ = java.util.Collections.emptyList();
+      cLBFJPDNHCG_ = java.util.Collections.emptyList();
+      iHPFBPKHHNO_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -120,27 +120,27 @@ public final class BMFHLLPLCNAOuterClass {
             case 0:
               done = true;
               break;
-            case 42: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                bNEPMCDHMJA_ = new java.util.ArrayList<emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD>();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              bNEPMCDHMJA_.add(
-                  input.readMessage(emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD.parser(), extensionRegistry));
-              break;
-            }
-            case 80: {
-
-              pMNHIOANGEG_ = input.readUInt32();
-              break;
-            }
-            case 122: {
+            case 10: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                jCNKLCNFACH_ = new java.util.ArrayList<emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM>();
+                cLBFJPDNHCG_ = new java.util.ArrayList<emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              jCNKLCNFACH_.add(
-                  input.readMessage(emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM.parser(), extensionRegistry));
+              cLBFJPDNHCG_.add(
+                  input.readMessage(emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA.parser(), extensionRegistry));
+              break;
+            }
+            case 26: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                iHPFBPKHHNO_ = new java.util.ArrayList<emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN>();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              iHPFBPKHHNO_.add(
+                  input.readMessage(emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN.parser(), extensionRegistry));
+              break;
+            }
+            case 120: {
+
+              cDFGMOEHFDP_ = input.readUInt32();
               break;
             }
             default: {
@@ -158,11 +158,11 @@ public final class BMFHLLPLCNAOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000002) != 0)) {
-          bNEPMCDHMJA_ = java.util.Collections.unmodifiableList(bNEPMCDHMJA_);
-        }
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          jCNKLCNFACH_ = java.util.Collections.unmodifiableList(jCNKLCNFACH_);
+          cLBFJPDNHCG_ = java.util.Collections.unmodifiableList(cLBFJPDNHCG_);
+        }
+        if (((mutable_bitField0_ & 0x00000002) != 0)) {
+          iHPFBPKHHNO_ = java.util.Collections.unmodifiableList(iHPFBPKHHNO_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -181,95 +181,95 @@ public final class BMFHLLPLCNAOuterClass {
               emu.grasscutter.net.proto.BMFHLLPLCNAOuterClass.BMFHLLPLCNA.class, emu.grasscutter.net.proto.BMFHLLPLCNAOuterClass.BMFHLLPLCNA.Builder.class);
     }
 
-    public static final int JCNKLCNFACH_FIELD_NUMBER = 15;
-    private java.util.List<emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM> jCNKLCNFACH_;
+    public static final int CLBFJPDNHCG_FIELD_NUMBER = 1;
+    private java.util.List<emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA> cLBFJPDNHCG_;
     /**
-     * <code>repeated .HLEDDDGEGNM JCNKLCNFACH = 15;</code>
+     * <code>repeated .PKLACFGBAFA CLBFJPDNHCG = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM> getJCNKLCNFACHList() {
-      return jCNKLCNFACH_;
+    public java.util.List<emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA> getCLBFJPDNHCGList() {
+      return cLBFJPDNHCG_;
     }
     /**
-     * <code>repeated .HLEDDDGEGNM JCNKLCNFACH = 15;</code>
+     * <code>repeated .PKLACFGBAFA CLBFJPDNHCG = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNMOrBuilder> 
-        getJCNKLCNFACHOrBuilderList() {
-      return jCNKLCNFACH_;
+    public java.util.List<? extends emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFAOrBuilder> 
+        getCLBFJPDNHCGOrBuilderList() {
+      return cLBFJPDNHCG_;
     }
     /**
-     * <code>repeated .HLEDDDGEGNM JCNKLCNFACH = 15;</code>
+     * <code>repeated .PKLACFGBAFA CLBFJPDNHCG = 1;</code>
      */
     @java.lang.Override
-    public int getJCNKLCNFACHCount() {
-      return jCNKLCNFACH_.size();
+    public int getCLBFJPDNHCGCount() {
+      return cLBFJPDNHCG_.size();
     }
     /**
-     * <code>repeated .HLEDDDGEGNM JCNKLCNFACH = 15;</code>
+     * <code>repeated .PKLACFGBAFA CLBFJPDNHCG = 1;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM getJCNKLCNFACH(int index) {
-      return jCNKLCNFACH_.get(index);
+    public emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA getCLBFJPDNHCG(int index) {
+      return cLBFJPDNHCG_.get(index);
     }
     /**
-     * <code>repeated .HLEDDDGEGNM JCNKLCNFACH = 15;</code>
+     * <code>repeated .PKLACFGBAFA CLBFJPDNHCG = 1;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNMOrBuilder getJCNKLCNFACHOrBuilder(
+    public emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFAOrBuilder getCLBFJPDNHCGOrBuilder(
         int index) {
-      return jCNKLCNFACH_.get(index);
+      return cLBFJPDNHCG_.get(index);
     }
 
-    public static final int BNEPMCDHMJA_FIELD_NUMBER = 5;
-    private java.util.List<emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD> bNEPMCDHMJA_;
+    public static final int IHPFBPKHHNO_FIELD_NUMBER = 3;
+    private java.util.List<emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN> iHPFBPKHHNO_;
     /**
-     * <code>repeated .HFHBPJIEOPD BNEPMCDHMJA = 5;</code>
+     * <code>repeated .KANFGENDGJN IHPFBPKHHNO = 3;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD> getBNEPMCDHMJAList() {
-      return bNEPMCDHMJA_;
+    public java.util.List<emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN> getIHPFBPKHHNOList() {
+      return iHPFBPKHHNO_;
     }
     /**
-     * <code>repeated .HFHBPJIEOPD BNEPMCDHMJA = 5;</code>
+     * <code>repeated .KANFGENDGJN IHPFBPKHHNO = 3;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPDOrBuilder> 
-        getBNEPMCDHMJAOrBuilderList() {
-      return bNEPMCDHMJA_;
+    public java.util.List<? extends emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJNOrBuilder> 
+        getIHPFBPKHHNOOrBuilderList() {
+      return iHPFBPKHHNO_;
     }
     /**
-     * <code>repeated .HFHBPJIEOPD BNEPMCDHMJA = 5;</code>
+     * <code>repeated .KANFGENDGJN IHPFBPKHHNO = 3;</code>
      */
     @java.lang.Override
-    public int getBNEPMCDHMJACount() {
-      return bNEPMCDHMJA_.size();
+    public int getIHPFBPKHHNOCount() {
+      return iHPFBPKHHNO_.size();
     }
     /**
-     * <code>repeated .HFHBPJIEOPD BNEPMCDHMJA = 5;</code>
+     * <code>repeated .KANFGENDGJN IHPFBPKHHNO = 3;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD getBNEPMCDHMJA(int index) {
-      return bNEPMCDHMJA_.get(index);
+    public emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN getIHPFBPKHHNO(int index) {
+      return iHPFBPKHHNO_.get(index);
     }
     /**
-     * <code>repeated .HFHBPJIEOPD BNEPMCDHMJA = 5;</code>
+     * <code>repeated .KANFGENDGJN IHPFBPKHHNO = 3;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPDOrBuilder getBNEPMCDHMJAOrBuilder(
+    public emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJNOrBuilder getIHPFBPKHHNOOrBuilder(
         int index) {
-      return bNEPMCDHMJA_.get(index);
+      return iHPFBPKHHNO_.get(index);
     }
 
-    public static final int PMNHIOANGEG_FIELD_NUMBER = 10;
-    private int pMNHIOANGEG_;
+    public static final int CDFGMOEHFDP_FIELD_NUMBER = 15;
+    private int cDFGMOEHFDP_;
     /**
-     * <code>uint32 PMNHIOANGEG = 10;</code>
-     * @return The pMNHIOANGEG.
+     * <code>uint32 CDFGMOEHFDP = 15;</code>
+     * @return The cDFGMOEHFDP.
      */
     @java.lang.Override
-    public int getPMNHIOANGEG() {
-      return pMNHIOANGEG_;
+    public int getCDFGMOEHFDP() {
+      return cDFGMOEHFDP_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -286,14 +286,14 @@ public final class BMFHLLPLCNAOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < bNEPMCDHMJA_.size(); i++) {
-        output.writeMessage(5, bNEPMCDHMJA_.get(i));
+      for (int i = 0; i < cLBFJPDNHCG_.size(); i++) {
+        output.writeMessage(1, cLBFJPDNHCG_.get(i));
       }
-      if (pMNHIOANGEG_ != 0) {
-        output.writeUInt32(10, pMNHIOANGEG_);
+      for (int i = 0; i < iHPFBPKHHNO_.size(); i++) {
+        output.writeMessage(3, iHPFBPKHHNO_.get(i));
       }
-      for (int i = 0; i < jCNKLCNFACH_.size(); i++) {
-        output.writeMessage(15, jCNKLCNFACH_.get(i));
+      if (cDFGMOEHFDP_ != 0) {
+        output.writeUInt32(15, cDFGMOEHFDP_);
       }
       unknownFields.writeTo(output);
     }
@@ -304,17 +304,17 @@ public final class BMFHLLPLCNAOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < bNEPMCDHMJA_.size(); i++) {
+      for (int i = 0; i < cLBFJPDNHCG_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, bNEPMCDHMJA_.get(i));
+          .computeMessageSize(1, cLBFJPDNHCG_.get(i));
       }
-      if (pMNHIOANGEG_ != 0) {
+      for (int i = 0; i < iHPFBPKHHNO_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, pMNHIOANGEG_);
+          .computeMessageSize(3, iHPFBPKHHNO_.get(i));
       }
-      for (int i = 0; i < jCNKLCNFACH_.size(); i++) {
+      if (cDFGMOEHFDP_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, jCNKLCNFACH_.get(i));
+          .computeUInt32Size(15, cDFGMOEHFDP_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -331,12 +331,12 @@ public final class BMFHLLPLCNAOuterClass {
       }
       emu.grasscutter.net.proto.BMFHLLPLCNAOuterClass.BMFHLLPLCNA other = (emu.grasscutter.net.proto.BMFHLLPLCNAOuterClass.BMFHLLPLCNA) obj;
 
-      if (!getJCNKLCNFACHList()
-          .equals(other.getJCNKLCNFACHList())) return false;
-      if (!getBNEPMCDHMJAList()
-          .equals(other.getBNEPMCDHMJAList())) return false;
-      if (getPMNHIOANGEG()
-          != other.getPMNHIOANGEG()) return false;
+      if (!getCLBFJPDNHCGList()
+          .equals(other.getCLBFJPDNHCGList())) return false;
+      if (!getIHPFBPKHHNOList()
+          .equals(other.getIHPFBPKHHNOList())) return false;
+      if (getCDFGMOEHFDP()
+          != other.getCDFGMOEHFDP()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -348,16 +348,16 @@ public final class BMFHLLPLCNAOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getJCNKLCNFACHCount() > 0) {
-        hash = (37 * hash) + JCNKLCNFACH_FIELD_NUMBER;
-        hash = (53 * hash) + getJCNKLCNFACHList().hashCode();
+      if (getCLBFJPDNHCGCount() > 0) {
+        hash = (37 * hash) + CLBFJPDNHCG_FIELD_NUMBER;
+        hash = (53 * hash) + getCLBFJPDNHCGList().hashCode();
       }
-      if (getBNEPMCDHMJACount() > 0) {
-        hash = (37 * hash) + BNEPMCDHMJA_FIELD_NUMBER;
-        hash = (53 * hash) + getBNEPMCDHMJAList().hashCode();
+      if (getIHPFBPKHHNOCount() > 0) {
+        hash = (37 * hash) + IHPFBPKHHNO_FIELD_NUMBER;
+        hash = (53 * hash) + getIHPFBPKHHNOList().hashCode();
       }
-      hash = (37 * hash) + PMNHIOANGEG_FIELD_NUMBER;
-      hash = (53 * hash) + getPMNHIOANGEG();
+      hash = (37 * hash) + CDFGMOEHFDP_FIELD_NUMBER;
+      hash = (53 * hash) + getCDFGMOEHFDP();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -486,26 +486,26 @@ public final class BMFHLLPLCNAOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
-          getJCNKLCNFACHFieldBuilder();
-          getBNEPMCDHMJAFieldBuilder();
+          getCLBFJPDNHCGFieldBuilder();
+          getIHPFBPKHHNOFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (jCNKLCNFACHBuilder_ == null) {
-          jCNKLCNFACH_ = java.util.Collections.emptyList();
+        if (cLBFJPDNHCGBuilder_ == null) {
+          cLBFJPDNHCG_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
         } else {
-          jCNKLCNFACHBuilder_.clear();
+          cLBFJPDNHCGBuilder_.clear();
         }
-        if (bNEPMCDHMJABuilder_ == null) {
-          bNEPMCDHMJA_ = java.util.Collections.emptyList();
+        if (iHPFBPKHHNOBuilder_ == null) {
+          iHPFBPKHHNO_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000002);
         } else {
-          bNEPMCDHMJABuilder_.clear();
+          iHPFBPKHHNOBuilder_.clear();
         }
-        pMNHIOANGEG_ = 0;
+        cDFGMOEHFDP_ = 0;
 
         return this;
       }
@@ -534,25 +534,25 @@ public final class BMFHLLPLCNAOuterClass {
       public emu.grasscutter.net.proto.BMFHLLPLCNAOuterClass.BMFHLLPLCNA buildPartial() {
         emu.grasscutter.net.proto.BMFHLLPLCNAOuterClass.BMFHLLPLCNA result = new emu.grasscutter.net.proto.BMFHLLPLCNAOuterClass.BMFHLLPLCNA(this);
         int from_bitField0_ = bitField0_;
-        if (jCNKLCNFACHBuilder_ == null) {
+        if (cLBFJPDNHCGBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
-            jCNKLCNFACH_ = java.util.Collections.unmodifiableList(jCNKLCNFACH_);
+            cLBFJPDNHCG_ = java.util.Collections.unmodifiableList(cLBFJPDNHCG_);
             bitField0_ = (bitField0_ & ~0x00000001);
           }
-          result.jCNKLCNFACH_ = jCNKLCNFACH_;
+          result.cLBFJPDNHCG_ = cLBFJPDNHCG_;
         } else {
-          result.jCNKLCNFACH_ = jCNKLCNFACHBuilder_.build();
+          result.cLBFJPDNHCG_ = cLBFJPDNHCGBuilder_.build();
         }
-        if (bNEPMCDHMJABuilder_ == null) {
+        if (iHPFBPKHHNOBuilder_ == null) {
           if (((bitField0_ & 0x00000002) != 0)) {
-            bNEPMCDHMJA_ = java.util.Collections.unmodifiableList(bNEPMCDHMJA_);
+            iHPFBPKHHNO_ = java.util.Collections.unmodifiableList(iHPFBPKHHNO_);
             bitField0_ = (bitField0_ & ~0x00000002);
           }
-          result.bNEPMCDHMJA_ = bNEPMCDHMJA_;
+          result.iHPFBPKHHNO_ = iHPFBPKHHNO_;
         } else {
-          result.bNEPMCDHMJA_ = bNEPMCDHMJABuilder_.build();
+          result.iHPFBPKHHNO_ = iHPFBPKHHNOBuilder_.build();
         }
-        result.pMNHIOANGEG_ = pMNHIOANGEG_;
+        result.cDFGMOEHFDP_ = cDFGMOEHFDP_;
         onBuilt();
         return result;
       }
@@ -601,60 +601,60 @@ public final class BMFHLLPLCNAOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.BMFHLLPLCNAOuterClass.BMFHLLPLCNA other) {
         if (other == emu.grasscutter.net.proto.BMFHLLPLCNAOuterClass.BMFHLLPLCNA.getDefaultInstance()) return this;
-        if (jCNKLCNFACHBuilder_ == null) {
-          if (!other.jCNKLCNFACH_.isEmpty()) {
-            if (jCNKLCNFACH_.isEmpty()) {
-              jCNKLCNFACH_ = other.jCNKLCNFACH_;
+        if (cLBFJPDNHCGBuilder_ == null) {
+          if (!other.cLBFJPDNHCG_.isEmpty()) {
+            if (cLBFJPDNHCG_.isEmpty()) {
+              cLBFJPDNHCG_ = other.cLBFJPDNHCG_;
               bitField0_ = (bitField0_ & ~0x00000001);
             } else {
-              ensureJCNKLCNFACHIsMutable();
-              jCNKLCNFACH_.addAll(other.jCNKLCNFACH_);
+              ensureCLBFJPDNHCGIsMutable();
+              cLBFJPDNHCG_.addAll(other.cLBFJPDNHCG_);
             }
             onChanged();
           }
         } else {
-          if (!other.jCNKLCNFACH_.isEmpty()) {
-            if (jCNKLCNFACHBuilder_.isEmpty()) {
-              jCNKLCNFACHBuilder_.dispose();
-              jCNKLCNFACHBuilder_ = null;
-              jCNKLCNFACH_ = other.jCNKLCNFACH_;
+          if (!other.cLBFJPDNHCG_.isEmpty()) {
+            if (cLBFJPDNHCGBuilder_.isEmpty()) {
+              cLBFJPDNHCGBuilder_.dispose();
+              cLBFJPDNHCGBuilder_ = null;
+              cLBFJPDNHCG_ = other.cLBFJPDNHCG_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              jCNKLCNFACHBuilder_ = 
+              cLBFJPDNHCGBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getJCNKLCNFACHFieldBuilder() : null;
+                   getCLBFJPDNHCGFieldBuilder() : null;
             } else {
-              jCNKLCNFACHBuilder_.addAllMessages(other.jCNKLCNFACH_);
+              cLBFJPDNHCGBuilder_.addAllMessages(other.cLBFJPDNHCG_);
             }
           }
         }
-        if (bNEPMCDHMJABuilder_ == null) {
-          if (!other.bNEPMCDHMJA_.isEmpty()) {
-            if (bNEPMCDHMJA_.isEmpty()) {
-              bNEPMCDHMJA_ = other.bNEPMCDHMJA_;
+        if (iHPFBPKHHNOBuilder_ == null) {
+          if (!other.iHPFBPKHHNO_.isEmpty()) {
+            if (iHPFBPKHHNO_.isEmpty()) {
+              iHPFBPKHHNO_ = other.iHPFBPKHHNO_;
               bitField0_ = (bitField0_ & ~0x00000002);
             } else {
-              ensureBNEPMCDHMJAIsMutable();
-              bNEPMCDHMJA_.addAll(other.bNEPMCDHMJA_);
+              ensureIHPFBPKHHNOIsMutable();
+              iHPFBPKHHNO_.addAll(other.iHPFBPKHHNO_);
             }
             onChanged();
           }
         } else {
-          if (!other.bNEPMCDHMJA_.isEmpty()) {
-            if (bNEPMCDHMJABuilder_.isEmpty()) {
-              bNEPMCDHMJABuilder_.dispose();
-              bNEPMCDHMJABuilder_ = null;
-              bNEPMCDHMJA_ = other.bNEPMCDHMJA_;
+          if (!other.iHPFBPKHHNO_.isEmpty()) {
+            if (iHPFBPKHHNOBuilder_.isEmpty()) {
+              iHPFBPKHHNOBuilder_.dispose();
+              iHPFBPKHHNOBuilder_ = null;
+              iHPFBPKHHNO_ = other.iHPFBPKHHNO_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              bNEPMCDHMJABuilder_ = 
+              iHPFBPKHHNOBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getBNEPMCDHMJAFieldBuilder() : null;
+                   getIHPFBPKHHNOFieldBuilder() : null;
             } else {
-              bNEPMCDHMJABuilder_.addAllMessages(other.bNEPMCDHMJA_);
+              iHPFBPKHHNOBuilder_.addAllMessages(other.iHPFBPKHHNO_);
             }
           }
         }
-        if (other.getPMNHIOANGEG() != 0) {
-          setPMNHIOANGEG(other.getPMNHIOANGEG());
+        if (other.getCDFGMOEHFDP() != 0) {
+          setCDFGMOEHFDP(other.getCDFGMOEHFDP());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -686,513 +686,513 @@ public final class BMFHLLPLCNAOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM> jCNKLCNFACH_ =
+      private java.util.List<emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA> cLBFJPDNHCG_ =
         java.util.Collections.emptyList();
-      private void ensureJCNKLCNFACHIsMutable() {
+      private void ensureCLBFJPDNHCGIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          jCNKLCNFACH_ = new java.util.ArrayList<emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM>(jCNKLCNFACH_);
+          cLBFJPDNHCG_ = new java.util.ArrayList<emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA>(cLBFJPDNHCG_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM, emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM.Builder, emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNMOrBuilder> jCNKLCNFACHBuilder_;
+          emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA, emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA.Builder, emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFAOrBuilder> cLBFJPDNHCGBuilder_;
 
       /**
-       * <code>repeated .HLEDDDGEGNM JCNKLCNFACH = 15;</code>
+       * <code>repeated .PKLACFGBAFA CLBFJPDNHCG = 1;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM> getJCNKLCNFACHList() {
-        if (jCNKLCNFACHBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(jCNKLCNFACH_);
+      public java.util.List<emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA> getCLBFJPDNHCGList() {
+        if (cLBFJPDNHCGBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(cLBFJPDNHCG_);
         } else {
-          return jCNKLCNFACHBuilder_.getMessageList();
+          return cLBFJPDNHCGBuilder_.getMessageList();
         }
       }
       /**
-       * <code>repeated .HLEDDDGEGNM JCNKLCNFACH = 15;</code>
+       * <code>repeated .PKLACFGBAFA CLBFJPDNHCG = 1;</code>
        */
-      public int getJCNKLCNFACHCount() {
-        if (jCNKLCNFACHBuilder_ == null) {
-          return jCNKLCNFACH_.size();
+      public int getCLBFJPDNHCGCount() {
+        if (cLBFJPDNHCGBuilder_ == null) {
+          return cLBFJPDNHCG_.size();
         } else {
-          return jCNKLCNFACHBuilder_.getCount();
+          return cLBFJPDNHCGBuilder_.getCount();
         }
       }
       /**
-       * <code>repeated .HLEDDDGEGNM JCNKLCNFACH = 15;</code>
+       * <code>repeated .PKLACFGBAFA CLBFJPDNHCG = 1;</code>
        */
-      public emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM getJCNKLCNFACH(int index) {
-        if (jCNKLCNFACHBuilder_ == null) {
-          return jCNKLCNFACH_.get(index);
+      public emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA getCLBFJPDNHCG(int index) {
+        if (cLBFJPDNHCGBuilder_ == null) {
+          return cLBFJPDNHCG_.get(index);
         } else {
-          return jCNKLCNFACHBuilder_.getMessage(index);
+          return cLBFJPDNHCGBuilder_.getMessage(index);
         }
       }
       /**
-       * <code>repeated .HLEDDDGEGNM JCNKLCNFACH = 15;</code>
+       * <code>repeated .PKLACFGBAFA CLBFJPDNHCG = 1;</code>
        */
-      public Builder setJCNKLCNFACH(
-          int index, emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM value) {
-        if (jCNKLCNFACHBuilder_ == null) {
+      public Builder setCLBFJPDNHCG(
+          int index, emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA value) {
+        if (cLBFJPDNHCGBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureJCNKLCNFACHIsMutable();
-          jCNKLCNFACH_.set(index, value);
+          ensureCLBFJPDNHCGIsMutable();
+          cLBFJPDNHCG_.set(index, value);
           onChanged();
         } else {
-          jCNKLCNFACHBuilder_.setMessage(index, value);
+          cLBFJPDNHCGBuilder_.setMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .HLEDDDGEGNM JCNKLCNFACH = 15;</code>
+       * <code>repeated .PKLACFGBAFA CLBFJPDNHCG = 1;</code>
        */
-      public Builder setJCNKLCNFACH(
-          int index, emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM.Builder builderForValue) {
-        if (jCNKLCNFACHBuilder_ == null) {
-          ensureJCNKLCNFACHIsMutable();
-          jCNKLCNFACH_.set(index, builderForValue.build());
+      public Builder setCLBFJPDNHCG(
+          int index, emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA.Builder builderForValue) {
+        if (cLBFJPDNHCGBuilder_ == null) {
+          ensureCLBFJPDNHCGIsMutable();
+          cLBFJPDNHCG_.set(index, builderForValue.build());
           onChanged();
         } else {
-          jCNKLCNFACHBuilder_.setMessage(index, builderForValue.build());
+          cLBFJPDNHCGBuilder_.setMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .HLEDDDGEGNM JCNKLCNFACH = 15;</code>
+       * <code>repeated .PKLACFGBAFA CLBFJPDNHCG = 1;</code>
        */
-      public Builder addJCNKLCNFACH(emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM value) {
-        if (jCNKLCNFACHBuilder_ == null) {
+      public Builder addCLBFJPDNHCG(emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA value) {
+        if (cLBFJPDNHCGBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureJCNKLCNFACHIsMutable();
-          jCNKLCNFACH_.add(value);
+          ensureCLBFJPDNHCGIsMutable();
+          cLBFJPDNHCG_.add(value);
           onChanged();
         } else {
-          jCNKLCNFACHBuilder_.addMessage(value);
+          cLBFJPDNHCGBuilder_.addMessage(value);
         }
         return this;
       }
       /**
-       * <code>repeated .HLEDDDGEGNM JCNKLCNFACH = 15;</code>
+       * <code>repeated .PKLACFGBAFA CLBFJPDNHCG = 1;</code>
        */
-      public Builder addJCNKLCNFACH(
-          int index, emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM value) {
-        if (jCNKLCNFACHBuilder_ == null) {
+      public Builder addCLBFJPDNHCG(
+          int index, emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA value) {
+        if (cLBFJPDNHCGBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureJCNKLCNFACHIsMutable();
-          jCNKLCNFACH_.add(index, value);
+          ensureCLBFJPDNHCGIsMutable();
+          cLBFJPDNHCG_.add(index, value);
           onChanged();
         } else {
-          jCNKLCNFACHBuilder_.addMessage(index, value);
+          cLBFJPDNHCGBuilder_.addMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .HLEDDDGEGNM JCNKLCNFACH = 15;</code>
+       * <code>repeated .PKLACFGBAFA CLBFJPDNHCG = 1;</code>
        */
-      public Builder addJCNKLCNFACH(
-          emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM.Builder builderForValue) {
-        if (jCNKLCNFACHBuilder_ == null) {
-          ensureJCNKLCNFACHIsMutable();
-          jCNKLCNFACH_.add(builderForValue.build());
+      public Builder addCLBFJPDNHCG(
+          emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA.Builder builderForValue) {
+        if (cLBFJPDNHCGBuilder_ == null) {
+          ensureCLBFJPDNHCGIsMutable();
+          cLBFJPDNHCG_.add(builderForValue.build());
           onChanged();
         } else {
-          jCNKLCNFACHBuilder_.addMessage(builderForValue.build());
+          cLBFJPDNHCGBuilder_.addMessage(builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .HLEDDDGEGNM JCNKLCNFACH = 15;</code>
+       * <code>repeated .PKLACFGBAFA CLBFJPDNHCG = 1;</code>
        */
-      public Builder addJCNKLCNFACH(
-          int index, emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM.Builder builderForValue) {
-        if (jCNKLCNFACHBuilder_ == null) {
-          ensureJCNKLCNFACHIsMutable();
-          jCNKLCNFACH_.add(index, builderForValue.build());
+      public Builder addCLBFJPDNHCG(
+          int index, emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA.Builder builderForValue) {
+        if (cLBFJPDNHCGBuilder_ == null) {
+          ensureCLBFJPDNHCGIsMutable();
+          cLBFJPDNHCG_.add(index, builderForValue.build());
           onChanged();
         } else {
-          jCNKLCNFACHBuilder_.addMessage(index, builderForValue.build());
+          cLBFJPDNHCGBuilder_.addMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .HLEDDDGEGNM JCNKLCNFACH = 15;</code>
+       * <code>repeated .PKLACFGBAFA CLBFJPDNHCG = 1;</code>
        */
-      public Builder addAllJCNKLCNFACH(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM> values) {
-        if (jCNKLCNFACHBuilder_ == null) {
-          ensureJCNKLCNFACHIsMutable();
+      public Builder addAllCLBFJPDNHCG(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA> values) {
+        if (cLBFJPDNHCGBuilder_ == null) {
+          ensureCLBFJPDNHCGIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, jCNKLCNFACH_);
+              values, cLBFJPDNHCG_);
           onChanged();
         } else {
-          jCNKLCNFACHBuilder_.addAllMessages(values);
+          cLBFJPDNHCGBuilder_.addAllMessages(values);
         }
         return this;
       }
       /**
-       * <code>repeated .HLEDDDGEGNM JCNKLCNFACH = 15;</code>
+       * <code>repeated .PKLACFGBAFA CLBFJPDNHCG = 1;</code>
        */
-      public Builder clearJCNKLCNFACH() {
-        if (jCNKLCNFACHBuilder_ == null) {
-          jCNKLCNFACH_ = java.util.Collections.emptyList();
+      public Builder clearCLBFJPDNHCG() {
+        if (cLBFJPDNHCGBuilder_ == null) {
+          cLBFJPDNHCG_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
-          jCNKLCNFACHBuilder_.clear();
+          cLBFJPDNHCGBuilder_.clear();
         }
         return this;
       }
       /**
-       * <code>repeated .HLEDDDGEGNM JCNKLCNFACH = 15;</code>
+       * <code>repeated .PKLACFGBAFA CLBFJPDNHCG = 1;</code>
        */
-      public Builder removeJCNKLCNFACH(int index) {
-        if (jCNKLCNFACHBuilder_ == null) {
-          ensureJCNKLCNFACHIsMutable();
-          jCNKLCNFACH_.remove(index);
+      public Builder removeCLBFJPDNHCG(int index) {
+        if (cLBFJPDNHCGBuilder_ == null) {
+          ensureCLBFJPDNHCGIsMutable();
+          cLBFJPDNHCG_.remove(index);
           onChanged();
         } else {
-          jCNKLCNFACHBuilder_.remove(index);
+          cLBFJPDNHCGBuilder_.remove(index);
         }
         return this;
       }
       /**
-       * <code>repeated .HLEDDDGEGNM JCNKLCNFACH = 15;</code>
+       * <code>repeated .PKLACFGBAFA CLBFJPDNHCG = 1;</code>
        */
-      public emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM.Builder getJCNKLCNFACHBuilder(
+      public emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA.Builder getCLBFJPDNHCGBuilder(
           int index) {
-        return getJCNKLCNFACHFieldBuilder().getBuilder(index);
+        return getCLBFJPDNHCGFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .HLEDDDGEGNM JCNKLCNFACH = 15;</code>
+       * <code>repeated .PKLACFGBAFA CLBFJPDNHCG = 1;</code>
        */
-      public emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNMOrBuilder getJCNKLCNFACHOrBuilder(
+      public emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFAOrBuilder getCLBFJPDNHCGOrBuilder(
           int index) {
-        if (jCNKLCNFACHBuilder_ == null) {
-          return jCNKLCNFACH_.get(index);  } else {
-          return jCNKLCNFACHBuilder_.getMessageOrBuilder(index);
+        if (cLBFJPDNHCGBuilder_ == null) {
+          return cLBFJPDNHCG_.get(index);  } else {
+          return cLBFJPDNHCGBuilder_.getMessageOrBuilder(index);
         }
       }
       /**
-       * <code>repeated .HLEDDDGEGNM JCNKLCNFACH = 15;</code>
+       * <code>repeated .PKLACFGBAFA CLBFJPDNHCG = 1;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNMOrBuilder> 
-           getJCNKLCNFACHOrBuilderList() {
-        if (jCNKLCNFACHBuilder_ != null) {
-          return jCNKLCNFACHBuilder_.getMessageOrBuilderList();
+      public java.util.List<? extends emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFAOrBuilder> 
+           getCLBFJPDNHCGOrBuilderList() {
+        if (cLBFJPDNHCGBuilder_ != null) {
+          return cLBFJPDNHCGBuilder_.getMessageOrBuilderList();
         } else {
-          return java.util.Collections.unmodifiableList(jCNKLCNFACH_);
+          return java.util.Collections.unmodifiableList(cLBFJPDNHCG_);
         }
       }
       /**
-       * <code>repeated .HLEDDDGEGNM JCNKLCNFACH = 15;</code>
+       * <code>repeated .PKLACFGBAFA CLBFJPDNHCG = 1;</code>
        */
-      public emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM.Builder addJCNKLCNFACHBuilder() {
-        return getJCNKLCNFACHFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM.getDefaultInstance());
+      public emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA.Builder addCLBFJPDNHCGBuilder() {
+        return getCLBFJPDNHCGFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA.getDefaultInstance());
       }
       /**
-       * <code>repeated .HLEDDDGEGNM JCNKLCNFACH = 15;</code>
+       * <code>repeated .PKLACFGBAFA CLBFJPDNHCG = 1;</code>
        */
-      public emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM.Builder addJCNKLCNFACHBuilder(
+      public emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA.Builder addCLBFJPDNHCGBuilder(
           int index) {
-        return getJCNKLCNFACHFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM.getDefaultInstance());
+        return getCLBFJPDNHCGFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA.getDefaultInstance());
       }
       /**
-       * <code>repeated .HLEDDDGEGNM JCNKLCNFACH = 15;</code>
+       * <code>repeated .PKLACFGBAFA CLBFJPDNHCG = 1;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM.Builder> 
-           getJCNKLCNFACHBuilderList() {
-        return getJCNKLCNFACHFieldBuilder().getBuilderList();
+      public java.util.List<emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA.Builder> 
+           getCLBFJPDNHCGBuilderList() {
+        return getCLBFJPDNHCGFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM, emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM.Builder, emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNMOrBuilder> 
-          getJCNKLCNFACHFieldBuilder() {
-        if (jCNKLCNFACHBuilder_ == null) {
-          jCNKLCNFACHBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM, emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNM.Builder, emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.HLEDDDGEGNMOrBuilder>(
-                  jCNKLCNFACH_,
+          emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA, emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA.Builder, emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFAOrBuilder> 
+          getCLBFJPDNHCGFieldBuilder() {
+        if (cLBFJPDNHCGBuilder_ == null) {
+          cLBFJPDNHCGBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA, emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFA.Builder, emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.PKLACFGBAFAOrBuilder>(
+                  cLBFJPDNHCG_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
                   isClean());
-          jCNKLCNFACH_ = null;
+          cLBFJPDNHCG_ = null;
         }
-        return jCNKLCNFACHBuilder_;
+        return cLBFJPDNHCGBuilder_;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD> bNEPMCDHMJA_ =
+      private java.util.List<emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN> iHPFBPKHHNO_ =
         java.util.Collections.emptyList();
-      private void ensureBNEPMCDHMJAIsMutable() {
+      private void ensureIHPFBPKHHNOIsMutable() {
         if (!((bitField0_ & 0x00000002) != 0)) {
-          bNEPMCDHMJA_ = new java.util.ArrayList<emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD>(bNEPMCDHMJA_);
+          iHPFBPKHHNO_ = new java.util.ArrayList<emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN>(iHPFBPKHHNO_);
           bitField0_ |= 0x00000002;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD, emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD.Builder, emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPDOrBuilder> bNEPMCDHMJABuilder_;
+          emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN, emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN.Builder, emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJNOrBuilder> iHPFBPKHHNOBuilder_;
 
       /**
-       * <code>repeated .HFHBPJIEOPD BNEPMCDHMJA = 5;</code>
+       * <code>repeated .KANFGENDGJN IHPFBPKHHNO = 3;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD> getBNEPMCDHMJAList() {
-        if (bNEPMCDHMJABuilder_ == null) {
-          return java.util.Collections.unmodifiableList(bNEPMCDHMJA_);
+      public java.util.List<emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN> getIHPFBPKHHNOList() {
+        if (iHPFBPKHHNOBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(iHPFBPKHHNO_);
         } else {
-          return bNEPMCDHMJABuilder_.getMessageList();
+          return iHPFBPKHHNOBuilder_.getMessageList();
         }
       }
       /**
-       * <code>repeated .HFHBPJIEOPD BNEPMCDHMJA = 5;</code>
+       * <code>repeated .KANFGENDGJN IHPFBPKHHNO = 3;</code>
        */
-      public int getBNEPMCDHMJACount() {
-        if (bNEPMCDHMJABuilder_ == null) {
-          return bNEPMCDHMJA_.size();
+      public int getIHPFBPKHHNOCount() {
+        if (iHPFBPKHHNOBuilder_ == null) {
+          return iHPFBPKHHNO_.size();
         } else {
-          return bNEPMCDHMJABuilder_.getCount();
+          return iHPFBPKHHNOBuilder_.getCount();
         }
       }
       /**
-       * <code>repeated .HFHBPJIEOPD BNEPMCDHMJA = 5;</code>
+       * <code>repeated .KANFGENDGJN IHPFBPKHHNO = 3;</code>
        */
-      public emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD getBNEPMCDHMJA(int index) {
-        if (bNEPMCDHMJABuilder_ == null) {
-          return bNEPMCDHMJA_.get(index);
+      public emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN getIHPFBPKHHNO(int index) {
+        if (iHPFBPKHHNOBuilder_ == null) {
+          return iHPFBPKHHNO_.get(index);
         } else {
-          return bNEPMCDHMJABuilder_.getMessage(index);
+          return iHPFBPKHHNOBuilder_.getMessage(index);
         }
       }
       /**
-       * <code>repeated .HFHBPJIEOPD BNEPMCDHMJA = 5;</code>
+       * <code>repeated .KANFGENDGJN IHPFBPKHHNO = 3;</code>
        */
-      public Builder setBNEPMCDHMJA(
-          int index, emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD value) {
-        if (bNEPMCDHMJABuilder_ == null) {
+      public Builder setIHPFBPKHHNO(
+          int index, emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN value) {
+        if (iHPFBPKHHNOBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureBNEPMCDHMJAIsMutable();
-          bNEPMCDHMJA_.set(index, value);
+          ensureIHPFBPKHHNOIsMutable();
+          iHPFBPKHHNO_.set(index, value);
           onChanged();
         } else {
-          bNEPMCDHMJABuilder_.setMessage(index, value);
+          iHPFBPKHHNOBuilder_.setMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .HFHBPJIEOPD BNEPMCDHMJA = 5;</code>
+       * <code>repeated .KANFGENDGJN IHPFBPKHHNO = 3;</code>
        */
-      public Builder setBNEPMCDHMJA(
-          int index, emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD.Builder builderForValue) {
-        if (bNEPMCDHMJABuilder_ == null) {
-          ensureBNEPMCDHMJAIsMutable();
-          bNEPMCDHMJA_.set(index, builderForValue.build());
+      public Builder setIHPFBPKHHNO(
+          int index, emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN.Builder builderForValue) {
+        if (iHPFBPKHHNOBuilder_ == null) {
+          ensureIHPFBPKHHNOIsMutable();
+          iHPFBPKHHNO_.set(index, builderForValue.build());
           onChanged();
         } else {
-          bNEPMCDHMJABuilder_.setMessage(index, builderForValue.build());
+          iHPFBPKHHNOBuilder_.setMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .HFHBPJIEOPD BNEPMCDHMJA = 5;</code>
+       * <code>repeated .KANFGENDGJN IHPFBPKHHNO = 3;</code>
        */
-      public Builder addBNEPMCDHMJA(emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD value) {
-        if (bNEPMCDHMJABuilder_ == null) {
+      public Builder addIHPFBPKHHNO(emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN value) {
+        if (iHPFBPKHHNOBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureBNEPMCDHMJAIsMutable();
-          bNEPMCDHMJA_.add(value);
+          ensureIHPFBPKHHNOIsMutable();
+          iHPFBPKHHNO_.add(value);
           onChanged();
         } else {
-          bNEPMCDHMJABuilder_.addMessage(value);
+          iHPFBPKHHNOBuilder_.addMessage(value);
         }
         return this;
       }
       /**
-       * <code>repeated .HFHBPJIEOPD BNEPMCDHMJA = 5;</code>
+       * <code>repeated .KANFGENDGJN IHPFBPKHHNO = 3;</code>
        */
-      public Builder addBNEPMCDHMJA(
-          int index, emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD value) {
-        if (bNEPMCDHMJABuilder_ == null) {
+      public Builder addIHPFBPKHHNO(
+          int index, emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN value) {
+        if (iHPFBPKHHNOBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureBNEPMCDHMJAIsMutable();
-          bNEPMCDHMJA_.add(index, value);
+          ensureIHPFBPKHHNOIsMutable();
+          iHPFBPKHHNO_.add(index, value);
           onChanged();
         } else {
-          bNEPMCDHMJABuilder_.addMessage(index, value);
+          iHPFBPKHHNOBuilder_.addMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .HFHBPJIEOPD BNEPMCDHMJA = 5;</code>
+       * <code>repeated .KANFGENDGJN IHPFBPKHHNO = 3;</code>
        */
-      public Builder addBNEPMCDHMJA(
-          emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD.Builder builderForValue) {
-        if (bNEPMCDHMJABuilder_ == null) {
-          ensureBNEPMCDHMJAIsMutable();
-          bNEPMCDHMJA_.add(builderForValue.build());
+      public Builder addIHPFBPKHHNO(
+          emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN.Builder builderForValue) {
+        if (iHPFBPKHHNOBuilder_ == null) {
+          ensureIHPFBPKHHNOIsMutable();
+          iHPFBPKHHNO_.add(builderForValue.build());
           onChanged();
         } else {
-          bNEPMCDHMJABuilder_.addMessage(builderForValue.build());
+          iHPFBPKHHNOBuilder_.addMessage(builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .HFHBPJIEOPD BNEPMCDHMJA = 5;</code>
+       * <code>repeated .KANFGENDGJN IHPFBPKHHNO = 3;</code>
        */
-      public Builder addBNEPMCDHMJA(
-          int index, emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD.Builder builderForValue) {
-        if (bNEPMCDHMJABuilder_ == null) {
-          ensureBNEPMCDHMJAIsMutable();
-          bNEPMCDHMJA_.add(index, builderForValue.build());
+      public Builder addIHPFBPKHHNO(
+          int index, emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN.Builder builderForValue) {
+        if (iHPFBPKHHNOBuilder_ == null) {
+          ensureIHPFBPKHHNOIsMutable();
+          iHPFBPKHHNO_.add(index, builderForValue.build());
           onChanged();
         } else {
-          bNEPMCDHMJABuilder_.addMessage(index, builderForValue.build());
+          iHPFBPKHHNOBuilder_.addMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .HFHBPJIEOPD BNEPMCDHMJA = 5;</code>
+       * <code>repeated .KANFGENDGJN IHPFBPKHHNO = 3;</code>
        */
-      public Builder addAllBNEPMCDHMJA(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD> values) {
-        if (bNEPMCDHMJABuilder_ == null) {
-          ensureBNEPMCDHMJAIsMutable();
+      public Builder addAllIHPFBPKHHNO(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN> values) {
+        if (iHPFBPKHHNOBuilder_ == null) {
+          ensureIHPFBPKHHNOIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, bNEPMCDHMJA_);
+              values, iHPFBPKHHNO_);
           onChanged();
         } else {
-          bNEPMCDHMJABuilder_.addAllMessages(values);
+          iHPFBPKHHNOBuilder_.addAllMessages(values);
         }
         return this;
       }
       /**
-       * <code>repeated .HFHBPJIEOPD BNEPMCDHMJA = 5;</code>
+       * <code>repeated .KANFGENDGJN IHPFBPKHHNO = 3;</code>
        */
-      public Builder clearBNEPMCDHMJA() {
-        if (bNEPMCDHMJABuilder_ == null) {
-          bNEPMCDHMJA_ = java.util.Collections.emptyList();
+      public Builder clearIHPFBPKHHNO() {
+        if (iHPFBPKHHNOBuilder_ == null) {
+          iHPFBPKHHNO_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000002);
           onChanged();
         } else {
-          bNEPMCDHMJABuilder_.clear();
+          iHPFBPKHHNOBuilder_.clear();
         }
         return this;
       }
       /**
-       * <code>repeated .HFHBPJIEOPD BNEPMCDHMJA = 5;</code>
+       * <code>repeated .KANFGENDGJN IHPFBPKHHNO = 3;</code>
        */
-      public Builder removeBNEPMCDHMJA(int index) {
-        if (bNEPMCDHMJABuilder_ == null) {
-          ensureBNEPMCDHMJAIsMutable();
-          bNEPMCDHMJA_.remove(index);
+      public Builder removeIHPFBPKHHNO(int index) {
+        if (iHPFBPKHHNOBuilder_ == null) {
+          ensureIHPFBPKHHNOIsMutable();
+          iHPFBPKHHNO_.remove(index);
           onChanged();
         } else {
-          bNEPMCDHMJABuilder_.remove(index);
+          iHPFBPKHHNOBuilder_.remove(index);
         }
         return this;
       }
       /**
-       * <code>repeated .HFHBPJIEOPD BNEPMCDHMJA = 5;</code>
+       * <code>repeated .KANFGENDGJN IHPFBPKHHNO = 3;</code>
        */
-      public emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD.Builder getBNEPMCDHMJABuilder(
+      public emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN.Builder getIHPFBPKHHNOBuilder(
           int index) {
-        return getBNEPMCDHMJAFieldBuilder().getBuilder(index);
+        return getIHPFBPKHHNOFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .HFHBPJIEOPD BNEPMCDHMJA = 5;</code>
+       * <code>repeated .KANFGENDGJN IHPFBPKHHNO = 3;</code>
        */
-      public emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPDOrBuilder getBNEPMCDHMJAOrBuilder(
+      public emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJNOrBuilder getIHPFBPKHHNOOrBuilder(
           int index) {
-        if (bNEPMCDHMJABuilder_ == null) {
-          return bNEPMCDHMJA_.get(index);  } else {
-          return bNEPMCDHMJABuilder_.getMessageOrBuilder(index);
+        if (iHPFBPKHHNOBuilder_ == null) {
+          return iHPFBPKHHNO_.get(index);  } else {
+          return iHPFBPKHHNOBuilder_.getMessageOrBuilder(index);
         }
       }
       /**
-       * <code>repeated .HFHBPJIEOPD BNEPMCDHMJA = 5;</code>
+       * <code>repeated .KANFGENDGJN IHPFBPKHHNO = 3;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPDOrBuilder> 
-           getBNEPMCDHMJAOrBuilderList() {
-        if (bNEPMCDHMJABuilder_ != null) {
-          return bNEPMCDHMJABuilder_.getMessageOrBuilderList();
+      public java.util.List<? extends emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJNOrBuilder> 
+           getIHPFBPKHHNOOrBuilderList() {
+        if (iHPFBPKHHNOBuilder_ != null) {
+          return iHPFBPKHHNOBuilder_.getMessageOrBuilderList();
         } else {
-          return java.util.Collections.unmodifiableList(bNEPMCDHMJA_);
+          return java.util.Collections.unmodifiableList(iHPFBPKHHNO_);
         }
       }
       /**
-       * <code>repeated .HFHBPJIEOPD BNEPMCDHMJA = 5;</code>
+       * <code>repeated .KANFGENDGJN IHPFBPKHHNO = 3;</code>
        */
-      public emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD.Builder addBNEPMCDHMJABuilder() {
-        return getBNEPMCDHMJAFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD.getDefaultInstance());
+      public emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN.Builder addIHPFBPKHHNOBuilder() {
+        return getIHPFBPKHHNOFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN.getDefaultInstance());
       }
       /**
-       * <code>repeated .HFHBPJIEOPD BNEPMCDHMJA = 5;</code>
+       * <code>repeated .KANFGENDGJN IHPFBPKHHNO = 3;</code>
        */
-      public emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD.Builder addBNEPMCDHMJABuilder(
+      public emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN.Builder addIHPFBPKHHNOBuilder(
           int index) {
-        return getBNEPMCDHMJAFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD.getDefaultInstance());
+        return getIHPFBPKHHNOFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN.getDefaultInstance());
       }
       /**
-       * <code>repeated .HFHBPJIEOPD BNEPMCDHMJA = 5;</code>
+       * <code>repeated .KANFGENDGJN IHPFBPKHHNO = 3;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD.Builder> 
-           getBNEPMCDHMJABuilderList() {
-        return getBNEPMCDHMJAFieldBuilder().getBuilderList();
+      public java.util.List<emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN.Builder> 
+           getIHPFBPKHHNOBuilderList() {
+        return getIHPFBPKHHNOFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD, emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD.Builder, emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPDOrBuilder> 
-          getBNEPMCDHMJAFieldBuilder() {
-        if (bNEPMCDHMJABuilder_ == null) {
-          bNEPMCDHMJABuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD, emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPD.Builder, emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.HFHBPJIEOPDOrBuilder>(
-                  bNEPMCDHMJA_,
+          emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN, emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN.Builder, emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJNOrBuilder> 
+          getIHPFBPKHHNOFieldBuilder() {
+        if (iHPFBPKHHNOBuilder_ == null) {
+          iHPFBPKHHNOBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN, emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJN.Builder, emu.grasscutter.net.proto.KANFGENDGJNOuterClass.KANFGENDGJNOrBuilder>(
+                  iHPFBPKHHNO_,
                   ((bitField0_ & 0x00000002) != 0),
                   getParentForChildren(),
                   isClean());
-          bNEPMCDHMJA_ = null;
+          iHPFBPKHHNO_ = null;
         }
-        return bNEPMCDHMJABuilder_;
+        return iHPFBPKHHNOBuilder_;
       }
 
-      private int pMNHIOANGEG_ ;
+      private int cDFGMOEHFDP_ ;
       /**
-       * <code>uint32 PMNHIOANGEG = 10;</code>
-       * @return The pMNHIOANGEG.
+       * <code>uint32 CDFGMOEHFDP = 15;</code>
+       * @return The cDFGMOEHFDP.
        */
       @java.lang.Override
-      public int getPMNHIOANGEG() {
-        return pMNHIOANGEG_;
+      public int getCDFGMOEHFDP() {
+        return cDFGMOEHFDP_;
       }
       /**
-       * <code>uint32 PMNHIOANGEG = 10;</code>
-       * @param value The pMNHIOANGEG to set.
+       * <code>uint32 CDFGMOEHFDP = 15;</code>
+       * @param value The cDFGMOEHFDP to set.
        * @return This builder for chaining.
        */
-      public Builder setPMNHIOANGEG(int value) {
+      public Builder setCDFGMOEHFDP(int value) {
         
-        pMNHIOANGEG_ = value;
+        cDFGMOEHFDP_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 PMNHIOANGEG = 10;</code>
+       * <code>uint32 CDFGMOEHFDP = 15;</code>
        * @return This builder for chaining.
        */
-      public Builder clearPMNHIOANGEG() {
+      public Builder clearCDFGMOEHFDP() {
         
-        pMNHIOANGEG_ = 0;
+        cDFGMOEHFDP_ = 0;
         onChanged();
         return this;
       }
@@ -1263,26 +1263,27 @@ public final class BMFHLLPLCNAOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021BMFHLLPLCNA.proto\032\021HLEDDDGEGNM.proto\032\021" +
-      "HFHBPJIEOPD.proto\"h\n\013BMFHLLPLCNA\022!\n\013JCNK" +
-      "LCNFACH\030\017 \003(\0132\014.HLEDDDGEGNM\022!\n\013BNEPMCDHM" +
-      "JA\030\005 \003(\0132\014.HFHBPJIEOPD\022\023\n\013PMNHIOANGEG\030\n " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\n\021BMFHLLPLCNA.proto\032\021KANFGENDGJN.proto\032\021" +
+      "PKLACFGBAFA.proto\"h\n\013BMFHLLPLCNA\022!\n\013CLBF" +
+      "JPDNHCG\030\001 \003(\0132\014.PKLACFGBAFA\022!\n\013IHPFBPKHH" +
+      "NO\030\003 \003(\0132\014.KANFGENDGJN\022\023\n\013CDFGMOEHFDP\030\017 " +
+      "\001(\rB2\n\031emu.grasscutter.net.protoB\025BMFHLL" +
+      "PLCNAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.KANFGENDGJNOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.getDescriptor(),
         });
     internal_static_BMFHLLPLCNA_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_BMFHLLPLCNA_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BMFHLLPLCNA_descriptor,
-        new java.lang.String[] { "JCNKLCNFACH", "BNEPMCDHMJA", "PMNHIOANGEG", });
-    emu.grasscutter.net.proto.HLEDDDGEGNMOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.HFHBPJIEOPDOuterClass.getDescriptor();
+        new java.lang.String[] { "CLBFJPDNHCG", "IHPFBPKHHNO", "CDFGMOEHFDP", });
+    emu.grasscutter.net.proto.KANFGENDGJNOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.PKLACFGBAFAOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ODHFHKLJNGBOuterClass";
+
+message ODHFHKLJNGB {
+	uint32 score = 4;
+	bool is_open = 8;
+	uint32 level_id = 10;
+	bool is_finish = 14;
+}

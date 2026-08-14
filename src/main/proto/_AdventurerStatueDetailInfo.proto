@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_AdventurerStatueDetailInfoOuterClass";
+
+import "GAEECEOCDEJ.proto";
+import "ItemParam.proto";
+
+message _AdventurerStatueDetailInfo {
+	repeated ItemParam GPBHPMHGEIJ = 4;
+	repeated GAEECEOCDEJ ONPHKHNELAA = 8;
+	uint32 HAEEPFDNNIJ = 9;
+	uint32 MLJLLMKIAEK = 10;
+	repeated ItemParam LHPCAMJGPPN = 11;
+	uint32 DLKAPMLCIGN = 13;
+	repeated uint32 open_stage_list = 14;
+}

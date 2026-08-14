@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SorushTrialDetailInfoOuterClass";
+
+message SorushTrialDetailInfo {
+	repeated uint32 BBFEAFFLOBA = 3;
+	repeated uint32 HOPCJHIJDDK = 6;
+	map<uint32, uint32> KCGIACHFPOC = 8;
+	repeated uint32 IIDDBDAEPKC = 11;
+}

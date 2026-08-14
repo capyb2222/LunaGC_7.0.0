@@ -15,10 +15,6 @@ public final class ChallengeFinishTypeOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   /**
-   * <pre>
-   * Obf: KKEOIBNCMCK
-   * </pre>
-   *
    * Protobuf enum {@code ChallengeFinishType}
    */
   public enum ChallengeFinishType
@@ -157,8 +153,9 @@ public final class ChallengeFinishTypeOuterClass {
       "eFinishType\022\036\n\032CHALLENGE_FINISH_TYPE_NON" +
       "E\020\000\022\036\n\032CHALLENGE_FINISH_TYPE_FAIL\020\001\022\036\n\032C" +
       "HALLENGE_FINISH_TYPE_SUCC\020\002\022\037\n\033CHALLENGE" +
-      "_FINISH_TYPE_PAUSE\020\003B\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "_FINISH_TYPE_PAUSE\020\003B:\n\031emu.grasscutter." +
+      "net.protoB\035ChallengeFinishTypeOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

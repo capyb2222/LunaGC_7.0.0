@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AddNoGachaAvatarCardTransferItemOuterClass";
+
+message AddNoGachaAvatarCardTransferItem {
+	uint32 item_id = 1;
+	bool is_new = 13;
+	uint32 count = 14;
+}

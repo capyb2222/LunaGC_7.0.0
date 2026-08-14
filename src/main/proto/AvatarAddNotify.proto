@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AvatarAddNotifyOuterClass";
+
+import "AvatarInfo.proto";
+
+message AvatarAddNotify {
+	bool is_in_team = 2;
+	AvatarInfo avatar = 5;
+}

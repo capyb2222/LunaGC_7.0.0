@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "WorldPlayerDieNotifyOuterClass";
+
+import "AbilityString.proto";
+import "PlayerDieType.proto";
+
+message WorldPlayerDieNotify {
+	oneof entity {
+		uint32 monster_id = 9;
+		uint32 gadget_id = 14;
+	}
+	PlayerDieType die_type = 3;
+	AbilityString cfadgphidli = 5;
+	uint32 OBOKABMLGHI = 8;
+	uint32 AOMDIHGJMNK = 11;
+	uint32 murderer_entity_id = 12;
+}

@@ -19,29 +19,24 @@ public final class AvatarChangeTraceEffectRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint64 avatar_guid = 7;</code>
+     * <code>int32 retcode = 2;</code>
+     * @return The retcode.
+     */
+    int getRetcode();
+
+    /**
+     * <code>uint64 avatar_guid = 4;</code>
      * @return The avatarGuid.
      */
     long getAvatarGuid();
 
     /**
-     * <code>uint32 trace_effect_id = 6;</code>
+     * <code>uint32 _trace_effect_id = 14;</code>
      * @return The traceEffectId.
      */
     int getTraceEffectId();
-
-    /**
-     * <code>int32 retcode = 8;</code>
-     * @return The retcode.
-     */
-    int getRetcode();
   }
   /**
-   * <pre>
-   * Version: 5.7
-   * CmdId: 9961
-   * </pre>
-   *
    * Protobuf type {@code AvatarChangeTraceEffectRsp}
    */
   public static final class AvatarChangeTraceEffectRsp extends
@@ -86,19 +81,19 @@ public final class AvatarChangeTraceEffectRspOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
-
-              traceEffectId_ = input.readUInt32();
-              break;
-            }
-            case 24: {
+            case 16: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 8: {
+            case 32: {
 
               avatarGuid_ = input.readUInt64();
+              break;
+            }
+            case 112: {
+
+              TraceEffectId_ = input.readUInt32();
               break;
             }
             default: {
@@ -133,10 +128,21 @@ public final class AvatarChangeTraceEffectRspOuterClass {
               emu.grasscutter.net.proto.AvatarChangeTraceEffectRspOuterClass.AvatarChangeTraceEffectRsp.class, emu.grasscutter.net.proto.AvatarChangeTraceEffectRspOuterClass.AvatarChangeTraceEffectRsp.Builder.class);
     }
 
-    public static final int AVATAR_GUID_FIELD_NUMBER = 1;
+    public static final int RETCODE_FIELD_NUMBER = 2;
+    private int retcode_;
+    /**
+     * <code>int32 retcode = 2;</code>
+     * @return The retcode.
+     */
+    @java.lang.Override
+    public int getRetcode() {
+      return retcode_;
+    }
+
+    public static final int AVATAR_GUID_FIELD_NUMBER = 4;
     private long avatarGuid_;
     /**
-     * <code>uint64 avatar_guid = 7;</code>
+     * <code>uint64 avatar_guid = 4;</code>
      * @return The avatarGuid.
      */
     @java.lang.Override
@@ -144,26 +150,15 @@ public final class AvatarChangeTraceEffectRspOuterClass {
       return avatarGuid_;
     }
 
-    public static final int TRACE_EFFECT_ID_FIELD_NUMBER = 6;
-    private int traceEffectId_;
+    public static final int _TRACE_EFFECT_ID_FIELD_NUMBER = 14;
+    private int TraceEffectId_;
     /**
-     * <code>uint32 trace_effect_id = 6;</code>
+     * <code>uint32 _trace_effect_id = 14;</code>
      * @return The traceEffectId.
      */
     @java.lang.Override
     public int getTraceEffectId() {
-      return traceEffectId_;
-    }
-
-    public static final int RETCODE_FIELD_NUMBER = 3;
-    private int retcode_;
-    /**
-     * <code>int32 retcode = 8;</code>
-     * @return The retcode.
-     */
-    @java.lang.Override
-    public int getRetcode() {
-      return retcode_;
+      return TraceEffectId_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -180,14 +175,14 @@ public final class AvatarChangeTraceEffectRspOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (traceEffectId_ != 0) {
-        output.writeUInt32(6, traceEffectId_);
-      }
       if (retcode_ != 0) {
-        output.writeInt32(3, retcode_);
+        output.writeInt32(2, retcode_);
       }
       if (avatarGuid_ != 0L) {
-        output.writeUInt64(1, avatarGuid_);
+        output.writeUInt64(4, avatarGuid_);
+      }
+      if (TraceEffectId_ != 0) {
+        output.writeUInt32(14, TraceEffectId_);
       }
       unknownFields.writeTo(output);
     }
@@ -198,17 +193,17 @@ public final class AvatarChangeTraceEffectRspOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (traceEffectId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, traceEffectId_);
-      }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(3, retcode_);
+          .computeInt32Size(2, retcode_);
       }
       if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(1, avatarGuid_);
+          .computeUInt64Size(4, avatarGuid_);
+      }
+      if (TraceEffectId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(14, TraceEffectId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -225,12 +220,12 @@ public final class AvatarChangeTraceEffectRspOuterClass {
       }
       emu.grasscutter.net.proto.AvatarChangeTraceEffectRspOuterClass.AvatarChangeTraceEffectRsp other = (emu.grasscutter.net.proto.AvatarChangeTraceEffectRspOuterClass.AvatarChangeTraceEffectRsp) obj;
 
+      if (getRetcode()
+          != other.getRetcode()) return false;
       if (getAvatarGuid()
           != other.getAvatarGuid()) return false;
       if (getTraceEffectId()
           != other.getTraceEffectId()) return false;
-      if (getRetcode()
-          != other.getRetcode()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -242,13 +237,13 @@ public final class AvatarChangeTraceEffectRspOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + RETCODE_FIELD_NUMBER;
+      hash = (53 * hash) + getRetcode();
       hash = (37 * hash) + AVATAR_GUID_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           getAvatarGuid());
-      hash = (37 * hash) + TRACE_EFFECT_ID_FIELD_NUMBER;
+      hash = (37 * hash) + _TRACE_EFFECT_ID_FIELD_NUMBER;
       hash = (53 * hash) + getTraceEffectId();
-      hash = (37 * hash) + RETCODE_FIELD_NUMBER;
-      hash = (53 * hash) + getRetcode();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -345,11 +340,6 @@ public final class AvatarChangeTraceEffectRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * Version: 5.7
-     * CmdId: 9961
-     * </pre>
-     *
      * Protobuf type {@code AvatarChangeTraceEffectRsp}
      */
     public static final class Builder extends
@@ -387,11 +377,11 @@ public final class AvatarChangeTraceEffectRspOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        retcode_ = 0;
+
         avatarGuid_ = 0L;
 
-        traceEffectId_ = 0;
-
-        retcode_ = 0;
+        TraceEffectId_ = 0;
 
         return this;
       }
@@ -419,9 +409,9 @@ public final class AvatarChangeTraceEffectRspOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.AvatarChangeTraceEffectRspOuterClass.AvatarChangeTraceEffectRsp buildPartial() {
         emu.grasscutter.net.proto.AvatarChangeTraceEffectRspOuterClass.AvatarChangeTraceEffectRsp result = new emu.grasscutter.net.proto.AvatarChangeTraceEffectRspOuterClass.AvatarChangeTraceEffectRsp(this);
-        result.avatarGuid_ = avatarGuid_;
-        result.traceEffectId_ = traceEffectId_;
         result.retcode_ = retcode_;
+        result.avatarGuid_ = avatarGuid_;
+        result.TraceEffectId_ = TraceEffectId_;
         onBuilt();
         return result;
       }
@@ -470,14 +460,14 @@ public final class AvatarChangeTraceEffectRspOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.AvatarChangeTraceEffectRspOuterClass.AvatarChangeTraceEffectRsp other) {
         if (other == emu.grasscutter.net.proto.AvatarChangeTraceEffectRspOuterClass.AvatarChangeTraceEffectRsp.getDefaultInstance()) return this;
+        if (other.getRetcode() != 0) {
+          setRetcode(other.getRetcode());
+        }
         if (other.getAvatarGuid() != 0L) {
           setAvatarGuid(other.getAvatarGuid());
         }
         if (other.getTraceEffectId() != 0) {
           setTraceEffectId(other.getTraceEffectId());
-        }
-        if (other.getRetcode() != 0) {
-          setRetcode(other.getRetcode());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -508,71 +498,9 @@ public final class AvatarChangeTraceEffectRspOuterClass {
         return this;
       }
 
-      private long avatarGuid_ ;
-      /**
-       * <code>uint64 avatar_guid = 7;</code>
-       * @return The avatarGuid.
-       */
-      @java.lang.Override
-      public long getAvatarGuid() {
-        return avatarGuid_;
-      }
-      /**
-       * <code>uint64 avatar_guid = 7;</code>
-       * @param value The avatarGuid to set.
-       * @return This builder for chaining.
-       */
-      public Builder setAvatarGuid(long value) {
-        
-        avatarGuid_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint64 avatar_guid = 7;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearAvatarGuid() {
-        
-        avatarGuid_ = 0L;
-        onChanged();
-        return this;
-      }
-
-      private int traceEffectId_ ;
-      /**
-       * <code>uint32 trace_effect_id = 6;</code>
-       * @return The traceEffectId.
-       */
-      @java.lang.Override
-      public int getTraceEffectId() {
-        return traceEffectId_;
-      }
-      /**
-       * <code>uint32 trace_effect_id = 6;</code>
-       * @param value The traceEffectId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setTraceEffectId(int value) {
-        
-        traceEffectId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 trace_effect_id = 6;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearTraceEffectId() {
-        
-        traceEffectId_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int retcode_ ;
       /**
-       * <code>int32 retcode = 8;</code>
+       * <code>int32 retcode = 2;</code>
        * @return The retcode.
        */
       @java.lang.Override
@@ -580,7 +508,7 @@ public final class AvatarChangeTraceEffectRspOuterClass {
         return retcode_;
       }
       /**
-       * <code>int32 retcode = 8;</code>
+       * <code>int32 retcode = 2;</code>
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
@@ -591,12 +519,74 @@ public final class AvatarChangeTraceEffectRspOuterClass {
         return this;
       }
       /**
-       * <code>int32 retcode = 8;</code>
+       * <code>int32 retcode = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
         
         retcode_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private long avatarGuid_ ;
+      /**
+       * <code>uint64 avatar_guid = 4;</code>
+       * @return The avatarGuid.
+       */
+      @java.lang.Override
+      public long getAvatarGuid() {
+        return avatarGuid_;
+      }
+      /**
+       * <code>uint64 avatar_guid = 4;</code>
+       * @param value The avatarGuid to set.
+       * @return This builder for chaining.
+       */
+      public Builder setAvatarGuid(long value) {
+        
+        avatarGuid_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint64 avatar_guid = 4;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearAvatarGuid() {
+        
+        avatarGuid_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private int TraceEffectId_ ;
+      /**
+       * <code>uint32 _trace_effect_id = 14;</code>
+       * @return The traceEffectId.
+       */
+      @java.lang.Override
+      public int getTraceEffectId() {
+        return TraceEffectId_;
+      }
+      /**
+       * <code>uint32 _trace_effect_id = 14;</code>
+       * @param value The traceEffectId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setTraceEffectId(int value) {
+        
+        TraceEffectId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 _trace_effect_id = 14;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearTraceEffectId() {
+        
+        TraceEffectId_ = 0;
         onChanged();
         return this;
       }
@@ -667,11 +657,12 @@ public final class AvatarChangeTraceEffectRspOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n AvatarChangeTraceEffectRsp.proto\"[\n\032Av" +
-      "atarChangeTraceEffectRsp\022\023\n\013avatar_guid\030" +
-      "\007 \001(\004\022\027\n\017trace_effect_id\030\006 \001(\r\022\017\n\007retcod" +
-      "e\030\010 \001(\005B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "\n AvatarChangeTraceEffectRsp.proto\"\\\n\032Av" +
+      "atarChangeTraceEffectRsp\022\017\n\007retcode\030\002 \001(" +
+      "\005\022\023\n\013avatar_guid\030\004 \001(\004\022\030\n\020_trace_effect_" +
+      "id\030\016 \001(\rBA\n\031emu.grasscutter.net.protoB$A" +
+      "vatarChangeTraceEffectRspOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -682,7 +673,7 @@ public final class AvatarChangeTraceEffectRspOuterClass {
     internal_static_AvatarChangeTraceEffectRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AvatarChangeTraceEffectRsp_descriptor,
-        new java.lang.String[] { "AvatarGuid", "TraceEffectId", "Retcode", });
+        new java.lang.String[] { "Retcode", "AvatarGuid", "TraceEffectId", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

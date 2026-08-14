@@ -18,8 +18,13 @@ public final class PlayerPropNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:PlayerPropNotify)
       com.google.protobuf.MessageOrBuilder {
 
+    /**
+     * <code>map&lt;uint32, .PropValue&gt; prop_map = 1;</code>
+     */
     int getPropMapCount();
-
+    /**
+     * <code>map&lt;uint32, .PropValue&gt; prop_map = 1;</code>
+     */
     boolean containsPropMap(
         int key);
     /**
@@ -28,22 +33,26 @@ public final class PlayerPropNotifyOuterClass {
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue>
     getPropMap();
-
+    /**
+     * <code>map&lt;uint32, .PropValue&gt; prop_map = 1;</code>
+     */
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue>
     getPropMapMap();
+    /**
+     * <code>map&lt;uint32, .PropValue&gt; prop_map = 1;</code>
+     */
 
     emu.grasscutter.net.proto.PropValueOuterClass.PropValue getPropMapOrDefault(
         int key,
         emu.grasscutter.net.proto.PropValueOuterClass.PropValue defaultValue);
+    /**
+     * <code>map&lt;uint32, .PropValue&gt; prop_map = 1;</code>
+     */
 
     emu.grasscutter.net.proto.PropValueOuterClass.PropValue getPropMapOrThrow(
         int key);
   }
   /**
-   * <pre>
-   * CmdId: 1883
-   * </pre>
-   *
    * Protobuf type {@code PlayerPropNotify}
    */
   public static final class PlayerPropNotify extends
@@ -89,7 +98,7 @@ public final class PlayerPropNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 74: {
+            case 10: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 propMap_ = com.google.protobuf.MapField.newMapField(
                     PropMapDefaultEntryHolder.defaultEntry);
@@ -131,7 +140,7 @@ public final class PlayerPropNotifyOuterClass {
     protected com.google.protobuf.MapField internalGetMapField(
         int number) {
       switch (number) {
-        case 12:
+        case 1:
           return internalGetPropMap();
         default:
           throw new RuntimeException(
@@ -146,13 +155,13 @@ public final class PlayerPropNotifyOuterClass {
               emu.grasscutter.net.proto.PlayerPropNotifyOuterClass.PlayerPropNotify.class, emu.grasscutter.net.proto.PlayerPropNotifyOuterClass.PlayerPropNotify.Builder.class);
     }
 
-    public static final int PROP_MAP_FIELD_NUMBER = 9;
+    public static final int PROP_MAP_FIELD_NUMBER = 1;
     private static final class PropMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue>newDefaultInstance(
-                  emu.grasscutter.net.proto.PlayerPropNotifyOuterClass.internal_static_PlayerPropNotify_PropMapEntry_descriptor,
+                  emu.grasscutter.net.proto.PlayerPropNotifyOuterClass.internal_static_PlayerPropNotify_PropMapEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
@@ -172,11 +181,14 @@ public final class PlayerPropNotifyOuterClass {
     public int getPropMapCount() {
       return internalGetPropMap().getMap().size();
     }
+    /**
+     * <code>map&lt;uint32, .PropValue&gt; prop_map = 1;</code>
+     */
 
     @java.lang.Override
     public boolean containsPropMap(
         int key) {
-
+      
       return internalGetPropMap().getMap().containsKey(key);
     }
     /**
@@ -187,29 +199,35 @@ public final class PlayerPropNotifyOuterClass {
     public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> getPropMap() {
       return getPropMapMap();
     }
-
+    /**
+     * <code>map&lt;uint32, .PropValue&gt; prop_map = 1;</code>
+     */
     @java.lang.Override
 
     public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> getPropMapMap() {
       return internalGetPropMap().getMap();
     }
-
+    /**
+     * <code>map&lt;uint32, .PropValue&gt; prop_map = 1;</code>
+     */
     @java.lang.Override
 
     public emu.grasscutter.net.proto.PropValueOuterClass.PropValue getPropMapOrDefault(
         int key,
         emu.grasscutter.net.proto.PropValueOuterClass.PropValue defaultValue) {
-
+      
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> map =
           internalGetPropMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
-
+    /**
+     * <code>map&lt;uint32, .PropValue&gt; prop_map = 1;</code>
+     */
     @java.lang.Override
 
     public emu.grasscutter.net.proto.PropValueOuterClass.PropValue getPropMapOrThrow(
         int key) {
-
+      
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> map =
           internalGetPropMap().getMap();
       if (!map.containsKey(key)) {
@@ -237,7 +255,7 @@ public final class PlayerPropNotifyOuterClass {
           output,
           internalGetPropMap(),
           PropMapDefaultEntryHolder.defaultEntry,
-          9);
+          1);
       unknownFields.writeTo(output);
     }
 
@@ -255,7 +273,7 @@ public final class PlayerPropNotifyOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(9, propMap__);
+            .computeMessageSize(1, propMap__);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -385,10 +403,6 @@ public final class PlayerPropNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 1883
-     * </pre>
-     *
      * Protobuf type {@code PlayerPropNotify}
      */
     public static final class Builder extends
@@ -404,7 +418,7 @@ public final class PlayerPropNotifyOuterClass {
       protected com.google.protobuf.MapField internalGetMapField(
           int number) {
         switch (number) {
-          case 11:
+          case 1:
             return internalGetPropMap();
           default:
             throw new RuntimeException(
@@ -415,7 +429,7 @@ public final class PlayerPropNotifyOuterClass {
       protected com.google.protobuf.MapField internalGetMutableMapField(
           int number) {
         switch (number) {
-          case 12:
+          case 1:
             return internalGetMutablePropMap();
           default:
             throw new RuntimeException(
@@ -584,11 +598,14 @@ public final class PlayerPropNotifyOuterClass {
       public int getPropMapCount() {
         return internalGetPropMap().getMap().size();
       }
+      /**
+       * <code>map&lt;uint32, .PropValue&gt; prop_map = 1;</code>
+       */
 
       @java.lang.Override
       public boolean containsPropMap(
           int key) {
-
+        
         return internalGetPropMap().getMap().containsKey(key);
       }
       /**
@@ -599,29 +616,35 @@ public final class PlayerPropNotifyOuterClass {
       public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> getPropMap() {
         return getPropMapMap();
       }
-
+      /**
+       * <code>map&lt;uint32, .PropValue&gt; prop_map = 1;</code>
+       */
       @java.lang.Override
 
       public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> getPropMapMap() {
         return internalGetPropMap().getMap();
       }
-
+      /**
+       * <code>map&lt;uint32, .PropValue&gt; prop_map = 1;</code>
+       */
       @java.lang.Override
 
       public emu.grasscutter.net.proto.PropValueOuterClass.PropValue getPropMapOrDefault(
           int key,
           emu.grasscutter.net.proto.PropValueOuterClass.PropValue defaultValue) {
-
+        
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> map =
             internalGetPropMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
-
+      /**
+       * <code>map&lt;uint32, .PropValue&gt; prop_map = 1;</code>
+       */
       @java.lang.Override
 
       public emu.grasscutter.net.proto.PropValueOuterClass.PropValue getPropMapOrThrow(
           int key) {
-
+        
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> map =
             internalGetPropMap().getMap();
         if (!map.containsKey(key)) {
@@ -635,10 +658,13 @@ public final class PlayerPropNotifyOuterClass {
             .clear();
         return this;
       }
+      /**
+       * <code>map&lt;uint32, .PropValue&gt; prop_map = 1;</code>
+       */
 
       public Builder removePropMap(
           int key) {
-
+        
         internalGetMutablePropMap().getMutableMap()
             .remove(key);
         return this;
@@ -651,16 +677,21 @@ public final class PlayerPropNotifyOuterClass {
       getMutablePropMap() {
         return internalGetMutablePropMap().getMutableMap();
       }
-
+      /**
+       * <code>map&lt;uint32, .PropValue&gt; prop_map = 1;</code>
+       */
       public Builder putPropMap(
           int key,
           emu.grasscutter.net.proto.PropValueOuterClass.PropValue value) {
-
+        
         if (value == null) { throw new java.lang.NullPointerException(); }
         internalGetMutablePropMap().getMutableMap()
             .put(key, value);
         return this;
       }
+      /**
+       * <code>map&lt;uint32, .PropValue&gt; prop_map = 1;</code>
+       */
 
       public Builder putAllPropMap(
           java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> values) {
@@ -679,6 +710,7 @@ public final class PlayerPropNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:PlayerPropNotify)
     }
@@ -722,12 +754,12 @@ public final class PlayerPropNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerPropNotify_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerPropNotify_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerPropNotify_PropMapEntry_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerPropNotify_PropMapEntry_fieldAccessorTable;
 
@@ -740,11 +772,11 @@ public final class PlayerPropNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026PlayerPropNotify.proto\032\017PropValue.prot" +
-      "o\"\200\001\n\020PlayerPropNotify\0220\n\010prop_map\030\014 \003(\013" +
+      "o\"\200\001\n\020PlayerPropNotify\0220\n\010prop_map\030\001 \003(\013" +
       "2\036.PlayerPropNotify.PropMapEntry\032:\n\014Prop" +
       "MapEntry\022\013\n\003key\030\001 \001(\r\022\031\n\005value\030\002 \001(\0132\n.P" +
-      "ropValue:\0028\001B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "ropValue:\0028\001B7\n\031emu.grasscutter.net.prot" +
+      "oB\032PlayerPropNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

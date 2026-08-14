@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FJFKBKCECBCOuterClass";
+
+message FJFKBKCECBC {
+	oneof detail {
+		string primitive_str = 1;
+		uint32 hash_code = 2;
+	}
+}

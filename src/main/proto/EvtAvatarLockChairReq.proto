@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EvtAvatarLockChairReqOuterClass";
+
+import "Vector.proto";
+
+message EvtAvatarLockChairReq {
+	Vector position = 3;
+	int32 direction = 6;
+	uint64 chair_id = 14;
+}

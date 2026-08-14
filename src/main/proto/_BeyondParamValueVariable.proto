@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_BeyondParamValueVariableOuterClass";
+
+message _BeyondParamValueVariable {
+	uint32 value = 1;
+}

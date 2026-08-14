@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HomeResourceOuterClass";
+
+message HomeResource {
+	uint32 store_value = 3;
+	uint32 store_limit = 4;
+	fixed32 next_refresh_time = 8;
+}

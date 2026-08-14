@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HomeFurnitureGroupDataOuterClass";
+
+import "HomeFurnitureData.proto";
+
+message HomeFurnitureGroupData {
+	repeated HomeFurnitureData virtual_furniure_list = 1;
+	uint32 group_furniture_index = 9;
+}

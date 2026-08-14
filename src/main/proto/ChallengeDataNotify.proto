@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ChallengeDataNotifyOuterClass";
+
+message ChallengeDataNotify {
+	uint32 value = 9;
+	uint32 challenge_index = 11;
+	uint32 param_index = 15;
+}

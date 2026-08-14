@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MarkMapRspOuterClass";
+
+import "MapMarkPoint.proto";
+
+message MarkMapRsp {
+	repeated MapMarkPoint mark_list = 4;
+	int32 retcode = 10;
+}

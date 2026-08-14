@@ -447,8 +447,9 @@ public final class NatlanDrillDetailInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033NatlanDrillDetailInfo.proto\"\027\n\025NatlanD" +
-      "rillDetailInfoB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "rillDetailInfoB<\n\031emu.grasscutter.net.pr" +
+      "otoB\037NatlanDrillDetailInfoOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CollectUnderwaterDetailInfoOuterClass";
+
+import "FCCPEPDJEFO.proto";
+
+message CollectUnderwaterDetailInfo {
+	repeated FCCPEPDJEFO level_info_list = 9;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ForgeQueueManipulateTypeOuterClass";
+
+enum ForgeQueueManipulateType {
+	ForgeQueueManipulateType_RECEIVE_OUTPUT = 0;
+	ForgeQueueManipulateType_STOP_FORGE = 1;
+}

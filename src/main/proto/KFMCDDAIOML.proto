@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "KFMCDDAIOMLOuterClass";
+
+message KFMCDDAIOML {
+	uint64 POEOIINLNEC = 1;
+	uint32 FDIFPEHDKFD = 2;
+	repeated uint32 GANPDAFPBLF = 3;
+	bool NAJODBMGBLO = 4;
+}

@@ -156,8 +156,9 @@ public final class CustomDungeonFinishTypeOuterClass {
       "GEON_FINISH_PLAY_TRY\020\001\022:\n6CustomDungeonF" +
       "inishType_CUSTOM_DUNGEON_FINISH_EDIT_TRY" +
       "\020\002\022B\n>CustomDungeonFinishType_CUSTOM_DUN" +
-      "GEON_FINISH_SELF_PLAY_NORMAL\020\003B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "GEON_FINISH_SELF_PLAY_NORMAL\020\003B>\n\031emu.gr" +
+      "asscutter.net.protoB!CustomDungeonFinish" +
+      "TypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

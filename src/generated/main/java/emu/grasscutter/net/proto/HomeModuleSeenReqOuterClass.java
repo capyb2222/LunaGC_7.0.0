@@ -36,11 +36,6 @@ public final class HomeModuleSeenReqOuterClass {
     int getSeenModuleIdList(int index);
   }
   /**
-   * <pre>
-   * CmdId: 27692
-   * Obf: KNOGFPMPFGK
-   * </pre>
-   *
    * Protobuf type {@code HomeModuleSeenReq}
    */
   public static final class HomeModuleSeenReq extends
@@ -87,7 +82,7 @@ public final class HomeModuleSeenReqOuterClass {
             case 0:
               done = true;
               break;
-            case 88: {
+            case 64: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 seenModuleIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -95,7 +90,7 @@ public final class HomeModuleSeenReqOuterClass {
               seenModuleIdList_.addInt(input.readUInt32());
               break;
             }
-            case 90: {
+            case 66: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -143,7 +138,7 @@ public final class HomeModuleSeenReqOuterClass {
               emu.grasscutter.net.proto.HomeModuleSeenReqOuterClass.HomeModuleSeenReq.class, emu.grasscutter.net.proto.HomeModuleSeenReqOuterClass.HomeModuleSeenReq.Builder.class);
     }
 
-    public static final int SEEN_MODULE_ID_LIST_FIELD_NUMBER = 11;
+    public static final int SEEN_MODULE_ID_LIST_FIELD_NUMBER = 8;
     private com.google.protobuf.Internal.IntList seenModuleIdList_;
     /**
      * <code>repeated uint32 seen_module_id_list = 8;</code>
@@ -187,7 +182,7 @@ public final class HomeModuleSeenReqOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getSeenModuleIdListList().size() > 0) {
-        output.writeUInt32NoTag(90);
+        output.writeUInt32NoTag(66);
         output.writeUInt32NoTag(seenModuleIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < seenModuleIdList_.size(); i++) {
@@ -344,11 +339,6 @@ public final class HomeModuleSeenReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 27692
-     * Obf: KNOGFPMPFGK
-     * </pre>
-     *
      * Protobuf type {@code HomeModuleSeenReq}
      */
     public static final class Builder extends
@@ -654,8 +644,9 @@ public final class HomeModuleSeenReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027HomeModuleSeenReq.proto\"0\n\021HomeModuleS" +
-      "eenReq\022\033\n\023seen_module_id_list\030\010 \003(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "eenReq\022\033\n\023seen_module_id_list\030\010 \003(\rB8\n\031e" +
+      "mu.grasscutter.net.protoB\033HomeModuleSeen" +
+      "ReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

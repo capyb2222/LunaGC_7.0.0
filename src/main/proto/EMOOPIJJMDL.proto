@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EMOOPIJJMDLOuterClass";
+
+import "AONPAENJADL.proto";
+
+message EMOOPIJJMDL {
+	uint64 start_time = 1;
+	uint32 EEFABNDBKCO = 2;
+	uint32 HMHCGLCNBMK = 3;
+	float DEEKKONIOPE = 4;
+	float speed = 5;
+	bool is_started = 6;
+	repeated AONPAENJADL BCOFNPNHJCI = 7;
+	bool OOPEGAGEENC = 8;
+	uint32 AKEMOJAMLEK = 9;
+	uint32 LGIDIOIEGCI = 10;
+}

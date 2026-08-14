@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MMMHJIEENHAOuterClass";
+
+message MMMHJIEENHA {
+	bool is_open = 6;
+	repeated uint32 MJFOJBBAOPB = 8;
+	repeated uint32 KEENOEEOGBC = 9;
+	uint32 stage_id = 12;
+}

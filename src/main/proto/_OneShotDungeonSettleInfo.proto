@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_OneShotDungeonSettleInfoOuterClass";
+
+message _OneShotDungeonSettleInfo {
+	uint32 level_id = 1;
+	uint32 score = 3;
+	uint32 AHMFDCPCCGF = 7;
+	uint32 GAMLOHOKPAJ = 8;
+	uint32 MGGJPDGCECM = 11;
+	bool is_new_record = 12;
+}

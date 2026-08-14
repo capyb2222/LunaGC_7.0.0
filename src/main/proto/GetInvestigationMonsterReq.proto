@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GetInvestigationMonsterReqOuterClass";
+
+message GetInvestigationMonsterReq {
+	repeated uint32 city_id_list = 1;
+	bool is_for_mark = 9;
+}

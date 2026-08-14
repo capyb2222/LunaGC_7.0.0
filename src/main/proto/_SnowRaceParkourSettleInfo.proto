@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_SnowRaceParkourSettleInfoOuterClass";
+
+import "GalleryStopReason.proto";
+
+message _SnowRaceParkourSettleInfo {
+	uint32 level_id = 2;
+	GalleryStopReason reason = 3;
+	bool is_new_record = 5;
+	uint32 _max_collect_num = 6;
+	uint32 use_time = 9;
+	uint32 score = 10;
+	uint32 collect_num = 14;
+}

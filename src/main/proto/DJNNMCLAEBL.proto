@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DJNNMCLAEBLOuterClass";
+
+message DJNNMCLAEBL {
+	int32 key = 1;
+	int32 value = 2;
+}

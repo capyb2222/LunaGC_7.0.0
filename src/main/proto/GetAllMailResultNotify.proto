@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GetAllMailResultNotifyOuterClass";
+
+import "MailData.proto";
+
+message GetAllMailResultNotify {
+	bool is_collected = 2;
+	repeated MailData mail_list = 5;
+	int32 retcode = 6;
+	string transaction = 7;
+	uint32 page_index = 8;
+	uint32 total_page_count = 10;
+}

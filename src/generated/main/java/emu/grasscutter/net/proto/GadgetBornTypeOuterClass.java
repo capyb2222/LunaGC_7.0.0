@@ -184,7 +184,8 @@ public final class GadgetBornTypeOuterClass {
       "\022*\n&GadgetBornType_GADGET_BORN_MONSTER_D" +
       "IE\020\004\022%\n!GadgetBornType_GADGET_BORN_GADGE" +
       "T\020\005\022%\n!GadgetBornType_GADGET_BORN_GROUND" +
-      "\020\006B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\020\006B5\n\031emu.grasscutter.net.protoB\030GadgetB" +
+      "ornTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

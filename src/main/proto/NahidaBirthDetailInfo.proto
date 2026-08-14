@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "NahidaBirthDetailInfoOuterClass";
+
+import "BBIBJKCJINF.proto";
+import "HFNONNBFKOE.proto";
+import "LLINKLDMOCF.proto";
+
+message NahidaBirthDetailInfo {
+	HFNONNBFKOE PHGKJLCIBMG = 7;
+	BBIBJKCJINF POKCBHFGDLE = 8;
+	LLINKLDMOCF MEDJFGIIACB = 11;
+}

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_BydPlayerDetailOnlineInfoOuterClass";
+
+import "DEDHCCHNKEO.proto";
+import "KFMCDDAIOML.proto";
+
+message _BydPlayerDetailOnlineInfo {
+	enum HHKELHAFBIE {
+		HHKELHAFBIE_NONE = 0;
+		HHKELHAFBIE_HALL = 1;
+		HHKELHAFBIE_DUNGEON = 2;
+		HHKELHAFBIE_EDIT = 3;
+	}
+	HHKELHAFBIE JCEIDIDBFHM = 1;
+	bool is_in_team = 2;
+	KFMCDDAIOML JGJNGLBJLJO = 3;
+	uint64 LBFGNBPFNIH = 4;
+	bool LEGKLKCNKJB = 5;
+	DEDHCCHNKEO MKODMDPGDHK = 6;
+	uint64 JKBOBLJFKBP = 7;
+	uint64 HPLGJAAJOGG = 8;
+}

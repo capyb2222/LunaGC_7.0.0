@@ -25,11 +25,6 @@ public final class WorldPlayerReviveRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdId: 3657
-   * Obf: OBBNANBMDCB
-   * </pre>
-   *
    * Protobuf type {@code WorldPlayerReviveRsp}
    */
   public static final class WorldPlayerReviveRsp extends
@@ -74,7 +69,7 @@ public final class WorldPlayerReviveRspOuterClass {
             case 0:
               done = true;
               break;
-            case 88: {
+            case 112: {
 
               retcode_ = input.readInt32();
               break;
@@ -111,7 +106,7 @@ public final class WorldPlayerReviveRspOuterClass {
               emu.grasscutter.net.proto.WorldPlayerReviveRspOuterClass.WorldPlayerReviveRsp.class, emu.grasscutter.net.proto.WorldPlayerReviveRspOuterClass.WorldPlayerReviveRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 11;
+    public static final int RETCODE_FIELD_NUMBER = 14;
     private int retcode_;
     /**
      * <code>int32 retcode = 14;</code>
@@ -137,7 +132,7 @@ public final class WorldPlayerReviveRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(11, retcode_);
+        output.writeInt32(14, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +145,7 @@ public final class WorldPlayerReviveRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(11, retcode_);
+          .computeInt32Size(14, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -278,11 +273,6 @@ public final class WorldPlayerReviveRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 3657
-     * Obf: OBBNANBMDCB
-     * </pre>
-     *
      * Protobuf type {@code WorldPlayerReviveRsp}
      */
     public static final class Builder extends
@@ -527,8 +517,9 @@ public final class WorldPlayerReviveRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032WorldPlayerReviveRsp.proto\"\'\n\024WorldPla" +
-      "yerReviveRsp\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "yerReviveRsp\022\017\n\007retcode\030\016 \001(\005B;\n\031emu.gra" +
+      "sscutter.net.protoB\036WorldPlayerReviveRsp" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

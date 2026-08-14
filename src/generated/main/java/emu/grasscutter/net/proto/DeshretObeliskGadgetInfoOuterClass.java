@@ -18,10 +18,21 @@ public final class DeshretObeliskGadgetInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:DeshretObeliskGadgetInfo)
       com.google.protobuf.MessageOrBuilder {
 
+    /**
+     * <code>repeated uint32 argument_list = 1;</code>
+     * @return A list containing the argumentList.
+     */
     java.util.List<java.lang.Integer> getArgumentListList();
-
+    /**
+     * <code>repeated uint32 argument_list = 1;</code>
+     * @return The count of argumentList.
+     */
     int getArgumentListCount();
-
+    /**
+     * <code>repeated uint32 argument_list = 1;</code>
+     * @param index The index of the element to return.
+     * @return The argumentList at the given index.
+     */
     int getArgumentList(int index);
   }
   /**
@@ -129,17 +140,27 @@ public final class DeshretObeliskGadgetInfoOuterClass {
 
     public static final int ARGUMENT_LIST_FIELD_NUMBER = 1;
     private com.google.protobuf.Internal.IntList argumentList_;
-
+    /**
+     * <code>repeated uint32 argument_list = 1;</code>
+     * @return A list containing the argumentList.
+     */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getArgumentListList() {
       return argumentList_;
     }
-
+    /**
+     * <code>repeated uint32 argument_list = 1;</code>
+     * @return The count of argumentList.
+     */
     public int getArgumentListCount() {
       return argumentList_.size();
     }
-
+    /**
+     * <code>repeated uint32 argument_list = 1;</code>
+     * @param index The index of the element to return.
+     * @return The argumentList at the given index.
+     */
     public int getArgumentList(int index) {
       return argumentList_.getInt(index);
     }
@@ -484,21 +505,36 @@ public final class DeshretObeliskGadgetInfoOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
-
+      /**
+       * <code>repeated uint32 argument_list = 1;</code>
+       * @return A list containing the argumentList.
+       */
       public java.util.List<java.lang.Integer>
           getArgumentListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(argumentList_) : argumentList_;
       }
-
+      /**
+       * <code>repeated uint32 argument_list = 1;</code>
+       * @return The count of argumentList.
+       */
       public int getArgumentListCount() {
         return argumentList_.size();
       }
-
+      /**
+       * <code>repeated uint32 argument_list = 1;</code>
+       * @param index The index of the element to return.
+       * @return The argumentList at the given index.
+       */
       public int getArgumentList(int index) {
         return argumentList_.getInt(index);
       }
-
+      /**
+       * <code>repeated uint32 argument_list = 1;</code>
+       * @param index The index to set the value at.
+       * @param value The argumentList to set.
+       * @return This builder for chaining.
+       */
       public Builder setArgumentList(
           int index, int value) {
         ensureArgumentListIsMutable();
@@ -506,14 +542,22 @@ public final class DeshretObeliskGadgetInfoOuterClass {
         onChanged();
         return this;
       }
-
+      /**
+       * <code>repeated uint32 argument_list = 1;</code>
+       * @param value The argumentList to add.
+       * @return This builder for chaining.
+       */
       public Builder addArgumentList(int value) {
         ensureArgumentListIsMutable();
         argumentList_.addInt(value);
         onChanged();
         return this;
       }
-
+      /**
+       * <code>repeated uint32 argument_list = 1;</code>
+       * @param values The argumentList to add.
+       * @return This builder for chaining.
+       */
       public Builder addAllArgumentList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureArgumentListIsMutable();
@@ -522,7 +566,10 @@ public final class DeshretObeliskGadgetInfoOuterClass {
         onChanged();
         return this;
       }
-
+      /**
+       * <code>repeated uint32 argument_list = 1;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearArgumentList() {
         argumentList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -540,6 +587,7 @@ public final class DeshretObeliskGadgetInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:DeshretObeliskGadgetInfo)
     }
@@ -583,7 +631,7 @@ public final class DeshretObeliskGadgetInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_DeshretObeliskGadgetInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_DeshretObeliskGadgetInfo_fieldAccessorTable;
 
@@ -597,7 +645,8 @@ public final class DeshretObeliskGadgetInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036DeshretObeliskGadgetInfo.proto\"1\n\030Desh" +
       "retObeliskGadgetInfo\022\025\n\rargument_list\030\001 " +
-      "\003(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\003(\rB?\n\031emu.grasscutter.net.protoB\"Deshre" +
+      "tObeliskGadgetInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

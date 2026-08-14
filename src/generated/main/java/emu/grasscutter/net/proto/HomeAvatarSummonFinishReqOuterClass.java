@@ -19,17 +19,12 @@ public final class HomeAvatarSummonFinishReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 event_id = 11;</code>
+     * <code>uint32 event_id = 8;</code>
      * @return The eventId.
      */
     int getEventId();
   }
   /**
-   * <pre>
-   * CmdId: 24791
-   * Obf: OJLLDCGAIDJ
-   * </pre>
-   *
    * Protobuf type {@code HomeAvatarSummonFinishReq}
    */
   public static final class HomeAvatarSummonFinishReq extends
@@ -74,7 +69,7 @@ public final class HomeAvatarSummonFinishReqOuterClass {
             case 0:
               done = true;
               break;
-            case 104: {
+            case 64: {
 
               eventId_ = input.readUInt32();
               break;
@@ -111,10 +106,10 @@ public final class HomeAvatarSummonFinishReqOuterClass {
               emu.grasscutter.net.proto.HomeAvatarSummonFinishReqOuterClass.HomeAvatarSummonFinishReq.class, emu.grasscutter.net.proto.HomeAvatarSummonFinishReqOuterClass.HomeAvatarSummonFinishReq.Builder.class);
     }
 
-    public static final int EVENT_ID_FIELD_NUMBER = 13;
+    public static final int EVENT_ID_FIELD_NUMBER = 8;
     private int eventId_;
     /**
-     * <code>uint32 event_id = 11;</code>
+     * <code>uint32 event_id = 8;</code>
      * @return The eventId.
      */
     @java.lang.Override
@@ -137,7 +132,7 @@ public final class HomeAvatarSummonFinishReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (eventId_ != 0) {
-        output.writeUInt32(13, eventId_);
+        output.writeUInt32(8, eventId_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +145,7 @@ public final class HomeAvatarSummonFinishReqOuterClass {
       size = 0;
       if (eventId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, eventId_);
+          .computeUInt32Size(8, eventId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -278,11 +273,6 @@ public final class HomeAvatarSummonFinishReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 24791
-     * Obf: OJLLDCGAIDJ
-     * </pre>
-     *
      * Protobuf type {@code HomeAvatarSummonFinishReq}
      */
     public static final class Builder extends
@@ -431,7 +421,7 @@ public final class HomeAvatarSummonFinishReqOuterClass {
 
       private int eventId_ ;
       /**
-       * <code>uint32 event_id = 11;</code>
+       * <code>uint32 event_id = 8;</code>
        * @return The eventId.
        */
       @java.lang.Override
@@ -439,7 +429,7 @@ public final class HomeAvatarSummonFinishReqOuterClass {
         return eventId_;
       }
       /**
-       * <code>uint32 event_id = 11;</code>
+       * <code>uint32 event_id = 8;</code>
        * @param value The eventId to set.
        * @return This builder for chaining.
        */
@@ -450,7 +440,7 @@ public final class HomeAvatarSummonFinishReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 event_id = 11;</code>
+       * <code>uint32 event_id = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearEventId() {
@@ -527,8 +517,9 @@ public final class HomeAvatarSummonFinishReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\037HomeAvatarSummonFinishReq.proto\"-\n\031Hom" +
-      "eAvatarSummonFinishReq\022\020\n\010event_id\030\013 \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "eAvatarSummonFinishReq\022\020\n\010event_id\030\010 \001(\r" +
+      "B@\n\031emu.grasscutter.net.protoB#HomeAvata" +
+      "rSummonFinishReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

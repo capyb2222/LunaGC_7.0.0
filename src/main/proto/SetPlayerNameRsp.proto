@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SetPlayerNameRspOuterClass";
+
+message SetPlayerNameRsp {
+	int32 retcode = 2;
+	string nick_name = 3;
+}

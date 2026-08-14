@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AvatarExpeditionGetRewardReqOuterClass";
+
+message AvatarExpeditionGetRewardReq {
+	bool _is_claim_all = 1;
+	uint64 avatar_guid = 11;
+}

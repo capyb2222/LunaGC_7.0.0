@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AddNoGachaAvatarCardNotifyOuterClass";
+
+import "AddNoGachaAvatarCardTransferItem.proto";
+
+message AddNoGachaAvatarCardNotify {
+	uint32 item_id = 4;
+	uint32 initial_level = 5;
+	uint32 initial_promote_level = 6;
+	uint32 reason = 7;
+	uint32 avatar_id = 10;
+	repeated AddNoGachaAvatarCardTransferItem transfer_item_list = 13;
+	bool is_transfer_to_item = 14;
+}

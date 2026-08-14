@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "UnlockedFurnitureSuiteDataNotifyOuterClass";
+
+message UnlockedFurnitureSuiteDataNotify {
+	bool is_all = 4;
+	repeated uint32 furniture_suite_id_list = 7;
+}

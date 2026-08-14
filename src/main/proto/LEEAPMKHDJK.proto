@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "LEEAPMKHDJKOuterClass";
+
+import "EBPIBIFOEFF.proto";
+
+message LEEAPMKHDJK {
+	uint32 MEBODADIOBO = 3;
+	uint32 OOFPCLDDCCL = 5;
+	uint32 HANJNFCBFCJ = 9;
+	repeated EBPIBIFOEFF avatar_list = 15;
+}

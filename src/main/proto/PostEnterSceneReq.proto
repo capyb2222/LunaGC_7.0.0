@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PostEnterSceneReqOuterClass";
+
+message PostEnterSceneReq {
+	double total_tick_time = 6;
+	uint32 enter_scene_token = 8;
+}

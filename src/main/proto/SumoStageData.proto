@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SumoStageDataOuterClass";
+
+import "SumoTeamData.proto";
+
+message SumoStageData {
+	uint32 stage_id = 2;
+	repeated SumoTeamData team_list = 3;
+	uint32 max_score = 4;
+	bool is_open = 13;
+	uint32 open_time = 15;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "QuestUpdateQuestVarNotifyOuterClass";
+
+message QuestUpdateQuestVarNotify {
+	uint32 parent_quest_id = 5;
+	repeated int32 quest_var = 10;
+	uint32 parent_quest_var_seq = 12;
+}

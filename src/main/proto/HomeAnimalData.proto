@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HomeAnimalDataOuterClass";
+
+import "Vector.proto";
+
+message HomeAnimalData {
+	Vector spawn_pos = 7;
+	uint32 furniture_id = 8;
+	Vector spawn_rot = 14;
+}

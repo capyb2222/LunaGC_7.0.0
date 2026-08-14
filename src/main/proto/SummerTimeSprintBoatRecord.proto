@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SummerTimeSprintBoatRecordOuterClass";
+
+message SummerTimeSprintBoatRecord {
+	repeated uint32 watcher_id_list = 3;
+	bool is_touched = 5;
+	uint32 best_score = 11;
+	uint32 start_time = 14;
+	uint32 group_id = 15;
+}

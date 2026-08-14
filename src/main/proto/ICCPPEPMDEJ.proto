@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ICCPPEPMDEJOuterClass";
+
+message ICCPPEPMDEJ {
+	string PAAJJAHNMJP = 1;
+	bool is_active = 2;
+	int32 IJJECLJEAHH = 3;
+}

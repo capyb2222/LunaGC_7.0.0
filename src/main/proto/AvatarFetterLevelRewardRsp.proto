@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AvatarFetterLevelRewardRspOuterClass";
+
+message AvatarFetterLevelRewardRsp {
+	repeated uint32 _reward_id_list = 3;
+	uint32 fetter_level = 7;
+	uint32 reward_id = 9;
+	int32 retcode = 11;
+	uint64 avatar_guid = 13;
+}

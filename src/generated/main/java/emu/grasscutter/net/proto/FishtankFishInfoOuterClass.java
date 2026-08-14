@@ -19,22 +19,22 @@ public final class FishtankFishInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>float BMHAHHICJEA = 1;</code>
-     * @return The bMHAHHICJEA.
+     * <code>float fish_distance_from_water = 1;</code>
+     * @return The fishDistanceFromWater.
      */
-    float getBMHAHHICJEA();
+    float getFishDistanceFromWater();
 
     /**
-     * <code>float MPKIOONNCOP = 3;</code>
-     * @return The mPKIOONNCOP.
+     * <code>float fish_scale = 2;</code>
+     * @return The fishScale.
      */
-    float getMPKIOONNCOP();
+    float getFishScale();
 
     /**
-     * <code>float GNLIGMJLBAP = 2;</code>
-     * @return The gNLIGMJLBAP.
+     * <code>float initial_rotation_y = 3;</code>
+     * @return The initialRotationY.
      */
-    float getGNLIGMJLBAP();
+    float getInitialRotationY();
   }
   /**
    * Protobuf type {@code FishtankFishInfo}
@@ -83,17 +83,17 @@ public final class FishtankFishInfoOuterClass {
               break;
             case 13: {
 
-              bMHAHHICJEA_ = input.readFloat();
+              fishDistanceFromWater_ = input.readFloat();
               break;
             }
             case 21: {
 
-              gNLIGMJLBAP_ = input.readFloat();
+              fishScale_ = input.readFloat();
               break;
             }
             case 29: {
 
-              mPKIOONNCOP_ = input.readFloat();
+              initialRotationY_ = input.readFloat();
               break;
             }
             default: {
@@ -128,37 +128,37 @@ public final class FishtankFishInfoOuterClass {
               emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.class, emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.Builder.class);
     }
 
-    public static final int BMHAHHICJEA_FIELD_NUMBER = 1;
-    private float bMHAHHICJEA_;
+    public static final int FISH_DISTANCE_FROM_WATER_FIELD_NUMBER = 1;
+    private float fishDistanceFromWater_;
     /**
-     * <code>float BMHAHHICJEA = 1;</code>
-     * @return The bMHAHHICJEA.
+     * <code>float fish_distance_from_water = 1;</code>
+     * @return The fishDistanceFromWater.
      */
     @java.lang.Override
-    public float getBMHAHHICJEA() {
-      return bMHAHHICJEA_;
+    public float getFishDistanceFromWater() {
+      return fishDistanceFromWater_;
     }
 
-    public static final int MPKIOONNCOP_FIELD_NUMBER = 3;
-    private float mPKIOONNCOP_;
+    public static final int FISH_SCALE_FIELD_NUMBER = 2;
+    private float fishScale_;
     /**
-     * <code>float MPKIOONNCOP = 3;</code>
-     * @return The mPKIOONNCOP.
+     * <code>float fish_scale = 2;</code>
+     * @return The fishScale.
      */
     @java.lang.Override
-    public float getMPKIOONNCOP() {
-      return mPKIOONNCOP_;
+    public float getFishScale() {
+      return fishScale_;
     }
 
-    public static final int GNLIGMJLBAP_FIELD_NUMBER = 2;
-    private float gNLIGMJLBAP_;
+    public static final int INITIAL_ROTATION_Y_FIELD_NUMBER = 3;
+    private float initialRotationY_;
     /**
-     * <code>float GNLIGMJLBAP = 2;</code>
-     * @return The gNLIGMJLBAP.
+     * <code>float initial_rotation_y = 3;</code>
+     * @return The initialRotationY.
      */
     @java.lang.Override
-    public float getGNLIGMJLBAP() {
-      return gNLIGMJLBAP_;
+    public float getInitialRotationY() {
+      return initialRotationY_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -175,14 +175,14 @@ public final class FishtankFishInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (bMHAHHICJEA_ != 0F) {
-        output.writeFloat(1, bMHAHHICJEA_);
+      if (fishDistanceFromWater_ != 0F) {
+        output.writeFloat(1, fishDistanceFromWater_);
       }
-      if (gNLIGMJLBAP_ != 0F) {
-        output.writeFloat(2, gNLIGMJLBAP_);
+      if (fishScale_ != 0F) {
+        output.writeFloat(2, fishScale_);
       }
-      if (mPKIOONNCOP_ != 0F) {
-        output.writeFloat(3, mPKIOONNCOP_);
+      if (initialRotationY_ != 0F) {
+        output.writeFloat(3, initialRotationY_);
       }
       unknownFields.writeTo(output);
     }
@@ -193,17 +193,17 @@ public final class FishtankFishInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (bMHAHHICJEA_ != 0F) {
+      if (fishDistanceFromWater_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(1, bMHAHHICJEA_);
+          .computeFloatSize(1, fishDistanceFromWater_);
       }
-      if (gNLIGMJLBAP_ != 0F) {
+      if (fishScale_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(2, gNLIGMJLBAP_);
+          .computeFloatSize(2, fishScale_);
       }
-      if (mPKIOONNCOP_ != 0F) {
+      if (initialRotationY_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(3, mPKIOONNCOP_);
+          .computeFloatSize(3, initialRotationY_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -220,15 +220,15 @@ public final class FishtankFishInfoOuterClass {
       }
       emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo other = (emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo) obj;
 
-      if (java.lang.Float.floatToIntBits(getBMHAHHICJEA())
+      if (java.lang.Float.floatToIntBits(getFishDistanceFromWater())
           != java.lang.Float.floatToIntBits(
-              other.getBMHAHHICJEA())) return false;
-      if (java.lang.Float.floatToIntBits(getMPKIOONNCOP())
+              other.getFishDistanceFromWater())) return false;
+      if (java.lang.Float.floatToIntBits(getFishScale())
           != java.lang.Float.floatToIntBits(
-              other.getMPKIOONNCOP())) return false;
-      if (java.lang.Float.floatToIntBits(getGNLIGMJLBAP())
+              other.getFishScale())) return false;
+      if (java.lang.Float.floatToIntBits(getInitialRotationY())
           != java.lang.Float.floatToIntBits(
-              other.getGNLIGMJLBAP())) return false;
+              other.getInitialRotationY())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -240,15 +240,15 @@ public final class FishtankFishInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + BMHAHHICJEA_FIELD_NUMBER;
+      hash = (37 * hash) + FISH_DISTANCE_FROM_WATER_FIELD_NUMBER;
       hash = (53 * hash) + java.lang.Float.floatToIntBits(
-          getBMHAHHICJEA());
-      hash = (37 * hash) + MPKIOONNCOP_FIELD_NUMBER;
+          getFishDistanceFromWater());
+      hash = (37 * hash) + FISH_SCALE_FIELD_NUMBER;
       hash = (53 * hash) + java.lang.Float.floatToIntBits(
-          getMPKIOONNCOP());
-      hash = (37 * hash) + GNLIGMJLBAP_FIELD_NUMBER;
+          getFishScale());
+      hash = (37 * hash) + INITIAL_ROTATION_Y_FIELD_NUMBER;
       hash = (53 * hash) + java.lang.Float.floatToIntBits(
-          getGNLIGMJLBAP());
+          getInitialRotationY());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -382,11 +382,11 @@ public final class FishtankFishInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        bMHAHHICJEA_ = 0F;
+        fishDistanceFromWater_ = 0F;
 
-        mPKIOONNCOP_ = 0F;
+        fishScale_ = 0F;
 
-        gNLIGMJLBAP_ = 0F;
+        initialRotationY_ = 0F;
 
         return this;
       }
@@ -414,9 +414,9 @@ public final class FishtankFishInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo buildPartial() {
         emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo result = new emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo(this);
-        result.bMHAHHICJEA_ = bMHAHHICJEA_;
-        result.mPKIOONNCOP_ = mPKIOONNCOP_;
-        result.gNLIGMJLBAP_ = gNLIGMJLBAP_;
+        result.fishDistanceFromWater_ = fishDistanceFromWater_;
+        result.fishScale_ = fishScale_;
+        result.initialRotationY_ = initialRotationY_;
         onBuilt();
         return result;
       }
@@ -465,14 +465,14 @@ public final class FishtankFishInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo other) {
         if (other == emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.getDefaultInstance()) return this;
-        if (other.getBMHAHHICJEA() != 0F) {
-          setBMHAHHICJEA(other.getBMHAHHICJEA());
+        if (other.getFishDistanceFromWater() != 0F) {
+          setFishDistanceFromWater(other.getFishDistanceFromWater());
         }
-        if (other.getMPKIOONNCOP() != 0F) {
-          setMPKIOONNCOP(other.getMPKIOONNCOP());
+        if (other.getFishScale() != 0F) {
+          setFishScale(other.getFishScale());
         }
-        if (other.getGNLIGMJLBAP() != 0F) {
-          setGNLIGMJLBAP(other.getGNLIGMJLBAP());
+        if (other.getInitialRotationY() != 0F) {
+          setInitialRotationY(other.getInitialRotationY());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -503,95 +503,95 @@ public final class FishtankFishInfoOuterClass {
         return this;
       }
 
-      private float bMHAHHICJEA_ ;
+      private float fishDistanceFromWater_ ;
       /**
-       * <code>float BMHAHHICJEA = 1;</code>
-       * @return The bMHAHHICJEA.
+       * <code>float fish_distance_from_water = 1;</code>
+       * @return The fishDistanceFromWater.
        */
       @java.lang.Override
-      public float getBMHAHHICJEA() {
-        return bMHAHHICJEA_;
+      public float getFishDistanceFromWater() {
+        return fishDistanceFromWater_;
       }
       /**
-       * <code>float BMHAHHICJEA = 1;</code>
-       * @param value The bMHAHHICJEA to set.
+       * <code>float fish_distance_from_water = 1;</code>
+       * @param value The fishDistanceFromWater to set.
        * @return This builder for chaining.
        */
-      public Builder setBMHAHHICJEA(float value) {
+      public Builder setFishDistanceFromWater(float value) {
         
-        bMHAHHICJEA_ = value;
+        fishDistanceFromWater_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>float BMHAHHICJEA = 1;</code>
+       * <code>float fish_distance_from_water = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearBMHAHHICJEA() {
+      public Builder clearFishDistanceFromWater() {
         
-        bMHAHHICJEA_ = 0F;
+        fishDistanceFromWater_ = 0F;
         onChanged();
         return this;
       }
 
-      private float mPKIOONNCOP_ ;
+      private float fishScale_ ;
       /**
-       * <code>float MPKIOONNCOP = 3;</code>
-       * @return The mPKIOONNCOP.
+       * <code>float fish_scale = 2;</code>
+       * @return The fishScale.
        */
       @java.lang.Override
-      public float getMPKIOONNCOP() {
-        return mPKIOONNCOP_;
+      public float getFishScale() {
+        return fishScale_;
       }
       /**
-       * <code>float MPKIOONNCOP = 3;</code>
-       * @param value The mPKIOONNCOP to set.
+       * <code>float fish_scale = 2;</code>
+       * @param value The fishScale to set.
        * @return This builder for chaining.
        */
-      public Builder setMPKIOONNCOP(float value) {
+      public Builder setFishScale(float value) {
         
-        mPKIOONNCOP_ = value;
+        fishScale_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>float MPKIOONNCOP = 3;</code>
+       * <code>float fish_scale = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearMPKIOONNCOP() {
+      public Builder clearFishScale() {
         
-        mPKIOONNCOP_ = 0F;
+        fishScale_ = 0F;
         onChanged();
         return this;
       }
 
-      private float gNLIGMJLBAP_ ;
+      private float initialRotationY_ ;
       /**
-       * <code>float GNLIGMJLBAP = 2;</code>
-       * @return The gNLIGMJLBAP.
+       * <code>float initial_rotation_y = 3;</code>
+       * @return The initialRotationY.
        */
       @java.lang.Override
-      public float getGNLIGMJLBAP() {
-        return gNLIGMJLBAP_;
+      public float getInitialRotationY() {
+        return initialRotationY_;
       }
       /**
-       * <code>float GNLIGMJLBAP = 2;</code>
-       * @param value The gNLIGMJLBAP to set.
+       * <code>float initial_rotation_y = 3;</code>
+       * @param value The initialRotationY to set.
        * @return This builder for chaining.
        */
-      public Builder setGNLIGMJLBAP(float value) {
+      public Builder setInitialRotationY(float value) {
         
-        gNLIGMJLBAP_ = value;
+        initialRotationY_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>float GNLIGMJLBAP = 2;</code>
+       * <code>float initial_rotation_y = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearGNLIGMJLBAP() {
+      public Builder clearInitialRotationY() {
         
-        gNLIGMJLBAP_ = 0F;
+        initialRotationY_ = 0F;
         onChanged();
         return this;
       }
@@ -662,10 +662,11 @@ public final class FishtankFishInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\026FishtankFishInfo.proto\"Q\n\020FishtankFish" +
-      "Info\022\023\n\013BMHAHHICJEA\030\001 \001(\002\022\023\n\013MPKIOONNCOP" +
-      "\030\003 \001(\002\022\023\n\013GNLIGMJLBAP\030\002 \001(\002B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\n\026FishtankFishInfo.proto\"d\n\020FishtankFish" +
+      "Info\022 \n\030fish_distance_from_water\030\001 \001(\002\022\022" +
+      "\n\nfish_scale\030\002 \001(\002\022\032\n\022initial_rotation_y" +
+      "\030\003 \001(\002B7\n\031emu.grasscutter.net.protoB\032Fis" +
+      "htankFishInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -676,7 +677,7 @@ public final class FishtankFishInfoOuterClass {
     internal_static_FishtankFishInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_FishtankFishInfo_descriptor,
-        new java.lang.String[] { "BMHAHHICJEA", "MPKIOONNCOP", "GNLIGMJLBAP", });
+        new java.lang.String[] { "FishDistanceFromWater", "FishScale", "InitialRotationY", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

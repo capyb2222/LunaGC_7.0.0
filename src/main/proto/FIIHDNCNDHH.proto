@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FIIHDNCNDHHOuterClass";
+
+import "FHDOGFCDKDK.proto";
+
+message FIIHDNCNDHH {
+	uint32 start_time = 1;
+	uint64 guid = 5;
+	repeated FHDOGFCDKDK COKFKPJNKHC = 7;
+	repeated uint32 winner_uid_list = 10;
+	uint32 finish_time = 14;
+}

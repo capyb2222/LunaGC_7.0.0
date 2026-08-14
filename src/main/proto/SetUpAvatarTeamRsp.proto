@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SetUpAvatarTeamRspOuterClass";
+
+message SetUpAvatarTeamRsp {
+	repeated uint64 avatar_team_guid_list = 3;
+	uint32 team_id = 10;
+	uint64 cur_avatar_guid = 11;
+	int32 retcode = 14;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DungeonEntryInfoOuterClass";
+
+import "WeeklyBossResinDiscountInfo.proto";
+
+message DungeonEntryInfo {
+	uint32 next_refresh_time = 1;
+	bool is_passed = 8;
+	uint32 boss_chest_num = 11;
+	WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 12;
+	uint32 max_boss_chest_num = 14;
+	uint32 dungeon_id = 15;
+}

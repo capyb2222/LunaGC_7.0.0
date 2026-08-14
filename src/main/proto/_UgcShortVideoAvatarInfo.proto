@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_UgcShortVideoAvatarInfoOuterClass";
+
+import "SocialShowAvatarInfo.proto";
+
+message _UgcShortVideoAvatarInfo {
+	oneof avatar_info {
+		SocialShowAvatarInfo social_show_avatar_info = 1;
+		uint32 trial_avatar_id = 2;
+	}
+}

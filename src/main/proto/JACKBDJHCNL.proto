@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "JACKBDJHCNLOuterClass";
+
+message JACKBDJHCNL {
+	uint32 KMDOFBPMGAI = 1;
+	uint64 OOJEOFFBPEI = 2;
+	uint32 LDDKIALCPNA = 3;
+}

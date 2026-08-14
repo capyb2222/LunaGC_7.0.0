@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "OnlinePlayerInfoOuterClass";
+
+import "MpSettingType.proto";
+import "PlatformType.proto";
+import "ProfilePicture.proto";
+import "_BeyondProfilePicture.proto";
+import "_BeyondProfileTag.proto";
+
+message OnlinePlayerInfo {
+	uint32 uid = 1;
+	string nickname = 2;
+	uint32 player_level = 3;
+	uint32 avatar_id = 4;
+	MpSettingType mp_setting_type = 5;
+	uint32 cur_player_num_in_world = 6;
+	uint32 world_level = 7;
+	string online_id = 8;
+	uint32 name_card_id = 9;
+	repeated uint32 blacklist_uid_list = 10;
+	string signature = 11;
+	ProfilePicture profile_picture = 12;
+	string psn_id = 13;
+	string _xuid = 14;
+	string _xbox_gamertag = 15;
+	PlatformType platform_type = 16;
+	bool EEHKAIMJJDO = 17;
+	bool BLBGGMBGLKI = 18;
+	bool KOBLEBEGKJJ = 19;
+	_BeyondProfilePicture _beyond_profile_picture = 20;
+	repeated _BeyondProfileTag _beyond_profile_tag_list = 21;
+	uint32 OCKNBKMKBKH = 22;
+	uint32 AOGHDBHOGII = 23;
+}

@@ -15,10 +15,6 @@ public final class RecordUsageOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   /**
-   * <pre>
-   * Obf: APFGDKHEIBO
-   * </pre>
-   *
    * Protobuf enum {@code RecordUsage}
    */
   public enum RecordUsage
@@ -43,6 +39,10 @@ public final class RecordUsageOuterClass {
      * <code>UGC_RECORD_USAGE_COMPARE = 4;</code>
      */
     UGC_RECORD_USAGE_COMPARE(4),
+    /**
+     * <code>UGC_RECORD_USAGE_PVP = 5;</code>
+     */
+    UGC_RECORD_USAGE_PVP(5),
     UNRECOGNIZED(-1),
     ;
 
@@ -66,6 +66,10 @@ public final class RecordUsageOuterClass {
      * <code>UGC_RECORD_USAGE_COMPARE = 4;</code>
      */
     public static final int UGC_RECORD_USAGE_COMPARE_VALUE = 4;
+    /**
+     * <code>UGC_RECORD_USAGE_PVP = 5;</code>
+     */
+    public static final int UGC_RECORD_USAGE_PVP_VALUE = 5;
 
 
     public final int getNumber() {
@@ -97,6 +101,7 @@ public final class RecordUsageOuterClass {
         case 2: return UGC_RECORD_USAGE_PLAY;
         case 3: return UGC_RECORD_USAGE_TRIAL;
         case 4: return UGC_RECORD_USAGE_COMPARE;
+        case 5: return UGC_RECORD_USAGE_PVP;
         default: return null;
       }
     }
@@ -162,12 +167,13 @@ public final class RecordUsageOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021RecordUsage.proto*\232\001\n\013RecordUsage\022\031\n\025U" +
+      "\n\021RecordUsage.proto*\264\001\n\013RecordUsage\022\031\n\025U" +
       "GC_RECORD_USAGE_NONE\020\000\022\033\n\027UGC_RECORD_USA" +
       "GE_IMPORT\020\001\022\031\n\025UGC_RECORD_USAGE_PLAY\020\002\022\032" +
       "\n\026UGC_RECORD_USAGE_TRIAL\020\003\022\034\n\030UGC_RECORD" +
-      "_USAGE_COMPARE\020\004B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "_USAGE_COMPARE\020\004\022\030\n\024UGC_RECORD_USAGE_PVP" +
+      "\020\005B2\n\031emu.grasscutter.net.protoB\025RecordU" +
+      "sageOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -19,39 +19,39 @@ public final class ACCCCLFEMPEOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 POMJLNHFCHG = 11;</code>
-     * @return A list containing the pOMJLNHFCHG.
-     */
-    java.util.List<java.lang.Integer> getPOMJLNHFCHGList();
-    /**
-     * <code>repeated uint32 POMJLNHFCHG = 11;</code>
-     * @return The count of pOMJLNHFCHG.
-     */
-    int getPOMJLNHFCHGCount();
-    /**
-     * <code>repeated uint32 POMJLNHFCHG = 11;</code>
-     * @param index The index of the element to return.
-     * @return The pOMJLNHFCHG at the given index.
-     */
-    int getPOMJLNHFCHG(int index);
-
-    /**
-     * <code>uint32 level_id = 13;</code>
+     * <code>uint32 level_id = 1;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>bool is_finish = 4;</code>
-     * @return The isFinish.
+     * <code>repeated uint32 NBPIEMDDNDB = 6;</code>
+     * @return A list containing the nBPIEMDDNDB.
      */
-    boolean getIsFinish();
+    java.util.List<java.lang.Integer> getNBPIEMDDNDBList();
+    /**
+     * <code>repeated uint32 NBPIEMDDNDB = 6;</code>
+     * @return The count of nBPIEMDDNDB.
+     */
+    int getNBPIEMDDNDBCount();
+    /**
+     * <code>repeated uint32 NBPIEMDDNDB = 6;</code>
+     * @param index The index of the element to return.
+     * @return The nBPIEMDDNDB at the given index.
+     */
+    int getNBPIEMDDNDB(int index);
 
     /**
-     * <code>bool is_open = 7;</code>
+     * <code>bool is_open = 13;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
+
+    /**
+     * <code>bool is_finish = 15;</code>
+     * @return The isFinish.
+     */
+    boolean getIsFinish();
   }
   /**
    * Protobuf type {@code ACCCCLFEMPE}
@@ -66,7 +66,7 @@ public final class ACCCCLFEMPEOuterClass {
       super(builder);
     }
     private ACCCCLFEMPE() {
-      pOMJLNHFCHG_ = emptyIntList();
+      nBPIEMDDNDB_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -100,40 +100,40 @@ public final class ACCCCLFEMPEOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 8: {
 
-              isFinish_ = input.readBool();
+              levelId_ = input.readUInt32();
               break;
             }
-            case 56: {
-
-              isOpen_ = input.readBool();
-              break;
-            }
-            case 88: {
+            case 48: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                pOMJLNHFCHG_ = newIntList();
+                nBPIEMDDNDB_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
-              pOMJLNHFCHG_.addInt(input.readUInt32());
+              nBPIEMDDNDB_.addInt(input.readUInt32());
               break;
             }
-            case 90: {
+            case 50: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                pOMJLNHFCHG_ = newIntList();
+                nBPIEMDDNDB_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
-                pOMJLNHFCHG_.addInt(input.readUInt32());
+                nBPIEMDDNDB_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
             }
             case 104: {
 
-              levelId_ = input.readUInt32();
+              isOpen_ = input.readBool();
+              break;
+            }
+            case 120: {
+
+              isFinish_ = input.readBool();
               break;
             }
             default: {
@@ -152,7 +152,7 @@ public final class ACCCCLFEMPEOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          pOMJLNHFCHG_.makeImmutable(); // C
+          nBPIEMDDNDB_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -171,38 +171,10 @@ public final class ACCCCLFEMPEOuterClass {
               emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE.class, emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE.Builder.class);
     }
 
-    public static final int POMJLNHFCHG_FIELD_NUMBER = 11;
-    private com.google.protobuf.Internal.IntList pOMJLNHFCHG_;
-    /**
-     * <code>repeated uint32 POMJLNHFCHG = 11;</code>
-     * @return A list containing the pOMJLNHFCHG.
-     */
-    @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getPOMJLNHFCHGList() {
-      return pOMJLNHFCHG_;
-    }
-    /**
-     * <code>repeated uint32 POMJLNHFCHG = 11;</code>
-     * @return The count of pOMJLNHFCHG.
-     */
-    public int getPOMJLNHFCHGCount() {
-      return pOMJLNHFCHG_.size();
-    }
-    /**
-     * <code>repeated uint32 POMJLNHFCHG = 11;</code>
-     * @param index The index of the element to return.
-     * @return The pOMJLNHFCHG at the given index.
-     */
-    public int getPOMJLNHFCHG(int index) {
-      return pOMJLNHFCHG_.getInt(index);
-    }
-    private int pOMJLNHFCHGMemoizedSerializedSize = -1;
-
-    public static final int LEVEL_ID_FIELD_NUMBER = 13;
+    public static final int LEVEL_ID_FIELD_NUMBER = 1;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 13;</code>
+     * <code>uint32 level_id = 1;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -210,26 +182,54 @@ public final class ACCCCLFEMPEOuterClass {
       return levelId_;
     }
 
-    public static final int IS_FINISH_FIELD_NUMBER = 4;
-    private boolean isFinish_;
+    public static final int NBPIEMDDNDB_FIELD_NUMBER = 6;
+    private com.google.protobuf.Internal.IntList nBPIEMDDNDB_;
     /**
-     * <code>bool is_finish = 4;</code>
-     * @return The isFinish.
+     * <code>repeated uint32 NBPIEMDDNDB = 6;</code>
+     * @return A list containing the nBPIEMDDNDB.
      */
     @java.lang.Override
-    public boolean getIsFinish() {
-      return isFinish_;
+    public java.util.List<java.lang.Integer>
+        getNBPIEMDDNDBList() {
+      return nBPIEMDDNDB_;
     }
+    /**
+     * <code>repeated uint32 NBPIEMDDNDB = 6;</code>
+     * @return The count of nBPIEMDDNDB.
+     */
+    public int getNBPIEMDDNDBCount() {
+      return nBPIEMDDNDB_.size();
+    }
+    /**
+     * <code>repeated uint32 NBPIEMDDNDB = 6;</code>
+     * @param index The index of the element to return.
+     * @return The nBPIEMDDNDB at the given index.
+     */
+    public int getNBPIEMDDNDB(int index) {
+      return nBPIEMDDNDB_.getInt(index);
+    }
+    private int nBPIEMDDNDBMemoizedSerializedSize = -1;
 
-    public static final int IS_OPEN_FIELD_NUMBER = 7;
+    public static final int IS_OPEN_FIELD_NUMBER = 13;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 7;</code>
+     * <code>bool is_open = 13;</code>
      * @return The isOpen.
      */
     @java.lang.Override
     public boolean getIsOpen() {
       return isOpen_;
+    }
+
+    public static final int IS_FINISH_FIELD_NUMBER = 15;
+    private boolean isFinish_;
+    /**
+     * <code>bool is_finish = 15;</code>
+     * @return The isFinish.
+     */
+    @java.lang.Override
+    public boolean getIsFinish() {
+      return isFinish_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -247,21 +247,21 @@ public final class ACCCCLFEMPEOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (isFinish_ != false) {
-        output.writeBool(4, isFinish_);
+      if (levelId_ != 0) {
+        output.writeUInt32(1, levelId_);
+      }
+      if (getNBPIEMDDNDBList().size() > 0) {
+        output.writeUInt32NoTag(50);
+        output.writeUInt32NoTag(nBPIEMDDNDBMemoizedSerializedSize);
+      }
+      for (int i = 0; i < nBPIEMDDNDB_.size(); i++) {
+        output.writeUInt32NoTag(nBPIEMDDNDB_.getInt(i));
       }
       if (isOpen_ != false) {
-        output.writeBool(7, isOpen_);
+        output.writeBool(13, isOpen_);
       }
-      if (getPOMJLNHFCHGList().size() > 0) {
-        output.writeUInt32NoTag(90);
-        output.writeUInt32NoTag(pOMJLNHFCHGMemoizedSerializedSize);
-      }
-      for (int i = 0; i < pOMJLNHFCHG_.size(); i++) {
-        output.writeUInt32NoTag(pOMJLNHFCHG_.getInt(i));
-      }
-      if (levelId_ != 0) {
-        output.writeUInt32(13, levelId_);
+      if (isFinish_ != false) {
+        output.writeBool(15, isFinish_);
       }
       unknownFields.writeTo(output);
     }
@@ -272,31 +272,31 @@ public final class ACCCCLFEMPEOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (isFinish_ != false) {
+      if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, isFinish_);
-      }
-      if (isOpen_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, isOpen_);
+          .computeUInt32Size(1, levelId_);
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < pOMJLNHFCHG_.size(); i++) {
+        for (int i = 0; i < nBPIEMDDNDB_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(pOMJLNHFCHG_.getInt(i));
+            .computeUInt32SizeNoTag(nBPIEMDDNDB_.getInt(i));
         }
         size += dataSize;
-        if (!getPOMJLNHFCHGList().isEmpty()) {
+        if (!getNBPIEMDDNDBList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        pOMJLNHFCHGMemoizedSerializedSize = dataSize;
+        nBPIEMDDNDBMemoizedSerializedSize = dataSize;
       }
-      if (levelId_ != 0) {
+      if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, levelId_);
+          .computeBoolSize(13, isOpen_);
+      }
+      if (isFinish_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(15, isFinish_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -313,14 +313,14 @@ public final class ACCCCLFEMPEOuterClass {
       }
       emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE other = (emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE) obj;
 
-      if (!getPOMJLNHFCHGList()
-          .equals(other.getPOMJLNHFCHGList())) return false;
       if (getLevelId()
           != other.getLevelId()) return false;
-      if (getIsFinish()
-          != other.getIsFinish()) return false;
+      if (!getNBPIEMDDNDBList()
+          .equals(other.getNBPIEMDDNDBList())) return false;
       if (getIsOpen()
           != other.getIsOpen()) return false;
+      if (getIsFinish()
+          != other.getIsFinish()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -332,18 +332,18 @@ public final class ACCCCLFEMPEOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getPOMJLNHFCHGCount() > 0) {
-        hash = (37 * hash) + POMJLNHFCHG_FIELD_NUMBER;
-        hash = (53 * hash) + getPOMJLNHFCHGList().hashCode();
-      }
       hash = (37 * hash) + LEVEL_ID_FIELD_NUMBER;
       hash = (53 * hash) + getLevelId();
-      hash = (37 * hash) + IS_FINISH_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIsFinish());
+      if (getNBPIEMDDNDBCount() > 0) {
+        hash = (37 * hash) + NBPIEMDDNDB_FIELD_NUMBER;
+        hash = (53 * hash) + getNBPIEMDDNDBList().hashCode();
+      }
       hash = (37 * hash) + IS_OPEN_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsOpen());
+      hash = (37 * hash) + IS_FINISH_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIsFinish());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -477,13 +477,13 @@ public final class ACCCCLFEMPEOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        pOMJLNHFCHG_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
         levelId_ = 0;
 
-        isFinish_ = false;
-
+        nBPIEMDDNDB_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
         isOpen_ = false;
+
+        isFinish_ = false;
 
         return this;
       }
@@ -512,14 +512,14 @@ public final class ACCCCLFEMPEOuterClass {
       public emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE buildPartial() {
         emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE result = new emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE(this);
         int from_bitField0_ = bitField0_;
+        result.levelId_ = levelId_;
         if (((bitField0_ & 0x00000001) != 0)) {
-          pOMJLNHFCHG_.makeImmutable();
+          nBPIEMDDNDB_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.pOMJLNHFCHG_ = pOMJLNHFCHG_;
-        result.levelId_ = levelId_;
-        result.isFinish_ = isFinish_;
+        result.nBPIEMDDNDB_ = nBPIEMDDNDB_;
         result.isOpen_ = isOpen_;
+        result.isFinish_ = isFinish_;
         onBuilt();
         return result;
       }
@@ -568,24 +568,24 @@ public final class ACCCCLFEMPEOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE other) {
         if (other == emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE.getDefaultInstance()) return this;
-        if (!other.pOMJLNHFCHG_.isEmpty()) {
-          if (pOMJLNHFCHG_.isEmpty()) {
-            pOMJLNHFCHG_ = other.pOMJLNHFCHG_;
-            bitField0_ = (bitField0_ & ~0x00000001);
-          } else {
-            ensurePOMJLNHFCHGIsMutable();
-            pOMJLNHFCHG_.addAll(other.pOMJLNHFCHG_);
-          }
-          onChanged();
-        }
         if (other.getLevelId() != 0) {
           setLevelId(other.getLevelId());
         }
-        if (other.getIsFinish() != false) {
-          setIsFinish(other.getIsFinish());
+        if (!other.nBPIEMDDNDB_.isEmpty()) {
+          if (nBPIEMDDNDB_.isEmpty()) {
+            nBPIEMDDNDB_ = other.nBPIEMDDNDB_;
+            bitField0_ = (bitField0_ & ~0x00000001);
+          } else {
+            ensureNBPIEMDDNDBIsMutable();
+            nBPIEMDDNDB_.addAll(other.nBPIEMDDNDB_);
+          }
+          onChanged();
         }
         if (other.getIsOpen() != false) {
           setIsOpen(other.getIsOpen());
+        }
+        if (other.getIsFinish() != false) {
+          setIsFinish(other.getIsFinish());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -617,88 +617,9 @@ public final class ACCCCLFEMPEOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.Internal.IntList pOMJLNHFCHG_ = emptyIntList();
-      private void ensurePOMJLNHFCHGIsMutable() {
-        if (!((bitField0_ & 0x00000001) != 0)) {
-          pOMJLNHFCHG_ = mutableCopy(pOMJLNHFCHG_);
-          bitField0_ |= 0x00000001;
-         }
-      }
-      /**
-       * <code>repeated uint32 POMJLNHFCHG = 11;</code>
-       * @return A list containing the pOMJLNHFCHG.
-       */
-      public java.util.List<java.lang.Integer>
-          getPOMJLNHFCHGList() {
-        return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(pOMJLNHFCHG_) : pOMJLNHFCHG_;
-      }
-      /**
-       * <code>repeated uint32 POMJLNHFCHG = 11;</code>
-       * @return The count of pOMJLNHFCHG.
-       */
-      public int getPOMJLNHFCHGCount() {
-        return pOMJLNHFCHG_.size();
-      }
-      /**
-       * <code>repeated uint32 POMJLNHFCHG = 11;</code>
-       * @param index The index of the element to return.
-       * @return The pOMJLNHFCHG at the given index.
-       */
-      public int getPOMJLNHFCHG(int index) {
-        return pOMJLNHFCHG_.getInt(index);
-      }
-      /**
-       * <code>repeated uint32 POMJLNHFCHG = 11;</code>
-       * @param index The index to set the value at.
-       * @param value The pOMJLNHFCHG to set.
-       * @return This builder for chaining.
-       */
-      public Builder setPOMJLNHFCHG(
-          int index, int value) {
-        ensurePOMJLNHFCHGIsMutable();
-        pOMJLNHFCHG_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 POMJLNHFCHG = 11;</code>
-       * @param value The pOMJLNHFCHG to add.
-       * @return This builder for chaining.
-       */
-      public Builder addPOMJLNHFCHG(int value) {
-        ensurePOMJLNHFCHGIsMutable();
-        pOMJLNHFCHG_.addInt(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 POMJLNHFCHG = 11;</code>
-       * @param values The pOMJLNHFCHG to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllPOMJLNHFCHG(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensurePOMJLNHFCHGIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, pOMJLNHFCHG_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 POMJLNHFCHG = 11;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearPOMJLNHFCHG() {
-        pOMJLNHFCHG_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
-        onChanged();
-        return this;
-      }
-
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 13;</code>
+       * <code>uint32 level_id = 1;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -706,7 +627,7 @@ public final class ACCCCLFEMPEOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 13;</code>
+       * <code>uint32 level_id = 1;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -717,7 +638,7 @@ public final class ACCCCLFEMPEOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 13;</code>
+       * <code>uint32 level_id = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -727,40 +648,88 @@ public final class ACCCCLFEMPEOuterClass {
         return this;
       }
 
-      private boolean isFinish_ ;
-      /**
-       * <code>bool is_finish = 4;</code>
-       * @return The isFinish.
-       */
-      @java.lang.Override
-      public boolean getIsFinish() {
-        return isFinish_;
+      private com.google.protobuf.Internal.IntList nBPIEMDDNDB_ = emptyIntList();
+      private void ensureNBPIEMDDNDBIsMutable() {
+        if (!((bitField0_ & 0x00000001) != 0)) {
+          nBPIEMDDNDB_ = mutableCopy(nBPIEMDDNDB_);
+          bitField0_ |= 0x00000001;
+         }
       }
       /**
-       * <code>bool is_finish = 4;</code>
-       * @param value The isFinish to set.
+       * <code>repeated uint32 NBPIEMDDNDB = 6;</code>
+       * @return A list containing the nBPIEMDDNDB.
+       */
+      public java.util.List<java.lang.Integer>
+          getNBPIEMDDNDBList() {
+        return ((bitField0_ & 0x00000001) != 0) ?
+                 java.util.Collections.unmodifiableList(nBPIEMDDNDB_) : nBPIEMDDNDB_;
+      }
+      /**
+       * <code>repeated uint32 NBPIEMDDNDB = 6;</code>
+       * @return The count of nBPIEMDDNDB.
+       */
+      public int getNBPIEMDDNDBCount() {
+        return nBPIEMDDNDB_.size();
+      }
+      /**
+       * <code>repeated uint32 NBPIEMDDNDB = 6;</code>
+       * @param index The index of the element to return.
+       * @return The nBPIEMDDNDB at the given index.
+       */
+      public int getNBPIEMDDNDB(int index) {
+        return nBPIEMDDNDB_.getInt(index);
+      }
+      /**
+       * <code>repeated uint32 NBPIEMDDNDB = 6;</code>
+       * @param index The index to set the value at.
+       * @param value The nBPIEMDDNDB to set.
        * @return This builder for chaining.
        */
-      public Builder setIsFinish(boolean value) {
-        
-        isFinish_ = value;
+      public Builder setNBPIEMDDNDB(
+          int index, int value) {
+        ensureNBPIEMDDNDBIsMutable();
+        nBPIEMDDNDB_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>bool is_finish = 4;</code>
+       * <code>repeated uint32 NBPIEMDDNDB = 6;</code>
+       * @param value The nBPIEMDDNDB to add.
        * @return This builder for chaining.
        */
-      public Builder clearIsFinish() {
-        
-        isFinish_ = false;
+      public Builder addNBPIEMDDNDB(int value) {
+        ensureNBPIEMDDNDBIsMutable();
+        nBPIEMDDNDB_.addInt(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 NBPIEMDDNDB = 6;</code>
+       * @param values The nBPIEMDDNDB to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllNBPIEMDDNDB(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureNBPIEMDDNDBIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, nBPIEMDDNDB_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 NBPIEMDDNDB = 6;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearNBPIEMDDNDB() {
+        nBPIEMDDNDB_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
         onChanged();
         return this;
       }
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 7;</code>
+       * <code>bool is_open = 13;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -768,7 +737,7 @@ public final class ACCCCLFEMPEOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 7;</code>
+       * <code>bool is_open = 13;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -779,12 +748,43 @@ public final class ACCCCLFEMPEOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 7;</code>
+       * <code>bool is_open = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
         
         isOpen_ = false;
+        onChanged();
+        return this;
+      }
+
+      private boolean isFinish_ ;
+      /**
+       * <code>bool is_finish = 15;</code>
+       * @return The isFinish.
+       */
+      @java.lang.Override
+      public boolean getIsFinish() {
+        return isFinish_;
+      }
+      /**
+       * <code>bool is_finish = 15;</code>
+       * @param value The isFinish to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIsFinish(boolean value) {
+        
+        isFinish_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool is_finish = 15;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIsFinish() {
+        
+        isFinish_ = false;
         onChanged();
         return this;
       }
@@ -855,10 +855,11 @@ public final class ACCCCLFEMPEOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021ACCCCLFEMPE.proto\"X\n\013ACCCCLFEMPE\022\023\n\013PO" +
-      "MJLNHFCHG\030\013 \003(\r\022\020\n\010level_id\030\r \001(\r\022\021\n\tis_" +
-      "finish\030\004 \001(\010\022\017\n\007is_open\030\007 \001(\010B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "\n\021ACCCCLFEMPE.proto\"X\n\013ACCCCLFEMPE\022\020\n\010le" +
+      "vel_id\030\001 \001(\r\022\023\n\013NBPIEMDDNDB\030\006 \003(\r\022\017\n\007is_" +
+      "open\030\r \001(\010\022\021\n\tis_finish\030\017 \001(\010B2\n\031emu.gra" +
+      "sscutter.net.protoB\025ACCCCLFEMPEOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -869,7 +870,7 @@ public final class ACCCCLFEMPEOuterClass {
     internal_static_ACCCCLFEMPE_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ACCCCLFEMPE_descriptor,
-        new java.lang.String[] { "POMJLNHFCHG", "LevelId", "IsFinish", "IsOpen", });
+        new java.lang.String[] { "LevelId", "NBPIEMDDNDB", "IsOpen", "IsFinish", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

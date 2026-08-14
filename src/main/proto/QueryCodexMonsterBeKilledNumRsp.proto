@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "QueryCodexMonsterBeKilledNumRspOuterClass";
+
+message QueryCodexMonsterBeKilledNumRsp {
+	repeated uint32 codex_id_list = 2;
+	repeated uint32 phdcolpgnbi = 3;
+	repeated uint32 dnicbjiekbm = 10;
+	int32 retcode = 14;
+}

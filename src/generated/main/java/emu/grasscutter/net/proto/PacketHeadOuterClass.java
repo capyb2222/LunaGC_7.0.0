@@ -19,34 +19,10 @@ public final class PacketHeadOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 packet_id = 1;</code>
-     * @return The packetId.
-     */
-    int getPacketId();
-
-    /**
-     * <code>uint32 rpc_id = 2;</code>
-     * @return The rpcId.
-     */
-    int getRpcId();
-
-    /**
      * <code>uint32 client_sequence_id = 3;</code>
      * @return The clientSequenceId.
      */
     int getClientSequenceId();
-
-    /**
-     * <code>uint32 enet_channel_id = 4;</code>
-     * @return The enetChannelId.
-     */
-    int getEnetChannelId();
-
-    /**
-     * <code>uint32 enet_is_reliable = 5;</code>
-     * @return The enetIsReliable.
-     */
-    int getEnetIsReliable();
 
     /**
      * <code>uint64 sent_ms = 6;</code>
@@ -55,138 +31,30 @@ public final class PacketHeadOuterClass {
     long getSentMs();
 
     /**
-     * <code>uint32 user_id = 11;</code>
-     * @return The userId.
+     * <code>uint32 NAOICAHMEBA = 7;</code>
+     * @return The nAOICAHMEBA.
      */
-    int getUserId();
+    int getNAOICAHMEBA();
 
     /**
-     * <code>uint32 user_ip = 12;</code>
-     * @return The userIp.
+     * <code>uint32 NHBKNKEIPAB = 8;</code>
+     * @return The nHBKNKEIPAB.
      */
-    int getUserIp();
+    int getNHBKNKEIPAB();
 
     /**
-     * <code>uint32 user_session_id = 13;</code>
-     * @return The userSessionId.
+     * <code>uint32 KIBNBAGOICF = 9;</code>
+     * @return The kIBNBAGOICF.
      */
-    int getUserSessionId();
+    int getKIBNBAGOICF();
 
     /**
-     * <code>uint64 recv_time_ms = 21;</code>
-     * @return The recvTimeMs.
+     * <code>uint32 IJAEGLBPOBJ = 10;</code>
+     * @return The iJAEGLBPOBJ.
      */
-    long getRecvTimeMs();
-
-    /**
-     * <code>uint32 rpc_begin_time_ms = 22;</code>
-     * @return The rpcBeginTimeMs.
-     */
-    int getRpcBeginTimeMs();
-
-    /**
-     * <code>map&lt;uint32, uint32&gt; ext_map = 23;</code>
-     */
-    int getExtMapCount();
-    /**
-     * <code>map&lt;uint32, uint32&gt; ext_map = 23;</code>
-     */
-    boolean containsExtMap(
-        int key);
-    /**
-     * Use {@link #getExtMapMap()} instead.
-     */
-    @java.lang.Deprecated
-    java.util.Map<java.lang.Integer, java.lang.Integer>
-    getExtMap();
-    /**
-     * <code>map&lt;uint32, uint32&gt; ext_map = 23;</code>
-     */
-    java.util.Map<java.lang.Integer, java.lang.Integer>
-    getExtMapMap();
-    /**
-     * <code>map&lt;uint32, uint32&gt; ext_map = 23;</code>
-     */
-
-    int getExtMapOrDefault(
-        int key,
-        int defaultValue);
-    /**
-     * <code>map&lt;uint32, uint32&gt; ext_map = 23;</code>
-     */
-
-    int getExtMapOrThrow(
-        int key);
-
-    /**
-     * <code>uint32 sender_app_id = 24;</code>
-     * @return The senderAppId.
-     */
-    int getSenderAppId();
-
-    /**
-     * <code>uint32 source_service = 31;</code>
-     * @return The sourceService.
-     */
-    int getSourceService();
-
-    /**
-     * <code>uint32 target_service = 32;</code>
-     * @return The targetService.
-     */
-    int getTargetService();
-
-    /**
-     * <code>map&lt;uint32, uint32&gt; service_app_id_map = 33;</code>
-     */
-    int getServiceAppIdMapCount();
-    /**
-     * <code>map&lt;uint32, uint32&gt; service_app_id_map = 33;</code>
-     */
-    boolean containsServiceAppIdMap(
-        int key);
-    /**
-     * Use {@link #getServiceAppIdMapMap()} instead.
-     */
-    @java.lang.Deprecated
-    java.util.Map<java.lang.Integer, java.lang.Integer>
-    getServiceAppIdMap();
-    /**
-     * <code>map&lt;uint32, uint32&gt; service_app_id_map = 33;</code>
-     */
-    java.util.Map<java.lang.Integer, java.lang.Integer>
-    getServiceAppIdMapMap();
-    /**
-     * <code>map&lt;uint32, uint32&gt; service_app_id_map = 33;</code>
-     */
-
-    int getServiceAppIdMapOrDefault(
-        int key,
-        int defaultValue);
-    /**
-     * <code>map&lt;uint32, uint32&gt; service_app_id_map = 33;</code>
-     */
-
-    int getServiceAppIdMapOrThrow(
-        int key);
-
-    /**
-     * <code>bool is_set_game_thread = 34;</code>
-     * @return The isSetGameThread.
-     */
-    boolean getIsSetGameThread();
-
-    /**
-     * <code>uint32 game_thread_index = 35;</code>
-     * @return The gameThreadIndex.
-     */
-    int getGameThreadIndex();
+    int getIJAEGLBPOBJ();
   }
   /**
-   * <pre>
-   * Obf: OAOKNOKBALP
-   * </pre>
-   *
    * Protobuf type {@code PacketHead}
    */
   public static final class PacketHead extends
@@ -221,7 +89,6 @@ public final class PacketHeadOuterClass {
       if (extensionRegistry == null) {
         throw new java.lang.NullPointerException();
       }
-      int mutable_bitField0_ = 0;
       com.google.protobuf.UnknownFieldSet.Builder unknownFields =
           com.google.protobuf.UnknownFieldSet.newBuilder();
       try {
@@ -232,29 +99,9 @@ public final class PacketHeadOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-
-              packetId_ = input.readUInt32();
-              break;
-            }
-            case 16: {
-
-              rpcId_ = input.readUInt32();
-              break;
-            }
             case 24: {
 
               clientSequenceId_ = input.readUInt32();
-              break;
-            }
-            case 32: {
-
-              enetChannelId_ = input.readUInt32();
-              break;
-            }
-            case 40: {
-
-              enetIsReliable_ = input.readUInt32();
               break;
             }
             case 48: {
@@ -262,80 +109,24 @@ public final class PacketHeadOuterClass {
               sentMs_ = input.readUInt64();
               break;
             }
-            case 88: {
+            case 56: {
 
-              userId_ = input.readUInt32();
+              nAOICAHMEBA_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 64: {
 
-              userIp_ = input.readUInt32();
+              nHBKNKEIPAB_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 72: {
 
-              userSessionId_ = input.readUInt32();
+              kIBNBAGOICF_ = input.readUInt32();
               break;
             }
-            case 168: {
+            case 80: {
 
-              recvTimeMs_ = input.readUInt64();
-              break;
-            }
-            case 176: {
-
-              rpcBeginTimeMs_ = input.readUInt32();
-              break;
-            }
-            case 186: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                extMap_ = com.google.protobuf.MapField.newMapField(
-                    ExtMapDefaultEntryHolder.defaultEntry);
-                mutable_bitField0_ |= 0x00000001;
-              }
-              com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
-              extMap__ = input.readMessage(
-                  ExtMapDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
-              extMap_.getMutableMap().put(
-                  extMap__.getKey(), extMap__.getValue());
-              break;
-            }
-            case 192: {
-
-              senderAppId_ = input.readUInt32();
-              break;
-            }
-            case 248: {
-
-              sourceService_ = input.readUInt32();
-              break;
-            }
-            case 256: {
-
-              targetService_ = input.readUInt32();
-              break;
-            }
-            case 266: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                serviceAppIdMap_ = com.google.protobuf.MapField.newMapField(
-                    ServiceAppIdMapDefaultEntryHolder.defaultEntry);
-                mutable_bitField0_ |= 0x00000002;
-              }
-              com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
-              serviceAppIdMap__ = input.readMessage(
-                  ServiceAppIdMapDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
-              serviceAppIdMap_.getMutableMap().put(
-                  serviceAppIdMap__.getKey(), serviceAppIdMap__.getValue());
-              break;
-            }
-            case 272: {
-
-              isSetGameThread_ = input.readBool();
-              break;
-            }
-            case 280: {
-
-              gameThreadIndex_ = input.readUInt32();
+              iJAEGLBPOBJ_ = input.readUInt32();
               break;
             }
             default: {
@@ -362,48 +153,12 @@ public final class PacketHeadOuterClass {
       return emu.grasscutter.net.proto.PacketHeadOuterClass.internal_static_PacketHead_descriptor;
     }
 
-    @SuppressWarnings({"rawtypes"})
-    @java.lang.Override
-    protected com.google.protobuf.MapField internalGetMapField(
-        int number) {
-      switch (number) {
-        case 23:
-          return internalGetExtMap();
-        case 33:
-          return internalGetServiceAppIdMap();
-        default:
-          throw new RuntimeException(
-              "Invalid map field number: " + number);
-      }
-    }
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return emu.grasscutter.net.proto.PacketHeadOuterClass.internal_static_PacketHead_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               emu.grasscutter.net.proto.PacketHeadOuterClass.PacketHead.class, emu.grasscutter.net.proto.PacketHeadOuterClass.PacketHead.Builder.class);
-    }
-
-    public static final int PACKET_ID_FIELD_NUMBER = 1;
-    private int packetId_;
-    /**
-     * <code>uint32 packet_id = 1;</code>
-     * @return The packetId.
-     */
-    @java.lang.Override
-    public int getPacketId() {
-      return packetId_;
-    }
-
-    public static final int RPC_ID_FIELD_NUMBER = 2;
-    private int rpcId_;
-    /**
-     * <code>uint32 rpc_id = 2;</code>
-     * @return The rpcId.
-     */
-    @java.lang.Override
-    public int getRpcId() {
-      return rpcId_;
     }
 
     public static final int CLIENT_SEQUENCE_ID_FIELD_NUMBER = 3;
@@ -417,28 +172,6 @@ public final class PacketHeadOuterClass {
       return clientSequenceId_;
     }
 
-    public static final int ENET_CHANNEL_ID_FIELD_NUMBER = 4;
-    private int enetChannelId_;
-    /**
-     * <code>uint32 enet_channel_id = 4;</code>
-     * @return The enetChannelId.
-     */
-    @java.lang.Override
-    public int getEnetChannelId() {
-      return enetChannelId_;
-    }
-
-    public static final int ENET_IS_RELIABLE_FIELD_NUMBER = 5;
-    private int enetIsReliable_;
-    /**
-     * <code>uint32 enet_is_reliable = 5;</code>
-     * @return The enetIsReliable.
-     */
-    @java.lang.Override
-    public int getEnetIsReliable() {
-      return enetIsReliable_;
-    }
-
     public static final int SENT_MS_FIELD_NUMBER = 6;
     private long sentMs_;
     /**
@@ -450,276 +183,48 @@ public final class PacketHeadOuterClass {
       return sentMs_;
     }
 
-    public static final int USER_ID_FIELD_NUMBER = 11;
-    private int userId_;
+    public static final int NAOICAHMEBA_FIELD_NUMBER = 7;
+    private int nAOICAHMEBA_;
     /**
-     * <code>uint32 user_id = 11;</code>
-     * @return The userId.
+     * <code>uint32 NAOICAHMEBA = 7;</code>
+     * @return The nAOICAHMEBA.
      */
     @java.lang.Override
-    public int getUserId() {
-      return userId_;
+    public int getNAOICAHMEBA() {
+      return nAOICAHMEBA_;
     }
 
-    public static final int USER_IP_FIELD_NUMBER = 12;
-    private int userIp_;
+    public static final int NHBKNKEIPAB_FIELD_NUMBER = 8;
+    private int nHBKNKEIPAB_;
     /**
-     * <code>uint32 user_ip = 12;</code>
-     * @return The userIp.
+     * <code>uint32 NHBKNKEIPAB = 8;</code>
+     * @return The nHBKNKEIPAB.
      */
     @java.lang.Override
-    public int getUserIp() {
-      return userIp_;
+    public int getNHBKNKEIPAB() {
+      return nHBKNKEIPAB_;
     }
 
-    public static final int USER_SESSION_ID_FIELD_NUMBER = 13;
-    private int userSessionId_;
+    public static final int KIBNBAGOICF_FIELD_NUMBER = 9;
+    private int kIBNBAGOICF_;
     /**
-     * <code>uint32 user_session_id = 13;</code>
-     * @return The userSessionId.
+     * <code>uint32 KIBNBAGOICF = 9;</code>
+     * @return The kIBNBAGOICF.
      */
     @java.lang.Override
-    public int getUserSessionId() {
-      return userSessionId_;
+    public int getKIBNBAGOICF() {
+      return kIBNBAGOICF_;
     }
 
-    public static final int RECV_TIME_MS_FIELD_NUMBER = 21;
-    private long recvTimeMs_;
+    public static final int IJAEGLBPOBJ_FIELD_NUMBER = 10;
+    private int iJAEGLBPOBJ_;
     /**
-     * <code>uint64 recv_time_ms = 21;</code>
-     * @return The recvTimeMs.
+     * <code>uint32 IJAEGLBPOBJ = 10;</code>
+     * @return The iJAEGLBPOBJ.
      */
     @java.lang.Override
-    public long getRecvTimeMs() {
-      return recvTimeMs_;
-    }
-
-    public static final int RPC_BEGIN_TIME_MS_FIELD_NUMBER = 22;
-    private int rpcBeginTimeMs_;
-    /**
-     * <code>uint32 rpc_begin_time_ms = 22;</code>
-     * @return The rpcBeginTimeMs.
-     */
-    @java.lang.Override
-    public int getRpcBeginTimeMs() {
-      return rpcBeginTimeMs_;
-    }
-
-    public static final int EXT_MAP_FIELD_NUMBER = 23;
-    private static final class ExtMapDefaultEntryHolder {
-      static final com.google.protobuf.MapEntry<
-          java.lang.Integer, java.lang.Integer> defaultEntry =
-              com.google.protobuf.MapEntry
-              .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.PacketHeadOuterClass.internal_static_PacketHead_ExtMapEntry_descriptor, 
-                  com.google.protobuf.WireFormat.FieldType.UINT32,
-                  0,
-                  com.google.protobuf.WireFormat.FieldType.UINT32,
-                  0);
-    }
-    private com.google.protobuf.MapField<
-        java.lang.Integer, java.lang.Integer> extMap_;
-    private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-    internalGetExtMap() {
-      if (extMap_ == null) {
-        return com.google.protobuf.MapField.emptyMapField(
-            ExtMapDefaultEntryHolder.defaultEntry);
-      }
-      return extMap_;
-    }
-
-    public int getExtMapCount() {
-      return internalGetExtMap().getMap().size();
-    }
-    /**
-     * <code>map&lt;uint32, uint32&gt; ext_map = 23;</code>
-     */
-
-    @java.lang.Override
-    public boolean containsExtMap(
-        int key) {
-      
-      return internalGetExtMap().getMap().containsKey(key);
-    }
-    /**
-     * Use {@link #getExtMapMap()} instead.
-     */
-    @java.lang.Override
-    @java.lang.Deprecated
-    public java.util.Map<java.lang.Integer, java.lang.Integer> getExtMap() {
-      return getExtMapMap();
-    }
-    /**
-     * <code>map&lt;uint32, uint32&gt; ext_map = 23;</code>
-     */
-    @java.lang.Override
-
-    public java.util.Map<java.lang.Integer, java.lang.Integer> getExtMapMap() {
-      return internalGetExtMap().getMap();
-    }
-    /**
-     * <code>map&lt;uint32, uint32&gt; ext_map = 23;</code>
-     */
-    @java.lang.Override
-
-    public int getExtMapOrDefault(
-        int key,
-        int defaultValue) {
-      
-      java.util.Map<java.lang.Integer, java.lang.Integer> map =
-          internalGetExtMap().getMap();
-      return map.containsKey(key) ? map.get(key) : defaultValue;
-    }
-    /**
-     * <code>map&lt;uint32, uint32&gt; ext_map = 23;</code>
-     */
-    @java.lang.Override
-
-    public int getExtMapOrThrow(
-        int key) {
-      
-      java.util.Map<java.lang.Integer, java.lang.Integer> map =
-          internalGetExtMap().getMap();
-      if (!map.containsKey(key)) {
-        throw new java.lang.IllegalArgumentException();
-      }
-      return map.get(key);
-    }
-
-    public static final int SENDER_APP_ID_FIELD_NUMBER = 24;
-    private int senderAppId_;
-    /**
-     * <code>uint32 sender_app_id = 24;</code>
-     * @return The senderAppId.
-     */
-    @java.lang.Override
-    public int getSenderAppId() {
-      return senderAppId_;
-    }
-
-    public static final int SOURCE_SERVICE_FIELD_NUMBER = 31;
-    private int sourceService_;
-    /**
-     * <code>uint32 source_service = 31;</code>
-     * @return The sourceService.
-     */
-    @java.lang.Override
-    public int getSourceService() {
-      return sourceService_;
-    }
-
-    public static final int TARGET_SERVICE_FIELD_NUMBER = 32;
-    private int targetService_;
-    /**
-     * <code>uint32 target_service = 32;</code>
-     * @return The targetService.
-     */
-    @java.lang.Override
-    public int getTargetService() {
-      return targetService_;
-    }
-
-    public static final int SERVICE_APP_ID_MAP_FIELD_NUMBER = 33;
-    private static final class ServiceAppIdMapDefaultEntryHolder {
-      static final com.google.protobuf.MapEntry<
-          java.lang.Integer, java.lang.Integer> defaultEntry =
-              com.google.protobuf.MapEntry
-              .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.PacketHeadOuterClass.internal_static_PacketHead_ServiceAppIdMapEntry_descriptor, 
-                  com.google.protobuf.WireFormat.FieldType.UINT32,
-                  0,
-                  com.google.protobuf.WireFormat.FieldType.UINT32,
-                  0);
-    }
-    private com.google.protobuf.MapField<
-        java.lang.Integer, java.lang.Integer> serviceAppIdMap_;
-    private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-    internalGetServiceAppIdMap() {
-      if (serviceAppIdMap_ == null) {
-        return com.google.protobuf.MapField.emptyMapField(
-            ServiceAppIdMapDefaultEntryHolder.defaultEntry);
-      }
-      return serviceAppIdMap_;
-    }
-
-    public int getServiceAppIdMapCount() {
-      return internalGetServiceAppIdMap().getMap().size();
-    }
-    /**
-     * <code>map&lt;uint32, uint32&gt; service_app_id_map = 33;</code>
-     */
-
-    @java.lang.Override
-    public boolean containsServiceAppIdMap(
-        int key) {
-      
-      return internalGetServiceAppIdMap().getMap().containsKey(key);
-    }
-    /**
-     * Use {@link #getServiceAppIdMapMap()} instead.
-     */
-    @java.lang.Override
-    @java.lang.Deprecated
-    public java.util.Map<java.lang.Integer, java.lang.Integer> getServiceAppIdMap() {
-      return getServiceAppIdMapMap();
-    }
-    /**
-     * <code>map&lt;uint32, uint32&gt; service_app_id_map = 33;</code>
-     */
-    @java.lang.Override
-
-    public java.util.Map<java.lang.Integer, java.lang.Integer> getServiceAppIdMapMap() {
-      return internalGetServiceAppIdMap().getMap();
-    }
-    /**
-     * <code>map&lt;uint32, uint32&gt; service_app_id_map = 33;</code>
-     */
-    @java.lang.Override
-
-    public int getServiceAppIdMapOrDefault(
-        int key,
-        int defaultValue) {
-      
-      java.util.Map<java.lang.Integer, java.lang.Integer> map =
-          internalGetServiceAppIdMap().getMap();
-      return map.containsKey(key) ? map.get(key) : defaultValue;
-    }
-    /**
-     * <code>map&lt;uint32, uint32&gt; service_app_id_map = 33;</code>
-     */
-    @java.lang.Override
-
-    public int getServiceAppIdMapOrThrow(
-        int key) {
-      
-      java.util.Map<java.lang.Integer, java.lang.Integer> map =
-          internalGetServiceAppIdMap().getMap();
-      if (!map.containsKey(key)) {
-        throw new java.lang.IllegalArgumentException();
-      }
-      return map.get(key);
-    }
-
-    public static final int IS_SET_GAME_THREAD_FIELD_NUMBER = 34;
-    private boolean isSetGameThread_;
-    /**
-     * <code>bool is_set_game_thread = 34;</code>
-     * @return The isSetGameThread.
-     */
-    @java.lang.Override
-    public boolean getIsSetGameThread() {
-      return isSetGameThread_;
-    }
-
-    public static final int GAME_THREAD_INDEX_FIELD_NUMBER = 35;
-    private int gameThreadIndex_;
-    /**
-     * <code>uint32 game_thread_index = 35;</code>
-     * @return The gameThreadIndex.
-     */
-    @java.lang.Override
-    public int getGameThreadIndex() {
-      return gameThreadIndex_;
+    public int getIJAEGLBPOBJ() {
+      return iJAEGLBPOBJ_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -736,65 +241,23 @@ public final class PacketHeadOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (packetId_ != 0) {
-        output.writeUInt32(1, packetId_);
-      }
-      if (rpcId_ != 0) {
-        output.writeUInt32(2, rpcId_);
-      }
       if (clientSequenceId_ != 0) {
         output.writeUInt32(3, clientSequenceId_);
-      }
-      if (enetChannelId_ != 0) {
-        output.writeUInt32(4, enetChannelId_);
-      }
-      if (enetIsReliable_ != 0) {
-        output.writeUInt32(5, enetIsReliable_);
       }
       if (sentMs_ != 0L) {
         output.writeUInt64(6, sentMs_);
       }
-      if (userId_ != 0) {
-        output.writeUInt32(11, userId_);
+      if (nAOICAHMEBA_ != 0) {
+        output.writeUInt32(7, nAOICAHMEBA_);
       }
-      if (userIp_ != 0) {
-        output.writeUInt32(12, userIp_);
+      if (nHBKNKEIPAB_ != 0) {
+        output.writeUInt32(8, nHBKNKEIPAB_);
       }
-      if (userSessionId_ != 0) {
-        output.writeUInt32(13, userSessionId_);
+      if (kIBNBAGOICF_ != 0) {
+        output.writeUInt32(9, kIBNBAGOICF_);
       }
-      if (recvTimeMs_ != 0L) {
-        output.writeUInt64(21, recvTimeMs_);
-      }
-      if (rpcBeginTimeMs_ != 0) {
-        output.writeUInt32(22, rpcBeginTimeMs_);
-      }
-      com.google.protobuf.GeneratedMessageV3
-        .serializeIntegerMapTo(
-          output,
-          internalGetExtMap(),
-          ExtMapDefaultEntryHolder.defaultEntry,
-          23);
-      if (senderAppId_ != 0) {
-        output.writeUInt32(24, senderAppId_);
-      }
-      if (sourceService_ != 0) {
-        output.writeUInt32(31, sourceService_);
-      }
-      if (targetService_ != 0) {
-        output.writeUInt32(32, targetService_);
-      }
-      com.google.protobuf.GeneratedMessageV3
-        .serializeIntegerMapTo(
-          output,
-          internalGetServiceAppIdMap(),
-          ServiceAppIdMapDefaultEntryHolder.defaultEntry,
-          33);
-      if (isSetGameThread_ != false) {
-        output.writeBool(34, isSetGameThread_);
-      }
-      if (gameThreadIndex_ != 0) {
-        output.writeUInt32(35, gameThreadIndex_);
+      if (iJAEGLBPOBJ_ != 0) {
+        output.writeUInt32(10, iJAEGLBPOBJ_);
       }
       unknownFields.writeTo(output);
     }
@@ -805,89 +268,29 @@ public final class PacketHeadOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (packetId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, packetId_);
-      }
-      if (rpcId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, rpcId_);
-      }
       if (clientSequenceId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(3, clientSequenceId_);
-      }
-      if (enetChannelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, enetChannelId_);
-      }
-      if (enetIsReliable_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, enetIsReliable_);
       }
       if (sentMs_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt64Size(6, sentMs_);
       }
-      if (userId_ != 0) {
+      if (nAOICAHMEBA_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, userId_);
+          .computeUInt32Size(7, nAOICAHMEBA_);
       }
-      if (userIp_ != 0) {
+      if (nHBKNKEIPAB_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, userIp_);
+          .computeUInt32Size(8, nHBKNKEIPAB_);
       }
-      if (userSessionId_ != 0) {
+      if (kIBNBAGOICF_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, userSessionId_);
+          .computeUInt32Size(9, kIBNBAGOICF_);
       }
-      if (recvTimeMs_ != 0L) {
+      if (iJAEGLBPOBJ_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(21, recvTimeMs_);
-      }
-      if (rpcBeginTimeMs_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(22, rpcBeginTimeMs_);
-      }
-      for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
-           : internalGetExtMap().getMap().entrySet()) {
-        com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
-        extMap__ = ExtMapDefaultEntryHolder.defaultEntry.newBuilderForType()
-            .setKey(entry.getKey())
-            .setValue(entry.getValue())
-            .build();
-        size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(23, extMap__);
-      }
-      if (senderAppId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(24, senderAppId_);
-      }
-      if (sourceService_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(31, sourceService_);
-      }
-      if (targetService_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(32, targetService_);
-      }
-      for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
-           : internalGetServiceAppIdMap().getMap().entrySet()) {
-        com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
-        serviceAppIdMap__ = ServiceAppIdMapDefaultEntryHolder.defaultEntry.newBuilderForType()
-            .setKey(entry.getKey())
-            .setValue(entry.getValue())
-            .build();
-        size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(33, serviceAppIdMap__);
-      }
-      if (isSetGameThread_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(34, isSetGameThread_);
-      }
-      if (gameThreadIndex_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(35, gameThreadIndex_);
+          .computeUInt32Size(10, iJAEGLBPOBJ_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -904,42 +307,18 @@ public final class PacketHeadOuterClass {
       }
       emu.grasscutter.net.proto.PacketHeadOuterClass.PacketHead other = (emu.grasscutter.net.proto.PacketHeadOuterClass.PacketHead) obj;
 
-      if (getPacketId()
-          != other.getPacketId()) return false;
-      if (getRpcId()
-          != other.getRpcId()) return false;
       if (getClientSequenceId()
           != other.getClientSequenceId()) return false;
-      if (getEnetChannelId()
-          != other.getEnetChannelId()) return false;
-      if (getEnetIsReliable()
-          != other.getEnetIsReliable()) return false;
       if (getSentMs()
           != other.getSentMs()) return false;
-      if (getUserId()
-          != other.getUserId()) return false;
-      if (getUserIp()
-          != other.getUserIp()) return false;
-      if (getUserSessionId()
-          != other.getUserSessionId()) return false;
-      if (getRecvTimeMs()
-          != other.getRecvTimeMs()) return false;
-      if (getRpcBeginTimeMs()
-          != other.getRpcBeginTimeMs()) return false;
-      if (!internalGetExtMap().equals(
-          other.internalGetExtMap())) return false;
-      if (getSenderAppId()
-          != other.getSenderAppId()) return false;
-      if (getSourceService()
-          != other.getSourceService()) return false;
-      if (getTargetService()
-          != other.getTargetService()) return false;
-      if (!internalGetServiceAppIdMap().equals(
-          other.internalGetServiceAppIdMap())) return false;
-      if (getIsSetGameThread()
-          != other.getIsSetGameThread()) return false;
-      if (getGameThreadIndex()
-          != other.getGameThreadIndex()) return false;
+      if (getNAOICAHMEBA()
+          != other.getNAOICAHMEBA()) return false;
+      if (getNHBKNKEIPAB()
+          != other.getNHBKNKEIPAB()) return false;
+      if (getKIBNBAGOICF()
+          != other.getKIBNBAGOICF()) return false;
+      if (getIJAEGLBPOBJ()
+          != other.getIJAEGLBPOBJ()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -951,49 +330,19 @@ public final class PacketHeadOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + PACKET_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getPacketId();
-      hash = (37 * hash) + RPC_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getRpcId();
       hash = (37 * hash) + CLIENT_SEQUENCE_ID_FIELD_NUMBER;
       hash = (53 * hash) + getClientSequenceId();
-      hash = (37 * hash) + ENET_CHANNEL_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getEnetChannelId();
-      hash = (37 * hash) + ENET_IS_RELIABLE_FIELD_NUMBER;
-      hash = (53 * hash) + getEnetIsReliable();
       hash = (37 * hash) + SENT_MS_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           getSentMs());
-      hash = (37 * hash) + USER_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getUserId();
-      hash = (37 * hash) + USER_IP_FIELD_NUMBER;
-      hash = (53 * hash) + getUserIp();
-      hash = (37 * hash) + USER_SESSION_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getUserSessionId();
-      hash = (37 * hash) + RECV_TIME_MS_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
-          getRecvTimeMs());
-      hash = (37 * hash) + RPC_BEGIN_TIME_MS_FIELD_NUMBER;
-      hash = (53 * hash) + getRpcBeginTimeMs();
-      if (!internalGetExtMap().getMap().isEmpty()) {
-        hash = (37 * hash) + EXT_MAP_FIELD_NUMBER;
-        hash = (53 * hash) + internalGetExtMap().hashCode();
-      }
-      hash = (37 * hash) + SENDER_APP_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getSenderAppId();
-      hash = (37 * hash) + SOURCE_SERVICE_FIELD_NUMBER;
-      hash = (53 * hash) + getSourceService();
-      hash = (37 * hash) + TARGET_SERVICE_FIELD_NUMBER;
-      hash = (53 * hash) + getTargetService();
-      if (!internalGetServiceAppIdMap().getMap().isEmpty()) {
-        hash = (37 * hash) + SERVICE_APP_ID_MAP_FIELD_NUMBER;
-        hash = (53 * hash) + internalGetServiceAppIdMap().hashCode();
-      }
-      hash = (37 * hash) + IS_SET_GAME_THREAD_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIsSetGameThread());
-      hash = (37 * hash) + GAME_THREAD_INDEX_FIELD_NUMBER;
-      hash = (53 * hash) + getGameThreadIndex();
+      hash = (37 * hash) + NAOICAHMEBA_FIELD_NUMBER;
+      hash = (53 * hash) + getNAOICAHMEBA();
+      hash = (37 * hash) + NHBKNKEIPAB_FIELD_NUMBER;
+      hash = (53 * hash) + getNHBKNKEIPAB();
+      hash = (37 * hash) + KIBNBAGOICF_FIELD_NUMBER;
+      hash = (53 * hash) + getKIBNBAGOICF();
+      hash = (37 * hash) + IJAEGLBPOBJ_FIELD_NUMBER;
+      hash = (53 * hash) + getIJAEGLBPOBJ();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -1090,10 +439,6 @@ public final class PacketHeadOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * Obf: OAOKNOKBALP
-     * </pre>
-     *
      * Protobuf type {@code PacketHead}
      */
     public static final class Builder extends
@@ -1105,32 +450,6 @@ public final class PacketHeadOuterClass {
         return emu.grasscutter.net.proto.PacketHeadOuterClass.internal_static_PacketHead_descriptor;
       }
 
-      @SuppressWarnings({"rawtypes"})
-      protected com.google.protobuf.MapField internalGetMapField(
-          int number) {
-        switch (number) {
-          case 23:
-            return internalGetExtMap();
-          case 33:
-            return internalGetServiceAppIdMap();
-          default:
-            throw new RuntimeException(
-                "Invalid map field number: " + number);
-        }
-      }
-      @SuppressWarnings({"rawtypes"})
-      protected com.google.protobuf.MapField internalGetMutableMapField(
-          int number) {
-        switch (number) {
-          case 23:
-            return internalGetMutableExtMap();
-          case 33:
-            return internalGetMutableServiceAppIdMap();
-          default:
-            throw new RuntimeException(
-                "Invalid map field number: " + number);
-        }
-      }
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
@@ -1157,39 +476,17 @@ public final class PacketHeadOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        packetId_ = 0;
-
-        rpcId_ = 0;
-
         clientSequenceId_ = 0;
-
-        enetChannelId_ = 0;
-
-        enetIsReliable_ = 0;
 
         sentMs_ = 0L;
 
-        userId_ = 0;
+        nAOICAHMEBA_ = 0;
 
-        userIp_ = 0;
+        nHBKNKEIPAB_ = 0;
 
-        userSessionId_ = 0;
+        kIBNBAGOICF_ = 0;
 
-        recvTimeMs_ = 0L;
-
-        rpcBeginTimeMs_ = 0;
-
-        internalGetMutableExtMap().clear();
-        senderAppId_ = 0;
-
-        sourceService_ = 0;
-
-        targetService_ = 0;
-
-        internalGetMutableServiceAppIdMap().clear();
-        isSetGameThread_ = false;
-
-        gameThreadIndex_ = 0;
+        iJAEGLBPOBJ_ = 0;
 
         return this;
       }
@@ -1217,27 +514,12 @@ public final class PacketHeadOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.PacketHeadOuterClass.PacketHead buildPartial() {
         emu.grasscutter.net.proto.PacketHeadOuterClass.PacketHead result = new emu.grasscutter.net.proto.PacketHeadOuterClass.PacketHead(this);
-        int from_bitField0_ = bitField0_;
-        result.packetId_ = packetId_;
-        result.rpcId_ = rpcId_;
         result.clientSequenceId_ = clientSequenceId_;
-        result.enetChannelId_ = enetChannelId_;
-        result.enetIsReliable_ = enetIsReliable_;
         result.sentMs_ = sentMs_;
-        result.userId_ = userId_;
-        result.userIp_ = userIp_;
-        result.userSessionId_ = userSessionId_;
-        result.recvTimeMs_ = recvTimeMs_;
-        result.rpcBeginTimeMs_ = rpcBeginTimeMs_;
-        result.extMap_ = internalGetExtMap();
-        result.extMap_.makeImmutable();
-        result.senderAppId_ = senderAppId_;
-        result.sourceService_ = sourceService_;
-        result.targetService_ = targetService_;
-        result.serviceAppIdMap_ = internalGetServiceAppIdMap();
-        result.serviceAppIdMap_.makeImmutable();
-        result.isSetGameThread_ = isSetGameThread_;
-        result.gameThreadIndex_ = gameThreadIndex_;
+        result.nAOICAHMEBA_ = nAOICAHMEBA_;
+        result.nHBKNKEIPAB_ = nHBKNKEIPAB_;
+        result.kIBNBAGOICF_ = kIBNBAGOICF_;
+        result.iJAEGLBPOBJ_ = iJAEGLBPOBJ_;
         onBuilt();
         return result;
       }
@@ -1286,57 +568,23 @@ public final class PacketHeadOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.PacketHeadOuterClass.PacketHead other) {
         if (other == emu.grasscutter.net.proto.PacketHeadOuterClass.PacketHead.getDefaultInstance()) return this;
-        if (other.getPacketId() != 0) {
-          setPacketId(other.getPacketId());
-        }
-        if (other.getRpcId() != 0) {
-          setRpcId(other.getRpcId());
-        }
         if (other.getClientSequenceId() != 0) {
           setClientSequenceId(other.getClientSequenceId());
-        }
-        if (other.getEnetChannelId() != 0) {
-          setEnetChannelId(other.getEnetChannelId());
-        }
-        if (other.getEnetIsReliable() != 0) {
-          setEnetIsReliable(other.getEnetIsReliable());
         }
         if (other.getSentMs() != 0L) {
           setSentMs(other.getSentMs());
         }
-        if (other.getUserId() != 0) {
-          setUserId(other.getUserId());
+        if (other.getNAOICAHMEBA() != 0) {
+          setNAOICAHMEBA(other.getNAOICAHMEBA());
         }
-        if (other.getUserIp() != 0) {
-          setUserIp(other.getUserIp());
+        if (other.getNHBKNKEIPAB() != 0) {
+          setNHBKNKEIPAB(other.getNHBKNKEIPAB());
         }
-        if (other.getUserSessionId() != 0) {
-          setUserSessionId(other.getUserSessionId());
+        if (other.getKIBNBAGOICF() != 0) {
+          setKIBNBAGOICF(other.getKIBNBAGOICF());
         }
-        if (other.getRecvTimeMs() != 0L) {
-          setRecvTimeMs(other.getRecvTimeMs());
-        }
-        if (other.getRpcBeginTimeMs() != 0) {
-          setRpcBeginTimeMs(other.getRpcBeginTimeMs());
-        }
-        internalGetMutableExtMap().mergeFrom(
-            other.internalGetExtMap());
-        if (other.getSenderAppId() != 0) {
-          setSenderAppId(other.getSenderAppId());
-        }
-        if (other.getSourceService() != 0) {
-          setSourceService(other.getSourceService());
-        }
-        if (other.getTargetService() != 0) {
-          setTargetService(other.getTargetService());
-        }
-        internalGetMutableServiceAppIdMap().mergeFrom(
-            other.internalGetServiceAppIdMap());
-        if (other.getIsSetGameThread() != false) {
-          setIsSetGameThread(other.getIsSetGameThread());
-        }
-        if (other.getGameThreadIndex() != 0) {
-          setGameThreadIndex(other.getGameThreadIndex());
+        if (other.getIJAEGLBPOBJ() != 0) {
+          setIJAEGLBPOBJ(other.getIJAEGLBPOBJ());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -1364,69 +612,6 @@ public final class PacketHeadOuterClass {
             mergeFrom(parsedMessage);
           }
         }
-        return this;
-      }
-      private int bitField0_;
-
-      private int packetId_ ;
-      /**
-       * <code>uint32 packet_id = 1;</code>
-       * @return The packetId.
-       */
-      @java.lang.Override
-      public int getPacketId() {
-        return packetId_;
-      }
-      /**
-       * <code>uint32 packet_id = 1;</code>
-       * @param value The packetId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setPacketId(int value) {
-        
-        packetId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 packet_id = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearPacketId() {
-        
-        packetId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int rpcId_ ;
-      /**
-       * <code>uint32 rpc_id = 2;</code>
-       * @return The rpcId.
-       */
-      @java.lang.Override
-      public int getRpcId() {
-        return rpcId_;
-      }
-      /**
-       * <code>uint32 rpc_id = 2;</code>
-       * @param value The rpcId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setRpcId(int value) {
-        
-        rpcId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 rpc_id = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearRpcId() {
-        
-        rpcId_ = 0;
-        onChanged();
         return this;
       }
 
@@ -1457,68 +642,6 @@ public final class PacketHeadOuterClass {
       public Builder clearClientSequenceId() {
         
         clientSequenceId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int enetChannelId_ ;
-      /**
-       * <code>uint32 enet_channel_id = 4;</code>
-       * @return The enetChannelId.
-       */
-      @java.lang.Override
-      public int getEnetChannelId() {
-        return enetChannelId_;
-      }
-      /**
-       * <code>uint32 enet_channel_id = 4;</code>
-       * @param value The enetChannelId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setEnetChannelId(int value) {
-        
-        enetChannelId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 enet_channel_id = 4;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearEnetChannelId() {
-        
-        enetChannelId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int enetIsReliable_ ;
-      /**
-       * <code>uint32 enet_is_reliable = 5;</code>
-       * @return The enetIsReliable.
-       */
-      @java.lang.Override
-      public int getEnetIsReliable() {
-        return enetIsReliable_;
-      }
-      /**
-       * <code>uint32 enet_is_reliable = 5;</code>
-       * @param value The enetIsReliable to set.
-       * @return This builder for chaining.
-       */
-      public Builder setEnetIsReliable(int value) {
-        
-        enetIsReliable_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 enet_is_reliable = 5;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearEnetIsReliable() {
-        
-        enetIsReliable_ = 0;
         onChanged();
         return this;
       }
@@ -1554,568 +677,126 @@ public final class PacketHeadOuterClass {
         return this;
       }
 
-      private int userId_ ;
+      private int nAOICAHMEBA_ ;
       /**
-       * <code>uint32 user_id = 11;</code>
-       * @return The userId.
+       * <code>uint32 NAOICAHMEBA = 7;</code>
+       * @return The nAOICAHMEBA.
        */
       @java.lang.Override
-      public int getUserId() {
-        return userId_;
+      public int getNAOICAHMEBA() {
+        return nAOICAHMEBA_;
       }
       /**
-       * <code>uint32 user_id = 11;</code>
-       * @param value The userId to set.
+       * <code>uint32 NAOICAHMEBA = 7;</code>
+       * @param value The nAOICAHMEBA to set.
        * @return This builder for chaining.
        */
-      public Builder setUserId(int value) {
+      public Builder setNAOICAHMEBA(int value) {
         
-        userId_ = value;
+        nAOICAHMEBA_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 user_id = 11;</code>
+       * <code>uint32 NAOICAHMEBA = 7;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUserId() {
+      public Builder clearNAOICAHMEBA() {
         
-        userId_ = 0;
+        nAOICAHMEBA_ = 0;
         onChanged();
         return this;
       }
 
-      private int userIp_ ;
+      private int nHBKNKEIPAB_ ;
       /**
-       * <code>uint32 user_ip = 12;</code>
-       * @return The userIp.
+       * <code>uint32 NHBKNKEIPAB = 8;</code>
+       * @return The nHBKNKEIPAB.
        */
       @java.lang.Override
-      public int getUserIp() {
-        return userIp_;
+      public int getNHBKNKEIPAB() {
+        return nHBKNKEIPAB_;
       }
       /**
-       * <code>uint32 user_ip = 12;</code>
-       * @param value The userIp to set.
+       * <code>uint32 NHBKNKEIPAB = 8;</code>
+       * @param value The nHBKNKEIPAB to set.
        * @return This builder for chaining.
        */
-      public Builder setUserIp(int value) {
+      public Builder setNHBKNKEIPAB(int value) {
         
-        userIp_ = value;
+        nHBKNKEIPAB_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 user_ip = 12;</code>
+       * <code>uint32 NHBKNKEIPAB = 8;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUserIp() {
+      public Builder clearNHBKNKEIPAB() {
         
-        userIp_ = 0;
+        nHBKNKEIPAB_ = 0;
         onChanged();
         return this;
       }
 
-      private int userSessionId_ ;
+      private int kIBNBAGOICF_ ;
       /**
-       * <code>uint32 user_session_id = 13;</code>
-       * @return The userSessionId.
+       * <code>uint32 KIBNBAGOICF = 9;</code>
+       * @return The kIBNBAGOICF.
        */
       @java.lang.Override
-      public int getUserSessionId() {
-        return userSessionId_;
+      public int getKIBNBAGOICF() {
+        return kIBNBAGOICF_;
       }
       /**
-       * <code>uint32 user_session_id = 13;</code>
-       * @param value The userSessionId to set.
+       * <code>uint32 KIBNBAGOICF = 9;</code>
+       * @param value The kIBNBAGOICF to set.
        * @return This builder for chaining.
        */
-      public Builder setUserSessionId(int value) {
+      public Builder setKIBNBAGOICF(int value) {
         
-        userSessionId_ = value;
+        kIBNBAGOICF_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 user_session_id = 13;</code>
+       * <code>uint32 KIBNBAGOICF = 9;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUserSessionId() {
+      public Builder clearKIBNBAGOICF() {
         
-        userSessionId_ = 0;
+        kIBNBAGOICF_ = 0;
         onChanged();
         return this;
       }
 
-      private long recvTimeMs_ ;
+      private int iJAEGLBPOBJ_ ;
       /**
-       * <code>uint64 recv_time_ms = 21;</code>
-       * @return The recvTimeMs.
+       * <code>uint32 IJAEGLBPOBJ = 10;</code>
+       * @return The iJAEGLBPOBJ.
        */
       @java.lang.Override
-      public long getRecvTimeMs() {
-        return recvTimeMs_;
+      public int getIJAEGLBPOBJ() {
+        return iJAEGLBPOBJ_;
       }
       /**
-       * <code>uint64 recv_time_ms = 21;</code>
-       * @param value The recvTimeMs to set.
+       * <code>uint32 IJAEGLBPOBJ = 10;</code>
+       * @param value The iJAEGLBPOBJ to set.
        * @return This builder for chaining.
        */
-      public Builder setRecvTimeMs(long value) {
+      public Builder setIJAEGLBPOBJ(int value) {
         
-        recvTimeMs_ = value;
+        iJAEGLBPOBJ_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint64 recv_time_ms = 21;</code>
+       * <code>uint32 IJAEGLBPOBJ = 10;</code>
        * @return This builder for chaining.
        */
-      public Builder clearRecvTimeMs() {
+      public Builder clearIJAEGLBPOBJ() {
         
-        recvTimeMs_ = 0L;
-        onChanged();
-        return this;
-      }
-
-      private int rpcBeginTimeMs_ ;
-      /**
-       * <code>uint32 rpc_begin_time_ms = 22;</code>
-       * @return The rpcBeginTimeMs.
-       */
-      @java.lang.Override
-      public int getRpcBeginTimeMs() {
-        return rpcBeginTimeMs_;
-      }
-      /**
-       * <code>uint32 rpc_begin_time_ms = 22;</code>
-       * @param value The rpcBeginTimeMs to set.
-       * @return This builder for chaining.
-       */
-      public Builder setRpcBeginTimeMs(int value) {
-        
-        rpcBeginTimeMs_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 rpc_begin_time_ms = 22;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearRpcBeginTimeMs() {
-        
-        rpcBeginTimeMs_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private com.google.protobuf.MapField<
-          java.lang.Integer, java.lang.Integer> extMap_;
-      private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-      internalGetExtMap() {
-        if (extMap_ == null) {
-          return com.google.protobuf.MapField.emptyMapField(
-              ExtMapDefaultEntryHolder.defaultEntry);
-        }
-        return extMap_;
-      }
-      private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-      internalGetMutableExtMap() {
-        onChanged();;
-        if (extMap_ == null) {
-          extMap_ = com.google.protobuf.MapField.newMapField(
-              ExtMapDefaultEntryHolder.defaultEntry);
-        }
-        if (!extMap_.isMutable()) {
-          extMap_ = extMap_.copy();
-        }
-        return extMap_;
-      }
-
-      public int getExtMapCount() {
-        return internalGetExtMap().getMap().size();
-      }
-      /**
-       * <code>map&lt;uint32, uint32&gt; ext_map = 23;</code>
-       */
-
-      @java.lang.Override
-      public boolean containsExtMap(
-          int key) {
-        
-        return internalGetExtMap().getMap().containsKey(key);
-      }
-      /**
-       * Use {@link #getExtMapMap()} instead.
-       */
-      @java.lang.Override
-      @java.lang.Deprecated
-      public java.util.Map<java.lang.Integer, java.lang.Integer> getExtMap() {
-        return getExtMapMap();
-      }
-      /**
-       * <code>map&lt;uint32, uint32&gt; ext_map = 23;</code>
-       */
-      @java.lang.Override
-
-      public java.util.Map<java.lang.Integer, java.lang.Integer> getExtMapMap() {
-        return internalGetExtMap().getMap();
-      }
-      /**
-       * <code>map&lt;uint32, uint32&gt; ext_map = 23;</code>
-       */
-      @java.lang.Override
-
-      public int getExtMapOrDefault(
-          int key,
-          int defaultValue) {
-        
-        java.util.Map<java.lang.Integer, java.lang.Integer> map =
-            internalGetExtMap().getMap();
-        return map.containsKey(key) ? map.get(key) : defaultValue;
-      }
-      /**
-       * <code>map&lt;uint32, uint32&gt; ext_map = 23;</code>
-       */
-      @java.lang.Override
-
-      public int getExtMapOrThrow(
-          int key) {
-        
-        java.util.Map<java.lang.Integer, java.lang.Integer> map =
-            internalGetExtMap().getMap();
-        if (!map.containsKey(key)) {
-          throw new java.lang.IllegalArgumentException();
-        }
-        return map.get(key);
-      }
-
-      public Builder clearExtMap() {
-        internalGetMutableExtMap().getMutableMap()
-            .clear();
-        return this;
-      }
-      /**
-       * <code>map&lt;uint32, uint32&gt; ext_map = 23;</code>
-       */
-
-      public Builder removeExtMap(
-          int key) {
-        
-        internalGetMutableExtMap().getMutableMap()
-            .remove(key);
-        return this;
-      }
-      /**
-       * Use alternate mutation accessors instead.
-       */
-      @java.lang.Deprecated
-      public java.util.Map<java.lang.Integer, java.lang.Integer>
-      getMutableExtMap() {
-        return internalGetMutableExtMap().getMutableMap();
-      }
-      /**
-       * <code>map&lt;uint32, uint32&gt; ext_map = 23;</code>
-       */
-      public Builder putExtMap(
-          int key,
-          int value) {
-        
-        
-        internalGetMutableExtMap().getMutableMap()
-            .put(key, value);
-        return this;
-      }
-      /**
-       * <code>map&lt;uint32, uint32&gt; ext_map = 23;</code>
-       */
-
-      public Builder putAllExtMap(
-          java.util.Map<java.lang.Integer, java.lang.Integer> values) {
-        internalGetMutableExtMap().getMutableMap()
-            .putAll(values);
-        return this;
-      }
-
-      private int senderAppId_ ;
-      /**
-       * <code>uint32 sender_app_id = 24;</code>
-       * @return The senderAppId.
-       */
-      @java.lang.Override
-      public int getSenderAppId() {
-        return senderAppId_;
-      }
-      /**
-       * <code>uint32 sender_app_id = 24;</code>
-       * @param value The senderAppId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setSenderAppId(int value) {
-        
-        senderAppId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 sender_app_id = 24;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearSenderAppId() {
-        
-        senderAppId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int sourceService_ ;
-      /**
-       * <code>uint32 source_service = 31;</code>
-       * @return The sourceService.
-       */
-      @java.lang.Override
-      public int getSourceService() {
-        return sourceService_;
-      }
-      /**
-       * <code>uint32 source_service = 31;</code>
-       * @param value The sourceService to set.
-       * @return This builder for chaining.
-       */
-      public Builder setSourceService(int value) {
-        
-        sourceService_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 source_service = 31;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearSourceService() {
-        
-        sourceService_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int targetService_ ;
-      /**
-       * <code>uint32 target_service = 32;</code>
-       * @return The targetService.
-       */
-      @java.lang.Override
-      public int getTargetService() {
-        return targetService_;
-      }
-      /**
-       * <code>uint32 target_service = 32;</code>
-       * @param value The targetService to set.
-       * @return This builder for chaining.
-       */
-      public Builder setTargetService(int value) {
-        
-        targetService_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 target_service = 32;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearTargetService() {
-        
-        targetService_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private com.google.protobuf.MapField<
-          java.lang.Integer, java.lang.Integer> serviceAppIdMap_;
-      private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-      internalGetServiceAppIdMap() {
-        if (serviceAppIdMap_ == null) {
-          return com.google.protobuf.MapField.emptyMapField(
-              ServiceAppIdMapDefaultEntryHolder.defaultEntry);
-        }
-        return serviceAppIdMap_;
-      }
-      private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-      internalGetMutableServiceAppIdMap() {
-        onChanged();;
-        if (serviceAppIdMap_ == null) {
-          serviceAppIdMap_ = com.google.protobuf.MapField.newMapField(
-              ServiceAppIdMapDefaultEntryHolder.defaultEntry);
-        }
-        if (!serviceAppIdMap_.isMutable()) {
-          serviceAppIdMap_ = serviceAppIdMap_.copy();
-        }
-        return serviceAppIdMap_;
-      }
-
-      public int getServiceAppIdMapCount() {
-        return internalGetServiceAppIdMap().getMap().size();
-      }
-      /**
-       * <code>map&lt;uint32, uint32&gt; service_app_id_map = 33;</code>
-       */
-
-      @java.lang.Override
-      public boolean containsServiceAppIdMap(
-          int key) {
-        
-        return internalGetServiceAppIdMap().getMap().containsKey(key);
-      }
-      /**
-       * Use {@link #getServiceAppIdMapMap()} instead.
-       */
-      @java.lang.Override
-      @java.lang.Deprecated
-      public java.util.Map<java.lang.Integer, java.lang.Integer> getServiceAppIdMap() {
-        return getServiceAppIdMapMap();
-      }
-      /**
-       * <code>map&lt;uint32, uint32&gt; service_app_id_map = 33;</code>
-       */
-      @java.lang.Override
-
-      public java.util.Map<java.lang.Integer, java.lang.Integer> getServiceAppIdMapMap() {
-        return internalGetServiceAppIdMap().getMap();
-      }
-      /**
-       * <code>map&lt;uint32, uint32&gt; service_app_id_map = 33;</code>
-       */
-      @java.lang.Override
-
-      public int getServiceAppIdMapOrDefault(
-          int key,
-          int defaultValue) {
-        
-        java.util.Map<java.lang.Integer, java.lang.Integer> map =
-            internalGetServiceAppIdMap().getMap();
-        return map.containsKey(key) ? map.get(key) : defaultValue;
-      }
-      /**
-       * <code>map&lt;uint32, uint32&gt; service_app_id_map = 33;</code>
-       */
-      @java.lang.Override
-
-      public int getServiceAppIdMapOrThrow(
-          int key) {
-        
-        java.util.Map<java.lang.Integer, java.lang.Integer> map =
-            internalGetServiceAppIdMap().getMap();
-        if (!map.containsKey(key)) {
-          throw new java.lang.IllegalArgumentException();
-        }
-        return map.get(key);
-      }
-
-      public Builder clearServiceAppIdMap() {
-        internalGetMutableServiceAppIdMap().getMutableMap()
-            .clear();
-        return this;
-      }
-      /**
-       * <code>map&lt;uint32, uint32&gt; service_app_id_map = 33;</code>
-       */
-
-      public Builder removeServiceAppIdMap(
-          int key) {
-        
-        internalGetMutableServiceAppIdMap().getMutableMap()
-            .remove(key);
-        return this;
-      }
-      /**
-       * Use alternate mutation accessors instead.
-       */
-      @java.lang.Deprecated
-      public java.util.Map<java.lang.Integer, java.lang.Integer>
-      getMutableServiceAppIdMap() {
-        return internalGetMutableServiceAppIdMap().getMutableMap();
-      }
-      /**
-       * <code>map&lt;uint32, uint32&gt; service_app_id_map = 33;</code>
-       */
-      public Builder putServiceAppIdMap(
-          int key,
-          int value) {
-        
-        
-        internalGetMutableServiceAppIdMap().getMutableMap()
-            .put(key, value);
-        return this;
-      }
-      /**
-       * <code>map&lt;uint32, uint32&gt; service_app_id_map = 33;</code>
-       */
-
-      public Builder putAllServiceAppIdMap(
-          java.util.Map<java.lang.Integer, java.lang.Integer> values) {
-        internalGetMutableServiceAppIdMap().getMutableMap()
-            .putAll(values);
-        return this;
-      }
-
-      private boolean isSetGameThread_ ;
-      /**
-       * <code>bool is_set_game_thread = 34;</code>
-       * @return The isSetGameThread.
-       */
-      @java.lang.Override
-      public boolean getIsSetGameThread() {
-        return isSetGameThread_;
-      }
-      /**
-       * <code>bool is_set_game_thread = 34;</code>
-       * @param value The isSetGameThread to set.
-       * @return This builder for chaining.
-       */
-      public Builder setIsSetGameThread(boolean value) {
-        
-        isSetGameThread_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool is_set_game_thread = 34;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearIsSetGameThread() {
-        
-        isSetGameThread_ = false;
-        onChanged();
-        return this;
-      }
-
-      private int gameThreadIndex_ ;
-      /**
-       * <code>uint32 game_thread_index = 35;</code>
-       * @return The gameThreadIndex.
-       */
-      @java.lang.Override
-      public int getGameThreadIndex() {
-        return gameThreadIndex_;
-      }
-      /**
-       * <code>uint32 game_thread_index = 35;</code>
-       * @param value The gameThreadIndex to set.
-       * @return This builder for chaining.
-       */
-      public Builder setGameThreadIndex(int value) {
-        
-        gameThreadIndex_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 game_thread_index = 35;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearGameThreadIndex() {
-        
-        gameThreadIndex_ = 0;
+        iJAEGLBPOBJ_ = 0;
         onChanged();
         return this;
       }
@@ -2177,16 +858,6 @@ public final class PacketHeadOuterClass {
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PacketHead_fieldAccessorTable;
-  private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_PacketHead_ExtMapEntry_descriptor;
-  private static final 
-    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_PacketHead_ExtMapEntry_fieldAccessorTable;
-  private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_PacketHead_ServiceAppIdMapEntry_descriptor;
-  private static final 
-    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_PacketHead_ServiceAppIdMapEntry_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -2196,23 +867,12 @@ public final class PacketHeadOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\020PacketHead.proto\"\310\004\n\nPacketHead\022\021\n\tpac" +
-      "ket_id\030\001 \001(\r\022\016\n\006rpc_id\030\002 \001(\r\022\032\n\022client_s" +
-      "equence_id\030\003 \001(\r\022\027\n\017enet_channel_id\030\004 \001(" +
-      "\r\022\030\n\020enet_is_reliable\030\005 \001(\r\022\017\n\007sent_ms\030\006" +
-      " \001(\004\022\017\n\007user_id\030\013 \001(\r\022\017\n\007user_ip\030\014 \001(\r\022\027" +
-      "\n\017user_session_id\030\r \001(\r\022\024\n\014recv_time_ms\030" +
-      "\025 \001(\004\022\031\n\021rpc_begin_time_ms\030\026 \001(\r\022(\n\007ext_" +
-      "map\030\027 \003(\0132\027.PacketHead.ExtMapEntry\022\025\n\rse" +
-      "nder_app_id\030\030 \001(\r\022\026\n\016source_service\030\037 \001(" +
-      "\r\022\026\n\016target_service\030  \001(\r\022<\n\022service_app" +
-      "_id_map\030! \003(\0132 .PacketHead.ServiceAppIdM" +
-      "apEntry\022\032\n\022is_set_game_thread\030\" \001(\010\022\031\n\021g" +
-      "ame_thread_index\030# \001(\r\032-\n\013ExtMapEntry\022\013\n" +
-      "\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001\0326\n\024Service" +
-      "AppIdMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(" +
-      "\r:\0028\001B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\n\020PacketHead.proto\"\215\001\n\nPacketHead\022\032\n\022cli" +
+      "ent_sequence_id\030\003 \001(\r\022\017\n\007sent_ms\030\006 \001(\004\022\023" +
+      "\n\013NAOICAHMEBA\030\007 \001(\r\022\023\n\013NHBKNKEIPAB\030\010 \001(\r" +
+      "\022\023\n\013KIBNBAGOICF\030\t \001(\r\022\023\n\013IJAEGLBPOBJ\030\n \001" +
+      "(\rB1\n\031emu.grasscutter.net.protoB\024PacketH" +
+      "eadOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -2223,19 +883,7 @@ public final class PacketHeadOuterClass {
     internal_static_PacketHead_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_PacketHead_descriptor,
-        new java.lang.String[] { "PacketId", "RpcId", "ClientSequenceId", "EnetChannelId", "EnetIsReliable", "SentMs", "UserId", "UserIp", "UserSessionId", "RecvTimeMs", "RpcBeginTimeMs", "ExtMap", "SenderAppId", "SourceService", "TargetService", "ServiceAppIdMap", "IsSetGameThread", "GameThreadIndex", });
-    internal_static_PacketHead_ExtMapEntry_descriptor =
-      internal_static_PacketHead_descriptor.getNestedTypes().get(0);
-    internal_static_PacketHead_ExtMapEntry_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_PacketHead_ExtMapEntry_descriptor,
-        new java.lang.String[] { "Key", "Value", });
-    internal_static_PacketHead_ServiceAppIdMapEntry_descriptor =
-      internal_static_PacketHead_descriptor.getNestedTypes().get(1);
-    internal_static_PacketHead_ServiceAppIdMapEntry_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_PacketHead_ServiceAppIdMapEntry_descriptor,
-        new java.lang.String[] { "Key", "Value", });
+        new java.lang.String[] { "ClientSequenceId", "SentMs", "NAOICAHMEBA", "NHBKNKEIPAB", "KIBNBAGOICF", "IJAEGLBPOBJ", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

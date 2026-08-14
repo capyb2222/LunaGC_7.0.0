@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ReformFireworksReqOuterClass";
+
+import "FireworksReformData.proto";
+
+message ReformFireworksReq {
+	FireworksReformData fireworks_reform_data = 13;
+}

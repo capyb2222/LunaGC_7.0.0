@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_TreasureKeyMarkPointOuterClass";
+
+import "Vector.proto";
+
+message _TreasureKeyMarkPoint {
+	Vector _mark_pos = 1;
+	uint32 _mark_scene_id = 7;
+	uint32 group_id = 8;
+	uint32 _mark_map_layer_id = 9;
+	uint32 material_id = 11;
+	uint32 config_id = 14;
+	bool is_active = 15;
+}

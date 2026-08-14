@@ -19,23 +19,18 @@ public final class PlayerChatRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>int32 retcode = 15;</code>
+     * <code>int32 retcode = 6;</code>
      * @return The retcode.
      */
     int getRetcode();
 
     /**
-     * <code>uint32 chat_forbidden_endtime = 1;</code>
+     * <code>uint32 chat_forbidden_endtime = 7;</code>
      * @return The chatForbiddenEndtime.
      */
     int getChatForbiddenEndtime();
   }
   /**
-   * <pre>
-   * CmdId: 27239
-   * Obf: OANNGBKFIIB
-   * </pre>
-   *
    * Protobuf type {@code PlayerChatRsp}
    */
   public static final class PlayerChatRsp extends
@@ -82,12 +77,12 @@ public final class PlayerChatRspOuterClass {
               break;
             case 48: {
 
-              chatForbiddenEndtime_ = input.readUInt32();
+              retcode_ = input.readInt32();
               break;
             }
-            case 16: {
+            case 56: {
 
-              retcode_ = input.readInt32();
+              chatForbiddenEndtime_ = input.readUInt32();
               break;
             }
             default: {
@@ -122,10 +117,10 @@ public final class PlayerChatRspOuterClass {
               emu.grasscutter.net.proto.PlayerChatRspOuterClass.PlayerChatRsp.class, emu.grasscutter.net.proto.PlayerChatRspOuterClass.PlayerChatRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 2;
+    public static final int RETCODE_FIELD_NUMBER = 6;
     private int retcode_;
     /**
-     * <code>int32 retcode = 15;</code>
+     * <code>int32 retcode = 6;</code>
      * @return The retcode.
      */
     @java.lang.Override
@@ -133,10 +128,10 @@ public final class PlayerChatRspOuterClass {
       return retcode_;
     }
 
-    public static final int CHAT_FORBIDDEN_ENDTIME_FIELD_NUMBER = 6;
+    public static final int CHAT_FORBIDDEN_ENDTIME_FIELD_NUMBER = 7;
     private int chatForbiddenEndtime_;
     /**
-     * <code>uint32 chat_forbidden_endtime = 1;</code>
+     * <code>uint32 chat_forbidden_endtime = 7;</code>
      * @return The chatForbiddenEndtime.
      */
     @java.lang.Override
@@ -158,11 +153,11 @@ public final class PlayerChatRspOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (chatForbiddenEndtime_ != 0) {
-        output.writeUInt32(6, chatForbiddenEndtime_);
-      }
       if (retcode_ != 0) {
-        output.writeInt32(2, retcode_);
+        output.writeInt32(6, retcode_);
+      }
+      if (chatForbiddenEndtime_ != 0) {
+        output.writeUInt32(7, chatForbiddenEndtime_);
       }
       unknownFields.writeTo(output);
     }
@@ -173,13 +168,13 @@ public final class PlayerChatRspOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (chatForbiddenEndtime_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, chatForbiddenEndtime_);
-      }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(2, retcode_);
+          .computeInt32Size(6, retcode_);
+      }
+      if (chatForbiddenEndtime_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(7, chatForbiddenEndtime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -311,11 +306,6 @@ public final class PlayerChatRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 27239
-     * Obf: OANNGBKFIIB
-     * </pre>
-     *
      * Protobuf type {@code PlayerChatRsp}
      */
     public static final class Builder extends
@@ -470,7 +460,7 @@ public final class PlayerChatRspOuterClass {
 
       private int retcode_ ;
       /**
-       * <code>int32 retcode = 15;</code>
+       * <code>int32 retcode = 6;</code>
        * @return The retcode.
        */
       @java.lang.Override
@@ -478,7 +468,7 @@ public final class PlayerChatRspOuterClass {
         return retcode_;
       }
       /**
-       * <code>int32 retcode = 15;</code>
+       * <code>int32 retcode = 6;</code>
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
@@ -489,7 +479,7 @@ public final class PlayerChatRspOuterClass {
         return this;
       }
       /**
-       * <code>int32 retcode = 15;</code>
+       * <code>int32 retcode = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
@@ -501,7 +491,7 @@ public final class PlayerChatRspOuterClass {
 
       private int chatForbiddenEndtime_ ;
       /**
-       * <code>uint32 chat_forbidden_endtime = 1;</code>
+       * <code>uint32 chat_forbidden_endtime = 7;</code>
        * @return The chatForbiddenEndtime.
        */
       @java.lang.Override
@@ -509,7 +499,7 @@ public final class PlayerChatRspOuterClass {
         return chatForbiddenEndtime_;
       }
       /**
-       * <code>uint32 chat_forbidden_endtime = 1;</code>
+       * <code>uint32 chat_forbidden_endtime = 7;</code>
        * @param value The chatForbiddenEndtime to set.
        * @return This builder for chaining.
        */
@@ -520,7 +510,7 @@ public final class PlayerChatRspOuterClass {
         return this;
       }
       /**
-       * <code>uint32 chat_forbidden_endtime = 1;</code>
+       * <code>uint32 chat_forbidden_endtime = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearChatForbiddenEndtime() {
@@ -597,9 +587,9 @@ public final class PlayerChatRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\023PlayerChatRsp.proto\"@\n\rPlayerChatRsp\022\017" +
-      "\n\007retcode\030\017 \001(\005\022\036\n\026chat_forbidden_endtim" +
-      "e\030\001 \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "\n\007retcode\030\006 \001(\005\022\036\n\026chat_forbidden_endtim" +
+      "e\030\007 \001(\rB4\n\031emu.grasscutter.net.protoB\027Pl" +
+      "ayerChatRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

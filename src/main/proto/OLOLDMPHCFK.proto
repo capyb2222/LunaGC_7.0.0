@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "OLOLDMPHCFKOuterClass";
+
+message OLOLDMPHCFK {
+	uint32 CIDAIGANDEI = 1;
+	repeated uint32 FHKCCHJCGBA = 2;
+}

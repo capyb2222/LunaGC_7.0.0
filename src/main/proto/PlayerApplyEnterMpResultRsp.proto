@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PlayerApplyEnterMpResultRspOuterClass";
+
+message PlayerApplyEnterMpResultRsp {
+	uint32 param = 1;
+	bool is_agreed = 6;
+	uint32 apply_uid = 11;
+	int32 retcode = 15;
+}

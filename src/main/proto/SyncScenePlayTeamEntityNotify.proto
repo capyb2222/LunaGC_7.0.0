@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SyncScenePlayTeamEntityNotifyOuterClass";
+
+import "PlayTeamEntityInfo.proto";
+
+message SyncScenePlayTeamEntityNotify {
+	uint32 scene_id = 3;
+	repeated PlayTeamEntityInfo entity_info_list = 15;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AttackHitEffectResultOuterClass";
+
+message AttackHitEffectResult {
+	uint32 dgedhlmbpca = 1;
+	float APDAHHOOLAA = 2;
+	float OPGJOJGJHCJ = 5;
+	uint32 JKKNMKKLHMD = 7;
+	float MBGEPHDJINB = 12;
+	float klfhecelkoe = 15;
+}

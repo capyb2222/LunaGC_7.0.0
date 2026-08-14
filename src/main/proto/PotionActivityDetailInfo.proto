@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PotionActivityDetailInfoOuterClass";
+
+import "PotionStageData.proto";
+
+message PotionActivityDetailInfo {
+	repeated PotionStageData stage_list = 7;
+}

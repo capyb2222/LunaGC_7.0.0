@@ -18,9 +18,17 @@ public final class FightPropPairOuterClass {
       // @@protoc_insertion_point(interface_extends:FightPropPair)
       com.google.protobuf.MessageOrBuilder {
 
-    float getPropValue();
-
+    /**
+     * <code>uint32 prop_type = 1;</code>
+     * @return The propType.
+     */
     int getPropType();
+
+    /**
+     * <code>float prop_value = 2;</code>
+     * @return The propValue.
+     */
+    float getPropValue();
   }
   /**
    * Protobuf type {@code FightPropPair}
@@ -109,20 +117,26 @@ public final class FightPropPairOuterClass {
               emu.grasscutter.net.proto.FightPropPairOuterClass.FightPropPair.class, emu.grasscutter.net.proto.FightPropPairOuterClass.FightPropPair.Builder.class);
     }
 
-    public static final int PROP_VALUE_FIELD_NUMBER = 2;
-    private float propValue_;
-
-    @java.lang.Override
-    public float getPropValue() {
-      return propValue_;
-    }
-
     public static final int PROP_TYPE_FIELD_NUMBER = 1;
     private int propType_;
-
+    /**
+     * <code>uint32 prop_type = 1;</code>
+     * @return The propType.
+     */
     @java.lang.Override
     public int getPropType() {
       return propType_;
+    }
+
+    public static final int PROP_VALUE_FIELD_NUMBER = 2;
+    private float propValue_;
+    /**
+     * <code>float prop_value = 2;</code>
+     * @return The propValue.
+     */
+    @java.lang.Override
+    public float getPropValue() {
+      return propValue_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -177,11 +191,11 @@ public final class FightPropPairOuterClass {
       }
       emu.grasscutter.net.proto.FightPropPairOuterClass.FightPropPair other = (emu.grasscutter.net.proto.FightPropPairOuterClass.FightPropPair) obj;
 
+      if (getPropType()
+          != other.getPropType()) return false;
       if (java.lang.Float.floatToIntBits(getPropValue())
           != java.lang.Float.floatToIntBits(
               other.getPropValue())) return false;
-      if (getPropType()
-          != other.getPropType()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -193,11 +207,11 @@ public final class FightPropPairOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + PROP_TYPE_FIELD_NUMBER;
+      hash = (53 * hash) + getPropType();
       hash = (37 * hash) + PROP_VALUE_FIELD_NUMBER;
       hash = (53 * hash) + java.lang.Float.floatToIntBits(
           getPropValue());
-      hash = (37 * hash) + PROP_TYPE_FIELD_NUMBER;
-      hash = (53 * hash) + getPropType();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -331,9 +345,9 @@ public final class FightPropPairOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        propValue_ = 0F;
-
         propType_ = 0;
+
+        propValue_ = 0F;
 
         return this;
       }
@@ -361,8 +375,8 @@ public final class FightPropPairOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.FightPropPairOuterClass.FightPropPair buildPartial() {
         emu.grasscutter.net.proto.FightPropPairOuterClass.FightPropPair result = new emu.grasscutter.net.proto.FightPropPairOuterClass.FightPropPair(this);
-        result.propValue_ = propValue_;
         result.propType_ = propType_;
+        result.propValue_ = propValue_;
         onBuilt();
         return result;
       }
@@ -411,11 +425,11 @@ public final class FightPropPairOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.FightPropPairOuterClass.FightPropPair other) {
         if (other == emu.grasscutter.net.proto.FightPropPairOuterClass.FightPropPair.getDefaultInstance()) return this;
-        if (other.getPropValue() != 0F) {
-          setPropValue(other.getPropValue());
-        }
         if (other.getPropType() != 0) {
           setPropType(other.getPropType());
+        }
+        if (other.getPropValue() != 0F) {
+          setPropValue(other.getPropValue());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -446,44 +460,64 @@ public final class FightPropPairOuterClass {
         return this;
       }
 
-      private float propValue_ ;
-
-      @java.lang.Override
-      public float getPropValue() {
-        return propValue_;
-      }
-
-      public Builder setPropValue(float value) {
-
-        propValue_ = value;
-        onChanged();
-        return this;
-      }
-
-      public Builder clearPropValue() {
-
-        propValue_ = 0F;
-        onChanged();
-        return this;
-      }
-
       private int propType_ ;
-
+      /**
+       * <code>uint32 prop_type = 1;</code>
+       * @return The propType.
+       */
       @java.lang.Override
       public int getPropType() {
         return propType_;
       }
-
+      /**
+       * <code>uint32 prop_type = 1;</code>
+       * @param value The propType to set.
+       * @return This builder for chaining.
+       */
       public Builder setPropType(int value) {
-
+        
         propType_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint32 prop_type = 1;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearPropType() {
-
+        
         propType_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private float propValue_ ;
+      /**
+       * <code>float prop_value = 2;</code>
+       * @return The propValue.
+       */
+      @java.lang.Override
+      public float getPropValue() {
+        return propValue_;
+      }
+      /**
+       * <code>float prop_value = 2;</code>
+       * @param value The propValue to set.
+       * @return This builder for chaining.
+       */
+      public Builder setPropValue(float value) {
+        
+        propValue_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>float prop_value = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearPropValue() {
+        
+        propValue_ = 0F;
         onChanged();
         return this;
       }
@@ -498,6 +532,7 @@ public final class FightPropPairOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:FightPropPair)
     }
@@ -541,7 +576,7 @@ public final class FightPropPairOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FightPropPair_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FightPropPair_fieldAccessorTable;
 
@@ -553,9 +588,10 @@ public final class FightPropPairOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\023FightPropPair.proto\"6\n\rFightPropPair\022\022" +
-      "\n\nprop_value\030\002 \001(\002\022\021\n\tprop_type\030\001 \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "\n\023FightPropPair.proto\"6\n\rFightPropPair\022\021" +
+      "\n\tprop_type\030\001 \001(\r\022\022\n\nprop_value\030\002 \001(\002B4\n" +
+      "\031emu.grasscutter.net.protoB\027FightPropPai" +
+      "rOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -566,7 +602,7 @@ public final class FightPropPairOuterClass {
     internal_static_FightPropPair_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_FightPropPair_descriptor,
-        new java.lang.String[] { "PropValue", "PropType", });
+        new java.lang.String[] { "PropType", "PropValue", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

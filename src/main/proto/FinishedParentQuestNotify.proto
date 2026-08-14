@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FinishedParentQuestNotifyOuterClass";
+
+import "ParentQuest.proto";
+
+message FinishedParentQuestNotify {
+	repeated ParentQuest parent_quest_list = 12;
+}

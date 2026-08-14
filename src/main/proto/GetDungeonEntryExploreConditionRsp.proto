@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GetDungeonEntryExploreConditionRspOuterClass";
+
+import "DungeonEntryCond.proto";
+
+message GetDungeonEntryExploreConditionRsp {
+	int32 retcode = 2;
+	DungeonEntryCond dungeon_entry_cond = 11;
+}

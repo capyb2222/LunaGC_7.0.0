@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ExpeditionPathInfoOuterClass";
+
+import "ExpeditionState.proto";
+
+message ExpeditionPathInfo {
+	uint32 challenge_id = 1;
+	uint32 HPIHFPPEGEB = 2;
+	uint32 LGBBIHMBIOM = 3;
+	ExpeditionState state = 5;
+	uint32 DAEPBFLMGIA = 7;
+	uint32 start_time = 8;
+	repeated uint32 avatar_id_list = 10;
+	uint32 KALHHMPCIDP = 11;
+	float bonus_probability = 13;
+	uint32 NLLIPHBOCCE = 15;
+}

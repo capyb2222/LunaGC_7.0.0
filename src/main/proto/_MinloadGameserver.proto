@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_MinloadGameserverOuterClass";
+
+import "MMPPAHOHHBJ.proto";
+
+message _MinloadGameserver {
+	MMPPAHOHHBJ BEOALGIPDPJ = 1;
+}

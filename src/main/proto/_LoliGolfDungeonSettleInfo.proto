@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_LoliGolfDungeonSettleInfoOuterClass";
+
+import "Uint32Pair.proto";
+
+message _LoliGolfDungeonSettleInfo {
+	uint32 BMMIKCIJLHN = 1;
+	uint32 FHKOLIDKNBA = 2;
+	uint32 JOELLBHNGDL = 3;
+	uint32 qte_count = 4;
+	uint32 level_id = 5;
+	uint32 IDJGDOGIJFE = 6;
+	repeated Uint32Pair NKOOPGKMHEK = 7;
+	uint32 AFOELHPKJOP = 9;
+	repeated Uint32Pair KHEMPDGCLGG = 10;
+	uint32 score = 14;
+	bool is_new_record = 15;
+}

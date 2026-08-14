@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_BeyondCostumeSetDetailOuterClass";
+
+import "_BeyondCostumePieceAdjustment.proto";
+import "_BeyondCostumePieceInfo.proto";
+
+message _BeyondCostumeSetDetail {
+	repeated _BeyondCostumePieceInfo _piece_info = 1;
+	repeated _BeyondCostumePieceAdjustment _piece_adjustment = 2;
+}

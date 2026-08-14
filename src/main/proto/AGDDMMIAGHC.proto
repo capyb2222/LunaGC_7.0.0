@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AGDDMMIAGHCOuterClass";
+
+import "BGNBJMCFEEM.proto";
+import "NPFNMNICBDL.proto";
+import "_CurrentPhase.proto";
+import "_TacticReturnToBornPosInfo.proto";
+
+message AGDDMMIAGHC {
+	_CurrentPhase AMEILFAPLBD = 1;
+	uint32 AIFNFGFAJOC = 2;
+	_TacticReturnToBornPosInfo HNIIHEABBNM = 3;
+	repeated NPFNMNICBDL PKHBKFNODPI = 4;
+	repeated NPFNMNICBDL GJMIADFNGDF = 5;
+	BGNBJMCFEEM JDFIPNGEHHG = 6;
+}

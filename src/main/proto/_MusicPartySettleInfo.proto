@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_MusicPartySettleInfoOuterClass";
+
+import "DungeonSettleExhibitionInfo.proto";
+import "ExhibitionDisplayInfo.proto";
+
+message _MusicPartySettleInfo {
+	repeated DungeonSettleExhibitionInfo settle_info_list = 1;
+	uint32 score = 3;
+	repeated uint32 winner_uid_list = 9;
+	uint32 LLCEEFFOGBH = 11;
+	repeated ExhibitionDisplayInfo score_list = 12;
+}

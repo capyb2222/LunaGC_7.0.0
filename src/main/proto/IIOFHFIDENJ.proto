@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "IIOFHFIDENJOuterClass";
+
+message IIOFHFIDENJ {
+	uint32 item_id = 3;
+	uint32 DEMKCGALOEB = 11;
+	uint32 ECNLAOHFCKA = 13;
+}

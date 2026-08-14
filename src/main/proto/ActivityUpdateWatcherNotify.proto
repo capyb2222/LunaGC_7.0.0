@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ActivityUpdateWatcherNotifyOuterClass";
+
+import "ActivityWatcherInfo.proto";
+
+message ActivityUpdateWatcherNotify {
+	uint32 activity_id = 2;
+	ActivityWatcherInfo watcher_info = 3;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_DiversityBattleSettleInfoOuterClass";
+
+message _DiversityBattleSettleInfo {
+	uint32 difficulty_id = 4;
+	repeated uint32 score_list = 5;
+	bool is_new_record = 10;
+	uint32 level_id = 14;
+}

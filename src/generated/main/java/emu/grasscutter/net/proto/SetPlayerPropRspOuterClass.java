@@ -19,17 +19,12 @@ public final class SetPlayerPropRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>int32 retcode = 8;</code>
+     * <code>int32 retcode = 6;</code>
      * @return The retcode.
      */
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdId: 1391
-   * Obf: MFEACCDFFAI
-   * </pre>
-   *
    * Protobuf type {@code SetPlayerPropRsp}
    */
   public static final class SetPlayerPropRsp extends
@@ -74,7 +69,7 @@ public final class SetPlayerPropRspOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 48: {
 
               retcode_ = input.readInt32();
               break;
@@ -111,10 +106,10 @@ public final class SetPlayerPropRspOuterClass {
               emu.grasscutter.net.proto.SetPlayerPropRspOuterClass.SetPlayerPropRsp.class, emu.grasscutter.net.proto.SetPlayerPropRspOuterClass.SetPlayerPropRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 1;
+    public static final int RETCODE_FIELD_NUMBER = 6;
     private int retcode_;
     /**
-     * <code>int32 retcode = 8;</code>
+     * <code>int32 retcode = 6;</code>
      * @return The retcode.
      */
     @java.lang.Override
@@ -137,7 +132,7 @@ public final class SetPlayerPropRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(1, retcode_);
+        output.writeInt32(6, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +145,7 @@ public final class SetPlayerPropRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(1, retcode_);
+          .computeInt32Size(6, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -278,11 +273,6 @@ public final class SetPlayerPropRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 1391
-     * Obf: MFEACCDFFAI
-     * </pre>
-     *
      * Protobuf type {@code SetPlayerPropRsp}
      */
     public static final class Builder extends
@@ -431,7 +421,7 @@ public final class SetPlayerPropRspOuterClass {
 
       private int retcode_ ;
       /**
-       * <code>int32 retcode = 8;</code>
+       * <code>int32 retcode = 6;</code>
        * @return The retcode.
        */
       @java.lang.Override
@@ -439,7 +429,7 @@ public final class SetPlayerPropRspOuterClass {
         return retcode_;
       }
       /**
-       * <code>int32 retcode = 8;</code>
+       * <code>int32 retcode = 6;</code>
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
@@ -450,7 +440,7 @@ public final class SetPlayerPropRspOuterClass {
         return this;
       }
       /**
-       * <code>int32 retcode = 8;</code>
+       * <code>int32 retcode = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
@@ -527,8 +517,9 @@ public final class SetPlayerPropRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026SetPlayerPropRsp.proto\"#\n\020SetPlayerPro" +
-      "pRsp\022\017\n\007retcode\030\010 \001(\005B\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "pRsp\022\017\n\007retcode\030\006 \001(\005B7\n\031emu.grasscutter" +
+      ".net.protoB\032SetPlayerPropRspOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

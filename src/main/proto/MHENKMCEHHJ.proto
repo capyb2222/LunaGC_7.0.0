@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MHENKMCEHHJOuterClass";
+
+import "NHKBDCPGNMN.proto";
+
+message MHENKMCEHHJ {
+	repeated NHKBDCPGNMN level_info_list = 3;
+}

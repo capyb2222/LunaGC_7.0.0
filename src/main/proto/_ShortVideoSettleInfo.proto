@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_ShortVideoSettleInfoOuterClass";
+
+import "GalleryStopReason.proto";
+
+message _ShortVideoSettleInfo {
+	uint32 use_time = 1;
+	GalleryStopReason reason = 11;
+	uint32 level_id = 15;
+}

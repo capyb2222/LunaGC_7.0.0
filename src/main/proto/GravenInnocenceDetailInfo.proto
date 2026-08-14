@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GravenInnocenceDetailInfoOuterClass";
+
+import "GravenInnocenceCampInfo.proto";
+import "GravenInnocenceCarveInfo.proto";
+import "GravenInnocencePhotoInfo.proto";
+import "GravenInnocenceRaceInfo.proto";
+
+message GravenInnocenceDetailInfo {
+	bool is_content_closed = 1;
+	GravenInnocenceCarveInfo carve_info = 2;
+	GravenInnocencePhotoInfo photo_info = 4;
+	GravenInnocenceRaceInfo race_info = 8;
+	GravenInnocenceCampInfo camp_info = 10;
+}

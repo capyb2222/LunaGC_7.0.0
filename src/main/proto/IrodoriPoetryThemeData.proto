@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "IrodoriPoetryThemeDataOuterClass";
+
+message IrodoriPoetryThemeData {
+	uint32 MMJJCCPKICN = 2;
+	uint32 lnhhekidiag = 6;
+	uint32 ajonpjmnann = 10;
+	repeated uint32 ccpllhmeokj = 11;
+	repeated uint32 bngojinjala = 12;
+	uint32 progress = 13;
+	uint32 max_progress = 15;
+}

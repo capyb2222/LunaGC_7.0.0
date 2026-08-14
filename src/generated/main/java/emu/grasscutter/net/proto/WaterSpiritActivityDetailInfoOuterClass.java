@@ -19,46 +19,50 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>map&lt;uint32, uint32&gt; POBHLFCOGEE = 2;</code>
+     * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
      */
-    int getPOBHLFCOGEECount();
+    int getSearchTimeMapCount();
     /**
-     * <code>map&lt;uint32, uint32&gt; POBHLFCOGEE = 2;</code>
+     * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
      */
-    boolean containsPOBHLFCOGEE(
+    boolean containsSearchTimeMap(
         int key);
     /**
-     * Use {@link #getPOBHLFCOGEEMap()} instead.
+     * Use {@link #getSearchTimeMapMap()} instead.
      */
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Integer>
-    getPOBHLFCOGEE();
+    getSearchTimeMap();
     /**
-     * <code>map&lt;uint32, uint32&gt; POBHLFCOGEE = 2;</code>
+     * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
      */
     java.util.Map<java.lang.Integer, java.lang.Integer>
-    getPOBHLFCOGEEMap();
+    getSearchTimeMapMap();
     /**
-     * <code>map&lt;uint32, uint32&gt; POBHLFCOGEE = 2;</code>
+     * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
      */
 
-    int getPOBHLFCOGEEOrDefault(
+    int getSearchTimeMapOrDefault(
         int key,
         int defaultValue);
     /**
-     * <code>map&lt;uint32, uint32&gt; POBHLFCOGEE = 2;</code>
+     * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
      */
 
-    int getPOBHLFCOGEEOrThrow(
+    int getSearchTimeMapOrThrow(
         int key);
 
+    /**
+     * <code>uint32 mp_play_id = 13;</code>
+     * @return The mpPlayId.
+     */
     int getMpPlayId();
 
     /**
-     * <code>uint32 IAGHDGAHKHL = 12;</code>
-     * @return The iAGHDGAHKHL.
+     * <code>uint32 region_search_id = 15;</code>
+     * @return The regionSearchId.
      */
-    int getIAGHDGAHKHL();
+    int getRegionSearchId();
   }
   /**
    * Protobuf type {@code WaterSpiritActivityDetailInfo}
@@ -106,27 +110,27 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 18: {
+            case 50: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                pOBHLFCOGEE_ = com.google.protobuf.MapField.newMapField(
-                    POBHLFCOGEEDefaultEntryHolder.defaultEntry);
+                searchTimeMap_ = com.google.protobuf.MapField.newMapField(
+                    SearchTimeMapDefaultEntryHolder.defaultEntry);
                 mutable_bitField0_ |= 0x00000001;
               }
               com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
-              pOBHLFCOGEE__ = input.readMessage(
-                  POBHLFCOGEEDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
-              pOBHLFCOGEE_.getMutableMap().put(
-                  pOBHLFCOGEE__.getKey(), pOBHLFCOGEE__.getValue());
+              searchTimeMap__ = input.readMessage(
+                  SearchTimeMapDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
+              searchTimeMap_.getMutableMap().put(
+                  searchTimeMap__.getKey(), searchTimeMap__.getValue());
               break;
             }
-            case 32: {
+            case 104: {
 
               mpPlayId_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 120: {
 
-              iAGHDGAHKHL_ = input.readUInt32();
+              regionSearchId_ = input.readUInt32();
               break;
             }
             default: {
@@ -158,8 +162,8 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
     protected com.google.protobuf.MapField internalGetMapField(
         int number) {
       switch (number) {
-        case 2:
-          return internalGetPOBHLFCOGEE();
+        case 6:
+          return internalGetSearchTimeMap();
         default:
           throw new RuntimeException(
               "Invalid map field number: " + number);
@@ -173,104 +177,107 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.WaterSpiritActivityDetailInfoOuterClass.WaterSpiritActivityDetailInfo.class, emu.grasscutter.net.proto.WaterSpiritActivityDetailInfoOuterClass.WaterSpiritActivityDetailInfo.Builder.class);
     }
 
-    public static final int POBHLFCOGEE_FIELD_NUMBER = 2;
-    private static final class POBHLFCOGEEDefaultEntryHolder {
+    public static final int SEARCH_TIME_MAP_FIELD_NUMBER = 6;
+    private static final class SearchTimeMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.WaterSpiritActivityDetailInfoOuterClass.internal_static_WaterSpiritActivityDetailInfo_POBHLFCOGEEEntry_descriptor,
+                  emu.grasscutter.net.proto.WaterSpiritActivityDetailInfoOuterClass.internal_static_WaterSpiritActivityDetailInfo_SearchTimeMapEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0);
     }
     private com.google.protobuf.MapField<
-        java.lang.Integer, java.lang.Integer> pOBHLFCOGEE_;
+        java.lang.Integer, java.lang.Integer> searchTimeMap_;
     private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-    internalGetPOBHLFCOGEE() {
-      if (pOBHLFCOGEE_ == null) {
+    internalGetSearchTimeMap() {
+      if (searchTimeMap_ == null) {
         return com.google.protobuf.MapField.emptyMapField(
-            POBHLFCOGEEDefaultEntryHolder.defaultEntry);
+            SearchTimeMapDefaultEntryHolder.defaultEntry);
       }
-      return pOBHLFCOGEE_;
+      return searchTimeMap_;
     }
 
-    public int getPOBHLFCOGEECount() {
-      return internalGetPOBHLFCOGEE().getMap().size();
+    public int getSearchTimeMapCount() {
+      return internalGetSearchTimeMap().getMap().size();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; POBHLFCOGEE = 2;</code>
+     * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
      */
 
     @java.lang.Override
-    public boolean containsPOBHLFCOGEE(
+    public boolean containsSearchTimeMap(
         int key) {
-
-      return internalGetPOBHLFCOGEE().getMap().containsKey(key);
+      
+      return internalGetSearchTimeMap().getMap().containsKey(key);
     }
     /**
-     * Use {@link #getPOBHLFCOGEEMap()} instead.
+     * Use {@link #getSearchTimeMapMap()} instead.
      */
     @java.lang.Override
     @java.lang.Deprecated
-    public java.util.Map<java.lang.Integer, java.lang.Integer> getPOBHLFCOGEE() {
-      return getPOBHLFCOGEEMap();
+    public java.util.Map<java.lang.Integer, java.lang.Integer> getSearchTimeMap() {
+      return getSearchTimeMapMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; POBHLFCOGEE = 2;</code>
+     * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
      */
     @java.lang.Override
 
-    public java.util.Map<java.lang.Integer, java.lang.Integer> getPOBHLFCOGEEMap() {
-      return internalGetPOBHLFCOGEE().getMap();
+    public java.util.Map<java.lang.Integer, java.lang.Integer> getSearchTimeMapMap() {
+      return internalGetSearchTimeMap().getMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; POBHLFCOGEE = 2;</code>
+     * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
      */
     @java.lang.Override
 
-    public int getPOBHLFCOGEEOrDefault(
+    public int getSearchTimeMapOrDefault(
         int key,
         int defaultValue) {
-
+      
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
-          internalGetPOBHLFCOGEE().getMap();
+          internalGetSearchTimeMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; POBHLFCOGEE = 2;</code>
+     * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
      */
     @java.lang.Override
 
-    public int getPOBHLFCOGEEOrThrow(
+    public int getSearchTimeMapOrThrow(
         int key) {
-
+      
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
-          internalGetPOBHLFCOGEE().getMap();
+          internalGetSearchTimeMap().getMap();
       if (!map.containsKey(key)) {
         throw new java.lang.IllegalArgumentException();
       }
       return map.get(key);
     }
 
-    public static final int MP_PLAY_ID_FIELD_NUMBER = 4;
+    public static final int MP_PLAY_ID_FIELD_NUMBER = 13;
     private int mpPlayId_;
-
+    /**
+     * <code>uint32 mp_play_id = 13;</code>
+     * @return The mpPlayId.
+     */
     @java.lang.Override
     public int getMpPlayId() {
       return mpPlayId_;
     }
 
-    public static final int IAGHDGAHKHL_FIELD_NUMBER = 12;
-    private int iAGHDGAHKHL_;
+    public static final int REGION_SEARCH_ID_FIELD_NUMBER = 15;
+    private int regionSearchId_;
     /**
-     * <code>uint32 IAGHDGAHKHL = 12;</code>
-     * @return The iAGHDGAHKHL.
+     * <code>uint32 region_search_id = 15;</code>
+     * @return The regionSearchId.
      */
     @java.lang.Override
-    public int getIAGHDGAHKHL() {
-      return iAGHDGAHKHL_;
+    public int getRegionSearchId() {
+      return regionSearchId_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -290,14 +297,14 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
-          internalGetPOBHLFCOGEE(),
-          POBHLFCOGEEDefaultEntryHolder.defaultEntry,
-          2);
+          internalGetSearchTimeMap(),
+          SearchTimeMapDefaultEntryHolder.defaultEntry,
+          6);
       if (mpPlayId_ != 0) {
-        output.writeUInt32(4, mpPlayId_);
+        output.writeUInt32(13, mpPlayId_);
       }
-      if (iAGHDGAHKHL_ != 0) {
-        output.writeUInt32(12, iAGHDGAHKHL_);
+      if (regionSearchId_ != 0) {
+        output.writeUInt32(15, regionSearchId_);
       }
       unknownFields.writeTo(output);
     }
@@ -309,22 +316,22 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
 
       size = 0;
       for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
-           : internalGetPOBHLFCOGEE().getMap().entrySet()) {
+           : internalGetSearchTimeMap().getMap().entrySet()) {
         com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
-        pOBHLFCOGEE__ = POBHLFCOGEEDefaultEntryHolder.defaultEntry.newBuilderForType()
+        searchTimeMap__ = SearchTimeMapDefaultEntryHolder.defaultEntry.newBuilderForType()
             .setKey(entry.getKey())
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(2, pOBHLFCOGEE__);
+            .computeMessageSize(6, searchTimeMap__);
       }
       if (mpPlayId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, mpPlayId_);
+          .computeUInt32Size(13, mpPlayId_);
       }
-      if (iAGHDGAHKHL_ != 0) {
+      if (regionSearchId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, iAGHDGAHKHL_);
+          .computeUInt32Size(15, regionSearchId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -341,12 +348,12 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.WaterSpiritActivityDetailInfoOuterClass.WaterSpiritActivityDetailInfo other = (emu.grasscutter.net.proto.WaterSpiritActivityDetailInfoOuterClass.WaterSpiritActivityDetailInfo) obj;
 
-      if (!internalGetPOBHLFCOGEE().equals(
-          other.internalGetPOBHLFCOGEE())) return false;
+      if (!internalGetSearchTimeMap().equals(
+          other.internalGetSearchTimeMap())) return false;
       if (getMpPlayId()
           != other.getMpPlayId()) return false;
-      if (getIAGHDGAHKHL()
-          != other.getIAGHDGAHKHL()) return false;
+      if (getRegionSearchId()
+          != other.getRegionSearchId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -358,14 +365,14 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (!internalGetPOBHLFCOGEE().getMap().isEmpty()) {
-        hash = (37 * hash) + POBHLFCOGEE_FIELD_NUMBER;
-        hash = (53 * hash) + internalGetPOBHLFCOGEE().hashCode();
+      if (!internalGetSearchTimeMap().getMap().isEmpty()) {
+        hash = (37 * hash) + SEARCH_TIME_MAP_FIELD_NUMBER;
+        hash = (53 * hash) + internalGetSearchTimeMap().hashCode();
       }
       hash = (37 * hash) + MP_PLAY_ID_FIELD_NUMBER;
       hash = (53 * hash) + getMpPlayId();
-      hash = (37 * hash) + IAGHDGAHKHL_FIELD_NUMBER;
-      hash = (53 * hash) + getIAGHDGAHKHL();
+      hash = (37 * hash) + REGION_SEARCH_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getRegionSearchId();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -477,8 +484,8 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       protected com.google.protobuf.MapField internalGetMapField(
           int number) {
         switch (number) {
-          case 2:
-            return internalGetPOBHLFCOGEE();
+          case 6:
+            return internalGetSearchTimeMap();
           default:
             throw new RuntimeException(
                 "Invalid map field number: " + number);
@@ -488,8 +495,8 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       protected com.google.protobuf.MapField internalGetMutableMapField(
           int number) {
         switch (number) {
-          case 2:
-            return internalGetMutablePOBHLFCOGEE();
+          case 6:
+            return internalGetMutableSearchTimeMap();
           default:
             throw new RuntimeException(
                 "Invalid map field number: " + number);
@@ -521,10 +528,10 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        internalGetMutablePOBHLFCOGEE().clear();
+        internalGetMutableSearchTimeMap().clear();
         mpPlayId_ = 0;
 
-        iAGHDGAHKHL_ = 0;
+        regionSearchId_ = 0;
 
         return this;
       }
@@ -553,10 +560,10 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       public emu.grasscutter.net.proto.WaterSpiritActivityDetailInfoOuterClass.WaterSpiritActivityDetailInfo buildPartial() {
         emu.grasscutter.net.proto.WaterSpiritActivityDetailInfoOuterClass.WaterSpiritActivityDetailInfo result = new emu.grasscutter.net.proto.WaterSpiritActivityDetailInfoOuterClass.WaterSpiritActivityDetailInfo(this);
         int from_bitField0_ = bitField0_;
-        result.pOBHLFCOGEE_ = internalGetPOBHLFCOGEE();
-        result.pOBHLFCOGEE_.makeImmutable();
+        result.searchTimeMap_ = internalGetSearchTimeMap();
+        result.searchTimeMap_.makeImmutable();
         result.mpPlayId_ = mpPlayId_;
-        result.iAGHDGAHKHL_ = iAGHDGAHKHL_;
+        result.regionSearchId_ = regionSearchId_;
         onBuilt();
         return result;
       }
@@ -605,13 +612,13 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.WaterSpiritActivityDetailInfoOuterClass.WaterSpiritActivityDetailInfo other) {
         if (other == emu.grasscutter.net.proto.WaterSpiritActivityDetailInfoOuterClass.WaterSpiritActivityDetailInfo.getDefaultInstance()) return this;
-        internalGetMutablePOBHLFCOGEE().mergeFrom(
-            other.internalGetPOBHLFCOGEE());
+        internalGetMutableSearchTimeMap().mergeFrom(
+            other.internalGetSearchTimeMap());
         if (other.getMpPlayId() != 0) {
           setMpPlayId(other.getMpPlayId());
         }
-        if (other.getIAGHDGAHKHL() != 0) {
-          setIAGHDGAHKHL(other.getIAGHDGAHKHL());
+        if (other.getRegionSearchId() != 0) {
+          setRegionSearchId(other.getRegionSearchId());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -644,99 +651,99 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       private int bitField0_;
 
       private com.google.protobuf.MapField<
-          java.lang.Integer, java.lang.Integer> pOBHLFCOGEE_;
+          java.lang.Integer, java.lang.Integer> searchTimeMap_;
       private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-      internalGetPOBHLFCOGEE() {
-        if (pOBHLFCOGEE_ == null) {
+      internalGetSearchTimeMap() {
+        if (searchTimeMap_ == null) {
           return com.google.protobuf.MapField.emptyMapField(
-              POBHLFCOGEEDefaultEntryHolder.defaultEntry);
+              SearchTimeMapDefaultEntryHolder.defaultEntry);
         }
-        return pOBHLFCOGEE_;
+        return searchTimeMap_;
       }
       private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-      internalGetMutablePOBHLFCOGEE() {
+      internalGetMutableSearchTimeMap() {
         onChanged();;
-        if (pOBHLFCOGEE_ == null) {
-          pOBHLFCOGEE_ = com.google.protobuf.MapField.newMapField(
-              POBHLFCOGEEDefaultEntryHolder.defaultEntry);
+        if (searchTimeMap_ == null) {
+          searchTimeMap_ = com.google.protobuf.MapField.newMapField(
+              SearchTimeMapDefaultEntryHolder.defaultEntry);
         }
-        if (!pOBHLFCOGEE_.isMutable()) {
-          pOBHLFCOGEE_ = pOBHLFCOGEE_.copy();
+        if (!searchTimeMap_.isMutable()) {
+          searchTimeMap_ = searchTimeMap_.copy();
         }
-        return pOBHLFCOGEE_;
+        return searchTimeMap_;
       }
 
-      public int getPOBHLFCOGEECount() {
-        return internalGetPOBHLFCOGEE().getMap().size();
+      public int getSearchTimeMapCount() {
+        return internalGetSearchTimeMap().getMap().size();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; POBHLFCOGEE = 2;</code>
+       * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
        */
 
       @java.lang.Override
-      public boolean containsPOBHLFCOGEE(
+      public boolean containsSearchTimeMap(
           int key) {
-
-        return internalGetPOBHLFCOGEE().getMap().containsKey(key);
+        
+        return internalGetSearchTimeMap().getMap().containsKey(key);
       }
       /**
-       * Use {@link #getPOBHLFCOGEEMap()} instead.
+       * Use {@link #getSearchTimeMapMap()} instead.
        */
       @java.lang.Override
       @java.lang.Deprecated
-      public java.util.Map<java.lang.Integer, java.lang.Integer> getPOBHLFCOGEE() {
-        return getPOBHLFCOGEEMap();
+      public java.util.Map<java.lang.Integer, java.lang.Integer> getSearchTimeMap() {
+        return getSearchTimeMapMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; POBHLFCOGEE = 2;</code>
+       * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
        */
       @java.lang.Override
 
-      public java.util.Map<java.lang.Integer, java.lang.Integer> getPOBHLFCOGEEMap() {
-        return internalGetPOBHLFCOGEE().getMap();
+      public java.util.Map<java.lang.Integer, java.lang.Integer> getSearchTimeMapMap() {
+        return internalGetSearchTimeMap().getMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; POBHLFCOGEE = 2;</code>
+       * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
        */
       @java.lang.Override
 
-      public int getPOBHLFCOGEEOrDefault(
+      public int getSearchTimeMapOrDefault(
           int key,
           int defaultValue) {
-
+        
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
-            internalGetPOBHLFCOGEE().getMap();
+            internalGetSearchTimeMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; POBHLFCOGEE = 2;</code>
+       * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
        */
       @java.lang.Override
 
-      public int getPOBHLFCOGEEOrThrow(
+      public int getSearchTimeMapOrThrow(
           int key) {
-
+        
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
-            internalGetPOBHLFCOGEE().getMap();
+            internalGetSearchTimeMap().getMap();
         if (!map.containsKey(key)) {
           throw new java.lang.IllegalArgumentException();
         }
         return map.get(key);
       }
 
-      public Builder clearPOBHLFCOGEE() {
-        internalGetMutablePOBHLFCOGEE().getMutableMap()
+      public Builder clearSearchTimeMap() {
+        internalGetMutableSearchTimeMap().getMutableMap()
             .clear();
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; POBHLFCOGEE = 2;</code>
+       * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
        */
 
-      public Builder removePOBHLFCOGEE(
+      public Builder removeSearchTimeMap(
           int key) {
-
-        internalGetMutablePOBHLFCOGEE().getMutableMap()
+        
+        internalGetMutableSearchTimeMap().getMutableMap()
             .remove(key);
         return this;
       }
@@ -745,79 +752,90 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
        */
       @java.lang.Deprecated
       public java.util.Map<java.lang.Integer, java.lang.Integer>
-      getMutablePOBHLFCOGEE() {
-        return internalGetMutablePOBHLFCOGEE().getMutableMap();
+      getMutableSearchTimeMap() {
+        return internalGetMutableSearchTimeMap().getMutableMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; POBHLFCOGEE = 2;</code>
+       * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
        */
-      public Builder putPOBHLFCOGEE(
+      public Builder putSearchTimeMap(
           int key,
           int value) {
-
-        internalGetMutablePOBHLFCOGEE().getMutableMap()
+        
+        
+        internalGetMutableSearchTimeMap().getMutableMap()
             .put(key, value);
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; POBHLFCOGEE = 2;</code>
+       * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
        */
 
-      public Builder putAllPOBHLFCOGEE(
+      public Builder putAllSearchTimeMap(
           java.util.Map<java.lang.Integer, java.lang.Integer> values) {
-        internalGetMutablePOBHLFCOGEE().getMutableMap()
+        internalGetMutableSearchTimeMap().getMutableMap()
             .putAll(values);
         return this;
       }
 
       private int mpPlayId_ ;
-
+      /**
+       * <code>uint32 mp_play_id = 13;</code>
+       * @return The mpPlayId.
+       */
       @java.lang.Override
       public int getMpPlayId() {
         return mpPlayId_;
       }
-
+      /**
+       * <code>uint32 mp_play_id = 13;</code>
+       * @param value The mpPlayId to set.
+       * @return This builder for chaining.
+       */
       public Builder setMpPlayId(int value) {
-
+        
         mpPlayId_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint32 mp_play_id = 13;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearMpPlayId() {
-
+        
         mpPlayId_ = 0;
         onChanged();
         return this;
       }
 
-      private int iAGHDGAHKHL_ ;
+      private int regionSearchId_ ;
       /**
-       * <code>uint32 IAGHDGAHKHL = 12;</code>
-       * @return The iAGHDGAHKHL.
+       * <code>uint32 region_search_id = 15;</code>
+       * @return The regionSearchId.
        */
       @java.lang.Override
-      public int getIAGHDGAHKHL() {
-        return iAGHDGAHKHL_;
+      public int getRegionSearchId() {
+        return regionSearchId_;
       }
       /**
-       * <code>uint32 IAGHDGAHKHL = 12;</code>
-       * @param value The iAGHDGAHKHL to set.
+       * <code>uint32 region_search_id = 15;</code>
+       * @param value The regionSearchId to set.
        * @return This builder for chaining.
        */
-      public Builder setIAGHDGAHKHL(int value) {
-
-        iAGHDGAHKHL_ = value;
+      public Builder setRegionSearchId(int value) {
+        
+        regionSearchId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 IAGHDGAHKHL = 12;</code>
+       * <code>uint32 region_search_id = 15;</code>
        * @return This builder for chaining.
        */
-      public Builder clearIAGHDGAHKHL() {
-
-        iAGHDGAHKHL_ = 0;
+      public Builder clearRegionSearchId() {
+        
+        regionSearchId_ = 0;
         onChanged();
         return this;
       }
@@ -832,6 +850,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:WaterSpiritActivityDetailInfo)
     }
@@ -875,14 +894,14 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WaterSpiritActivityDetailInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WaterSpiritActivityDetailInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_WaterSpiritActivityDetailInfo_POBHLFCOGEEEntry_descriptor;
-  private static final
+    internal_static_WaterSpiritActivityDetailInfo_SearchTimeMapEntry_descriptor;
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_WaterSpiritActivityDetailInfo_POBHLFCOGEEEntry_fieldAccessorTable;
+      internal_static_WaterSpiritActivityDetailInfo_SearchTimeMapEntry_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -892,13 +911,15 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n#WaterSpiritActivityDetailInfo.proto\"\302\001" +
-      "\n\035WaterSpiritActivityDetailInfo\022D\n\013POBHL" +
-      "FCOGEE\030\002 \003(\0132/.WaterSpiritActivityDetail" +
-      "Info.POBHLFCOGEEEntry\022\022\n\nmp_play_id\030\007 \001(" +
-      "\r\022\023\n\013IAGHDGAHKHL\030\014 \001(\r\0322\n\020POBHLFCOGEEEnt" +
-      "ry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n#WaterSpiritActivityDetailInfo.proto\"\317\001" +
+      "\n\035WaterSpiritActivityDetailInfo\022J\n\017searc" +
+      "h_time_map\030\006 \003(\01321.WaterSpiritActivityDe" +
+      "tailInfo.SearchTimeMapEntry\022\022\n\nmp_play_i" +
+      "d\030\r \001(\r\022\030\n\020region_search_id\030\017 \001(\r\0324\n\022Sea" +
+      "rchTimeMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 " +
+      "\001(\r:\0028\001BD\n\031emu.grasscutter.net.protoB\'Wa" +
+      "terSpiritActivityDetailInfoOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -909,12 +930,12 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
     internal_static_WaterSpiritActivityDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_WaterSpiritActivityDetailInfo_descriptor,
-        new java.lang.String[] { "POBHLFCOGEE", "MpPlayId", "IAGHDGAHKHL", });
-    internal_static_WaterSpiritActivityDetailInfo_POBHLFCOGEEEntry_descriptor =
+        new java.lang.String[] { "SearchTimeMap", "MpPlayId", "RegionSearchId", });
+    internal_static_WaterSpiritActivityDetailInfo_SearchTimeMapEntry_descriptor =
       internal_static_WaterSpiritActivityDetailInfo_descriptor.getNestedTypes().get(0);
-    internal_static_WaterSpiritActivityDetailInfo_POBHLFCOGEEEntry_fieldAccessorTable = new
+    internal_static_WaterSpiritActivityDetailInfo_SearchTimeMapEntry_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_WaterSpiritActivityDetailInfo_POBHLFCOGEEEntry_descriptor,
+        internal_static_WaterSpiritActivityDetailInfo_SearchTimeMapEntry_descriptor,
         new java.lang.String[] { "Key", "Value", });
   }
 

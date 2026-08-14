@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "LBBDOIMGFNIOuterClass";
+
+message LBBDOIMGFNI {
+	uint32 cur_value = 6;
+	uint32 max_value = 7;
+}

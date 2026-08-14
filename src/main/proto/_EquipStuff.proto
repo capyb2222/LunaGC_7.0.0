@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_EquipStuffOuterClass";
+
+import "FPCEOEFHGOB.proto";
+
+message _EquipStuff {
+	bool MHDOFDCCPLH = 1;
+	bool BEKPAJHIHOJ = 2;
+	repeated FPCEOEFHGOB IDAKLGDICPC = 3;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SumoActivityDetailInfoOuterClass";
+
+import "SumoStageData.proto";
+
+message SumoActivityDetailInfo {
+	map<uint32, SumoStageData> sumo_stage_map = 4;
+	uint32 last_stage_id = 6;
+	uint32 difficulty_id = 15;
+}

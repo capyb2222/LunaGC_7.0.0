@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FKCJKMGFGMAOuterClass";
+
+import "OMIHJKKBJGO.proto";
+
+message FKCJKMGFGMA {
+	repeated OMIHJKKBJGO FAMFKPMEOCC = 1;
+}

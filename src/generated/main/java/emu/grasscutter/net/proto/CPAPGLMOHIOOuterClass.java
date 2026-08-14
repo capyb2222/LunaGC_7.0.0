@@ -19,51 +19,51 @@ public final class CPAPGLMOHIOOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 KPPLJGIJNEJ = 10;</code>
-     * @return A list containing the kPPLJGIJNEJ.
+     * <code>bool is_finish = 3;</code>
+     * @return The isFinish.
      */
-    java.util.List<java.lang.Integer> getKPPLJGIJNEJList();
+    boolean getIsFinish();
+
     /**
-     * <code>repeated uint32 KPPLJGIJNEJ = 10;</code>
-     * @return The count of kPPLJGIJNEJ.
+     * <code>repeated uint32 CIIOIKFAPHF = 4;</code>
+     * @return A list containing the cIIOIKFAPHF.
      */
-    int getKPPLJGIJNEJCount();
+    java.util.List<java.lang.Integer> getCIIOIKFAPHFList();
     /**
-     * <code>repeated uint32 KPPLJGIJNEJ = 10;</code>
+     * <code>repeated uint32 CIIOIKFAPHF = 4;</code>
+     * @return The count of cIIOIKFAPHF.
+     */
+    int getCIIOIKFAPHFCount();
+    /**
+     * <code>repeated uint32 CIIOIKFAPHF = 4;</code>
      * @param index The index of the element to return.
-     * @return The kPPLJGIJNEJ at the given index.
+     * @return The cIIOIKFAPHF at the given index.
      */
-    int getKPPLJGIJNEJ(int index);
+    int getCIIOIKFAPHF(int index);
 
     /**
-     * <code>uint32 IOEIIFAHCFC = 6;</code>
-     * @return The iOEIIFAHCFC.
+     * <code>uint32 IDAGPFELMMH = 9;</code>
+     * @return The iDAGPFELMMH.
      */
-    int getIOEIIFAHCFC();
+    int getIDAGPFELMMH();
 
     /**
-     * <code>uint32 OMEBOHLACPH = 14;</code>
-     * @return The oMEBOHLACPH.
+     * <code>uint32 best_score = 10;</code>
+     * @return The bestScore.
      */
-    int getOMEBOHLACPH();
+    int getBestScore();
 
     /**
-     * <code>uint32 level_id = 9;</code>
-     * @return The levelId.
-     */
-    int getLevelId();
-
-    /**
-     * <code>bool is_open = 15;</code>
+     * <code>bool is_open = 13;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
 
     /**
-     * <code>bool is_finish = 11;</code>
-     * @return The isFinish.
+     * <code>uint32 level_id = 14;</code>
+     * @return The levelId.
      */
-    boolean getIsFinish();
+    int getLevelId();
   }
   /**
    * Protobuf type {@code CPAPGLMOHIO}
@@ -78,7 +78,7 @@ public final class CPAPGLMOHIOOuterClass {
       super(builder);
     }
     private CPAPGLMOHIO() {
-      kPPLJGIJNEJ_ = emptyIntList();
+      cIIOIKFAPHF_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -112,50 +112,50 @@ public final class CPAPGLMOHIOOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
-
-              iOEIIFAHCFC_ = input.readUInt32();
-              break;
-            }
-            case 72: {
-
-              levelId_ = input.readUInt32();
-              break;
-            }
-            case 80: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                kPPLJGIJNEJ_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              kPPLJGIJNEJ_.addInt(input.readUInt32());
-              break;
-            }
-            case 82: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                kPPLJGIJNEJ_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                kPPLJGIJNEJ_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
-            case 88: {
+            case 24: {
 
               isFinish_ = input.readBool();
               break;
             }
-            case 112: {
-
-              oMEBOHLACPH_ = input.readUInt32();
+            case 32: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                cIIOIKFAPHF_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              cIIOIKFAPHF_.addInt(input.readUInt32());
               break;
             }
-            case 120: {
+            case 34: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
+                cIIOIKFAPHF_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                cIIOIKFAPHF_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 72: {
+
+              iDAGPFELMMH_ = input.readUInt32();
+              break;
+            }
+            case 80: {
+
+              bestScore_ = input.readUInt32();
+              break;
+            }
+            case 104: {
 
               isOpen_ = input.readBool();
+              break;
+            }
+            case 112: {
+
+              levelId_ = input.readUInt32();
               break;
             }
             default: {
@@ -174,7 +174,7 @@ public final class CPAPGLMOHIOOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          kPPLJGIJNEJ_.makeImmutable(); // C
+          cIIOIKFAPHF_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -193,71 +193,71 @@ public final class CPAPGLMOHIOOuterClass {
               emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO.class, emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO.Builder.class);
     }
 
-    public static final int KPPLJGIJNEJ_FIELD_NUMBER = 10;
-    private com.google.protobuf.Internal.IntList kPPLJGIJNEJ_;
+    public static final int IS_FINISH_FIELD_NUMBER = 3;
+    private boolean isFinish_;
     /**
-     * <code>repeated uint32 KPPLJGIJNEJ = 10;</code>
-     * @return A list containing the kPPLJGIJNEJ.
+     * <code>bool is_finish = 3;</code>
+     * @return The isFinish.
+     */
+    @java.lang.Override
+    public boolean getIsFinish() {
+      return isFinish_;
+    }
+
+    public static final int CIIOIKFAPHF_FIELD_NUMBER = 4;
+    private com.google.protobuf.Internal.IntList cIIOIKFAPHF_;
+    /**
+     * <code>repeated uint32 CIIOIKFAPHF = 4;</code>
+     * @return A list containing the cIIOIKFAPHF.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getKPPLJGIJNEJList() {
-      return kPPLJGIJNEJ_;
+        getCIIOIKFAPHFList() {
+      return cIIOIKFAPHF_;
     }
     /**
-     * <code>repeated uint32 KPPLJGIJNEJ = 10;</code>
-     * @return The count of kPPLJGIJNEJ.
+     * <code>repeated uint32 CIIOIKFAPHF = 4;</code>
+     * @return The count of cIIOIKFAPHF.
      */
-    public int getKPPLJGIJNEJCount() {
-      return kPPLJGIJNEJ_.size();
+    public int getCIIOIKFAPHFCount() {
+      return cIIOIKFAPHF_.size();
     }
     /**
-     * <code>repeated uint32 KPPLJGIJNEJ = 10;</code>
+     * <code>repeated uint32 CIIOIKFAPHF = 4;</code>
      * @param index The index of the element to return.
-     * @return The kPPLJGIJNEJ at the given index.
+     * @return The cIIOIKFAPHF at the given index.
      */
-    public int getKPPLJGIJNEJ(int index) {
-      return kPPLJGIJNEJ_.getInt(index);
+    public int getCIIOIKFAPHF(int index) {
+      return cIIOIKFAPHF_.getInt(index);
     }
-    private int kPPLJGIJNEJMemoizedSerializedSize = -1;
+    private int cIIOIKFAPHFMemoizedSerializedSize = -1;
 
-    public static final int IOEIIFAHCFC_FIELD_NUMBER = 6;
-    private int iOEIIFAHCFC_;
+    public static final int IDAGPFELMMH_FIELD_NUMBER = 9;
+    private int iDAGPFELMMH_;
     /**
-     * <code>uint32 IOEIIFAHCFC = 6;</code>
-     * @return The iOEIIFAHCFC.
+     * <code>uint32 IDAGPFELMMH = 9;</code>
+     * @return The iDAGPFELMMH.
      */
     @java.lang.Override
-    public int getIOEIIFAHCFC() {
-      return iOEIIFAHCFC_;
+    public int getIDAGPFELMMH() {
+      return iDAGPFELMMH_;
     }
 
-    public static final int OMEBOHLACPH_FIELD_NUMBER = 14;
-    private int oMEBOHLACPH_;
+    public static final int BEST_SCORE_FIELD_NUMBER = 10;
+    private int bestScore_;
     /**
-     * <code>uint32 OMEBOHLACPH = 14;</code>
-     * @return The oMEBOHLACPH.
+     * <code>uint32 best_score = 10;</code>
+     * @return The bestScore.
      */
     @java.lang.Override
-    public int getOMEBOHLACPH() {
-      return oMEBOHLACPH_;
+    public int getBestScore() {
+      return bestScore_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 9;
-    private int levelId_;
-    /**
-     * <code>uint32 level_id = 9;</code>
-     * @return The levelId.
-     */
-    @java.lang.Override
-    public int getLevelId() {
-      return levelId_;
-    }
-
-    public static final int IS_OPEN_FIELD_NUMBER = 15;
+    public static final int IS_OPEN_FIELD_NUMBER = 13;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 15;</code>
+     * <code>bool is_open = 13;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -265,15 +265,15 @@ public final class CPAPGLMOHIOOuterClass {
       return isOpen_;
     }
 
-    public static final int IS_FINISH_FIELD_NUMBER = 11;
-    private boolean isFinish_;
+    public static final int LEVEL_ID_FIELD_NUMBER = 14;
+    private int levelId_;
     /**
-     * <code>bool is_finish = 11;</code>
-     * @return The isFinish.
+     * <code>uint32 level_id = 14;</code>
+     * @return The levelId.
      */
     @java.lang.Override
-    public boolean getIsFinish() {
-      return isFinish_;
+    public int getLevelId() {
+      return levelId_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -291,27 +291,27 @@ public final class CPAPGLMOHIOOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (iOEIIFAHCFC_ != 0) {
-        output.writeUInt32(6, iOEIIFAHCFC_);
-      }
-      if (levelId_ != 0) {
-        output.writeUInt32(9, levelId_);
-      }
-      if (getKPPLJGIJNEJList().size() > 0) {
-        output.writeUInt32NoTag(82);
-        output.writeUInt32NoTag(kPPLJGIJNEJMemoizedSerializedSize);
-      }
-      for (int i = 0; i < kPPLJGIJNEJ_.size(); i++) {
-        output.writeUInt32NoTag(kPPLJGIJNEJ_.getInt(i));
-      }
       if (isFinish_ != false) {
-        output.writeBool(11, isFinish_);
+        output.writeBool(3, isFinish_);
       }
-      if (oMEBOHLACPH_ != 0) {
-        output.writeUInt32(14, oMEBOHLACPH_);
+      if (getCIIOIKFAPHFList().size() > 0) {
+        output.writeUInt32NoTag(34);
+        output.writeUInt32NoTag(cIIOIKFAPHFMemoizedSerializedSize);
+      }
+      for (int i = 0; i < cIIOIKFAPHF_.size(); i++) {
+        output.writeUInt32NoTag(cIIOIKFAPHF_.getInt(i));
+      }
+      if (iDAGPFELMMH_ != 0) {
+        output.writeUInt32(9, iDAGPFELMMH_);
+      }
+      if (bestScore_ != 0) {
+        output.writeUInt32(10, bestScore_);
       }
       if (isOpen_ != false) {
-        output.writeBool(15, isOpen_);
+        output.writeBool(13, isOpen_);
+      }
+      if (levelId_ != 0) {
+        output.writeUInt32(14, levelId_);
       }
       unknownFields.writeTo(output);
     }
@@ -322,39 +322,39 @@ public final class CPAPGLMOHIOOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (iOEIIFAHCFC_ != 0) {
+      if (isFinish_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, iOEIIFAHCFC_);
-      }
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, levelId_);
+          .computeBoolSize(3, isFinish_);
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < kPPLJGIJNEJ_.size(); i++) {
+        for (int i = 0; i < cIIOIKFAPHF_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(kPPLJGIJNEJ_.getInt(i));
+            .computeUInt32SizeNoTag(cIIOIKFAPHF_.getInt(i));
         }
         size += dataSize;
-        if (!getKPPLJGIJNEJList().isEmpty()) {
+        if (!getCIIOIKFAPHFList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        kPPLJGIJNEJMemoizedSerializedSize = dataSize;
+        cIIOIKFAPHFMemoizedSerializedSize = dataSize;
       }
-      if (isFinish_ != false) {
+      if (iDAGPFELMMH_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, isFinish_);
+          .computeUInt32Size(9, iDAGPFELMMH_);
       }
-      if (oMEBOHLACPH_ != 0) {
+      if (bestScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, oMEBOHLACPH_);
+          .computeUInt32Size(10, bestScore_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, isOpen_);
+          .computeBoolSize(13, isOpen_);
+      }
+      if (levelId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(14, levelId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -371,18 +371,18 @@ public final class CPAPGLMOHIOOuterClass {
       }
       emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO other = (emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO) obj;
 
-      if (!getKPPLJGIJNEJList()
-          .equals(other.getKPPLJGIJNEJList())) return false;
-      if (getIOEIIFAHCFC()
-          != other.getIOEIIFAHCFC()) return false;
-      if (getOMEBOHLACPH()
-          != other.getOMEBOHLACPH()) return false;
-      if (getLevelId()
-          != other.getLevelId()) return false;
-      if (getIsOpen()
-          != other.getIsOpen()) return false;
       if (getIsFinish()
           != other.getIsFinish()) return false;
+      if (!getCIIOIKFAPHFList()
+          .equals(other.getCIIOIKFAPHFList())) return false;
+      if (getIDAGPFELMMH()
+          != other.getIDAGPFELMMH()) return false;
+      if (getBestScore()
+          != other.getBestScore()) return false;
+      if (getIsOpen()
+          != other.getIsOpen()) return false;
+      if (getLevelId()
+          != other.getLevelId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -394,22 +394,22 @@ public final class CPAPGLMOHIOOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getKPPLJGIJNEJCount() > 0) {
-        hash = (37 * hash) + KPPLJGIJNEJ_FIELD_NUMBER;
-        hash = (53 * hash) + getKPPLJGIJNEJList().hashCode();
-      }
-      hash = (37 * hash) + IOEIIFAHCFC_FIELD_NUMBER;
-      hash = (53 * hash) + getIOEIIFAHCFC();
-      hash = (37 * hash) + OMEBOHLACPH_FIELD_NUMBER;
-      hash = (53 * hash) + getOMEBOHLACPH();
-      hash = (37 * hash) + LEVEL_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getLevelId();
-      hash = (37 * hash) + IS_OPEN_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIsOpen());
       hash = (37 * hash) + IS_FINISH_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsFinish());
+      if (getCIIOIKFAPHFCount() > 0) {
+        hash = (37 * hash) + CIIOIKFAPHF_FIELD_NUMBER;
+        hash = (53 * hash) + getCIIOIKFAPHFList().hashCode();
+      }
+      hash = (37 * hash) + IDAGPFELMMH_FIELD_NUMBER;
+      hash = (53 * hash) + getIDAGPFELMMH();
+      hash = (37 * hash) + BEST_SCORE_FIELD_NUMBER;
+      hash = (53 * hash) + getBestScore();
+      hash = (37 * hash) + IS_OPEN_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIsOpen());
+      hash = (37 * hash) + LEVEL_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getLevelId();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -543,17 +543,17 @@ public final class CPAPGLMOHIOOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        kPPLJGIJNEJ_ = emptyIntList();
+        isFinish_ = false;
+
+        cIIOIKFAPHF_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        iOEIIFAHCFC_ = 0;
+        iDAGPFELMMH_ = 0;
 
-        oMEBOHLACPH_ = 0;
-
-        levelId_ = 0;
+        bestScore_ = 0;
 
         isOpen_ = false;
 
-        isFinish_ = false;
+        levelId_ = 0;
 
         return this;
       }
@@ -582,16 +582,16 @@ public final class CPAPGLMOHIOOuterClass {
       public emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO buildPartial() {
         emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO result = new emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO(this);
         int from_bitField0_ = bitField0_;
+        result.isFinish_ = isFinish_;
         if (((bitField0_ & 0x00000001) != 0)) {
-          kPPLJGIJNEJ_.makeImmutable();
+          cIIOIKFAPHF_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.kPPLJGIJNEJ_ = kPPLJGIJNEJ_;
-        result.iOEIIFAHCFC_ = iOEIIFAHCFC_;
-        result.oMEBOHLACPH_ = oMEBOHLACPH_;
-        result.levelId_ = levelId_;
+        result.cIIOIKFAPHF_ = cIIOIKFAPHF_;
+        result.iDAGPFELMMH_ = iDAGPFELMMH_;
+        result.bestScore_ = bestScore_;
         result.isOpen_ = isOpen_;
-        result.isFinish_ = isFinish_;
+        result.levelId_ = levelId_;
         onBuilt();
         return result;
       }
@@ -640,30 +640,30 @@ public final class CPAPGLMOHIOOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO other) {
         if (other == emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO.getDefaultInstance()) return this;
-        if (!other.kPPLJGIJNEJ_.isEmpty()) {
-          if (kPPLJGIJNEJ_.isEmpty()) {
-            kPPLJGIJNEJ_ = other.kPPLJGIJNEJ_;
+        if (other.getIsFinish() != false) {
+          setIsFinish(other.getIsFinish());
+        }
+        if (!other.cIIOIKFAPHF_.isEmpty()) {
+          if (cIIOIKFAPHF_.isEmpty()) {
+            cIIOIKFAPHF_ = other.cIIOIKFAPHF_;
             bitField0_ = (bitField0_ & ~0x00000001);
           } else {
-            ensureKPPLJGIJNEJIsMutable();
-            kPPLJGIJNEJ_.addAll(other.kPPLJGIJNEJ_);
+            ensureCIIOIKFAPHFIsMutable();
+            cIIOIKFAPHF_.addAll(other.cIIOIKFAPHF_);
           }
           onChanged();
         }
-        if (other.getIOEIIFAHCFC() != 0) {
-          setIOEIIFAHCFC(other.getIOEIIFAHCFC());
+        if (other.getIDAGPFELMMH() != 0) {
+          setIDAGPFELMMH(other.getIDAGPFELMMH());
         }
-        if (other.getOMEBOHLACPH() != 0) {
-          setOMEBOHLACPH(other.getOMEBOHLACPH());
-        }
-        if (other.getLevelId() != 0) {
-          setLevelId(other.getLevelId());
+        if (other.getBestScore() != 0) {
+          setBestScore(other.getBestScore());
         }
         if (other.getIsOpen() != false) {
           setIsOpen(other.getIsOpen());
         }
-        if (other.getIsFinish() != false) {
-          setIsFinish(other.getIsFinish());
+        if (other.getLevelId() != 0) {
+          setLevelId(other.getLevelId());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -695,212 +695,9 @@ public final class CPAPGLMOHIOOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.Internal.IntList kPPLJGIJNEJ_ = emptyIntList();
-      private void ensureKPPLJGIJNEJIsMutable() {
-        if (!((bitField0_ & 0x00000001) != 0)) {
-          kPPLJGIJNEJ_ = mutableCopy(kPPLJGIJNEJ_);
-          bitField0_ |= 0x00000001;
-         }
-      }
-      /**
-       * <code>repeated uint32 KPPLJGIJNEJ = 10;</code>
-       * @return A list containing the kPPLJGIJNEJ.
-       */
-      public java.util.List<java.lang.Integer>
-          getKPPLJGIJNEJList() {
-        return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(kPPLJGIJNEJ_) : kPPLJGIJNEJ_;
-      }
-      /**
-       * <code>repeated uint32 KPPLJGIJNEJ = 10;</code>
-       * @return The count of kPPLJGIJNEJ.
-       */
-      public int getKPPLJGIJNEJCount() {
-        return kPPLJGIJNEJ_.size();
-      }
-      /**
-       * <code>repeated uint32 KPPLJGIJNEJ = 10;</code>
-       * @param index The index of the element to return.
-       * @return The kPPLJGIJNEJ at the given index.
-       */
-      public int getKPPLJGIJNEJ(int index) {
-        return kPPLJGIJNEJ_.getInt(index);
-      }
-      /**
-       * <code>repeated uint32 KPPLJGIJNEJ = 10;</code>
-       * @param index The index to set the value at.
-       * @param value The kPPLJGIJNEJ to set.
-       * @return This builder for chaining.
-       */
-      public Builder setKPPLJGIJNEJ(
-          int index, int value) {
-        ensureKPPLJGIJNEJIsMutable();
-        kPPLJGIJNEJ_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 KPPLJGIJNEJ = 10;</code>
-       * @param value The kPPLJGIJNEJ to add.
-       * @return This builder for chaining.
-       */
-      public Builder addKPPLJGIJNEJ(int value) {
-        ensureKPPLJGIJNEJIsMutable();
-        kPPLJGIJNEJ_.addInt(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 KPPLJGIJNEJ = 10;</code>
-       * @param values The kPPLJGIJNEJ to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllKPPLJGIJNEJ(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureKPPLJGIJNEJIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, kPPLJGIJNEJ_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 KPPLJGIJNEJ = 10;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearKPPLJGIJNEJ() {
-        kPPLJGIJNEJ_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
-        onChanged();
-        return this;
-      }
-
-      private int iOEIIFAHCFC_ ;
-      /**
-       * <code>uint32 IOEIIFAHCFC = 6;</code>
-       * @return The iOEIIFAHCFC.
-       */
-      @java.lang.Override
-      public int getIOEIIFAHCFC() {
-        return iOEIIFAHCFC_;
-      }
-      /**
-       * <code>uint32 IOEIIFAHCFC = 6;</code>
-       * @param value The iOEIIFAHCFC to set.
-       * @return This builder for chaining.
-       */
-      public Builder setIOEIIFAHCFC(int value) {
-        
-        iOEIIFAHCFC_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 IOEIIFAHCFC = 6;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearIOEIIFAHCFC() {
-        
-        iOEIIFAHCFC_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int oMEBOHLACPH_ ;
-      /**
-       * <code>uint32 OMEBOHLACPH = 14;</code>
-       * @return The oMEBOHLACPH.
-       */
-      @java.lang.Override
-      public int getOMEBOHLACPH() {
-        return oMEBOHLACPH_;
-      }
-      /**
-       * <code>uint32 OMEBOHLACPH = 14;</code>
-       * @param value The oMEBOHLACPH to set.
-       * @return This builder for chaining.
-       */
-      public Builder setOMEBOHLACPH(int value) {
-        
-        oMEBOHLACPH_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 OMEBOHLACPH = 14;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearOMEBOHLACPH() {
-        
-        oMEBOHLACPH_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int levelId_ ;
-      /**
-       * <code>uint32 level_id = 9;</code>
-       * @return The levelId.
-       */
-      @java.lang.Override
-      public int getLevelId() {
-        return levelId_;
-      }
-      /**
-       * <code>uint32 level_id = 9;</code>
-       * @param value The levelId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setLevelId(int value) {
-        
-        levelId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 level_id = 9;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearLevelId() {
-        
-        levelId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private boolean isOpen_ ;
-      /**
-       * <code>bool is_open = 15;</code>
-       * @return The isOpen.
-       */
-      @java.lang.Override
-      public boolean getIsOpen() {
-        return isOpen_;
-      }
-      /**
-       * <code>bool is_open = 15;</code>
-       * @param value The isOpen to set.
-       * @return This builder for chaining.
-       */
-      public Builder setIsOpen(boolean value) {
-        
-        isOpen_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool is_open = 15;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearIsOpen() {
-        
-        isOpen_ = false;
-        onChanged();
-        return this;
-      }
-
       private boolean isFinish_ ;
       /**
-       * <code>bool is_finish = 11;</code>
+       * <code>bool is_finish = 3;</code>
        * @return The isFinish.
        */
       @java.lang.Override
@@ -908,7 +705,7 @@ public final class CPAPGLMOHIOOuterClass {
         return isFinish_;
       }
       /**
-       * <code>bool is_finish = 11;</code>
+       * <code>bool is_finish = 3;</code>
        * @param value The isFinish to set.
        * @return This builder for chaining.
        */
@@ -919,12 +716,215 @@ public final class CPAPGLMOHIOOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finish = 11;</code>
+       * <code>bool is_finish = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinish() {
         
         isFinish_ = false;
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.Internal.IntList cIIOIKFAPHF_ = emptyIntList();
+      private void ensureCIIOIKFAPHFIsMutable() {
+        if (!((bitField0_ & 0x00000001) != 0)) {
+          cIIOIKFAPHF_ = mutableCopy(cIIOIKFAPHF_);
+          bitField0_ |= 0x00000001;
+         }
+      }
+      /**
+       * <code>repeated uint32 CIIOIKFAPHF = 4;</code>
+       * @return A list containing the cIIOIKFAPHF.
+       */
+      public java.util.List<java.lang.Integer>
+          getCIIOIKFAPHFList() {
+        return ((bitField0_ & 0x00000001) != 0) ?
+                 java.util.Collections.unmodifiableList(cIIOIKFAPHF_) : cIIOIKFAPHF_;
+      }
+      /**
+       * <code>repeated uint32 CIIOIKFAPHF = 4;</code>
+       * @return The count of cIIOIKFAPHF.
+       */
+      public int getCIIOIKFAPHFCount() {
+        return cIIOIKFAPHF_.size();
+      }
+      /**
+       * <code>repeated uint32 CIIOIKFAPHF = 4;</code>
+       * @param index The index of the element to return.
+       * @return The cIIOIKFAPHF at the given index.
+       */
+      public int getCIIOIKFAPHF(int index) {
+        return cIIOIKFAPHF_.getInt(index);
+      }
+      /**
+       * <code>repeated uint32 CIIOIKFAPHF = 4;</code>
+       * @param index The index to set the value at.
+       * @param value The cIIOIKFAPHF to set.
+       * @return This builder for chaining.
+       */
+      public Builder setCIIOIKFAPHF(
+          int index, int value) {
+        ensureCIIOIKFAPHFIsMutable();
+        cIIOIKFAPHF_.setInt(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 CIIOIKFAPHF = 4;</code>
+       * @param value The cIIOIKFAPHF to add.
+       * @return This builder for chaining.
+       */
+      public Builder addCIIOIKFAPHF(int value) {
+        ensureCIIOIKFAPHFIsMutable();
+        cIIOIKFAPHF_.addInt(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 CIIOIKFAPHF = 4;</code>
+       * @param values The cIIOIKFAPHF to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllCIIOIKFAPHF(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureCIIOIKFAPHFIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, cIIOIKFAPHF_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 CIIOIKFAPHF = 4;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearCIIOIKFAPHF() {
+        cIIOIKFAPHF_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
+        onChanged();
+        return this;
+      }
+
+      private int iDAGPFELMMH_ ;
+      /**
+       * <code>uint32 IDAGPFELMMH = 9;</code>
+       * @return The iDAGPFELMMH.
+       */
+      @java.lang.Override
+      public int getIDAGPFELMMH() {
+        return iDAGPFELMMH_;
+      }
+      /**
+       * <code>uint32 IDAGPFELMMH = 9;</code>
+       * @param value The iDAGPFELMMH to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIDAGPFELMMH(int value) {
+        
+        iDAGPFELMMH_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 IDAGPFELMMH = 9;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIDAGPFELMMH() {
+        
+        iDAGPFELMMH_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int bestScore_ ;
+      /**
+       * <code>uint32 best_score = 10;</code>
+       * @return The bestScore.
+       */
+      @java.lang.Override
+      public int getBestScore() {
+        return bestScore_;
+      }
+      /**
+       * <code>uint32 best_score = 10;</code>
+       * @param value The bestScore to set.
+       * @return This builder for chaining.
+       */
+      public Builder setBestScore(int value) {
+        
+        bestScore_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 best_score = 10;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearBestScore() {
+        
+        bestScore_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private boolean isOpen_ ;
+      /**
+       * <code>bool is_open = 13;</code>
+       * @return The isOpen.
+       */
+      @java.lang.Override
+      public boolean getIsOpen() {
+        return isOpen_;
+      }
+      /**
+       * <code>bool is_open = 13;</code>
+       * @param value The isOpen to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIsOpen(boolean value) {
+        
+        isOpen_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool is_open = 13;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIsOpen() {
+        
+        isOpen_ = false;
+        onChanged();
+        return this;
+      }
+
+      private int levelId_ ;
+      /**
+       * <code>uint32 level_id = 14;</code>
+       * @return The levelId.
+       */
+      @java.lang.Override
+      public int getLevelId() {
+        return levelId_;
+      }
+      /**
+       * <code>uint32 level_id = 14;</code>
+       * @param value The levelId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setLevelId(int value) {
+        
+        levelId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 level_id = 14;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearLevelId() {
+        
+        levelId_ = 0;
         onChanged();
         return this;
       }
@@ -995,11 +995,12 @@ public final class CPAPGLMOHIOOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021CPAPGLMOHIO.proto\"\202\001\n\013CPAPGLMOHIO\022\023\n\013K" +
-      "PPLJGIJNEJ\030\n \003(\r\022\023\n\013IOEIIFAHCFC\030\006 \001(\r\022\023\n" +
-      "\013OMEBOHLACPH\030\016 \001(\r\022\020\n\010level_id\030\t \001(\r\022\017\n\007" +
-      "is_open\030\017 \001(\010\022\021\n\tis_finish\030\013 \001(\010B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\n\021CPAPGLMOHIO.proto\"\201\001\n\013CPAPGLMOHIO\022\021\n\ti" +
+      "s_finish\030\003 \001(\010\022\023\n\013CIIOIKFAPHF\030\004 \003(\r\022\023\n\013I" +
+      "DAGPFELMMH\030\t \001(\r\022\022\n\nbest_score\030\n \001(\r\022\017\n\007" +
+      "is_open\030\r \001(\010\022\020\n\010level_id\030\016 \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025CPAPGLMOHIOOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1010,7 +1011,7 @@ public final class CPAPGLMOHIOOuterClass {
     internal_static_CPAPGLMOHIO_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_CPAPGLMOHIO_descriptor,
-        new java.lang.String[] { "KPPLJGIJNEJ", "IOEIIFAHCFC", "OMEBOHLACPH", "LevelId", "IsOpen", "IsFinish", });
+        new java.lang.String[] { "IsFinish", "CIIOIKFAPHF", "IDAGPFELMMH", "BestScore", "IsOpen", "LevelId", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

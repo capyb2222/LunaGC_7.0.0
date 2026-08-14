@@ -1,0 +1,47 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ChangeHpReasonOuterClass";
+
+enum ChangeHpReason {
+	ChangeHpReason_CHANGE_HP_NONE = 0;
+	ChangeHpReason_CHANGE_HP_SUB_AVATAR = 1;
+	ChangeHpReason_CHANGE_HP_SUB_MONSTER = 2;
+	ChangeHpReason_CHANGE_HP_SUB_GEAR = 3;
+	ChangeHpReason_CHANGE_HP_SUB_ENVIR = 4;
+	ChangeHpReason_CHANGE_HP_SUB_FALL = 5;
+	ChangeHpReason_CHANGE_HP_SUB_DRAWN = 6;
+	ChangeHpReason_CHANGE_HP_SUB_ABYSS = 7;
+	ChangeHpReason_CHANGE_HP_SUB_ABILITY = 8;
+	ChangeHpReason_CHANGE_HP_SUB_SUMMON = 9;
+	ChangeHpReason_CHANGE_HP_SUB_SCRIPT = 10;
+	ChangeHpReason_CHANGE_HP_SUB_GM = 11;
+	ChangeHpReason_CHANGE_HP_SUB_KILL_SELF = 12;
+	ChangeHpReason_CHANGE_HP_SUB_CLIMATE_COLD = 13;
+	ChangeHpReason_CHANGE_HP_SUB_STORM_LIGHTNING = 14;
+	ChangeHpReason_CHANGE_HP_SUB_KILL_SERVER_GADGET = 15;
+	ChangeHpReason_CHANGE_HP_SUB_REPLACE = 16;
+	ChangeHpReason_CHANGE_HP_SUB_PLAYER_LEAVE = 17;
+	ChangeHpReason_CHANGE_HP_ATTACK_BY_ENERGY = 18;
+	ChangeHpReason_CHANGE_HP_ATTACK_BY_RECYCLE = 19;
+	ChangeHpReason_CHANGE_HP_SUB_PLAYER_BACK = 20;
+	ChangeHpReason_CHANGE_HP_SUB_UGC = 21;
+	ChangeHpReason_CHANGE_HP_SUB_DIRTY_WATER_EROSION = 22;
+	ChangeHpReason_CHANGE_HP_SUB_DESTROY_SELF = 23;
+	ChangeHpReason_CHANGE_HP_SUB_LIQUID_PHLOGISTON = 24;
+	ChangeHpReason_CHANGE_HP_SUB_LEVEL_FORCE_DIE = 25;
+	CHANGE_HP_SUB_HEART_BLOOD_USED_OUT = 26;
+	CHANGE_HP_SUB_BEYOND_BL_UEPRINT = 27;
+	ChangeHpReason_CHANGE_HP_BY_LUA = 51;
+	ChangeHpReason_CHANGE_HP_ADD_ABILITY = 101;
+	ChangeHpReason_CHANGE_HP_ADD_ITEM = 102;
+	ChangeHpReason_CHANGE_HP_ADD_REVIVE = 103;
+	ChangeHpReason_CHANGE_HP_ADD_UPGRADE = 104;
+	ChangeHpReason_CHANGE_HP_ADD_STATUE = 105;
+	ChangeHpReason_CHANGE_HP_ADD_BACKGROUND = 106;
+	ChangeHpReason_CHANGE_HP_ADD_GM = 107;
+	ChangeHpReason_CHANGE_HP_ADD_TRIAL_AVATAR_ACTIVITY = 108;
+	ChangeHpReason_CHANGE_HP_ADD_ROUGUELIKE_SPRING = 109;
+	CHANGE_HP_ADD_EFFIGY_CHALLENGE_V5 = 110;
+	CHANGE_HP_ADD_BEYOND_BLUEPRINT = 111;
+}

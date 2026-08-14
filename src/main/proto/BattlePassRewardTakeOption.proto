@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "BattlePassRewardTakeOptionOuterClass";
+
+import "BattlePassRewardTag.proto";
+
+message BattlePassRewardTakeOption {
+	uint32 option_idx = 4;
+	BattlePassRewardTag tag = 7;
+	uint32 _battle_pass_plan = 9;
+}

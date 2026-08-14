@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "IEDPGJDEMAJOuterClass";
+
+import "_ActivityAvatarInfo.proto";
+
+message IEDPGJDEMAJ {
+	repeated uint32 AGILCKGHLME = 3;
+	bool is_open = 5;
+	bool is_finish = 10;
+	uint32 level_id = 12;
+	uint32 max_score = 13;
+	repeated _ActivityAvatarInfo avatar_list = 14;
+}

@@ -18,16 +18,33 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:TrialAvatarActivityDetailInfo)
       com.google.protobuf.MessageOrBuilder {
 
-    java.util.List<emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo>
+    /**
+     * <code>uint32 CBPJGGEBMBI = 1;</code>
+     * @return The cBPJGGEBMBI.
+     */
+    int getCBPJGGEBMBI();
+
+    /**
+     * <code>repeated .TrialAvatarActivityRewardDetailInfo reward_info_list = 2;</code>
+     */
+    java.util.List<emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo> 
         getRewardInfoListList();
-
+    /**
+     * <code>repeated .TrialAvatarActivityRewardDetailInfo reward_info_list = 2;</code>
+     */
     emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo getRewardInfoList(int index);
-
+    /**
+     * <code>repeated .TrialAvatarActivityRewardDetailInfo reward_info_list = 2;</code>
+     */
     int getRewardInfoListCount();
-
-    java.util.List<? extends emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfoOrBuilder>
+    /**
+     * <code>repeated .TrialAvatarActivityRewardDetailInfo reward_info_list = 2;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfoOrBuilder> 
         getRewardInfoListOrBuilderList();
-
+    /**
+     * <code>repeated .TrialAvatarActivityRewardDetailInfo reward_info_list = 2;</code>
+     */
     emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfoOrBuilder getRewardInfoListOrBuilder(
         int index);
   }
@@ -78,7 +95,12 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 106: {
+            case 8: {
+
+              cBPJGGEBMBI_ = input.readUInt32();
+              break;
+            }
+            case 18: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 rewardInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -122,30 +144,51 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.TrialAvatarActivityDetailInfoOuterClass.TrialAvatarActivityDetailInfo.class, emu.grasscutter.net.proto.TrialAvatarActivityDetailInfoOuterClass.TrialAvatarActivityDetailInfo.Builder.class);
     }
 
-    public static final int REWARD_INFO_LIST_FIELD_NUMBER = 13;
-    private java.util.List<emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo> rewardInfoList_;
+    public static final int CBPJGGEBMBI_FIELD_NUMBER = 1;
+    private int cBPJGGEBMBI_;
+    /**
+     * <code>uint32 CBPJGGEBMBI = 1;</code>
+     * @return The cBPJGGEBMBI.
+     */
+    @java.lang.Override
+    public int getCBPJGGEBMBI() {
+      return cBPJGGEBMBI_;
+    }
 
+    public static final int REWARD_INFO_LIST_FIELD_NUMBER = 2;
+    private java.util.List<emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo> rewardInfoList_;
+    /**
+     * <code>repeated .TrialAvatarActivityRewardDetailInfo reward_info_list = 2;</code>
+     */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo> getRewardInfoListList() {
       return rewardInfoList_;
     }
-
+    /**
+     * <code>repeated .TrialAvatarActivityRewardDetailInfo reward_info_list = 2;</code>
+     */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfoOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfoOrBuilder> 
         getRewardInfoListOrBuilderList() {
       return rewardInfoList_;
     }
-
+    /**
+     * <code>repeated .TrialAvatarActivityRewardDetailInfo reward_info_list = 2;</code>
+     */
     @java.lang.Override
     public int getRewardInfoListCount() {
       return rewardInfoList_.size();
     }
-
+    /**
+     * <code>repeated .TrialAvatarActivityRewardDetailInfo reward_info_list = 2;</code>
+     */
     @java.lang.Override
     public emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo getRewardInfoList(int index) {
       return rewardInfoList_.get(index);
     }
-
+    /**
+     * <code>repeated .TrialAvatarActivityRewardDetailInfo reward_info_list = 2;</code>
+     */
     @java.lang.Override
     public emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfoOrBuilder getRewardInfoListOrBuilder(
         int index) {
@@ -166,8 +209,11 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (cBPJGGEBMBI_ != 0) {
+        output.writeUInt32(1, cBPJGGEBMBI_);
+      }
       for (int i = 0; i < rewardInfoList_.size(); i++) {
-        output.writeMessage(13, rewardInfoList_.get(i));
+        output.writeMessage(2, rewardInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -178,9 +224,13 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (cBPJGGEBMBI_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(1, cBPJGGEBMBI_);
+      }
       for (int i = 0; i < rewardInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, rewardInfoList_.get(i));
+          .computeMessageSize(2, rewardInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -197,6 +247,8 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.TrialAvatarActivityDetailInfoOuterClass.TrialAvatarActivityDetailInfo other = (emu.grasscutter.net.proto.TrialAvatarActivityDetailInfoOuterClass.TrialAvatarActivityDetailInfo) obj;
 
+      if (getCBPJGGEBMBI()
+          != other.getCBPJGGEBMBI()) return false;
       if (!getRewardInfoListList()
           .equals(other.getRewardInfoListList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -210,6 +262,8 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + CBPJGGEBMBI_FIELD_NUMBER;
+      hash = (53 * hash) + getCBPJGGEBMBI();
       if (getRewardInfoListCount() > 0) {
         hash = (37 * hash) + REWARD_INFO_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getRewardInfoListList().hashCode();
@@ -348,6 +402,8 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        cBPJGGEBMBI_ = 0;
+
         if (rewardInfoListBuilder_ == null) {
           rewardInfoList_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
@@ -381,6 +437,7 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
       public emu.grasscutter.net.proto.TrialAvatarActivityDetailInfoOuterClass.TrialAvatarActivityDetailInfo buildPartial() {
         emu.grasscutter.net.proto.TrialAvatarActivityDetailInfoOuterClass.TrialAvatarActivityDetailInfo result = new emu.grasscutter.net.proto.TrialAvatarActivityDetailInfoOuterClass.TrialAvatarActivityDetailInfo(this);
         int from_bitField0_ = bitField0_;
+        result.cBPJGGEBMBI_ = cBPJGGEBMBI_;
         if (rewardInfoListBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
             rewardInfoList_ = java.util.Collections.unmodifiableList(rewardInfoList_);
@@ -438,6 +495,9 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.TrialAvatarActivityDetailInfoOuterClass.TrialAvatarActivityDetailInfo other) {
         if (other == emu.grasscutter.net.proto.TrialAvatarActivityDetailInfoOuterClass.TrialAvatarActivityDetailInfo.getDefaultInstance()) return this;
+        if (other.getCBPJGGEBMBI() != 0) {
+          setCBPJGGEBMBI(other.getCBPJGGEBMBI());
+        }
         if (rewardInfoListBuilder_ == null) {
           if (!other.rewardInfoList_.isEmpty()) {
             if (rewardInfoList_.isEmpty()) {
@@ -456,7 +516,7 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
               rewardInfoListBuilder_ = null;
               rewardInfoList_ = other.rewardInfoList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              rewardInfoListBuilder_ =
+              rewardInfoListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRewardInfoListFieldBuilder() : null;
             } else {
@@ -494,6 +554,37 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
       }
       private int bitField0_;
 
+      private int cBPJGGEBMBI_ ;
+      /**
+       * <code>uint32 CBPJGGEBMBI = 1;</code>
+       * @return The cBPJGGEBMBI.
+       */
+      @java.lang.Override
+      public int getCBPJGGEBMBI() {
+        return cBPJGGEBMBI_;
+      }
+      /**
+       * <code>uint32 CBPJGGEBMBI = 1;</code>
+       * @param value The cBPJGGEBMBI to set.
+       * @return This builder for chaining.
+       */
+      public Builder setCBPJGGEBMBI(int value) {
+        
+        cBPJGGEBMBI_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 CBPJGGEBMBI = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearCBPJGGEBMBI() {
+        
+        cBPJGGEBMBI_ = 0;
+        onChanged();
+        return this;
+      }
+
       private java.util.List<emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo> rewardInfoList_ =
         java.util.Collections.emptyList();
       private void ensureRewardInfoListIsMutable() {
@@ -506,6 +597,9 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo, emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo.Builder, emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfoOrBuilder> rewardInfoListBuilder_;
 
+      /**
+       * <code>repeated .TrialAvatarActivityRewardDetailInfo reward_info_list = 2;</code>
+       */
       public java.util.List<emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo> getRewardInfoListList() {
         if (rewardInfoListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(rewardInfoList_);
@@ -513,7 +607,9 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
           return rewardInfoListBuilder_.getMessageList();
         }
       }
-
+      /**
+       * <code>repeated .TrialAvatarActivityRewardDetailInfo reward_info_list = 2;</code>
+       */
       public int getRewardInfoListCount() {
         if (rewardInfoListBuilder_ == null) {
           return rewardInfoList_.size();
@@ -521,7 +617,9 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
           return rewardInfoListBuilder_.getCount();
         }
       }
-
+      /**
+       * <code>repeated .TrialAvatarActivityRewardDetailInfo reward_info_list = 2;</code>
+       */
       public emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo getRewardInfoList(int index) {
         if (rewardInfoListBuilder_ == null) {
           return rewardInfoList_.get(index);
@@ -529,7 +627,9 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
           return rewardInfoListBuilder_.getMessage(index);
         }
       }
-
+      /**
+       * <code>repeated .TrialAvatarActivityRewardDetailInfo reward_info_list = 2;</code>
+       */
       public Builder setRewardInfoList(
           int index, emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo value) {
         if (rewardInfoListBuilder_ == null) {
@@ -544,7 +644,9 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .TrialAvatarActivityRewardDetailInfo reward_info_list = 2;</code>
+       */
       public Builder setRewardInfoList(
           int index, emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo.Builder builderForValue) {
         if (rewardInfoListBuilder_ == null) {
@@ -556,7 +658,9 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .TrialAvatarActivityRewardDetailInfo reward_info_list = 2;</code>
+       */
       public Builder addRewardInfoList(emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo value) {
         if (rewardInfoListBuilder_ == null) {
           if (value == null) {
@@ -570,7 +674,9 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .TrialAvatarActivityRewardDetailInfo reward_info_list = 2;</code>
+       */
       public Builder addRewardInfoList(
           int index, emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo value) {
         if (rewardInfoListBuilder_ == null) {
@@ -585,7 +691,9 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .TrialAvatarActivityRewardDetailInfo reward_info_list = 2;</code>
+       */
       public Builder addRewardInfoList(
           emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo.Builder builderForValue) {
         if (rewardInfoListBuilder_ == null) {
@@ -597,7 +705,9 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .TrialAvatarActivityRewardDetailInfo reward_info_list = 2;</code>
+       */
       public Builder addRewardInfoList(
           int index, emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo.Builder builderForValue) {
         if (rewardInfoListBuilder_ == null) {
@@ -609,7 +719,9 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .TrialAvatarActivityRewardDetailInfo reward_info_list = 2;</code>
+       */
       public Builder addAllRewardInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo> values) {
         if (rewardInfoListBuilder_ == null) {
@@ -622,7 +734,9 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .TrialAvatarActivityRewardDetailInfo reward_info_list = 2;</code>
+       */
       public Builder clearRewardInfoList() {
         if (rewardInfoListBuilder_ == null) {
           rewardInfoList_ = java.util.Collections.emptyList();
@@ -633,7 +747,9 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .TrialAvatarActivityRewardDetailInfo reward_info_list = 2;</code>
+       */
       public Builder removeRewardInfoList(int index) {
         if (rewardInfoListBuilder_ == null) {
           ensureRewardInfoListIsMutable();
@@ -644,12 +760,16 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .TrialAvatarActivityRewardDetailInfo reward_info_list = 2;</code>
+       */
       public emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo.Builder getRewardInfoListBuilder(
           int index) {
         return getRewardInfoListFieldBuilder().getBuilder(index);
       }
-
+      /**
+       * <code>repeated .TrialAvatarActivityRewardDetailInfo reward_info_list = 2;</code>
+       */
       public emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfoOrBuilder getRewardInfoListOrBuilder(
           int index) {
         if (rewardInfoListBuilder_ == null) {
@@ -657,8 +777,10 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
           return rewardInfoListBuilder_.getMessageOrBuilder(index);
         }
       }
-
-      public java.util.List<? extends emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfoOrBuilder>
+      /**
+       * <code>repeated .TrialAvatarActivityRewardDetailInfo reward_info_list = 2;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfoOrBuilder> 
            getRewardInfoListOrBuilderList() {
         if (rewardInfoListBuilder_ != null) {
           return rewardInfoListBuilder_.getMessageOrBuilderList();
@@ -666,24 +788,30 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
           return java.util.Collections.unmodifiableList(rewardInfoList_);
         }
       }
-
+      /**
+       * <code>repeated .TrialAvatarActivityRewardDetailInfo reward_info_list = 2;</code>
+       */
       public emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo.Builder addRewardInfoListBuilder() {
         return getRewardInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo.getDefaultInstance());
       }
-
+      /**
+       * <code>repeated .TrialAvatarActivityRewardDetailInfo reward_info_list = 2;</code>
+       */
       public emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo.Builder addRewardInfoListBuilder(
           int index) {
         return getRewardInfoListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo.getDefaultInstance());
       }
-
-      public java.util.List<emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo.Builder>
+      /**
+       * <code>repeated .TrialAvatarActivityRewardDetailInfo reward_info_list = 2;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo.Builder> 
            getRewardInfoListBuilderList() {
         return getRewardInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo, emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo.Builder, emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfoOrBuilder>
+          emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo, emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo.Builder, emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfoOrBuilder> 
           getRewardInfoListFieldBuilder() {
         if (rewardInfoListBuilder_ == null) {
           rewardInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -707,6 +835,7 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:TrialAvatarActivityDetailInfo)
     }
@@ -750,7 +879,7 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_TrialAvatarActivityDetailInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_TrialAvatarActivityDetailInfo_fieldAccessorTable;
 
@@ -764,10 +893,11 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n#TrialAvatarActivityDetailInfo.proto\032)T" +
       "rialAvatarActivityRewardDetailInfo.proto" +
-      "\"_\n\035TrialAvatarActivityDetailInfo\022>\n\020rew" +
-      "ard_info_list\030\017 \003(\0132$.TrialAvatarActivit" +
-      "yRewardDetailInfoB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\"t\n\035TrialAvatarActivityDetailInfo\022\023\n\013CBP" +
+      "JGGEBMBI\030\001 \001(\r\022>\n\020reward_info_list\030\002 \003(\013" +
+      "2$.TrialAvatarActivityRewardDetailInfoBD" +
+      "\n\031emu.grasscutter.net.protoB\'TrialAvatar" +
+      "ActivityDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -779,7 +909,7 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
     internal_static_TrialAvatarActivityDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_TrialAvatarActivityDetailInfo_descriptor,
-        new java.lang.String[] { "RewardInfoList", });
+        new java.lang.String[] { "CBPJGGEBMBI", "RewardInfoList", });
     emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.getDescriptor();
   }
 

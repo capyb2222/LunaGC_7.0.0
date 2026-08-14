@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_NatlanDragonPartySettleInfoOuterClass";
+
+import "ExhibitionDisplayInfo.proto";
+import "PBNLFGAMIGI.proto";
+
+message _NatlanDragonPartySettleInfo {
+	repeated PBNLFGAMIGI PPENJHKDFHJ = 8;
+	repeated uint32 winner_uid_list = 9;
+	uint32 level_id = 13;
+	repeated ExhibitionDisplayInfo JANGDIMHCAC = 15;
+}

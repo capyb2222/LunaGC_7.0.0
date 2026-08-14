@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MLLGCECGGMEOuterClass";
+
+import "BHJLAGLDHCO.proto";
+
+message MLLGCECGGME {
+	bool is_open = 7;
+	uint32 KHJHFLNMNPC = 10;
+	repeated BHJLAGLDHCO IOEDAJLIHPC = 15;
+}

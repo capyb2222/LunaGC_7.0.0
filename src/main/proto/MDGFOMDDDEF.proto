@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MDGFOMDDDEFOuterClass";
+
+import "JEOKDCIGCFP.proto";
+
+message MDGFOMDDDEF {
+	bool FBAGAPBIFHA = 1;
+	int32 ONIFLNLBNBL = 2;
+	float JMODEHNJBFB = 3;
+	JEOKDCIGCFP JDPJOCLIHMI = 4;
+	bool OCPEDDDLBLN = 5;
+	JEOKDCIGCFP LCBNCKEGALF = 6;
+}

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_AutochessRecordSocialBriefOuterClass";
+
+import "KHFBAMPCPPF.proto";
+import "Uint32Pair.proto";
+
+message _AutochessRecordSocialBrief {
+	repeated uint32 _artifact_id_list = 2;
+	uint32 coin = 3;
+	repeated uint32 HDKMGJJKEMA = 4;
+	bool NBCEKJJNAHJ = 5;
+	uint32 timestamp = 6;
+	uint32 GBAIFJIKOON = 7;
+	uint32 HOAOJBKJFLE = 8;
+	uint32 AFDKEOOHHPA = 9;
+	uint32 hp = 10;
+	KHFBAMPCPPF DNBEJHIILMM = 11;
+	uint32 LKPNNFDCJLF = 12;
+	uint32 max_hp = 14;
+	Uint32Pair progress = 15;
+}

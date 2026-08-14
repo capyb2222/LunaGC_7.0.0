@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MoonfinTrialLevelInfoOuterClass";
+
+message MoonfinTrialLevelInfo {
+	uint32 best_record = 6;
+	uint32 open_time = 10;
+}

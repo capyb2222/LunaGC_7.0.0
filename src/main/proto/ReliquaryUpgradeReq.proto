@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ReliquaryUpgradeReqOuterClass";
+
+import "ItemParam.proto";
+
+message ReliquaryUpgradeReq {
+	repeated uint64 food_reliquary_guid_list = 3;
+	repeated ItemParam item_param_list = 5;
+	uint64 target_reliquary_guid = 9;
+}

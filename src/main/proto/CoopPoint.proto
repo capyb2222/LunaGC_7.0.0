@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CoopPointOuterClass";
+
+message CoopPoint {
+	enum State {
+		STATE_UNSTARTED = 0;
+		STATE_STARTED = 1;
+		STATE_FINISHED = 2;
+	}
+	State state = 2;
+	uint32 self_confidence = 3;
+	uint32 id = 7;
+}

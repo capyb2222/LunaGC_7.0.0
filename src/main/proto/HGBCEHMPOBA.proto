@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HGBCEHMPOBAOuterClass";
+
+import "MusicGameRecord.proto";
+
+message HGBCEHMPOBA {
+	map<uint32, MusicGameRecord> music_game_record_map = 13;
+}

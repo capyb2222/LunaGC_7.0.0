@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SceneTransToPointRspOuterClass";
+
+message SceneTransToPointRsp {
+	uint32 scene_id = 6;
+	int32 retcode = 10;
+	uint32 point_id = 15;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EffigyChallengeV4DetailInfoOuterClass";
+
+import "LBINOBBOACO.proto";
+
+message EffigyChallengeV4DetailInfo {
+	repeated LBINOBBOACO jnadpfjobhi = 1;
+}

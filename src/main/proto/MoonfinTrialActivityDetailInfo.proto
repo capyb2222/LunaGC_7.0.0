@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MoonfinTrialActivityDetailInfoOuterClass";
+
+import "MoonfinTrialLevelInfo.proto";
+
+message MoonfinTrialActivityDetailInfo {
+	uint32 special_fish_count = 11;
+	map<uint32, MoonfinTrialLevelInfo> level_info_map = 15;
+}

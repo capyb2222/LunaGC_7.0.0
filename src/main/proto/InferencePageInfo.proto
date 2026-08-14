@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "InferencePageInfoOuterClass";
+
+import "InfernceWordInfo.proto";
+
+message InferencePageInfo {
+	uint32 page_id = 6;
+	repeated InfernceWordInfo unlock_word_list = 7;
+}

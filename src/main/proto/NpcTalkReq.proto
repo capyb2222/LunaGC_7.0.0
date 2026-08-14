@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "NpcTalkReqOuterClass";
+
+message NpcTalkReq {
+	uint32 entity_id = 4;
+	uint32 npc_entity_id = 7;
+	uint32 talk_id = 10;
+}

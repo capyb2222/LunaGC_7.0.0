@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AsterActivityDetailInfoOuterClass";
+
+import "AsterLargeDetailInfo.proto";
+import "AsterLittleDetailInfo.proto";
+import "AsterMidDetailInfo.proto";
+import "AsterProgressDetailInfo.proto";
+
+message AsterActivityDetailInfo {
+	AsterLittleDetailInfo aster_little = 1;
+	uint32 BGHKDINALDB = 3;
+	bool is_special_reward_taken = 4;
+	AsterMidDetailInfo aster_mid = 5;
+	uint32 content_close_time = 6;
+	uint32 DGBIKMCIGLN = 7;
+	AsterLargeDetailInfo aster_large = 9;
+	bool is_content_closed = 12;
+	AsterProgressDetailInfo aster_progress = 15;
+}

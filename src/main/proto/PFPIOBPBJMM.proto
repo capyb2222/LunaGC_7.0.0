@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PFPIOBPBJMMOuterClass";
+
+message PFPIOBPBJMM {
+	uint32 avatar_id = 4;
+	bool is_trial_avatar = 10;
+}

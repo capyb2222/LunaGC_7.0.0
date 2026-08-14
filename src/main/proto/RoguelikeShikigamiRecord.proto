@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "RoguelikeShikigamiRecordOuterClass";
+
+message RoguelikeShikigamiRecord {
+	uint32 level = 9;
+	uint32 id = 11;
+}

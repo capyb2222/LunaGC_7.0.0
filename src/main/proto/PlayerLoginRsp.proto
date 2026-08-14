@@ -1,0 +1,59 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PlayerLoginRspOuterClass";
+
+import "BlockInfo.proto";
+import "FNGEEAFJCDG.proto";
+import "FeatureBlockInfo.proto";
+import "MPGPEKAFHJG.proto";
+import "NGKOPBGLDJM.proto";
+import "ResVersionConfig.proto";
+import "ShortAbilityHashPair.proto";
+import "StopServerInfo.proto";
+
+message PlayerLoginRsp {
+	bool is_relogin = 1;
+	bool GHAJDNKLEDA = 2;
+	uint32 ohmigaflnid = 3;
+	uint64 login_rand = 4;
+	map<string, int32> ability_hash_map = 5;
+	string game_biz = 6;
+	bool is_use_ability_hash = 7;
+	uint32 client_data_version = 8;
+	uint32 client_silence_data_version = 9;
+	uint32 target_uid = 11;
+	int32 ability_hash_code = 13;
+	bytes player_data = 14;
+	int32 retcode = 15;
+	bool GICKBBGJGCK = 40;
+	bytes sc_info = 57;
+	string client_version_suffix = 70;
+	ResVersionConfig next_res_version_config = 181;
+	string birthday = 484;
+	map<uint32, BlockInfo> block_info_map = 536;
+	bool CGMBIAPFHGE = 592;
+	repeated ShortAbilityHashPair short_ability_hash_map = 631;
+	map<uint64, MPGPEKAFHJG> KKNBKGBLHDM = 897;
+	uint32 AMBIGCMFEIM = 1092;
+	ResVersionConfig res_version_config = 1140;
+	StopServerInfo nfachcnjogl = 1201;
+	string client_silence_version_suffix = 1205;
+	bool is_sc_open = 1246;
+	bool OEMHPIKBDMB = 1297;
+	string register_cps = 1303;
+	string msg = 1316;
+	FNGEEAFJCDG KJEMCDAJINF = 1333;
+	string country_code = 1424;
+	bool KLKDKMBAPGA = 1548;
+	string next_resource_url = 1556;
+	string client_md5 = 1570;
+	NGKOPBGLDJM LPFKKMMLFOP = 1651;
+	uint32 ALMPHOAOJEC = 1744;
+	bool is_audit = 1763;
+	repeated FeatureBlockInfo feature_block_info_list = 1786;
+	double total_tick_time = 1911;
+	uint32 platform_type = 1967;
+	string client_silence_md5 = 1974;
+	bool MBPNFGLAJOG = 1986;
+}

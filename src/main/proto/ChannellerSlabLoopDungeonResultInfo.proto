@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ChannellerSlabLoopDungeonResultInfoOuterClass";
+
+message ChannellerSlabLoopDungeonResultInfo {
+	bool is_success = 3;
+	bool is_in_time_limit = 5;
+	uint32 challenge_max_score = 8;
+	uint32 dungeon_index = 14;
+	uint32 challenge_score = 15;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MENHFPBEHLLOuterClass";
+
+import "MOFPMJLCGJD.proto";
+
+message MENHFPBEHLL {
+	repeated MOFPMJLCGJD level_info_list = 6;
+}

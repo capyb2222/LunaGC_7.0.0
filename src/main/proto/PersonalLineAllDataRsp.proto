@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PersonalLineAllDataRspOuterClass";
+
+import "LockedPersonallineData.proto";
+
+message PersonalLineAllDataRsp {
+	int32 retcode = 3;
+	repeated LockedPersonallineData locked_personal_line_list = 4;
+	repeated uint32 CLDEEBFDGDH = 7;
+	uint32 cur_finished_daily_task_count = 8;
+	uint32 legendary_key_count = 10;
+	repeated uint32 KNJFOGEHNPK = 11;
+	repeated uint32 NIPKCPGAMKF = 15;
+}

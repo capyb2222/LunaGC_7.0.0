@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GetActivityInfoRspOuterClass";
+
+import "ActivityInfo.proto";
+import "Uint32Pair.proto";
+
+message GetActivityInfoRsp {
+	repeated uint32 activated_sale_id_list = 5;
+	int32 retcode = 6;
+	repeated ActivityInfo activity_info_list = 11;
+	repeated Uint32Pair disable_transfer_point_interaction_list = 12;
+}

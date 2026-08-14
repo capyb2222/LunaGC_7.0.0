@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AvatarDieAnimationEndReqOuterClass";
+
+import "Vector.proto";
+
+message AvatarDieAnimationEndReq {
+	uint32 skill_id = 3;
+	Vector reborn_pos = 10;
+	uint64 die_guid = 13;
+}

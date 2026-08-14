@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MirrorAvatarInfoOuterClass";
+
+message MirrorAvatarInfo {
+	uint32 copy_from_avatar_type = 1;
+	uint64 LEEHFFLICIK = 2;
+}

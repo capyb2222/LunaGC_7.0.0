@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SceneForceUnlockNotifyOuterClass";
+
+message SceneForceUnlockNotify {
+	repeated uint32 force_id_list = 2;
+	bool is_add = 7;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "IrodoriMasterLevelDetailInfoOuterClass";
+
+message IrodoriMasterLevelDetailInfo {
+	uint32 diffculty = 4;
+	bool is_finish = 11;
+	uint32 min_finish_time = 13;
+	bool is_have_try = 14;
+}

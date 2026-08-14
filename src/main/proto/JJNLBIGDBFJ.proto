@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "JJNLBIGDBFJOuterClass";
+
+message JJNLBIGDBFJ {
+	uint32 level_id = 1;
+	bool is_open = 5;
+	bool is_finish = 6;
+	uint32 use_time = 7;
+}

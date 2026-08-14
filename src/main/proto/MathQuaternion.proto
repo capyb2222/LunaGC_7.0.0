@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MathQuaternionOuterClass";
+
+message MathQuaternion {
+	float x = 1;
+	float y = 2;
+	float z = 3;
+	float w = 4;
+}

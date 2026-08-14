@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MusicGameActivityDetailInfoOuterClass";
+
+import "MusicGameRecord.proto";
+import "UgcMusicBriefInfo.proto";
+
+message MusicGameActivityDetailInfo {
+	repeated UgcMusicBriefInfo EPEEHJNIPNB = 6;
+	repeated UgcMusicBriefInfo NCCMPNEBJLA = 9;
+	map<uint32, MusicGameRecord> music_game_record_map = 10;
+}

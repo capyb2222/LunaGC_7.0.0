@@ -19,54 +19,58 @@ public final class ShopMcoinProductOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>string IDMEPGKNPNM = 2;</code>
-     * @return The iDMEPGKNPNM.
+     * <code>string product_id = 1;</code>
+     * @return The productId.
      */
-    java.lang.String getIDMEPGKNPNM();
+    java.lang.String getProductId();
     /**
-     * <code>string IDMEPGKNPNM = 2;</code>
-     * @return The bytes for iDMEPGKNPNM.
+     * <code>string product_id = 1;</code>
+     * @return The bytes for productId.
      */
     com.google.protobuf.ByteString
-        getIDMEPGKNPNMBytes();
+        getProductIdBytes();
 
     /**
-     * <code>string NAFPACJOABI = 1;</code>
-     * @return The nAFPACJOABI.
+     * <code>string price_tier = 2;</code>
+     * @return The priceTier.
      */
-    java.lang.String getNAFPACJOABI();
+    java.lang.String getPriceTier();
     /**
-     * <code>string NAFPACJOABI = 1;</code>
-     * @return The bytes for nAFPACJOABI.
+     * <code>string price_tier = 2;</code>
+     * @return The bytes for priceTier.
      */
     com.google.protobuf.ByteString
-        getNAFPACJOABIBytes();
+        getPriceTierBytes();
 
     /**
-     * <code>uint32 OELBCALLHGE = 3;</code>
-     * @return The oELBCALLHGE.
+     * <code>uint32 mcoin_base = 3;</code>
+     * @return The mcoinBase.
      */
-    int getOELBCALLHGE();
+    int getMcoinBase();
 
     /**
-     * <code>bool LJHCFCNMEFF = 7;</code>
-     * @return The lJHCFCNMEFF.
+     * <code>uint32 mcoin_non_first = 4;</code>
+     * @return The mcoinNonFirst.
      */
-    boolean getLJHCFCNMEFF();
+    int getMcoinNonFirst();
 
+    /**
+     * <code>uint32 mcoin_first = 5;</code>
+     * @return The mcoinFirst.
+     */
+    int getMcoinFirst();
+
+    /**
+     * <code>uint32 bought_num = 6;</code>
+     * @return The boughtNum.
+     */
     int getBoughtNum();
 
     /**
-     * <code>uint32 IPOJPAFAEPM = 5;</code>
-     * @return The iPOJPAFAEPM.
+     * <code>bool is_audit = 7;</code>
+     * @return The isAudit.
      */
-    int getIPOJPAFAEPM();
-
-    /**
-     * <code>uint32 OLMNNBOLLJP = 4;</code>
-     * @return The oLMNNBOLLJP.
-     */
-    int getOLMNNBOLLJP();
+    boolean getIsAudit();
   }
   /**
    * Protobuf type {@code ShopMcoinProduct}
@@ -81,8 +85,8 @@ public final class ShopMcoinProductOuterClass {
       super(builder);
     }
     private ShopMcoinProduct() {
-      iDMEPGKNPNM_ = "";
-      nAFPACJOABI_ = "";
+      productId_ = "";
+      priceTier_ = "";
     }
 
     @java.lang.Override
@@ -118,28 +122,28 @@ public final class ShopMcoinProductOuterClass {
             case 10: {
               java.lang.String s = input.readStringRequireUtf8();
 
-              nAFPACJOABI_ = s;
+              productId_ = s;
               break;
             }
             case 18: {
               java.lang.String s = input.readStringRequireUtf8();
 
-              iDMEPGKNPNM_ = s;
+              priceTier_ = s;
               break;
             }
             case 24: {
 
-              oELBCALLHGE_ = input.readUInt32();
+              mcoinBase_ = input.readUInt32();
               break;
             }
             case 32: {
 
-              oLMNNBOLLJP_ = input.readUInt32();
+              mcoinNonFirst_ = input.readUInt32();
               break;
             }
             case 40: {
 
-              iPOJPAFAEPM_ = input.readUInt32();
+              mcoinFirst_ = input.readUInt32();
               break;
             }
             case 48: {
@@ -149,7 +153,7 @@ public final class ShopMcoinProductOuterClass {
             }
             case 56: {
 
-              lJHCFCNMEFF_ = input.readBool();
+              isAudit_ = input.readBool();
               break;
             }
             default: {
@@ -184,132 +188,135 @@ public final class ShopMcoinProductOuterClass {
               emu.grasscutter.net.proto.ShopMcoinProductOuterClass.ShopMcoinProduct.class, emu.grasscutter.net.proto.ShopMcoinProductOuterClass.ShopMcoinProduct.Builder.class);
     }
 
-    public static final int IDMEPGKNPNM_FIELD_NUMBER = 2;
-    private volatile java.lang.Object iDMEPGKNPNM_;
+    public static final int PRODUCT_ID_FIELD_NUMBER = 1;
+    private volatile java.lang.Object productId_;
     /**
-     * <code>string IDMEPGKNPNM = 2;</code>
-     * @return The iDMEPGKNPNM.
+     * <code>string product_id = 1;</code>
+     * @return The productId.
      */
     @java.lang.Override
-    public java.lang.String getIDMEPGKNPNM() {
-      java.lang.Object ref = iDMEPGKNPNM_;
+    public java.lang.String getProductId() {
+      java.lang.Object ref = productId_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        iDMEPGKNPNM_ = s;
+        productId_ = s;
         return s;
       }
     }
     /**
-     * <code>string IDMEPGKNPNM = 2;</code>
-     * @return The bytes for iDMEPGKNPNM.
+     * <code>string product_id = 1;</code>
+     * @return The bytes for productId.
      */
     @java.lang.Override
     public com.google.protobuf.ByteString
-        getIDMEPGKNPNMBytes() {
-      java.lang.Object ref = iDMEPGKNPNM_;
+        getProductIdBytes() {
+      java.lang.Object ref = productId_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        iDMEPGKNPNM_ = b;
+        productId_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
       }
     }
 
-    public static final int NAFPACJOABI_FIELD_NUMBER = 1;
-    private volatile java.lang.Object nAFPACJOABI_;
+    public static final int PRICE_TIER_FIELD_NUMBER = 2;
+    private volatile java.lang.Object priceTier_;
     /**
-     * <code>string NAFPACJOABI = 1;</code>
-     * @return The nAFPACJOABI.
+     * <code>string price_tier = 2;</code>
+     * @return The priceTier.
      */
     @java.lang.Override
-    public java.lang.String getNAFPACJOABI() {
-      java.lang.Object ref = nAFPACJOABI_;
+    public java.lang.String getPriceTier() {
+      java.lang.Object ref = priceTier_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        nAFPACJOABI_ = s;
+        priceTier_ = s;
         return s;
       }
     }
     /**
-     * <code>string NAFPACJOABI = 1;</code>
-     * @return The bytes for nAFPACJOABI.
+     * <code>string price_tier = 2;</code>
+     * @return The bytes for priceTier.
      */
     @java.lang.Override
     public com.google.protobuf.ByteString
-        getNAFPACJOABIBytes() {
-      java.lang.Object ref = nAFPACJOABI_;
+        getPriceTierBytes() {
+      java.lang.Object ref = priceTier_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        nAFPACJOABI_ = b;
+        priceTier_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
       }
     }
 
-    public static final int OELBCALLHGE_FIELD_NUMBER = 3;
-    private int oELBCALLHGE_;
+    public static final int MCOIN_BASE_FIELD_NUMBER = 3;
+    private int mcoinBase_;
     /**
-     * <code>uint32 OELBCALLHGE = 3;</code>
-     * @return The oELBCALLHGE.
+     * <code>uint32 mcoin_base = 3;</code>
+     * @return The mcoinBase.
      */
     @java.lang.Override
-    public int getOELBCALLHGE() {
-      return oELBCALLHGE_;
+    public int getMcoinBase() {
+      return mcoinBase_;
     }
 
-    public static final int LJHCFCNMEFF_FIELD_NUMBER = 7;
-    private boolean lJHCFCNMEFF_;
+    public static final int MCOIN_NON_FIRST_FIELD_NUMBER = 4;
+    private int mcoinNonFirst_;
     /**
-     * <code>bool LJHCFCNMEFF = 7;</code>
-     * @return The lJHCFCNMEFF.
+     * <code>uint32 mcoin_non_first = 4;</code>
+     * @return The mcoinNonFirst.
      */
     @java.lang.Override
-    public boolean getLJHCFCNMEFF() {
-      return lJHCFCNMEFF_;
+    public int getMcoinNonFirst() {
+      return mcoinNonFirst_;
+    }
+
+    public static final int MCOIN_FIRST_FIELD_NUMBER = 5;
+    private int mcoinFirst_;
+    /**
+     * <code>uint32 mcoin_first = 5;</code>
+     * @return The mcoinFirst.
+     */
+    @java.lang.Override
+    public int getMcoinFirst() {
+      return mcoinFirst_;
     }
 
     public static final int BOUGHT_NUM_FIELD_NUMBER = 6;
     private int boughtNum_;
-
+    /**
+     * <code>uint32 bought_num = 6;</code>
+     * @return The boughtNum.
+     */
     @java.lang.Override
     public int getBoughtNum() {
       return boughtNum_;
     }
 
-    public static final int IPOJPAFAEPM_FIELD_NUMBER = 5;
-    private int iPOJPAFAEPM_;
+    public static final int IS_AUDIT_FIELD_NUMBER = 7;
+    private boolean isAudit_;
     /**
-     * <code>uint32 IPOJPAFAEPM = 5;</code>
-     * @return The iPOJPAFAEPM.
+     * <code>bool is_audit = 7;</code>
+     * @return The isAudit.
      */
     @java.lang.Override
-    public int getIPOJPAFAEPM() {
-      return iPOJPAFAEPM_;
-    }
-
-    public static final int OLMNNBOLLJP_FIELD_NUMBER = 4;
-    private int oLMNNBOLLJP_;
-    /**
-     * <code>uint32 OLMNNBOLLJP = 4;</code>
-     * @return The oLMNNBOLLJP.
-     */
-    @java.lang.Override
-    public int getOLMNNBOLLJP() {
-      return oLMNNBOLLJP_;
+    public boolean getIsAudit() {
+      return isAudit_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -326,26 +333,26 @@ public final class ShopMcoinProductOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(nAFPACJOABI_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1, nAFPACJOABI_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(productId_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 1, productId_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(iDMEPGKNPNM_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 2, iDMEPGKNPNM_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(priceTier_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 2, priceTier_);
       }
-      if (oELBCALLHGE_ != 0) {
-        output.writeUInt32(3, oELBCALLHGE_);
+      if (mcoinBase_ != 0) {
+        output.writeUInt32(3, mcoinBase_);
       }
-      if (oLMNNBOLLJP_ != 0) {
-        output.writeUInt32(4, oLMNNBOLLJP_);
+      if (mcoinNonFirst_ != 0) {
+        output.writeUInt32(4, mcoinNonFirst_);
       }
-      if (iPOJPAFAEPM_ != 0) {
-        output.writeUInt32(5, iPOJPAFAEPM_);
+      if (mcoinFirst_ != 0) {
+        output.writeUInt32(5, mcoinFirst_);
       }
       if (boughtNum_ != 0) {
         output.writeUInt32(6, boughtNum_);
       }
-      if (lJHCFCNMEFF_ != false) {
-        output.writeBool(7, lJHCFCNMEFF_);
+      if (isAudit_ != false) {
+        output.writeBool(7, isAudit_);
       }
       unknownFields.writeTo(output);
     }
@@ -356,31 +363,31 @@ public final class ShopMcoinProductOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(nAFPACJOABI_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, nAFPACJOABI_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(productId_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, productId_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(iDMEPGKNPNM_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(2, iDMEPGKNPNM_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(priceTier_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(2, priceTier_);
       }
-      if (oELBCALLHGE_ != 0) {
+      if (mcoinBase_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, oELBCALLHGE_);
+          .computeUInt32Size(3, mcoinBase_);
       }
-      if (oLMNNBOLLJP_ != 0) {
+      if (mcoinNonFirst_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, oLMNNBOLLJP_);
+          .computeUInt32Size(4, mcoinNonFirst_);
       }
-      if (iPOJPAFAEPM_ != 0) {
+      if (mcoinFirst_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, iPOJPAFAEPM_);
+          .computeUInt32Size(5, mcoinFirst_);
       }
       if (boughtNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(6, boughtNum_);
       }
-      if (lJHCFCNMEFF_ != false) {
+      if (isAudit_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, lJHCFCNMEFF_);
+          .computeBoolSize(7, isAudit_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -397,20 +404,20 @@ public final class ShopMcoinProductOuterClass {
       }
       emu.grasscutter.net.proto.ShopMcoinProductOuterClass.ShopMcoinProduct other = (emu.grasscutter.net.proto.ShopMcoinProductOuterClass.ShopMcoinProduct) obj;
 
-      if (!getIDMEPGKNPNM()
-          .equals(other.getIDMEPGKNPNM())) return false;
-      if (!getNAFPACJOABI()
-          .equals(other.getNAFPACJOABI())) return false;
-      if (getOELBCALLHGE()
-          != other.getOELBCALLHGE()) return false;
-      if (getLJHCFCNMEFF()
-          != other.getLJHCFCNMEFF()) return false;
+      if (!getProductId()
+          .equals(other.getProductId())) return false;
+      if (!getPriceTier()
+          .equals(other.getPriceTier())) return false;
+      if (getMcoinBase()
+          != other.getMcoinBase()) return false;
+      if (getMcoinNonFirst()
+          != other.getMcoinNonFirst()) return false;
+      if (getMcoinFirst()
+          != other.getMcoinFirst()) return false;
       if (getBoughtNum()
           != other.getBoughtNum()) return false;
-      if (getIPOJPAFAEPM()
-          != other.getIPOJPAFAEPM()) return false;
-      if (getOLMNNBOLLJP()
-          != other.getOLMNNBOLLJP()) return false;
+      if (getIsAudit()
+          != other.getIsAudit()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -422,21 +429,21 @@ public final class ShopMcoinProductOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + IDMEPGKNPNM_FIELD_NUMBER;
-      hash = (53 * hash) + getIDMEPGKNPNM().hashCode();
-      hash = (37 * hash) + NAFPACJOABI_FIELD_NUMBER;
-      hash = (53 * hash) + getNAFPACJOABI().hashCode();
-      hash = (37 * hash) + OELBCALLHGE_FIELD_NUMBER;
-      hash = (53 * hash) + getOELBCALLHGE();
-      hash = (37 * hash) + LJHCFCNMEFF_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getLJHCFCNMEFF());
+      hash = (37 * hash) + PRODUCT_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getProductId().hashCode();
+      hash = (37 * hash) + PRICE_TIER_FIELD_NUMBER;
+      hash = (53 * hash) + getPriceTier().hashCode();
+      hash = (37 * hash) + MCOIN_BASE_FIELD_NUMBER;
+      hash = (53 * hash) + getMcoinBase();
+      hash = (37 * hash) + MCOIN_NON_FIRST_FIELD_NUMBER;
+      hash = (53 * hash) + getMcoinNonFirst();
+      hash = (37 * hash) + MCOIN_FIRST_FIELD_NUMBER;
+      hash = (53 * hash) + getMcoinFirst();
       hash = (37 * hash) + BOUGHT_NUM_FIELD_NUMBER;
       hash = (53 * hash) + getBoughtNum();
-      hash = (37 * hash) + IPOJPAFAEPM_FIELD_NUMBER;
-      hash = (53 * hash) + getIPOJPAFAEPM();
-      hash = (37 * hash) + OLMNNBOLLJP_FIELD_NUMBER;
-      hash = (53 * hash) + getOLMNNBOLLJP();
+      hash = (37 * hash) + IS_AUDIT_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIsAudit());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -570,19 +577,19 @@ public final class ShopMcoinProductOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        iDMEPGKNPNM_ = "";
+        productId_ = "";
 
-        nAFPACJOABI_ = "";
+        priceTier_ = "";
 
-        oELBCALLHGE_ = 0;
+        mcoinBase_ = 0;
 
-        lJHCFCNMEFF_ = false;
+        mcoinNonFirst_ = 0;
+
+        mcoinFirst_ = 0;
 
         boughtNum_ = 0;
 
-        iPOJPAFAEPM_ = 0;
-
-        oLMNNBOLLJP_ = 0;
+        isAudit_ = false;
 
         return this;
       }
@@ -610,13 +617,13 @@ public final class ShopMcoinProductOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.ShopMcoinProductOuterClass.ShopMcoinProduct buildPartial() {
         emu.grasscutter.net.proto.ShopMcoinProductOuterClass.ShopMcoinProduct result = new emu.grasscutter.net.proto.ShopMcoinProductOuterClass.ShopMcoinProduct(this);
-        result.iDMEPGKNPNM_ = iDMEPGKNPNM_;
-        result.nAFPACJOABI_ = nAFPACJOABI_;
-        result.oELBCALLHGE_ = oELBCALLHGE_;
-        result.lJHCFCNMEFF_ = lJHCFCNMEFF_;
+        result.productId_ = productId_;
+        result.priceTier_ = priceTier_;
+        result.mcoinBase_ = mcoinBase_;
+        result.mcoinNonFirst_ = mcoinNonFirst_;
+        result.mcoinFirst_ = mcoinFirst_;
         result.boughtNum_ = boughtNum_;
-        result.iPOJPAFAEPM_ = iPOJPAFAEPM_;
-        result.oLMNNBOLLJP_ = oLMNNBOLLJP_;
+        result.isAudit_ = isAudit_;
         onBuilt();
         return result;
       }
@@ -665,28 +672,28 @@ public final class ShopMcoinProductOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.ShopMcoinProductOuterClass.ShopMcoinProduct other) {
         if (other == emu.grasscutter.net.proto.ShopMcoinProductOuterClass.ShopMcoinProduct.getDefaultInstance()) return this;
-        if (!other.getIDMEPGKNPNM().isEmpty()) {
-          iDMEPGKNPNM_ = other.iDMEPGKNPNM_;
+        if (!other.getProductId().isEmpty()) {
+          productId_ = other.productId_;
           onChanged();
         }
-        if (!other.getNAFPACJOABI().isEmpty()) {
-          nAFPACJOABI_ = other.nAFPACJOABI_;
+        if (!other.getPriceTier().isEmpty()) {
+          priceTier_ = other.priceTier_;
           onChanged();
         }
-        if (other.getOELBCALLHGE() != 0) {
-          setOELBCALLHGE(other.getOELBCALLHGE());
+        if (other.getMcoinBase() != 0) {
+          setMcoinBase(other.getMcoinBase());
         }
-        if (other.getLJHCFCNMEFF() != false) {
-          setLJHCFCNMEFF(other.getLJHCFCNMEFF());
+        if (other.getMcoinNonFirst() != 0) {
+          setMcoinNonFirst(other.getMcoinNonFirst());
+        }
+        if (other.getMcoinFirst() != 0) {
+          setMcoinFirst(other.getMcoinFirst());
         }
         if (other.getBoughtNum() != 0) {
           setBoughtNum(other.getBoughtNum());
         }
-        if (other.getIPOJPAFAEPM() != 0) {
-          setIPOJPAFAEPM(other.getIPOJPAFAEPM());
-        }
-        if (other.getOLMNNBOLLJP() != 0) {
-          setOLMNNBOLLJP(other.getOLMNNBOLLJP());
+        if (other.getIsAudit() != false) {
+          setIsAudit(other.getIsAudit());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -717,299 +724,309 @@ public final class ShopMcoinProductOuterClass {
         return this;
       }
 
-      private java.lang.Object iDMEPGKNPNM_ = "";
+      private java.lang.Object productId_ = "";
       /**
-       * <code>string IDMEPGKNPNM = 2;</code>
-       * @return The iDMEPGKNPNM.
+       * <code>string product_id = 1;</code>
+       * @return The productId.
        */
-      public java.lang.String getIDMEPGKNPNM() {
-        java.lang.Object ref = iDMEPGKNPNM_;
+      public java.lang.String getProductId() {
+        java.lang.Object ref = productId_;
         if (!(ref instanceof java.lang.String)) {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          iDMEPGKNPNM_ = s;
+          productId_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
         }
       }
       /**
-       * <code>string IDMEPGKNPNM = 2;</code>
-       * @return The bytes for iDMEPGKNPNM.
+       * <code>string product_id = 1;</code>
+       * @return The bytes for productId.
        */
       public com.google.protobuf.ByteString
-          getIDMEPGKNPNMBytes() {
-        java.lang.Object ref = iDMEPGKNPNM_;
+          getProductIdBytes() {
+        java.lang.Object ref = productId_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          iDMEPGKNPNM_ = b;
+          productId_ = b;
           return b;
         } else {
           return (com.google.protobuf.ByteString) ref;
         }
       }
       /**
-       * <code>string IDMEPGKNPNM = 2;</code>
-       * @param value The iDMEPGKNPNM to set.
+       * <code>string product_id = 1;</code>
+       * @param value The productId to set.
        * @return This builder for chaining.
        */
-      public Builder setIDMEPGKNPNM(
+      public Builder setProductId(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-
-        iDMEPGKNPNM_ = value;
+  
+        productId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>string IDMEPGKNPNM = 2;</code>
+       * <code>string product_id = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearIDMEPGKNPNM() {
-
-        iDMEPGKNPNM_ = getDefaultInstance().getIDMEPGKNPNM();
+      public Builder clearProductId() {
+        
+        productId_ = getDefaultInstance().getProductId();
         onChanged();
         return this;
       }
       /**
-       * <code>string IDMEPGKNPNM = 2;</code>
-       * @param value The bytes for iDMEPGKNPNM to set.
+       * <code>string product_id = 1;</code>
+       * @param value The bytes for productId to set.
        * @return This builder for chaining.
        */
-      public Builder setIDMEPGKNPNMBytes(
+      public Builder setProductIdBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
-        iDMEPGKNPNM_ = value;
+        
+        productId_ = value;
         onChanged();
         return this;
       }
 
-      private java.lang.Object nAFPACJOABI_ = "";
+      private java.lang.Object priceTier_ = "";
       /**
-       * <code>string NAFPACJOABI = 1;</code>
-       * @return The nAFPACJOABI.
+       * <code>string price_tier = 2;</code>
+       * @return The priceTier.
        */
-      public java.lang.String getNAFPACJOABI() {
-        java.lang.Object ref = nAFPACJOABI_;
+      public java.lang.String getPriceTier() {
+        java.lang.Object ref = priceTier_;
         if (!(ref instanceof java.lang.String)) {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          nAFPACJOABI_ = s;
+          priceTier_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
         }
       }
       /**
-       * <code>string NAFPACJOABI = 1;</code>
-       * @return The bytes for nAFPACJOABI.
+       * <code>string price_tier = 2;</code>
+       * @return The bytes for priceTier.
        */
       public com.google.protobuf.ByteString
-          getNAFPACJOABIBytes() {
-        java.lang.Object ref = nAFPACJOABI_;
+          getPriceTierBytes() {
+        java.lang.Object ref = priceTier_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          nAFPACJOABI_ = b;
+          priceTier_ = b;
           return b;
         } else {
           return (com.google.protobuf.ByteString) ref;
         }
       }
       /**
-       * <code>string NAFPACJOABI = 1;</code>
-       * @param value The nAFPACJOABI to set.
+       * <code>string price_tier = 2;</code>
+       * @param value The priceTier to set.
        * @return This builder for chaining.
        */
-      public Builder setNAFPACJOABI(
+      public Builder setPriceTier(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-
-        nAFPACJOABI_ = value;
+  
+        priceTier_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>string NAFPACJOABI = 1;</code>
+       * <code>string price_tier = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearNAFPACJOABI() {
-
-        nAFPACJOABI_ = getDefaultInstance().getNAFPACJOABI();
+      public Builder clearPriceTier() {
+        
+        priceTier_ = getDefaultInstance().getPriceTier();
         onChanged();
         return this;
       }
       /**
-       * <code>string NAFPACJOABI = 1;</code>
-       * @param value The bytes for nAFPACJOABI to set.
+       * <code>string price_tier = 2;</code>
+       * @param value The bytes for priceTier to set.
        * @return This builder for chaining.
        */
-      public Builder setNAFPACJOABIBytes(
+      public Builder setPriceTierBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
-        nAFPACJOABI_ = value;
+        
+        priceTier_ = value;
         onChanged();
         return this;
       }
 
-      private int oELBCALLHGE_ ;
+      private int mcoinBase_ ;
       /**
-       * <code>uint32 OELBCALLHGE = 3;</code>
-       * @return The oELBCALLHGE.
+       * <code>uint32 mcoin_base = 3;</code>
+       * @return The mcoinBase.
        */
       @java.lang.Override
-      public int getOELBCALLHGE() {
-        return oELBCALLHGE_;
+      public int getMcoinBase() {
+        return mcoinBase_;
       }
       /**
-       * <code>uint32 OELBCALLHGE = 3;</code>
-       * @param value The oELBCALLHGE to set.
+       * <code>uint32 mcoin_base = 3;</code>
+       * @param value The mcoinBase to set.
        * @return This builder for chaining.
        */
-      public Builder setOELBCALLHGE(int value) {
-
-        oELBCALLHGE_ = value;
+      public Builder setMcoinBase(int value) {
+        
+        mcoinBase_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 OELBCALLHGE = 3;</code>
+       * <code>uint32 mcoin_base = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearOELBCALLHGE() {
-
-        oELBCALLHGE_ = 0;
+      public Builder clearMcoinBase() {
+        
+        mcoinBase_ = 0;
         onChanged();
         return this;
       }
 
-      private boolean lJHCFCNMEFF_ ;
+      private int mcoinNonFirst_ ;
       /**
-       * <code>bool LJHCFCNMEFF = 7;</code>
-       * @return The lJHCFCNMEFF.
+       * <code>uint32 mcoin_non_first = 4;</code>
+       * @return The mcoinNonFirst.
        */
       @java.lang.Override
-      public boolean getLJHCFCNMEFF() {
-        return lJHCFCNMEFF_;
+      public int getMcoinNonFirst() {
+        return mcoinNonFirst_;
       }
       /**
-       * <code>bool LJHCFCNMEFF = 7;</code>
-       * @param value The lJHCFCNMEFF to set.
+       * <code>uint32 mcoin_non_first = 4;</code>
+       * @param value The mcoinNonFirst to set.
        * @return This builder for chaining.
        */
-      public Builder setLJHCFCNMEFF(boolean value) {
-
-        lJHCFCNMEFF_ = value;
+      public Builder setMcoinNonFirst(int value) {
+        
+        mcoinNonFirst_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool LJHCFCNMEFF = 7;</code>
+       * <code>uint32 mcoin_non_first = 4;</code>
        * @return This builder for chaining.
        */
-      public Builder clearLJHCFCNMEFF() {
+      public Builder clearMcoinNonFirst() {
+        
+        mcoinNonFirst_ = 0;
+        onChanged();
+        return this;
+      }
 
-        lJHCFCNMEFF_ = false;
+      private int mcoinFirst_ ;
+      /**
+       * <code>uint32 mcoin_first = 5;</code>
+       * @return The mcoinFirst.
+       */
+      @java.lang.Override
+      public int getMcoinFirst() {
+        return mcoinFirst_;
+      }
+      /**
+       * <code>uint32 mcoin_first = 5;</code>
+       * @param value The mcoinFirst to set.
+       * @return This builder for chaining.
+       */
+      public Builder setMcoinFirst(int value) {
+        
+        mcoinFirst_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 mcoin_first = 5;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearMcoinFirst() {
+        
+        mcoinFirst_ = 0;
         onChanged();
         return this;
       }
 
       private int boughtNum_ ;
-
+      /**
+       * <code>uint32 bought_num = 6;</code>
+       * @return The boughtNum.
+       */
       @java.lang.Override
       public int getBoughtNum() {
         return boughtNum_;
       }
-
+      /**
+       * <code>uint32 bought_num = 6;</code>
+       * @param value The boughtNum to set.
+       * @return This builder for chaining.
+       */
       public Builder setBoughtNum(int value) {
-
+        
         boughtNum_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint32 bought_num = 6;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearBoughtNum() {
-
+        
         boughtNum_ = 0;
         onChanged();
         return this;
       }
 
-      private int iPOJPAFAEPM_ ;
+      private boolean isAudit_ ;
       /**
-       * <code>uint32 IPOJPAFAEPM = 5;</code>
-       * @return The iPOJPAFAEPM.
+       * <code>bool is_audit = 7;</code>
+       * @return The isAudit.
        */
       @java.lang.Override
-      public int getIPOJPAFAEPM() {
-        return iPOJPAFAEPM_;
+      public boolean getIsAudit() {
+        return isAudit_;
       }
       /**
-       * <code>uint32 IPOJPAFAEPM = 5;</code>
-       * @param value The iPOJPAFAEPM to set.
+       * <code>bool is_audit = 7;</code>
+       * @param value The isAudit to set.
        * @return This builder for chaining.
        */
-      public Builder setIPOJPAFAEPM(int value) {
-
-        iPOJPAFAEPM_ = value;
+      public Builder setIsAudit(boolean value) {
+        
+        isAudit_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 IPOJPAFAEPM = 5;</code>
+       * <code>bool is_audit = 7;</code>
        * @return This builder for chaining.
        */
-      public Builder clearIPOJPAFAEPM() {
-
-        iPOJPAFAEPM_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int oLMNNBOLLJP_ ;
-      /**
-       * <code>uint32 OLMNNBOLLJP = 4;</code>
-       * @return The oLMNNBOLLJP.
-       */
-      @java.lang.Override
-      public int getOLMNNBOLLJP() {
-        return oLMNNBOLLJP_;
-      }
-      /**
-       * <code>uint32 OLMNNBOLLJP = 4;</code>
-       * @param value The oLMNNBOLLJP to set.
-       * @return This builder for chaining.
-       */
-      public Builder setOLMNNBOLLJP(int value) {
-
-        oLMNNBOLLJP_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 OLMNNBOLLJP = 4;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearOLMNNBOLLJP() {
-
-        oLMNNBOLLJP_ = 0;
+      public Builder clearIsAudit() {
+        
+        isAudit_ = false;
         onChanged();
         return this;
       }
@@ -1024,6 +1041,7 @@ public final class ShopMcoinProductOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:ShopMcoinProduct)
     }
@@ -1067,7 +1085,7 @@ public final class ShopMcoinProductOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ShopMcoinProduct_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ShopMcoinProduct_fieldAccessorTable;
 
@@ -1079,12 +1097,13 @@ public final class ShopMcoinProductOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\026ShopMcoinProduct.proto\"\244\001\n\020ShopMcoinPr" +
-      "oduct\022\023\n\013IDMEPGKNPNM\030\002 \001(\t\022\023\n\013NAFPACJOAB" +
-      "I\030\001 \001(\t\022\023\n\013OELBCALLHGE\030\003 \001(\r\022\023\n\013LJHCFCNM" +
-      "EFF\030\007 \001(\010\022\022\n\nbought_num\030\006 \001(\r\022\023\n\013IPOJPAF" +
-      "AEPM\030\005 \001(\r\022\023\n\013OLMNNBOLLJP\030\004 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "\n\026ShopMcoinProduct.proto\"\242\001\n\020ShopMcoinPr" +
+      "oduct\022\022\n\nproduct_id\030\001 \001(\t\022\022\n\nprice_tier\030" +
+      "\002 \001(\t\022\022\n\nmcoin_base\030\003 \001(\r\022\027\n\017mcoin_non_f" +
+      "irst\030\004 \001(\r\022\023\n\013mcoin_first\030\005 \001(\r\022\022\n\nbough" +
+      "t_num\030\006 \001(\r\022\020\n\010is_audit\030\007 \001(\010B7\n\031emu.gra" +
+      "sscutter.net.protoB\032ShopMcoinProductOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1095,7 +1114,7 @@ public final class ShopMcoinProductOuterClass {
     internal_static_ShopMcoinProduct_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ShopMcoinProduct_descriptor,
-        new java.lang.String[] { "IDMEPGKNPNM", "NAFPACJOABI", "OELBCALLHGE", "LJHCFCNMEFF", "BoughtNum", "IPOJPAFAEPM", "OLMNNBOLLJP", });
+        new java.lang.String[] { "ProductId", "PriceTier", "McoinBase", "McoinNonFirst", "McoinFirst", "BoughtNum", "IsAudit", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

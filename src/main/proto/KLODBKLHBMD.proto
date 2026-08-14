@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "KLODBKLHBMDOuterClass";
+
+import "ABFMGNFBCOK.proto";
+import "GACDJPLIOAM.proto";
+import "_CurrentPhase.proto";
+
+message KLODBKLHBMD {
+	uint32 slot_id = 1;
+	_CurrentPhase ELOCMMKHNAD = 2;
+	repeated GACDJPLIOAM LKDBKENAIDN = 3;
+	uint32 JBINKFAEHLL = 4;
+	uint32 MLAJBBBFCPB = 5;
+	uint32 NKILDDLEKIE = 6;
+	float GPIBNBDAMIL = 7;
+	uint32 OIJJNFKNIGP = 8;
+	bool KJGOFPPPLEE = 9;
+	ABFMGNFBCOK BBEPCDIECGL = 10;
+	float MBPMCDGEAJE = 11;
+	uint64 NIAGJCJHAHD = 12;
+	uint64 KHNEGCBPFMP = 13;
+}

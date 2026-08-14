@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CustomDungeonResultInfoOuterClass";
+
+import "ChallengeBrief.proto";
+import "CustomDungeonFinishType.proto";
+
+message CustomDungeonResultInfo {
+	uint32 time_cost = 1;
+	bool is_arrive_finish = 4;
+	repeated ChallengeBrief child_challenge_list = 6;
+	bool is_liked = 7;
+	CustomDungeonFinishType finish_type = 8;
+	uint64 dungeon_guid = 9;
+	uint32 got_coin_num = 13;
+	bool is_stored = 15;
+}

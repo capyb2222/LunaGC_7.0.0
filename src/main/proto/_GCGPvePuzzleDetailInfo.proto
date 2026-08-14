@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_GCGPvePuzzleDetailInfoOuterClass";
+
+message _GCGPvePuzzleDetailInfo {
+	repeated uint32 LIPNPNHELML = 6;
+	bool LFAFBLMLCKG = 9;
+}

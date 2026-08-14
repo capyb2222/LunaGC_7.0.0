@@ -19,92 +19,96 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>map&lt;uint32, uint32&gt; HNIOAODPNEL = 11;</code>
+     * <code>bool is_today_has_awarded = 1;</code>
+     * @return The isTodayHasAwarded.
      */
-    int getHNIOAODPNELCount();
+    boolean getIsTodayHasAwarded();
+
     /**
-     * <code>map&lt;uint32, uint32&gt; HNIOAODPNEL = 11;</code>
+     * <code>uint32 today_seed_reward_id = 4;</code>
+     * @return The todaySeedRewardId.
      */
-    boolean containsHNIOAODPNEL(
+    int getTodaySeedRewardId();
+
+    /**
+     * <code>map&lt;uint32, uint32&gt; JOIMIBFDKBA = 9;</code>
+     */
+    int getJOIMIBFDKBACount();
+    /**
+     * <code>map&lt;uint32, uint32&gt; JOIMIBFDKBA = 9;</code>
+     */
+    boolean containsJOIMIBFDKBA(
         int key);
     /**
-     * Use {@link #getHNIOAODPNELMap()} instead.
+     * Use {@link #getJOIMIBFDKBAMap()} instead.
      */
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Integer>
-    getHNIOAODPNEL();
+    getJOIMIBFDKBA();
     /**
-     * <code>map&lt;uint32, uint32&gt; HNIOAODPNEL = 11;</code>
+     * <code>map&lt;uint32, uint32&gt; JOIMIBFDKBA = 9;</code>
      */
     java.util.Map<java.lang.Integer, java.lang.Integer>
-    getHNIOAODPNELMap();
+    getJOIMIBFDKBAMap();
     /**
-     * <code>map&lt;uint32, uint32&gt; HNIOAODPNEL = 11;</code>
+     * <code>map&lt;uint32, uint32&gt; JOIMIBFDKBA = 9;</code>
      */
 
-    int getHNIOAODPNELOrDefault(
+    int getJOIMIBFDKBAOrDefault(
         int key,
         int defaultValue);
     /**
-     * <code>map&lt;uint32, uint32&gt; HNIOAODPNEL = 11;</code>
+     * <code>map&lt;uint32, uint32&gt; JOIMIBFDKBA = 9;</code>
      */
 
-    int getHNIOAODPNELOrThrow(
+    int getJOIMIBFDKBAOrThrow(
         int key);
 
     /**
-     * <code>map&lt;uint32, uint32&gt; HDBFNEKCNLJ = 4;</code>
+     * <code>uint32 day_index = 10;</code>
+     * @return The dayIndex.
      */
-    int getHDBFNEKCNLJCount();
+    int getDayIndex();
+
     /**
-     * <code>map&lt;uint32, uint32&gt; HDBFNEKCNLJ = 4;</code>
+     * <code>map&lt;uint32, uint32&gt; NKAHFKHPICE = 11;</code>
      */
-    boolean containsHDBFNEKCNLJ(
+    int getNKAHFKHPICECount();
+    /**
+     * <code>map&lt;uint32, uint32&gt; NKAHFKHPICE = 11;</code>
+     */
+    boolean containsNKAHFKHPICE(
         int key);
     /**
-     * Use {@link #getHDBFNEKCNLJMap()} instead.
+     * Use {@link #getNKAHFKHPICEMap()} instead.
      */
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Integer>
-    getHDBFNEKCNLJ();
+    getNKAHFKHPICE();
     /**
-     * <code>map&lt;uint32, uint32&gt; HDBFNEKCNLJ = 4;</code>
+     * <code>map&lt;uint32, uint32&gt; NKAHFKHPICE = 11;</code>
      */
     java.util.Map<java.lang.Integer, java.lang.Integer>
-    getHDBFNEKCNLJMap();
+    getNKAHFKHPICEMap();
     /**
-     * <code>map&lt;uint32, uint32&gt; HDBFNEKCNLJ = 4;</code>
+     * <code>map&lt;uint32, uint32&gt; NKAHFKHPICE = 11;</code>
      */
 
-    int getHDBFNEKCNLJOrDefault(
+    int getNKAHFKHPICEOrDefault(
         int key,
         int defaultValue);
     /**
-     * <code>map&lt;uint32, uint32&gt; HDBFNEKCNLJ = 4;</code>
+     * <code>map&lt;uint32, uint32&gt; NKAHFKHPICE = 11;</code>
      */
 
-    int getHDBFNEKCNLJOrThrow(
+    int getNKAHFKHPICEOrThrow(
         int key);
 
     /**
-     * <code>uint32 JPHIEIBHOLI = 10;</code>
-     * @return The jPHIEIBHOLI.
+     * <code>bool is_content_closed = 15;</code>
+     * @return The isContentClosed.
      */
-    int getJPHIEIBHOLI();
-
-    /**
-     * <code>bool AEIMHLOIOKN = 15;</code>
-     * @return The aEIMHLOIOKN.
-     */
-    boolean getAEIMHLOIOKN();
-
     boolean getIsContentClosed();
-
-    /**
-     * <code>uint32 BMLIGIIELDE = 3;</code>
-     * @return The bMLIGIIELDE.
-     */
-    int getBMLIGIIELDE();
   }
   /**
    * Protobuf type {@code PlantFlowerActivityDetailInfo}
@@ -152,50 +156,50 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 8: {
 
-              bMLIGIIELDE_ = input.readUInt32();
+              isTodayHasAwarded_ = input.readBool();
               break;
             }
-            case 34: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                hDBFNEKCNLJ_ = com.google.protobuf.MapField.newMapField(
-                    HDBFNEKCNLJDefaultEntryHolder.defaultEntry);
-                mutable_bitField0_ |= 0x00000002;
+            case 32: {
+
+              todaySeedRewardId_ = input.readUInt32();
+              break;
+            }
+            case 74: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                jOIMIBFDKBA_ = com.google.protobuf.MapField.newMapField(
+                    JOIMIBFDKBADefaultEntryHolder.defaultEntry);
+                mutable_bitField0_ |= 0x00000001;
               }
               com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
-              hDBFNEKCNLJ__ = input.readMessage(
-                  HDBFNEKCNLJDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
-              hDBFNEKCNLJ_.getMutableMap().put(
-                  hDBFNEKCNLJ__.getKey(), hDBFNEKCNLJ__.getValue());
+              jOIMIBFDKBA__ = input.readMessage(
+                  JOIMIBFDKBADefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
+              jOIMIBFDKBA_.getMutableMap().put(
+                  jOIMIBFDKBA__.getKey(), jOIMIBFDKBA__.getValue());
               break;
             }
             case 80: {
 
-              jPHIEIBHOLI_ = input.readUInt32();
+              dayIndex_ = input.readUInt32();
               break;
             }
             case 90: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                hNIOAODPNEL_ = com.google.protobuf.MapField.newMapField(
-                    HNIOAODPNELDefaultEntryHolder.defaultEntry);
-                mutable_bitField0_ |= 0x00000001;
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                nKAHFKHPICE_ = com.google.protobuf.MapField.newMapField(
+                    NKAHFKHPICEDefaultEntryHolder.defaultEntry);
+                mutable_bitField0_ |= 0x00000002;
               }
               com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
-              hNIOAODPNEL__ = input.readMessage(
-                  HNIOAODPNELDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
-              hNIOAODPNEL_.getMutableMap().put(
-                  hNIOAODPNEL__.getKey(), hNIOAODPNEL__.getValue());
-              break;
-            }
-            case 72: {
-
-              isContentClosed_ = input.readBool();
+              nKAHFKHPICE__ = input.readMessage(
+                  NKAHFKHPICEDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
+              nKAHFKHPICE_.getMutableMap().put(
+                  nKAHFKHPICE__.getKey(), nKAHFKHPICE__.getValue());
               break;
             }
             case 120: {
 
-              aEIMHLOIOKN_ = input.readBool();
+              isContentClosed_ = input.readBool();
               break;
             }
             default: {
@@ -227,10 +231,10 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
     protected com.google.protobuf.MapField internalGetMapField(
         int number) {
       switch (number) {
+        case 9:
+          return internalGetJOIMIBFDKBA();
         case 11:
-          return internalGetHNIOAODPNEL();
-        case 4:
-          return internalGetHDBFNEKCNLJ();
+          return internalGetNKAHFKHPICE();
         default:
           throw new RuntimeException(
               "Invalid map field number: " + number);
@@ -244,207 +248,210 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.PlantFlowerActivityDetailInfo.class, emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.PlantFlowerActivityDetailInfo.Builder.class);
     }
 
-    public static final int HNIOAODPNEL_FIELD_NUMBER = 11;
-    private static final class HNIOAODPNELDefaultEntryHolder {
+    public static final int IS_TODAY_HAS_AWARDED_FIELD_NUMBER = 1;
+    private boolean isTodayHasAwarded_;
+    /**
+     * <code>bool is_today_has_awarded = 1;</code>
+     * @return The isTodayHasAwarded.
+     */
+    @java.lang.Override
+    public boolean getIsTodayHasAwarded() {
+      return isTodayHasAwarded_;
+    }
+
+    public static final int TODAY_SEED_REWARD_ID_FIELD_NUMBER = 4;
+    private int todaySeedRewardId_;
+    /**
+     * <code>uint32 today_seed_reward_id = 4;</code>
+     * @return The todaySeedRewardId.
+     */
+    @java.lang.Override
+    public int getTodaySeedRewardId() {
+      return todaySeedRewardId_;
+    }
+
+    public static final int JOIMIBFDKBA_FIELD_NUMBER = 9;
+    private static final class JOIMIBFDKBADefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.internal_static_PlantFlowerActivityDetailInfo_HNIOAODPNELEntry_descriptor,
+                  emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.internal_static_PlantFlowerActivityDetailInfo_JOIMIBFDKBAEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0);
     }
     private com.google.protobuf.MapField<
-        java.lang.Integer, java.lang.Integer> hNIOAODPNEL_;
+        java.lang.Integer, java.lang.Integer> jOIMIBFDKBA_;
     private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-    internalGetHNIOAODPNEL() {
-      if (hNIOAODPNEL_ == null) {
+    internalGetJOIMIBFDKBA() {
+      if (jOIMIBFDKBA_ == null) {
         return com.google.protobuf.MapField.emptyMapField(
-            HNIOAODPNELDefaultEntryHolder.defaultEntry);
+            JOIMIBFDKBADefaultEntryHolder.defaultEntry);
       }
-      return hNIOAODPNEL_;
+      return jOIMIBFDKBA_;
     }
 
-    public int getHNIOAODPNELCount() {
-      return internalGetHNIOAODPNEL().getMap().size();
+    public int getJOIMIBFDKBACount() {
+      return internalGetJOIMIBFDKBA().getMap().size();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; HNIOAODPNEL = 11;</code>
+     * <code>map&lt;uint32, uint32&gt; JOIMIBFDKBA = 9;</code>
      */
 
     @java.lang.Override
-    public boolean containsHNIOAODPNEL(
+    public boolean containsJOIMIBFDKBA(
         int key) {
-
-      return internalGetHNIOAODPNEL().getMap().containsKey(key);
+      
+      return internalGetJOIMIBFDKBA().getMap().containsKey(key);
     }
     /**
-     * Use {@link #getHNIOAODPNELMap()} instead.
+     * Use {@link #getJOIMIBFDKBAMap()} instead.
      */
     @java.lang.Override
     @java.lang.Deprecated
-    public java.util.Map<java.lang.Integer, java.lang.Integer> getHNIOAODPNEL() {
-      return getHNIOAODPNELMap();
+    public java.util.Map<java.lang.Integer, java.lang.Integer> getJOIMIBFDKBA() {
+      return getJOIMIBFDKBAMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; HNIOAODPNEL = 11;</code>
+     * <code>map&lt;uint32, uint32&gt; JOIMIBFDKBA = 9;</code>
      */
     @java.lang.Override
 
-    public java.util.Map<java.lang.Integer, java.lang.Integer> getHNIOAODPNELMap() {
-      return internalGetHNIOAODPNEL().getMap();
+    public java.util.Map<java.lang.Integer, java.lang.Integer> getJOIMIBFDKBAMap() {
+      return internalGetJOIMIBFDKBA().getMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; HNIOAODPNEL = 11;</code>
+     * <code>map&lt;uint32, uint32&gt; JOIMIBFDKBA = 9;</code>
      */
     @java.lang.Override
 
-    public int getHNIOAODPNELOrDefault(
+    public int getJOIMIBFDKBAOrDefault(
         int key,
         int defaultValue) {
-
+      
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
-          internalGetHNIOAODPNEL().getMap();
+          internalGetJOIMIBFDKBA().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; HNIOAODPNEL = 11;</code>
+     * <code>map&lt;uint32, uint32&gt; JOIMIBFDKBA = 9;</code>
      */
     @java.lang.Override
 
-    public int getHNIOAODPNELOrThrow(
+    public int getJOIMIBFDKBAOrThrow(
         int key) {
-
+      
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
-          internalGetHNIOAODPNEL().getMap();
+          internalGetJOIMIBFDKBA().getMap();
       if (!map.containsKey(key)) {
         throw new java.lang.IllegalArgumentException();
       }
       return map.get(key);
     }
 
-    public static final int HDBFNEKCNLJ_FIELD_NUMBER = 4;
-    private static final class HDBFNEKCNLJDefaultEntryHolder {
+    public static final int DAY_INDEX_FIELD_NUMBER = 10;
+    private int dayIndex_;
+    /**
+     * <code>uint32 day_index = 10;</code>
+     * @return The dayIndex.
+     */
+    @java.lang.Override
+    public int getDayIndex() {
+      return dayIndex_;
+    }
+
+    public static final int NKAHFKHPICE_FIELD_NUMBER = 11;
+    private static final class NKAHFKHPICEDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.internal_static_PlantFlowerActivityDetailInfo_HDBFNEKCNLJEntry_descriptor,
+                  emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.internal_static_PlantFlowerActivityDetailInfo_NKAHFKHPICEEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0);
     }
     private com.google.protobuf.MapField<
-        java.lang.Integer, java.lang.Integer> hDBFNEKCNLJ_;
+        java.lang.Integer, java.lang.Integer> nKAHFKHPICE_;
     private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-    internalGetHDBFNEKCNLJ() {
-      if (hDBFNEKCNLJ_ == null) {
+    internalGetNKAHFKHPICE() {
+      if (nKAHFKHPICE_ == null) {
         return com.google.protobuf.MapField.emptyMapField(
-            HDBFNEKCNLJDefaultEntryHolder.defaultEntry);
+            NKAHFKHPICEDefaultEntryHolder.defaultEntry);
       }
-      return hDBFNEKCNLJ_;
+      return nKAHFKHPICE_;
     }
 
-    public int getHDBFNEKCNLJCount() {
-      return internalGetHDBFNEKCNLJ().getMap().size();
+    public int getNKAHFKHPICECount() {
+      return internalGetNKAHFKHPICE().getMap().size();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; HDBFNEKCNLJ = 4;</code>
+     * <code>map&lt;uint32, uint32&gt; NKAHFKHPICE = 11;</code>
      */
 
     @java.lang.Override
-    public boolean containsHDBFNEKCNLJ(
+    public boolean containsNKAHFKHPICE(
         int key) {
-
-      return internalGetHDBFNEKCNLJ().getMap().containsKey(key);
+      
+      return internalGetNKAHFKHPICE().getMap().containsKey(key);
     }
     /**
-     * Use {@link #getHDBFNEKCNLJMap()} instead.
+     * Use {@link #getNKAHFKHPICEMap()} instead.
      */
     @java.lang.Override
     @java.lang.Deprecated
-    public java.util.Map<java.lang.Integer, java.lang.Integer> getHDBFNEKCNLJ() {
-      return getHDBFNEKCNLJMap();
+    public java.util.Map<java.lang.Integer, java.lang.Integer> getNKAHFKHPICE() {
+      return getNKAHFKHPICEMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; HDBFNEKCNLJ = 4;</code>
+     * <code>map&lt;uint32, uint32&gt; NKAHFKHPICE = 11;</code>
      */
     @java.lang.Override
 
-    public java.util.Map<java.lang.Integer, java.lang.Integer> getHDBFNEKCNLJMap() {
-      return internalGetHDBFNEKCNLJ().getMap();
+    public java.util.Map<java.lang.Integer, java.lang.Integer> getNKAHFKHPICEMap() {
+      return internalGetNKAHFKHPICE().getMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; HDBFNEKCNLJ = 4;</code>
+     * <code>map&lt;uint32, uint32&gt; NKAHFKHPICE = 11;</code>
      */
     @java.lang.Override
 
-    public int getHDBFNEKCNLJOrDefault(
+    public int getNKAHFKHPICEOrDefault(
         int key,
         int defaultValue) {
-
+      
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
-          internalGetHDBFNEKCNLJ().getMap();
+          internalGetNKAHFKHPICE().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; HDBFNEKCNLJ = 4;</code>
+     * <code>map&lt;uint32, uint32&gt; NKAHFKHPICE = 11;</code>
      */
     @java.lang.Override
 
-    public int getHDBFNEKCNLJOrThrow(
+    public int getNKAHFKHPICEOrThrow(
         int key) {
-
+      
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
-          internalGetHDBFNEKCNLJ().getMap();
+          internalGetNKAHFKHPICE().getMap();
       if (!map.containsKey(key)) {
         throw new java.lang.IllegalArgumentException();
       }
       return map.get(key);
     }
 
-    public static final int JPHIEIBHOLI_FIELD_NUMBER = 10;
-    private int jPHIEIBHOLI_;
-    /**
-     * <code>uint32 JPHIEIBHOLI = 10;</code>
-     * @return The jPHIEIBHOLI.
-     */
-    @java.lang.Override
-    public int getJPHIEIBHOLI() {
-      return jPHIEIBHOLI_;
-    }
-
-    public static final int AEIMHLOIOKN_FIELD_NUMBER = 15;
-    private boolean aEIMHLOIOKN_;
-    /**
-     * <code>bool AEIMHLOIOKN = 15;</code>
-     * @return The aEIMHLOIOKN.
-     */
-    @java.lang.Override
-    public boolean getAEIMHLOIOKN() {
-      return aEIMHLOIOKN_;
-    }
-
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 9;
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 15;
     private boolean isContentClosed_;
-
+    /**
+     * <code>bool is_content_closed = 15;</code>
+     * @return The isContentClosed.
+     */
     @java.lang.Override
     public boolean getIsContentClosed() {
       return isContentClosed_;
-    }
-
-    public static final int BMLIGIIELDE_FIELD_NUMBER = 3;
-    private int bMLIGIIELDE_;
-    /**
-     * <code>uint32 BMLIGIIELDE = 3;</code>
-     * @return The bMLIGIIELDE.
-     */
-    @java.lang.Override
-    public int getBMLIGIIELDE() {
-      return bMLIGIIELDE_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -461,29 +468,29 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (bMLIGIIELDE_ != 0) {
-        output.writeUInt32(3, bMLIGIIELDE_);
+      if (isTodayHasAwarded_ != false) {
+        output.writeBool(1, isTodayHasAwarded_);
+      }
+      if (todaySeedRewardId_ != 0) {
+        output.writeUInt32(4, todaySeedRewardId_);
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
-          internalGetHDBFNEKCNLJ(),
-          HDBFNEKCNLJDefaultEntryHolder.defaultEntry,
-          4);
-      if (jPHIEIBHOLI_ != 0) {
-        output.writeUInt32(10, jPHIEIBHOLI_);
+          internalGetJOIMIBFDKBA(),
+          JOIMIBFDKBADefaultEntryHolder.defaultEntry,
+          9);
+      if (dayIndex_ != 0) {
+        output.writeUInt32(10, dayIndex_);
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
-          internalGetHNIOAODPNEL(),
-          HNIOAODPNELDefaultEntryHolder.defaultEntry,
+          internalGetNKAHFKHPICE(),
+          NKAHFKHPICEDefaultEntryHolder.defaultEntry,
           11);
       if (isContentClosed_ != false) {
-        output.writeBool(9, isContentClosed_);
-      }
-      if (aEIMHLOIOKN_ != false) {
-        output.writeBool(15, aEIMHLOIOKN_);
+        output.writeBool(15, isContentClosed_);
       }
       unknownFields.writeTo(output);
     }
@@ -494,41 +501,41 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (bMLIGIIELDE_ != 0) {
+      if (isTodayHasAwarded_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, bMLIGIIELDE_);
+          .computeBoolSize(1, isTodayHasAwarded_);
+      }
+      if (todaySeedRewardId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(4, todaySeedRewardId_);
       }
       for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
-           : internalGetHDBFNEKCNLJ().getMap().entrySet()) {
+           : internalGetJOIMIBFDKBA().getMap().entrySet()) {
         com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
-        hDBFNEKCNLJ__ = HDBFNEKCNLJDefaultEntryHolder.defaultEntry.newBuilderForType()
+        jOIMIBFDKBA__ = JOIMIBFDKBADefaultEntryHolder.defaultEntry.newBuilderForType()
             .setKey(entry.getKey())
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(4, hDBFNEKCNLJ__);
+            .computeMessageSize(9, jOIMIBFDKBA__);
       }
-      if (jPHIEIBHOLI_ != 0) {
+      if (dayIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, jPHIEIBHOLI_);
+          .computeUInt32Size(10, dayIndex_);
       }
       for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
-           : internalGetHNIOAODPNEL().getMap().entrySet()) {
+           : internalGetNKAHFKHPICE().getMap().entrySet()) {
         com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
-        hNIOAODPNEL__ = HNIOAODPNELDefaultEntryHolder.defaultEntry.newBuilderForType()
+        nKAHFKHPICE__ = NKAHFKHPICEDefaultEntryHolder.defaultEntry.newBuilderForType()
             .setKey(entry.getKey())
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(11, hNIOAODPNEL__);
+            .computeMessageSize(11, nKAHFKHPICE__);
       }
       if (isContentClosed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isContentClosed_);
-      }
-      if (aEIMHLOIOKN_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, aEIMHLOIOKN_);
+          .computeBoolSize(15, isContentClosed_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -545,18 +552,18 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.PlantFlowerActivityDetailInfo other = (emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.PlantFlowerActivityDetailInfo) obj;
 
-      if (!internalGetHNIOAODPNEL().equals(
-          other.internalGetHNIOAODPNEL())) return false;
-      if (!internalGetHDBFNEKCNLJ().equals(
-          other.internalGetHDBFNEKCNLJ())) return false;
-      if (getJPHIEIBHOLI()
-          != other.getJPHIEIBHOLI()) return false;
-      if (getAEIMHLOIOKN()
-          != other.getAEIMHLOIOKN()) return false;
+      if (getIsTodayHasAwarded()
+          != other.getIsTodayHasAwarded()) return false;
+      if (getTodaySeedRewardId()
+          != other.getTodaySeedRewardId()) return false;
+      if (!internalGetJOIMIBFDKBA().equals(
+          other.internalGetJOIMIBFDKBA())) return false;
+      if (getDayIndex()
+          != other.getDayIndex()) return false;
+      if (!internalGetNKAHFKHPICE().equals(
+          other.internalGetNKAHFKHPICE())) return false;
       if (getIsContentClosed()
           != other.getIsContentClosed()) return false;
-      if (getBMLIGIIELDE()
-          != other.getBMLIGIIELDE()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -568,24 +575,24 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (!internalGetHNIOAODPNEL().getMap().isEmpty()) {
-        hash = (37 * hash) + HNIOAODPNEL_FIELD_NUMBER;
-        hash = (53 * hash) + internalGetHNIOAODPNEL().hashCode();
-      }
-      if (!internalGetHDBFNEKCNLJ().getMap().isEmpty()) {
-        hash = (37 * hash) + HDBFNEKCNLJ_FIELD_NUMBER;
-        hash = (53 * hash) + internalGetHDBFNEKCNLJ().hashCode();
-      }
-      hash = (37 * hash) + JPHIEIBHOLI_FIELD_NUMBER;
-      hash = (53 * hash) + getJPHIEIBHOLI();
-      hash = (37 * hash) + AEIMHLOIOKN_FIELD_NUMBER;
+      hash = (37 * hash) + IS_TODAY_HAS_AWARDED_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getAEIMHLOIOKN());
+          getIsTodayHasAwarded());
+      hash = (37 * hash) + TODAY_SEED_REWARD_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getTodaySeedRewardId();
+      if (!internalGetJOIMIBFDKBA().getMap().isEmpty()) {
+        hash = (37 * hash) + JOIMIBFDKBA_FIELD_NUMBER;
+        hash = (53 * hash) + internalGetJOIMIBFDKBA().hashCode();
+      }
+      hash = (37 * hash) + DAY_INDEX_FIELD_NUMBER;
+      hash = (53 * hash) + getDayIndex();
+      if (!internalGetNKAHFKHPICE().getMap().isEmpty()) {
+        hash = (37 * hash) + NKAHFKHPICE_FIELD_NUMBER;
+        hash = (53 * hash) + internalGetNKAHFKHPICE().hashCode();
+      }
       hash = (37 * hash) + IS_CONTENT_CLOSED_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsContentClosed());
-      hash = (37 * hash) + BMLIGIIELDE_FIELD_NUMBER;
-      hash = (53 * hash) + getBMLIGIIELDE();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -697,10 +704,10 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       protected com.google.protobuf.MapField internalGetMapField(
           int number) {
         switch (number) {
+          case 9:
+            return internalGetJOIMIBFDKBA();
           case 11:
-            return internalGetHNIOAODPNEL();
-          case 4:
-            return internalGetHDBFNEKCNLJ();
+            return internalGetNKAHFKHPICE();
           default:
             throw new RuntimeException(
                 "Invalid map field number: " + number);
@@ -710,10 +717,10 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       protected com.google.protobuf.MapField internalGetMutableMapField(
           int number) {
         switch (number) {
+          case 9:
+            return internalGetMutableJOIMIBFDKBA();
           case 11:
-            return internalGetMutableHNIOAODPNEL();
-          case 4:
-            return internalGetMutableHDBFNEKCNLJ();
+            return internalGetMutableNKAHFKHPICE();
           default:
             throw new RuntimeException(
                 "Invalid map field number: " + number);
@@ -745,15 +752,15 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        internalGetMutableHNIOAODPNEL().clear();
-        internalGetMutableHDBFNEKCNLJ().clear();
-        jPHIEIBHOLI_ = 0;
+        isTodayHasAwarded_ = false;
 
-        aEIMHLOIOKN_ = false;
+        todaySeedRewardId_ = 0;
 
+        internalGetMutableJOIMIBFDKBA().clear();
+        dayIndex_ = 0;
+
+        internalGetMutableNKAHFKHPICE().clear();
         isContentClosed_ = false;
-
-        bMLIGIIELDE_ = 0;
 
         return this;
       }
@@ -782,14 +789,14 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       public emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.PlantFlowerActivityDetailInfo buildPartial() {
         emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.PlantFlowerActivityDetailInfo result = new emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.PlantFlowerActivityDetailInfo(this);
         int from_bitField0_ = bitField0_;
-        result.hNIOAODPNEL_ = internalGetHNIOAODPNEL();
-        result.hNIOAODPNEL_.makeImmutable();
-        result.hDBFNEKCNLJ_ = internalGetHDBFNEKCNLJ();
-        result.hDBFNEKCNLJ_.makeImmutable();
-        result.jPHIEIBHOLI_ = jPHIEIBHOLI_;
-        result.aEIMHLOIOKN_ = aEIMHLOIOKN_;
+        result.isTodayHasAwarded_ = isTodayHasAwarded_;
+        result.todaySeedRewardId_ = todaySeedRewardId_;
+        result.jOIMIBFDKBA_ = internalGetJOIMIBFDKBA();
+        result.jOIMIBFDKBA_.makeImmutable();
+        result.dayIndex_ = dayIndex_;
+        result.nKAHFKHPICE_ = internalGetNKAHFKHPICE();
+        result.nKAHFKHPICE_.makeImmutable();
         result.isContentClosed_ = isContentClosed_;
-        result.bMLIGIIELDE_ = bMLIGIIELDE_;
         onBuilt();
         return result;
       }
@@ -838,21 +845,21 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.PlantFlowerActivityDetailInfo other) {
         if (other == emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.PlantFlowerActivityDetailInfo.getDefaultInstance()) return this;
-        internalGetMutableHNIOAODPNEL().mergeFrom(
-            other.internalGetHNIOAODPNEL());
-        internalGetMutableHDBFNEKCNLJ().mergeFrom(
-            other.internalGetHDBFNEKCNLJ());
-        if (other.getJPHIEIBHOLI() != 0) {
-          setJPHIEIBHOLI(other.getJPHIEIBHOLI());
+        if (other.getIsTodayHasAwarded() != false) {
+          setIsTodayHasAwarded(other.getIsTodayHasAwarded());
         }
-        if (other.getAEIMHLOIOKN() != false) {
-          setAEIMHLOIOKN(other.getAEIMHLOIOKN());
+        if (other.getTodaySeedRewardId() != 0) {
+          setTodaySeedRewardId(other.getTodaySeedRewardId());
         }
+        internalGetMutableJOIMIBFDKBA().mergeFrom(
+            other.internalGetJOIMIBFDKBA());
+        if (other.getDayIndex() != 0) {
+          setDayIndex(other.getDayIndex());
+        }
+        internalGetMutableNKAHFKHPICE().mergeFrom(
+            other.internalGetNKAHFKHPICE());
         if (other.getIsContentClosed() != false) {
           setIsContentClosed(other.getIsContentClosed());
-        }
-        if (other.getBMLIGIIELDE() != 0) {
-          setBMLIGIIELDE(other.getBMLIGIIELDE());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -884,100 +891,162 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.MapField<
-          java.lang.Integer, java.lang.Integer> hNIOAODPNEL_;
-      private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-      internalGetHNIOAODPNEL() {
-        if (hNIOAODPNEL_ == null) {
-          return com.google.protobuf.MapField.emptyMapField(
-              HNIOAODPNELDefaultEntryHolder.defaultEntry);
-        }
-        return hNIOAODPNEL_;
-      }
-      private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-      internalGetMutableHNIOAODPNEL() {
-        onChanged();;
-        if (hNIOAODPNEL_ == null) {
-          hNIOAODPNEL_ = com.google.protobuf.MapField.newMapField(
-              HNIOAODPNELDefaultEntryHolder.defaultEntry);
-        }
-        if (!hNIOAODPNEL_.isMutable()) {
-          hNIOAODPNEL_ = hNIOAODPNEL_.copy();
-        }
-        return hNIOAODPNEL_;
-      }
-
-      public int getHNIOAODPNELCount() {
-        return internalGetHNIOAODPNEL().getMap().size();
+      private boolean isTodayHasAwarded_ ;
+      /**
+       * <code>bool is_today_has_awarded = 1;</code>
+       * @return The isTodayHasAwarded.
+       */
+      @java.lang.Override
+      public boolean getIsTodayHasAwarded() {
+        return isTodayHasAwarded_;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; HNIOAODPNEL = 11;</code>
+       * <code>bool is_today_has_awarded = 1;</code>
+       * @param value The isTodayHasAwarded to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIsTodayHasAwarded(boolean value) {
+        
+        isTodayHasAwarded_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool is_today_has_awarded = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIsTodayHasAwarded() {
+        
+        isTodayHasAwarded_ = false;
+        onChanged();
+        return this;
+      }
+
+      private int todaySeedRewardId_ ;
+      /**
+       * <code>uint32 today_seed_reward_id = 4;</code>
+       * @return The todaySeedRewardId.
+       */
+      @java.lang.Override
+      public int getTodaySeedRewardId() {
+        return todaySeedRewardId_;
+      }
+      /**
+       * <code>uint32 today_seed_reward_id = 4;</code>
+       * @param value The todaySeedRewardId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setTodaySeedRewardId(int value) {
+        
+        todaySeedRewardId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 today_seed_reward_id = 4;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearTodaySeedRewardId() {
+        
+        todaySeedRewardId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.MapField<
+          java.lang.Integer, java.lang.Integer> jOIMIBFDKBA_;
+      private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
+      internalGetJOIMIBFDKBA() {
+        if (jOIMIBFDKBA_ == null) {
+          return com.google.protobuf.MapField.emptyMapField(
+              JOIMIBFDKBADefaultEntryHolder.defaultEntry);
+        }
+        return jOIMIBFDKBA_;
+      }
+      private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
+      internalGetMutableJOIMIBFDKBA() {
+        onChanged();;
+        if (jOIMIBFDKBA_ == null) {
+          jOIMIBFDKBA_ = com.google.protobuf.MapField.newMapField(
+              JOIMIBFDKBADefaultEntryHolder.defaultEntry);
+        }
+        if (!jOIMIBFDKBA_.isMutable()) {
+          jOIMIBFDKBA_ = jOIMIBFDKBA_.copy();
+        }
+        return jOIMIBFDKBA_;
+      }
+
+      public int getJOIMIBFDKBACount() {
+        return internalGetJOIMIBFDKBA().getMap().size();
+      }
+      /**
+       * <code>map&lt;uint32, uint32&gt; JOIMIBFDKBA = 9;</code>
        */
 
       @java.lang.Override
-      public boolean containsHNIOAODPNEL(
+      public boolean containsJOIMIBFDKBA(
           int key) {
-
-        return internalGetHNIOAODPNEL().getMap().containsKey(key);
+        
+        return internalGetJOIMIBFDKBA().getMap().containsKey(key);
       }
       /**
-       * Use {@link #getHNIOAODPNELMap()} instead.
+       * Use {@link #getJOIMIBFDKBAMap()} instead.
        */
       @java.lang.Override
       @java.lang.Deprecated
-      public java.util.Map<java.lang.Integer, java.lang.Integer> getHNIOAODPNEL() {
-        return getHNIOAODPNELMap();
+      public java.util.Map<java.lang.Integer, java.lang.Integer> getJOIMIBFDKBA() {
+        return getJOIMIBFDKBAMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; HNIOAODPNEL = 11;</code>
+       * <code>map&lt;uint32, uint32&gt; JOIMIBFDKBA = 9;</code>
        */
       @java.lang.Override
 
-      public java.util.Map<java.lang.Integer, java.lang.Integer> getHNIOAODPNELMap() {
-        return internalGetHNIOAODPNEL().getMap();
+      public java.util.Map<java.lang.Integer, java.lang.Integer> getJOIMIBFDKBAMap() {
+        return internalGetJOIMIBFDKBA().getMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; HNIOAODPNEL = 11;</code>
+       * <code>map&lt;uint32, uint32&gt; JOIMIBFDKBA = 9;</code>
        */
       @java.lang.Override
 
-      public int getHNIOAODPNELOrDefault(
+      public int getJOIMIBFDKBAOrDefault(
           int key,
           int defaultValue) {
-
+        
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
-            internalGetHNIOAODPNEL().getMap();
+            internalGetJOIMIBFDKBA().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; HNIOAODPNEL = 11;</code>
+       * <code>map&lt;uint32, uint32&gt; JOIMIBFDKBA = 9;</code>
        */
       @java.lang.Override
 
-      public int getHNIOAODPNELOrThrow(
+      public int getJOIMIBFDKBAOrThrow(
           int key) {
-
+        
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
-            internalGetHNIOAODPNEL().getMap();
+            internalGetJOIMIBFDKBA().getMap();
         if (!map.containsKey(key)) {
           throw new java.lang.IllegalArgumentException();
         }
         return map.get(key);
       }
 
-      public Builder clearHNIOAODPNEL() {
-        internalGetMutableHNIOAODPNEL().getMutableMap()
+      public Builder clearJOIMIBFDKBA() {
+        internalGetMutableJOIMIBFDKBA().getMutableMap()
             .clear();
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; HNIOAODPNEL = 11;</code>
+       * <code>map&lt;uint32, uint32&gt; JOIMIBFDKBA = 9;</code>
        */
 
-      public Builder removeHNIOAODPNEL(
+      public Builder removeJOIMIBFDKBA(
           int key) {
-
-        internalGetMutableHNIOAODPNEL().getMutableMap()
+        
+        internalGetMutableJOIMIBFDKBA().getMutableMap()
             .remove(key);
         return this;
       }
@@ -986,125 +1055,157 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
        */
       @java.lang.Deprecated
       public java.util.Map<java.lang.Integer, java.lang.Integer>
-      getMutableHNIOAODPNEL() {
-        return internalGetMutableHNIOAODPNEL().getMutableMap();
+      getMutableJOIMIBFDKBA() {
+        return internalGetMutableJOIMIBFDKBA().getMutableMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; HNIOAODPNEL = 11;</code>
+       * <code>map&lt;uint32, uint32&gt; JOIMIBFDKBA = 9;</code>
        */
-      public Builder putHNIOAODPNEL(
+      public Builder putJOIMIBFDKBA(
           int key,
           int value) {
-
-        internalGetMutableHNIOAODPNEL().getMutableMap()
+        
+        
+        internalGetMutableJOIMIBFDKBA().getMutableMap()
             .put(key, value);
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; HNIOAODPNEL = 11;</code>
+       * <code>map&lt;uint32, uint32&gt; JOIMIBFDKBA = 9;</code>
        */
 
-      public Builder putAllHNIOAODPNEL(
+      public Builder putAllJOIMIBFDKBA(
           java.util.Map<java.lang.Integer, java.lang.Integer> values) {
-        internalGetMutableHNIOAODPNEL().getMutableMap()
+        internalGetMutableJOIMIBFDKBA().getMutableMap()
             .putAll(values);
         return this;
       }
 
-      private com.google.protobuf.MapField<
-          java.lang.Integer, java.lang.Integer> hDBFNEKCNLJ_;
-      private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-      internalGetHDBFNEKCNLJ() {
-        if (hDBFNEKCNLJ_ == null) {
-          return com.google.protobuf.MapField.emptyMapField(
-              HDBFNEKCNLJDefaultEntryHolder.defaultEntry);
-        }
-        return hDBFNEKCNLJ_;
-      }
-      private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-      internalGetMutableHDBFNEKCNLJ() {
-        onChanged();;
-        if (hDBFNEKCNLJ_ == null) {
-          hDBFNEKCNLJ_ = com.google.protobuf.MapField.newMapField(
-              HDBFNEKCNLJDefaultEntryHolder.defaultEntry);
-        }
-        if (!hDBFNEKCNLJ_.isMutable()) {
-          hDBFNEKCNLJ_ = hDBFNEKCNLJ_.copy();
-        }
-        return hDBFNEKCNLJ_;
-      }
-
-      public int getHDBFNEKCNLJCount() {
-        return internalGetHDBFNEKCNLJ().getMap().size();
+      private int dayIndex_ ;
+      /**
+       * <code>uint32 day_index = 10;</code>
+       * @return The dayIndex.
+       */
+      @java.lang.Override
+      public int getDayIndex() {
+        return dayIndex_;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; HDBFNEKCNLJ = 4;</code>
+       * <code>uint32 day_index = 10;</code>
+       * @param value The dayIndex to set.
+       * @return This builder for chaining.
+       */
+      public Builder setDayIndex(int value) {
+        
+        dayIndex_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 day_index = 10;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearDayIndex() {
+        
+        dayIndex_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.MapField<
+          java.lang.Integer, java.lang.Integer> nKAHFKHPICE_;
+      private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
+      internalGetNKAHFKHPICE() {
+        if (nKAHFKHPICE_ == null) {
+          return com.google.protobuf.MapField.emptyMapField(
+              NKAHFKHPICEDefaultEntryHolder.defaultEntry);
+        }
+        return nKAHFKHPICE_;
+      }
+      private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
+      internalGetMutableNKAHFKHPICE() {
+        onChanged();;
+        if (nKAHFKHPICE_ == null) {
+          nKAHFKHPICE_ = com.google.protobuf.MapField.newMapField(
+              NKAHFKHPICEDefaultEntryHolder.defaultEntry);
+        }
+        if (!nKAHFKHPICE_.isMutable()) {
+          nKAHFKHPICE_ = nKAHFKHPICE_.copy();
+        }
+        return nKAHFKHPICE_;
+      }
+
+      public int getNKAHFKHPICECount() {
+        return internalGetNKAHFKHPICE().getMap().size();
+      }
+      /**
+       * <code>map&lt;uint32, uint32&gt; NKAHFKHPICE = 11;</code>
        */
 
       @java.lang.Override
-      public boolean containsHDBFNEKCNLJ(
+      public boolean containsNKAHFKHPICE(
           int key) {
-
-        return internalGetHDBFNEKCNLJ().getMap().containsKey(key);
+        
+        return internalGetNKAHFKHPICE().getMap().containsKey(key);
       }
       /**
-       * Use {@link #getHDBFNEKCNLJMap()} instead.
+       * Use {@link #getNKAHFKHPICEMap()} instead.
        */
       @java.lang.Override
       @java.lang.Deprecated
-      public java.util.Map<java.lang.Integer, java.lang.Integer> getHDBFNEKCNLJ() {
-        return getHDBFNEKCNLJMap();
+      public java.util.Map<java.lang.Integer, java.lang.Integer> getNKAHFKHPICE() {
+        return getNKAHFKHPICEMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; HDBFNEKCNLJ = 4;</code>
+       * <code>map&lt;uint32, uint32&gt; NKAHFKHPICE = 11;</code>
        */
       @java.lang.Override
 
-      public java.util.Map<java.lang.Integer, java.lang.Integer> getHDBFNEKCNLJMap() {
-        return internalGetHDBFNEKCNLJ().getMap();
+      public java.util.Map<java.lang.Integer, java.lang.Integer> getNKAHFKHPICEMap() {
+        return internalGetNKAHFKHPICE().getMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; HDBFNEKCNLJ = 4;</code>
+       * <code>map&lt;uint32, uint32&gt; NKAHFKHPICE = 11;</code>
        */
       @java.lang.Override
 
-      public int getHDBFNEKCNLJOrDefault(
+      public int getNKAHFKHPICEOrDefault(
           int key,
           int defaultValue) {
-
+        
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
-            internalGetHDBFNEKCNLJ().getMap();
+            internalGetNKAHFKHPICE().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; HDBFNEKCNLJ = 4;</code>
+       * <code>map&lt;uint32, uint32&gt; NKAHFKHPICE = 11;</code>
        */
       @java.lang.Override
 
-      public int getHDBFNEKCNLJOrThrow(
+      public int getNKAHFKHPICEOrThrow(
           int key) {
-
+        
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
-            internalGetHDBFNEKCNLJ().getMap();
+            internalGetNKAHFKHPICE().getMap();
         if (!map.containsKey(key)) {
           throw new java.lang.IllegalArgumentException();
         }
         return map.get(key);
       }
 
-      public Builder clearHDBFNEKCNLJ() {
-        internalGetMutableHDBFNEKCNLJ().getMutableMap()
+      public Builder clearNKAHFKHPICE() {
+        internalGetMutableNKAHFKHPICE().getMutableMap()
             .clear();
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; HDBFNEKCNLJ = 4;</code>
+       * <code>map&lt;uint32, uint32&gt; NKAHFKHPICE = 11;</code>
        */
 
-      public Builder removeHDBFNEKCNLJ(
+      public Builder removeNKAHFKHPICE(
           int key) {
-
-        internalGetMutableHDBFNEKCNLJ().getMutableMap()
+        
+        internalGetMutableNKAHFKHPICE().getMutableMap()
             .remove(key);
         return this;
       }
@@ -1113,141 +1214,59 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
        */
       @java.lang.Deprecated
       public java.util.Map<java.lang.Integer, java.lang.Integer>
-      getMutableHDBFNEKCNLJ() {
-        return internalGetMutableHDBFNEKCNLJ().getMutableMap();
+      getMutableNKAHFKHPICE() {
+        return internalGetMutableNKAHFKHPICE().getMutableMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; HDBFNEKCNLJ = 4;</code>
+       * <code>map&lt;uint32, uint32&gt; NKAHFKHPICE = 11;</code>
        */
-      public Builder putHDBFNEKCNLJ(
+      public Builder putNKAHFKHPICE(
           int key,
           int value) {
-
-        internalGetMutableHDBFNEKCNLJ().getMutableMap()
+        
+        
+        internalGetMutableNKAHFKHPICE().getMutableMap()
             .put(key, value);
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; HDBFNEKCNLJ = 4;</code>
+       * <code>map&lt;uint32, uint32&gt; NKAHFKHPICE = 11;</code>
        */
 
-      public Builder putAllHDBFNEKCNLJ(
+      public Builder putAllNKAHFKHPICE(
           java.util.Map<java.lang.Integer, java.lang.Integer> values) {
-        internalGetMutableHDBFNEKCNLJ().getMutableMap()
+        internalGetMutableNKAHFKHPICE().getMutableMap()
             .putAll(values);
-        return this;
-      }
-
-      private int jPHIEIBHOLI_ ;
-      /**
-       * <code>uint32 JPHIEIBHOLI = 10;</code>
-       * @return The jPHIEIBHOLI.
-       */
-      @java.lang.Override
-      public int getJPHIEIBHOLI() {
-        return jPHIEIBHOLI_;
-      }
-      /**
-       * <code>uint32 JPHIEIBHOLI = 10;</code>
-       * @param value The jPHIEIBHOLI to set.
-       * @return This builder for chaining.
-       */
-      public Builder setJPHIEIBHOLI(int value) {
-
-        jPHIEIBHOLI_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 JPHIEIBHOLI = 10;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearJPHIEIBHOLI() {
-
-        jPHIEIBHOLI_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private boolean aEIMHLOIOKN_ ;
-      /**
-       * <code>bool AEIMHLOIOKN = 15;</code>
-       * @return The aEIMHLOIOKN.
-       */
-      @java.lang.Override
-      public boolean getAEIMHLOIOKN() {
-        return aEIMHLOIOKN_;
-      }
-      /**
-       * <code>bool AEIMHLOIOKN = 15;</code>
-       * @param value The aEIMHLOIOKN to set.
-       * @return This builder for chaining.
-       */
-      public Builder setAEIMHLOIOKN(boolean value) {
-
-        aEIMHLOIOKN_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool AEIMHLOIOKN = 15;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearAEIMHLOIOKN() {
-
-        aEIMHLOIOKN_ = false;
-        onChanged();
         return this;
       }
 
       private boolean isContentClosed_ ;
-
+      /**
+       * <code>bool is_content_closed = 15;</code>
+       * @return The isContentClosed.
+       */
       @java.lang.Override
       public boolean getIsContentClosed() {
         return isContentClosed_;
       }
-
+      /**
+       * <code>bool is_content_closed = 15;</code>
+       * @param value The isContentClosed to set.
+       * @return This builder for chaining.
+       */
       public Builder setIsContentClosed(boolean value) {
-
+        
         isContentClosed_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>bool is_content_closed = 15;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearIsContentClosed() {
-
+        
         isContentClosed_ = false;
-        onChanged();
-        return this;
-      }
-
-      private int bMLIGIIELDE_ ;
-      /**
-       * <code>uint32 BMLIGIIELDE = 3;</code>
-       * @return The bMLIGIIELDE.
-       */
-      @java.lang.Override
-      public int getBMLIGIIELDE() {
-        return bMLIGIIELDE_;
-      }
-      /**
-       * <code>uint32 BMLIGIIELDE = 3;</code>
-       * @param value The bMLIGIIELDE to set.
-       * @return This builder for chaining.
-       */
-      public Builder setBMLIGIIELDE(int value) {
-
-        bMLIGIIELDE_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 BMLIGIIELDE = 3;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearBMLIGIIELDE() {
-
-        bMLIGIIELDE_ = 0;
         onChanged();
         return this;
       }
@@ -1262,6 +1281,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:PlantFlowerActivityDetailInfo)
     }
@@ -1305,19 +1325,19 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlantFlowerActivityDetailInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlantFlowerActivityDetailInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_PlantFlowerActivityDetailInfo_HNIOAODPNELEntry_descriptor;
-  private static final
+    internal_static_PlantFlowerActivityDetailInfo_JOIMIBFDKBAEntry_descriptor;
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_PlantFlowerActivityDetailInfo_HNIOAODPNELEntry_fieldAccessorTable;
+      internal_static_PlantFlowerActivityDetailInfo_JOIMIBFDKBAEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_PlantFlowerActivityDetailInfo_HDBFNEKCNLJEntry_descriptor;
-  private static final
+    internal_static_PlantFlowerActivityDetailInfo_NKAHFKHPICEEntry_descriptor;
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_PlantFlowerActivityDetailInfo_HDBFNEKCNLJEntry_fieldAccessorTable;
+      internal_static_PlantFlowerActivityDetailInfo_NKAHFKHPICEEntry_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -1327,18 +1347,19 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n#PlantFlowerActivityDetailInfo.proto\"\355\002" +
-      "\n\035PlantFlowerActivityDetailInfo\022D\n\013HNIOA" +
-      "ODPNEL\030\013 \003(\0132/.PlantFlowerActivityDetail" +
-      "Info.HNIOAODPNELEntry\022D\n\013HDBFNEKCNLJ\030\004 \003" +
-      "(\0132/.PlantFlowerActivityDetailInfo.HDBFN" +
-      "EKCNLJEntry\022\023\n\013JPHIEIBHOLI\030\n \001(\r\022\023\n\013AEIM" +
-      "HLOIOKN\030\017 \001(\010\022\031\n\021is_content_closed\030\r \001(\010" +
-      "\022\023\n\013BMLIGIIELDE\030\003 \001(\r\0322\n\020HNIOAODPNELEntr" +
-      "y\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001\0322\n\020HDB" +
-      "FNEKCNLJEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(" +
-      "\r:\0028\001B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\n#PlantFlowerActivityDetailInfo.proto\"\375\002" +
+      "\n\035PlantFlowerActivityDetailInfo\022\034\n\024is_to" +
+      "day_has_awarded\030\001 \001(\010\022\034\n\024today_seed_rewa" +
+      "rd_id\030\004 \001(\r\022D\n\013JOIMIBFDKBA\030\t \003(\0132/.Plant" +
+      "FlowerActivityDetailInfo.JOIMIBFDKBAEntr" +
+      "y\022\021\n\tday_index\030\n \001(\r\022D\n\013NKAHFKHPICE\030\013 \003(" +
+      "\0132/.PlantFlowerActivityDetailInfo.NKAHFK" +
+      "HPICEEntry\022\031\n\021is_content_closed\030\017 \001(\010\0322\n" +
+      "\020JOIMIBFDKBAEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030" +
+      "\002 \001(\r:\0028\001\0322\n\020NKAHFKHPICEEntry\022\013\n\003key\030\001 \001" +
+      "(\r\022\r\n\005value\030\002 \001(\r:\0028\001BD\n\031emu.grasscutter" +
+      ".net.protoB\'PlantFlowerActivityDetailInf" +
+      "oOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1349,18 +1370,18 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
     internal_static_PlantFlowerActivityDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_PlantFlowerActivityDetailInfo_descriptor,
-        new java.lang.String[] { "HNIOAODPNEL", "HDBFNEKCNLJ", "JPHIEIBHOLI", "AEIMHLOIOKN", "IsContentClosed", "BMLIGIIELDE", });
-    internal_static_PlantFlowerActivityDetailInfo_HNIOAODPNELEntry_descriptor =
+        new java.lang.String[] { "IsTodayHasAwarded", "TodaySeedRewardId", "JOIMIBFDKBA", "DayIndex", "NKAHFKHPICE", "IsContentClosed", });
+    internal_static_PlantFlowerActivityDetailInfo_JOIMIBFDKBAEntry_descriptor =
       internal_static_PlantFlowerActivityDetailInfo_descriptor.getNestedTypes().get(0);
-    internal_static_PlantFlowerActivityDetailInfo_HNIOAODPNELEntry_fieldAccessorTable = new
+    internal_static_PlantFlowerActivityDetailInfo_JOIMIBFDKBAEntry_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_PlantFlowerActivityDetailInfo_HNIOAODPNELEntry_descriptor,
+        internal_static_PlantFlowerActivityDetailInfo_JOIMIBFDKBAEntry_descriptor,
         new java.lang.String[] { "Key", "Value", });
-    internal_static_PlantFlowerActivityDetailInfo_HDBFNEKCNLJEntry_descriptor =
+    internal_static_PlantFlowerActivityDetailInfo_NKAHFKHPICEEntry_descriptor =
       internal_static_PlantFlowerActivityDetailInfo_descriptor.getNestedTypes().get(1);
-    internal_static_PlantFlowerActivityDetailInfo_HDBFNEKCNLJEntry_fieldAccessorTable = new
+    internal_static_PlantFlowerActivityDetailInfo_NKAHFKHPICEEntry_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_PlantFlowerActivityDetailInfo_HDBFNEKCNLJEntry_descriptor,
+        internal_static_PlantFlowerActivityDetailInfo_NKAHFKHPICEEntry_descriptor,
         new java.lang.String[] { "Key", "Value", });
   }
 

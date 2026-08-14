@@ -1,0 +1,75 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "KEGLGHJKEGPOuterClass";
+
+import "AELIBNHFODD.proto";
+import "AGFINCBOPDE.proto";
+import "BANABAFODKK.proto";
+import "FDKOFMMNKED.proto";
+import "FKCJKMGFGMA.proto";
+import "FOOFKCNOCBN.proto";
+import "GECFKHFMNKN.proto";
+import "HALLKJDALJG.proto";
+import "HIHENKCOEPB.proto";
+import "IAMFJKNIDPJ.proto";
+import "IBFPCNHCJJK.proto";
+import "IIHJBEGADCJ.proto";
+import "IKOIHIANENH.proto";
+import "IKOMHKPAEIN.proto";
+import "JEFEGBIEMOF.proto";
+import "JNCFEAMFKNA.proto";
+import "KCJGBIPCHGO.proto";
+import "KFMJCGEOPJJ.proto";
+import "KNBCNCGHKBI.proto";
+import "KPIBJLNPBHG.proto";
+import "LDJMONFNHNK.proto";
+import "MCKANJDJLLJ.proto";
+import "MPLJGNOKEFB.proto";
+import "NJABMDONHPI.proto";
+import "NJEMOPGNEDD.proto";
+import "OCMDIBLDABD.proto";
+import "OFGPCHCLFDK.proto";
+import "OKDEHNGHKGA.proto";
+import "OLOLDMPHCFK.proto";
+import "PHFAOBBPOIP.proto";
+import "_LevelStateMachineComp.proto";
+import "_SubSwitchComp.proto";
+
+message KEGLGHJKEGP {
+	oneof detail {
+		IBFPCNHCJJK custom_value_comp = 11;
+		FOOFKCNOCBN timer_comp = 13;
+		NJABMDONHPI move_comp = 14;
+		OCMDIBLDABD client_trigger_comp = 15;
+		JEFEGBIEMOF effect_comp = 16;
+		AGFINCBOPDE collision_comp = 18;
+		FDKOFMMNKED follow_move_comp = 19;
+		IIHJBEGADCJ bullet_move_comp = 21;
+		KPIBJLNPBHG hit_detection_comp = 22;
+		BANABAFODKK camera_comp = 23;
+		OFGPCHCLFDK role_status_comp = 24;
+		IKOMHKPAEIN avatar_disturber_comp = 25;
+		FKCJKMGFGMA count_down_comp = 26;
+		JNCFEAMFKNA option_comp = 27;
+		HALLKJDALJG hitbox_comp = 28;
+		HIHENKCOEPB custom_skill_comp = 29;
+		MPLJGNOKEFB enmity_comp = 31;
+		OKDEHNGHKGA nameplate_comp = 32;
+		PHFAOBBPOIP talk_comp = 33;
+		MCKANJDJLLJ sound_effect_comp = 34;
+		GECFKHFMNKN monster_patrol_comp = 35;
+		_LevelStateMachineComp level_state_machine_comp = 36;
+		LDJMONFNHNK minimap_mark_comp = 37;
+		KCJGBIPCHGO stuff_bag_comp = 38;
+		KNBCNCGHKBI equip_stuff_bag_comp = 39;
+		IAMFJKNIDPJ drop_gather_comp = 40;
+		IKOIHIANENH light_group_comp = 41;
+		NJEMOPGNEDD scan_entity_comp = 42;
+		_SubSwitchComp sub_switch_comp = 43;
+		KFMJCGEOPJJ monster_ai_comp = 44;
+		OLOLDMPHCFK vehicle_comp = 45;
+	}
+	bool is_active = 1;
+	AELIBNHFODD NHGKKKAOKMN = 2;
+}

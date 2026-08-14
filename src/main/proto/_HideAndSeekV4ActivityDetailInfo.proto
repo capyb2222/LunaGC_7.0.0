@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_HideAndSeekV4ActivityDetailInfoOuterClass";
+
+import "BCMGBIKCCFB.proto";
+
+message _HideAndSeekV4ActivityDetailInfo {
+	repeated uint32 KNDGADIAKME = 1;
+	repeated BCMGBIKCCFB LINFLLHOJEE = 3;
+	repeated uint32 BBKJJPHJADK = 5;
+	bool LBCGNOOJDIC = 7;
+	repeated BCMGBIKCCFB EDECCPJFDAF = 9;
+}

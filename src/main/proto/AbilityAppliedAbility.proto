@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AbilityAppliedAbilityOuterClass";
+
+import "AbilityScalarValueEntry.proto";
+import "AbilityString.proto";
+
+message AbilityAppliedAbility {
+	AbilityString ability_name = 1;
+	AbilityString ability_override = 2;
+	repeated AbilityScalarValueEntry override_map = 3;
+	uint32 instanced_ability_id = 4;
+}

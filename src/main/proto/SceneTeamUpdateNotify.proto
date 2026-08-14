@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SceneTeamUpdateNotifyOuterClass";
+
+import "SceneTeamAvatar.proto";
+
+message SceneTeamUpdateNotify {
+	repeated SceneTeamAvatar scene_team_avatar_list = 2;
+	bool is_in_mp = 5;
+}

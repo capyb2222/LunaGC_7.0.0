@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AsterProgressDetailInfoOuterClass";
+
+message AsterProgressDetailInfo {
+	uint32 count = 8;
+	uint32 last_auto_add_time = 13;
+}

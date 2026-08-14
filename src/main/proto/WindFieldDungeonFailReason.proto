@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "WindFieldDungeonFailReasonOuterClass";
+
+enum WindFieldDungeonFailReason {
+	WIND_FIELD_DUNGEON_FAIL_NONE = 0;
+	WIND_FIELD_DUNGEON_FAIL_CANCEL = 1;
+	WIND_FIELD_DUNGEON_FAIL_TIMEOUT = 2;
+	WIND_FIELD_DUNGEON_FAIL_ALL_AVATAR_DIE = 3;
+	WIND_FIELD_DUNGEON_FAIL_LUA_INTERRUPT = 4;
+}

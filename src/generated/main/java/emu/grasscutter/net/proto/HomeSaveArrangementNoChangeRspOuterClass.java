@@ -19,23 +19,18 @@ public final class HomeSaveArrangementNoChangeRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>int32 retcode = 2;</code>
+     * <code>int32 retcode = 5;</code>
      * @return The retcode.
      */
     int getRetcode();
 
     /**
-     * <code>uint32 scene_id = 1;</code>
+     * <code>uint32 scene_id = 14;</code>
      * @return The sceneId.
      */
     int getSceneId();
   }
   /**
-   * <pre>
-   * CmdId: 20696
-   * Obf: BMFLMFIECOG
-   * </pre>
-   *
    * Protobuf type {@code HomeSaveArrangementNoChangeRsp}
    */
   public static final class HomeSaveArrangementNoChangeRsp extends
@@ -80,12 +75,12 @@ public final class HomeSaveArrangementNoChangeRspOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 40: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 88: {
+            case 112: {
 
               sceneId_ = input.readUInt32();
               break;
@@ -122,10 +117,10 @@ public final class HomeSaveArrangementNoChangeRspOuterClass {
               emu.grasscutter.net.proto.HomeSaveArrangementNoChangeRspOuterClass.HomeSaveArrangementNoChangeRsp.class, emu.grasscutter.net.proto.HomeSaveArrangementNoChangeRspOuterClass.HomeSaveArrangementNoChangeRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 6;
+    public static final int RETCODE_FIELD_NUMBER = 5;
     private int retcode_;
     /**
-     * <code>int32 retcode = 2;</code>
+     * <code>int32 retcode = 5;</code>
      * @return The retcode.
      */
     @java.lang.Override
@@ -133,10 +128,10 @@ public final class HomeSaveArrangementNoChangeRspOuterClass {
       return retcode_;
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 11;
+    public static final int SCENE_ID_FIELD_NUMBER = 14;
     private int sceneId_;
     /**
-     * <code>uint32 scene_id = 1;</code>
+     * <code>uint32 scene_id = 14;</code>
      * @return The sceneId.
      */
     @java.lang.Override
@@ -159,10 +154,10 @@ public final class HomeSaveArrangementNoChangeRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(6, retcode_);
+        output.writeInt32(5, retcode_);
       }
       if (sceneId_ != 0) {
-        output.writeUInt32(11, sceneId_);
+        output.writeUInt32(14, sceneId_);
       }
       unknownFields.writeTo(output);
     }
@@ -175,11 +170,11 @@ public final class HomeSaveArrangementNoChangeRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(6, retcode_);
+          .computeInt32Size(5, retcode_);
       }
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, sceneId_);
+          .computeUInt32Size(14, sceneId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -311,11 +306,6 @@ public final class HomeSaveArrangementNoChangeRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 20696
-     * Obf: BMFLMFIECOG
-     * </pre>
-     *
      * Protobuf type {@code HomeSaveArrangementNoChangeRsp}
      */
     public static final class Builder extends
@@ -470,7 +460,7 @@ public final class HomeSaveArrangementNoChangeRspOuterClass {
 
       private int retcode_ ;
       /**
-       * <code>int32 retcode = 2;</code>
+       * <code>int32 retcode = 5;</code>
        * @return The retcode.
        */
       @java.lang.Override
@@ -478,7 +468,7 @@ public final class HomeSaveArrangementNoChangeRspOuterClass {
         return retcode_;
       }
       /**
-       * <code>int32 retcode = 2;</code>
+       * <code>int32 retcode = 5;</code>
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
@@ -489,7 +479,7 @@ public final class HomeSaveArrangementNoChangeRspOuterClass {
         return this;
       }
       /**
-       * <code>int32 retcode = 2;</code>
+       * <code>int32 retcode = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
@@ -501,7 +491,7 @@ public final class HomeSaveArrangementNoChangeRspOuterClass {
 
       private int sceneId_ ;
       /**
-       * <code>uint32 scene_id = 1;</code>
+       * <code>uint32 scene_id = 14;</code>
        * @return The sceneId.
        */
       @java.lang.Override
@@ -509,7 +499,7 @@ public final class HomeSaveArrangementNoChangeRspOuterClass {
         return sceneId_;
       }
       /**
-       * <code>uint32 scene_id = 1;</code>
+       * <code>uint32 scene_id = 14;</code>
        * @param value The sceneId to set.
        * @return This builder for chaining.
        */
@@ -520,7 +510,7 @@ public final class HomeSaveArrangementNoChangeRspOuterClass {
         return this;
       }
       /**
-       * <code>uint32 scene_id = 1;</code>
+       * <code>uint32 scene_id = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearSceneId() {
@@ -598,8 +588,9 @@ public final class HomeSaveArrangementNoChangeRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n$HomeSaveArrangementNoChangeRsp.proto\"C" +
       "\n\036HomeSaveArrangementNoChangeRsp\022\017\n\007retc" +
-      "ode\030\002 \001(\005\022\020\n\010scene_id\030\001 \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "ode\030\005 \001(\005\022\020\n\010scene_id\030\016 \001(\rBE\n\031emu.grass" +
+      "cutter.net.protoB(HomeSaveArrangementNoC" +
+      "hangeRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

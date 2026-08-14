@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HGLMBIEIGINOuterClass";
+
+import "ICELADLJBHM.proto";
+
+message HGLMBIEIGIN {
+	bool is_finished = 12;
+	repeated ICELADLJBHM GBPNNKAHOEM = 13;
+	bool is_open = 14;
+	uint32 stage_id = 15;
+}

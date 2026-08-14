@@ -19,17 +19,12 @@ public final class DungeonWayPointActivateReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 way_point_id = 11;</code>
+     * <code>uint32 way_point_id = 14;</code>
      * @return The wayPointId.
      */
     int getWayPointId();
   }
   /**
-   * <pre>
-   * CmdId: 7942
-   * Obf: IKEEIFMLEMK
-   * </pre>
-   *
    * Protobuf type {@code DungeonWayPointActivateReq}
    */
   public static final class DungeonWayPointActivateReq extends
@@ -74,7 +69,7 @@ public final class DungeonWayPointActivateReqOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 112: {
 
               wayPointId_ = input.readUInt32();
               break;
@@ -111,10 +106,10 @@ public final class DungeonWayPointActivateReqOuterClass {
               emu.grasscutter.net.proto.DungeonWayPointActivateReqOuterClass.DungeonWayPointActivateReq.class, emu.grasscutter.net.proto.DungeonWayPointActivateReqOuterClass.DungeonWayPointActivateReq.Builder.class);
     }
 
-    public static final int WAY_POINT_ID_FIELD_NUMBER = 1;
+    public static final int WAY_POINT_ID_FIELD_NUMBER = 14;
     private int wayPointId_;
     /**
-     * <code>uint32 way_point_id = 11;</code>
+     * <code>uint32 way_point_id = 14;</code>
      * @return The wayPointId.
      */
     @java.lang.Override
@@ -137,7 +132,7 @@ public final class DungeonWayPointActivateReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (wayPointId_ != 0) {
-        output.writeUInt32(1, wayPointId_);
+        output.writeUInt32(14, wayPointId_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +145,7 @@ public final class DungeonWayPointActivateReqOuterClass {
       size = 0;
       if (wayPointId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, wayPointId_);
+          .computeUInt32Size(14, wayPointId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -278,11 +273,6 @@ public final class DungeonWayPointActivateReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 7942
-     * Obf: IKEEIFMLEMK
-     * </pre>
-     *
      * Protobuf type {@code DungeonWayPointActivateReq}
      */
     public static final class Builder extends
@@ -431,7 +421,7 @@ public final class DungeonWayPointActivateReqOuterClass {
 
       private int wayPointId_ ;
       /**
-       * <code>uint32 way_point_id = 11;</code>
+       * <code>uint32 way_point_id = 14;</code>
        * @return The wayPointId.
        */
       @java.lang.Override
@@ -439,7 +429,7 @@ public final class DungeonWayPointActivateReqOuterClass {
         return wayPointId_;
       }
       /**
-       * <code>uint32 way_point_id = 11;</code>
+       * <code>uint32 way_point_id = 14;</code>
        * @param value The wayPointId to set.
        * @return This builder for chaining.
        */
@@ -450,7 +440,7 @@ public final class DungeonWayPointActivateReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 way_point_id = 11;</code>
+       * <code>uint32 way_point_id = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearWayPointId() {
@@ -528,8 +518,9 @@ public final class DungeonWayPointActivateReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n DungeonWayPointActivateReq.proto\"2\n\032Du" +
       "ngeonWayPointActivateReq\022\024\n\014way_point_id" +
-      "\030\013 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\016 \001(\rBA\n\031emu.grasscutter.net.protoB$Dun" +
+      "geonWayPointActivateReqOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

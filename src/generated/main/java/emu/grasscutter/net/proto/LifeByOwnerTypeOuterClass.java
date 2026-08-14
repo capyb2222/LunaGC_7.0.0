@@ -24,13 +24,13 @@ public final class LifeByOwnerTypeOuterClass {
      */
     LifeByOwnerType_LIFE_BY_OWNER_NONE(0),
     /**
-     * <code>LifeByOwnerType_LIFE_BY_OWNER_V_2 = 1;</code>
+     * <code>LIFE_BY_OWNER_V2 = 1;</code>
      */
-    LifeByOwnerType_LIFE_BY_OWNER_V_2(1),
+    LIFE_BY_OWNER_V2(1),
     /**
-     * <code>LifeByOwnerType_LIFE_BY_OWNER_V_3 = 2;</code>
+     * <code>LIFE_BY_OWNER_V3 = 2;</code>
      */
-    LifeByOwnerType_LIFE_BY_OWNER_V_3(2),
+    LIFE_BY_OWNER_V3(2),
     UNRECOGNIZED(-1),
     ;
 
@@ -39,13 +39,13 @@ public final class LifeByOwnerTypeOuterClass {
      */
     public static final int LifeByOwnerType_LIFE_BY_OWNER_NONE_VALUE = 0;
     /**
-     * <code>LifeByOwnerType_LIFE_BY_OWNER_V_2 = 1;</code>
+     * <code>LIFE_BY_OWNER_V2 = 1;</code>
      */
-    public static final int LifeByOwnerType_LIFE_BY_OWNER_V_2_VALUE = 1;
+    public static final int LIFE_BY_OWNER_V2_VALUE = 1;
     /**
-     * <code>LifeByOwnerType_LIFE_BY_OWNER_V_3 = 2;</code>
+     * <code>LIFE_BY_OWNER_V3 = 2;</code>
      */
-    public static final int LifeByOwnerType_LIFE_BY_OWNER_V_3_VALUE = 2;
+    public static final int LIFE_BY_OWNER_V3_VALUE = 2;
 
 
     public final int getNumber() {
@@ -73,8 +73,8 @@ public final class LifeByOwnerTypeOuterClass {
     public static LifeByOwnerType forNumber(int value) {
       switch (value) {
         case 0: return LifeByOwnerType_LIFE_BY_OWNER_NONE;
-        case 1: return LifeByOwnerType_LIFE_BY_OWNER_V_2;
-        case 2: return LifeByOwnerType_LIFE_BY_OWNER_V_3;
+        case 1: return LIFE_BY_OWNER_V2;
+        case 2: return LIFE_BY_OWNER_V3;
         default: return null;
       }
     }
@@ -140,11 +140,11 @@ public final class LifeByOwnerTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\025LifeByOwnerType.proto*\207\001\n\017LifeByOwnerT" +
-      "ype\022&\n\"LifeByOwnerType_LIFE_BY_OWNER_NON" +
-      "E\020\000\022%\n!LifeByOwnerType_LIFE_BY_OWNER_V_2" +
-      "\020\001\022%\n!LifeByOwnerType_LIFE_BY_OWNER_V_3\020" +
-      "\002B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\n\025LifeByOwnerType.proto*e\n\017LifeByOwnerTy" +
+      "pe\022&\n\"LifeByOwnerType_LIFE_BY_OWNER_NONE" +
+      "\020\000\022\024\n\020LIFE_BY_OWNER_V2\020\001\022\024\n\020LIFE_BY_OWNE" +
+      "R_V3\020\002B6\n\031emu.grasscutter.net.protoB\031Lif" +
+      "eByOwnerTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

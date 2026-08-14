@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FGJFGPAPOHEOuterClass";
+
+enum FGJFGPAPOHE {
+	FGJFGPAPOHE_NONE = 0;
+	FGJFGPAPOHE_SUCC = 1;
+	FGJFGPAPOHE_FAIL = 2;
+}

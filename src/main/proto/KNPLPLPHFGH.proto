@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "KNPLPLPHFGHOuterClass";
+
+message KNPLPLPHFGH {
+	uint32 left_time = 1;
+	bool is_finish = 5;
+	uint32 level_id = 9;
+	bool is_open = 13;
+}

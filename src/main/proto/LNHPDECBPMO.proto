@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "LNHPDECBPMOOuterClass";
+
+message LNHPDECBPMO {
+	uint64 PFAKLCNHFBM = 3;
+	uint32 CKKDALGPNAC = 9;
+	uint32 KFCEFONLBEO = 13;
+	uint32 BMCALLFEGGA = 15;
+}

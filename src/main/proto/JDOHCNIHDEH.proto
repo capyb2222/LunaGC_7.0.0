@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "JDOHCNIHDEHOuterClass";
+
+import "EAOEICFJOBA.proto";
+
+message JDOHCNIHDEH {
+	uint32 level_id = 6;
+	bool is_open = 8;
+	bool HLPAFFCCGLF = 9;
+	bool is_finish = 12;
+	repeated EAOEICFJOBA FECHNEFCAAC = 15;
+}

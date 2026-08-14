@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ALFKEHMLFLOOuterClass";
+
+message ALFKEHMLFLO {
+	repeated uint32 IIEMAKGENJD = 1;
+	bool AAAIGMMGPMO = 4;
+	bool OBKHAHOPLJC = 5;
+	bool HEILAHPGAEG = 6;
+}

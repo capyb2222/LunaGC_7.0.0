@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PlatformTypeOuterClass";
+
+enum PlatformType {
+	PlatformType_EDITOR = 0;
+	PlatformType_IOS = 1;
+	PlatformType_ANDROID = 2;
+	PlatformType_PC = 3;
+	PS4 = 4;
+	PlatformType_SERVER = 5;
+	PlatformType_CLOUD_ANDROID = 6;
+	PlatformType_CLOUD_IOS = 7;
+	PS5 = 8;
+	PlatformType_CLOUD_WEB = 9;
+	PlatformType_CLOUD_TV = 10;
+	PlatformType_CLOUD_MAC = 11;
+	PlatformType_CLOUD_PC = 12;
+	PlatformType_CLOUD_THIRD_PARTY_MOBILE = 13;
+	PlatformType_CLOUD_THIRD_PARTY_PC = 14;
+	PlatformType_CLOUD_WEB_ANDROID = 15;
+	PlatformType_CLOUD_WEB_IOS = 16;
+	PlatformType_CLOUD_WEB_PC = 17;
+	PlatformType_CLOUD_WEB_MAC = 18;
+	PlatformType_CLOUD_WEB_TOUCH = 19;
+	PlatformType_CLOUD_WEB_KEYBOARD = 20;
+	PlatformType_XBOX_SCARLETT = 21;
+	PlatformType_OPEN_HARMONY = 22;
+}

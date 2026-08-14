@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_AquariumFishingDungeonSettleInfoOuterClass";
+
+import "_AquariumFishingItemInfo.proto";
+
+message _AquariumFishingDungeonSettleInfo {
+	repeated _AquariumFishingItemInfo _fishing_item_info_list = 8;
+	uint32 KGPKNPNCMHA = 15;
+}

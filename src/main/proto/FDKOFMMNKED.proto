@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FDKOFMMNKEDOuterClass";
+
+import "FJFKBKCECBC.proto";
+import "JEOKDCIGCFP.proto";
+import "Vector.proto";
+
+message FDKOFMMNKED {
+	uint32 OLEEMFGPPBP = 1;
+	string JOIIBHLCLIC = 2;
+	Vector NGLCFKKJGFJ = 3;
+	Vector NNPNDCFIAMA = 4;
+	JEOKDCIGCFP PIOLELFOCLI = 5;
+	JEOKDCIGCFP follow_type = 6;
+	uint32 OLKCJPFLCGC = 7;
+	FJFKBKCECBC NNCDIEHLEDN = 8;
+}

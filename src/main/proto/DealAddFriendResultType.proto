@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DealAddFriendResultTypeOuterClass";
+
+enum DealAddFriendResultType {
+	DealAddFriendResultType_DEAL_ADD_FRIEND_REJECT = 0;
+	DealAddFriendResultType_DEAL_ADD_FRIEND_ACCEPT = 1;
+}

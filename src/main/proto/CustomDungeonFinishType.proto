@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CustomDungeonFinishTypeOuterClass";
+
+enum CustomDungeonFinishType {
+	CustomDungeonFinishType_CUSTOM_DUNGEON_FINISH_PLAY_NORMAL = 0;
+	CustomDungeonFinishType_CUSTOM_DUNGEON_FINISH_PLAY_TRY = 1;
+	CustomDungeonFinishType_CUSTOM_DUNGEON_FINISH_EDIT_TRY = 2;
+	CustomDungeonFinishType_CUSTOM_DUNGEON_FINISH_SELF_PLAY_NORMAL = 3;
+}

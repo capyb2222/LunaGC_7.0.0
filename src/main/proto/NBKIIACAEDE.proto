@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "NBKIIACAEDEOuterClass";
+
+enum NBKIIACAEDE {
+	NBKIIACAEDE_NONE = 0;
+	NBKIIACAEDE_EDIT = 1;
+	NBKIIACAEDE_FRIEND_REPLAY = 2;
+	NBKIIACAEDE_SELF_REPLAY = 3;
+}

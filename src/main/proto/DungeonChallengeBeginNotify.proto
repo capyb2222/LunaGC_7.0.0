@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DungeonChallengeBeginNotifyOuterClass";
+
+message DungeonChallengeBeginNotify {
+	uint32 father_index = 2;
+	uint32 challenge_index = 3;
+	repeated uint32 uid_list = 8;
+	uint32 challenge_id = 11;
+	uint32 group_id = 12;
+	repeated uint32 param_list = 13;
+}

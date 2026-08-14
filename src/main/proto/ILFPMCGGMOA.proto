@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ILFPMCGGMOAOuterClass";
+
+import "CEAFBJOBFJE.proto";
+import "JEOKDCIGCFP.proto";
+import "KEGLGHJKEGP.proto";
+import "_AvatarBase.proto";
+import "_GadgetBase.proto";
+import "_MonsterBase.proto";
+import "_PlayerBase.proto";
+
+message ILFPMCGGMOA {
+	oneof DIOMDBPDOEN {
+		_GadgetBase gadget_base = 11;
+		_PlayerBase player_base = 12;
+		_AvatarBase avatar_base = 13;
+		_MonsterBase monster_base = 14;
+	}
+	uint32 KMDOFBPMGAI = 1;
+	JEOKDCIGCFP ECGKMJFGPMB = 2;
+	repeated KEGLGHJKEGP GAFGFGOBJPF = 3;
+	bool BONCEEINDDC = 5;
+	bool DJPJAFGGKCJ = 6;
+	uint32 DENOPMIGEAB = 7;
+	uint32 OFHNEBEIGLF = 8;
+	bool CAPPGAIMNAK = 9;
+	CEAFBJOBFJE PKFPJPEIJKL = 10;
+	repeated int32 tag_list = 51;
+	uint32 HLIDFAKINPM = 52;
+}

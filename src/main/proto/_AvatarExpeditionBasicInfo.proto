@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_AvatarExpeditionBasicInfoOuterClass";
+
+message _AvatarExpeditionBasicInfo {
+	float shorten_ratio = 9;
+	uint32 hour_time = 10;
+	uint32 exp_id = 14;
+	uint64 avatar_guid = 15;
+}

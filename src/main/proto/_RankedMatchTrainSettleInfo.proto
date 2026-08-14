@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_RankedMatchTrainSettleInfoOuterClass";
+
+import "GalleryStopReason.proto";
+
+message _RankedMatchTrainSettleInfo {
+	uint32 score = 1;
+	uint32 DPFLJBCLGDJ = 4;
+	uint32 use_time = 5;
+	bool is_new_record = 9;
+	GalleryStopReason reason = 13;
+	uint32 item_num = 14;
+	uint32 level_id = 15;
+}

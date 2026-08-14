@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "QuestTransmitReqOuterClass";
+
+message QuestTransmitReq {
+	uint32 point_id = 8;
+	uint32 _template_loading_id = 9;
+	bool NCEIBFLFIPM = 11;
+	uint32 quest_id = 13;
+}

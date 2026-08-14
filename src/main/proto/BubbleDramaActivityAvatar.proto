@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "BubbleDramaActivityAvatarOuterClass";
+
+import "HEEENDPMDPA.proto";
+
+message BubbleDramaActivityAvatar {
+	HEEENDPMDPA state = 12;
+	uint32 target_id = 13;
+}

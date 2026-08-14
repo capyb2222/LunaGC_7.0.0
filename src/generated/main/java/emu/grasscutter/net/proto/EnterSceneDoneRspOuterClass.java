@@ -19,30 +19,33 @@ public final class EnterSceneDoneRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <pre>
-     *6.4.0    
-     * </pre>
-     *
-     * <code>uint32 enter_scene_token = 9;</code>
+     * <code>.GFFKODENHJA PPKIKFGEINK = 2;</code>
+     * @return Whether the pPKIKFGEINK field is set.
+     */
+    boolean hasPPKIKFGEINK();
+    /**
+     * <code>.GFFKODENHJA PPKIKFGEINK = 2;</code>
+     * @return The pPKIKFGEINK.
+     */
+    emu.grasscutter.net.proto.GFFKODENHJAOuterClass.GFFKODENHJA getPPKIKFGEINK();
+    /**
+     * <code>.GFFKODENHJA PPKIKFGEINK = 2;</code>
+     */
+    emu.grasscutter.net.proto.GFFKODENHJAOuterClass.GFFKODENHJAOrBuilder getPPKIKFGEINKOrBuilder();
+
+    /**
+     * <code>uint32 enter_scene_token = 3;</code>
      * @return The enterSceneToken.
      */
     int getEnterSceneToken();
 
     /**
-     * <pre>
-     *6.4.0    
-     * </pre>
-     *
-     * <code>int32 retcode = 3;</code>
+     * <code>int32 retcode = 4;</code>
      * @return The retcode.
      */
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdId: 3324
-   * </pre>
-   *
    * Protobuf type {@code EnterSceneDoneRsp}
    */
   public static final class EnterSceneDoneRsp extends
@@ -87,12 +90,25 @@ public final class EnterSceneDoneRspOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 18: {
+              emu.grasscutter.net.proto.GFFKODENHJAOuterClass.GFFKODENHJA.Builder subBuilder = null;
+              if (pPKIKFGEINK_ != null) {
+                subBuilder = pPKIKFGEINK_.toBuilder();
+              }
+              pPKIKFGEINK_ = input.readMessage(emu.grasscutter.net.proto.GFFKODENHJAOuterClass.GFFKODENHJA.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(pPKIKFGEINK_);
+                pPKIKFGEINK_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 24: {
 
               enterSceneToken_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 32: {
 
               retcode_ = input.readInt32();
               break;
@@ -129,14 +145,36 @@ public final class EnterSceneDoneRspOuterClass {
               emu.grasscutter.net.proto.EnterSceneDoneRspOuterClass.EnterSceneDoneRsp.class, emu.grasscutter.net.proto.EnterSceneDoneRspOuterClass.EnterSceneDoneRsp.Builder.class);
     }
 
-    public static final int ENTER_SCENE_TOKEN_FIELD_NUMBER = 4;
+    public static final int PPKIKFGEINK_FIELD_NUMBER = 2;
+    private emu.grasscutter.net.proto.GFFKODENHJAOuterClass.GFFKODENHJA pPKIKFGEINK_;
+    /**
+     * <code>.GFFKODENHJA PPKIKFGEINK = 2;</code>
+     * @return Whether the pPKIKFGEINK field is set.
+     */
+    @java.lang.Override
+    public boolean hasPPKIKFGEINK() {
+      return pPKIKFGEINK_ != null;
+    }
+    /**
+     * <code>.GFFKODENHJA PPKIKFGEINK = 2;</code>
+     * @return The pPKIKFGEINK.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.GFFKODENHJAOuterClass.GFFKODENHJA getPPKIKFGEINK() {
+      return pPKIKFGEINK_ == null ? emu.grasscutter.net.proto.GFFKODENHJAOuterClass.GFFKODENHJA.getDefaultInstance() : pPKIKFGEINK_;
+    }
+    /**
+     * <code>.GFFKODENHJA PPKIKFGEINK = 2;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.GFFKODENHJAOuterClass.GFFKODENHJAOrBuilder getPPKIKFGEINKOrBuilder() {
+      return getPPKIKFGEINK();
+    }
+
+    public static final int ENTER_SCENE_TOKEN_FIELD_NUMBER = 3;
     private int enterSceneToken_;
     /**
-     * <pre>
-     *6.4.0    
-     * </pre>
-     *
-     * <code>uint32 enter_scene_token = 9;</code>
+     * <code>uint32 enter_scene_token = 3;</code>
      * @return The enterSceneToken.
      */
     @java.lang.Override
@@ -144,14 +182,10 @@ public final class EnterSceneDoneRspOuterClass {
       return enterSceneToken_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 15;
+    public static final int RETCODE_FIELD_NUMBER = 4;
     private int retcode_;
     /**
-     * <pre>
-     *6.4.0    
-     * </pre>
-     *
-     * <code>int32 retcode = 3;</code>
+     * <code>int32 retcode = 4;</code>
      * @return The retcode.
      */
     @java.lang.Override
@@ -173,11 +207,14 @@ public final class EnterSceneDoneRspOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (retcode_ != 0) {
-        output.writeInt32(15, retcode_);
+      if (pPKIKFGEINK_ != null) {
+        output.writeMessage(2, getPPKIKFGEINK());
       }
       if (enterSceneToken_ != 0) {
-        output.writeUInt32(4, enterSceneToken_);
+        output.writeUInt32(3, enterSceneToken_);
+      }
+      if (retcode_ != 0) {
+        output.writeInt32(4, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -188,13 +225,17 @@ public final class EnterSceneDoneRspOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (retcode_ != 0) {
+      if (pPKIKFGEINK_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(15, retcode_);
+          .computeMessageSize(2, getPPKIKFGEINK());
       }
       if (enterSceneToken_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, enterSceneToken_);
+          .computeUInt32Size(3, enterSceneToken_);
+      }
+      if (retcode_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt32Size(4, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -211,6 +252,11 @@ public final class EnterSceneDoneRspOuterClass {
       }
       emu.grasscutter.net.proto.EnterSceneDoneRspOuterClass.EnterSceneDoneRsp other = (emu.grasscutter.net.proto.EnterSceneDoneRspOuterClass.EnterSceneDoneRsp) obj;
 
+      if (hasPPKIKFGEINK() != other.hasPPKIKFGEINK()) return false;
+      if (hasPPKIKFGEINK()) {
+        if (!getPPKIKFGEINK()
+            .equals(other.getPPKIKFGEINK())) return false;
+      }
       if (getEnterSceneToken()
           != other.getEnterSceneToken()) return false;
       if (getRetcode()
@@ -226,6 +272,10 @@ public final class EnterSceneDoneRspOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      if (hasPPKIKFGEINK()) {
+        hash = (37 * hash) + PPKIKFGEINK_FIELD_NUMBER;
+        hash = (53 * hash) + getPPKIKFGEINK().hashCode();
+      }
       hash = (37 * hash) + ENTER_SCENE_TOKEN_FIELD_NUMBER;
       hash = (53 * hash) + getEnterSceneToken();
       hash = (37 * hash) + RETCODE_FIELD_NUMBER;
@@ -326,10 +376,6 @@ public final class EnterSceneDoneRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 3324
-     * </pre>
-     *
      * Protobuf type {@code EnterSceneDoneRsp}
      */
     public static final class Builder extends
@@ -367,6 +413,12 @@ public final class EnterSceneDoneRspOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        if (pPKIKFGEINKBuilder_ == null) {
+          pPKIKFGEINK_ = null;
+        } else {
+          pPKIKFGEINK_ = null;
+          pPKIKFGEINKBuilder_ = null;
+        }
         enterSceneToken_ = 0;
 
         retcode_ = 0;
@@ -397,6 +449,11 @@ public final class EnterSceneDoneRspOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.EnterSceneDoneRspOuterClass.EnterSceneDoneRsp buildPartial() {
         emu.grasscutter.net.proto.EnterSceneDoneRspOuterClass.EnterSceneDoneRsp result = new emu.grasscutter.net.proto.EnterSceneDoneRspOuterClass.EnterSceneDoneRsp(this);
+        if (pPKIKFGEINKBuilder_ == null) {
+          result.pPKIKFGEINK_ = pPKIKFGEINK_;
+        } else {
+          result.pPKIKFGEINK_ = pPKIKFGEINKBuilder_.build();
+        }
         result.enterSceneToken_ = enterSceneToken_;
         result.retcode_ = retcode_;
         onBuilt();
@@ -447,6 +504,9 @@ public final class EnterSceneDoneRspOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.EnterSceneDoneRspOuterClass.EnterSceneDoneRsp other) {
         if (other == emu.grasscutter.net.proto.EnterSceneDoneRspOuterClass.EnterSceneDoneRsp.getDefaultInstance()) return this;
+        if (other.hasPPKIKFGEINK()) {
+          mergePPKIKFGEINK(other.getPPKIKFGEINK());
+        }
         if (other.getEnterSceneToken() != 0) {
           setEnterSceneToken(other.getEnterSceneToken());
         }
@@ -482,13 +542,128 @@ public final class EnterSceneDoneRspOuterClass {
         return this;
       }
 
+      private emu.grasscutter.net.proto.GFFKODENHJAOuterClass.GFFKODENHJA pPKIKFGEINK_;
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.GFFKODENHJAOuterClass.GFFKODENHJA, emu.grasscutter.net.proto.GFFKODENHJAOuterClass.GFFKODENHJA.Builder, emu.grasscutter.net.proto.GFFKODENHJAOuterClass.GFFKODENHJAOrBuilder> pPKIKFGEINKBuilder_;
+      /**
+       * <code>.GFFKODENHJA PPKIKFGEINK = 2;</code>
+       * @return Whether the pPKIKFGEINK field is set.
+       */
+      public boolean hasPPKIKFGEINK() {
+        return pPKIKFGEINKBuilder_ != null || pPKIKFGEINK_ != null;
+      }
+      /**
+       * <code>.GFFKODENHJA PPKIKFGEINK = 2;</code>
+       * @return The pPKIKFGEINK.
+       */
+      public emu.grasscutter.net.proto.GFFKODENHJAOuterClass.GFFKODENHJA getPPKIKFGEINK() {
+        if (pPKIKFGEINKBuilder_ == null) {
+          return pPKIKFGEINK_ == null ? emu.grasscutter.net.proto.GFFKODENHJAOuterClass.GFFKODENHJA.getDefaultInstance() : pPKIKFGEINK_;
+        } else {
+          return pPKIKFGEINKBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>.GFFKODENHJA PPKIKFGEINK = 2;</code>
+       */
+      public Builder setPPKIKFGEINK(emu.grasscutter.net.proto.GFFKODENHJAOuterClass.GFFKODENHJA value) {
+        if (pPKIKFGEINKBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          pPKIKFGEINK_ = value;
+          onChanged();
+        } else {
+          pPKIKFGEINKBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>.GFFKODENHJA PPKIKFGEINK = 2;</code>
+       */
+      public Builder setPPKIKFGEINK(
+          emu.grasscutter.net.proto.GFFKODENHJAOuterClass.GFFKODENHJA.Builder builderForValue) {
+        if (pPKIKFGEINKBuilder_ == null) {
+          pPKIKFGEINK_ = builderForValue.build();
+          onChanged();
+        } else {
+          pPKIKFGEINKBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>.GFFKODENHJA PPKIKFGEINK = 2;</code>
+       */
+      public Builder mergePPKIKFGEINK(emu.grasscutter.net.proto.GFFKODENHJAOuterClass.GFFKODENHJA value) {
+        if (pPKIKFGEINKBuilder_ == null) {
+          if (pPKIKFGEINK_ != null) {
+            pPKIKFGEINK_ =
+              emu.grasscutter.net.proto.GFFKODENHJAOuterClass.GFFKODENHJA.newBuilder(pPKIKFGEINK_).mergeFrom(value).buildPartial();
+          } else {
+            pPKIKFGEINK_ = value;
+          }
+          onChanged();
+        } else {
+          pPKIKFGEINKBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>.GFFKODENHJA PPKIKFGEINK = 2;</code>
+       */
+      public Builder clearPPKIKFGEINK() {
+        if (pPKIKFGEINKBuilder_ == null) {
+          pPKIKFGEINK_ = null;
+          onChanged();
+        } else {
+          pPKIKFGEINK_ = null;
+          pPKIKFGEINKBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>.GFFKODENHJA PPKIKFGEINK = 2;</code>
+       */
+      public emu.grasscutter.net.proto.GFFKODENHJAOuterClass.GFFKODENHJA.Builder getPPKIKFGEINKBuilder() {
+        
+        onChanged();
+        return getPPKIKFGEINKFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>.GFFKODENHJA PPKIKFGEINK = 2;</code>
+       */
+      public emu.grasscutter.net.proto.GFFKODENHJAOuterClass.GFFKODENHJAOrBuilder getPPKIKFGEINKOrBuilder() {
+        if (pPKIKFGEINKBuilder_ != null) {
+          return pPKIKFGEINKBuilder_.getMessageOrBuilder();
+        } else {
+          return pPKIKFGEINK_ == null ?
+              emu.grasscutter.net.proto.GFFKODENHJAOuterClass.GFFKODENHJA.getDefaultInstance() : pPKIKFGEINK_;
+        }
+      }
+      /**
+       * <code>.GFFKODENHJA PPKIKFGEINK = 2;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.GFFKODENHJAOuterClass.GFFKODENHJA, emu.grasscutter.net.proto.GFFKODENHJAOuterClass.GFFKODENHJA.Builder, emu.grasscutter.net.proto.GFFKODENHJAOuterClass.GFFKODENHJAOrBuilder> 
+          getPPKIKFGEINKFieldBuilder() {
+        if (pPKIKFGEINKBuilder_ == null) {
+          pPKIKFGEINKBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.GFFKODENHJAOuterClass.GFFKODENHJA, emu.grasscutter.net.proto.GFFKODENHJAOuterClass.GFFKODENHJA.Builder, emu.grasscutter.net.proto.GFFKODENHJAOuterClass.GFFKODENHJAOrBuilder>(
+                  getPPKIKFGEINK(),
+                  getParentForChildren(),
+                  isClean());
+          pPKIKFGEINK_ = null;
+        }
+        return pPKIKFGEINKBuilder_;
+      }
+
       private int enterSceneToken_ ;
       /**
-       * <pre>
-       *6.4.0    
-       * </pre>
-       *
-       * <code>uint32 enter_scene_token = 9;</code>
+       * <code>uint32 enter_scene_token = 3;</code>
        * @return The enterSceneToken.
        */
       @java.lang.Override
@@ -496,11 +671,7 @@ public final class EnterSceneDoneRspOuterClass {
         return enterSceneToken_;
       }
       /**
-       * <pre>
-       *6.4.0    
-       * </pre>
-       *
-       * <code>uint32 enter_scene_token = 9;</code>
+       * <code>uint32 enter_scene_token = 3;</code>
        * @param value The enterSceneToken to set.
        * @return This builder for chaining.
        */
@@ -511,11 +682,7 @@ public final class EnterSceneDoneRspOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *6.4.0    
-       * </pre>
-       *
-       * <code>uint32 enter_scene_token = 9;</code>
+       * <code>uint32 enter_scene_token = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearEnterSceneToken() {
@@ -527,11 +694,7 @@ public final class EnterSceneDoneRspOuterClass {
 
       private int retcode_ ;
       /**
-       * <pre>
-       *6.4.0    
-       * </pre>
-       *
-       * <code>int32 retcode = 3;</code>
+       * <code>int32 retcode = 4;</code>
        * @return The retcode.
        */
       @java.lang.Override
@@ -539,11 +702,7 @@ public final class EnterSceneDoneRspOuterClass {
         return retcode_;
       }
       /**
-       * <pre>
-       *6.4.0    
-       * </pre>
-       *
-       * <code>int32 retcode = 3;</code>
+       * <code>int32 retcode = 4;</code>
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
@@ -554,11 +713,7 @@ public final class EnterSceneDoneRspOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *6.4.0    
-       * </pre>
-       *
-       * <code>int32 retcode = 3;</code>
+       * <code>int32 retcode = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
@@ -634,21 +789,25 @@ public final class EnterSceneDoneRspOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\027EnterSceneDoneRsp.proto\"?\n\021EnterSceneD" +
-      "oneRsp\022\031\n\021enter_scene_token\030\t \001(\r\022\017\n\007ret" +
-      "code\030\003 \001(\005B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "\n\027EnterSceneDoneRsp.proto\032\021GFFKODENHJA.p" +
+      "roto\"b\n\021EnterSceneDoneRsp\022!\n\013PPKIKFGEINK" +
+      "\030\002 \001(\0132\014.GFFKODENHJA\022\031\n\021enter_scene_toke" +
+      "n\030\003 \001(\r\022\017\n\007retcode\030\004 \001(\005B8\n\031emu.grasscut" +
+      "ter.net.protoB\033EnterSceneDoneRspOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
+          emu.grasscutter.net.proto.GFFKODENHJAOuterClass.getDescriptor(),
         });
     internal_static_EnterSceneDoneRsp_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_EnterSceneDoneRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_EnterSceneDoneRsp_descriptor,
-        new java.lang.String[] { "EnterSceneToken", "Retcode", });
+        new java.lang.String[] { "PPKIKFGEINK", "EnterSceneToken", "Retcode", });
+    emu.grasscutter.net.proto.GFFKODENHJAOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

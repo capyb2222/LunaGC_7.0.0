@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "VintagePresentLevelDataOuterClass";
+
+message VintagePresentLevelData {
+	uint32 stage_id = 9;
+	uint32 present_id = 11;
+	bool is_finish = 12;
+	bool is_open = 15;
+}

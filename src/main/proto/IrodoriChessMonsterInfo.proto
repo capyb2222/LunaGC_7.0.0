@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "IrodoriChessMonsterInfoOuterClass";
+
+message IrodoriChessMonsterInfo {
+	uint32 level = 3;
+	uint32 grant_points = 4;
+	repeated uint32 affix_list = 8;
+	uint32 monster_id = 12;
+}

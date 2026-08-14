@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "WorktopOptionNotifyOuterClass";
+
+message WorktopOptionNotify {
+	repeated uint32 option_list = 2;
+	uint32 gadget_entity_id = 8;
+}

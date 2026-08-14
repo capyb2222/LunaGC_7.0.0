@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PrivateChatReqOuterClass";
+
+message PrivateChatReq {
+	message _BeyondCostumeShareCode {
+		bytes FEPAFANMNLK = 7;
+	}
+	oneof content {
+		_BeyondCostumeShareCode beyond_costume_share_code = 1;
+		uint32 icon = 8;
+		string text = 14;
+	}
+	uint32 target_uid = 10;
+}

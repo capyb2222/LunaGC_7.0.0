@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DBEJCJGBLLEOuterClass";
+
+import "_TemplatePotionInfo.proto";
+
+message DBEJCJGBLLE {
+	uint32 BJNOEGFAPNE = 2;
+	_TemplatePotionInfo NNADFEPJILG = 3;
+	uint32 HJIAHCGONMF = 5;
+	uint32 AJFHLGLOBLG = 12;
+	uint32 cost = 15;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "TakeCompoundOutputReqOuterClass";
+
+message TakeCompoundOutputReq {
+	bool _is_claim_all = 3;
+	uint32 compound_id = 10;
+	uint32 compound_group_id = 11;
+}

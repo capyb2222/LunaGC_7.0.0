@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FleurFairChapterInfoOuterClass";
+
+message FleurFairChapterInfo {
+	uint32 open_time = 1;
+	uint32 chapter_id = 7;
+}

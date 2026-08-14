@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_GCGAutoBattleCardDetailInfoOuterClass";
+
+import "HBJLPIDKEND.proto";
+import "JJAAPEINGAC.proto";
+import "KBHFBAJNBCG.proto";
+
+message _GCGAutoBattleCardDetailInfo {
+	KBHFBAJNBCG PCCLJJHAJGH = 2;
+	repeated uint32 LIMMJOANIDO = 4;
+	bool LBCGNOOJDIC = 6;
+	HBJLPIDKEND LEGBABJELMF = 7;
+	JJAAPEINGAC DHFAFMNNEOJ = 15;
+}

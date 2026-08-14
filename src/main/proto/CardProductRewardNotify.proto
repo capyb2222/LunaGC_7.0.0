@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CardProductRewardNotifyOuterClass";
+
+message CardProductRewardNotify {
+	uint32 hcoin = 5;
+	bool OABOKBGPEHG = 8;
+	uint32 remain_days = 12;
+	string product_id = 13;
+}

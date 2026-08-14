@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EvtBulletDeactiveNotifyOuterClass";
+
+import "ForwardType.proto";
+import "Vector.proto";
+
+message EvtBulletDeactiveNotify {
+	uint32 entity_id = 3;
+	Vector disappear_pos = 6;
+	ForwardType forward_type = 14;
+}

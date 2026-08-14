@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ChatEmojiCollectionDataOuterClass";
+
+message ChatEmojiCollectionData {
+	repeated uint32 emoji_id_list = 1;
+	repeated uint32 _emoji_set_id_list = 2;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GKLJODICHJNOuterClass";
+
+message GKLJODICHJN {
+	int32 key_hash = 1;
+	float value = 2;
+}

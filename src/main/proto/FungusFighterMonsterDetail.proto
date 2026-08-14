@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FungusFighterMonsterDetailOuterClass";
+
+message FungusFighterMonsterDetail {
+	uint32 fungus_id = 1;
+	bool is_alive = 7;
+	float cur_hp_percentage = 13;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "IDDCIPCLJIMOuterClass";
+
+message IDDCIPCLJIM {
+	bool is_finish = 2;
+	uint32 level_id = 3;
+	uint32 OALJEAIMDID = 4;
+	bool is_open = 13;
+}

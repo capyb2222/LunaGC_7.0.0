@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FleurFairMusicRecordOuterClass";
+
+message FleurFairMusicRecord {
+	uint32 max_score = 1;
+	uint32 max_combo = 5;
+	bool is_unlock = 12;
+}

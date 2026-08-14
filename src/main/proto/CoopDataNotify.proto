@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CoopDataNotifyOuterClass";
+
+import "CoopChapter.proto";
+
+message CoopDataNotify {
+	repeated CoopChapter chapter_list = 2;
+	repeated uint32 viewed_chapter_list = 9;
+	uint32 cur_coop_point = 11;
+	bool is_have_progress = 12;
+}

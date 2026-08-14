@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CoopRewardOuterClass";
+
+message CoopReward {
+	enum State {
+		STATE_UNLOCK = 0;
+		STATE_LOCK = 1;
+		STATE_TAKEN = 2;
+	}
+	uint32 id = 4;
+	State state = 12;
+}

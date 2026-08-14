@@ -19,27 +19,27 @@ public final class RockBoardExploreDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .GLIAGBAKNOC MMGAPLBAGBJ = 8;</code>
+     * <code>repeated .RockBoardExploreStageData stage_data_list = 12;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC> 
-        getMMGAPLBAGBJList();
+    java.util.List<emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData> 
+        getStageDataListList();
     /**
-     * <code>repeated .GLIAGBAKNOC MMGAPLBAGBJ = 8;</code>
+     * <code>repeated .RockBoardExploreStageData stage_data_list = 12;</code>
      */
-    emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC getMMGAPLBAGBJ(int index);
+    emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData getStageDataList(int index);
     /**
-     * <code>repeated .GLIAGBAKNOC MMGAPLBAGBJ = 8;</code>
+     * <code>repeated .RockBoardExploreStageData stage_data_list = 12;</code>
      */
-    int getMMGAPLBAGBJCount();
+    int getStageDataListCount();
     /**
-     * <code>repeated .GLIAGBAKNOC MMGAPLBAGBJ = 8;</code>
+     * <code>repeated .RockBoardExploreStageData stage_data_list = 12;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOCOrBuilder> 
-        getMMGAPLBAGBJOrBuilderList();
+    java.util.List<? extends emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageDataOrBuilder> 
+        getStageDataListOrBuilderList();
     /**
-     * <code>repeated .GLIAGBAKNOC MMGAPLBAGBJ = 8;</code>
+     * <code>repeated .RockBoardExploreStageData stage_data_list = 12;</code>
      */
-    emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOCOrBuilder getMMGAPLBAGBJOrBuilder(
+    emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageDataOrBuilder getStageDataListOrBuilder(
         int index);
   }
   /**
@@ -55,7 +55,7 @@ public final class RockBoardExploreDetailInfoOuterClass {
       super(builder);
     }
     private RockBoardExploreDetailInfo() {
-      mMGAPLBAGBJ_ = java.util.Collections.emptyList();
+      stageDataList_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -89,13 +89,13 @@ public final class RockBoardExploreDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 66: {
+            case 98: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                mMGAPLBAGBJ_ = new java.util.ArrayList<emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC>();
+                stageDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              mMGAPLBAGBJ_.add(
-                  input.readMessage(emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC.parser(), extensionRegistry));
+              stageDataList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -114,7 +114,7 @@ public final class RockBoardExploreDetailInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          mMGAPLBAGBJ_ = java.util.Collections.unmodifiableList(mMGAPLBAGBJ_);
+          stageDataList_ = java.util.Collections.unmodifiableList(stageDataList_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -133,44 +133,44 @@ public final class RockBoardExploreDetailInfoOuterClass {
               emu.grasscutter.net.proto.RockBoardExploreDetailInfoOuterClass.RockBoardExploreDetailInfo.class, emu.grasscutter.net.proto.RockBoardExploreDetailInfoOuterClass.RockBoardExploreDetailInfo.Builder.class);
     }
 
-    public static final int MMGAPLBAGBJ_FIELD_NUMBER = 8;
-    private java.util.List<emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC> mMGAPLBAGBJ_;
+    public static final int STAGE_DATA_LIST_FIELD_NUMBER = 12;
+    private java.util.List<emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData> stageDataList_;
     /**
-     * <code>repeated .GLIAGBAKNOC MMGAPLBAGBJ = 8;</code>
+     * <code>repeated .RockBoardExploreStageData stage_data_list = 12;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC> getMMGAPLBAGBJList() {
-      return mMGAPLBAGBJ_;
+    public java.util.List<emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData> getStageDataListList() {
+      return stageDataList_;
     }
     /**
-     * <code>repeated .GLIAGBAKNOC MMGAPLBAGBJ = 8;</code>
+     * <code>repeated .RockBoardExploreStageData stage_data_list = 12;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOCOrBuilder> 
-        getMMGAPLBAGBJOrBuilderList() {
-      return mMGAPLBAGBJ_;
+    public java.util.List<? extends emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageDataOrBuilder> 
+        getStageDataListOrBuilderList() {
+      return stageDataList_;
     }
     /**
-     * <code>repeated .GLIAGBAKNOC MMGAPLBAGBJ = 8;</code>
+     * <code>repeated .RockBoardExploreStageData stage_data_list = 12;</code>
      */
     @java.lang.Override
-    public int getMMGAPLBAGBJCount() {
-      return mMGAPLBAGBJ_.size();
+    public int getStageDataListCount() {
+      return stageDataList_.size();
     }
     /**
-     * <code>repeated .GLIAGBAKNOC MMGAPLBAGBJ = 8;</code>
+     * <code>repeated .RockBoardExploreStageData stage_data_list = 12;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC getMMGAPLBAGBJ(int index) {
-      return mMGAPLBAGBJ_.get(index);
+    public emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData getStageDataList(int index) {
+      return stageDataList_.get(index);
     }
     /**
-     * <code>repeated .GLIAGBAKNOC MMGAPLBAGBJ = 8;</code>
+     * <code>repeated .RockBoardExploreStageData stage_data_list = 12;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOCOrBuilder getMMGAPLBAGBJOrBuilder(
+    public emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageDataOrBuilder getStageDataListOrBuilder(
         int index) {
-      return mMGAPLBAGBJ_.get(index);
+      return stageDataList_.get(index);
     }
 
     private byte memoizedIsInitialized = -1;
@@ -187,8 +187,8 @@ public final class RockBoardExploreDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < mMGAPLBAGBJ_.size(); i++) {
-        output.writeMessage(8, mMGAPLBAGBJ_.get(i));
+      for (int i = 0; i < stageDataList_.size(); i++) {
+        output.writeMessage(12, stageDataList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -199,9 +199,9 @@ public final class RockBoardExploreDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < mMGAPLBAGBJ_.size(); i++) {
+      for (int i = 0; i < stageDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, mMGAPLBAGBJ_.get(i));
+          .computeMessageSize(12, stageDataList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -218,8 +218,8 @@ public final class RockBoardExploreDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.RockBoardExploreDetailInfoOuterClass.RockBoardExploreDetailInfo other = (emu.grasscutter.net.proto.RockBoardExploreDetailInfoOuterClass.RockBoardExploreDetailInfo) obj;
 
-      if (!getMMGAPLBAGBJList()
-          .equals(other.getMMGAPLBAGBJList())) return false;
+      if (!getStageDataListList()
+          .equals(other.getStageDataListList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -231,9 +231,9 @@ public final class RockBoardExploreDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getMMGAPLBAGBJCount() > 0) {
-        hash = (37 * hash) + MMGAPLBAGBJ_FIELD_NUMBER;
-        hash = (53 * hash) + getMMGAPLBAGBJList().hashCode();
+      if (getStageDataListCount() > 0) {
+        hash = (37 * hash) + STAGE_DATA_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getStageDataListList().hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -363,17 +363,17 @@ public final class RockBoardExploreDetailInfoOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
-          getMMGAPLBAGBJFieldBuilder();
+          getStageDataListFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (mMGAPLBAGBJBuilder_ == null) {
-          mMGAPLBAGBJ_ = java.util.Collections.emptyList();
+        if (stageDataListBuilder_ == null) {
+          stageDataList_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
         } else {
-          mMGAPLBAGBJBuilder_.clear();
+          stageDataListBuilder_.clear();
         }
         return this;
       }
@@ -402,14 +402,14 @@ public final class RockBoardExploreDetailInfoOuterClass {
       public emu.grasscutter.net.proto.RockBoardExploreDetailInfoOuterClass.RockBoardExploreDetailInfo buildPartial() {
         emu.grasscutter.net.proto.RockBoardExploreDetailInfoOuterClass.RockBoardExploreDetailInfo result = new emu.grasscutter.net.proto.RockBoardExploreDetailInfoOuterClass.RockBoardExploreDetailInfo(this);
         int from_bitField0_ = bitField0_;
-        if (mMGAPLBAGBJBuilder_ == null) {
+        if (stageDataListBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
-            mMGAPLBAGBJ_ = java.util.Collections.unmodifiableList(mMGAPLBAGBJ_);
+            stageDataList_ = java.util.Collections.unmodifiableList(stageDataList_);
             bitField0_ = (bitField0_ & ~0x00000001);
           }
-          result.mMGAPLBAGBJ_ = mMGAPLBAGBJ_;
+          result.stageDataList_ = stageDataList_;
         } else {
-          result.mMGAPLBAGBJ_ = mMGAPLBAGBJBuilder_.build();
+          result.stageDataList_ = stageDataListBuilder_.build();
         }
         onBuilt();
         return result;
@@ -459,29 +459,29 @@ public final class RockBoardExploreDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.RockBoardExploreDetailInfoOuterClass.RockBoardExploreDetailInfo other) {
         if (other == emu.grasscutter.net.proto.RockBoardExploreDetailInfoOuterClass.RockBoardExploreDetailInfo.getDefaultInstance()) return this;
-        if (mMGAPLBAGBJBuilder_ == null) {
-          if (!other.mMGAPLBAGBJ_.isEmpty()) {
-            if (mMGAPLBAGBJ_.isEmpty()) {
-              mMGAPLBAGBJ_ = other.mMGAPLBAGBJ_;
+        if (stageDataListBuilder_ == null) {
+          if (!other.stageDataList_.isEmpty()) {
+            if (stageDataList_.isEmpty()) {
+              stageDataList_ = other.stageDataList_;
               bitField0_ = (bitField0_ & ~0x00000001);
             } else {
-              ensureMMGAPLBAGBJIsMutable();
-              mMGAPLBAGBJ_.addAll(other.mMGAPLBAGBJ_);
+              ensureStageDataListIsMutable();
+              stageDataList_.addAll(other.stageDataList_);
             }
             onChanged();
           }
         } else {
-          if (!other.mMGAPLBAGBJ_.isEmpty()) {
-            if (mMGAPLBAGBJBuilder_.isEmpty()) {
-              mMGAPLBAGBJBuilder_.dispose();
-              mMGAPLBAGBJBuilder_ = null;
-              mMGAPLBAGBJ_ = other.mMGAPLBAGBJ_;
+          if (!other.stageDataList_.isEmpty()) {
+            if (stageDataListBuilder_.isEmpty()) {
+              stageDataListBuilder_.dispose();
+              stageDataListBuilder_ = null;
+              stageDataList_ = other.stageDataList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              mMGAPLBAGBJBuilder_ = 
+              stageDataListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getMMGAPLBAGBJFieldBuilder() : null;
+                   getStageDataListFieldBuilder() : null;
             } else {
-              mMGAPLBAGBJBuilder_.addAllMessages(other.mMGAPLBAGBJ_);
+              stageDataListBuilder_.addAllMessages(other.stageDataList_);
             }
           }
         }
@@ -515,244 +515,244 @@ public final class RockBoardExploreDetailInfoOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC> mMGAPLBAGBJ_ =
+      private java.util.List<emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData> stageDataList_ =
         java.util.Collections.emptyList();
-      private void ensureMMGAPLBAGBJIsMutable() {
+      private void ensureStageDataListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          mMGAPLBAGBJ_ = new java.util.ArrayList<emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC>(mMGAPLBAGBJ_);
+          stageDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData>(stageDataList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC, emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC.Builder, emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOCOrBuilder> mMGAPLBAGBJBuilder_;
+          emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData, emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData.Builder, emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageDataOrBuilder> stageDataListBuilder_;
 
       /**
-       * <code>repeated .GLIAGBAKNOC MMGAPLBAGBJ = 8;</code>
+       * <code>repeated .RockBoardExploreStageData stage_data_list = 12;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC> getMMGAPLBAGBJList() {
-        if (mMGAPLBAGBJBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(mMGAPLBAGBJ_);
+      public java.util.List<emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData> getStageDataListList() {
+        if (stageDataListBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(stageDataList_);
         } else {
-          return mMGAPLBAGBJBuilder_.getMessageList();
+          return stageDataListBuilder_.getMessageList();
         }
       }
       /**
-       * <code>repeated .GLIAGBAKNOC MMGAPLBAGBJ = 8;</code>
+       * <code>repeated .RockBoardExploreStageData stage_data_list = 12;</code>
        */
-      public int getMMGAPLBAGBJCount() {
-        if (mMGAPLBAGBJBuilder_ == null) {
-          return mMGAPLBAGBJ_.size();
+      public int getStageDataListCount() {
+        if (stageDataListBuilder_ == null) {
+          return stageDataList_.size();
         } else {
-          return mMGAPLBAGBJBuilder_.getCount();
+          return stageDataListBuilder_.getCount();
         }
       }
       /**
-       * <code>repeated .GLIAGBAKNOC MMGAPLBAGBJ = 8;</code>
+       * <code>repeated .RockBoardExploreStageData stage_data_list = 12;</code>
        */
-      public emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC getMMGAPLBAGBJ(int index) {
-        if (mMGAPLBAGBJBuilder_ == null) {
-          return mMGAPLBAGBJ_.get(index);
+      public emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData getStageDataList(int index) {
+        if (stageDataListBuilder_ == null) {
+          return stageDataList_.get(index);
         } else {
-          return mMGAPLBAGBJBuilder_.getMessage(index);
+          return stageDataListBuilder_.getMessage(index);
         }
       }
       /**
-       * <code>repeated .GLIAGBAKNOC MMGAPLBAGBJ = 8;</code>
+       * <code>repeated .RockBoardExploreStageData stage_data_list = 12;</code>
        */
-      public Builder setMMGAPLBAGBJ(
-          int index, emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC value) {
-        if (mMGAPLBAGBJBuilder_ == null) {
+      public Builder setStageDataList(
+          int index, emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData value) {
+        if (stageDataListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureMMGAPLBAGBJIsMutable();
-          mMGAPLBAGBJ_.set(index, value);
+          ensureStageDataListIsMutable();
+          stageDataList_.set(index, value);
           onChanged();
         } else {
-          mMGAPLBAGBJBuilder_.setMessage(index, value);
+          stageDataListBuilder_.setMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .GLIAGBAKNOC MMGAPLBAGBJ = 8;</code>
+       * <code>repeated .RockBoardExploreStageData stage_data_list = 12;</code>
        */
-      public Builder setMMGAPLBAGBJ(
-          int index, emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC.Builder builderForValue) {
-        if (mMGAPLBAGBJBuilder_ == null) {
-          ensureMMGAPLBAGBJIsMutable();
-          mMGAPLBAGBJ_.set(index, builderForValue.build());
+      public Builder setStageDataList(
+          int index, emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData.Builder builderForValue) {
+        if (stageDataListBuilder_ == null) {
+          ensureStageDataListIsMutable();
+          stageDataList_.set(index, builderForValue.build());
           onChanged();
         } else {
-          mMGAPLBAGBJBuilder_.setMessage(index, builderForValue.build());
+          stageDataListBuilder_.setMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .GLIAGBAKNOC MMGAPLBAGBJ = 8;</code>
+       * <code>repeated .RockBoardExploreStageData stage_data_list = 12;</code>
        */
-      public Builder addMMGAPLBAGBJ(emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC value) {
-        if (mMGAPLBAGBJBuilder_ == null) {
+      public Builder addStageDataList(emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData value) {
+        if (stageDataListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureMMGAPLBAGBJIsMutable();
-          mMGAPLBAGBJ_.add(value);
+          ensureStageDataListIsMutable();
+          stageDataList_.add(value);
           onChanged();
         } else {
-          mMGAPLBAGBJBuilder_.addMessage(value);
+          stageDataListBuilder_.addMessage(value);
         }
         return this;
       }
       /**
-       * <code>repeated .GLIAGBAKNOC MMGAPLBAGBJ = 8;</code>
+       * <code>repeated .RockBoardExploreStageData stage_data_list = 12;</code>
        */
-      public Builder addMMGAPLBAGBJ(
-          int index, emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC value) {
-        if (mMGAPLBAGBJBuilder_ == null) {
+      public Builder addStageDataList(
+          int index, emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData value) {
+        if (stageDataListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureMMGAPLBAGBJIsMutable();
-          mMGAPLBAGBJ_.add(index, value);
+          ensureStageDataListIsMutable();
+          stageDataList_.add(index, value);
           onChanged();
         } else {
-          mMGAPLBAGBJBuilder_.addMessage(index, value);
+          stageDataListBuilder_.addMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .GLIAGBAKNOC MMGAPLBAGBJ = 8;</code>
+       * <code>repeated .RockBoardExploreStageData stage_data_list = 12;</code>
        */
-      public Builder addMMGAPLBAGBJ(
-          emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC.Builder builderForValue) {
-        if (mMGAPLBAGBJBuilder_ == null) {
-          ensureMMGAPLBAGBJIsMutable();
-          mMGAPLBAGBJ_.add(builderForValue.build());
+      public Builder addStageDataList(
+          emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData.Builder builderForValue) {
+        if (stageDataListBuilder_ == null) {
+          ensureStageDataListIsMutable();
+          stageDataList_.add(builderForValue.build());
           onChanged();
         } else {
-          mMGAPLBAGBJBuilder_.addMessage(builderForValue.build());
+          stageDataListBuilder_.addMessage(builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .GLIAGBAKNOC MMGAPLBAGBJ = 8;</code>
+       * <code>repeated .RockBoardExploreStageData stage_data_list = 12;</code>
        */
-      public Builder addMMGAPLBAGBJ(
-          int index, emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC.Builder builderForValue) {
-        if (mMGAPLBAGBJBuilder_ == null) {
-          ensureMMGAPLBAGBJIsMutable();
-          mMGAPLBAGBJ_.add(index, builderForValue.build());
+      public Builder addStageDataList(
+          int index, emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData.Builder builderForValue) {
+        if (stageDataListBuilder_ == null) {
+          ensureStageDataListIsMutable();
+          stageDataList_.add(index, builderForValue.build());
           onChanged();
         } else {
-          mMGAPLBAGBJBuilder_.addMessage(index, builderForValue.build());
+          stageDataListBuilder_.addMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .GLIAGBAKNOC MMGAPLBAGBJ = 8;</code>
+       * <code>repeated .RockBoardExploreStageData stage_data_list = 12;</code>
        */
-      public Builder addAllMMGAPLBAGBJ(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC> values) {
-        if (mMGAPLBAGBJBuilder_ == null) {
-          ensureMMGAPLBAGBJIsMutable();
+      public Builder addAllStageDataList(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData> values) {
+        if (stageDataListBuilder_ == null) {
+          ensureStageDataListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, mMGAPLBAGBJ_);
+              values, stageDataList_);
           onChanged();
         } else {
-          mMGAPLBAGBJBuilder_.addAllMessages(values);
+          stageDataListBuilder_.addAllMessages(values);
         }
         return this;
       }
       /**
-       * <code>repeated .GLIAGBAKNOC MMGAPLBAGBJ = 8;</code>
+       * <code>repeated .RockBoardExploreStageData stage_data_list = 12;</code>
        */
-      public Builder clearMMGAPLBAGBJ() {
-        if (mMGAPLBAGBJBuilder_ == null) {
-          mMGAPLBAGBJ_ = java.util.Collections.emptyList();
+      public Builder clearStageDataList() {
+        if (stageDataListBuilder_ == null) {
+          stageDataList_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
-          mMGAPLBAGBJBuilder_.clear();
+          stageDataListBuilder_.clear();
         }
         return this;
       }
       /**
-       * <code>repeated .GLIAGBAKNOC MMGAPLBAGBJ = 8;</code>
+       * <code>repeated .RockBoardExploreStageData stage_data_list = 12;</code>
        */
-      public Builder removeMMGAPLBAGBJ(int index) {
-        if (mMGAPLBAGBJBuilder_ == null) {
-          ensureMMGAPLBAGBJIsMutable();
-          mMGAPLBAGBJ_.remove(index);
+      public Builder removeStageDataList(int index) {
+        if (stageDataListBuilder_ == null) {
+          ensureStageDataListIsMutable();
+          stageDataList_.remove(index);
           onChanged();
         } else {
-          mMGAPLBAGBJBuilder_.remove(index);
+          stageDataListBuilder_.remove(index);
         }
         return this;
       }
       /**
-       * <code>repeated .GLIAGBAKNOC MMGAPLBAGBJ = 8;</code>
+       * <code>repeated .RockBoardExploreStageData stage_data_list = 12;</code>
        */
-      public emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC.Builder getMMGAPLBAGBJBuilder(
+      public emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData.Builder getStageDataListBuilder(
           int index) {
-        return getMMGAPLBAGBJFieldBuilder().getBuilder(index);
+        return getStageDataListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .GLIAGBAKNOC MMGAPLBAGBJ = 8;</code>
+       * <code>repeated .RockBoardExploreStageData stage_data_list = 12;</code>
        */
-      public emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOCOrBuilder getMMGAPLBAGBJOrBuilder(
+      public emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageDataOrBuilder getStageDataListOrBuilder(
           int index) {
-        if (mMGAPLBAGBJBuilder_ == null) {
-          return mMGAPLBAGBJ_.get(index);  } else {
-          return mMGAPLBAGBJBuilder_.getMessageOrBuilder(index);
+        if (stageDataListBuilder_ == null) {
+          return stageDataList_.get(index);  } else {
+          return stageDataListBuilder_.getMessageOrBuilder(index);
         }
       }
       /**
-       * <code>repeated .GLIAGBAKNOC MMGAPLBAGBJ = 8;</code>
+       * <code>repeated .RockBoardExploreStageData stage_data_list = 12;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOCOrBuilder> 
-           getMMGAPLBAGBJOrBuilderList() {
-        if (mMGAPLBAGBJBuilder_ != null) {
-          return mMGAPLBAGBJBuilder_.getMessageOrBuilderList();
+      public java.util.List<? extends emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageDataOrBuilder> 
+           getStageDataListOrBuilderList() {
+        if (stageDataListBuilder_ != null) {
+          return stageDataListBuilder_.getMessageOrBuilderList();
         } else {
-          return java.util.Collections.unmodifiableList(mMGAPLBAGBJ_);
+          return java.util.Collections.unmodifiableList(stageDataList_);
         }
       }
       /**
-       * <code>repeated .GLIAGBAKNOC MMGAPLBAGBJ = 8;</code>
+       * <code>repeated .RockBoardExploreStageData stage_data_list = 12;</code>
        */
-      public emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC.Builder addMMGAPLBAGBJBuilder() {
-        return getMMGAPLBAGBJFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC.getDefaultInstance());
+      public emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData.Builder addStageDataListBuilder() {
+        return getStageDataListFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData.getDefaultInstance());
       }
       /**
-       * <code>repeated .GLIAGBAKNOC MMGAPLBAGBJ = 8;</code>
+       * <code>repeated .RockBoardExploreStageData stage_data_list = 12;</code>
        */
-      public emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC.Builder addMMGAPLBAGBJBuilder(
+      public emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData.Builder addStageDataListBuilder(
           int index) {
-        return getMMGAPLBAGBJFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC.getDefaultInstance());
+        return getStageDataListFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData.getDefaultInstance());
       }
       /**
-       * <code>repeated .GLIAGBAKNOC MMGAPLBAGBJ = 8;</code>
+       * <code>repeated .RockBoardExploreStageData stage_data_list = 12;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC.Builder> 
-           getMMGAPLBAGBJBuilderList() {
-        return getMMGAPLBAGBJFieldBuilder().getBuilderList();
+      public java.util.List<emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData.Builder> 
+           getStageDataListBuilderList() {
+        return getStageDataListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC, emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC.Builder, emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOCOrBuilder> 
-          getMMGAPLBAGBJFieldBuilder() {
-        if (mMGAPLBAGBJBuilder_ == null) {
-          mMGAPLBAGBJBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC, emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOC.Builder, emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.GLIAGBAKNOCOrBuilder>(
-                  mMGAPLBAGBJ_,
+          emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData, emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData.Builder, emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageDataOrBuilder> 
+          getStageDataListFieldBuilder() {
+        if (stageDataListBuilder_ == null) {
+          stageDataListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData, emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageData.Builder, emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.RockBoardExploreStageDataOrBuilder>(
+                  stageDataList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
                   isClean());
-          mMGAPLBAGBJ_ = null;
+          stageDataList_ = null;
         }
-        return mMGAPLBAGBJBuilder_;
+        return stageDataListBuilder_;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -821,23 +821,25 @@ public final class RockBoardExploreDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n RockBoardExploreDetailInfo.proto\032\021GLIA" +
-      "GBAKNOC.proto\"?\n\032RockBoardExploreDetailI" +
-      "nfo\022!\n\013MMGAPLBAGBJ\030\010 \003(\0132\014.GLIAGBAKNOCB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "\n RockBoardExploreDetailInfo.proto\032\037Rock" +
+      "BoardExploreStageData.proto\"Q\n\032RockBoard" +
+      "ExploreDetailInfo\0223\n\017stage_data_list\030\014 \003" +
+      "(\0132\032.RockBoardExploreStageDataBA\n\031emu.gr" +
+      "asscutter.net.protoB$RockBoardExploreDet" +
+      "ailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.getDescriptor(),
         });
     internal_static_RockBoardExploreDetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_RockBoardExploreDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_RockBoardExploreDetailInfo_descriptor,
-        new java.lang.String[] { "MMGAPLBAGBJ", });
-    emu.grasscutter.net.proto.GLIAGBAKNOCOuterClass.getDescriptor();
+        new java.lang.String[] { "StageDataList", });
+    emu.grasscutter.net.proto.RockBoardExploreStageDataOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

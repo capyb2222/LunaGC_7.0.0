@@ -19,10 +19,6 @@ public final class JourneyGearGadgetInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <pre>
-     *6.4.0 //6.5.0         
-     * </pre>
-     *
      * <code>uint32 level_id = 1;</code>
      * @return The levelId.
      */
@@ -113,10 +109,6 @@ public final class JourneyGearGadgetInfoOuterClass {
     public static final int LEVEL_ID_FIELD_NUMBER = 1;
     private int levelId_;
     /**
-     * <pre>
-     *6.4.0 //6.5.0         
-     * </pre>
-     *
      * <code>uint32 level_id = 1;</code>
      * @return The levelId.
      */
@@ -429,10 +421,6 @@ public final class JourneyGearGadgetInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <pre>
-       *6.4.0 //6.5.0         
-       * </pre>
-       *
        * <code>uint32 level_id = 1;</code>
        * @return The levelId.
        */
@@ -441,10 +429,6 @@ public final class JourneyGearGadgetInfoOuterClass {
         return levelId_;
       }
       /**
-       * <pre>
-       *6.4.0 //6.5.0         
-       * </pre>
-       *
        * <code>uint32 level_id = 1;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
@@ -456,10 +440,6 @@ public final class JourneyGearGadgetInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *6.4.0 //6.5.0         
-       * </pre>
-       *
        * <code>uint32 level_id = 1;</code>
        * @return This builder for chaining.
        */
@@ -537,8 +517,9 @@ public final class JourneyGearGadgetInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033JourneyGearGadgetInfo.proto\")\n\025Journey" +
-      "GearGadgetInfo\022\020\n\010level_id\030\001 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "GearGadgetInfo\022\020\n\010level_id\030\001 \001(\rB<\n\031emu." +
+      "grasscutter.net.protoB\037JourneyGearGadget" +
+      "InfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

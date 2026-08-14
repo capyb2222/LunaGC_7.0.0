@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MLLBFLGFLDNOuterClass";
+
+import "Vector.proto";
+
+message MLLBFLGFLDN {
+	Vector pos = 1;
+	Vector rot = 2;
+	uint32 block_id = 3;
+}

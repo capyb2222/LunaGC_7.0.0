@@ -18,6 +18,10 @@ public final class WeatherInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:WeatherInfo)
       com.google.protobuf.MessageOrBuilder {
 
+    /**
+     * <code>uint32 weather_area_id = 1;</code>
+     * @return The weatherAreaId.
+     */
     int getWeatherAreaId();
   }
   /**
@@ -104,7 +108,10 @@ public final class WeatherInfoOuterClass {
 
     public static final int WEATHER_AREA_ID_FIELD_NUMBER = 1;
     private int weatherAreaId_;
-
+    /**
+     * <code>uint32 weather_area_id = 1;</code>
+     * @return The weatherAreaId.
+     */
     @java.lang.Override
     public int getWeatherAreaId() {
       return weatherAreaId_;
@@ -413,21 +420,31 @@ public final class WeatherInfoOuterClass {
       }
 
       private int weatherAreaId_ ;
-
+      /**
+       * <code>uint32 weather_area_id = 1;</code>
+       * @return The weatherAreaId.
+       */
       @java.lang.Override
       public int getWeatherAreaId() {
         return weatherAreaId_;
       }
-
+      /**
+       * <code>uint32 weather_area_id = 1;</code>
+       * @param value The weatherAreaId to set.
+       * @return This builder for chaining.
+       */
       public Builder setWeatherAreaId(int value) {
-
+        
         weatherAreaId_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint32 weather_area_id = 1;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearWeatherAreaId() {
-
+        
         weatherAreaId_ = 0;
         onChanged();
         return this;
@@ -443,6 +460,7 @@ public final class WeatherInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:WeatherInfo)
     }
@@ -486,7 +504,7 @@ public final class WeatherInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WeatherInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WeatherInfo_fieldAccessorTable;
 
@@ -499,8 +517,8 @@ public final class WeatherInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021WeatherInfo.proto\"&\n\013WeatherInfo\022\027\n\017we" +
-      "ather_area_id\030\001 \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "ather_area_id\030\001 \001(\rB2\n\031emu.grasscutter.n" +
+      "et.protoB\025WeatherInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

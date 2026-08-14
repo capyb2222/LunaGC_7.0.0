@@ -133,8 +133,8 @@ public final class InterOpTypeOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021InterOpType.proto*N\n\013InterOpType\022\037\n\033In" +
       "terOpType_INTER_OP_FINISH\020\000\022\036\n\032InterOpTy" +
-      "pe_INTER_OP_START\020\001B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "pe_INTER_OP_START\020\001B2\n\031emu.grasscutter.n" +
+      "et.protoB\025InterOpTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FairyTalesDetailInfoOuterClass";
+
+import "BMFHLLPLCNA.proto";
+import "JIEHJMIEHPM.proto";
+import "MABDPGLBMOE.proto";
+import "OICBFHCJGCC.proto";
+
+message FairyTalesDetailInfo {
+	BMFHLLPLCNA ceicakkfgko = 1;
+	repeated JIEHJMIEHPM ICALMLAHAAL = 3;
+	repeated OICBFHCJGCC HIIIBLGMMLF = 6;
+	repeated uint32 oegakdnmcjb = 9;
+	repeated MABDPGLBMOE PKAOIMANLKC = 13;
+	bool ajdnblagkok = 14;
+}

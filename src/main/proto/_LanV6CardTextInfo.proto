@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_LanV6CardTextInfoOuterClass";
+
+import "_LanV6CardText.proto";
+
+message _LanV6CardTextInfo {
+	repeated _LanV6CardText _card_text = 1;
+}

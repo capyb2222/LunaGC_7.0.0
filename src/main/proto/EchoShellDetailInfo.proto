@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EchoShellDetailInfoOuterClass";
+
+import "SummerTimeDungeonInfo.proto";
+
+message EchoShellDetailInfo {
+	repeated uint32 MBGIBFEEOLH = 3;
+	repeated uint32 FHIALFGIKKC = 6;
+	repeated SummerTimeDungeonInfo summer_time_dungeon_list = 10;
+	repeated uint32 taken_reward_list = 11;
+}

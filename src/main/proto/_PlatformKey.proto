@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_PlatformKeyOuterClass";
+
+message _PlatformKey {
+	uint32 group_id = 11;
+	uint32 FKNIADPEMCJ = 14;
+}

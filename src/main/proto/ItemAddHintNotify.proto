@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ItemAddHintNotifyOuterClass";
+
+import "ItemHint.proto";
+import "Vector.proto";
+
+message ItemAddHintNotify {
+	bool BLNCGGHFOMI = 1;
+	bool FPCIANIKMKE = 4;
+	uint32 reason = 6;
+	Vector position = 8;
+	uint32 quest_id = 9;
+	repeated ItemHint overflow_transformed_item_list = 10;
+	bool is_transfered_from_avatar_card = 12;
+	repeated ItemHint item_list = 15;
+}

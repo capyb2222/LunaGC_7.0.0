@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MFLOIKPJCDIOuterClass";
+
+message MFLOIKPJCDI {
+	map<uint32, uint32> EMDLAJKLDKE = 4;
+	uint32 HMOJNKFILLP = 6;
+	uint32 KIKHIHCADBE = 12;
+}

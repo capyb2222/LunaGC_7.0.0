@@ -19,28 +19,28 @@ public final class LBINOBBOACOOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 ugc_guid = 3;</code>
-     * @return The ugcGuid.
+     * <code>uint32 max_score = 5;</code>
+     * @return The maxScore.
      */
-    int getUgcGuid();
+    int getMaxScore();
 
     /**
-     * <code>uint32 level_id = 14;</code>
+     * <code>uint32 level_id = 7;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>uint32 cost_time = 15;</code>
-     * @return The costTime.
-     */
-    int getCostTime();
-
-    /**
-     * <code>bool is_open = 10;</code>
+     * <code>bool is_open = 9;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
+
+    /**
+     * <code>uint32 cost_time = 13;</code>
+     * @return The costTime.
+     */
+    int getCostTime();
   }
   /**
    * Protobuf type {@code LBINOBBOACO}
@@ -87,22 +87,22 @@ public final class LBINOBBOACOOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 40: {
 
-              ugcGuid_ = input.readUInt32();
+              maxScore_ = input.readUInt32();
               break;
             }
-            case 80: {
-
-              isOpen_ = input.readBool();
-              break;
-            }
-            case 112: {
+            case 56: {
 
               levelId_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 72: {
+
+              isOpen_ = input.readBool();
+              break;
+            }
+            case 104: {
 
               costTime_ = input.readUInt32();
               break;
@@ -139,21 +139,21 @@ public final class LBINOBBOACOOuterClass {
               emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO.class, emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO.Builder.class);
     }
 
-    public static final int UGC_GUID_FIELD_NUMBER = 3;
-    private int ugcGuid_;
+    public static final int MAX_SCORE_FIELD_NUMBER = 5;
+    private int maxScore_;
     /**
-     * <code>uint32 ugc_guid = 3;</code>
-     * @return The ugcGuid.
+     * <code>uint32 max_score = 5;</code>
+     * @return The maxScore.
      */
     @java.lang.Override
-    public int getUgcGuid() {
-      return ugcGuid_;
+    public int getMaxScore() {
+      return maxScore_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 14;
+    public static final int LEVEL_ID_FIELD_NUMBER = 7;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 14;</code>
+     * <code>uint32 level_id = 7;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -161,26 +161,26 @@ public final class LBINOBBOACOOuterClass {
       return levelId_;
     }
 
-    public static final int COST_TIME_FIELD_NUMBER = 15;
-    private int costTime_;
-    /**
-     * <code>uint32 cost_time = 15;</code>
-     * @return The costTime.
-     */
-    @java.lang.Override
-    public int getCostTime() {
-      return costTime_;
-    }
-
-    public static final int IS_OPEN_FIELD_NUMBER = 10;
+    public static final int IS_OPEN_FIELD_NUMBER = 9;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 10;</code>
+     * <code>bool is_open = 9;</code>
      * @return The isOpen.
      */
     @java.lang.Override
     public boolean getIsOpen() {
       return isOpen_;
+    }
+
+    public static final int COST_TIME_FIELD_NUMBER = 13;
+    private int costTime_;
+    /**
+     * <code>uint32 cost_time = 13;</code>
+     * @return The costTime.
+     */
+    @java.lang.Override
+    public int getCostTime() {
+      return costTime_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -197,17 +197,17 @@ public final class LBINOBBOACOOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (ugcGuid_ != 0) {
-        output.writeUInt32(3, ugcGuid_);
-      }
-      if (isOpen_ != false) {
-        output.writeBool(10, isOpen_);
+      if (maxScore_ != 0) {
+        output.writeUInt32(5, maxScore_);
       }
       if (levelId_ != 0) {
-        output.writeUInt32(14, levelId_);
+        output.writeUInt32(7, levelId_);
+      }
+      if (isOpen_ != false) {
+        output.writeBool(9, isOpen_);
       }
       if (costTime_ != 0) {
-        output.writeUInt32(15, costTime_);
+        output.writeUInt32(13, costTime_);
       }
       unknownFields.writeTo(output);
     }
@@ -218,21 +218,21 @@ public final class LBINOBBOACOOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (ugcGuid_ != 0) {
+      if (maxScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, ugcGuid_);
-      }
-      if (isOpen_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, isOpen_);
+          .computeUInt32Size(5, maxScore_);
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, levelId_);
+          .computeUInt32Size(7, levelId_);
+      }
+      if (isOpen_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(9, isOpen_);
       }
       if (costTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, costTime_);
+          .computeUInt32Size(13, costTime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -249,14 +249,14 @@ public final class LBINOBBOACOOuterClass {
       }
       emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO other = (emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO) obj;
 
-      if (getUgcGuid()
-          != other.getUgcGuid()) return false;
+      if (getMaxScore()
+          != other.getMaxScore()) return false;
       if (getLevelId()
           != other.getLevelId()) return false;
-      if (getCostTime()
-          != other.getCostTime()) return false;
       if (getIsOpen()
           != other.getIsOpen()) return false;
+      if (getCostTime()
+          != other.getCostTime()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -268,15 +268,15 @@ public final class LBINOBBOACOOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + UGC_GUID_FIELD_NUMBER;
-      hash = (53 * hash) + getUgcGuid();
+      hash = (37 * hash) + MAX_SCORE_FIELD_NUMBER;
+      hash = (53 * hash) + getMaxScore();
       hash = (37 * hash) + LEVEL_ID_FIELD_NUMBER;
       hash = (53 * hash) + getLevelId();
-      hash = (37 * hash) + COST_TIME_FIELD_NUMBER;
-      hash = (53 * hash) + getCostTime();
       hash = (37 * hash) + IS_OPEN_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsOpen());
+      hash = (37 * hash) + COST_TIME_FIELD_NUMBER;
+      hash = (53 * hash) + getCostTime();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -410,13 +410,13 @@ public final class LBINOBBOACOOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        ugcGuid_ = 0;
+        maxScore_ = 0;
 
         levelId_ = 0;
 
-        costTime_ = 0;
-
         isOpen_ = false;
+
+        costTime_ = 0;
 
         return this;
       }
@@ -444,10 +444,10 @@ public final class LBINOBBOACOOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO buildPartial() {
         emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO result = new emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO(this);
-        result.ugcGuid_ = ugcGuid_;
+        result.maxScore_ = maxScore_;
         result.levelId_ = levelId_;
-        result.costTime_ = costTime_;
         result.isOpen_ = isOpen_;
+        result.costTime_ = costTime_;
         onBuilt();
         return result;
       }
@@ -496,17 +496,17 @@ public final class LBINOBBOACOOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO other) {
         if (other == emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO.getDefaultInstance()) return this;
-        if (other.getUgcGuid() != 0) {
-          setUgcGuid(other.getUgcGuid());
+        if (other.getMaxScore() != 0) {
+          setMaxScore(other.getMaxScore());
         }
         if (other.getLevelId() != 0) {
           setLevelId(other.getLevelId());
         }
-        if (other.getCostTime() != 0) {
-          setCostTime(other.getCostTime());
-        }
         if (other.getIsOpen() != false) {
           setIsOpen(other.getIsOpen());
+        }
+        if (other.getCostTime() != 0) {
+          setCostTime(other.getCostTime());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -537,40 +537,40 @@ public final class LBINOBBOACOOuterClass {
         return this;
       }
 
-      private int ugcGuid_ ;
+      private int maxScore_ ;
       /**
-       * <code>uint32 ugc_guid = 3;</code>
-       * @return The ugcGuid.
+       * <code>uint32 max_score = 5;</code>
+       * @return The maxScore.
        */
       @java.lang.Override
-      public int getUgcGuid() {
-        return ugcGuid_;
+      public int getMaxScore() {
+        return maxScore_;
       }
       /**
-       * <code>uint32 ugc_guid = 3;</code>
-       * @param value The ugcGuid to set.
+       * <code>uint32 max_score = 5;</code>
+       * @param value The maxScore to set.
        * @return This builder for chaining.
        */
-      public Builder setUgcGuid(int value) {
+      public Builder setMaxScore(int value) {
         
-        ugcGuid_ = value;
+        maxScore_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 ugc_guid = 3;</code>
+       * <code>uint32 max_score = 5;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUgcGuid() {
+      public Builder clearMaxScore() {
         
-        ugcGuid_ = 0;
+        maxScore_ = 0;
         onChanged();
         return this;
       }
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 14;</code>
+       * <code>uint32 level_id = 7;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -578,7 +578,7 @@ public final class LBINOBBOACOOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 14;</code>
+       * <code>uint32 level_id = 7;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -589,7 +589,7 @@ public final class LBINOBBOACOOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 14;</code>
+       * <code>uint32 level_id = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -599,40 +599,9 @@ public final class LBINOBBOACOOuterClass {
         return this;
       }
 
-      private int costTime_ ;
-      /**
-       * <code>uint32 cost_time = 15;</code>
-       * @return The costTime.
-       */
-      @java.lang.Override
-      public int getCostTime() {
-        return costTime_;
-      }
-      /**
-       * <code>uint32 cost_time = 15;</code>
-       * @param value The costTime to set.
-       * @return This builder for chaining.
-       */
-      public Builder setCostTime(int value) {
-        
-        costTime_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 cost_time = 15;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearCostTime() {
-        
-        costTime_ = 0;
-        onChanged();
-        return this;
-      }
-
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 10;</code>
+       * <code>bool is_open = 9;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -640,7 +609,7 @@ public final class LBINOBBOACOOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 10;</code>
+       * <code>bool is_open = 9;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -651,12 +620,43 @@ public final class LBINOBBOACOOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 10;</code>
+       * <code>bool is_open = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
         
         isOpen_ = false;
+        onChanged();
+        return this;
+      }
+
+      private int costTime_ ;
+      /**
+       * <code>uint32 cost_time = 13;</code>
+       * @return The costTime.
+       */
+      @java.lang.Override
+      public int getCostTime() {
+        return costTime_;
+      }
+      /**
+       * <code>uint32 cost_time = 13;</code>
+       * @param value The costTime to set.
+       * @return This builder for chaining.
+       */
+      public Builder setCostTime(int value) {
+        
+        costTime_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 cost_time = 13;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearCostTime() {
+        
+        costTime_ = 0;
         onChanged();
         return this;
       }
@@ -727,10 +727,11 @@ public final class LBINOBBOACOOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021LBINOBBOACO.proto\"U\n\013LBINOBBOACO\022\020\n\010ug" +
-      "c_guid\030\003 \001(\r\022\020\n\010level_id\030\016 \001(\r\022\021\n\tcost_t" +
-      "ime\030\017 \001(\r\022\017\n\007is_open\030\n \001(\010B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\n\021LBINOBBOACO.proto\"V\n\013LBINOBBOACO\022\021\n\tma" +
+      "x_score\030\005 \001(\r\022\020\n\010level_id\030\007 \001(\r\022\017\n\007is_op" +
+      "en\030\t \001(\010\022\021\n\tcost_time\030\r \001(\rB2\n\031emu.grass" +
+      "cutter.net.protoB\025LBINOBBOACOOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -741,7 +742,7 @@ public final class LBINOBBOACOOuterClass {
     internal_static_LBINOBBOACO_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_LBINOBBOACO_descriptor,
-        new java.lang.String[] { "UgcGuid", "LevelId", "CostTime", "IsOpen", });
+        new java.lang.String[] { "MaxScore", "LevelId", "IsOpen", "CostTime", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

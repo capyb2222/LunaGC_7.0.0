@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CeremonyDetailInfoOuterClass";
+
+import "EJIGDIIFDBI.proto";
+import "MHENKMCEHHJ.proto";
+import "PDKKLGIEJCN.proto";
+
+message CeremonyDetailInfo {
+	MHENKMCEHHJ battle_info = 5;
+	PDKKLGIEJCN PMPNJDABMKM = 7;
+	EJIGDIIFDBI MFNFNCFKEHO = 10;
+}

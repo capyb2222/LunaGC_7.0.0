@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PlayerApplyEnterMpResultNotifyOuterClass";
+
+message PlayerApplyEnterMpResultNotify {
+	enum Reason {
+		Reason_PLAYER_JUDGE = 0;
+		Reason_SCENE_CANNOT_ENTER = 1;
+		Reason_PLAYER_CANNOT_ENTER_MP = 2;
+		Reason_SYSTEM_JUDGE = 3;
+		Reason_ALLOW_ENTER_PLAYER_FULL = 4;
+		Reason_WORLD_LEVEL_LOWER_THAN_HOST = 5;
+		Reason_HOST_IN_MATCH = 6;
+		Reason_PLAYER_IN_BLACKLIST = 7;
+		Reason_PS_PLAYER_NOT_ACCEPT_OTHERS = 8;
+		Reason_HOST_IS_BLOCKED = 9;
+		Reason_OTHER_DATA_VERSION_NOT_LATEST = 10;
+		Reason_DATA_VERSION_NOT_LATEST = 11;
+		Reason_PLAYER_NOT_IN_PLAYER_WORLD = 12;
+		Reason_MAX_PLAYER = 13;
+		Reason_HOST_IS_ADS_BLOCKED = 14;
+		Reason_XBOX_PLAYER_NOT_ACCEPT_OTHERS = 15;
+		Reason_PLAYER_NOT_ACCEPT_OTHER_PLATFORM = 16;
+		Reason_PLAYER_OFFLINE = 17;
+		Reason_XBOX_ONLY = 18;
+	}
+	uint32 target_uid = 2;
+	Reason reason = 4;
+	bool is_agreed = 5;
+	string target_nickname = 15;
+}

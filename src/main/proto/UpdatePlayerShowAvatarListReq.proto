@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "UpdatePlayerShowAvatarListReqOuterClass";
+
+message UpdatePlayerShowAvatarListReq {
+	bool is_show_constellation_num = 2;
+	bool is_show_avatar = 7;
+	repeated uint32 show_avatar_id_list = 15;
+}

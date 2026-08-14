@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FNOMEKGFNHDOuterClass";
+
+message FNOMEKGFNHD {
+	int32 DAEPBFLMGIA = 1;
+	bool is_active = 2;
+	int32 LJGHDOOCCGC = 3;
+	repeated uint32 KPPJNBNEBJO = 4;
+	repeated uint32 NLCJGMKNNFN = 5;
+	repeated uint32 FLLNDDECEDH = 6;
+	repeated uint32 EPNEGANFHOI = 7;
+}

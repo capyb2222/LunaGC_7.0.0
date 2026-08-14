@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HomeFurnitureCustomSuiteDataOuterClass";
+
+import "Vector.proto";
+
+message HomeFurnitureCustomSuiteData {
+	repeated int32 included_furniture_index_list = 6;
+	uint32 guid = 7;
+	Vector spawn_pos = 11;
+}

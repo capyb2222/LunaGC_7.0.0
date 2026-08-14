@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GravenInnocencePhotoStageInfoOuterClass";
+
+message GravenInnocencePhotoStageInfo {
+	uint32 stage_id = 13;
+	bool is_finished = 14;
+	bool is_open = 15;
+}

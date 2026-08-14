@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CutSceneBeginNotifyOuterClass";
+
+import "CutSceneExtraParam.proto";
+
+message CutSceneBeginNotify {
+	bool is_wait_others = 5;
+	repeated CutSceneExtraParam extra_param_list = 10;
+	uint32 cutscene_id = 11;
+}

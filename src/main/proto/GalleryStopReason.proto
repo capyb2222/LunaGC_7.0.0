@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GalleryStopReasonOuterClass";
+
+enum GalleryStopReason {
+	GalleryStopReason_GALLERY_STOP_NONE = 0;
+	GalleryStopReason_GALLERY_STOP_TIMEUP = 1;
+	GalleryStopReason_GALLERY_STOP_CLIENT_INTERRUPT = 2;
+	GalleryStopReason_GALLERY_STOP_LUA_INTERRUPT_SUCCESS = 3;
+	GalleryStopReason_GALLERY_STOP_LUA_INTERRUPT_FAIL = 4;
+	GalleryStopReason_GALLERY_STOP_OWNER_LEAVE_SCENE = 5;
+	GalleryStopReason_GALLERY_STOP_PLAY_INIT_FAILED = 6;
+	GalleryStopReason_GALLERY_STOP_OTHER_PLAYER_ENTER = 7;
+	GalleryStopReason_GALLERY_STOP_AVATAR_DIE = 8;
+	GalleryStopReason_GALLERY_STOP_FINISHED = 9;
+	GalleryStopReason_GALLERY_STOP_FUNGUS_ALL_DIE = 10;
+	GalleryStopReason_GALLERY_STOP_LIFE_COUNT_ZERO = 11;
+	GalleryStopReason_GALLERY_STOP_ACTIVITY_CLOSED = 12;
+	GalleryStopReason_GALLERY_STOP_LEAVE_REGION_FAIL = 13;
+	GalleryStopReason_GALLERY_STOP_HEART_BLOOD_USED_OUT = 14;
+	GalleryStopReason_GALLERY_STOP_GUARDIAN_STONE_DIE = 15;
+}

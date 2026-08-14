@@ -18,17 +18,25 @@ public final class VectorOuterClass {
       // @@protoc_insertion_point(interface_extends:Vector)
       com.google.protobuf.MessageOrBuilder {
 
+    /**
+     * <code>float x = 1;</code>
+     * @return The x.
+     */
     float getX();
 
+    /**
+     * <code>float y = 2;</code>
+     * @return The y.
+     */
     float getY();
 
+    /**
+     * <code>float z = 3;</code>
+     * @return The z.
+     */
     float getZ();
   }
   /**
-   * <pre>
-   * Obf: PBDDPMHLPJG
-   * </pre>
-   *
    * Protobuf type {@code Vector}
    */
   public static final class Vector extends
@@ -122,7 +130,10 @@ public final class VectorOuterClass {
 
     public static final int X_FIELD_NUMBER = 1;
     private float x_;
-
+    /**
+     * <code>float x = 1;</code>
+     * @return The x.
+     */
     @java.lang.Override
     public float getX() {
       return x_;
@@ -130,7 +141,10 @@ public final class VectorOuterClass {
 
     public static final int Y_FIELD_NUMBER = 2;
     private float y_;
-
+    /**
+     * <code>float y = 2;</code>
+     * @return The y.
+     */
     @java.lang.Override
     public float getY() {
       return y_;
@@ -138,7 +152,10 @@ public final class VectorOuterClass {
 
     public static final int Z_FIELD_NUMBER = 3;
     private float z_;
-
+    /**
+     * <code>float z = 3;</code>
+     * @return The z.
+     */
     @java.lang.Override
     public float getZ() {
       return z_;
@@ -328,10 +345,6 @@ public final class VectorOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * Obf: PBDDPMHLPJG
-     * </pre>
-     *
      * Protobuf type {@code Vector}
      */
     public static final class Builder extends
@@ -491,63 +504,93 @@ public final class VectorOuterClass {
       }
 
       private float x_ ;
-
+      /**
+       * <code>float x = 1;</code>
+       * @return The x.
+       */
       @java.lang.Override
       public float getX() {
         return x_;
       }
-
+      /**
+       * <code>float x = 1;</code>
+       * @param value The x to set.
+       * @return This builder for chaining.
+       */
       public Builder setX(float value) {
-
+        
         x_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>float x = 1;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearX() {
-
+        
         x_ = 0F;
         onChanged();
         return this;
       }
 
       private float y_ ;
-
+      /**
+       * <code>float y = 2;</code>
+       * @return The y.
+       */
       @java.lang.Override
       public float getY() {
         return y_;
       }
-
+      /**
+       * <code>float y = 2;</code>
+       * @param value The y to set.
+       * @return This builder for chaining.
+       */
       public Builder setY(float value) {
-
+        
         y_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>float y = 2;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearY() {
-
+        
         y_ = 0F;
         onChanged();
         return this;
       }
 
       private float z_ ;
-
+      /**
+       * <code>float z = 3;</code>
+       * @return The z.
+       */
       @java.lang.Override
       public float getZ() {
         return z_;
       }
-
+      /**
+       * <code>float z = 3;</code>
+       * @param value The z to set.
+       * @return This builder for chaining.
+       */
       public Builder setZ(float value) {
-
+        
         z_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>float z = 3;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearZ() {
-
+        
         z_ = 0F;
         onChanged();
         return this;
@@ -563,6 +606,7 @@ public final class VectorOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:Vector)
     }
@@ -606,7 +650,7 @@ public final class VectorOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Vector_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Vector_fieldAccessorTable;
 
@@ -619,8 +663,8 @@ public final class VectorOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\014Vector.proto\")\n\006Vector\022\t\n\001x\030\001 \001(\002\022\t\n\001y" +
-      "\030\002 \001(\002\022\t\n\001z\030\003 \001(\002B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\030\002 \001(\002\022\t\n\001z\030\003 \001(\002B-\n\031emu.grasscutter.net" +
+      ".protoB\020VectorOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

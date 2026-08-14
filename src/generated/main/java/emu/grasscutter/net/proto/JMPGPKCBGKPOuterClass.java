@@ -19,21 +19,19 @@ public final class JMPGPKCBGKPOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.JAIBEIBNPMF detail_ability_info = 15;</code>
+     * <code>optional .DetailAbilityInfo detail_ability_info = 11;</code>
      * @return Whether the detailAbilityInfo field is set.
      */
     boolean hasDetailAbilityInfo();
     /**
-     * <code>.JAIBEIBNPMF detail_ability_info = 15;</code>
+     * <code>optional .DetailAbilityInfo detail_ability_info = 11;</code>
      * @return The detailAbilityInfo.
      */
-    emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF getDetailAbilityInfo();
+    emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo getDetailAbilityInfo();
     /**
-     * <code>.JAIBEIBNPMF detail_ability_info = 15;</code>
+     * <code>optional .DetailAbilityInfo detail_ability_info = 11;</code>
      */
-    emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMFOrBuilder getDetailAbilityInfoOrBuilder();
-
-    public emu.grasscutter.net.proto.JMPGPKCBGKPOuterClass.JMPGPKCBGKP.DetailInfoCase getDetailInfoCase();
+    emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfoOrBuilder getDetailAbilityInfoOrBuilder();
   }
   /**
    * Protobuf type {@code JMPGPKCBGKP}
@@ -70,6 +68,7 @@ public final class JMPGPKCBGKPOuterClass {
       if (extensionRegistry == null) {
         throw new java.lang.NullPointerException();
       }
+      int mutable_bitField0_ = 0;
       com.google.protobuf.UnknownFieldSet.Builder unknownFields =
           com.google.protobuf.UnknownFieldSet.newBuilder();
       try {
@@ -80,18 +79,17 @@ public final class JMPGPKCBGKPOuterClass {
             case 0:
               done = true;
               break;
-            case 122: {
-              emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF.Builder subBuilder = null;
-              if (detailInfoCase_ == 15) {
-                subBuilder = ((emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF) detailInfo_).toBuilder();
+            case 90: {
+              emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo.Builder subBuilder = null;
+              if (((bitField0_ & 0x00000001) != 0)) {
+                subBuilder = detailAbilityInfo_.toBuilder();
               }
-              detailInfo_ =
-                  input.readMessage(emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF.parser(), extensionRegistry);
+              detailAbilityInfo_ = input.readMessage(emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF) detailInfo_);
-                detailInfo_ = subBuilder.buildPartial();
+                subBuilder.mergeFrom(detailAbilityInfo_);
+                detailAbilityInfo_ = subBuilder.buildPartial();
               }
-              detailInfoCase_ = 15;
+              bitField0_ |= 0x00000001;
               break;
             }
             default: {
@@ -126,74 +124,31 @@ public final class JMPGPKCBGKPOuterClass {
               emu.grasscutter.net.proto.JMPGPKCBGKPOuterClass.JMPGPKCBGKP.class, emu.grasscutter.net.proto.JMPGPKCBGKPOuterClass.JMPGPKCBGKP.Builder.class);
     }
 
-    private int detailInfoCase_ = 0;
-    private java.lang.Object detailInfo_;
-    public enum DetailInfoCase
-        implements com.google.protobuf.Internal.EnumLite,
-            com.google.protobuf.AbstractMessage.InternalOneOfEnum {
-      DETAIL_ABILITY_INFO(15),
-      DETAILINFO_NOT_SET(0);
-      private final int value;
-      private DetailInfoCase(int value) {
-        this.value = value;
-      }
-      /**
-       * @param value The number of the enum to look for.
-       * @return The enum associated with the given number.
-       * @deprecated Use {@link #forNumber(int)} instead.
-       */
-      @java.lang.Deprecated
-      public static DetailInfoCase valueOf(int value) {
-        return forNumber(value);
-      }
-
-      public static DetailInfoCase forNumber(int value) {
-        switch (value) {
-          case 15: return DETAIL_ABILITY_INFO;
-          case 0: return DETAILINFO_NOT_SET;
-          default: return null;
-        }
-      }
-      public int getNumber() {
-        return this.value;
-      }
-    };
-
-    public DetailInfoCase
-    getDetailInfoCase() {
-      return DetailInfoCase.forNumber(
-          detailInfoCase_);
-    }
-
-    public static final int DETAIL_ABILITY_INFO_FIELD_NUMBER = 15;
+    private int bitField0_;
+    public static final int DETAIL_ABILITY_INFO_FIELD_NUMBER = 11;
+    private emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo detailAbilityInfo_;
     /**
-     * <code>.JAIBEIBNPMF detail_ability_info = 15;</code>
+     * <code>optional .DetailAbilityInfo detail_ability_info = 11;</code>
      * @return Whether the detailAbilityInfo field is set.
      */
     @java.lang.Override
     public boolean hasDetailAbilityInfo() {
-      return detailInfoCase_ == 15;
+      return ((bitField0_ & 0x00000001) != 0);
     }
     /**
-     * <code>.JAIBEIBNPMF detail_ability_info = 15;</code>
+     * <code>optional .DetailAbilityInfo detail_ability_info = 11;</code>
      * @return The detailAbilityInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF getDetailAbilityInfo() {
-      if (detailInfoCase_ == 15) {
-         return (emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF) detailInfo_;
-      }
-      return emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF.getDefaultInstance();
+    public emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo getDetailAbilityInfo() {
+      return detailAbilityInfo_ == null ? emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo.getDefaultInstance() : detailAbilityInfo_;
     }
     /**
-     * <code>.JAIBEIBNPMF detail_ability_info = 15;</code>
+     * <code>optional .DetailAbilityInfo detail_ability_info = 11;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMFOrBuilder getDetailAbilityInfoOrBuilder() {
-      if (detailInfoCase_ == 15) {
-         return (emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF) detailInfo_;
-      }
-      return emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF.getDefaultInstance();
+    public emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfoOrBuilder getDetailAbilityInfoOrBuilder() {
+      return detailAbilityInfo_ == null ? emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo.getDefaultInstance() : detailAbilityInfo_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -210,8 +165,8 @@ public final class JMPGPKCBGKPOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (detailInfoCase_ == 15) {
-        output.writeMessage(15, (emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF) detailInfo_);
+      if (((bitField0_ & 0x00000001) != 0)) {
+        output.writeMessage(11, getDetailAbilityInfo());
       }
       unknownFields.writeTo(output);
     }
@@ -222,9 +177,9 @@ public final class JMPGPKCBGKPOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (detailInfoCase_ == 15) {
+      if (((bitField0_ & 0x00000001) != 0)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, (emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF) detailInfo_);
+          .computeMessageSize(11, getDetailAbilityInfo());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -241,14 +196,10 @@ public final class JMPGPKCBGKPOuterClass {
       }
       emu.grasscutter.net.proto.JMPGPKCBGKPOuterClass.JMPGPKCBGKP other = (emu.grasscutter.net.proto.JMPGPKCBGKPOuterClass.JMPGPKCBGKP) obj;
 
-      if (!getDetailInfoCase().equals(other.getDetailInfoCase())) return false;
-      switch (detailInfoCase_) {
-        case 15:
-          if (!getDetailAbilityInfo()
-              .equals(other.getDetailAbilityInfo())) return false;
-          break;
-        case 0:
-        default:
+      if (hasDetailAbilityInfo() != other.hasDetailAbilityInfo()) return false;
+      if (hasDetailAbilityInfo()) {
+        if (!getDetailAbilityInfo()
+            .equals(other.getDetailAbilityInfo())) return false;
       }
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
@@ -261,13 +212,9 @@ public final class JMPGPKCBGKPOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      switch (detailInfoCase_) {
-        case 15:
-          hash = (37 * hash) + DETAIL_ABILITY_INFO_FIELD_NUMBER;
-          hash = (53 * hash) + getDetailAbilityInfo().hashCode();
-          break;
-        case 0:
-        default:
+      if (hasDetailAbilityInfo()) {
+        hash = (37 * hash) + DETAIL_ABILITY_INFO_FIELD_NUMBER;
+        hash = (53 * hash) + getDetailAbilityInfo().hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -397,13 +344,18 @@ public final class JMPGPKCBGKPOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
+          getDetailAbilityInfoFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        detailInfoCase_ = 0;
-        detailInfo_ = null;
+        if (detailAbilityInfoBuilder_ == null) {
+          detailAbilityInfo_ = null;
+        } else {
+          detailAbilityInfoBuilder_.clear();
+        }
+        bitField0_ = (bitField0_ & ~0x00000001);
         return this;
       }
 
@@ -430,14 +382,17 @@ public final class JMPGPKCBGKPOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.JMPGPKCBGKPOuterClass.JMPGPKCBGKP buildPartial() {
         emu.grasscutter.net.proto.JMPGPKCBGKPOuterClass.JMPGPKCBGKP result = new emu.grasscutter.net.proto.JMPGPKCBGKPOuterClass.JMPGPKCBGKP(this);
-        if (detailInfoCase_ == 15) {
+        int from_bitField0_ = bitField0_;
+        int to_bitField0_ = 0;
+        if (((from_bitField0_ & 0x00000001) != 0)) {
           if (detailAbilityInfoBuilder_ == null) {
-            result.detailInfo_ = detailInfo_;
+            result.detailAbilityInfo_ = detailAbilityInfo_;
           } else {
-            result.detailInfo_ = detailAbilityInfoBuilder_.build();
+            result.detailAbilityInfo_ = detailAbilityInfoBuilder_.build();
           }
+          to_bitField0_ |= 0x00000001;
         }
-        result.detailInfoCase_ = detailInfoCase_;
+        result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
       }
@@ -486,14 +441,8 @@ public final class JMPGPKCBGKPOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.JMPGPKCBGKPOuterClass.JMPGPKCBGKP other) {
         if (other == emu.grasscutter.net.proto.JMPGPKCBGKPOuterClass.JMPGPKCBGKP.getDefaultInstance()) return this;
-        switch (other.getDetailInfoCase()) {
-          case DETAIL_ABILITY_INFO: {
-            mergeDetailAbilityInfo(other.getDetailAbilityInfo());
-            break;
-          }
-          case DETAILINFO_NOT_SET: {
-            break;
-          }
+        if (other.hasDetailAbilityInfo()) {
+          mergeDetailAbilityInfo(other.getDetailAbilityInfo());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -523,160 +472,125 @@ public final class JMPGPKCBGKPOuterClass {
         }
         return this;
       }
-      private int detailInfoCase_ = 0;
-      private java.lang.Object detailInfo_;
-      public DetailInfoCase
-          getDetailInfoCase() {
-        return DetailInfoCase.forNumber(
-            detailInfoCase_);
-      }
+      private int bitField0_;
 
-      public Builder clearDetailInfo() {
-        detailInfoCase_ = 0;
-        detailInfo_ = null;
-        onChanged();
-        return this;
-      }
-
-
+      private emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo detailAbilityInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF, emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF.Builder, emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMFOrBuilder> detailAbilityInfoBuilder_;
+          emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo, emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo.Builder, emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfoOrBuilder> detailAbilityInfoBuilder_;
       /**
-       * <code>.JAIBEIBNPMF detail_ability_info = 15;</code>
+       * <code>optional .DetailAbilityInfo detail_ability_info = 11;</code>
        * @return Whether the detailAbilityInfo field is set.
        */
-      @java.lang.Override
       public boolean hasDetailAbilityInfo() {
-        return detailInfoCase_ == 15;
+        return ((bitField0_ & 0x00000001) != 0);
       }
       /**
-       * <code>.JAIBEIBNPMF detail_ability_info = 15;</code>
+       * <code>optional .DetailAbilityInfo detail_ability_info = 11;</code>
        * @return The detailAbilityInfo.
        */
-      @java.lang.Override
-      public emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF getDetailAbilityInfo() {
+      public emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo getDetailAbilityInfo() {
         if (detailAbilityInfoBuilder_ == null) {
-          if (detailInfoCase_ == 15) {
-            return (emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF) detailInfo_;
-          }
-          return emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF.getDefaultInstance();
+          return detailAbilityInfo_ == null ? emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo.getDefaultInstance() : detailAbilityInfo_;
         } else {
-          if (detailInfoCase_ == 15) {
-            return detailAbilityInfoBuilder_.getMessage();
-          }
-          return emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF.getDefaultInstance();
+          return detailAbilityInfoBuilder_.getMessage();
         }
       }
       /**
-       * <code>.JAIBEIBNPMF detail_ability_info = 15;</code>
+       * <code>optional .DetailAbilityInfo detail_ability_info = 11;</code>
        */
-      public Builder setDetailAbilityInfo(emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF value) {
+      public Builder setDetailAbilityInfo(emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo value) {
         if (detailAbilityInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          detailInfo_ = value;
+          detailAbilityInfo_ = value;
           onChanged();
         } else {
           detailAbilityInfoBuilder_.setMessage(value);
         }
-        detailInfoCase_ = 15;
+        bitField0_ |= 0x00000001;
         return this;
       }
       /**
-       * <code>.JAIBEIBNPMF detail_ability_info = 15;</code>
+       * <code>optional .DetailAbilityInfo detail_ability_info = 11;</code>
        */
       public Builder setDetailAbilityInfo(
-          emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF.Builder builderForValue) {
+          emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo.Builder builderForValue) {
         if (detailAbilityInfoBuilder_ == null) {
-          detailInfo_ = builderForValue.build();
+          detailAbilityInfo_ = builderForValue.build();
           onChanged();
         } else {
           detailAbilityInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailInfoCase_ = 15;
+        bitField0_ |= 0x00000001;
         return this;
       }
       /**
-       * <code>.JAIBEIBNPMF detail_ability_info = 15;</code>
+       * <code>optional .DetailAbilityInfo detail_ability_info = 11;</code>
        */
-      public Builder mergeDetailAbilityInfo(emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF value) {
+      public Builder mergeDetailAbilityInfo(emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo value) {
         if (detailAbilityInfoBuilder_ == null) {
-          if (detailInfoCase_ == 15 &&
-              detailInfo_ != emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF.getDefaultInstance()) {
-            detailInfo_ = emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF.newBuilder((emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF) detailInfo_)
-                .mergeFrom(value).buildPartial();
+          if (((bitField0_ & 0x00000001) != 0) &&
+              detailAbilityInfo_ != null &&
+              detailAbilityInfo_ != emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo.getDefaultInstance()) {
+            detailAbilityInfo_ =
+              emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo.newBuilder(detailAbilityInfo_).mergeFrom(value).buildPartial();
           } else {
-            detailInfo_ = value;
+            detailAbilityInfo_ = value;
           }
           onChanged();
         } else {
-          if (detailInfoCase_ == 15) {
-            detailAbilityInfoBuilder_.mergeFrom(value);
-          }
-          detailAbilityInfoBuilder_.setMessage(value);
+          detailAbilityInfoBuilder_.mergeFrom(value);
         }
-        detailInfoCase_ = 15;
+        bitField0_ |= 0x00000001;
         return this;
       }
       /**
-       * <code>.JAIBEIBNPMF detail_ability_info = 15;</code>
+       * <code>optional .DetailAbilityInfo detail_ability_info = 11;</code>
        */
       public Builder clearDetailAbilityInfo() {
         if (detailAbilityInfoBuilder_ == null) {
-          if (detailInfoCase_ == 15) {
-            detailInfoCase_ = 0;
-            detailInfo_ = null;
-            onChanged();
-          }
+          detailAbilityInfo_ = null;
+          onChanged();
         } else {
-          if (detailInfoCase_ == 15) {
-            detailInfoCase_ = 0;
-            detailInfo_ = null;
-          }
           detailAbilityInfoBuilder_.clear();
         }
+        bitField0_ = (bitField0_ & ~0x00000001);
         return this;
       }
       /**
-       * <code>.JAIBEIBNPMF detail_ability_info = 15;</code>
+       * <code>optional .DetailAbilityInfo detail_ability_info = 11;</code>
        */
-      public emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF.Builder getDetailAbilityInfoBuilder() {
+      public emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo.Builder getDetailAbilityInfoBuilder() {
+        bitField0_ |= 0x00000001;
+        onChanged();
         return getDetailAbilityInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>.JAIBEIBNPMF detail_ability_info = 15;</code>
+       * <code>optional .DetailAbilityInfo detail_ability_info = 11;</code>
        */
-      @java.lang.Override
-      public emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMFOrBuilder getDetailAbilityInfoOrBuilder() {
-        if ((detailInfoCase_ == 15) && (detailAbilityInfoBuilder_ != null)) {
+      public emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfoOrBuilder getDetailAbilityInfoOrBuilder() {
+        if (detailAbilityInfoBuilder_ != null) {
           return detailAbilityInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailInfoCase_ == 15) {
-            return (emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF) detailInfo_;
-          }
-          return emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF.getDefaultInstance();
+          return detailAbilityInfo_ == null ?
+              emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo.getDefaultInstance() : detailAbilityInfo_;
         }
       }
       /**
-       * <code>.JAIBEIBNPMF detail_ability_info = 15;</code>
+       * <code>optional .DetailAbilityInfo detail_ability_info = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF, emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF.Builder, emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMFOrBuilder> 
+          emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo, emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo.Builder, emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfoOrBuilder> 
           getDetailAbilityInfoFieldBuilder() {
         if (detailAbilityInfoBuilder_ == null) {
-          if (!(detailInfoCase_ == 15)) {
-            detailInfo_ = emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF.getDefaultInstance();
-          }
           detailAbilityInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF, emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF.Builder, emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMFOrBuilder>(
-                  (emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.JAIBEIBNPMF) detailInfo_,
+              emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo, emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo.Builder, emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfoOrBuilder>(
+                  getDetailAbilityInfo(),
                   getParentForChildren(),
                   isClean());
-          detailInfo_ = null;
+          detailAbilityInfo_ = null;
         }
-        detailInfoCase_ = 15;
-        onChanged();;
         return detailAbilityInfoBuilder_;
       }
       @java.lang.Override
@@ -746,23 +660,24 @@ public final class JMPGPKCBGKPOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021JMPGPKCBGKP.proto\032\021JAIBEIBNPMF.proto\"I" +
-      "\n\013JMPGPKCBGKP\022+\n\023detail_ability_info\030\017 \001" +
-      "(\0132\014.JAIBEIBNPMFH\000B\r\n\013detail_infoB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "\n\021JMPGPKCBGKP.proto\032\027DetailAbilityInfo.p" +
+      "roto\"[\n\013JMPGPKCBGKP\0224\n\023detail_ability_in" +
+      "fo\030\013 \001(\0132\022.DetailAbilityInfoH\000\210\001\001B\026\n\024_de" +
+      "tail_ability_infoB2\n\031emu.grasscutter.net" +
+      ".protoB\025JMPGPKCBGKPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.getDescriptor(),
         });
     internal_static_JMPGPKCBGKP_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_JMPGPKCBGKP_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_JMPGPKCBGKP_descriptor,
-        new java.lang.String[] { "DetailAbilityInfo", "DetailInfo", });
-    emu.grasscutter.net.proto.JAIBEIBNPMFOuterClass.getDescriptor();
+        new java.lang.String[] { "DetailAbilityInfo", "DetailAbilityInfo", });
+    emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

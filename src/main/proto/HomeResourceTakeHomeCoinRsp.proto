@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HomeResourceTakeHomeCoinRspOuterClass";
+
+import "HomeResource.proto";
+
+message HomeResourceTakeHomeCoinRsp {
+	HomeResource home_coin = 7;
+	int32 retcode = 11;
+}

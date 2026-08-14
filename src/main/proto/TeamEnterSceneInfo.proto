@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "TeamEnterSceneInfoOuterClass";
+
+import "AbilityControlBlock.proto";
+import "AbilitySyncStateInfo.proto";
+import "IDAKPKNODGC.proto";
+import "ILFPMCGGMOA.proto";
+
+message TeamEnterSceneInfo {
+	AbilityControlBlock ability_control_block = 3;
+	AbilitySyncStateInfo team_ability_info = 5;
+	float FOMPMBNENPH = 6;
+	repeated IDAKPKNODGC JFAHOBMFLFE = 8;
+	ILFPMCGGMOA KAHECAKOMLD = 12;
+	uint32 team_entity_id = 13;
+}

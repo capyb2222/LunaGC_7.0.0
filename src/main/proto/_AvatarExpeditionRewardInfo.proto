@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_AvatarExpeditionRewardInfoOuterClass";
+
+import "ItemParam.proto";
+import "_AvatarExpeditionBasicInfo.proto";
+
+message _AvatarExpeditionRewardInfo {
+	repeated ItemParam extra_item_list = 2;
+	_AvatarExpeditionBasicInfo basic_info = 7;
+	repeated ItemParam item_list = 13;
+}

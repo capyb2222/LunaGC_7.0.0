@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "WeaponAwakenRspOuterClass";
+
+message WeaponAwakenRsp {
+	uint64 avatar_guid = 1;
+	map<uint32, uint32> cur_affix_level_map = 4;
+	uint32 target_weapon_awaken_level = 9;
+	map<uint32, uint32> old_affix_level_map = 11;
+	int32 retcode = 14;
+	uint64 target_weapon_guid = 15;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GIMNDGBLHNLOuterClass";
+
+import "NNOLNLHNOIO.proto";
+
+message GIMNDGBLHNL {
+	uint32 CMFBOGELCPE = 1;
+	repeated NNOLNLHNOIO IJNNOEEKODG = 3;
+	repeated uint32 DFDEJLLNPJF = 6;
+	repeated uint32 FKCIFOHLLBM = 9;
+	uint32 ALAKKGOILIC = 10;
+}

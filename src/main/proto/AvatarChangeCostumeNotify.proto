@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AvatarChangeCostumeNotifyOuterClass";
+
+import "SceneEntityInfo.proto";
+import "_AvatarChangeCostumeReason.proto";
+
+message AvatarChangeCostumeNotify {
+	_AvatarChangeCostumeReason _costume_change_reason = 5;
+	SceneEntityInfo entity_info = 10;
+}

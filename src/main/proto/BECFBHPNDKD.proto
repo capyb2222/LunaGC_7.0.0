@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "BECFBHPNDKDOuterClass";
+
+import "_CurrentPhase.proto";
+
+message BECFBHPNDKD {
+	_CurrentPhase KDPEFOBKJON = 1;
+	uint64 JPAEFHKLODM = 2;
+}

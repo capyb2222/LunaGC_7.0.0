@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AvatarFetterDataNotifyOuterClass";
+
+import "AvatarFetterInfo.proto";
+
+message AvatarFetterDataNotify {
+	map<uint64, AvatarFetterInfo> fetter_info_map = 6;
+}

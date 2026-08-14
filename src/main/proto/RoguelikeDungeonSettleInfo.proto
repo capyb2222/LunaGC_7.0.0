@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "RoguelikeDungeonSettleInfoOuterClass";
+
+import "RoguelikeSettleCoinInfo.proto";
+
+message RoguelikeDungeonSettleInfo {
+	bool CJKFLABGBBD = 1;
+	uint32 stage_id = 2;
+	map<uint32, RoguelikeSettleCoinInfo> finished_challenge_cell_num_map = 3;
+	uint32 cur_level = 5;
+	bool GIHIGJHFKGL = 6;
+	uint32 polcmmbaenp = 7;
+	uint32 focelgiaflm = 13;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "TrialAvatarGrantRecordOuterClass";
+
+message TrialAvatarGrantRecord {
+	uint32 grant_reason = 1;
+	uint32 from_parent_quest_id = 2;
+}

@@ -18,34 +18,77 @@ public final class ResVersionConfigOuterClass {
       // @@protoc_insertion_point(interface_extends:ResVersionConfig)
       com.google.protobuf.MessageOrBuilder {
 
-    java.lang.String getReleaseTotalSize();
+    /**
+     * <code>uint32 version = 1;</code>
+     * @return The version.
+     */
+    int getVersion();
 
-    com.google.protobuf.ByteString
-        getReleaseTotalSizeBytes();
+    /**
+     * <code>bool relogin = 2;</code>
+     * @return The relogin.
+     */
+    boolean getRelogin();
 
+    /**
+     * <code>string md5 = 3;</code>
+     * @return The md5.
+     */
     java.lang.String getMd5();
-
+    /**
+     * <code>string md5 = 3;</code>
+     * @return The bytes for md5.
+     */
     com.google.protobuf.ByteString
         getMd5Bytes();
 
-    java.lang.String getNextScriptVersion();
-
+    /**
+     * <code>string release_total_size = 4;</code>
+     * @return The releaseTotalSize.
+     */
+    java.lang.String getReleaseTotalSize();
+    /**
+     * <code>string release_total_size = 4;</code>
+     * @return The bytes for releaseTotalSize.
+     */
     com.google.protobuf.ByteString
-        getNextScriptVersionBytes();
+        getReleaseTotalSizeBytes();
 
+    /**
+     * <code>string version_suffix = 5;</code>
+     * @return The versionSuffix.
+     */
     java.lang.String getVersionSuffix();
-
+    /**
+     * <code>string version_suffix = 5;</code>
+     * @return The bytes for versionSuffix.
+     */
     com.google.protobuf.ByteString
         getVersionSuffixBytes();
 
+    /**
+     * <code>string branch = 6;</code>
+     * @return The branch.
+     */
     java.lang.String getBranch();
-
+    /**
+     * <code>string branch = 6;</code>
+     * @return The bytes for branch.
+     */
     com.google.protobuf.ByteString
         getBranchBytes();
 
-    boolean getRelogin();
-
-    int getVersion();
+    /**
+     * <code>string next_script_version = 7;</code>
+     * @return The nextScriptVersion.
+     */
+    java.lang.String getNextScriptVersion();
+    /**
+     * <code>string next_script_version = 7;</code>
+     * @return The bytes for nextScriptVersion.
+     */
+    com.google.protobuf.ByteString
+        getNextScriptVersionBytes();
   }
   /**
    * Protobuf type {@code ResVersionConfig}
@@ -60,11 +103,11 @@ public final class ResVersionConfigOuterClass {
       super(builder);
     }
     private ResVersionConfig() {
-      releaseTotalSize_ = "";
       md5_ = "";
-      nextScriptVersion_ = "";
+      releaseTotalSize_ = "";
       versionSuffix_ = "";
       branch_ = "";
+      nextScriptVersion_ = "";
     }
 
     @java.lang.Override
@@ -169,61 +212,57 @@ public final class ResVersionConfigOuterClass {
               emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.class, emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.Builder.class);
     }
 
-    public static final int RELEASE_TOTAL_SIZE_FIELD_NUMBER = 4;
-    private volatile java.lang.Object releaseTotalSize_;
-
+    public static final int VERSION_FIELD_NUMBER = 1;
+    private int version_;
+    /**
+     * <code>uint32 version = 1;</code>
+     * @return The version.
+     */
     @java.lang.Override
-    public java.lang.String getReleaseTotalSize() {
-      java.lang.Object ref = releaseTotalSize_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs =
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        releaseTotalSize_ = s;
-        return s;
-      }
+    public int getVersion() {
+      return version_;
     }
 
+    public static final int RELOGIN_FIELD_NUMBER = 2;
+    private boolean relogin_;
+    /**
+     * <code>bool relogin = 2;</code>
+     * @return The relogin.
+     */
     @java.lang.Override
-    public com.google.protobuf.ByteString
-        getReleaseTotalSizeBytes() {
-      java.lang.Object ref = releaseTotalSize_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        releaseTotalSize_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
+    public boolean getRelogin() {
+      return relogin_;
     }
 
     public static final int MD5_FIELD_NUMBER = 3;
     private volatile java.lang.Object md5_;
-
+    /**
+     * <code>string md5 = 3;</code>
+     * @return The md5.
+     */
     @java.lang.Override
     public java.lang.String getMd5() {
       java.lang.Object ref = md5_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         md5_ = s;
         return s;
       }
     }
-
+    /**
+     * <code>string md5 = 3;</code>
+     * @return The bytes for md5.
+     */
     @java.lang.Override
     public com.google.protobuf.ByteString
         getMd5Bytes() {
       java.lang.Object ref = md5_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         md5_ = b;
@@ -233,32 +272,38 @@ public final class ResVersionConfigOuterClass {
       }
     }
 
-    public static final int NEXT_SCRIPT_VERSION_FIELD_NUMBER = 7;
-    private volatile java.lang.Object nextScriptVersion_;
-
+    public static final int RELEASE_TOTAL_SIZE_FIELD_NUMBER = 4;
+    private volatile java.lang.Object releaseTotalSize_;
+    /**
+     * <code>string release_total_size = 4;</code>
+     * @return The releaseTotalSize.
+     */
     @java.lang.Override
-    public java.lang.String getNextScriptVersion() {
-      java.lang.Object ref = nextScriptVersion_;
+    public java.lang.String getReleaseTotalSize() {
+      java.lang.Object ref = releaseTotalSize_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        nextScriptVersion_ = s;
+        releaseTotalSize_ = s;
         return s;
       }
     }
-
+    /**
+     * <code>string release_total_size = 4;</code>
+     * @return The bytes for releaseTotalSize.
+     */
     @java.lang.Override
     public com.google.protobuf.ByteString
-        getNextScriptVersionBytes() {
-      java.lang.Object ref = nextScriptVersion_;
+        getReleaseTotalSizeBytes() {
+      java.lang.Object ref = releaseTotalSize_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        nextScriptVersion_ = b;
+        releaseTotalSize_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
@@ -267,27 +312,33 @@ public final class ResVersionConfigOuterClass {
 
     public static final int VERSION_SUFFIX_FIELD_NUMBER = 5;
     private volatile java.lang.Object versionSuffix_;
-
+    /**
+     * <code>string version_suffix = 5;</code>
+     * @return The versionSuffix.
+     */
     @java.lang.Override
     public java.lang.String getVersionSuffix() {
       java.lang.Object ref = versionSuffix_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         versionSuffix_ = s;
         return s;
       }
     }
-
+    /**
+     * <code>string version_suffix = 5;</code>
+     * @return The bytes for versionSuffix.
+     */
     @java.lang.Override
     public com.google.protobuf.ByteString
         getVersionSuffixBytes() {
       java.lang.Object ref = versionSuffix_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         versionSuffix_ = b;
@@ -299,27 +350,33 @@ public final class ResVersionConfigOuterClass {
 
     public static final int BRANCH_FIELD_NUMBER = 6;
     private volatile java.lang.Object branch_;
-
+    /**
+     * <code>string branch = 6;</code>
+     * @return The branch.
+     */
     @java.lang.Override
     public java.lang.String getBranch() {
       java.lang.Object ref = branch_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         branch_ = s;
         return s;
       }
     }
-
+    /**
+     * <code>string branch = 6;</code>
+     * @return The bytes for branch.
+     */
     @java.lang.Override
     public com.google.protobuf.ByteString
         getBranchBytes() {
       java.lang.Object ref = branch_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         branch_ = b;
@@ -329,20 +386,42 @@ public final class ResVersionConfigOuterClass {
       }
     }
 
-    public static final int RELOGIN_FIELD_NUMBER = 2;
-    private boolean relogin_;
-
+    public static final int NEXT_SCRIPT_VERSION_FIELD_NUMBER = 7;
+    private volatile java.lang.Object nextScriptVersion_;
+    /**
+     * <code>string next_script_version = 7;</code>
+     * @return The nextScriptVersion.
+     */
     @java.lang.Override
-    public boolean getRelogin() {
-      return relogin_;
+    public java.lang.String getNextScriptVersion() {
+      java.lang.Object ref = nextScriptVersion_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        nextScriptVersion_ = s;
+        return s;
+      }
     }
-
-    public static final int VERSION_FIELD_NUMBER = 1;
-    private int version_;
-
+    /**
+     * <code>string next_script_version = 7;</code>
+     * @return The bytes for nextScriptVersion.
+     */
     @java.lang.Override
-    public int getVersion() {
-      return version_;
+    public com.google.protobuf.ByteString
+        getNextScriptVersionBytes() {
+      java.lang.Object ref = nextScriptVersion_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        nextScriptVersion_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
     }
 
     private byte memoizedIsInitialized = -1;
@@ -427,20 +506,20 @@ public final class ResVersionConfigOuterClass {
       }
       emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig other = (emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig) obj;
 
-      if (!getReleaseTotalSize()
-          .equals(other.getReleaseTotalSize())) return false;
+      if (getVersion()
+          != other.getVersion()) return false;
+      if (getRelogin()
+          != other.getRelogin()) return false;
       if (!getMd5()
           .equals(other.getMd5())) return false;
-      if (!getNextScriptVersion()
-          .equals(other.getNextScriptVersion())) return false;
+      if (!getReleaseTotalSize()
+          .equals(other.getReleaseTotalSize())) return false;
       if (!getVersionSuffix()
           .equals(other.getVersionSuffix())) return false;
       if (!getBranch()
           .equals(other.getBranch())) return false;
-      if (getRelogin()
-          != other.getRelogin()) return false;
-      if (getVersion()
-          != other.getVersion()) return false;
+      if (!getNextScriptVersion()
+          .equals(other.getNextScriptVersion())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -452,21 +531,21 @@ public final class ResVersionConfigOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + RELEASE_TOTAL_SIZE_FIELD_NUMBER;
-      hash = (53 * hash) + getReleaseTotalSize().hashCode();
+      hash = (37 * hash) + VERSION_FIELD_NUMBER;
+      hash = (53 * hash) + getVersion();
+      hash = (37 * hash) + RELOGIN_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getRelogin());
       hash = (37 * hash) + MD5_FIELD_NUMBER;
       hash = (53 * hash) + getMd5().hashCode();
-      hash = (37 * hash) + NEXT_SCRIPT_VERSION_FIELD_NUMBER;
-      hash = (53 * hash) + getNextScriptVersion().hashCode();
+      hash = (37 * hash) + RELEASE_TOTAL_SIZE_FIELD_NUMBER;
+      hash = (53 * hash) + getReleaseTotalSize().hashCode();
       hash = (37 * hash) + VERSION_SUFFIX_FIELD_NUMBER;
       hash = (53 * hash) + getVersionSuffix().hashCode();
       hash = (37 * hash) + BRANCH_FIELD_NUMBER;
       hash = (53 * hash) + getBranch().hashCode();
-      hash = (37 * hash) + RELOGIN_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getRelogin());
-      hash = (37 * hash) + VERSION_FIELD_NUMBER;
-      hash = (53 * hash) + getVersion();
+      hash = (37 * hash) + NEXT_SCRIPT_VERSION_FIELD_NUMBER;
+      hash = (53 * hash) + getNextScriptVersion().hashCode();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -600,19 +679,19 @@ public final class ResVersionConfigOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        releaseTotalSize_ = "";
+        version_ = 0;
+
+        relogin_ = false;
 
         md5_ = "";
 
-        nextScriptVersion_ = "";
+        releaseTotalSize_ = "";
 
         versionSuffix_ = "";
 
         branch_ = "";
 
-        relogin_ = false;
-
-        version_ = 0;
+        nextScriptVersion_ = "";
 
         return this;
       }
@@ -640,13 +719,13 @@ public final class ResVersionConfigOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig buildPartial() {
         emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig result = new emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig(this);
-        result.releaseTotalSize_ = releaseTotalSize_;
+        result.version_ = version_;
+        result.relogin_ = relogin_;
         result.md5_ = md5_;
-        result.nextScriptVersion_ = nextScriptVersion_;
+        result.releaseTotalSize_ = releaseTotalSize_;
         result.versionSuffix_ = versionSuffix_;
         result.branch_ = branch_;
-        result.relogin_ = relogin_;
-        result.version_ = version_;
+        result.nextScriptVersion_ = nextScriptVersion_;
         onBuilt();
         return result;
       }
@@ -695,16 +774,18 @@ public final class ResVersionConfigOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig other) {
         if (other == emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.getDefaultInstance()) return this;
-        if (!other.getReleaseTotalSize().isEmpty()) {
-          releaseTotalSize_ = other.releaseTotalSize_;
-          onChanged();
+        if (other.getVersion() != 0) {
+          setVersion(other.getVersion());
+        }
+        if (other.getRelogin() != false) {
+          setRelogin(other.getRelogin());
         }
         if (!other.getMd5().isEmpty()) {
           md5_ = other.md5_;
           onChanged();
         }
-        if (!other.getNextScriptVersion().isEmpty()) {
-          nextScriptVersion_ = other.nextScriptVersion_;
+        if (!other.getReleaseTotalSize().isEmpty()) {
+          releaseTotalSize_ = other.releaseTotalSize_;
           onChanged();
         }
         if (!other.getVersionSuffix().isEmpty()) {
@@ -715,11 +796,9 @@ public final class ResVersionConfigOuterClass {
           branch_ = other.branch_;
           onChanged();
         }
-        if (other.getRelogin() != false) {
-          setRelogin(other.getRelogin());
-        }
-        if (other.getVersion() != 0) {
-          setVersion(other.getVersion());
+        if (!other.getNextScriptVersion().isEmpty()) {
+          nextScriptVersion_ = other.nextScriptVersion_;
+          onChanged();
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -750,67 +829,73 @@ public final class ResVersionConfigOuterClass {
         return this;
       }
 
-      private java.lang.Object releaseTotalSize_ = "";
-
-      public java.lang.String getReleaseTotalSize() {
-        java.lang.Object ref = releaseTotalSize_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          releaseTotalSize_ = s;
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
+      private int version_ ;
+      /**
+       * <code>uint32 version = 1;</code>
+       * @return The version.
+       */
+      @java.lang.Override
+      public int getVersion() {
+        return version_;
       }
-
-      public com.google.protobuf.ByteString
-          getReleaseTotalSizeBytes() {
-        java.lang.Object ref = releaseTotalSize_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          releaseTotalSize_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
+      /**
+       * <code>uint32 version = 1;</code>
+       * @param value The version to set.
+       * @return This builder for chaining.
+       */
+      public Builder setVersion(int value) {
+        
+        version_ = value;
+        onChanged();
+        return this;
       }
-
-      public Builder setReleaseTotalSize(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-
-        releaseTotalSize_ = value;
+      /**
+       * <code>uint32 version = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearVersion() {
+        
+        version_ = 0;
         onChanged();
         return this;
       }
 
-      public Builder clearReleaseTotalSize() {
-
-        releaseTotalSize_ = getDefaultInstance().getReleaseTotalSize();
+      private boolean relogin_ ;
+      /**
+       * <code>bool relogin = 2;</code>
+       * @return The relogin.
+       */
+      @java.lang.Override
+      public boolean getRelogin() {
+        return relogin_;
+      }
+      /**
+       * <code>bool relogin = 2;</code>
+       * @param value The relogin to set.
+       * @return This builder for chaining.
+       */
+      public Builder setRelogin(boolean value) {
+        
+        relogin_ = value;
         onChanged();
         return this;
       }
-
-      public Builder setReleaseTotalSizeBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-
-        releaseTotalSize_ = value;
+      /**
+       * <code>bool relogin = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearRelogin() {
+        
+        relogin_ = false;
         onChanged();
         return this;
       }
 
       private java.lang.Object md5_ = "";
-
+      /**
+       * <code>string md5 = 3;</code>
+       * @return The md5.
+       */
       public java.lang.String getMd5() {
         java.lang.Object ref = md5_;
         if (!(ref instanceof java.lang.String)) {
@@ -823,12 +908,15 @@ public final class ResVersionConfigOuterClass {
           return (java.lang.String) ref;
         }
       }
-
+      /**
+       * <code>string md5 = 3;</code>
+       * @return The bytes for md5.
+       */
       public com.google.protobuf.ByteString
           getMd5Bytes() {
         java.lang.Object ref = md5_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           md5_ = b;
@@ -837,98 +925,129 @@ public final class ResVersionConfigOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-
+      /**
+       * <code>string md5 = 3;</code>
+       * @param value The md5 to set.
+       * @return This builder for chaining.
+       */
       public Builder setMd5(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         md5_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>string md5 = 3;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearMd5() {
-
+        
         md5_ = getDefaultInstance().getMd5();
         onChanged();
         return this;
       }
-
+      /**
+       * <code>string md5 = 3;</code>
+       * @param value The bytes for md5 to set.
+       * @return This builder for chaining.
+       */
       public Builder setMd5Bytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         md5_ = value;
         onChanged();
         return this;
       }
 
-      private java.lang.Object nextScriptVersion_ = "";
-
-      public java.lang.String getNextScriptVersion() {
-        java.lang.Object ref = nextScriptVersion_;
+      private java.lang.Object releaseTotalSize_ = "";
+      /**
+       * <code>string release_total_size = 4;</code>
+       * @return The releaseTotalSize.
+       */
+      public java.lang.String getReleaseTotalSize() {
+        java.lang.Object ref = releaseTotalSize_;
         if (!(ref instanceof java.lang.String)) {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          nextScriptVersion_ = s;
+          releaseTotalSize_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
         }
       }
-
+      /**
+       * <code>string release_total_size = 4;</code>
+       * @return The bytes for releaseTotalSize.
+       */
       public com.google.protobuf.ByteString
-          getNextScriptVersionBytes() {
-        java.lang.Object ref = nextScriptVersion_;
+          getReleaseTotalSizeBytes() {
+        java.lang.Object ref = releaseTotalSize_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          nextScriptVersion_ = b;
+          releaseTotalSize_ = b;
           return b;
         } else {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-
-      public Builder setNextScriptVersion(
+      /**
+       * <code>string release_total_size = 4;</code>
+       * @param value The releaseTotalSize to set.
+       * @return This builder for chaining.
+       */
+      public Builder setReleaseTotalSize(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-
-        nextScriptVersion_ = value;
+  
+        releaseTotalSize_ = value;
         onChanged();
         return this;
       }
-
-      public Builder clearNextScriptVersion() {
-
-        nextScriptVersion_ = getDefaultInstance().getNextScriptVersion();
+      /**
+       * <code>string release_total_size = 4;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearReleaseTotalSize() {
+        
+        releaseTotalSize_ = getDefaultInstance().getReleaseTotalSize();
         onChanged();
         return this;
       }
-
-      public Builder setNextScriptVersionBytes(
+      /**
+       * <code>string release_total_size = 4;</code>
+       * @param value The bytes for releaseTotalSize to set.
+       * @return This builder for chaining.
+       */
+      public Builder setReleaseTotalSizeBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
-        nextScriptVersion_ = value;
+        
+        releaseTotalSize_ = value;
         onChanged();
         return this;
       }
 
       private java.lang.Object versionSuffix_ = "";
-
+      /**
+       * <code>string version_suffix = 5;</code>
+       * @return The versionSuffix.
+       */
       public java.lang.String getVersionSuffix() {
         java.lang.Object ref = versionSuffix_;
         if (!(ref instanceof java.lang.String)) {
@@ -941,12 +1060,15 @@ public final class ResVersionConfigOuterClass {
           return (java.lang.String) ref;
         }
       }
-
+      /**
+       * <code>string version_suffix = 5;</code>
+       * @return The bytes for versionSuffix.
+       */
       public com.google.protobuf.ByteString
           getVersionSuffixBytes() {
         java.lang.Object ref = versionSuffix_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           versionSuffix_ = b;
@@ -955,39 +1077,53 @@ public final class ResVersionConfigOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-
+      /**
+       * <code>string version_suffix = 5;</code>
+       * @param value The versionSuffix to set.
+       * @return This builder for chaining.
+       */
       public Builder setVersionSuffix(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         versionSuffix_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>string version_suffix = 5;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearVersionSuffix() {
-
+        
         versionSuffix_ = getDefaultInstance().getVersionSuffix();
         onChanged();
         return this;
       }
-
+      /**
+       * <code>string version_suffix = 5;</code>
+       * @param value The bytes for versionSuffix to set.
+       * @return This builder for chaining.
+       */
       public Builder setVersionSuffixBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         versionSuffix_ = value;
         onChanged();
         return this;
       }
 
       private java.lang.Object branch_ = "";
-
+      /**
+       * <code>string branch = 6;</code>
+       * @return The branch.
+       */
       public java.lang.String getBranch() {
         java.lang.Object ref = branch_;
         if (!(ref instanceof java.lang.String)) {
@@ -1000,12 +1136,15 @@ public final class ResVersionConfigOuterClass {
           return (java.lang.String) ref;
         }
       }
-
+      /**
+       * <code>string branch = 6;</code>
+       * @return The bytes for branch.
+       */
       public com.google.protobuf.ByteString
           getBranchBytes() {
         java.lang.Object ref = branch_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           branch_ = b;
@@ -1014,75 +1153,120 @@ public final class ResVersionConfigOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-
+      /**
+       * <code>string branch = 6;</code>
+       * @param value The branch to set.
+       * @return This builder for chaining.
+       */
       public Builder setBranch(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         branch_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>string branch = 6;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearBranch() {
-
+        
         branch_ = getDefaultInstance().getBranch();
         onChanged();
         return this;
       }
-
+      /**
+       * <code>string branch = 6;</code>
+       * @param value The bytes for branch to set.
+       * @return This builder for chaining.
+       */
       public Builder setBranchBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         branch_ = value;
         onChanged();
         return this;
       }
 
-      private boolean relogin_ ;
-
-      @java.lang.Override
-      public boolean getRelogin() {
-        return relogin_;
+      private java.lang.Object nextScriptVersion_ = "";
+      /**
+       * <code>string next_script_version = 7;</code>
+       * @return The nextScriptVersion.
+       */
+      public java.lang.String getNextScriptVersion() {
+        java.lang.Object ref = nextScriptVersion_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          nextScriptVersion_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
       }
-
-      public Builder setRelogin(boolean value) {
-
-        relogin_ = value;
+      /**
+       * <code>string next_script_version = 7;</code>
+       * @return The bytes for nextScriptVersion.
+       */
+      public com.google.protobuf.ByteString
+          getNextScriptVersionBytes() {
+        java.lang.Object ref = nextScriptVersion_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          nextScriptVersion_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>string next_script_version = 7;</code>
+       * @param value The nextScriptVersion to set.
+       * @return This builder for chaining.
+       */
+      public Builder setNextScriptVersion(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        nextScriptVersion_ = value;
         onChanged();
         return this;
       }
-
-      public Builder clearRelogin() {
-
-        relogin_ = false;
+      /**
+       * <code>string next_script_version = 7;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearNextScriptVersion() {
+        
+        nextScriptVersion_ = getDefaultInstance().getNextScriptVersion();
         onChanged();
         return this;
       }
-
-      private int version_ ;
-
-      @java.lang.Override
-      public int getVersion() {
-        return version_;
-      }
-
-      public Builder setVersion(int value) {
-
-        version_ = value;
-        onChanged();
-        return this;
-      }
-
-      public Builder clearVersion() {
-
-        version_ = 0;
+      /**
+       * <code>string next_script_version = 7;</code>
+       * @param value The bytes for nextScriptVersion to set.
+       * @return This builder for chaining.
+       */
+      public Builder setNextScriptVersionBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+        
+        nextScriptVersion_ = value;
         onChanged();
         return this;
       }
@@ -1097,6 +1281,7 @@ public final class ResVersionConfigOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:ResVersionConfig)
     }
@@ -1140,7 +1325,7 @@ public final class ResVersionConfigOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ResVersionConfig_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ResVersionConfig_fieldAccessorTable;
 
@@ -1153,11 +1338,12 @@ public final class ResVersionConfigOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026ResVersionConfig.proto\"\242\001\n\020ResVersionC" +
-      "onfig\022\032\n\022release_total_size\030\004 \001(\t\022\013\n\003md5" +
-      "\030\003 \001(\t\022\033\n\023next_script_version\030\007 \001(\t\022\026\n\016v" +
-      "ersion_suffix\030\005 \001(\t\022\016\n\006branch\030\006 \001(\t\022\017\n\007r" +
-      "elogin\030\002 \001(\010\022\017\n\007version\030\001 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "onfig\022\017\n\007version\030\001 \001(\r\022\017\n\007relogin\030\002 \001(\010\022" +
+      "\013\n\003md5\030\003 \001(\t\022\032\n\022release_total_size\030\004 \001(\t" +
+      "\022\026\n\016version_suffix\030\005 \001(\t\022\016\n\006branch\030\006 \001(\t" +
+      "\022\033\n\023next_script_version\030\007 \001(\tB7\n\031emu.gra" +
+      "sscutter.net.protoB\032ResVersionConfigOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1168,7 +1354,7 @@ public final class ResVersionConfigOuterClass {
     internal_static_ResVersionConfig_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ResVersionConfig_descriptor,
-        new java.lang.String[] { "ReleaseTotalSize", "Md5", "NextScriptVersion", "VersionSuffix", "Branch", "Relogin", "Version", });
+        new java.lang.String[] { "Version", "Relogin", "Md5", "ReleaseTotalSize", "VersionSuffix", "Branch", "NextScriptVersion", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -19,57 +19,57 @@ public final class EffigyActivityDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .AOOMDKNBKFM PIKDGNPHFBJ = 12;</code>
+     * <code>uint32 last_difficulty_id = 3;</code>
+     * @return The lastDifficultyId.
      */
-    java.util.List<emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM> 
-        getPIKDGNPHFBJList();
+    int getLastDifficultyId();
+
     /**
-     * <code>repeated .AOOMDKNBKFM PIKDGNPHFBJ = 12;</code>
+     * <code>repeated uint32 taken_reward_index_list = 8;</code>
+     * @return A list containing the takenRewardIndexList.
      */
-    emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM getPIKDGNPHFBJ(int index);
+    java.util.List<java.lang.Integer> getTakenRewardIndexListList();
     /**
-     * <code>repeated .AOOMDKNBKFM PIKDGNPHFBJ = 12;</code>
+     * <code>repeated uint32 taken_reward_index_list = 8;</code>
+     * @return The count of takenRewardIndexList.
      */
-    int getPIKDGNPHFBJCount();
+    int getTakenRewardIndexListCount();
     /**
-     * <code>repeated .AOOMDKNBKFM PIKDGNPHFBJ = 12;</code>
+     * <code>repeated uint32 taken_reward_index_list = 8;</code>
+     * @param index The index of the element to return.
+     * @return The takenRewardIndexList at the given index.
      */
-    java.util.List<? extends emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFMOrBuilder> 
-        getPIKDGNPHFBJOrBuilderList();
+    int getTakenRewardIndexList(int index);
+
     /**
-     * <code>repeated .AOOMDKNBKFM PIKDGNPHFBJ = 12;</code>
+     * <code>repeated .EffigyDailyInfo daily_info_list = 11;</code>
      */
-    emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFMOrBuilder getPIKDGNPHFBJOrBuilder(
+    java.util.List<emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo> 
+        getDailyInfoListList();
+    /**
+     * <code>repeated .EffigyDailyInfo daily_info_list = 11;</code>
+     */
+    emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo getDailyInfoList(int index);
+    /**
+     * <code>repeated .EffigyDailyInfo daily_info_list = 11;</code>
+     */
+    int getDailyInfoListCount();
+    /**
+     * <code>repeated .EffigyDailyInfo daily_info_list = 11;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfoOrBuilder> 
+        getDailyInfoListOrBuilderList();
+    /**
+     * <code>repeated .EffigyDailyInfo daily_info_list = 11;</code>
+     */
+    emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfoOrBuilder getDailyInfoListOrBuilder(
         int index);
 
     /**
-     * <code>repeated uint32 CHHNCMPFMIH = 14;</code>
-     * @return A list containing the cHHNCMPFMIH.
+     * <code>uint32 cur_score = 12;</code>
+     * @return The curScore.
      */
-    java.util.List<java.lang.Integer> getCHHNCMPFMIHList();
-    /**
-     * <code>repeated uint32 CHHNCMPFMIH = 14;</code>
-     * @return The count of cHHNCMPFMIH.
-     */
-    int getCHHNCMPFMIHCount();
-    /**
-     * <code>repeated uint32 CHHNCMPFMIH = 14;</code>
-     * @param index The index of the element to return.
-     * @return The cHHNCMPFMIH at the given index.
-     */
-    int getCHHNCMPFMIH(int index);
-
-    /**
-     * <code>uint32 BGEEANCHFGD = 5;</code>
-     * @return The bGEEANCHFGD.
-     */
-    int getBGEEANCHFGD();
-
-    /**
-     * <code>uint32 HNMMGEABDMD = 8;</code>
-     * @return The hNMMGEABDMD.
-     */
-    int getHNMMGEABDMD();
+    int getCurScore();
   }
   /**
    * Protobuf type {@code EffigyActivityDetailInfo}
@@ -84,8 +84,8 @@ public final class EffigyActivityDetailInfoOuterClass {
       super(builder);
     }
     private EffigyActivityDetailInfo() {
-      pIKDGNPHFBJ_ = java.util.Collections.emptyList();
-      cHHNCMPFMIH_ = emptyIntList();
+      takenRewardIndexList_ = emptyIntList();
+      dailyInfoList_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -119,44 +119,44 @@ public final class EffigyActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
+            case 24: {
 
-              bGEEANCHFGD_ = input.readUInt32();
+              lastDifficultyId_ = input.readUInt32();
               break;
             }
             case 64: {
-
-              hNMMGEABDMD_ = input.readUInt32();
-              break;
-            }
-            case 98: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                pIKDGNPHFBJ_ = new java.util.ArrayList<emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM>();
+                takenRewardIndexList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
-              pIKDGNPHFBJ_.add(
-                  input.readMessage(emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM.parser(), extensionRegistry));
+              takenRewardIndexList_.addInt(input.readUInt32());
               break;
             }
-            case 112: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                cHHNCMPFMIH_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              cHHNCMPFMIH_.addInt(input.readUInt32());
-              break;
-            }
-            case 114: {
+            case 66: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
-                cHHNCMPFMIH_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
+                takenRewardIndexList_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
-                cHHNCMPFMIH_.addInt(input.readUInt32());
+                takenRewardIndexList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
+              break;
+            }
+            case 90: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                dailyInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo>();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              dailyInfoList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo.parser(), extensionRegistry));
+              break;
+            }
+            case 96: {
+
+              curScore_ = input.readUInt32();
               break;
             }
             default: {
@@ -175,10 +175,10 @@ public final class EffigyActivityDetailInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          pIKDGNPHFBJ_ = java.util.Collections.unmodifiableList(pIKDGNPHFBJ_);
+          takenRewardIndexList_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
-          cHHNCMPFMIH_.makeImmutable(); // C
+          dailyInfoList_ = java.util.Collections.unmodifiableList(dailyInfoList_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -197,94 +197,94 @@ public final class EffigyActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.EffigyActivityDetailInfoOuterClass.EffigyActivityDetailInfo.class, emu.grasscutter.net.proto.EffigyActivityDetailInfoOuterClass.EffigyActivityDetailInfo.Builder.class);
     }
 
-    public static final int PIKDGNPHFBJ_FIELD_NUMBER = 12;
-    private java.util.List<emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM> pIKDGNPHFBJ_;
+    public static final int LAST_DIFFICULTY_ID_FIELD_NUMBER = 3;
+    private int lastDifficultyId_;
     /**
-     * <code>repeated .AOOMDKNBKFM PIKDGNPHFBJ = 12;</code>
+     * <code>uint32 last_difficulty_id = 3;</code>
+     * @return The lastDifficultyId.
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM> getPIKDGNPHFBJList() {
-      return pIKDGNPHFBJ_;
-    }
-    /**
-     * <code>repeated .AOOMDKNBKFM PIKDGNPHFBJ = 12;</code>
-     */
-    @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFMOrBuilder> 
-        getPIKDGNPHFBJOrBuilderList() {
-      return pIKDGNPHFBJ_;
-    }
-    /**
-     * <code>repeated .AOOMDKNBKFM PIKDGNPHFBJ = 12;</code>
-     */
-    @java.lang.Override
-    public int getPIKDGNPHFBJCount() {
-      return pIKDGNPHFBJ_.size();
-    }
-    /**
-     * <code>repeated .AOOMDKNBKFM PIKDGNPHFBJ = 12;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM getPIKDGNPHFBJ(int index) {
-      return pIKDGNPHFBJ_.get(index);
-    }
-    /**
-     * <code>repeated .AOOMDKNBKFM PIKDGNPHFBJ = 12;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFMOrBuilder getPIKDGNPHFBJOrBuilder(
-        int index) {
-      return pIKDGNPHFBJ_.get(index);
+    public int getLastDifficultyId() {
+      return lastDifficultyId_;
     }
 
-    public static final int CHHNCMPFMIH_FIELD_NUMBER = 14;
-    private com.google.protobuf.Internal.IntList cHHNCMPFMIH_;
+    public static final int TAKEN_REWARD_INDEX_LIST_FIELD_NUMBER = 8;
+    private com.google.protobuf.Internal.IntList takenRewardIndexList_;
     /**
-     * <code>repeated uint32 CHHNCMPFMIH = 14;</code>
-     * @return A list containing the cHHNCMPFMIH.
+     * <code>repeated uint32 taken_reward_index_list = 8;</code>
+     * @return A list containing the takenRewardIndexList.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getCHHNCMPFMIHList() {
-      return cHHNCMPFMIH_;
+        getTakenRewardIndexListList() {
+      return takenRewardIndexList_;
     }
     /**
-     * <code>repeated uint32 CHHNCMPFMIH = 14;</code>
-     * @return The count of cHHNCMPFMIH.
+     * <code>repeated uint32 taken_reward_index_list = 8;</code>
+     * @return The count of takenRewardIndexList.
      */
-    public int getCHHNCMPFMIHCount() {
-      return cHHNCMPFMIH_.size();
+    public int getTakenRewardIndexListCount() {
+      return takenRewardIndexList_.size();
     }
     /**
-     * <code>repeated uint32 CHHNCMPFMIH = 14;</code>
+     * <code>repeated uint32 taken_reward_index_list = 8;</code>
      * @param index The index of the element to return.
-     * @return The cHHNCMPFMIH at the given index.
+     * @return The takenRewardIndexList at the given index.
      */
-    public int getCHHNCMPFMIH(int index) {
-      return cHHNCMPFMIH_.getInt(index);
+    public int getTakenRewardIndexList(int index) {
+      return takenRewardIndexList_.getInt(index);
     }
-    private int cHHNCMPFMIHMemoizedSerializedSize = -1;
+    private int takenRewardIndexListMemoizedSerializedSize = -1;
 
-    public static final int BGEEANCHFGD_FIELD_NUMBER = 5;
-    private int bGEEANCHFGD_;
+    public static final int DAILY_INFO_LIST_FIELD_NUMBER = 11;
+    private java.util.List<emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo> dailyInfoList_;
     /**
-     * <code>uint32 BGEEANCHFGD = 5;</code>
-     * @return The bGEEANCHFGD.
+     * <code>repeated .EffigyDailyInfo daily_info_list = 11;</code>
      */
     @java.lang.Override
-    public int getBGEEANCHFGD() {
-      return bGEEANCHFGD_;
+    public java.util.List<emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo> getDailyInfoListList() {
+      return dailyInfoList_;
     }
-
-    public static final int HNMMGEABDMD_FIELD_NUMBER = 8;
-    private int hNMMGEABDMD_;
     /**
-     * <code>uint32 HNMMGEABDMD = 8;</code>
-     * @return The hNMMGEABDMD.
+     * <code>repeated .EffigyDailyInfo daily_info_list = 11;</code>
      */
     @java.lang.Override
-    public int getHNMMGEABDMD() {
-      return hNMMGEABDMD_;
+    public java.util.List<? extends emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfoOrBuilder> 
+        getDailyInfoListOrBuilderList() {
+      return dailyInfoList_;
+    }
+    /**
+     * <code>repeated .EffigyDailyInfo daily_info_list = 11;</code>
+     */
+    @java.lang.Override
+    public int getDailyInfoListCount() {
+      return dailyInfoList_.size();
+    }
+    /**
+     * <code>repeated .EffigyDailyInfo daily_info_list = 11;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo getDailyInfoList(int index) {
+      return dailyInfoList_.get(index);
+    }
+    /**
+     * <code>repeated .EffigyDailyInfo daily_info_list = 11;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfoOrBuilder getDailyInfoListOrBuilder(
+        int index) {
+      return dailyInfoList_.get(index);
+    }
+
+    public static final int CUR_SCORE_FIELD_NUMBER = 12;
+    private int curScore_;
+    /**
+     * <code>uint32 cur_score = 12;</code>
+     * @return The curScore.
+     */
+    @java.lang.Override
+    public int getCurScore() {
+      return curScore_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -302,21 +302,21 @@ public final class EffigyActivityDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (bGEEANCHFGD_ != 0) {
-        output.writeUInt32(5, bGEEANCHFGD_);
+      if (lastDifficultyId_ != 0) {
+        output.writeUInt32(3, lastDifficultyId_);
       }
-      if (hNMMGEABDMD_ != 0) {
-        output.writeUInt32(8, hNMMGEABDMD_);
+      if (getTakenRewardIndexListList().size() > 0) {
+        output.writeUInt32NoTag(66);
+        output.writeUInt32NoTag(takenRewardIndexListMemoizedSerializedSize);
       }
-      for (int i = 0; i < pIKDGNPHFBJ_.size(); i++) {
-        output.writeMessage(12, pIKDGNPHFBJ_.get(i));
+      for (int i = 0; i < takenRewardIndexList_.size(); i++) {
+        output.writeUInt32NoTag(takenRewardIndexList_.getInt(i));
       }
-      if (getCHHNCMPFMIHList().size() > 0) {
-        output.writeUInt32NoTag(114);
-        output.writeUInt32NoTag(cHHNCMPFMIHMemoizedSerializedSize);
+      for (int i = 0; i < dailyInfoList_.size(); i++) {
+        output.writeMessage(11, dailyInfoList_.get(i));
       }
-      for (int i = 0; i < cHHNCMPFMIH_.size(); i++) {
-        output.writeUInt32NoTag(cHHNCMPFMIH_.getInt(i));
+      if (curScore_ != 0) {
+        output.writeUInt32(12, curScore_);
       }
       unknownFields.writeTo(output);
     }
@@ -327,31 +327,31 @@ public final class EffigyActivityDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (bGEEANCHFGD_ != 0) {
+      if (lastDifficultyId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, bGEEANCHFGD_);
-      }
-      if (hNMMGEABDMD_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, hNMMGEABDMD_);
-      }
-      for (int i = 0; i < pIKDGNPHFBJ_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, pIKDGNPHFBJ_.get(i));
+          .computeUInt32Size(3, lastDifficultyId_);
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < cHHNCMPFMIH_.size(); i++) {
+        for (int i = 0; i < takenRewardIndexList_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(cHHNCMPFMIH_.getInt(i));
+            .computeUInt32SizeNoTag(takenRewardIndexList_.getInt(i));
         }
         size += dataSize;
-        if (!getCHHNCMPFMIHList().isEmpty()) {
+        if (!getTakenRewardIndexListList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        cHHNCMPFMIHMemoizedSerializedSize = dataSize;
+        takenRewardIndexListMemoizedSerializedSize = dataSize;
+      }
+      for (int i = 0; i < dailyInfoList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(11, dailyInfoList_.get(i));
+      }
+      if (curScore_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(12, curScore_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -368,14 +368,14 @@ public final class EffigyActivityDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.EffigyActivityDetailInfoOuterClass.EffigyActivityDetailInfo other = (emu.grasscutter.net.proto.EffigyActivityDetailInfoOuterClass.EffigyActivityDetailInfo) obj;
 
-      if (!getPIKDGNPHFBJList()
-          .equals(other.getPIKDGNPHFBJList())) return false;
-      if (!getCHHNCMPFMIHList()
-          .equals(other.getCHHNCMPFMIHList())) return false;
-      if (getBGEEANCHFGD()
-          != other.getBGEEANCHFGD()) return false;
-      if (getHNMMGEABDMD()
-          != other.getHNMMGEABDMD()) return false;
+      if (getLastDifficultyId()
+          != other.getLastDifficultyId()) return false;
+      if (!getTakenRewardIndexListList()
+          .equals(other.getTakenRewardIndexListList())) return false;
+      if (!getDailyInfoListList()
+          .equals(other.getDailyInfoListList())) return false;
+      if (getCurScore()
+          != other.getCurScore()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -387,18 +387,18 @@ public final class EffigyActivityDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getPIKDGNPHFBJCount() > 0) {
-        hash = (37 * hash) + PIKDGNPHFBJ_FIELD_NUMBER;
-        hash = (53 * hash) + getPIKDGNPHFBJList().hashCode();
+      hash = (37 * hash) + LAST_DIFFICULTY_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getLastDifficultyId();
+      if (getTakenRewardIndexListCount() > 0) {
+        hash = (37 * hash) + TAKEN_REWARD_INDEX_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getTakenRewardIndexListList().hashCode();
       }
-      if (getCHHNCMPFMIHCount() > 0) {
-        hash = (37 * hash) + CHHNCMPFMIH_FIELD_NUMBER;
-        hash = (53 * hash) + getCHHNCMPFMIHList().hashCode();
+      if (getDailyInfoListCount() > 0) {
+        hash = (37 * hash) + DAILY_INFO_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getDailyInfoListList().hashCode();
       }
-      hash = (37 * hash) + BGEEANCHFGD_FIELD_NUMBER;
-      hash = (53 * hash) + getBGEEANCHFGD();
-      hash = (37 * hash) + HNMMGEABDMD_FIELD_NUMBER;
-      hash = (53 * hash) + getHNMMGEABDMD();
+      hash = (37 * hash) + CUR_SCORE_FIELD_NUMBER;
+      hash = (53 * hash) + getCurScore();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -527,23 +527,23 @@ public final class EffigyActivityDetailInfoOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
-          getPIKDGNPHFBJFieldBuilder();
+          getDailyInfoListFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (pIKDGNPHFBJBuilder_ == null) {
-          pIKDGNPHFBJ_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000001);
-        } else {
-          pIKDGNPHFBJBuilder_.clear();
-        }
-        cHHNCMPFMIH_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
-        bGEEANCHFGD_ = 0;
+        lastDifficultyId_ = 0;
 
-        hNMMGEABDMD_ = 0;
+        takenRewardIndexList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
+        if (dailyInfoListBuilder_ == null) {
+          dailyInfoList_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000002);
+        } else {
+          dailyInfoListBuilder_.clear();
+        }
+        curScore_ = 0;
 
         return this;
       }
@@ -572,22 +572,22 @@ public final class EffigyActivityDetailInfoOuterClass {
       public emu.grasscutter.net.proto.EffigyActivityDetailInfoOuterClass.EffigyActivityDetailInfo buildPartial() {
         emu.grasscutter.net.proto.EffigyActivityDetailInfoOuterClass.EffigyActivityDetailInfo result = new emu.grasscutter.net.proto.EffigyActivityDetailInfoOuterClass.EffigyActivityDetailInfo(this);
         int from_bitField0_ = bitField0_;
-        if (pIKDGNPHFBJBuilder_ == null) {
-          if (((bitField0_ & 0x00000001) != 0)) {
-            pIKDGNPHFBJ_ = java.util.Collections.unmodifiableList(pIKDGNPHFBJ_);
-            bitField0_ = (bitField0_ & ~0x00000001);
+        result.lastDifficultyId_ = lastDifficultyId_;
+        if (((bitField0_ & 0x00000001) != 0)) {
+          takenRewardIndexList_.makeImmutable();
+          bitField0_ = (bitField0_ & ~0x00000001);
+        }
+        result.takenRewardIndexList_ = takenRewardIndexList_;
+        if (dailyInfoListBuilder_ == null) {
+          if (((bitField0_ & 0x00000002) != 0)) {
+            dailyInfoList_ = java.util.Collections.unmodifiableList(dailyInfoList_);
+            bitField0_ = (bitField0_ & ~0x00000002);
           }
-          result.pIKDGNPHFBJ_ = pIKDGNPHFBJ_;
+          result.dailyInfoList_ = dailyInfoList_;
         } else {
-          result.pIKDGNPHFBJ_ = pIKDGNPHFBJBuilder_.build();
+          result.dailyInfoList_ = dailyInfoListBuilder_.build();
         }
-        if (((bitField0_ & 0x00000002) != 0)) {
-          cHHNCMPFMIH_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000002);
-        }
-        result.cHHNCMPFMIH_ = cHHNCMPFMIH_;
-        result.bGEEANCHFGD_ = bGEEANCHFGD_;
-        result.hNMMGEABDMD_ = hNMMGEABDMD_;
+        result.curScore_ = curScore_;
         onBuilt();
         return result;
       }
@@ -636,47 +636,47 @@ public final class EffigyActivityDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.EffigyActivityDetailInfoOuterClass.EffigyActivityDetailInfo other) {
         if (other == emu.grasscutter.net.proto.EffigyActivityDetailInfoOuterClass.EffigyActivityDetailInfo.getDefaultInstance()) return this;
-        if (pIKDGNPHFBJBuilder_ == null) {
-          if (!other.pIKDGNPHFBJ_.isEmpty()) {
-            if (pIKDGNPHFBJ_.isEmpty()) {
-              pIKDGNPHFBJ_ = other.pIKDGNPHFBJ_;
-              bitField0_ = (bitField0_ & ~0x00000001);
+        if (other.getLastDifficultyId() != 0) {
+          setLastDifficultyId(other.getLastDifficultyId());
+        }
+        if (!other.takenRewardIndexList_.isEmpty()) {
+          if (takenRewardIndexList_.isEmpty()) {
+            takenRewardIndexList_ = other.takenRewardIndexList_;
+            bitField0_ = (bitField0_ & ~0x00000001);
+          } else {
+            ensureTakenRewardIndexListIsMutable();
+            takenRewardIndexList_.addAll(other.takenRewardIndexList_);
+          }
+          onChanged();
+        }
+        if (dailyInfoListBuilder_ == null) {
+          if (!other.dailyInfoList_.isEmpty()) {
+            if (dailyInfoList_.isEmpty()) {
+              dailyInfoList_ = other.dailyInfoList_;
+              bitField0_ = (bitField0_ & ~0x00000002);
             } else {
-              ensurePIKDGNPHFBJIsMutable();
-              pIKDGNPHFBJ_.addAll(other.pIKDGNPHFBJ_);
+              ensureDailyInfoListIsMutable();
+              dailyInfoList_.addAll(other.dailyInfoList_);
             }
             onChanged();
           }
         } else {
-          if (!other.pIKDGNPHFBJ_.isEmpty()) {
-            if (pIKDGNPHFBJBuilder_.isEmpty()) {
-              pIKDGNPHFBJBuilder_.dispose();
-              pIKDGNPHFBJBuilder_ = null;
-              pIKDGNPHFBJ_ = other.pIKDGNPHFBJ_;
-              bitField0_ = (bitField0_ & ~0x00000001);
-              pIKDGNPHFBJBuilder_ = 
+          if (!other.dailyInfoList_.isEmpty()) {
+            if (dailyInfoListBuilder_.isEmpty()) {
+              dailyInfoListBuilder_.dispose();
+              dailyInfoListBuilder_ = null;
+              dailyInfoList_ = other.dailyInfoList_;
+              bitField0_ = (bitField0_ & ~0x00000002);
+              dailyInfoListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getPIKDGNPHFBJFieldBuilder() : null;
+                   getDailyInfoListFieldBuilder() : null;
             } else {
-              pIKDGNPHFBJBuilder_.addAllMessages(other.pIKDGNPHFBJ_);
+              dailyInfoListBuilder_.addAllMessages(other.dailyInfoList_);
             }
           }
         }
-        if (!other.cHHNCMPFMIH_.isEmpty()) {
-          if (cHHNCMPFMIH_.isEmpty()) {
-            cHHNCMPFMIH_ = other.cHHNCMPFMIH_;
-            bitField0_ = (bitField0_ & ~0x00000002);
-          } else {
-            ensureCHHNCMPFMIHIsMutable();
-            cHHNCMPFMIH_.addAll(other.cHHNCMPFMIH_);
-          }
-          onChanged();
-        }
-        if (other.getBGEEANCHFGD() != 0) {
-          setBGEEANCHFGD(other.getBGEEANCHFGD());
-        }
-        if (other.getHNMMGEABDMD() != 0) {
-          setHNMMGEABDMD(other.getHNMMGEABDMD());
+        if (other.getCurScore() != 0) {
+          setCurScore(other.getCurScore());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -708,383 +708,383 @@ public final class EffigyActivityDetailInfoOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM> pIKDGNPHFBJ_ =
-        java.util.Collections.emptyList();
-      private void ensurePIKDGNPHFBJIsMutable() {
+      private int lastDifficultyId_ ;
+      /**
+       * <code>uint32 last_difficulty_id = 3;</code>
+       * @return The lastDifficultyId.
+       */
+      @java.lang.Override
+      public int getLastDifficultyId() {
+        return lastDifficultyId_;
+      }
+      /**
+       * <code>uint32 last_difficulty_id = 3;</code>
+       * @param value The lastDifficultyId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setLastDifficultyId(int value) {
+        
+        lastDifficultyId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 last_difficulty_id = 3;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearLastDifficultyId() {
+        
+        lastDifficultyId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.Internal.IntList takenRewardIndexList_ = emptyIntList();
+      private void ensureTakenRewardIndexListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          pIKDGNPHFBJ_ = new java.util.ArrayList<emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM>(pIKDGNPHFBJ_);
+          takenRewardIndexList_ = mutableCopy(takenRewardIndexList_);
           bitField0_ |= 0x00000001;
          }
       }
-
-      private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM, emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM.Builder, emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFMOrBuilder> pIKDGNPHFBJBuilder_;
-
       /**
-       * <code>repeated .AOOMDKNBKFM PIKDGNPHFBJ = 12;</code>
+       * <code>repeated uint32 taken_reward_index_list = 8;</code>
+       * @return A list containing the takenRewardIndexList.
        */
-      public java.util.List<emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM> getPIKDGNPHFBJList() {
-        if (pIKDGNPHFBJBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(pIKDGNPHFBJ_);
-        } else {
-          return pIKDGNPHFBJBuilder_.getMessageList();
-        }
+      public java.util.List<java.lang.Integer>
+          getTakenRewardIndexListList() {
+        return ((bitField0_ & 0x00000001) != 0) ?
+                 java.util.Collections.unmodifiableList(takenRewardIndexList_) : takenRewardIndexList_;
       }
       /**
-       * <code>repeated .AOOMDKNBKFM PIKDGNPHFBJ = 12;</code>
+       * <code>repeated uint32 taken_reward_index_list = 8;</code>
+       * @return The count of takenRewardIndexList.
        */
-      public int getPIKDGNPHFBJCount() {
-        if (pIKDGNPHFBJBuilder_ == null) {
-          return pIKDGNPHFBJ_.size();
-        } else {
-          return pIKDGNPHFBJBuilder_.getCount();
-        }
+      public int getTakenRewardIndexListCount() {
+        return takenRewardIndexList_.size();
       }
       /**
-       * <code>repeated .AOOMDKNBKFM PIKDGNPHFBJ = 12;</code>
+       * <code>repeated uint32 taken_reward_index_list = 8;</code>
+       * @param index The index of the element to return.
+       * @return The takenRewardIndexList at the given index.
        */
-      public emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM getPIKDGNPHFBJ(int index) {
-        if (pIKDGNPHFBJBuilder_ == null) {
-          return pIKDGNPHFBJ_.get(index);
-        } else {
-          return pIKDGNPHFBJBuilder_.getMessage(index);
-        }
+      public int getTakenRewardIndexList(int index) {
+        return takenRewardIndexList_.getInt(index);
       }
       /**
-       * <code>repeated .AOOMDKNBKFM PIKDGNPHFBJ = 12;</code>
+       * <code>repeated uint32 taken_reward_index_list = 8;</code>
+       * @param index The index to set the value at.
+       * @param value The takenRewardIndexList to set.
+       * @return This builder for chaining.
        */
-      public Builder setPIKDGNPHFBJ(
-          int index, emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM value) {
-        if (pIKDGNPHFBJBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensurePIKDGNPHFBJIsMutable();
-          pIKDGNPHFBJ_.set(index, value);
-          onChanged();
-        } else {
-          pIKDGNPHFBJBuilder_.setMessage(index, value);
-        }
+      public Builder setTakenRewardIndexList(
+          int index, int value) {
+        ensureTakenRewardIndexListIsMutable();
+        takenRewardIndexList_.setInt(index, value);
+        onChanged();
         return this;
       }
       /**
-       * <code>repeated .AOOMDKNBKFM PIKDGNPHFBJ = 12;</code>
+       * <code>repeated uint32 taken_reward_index_list = 8;</code>
+       * @param value The takenRewardIndexList to add.
+       * @return This builder for chaining.
        */
-      public Builder setPIKDGNPHFBJ(
-          int index, emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM.Builder builderForValue) {
-        if (pIKDGNPHFBJBuilder_ == null) {
-          ensurePIKDGNPHFBJIsMutable();
-          pIKDGNPHFBJ_.set(index, builderForValue.build());
-          onChanged();
-        } else {
-          pIKDGNPHFBJBuilder_.setMessage(index, builderForValue.build());
-        }
+      public Builder addTakenRewardIndexList(int value) {
+        ensureTakenRewardIndexListIsMutable();
+        takenRewardIndexList_.addInt(value);
+        onChanged();
         return this;
       }
       /**
-       * <code>repeated .AOOMDKNBKFM PIKDGNPHFBJ = 12;</code>
+       * <code>repeated uint32 taken_reward_index_list = 8;</code>
+       * @param values The takenRewardIndexList to add.
+       * @return This builder for chaining.
        */
-      public Builder addPIKDGNPHFBJ(emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM value) {
-        if (pIKDGNPHFBJBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensurePIKDGNPHFBJIsMutable();
-          pIKDGNPHFBJ_.add(value);
-          onChanged();
-        } else {
-          pIKDGNPHFBJBuilder_.addMessage(value);
-        }
+      public Builder addAllTakenRewardIndexList(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureTakenRewardIndexListIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, takenRewardIndexList_);
+        onChanged();
         return this;
       }
       /**
-       * <code>repeated .AOOMDKNBKFM PIKDGNPHFBJ = 12;</code>
+       * <code>repeated uint32 taken_reward_index_list = 8;</code>
+       * @return This builder for chaining.
        */
-      public Builder addPIKDGNPHFBJ(
-          int index, emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM value) {
-        if (pIKDGNPHFBJBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensurePIKDGNPHFBJIsMutable();
-          pIKDGNPHFBJ_.add(index, value);
-          onChanged();
-        } else {
-          pIKDGNPHFBJBuilder_.addMessage(index, value);
-        }
+      public Builder clearTakenRewardIndexList() {
+        takenRewardIndexList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
+        onChanged();
         return this;
-      }
-      /**
-       * <code>repeated .AOOMDKNBKFM PIKDGNPHFBJ = 12;</code>
-       */
-      public Builder addPIKDGNPHFBJ(
-          emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM.Builder builderForValue) {
-        if (pIKDGNPHFBJBuilder_ == null) {
-          ensurePIKDGNPHFBJIsMutable();
-          pIKDGNPHFBJ_.add(builderForValue.build());
-          onChanged();
-        } else {
-          pIKDGNPHFBJBuilder_.addMessage(builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .AOOMDKNBKFM PIKDGNPHFBJ = 12;</code>
-       */
-      public Builder addPIKDGNPHFBJ(
-          int index, emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM.Builder builderForValue) {
-        if (pIKDGNPHFBJBuilder_ == null) {
-          ensurePIKDGNPHFBJIsMutable();
-          pIKDGNPHFBJ_.add(index, builderForValue.build());
-          onChanged();
-        } else {
-          pIKDGNPHFBJBuilder_.addMessage(index, builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .AOOMDKNBKFM PIKDGNPHFBJ = 12;</code>
-       */
-      public Builder addAllPIKDGNPHFBJ(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM> values) {
-        if (pIKDGNPHFBJBuilder_ == null) {
-          ensurePIKDGNPHFBJIsMutable();
-          com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, pIKDGNPHFBJ_);
-          onChanged();
-        } else {
-          pIKDGNPHFBJBuilder_.addAllMessages(values);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .AOOMDKNBKFM PIKDGNPHFBJ = 12;</code>
-       */
-      public Builder clearPIKDGNPHFBJ() {
-        if (pIKDGNPHFBJBuilder_ == null) {
-          pIKDGNPHFBJ_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000001);
-          onChanged();
-        } else {
-          pIKDGNPHFBJBuilder_.clear();
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .AOOMDKNBKFM PIKDGNPHFBJ = 12;</code>
-       */
-      public Builder removePIKDGNPHFBJ(int index) {
-        if (pIKDGNPHFBJBuilder_ == null) {
-          ensurePIKDGNPHFBJIsMutable();
-          pIKDGNPHFBJ_.remove(index);
-          onChanged();
-        } else {
-          pIKDGNPHFBJBuilder_.remove(index);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .AOOMDKNBKFM PIKDGNPHFBJ = 12;</code>
-       */
-      public emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM.Builder getPIKDGNPHFBJBuilder(
-          int index) {
-        return getPIKDGNPHFBJFieldBuilder().getBuilder(index);
-      }
-      /**
-       * <code>repeated .AOOMDKNBKFM PIKDGNPHFBJ = 12;</code>
-       */
-      public emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFMOrBuilder getPIKDGNPHFBJOrBuilder(
-          int index) {
-        if (pIKDGNPHFBJBuilder_ == null) {
-          return pIKDGNPHFBJ_.get(index);  } else {
-          return pIKDGNPHFBJBuilder_.getMessageOrBuilder(index);
-        }
-      }
-      /**
-       * <code>repeated .AOOMDKNBKFM PIKDGNPHFBJ = 12;</code>
-       */
-      public java.util.List<? extends emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFMOrBuilder> 
-           getPIKDGNPHFBJOrBuilderList() {
-        if (pIKDGNPHFBJBuilder_ != null) {
-          return pIKDGNPHFBJBuilder_.getMessageOrBuilderList();
-        } else {
-          return java.util.Collections.unmodifiableList(pIKDGNPHFBJ_);
-        }
-      }
-      /**
-       * <code>repeated .AOOMDKNBKFM PIKDGNPHFBJ = 12;</code>
-       */
-      public emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM.Builder addPIKDGNPHFBJBuilder() {
-        return getPIKDGNPHFBJFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM.getDefaultInstance());
-      }
-      /**
-       * <code>repeated .AOOMDKNBKFM PIKDGNPHFBJ = 12;</code>
-       */
-      public emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM.Builder addPIKDGNPHFBJBuilder(
-          int index) {
-        return getPIKDGNPHFBJFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM.getDefaultInstance());
-      }
-      /**
-       * <code>repeated .AOOMDKNBKFM PIKDGNPHFBJ = 12;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM.Builder> 
-           getPIKDGNPHFBJBuilderList() {
-        return getPIKDGNPHFBJFieldBuilder().getBuilderList();
-      }
-      private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM, emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM.Builder, emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFMOrBuilder> 
-          getPIKDGNPHFBJFieldBuilder() {
-        if (pIKDGNPHFBJBuilder_ == null) {
-          pIKDGNPHFBJBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM, emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFM.Builder, emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.AOOMDKNBKFMOrBuilder>(
-                  pIKDGNPHFBJ_,
-                  ((bitField0_ & 0x00000001) != 0),
-                  getParentForChildren(),
-                  isClean());
-          pIKDGNPHFBJ_ = null;
-        }
-        return pIKDGNPHFBJBuilder_;
       }
 
-      private com.google.protobuf.Internal.IntList cHHNCMPFMIH_ = emptyIntList();
-      private void ensureCHHNCMPFMIHIsMutable() {
+      private java.util.List<emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo> dailyInfoList_ =
+        java.util.Collections.emptyList();
+      private void ensureDailyInfoListIsMutable() {
         if (!((bitField0_ & 0x00000002) != 0)) {
-          cHHNCMPFMIH_ = mutableCopy(cHHNCMPFMIH_);
+          dailyInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo>(dailyInfoList_);
           bitField0_ |= 0x00000002;
          }
       }
+
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo, emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo.Builder, emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfoOrBuilder> dailyInfoListBuilder_;
+
       /**
-       * <code>repeated uint32 CHHNCMPFMIH = 14;</code>
-       * @return A list containing the cHHNCMPFMIH.
+       * <code>repeated .EffigyDailyInfo daily_info_list = 11;</code>
        */
-      public java.util.List<java.lang.Integer>
-          getCHHNCMPFMIHList() {
-        return ((bitField0_ & 0x00000002) != 0) ?
-                 java.util.Collections.unmodifiableList(cHHNCMPFMIH_) : cHHNCMPFMIH_;
+      public java.util.List<emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo> getDailyInfoListList() {
+        if (dailyInfoListBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(dailyInfoList_);
+        } else {
+          return dailyInfoListBuilder_.getMessageList();
+        }
       }
       /**
-       * <code>repeated uint32 CHHNCMPFMIH = 14;</code>
-       * @return The count of cHHNCMPFMIH.
+       * <code>repeated .EffigyDailyInfo daily_info_list = 11;</code>
        */
-      public int getCHHNCMPFMIHCount() {
-        return cHHNCMPFMIH_.size();
+      public int getDailyInfoListCount() {
+        if (dailyInfoListBuilder_ == null) {
+          return dailyInfoList_.size();
+        } else {
+          return dailyInfoListBuilder_.getCount();
+        }
       }
       /**
-       * <code>repeated uint32 CHHNCMPFMIH = 14;</code>
-       * @param index The index of the element to return.
-       * @return The cHHNCMPFMIH at the given index.
+       * <code>repeated .EffigyDailyInfo daily_info_list = 11;</code>
        */
-      public int getCHHNCMPFMIH(int index) {
-        return cHHNCMPFMIH_.getInt(index);
+      public emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo getDailyInfoList(int index) {
+        if (dailyInfoListBuilder_ == null) {
+          return dailyInfoList_.get(index);
+        } else {
+          return dailyInfoListBuilder_.getMessage(index);
+        }
       }
       /**
-       * <code>repeated uint32 CHHNCMPFMIH = 14;</code>
-       * @param index The index to set the value at.
-       * @param value The cHHNCMPFMIH to set.
-       * @return This builder for chaining.
+       * <code>repeated .EffigyDailyInfo daily_info_list = 11;</code>
        */
-      public Builder setCHHNCMPFMIH(
-          int index, int value) {
-        ensureCHHNCMPFMIHIsMutable();
-        cHHNCMPFMIH_.setInt(index, value);
-        onChanged();
+      public Builder setDailyInfoList(
+          int index, emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo value) {
+        if (dailyInfoListBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureDailyInfoListIsMutable();
+          dailyInfoList_.set(index, value);
+          onChanged();
+        } else {
+          dailyInfoListBuilder_.setMessage(index, value);
+        }
         return this;
       }
       /**
-       * <code>repeated uint32 CHHNCMPFMIH = 14;</code>
-       * @param value The cHHNCMPFMIH to add.
-       * @return This builder for chaining.
+       * <code>repeated .EffigyDailyInfo daily_info_list = 11;</code>
        */
-      public Builder addCHHNCMPFMIH(int value) {
-        ensureCHHNCMPFMIHIsMutable();
-        cHHNCMPFMIH_.addInt(value);
-        onChanged();
+      public Builder setDailyInfoList(
+          int index, emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo.Builder builderForValue) {
+        if (dailyInfoListBuilder_ == null) {
+          ensureDailyInfoListIsMutable();
+          dailyInfoList_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          dailyInfoListBuilder_.setMessage(index, builderForValue.build());
+        }
         return this;
       }
       /**
-       * <code>repeated uint32 CHHNCMPFMIH = 14;</code>
-       * @param values The cHHNCMPFMIH to add.
-       * @return This builder for chaining.
+       * <code>repeated .EffigyDailyInfo daily_info_list = 11;</code>
        */
-      public Builder addAllCHHNCMPFMIH(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureCHHNCMPFMIHIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, cHHNCMPFMIH_);
-        onChanged();
+      public Builder addDailyInfoList(emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo value) {
+        if (dailyInfoListBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureDailyInfoListIsMutable();
+          dailyInfoList_.add(value);
+          onChanged();
+        } else {
+          dailyInfoListBuilder_.addMessage(value);
+        }
         return this;
       }
       /**
-       * <code>repeated uint32 CHHNCMPFMIH = 14;</code>
-       * @return This builder for chaining.
+       * <code>repeated .EffigyDailyInfo daily_info_list = 11;</code>
        */
-      public Builder clearCHHNCMPFMIH() {
-        cHHNCMPFMIH_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
-        onChanged();
+      public Builder addDailyInfoList(
+          int index, emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo value) {
+        if (dailyInfoListBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureDailyInfoListIsMutable();
+          dailyInfoList_.add(index, value);
+          onChanged();
+        } else {
+          dailyInfoListBuilder_.addMessage(index, value);
+        }
         return this;
+      }
+      /**
+       * <code>repeated .EffigyDailyInfo daily_info_list = 11;</code>
+       */
+      public Builder addDailyInfoList(
+          emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo.Builder builderForValue) {
+        if (dailyInfoListBuilder_ == null) {
+          ensureDailyInfoListIsMutable();
+          dailyInfoList_.add(builderForValue.build());
+          onChanged();
+        } else {
+          dailyInfoListBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .EffigyDailyInfo daily_info_list = 11;</code>
+       */
+      public Builder addDailyInfoList(
+          int index, emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo.Builder builderForValue) {
+        if (dailyInfoListBuilder_ == null) {
+          ensureDailyInfoListIsMutable();
+          dailyInfoList_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          dailyInfoListBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .EffigyDailyInfo daily_info_list = 11;</code>
+       */
+      public Builder addAllDailyInfoList(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo> values) {
+        if (dailyInfoListBuilder_ == null) {
+          ensureDailyInfoListIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, dailyInfoList_);
+          onChanged();
+        } else {
+          dailyInfoListBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .EffigyDailyInfo daily_info_list = 11;</code>
+       */
+      public Builder clearDailyInfoList() {
+        if (dailyInfoListBuilder_ == null) {
+          dailyInfoList_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000002);
+          onChanged();
+        } else {
+          dailyInfoListBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .EffigyDailyInfo daily_info_list = 11;</code>
+       */
+      public Builder removeDailyInfoList(int index) {
+        if (dailyInfoListBuilder_ == null) {
+          ensureDailyInfoListIsMutable();
+          dailyInfoList_.remove(index);
+          onChanged();
+        } else {
+          dailyInfoListBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .EffigyDailyInfo daily_info_list = 11;</code>
+       */
+      public emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo.Builder getDailyInfoListBuilder(
+          int index) {
+        return getDailyInfoListFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .EffigyDailyInfo daily_info_list = 11;</code>
+       */
+      public emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfoOrBuilder getDailyInfoListOrBuilder(
+          int index) {
+        if (dailyInfoListBuilder_ == null) {
+          return dailyInfoList_.get(index);  } else {
+          return dailyInfoListBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .EffigyDailyInfo daily_info_list = 11;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfoOrBuilder> 
+           getDailyInfoListOrBuilderList() {
+        if (dailyInfoListBuilder_ != null) {
+          return dailyInfoListBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(dailyInfoList_);
+        }
+      }
+      /**
+       * <code>repeated .EffigyDailyInfo daily_info_list = 11;</code>
+       */
+      public emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo.Builder addDailyInfoListBuilder() {
+        return getDailyInfoListFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .EffigyDailyInfo daily_info_list = 11;</code>
+       */
+      public emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo.Builder addDailyInfoListBuilder(
+          int index) {
+        return getDailyInfoListFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .EffigyDailyInfo daily_info_list = 11;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo.Builder> 
+           getDailyInfoListBuilderList() {
+        return getDailyInfoListFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo, emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo.Builder, emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfoOrBuilder> 
+          getDailyInfoListFieldBuilder() {
+        if (dailyInfoListBuilder_ == null) {
+          dailyInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo, emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo.Builder, emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfoOrBuilder>(
+                  dailyInfoList_,
+                  ((bitField0_ & 0x00000002) != 0),
+                  getParentForChildren(),
+                  isClean());
+          dailyInfoList_ = null;
+        }
+        return dailyInfoListBuilder_;
       }
 
-      private int bGEEANCHFGD_ ;
+      private int curScore_ ;
       /**
-       * <code>uint32 BGEEANCHFGD = 5;</code>
-       * @return The bGEEANCHFGD.
+       * <code>uint32 cur_score = 12;</code>
+       * @return The curScore.
        */
       @java.lang.Override
-      public int getBGEEANCHFGD() {
-        return bGEEANCHFGD_;
+      public int getCurScore() {
+        return curScore_;
       }
       /**
-       * <code>uint32 BGEEANCHFGD = 5;</code>
-       * @param value The bGEEANCHFGD to set.
+       * <code>uint32 cur_score = 12;</code>
+       * @param value The curScore to set.
        * @return This builder for chaining.
        */
-      public Builder setBGEEANCHFGD(int value) {
+      public Builder setCurScore(int value) {
         
-        bGEEANCHFGD_ = value;
+        curScore_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 BGEEANCHFGD = 5;</code>
+       * <code>uint32 cur_score = 12;</code>
        * @return This builder for chaining.
        */
-      public Builder clearBGEEANCHFGD() {
+      public Builder clearCurScore() {
         
-        bGEEANCHFGD_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int hNMMGEABDMD_ ;
-      /**
-       * <code>uint32 HNMMGEABDMD = 8;</code>
-       * @return The hNMMGEABDMD.
-       */
-      @java.lang.Override
-      public int getHNMMGEABDMD() {
-        return hNMMGEABDMD_;
-      }
-      /**
-       * <code>uint32 HNMMGEABDMD = 8;</code>
-       * @param value The hNMMGEABDMD to set.
-       * @return This builder for chaining.
-       */
-      public Builder setHNMMGEABDMD(int value) {
-        
-        hNMMGEABDMD_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 HNMMGEABDMD = 8;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearHNMMGEABDMD() {
-        
-        hNMMGEABDMD_ = 0;
+        curScore_ = 0;
         onChanged();
         return this;
       }
@@ -1155,25 +1155,26 @@ public final class EffigyActivityDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\036EffigyActivityDetailInfo.proto\032\021AOOMDK" +
-      "NBKFM.proto\"|\n\030EffigyActivityDetailInfo\022" +
-      "!\n\013PIKDGNPHFBJ\030\014 \003(\0132\014.AOOMDKNBKFM\022\023\n\013CH" +
-      "HNCMPFMIH\030\016 \003(\r\022\023\n\013BGEEANCHFGD\030\005 \001(\r\022\023\n\013" +
-      "HNMMGEABDMD\030\010 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\n\036EffigyActivityDetailInfo.proto\032\025Effigy" +
+      "DailyInfo.proto\"\225\001\n\030EffigyActivityDetail" +
+      "Info\022\032\n\022last_difficulty_id\030\003 \001(\r\022\037\n\027take" +
+      "n_reward_index_list\030\010 \003(\r\022)\n\017daily_info_" +
+      "list\030\013 \003(\0132\020.EffigyDailyInfo\022\021\n\tcur_scor" +
+      "e\030\014 \001(\rB?\n\031emu.grasscutter.net.protoB\"Ef" +
+      "figyActivityDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.getDescriptor(),
         });
     internal_static_EffigyActivityDetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_EffigyActivityDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_EffigyActivityDetailInfo_descriptor,
-        new java.lang.String[] { "PIKDGNPHFBJ", "CHHNCMPFMIH", "BGEEANCHFGD", "HNMMGEABDMD", });
-    emu.grasscutter.net.proto.AOOMDKNBKFMOuterClass.getDescriptor();
+        new java.lang.String[] { "LastDifficultyId", "TakenRewardIndexList", "DailyInfoList", "CurScore", });
+    emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

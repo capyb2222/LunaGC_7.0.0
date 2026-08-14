@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "UpdatePlayerShowNameCardListReqOuterClass";
+
+message UpdatePlayerShowNameCardListReq {
+	repeated uint32 show_name_card_id_list = 13;
+}

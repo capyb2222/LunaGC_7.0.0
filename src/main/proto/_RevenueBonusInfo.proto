@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_RevenueBonusInfoOuterClass";
+
+message _RevenueBonusInfo {
+	uint32 FLCOAFFDMEG = 3;
+	uint32 PBAEBPEGLFB = 4;
+	uint32 PCBLBGGHLFH = 8;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "TakePlayerLevelRewardRspOuterClass";
+
+message TakePlayerLevelRewardRsp {
+	int32 retcode = 3;
+	uint32 reward_id = 9;
+	uint32 level = 10;
+}

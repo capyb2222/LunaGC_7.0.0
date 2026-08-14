@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "UnlockAvatarTalentReqOuterClass";
+
+message UnlockAvatarTalentReq {
+	uint64 avatar_guid = 2;
+	uint32 talent_id = 8;
+}

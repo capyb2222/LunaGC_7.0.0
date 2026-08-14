@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FungusFighterV3DetailInfoOuterClass";
+
+import "BPENFBMNKMP.proto";
+
+message FungusFighterV3DetailInfo {
+	repeated BPENFBMNKMP level_info_list = 14;
+}

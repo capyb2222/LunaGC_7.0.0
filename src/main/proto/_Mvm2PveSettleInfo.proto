@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_Mvm2PveSettleInfoOuterClass";
+
+message _Mvm2PveSettleInfo {
+	uint32 level_id = 4;
+	bool is_new_record = 11;
+	uint32 use_time = 12;
+	uint32 progress = 14;
+}

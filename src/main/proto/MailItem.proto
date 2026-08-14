@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MailItemOuterClass";
+
+import "EquipParam.proto";
+import "MaterialDeleteInfo.proto";
+
+message MailItem {
+	EquipParam equip_param = 1;
+	MaterialDeleteInfo delete_info = 2;
+}

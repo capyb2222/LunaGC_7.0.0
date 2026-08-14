@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "BargainSnapshotOuterClass";
+
+message BargainSnapshot {
+	uint32 iocnpjjnhld = 1;
+	uint32 balopachcdb = 2;
+	uint32 bargain_id = 10;
+	int32 cur_mood = 14;
+}

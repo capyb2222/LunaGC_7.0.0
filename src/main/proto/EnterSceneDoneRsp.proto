@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EnterSceneDoneRspOuterClass";
+
+import "GFFKODENHJA.proto";
+
+message EnterSceneDoneRsp {
+	GFFKODENHJA PPKIKFGEINK = 2;
+	uint32 enter_scene_token = 3;
+	int32 retcode = 4;
+}

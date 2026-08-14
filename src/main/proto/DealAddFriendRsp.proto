@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DealAddFriendRspOuterClass";
+
+import "DealAddFriendResultType.proto";
+
+message DealAddFriendRsp {
+	int32 retcode = 3;
+	DealAddFriendResultType deal_add_friend_result = 6;
+	uint32 target_uid = 8;
+}

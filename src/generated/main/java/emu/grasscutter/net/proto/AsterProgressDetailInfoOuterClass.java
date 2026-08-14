@@ -18,8 +18,16 @@ public final class AsterProgressDetailInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:AsterProgressDetailInfo)
       com.google.protobuf.MessageOrBuilder {
 
+    /**
+     * <code>uint32 count = 8;</code>
+     * @return The count.
+     */
     int getCount();
 
+    /**
+     * <code>uint32 last_auto_add_time = 13;</code>
+     * @return The lastAutoAddTime.
+     */
     int getLastAutoAddTime();
   }
   /**
@@ -67,12 +75,12 @@ public final class AsterProgressDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
+            case 64: {
 
               count_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 104: {
 
               lastAutoAddTime_ = input.readUInt32();
               break;
@@ -109,17 +117,23 @@ public final class AsterProgressDetailInfoOuterClass {
               emu.grasscutter.net.proto.AsterProgressDetailInfoOuterClass.AsterProgressDetailInfo.class, emu.grasscutter.net.proto.AsterProgressDetailInfoOuterClass.AsterProgressDetailInfo.Builder.class);
     }
 
-    public static final int COUNT_FIELD_NUMBER = 5;
+    public static final int COUNT_FIELD_NUMBER = 8;
     private int count_;
-
+    /**
+     * <code>uint32 count = 8;</code>
+     * @return The count.
+     */
     @java.lang.Override
     public int getCount() {
       return count_;
     }
 
-    public static final int LAST_AUTO_ADD_TIME_FIELD_NUMBER = 6;
+    public static final int LAST_AUTO_ADD_TIME_FIELD_NUMBER = 13;
     private int lastAutoAddTime_;
-
+    /**
+     * <code>uint32 last_auto_add_time = 13;</code>
+     * @return The lastAutoAddTime.
+     */
     @java.lang.Override
     public int getLastAutoAddTime() {
       return lastAutoAddTime_;
@@ -140,10 +154,10 @@ public final class AsterProgressDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (count_ != 0) {
-        output.writeUInt32(5, count_);
+        output.writeUInt32(8, count_);
       }
       if (lastAutoAddTime_ != 0) {
-        output.writeUInt32(6, lastAutoAddTime_);
+        output.writeUInt32(13, lastAutoAddTime_);
       }
       unknownFields.writeTo(output);
     }
@@ -156,11 +170,11 @@ public final class AsterProgressDetailInfoOuterClass {
       size = 0;
       if (count_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, count_);
+          .computeUInt32Size(8, count_);
       }
       if (lastAutoAddTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, lastAutoAddTime_);
+          .computeUInt32Size(13, lastAutoAddTime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -445,42 +459,62 @@ public final class AsterProgressDetailInfoOuterClass {
       }
 
       private int count_ ;
-
+      /**
+       * <code>uint32 count = 8;</code>
+       * @return The count.
+       */
       @java.lang.Override
       public int getCount() {
         return count_;
       }
-
+      /**
+       * <code>uint32 count = 8;</code>
+       * @param value The count to set.
+       * @return This builder for chaining.
+       */
       public Builder setCount(int value) {
-
+        
         count_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint32 count = 8;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearCount() {
-
+        
         count_ = 0;
         onChanged();
         return this;
       }
 
       private int lastAutoAddTime_ ;
-
+      /**
+       * <code>uint32 last_auto_add_time = 13;</code>
+       * @return The lastAutoAddTime.
+       */
       @java.lang.Override
       public int getLastAutoAddTime() {
         return lastAutoAddTime_;
       }
-
+      /**
+       * <code>uint32 last_auto_add_time = 13;</code>
+       * @param value The lastAutoAddTime to set.
+       * @return This builder for chaining.
+       */
       public Builder setLastAutoAddTime(int value) {
-
+        
         lastAutoAddTime_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint32 last_auto_add_time = 13;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearLastAutoAddTime() {
-
+        
         lastAutoAddTime_ = 0;
         onChanged();
         return this;
@@ -496,6 +530,7 @@ public final class AsterProgressDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:AsterProgressDetailInfo)
     }
@@ -539,7 +574,7 @@ public final class AsterProgressDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AsterProgressDetailInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AsterProgressDetailInfo_fieldAccessorTable;
 
@@ -553,8 +588,9 @@ public final class AsterProgressDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035AsterProgressDetailInfo.proto\"D\n\027Aster" +
       "ProgressDetailInfo\022\r\n\005count\030\010 \001(\r\022\032\n\022las" +
-      "t_auto_add_time\030\r \001(\rB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "t_auto_add_time\030\r \001(\rB>\n\031emu.grasscutter" +
+      ".net.protoB!AsterProgressDetailInfoOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

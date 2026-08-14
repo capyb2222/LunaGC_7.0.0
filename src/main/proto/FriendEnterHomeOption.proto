@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FriendEnterHomeOptionOuterClass";
+
+enum FriendEnterHomeOption {
+	FriendEnterHomeOption_NEED_CONFIRM = 0;
+	FriendEnterHomeOption_REFUSE = 1;
+	FriendEnterHomeOption_DIRECT = 2;
+}

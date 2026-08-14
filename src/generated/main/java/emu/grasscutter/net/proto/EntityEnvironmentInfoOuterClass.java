@@ -18,8 +18,16 @@ public final class EntityEnvironmentInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:EntityEnvironmentInfo)
       com.google.protobuf.MessageOrBuilder {
 
+    /**
+     * <code>uint32 json_climate_type = 1;</code>
+     * @return The jsonClimateType.
+     */
     int getJsonClimateType();
 
+    /**
+     * <code>uint32 climate_area_id = 2;</code>
+     * @return The climateAreaId.
+     */
     int getClimateAreaId();
   }
   /**
@@ -111,7 +119,10 @@ public final class EntityEnvironmentInfoOuterClass {
 
     public static final int JSON_CLIMATE_TYPE_FIELD_NUMBER = 1;
     private int jsonClimateType_;
-
+    /**
+     * <code>uint32 json_climate_type = 1;</code>
+     * @return The jsonClimateType.
+     */
     @java.lang.Override
     public int getJsonClimateType() {
       return jsonClimateType_;
@@ -119,7 +130,10 @@ public final class EntityEnvironmentInfoOuterClass {
 
     public static final int CLIMATE_AREA_ID_FIELD_NUMBER = 2;
     private int climateAreaId_;
-
+    /**
+     * <code>uint32 climate_area_id = 2;</code>
+     * @return The climateAreaId.
+     */
     @java.lang.Override
     public int getClimateAreaId() {
       return climateAreaId_;
@@ -445,42 +459,62 @@ public final class EntityEnvironmentInfoOuterClass {
       }
 
       private int jsonClimateType_ ;
-
+      /**
+       * <code>uint32 json_climate_type = 1;</code>
+       * @return The jsonClimateType.
+       */
       @java.lang.Override
       public int getJsonClimateType() {
         return jsonClimateType_;
       }
-
+      /**
+       * <code>uint32 json_climate_type = 1;</code>
+       * @param value The jsonClimateType to set.
+       * @return This builder for chaining.
+       */
       public Builder setJsonClimateType(int value) {
-
+        
         jsonClimateType_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint32 json_climate_type = 1;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearJsonClimateType() {
-
+        
         jsonClimateType_ = 0;
         onChanged();
         return this;
       }
 
       private int climateAreaId_ ;
-
+      /**
+       * <code>uint32 climate_area_id = 2;</code>
+       * @return The climateAreaId.
+       */
       @java.lang.Override
       public int getClimateAreaId() {
         return climateAreaId_;
       }
-
+      /**
+       * <code>uint32 climate_area_id = 2;</code>
+       * @param value The climateAreaId to set.
+       * @return This builder for chaining.
+       */
       public Builder setClimateAreaId(int value) {
-
+        
         climateAreaId_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint32 climate_area_id = 2;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearClimateAreaId() {
-
+        
         climateAreaId_ = 0;
         onChanged();
         return this;
@@ -496,6 +530,7 @@ public final class EntityEnvironmentInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:EntityEnvironmentInfo)
     }
@@ -539,7 +574,7 @@ public final class EntityEnvironmentInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EntityEnvironmentInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EntityEnvironmentInfo_fieldAccessorTable;
 
@@ -553,8 +588,9 @@ public final class EntityEnvironmentInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033EntityEnvironmentInfo.proto\"K\n\025EntityE" +
       "nvironmentInfo\022\031\n\021json_climate_type\030\001 \001(" +
-      "\r\022\027\n\017climate_area_id\030\002 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\r\022\027\n\017climate_area_id\030\002 \001(\rB<\n\031emu.grassc" +
+      "utter.net.protoB\037EntityEnvironmentInfoOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

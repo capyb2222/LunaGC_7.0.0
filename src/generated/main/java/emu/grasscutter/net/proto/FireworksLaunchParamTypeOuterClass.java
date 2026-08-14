@@ -15,10 +15,6 @@ public final class FireworksLaunchParamTypeOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   /**
-   * <pre>
-   * Obf: EDNDPFHDNHB
-   * </pre>
-   *
    * Protobuf enum {@code FireworksLaunchParamType}
    */
   public enum FireworksLaunchParamType
@@ -177,8 +173,9 @@ public final class FireworksLaunchParamTypeOuterClass {
       "_REPEAT\020\001\022\"\n\036FIREWORKS_LAUNCH_PARAM_INTE" +
       "VAL\020\002\022 \n\034FIREWORKS_LAUNCH_PARAM_DELAY\020\003\022" +
       "(\n$FIREWORKS_LAUNCH_PARAM_ROUND_INTEVAL\020" +
-      "\004\022\036\n\032FIREWORKS_LAUNCH_PARAM_MAX\020\005B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "\004\022\036\n\032FIREWORKS_LAUNCH_PARAM_MAX\020\005B?\n\031emu" +
+      ".grasscutter.net.protoB\"FireworksLaunchP" +
+      "aramTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

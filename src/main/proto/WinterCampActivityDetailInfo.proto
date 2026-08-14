@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "WinterCampActivityDetailInfoOuterClass";
+
+import "ItemParam.proto";
+import "WinterCampRaceStageInfo.proto";
+import "WinterCampStageInfo.proto";
+
+message WinterCampActivityDetailInfo {
+	repeated WinterCampRaceStageInfo race_info_list = 1;
+	repeated uint32 CNLIGPFPPDC = 2;
+	repeated uint32 LFFBHOJNFDO = 4;
+	repeated ItemParam used_item_list = 6;
+	WinterCampStageInfo explore_info = 8;
+	repeated uint32 dmjdfjojofj = 10;
+	WinterCampStageInfo battle_info = 12;
+	bool is_content_closed = 15;
+}

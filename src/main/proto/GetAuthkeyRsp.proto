@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GetAuthkeyRspOuterClass";
+
+message GetAuthkeyRsp {
+	string authkey = 1;
+	string game_biz = 5;
+	string auth_appid = 7;
+	int32 retcode = 10;
+	uint32 authkey_ver = 11;
+	uint32 sign_type = 14;
+}

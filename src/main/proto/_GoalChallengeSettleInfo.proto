@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_GoalChallengeSettleInfoOuterClass";
+
+message _GoalChallengeSettleInfo {
+	uint32 difficulty = 1;
+	repeated uint32 KKBGBCAOLAP = 7;
+	bool is_new_record = 14;
+	uint32 stage_id = 15;
+}

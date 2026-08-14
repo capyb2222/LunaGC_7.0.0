@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "LanternRiteActivityDetailInfoOuterClass";
+
+import "LanternProjectionInfo.proto";
+import "LanternRiteFireworksInfo.proto";
+import "SalvageStageInfo.proto";
+
+message LanternRiteActivityDetailInfo {
+	repeated SalvageStageInfo stage_info_list = 1;
+	bool is_content_closed = 3;
+	LanternRiteFireworksInfo fireworks_info = 6;
+	LanternProjectionInfo projection_info = 9;
+	bool APDGHACJHNN = 11;
+	bool BBACLKCHIMC = 15;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "BrickBreakerActivityStageInfoOuterClass";
+
+message BrickBreakerActivityStageInfo {
+	uint32 stage_id = 4;
+	bool KEJPBFGPNLE = 8;
+	bool HLENJPJHOHL = 14;
+}

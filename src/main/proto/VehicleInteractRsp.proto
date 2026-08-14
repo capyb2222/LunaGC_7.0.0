@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "VehicleInteractRspOuterClass";
+
+import "PKEOGNLGCPJ.proto";
+import "Vector.proto";
+import "VehicleInteractType.proto";
+import "VehicleMember.proto";
+
+message VehicleInteractRsp {
+	Vector _vehicle_rot = 1;
+	VehicleInteractType interact_type = 3;
+	PKEOGNLGCPJ GAADBAPDACI = 4;
+	VehicleMember member = 5;
+	uint32 _vehicle_type = 8;
+	int32 retcode = 11;
+	uint32 gadget_id = 12;
+	uint32 entity_id = 13;
+	Vector _vehicle_pos = 14;
+}

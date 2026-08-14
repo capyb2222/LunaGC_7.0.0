@@ -18,11 +18,23 @@ public final class VehicleMemberOuterClass {
       // @@protoc_insertion_point(interface_extends:VehicleMember)
       com.google.protobuf.MessageOrBuilder {
 
+    /**
+     * <code>uint32 uid = 1;</code>
+     * @return The uid.
+     */
     int getUid();
 
-    int getPos();
-
+    /**
+     * <code>uint64 avatar_guid = 2;</code>
+     * @return The avatarGuid.
+     */
     long getAvatarGuid();
+
+    /**
+     * <code>uint32 pos = 3;</code>
+     * @return The pos.
+     */
+    int getPos();
   }
   /**
    * Protobuf type {@code VehicleMember}
@@ -118,26 +130,35 @@ public final class VehicleMemberOuterClass {
 
     public static final int UID_FIELD_NUMBER = 1;
     private int uid_;
-
+    /**
+     * <code>uint32 uid = 1;</code>
+     * @return The uid.
+     */
     @java.lang.Override
     public int getUid() {
       return uid_;
     }
 
-    public static final int POS_FIELD_NUMBER = 3;
-    private int pos_;
-
-    @java.lang.Override
-    public int getPos() {
-      return pos_;
-    }
-
     public static final int AVATAR_GUID_FIELD_NUMBER = 2;
     private long avatarGuid_;
-
+    /**
+     * <code>uint64 avatar_guid = 2;</code>
+     * @return The avatarGuid.
+     */
     @java.lang.Override
     public long getAvatarGuid() {
       return avatarGuid_;
+    }
+
+    public static final int POS_FIELD_NUMBER = 3;
+    private int pos_;
+    /**
+     * <code>uint32 pos = 3;</code>
+     * @return The pos.
+     */
+    @java.lang.Override
+    public int getPos() {
+      return pos_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -201,10 +222,10 @@ public final class VehicleMemberOuterClass {
 
       if (getUid()
           != other.getUid()) return false;
-      if (getPos()
-          != other.getPos()) return false;
       if (getAvatarGuid()
           != other.getAvatarGuid()) return false;
+      if (getPos()
+          != other.getPos()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -218,11 +239,11 @@ public final class VehicleMemberOuterClass {
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + UID_FIELD_NUMBER;
       hash = (53 * hash) + getUid();
-      hash = (37 * hash) + POS_FIELD_NUMBER;
-      hash = (53 * hash) + getPos();
       hash = (37 * hash) + AVATAR_GUID_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           getAvatarGuid());
+      hash = (37 * hash) + POS_FIELD_NUMBER;
+      hash = (53 * hash) + getPos();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -358,9 +379,9 @@ public final class VehicleMemberOuterClass {
         super.clear();
         uid_ = 0;
 
-        pos_ = 0;
-
         avatarGuid_ = 0L;
+
+        pos_ = 0;
 
         return this;
       }
@@ -389,8 +410,8 @@ public final class VehicleMemberOuterClass {
       public emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMember buildPartial() {
         emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMember result = new emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMember(this);
         result.uid_ = uid_;
-        result.pos_ = pos_;
         result.avatarGuid_ = avatarGuid_;
+        result.pos_ = pos_;
         onBuilt();
         return result;
       }
@@ -442,11 +463,11 @@ public final class VehicleMemberOuterClass {
         if (other.getUid() != 0) {
           setUid(other.getUid());
         }
-        if (other.getPos() != 0) {
-          setPos(other.getPos());
-        }
         if (other.getAvatarGuid() != 0L) {
           setAvatarGuid(other.getAvatarGuid());
+        }
+        if (other.getPos() != 0) {
+          setPos(other.getPos());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -478,64 +499,94 @@ public final class VehicleMemberOuterClass {
       }
 
       private int uid_ ;
-
+      /**
+       * <code>uint32 uid = 1;</code>
+       * @return The uid.
+       */
       @java.lang.Override
       public int getUid() {
         return uid_;
       }
-
+      /**
+       * <code>uint32 uid = 1;</code>
+       * @param value The uid to set.
+       * @return This builder for chaining.
+       */
       public Builder setUid(int value) {
-
+        
         uid_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint32 uid = 1;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearUid() {
-
+        
         uid_ = 0;
         onChanged();
         return this;
       }
 
-      private int pos_ ;
-
-      @java.lang.Override
-      public int getPos() {
-        return pos_;
-      }
-
-      public Builder setPos(int value) {
-
-        pos_ = value;
-        onChanged();
-        return this;
-      }
-
-      public Builder clearPos() {
-
-        pos_ = 0;
-        onChanged();
-        return this;
-      }
-
       private long avatarGuid_ ;
-
+      /**
+       * <code>uint64 avatar_guid = 2;</code>
+       * @return The avatarGuid.
+       */
       @java.lang.Override
       public long getAvatarGuid() {
         return avatarGuid_;
       }
-
+      /**
+       * <code>uint64 avatar_guid = 2;</code>
+       * @param value The avatarGuid to set.
+       * @return This builder for chaining.
+       */
       public Builder setAvatarGuid(long value) {
-
+        
         avatarGuid_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint64 avatar_guid = 2;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearAvatarGuid() {
-
+        
         avatarGuid_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private int pos_ ;
+      /**
+       * <code>uint32 pos = 3;</code>
+       * @return The pos.
+       */
+      @java.lang.Override
+      public int getPos() {
+        return pos_;
+      }
+      /**
+       * <code>uint32 pos = 3;</code>
+       * @param value The pos to set.
+       * @return This builder for chaining.
+       */
+      public Builder setPos(int value) {
+        
+        pos_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 pos = 3;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearPos() {
+        
+        pos_ = 0;
         onChanged();
         return this;
       }
@@ -550,6 +601,7 @@ public final class VehicleMemberOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:VehicleMember)
     }
@@ -593,7 +645,7 @@ public final class VehicleMemberOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_VehicleMember_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_VehicleMember_fieldAccessorTable;
 
@@ -606,9 +658,9 @@ public final class VehicleMemberOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\023VehicleMember.proto\">\n\rVehicleMember\022\013" +
-      "\n\003uid\030\001 \001(\r\022\013\n\003pos\030\003 \001(\r\022\023\n\013avatar_guid\030" +
-      "\002 \001(\004B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\n\003uid\030\001 \001(\r\022\023\n\013avatar_guid\030\002 \001(\004\022\013\n\003pos\030" +
+      "\003 \001(\rB4\n\031emu.grasscutter.net.protoB\027Vehi" +
+      "cleMemberOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -619,7 +671,7 @@ public final class VehicleMemberOuterClass {
     internal_static_VehicleMember_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_VehicleMember_descriptor,
-        new java.lang.String[] { "Uid", "Pos", "AvatarGuid", });
+        new java.lang.String[] { "Uid", "AvatarGuid", "Pos", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

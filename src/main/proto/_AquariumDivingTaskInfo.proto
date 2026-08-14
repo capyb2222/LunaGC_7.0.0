@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_AquariumDivingTaskInfoOuterClass";
+
+import "Uint32Pair.proto";
+import "_AquariumDivingTaskState.proto";
+
+message _AquariumDivingTaskInfo {
+	repeated Uint32Pair _task_progress_pair_list = 1;
+	_AquariumDivingTaskState _task_state = 5;
+	uint32 _aquarium_diving_task_id = 15;
+}

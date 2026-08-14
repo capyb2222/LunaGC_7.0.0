@@ -19,12 +19,6 @@ public final class ShowEquipOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 item_id = 1;</code>
-     * @return The itemId.
-     */
-    int getItemId();
-
-    /**
      * <code>.Reliquary reliquary = 2;</code>
      * @return Whether the reliquary field is set.
      */
@@ -53,6 +47,12 @@ public final class ShowEquipOuterClass {
      * <code>.Weapon weapon = 3;</code>
      */
     emu.grasscutter.net.proto.WeaponOuterClass.WeaponOrBuilder getWeaponOrBuilder();
+
+    /**
+     * <code>uint32 item_id = 1;</code>
+     * @return The itemId.
+     */
+    int getItemId();
 
     public emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip.DetailCase getDetailCase();
   }
@@ -207,17 +207,6 @@ public final class ShowEquipOuterClass {
           detailCase_);
     }
 
-    public static final int ITEM_ID_FIELD_NUMBER = 1;
-    private int itemId_;
-    /**
-     * <code>uint32 item_id = 1;</code>
-     * @return The itemId.
-     */
-    @java.lang.Override
-    public int getItemId() {
-      return itemId_;
-    }
-
     public static final int RELIQUARY_FIELD_NUMBER = 2;
     /**
      * <code>.Reliquary reliquary = 2;</code>
@@ -278,6 +267,17 @@ public final class ShowEquipOuterClass {
          return (emu.grasscutter.net.proto.WeaponOuterClass.Weapon) detail_;
       }
       return emu.grasscutter.net.proto.WeaponOuterClass.Weapon.getDefaultInstance();
+    }
+
+    public static final int ITEM_ID_FIELD_NUMBER = 1;
+    private int itemId_;
+    /**
+     * <code>uint32 item_id = 1;</code>
+     * @return The itemId.
+     */
+    @java.lang.Override
+    public int getItemId() {
+      return itemId_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -542,7 +542,6 @@ public final class ShowEquipOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip buildPartial() {
         emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip result = new emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip(this);
-        result.itemId_ = itemId_;
         if (detailCase_ == 2) {
           if (reliquaryBuilder_ == null) {
             result.detail_ = detail_;
@@ -557,6 +556,7 @@ public final class ShowEquipOuterClass {
             result.detail_ = weaponBuilder_.build();
           }
         }
+        result.itemId_ = itemId_;
         result.detailCase_ = detailCase_;
         onBuilt();
         return result;
@@ -665,37 +665,6 @@ public final class ShowEquipOuterClass {
         return this;
       }
 
-
-      private int itemId_ ;
-      /**
-       * <code>uint32 item_id = 1;</code>
-       * @return The itemId.
-       */
-      @java.lang.Override
-      public int getItemId() {
-        return itemId_;
-      }
-      /**
-       * <code>uint32 item_id = 1;</code>
-       * @param value The itemId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setItemId(int value) {
-        
-        itemId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 item_id = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearItemId() {
-        
-        itemId_ = 0;
-        onChanged();
-        return this;
-      }
 
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary, emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary.Builder, emu.grasscutter.net.proto.ReliquaryOuterClass.ReliquaryOrBuilder> reliquaryBuilder_;
@@ -978,6 +947,37 @@ public final class ShowEquipOuterClass {
         onChanged();;
         return weaponBuilder_;
       }
+
+      private int itemId_ ;
+      /**
+       * <code>uint32 item_id = 1;</code>
+       * @return The itemId.
+       */
+      @java.lang.Override
+      public int getItemId() {
+        return itemId_;
+      }
+      /**
+       * <code>uint32 item_id = 1;</code>
+       * @param value The itemId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setItemId(int value) {
+        
+        itemId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 item_id = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearItemId() {
+        
+        itemId_ = 0;
+        onChanged();
+        return this;
+      }
       @java.lang.Override
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -1046,10 +1046,11 @@ public final class ShowEquipOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\017ShowEquip.proto\032\017Reliquary.proto\032\014Weap" +
-      "on.proto\"b\n\tShowEquip\022\017\n\007item_id\030\001 \001(\r\022\037" +
-      "\n\treliquary\030\002 \001(\0132\n.ReliquaryH\000\022\031\n\006weapo" +
-      "n\030\003 \001(\0132\007.WeaponH\000B\010\n\006detailB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "on.proto\"b\n\tShowEquip\022\037\n\treliquary\030\002 \001(\013" +
+      "2\n.ReliquaryH\000\022\031\n\006weapon\030\003 \001(\0132\007.WeaponH" +
+      "\000\022\017\n\007item_id\030\001 \001(\rB\010\n\006detailB0\n\031emu.gras" +
+      "scutter.net.protoB\023ShowEquipOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1062,7 +1063,7 @@ public final class ShowEquipOuterClass {
     internal_static_ShowEquip_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ShowEquip_descriptor,
-        new java.lang.String[] { "ItemId", "Reliquary", "Weapon", "Detail", });
+        new java.lang.String[] { "Reliquary", "Weapon", "ItemId", "Detail", });
     emu.grasscutter.net.proto.ReliquaryOuterClass.getDescriptor();
     emu.grasscutter.net.proto.WeaponOuterClass.getDescriptor();
   }

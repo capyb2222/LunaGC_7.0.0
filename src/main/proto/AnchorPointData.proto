@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AnchorPointDataOuterClass";
+
+import "Vector.proto";
+
+message AnchorPointData {
+	uint32 material_id = 1;
+	uint32 end_time = 3;
+	uint32 anchor_point_id = 5;
+	Vector pos = 9;
+	Vector rot = 11;
+	uint32 scene_id = 13;
+}

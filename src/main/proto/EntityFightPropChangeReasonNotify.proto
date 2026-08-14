@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EntityFightPropChangeReasonNotifyOuterClass";
+
+import "ChangeEnergyReason.proto";
+import "ChangeHpDebtsReason.proto";
+import "ChangeHpReason.proto";
+import "JMPGPKCBGKP.proto";
+import "PropChangeReason.proto";
+
+message EntityFightPropChangeReasonNotify {
+	ChangeEnergyReason change_energy_reson = 1;
+	uint32 EFIBMPKIJJH = 3;
+	ChangeHpReason change_hp_reason = 4;
+	uint32 entity_id = 6;
+	JMPGPKCBGKP detail_info = 7;
+	float prop_delta = 9;
+	float _paid_hp_debts = 10;
+	ChangeHpDebtsReason _change_hp_debts_reason = 12;
+	uint32 prop_type = 13;
+	repeated uint32 param_list = 14;
+	PropChangeReason reason = 15;
+}

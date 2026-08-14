@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "OAKCNCLBBMIOuterClass";
+
+import "ALCMFKHLGHG.proto";
+
+message OAKCNCLBBMI {
+	repeated ALCMFKHLGHG level_info_list = 13;
+}

@@ -19,27 +19,27 @@ public final class HFLCFLBGIKIOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .BLLIOILJBGF GLHBENMENAL = 7;</code>
+     * <code>repeated .MKLDDPJAEOL level_info_list = 8;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF> 
-        getGLHBENMENALList();
+    java.util.List<emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL> 
+        getLevelInfoListList();
     /**
-     * <code>repeated .BLLIOILJBGF GLHBENMENAL = 7;</code>
+     * <code>repeated .MKLDDPJAEOL level_info_list = 8;</code>
      */
-    emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF getGLHBENMENAL(int index);
+    emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL getLevelInfoList(int index);
     /**
-     * <code>repeated .BLLIOILJBGF GLHBENMENAL = 7;</code>
+     * <code>repeated .MKLDDPJAEOL level_info_list = 8;</code>
      */
-    int getGLHBENMENALCount();
+    int getLevelInfoListCount();
     /**
-     * <code>repeated .BLLIOILJBGF GLHBENMENAL = 7;</code>
+     * <code>repeated .MKLDDPJAEOL level_info_list = 8;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGFOrBuilder> 
-        getGLHBENMENALOrBuilderList();
+    java.util.List<? extends emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOLOrBuilder> 
+        getLevelInfoListOrBuilderList();
     /**
-     * <code>repeated .BLLIOILJBGF GLHBENMENAL = 7;</code>
+     * <code>repeated .MKLDDPJAEOL level_info_list = 8;</code>
      */
-    emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGFOrBuilder getGLHBENMENALOrBuilder(
+    emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOLOrBuilder getLevelInfoListOrBuilder(
         int index);
   }
   /**
@@ -55,7 +55,7 @@ public final class HFLCFLBGIKIOuterClass {
       super(builder);
     }
     private HFLCFLBGIKI() {
-      gLHBENMENAL_ = java.util.Collections.emptyList();
+      levelInfoList_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -89,13 +89,13 @@ public final class HFLCFLBGIKIOuterClass {
             case 0:
               done = true;
               break;
-            case 58: {
+            case 66: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                gLHBENMENAL_ = new java.util.ArrayList<emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF>();
+                levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              gLHBENMENAL_.add(
-                  input.readMessage(emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF.parser(), extensionRegistry));
+              levelInfoList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -114,7 +114,7 @@ public final class HFLCFLBGIKIOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          gLHBENMENAL_ = java.util.Collections.unmodifiableList(gLHBENMENAL_);
+          levelInfoList_ = java.util.Collections.unmodifiableList(levelInfoList_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -133,44 +133,44 @@ public final class HFLCFLBGIKIOuterClass {
               emu.grasscutter.net.proto.HFLCFLBGIKIOuterClass.HFLCFLBGIKI.class, emu.grasscutter.net.proto.HFLCFLBGIKIOuterClass.HFLCFLBGIKI.Builder.class);
     }
 
-    public static final int GLHBENMENAL_FIELD_NUMBER = 7;
-    private java.util.List<emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF> gLHBENMENAL_;
+    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 8;
+    private java.util.List<emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL> levelInfoList_;
     /**
-     * <code>repeated .BLLIOILJBGF GLHBENMENAL = 7;</code>
+     * <code>repeated .MKLDDPJAEOL level_info_list = 8;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF> getGLHBENMENALList() {
-      return gLHBENMENAL_;
+    public java.util.List<emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL> getLevelInfoListList() {
+      return levelInfoList_;
     }
     /**
-     * <code>repeated .BLLIOILJBGF GLHBENMENAL = 7;</code>
+     * <code>repeated .MKLDDPJAEOL level_info_list = 8;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGFOrBuilder> 
-        getGLHBENMENALOrBuilderList() {
-      return gLHBENMENAL_;
+    public java.util.List<? extends emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOLOrBuilder> 
+        getLevelInfoListOrBuilderList() {
+      return levelInfoList_;
     }
     /**
-     * <code>repeated .BLLIOILJBGF GLHBENMENAL = 7;</code>
+     * <code>repeated .MKLDDPJAEOL level_info_list = 8;</code>
      */
     @java.lang.Override
-    public int getGLHBENMENALCount() {
-      return gLHBENMENAL_.size();
+    public int getLevelInfoListCount() {
+      return levelInfoList_.size();
     }
     /**
-     * <code>repeated .BLLIOILJBGF GLHBENMENAL = 7;</code>
+     * <code>repeated .MKLDDPJAEOL level_info_list = 8;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF getGLHBENMENAL(int index) {
-      return gLHBENMENAL_.get(index);
+    public emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL getLevelInfoList(int index) {
+      return levelInfoList_.get(index);
     }
     /**
-     * <code>repeated .BLLIOILJBGF GLHBENMENAL = 7;</code>
+     * <code>repeated .MKLDDPJAEOL level_info_list = 8;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGFOrBuilder getGLHBENMENALOrBuilder(
+    public emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOLOrBuilder getLevelInfoListOrBuilder(
         int index) {
-      return gLHBENMENAL_.get(index);
+      return levelInfoList_.get(index);
     }
 
     private byte memoizedIsInitialized = -1;
@@ -187,8 +187,8 @@ public final class HFLCFLBGIKIOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < gLHBENMENAL_.size(); i++) {
-        output.writeMessage(7, gLHBENMENAL_.get(i));
+      for (int i = 0; i < levelInfoList_.size(); i++) {
+        output.writeMessage(8, levelInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -199,9 +199,9 @@ public final class HFLCFLBGIKIOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < gLHBENMENAL_.size(); i++) {
+      for (int i = 0; i < levelInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, gLHBENMENAL_.get(i));
+          .computeMessageSize(8, levelInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -218,8 +218,8 @@ public final class HFLCFLBGIKIOuterClass {
       }
       emu.grasscutter.net.proto.HFLCFLBGIKIOuterClass.HFLCFLBGIKI other = (emu.grasscutter.net.proto.HFLCFLBGIKIOuterClass.HFLCFLBGIKI) obj;
 
-      if (!getGLHBENMENALList()
-          .equals(other.getGLHBENMENALList())) return false;
+      if (!getLevelInfoListList()
+          .equals(other.getLevelInfoListList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -231,9 +231,9 @@ public final class HFLCFLBGIKIOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getGLHBENMENALCount() > 0) {
-        hash = (37 * hash) + GLHBENMENAL_FIELD_NUMBER;
-        hash = (53 * hash) + getGLHBENMENALList().hashCode();
+      if (getLevelInfoListCount() > 0) {
+        hash = (37 * hash) + LEVEL_INFO_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getLevelInfoListList().hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -363,17 +363,17 @@ public final class HFLCFLBGIKIOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
-          getGLHBENMENALFieldBuilder();
+          getLevelInfoListFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (gLHBENMENALBuilder_ == null) {
-          gLHBENMENAL_ = java.util.Collections.emptyList();
+        if (levelInfoListBuilder_ == null) {
+          levelInfoList_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
         } else {
-          gLHBENMENALBuilder_.clear();
+          levelInfoListBuilder_.clear();
         }
         return this;
       }
@@ -402,14 +402,14 @@ public final class HFLCFLBGIKIOuterClass {
       public emu.grasscutter.net.proto.HFLCFLBGIKIOuterClass.HFLCFLBGIKI buildPartial() {
         emu.grasscutter.net.proto.HFLCFLBGIKIOuterClass.HFLCFLBGIKI result = new emu.grasscutter.net.proto.HFLCFLBGIKIOuterClass.HFLCFLBGIKI(this);
         int from_bitField0_ = bitField0_;
-        if (gLHBENMENALBuilder_ == null) {
+        if (levelInfoListBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
-            gLHBENMENAL_ = java.util.Collections.unmodifiableList(gLHBENMENAL_);
+            levelInfoList_ = java.util.Collections.unmodifiableList(levelInfoList_);
             bitField0_ = (bitField0_ & ~0x00000001);
           }
-          result.gLHBENMENAL_ = gLHBENMENAL_;
+          result.levelInfoList_ = levelInfoList_;
         } else {
-          result.gLHBENMENAL_ = gLHBENMENALBuilder_.build();
+          result.levelInfoList_ = levelInfoListBuilder_.build();
         }
         onBuilt();
         return result;
@@ -459,29 +459,29 @@ public final class HFLCFLBGIKIOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.HFLCFLBGIKIOuterClass.HFLCFLBGIKI other) {
         if (other == emu.grasscutter.net.proto.HFLCFLBGIKIOuterClass.HFLCFLBGIKI.getDefaultInstance()) return this;
-        if (gLHBENMENALBuilder_ == null) {
-          if (!other.gLHBENMENAL_.isEmpty()) {
-            if (gLHBENMENAL_.isEmpty()) {
-              gLHBENMENAL_ = other.gLHBENMENAL_;
+        if (levelInfoListBuilder_ == null) {
+          if (!other.levelInfoList_.isEmpty()) {
+            if (levelInfoList_.isEmpty()) {
+              levelInfoList_ = other.levelInfoList_;
               bitField0_ = (bitField0_ & ~0x00000001);
             } else {
-              ensureGLHBENMENALIsMutable();
-              gLHBENMENAL_.addAll(other.gLHBENMENAL_);
+              ensureLevelInfoListIsMutable();
+              levelInfoList_.addAll(other.levelInfoList_);
             }
             onChanged();
           }
         } else {
-          if (!other.gLHBENMENAL_.isEmpty()) {
-            if (gLHBENMENALBuilder_.isEmpty()) {
-              gLHBENMENALBuilder_.dispose();
-              gLHBENMENALBuilder_ = null;
-              gLHBENMENAL_ = other.gLHBENMENAL_;
+          if (!other.levelInfoList_.isEmpty()) {
+            if (levelInfoListBuilder_.isEmpty()) {
+              levelInfoListBuilder_.dispose();
+              levelInfoListBuilder_ = null;
+              levelInfoList_ = other.levelInfoList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              gLHBENMENALBuilder_ = 
+              levelInfoListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getGLHBENMENALFieldBuilder() : null;
+                   getLevelInfoListFieldBuilder() : null;
             } else {
-              gLHBENMENALBuilder_.addAllMessages(other.gLHBENMENAL_);
+              levelInfoListBuilder_.addAllMessages(other.levelInfoList_);
             }
           }
         }
@@ -515,244 +515,244 @@ public final class HFLCFLBGIKIOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF> gLHBENMENAL_ =
+      private java.util.List<emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL> levelInfoList_ =
         java.util.Collections.emptyList();
-      private void ensureGLHBENMENALIsMutable() {
+      private void ensureLevelInfoListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          gLHBENMENAL_ = new java.util.ArrayList<emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF>(gLHBENMENAL_);
+          levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL>(levelInfoList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF, emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF.Builder, emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGFOrBuilder> gLHBENMENALBuilder_;
+          emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL, emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL.Builder, emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOLOrBuilder> levelInfoListBuilder_;
 
       /**
-       * <code>repeated .BLLIOILJBGF GLHBENMENAL = 7;</code>
+       * <code>repeated .MKLDDPJAEOL level_info_list = 8;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF> getGLHBENMENALList() {
-        if (gLHBENMENALBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(gLHBENMENAL_);
+      public java.util.List<emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL> getLevelInfoListList() {
+        if (levelInfoListBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(levelInfoList_);
         } else {
-          return gLHBENMENALBuilder_.getMessageList();
+          return levelInfoListBuilder_.getMessageList();
         }
       }
       /**
-       * <code>repeated .BLLIOILJBGF GLHBENMENAL = 7;</code>
+       * <code>repeated .MKLDDPJAEOL level_info_list = 8;</code>
        */
-      public int getGLHBENMENALCount() {
-        if (gLHBENMENALBuilder_ == null) {
-          return gLHBENMENAL_.size();
+      public int getLevelInfoListCount() {
+        if (levelInfoListBuilder_ == null) {
+          return levelInfoList_.size();
         } else {
-          return gLHBENMENALBuilder_.getCount();
+          return levelInfoListBuilder_.getCount();
         }
       }
       /**
-       * <code>repeated .BLLIOILJBGF GLHBENMENAL = 7;</code>
+       * <code>repeated .MKLDDPJAEOL level_info_list = 8;</code>
        */
-      public emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF getGLHBENMENAL(int index) {
-        if (gLHBENMENALBuilder_ == null) {
-          return gLHBENMENAL_.get(index);
+      public emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL getLevelInfoList(int index) {
+        if (levelInfoListBuilder_ == null) {
+          return levelInfoList_.get(index);
         } else {
-          return gLHBENMENALBuilder_.getMessage(index);
+          return levelInfoListBuilder_.getMessage(index);
         }
       }
       /**
-       * <code>repeated .BLLIOILJBGF GLHBENMENAL = 7;</code>
+       * <code>repeated .MKLDDPJAEOL level_info_list = 8;</code>
        */
-      public Builder setGLHBENMENAL(
-          int index, emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF value) {
-        if (gLHBENMENALBuilder_ == null) {
+      public Builder setLevelInfoList(
+          int index, emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL value) {
+        if (levelInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureGLHBENMENALIsMutable();
-          gLHBENMENAL_.set(index, value);
+          ensureLevelInfoListIsMutable();
+          levelInfoList_.set(index, value);
           onChanged();
         } else {
-          gLHBENMENALBuilder_.setMessage(index, value);
+          levelInfoListBuilder_.setMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .BLLIOILJBGF GLHBENMENAL = 7;</code>
+       * <code>repeated .MKLDDPJAEOL level_info_list = 8;</code>
        */
-      public Builder setGLHBENMENAL(
-          int index, emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF.Builder builderForValue) {
-        if (gLHBENMENALBuilder_ == null) {
-          ensureGLHBENMENALIsMutable();
-          gLHBENMENAL_.set(index, builderForValue.build());
+      public Builder setLevelInfoList(
+          int index, emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL.Builder builderForValue) {
+        if (levelInfoListBuilder_ == null) {
+          ensureLevelInfoListIsMutable();
+          levelInfoList_.set(index, builderForValue.build());
           onChanged();
         } else {
-          gLHBENMENALBuilder_.setMessage(index, builderForValue.build());
+          levelInfoListBuilder_.setMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .BLLIOILJBGF GLHBENMENAL = 7;</code>
+       * <code>repeated .MKLDDPJAEOL level_info_list = 8;</code>
        */
-      public Builder addGLHBENMENAL(emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF value) {
-        if (gLHBENMENALBuilder_ == null) {
+      public Builder addLevelInfoList(emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL value) {
+        if (levelInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureGLHBENMENALIsMutable();
-          gLHBENMENAL_.add(value);
+          ensureLevelInfoListIsMutable();
+          levelInfoList_.add(value);
           onChanged();
         } else {
-          gLHBENMENALBuilder_.addMessage(value);
+          levelInfoListBuilder_.addMessage(value);
         }
         return this;
       }
       /**
-       * <code>repeated .BLLIOILJBGF GLHBENMENAL = 7;</code>
+       * <code>repeated .MKLDDPJAEOL level_info_list = 8;</code>
        */
-      public Builder addGLHBENMENAL(
-          int index, emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF value) {
-        if (gLHBENMENALBuilder_ == null) {
+      public Builder addLevelInfoList(
+          int index, emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL value) {
+        if (levelInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureGLHBENMENALIsMutable();
-          gLHBENMENAL_.add(index, value);
+          ensureLevelInfoListIsMutable();
+          levelInfoList_.add(index, value);
           onChanged();
         } else {
-          gLHBENMENALBuilder_.addMessage(index, value);
+          levelInfoListBuilder_.addMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .BLLIOILJBGF GLHBENMENAL = 7;</code>
+       * <code>repeated .MKLDDPJAEOL level_info_list = 8;</code>
        */
-      public Builder addGLHBENMENAL(
-          emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF.Builder builderForValue) {
-        if (gLHBENMENALBuilder_ == null) {
-          ensureGLHBENMENALIsMutable();
-          gLHBENMENAL_.add(builderForValue.build());
+      public Builder addLevelInfoList(
+          emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL.Builder builderForValue) {
+        if (levelInfoListBuilder_ == null) {
+          ensureLevelInfoListIsMutable();
+          levelInfoList_.add(builderForValue.build());
           onChanged();
         } else {
-          gLHBENMENALBuilder_.addMessage(builderForValue.build());
+          levelInfoListBuilder_.addMessage(builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .BLLIOILJBGF GLHBENMENAL = 7;</code>
+       * <code>repeated .MKLDDPJAEOL level_info_list = 8;</code>
        */
-      public Builder addGLHBENMENAL(
-          int index, emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF.Builder builderForValue) {
-        if (gLHBENMENALBuilder_ == null) {
-          ensureGLHBENMENALIsMutable();
-          gLHBENMENAL_.add(index, builderForValue.build());
+      public Builder addLevelInfoList(
+          int index, emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL.Builder builderForValue) {
+        if (levelInfoListBuilder_ == null) {
+          ensureLevelInfoListIsMutable();
+          levelInfoList_.add(index, builderForValue.build());
           onChanged();
         } else {
-          gLHBENMENALBuilder_.addMessage(index, builderForValue.build());
+          levelInfoListBuilder_.addMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .BLLIOILJBGF GLHBENMENAL = 7;</code>
+       * <code>repeated .MKLDDPJAEOL level_info_list = 8;</code>
        */
-      public Builder addAllGLHBENMENAL(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF> values) {
-        if (gLHBENMENALBuilder_ == null) {
-          ensureGLHBENMENALIsMutable();
+      public Builder addAllLevelInfoList(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL> values) {
+        if (levelInfoListBuilder_ == null) {
+          ensureLevelInfoListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, gLHBENMENAL_);
+              values, levelInfoList_);
           onChanged();
         } else {
-          gLHBENMENALBuilder_.addAllMessages(values);
+          levelInfoListBuilder_.addAllMessages(values);
         }
         return this;
       }
       /**
-       * <code>repeated .BLLIOILJBGF GLHBENMENAL = 7;</code>
+       * <code>repeated .MKLDDPJAEOL level_info_list = 8;</code>
        */
-      public Builder clearGLHBENMENAL() {
-        if (gLHBENMENALBuilder_ == null) {
-          gLHBENMENAL_ = java.util.Collections.emptyList();
+      public Builder clearLevelInfoList() {
+        if (levelInfoListBuilder_ == null) {
+          levelInfoList_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
-          gLHBENMENALBuilder_.clear();
+          levelInfoListBuilder_.clear();
         }
         return this;
       }
       /**
-       * <code>repeated .BLLIOILJBGF GLHBENMENAL = 7;</code>
+       * <code>repeated .MKLDDPJAEOL level_info_list = 8;</code>
        */
-      public Builder removeGLHBENMENAL(int index) {
-        if (gLHBENMENALBuilder_ == null) {
-          ensureGLHBENMENALIsMutable();
-          gLHBENMENAL_.remove(index);
+      public Builder removeLevelInfoList(int index) {
+        if (levelInfoListBuilder_ == null) {
+          ensureLevelInfoListIsMutable();
+          levelInfoList_.remove(index);
           onChanged();
         } else {
-          gLHBENMENALBuilder_.remove(index);
+          levelInfoListBuilder_.remove(index);
         }
         return this;
       }
       /**
-       * <code>repeated .BLLIOILJBGF GLHBENMENAL = 7;</code>
+       * <code>repeated .MKLDDPJAEOL level_info_list = 8;</code>
        */
-      public emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF.Builder getGLHBENMENALBuilder(
+      public emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL.Builder getLevelInfoListBuilder(
           int index) {
-        return getGLHBENMENALFieldBuilder().getBuilder(index);
+        return getLevelInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .BLLIOILJBGF GLHBENMENAL = 7;</code>
+       * <code>repeated .MKLDDPJAEOL level_info_list = 8;</code>
        */
-      public emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGFOrBuilder getGLHBENMENALOrBuilder(
+      public emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOLOrBuilder getLevelInfoListOrBuilder(
           int index) {
-        if (gLHBENMENALBuilder_ == null) {
-          return gLHBENMENAL_.get(index);  } else {
-          return gLHBENMENALBuilder_.getMessageOrBuilder(index);
+        if (levelInfoListBuilder_ == null) {
+          return levelInfoList_.get(index);  } else {
+          return levelInfoListBuilder_.getMessageOrBuilder(index);
         }
       }
       /**
-       * <code>repeated .BLLIOILJBGF GLHBENMENAL = 7;</code>
+       * <code>repeated .MKLDDPJAEOL level_info_list = 8;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGFOrBuilder> 
-           getGLHBENMENALOrBuilderList() {
-        if (gLHBENMENALBuilder_ != null) {
-          return gLHBENMENALBuilder_.getMessageOrBuilderList();
+      public java.util.List<? extends emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOLOrBuilder> 
+           getLevelInfoListOrBuilderList() {
+        if (levelInfoListBuilder_ != null) {
+          return levelInfoListBuilder_.getMessageOrBuilderList();
         } else {
-          return java.util.Collections.unmodifiableList(gLHBENMENAL_);
+          return java.util.Collections.unmodifiableList(levelInfoList_);
         }
       }
       /**
-       * <code>repeated .BLLIOILJBGF GLHBENMENAL = 7;</code>
+       * <code>repeated .MKLDDPJAEOL level_info_list = 8;</code>
        */
-      public emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF.Builder addGLHBENMENALBuilder() {
-        return getGLHBENMENALFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF.getDefaultInstance());
+      public emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL.Builder addLevelInfoListBuilder() {
+        return getLevelInfoListFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL.getDefaultInstance());
       }
       /**
-       * <code>repeated .BLLIOILJBGF GLHBENMENAL = 7;</code>
+       * <code>repeated .MKLDDPJAEOL level_info_list = 8;</code>
        */
-      public emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF.Builder addGLHBENMENALBuilder(
+      public emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL.Builder addLevelInfoListBuilder(
           int index) {
-        return getGLHBENMENALFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF.getDefaultInstance());
+        return getLevelInfoListFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL.getDefaultInstance());
       }
       /**
-       * <code>repeated .BLLIOILJBGF GLHBENMENAL = 7;</code>
+       * <code>repeated .MKLDDPJAEOL level_info_list = 8;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF.Builder> 
-           getGLHBENMENALBuilderList() {
-        return getGLHBENMENALFieldBuilder().getBuilderList();
+      public java.util.List<emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL.Builder> 
+           getLevelInfoListBuilderList() {
+        return getLevelInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF, emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF.Builder, emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGFOrBuilder> 
-          getGLHBENMENALFieldBuilder() {
-        if (gLHBENMENALBuilder_ == null) {
-          gLHBENMENALBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF, emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGF.Builder, emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.BLLIOILJBGFOrBuilder>(
-                  gLHBENMENAL_,
+          emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL, emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL.Builder, emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOLOrBuilder> 
+          getLevelInfoListFieldBuilder() {
+        if (levelInfoListBuilder_ == null) {
+          levelInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL, emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOL.Builder, emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.MKLDDPJAEOLOrBuilder>(
+                  levelInfoList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
                   isClean());
-          gLHBENMENAL_ = null;
+          levelInfoList_ = null;
         }
-        return gLHBENMENALBuilder_;
+        return levelInfoListBuilder_;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -821,23 +821,23 @@ public final class HFLCFLBGIKIOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021HFLCFLBGIKI.proto\032\021BLLIOILJBGF.proto\"0" +
-      "\n\013HFLCFLBGIKI\022!\n\013GLHBENMENAL\030\007 \003(\0132\014.BLL" +
-      "IOILJBGFB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "\n\021HFLCFLBGIKI.proto\032\021MKLDDPJAEOL.proto\"4" +
+      "\n\013HFLCFLBGIKI\022%\n\017level_info_list\030\010 \003(\0132\014" +
+      ".MKLDDPJAEOLB2\n\031emu.grasscutter.net.prot" +
+      "oB\025HFLCFLBGIKIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.getDescriptor(),
         });
     internal_static_HFLCFLBGIKI_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_HFLCFLBGIKI_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_HFLCFLBGIKI_descriptor,
-        new java.lang.String[] { "GLHBENMENAL", });
-    emu.grasscutter.net.proto.BLLIOILJBGFOuterClass.getDescriptor();
+        new java.lang.String[] { "LevelInfoList", });
+    emu.grasscutter.net.proto.MKLDDPJAEOLOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

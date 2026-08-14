@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EvtAnimatorParameterInfoOuterClass";
+
+import "AnimatorParameterValueInfo.proto";
+
+message EvtAnimatorParameterInfo {
+	bool is_server_cache = 4;
+	int32 name_id = 5;
+	AnimatorParameterValueInfo value = 13;
+	uint32 entity_id = 15;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "LPDPPPHCNLAOuterClass";
+
+import "EAPNMDHADGP.proto";
+
+message LPDPPPHCNLA {
+	bool MIPKLFHBMFK = 8;
+	repeated EAPNMDHADGP level_info_list = 12;
+}

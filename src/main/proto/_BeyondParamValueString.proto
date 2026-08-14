@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_BeyondParamValueStringOuterClass";
+
+message _BeyondParamValueString {
+	string value = 1;
+	uint32 KINEJLPEJOA = 2;
+}

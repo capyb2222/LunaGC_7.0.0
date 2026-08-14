@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "JGLAEHFEJLAOuterClass";
+
+import "IEDPGJDEMAJ.proto";
+
+message JGLAEHFEJLA {
+	repeated uint32 PAFKENILOMD = 3;
+	repeated IEDPGJDEMAJ level_info_list = 7;
+	uint32 difficulty = 14;
+}

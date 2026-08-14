@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MHJHCJJGOADOuterClass";
+
+message MHJHCJJGOAD {
+	uint32 progress = 10;
+	uint32 POBNCEDDLGD = 15;
+}

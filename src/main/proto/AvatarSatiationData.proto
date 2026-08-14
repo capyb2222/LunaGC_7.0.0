@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AvatarSatiationDataOuterClass";
+
+message AvatarSatiationData {
+	float finish_time = 9;
+	uint64 avatar_guid = 10;
+	float penalty_finish_time = 12;
+}

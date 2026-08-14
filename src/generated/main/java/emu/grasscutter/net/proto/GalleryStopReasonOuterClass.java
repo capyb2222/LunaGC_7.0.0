@@ -278,8 +278,9 @@ public final class GalleryStopReasonOuterClass {
       "pReason_GALLERY_STOP_LEAVE_REGION_FAIL\020\r" +
       "\0227\n3GalleryStopReason_GALLERY_STOP_HEART" +
       "_BLOOD_USED_OUT\020\016\0225\n1GalleryStopReason_G" +
-      "ALLERY_STOP_GUARDIAN_STONE_DIE\020\017B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "ALLERY_STOP_GUARDIAN_STONE_DIE\020\017B8\n\031emu." +
+      "grasscutter.net.protoB\033GalleryStopReason" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -19,17 +19,17 @@ public final class IEDLOHFOJJBOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 avatar_id_list = 10;</code>
+     * <code>repeated uint32 avatar_id_list = 15;</code>
      * @return A list containing the avatarIdList.
      */
     java.util.List<java.lang.Integer> getAvatarIdListList();
     /**
-     * <code>repeated uint32 avatar_id_list = 10;</code>
+     * <code>repeated uint32 avatar_id_list = 15;</code>
      * @return The count of avatarIdList.
      */
     int getAvatarIdListCount();
     /**
-     * <code>repeated uint32 avatar_id_list = 10;</code>
+     * <code>repeated uint32 avatar_id_list = 15;</code>
      * @param index The index of the element to return.
      * @return The avatarIdList at the given index.
      */
@@ -82,7 +82,7 @@ public final class IEDLOHFOJJBOuterClass {
             case 0:
               done = true;
               break;
-            case 80: {
+            case 120: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 avatarIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -90,7 +90,7 @@ public final class IEDLOHFOJJBOuterClass {
               avatarIdList_.addInt(input.readUInt32());
               break;
             }
-            case 82: {
+            case 122: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -138,10 +138,10 @@ public final class IEDLOHFOJJBOuterClass {
               emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJB.class, emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJB.Builder.class);
     }
 
-    public static final int AVATAR_ID_LIST_FIELD_NUMBER = 10;
+    public static final int AVATAR_ID_LIST_FIELD_NUMBER = 15;
     private com.google.protobuf.Internal.IntList avatarIdList_;
     /**
-     * <code>repeated uint32 avatar_id_list = 10;</code>
+     * <code>repeated uint32 avatar_id_list = 15;</code>
      * @return A list containing the avatarIdList.
      */
     @java.lang.Override
@@ -150,14 +150,14 @@ public final class IEDLOHFOJJBOuterClass {
       return avatarIdList_;
     }
     /**
-     * <code>repeated uint32 avatar_id_list = 10;</code>
+     * <code>repeated uint32 avatar_id_list = 15;</code>
      * @return The count of avatarIdList.
      */
     public int getAvatarIdListCount() {
       return avatarIdList_.size();
     }
     /**
-     * <code>repeated uint32 avatar_id_list = 10;</code>
+     * <code>repeated uint32 avatar_id_list = 15;</code>
      * @param index The index of the element to return.
      * @return The avatarIdList at the given index.
      */
@@ -182,7 +182,7 @@ public final class IEDLOHFOJJBOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getAvatarIdListList().size() > 0) {
-        output.writeUInt32NoTag(82);
+        output.writeUInt32NoTag(122);
         output.writeUInt32NoTag(avatarIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < avatarIdList_.size(); i++) {
@@ -506,7 +506,7 @@ public final class IEDLOHFOJJBOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 avatar_id_list = 10;</code>
+       * <code>repeated uint32 avatar_id_list = 15;</code>
        * @return A list containing the avatarIdList.
        */
       public java.util.List<java.lang.Integer>
@@ -515,14 +515,14 @@ public final class IEDLOHFOJJBOuterClass {
                  java.util.Collections.unmodifiableList(avatarIdList_) : avatarIdList_;
       }
       /**
-       * <code>repeated uint32 avatar_id_list = 10;</code>
+       * <code>repeated uint32 avatar_id_list = 15;</code>
        * @return The count of avatarIdList.
        */
       public int getAvatarIdListCount() {
         return avatarIdList_.size();
       }
       /**
-       * <code>repeated uint32 avatar_id_list = 10;</code>
+       * <code>repeated uint32 avatar_id_list = 15;</code>
        * @param index The index of the element to return.
        * @return The avatarIdList at the given index.
        */
@@ -530,7 +530,7 @@ public final class IEDLOHFOJJBOuterClass {
         return avatarIdList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 avatar_id_list = 10;</code>
+       * <code>repeated uint32 avatar_id_list = 15;</code>
        * @param index The index to set the value at.
        * @param value The avatarIdList to set.
        * @return This builder for chaining.
@@ -543,7 +543,7 @@ public final class IEDLOHFOJJBOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 avatar_id_list = 10;</code>
+       * <code>repeated uint32 avatar_id_list = 15;</code>
        * @param value The avatarIdList to add.
        * @return This builder for chaining.
        */
@@ -554,7 +554,7 @@ public final class IEDLOHFOJJBOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 avatar_id_list = 10;</code>
+       * <code>repeated uint32 avatar_id_list = 15;</code>
        * @param values The avatarIdList to add.
        * @return This builder for chaining.
        */
@@ -567,7 +567,7 @@ public final class IEDLOHFOJJBOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 avatar_id_list = 10;</code>
+       * <code>repeated uint32 avatar_id_list = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearAvatarIdList() {
@@ -644,8 +644,8 @@ public final class IEDLOHFOJJBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021IEDLOHFOJJB.proto\"%\n\013IEDLOHFOJJB\022\026\n\016av" +
-      "atar_id_list\030\n \003(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "atar_id_list\030\017 \003(\rB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025IEDLOHFOJJBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

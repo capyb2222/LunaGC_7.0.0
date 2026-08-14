@@ -111,6 +111,18 @@ public final class CombatTypeArgumentOuterClass {
      * <code>CombatTypeArgument_COMBAT_DEBUG_SYNC_MOTION = 22;</code>
      */
     CombatTypeArgument_COMBAT_DEBUG_SYNC_MOTION(22),
+    /**
+     * <code>ENTITY_INTERPOLATE_MOVE = 24;</code>
+     */
+    ENTITY_INTERPOLATE_MOVE(24),
+    /**
+     * <code>COMBAT_DIE_ANIMATOR_CHANGE = 25;</code>
+     */
+    COMBAT_DIE_ANIMATOR_CHANGE(25),
+    /**
+     * <code>COMBAT_AVATAR_TRANSFER_BY_SERVER = 26;</code>
+     */
+    COMBAT_AVATAR_TRANSFER_BY_SERVER(26),
     UNRECOGNIZED(-1),
     ;
 
@@ -206,6 +218,18 @@ public final class CombatTypeArgumentOuterClass {
      * <code>CombatTypeArgument_COMBAT_DEBUG_SYNC_MOTION = 22;</code>
      */
     public static final int CombatTypeArgument_COMBAT_DEBUG_SYNC_MOTION_VALUE = 22;
+    /**
+     * <code>ENTITY_INTERPOLATE_MOVE = 24;</code>
+     */
+    public static final int ENTITY_INTERPOLATE_MOVE_VALUE = 24;
+    /**
+     * <code>COMBAT_DIE_ANIMATOR_CHANGE = 25;</code>
+     */
+    public static final int COMBAT_DIE_ANIMATOR_CHANGE_VALUE = 25;
+    /**
+     * <code>COMBAT_AVATAR_TRANSFER_BY_SERVER = 26;</code>
+     */
+    public static final int COMBAT_AVATAR_TRANSFER_BY_SERVER_VALUE = 26;
 
 
     public final int getNumber() {
@@ -255,6 +279,9 @@ public final class CombatTypeArgumentOuterClass {
         case 20: return CombatTypeArgument_COMBAT_FIXED_AVATAR_FLASH_MOVE;
         case 21: return CombatTypeArgument_COMBAT_MULTI_OVERRIDE_ANIM;
         case 22: return CombatTypeArgument_COMBAT_DEBUG_SYNC_MOTION;
+        case 24: return ENTITY_INTERPOLATE_MOVE;
+        case 25: return COMBAT_DIE_ANIMATOR_CHANGE;
+        case 26: return COMBAT_AVATAR_TRANSFER_BY_SERVER;
         default: return null;
       }
     }
@@ -320,7 +347,7 @@ public final class CombatTypeArgumentOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\030CombatTypeArgument.proto*\347\010\n\022CombatTyp" +
+      "\n\030CombatTypeArgument.proto*\312\t\n\022CombatTyp" +
       "eArgument\022\"\n\036CombatTypeArgument_COMBAT_N" +
       "ONE\020\000\022+\n\'CombatTypeArgument_COMBAT_EVT_B" +
       "EING_HIT\020\001\0224\n0CombatTypeArgument_COMBAT_" +
@@ -348,8 +375,12 @@ public final class CombatTypeArgumentOuterClass {
       "\023\0225\n1CombatTypeArgument_COMBAT_FIXED_AVA" +
       "TAR_FLASH_MOVE\020\024\0221\n-CombatTypeArgument_C" +
       "OMBAT_MULTI_OVERRIDE_ANIM\020\025\022/\n+CombatTyp" +
-      "eArgument_COMBAT_DEBUG_SYNC_MOTION\020\026B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "eArgument_COMBAT_DEBUG_SYNC_MOTION\020\026\022\033\n\027" +
+      "ENTITY_INTERPOLATE_MOVE\020\030\022\036\n\032COMBAT_DIE_" +
+      "ANIMATOR_CHANGE\020\031\022$\n COMBAT_AVATAR_TRANS" +
+      "FER_BY_SERVER\020\032B9\n\031emu.grasscutter.net.p" +
+      "rotoB\034CombatTypeArgumentOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

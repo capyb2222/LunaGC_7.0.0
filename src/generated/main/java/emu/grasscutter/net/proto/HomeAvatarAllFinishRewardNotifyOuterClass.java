@@ -36,11 +36,6 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
     int getEventIdList(int index);
   }
   /**
-   * <pre>
-   * CmdId: 9497
-   * Obf: PLHINAALPPO
-   * </pre>
-   *
    * Protobuf type {@code HomeAvatarAllFinishRewardNotify}
    */
   public static final class HomeAvatarAllFinishRewardNotify extends
@@ -87,7 +82,7 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 96: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 eventIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -95,7 +90,7 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
               eventIdList_.addInt(input.readUInt32());
               break;
             }
-            case 50: {
+            case 98: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -143,7 +138,7 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
               emu.grasscutter.net.proto.HomeAvatarAllFinishRewardNotifyOuterClass.HomeAvatarAllFinishRewardNotify.class, emu.grasscutter.net.proto.HomeAvatarAllFinishRewardNotifyOuterClass.HomeAvatarAllFinishRewardNotify.Builder.class);
     }
 
-    public static final int EVENT_ID_LIST_FIELD_NUMBER = 6;
+    public static final int EVENT_ID_LIST_FIELD_NUMBER = 12;
     private com.google.protobuf.Internal.IntList eventIdList_;
     /**
      * <code>repeated uint32 event_id_list = 12;</code>
@@ -187,7 +182,7 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getEventIdListList().size() > 0) {
-        output.writeUInt32NoTag(50);
+        output.writeUInt32NoTag(98);
         output.writeUInt32NoTag(eventIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < eventIdList_.size(); i++) {
@@ -344,11 +339,6 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 9497
-     * Obf: PLHINAALPPO
-     * </pre>
-     *
      * Protobuf type {@code HomeAvatarAllFinishRewardNotify}
      */
     public static final class Builder extends
@@ -655,8 +645,9 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n%HomeAvatarAllFinishRewardNotify.proto\"" +
       "8\n\037HomeAvatarAllFinishRewardNotify\022\025\n\rev" +
-      "ent_id_list\030\014 \003(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "ent_id_list\030\014 \003(\rBF\n\031emu.grasscutter.net" +
+      ".protoB)HomeAvatarAllFinishRewardNotifyO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PlayerApplyEnterMpNotifyOuterClass";
+
+import "OnlinePlayerInfo.proto";
+
+message PlayerApplyEnterMpNotify {
+	uint32 GECNDBBGLCN = 2;
+	bool chchcmbdiok = 3;
+	OnlinePlayerInfo src_player_info = 4;
+	uint32 EBDIMCHMKKD = 10;
+}

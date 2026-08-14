@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GetPlayerTokenReqOuterClass";
+
+message GetPlayerTokenReq {
+	string online_id = 1;
+	string account_uid = 2;
+	uint32 platform_type = 3;
+	string psn_id = 4;
+	uint32 cloud_client_ip = 5;
+	string account_token = 6;
+	uint32 account_type = 7;
+	uint32 sub_channel_id = 8;
+	uint32 channel_id = 9;
+	string client_ip_str = 10;
+	string country_code = 11;
+	uint32 uid = 12;
+	string PCIMGFGDICO = 13;
+	string FDCECMCNKGC = 14;
+	bool is_guest = 15;
+	string auth_appid = 116;
+	string birthday = 242;
+	string _xbox_gamertag = 301;
+	string BKIICHHOJAF = 450;
+	uint32 sign_type = 476;
+	uint32 authkey_ver = 578;
+	uint32 key_id = 588;
+	uint32 lang = 726;
+	string client_rand_key = 932;
+	string _xuid = 955;
+	string _gate_ticket = 986;
+	string KONDBANCCAH = 1397;
+	uint32 minors_reg_min_age = 1514;
+}

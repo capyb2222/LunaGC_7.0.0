@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PlayerEnterSceneInfoNotifyOuterClass";
+
+import "AvatarEnterSceneInfo.proto";
+import "MPLevelEntityInfo.proto";
+import "TeamEnterSceneInfo.proto";
+
+message PlayerEnterSceneInfoNotify {
+	uint32 enter_scene_token = 1;
+	uint32 cur_avatar_entity_id = 3;
+	TeamEnterSceneInfo team_enter_info = 4;
+	repeated AvatarEnterSceneInfo avatar_enter_info = 5;
+	MPLevelEntityInfo mp_level_entity_info = 8;
+}

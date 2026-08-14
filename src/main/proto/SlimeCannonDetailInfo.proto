@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SlimeCannonDetailInfoOuterClass";
+
+import "_SlimeCannonLevelInfo.proto";
+
+message SlimeCannonDetailInfo {
+	repeated _SlimeCannonLevelInfo level_info_list = 15;
+}

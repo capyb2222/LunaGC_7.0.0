@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "IOJHNKOGKGCOuterClass";
+
+import "HHEDHCFPEKM.proto";
+import "JEOKDCIGCFP.proto";
+
+message IOJHNKOGKGC {
+	int32 index = 1;
+	int32 LKJNKMLEDHN = 2;
+	int32 GMGNKGGBBAM = 3;
+	float BDFKCBOIAIP = 4;
+	bool JAIKAMEDKOB = 5;
+	float MCMDPFOIHAJ = 6;
+	bool FAPKCEDAPEO = 7;
+	bool GNKOHOGDMHL = 8;
+	float FCCPNLHMCPH = 9;
+	string FICOICEGFJG = 10;
+	JEOKDCIGCFP GKDBJJGGOAN = 11;
+	HHEDHCFPEKM AMJNELGDJCG = 12;
+}

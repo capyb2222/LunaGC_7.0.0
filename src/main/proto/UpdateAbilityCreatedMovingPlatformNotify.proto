@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "UpdateAbilityCreatedMovingPlatformNotifyOuterClass";
+
+message UpdateAbilityCreatedMovingPlatformNotify {
+	enum OpType {
+		OP_NONE = 0;
+		OP_ACTIVATE = 1;
+		OP_DEACTIVATE = 2;
+	}
+	OpType op_type = 2;
+	uint32 entity_id = 11;
+}

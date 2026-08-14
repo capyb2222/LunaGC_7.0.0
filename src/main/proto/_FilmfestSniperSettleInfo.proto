@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_FilmfestSniperSettleInfoOuterClass";
+
+message _FilmfestSniperSettleInfo {
+	uint32 PAGGBIOEHOO = 1;
+	float CJFPPKKJLMK = 4;
+	uint32 level_id = 13;
+}

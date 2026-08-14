@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HPKLMGOJCBGOuterClass";
+
+import "CHOGKFOPCHI.proto";
+import "Uint32Pair.proto";
+
+message HPKLMGOJCBG {
+	repeated uint32 JIKILCKLNBG = 1;
+	repeated CHOGKFOPCHI level_info_list = 5;
+	repeated Uint32Pair DJAMIIDPPPJ = 12;
+}

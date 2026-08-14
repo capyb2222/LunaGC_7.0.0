@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AvatarExpeditionGetRewardRspOuterClass";
+
+import "AvatarExpeditionInfo.proto";
+import "_AvatarExpeditionRewardInfo.proto";
+
+message AvatarExpeditionGetRewardRsp {
+	repeated int32 ANAMNOCEICO = 4;
+	int32 retcode = 6;
+	map<uint64, AvatarExpeditionInfo> expedition_info_map = 10;
+	repeated _AvatarExpeditionRewardInfo _expedition_reward_list = 15;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "VintageHuntingStageDataOuterClass";
+
+message VintageHuntingStageData {
+	bool is_open = 6;
+	bool is_finish = 8;
+	uint32 record_value = 9;
+	uint32 open_time = 11;
+	uint32 stage_id = 12;
+}

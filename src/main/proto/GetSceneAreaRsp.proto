@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GetSceneAreaRspOuterClass";
+
+import "CityInfo.proto";
+
+message GetSceneAreaRsp {
+	repeated CityInfo city_info_list = 1;
+	uint32 scene_id = 5;
+	repeated uint32 area_id_list = 6;
+	int32 retcode = 11;
+}

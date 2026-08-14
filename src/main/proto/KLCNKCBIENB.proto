@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "KLCNKCBIENBOuterClass";
+
+import "EPHKKEDNINE.proto";
+import "Uint32Pair.proto";
+
+message KLCNKCBIENB {
+	Uint32Pair progress = 4;
+	uint32 hp = 6;
+	uint32 HOAOJBKJFLE = 9;
+	uint32 max_hp = 14;
+	repeated EPHKKEDNINE CLKEEOEPJGB = 15;
+}

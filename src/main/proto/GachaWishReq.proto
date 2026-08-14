@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GachaWishReqOuterClass";
+
+message GachaWishReq {
+	uint32 gacha_schedule_id = 5;
+	uint32 gacha_type = 9;
+	uint32 item_id = 14;
+}

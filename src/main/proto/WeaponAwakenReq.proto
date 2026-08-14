@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "WeaponAwakenReqOuterClass";
+
+message WeaponAwakenReq {
+	repeated uint64 item_guid_list = 4;
+	uint32 _awaken_material_count = 13;
+	uint64 target_weapon_guid = 14;
+}

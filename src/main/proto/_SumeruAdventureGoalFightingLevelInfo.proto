@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_SumeruAdventureGoalFightingLevelInfoOuterClass";
+
+import "NOJCFCNEIMJ.proto";
+
+message _SumeruAdventureGoalFightingLevelInfo {
+	NOJCFCNEIMJ MFJAFOAHPDA = 4;
+	uint32 LLGCHCADBJF = 11;
+}

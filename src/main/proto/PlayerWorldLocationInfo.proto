@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PlayerWorldLocationInfoOuterClass";
+
+import "PlayerLocationInfo.proto";
+
+message PlayerWorldLocationInfo {
+	uint32 scene_id = 3;
+	PlayerLocationInfo player_loc = 12;
+}

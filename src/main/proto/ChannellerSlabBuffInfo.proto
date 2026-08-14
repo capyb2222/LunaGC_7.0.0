@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ChannellerSlabBuffInfoOuterClass";
+
+import "ChannellerSlabAssistInfo.proto";
+import "MFLOIKPJCDI.proto";
+
+message ChannellerSlabBuffInfo {
+	repeated uint32 buff_id_list = 2;
+	MFLOIKPJCDI AKKLDFFAGMI = 3;
+	repeated ChannellerSlabAssistInfo assist_info_list = 6;
+	MFLOIKPJCDI EBICDMABNFJ = 12;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_MonsterChessV2DetailInfoOuterClass";
+
+import "_MonsterChessV2CombatDetail.proto";
+import "_MonsterChessV2RecordInfo.proto";
+
+message _MonsterChessV2DetailInfo {
+	repeated _MonsterChessV2RecordInfo _monster_chess_record_info = 3;
+	_MonsterChessV2CombatDetail _combat_detail = 12;
+}

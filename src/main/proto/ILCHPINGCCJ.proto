@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ILCHPINGCCJOuterClass";
+
+message ILCHPINGCCJ {
+	repeated uint32 FHHGJBGOMLC = 15;
+}

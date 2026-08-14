@@ -19,40 +19,35 @@ public final class BargainOfferPriceRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>int32 cur_mood = 10;</code>
-     * @return The curMood.
+     * <code>int32 retcode = 1;</code>
+     * @return The retcode.
      */
-    int getCurMood();
+    int getRetcode();
 
     /**
-     * <code>uint32 result_param = 8;</code>
+     * <code>uint32 result_param = 3;</code>
      * @return The resultParam.
      */
     int getResultParam();
 
     /**
-     * <code>.BargainResultType bargain_result = 12;</code>
+     * <code>int32 cur_mood = 7;</code>
+     * @return The curMood.
+     */
+    int getCurMood();
+
+    /**
+     * <code>.BargainResultType bargain_result = 9;</code>
      * @return The enum numeric value on the wire for bargainResult.
      */
     int getBargainResultValue();
     /**
-     * <code>.BargainResultType bargain_result = 12;</code>
+     * <code>.BargainResultType bargain_result = 9;</code>
      * @return The bargainResult.
      */
     emu.grasscutter.net.proto.BargainResultTypeOuterClass.BargainResultType getBargainResult();
-
-    /**
-     * <code>int32 retcode = 11;</code>
-     * @return The retcode.
-     */
-    int getRetcode();
   }
   /**
-   * <pre>
-   * CmdId: 28942
-   * Obf: IKJLNCGMPFH
-   * </pre>
-   *
    * Protobuf type {@code BargainOfferPriceRsp}
    */
   public static final class BargainOfferPriceRsp extends
@@ -98,22 +93,22 @@ public final class BargainOfferPriceRspOuterClass {
             case 0:
               done = true;
               break;
-            case 88: {
-
-              resultParam_ = input.readUInt32();
-              break;
-            }
-            case 48: {
-
-              curMood_ = input.readInt32();
-              break;
-            }
-            case 16: {
+            case 8: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 40: {
+            case 24: {
+
+              resultParam_ = input.readUInt32();
+              break;
+            }
+            case 56: {
+
+              curMood_ = input.readInt32();
+              break;
+            }
+            case 72: {
               int rawValue = input.readEnum();
 
               bargainResult_ = rawValue;
@@ -151,21 +146,21 @@ public final class BargainOfferPriceRspOuterClass {
               emu.grasscutter.net.proto.BargainOfferPriceRspOuterClass.BargainOfferPriceRsp.class, emu.grasscutter.net.proto.BargainOfferPriceRspOuterClass.BargainOfferPriceRsp.Builder.class);
     }
 
-    public static final int CUR_MOOD_FIELD_NUMBER = 6;
-    private int curMood_;
+    public static final int RETCODE_FIELD_NUMBER = 1;
+    private int retcode_;
     /**
-     * <code>int32 cur_mood = 10;</code>
-     * @return The curMood.
+     * <code>int32 retcode = 1;</code>
+     * @return The retcode.
      */
     @java.lang.Override
-    public int getCurMood() {
-      return curMood_;
+    public int getRetcode() {
+      return retcode_;
     }
 
-    public static final int RESULT_PARAM_FIELD_NUMBER = 11;
+    public static final int RESULT_PARAM_FIELD_NUMBER = 3;
     private int resultParam_;
     /**
-     * <code>uint32 result_param = 8;</code>
+     * <code>uint32 result_param = 3;</code>
      * @return The resultParam.
      */
     @java.lang.Override
@@ -173,34 +168,34 @@ public final class BargainOfferPriceRspOuterClass {
       return resultParam_;
     }
 
-    public static final int BARGAIN_RESULT_FIELD_NUMBER = 5;
+    public static final int CUR_MOOD_FIELD_NUMBER = 7;
+    private int curMood_;
+    /**
+     * <code>int32 cur_mood = 7;</code>
+     * @return The curMood.
+     */
+    @java.lang.Override
+    public int getCurMood() {
+      return curMood_;
+    }
+
+    public static final int BARGAIN_RESULT_FIELD_NUMBER = 9;
     private int bargainResult_;
     /**
-     * <code>.BargainResultType bargain_result = 12;</code>
+     * <code>.BargainResultType bargain_result = 9;</code>
      * @return The enum numeric value on the wire for bargainResult.
      */
     @java.lang.Override public int getBargainResultValue() {
       return bargainResult_;
     }
     /**
-     * <code>.BargainResultType bargain_result = 12;</code>
+     * <code>.BargainResultType bargain_result = 9;</code>
      * @return The bargainResult.
      */
     @java.lang.Override public emu.grasscutter.net.proto.BargainResultTypeOuterClass.BargainResultType getBargainResult() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.BargainResultTypeOuterClass.BargainResultType result = emu.grasscutter.net.proto.BargainResultTypeOuterClass.BargainResultType.valueOf(bargainResult_);
       return result == null ? emu.grasscutter.net.proto.BargainResultTypeOuterClass.BargainResultType.UNRECOGNIZED : result;
-    }
-
-    public static final int RETCODE_FIELD_NUMBER = 2;
-    private int retcode_;
-    /**
-     * <code>int32 retcode = 11;</code>
-     * @return The retcode.
-     */
-    @java.lang.Override
-    public int getRetcode() {
-      return retcode_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -217,17 +212,17 @@ public final class BargainOfferPriceRspOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (retcode_ != 0) {
+        output.writeInt32(1, retcode_);
+      }
       if (resultParam_ != 0) {
-        output.writeUInt32(11, resultParam_);
+        output.writeUInt32(3, resultParam_);
       }
       if (curMood_ != 0) {
-        output.writeInt32(6, curMood_);
-      }
-      if (retcode_ != 0) {
-        output.writeInt32(2, retcode_);
+        output.writeInt32(7, curMood_);
       }
       if (bargainResult_ != emu.grasscutter.net.proto.BargainResultTypeOuterClass.BargainResultType.BARGAIN_COMPLETE_SUCC.getNumber()) {
-        output.writeEnum(5, bargainResult_);
+        output.writeEnum(9, bargainResult_);
       }
       unknownFields.writeTo(output);
     }
@@ -238,21 +233,21 @@ public final class BargainOfferPriceRspOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (retcode_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt32Size(1, retcode_);
+      }
       if (resultParam_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, resultParam_);
+          .computeUInt32Size(3, resultParam_);
       }
       if (curMood_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(6, curMood_);
-      }
-      if (retcode_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(2, retcode_);
+          .computeInt32Size(7, curMood_);
       }
       if (bargainResult_ != emu.grasscutter.net.proto.BargainResultTypeOuterClass.BargainResultType.BARGAIN_COMPLETE_SUCC.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(5, bargainResult_);
+          .computeEnumSize(9, bargainResult_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -269,13 +264,13 @@ public final class BargainOfferPriceRspOuterClass {
       }
       emu.grasscutter.net.proto.BargainOfferPriceRspOuterClass.BargainOfferPriceRsp other = (emu.grasscutter.net.proto.BargainOfferPriceRspOuterClass.BargainOfferPriceRsp) obj;
 
-      if (getCurMood()
-          != other.getCurMood()) return false;
-      if (getResultParam()
-          != other.getResultParam()) return false;
-      if (bargainResult_ != other.bargainResult_) return false;
       if (getRetcode()
           != other.getRetcode()) return false;
+      if (getResultParam()
+          != other.getResultParam()) return false;
+      if (getCurMood()
+          != other.getCurMood()) return false;
+      if (bargainResult_ != other.bargainResult_) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -287,14 +282,14 @@ public final class BargainOfferPriceRspOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + CUR_MOOD_FIELD_NUMBER;
-      hash = (53 * hash) + getCurMood();
-      hash = (37 * hash) + RESULT_PARAM_FIELD_NUMBER;
-      hash = (53 * hash) + getResultParam();
-      hash = (37 * hash) + BARGAIN_RESULT_FIELD_NUMBER;
-      hash = (53 * hash) + bargainResult_;
       hash = (37 * hash) + RETCODE_FIELD_NUMBER;
       hash = (53 * hash) + getRetcode();
+      hash = (37 * hash) + RESULT_PARAM_FIELD_NUMBER;
+      hash = (53 * hash) + getResultParam();
+      hash = (37 * hash) + CUR_MOOD_FIELD_NUMBER;
+      hash = (53 * hash) + getCurMood();
+      hash = (37 * hash) + BARGAIN_RESULT_FIELD_NUMBER;
+      hash = (53 * hash) + bargainResult_;
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -391,11 +386,6 @@ public final class BargainOfferPriceRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 28942
-     * Obf: IKJLNCGMPFH
-     * </pre>
-     *
      * Protobuf type {@code BargainOfferPriceRsp}
      */
     public static final class Builder extends
@@ -433,13 +423,13 @@ public final class BargainOfferPriceRspOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        curMood_ = 0;
+        retcode_ = 0;
 
         resultParam_ = 0;
 
-        bargainResult_ = 0;
+        curMood_ = 0;
 
-        retcode_ = 0;
+        bargainResult_ = 0;
 
         return this;
       }
@@ -467,10 +457,10 @@ public final class BargainOfferPriceRspOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.BargainOfferPriceRspOuterClass.BargainOfferPriceRsp buildPartial() {
         emu.grasscutter.net.proto.BargainOfferPriceRspOuterClass.BargainOfferPriceRsp result = new emu.grasscutter.net.proto.BargainOfferPriceRspOuterClass.BargainOfferPriceRsp(this);
-        result.curMood_ = curMood_;
-        result.resultParam_ = resultParam_;
-        result.bargainResult_ = bargainResult_;
         result.retcode_ = retcode_;
+        result.resultParam_ = resultParam_;
+        result.curMood_ = curMood_;
+        result.bargainResult_ = bargainResult_;
         onBuilt();
         return result;
       }
@@ -519,17 +509,17 @@ public final class BargainOfferPriceRspOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.BargainOfferPriceRspOuterClass.BargainOfferPriceRsp other) {
         if (other == emu.grasscutter.net.proto.BargainOfferPriceRspOuterClass.BargainOfferPriceRsp.getDefaultInstance()) return this;
-        if (other.getCurMood() != 0) {
-          setCurMood(other.getCurMood());
+        if (other.getRetcode() != 0) {
+          setRetcode(other.getRetcode());
         }
         if (other.getResultParam() != 0) {
           setResultParam(other.getResultParam());
         }
+        if (other.getCurMood() != 0) {
+          setCurMood(other.getCurMood());
+        }
         if (other.bargainResult_ != 0) {
           setBargainResultValue(other.getBargainResultValue());
-        }
-        if (other.getRetcode() != 0) {
-          setRetcode(other.getRetcode());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -560,40 +550,40 @@ public final class BargainOfferPriceRspOuterClass {
         return this;
       }
 
-      private int curMood_ ;
+      private int retcode_ ;
       /**
-       * <code>int32 cur_mood = 10;</code>
-       * @return The curMood.
+       * <code>int32 retcode = 1;</code>
+       * @return The retcode.
        */
       @java.lang.Override
-      public int getCurMood() {
-        return curMood_;
+      public int getRetcode() {
+        return retcode_;
       }
       /**
-       * <code>int32 cur_mood = 10;</code>
-       * @param value The curMood to set.
+       * <code>int32 retcode = 1;</code>
+       * @param value The retcode to set.
        * @return This builder for chaining.
        */
-      public Builder setCurMood(int value) {
+      public Builder setRetcode(int value) {
         
-        curMood_ = value;
+        retcode_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>int32 cur_mood = 10;</code>
+       * <code>int32 retcode = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearCurMood() {
+      public Builder clearRetcode() {
         
-        curMood_ = 0;
+        retcode_ = 0;
         onChanged();
         return this;
       }
 
       private int resultParam_ ;
       /**
-       * <code>uint32 result_param = 8;</code>
+       * <code>uint32 result_param = 3;</code>
        * @return The resultParam.
        */
       @java.lang.Override
@@ -601,7 +591,7 @@ public final class BargainOfferPriceRspOuterClass {
         return resultParam_;
       }
       /**
-       * <code>uint32 result_param = 8;</code>
+       * <code>uint32 result_param = 3;</code>
        * @param value The resultParam to set.
        * @return This builder for chaining.
        */
@@ -612,7 +602,7 @@ public final class BargainOfferPriceRspOuterClass {
         return this;
       }
       /**
-       * <code>uint32 result_param = 8;</code>
+       * <code>uint32 result_param = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearResultParam() {
@@ -622,16 +612,47 @@ public final class BargainOfferPriceRspOuterClass {
         return this;
       }
 
+      private int curMood_ ;
+      /**
+       * <code>int32 cur_mood = 7;</code>
+       * @return The curMood.
+       */
+      @java.lang.Override
+      public int getCurMood() {
+        return curMood_;
+      }
+      /**
+       * <code>int32 cur_mood = 7;</code>
+       * @param value The curMood to set.
+       * @return This builder for chaining.
+       */
+      public Builder setCurMood(int value) {
+        
+        curMood_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>int32 cur_mood = 7;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearCurMood() {
+        
+        curMood_ = 0;
+        onChanged();
+        return this;
+      }
+
       private int bargainResult_ = 0;
       /**
-       * <code>.BargainResultType bargain_result = 12;</code>
+       * <code>.BargainResultType bargain_result = 9;</code>
        * @return The enum numeric value on the wire for bargainResult.
        */
       @java.lang.Override public int getBargainResultValue() {
         return bargainResult_;
       }
       /**
-       * <code>.BargainResultType bargain_result = 12;</code>
+       * <code>.BargainResultType bargain_result = 9;</code>
        * @param value The enum numeric value on the wire for bargainResult to set.
        * @return This builder for chaining.
        */
@@ -642,7 +663,7 @@ public final class BargainOfferPriceRspOuterClass {
         return this;
       }
       /**
-       * <code>.BargainResultType bargain_result = 12;</code>
+       * <code>.BargainResultType bargain_result = 9;</code>
        * @return The bargainResult.
        */
       @java.lang.Override
@@ -652,7 +673,7 @@ public final class BargainOfferPriceRspOuterClass {
         return result == null ? emu.grasscutter.net.proto.BargainResultTypeOuterClass.BargainResultType.UNRECOGNIZED : result;
       }
       /**
-       * <code>.BargainResultType bargain_result = 12;</code>
+       * <code>.BargainResultType bargain_result = 9;</code>
        * @param value The bargainResult to set.
        * @return This builder for chaining.
        */
@@ -666,43 +687,12 @@ public final class BargainOfferPriceRspOuterClass {
         return this;
       }
       /**
-       * <code>.BargainResultType bargain_result = 12;</code>
+       * <code>.BargainResultType bargain_result = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearBargainResult() {
         
         bargainResult_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int retcode_ ;
-      /**
-       * <code>int32 retcode = 11;</code>
-       * @return The retcode.
-       */
-      @java.lang.Override
-      public int getRetcode() {
-        return retcode_;
-      }
-      /**
-       * <code>int32 retcode = 11;</code>
-       * @param value The retcode to set.
-       * @return This builder for chaining.
-       */
-      public Builder setRetcode(int value) {
-        
-        retcode_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>int32 retcode = 11;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearRetcode() {
-        
-        retcode_ = 0;
         onChanged();
         return this;
       }
@@ -774,11 +764,12 @@ public final class BargainOfferPriceRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032BargainOfferPriceRsp.proto\032\027BargainRes" +
-      "ultType.proto\"{\n\024BargainOfferPriceRsp\022\020\n" +
-      "\010cur_mood\030\n \001(\005\022\024\n\014result_param\030\010 \001(\r\022*\n" +
-      "\016bargain_result\030\014 \001(\0162\022.BargainResultTyp" +
-      "e\022\017\n\007retcode\030\013 \001(\005B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "ultType.proto\"{\n\024BargainOfferPriceRsp\022\017\n" +
+      "\007retcode\030\001 \001(\005\022\024\n\014result_param\030\003 \001(\r\022\020\n\010" +
+      "cur_mood\030\007 \001(\005\022*\n\016bargain_result\030\t \001(\0162\022" +
+      ".BargainResultTypeB;\n\031emu.grasscutter.ne" +
+      "t.protoB\036BargainOfferPriceRspOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -790,7 +781,7 @@ public final class BargainOfferPriceRspOuterClass {
     internal_static_BargainOfferPriceRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BargainOfferPriceRsp_descriptor,
-        new java.lang.String[] { "CurMood", "ResultParam", "BargainResult", "Retcode", });
+        new java.lang.String[] { "Retcode", "ResultParam", "CurMood", "BargainResult", });
     emu.grasscutter.net.proto.BargainResultTypeOuterClass.getDescriptor();
   }
 

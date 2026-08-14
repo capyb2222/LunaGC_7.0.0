@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PlayerChatRspOuterClass";
+
+message PlayerChatRsp {
+	int32 retcode = 6;
+	uint32 chat_forbidden_endtime = 7;
+}

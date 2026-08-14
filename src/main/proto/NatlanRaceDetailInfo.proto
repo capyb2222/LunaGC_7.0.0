@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "NatlanRaceDetailInfoOuterClass";
+
+import "GMBNGIKAPMN.proto";
+
+message NatlanRaceDetailInfo {
+	bool is_special_reward_taken = 6;
+	repeated GMBNGIKAPMN level_info_list = 14;
+}

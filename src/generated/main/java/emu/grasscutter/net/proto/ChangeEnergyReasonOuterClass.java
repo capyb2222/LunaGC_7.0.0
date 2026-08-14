@@ -47,6 +47,10 @@ public final class ChangeEnergyReasonOuterClass {
      * <code>ChangeEnergyReason_CHANGE_ENERGY_SKILL_DEPOT = 6;</code>
      */
     ChangeEnergyReason_CHANGE_ENERGY_SKILL_DEPOT(6),
+    /**
+     * <code>CHANGE_ENERGY_BEYOND_BLUEPRINT = 7;</code>
+     */
+    CHANGE_ENERGY_BEYOND_BLUEPRINT(7),
     UNRECOGNIZED(-1),
     ;
 
@@ -78,6 +82,10 @@ public final class ChangeEnergyReasonOuterClass {
      * <code>ChangeEnergyReason_CHANGE_ENERGY_SKILL_DEPOT = 6;</code>
      */
     public static final int ChangeEnergyReason_CHANGE_ENERGY_SKILL_DEPOT_VALUE = 6;
+    /**
+     * <code>CHANGE_ENERGY_BEYOND_BLUEPRINT = 7;</code>
+     */
+    public static final int CHANGE_ENERGY_BEYOND_BLUEPRINT_VALUE = 7;
 
 
     public final int getNumber() {
@@ -111,6 +119,7 @@ public final class ChangeEnergyReasonOuterClass {
         case 4: return ChangeEnergyReason_CHANGE_ENERGY_ABILITY;
         case 5: return ChangeEnergyReason_CHANGE_ENERGY_DIE;
         case 6: return ChangeEnergyReason_CHANGE_ENERGY_SKILL_DEPOT;
+        case 7: return CHANGE_ENERGY_BEYOND_BLUEPRINT;
         default: return null;
       }
     }
@@ -176,7 +185,7 @@ public final class ChangeEnergyReasonOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\030ChangeEnergyReason.proto*\322\002\n\022ChangeEne" +
+      "\n\030ChangeEnergyReason.proto*\366\002\n\022ChangeEne" +
       "rgyReason\022)\n%ChangeEnergyReason_CHANGE_E" +
       "NERGY_NONE\020\000\0220\n,ChangeEnergyReason_CHANG" +
       "E_ENERGY_SKILL_START\020\001\022)\n%ChangeEnergyRe" +
@@ -185,8 +194,9 @@ public final class ChangeEnergyReasonOuterClass {
       "nergyReason_CHANGE_ENERGY_ABILITY\020\004\022(\n$C" +
       "hangeEnergyReason_CHANGE_ENERGY_DIE\020\005\0220\n" +
       ",ChangeEnergyReason_CHANGE_ENERGY_SKILL_" +
-      "DEPOT\020\006B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "DEPOT\020\006\022\"\n\036CHANGE_ENERGY_BEYOND_BLUEPRIN" +
+      "T\020\007B9\n\031emu.grasscutter.net.protoB\034Change" +
+      "EnergyReasonOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

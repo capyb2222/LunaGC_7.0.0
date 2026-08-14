@@ -19,17 +19,12 @@ public final class DelBackupAvatarTeamReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 backup_avatar_team_id = 10;</code>
+     * <code>uint32 backup_avatar_team_id = 9;</code>
      * @return The backupAvatarTeamId.
      */
     int getBackupAvatarTeamId();
   }
   /**
-   * <pre>
-   * CmdId: 9455
-   * Obf: KIFNLHMNCMM
-   * </pre>
-   *
    * Protobuf type {@code DelBackupAvatarTeamReq}
    */
   public static final class DelBackupAvatarTeamReq extends
@@ -74,7 +69,7 @@ public final class DelBackupAvatarTeamReqOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 72: {
 
               backupAvatarTeamId_ = input.readUInt32();
               break;
@@ -111,10 +106,10 @@ public final class DelBackupAvatarTeamReqOuterClass {
               emu.grasscutter.net.proto.DelBackupAvatarTeamReqOuterClass.DelBackupAvatarTeamReq.class, emu.grasscutter.net.proto.DelBackupAvatarTeamReqOuterClass.DelBackupAvatarTeamReq.Builder.class);
     }
 
-    public static final int BACKUP_AVATAR_TEAM_ID_FIELD_NUMBER = 8;
+    public static final int BACKUP_AVATAR_TEAM_ID_FIELD_NUMBER = 9;
     private int backupAvatarTeamId_;
     /**
-     * <code>uint32 backup_avatar_team_id = 10;</code>
+     * <code>uint32 backup_avatar_team_id = 9;</code>
      * @return The backupAvatarTeamId.
      */
     @java.lang.Override
@@ -137,7 +132,7 @@ public final class DelBackupAvatarTeamReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (backupAvatarTeamId_ != 0) {
-        output.writeUInt32(8, backupAvatarTeamId_);
+        output.writeUInt32(9, backupAvatarTeamId_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +145,7 @@ public final class DelBackupAvatarTeamReqOuterClass {
       size = 0;
       if (backupAvatarTeamId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, backupAvatarTeamId_);
+          .computeUInt32Size(9, backupAvatarTeamId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -278,11 +273,6 @@ public final class DelBackupAvatarTeamReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 9455
-     * Obf: KIFNLHMNCMM
-     * </pre>
-     *
      * Protobuf type {@code DelBackupAvatarTeamReq}
      */
     public static final class Builder extends
@@ -431,7 +421,7 @@ public final class DelBackupAvatarTeamReqOuterClass {
 
       private int backupAvatarTeamId_ ;
       /**
-       * <code>uint32 backup_avatar_team_id = 10;</code>
+       * <code>uint32 backup_avatar_team_id = 9;</code>
        * @return The backupAvatarTeamId.
        */
       @java.lang.Override
@@ -439,7 +429,7 @@ public final class DelBackupAvatarTeamReqOuterClass {
         return backupAvatarTeamId_;
       }
       /**
-       * <code>uint32 backup_avatar_team_id = 10;</code>
+       * <code>uint32 backup_avatar_team_id = 9;</code>
        * @param value The backupAvatarTeamId to set.
        * @return This builder for chaining.
        */
@@ -450,7 +440,7 @@ public final class DelBackupAvatarTeamReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 backup_avatar_team_id = 10;</code>
+       * <code>uint32 backup_avatar_team_id = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearBackupAvatarTeamId() {
@@ -528,8 +518,8 @@ public final class DelBackupAvatarTeamReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034DelBackupAvatarTeamReq.proto\"7\n\026DelBac" +
       "kupAvatarTeamReq\022\035\n\025backup_avatar_team_i" +
-      "d\030\n \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "d\030\t \001(\rB=\n\031emu.grasscutter.net.protoB De" +
+      "lBackupAvatarTeamReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

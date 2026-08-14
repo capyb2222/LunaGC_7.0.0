@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CompoundQueueDataOuterClass";
+
+message CompoundQueueData {
+	uint32 ECICJPBDGOC = 1;
+	uint32 LINALGNMBCF = 7;
+	uint32 compound_id = 13;
+	uint32 waitcount = 15;
+}

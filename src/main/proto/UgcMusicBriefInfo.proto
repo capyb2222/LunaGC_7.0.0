@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "UgcMusicBriefInfoOuterClass";
+
+import "_MusicGameSocial.proto";
+
+message UgcMusicBriefInfo {
+	uint32 max_score = 1;
+	string creator_nickname = 2;
+	bool is_psn_platform = 3;
+	uint32 version = 4;
+	bool is_played = 5;
+	uint32 music_id = 6;
+	uint32 save_time = 7;
+	uint64 ugc_guid = 8;
+	uint32 jbgofomfahf = 9;
+	uint32 LDDCHDFKLGO = 10;
+	bool is_changed_after_publish = 11;
+	bool is_published = 12;
+	uint32 KFHNNAIABLG = 13;
+	uint32 publish_time = 14;
+	uint64 import_from_ugc_guid = 15;
+	repeated uint32 _beatmap_category_id_list = 759;
+	repeated uint32 CCJOGFPEKID = 953;
+	_MusicGameSocial social = 1110;
+	uint32 HHBOBIJKFPJ = 1135;
+	uint32 PGHGCGNLNPG = 1160;
+	uint32 IIPJKAOBBBD = 1206;
+	uint32 MOIDOMCHPFG = 1260;
+	repeated uint32 COAEPKLMKPE = 1467;
+	uint32 NLCMMJILBKJ = 1799;
+	uint32 MLAJCIMGINA = 1925;
+}

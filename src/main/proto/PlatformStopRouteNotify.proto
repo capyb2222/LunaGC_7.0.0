@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PlatformStopRouteNotifyOuterClass";
+
+import "PlatformInfo.proto";
+
+message PlatformStopRouteNotify {
+	uint32 entity_id = 3;
+	uint32 scene_time = 8;
+	PlatformInfo platform = 12;
+}

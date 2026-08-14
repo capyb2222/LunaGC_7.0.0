@@ -133,8 +133,8 @@ public final class WidgetSlotOpOuterClass {
     java.lang.String[] descriptorData = {
       "\n\022WidgetSlotOp.proto*@\n\014WidgetSlotOp\022\027\n\023" +
       "WidgetSlotOp_ATTACH\020\000\022\027\n\023WidgetSlotOp_DE" +
-      "TACH\020\001B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "TACH\020\001B3\n\031emu.grasscutter.net.protoB\026Wid" +
+      "getSlotOpOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

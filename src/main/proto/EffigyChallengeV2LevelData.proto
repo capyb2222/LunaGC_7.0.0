@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EffigyChallengeV2LevelDataOuterClass";
+
+message EffigyChallengeV2LevelData {
+	uint32 EFFLFFBKDAC = 1;
+	bool is_level_open = 4;
+	uint32 level_id = 10;
+	uint32 NHEFNKONPEI = 11;
+	uint32 GGADAHHNPNB = 13;
+	uint32 ppmpmjhejhj = 15;
+}

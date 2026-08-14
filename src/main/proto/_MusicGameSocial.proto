@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_MusicGameSocialOuterClass";
+
+message _MusicGameSocial {
+	uint32 AAJNACIIKAD = 4;
+	uint32 IILNHLANPGC = 5;
+	uint32 like_num = 9;
+	uint32 GLEEDODENBP = 11;
+	uint32 play_num = 15;
+}

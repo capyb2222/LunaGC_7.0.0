@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "BFOFMBLMHBAOuterClass";
+
+message BFOFMBLMHBA {
+	repeated uint32 OGFGBDPCGJF = 3;
+	repeated uint32 JPHJJAPDIFP = 6;
+	repeated uint32 IGILGKHCLKI = 7;
+}

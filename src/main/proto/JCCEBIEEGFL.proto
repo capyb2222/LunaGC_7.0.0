@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "JCCEBIEEGFLOuterClass";
+
+message JCCEBIEEGFL {
+	uint32 KKIGBPEBAMA = 1;
+	float AJLKEBKLNGJ = 2;
+	float DPBIFKMAFKG = 3;
+	float DBKOFKJEAFP = 4;
+	uint64 HKGMDHHCIFE = 5;
+	uint64 NKMDMPFFICJ = 6;
+	uint64 LDINHKNEEBL = 7;
+	uint64 GFFEGOMDFBB = 8;
+	uint64 OLCAAHIHPAG = 9;
+}

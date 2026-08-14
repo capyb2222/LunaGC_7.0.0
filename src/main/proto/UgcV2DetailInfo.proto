@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "UgcV2DetailInfoOuterClass";
+
+import "_UgcV2OfficialLevelData.proto";
+
+message UgcV2DetailInfo {
+	bool AIKDBBNMIJB = 1;
+	repeated _UgcV2OfficialLevelData _official_level_data_list = 5;
+	bool IEIJBECPIKD = 11;
+}

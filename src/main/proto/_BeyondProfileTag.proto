@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_BeyondProfileTagOuterClass";
+
+message _BeyondProfileTag {
+	enum IMPHJCFALOA {
+		IMPHJCFALOA_BEYOND_PLAYER_TAG_NORMAL = 0;
+		IMPHJCFALOA_BEYOND_PLAYER_TAG_LEVEL = 1;
+	}
+	IMPHJCFALOA FOIOJJHDEGK = 1;
+	uint32 HMOMLKPHKBC = 2;
+	uint64 _level_guid = 3;
+}

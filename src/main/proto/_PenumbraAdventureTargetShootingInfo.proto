@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_PenumbraAdventureTargetShootingInfoOuterClass";
+
+import "_PenumbraAdventureTargetShootingLevelInfo.proto";
+
+message _PenumbraAdventureTargetShootingInfo {
+	repeated _PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 3;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "BEGGDNFNJJPOuterClass";
+
+import "FMDFIKLPPGO.proto";
+
+message BEGGDNFNJJP {
+	repeated FMDFIKLPPGO BBJHGNFMGLA = 3;
+	uint32 level_id = 5;
+	bool is_finish = 10;
+	bool is_open = 15;
+}

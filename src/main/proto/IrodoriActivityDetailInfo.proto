@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "IrodoriActivityDetailInfoOuterClass";
+
+import "IrodoriChessData.proto";
+import "IrodoriFlowerData.proto";
+import "IrodoriMasterLevelInfo.proto";
+import "IrodoriPoetryData.proto";
+
+message IrodoriActivityDetailInfo {
+	repeated IrodoriMasterLevelInfo master_level_list = 4;
+	IrodoriFlowerData flower_data = 6;
+	IrodoriChessData chess_data = 7;
+	IrodoriPoetryData poetry_data = 11;
+}

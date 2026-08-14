@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "NPLDPCGLKMKOuterClass";
+
+message NPLDPCGLKMK {
+	repeated uint32 BGKNOBGMOIP = 1;
+	uint32 level_id = 4;
+	bool is_finish = 5;
+	repeated uint32 JFAEGBAKLOB = 6;
+	repeated uint32 EBFKBDLLJGC = 8;
+	uint32 score = 10;
+	bool is_open = 11;
+	repeated uint32 AHAPLEIGAPI = 14;
+}

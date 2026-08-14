@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_LostSamachurlSneakSettleInfoOuterClass";
+
+import "GalleryStopReason.proto";
+
+message _LostSamachurlSneakSettleInfo {
+	uint32 level_id = 3;
+	bool is_new_record = 4;
+	GalleryStopReason reason = 5;
+	uint32 cost_time = 9;
+}

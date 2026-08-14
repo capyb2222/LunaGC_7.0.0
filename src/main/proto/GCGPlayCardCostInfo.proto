@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GCGPlayCardCostInfoOuterClass";
+
+import "NAOPGAHKGGG.proto";
+
+message GCGPlayCardCostInfo {
+	uint32 card_id = 1;
+	repeated NAOPGAHKGGG token_list = 4;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SetPlayerBornDataReqOuterClass";
+
+message SetPlayerBornDataReq {
+	uint32 avatar_id = 11;
+	string nick_name = 13;
+}

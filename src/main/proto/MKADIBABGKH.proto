@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MKADIBABGKHOuterClass";
+
+message MKADIBABGKH {
+	repeated uint32 CKPHABNPOOH = 3;
+	repeated uint32 EPOIJJBNCAI = 7;
+	uint32 difficulty = 11;
+}

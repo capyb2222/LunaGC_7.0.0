@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "QuestDestroyEntityReqOuterClass";
+
+message QuestDestroyEntityReq {
+	uint32 scene_id = 4;
+	uint32 quest_id = 10;
+	uint32 entity_id = 15;
+}

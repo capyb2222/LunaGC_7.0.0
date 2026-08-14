@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "LKILCHLHHLLOuterClass";
+
+import "_Vector2Int.proto";
+
+message LKILCHLHHLL {
+	uint32 id = 1;
+	_Vector2Int pos = 2;
+	int32 rotation = 3;
+	_Vector2Int ANLGEJIKLBE = 4;
+	uint32 HPDBLGPPNBM = 5;
+	repeated uint32 AEDCGAMENCN = 6;
+	repeated _Vector2Int DLDMILGJGGE = 7;
+	repeated int32 int_param_list = 9;
+	uint32 MLPBHLGJCHH = 11;
+	uint32 config_id = 12;
+	uint32 EKNOCDAOCOO = 13;
+	int32 KJIINMAADME = 14;
+}

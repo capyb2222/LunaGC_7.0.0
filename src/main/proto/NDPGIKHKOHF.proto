@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "NDPGIKHKOHFOuterClass";
+
+import "PFPIOBPBJMM.proto";
+
+message NDPGIKHKOHF {
+	uint32 stage_id = 7;
+	uint32 NHEFNKONPEI = 11;
+	uint32 MCBOJPBIBID = 13;
+	bool is_open = 14;
+	repeated PFPIOBPBJMM avatar_info_list = 15;
+}

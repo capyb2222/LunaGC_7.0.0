@@ -19,20 +19,12 @@ public final class SceneInitFinishReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <pre>
-     *6.4.0          
-     * </pre>
-     *
-     * <code>uint32 enter_scene_token = 6;</code>
+     * <code>uint32 enter_scene_token = 3;</code>
      * @return The enterSceneToken.
      */
     int getEnterSceneToken();
   }
   /**
-   * <pre>
-   * CmdId: 26987
-   * </pre>
-   *
    * Protobuf type {@code SceneInitFinishReq}
    */
   public static final class SceneInitFinishReq extends
@@ -77,7 +69,7 @@ public final class SceneInitFinishReqOuterClass {
             case 0:
               done = true;
               break;
-            case 72: {
+            case 24: {
 
               enterSceneToken_ = input.readUInt32();
               break;
@@ -114,14 +106,10 @@ public final class SceneInitFinishReqOuterClass {
               emu.grasscutter.net.proto.SceneInitFinishReqOuterClass.SceneInitFinishReq.class, emu.grasscutter.net.proto.SceneInitFinishReqOuterClass.SceneInitFinishReq.Builder.class);
     }
 
-    public static final int ENTER_SCENE_TOKEN_FIELD_NUMBER = 9;
+    public static final int ENTER_SCENE_TOKEN_FIELD_NUMBER = 3;
     private int enterSceneToken_;
     /**
-     * <pre>
-     *6.4.0          
-     * </pre>
-     *
-     * <code>uint32 enter_scene_token = 6;</code>
+     * <code>uint32 enter_scene_token = 3;</code>
      * @return The enterSceneToken.
      */
     @java.lang.Override
@@ -144,7 +132,7 @@ public final class SceneInitFinishReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (enterSceneToken_ != 0) {
-        output.writeUInt32(9, enterSceneToken_);
+        output.writeUInt32(3, enterSceneToken_);
       }
       unknownFields.writeTo(output);
     }
@@ -157,7 +145,7 @@ public final class SceneInitFinishReqOuterClass {
       size = 0;
       if (enterSceneToken_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, enterSceneToken_);
+          .computeUInt32Size(3, enterSceneToken_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -285,10 +273,6 @@ public final class SceneInitFinishReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 26987
-     * </pre>
-     *
      * Protobuf type {@code SceneInitFinishReq}
      */
     public static final class Builder extends
@@ -437,11 +421,7 @@ public final class SceneInitFinishReqOuterClass {
 
       private int enterSceneToken_ ;
       /**
-       * <pre>
-       *6.4.0          
-       * </pre>
-       *
-       * <code>uint32 enter_scene_token = 6;</code>
+       * <code>uint32 enter_scene_token = 3;</code>
        * @return The enterSceneToken.
        */
       @java.lang.Override
@@ -449,11 +429,7 @@ public final class SceneInitFinishReqOuterClass {
         return enterSceneToken_;
       }
       /**
-       * <pre>
-       *6.4.0          
-       * </pre>
-       *
-       * <code>uint32 enter_scene_token = 6;</code>
+       * <code>uint32 enter_scene_token = 3;</code>
        * @param value The enterSceneToken to set.
        * @return This builder for chaining.
        */
@@ -464,11 +440,7 @@ public final class SceneInitFinishReqOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *6.4.0          
-       * </pre>
-       *
-       * <code>uint32 enter_scene_token = 6;</code>
+       * <code>uint32 enter_scene_token = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearEnterSceneToken() {
@@ -545,8 +517,9 @@ public final class SceneInitFinishReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\030SceneInitFinishReq.proto\"/\n\022SceneInitF" +
-      "inishReq\022\031\n\021enter_scene_token\030\006 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "inishReq\022\031\n\021enter_scene_token\030\003 \001(\rB9\n\031e" +
+      "mu.grasscutter.net.protoB\034SceneInitFinis" +
+      "hReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

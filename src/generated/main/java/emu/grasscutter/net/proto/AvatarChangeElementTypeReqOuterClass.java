@@ -19,23 +19,18 @@ public final class AvatarChangeElementTypeReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 area_id = 11;</code>
+     * <code>uint32 area_id = 6;</code>
      * @return The areaId.
      */
     int getAreaId();
 
     /**
-     * <code>uint32 scene_id = 1;</code>
+     * <code>uint32 scene_id = 8;</code>
      * @return The sceneId.
      */
     int getSceneId();
   }
   /**
-   * <pre>
-   * CmdId: 3696
-   * Obf: EPCCINELCEK
-   * </pre>
-   *
    * Protobuf type {@code AvatarChangeElementTypeReq}
    */
   public static final class AvatarChangeElementTypeReq extends
@@ -80,14 +75,14 @@ public final class AvatarChangeElementTypeReqOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
-
-              sceneId_ = input.readUInt32();
-              break;
-            }
-            case 112: {
+            case 48: {
 
               areaId_ = input.readUInt32();
+              break;
+            }
+            case 64: {
+
+              sceneId_ = input.readUInt32();
               break;
             }
             default: {
@@ -122,10 +117,10 @@ public final class AvatarChangeElementTypeReqOuterClass {
               emu.grasscutter.net.proto.AvatarChangeElementTypeReqOuterClass.AvatarChangeElementTypeReq.class, emu.grasscutter.net.proto.AvatarChangeElementTypeReqOuterClass.AvatarChangeElementTypeReq.Builder.class);
     }
 
-    public static final int AREA_ID_FIELD_NUMBER = 14;
+    public static final int AREA_ID_FIELD_NUMBER = 6;
     private int areaId_;
     /**
-     * <code>uint32 area_id = 11;</code>
+     * <code>uint32 area_id = 6;</code>
      * @return The areaId.
      */
     @java.lang.Override
@@ -133,10 +128,10 @@ public final class AvatarChangeElementTypeReqOuterClass {
       return areaId_;
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 5;
+    public static final int SCENE_ID_FIELD_NUMBER = 8;
     private int sceneId_;
     /**
-     * <code>uint32 scene_id = 1;</code>
+     * <code>uint32 scene_id = 8;</code>
      * @return The sceneId.
      */
     @java.lang.Override
@@ -158,11 +153,11 @@ public final class AvatarChangeElementTypeReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (sceneId_ != 0) {
-        output.writeUInt32(5, sceneId_);
-      }
       if (areaId_ != 0) {
-        output.writeUInt32(14, areaId_);
+        output.writeUInt32(6, areaId_);
+      }
+      if (sceneId_ != 0) {
+        output.writeUInt32(8, sceneId_);
       }
       unknownFields.writeTo(output);
     }
@@ -173,13 +168,13 @@ public final class AvatarChangeElementTypeReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (sceneId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, sceneId_);
-      }
       if (areaId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, areaId_);
+          .computeUInt32Size(6, areaId_);
+      }
+      if (sceneId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(8, sceneId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -311,11 +306,6 @@ public final class AvatarChangeElementTypeReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 3696
-     * Obf: EPCCINELCEK
-     * </pre>
-     *
      * Protobuf type {@code AvatarChangeElementTypeReq}
      */
     public static final class Builder extends
@@ -470,7 +460,7 @@ public final class AvatarChangeElementTypeReqOuterClass {
 
       private int areaId_ ;
       /**
-       * <code>uint32 area_id = 11;</code>
+       * <code>uint32 area_id = 6;</code>
        * @return The areaId.
        */
       @java.lang.Override
@@ -478,7 +468,7 @@ public final class AvatarChangeElementTypeReqOuterClass {
         return areaId_;
       }
       /**
-       * <code>uint32 area_id = 11;</code>
+       * <code>uint32 area_id = 6;</code>
        * @param value The areaId to set.
        * @return This builder for chaining.
        */
@@ -489,7 +479,7 @@ public final class AvatarChangeElementTypeReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 area_id = 11;</code>
+       * <code>uint32 area_id = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearAreaId() {
@@ -501,7 +491,7 @@ public final class AvatarChangeElementTypeReqOuterClass {
 
       private int sceneId_ ;
       /**
-       * <code>uint32 scene_id = 1;</code>
+       * <code>uint32 scene_id = 8;</code>
        * @return The sceneId.
        */
       @java.lang.Override
@@ -509,7 +499,7 @@ public final class AvatarChangeElementTypeReqOuterClass {
         return sceneId_;
       }
       /**
-       * <code>uint32 scene_id = 1;</code>
+       * <code>uint32 scene_id = 8;</code>
        * @param value The sceneId to set.
        * @return This builder for chaining.
        */
@@ -520,7 +510,7 @@ public final class AvatarChangeElementTypeReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 scene_id = 1;</code>
+       * <code>uint32 scene_id = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearSceneId() {
@@ -597,9 +587,10 @@ public final class AvatarChangeElementTypeReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n AvatarChangeElementTypeReq.proto\"?\n\032Av" +
-      "atarChangeElementTypeReq\022\017\n\007area_id\030\013 \001(" +
-      "\r\022\020\n\010scene_id\030\001 \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "atarChangeElementTypeReq\022\017\n\007area_id\030\006 \001(" +
+      "\r\022\020\n\010scene_id\030\010 \001(\rBA\n\031emu.grasscutter.n" +
+      "et.protoB$AvatarChangeElementTypeReqOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

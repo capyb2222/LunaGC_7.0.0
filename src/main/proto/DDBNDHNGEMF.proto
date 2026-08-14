@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DDBNDHNGEMFOuterClass";
+
+import "JLHFIDHPJMF.proto";
+import "LNHPDECBPMO.proto";
+
+message DDBNDHNGEMF {
+	LNHPDECBPMO ILLJNLJAADM = 1;
+	repeated JLHFIDHPJMF team_info_list = 2;
+	repeated uint64 equip_guid_list = 7;
+	uint32 cost_time = 8;
+	bool is_finished = 12;
+	uint32 AAKAOLKKNGC = 13;
+}

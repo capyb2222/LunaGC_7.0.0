@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MPLJGNOKEFBOuterClass";
+
+message MPLJGNOKEFB {
+	uint32 KNFDKPPMJKB = 1;
+	repeated uint32 GEALCGCOBII = 2;
+	repeated uint32 LAGLGAGKCOM = 3;
+}

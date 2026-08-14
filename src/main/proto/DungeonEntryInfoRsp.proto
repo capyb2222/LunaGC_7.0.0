@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DungeonEntryInfoRspOuterClass";
+
+import "DungeonEntryInfo.proto";
+import "DungeonEntryPointInfo.proto";
+
+message DungeonEntryInfoRsp {
+	int32 retcode = 1;
+	uint32 point_id = 4;
+	uint32 recommend_dungeon_id = 6;
+	repeated DungeonEntryInfo dungeon_entry_list = 8;
+	uint32 _first_pass_reward_status = 11;
+	bool jpmdjmadpil = 13;
+	repeated DungeonEntryPointInfo dungeon_entry_point_list = 15;
+}

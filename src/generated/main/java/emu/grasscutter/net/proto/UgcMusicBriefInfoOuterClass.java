@@ -19,178 +19,202 @@ public final class UgcMusicBriefInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 KOCMDMMFGMI = 104;</code>
-     * @return A list containing the kOCMDMMFGMI.
+     * <code>uint32 max_score = 1;</code>
+     * @return The maxScore.
      */
-    java.util.List<java.lang.Integer> getKOCMDMMFGMIList();
-    /**
-     * <code>repeated uint32 KOCMDMMFGMI = 104;</code>
-     * @return The count of kOCMDMMFGMI.
-     */
-    int getKOCMDMMFGMICount();
-    /**
-     * <code>repeated uint32 KOCMDMMFGMI = 104;</code>
-     * @param index The index of the element to return.
-     * @return The kOCMDMMFGMI at the given index.
-     */
-    int getKOCMDMMFGMI(int index);
+    int getMaxScore();
 
     /**
-     * <code>repeated uint32 GGLKNKFFEEE = 1351;</code>
-     * @return A list containing the gGLKNKFFEEE.
+     * <code>string creator_nickname = 2;</code>
+     * @return The creatorNickname.
      */
-    java.util.List<java.lang.Integer> getGGLKNKFFEEEList();
+    java.lang.String getCreatorNickname();
     /**
-     * <code>repeated uint32 GGLKNKFFEEE = 1351;</code>
-     * @return The count of gGLKNKFFEEE.
+     * <code>string creator_nickname = 2;</code>
+     * @return The bytes for creatorNickname.
      */
-    int getGGLKNKFFEEECount();
-    /**
-     * <code>repeated uint32 GGLKNKFFEEE = 1351;</code>
-     * @param index The index of the element to return.
-     * @return The gGLKNKFFEEE at the given index.
-     */
-    int getGGLKNKFFEEE(int index);
+    com.google.protobuf.ByteString
+        getCreatorNicknameBytes();
 
     /**
-     * <code>repeated uint32 JJPMLJLDIHI = 102;</code>
-     * @return A list containing the jJPMLJLDIHI.
+     * <code>bool is_psn_platform = 3;</code>
+     * @return The isPsnPlatform.
      */
-    java.util.List<java.lang.Integer> getJJPMLJLDIHIList();
-    /**
-     * <code>repeated uint32 JJPMLJLDIHI = 102;</code>
-     * @return The count of jJPMLJLDIHI.
-     */
-    int getJJPMLJLDIHICount();
-    /**
-     * <code>repeated uint32 JJPMLJLDIHI = 102;</code>
-     * @param index The index of the element to return.
-     * @return The jJPMLJLDIHI at the given index.
-     */
-    int getJJPMLJLDIHI(int index);
+    boolean getIsPsnPlatform();
 
     /**
-     * <code>.DAPPJPEICGJ CEKOLBFEPON = 489;</code>
-     * @return Whether the cEKOLBFEPON field is set.
+     * <code>uint32 version = 4;</code>
+     * @return The version.
      */
-    boolean hasCEKOLBFEPON();
-    /**
-     * <code>.DAPPJPEICGJ CEKOLBFEPON = 489;</code>
-     * @return The cEKOLBFEPON.
-     */
-    emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJ getCEKOLBFEPON();
-    /**
-     * <code>.DAPPJPEICGJ CEKOLBFEPON = 489;</code>
-     */
-    emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJOrBuilder getCEKOLBFEPONOrBuilder();
+    int getVersion();
 
     /**
-     * <code>uint32 FPNJDMOOHDE = 2016;</code>
-     * @return The fPNJDMOOHDE.
+     * <code>bool is_played = 5;</code>
+     * @return The isPlayed.
      */
-    int getFPNJDMOOHDE();
+    boolean getIsPlayed();
 
     /**
-     * <code>uint64 AAHNFINJFAF = 11;</code>
-     * @return The aAHNFINJFAF.
+     * <code>uint32 music_id = 6;</code>
+     * @return The musicId.
      */
-    long getAAHNFINJFAF();
-
     int getMusicId();
 
     /**
-     * <code>uint32 CBNMDAGOMHA = 926;</code>
-     * @return The cBNMDAGOMHA.
+     * <code>uint32 save_time = 7;</code>
+     * @return The saveTime.
      */
-    int getCBNMDAGOMHA();
+    int getSaveTime();
 
     /**
-     * <code>uint32 JOLJHDCPGPN = 7;</code>
-     * @return The jOLJHDCPGPN.
+     * <code>uint64 ugc_guid = 8;</code>
+     * @return The ugcGuid.
      */
-    int getJOLJHDCPGPN();
+    long getUgcGuid();
 
     /**
-     * <code>uint32 GLBNECCHCOB = 5;</code>
-     * @return The gLBNECCHCOB.
+     * <code>uint32 jbgofomfahf = 9;</code>
+     * @return The jbgofomfahf.
      */
-    int getGLBNECCHCOB();
+    int getJbgofomfahf();
 
     /**
-     * <code>bool MBBJMGIIKKM = 201;</code>
-     * @return The mBBJMGIIKKM.
+     * <code>uint32 LDDCHDFKLGO = 10;</code>
+     * @return The lDDCHDFKLGO.
      */
-    boolean getMBBJMGIIKKM();
+    int getLDDCHDFKLGO();
 
     /**
-     * <code>bool DADJBDLKDFO = 16;</code>
-     * @return The dADJBDLKDFO.
+     * <code>bool is_changed_after_publish = 11;</code>
+     * @return The isChangedAfterPublish.
      */
-    boolean getDADJBDLKDFO();
+    boolean getIsChangedAfterPublish();
 
     /**
-     * <code>bool CPAEGLGJACA = 10;</code>
-     * @return The cPAEGLGJACA.
+     * <code>bool is_published = 12;</code>
+     * @return The isPublished.
      */
-    boolean getCPAEGLGJACA();
+    boolean getIsPublished();
 
     /**
-     * <code>bool HEAFAHPKFDO = 17;</code>
-     * @return The hEAFAHPKFDO.
+     * <code>uint32 KFHNNAIABLG = 13;</code>
+     * @return The kFHNNAIABLG.
      */
-    boolean getHEAFAHPKFDO();
+    int getKFHNNAIABLG();
 
     /**
-     * <code>uint32 EHHGDAPAPLP = 1197;</code>
-     * @return The eHHGDAPAPLP.
+     * <code>uint32 publish_time = 14;</code>
+     * @return The publishTime.
      */
-    int getEHHGDAPAPLP();
-
-    int getVersion();
-
-    int getUgcGuid();
+    int getPublishTime();
 
     /**
-     * <code>uint32 FDMGJAOKBPP = 3;</code>
-     * @return The fDMGJAOKBPP.
+     * <code>uint64 import_from_ugc_guid = 15;</code>
+     * @return The importFromUgcGuid.
      */
-    int getFDMGJAOKBPP();
+    long getImportFromUgcGuid();
 
     /**
-     * <code>uint32 LLLFNBFGDBF = 1173;</code>
-     * @return The lLLFNBFGDBF.
+     * <code>repeated uint32 _beatmap_category_id_list = 759;</code>
+     * @return A list containing the beatmapCategoryIdList.
      */
-    int getLLLFNBFGDBF();
+    java.util.List<java.lang.Integer> getBeatmapCategoryIdListList();
+    /**
+     * <code>repeated uint32 _beatmap_category_id_list = 759;</code>
+     * @return The count of beatmapCategoryIdList.
+     */
+    int getBeatmapCategoryIdListCount();
+    /**
+     * <code>repeated uint32 _beatmap_category_id_list = 759;</code>
+     * @param index The index of the element to return.
+     * @return The beatmapCategoryIdList at the given index.
+     */
+    int getBeatmapCategoryIdList(int index);
 
     /**
-     * <code>uint64 LPCOPFPMHAK = 8;</code>
-     * @return The lPCOPFPMHAK.
+     * <code>repeated uint32 CCJOGFPEKID = 953;</code>
+     * @return A list containing the cCJOGFPEKID.
      */
-    long getLPCOPFPMHAK();
+    java.util.List<java.lang.Integer> getCCJOGFPEKIDList();
+    /**
+     * <code>repeated uint32 CCJOGFPEKID = 953;</code>
+     * @return The count of cCJOGFPEKID.
+     */
+    int getCCJOGFPEKIDCount();
+    /**
+     * <code>repeated uint32 CCJOGFPEKID = 953;</code>
+     * @param index The index of the element to return.
+     * @return The cCJOGFPEKID at the given index.
+     */
+    int getCCJOGFPEKID(int index);
 
     /**
-     * <code>uint32 HEBNGBGOAPM = 801;</code>
-     * @return The hEBNGBGOAPM.
+     * <code>._MusicGameSocial social = 1110;</code>
+     * @return Whether the social field is set.
      */
-    int getHEBNGBGOAPM();
+    boolean hasSocial();
+    /**
+     * <code>._MusicGameSocial social = 1110;</code>
+     * @return The social.
+     */
+    emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial getSocial();
+    /**
+     * <code>._MusicGameSocial social = 1110;</code>
+     */
+    emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocialOrBuilder getSocialOrBuilder();
 
     /**
-     * <code>uint32 CMEALNJIJNG = 967;</code>
-     * @return The cMEALNJIJNG.
+     * <code>uint32 HHBOBIJKFPJ = 1135;</code>
+     * @return The hHBOBIJKFPJ.
      */
-    int getCMEALNJIJNG();
+    int getHHBOBIJKFPJ();
 
     /**
-     * <code>uint32 MPNBDALHDAC = 543;</code>
-     * @return The mPNBDALHDAC.
+     * <code>uint32 PGHGCGNLNPG = 1160;</code>
+     * @return The pGHGCGNLNPG.
      */
-    int getMPNBDALHDAC();
+    int getPGHGCGNLNPG();
 
     /**
-     * <code>uint32 JBGOFOMFAHF = 9;</code>
-     * @return The jBGOFOMFAHF.
+     * <code>uint32 IIPJKAOBBBD = 1206;</code>
+     * @return The iIPJKAOBBBD.
      */
-    int getJBGOFOMFAHF();
+    int getIIPJKAOBBBD();
+
+    /**
+     * <code>uint32 MOIDOMCHPFG = 1260;</code>
+     * @return The mOIDOMCHPFG.
+     */
+    int getMOIDOMCHPFG();
+
+    /**
+     * <code>repeated uint32 COAEPKLMKPE = 1467;</code>
+     * @return A list containing the cOAEPKLMKPE.
+     */
+    java.util.List<java.lang.Integer> getCOAEPKLMKPEList();
+    /**
+     * <code>repeated uint32 COAEPKLMKPE = 1467;</code>
+     * @return The count of cOAEPKLMKPE.
+     */
+    int getCOAEPKLMKPECount();
+    /**
+     * <code>repeated uint32 COAEPKLMKPE = 1467;</code>
+     * @param index The index of the element to return.
+     * @return The cOAEPKLMKPE at the given index.
+     */
+    int getCOAEPKLMKPE(int index);
+
+    /**
+     * <code>uint32 NLCMMJILBKJ = 1799;</code>
+     * @return The nLCMMJILBKJ.
+     */
+    int getNLCMMJILBKJ();
+
+    /**
+     * <code>uint32 MLAJCIMGINA = 1925;</code>
+     * @return The mLAJCIMGINA.
+     */
+    int getMLAJCIMGINA();
   }
   /**
    * Protobuf type {@code UgcMusicBriefInfo}
@@ -205,9 +229,10 @@ public final class UgcMusicBriefInfoOuterClass {
       super(builder);
     }
     private UgcMusicBriefInfo() {
-      kOCMDMMFGMI_ = emptyIntList();
-      gGLKNKFFEEE_ = emptyIntList();
-      jJPMLJLDIHI_ = emptyIntList();
+      creatorNickname_ = "";
+      BeatmapCategoryIdList_ = emptyIntList();
+      cCJOGFPEKID_ = emptyIntList();
+      cOAEPKLMKPE_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -241,180 +266,186 @@ public final class UgcMusicBriefInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 8: {
 
-              musicId_ = input.readUInt32();
+              maxScore_ = input.readUInt32();
+              break;
+            }
+            case 18: {
+              java.lang.String s = input.readStringRequireUtf8();
+
+              creatorNickname_ = s;
               break;
             }
             case 24: {
 
-              fDMGJAOKBPP_ = input.readUInt32();
-              break;
-            }
-            case 40: {
-
-              gLBNECCHCOB_ = input.readUInt32();
+              isPsnPlatform_ = input.readBool();
               break;
             }
             case 32: {
 
-              ugcGuid_ = input.readUInt32();
+              version_ = input.readUInt32();
+              break;
+            }
+            case 40: {
+
+              isPlayed_ = input.readBool();
+              break;
+            }
+            case 48: {
+
+              musicId_ = input.readUInt32();
               break;
             }
             case 56: {
 
-              jOLJHDCPGPN_ = input.readUInt32();
+              saveTime_ = input.readUInt32();
               break;
             }
             case 64: {
 
-              lPCOPFPMHAK_ = input.readUInt64();
+              ugcGuid_ = input.readUInt64();
               break;
             }
             case 72: {
 
-              jBGOFOMFAHF_ = input.readUInt32();
-              break;
-            }
-            case 128000: {
-
-              cPAEGLGJACA_ = input.readBool();
-              break;
-            }
-            case 88: {
-
-              aAHNFINJFAF_ = input.readUInt64();
+              jbgofomfahf_ = input.readUInt32();
               break;
             }
             case 80: {
 
-              version_ = input.readUInt32();
+              lDDCHDFKLGO_ = input.readUInt32();
               break;
             }
-            case 128: {
+            case 88: {
 
-              dADJBDLKDFO_ = input.readBool();
+              isChangedAfterPublish_ = input.readBool();
               break;
             }
-            case 136: {
+            case 96: {
 
-              hEAFAHPKFDO_ = input.readBool();
+              isPublished_ = input.readBool();
               break;
             }
-            case 816: {
-              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                jJPMLJLDIHI_ = newIntList();
-                mutable_bitField0_ |= 0x00000004;
-              }
-              jJPMLJLDIHI_.addInt(input.readUInt32());
+            case 104: {
+
+              kFHNNAIABLG_ = input.readUInt32();
               break;
             }
-            case 818: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
-                jJPMLJLDIHI_ = newIntList();
-                mutable_bitField0_ |= 0x00000004;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                jJPMLJLDIHI_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
+            case 112: {
+
+              publishTime_ = input.readUInt32();
               break;
             }
-            case 832: {
+            case 120: {
+
+              importFromUgcGuid_ = input.readUInt64();
+              break;
+            }
+            case 6072: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                kOCMDMMFGMI_ = newIntList();
+                BeatmapCategoryIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
-              kOCMDMMFGMI_.addInt(input.readUInt32());
+              BeatmapCategoryIdList_.addInt(input.readUInt32());
               break;
             }
-            case 834: {
+            case 6074: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                kOCMDMMFGMI_ = newIntList();
+                BeatmapCategoryIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
-                kOCMDMMFGMI_.addInt(input.readUInt32());
+                BeatmapCategoryIdList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
             }
-            case 1608: {
-
-              mBBJMGIIKKM_ = input.readBool();
-              break;
-            }
-            case 3914: {
-              emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJ.Builder subBuilder = null;
-              if (cEKOLBFEPON_ != null) {
-                subBuilder = cEKOLBFEPON_.toBuilder();
-              }
-              cEKOLBFEPON_ = input.readMessage(emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJ.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(cEKOLBFEPON_);
-                cEKOLBFEPON_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
-            case 4344: {
-
-              mPNBDALHDAC_ = input.readUInt32();
-              break;
-            }
-            case 6408: {
-
-              hEBNGBGOAPM_ = input.readUInt32();
-              break;
-            }
-            case 7408: {
-
-              cBNMDAGOMHA_ = input.readUInt32();
-              break;
-            }
-            case 7736: {
-
-              cMEALNJIJNG_ = input.readUInt32();
-              break;
-            }
-            case 9384: {
-
-              lLLFNBFGDBF_ = input.readUInt32();
-              break;
-            }
-            case 9576: {
-
-              eHHGDAPAPLP_ = input.readUInt32();
-              break;
-            }
-            case 10808: {
+            case 7624: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                gGLKNKFFEEE_ = newIntList();
+                cCJOGFPEKID_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
               }
-              gGLKNKFFEEE_.addInt(input.readUInt32());
+              cCJOGFPEKID_.addInt(input.readUInt32());
               break;
             }
-            case 10810: {
+            case 7626: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
-                gGLKNKFFEEE_ = newIntList();
+                cCJOGFPEKID_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
               }
               while (input.getBytesUntilLimit() > 0) {
-                gGLKNKFFEEE_.addInt(input.readUInt32());
+                cCJOGFPEKID_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
             }
-            case 16128: {
+            case 8882: {
+              emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.Builder subBuilder = null;
+              if (social_ != null) {
+                subBuilder = social_.toBuilder();
+              }
+              social_ = input.readMessage(emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(social_);
+                social_ = subBuilder.buildPartial();
+              }
 
-              fPNJDMOOHDE_ = input.readUInt32();
+              break;
+            }
+            case 9080: {
+
+              hHBOBIJKFPJ_ = input.readUInt32();
+              break;
+            }
+            case 9280: {
+
+              pGHGCGNLNPG_ = input.readUInt32();
+              break;
+            }
+            case 9648: {
+
+              iIPJKAOBBBD_ = input.readUInt32();
+              break;
+            }
+            case 10080: {
+
+              mOIDOMCHPFG_ = input.readUInt32();
+              break;
+            }
+            case 11736: {
+              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
+                cOAEPKLMKPE_ = newIntList();
+                mutable_bitField0_ |= 0x00000004;
+              }
+              cOAEPKLMKPE_.addInt(input.readUInt32());
+              break;
+            }
+            case 11738: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
+                cOAEPKLMKPE_ = newIntList();
+                mutable_bitField0_ |= 0x00000004;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                cOAEPKLMKPE_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 14392: {
+
+              nLCMMJILBKJ_ = input.readUInt32();
+              break;
+            }
+            case 15400: {
+
+              mLAJCIMGINA_ = input.readUInt32();
               break;
             }
             default: {
@@ -432,14 +463,14 @@ public final class UgcMusicBriefInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000004) != 0)) {
-          jJPMLJLDIHI_.makeImmutable(); // C
-        }
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          kOCMDMMFGMI_.makeImmutable(); // C
+          BeatmapCategoryIdList_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
-          gGLKNKFFEEE_.makeImmutable(); // C
+          cCJOGFPEKID_.makeImmutable(); // C
+        }
+        if (((mutable_bitField0_ & 0x00000004) != 0)) {
+          cOAEPKLMKPE_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -458,325 +489,372 @@ public final class UgcMusicBriefInfoOuterClass {
               emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.class, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder.class);
     }
 
-    public static final int KOCMDMMFGMI_FIELD_NUMBER = 104;
-    private com.google.protobuf.Internal.IntList kOCMDMMFGMI_;
+    public static final int MAX_SCORE_FIELD_NUMBER = 1;
+    private int maxScore_;
     /**
-     * <code>repeated uint32 KOCMDMMFGMI = 104;</code>
-     * @return A list containing the kOCMDMMFGMI.
+     * <code>uint32 max_score = 1;</code>
+     * @return The maxScore.
      */
     @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getKOCMDMMFGMIList() {
-      return kOCMDMMFGMI_;
-    }
-    /**
-     * <code>repeated uint32 KOCMDMMFGMI = 104;</code>
-     * @return The count of kOCMDMMFGMI.
-     */
-    public int getKOCMDMMFGMICount() {
-      return kOCMDMMFGMI_.size();
-    }
-    /**
-     * <code>repeated uint32 KOCMDMMFGMI = 104;</code>
-     * @param index The index of the element to return.
-     * @return The kOCMDMMFGMI at the given index.
-     */
-    public int getKOCMDMMFGMI(int index) {
-      return kOCMDMMFGMI_.getInt(index);
-    }
-    private int kOCMDMMFGMIMemoizedSerializedSize = -1;
-
-    public static final int GGLKNKFFEEE_FIELD_NUMBER = 1351;
-    private com.google.protobuf.Internal.IntList gGLKNKFFEEE_;
-    /**
-     * <code>repeated uint32 GGLKNKFFEEE = 1351;</code>
-     * @return A list containing the gGLKNKFFEEE.
-     */
-    @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getGGLKNKFFEEEList() {
-      return gGLKNKFFEEE_;
-    }
-    /**
-     * <code>repeated uint32 GGLKNKFFEEE = 1351;</code>
-     * @return The count of gGLKNKFFEEE.
-     */
-    public int getGGLKNKFFEEECount() {
-      return gGLKNKFFEEE_.size();
-    }
-    /**
-     * <code>repeated uint32 GGLKNKFFEEE = 1351;</code>
-     * @param index The index of the element to return.
-     * @return The gGLKNKFFEEE at the given index.
-     */
-    public int getGGLKNKFFEEE(int index) {
-      return gGLKNKFFEEE_.getInt(index);
-    }
-    private int gGLKNKFFEEEMemoizedSerializedSize = -1;
-
-    public static final int JJPMLJLDIHI_FIELD_NUMBER = 102;
-    private com.google.protobuf.Internal.IntList jJPMLJLDIHI_;
-    /**
-     * <code>repeated uint32 JJPMLJLDIHI = 102;</code>
-     * @return A list containing the jJPMLJLDIHI.
-     */
-    @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getJJPMLJLDIHIList() {
-      return jJPMLJLDIHI_;
-    }
-    /**
-     * <code>repeated uint32 JJPMLJLDIHI = 102;</code>
-     * @return The count of jJPMLJLDIHI.
-     */
-    public int getJJPMLJLDIHICount() {
-      return jJPMLJLDIHI_.size();
-    }
-    /**
-     * <code>repeated uint32 JJPMLJLDIHI = 102;</code>
-     * @param index The index of the element to return.
-     * @return The jJPMLJLDIHI at the given index.
-     */
-    public int getJJPMLJLDIHI(int index) {
-      return jJPMLJLDIHI_.getInt(index);
-    }
-    private int jJPMLJLDIHIMemoizedSerializedSize = -1;
-
-    public static final int CEKOLBFEPON_FIELD_NUMBER = 489;
-    private emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJ cEKOLBFEPON_;
-    /**
-     * <code>.DAPPJPEICGJ CEKOLBFEPON = 489;</code>
-     * @return Whether the cEKOLBFEPON field is set.
-     */
-    @java.lang.Override
-    public boolean hasCEKOLBFEPON() {
-      return cEKOLBFEPON_ != null;
-    }
-    /**
-     * <code>.DAPPJPEICGJ CEKOLBFEPON = 489;</code>
-     * @return The cEKOLBFEPON.
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJ getCEKOLBFEPON() {
-      return cEKOLBFEPON_ == null ? emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJ.getDefaultInstance() : cEKOLBFEPON_;
-    }
-    /**
-     * <code>.DAPPJPEICGJ CEKOLBFEPON = 489;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJOrBuilder getCEKOLBFEPONOrBuilder() {
-      return getCEKOLBFEPON();
+    public int getMaxScore() {
+      return maxScore_;
     }
 
-    public static final int FPNJDMOOHDE_FIELD_NUMBER = 2016;
-    private int fPNJDMOOHDE_;
+    public static final int CREATOR_NICKNAME_FIELD_NUMBER = 2;
+    private volatile java.lang.Object creatorNickname_;
     /**
-     * <code>uint32 FPNJDMOOHDE = 2016;</code>
-     * @return The fPNJDMOOHDE.
+     * <code>string creator_nickname = 2;</code>
+     * @return The creatorNickname.
      */
     @java.lang.Override
-    public int getFPNJDMOOHDE() {
-      return fPNJDMOOHDE_;
+    public java.lang.String getCreatorNickname() {
+      java.lang.Object ref = creatorNickname_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        creatorNickname_ = s;
+        return s;
+      }
     }
-
-    public static final int AAHNFINJFAF_FIELD_NUMBER = 11;
-    private long aAHNFINJFAF_;
     /**
-     * <code>uint64 AAHNFINJFAF = 11;</code>
-     * @return The aAHNFINJFAF.
+     * <code>string creator_nickname = 2;</code>
+     * @return The bytes for creatorNickname.
      */
     @java.lang.Override
-    public long getAAHNFINJFAF() {
-      return aAHNFINJFAF_;
+    public com.google.protobuf.ByteString
+        getCreatorNicknameBytes() {
+      java.lang.Object ref = creatorNickname_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        creatorNickname_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
     }
 
-    public static final int MUSIC_ID_FIELD_NUMBER = 2;
-    private int musicId_;
-
-    @java.lang.Override
-    public int getMusicId() {
-      return musicId_;
-    }
-
-    public static final int CBNMDAGOMHA_FIELD_NUMBER = 926;
-    private int cBNMDAGOMHA_;
+    public static final int IS_PSN_PLATFORM_FIELD_NUMBER = 3;
+    private boolean isPsnPlatform_;
     /**
-     * <code>uint32 CBNMDAGOMHA = 926;</code>
-     * @return The cBNMDAGOMHA.
+     * <code>bool is_psn_platform = 3;</code>
+     * @return The isPsnPlatform.
      */
     @java.lang.Override
-    public int getCBNMDAGOMHA() {
-      return cBNMDAGOMHA_;
+    public boolean getIsPsnPlatform() {
+      return isPsnPlatform_;
     }
 
-    public static final int JOLJHDCPGPN_FIELD_NUMBER = 7;
-    private int jOLJHDCPGPN_;
-    /**
-     * <code>uint32 JOLJHDCPGPN = 7;</code>
-     * @return The jOLJHDCPGPN.
-     */
-    @java.lang.Override
-    public int getJOLJHDCPGPN() {
-      return jOLJHDCPGPN_;
-    }
-
-    public static final int GLBNECCHCOB_FIELD_NUMBER = 5;
-    private int gLBNECCHCOB_;
-    /**
-     * <code>uint32 GLBNECCHCOB = 5;</code>
-     * @return The gLBNECCHCOB.
-     */
-    @java.lang.Override
-    public int getGLBNECCHCOB() {
-      return gLBNECCHCOB_;
-    }
-
-    public static final int MBBJMGIIKKM_FIELD_NUMBER = 201;
-    private boolean mBBJMGIIKKM_;
-    /**
-     * <code>bool MBBJMGIIKKM = 201;</code>
-     * @return The mBBJMGIIKKM.
-     */
-    @java.lang.Override
-    public boolean getMBBJMGIIKKM() {
-      return mBBJMGIIKKM_;
-    }
-
-    public static final int DADJBDLKDFO_FIELD_NUMBER = 16;
-    private boolean dADJBDLKDFO_;
-    /**
-     * <code>bool DADJBDLKDFO = 16;</code>
-     * @return The dADJBDLKDFO.
-     */
-    @java.lang.Override
-    public boolean getDADJBDLKDFO() {
-      return dADJBDLKDFO_;
-    }
-
-    public static final int CPAEGLGJACA_FIELD_NUMBER = 16000;
-    private boolean cPAEGLGJACA_;
-    /**
-     * <code>bool CPAEGLGJACA = 10;</code>
-     * @return The cPAEGLGJACA.
-     */
-    @java.lang.Override
-    public boolean getCPAEGLGJACA() {
-      return cPAEGLGJACA_;
-    }
-
-    public static final int HEAFAHPKFDO_FIELD_NUMBER = 17;
-    private boolean hEAFAHPKFDO_;
-    /**
-     * <code>bool HEAFAHPKFDO = 17;</code>
-     * @return The hEAFAHPKFDO.
-     */
-    @java.lang.Override
-    public boolean getHEAFAHPKFDO() {
-      return hEAFAHPKFDO_;
-    }
-
-    public static final int EHHGDAPAPLP_FIELD_NUMBER = 1197;
-    private int eHHGDAPAPLP_;
-    /**
-     * <code>uint32 EHHGDAPAPLP = 1197;</code>
-     * @return The eHHGDAPAPLP.
-     */
-    @java.lang.Override
-    public int getEHHGDAPAPLP() {
-      return eHHGDAPAPLP_;
-    }
-
-    public static final int VERSION_FIELD_NUMBER = 10;
+    public static final int VERSION_FIELD_NUMBER = 4;
     private int version_;
-
+    /**
+     * <code>uint32 version = 4;</code>
+     * @return The version.
+     */
     @java.lang.Override
     public int getVersion() {
       return version_;
     }
 
-    public static final int UGC_GUID_FIELD_NUMBER = 4;
-    private int ugcGuid_;
-
+    public static final int IS_PLAYED_FIELD_NUMBER = 5;
+    private boolean isPlayed_;
+    /**
+     * <code>bool is_played = 5;</code>
+     * @return The isPlayed.
+     */
     @java.lang.Override
-    public int getUgcGuid() {
+    public boolean getIsPlayed() {
+      return isPlayed_;
+    }
+
+    public static final int MUSIC_ID_FIELD_NUMBER = 6;
+    private int musicId_;
+    /**
+     * <code>uint32 music_id = 6;</code>
+     * @return The musicId.
+     */
+    @java.lang.Override
+    public int getMusicId() {
+      return musicId_;
+    }
+
+    public static final int SAVE_TIME_FIELD_NUMBER = 7;
+    private int saveTime_;
+    /**
+     * <code>uint32 save_time = 7;</code>
+     * @return The saveTime.
+     */
+    @java.lang.Override
+    public int getSaveTime() {
+      return saveTime_;
+    }
+
+    public static final int UGC_GUID_FIELD_NUMBER = 8;
+    private long ugcGuid_;
+    /**
+     * <code>uint64 ugc_guid = 8;</code>
+     * @return The ugcGuid.
+     */
+    @java.lang.Override
+    public long getUgcGuid() {
       return ugcGuid_;
     }
 
-    public static final int FDMGJAOKBPP_FIELD_NUMBER = 3;
-    private int fDMGJAOKBPP_;
-    /**
-     * <code>uint32 FDMGJAOKBPP = 3;</code>
-     * @return The fDMGJAOKBPP.
-     */
-    @java.lang.Override
-    public int getFDMGJAOKBPP() {
-      return fDMGJAOKBPP_;
-    }
-
-    public static final int LLLFNBFGDBF_FIELD_NUMBER = 1173;
-    private int lLLFNBFGDBF_;
-    /**
-     * <code>uint32 LLLFNBFGDBF = 1173;</code>
-     * @return The lLLFNBFGDBF.
-     */
-    @java.lang.Override
-    public int getLLLFNBFGDBF() {
-      return lLLFNBFGDBF_;
-    }
-
-    public static final int LPCOPFPMHAK_FIELD_NUMBER = 8;
-    private long lPCOPFPMHAK_;
-    /**
-     * <code>uint64 LPCOPFPMHAK = 8;</code>
-     * @return The lPCOPFPMHAK.
-     */
-    @java.lang.Override
-    public long getLPCOPFPMHAK() {
-      return lPCOPFPMHAK_;
-    }
-
-    public static final int HEBNGBGOAPM_FIELD_NUMBER = 801;
-    private int hEBNGBGOAPM_;
-    /**
-     * <code>uint32 HEBNGBGOAPM = 801;</code>
-     * @return The hEBNGBGOAPM.
-     */
-    @java.lang.Override
-    public int getHEBNGBGOAPM() {
-      return hEBNGBGOAPM_;
-    }
-
-    public static final int CMEALNJIJNG_FIELD_NUMBER = 967;
-    private int cMEALNJIJNG_;
-    /**
-     * <code>uint32 CMEALNJIJNG = 967;</code>
-     * @return The cMEALNJIJNG.
-     */
-    @java.lang.Override
-    public int getCMEALNJIJNG() {
-      return cMEALNJIJNG_;
-    }
-
-    public static final int MPNBDALHDAC_FIELD_NUMBER = 543;
-    private int mPNBDALHDAC_;
-    /**
-     * <code>uint32 MPNBDALHDAC = 543;</code>
-     * @return The mPNBDALHDAC.
-     */
-    @java.lang.Override
-    public int getMPNBDALHDAC() {
-      return mPNBDALHDAC_;
-    }
-
     public static final int JBGOFOMFAHF_FIELD_NUMBER = 9;
-    private int jBGOFOMFAHF_;
+    private int jbgofomfahf_;
     /**
-     * <code>uint32 JBGOFOMFAHF = 9;</code>
-     * @return The jBGOFOMFAHF.
+     * <code>uint32 jbgofomfahf = 9;</code>
+     * @return The jbgofomfahf.
      */
     @java.lang.Override
-    public int getJBGOFOMFAHF() {
-      return jBGOFOMFAHF_;
+    public int getJbgofomfahf() {
+      return jbgofomfahf_;
+    }
+
+    public static final int LDDCHDFKLGO_FIELD_NUMBER = 10;
+    private int lDDCHDFKLGO_;
+    /**
+     * <code>uint32 LDDCHDFKLGO = 10;</code>
+     * @return The lDDCHDFKLGO.
+     */
+    @java.lang.Override
+    public int getLDDCHDFKLGO() {
+      return lDDCHDFKLGO_;
+    }
+
+    public static final int IS_CHANGED_AFTER_PUBLISH_FIELD_NUMBER = 11;
+    private boolean isChangedAfterPublish_;
+    /**
+     * <code>bool is_changed_after_publish = 11;</code>
+     * @return The isChangedAfterPublish.
+     */
+    @java.lang.Override
+    public boolean getIsChangedAfterPublish() {
+      return isChangedAfterPublish_;
+    }
+
+    public static final int IS_PUBLISHED_FIELD_NUMBER = 12;
+    private boolean isPublished_;
+    /**
+     * <code>bool is_published = 12;</code>
+     * @return The isPublished.
+     */
+    @java.lang.Override
+    public boolean getIsPublished() {
+      return isPublished_;
+    }
+
+    public static final int KFHNNAIABLG_FIELD_NUMBER = 13;
+    private int kFHNNAIABLG_;
+    /**
+     * <code>uint32 KFHNNAIABLG = 13;</code>
+     * @return The kFHNNAIABLG.
+     */
+    @java.lang.Override
+    public int getKFHNNAIABLG() {
+      return kFHNNAIABLG_;
+    }
+
+    public static final int PUBLISH_TIME_FIELD_NUMBER = 14;
+    private int publishTime_;
+    /**
+     * <code>uint32 publish_time = 14;</code>
+     * @return The publishTime.
+     */
+    @java.lang.Override
+    public int getPublishTime() {
+      return publishTime_;
+    }
+
+    public static final int IMPORT_FROM_UGC_GUID_FIELD_NUMBER = 15;
+    private long importFromUgcGuid_;
+    /**
+     * <code>uint64 import_from_ugc_guid = 15;</code>
+     * @return The importFromUgcGuid.
+     */
+    @java.lang.Override
+    public long getImportFromUgcGuid() {
+      return importFromUgcGuid_;
+    }
+
+    public static final int _BEATMAP_CATEGORY_ID_LIST_FIELD_NUMBER = 759;
+    private com.google.protobuf.Internal.IntList BeatmapCategoryIdList_;
+    /**
+     * <code>repeated uint32 _beatmap_category_id_list = 759;</code>
+     * @return A list containing the beatmapCategoryIdList.
+     */
+    @java.lang.Override
+    public java.util.List<java.lang.Integer>
+        getBeatmapCategoryIdListList() {
+      return BeatmapCategoryIdList_;
+    }
+    /**
+     * <code>repeated uint32 _beatmap_category_id_list = 759;</code>
+     * @return The count of beatmapCategoryIdList.
+     */
+    public int getBeatmapCategoryIdListCount() {
+      return BeatmapCategoryIdList_.size();
+    }
+    /**
+     * <code>repeated uint32 _beatmap_category_id_list = 759;</code>
+     * @param index The index of the element to return.
+     * @return The beatmapCategoryIdList at the given index.
+     */
+    public int getBeatmapCategoryIdList(int index) {
+      return BeatmapCategoryIdList_.getInt(index);
+    }
+    private int BeatmapCategoryIdListMemoizedSerializedSize = -1;
+
+    public static final int CCJOGFPEKID_FIELD_NUMBER = 953;
+    private com.google.protobuf.Internal.IntList cCJOGFPEKID_;
+    /**
+     * <code>repeated uint32 CCJOGFPEKID = 953;</code>
+     * @return A list containing the cCJOGFPEKID.
+     */
+    @java.lang.Override
+    public java.util.List<java.lang.Integer>
+        getCCJOGFPEKIDList() {
+      return cCJOGFPEKID_;
+    }
+    /**
+     * <code>repeated uint32 CCJOGFPEKID = 953;</code>
+     * @return The count of cCJOGFPEKID.
+     */
+    public int getCCJOGFPEKIDCount() {
+      return cCJOGFPEKID_.size();
+    }
+    /**
+     * <code>repeated uint32 CCJOGFPEKID = 953;</code>
+     * @param index The index of the element to return.
+     * @return The cCJOGFPEKID at the given index.
+     */
+    public int getCCJOGFPEKID(int index) {
+      return cCJOGFPEKID_.getInt(index);
+    }
+    private int cCJOGFPEKIDMemoizedSerializedSize = -1;
+
+    public static final int SOCIAL_FIELD_NUMBER = 1110;
+    private emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial social_;
+    /**
+     * <code>._MusicGameSocial social = 1110;</code>
+     * @return Whether the social field is set.
+     */
+    @java.lang.Override
+    public boolean hasSocial() {
+      return social_ != null;
+    }
+    /**
+     * <code>._MusicGameSocial social = 1110;</code>
+     * @return The social.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial getSocial() {
+      return social_ == null ? emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.getDefaultInstance() : social_;
+    }
+    /**
+     * <code>._MusicGameSocial social = 1110;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocialOrBuilder getSocialOrBuilder() {
+      return getSocial();
+    }
+
+    public static final int HHBOBIJKFPJ_FIELD_NUMBER = 1135;
+    private int hHBOBIJKFPJ_;
+    /**
+     * <code>uint32 HHBOBIJKFPJ = 1135;</code>
+     * @return The hHBOBIJKFPJ.
+     */
+    @java.lang.Override
+    public int getHHBOBIJKFPJ() {
+      return hHBOBIJKFPJ_;
+    }
+
+    public static final int PGHGCGNLNPG_FIELD_NUMBER = 1160;
+    private int pGHGCGNLNPG_;
+    /**
+     * <code>uint32 PGHGCGNLNPG = 1160;</code>
+     * @return The pGHGCGNLNPG.
+     */
+    @java.lang.Override
+    public int getPGHGCGNLNPG() {
+      return pGHGCGNLNPG_;
+    }
+
+    public static final int IIPJKAOBBBD_FIELD_NUMBER = 1206;
+    private int iIPJKAOBBBD_;
+    /**
+     * <code>uint32 IIPJKAOBBBD = 1206;</code>
+     * @return The iIPJKAOBBBD.
+     */
+    @java.lang.Override
+    public int getIIPJKAOBBBD() {
+      return iIPJKAOBBBD_;
+    }
+
+    public static final int MOIDOMCHPFG_FIELD_NUMBER = 1260;
+    private int mOIDOMCHPFG_;
+    /**
+     * <code>uint32 MOIDOMCHPFG = 1260;</code>
+     * @return The mOIDOMCHPFG.
+     */
+    @java.lang.Override
+    public int getMOIDOMCHPFG() {
+      return mOIDOMCHPFG_;
+    }
+
+    public static final int COAEPKLMKPE_FIELD_NUMBER = 1467;
+    private com.google.protobuf.Internal.IntList cOAEPKLMKPE_;
+    /**
+     * <code>repeated uint32 COAEPKLMKPE = 1467;</code>
+     * @return A list containing the cOAEPKLMKPE.
+     */
+    @java.lang.Override
+    public java.util.List<java.lang.Integer>
+        getCOAEPKLMKPEList() {
+      return cOAEPKLMKPE_;
+    }
+    /**
+     * <code>repeated uint32 COAEPKLMKPE = 1467;</code>
+     * @return The count of cOAEPKLMKPE.
+     */
+    public int getCOAEPKLMKPECount() {
+      return cOAEPKLMKPE_.size();
+    }
+    /**
+     * <code>repeated uint32 COAEPKLMKPE = 1467;</code>
+     * @param index The index of the element to return.
+     * @return The cOAEPKLMKPE at the given index.
+     */
+    public int getCOAEPKLMKPE(int index) {
+      return cOAEPKLMKPE_.getInt(index);
+    }
+    private int cOAEPKLMKPEMemoizedSerializedSize = -1;
+
+    public static final int NLCMMJILBKJ_FIELD_NUMBER = 1799;
+    private int nLCMMJILBKJ_;
+    /**
+     * <code>uint32 NLCMMJILBKJ = 1799;</code>
+     * @return The nLCMMJILBKJ.
+     */
+    @java.lang.Override
+    public int getNLCMMJILBKJ() {
+      return nLCMMJILBKJ_;
+    }
+
+    public static final int MLAJCIMGINA_FIELD_NUMBER = 1925;
+    private int mLAJCIMGINA_;
+    /**
+     * <code>uint32 MLAJCIMGINA = 1925;</code>
+     * @return The mLAJCIMGINA.
+     */
+    @java.lang.Override
+    public int getMLAJCIMGINA() {
+      return mLAJCIMGINA_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -794,89 +872,92 @@ public final class UgcMusicBriefInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (musicId_ != 0) {
-        output.writeUInt32(2, musicId_);
+      if (maxScore_ != 0) {
+        output.writeUInt32(1, maxScore_);
       }
-      if (fDMGJAOKBPP_ != 0) {
-        output.writeUInt32(3, fDMGJAOKBPP_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(creatorNickname_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 2, creatorNickname_);
       }
-      if (gLBNECCHCOB_ != 0) {
-        output.writeUInt32(5, gLBNECCHCOB_);
-      }
-      if (ugcGuid_ != 0) {
-        output.writeUInt32(4, ugcGuid_);
-      }
-      if (jOLJHDCPGPN_ != 0) {
-        output.writeUInt32(7, jOLJHDCPGPN_);
-      }
-      if (lPCOPFPMHAK_ != 0L) {
-        output.writeUInt64(8, lPCOPFPMHAK_);
-      }
-      if (jBGOFOMFAHF_ != 0) {
-        output.writeUInt32(9, jBGOFOMFAHF_);
-      }
-      if (cPAEGLGJACA_ != false) {
-        output.writeBool(16000, cPAEGLGJACA_);
-      }
-      if (aAHNFINJFAF_ != 0L) {
-        output.writeUInt64(11, aAHNFINJFAF_);
+      if (isPsnPlatform_ != false) {
+        output.writeBool(3, isPsnPlatform_);
       }
       if (version_ != 0) {
-        output.writeUInt32(10, version_);
+        output.writeUInt32(4, version_);
       }
-      if (dADJBDLKDFO_ != false) {
-        output.writeBool(16, dADJBDLKDFO_);
+      if (isPlayed_ != false) {
+        output.writeBool(5, isPlayed_);
       }
-      if (hEAFAHPKFDO_ != false) {
-        output.writeBool(17, hEAFAHPKFDO_);
+      if (musicId_ != 0) {
+        output.writeUInt32(6, musicId_);
       }
-      if (getJJPMLJLDIHIList().size() > 0) {
-        output.writeUInt32NoTag(818);
-        output.writeUInt32NoTag(jJPMLJLDIHIMemoizedSerializedSize);
+      if (saveTime_ != 0) {
+        output.writeUInt32(7, saveTime_);
       }
-      for (int i = 0; i < jJPMLJLDIHI_.size(); i++) {
-        output.writeUInt32NoTag(jJPMLJLDIHI_.getInt(i));
+      if (ugcGuid_ != 0L) {
+        output.writeUInt64(8, ugcGuid_);
       }
-      if (getKOCMDMMFGMIList().size() > 0) {
-        output.writeUInt32NoTag(834);
-        output.writeUInt32NoTag(kOCMDMMFGMIMemoizedSerializedSize);
+      if (jbgofomfahf_ != 0) {
+        output.writeUInt32(9, jbgofomfahf_);
       }
-      for (int i = 0; i < kOCMDMMFGMI_.size(); i++) {
-        output.writeUInt32NoTag(kOCMDMMFGMI_.getInt(i));
+      if (lDDCHDFKLGO_ != 0) {
+        output.writeUInt32(10, lDDCHDFKLGO_);
       }
-      if (mBBJMGIIKKM_ != false) {
-        output.writeBool(201, mBBJMGIIKKM_);
+      if (isChangedAfterPublish_ != false) {
+        output.writeBool(11, isChangedAfterPublish_);
       }
-      if (cEKOLBFEPON_ != null) {
-        output.writeMessage(489, getCEKOLBFEPON());
+      if (isPublished_ != false) {
+        output.writeBool(12, isPublished_);
       }
-      if (mPNBDALHDAC_ != 0) {
-        output.writeUInt32(543, mPNBDALHDAC_);
+      if (kFHNNAIABLG_ != 0) {
+        output.writeUInt32(13, kFHNNAIABLG_);
       }
-      if (hEBNGBGOAPM_ != 0) {
-        output.writeUInt32(801, hEBNGBGOAPM_);
+      if (publishTime_ != 0) {
+        output.writeUInt32(14, publishTime_);
       }
-      if (cBNMDAGOMHA_ != 0) {
-        output.writeUInt32(926, cBNMDAGOMHA_);
+      if (importFromUgcGuid_ != 0L) {
+        output.writeUInt64(15, importFromUgcGuid_);
       }
-      if (cMEALNJIJNG_ != 0) {
-        output.writeUInt32(967, cMEALNJIJNG_);
+      if (getBeatmapCategoryIdListList().size() > 0) {
+        output.writeUInt32NoTag(6074);
+        output.writeUInt32NoTag(BeatmapCategoryIdListMemoizedSerializedSize);
       }
-      if (lLLFNBFGDBF_ != 0) {
-        output.writeUInt32(1173, lLLFNBFGDBF_);
+      for (int i = 0; i < BeatmapCategoryIdList_.size(); i++) {
+        output.writeUInt32NoTag(BeatmapCategoryIdList_.getInt(i));
       }
-      if (eHHGDAPAPLP_ != 0) {
-        output.writeUInt32(1197, eHHGDAPAPLP_);
+      if (getCCJOGFPEKIDList().size() > 0) {
+        output.writeUInt32NoTag(7626);
+        output.writeUInt32NoTag(cCJOGFPEKIDMemoizedSerializedSize);
       }
-      if (getGGLKNKFFEEEList().size() > 0) {
-        output.writeUInt32NoTag(10810);
-        output.writeUInt32NoTag(gGLKNKFFEEEMemoizedSerializedSize);
+      for (int i = 0; i < cCJOGFPEKID_.size(); i++) {
+        output.writeUInt32NoTag(cCJOGFPEKID_.getInt(i));
       }
-      for (int i = 0; i < gGLKNKFFEEE_.size(); i++) {
-        output.writeUInt32NoTag(gGLKNKFFEEE_.getInt(i));
+      if (social_ != null) {
+        output.writeMessage(1110, getSocial());
       }
-      if (fPNJDMOOHDE_ != 0) {
-        output.writeUInt32(2016, fPNJDMOOHDE_);
+      if (hHBOBIJKFPJ_ != 0) {
+        output.writeUInt32(1135, hHBOBIJKFPJ_);
+      }
+      if (pGHGCGNLNPG_ != 0) {
+        output.writeUInt32(1160, pGHGCGNLNPG_);
+      }
+      if (iIPJKAOBBBD_ != 0) {
+        output.writeUInt32(1206, iIPJKAOBBBD_);
+      }
+      if (mOIDOMCHPFG_ != 0) {
+        output.writeUInt32(1260, mOIDOMCHPFG_);
+      }
+      if (getCOAEPKLMKPEList().size() > 0) {
+        output.writeUInt32NoTag(11738);
+        output.writeUInt32NoTag(cOAEPKLMKPEMemoizedSerializedSize);
+      }
+      for (int i = 0; i < cOAEPKLMKPE_.size(); i++) {
+        output.writeUInt32NoTag(cOAEPKLMKPE_.getInt(i));
+      }
+      if (nLCMMJILBKJ_ != 0) {
+        output.writeUInt32(1799, nLCMMJILBKJ_);
+      }
+      if (mLAJCIMGINA_ != 0) {
+        output.writeUInt32(1925, mLAJCIMGINA_);
       }
       unknownFields.writeTo(output);
     }
@@ -887,131 +968,134 @@ public final class UgcMusicBriefInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (musicId_ != 0) {
+      if (maxScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, musicId_);
+          .computeUInt32Size(1, maxScore_);
       }
-      if (fDMGJAOKBPP_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, fDMGJAOKBPP_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(creatorNickname_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(2, creatorNickname_);
       }
-      if (gLBNECCHCOB_ != 0) {
+      if (isPsnPlatform_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, gLBNECCHCOB_);
-      }
-      if (ugcGuid_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, ugcGuid_);
-      }
-      if (jOLJHDCPGPN_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, jOLJHDCPGPN_);
-      }
-      if (lPCOPFPMHAK_ != 0L) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(8, lPCOPFPMHAK_);
-      }
-      if (jBGOFOMFAHF_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, jBGOFOMFAHF_);
-      }
-      if (cPAEGLGJACA_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(16000, cPAEGLGJACA_);
-      }
-      if (aAHNFINJFAF_ != 0L) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(11, aAHNFINJFAF_);
+          .computeBoolSize(3, isPsnPlatform_);
       }
       if (version_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, version_);
+          .computeUInt32Size(4, version_);
       }
-      if (dADJBDLKDFO_ != false) {
+      if (isPlayed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(16, dADJBDLKDFO_);
+          .computeBoolSize(5, isPlayed_);
       }
-      if (hEAFAHPKFDO_ != false) {
+      if (musicId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(17, hEAFAHPKFDO_);
+          .computeUInt32Size(6, musicId_);
+      }
+      if (saveTime_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(7, saveTime_);
+      }
+      if (ugcGuid_ != 0L) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt64Size(8, ugcGuid_);
+      }
+      if (jbgofomfahf_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(9, jbgofomfahf_);
+      }
+      if (lDDCHDFKLGO_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(10, lDDCHDFKLGO_);
+      }
+      if (isChangedAfterPublish_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(11, isChangedAfterPublish_);
+      }
+      if (isPublished_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(12, isPublished_);
+      }
+      if (kFHNNAIABLG_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(13, kFHNNAIABLG_);
+      }
+      if (publishTime_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(14, publishTime_);
+      }
+      if (importFromUgcGuid_ != 0L) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt64Size(15, importFromUgcGuid_);
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < jJPMLJLDIHI_.size(); i++) {
+        for (int i = 0; i < BeatmapCategoryIdList_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(jJPMLJLDIHI_.getInt(i));
+            .computeUInt32SizeNoTag(BeatmapCategoryIdList_.getInt(i));
         }
         size += dataSize;
-        if (!getJJPMLJLDIHIList().isEmpty()) {
+        if (!getBeatmapCategoryIdListList().isEmpty()) {
           size += 2;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        jJPMLJLDIHIMemoizedSerializedSize = dataSize;
+        BeatmapCategoryIdListMemoizedSerializedSize = dataSize;
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < kOCMDMMFGMI_.size(); i++) {
+        for (int i = 0; i < cCJOGFPEKID_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(kOCMDMMFGMI_.getInt(i));
+            .computeUInt32SizeNoTag(cCJOGFPEKID_.getInt(i));
         }
         size += dataSize;
-        if (!getKOCMDMMFGMIList().isEmpty()) {
+        if (!getCCJOGFPEKIDList().isEmpty()) {
           size += 2;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        kOCMDMMFGMIMemoizedSerializedSize = dataSize;
+        cCJOGFPEKIDMemoizedSerializedSize = dataSize;
       }
-      if (mBBJMGIIKKM_ != false) {
+      if (social_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(201, mBBJMGIIKKM_);
+          .computeMessageSize(1110, getSocial());
       }
-      if (cEKOLBFEPON_ != null) {
+      if (hHBOBIJKFPJ_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(489, getCEKOLBFEPON());
+          .computeUInt32Size(1135, hHBOBIJKFPJ_);
       }
-      if (mPNBDALHDAC_ != 0) {
+      if (pGHGCGNLNPG_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(543, mPNBDALHDAC_);
+          .computeUInt32Size(1160, pGHGCGNLNPG_);
       }
-      if (hEBNGBGOAPM_ != 0) {
+      if (iIPJKAOBBBD_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(801, hEBNGBGOAPM_);
+          .computeUInt32Size(1206, iIPJKAOBBBD_);
       }
-      if (cBNMDAGOMHA_ != 0) {
+      if (mOIDOMCHPFG_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(926, cBNMDAGOMHA_);
-      }
-      if (cMEALNJIJNG_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(967, cMEALNJIJNG_);
-      }
-      if (lLLFNBFGDBF_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1173, lLLFNBFGDBF_);
-      }
-      if (eHHGDAPAPLP_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1197, eHHGDAPAPLP_);
+          .computeUInt32Size(1260, mOIDOMCHPFG_);
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < gGLKNKFFEEE_.size(); i++) {
+        for (int i = 0; i < cOAEPKLMKPE_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(gGLKNKFFEEE_.getInt(i));
+            .computeUInt32SizeNoTag(cOAEPKLMKPE_.getInt(i));
         }
         size += dataSize;
-        if (!getGGLKNKFFEEEList().isEmpty()) {
+        if (!getCOAEPKLMKPEList().isEmpty()) {
           size += 2;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        gGLKNKFFEEEMemoizedSerializedSize = dataSize;
+        cOAEPKLMKPEMemoizedSerializedSize = dataSize;
       }
-      if (fPNJDMOOHDE_ != 0) {
+      if (nLCMMJILBKJ_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2016, fPNJDMOOHDE_);
+          .computeUInt32Size(1799, nLCMMJILBKJ_);
+      }
+      if (mLAJCIMGINA_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(1925, mLAJCIMGINA_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1028,57 +1112,59 @@ public final class UgcMusicBriefInfoOuterClass {
       }
       emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo other = (emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo) obj;
 
-      if (!getKOCMDMMFGMIList()
-          .equals(other.getKOCMDMMFGMIList())) return false;
-      if (!getGGLKNKFFEEEList()
-          .equals(other.getGGLKNKFFEEEList())) return false;
-      if (!getJJPMLJLDIHIList()
-          .equals(other.getJJPMLJLDIHIList())) return false;
-      if (hasCEKOLBFEPON() != other.hasCEKOLBFEPON()) return false;
-      if (hasCEKOLBFEPON()) {
-        if (!getCEKOLBFEPON()
-            .equals(other.getCEKOLBFEPON())) return false;
-      }
-      if (getFPNJDMOOHDE()
-          != other.getFPNJDMOOHDE()) return false;
-      if (getAAHNFINJFAF()
-          != other.getAAHNFINJFAF()) return false;
-      if (getMusicId()
-          != other.getMusicId()) return false;
-      if (getCBNMDAGOMHA()
-          != other.getCBNMDAGOMHA()) return false;
-      if (getJOLJHDCPGPN()
-          != other.getJOLJHDCPGPN()) return false;
-      if (getGLBNECCHCOB()
-          != other.getGLBNECCHCOB()) return false;
-      if (getMBBJMGIIKKM()
-          != other.getMBBJMGIIKKM()) return false;
-      if (getDADJBDLKDFO()
-          != other.getDADJBDLKDFO()) return false;
-      if (getCPAEGLGJACA()
-          != other.getCPAEGLGJACA()) return false;
-      if (getHEAFAHPKFDO()
-          != other.getHEAFAHPKFDO()) return false;
-      if (getEHHGDAPAPLP()
-          != other.getEHHGDAPAPLP()) return false;
+      if (getMaxScore()
+          != other.getMaxScore()) return false;
+      if (!getCreatorNickname()
+          .equals(other.getCreatorNickname())) return false;
+      if (getIsPsnPlatform()
+          != other.getIsPsnPlatform()) return false;
       if (getVersion()
           != other.getVersion()) return false;
+      if (getIsPlayed()
+          != other.getIsPlayed()) return false;
+      if (getMusicId()
+          != other.getMusicId()) return false;
+      if (getSaveTime()
+          != other.getSaveTime()) return false;
       if (getUgcGuid()
           != other.getUgcGuid()) return false;
-      if (getFDMGJAOKBPP()
-          != other.getFDMGJAOKBPP()) return false;
-      if (getLLLFNBFGDBF()
-          != other.getLLLFNBFGDBF()) return false;
-      if (getLPCOPFPMHAK()
-          != other.getLPCOPFPMHAK()) return false;
-      if (getHEBNGBGOAPM()
-          != other.getHEBNGBGOAPM()) return false;
-      if (getCMEALNJIJNG()
-          != other.getCMEALNJIJNG()) return false;
-      if (getMPNBDALHDAC()
-          != other.getMPNBDALHDAC()) return false;
-      if (getJBGOFOMFAHF()
-          != other.getJBGOFOMFAHF()) return false;
+      if (getJbgofomfahf()
+          != other.getJbgofomfahf()) return false;
+      if (getLDDCHDFKLGO()
+          != other.getLDDCHDFKLGO()) return false;
+      if (getIsChangedAfterPublish()
+          != other.getIsChangedAfterPublish()) return false;
+      if (getIsPublished()
+          != other.getIsPublished()) return false;
+      if (getKFHNNAIABLG()
+          != other.getKFHNNAIABLG()) return false;
+      if (getPublishTime()
+          != other.getPublishTime()) return false;
+      if (getImportFromUgcGuid()
+          != other.getImportFromUgcGuid()) return false;
+      if (!getBeatmapCategoryIdListList()
+          .equals(other.getBeatmapCategoryIdListList())) return false;
+      if (!getCCJOGFPEKIDList()
+          .equals(other.getCCJOGFPEKIDList())) return false;
+      if (hasSocial() != other.hasSocial()) return false;
+      if (hasSocial()) {
+        if (!getSocial()
+            .equals(other.getSocial())) return false;
+      }
+      if (getHHBOBIJKFPJ()
+          != other.getHHBOBIJKFPJ()) return false;
+      if (getPGHGCGNLNPG()
+          != other.getPGHGCGNLNPG()) return false;
+      if (getIIPJKAOBBBD()
+          != other.getIIPJKAOBBBD()) return false;
+      if (getMOIDOMCHPFG()
+          != other.getMOIDOMCHPFG()) return false;
+      if (!getCOAEPKLMKPEList()
+          .equals(other.getCOAEPKLMKPEList())) return false;
+      if (getNLCMMJILBKJ()
+          != other.getNLCMMJILBKJ()) return false;
+      if (getMLAJCIMGINA()
+          != other.getMLAJCIMGINA()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -1090,68 +1176,70 @@ public final class UgcMusicBriefInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getKOCMDMMFGMICount() > 0) {
-        hash = (37 * hash) + KOCMDMMFGMI_FIELD_NUMBER;
-        hash = (53 * hash) + getKOCMDMMFGMIList().hashCode();
-      }
-      if (getGGLKNKFFEEECount() > 0) {
-        hash = (37 * hash) + GGLKNKFFEEE_FIELD_NUMBER;
-        hash = (53 * hash) + getGGLKNKFFEEEList().hashCode();
-      }
-      if (getJJPMLJLDIHICount() > 0) {
-        hash = (37 * hash) + JJPMLJLDIHI_FIELD_NUMBER;
-        hash = (53 * hash) + getJJPMLJLDIHIList().hashCode();
-      }
-      if (hasCEKOLBFEPON()) {
-        hash = (37 * hash) + CEKOLBFEPON_FIELD_NUMBER;
-        hash = (53 * hash) + getCEKOLBFEPON().hashCode();
-      }
-      hash = (37 * hash) + FPNJDMOOHDE_FIELD_NUMBER;
-      hash = (53 * hash) + getFPNJDMOOHDE();
-      hash = (37 * hash) + AAHNFINJFAF_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
-          getAAHNFINJFAF());
-      hash = (37 * hash) + MUSIC_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getMusicId();
-      hash = (37 * hash) + CBNMDAGOMHA_FIELD_NUMBER;
-      hash = (53 * hash) + getCBNMDAGOMHA();
-      hash = (37 * hash) + JOLJHDCPGPN_FIELD_NUMBER;
-      hash = (53 * hash) + getJOLJHDCPGPN();
-      hash = (37 * hash) + GLBNECCHCOB_FIELD_NUMBER;
-      hash = (53 * hash) + getGLBNECCHCOB();
-      hash = (37 * hash) + MBBJMGIIKKM_FIELD_NUMBER;
+      hash = (37 * hash) + MAX_SCORE_FIELD_NUMBER;
+      hash = (53 * hash) + getMaxScore();
+      hash = (37 * hash) + CREATOR_NICKNAME_FIELD_NUMBER;
+      hash = (53 * hash) + getCreatorNickname().hashCode();
+      hash = (37 * hash) + IS_PSN_PLATFORM_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getMBBJMGIIKKM());
-      hash = (37 * hash) + DADJBDLKDFO_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getDADJBDLKDFO());
-      hash = (37 * hash) + CPAEGLGJACA_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getCPAEGLGJACA());
-      hash = (37 * hash) + HEAFAHPKFDO_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getHEAFAHPKFDO());
-      hash = (37 * hash) + EHHGDAPAPLP_FIELD_NUMBER;
-      hash = (53 * hash) + getEHHGDAPAPLP();
+          getIsPsnPlatform());
       hash = (37 * hash) + VERSION_FIELD_NUMBER;
       hash = (53 * hash) + getVersion();
+      hash = (37 * hash) + IS_PLAYED_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIsPlayed());
+      hash = (37 * hash) + MUSIC_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getMusicId();
+      hash = (37 * hash) + SAVE_TIME_FIELD_NUMBER;
+      hash = (53 * hash) + getSaveTime();
       hash = (37 * hash) + UGC_GUID_FIELD_NUMBER;
-      hash = (53 * hash) + getUgcGuid();
-      hash = (37 * hash) + FDMGJAOKBPP_FIELD_NUMBER;
-      hash = (53 * hash) + getFDMGJAOKBPP();
-      hash = (37 * hash) + LLLFNBFGDBF_FIELD_NUMBER;
-      hash = (53 * hash) + getLLLFNBFGDBF();
-      hash = (37 * hash) + LPCOPFPMHAK_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
-          getLPCOPFPMHAK());
-      hash = (37 * hash) + HEBNGBGOAPM_FIELD_NUMBER;
-      hash = (53 * hash) + getHEBNGBGOAPM();
-      hash = (37 * hash) + CMEALNJIJNG_FIELD_NUMBER;
-      hash = (53 * hash) + getCMEALNJIJNG();
-      hash = (37 * hash) + MPNBDALHDAC_FIELD_NUMBER;
-      hash = (53 * hash) + getMPNBDALHDAC();
+          getUgcGuid());
       hash = (37 * hash) + JBGOFOMFAHF_FIELD_NUMBER;
-      hash = (53 * hash) + getJBGOFOMFAHF();
+      hash = (53 * hash) + getJbgofomfahf();
+      hash = (37 * hash) + LDDCHDFKLGO_FIELD_NUMBER;
+      hash = (53 * hash) + getLDDCHDFKLGO();
+      hash = (37 * hash) + IS_CHANGED_AFTER_PUBLISH_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIsChangedAfterPublish());
+      hash = (37 * hash) + IS_PUBLISHED_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIsPublished());
+      hash = (37 * hash) + KFHNNAIABLG_FIELD_NUMBER;
+      hash = (53 * hash) + getKFHNNAIABLG();
+      hash = (37 * hash) + PUBLISH_TIME_FIELD_NUMBER;
+      hash = (53 * hash) + getPublishTime();
+      hash = (37 * hash) + IMPORT_FROM_UGC_GUID_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
+          getImportFromUgcGuid());
+      if (getBeatmapCategoryIdListCount() > 0) {
+        hash = (37 * hash) + _BEATMAP_CATEGORY_ID_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getBeatmapCategoryIdListList().hashCode();
+      }
+      if (getCCJOGFPEKIDCount() > 0) {
+        hash = (37 * hash) + CCJOGFPEKID_FIELD_NUMBER;
+        hash = (53 * hash) + getCCJOGFPEKIDList().hashCode();
+      }
+      if (hasSocial()) {
+        hash = (37 * hash) + SOCIAL_FIELD_NUMBER;
+        hash = (53 * hash) + getSocial().hashCode();
+      }
+      hash = (37 * hash) + HHBOBIJKFPJ_FIELD_NUMBER;
+      hash = (53 * hash) + getHHBOBIJKFPJ();
+      hash = (37 * hash) + PGHGCGNLNPG_FIELD_NUMBER;
+      hash = (53 * hash) + getPGHGCGNLNPG();
+      hash = (37 * hash) + IIPJKAOBBBD_FIELD_NUMBER;
+      hash = (53 * hash) + getIIPJKAOBBBD();
+      hash = (37 * hash) + MOIDOMCHPFG_FIELD_NUMBER;
+      hash = (53 * hash) + getMOIDOMCHPFG();
+      if (getCOAEPKLMKPECount() > 0) {
+        hash = (37 * hash) + COAEPKLMKPE_FIELD_NUMBER;
+        hash = (53 * hash) + getCOAEPKLMKPEList().hashCode();
+      }
+      hash = (37 * hash) + NLCMMJILBKJ_FIELD_NUMBER;
+      hash = (53 * hash) + getNLCMMJILBKJ();
+      hash = (37 * hash) + MLAJCIMGINA_FIELD_NUMBER;
+      hash = (53 * hash) + getMLAJCIMGINA();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -1285,57 +1373,59 @@ public final class UgcMusicBriefInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        kOCMDMMFGMI_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
-        gGLKNKFFEEE_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
-        jJPMLJLDIHI_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000004);
-        if (cEKOLBFEPONBuilder_ == null) {
-          cEKOLBFEPON_ = null;
-        } else {
-          cEKOLBFEPON_ = null;
-          cEKOLBFEPONBuilder_ = null;
-        }
-        fPNJDMOOHDE_ = 0;
+        maxScore_ = 0;
 
-        aAHNFINJFAF_ = 0L;
+        creatorNickname_ = "";
 
-        musicId_ = 0;
-
-        cBNMDAGOMHA_ = 0;
-
-        jOLJHDCPGPN_ = 0;
-
-        gLBNECCHCOB_ = 0;
-
-        mBBJMGIIKKM_ = false;
-
-        dADJBDLKDFO_ = false;
-
-        cPAEGLGJACA_ = false;
-
-        hEAFAHPKFDO_ = false;
-
-        eHHGDAPAPLP_ = 0;
+        isPsnPlatform_ = false;
 
         version_ = 0;
 
-        ugcGuid_ = 0;
+        isPlayed_ = false;
 
-        fDMGJAOKBPP_ = 0;
+        musicId_ = 0;
 
-        lLLFNBFGDBF_ = 0;
+        saveTime_ = 0;
 
-        lPCOPFPMHAK_ = 0L;
+        ugcGuid_ = 0L;
 
-        hEBNGBGOAPM_ = 0;
+        jbgofomfahf_ = 0;
 
-        cMEALNJIJNG_ = 0;
+        lDDCHDFKLGO_ = 0;
 
-        mPNBDALHDAC_ = 0;
+        isChangedAfterPublish_ = false;
 
-        jBGOFOMFAHF_ = 0;
+        isPublished_ = false;
+
+        kFHNNAIABLG_ = 0;
+
+        publishTime_ = 0;
+
+        importFromUgcGuid_ = 0L;
+
+        BeatmapCategoryIdList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
+        cCJOGFPEKID_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000002);
+        if (socialBuilder_ == null) {
+          social_ = null;
+        } else {
+          social_ = null;
+          socialBuilder_ = null;
+        }
+        hHBOBIJKFPJ_ = 0;
+
+        pGHGCGNLNPG_ = 0;
+
+        iIPJKAOBBBD_ = 0;
+
+        mOIDOMCHPFG_ = 0;
+
+        cOAEPKLMKPE_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000004);
+        nLCMMJILBKJ_ = 0;
+
+        mLAJCIMGINA_ = 0;
 
         return this;
       }
@@ -1364,46 +1454,47 @@ public final class UgcMusicBriefInfoOuterClass {
       public emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo buildPartial() {
         emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo result = new emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo(this);
         int from_bitField0_ = bitField0_;
+        result.maxScore_ = maxScore_;
+        result.creatorNickname_ = creatorNickname_;
+        result.isPsnPlatform_ = isPsnPlatform_;
+        result.version_ = version_;
+        result.isPlayed_ = isPlayed_;
+        result.musicId_ = musicId_;
+        result.saveTime_ = saveTime_;
+        result.ugcGuid_ = ugcGuid_;
+        result.jbgofomfahf_ = jbgofomfahf_;
+        result.lDDCHDFKLGO_ = lDDCHDFKLGO_;
+        result.isChangedAfterPublish_ = isChangedAfterPublish_;
+        result.isPublished_ = isPublished_;
+        result.kFHNNAIABLG_ = kFHNNAIABLG_;
+        result.publishTime_ = publishTime_;
+        result.importFromUgcGuid_ = importFromUgcGuid_;
         if (((bitField0_ & 0x00000001) != 0)) {
-          kOCMDMMFGMI_.makeImmutable();
+          BeatmapCategoryIdList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.kOCMDMMFGMI_ = kOCMDMMFGMI_;
+        result.BeatmapCategoryIdList_ = BeatmapCategoryIdList_;
         if (((bitField0_ & 0x00000002) != 0)) {
-          gGLKNKFFEEE_.makeImmutable();
+          cCJOGFPEKID_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000002);
         }
-        result.gGLKNKFFEEE_ = gGLKNKFFEEE_;
+        result.cCJOGFPEKID_ = cCJOGFPEKID_;
+        if (socialBuilder_ == null) {
+          result.social_ = social_;
+        } else {
+          result.social_ = socialBuilder_.build();
+        }
+        result.hHBOBIJKFPJ_ = hHBOBIJKFPJ_;
+        result.pGHGCGNLNPG_ = pGHGCGNLNPG_;
+        result.iIPJKAOBBBD_ = iIPJKAOBBBD_;
+        result.mOIDOMCHPFG_ = mOIDOMCHPFG_;
         if (((bitField0_ & 0x00000004) != 0)) {
-          jJPMLJLDIHI_.makeImmutable();
+          cOAEPKLMKPE_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000004);
         }
-        result.jJPMLJLDIHI_ = jJPMLJLDIHI_;
-        if (cEKOLBFEPONBuilder_ == null) {
-          result.cEKOLBFEPON_ = cEKOLBFEPON_;
-        } else {
-          result.cEKOLBFEPON_ = cEKOLBFEPONBuilder_.build();
-        }
-        result.fPNJDMOOHDE_ = fPNJDMOOHDE_;
-        result.aAHNFINJFAF_ = aAHNFINJFAF_;
-        result.musicId_ = musicId_;
-        result.cBNMDAGOMHA_ = cBNMDAGOMHA_;
-        result.jOLJHDCPGPN_ = jOLJHDCPGPN_;
-        result.gLBNECCHCOB_ = gLBNECCHCOB_;
-        result.mBBJMGIIKKM_ = mBBJMGIIKKM_;
-        result.dADJBDLKDFO_ = dADJBDLKDFO_;
-        result.cPAEGLGJACA_ = cPAEGLGJACA_;
-        result.hEAFAHPKFDO_ = hEAFAHPKFDO_;
-        result.eHHGDAPAPLP_ = eHHGDAPAPLP_;
-        result.version_ = version_;
-        result.ugcGuid_ = ugcGuid_;
-        result.fDMGJAOKBPP_ = fDMGJAOKBPP_;
-        result.lLLFNBFGDBF_ = lLLFNBFGDBF_;
-        result.lPCOPFPMHAK_ = lPCOPFPMHAK_;
-        result.hEBNGBGOAPM_ = hEBNGBGOAPM_;
-        result.cMEALNJIJNG_ = cMEALNJIJNG_;
-        result.mPNBDALHDAC_ = mPNBDALHDAC_;
-        result.jBGOFOMFAHF_ = jBGOFOMFAHF_;
+        result.cOAEPKLMKPE_ = cOAEPKLMKPE_;
+        result.nLCMMJILBKJ_ = nLCMMJILBKJ_;
+        result.mLAJCIMGINA_ = mLAJCIMGINA_;
         onBuilt();
         return result;
       }
@@ -1452,98 +1543,102 @@ public final class UgcMusicBriefInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo other) {
         if (other == emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.getDefaultInstance()) return this;
-        if (!other.kOCMDMMFGMI_.isEmpty()) {
-          if (kOCMDMMFGMI_.isEmpty()) {
-            kOCMDMMFGMI_ = other.kOCMDMMFGMI_;
-            bitField0_ = (bitField0_ & ~0x00000001);
-          } else {
-            ensureKOCMDMMFGMIIsMutable();
-            kOCMDMMFGMI_.addAll(other.kOCMDMMFGMI_);
-          }
+        if (other.getMaxScore() != 0) {
+          setMaxScore(other.getMaxScore());
+        }
+        if (!other.getCreatorNickname().isEmpty()) {
+          creatorNickname_ = other.creatorNickname_;
           onChanged();
         }
-        if (!other.gGLKNKFFEEE_.isEmpty()) {
-          if (gGLKNKFFEEE_.isEmpty()) {
-            gGLKNKFFEEE_ = other.gGLKNKFFEEE_;
-            bitField0_ = (bitField0_ & ~0x00000002);
-          } else {
-            ensureGGLKNKFFEEEIsMutable();
-            gGLKNKFFEEE_.addAll(other.gGLKNKFFEEE_);
-          }
-          onChanged();
-        }
-        if (!other.jJPMLJLDIHI_.isEmpty()) {
-          if (jJPMLJLDIHI_.isEmpty()) {
-            jJPMLJLDIHI_ = other.jJPMLJLDIHI_;
-            bitField0_ = (bitField0_ & ~0x00000004);
-          } else {
-            ensureJJPMLJLDIHIIsMutable();
-            jJPMLJLDIHI_.addAll(other.jJPMLJLDIHI_);
-          }
-          onChanged();
-        }
-        if (other.hasCEKOLBFEPON()) {
-          mergeCEKOLBFEPON(other.getCEKOLBFEPON());
-        }
-        if (other.getFPNJDMOOHDE() != 0) {
-          setFPNJDMOOHDE(other.getFPNJDMOOHDE());
-        }
-        if (other.getAAHNFINJFAF() != 0L) {
-          setAAHNFINJFAF(other.getAAHNFINJFAF());
-        }
-        if (other.getMusicId() != 0) {
-          setMusicId(other.getMusicId());
-        }
-        if (other.getCBNMDAGOMHA() != 0) {
-          setCBNMDAGOMHA(other.getCBNMDAGOMHA());
-        }
-        if (other.getJOLJHDCPGPN() != 0) {
-          setJOLJHDCPGPN(other.getJOLJHDCPGPN());
-        }
-        if (other.getGLBNECCHCOB() != 0) {
-          setGLBNECCHCOB(other.getGLBNECCHCOB());
-        }
-        if (other.getMBBJMGIIKKM() != false) {
-          setMBBJMGIIKKM(other.getMBBJMGIIKKM());
-        }
-        if (other.getDADJBDLKDFO() != false) {
-          setDADJBDLKDFO(other.getDADJBDLKDFO());
-        }
-        if (other.getCPAEGLGJACA() != false) {
-          setCPAEGLGJACA(other.getCPAEGLGJACA());
-        }
-        if (other.getHEAFAHPKFDO() != false) {
-          setHEAFAHPKFDO(other.getHEAFAHPKFDO());
-        }
-        if (other.getEHHGDAPAPLP() != 0) {
-          setEHHGDAPAPLP(other.getEHHGDAPAPLP());
+        if (other.getIsPsnPlatform() != false) {
+          setIsPsnPlatform(other.getIsPsnPlatform());
         }
         if (other.getVersion() != 0) {
           setVersion(other.getVersion());
         }
-        if (other.getUgcGuid() != 0) {
+        if (other.getIsPlayed() != false) {
+          setIsPlayed(other.getIsPlayed());
+        }
+        if (other.getMusicId() != 0) {
+          setMusicId(other.getMusicId());
+        }
+        if (other.getSaveTime() != 0) {
+          setSaveTime(other.getSaveTime());
+        }
+        if (other.getUgcGuid() != 0L) {
           setUgcGuid(other.getUgcGuid());
         }
-        if (other.getFDMGJAOKBPP() != 0) {
-          setFDMGJAOKBPP(other.getFDMGJAOKBPP());
+        if (other.getJbgofomfahf() != 0) {
+          setJbgofomfahf(other.getJbgofomfahf());
         }
-        if (other.getLLLFNBFGDBF() != 0) {
-          setLLLFNBFGDBF(other.getLLLFNBFGDBF());
+        if (other.getLDDCHDFKLGO() != 0) {
+          setLDDCHDFKLGO(other.getLDDCHDFKLGO());
         }
-        if (other.getLPCOPFPMHAK() != 0L) {
-          setLPCOPFPMHAK(other.getLPCOPFPMHAK());
+        if (other.getIsChangedAfterPublish() != false) {
+          setIsChangedAfterPublish(other.getIsChangedAfterPublish());
         }
-        if (other.getHEBNGBGOAPM() != 0) {
-          setHEBNGBGOAPM(other.getHEBNGBGOAPM());
+        if (other.getIsPublished() != false) {
+          setIsPublished(other.getIsPublished());
         }
-        if (other.getCMEALNJIJNG() != 0) {
-          setCMEALNJIJNG(other.getCMEALNJIJNG());
+        if (other.getKFHNNAIABLG() != 0) {
+          setKFHNNAIABLG(other.getKFHNNAIABLG());
         }
-        if (other.getMPNBDALHDAC() != 0) {
-          setMPNBDALHDAC(other.getMPNBDALHDAC());
+        if (other.getPublishTime() != 0) {
+          setPublishTime(other.getPublishTime());
         }
-        if (other.getJBGOFOMFAHF() != 0) {
-          setJBGOFOMFAHF(other.getJBGOFOMFAHF());
+        if (other.getImportFromUgcGuid() != 0L) {
+          setImportFromUgcGuid(other.getImportFromUgcGuid());
+        }
+        if (!other.BeatmapCategoryIdList_.isEmpty()) {
+          if (BeatmapCategoryIdList_.isEmpty()) {
+            BeatmapCategoryIdList_ = other.BeatmapCategoryIdList_;
+            bitField0_ = (bitField0_ & ~0x00000001);
+          } else {
+            ensureBeatmapCategoryIdListIsMutable();
+            BeatmapCategoryIdList_.addAll(other.BeatmapCategoryIdList_);
+          }
+          onChanged();
+        }
+        if (!other.cCJOGFPEKID_.isEmpty()) {
+          if (cCJOGFPEKID_.isEmpty()) {
+            cCJOGFPEKID_ = other.cCJOGFPEKID_;
+            bitField0_ = (bitField0_ & ~0x00000002);
+          } else {
+            ensureCCJOGFPEKIDIsMutable();
+            cCJOGFPEKID_.addAll(other.cCJOGFPEKID_);
+          }
+          onChanged();
+        }
+        if (other.hasSocial()) {
+          mergeSocial(other.getSocial());
+        }
+        if (other.getHHBOBIJKFPJ() != 0) {
+          setHHBOBIJKFPJ(other.getHHBOBIJKFPJ());
+        }
+        if (other.getPGHGCGNLNPG() != 0) {
+          setPGHGCGNLNPG(other.getPGHGCGNLNPG());
+        }
+        if (other.getIIPJKAOBBBD() != 0) {
+          setIIPJKAOBBBD(other.getIIPJKAOBBBD());
+        }
+        if (other.getMOIDOMCHPFG() != 0) {
+          setMOIDOMCHPFG(other.getMOIDOMCHPFG());
+        }
+        if (!other.cOAEPKLMKPE_.isEmpty()) {
+          if (cOAEPKLMKPE_.isEmpty()) {
+            cOAEPKLMKPE_ = other.cOAEPKLMKPE_;
+            bitField0_ = (bitField0_ & ~0x00000004);
+          } else {
+            ensureCOAEPKLMKPEIsMutable();
+            cOAEPKLMKPE_.addAll(other.cOAEPKLMKPE_);
+          }
+          onChanged();
+        }
+        if (other.getNLCMMJILBKJ() != 0) {
+          setNLCMMJILBKJ(other.getNLCMMJILBKJ());
+        }
+        if (other.getMLAJCIMGINA() != 0) {
+          setMLAJCIMGINA(other.getMLAJCIMGINA());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -1575,948 +1670,1054 @@ public final class UgcMusicBriefInfoOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.Internal.IntList kOCMDMMFGMI_ = emptyIntList();
-      private void ensureKOCMDMMFGMIIsMutable() {
-        if (!((bitField0_ & 0x00000001) != 0)) {
-          kOCMDMMFGMI_ = mutableCopy(kOCMDMMFGMI_);
-          bitField0_ |= 0x00000001;
-         }
-      }
+      private int maxScore_ ;
       /**
-       * <code>repeated uint32 KOCMDMMFGMI = 104;</code>
-       * @return A list containing the kOCMDMMFGMI.
+       * <code>uint32 max_score = 1;</code>
+       * @return The maxScore.
        */
-      public java.util.List<java.lang.Integer>
-          getKOCMDMMFGMIList() {
-        return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(kOCMDMMFGMI_) : kOCMDMMFGMI_;
+      @java.lang.Override
+      public int getMaxScore() {
+        return maxScore_;
       }
       /**
-       * <code>repeated uint32 KOCMDMMFGMI = 104;</code>
-       * @return The count of kOCMDMMFGMI.
-       */
-      public int getKOCMDMMFGMICount() {
-        return kOCMDMMFGMI_.size();
-      }
-      /**
-       * <code>repeated uint32 KOCMDMMFGMI = 104;</code>
-       * @param index The index of the element to return.
-       * @return The kOCMDMMFGMI at the given index.
-       */
-      public int getKOCMDMMFGMI(int index) {
-        return kOCMDMMFGMI_.getInt(index);
-      }
-      /**
-       * <code>repeated uint32 KOCMDMMFGMI = 104;</code>
-       * @param index The index to set the value at.
-       * @param value The kOCMDMMFGMI to set.
+       * <code>uint32 max_score = 1;</code>
+       * @param value The maxScore to set.
        * @return This builder for chaining.
        */
-      public Builder setKOCMDMMFGMI(
-          int index, int value) {
-        ensureKOCMDMMFGMIIsMutable();
-        kOCMDMMFGMI_.setInt(index, value);
+      public Builder setMaxScore(int value) {
+        
+        maxScore_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 KOCMDMMFGMI = 104;</code>
-       * @param value The kOCMDMMFGMI to add.
+       * <code>uint32 max_score = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder addKOCMDMMFGMI(int value) {
-        ensureKOCMDMMFGMIIsMutable();
-        kOCMDMMFGMI_.addInt(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 KOCMDMMFGMI = 104;</code>
-       * @param values The kOCMDMMFGMI to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllKOCMDMMFGMI(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureKOCMDMMFGMIIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, kOCMDMMFGMI_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 KOCMDMMFGMI = 104;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearKOCMDMMFGMI() {
-        kOCMDMMFGMI_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
+      public Builder clearMaxScore() {
+        
+        maxScore_ = 0;
         onChanged();
         return this;
       }
 
-      private com.google.protobuf.Internal.IntList gGLKNKFFEEE_ = emptyIntList();
-      private void ensureGGLKNKFFEEEIsMutable() {
-        if (!((bitField0_ & 0x00000002) != 0)) {
-          gGLKNKFFEEE_ = mutableCopy(gGLKNKFFEEE_);
-          bitField0_ |= 0x00000002;
-         }
-      }
+      private java.lang.Object creatorNickname_ = "";
       /**
-       * <code>repeated uint32 GGLKNKFFEEE = 1351;</code>
-       * @return A list containing the gGLKNKFFEEE.
+       * <code>string creator_nickname = 2;</code>
+       * @return The creatorNickname.
        */
-      public java.util.List<java.lang.Integer>
-          getGGLKNKFFEEEList() {
-        return ((bitField0_ & 0x00000002) != 0) ?
-                 java.util.Collections.unmodifiableList(gGLKNKFFEEE_) : gGLKNKFFEEE_;
-      }
-      /**
-       * <code>repeated uint32 GGLKNKFFEEE = 1351;</code>
-       * @return The count of gGLKNKFFEEE.
-       */
-      public int getGGLKNKFFEEECount() {
-        return gGLKNKFFEEE_.size();
-      }
-      /**
-       * <code>repeated uint32 GGLKNKFFEEE = 1351;</code>
-       * @param index The index of the element to return.
-       * @return The gGLKNKFFEEE at the given index.
-       */
-      public int getGGLKNKFFEEE(int index) {
-        return gGLKNKFFEEE_.getInt(index);
-      }
-      /**
-       * <code>repeated uint32 GGLKNKFFEEE = 1351;</code>
-       * @param index The index to set the value at.
-       * @param value The gGLKNKFFEEE to set.
-       * @return This builder for chaining.
-       */
-      public Builder setGGLKNKFFEEE(
-          int index, int value) {
-        ensureGGLKNKFFEEEIsMutable();
-        gGLKNKFFEEE_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 GGLKNKFFEEE = 1351;</code>
-       * @param value The gGLKNKFFEEE to add.
-       * @return This builder for chaining.
-       */
-      public Builder addGGLKNKFFEEE(int value) {
-        ensureGGLKNKFFEEEIsMutable();
-        gGLKNKFFEEE_.addInt(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 GGLKNKFFEEE = 1351;</code>
-       * @param values The gGLKNKFFEEE to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllGGLKNKFFEEE(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureGGLKNKFFEEEIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, gGLKNKFFEEE_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 GGLKNKFFEEE = 1351;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearGGLKNKFFEEE() {
-        gGLKNKFFEEE_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
-        onChanged();
-        return this;
-      }
-
-      private com.google.protobuf.Internal.IntList jJPMLJLDIHI_ = emptyIntList();
-      private void ensureJJPMLJLDIHIIsMutable() {
-        if (!((bitField0_ & 0x00000004) != 0)) {
-          jJPMLJLDIHI_ = mutableCopy(jJPMLJLDIHI_);
-          bitField0_ |= 0x00000004;
-         }
-      }
-      /**
-       * <code>repeated uint32 JJPMLJLDIHI = 102;</code>
-       * @return A list containing the jJPMLJLDIHI.
-       */
-      public java.util.List<java.lang.Integer>
-          getJJPMLJLDIHIList() {
-        return ((bitField0_ & 0x00000004) != 0) ?
-                 java.util.Collections.unmodifiableList(jJPMLJLDIHI_) : jJPMLJLDIHI_;
-      }
-      /**
-       * <code>repeated uint32 JJPMLJLDIHI = 102;</code>
-       * @return The count of jJPMLJLDIHI.
-       */
-      public int getJJPMLJLDIHICount() {
-        return jJPMLJLDIHI_.size();
-      }
-      /**
-       * <code>repeated uint32 JJPMLJLDIHI = 102;</code>
-       * @param index The index of the element to return.
-       * @return The jJPMLJLDIHI at the given index.
-       */
-      public int getJJPMLJLDIHI(int index) {
-        return jJPMLJLDIHI_.getInt(index);
-      }
-      /**
-       * <code>repeated uint32 JJPMLJLDIHI = 102;</code>
-       * @param index The index to set the value at.
-       * @param value The jJPMLJLDIHI to set.
-       * @return This builder for chaining.
-       */
-      public Builder setJJPMLJLDIHI(
-          int index, int value) {
-        ensureJJPMLJLDIHIIsMutable();
-        jJPMLJLDIHI_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 JJPMLJLDIHI = 102;</code>
-       * @param value The jJPMLJLDIHI to add.
-       * @return This builder for chaining.
-       */
-      public Builder addJJPMLJLDIHI(int value) {
-        ensureJJPMLJLDIHIIsMutable();
-        jJPMLJLDIHI_.addInt(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 JJPMLJLDIHI = 102;</code>
-       * @param values The jJPMLJLDIHI to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllJJPMLJLDIHI(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureJJPMLJLDIHIIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, jJPMLJLDIHI_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 JJPMLJLDIHI = 102;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearJJPMLJLDIHI() {
-        jJPMLJLDIHI_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000004);
-        onChanged();
-        return this;
-      }
-
-      private emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJ cEKOLBFEPON_;
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJ, emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJ.Builder, emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJOrBuilder> cEKOLBFEPONBuilder_;
-      /**
-       * <code>.DAPPJPEICGJ CEKOLBFEPON = 489;</code>
-       * @return Whether the cEKOLBFEPON field is set.
-       */
-      public boolean hasCEKOLBFEPON() {
-        return cEKOLBFEPONBuilder_ != null || cEKOLBFEPON_ != null;
-      }
-      /**
-       * <code>.DAPPJPEICGJ CEKOLBFEPON = 489;</code>
-       * @return The cEKOLBFEPON.
-       */
-      public emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJ getCEKOLBFEPON() {
-        if (cEKOLBFEPONBuilder_ == null) {
-          return cEKOLBFEPON_ == null ? emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJ.getDefaultInstance() : cEKOLBFEPON_;
+      public java.lang.String getCreatorNickname() {
+        java.lang.Object ref = creatorNickname_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          creatorNickname_ = s;
+          return s;
         } else {
-          return cEKOLBFEPONBuilder_.getMessage();
+          return (java.lang.String) ref;
         }
       }
       /**
-       * <code>.DAPPJPEICGJ CEKOLBFEPON = 489;</code>
+       * <code>string creator_nickname = 2;</code>
+       * @return The bytes for creatorNickname.
        */
-      public Builder setCEKOLBFEPON(emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJ value) {
-        if (cEKOLBFEPONBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          cEKOLBFEPON_ = value;
-          onChanged();
+      public com.google.protobuf.ByteString
+          getCreatorNicknameBytes() {
+        java.lang.Object ref = creatorNickname_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          creatorNickname_ = b;
+          return b;
         } else {
-          cEKOLBFEPONBuilder_.setMessage(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>.DAPPJPEICGJ CEKOLBFEPON = 489;</code>
-       */
-      public Builder setCEKOLBFEPON(
-          emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJ.Builder builderForValue) {
-        if (cEKOLBFEPONBuilder_ == null) {
-          cEKOLBFEPON_ = builderForValue.build();
-          onChanged();
-        } else {
-          cEKOLBFEPONBuilder_.setMessage(builderForValue.build());
-        }
-
-        return this;
-      }
-      /**
-       * <code>.DAPPJPEICGJ CEKOLBFEPON = 489;</code>
-       */
-      public Builder mergeCEKOLBFEPON(emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJ value) {
-        if (cEKOLBFEPONBuilder_ == null) {
-          if (cEKOLBFEPON_ != null) {
-            cEKOLBFEPON_ =
-              emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJ.newBuilder(cEKOLBFEPON_).mergeFrom(value).buildPartial();
-          } else {
-            cEKOLBFEPON_ = value;
-          }
-          onChanged();
-        } else {
-          cEKOLBFEPONBuilder_.mergeFrom(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>.DAPPJPEICGJ CEKOLBFEPON = 489;</code>
-       */
-      public Builder clearCEKOLBFEPON() {
-        if (cEKOLBFEPONBuilder_ == null) {
-          cEKOLBFEPON_ = null;
-          onChanged();
-        } else {
-          cEKOLBFEPON_ = null;
-          cEKOLBFEPONBuilder_ = null;
-        }
-
-        return this;
-      }
-      /**
-       * <code>.DAPPJPEICGJ CEKOLBFEPON = 489;</code>
-       */
-      public emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJ.Builder getCEKOLBFEPONBuilder() {
-
-        onChanged();
-        return getCEKOLBFEPONFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>.DAPPJPEICGJ CEKOLBFEPON = 489;</code>
-       */
-      public emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJOrBuilder getCEKOLBFEPONOrBuilder() {
-        if (cEKOLBFEPONBuilder_ != null) {
-          return cEKOLBFEPONBuilder_.getMessageOrBuilder();
-        } else {
-          return cEKOLBFEPON_ == null ?
-              emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJ.getDefaultInstance() : cEKOLBFEPON_;
+          return (com.google.protobuf.ByteString) ref;
         }
       }
       /**
-       * <code>.DAPPJPEICGJ CEKOLBFEPON = 489;</code>
+       * <code>string creator_nickname = 2;</code>
+       * @param value The creatorNickname to set.
+       * @return This builder for chaining.
        */
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJ, emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJ.Builder, emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJOrBuilder>
-          getCEKOLBFEPONFieldBuilder() {
-        if (cEKOLBFEPONBuilder_ == null) {
-          cEKOLBFEPONBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJ, emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJ.Builder, emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.DAPPJPEICGJOrBuilder>(
-                  getCEKOLBFEPON(),
-                  getParentForChildren(),
-                  isClean());
-          cEKOLBFEPON_ = null;
-        }
-        return cEKOLBFEPONBuilder_;
+      public Builder setCreatorNickname(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        creatorNickname_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>string creator_nickname = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearCreatorNickname() {
+        
+        creatorNickname_ = getDefaultInstance().getCreatorNickname();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>string creator_nickname = 2;</code>
+       * @param value The bytes for creatorNickname to set.
+       * @return This builder for chaining.
+       */
+      public Builder setCreatorNicknameBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+        
+        creatorNickname_ = value;
+        onChanged();
+        return this;
       }
 
-      private int fPNJDMOOHDE_ ;
+      private boolean isPsnPlatform_ ;
       /**
-       * <code>uint32 FPNJDMOOHDE = 2016;</code>
-       * @return The fPNJDMOOHDE.
+       * <code>bool is_psn_platform = 3;</code>
+       * @return The isPsnPlatform.
        */
       @java.lang.Override
-      public int getFPNJDMOOHDE() {
-        return fPNJDMOOHDE_;
+      public boolean getIsPsnPlatform() {
+        return isPsnPlatform_;
       }
       /**
-       * <code>uint32 FPNJDMOOHDE = 2016;</code>
-       * @param value The fPNJDMOOHDE to set.
+       * <code>bool is_psn_platform = 3;</code>
+       * @param value The isPsnPlatform to set.
        * @return This builder for chaining.
        */
-      public Builder setFPNJDMOOHDE(int value) {
-
-        fPNJDMOOHDE_ = value;
+      public Builder setIsPsnPlatform(boolean value) {
+        
+        isPsnPlatform_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 FPNJDMOOHDE = 2016;</code>
+       * <code>bool is_psn_platform = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearFPNJDMOOHDE() {
-
-        fPNJDMOOHDE_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private long aAHNFINJFAF_ ;
-      /**
-       * <code>uint64 AAHNFINJFAF = 11;</code>
-       * @return The aAHNFINJFAF.
-       */
-      @java.lang.Override
-      public long getAAHNFINJFAF() {
-        return aAHNFINJFAF_;
-      }
-      /**
-       * <code>uint64 AAHNFINJFAF = 11;</code>
-       * @param value The aAHNFINJFAF to set.
-       * @return This builder for chaining.
-       */
-      public Builder setAAHNFINJFAF(long value) {
-
-        aAHNFINJFAF_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint64 AAHNFINJFAF = 11;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearAAHNFINJFAF() {
-
-        aAHNFINJFAF_ = 0L;
-        onChanged();
-        return this;
-      }
-
-      private int musicId_ ;
-
-      @java.lang.Override
-      public int getMusicId() {
-        return musicId_;
-      }
-
-      public Builder setMusicId(int value) {
-
-        musicId_ = value;
-        onChanged();
-        return this;
-      }
-
-      public Builder clearMusicId() {
-
-        musicId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int cBNMDAGOMHA_ ;
-      /**
-       * <code>uint32 CBNMDAGOMHA = 926;</code>
-       * @return The cBNMDAGOMHA.
-       */
-      @java.lang.Override
-      public int getCBNMDAGOMHA() {
-        return cBNMDAGOMHA_;
-      }
-      /**
-       * <code>uint32 CBNMDAGOMHA = 926;</code>
-       * @param value The cBNMDAGOMHA to set.
-       * @return This builder for chaining.
-       */
-      public Builder setCBNMDAGOMHA(int value) {
-
-        cBNMDAGOMHA_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 CBNMDAGOMHA = 926;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearCBNMDAGOMHA() {
-
-        cBNMDAGOMHA_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int jOLJHDCPGPN_ ;
-      /**
-       * <code>uint32 JOLJHDCPGPN = 7;</code>
-       * @return The jOLJHDCPGPN.
-       */
-      @java.lang.Override
-      public int getJOLJHDCPGPN() {
-        return jOLJHDCPGPN_;
-      }
-      /**
-       * <code>uint32 JOLJHDCPGPN = 7;</code>
-       * @param value The jOLJHDCPGPN to set.
-       * @return This builder for chaining.
-       */
-      public Builder setJOLJHDCPGPN(int value) {
-
-        jOLJHDCPGPN_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 JOLJHDCPGPN = 7;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearJOLJHDCPGPN() {
-
-        jOLJHDCPGPN_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int gLBNECCHCOB_ ;
-      /**
-       * <code>uint32 GLBNECCHCOB = 5;</code>
-       * @return The gLBNECCHCOB.
-       */
-      @java.lang.Override
-      public int getGLBNECCHCOB() {
-        return gLBNECCHCOB_;
-      }
-      /**
-       * <code>uint32 GLBNECCHCOB = 5;</code>
-       * @param value The gLBNECCHCOB to set.
-       * @return This builder for chaining.
-       */
-      public Builder setGLBNECCHCOB(int value) {
-
-        gLBNECCHCOB_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 GLBNECCHCOB = 5;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearGLBNECCHCOB() {
-
-        gLBNECCHCOB_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private boolean mBBJMGIIKKM_ ;
-      /**
-       * <code>bool MBBJMGIIKKM = 201;</code>
-       * @return The mBBJMGIIKKM.
-       */
-      @java.lang.Override
-      public boolean getMBBJMGIIKKM() {
-        return mBBJMGIIKKM_;
-      }
-      /**
-       * <code>bool MBBJMGIIKKM = 201;</code>
-       * @param value The mBBJMGIIKKM to set.
-       * @return This builder for chaining.
-       */
-      public Builder setMBBJMGIIKKM(boolean value) {
-
-        mBBJMGIIKKM_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool MBBJMGIIKKM = 201;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearMBBJMGIIKKM() {
-
-        mBBJMGIIKKM_ = false;
-        onChanged();
-        return this;
-      }
-
-      private boolean dADJBDLKDFO_ ;
-      /**
-       * <code>bool DADJBDLKDFO = 16;</code>
-       * @return The dADJBDLKDFO.
-       */
-      @java.lang.Override
-      public boolean getDADJBDLKDFO() {
-        return dADJBDLKDFO_;
-      }
-      /**
-       * <code>bool DADJBDLKDFO = 16;</code>
-       * @param value The dADJBDLKDFO to set.
-       * @return This builder for chaining.
-       */
-      public Builder setDADJBDLKDFO(boolean value) {
-
-        dADJBDLKDFO_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool DADJBDLKDFO = 16;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearDADJBDLKDFO() {
-
-        dADJBDLKDFO_ = false;
-        onChanged();
-        return this;
-      }
-
-      private boolean cPAEGLGJACA_ ;
-      /**
-       * <code>bool CPAEGLGJACA = 10;</code>
-       * @return The cPAEGLGJACA.
-       */
-      @java.lang.Override
-      public boolean getCPAEGLGJACA() {
-        return cPAEGLGJACA_;
-      }
-      /**
-       * <code>bool CPAEGLGJACA = 10;</code>
-       * @param value The cPAEGLGJACA to set.
-       * @return This builder for chaining.
-       */
-      public Builder setCPAEGLGJACA(boolean value) {
-
-        cPAEGLGJACA_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool CPAEGLGJACA = 10;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearCPAEGLGJACA() {
-
-        cPAEGLGJACA_ = false;
-        onChanged();
-        return this;
-      }
-
-      private boolean hEAFAHPKFDO_ ;
-      /**
-       * <code>bool HEAFAHPKFDO = 17;</code>
-       * @return The hEAFAHPKFDO.
-       */
-      @java.lang.Override
-      public boolean getHEAFAHPKFDO() {
-        return hEAFAHPKFDO_;
-      }
-      /**
-       * <code>bool HEAFAHPKFDO = 17;</code>
-       * @param value The hEAFAHPKFDO to set.
-       * @return This builder for chaining.
-       */
-      public Builder setHEAFAHPKFDO(boolean value) {
-
-        hEAFAHPKFDO_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool HEAFAHPKFDO = 17;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearHEAFAHPKFDO() {
-
-        hEAFAHPKFDO_ = false;
-        onChanged();
-        return this;
-      }
-
-      private int eHHGDAPAPLP_ ;
-      /**
-       * <code>uint32 EHHGDAPAPLP = 1197;</code>
-       * @return The eHHGDAPAPLP.
-       */
-      @java.lang.Override
-      public int getEHHGDAPAPLP() {
-        return eHHGDAPAPLP_;
-      }
-      /**
-       * <code>uint32 EHHGDAPAPLP = 1197;</code>
-       * @param value The eHHGDAPAPLP to set.
-       * @return This builder for chaining.
-       */
-      public Builder setEHHGDAPAPLP(int value) {
-
-        eHHGDAPAPLP_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 EHHGDAPAPLP = 1197;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearEHHGDAPAPLP() {
-
-        eHHGDAPAPLP_ = 0;
+      public Builder clearIsPsnPlatform() {
+        
+        isPsnPlatform_ = false;
         onChanged();
         return this;
       }
 
       private int version_ ;
-
+      /**
+       * <code>uint32 version = 4;</code>
+       * @return The version.
+       */
       @java.lang.Override
       public int getVersion() {
         return version_;
       }
-
+      /**
+       * <code>uint32 version = 4;</code>
+       * @param value The version to set.
+       * @return This builder for chaining.
+       */
       public Builder setVersion(int value) {
-
+        
         version_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint32 version = 4;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearVersion() {
-
+        
         version_ = 0;
         onChanged();
         return this;
       }
 
-      private int ugcGuid_ ;
-
+      private boolean isPlayed_ ;
+      /**
+       * <code>bool is_played = 5;</code>
+       * @return The isPlayed.
+       */
       @java.lang.Override
-      public int getUgcGuid() {
-        return ugcGuid_;
+      public boolean getIsPlayed() {
+        return isPlayed_;
+      }
+      /**
+       * <code>bool is_played = 5;</code>
+       * @param value The isPlayed to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIsPlayed(boolean value) {
+        
+        isPlayed_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool is_played = 5;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIsPlayed() {
+        
+        isPlayed_ = false;
+        onChanged();
+        return this;
       }
 
-      public Builder setUgcGuid(int value) {
+      private int musicId_ ;
+      /**
+       * <code>uint32 music_id = 6;</code>
+       * @return The musicId.
+       */
+      @java.lang.Override
+      public int getMusicId() {
+        return musicId_;
+      }
+      /**
+       * <code>uint32 music_id = 6;</code>
+       * @param value The musicId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setMusicId(int value) {
+        
+        musicId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 music_id = 6;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearMusicId() {
+        
+        musicId_ = 0;
+        onChanged();
+        return this;
+      }
 
+      private int saveTime_ ;
+      /**
+       * <code>uint32 save_time = 7;</code>
+       * @return The saveTime.
+       */
+      @java.lang.Override
+      public int getSaveTime() {
+        return saveTime_;
+      }
+      /**
+       * <code>uint32 save_time = 7;</code>
+       * @param value The saveTime to set.
+       * @return This builder for chaining.
+       */
+      public Builder setSaveTime(int value) {
+        
+        saveTime_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 save_time = 7;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearSaveTime() {
+        
+        saveTime_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private long ugcGuid_ ;
+      /**
+       * <code>uint64 ugc_guid = 8;</code>
+       * @return The ugcGuid.
+       */
+      @java.lang.Override
+      public long getUgcGuid() {
+        return ugcGuid_;
+      }
+      /**
+       * <code>uint64 ugc_guid = 8;</code>
+       * @param value The ugcGuid to set.
+       * @return This builder for chaining.
+       */
+      public Builder setUgcGuid(long value) {
+        
         ugcGuid_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint64 ugc_guid = 8;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearUgcGuid() {
-
-        ugcGuid_ = 0;
+        
+        ugcGuid_ = 0L;
         onChanged();
         return this;
       }
 
-      private int fDMGJAOKBPP_ ;
+      private int jbgofomfahf_ ;
       /**
-       * <code>uint32 FDMGJAOKBPP = 3;</code>
-       * @return The fDMGJAOKBPP.
+       * <code>uint32 jbgofomfahf = 9;</code>
+       * @return The jbgofomfahf.
        */
       @java.lang.Override
-      public int getFDMGJAOKBPP() {
-        return fDMGJAOKBPP_;
+      public int getJbgofomfahf() {
+        return jbgofomfahf_;
       }
       /**
-       * <code>uint32 FDMGJAOKBPP = 3;</code>
-       * @param value The fDMGJAOKBPP to set.
+       * <code>uint32 jbgofomfahf = 9;</code>
+       * @param value The jbgofomfahf to set.
        * @return This builder for chaining.
        */
-      public Builder setFDMGJAOKBPP(int value) {
-
-        fDMGJAOKBPP_ = value;
+      public Builder setJbgofomfahf(int value) {
+        
+        jbgofomfahf_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 FDMGJAOKBPP = 3;</code>
+       * <code>uint32 jbgofomfahf = 9;</code>
        * @return This builder for chaining.
        */
-      public Builder clearFDMGJAOKBPP() {
-
-        fDMGJAOKBPP_ = 0;
+      public Builder clearJbgofomfahf() {
+        
+        jbgofomfahf_ = 0;
         onChanged();
         return this;
       }
 
-      private int lLLFNBFGDBF_ ;
+      private int lDDCHDFKLGO_ ;
       /**
-       * <code>uint32 LLLFNBFGDBF = 1173;</code>
-       * @return The lLLFNBFGDBF.
+       * <code>uint32 LDDCHDFKLGO = 10;</code>
+       * @return The lDDCHDFKLGO.
        */
       @java.lang.Override
-      public int getLLLFNBFGDBF() {
-        return lLLFNBFGDBF_;
+      public int getLDDCHDFKLGO() {
+        return lDDCHDFKLGO_;
       }
       /**
-       * <code>uint32 LLLFNBFGDBF = 1173;</code>
-       * @param value The lLLFNBFGDBF to set.
+       * <code>uint32 LDDCHDFKLGO = 10;</code>
+       * @param value The lDDCHDFKLGO to set.
        * @return This builder for chaining.
        */
-      public Builder setLLLFNBFGDBF(int value) {
-
-        lLLFNBFGDBF_ = value;
+      public Builder setLDDCHDFKLGO(int value) {
+        
+        lDDCHDFKLGO_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 LLLFNBFGDBF = 1173;</code>
+       * <code>uint32 LDDCHDFKLGO = 10;</code>
        * @return This builder for chaining.
        */
-      public Builder clearLLLFNBFGDBF() {
-
-        lLLFNBFGDBF_ = 0;
+      public Builder clearLDDCHDFKLGO() {
+        
+        lDDCHDFKLGO_ = 0;
         onChanged();
         return this;
       }
 
-      private long lPCOPFPMHAK_ ;
+      private boolean isChangedAfterPublish_ ;
       /**
-       * <code>uint64 LPCOPFPMHAK = 8;</code>
-       * @return The lPCOPFPMHAK.
+       * <code>bool is_changed_after_publish = 11;</code>
+       * @return The isChangedAfterPublish.
        */
       @java.lang.Override
-      public long getLPCOPFPMHAK() {
-        return lPCOPFPMHAK_;
+      public boolean getIsChangedAfterPublish() {
+        return isChangedAfterPublish_;
       }
       /**
-       * <code>uint64 LPCOPFPMHAK = 8;</code>
-       * @param value The lPCOPFPMHAK to set.
+       * <code>bool is_changed_after_publish = 11;</code>
+       * @param value The isChangedAfterPublish to set.
        * @return This builder for chaining.
        */
-      public Builder setLPCOPFPMHAK(long value) {
-
-        lPCOPFPMHAK_ = value;
+      public Builder setIsChangedAfterPublish(boolean value) {
+        
+        isChangedAfterPublish_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint64 LPCOPFPMHAK = 8;</code>
+       * <code>bool is_changed_after_publish = 11;</code>
        * @return This builder for chaining.
        */
-      public Builder clearLPCOPFPMHAK() {
-
-        lPCOPFPMHAK_ = 0L;
+      public Builder clearIsChangedAfterPublish() {
+        
+        isChangedAfterPublish_ = false;
         onChanged();
         return this;
       }
 
-      private int hEBNGBGOAPM_ ;
+      private boolean isPublished_ ;
       /**
-       * <code>uint32 HEBNGBGOAPM = 801;</code>
-       * @return The hEBNGBGOAPM.
+       * <code>bool is_published = 12;</code>
+       * @return The isPublished.
        */
       @java.lang.Override
-      public int getHEBNGBGOAPM() {
-        return hEBNGBGOAPM_;
+      public boolean getIsPublished() {
+        return isPublished_;
       }
       /**
-       * <code>uint32 HEBNGBGOAPM = 801;</code>
-       * @param value The hEBNGBGOAPM to set.
+       * <code>bool is_published = 12;</code>
+       * @param value The isPublished to set.
        * @return This builder for chaining.
        */
-      public Builder setHEBNGBGOAPM(int value) {
-
-        hEBNGBGOAPM_ = value;
+      public Builder setIsPublished(boolean value) {
+        
+        isPublished_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 HEBNGBGOAPM = 801;</code>
+       * <code>bool is_published = 12;</code>
        * @return This builder for chaining.
        */
-      public Builder clearHEBNGBGOAPM() {
-
-        hEBNGBGOAPM_ = 0;
+      public Builder clearIsPublished() {
+        
+        isPublished_ = false;
         onChanged();
         return this;
       }
 
-      private int cMEALNJIJNG_ ;
+      private int kFHNNAIABLG_ ;
       /**
-       * <code>uint32 CMEALNJIJNG = 967;</code>
-       * @return The cMEALNJIJNG.
+       * <code>uint32 KFHNNAIABLG = 13;</code>
+       * @return The kFHNNAIABLG.
        */
       @java.lang.Override
-      public int getCMEALNJIJNG() {
-        return cMEALNJIJNG_;
+      public int getKFHNNAIABLG() {
+        return kFHNNAIABLG_;
       }
       /**
-       * <code>uint32 CMEALNJIJNG = 967;</code>
-       * @param value The cMEALNJIJNG to set.
+       * <code>uint32 KFHNNAIABLG = 13;</code>
+       * @param value The kFHNNAIABLG to set.
        * @return This builder for chaining.
        */
-      public Builder setCMEALNJIJNG(int value) {
-
-        cMEALNJIJNG_ = value;
+      public Builder setKFHNNAIABLG(int value) {
+        
+        kFHNNAIABLG_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 CMEALNJIJNG = 967;</code>
+       * <code>uint32 KFHNNAIABLG = 13;</code>
        * @return This builder for chaining.
        */
-      public Builder clearCMEALNJIJNG() {
-
-        cMEALNJIJNG_ = 0;
+      public Builder clearKFHNNAIABLG() {
+        
+        kFHNNAIABLG_ = 0;
         onChanged();
         return this;
       }
 
-      private int mPNBDALHDAC_ ;
+      private int publishTime_ ;
       /**
-       * <code>uint32 MPNBDALHDAC = 543;</code>
-       * @return The mPNBDALHDAC.
+       * <code>uint32 publish_time = 14;</code>
+       * @return The publishTime.
        */
       @java.lang.Override
-      public int getMPNBDALHDAC() {
-        return mPNBDALHDAC_;
+      public int getPublishTime() {
+        return publishTime_;
       }
       /**
-       * <code>uint32 MPNBDALHDAC = 543;</code>
-       * @param value The mPNBDALHDAC to set.
+       * <code>uint32 publish_time = 14;</code>
+       * @param value The publishTime to set.
        * @return This builder for chaining.
        */
-      public Builder setMPNBDALHDAC(int value) {
-
-        mPNBDALHDAC_ = value;
+      public Builder setPublishTime(int value) {
+        
+        publishTime_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 MPNBDALHDAC = 543;</code>
+       * <code>uint32 publish_time = 14;</code>
        * @return This builder for chaining.
        */
-      public Builder clearMPNBDALHDAC() {
-
-        mPNBDALHDAC_ = 0;
+      public Builder clearPublishTime() {
+        
+        publishTime_ = 0;
         onChanged();
         return this;
       }
 
-      private int jBGOFOMFAHF_ ;
+      private long importFromUgcGuid_ ;
       /**
-       * <code>uint32 JBGOFOMFAHF = 9;</code>
-       * @return The jBGOFOMFAHF.
+       * <code>uint64 import_from_ugc_guid = 15;</code>
+       * @return The importFromUgcGuid.
        */
       @java.lang.Override
-      public int getJBGOFOMFAHF() {
-        return jBGOFOMFAHF_;
+      public long getImportFromUgcGuid() {
+        return importFromUgcGuid_;
       }
       /**
-       * <code>uint32 JBGOFOMFAHF = 9;</code>
-       * @param value The jBGOFOMFAHF to set.
+       * <code>uint64 import_from_ugc_guid = 15;</code>
+       * @param value The importFromUgcGuid to set.
        * @return This builder for chaining.
        */
-      public Builder setJBGOFOMFAHF(int value) {
-
-        jBGOFOMFAHF_ = value;
+      public Builder setImportFromUgcGuid(long value) {
+        
+        importFromUgcGuid_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 JBGOFOMFAHF = 9;</code>
+       * <code>uint64 import_from_ugc_guid = 15;</code>
        * @return This builder for chaining.
        */
-      public Builder clearJBGOFOMFAHF() {
+      public Builder clearImportFromUgcGuid() {
+        
+        importFromUgcGuid_ = 0L;
+        onChanged();
+        return this;
+      }
 
-        jBGOFOMFAHF_ = 0;
+      private com.google.protobuf.Internal.IntList BeatmapCategoryIdList_ = emptyIntList();
+      private void ensureBeatmapCategoryIdListIsMutable() {
+        if (!((bitField0_ & 0x00000001) != 0)) {
+          BeatmapCategoryIdList_ = mutableCopy(BeatmapCategoryIdList_);
+          bitField0_ |= 0x00000001;
+         }
+      }
+      /**
+       * <code>repeated uint32 _beatmap_category_id_list = 759;</code>
+       * @return A list containing the beatmapCategoryIdList.
+       */
+      public java.util.List<java.lang.Integer>
+          getBeatmapCategoryIdListList() {
+        return ((bitField0_ & 0x00000001) != 0) ?
+                 java.util.Collections.unmodifiableList(BeatmapCategoryIdList_) : BeatmapCategoryIdList_;
+      }
+      /**
+       * <code>repeated uint32 _beatmap_category_id_list = 759;</code>
+       * @return The count of beatmapCategoryIdList.
+       */
+      public int getBeatmapCategoryIdListCount() {
+        return BeatmapCategoryIdList_.size();
+      }
+      /**
+       * <code>repeated uint32 _beatmap_category_id_list = 759;</code>
+       * @param index The index of the element to return.
+       * @return The beatmapCategoryIdList at the given index.
+       */
+      public int getBeatmapCategoryIdList(int index) {
+        return BeatmapCategoryIdList_.getInt(index);
+      }
+      /**
+       * <code>repeated uint32 _beatmap_category_id_list = 759;</code>
+       * @param index The index to set the value at.
+       * @param value The beatmapCategoryIdList to set.
+       * @return This builder for chaining.
+       */
+      public Builder setBeatmapCategoryIdList(
+          int index, int value) {
+        ensureBeatmapCategoryIdListIsMutable();
+        BeatmapCategoryIdList_.setInt(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 _beatmap_category_id_list = 759;</code>
+       * @param value The beatmapCategoryIdList to add.
+       * @return This builder for chaining.
+       */
+      public Builder addBeatmapCategoryIdList(int value) {
+        ensureBeatmapCategoryIdListIsMutable();
+        BeatmapCategoryIdList_.addInt(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 _beatmap_category_id_list = 759;</code>
+       * @param values The beatmapCategoryIdList to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllBeatmapCategoryIdList(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureBeatmapCategoryIdListIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, BeatmapCategoryIdList_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 _beatmap_category_id_list = 759;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearBeatmapCategoryIdList() {
+        BeatmapCategoryIdList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.Internal.IntList cCJOGFPEKID_ = emptyIntList();
+      private void ensureCCJOGFPEKIDIsMutable() {
+        if (!((bitField0_ & 0x00000002) != 0)) {
+          cCJOGFPEKID_ = mutableCopy(cCJOGFPEKID_);
+          bitField0_ |= 0x00000002;
+         }
+      }
+      /**
+       * <code>repeated uint32 CCJOGFPEKID = 953;</code>
+       * @return A list containing the cCJOGFPEKID.
+       */
+      public java.util.List<java.lang.Integer>
+          getCCJOGFPEKIDList() {
+        return ((bitField0_ & 0x00000002) != 0) ?
+                 java.util.Collections.unmodifiableList(cCJOGFPEKID_) : cCJOGFPEKID_;
+      }
+      /**
+       * <code>repeated uint32 CCJOGFPEKID = 953;</code>
+       * @return The count of cCJOGFPEKID.
+       */
+      public int getCCJOGFPEKIDCount() {
+        return cCJOGFPEKID_.size();
+      }
+      /**
+       * <code>repeated uint32 CCJOGFPEKID = 953;</code>
+       * @param index The index of the element to return.
+       * @return The cCJOGFPEKID at the given index.
+       */
+      public int getCCJOGFPEKID(int index) {
+        return cCJOGFPEKID_.getInt(index);
+      }
+      /**
+       * <code>repeated uint32 CCJOGFPEKID = 953;</code>
+       * @param index The index to set the value at.
+       * @param value The cCJOGFPEKID to set.
+       * @return This builder for chaining.
+       */
+      public Builder setCCJOGFPEKID(
+          int index, int value) {
+        ensureCCJOGFPEKIDIsMutable();
+        cCJOGFPEKID_.setInt(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 CCJOGFPEKID = 953;</code>
+       * @param value The cCJOGFPEKID to add.
+       * @return This builder for chaining.
+       */
+      public Builder addCCJOGFPEKID(int value) {
+        ensureCCJOGFPEKIDIsMutable();
+        cCJOGFPEKID_.addInt(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 CCJOGFPEKID = 953;</code>
+       * @param values The cCJOGFPEKID to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllCCJOGFPEKID(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureCCJOGFPEKIDIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, cCJOGFPEKID_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 CCJOGFPEKID = 953;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearCCJOGFPEKID() {
+        cCJOGFPEKID_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000002);
+        onChanged();
+        return this;
+      }
+
+      private emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial social_;
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial, emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.Builder, emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocialOrBuilder> socialBuilder_;
+      /**
+       * <code>._MusicGameSocial social = 1110;</code>
+       * @return Whether the social field is set.
+       */
+      public boolean hasSocial() {
+        return socialBuilder_ != null || social_ != null;
+      }
+      /**
+       * <code>._MusicGameSocial social = 1110;</code>
+       * @return The social.
+       */
+      public emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial getSocial() {
+        if (socialBuilder_ == null) {
+          return social_ == null ? emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.getDefaultInstance() : social_;
+        } else {
+          return socialBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>._MusicGameSocial social = 1110;</code>
+       */
+      public Builder setSocial(emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial value) {
+        if (socialBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          social_ = value;
+          onChanged();
+        } else {
+          socialBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>._MusicGameSocial social = 1110;</code>
+       */
+      public Builder setSocial(
+          emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.Builder builderForValue) {
+        if (socialBuilder_ == null) {
+          social_ = builderForValue.build();
+          onChanged();
+        } else {
+          socialBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>._MusicGameSocial social = 1110;</code>
+       */
+      public Builder mergeSocial(emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial value) {
+        if (socialBuilder_ == null) {
+          if (social_ != null) {
+            social_ =
+              emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.newBuilder(social_).mergeFrom(value).buildPartial();
+          } else {
+            social_ = value;
+          }
+          onChanged();
+        } else {
+          socialBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>._MusicGameSocial social = 1110;</code>
+       */
+      public Builder clearSocial() {
+        if (socialBuilder_ == null) {
+          social_ = null;
+          onChanged();
+        } else {
+          social_ = null;
+          socialBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>._MusicGameSocial social = 1110;</code>
+       */
+      public emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.Builder getSocialBuilder() {
+        
+        onChanged();
+        return getSocialFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>._MusicGameSocial social = 1110;</code>
+       */
+      public emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocialOrBuilder getSocialOrBuilder() {
+        if (socialBuilder_ != null) {
+          return socialBuilder_.getMessageOrBuilder();
+        } else {
+          return social_ == null ?
+              emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.getDefaultInstance() : social_;
+        }
+      }
+      /**
+       * <code>._MusicGameSocial social = 1110;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial, emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.Builder, emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocialOrBuilder> 
+          getSocialFieldBuilder() {
+        if (socialBuilder_ == null) {
+          socialBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial, emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.Builder, emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocialOrBuilder>(
+                  getSocial(),
+                  getParentForChildren(),
+                  isClean());
+          social_ = null;
+        }
+        return socialBuilder_;
+      }
+
+      private int hHBOBIJKFPJ_ ;
+      /**
+       * <code>uint32 HHBOBIJKFPJ = 1135;</code>
+       * @return The hHBOBIJKFPJ.
+       */
+      @java.lang.Override
+      public int getHHBOBIJKFPJ() {
+        return hHBOBIJKFPJ_;
+      }
+      /**
+       * <code>uint32 HHBOBIJKFPJ = 1135;</code>
+       * @param value The hHBOBIJKFPJ to set.
+       * @return This builder for chaining.
+       */
+      public Builder setHHBOBIJKFPJ(int value) {
+        
+        hHBOBIJKFPJ_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 HHBOBIJKFPJ = 1135;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearHHBOBIJKFPJ() {
+        
+        hHBOBIJKFPJ_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int pGHGCGNLNPG_ ;
+      /**
+       * <code>uint32 PGHGCGNLNPG = 1160;</code>
+       * @return The pGHGCGNLNPG.
+       */
+      @java.lang.Override
+      public int getPGHGCGNLNPG() {
+        return pGHGCGNLNPG_;
+      }
+      /**
+       * <code>uint32 PGHGCGNLNPG = 1160;</code>
+       * @param value The pGHGCGNLNPG to set.
+       * @return This builder for chaining.
+       */
+      public Builder setPGHGCGNLNPG(int value) {
+        
+        pGHGCGNLNPG_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 PGHGCGNLNPG = 1160;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearPGHGCGNLNPG() {
+        
+        pGHGCGNLNPG_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int iIPJKAOBBBD_ ;
+      /**
+       * <code>uint32 IIPJKAOBBBD = 1206;</code>
+       * @return The iIPJKAOBBBD.
+       */
+      @java.lang.Override
+      public int getIIPJKAOBBBD() {
+        return iIPJKAOBBBD_;
+      }
+      /**
+       * <code>uint32 IIPJKAOBBBD = 1206;</code>
+       * @param value The iIPJKAOBBBD to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIIPJKAOBBBD(int value) {
+        
+        iIPJKAOBBBD_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 IIPJKAOBBBD = 1206;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIIPJKAOBBBD() {
+        
+        iIPJKAOBBBD_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int mOIDOMCHPFG_ ;
+      /**
+       * <code>uint32 MOIDOMCHPFG = 1260;</code>
+       * @return The mOIDOMCHPFG.
+       */
+      @java.lang.Override
+      public int getMOIDOMCHPFG() {
+        return mOIDOMCHPFG_;
+      }
+      /**
+       * <code>uint32 MOIDOMCHPFG = 1260;</code>
+       * @param value The mOIDOMCHPFG to set.
+       * @return This builder for chaining.
+       */
+      public Builder setMOIDOMCHPFG(int value) {
+        
+        mOIDOMCHPFG_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 MOIDOMCHPFG = 1260;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearMOIDOMCHPFG() {
+        
+        mOIDOMCHPFG_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.Internal.IntList cOAEPKLMKPE_ = emptyIntList();
+      private void ensureCOAEPKLMKPEIsMutable() {
+        if (!((bitField0_ & 0x00000004) != 0)) {
+          cOAEPKLMKPE_ = mutableCopy(cOAEPKLMKPE_);
+          bitField0_ |= 0x00000004;
+         }
+      }
+      /**
+       * <code>repeated uint32 COAEPKLMKPE = 1467;</code>
+       * @return A list containing the cOAEPKLMKPE.
+       */
+      public java.util.List<java.lang.Integer>
+          getCOAEPKLMKPEList() {
+        return ((bitField0_ & 0x00000004) != 0) ?
+                 java.util.Collections.unmodifiableList(cOAEPKLMKPE_) : cOAEPKLMKPE_;
+      }
+      /**
+       * <code>repeated uint32 COAEPKLMKPE = 1467;</code>
+       * @return The count of cOAEPKLMKPE.
+       */
+      public int getCOAEPKLMKPECount() {
+        return cOAEPKLMKPE_.size();
+      }
+      /**
+       * <code>repeated uint32 COAEPKLMKPE = 1467;</code>
+       * @param index The index of the element to return.
+       * @return The cOAEPKLMKPE at the given index.
+       */
+      public int getCOAEPKLMKPE(int index) {
+        return cOAEPKLMKPE_.getInt(index);
+      }
+      /**
+       * <code>repeated uint32 COAEPKLMKPE = 1467;</code>
+       * @param index The index to set the value at.
+       * @param value The cOAEPKLMKPE to set.
+       * @return This builder for chaining.
+       */
+      public Builder setCOAEPKLMKPE(
+          int index, int value) {
+        ensureCOAEPKLMKPEIsMutable();
+        cOAEPKLMKPE_.setInt(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 COAEPKLMKPE = 1467;</code>
+       * @param value The cOAEPKLMKPE to add.
+       * @return This builder for chaining.
+       */
+      public Builder addCOAEPKLMKPE(int value) {
+        ensureCOAEPKLMKPEIsMutable();
+        cOAEPKLMKPE_.addInt(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 COAEPKLMKPE = 1467;</code>
+       * @param values The cOAEPKLMKPE to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllCOAEPKLMKPE(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureCOAEPKLMKPEIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, cOAEPKLMKPE_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 COAEPKLMKPE = 1467;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearCOAEPKLMKPE() {
+        cOAEPKLMKPE_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000004);
+        onChanged();
+        return this;
+      }
+
+      private int nLCMMJILBKJ_ ;
+      /**
+       * <code>uint32 NLCMMJILBKJ = 1799;</code>
+       * @return The nLCMMJILBKJ.
+       */
+      @java.lang.Override
+      public int getNLCMMJILBKJ() {
+        return nLCMMJILBKJ_;
+      }
+      /**
+       * <code>uint32 NLCMMJILBKJ = 1799;</code>
+       * @param value The nLCMMJILBKJ to set.
+       * @return This builder for chaining.
+       */
+      public Builder setNLCMMJILBKJ(int value) {
+        
+        nLCMMJILBKJ_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 NLCMMJILBKJ = 1799;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearNLCMMJILBKJ() {
+        
+        nLCMMJILBKJ_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int mLAJCIMGINA_ ;
+      /**
+       * <code>uint32 MLAJCIMGINA = 1925;</code>
+       * @return The mLAJCIMGINA.
+       */
+      @java.lang.Override
+      public int getMLAJCIMGINA() {
+        return mLAJCIMGINA_;
+      }
+      /**
+       * <code>uint32 MLAJCIMGINA = 1925;</code>
+       * @param value The mLAJCIMGINA to set.
+       * @return This builder for chaining.
+       */
+      public Builder setMLAJCIMGINA(int value) {
+        
+        mLAJCIMGINA_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 MLAJCIMGINA = 1925;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearMLAJCIMGINA() {
+        
+        mLAJCIMGINA_ = 0;
         onChanged();
         return this;
       }
@@ -2531,6 +2732,7 @@ public final class UgcMusicBriefInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:UgcMusicBriefInfo)
     }
@@ -2574,7 +2776,7 @@ public final class UgcMusicBriefInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_UgcMusicBriefInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_UgcMusicBriefInfo_fieldAccessorTable;
 
@@ -2586,35 +2788,37 @@ public final class UgcMusicBriefInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\027UgcMusicBriefInfo.proto\032\021DAPPJPEICGJ.p" +
-      "roto\"\231\004\n\021UgcMusicBriefInfo\022\023\n\013KOCMDMMFGM" +
-      "I\030h \003(\r\022\024\n\013GGLKNKFFEEE\030\307\n \003(\r\022\023\n\013JJPMLJL" +
-      "DIHI\030f \003(\r\022\"\n\013CEKOLBFEPON\030\351\003 \001(\0132\014.DAPPJ" +
-      "PEICGJ\022\024\n\013FPNJDMOOHDE\030\340\017 \001(\r\022\023\n\013AAHNFINJ" +
-      "FAF\030\013 \001(\004\022\020\n\010music_id\030\002 \001(\r\022\024\n\013CBNMDAGOM" +
-      "HA\030\236\007 \001(\r\022\023\n\013JOLJHDCPGPN\030\007 \001(\r\022\023\n\013GLBNEC" +
-      "CHCOB\030\005 \001(\r\022\024\n\013MBBJMGIIKKM\030\311\001 \001(\010\022\023\n\013DAD" +
-      "JBDLKDFO\030\020 \001(\010\022\023\n\013CPAEGLGJACA\030\n \001(\010\022\023\n\013H" +
-      "EAFAHPKFDO\030\021 \001(\010\022\024\n\013EHHGDAPAPLP\030\255\t \001(\r\022\017" +
-      "\n\007version\030\014 \001(\r\022\020\n\010ugc_guid\030\006 \001(\r\022\023\n\013FDM" +
-      "GJAOKBPP\030\003 \001(\r\022\024\n\013LLLFNBFGDBF\030\225\t \001(\r\022\023\n\013" +
-      "LPCOPFPMHAK\030\010 \001(\004\022\024\n\013HEBNGBGOAPM\030\241\006 \001(\r\022" +
-      "\024\n\013CMEALNJIJNG\030\307\007 \001(\r\022\024\n\013MPNBDALHDAC\030\237\004 " +
-      "\001(\r\022\023\n\013JBGOFOMFAHF\030\t \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\n\027UgcMusicBriefInfo.proto\032\026_MusicGameSoc" +
+      "ial.proto\"\327\004\n\021UgcMusicBriefInfo\022\021\n\tmax_s" +
+      "core\030\001 \001(\r\022\030\n\020creator_nickname\030\002 \001(\t\022\027\n\017" +
+      "is_psn_platform\030\003 \001(\010\022\017\n\007version\030\004 \001(\r\022\021" +
+      "\n\tis_played\030\005 \001(\010\022\020\n\010music_id\030\006 \001(\r\022\021\n\ts" +
+      "ave_time\030\007 \001(\r\022\020\n\010ugc_guid\030\010 \001(\004\022\023\n\013jbgo" +
+      "fomfahf\030\t \001(\r\022\023\n\013LDDCHDFKLGO\030\n \001(\r\022 \n\030is" +
+      "_changed_after_publish\030\013 \001(\010\022\024\n\014is_publi" +
+      "shed\030\014 \001(\010\022\023\n\013KFHNNAIABLG\030\r \001(\r\022\024\n\014publi" +
+      "sh_time\030\016 \001(\r\022\034\n\024import_from_ugc_guid\030\017 " +
+      "\001(\004\022\"\n\031_beatmap_category_id_list\030\367\005 \003(\r\022" +
+      "\024\n\013CCJOGFPEKID\030\271\007 \003(\r\022\"\n\006social\030\326\010 \001(\0132\021" +
+      "._MusicGameSocial\022\024\n\013HHBOBIJKFPJ\030\357\010 \001(\r\022" +
+      "\024\n\013PGHGCGNLNPG\030\210\t \001(\r\022\024\n\013IIPJKAOBBBD\030\266\t " +
+      "\001(\r\022\024\n\013MOIDOMCHPFG\030\354\t \001(\r\022\024\n\013COAEPKLMKPE" +
+      "\030\273\013 \003(\r\022\024\n\013NLCMMJILBKJ\030\207\016 \001(\r\022\024\n\013MLAJCIM" +
+      "GINA\030\205\017 \001(\rB8\n\031emu.grasscutter.net.proto" +
+      "B\033UgcMusicBriefInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._MusicGameSocialOuterClass.getDescriptor(),
         });
     internal_static_UgcMusicBriefInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_UgcMusicBriefInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_UgcMusicBriefInfo_descriptor,
-        new java.lang.String[] { "KOCMDMMFGMI", "GGLKNKFFEEE", "JJPMLJLDIHI", "CEKOLBFEPON", "FPNJDMOOHDE", "AAHNFINJFAF", "MusicId", "CBNMDAGOMHA", "JOLJHDCPGPN", "GLBNECCHCOB", "MBBJMGIIKKM", "DADJBDLKDFO", "CPAEGLGJACA", "HEAFAHPKFDO", "EHHGDAPAPLP", "Version", "UgcGuid", "FDMGJAOKBPP", "LLLFNBFGDBF", "LPCOPFPMHAK", "HEBNGBGOAPM", "CMEALNJIJNG", "MPNBDALHDAC", "JBGOFOMFAHF", });
-    emu.grasscutter.net.proto.DAPPJPEICGJOuterClass.getDescriptor();
+        new java.lang.String[] { "MaxScore", "CreatorNickname", "IsPsnPlatform", "Version", "IsPlayed", "MusicId", "SaveTime", "UgcGuid", "Jbgofomfahf", "LDDCHDFKLGO", "IsChangedAfterPublish", "IsPublished", "KFHNNAIABLG", "PublishTime", "ImportFromUgcGuid", "BeatmapCategoryIdList", "CCJOGFPEKID", "Social", "HHBOBIJKFPJ", "PGHGCGNLNPG", "IIPJKAOBBBD", "MOIDOMCHPFG", "COAEPKLMKPE", "NLCMMJILBKJ", "MLAJCIMGINA", });
+    emu.grasscutter.net.proto._MusicGameSocialOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

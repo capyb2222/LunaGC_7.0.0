@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FurnitureMakeDataOuterClass";
+
+message FurnitureMakeData {
+	uint32 avatar_id = 2;
+	uint32 make_id = 3;
+	uint32 dur_time = 4;
+	uint32 index = 10;
+	fixed32 accelerate_time = 12;
+	fixed32 begin_time = 14;
+}

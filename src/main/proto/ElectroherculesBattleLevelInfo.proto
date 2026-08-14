@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ElectroherculesBattleLevelInfoOuterClass";
+
+message ElectroherculesBattleLevelInfo {
+	bool is_finish = 5;
+	uint32 level_id = 11;
+	uint32 min_finish_time = 13;
+}

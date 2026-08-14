@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GainBuffDetailInfoOuterClass";
+
+import "HPIBBLDNIME.proto";
+
+message GainBuffDetailInfo {
+	repeated HPIBBLDNIME level_info_list = 3;
+	uint32 difficulty = 14;
+}

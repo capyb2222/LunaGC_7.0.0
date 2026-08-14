@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "IrodoriPoetryDataOuterClass";
+
+import "IrodoriPoetryThemeData.proto";
+
+message IrodoriPoetryData {
+	repeated IrodoriPoetryThemeData theme_data_list = 1;
+	uint32 cur_theme_id = 2;
+}

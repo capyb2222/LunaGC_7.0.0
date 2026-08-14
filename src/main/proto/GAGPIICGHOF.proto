@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GAGPIICGHOFOuterClass";
+
+import "BCJLBJFFJPK.proto";
+import "DAFKLLCCHJJ.proto";
+import "DIHEGEGCPFP.proto";
+import "EABNOCBCGFM.proto";
+import "EEEPOOPKBPC.proto";
+import "EJCHPEFKGLJ.proto";
+import "EMOEJGGBAIG.proto";
+import "HDNLDEHMAJP.proto";
+import "IHCIBFKMHBD.proto";
+import "LBBDOIMGFNI.proto";
+import "NNGBNNMJABP.proto";
+
+message GAGPIICGHOF {
+	NNGBNNMJABP KPOOPDCNAFE = 1;
+	uint32 BGLEEKPNKCB = 2;
+	uint32 KDFOECAIJPD = 3;
+	uint32 LBOODPMIDLI = 4;
+	uint32 JGNEMBNBDAB = 5;
+	DAFKLLCCHJJ ABKKKKCIDPA = 6;
+	HDNLDEHMAJP KNDJAHOCOKB = 7;
+	repeated EABNOCBCGFM PJBHIMEHLKM = 8;
+	EEEPOOPKBPC MAANAIMHCIK = 9;
+	LBBDOIMGFNI GCPNMNAAPFM = 10;
+	BCJLBJFFJPK ALMLCEKAANG = 11;
+	EJCHPEFKGLJ IDKFENOLMJD = 12;
+	EMOEJGGBAIG goal = 13;
+	IHCIBFKMHBD MOJJDHBMODD = 14;
+	bool LIKMFJBNGFI = 15;
+	uint32 GAODBDDJOAC = 145;
+	uint32 IHHLKCEBFKL = 299;
+	repeated DIHEGEGCPFP AENACNIBHBN = 989;
+	repeated uint32 FDKKJIIIGEP = 1513;
+}

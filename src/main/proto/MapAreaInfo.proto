@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MapAreaInfoOuterClass";
+
+message MapAreaInfo {
+	uint32 map_area_id = 1;
+	bool is_open = 2;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "OtherPlayerEnterHomeNotifyOuterClass";
+
+message OtherPlayerEnterHomeNotify {
+	enum Reason {
+		INVALID = 0;
+		ENTER = 1;
+		LEAVE = 2;
+	}
+	string nickname = 12;
+	Reason reason = 13;
+}

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "NJABMDONHPIOuterClass";
+
+import "MathQuaternion.proto";
+import "OLDIEOFBBML.proto";
+import "Vector.proto";
+
+message NJABMDONHPI {
+	repeated OLDIEOFBBML ACOLLKOJOBP = 1;
+	uint64 DLPEJGHPIIO = 2;
+	Vector FHFMKBHBEEI = 3;
+	Vector FOLGPJCEEML = 4;
+	Vector init_pos = 5;
+	Vector MOFGCKLDPPJ = 6;
+	MathQuaternion BOGKEFMDADE = 7;
+	MathQuaternion KNFKNLCHLMB = 8;
+}

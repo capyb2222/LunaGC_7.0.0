@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_PlayerWorldInfoOuterClass";
+
+message _PlayerWorldInfo {
+	uint32 scene_id = 1;
+	uint32 point_id = 2;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MMPPAHOHHBJOuterClass";
+
+enum MMPPAHOHHBJ {
+	MMPPAHOHHBJ_GAME_PROCESS_NORMAL = 0;
+	MMPPAHOHHBJ_GAME_PROCESS_UGC = 1;
+	MMPPAHOHHBJ_GAME_PROCESS_HALL = 2;
+}

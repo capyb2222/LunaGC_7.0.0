@@ -19,23 +19,18 @@ public final class HomeAvatarRewardEventGetReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 avatar_id = 9;</code>
+     * <code>uint32 avatar_id = 7;</code>
      * @return The avatarId.
      */
     int getAvatarId();
 
     /**
-     * <code>uint32 event_id = 10;</code>
+     * <code>uint32 event_id = 8;</code>
      * @return The eventId.
      */
     int getEventId();
   }
   /**
-   * <pre>
-   * CmdId: 26566
-   * Obf: BKHPKONPAPN
-   * </pre>
-   *
    * Protobuf type {@code HomeAvatarRewardEventGetReq}
    */
   public static final class HomeAvatarRewardEventGetReq extends
@@ -80,12 +75,12 @@ public final class HomeAvatarRewardEventGetReqOuterClass {
             case 0:
               done = true;
               break;
-            case 96: {
+            case 56: {
 
               avatarId_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 64: {
 
               eventId_ = input.readUInt32();
               break;
@@ -122,10 +117,10 @@ public final class HomeAvatarRewardEventGetReqOuterClass {
               emu.grasscutter.net.proto.HomeAvatarRewardEventGetReqOuterClass.HomeAvatarRewardEventGetReq.class, emu.grasscutter.net.proto.HomeAvatarRewardEventGetReqOuterClass.HomeAvatarRewardEventGetReq.Builder.class);
     }
 
-    public static final int AVATAR_ID_FIELD_NUMBER = 12;
+    public static final int AVATAR_ID_FIELD_NUMBER = 7;
     private int avatarId_;
     /**
-     * <code>uint32 avatar_id = 9;</code>
+     * <code>uint32 avatar_id = 7;</code>
      * @return The avatarId.
      */
     @java.lang.Override
@@ -133,10 +128,10 @@ public final class HomeAvatarRewardEventGetReqOuterClass {
       return avatarId_;
     }
 
-    public static final int EVENT_ID_FIELD_NUMBER = 10;
+    public static final int EVENT_ID_FIELD_NUMBER = 8;
     private int eventId_;
     /**
-     * <code>uint32 event_id = 10;</code>
+     * <code>uint32 event_id = 8;</code>
      * @return The eventId.
      */
     @java.lang.Override
@@ -159,10 +154,10 @@ public final class HomeAvatarRewardEventGetReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (avatarId_ != 0) {
-        output.writeUInt32(12, avatarId_);
+        output.writeUInt32(7, avatarId_);
       }
       if (eventId_ != 0) {
-        output.writeUInt32(10, eventId_);
+        output.writeUInt32(8, eventId_);
       }
       unknownFields.writeTo(output);
     }
@@ -175,11 +170,11 @@ public final class HomeAvatarRewardEventGetReqOuterClass {
       size = 0;
       if (avatarId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, avatarId_);
+          .computeUInt32Size(7, avatarId_);
       }
       if (eventId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, eventId_);
+          .computeUInt32Size(8, eventId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -311,11 +306,6 @@ public final class HomeAvatarRewardEventGetReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 26566
-     * Obf: BKHPKONPAPN
-     * </pre>
-     *
      * Protobuf type {@code HomeAvatarRewardEventGetReq}
      */
     public static final class Builder extends
@@ -470,7 +460,7 @@ public final class HomeAvatarRewardEventGetReqOuterClass {
 
       private int avatarId_ ;
       /**
-       * <code>uint32 avatar_id = 9;</code>
+       * <code>uint32 avatar_id = 7;</code>
        * @return The avatarId.
        */
       @java.lang.Override
@@ -478,7 +468,7 @@ public final class HomeAvatarRewardEventGetReqOuterClass {
         return avatarId_;
       }
       /**
-       * <code>uint32 avatar_id = 9;</code>
+       * <code>uint32 avatar_id = 7;</code>
        * @param value The avatarId to set.
        * @return This builder for chaining.
        */
@@ -489,7 +479,7 @@ public final class HomeAvatarRewardEventGetReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 avatar_id = 9;</code>
+       * <code>uint32 avatar_id = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearAvatarId() {
@@ -501,7 +491,7 @@ public final class HomeAvatarRewardEventGetReqOuterClass {
 
       private int eventId_ ;
       /**
-       * <code>uint32 event_id = 10;</code>
+       * <code>uint32 event_id = 8;</code>
        * @return The eventId.
        */
       @java.lang.Override
@@ -509,7 +499,7 @@ public final class HomeAvatarRewardEventGetReqOuterClass {
         return eventId_;
       }
       /**
-       * <code>uint32 event_id = 10;</code>
+       * <code>uint32 event_id = 8;</code>
        * @param value The eventId to set.
        * @return This builder for chaining.
        */
@@ -520,7 +510,7 @@ public final class HomeAvatarRewardEventGetReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 event_id = 10;</code>
+       * <code>uint32 event_id = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearEventId() {
@@ -598,8 +588,9 @@ public final class HomeAvatarRewardEventGetReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n!HomeAvatarRewardEventGetReq.proto\"B\n\033H" +
       "omeAvatarRewardEventGetReq\022\021\n\tavatar_id\030" +
-      "\t \001(\r\022\020\n\010event_id\030\n \001(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\007 \001(\r\022\020\n\010event_id\030\010 \001(\rBB\n\031emu.grasscutt" +
+      "er.net.protoB%HomeAvatarRewardEventGetRe" +
+      "qOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

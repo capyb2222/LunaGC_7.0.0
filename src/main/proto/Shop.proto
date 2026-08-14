@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ShopOuterClass";
+
+import "OLFKDMCHEDP.proto";
+import "ShopCardProduct.proto";
+import "ShopConcertProduct.proto";
+import "ShopGoods.proto";
+import "ShopMcoinProduct.proto";
+import "_ShopBeyondMcoinProduct.proto";
+
+message Shop {
+	uint32 next_refresh_time = 1;
+	OLFKDMCHEDP FAEEGIJKFJP = 3;
+	repeated ShopCardProduct card_product_list = 4;
+	uint32 city_reputation_level = 5;
+	repeated _ShopBeyondMcoinProduct _beyond_mcoin_product_list = 6;
+	repeated ShopGoods goods_list = 8;
+	uint32 hogdkcckgap = 9;
+	uint32 city_id = 10;
+	repeated ShopConcertProduct concert_product_list = 11;
+	repeated ShopMcoinProduct mcoin_product_list = 13;
+	uint32 shop_type = 15;
+}

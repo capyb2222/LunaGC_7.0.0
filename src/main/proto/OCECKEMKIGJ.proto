@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "OCECKEMKIGJOuterClass";
+
+message OCECKEMKIGJ {
+	uint32 level_id = 2;
+	bool is_played = 4;
+	bool is_finished = 7;
+	uint32 IFFKFLBCHHL = 8;
+	uint32 ALNHCONFHHO = 9;
+	repeated uint32 EGCJHEIONKK = 12;
+	bool is_unlock = 13;
+	uint32 JPBOIPOIGNH = 15;
+}

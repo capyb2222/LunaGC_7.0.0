@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CKFHELMIGOPOuterClass";
+
+import "PJFELCMPMKJ.proto";
+
+message CKFHELMIGOP {
+	uint64 OAICLPJOICK = 1;
+	uint32 FLGHAOCLOAJ = 2;
+	uint32 DILPAMLKLCC = 3;
+	uint32 IECDLMNALEJ = 5;
+	map<uint64, uint32> CCKHKMBCEGJ = 8;
+	uint64 MIHDAJBFNKE = 9;
+	repeated uint32 KNPJGLLICAD = 10;
+	map<uint64, uint32> CGNCCOMCOBA = 11;
+	uint32 JLCDGPLJJMM = 12;
+	uint32 NDLKHEFOAJF = 13;
+	repeated PJFELCMPMKJ DDNFEHGKHFO = 15;
+}

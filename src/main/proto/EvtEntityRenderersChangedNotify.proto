@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EvtEntityRenderersChangedNotifyOuterClass";
+
+import "EntityRendererChangedInfo.proto";
+import "ForwardType.proto";
+
+message EvtEntityRenderersChangedNotify {
+	bool is_server_cache = 1;
+	EntityRendererChangedInfo renderer_changed_info = 6;
+	uint32 entity_id = 7;
+	ForwardType forward_type = 14;
+}

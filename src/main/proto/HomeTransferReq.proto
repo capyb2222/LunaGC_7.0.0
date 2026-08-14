@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HomeTransferReqOuterClass";
+
+message HomeTransferReq {
+	bool _is_transfer_to_main_house_point = 3;
+	bool is_transfer_to_safe_point = 12;
+	uint32 guid = 14;
+}

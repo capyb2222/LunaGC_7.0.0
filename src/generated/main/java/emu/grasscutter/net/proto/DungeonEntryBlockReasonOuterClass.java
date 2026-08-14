@@ -15,10 +15,6 @@ public final class DungeonEntryBlockReasonOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   /**
-   * <pre>
-   * Obf: DKFHNAHNGFE
-   * </pre>
-   *
    * Protobuf enum {@code DungeonEntryBlockReason}
    */
   public enum DungeonEntryBlockReason
@@ -157,8 +153,9 @@ public final class DungeonEntryBlockReasonOuterClass {
       "eonEntryBlockReason\022\035\n\031DUNGEON_ENTRY_REA" +
       "SON_NONE\020\000\022\036\n\032DUNGEON_ENTRY_REASON_LEVEL" +
       "\020\001\022\036\n\032DUNGEON_ENTRY_REASON_QUEST\020\002\022 \n\034DU" +
-      "NGEON_ENTRY_REASON_MULIPLE\020\003B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "NGEON_ENTRY_REASON_MULIPLE\020\003B>\n\031emu.gras" +
+      "scutter.net.protoB!DungeonEntryBlockReas" +
+      "onOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

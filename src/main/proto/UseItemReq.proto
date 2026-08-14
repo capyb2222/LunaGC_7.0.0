@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "UseItemReqOuterClass";
+
+message UseItemReq {
+	uint32 option_idx = 1;
+	uint32 count = 4;
+	uint64 target_guid = 6;
+	uint64 guid = 7;
+	bool is_enter_mp_dungeon_team = 8;
+	repeated uint32 _option_idx_list = 15;
+}

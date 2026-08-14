@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_WeekActiveDetailInfoOuterClass";
+
+message _WeekActiveDetailInfo {
+	repeated uint32 JOHCCPGDECJ = 2;
+	uint32 avatar_id = 3;
+	repeated uint32 LCOBFDMFKHK = 7;
+	bool _is_week_active_viewed = 9;
+	uint32 ILEHAFHFMJN = 11;
+	repeated uint32 _claimed_avatar_id_list = 12;
+	uint32 progress = 14;
+}

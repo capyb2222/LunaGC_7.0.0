@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AvatarTeamAllDataNotifyOuterClass";
+
+import "AvatarTeam.proto";
+
+message AvatarTeamAllDataNotify {
+	uint32 cur_avatar_team_id = 3;
+	map<uint32, AvatarTeam> avatar_team_map = 4;
+	repeated uint64 temp_avatar_guid_list = 12;
+	repeated uint32 backup_avatar_team_order_list = 15;
+}

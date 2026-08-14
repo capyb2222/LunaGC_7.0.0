@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "VehicleLocationInfoOuterClass";
+
+import "Vector.proto";
+
+message VehicleLocationInfo {
+	uint32 gadget_id = 1;
+	repeated uint32 uid_list = 2;
+	float max_hp = 3;
+	uint32 entity_id = 6;
+	Vector rot = 8;
+	uint32 owner_uid = 11;
+	Vector pos = 13;
+	float cur_hp = 15;
+}

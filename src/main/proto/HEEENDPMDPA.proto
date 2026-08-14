@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HEEENDPMDPAOuterClass";
+
+enum HEEENDPMDPA {
+	HEEENDPMDPA_NONE = 0;
+	HEEENDPMDPA_HINT = 1;
+	HEEENDPMDPA_FINISH = 2;
+}

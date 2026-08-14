@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FCCPEPDJEFOOuterClass";
+
+message FCCPEPDJEFO {
+	bool is_finished = 3;
+	bool is_level_open = 5;
+	uint32 level_id = 7;
+	uint32 NHEFNKONPEI = 10;
+}

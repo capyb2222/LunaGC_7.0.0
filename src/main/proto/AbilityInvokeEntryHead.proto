@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AbilityInvokeEntryHeadOuterClass";
+
+import "LJGEHMILKEM.proto";
+
+message AbilityInvokeEntryHead {
+	int32 modifier_config_local_id = 1;
+	uint32 server_buff_uid = 2;
+	uint32 instanced_ability_id = 4;
+	uint32 instanced_modifier_id = 7;
+	uint32 target_id = 9;
+	int32 local_id = 14;
+	LJGEHMILKEM FPDAONBEBHK = 15;
+}

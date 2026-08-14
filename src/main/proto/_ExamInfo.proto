@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_ExamInfoOuterClass";
+
+import "FGJFGPAPOHE.proto";
+
+message _ExamInfo {
+	repeated uint32 CKBLJCHDKPO = 1;
+	uint32 FCOJGHNMIKK = 3;
+	uint32 GCKDBLEMLNM = 4;
+	repeated uint32 npc_id_list = 7;
+	FGJFGPAPOHE BHHGGMIGHHL = 8;
+	bool LKIIDNBEBIM = 10;
+	uint32 id = 11;
+	bool LBIEHJGLEFK = 13;
+}

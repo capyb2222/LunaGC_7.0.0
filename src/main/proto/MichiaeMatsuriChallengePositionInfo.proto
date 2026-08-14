@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MichiaeMatsuriChallengePositionInfoOuterClass";
+
+import "Vector.proto";
+
+message MichiaeMatsuriChallengePositionInfo {
+	uint32 group_id = 10;
+	uint32 gadget_id = 12;
+	Vector pos = 15;
+}

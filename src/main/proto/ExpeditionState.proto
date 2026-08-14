@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ExpeditionStateOuterClass";
+
+enum ExpeditionState {
+	EXPEDITION_NONE = 0;
+	EXPEDITION_STARTED = 1;
+	EXPEDITION_FINISHED = 2;
+	EXPEDITION_REWARDED = 3;
+	EXPEDITION_LOCKED = 4;
+}

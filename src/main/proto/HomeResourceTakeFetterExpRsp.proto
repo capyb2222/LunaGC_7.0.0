@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HomeResourceTakeFetterExpRspOuterClass";
+
+import "HomeResource.proto";
+
+message HomeResourceTakeFetterExpRsp {
+	HomeResource fetter_exp = 2;
+	int32 retcode = 14;
+}

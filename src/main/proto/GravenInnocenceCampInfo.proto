@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GravenInnocenceCampInfoOuterClass";
+
+import "GravenInnocenceCampStageInfo.proto";
+
+message GravenInnocenceCampInfo {
+	repeated GravenInnocenceCampStageInfo stage_info_list = 12;
+}

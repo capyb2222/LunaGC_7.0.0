@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "NBHPODHNOOJOuterClass";
+
+import "JEOKDCIGCFP.proto";
+
+message NBHPODHNOOJ {
+	repeated JEOKDCIGCFP value_list = 1;
+}

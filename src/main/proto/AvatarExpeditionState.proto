@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AvatarExpeditionStateOuterClass";
+
+enum AvatarExpeditionState {
+	AvatarExpeditionState_AVATAR_EXPEDITION_NONE = 0;
+	AvatarExpeditionState_AVATAR_EXPEDITION_DOING = 1;
+	AvatarExpeditionState_AVATAR_EXPEDITION_FINISH_WAIT_REWARD = 2;
+	AvatarExpeditionState_AVATAR_EXPEDITION_CALLBACK_WAIT_REWARD = 3;
+	AvatarExpeditionState_AVATAR_EXPEDITION_LOCKED = 4;
+}

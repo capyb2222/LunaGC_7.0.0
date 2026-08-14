@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_FixedMoverInfoOuterClass";
+
+import "MathQuaternion.proto";
+import "Vector.proto";
+
+message _FixedMoverInfo {
+	Vector OHMBANGLFIJ = 1;
+	Vector IMFDIHLBFEN = 2;
+	float LAIKIBMMJKD = 3;
+	MathQuaternion MGIHDBMCCPK = 4;
+}

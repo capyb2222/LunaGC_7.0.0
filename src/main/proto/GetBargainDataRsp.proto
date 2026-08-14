@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GetBargainDataRspOuterClass";
+
+import "BargainSnapshot.proto";
+
+message GetBargainDataRsp {
+	uint32 bargain_id = 4;
+	BargainSnapshot snapshot = 12;
+	int32 retcode = 14;
+}

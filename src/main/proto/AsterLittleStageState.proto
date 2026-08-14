@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AsterLittleStageStateOuterClass";
+
+enum AsterLittleStageState {
+	AsterLittleStageState_ASTER_LITTLE_STAGE_NONE = 0;
+	AsterLittleStageState_ASTER_LITTLE_STAGE_UNSTARTED = 1;
+	AsterLittleStageState_ASTER_LITTLE_STAGE_STARTED = 2;
+	AsterLittleStageState_ASTER_LITTLE_STAGE_FINISHED = 3;
+}

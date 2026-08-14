@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_SnowRaceDetailInfoOuterClass";
+
+import "LKEKPAMJHDK.proto";
+
+message _SnowRaceDetailInfo {
+	uint32 EHDNIFLECDH = 7;
+	LKEKPAMJHDK NFFJFIEHDLH = 15;
+}

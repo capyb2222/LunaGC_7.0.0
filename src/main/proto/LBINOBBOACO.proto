@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "LBINOBBOACOOuterClass";
+
+message LBINOBBOACO {
+	uint32 max_score = 5;
+	uint32 level_id = 7;
+	bool is_open = 9;
+	uint32 cost_time = 13;
+}

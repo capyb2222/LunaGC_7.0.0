@@ -19,23 +19,18 @@ public final class PlayerCompoundMaterialReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 compound_id = 2;</code>
+     * <code>uint32 compound_id = 1;</code>
      * @return The compoundId.
      */
     int getCompoundId();
 
     /**
-     * <code>uint32 count = 11;</code>
+     * <code>uint32 count = 4;</code>
      * @return The count.
      */
     int getCount();
   }
   /**
-   * <pre>
-   * CmdId: 7541
-   * Obf: AILEMFGGGHN
-   * </pre>
-   *
    * Protobuf type {@code PlayerCompoundMaterialReq}
    */
   public static final class PlayerCompoundMaterialReq extends
@@ -80,12 +75,12 @@ public final class PlayerCompoundMaterialReqOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 8: {
 
               compoundId_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 32: {
 
               count_ = input.readUInt32();
               break;
@@ -122,10 +117,10 @@ public final class PlayerCompoundMaterialReqOuterClass {
               emu.grasscutter.net.proto.PlayerCompoundMaterialReqOuterClass.PlayerCompoundMaterialReq.class, emu.grasscutter.net.proto.PlayerCompoundMaterialReqOuterClass.PlayerCompoundMaterialReq.Builder.class);
     }
 
-    public static final int COMPOUND_ID_FIELD_NUMBER = 3;
+    public static final int COMPOUND_ID_FIELD_NUMBER = 1;
     private int compoundId_;
     /**
-     * <code>uint32 compound_id = 2;</code>
+     * <code>uint32 compound_id = 1;</code>
      * @return The compoundId.
      */
     @java.lang.Override
@@ -133,10 +128,10 @@ public final class PlayerCompoundMaterialReqOuterClass {
       return compoundId_;
     }
 
-    public static final int COUNT_FIELD_NUMBER = 8;
+    public static final int COUNT_FIELD_NUMBER = 4;
     private int count_;
     /**
-     * <code>uint32 count = 11;</code>
+     * <code>uint32 count = 4;</code>
      * @return The count.
      */
     @java.lang.Override
@@ -159,10 +154,10 @@ public final class PlayerCompoundMaterialReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (compoundId_ != 0) {
-        output.writeUInt32(3, compoundId_);
+        output.writeUInt32(1, compoundId_);
       }
       if (count_ != 0) {
-        output.writeUInt32(8, count_);
+        output.writeUInt32(4, count_);
       }
       unknownFields.writeTo(output);
     }
@@ -175,11 +170,11 @@ public final class PlayerCompoundMaterialReqOuterClass {
       size = 0;
       if (compoundId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, compoundId_);
+          .computeUInt32Size(1, compoundId_);
       }
       if (count_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, count_);
+          .computeUInt32Size(4, count_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -311,11 +306,6 @@ public final class PlayerCompoundMaterialReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 7541
-     * Obf: AILEMFGGGHN
-     * </pre>
-     *
      * Protobuf type {@code PlayerCompoundMaterialReq}
      */
     public static final class Builder extends
@@ -470,7 +460,7 @@ public final class PlayerCompoundMaterialReqOuterClass {
 
       private int compoundId_ ;
       /**
-       * <code>uint32 compound_id = 2;</code>
+       * <code>uint32 compound_id = 1;</code>
        * @return The compoundId.
        */
       @java.lang.Override
@@ -478,7 +468,7 @@ public final class PlayerCompoundMaterialReqOuterClass {
         return compoundId_;
       }
       /**
-       * <code>uint32 compound_id = 2;</code>
+       * <code>uint32 compound_id = 1;</code>
        * @param value The compoundId to set.
        * @return This builder for chaining.
        */
@@ -489,7 +479,7 @@ public final class PlayerCompoundMaterialReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 compound_id = 2;</code>
+       * <code>uint32 compound_id = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearCompoundId() {
@@ -501,7 +491,7 @@ public final class PlayerCompoundMaterialReqOuterClass {
 
       private int count_ ;
       /**
-       * <code>uint32 count = 11;</code>
+       * <code>uint32 count = 4;</code>
        * @return The count.
        */
       @java.lang.Override
@@ -509,7 +499,7 @@ public final class PlayerCompoundMaterialReqOuterClass {
         return count_;
       }
       /**
-       * <code>uint32 count = 11;</code>
+       * <code>uint32 count = 4;</code>
        * @param value The count to set.
        * @return This builder for chaining.
        */
@@ -520,7 +510,7 @@ public final class PlayerCompoundMaterialReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 count = 11;</code>
+       * <code>uint32 count = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearCount() {
@@ -597,9 +587,10 @@ public final class PlayerCompoundMaterialReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\037PlayerCompoundMaterialReq.proto\"?\n\031Pla" +
-      "yerCompoundMaterialReq\022\023\n\013compound_id\030\002 " +
-      "\001(\r\022\r\n\005count\030\013 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "yerCompoundMaterialReq\022\023\n\013compound_id\030\001 " +
+      "\001(\r\022\r\n\005count\030\004 \001(\rB@\n\031emu.grasscutter.ne" +
+      "t.protoB#PlayerCompoundMaterialReqOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
