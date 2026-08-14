@@ -451,10 +451,10 @@ public final class ResourceLoader {
             if (abilityData.abilityName.startsWith("Avatar_" + avatarName)) {
                 if (!mergedAbilities.contains(abilityData.abilityName)) {
                     mergedAbilities.add(abilityData.abilityName);
-                    Grasscutter.getLogger().info("Merged dynamic ability " + abilityData.abilityName +
+                    Grasscutter.getLogger().debug("Merged dynamic ability " + abilityData.abilityName +
                             " into embryo for avatar " + avatarName);
                 } else {
-                    Grasscutter.getLogger().info("Dynamic ability " + abilityData.abilityName +
+                    Grasscutter.getLogger().debug("Dynamic ability " + abilityData.abilityName +
                             " already exists in embryo for avatar " + avatarName);
                 }
             }

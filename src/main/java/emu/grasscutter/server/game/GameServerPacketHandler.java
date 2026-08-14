@@ -49,6 +49,17 @@ public final class GameServerPacketHandler {
     public void handle(GameSession session, int opcode, byte[] header, byte[] payload) {
         PacketHandler handler = this.handlers.get(opcode);
 
+        // This used to announce every opcode that arrived along with a dump of its fields, which is
+        // how the 7.0 inbound map was recovered from a single client launch. That job is done, so it
+        // is down to debug: only unhandled opcodes, once each, and no payload dump.
+        if (handler == null && unannounced.add(opcode)) {
+            Grasscutter.getLogger()
+                    .debug(
+                            "{} ({}) arrived and nothing handles it.",
+                            PacketOpcodesUtils.getOpcodeName(opcode),
+                            opcode);
+        }
+
         if (handler != null) {
             try {
 
@@ -96,22 +107,9 @@ public final class GameServerPacketHandler {
             return;
         }
 
-        // Nothing answers this one, so the player's action does nothing. Said once per opcode, at a
-        // level that is actually visible: this is also how the CmdId of an unimplemented feature is
-        // discovered - go and use the feature in game, and the client names the packet it wanted.
-        if (unannounced.add(opcode)) {
-            Grasscutter.getLogger()
-                    .info(
-                            "Nothing handles {} ({}), so the client got no answer.",
-                            PacketOpcodesUtils.getOpcodeName(opcode),
-                            opcode);
-            // After a game update every CmdId has moved, so an unhandled packet is usually a known
-            // message wearing a new number. The wire format still gives up its field numbers and
-            // values without any schema, and that is enough to recognise one: a version string, a
-            // base64 RSA blob, a 64-hex token. Logged once per opcode, next to the number itself.
-            Grasscutter.getLogger()
-                    .info("  ({}) fields: {}", opcode, emu.grasscutter.utils.ProtoSniff.describe(payload));
-        }
+        // Nothing answers this one, so the player's action does nothing - already reported above,
+        // along with the fields, which is how the CmdId of an unimplemented feature is discovered:
+        // go and use the feature in game, and the client names the packet it wanted.
     }
 
     /** Opcodes already reported as unhandled, so the log says it once rather than every packet. */
