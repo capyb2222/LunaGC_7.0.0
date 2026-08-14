@@ -92,9 +92,9 @@ public class AnnouncementSystem extends BaseGameSystem {
                     .setEndTime(Utils.getCurrentSeconds() + 10);
 
             if (type == AnnounceType.CENTER) {
-                proto.setCenterSystemText(content).setCenterSystemFrequency(frequency);
+                proto.setCenterSystemFrequency(frequency); // center_system_text unnamed in 7.0
             } else {
-                proto.setCountDownText(content).setCountDownFrequency(frequency);
+                proto.setCountDownFrequency(frequency);
             }
 
             return proto;

@@ -19,7 +19,7 @@ import emu.grasscutter.net.proto.ProtEntityTypeOuterClass.ProtEntityType;
 import emu.grasscutter.net.proto.SceneEntityAiInfoOuterClass.SceneEntityAiInfo;
 import emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo;
 import emu.grasscutter.net.proto.SceneGadgetInfoOuterClass.SceneGadgetInfo;
-import emu.grasscutter.net.proto.TrifleGadgetOuterClass.TrifleGadget;
+import emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo;
 import emu.grasscutter.net.proto.VectorOuterClass.Vector;
 import emu.grasscutter.server.packet.send.PacketGadgetInteractRsp;
 import emu.grasscutter.utils.helpers.ProtoHelper;
@@ -163,7 +163,7 @@ public class EntityItem extends EntityBaseGadget {
                         // Carries which item the drop actually is. gadgetId alone only picks the
                         // model, so without this the client has nothing to hand the player and the
                         // drop just sits there.
-                        .setTrifleGadget(TrifleGadget.newBuilder().setItem(this.getItem().toProto()))
+                        .setTrifleGadget(_TrifleGadgetInfo.newBuilder().setItem(this.getItem().toProto()))
                         .setBornType(GadgetBornType.GadgetBornType_GADGET_BORN_IN_AIR)
                         .setAuthorityPeerId(this.getWorld().getHostPeerId())
                         .setIsEnableInteract(true);

@@ -6,7 +6,6 @@ import emu.grasscutter.game.dungeons.challenge.WorldChallenge;
 import emu.grasscutter.game.tower.TowerManager;
 import emu.grasscutter.net.proto.*;
 import emu.grasscutter.net.proto.TowerLevelEndNotifyOuterClass.TowerLevelEndNotify;
-import emu.grasscutter.net.proto.TowerLevelEndNotifyOuterClass.TowerLevelEndNotify.ContinueStateType;
 
 public class TowerResult extends BaseDungeonResult {
     WorldChallenge challenge;
@@ -29,14 +28,21 @@ public class TowerResult extends BaseDungeonResult {
         this.currentStars = currentStars;
     }
 
+    // 7.0 declares continue_state as a plain uint32 rather than the nested ContinueStateType enum
+    // the 6.7 protos had, so the constants are spelled out here. The values are the ones the 6.7
+    // generated enum carried, read back off it rather than assumed.
+    private static final int CONTINUE_STATE_CAN_NOT_CONTINUE = 0;
+    private static final int CONTINUE_STATE_CAN_ENTER_NEXT_LEVEL = 1;
+    private static final int CONTINUE_STATE_CAN_ENTER_NEXT_FLOOR = 2;
+
     @Override
     protected void onProto(DungeonSettleNotifyOuterClass.DungeonSettleNotify.Builder builder) {
-        var continueStatus = ContinueStateType.CONTINUE_STATE_TYPE_CAN_NOT_CONTINUE_VALUE;
+        var continueStatus = CONTINUE_STATE_CAN_NOT_CONTINUE;
         if (challenge.isSuccess()) {
             if (hasNextLevel) {
-                continueStatus = ContinueStateType.CONTINUE_STATE_TYPE_CAN_ENTER_NEXT_LEVEL_VALUE;
+                continueStatus = CONTINUE_STATE_CAN_ENTER_NEXT_LEVEL;
             } else if (canJump) {
-                continueStatus = ContinueStateType.CONTINUE_STATE_TYPE_CAN_ENTER_NEXT_FLOOR_VALUE;
+                continueStatus = CONTINUE_STATE_CAN_ENTER_NEXT_FLOOR;
             }
         }
 

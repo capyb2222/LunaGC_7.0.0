@@ -47,7 +47,10 @@ public class PacketPlayerChatNotify extends BasePacket {
                 ChatInfo.newBuilder()
                         .setTime((int) (System.currentTimeMillis() / 1000))
                         .setUid(sender.getUid())
-                        .setSystemHint(systemHint)
+                        // 7.0 nests SystemHint inside ChatInfo, and it kept only `type`.
+                        .setSystemHint(
+                                ChatInfo.SystemHint.newBuilder()
+                                        .setType(systemHint.getType()))
                         .build();
 
         PlayerChatNotify proto =

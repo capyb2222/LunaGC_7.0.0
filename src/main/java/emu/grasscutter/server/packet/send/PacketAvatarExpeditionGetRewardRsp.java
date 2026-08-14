@@ -13,7 +13,7 @@ public class PacketAvatarExpeditionGetRewardRsp extends BasePacket {
 
         AvatarExpeditionGetRewardRsp.Builder proto = AvatarExpeditionGetRewardRsp.newBuilder();
         expeditionInfo.forEach((key, e) -> proto.putExpeditionInfoMap(key, e.toProto()));
-        items.forEach(item -> proto.addItemList(item.toItemParam()));
+        // AvatarExpeditionGetRewardRsp has no item_list in the 7.0 dump.
 
         this.setData(proto.build());
     }

@@ -27,7 +27,6 @@ public class PacketServerAnnounceNotify extends BasePacket {
                         .setConfigId(configId)
                         .setBeginTime(Utils.getCurrentSeconds() + 1)
                         .setEndTime(Utils.getCurrentSeconds() + 2)
-                        .setCenterSystemText(msg)
                         .setCenterSystemFrequency(1)
                         .build());
 

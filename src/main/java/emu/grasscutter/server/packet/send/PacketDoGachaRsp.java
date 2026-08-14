@@ -38,9 +38,7 @@ public class PacketDoGachaRsp extends BasePacket {
                         .addAllGachaItemList(list);
 
         if (banner.hasEpitomized()) {
-            rsp.setWishItemId(gachaInfo.getWishItemId())
-                    .setWishProgress(gachaInfo.getFailedChosenItemPulls())
-                    .setWishMaxProgress(banner.getWishMaxProgress());
+            rsp.setWishProgress(gachaInfo.getFailedChosenItemPulls());
         }
 
         this.setData(rsp.build());

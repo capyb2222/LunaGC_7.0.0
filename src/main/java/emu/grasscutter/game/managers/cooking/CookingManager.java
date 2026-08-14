@@ -63,8 +63,10 @@ public class CookingManager extends BasePlayerManager {
     public void handlePlayerCookReq(PlayerCookReq req) {
         // Get info from the request.
         int recipeId = req.getRecipeId();
-        int quality = req.getQteQuality();
-        int count = req.getCookCount();
+        // qte_quality and cook_count are unnamed in the 7.0 dump and PlayerCookReq has four
+        // indistinguishable uint32s, so neither can be read. Assume a single perfect dish.
+        int quality = 0;
+        int count = 1;
         int avatar = req.getAssistAvatar();
 
         // Get recipe data.

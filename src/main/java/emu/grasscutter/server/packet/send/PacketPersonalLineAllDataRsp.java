@@ -22,9 +22,12 @@ public class PacketPersonalLineAllDataRsp extends BasePacket {
                         .map(GameQuest::getSubQuestId)
                         .collect(Collectors.toSet());
 
+        // can_be_unlocked_personal_line_list is one of three unnamed `repeated uint32` fields in the
+        // 7.0 dump, and nothing distinguishes them, so the list is left empty rather than written to
+        // a field that may mean something else entirely.
         GameData.getPersonalLineDataMap().values().stream()
                 .filter(i -> !questList.contains(i.getStartQuestId()))
-                .forEach(i -> proto.addCanBeUnlockedPersonalLineList(i.getId()));
+                .forEach(i -> {});
 
         this.setData(proto);
     }

@@ -13,8 +13,12 @@ public class HandlerAvatarExpeditionStartReq extends PacketHandler {
         AvatarExpeditionStartReq req = AvatarExpeditionStartReq.parseFrom(payload);
         var player = session.getPlayer();
 
+        // 7.0 sends a list of expeditions in one request instead of a single flattened one.
         int startTime = Utils.getCurrentSeconds();
-        player.addExpeditionInfo(req.getAvatarGuid(), req.getExpId(), req.getHourTime(), startTime);
+        for (var info : req.getBasicInfoListList()) {
+            player.addExpeditionInfo(
+                    info.getAvatarGuid(), info.getExpId(), info.getHourTime(), startTime);
+        }
         player.save();
         session.send(new PacketAvatarExpeditionStartRsp(player.getExpeditionInfo()));
     }

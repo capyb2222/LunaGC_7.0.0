@@ -52,9 +52,7 @@ public class CookingCompoundManager extends BasePlayerManager {
             var data =
                     CompoundQueueData.newBuilder()
                             .setCompoundId(item.getCompoundId())
-                            .setOutputCount(item.getOutputCount(currentTime))
-                            .setOutputTime(item.getOutputTime(currentTime))
-                            .setWaitCount(item.getWaitCount(currentTime))
+                            .setWaitcount(item.getWaitCount(currentTime))
                             .build();
             compoundQueueData.add(data);
         }
@@ -101,9 +99,7 @@ public class CookingCompoundManager extends BasePlayerManager {
         var data =
                 CompoundQueueData.newBuilder()
                         .setCompoundId(id)
-                        .setOutputCount(c.getOutputCount(currentTime))
-                        .setOutputTime(c.getOutputTime(currentTime))
-                        .setWaitCount(c.getWaitCount(currentTime))
+                        .setWaitcount(c.getWaitCount(currentTime))
                         .build();
         player.sendPacket(new PacketPlayerCompoundMaterialRsp(data));
     }

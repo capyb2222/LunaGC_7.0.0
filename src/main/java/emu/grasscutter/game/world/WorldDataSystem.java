@@ -7,6 +7,8 @@ import emu.grasscutter.data.excels.world.WorldLevelData;
 import emu.grasscutter.game.entity.gadget.chest.*;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.proto.InvestigationMonsterOuterClass;
+import emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass;
+import emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass;
 import emu.grasscutter.scripts.data.*;
 import emu.grasscutter.server.game.*;
 import java.util.*;
@@ -110,25 +112,32 @@ public class WorldDataSystem extends BaseGameSystem {
 
         var builder = InvestigationMonsterOuterClass.InvestigationMonster.newBuilder();
 
-        builder
-                .setId(imd.getId())
-                .setCityId(imd.getCityId())
-                .setSceneId(imd.getCityData().getSceneId())
-                .setGroupId(groupId)
-                .setMonsterId(monsterId)
-                .setLevel(getMonsterLevel(monster.get(), player.getWorld()))
-                .setIsAlive(true)
-                .setNextRefreshTime(Integer.MAX_VALUE)
-                .setRefreshInterval(Integer.MAX_VALUE)
-                .setPos(monster.get().pos.toProto());
+        // 7.0 moved everything except id/city_id/lock_state down into a repeated detail entry, with
+        // scene/group/monster ids nested one level deeper again in its config.
+        builder.setId(imd.getId()).setCityId(imd.getCityId());
+
+        var detail =
+                _InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail.newBuilder()
+                        .setMonsterConfig(
+                                _InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig
+                                        .newBuilder()
+                                        .setSceneId(sceneId)
+                                        .setGroupId(groupId)
+                                        .setMonsterId(monsterId))
+                        .setLevel(getMonsterLevel(monster.get(), player.getWorld()))
+                        .setIsAlive(true)
+                        .setNextRefreshTime(Integer.MAX_VALUE)
+                        .setRefreshInterval(Integer.MAX_VALUE)
+                        .setPos(monster.get().pos.toProto());
 
         if ("Boss".equals(imd.getMonsterCategory())) {
             var bossChest = group.searchBossChestInGroup();
             if (bossChest.isPresent()) {
-                builder.setResin(bossChest.get().resin);
-                builder.setMaxBossChestNum(bossChest.get().take_num);
+                detail.setResin(bossChest.get().resin);
+                detail.setMaxBossChestNum(bossChest.get().take_num);
             }
         }
+        builder.addInvestigationMonsterDetailList(detail);
         return builder.build();
     }
 

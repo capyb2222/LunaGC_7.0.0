@@ -63,7 +63,8 @@ public class HomeSceneItem {
         }
 
         this.bornPos = new Position(arrangementInfo.getBornPos());
-        this.bornRot = new Position(arrangementInfo.getBornRot());
+        // born_rot is one of four unnamed Vectors in 7.0's HomeSceneArrangementInfo.
+        this.bornRot = new Position();
         this.djinnPos = new Position(arrangementInfo.getDjinnPos());
         this.homeBgmId = arrangementInfo.getBgmId();
 
@@ -124,9 +125,7 @@ public class HomeSceneItem {
         proto
                 .setComfortValue(calComfort())
                 .setBornPos(bornPos.toProto())
-                .setBornRot(bornRot.toProto())
                 .setDjinnPos(djinnPos.toProto())
-                .setIsSetBornPos(true)
                 .setSceneId(sceneId)
                 .setBgmId(homeBgmId)
                 .setTmpVersion(tmpVersion);

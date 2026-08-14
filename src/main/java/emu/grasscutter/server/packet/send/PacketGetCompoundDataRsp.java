@@ -13,7 +13,7 @@ public class PacketGetCompoundDataRsp extends BasePacket {
         var proto =
                 GetCompoundDataRsp.newBuilder()
                         .addAllUnlockCompoundList(unlockedCompounds)
-                        .addAllCompoundQueueDataList(compoundQueueData)
+                        .addAllCompoundQueDataList(compoundQueueData)
                         .setRetcode(Retcode.RET_SUCC_VALUE)
                         .build();
         setData(proto);

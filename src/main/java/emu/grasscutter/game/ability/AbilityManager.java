@@ -789,7 +789,8 @@ public final class AbilityManager extends BasePlayerManager {
             return;
         }
 
-        if (head.getIsServerbuffModifier()) {
+        // is_serverbuff_modifier has no named counterpart in the 7.0 AbilityInvokeEntryHead.
+        if (false) {
 
             this.player.getScene().broadcastPacket(new PacketAbilityInvocationsNotify(invoke));
             return;

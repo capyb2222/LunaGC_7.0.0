@@ -13,10 +13,8 @@ public class HandlerTowerTeamSelectReq extends PacketHandler {
     public void handle(GameSession session, byte[] header, byte[] payload) throws Exception {
         TowerTeamSelectReq req = TowerTeamSelectReq.parseFrom(payload);
 
-        var towerTeams =
-                req.getTowerTeamListList().stream()
-                        .map(TowerTeamOuterClass.TowerTeam::getAvatarGuidListList)
-                        .toList();
+        // 7.0's TowerTeamSelectReq only carries floor_id; the team list has no recoverable name.
+        var towerTeams = java.util.List.<java.util.List<Long>>of();
 
         session.getPlayer().getTowerManager().teamSelect(req.getFloorId(), towerTeams);
 

@@ -228,19 +228,14 @@ public class GachaBanner {
                         .setTenCostItemId(this.costItemId10)
                         .setGachaPrefabPath(this.getPrefabPath())
                         .setGachaPreviewPrefabPath(previewPath)
-                        .setGachaProbUrl(details)
-                        .setGachaProbUrlOversea(details)
-                        .setGachaRecordUrl(record)
-                        .setGachaRecordUrlOversea(record)
                         .setLeftGachaTimes(leftGachaTimes)
                         .setGachaTimesLimit(gachaTimesLimit)
                         .setGachaSortId(this.getSortId())
-                        .setIsNewWish(true);
+                        ;
 
         if (hasEpitomized()) {
-            info.setWishItemId(gachaInfo.getWishItemId())
-                    .setWishProgress(gachaInfo.getFailedChosenItemPulls())
-                    .setWishMaxProgress(this.getWishMaxProgress());
+            // GachaInfo in 7.0 has no wish_* fields under any recoverable name.
+            info.setLeftGachaTimes(leftGachaTimes);
         }
 
         if (this.getTitlePath() != null) {

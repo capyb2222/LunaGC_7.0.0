@@ -12,7 +12,9 @@ public class PacketEntityAiSyncNotify extends BasePacket {
         EntityAiSyncNotify.Builder proto = EntityAiSyncNotify.newBuilder();
 
         for (int monsterId : notify.getLocalAvatarAlertedMonsterListList()) {
-            proto.addInfoList(AiSyncInfo.newBuilder().setEntityId(monsterId).setHasPathToTarget(true));
+            // has_path_to_target is one of AiSyncInfo's two unnamed bools in the 7.0 dump and there
+            // is no way to tell which, so it is left unset rather than guessed at.
+            proto.addInfoList(AiSyncInfo.newBuilder().setEntityId(monsterId));
         }
 
         this.setData(proto);
