@@ -1124,6 +1124,33 @@ public class DailyTaskManager {
 		return true;
 	}
 
+	/** Whether the four-commission bonus has already been handed over today. */
+	public boolean isScoreRewardTaken() {
+		return this.scoreRewardTaken;
+	}
+
+	/** How many commissions a day is, so callers do not restate it. */
+	public static int getDailyTaskCount() {
+		return DAILY_TASK_COUNT;
+	}
+
+	/**
+	 * The items the four-commission bonus pays out. The reward is granted automatically the moment
+	 * the fourth commission is finished, but the client still asks for it and wants the list back to
+	 * show, so this reads the same preview the grant used.
+	 */
+	public List<ItemParamData> getScoreRewardItems() {
+		RewardPreviewData reward =
+				GameData.getRewardPreviewDataMap()
+						.get(this.getScoreRewardId());
+
+		if (reward == null || reward.getPreviewItems() == null) {
+			return List.of();
+		}
+
+		return Arrays.asList(reward.getPreviewItems());
+	}
+
 	public synchronized boolean claimScoreReward() {
 		if (!this.tryAutoClaimScoreReward()) {
 			return false;

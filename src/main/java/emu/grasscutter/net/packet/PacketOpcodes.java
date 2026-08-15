@@ -1812,6 +1812,10 @@ public final class PacketOpcodes {
     public static final int _TakeBeyondBattlePassRewardRsp = 9297;
     public static final int _TakeDailyTaskScoreRewardReq = 4692;
     public static final int _TakeDailyTaskScoreRewardRsp = 6869;
+    // 7.0 spells these with a leading underscore; same message. Aliased in gen_opcodes.py so they
+    // survive regeneration.
+    public static final int TakeDailyTaskScoreRewardReq = 4692;
+    public static final int TakeDailyTaskScoreRewardRsp = 6869;
     public static final int _TakeFurnitureMakeAllReq = 1197;
     public static final int _TakeFurnitureMakeAllRsp = 22929;
     public static final int _TakeReunionVideoRewardRsp = 5788;
