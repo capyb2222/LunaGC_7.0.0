@@ -173,14 +173,11 @@ public final class SetPropCommand implements CommandHandler {
             recordMap.remove(floor);
         }
 
-        if (topFloor > 8) {
-            recordMap
-                    .get(floorIds.get(7))
-                    .setLevelStars(
-                            0,
-                            6);
-
-        }
+        // The entrance floors no longer need faking open here - TowerManager.grantEntranceFloors
+        // hands them over with real level ids and real stars on every read of the record map. The
+        // old code put a level 0 / 6 star entry on floor 8 to get past canEnterScheduleFloor, which
+        // then went out to the client in passed_level_map as a chamber that does not exist. For the
+        // same reason this command can only lock floors 9-12; floors 1-8 come back on the next read.
         return true;
     }
 

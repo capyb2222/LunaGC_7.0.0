@@ -29,9 +29,12 @@ public class TowerManager extends BasePlayerManager {
         return this.getTowerData().currentFloorId;
     }
 
-    /** floor number: 1 - 12 * */
+    /** floor number: 1 - 12, or 0 when no floor is selected * */
     public int getCurrentFloorNumber() {
-        return GameData.getTowerFloorDataMap().get(getCurrentFloorId()).getFloorIndex();
+        // EntityMonster.recalcStats reads this while scaling tower monsters, and it runs from the
+        // constructor - early enough that no floor need be chosen yet. 0 simply scales nothing.
+        var floorData = GameData.getTowerFloorDataMap().get(getCurrentFloorId());
+        return floorData != null ? floorData.getFloorIndex() : 0;
     }
 
     public int getCurrentLevelId() {
@@ -71,31 +74,98 @@ public class TowerManager extends BasePlayerManager {
         inProgress = false;
     }
 
+    private static final int LEVELS_PER_FLOOR = 3;
+    private static final int STARS_PER_LEVEL = 3;
+    private static final int STARS_PER_FLOOR = LEVELS_PER_FLOOR * STARS_PER_LEVEL;
+
     public Map<Integer, TowerLevelRecord> getRecordMap() {
         Map<Integer, TowerLevelRecord> recordMap = getTowerData().recordMap;
-        if (recordMap == null || recordMap.size() == 0) {
+        if (recordMap == null) {
             recordMap = new HashMap<>();
-            recordMap.put(1001, new TowerLevelRecord(1001));
             getTowerData().recordMap = recordMap;
         }
+        grantEntranceFloors(recordMap);
         return recordMap;
+    }
+
+    /**
+     * Hands over entrance floors 1-8 already cleared, so an account starts on the floors that
+     * actually rotate.
+     *
+     * <p>The schedule floors are gated twice: TowerAllDataRsp reports {@code
+     * is_finished_entrance_floor} from {@link #canEnterScheduleFloor()}, which wants six stars on
+     * the last entrance floor, and each floor's own {@code unlockStarCount} wants six stars on the
+     * one before it. Full nine-star records on every entrance floor satisfy both. Delete this call
+     * to play floors 1-8 for real.
+     */
+    private void grantEntranceFloors(Map<Integer, TowerLevelRecord> recordMap) {
+        var schedule = player.getServer().getTowerSystem().getCurrentTowerScheduleData();
+        if (schedule == null) return;
+
+        for (int floorId : schedule.getEntranceFloorId()) {
+            // Levels within a floor are consecutive ids from levelIndex 1, which is the same
+            // assumption getCurrentLevelId() makes when it walks the floor.
+            int firstLevelId = getFirstLevelId(floorId);
+            if (firstLevelId == 0) continue;
+
+            var record = recordMap.computeIfAbsent(floorId, TowerLevelRecord::new);
+            if (record.getPassedLevelMap() == null) {
+                // A record loaded from a save written before the map existed.
+                record.setPassedLevelMap(new HashMap<>());
+            }
+
+            // Drop chambers that do not belong to this floor. The old /setprop towerlevel faked the
+            // unlock by writing chamber id 0 with six stars, and a save that still carries it would
+            // report a chamber that does not exist to the client in passed_level_map.
+            record
+                    .getPassedLevelMap()
+                    .keySet()
+                    .removeIf(id -> id < firstLevelId || id >= firstLevelId + LEVELS_PER_FLOOR);
+
+            if (record.getStarCount() >= STARS_PER_FLOOR) continue;
+
+            for (int i = 0; i < LEVELS_PER_FLOOR; i++) {
+                record.setLevelStars(firstLevelId + i, STARS_PER_LEVEL);
+            }
+            record.setFloorStarRewardProgress(STARS_PER_FLOOR);
+        }
+    }
+
+    /** Id of a floor's first chamber, or 0 if the resources do not describe the floor. */
+    private static int getFirstLevelId(int floorId) {
+        var floorData = GameData.getTowerFloorDataMap().get(floorId);
+        if (floorData == null) return 0;
+        return GameData.getTowerLevelDataMap().values().stream()
+                .filter(x -> x.getLevelGroupId() == floorData.getLevelGroupId() && x.getLevelIndex() == 1)
+                .findFirst()
+                .map(TowerLevelData::getId)
+                .orElse(0);
     }
 
     public void teamSelect(int floor, List<List<Long>> towerTeams) {
         var floorData = GameData.getTowerFloorDataMap().get(floor);
+        if (floorData == null) {
+            Grasscutter.getLogger().warn("Tower team select for unknown floor {}", floor);
+            return;
+        }
         getTowerData().currentFloorId = floorData.getFloorId();
         getTowerData().currentLevel = 0;
-        getTowerData().currentLevelId =
-                GameData.getTowerLevelDataMap().values().stream()
-                        .filter(
-                                x -> x.getLevelGroupId() == floorData.getLevelGroupId() && x.getLevelIndex() == 1)
-                        .findFirst()
-                        .map(TowerLevelData::getId)
-                        .orElse(0);
+        getTowerData().currentLevelId = getFirstLevelId(floor);
 
         if (getTowerData().entryScene == 0) {
             getTowerData().entryScene = player.getSceneId();
         }
+
+        // The teams the client picked are the whole point of this packet, and every way they can go
+        // missing looks identical in game - the overworld team just walks in instead. Say what
+        // arrived: no teams at all means the request did not carry them, whereas teams that arrive
+        // and then get refused are reported by setupTemporaryTeam.
+        Grasscutter.getLogger()
+                .info(
+                        "Tower team select on floor {}: {} team(s), sizes {}",
+                        floor,
+                        towerTeams.size(),
+                        towerTeams.stream().map(List::size).toList());
 
         player.getTeamManager().setupTemporaryTeam(towerTeams);
     }
@@ -106,11 +176,29 @@ public class TowerManager extends BasePlayerManager {
 
     public int getCurrentMonsterLevel() {
         // monsterLevel given in TowerLevelExcelConfigData.json is off by one.
-        return getCurrentTowerLevelDataMap().getMonsterLevel() + 1;
+        var levelData = getCurrentTowerLevelDataMap();
+        if (levelData != null) {
+            return levelData.getMonsterLevel() + 1;
+        }
+        // Spawning is not worth aborting over a missing row; the floor's own override is the same
+        // number the client shows for the floor.
+        var floorData = GameData.getTowerFloorDataMap().get(getCurrentFloorId());
+        Grasscutter.getLogger()
+                .warn("No tower level data for level {}, falling back to the floor level", getCurrentLevelId());
+        return floorData != null ? floorData.getOverrideMonsterLevel() : 1;
     }
 
     public void enterLevel(int enterPointId) {
         var levelData = getCurrentTowerLevelDataMap();
+        if (levelData == null) {
+            // No level means no dungeon to hand off to; entering would NPE on the way in.
+            Grasscutter.getLogger()
+                    .warn(
+                            "Tower enter level {} on floor {} has no level data",
+                            getCurrentLevelId(),
+                            getCurrentFloorId());
+            return;
+        }
 
         var dungeonId = levelData.getDungeonId();
 
@@ -209,10 +297,14 @@ public class TowerManager extends BasePlayerManager {
         this.getTowerData().currentLevel++;
 
         if (!this.hasNextLevel()) {
-            // set up the next floor
+            // set up the next floor - but floor 12 is the last one, and getNextFloorId returns 0
+            // there. Recording floor 0 would put a bogus entry in the save and then report it back
+            // in TowerAllDataRsp as a real floor.
             var nextFloorId = this.getNextFloorId();
-            recordMap.computeIfAbsent(nextFloorId, TowerLevelRecord::new);
-            player.getSession().send(new PacketTowerCurLevelRecordChangeNotify(nextFloorId, 1));
+            if (nextFloorId > 0) {
+                recordMap.computeIfAbsent(nextFloorId, TowerLevelRecord::new);
+                player.getSession().send(new PacketTowerCurLevelRecordChangeNotify(nextFloorId, 1));
+            }
         } else {
             player
                     .getSession()
