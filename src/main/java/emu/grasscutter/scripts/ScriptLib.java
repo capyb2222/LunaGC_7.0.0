@@ -190,8 +190,9 @@ public class ScriptLib {
             return 0;
         }
 
-        var towerManager = scene.getPlayers().get(0).getTowerManager();
-        if (towerManager.isInProgress() && towerManager.getCurrentTimeLimit() > 0) {
+        var players = scene.getPlayers();
+        var towerManager = players.isEmpty() ? null : players.get(0).getTowerManager();
+        if (towerManager != null && towerManager.isInProgress() && towerManager.getCurrentTimeLimit() > 0) {
 
             timeLimitOrGroupId = towerManager.getCurrentTimeLimit() - timeLimitOrGroupId;
             if (timeLimitOrGroupId < 0) {
@@ -1384,7 +1385,12 @@ public class ScriptLib {
     public int TowerMirrorTeamSetUp(int team, int var1) {
         logger.debug("[LUA] Call TowerMirrorTeamSetUp with {},{}", team, var1);
         getSceneScriptManager().unloadCurrentMonsterTide();
-        getSceneScriptManager().getScene().getPlayers().get(0).getTowerManager().mirrorTeamSetUp(team - 1);
+        // This is the mid-chamber team swap on two-team floors, driven from the floor's Lua.
+        var players = getSceneScriptManager().getScene().getPlayers();
+        if (players.isEmpty()) {
+            return 0;
+        }
+        players.get(0).getTowerManager().mirrorTeamSetUp(team - 1);
         return 0;
     }
 

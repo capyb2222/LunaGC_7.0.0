@@ -157,7 +157,14 @@ public final class TeamManager extends BasePlayerDataManager {
     }
 
     public TeamInfo getCurrentTeamInfo() {
-        if (useTemporarilyTeamIndex >= 0 && useTemporarilyTeamIndex < temporaryTeam.size()) {
+        // The index and the list are both transient and set by different packets - the abyss picks
+        // teams in TowerTeamSelectReq and uses one in TowerEnterLevelReq - so a client that enters
+        // without selecting first, or that restarts a floor, can leave the index set with no list
+        // behind it. Falling through to the normal team is the right answer there; dereferencing is
+        // not.
+        if (temporaryTeam != null
+                && useTemporarilyTeamIndex >= 0
+                && useTemporarilyTeamIndex < temporaryTeam.size()) {
             return temporaryTeam.get(useTemporarilyTeamIndex);
         }
         if (this.getPlayer().isInMultiplayer()) {
@@ -641,33 +648,61 @@ public final class TeamManager extends BasePlayerDataManager {
     }
 
     public void setupTemporaryTeam(List<List<Long>> guidList) {
-        this.temporaryTeam =
-            guidList.stream()
-                .map(
-                    list -> {
+        var teams = new ArrayList<TeamInfo>(guidList.size());
 
-                        if (list.size() == 0 || list.size() > this.getMaxTeamSize()) {
-                            return null;
-                        }
+        for (int i = 0; i < guidList.size(); i++) {
+            var guids = guidList.get(i);
+            String rejected = null;
+            List<Integer> avatarIds = null;
 
-                        LinkedHashSet<Avatar> newTeam = new LinkedHashSet<>();
-                        for (Long aLong : list) {
-                            Avatar avatar = this.getPlayer().getAvatars().getAvatarByGuid(aLong);
-                            if (avatar == null || newTeam.contains(avatar)) {
+            if (guids.isEmpty()) {
+                rejected = "it is empty";
+            } else if (guids.size() > this.getMaxTeamSize()) {
+                rejected = guids.size() + " avatars, over the limit of " + this.getMaxTeamSize();
+            } else {
+                var newTeam = new LinkedHashSet<Avatar>();
+                for (Long guid : guids) {
+                    Avatar avatar = this.getPlayer().getAvatars().getAvatarByGuid(guid);
+                    if (avatar == null) {
+                        rejected = "no avatar with guid " + guid;
+                        break;
+                    }
+                    if (!newTeam.add(avatar)) {
+                        rejected = "avatar " + avatar.getAvatarId() + " is listed twice";
+                        break;
+                    }
+                }
+                if (rejected == null) {
+                    avatarIds = newTeam.stream().map(Avatar::getAvatarId).toList();
+                }
+            }
 
-                                return null;
-                            }
-                            newTeam.add(avatar);
-                        }
+            if (rejected != null) {
+                // Keep the slot rather than dropping it. The abyss picks its second half by INDEX,
+                // so removing a rejected team renumbers the ones behind it and seats the wrong half
+                // - and an empty result falls back to the overworld team with nothing said. An
+                // empty slot leaves the previous team in place, same as before, but aligned.
+                Grasscutter.getLogger().warn("Temporary team {} rejected: {}", i + 1, rejected);
+                teams.add(new TeamInfo());
+            } else {
+                teams.add(new TeamInfo(avatarIds));
+            }
+        }
 
-                        return newTeam.stream().map(Avatar::getAvatarId).toList();
-                    })
-                .filter(Objects::nonNull)
-                .map(TeamInfo::new)
-                .toList();
+        this.temporaryTeam = teams;
     }
 
     public void useTemporaryTeam(int index) {
+        int available = this.temporaryTeam == null ? 0 : this.temporaryTeam.size();
+        if (index < 0 || index >= available) {
+            // getCurrentTeamInfo falls back to the overworld team here, which is exactly what the
+            // abyss looks like when the selection never landed. Do not let that happen quietly.
+            Grasscutter.getLogger()
+                    .warn(
+                            "Asked to use temporary team {} but only {} are set up; the current team stays",
+                            index + 1,
+                            available);
+        }
         this.useTemporarilyTeamIndex = index;
         this.updateTeamEntities(null);
     }

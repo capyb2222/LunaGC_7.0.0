@@ -83,8 +83,10 @@ public final class DungeonManager {
     }
 
     public int getLevelForMonster(int id) {
-        if (isTowerDungeon()) {
-            // Tower dungeons have their own level setting in TowerLevelData
+        if (isTowerDungeon() && !scene.getPlayers().isEmpty()) {
+            // Tower dungeons have their own level setting in TowerLevelData. Monsters can be built
+            // while the scene has no players yet, so fall through to the dungeon level there
+            // instead of indexing an empty list.
             return scene.getPlayers().get(0).getTowerManager().getCurrentMonsterLevel();
         } else {
             // TODO should use levelConfigMap? and how?

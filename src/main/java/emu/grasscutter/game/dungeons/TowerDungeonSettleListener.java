@@ -23,7 +23,13 @@ public class TowerDungeonSettleListener implements DungeonSettleListener {
             return;
         }
 
-        var towerManager = scene.getPlayers().get(0).getTowerManager();
+        var players = scene.getPlayers();
+        if (players.isEmpty()) {
+            // Settle can land after the last player has left the scene; there is no record to
+            // update and nobody to broadcast to.
+            return;
+        }
+        var towerManager = players.get(0).getTowerManager();
         var stars = towerManager.getCurLevelStars();
 
         if (endReason == DungeonEndReason.COMPLETED) {
