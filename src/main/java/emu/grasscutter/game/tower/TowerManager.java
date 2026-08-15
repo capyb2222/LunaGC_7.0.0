@@ -102,7 +102,10 @@ public class TowerManager extends BasePlayerManager {
         var schedule = player.getServer().getTowerSystem().getCurrentTowerScheduleData();
         if (schedule == null) return;
 
-        for (int floorId : schedule.getEntranceFloorId()) {
+        var entranceFloors = schedule.getEntranceFloorId();
+        if (entranceFloors == null || entranceFloors.isEmpty()) return;
+
+        for (int floorId : entranceFloors) {
             // Levels within a floor are consecutive ids from levelIndex 1, which is the same
             // assumption getCurrentLevelId() makes when it walks the floor.
             int firstLevelId = getFirstLevelId(floorId);
@@ -128,6 +131,19 @@ public class TowerManager extends BasePlayerManager {
                 record.setLevelStars(firstLevelId + i, STARS_PER_LEVEL);
             }
             record.setFloorStarRewardProgress(STARS_PER_FLOOR);
+        }
+
+        // Clearing a floor also opens the next one by giving it an empty record - that is what
+        // notifyCurLevelRecordChangeWhenDone does every time. Granting the stars without it leaves
+        // the floor after the corridor with no record at all, which is not a state the game can
+        // otherwise reach, and the client shows it locked.
+        int firstScheduleFloor =
+                player
+                        .getServer()
+                        .getTowerSystem()
+                        .getNextFloorId(entranceFloors.get(entranceFloors.size() - 1));
+        if (firstScheduleFloor > 0) {
+            recordMap.computeIfAbsent(firstScheduleFloor, TowerLevelRecord::new);
         }
     }
 
