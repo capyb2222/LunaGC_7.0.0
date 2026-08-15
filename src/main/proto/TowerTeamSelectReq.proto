@@ -3,6 +3,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "TowerTeamSelectReqOuterClass";
 
+import "TowerTeam.proto";
+
 message TowerTeamSelectReq {
+	repeated TowerTeam tower_team_list = 8;
 	uint32 floor_id = 9;
 }
