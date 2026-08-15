@@ -53,11 +53,23 @@ public final class GameServerPacketHandler {
         // how the 7.0 inbound map was recovered from a single client launch. That job is done, so it
         // is down to debug: only unhandled opcodes, once each, and no payload dump.
         if (handler == null && unannounced.add(opcode)) {
+            // The field numbers are what identify the message: a Req we have no 7.0 CmdId for still
+            // has a known 6.7 shape, so the numbers on the wire name it without any guessing. Said
+            // once per opcode, so walking through a feature lists exactly what it needs.
+            String fields;
+            try {
+                fields =
+                        com.google.protobuf.UnknownFieldSet.parseFrom(payload).asMap().keySet().toString();
+            } catch (Exception e) {
+                fields = "<unparsed>";
+            }
             Grasscutter.getLogger()
-                    .debug(
-                            "{} ({}) arrived and nothing handles it.",
+                    .info(
+                            "{} ({}) arrived and nothing handles it - {} bytes, fields {}",
                             PacketOpcodesUtils.getOpcodeName(opcode),
-                            opcode);
+                            opcode,
+                            payload.length,
+                            fields);
         }
 
         if (handler != null) {
