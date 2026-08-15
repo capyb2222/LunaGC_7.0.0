@@ -41,14 +41,14 @@ public class PacketTowerAllDataRsp extends BasePacket {
                 TowerAllDataRsp.newBuilder()
                         .setTowerScheduleId(towerScheduleManager.getCurrentTowerScheduleData().getScheduleId())
                         .addAllTowerFloorRecordList(recordList)
-                        //.setCurLevelRecord(TowerCurLevelRecord.newBuilder().setIsEmpty(true))
-                        //.setScheduleStartTime(
-                        //        DateHelper.getUnixTime(
-                        //                towerScheduleManager.getTowerScheduleConfig().getScheduleStartTime()))
+                        .setCurLevelRecord(TowerCurLevelRecord.newBuilder().setIsEmpty(true))
+                        .setScheduleStartTime(
+                                DateHelper.getUnixTime(
+                                        towerScheduleManager.getTowerScheduleConfig().getScheduleStartTime()))
                         .setNextScheduleChangeTime(
                                 DateHelper.getUnixTime(
                                         towerScheduleManager.getTowerScheduleConfig().getNextScheduleChangeTime()))
-                        //.putAllFloorOpenTimeMap(openTimeMap)
+                        .putAllFloorOpenTimeMap(openTimeMap)
                         .setIsFinishedEntranceFloor(towerManager.canEnterScheduleFloor())
                         .build();
 
@@ -62,8 +62,8 @@ public class PacketTowerAllDataRsp extends BasePacket {
                         item ->
                                 TowerLevelRecordOuterClass.TowerLevelRecord.newBuilder()
                                         .setLevelId(item.getKey())
-                                        //.addAllSatisfiedCondList(
-                                        //        IntStream.range(1, item.getValue() + 1).boxed().toList())
+                                        .addAllSatisfiedCondList(
+                                                IntStream.range(1, item.getValue() + 1).boxed().toList())
                                         .build())
                 .toList();
     }

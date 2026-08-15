@@ -19,9 +19,9 @@ public class PacketTowerFloorRecordChangeNotify extends BasePacket {
                                         .addPassedLevelRecordList(
                                                 TowerLevelRecord.newBuilder()
                                                         .setLevelId(1)
-                                                        //.addSatisfiedCondList(1)
-                                                        //.addSatisfiedCondList(2)
-                                                        //.addSatisfiedCondList(3)
+                                                        .addSatisfiedCondList(1)
+                                                        .addSatisfiedCondList(2)
+                                                        .addSatisfiedCondList(3)
                                                         .build())
                                         .build())
                         .setIsFinishedEntranceFloor(canEnterScheduleFloor)
