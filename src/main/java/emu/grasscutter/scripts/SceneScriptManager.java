@@ -944,46 +944,58 @@ public class SceneScriptManager {
     private void callTrigger(SceneTrigger trigger, ScriptArgs params) {
         // the SetGroupVariableValueByGroup in tower need the param to record the first stage time
         ongoingTriggers.add(trigger);
-        var ret = this.callScriptFunc(trigger.getAction(), trigger.currentGroup, params);
-        var invocationsCounter = triggerInvocations.get(trigger.getName());
-        var invocations = invocationsCounter.incrementAndGet();
-        Grasscutter.getLogger().trace("Call Action Trigger {}", trigger.getAction());
+        try {
+            var ret = this.callScriptFunc(trigger.getAction(), trigger.currentGroup, params);
+            // A trigger registered before this manager saw it has no counter yet
+            var invocationsCounter =
+                    triggerInvocations.computeIfAbsent(trigger.getName(), name -> new AtomicInteger());
+            var invocations = invocationsCounter.incrementAndGet();
+            Grasscutter.getLogger().trace("Call Action Trigger {}", trigger.getAction());
 
-        var activeChallenge = scene.getChallenge();
-        if (activeChallenge != null) {
-            activeChallenge.onGroupTriggerDeath(trigger);
-        }
+            var activeChallenge = scene.getChallenge();
+            if (activeChallenge != null) {
+                activeChallenge.onGroupTriggerDeath(trigger);
+            }
 
-        if (trigger.getEvent() == EventType.EVENT_ENTER_REGION) {
-            var region =
-                    this.regions.values().stream()
-                            .filter(p -> p.getConfigId() == params.param1)
-                            .toList()
-                            .get(0);
-            this.getScene().getPlayers().forEach(p -> p.onEnterRegion(region.getMetaRegion()));
-        } else if (trigger.getEvent() == EventType.EVENT_LEAVE_REGION) {
-            var region =
-                    this.regions.values().stream()
-                            .filter(p -> p.getConfigId() == params.param1)
-                            .toList()
-                            .get(0);
-            this.getScene().getPlayers().forEach(p -> p.onLeaveRegion(region.getMetaRegion()));
-        }
+            var event = trigger.getEvent();
+            if (event == EventType.EVENT_ENTER_REGION || event == EventType.EVENT_LEAVE_REGION) {
+                // The region an event names is not always still loaded - get(0) on the empty result
+                // threw out of here, leaving the trigger ongoing and never deregistering it
+                this.regions.values().stream()
+                        .filter(p -> p.getConfigId() == params.param1)
+                        .findFirst()
+                        .ifPresent(
+                                region -> {
+                                    var metaRegion = region.getMetaRegion();
+                                    this.getScene()
+                                            .getPlayers()
+                                            .forEach(
+                                                    p -> {
+                                                        if (event == EventType.EVENT_ENTER_REGION) {
+                                                            p.onEnterRegion(metaRegion);
+                                                        } else {
+                                                            p.onLeaveRegion(metaRegion);
+                                                        }
+                                                    });
+                                });
+            }
 
-        if (trigger.getEvent() == EVENT_TIMER_EVENT) {
-            cancelGroupTimerEvent(trigger.currentGroup.id, trigger.getSource());
-        }
+            if (event == EVENT_TIMER_EVENT) {
+                cancelGroupTimerEvent(trigger.currentGroup.id, trigger.getSource());
+            }
 
-        // always deregister on error, otherwise only if the count is reached
-        // or the trigger should be preserved after a RefreshGroup call
-        if (trigger.isPreserved()) {
-            trigger.setPreserved(false);
-        } else if (ret.isboolean() && !ret.checkboolean()
-                || ret.isint() && ret.checkint() != 0
-                || trigger.getTrigger_count() > 0 && invocations >= trigger.getTrigger_count()) {
-            deregisterTrigger(trigger);
+            // always deregister on error, otherwise only if the count is reached
+            // or the trigger should be preserved after a RefreshGroup call
+            if (trigger.isPreserved()) {
+                trigger.setPreserved(false);
+            } else if (ret.isboolean() && !ret.checkboolean()
+                    || ret.isint() && ret.checkint() != 0
+                    || trigger.getTrigger_count() > 0 && invocations >= trigger.getTrigger_count()) {
+                deregisterTrigger(trigger);
+            }
+        } finally {
+            ongoingTriggers.remove(trigger);
         }
-        ongoingTriggers.remove(trigger);
     }
 
     private LuaValue callScriptFunc(String funcName, SceneGroup group, ScriptArgs params) {
@@ -1009,7 +1021,9 @@ public class SceneScriptManager {
     public LuaValue safetyCall(String name, LuaValue func, LuaValue args, SceneGroup group) {
         try {
             return func.call(ScriptLoader.getScriptLibLua(), args);
-        } catch (LuaError error) {
+        } catch (RuntimeException error) {
+            // LuaError, but also the odd crash inside luaj's own traceback builder, which used to
+            // escape a method whose whole job is to contain script failures
             ScriptLib.logger.error(
                     "[LUA] call trigger failed in group {} with {},{}", group.id, name, args, error);
             return LuaValue.valueOf(-1);
