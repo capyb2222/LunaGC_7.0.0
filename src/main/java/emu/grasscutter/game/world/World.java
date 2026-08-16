@@ -341,6 +341,11 @@ public class World implements Iterable<Player> {
                                 Grasscutter.getLogger()
                                         .trace(
                                                 "queueTransferPlayerToScene: teleport to scene {} is interrupted", sceneId);
+                            } catch (Throwable e) {
+                                // submit() parks anything thrown in a Future nobody reads, so a failed
+                                // teleport just left the player standing there with nothing logged
+                                Grasscutter.getLogger()
+                                        .error("Queued teleport to scene {} failed.", sceneId, e);
                             }
                         }));
     }
