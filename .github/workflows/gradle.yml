@@ -8,17 +8,23 @@
 name: Java CI with Gradle
 
 on:
+  # Every branch, deliberately: pinning this to a version branch is what left the
+  # workflow dead once the repo moved on from it.
   push:
-    branches: [ "6.5.0" ]
+    branches: [ "**" ]
   pull_request:
-    branches: [ "6.5.0" ]
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
 
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write # Needed to publish the release below.
 
     steps:
     - uses: actions/checkout@v4
@@ -36,13 +42,50 @@ jobs:
     - name: Build with Gradle Wrapper
       run: ./gradlew jar
 
+    # The jar is LunaGC-<version>.jar in the repo root, and the version lives in
+    # build.gradle, so read the name off disk rather than hardcoding it here.
+    - name: Locate the jar
+      id: jar
+      run: |
+        path="$(ls LunaGC-*.jar | head -n 1)"
+        echo "path=$path" >> "$GITHUB_OUTPUT"
+        echo "name=$(basename "$path" .jar)" >> "$GITHUB_OUTPUT"
+
     - name: Archive Artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: Artifacts
-        path: LunaGC-6.5.0.jar
+        name: ${{ steps.jar.outputs.name }}
+        path: ${{ steps.jar.outputs.path }}
+        if-no-files-found: error
+
+    # Artifacts above need a GitHub login to download and expire after 90 days, so
+    # also keep a rolling release. That gives a permanent, public download link:
+    # https://github.com/<owner>/<repo>/releases/latest/download/<jar name>
+    - name: Publish jar to the "latest" release
+      if: github.event_name == 'push' && github.ref_name == github.event.repository.default_branch
+      env:
+        GH_TOKEN: ${{ github.token }}
+        JAR_PATH: ${{ steps.jar.outputs.path }}
+        JAR_NAME: ${{ steps.jar.outputs.name }}
+        REPO: ${{ github.repository }}
+        BRANCH: ${{ github.ref_name }}
+        SHA: ${{ github.sha }}
+      run: |
+        cat > release-notes.md <<EOF
+        Automatic build of \`$BRANCH\` at $SHA.
+
+        Download: [\`$JAR_NAME.jar\`](https://github.com/$REPO/releases/latest/download/$JAR_NAME.jar)
+
+        Resources are not bundled - put a \`resources/\` folder next to the jar before running it.
+        EOF
+        gh release delete latest --yes --cleanup-tag || true
+        gh release create latest "$JAR_PATH" \
+          --title "$JAR_NAME (latest build)" \
+          --notes-file release-notes.md \
+          --latest
 
     # Generates and submits a dependency graph, enabling Dependabot Alerts for all project dependencies.
     # See: https://github.com/gradle/actions/blob/main/dependency-submission/README.md
     - name: Generate and submit dependency graph
+      if: github.event_name == 'push' && github.ref_name == github.event.repository.default_branch
       uses: gradle/actions/dependency-submission@af1da67850ed9a4cedd57bfd976089dd991e2582 # v4.0.0
