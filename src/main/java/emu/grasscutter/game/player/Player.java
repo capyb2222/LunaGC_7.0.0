@@ -1269,7 +1269,11 @@ public class Player implements PlayerHook, FieldFetch {
 
         this.getSatiationManager().reduceSatiation();
 
-        this.getHome().updateHourlyResources(this);
+        // A player who has not been through onLogin has no home yet, and this used to throw on
+        // every tick, taking the quest tick below down with it
+        if (this.getHome() != null) {
+            this.getHome().updateHourlyResources(this);
+        }
 
         this.getQuestManager().onTick();
     }
