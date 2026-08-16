@@ -30,12 +30,12 @@ public class PhlogistonCostMixin extends AbilityMixinHandler {
             float curVehiclePhlogiston = vehicle.getCurPhlogiston();
             if (curVehiclePhlogiston != 0.0f) {
                 
-            Grasscutter.getLogger().info("Current Vehicle Phlogiston Value: " + curVehiclePhlogiston);
+            Grasscutter.getLogger().debug("Current Vehicle Phlogiston Value: {}", curVehiclePhlogiston);
             updatedPhlogistonValue = curVehiclePhlogiston - consume;
             updatedPhlogistonValue = Math.max(0, Math.min(50, updatedPhlogistonValue));
             vehicle.setCurPhlogiston(updatedPhlogistonValue);
             ability.getPlayerOwner().sendPacket(new PacketVehiclePhlogistonPointsNotify(vehicle));
-            Grasscutter.getLogger().info("Updated Vehicle Phlogiston Value: " + updatedPhlogistonValue);
+            Grasscutter.getLogger().debug("Updated Vehicle Phlogiston Value: {}", updatedPhlogistonValue);
             return true;
             }
             if (curVehiclePhlogiston == 0.0f) { 

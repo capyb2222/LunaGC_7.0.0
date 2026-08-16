@@ -444,8 +444,17 @@ public class Scene {
         ElementType attackType = ElementType.getTypeByValue(result.getElementType());
 
         if (target == null) {
-            Grasscutter.getLogger().info("handleAttack: target not found defenseId={} attackerId={} damage={}", result.getDefenseId(), result.getAttackerId(), result.getDamage());
-            Grasscutter.getLogger().info("handleAttack unknownFields (defense_id = the monster entityId): {}", result.getUnknownFields().toString().replaceAll("\\s+", " "));
+            // 6000 lines of this in a single session, each one dumping a proto for a hit that was
+            // going nowhere anyway. Behind isDebugEnabled so the dump is not built when unwanted.
+            var logger = Grasscutter.getLogger();
+            if (logger.isDebugEnabled()) {
+                logger.debug(
+                        "handleAttack: target not found defenseId={} attackerId={} damage={} unknownFields={}",
+                        result.getDefenseId(),
+                        result.getAttackerId(),
+                        result.getDamage(),
+                        result.getUnknownFields().toString().replaceAll("\\s+", " "));
+            }
             return;
         }
         if (target instanceof EntityAvatar) {

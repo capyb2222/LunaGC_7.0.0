@@ -81,7 +81,7 @@ public class EntityAvatar extends GameEntity {
             if (this.getGlobalAbilityValues().containsKey("NyxValue")) {
                 return this.getGlobalAbilityValues().get("NyxValue");
             } else {
-                Grasscutter.getLogger().info("NyxValue from entityavatar not found");
+                Grasscutter.getLogger().debug("NyxValue from entityavatar not found");
                 return 0f;
             }
         }
@@ -203,7 +203,7 @@ public class EntityAvatar extends GameEntity {
 
         val curEnergyProp = GetEnergyProp(this.getAvatar());
         float curEnergy = this.getFightProperty(curEnergyProp);
-        Grasscutter.getLogger().info("EnergyProp: "+curEnergyProp.name());
+        Grasscutter.getLogger().debug("EnergyProp: {}", curEnergyProp.name());
 
         this.avatar.setCurrentEnergy(curEnergyProp, 0);
         getPlayer().sendPacket(new PacketAvatarFightPropNotify(this.getAvatar()));

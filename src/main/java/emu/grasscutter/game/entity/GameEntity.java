@@ -101,7 +101,7 @@ public abstract class GameEntity {
         if (this.getGlobalAbilityValues().containsKey("NyxValue")) {
             return this.getGlobalAbilityValues().get("NyxValue");
         } else {
-            Grasscutter.getLogger().info("NyxValue not found");
+            Grasscutter.getLogger().debug("NyxValue not found");
             return 0f;
         }
     }
@@ -194,11 +194,9 @@ public abstract class GameEntity {
         }
         float hpThresholdRatio = data.properties.Actor_HpThresholdRatio;
 
-        if (data.properties != null) {
-            if (data.state == AbilityModifier.State.Limbo && hpThresholdRatio > 0.0f) {
-                Grasscutter.getLogger().info("Limbo set to " + hpThresholdRatio);
-                this.setLimbo(hpThresholdRatio);
-            }
+        if (data.state == AbilityModifier.State.Limbo && hpThresholdRatio > 0.0f) {
+            Grasscutter.getLogger().debug("Limbo set to {}", hpThresholdRatio);
+            this.setLimbo(hpThresholdRatio);
         }
     }
 

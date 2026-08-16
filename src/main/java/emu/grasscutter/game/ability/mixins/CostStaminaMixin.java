@@ -51,7 +51,7 @@ public class CostStaminaMixin extends AbilityMixinHandler {
         staminaManager.staminaRecoverDelay = 0;
 
         // segs
-        Grasscutter.getLogger().info("MIXIN STAMINA CONSUMPTION: Skill={}, Cost={}, PastTime={}", 
+        Grasscutter.getLogger().debug("MIXIN STAMINA CONSUMPTION: Skill={}, Cost={}, PastTime={}",
             ability.getAbilityName(null), costStamina, pastTime);
 
         return true;
