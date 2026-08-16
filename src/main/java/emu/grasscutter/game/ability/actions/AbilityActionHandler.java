@@ -3,6 +3,7 @@ package emu.grasscutter.game.ability.actions;
 import java.util.stream.Collectors;
 
 import com.google.protobuf.ByteString;
+import emu.grasscutter.Grasscutter;
 import emu.grasscutter.data.binout.AbilityModifier.AbilityModifierAction;
 import emu.grasscutter.game.ability.Ability;
 import emu.grasscutter.game.ability.AbilityManager;
@@ -55,24 +56,38 @@ public abstract class AbilityActionHandler {
     }
 
     protected GameEntity getTarget(Ability ability, GameEntity entity, String target) {
+        return resolveTarget(ability, entity, target);
+    }
+
+    /**
+     * Resolves the entity an action's target name refers to. Shared with the mixin handlers so both
+     * sides agree on what a name means.
+     *
+     * <p>25 distinct names appear across the ability configs and only some of them describe a single
+     * entity, so anything unrecognised falls back to the entity the action is running on. Throwing
+     * instead aborted the whole action, which is what left {@code Caster} and {@code Target} - the
+     * two most common names in the corpus by a wide margin - failing on every invocation.
+     */
+    public static GameEntity resolveTarget(Ability ability, GameEntity entity, String target) {
         // An action that names no target acts on whatever the modifier is attached to. Sandrone's
         // robot has several of those, and switching on the absent name threw before the action ran.
         if (target == null) return entity;
 
+        var playerOwner = ability.getPlayerOwner();
+        var teamManager = playerOwner != null ? playerOwner.getTeamManager() : null;
+
         return switch (target) {
-            default -> throw new RuntimeException("Unknown target type: " + target);
-
-
-            case "Self" -> entity;
-            case "Team" -> ability.getPlayerOwner().getTeamManager().getEntity();
-            case "OriginOwner" -> ability.getPlayerOwner().getTeamManager().getCurrentAvatarEntity();
-            case "Owner" -> ability.getOwner();
-            case "Applier" -> entity; // TODO: Validate.
-            case "CurLocalAvatar" -> ability
-                    .getPlayerOwner()
-                    .getTeamManager()
-                    .getCurrentAvatarEntity(); // TODO: Validate.
+            case "Self", "Target", "Applier" -> entity;
+            case "Caster", "Owner" -> ability.getOwner();
+            case "Team" -> teamManager != null ? teamManager.getEntity() : null;
+            case "OriginOwner", "CurLocalAvatar" -> teamManager != null
+                    ? teamManager.getCurrentAvatarEntity()
+                    : null;
             case "CasterOriginOwner" -> null; // TODO: Figure out.
+            default -> {
+                Grasscutter.getLogger().debug("Unknown ability target type: {}", target);
+                yield entity;
+            }
         };
     }
 }
