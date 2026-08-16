@@ -18,6 +18,10 @@ public class PlayerGachaBannerInfo {
     @Getter @Setter private int failedChosenItemPulls = 0;
     @Getter @Setter private int wishItemId = 0;
 
+    // How many 50/50s were lost in a row, used by Capturing Radiance. The guaranteed pull that
+    // follows a lost coinflip is not a coinflip itself, so it leaves this counter untouched.
+    @Getter @Setter private int consecutiveFeaturedLosses = 0;
+
     public void addTotalPulls(int amount) {
         this.totalPulls += amount;
     }
@@ -32,6 +36,10 @@ public class PlayerGachaBannerInfo {
 
     public void addFailedChosenItemPulls(int amount) {
         failedChosenItemPulls += amount;
+    }
+
+    public void addConsecutiveFeaturedLosses(int amount) {
+        consecutiveFeaturedLosses += amount;
     }
 
     public int getFailedFeaturedItemPulls(int rarity) {

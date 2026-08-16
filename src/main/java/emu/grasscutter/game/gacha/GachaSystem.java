@@ -166,7 +166,13 @@ public class GachaSystem extends BaseGameSystem {
         }
     }
 
-    private synchronized int doRarePull(
+    /**
+     * The outcome of a single roll. {@code capturedRadiance} is set when a lost coinflip was turned
+     * into the featured item by Capturing Radiance, which the client shows its own animation for.
+     */
+    private record PullResult(int itemId, boolean capturedRadiance) {}
+
+    private synchronized PullResult doRarePull(
             int[] featured,
             int[] fallback1,
             int[] fallback2,
@@ -183,8 +189,17 @@ public class GachaSystem extends BaseGameSystem {
                 (gachaInfo.getFailedFeaturedItemPulls(rarity) >= 1); // Lost previous coinflip
         boolean rollFeatured =
                 (this.randomRange(1, 100) <= banner.getEventChance(rarity)); // Won this coinflip
-        boolean pullFeatured = pityFeatured || rollFeatured;
+        boolean capturedRadiance = false;
+        if ((rarity == 5) && !pityFeatured && !rollFeatured) {
+            // Capturing Radiance: a lost coinflip can still be turned into a featured item, the more
+            // coinflips were lost in a row the likelier it is
+            int radianceChance =
+                    banner.getCapturingRadianceChance(gachaInfo.getConsecutiveFeaturedLosses());
+            capturedRadiance = (radianceChance > 0) && (this.randomRange(1, 100) <= radianceChance);
+        }
+        boolean pullFeatured = pityFeatured || rollFeatured || capturedRadiance;
 
+        boolean captured = false; // Whether this very item is the one Capturing Radiance saved
         if (epitomized && pityEpitomized) { // Auto pick item when epitomized points reached
             gachaInfo.setFailedFeaturedItemPulls(
                     rarity, 0); // Epitomized item will always be a featured one
@@ -192,11 +207,15 @@ public class GachaSystem extends BaseGameSystem {
         } else {
             if (pullFeatured && (featured.length > 0)) {
                 gachaInfo.setFailedFeaturedItemPulls(rarity, 0);
+                // Only an actual coinflip ends a losing streak, the guaranteed pull after one does not
+                if ((rarity == 5) && !pityFeatured) gachaInfo.setConsecutiveFeaturedLosses(0);
+                captured = capturedRadiance;
                 itemId = getRandom(featured);
             } else {
                 gachaInfo.addFailedFeaturedItemPulls(
                         rarity,
                         1); // This could be moved into doFallbackRarePull but having it here makes it clearer
+                if ((rarity == 5) && !pityFeatured) gachaInfo.addConsecutiveFeaturedLosses(1);
                 itemId = doFallbackRarePull(fallback1, fallback2, rarity, banner, gachaInfo);
             }
         }
@@ -208,10 +227,10 @@ public class GachaSystem extends BaseGameSystem {
                 gachaInfo.addFailedChosenItemPulls(1);
             }
         }
-        return itemId;
+        return new PullResult(itemId, captured);
     }
 
-    private synchronized int doPull(
+    private synchronized PullResult doPull(
             GachaBanner banner, PlayerGachaBannerInfo gachaInfo, BannerPools pools) {
         // Pre-increment all pity pools (yes this makes all calculations assume 1-indexed pity)
         gachaInfo.incPityAll();
@@ -241,7 +260,7 @@ public class GachaSystem extends BaseGameSystem {
                         banner,
                         gachaInfo);
             default:
-                yield getRandom(banner.getFallbackItems3());
+                yield new PullResult(getRandom(banner.getFallbackItems3()), false);
         };
     }
 
@@ -321,7 +340,8 @@ public class GachaSystem extends BaseGameSystem {
         var items = new ArrayList<PlayerWishEvent.WishCompute>();
         for (int i = 0; i < times; i++) {
             // Roll
-            int itemId = doPull(banner, gachaInfo, pools);
+            PullResult pull = doPull(banner, gachaInfo, pools);
+            int itemId = pull.itemId();
             ItemData itemData = GameData.getItemDataMap().get(itemId);
             if (itemData == null) {
                 // The roll is dropped, but the player already paid for it, so say which id is bad
@@ -340,6 +360,8 @@ public class GachaSystem extends BaseGameSystem {
 
             // Create gacha item
             GachaItem.Builder gachaItem = GachaItem.newBuilder();
+            // Plays the Capturing Radiance animation on this card
+            if (pull.capturedRadiance()) gachaItem.setIsFlashCard(true);
             int addStardust = 0, addStarglitter = 0;
             boolean isTransferItem = false;
 
