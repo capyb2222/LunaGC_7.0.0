@@ -6,4 +6,4 @@
 	url = https://github.com/genshitters/gm-handbook-assets.git
 [submodule "patch"]
 	path = patch
-	url = https://gitlab.com/capyb2222/animegamepatch.git
+	url = https://github.com/capyb2222/animegamepatch.git
