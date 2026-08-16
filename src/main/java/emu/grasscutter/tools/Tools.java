@@ -213,6 +213,19 @@ public final class Tools {
         if (message) Grasscutter.getLogger().info("GM Handbooks generated!");
     }
 
+    /**
+     * Maps an avatar id onto the id of the MATERIAL_AVATAR "card" item that the gacha actually hands
+     * out, which is what the wish history is keyed on.
+     *
+     * <p>Avatars 10000002-10000099 use 1002-1099, but the block ran out at Emilie, so everything from
+     * Kachina (10000100) on uses 4100+ instead. Assuming 1000+ for all of them made every character
+     * released since 5.0 show up as "[N/A]" in the wish history.
+     */
+    private static int avatarCardId(int avatarId) {
+        int index = avatarId % 1000;
+        return index + (index >= 100 ? 4000 : 1000);
+    }
+
     public static List<String> createGachaMappingJsons() {
         final int NUM_LANGUAGES = Language.TextStrings.NUM_LANGUAGES;
         final Language.TextStrings CHARACTER = Language.getTextMapKey(4233146695L); // "Character" in EN
@@ -252,7 +265,7 @@ public final class Tools {
                             for (int langIdx = 0; langIdx < NUM_LANGUAGES; langIdx++) {
                                 sbs.get(langIdx)
                                         .append("\t\"")
-                                        .append(avatarID % 1000 + 1000)
+                                        .append(avatarCardId(avatarID))
                                         .append("\": [\"")
                                         .append(avatarName.get(langIdx))
                                         .append(" (")

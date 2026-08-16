@@ -135,8 +135,9 @@ public class GachaBanner {
             this.fallbackItems5Pool1 = this.bannerType.fallbackItems5Pool1;
         if (this.fallbackItems5Pool2 == null)
             this.fallbackItems5Pool2 = this.bannerType.fallbackItems5Pool2;
-        // Set max wish progress based on wish type, otherwise its 0
-        if (this.bannerType.equals(BannerType.WEAPON)) this.wishMaxProgress = 2;
+        // Set max wish progress based on wish type, otherwise its 0.
+        // The Epitomized Path costs one Fate Point since 5.0; it was two from 2.0 to 4.8.
+        if (this.bannerType.equals(BannerType.WEAPON)) this.wishMaxProgress = 1;
         if (this.bannerType.equals(BannerType.CHRONICLE)) this.wishMaxProgress = 1;
     }
 
@@ -228,14 +229,19 @@ public class GachaBanner {
                         .setTenCostItemId(this.costItemId10)
                         .setGachaPrefabPath(this.getPrefabPath())
                         .setGachaPreviewPrefabPath(previewPath)
+                        .setGachaProbUrl(details)
+                        .setGachaProbUrlOversea(details)
+                        .setGachaRecordUrl(record)
+                        .setGachaRecordUrlOversea(record)
                         .setLeftGachaTimes(leftGachaTimes)
                         .setGachaTimesLimit(gachaTimesLimit)
                         .setGachaSortId(this.getSortId())
-                        ;
+                        .setIsNewWish(true);
 
         if (hasEpitomized()) {
-            // GachaInfo in 7.0 has no wish_* fields under any recoverable name.
-            info.setLeftGachaTimes(leftGachaTimes);
+            info.setWishItemId(gachaInfo.getWishItemId())
+                    .setWishProgress(gachaInfo.getFailedChosenItemPulls())
+                    .setWishMaxProgress(this.getWishMaxProgress());
         }
 
         if (this.getTitlePath() != null) {

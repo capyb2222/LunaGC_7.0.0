@@ -278,7 +278,7 @@ public class GachaSystem extends BaseGameSystem {
                                 gachaInfo.getPity4(),
                                 gachaInfo.getFailedFeaturedItemPulls(4) > 0,
                                 banner.hasEpitomized()
-                                        ? gachaInfo.getFailedChosenItemPulls() >= 2
+                                        ? gachaInfo.getFailedChosenItemPulls() >= banner.getWishMaxProgress()
                                         : gachaInfo.getFailedFeaturedItemPulls(5) > 0));
         if (!event.call()) {
             player.sendPacket(new PacketDoGachaRsp(Retcode.RET_SVR_ERROR));
@@ -324,7 +324,14 @@ public class GachaSystem extends BaseGameSystem {
             int itemId = doPull(banner, gachaInfo, pools);
             ItemData itemData = GameData.getItemDataMap().get(itemId);
             if (itemData == null) {
-                continue; // Maybe we should bail out if an item fails instead of rolling the rest?
+                // The roll is dropped, but the player already paid for it, so say which id is bad
+                // instead of silently handing back nothing.
+                Grasscutter.getLogger()
+                        .warn(
+                                "[Gacha] Banner {} rolled item {}, which does not exist in the loaded resources. Fix the pools in Banners.json.",
+                                banner.getScheduleId(),
+                                itemId);
+                continue;
             }
 
             // Write gacha record
@@ -455,7 +462,10 @@ public class GachaSystem extends BaseGameSystem {
     public synchronized void watchBannerJson(GameServerTickEvent tickEvent) {
         if (GAME_OPTIONS.watchGachaConfig) {
             try {
-                WatchKey watchKey = watchService.take();
+                // poll(), not take() - this runs on the server tick thread, and take() parks it until
+                // somebody happens to touch a file in the data directory.
+                WatchKey watchKey = watchService.poll();
+                if (watchKey == null) return;
 
                 for (WatchEvent<?> event : watchKey.pollEvents()) {
                     final Path changed = (Path) event.context();
@@ -483,30 +493,27 @@ public class GachaSystem extends BaseGameSystem {
 
         long currentTime = System.currentTimeMillis() / 1000L;
 
-        Grasscutter.getLogger().info("[Gacha] Building GetGachaInfoRsp — {} total banners configured, currentTime={}",
-            getGachaBanners().size(), currentTime);
-
         for (GachaBanner banner : getGachaBanners().values()) {
             boolean timeOk = banner.getEndTime() >= currentTime && banner.getBeginTime() <= currentTime;
             boolean isStandard = banner.getBannerType() == BannerType.STANDARD;
             if (timeOk || isStandard) {
-                var info = banner.toProto(player);
-                Grasscutter.getLogger().info("[Gacha]   INCLUDED gachaType={} scheduleId={} prefabPath='{}' previewPrefab='{}' endTime={} isStandard={}",
-                    info.getGachaType(), info.getScheduleId(),
-                    info.getGachaPrefabPath(), info.getGachaPreviewPrefabPath(),
-                    banner.getEndTime(), isStandard);
-                proto.addGachaInfoList(info);
+                proto.addGachaInfoList(banner.toProto(player));
             } else {
-                Grasscutter.getLogger().info("[Gacha]   SKIPPED gachaType={} scheduleId={} (beginTime={} endTime={} — outside window)",
-                    banner.getGachaType(), banner.getScheduleId(),
-                    banner.getBeginTime(), banner.getEndTime());
+                Grasscutter.getLogger()
+                        .debug(
+                                "[Gacha] Banner {} (schedule {}) is outside its window {}-{}, skipping.",
+                                banner.getGachaType(),
+                                banner.getScheduleId(),
+                                banner.getBeginTime(),
+                                banner.getEndTime());
             }
         }
 
-        int count = proto.getGachaInfoListCount();
-        Grasscutter.getLogger().info("[Gacha] Sending {} banner(s) to client.", count);
-        if (count == 0) {
-            Grasscutter.getLogger().warn("[Gacha] WARNING: zero banners in response — client will likely softlock.");
+        if (proto.getGachaInfoListCount() == 0) {
+            Grasscutter.getLogger()
+                    .warn(
+                            "[Gacha] No banner is currently active - the wish screen will be empty. Check the beginTime/endTime of the {} banner(s) in Banners.json.",
+                            getGachaBanners().size());
         }
 
         return proto.build();

@@ -24,7 +24,18 @@ public final class GachaHandler implements Router {
     @Deprecated(forRemoval = true)
     public static final String gachaMappings = gachaMappingsPath.toString();
 
+    /**
+     * The client is told these two URLs through GachaInfo.gacha_record_url / gacha_prob_url. Which of
+     * the two 7.0 field numbers is which was only recoverable from one dump, so route on the query
+     * string instead of trusting it: the history page is the one asked for by gachaType, the details
+     * page the one asked for by scheduleId. A swapped pair then still lands on the right page.
+     */
     private static void gachaRecords(Context ctx) {
+        if (ctx.queryParam("gachaType") == null && ctx.queryParam("scheduleId") != null) {
+            gachaDetails(ctx);
+            return;
+        }
+
         var sessionKey = ctx.queryParam("s");
         var account = DatabaseHelper.getAccountBySessionKey(sessionKey);
         if (account == null) {
@@ -61,6 +72,11 @@ public final class GachaHandler implements Router {
     }
 
     private static void gachaDetails(Context ctx) {
+        if (ctx.queryParam("scheduleId") == null && ctx.queryParam("gachaType") != null) {
+            gachaRecords(ctx);
+            return;
+        }
+
         var detailsTemplate = FileUtils.getDataPath("gacha/details.html");
         var sessionKey = ctx.queryParam("s");
         var account = DatabaseHelper.getAccountBySessionKey(sessionKey);
@@ -102,6 +118,10 @@ public final class GachaHandler implements Router {
         var scheduleId = Integer.parseInt(scheduleIdStr);
         var manager = Grasscutter.getGameServer().getGachaSystem();
         var banner = manager.getGachaBanners().get(scheduleId);
+        if (banner == null) {
+            ctx.status(404).result("No banner with schedule id " + scheduleId);
+            return;
+        }
 
         // Add 5-star items.
         var fiveStarItems = new LinkedHashSet<String>();
