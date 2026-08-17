@@ -36,6 +36,11 @@ public class ShopGoodsData extends GameResource {
 
     @Override
     public void onLoad() {
+        // Most rows ship no costItems at all, and ShopInfo streams this straight from the
+        // constructor - one null would throw out of loadShop's forEach and cost every
+        // remaining shop, not just this row.
+        if (this.costItems == null) this.costItems = List.of();
+
         if (this.refreshType == null) this.refreshTypeEnum = ShopInfo.ShopRefreshType.NONE;
         else {
             this.refreshTypeEnum =
