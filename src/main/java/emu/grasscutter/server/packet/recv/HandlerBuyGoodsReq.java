@@ -29,6 +29,17 @@ public class HandlerBuyGoodsReq extends PacketHandler {
 
         // Don't trust your users' input
         var player = session.getPlayer();
+
+        // A non-positive count buys nothing and cannot be honest. Worse, it inverts the whole
+        // purchase: payItems checks `held < cost * count`, which is never true for a negative
+        // count, and payVirtualItem then subtracts that negative - handing out mora and
+        // primogems instead of taking them.
+        int buyCount = buyGoodsReq.getBuyCount();
+        if (buyCount <= 0) {
+            session.send(new PacketBuyGoodsRsp(Retcode.RET_SVR_ERROR));
+            return;
+        }
+
         List<Integer> targetShopGoodsId = List.of(buyGoodsReq.getGoods().getGoodsId());
         for (int goodsId : targetShopGoodsId) {
             Optional<ShopInfo> sg2 =
@@ -51,7 +62,7 @@ public class HandlerBuyGoodsReq extends PacketHandler {
                 player.save();
             }
 
-            if ((bought + buyGoodsReq.getBuyCount() > sg.getBuyLimit()) && sg.getBuyLimit() != 0) {
+            if ((bought + buyCount > sg.getBuyLimit()) && sg.getBuyLimit() != 0) {
                 session.send(new PacketBuyGoodsRsp(Retcode.RET_SHOP_BATCH_BUY_COUNT_LIMIT));
                 continue;
             }
@@ -61,15 +72,23 @@ public class HandlerBuyGoodsReq extends PacketHandler {
             costs.add(new ItemParamData(202, sg.getScoin()));
             costs.add(new ItemParamData(201, sg.getHcoin()));
             costs.add(new ItemParamData(203, sg.getMcoin()));
-            if (!player.getInventory().payItems(costs, buyGoodsReq.getBuyCount())) {
+            if (!player.getInventory().payItems(costs, buyCount)) {
                 session.send(new PacketBuyGoodsRsp(Retcode.RET_SHOP_CONTENT_NOT_MATCH));
                 continue;
             }
 
             player.addShopLimit(
-                    sg.getGoodsId(), buyGoodsReq.getBuyCount(), ShopSystem.getShopNextRefreshTime(sg));
+                    sg.getGoodsId(), buyCount, ShopSystem.getShopNextRefreshTime(sg));
             int itemId = sg.getGoodsItem().getId();
-            int itemCount = buyGoodsReq.getBuyCount() * sg.getGoodsItem().getCount();
+            int itemCount;
+            try {
+                // A free good passes payItems whatever the count, so this product is the only
+                // thing standing between a crafted request and an overflowed stack.
+                itemCount = Math.multiplyExact(buyCount, sg.getGoodsItem().getCount());
+            } catch (ArithmeticException overflow) {
+                session.send(new PacketBuyGoodsRsp(Retcode.RET_SVR_ERROR));
+                continue;
+            }
             GameItem item = new GameItem(itemId, itemCount);
             player.getInventory().addItem(item, ActionReason.Shop, true);
             session.send(
