@@ -248,9 +248,9 @@ public final class ResourceLoader {
 
     private static void loadScenePoints() {
         val pattern = Pattern.compile("scene([0-9]+)_point\\.json");
-        try {
-            Files.newDirectoryStream(getResourcePath("BinOutput/Scene/Point"), "scene*_point.json")
-                    .forEach(
+        try (val stream =
+                Files.newDirectoryStream(getResourcePath("BinOutput/Scene/Point"), "scene*_point.json")) {
+            stream.forEach(
                             path -> {
                                 val matcher = pattern.matcher(path.getFileName().toString());
                                 if (!matcher.find()) return;
@@ -287,9 +287,9 @@ public final class ResourceLoader {
     }
 
     private static void loadRoutes() {
-        try {
-            Files.newDirectoryStream(getResourcePath("BinOutput/LevelDesign/Routes/"), "*.json")
-                    .forEach(
+        try (val stream =
+                Files.newDirectoryStream(getResourcePath("BinOutput/LevelDesign/Routes/"), "*.json")) {
+            stream.forEach(
                             path -> {
                                 try {
                                     val data = JsonUtils.loadToClass(path, SceneRoutes.class);
@@ -617,9 +617,8 @@ public final class ResourceLoader {
             String[] folderNames = {"BinOutput/Talent/EquipTalents/", "BinOutput/Talent/AvatarTalents/"};
 
             for (String folderName : folderNames) {
-                try {
-                    Files.newDirectoryStream(getResourcePath(folderName), "*.json")
-                            .forEach(
+                try (val stream = Files.newDirectoryStream(getResourcePath(folderName), "*.json")) {
+                    stream.forEach(
                                     path -> {
                                         try {
                                             JsonUtils.loadToMap(path, String.class, OpenConfigData[].class)
@@ -690,9 +689,8 @@ public final class ResourceLoader {
     }
 
     public static void loadScriptSceneData() {
-        try {
-            Files.list(getResourcePath("ScriptSceneData/"))
-                    .forEach(
+        try (val stream = Files.list(getResourcePath("ScriptSceneData/"))) {
+            stream.forEach(
                             path -> {
                                 try {
                                     GameData.getScriptSceneDataMap()
@@ -712,10 +710,10 @@ public final class ResourceLoader {
 
     private static void loadHomeworldDefaultSaveData() {
         val pattern = Pattern.compile("scene([0-9]+)_home_config\\.json");
-        try {
-            Files.newDirectoryStream(
-                            getResourcePath("BinOutput/HomeworldDefaultSave"), "scene*_home_config.json")
-                    .forEach(
+        try (val stream =
+                Files.newDirectoryStream(
+                        getResourcePath("BinOutput/HomeworldDefaultSave"), "scene*_home_config.json")) {
+            stream.forEach(
                             path -> {
                                 val matcher = pattern.matcher(path.getFileName().toString());
                                 if (!matcher.find()) return;
@@ -738,9 +736,9 @@ public final class ResourceLoader {
     }
 
     private static void loadNpcBornData() {
-        try {
-            Files.newDirectoryStream(getResourcePath("BinOutput/Scene/SceneNpcBorn/"), "*.json")
-                    .forEach(
+        try (val stream =
+                Files.newDirectoryStream(getResourcePath("BinOutput/Scene/SceneNpcBorn/"), "*.json")) {
+            stream.forEach(
                             path -> {
                                 try {
                                     val data = JsonUtils.loadToClass(path, SceneNpcBornData.class);
@@ -839,9 +837,9 @@ public final class ResourceLoader {
         val pattern = Pattern.compile("ConfigLevelEntity_(.+?)\\.json");
 
         try {
-            var stream =
+            try (var stream =
                     Files.newDirectoryStream(
-                            getResourcePath("BinOutput/LevelEntity/"), "ConfigLevelEntity_*.json");
+                            getResourcePath("BinOutput/LevelEntity/"), "ConfigLevelEntity_*.json")) {
             stream.forEach(
                     path -> {
                         val matcher = pattern.matcher(path.getFileName().toString());
@@ -856,7 +854,7 @@ public final class ResourceLoader {
                         }
                         GameData.getConfigLevelEntityDataMap().putAll(config);
                     });
-            stream.close();
+            }
         } catch (IOException e) {
             Grasscutter.getLogger().error("Error loading config level entity: no files found");
             return;
@@ -875,8 +873,8 @@ public final class ResourceLoader {
 
         try {
             var bindings = ScriptLoader.getEngine().createBindings();
-            var stream =
-                    Files.newDirectoryStream(getResourcePath("Scripts/Quest/Share/"), "Q*ShareConfig.lua");
+            try (var stream =
+                    Files.newDirectoryStream(getResourcePath("Scripts/Quest/Share/"), "Q*ShareConfig.lua")) {
             stream.forEach(
                     path -> {
                         val matcher = pattern.matcher(path.getFileName().toString());
@@ -912,7 +910,7 @@ public final class ResourceLoader {
                                             "Error while loading Quest Share Config: {}", path.getFileName().toString());
                         }
                     });
-            stream.close();
+            }
         } catch (IOException e) {
             Grasscutter.getLogger().error("Error loading Quest Share Config: no files found");
             return;

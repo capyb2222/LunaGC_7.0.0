@@ -362,9 +362,8 @@ public final class Tools {
 
     public static List<String> getAvailableLanguage() {
         List<String> availableLangList = new ArrayList<>();
-        try {
-            Files.newDirectoryStream(getResourcePath("TextMap"), "TextMap*.json")
-                    .forEach(
+        try (var stream = Files.newDirectoryStream(getResourcePath("TextMap"), "TextMap*.json")) {
+            stream.forEach(
                             path -> {
                                 availableLangList.add(
                                         path.getFileName()
