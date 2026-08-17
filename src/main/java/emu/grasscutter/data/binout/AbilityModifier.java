@@ -475,7 +475,8 @@ public class AbilityModifier implements Serializable {
     }
 
     public static class AbilityModifierProperty implements Serializable {
-        public float Actor_HpThresholdRatio;
+        // Usually a constant, but a config may also name an ability special to read it from.
+        public DynamicFloat Actor_HpThresholdRatio = DynamicFloat.ZERO;
 
     }
 

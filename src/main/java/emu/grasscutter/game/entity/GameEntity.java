@@ -192,7 +192,9 @@ public abstract class GameEntity {
         if (data.properties == null) {
             return;
         }
-        float hpThresholdRatio = data.properties.Actor_HpThresholdRatio;
+        // No ability instance here to resolve a named special against, so an unresolvable
+        // one reads as zero and simply leaves the Limbo threshold unset.
+        float hpThresholdRatio = data.properties.Actor_HpThresholdRatio.get(0f);
 
         if (data.state == AbilityModifier.State.Limbo && hpThresholdRatio > 0.0f) {
             Grasscutter.getLogger().debug("Limbo set to {}", hpThresholdRatio);
