@@ -544,7 +544,11 @@ public final class ResourceLoader {
             try (InputStreamReader reader = DataLoader.loadReader(name)) {
 
                 spawnEntryMap.addAll(JsonUtils.loadToList(reader, SpawnGroupEntry.class));
-            } catch (Exception ignored) {
+            } catch (Exception e) {
+                // Swallowing this silently hid the failure completely: the "No spawn data loaded!"
+                // check below passes as long as the other file parsed, so one broken file just
+                // meant its spawns quietly never appeared.
+                Grasscutter.getLogger().error("Error loading spawn data from {}: ", name, e);
             }
         }
 
