@@ -827,8 +827,11 @@ public final class AbilityManager extends BasePlayerManager {
                 if (head.getTargetId() != 0) {
                     var targetEntity = this.player.getScene().getEntityById(head.getTargetId());
                     if (targetEntity != null) {
-                        if ((head.getInstancedAbilityId() - 1) < targetEntity.getInstancedAbilities().size()) {
-                            instancedAbility = targetEntity.getInstancedAbilities().get(head.getInstancedAbilityId() - 1);
+                        // An id of 0 means "no instanced ability" and is common - without the lower
+                        // bound that becomes get(-1) rather than a miss.
+                        var index = head.getInstancedAbilityId() - 1;
+                        if (index >= 0 && index < targetEntity.getInstancedAbilities().size()) {
+                            instancedAbility = targetEntity.getInstancedAbilities().get(index);
                             if (instancedAbility != null) instancedAbilityData = instancedAbility.getData();
                         }
                     }
@@ -836,8 +839,9 @@ public final class AbilityManager extends BasePlayerManager {
             }
 
             if (instancedAbilityData == null) {
-                if ((head.getInstancedAbilityId() - 1) < entity.getInstancedAbilities().size()) {
-                    instancedAbility = entity.getInstancedAbilities().get(head.getInstancedAbilityId() - 1);
+                var index = head.getInstancedAbilityId() - 1;
+                if (index >= 0 && index < entity.getInstancedAbilities().size()) {
+                    instancedAbility = entity.getInstancedAbilities().get(index);
                     if (instancedAbility != null) instancedAbilityData = instancedAbility.getData();
                 }
             }
