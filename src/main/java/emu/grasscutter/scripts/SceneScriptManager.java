@@ -645,6 +645,15 @@ public class SceneScriptManager {
         return isInit;
     }
 
+    /**
+     * Whether init() has finished, regardless of whether it found a scene meta. init() runs on its
+     * own thread, so isInit() alone cannot tell "this scene has no scripts" apart from "the scripts
+     * have not loaded yet" - and those two want opposite spawn behaviour.
+     */
+    public boolean isInitAttempted() {
+        return initAttempted;
+    }
+
     public void loadBlockFromScript(SceneBlock block) {
         block.load(scene.getId(), meta.context);
     }

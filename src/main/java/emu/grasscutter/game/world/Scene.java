@@ -625,8 +625,15 @@ public class Scene {
         stage(
                 "loading groups",
                 () -> {
+                    // checkSpawns is the fallback for scenes that have no scripts, so it must not
+                    // run while the scripts are merely still loading - init() runs on its own
+                    // thread, and every spawn in Spawns.json/GadgetSpawns.json belongs to a scene
+                    // that does have scripts. Spawning during that window duplicated those
+                    // monsters and gadgets against the scripted copies, and nothing cleaned the
+                    // extras up: checkSpawns owns the removal pass, and it stops running the
+                    // moment checkGroups takes over.
                     if (this.getScriptManager().isInit()) this.checkGroups();
-                    else this.checkSpawns();
+                    else if (this.getScriptManager().isInitAttempted()) this.checkSpawns();
                 });
 
         stage("checking regions", () -> this.scriptManager.checkRegions());
