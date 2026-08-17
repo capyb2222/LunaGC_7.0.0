@@ -54,6 +54,13 @@ public class CombineManger extends BaseGameSystem {
             return null;
         }
 
+        // The count comes straight off the wire. A negative one inverts payItems, refunding the
+        // materials and the mora instead of charging for them.
+        if (count <= 0) {
+            player.sendPacket(new PacketCombineRsp());
+            return null;
+        }
+
         CombineData combineData = GameData.getCombineDataMap().get(cid);
 
         if (combineData.getPlayerLevel() > player.getLevel()) {
@@ -66,10 +73,12 @@ public class CombineManger extends BaseGameSystem {
 
         boolean success = player.getInventory().payItems(material, count, ActionReason.Combine);
 
-        // abort if not enough material
+        // abort if not enough material - this said "abort" but fell through to hand out the
+        // result anyway, so crafting worked with no materials at all
         if (!success) {
             player.sendPacket(
                     new PacketCombineRsp(RetcodeOuterClass.Retcode.RET_ITEM_COMBINE_COUNT_NOT_ENOUGH_VALUE));
+            return null;
         }
 
         // make the result
