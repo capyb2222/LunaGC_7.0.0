@@ -9,7 +9,6 @@ import emu.grasscutter.game.entity.gadget.GadgetWorktop;
 import emu.grasscutter.game.inventory.GameItem;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.game.world.*;
-import emu.grasscutter.game.world.SpawnDataEntry.SpawnGroupEntry;
 import emu.grasscutter.net.proto.*;
 import emu.grasscutter.server.packet.send.PacketBlossomBriefInfoNotify;
 import emu.grasscutter.utils.Utils;
@@ -126,10 +125,11 @@ public class BlossomManager {
                 .forEach(
                         (gridBlockId, spawnDataEntryList) -> {
                             int sceneId = gridBlockId.getSceneId();
+                            // The block list already holds every spawn bucketed into this block, so
+                            // walking out to each entry's whole group re-emitted the group once per
+                            // entry - and re-emitted spawns that belong to other blocks, which then
+                            // got listed again when those blocks came round.
                             spawnDataEntryList.stream()
-                                    .map(SpawnDataEntry::getGroup)
-                                    .map(SpawnGroupEntry::getSpawns)
-                                    .flatMap(List::stream)
                                     .filter(spawn -> !blossomConsumed.contains(spawn))
                                     .filter(spawn -> BlossomType.valueOf(spawn.getGadgetId()) != null)
                                     .forEach(
