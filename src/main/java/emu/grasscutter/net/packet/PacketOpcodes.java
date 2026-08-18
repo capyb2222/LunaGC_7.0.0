@@ -292,7 +292,8 @@ public final class PacketOpcodes {
     public static final int EnterTransPointRegionNotify = 27049;
     public static final int ExitTransPointRegionNotify = 23473;
     public static final int CombineFormulaDataNotify = 22635;
-    public static final int VehiclePhlogistonPointsNotify = -21; // no 7.0 entry
+    // 7.0 renames this _VehiclePhlogistonNotify; aliased in gen_opcodes.py.
+    public static final int VehiclePhlogistonPointsNotify = 4673;
     public static final int EntityAnimatorPairValueInfoNotify = -22; // no 7.0 entry
     public static final int WeaponAwakenReq = 25493;
     public static final int WeaponAwakenRsp = 2669;
@@ -559,12 +560,12 @@ public final class PacketOpcodes {
     public static final int UnlockTransPointRsp = 1776;
     public static final int PlayerEnterChildMapLayerNotify = -49; // no 7.0 entry
     public static final int PlayerEnterMapLayerNotify = -50; // no 7.0 entry
-    public static final int EnterMapLayerReq = -51; // no 7.0 entry
-    public static final int EnterMapLayerRsp = -52; // no 7.0 entry
+    public static final int EnterMapLayerReq = -53; // no 7.0 entry
+    public static final int EnterMapLayerRsp = -54; // no 7.0 entry
     public static final int EnterMapLayerReq_660 = -53; // no 7.0 entry
     public static final int EnterMapLayerRsp_660 = -54; // no 7.0 entry
-    public static final int UnlockMapLayerGroupReq = -55; // no 7.0 entry
-    public static final int UnlockMapLayerGroupRsp = -56; // no 7.0 entry
+    public static final int UnlockMapLayerGroupReq = -103; // no 7.0 entry
+    public static final int UnlockMapLayerGroupRsp = -104; // no 7.0 entry
     public static final int ReunionBriefInfoReq = 27913;
     public static final int ReunionBriefInfoRsp = 27874;
     public static final int GetQuestLackingResourceReq = 8759;
