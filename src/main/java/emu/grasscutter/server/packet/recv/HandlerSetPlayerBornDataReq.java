@@ -70,8 +70,14 @@ public class HandlerSetPlayerBornDataReq extends PacketHandler {
         // Login done
         session.getPlayer().onLogin();
 
-        // Born resp packet
-        session.send(new BasePacket(PacketOpcodes.SetPlayerBornDataRsp));
+        // Born resp packet. Empty is a valid success - retcode defaults to 0 - so the CmdId is the
+        // only thing this needs, and PacketOpcodes has no 7.0 entry for it.
+        int rspCmdId = GAME_OPTIONS.newAccountIntro.setPlayerBornDataRsp;
+        Grasscutter.getLogger()
+                .info("[intro] character creation finished: {} picked avatar {} (rsp cmdId={}).",
+                        req.getNickName(), avatarId, rspCmdId > 0 ? rspCmdId : "unsent");
+        if (rspCmdId > 0) session.send(new BasePacket(rspCmdId));
+        else session.send(new BasePacket(PacketOpcodes.SetPlayerBornDataRsp));
 
         // Default mail
         var welcomeMail = GAME_INFO.joinOptions.welcomeMail;

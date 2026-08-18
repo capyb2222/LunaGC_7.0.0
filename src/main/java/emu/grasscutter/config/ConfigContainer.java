@@ -282,6 +282,23 @@ public class ConfigContainer {
         /** Cutscene played once, the first time an account reaches a scene. 0 disables it. */
         public int firstLoginCutscene = 0;
 
+        public NewAccountIntro newAccountIntro = new NewAccountIntro();
+
+        /**
+         * Hands a brand new account to the client's own character creation - the twin stars, the
+         * fight, and the choice of Traveler - instead of silently making one Lumine.
+         *
+         * <p>Off by default because two of the three packets in that handshake have no known 7.0
+         * CmdId. They are both sent EMPTY, so only the numbers are missing: fill them in below and
+         * the flow completes. At 0 they are not sent at all, which is still worth trying first -
+         * the client may open creation on its own once the server stops pre-empting it.
+         */
+        public static class NewAccountIntro {
+            public boolean enabled = false;
+            public int doSetPlayerBornDataNotify = 0;
+            public int setPlayerBornDataRsp = 0;
+        }
+
         @SerializedName(value = "questing", alternate = "questOptions")
         public Questing questing = new Questing();
         public ResinOptions resinOptions = new ResinOptions();
