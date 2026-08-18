@@ -560,12 +560,12 @@ public final class PacketOpcodes {
     public static final int UnlockTransPointRsp = 1776;
     public static final int PlayerEnterChildMapLayerNotify = -49; // no 7.0 entry
     public static final int PlayerEnterMapLayerNotify = -50; // no 7.0 entry
-    public static final int EnterMapLayerReq = -53; // no 7.0 entry
-    public static final int EnterMapLayerRsp = -54; // no 7.0 entry
+    public static final int EnterMapLayerReq = 4842;
+    public static final int EnterMapLayerRsp = 8901;
     public static final int EnterMapLayerReq_660 = -53; // no 7.0 entry
     public static final int EnterMapLayerRsp_660 = -54; // no 7.0 entry
-    public static final int UnlockMapLayerGroupReq = -103; // no 7.0 entry
-    public static final int UnlockMapLayerGroupRsp = -104; // no 7.0 entry
+    public static final int UnlockMapLayerGroupReq = 24031;
+    public static final int UnlockMapLayerGroupRsp = 23724;
     public static final int ReunionBriefInfoReq = 27913;
     public static final int ReunionBriefInfoRsp = 27874;
     public static final int GetQuestLackingResourceReq = 8759;
