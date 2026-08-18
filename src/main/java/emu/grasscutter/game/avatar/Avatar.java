@@ -576,8 +576,14 @@ public class Avatar {
         this.setFightProperty(FightProperty.FIGHT_PROP_CHARGE_EFFICIENCY, 1f);
         this.setFightProperty(FightProperty.FIGHT_PROP_CUR_SPECIAL_ENERGY, specialEnergy);
         this.setFightProperty(FightProperty.FIGHT_PROP_CUR_NATLAN_HP, nyxValue);
-        this.setFightProperty(FightProperty.FIGHT_PROP_MAX_SPECIAL_ENERGY, 200);
-        this.setFightProperty(FightProperty.FIGHT_PROP_START_SPECIAL_ENERGY, 100);
+        // The burst's own specialEnergyMin, not a flat 200: Mavuika's Fighting Spirit does want 200
+        // but Skirk's wants 100, and a doubled bar never fills.
+        float maxSpecialEnergy = 0f;
+        if (this.getSkillDepot() != null && this.getSkillDepot().getEnergySkillData() != null) {
+            maxSpecialEnergy = this.getSkillDepot().getEnergySkillData().getSpecialEnergyMin();
+        }
+        this.setFightProperty(FightProperty.FIGHT_PROP_MAX_SPECIAL_ENERGY, maxSpecialEnergy);
+        this.setFightProperty(FightProperty.FIGHT_PROP_START_SPECIAL_ENERGY, maxSpecialEnergy / 2f);
 
         if (promoteData != null) {
             for (FightPropData fightPropData : promoteData.getAddProps()) {
