@@ -297,6 +297,9 @@ public class ConfigContainer {
             public boolean enabled = false;
             public int doSetPlayerBornDataNotify = 0;
             public int setPlayerBornDataRsp = 0;
+
+            /** Seconds to wait for creation before making the Traveler anyway. 0 waits forever. */
+            public int fallbackSeconds = 15;
         }
 
         @SerializedName(value = "questing", alternate = "questOptions")
