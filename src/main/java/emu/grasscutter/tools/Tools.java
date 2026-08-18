@@ -41,6 +41,19 @@ public final class Tools {
      * @param message Should a message be printed to the console?
      * @throws Exception If an error occurs while generating the handbooks.
      */
+    private static final String MISSING = "[N/A]";
+
+    /**
+     * Never null, so a hash no text map knows cannot stall the caller. getTextMapKey returns null
+     * for those, and reloading cannot conjure one - the resource set simply has no string for it.
+     */
+    private static TextStrings translate(long hash) {
+        val strings = getTextMapKey(hash);
+        return strings != null
+                ? strings
+                : new TextStrings("%s %d".formatted(MISSING, hash & 0xFFFFFFFFL));
+    }
+
     public static void createGmHandbooks(boolean message) throws Exception {
         // Check if the GM Handbook directory exists.
         val handbookDir = new File("GM Handbook");
@@ -83,14 +96,10 @@ public final class Tools {
                     void newTranslatedLine(String template, TextStrings... textstrings) {
                         for (int i = 0; i < TextStrings.NUM_LANGUAGES; i++) {
                             String s = template;
-                            for (int j = 0; j < textstrings.length; j++)
-                                try {
-                                    s = s.replace("{" + j + "}", textstrings[j].strings[i]);
-                                } catch (NullPointerException ignored) {
-                                    // TextMap cache is outdated.
-                                    j--; // Retry the action.
-                                    Language.loadTextMaps(true);
-                                }
+                            for (int j = 0; j < textstrings.length; j++) {
+                                val strings = textstrings[j];
+                                s = s.replace("{" + j + "}", strings == null ? MISSING : strings.strings[i]);
+                            }
                             handbookBuilders.get(i).append(s + "\n");
                         }
                     }
@@ -99,7 +108,7 @@ public final class Tools {
                         newTranslatedLine(
                                 template,
                                 LongStream.of(hashes)
-                                        .mapToObj(hash -> getTextMapKey(hash))
+                                        .mapToObj(Tools::translate)
                                         .toArray(TextStrings[]::new));
                     }
                 };
