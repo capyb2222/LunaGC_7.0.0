@@ -4,7 +4,10 @@ import emu.grasscutter.game.quest.enums.QuestContent;
 import emu.grasscutter.net.packet.*;
 import emu.grasscutter.net.proto.PostEnterSceneReqOuterClass.PostEnterSceneReq;
 import emu.grasscutter.server.game.GameSession;
+import emu.grasscutter.server.packet.send.PacketCutsceneBeginNotify;
 import emu.grasscutter.server.packet.send.PacketPostEnterSceneRsp;
+
+import static emu.grasscutter.config.Configuration.GAME_OPTIONS;
 
 @Opcodes(PacketOpcodes.PostEnterSceneReq)
 public class HandlerPostEnterSceneReq extends PacketHandler {
@@ -32,5 +35,17 @@ public class HandlerPostEnterSceneReq extends PacketHandler {
         questManager.queueEvent(QuestContent.QUEST_CONTENT_LEAVE_SCENE, scene.getPrevScene());
 
         session.send(new PacketPostEnterSceneRsp(session.getPlayer()));
+
+        this.playOpeningCutscene(player);
+    }
+
+    /** Fired here rather than at login: a cutscene sent before the scene is up is discarded. */
+    private void playOpeningCutscene(emu.grasscutter.game.player.Player player) {
+        int cutscene = GAME_OPTIONS.firstLoginCutscene;
+        if (cutscene <= 0 || player.isPlayedFirstLoginCutscene()) return;
+
+        player.setPlayedFirstLoginCutscene(true);
+        player.save();
+        player.sendPacket(new PacketCutsceneBeginNotify(cutscene));
     }
 }

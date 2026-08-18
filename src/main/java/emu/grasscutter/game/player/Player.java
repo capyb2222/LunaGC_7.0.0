@@ -135,6 +135,9 @@ public class Player implements PlayerHook, FieldFetch {
      */
     @Getter private Set<Integer> forcedFinishedQuests;
 
+    /** Set the first time the opening cutscene plays, so it never plays twice. */
+    @Getter @Setter private boolean playedFirstLoginCutscene;
+
     @Transient private long nextGuid = 0;
     @Transient @Getter @Setter private int peerId;
     @Transient private World world;

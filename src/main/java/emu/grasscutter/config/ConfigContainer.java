@@ -279,6 +279,9 @@ public class ConfigContainer {
         public boolean fishhookTeleport = true;
         public boolean trialCostumes = false;
 
+        /** Cutscene played once, the first time an account reaches a scene. 0 disables it. */
+        public int firstLoginCutscene = 0;
+
         @SerializedName(value = "questing", alternate = "questOptions")
         public Questing questing = new Questing();
         public ResinOptions resinOptions = new ResinOptions();
