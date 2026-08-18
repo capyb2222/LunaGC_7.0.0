@@ -1207,38 +1207,12 @@ public final class AbilityManager extends BasePlayerManager {
             (abilityName != null && abilityName.startsWith("Avatar_") && abilityName.endsWith("_MoonLight"))
             || getMoonLightAbilityHashes().contains(abHash);
 
-        if (isTeamMoonPhase) {
-            long moonCount = this.player.getTeamManager().getActiveTeam().stream()
-                .filter(e -> PacketPlayerEnterSceneInfoNotify.getMoonphaseIds().contains(
-                    e.getAvatar().getAvatarId()))
-                .count();
-            var teamEntity = this.player.getTeamManager().getEntity();
-            int teamEntityId = teamEntity.getId();
-            this.player.sendPacket(new PacketServerGlobalValueChangeNotify(
-                teamEntityId, "SGV_MoonPhaseLevel", (float) moonCount));
-            if (moonCount > 0) {
-                teamEntity.getGlobalAbilityValues().put("MoonOvergrowPoint_All", 50f);
-                this.player.sendPacket(new PacketServerGlobalValueChangeNotify(
-                    teamEntityId, "MoonOvergrowPoint_All", 50f));
-            }
-            log.debug("TeamAbility_MoonPhase loaded: sent SGV_MoonPhaseLevel={}, MoonOvergrowPoint_All={}",
-                moonCount, moonCount > 0 ? 50 : 0);
-        }
-
-        if (isMoonLightAbility) {
-            long moonCount = this.player.getTeamManager().getActiveTeam().stream()
-                .filter(e -> PacketPlayerEnterSceneInfoNotify.getMoonphaseIds().contains(
-                    e.getAvatar().getAvatarId()))
-                .count();
-            if (moonCount > 0) {
-                var teamEntity = this.player.getTeamManager().getEntity();
-                int teamEntityId = teamEntity.getId();
-                teamEntity.getGlobalAbilityValues().put("MoonOvergrowPoint_All", 50f);
-                this.player.sendPacket(new PacketServerGlobalValueChangeNotify(
-                    teamEntityId, "MoonOvergrowPoint_All", 50f));
-                log.debug("MoonLight ability {} loaded: re-sent MoonOvergrowPoint_All=50 to team entity={}",
-                    abilityName, teamEntityId);
-            }
+        // Repeated here: the client only wires the Moonsign up once its ability exists.
+        if (isTeamMoonPhase || isMoonLightAbility) {
+            var teamManager = this.player.getTeamManager();
+            teamManager.sendMoonsignState();
+            log.debug("{} loaded: re-sent Moonsign level={} to team entity={}",
+                abilityName, teamManager.getMoonsignLevel(), teamManager.getEntity().getId());
         }
 
         if (abilityData == null) {

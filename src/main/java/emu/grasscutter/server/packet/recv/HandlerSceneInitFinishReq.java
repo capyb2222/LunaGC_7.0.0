@@ -32,10 +32,7 @@ public class HandlerSceneInitFinishReq extends PacketHandler {
         session.send(new PacketSceneTimeNotify(player));
         session.send(new PacketPlayerGameTimeNotify(player));
         session.send(new PacketPlayerEnterSceneInfoNotify(player));
-        int moonPhaseCount = (int) player.getTeamManager().getActiveTeam().stream()
-                .filter(e -> PacketPlayerEnterSceneInfoNotify.getMoonphaseIds().contains(e.getAvatar().getAvatarId()))
-                .count();
-        session.send(new PacketTeamMoonPhaseChangeNotify(moonPhaseCount));
+        player.getTeamManager().sendMoonsignState();
         int hexenzirkelCount = (int) player.getTeamManager().getActiveTeam().stream()
                 .filter(e -> PacketPlayerEnterSceneInfoNotify.getHexenzirkelIds().contains(e.getAvatar().getAvatarId()))
                 .count();

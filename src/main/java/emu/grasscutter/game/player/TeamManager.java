@@ -31,6 +31,9 @@ import lombok.*;
 
 @Entity
 public final class TeamManager extends BasePlayerDataManager {
+    // MOON_PHASE_CONST_VALUE_LEVEL_RANGE.
+    public static final int MOONSIGN_MAX_LEVEL = 2;
+
     @Transient private final List<EntityAvatar> avatars;
     @Transient @Getter private final Set<EntityBaseGadget> gadgets;
     @Transient @Getter private final IntSet teamResonances;
@@ -338,6 +341,30 @@ public final class TeamManager extends BasePlayerDataManager {
         }
     }
 
+    /** Nod-Krai characters in the party, capped: 1 is Nascent Gleam, 2 Ascendant Gleam. */
+    public int getMoonsignLevel() {
+        long count = this.getActiveTeam().stream()
+            .filter(e -> PacketPlayerEnterSceneInfoNotify.getMoonphaseIds().contains(e.getAvatar().getAvatarId()))
+            .count();
+
+        return (int) Math.min(count, MOONSIGN_MAX_LEVEL);
+    }
+
+    public void sendMoonsignState() {
+        int level = this.getMoonsignLevel();
+        int teamEntityId = this.getEntity().getId();
+
+        this.getPlayer().sendPacket(new PacketServerGlobalValueChangeNotify(
+            teamEntityId, "SGV_MoonPhaseLevel", (float) level));
+
+        if (level > 0) {
+            this.getPlayer().sendPacket(new PacketServerGlobalValueChangeNotify(
+                teamEntityId, "MoonOvergrowPoint_All", 100f));
+        }
+
+        this.getPlayer().sendPacket(new PacketTeamMoonPhaseChangeNotify(level));
+    }
+
     public void updateTeamProperties() {
         this.updateTeamResonances();
         this.getWorld()
@@ -349,18 +376,7 @@ public final class TeamManager extends BasePlayerDataManager {
             .map(EntityAvatar::getAvatar)
             .forEach(Avatar::sendSkillExtraChargeMap);
 
-        long moonPhaseCount = this.getActiveTeam().stream()
-            .filter(e -> PacketPlayerEnterSceneInfoNotify.getMoonphaseIds().contains(e.getAvatar().getAvatarId()))
-            .count();
-        this.getPlayer().sendPacket(new PacketServerGlobalValueChangeNotify(
-            this.getEntity().getId(), "SGV_MoonPhaseLevel", (float) moonPhaseCount));
-
-        if (moonPhaseCount > 0) {
-            this.getPlayer().sendPacket(new PacketServerGlobalValueChangeNotify(
-                this.getEntity().getId(), "MoonOvergrowPoint_All", 100f));
-        }
-
-        this.getPlayer().sendPacket(new PacketTeamMoonPhaseChangeNotify((int) moonPhaseCount));
+        this.sendMoonsignState();
 
         long hexenzirkelCount = this.getActiveTeam().stream()
             .filter(e -> PacketPlayerEnterSceneInfoNotify.getHexenzirkelIds().contains(e.getAvatar().getAvatarId()))

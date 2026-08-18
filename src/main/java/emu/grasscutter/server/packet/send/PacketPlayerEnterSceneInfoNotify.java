@@ -72,16 +72,14 @@ public class PacketPlayerEnterSceneInfoNotify extends BasePacket {
                 .setFloatValue(hexCount)
                 .build();
 
-        long moonPhaseCount = player.getTeamManager().getActiveTeam().stream()
-                .filter(e -> getMoonphaseIds().contains(e.getAvatar().getAvatarId()))
-                .count();
+        int moonsignLevel = player.getTeamManager().getMoonsignLevel();
 
         AbilityScalarValueEntry moonPhaseLevel = AbilityScalarValueEntry.newBuilder()
                 .setKey(AbilityString.newBuilder()
                         .setHash(Utils.abilityHash("SGV_MoonPhaseLevel"))
                         .setStr("SGV_MoonPhaseLevel")
                         .build())
-                .setFloatValue(moonPhaseCount)
+                .setFloatValue(moonsignLevel)
                 .build();
 
         AbilitySyncStateInfo.Builder teamInfo = AbilitySyncStateInfo.newBuilder()
@@ -89,7 +87,7 @@ public class PacketPlayerEnterSceneInfoNotify extends BasePacket {
                 .addSgvDynamicValueMap(hexLevel)
                 .addSgvDynamicValueMap(moonPhaseLevel);
 
-        if (moonPhaseCount > 0) {
+        if (moonsignLevel > 0) {
             teamInfo.addDynamicValueMap(AbilityScalarValueEntry.newBuilder()
                     .setKey(AbilityString.newBuilder()
                             .setHash(Utils.abilityHash("MoonOvergrowPoint_All"))
