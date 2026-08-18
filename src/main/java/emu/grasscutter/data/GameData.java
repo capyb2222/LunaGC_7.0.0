@@ -416,6 +416,10 @@ public final class GameData {
             new Int2ObjectOpenHashMap<>();
 
     @Getter
+    private static final Int2ObjectMap<CutsceneData> cutsceneDataMap =
+            new Int2ObjectLinkedOpenHashMap<>();
+
+    @Getter
     private static final Int2ObjectMap<SceneData> sceneDataMap = new Int2ObjectLinkedOpenHashMap<>();
 
     @Getter
