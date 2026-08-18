@@ -115,7 +115,8 @@ public final class PacketOpcodes {
     public static final int AvatarPropNotify = 8709;
     public static final int PlayerTimeNotify = 21611;
     public static final int ServerGlobalValueChangeNotify = 2228;
-    public static final int TeamMoonPhaseChangeNotify = -3; // no 7.0 entry
+    // 7.0 spells this _TeamMoonPhaseChangeNotify; aliased in gen_opcodes.py.
+    public static final int TeamMoonPhaseChangeNotify = 26548;
     public static final int TeamHexenzirkelChangeNotify = -4; // no 7.0 entry
     public static final int AvatarDieAnimationEndReq = 24906;
     public static final int AvatarDieAnimationEndRsp = 24335;
