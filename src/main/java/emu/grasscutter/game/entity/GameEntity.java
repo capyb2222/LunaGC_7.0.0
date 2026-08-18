@@ -324,10 +324,8 @@ public abstract class GameEntity {
       public void addSpecialEnergy(float energy){
        float curSpecialEnergy = getFightProperty(FightProperty.FIGHT_PROP_CUR_SPECIAL_ENERGY);
        float maxSpecialEnergy = getFightProperty(FightProperty.FIGHT_PROP_MAX_SPECIAL_ENERGY);
-       curSpecialEnergy+=energy;
-       if (curSpecialEnergy >= maxSpecialEnergy){
-            curSpecialEnergy = maxSpecialEnergy;
-       }
+       // Nightsoul is spent through here too, as a negative, so it needs a floor as well as a cap.
+       curSpecialEnergy = Math.max(0, Math.min(maxSpecialEnergy, curSpecialEnergy + energy));
        setFightProperty(FightProperty.FIGHT_PROP_CUR_SPECIAL_ENERGY, curSpecialEnergy);
        this.getScene().broadcastPacket(new PacketEntityFightPropUpdateNotify(this, FightProperty.FIGHT_PROP_CUR_SPECIAL_ENERGY));
     }
