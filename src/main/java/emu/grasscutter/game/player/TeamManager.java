@@ -31,8 +31,10 @@ import lombok.*;
 
 @Entity
 public final class TeamManager extends BasePlayerDataManager {
-    // MOON_PHASE_CONST_VALUE_LEVEL_RANGE.
+    // Both from MoonPhaseConstValueExcelConfigData. Verdant Dew is "MoonOvergrow" in the configs.
     public static final int MOONSIGN_MAX_LEVEL = 2;
+    public static final String VERDANT_DEW = "MoonOvergrowPoint_All";
+    public static final int VERDANT_DEW_CAP = 3;
 
     @Transient private final List<EntityAvatar> avatars;
     @Transient @Getter private final Set<EntityBaseGadget> gadgets;
@@ -350,6 +352,7 @@ public final class TeamManager extends BasePlayerDataManager {
         return (int) Math.min(count, MOONSIGN_MAX_LEVEL);
     }
 
+    /** Seeds the dew only; from the first Lunar-Bloom onwards the client's own count wins. */
     public void sendMoonsignState() {
         int level = this.getMoonsignLevel();
         int teamEntityId = this.getEntity().getId();
@@ -358,8 +361,9 @@ public final class TeamManager extends BasePlayerDataManager {
             teamEntityId, "SGV_MoonPhaseLevel", (float) level));
 
         if (level > 0) {
+            this.getEntity().getGlobalAbilityValues().put(VERDANT_DEW, (float) VERDANT_DEW_CAP);
             this.getPlayer().sendPacket(new PacketServerGlobalValueChangeNotify(
-                teamEntityId, "MoonOvergrowPoint_All", 100f));
+                teamEntityId, VERDANT_DEW, (float) VERDANT_DEW_CAP));
         }
 
         this.getPlayer().sendPacket(new PacketTeamMoonPhaseChangeNotify(level));

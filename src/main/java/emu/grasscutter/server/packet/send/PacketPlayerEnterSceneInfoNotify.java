@@ -11,6 +11,7 @@ import emu.grasscutter.game.avatar.Avatar;
 import emu.grasscutter.game.entity.EntityAvatar;
 import emu.grasscutter.game.inventory.GameItem;
 import emu.grasscutter.game.player.Player;
+import emu.grasscutter.game.player.TeamManager;
 import emu.grasscutter.net.packet.*;
 import emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbility;
 import emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo;
@@ -40,6 +41,17 @@ public class PacketPlayerEnterSceneInfoNotify extends BasePacket {
         Set<Integer> s = MOON_IDS_CACHE;
         if (s == null) MOON_IDS_CACHE = s = buildTaggedSet("AVATAR_TAG_MOONPHASE");
         return s;
+    }
+
+    /** A full pouch of Verdant Dew. Counted in ones, not the 50 that used to go out here. */
+    private static AbilityScalarValueEntry verdantDew() {
+        return AbilityScalarValueEntry.newBuilder()
+                .setKey(AbilityString.newBuilder()
+                        .setHash(Utils.abilityHash(TeamManager.VERDANT_DEW))
+                        .setStr(TeamManager.VERDANT_DEW)
+                        .build())
+                .setFloatValue(TeamManager.VERDANT_DEW_CAP)
+                .build();
     }
 
     private static Set<Integer> buildTaggedSet(String tag) {
@@ -88,13 +100,7 @@ public class PacketPlayerEnterSceneInfoNotify extends BasePacket {
                 .addSgvDynamicValueMap(moonPhaseLevel);
 
         if (moonsignLevel > 0) {
-            teamInfo.addDynamicValueMap(AbilityScalarValueEntry.newBuilder()
-                    .setKey(AbilityString.newBuilder()
-                            .setHash(Utils.abilityHash("MoonOvergrowPoint_All"))
-                            .setStr("MoonOvergrowPoint_All")
-                            .build())
-                    .setFloatValue(50f)
-                    .build());
+            teamInfo.addDynamicValueMap(verdantDew());
         }
 
         AbilitySyncStateInfo phlogiston = teamInfo.build();
@@ -143,13 +149,7 @@ public class PacketPlayerEnterSceneInfoNotify extends BasePacket {
         Avatar avatar = avatarEntity.getAvatar();
 
         if (getMoonphaseIds().contains(avatar.getAvatarId())) {
-            info.addDynamicValueMap(AbilityScalarValueEntry.newBuilder()
-                    .setKey(AbilityString.newBuilder()
-                            .setHash(Utils.abilityHash("MoonOvergrowPoint_All"))
-                            .setStr("MoonOvergrowPoint_All")
-                            .build())
-                    .setFloatValue(50f)
-                    .build());
+            info.addDynamicValueMap(verdantDew());
         }
 
         for (int proudSkillId : avatar.getProudSkillList()) {
