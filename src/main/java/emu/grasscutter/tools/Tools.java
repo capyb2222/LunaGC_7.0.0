@@ -75,6 +75,7 @@ public final class Tools {
         val itemDataMap = new Int2ObjectRBTreeMap<>(GameData.getItemDataMap());
         val monsterDataMap = new Int2ObjectRBTreeMap<>(GameData.getMonsterDataMap());
         val sceneDataMap = new Int2ObjectRBTreeMap<>(GameData.getSceneDataMap());
+        val cutsceneDataMap = new Int2ObjectRBTreeMap<>(GameData.getCutsceneDataMap());
         val questDataMap = new Int2ObjectRBTreeMap<>(GameData.getQuestDataMap());
         val achievementDataMap = new Int2ObjectRBTreeMap<>(GameData.getAchievementDataMap());
 
@@ -183,6 +184,11 @@ public final class Tools {
         h.newSection("Scenes");
         val padSceneId = getPad.apply(sceneDataMap);
         sceneDataMap.forEach((id, data) -> h.newLine(padSceneId.formatted(id) + data.getScriptData()));
+        // Cutscenes - the asset path is the only name they have
+        h.newSection("Cutscenes");
+        val padCutsceneId = getPad.apply(cutsceneDataMap);
+        cutsceneDataMap.forEach(
+                (id, data) -> h.newLine(padCutsceneId.formatted(id) + data.getPath()));
         // Quests
         h.newSection("Quests");
         val padQuestId = getPad.apply(questDataMap);
