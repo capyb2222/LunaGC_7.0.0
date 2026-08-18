@@ -25,6 +25,7 @@ import emu.grasscutter.net.proto.AbilityMetaModifierChangeOuterClass.AbilityMeta
 import emu.grasscutter.server.packet.send.PacketMonsterSummonTagNotify;
 import emu.grasscutter.net.proto.AbilityMetaReInitOverrideMapOuterClass.AbilityMetaReInitOverrideMap;
 import emu.grasscutter.net.proto.AbilityMetaSetKilledStateOuterClass.AbilityMetaSetKilledState;
+import emu.grasscutter.net.proto.AbilityMetaUpdateMoonOvergrowValueOuterClass.AbilityMetaUpdateMoonOvergrowValue;
 import emu.grasscutter.net.proto.AbilityScalarTypeOuterClass.AbilityScalarType;
 import emu.grasscutter.net.proto.AbilityScalarValueEntryOuterClass.AbilityScalarValueEntry;
 import emu.grasscutter.net.proto.ModifierActionOuterClass.ModifierAction;
@@ -411,6 +412,8 @@ public final class AbilityManager extends BasePlayerManager {
 
             case AbilityInvokeArgument_ABILITY_META_SET_KILLED_SETATE -> this.handleKillState(invoke);
             case AbilityInvokeArgument_ABILITY_META_ADD_SPECIAL_ENERGY_VALUE -> this.handleAddSpecialEnergy(invoke);
+            case ABILITY_META_UPDATE_MOON_OVERGROW_VALUE ->
+                this.handleUpdateMoonOvergrowValue(invoke);
 
             default -> {
                 int typeVal = invoke.getArgumentTypeValue();
@@ -446,6 +449,22 @@ public final class AbilityManager extends BasePlayerManager {
         if (key == null) return;
 
         entity.getGlobalAbilityValues().remove(key);
+        entity.onAbilityValueUpdate();
+    }
+
+    /**
+     * Mirrors the party's Verdant Dew, which the client owns. Recorded, never echoed: the server
+     * evaluates ByTargetGlobalValue(MoonOvergrowPoint_All, Team) and would otherwise read zero.
+     */
+    private void handleUpdateMoonOvergrowValue(AbilityInvokeEntry invoke)
+        throws InvalidProtocolBufferException {
+        var update = AbilityMetaUpdateMoonOvergrowValue.parseFrom(invoke.getAbilityData());
+        if (update.getUpdateType() != AbilityMetaUpdateMoonOvergrowValue._UpdateType.SET) return;
+
+        var entity = this.player.getScene().getEntityById(invoke.getEntityId());
+        if (entity == null) entity = this.player.getTeamManager().getEntity();
+
+        entity.getGlobalAbilityValues().put(TeamManager.VERDANT_DEW, update.getFOMPMBNENPH());
         entity.onAbilityValueUpdate();
     }
 

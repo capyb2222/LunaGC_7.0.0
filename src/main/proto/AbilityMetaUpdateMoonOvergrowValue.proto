@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "AbilityMetaUpdateMoonOvergrowValueOuterClass";
+
+message AbilityMetaUpdateMoonOvergrowValue {
+	enum _UpdateType {
+		INVALUE = 0;
+		SET = 1;
+	}
+	_UpdateType update_type = 2;
+	float FOMPMBNENPH = 15;
+}
