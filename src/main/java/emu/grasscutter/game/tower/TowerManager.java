@@ -1,10 +1,14 @@
 package emu.grasscutter.game.tower;
 
+import static emu.grasscutter.config.Configuration.GAME_OPTIONS;
+
 import emu.grasscutter.Grasscutter;
 import emu.grasscutter.data.GameData;
 import emu.grasscutter.data.excels.tower.TowerLevelData;
 import emu.grasscutter.game.dungeons.*;
 import emu.grasscutter.game.player.*;
+import emu.grasscutter.game.props.FightProperty;
+import emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason;
 import emu.grasscutter.server.packet.send.*;
 import java.util.*;
 import lombok.*;
@@ -68,6 +72,51 @@ public class TowerManager extends BasePlayerManager {
         var challenge = player.getScene().getChallenge();
         inProgress = true;
         currentTimeLimit = challenge != null ? challenge.getTimeLimit() : 0;
+
+        // Skills are NOT re-enabled here: the floor's own Lua owns that. It holds them off across
+        // the chamber change and switches them back on from the worktop the player starts the half
+        // with (SetIsAllowUseSkill(1) in the EVENT_SELECT_OPTION action). Sending it from here
+        // races that and turns them on while the script means them off.
+
+        // The abyss hands every character a full burst at the start of a chamber.
+        this.fillTeamEnergy();
+    }
+
+    /**
+     * Fills the burst gauge of everyone on the team, as entering a chamber does in the game.
+     *
+     * <p>Guarded at every step because this runs inside {@link
+     * emu.grasscutter.game.dungeons.challenge.WorldChallenge#start()}: throwing here would stop the
+     * challenge starting at all, which costs the whole chamber rather than one burst. A depot can be
+     * null, and so can its element - the element-less Traveler is the standing example.
+     */
+    private void fillTeamEnergy() {
+        player
+                .getTeamManager()
+                .getActiveTeam()
+                .forEach(
+                        entity -> {
+                            var depot = entity.getAvatar().getSkillDepot();
+                            if (depot == null) return;
+
+                            // Nightsoul characters spend a separate gauge, and addEnergy would top up
+                            // an elemental one they never use.
+                            var energySkill = depot.getEnergySkillData();
+                            if (energySkill != null && energySkill.getSpecialEnergyMin() > 0) {
+                                entity.addSpecialEnergy(
+                                        entity.getFightProperty(FightProperty.FIGHT_PROP_MAX_SPECIAL_ENERGY));
+                                return;
+                            }
+
+                            var element = depot.getElementType();
+                            if (element == null) return;
+
+                            float max = entity.getFightProperty(element.getMaxEnergyProp());
+                            if (max <= 0) return;
+
+                            entity.addEnergy(
+                                    max, PropChangeReason.PropChangeReason_PROP_CHANGE_ABILITY, true);
+                        });
     }
 
     public void onEnd() {
@@ -95,10 +144,12 @@ public class TowerManager extends BasePlayerManager {
      * <p>The schedule floors are gated twice: TowerAllDataRsp reports {@code
      * is_finished_entrance_floor} from {@link #canEnterScheduleFloor()}, which wants six stars on
      * the last entrance floor, and each floor's own {@code unlockStarCount} wants six stars on the
-     * one before it. Full nine-star records on every entrance floor satisfy both. Delete this call
-     * to play floors 1-8 for real.
+     * one before it. Full nine-star records on every entrance floor satisfy both. Turn
+     * {@code game.tower.skipEntranceFloors} off to play floors 1-8 for real.
      */
     private void grantEntranceFloors(Map<Integer, TowerLevelRecord> recordMap) {
+        if (!GAME_OPTIONS.tower.skipEntranceFloors) return;
+
         var schedule = player.getServer().getTowerSystem().getCurrentTowerScheduleData();
         if (schedule == null) return;
 
@@ -366,5 +417,10 @@ public class TowerManager extends BasePlayerManager {
         // use team user choose
         player.getTeamManager().useTemporaryTeam(teamId);
         player.sendPacket(new PacketTowerMiddleLevelChangeTeamNotify());
+
+        // The second half starts with full bursts. Skills stay off until the player takes the
+        // worktop option the floor's Lua puts up right after this call - that is what turns them
+        // back on, and what spawns the second half's monsters.
+        this.fillTeamEnergy();
     }
 }
