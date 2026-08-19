@@ -140,6 +140,13 @@ public class Player implements PlayerHook, FieldFetch {
 
     @Transient private long nextGuid = 0;
     @Transient @Getter @Setter private int peerId;
+
+    // Fall damage is measured across two packets - the landing speed arrives before the landing.
+    // It lives here rather than on the handler because there is one handler instance for the whole
+    // server, so a shared field would let one player's plunge hurt whoever lands next.
+    @Transient @Getter @Setter private float cachedLandingSpeed = 0;
+    @Transient @Getter @Setter private long cachedLandingTimeMillisecond = 0;
+    @Transient @Getter @Setter private boolean monitorLandingEvent = false;
     @Transient private World world;
     @Transient @Getter @Setter private HomeWorld curHomeWorld;
     @Transient @Getter @Setter private boolean hasSentInitPacketInHome;
