@@ -723,8 +723,30 @@ public final class TeamManager extends BasePlayerDataManager {
                             index + 1,
                             available);
         }
+        var scene = this.getPlayer().getScene();
+        // Not getCurrentAvatarEntity(): on an empty team that builds a fresh main character and
+        // files it in the avatar list, which is not something reading the current avatar should do.
+        var previous =
+                scene == null || this.getActiveTeam().isEmpty()
+                        ? null
+                        : this.getActiveTeam().get(Math.min(this.currentCharacterIndex, this.getActiveTeam().size() - 1));
+
         this.useTemporarilyTeamIndex = index;
         this.updateTeamEntities(null);
+
+        if (scene == null) return;
+
+        // updateTeamEntities keeps whichever avatar was selected even when the new team has no slot
+        // for it, so the half that just finished would otherwise stay standing in the chamber.
+        if (previous != null && !this.getActiveTeam().contains(previous)) {
+            scene.removeEntity(previous);
+        }
+
+        // Nothing else puts the new half into the scene: the chamber does not reload across the
+        // swap, and the team packet alone only tells the client who is on the team. Without an
+        // avatar entity actually in the world the client has nothing to drive - no skills, no
+        // burst, no switching - and the monsters have nothing to aim at.
+        scene.spawnPlayer(this.getPlayer());
     }
 
     public boolean cleanTemporaryTeam() {
