@@ -340,7 +340,7 @@ public abstract class GameEntity {
     }
 
     public void damage(float amount, int killerId, ElementType attackType) {
-        this.damage(amount, 0, attackType, PropChangeReason.PropChangeReason_PROP_CHANGE_NONE, ChangeHpReason.ChangeHpReason_CHANGE_HP_NONE);
+        this.damage(amount, killerId, attackType, PropChangeReason.PropChangeReason_PROP_CHANGE_NONE, ChangeHpReason.ChangeHpReason_CHANGE_HP_NONE);
     }
 
     public void damage(float amount, PropChangeReason propChangeReason, ChangeHpReason changeHpReason) {
