@@ -28,26 +28,20 @@ public class PacketTowerAllDataRsp extends BasePacket {
                                                 .build())
                         .toList();
 
+        var scheduleStart = DateHelper.getUnixTime(towerScheduleManager.getScheduleStartTime());
+
         var openTimeMap =
                 towerScheduleManager.getScheduleFloors().stream()
-                        .collect(
-                                Collectors.toMap(
-                                        x -> x,
-                                        y ->
-                                                DateHelper.getUnixTime(
-                                                        towerScheduleManager.getTowerScheduleConfig().getScheduleStartTime())));
+                        .collect(Collectors.toMap(x -> x, y -> scheduleStart));
 
         TowerAllDataRsp proto =
                 TowerAllDataRsp.newBuilder()
                         .setTowerScheduleId(towerScheduleManager.getCurrentTowerScheduleData().getScheduleId())
                         .addAllTowerFloorRecordList(recordList)
                         .setCurLevelRecord(TowerCurLevelRecord.newBuilder().setIsEmpty(true))
-                        .setScheduleStartTime(
-                                DateHelper.getUnixTime(
-                                        towerScheduleManager.getTowerScheduleConfig().getScheduleStartTime()))
+                        .setScheduleStartTime(scheduleStart)
                         .setNextScheduleChangeTime(
-                                DateHelper.getUnixTime(
-                                        towerScheduleManager.getTowerScheduleConfig().getNextScheduleChangeTime()))
+                                DateHelper.getUnixTime(towerScheduleManager.getNextScheduleChangeTime()))
                         .putAllFloorOpenTimeMap(openTimeMap)
                         .setIsFinishedEntranceFloor(towerManager.canEnterScheduleFloor())
                         .build();

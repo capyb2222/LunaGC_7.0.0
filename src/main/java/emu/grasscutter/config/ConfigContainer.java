@@ -306,6 +306,7 @@ public class ConfigContainer {
         public Questing questing = new Questing();
         public ResinOptions resinOptions = new ResinOptions();
         public Rates rates = new Rates();
+        public TowerOptions tower = new TowerOptions();
 
         public HandbookOptions handbook = new HandbookOptions();
         public BirthdayMailOptions birthdayMail = new BirthdayMailOptions();
@@ -328,6 +329,32 @@ public class ConfigContainer {
             public float adventureExp = 1.0f;
             public float mora = 1.0f;
             public float leyLines = 1.0f;
+        }
+
+        /** Spiral Abyss. */
+        public static class TowerOptions {
+            /**
+             * Which rotation to serve, or 0 to rotate on the 1st and the 16th like the game does.
+             *
+             * <p>Only rotations this server can actually build are ever chosen: a rotation whose
+             * floors point at dungeon scenes with no group scripts would open onto empty rooms, so
+             * those are skipped. Setting an id here serves it whether or not it passes that check.
+             */
+            public int scheduleId = 0;
+
+            /**
+             * Cycle through rotations on the 1st and the 16th instead of always serving the newest.
+             *
+             * <p>Off by default: the newest rotation this server can build is the closest it gets to
+             * the live game, and rotating only ever moves backwards from it.
+             */
+            public boolean rotate = false;
+
+            /** How many of the newest playable rotations to cycle through. 0 uses every one. */
+            public int rotationPool = 12;
+
+            /** Hand floors 1-8 over already cleared. Off plays the corridor for real. */
+            public boolean skipEntranceFloors = true;
         }
 
         public static class ResinOptions {
