@@ -1,5 +1,6 @@
 package emu.grasscutter.game.world;
 
+import emu.grasscutter.Grasscutter;
 import emu.grasscutter.data.GameDepot;
 import java.util.*;
 import lombok.*;
@@ -46,13 +47,46 @@ public class SpawnDataEntry {
         }
 
         public static GridBlockId[] getAdjacentGridBlockIds(int sceneId, Position pos) {
-            GridBlockId[] results = new GridBlockId[5 * 5 * GameDepot.BLOCK_SIZE.length];
+            // When entity-error prevention is disabled, use the upstream 5x5-block behavior.
+            if (!Grasscutter.getConfig().server.game.gameOptions.isPreventEntityError) {
+                GridBlockId[] results = new GridBlockId[5 * 5 * GameDepot.BLOCK_SIZE.length];
+                int t = 0;
+                for (int scale = 0; scale < GameDepot.BLOCK_SIZE.length; scale++) {
+                    int x = ((int) (pos.getX() / GameDepot.BLOCK_SIZE[scale]));
+                    int z = ((int) (pos.getZ() / GameDepot.BLOCK_SIZE[scale]));
+                    for (int i = x - 2; i < x + 3; i++) {
+                        for (int j = z - 2; j < z + 3; j++) {
+                            results[t++] = new GridBlockId(sceneId, scale, i, j);
+                        }
+                    }
+                }
+                return results;
+            }
+
+            // Only load grid blocks that can be within the 500m hard cap. Coarser scales
+            // (e.g. 1000m blocks) would pull in entities from far outside the player's
+            // surroundings and recreate the large scene-sync bursts behind client (1,1,2).
+            final int maxEntityLoadRange = 500;
+            int capacity = 0;
+            for (int scale = 0; scale < GameDepot.BLOCK_SIZE.length; scale++) {
+                int blockSize = GameDepot.BLOCK_SIZE[scale];
+                int half = maxEntityLoadRange / blockSize - 1;
+                if (half < 0) continue;
+                int side = half * 2 + 1;
+                capacity += side * side;
+            }
+
+            GridBlockId[] results = new GridBlockId[capacity];
             int t = 0;
             for (int scale = 0; scale < GameDepot.BLOCK_SIZE.length; scale++) {
-                int x = ((int) (pos.getX() / GameDepot.BLOCK_SIZE[scale]));
-                int z = ((int) (pos.getZ() / GameDepot.BLOCK_SIZE[scale]));
-                for (int i = x - 2; i < x + 3; i++) {
-                    for (int j = z - 2; j < z + 3; j++) {
+                int blockSize = GameDepot.BLOCK_SIZE[scale];
+                int half = maxEntityLoadRange / blockSize - 1;
+                if (half < 0) continue;
+
+                int x = ((int) (pos.getX() / blockSize));
+                int z = ((int) (pos.getZ() / blockSize));
+                for (int i = x - half; i <= x + half; i++) {
+                    for (int j = z - half; j <= z + half; j++) {
                         results[t++] = new GridBlockId(sceneId, scale, i, j);
                     }
                 }
