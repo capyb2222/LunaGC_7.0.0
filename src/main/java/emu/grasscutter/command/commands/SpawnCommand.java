@@ -10,6 +10,7 @@ import emu.grasscutter.data.NameIndex;
 import emu.grasscutter.data.excels.*;
 import emu.grasscutter.data.excels.monster.MonsterData;
 import emu.grasscutter.game.entity.*;
+import emu.grasscutter.scripts.data.SceneGroup;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.game.props.*;
 import emu.grasscutter.game.world.*;
@@ -171,10 +172,32 @@ public final class SpawnCommand implements CommandHandler {
         if (gadgetData.getType() == EntityType.Vehicle) {
             entity = new EntityVehicle(param.scene, targetPlayer, param.id, 0, pos, param.rot);
         } else {
-            entity = new EntityGadget(param.scene, param.id, pos, param.rot);
-            if (param.state != -1) {
-                ((EntityGadget) entity).setState(param.state);
+            var gadget = new EntityGadget(param.scene, param.id, pos, param.rot);
+
+            // With a group and config given, attach the real SceneGadget from the map script so the
+            // gadget keeps its map identity - drop table, interaction, state - instead of spawning
+            // as a bare prop that cannot be opened.
+            if (param.groupId != -1 && param.configId != -1) {
+                var group = SceneGroup.of(param.groupId).load(param.scene.getId());
+                if (group != null && group.gadgets != null) {
+                    var sceneGadget = group.gadgets.get(param.configId);
+                    if (sceneGadget != null) {
+                        gadget.setMetaGadget(sceneGadget);
+                        gadget.setGroupId(group.id);
+                        gadget.setBlockId(param.blockId != -1 ? param.blockId : group.block_id);
+                        gadget.setConfigId(sceneGadget.config_id);
+                        if (param.state == -1) gadget.setState(sceneGadget.state);
+                    }
+                }
             }
+
+            // Builds the Chest/Worktop/GatherPoint content, without which it is not interactive.
+            gadget.buildContent();
+
+            if (param.state != -1) {
+                gadget.setState(param.state);
+            }
+            entity = gadget;
         }
         return entity;
     }
