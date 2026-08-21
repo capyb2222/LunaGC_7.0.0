@@ -1375,9 +1375,11 @@ public class Player implements PlayerHook, FieldFetch {
 
     public void onLogin() {
 
-        if (this.getSceneTags().isEmpty() || this.getSceneTags() == null) {
-            this.applyStartingSceneTags();
-        }
+        // Union the defaults in on every login, not just when the player has none. A save made
+        // against an older resource set keeps its old tag set for good otherwise, and a scene tag
+        // is what picks which variant of a map the client loads - an account missing the newer
+        // default tags loads the pre-prologue Mondstadt and replays the opening Paimon talk.
+        this.applyStartingSceneTags();
 
         if (GameHome.HOME_SCENE_IDS.contains(this.getSceneId())) {
             this.setSceneId(this.prevScene <= 0 ? 3 : this.prevScene);
