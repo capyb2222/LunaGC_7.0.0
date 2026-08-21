@@ -29,6 +29,8 @@ public final class RegionHandler implements Router {
     private static final Map<String, RegionData> regions = new ConcurrentHashMap<>();
     private static String regionListResponse;
     private static String regionListResponseCN;
+    private static com.google.protobuf.ByteString regionConfigEncrypted;
+    private static com.google.protobuf.ByteString regionConfigEncryptedCN;
 
     public RegionHandler() {
         try { // Read and initialize region data.
@@ -38,20 +40,46 @@ public final class RegionHandler implements Router {
         }
     }
 
+    /**
+     * Determines the effective game-server address for a request.
+     * Priority: configured accessAddress -^ request host -^ bindAddress.
+     * This lets clients on localhost / LAN / public IP / domain all join.
+     */
+    private static String getEffectiveGameAddress(Context ctx) {
+        var configured = GAME_INFO.accessAddress;
+        if (configured != null && !configured.isEmpty() && !configured.equals("0.0.0.0")) {
+            return configured;
+        }
+        var host = ctx.host();
+        if (host != null && !host.isEmpty()) {
+            var h = host.contains(":") ? host.substring(0, host.lastIndexOf(':')) : host;
+            if (!h.equals("127.0.0.1") && !h.equalsIgnoreCase("localhost") && !h.isEmpty()) {
+                return h;
+            }
+        }
+        return GAME_INFO.bindAddress;
+    }
+
+    /** Determines the effective dispatch domain for a request (config -^ request host -^ bind). */
+    private static String getEffectiveDispatchDomain(Context ctx) {
+        var scheme = "http" + (HTTP_ENCRYPTION.useInRouting ? "s" : "");
+        var configured = HTTP_INFO.accessAddress;
+        if (configured != null && !configured.isEmpty() && !configured.equals("0.0.0.0")) {
+            return scheme + "://" + configured + ":" + lr(HTTP_INFO.accessPort, HTTP_INFO.bindPort);
+        }
+        var host = ctx.host();
+        if (host != null && !host.isEmpty()) {
+            var h = host.contains(":") ? host.substring(0, host.lastIndexOf(':')) : host;
+            if (!h.equals("127.0.0.1") && !h.equalsIgnoreCase("localhost") && !h.isEmpty()) {
+                return scheme + "://" + h + ":" + ctx.port();
+            }
+        }
+        return scheme + "://" + HTTP_INFO.bindAddress + ":" + lr(HTTP_INFO.accessPort, HTTP_INFO.bindPort);
+    }
+
     /** Configures region data according to configuration. */
     private void initialize() {
-        var dispatchDomain =
-                "http"
-                        + (HTTP_ENCRYPTION.useInRouting ? "s" : "")
-                        + "://"
-                        + lr(HTTP_INFO.accessAddress, HTTP_INFO.bindAddress)
-                        + ":"
-                        + lr(HTTP_INFO.accessPort, HTTP_INFO.bindPort);
-
         // Create regions.
-        var servers = new ArrayList<RegionSimpleInfo>();
-        var usedNames = new ArrayList<String>(); // List to check for potential naming conflicts.
-
         var configuredRegions = new ArrayList<>(DISPATCH_INFO.regions);
         if (Grasscutter.getRunMode() != ServerRunMode.HYBRID && configuredRegions.size() == 0) {
             Grasscutter.getLogger()
@@ -68,22 +96,6 @@ public final class RegionHandler implements Router {
 
         configuredRegions.forEach(
                 region -> {
-                    if (usedNames.contains(region.Name)) {
-                        Grasscutter.getLogger().error("Region name already in use.");
-                        return;
-                    }
-
-                    // Create a region identifier.
-                    var identifier =
-                            RegionSimpleInfo.newBuilder()
-                                    .setName(region.Name)
-                                    .setTitle(region.Title)
-                                    .setType("DEV_PUBLIC")
-                                    .setDispatchUrl(dispatchDomain + "/query_cur_region/" + region.Name)
-                                    .build();
-                    usedNames.add(region.Name);
-                    servers.add(identifier);
-
                     // Create a region info object.
                     var regionInfo =
                             RegionInfo.newBuilder()
@@ -119,40 +131,41 @@ public final class RegionHandler implements Router {
         customConfig.add("codeSwitch", codeSwitch);
         customConfig.add("coverSwitch", hiddenIcons);
 
-        // XOR the config with the key.
+        // XOR the config with the key (OS).
         var encodedConfig = JsonUtils.encode(customConfig).getBytes();
         Crypto.xor(encodedConfig, Crypto.DISPATCH_KEY);
+        regionConfigEncrypted = ByteString.copyFrom(encodedConfig);
 
-        // Create an updated region list.
+        // CN: modify the sdkenv and re-encrypt.
+        customConfig.addProperty("sdkenv", "0");
+        encodedConfig = JsonUtils.encode(customConfig).getBytes();
+        Crypto.xor(encodedConfig, Crypto.DISPATCH_KEY);
+        regionConfigEncryptedCN = ByteString.copyFrom(encodedConfig);
+    }
+
+    /** Builds the region list response for a request (address resolved per-request). */
+    private static String buildRegionListResponse(Context ctx, boolean cn) {
+        var dispatchDomain = getEffectiveDispatchDomain(ctx);
+        var servers = new ArrayList<RegionSimpleInfo>();
+        regions.keySet().stream()
+                .sorted()
+                .forEach(
+                        name ->
+                                servers.add(
+                                        RegionSimpleInfo.newBuilder()
+                                                .setName(name)
+                                                .setTitle(name)
+                                                .setType("DEV_PUBLIC")
+                                                .setDispatchUrl(dispatchDomain + "/query_cur_region/" + name)
+                                                .build()));
         var updatedRegionList =
                 QueryRegionListHttpRsp.newBuilder()
                         .addAllRegionList(servers)
                         .setClientSecretKey(ByteString.copyFrom(Crypto.DISPATCH_SEED))
-                        .setClientCustomConfigEncrypted(ByteString.copyFrom(encodedConfig))
+                        .setClientCustomConfigEncrypted(cn ? regionConfigEncryptedCN : regionConfigEncrypted)
                         .setEnableLoginPc(true)
                         .build();
-
-        // Set the region list response.
-        regionListResponse = Utils.base64Encode(updatedRegionList.toByteString().toByteArray());
-
-        // CN
-        // Modify the existing config option.
-        customConfig.addProperty("sdkenv", "0");
-        // XOR the config with the key.
-        encodedConfig = JsonUtils.encode(customConfig).getBytes();
-        Crypto.xor(encodedConfig, Crypto.DISPATCH_KEY);
-
-        // Create an updated region list.
-        var updatedRegionListCN =
-                QueryRegionListHttpRsp.newBuilder()
-                        .addAllRegionList(servers)
-                        .setClientSecretKey(ByteString.copyFrom(Crypto.DISPATCH_SEED))
-                        .setClientCustomConfigEncrypted(ByteString.copyFrom(encodedConfig))
-                        .setEnableLoginPc(true)
-                        .build();
-
-        // Set the region list response.
-        regionListResponseCN = Utils.base64Encode(updatedRegionListCN.toByteString().toByteArray());
+        return Utils.base64Encode(updatedRegionList.toByteString().toByteArray());
     }
 
     @Override
@@ -181,7 +194,8 @@ public final class RegionHandler implements Router {
                     || "CNRELWin".equals(versionCode)
                     || "CNRELAnd".equals(versionCode)) {
                 // Use the CN region list.
-                QueryAllRegionsEvent event = new QueryAllRegionsEvent(regionListResponseCN);
+                QueryAllRegionsEvent event =
+                        new QueryAllRegionsEvent(buildRegionListResponse(ctx, true));
                 event.call();
 
                 // Respond with the event result.
@@ -190,7 +204,8 @@ public final class RegionHandler implements Router {
                     || "OSRELWin".equals(versionCode)
                     || "OSRELAnd".equals(versionCode)) {
                 // Use the OS region list.
-                QueryAllRegionsEvent event = new QueryAllRegionsEvent(regionListResponse);
+                QueryAllRegionsEvent event =
+                        new QueryAllRegionsEvent(buildRegionListResponse(ctx, false));
                 event.call();
 
                 // Respond with the event result.
@@ -204,7 +219,8 @@ public final class RegionHandler implements Router {
                  * return;
                  */
                 // Use the default region list.
-                QueryAllRegionsEvent event = new QueryAllRegionsEvent(regionListResponse);
+                QueryAllRegionsEvent event =
+                        new QueryAllRegionsEvent(buildRegionListResponse(ctx, false));
                 event.call();
 
                 // Respond with the event result.
@@ -212,7 +228,8 @@ public final class RegionHandler implements Router {
             }
         } else {
             // Use the default region list.
-            QueryAllRegionsEvent event = new QueryAllRegionsEvent(regionListResponse);
+            QueryAllRegionsEvent event =
+                    new QueryAllRegionsEvent(buildRegionListResponse(ctx, false));
             event.call();
 
             // Respond with the event result.
@@ -247,7 +264,21 @@ public final class RegionHandler implements Router {
             // Get region data.
             String regionData = "CAESGE5vdCBGb3VuZCB2ZXJzaW9uIGNvbmZpZw==";
             if (!ctx.queryParamMap().values().isEmpty()) {
-                if (region != null) regionData = region.getBase64();
+                if (region != null) {
+                    // Rebuild the region query with the effective game-server address so that
+                    // clients on localhost / LAN / public IP / domain all get a reachable server.
+                    var effectiveQuery =
+                            region.getRegionQuery().toBuilder()
+                                    .setRegionInfo(
+                                            RegionInfo.newBuilder()
+                                                    .setGateserverIp(getEffectiveGameAddress(ctx))
+                                                    .setGateserverPort(
+                                                            region.getRegionQuery()
+                                                                    .getRegionInfo()
+                                                                    .getGateserverPort()))
+                                    .build();
+                    regionData = Utils.base64Encode(effectiveQuery.toByteString().toByteArray());
+                }
             }
 
             var clientVersion = versionName.replaceAll(Pattern.compile("[a-zA-Z]").pattern(), "");

@@ -59,6 +59,8 @@ public class World implements Iterable<Player> {
 
     private long lastUpdateTime;
     @Getter protected int tickCount = 0;
+    private long lastTimeSync = 0;
+    private long lastTimeStore = 0;
     @Getter private boolean isPaused = false;
     @Getter private long currentWorldTime;
 
@@ -579,13 +581,19 @@ public class World implements Iterable<Player> {
                             }
                         });
 
+        // These are wall-clock cadences, not tick counts: the tick rate is configurable, so
+        // counting ticks would sync the clock 5x too often at 200ms and not at all at 5000ms.
+        var now = System.currentTimeMillis();
+
         // sync time every 10 seconds
-        if (this.tickCount % 10 == 0) {
+        if (now - this.lastTimeSync >= 10_000L) {
+            this.lastTimeSync = now;
             this.getPlayers().forEach(p -> p.sendPacket(new PacketPlayerGameTimeNotify(p)));
         }
 
         // store updated world time every 60 seconds. (in-game hour)
-        if (this.tickCount % 60 == 0 && !this.timeLocked) {
+        if (now - this.lastTimeStore >= 60_000L && !this.timeLocked) {
+            this.lastTimeStore = now;
             this.getHost().updatePlayerGameTime(this.currentWorldTime);
         }
 

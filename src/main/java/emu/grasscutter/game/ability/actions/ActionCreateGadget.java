@@ -23,16 +23,34 @@ public class ActionCreateGadget extends AbilityActionHandler {
             return false;
         }
 
+        // The payload only carries a position when the action came from a real create-gadget
+        // invocation. Reached from a modifier being added it carries something else entirely, and
+        // taking its absent pos would strand the summon at the world origin - so fall back to
+        // whoever is summoning it.
+        var pos =
+                createGadget.hasPos() ? new Position(createGadget.getPos()) : entity.getPosition().clone();
+        var rot =
+                createGadget.hasRot() ? new Position(createGadget.getRot()) : entity.getRotation().clone();
+
         var entityCreated =
                 new EntityGadget(
                         entity.getScene(),
                         action.gadgetID,
-                        new Position(createGadget.getPos()),
-                        new Position(createGadget.getRot()),
+                        pos,
+                        rot,
                         action.campID,
                         CampTargetType.getTypeByName(action.campTargetType).getValue());
-        if (action.ownerIsTarget) entityCreated.setOwner(target);
-        else entityCreated.setOwner(entity);
+        var owner = action.ownerIsTarget ? target : entity;
+        entityCreated.setOwner(owner);
+
+        // Nothing on this side runs the summon's own KillSelf, so without this every charged attack
+        // would leave another copy standing in the scene. One summon of a given kind per owner.
+        entity.getScene().getEntities().values().stream()
+                .filter(e -> e instanceof EntityGadget g
+                        && g.getGadgetId() == action.gadgetID
+                        && g.getOwner() == owner)
+                .toList()
+                .forEach(stale -> entity.getScene().removeEntity(stale));
 
         entity.getScene().addEntity(entityCreated);
 

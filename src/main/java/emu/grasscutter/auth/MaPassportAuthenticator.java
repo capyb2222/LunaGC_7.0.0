@@ -1,5 +1,6 @@
 package emu.grasscutter.auth;
 
+import at.favre.lib.crypto.bcrypt.BCrypt;
 import emu.grasscutter.Grasscutter;
 import emu.grasscutter.database.DatabaseHelper;
 import emu.grasscutter.game.Account;
@@ -9,6 +10,10 @@ import emu.grasscutter.utils.RSADecryptionUtil;
 import java.util.ArrayList;
 
 public class MaPassportAuthenticator {
+        private static String hashPassword(String password) {
+        return BCrypt.withDefaults().hashToString(10, password.toCharArray());
+    }
+
         public static LoginByPasswordResponseJson appLoginByPassword(LoginByPasswordRequestJson request) {
         Grasscutter.getLogger().debug("ma-passport login req detected");
         
@@ -43,9 +48,23 @@ public class MaPassportAuthenticator {
             
             Account account = DatabaseHelper.getAccountByName(username);
             
+            if (account == null && emu.grasscutter.config.Configuration.ACCOUNT.autoCreate) {
+                account = DatabaseHelper.createAccountWithUid(username, 0);
+                Grasscutter.getLogger().info("Auto-created account for: " + username);
+            }
+            
             if (account == null) {
                 Grasscutter.getLogger().info("Account not found: " + username);
                 return createLoginErrorResponse(-101, "Account or password error");
+            }
+            
+            // Lock the entered password as the account password on first login
+            // (covers both newly auto-created accounts and old accounts with an empty password).
+            if ((account.getPassword() == null || account.getPassword().isEmpty())
+                    && password != null && !password.isEmpty()) {
+                account.setPassword(hashPassword(password));
+                account.save();
+                Grasscutter.getLogger().info("Password locked for account: " + username);
             }
             
             if (!account.verifyPassword(password)) {
@@ -55,12 +74,10 @@ public class MaPassportAuthenticator {
             
             
             Grasscutter.getLogger().debug("Generating session key");
-            String sessionKey = account.getSessionKey();
-            if (sessionKey == null || !sessionKey.startsWith("v2_")) {
-                sessionKey = account.generateV2SessionKey();
-            } else {
-                Grasscutter.getLogger().debug("Using existing key");
-            }
+            // Always generate a FRESH session key so the client never sees a reused/stale token.
+            String sessionKey = account.generateV2SessionKey();
+            // Persist the session key SYNCHRONOUSLY before the client uses it.
+            emu.grasscutter.database.DatabaseManager.getGameDatastore().save(account);
             
             Grasscutter.getLogger().info("User " + username + " has successfully logged in");
             return createLoginSuccessResponse(account);
@@ -84,11 +101,19 @@ public class MaPassportAuthenticator {
                 return createTokenErrorResponse(-101, "For account safety, please log in again");
             }
             
-            // Check if the session key matches the provided stoken
+            // Check if the session key matches the provided stoken.
+            // Lenient mode for private servers: if the stored key differs (e.g. the client
+            // cached a token from another server), adopt the client's stoken so the session
+            // resume succeeds instead of failing with a "session key error".
             String accountSessionKey = account.getSessionKey();
             if (accountSessionKey == null || !accountSessionKey.equals(request.stoken)) {
-                Grasscutter.getLogger().info("Invalid session token for account: " + account.getUsername());
-                return createTokenErrorResponse(-101, "For account safety, please log in again");
+                Grasscutter.getLogger().info(
+                        "Adopting stoken for account: " + account.getUsername()
+                                + " (old=" + (accountSessionKey == null ? "null" : accountSessionKey.substring(0, Math.min(12, accountSessionKey.length())))
+                                + " new=" + (request.stoken == null ? "null" : request.stoken.substring(0, Math.min(12, request.stoken.length())))
+                                + ")");
+                account.setSessionKey(request.stoken);
+                account.save();
             }
             
             Grasscutter.getLogger().debug("Ma-Passport token verification successful for: " + account.getUsername());
@@ -128,7 +153,9 @@ public class MaPassportAuthenticator {
         response.data.user_info.links = new ArrayList<>();
         response.data.user_info.country = "US";
         response.data.user_info.password_time = "1762297200";
-        response.data.user_info.is_adult = 0;
+        response.data.user_info.is_adult = 1;
+        response.data.user_info.is_email_verify = 1;
+        response.data.user_info.password_time = "1762297200";
         response.data.user_info.unmasked_email = "";
         response.data.user_info.unmasked_email_type = 0;
         
@@ -174,7 +201,8 @@ public class MaPassportAuthenticator {
         response.data.user_info.links = new ArrayList<>();
         response.data.user_info.country = "US";
         response.data.user_info.password_time = "1762297200";
-        response.data.user_info.is_adult = 0;
+        response.data.user_info.is_adult = 1;
+        response.data.user_info.is_email_verify = 1;
         response.data.user_info.unmasked_email = "";
         response.data.user_info.unmasked_email_type = 0;
         

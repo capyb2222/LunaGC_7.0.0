@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "BuyGoodsRspOuterClass";
+
+import "ShopGoods.proto";
+
+message BuyGoodsRsp {
+	int32 retcode = 5;
+	ShopGoods goods = 8;
+	uint32 buy_count = 9;
+	uint32 shop_type = 13;
+	repeated ShopGoods goods_list = 14;
+}

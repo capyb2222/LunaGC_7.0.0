@@ -37,10 +37,10 @@ public final class CompoundQueueDataOuterClass {
     int getCompoundId();
 
     /**
-     * <code>uint32 waitcount = 15;</code>
-     * @return The waitcount.
+     * <code>uint32 waitCount = 15;</code>
+     * @return The waitCount.
      */
-    int getWaitcount();
+    int getWaitCount();
   }
   /**
    * Protobuf type {@code CompoundQueueData}
@@ -104,7 +104,7 @@ public final class CompoundQueueDataOuterClass {
             }
             case 120: {
 
-              waitcount_ = input.readUInt32();
+              waitCount_ = input.readUInt32();
               break;
             }
             default: {
@@ -173,14 +173,14 @@ public final class CompoundQueueDataOuterClass {
     }
 
     public static final int WAITCOUNT_FIELD_NUMBER = 15;
-    private int waitcount_;
+    private int waitCount_;
     /**
-     * <code>uint32 waitcount = 15;</code>
-     * @return The waitcount.
+     * <code>uint32 waitCount = 15;</code>
+     * @return The waitCount.
      */
     @java.lang.Override
-    public int getWaitcount() {
-      return waitcount_;
+    public int getWaitCount() {
+      return waitCount_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -206,8 +206,8 @@ public final class CompoundQueueDataOuterClass {
       if (compoundId_ != 0) {
         output.writeUInt32(13, compoundId_);
       }
-      if (waitcount_ != 0) {
-        output.writeUInt32(15, waitcount_);
+      if (waitCount_ != 0) {
+        output.writeUInt32(15, waitCount_);
       }
       unknownFields.writeTo(output);
     }
@@ -230,9 +230,9 @@ public final class CompoundQueueDataOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(13, compoundId_);
       }
-      if (waitcount_ != 0) {
+      if (waitCount_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, waitcount_);
+          .computeUInt32Size(15, waitCount_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -255,8 +255,8 @@ public final class CompoundQueueDataOuterClass {
           != other.getLINALGNMBCF()) return false;
       if (getCompoundId()
           != other.getCompoundId()) return false;
-      if (getWaitcount()
-          != other.getWaitcount()) return false;
+      if (getWaitCount()
+          != other.getWaitCount()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -275,7 +275,7 @@ public final class CompoundQueueDataOuterClass {
       hash = (37 * hash) + COMPOUND_ID_FIELD_NUMBER;
       hash = (53 * hash) + getCompoundId();
       hash = (37 * hash) + WAITCOUNT_FIELD_NUMBER;
-      hash = (53 * hash) + getWaitcount();
+      hash = (53 * hash) + getWaitCount();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -415,7 +415,7 @@ public final class CompoundQueueDataOuterClass {
 
         compoundId_ = 0;
 
-        waitcount_ = 0;
+        waitCount_ = 0;
 
         return this;
       }
@@ -446,7 +446,7 @@ public final class CompoundQueueDataOuterClass {
         result.eCICJPBDGOC_ = eCICJPBDGOC_;
         result.lINALGNMBCF_ = lINALGNMBCF_;
         result.compoundId_ = compoundId_;
-        result.waitcount_ = waitcount_;
+        result.waitCount_ = waitCount_;
         onBuilt();
         return result;
       }
@@ -504,8 +504,8 @@ public final class CompoundQueueDataOuterClass {
         if (other.getCompoundId() != 0) {
           setCompoundId(other.getCompoundId());
         }
-        if (other.getWaitcount() != 0) {
-          setWaitcount(other.getWaitcount());
+        if (other.getWaitCount() != 0) {
+          setWaitCount(other.getWaitCount());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -629,33 +629,33 @@ public final class CompoundQueueDataOuterClass {
         return this;
       }
 
-      private int waitcount_ ;
+      private int waitCount_ ;
       /**
-       * <code>uint32 waitcount = 15;</code>
-       * @return The waitcount.
+       * <code>uint32 waitCount = 15;</code>
+       * @return The waitCount.
        */
       @java.lang.Override
-      public int getWaitcount() {
-        return waitcount_;
+      public int getWaitCount() {
+        return waitCount_;
       }
       /**
-       * <code>uint32 waitcount = 15;</code>
-       * @param value The waitcount to set.
+       * <code>uint32 waitCount = 15;</code>
+       * @param value The waitCount to set.
        * @return This builder for chaining.
        */
-      public Builder setWaitcount(int value) {
+      public Builder setWaitCount(int value) {
         
-        waitcount_ = value;
+        waitCount_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 waitcount = 15;</code>
+       * <code>uint32 waitCount = 15;</code>
        * @return This builder for chaining.
        */
-      public Builder clearWaitcount() {
+      public Builder clearWaitCount() {
         
-        waitcount_ = 0;
+        waitCount_ = 0;
         onChanged();
         return this;
       }
@@ -728,7 +728,7 @@ public final class CompoundQueueDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027CompoundQueueData.proto\"e\n\021CompoundQue" +
       "ueData\022\023\n\013ECICJPBDGOC\030\001 \001(\r\022\023\n\013LINALGNMB" +
-      "CF\030\007 \001(\r\022\023\n\013compound_id\030\r \001(\r\022\021\n\twaitcou" +
+      "CF\030\007 \001(\r\022\023\n\013compound_id\030\r \001(\r\022\021\n\twaitCou" +
       "nt\030\017 \001(\rB8\n\031emu.grasscutter.net.protoB\033C" +
       "ompoundQueueDataOuterClassb\006proto3"
     };
@@ -741,7 +741,7 @@ public final class CompoundQueueDataOuterClass {
     internal_static_CompoundQueueData_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_CompoundQueueData_descriptor,
-        new java.lang.String[] { "ECICJPBDGOC", "LINALGNMBCF", "CompoundId", "Waitcount", });
+        new java.lang.String[] { "ECICJPBDGOC", "LINALGNMBCF", "CompoundId", "WaitCount", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

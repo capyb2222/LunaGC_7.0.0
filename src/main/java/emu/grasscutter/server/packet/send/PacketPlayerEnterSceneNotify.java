@@ -22,6 +22,8 @@ public class PacketPlayerEnterSceneNotify extends BasePacket {
 
         var proto =
                 PlayerEnterSceneNotify.newBuilder()
+                        .setLimitedRegionInfo(
+                                emu.grasscutter.game.world.WorldRegions.unrestricted())
                         .setSceneId((player.getSceneId() - 49379) ^ 11523)
                         .setPos(player.getPosition().toProto())
                         .setSceneBeginTime((currentTime ^ 27843L) + 16749L)
@@ -79,6 +81,8 @@ public class PacketPlayerEnterSceneNotify extends BasePacket {
 
         var proto =
                 PlayerEnterSceneNotify.newBuilder()
+                        .setLimitedRegionInfo(
+                                emu.grasscutter.game.world.WorldRegions.unrestricted())
 
                         .setSceneId((teleportProperties.getSceneId() - 49379) ^ 11523)
                         .setPos(teleportProperties.getTeleportTo().toProto())
@@ -115,6 +119,8 @@ public class PacketPlayerEnterSceneNotify extends BasePacket {
 
         var proto =
                 PlayerEnterSceneNotify.newBuilder()
+                        .setLimitedRegionInfo(
+                                emu.grasscutter.game.world.WorldRegions.unrestricted())
 
                         .setSceneId((teleportProperties.getSceneId() - 49379) ^ 11523)
                         .setPos(teleportProperties.getTeleportTo().toProto())

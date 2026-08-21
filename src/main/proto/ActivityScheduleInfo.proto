@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ActivityScheduleInfoOuterClass";
+
+message ActivityScheduleInfo {
+	uint32 begin_time = 2;
+	bool is_open = 5;
+	uint32 activity_id = 6;
+	uint32 schedule_id = 10;
+	uint32 end_time = 12;
+}

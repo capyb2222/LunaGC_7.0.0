@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DestroyMaterialReqOuterClass";
+
+import "MaterialInfo.proto";
+
+message DestroyMaterialReq {
+	repeated MaterialInfo material_list = 11;
+}

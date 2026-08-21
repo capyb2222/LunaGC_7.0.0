@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ChapterStateNotifyOuterClass";
+
+import "ChapterState.proto";
+
+message ChapterStateNotify {
+	message MDKJMILIFBA {
+		uint32 ACHHOKJICHO = 9;
+		bool LAJGHCIGKIN = 10;
+	}
+	message EFFIIMIDMPP {
+		bool LAJGHCIGKIN = 3;
+		uint32 AGMLNDOMFNC = 14;
+	}
+	EFFIIMIDMPP EHKKFCAGELK = 4;
+	uint32 chapter_id = 6;
+	ChapterState chapter_state = 10;
+	MDKJMILIFBA MLBMNAKEEOM = 11;
+}

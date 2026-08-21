@@ -340,7 +340,7 @@ public abstract class GameEntity {
     }
 
     public void damage(float amount, int killerId, ElementType attackType) {
-        this.damage(amount, 0, attackType, PropChangeReason.PropChangeReason_PROP_CHANGE_NONE, ChangeHpReason.ChangeHpReason_CHANGE_HP_NONE);
+        this.damage(amount, killerId, attackType, PropChangeReason.PropChangeReason_PROP_CHANGE_NONE, ChangeHpReason.ChangeHpReason_CHANGE_HP_NONE);
     }
 
     public void damage(float amount, PropChangeReason propChangeReason, ChangeHpReason changeHpReason) {
@@ -351,17 +351,6 @@ public abstract class GameEntity {
 
         if (this.getFightProperties() == null || !hasFightProperty(FightProperty.FIGHT_PROP_CUR_HP)) {
             return;
-        }
-
-        if (this instanceof EntityAvatar) {
-            float curHpBefore = getFightProperty(FightProperty.FIGHT_PROP_CUR_HP);
-            var st = Thread.currentThread().getStackTrace();
-            Grasscutter.getLogger().info("[DMG] EntityAvatar id={} amount={} curHP={} | {}  {}  {}  {}",
-                this.getId(), amount, curHpBefore,
-                st.length > 2 ? st[2] : "-",
-                st.length > 3 ? st[3] : "-",
-                st.length > 4 ? st[4] : "-",
-                st.length > 5 ? st[5] : "-");
         }
 
         EntityDamageEvent event =

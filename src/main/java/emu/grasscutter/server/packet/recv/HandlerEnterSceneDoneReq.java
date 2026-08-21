@@ -55,6 +55,15 @@ public class HandlerEnterSceneDoneReq extends PacketHandler {
                 .trace("Loaded Scene {} Quest(s) Groupsuite(s): {}", player.getSceneId(), questGroupSuites);
         session.send(new PacketGroupSuiteNotify(questGroupSuites));
 
+        // Commission monsters live in dynamic groups exactly like the quest ones above, and nothing
+        // else brings them in: generation only loads them when the player already happens to be
+        // standing in Teyvat with a live scene, which is never true at login. Without this the
+        // commission is issued and tracked but its monsters never spawn.
+        var dailyTaskManager = player.getDailyTaskManager();
+        if (dailyTaskManager != null) {
+            dailyTaskManager.loadActiveGroups(player.getScene());
+        }
+
         // Reset timer for sending player locations
         player.resetSendPlayerLocTime();
 

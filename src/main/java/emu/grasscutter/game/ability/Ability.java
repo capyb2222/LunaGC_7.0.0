@@ -161,6 +161,7 @@ public class Ability {
     }
 
     public static String getAbilityName(AbilityString abString) {
+        if (abString == null) return null;
         if (abString.hasStr()) return abString.getStr();
         if (abString.hasHash()) return GameData.getAbilityHashes().get(abString.getHash());
 

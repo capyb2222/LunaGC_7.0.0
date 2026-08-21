@@ -8,6 +8,7 @@ import emu.grasscutter.data.excels.quest.QuestData;
 import emu.grasscutter.game.dungeons.enums.DungeonPassConditionType;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.game.props.ActionReason;
+import emu.grasscutter.game.props.WatcherTriggerType;
 import emu.grasscutter.game.quest.enums.*;
 import emu.grasscutter.net.proto.ChapterStateOuterClass;
 import emu.grasscutter.net.proto.QuestOuterClass.Quest;
@@ -243,6 +244,10 @@ public class GameQuest {
                 .getQuestManager()
                 .queueEvent(QuestContent.QUEST_CONTENT_FINISH_PLOT, this.subQuestId, 0);
         this.triggerStateEvents();
+        this.getOwner()
+                .getActivityManager()
+                .triggerWatcher(
+                        WatcherTriggerType.TRIGGER_FINISH_QUEST_AND, String.valueOf(this.subQuestId));
         this.getOwner()
                 .getScene()
                 .triggerDungeonEvent(DungeonPassConditionType.DUNGEON_COND_FINISH_QUEST, getSubQuestId());

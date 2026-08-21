@@ -22,7 +22,12 @@ public class PacketPlayerWorldSceneInfoListNotify extends BasePacket {
 
         // Iterate over all scenes
         for (int scene : GameData.getSceneDataMap().keySet()) {
-            var worldInfoBuilder = PlayerWorldSceneInfo.newBuilder().setSceneId(scene).setIsLocked(false);
+            var worldInfoBuilder =
+                    PlayerWorldSceneInfo.newBuilder()
+                            .setSceneId(scene)
+                            .setIsLocked(false)
+                            .setLimitedRegionInfo(
+                                    emu.grasscutter.game.world.WorldRegions.unrestricted());
 
             /** Add scene-specific data */
 
@@ -59,10 +64,7 @@ public class PacketPlayerWorldSceneInfoListNotify extends BasePacket {
         // The ids are the small parent-area numbers (WorldAreaConfigData.areaID1, 1..1000), the same
         // space scene points use. NOT WorldAreaData.getId(), which is a Grasscutter-internal
         // composite of (areaID2 << 16) + areaID1 and runs past 2^32, so it cannot be a wire value.
-        var areaIds = new java.util.TreeSet<Integer>();
-        GameData.getWorldAreaDataMap().values().forEach(area -> areaIds.add(area.getParentArea()));
-        areaIds.remove(0);
-        proto.addAllUnlockedAreaIdList(areaIds);
+        proto.addAllUnlockedAreaIdList(emu.grasscutter.game.world.WorldRegions.allAreaIds());
 
         this.setData(proto);
     }

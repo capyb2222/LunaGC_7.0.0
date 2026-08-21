@@ -42,7 +42,7 @@ public class HandlerPostEnterSceneReq extends PacketHandler {
     /** Fired here rather than at login: a cutscene sent before the scene is up is discarded. */
     private void playOpeningCutscene(emu.grasscutter.game.player.Player player) {
         int cutscene = GAME_OPTIONS.firstLoginCutscene;
-        if (cutscene <= 0 || player.isPlayedFirstLoginCutscene()) return;
+        if (GAME_OPTIONS.disableCutscenes || cutscene <= 0 || player.isPlayedFirstLoginCutscene()) return;
 
         player.setPlayedFirstLoginCutscene(true);
         player.save();

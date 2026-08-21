@@ -359,6 +359,11 @@ public final class GameServer extends KcpServer implements Iterable<Player> {
             this.dispatchClient.connect();
         }
 
+        // Settle which Spiral Abyss rotation is live now that the resources are in. Doing it here
+        // rather than on the first abyss screen means a resource set that cannot build any rotation
+        // says so at boot, not to whoever opens the abyss first.
+        this.announceTowerRotation();
+
         // Schedule game loop.
         Timer gameLoop = new Timer();
         gameLoop.scheduleAtFixedRate(
@@ -375,12 +380,29 @@ public final class GameServer extends KcpServer implements Iterable<Player> {
                     }
                 },
                 new Date(),
-                1000L);
+                Math.max(1, GAME_INFO.tickRateMs));
         Grasscutter.getLogger().info(translate("messages.status.free_software"));
         Grasscutter.getLogger()
                 .info(translate("messages.game.address_bind", GAME_INFO.accessAddress, address.getPort()));
         ServerStartEvent event = new ServerStartEvent(ServerEvent.Type.GAME, OffsetDateTime.now());
         event.call();
+    }
+
+    private void announceTowerRotation() {
+        try {
+            var schedule = this.towerSystem.getCurrentTowerScheduleData();
+            if (schedule == null) return;
+
+            var floors = this.towerSystem.getScheduleFloors();
+            Grasscutter.getLogger()
+                    .info(
+                            "Spiral Abyss: rotation {} is live, floors 9-12 are {}, next change {}.",
+                            schedule.getScheduleId(),
+                            floors,
+                            this.towerSystem.getNextScheduleChangeTime());
+        } catch (Throwable e) {
+            Grasscutter.getLogger().error("Could not settle the Spiral Abyss rotation.", e);
+        }
     }
 
     public void onServerShutdown() {

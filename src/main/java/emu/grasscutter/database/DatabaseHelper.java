@@ -2,6 +2,8 @@ package emu.grasscutter.database;
 
 import static com.mongodb.client.model.Filters.eq;
 
+import com.mongodb.MongoWriteException;
+
 import dev.morphia.query.*;
 import dev.morphia.query.experimental.filters.Filters;
 import emu.grasscutter.*;
@@ -21,6 +23,7 @@ import emu.grasscutter.game.quest.GameMainQuest;
 import emu.grasscutter.game.world.SceneGroupInstance;
 import emu.grasscutter.utils.objects.Returnable;
 import io.netty.util.concurrent.FastThreadLocalThread;
+import java.util.ConcurrentModificationException;
 import java.util.List;
 import java.util.concurrent.*;
 import java.util.stream.Stream;
@@ -54,7 +57,53 @@ public final class DatabaseHelper {
      * @param object The object to save.
      */
     public static void saveGameAsync(Object object) {
-        DatabaseHelper.eventExecutor.submit(() -> DatabaseManager.getGameDatastore().save(object));
+        DatabaseHelper.eventExecutor.submit(() -> saveWithRetry(object));
+    }
+
+    /**
+     * Saves on the executor, retrying the two failures that are races rather than real errors.
+     *
+     * <p>An unguarded save swallows both: a duplicate key means something else inserted the entity
+     * first, and a ConcurrentModificationException means a player collection was being mutated on
+     * another thread while Morphia walked it - typically during login. Both used to lose the write
+     * silently, so progress simply disappeared.
+     */
+    private static void saveWithRetry(Object object) {
+        var name = object.getClass().getSimpleName();
+        try {
+            DatabaseManager.getGameDatastore().save(object);
+        } catch (MongoWriteException e) {
+            if (e.getError() == null || e.getError().getCode() != 11000) {
+                Grasscutter.getLogger().error("Failed to save {}.", name, e);
+                return;
+            }
+            // The id is reflected back onto the object by the failed insert, so the retry
+            // becomes a replace.
+            try {
+                DatabaseManager.getGameDatastore().save(object);
+            } catch (Throwable t) {
+                Grasscutter.getLogger().error("Failed to save {} after a duplicate key.", name, t);
+            }
+        } catch (ConcurrentModificationException e) {
+            for (var attempt = 0; attempt < 8; attempt++) {
+                try {
+                    Thread.sleep(100);
+                    DatabaseManager.getGameDatastore().save(object);
+                    return;
+                } catch (ConcurrentModificationException ignored) {
+                    // The other thread has not settled yet.
+                } catch (InterruptedException interrupted) {
+                    Thread.currentThread().interrupt();
+                    return;
+                } catch (Throwable t) {
+                    Grasscutter.getLogger().error("Failed to save {}.", name, t);
+                    return;
+                }
+            }
+            Grasscutter.getLogger().error("Failed to save {} - it kept being modified.", name, e);
+        } catch (Throwable t) {
+            Grasscutter.getLogger().error("Failed to save {}.", name, t);
+        }
     }
 
     /**

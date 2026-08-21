@@ -103,3 +103,6 @@ YuanShenResources/
 # them into src/main/proto, and dev-only launch scripts. Keeping it to one
 # ignored directory means `git add -A` cannot pick any of it up by accident.
 /local/
+
+/LunaGC/
+/LunaGC-Resources/

@@ -172,6 +172,9 @@ public final class AuthenticationHandler implements Router {
         // ma-passport
         javalin.post("/hk4e_cn/account/ma-passport/api/appLoginByPassword", AuthenticationHandler::maPassportLogin);
         javalin.post("/hk4e_cn/account/ma-passport/token/verifySToken", AuthenticationHandler::maPassportVerify);
+        // ma-cn-passport (passport-api.mihoyo.com/account/ma-cn-passport/...) - 国服 SDK 实际请求路径
+        javalin.post("/account/ma-cn-passport/app/loginByPassword", AuthenticationHandler::maPassportLogin);
+        javalin.post("/account/ma-cn-passport/token/verifySToken", AuthenticationHandler::maPassportVerify);
 
         // External login (from other clients).
         javalin.get(

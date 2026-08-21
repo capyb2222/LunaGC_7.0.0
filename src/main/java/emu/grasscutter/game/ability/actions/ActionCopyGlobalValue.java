@@ -21,6 +21,13 @@ public final class ActionCopyGlobalValue extends AbilityActionHandler {
             return false;
         }
 
+        // An action can name neither key - Skirk's pickable handler does - and the map these go
+        // into rejects a null key outright.
+        if (action.srcKey == null || action.dstKey == null) {
+            Grasscutter.getLogger().debug("ActionCopyGlobalValue: source or destination key is null");
+            return false;
+        }
+
         // Get the global value.
         var value = source.getGlobalAbilityValues().get(action.srcKey);
         if (value == null) {
@@ -33,10 +40,11 @@ public final class ActionCopyGlobalValue extends AbilityActionHandler {
         destination.onAbilityValueUpdate();
 
         // Send a value update packet.
-        entity
-                .getScene()
-                .getHost()
-                .sendPacket(new PacketServerGlobalValueChangeNotify(entity, action.dstKey, value));
+        var scene = entity.getScene();
+        var host = scene == null ? null : scene.getHost();
+        if (host != null) {
+            host.sendPacket(new PacketServerGlobalValueChangeNotify(entity, action.dstKey, value));
+        }
 
         return true;
     }

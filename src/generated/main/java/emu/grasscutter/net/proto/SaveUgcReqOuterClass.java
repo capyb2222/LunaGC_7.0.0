@@ -105,15 +105,15 @@ public final class SaveUgcReqOuterClass {
     emu.grasscutter.net.proto.UgcTypeOuterClass.UgcType getUgcType();
 
     /**
-     * <code>.KLALGJNDAFD ugctype_x = 10;</code>
-     * @return The enum numeric value on the wire for ugctypeX.
+     * <code>.KLALGJNDAFD ugcType_x = 10;</code>
+     * @return The enum numeric value on the wire for ugcTypeX.
      */
-    int getUgctypeXValue();
+    int getUgcTypeXValue();
     /**
-     * <code>.KLALGJNDAFD ugctype_x = 10;</code>
-     * @return The ugctypeX.
+     * <code>.KLALGJNDAFD ugcType_x = 10;</code>
+     * @return The ugcTypeX.
      */
-    emu.grasscutter.net.proto.KLALGJNDAFDOuterClass.KLALGJNDAFD getUgctypeX();
+    emu.grasscutter.net.proto.KLALGJNDAFDOuterClass.KLALGJNDAFD getUgcTypeX();
 
     /**
      * <code>uint32 schedule_id = 11;</code>
@@ -139,7 +139,7 @@ public final class SaveUgcReqOuterClass {
     }
     private SaveUgcReq() {
       ugcType_ = 0;
-      ugctypeX_ = 0;
+      ugcTypeX_ = 0;
     }
 
     @java.lang.Override
@@ -195,7 +195,7 @@ public final class SaveUgcReqOuterClass {
             case 80: {
               int rawValue = input.readEnum();
 
-              ugctypeX_ = rawValue;
+              ugcTypeX_ = rawValue;
               break;
             }
             case 88: {
@@ -550,21 +550,21 @@ public final class SaveUgcReqOuterClass {
     }
 
     public static final int UGCTYPE_X_FIELD_NUMBER = 10;
-    private int ugctypeX_;
+    private int ugcTypeX_;
     /**
-     * <code>.KLALGJNDAFD ugctype_x = 10;</code>
-     * @return The enum numeric value on the wire for ugctypeX.
+     * <code>.KLALGJNDAFD ugcType_x = 10;</code>
+     * @return The enum numeric value on the wire for ugcTypeX.
      */
-    @java.lang.Override public int getUgctypeXValue() {
-      return ugctypeX_;
+    @java.lang.Override public int getUgcTypeXValue() {
+      return ugcTypeX_;
     }
     /**
-     * <code>.KLALGJNDAFD ugctype_x = 10;</code>
-     * @return The ugctypeX.
+     * <code>.KLALGJNDAFD ugcType_x = 10;</code>
+     * @return The ugcTypeX.
      */
-    @java.lang.Override public emu.grasscutter.net.proto.KLALGJNDAFDOuterClass.KLALGJNDAFD getUgctypeX() {
+    @java.lang.Override public emu.grasscutter.net.proto.KLALGJNDAFDOuterClass.KLALGJNDAFD getUgcTypeX() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.KLALGJNDAFDOuterClass.KLALGJNDAFD result = emu.grasscutter.net.proto.KLALGJNDAFDOuterClass.KLALGJNDAFD.valueOf(ugctypeX_);
+      emu.grasscutter.net.proto.KLALGJNDAFDOuterClass.KLALGJNDAFD result = emu.grasscutter.net.proto.KLALGJNDAFDOuterClass.KLALGJNDAFD.valueOf(ugcTypeX_);
       return result == null ? emu.grasscutter.net.proto.KLALGJNDAFDOuterClass.KLALGJNDAFD.UNRECOGNIZED : result;
     }
 
@@ -599,8 +599,8 @@ public final class SaveUgcReqOuterClass {
       if (ugcType_ != emu.grasscutter.net.proto.UgcTypeOuterClass.UgcType.UgcType_NONE.getNumber()) {
         output.writeEnum(6, ugcType_);
       }
-      if (ugctypeX_ != emu.grasscutter.net.proto.KLALGJNDAFDOuterClass.KLALGJNDAFD.KLALGJNDAFD_NONE.getNumber()) {
-        output.writeEnum(10, ugctypeX_);
+      if (ugcTypeX_ != emu.grasscutter.net.proto.KLALGJNDAFDOuterClass.KLALGJNDAFD.KLALGJNDAFD_NONE.getNumber()) {
+        output.writeEnum(10, ugcTypeX_);
       }
       if (scheduleId_ != 0) {
         output.writeUInt32(11, scheduleId_);
@@ -634,9 +634,9 @@ public final class SaveUgcReqOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(6, ugcType_);
       }
-      if (ugctypeX_ != emu.grasscutter.net.proto.KLALGJNDAFDOuterClass.KLALGJNDAFD.KLALGJNDAFD_NONE.getNumber()) {
+      if (ugcTypeX_ != emu.grasscutter.net.proto.KLALGJNDAFDOuterClass.KLALGJNDAFD.KLALGJNDAFD_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(10, ugctypeX_);
+          .computeEnumSize(10, ugcTypeX_);
       }
       if (scheduleId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -674,7 +674,7 @@ public final class SaveUgcReqOuterClass {
       emu.grasscutter.net.proto.SaveUgcReqOuterClass.SaveUgcReq other = (emu.grasscutter.net.proto.SaveUgcReqOuterClass.SaveUgcReq) obj;
 
       if (ugcType_ != other.ugcType_) return false;
-      if (ugctypeX_ != other.ugctypeX_) return false;
+      if (ugcTypeX_ != other.ugcTypeX_) return false;
       if (getScheduleId()
           != other.getScheduleId()) return false;
       if (!getRecordCase().equals(other.getRecordCase())) return false;
@@ -721,7 +721,7 @@ public final class SaveUgcReqOuterClass {
       hash = (37 * hash) + UGC_TYPE_FIELD_NUMBER;
       hash = (53 * hash) + ugcType_;
       hash = (37 * hash) + UGCTYPE_X_FIELD_NUMBER;
-      hash = (53 * hash) + ugctypeX_;
+      hash = (53 * hash) + ugcTypeX_;
       hash = (37 * hash) + SCHEDULE_ID_FIELD_NUMBER;
       hash = (53 * hash) + getScheduleId();
       switch (recordCase_) {
@@ -887,7 +887,7 @@ public final class SaveUgcReqOuterClass {
         super.clear();
         ugcType_ = 0;
 
-        ugctypeX_ = 0;
+        ugcTypeX_ = 0;
 
         scheduleId_ = 0;
 
@@ -957,7 +957,7 @@ public final class SaveUgcReqOuterClass {
           }
         }
         result.ugcType_ = ugcType_;
-        result.ugctypeX_ = ugctypeX_;
+        result.ugcTypeX_ = ugcTypeX_;
         result.scheduleId_ = scheduleId_;
         result.recordCase_ = recordCase_;
         result.briefCase_ = briefCase_;
@@ -1012,8 +1012,8 @@ public final class SaveUgcReqOuterClass {
         if (other.ugcType_ != 0) {
           setUgcTypeValue(other.getUgcTypeValue());
         }
-        if (other.ugctypeX_ != 0) {
-          setUgctypeXValue(other.getUgctypeXValue());
+        if (other.ugcTypeX_ != 0) {
+          setUgcTypeXValue(other.getUgcTypeXValue());
         }
         if (other.getScheduleId() != 0) {
           setScheduleId(other.getScheduleId());
@@ -1866,56 +1866,56 @@ public final class SaveUgcReqOuterClass {
         return this;
       }
 
-      private int ugctypeX_ = 0;
+      private int ugcTypeX_ = 0;
       /**
-       * <code>.KLALGJNDAFD ugctype_x = 10;</code>
-       * @return The enum numeric value on the wire for ugctypeX.
+       * <code>.KLALGJNDAFD ugcType_x = 10;</code>
+       * @return The enum numeric value on the wire for ugcTypeX.
        */
-      @java.lang.Override public int getUgctypeXValue() {
-        return ugctypeX_;
+      @java.lang.Override public int getUgcTypeXValue() {
+        return ugcTypeX_;
       }
       /**
-       * <code>.KLALGJNDAFD ugctype_x = 10;</code>
-       * @param value The enum numeric value on the wire for ugctypeX to set.
+       * <code>.KLALGJNDAFD ugcType_x = 10;</code>
+       * @param value The enum numeric value on the wire for ugcTypeX to set.
        * @return This builder for chaining.
        */
-      public Builder setUgctypeXValue(int value) {
+      public Builder setUgcTypeXValue(int value) {
         
-        ugctypeX_ = value;
+        ugcTypeX_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>.KLALGJNDAFD ugctype_x = 10;</code>
-       * @return The ugctypeX.
+       * <code>.KLALGJNDAFD ugcType_x = 10;</code>
+       * @return The ugcTypeX.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.KLALGJNDAFDOuterClass.KLALGJNDAFD getUgctypeX() {
+      public emu.grasscutter.net.proto.KLALGJNDAFDOuterClass.KLALGJNDAFD getUgcTypeX() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.KLALGJNDAFDOuterClass.KLALGJNDAFD result = emu.grasscutter.net.proto.KLALGJNDAFDOuterClass.KLALGJNDAFD.valueOf(ugctypeX_);
+        emu.grasscutter.net.proto.KLALGJNDAFDOuterClass.KLALGJNDAFD result = emu.grasscutter.net.proto.KLALGJNDAFDOuterClass.KLALGJNDAFD.valueOf(ugcTypeX_);
         return result == null ? emu.grasscutter.net.proto.KLALGJNDAFDOuterClass.KLALGJNDAFD.UNRECOGNIZED : result;
       }
       /**
-       * <code>.KLALGJNDAFD ugctype_x = 10;</code>
-       * @param value The ugctypeX to set.
+       * <code>.KLALGJNDAFD ugcType_x = 10;</code>
+       * @param value The ugcTypeX to set.
        * @return This builder for chaining.
        */
-      public Builder setUgctypeX(emu.grasscutter.net.proto.KLALGJNDAFDOuterClass.KLALGJNDAFD value) {
+      public Builder setUgcTypeX(emu.grasscutter.net.proto.KLALGJNDAFDOuterClass.KLALGJNDAFD value) {
         if (value == null) {
           throw new NullPointerException();
         }
         
-        ugctypeX_ = value.getNumber();
+        ugcTypeX_ = value.getNumber();
         onChanged();
         return this;
       }
       /**
-       * <code>.KLALGJNDAFD ugctype_x = 10;</code>
+       * <code>.KLALGJNDAFD ugcType_x = 10;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUgctypeX() {
+      public Builder clearUgcTypeX() {
         
-        ugctypeX_ = 0;
+        ugcTypeX_ = 0;
         onChanged();
         return this;
       }
@@ -2029,7 +2029,7 @@ public final class SaveUgcReqOuterClass {
       "_info\030\220\004 \001(\0132\022.UgcMusicBriefInfoH\001\022:\n\026la" +
       "n_v5_card_brief_info\030\262\016 \001(\0132\027._UgcLanV5C" +
       "ardBriefInfoH\001\022\032\n\010ugc_type\030\006 \001(\0162\010.UgcTy" +
-      "pe\022\037\n\tugctype_x\030\n \001(\0162\014.KLALGJNDAFD\022\023\n\013s" +
+      "pe\022\037\n\tugcType_x\030\n \001(\0162\014.KLALGJNDAFD\022\023\n\013s" +
       "chedule_id\030\013 \001(\rB\010\n\006recordB\007\n\005briefB1\n\031e" +
       "mu.grasscutter.net.protoB\024SaveUgcReqOute" +
       "rClassb\006proto3"
@@ -2050,7 +2050,7 @@ public final class SaveUgcReqOuterClass {
     internal_static_SaveUgcReq_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_SaveUgcReq_descriptor,
-        new java.lang.String[] { "MusicRecord", "LanV5CardRecord", "ShortVideoRecord", "MusicBriefInfo", "LanV5CardBriefInfo", "UgcType", "UgctypeX", "ScheduleId", "Record", "Brief", });
+        new java.lang.String[] { "MusicRecord", "LanV5CardRecord", "ShortVideoRecord", "MusicBriefInfo", "LanV5CardBriefInfo", "UgcType", "UgcTypeX", "ScheduleId", "Record", "Brief", });
     emu.grasscutter.net.proto.KLALGJNDAFDOuterClass.getDescriptor();
     emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.UgcMusicRecordOuterClass.getDescriptor();

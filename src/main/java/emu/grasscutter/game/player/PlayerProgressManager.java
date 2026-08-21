@@ -37,6 +37,13 @@ public final class PlayerProgressManager extends BasePlayerDataManager {
                     // player at the start of the game.
                     // This should be removed when city reputation is implemented.
                     );
+
+    // Open states 7.0 added that sit behind OPEN_STATE_COND_QUEST and nothing else. With questing
+    // off nothing ever satisfies that condition, so the features stay locked for good rather than
+    // just unlocking late - the Nod-Krai and Natlan menu entries among them. Unlocked outright.
+    public static final Set<Integer> QUEST_GATED_7_0_OPEN_STATES =
+            Set.of(6701, 6702, 6706, 7011, 7014, 7015, 7016, 7021, 7025, 7055, 7056, 7059);
+
     // Set of open states that are set per default for all accounts. Can be overwritten by an entry in
     // `map`.
     public static final Set<Integer> DEFAULT_OPEN_STATES =
@@ -55,6 +62,7 @@ public final class PlayerProgressManager extends BasePlayerDataManager {
                                                                     c.getCondType() == OpenStateCondType.OPEN_STATE_OFFERING_LEVEL
                                                                             || c.getCondType()
                                                                                     == OpenStateCondType.OPEN_STATE_CITY_REPUTATION_LEVEL))
+                                            || QUEST_GATED_7_0_OPEN_STATES.contains(s.getId())
                                             // Always unlock OPEN_STATE_PAIMON, otherwise the player will not have a
                                             // working chat.
                                             || s.getId() == 1)

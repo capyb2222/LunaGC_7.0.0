@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "PlayerHomeCompInfoOuterClass";
+
+import "FriendEnterHomeOption.proto";
+
+message PlayerHomeCompInfo {
+	repeated uint32 unlocked_module_id_list = 1;
+	repeated uint32 seen_module_id_list = 3;
+	FriendEnterHomeOption friend_enter_home_option = 9;
+	repeated uint32 levelup_reward_got_level_list = 13;
+}

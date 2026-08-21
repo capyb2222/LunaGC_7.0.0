@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GetChatEmojiCollectionRspOuterClass";
+
+import "ChatEmojiCollectionData.proto";
+
+message GetChatEmojiCollectionRsp {
+	ChatEmojiCollectionData chat_emoji_collection_data = 11;
+	int32 retcode = 13;
+}

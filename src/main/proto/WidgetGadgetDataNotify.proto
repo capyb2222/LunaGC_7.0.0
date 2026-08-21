@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "WidgetGadgetDataNotifyOuterClass";
+
+import "WidgetGadgetData.proto";
+
+message WidgetGadgetDataNotify {
+	WidgetGadgetData widget_gadget_data = 10;
+}

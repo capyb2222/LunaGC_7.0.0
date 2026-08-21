@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "SetUpLunchBoxWidgetRspOuterClass";
+
+import "LunchBoxData.proto";
+
+message SetUpLunchBoxWidgetRsp {
+	LunchBoxData lunch_box_data = 3;
+	int32 retcode = 7;
+}

@@ -8,6 +8,9 @@ import emu.grasscutter.scripts.SceneIndexManager;
 import java.util.*;
 
 public class Grid {
+    /** Hard cap for loading scene entities around a player, in metres. */
+    private static final int MAX_ENTITY_LOAD_RANGE = 500;
+
     public transient RTree<Map.Entry<GridPosition, Set<Integer>>, Geometry> gridOptimized = null;
     private transient Set<Integer> nearbyGroups = new HashSet<>(100);
 
@@ -35,25 +38,36 @@ public class Grid {
 
         int width = Grasscutter.getConfig().server.game.visionOptions[vision_level].gridWidth;
         int vision_range = Grasscutter.getConfig().server.game.visionOptions[vision_level].visionRange;
-        int vision_range_grid = vision_range / width;
+
+        this.nearbyGroups.clear();
+
+        // When entity-error prevention is disabled, use the upstream behavior exactly:
+        // no 200m hard cap, load whatever the configured vision range says.
+        if (!Grasscutter.getConfig().server.game.gameOptions.isPreventEntityError) {
+            int vision_range_grid = vision_range / width;
+            GridPosition pos = new GridPosition(position, width);
+            SceneIndexManager.queryNeighbors(gridOptimized, pos.toDoubleArray(), vision_range_grid + 1)
+                    .forEach(e -> nearbyGroups.addAll(e.getValue()));
+            return this.nearbyGroups;
+        }
+
+        // Coarse grids with cells larger than the hard cap cannot guarantee that the
+        // entities they return are within 500m of the player. Skip them entirely so we
+        // never load distant REMOTE/SUPER groups.
+        if (width > MAX_ENTITY_LOAD_RANGE) {
+            return this.nearbyGroups;
+        }
+
+        // Query range is in grid cells. The R-tree rectangle is [pos-range, pos+range],
+        // so the worst-case world-space reach is (range + 1) * width. Cap it at 500m.
+        int maxRangeGrid = Math.max(0, MAX_ENTITY_LOAD_RANGE / width - 1);
+        int vision_range_grid = Math.min(vision_range, MAX_ENTITY_LOAD_RANGE) / width;
+        int queryRange = Math.min(vision_range_grid + 1, maxRangeGrid);
 
         GridPosition pos = new GridPosition(position, width);
 
-        this.nearbyGroups.clear();
-        // construct a nearby position list, add 1 more because a player can be in an edge case, this
-        // should not affect much the loading
-        // var nearbyGroups = new HashSet<Integer>();
-        // for (int x = 0; x < vision_range_grid + 1; x++) {
-        //     for (int z = 0; z < vision_range_grid + 1; z++) {
-        //         nearbyGroups.addAll(gridMap.getOrDefault(pos.addClone(x, z), new HashSet<>()));
-        //         nearbyGroups.addAll(gridMap.getOrDefault(pos.addClone(-x, z), new HashSet<>()));
-        //         nearbyGroups.addAll(gridMap.getOrDefault(pos.addClone(x, -z), new HashSet<>()));
-        //         nearbyGroups.addAll(gridMap.getOrDefault(pos.addClone(-x, -z), new HashSet<>()));
-        //     }
-        // }
-
         // Construct a list of nearby groups.
-        SceneIndexManager.queryNeighbors(gridOptimized, pos.toDoubleArray(), vision_range_grid + 1)
+        SceneIndexManager.queryNeighbors(gridOptimized, pos.toDoubleArray(), queryRange)
                 .forEach(e -> nearbyGroups.addAll(e.getValue()));
         return this.nearbyGroups;
     }

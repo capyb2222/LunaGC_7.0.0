@@ -240,6 +240,12 @@ public class Inventory extends BasePlayerManager implements Iterable<GameItem> {
                             result.getItemId(),
                             result.getCount());
             getPlayer()
+                    .getActivityManager()
+                    .triggerWatcher(
+                            WatcherTriggerType.TRIGGER_OBTAIN_MATERIAL_NUM,
+                            String.valueOf(result.getItemId()),
+                            String.valueOf(result.getCount()));
+            getPlayer()
                     .getQuestManager()
                     .queueEvent(
                             QuestContent.QUEST_CONTENT_OBTAIN_ITEM, result.getItemId(), result.getCount());

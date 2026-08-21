@@ -22,8 +22,15 @@ public final class ActionSetGlobalValue extends AbilityActionHandler {
                 target.getGlobalAbilityValues().put(valueKey, computedValue);
                 target.onAbilityValueUpdate();
 
+            // Team abilities run against a pseudo-entity that is in no scene, so this fired four
+            // NPEs on every single login before the guard.
             if (!AbilityManager.isServerOwnedChain()) {
-                target.getScene().getHost().sendPacket(new PacketServerGlobalValueChangeNotify(target, valueKey, computedValue));
+                var scene = target.getScene();
+                var host = scene == null ? null : scene.getHost();
+                if (host != null) {
+                    host.sendPacket(
+                            new PacketServerGlobalValueChangeNotify(target, valueKey, computedValue));
+                }
             }
         return true;
     }

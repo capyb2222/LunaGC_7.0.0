@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "WidgetSlotChangeNotifyOuterClass";
+
+import "WidgetSlotData.proto";
+import "WidgetSlotOp.proto";
+
+message WidgetSlotChangeNotify {
+	WidgetSlotOp op = 8;
+	WidgetSlotData slot = 14;
+}
