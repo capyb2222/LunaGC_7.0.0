@@ -29,70 +29,72 @@ public class GadgetChest extends GadgetContent {
         // If bigWorldScript enabled,use new drop system.
         if (Grasscutter.getConfig().server.game.enableScriptInBigWorld) {
             SceneGadget chest = getGadget().getMetaGadget();
-            DropSystem dropSystem = player.getServer().getDropSystem();
-            if (chest.boss_chest != null && chest.drop_tag != null) {
-                // Boss chest drop
-                // TODO:check for blossom chests
-                if (req.getOpType() == InterOpType.InterOpType_INTER_OP_START) {
-                    // Two steps
-                    player.sendPacket(
-                            new PacketGadgetInteractRsp(
-                                    getGadget(),
-                                    InteractType.InteractType_INTERACT_OPEN_CHEST,
-                                    InterOpType.InterOpType_INTER_OP_START));
-                    return false;
-                }
-                // TODO:check for take_num.(some boss rewards can only be claimed once a week.). Handle boss
-                // respawn.
-                // TODO:should return Retcode.RET_RESIN_NOT_ENOUGH ?
-                if (player.getResinManager().useResin(chest.boss_chest.resin)
-                        && dropSystem.handleBossChestDrop(chest.drop_tag, player)) {
-                    // Is it correct?
-                    player
-                            .getBattlePassManager()
-                            .triggerMission(
-                                    WatcherTriggerType.TRIGGER_WORLD_BOSS_REWARD,
-                                    chest.boss_chest.monster_config_id,
-                                    1);
-                    getGadget().updateState(ScriptGadgetState.ChestOpened);
-                    player.sendPacket(
-                            new PacketGadgetInteractRsp(
-                                    this.getGadget(),
-                                    InteractTypeOuterClass.InteractType.InteractType_INTERACT_OPEN_CHEST,
-                                    InterOpType.InterOpType_INTER_OP_FINISH));
-                    return true;
-                }
-                // if failed,fallback to legacy drop system.
-            } else {
-                // Normal chest drop
-                // only the owner of the world can open chests.
-                if (player != player.getWorld().getHost()) return false;
-                boolean status = false;
-                if (chest.drop_tag != null) {
-                    status = dropSystem.handleChestDrop(chest.drop_tag, chest.level, getGadget());
-                } else if (chest.chest_drop_id != 0) {
-                    status = dropSystem.handleChestDrop(chest.chest_drop_id, chest.drop_count, getGadget());
-                }
+            if (chest != null) {
+                DropSystem dropSystem = player.getServer().getDropSystem();
+                if (chest.boss_chest != null && chest.drop_tag != null) {
+                    // Boss chest drop
+                    // TODO:check for blossom chests
+                    if (req.getOpType() == InterOpType.InterOpType_INTER_OP_START) {
+                        // Two steps
+                        player.sendPacket(
+                                new PacketGadgetInteractRsp(
+                                        getGadget(),
+                                        InteractType.InteractType_INTERACT_OPEN_CHEST,
+                                        InterOpType.InterOpType_INTER_OP_START));
+                        return false;
+                    }
+                    // TODO:check for take_num.(some boss rewards can only be claimed once a week.). Handle boss
+                    // respawn.
+                    // TODO:should return Retcode.RET_RESIN_NOT_ENOUGH ?
+                    if (player.getResinManager().useResin(chest.boss_chest.resin)
+                            && dropSystem.handleBossChestDrop(chest.drop_tag, player)) {
+                        // Is it correct?
+                        player
+                                .getBattlePassManager()
+                                .triggerMission(
+                                        WatcherTriggerType.TRIGGER_WORLD_BOSS_REWARD,
+                                        chest.boss_chest.monster_config_id,
+                                        1);
+                        getGadget().updateState(ScriptGadgetState.ChestOpened);
+                        player.sendPacket(
+                                new PacketGadgetInteractRsp(
+                                        this.getGadget(),
+                                        InteractTypeOuterClass.InteractType.InteractType_INTERACT_OPEN_CHEST,
+                                        InterOpType.InterOpType_INTER_OP_FINISH));
+                        return true;
+                    }
+                    // if failed,fallback to legacy drop system.
+                } else {
+                    // Normal chest drop
+                    // only the owner of the world can open chests.
+                    if (player != player.getWorld().getHost()) return false;
+                    boolean status = false;
+                    if (chest.drop_tag != null) {
+                        status = dropSystem.handleChestDrop(chest.drop_tag, chest.level, getGadget());
+                    } else if (chest.chest_drop_id != 0) {
+                        status = dropSystem.handleChestDrop(chest.chest_drop_id, chest.drop_count, getGadget());
+                    }
 
-                if (status) {
-                    getGadget().updateState(ScriptGadgetState.ChestOpened);
-                    player.sendPacket(
-                            new PacketGadgetInteractRsp(
-                                    getGadget(),
-                                    InteractType.InteractType_INTERACT_OPEN_CHEST,
-                                    InterOpType.InterOpType_INTER_OP_FINISH));
-                    player.sendPacket(
-                            new PacketWorldChestOpenNotify(
-                                    getGadget().getGroupId(), player.getSceneId(), chest.config_id));
-                    return true;
+                    if (status) {
+                        getGadget().updateState(ScriptGadgetState.ChestOpened);
+                        player.sendPacket(
+                                new PacketGadgetInteractRsp(
+                                        getGadget(),
+                                        InteractType.InteractType_INTERACT_OPEN_CHEST,
+                                        InterOpType.InterOpType_INTER_OP_FINISH));
+                        player.sendPacket(
+                                new PacketWorldChestOpenNotify(
+                                        getGadget().getGroupId(), player.getSceneId(), chest.config_id));
+                        return true;
+                    }
+                    // if failed,fallback to legacy drop system.
                 }
-                // if failed,fallback to legacy drop system.
+                Grasscutter.getLogger()
+                        .warn(
+                                "Can not solve chest drop: chest_drop_id = {} , drop_tag = {}.Fallback to legacy drop system.",
+                                chest.chest_drop_id,
+                                chest.drop_tag);
             }
-            Grasscutter.getLogger()
-                    .warn(
-                            "Can not solve chest drop: chest_drop_id = {} , drop_tag = {}.Fallback to legacy drop system.",
-                            chest.chest_drop_id,
-                            chest.drop_tag);
         }
 
         // Legacy chest drop system
