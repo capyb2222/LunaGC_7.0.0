@@ -35,7 +35,10 @@ public class PacketFinishedParentQuestUpdateNotify extends BasePacket {
                     emu.grasscutter.net.proto.ParentQuestOuterClass.ParentQuest.newBuilder()
                             .setParentQuestId(id)
                             .setIsFinished(true)
-                            .setParentQuestState(3) // PARENT_QUEST_STATE_FINISHED
+                            .setParentQuestState(
+                                    emu.grasscutter.game.quest.enums.ParentQuestState
+                                            .PARENT_QUEST_STATE_FINISHED
+                                            .getValue())
                             .build());
         }
         this.setData(proto);
