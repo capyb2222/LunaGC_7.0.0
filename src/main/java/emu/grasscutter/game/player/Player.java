@@ -1406,6 +1406,13 @@ public class Player implements PlayerHook, FieldFetch {
         this.getProgressManager().onPlayerLogin();
 
         session.send(new PacketFinishedParentQuestNotify(this));
+        // The client replays the opening cutscene for as long as it believes the prologue is
+        // unplayed, and it decides that for itself - no server cutscene setting reaches it. Saying
+        // every main quest is finished is the only lever there is.
+        if (emu.grasscutter.config.Configuration.GAME_OPTIONS.forceFinishMainQuestsOnLogin) {
+            emu.grasscutter.game.quest.ForcedQuests.apply(
+                    this, emu.grasscutter.game.quest.ForcedQuests.allMainQuests());
+        }
         // Replayed every login: these have no server-side quest data, so nothing else would tell
         // the client about them and the region would lock itself again.
         if (this.forcedFinishedQuests != null && !this.forcedFinishedQuests.isEmpty()) {
