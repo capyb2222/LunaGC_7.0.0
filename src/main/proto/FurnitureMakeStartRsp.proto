@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FurnitureMakeStartRspOuterClass";
+
+import "FurnitureMakeSlot.proto";
+
+message FurnitureMakeStartRsp {
+	FurnitureMakeSlot furniture_make_slot = 2;
+	int32 retcode = 3;
+}

@@ -7,5 +7,5 @@ message CompoundQueueData {
 	uint32 ECICJPBDGOC = 1;
 	uint32 LINALGNMBCF = 7;
 	uint32 compound_id = 13;
-	uint32 waitcount = 15;
+	uint32 waitCount = 15;
 }

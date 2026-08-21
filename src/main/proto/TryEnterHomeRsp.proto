@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "TryEnterHomeRspOuterClass";
+
+message TryEnterHomeRsp {
+	uint32 target_uid = 2;
+	repeated uint32 param_list = 6;
+	int32 retcode = 10;
+}

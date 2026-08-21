@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GetWidgetSlotRspOuterClass";
+
+import "WidgetSlotData.proto";
+
+message GetWidgetSlotRsp {
+	int32 retcode = 8;
+	repeated WidgetSlotData slot_list = 15;
+}

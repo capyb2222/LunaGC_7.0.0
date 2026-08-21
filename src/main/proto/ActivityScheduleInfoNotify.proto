@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "ActivityScheduleInfoNotifyOuterClass";
+
+import "ActivityScheduleInfo.proto";
+
+message ActivityScheduleInfoNotify {
+	repeated ActivityScheduleInfo activity_schedule_list = 9;
+	uint32 remain_fly_sea_lamp_num = 14;
+}

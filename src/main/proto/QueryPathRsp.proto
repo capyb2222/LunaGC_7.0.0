@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "QueryPathRspOuterClass";
+
+import "BEIKOGGHFHD.proto";
+import "Vector.proto";
+
+message QueryPathRsp {
+	enum PathStatusType {
+		PathStatusType_STATUS_FAIL = 0;
+		PathStatusType_STATUS_SUCC = 1;
+		PathStatusType_STATUS_PARTIAL = 2;
+	}
+	PathStatusType query_status = 3;
+	int32 retcode = 4;
+	int32 query_id = 8;
+	int32 FBLCJIHADLH = 10;
+	repeated BEIKOGGHFHD INAAJKIFKIF = 13;
+	repeated Vector corners = 15;
+}

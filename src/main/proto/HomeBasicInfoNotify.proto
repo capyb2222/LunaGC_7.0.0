@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HomeBasicInfoNotifyOuterClass";
+
+import "HomeBasicInfo.proto";
+
+message HomeBasicInfoNotify {
+	HomeBasicInfo basic_info = 11;
+}

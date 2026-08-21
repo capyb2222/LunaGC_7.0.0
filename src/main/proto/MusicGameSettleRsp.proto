@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "MusicGameSettleRspOuterClass";
+
+message MusicGameSettleRsp {
+	int32 retcode = 4;
+	bool is_unlock_next_level = 12;
+	bool is_new_record = 13;
+	uint64 ugc_guid = 14;
+	uint32 music_basic_id = 15;
+}

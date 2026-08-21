@@ -22,6 +22,6 @@ message SaveUgcReq {
 		_UgcLanV5CardBriefInfo lan_v5_card_brief_info = 1842;
 	}
 	UgcType ugc_type = 6;
-	KLALGJNDAFD ugctype_x = 10;
+	KLALGJNDAFD ugcType_x = 10;
 	uint32 schedule_id = 11;
 }

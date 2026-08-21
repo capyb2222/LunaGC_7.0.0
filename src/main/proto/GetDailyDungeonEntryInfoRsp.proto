@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "GetDailyDungeonEntryInfoRspOuterClass";
+
+import "DailyDungeonEntryInfo.proto";
+
+message GetDailyDungeonEntryInfoRsp {
+	int32 retcode = 8;
+	repeated DailyDungeonEntryInfo daily_dungeon_info_list = 12;
+}

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "FurnitureMakeRspOuterClass";
+
+import "BBJEJOLHJGL.proto";
+import "CEIDAKMCDHC.proto";
+import "FurnitureMakeBeHelpedData.proto";
+import "FurnitureMakeMakeInfo.proto";
+import "FurnitureMakeSlot.proto";
+
+message FurnitureMakeRsp {
+	int32 retcode = 3;
+	uint32 _furniture_make_slot_num = 5;
+	repeated FurnitureMakeBeHelpedData helped_data_list = 8;
+	FurnitureMakeSlot furniture_make_slot = 9;
+	repeated BBJEJOLHJGL FGODNAPHLGL = 10;
+	repeated FurnitureMakeMakeInfo make_info_list = 13;
+	repeated CEIDAKMCDHC NDADFCDJOBK = 14;
+}

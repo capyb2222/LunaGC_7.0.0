@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "TakeAchievementRewardRspOuterClass";
+
+import "ItemParam.proto";
+
+message TakeAchievementRewardRsp {
+	int32 retcode = 5;
+	repeated uint32 id_list = 12;
+	repeated ItemParam item_list = 13;
+}

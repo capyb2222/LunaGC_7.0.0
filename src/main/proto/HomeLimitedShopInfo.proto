@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "HomeLimitedShopInfoOuterClass";
+
+import "Vector.proto";
+
+message HomeLimitedShopInfo {
+	fixed32 next_close_time = 7;
+	uint32 uid = 8;
+	Vector djinn_pos = 9;
+	fixed32 next_open_time = 11;
+	fixed32 next_guest_open_time = 13;
+	Vector djinn_rot = 15;
+}

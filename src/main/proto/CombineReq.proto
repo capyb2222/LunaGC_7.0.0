@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "CombineReqOuterClass";
+
+message CombineReq {
+	uint32 combine_count = 4;
+	uint32 combine_id = 8;
+	uint64 avatar_guid = 13;
+}
