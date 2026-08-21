@@ -7,9 +7,9 @@ import java.io.ByteArrayOutputStream;
 
 public class PacketSetOpenStateRsp extends BasePacket {
 
-    private static final int F_RETCODE = 5;
-    private static final int F_VALUE   = 13;
-    private static final int F_KEY     = 15;
+    private static final int F_RETCODE = 12;
+    private static final int F_VALUE   = 3;
+    private static final int F_KEY     = 10;
 
     public PacketSetOpenStateRsp(int openState, int value) {
         super(PacketOpcodes.SetOpenStateRsp);
@@ -25,9 +25,9 @@ public class PacketSetOpenStateRsp extends BasePacket {
         try {
             ByteArrayOutputStream baos = new ByteArrayOutputStream(16);
             CodedOutputStream cos = CodedOutputStream.newInstance(baos);
-            if (retcode != 0) cos.writeInt32(F_RETCODE, retcode);
             if (value   != 0) cos.writeUInt32(F_VALUE,  value);
             if (key     != 0) cos.writeUInt32(F_KEY,    key);
+            if (retcode != 0) cos.writeInt32(F_RETCODE, retcode);
             cos.flush();
             return baos.toByteArray();
         } catch (Exception e) {
