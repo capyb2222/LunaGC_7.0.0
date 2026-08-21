@@ -124,14 +124,6 @@ public class EntityAvatar extends GameEntity {
 
     @Override
     public void onDeath(int killerId) {
-        var st = Thread.currentThread().getStackTrace();
-        Grasscutter.getLogger().info("[DEATH] avatarId={} entityId={} killerId={} | {}  {}  {}  {}  {}",
-            this.getAvatar().getAvatarId(), this.getId(), killerId,
-            st.length > 2 ? st[2] : "-",
-            st.length > 3 ? st[3] : "-",
-            st.length > 4 ? st[4] : "-",
-            st.length > 5 ? st[5] : "-",
-            st.length > 6 ? st[6] : "-");
         super.onDeath(killerId);
 
         this.killedType = PlayerDieType.PlayerDieType_PLAYER_DIE_KILL_BY_MONSTER;

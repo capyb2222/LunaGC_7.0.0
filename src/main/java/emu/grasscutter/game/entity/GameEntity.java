@@ -353,17 +353,6 @@ public abstract class GameEntity {
             return;
         }
 
-        if (this instanceof EntityAvatar) {
-            float curHpBefore = getFightProperty(FightProperty.FIGHT_PROP_CUR_HP);
-            var st = Thread.currentThread().getStackTrace();
-            Grasscutter.getLogger().info("[DMG] EntityAvatar id={} amount={} curHP={} | {}  {}  {}  {}",
-                this.getId(), amount, curHpBefore,
-                st.length > 2 ? st[2] : "-",
-                st.length > 3 ? st[3] : "-",
-                st.length > 4 ? st[4] : "-",
-                st.length > 5 ? st[5] : "-");
-        }
-
         EntityDamageEvent event =
                 new EntityDamageEvent(this, amount, attackType, this.getScene().getEntityById(killerId));
         event.call();
