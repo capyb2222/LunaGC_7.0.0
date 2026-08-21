@@ -175,7 +175,7 @@ public class EntityItem extends EntityBaseGadget {
 
     @Override
     public void initAbilities() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'initAbilities'");
+        // A dropped item is a trifle gadget with no config abilities. This used to throw, so any
+        // generic pass over scene entities died on the first item lying on the ground.
     }
 }
