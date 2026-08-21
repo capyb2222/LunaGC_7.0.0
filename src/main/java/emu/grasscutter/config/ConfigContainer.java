@@ -182,6 +182,16 @@ public class ConfigContainer {
         public boolean enableScriptInBigWorld = true;
         public boolean enableConsole = true;
 
+        /*
+         * How often the world is ticked, in milliseconds.
+         *
+         * This is the resolution of everything the server drives itself: region triggers, challenge
+         * and domain timers, respawns, script waits. At 1000 a domain timer can be a whole second
+         * out and walking into a trigger volume takes up to a second to register. Lower is closer
+         * to the real thing; the tick is cheap, but every scene with players in it runs on it.
+         */
+        public int tickRateMs = 200;
+
         /* Kcp internal work interval (milliseconds) */
         public int kcpInterval = 20;
         /* Controls whether packets should be logged in console or not */
@@ -272,6 +282,17 @@ public class ConfigContainer {
         public AvatarLimits avatarLimits = new AvatarLimits();
         public int sceneEntityLimit = 1000; // Unenforced. TODO: Implement.
 
+        /**
+         * Caps entity loading to 500m around the player, in both the group grid and the spawn
+         * blocks.
+         *
+         * <p>Without it a coarse grid cell - some are 1000m wide - hands back everything it holds,
+         * so walking into a new block can burst thousands of distant entities at the client in one
+         * scene sync. That is the shape of the (1,1,2) disconnect. Turn it off to get the stock
+         * behaviour back.
+         */
+        public boolean isPreventEntityError = true;
+
         public boolean watchGachaConfig = false;
         public boolean enableShopItems = false;
         public boolean staminaUsage = true;
@@ -281,6 +302,26 @@ public class ConfigContainer {
 
         /** Cutscene played once, the first time an account reaches a scene. 0 disables it. */
         public int firstLoginCutscene = 0;
+
+        /**
+         * Stops the server sending any cutscene at all - the login one and the ones scene scripts
+         * ask for alike. The /cutscene command still works, since that is asked for explicitly.
+         *
+         * <p>The client also plays cutscenes off its own quest state, which no server setting can
+         * reach. This only guarantees none of them came from here.
+         */
+        public boolean disableCutscenes = false;
+
+        /**
+         * Marks every main quest finished on the client at login, as {@code /quest forcefinish all}
+         * does by hand.
+         *
+         * <p>The client decides on its own to replay the opening cutscene while it believes the
+         * prologue is unplayed, and no cutscene setting reaches that - the only lever the server has
+         * is telling it the quests are done. It also opens quest-gated region barriers, so this is
+         * the sandbox answer rather than the faithful one.
+         */
+        public boolean forceFinishMainQuestsOnLogin = false;
 
         public NewAccountIntro newAccountIntro = new NewAccountIntro();
 
@@ -373,12 +414,12 @@ public class ConfigContainer {
             /* Replace the client's beta watermark text for everyone on this server. */
             public boolean enabled = true;
             /* Text to show. Capped at 254 bytes by the payload format; longer values are ignored. */
-            public String text = "TuttyTeam";
-            /* Colour as hex (#RRGGBB or #RGB). Leave blank to keep the client's default grey. */
+            public String text = "CapyPS";
+            /* Colour as hex (#RRGGBB or #RGB). Leave blank to keep the client's default white. */
             public String color = "#FFFFFF";
             /* Set to fade from "color" to this one across the text. Blank means a flat colour.
              * A gradient costs ~24 bytes per character, so it fits roughly 10 characters. */
-            public String gradientTo = "#00FF80";
+            public String gradientTo = "#6032a8";
             /* CmdId to send the wind seed notify under. 0 uses PacketOpcodes.WindSeedClientNotify,
              * which the 7.0 dump gives as 226. Set to -1 to send nothing at all.
              *
