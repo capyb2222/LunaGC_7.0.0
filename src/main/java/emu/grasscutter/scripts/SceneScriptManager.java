@@ -400,6 +400,7 @@ public class SceneScriptManager {
     public SceneGroup getGroupById(int groupId) {
         for (var block : getBlocks().values()) {
             this.getScene().loadBlock(block);
+            if (block.groups == null) continue;
 
             var group = block.groups.get(groupId);
             if (group == null) {
@@ -411,6 +412,24 @@ public class SceneScriptManager {
                 this.getScene().onRegisterGroups();
             }
             return group;
+        }
+        return null;
+    }
+
+    /**
+     * Looks a group up in the block metadata WITHOUT loading it.
+     *
+     * <p>getGroupById loads any group it finds that is not already instanced. Calling it from
+     * inside the load path therefore re-entered the load for the group being loaded, and every
+     * monster and chest in it was created twice.
+     */
+    private SceneGroup findGroupById(int groupId) {
+        for (var block : getBlocks().values()) {
+            this.getScene().loadBlock(block);
+            if (block.groups == null) continue;
+
+            var group = block.groups.get(groupId);
+            if (group != null) return group;
         }
         return null;
     }
@@ -430,7 +449,7 @@ public class SceneScriptManager {
             if (instance != null) {
                 cachedSceneGroupsInstances.put(groupId, instance);
                 this.cachedSceneGroupsInstances.get(groupId).setCached(false);
-                this.cachedSceneGroupsInstances.get(groupId).setLuaGroup(getGroupById(groupId));
+                this.cachedSceneGroupsInstances.get(groupId).setLuaGroup(findGroupById(groupId));
             }
         }
 
@@ -1085,6 +1104,42 @@ public class SceneScriptManager {
 
     public EntityNPC createNPC(SceneNPC npc, int blockId, int suiteId) {
         return new EntityNPC(getScene(), npc, blockId, suiteId);
+    }
+
+    /** Same as {@link #createMonster}, but the caller chooses where it appears. Backs ScriptLib. */
+    public EntityMonster createMonsterByConfigIdByPos(
+            SceneGroup group, int configId, Position pos, Position rot) {
+        if (group == null || group.monsters == null) return null;
+
+        var monster = group.monsters.get(configId);
+        if (monster == null) {
+            Grasscutter.getLogger()
+                    .warn("Could not find monster config {} in group {}.", configId, group.id);
+            return null;
+        }
+
+        var data = GameData.getMonsterDataMap().get(monster.monster_id);
+        if (data == null) return null;
+
+        var level = getScene().getLevelForMonster(monster.config_id, monster.level);
+        var entity =
+                new EntityMonster(
+                        getScene(),
+                        data,
+                        pos != null ? pos : monster.pos,
+                        rot != null ? rot : monster.rot,
+                        level);
+        entity.setGroupId(group.id);
+        entity.setBlockId(group.block_id);
+        entity.setConfigId(monster.config_id);
+        entity.setPoseId(monster.pose_id);
+        entity.setMetaMonster(monster);
+
+        this.getScriptMonsterSpawnService()
+                .onMonsterCreatedListener
+                .forEach(action -> action.onNotify(entity));
+
+        return entity;
     }
 
     public EntityMonster createMonster(int groupId, int blockId, SceneMonster monster) {
