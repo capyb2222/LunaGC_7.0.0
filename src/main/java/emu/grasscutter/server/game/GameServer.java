@@ -380,7 +380,7 @@ public final class GameServer extends KcpServer implements Iterable<Player> {
                     }
                 },
                 new Date(),
-                1000L);
+                Math.max(1, GAME_INFO.tickRateMs));
         Grasscutter.getLogger().info(translate("messages.status.free_software"));
         Grasscutter.getLogger()
                 .info(translate("messages.game.address_bind", GAME_INFO.accessAddress, address.getPort()));
