@@ -2,6 +2,7 @@ package emu.grasscutter.game;
 
 import static emu.grasscutter.config.Configuration.*;
 
+import at.favre.lib.crypto.bcrypt.BCrypt;
 import dev.morphia.annotations.*;
 import emu.grasscutter.Grasscutter;
 import emu.grasscutter.database.DatabaseHelper;
@@ -122,6 +123,10 @@ public class Account {
         return this.sessionKey;
     }
 
+    public void setSessionKey(String sessionKey) {
+        this.sessionKey = sessionKey;
+    }
+
     public String generateSessionKey() {
         this.sessionKey = Utils.bytesToHex(Crypto.createSessionKey(32));
         this.save();
@@ -138,6 +143,16 @@ public class Account {
         if (this.password == null || this.password.isEmpty()) {
             return true;
         }
+        if (password == null) {
+            return false;
+        }
+        // BCrypt-hashed password (new-style accounts).
+        if (this.password.startsWith("$2")) {
+            return BCrypt.verifyer()
+                    .verify(password.toCharArray(), this.password.toCharArray())
+                    .verified;
+        }
+        // Legacy plaintext password.
         return this.password.equals(password);
     }
 
