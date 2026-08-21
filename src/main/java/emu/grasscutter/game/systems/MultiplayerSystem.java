@@ -68,7 +68,7 @@ public class MultiplayerSystem extends BaseGameSystem {
 
             world.addPlayer(hostPlayer);
 
-            hostPlayer.sendPacket(new PacketPlayerEnterSceneNotify(hostPlayer, hostPlayer, EnterType.EnterType_ENTER_SELF, EnterReason.HostFromSingleToMp, hostPlayer.getScene().getId(), hostPlayer.getPosition()));
+            hostPlayer.sendPacket(new PacketPlayerEnterSceneNotify(hostPlayer, hostPlayer, EnterType.EnterType_ENTER_OTHER, EnterReason.HostFromSingleToMp, hostPlayer.getScene().getId(), hostPlayer.getPosition()));
             hostPlayer.sendPacket(new PacketEnterScenePeerNotify(hostPlayer));
         }
 
@@ -101,7 +101,7 @@ public class MultiplayerSystem extends BaseGameSystem {
         World world = new World(player);
         world.addPlayer(player);
 
-        player.sendPacket(new PacketPlayerEnterSceneNotify(player, EnterType.EnterType_ENTER_SELF, EnterReason.TeamBack, player.getScene().getId(), player.getPosition()));
+        player.sendPacket(new PacketPlayerEnterSceneNotify(player, EnterType.EnterType_ENTER_OTHER, EnterReason.TeamBack, player.getScene().getId(), player.getPosition()));
         player.sendPacket(new PacketEnterScenePeerNotify(player));
 
         return true;
@@ -126,7 +126,7 @@ public class MultiplayerSystem extends BaseGameSystem {
         World world = new World(victim);
         world.addPlayer(victim);
 
-        victim.sendPacket(new PacketPlayerEnterSceneNotify(victim, EnterType.EnterType_ENTER_SELF, EnterReason.TeamKick, victim.getScene().getId(), victim.getPosition()));
+        victim.sendPacket(new PacketPlayerEnterSceneNotify(victim, EnterType.EnterType_ENTER_OTHER, EnterReason.TeamKick, victim.getScene().getId(), victim.getPosition()));
         victim.sendPacket(new PacketEnterScenePeerNotify(victim));
         return true;
     }
