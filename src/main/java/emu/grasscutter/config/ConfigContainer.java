@@ -414,7 +414,7 @@ public class ConfigContainer {
             /* Replace the client's beta watermark text for everyone on this server. */
             public boolean enabled = true;
             /* Text to show. Capped at 254 bytes by the payload format; longer values are ignored. */
-            public String text = "Capy";
+            public String text = "CapyGC";
             /* Colour as hex (#RRGGBB or #RGB). Leave blank to keep the client's default white. */
             public String color = "#FFFFFF";
             /* Set to fade from "color" to this one across the text. Blank means a flat colour.
