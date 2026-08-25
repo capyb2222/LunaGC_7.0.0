@@ -59,7 +59,7 @@ public final class DefaultAuthenticators {
                                     translate(
                                             "messages.dispatch.account.account_login_create_success",
                                             address,
-                                            response.data.account.uid));
+                                            account.getId()));
                 }
             } else if (account != null) {
                 // Lock the entered password as the account password on first login
