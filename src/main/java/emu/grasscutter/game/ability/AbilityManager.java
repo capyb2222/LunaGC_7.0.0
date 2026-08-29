@@ -206,8 +206,10 @@ public final class AbilityManager extends BasePlayerManager {
         for (var obj : handlerClassesAction) {
             try {
                 if (obj.isAnnotationPresent(AbilityAction.class)) {
-                    AbilityModifierAction.Type abilityAction = obj.getAnnotation(AbilityAction.class).value();
-                    actionHandlers.put(abilityAction, obj.getDeclaredConstructor().newInstance());
+                    var handler = obj.getDeclaredConstructor().newInstance();
+                    for (var abilityAction : obj.getAnnotation(AbilityAction.class).value()) {
+                        actionHandlers.put(abilityAction, handler);
+                    }
                 } else {
                     continue;
                 }

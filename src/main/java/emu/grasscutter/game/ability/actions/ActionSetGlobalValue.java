@@ -9,7 +9,18 @@ import emu.grasscutter.game.props.FightProperty;
 import emu.grasscutter.server.packet.send.PacketServerGlobalValueChangeNotify;
 import it.unimi.dsi.fastutil.objects.Object2FloatOpenHashMap;
 
-@AbilityAction(AbilityModifierAction.Type.SetGlobalValue)
+/**
+ * Writes an ability's global value.
+ *
+ * <p>V2 is the same write with more fields hung off it - a min/max range, an off-stage flag - none
+ * of which this side acts on, so it lands here rather than in a near-copy. Its clamp is deliberately
+ * not honoured: V1 carries {@code useLimitRange} too, in 974 places against V2's 235, and applying
+ * it here would quietly change the long-standing path as well as the new one.
+ */
+@AbilityAction({
+    AbilityModifierAction.Type.SetGlobalValue,
+    AbilityModifierAction.Type.SetGlobalValueV2
+})
 public final class ActionSetGlobalValue extends AbilityActionHandler {
 
     @Override

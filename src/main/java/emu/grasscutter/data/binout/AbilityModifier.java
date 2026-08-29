@@ -249,6 +249,7 @@ public class AbilityModifier implements Serializable {
             SetGlobalValue,
             SetGlobalValueByTargetDistance,
             SetGlobalValueToOverrideMap,
+            SetGlobalValueV2,
             SetKeepInAirVelocityForce,
             SetMaterialParamFloatByTransform,
             SetNeuronEnable,

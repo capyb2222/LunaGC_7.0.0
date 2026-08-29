@@ -5,5 +5,6 @@ import java.lang.annotation.*;
 
 @Retention(RetentionPolicy.RUNTIME)
 public @interface AbilityAction {
-    AbilityModifierAction.Type value();
+    /** One or more action types this handler answers to. */
+    AbilityModifierAction.Type[] value();
 }
