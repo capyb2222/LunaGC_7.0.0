@@ -118,6 +118,12 @@ public final class GiveCommand implements CommandHandler {
             boolean isTestAvatar = avatarData.getUseType().equals("AVATAR_TEST");
             if (id < 10000002 || id >= 10000901) continue; // Exclude test avatars in id range
             if (isTestAvatar) continue; // Exclude test avatars by type
+            // owned ones are refused by addAvatar, so update them the way a single /give does
+            Avatar owned = player.getAvatars().getAvatarById(id);
+            if (owned != null) {
+                updateAvatar(player, owned, param);
+                continue;
+            }
             // Don't try to add each avatar to the current team
             player.addAvatar(
                     makeAvatar(avatarData, param.lvl, promoteLevel, param.constellation, param.skillLevel),
@@ -269,7 +275,7 @@ public final class GiveCommand implements CommandHandler {
         // Send the items in multiple packets
         int lastIdx = items.size() - 1;
         for (int i = 0; i <= lastIdx; i += packetSize) {
-            player.getInventory().addItems(items.subList(i, Math.min(i + packetSize, lastIdx)));
+            player.getInventory().addItems(items.subList(i, Math.min(i + packetSize, items.size())));
         }
     }
 
