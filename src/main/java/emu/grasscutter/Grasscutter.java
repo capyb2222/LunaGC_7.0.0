@@ -156,6 +156,10 @@ public final class Grasscutter {
             Grasscutter.updateDayOfWeek();
             ResourceLoader.loadAll();
 
+            // The game server, and with it the shop system, is built before the resources are, so
+            // the shops that come out of the game data are listed now.
+            if (gameServer != null) gameServer.getShopSystem().loadArtifactShop();
+
             // Generate handbooks.
             Tools.createGmHandbooks(false);
             // Generate gacha mappings.

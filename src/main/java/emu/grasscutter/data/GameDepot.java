@@ -8,6 +8,7 @@ import emu.grasscutter.game.world.SpawnDataEntry;
 import emu.grasscutter.utils.objects.WeightedList;
 import it.unimi.dsi.fastutil.ints.*;
 import java.util.*;
+import java.util.stream.Collectors;
 import lombok.*;
 
 public class GameDepot {
@@ -19,6 +20,8 @@ public class GameDepot {
             new Int2ObjectOpenHashMap<>();
     private static Int2ObjectMap<List<ReliquaryAffixData>> relicAffixDepot =
             new Int2ObjectOpenHashMap<>();
+    private static Int2IntMap relicAffixValueTier = new Int2IntOpenHashMap();
+    private static Int2IntMap relicAffixValueTierCount = new Int2IntOpenHashMap();
 
     @Getter @Setter private static Map<String, AvatarConfig> playerAbilities = new HashMap<>();
 
@@ -49,6 +52,7 @@ public class GameDepot {
                     relicAffixDepot.computeIfAbsent(data.getDepotId(), k -> new ArrayList<>());
             list.add(data);
         }
+        relicAffixDepot.values().forEach(GameDepot::rankAffixValues);
         // Let the server owner know if theyre missing weights
         if (relicMainPropDepot.size() == 0 || relicAffixDepot.size() == 0) {
             Grasscutter.getLogger()
@@ -71,6 +75,33 @@ public class GameDepot {
 
     public static List<ReliquaryAffixData> getRelicAffixList(int depot) {
         return relicAffixDepot.get(depot);
+    }
+
+    /**
+     * Every substat rolls one of a handful of fixed values - four of them at 5 stars. This is where
+     * an affix sits in that range, 0 being the lowest roll, so a caller can favour the good ones.
+     */
+    public static int getRelicAffixValueTier(ReliquaryAffixData affix) {
+        return relicAffixValueTier.get(affix.getId());
+    }
+
+    /** How many values the affix's stat can roll. See {@link #getRelicAffixValueTier}. */
+    public static int getRelicAffixValueTierCount(ReliquaryAffixData affix) {
+        return relicAffixValueTierCount.get(affix.getId());
+    }
+
+    private static void rankAffixValues(List<ReliquaryAffixData> depot) {
+        depot.stream()
+                .collect(Collectors.groupingBy(ReliquaryAffixData::getFightProp))
+                .values()
+                .forEach(
+                        rolls -> {
+                            rolls.sort(Comparator.comparingDouble(ReliquaryAffixData::getPropValue));
+                            for (int i = 0; i < rolls.size(); i++) {
+                                relicAffixValueTier.put(rolls.get(i).getId(), i);
+                                relicAffixValueTierCount.put(rolls.get(i).getId(), rolls.size());
+                            }
+                        });
     }
 
     public static void addSpawnListById(

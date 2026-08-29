@@ -295,6 +295,7 @@ public class ConfigContainer {
 
         public boolean watchGachaConfig = false;
         public boolean enableShopItems = false;
+        public ArtifactShopOptions artifactShop = new ArtifactShopOptions();
         public boolean staminaUsage = true;
         public boolean energyUsage = true;
         public boolean fishhookTeleport = true;
@@ -322,6 +323,43 @@ public class ConfigContainer {
          * the sandbox answer rather than the faithful one.
          */
         public boolean forceFinishMainQuestsOnLogin = false;
+
+        /**
+         * Lists every official 5-star artifact piece in a shop. Buying one rolls it the way an
+         * artifact domain would - a main stat out of the slot's real pool and substats out of the
+         * excel affix table - only with the odds leaning towards crit and damage.
+         */
+        public static class ArtifactShopOptions {
+            public boolean enabled = true;
+
+            /**
+             * Where the pieces are listed. 1004 is the general goods store - Blanche's Second Life,
+             * in Mondstadt - which is where this server already keeps its custom goods. 1001 is
+             * Paimon's Bargains, reachable from the shop menu without walking anywhere.
+             */
+            public int shopId = 1004;
+
+            public int costMora = 20000;
+            public int costPrimogems = 0;
+            /** An item to charge on top of the currencies above, e.g. 220007 for Sanctifying Unction. */
+            public int costItemId = 0;
+            public int costItemCount = 0;
+            /** How many of each piece one player may buy. 0 for unlimited. */
+            public int buyLimit = 0;
+
+            /** The upgrade level the piece arrives at, 0 to 20. 20 is a fully levelled artifact. */
+            public int artifactLevel = 20;
+
+            /** Weight multiplier for CRIT Rate and CRIT DMG. 1 rolls them as the game does. */
+            public double critWeight = 8;
+            /** Weight multiplier for ATK%, Elemental Mastery and the DMG bonuses. */
+            public double damageWeight = 3;
+            /**
+             * How hard each stat leans towards the top of its four possible values. 0 picks between
+             * them evenly, the way the game does.
+             */
+            public double highRollBias = 3;
+        }
 
         public NewAccountIntro newAccountIntro = new NewAccountIntro();
 

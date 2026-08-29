@@ -10,12 +10,15 @@ import emu.grasscutter.server.game.*;
 import emu.grasscutter.utils.Utils;
 import it.unimi.dsi.fastutil.ints.*;
 import java.util.*;
+import lombok.Getter;
 
 public class ShopSystem extends BaseGameSystem {
     private static final int REFRESH_HOUR = 4; // In GMT+8 server
     private static final String TIME_ZONE = "Asia/Shanghai"; // GMT+8 Timezone
     private final Int2ObjectMap<List<ShopInfo>> shopData;
     private final Int2ObjectMap<List<ItemParamData>> shopChestData;
+
+    @Getter private final ArtifactShop artifactShop = new ArtifactShop();
 
     public ShopSystem(GameServer server) {
         super(server);
@@ -107,6 +110,15 @@ public class ShopSystem extends BaseGameSystem {
     public synchronized void load() {
         loadShop();
         loadShopChest();
+        loadArtifactShop();
+    }
+
+    /**
+     * Lists the 5-star artifacts. Called on its own after the resources finish loading, because the
+     * shop system is built before them and has no item data to work from yet.
+     */
+    public synchronized void loadArtifactShop() {
+        this.artifactShop.install(getShopData());
     }
 
     public GameServer getServer() {

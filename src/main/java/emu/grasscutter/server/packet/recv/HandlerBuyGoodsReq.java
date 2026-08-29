@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.data.common.ItemParamData;
-import emu.grasscutter.game.inventory.GameItem;
+import emu.grasscutter.game.inventory.*;
 import emu.grasscutter.game.props.ActionReason;
 import emu.grasscutter.game.shop.*;
 import emu.grasscutter.net.packet.*;
@@ -67,6 +67,18 @@ public class HandlerBuyGoodsReq extends PacketHandler {
                 continue;
             }
 
+            var artifactShop = session.getServer().getShopSystem().getArtifactShop();
+            var piece = artifactShop.getPiece(sg.getGoodsId());
+            if (piece != null) {
+                // Artifacts do not stack, so a batch buy needs that many free slots. Asking before
+                // the payment keeps a full bag from swallowing the mora and handing back nothing.
+                var relics = player.getInventory().getInventoryTab(ItemType.ITEM_RELIQUARY);
+                if (buyCount > relics.getMaxCapacity() - relics.getSize()) {
+                    session.send(new PacketBuyGoodsRsp(Retcode.RET_PACK_EXCEED_MAX_WEIGHT));
+                    continue;
+                }
+            }
+
             List<ItemParamData> costs =
                     new ArrayList<ItemParamData>(sg.getCostItemList()); // Can this even be null?
             costs.add(new ItemParamData(202, sg.getScoin()));
@@ -89,8 +101,18 @@ public class HandlerBuyGoodsReq extends PacketHandler {
                 session.send(new PacketBuyGoodsRsp(Retcode.RET_SVR_ERROR));
                 continue;
             }
-            GameItem item = new GameItem(itemId, itemCount);
-            player.getInventory().addItem(item, ActionReason.Shop, true);
+            if (piece != null) {
+                // An artifact never comes out the same twice, so a batch buy is that many
+                // separately rolled pieces rather than one piece counted up.
+                var rolled = new ArrayList<GameItem>(buyCount);
+                for (int i = 0; i < buyCount; i++) {
+                    rolled.add(artifactShop.roll(piece));
+                }
+                player.getInventory().addItems(rolled, ActionReason.Shop);
+            } else {
+                GameItem item = new GameItem(itemId, itemCount);
+                player.getInventory().addItem(item, ActionReason.Shop, true);
+            }
             session.send(
                     new PacketBuyGoodsRsp(
                             buyGoodsReq.getShopType(),

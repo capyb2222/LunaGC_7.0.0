@@ -26,6 +26,10 @@ public class ShopInfo {
     @Setter private transient ShopRefreshType shopRefreshType;
     @Getter @Setter private int shopRefreshParam;
 
+    public ShopInfo() {
+        // Gson, and the goods the server builds itself
+    }
+
     public ShopInfo(ShopGoodsData sgd) {
         this.goodsId = sgd.getGoodsId();
         this.goodsItem = new ItemParamData(sgd.getItemId(), sgd.getItemCount());
