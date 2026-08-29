@@ -1,7 +1,7 @@
 # LunaGC-7.0.0 WIP
 
 ## Note from the maintainer
-This is a fork from girluh's [LunaGC](https://github.com/girluh/LunaGC). Ima stop updating for now, will update next patch tho (if proto and nt is available :3)
+This is a fork from girluh's [LunaGC](https://github.com/girluh/LunaGC). VERY WIP, so expect many bugs.
 
 ## Updated version of Grasscutters, with some new features implemented.
 If you need help, please create an issue in this repository and I will try my best to help.
