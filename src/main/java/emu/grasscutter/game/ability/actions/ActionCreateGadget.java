@@ -16,6 +16,12 @@ public class ActionCreateGadget extends AbilityActionHandler {
     public boolean execute(
             Ability ability, AbilityModifierAction action, ByteString abilityData, GameEntity target) {
         var entity = ability.getOwner();
+
+        // the client owns this chain and spawns its own copy, so ours would just be a duplicate
+        if (entity instanceof EntityClientGadget) {
+            return true;
+        }
+
         AbilityActionCreateGadget createGadget;
         try {
             createGadget = AbilityActionCreateGadget.parseFrom(abilityData);
