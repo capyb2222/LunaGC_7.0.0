@@ -94,6 +94,12 @@ public final class UnlockAllCommand implements CommandHandler {
         var quests = emu.grasscutter.game.quest.ForcedQuests.allMainQuests();
         emu.grasscutter.game.quest.ForcedQuests.apply(targetPlayer, quests);
 
+        for (var avatar : targetPlayer.getAvatars().getAvatars().values()) {
+            avatar.recalcStats(true);
+            avatar.save();
+        }
+        targetPlayer.sendPacket(new PacketAvatarDataNotify(targetPlayer));
+
         targetPlayer.save();
 
         CommandHandler.sendMessage(
