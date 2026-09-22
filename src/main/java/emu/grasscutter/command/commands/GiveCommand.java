@@ -3,6 +3,7 @@ package emu.grasscutter.command.commands;
 import static emu.grasscutter.GameConstants.*;
 import static emu.grasscutter.command.CommandHelpers.*;
 
+import emu.grasscutter.Grasscutter;
 import emu.grasscutter.command.*;
 import emu.grasscutter.data.*;
 import emu.grasscutter.data.excels.ItemData;
@@ -108,6 +109,7 @@ public final class GiveCommand implements CommandHandler {
     }
 
     private static void giveAllAvatars(Player player, GiveItemParameters param) {
+        int granted = 0, updated = 0, failed = 0;
         int promoteLevel = Avatar.getMinPromoteLevel(param.lvl);
         if (param.constellation < 0 || param.constellation > 6)
             param.constellation =
@@ -115,20 +117,28 @@ public final class GiveCommand implements CommandHandler {
         // automatically be 6
         for (AvatarData avatarData : GameData.getAvatarDataMap().values()) {
             int id = avatarData.getId();
-            boolean isTestAvatar = avatarData.getUseType().equals("AVATAR_TEST");
-            if (id < 10000002 || id >= 10000901) continue; // Exclude test avatars in id range
-            if (isTestAvatar) continue; // Exclude test avatars by type
-            // owned ones are refused by addAvatar, so update them the way a single /give does
-            Avatar owned = player.getAvatars().getAvatarById(id);
-            if (owned != null) {
-                updateAvatar(player, owned, param);
-                continue;
+            if (id < 10000002 || id >= 10000990) continue;
+            if (!"AVATAR_FORMAL".equals(avatarData.getUseType())) continue;
+            try {
+                // owned ones are refused by addAvatar, so update them the way a single /give does
+                Avatar owned = player.getAvatars().getAvatarById(id);
+                if (owned != null) {
+                    updateAvatar(player, owned, param);
+                    updated++;
+                    continue;
+                }
+                // Don't try to add each avatar to the current team
+                player.addAvatar(
+                        makeAvatar(avatarData, param.lvl, promoteLevel, param.constellation, param.skillLevel),
+                        false);
+                granted++;
+            } catch (Exception e) {
+                failed++;
+                Grasscutter.getLogger().warn("Could not grant avatar {}", id, e);
             }
-            // Don't try to add each avatar to the current team
-            player.addAvatar(
-                    makeAvatar(avatarData, param.lvl, promoteLevel, param.constellation, param.skillLevel),
-                    false);
         }
+        Grasscutter.getLogger()
+                .info("give avatars: {} granted, {} updated, {} failed", granted, updated, failed);
     }
 
     private static List<GameItem> makeUnstackableItems(GiveItemParameters param) {
