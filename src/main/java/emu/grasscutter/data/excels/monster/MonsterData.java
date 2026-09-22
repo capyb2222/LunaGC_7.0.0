@@ -40,6 +40,7 @@ public class MonsterData extends GameResource {
     private String excludeWeathers;
     private int featureTagGroupID;
     private int mpPropID;
+    @SerializedName(value = "skin", alternate = {"FANNLBPFJAJ"})
     private String skin;
     private int describeId;
     private int combatBGMLevel;

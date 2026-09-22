@@ -1,5 +1,6 @@
 package emu.grasscutter.data.excels.avatar;
 
+import com.google.gson.annotations.SerializedName;
 import emu.grasscutter.data.*;
 import emu.grasscutter.data.ResourceType.LoadPriority;
 import emu.grasscutter.data.common.PropGrowCurve;
@@ -14,6 +15,7 @@ import java.util.*;
     public class VehicleData extends GameResource {
 
         @Getter(onMethod_ = @Override)
+        @SerializedName(value = "id", alternate = {"ID"})
         private int id;
 
         @Getter

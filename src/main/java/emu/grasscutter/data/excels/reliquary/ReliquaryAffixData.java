@@ -12,6 +12,7 @@ public class ReliquaryAffixData extends GameResource {
     private int id;
 
     private int depotId;
+    @SerializedName(value = "groupId", alternate = {"group_id"})
     private int groupId;
 
     @SerializedName("propType")

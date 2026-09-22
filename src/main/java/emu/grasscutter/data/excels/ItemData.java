@@ -66,6 +66,7 @@ public class ItemData extends GameResource {
     // Weapon
     private int weaponPromoteId;
     private int weaponBaseExp;
+    @SerializedName(value = "storyId", alternate = {"LAJDDBLOPIO"})
     private int storyId;
     private int avatarPromoteId;
     private int awakenMaterial;

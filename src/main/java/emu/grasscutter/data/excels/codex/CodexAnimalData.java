@@ -8,6 +8,7 @@ import lombok.Getter;
 @Getter
 public class CodexAnimalData extends GameResource {
     @Getter(onMethod_ = @Override)
+    @SerializedName(value = "id", alternate = {"Id"})
     private int id;
 
     private String type;
