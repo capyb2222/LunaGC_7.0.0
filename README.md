@@ -1,7 +1,9 @@
-# LunaGC-7.0.0 WIP
+# LunaGC-7.1.0 WIP
 
 ## Note from the maintainer
-This is a fork from girluh's [LunaGC](https://github.com/girluh/LunaGC). VERY WIP, so expect many bugs.
+This is a fork from girluh's [LunaGC](https://github.com/girluh/LunaGC). Very early update, so expect many bugs.
+
+![Vesna](image/vesna.png)
 
 ## Updated version of Grasscutters, with some new features implemented.
 If you need help, please create an issue in this repository and I will try my best to help.
@@ -21,7 +23,7 @@ Contribute if you want/can...
 - Get [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 - Get [MongoDB Community Server](https://www.mongodb.com/try/download/community)
 - Get [NodeJS](https://nodejs.org/dist/v20.15.0/node-v20.15.0-x64.msi) (For handbook generation)
-- Get game version REL7.0.0
+- Get game version REL7.1.0
 - Make sure to install java and set the environment variables.
 - Build the server (refer to "Compile the actual server" in this guide.)
 - Download the [Resources](https://github.com/capyb2222/LunaGC-Resources), make a new folder called `resources` in the downloaded LunaGC folder and then extract the resources in that new folder.
@@ -117,5 +119,7 @@ Setting the last three to `1`, `1` and `0` gives you plain, unweighted domain ro
 girluh's [LunaGC](https://github.com/girluh/LunaGC)
 
 kitkat's [patch](https://github.com/capyb2222/animegamepatch)
+
+kitkat's [proto](https://gitlab.com/kitkat-multiverse/genshin-protocol)
 
 Terax for nt
